@@ -1,0 +1,276 @@
+@PP53 | Facial droop: examine CN VII, interpret results, explain (stroke vs Bell's palsy)
+src: Nottingham Medicine station bank (CN VII examination) · CP3 2019 first sit (CN exam: facial sensation loss + explain CT)
+u: 141, 99
+fr: ex, di, expl
+ex: cn
+door: You are a Foundation doctor in A&E. Your patient has facial drooping and is very worried they've had a stroke. Tasks: examine the 7th cranial nerve (you may ask relevant questions), interpret the investigations, and explain your diagnosis and management to the patient.
+trig: Can't wrinkle the forehead on the affected side (forehead involved) + sudden → LMN: Bell's palsy
+trig: Forehead spared (can raise both eyebrows) + sudden + limb weakness/speech → UMN: stroke
+hook: "Forehead Free = Face Far (central/UMN)". Bilateral cortical supply to the upper face spares the forehead in stroke.
+hook: CN VII exam "Raise, Screw, Blow, Show": raise eyebrows, screw eyes shut against resistance, blow out cheeks, show teeth. Then taste (anterior 2/3) and hyperacusis (stapedius).
+hook: Bell's: prednisolone within 72 h (50 mg for 10 days, or 60 mg for 5 days then taper) + eye protection.
+clinch: ✅ Vesicles in the ear canal/palate + facial palsy = Ramsay Hunt (VZV) → add aciclovir
+clinch: ❌ Forehead sparing = UMN: stroke pathway (FAST, CT head, thrombolysis window)
+clinch: ✅ Altered taste + hyperacusis = lesion proximal to the chorda tympani and stapedius branches (Bell's in the facial canal)
+money: She can't raise her left eyebrow or close her left eye fully, so the forehead isn't spared: a lower motor neurone facial palsy, most likely Bell's palsy. I'd start prednisolone today, protect the eye with lubricating drops and taping at night, and expect most people to recover fully within a few months.
+trap: Not testing eye closure against resistance (orbicularis oculi)
+trap: Forgetting the eye: corneal exposure is the main complication
+var: A | Patient, 64 | UMN facial weakness: left MCA ischaemic stroke
+a: Sudden facial droop on the right this morning; right hand clumsy; speech a bit slurred. You can raise both eyebrows. Taste normal; no hyperacusis.
+r: Forehead sparing on the right; mouth droop right; mild right arm pronator drift. CT head: no haemorrhage. Onset 2 hours ago.
+x: Ischaemic stroke (left MCA): stroke team now; CT confirms no bleed; thrombolysis within 4.5 h (alteplase/tenecteplase) if eligible; CT angiography for thrombectomy (up to 6 h, selected to 24 h); bloods incl. clotting, glucose; aspirin 300 mg once haemorrhage excluded and if no thrombolysis (or 24 h after); swallow screen; hyperacute stroke unit.
+var: B | Patient, 38 | LMN facial palsy: Bell's palsy
+a: Woke with the left side of your face drooping; recent cold/viral illness; left eye feels dry and you can't fully close it. Taste slightly diminished but not lost; sounds seem louder in the left ear. You're very worried it's a stroke.
+r: Forehead not spared (can't raise left eyebrow); incomplete eye closure; ear canal normal (no vesicles). Bloods normal; imaging normal.
+x: Bell's palsy: prednisolone (within 72 h) e.g. 50 mg OD 10 days; eye care: lubricating drops by day, ointment at night, tape eye shut at night, sunglasses/eye patch; return if eye red/painful; review; most recover fully (around 70–85% by 3–6 months; often stated ~9 months for full recovery); refer if no improvement by 3 weeks or atypical.
+dom: Examination | Inspection (asymmetry, nasolabial fold, forehead creases); !raise eyebrows; !eyes shut tight against resistance; blow out cheeks; show teeth; taste; hyperacusis; ears for vesicles; corneal reflex mention; limbs/speech screen for stroke
+dom: Clinical reasoning | !UMN (forehead sparing) → stroke vs !LMN → Bell's palsy
+dom: Information giving | Explains diagnosis clearly; addresses stroke fear; plan
+dom: Management | A: stroke pathway (CT, thrombolysis ± thrombectomy, aspirin after haemorrhage excluded); B: prednisolone 10 days, eye drops/tape, expected recovery
+s: Examine | Could you raise your eyebrows for me, as if you're surprised? | Forehead test: the UMN/LMN split in one move.
+s: Examine | Screw your eyes shut tightly and don't let me open them. | Orbicularis oculi strength tells you about corneal risk.
+s: Examine | Blow your cheeks out. Now show me your teeth. | Lower face strength.
+s: Examine | Have you noticed any change in taste, or sounds seeming louder on one side? | Taste and hyperacusis localise the lesion in the facial canal.
+s: Examine | I'll look in your ear for any blisters. | Ramsay Hunt needs aciclovir: a safety mark.
+s[B]: Explain | I know you were worried about a stroke. Because your forehead is affected too, this is a problem with the facial nerve itself, called Bell's palsy, not a stroke. | Addresses her fear with the reasoning.
+s[B]: Explain | A short course of steroid tablets, prednisolone, for 10 days helps the nerve recover. Most people get better completely over a few months. | Treatment + prognosis.
+s[B]: Explain | Because your eye doesn't close fully, use lubricating drops in the day and ointment at night and tape it shut when you sleep. If it gets red or painful, come back that day. | Eye protection is the key complication-prevention mark.
+s[A]: Explain | Because your forehead still moves, this is from the brain rather than the nerve in the face, and with the arm weakness it's likely a stroke. The scan shows no bleeding, so a clot-busting treatment may help: the stroke team is on their way. | UMN reasoning + urgent pathway.
+
+@PP54 | Leg weakness: lower-limb neurological examination (cord compression / Guillain-Barré / cauda equina)
+src: Nottingham Medicine station bank (neuro leg weakness) · OSCEs 2018 OSCE 2 MDD (back pain history: cauda equina) · SMOSCE 26 (S1 radiculopathy)
+u: 99
+fr: ex, di, plan
+ex: ll
+door: You are a Foundation doctor in A&E. Your patient has leg weakness. Tasks: perform a lower-limb peripheral nervous system examination (you may ask relevant questions); interpret the investigations; give your differential and management plan to the examiner.
+trig: Back pain + saddle anaesthesia + urinary retention/incontinence + bilateral sciatica → cauda equina syndrome
+trig: Known cancer + back pain + bilateral leg weakness + sensory level → metastatic spinal cord compression
+trig: Ascending symmetrical weakness + areflexia + recent infection → Guillain-Barré syndrome
+hook: Level rule for cord compression: normal above, LMN at the level, UMN below (acutely, tone and reflexes may be reduced: spinal shock).
+hook: Myotomes "L2-3 hip flex, L3-4 knee extend, L4 dorsiflex, L5 big toe up, S1 plantarflex/knee flex"; reflexes "S1-2 ankle, L3-4 knee".
+hook: GBS: monitor FVC (not sats). Treat with IVIg (or plasma exchange). Steroids do NOT help.
+clinch: ✅ Saddle anaesthesia + reduced anal tone + bilateral leg symptoms = cauda equina → emergency MRI lumbar spine, neurosurgery
+clinch: ✅ Glove-and-stocking sensory loss + areflexia + ascending weakness after diarrhoea/viral illness = GBS
+clinch: ❌ FVC <20 mL/kg (or falling) in GBS → ICU for ventilation
+money: She has bilateral leg weakness with a sensory level at T4, sphincter symptoms and a history of breast cancer: metastatic spinal cord compression. She needs an MRI of the whole spine within 24 hours, immediately given her neurology, dexamethasone 16 mg, and urgent referral to the spinal and oncology teams.
+trap: Forgetting to ask about bladder, bowel and saddle sensation
+trap: Giving steroids for GBS
+var: A | Woman, 62 | Metastatic spinal cord compression at T4
+a: Weakness and numbness in both legs, worse over days; back pain between the shoulder blades; frequency and hesitancy of urine and bowels. No recent epidural; no fever or spinal tenderness. Breast cancer 4 years ago.
+r: Legs: weakness both sides; in this acute phase tone and reflexes reduced; sensory loss up to the nipple line (T4). MRI spine: T4 vertebral metastasis compressing the cord.
+x: MSCC: flat bed rest if mechanical pain/instability; dexamethasone 16 mg (with PPI); MRI whole spine (done); urgent MSCC coordinator, spinal surgery and clinical oncology (surgical decompression or radiotherapy); screening bloods (FBC, U&E, calcium, LFT, PSA if male, myeloma screen), CXR/CT; VTE prevention; bladder/bowel care; pressure care.
+var: B | Man, 41 | Guillain-Barré syndrome
+a: Viral illness 3 weeks ago (diarrhoea). Legs getting weaker over days, now hard to climb stairs; tingling in feet and hands; back ache.
+r: Reduced tone both legs; weakness bilaterally, distal > proximal; areflexia; glove-and-stocking sensory loss; fasciculation in leg muscles. FVC 2.8 L (predicted 4.5). LP: raised protein, normal cells.
+x: GBS: neurology; IVIg 0.4 g/kg/day for 5 days (first-line) or plasma exchange; FVC 4–6 hourly; ICU if FVC falls (<20 mL/kg); VTE prophylaxis; analgesia for neuropathic pain; physio and OT; no steroids; monitor autonomic instability (ECG, BP); nerve conduction studies.
+var: C | Man, 45 | Cauda equina syndrome
+a: Back pain and pain shooting down both legs; numbness "where you sit on a bike"; haven't passed urine properly today. Lifting injury.
+r: Asymmetrical, flaccid weakness of the legs; reduced ankle reflexes; sensory loss L5/S1 and perianal; reduced anal tone on PR; post-void residual 800 mL.
+x: CES: emergency MRI lumbar spine (immediately); urgent neurosurgical decompression; catheterise; analgesia; general care of paralysed patients (turns, pressure areas, VTE prevention: passive movements, stockings, LMWH; bladder care; bowel care; diet fibre).
+dom: Examination | Inspection (wasting, fasciculation, posture); !tone; !power by myotome with MRC grade; !reflexes (knee, ankle) with reinforcement; plantars; clonus; !sensation incl. vibration and proprioception (and level); coordination; gait; asks bladder/bowel, recent illness, pain, systemic symptoms
+dom: Clinical reasoning | !Variant: MSCC from metastases / GBS / cauda equina
+dom: Information giving | Concise presentation; structured plan
+dom: Management | !Urgent MRI and specialty referral (A, C); IVIg + FVC monitoring (B); general care of the paralysed patient
+s: Examine | I'll look at your legs first for any wasting or twitching, then check the stiffness, strength, reflexes, sensation and walking. | Signposting the sequence earns structure marks.
+s: Examine | Lift your leg up off the bed and stop me pushing it down. That's hip flexion, L2 and L3. | Naming the myotome as you test shows understanding.
+s: Examine | I'm going to tap your knee and ankle. If I can't get them, I'll ask you to clench your teeth to reinforce. | Never call a reflex absent without reinforcement.
+s: Examine | Can you tell me when the tingling from this tuning fork stops? And is your toe going up or down? | Dorsal-column testing and proprioception are named items.
+s: Examine | Have you had any problems with your bladder or bowels, or numbness between your legs or around your bottom? | The red-flag questions that decide emergency MRI.
+s[A]: Plan | This is metastatic spinal cord compression: dexamethasone 16 mg, MRI of the whole spine immediately, and urgent spinal surgery and oncology review. | NICE NG234 bundle.
+s[B]: Plan | This is likely Guillain-Barré syndrome. The key test is the forced vital capacity: if it falls, she'll need ICU. Treatment is IV immunoglobulin; steroids don't help. | FVC monitoring and the steroid trap.
+s[C]: Plan | Saddle numbness and retention with leg symptoms: cauda equina syndrome. Emergency MRI of the lumbar spine and neurosurgery now. | Time-critical decompression.
+
+@PP55 | Headache: history + management (subarachnoid haemorrhage / meningitis / giant cell arteritis)
+src: CP3 2018 first sit (headache history, request investigations, management) · CP3 2018 resit (headache GCA) · OSCEs 2018 (headache: SAH, meningitis, temporal arteritis)
+u: 89, 91, 93
+fr: hx, di, plan
+door: You are a Foundation doctor. Your patient has a headache. Tasks: take a history, request and interpret investigations, give a working diagnosis with differentials, and outline the management plan.
+trig: Sudden severe "worst ever" headache peaking within a minute (thunderclap) → SAH
+trig: Headache + fever + neck stiffness + photophobia ± rash → meningitis
+trig: Over 50 + new temporal headache + jaw claudication + scalp tenderness + visual disturbance → giant cell arteritis
+hook: Headache red flags "SNOOP4": Systemic symptoms, Neurological signs, Onset sudden (thunderclap), Older (>50 new), Positional, Precipitated by Valsalva, Progressive, Papilloedema.
+hook: SAH (NICE NG228): CT head within 6 h of onset normal → SAH excluded; after 6 h normal CT → LP at least 12 h after onset for xanthochromia. Nimodipine 60 mg 4-hourly.
+hook: GCA: steroids FIRST, biopsy later. Prednisolone 40–60 mg today; vision symptoms → 60 mg or IV methylprednisolone and same-day ophthalmology.
+clinch: ✅ Thunderclap headache = SAH until proven otherwise
+clinch: ✅ Non-blanching rash + fever = meningococcal sepsis → antibiotics before anything (benzylpenicillin 1.2 g IM/IV in community; ceftriaxone 2 g IV in hospital)
+clinch: ❌ Never delay steroids in suspected GCA for a biopsy
+money: A sudden headache that peaked in seconds and is the worst she's ever had is a subarachnoid haemorrhage until proven otherwise. She needs an urgent CT head; if it's within 6 hours and normal, that excludes SAH; if it's later, an LP 12 hours after onset for xanthochromia.
+trap: Not asking how fast it reached maximum intensity (seconds vs hours)
+trap: Delaying antibiotics for an LP or CT in meningitis
+var: A | Woman, 45 | Subarachnoid haemorrhage
+a: Sudden severe headache at the gym 3 hours ago "like being hit with a bat", worst ever, maxed out in seconds; vomited; neck stiff; light hurts. No fever. Smoker; hypertension.
+r: CT head (3 h after onset): blood in the basal cisterns.
+x: SAH: A–E; analgesia, antiemetic; CT angiography; neurosurgery referral; nimodipine 60 mg 4-hourly for 21 days; BP control; monitor GCS and sodium; endovascular coiling or clipping.
+var: B | Student, 19 | Bacterial meningitis
+a: Headache for a day, getting worse; fever; neck hurts to bend; light hurts eyes; vomited. If asked: a rash on your legs this morning.
+r: Temp 39.1, HR 118, BP 100/60. Non-blanching petechial rash. Kernig's positive.
+x: Meningococcal disease: high-flow O2, IV access, cultures, ceftriaxone 2 g IV immediately (don't delay for LP; add amoxicillin if Listeria risk); IV dexamethasone 10 mg with or just before the first antibiotic dose when bacterial meningitis is suspected (per local policy); fluids; LP if no contraindication; notify UKHSA; prophylaxis for close contacts (ciprofloxacin); critical care.
+var: C | Woman, 72 | Giant cell arteritis
+a: New headache over the right temple for 2 weeks; tender to brush your hair; jaw aches when chewing; blurred vision in the right eye yesterday for a few minutes. Shoulder stiffness in the mornings.
+r: ESR 82, CRP 64. Temporal artery tender, reduced pulsation.
+x: GCA with visual symptoms: prednisolone 60 mg (or IV methylprednisolone 500 mg–1 g per local if visual loss) today; same-day ophthalmology; fast-track GCA service; temporal artery USS or biopsy within 1–2 weeks; bone protection (bisphosphonate, calcium/vitamin D), PPI; consider aspirin per specialist; slow steroid taper; PMR overlap.
+dom: Information gathering | !Onset speed (seconds vs gradual); character; site; red flags (fever, neck stiffness, rash, visual symptoms, jaw claudication, scalp tenderness, neurological symptoms, worse lying/morning); drugs (anticoagulants, analgesic overuse); ICE
+dom: Clinical reasoning | !Correct working diagnosis with differentials; interprets results
+dom: Management | !Variant-specific urgent plan with doses (CT/LP rules; antibiotics + dexamethasone; prednisolone before biopsy)
+s: History | When it started, how quickly did it reach its worst: seconds, minutes, or hours? | The single question that diagnoses thunderclap headache.
+s: History | Have you had a fever, a stiff neck, or does light hurt your eyes? Any rash? | Meningitis screen; the rash is only revealed if asked.
+s: History | Any pain when chewing, tenderness on your scalp, or changes in your vision? | GCA screen: jaw claudication is the most specific symptom.
+s[A]: Plan | CT head now. Because it's within 6 hours, a normal CT would exclude SAH; this one shows blood, so I'll refer to neurosurgery, start nimodipine 60 mg every 4 hours and arrange a CT angiogram. | NICE NG228 decision rule spoken aloud.
+s[B]: Plan | She has a non-blanching rash: I'm giving ceftriaxone 2 g IV now, before any scan or LP, plus dexamethasone, and calling for senior help. | Antibiotics first is the critical mark.
+s[C]: Plan | I'd start prednisolone 60 mg today because of the visual symptoms, and refer same-day to ophthalmology and the GCA clinic. The biopsy or ultrasound can still be done within 2 weeks. | Steroids before biopsy + urgency.
+
+@PP56 | New-onset confusion: collateral history (encephalitis / hepatic encephalopathy / delirium)
+src: Nottingham Medicine station bank (new-onset confusion)
+u: 94, 116
+fr: hx, expl, plan
+door: You are an FY1 on MAU. Mabel, 78, has been brought in by her husband because she is confused and acting strangely. Tasks: take a collateral history from her husband; explain your top differential and its management to him.
+trig: Fever + headache + flu-like prodrome + seizure + confusion → viral (HSV) encephalitis
+trig: Known cirrhosis + inverted sleep cycle + slowed thinking ± flap → hepatic encephalopathy
+trig: Acute onset + fluctuating + inattention + UTI symptoms + visual hallucinations on a background of MCI → delirium
+hook: Delirium vs dementia: "Acute, Fluctuating, Inattentive" = delirium (4AT/CAM). Dementia is chronic and attention is preserved early.
+hook: Delirium causes "PINCH ME": Pain, Infection, Nutrition, Constipation, Hydration, Medication, Environment (and retention, hypoxia, metabolic).
+hook: Encephalitis: IV aciclovir 10 mg/kg 8-hourly as soon as suspected; don't wait for the LP.
+clinch: ✅ Fever + confusion + seizure (± temporal lobe features) = encephalitis until proven otherwise
+clinch: 🧪 LP in viral encephalitis: raised lymphocytes and protein, normal (or slightly low) glucose; HSV PCR
+clinch: ❌ Never sedate hepatic encephalopathy with benzodiazepines (it worsens it)
+money: With 3 days of fever, headache and malaise, a seizure in the ambulance and now confusion, my top concern is viral encephalitis, most likely herpes simplex. We'll start an antiviral called aciclovir through a drip straight away, and do a brain scan and a lumbar puncture.
+var: A | Mabel's husband | Viral encephalitis (HSV)
+a: Mabel is not orientated, doesn't know who you are, sleepy, responds to voice. Unwell for a few days: feverish, malaise, headache, thought it was flu. Tonic-clonic seizure in the ambulance. No neck stiffness, visual changes, cancer, travel or animal bites.
+a: Hypertension, hypothyroidism (stable on usual meds). No allergies. Non-smoker, non-drinker, no drugs. Lives with you; you have COPD; carers twice daily for meals, cleaning, dressing.
+x: Encephalitis: IV aciclovir 10 mg/kg 8-hourly (renally adjusted) for 14–21 days; contrast CT (MRI preferred) then LP (raised protein and lymphocytes, viral PCR); bloods incl. cultures, viral PCR, glucose; EEG; supportive HDU/ICU; seizure management; carer support.
+var: B | Wife of a man, 60 | Hepatic encephalopathy
+a: Mild confusion, low mood, slower thinking, irritable; sleeping in the day and awake at night. Alcohol dependence (a bottle of vodka a day for 15 years), sober 6 months; cirrhosis; hypertension; high cholesterol; depression. Ramipril, simvastatin, colestyramine. Independent; mobility OK.
+x: Hepatic encephalopathy (grade 1): exclude other causes (CT/MRI, infection screen incl. ascitic tap, glucose, electrolytes, GI bleed); serum ammonia (supportive); lactulose titrated to 2–3 soft stools/day (or enemas); rifaximin to prevent recurrence; avoid sedatives; look for precipitant (constipation, infection, bleed, drugs, dehydration); escalation discussion.
+var: C | Husband of Mabel, 78 | Delirium (UTI) on mild cognitive impairment
+a: New confusion since this morning; baseline mild cognitive impairment but never like this. Disorientated to time, place, person; seems to see things, batting them away. Past few days: tummy pain, strong-smelling urine, feverish. Hypertension, asthma. Amlodipine, salbutamol PRN. No allergies. Occasional drinker (none for a month), non-smoker.
+x: Delirium from UTI: 4AT/CAM, AMT; confusion screen (FBC, U&E, LFT, calcium, glucose, TFT, B12/folate, CRP, cultures), urine dip/MSU (dip less reliable >65: treat on clinical grounds), bladder scan, constipation check; antibiotics per guideline (e.g. nitrofurantoin if eGFR ok); supportive: side room, orientation (clock, glasses, hearing aids), family involvement, 1:1 nursing, avoid moves; avoid antipsychotics unless distressed/danger (haloperidol 0.5 mg); explain delirium to husband.
+dom: Information gathering | !Onset and course (acute/fluctuating); recent illness and systemic symptoms; mood; !PMH incl. dementia/MCI baseline; !substances and prescribed drugs; allergies; function and support
+dom: Clinical reasoning | !Variant diagnosis (encephalitis / hepatic encephalopathy / delirium) with grading where relevant
+dom: Information giving | Explains to the husband in plain words; supports him; chunks and checks
+dom: Management | !Variant plan: aciclovir + imaging + LP / lactulose ± rifaximin, avoid sedatives / find and treat cause + supportive delirium care
+s: Collateral | What is she normally like: memory, getting about, managing at home? | Baseline is the most important collateral fact.
+s: Collateral | When did this change start, and does it come and go through the day? | Acute + fluctuating = delirium (or encephalitis); gradual = dementia.
+s: Collateral | Has she been unwell recently: fever, headache, waterworks, tummy pain, a fall? | Finds the cause.
+s: Collateral | Any new medicines, or alcohol? | Drugs and alcohol (and withdrawal) cause or mimic all three.
+s[A]: Explain | I'm worried there's an infection in the brain itself, called encephalitis, usually from the cold-sore virus. We'll start a medicine against the virus straight away, before the tests come back, because starting early matters. | Plain explanation + why we don't wait.
+s[C]: Explain | Mabel has delirium: a sudden confusion caused by being physically unwell, here most likely a urine infection. It usually improves as the infection is treated, but it can take days or weeks. | Delirium explained to a relative; sets expectations.
+s[C]: Explain | Having you here, familiar things from home, her glasses and a clock all help her stay orientated. | Involving family is part of NICE delirium care.
+s[B]: Explain | The liver isn't clearing toxins from the gut, and they affect the brain. A medicine called lactulose helps flush them out; we'll also check what tipped it over. | Mechanism + treatment + precipitant.
+
+@PP57 | Confusion after a head injury in an older person → chronic subdural haematoma (CT)
+src: CP3 2019 resit (confusion assessment after head injury, report findings, interpret CT, explain management)
+u: 92
+fr: hx, di, expl
+door: You are a Foundation doctor. An 81-year-old who fell 3 weeks ago is increasingly confused and drowsy. Tasks: assess the confusion and report your findings; interpret the CT head; explain the management.
+trig: Elderly + on anticoagulant or heavy drinker + minor fall weeks ago + fluctuating confusion/drowsiness → chronic subdural
+hook: CT shapes: "Crescent = Subdural (crosses sutures, not midline); Lemon (biconvex) = Extradural (limited by sutures, lucid interval)".
+hook: Subdural density: bright (hyperdense) = acute; grey (isodense) = 1–3 weeks; dark (hypodense) = chronic.
+clinch: ✅ Crescent-shaped hypodense collection over a hemisphere with midline shift = chronic subdural
+clinch: ❌ Extradural = biconvex + lucid interval + middle meningeal artery (younger, trauma)
+money: The CT shows a crescent-shaped low-density collection over the left hemisphere with some midline shift: a chronic subdural haematoma. With warfarin on board, I'd reverse it with vitamin K and prothrombin complex concentrate and refer to neurosurgery for possible burr-hole drainage.
+var: A | Mr Price, 81 | Chronic subdural on warfarin
+a: Fell in the garden 3 weeks ago, bumped head. Daughter says more muddled for a week, sleepy, headaches, now unsteady and right hand clumsy. Warfarin for AF.
+r: GCS 13 (E3 V4 M6); right pronator drift; INR 3.4. CT: left crescentic hypodense collection, 8 mm midline shift.
+x: Chronic SDH: reverse anticoagulation (IV vitamin K + PCC); neurosurgery (burr-hole evacuation if symptomatic/mass effect); neuro observations; manage AF anticoagulation later with specialists; falls assessment.
+dom: Examination / assessment | GCS; orientation (AMT/4AT); focal neurology; pupils
+dom: Clinical reasoning | !CT: crescentic hypodense collection = chronic subdural; mass effect noted
+dom: Management | !Reverse anticoagulation; !neurosurgical referral; neuro obs; explain to patient/family
+s: Assess | GCS 13: eyes open to voice, confused, obeys commands. There's a right-sided pronator drift. | Report findings precisely.
+s: Interpret | Crescent-shaped, low-density collection over the left hemisphere, crossing suture lines, with 8 mm midline shift: a chronic subdural haematoma. | Shape + density + mass effect.
+s: Plan | Reverse the warfarin now with IV vitamin K and prothrombin complex, and refer to neurosurgery today for drainage. | Two critical management actions.
+s: Explain | There's a collection of old blood pressing on the brain from the fall. Draining it through a small hole in the skull usually makes people much better. | Plain explanation with hope.
+
+@PP58 | Funny turn: first seizure or epilepsy (history + explain, including driving)
+src: OSCEs 2018 OSCE 1 GP funny turn (seizure from brain metastases; TIA; unstable angina) · CP3 2019 resit (GP discharge from hospital: explain epilepsy)
+u: 96
+fr: hx, expl, counsel
+door: You are a Foundation doctor in General Practice. A patient had a "funny turn" (or has just been discharged after a first seizure). Tasks: take a history, present to the examiner, and explain the diagnosis and management plan to the patient, including driving.
+trig: Witnessed stiffening then jerking, tongue bite (side), incontinence, post-ictal confusion → generalised tonic-clonic seizure
+trig: Seizure + known lung cancer + morning headaches → brain metastases
+hook: Seizure vs syncope: "Tongue SIDE bitten, Prolonged confusion, Cyanosis, Jerking >30 s" → seizure. Pale, prodrome, fast recovery → syncope.
+hook: DVLA group 1: first unprovoked seizure → 6 months off driving (if no high recurrence risk); epilepsy → 1 year seizure-free. Patient must tell the DVLA.
+clinch: ✅ Lateral tongue bite + post-ictal confusion = epileptic seizure
+clinch: ❌ Seizure in a known cancer patient → urgent CT/MRI brain (metastases), dexamethasone if mass effect
+clinch: ✅ Women of child-bearing potential: avoid sodium valproate (MHRA: Pregnancy Prevention Programme)
+money: From your description this was a seizure. The law is that you mustn't drive and you must tell the DVLA; after a first seizure it's usually 6 months seizure-free before you can drive again. We'll arrange a scan and an EEG through the first fit clinic.
+var: A | Woman, 32 | First unprovoked seizure (discharged)
+a: Partner saw you go stiff, then jerk for about a minute; you bit the side of your tongue and wet yourself; confused and sleepy for an hour. No alcohol excess. Drive to work. Ask: Can I drive? Can I have a bath? Will it happen again?
+x: First fit clinic (within 2 weeks), EEG, MRI; no driving and inform DVLA; safety: showers not baths, no swimming alone, heights, cooking; when to call 999 (seizure >5 min, repeated, injury, not breathing normally); contraception/pregnancy planning if antiseizure drugs started (avoid valproate).
+var: B | Man, 66, lung cancer | Seizure from brain metastases
+a: Known lung cancer under oncology. Wife saw a fit this morning. Morning headaches and vomiting for 2 weeks. Clumsy left hand.
+x: Urgent same-day assessment: CT/MRI brain; dexamethasone if oedema; antiseizure drug (levetiracetam); oncology; no driving; safety-net.
+var: C | Woman, 70 | TIA (not a seizure)
+a: 20 minutes of slurred speech and right face weakness yesterday, fully resolved. No jerking or LOC. Hypertension, AF (not anticoagulated).
+x: TIA: aspirin 300 mg now (if not contraindicated); specialist TIA clinic within 24 h; no driving for 1 month; anticoagulation for AF to be started by specialist after imaging; risk factors.
+dom: Information gathering | !Before, during, after; witness; tongue bite, incontinence, post-ictal phase; triggers (sleep, alcohol, drugs); PMH (cancer, head injury); drugs; driving and job
+dom: Clinical reasoning | !Seizure vs syncope vs TIA; presents to examiner
+dom: Information giving | !Driving (DVLA rule, patient's duty to notify); safety advice; what happens next; first-aid for family; pregnancy/contraception where relevant
+s: History | Did anyone see what happened? What did your body do, and for how long? | Witness account is the diagnostic test in epilepsy.
+s: History | Did you bite your tongue? Which part? Did you wet yourself? How long until you felt yourself again? | Lateral tongue bite + post-ictal confusion = seizure.
+s: Counsel | I have to tell you that by law you can't drive for now, and it's your responsibility to tell the DVLA. After a first seizure it's usually 6 months. | DVLA advice is the most-tested counselling point.
+s: Counsel | Until we know more, have showers rather than baths, don't swim alone, and avoid heights. | Safety advice is named.
+s: Counsel | If a seizure lasts more than 5 minutes, or one follows another, your partner should call 999. | First aid for the family.
+
+@PP59 | Upper-limb neurological examination: root lesion (C6), carpal tunnel or UMN pattern
+src: SMOSCE 31 (C6 radiculopathy) · SMOSCE 58 (UL PNS: UMN pattern) · CP3 2019 resit (upper limb ortho/neuro: carpal tunnel)
+u: 99
+fr: ex, expl
+ex: ul
+door: You are a Foundation doctor. Your patient has arm weakness or hand numbness. Tasks: perform a neurological examination of the upper limbs, reporting positive findings, and explain the likely cause and management to the patient.
+trig: Neck pain + weakness of elbow flexion and wrist extension + reduced biceps/supinator reflex + thumb numbness → C6 root
+trig: Numb thumb, index and middle fingers at night + thenar wasting + Tinel's/Phalen's → carpal tunnel (median nerve)
+trig: Increased tone + pyramidal weakness + brisk reflexes + Hoffmann's → UMN lesion
+hook: UL myotomes "5-6-7-8-1": C5 shoulder abduction, C6 elbow flexion (and wrist extension), C7 elbow extension, C8 finger flexion, T1 finger abduction. Reflexes: "5-6 pick up sticks (biceps, supinator), 7-8 shut the gate (triceps)".
+hook: Pattern = place: one myotome + one dermatome = root; one nerve's territory = peripheral nerve; glove = polyneuropathy; pyramidal + brisk = UMN.
+clinch: ✅ Median nerve: sensory loss lateral 3½ fingers, sparing the thenar eminence skin (palmar branch spared) → carpal tunnel, not C6 root
+clinch: ❌ Brisk reflexes + upgoing plantars = UMN: look higher (cord/brain)
+money: There's weakness of shoulder abduction, elbow flexion and wrist extension on the left, a reduced biceps and supinator reflex, and numbness over the thumb: a C6 nerve root lesion, most likely from disc or degenerative disease in the neck.
+var: A | Damian Holden, 68 | Left C6 radiculopathy (cervical spondylosis)
+a: Retired plumber, right-handed. Neck pain, especially when touched; arms otherwise fine. If asked about weakness: trouble on the left side. Sensation: "normal" unless tested specifically.
+r: Decreased muscle bulk on the left (no obvious wasting); normal tone; weakness left shoulder abduction/adduction, elbow flexion, supination, wrist extension; left biceps and supinator present only with reinforcement; no sensation on the tip of the left thumb (radial forearm reduced on other testing); coordination normal.
+x: C6 radiculopathy (disc herniation/spondylosis); MRI cervical spine; surgical opinion likely; physiotherapy; manage expectations (may not fully recover); ICE: worried the whole arm will stop working.
+var: B | Woman, 52 | Carpal tunnel syndrome
+a: Numb, tingling right thumb and fingers, worse at night; shake the hand to relieve it; dropping cups. Hypothyroidism; overweight.
+r: Thenar wasting; weak thumb abduction (APB); sensory loss lateral 3½ fingers sparing thenar eminence; positive Tinel's and Phalen's; reflexes normal.
+x: CTS: wrist splint at night; steroid injection; nerve conduction studies; surgical decompression if persistent/severe/wasting; check TFTs/diabetes.
+dom: Examination | Inspection (wasting, fasciculation, posture, scars); pronator drift; !tone; !power by myotome (MRC); !reflexes with reinforcement; Hoffmann's; !sensation by dermatome/nerve (light touch, pinprick, vibration, proprioception); coordination; function (buttons)
+dom: Information giving | !Explains likely cause and management in plain words; manages expectations; leaflet; questions
+dom: Management | MRI/NCS; surgery/physio/splint per variant; senior review
+s: Examine | Hold your arms out, palms up, and close your eyes. | Pronator drift screens for UMN weakness in one move.
+s: Examine | Push your elbows out against me: that's C5. Pull me towards you: C6. Push me away: C7. | Naming myotomes shows you know why you're testing.
+s: Examine | The biceps and supinator reflexes on the left only appear with reinforcement. | Reflex grade + reinforcement are marked separately.
+s: Examine | Close your eyes and tell me if this feels the same on both sides. | Comparing sides for sensation.
+s[A]: Explain | A nerve in your neck, the one that supplies the muscles that bend your elbow and lift your wrist, is being pinched, probably by wear and tear in the neck bones. | Plain explanation of a C6 root lesion.
+s[A]: Explain | The specialist will likely suggest an MRI and an operation to free the nerve. It should stop it getting worse, but some weakness may not fully recover. | Honest expectation-setting (SMOSCE scheme).
+s[B]: Explain | The nerve that goes through a tunnel at your wrist is being squeezed. A wrist splint at night often helps; if not, a small operation releases it. | Plain CTS explanation + stepwise plan.
+
+@PP60 | Unilateral hearing loss and tinnitus: Rinne, Weber, otoscopy → acoustic neuroma (explain MRI)
+src: CP2 ENT (unilateral hearing loss + tinnitus: history, Rinne/Weber, otoscopy, interpret hearing tests, diagnosis and management to patient) · CP3 2019 OSCE 2 (CNS exam: sensorineural hearing loss + MRI counselling)
+u: 140, 146
+fr: hx, ex, di, expl
+ex: ent
+door: You are a Foundation doctor. A patient has hearing loss in one ear with ringing. Tasks: take a history; perform Rinne's and Weber's tests and otoscopy; interpret the audiogram; explain the diagnosis and the MRI to the patient.
+trig: Unilateral sensorineural hearing loss + unilateral tinnitus ± imbalance → vestibular schwannoma (acoustic neuroma) until MRI says otherwise
+trig: Episodic vertigo lasting hours + fluctuating low-frequency hearing loss + aural fullness → Ménière's
+hook: Tuning fork logic (512 Hz). Rinne POSITIVE (air > bone) = normal or sensorineural; Rinne NEGATIVE (bone > air) = conductive. Weber goes TO the conductive ear and AWAY from the sensorineural ear.
+hook: Acoustic neuroma "5-7-8": CN VIII first (hearing, tinnitus), then V (facial numbness, lost corneal reflex), then VII (facial weakness).
+clinch: ✅ Asymmetric sensorineural loss on audiogram + unilateral tinnitus = MRI internal auditory meatus (gadolinium)
+clinch: ❌ Sudden sensorineural hearing loss (within 72 h) → same-day ENT (steroids)
+clinch: ❌ Bilateral acoustic neuromas → neurofibromatosis type 2
+money: Rinne's is positive on both sides, but Weber's lateralises to the left, so there's a sensorineural loss on the right, confirmed by the audiogram. With right-sided tinnitus, I need to rule out a benign growth on the hearing nerve called an acoustic neuroma, so I'll arrange an MRI scan.
+trap: Mixing up Rinne positive/negative (even some booklets do)
+trap: Not examining the ears with the otoscope first (wax/effusion explain conductive loss)
+var: A | Man, 52 | Right acoustic neuroma
+a: Gradual hearing loss in the right ear over a year (phone on the left now); constant hissing tinnitus on the right; slightly unsteady. If asked: right face feels a bit numb.
+r: Otoscopy normal both sides. Rinne positive both. Weber lateralises left. Audiogram: right sensorineural loss, worse at high frequencies. Right corneal reflex reduced.
+x: MRI IAM with contrast; ENT referral; options: watch and scan, stereotactic radiosurgery, microsurgery; hearing aids; explain benign but needs monitoring; DVLA only if vertigo.
+dom: Information gathering | Onset, side, speed; tinnitus; vertigo; ear pain/discharge; noise exposure; ototoxic drugs; facial numbness/weakness; FH
+dom: Examination | !Otoscopy both ears correctly (pull pinna up and back, largest speculum tolerated); !Rinne's and Weber's performed and interpreted correctly; whisper test; CN V and VII screen
+dom: Clinical reasoning | !Unilateral SNHL → ?acoustic neuroma; audiogram interpreted
+dom: Information giving | !Explains need for MRI, what it involves (noise, tunnel, contrast), that most are benign; management options
+s: Examine | I'll look in your ears with this light, gently pulling the top of your ear up and back. | Otoscopy technique; wax or fluid would change everything.
+s: Rinne | I'll put this buzzing fork on the bone behind your ear, then next to your ear. Which is louder? | Air vs bone conduction.
+s: Weber | Now on the middle of your forehead. Is it louder in one ear or the middle? | Lateralisation.
+s: Interpret | Rinne positive both sides; Weber goes to the left: sensorineural loss on the right. | The correct logic said out loud is the reasoning mark.
+s: Explain | The hearing nerve on your right isn't working as well. Occasionally that's from a slow-growing, non-cancerous lump on the nerve, so we check with an MRI scan. | Plain explanation; "non-cancerous" addresses fear.
+s: Explain | The scan is a tunnel you lie in for about 20 to 30 minutes; it's noisy, and you'll have an injection of dye. Tell us if you have metal implants, a pacemaker, or are claustrophobic. | MRI counselling was the task in CP3.

@@ -1,0 +1,286 @@
+@PP103 | Post-thyroidectomy: agitated or breathless patient (hypocalcaemia / neck haematoma / atelectasis)
+src: Surgery station (thyroid post-op, 3 options) · Nottingham thyroid ILOs
+u: 74, 72, 70
+fr: acute, di, plan
+door: You are the F1 surgical doctor on call. The nurses are worried about a 42-year-old woman on the ward who had a total thyroidectomy yesterday and is extremely agitated. Tasks: perform an acute assessment; state the investigations you want; interpret those provided; explain your diagnosis and immediate management plan to the examiner.
+trig: After thyroid surgery + tingling, cramps or agitation → hypocalcaemia (parathyroids injured or removed)
+trig: After thyroid surgery + stridor + swelling under the wound → haematoma compressing the airway: open the wound now
+hook: Post-thyroidectomy "3 Hs and an A": Haematoma, Hypocalcaemia, Hoarseness (recurrent laryngeal nerve), Atelectasis.
+hook: Neck haematoma with airway compromise: SCOOP: Skin exposure, Cut sutures, Open skin, Open muscles, Pack and go to theatre.
+clinch: 🧪 Adjusted calcium 1.7 + PTH 0.2 = post-surgical hypoparathyroidism
+clinch: ✅ Chvostek's (facial twitch on tapping) and Trousseau's (carpal spasm with a BP cuff) = hypocalcaemia
+clinch: ✅ Stridor + falling sats despite oxygen + neck swelling = haematoma: airway emergency
+money: The day after a total thyroidectomy she has ___, so the diagnosis is ___. My immediate action is ___, and I've called ___.
+trap: Sending a patient with stridor and a neck haematoma for a CT scan
+trap: Giving IV calcium without ECG monitoring
+trap: Forgetting the INR in a patient on warfarin who's bleeding
+var: A | Woman, 42 | Hypocalcaemia from hypoparathyroidism
+a: Agitated, tingling around your mouth and in your fingers; your hands keep cramping. Breathing feels fast.
+a: A: patent, no added sounds. B: RR 30, sats 96% on air, no neck swelling, wound fine, chest clear. C: BP 148 systolic, HR 100, temp 37.7, heart sounds normal. D and E: unremarkable apart from carpopedal spasm when the BP cuff is inflated.
+r: Hb 140, WCC 7.0, platelets 270, Na 140, K 4.8, urea 5.2, creatinine 72, adjusted calcium 1.7, PTH 0.2. ECG: sinus tachycardia, QTc 500 ms.
+x: Symptomatic hypocalcaemia from post-thyroidectomy hypoparathyroidism. Cardiac monitoring; IV calcium gluconate 10% 10–20 mL in 50–100 mL of 5% glucose over 10 minutes, then an infusion if needed; check magnesium and correct; repeat calcium; then oral calcium and alfacalcidol; senior and endocrine review; follow-up of parathyroid function.
+m: She's tingling and cramping the day after a total thyroidectomy with a calcium of 1.7, an undetectable PTH and a long QT, so this is hypocalcaemia from the parathyroids. I'm giving IV calcium gluconate on a cardiac monitor, checking magnesium, and letting my registrar know.
+var: B | Woman, 42, on warfarin | Neck haematoma compressing the airway
+a: Can't catch your breath, very distressed; noisy breathing; your neck feels tight and swollen.
+a: A: stridor. B: RR 34, sats 86% on air not improving with oxygen; trachea hard to feel because of neck swelling; chest clear. C: BP low, HR 140, capillary refill 3 s, cool and pale. D: PEARL, very distressed, GCS 14, temp 36.8. E: drain with excess blood, suture line oozing.
+r: Hb 120, WCC 11.4, platelets 150, INR 8 (target 2.5).
+x: Expanding neck haematoma causing airway compromise: an emergency. Call for help (crash call / anaesthetist / surgical registrar), sit up, high-flow oxygen; if the airway is deteriorating open the wound at the bedside (cut the skin sutures or clips and the deep layer, evacuate the clot), then theatre; 2 large-bore cannulas, crossmatch; reverse warfarin (IV vitamin K and prothrombin complex concentrate) with haematology advice.
+m: She has stridor, falling sats and a swollen neck after thyroid surgery with an INR of 8, so this is a haematoma compressing her airway. I'm calling the anaesthetist and surgeon now, opening the wound at the bedside to release the clot, and reversing the warfarin with vitamin K and PCC before theatre.
+var: C | Woman, 42 | Post-operative atelectasis
+a: Drowsy but can talk. Breathing is shallow because it hurts to breathe deeply.
+a: B: RR 32, sats 91% on 3 L, trachea central, resonant mostly but dull at both bases, reduced breath sounds at the bases. C: BP normal, HR 97, capillary refill under 2 s, warm. D: PEARL, glucose normal, GCS 14, temp 37.9. E: abdomen and calves soft.
+r: Hb 135, WCC 12.2, CRP 60, U&E normal. CXR: bibasal linear opacities (plate atelectasis), no consolidation or effusion.
+x: Post-operative atelectasis (painful shallow breathing). Sit up, oxygen to target, better analgesia so she can breathe deeply, chest physiotherapy, incentive spirometry, mobilise; watch for pneumonia (repeat bloods, cultures and antibiotics if it develops); discuss with senior and hand over.
+m: She's drowsy and hypoxic with dull bases and a CXR showing plate atelectasis, because pain is stopping her breathing deeply. I'd sit her up, give oxygen, improve her pain relief and get chest physio, and watch for a pneumonia.
+dom: Examination (A–E) | !Systematic A to E; looks at the neck, wound and drain; treats as found
+dom: Clinical reasoning | !Names the complication from the findings and results
+dom: Investigations | Calcium, PTH, magnesium, ECG / clotting and crossmatch / CXR, bloods, cultures
+dom: Management | !Case-specific: IV calcium with monitoring / call for help, open the wound, reverse warfarin, theatre / analgesia and physiotherapy; escalation
+s: Danger | Hello, I'm Nana, one of the doctors. Can you tell me your name? I'm going to call for help and get monitoring on. | Danger, response, help.
+s: Airway | Is there any noise when she breathes? I'm looking at her neck and wound. | After thyroid surgery, look at the neck in A.
+s[B]: Airway | She has stridor and a swollen neck: I need the anaesthetist and the surgeon now. Sit her up, 15 L oxygen, and I'll open the wound to release the clot. | Opening the wound at the bedside is life-saving.
+s: Breathing | Rate ___, sats ___. Oxygen to 94 to 98%. Listening to her chest. | Treat as you find.
+s: Circulation | Pulse ___, BP ___. Cannula: FBC, U&E, calcium, magnesium, PTH, clotting, group and save. ECG. | The bloods that split the three causes.
+s[A]: Signs | I'll check for Chvostek's and Trousseau's signs. | Bedside signs of hypocalcaemia.
+s[A]: Treat | Calcium is 1.7 with a long QT: IV calcium gluconate 10% over 10 minutes on a cardiac monitor, check magnesium, then oral calcium and alfacalcidol. | Monitoring makes IV calcium safe.
+s[B]: Bleeding | INR is 8: IV vitamin K and prothrombin complex concentrate, crossmatch, and theatre. | Reverse anticoagulation in a bleeding patient.
+s[C]: Treat | Plate atelectasis from shallow breathing: better analgesia, sit up, chest physio and incentive spirometry. | Treat the cause (pain).
+s: SBAR | Situation: I'm Nana, the surgical F1, calling about a woman a day after total thyroidectomy who has ___. Recommendation: please review now. | Escalate with SBAR.
+
+@PP104 | Testicular pain or lump: history, external genitalia examination, explanation (torsion / cancer / epididymo-orchitis / varicocele)
+src: Surgery/urology station (testicular pathology, 4 options) · CP3 general surgery notes
+u: 83, 84, 82, 81, 78
+fr: hx, ex, expl
+ex: scrotal
+door: You are a Foundation doctor on the Surgical Admissions Unit. Your next patient has testicular discomfort. Tasks: take a history; perform an external genitalia examination on the model provided; explain your diagnosis and management plan to the patient.
+trig: Sudden severe testicular pain + vomiting in a young man → torsion: theatre within hours, no scan
+trig: Painless hard lump in the testis of a young man (especially with an undescended testis history) → cancer: urgent USS + tumour markers
+trig: New left varicocele in an older man → renal cancer blocking the left renal vein
+hook: Torsion: high-riding, horizontal lie, absent cremasteric reflex, Prehn's negative. "Time is testis": 6 hours.
+hook: Epididymo-orchitis under 35 = think STI: ceftriaxone + doxycycline, GUM, partner notification.
+clinch: ✅ Absent cremasteric reflex + sudden pain = torsion
+clinch: ✅ Prehn's positive (pain eased by lifting) + cremasteric reflex present + fever = epididymo-orchitis
+clinch: 🧪 Testicular cancer markers: AFP, beta-hCG, LDH
+clinch: ❌ Never biopsy a testis through the scrotum: radical inguinal orchidectomy
+money: Your symptoms and examination point to ___. Because ___, the next step is ___ today.
+trap: Delaying a torsion for an ultrasound scan
+trap: Not offering a chaperone and gloves
+trap: Not breaking possible cancer news with a warning shot and sperm-banking information
+var: A | Man, 24 | Testicular torsion
+a: Acutely painful right testicle for 3 hours. Came on suddenly playing football; you thought you'd been hit. Couldn't carry on; felt sick and vomited. Ice and your dad's Oramorph didn't help. It doesn't change with position.
+a: Fit and well, no medicines, no allergies. Smoke 5 a day, 9 pints a week mostly at weekends. Model and personal trainer.
+r: Right testis very red, hot, swollen and exquisitely tender (barely lets you touch); high-riding, lying horizontally; cremasteric reflex absent.
+x: Testicular torsion: emergency. Analgesia, NBM, urgent urology referral for scrotal exploration and fixation (bilateral orchidopexy) within 6 hours of onset; do not delay for imaging; consent includes possible orchidectomy if the testis isn't viable.
+m: I think your testicle has twisted on its cord, which cuts off its blood supply. You need an operation now to untwist and fix both sides; the sooner we do it, the better the chance of saving it.
+var: B | Man, 21, student | Testicular cancer
+a: Slight discomfort in the right testicle; you think you felt a lump 2 weeks ago. ONLY IF ASKED: some weight loss and feeling run down.
+a: Operation for an undescended testicle as a baby. No medicines, no allergies. Non-smoker, occasional drinker, geography student in a flatshare.
+r: Hard, fixed, non-tender mass in the right testis; you can get above it; no inguinal nodes.
+x: Suspected testicular cancer. Urgent (2WW) urology referral, scrotal USS, tumour markers (AFP, beta-hCG, LDH), CT chest, abdomen and pelvis for staging, radical inguinal orchidectomy; sperm banking before treatment; prognosis is excellent (most are curable); prosthesis option; self-examination. Break news sensitively.
+m: The lump is part of your testicle and it's hard, so I'm worried it could be a cancer. We'll arrange an urgent scan and blood tests; testicular cancer is one of the most curable cancers, and we'll offer sperm storage before any treatment.
+var: C | Man, 26 | Epididymo-orchitis (STI-related)
+a: Painful left testicle for 2 days with fever; it's red, hot and swollen. Feel sick and feverish; ibuprofen and paracetamol help a bit. No dysuria, discharge or pain passing urine.
+a: Smoke 15 a day; 10+ pints at weekends. ONLY IF ASKED: you slept with someone else at the weekend and don't want your girlfriend to know.
+r: Swollen, red, tender left testis and epididymis; cremasteric reflex present; Prehn's sign positive (pain eased by lifting). Temp 38.1.
+x: Epididymo-orchitis, likely sexually acquired (under 35, new partner). First-void urine NAAT for chlamydia and gonorrhoea, MSU, and GUM referral; ceftriaxone 1 g IM once + doxycycline 100 mg BD for 10–14 days (BASHH); analgesia, scrotal support; abstain until treated; partner notification through GUM (can be anonymous); confidentiality respected; safety-net for abscess or no improvement in 3 days.
+m: This is an infection of the tube behind the testicle, most likely from sex. We'll test your urine, give an injection and a course of doxycycline, and the sexual health clinic can contact partners confidentially without naming you.
+var: D | Mike, 76 | Left varicocele: possible renal cancer
+a: Four months of discomfort and heaviness in the left testicle; it looks bigger and "ugly"; uncomfortable walking.
+a: ONLY IF ASKED: lost about a stone over the past year, poor appetite, tired; two episodes of blood in the urine, treated by the GP as infection, no follow-up.
+a: Hypertension diagnosed 2 months ago (poorly controlled), type 2 diabetes. Amlodipine 10 mg, metformin 500 mg. Dad and uncle had prostate cancer; you're worried about cancer. Retired decorator, non-smoker, non-drinker.
+r: Left scrotum: "bag of worms" above the testis, more obvious standing, reduces lying; testes normal.
+x: Left varicocele, new in an older man with visible haematuria, weight loss and new hypertension: suspect left renal cell carcinoma obstructing the left renal vein (the left testicular vein drains into it). Urgent 2WW urology referral for visible haematuria (45 or over), renal USS or CT, urine cytology and cystoscopy, U&E; varicocele itself needs no surgery unless symptomatic.
+m: The swelling is a varicocele: swollen veins. In a man your age, with blood in the urine and weight loss, it can be a sign of something pressing on the kidney vein, so I'm referring you urgently to the urology team for a kidney scan and a camera test of the bladder.
+dom: Information gathering | !Onset (sudden?), SOCRATES; trauma; urinary and STI symptoms; sexual history when relevant; !red flags (weight loss, haematuria); PMH (undescended testis); FH; SH
+dom: Examination | !Introduction, consent, chaperone, gloves; inspection; normal side first; get above it; separate from the testis; consistency; transillumination; epididymis and cord; cremasteric reflex, Prehn's; standing for varicocele
+dom: Clinical reasoning | !Names the diagnosis from history and examination
+dom: Information giving | Chunk and check; !SPIKES where cancer is possible; confidentiality respected; questions
+dom: Management | !Torsion to theatre without imaging / 2WW USS + markers + orchidectomy + sperm banking / ceftriaxone + doxycycline + GUM / renal imaging + 2WW haematuria
+s: Open | I'm sorry you're in pain. Can you tell me exactly when it started and what you were doing? | Onset (sudden vs gradual) is the main discriminator.
+s: History | Any sickness or vomiting? Any burning when you pass urine or discharge? Have you noticed blood in your urine or lost weight? | Torsion, infection and cancer screens in one move.
+s: Sexual | Some of my questions are personal, and I ask everyone them: have you had any new sexual partners recently? | Normalised sexual history: the actor in C waits for this.
+s: Exam | I'd like to examine you. I'll have a chaperone with me, and I'll wear gloves. Please tell me if anything hurts. | Chaperone and consent are critical items.
+s: Exam | I'll start with the normal side, then check: can I get above the swelling, is it separate from the testicle, does it light up with a torch, and the cremasteric reflex. | Systematic scrotal examination.
+s[A]: Explain | I think your testicle has twisted. You need an operation now; we won't wait for a scan because every hour matters. | No imaging delay.
+s[B]: Explain | I'm afraid the lump is part of the testicle and is hard, which worries me. We'll do an urgent scan and blood tests. If it is a cancer, it's one of the most curable, and we'd offer to store sperm first. | Warning shot, chunk, hope, fertility.
+s[C]: Explain | This is an infection, most likely passed on through sex. Your information stays confidential: the clinic can let partners know without using your name. | Answers the hidden concern; confidentiality.
+s[D]: Explain | The swelling itself isn't dangerous, but with the blood in your urine and weight loss, I want to check your kidney urgently. | Explains why a benign finding triggers a cancer pathway.
+s: Close | If the pain suddenly gets much worse or you feel very unwell, come straight back. Any questions? | Safety-net.
+
+@PP105 | Post-operative ward review and post-operative pain (day-1 review after hip replacement / failed epidural after laparotomy)
+src: Surgery/MDD post-op assessment station · CP3 mock OSCE 2018 Station 8 (post-op pain, epidural, PCA) · CP3 surgical assessment notes
+u: 87, 50, 88, 19
+fr: hx, ex, plan, expl
+door: You are an F1 on the surgical or orthopaedic ward. Tasks: review your post-operative patient, present your findings and management plan to the examiner, and explain any treatment to the patient.
+trig: Day 1–3 after surgery + new cough, green sputum, rising temperature, falling sats → hospital-acquired pneumonia
+trig: Epidural in place but still in severe pain on one side + can feel cold on that side → the block isn't working there
+hook: Post-op review: "Op, Obs, Pain, Wound, In-Out, Clots, Moving, Home" (and drains).
+hook: Analgesic ladder up and down; every opioid gets a laxative and an antiemetic; PCA: only the patient presses.
+clinch: ✅ Can feel cold on the painful side = epidural not covering it → call the anaesthetist
+clinch: ✅ NSAID in asthma: ask whether they've taken ibuprofen before without wheeze; avoid if NSAID-sensitive
+clinch: ❌ Don't add regular dihydrocodeine on top of a morphine PCA
+money: ___ is day ___ after ___. The key issues are ___. My plan is ___, and I've discussed it with ___.
+trap: Not asking about bowels, flatus, urine and mobility
+trap: Forgetting VTE prophylaxis and checking calves
+trap: Not explaining that PCA can't cause overdose because of the lockout
+var: A | Mrs Jones, 72 | Day 1 after left total hip replacement: hospital-acquired pneumonia
+d: You are an F1 on the orthopaedic post-op ward. Mrs Jones, 72, had a left total hip replacement yesterday. Tasks: perform a post-operative assessment; present your findings and management plan to the examiner.
+a: Left total hip replacement yesterday at 10:30 under a spinal ("the injection in your back"); no complications. Right hip replaced in April. Otherwise fit and well; no regular medicines; allergic to sticking plasters.
+a: Feel sore and tired. Pain from the hip down to the knee: paracetamol and tramadol help, but still a lot of pain. ONLY IF ASKED: a cough since overnight, bringing up green sputum.
+a: Eating and drinking since yesterday afternoon; had a drip with fluids and antibiotics yesterday. Passing urine normally, no catheter. Bowels not opened yet; passing wind. Injections in your tummy and stockings. Walking slowly to the toilet with a Zimmer frame.
+a: Live in a two-storey house with your husband, who's fit and well; the only toilet is upstairs; no carers. Smoke 20 a day for 40 years; occasional drinker.
+r: Obs chart: temperature rising to 38.2, sats falling from 97% to 92% on air, RR 22, HR 104, BP 132/80, NEWS2 6. Chest: coarse crackles at the right base. Wound: dressing clean, dry and intact. Feet warm, pulses present, sensation normal. Calves soft. Bowel sounds present. Glucose 6.7.
+x: Structured post-op review: operation, anaesthetic, complications; obs trend and NEWS2 (rising); pain and analgesia (laxative and antiemetic prescribed); wound and distal neurovascular status; fluid in and out, urine, bowels and flatus; VTE prophylaxis and calves; mobility; social (stairs, upstairs toilet: OT and physio for a commode and discharge planning). Diagnosis: hospital-acquired pneumonia (NEWS2 6: urgent review). Plan: sepsis screen, FBC, U&E, CRP, blood and sputum cultures, CXR, ABG if sats fall further; antibiotics per local HAP guideline; oxygen to target; chest physiotherapy; analgesia stepped up (regular paracetamol, opioid with laxative); senior review; hypoallergenic dressings (plaster allergy); smoking cessation offer; physio and OT; staples out at 10–14 days.
+m: Mrs Jones is day 1 after a left hip replacement under a spinal, and her temperature is rising, her sats are falling and she has a productive cough with right basal crackles, so she has a hospital-acquired pneumonia with a NEWS2 of 6. I'd do a sepsis screen, CXR and cultures, start antibiotics per our HAP guideline and chest physio, improve her pain relief and ask OT about the upstairs toilet.
+var: B | Mr OP, 60 | Post-laparotomy pain: one-sided epidural failure; PCA and the analgesic ladder (asthma)
+d: You are an F1 on the surgical ward. Mr OP, 60, had a laparotomy for diverticular disease today. His medicines: atorvastatin 20 mg OD, budesonide 200 micrograms OD inhaled, salbutamol PRN, paracetamol 1 g QDS, dihydrocodeine 30 mg QDS, ibuprofen 400 mg TDS. Tasks: tell the examiner what you'd do first; then assess and discuss his pain management with him.
+a: Laparotomy under general anaesthetic earlier today, with an epidural. Fine at first; for 3 hours, more and more pain on the LEFT side of your tummy: sore at rest, excruciating on moving or coughing. Grimacing, breathing fast, arm over your left side. "I thought the epidural would take away all the pain; I'd do anything to get rid of it."
+a: If tested with ice: you can feel the cold on the left; on the right you can't feel cold up to just above your navel.
+a: After a PCA is started and you press it, about 2 minutes later you feel sick and vomit, until they give an antiemetic.
+a: ONLY IF ASKED about worries: Is the ibuprofen safe with my stomach and my asthma? Can I take the PCA home? Can I get addicted or overdose on the morphine? What are the side effects?
+r: Obs: HR 108, BP 138/84, RR 24, sats 96% on air, temp 37.2. Sensory level to cold: right side up to T10; left side normal sensation.
+x: First: review notes, obs, drug and fluid charts, the wound (bleeding, distension). Assess pain (score, site, character) and the epidural: block is one-sided (left side not covered) → call the anaesthetist or pain team to adjust or re-site it. Meanwhile: IV morphine titrated, morphine PCA (e.g. 1 mg bolus, 5-minute lockout; no background infusion) per local protocol, regular paracetamol; stop oral dihydrocodeine while on PCA; NSAID only if he's tolerated it before without wheeze, with a PPI and normal renal function; prescribe an antiemetic (e.g. ondansetron or cyclizine IV) and laxative; treat the vomiting. Explain PCA: he presses the button, small fixed dose, lockout prevents overdose, only he presses it, short-term use doesn't cause addiction, switched to tablets before home. Explain the ladder: step down as pain settles; aim for tablets.
+m: Mr OP's epidural isn't covering his left side, so I've asked the anaesthetist to review it, and meanwhile started a morphine PCA with an antiemetic and laxative, kept regular paracetamol, and stopped the dihydrocodeine. The PCA gives a small safe dose each time he presses it, with a lockout so he can't overdose.
+dom: Information gathering | Operation, anaesthetic, complications; obs and NEWS2; !pain and analgesia; wound and neurovascular status; !in and out (urine, bowels, flatus); !VTE prophylaxis; mobility; social and discharge needs
+dom: Clinical reasoning | !Names the problem (HAP / failing epidural) and the evidence
+dom: Management | !Case-specific plan; analgesia with laxative and antiemetic; escalation (anaesthetist / senior); discharge planning
+dom: Information giving | Explains PCA, epidural and the ladder in plain words; answers worries about addiction, overdose, NSAIDs and asthma
+s: Open | Hello, I'm Nana, one of the doctors on the ward team. I've come to see how you're doing after your operation. Can I check your name and date of birth? | Even on a ward round: introduce and identify.
+s: First | Before I see him I'd read the op note, the observation chart and NEWS2 trend, the drug chart and the fluid chart. | Official anchor (Station 8): "what you'd do first": BODEX-style chart review.
+s: Review | How are you feeling? Any pain? Are you eating and drinking? Have you passed urine, opened your bowels or passed wind? Are you up and about? | Post-op review mnemonic in one line.
+s: Exam | I'll check your observations, listen to your chest, look at the wound and feel your feet and calves. | Wound, neurovascular status and calves are named.
+s[A]: Reasoning | Her temperature is rising and sats are falling with a productive cough and right basal crackles on day 1: hospital-acquired pneumonia. | Reasoning sentence.
+s[A]: Plan | Sepsis screen, CXR, sputum and blood cultures, antibiotics per our HAP guideline, chest physio and better pain relief. She also needs OT input because her only toilet is upstairs. | Medical plan + discharge planning (social marks).
+s[B]: Epidural | I'm going to test where you can feel this cold spray. ... You can feel it on the left, so the epidural isn't covering that side. I'll ask the anaesthetist to adjust it. | Assessing the block is the honours step.
+s[B]: PCA | Meanwhile I'll set up a pump with morphine: press the button when you're sore and you'll get a small dose. It has a lockout, so you can't overdose, and only you should press it. | PCA explanation: the planted questions.
+s[B]: Worries | Using morphine for a few days after surgery very rarely leads to addiction, and we'll switch you to tablets before you go home. | Answers addiction and "take it home" questions.
+s[B]: NSAID | Have you taken ibuprofen before without it making your asthma worse? If so it's fine short-term with a stomach-protecting tablet. | Asthma + NSAID safety check.
+s[B]: Sickness | Feeling sick is a common side effect of morphine; I'll give you an anti-sickness injection now and prescribe it regularly. | Manages the planted vomiting.
+s: Close | I'll check on you again in an hour. If the pain gets worse or you feel more breathless, press the call bell. | Re-review and safety-net.
+
+@PP106 | New diagnosis of stable angina: explain it and counsel on GTN, aspirin, statin and an anti-anginal
+src: GP station (angina counselling, Mr Smith) · NICE CG126 (stable angina) · DVLA
+u: 2
+fr: expl, counsel
+door: You are a Foundation doctor in general practice. Mr Smith, 58, has recently been diagnosed with angina. BP today 135/85. Task: explain his diagnosis and management plan, and answer any questions he has.
+trig: Central dull crushing chest pain on walking 400 m, relieved by rest, no rest pain → stable angina: explain + lifestyle + GTN + secondary prevention + anti-anginal
+hook: Angina drugs: "two to stop the pain (GTN + beta-blocker or CCB), two to stop the heart attack (aspirin + statin)".
+hook: GTN rule: sit down, one spray under the tongue, again after 5 minutes; if the pain is still there 5 minutes after the second spray, call 999.
+clinch: ✅ First-line anti-anginal: beta-blocker or calcium-channel blocker (rate-limiting CCB if a beta-blocker is unsuitable, e.g. asthma)
+clinch: ❌ No GTN within 24 hours of sildenafil (48 hours for tadalafil): dangerous drop in BP
+clinch: ✅ DVLA (car): no need to tell the DVLA for angina; stop driving if angina comes on at rest, with emotion or at the wheel
+money: Angina means one of the heart's arteries has narrowed, so when you walk the heart muscle runs short of blood and hurts. We'll treat it with a GTN spray for the pain, a beta-blocker to prevent it, and aspirin and a statin to protect you from a heart attack, and stopping smoking is the single biggest thing you can do.
+trap: Listing drugs without anchoring each to a name, dose and what to do
+trap: Forgetting the "call 999 after 2 GTN doses" safety-net
+trap: Not offering smoking cessation support
+var: A | Mr Smith, 58 | Stable angina (no asthma): bisoprolol
+a: You came to the GP with central dull crushing pain on walking, relieved by rest, after about 400 m or climbing stairs or hills. No pain at rest.
+a: Smoke 10 a day; you walk a bit but that's all the exercise; eat a lot of ready meals since you separated from your wife, who did all the cooking. Don't drink. No medical history, no medicines, no allergies.
+a: You've never heard of angina or any of the medicines. Ask: "Can I still drive?" Ask about side effects if not told. "My friend had stents; do I need those?"
+r: BP 135/85.
+x: Checks understanding; explains angina in lay terms; lifestyle (stop smoking: offer referral; Mediterranean diet and home cooking; exercise; weight); GTN spray (how and when, side effects: headache, dizziness, flushing; no PDE5 inhibitors; 999 rule); aspirin 75 mg daily (stomach bleeding signs); atorvastatin 80 mg at night (muscle aches; liver test); bisoprolol 2.5–5 mg daily (tiredness, cold hands, don't stop suddenly); driving (no need to tell DVLA for a car; don't drive if angina at rest or at the wheel); stents if symptoms continue despite two anti-anginals or for prognosis after tests; safety-net (pain at rest, lasting longer or different = 999); follow-up; leaflet.
+m: =
+var: B | Mrs Patel, 64 | Stable angina with asthma: rate-limiting calcium-channel blocker
+a: Exertional chest tightness for 2 months, after about 200 m or one flight of stairs; settles with rest in a few minutes. No pain at rest.
+a: Asthma (Clenil and salbutamol). Hypertension on amlodipine 5 mg. No allergies. Never smoked. Walk the dog daily.
+a: Ask: "Is it safe with my asthma?" and "Will I be on these forever?"
+r: BP 138/82. Peak flow normal for her.
+x: As for A, but a beta-blocker is avoided in asthma: use a calcium-channel blocker for symptom control (she's on amlodipine: increase it, or switch to a rate-limiting CCB such as diltiazem per guidance; don't combine verapamil with a beta-blocker); GTN, aspirin, atorvastatin 80 mg; lifelong secondary prevention; review.
+m: Because of your asthma, we won't use a beta-blocker; instead we'll adjust your calcium-channel blocker to prevent the pain, with a GTN spray for attacks and aspirin and a statin to protect your heart. These are usually long-term.
+ask: Can I still drive? | Do I need stents like my friend? | What are the side effects?
+dom: Information gathering | Original presentation; !rest pain screen; lifestyle; PMH, DH, !asthma; !checks understanding first
+dom: Information giving | !Angina explained in plain words; !each drug: name, purpose, how to take, side effects, what to do; lifestyle; driving; stents; chunk and check
+dom: Management | !GTN + secondary prevention (aspirin, statin) + first-line anti-anginal suited to the patient; smoking cessation; follow-up
+dom: Safety | !GTN 999 rule; red flags (rest pain, longer or different pain)
+s: Open | What do you understand about angina so far? | Start where he is: a named mark.
+s: Explain | Your heart is a muscle fed by its own arteries. Over time fatty deposits narrow one of them, so when you walk and the heart works harder, it can't get enough blood, and that causes the pain. It eases when you rest. | Normal → what's gone wrong → why the symptom happens.
+s: Lifestyle | The biggest thing you can do is stop smoking; I can refer you to the stop smoking service today. Cooking fresh food and walking every day also help. | Lifestyle first (scheme order).
+s: GTN | This is a GTN spray. If the pain comes on, sit down and spray once under your tongue. If it's still there after 5 minutes, use it again. If it's still there 5 minutes after the second spray, call 999. It can cause a headache or dizziness. | Prescription-anchored counselling with the safety rule.
+s: Aspirin | Aspirin 75 mg once a day makes the blood less sticky, cutting the chance of a heart attack. If you notice black stools or vomit blood, seek help straight away. | Indication + serious side effect + action.
+s: Statin | Atorvastatin at night lowers cholesterol and protects your arteries. If you get unexplained muscle aches, let us know. | Indication + side effect.
+s[A]: Beta-blocker | Bisoprolol, once a day, slows the heart so it needs less blood. It can make you tired or give cold hands. Don't stop it suddenly. | Indication + side effects + stopping rule.
+s[B]: CCB | Because of your asthma we'll avoid a beta-blocker. We'll adjust your calcium-channel blocker instead; it relaxes the arteries to prevent the pain. Ankle swelling and flushing can happen. | Contraindication handled explicitly.
+s: Driving | You can keep driving and don't need to tell the DVLA, but don't drive if you get angina at rest or while driving. | DVLA group 1 rule (planted question).
+s: Stents | Stents are for people whose pain continues despite tablets, or if tests show a high-risk narrowing. We'll start with tablets and review. | Answers the stent question honestly.
+s: Close | So you know I've explained it well, what would you do if you got the pain walking up a hill? ... Here's a leaflet; let's review in a few weeks. | Teach-back on the 999 rule, leaflet, follow-up.
+
+@PP107 | Tired all the time in general practice (hypothyroidism / iron-deficiency anaemia)
+src: CP3 mock OSCE 1 (Elliot Greenwood) Station 3: TATT → primary hypothyroidism · Nottingham anaemia and thyroid ILOs
+u: 73, 10
+fr: hx, expl
+door: You are an F1 in general practice. A 30-year-old woman has come because she feels tired all the time. Tasks: take a brief history; give the examiner your differential diagnosis; explain the diagnosis and management to the patient.
+trig: Tired + cold + weight gain + constipation + heavy periods → hypothyroidism
+trig: Tired + breathless on stairs + heavy periods + vegetarian → iron-deficiency anaemia
+hook: TATT screen: Thyroid, Blood (anaemia), Sugar (diabetes), Mood, Sleep (OSA).
+hook: TSH and T4 in opposite directions = primary thyroid problem; same direction = pituitary.
+clinch: 🧪 High TSH + low free T4 = primary hypothyroidism (Hashimoto's if TPO antibodies positive)
+clinch: 🧪 Low Hb + low MCV + low ferritin = iron deficiency: find the cause
+clinch: ✅ Levothyroxine on an empty stomach, 30–60 minutes before breakfast; TSH 6–8 weeks after any dose change
+money: The blood tests show ___, which explains the tiredness. We'll treat it with ___, recheck your blood in ___ weeks, and look for the cause.
+trap: Not clarifying what "tired" means and its impact
+trap: Forgetting to screen mood and sleep
+trap: Treating iron deficiency without looking for the cause (periods, diet, coeliac, GI loss)
+var: A | Mrs F, 30 | Primary hypothyroidism (Hashimoto's)
+a: Tired for about 3 months, no trigger: lethargic all day and a bit slow mentally, despite 8–10 hours' sleep. You "just don't feel right". Only admit to other symptoms if asked specifically.
+a: ONLY IF ASKED: heavier periods for a few months; always cold (heating on high, bought a heated underblanket); bowels open every 2–3 days, better with Movicol; weight gain though not hungry. Vision normal, not breathless, normal thirst and urine, mood normal.
+a: Appendix out at 14. Over-the-counter laxatives only. No allergies. Mum has osteoporosis; Dad died of throat cancer. Live with your husband; marketing job; never smoked; 10 units a week.
+a: Ideas: cancer. Concerns: you'll never be the same again. Expectation: to be sent to hospital.
+r: Blood tests from last week: TSH 28 mU/L (high), free T4 7 pmol/L (low); TPO antibodies positive. FBC normal.
+x: Clarifies "tired" and impact; screens diabetes, OSA, mood, anaemia, thyroid (bowels, periods, skin, cold); PMH, DH, FH, SH, ICE (addresses cancer fear). Differentials: hypothyroidism, depression, anaemia. Explains: thyroid like the body's accelerator; autoimmune underactive thyroid (Hashimoto's); not cancer; levothyroxine daily for life (starting dose by weight and age, e.g. 1.6 micrograms/kg in a fit young adult), empty stomach 30–60 minutes before breakfast, separate from iron or calcium by 4 hours; TSH in 6–8 weeks to adjust dose; tell us if planning pregnancy (dose usually rises); palpitations or chest pain = dose too high; feel better in a few weeks; free prescriptions (exemption certificate); leaflet.
+m: Your blood tests show your thyroid gland is underactive, because your immune system has been attacking it. It isn't cancer, and it's very treatable: one levothyroxine tablet every morning on an empty stomach, with a blood test in 6 to 8 weeks to get the dose right.
+var: B | Ms Okafor, 34 | Iron-deficiency anaemia from heavy periods (vegetarian)
+a: Tired for 4 months, breathless climbing the stairs at work, occasional palpitations; hair seems thinner.
+a: ONLY IF ASKED: very heavy periods, flooding and clots, changing pads every 2 hours on the heaviest days. Vegetarian for 5 years. No weight loss, no change in bowel habit, no blood in stool. Not pregnant (on the progestogen-only pill).
+a: No medical history; no medicines except the pill; no allergies. Teacher. Worried it's leukaemia because a colleague's sister had it.
+r: Hb 92 g/L, MCV 72 fL, ferritin 6 micrograms/L, platelets 410, WCC normal. TFT normal. Coeliac serology (tTG): negative.
+x: Iron-deficiency anaemia from menorrhagia with low dietary iron. Oral iron (e.g. ferrous sulfate 200 mg once daily or on alternate days; take with orange juice, not with tea; dark stools and constipation are common), recheck Hb in 2–4 weeks (expect a rise of about 20 g/L in 3–4 weeks), continue 3 months after normal to replenish stores; treat the cause: heavy menstrual bleeding assessment (consider LNG-IUS or tranexamic acid; gynaecology if needed); dietary advice; coeliac test done; not leukaemia (normal white cells and platelets); safety-net.
+m: Your blood is low in iron because you're losing more in your heavy periods than you're taking in. It isn't leukaemia: your white cells are normal. We'll start iron tablets, check your blood in a few weeks, and treat the heavy periods so it doesn't come back.
+ask: Is it cancer? | How long until I feel better? | Will I need tablets forever?
+dom: Information gathering | !Open question with time to answer; clarifies "tired" and impact; screens thyroid, diabetes, anaemia, mood, sleep; PMH, DH, FH, SH; !ICE (cancer fear)
+dom: Clinical reasoning | Differential: hypothyroidism, anaemia, depression, diabetes; !interprets the results
+dom: Information giving | !Prior knowledge; structure: normal → disease → cause → problems → management; chunk and check; summarise; leaflet
+dom: Management | !Correct treatment with how to take it; monitoring; treats the cause; follow-up; safety-net
+s: Open | What's brought you in today? ... When you say tired, what do you mean? Sleepy, weak, or low in yourself? How is it affecting your life? | Clarifying "tired" and impact is the first scored item.
+s: Screen | Have you noticed being thirsty or passing urine a lot? Snoring or waking up unrefreshed? How has your mood been? Any breathlessness? | Diabetes, sleep apnoea, mood and anaemia in one sweep.
+s: Thyroid | Do you feel the cold more than others? Any change in your weight, bowels, skin or periods? | Thyroid screen, including the periods question (both variants hinge on it).
+s: ICE | What have you been thinking it might be? Is anything in particular worrying you? | Unlocks the cancer fear (both variants).
+s: Differential | My differential is hypothyroidism, anaemia, depression or diabetes. | Examiner task 2, said clearly.
+s[A]: Explain | Your thyroid is like the body's accelerator; yours is underactive because your immune system has attacked it. It isn't cancer, and with a daily tablet you should feel back to normal. | Analogy + answers the concern.
+s[A]: Levothyroxine | Take one levothyroxine tablet each morning on an empty stomach, 30 to 60 minutes before breakfast, away from iron or calcium. We'll check your blood in 6 to 8 weeks. If you're planning a pregnancy, tell us early. | Prescription-anchored counselling.
+s[B]: Explain | Your blood count is low because you're short of iron, most likely from the heavy periods and less iron in your diet. Your white cells and platelets are normal, so this isn't leukaemia. | Answers the hidden fear with the evidence.
+s[B]: Iron | Take ferrous sulfate 200 mg once a day, ideally with orange juice and not with tea. It can turn your stools dark and cause constipation. We'll recheck your blood in 2 to 4 weeks and treat the heavy periods too. | Drug, how to take, side effects, monitoring, cause.
+s: Close | Let me summarise: ___. Here's a leaflet. If you get chest pain, palpitations or feel much worse, come back sooner. | Summary, leaflet, safety-net (anchors).
+
+@PP108 | Prescribe for acute coronary syndrome (medical management, not for PCI) + cannulation
+src: CP3 ACS prescribing station (Alan Stevenson) · NICE NG185 · BNF
+u: 0, 2
+fr: presc, proc
+pr: cann
+door: You are a Foundation doctor on MAU. You have clerked Mr Alan Stevenson (DOB 19/1/1955), who has an acute coronary syndrome with ECG changes and is not a candidate for PCI. Bloods taken; he is stable. Allergies: penicillin (rash). Regular medication: citalopram 20 mg OD, omeprazole 10 mg OD. Tasks: prescribe his medication using the drug chart and guidelines provided; insert a cannula in the model.
+trig: NSTEMI managed medically → loading doses once only, then the regular secondary-prevention list
+hook: ACS chart: "Load, Thin, Relieve, Protect": aspirin 300 then 75 + ticagrelor 180 then 90 BD (load), fondaparinux (thin), GTN and morphine with antiemetic PRN (relieve), bisoprolol, ramipril, atorvastatin 80 (protect).
+hook: SSRI + dual antiplatelets = more bleeding: keep the PPI.
+clinch: ✅ Not for PCI: ticagrelor + aspirin unless high bleeding risk (then clopidogrel or aspirin alone)
+clinch: ❌ Clopidogrel + omeprazole interact (reduced clopidogrel effect): use lansoprazole if clopidogrel is chosen
+clinch: 🧪 Check eGFR and weight before fondaparinux; avoid if eGFR under 20
+money: For his ACS I've given aspirin 300 mg and ticagrelor 180 mg as once-only loading doses, then aspirin 75 mg daily and ticagrelor 90 mg twice daily, fondaparinux 2.5 mg daily, GTN and morphine with metoclopramide as required, and bisoprolol, ramipril and atorvastatin 80 mg, keeping his omeprazole for stomach protection.
+trap: Writing loading doses in the regular section
+trap: Prescribing morphine without an antiemetic, or with no maximum dose
+trap: Forgetting the allergy box (penicillin: rash) and patient details
+var: A | Alan Stevenson, 71 | NSTEMI, medical management
+a: (Prescribing station: the examiner answers.) Weight 82 kg. eGFR 68. Hb 142, platelets 260. BP 132/78, HR 78. No history of bleeding, stroke or liver disease.
+r: Drug chart and local ACS guideline provided. ECG: ST depression V4–V6. Troponin raised.
+x: Patient details, weight, allergy box (penicillin: rash) signed. Once-only: aspirin 300 mg PO, ticagrelor 180 mg PO. Regular: aspirin 75 mg OD, ticagrelor 90 mg BD (12 months), fondaparinux 2.5 mg SC OD (up to 8 days or until discharge), bisoprolol 2.5 mg OD, ramipril 2.5 mg OD (check U&E), atorvastatin 80 mg ON, omeprazole continued (or increased to 20 mg) for GI protection, citalopram continued (bleeding risk noted). PRN: GTN 400 micrograms SL, 1–2 sprays, repeat after 5 minutes; morphine 2.5–5 mg IV, maximum per protocol, with metoclopramide 10 mg IV up to 3 times daily (or cyclizine). Anticoagulant box completed; no additional prophylactic LMWH. Cannulation on the model.
+ask: Why so many tablets?
+dom: Prescribing | !Patient details and allergy box; !loading doses as once-only; !correct regular secondary prevention with doses; PRN with indication and maximum; interactions considered (SSRI, PPI); signed and dated
+dom: Clinical reasoning | Chooses ticagrelor vs clopidogrel by bleeding risk; checks renal function for fondaparinux and ramipril
+dom: Procedure (cannulation) | !Consent, ID, hand hygiene, ANTT, flush, dressing, sharps, documentation
+dom: Professionalism | Introduces self, identifies patient, explains, safe practice
+s: Chart | Name, date of birth, hospital number, weight 82 kg, date. Allergy box: penicillin, rash, signed. | Official anchor: "allergy and patient info recorded".
+s: Once-only | Aspirin 300 mg oral and ticagrelor 180 mg oral, once only, now. | Loading doses go in the once-only section.
+s: Regular | Aspirin 75 mg once daily; ticagrelor 90 mg twice daily; fondaparinux 2.5 mg subcutaneously once daily. | Dual antiplatelet + anticoagulant.
+s: Protect | Bisoprolol 2.5 mg daily, ramipril 2.5 mg daily with U&E in 1–2 weeks, atorvastatin 80 mg at night. | Secondary prevention, started low and titrated.
+s: Existing | Continue omeprazole for stomach protection; continue citalopram, noting the extra bleeding risk with antiplatelets. | Interaction review: the station's hidden twist.
+s: PRN | GTN 400 micrograms sublingual as required for chest pain; morphine 2.5–5 mg IV as required with metoclopramide 10 mg IV, each with a maximum. | PRN needs an indication and maximum.
+s: Sign | Signed, printed name, bleep and date on each entry; anticoagulant box ticked. | An unsigned prescription is invalid.
+s: Cannula | Hello, I'm Nana. Can I check your name and date of birth? I'd like to put a small plastic tube in your arm for medicines; is that OK? Any allergies to plasters or cleaning wipes? | Procedure framework opening: ID, consent, allergy.

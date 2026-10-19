@@ -1,0 +1,174 @@
+@@ di | 📊 | Data interpretation: ECG, X-ray, gas, bloods | Same sentence order for every result: who and what, is it adequate, the systematic read, the most striking abnormality, pertinent negatives, summary, next step.
+step: id | !Who, when and what | This is a 12-lead ECG of John Smith, aged 65, taken today at 10:15 when he had chest pain. | Anchor: "confirm patient details and date". Checking the name prevents the never event of acting on the wrong patient's result.
+step: tech | Is it adequate? | The film is PA, not rotated, adequately inspired and penetrated. | Technical adequacy is the first line of every interpretation scheme (RIPE for CXR, calibration for ECG, FiO2 for gases).
+step: sys | Systematic read | - | Examiners mark the system, not just the answer. Use the same order every time.
+step: main | !The most striking abnormality first | The most striking abnormality is ___, which is ___. | Leading with the key finding shows clinical reasoning and saves time.
+step: neg | Pertinent negatives | There is no ___. | Pertinent negatives show you looked for the dangerous alternatives (no free air, no pneumothorax).
+step: sum | !Summary sentence and diagnosis | In summary, this ___ shows ___, consistent with ___. | The reasoning sentence again: finding, meaning, diagnosis.
+step: next | Act on it: escalate, treat, repeat | Given this, I'd ___ and discuss with my senior now. | Interpretation without action scores less. Say what you'd do.
+nn: Patient details and date first
+nn: The most striking abnormality first
+nn: End with an action
+
+@ ecg | ECG | PP01, PP02, PP03, PP04, PP06, PP11 | 3, 0
+use: Interpret an ECG.
+ch: tech | Calibration 25 mm/s and 10 mm/mV; leads correct.
+ch: sys | Rate (300 ÷ big squares, or 10 × QRS count on a rhythm strip), rhythm (regular? P before every QRS?), axis, P waves, PR (120–200 ms), QRS (under 120 ms), ST, T waves, QTc (under 450 ms men, 470 ms women).
+ch: next | ST elevation = cath lab now; fast AF = rate control and anticoagulation decision; complete heart block = atropine, pacing, cardiology.
+tree: Tachycardia narrow, regular | sinus; SVT; flutter (sawtooth, 150)
+tree: Tachycardia narrow, irregular | AF
+tree: Tachycardia broad | VT (treat as VT); SVT with aberrancy; WPW with AF
+tree: Bradycardia | sinus; heart block (1st: long PR; 2nd: Mobitz I or II; 3rd: dissociation)
+tree: Other patterns | short PR + delta wave (WPW); long QT (torsades risk); hyperkalaemia (peaked T, wide QRS)
+nn: Rate and rhythm first
+pearl: Rate, rhythm, axis, P, PR, QRS, ST, T, QT.
+
+@ cxr | Chest X-ray | PP15, PP18, PP100, PP97 | 9, 11, 19, 21
+use: Interpret a CXR.
+ch: tech | RIPE: rotation (clavicles equidistant from spinous processes), inspiration (5–6 anterior ribs), projection (PA or AP), exposure (vertebrae just visible behind the heart).
+ch: sys | ABCDE: airway (trachea, carina), breathing (lung zones, pleura), cardiac (size under 50% on PA, borders), diaphragm (free air, angles), everything else (bones, tubes, soft tissue); review areas (apices, behind the heart, below the diaphragm).
+ch: main | Location by silhouette: loss of the right heart border = right middle lobe; loss of the right hemidiaphragm with the heart border kept = right lower lobe.
+tree: White out | effusion (meniscus, trachea away); collapse (trachea towards); consolidation (air bronchograms); pneumonectomy
+tree: Black | pneumothorax (no lung markings, visible edge); emphysema (hyperinflation)
+tree: Heart failure | ABCDE: alveolar oedema, Kerley B lines, cardiomegaly, upper lobe diversion, effusions
+nn: Check the review areas
+pearl: RIPE, then ABCDE.
+
+@ axr | Abdominal X-ray | PP27 | 48, 45
+use: Interpret an AXR (often with an erect CXR).
+ch: sys | Bowel gas pattern and calibre (3-6-9: small bowel over 3 cm, colon over 6 cm, caecum over 9 cm), valvulae conniventes (small bowel, cross the whole width) vs haustra (large bowel, partial), position (central = small, peripheral = large), free air (Rigler's sign; erect CXR for air under the diaphragm), calcification, bones, artefacts.
+ch: next | "Drip and suck": NBM, NG tube, IV fluids, analgesia, catheter; CT with contrast; surgery if closed loop, ischaemia, perforation.
+tree: Small bowel obstruction | adhesions; hernia; Crohn's stricture; gallstone ileus
+tree: Large bowel obstruction | colorectal cancer; volvulus (coffee bean); diverticular stricture
+nn: Look for free air
+pearl: 3-6-9. Small bowel: central, crosses the width. Large bowel: peripheral, haustra.
+
+@ abg | Arterial blood gas | PP14, PP48, PP97 | 12, 68
+use: Interpret a gas.
+ch: tech | Note FiO2 or the oxygen flow.
+ch: sys | 1. Oxygenation: PaO2 below 8 kPa = respiratory failure (expected PaO2 ≈ FiO2% − 10). 2. pH. 3. PaCO2 (respiratory). 4. HCO3 and base excess (metabolic). 5. Compensation. 6. Anion gap if metabolic acidosis. 7. Lactate, glucose, potassium.
+ch: next | T2RF with acidosis after treatment: NIV. Metabolic acidosis: find the cause (DKA, lactate, renal, toxins).
+tree: Type 1 respiratory failure | low PaO2, normal or low PaCO2: pneumonia, PE, pulmonary oedema, asthma
+tree: Type 2 respiratory failure | low PaO2, high PaCO2: COPD, opioids, exhaustion, neuromuscular
+tree: Metabolic acidosis, high anion gap | DKA; lactic acidosis; renal failure; toxins (aspirin, methanol)
+tree: Metabolic alkalosis | vomiting; diuretics; Conn's
+nn: State oxygenation first
+pearl: Oxygen, pH, CO2, HCO3, compensation.
+
+@ bloods | Blood patterns: LFT, U&E, FBC, TFT, calcium | PP22, PP89, PP102, PP38, PP45 | 41, 51, 10, 72, 73
+use: Interpret a set of bloods.
+ch: sys | Look for the pattern, not each number. LFT: hepatitic (ALT high) vs cholestatic (ALP and GGT high) vs isolated bilirubin. U&E: urea:creatinine ratio, potassium, compare with baseline (AKI staging). FBC: Hb with MCV (micro, normo, macro). TFT: TSH and T4 in opposite directions = primary; same direction = secondary.
+tree: AKI | pre-renal (dehydration, sepsis, drugs); renal (ATN, nephritis, nephrotoxins); post-renal (obstruction: retention, stones)
+tree: Anaemia | microcytic (iron deficiency, thalassaemia); normocytic (chronic disease, bleeding, renal); macrocytic (B12 or folate, alcohol, hypothyroid, liver)
+tree: Hypercalcaemia | primary hyperparathyroidism; malignancy (squamous lung cancer, myeloma, bone metastases)
+nn: Compare with previous results
+pearl: TSH and T4 opposite = primary gland problem.
+
+@ fluidcsf | CSF, joint aspirate and urine dip | PP55, PP84, PP49 | 93, 91, 86, 80
+use: LP results, joint fluid, urine dipstick.
+ch: sys | CSF: appearance, opening pressure, cells, protein, glucose (vs serum), Gram stain, xanthochromia. Joint: appearance, cells, Gram stain, crystals. Urine: glucose, ketones, nitrites and leucocytes, blood, protein.
+tree: CSF | bacterial (turbid, neutrophils, high protein, low glucose); viral (lymphocytes, normal glucose); SAH (xanthochromia)
+tree: Joint | septic (turbid, neutrophils, organisms); gout (negatively birefringent needles); pseudogout (positively birefringent rhomboids)
+pearl: Gout needles are negative; pseudogout rhomboids are positive.
+
+@@ mhx | 🧠 | Psychiatric history, mental state and risk | One frame for every mental health station: rapport, symptoms, risk, background, mental state, plan.
+step: open | !Open warmly; confidentiality and its limits | Everything we talk about stays confidential, unless I'm worried about your safety or someone else's. | Psychiatric stations reward warmth and a safe frame. Explaining the limits of confidentiality is a professionalism mark.
+step: pc | Presenting complaint in their words | Can you tell me what's been happening? | Open questions and silence get the story; the actor holds back until they feel safe.
+step: core | Core symptom screen for the suspected condition | - | Depression: low mood, anhedonia, energy; biological symptoms (sleep, appetite, libido, concentration). Psychosis: voices, beliefs, thought interference. Mania: elevated mood, sleep need, spending. Anxiety, OCD, PTSD: worry, compulsions, flashbacks.
+step: risk | !Risk: to self, to others, from others, neglect | Sometimes when people feel this low, they have thoughts of ending their life. Have you had thoughts like that? | Asking directly about suicide does not increase risk. Risk is a critical domain in every psychiatric scheme.
+step: hx | Past psychiatric history, medication, drugs and alcohol | - | Previous episodes, admissions, self-harm, response to treatment.
+step: personal | Family, personal, forensic and social history | - | Supports and stressors: housing, money, relationships, children (safeguarding), work.
+step: mse | Mental state in parallel (ASEPTIC) | - | Appearance, speech, emotion (mood and affect), perception, thought (form and content), insight, cognition. You're marked on presenting it.
+step: ice | Their understanding and what they want | What do you think is going on? What would help most? | Insight and expectations shape the plan.
+step: sum | !Summarise, then plan: biological, psychological, social, safety plan | - | Bio-psycho-social plan plus a crisis plan (who to call, 24/7 number) is what Management marks look for.
+nn: Ask directly about suicidal thoughts, plans and intent
+nn: Protective factors
+nn: Crisis plan with a 24/7 number
+
+@ mood | Low mood and suicide risk | PP65, PP66 | 102, 111, 117
+use: Low mood, after self-harm, postnatal.
+ch: core | Core: low mood, anhedonia, low energy for 2 weeks or more; biological: sleep (early waking), appetite and weight, libido, concentration; guilt and hopelessness.
+ch: risk | Thoughts → plans → preparation (means, note, timing) → intent → previous attempts → protective factors (family, faith, pets, future plans). After self-harm: planned or impulsive, precautions against discovery, final acts, regret.
+ch: sum | Mild: guided self-help, CBT; moderate or severe: antidepressant (SSRI) + CBT; high risk: crisis team or admission. Safety plan and 24/7 crisis line.
+tree: Differentials | depression; bipolar depression; adjustment disorder; organic (hypothyroid, anaemia, drugs, alcohol)
+nn: Ask about psychotic symptoms
+pearl: Thoughts, plans, means, intent, protective factors.
+
+@ psychosis | Psychosis and mania (MSE) | PP61, PP66 | 100, 101, 103, 112
+use: Mental state examination, voices, unusual beliefs, elevated mood.
+ch: core | Hallucinations (second or third person, running commentary, command), delusions (persecutory, grandiose, reference), thought interference (insertion, withdrawal, broadcast), passivity. Mania: elevated or irritable mood, reduced need for sleep, pressured speech, grandiosity, risky spending.
+ch: risk | Command hallucinations, risk to others, vulnerability, non-adherence, driving.
+ch: mse | Speech (pressured, tangential), thought form (flight of ideas, loosening of association), insight (does he think he is unwell?).
+ch: sum | Antipsychotic (with ECG, weight, glucose, lipids monitoring), early intervention in psychosis team, Mental Health Act if refusing and at risk.
+tree: Primary | schizophrenia; bipolar (mania with psychosis); psychotic depression; schizoaffective
+tree: Secondary | drugs (cannabis, amphetamines, steroids); delirium; dementia
+nn: Ask about command hallucinations
+pearl: Appearance, speech, emotion, perception, thought, insight, cognition.
+
+@ anx | Anxiety, OCD and PTSD | PP67 | 104, 105, 106, 118
+use: Worry, panic, intrusive thoughts, flashbacks.
+ch: core | GAD: excessive worry most days 6 months; panic: attacks with fear of dying. OCD: obsessions (unwanted thoughts) + compulsions (acts to reduce anxiety), insight that they're excessive. PTSD: trauma, flashbacks, nightmares, avoidance, hyperarousal for over a month.
+ch: sum | Stepped care: psychoeducation, guided self-help, CBT (ERP for OCD; trauma-focused CBT or EMDR for PTSD), SSRI.
+nn: Exclude depression and substance use
+pearl: OCD: obsession → anxiety → compulsion → relief → repeat.
+
+@ alcohol | Alcohol and substances | PP62 | 110
+use: Alcohol history, withdrawal, motivational interview.
+ch: core | Units per week (and pattern); CAGE or AUDIT; dependence: tolerance, withdrawal (shakes, sweats, seizures, hallucinations), morning drinking, cravings, giving up activities.
+ch: risk | Withdrawal seizures and DTs; driving; children; Wernicke's (confusion, ataxia, ophthalmoplegia).
+ch: sum | Brief intervention or motivational interviewing; dependent: don't stop suddenly, planned detox with chlordiazepoxide; Pabrinex if at risk of Wernicke's; alcohol services; thiamine.
+nn: Quantify units and ask about withdrawal
+pearl: Never tell a dependent drinker to stop suddenly.
+
+@ cog | Cognition: dementia vs delirium | PP56, PP57 | 116, 92
+use: Memory loss, confusion, cognitive testing.
+ch: core | Onset and course, fluctuation, attention (delirium), memory, language, personality, function (ADLs).
+ch: mse | 4AT for delirium; AMTS or MoCA for cognition (MoCA normal 26 or more out of 30).
+ch: sum | Delirium: treat the cause, reorientation, family, avoid sedatives. Dementia: bloods (TFT, B12, folate, calcium, glucose), CT, memory clinic.
+nn: Establish baseline from a collateral history
+pearl: Delirium: acute, fluctuating, inattentive.
+
+@@ prof | ⚖️ | Professional and ethical stations | Capacity, consent, confidentiality, candour, DNACPR and difficult conversations follow one shape.
+step: prep | Prepare: facts, notes, guidance, private room | - | Knowing what happened (and what the law says) before you go in keeps you honest and calm.
+step: open | !Introduce, check who they are and their relationship; confidentiality | Can I check how you're related to Mr Evans? | Talking to the wrong person is a confidentiality breach; examiners plant this.
+step: emo | !Acknowledge emotion first | I can see you're really upset, and that's completely understandable. | An angry or upset actor marks you on whether you named the emotion before explaining.
+step: know | Find out what they know and want | What have you been told so far? | Starts where they are and avoids repeating or contradicting.
+step: expl | Explain honestly in plain words, including what the law or guidance says | - | MCA 2005, GMC guidance, duty of candour: say the principle in one sentence, not the act's name alone.
+step: opts | Explore wishes, values and options | Has he ever talked about what he'd want if he became very unwell? | Best-interests decisions and ReSPECT forms rest on what the person would want.
+step: plan | !Agree the plan, escalate to senior, document | I'll discuss this with my consultant today and write it in the notes. | Every professional scheme has "escalates appropriately" and "documents".
+step: sup | Apologise where due, offer support and follow-up, complaints route | I'm sorry this happened. The PALS team can also help. | An apology is not an admission of liability; candour requires it.
+nn: Check identity and relationship before sharing anything
+nn: Acknowledge emotion before facts
+nn: Escalate and document
+
+@ capacity | Capacity and refusal | PP69 | 112
+use: Refusing treatment, wants to go home, consent.
+ch: expl | Two-stage test: is there an impairment of mind or brain, and because of it can they understand, retain, use and weigh, and communicate the decision? Assume capacity; capacity is decision-specific; an unwise decision is not incapacity.
+ch: plan | Has capacity: respect the decision, explain risks, keep the door open, safety-net, document. Lacks capacity: best interests (least restrictive, involve family, LPA or advance decision), IMCA if no one; Mental Health Act only for mental disorder treatment.
+nn: Assume capacity; test each part
+pearl: Understand, retain, weigh, communicate.
+
+@ candour | Duty of candour and errors | PP92 | 112
+use: A mistake has happened (wrong drug, allergy ignored).
+ch: emo | Acknowledge anger; sit down; don't be defensive.
+ch: expl | Say what happened, honestly, as soon as possible; apologise; explain what's being done for the patient now.
+ch: plan | Incident report (Datix), senior involved, follow-up meeting, PALS; learning so it doesn't happen again.
+nn: Apologise and say what happened
+pearl: Tell, apologise, fix, learn.
+
+@ dnacpr | DNACPR and ReSPECT conversations | PP96 | 16, 6
+use: Escalation planning, DNACPR with patient or family.
+ch: know | What do they understand about their illness and where things are heading?
+ch: expl | CPR: chest compressions, shocks, breathing tube; in frail people with severe illness it rarely works and can cause harm (broken ribs, prolonged dying). A DNACPR decision is only about CPR: all other treatment continues.
+ch: opts | Their wishes, values and preferred place of care; ceilings (ward-based care, NIV yes or no, ICU yes or no).
+ch: plan | The decision is clinical but must be discussed with the patient (or family if the patient lacks capacity); family can't demand CPR but must be informed and consulted; record on the ReSPECT form; review.
+nn: DNACPR does not mean do not treat
+pearl: CPR is a treatment; not offering a futile one is not giving up.
+
+@ confid | Confidentiality and safeguarding | PP96 | 112
+use: Relative asks for information; concerns about abuse or neglect.
+ch: open | Check the patient's consent to share; if not possible, share only in their best interests or to prevent serious harm.
+ch: expl | Safeguarding: explain why referral is a duty, without blame, focused on keeping the person safe.
+ch: plan | Safeguarding team, senior, document facts not opinions.
+nn: Don't blame; explain the duty
+pearl: Consent, best interests, or serious harm: the three gates to share.

@@ -1,0 +1,241 @@
+# v3 new stations from the CP1–CP3 Drive folder and CP2 notes (Oct 2026 upload).
+# New keys: d: (door for this case), m: (money line for this case)
+
+@PP94 | Annual diabetic review: complications found (retinopathy, neuropathic ulcer, nephropathy)
+src: CP3 GP station (annual diabetic review, Kate Price) · Nottingham diabetes ILOs
+u: 67, 71
+fr: hx, di, expl, plan
+ex: footdm
+door: You are an F1 in general practice. Kate Price, 56, with type 2 diabetes, has come for her annual diabetic review. Tasks: ask the relevant questions for a diabetic review; ask the examiner for the examinations and investigations you want and interpret them; tell the patient what you have found and suggest a management plan.
+trig: "Annual review" → think in three columns: control (HbA1c, hypos), macrovascular (BP, lipids, smoking, weight), microvascular (eyes, kidneys, feet)
+trig: Numbness "like walking on cotton wool" + a smelly heel ulcer she didn't feel → neuropathic foot ulcer with infection
+hook: Annual review = "Sugar, Vessels, Eyes, Kidneys, Feet, Mood, Driving".
+hook: CKD with protein in the urine in type 2 diabetes → add an SGLT2 inhibitor to metformin (NICE NG28).
+clinch: ✅ Glove-and-stocking sensory loss + painless heel ulcer = neuropathic ulcer; smell and discharge = infection
+clinch: 🧪 HbA1c 60 on metformin alone: above the 48 target → intensify
+clinch: 🧪 High albumin:creatinine ratio + eGFR 50 = diabetic kidney disease
+clinch: ❌ Gliclazide is not the best add-on here: weight gain and hypos, and an SGLT2 inhibitor also protects her kidneys
+money: Your diabetes is running higher than we'd like and it has started to affect your eyes, kidneys and feet. The heel ulcer needs the foot team within a day and antibiotics, the eye changes need the eye clinic, and adding a tablet called dapagliflozin will bring your sugar down and protect your kidneys.
+trap: Missing the foot: an infected diabetic foot ulcer needs the multidisciplinary foot service within 1 working day (NICE NG19)
+trap: Forgetting driving: blurred vision means she must not drive until her vision is checked against the DVLA standard
+trap: Not screening mood: she feels "out of control"; that's the Communication 4 cue
+var: A | Kate Price, 56 | T2DM with retinopathy, neuropathic infected heel ulcer and nephropathy
+a: Type 2 diabetes for 15 years, control "up and down". Metformin at the maximum dose, taken every day. No hypos, no admissions. You don't check your sugar at home (never been told to).
+a: Blurred vision on the right recently; driving has become harder; you're unsure if you're allowed to drive.
+a: Numbness and tingling in both feet up to the ankles, "like walking on cotton wool". An ulcer under the heel for 2 weeks, no injury you remember, not healing, quite smelly.
+a: Husband had a heart attack recently; you've been stressed and eating cake and biscuits. Cut down from 20 to 5 cigarettes a day. Drink socially. BMI 30. Mostly on the sofa watching TV.
+a: Ramipril for blood pressure, a statin for cholesterol. ONLY IF ASKED: you've been feeling down; mostly because you feel out of control of your diabetes.
+r: HbA1c 60 mmol/mol. Fasting glucose 6.4. BP 150/95. LDL high. BMI 30. eGFR 50. Urine albumin:creatinine ratio HIGH. Fundoscopy: new vessels with dot and blot haemorrhages on the right. Feet: glove-and-stocking sensory loss; non-healing discharging ulcer on the heel.
+x: Covers symptoms, control (HbA1c, home testing, hypos, side effects), macrovascular risk (BP, lipids, smoking, BMI, ECG), microvascular (fundoscopy, eGFR and ACR, feet: pulses, monofilament, ABPI), driving, lifestyle, mood. Explains: not well controlled (aim 48), retinopathy, neuropathy with an infected ulcer, early kidney disease. Plan: same-day or next-working-day referral to the diabetic foot service, antibiotics for the infected ulcer (and X-ray for osteomyelitis); ophthalmology referral (urgent if proliferative); add an SGLT2 inhibitor (dapagliflozin) to metformin for glucose and kidney protection (sick-day rules, genital thrush, DKA warning); maximise ramipril with U&E check, BP target below 140/90 (lower if ACR 70 or more); statin dose review; stop smoking support; dietitian, structured education (DESMOND); mood support; DVLA: don't drive until vision assessed; review in 3 months. Answers: not her fault; HbA1c = average sugar over 2–3 months; gliclazide causes weight gain and hypos.
+ask: Is it my fault I've got all these complications? | My sugar was fine this morning, so why is the HbA1c high? | When do I need to come back? | My friend takes gliclazide; would that be good for me?
+dom: Information gathering | Diabetic symptoms; !glycaemic control incl. home testing and hypos; macrovascular risk (BP, lipids, smoking, BMI); microvascular (eyes, kidneys, feet); !driving; diet and lifestyle; mood
+dom: Clinical reasoning | Interprets HbA1c against target; !identifies retinopathy, neuropathic infected ulcer and nephropathy
+dom: Information giving | Plain-language explanation of each complication; HbA1c explained; answers questions; no blame
+dom: Management | !Foot ulcer: urgent foot team + antibiotics; ophthalmology; SGLT2 inhibitor added with counselling; BP and statin optimised; smoking; structured education; follow-up 3 months
+s: Open | I'd like to go through how your diabetes has been this year, check for any complications, and make a plan together. Is that OK? | Agenda-setting: signposts the whole consultation in one line (your structure feedback).
+s: Control | How have your sugars been? Do you ever check them at home? Any hypos, where you feel shaky, sweaty or confused? | Glycaemic control and hypos are named items.
+s: Eyes | Any change in your eyesight? Are you still driving? | Retinopathy screen + driving in one move.
+s: Feet | Any numbness or tingling in your feet? Any sores or cuts? | The planted ulcer is only found if you ask.
+s: Mood | Living with diabetes can be a lot. How has your mood been? | Mood screening is a separate mark and the actor's hidden cue.
+s: Results | Your HbA1c, which is your average sugar over the last 2–3 months, is 60; we aim for under 48. A single good reading in the morning doesn't show the whole picture. | Answers the planted HbA1c question with a comparison.
+s: Feet | The sore on your heel is because the nerves in your feet aren't feeling pain, and it looks infected. I'd like the specialist foot team to see you within a day, and start antibiotics today. | The safety-critical action, said first.
+s: Eyes | The back of your eye shows new, fragile blood vessels. I'll refer you to the eye clinic urgently, and until your vision is checked please don't drive. | Retinopathy + DVLA.
+s: Kidneys | Your kidneys are leaking a little protein. A tablet called dapagliflozin will lower your sugar and protect your kidneys. It can cause thrush, and if you're ever unwell and not eating, pause it and contact us. | Anchors to the drug with side effects and sick-day rules (your counselling feedback).
+s: Questions | This isn't your fault; diabetes changes over time. We'll work on it together. | Removes blame; answers the planted question.
+s: Gliclazide | Gliclazide can cause weight gain and low sugars, so for you dapagliflozin is the better choice. | Answers the friend's-drug question with a reason.
+s: Close | Let's see you again in 3 months rather than a year. If the foot becomes hot, red, swollen or you feel feverish, come in the same day. | Shorter follow-up + specific safety-net.
+
+@PP95 | Resistant hypertension: secondary causes (renal artery stenosis / phaeochromocytoma / Conn's)
+src: CP3 GP station (refractory hypertension, 3 options) · NICE NG136
+u: 4
+fr: hx, ex, di, reason, plan
+ex: bp
+door: You are a Foundation doctor in general practice. Your patient takes ramipril 10 mg, amlodipine 10 mg and has recently started indapamide. He has brought 2 weeks of home blood pressure readings. Tasks: look at the readings; take a focused history; do a focused examination; interpret the investigations provided; give the examiner your diagnosis and management plan.
+trig: BP still 175/105 on three drugs (ACEi + CCB + thiazide-like) with good adherence → resistant hypertension: look for a secondary cause
+trig: Low potassium before or despite treatment → think Conn's (primary aldosteronism)
+trig: Headache + palpitations + sweating in episodes → phaeochromocytoma
+hook: Resistant HTN checklist: "Are they taking it? Is it real? Is there a cause?" (adherence → HBPM/ABPM → secondary causes).
+hook: Phaeo: alpha before beta. A beta-blocker first leaves alpha unopposed and can cause a crisis.
+clinch: 🧪 Aldosterone:renin ratio high + low K = primary aldosteronism
+clinch: 🧪 Raised plasma free metanephrines = phaeochromocytoma
+clinch: ✅ Arteriopath + renal bruit + creatinine rise on an ACE inhibitor = atherosclerotic renal artery stenosis
+clinch: ❌ Young (under 40) with hypertension → refer to look for a secondary cause, don't just add drugs
+money: Your home readings average about 177 over 107 despite three tablets, so we call this resistant hypertension. Your results point to ___, a specific cause we can treat, so I'll refer you to the specialist team and adjust your treatment in the meantime.
+trap: Adding a beta-blocker before alpha-blockade in phaeochromocytoma
+trap: Forgetting to confirm adherence and the home BP technique before blaming the drugs
+trap: Missing NICE step 4: potassium 4.5 or less → spironolactone; above 4.5 → alpha- or beta-blocker; specialist advice if uncontrolled on 4 drugs
+var: A | Mr Hudson, 64 | Atherosclerotic renal artery stenosis
+a: Angina, type 2 diabetes and intermittent claudication. GTN spray, metformin, aspirin, citalopram. No allergies.
+a: Smoked 20 a day for 40 years. Used to drink 40 units a week in your 40s; now ex-drinker. You take your tablets every day.
+r: Home BP average about 177/107 over 14 days. Examination: renal bruit. Na 135, K 3.3, urea 7.5, creatinine 200. Aldosterone:renin ratio 18 (normal under 80). Renal artery duplex: 62% narrowing.
+x: Atherosclerotic renal artery stenosis in an arteriopath. Optimise medical therapy: BP control (watch creatinine on ACEi: stop if it rises more than 30%), high-intensity statin, antiplatelet, smoking cessation, diabetes control; renal referral; stenting only for specific indications (flash pulmonary oedema, rapidly declining function, resistant BP despite therapy).
+m: You've got narrowing of the artery to your kidney, which is driving the blood pressure. The most important treatments are stopping smoking, a strong statin, aspirin and careful blood pressure control with kidney blood tests; the kidney team will decide if a stent would help.
+var: B | Mr Hudson, 45 | Phaeochromocytoma
+a: Headaches that throb and don't respond to paracetamol. Episodes of pounding heartbeat and sweating. Light-headed when you stand.
+a: No past history. No caffeine. Alcohol 5 units a week. You take your tablets every day.
+r: Home BP average about 177/107. 24-hour urine catecholamines, metanephrines and normetanephrines raised. Plasma free metanephrines raised. TFTs normal.
+x: Phaeochromocytoma. Refer urgently to endocrinology; localise with CT or MRI of the adrenals; alpha-blockade first (phenoxybenzamine or doxazosin), then a beta-blocker once alpha-blocked; fluids and liberal salt; surgical removal (laparoscopic adrenalectomy); genetic testing.
+m: The tests show a small adrenal gland tumour making adrenaline-like hormones, which explains the headaches, pounding heart and sweats. The endocrine team will scan it, start an alpha-blocker first, then a beta-blocker, and plan an operation to remove it.
+var: C | Ms Hudson, 32 | Primary aldosteronism (Conn's)
+a: No symptoms at first; ONLY IF ASKED: getting up to pass urine at night, and tired.
+a: High blood pressure found at a pill check; you stopped the combined pill and now have a copper coil. Mother and 25-year-old brother have hard-to-control blood pressure; grandmother had a stroke.
+a: Non-smoker, non-drinker, no recreational drugs. Physiotherapist; work isn't stressful. You take your tablets every day.
+r: Home BP average about 177/107. Na 140, K 3.2. Aldosterone:renin ratio 400 (normal under 80).
+x: Primary aldosteronism. Refer to endocrinology: confirm (saline suppression), CT adrenals, adrenal vein sampling. Unilateral adenoma: laparoscopic adrenalectomy; bilateral hyperplasia: spironolactone (or eplerenone). Family history: consider familial hyperaldosteronism and screening relatives.
+m: Your adrenal glands are making too much of a hormone called aldosterone, which raises blood pressure and lowers potassium. The specialist team will confirm it and scan your adrenals; if it's one gland, an operation can cure it, and if both, a tablet called spironolactone works well.
+ask: Why isn't my blood pressure coming down? | Will I need more tablets?
+dom: Information gathering | !Adherence and home BP technique; symptoms (headache, palpitations, sweating, nocturia); red flags (headache, visual change, chest pain); risk factors; FH; drugs (NSAIDs, decongestants, the pill, liquorice)
+dom: Examination | BP both arms; radio-femoral delay; renal bruits; fundoscopy; Cushingoid or thyroid features
+dom: Clinical reasoning | Confirms resistant hypertension; !names the secondary cause from the results
+dom: Management | !Specialist referral; cause-specific plan (alpha before beta in phaeo; adrenalectomy or spironolactone in Conn's; best medical therapy in RAS); NICE step 4 rules
+s: Open | Thanks for bringing your readings. Before we talk about tablets, can I ask how you take them and how you measure your blood pressure at home? | Adherence and technique first: the "are they taking it, is it real" check.
+s: History | Do you get headaches, episodes of a pounding heartbeat or sweating, or are you getting up at night to pass urine? | One question that screens phaeo and Conn's.
+s: History | Do you take anything else: painkillers like ibuprofen, cold remedies, the pill or liquorice? | Drug causes of resistant hypertension.
+s: Examination | I'd check the blood pressure in both arms, feel for radio-femoral delay, listen for renal bruits and look at the back of the eyes. | Targeted exam for secondary causes and end-organ damage.
+s: Reasoning | The home readings average about 177 over 107 on three drugs, so this is resistant hypertension, and the results point to a secondary cause. | Reasoning sentence (your feedback).
+s[A]: Plan | With a renal bruit, a creatinine of 200 and a 62% narrowing, this is renal artery stenosis. I'd optimise statin, antiplatelet and BP control, monitor creatinine closely on the ACE inhibitor, support him to stop smoking and refer to renal. | Best medical therapy is the mainstay; stenting is selective.
+s[B]: Plan | Raised metanephrines mean a phaeochromocytoma. I'd refer urgently, image the adrenals, and start an alpha-blocker before any beta-blocker, then plan surgery. | Alpha before beta is the safety point.
+s[C]: Plan | Low potassium and a very high aldosterone:renin ratio in a young woman with a family history: primary aldosteronism. Refer to endocrinology for confirmation, adrenal CT and vein sampling; spironolactone meanwhile. | Young + low K + family history.
+s: Close | I'll refer you to the specialist team. If you get a severe headache, chest pain or changes in your vision, call 999. | Safety-net for hypertensive emergency.
+
+@PP96 | Escalation planning: DNACPR and ReSPECT conversation (patient and wife / daughter of a patient with dementia)
+src: CP3 ReSPECT form station (Bobby Evans) · GP DNAR scenario (Marjorie Barnes) · GMC decision-making guidance · MCA 2005
+u: 16, 6
+fr: prof, expl
+door: You are a Foundation doctor. Your consultant has asked you to talk about future care decisions. Tasks: have the discussion and, where asked, complete the ReSPECT form.
+trig: Frail, multiple serious conditions, deteriorating → the station is about ceilings of care and CPR, not about the current treatment
+trig: A relative says "Will you just let her die?" → explain DNACPR is about CPR only; all other treatment continues
+hook: DNACPR ≠ do not treat. "We'd still treat the chest infection; we just wouldn't do CPR if her heart stopped."
+hook: ReSPECT order: what matters to the person → their conditions → clinical recommendations (life-sustaining vs comfort, NIV, ICU) → CPR → capacity → who was involved → sign.
+clinch: ✅ A capacitous patient can refuse NIV (or any treatment) even if others disagree
+clinch: ✅ CPR is a clinical decision; patients and families must be informed and consulted but cannot demand futile treatment
+clinch: ❌ A relative without LPA cannot consent or refuse on the patient's behalf, but must be consulted about the patient's wishes
+money: CPR means chest compressions, shocks and a breathing tube. When someone is as frail as ___, it very rarely works and can cause a lot of harm, so we don't think it would help. That's the only thing that changes: we'll keep treating everything else and keep them comfortable.
+trap: Saying "DNR" or implying all treatment stops
+trap: Asking the relative to "decide" (it isn't their decision, and it's a burden) instead of asking what the person would have wanted
+trap: Forgetting to ask about an advance decision (ADRT) or a lasting power of attorney for health and welfare
+var: A | Bobby Evans, 89, with his wife | COPD with T2RF, heart failure, CKD 4: declines NIV, agrees DNACPR
+d: You are a Foundation doctor on MAU. Your consultant has asked you to talk with Mr Evans and his wife about decisions on escalation of care. He has COPD with type 2 respiratory failure, heart failure, hypertension and CKD stage 4, and has been admitted with worsening breathlessness. Tasks: discuss his care with him and his wife; fill out the ReSPECT form.
+a: You both understand he's coming to the end of his life.
+a: You would like investigations and treatment for this episode.
+a: NIV: you do NOT want it again; you found the mask very uncomfortable last time. Your wife isn't happy about this but accepts it.
+a: CPR: after a good explanation of why it isn't recommended, you agree to a DNACPR decision.
+r: Capacity: he understands, retains, weighs and communicates the information.
+x: Checks understanding; explains the current condition and options; NIV: indication, benefit and burden; respects his capacitous refusal of NIV; explains why CPR isn't recommended (very unlikely to succeed, harms) and that all other treatment continues; acknowledges the wife's distress; completes ReSPECT: preferences, ward-based treatment for this episode including antibiotics, no NIV, not for CPR, capacity present, wife involved, signed; documents and informs the team.
+m: You want treatment for this chest infection but not the mask again, and I'll respect that. If your heart stopped, CPR would be very unlikely to work and could hurt you, so we won't attempt it, but we'll keep treating the infection and keep you comfortable.
+var: B | Gemma Barnes, daughter | Severe vascular dementia in a nursing home: DNACPR best-interests discussion
+d: You are a GP Foundation doctor. You recently visited Marjorie Barnes, 89, in her nursing home: severe vascular dementia, COPD, rheumatoid arthritis and high care needs, now much more frail; she cannot communicate effectively. You have asked her daughter Gemma to come in. Task: discuss her mother's care, including a DNACPR decision.
+a: Your brother James lives in Germany; you're the main person responsible. You visit 2–3 times a week and have also noticed her getting worse this month.
+a: No advance decision, no power of attorney. You can't remember Mum ever discussing end of life. You find these topics uncomfortable.
+a: If DNACPR is raised: "What if she gets another chest infection, will you just let that kill her?" "Why wouldn't you at least try CPR?" "Do I actually have a choice, or will you do it anyway?"
+a: Once it's explained well, you feel OK but want to speak to your brother first.
+r: Marjorie lacks capacity for this decision.
+x: Confirms relationship and next of kin; empathetic, paced; raises the topic sensitively; asks about her mother's wishes, beliefs, ADRT and LPA; explains CPR and why it's unlikely to work (and causes harm) in someone this frail; DNACPR is a clinical decision in her best interests; family are consulted, not asked to decide; other treatment (antibiotics, comfort, symptom control) continues; offers to speak with the brother; palliative goals; questions.
+m: Your mum would still get antibiotics and everything to keep her comfortable. CPR would very likely not work for her and could cause harm, so it's a medical decision we make in her best interests; we want you and James to understand it and tell us what she'd have wanted.
+ask: Does this mean you're giving up? | What happens if he gets another infection? | Do we have any choice?
+dom: Professionalism | Confirms identity and relationship; private setting; honest; !no false promises; documents and informs team
+dom: Communication | Empathy; appropriate pauses; avoids jargon (no "DNR"); responds to distress
+dom: Information gathering | !Checks prior understanding; wishes, values, beliefs; ADRT and LPA
+dom: Clinical reasoning | Explains condition and options; NIV benefits and burdens; why CPR isn't recommended
+dom: Information giving | Structured; chunk and check; !DNACPR is about CPR only, all other care continues; time for questions
+dom: ReSPECT and plan | Form completed appropriately (preferences, recommendations, CPR, capacity, involvement, signature); family involved; review
+s: Open | Thank you for coming in. I'd like to talk about how things are going and plan ahead together, so we know what matters most if things get worse. Is that OK? | Purpose and permission; frames it as planning, not withdrawal.
+s: Understanding | What's your understanding of how things have been lately? | Prior knowledge is a named mark (and often brings up "end of life" for you).
+s: Wishes | What matters most to you (to her) now? Has she ever talked about what she'd want if she became very unwell? | Best-interests and ReSPECT start with the person's values.
+s: Legal | Is there a written advance decision, or has anyone been given lasting power of attorney for health decisions? | ADRT and LPA questions are scored.
+s: CPR | If the heart stops, CPR means pressing hard on the chest, electric shocks and a breathing tube. In someone with several serious illnesses who is this frail, it very rarely restarts the heart, and when it does people are often more unwell afterwards. | Honest, specific, not graphic: the clinical reasoning mark.
+s: CPR | So we don't think CPR would help. That doesn't change anything else: we'd still treat infections, give oxygen and fluids, and focus on comfort. | DNACPR ≠ do not treat: the key reassurance.
+s[A]: NIV | You've told me you don't want the mask again. That's your decision, and I'll write it down. Is there anything that would change your mind? | Respects a capacitous refusal and checks it's informed.
+s[A]: Wife | I can see this is hard for you. What's worrying you most? | Acknowledges the relative's emotion (the planted distress).
+s[B]: Choice | This is a medical decision we make in her best interests, but we don't want to make it without you. Your role is to help us understand what she would want, not to carry the decision. | Answers "do I have a choice?" honestly and lifts the burden.
+s[B]: Brother | Of course, talk with James; I'm happy to speak to him too. | Involves family appropriately.
+s: Close | I'll record this on a ReSPECT form, and it can be reviewed at any time if things change. | Documentation and review complete the station.
+
+@PP97 | Post-operative deterioration: A–E (intra-abdominal bleeding / acute pulmonary oedema from fluid overload)
+src: CP3 crit care stations (post-op A–E, A–E SOB) · CP3 mock OSCE 2018 Station 6 (post-operative pulmonary oedema, official anchors)
+u: 46, 6, 45, 51
+fr: acute, di, plan, sbar
+door: You are the F1 on call for General Surgery. You have been asked to see a post-operative patient who has deteriorated. Tasks: perform an acute assessment, verbalising management as you go (you will be given responses); interpret the investigations; give a diagnosis and further plan to the examiner.
+trig: Post-op + tachycardia + hypotension + falling Hb + distended tender abdomen → bleeding until proven otherwise
+trig: Post-op day 2 + breathless + bibasal crackles + oedema + positive fluid balance → fluid overload pulmonary oedema
+hook: Post-op timeline: bleed (hours) → atelectasis (day 1–2) → fluid overload (day 2–3) → leak or sepsis (day 5–7) → clot (day 7–10).
+hook: Pulmonary oedema anchors: sit up, STOP the fluids, furosemide, catheter, escalate, reassess.
+clinch: ✅ Tachycardia is the first sign of bleeding; hypotension is late
+clinch: 🧪 Hb 85 after a laparotomy with shock = haemorrhage; don't wait for the next Hb
+clinch: ✅ Raised JVP + bibasal crackles + positive fluid balance = overload, not pneumonia
+money: ___ is ___ hours after surgery and is ___, which I think is ___. I've started ___ and I need you to review him now.
+trap: Giving more fluid to a breathless post-op patient with crackles
+trap: Sending a shocked bleeding patient to CT instead of theatre
+trap: Not looking at the fluid chart and drains in E
+var: A | Daniel Thompson, 25 | Intra-abdominal haemorrhage after laparotomy
+d: You are the surgical F1 on call. Nurses are worried about Daniel Thompson, 25, recovering from a midline laparotomy, initially because of his pain control. Tasks: perform an acute assessment; state the investigations; interpret them; explain your plan to the examiner.
+a: A: patent, no added sounds. B: shallow fast breathing, RR 22, sats 96% on air, chest clear.
+a: C: HR 120 regular, BP 80/30, cool peripheries, capillary refill 4 s, heart sounds normal, difficult IV access.
+a: D: PEARL, responds to voice, temp 37.7, glucose 7.0. E: abdomen diffusely swollen, tender, guarding; wound intact, no pus; no calf tenderness; no external bleeding.
+r: Hb 85, WCC 10.5, platelets 200, PT 11 s, APTT 30 s, U&E normal. CT (if asked and stable): intra-abdominal collection consistent with haematoma.
+x: Haemorrhagic shock from intra-abdominal bleeding after laparotomy. High-flow oxygen, two large-bore cannulas (or IO if access fails), crossmatch and activate the major haemorrhage protocol, O-negative blood while waiting, warmed fluids, stop LMWH and anticoagulants, clotting and fibrinogen, catheter and urine output, NBM, urgent senior surgical review (registrar and consultant) and anaesthetist, back to theatre; SBAR.
+m: Daniel is a day after a laparotomy and is shocked with a heart rate of 120, BP 80/30 and an Hb of 85 with a tense tender abdomen, so I think he's bleeding inside. I've activated the major haemorrhage protocol and given O-negative blood; he needs to go back to theatre now.
+var: B | David Ellis, 65 | Acute pulmonary oedema from post-op fluid overload
+d: It is 17:30. You are the F1 on call for General Surgery. David Ellis, 65, had bowel surgery 2 days ago and had been progressing well but is now breathless. Tasks: perform an acute assessment, verbalising management as you go (you need not take a history); interpret the investigations; formulate a diagnosis and plan.
+a: A: patent, talking. B: RR 28, visibly distressed, sats 90% on air (97% on 15 L), normal expansion, resonant, bibasal crackles.
+a: C: capillary refill under 2 s, warm, BP 160/90, HR 120 regular, heart sounds normal, JVP raised.
+a: D: PEARL, GCS 14 (a little confused), glucose 8.0, temp 37.2. E: abdomen soft, calves soft, sacral oedema and pitting oedema to the knees; IV fluids running; fluid chart positive by about 4 L since surgery.
+r: ABG on air: PaO2 9.8, PaCO2 4.8, pH 7.40, lactate 1.0. Hb 172. ECG: sinus tachycardia, no acute ischaemia. Portable CXR: bilateral perihilar shadowing, Kerley B lines, small effusions, upper lobe diversion.
+x: Acute pulmonary oedema secondary to post-operative fluid overload (type 1 respiratory failure). Sit upright, oxygen to target 94–98%, STOP IV fluids, IV furosemide 40 mg stat, catheter with hourly urine output, daily weights, U&E, ECG and troponin to exclude MI as the precipitant, review the drug chart; CPAP if still hypoxic or acidotic; escalate to the medical or surgical registrar or critical care; reassess after each intervention. Nitrates and opiates are not routine (NICE CG187).
+m: Mr Ellis is 2 days after bowel surgery with 4 litres of positive fluid balance, crackles, oedema and a CXR showing pulmonary oedema, so this is fluid overload. I've sat him up, given oxygen, stopped his fluids and given 40 mg of IV furosemide, and I'd like you to review him.
+dom: Examination (A–E) | !Systematic A to E; treats as found (oxygen, cannula); !checks fluid chart, drains and wound in E; reassesses
+dom: Clinical reasoning | Requests bloods, ABG, ECG, CXR; interprets them; !names the diagnosis and the cause
+dom: Management | !Case-specific: major haemorrhage protocol and theatre / stop fluids and furosemide; catheter; escalation to senior; re-assessment
+dom: Information giving | SBAR to the registrar with a clear request
+s: Danger | Hello, Mr ___, I'm Nana, one of the doctors. Can you tell me your name? I'd like monitoring on and someone to call my registrar. | Danger, response, help, monitoring: the A–E opening.
+s: Breathing | Respiratory rate ___, sats ___. I'm giving 15 L oxygen via a non-rebreather and listening to his chest. | Treat as you find (oxygen) is an anchor.
+s: Circulation | Heart rate ___, BP ___, capillary refill ___. Two large-bore cannulas, with FBC, U&E, clotting, crossmatch, lactate and a gas. | Specific bloods are a named item.
+s[A]: Circulation | He's shocked and I suspect bleeding: please activate the major haemorrhage protocol and get O-negative blood. | Don't wait for the Hb to catch up.
+s[B]: Circulation | His JVP is raised and he has crackles: I'm stopping the IV fluids now. | Official anchor: "stops IV fluids".
+s: Disability | AVPU ___, pupils ___, glucose ___, temperature ___. Can I see the drug chart and the fluid chart? | Glucose and the charts find the cause.
+s: Exposure | I'll look at his abdomen, wound, drains, calves and catheter bag, keeping him covered. | The hidden finding is in E.
+s[A]: Plan | This is intra-abdominal haemorrhage. I'm stopping any LMWH, giving blood, and he needs the surgical registrar and consultant now to go back to theatre. | Definitive treatment for bleeding is surgical control.
+s[B]: Plan | This is pulmonary oedema from fluid overload. Sit him up, IV furosemide 40 mg, catheter for hourly urine output, ECG and troponin, and CPAP if he doesn't improve. | Official anchors in one line.
+s: Reassess | I'll reassess A to E after each intervention. | Anchor: "offers to re-assess".
+s: SBAR | Situation: I'm Nana, the surgical F1. I'm calling about ___ who is ___. Background: ___. Assessment: ___. Recommendation: please come and review now. | SBAR closes the station.
+
+@PP98 | Cardiac arrest: ALS and a reversible cause (VF with hyperkalaemia / PEA from massive PE)
+src: CP3 crit care station (cardiac arrest management, K 6.5) · Resuscitation Council UK ALS 2021
+u: 3, 51, 13
+fr: acute, di, plan
+door: You are a Foundation doctor in A&E. You hear the emergency buzzer in the next cubicle. Tasks: manage the manikin in cardiac arrest (you have a manual defibrillator and two experienced nurses); interpret the investigations to find the cause and present to the examiner.
+trig: Unresponsive, not breathing normally → start CPR; the station is ALS + 4 Hs and 4 Ts
+trig: Arrest in a patient with CKD and K 6.5 → treat hyperkalaemia during CPR
+hook: Shockable: shock → 2 minutes CPR → check; after the 3rd shock: adrenaline 1 mg + amiodarone 300 mg; adrenaline every 3–5 minutes after.
+hook: 4 Hs and 4 Ts: Hypoxia, Hypovolaemia, Hypo/Hyperkalaemia (metabolic), Hypothermia; Thrombosis, Tension pneumothorax, Tamponade, Toxins.
+clinch: 🧪 K 6.5 + creatinine 650 = hyperkalaemia from renal failure: IV calcium, insulin-glucose
+clinch: ✅ PEA after surgery or immobility with no other cause = think massive PE: consider thrombolysis
+clinch: ❌ Don't stop compressions for more than 5 seconds to check the rhythm
+money: This was a ___ arrest. The reversible cause is ___, which I treated with ___ alongside ALS. After ROSC I'd do an A to E assessment, a 12-lead ECG, and refer to ICU.
+trap: Pausing compressions to cannulate or for long rhythm checks
+trap: Giving adrenaline straight away in VF (it's after the 3rd shock)
+trap: Forgetting to say "oxygen away, everyone clear" before shocking
+var: A | Man, 60s, CKD | VF arrest with hyperkalaemia (K 6.5)
+a: Unresponsive, not breathing normally, no central pulse.
+a: Rhythm after each 2-minute cycle: VF, VF, VF, VF, then an organised rhythm with a palpable pulse after the 5th cycle.
+r: Hb 134, WCC 5.6, Na 140, K 6.5, urea 9, creatinine 650, eGFR 20. 12-lead ECG after ROSC: peaked T waves, broad QRS.
+x: Danger, response, call for help and the arrest team, check breathing and pulse for up to 10 s, start CPR 30:2, pads on, rhythm check, safe shock (oxygen away, all clear), immediately resume CPR, recheck every 2 minutes; after the 3rd shock adrenaline 1 mg IV and amiodarone 300 mg IV; adrenaline every 3–5 minutes; 4 Hs and 4 Ts: hyperkalaemia: calcium chloride 10% 10 mL IV (or calcium gluconate 10% 30 mL), insulin 10 units with 25 g glucose IV, consider sodium bicarbonate, dialysis discussion; ROSC: A–E, 12-lead ECG, oxygen to 94–98%, glucose monitoring after insulin, ICU and renal referral.
+m: This was a VF arrest caused by a potassium of 6.5 from kidney failure. Alongside shocks, adrenaline and amiodarone, I gave IV calcium and insulin with glucose. After ROSC I'd do an A to E assessment, a 12-lead ECG, recheck potassium and glucose, and refer to ICU and the renal team.
+var: B | Woman, 70, day 5 after hip surgery | PEA arrest from massive pulmonary embolism
+a: Had been breathless and tachycardic this morning; then collapsed. Unresponsive, not breathing normally, no pulse.
+a: Monitor shows an organised narrow-complex rhythm at 110 with no pulse (PEA) at every check.
+r: Before the arrest: sats 84% on oxygen, HR 128, BP 85/50, clear chest, swollen left calf. Bedside echo (if asked): dilated right ventricle. Glucose 6.2, K 4.1.
+x: Non-shockable (PEA): CPR 30:2, adrenaline 1 mg IV as soon as access, then every 3–5 minutes; 2-minute cycles; 4 Hs and 4 Ts: likely massive PE (post-op, swollen calf, dilated RV): thrombolysis (alteplase) during CPR with senior decision, continue CPR for 60–90 minutes after thrombolysis; ROSC: A–E, ICU, anticoagulation.
+m: This was a PEA arrest 5 days after hip surgery with a swollen calf and a dilated right ventricle, so the likely cause is a massive PE. I'd continue CPR with adrenaline every 3 to 5 minutes and give thrombolysis, continuing CPR for up to 90 minutes afterwards.
+dom: Management (ALS) | !Danger, response, call for help; !CPR started promptly with good quality; pads, rhythm check, safe defibrillation; drugs at the right time; minimal pauses; 4 Hs and 4 Ts
+dom: Clinical reasoning | !Identifies the reversible cause from the results (hyperkalaemia / PE)
+dom: Leadership and communication | Clear instructions to the team; closed-loop communication; reassesses; post-ROSC plan
+s: Danger | Is it safe? Hello, can you hear me? Help, we need the crash team! | DRS: danger, response, shout.
+s: Assess | Opening the airway, looking, listening and feeling for breathing and a central pulse for up to 10 seconds. No breathing, no pulse: start CPR. | Recognition of arrest.
+s: CPR | Nurse 1, please start compressions at 30 to 2, 100 to 120 a minute, 5 to 6 cm deep. Nurse 2, pads on and the bag-valve-mask with oxygen. | Clear, named instructions score Leadership.
+s[A]: Shock | This is VF, a shockable rhythm. Charging to 150 joules; continue compressions; oxygen away; everyone clear; shocking. Restart CPR immediately. | Safe shock sequence, minimal pause.
+s[A]: Drugs | After the third shock, adrenaline 1 mg IV and amiodarone 300 mg IV, then adrenaline every 3 to 5 minutes. | Correct drug timing in shockable rhythms.
+s[A]: Cause | The potassium is 6.5 with a creatinine of 650. Please give calcium chloride 10 mL of 10% IV, then 10 units of insulin in 25 g of glucose. | Treating the reversible cause during CPR.
+s[B]: Rhythm | This is PEA, non-shockable. Adrenaline 1 mg IV now, then every 3 to 5 minutes, with 2-minute cycles. | Non-shockable algorithm.
+s[B]: Cause | Post-op, swollen calf, dilated right ventricle: likely massive PE. I'd ask my senior about thrombolysis now and continue CPR for 60 to 90 minutes after. | 4 Ts: thrombosis.
+s: ROSC | There's a pulse. A to E now, oxygen to 94 to 98%, 12-lead ECG, bloods and a gas, and refer to ICU. | Post-ROSC care is where the examiner stops you.

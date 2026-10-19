@@ -1,0 +1,174 @@
+@PP47 | Prescribing insulin peri-operatively (T1DM on Novomix 30, missing 2 meals) + maintenance fluids
+src: CP3 prescribing (insulin) · CP3 2019 first sit (drug history, prescribing insulin, prescribing antibiotics)
+u: 67, 51
+fr: hx, presc
+door: You are an FY1 in General Surgery. Mr Evans has type 1 diabetes and is due a laparoscopic cholecystectomy; he will miss 2 meals. Tasks: take a drug history; prescribe an appropriate insulin regime for the procedure using the BNF, guidelines and drug charts; prescribe a bag of maintenance fluids.
+trig: T1DM + more than one missed meal → variable-rate IV insulin infusion (VRIII) with substrate fluid
+hook: JBDS peri-op: "One meal missed: adjust. More than one missed (or T1DM unstable): VRIII." Never stop insulin completely in T1DM.
+hook: VRIII "3 charts, 1 cross-reference": insulin on the VRIII chart; substrate fluid on the fluid chart ("see VRIII chart"); usual insulin on the drug chart marked as held/adjusted.
+hook: Brand matters: "Novomix 30" (biphasic aspart) is not the same as "Humulin M3". Write the brand and "units" in full.
+clinch: ✅ VRIII substrate: glucose-containing fluid (e.g. 0.45% NaCl with 5% glucose and KCl, or 0.18% NaCl/4% glucose with KCl per local policy) at a fixed rate (e.g. 83–125 mL/h)
+clinch: ✅ Twice-daily premixed insulin: stop while on the VRIII; restart with the next meal, stopping the VRIII 30–60 min after the SC dose
+clinch: ❌ Writing "U" or "IU" for units (misread as zero) is a never-event risk
+money: Because he's type 1 and missing two meals, he needs a variable-rate IV insulin infusion with a glucose-containing substrate fluid, hourly CBGs aiming for 6 to 10, and his Novomix restarted with his first meal, overlapping the infusion by 30 to 60 minutes.
+trap: Forgetting to ask brand, device, doses, hypos and adherence
+trap: Prescribing the VRIII on the drug chart instead of its own chart
+var: A | Mr Evans, T1DM | Peri-op VRIII + maintenance fluids
+a: Novomix 30 FlexPen: 30 units in the morning, 10 units in the evening. Compliant; no regular hypos. No allergies.
+r: Weight 78 kg. U&E normal (K 4.2). Surgery planned on the morning list.
+x: Day of surgery: hold morning Novomix; start VRIII per trust protocol (hourly CBG; target 6–10 mmol/L, acceptable 4–12) with substrate fluid e.g. 0.45% NaCl + 5% glucose + 0.15% KCl at 83 mL/h (or 0.18%/4% + KCl per local); check U&E daily; restart Novomix 30 with first meal (reduce evening/morning dose if intake poor), stop VRIII 30–60 min after; diabetes team if unstable. Maintenance per NICE CG174: 25–30 mL/kg/day water (78 kg ≈ 2–2.3 L), ~1 mmol/kg/day Na, K, Cl, 50–100 g glucose.
+dom: Information gathering | !Insulin name and BRAND, device, doses and times; adherence; hypo frequency/awareness; CBG monitoring; other drugs; !allergies
+dom: Prescribing | !References the insulin (VRIII) chart on the front of the drug chart; !VRIII written on the separate chart; !fluids section "see VRIII chart"; appropriate maintenance/substrate fluid (e.g. Hartmann's or glucose/saline with KCl); units written in full; CBG monitoring frequency; restart plan
+s: Drug history | Which insulin do you use: what's the name on the pen, the dose, and when do you take it? | Brand + dose + timing is the first mark (insulins aren't interchangeable).
+s: Drug history | How often do you have hypos, and can you feel them coming? | Hypo frequency and awareness change the target and the plan.
+s: Drug history | Any other medicines? Any allergies? | Standard drug history marks.
+s: Decide | He's type 1 and missing two meals, so he needs a variable-rate IV insulin infusion. | The decision is the core reasoning mark.
+s: Prescribe | On the drug chart front I'll write "see VRIII chart" and mark his Novomix as held on the morning of surgery. | Cross-referencing charts is explicitly marked.
+s: Prescribe | On the fluid chart: 0.45% sodium chloride with 5% glucose and 0.15% potassium chloride, 1 litre at 83 mL/hour, "substrate for VRIII, see VRIII chart". | Substrate fluid + cross-reference.
+s: Prescribe | CBG hourly, aiming for 6 to 10; the rate follows the trust sliding scale. | Monitoring stated.
+s: Restart | When he's eating, restart Novomix 30 with the meal and stop the infusion 30 to 60 minutes after the injection. | The overlap prevents rebound hyperglycaemia/DKA.
+
+@PP48 | A–E: DKA in a young man (abdominal pain, vomiting, Kussmaul breathing)
+src: SMOSCE 5
+u: 68
+fr: acute, di, plan
+door: You are the F1 in the Emergency Department. Jack, 21, has 3 days of abdominal pain and intractable vomiting. You do not need to take a history. Tasks: perform an acute assessment, advising management as you go; interpret the three investigations; give a diagnosis and immediate plan.
+trig: Young + vomiting + abdominal pain + deep sighing breaths + very high glucose → DKA
+hook: DKA diagnosis "D-K-A": Diabetes (glucose >11 or known diabetes), Ketones ≥3 mmol/L (or urine ++), Acidosis (pH <7.3 or bicarbonate <15).
+hook: DKA fluids (JBDS): 0.9% NaCl 1 L over 1 h, then 1 L over 2 h, 2 h, 4 h, 4 h, 6 h (bolus 500 mL if SBP <90); add KCl from bag 2 by potassium; fixed-rate insulin 0.1 units/kg/h; continue long-acting insulin; add 10% glucose at 125 mL/h when glucose <14.
+clinch: ✅ Kussmaul breathing (deep, rapid) = respiratory compensation for metabolic acidosis
+clinch: ❌ Potassium: normal or high at first but total body K is low; insulin drives it into cells → monitor and replace
+clinch: 🧪 pH 7.12, HCO3 10, pCO2 2.8 = metabolic acidosis with respiratory compensation
+money: This is diabetic ketoacidosis: glucose over 35, ketones high, pH 7.12. He's shocked, so I'm giving a 500 mL bolus of 0.9% saline, then fluids by the protocol, a fixed-rate insulin infusion at 0.1 units per kilo per hour, and checking potassium hourly at first.
+trap: Starting insulin before fluids in a shocked patient
+trap: Forgetting potassium replacement
+var: A | Jack, 21 | DKA (new presentation)
+r: A patent, slightly drowsy. B SpO2 91% air, RR 32 deep and rhythmic, chest clear. C HR 120 only central, BP 82/57, CRT 6 s, ice-cold peripheries, very dry, urine 0 mL in 3 h. D responds to voice, BM >35, temp 36.9, ketones +++ urine, capillary "HI". E abdomen mildly tender, no guarding. CXR clear. ABG pH 7.12, pO2 14.2, pCO2 2.8, HCO3 10. ECG sinus tachycardia.
+x: DKA: O2; IV access ×2; bloods (U&E, VBG, FBC, cultures, lactate); 500 mL 0.9% NaCl bolus (SBP <90), reassess; then 1 L/h; FRIII 0.1 units/kg/h; KCl per K (none if >5.5; 40 mmol/L if 3.5–5.5; senior if <3.5); catheter/hourly urine; hourly CBG and ketones, 2-hourly VBG; find precipitant; analgesia; senior/critical care (GCS reduced); diabetes team; VTE prophylaxis.
+dom: Examination (A–E) | Systematic A–E with reassessment; recognises Kussmaul breathing and shock; !checks glucose and ketones
+dom: Clinical reasoning | !DKA; metabolic acidosis with respiratory compensation; CXR and ECG normal
+dom: Management | !Aggressive fluids (bolus then protocol); !fixed-rate insulin 0.1 units/kg/h; potassium; monitoring; analgesia; escalation
+s: A–E | Breathing: he's breathing deeply and fast at 32, chest clear: this looks like Kussmaul breathing, compensation for an acidosis. | Naming the breathing pattern is the clinical-reasoning shortcut.
+s: A–E | Circulation: pulse 120 only centrally, BP 82/57, CRT 6 seconds: he's shocked. 500 mL of 0.9% saline stat, then reassess. | Treat shock first, as you find it.
+s: A–E | Glucose is over 35 and ketones are high. | DEFG + ketones = diagnosis.
+s: Interpret | pH 7.12, bicarbonate 10, CO2 2.8: a severe metabolic acidosis with respiratory compensation; with ketones and glucose, DKA. | Gas + glucose + ketones in one line.
+s: Plan | Fixed-rate insulin at 0.1 units per kilo per hour, potassium in the second bag guided by levels, hourly glucose and ketones, and a catheter for urine output. | JBDS bundle.
+s: Plan | I'd call my senior and critical care given his reduced consciousness, and look for the trigger. | Escalation and precipitant.
+
+@PP49 | Tired all the time and passing urine a lot → new type 2 diabetes (history + CBG + explain)
+src: SMOSCE 47
+u: 67, 71
+fr: hx, proc, expl
+pr: cbg
+door: You are a Foundation doctor in a GP clinic. A middle-aged patient has general malaise and fatigue. Tasks: take a focused history; conduct a diagnostic test appropriate to the clinic; explain the diagnosis and discuss management.
+trig: Tired + polyuria + thirst + blurred vision + itch + obese + FHx → type 2 diabetes
+hook: Diagnosis (WHO): symptomatic + random glucose ≥11.1, or fasting ≥7.0, or HbA1c ≥48 mmol/mol; asymptomatic needs a repeat.
+hook: Complications "Big vessels, small vessels": macro (heart, stroke, legs) and micro (eyes, kidneys, nerves) → annual checks (eyes, feet, urine ACR, bloods, BP).
+clinch: ✅ Two random glucoses >11.1 (13.5 and 12.1) + symptoms = diabetes
+clinch: ❌ Thin + young + weight loss + ketones → think type 1
+money: Your sugar is 13.5, and with last month's 12.1 and your symptoms, that's type 2 diabetes. It's very common and very manageable. The main treatment is diet, activity and weight, and usually a tablet called metformin, plus yearly checks on your eyes, feet and kidneys.
+var: A | Taxi driver, 58 | New type 2 diabetes
+a: Very tired all the time; sleeping well; no change in activity; taxi driver with little exercise. Passing urine much more in the last few weeks (missed fares). Some itching; slight deterioration in vision.
+a: High blood pressure on amlodipine. Father (big guy) died of a heart attack at 56. Smoke 10/day for 40 years. 16 units on Friday, otherwise avoid as you drive. Live with wife; son moved out. If asked: poor diet, fast food, snacking while driving, lots of Coca-Cola.
+a: For the BM: "not great with needles", a bit nervous. Then ask: What problems will this give me? Will I die from it? Is it curable? What can make it better? Will I need checks? Will it affect my work?
+r: Random CBG 13.5 mmol/L. Last month (incidental) 12.1 mmol/L.
+x: T2DM: explain; lifestyle (diet, swap sugary drinks, activity, weight, stop smoking, alcohol); HbA1c, U&E, lipids, urine ACR; metformin (start low, titrate; GI side effects) with SGLT2i if CVD/high CV risk/HF/CKD per NICE NG28; structured education (DESMOND); annual review: retinal screening, foot checks, kidney, BP, lipids; statin (QRISK); DVLA: no need to notify for diet/metformin; taxi licensing authority if on hypo-risk drugs.
+dom: Information gathering | !Osmotic symptoms (polyuria, thirst), weight change, blurred vision, infections/itch; lifestyle factors (diet, drinks, activity); FH; smoking; alcohol; occupation
+dom: Procedure (CBG) | Equipment and in-date strips; primes meter; side of the finger; gentle pressure; applies to strip; sharps; explains result; hand hygiene
+dom: Information giving | !Explains T2DM without jargon; answers each question; complications; lifestyle; HbA1c; metformin; annual review; work/driving
+s: History | Have you been more thirsty, or getting up at night to pass urine? | Osmotic symptoms are the key named questions.
+s: History | Any blurred vision, itching, or infections like thrush? | Hyperglycaemia features from the actor brief.
+s: CBG | It's a tiny prick on the side of your finger: less sore than the tip. I'll be quick. | Reassuring a needle-phobic patient + correct site.
+s: Explain | Diabetes means there's too much sugar in your blood because your body isn't using insulin properly. Over time, high sugar damages small and large blood vessels. | Plain mechanism + why complications happen.
+s: Explain | It isn't curable in the usual sense, but it's very controllable; some people even put it into remission by losing weight. | Honest + hopeful answer to "is it curable?"
+s: Explain | Swapping the Coca-Cola for sugar-free drinks is one of the biggest single changes you could make. | Specific lifestyle advice tied to his history.
+s: Explain | You'll have checks every year: eyes, feet, kidneys, blood pressure and cholesterol. You don't need to tell the DVLA if you're on diet or metformin alone. | Annual review + work/driving question answered.
+
+@PP50 | New type 1 diabetes: results + counselling (sick-day rules, hypos, DVLA)
+src: SMOSCE 50
+u: 67, 68, 70
+fr: hx, di, counsel
+door: You are a Foundation doctor in a GP practice. A 22-year-old came a few days ago with fatigue and polyuria and has returned for results. Tasks: take a brief history; list the investigations you'd like, then interpret the results; explain the results or counsel the patient on the new diagnosis.
+trig: Young + polyuria + thirst + weight loss + fasting glucose high → type 1 diabetes
+hook: T1DM counselling "SHIELD": Sick-day rules, Hypos, Insulin (basal-bolus, carb counting), Education (DSN, dietitian, DAFNE), Long-term checks, Driving (DVLA).
+hook: Sick-day rules: never stop basal insulin, check glucose and ketones every 2–4 h, drink fluids, seek help if ketones >1.5–3 or vomiting.
+hook: Hypo "rule of 15": 15–20 g fast sugar, recheck in 15 minutes, repeat, then a starchy snack. Driving: "five to drive".
+clinch: ✅ Autoimmune clustering: check TFTs and coeliac serology at diagnosis
+clinch: ❌ On insulin: must tell the DVLA
+money: Your fasting sugar of 8.5 with your symptoms and weight loss shows you have type 1 diabetes: your body has stopped making enough insulin. You'll need insulin injections, and the diabetes nurse will teach you how to match them to your food.
+var: A | Jo/Joe Talbot, 22 | Type 1 diabetes
+a: Increasingly tired for a couple of months. Mum noticed you going to the toilet overnight; about 10 times a day. If asked: drinking more tea at work, thirsty, up 3–4 times a night, occasional nausea (no vomiting or abdominal pain), lost a bit of weight since a new job. No faints. Good vision. Iron supplements OTC. Living with parents; new law-firm job (stressful, long hours); used to play rugby; gym. Aunt thyroid problems; grandmother arthritis.
+a: You thought it was overwork or anaemia; the GP mentioned type 1 diabetes; you've read about it; worried about complications. Ask: What is type 1? Treatment? Complications? Follow-up? Can I keep driving?
+r: Hb 120, MCV 83.9, WBC 7.6, PLT 279, CRP 2.13. TSH 0.95, fT4 14, fT3 5.9. Na 138, K 4.8, Cl 99, bicarbonate 24, urea 10.2, creatinine 102, eGFR >60. Cholesterol 3.9, LDL 2.3. Coeliac tTG negative. Fasting glucose 8.5.
+x: T1DM (not in DKA: bicarbonate normal); mildly dry (urea). Same-day diabetes team referral; basal-bolus insulin; DSN; carb counting (DAFNE); CBG and ketone meter; sick-day rules; hypo management; HbA1c target ≤48; annual review; DVLA notify (group 1 insulin), check glucose before and every 2 h of driving, >5 to drive; carry fast sugar.
+dom: Information gathering | !DKA symptoms; osmotic symptoms; weight; medical history; medicines; FH; smoking, alcohol, drugs; social
+dom: Clinical reasoning | !Requests FBC, U&E, fasting glucose/OGTT, TFT, coeliac, lipids; !interprets as T1DM (mild dehydration; other autoimmune excluded)
+dom: Information giving | !Counsels: what T1DM is; emergencies (DKA, hypos, sick-day rules); monitoring and treatment; DSN, dietitian, carb counting; complications; yearly reviews; !DVLA; checks understanding
+s: History | Any vomiting, tummy pain, or feeling very drowsy? | DKA screen first: decides same-day admission.
+s: Interpret | The fasting glucose is 8.5 with symptoms. Bicarbonate is normal, so he's not in DKA; urea is a bit high, so he's a little dry. Thyroid and coeliac tests are normal. | Every result commented on.
+s: Counsel | In type 1 diabetes, the immune system has switched off the cells in the pancreas that make insulin, so the sugar can't get into your cells. Insulin injections replace it. | Mechanism in plain words.
+s: Counsel | If you're ever ill, never stop your long-acting insulin, check your sugar and ketones every few hours, keep drinking, and call us if ketones are high or you're vomiting. | Sick-day rules are a named heading.
+s: Counsel | If your sugar goes low, you might feel shaky or sweaty: take something sugary like a glass of juice, check again in 15 minutes. | Hypo management.
+s: Counsel | You'll need to tell the DVLA you're on insulin. You can keep driving: check your sugar before you drive and make sure it's above 5. | DVLA heading with the "five to drive" rule.
+
+@PP51 | Tingling feet: history + results → diabetic peripheral neuropathy / LL neuro exam
+src: SMOSCE 61 · CP3 2019 mock (diabetic neuropathy: LL PNS exam + management) · CP3 2018 resit (diabetes and LL neuro exam)
+u: 71, 99
+fr: hx, ex, di, expl
+ex: ll
+door: You are a junior doctor in General Practice. A 65-year-old man reports "tingling pains". Tasks: take a history; state a differential, then interpret the investigations provided; explain the most likely diagnosis to the patient (or perform a lower-limb neurological examination).
+trig: Bilateral symmetrical distal tingling/burning in the feet → length-dependent peripheral neuropathy
+trig: HbA1c 78 + random glucose 14 → diabetes (undiagnosed) as the cause
+hook: Neuropathy causes "ABCDE": Alcohol, B12 (and B1, B6), Cancer/CKD, Diabetes/Drugs (isoniazid, metronidazole, nitrofurantoin, phenytoin, chemo), Every vasculitis/inherited (Charcot-Marie-Tooth, Guillain-Barré).
+hook: Diabetic foot check: 10 g monofilament, 128 Hz tuning fork, pulses, skin, deformity, footwear.
+clinch: ✅ Glove-and-stocking sensory loss + reduced ankle jerks = peripheral polyneuropathy (LMN)
+clinch: ❌ Sudden asymmetric weakness or bladder/bowel symptoms → not simple neuropathy: think cord or cauda equina
+clinch: 🧪 Neuropathic pain first-line (NICE CG173): amitriptyline, duloxetine, gabapentin or pregabalin (choose one)
+money: His symmetrical tingling in the feet with an HbA1c of 78 points to diabetic peripheral neuropathy. Better sugar control slows it; I'd offer amitriptyline or duloxetine for the pain and refer him for foot protection.
+var: A | Man, 65 | Diabetic peripheral neuropathy (new diabetes)
+a: Tingling pains in both lower limbs, especially feet and toes, started a few months ago, worse; electric quality; from feet up the legs; with fatigue, loss of sensation; urinary frequency (only if asked about urine); last for hours; nothing helps; 4/10. Cataracts, hypertension on amlodipine. No allergies. If asked: father and grandmother had diabetes. Smoke 10/day for 40 years; no alcohol; live with wife.
+a: When told the diagnosis don't interrupt; say you know nothing about diabetes. Ask: "What can I do to get rid of the tingling pains?"
+r: Hb 126, WCC 7.2, Plt 256, Na 137, K 4.3, urea 3.8, creatinine 82, LFT normal, B12 192 (low-normal), folate 4.2, HbA1c 78, TSH 1.5, glucose 14.
+x: T2DM with peripheral neuropathy: confirm diagnosis (HbA1c ≥48 confirms); diabetes education; glycaemic control (metformin + lifestyle); neuropathic pain drug; foot care (daily checks, footwear, podiatry, never walk barefoot); annual review; B12 borderline: recheck/treat if metformin started (metformin lowers B12); stop smoking.
+dom: Information gathering | !SOCRATES of the symptom; distribution; bladder/bowel; weakness; alcohol, diet, drugs; FH diabetes; ICE
+dom: Clinical reasoning | !Differential (diabetes, B12, alcohol, hypothyroid, CKD, drugs, malignancy, GBS); !interprets HbA1c/glucose → diabetic neuropathy
+dom: Information giving | !Explains diabetic neuropathy and diabetes simply; answers "how do I get rid of it": glucose control and pain medicine; foot care
+s: History | Is it in both feet equally, and did it start in the toes and creep upwards? | Symmetrical length-dependent pattern = polyneuropathy.
+s: History | Any weakness, trouble walking, or problems with your bladder or bowels? | Red flags for cord/cauda equina.
+s: History | How much alcohol do you drink? Any new medicines? What's your diet like? | Covers alcohol, drugs and B12 causes.
+s: Differential | Diabetes, low B12, alcohol, an underactive thyroid, kidney disease and some medicines are the main causes. | A structured differential before results (the station requires it).
+s: Interpret | His HbA1c is 78 and random glucose 14, so he has diabetes, which explains the neuropathy. B12 is at the bottom of normal, so I'd recheck it. | Interpret everything, including the borderline B12.
+s: Explain | High sugar levels over time damage the small nerves to your feet, so they send faulty tingling messages. Getting the sugar down stops it getting worse. | Answers his question with the cause.
+s: Explain | Tablets like amitriptyline or duloxetine calm the nerve pain. And because the nerves may not warn you about injury, check your feet every day. | Pain treatment + foot safety.
+
+@PP52 | A–E collapse: insulin overdose (hypoglycaemia) / opioid overdose → cardiac arrest and CPR
+src: OSCEs 2018 OSCE 1 critical care (opioid OD; insulin OD; benzodiazepine OD: A–E then arrest, 3 rounds CPR, present) · CP3 2018 first sit (A–E after collapse, arrest: hypoglycaemia, opioid OD)
+u: 70, 111
+fr: acute, plan, sbar
+door: You are a Foundation doctor. A patient has been found unresponsive. Tasks: perform an acute A–E assessment; if the patient arrests, start CPR; present to the arriving doctor.
+trig: Empty insulin pen + unresponsive + sweaty → hypoglycaemia
+trig: Pinpoint pupils + RR 6 + reduced GCS + white powder/needles → opioid overdose
+hook: Reversible causes "4 Hs and 4 Ts": Hypoxia, Hypovolaemia, Hypo/hyperkalaemia (and metabolic incl. hypoglycaemia), Hypothermia; Thrombosis, Tension pneumothorax, Tamponade, Toxins.
+hook: Hypoglycaemia that can't swallow: IV 10% glucose 150–200 mL over 15 min (or 20% 75–100 mL), or IM glucagon 1 mg.
+hook: Naloxone 400 micrograms IV (or IM), repeat every 2–3 min; short half-life: watch for re-narcotisation.
+clinch: ✅ Pinpoint pupils + respiratory depression + coma = opioid toxicity
+clinch: ❌ Flumazenil is not routine in benzodiazepine overdose (seizure risk)
+clinch: ✅ No signs of life → call arrest team, CPR 30:2, attach defibrillator, adrenaline 1 mg every 3–5 min in non-shockable rhythm
+money: She's unresponsive with a glucose of 1.6 and an empty insulin pen: severe hypoglycaemia. I'm giving 150 mL of 10% glucose IV over 15 minutes and rechecking in 10 minutes. She's now lost her pulse: I'm calling the arrest team and starting CPR 30 to 2.
+var: A | Woman, 34, T1DM | Insulin overdose → hypoglycaemic arrest
+r: A noisy breathing, no obstruction once positioned. B RR 14, SpO2 96%. C HR 110, BP 110/70, clammy. D GCS 7, pupils normal, glucose 1.6. Empty insulin pen found. On reassessment: no pulse, PEA.
+x: Airway manoeuvres; high-flow O2; IV 10% glucose; on arrest: arrest call, CPR 30:2, pads, non-shockable (PEA): adrenaline 1 mg ASAP then every 3–5 min; treat hypoglycaemia (IV glucose); after ROSC: glucose infusion, monitoring (long-acting insulin overdose needs prolonged glucose), psychiatric assessment later.
+var: B | Man, 28 | Opioid overdose
+r: A snoring; B RR 6, SpO2 84%; C HR 60, BP 100/60; D GCS 6, pinpoint pupils, glucose 5.4; E needle marks, bag of white powder.
+x: Airway (adjunct), bag-valve-mask ventilation with O2; naloxone 400 micrograms IV/IM repeated; observe for re-sedation (infusion if needed); if arrests: CPR, ALS; toxicology screen; paracetamol level; harm reduction and psychiatry later.
+dom: Examination (A–E) | !Danger, response, call for help; airway manoeuvres; !glucose checked; pupils; finds clues in E
+dom: Clinical reasoning | !Identifies cause (hypoglycaemia / opioid toxicity)
+dom: Management | !Correct antidote with dose; !recognises arrest, calls team, starts quality CPR 30:2, defib pads, rhythm check, adrenaline; reversible causes; handover
+s: A–E | Hello, can you hear me? … No response. I need help in here, please. | Danger, response, shout for help: opening items.
+s: A–E | Airway: snoring, so I'll do a head tilt, chin lift and put in an airway adjunct. | Treat airway as you find it.
+s: A–E | Disability: GCS 7, pupils ___, glucose ___. | The glucose and pupils are where these stations hide the answer.
+s[A]: Treat | Glucose 1.6: 150 mL of 10% glucose IV over 15 minutes, recheck in 10 minutes. | Correct concentration and volume.
+s[B]: Treat | Pinpoint pupils and a respiratory rate of 6: opioid toxicity. Naloxone 400 micrograms IV now, and I'll support breathing with a bag-valve-mask. | Antidote + ventilation.
+s: Arrest | No pulse and not breathing normally: call the arrest team, 2222, start CPR 30 compressions to 2 breaths, and get the defibrillator pads on. | Recognition and first actions are critical items.
+s: Arrest | Rhythm check: PEA, non-shockable. Continue CPR, adrenaline 1 mg IV as soon as possible, and think of the 4 Hs and 4 Ts. | ALS algorithm + reversible causes.
+s: Handover | This is ___, found unresponsive with ___. I've given ___. She arrested at ___, PEA, 2 cycles of CPR, adrenaline at ___. | Concise handover to the arrest team.

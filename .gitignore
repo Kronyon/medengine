@@ -1,0 +1,10 @@
+node_modules/
+web/dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+app/out/
+app/build/osce_data_v3.json
+__pycache__/
+*.zip

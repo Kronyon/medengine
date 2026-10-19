@@ -1,0 +1,288 @@
+@PP14 | Respiratory examination + ABG on a model + interpret (T2RF / T1RF / lactic acidosis)
+src: Nottingham Medicine station bank (resp exam + ABG) · CP3 2018 and 2019 (resp exam, perform ABG, interpret ×3) · OSCEs 2018 OSCE 2
+u: 12, 16, 15
+fr: ex, proc, di, plan
+ex: resp
+pr: abg
+door: You are a Foundation doctor on MAU. Your next patient is short of breath. Tasks: examine the respiratory system, perform an arterial blood gas on the model provided, interpret the ABG for the examiner, and explain your next steps in management.
+trig: pH low + CO2 high + HCO3 high-normal/raised → type 2 respiratory failure (acute-on-chronic if HCO3 raised)
+trig: pO2 low + CO2 normal/low → type 1 respiratory failure
+trig: pH low + CO2 normal/low + HCO3 low + raised anion gap + lactate → metabolic (lactic) acidosis
+hook: ABG in 4 lines: 1) Oxygen: is pO2 <8 (failure)? 2) pH: acid or alkali? 3) Who did it: CO2 (resp) or HCO3 (metabolic)? 4) Is the other one compensating?
+hook: "ROME": Respiratory Opposite (pH and CO2 move in opposite directions), Metabolic Equal (pH and HCO3 move the same way).
+hook: Allen's test before radial ABG: occlude both arteries, release the ulnar, colour should return within 5–15 seconds.
+clinch: ✅ Raised HCO3 with high CO2 = chronic retention (kidneys have had days to compensate)
+clinch: 🧪 Anion gap = Na − (Cl + HCO3); >16 → lactate, ketones, renal failure, toxins
+clinch: ❌ pO2 of 9 kPa on 15 L oxygen is NOT normal: it is a huge A–a gradient (severe T1RF)
+money: This shows a respiratory acidosis with a raised CO2 and low oxygen: acute type 2 respiratory failure. Target sats 88 to 92%, nebulised salbutamol and ipratropium, steroids, and if pH stays below 7.35 after an hour of treatment, NIV.
+trap: Forgetting to say the FiO2 the gas was taken on
+trap: Giving 15 L oxygen to a CO2 retainer and leaving them
+trap: Calling a normal pH "normal" when the patient is on high-flow oxygen and hypoxic
+var: A | COPD | Type 2 respiratory failure (respiratory acidosis)
+a: Drowsy, bilateral expiratory wheeze, reduced respiratory rate, some crackles throughout.
+r: pH 7.25, PaO2 10 on 2 L oxygen, PaCO2 8, HCO3 26.
+x: Acute T2RF in COPD: A–E; target SpO2 88–92% (Venturi 24–28%); salbutamol + ipratropium nebs (air-driven); prednisolone 30 mg 5 days; antibiotics if infective; repeat ABG 30–60 min; NIV if pH <7.35 and PaCO2 >6.5 kPa despite optimal medical therapy; senior help; GCS falling → ICU; escalation plan.
+var: B | Asthma | Type 1 respiratory failure (pO2 9 on 15 L)
+a: Reduced air entry, expiratory wheeze throughout, raised respiratory rate.
+r: pH 7.40, pO2 9 on 15 L oxygen, pCO2 5.0, HCO3 24, BE −1.
+x: Life-threatening asthma: a "normal" CO2 in a tachypnoeic asthmatic is a warning sign (tiring). High-flow O2 to 94–98%, back-to-back salbutamol 5 mg nebs, ipratropium 500 micrograms, IV hydrocortisone 100 mg or prednisolone 40–50 mg, IV magnesium sulfate 2 g over 20 min, senior and ICU/anaesthetic involvement.
+var: C | Septic patient | Lactic (metabolic) acidosis with raised anion gap
+a: Drowsy, warm to touch, raised respiratory rate, no other respiratory signs.
+r: pH 7.21, pO2 12 on 6 L oxygen, pCO2 6.0, HCO3 18, anion gap 20, lactate 4.
+x: Raised-anion-gap metabolic acidosis (lactate 4) with inadequate respiratory compensation: Sepsis 6 (oxygen, cultures, IV antibiotics, IV fluids, lactate, urine output); bloods U&E, FBC, glucose, paracetamol/salicylate levels; consider Pabrinex if alcohol excess; senior and critical care; treat the cause.
+ask: (Examiner) What would make you start NIV?
+dom: Examination | Introduction, consent, position 45°, expose; end of bed (O2, inhalers, sputum pot); hands (clubbing, tar, flap); RR; face; trachea; lymph nodes; !expansion, percussion, auscultation, vocal resonance front and back comparing sides; legs
+dom: Procedure (ABG) | Consent and explanation; !Allen's test; position wrist extended; clean skin; palpate radial; needle 30–45° with heparinised syringe; fill under arterial pressure; remove and press 5 minutes; cap, label, analyse within 10 minutes; sharps
+dom: Clinical reasoning | !Correct ABG for the variant (T2RF / T1RF / lactic acidosis) stating FiO2 and compensation
+dom: Management | Variant plan; target sats; senior help; escalation decision
+s: Examine | From the end of the bed: on 2 litres via nasal cannula, using accessory muscles, inhalers at the bedside, a sputum pot I'd like to look in. | Saying clues aloud scores inspection.
+s: Examine | Could you hold your arms out and cock your wrists back, like stopping traffic? | CO2 retention flap: links the examination to the gas you'll interpret.
+s: Examine | I'm comparing side to side as I percuss, and I'll listen in the same places. | Comparing sides is the most-marked respiratory technique.
+s: ABG | This is the blood test from the artery at the wrist. It's sharper than a normal blood test and can sting, but it's quick. Is that OK? | Honest consent: ABG is uncomfortable, examiners expect you to say so.
+s: ABG | First I'll check the blood supply from the other artery: press both, release this one, and colour should come back within 15 seconds. | Allen's test is a named step.
+s: ABG | After I take the needle out I'll press firmly for 5 minutes, and the sample goes for analysis within 10 minutes. | Haemostasis and timing are marked.
+s: Interpret | This gas was taken on ___ of oxygen. The pO2 is ___, so there is respiratory failure. The pH is ___, the CO2 is ___, so this is a ___ acidosis… | Start with FiO2 and oxygen: shows a system, not a guess.
+s[A]: Interpret | The bicarbonate is at the top of normal, so this is acute type 2 respiratory failure, probably on a background of chronic retention. | Comment on compensation scores the extra mark.
+s[A]: Plan | Controlled oxygen via a 28% Venturi mask aiming for 88 to 92%, nebulised salbutamol and ipratropium driven by air, prednisolone 30 mg, repeat gas in 30 to 60 minutes. If the pH is still below 7.35, I'd ask for NIV. | Specific targets, drugs and the NIV trigger.
+s[B]: Interpret | A pO2 of 9 on 15 litres is severe hypoxaemia, and a normal CO2 in someone breathing this fast means they're tiring. This is life-threatening asthma. | The "normal CO2" trap is the hidden reasoning mark.
+s[C]: Interpret | Low pH, low bicarbonate, raised anion gap of 20 and lactate of 4: a raised-anion-gap metabolic acidosis, most likely lactic from sepsis. The CO2 isn't low enough, so compensation is inadequate. | Naming the anion gap and compensation shows depth.
+s: Plan | I'd call my senior now and discuss escalation, including critical care. | Escalation is in every variant's mark scheme.
+
+@PP15 | Persistent cough: history + results (COPD with T2RF / lung cancer with hypercalcaemia / bronchiectasis)
+src: Nottingham Medicine station bank (persistent cough) · SMOSCE 33 (IECOPD) · SMOSCE 34 (bronchiectasis) · SMOSCE 37 (lung cancer, golden S)
+u: 16, 21, 17
+fr: hx, di, plan
+door: You are a Foundation doctor on MAU. Your next patient has a persistent cough and is currently stable. Tasks: take a history, interpret the investigations to the examiner, and explain your management plan to the examiner.
+trig: Heavy smoker + progressive breathlessness + winter infections → COPD
+trig: Smoker + weight loss + haemoptysis + high calcium → lung cancer (squamous cell makes PTHrP)
+trig: Lots of sputum every day since a childhood/previous pneumonia + clubbing + Pseudomonas → bronchiectasis
+hook: Cough red flags "WHAT": Weight loss, Haemoptysis, Appetite/fatigue, Two-week-plus in a smoker (≥40 → urgent CXR).
+hook: Hypercalcaemia "bones, stones, groans, moans"; in lung cancer = squamous (PTHrP), not small cell (small cell = SIADH, Cushing's).
+clinch: ✅ Low PTH + high calcium = malignancy (PTH-independent), not hyperparathyroidism
+clinch: ✅ Daily large-volume sputum + coarse crackles that change with coughing = bronchiectasis
+clinch: ❌ Coarse crackles that clear with coughing = secretions; fine fixed crackles = fibrosis
+clinch: 🧪 Golden S sign on CXR = right upper lobe collapse from a hilar mass
+money: This is a 65-year-old heavy smoker with weight loss, haemoptysis, anaemia and hypercalcaemia with a suppressed PTH. That's lung cancer until proven otherwise, likely squamous cell. I'd refer on the suspected cancer pathway for a staging CT and bronchoscopy and treat the calcium.
+trap: Saying "small cell" for hypercalcaemia (it's squamous)
+trap: Not quantifying exercise tolerance and pack-years
+var: A | John Adams, 78 | COPD with partially compensated T2RF
+a: Cough 2 weeks, yellow/white sputum, feel well; wife made you come. Breathlessness progressive over 6 months: stairs, then the 2-mile walk to the shops with a hill (now stop twice). No haemoptysis, weight loss, night sweats or chest pain.
+a: Hypertension, knee OA, BPH. Amlodipine, ramipril, Voltarol gel, sildenafil, doxazosin. No allergies.
+a: Father had a stroke. Smoke 50 a day for as long as you remember; 3 pints a night; lives with wife in a 2-storey house, toilet upstairs. ICE: a bit worried about lung cancer.
+r: ABG on air: pH 7.2, PaO2 7.6, PaCO2 8.4, HCO3 28.3. Hb 150. eGFR >90. CXR: hyperinflated lungs.
+x: COPD (likely new diagnosis) with partially compensated T2RF: oxygen target 88–92%, salbutamol + ipratropium nebs, prednisolone 30 mg 5 days, antibiotics if purulent sputum; NIV if pH remains <7.35; spirometry when well; smoking cessation; discharge with inhalers and pulmonary rehab.
+var: B | Katherine Miles, 65 | Lung cancer with hypercalcaemia
+a: Cough 3 months getting worse; breathless getting out of bed, on stairs, housework; lost a stone in 2 months; less appetite; 2 episodes of coughing blood; fatigue. No chest pain, palpitations, wheeze or night sweats.
+a: Hysterectomy and bilateral salpingo-oophorectomy; on HRT. No allergies. Dad had bowel cancer, mum colorectal cancer. 5 units/week; smoke 20 a day for 50 years; retired lunch lady. Worried about cancer.
+r: Hb 80, WCC 5, eGFR >90, adjusted calcium 3.0, PTH 12 (low-normal, suppressed for this calcium). CXR: right hilar mass.
+x: Suspected lung cancer (likely squamous with PTHrP hypercalcaemia): IV fluids for calcium 3.0 then bisphosphonate (zoledronic acid); anaemia work-up; suspected cancer pathway, respiratory specialist, staging CT chest/abdo with contrast, PET-CT, bronchoscopy/EBUS with biopsy, lung cancer MDT; lung cancer nurse; honest explanation.
+var: C | Richard Stevenson, 45 | Bronchiectasis
+a: Very productive cough for 2 months, thick yellow sputum, sometimes streaked with blood; no breathlessness or wheeze; no weight loss. Treated for pneumonia 3 months ago. Non-smoker, 4 units/week, exercises. ICE: want to know what's going on and how it can get better.
+r: Hb 130, WCC 12.5, sputum culture Pseudomonas. CXR: tramlines and ring shadows.
+x: Bronchiectasis exacerbation with Pseudomonas: oral ciprofloxacin 14 days (per sensitivities); HRCT to confirm; sputum culture each exacerbation; airway clearance physiotherapy; consider causes (post-infective, CF if young/FHx, immunodeficiency); vaccines.
+ask: Is it cancer? | Can I go home? | Will this get better?
+dom: Information gathering | !Duration of cough, productive vs dry, sputum colour/volume; !red flags: weight loss, fatigue, night sweats, haemoptysis; breathlessness and exercise tolerance; wheeze; smoking pack-years; occupation; ICE
+dom: Clinical reasoning | !Correct diagnosis for the variant with results interpreted (ABG; Ca + PTH; sputum culture)
+dom: Management | !Variant-specific plan; urgency (suspected cancer pathway); smoking cessation
+s: History | How long have you had the cough? Are you bringing anything up? What colour, and how much? | Duration and sputum split COPD, bronchiectasis and cancer straight away.
+s: History | Have you coughed up any blood? Lost any weight without trying? Any night sweats? | Red flags are named items; ask them as a group.
+s: History | How far can you walk on the flat before you have to stop? Has that changed? | Quantified breathlessness (MRC grade) is a COPD severity mark.
+s: History | Do you smoke? How many a day, and for how many years? | Pack-years = (cigarettes/day ÷ 20) × years. Say the calculation.
+s: History | What jobs have you done? Any dust, asbestos or chemicals? | Occupational exposure is a classic hidden fact in cough stations.
+s[B]: Interpret | Her calcium is 3.0 with a PTH at the bottom of the range: in hypercalcaemia the PTH should be suppressed, so this isn't parathyroid; with the hilar mass and anaemia, it's likely malignancy with a PTH-related peptide, so squamous cell lung cancer. | Linking Ca + PTH + CXR is the high-scoring reasoning.
+s[B]: Plan | IV fluids for the calcium, a bisphosphonate, and refer on the suspected lung cancer pathway: staging CT, PET and bronchoscopy with biopsy, then the lung MDT. | Two problems, two plans: emergency calcium + cancer pathway.
+s[A]: Interpret | Respiratory acidosis with a raised bicarbonate: partially compensated type 2 respiratory failure. | Compensation comment.
+s[C]: Interpret | Pseudomonas in the sputum of someone with daily purulent sputum after pneumonia suggests bronchiectasis; I'd confirm with a high-resolution CT. | HRCT is the diagnostic test: named.
+s[C]: Plan | Ciprofloxacin for 14 days, guided by sensitivities, plus chest physiotherapy to clear the airways. | 14 days for bronchiectasis exacerbations is a specific knowledge mark.
+
+@PP16 | A–E: acute breathlessness (asthma / tension pneumothorax / IECOPD / PE / anaphylaxis)
+src: SMOSCE 1, 6, 7, 8, 9 · CP3 2019 first sit A–E anaphylaxis with prescribing
+u: 15, 11, 16, 13, 126
+fr: acute, di, plan
+door: You are the F1 doctor. A patient has acute breathlessness. You do not need to take a history. Tasks: perform an acute assessment, advising management as you proceed; interpret the three investigations provided (CXR, ABG, ECG); give a diagnosis and immediate plan.
+trig: Young + wheeze + broken sentences + eczema → acute asthma
+trig: Stab wound or trauma + trachea deviated away + hyper-resonant + absent breath sounds + low BP → tension pneumothorax
+trig: Smoker + wheeze + fever + low pH high CO2 → infective exacerbation of COPD
+trig: Post-op + COCP + hot swollen calf + tachycardia + low pO2 low CO2 → PE
+trig: IV antibiotic running + stridor + swollen lips + rash + low BP → anaphylaxis
+hook: In A–E stations the diagnosis is hidden in ONE letter. Breathing letter = asthma/PTX/COPD/PE; Exposure letter = the calf or the rash.
+hook: Anaphylaxis (Resus Council UK 2021): IM adrenaline 500 micrograms (0.5 mL of 1 mg/mL) anterolateral thigh, repeat every 5 minutes. Antihistamines and steroids are NOT first-line any more.
+hook: Tension pneumothorax: decompress first, X-ray later.
+clinch: ✅ Trachea away + hyper-resonant + absent breath sounds + hypotension = tension pneumothorax → needle decompression now
+clinch: ✅ Stridor + angioedema + wheeze + hypotension after a trigger = anaphylaxis → IM adrenaline
+clinch: ❌ A tension pneumothorax should never be diagnosed on CXR in an OSCE: it's clinical
+clinch: 🧪 PE ABG: low pO2 + low CO2 (respiratory alkalosis); ECG usually sinus tachycardia (S1Q3T3 is rare)
+money: This is anaphylaxis to the IV co-amoxiclav. I'm stopping the infusion, calling for help, giving IM adrenaline 500 micrograms into the thigh now, high-flow oxygen and a fluid bolus, and I'll repeat the adrenaline in 5 minutes if there's no improvement.
+trap: Leaving the infusion running in anaphylaxis
+trap: Waiting for a CXR in tension pneumothorax
+trap: Giving 15 L oxygen to a COPD patient without repeating the gas
+var: A | James, 22 | Acute severe asthma
+r: A patent, broken sentences, audible wheeze. B SpO2 87% air (95% on 15 L), RR 33, resonant, widespread wheeze. C HR 120, BP 135/70, CRT 2 s. D alert, BM 5.6, temp 36.4. E eczematous skin. CXR normal; ABG pH 7.52, pO2 8.2, pCO2 2.8, HCO3 24 (T1RF + respiratory alkalosis); ECG sinus tachycardia.
+x: Acute severe asthma: high-flow O2 to 94–98%; salbutamol 5 mg + ipratropium 500 micrograms nebs (O2-driven); prednisolone 40–50 mg or IV hydrocortisone 100 mg; IV access + bloods; IV magnesium 2 g if not responding; serial ABG (a rising CO2 = tiring); PEF; senior.
+var: B | Michael, 31 | Left tension pneumothorax (stab wound)
+r: A patent, broken sentences. B SpO2 84% air, RR 34, trachea deviated to the right, hyper-resonant left, reduced left expansion, no breath sounds on left. C HR 134, BP 96/68, cool. D alert, BM 6.2. E small puncture wound posterior left chest. CXR left tension PTX; ABG resp alkalosis + T1RF; ECG sinus tachycardia.
+x: Needle decompression (large-bore cannula, left 2nd ICS mid-clavicular line, or 4th/5th ICS just anterior to the mid-axillary line per current ATLS), then chest drain; high-flow O2; IV access; occlusive dressing taped on 3 sides for the wound; senior and cardiothoracic opinion.
+var: C | Arnold, 68 | Infective exacerbation of COPD
+r: A patent, wheeze. B SpO2 82% air, RR 28, poor air entry, wheeze. C HR 90, BP 94/60, CRT 4 s, dry. D alert, BM 5.2, temp 38.3. CXR COPD changes; ABG pH 7.24, pO2 7.9, pCO2 8.1, HCO3 30 (T2RF); ECG normal.
+x: Controlled O2 via 24–28% Venturi (target 88–92%); IV fluids; salbutamol + ipratropium nebs (air-driven); steroids; antibiotics (sepsis: cultures first); repeat ABG; NIV if acidosis persists; escalation plan.
+var: D | Chloe, 23 | Pulmonary embolism (post-appendicectomy, COCP)
+r: B SpO2 83% air, RR 26, chest clear. C HR 135, BP 99/60, CRT 3 s. D alert, temp 37.6. E left calf red, hot and swollen. CXR normal; ABG pH 7.52, pO2 7.1, pCO2 2.8 (T1RF + resp alkalosis); ECG sinus tachycardia.
+x: PE: high-flow O2; IV access, bloods; treatment-dose LMWH (or DOAC) now (Wells high, don't wait); CTPA; if she becomes hypotensive (massive PE) senior for thrombolysis; stop COCP.
+var: E | Sarah, 45 | Anaphylaxis to IV co-amoxiclav
+r: A single quiet words, audible wheeze and stridor, swollen lips and tongue. B SpO2 74% air, RR 45, widespread wheeze. C HR 152, BP 91/60, CRT 4 s. E red blotchy patches legs and torso, puffy lips and eyes, co-amoxiclav running IV. CXR normal; ABG T1RF + resp alkalosis; ECG sinus tachycardia.
+x: Anaphylaxis: stop the infusion; call for help/arrest team (airway threat: anaesthetist); lie flat with legs raised (sit up if breathing difficult); IM adrenaline 500 micrograms anterolateral thigh, repeat every 5 min; high-flow O2; IV fluid bolus 500–1000 mL crystalloid; salbutamol nebs for wheeze after adrenaline; if 2 IM doses fail → refractory anaphylaxis (IV adrenaline infusion by senior); mast cell tryptase (ASAP, 1–2 h, >24 h); record penicillin allergy; antihistamine only for skin symptoms after stabilisation.
+dom: Examination (A–E) | !Calls for help early; !systematic A–E with reassessment; treats as finds; checks glucose; examines the calves/exposes skin
+dom: Clinical reasoning | !Correct diagnosis; interprets all three investigations
+dom: Management | !Variant-specific treatment with doses; IV access + bloods; reassess; !escalates to senior (and specialty)
+s: A–E | This patient is unwell. Can someone put out a call for my senior, please? | Calling for help is a critical item at the start.
+s: A–E | Airway: can you tell me your name? I can hear ___. | Hoarse voice, stridor or single words in A change everything.
+s: A–E | Breathing: respiratory rate ___, sats ___ on air. Trachea ___, expansion ___, percussion ___, breath sounds ___. I'll start ___ oxygen. | Speak every finding; give oxygen to the right target as you find hypoxia.
+s: A–E | Circulation: pulse ___, BP ___, cap refill ___. Two wide-bore cannulas, bloods including a gas and lactate, and fluids if needed. | The circulation bundle is a named block of marks.
+s: A–E | Disability: alert, pupils equal, glucose ___. Exposure: let me look at the skin, abdomen and both calves. | The calf (PE) and rash (anaphylaxis) live in E.
+s[B]: Treat | Tension pneumothorax: I'm decompressing now with a large-bore cannula in the left second intercostal space mid-clavicular line, then he'll need a chest drain. | Treat before X-ray: clinical diagnosis.
+s[E]: Treat | Stop the antibiotic. IM adrenaline 500 micrograms, that's 0.5 mL of 1 in 1000, into the outer thigh now. I'll repeat it in 5 minutes if no better. | Stopping the trigger + correct dose and site: the two critical marks.
+s[E]: Treat | Under the 2021 guidance, chlorphenamine and hydrocortisone aren't first-line; adrenaline, oxygen and fluids are. | Shows current knowledge; old SMOSCE schemes list antihistamines (examiners accept, but adrenaline is the must).
+s[D]: Treat | With a hot swollen calf, hypoxia and tachycardia after surgery on the pill, PE is likely. I'd give treatment-dose anticoagulation now and request a CTPA. | Wells high → anticoagulate before imaging.
+s: Reassess | I'll reassess A to E after each intervention and repeat the gas. | Reassessment is a named item and often forgotten.
+
+@PP17 | Asthma review: control, peak flow and inhaler technique
+src: SMOSCE 32 · CP3 2018 GP (asthma history + inhaler technique) · CP2 GP (worsening control, non-adherence)
+u: 15
+fr: hx, proc, expl
+pr: pefr, inhaler
+door: You are a Foundation doctor in General Practice helping with the annual asthma review of a 21-year-old diagnosed as a child. Tasks: take a focused history and assess control; explain how their asthma can be better controlled; assess peak flow and explain the result.
+trig: Reliever most days + not using the "brown" preventer → poor control from under-use of ICS
+hook: NICE/BTS/SIGN 2024: no SABA alone. Step up to as-needed ICS/formoterol (AIR) or low-dose MART. "Every puff of relief carries a dose of prevention."
+hook: Control check "RCP 3 questions": In the last month, trouble sleeping? Usual symptoms during the day? Interfered with usual activities?
+hook: Peak flow: stand, reset, deep breath, tight seal, short sharp blast, best of 3.
+clinch: ✅ Using a SABA ≥3 times a week, waking at night, or an attack in the last year = uncontrolled
+clinch: ❌ Never step up before checking technique, adherence and triggers
+money: Your blue inhaler only opens the airways; it doesn't treat the swelling underneath. The brown one, or a combination inhaler, treats the cause. Using it every day is what will stop you needing the blue one.
+trap: Not checking inhaler technique before changing treatment
+trap: Letting the patient do peak flow with a poor seal and recording it
+var: A | Student, 21 | Poorly controlled asthma from ICS under-use
+a: Diagnosed as a child, fine until recently. Out of breath exercising and most mornings, so using the blue inhaler most days. Not sure what the brown one is for, use it occasionally.
+a: If asked: no admissions, rarely woken at night, worse with exercise and cold weather, no severe attacks since childhood, no flu jab this year. Eczema as a child. No allergies. University student.
+a: When doing peak flow, at first don't make a tight seal round the mouthpiece.
+r: Peak flow 380 L/min (predicted 520 for height and sex; ~73%).
+x: Poor control from ICS under-use and technique; explain asthma (inflammation + narrowing); explain reliever vs preventer; check and teach technique (spacer for MDI); NICE 2024: switch to low-dose MART (budesonide/formoterol) or as-needed ICS/formoterol; personalised action plan; flu vaccine; review in 4–8 weeks; peak flow diary.
+ask: Why do I need the brown one if the blue one works?
+dom: Information gathering | !Symptoms, frequency, night waking, reliever use, attacks/admissions, triggers, !inhaler technique and adherence, smoking/vaping, vaccines
+dom: Information giving | Plain description of asthma; purpose of each inhaler; importance of technique and adherence; action plan
+dom: Procedure (PEFR) | !Comfortable upright, resets meter, holds level without blocking scale, deep breath, !tight seal, hard fast blow, !best of three, interprets against predicted
+s: History | In the last month, have you had trouble sleeping because of your asthma? Symptoms during the day? Has it stopped you doing anything? | The 3 RCP questions are the quickest validated control check.
+s: History | How many times a week do you use your blue inhaler? | ≥3 times a week = uncontrolled. The key number.
+s: History | Talk me through how and when you use your brown inhaler. Could you show me? | Adherence and technique are the commonest causes of poor control: named marks.
+s: Explain | Asthma is two things: the airways swelling up inside, and the muscles around them tightening. The blue inhaler relaxes the muscle for a few hours; the brown one calms the swelling so attacks don't start. | Two-part model explains why the preventer matters.
+s: Explain | Newer guidance uses one inhaler that does both, which you use every day and when you're wheezy. That way every time you need relief, you get prevention too. | Shows NICE 2024 change (MART/AIR) in plain words.
+s: PEFR | Stand up straight, take the biggest breath you can, seal your lips tightly round it, and blow as hard and fast as you can, like blowing out candles. | Clear instructions are part of the procedure mark.
+s: PEFR | That one leaked a bit at the side; let's try again with a tighter seal. We'll take the best of three. | Correcting the planted error is the hidden procedure mark.
+s: Explain | Your best is ___, which is about ___% of what we'd expect for you. That tells me your airways are narrower than they should be. | Interpreting against predicted is required.
+s: Close | I'll write you an action plan: what to do day to day, when your peak flow drops, and when to call 999. | Personalised action plan is standard asthma care.
+
+@PP18 | Shortness of breath: pleural effusion (history or exam + CXR + aspirate)
+src: SMOSCE 35
+u: 9
+fr: hx, ex, di
+ex: resp
+door: You are an F1 on the acute medical unit. A patient has shortness of breath. Tasks: take a focused history OR perform a respiratory examination; summarise to the examiner; interpret the investigations.
+trig: Stony dull base + reduced breath sounds + reduced vocal resonance → effusion
+trig: Rheumatoid arthritis on methotrexate + effusion with high protein → exudate (RA pleuritis, infection, malignancy)
+hook: Light's criteria (exudate if ANY): fluid/serum protein >0.5, fluid/serum LDH >0.6, fluid LDH >2/3 upper limit of normal. Use when protein is 25–35 g/L.
+hook: Dull base split by ONE sign: vocal resonance up = consolidation; down = effusion.
+clinch: ✅ Protein >35 g/L = exudate; <25 g/L = transudate
+clinch: 🧪 Low glucose + low pH exudate: empyema, RA, TB, malignancy
+clinch: ❌ Trachea pushed away = big effusion; pulled towards = collapse
+money: The CXR shows a moderate right pleural effusion with a meniscus. The aspirate protein is 42 g/L, an exudate, so I'm thinking infection, malignancy or rheumatoid pleuritis; I'd send it for cytology, microbiology, glucose and pH.
+var: A | Polly, 72 (RA) | Right exudative pleural effusion
+a: Breathless 2 days, some pain on deep breathing, mild dry cough. RA for 30 years, poorly controlled. Statin, amlodipine, methotrexate. No allergies. Mother had RA. Copes at home, family nearby; no smoking or alcohol. ICE: worried about pneumonia.
+a: On examination: uncomfortable at rest, dyspnoeic; active RA in hands; right base dull, reduced tactile fremitus, reduced and asymmetric expansion, reduced breath sounds and vocal resonance.
+r: CXR: moderate right effusion with meniscus. Pleural fluid: protein 42 g/L, LDH 306 U/L, glucose 11.5 mmol/L.
+x: Exudate. Causes: infection (parapneumonic/empyema), malignancy, PE, RA, TB, pancreatitis. Send fluid for protein, LDH, glucose, pH (blood-gas analyser), cell count, MC&S, AFB, cytology; ultrasound-guided; chest drain if pH <7.2 (empyema).
+dom: Information gathering OR Examination | Focused breathlessness history with pleuritic pain; or resp exam comparing sides incl vocal resonance
+dom: Information giving | Confident concise summary
+dom: Clinical reasoning | !Effusion on CXR; !exudate by protein (Light's); sensible causes; correct fluid tests
+s: Examine | Expansion is reduced on the right. Percussion is stony dull at the right base. Breath sounds and vocal resonance are both reduced there. | The triad that names effusion; vocal resonance separates it from consolidation.
+s: Interpret | A moderate right effusion with a meniscus. Protein 42 is over 35, so this is an exudate. | Protein cut-offs said aloud.
+s: Interpret | I'd send fluid for protein and LDH with a serum sample for Light's, glucose and pH, cell count, culture including TB, and cytology. | The list of fluid tests is a named question.
+
+@PP19 | Pre-op: breathless patient, respiratory exam + spirometry → pulmonary fibrosis
+src: SMOSCE 38
+u: 23
+fr: ex, di, expl
+ex: resp
+door: You are the FY1 in pre-operative assessment clinic. A previously fit patient due an elective knee replacement has been getting breathless over months. Tasks: perform a respiratory examination, interpret the investigations, and explain your most likely diagnosis to the patient.
+trig: Fine end-inspiratory crackles that don't clear on coughing + clubbing + restrictive spirometry → fibrosis
+hook: Spirometry: FEV1/FVC <0.7 = obstructive; ≥0.7 with low FVC = restrictive.
+hook: Crackles that "crackle like Velcro" and don't clear with a cough = fibrosis; ones that clear = secretions.
+clinch: ✅ FEV1/FVC 81% with FVC 51% predicted = restrictive pattern
+clinch: 🧪 CXR: bilateral reticular (net-like) shadowing, lower zones
+money: The fine crackles throughout both lungs and a restrictive pattern on spirometry, with interstitial shadowing on the X-ray, point to pulmonary fibrosis. I'd want an HRCT and a respiratory opinion before surgery.
+var: A | Patient, 70 | Pulmonary fibrosis
+a: Pre-op for right knee replacement next week; painful knee. Doctors said before you have "a bad chest". Keen not to delay surgery for more tests.
+r: Fine inspiratory crackles throughout both lungs, not changing on coughing. Spirometry FEV1 1.7 (pred 3.3), FVC 2.1 (pred 4.1), FEV1/FVC 81%. CXR: diffuse interstitial opacities.
+x: Pulmonary fibrosis: HRCT, full lung function with gas transfer, respiratory referral (antifibrotics for IPF), anaesthetic review before surgery; explain gently; acknowledge frustration about delay; surgery may still be possible once optimised.
+ask: Do I really have to delay my knee?
+dom: Examination | Systematic respiratory exam (hands for clubbing; listens to the crackles before and after cough)
+dom: Clinical reasoning | !Restrictive spirometry; !interstitial shadowing; pulmonary fibrosis
+dom: Communication | Explains fibrosis in plain words; listens; acknowledges wish not to delay; checks understanding
+s: Interpret | The FEV1 and FVC are both reduced but the ratio is preserved at 81%: a restrictive pattern. | Ratio first, then FVC.
+s: Explain | The tiny air sacs in your lungs have become stiff and scarred, so they can't stretch to take a full breath, a bit like a sponge that's dried out. | Plain analogy.
+s: Explain | I know you want your knee done; the anaesthetist needs to know how your lungs are so the operation is as safe as possible. It may only be a short delay. | Empathy for the ICE + safety reasoning.
+
+@PP20 | Pleuritic chest pain in a young woman → PE (history, differentials, plan)
+src: SMOSCE 36
+u: 13
+fr: hx, reason, plan
+door: You are the FY1 in A&E. A 22-year-old has chest pain and shortness of breath at home. Tasks: take a focused history, explain your differentials to the examiner, and discuss further investigations and initial management.
+trig: Pleuritic pain + breathless + recent surgery + COCP + smoker → PE
+hook: Wells (PE) items: clinical DVT signs (3), PE most likely (3), HR >100 (1.5), immobilisation/surgery in 4 weeks (1.5), previous VTE (1.5), haemoptysis (1), cancer (1). >4 = likely → CTPA.
+hook: PERC rule out (all must be absent) only in low-probability: age ≥50, HR ≥100, SpO2 <95%, haemoptysis, oestrogen, previous VTE, unilateral leg swelling, surgery/trauma in 4 weeks.
+clinch: ✅ Wells >4 → CTPA now (interim anticoagulation if delayed)
+clinch: ✅ Wells ≤4 → D-dimer; positive → CTPA
+clinch: ❌ A normal CXR does not exclude PE
+money: With pleuritic pain, breathlessness, surgery 3 weeks ago and the combined pill, PE is my main diagnosis. Her Wells score is above 4, so I'd request a CTPA and start a DOAC or LMWH while waiting.
+trap: Missing the penicillin allergy and the COCP
+var: A | Maria Smith, 22 | Pulmonary embolism
+a: Left-sided chest pain, sudden, sharp, no radiation, 7/10, worse on deep breaths, not helped by paracetamol. Breathless at rest, worse walking; usually runs marathons. Laparoscopic appendicectomy 3 weeks ago. COCP. Allergic to penicillin (rash). Smokes 10/day for 5 years. No flights. ICE: think you're having a heart attack; very anxious.
+x: PE. Obs, ECG, ABG, FBC, U&E, LFT, clotting, troponin, CXR, CTPA (Wells >4: tachycardia + surgery + PE most likely). Initial: ABCDE, O2 as required, DOAC (apixaban/rivaroxaban) or treatment-dose LMWH. Stop COCP; contraception advice.
+dom: Information gathering | !SOCRATES with pleuritic nature; breathlessness; haemoptysis; risk factors (surgery, COCP, smoking, flights); allergies; ICE
+dom: Clinical reasoning | !PE top; differentials: pneumothorax, ACS, pneumonia, dissection, MSK
+dom: Management | ABCDE; obs; ECG; bloods incl D-dimer/troponin; CXR; !CTPA; !anticoagulation
+s: History | Is the pain worse when you breathe in deeply or cough? | Pleuritic character narrows to PE, pneumothorax, pneumonia or pericarditis.
+s: History | Any recent operations, long journeys, or leg swelling? Are you on any hormones like the pill? | VTE risk factors in one question.
+s: History | Any coughing up blood? | Haemoptysis is a Wells item.
+s: Reason | My main concern is a PE: she has pleuritic pain, is breathless, had surgery 3 weeks ago and takes the combined pill. I'd also consider pneumothorax and pneumonia. | Reasoning sentence with the decisive clues.
+s: Plan | Her Wells score is over 4, so CTPA rather than D-dimer, and I'd start anticoagulation now. | Shows you know when D-dimer is useless.
+s: Explain | I don't think this is a heart attack. I'm worried about a clot in the lung, which is treatable, and we're going to start treatment straight away. | Addresses her ICE directly.
+
+@PP21 | Breaking bad news: lung cancer (history + management)
+src: CP3 2019 resit (GP/medicine breaking bad news, lung cancer) · OSCEs 2018 (bladder/renal/prostate BBN)
+u: 21
+fr: bbn, plan
+door: You are a Foundation doctor. Your patient has come back for the results of a CT scan arranged after an abnormal chest X-ray. The CT shows a mass consistent with lung cancer. Tasks: explain the result, answer the patient's questions, and outline the next steps.
+trig: Results appointment + scan for an abnormal X-ray → breaking bad news (SPIKES)
+hook: SPIKES: Setting, Perception, Invitation, Knowledge (warning shot + plain word), Emotions (silence), Strategy and Summary.
+hook: Say the word: "cancer". Then stop talking for 10 seconds.
+clinch: ✅ Warning shot before the news
+clinch: ❌ Euphemisms ("a shadow", "a growth") without the word cancer confuse patients
+money: I'm afraid I have some difficult news. The scan has shown a lump in the lung, and it looks like a cancer.
+trap: Giving facts while the patient is crying
+trap: Promising prognosis before staging
+var: A | Mr Wilson, 69 | Suspected lung cancer
+a: 40 pack-year ex-smoker. Cough for 2 months, lost half a stone. Came alone. Ask: Is it because I smoked? How long have I got? Can it be cut out? Who do I tell?
+a: React with shock, go quiet, then ask about your wife.
+x: SPIKES; offer someone to be present; next steps: lung cancer clinical nurse specialist, biopsy (bronchoscopy/CT-guided), PET-CT staging, MDT discussion, treatment options depend on type and stage (surgery, radiotherapy, chemo/immunotherapy); written info; contact number; follow-up date; avoid blame about smoking.
+ask: Is it because I smoked? | How long have I got? | Can they cut it out?
+dom: Communication | !Setting and support person; !perception; invitation; !warning shot + clear word; !silence and empathy; responds to emotion before information
+dom: Information giving | Chunk and check; no jargon; honest about uncertainty
+dom: Management | !Clear next steps (biopsy, staging, MDT, specialist nurse); written info; follow-up; contact
+s: Setting | Would you like anyone with you for this? We won't be disturbed. | S of SPIKES.
+s: Perception | What do you understand about why we did the scan? | P of SPIKES: find his starting point.
+s: Invitation | Would you like me to go through the results in detail? | I of SPIKES.
+s: Knowledge | I'm afraid I have some difficult news. The scan has shown a lump in your right lung, and it looks like a cancer. | Warning shot then the plain word. The most marked sentence.
+s: Emotions | (Pause.) … I can see that's a huge shock. Take all the time you need. | Silence then empathy: the commonest drop is rushing here.
+s: Knowledge | We don't yet know exactly what type it is or whether it has spread. Those answers will decide the treatment. | Honest uncertainty before prognosis questions.
+s: Strategy | The next step is a small sample of the lump, and a PET scan to look at the rest of the body. Then a team of specialists will meet to plan the best treatment with you. | Concrete next steps: the management domain.
+s: Strategy | You'll meet a lung cancer nurse who'll be your main contact. Here is a leaflet and a number to call. | Support + contact are named items.
+s: Emotions | Smoking does raise the risk, but there's no value in blame now; what matters is the plan from here. | Answers the guilt question compassionately.

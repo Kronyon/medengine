@@ -1,0 +1,321 @@
+@PP83 | Shoulder examination + X-ray + management (OA vs rotator cuff vs frozen shoulder)
+src: CP3 2018 first sit and 2019 first sit (shoulder exam, interpret X-ray, management) · OSCEs 2018 OSCE 1 MDD (shoulder OA / rotator cuff / supraspinatus tear) · SMOSCE 21 (rotator cuff) · SMOSCE 24 (frozen shoulder)
+u: 86
+fr: hx, ex, di, plan
+ex: shoulder
+door: You are a Foundation doctor in General Practice or orthopaedic clinic. Tasks: examine the patient's shoulder, present your findings, review the X-ray, give differentials and explain the management.
+trig: Older + gradual pain + crepitus + global loss of movement (active and passive) + joint space loss on X-ray → glenohumeral OA
+trig: Painful arc 60–120° + pain on resisted abduction + full passive range → supraspinatus tendinopathy/tear (rotator cuff)
+trig: Diabetes + loss of external rotation (active AND passive) + normal X-ray → adhesive capsulitis (frozen shoulder)
+hook: Shoulder exam "Look, Feel, Move, Special tests, Neurovascular, Neck": always screen the cervical spine and the elbow.
+hook: Painful arcs: 60–120° = rotator cuff (subacromial); 170–180° = acromioclavicular joint.
+hook: Frozen shoulder 3 phases "Freezing (painful), Frozen (stiff), Thawing" over 1–3 years; X-ray normal.
+hook: OA X-ray "LOSS": Loss of joint space, Osteophytes, Subchondral sclerosis, Subchondral cysts.
+clinch: ✅ Passive range lost = joint (OA, frozen shoulder); passive range preserved but active painful/weak = cuff
+clinch: ✅ External rotation lost first and most = frozen shoulder (and OA)
+clinch: ❌ Red, hot, swollen joint with fever → septic arthritis: aspirate, don't inject steroid
+money: There's reduced active and passive movement in all directions, worse in external rotation, with crepitus, and the X-ray shows loss of joint space, osteophytes and subchondral sclerosis: glenohumeral osteoarthritis. I'd start with physiotherapy, analgesia, and consider a steroid injection, and refer for a shoulder replacement if it fails.
+trap: Not comparing with the other side
+trap: Forgetting to examine the neck (referred pain)
+var: A | Man, 70 | Glenohumeral OA
+a: Gradual right shoulder pain and stiffness for 2 years; can't reach the top shelf or do up your bra-strap equivalent; aching at night; grinding.
+r: Inspection: mild wasting; no swelling. Palpation: joint-line tenderness. Movement: active and passive restricted in all directions, especially external rotation; crepitus. X-ray: loss of glenohumeral joint space, osteophytes, subchondral sclerosis.
+x: OA: education, exercise/physio, weight; analgesia per NICE NG226 (topical NSAIDs are less useful for shoulder; oral NSAID lowest dose + PPI short term); no routine paracetamol/weak opioids; intra-articular steroid for short-term relief; refer orthopaedics for arthroplasty if symptoms impair QoL despite non-surgical care.
+var: B | Police officer, 40 | Supraspinatus tendinopathy after rugby tackle
+a: Right-hand dominant. Tackled 10 days ago; sudden pain like a sprain; sharp on abduction; stiffness, weakness (drinking tea left-handed); night pain lying on it; overhead movement worse; ibuprofen helps a bit; 4–6/10. Smoker. ICE: can't do the physical side of work; want a sick note for desk duties.
+r: Holds arm by side; painful arc 60–120°; tenderness around glenohumeral joint; pain on first 15° of abduction; full passive range; very painful resisted abduction (empty can positive); neurovascular intact.
+x: Rotator cuff (supraspinatus) injury: X-ray to exclude fracture; ultrasound first-line for cuff; MRI if USS negative and not improving; rest, fit note for modified duties; physio; NSAID + PPI; subacromial steroid injection; surgical opinion if full-thickness tear in a young active patient.
+var: C | Office worker, 42 | Frozen shoulder (adhesive capsulitis)
+a: Right shoulder: gradual pain for 7 months, worst 7/10 even at rest; now pain easing but very stiff in all directions; can't open jars or dress. Shoulder injury a year ago with immobility. T2DM, hypothyroidism. Co-codamol and Oramorph as needed. Ask: What's happened? Will it get better? Will I need surgery? My friend had her morphine stopped: will you do the same?
+r: (Read to student) No abnormality on inspection or palpation; limited active and passive movement in all directions, especially external rotation; power adequate. X-ray normal.
+x: Frozen shoulder (stiffening phase): explain phases; self-limiting (most resolve within 1–3 years, ~90% within 2 years); paracetamol/NSAIDs, physio, intra-articular steroid; hydrodilatation, MUA or arthroscopic release if refractory; opioids: explain gently why long-term opioids don't help this pain and taper with support; diabetes control.
+dom: Information gathering | Dominance, occupation, mechanism, pain pattern (night), stiffness vs weakness, function, red flags, PMH (diabetes), ICE (work)
+dom: Examination | !Expose both shoulders; look (front, side, back: wasting, asymmetry, scars); feel (SC joint, clavicle, ACJ, glenohumeral joint, temperature); !move actively then passively (flexion, extension, abduction, adduction, internal/external rotation); painful arc; !special tests (empty can, external rotation lag, Gerber's, scarf test); neurovascular; !cervical spine and elbow screen
+dom: Clinical reasoning | !Correct diagnosis for the variant; X-ray interpreted (LOSS); differentials (OA, cuff, frozen shoulder, ACJ, referred neck pain, fracture)
+dom: Management | !Variant plan; analgesia safe (NSAID + PPI); physio; injection; imaging choice; surgical referral; fit note
+s: Look | From the front, side and back: I'm looking for wasting over the shoulder blade, swelling, scars or asymmetry. | Wasting of supraspinatus/infraspinatus is a key sign.
+s: Move | Lift your arms out to the side and up over your head. Tell me if it's painful and where. | Painful arc: where in the arc localises it.
+s: Move | Now let me move it for you. | Active vs passive split separates cuff from joint.
+s: Special | Arms out at 30 degrees forward, thumbs down like emptying a can; push up against me. | Empty can (Jobe) tests supraspinatus.
+s: Screen | Before I finish, I'll check your neck movements and your elbow. | Neck screen is a named item (referred pain).
+s: X-ray | AP and axial views show loss of joint space, osteophytes and subchondral sclerosis: osteoarthritis. | LOSS read aloud.
+s[C]: Explain | You have a frozen shoulder: the lining of the joint becomes inflamed then tight. It goes through a painful phase, a stiff phase, then thaws; you're in the stiff phase now, and most people get better within about 2 years. | Phases + prognosis answer her questions.
+s[C]: Explain | Morphine doesn't help this kind of stiffness much and causes problems over time, so we'd reduce it slowly with you, while physio and an injection do more of the work. | Empathic opioid conversation (her hidden concern).
+
+@PP84 | Knee examination + results + management (OA / pseudogout / gout / septic arthritis / meniscal / ACL)
+src: CP3 2019 first sit (knee exam, interpret results, explain management: gout, pseudogout, septic arthritis) · CP3 2019 MDD (pseudogout) · SMOSCE 23 (ACL rupture) · SMOSCE 27 (meniscal tear)
+u: 86, 87
+fr: hx, ex, di, plan
+ex: knee
+door: You are a Foundation doctor. Tasks: examine the patient's knee, interpret the investigations, and explain the management to the examiner.
+trig: Over 45 + activity-related pain + morning stiffness ≤30 min + crepitus + bony swelling → knee OA (clinical diagnosis)
+trig: Acutely hot swollen knee in an older person + rhomboid positively birefringent crystals + chondrocalcinosis → pseudogout (CPPD)
+trig: Hot swollen joint + fever + can't bear weight → septic arthritis until aspirated
+trig: Twisting injury + delayed swelling + locking + medial joint-line tenderness → meniscal tear; pop + immediate swelling + instability → ACL
+hook: Crystals: Gout = Needle-shaped, Negatively birefringent (urate); Pseudogout = Positively birefringent, rhomboid (calcium Pyrophosphate). "P for P".
+hook: Effusion tests: sweep (small), patellar tap (large). Ligaments: anterior drawer + Lachman (ACL), posterior sag (PCL), varus/valgus stress (collaterals). Meniscus: McMurray's.
+hook: NICE NG226 OA: core = exercise + weight loss + education; topical NSAID first for knee; oral NSAID + PPI if needed; DON'T routinely offer paracetamol or weak opioids.
+clinch: ✅ Septic arthritis: aspirate BEFORE antibiotics (unless septic), then IV antibiotics (flucloxacillin per local) and orthopaedic washout
+clinch: ❌ Never inject steroid into a joint that might be infected
+clinch: ✅ X-ray OA "LOSS"; chondrocalcinosis (white line in the cartilage) = CPPD
+money: The knee is hot and swollen with a large effusion. The aspirate shows rhomboid, positively birefringent crystals and no organisms, and the X-ray shows chondrocalcinosis: acute pseudogout. Septic arthritis must be excluded with the culture; meanwhile NSAIDs with a PPI, rest and ice, or an intra-articular steroid once infection is ruled out.
+var: A | Man, 68 | Knee osteoarthritis
+a: Pain in both knees, right worse, for years; worse walking and on stairs; 20 minutes of stiffness in the morning; knee gives way sometimes. BMI 33. Paracetamol not helping.
+r: Bony swelling, varus deformity; crepitus; small effusion (sweep); reduced flexion. X-ray: medial joint space loss, osteophytes, subchondral sclerosis.
+x: OA: exercise (strengthening + aerobic), weight loss (≥10% helps), education; topical NSAID; oral NSAID + PPI lowest dose/shortest; steroid injection short-term; walking aids, footwear; no routine paracetamol/weak opioids (NICE 2022); refer for TKR when symptoms substantially affect QoL despite non-surgical treatment.
+var: B | Woman, 76 | Acute pseudogout (CPPD)
+a: Right knee suddenly hot, swollen and very painful since yesterday; low-grade fever. Hypothyroidism.
+r: Hot, swollen, effusion (patellar tap); restricted flexion. Aspirate: turbid, rhomboid positively birefringent crystals, Gram stain negative (culture pending). X-ray: chondrocalcinosis. WCC 11, CRP 60.
+x: CPPD: wait for culture; NSAID + PPI or colchicine; aspiration relieves; intra-articular steroid once infection excluded; check calcium, magnesium, ferritin, TFT, PTH (secondary causes).
+var: C | Man, 55 | Septic arthritis
+a: Left knee hot and swollen for 2 days; fever and rigors; can't bear weight. Diabetes. Had a cut on the shin last week.
+r: T 38.9, HR 108. Hot effusion, severe pain on any movement. Aspirate: purulent, Gram-positive cocci in clusters, no crystals.
+x: Septic arthritis: blood cultures; joint aspirate before antibiotics; empirical IV flucloxacillin (clindamycin if penicillin-allergic; per local guidance), orthopaedic urgent washout; analgesia; sepsis bundle if indicated.
+var: D | Woman, 35 | ACL rupture (rugby)
+a: Tackled 10 days ago, knee went backwards, loud pop, immediate swelling (now settling), can't weight-bear properly; ibuprofen + diclofenac without PPI; construction worker wanting a sick note.
+r: Swollen knee, antalgic gait, effusion (tap and sweep), tender on movement, incomplete extension, positive anterior drawer and Lachman's.
+x: ACL rupture: one NSAID only + PPI; X-ray (exclude fracture: Segond), MRI; RICE; physio; orthopaedic referral (reconstruction if active/unstable); fit note.
+dom: Information gathering | Onset (acute/gradual), trauma mechanism, swelling timing, locking/giving way, systemic features (fever), function, crystal risk, drugs (two NSAIDs!), ICE
+dom: Examination | !Gait; look (swelling, deformity, wasting, scars); feel (temperature, effusion: sweep and tap, joint-line tenderness, patella); move (flexion/extension, active and passive); !special tests (collaterals, drawer/Lachman, posterior sag, McMurray's); hip screen
+dom: Clinical reasoning | !Correct diagnosis; interprets aspirate, bloods and X-ray
+dom: Management | !Variant plan with safety (aspirate before antibiotics; one NSAID + PPI; NICE OA core treatments)
+s: Look | Could you walk to the door and back? I'm looking at your gait. Now standing: any knock-knees, bow legs, swelling, or wasting of the thigh? | Gait first, then inspection standing.
+s: Feel | I'll feel the temperature with the back of my hand, compared with the other knee. | Temperature comparison spots inflammation.
+s: Feel | Sweep test for a small effusion; patellar tap for a large one. | Both effusion tests named.
+s: Special | Knee bent at 90°, I'll sit gently on your foot and pull the shin forward. That's the anterior drawer. | Ligament test with patient-friendly words.
+s: Interpret | Rhomboid, positively birefringent crystals: calcium pyrophosphate, so pseudogout, with chondrocalcinosis on the X-ray. The Gram stain is negative but we must wait for the culture. | Crystal logic + the septic caveat.
+s[A]: Plan | The most effective treatments are exercise to strengthen the thigh and losing weight; an anti-inflammatory gel on the knee; and if needed a short course of an anti-inflammatory tablet with stomach protection. Paracetamol on its own isn't recommended now. | NICE 2022 OA plan including the paracetamol change.
+s[D]: Plan | You're taking two anti-inflammatories without stomach protection: just one, with a PPI, please. | Spotting the drug error is a named mark.
+
+@PP85 | Hip examination: osteoarthritis (and joint replacement)
+src: CP3 2019 resit (painful hip: hip examination, OA)
+u: 86, 87
+fr: hx, ex, plan
+ex: hip
+door: You are a Foundation doctor in orthopaedic clinic. A 71-year-old has a painful right hip. Tasks: examine the hip, present your findings, and explain the diagnosis and management, including what a hip replacement involves.
+trig: Groin pain on walking + stiffness + reduced internal rotation first + antalgic or Trendelenburg gait → hip OA
+hook: Hip exam "Gait, Trendelenburg, Thomas, Range": gait; Trendelenburg test (pelvis drops on the opposite side when standing on the weak side = abductor weakness); Thomas test (fixed flexion deformity); internal rotation goes first in OA.
+hook: Referred pain: hip pain can be felt in the knee. Always examine the joint above and below.
+hook: THR risks "DIVINE": Dislocation, Infection, VTE, Injury to nerve (sciatic) or vessels, Need for revision (loosening), Equal leg length lost (discrepancy) + anaesthetic risk.
+clinch: ✅ Groin pain + reduced internal rotation = hip joint (not lumbar spine)
+clinch: ❌ Night pain, weight loss, history of cancer → bone metastasis; refer urgently
+money: He has an antalgic gait, a positive Trendelenburg on the right, a fixed flexion deformity of 15° on Thomas's test, and painful restriction of internal rotation: right hip osteoarthritis. Management starts with exercise, weight loss and analgesia; because it's limiting his walking despite this, I'd refer for consideration of a total hip replacement.
+var: A | Man, 71 | Right hip OA
+a: Pain in the right groin and sometimes the knee for 2 years; worse walking (stop after 200 m), can't put socks on; 20 minutes of morning stiffness; using a stick. Ask: What does a hip replacement involve? Are there risks? How long to recover?
+r: Antalgic gait; positive Trendelenburg right; Thomas test fixed flexion deformity 15° right; reduced internal rotation with pain, then reduced abduction; apparent shortening right 1 cm. X-ray: superolateral joint space loss, osteophytes, sclerosis, cysts.
+x: Hip OA: exercise, physio, weight, walking aid in the opposite hand; topical NSAID less useful for hip, oral NSAID + PPI if needed; steroid injection (image-guided) short-term; refer for THR; explain THR: replace ball and socket, 1–3 night stay, walking next day with physio, stick for weeks, 6–12 weeks to normal activity, driving ~6 weeks, precautions; risks (DIVINE); 90%+ last 15 years.
+dom: Examination | !Gait; !Trendelenburg; look (scars, wasting, leg length); feel (greater trochanter tenderness); !Thomas test; !range: flexion, internal and external rotation, abduction, adduction; leg length (true and apparent); knee and spine screen; neurovascular
+dom: Clinical reasoning | !Hip OA; X-ray LOSS
+dom: Information giving | !Explains OA and THR (what, recovery, risks with plain words)
+s: Gait | Could you walk to the door and back? The steps on the right are shorter, which is an antalgic gait. | Name the gait.
+s: Trendelenburg | Stand on your right leg, holding my hands. The left side of your pelvis drops, so the test is positive on the right. | Trendelenburg explained correctly (side of weakness = standing leg).
+s: Thomas | Hug your left knee to your chest. Your right thigh lifts off the couch: a fixed flexion deformity. | Thomas test technique.
+s: Range | I'll bend your hip and turn the foot outwards to test turning in: that's painful and reduced, which is often the first movement lost in arthritis. | Internal rotation first.
+s: Explain | A hip replacement swaps the worn ball and socket for artificial parts. Most people walk the next day with a frame or crutches and get back to normal activities in about 6 to 12 weeks. | Plain THR explanation.
+s: Risks | The main risks are infection, a clot in the leg or lung, the hip dislocating, a small difference in leg length and nerve injury. Overall most people do very well and the new hip lasts 15 to 20 years. | Risks in plain words (DIVINE).
+
+@PP86 | Hand examination: nodal OA vs rheumatoid arthritis (history, picture, explain)
+src: CP3 2018 first sit (hand arthritis history + hand examination; hand exam, feedback findings, management: RA) · SMOSCE 22 (RA: history, describe picture, explain diagnosis and management)
+u: 86
+fr: hx, ex, expl
+ex: hand
+door: You are a Foundation doctor in General Practice. A woman has painful, stiff hands. Tasks: take a history, examine the hands (or describe the photograph), and explain the likely diagnosis and management to her.
+trig: DIP + PIP bony swellings (Heberden's, Bouchard's) + thumb-base squaring + brief morning stiffness → nodal OA
+trig: Symmetrical MCP + PIP soft swelling + morning stiffness >30–60 min + fatigue → rheumatoid arthritis
+hook: OA vs RA by joints: "OA = Ends (DIP) and thumb base; RA = Roots (MCP, PIP) and wrists, spares DIP".
+hook: RA deformities: ulnar deviation, swan neck (PIP hyperextended, DIP flexed), boutonnière (PIP flexed, DIP hyperextended), Z-thumb, rheumatoid nodules.
+hook: Hand exam "Look (dorsum, palms, elbows), Feel (temperature, squeeze MCPs, each joint), Move (fist, prayer, reverse prayer), Function (grip, pinch, buttons, write), Nerves".
+clinch: ✅ Persistent synovitis (soft swelling) of small joints → urgent rheumatology referral (NICE NG100); RF, anti-CCP, CRP/ESR, X-rays hands and feet
+clinch: ✅ MCP squeeze tenderness = synovitis
+clinch: ❌ Nail pitting + DIP arthritis + dactylitis → psoriatic arthritis
+money: She has symmetrical swelling of the MCP and PIP joints with over 2 hours of morning stiffness, fatigue and weight loss, and the photograph shows ulnar deviation, swan-neck and boutonnière deformities with rheumatoid nodules: rheumatoid arthritis. She needs urgent rheumatology referral to start disease-modifying treatment like methotrexate.
+var: A | Woman, 50 | Rheumatoid arthritis (long-standing, untreated)
+a: Pain and stiffness in hands for 10 years, worse in the last 6 months; MCP and PIP joints both hands; achy; worse in mornings for a couple of hours, eases with movement; more tired, some weight loss; no eye, skin, bowel or chest symptoms; paracetamol helps; 6/10. Raynaud's; anaemia on iron. Mother had "some kind of arthritis". Smoke 10/day for 20 years; 10 units/week; live alone, struggling with ADLs. Didn't come because "I don't want to be a time-waster" (mother died of cancer when you were a child: only say if empathised with).
+r: Photo: ulnar deviation, swan-neck and boutonnière deformities, Z-thumb, rheumatoid nodules on forearms.
+x: RA: urgent rheumatology; bloods (RF, anti-CCP, CRP, ESR, FBC, U&E, LFT), X-rays; DMARD (methotrexate first-line + short-term bridging steroid); NSAID + PPI for symptoms; intra-articular steroid; OT/physio, aids; smoking cessation; CV risk; vaccinations before methotrexate; surgical opinion for deformities if severe.
+var: B | Woman, 64 | Nodal osteoarthritis
+a: Knobbly finger ends for years; aching after gardening; stiffness 15 minutes in the morning; base of thumb hurts opening jars.
+r: Heberden's (DIP) and Bouchard's (PIP) nodes; squaring of thumb base; no synovitis; crepitus at CMC joint.
+x: Hand OA: education, exercise, joint protection, splints for thumb base, topical NSAID first (NICE NG226), oral NSAID + PPI short-term, steroid injection for thumb base; OT; surgery rarely.
+dom: Information gathering | !Joints involved and pattern, !morning stiffness duration, systemic features, extra-articular, function and ADLs, FH, smoking, ICE (why delayed)
+dom: Communication | !Empathic response to reason for delay; non-judgemental
+dom: Examination / description | !Describes deformities correctly; synovitis vs bony swelling; elbows (nodules, psoriasis); function
+dom: Information giving | !Explains RA (or OA) in plain words; management outline; checks understanding
+s: History | Which joints are affected? Is it both hands equally? | Pattern separates OA from RA.
+s: History | How long are your hands stiff for in the morning? | >30–60 minutes = inflammatory.
+s: Empathy | It sounds like you've been putting up with this for a long time. What made it hard to come in? | Exploring the delay unlocks the hidden story (named communication mark).
+s: Describe | The fingers drift towards the little finger at the knuckles: ulnar deviation. The middle joint is bent back with the end joint bent: swan neck. And there are nodules on the forearms. | Correct names for deformities.
+s: Explain | Rheumatoid arthritis is where the immune system attacks the lining of the joints. Starting the right treatment early, with tablets like methotrexate, can stop further damage. | Plain explanation + why urgent.
+
+@PP87 | Elbow examination: lateral epicondylitis (tennis elbow)
+src: CP3 2019 resit (elbow examination, explain management: tennis elbow) · CP3 2018 resit (elbow pain history, examination, management) · OSCEs 2018 resit (medial epicondylitis)
+u: 86
+fr: hx, ex, plan
+ex: shoulder
+door: You are a Foundation doctor in General Practice. A 45-year-old has pain on the outside of the elbow. Tasks: take a history, examine the elbow, and explain the management.
+trig: Lateral elbow pain + tender lateral epicondyle + pain on resisted wrist extension (and gripping) → lateral epicondylitis
+trig: Medial elbow pain + pain on resisted wrist flexion/pronation → medial epicondylitis (golfer's elbow)
+hook: "Tennis = Top of the forearm (extensors, lateral)"; "Golfer's = Grip from below (flexors, medial)".
+hook: Elbow exam: look (carrying angle, swelling, nodules, psoriasis), feel (epicondyles, olecranon), move (flexion/extension, pronation/supination), resisted wrist extension (Cozen's), Mill's test, ulnar nerve.
+clinch: ✅ Pain on resisted middle-finger extension/wrist extension with tender lateral epicondyle = tennis elbow
+clinch: ❌ Olecranon swelling that's hot and red → septic bursitis (aspirate)
+money: She has tenderness over the lateral epicondyle and pain on resisted wrist extension: lateral epicondylitis. It usually settles over 6 months to 2 years with activity modification, a forearm brace, topical NSAID and physiotherapy; steroid injections help short term but can worsen long-term outcomes.
+var: A | Woman, 45, decorator | Lateral epicondylitis
+a: Outside of the right elbow aches for 3 months, worse painting ceilings and lifting the kettle; no injury; no numbness. Want an injection.
+r: Tender lateral epicondyle; full range; pain on resisted wrist and middle-finger extension; neurovascular intact.
+x: Tennis elbow: explain self-limiting; rest from aggravating activity, modify grip; brace/epicondylar clasp; topical NSAID; eccentric loading physio; steroid injection short-term only (higher recurrence); shockwave/surgery rarely; fit note/work modifications.
+dom: Information gathering | Onset, activity, occupation, dominance, trauma, neuro symptoms, previous treatment, ICE (injection)
+dom: Examination | Expose both arms; look (carrying angle, swelling); feel (epicondyles, olecranon, radial head); move; !resisted wrist extension; Mill's; ulnar nerve; neck and shoulder screen
+dom: Information giving | !Explains condition and natural history; evidence on injections; management plan
+s: Examine | I'll press over the bony point on the outside of your elbow. Now push your hand up against mine, keeping your wrist straight. | Tenderness + resisted extension = diagnosis.
+s: Explain | The tendon that lifts the wrist has become irritated where it attaches to the elbow, from repeated gripping. | Plain mechanism.
+s: Explain | An injection helps for a few weeks, but people who have one are more likely to have it come back. Physio exercises and a strap usually work better in the long run. | Evidence-based answer to her expectation.
+
+@PP88 | Drug history + prescribing: constipation from codeine (stop, laxative, antiemetic)
+src: SMOSCE 29 · CP3 2018 resit (prescribing: medication history)
+u: 39, 50
+fr: hx, presc
+door: You are the FY1 on MAU. Vera Jones, 80, has crampy abdominal pain and nausea. Tasks: take a brief focused history and confirm her medication history; interpret the results and explain the likely cause; review her medicines and prescribe them on the drug chart as appropriate, with appropriate management.
+trig: Elderly + regular codeine + not opened bowels for days + passing flatus + normal bloods → opioid-induced constipation
+hook: Opioid constipation: stimulant + softener ("push and soften"): senna + docusate or macrogol (Laxido). Don't use bulk-forming laxatives (ispaghula) with opioids.
+hook: Antiemetic choice: cyclizine or metoclopramide (prokinetic). AVOID ondansetron here (constipating). Metoclopramide is contraindicated in mechanical obstruction.
+clinch: ✅ Passing flatus + soft abdomen + faecal loading on AXR = constipation, not obstruction
+clinch: ❌ NICE OA 2022: weak opioids not recommended routinely for OA pain anyway
+money: She has opioid-induced constipation: no bowel movement for 6 days on regular codeine 60 mg three times a day, normal bloods and faecal loading on the X-ray. I'd stop the codeine, start a laxative such as macrogol with senna, give cyclizine for nausea rather than ondansetron, and use a topical NSAID for her arthritis.
+var: A | Vera Jones, 80 | Codeine-induced constipation
+a: Crampy pain all over for 2 days, gradual, 5/10; nausea, no vomiting; bowels not opened for 6 days; passing wind; no weight loss or PR bleeding; mild relief passing wind.
+a: OA, hypertension, high cholesterol, COPD. Amlodipine 5 mg morning, atorvastatin 40 mg night, codeine 60 mg TDS, paracetamol 1 g QDS, Seretide 250 Evohaler 2 puffs BD, salbutamol 2 puffs PRN (not needed recently). Allergy: ramipril (tongue swelling). Live alone; non-smoker; normal diet.
+r: BP 130/70, T 36, P 70, SpO2 92% air, RR 16. Hb 130, Plt 305, WCC 7.9, Na 140, K 4.7, urea 6.2, Cr 99, bilirubin 4, ALP 70, ALT 26, amylase 60, CRP <5. AXR: faecal loading.
+x: Continue amlodipine, atorvastatin, paracetamol (weight 60 kg: 1 g QDS OK), Seretide, salbutamol PRN; stop codeine (document reason); alternative: topical NSAID; laxatives: macrogol (Laxido) 1–3 sachets daily ± senna 7.5–15 mg at night; antiemetic cyclizine 50 mg TDS PRN (or metoclopramide 10 mg TDS PRN max 5 days); record ramipril allergy (angioedema).
+dom: Information gathering | !Methodical HPC identifying no bowel opening for several days; !uses repeat prescription and confirms drug, dose, frequency, adherence; !allergies with reaction
+dom: Clinical reasoning | !Normal bloods; AXR faecal loading; !codeine as the cause
+dom: Prescribing | Patient details, allergy (ramipril: tongue swelling); continues safe drugs; !stops codeine with reason; alternative analgesia; !laxative; !antiemetic (not ondansetron)
+s: History | When did you last open your bowels? Are you passing wind? | Passing flatus argues against complete obstruction.
+s: Med history | Let's go through your repeat list together. How do you actually take each one? | Checking the list with the patient is a named item.
+s: Allergy | You're allergic to ramipril: what happened? | Angioedema recorded precisely.
+s: Reason | The bloods are normal, and the X-ray shows lots of stool in the bowel: constipation, most likely from the codeine. | Linking the drug to the problem is the clinical reasoning mark.
+s: Prescribe | Cross off codeine: "stopped, constipation". Macrogol 1 sachet twice daily and senna 15 mg at night. Cyclizine 50 mg up to three times a day as needed for nausea. | Specific prescriptions with the reason for stopping.
+
+@PP89 | Drug history + prescribing in AKI after D&V (diuretic + ACEi + laxative)
+src: SMOSCE 28 · SMOSCE 57 (worsening AKI + hyperkalaemia: stop furosemide, ramipril) · CP3 2019 OSCE 2 (abdominal exam + hyperkalaemia + AKI)
+u: 51
+fr: hx, di, presc
+door: You are the FY1 on MAU. John Smith, 60, was referred with abnormal blood tests after a diarrhoeal illness and ongoing nausea. Tasks: confirm his medication history; interpret the results and explain the likely causes to the examiner; review his medicines, prescribe as appropriate, and add symptomatic management.
+trig: D&V + diuretic + ACEi + rising creatinine → prerenal AKI (sick-day drugs)
+hook: Sick-day / AKI drugs "DAMN": Diuretics, ACE inhibitors/ARBs, Metformin, NSAIDs (+ SGLT2 inhibitors). Hold while unwell; restart 24–48 h after eating and drinking normally.
+hook: AKI (KDIGO): creatinine rise ≥26 µmol/L in 48 h, or ≥1.5× baseline in 7 days, or urine output <0.5 mL/kg/h for 6 h.
+clinch: ✅ Hyperkalaemia ≥6.5 or ECG changes → calcium gluconate 10% 30 mL IV (cardioprotection), insulin-dextrose (10 units actrapid in 25 g glucose), salbutamol nebs; then stop K-raising drugs
+clinch: ❌ A patient taking PRN laxatives regularly while having diarrhoea: stop them
+money: This is an AKI: creatinine 208 and urea 11 after diarrhoea, on furosemide and ramipril. I'd withhold the furosemide and ramipril, stop the docusate he's been taking regularly, continue the other medicines, prescribe an antiemetic like cyclizine, and recheck U&E with a fluid assessment.
+var: A | John Smith, 60 | Prerenal AKI (D&V + furosemide + ramipril + docusate)
+a: Weak and "a bit under the weather". D&V recently, settled; still very nauseous. Heart failure, previous MI, hypertension, OA. Amlodipine 5 mg morning; aspirin 75 mg morning; furosemide 40 mg BD; paracetamol 1 g QDS; ramipril 1.25 mg night; codeine 30 mg QDS PRN; docusate 100 mg TDS PRN. If asked: you take everything regularly including the PRN docusate and codeine (you think you're supposed to). Allergy: penicillin (rash). Live alone; non-smoker; minimal alcohol.
+r: Appears well but nauseous. BP 130/70, T 36, P 82, SpO2 98%, RR 18. Na 138, K 4.5, urea 11, creatinine 208. Weight 75 kg.
+x: AKI stage 2 (if baseline normal): hold furosemide and ramipril; stop docusate (diarrhoea); continue amlodipine, aspirin, paracetamol (weight 75 kg fine; review if poor intake/liver), codeine PRN (caution in AKI: reduce/monitor); antiemetic cyclizine 50 mg TDS PRN (or metoclopramide); fluid assessment and oral/IV fluids cautiously (heart failure); daily U&E; urine dip; fluid balance; restart drugs when recovered with heart failure team; educate on sick-day rules.
+var: B | Gary Smith, 52 | AKI with K 7.1 after ITU (furosemide, ramipril, co-amoxiclav)
+a: Treated on ITU for Klebsiella pneumonia; now feeling better but tired. Angina, MI, high cholesterol, hypertension. Furosemide, ramipril, aspirin, clopidogrel, simvastatin, co-amoxiclav (5 days left). Alcohol as a coping mechanism; divorced; smokes.
+r: Today: Hb 110, MCV 98, WCC 12, K 7.1, urea 17.2, creatinine 394 (a month ago 140).
+x: Hyperkalaemia emergency: ECG, cardiac monitoring; calcium gluconate 10% 30 mL IV; insulin 10 units actrapid in 25 g glucose IV; salbutamol 10–20 mg neb; stop furosemide and ramipril, consider holding aspirin; renally adjust antibiotic; fluids; daily/twice-daily U&E; renal team and senior; strict fluid balance, daily weights; catheter if needed; renal USS, urinalysis.
+dom: Information gathering | !Methodical drug history against the repeat prescription (drug, dose, frequency, adherence, allergies); !identifies inappropriate regular laxative use
+dom: Clinical reasoning | !AKI recognised; cause (diarrhoea + diuretic + ACEi); docusate worsening diarrhoea; (B) hyperkalaemia emergency
+dom: Prescribing | !Holds furosemide and ramipril; stops docusate; continues safe drugs; antiemetic; (B) hyperkalaemia treatment; patient ID and allergy
+s: Med history | Can I check each tablet on this list: how much and how often do you actually take it? | The repeat list vs reality gap is the hidden point.
+s: Med history | The docusate and codeine are "when needed": how often are you taking them? | Finds the regular laxative use.
+s: Interpret | Urea 11 and creatinine 208: an acute kidney injury. After diarrhoea and vomiting, on a water tablet and an ACE inhibitor, the kidneys are under-filled. | Cause stated mechanistically.
+s: Prescribe | Furosemide and ramipril: withheld, "AKI, review daily". Docusate: stopped, "diarrhoea". Cyclizine 50 mg three times a day as required. | Withhold vs stop with reasons.
+s[B]: Act | Potassium 7.1: ECG and cardiac monitor now, calcium gluconate 10% 30 mL IV to protect the heart, then insulin and glucose and salbutamol to shift potassium into cells. | Emergency sequence with doses.
+
+@PP90 | Prescribing for an NBM stroke patient: convert routes, VTE prevention, maintenance fluids
+src: SMOSCE 30
+u: 51, 50
+fr: presc
+door: You are the FY1 on the stroke unit. A 70-year-old woman newly admitted with a TACS has low GCS and severe dysphagia; she is nil by mouth until SALT review at 9 am tomorrow. Weight 85 kg. Tasks: prescribe her regular medication from the script, converting to non-oral routes where needed; prescribe VTE prophylaxis; prescribe maintenance fluids for 24 hours. (You are not required to prescribe acute stroke treatment.)
+trig: NBM + oral medicines → convert or hold; patches continue
+trig: Acute stroke + immobile → VTE prevention = intermittent pneumatic compression, not heparin
+hook: NICE CG174 maintenance (adults): water 25–30 mL/kg/day; Na, K, Cl about 1 mmol/kg/day each; glucose 50–100 g/day. "25-30, 1-1-1, 50-100".
+hook: Stroke VTE (NICE NG89): consider intermittent pneumatic compression (IPC) for immobile patients, started within 3 days; do NOT use anti-embolism stockings. Routine LMWH isn't the default in acute stroke (UK stroke guideline).
+clinch: ✅ Fentanyl patch is transdermal: continue (change today as due)
+clinch: ✅ Paracetamol NBM: IV (weight >50 kg: 1 g every 6 h, max 4 g/day) or PR
+clinch: ❌ Anti-embolism stockings in acute stroke (NICE says don't); reflex LMWH is the other trap: IPC is the default
+money: Her fentanyl patch continues and is changed today; paracetamol switches to 1 g IV every 6 hours; for VTE prevention, intermittent pneumatic compression rather than stockings; and maintenance fluids of about 2.5 litres over 24 hours with roughly 1 mmol/kg of potassium and some sodium and glucose.
+var: A | Margaret Baker, 70, 85 kg | NBM TACS
+r: GP script: fentanyl 50 micrograms/hr transdermal patch, 1 patch every 72 h (next patch due today); paracetamol 500 mg tablets, 2 QDS. NKDA. ID confirmed. U&E normal (K 4.0).
+x: Fentanyl 50 micrograms/hour patch: continue, change today, record site; paracetamol 1 g IV QDS (or PR); VTE: IPC (thigh-length) within 3 days, document; maintenance ~2.1–2.5 L/day: e.g. 0.18% NaCl/4% glucose with KCl (20 mmol/L or 40 mmol/L premixed) to give ~85 mmol K and ~75–90 mmol Na over 24 h, e.g. 0.18% NaCl/4% glucose: 1 L with 40 mmol KCl over 10 h, a second 1 L with 40 mmol KCl over 10 h, then 500 mL with 20 mmol KCl over 4 h (≈2.5 L, Na 75 mmol, K 100 mmol, glucose 100 g); daily U&E, fluid balance, weight; review after SALT (NG feeding if unsafe swallow).
+dom: Prescribing | !Correct demographics, weight, allergy; !fentanyl patch continued with change date; !paracetamol converted to IV/PR at correct dose; !VTE prophylaxis per stroke guidance (IPC) with rationale; !maintenance fluids appropriate in volume, Na, K, glucose with rates; monitoring; review date
+s: Prescribe | FENTANYL 50 micrograms/hour transdermal patch every 72 hours: next due today, so I'll write today's change. | Continuing a non-oral drug correctly.
+s: Prescribe | PARACETAMOL 1 g IV every 6 hours (she's over 50 kg). | Route conversion with weight-based dose.
+s: VTE | For VTE prevention after an acute stroke, intermittent pneumatic compression on both legs, started within 3 days; not stockings, and not routine heparin. | The guideline trap is the station's hidden mark.
+s: Fluids | 85 kg: about 25 to 30 mL/kg is 2.1 to 2.5 litres, with about 1 mmol/kg each of sodium and potassium, and some glucose. | Working out the numbers aloud.
+s: Fluids | 0.18% saline with 4% glucose and 40 mmol potassium, 1 litre over 10 hours, twice, then 500 mL with 20 mmol potassium over 4 hours: about 2.5 litres; U&Es tomorrow. | A complete, checkable regimen.
+
+@PP91 | Opioid prescribing: oral morphine to a subcutaneous syringe driver + breakthrough (and talk to relative)
+src: OSCEs 2018 OSCE 2 prescribing (EoL: convert to subcutaneous driver, 2.5 mg morphine SC breakthrough, review normal meds, talk to relative) · CP3 2018 first sit (prescribing palliative syringe driver; explain benefits) · CP3 2019 resit (opioid prescribing)
+u: 50
+fr: presc, expl
+door: You are a Foundation doctor. A patient who can no longer swallow is taking oral morphine. Tasks: calculate the 24-hour dose and convert it to a subcutaneous syringe driver, prescribe breakthrough analgesia, review their usual medications, and explain to the relative.
+trig: Can't swallow + on oral morphine → CSCI (syringe driver) of morphine sulfate
+hook: Conversions: oral morphine → SC morphine: divide by 2. Breakthrough = 1/6 of the 24-hour dose, as needed up to hourly. (Oral morphine → SC diamorphine: divide by 3.)
+hook: WHO ladder: step 1 non-opioid (paracetamol, NSAID) ± adjuvant; step 2 weak opioid (codeine); step 3 strong opioid (morphine). Always co-prescribe a laxative; antiemetic as needed.
+clinch: ✅ Zomorph 15 mg BD (30 mg/day oral) → morphine 15 mg SC over 24 h; breakthrough 2.5 mg SC hourly PRN
+clinch: ❌ Renal impairment: morphine accumulates → consider oxycodone/alfentanil with specialist advice
+money: He's on 15 mg of modified-release morphine twice a day, 30 mg orally in 24 hours. Subcutaneous morphine is twice as potent, so the syringe driver is 15 mg over 24 hours, with 2.5 mg subcutaneously as needed for breakthrough pain, up to hourly.
+var: A | Mr Ward, 78, last days of life | Syringe driver conversion
+a: (Relative) Daughter asks: Is the syringe driver going to speed things up? Will he be sleepy? Will he still be in pain?
+r: Zomorph (MR morphine) 15 mg BD; Oramorph 5 mg PRN (needed twice daily); creatinine normal; also on amlodipine, atorvastatin, omeprazole, senna.
+x: CSCI morphine sulfate 15 mg/24 h (Water for injection diluent, per local); breakthrough morphine 2.5 mg SC 1-hourly PRN; anticipatory: midazolam 2.5–5 mg SC PRN (agitation), levomepromazine 6.25 mg or haloperidol 0.5–1 mg SC PRN (nausea), hyoscine butylbromide 20 mg SC PRN (secretions); stop non-essential meds (statin, amlodipine); explain: the driver controls symptoms, does not shorten life; review daily; palliative team.
+dom: Prescribing | !Correct 24-hour total; !correct oral-to-SC conversion; !breakthrough dose (1/6) and frequency; route, diluent, duration; stops non-essential medicines; anticipatory medicines
+dom: Communication | Explains to relative compassionately; addresses fear of hastening death; checks understanding
+s: Calculate | Zomorph 15 mg twice daily is 30 mg of oral morphine in 24 hours. | Total first: shows the method.
+s: Convert | Subcutaneous morphine is about twice as strong, so 15 mg over 24 hours in the syringe driver. | The conversion with the ratio said aloud.
+s: Breakthrough | A sixth of 15 is 2.5 mg, so morphine 2.5 mg subcutaneously, up to hourly as needed. | Breakthrough rule.
+s: Review | His statin and blood pressure tablet can stop now; they won't help his comfort. | Rationalising medicines is a named task.
+s: Explain | The syringe driver gives a steady small dose under the skin so he doesn't need to swallow. It's to keep him comfortable; it doesn't speed things up. | Addresses the daughter's key fear.
+
+@PP92 | Duty of candour: penicillin given despite a documented allergy (angry relative)
+src: CP3 2018 first sit (GP communication: patient given penicillin despite allergy, explain to angry relative) · CP3 2018 (apology station: fall / pressure sore / wrong drug on ward) · CP3 2019 GP (angry patient after discharge on new meds)
+u: 112
+fr: prof, expl
+door: You are a Foundation doctor. A patient with a documented penicillin allergy was given co-amoxiclav and developed a rash; their daughter is angry. Tasks: speak to the daughter, explain what happened and what will be done.
+trig: Error + upset relative → duty of candour + de-escalation
+hook: Angry person "LEAPS": Listen without interrupting, Empathise, Apologise (sincerely), Plan/explain what happens next, Support (PALS, follow-up).
+hook: Duty of candour: tell them, say sorry, explain, offer support, report (Datix), follow up in writing. "Sorry" is not an admission of liability.
+clinch: ✅ Apologise early and genuinely
+clinch: ❌ Blaming colleagues, being defensive, or speculating about fault
+money: I'm really sorry. Your mum was given an antibiotic she's allergic to, and that should not have happened. She's being treated, and the rash is settling. I've reported it so we can find out how it happened and stop it happening again, and I'll make sure you're kept updated.
+var: A | Daughter of Mrs Rose, 70 | Penicillin given despite allergy
+a: Very angry at first ("It's on her wristband!"). Calm down if listened to and given a genuine apology. Ask: How could this happen? Is she going to be OK? Who's responsible? I want to complain.
+x: Check consent to discuss; sit down; listen; apologise; explain facts known (not speculation); current condition and treatment (antihistamine, monitoring for anaphylaxis); allergy re-documented and alert; Datix; senior/consultant informed; offer meeting with consultant; PALS and complaints process; duty of candour letter; follow-up.
+dom: Communication | !Allows ventilation; empathy; non-defensive; calm tone and body language; de-escalates
+dom: Professionalism | !Sincere apology; honesty (duty of candour); confidentiality check; doesn't blame individuals; escalates to senior; Datix
+dom: Information giving | Explains what happened, current condition, next steps, complaints route (PALS)
+s: Listen | I can see how upset you are. Please tell me what's worrying you most. | Let her finish: ventilation first.
+s: Apologise | I'm really sorry. Your mum shouldn't have been given that antibiotic. | Early, genuine apology: the core mark.
+s: Explain | She has a rash, which is being treated, and she's being watched closely for any worse reaction. | Facts and current safety.
+s: Act | I've recorded it as an incident so it's properly investigated, and my consultant knows. | Duty of candour actions.
+s: Support | If you'd like to make a complaint, I can give you details of PALS; I'd also like to arrange for the consultant to meet you. | Offers the complaint route without defensiveness.
+
+@PP93 | Prescribing antibiotics: community-acquired pneumonia or cellulitis (with allergy check)
+src: CP3 2019 first sit (medicine/therapeutics: drug history, prescribing insulin, prescribing antibiotics: pneumonia/cellulitis) · CP3 2018 resit (A–E, X-ray + ABG, prescribe antibiotics)
+u: 19, 131
+fr: hx, presc
+door: You are a Foundation doctor. Take a focused drug history and prescribe appropriate antibiotics for this patient using the BNF and local guidance.
+trig: Cough + fever + consolidation on CXR → CAP: CURB-65 decides the antibiotic
+trig: Unilateral red, hot, swollen, tender leg with spreading edge → cellulitis
+hook: CURB-65: Confusion, Urea >7, RR ≥30, BP <90/≤60, age ≥65. 0–1 low (amoxicillin), 2 moderate (amoxicillin ± clarithromycin), 3–5 high (co-amoxiclav + clarithromycin IV) per NICE NG138/local.
+hook: Cellulitis (NICE NG141): flucloxacillin 500 mg–1 g QDS (5–7 days); penicillin allergy: clarithromycin or doxycycline (or erythromycin in pregnancy); facial cellulitis: co-amoxiclav.
+clinch: ✅ True penicillin allergy (anaphylaxis) → avoid all penicillins (and caution cephalosporins); rash only → document and use non-penicillin per guidance
+clinch: ❌ Clarithromycin interacts with statins (simvastatin, atorvastatin: myopathy) and prolongs QT
+money: CURB-65 is 2: urea 9 and age 72, so moderate severity. She's allergic to penicillin with a rash, so per our guidance I'd prescribe doxycycline 200 mg on day 1 then 100 mg daily for 5 days, and withhold her simvastatin if I use clarithromycin instead.
+var: A | Mrs Hill, 72 | CAP CURB-65 = 2, penicillin allergy (rash)
+a: Cough with green sputum 4 days; feverish; breathless. Simvastatin 40 mg, amlodipine. Allergic to penicillin: a rash as a child.
+r: RR 24, BP 128/76, alert, urea 9.0, CRP 180. CXR: right lower lobe consolidation.
+x: Moderate CAP: oral/IV per severity; penicillin allergy: doxycycline or clarithromycin per NICE/local (5 days), withhold simvastatin with clarithromycin; oxygen to target; review at 48 h; repeat CXR at 6 weeks if >50/smoker or symptoms persist.
+var: B | Mr Fox, 50 | Lower-leg cellulitis, no allergy
+a: Red, hot, swollen right shin for 2 days, spreading; feverish; athlete's foot. No allergies.
+r: T 38.1; erythema with tenderness; no fluctuance; pulses present.
+x: Flucloxacillin 1 g QDS oral (IV if severe) 5–7 days; mark the edge; elevate; treat tinea pedis; analgesia; review 48 h; safety-net (spreading, pain out of proportion → necrotising fasciitis).
+dom: Information gathering | !Allergies with the reaction; current medicines and interactions; renal function; pregnancy
+dom: Prescribing | !Correct antibiotic for severity and allergy; dose, route, frequency, duration/review date; indication; !interaction management (statin with clarithromycin); patient details, allergy box
+s: Allergy | What happened when you took penicillin? | Rash vs anaphylaxis changes everything.
+s: Score | CURB-65: urea over 7 and age over 65 gives 2: moderate severity. | Score said aloud justifies the choice.
+s: Prescribe | DOXYCYCLINE 200 mg oral on day 1, then 100 mg once daily, total 5 days, indication: CAP, review at 48 hours. | Full prescription with stop/review date.
+s: Interaction | If I used clarithromycin instead, I'd withhold her simvastatin for the course. | The interaction check examiners like.

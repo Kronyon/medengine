@@ -1,0 +1,371 @@
+@PP70 | Describe and diagnose a pigmented or skin lesion (melanoma / BCC / SCC) + management
+src: CP2 Derm (melanoma/SCC/BCC: describe and diagnose from a picture, manage)
+u: 122, 123, 124, 139
+fr: di, plan, expl
+door: You are a Foundation doctor in General Practice. You are shown a photograph of a skin lesion. Tasks: describe it using correct dermatological terms, give the most likely diagnosis, and outline management (to the examiner or patient).
+trig: Changing, irregular, multi-coloured pigmented lesion → melanoma
+trig: Pearly, rolled edge + telangiectasia + central ulcer on sun-exposed face → BCC ("rodent ulcer")
+trig: Rapidly growing keratotic nodule, tender, on sun-damaged skin (or in a chronic wound) → SCC
+hook: Lesion description "SCAM + Edges": Size, Colour, Associated changes (scale, crust, ulcer), Morphology (macule <1 cm flat, patch >1 cm flat, papule <1 cm raised, plaque >1 cm raised, nodule deep >1 cm) + Edge (regular/irregular, rolled) + Site + Distribution.
+hook: Melanoma ABCDE: Asymmetry, Border irregular, Colour variegated, Diameter >6 mm, Evolution.
+hook: NICE 7-point checklist: major (2 points each): change in size, irregular shape, irregular colour; minor (1 each): ≥7 mm, inflammation, oozing/crusting, change in sensation. Score ≥3 → 2WW.
+clinch: ✅ Melanoma or SCC suspected → suspected cancer pathway (2WW); dermoscopy
+clinch: ✅ BCC: routine referral usually (2WW only if site/size means delay could cause harm)
+clinch: ❌ Never shave or punch-biopsy a suspected melanoma in primary care: excision biopsy with 2 mm margins by specialist
+money: This is an asymmetrical, 9 mm pigmented macule with an irregular border and variegated brown-black colour on the back, which the patient says has grown. That scores 6 on the 7-point checklist, so I'd refer urgently on the suspected skin cancer pathway for excision biopsy.
+var: A | Man, 58 | Superficial spreading melanoma
+r: Photo: 9 mm asymmetrical pigmented lesion on the upper back, irregular notched border, brown, black and pink areas; patient reports it has grown and itches.
+x: Suspected melanoma: 2WW dermatology; excision biopsy with 2 mm margins; Breslow thickness guides wide local excision ± sentinel node; sun protection; skin self-examination.
+var: B | Woman, 72 | Basal cell carcinoma
+r: Photo: 8 mm pearly papule on the nasal sidewall with rolled edge, telangiectasia, central crusted ulcer; slow growth over a year.
+x: Nodular BCC: routine dermatology (urgent if near eye/nose function); surgical excision or Mohs surgery for facial sites; alternatives: cryotherapy, imiquimod, PDT for superficial BCC; sun protection.
+var: C | Man, 80 | Squamous cell carcinoma
+r: Photo: 15 mm rapidly growing keratotic nodule with central keratin plug on the scalp; tender; over 2 months; immunosuppressed (renal transplant).
+x: Suspected SCC: 2WW; excision with margins; check nodes; immunosuppressed higher risk; sun protection.
+dom: Clinical reasoning | !Systematic description with correct terms (morphology, size, colour, border, surface, site); !correct diagnosis with supporting features; differentials (seborrhoeic keratosis, dermatofibroma, naevus)
+dom: Management | !Correct referral urgency (2WW vs routine); appropriate treatment outline; sun safety
+dom: Information giving | Explains to patient sensitively if asked
+s: Describe | On the ___ there is a single ___ mm ___ (macule/papule/nodule/plaque), ___ coloured, with a ___ border and ___ surface. | Correct morphology words are the core mark in derm stations.
+s: Reason | It's asymmetrical with an irregular border and more than one colour, and it's grown: features of melanoma. | ABCDE out loud.
+s: Plan | It scores ___ on the 7-point checklist, so I'd refer on the 2-week wait pathway; I wouldn't biopsy it myself. | Score + urgency + the biopsy trap.
+s[B]: Reason | Pearly edge with fine blood vessels and a central crust: a basal cell carcinoma, which grows slowly and very rarely spreads. | BCC features + reassurance.
+
+@PP71 | Itchy rash: scabies or tinea (history, describe, manage, answer questions)
+src: CP2 Derm (scabies/shingles/fungal infection: history, describe, management to patient, answer question)
+u: 135, 134, 128
+fr: hx, di, expl
+door: You are a Foundation doctor in General Practice. A patient has an itchy rash. Tasks: take a history, describe the rash, explain the management to the patient and answer their questions.
+trig: Intense itch worse at night + burrows in finger webs/wrists + household members itchy → scabies
+trig: Annular scaly plaque with an active edge and central clearing → tinea corporis (ringworm)
+hook: Scabies treatment "Everyone, Everywhere, Twice": treat all household and close contacts at the same time; whole body including scalp/face in elderly and children, neck down in adults (include genitals, under nails); repeat after 7 days; wash bedding at 50 °C.
+hook: Scabies itch persists 2–4 weeks after successful treatment: warn them, or they'll think it failed.
+hook: Fungal: never steroid alone (tinea incognito). Scrape first if unsure.
+clinch: ✅ Burrows (short grey wavy lines) in web spaces = scabies
+clinch: ✅ Permethrin 5% cream first-line (malathion 0.5% if allergic)
+clinch: ❌ Itch + rash in an elderly care home resident with thick crusting → crusted (Norwegian) scabies: highly contagious, needs specialist + oral ivermectin
+money: The burrows in your finger webs and the night-time itch in everyone at home mean scabies, a tiny mite under the skin. Everyone in the house needs to use the cream on the same day, all over from the neck down, and again a week later; and the itch can carry on for a few weeks even when it's worked.
+var: A | Student, 20 | Scabies
+a: Itchy for 3 weeks, much worse at night; between fingers, wrists, around the waist; flatmate is itchy too; new partner recently. Ask: Am I dirty? Do I need to throw out my clothes? When can I go back to lectures?
+r: Burrows in finger web spaces and flexor wrists; excoriated papules on waist and buttocks.
+x: Scabies: permethrin 5% to whole body (neck down; include scalp if elderly/immunosuppressed), wash off after 8–12 h, repeat after 7 days; treat all contacts simultaneously (including sexual partners); wash clothes/bedding 50 °C or bag for 72 h; itch may persist 2–4 weeks (crotamiton or antihistamine at night); not about hygiene; can return after first treatment; consider STI screen with new partner.
+var: B | Man, 35 | Tinea corporis
+a: Itchy red ring on the thigh spreading for a month; tried hydrocortisone cream from the chemist and it got bigger. Has a dog. Gym.
+r: Annular erythematous plaque with scaly raised advancing edge and central clearing.
+x: Tinea corporis (worsened by steroid): skin scrapings if unsure; topical terbinafine (1–2 weeks) or clotrimazole/miconazole (until 1–2 weeks after clearing); stop steroid; oral terbinafine/itraconazole if extensive; hygiene (dry skin, don't share towels); check pets/nails/feet.
+dom: Information gathering | Onset, distribution, itch pattern (night), contacts, pets, treatments tried (steroids!), occupation, atopy
+dom: Clinical reasoning | !Correct description and diagnosis
+dom: Information giving | !Explains cause non-judgementally; !treatment instructions precisely (who, where, how long, repeat); itch duration; answers questions
+s: History | Is the itch worse at night? Is anyone at home or a partner itchy too? | Night itch + contacts = scabies.
+s: History | Have you tried any creams already? | Steroid use explains a spreading tinea.
+s: Describe | There are short, wavy grey lines in the finger webs, which are burrows, and scratched red bumps around the waist. | Correct description earns the reasoning mark.
+s: Explain | It's caused by a tiny mite; it's very common and has nothing to do with being dirty. | Addresses the stigma question.
+s: Explain | Everyone at home and your partner should put the cream on the same evening, from the neck down, leave it overnight, wash off, and repeat in a week. | Precise instructions: the commonest treatment failure is incomplete application.
+s: Explain | The itch can last 2 to 4 weeks after it's worked; that doesn't mean it's failed. | Prevents unnecessary re-treatment.
+
+@PP72 | Childhood eczema: history from parent, describe, explain management (steroid ladder, emollients)
+src: CP2 Derm (eczema: child always receiving GP treatment: history from mum, describe, management to mum, answer questions)
+u: 128
+fr: hx, expl, plan
+door: You are a Foundation doctor in General Practice. A mother brings her 4-year-old, who has had eczema for years and keeps coming back. Tasks: take a history from mum, describe the skin, explain management to her and answer her questions.
+trig: Itchy dry skin in flexures + atopy + flares → atopic eczema
+trig: Painful punched-out erosions + fever in a child with eczema → eczema herpeticum (emergency)
+hook: Emollients "Lots, Often, Downwards": 250–500 g a week, at least twice daily and after washing, smoothed in the direction of hair growth, also as soap substitute.
+hook: Steroid ladder "Mild, Moderate, Potent, Very potent" = hydrocortisone 1%, clobetasone (Eumovate), betamethasone valerate (Betnovate), clobetasol (Dermovate). Face: mild only (short courses moderate). Fingertip unit = 0.5 g = two adult palms.
+clinch: ✅ Steroid phobia → under-treatment → repeated flares: explain short courses are safe
+clinch: ❌ Eczema herpeticum (punched-out erosions, fever, unwell) → same-day referral, aciclovir
+clinch: ❌ Weeping, crusted, golden = infected (Staph aureus) → flucloxacillin (or topical fusidic acid if localised)
+money: The main reason her eczema keeps flaring is that the moisturiser isn't being used enough and the steroid is stopped too early. Using lots of emollient every day, and the steroid properly during flares for 1 to 2 weeks, is safe and will control it.
+var: A | Mum of Lily, 4 | Atopic eczema with steroid phobia
+a: Eczema since a baby; flexures of elbows and knees, neck; scratching at night, poor sleep. You use the moisturiser "when it looks dry" (a small tube a month) and stop the steroid after 2 days because you read it thins the skin. Asthma in dad; hay fever. Ask: Will the steroid thin her skin? Is it something she's eating? Will she grow out of it?
+r: Dry, erythematous, excoriated, lichenified patches in antecubital and popliteal fossae and neck; no weeping or crusting.
+x: Atopic eczema, moderate: emollients 250–500 g/week; soap substitute; moderate potency steroid (clobetasone) to body flares once daily for 7–14 days, mild (hydrocortisone 1%) for face; apply emollient and steroid with a gap (around 30 min); fingertip units; avoid irritants; cotton clothes; nails short; food allergy only if immediate reactions or poor control/growth (don't exclude foods otherwise); most improve with age; treatment plan; infection and herpeticum safety-net; review.
+dom: Information gathering | Onset, distribution, triggers, sleep, current treatments and how used (amount, frequency), steroid beliefs, atopy, diet, impact on family
+dom: Clinical reasoning | Describes eczema correctly; moderate severity; no infection
+dom: Information giving | !Explains emollient use and quantity; !steroid ladder and safety, fingertip units; addresses thinning fear; food; prognosis; safety-net (infection, herpeticum)
+s: History | How much moisturiser do you get through in a week, and how often do you put it on? | Quantifying use exposes under-treatment.
+s: History | When the steroid cream is prescribed, how long do you use it for? Any worries about it? | Finds the steroid phobia.
+s: Explain | The moisturiser is the most important part: lots of it, at least twice a day, even when her skin looks good. Most children need about a big tub a week. | Emollients first, with a quantity.
+s: Explain | Used for short bursts, 1 to 2 weeks during a flare, the steroid won't thin her skin. Stopping after 2 days means the flare comes straight back. | Addresses the fear with the mechanism of relapse.
+s: Explain | One fingertip of cream covers an area the size of two adult hands. | Fingertip units make dosing practical.
+s: Safety | If the eczema suddenly becomes painful with little punched-out sores and she has a temperature, see a doctor the same day. | Eczema herpeticum safety-net.
+
+@PP73 | Acne: counselling on isotretinoin
+src: CP2 Derm (acne: explain isotretinoin and side effects to patient)
+u: 138
+fr: counsel
+door: You are a Foundation doctor in a dermatology clinic. A 22-year-old woman with severe nodular acne is starting isotretinoin. Tasks: explain the medicine and its side effects, and answer her questions.
+trig: Severe/scarring acne not responding to antibiotics + topicals → isotretinoin (dermatologist only)
+hook: Isotretinoin "Pregnancy, Psych, Peeling": Pregnancy Prevention Programme (highly effective contraception 1 month before, during, 1 month after; monthly pregnancy tests); psychiatric effects (mood, suicidal thoughts, sexual dysfunction); dry lips/skin, nosebleeds, sun sensitivity.
+hook: Monitoring: LFT and fasting lipids before and during; pregnancy tests monthly; mood check each visit.
+clinch: ✅ Teratogenic: no pregnancy during or for 1 month after; do not donate blood
+clinch: ❌ Avoid tetracyclines with isotretinoin (benign intracranial hypertension)
+clinch: ✅ MHRA (2023): mood and sexual-function screening; under-18s need two prescribers' agreement
+money: Isotretinoin is very effective, often clearing acne in a 16 to 24-week course. Because it can seriously harm an unborn baby, you'll need reliable contraception from a month before until a month after, with monthly pregnancy tests. Dry lips and skin are almost universal; and if your mood drops or you have dark thoughts, stop it and tell us straight away.
+var: A | Ms Okoro, 22 | Starting isotretinoin
+a: Severe acne for years; tried antibiotics and creams. Ask: Is it true it causes depression? Can I drink? Can I wax my eyebrows? I'm not planning a baby, do I still need contraception?
+x: Pregnancy Prevention Programme (contraception, pregnancy tests before, monthly, and 1 month after); mood and sexual-function side effects (MHRA), stop if mood changes; dry skin, lips (lip balm), eyes (contact lenses), nosebleeds; photosensitivity (SPF); avoid waxing/dermabrasion during and 6 months after; avoid tetracyclines and vitamin A supplements; alcohol in moderation (LFT, lipids); blood tests; possible initial flare; no blood donation.
+dom: Communication | Explores understanding and worries (depression)
+dom: Information giving | !Indication and course; !teratogenicity and contraception requirements; !psychiatric effects and action; common side effects; monitoring bloods; interactions; practical advice; teach-back
+s: Counsel | It works by shrinking the oil glands in the skin; most people need a course of about 4 to 6 months. | Mechanism + course.
+s: Counsel | It can cause serious birth defects, so even if you're not planning a baby, you'll need reliable contraception from a month before until a month after, and a pregnancy test every month. | Pregnancy Prevention Programme: the critical mark.
+s: Counsel | Some people notice low mood, anxiety, or sexual side effects. If you feel low or have any thoughts of harming yourself, stop it and tell us straight away. | MHRA psychiatric warning with action.
+s: Counsel | Your lips and skin will get very dry: use lip balm and moisturiser often, and sunscreen. Avoid waxing for now, as the skin can tear. | Practical side-effect advice answers the waxing question.
+s: Counsel | We'll check liver and cholesterol blood tests before and during treatment, so keep alcohol low. | Monitoring + alcohol answer.
+
+@PP74 | Chronic plaque psoriasis or contact dermatitis: history, describe, manage
+src: CP2 Derm (venous eczema + ulcer / irritant contact dermatitis / chronic plaque psoriasis: history, describe, manage)
+u: 137, 128
+fr: hx, di, plan
+door: You are a Foundation doctor in General Practice. A patient has a rash on the elbows and knees (or on the hands at work). Tasks: take a history, describe the rash, and explain management.
+trig: Well-demarcated salmon-pink plaques with silvery scale on extensor surfaces + nail pitting → plaque psoriasis
+trig: Red, dry, cracked hands in a hairdresser/cleaner/nurse, better on holiday → irritant contact dermatitis
+hook: Psoriasis first-line (NICE CG153): potent steroid + vitamin D analogue (calcipotriol), applied separately once daily (one morning, one evening) for up to 4 weeks, then vitamin D alone.
+hook: Psoriasis comorbidities: psoriatic arthritis (PEST questionnaire yearly), cardiovascular risk, depression.
+clinch: ✅ Nail pitting, onycholysis + DIP joint pain = psoriatic arthritis screen
+clinch: ❌ Oral steroids for psoriasis: avoid (rebound/pustular flare on withdrawal)
+clinch: ✅ Allergic contact dermatitis → patch testing; irritant → avoidance + barrier
+money: These are well-defined pink plaques with silvery scale on the elbows and knees, with nail pitting: chronic plaque psoriasis. I'd start a potent steroid and a vitamin D cream, applied once a day each at different times, for up to 4 weeks, ask about joint pains, and review.
+var: A | Man, 34 | Chronic plaque psoriasis
+a: Itchy scaly patches on elbows, knees and scalp for years; worse with stress and in winter; dad has the same; sore finger end-joints in the mornings (only if asked). Smoke; drink 25 units/week; feel self-conscious.
+r: Well-demarcated erythematous plaques with silvery scale on extensor elbows and knees, scalp margin; nail pitting.
+x: Plaque psoriasis: potent steroid (betamethasone) + calcipotriol once daily each at different times up to 4 weeks, then calcipotriol twice daily; scalp: potent steroid shampoo/solution; emollients; PEST for PsA → rheumatology; CV risk (lipids, BP), smoking and alcohol advice, mood; refer dermatology if extensive/uncontrolled (phototherapy, methotrexate, biologics).
+var: B | Hairdresser, 27 | Irritant contact dermatitis of the hands
+a: Red, dry, cracked, sore hands for 6 months; better on holiday; wash hands 30 times a day, no gloves with shampoo. Hay fever.
+r: Erythematous, dry, fissured skin on dorsum of hands and finger webs.
+x: Irritant hand dermatitis: avoid irritants, gloves (cotton liners), soap substitute, frequent emollients, potent steroid short course; patch test if allergic suspected or not improving; occupational health.
+dom: Information gathering | Onset, distribution, triggers, FH, joint symptoms, occupation, treatments, impact on mood
+dom: Clinical reasoning | !Correct description and diagnosis
+dom: Management | !First-line topical regimen correctly explained; comorbidity screening; referral criteria; lifestyle
+s: Describe | Well-defined salmon-pink plaques with silvery scale on the extensor surfaces of the elbows and knees, plus pitting of the nails. | Textbook description = reasoning mark.
+s: History | Do any of your joints ache or swell, especially the finger ends? | PsA screening is a named comorbidity item.
+s: Plan | A strong steroid and a vitamin D cream, one in the morning and one at night, for up to 4 weeks, then the vitamin D alone. | Specific NICE regimen.
+
+@PP75 | Sudden painless loss of vision: CRAO vs GCA vs optic neuritis (history, Snellen, fundoscopy)
+src: CP2 Ophthal (CRAO: history, Snellen, look into model's eye, diagnosis and management; swollen disc: optic neuritis / GCA)
+u: 163, 166, 89
+fr: hx, ex, di, plan
+ex: eye
+door: You are a Foundation doctor in an eye casualty clinic. A patient has sudden loss of vision in one eye. Tasks: take a history, measure visual acuity with a Snellen chart, examine the fundus on the model, and give your diagnosis and management to the examiner.
+trig: Sudden profound painless monocular loss + pale retina + cherry-red spot + RAPD → central retinal artery occlusion
+trig: Over 50 + jaw claudication + temporal headache + pale swollen disc → arteritic AION (GCA)
+trig: Young woman + painful eye movements + reduced colour vision + RAPD → optic neuritis
+hook: Snellen notation: distance/size line read (6/6 normal; 6/60 = top letter at 6 m). Can't see top letter → count fingers → hand movements → perception of light.
+hook: RAPD (swinging torch): the affected pupil dilates when the light swings to it = optic nerve or extensive retinal disease.
+hook: CRAO is an eye stroke: same pathway as stroke/TIA (urgent stroke assessment, carotid imaging, ECG for AF).
+clinch: ✅ Cherry-red spot with pale oedematous retina = CRAO
+clinch: ❌ Over 50 with CRAO/AION → check ESR/CRP for GCA: steroids now if suspected
+clinch: ✅ Pain on eye movement + red desaturation = optic neuritis → MRI (MS association)
+money: Sudden painless loss of vision to counting fingers in the right eye, a right RAPD and a pale retina with a cherry-red spot: central retinal artery occlusion. I'd treat it like a stroke: urgent stroke team, ESR and CRP to exclude GCA, ECG for AF, and carotid imaging.
+var: A | Man, 74 | CRAO
+a: Woke unable to see from the right eye, like a curtain came down; painless. Hypertension, smoker, AF not on anticoagulation. No headache or jaw pain.
+r: VA right: count fingers; left 6/9. Right RAPD. Fundus: pale retina, cherry-red spot at macula, attenuated arterioles.
+x: CRAO: within hours: same-day ophthalmology and urgent stroke pathway; ESR/CRP (exclude GCA), ECG (AF), carotid Doppler, BP, glucose, lipids; secondary prevention (antiplatelet, statin, anticoagulate AF per stroke team); no proven acute eye treatment (ocular massage not evidence-based); DVLA (monocular vision rules).
+var: B | Woman, 76 | GCA (arteritic AION)
+a: Blurred vision then loss in the left eye this morning; 2 weeks of left temple headache, scalp tender combing hair, jaw aches chewing; tired; shoulders stiff.
+r: VA left 6/60. Left RAPD. Fundus: pale, swollen ("chalky white") disc. ESR 90.
+x: GCA with vision loss: IV methylprednisolone (per local, e.g. 500 mg–1 g for 3 days) or prednisolone 60 mg immediately; same-day ophthalmology; temporal artery biopsy/USS; bone protection, PPI; protect the other eye.
+var: C | Woman, 28 | Optic neuritis
+a: Blurred central vision in the right eye over 3 days; aches when moving the eye; colours look washed out. Tingling in the legs last year that resolved.
+r: VA right 6/24; right RAPD; reduced red colour vision; disc mildly swollen (or normal in retrobulbar).
+x: Optic neuritis: urgent ophthalmology; MRI brain (demyelination); IV methylprednisolone speeds recovery (doesn't change outcome); neurology referral (MS); most recover over weeks.
+dom: Information gathering | !Onset (sudden), pain, eye movements, colour, curtain/flashes/floaters, headache/jaw claudication/scalp tenderness, vascular risk factors, neurology history
+dom: Examination | !Snellen correctly (6 m, one eye at a time, glasses/pinhole); !pupils incl. RAPD; !fundoscopy technique (dim room, right eye with right eye, red reflex, disc, vessels, macula)
+dom: Clinical reasoning | !Correct diagnosis for the variant
+dom: Management | !Variant urgent plan (stroke pathway; steroids now for GCA; MRI for optic neuritis)
+s: History | Did it happen suddenly or over hours or days? Is it painful, especially when you move your eye? | Speed and pain split CRAO, GCA and optic neuritis.
+s: History | Any headache over the temple, tenderness of the scalp, or pain in the jaw when you chew? | GCA screen: blindness in the second eye is the disaster to prevent.
+s: Snellen | Cover your left eye. Read from the top as far down as you can. Now through this pinhole. | Correct technique; pinhole corrects refractive error.
+s: Pupils | I'll swing the light from one eye to the other. The right pupil dilates when the light reaches it: a right relative afferent pupillary defect. | RAPD is the key objective sign.
+s: Fundoscopy | Dim lights, right eye with my right eye, find the red reflex, then the disc, follow the vessels out, and finally look at the macula. | Fundoscopy sequence is a GMC-mandated skill.
+s[A]: Plan | This is an eye stroke: urgent stroke pathway, ESR and CRP to exclude GCA, an ECG for AF and carotid scans. | Stroke-equivalent management.
+s[B]: Plan | With visual loss and features of GCA, IV methylprednisolone or high-dose prednisolone now, before any biopsy, to protect the other eye. | Steroids first: the critical mark.
+
+@PP76 | Visual field defect: bitemporal or homonymous hemianopia (fields + fundoscopy + present)
+src: CP2 Ophthal (visual field defect: homonymous/bitemporal hemianopia: history, visual fields, fundoscopy normal, present, diagnosis and management)
+u: 166
+fr: hx, ex, plan
+ex: eye
+door: You are a Foundation doctor. A patient keeps bumping into things. Tasks: take a short history, examine the visual fields by confrontation, perform fundoscopy, and present your findings with diagnosis and management.
+trig: Bumping into doorframes on both sides + headaches + galactorrhoea/menstrual change → bitemporal hemianopia (pituitary)
+trig: Sudden loss of one side of vision in both eyes + vascular risk → homonymous hemianopia (occipital/optic radiation stroke)
+hook: Field defect = location: monocular = before the chiasm; bitemporal = chiasm (pituitary); homonymous = behind the chiasm (opposite side). Superior quadrant ("pie in the sky") = temporal lobe; inferior ("pie on the floor") = parietal.
+hook: Confrontation: sit 1 m away at eye level, patient covers one eye, you cover your opposite eye, bring a target (red pin or wiggling finger) in from the periphery along each quadrant.
+clinch: ✅ Bitemporal hemianopia → MRI pituitary + pituitary bloods (prolactin, IGF-1, cortisol, TFT, LH/FSH)
+clinch: ✅ Homonymous hemianopia (sudden) → stroke pathway (CT/MRI)
+clinch: ❌ Homonymous hemianopia usually means no driving (DVLA field standard)
+money: There's a loss of the temporal fields in both eyes, a bitemporal hemianopia, with normal discs: this localises to the optic chiasm, most likely a pituitary tumour. I'd arrange an MRI of the pituitary and pituitary bloods including prolactin, and refer to endocrinology and neurosurgery.
+var: A | Woman, 41 | Bitemporal hemianopia (pituitary macroadenoma/prolactinoma)
+a: Bumping into door frames; headaches; periods stopped 6 months ago; milky nipple discharge (if asked).
+r: Bitemporal hemianopia; acuity normal; fundi normal.
+x: Chiasmal compression: MRI pituitary; prolactin, pituitary profile; endocrinology; prolactinoma → cabergoline first-line; other macroadenoma → transsphenoidal surgery; visual field monitoring; DVLA advice.
+var: B | Man, 70 | Left homonymous hemianopia (right occipital stroke)
+a: Since yesterday can't see things on the left; hit the left wing mirror parking; AF.
+r: Left homonymous hemianopia (macular sparing); fundi normal.
+x: Right PCA territory stroke: stroke pathway (CT/MRI, thrombolysis window passed), anticoagulation for AF (stroke team), no driving (DVLA), visual rehabilitation.
+dom: Examination | !Confrontation technique correctly (positioning, cover opposite eyes, all 4 quadrants each eye, target from periphery); acuity; pupils; !fundoscopy
+dom: Clinical reasoning | !Names the defect and localises it; most likely cause
+dom: Management | !MRI pituitary + bloods (A) / stroke pathway (B); driving advice
+s: Fields | Sit facing me. Cover your right eye with your hand; I'll cover my left. Look at my nose and tell me when you first see my finger. | Clear instructions + correct eye covering.
+s: Fields | I'm bringing the target in from the edge in each quadrant, comparing your field with mine. | Technique mark.
+s: Present | A bitemporal hemianopia with normal acuity and fundi: the lesion is at the optic chiasm. | Name + localise.
+s: Plan | MRI of the pituitary and blood tests including prolactin, and referral to endocrinology. | Specific investigations.
+
+@PP77 | Flashes, floaters and a curtain: retinal detachment (history + fields + picture)
+src: CP2 Ophthal (retinal detachment: history, visual fields, diagnose from picture, management to examiner)
+u: 162
+fr: hx, ex, plan
+ex: eye
+door: You are a Foundation doctor. A short-sighted man has flashing lights and new floaters. Tasks: take a history, examine visual fields, diagnose from the fundus photograph, and give management to the examiner.
+trig: Flashes + shower of floaters + shadow/curtain spreading from the periphery → rhegmatogenous retinal detachment
+hook: "Flashes = pulling, Floaters = bleeding/debris, Curtain = detached". Myopia, cataract surgery, trauma are risk factors.
+clinch: ✅ Curtain or field loss with flashes/floaters → same-day ophthalmology (macula-on is the most urgent)
+clinch: ❌ Posterior vitreous detachment alone (flashes and floaters, no field loss) still needs urgent dilated exam within 24 h to exclude a tear
+money: New flashes and floaters followed by a curtain coming up from below, with a superior field defect on confrontation and a grey, billowing retina on the photograph: a retinal detachment. He needs same-day ophthalmology for surgery, especially as the central vision is still good.
+var: A | Man, 55, high myope | Retinal detachment (macula on)
+a: Flashing lights in the right eye 2 days ago, then lots of black dots and cobwebs; today a dark shadow from below creeping up. Short-sighted (-7 D). Central vision OK.
+r: VA 6/9 right. Superior field defect right eye. Photo: grey, elevated, corrugated retina inferiorly with a retinal tear.
+x: Retinal detachment: same-day ophthalmology; surgery (vitrectomy, scleral buckle, pneumatic retinopexy); posture as advised; avoid strenuous activity; warn about symptoms in the other eye.
+dom: Information gathering | !Flashes, floaters, curtain (direction), central vision, myopia, trauma, previous eye surgery
+dom: Examination | Acuity; !confrontation fields; fundoscopy
+dom: Clinical reasoning | !Retinal detachment from the picture; macula status
+dom: Management | !Same-day ophthalmology; surgery; safety-net
+s: History | Have you seen flashing lights, new floaters, or a shadow or curtain across your vision? Which direction did it come from? | The three symptoms in order.
+s: Plan | This needs same-day review by ophthalmology. If the centre of the retina is still attached, urgent surgery gives the best chance of keeping good vision. | Urgency reasoning.
+
+@PP78 | Glaucoma or diabetic/hypertensive retinopathy/AMD: acuity, fundoscopy, interpret the retinal image
+src: CP2 Ophthal (glaucoma: Snellen, ophthalmoscopy, diagnosis, management; hypertensive retinopathy/DR/AMD: focused history, acuity, interpret image, answer questions; CRVO)
+u: 160, 165, 71, 166
+fr: hx, ex, di, expl
+ex: eye
+door: You are a Foundation doctor. Take a focused history, measure acuity, examine the fundus (or interpret the retinal photograph), and give the diagnosis and management, answering the patient's questions.
+trig: Painless gradual peripheral field loss + cupped disc (CDR >0.6 or asymmetry) + raised IOP → chronic open-angle glaucoma
+trig: Microaneurysms, dot-blot haemorrhages, hard exudates, cotton-wool spots, new vessels in a diabetic → diabetic retinopathy
+trig: Sudden distortion (straight lines wavy) + central blur in an older person → wet AMD (urgent)
+trig: Painful red eye + haloes + fixed mid-dilated pupil + vomiting → acute angle-closure glaucoma (emergency)
+hook: NICE NG81 (2022): offer selective laser trabeculoplasty (SLT) first-line for open-angle glaucoma/ocular hypertension; prostaglandin analogue drops (latanoprost) if laser not suitable.
+hook: DR grades: background (microaneurysms, dot-blot, hard exudates) → pre-proliferative (cotton-wool spots, venous beading, IRMA) → proliferative (new vessels) → laser/anti-VEGF. Maculopathy threatens central vision.
+hook: AMD: dry = drusen, gradual; wet = sudden distortion → refer within days for anti-VEGF injections.
+clinch: ✅ Flame haemorrhages in all quadrants + tortuous veins + disc swelling = CRVO ("stormy sunset")
+clinch: ✅ Papilloedema + BP ≥180/120 = grade IV hypertensive retinopathy → same-day assessment
+clinch: ❌ Acute angle closure: emergency (IV acetazolamide, pilocarpine, timolol, lie flat; laser iridotomy)
+money: The photograph shows microaneurysms, dot-and-blot haemorrhages and hard exudates near the macula, with no new vessels: background diabetic retinopathy with maculopathy. He needs referral to the medical retina clinic, tighter glucose and blood pressure control, and to keep attending annual screening.
+var: A | Man, 62 | Chronic open-angle glaucoma
+a: Optician said your eye pressure is high and the nerve looks "cupped". No symptoms. Brother has glaucoma. Ask: Will I go blind? Do I need drops forever?
+r: VA 6/6 both. Fundoscopy: cup-to-disc ratio 0.7 right, 0.5 left. IOP 28 right.
+x: COAG: ophthalmology; SLT first-line (NICE 2022) or prostaglandin analogue (latanoprost nightly; SE: eyelash growth, iris darkening, red eye); lifelong monitoring; DVLA if fields affected; family screening (first-degree relatives over 40: free NHS eye tests).
+var: B | Man, 58, T2DM | Background DR with maculopathy
+a: Type 2 diabetes 10 years; HbA1c 75; BP 152/94; missed last screening. Vision slightly blurred.
+r: Photo: microaneurysms, dot-blot haemorrhages, hard exudates within 1 disc diameter of fovea; no neovascularisation.
+x: Refer medical retina (maculopathy: anti-VEGF if centre-involving); glycaemic, BP, lipid control; smoking; annual screening; driving (acuity standard).
+var: C | Woman, 79 | Wet AMD
+a: Over a week straight lines (door frames) look wavy in the left eye; a dark smudge in the centre when reading. Smoker.
+r: VA left 6/24. Amsler: distortion. Photo: macular haemorrhage and exudate.
+x: Wet AMD: urgent referral to macular service (seen within 2 weeks; ideally days); anti-VEGF intravitreal injections; stop smoking; low-vision support; dry AMD: AREDS supplements, lighting, magnifiers.
+dom: Information gathering | Focused visual history, diabetes/BP control, FH, symptoms (distortion, haloes, pain)
+dom: Examination | !Snellen technique; !fundoscopy describing disc (cup:disc), vessels, macula
+dom: Clinical reasoning | !Interprets the image correctly with grade
+dom: Information giving | Explains diagnosis and treatment; answers questions
+s: Fundoscopy | The disc: colour, margins and cup-to-disc ratio. The vessels: calibre and crossings. The background: haemorrhages, exudates. The macula last. | Structured fundus description = interpretation mark.
+s[A]: Explain | The pressure in your eye is high and has started to damage the nerve. Treatment, either a quick laser or daily drops, stops further damage; glaucoma is the commonest cause of avoidable blindness, so lifelong check-ups matter. | Prognosis + treatment answer his questions.
+s[B]: Explain | The high sugar has damaged the small blood vessels at the back of the eye, and some are leaking near the centre of your vision. The eye clinic can treat it, and getting your sugar and blood pressure down protects your sight. | Plain-language DR explanation.
+
+@PP79 | Sore throat: tonsillitis management + explaining tonsillectomy risks
+src: CP2 ENT (tonsillitis: diagnose and manage; risks of tonsillectomy) · Station bank EN19
+u: 151, 145
+fr: hx, expl, plan
+door: You are a Foundation doctor in General Practice. A 24-year-old has a severe sore throat (and has had 7 episodes this year). Tasks: assess, explain management, and discuss the risks and benefits of tonsillectomy.
+trig: Fever + exudative tonsils + tender anterior nodes + no cough → bacterial tonsillitis (Centor 4)
+trig: Trismus + uvula deviated + "hot potato voice" → quinsy (peritonsillar abscess) → same-day ENT
+hook: FeverPAIN (score 0–5): Fever, Purulence, Attend rapidly (≤3 days), Inflamed tonsils, No cough/coryza. 4–5 → immediate antibiotic; 2–3 → back-up/none.
+hook: Antibiotic: phenoxymethylpenicillin 500 mg four times a day (or 1 g twice daily) for 5–10 days; penicillin allergy: clarithromycin. Avoid amoxicillin if glandular fever possible (rash).
+hook: SIGN tonsillectomy criteria (7-5-3): 7 episodes in 1 year, or 5 a year for 2 years, or 3 a year for 3 years, each disabling.
+clinch: ❌ Drooling, stridor, can't swallow saliva → epiglottitis or deep neck infection: don't examine the throat, call anaesthetics/ENT
+clinch: ✅ Post-tonsillectomy bleeding: primary <24 h (theatre), secondary 5–10 days (infection): seek help immediately for any bleeding
+money: You've had 7 bad episodes this year, which meets the criteria for a tonsillectomy. The benefit is fewer sore throats and time off; the main risk is bleeding, about 1 in 30 have some bleeding and around 1 in 100 need to go back to theatre, plus a painful week or two of recovery.
+var: A | Ms Lewis, 24 | Recurrent tonsillitis
+a: Fourth day of a severe sore throat, fever, can't eat; no cough. 7 episodes this year, missing work each time. Penicillin: no allergy. Ask: Should I have my tonsils out? Is it dangerous? How long off work?
+r: Temp 38.6; swollen tonsils with exudate; tender anterior cervical nodes; no trismus; uvula central. FeverPAIN 5.
+x: Acute: phenoxymethylpenicillin 5–10 days, analgesia (paracetamol/ibuprofen), fluids; safety-net (quinsy, airway, dehydration). Tonsillectomy: meets SIGN criteria → ENT referral; benefits (fewer episodes); risks: bleeding (primary/secondary), pain (1–2 weeks), infection, anaesthetic risks, damage to teeth/lips, taste change rarely; 2 weeks off work, avoid crowds; eat normally helps.
+dom: Information gathering | Duration, fever, cough, swallowing, drooling, voice, previous episodes and impact; allergies; glandular fever features
+dom: Clinical reasoning | FeverPAIN/Centor; excludes quinsy/epiglottitis
+dom: Information giving | !Acute plan; !tonsillectomy criteria, benefits and risks with numbers; recovery; safety-net
+s: Assess | Any cough or cold symptoms? Can you swallow your saliva? Any trouble opening your mouth? | FeverPAIN item + quinsy/airway red flags.
+s: Plan | With a score of 5, an antibiotic is worthwhile: penicillin V four times a day for 5 to 10 days, plus regular pain relief. | Score-driven decision with drug and duration.
+s: Explain | Seven episodes in a year qualifies you for a referral to have them out. | SIGN criteria applied.
+s: Explain | The main risk is bleeding: about 1 in 30 people have some bleeding in the first 2 weeks and about 1 in 100 need to go back to theatre. Any bleeding at all, come straight to hospital. | Risks with numbers + safety-net.
+
+@PP80 | Neck lump, globus or hoarse voice: history + neck examination + explanation
+src: CP2 ENT (globus/?cancer/voice overuse: history, neck exam, explain diagnosis and management) · Station bank EN17
+u: 74, 151
+fr: hx, ex, expl
+ex: nodes
+door: You are a Foundation doctor. A patient has a feeling of a lump in the throat (or a neck swelling). Tasks: take a history, examine the neck, and explain the likely diagnosis and management.
+trig: Lump-in-throat sensation between meals, no dysphagia/odynophagia/weight loss, eases when eating → globus pharyngeus
+trig: Smoker + persistent hoarseness >3 weeks + neck lump + otalgia → head and neck cancer
+hook: Head and neck red flags "HOWLS": Hoarseness >3 weeks, Odynophagia/dysphagia, Weight loss, Lump in neck, Smoking/alcohol (and unilateral otalgia).
+hook: Neck exam from behind, systematically: submental → submandibular → pre-/post-auricular → occipital → anterior chain → posterior chain → supraclavicular; then thyroid; then oral cavity.
+clinch: ✅ ≥45 with persistent unexplained hoarseness or unexplained neck lump → suspected cancer pathway (NICE NG12)
+clinch: ✅ Globus: symptom eases on eating, no true dysphagia → reassurance, treat reflux, voice care
+clinch: ❌ Left supraclavicular node (Virchow's) → look for an abdominal malignancy
+money: There are no red flags, the examination is normal, and the feeling is worse between meals and better when you eat: that's globus, a sensation from tension in the throat muscles, often with reflux. It isn't cancer, and simple measures usually help.
+var: A | Woman, 38, teacher | Globus pharyngeus with voice overuse
+a: Feeling of a lump in the throat for 2 months, worse when stressed, better when eating; voice tired at the end of the school day; no difficulty swallowing food, no pain, no weight loss; non-smoker. Worried it's cancer (aunt had throat cancer).
+r: Neck exam normal; no nodes; thyroid normal; oral cavity normal.
+x: Globus: reassure; reflux measures ± PPI trial; voice hygiene (hydration, rest, amplification, SLT referral for voice therapy); safety-net red flags; refer ENT if persistent or red flags.
+var: B | Man, 62, smoker | Hoarseness + neck lump → laryngeal cancer pathway
+a: Hoarse for 6 weeks, worse; lump in the right neck for 3 weeks; right ear pain; lost weight; smoke 30/day; drink heavily.
+r: Hard, fixed 3 cm right level II node.
+x: 2WW head and neck; nasendoscopy, USS-guided FNA, CT/MRI; smoking and alcohol cessation; support.
+dom: Information gathering | !Red flags: dysphagia, odynophagia, weight loss, hoarseness duration, otalgia, smoking, alcohol, neck lump; relation to eating; voice use; ICE
+dom: Examination | !Systematic neck node exam from behind; thyroid with swallow; oral cavity and oropharynx
+dom: Information giving | !Explains globus or the cancer pathway appropriately; reassurance without dismissal; safety-net
+s: History | Is the feeling there when you eat, or worse between meals? Any difficulty getting food down, or pain swallowing? | Globus improves with eating; dysphagia doesn't.
+s: Examine | I'll examine your neck from behind, feeling all the gland groups in order, then the thyroid as you swallow, then look in your mouth. | Signposted systematic exam.
+s: Explain | There's no sign of anything serious. This is called globus: the throat muscles tighten, especially with stress or acid reflux, and give the sensation of a lump. | Plain explanation addressing the cancer fear.
+
+@PP81 | Blocked nose and facial pain: rhinosinusitis (history + management)
+src: CP2 ENT (rhinosinusitis: history, diagnosis and management to patient)
+u: 150
+fr: hx, expl, plan
+door: You are a Foundation doctor in General Practice. A patient has facial pain and a blocked nose. Tasks: take a history and explain the diagnosis and management.
+trig: Blocked nose + discoloured discharge + facial pain/pressure + reduced smell after a cold → acute rhinosinusitis
+hook: NICE NG79: symptoms <10 days → no antibiotic; ≥10 days → high-dose nasal steroid (mometasone 200 micrograms twice daily) for 14 days ± back-up antibiotic (phenoxymethylpenicillin 500 mg QDS for 5 days) if worsening.
+hook: Chronic rhinosinusitis = ≥12 weeks: saline irrigation + regular nasal steroid; nasal polyps → ENT.
+clinch: ❌ Periorbital swelling, double vision, reduced acuity, severe frontal headache, neurology → orbital/intracranial complication: same-day hospital
+clinch: ❌ Unilateral symptoms + bloodstained discharge + facial numbness → ENT 2WW (sinonasal tumour)
+money: This is acute sinusitis after a cold. Most clear up on their own in 2 to 3 weeks, and antibiotics usually don't speed it up. As it's been 12 days, I'd suggest a steroid nasal spray for 2 weeks, saline rinses and painkillers, with a back-up antibiotic prescription if it gets worse.
+var: A | Mr Owens, 40 | Acute rhinosinusitis (day 12)
+a: Cold 2 weeks ago; now blocked nose, thick green discharge, pain over cheeks worse bending forward, can't smell; 37.8. Want antibiotics. No eye swelling or vision problems.
+x: Acute rhinosinusitis ≥10 days: mometasone nasal spray 14 days (off-label high dose) or per local; saline irrigation; paracetamol/ibuprofen; back-up antibiotic if worsening or systemically unwell; safety-net red flags; return if >3 weeks.
+dom: Information gathering | Duration, discharge, facial pain, smell, fever, unilateral vs bilateral, red flags (eye, neuro), allergies, polyps, smoking
+dom: Information giving | !Explains self-limiting course; antibiotics' limited benefit; expectations about antibiotics handled
+dom: Management | !NICE-based plan by duration; safety-net
+s: History | How long has it been going on? Is it one side or both? Any swelling around the eye or double vision? | Duration decides treatment; red flags decide urgency.
+s: Explain | It's an inflammation of the air spaces in the cheeks after a cold. Antibiotics only shave about a day off, and can cause side effects, so a steroid spray and rinses are the main treatment. | Manages the antibiotic expectation with evidence.
+s: Safety | If you get swelling or redness around your eye, double vision or a severe headache, come in straight away. | Complication safety-net.
+
+@PP82 | Nosebleed: history, investigations and management
+src: CP2 ENT (epistaxis: history, look at investigations, management)
+u: 144
+fr: hx, di, plan
+door: You are a Foundation doctor in A&E. A 72-year-old has a nosebleed that has been going on for an hour. Tasks: take a history, look at the investigations, and explain the management.
+trig: Anterior nosebleed (Little's area) controlled with pressure → first aid + cautery
+trig: Bleeding from both nostrils/down the throat, not controlled by pressure, older, on anticoagulant → posterior bleed: admit, ENT
+hook: First aid: sit up, lean FORWARD, pinch the SOFT part of the nose for 10–15 minutes without letting go, breathe through the mouth, ice on the bridge or in the mouth.
+hook: Naseptin (chlorhexidine + neomycin) cream after cautery contains peanut oil: avoid in peanut allergy.
+clinch: ✅ Little's area (Kiesselbach's plexus, anterior septum) = 90% of bleeds
+clinch: ❌ Heavy bleed + tachycardia + low BP → A–E, two cannulas, G&S, ENT
+clinch: 🧪 On warfarin: check INR; on DOAC: discuss reversal only if life-threatening
+money: This is an anterior nosebleed that hasn't settled with pressure. I'd do first aid properly for 15 minutes, look with a headlight, cauterise the bleeding point with silver nitrate if visible, otherwise pack the nose; check FBC, clotting and INR as he's on warfarin; and if packed, admit under ENT.
+var: A | Mr Grey, 72, on warfarin | Persistent anterior epistaxis
+a: Bleeding from the right nostril for an hour; been tilting head back; warfarin for AF; hypertension. Feels a bit dizzy.
+r: HR 98, BP 168/92. Hb 128. INR 3.9.
+x: First aid correctly (lean forward, pinch soft part 15 min); A–E; anaesthetic/vasoconstrictor spray; cautery (silver nitrate, one side only) if bleeding point seen; if fails: nasal packing (Rapid Rhino/Merocel) and ENT admission; INR 3.9: hold/adjust warfarin per haematology (vitamin K only if severe); FBC, G&S; BP not usually causal (treat later); Naseptin (if no peanut allergy).
+dom: Information gathering | Side, duration, amount, both nostrils/throat, previous, trauma, anticoagulants/antiplatelets, bleeding disorders, hypertension, cocaine, symptoms of hypovolaemia
+dom: Clinical reasoning | Interprets INR and Hb; anterior vs posterior
+dom: Management | !Correct first aid; cautery; packing; ENT; anticoagulation plan; safety-net and prevention advice
+s: First aid | Sit up and lean forward, not back, and pinch the soft part of your nose firmly for 15 minutes without letting go. Tilting back makes you swallow the blood. | Correct first aid corrects the planted mistake.
+s: History | Are you on any blood thinners? Has this happened before? Any blood going down the back of your throat? | Anticoagulants + posterior bleed screen.
+s: Interpret | The INR is 3.9, above his range, which is making the bleed worse. | Interpreting the results card.
+s: Plan | If it doesn't stop with pressure, I'll numb the nose, look for the bleeding point and seal it with a silver nitrate stick; if I can't see it, a nasal pack and ENT admission. | Stepwise escalation.
+s: Advice | For the next week, avoid blowing your nose, hot drinks, heavy lifting and picking. | Prevention advice after cautery.

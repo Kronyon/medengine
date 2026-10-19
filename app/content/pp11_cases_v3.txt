@@ -1,0 +1,273 @@
+# v3: new cases and hooks added to existing stations. "@+PPxx" continues that station.
+
+@+PP03
+src: CP3 consent to medicines + prescribing warfarin (mechanical AVR)
+trig: Mechanical heart valve + "start anticoagulation" → warfarin, never a DOAC
+clinch: ❌ DOACs are contraindicated with mechanical heart valves
+var: C | Mrs Yvonne Jenkins, 76 | Mechanical aortic valve: consent to warfarin + prescribe it
+d: You are a Foundation doctor on cardiology. Mrs Yvonne Jenkins, 76, has recently had a mechanical aortic valve fitted. Your consultant would like to start warfarin. Tasks: consent your patient for this medication; prescribe warfarin on the chart provided (BNF available).
+a: Aortic valve replaced for severe aortic stenosis that caused several blackouts. You feel well in yourself.
+a: Asthma: salbutamol inhaler about once a month. No allergies.
+a: Ask: "I heard warfarin is rat poison; is that true?" "How does warfarin work?" "What time should I take it?"
+r: Drug chart provided: prophylactic enoxaparin 40 mg SC daily currently prescribed. Baseline bloods: Hb 128, platelets 240, creatinine 82, LFT normal, INR 1.0.
+x: Consent structure: introduction, brief history and current drugs, allergies, prior understanding; indication (mechanical valves form clots that can cause a stroke; DOACs don't work for mechanical valves); dose varies with the INR (target set by cardiology for the valve, usually around 3); tablet colours (1 mg brown, 3 mg blue, 5 mg pink); same time each day (usually evening); lifelong; monitoring (baseline bloods, frequent INR at first then up to 12-weekly); yellow book and alert card; side effects: bleeding (red flags, vitamin K reverses it); interactions: antibiotics, cranberry and grapefruit juice, alcohol binges, over-the-counter painkillers (avoid NSAIDs); avoid contact sports; pregnancy (teratogenic); asks if happy to proceed; leaflet; chunk and check; questions. Prescribing: allergy box, anticoagulant box ticked, warfarin on the anticoagulant chart with INR recorded daily, prophylactic enoxaparin crossed off (any bridging dose per cardiology plan, not a duplicate prophylactic dose).
+m: Your new valve is mechanical, and blood can clot on it and cause a stroke, so you'll need warfarin for life; the newer blood thinners don't work for these valves. It's a tiny, carefully measured dose, taken at the same time every evening, with regular INR blood tests and a yellow book.
+s[C]: Counsel | Your new valve is metal, and blood likes to clot on it. A clot could travel to the brain and cause a stroke, so you'll need a blood thinner for life, and for metal valves warfarin is the one that works. | Indication + why not a DOAC.
+s[C]: Counsel | It is used as rat poison in huge doses, but as a medicine we use tiny, carefully measured doses with blood tests, and it's very safe. | Answers the planted question honestly.
+s[C]: Counsel | Take it at the same time every day, usually the evening, so we can adjust the dose after your INR test. The 1 mg tablets are brown, 3 mg blue and 5 mg pink. | Time + colours: named items in this scheme.
+s[C]: Prescribe | Allergy box completed; anticoagulant box ticked; warfarin on the anticoagulant chart with today's INR; prophylactic enoxaparin crossed off so she isn't double-anticoagulated. | The prescribing anchors.
+
+@+PP11
+src: GP syncope station (aortic stenosis)
+trig: Blackouts on exertion + exertional chest pain + breathlessness in an older person → aortic stenosis
+clinch: ✅ Slow-rising pulse + narrow pulse pressure + ejection systolic murmur radiating to the carotids = aortic stenosis
+var: D | Woman, 75 | Exertional syncope from severe aortic stenosis
+d: You are an F2 in general practice. A 75-year-old woman has come to see you. Tasks: take a focused history; examine the patient; explain your diagnosis and management plan; interpret the investigations to the examiner.
+a: You feel faint when you walk, and have "fallen over" twice while walking: you blacked out for about 10 seconds, didn't hurt yourself, weren't sick or incontinent, and felt fine quickly. No seizures. Not light-headed on standing up; not after meals.
+a: Chest pain every time you walk a certain distance (now about a quarter of a mile; you used to manage a mile): crushing, going down the left arm, with breathlessness, 6/10. Sleep on 3 pillows; no PND; slightly swollen ankles; palpitations.
+a: No rheumatic fever or heart problems; you don't like bothering the doctor. No medicines, no allergies. Smoke 5 a day (previously 20 a day for 35 years). Live in a bungalow with your husband; daughter nearby; independent.
+r: Pulse slow-rising, narrow pulse pressure; apex not displaced but sustained; systolic thrill and harsh ejection systolic murmur in the aortic area radiating to the carotids. ECG: sinus rhythm 85, LVH with strain (tall R in I and V6, deep S in V1–V2, ST depression and T inversion in I, aVL, V5–V6). CXR: prominent ascending aorta, normal heart size.
+x: Severe symptomatic aortic stenosis (exertional syncope, angina, breathlessness). Explains in lay terms; urgent echo and cardiology referral; valve replacement (surgical AVR or TAVI) because prognosis is poor once symptoms start; avoid strenuous exertion until assessed; DVLA: must not drive and must tell the DVLA after unexplained syncope until assessed; safety-net.
+m: Your blackouts on walking, chest pain and breathlessness, with the murmur I can hear, point to a narrowed main valve of the heart, called aortic stenosis. You need an urgent heart scan and to see the cardiologists, because once it causes symptoms the valve usually needs replacing, and please don't drive until you've been seen.
+s[D]: History | When you blacked out, what were you doing just before? Any chest pain or breathlessness when you walk? | Exertional syncope is the key discriminator.
+s[D]: Exam | The pulse is slow-rising, and there's a harsh ejection systolic murmur at the aortic area radiating to the neck: aortic stenosis. | Presentation of the classic signs.
+s[D]: Explain | One of the heart's valves has become stiff and narrow, so when you walk, not enough blood gets out to your brain and heart. A scan will confirm it, and the heart team may offer to replace the valve. | Plain-language explanation + plan.
+
+@+PP19
+src: Respiratory station (ILD in rheumatoid arthritis on methotrexate)
+var: B | Jim Smith, 65 | Interstitial lung disease with rheumatoid arthritis (on methotrexate)
+d: You see a 65-year-old man on the respiratory assessment unit with increasing breathlessness and a dry cough. Tasks: perform a respiratory examination; explain to the patient what condition he has, the likely cause and how you'll investigate it; tell the examiner the other causes of this condition.
+a: Breathless and coughing (dry) for months, getting worse. You have rheumatoid arthritis and take methotrexate.
+a: Ask while it's explained: "Is this condition progressive?" "What has caused it?" "Is there any medication to cure it?"
+r: End of bed: methotrexate tablets, oxygen, visibly breathless. Hands: clubbing, ulnar deviation, swan-neck and boutonnière deformities. RR 24. Expansion reduced. Percussion resonant. Auscultation: fine end-inspiratory crackles and expiratory wheeze throughout. JVP raised (pulmonary hypertension).
+x: ILD most likely from rheumatoid arthritis and/or methotrexate. Explains: scarring of the lung tissue, usually progressive, no cure, treatments aim to slow it and help symptoms. Investigations: FBC, autoimmune screen (RF, anti-CCP, ANA), CXR, HRCT (gold standard: reticulation, honeycombing), full lung function (restrictive pattern, reduced gas transfer), echo for pulmonary hypertension; review methotrexate with rheumatology. Other causes: occupational (asbestos, coal, silica), drugs (methotrexate, nitrofurantoin, amiodarone), hypersensitivity pneumonitis (EAA), connective tissue disease (SLE, systemic sclerosis), sarcoidosis, idiopathic pulmonary fibrosis (most common; antifibrotics).
+m: You have scarring in the lungs, called interstitial lung disease, most likely linked to your rheumatoid arthritis or the methotrexate. It usually progresses slowly and can't be cured, but a CT scan and breathing tests will tell us more, and the lung and rheumatology teams can slow it and help your breathing.
+
+@+PP25
+src: GP stoma review station (loop ileostomy after UC)
+var: B | Sarah Pouch, 52 | Stoma review: loop ileostomy after colectomy for ulcerative colitis
+d: You are a Foundation doctor in general practice. Sarah Pouch, 52, has come for a stoma review. Tasks: take a focused history of her presenting complaint before surgery; examine her stoma and report your findings (you need not do a full abdominal examination); answer 3 questions from the examiner.
+a: Symptoms started 6 years ago: flares every 8–10 months lasting 1–2 weeks: griping crampy lower abdominal pain worst on opening bowels then easing; very liquid, urgent diarrhoea 8–9 times a day; red-brown blood mixed in, bright red on the paper; sometimes mucus. Lost 1.5 kg each flare, dehydrated, no appetite, exhausted. Stress may trigger it.
+a: ONLY IF ASKED: iritis 3 years ago (red, painful eyes) and arthritis in both hands. Non-smoker, non-drinker; builder in the family business; flares kept you housebound. So relieved to have had the surgery. No allergies. Do NOT give any diagnosis.
+r: Midline laparotomy scar; stoma in the right lower quadrant; spouted; two lumens; liquid contents; skin around it healthy; no parastomal hernia on coughing; not tender.
+x: History of ulcerative colitis with extra-intestinal features (iritis, arthritis). Stoma: right iliac fossa, spouted, two lumens, liquid effluent = loop ileostomy. Answers: likely surgery = subtotal or panproctocolectomy with an ileoanal pouch (or ileorectal anastomosis) protected by a temporary loop ileostomy; complications of reversal: ileus or small bowel obstruction, anastomotic leak, wound infection, incisional hernia, high stool frequency; the spout protects the skin from small-bowel enzymes.
+m: This is a loop ileostomy: it's in the right iliac fossa, spouted, with two openings and liquid output. With her history of bloody diarrhoea, iritis and arthritis, she most likely had a colectomy and pouch for ulcerative colitis, with this temporary loop protecting the join.
+s[B]: Stoma | I'm going to look at your stoma. May I lift the bag to look at the skin around it, and could you give a cough for me? | Lifting the bag and the cough test are named items.
+s[B]: Present | Right iliac fossa, spouted, two lumens, liquid output, healthy surrounding skin, no parastomal hernia: a loop ileostomy. | Site + spout + lumens + contents = the type.
+
+@+PP27
+src: SAU station (SBO: examination, management and X-ray) · Radiology surgery station (AXR: SBO) · CP3 mock OSCE 1 Station 6 (LBO with perforation)
+trig: Previous abdominal surgery + colicky pain + vomiting + distension + tinkling bowel sounds → adhesional small bowel obstruction
+var: C | Woman, 55 | Adhesional small bowel obstruction: examination + AXR
+d: You are an F1 in SAU. A 55-year-old woman has had painful crampy abdominal pain for a few hours. She is normally fit and well, takes no medicines and has no allergies; appendicectomy at 19 and caesarean section at 28. Tasks: examine the abdomen; discuss initial management and investigations; review the imaging, describe it and give a differential diagnosis. You need not take a history.
+a: Only positive findings, given as you examine.
+r: Slight tachycardia. Inspection: laparoscopic appendicectomy scars and a suprapubic caesarean scar; distended abdomen. Auscultation: tinkling bowel sounds. AXR: central dilated loops of bowel (about 4 cm) with valvulae conniventes crossing the full width; no gas in the rectum; no free air.
+x: Small bowel obstruction, most likely adhesions from previous surgery (others: hernia, Crohn's stricture, gallstone ileus). A–E; bloods (FBC, U&E, LFT, CRP, amylase or lipase, clotting, VBG with lactate, group and save, beta-hCG); erect CXR; "drip and suck": NBM, NG tube, IV fluids with electrolyte replacement, catheter and fluid balance; analgesia and antiemetic; CT abdomen and pelvis with contrast; surgical review; Gastrografin follow-through can be diagnostic and therapeutic; surgery if closed loop, ischaemia (constant pain, peritonism, fever, raised lactate) or failure to settle.
+m: This AXR shows dilated central loops with valvulae conniventes and no rectal gas: small bowel obstruction, most likely from adhesions after her previous operations. I'd treat with drip and suck, request a CT, and refer to the surgeons, who'd operate if there are signs of ischaemia.
+s[C]: AXR | This is a supine AXR of a 55-year-old woman. The most striking abnormality is dilated central loops of bowel, about 4 cm, with valvulae conniventes crossing the full width: small bowel. There's no gas in the rectum and no free air. | Data frame + 3-6-9 rule.
+
+@+PP29
+src: CP3 crit care station (UGIB A–E + SBAR) · Gastro station (endoscopy consent and post-endoscopy prescribing)
+var: D | Harrison, 40 | A–E: variceal upper GI bleed with coagulopathy (alcohol) + SBAR to gastroenterology
+d: You are a Foundation doctor in A&E. Harrison, 40, has come in with haematemesis and a syncopal episode. Tasks: perform an acute assessment on the manikin; interpret the investigations; give an SBAR handover to the on-call gastroenterologist with your preferred diagnosis and plan.
+a: A: patent. B: RR 26, sats 92% on air, shallow fast breaths, chest clear, trachea central. C: pulse 105 regular, BP 80/60, capillary refill 3 s peripherally, cool and sweaty, temp 37.7. D: PEARL, GCS 14 (confused), glucose 4.5. E: epigastric tenderness, ascites, pedal oedema, no rash, calves soft.
+r: Hb 60, WCC 11.5, platelets 137, urea 12.0, creatinine 82, CRP 48, ALP 120, ALT 660, GGT 700, bilirubin 23, albumin 20, INR 12.
+x: Upper GI bleed, likely variceal (chronic liver disease from alcohol), haemorrhagic shock with coagulopathy. Oxygen; 2 large-bore cannulas; major haemorrhage protocol, O-negative blood then crossmatched; correct coagulopathy (IV vitamin K, and PCC or FFP per haematology); terlipressin and prophylactic IV antibiotics before endoscopy; urgent OGD after resuscitation (band ligation); Pabrinex; alcohol withdrawal plan (CIWA-guided chlordiazepoxide) once stable; hepatology and alcohol liaison; SBAR.
+m: Situation: Harrison, 40, has haematemesis with a BP of 80/60, an Hb of 60 and an INR of 12. Background: likely alcohol-related liver disease. Assessment: I think this is a variceal bleed with shock. Recommendation: I've activated the major haemorrhage protocol, given terlipressin and antibiotics; please come for urgent endoscopy.
+var: E | Patient after a GI bleed | Consent for gastroscopy + post-endoscopy prescribing
+d: You are a Foundation doctor in gastroenterology. Your patient was admitted with a GI bleed; your consultant has asked you to see them before their endoscopy. Tasks: state the investigations you'd like; consent the patient for an endoscopy; prescribe appropriate post-endoscopy management (local guidelines and BNF provided).
+a: You've never had a camera test and are nervous. Ask: "Will it hurt? Will I be awake? What could go wrong?"
+r: Endoscopy findings (after consent): bleeding duodenal ulcer treated endoscopically (high-risk stigmata). Rapid urease test pending.
+x: Investigations: FBC, U&E (urea), LFT, clotting, group and save or crossmatch, Glasgow-Blatchford score; H. pylori. Consent: what (thin camera through the mouth into the stomach and first part of the bowel), why (find and stop the bleeding), before (nothing to eat for 6 hours), during (throat spray ± sedation, about 10–15 minutes, uncomfortable not painful), after (sore throat; no driving for 24 hours after sedation); risks: sore throat, sedation reactions, aspiration, bleeding, perforation (rare, about 1 in 2,000–4,000 for diagnostic), missed lesion; alternatives; safety-net for 48 hours (worsening abdominal pain, fever, breathlessness, vomiting blood). Prescribing: PPI after endoscopy for high-risk ulcers (e.g. IV then oral per local guideline; no PPI before endoscopy for non-variceal bleeds per NICE CG141), stop NSAIDs, H. pylori eradication if positive.
+m: A gastroscopy lets us look directly at your stomach and, if we find the bleeding point, stop it there and then. You'll have a throat spray and, if you like, sedation; it's uncomfortable rather than painful. The main risks are a sore throat, reactions to sedation, and rarely bleeding or a small tear.
+s[E]: Consent | The test is a thin flexible camera, about as thick as your little finger, passed through your mouth into your stomach. It lets us find where the bleeding is coming from and often stop it straight away. | What + why.
+s[E]: Consent | Most people have a sore throat afterwards. Rarely there can be more bleeding or a small tear in the gut, about 1 in a few thousand. If you have sedation, someone needs to take you home and you mustn't drive for 24 hours. | Risks with numbers + after-care.
+
+@+PP31
+src: GP dyspepsia station (Mrs Jones, NSAIDs) · GP heartburn station (duodenal ulcer, H. pylori positive, penicillin anaphylaxis)
+hook: Uninvestigated dyspepsia, no red flags: stop NSAIDs + lifestyle, then EITHER a full-dose PPI for 4 weeks OR H. pylori test and treat. Test needs 2 weeks off PPIs.
+clinch: ✅ H. pylori eradication in penicillin allergy: PPI + clarithromycin + metronidazole for 7 days
+var: C | Mrs Jones, 40 | Uninvestigated dyspepsia from NSAIDs: no endoscopy needed
+d: You are a GP Foundation doctor. Mrs Jones, 40, has come about her tummy. Tasks: take a focused history; explain your investigations and management plan; answer her questions.
+a: Long-standing epigastric ache and burning after meals; doesn't spread; Gaviscon helps a little; takeaways and alcohol make it worse. ONLY IF ASKED: bloating, burping, nausea; never vomited.
+a: No weight loss, vomiting, swallowing difficulty, melaena, haematemesis or loss of appetite. ONLY IF ASKED about over-the-counter medicines or NSAIDs: you take ibuprofen quite a lot since injuring your knee a few months ago.
+a: Ask: "My friend had a camera test and they found something; why aren't I having one?" If H. pylori testing comes up: "How do you do that test?"
+x: Uninvestigated dyspepsia without alarm features, likely NSAID-related. Stop ibuprofen (paracetamol instead), lifestyle (regular meals not late, less alcohol and fatty or spicy food, weight); full-dose PPI for 4 weeks or H. pylori test and treat (stool antigen or urea breath test, 2 weeks off PPI); no endoscopy (under 55, no ALARMS); FBC if anaemia is a concern; review if not better; safety-net for red flags.
+m: Your symptoms sound like irritation of the stomach lining, most likely from the ibuprofen. Stopping it, plus a month of a stomach-protecting tablet or a test for a germ called H. pylori, usually sorts it out. You don't need a camera test because you have none of the warning signs, but we'll review if it doesn't settle.
+var: D | Jane Smith, 45 | Duodenal ulcer: H. pylori positive; prescribe eradication (penicillin anaphylaxis)
+d: You are an F2 in GP. A 45-year-old woman has come to see you. Tasks: take a focused history; explain your diagnosis and management plan; you'll then be given more information and asked to prescribe. Patient: Jane Smith, DOB 22/10/1972, hospital number K23415, weight 82 kg, eGFR 92.
+a: Heartburn for a month: retrosternal burning, sometimes into the upper back; worse at night and before meals; relieved by eating or milk; bloating, fills up quickly. Antacids help slightly. No weight loss, night sweats, tiredness, anorexia, melaena, haematemesis or swallowing difficulty. No cardiac or biliary symptoms.
+a: Chronic back pain: ibuprofen gel, and tablets a few times a week; over-the-counter antacids. Tazocin (piperacillin) made your tongue swell. Receptionist; half a bottle of wine every night; 20 a day for 25 years.
+a: Insist on "a camera test" because your friend had Barrett's oesophagus: "Why am I not ill enough?" Ask: "Can I keep taking my antacids before the breath test?"
+r: (After the plan) C13 urea breath test: POSITIVE for H. pylori.
+x: Likely duodenal ulcer (NSAIDs + H. pylori). Ask cardiac and biliary symptoms; ALARMS screen. Explain; stop NSAIDs; lifestyle (alcohol, smoking, late meals); urea breath test needs 2 weeks off PPIs (antacids are fine); no endoscopy (under 55, no ALARMS). Prescribing with penicillin anaphylaxis: PPI full dose BD (e.g. omeprazole 20 mg BD) + clarithromycin 500 mg BD + metronidazole 400 mg BD for 7 days (no amoxicillin); allergy box: piperacillin/penicillins: angioedema; then test of cure if symptoms persist; leaflet.
+m: The breath test shows H. pylori, a germ that, with ibuprofen, causes ulcers. Because of your penicillin reaction, I'll prescribe omeprazole with two antibiotics, clarithromycin and metronidazole, twice a day for 7 days, and you should stop ibuprofen and avoid alcohol with the metronidazole.
+s[D]: Prescribe | Allergy box: penicillins, tongue swelling (anaphylaxis). Omeprazole 20 mg BD, clarithromycin 500 mg BD and metronidazole 400 mg BD, oral, 7 days, in the antimicrobial section with a stop date. | Penicillin-free triple therapy with a duration.
+s[D]: Counsel | No alcohol with metronidazole and for 2 days after: it makes you very sick. Clarithromycin can leave a metallic taste. | Prescription-anchored counselling.
+
+@+PP35
+src: Anaesthetics pre-op assessment stations 1–3 (CP3)
+hook: Anaesthetic airway: Mallampati (open mouth, tongue out), mouth opening, neck movement, teeth, upper lip bite test; RA neck: C-spine flexion-extension X-ray.
+var: C | Keith James, 67 | Hip replacement with nightly reflux: aspiration risk (and the coffee question)
+d: You are an F1 in anaesthetics. Your consultant has asked you to see his patients before theatre this afternoon. Tasks: perform a pre-op assessment; tell the examiner which investigations you want; present your findings and suggest a management plan; perform peripheral venous cannulation on the model.
+a: Elective hip replacement for severe OA. You'd like a general anaesthetic: you don't like the idea of being awake. No heart or lung problems; play squash 3 times a week and walk the dogs.
+a: Gout on allopurinol; Voltarol and codeine for the OA; pre-diabetic; hypertension on amlodipine; no over-the-counter medicines, no inhalers; no allergies. No dental problems. ONLY IF ASKED: reflux most nights when lying flat; never seen the GP about it.
+a: Appendix out 15 years ago with no anaesthetic problems. No clots. No family history of anaesthetic problems. Non-drinker; ex-smoker (quit 20 years ago).
+a: Your operation is at 2 pm (3 hours away). Ask: "Can I have a coffee, doc?"
+r: Mallampati 1, good mouth opening, full neck movement. Pulse 72 regular. Chest clear.
+x: Fit (ASA 2) with untreated nocturnal reflux (aspiration risk: rapid sequence induction, PPI pre-op, tell the anaesthetist). Ix: FBC, U&E, group and save (crossmatch per protocol), HbA1c (pre-diabetic), ECG. Fasting: food 6 hours, clear fluids (water, black tea or coffee without milk) until 2 hours before; with significant reflux it's safest to check with the anaesthetist. GA as he prefers; VTE plan; post-op analgesia (paracetamol, regional block, opioid with laxative); NSAIDs reviewed.
+m: Mr James is a fit 67-year-old with good exercise tolerance having a hip replacement under GA, but he has untreated reflux every night, so he's an aspiration risk: I'd flag it to the anaesthetist for rapid sequence induction and give a PPI. Black coffee is a clear fluid, so it's allowed up to 2 hours before, but with his reflux I'd check with the anaesthetist first.
+var: D | Katy James, 47 | Hip replacement with rheumatoid arthritis, obesity (BMI 40) and untreated OSA
+d: You are an F1 in anaesthetics. Your consultant has asked you to see his patients before theatre this afternoon. Tasks: perform a pre-op assessment; tell the examiner which investigations you want; present your findings and suggest a management plan; perform peripheral venous cannulation on the model.
+a: Elective hip replacement for severe OA. Expecting a general anaesthetic but open to an epidural (good experience with one in your second labour). No heart or lung problems. Honestly overweight (BMI 40) and struggle with stairs.
+a: Obstructive sleep apnoea (not on CPAP; not very sleepy in the day; the snoring annoys your partner). Rheumatoid arthritis on methotrexate and folic acid. No reflux or dental problems. Never had a GA. No family history of anaesthetic problems. Non-smoker; 12 units a week; paralegal.
+r: Mallampati 3, limited neck extension, short thick neck.
+x: Higher anaesthetic risk: obesity, untreated OSA (difficult airway, post-op respiratory depression with opioids; CPAP review), RA (atlanto-axial instability: lateral C-spine flexion-extension X-ray before intubation). Ix: FBC, U&E, LFT (methotrexate), group and save, clotting, ECG (right heart strain from OSA), echo if signs of pulmonary hypertension. Plan: senior anaesthetist review; regional anaesthesia (spinal or epidural) may be preferable; methotrexate peri-operative plan with rheumatology; minimise opioids; VTE prophylaxis.
+m: Mrs James is having a hip replacement but has three airway risks: a BMI of 40, untreated sleep apnoea and rheumatoid arthritis that can make the neck unstable. I'd get a flexion-extension C-spine X-ray, an ECG, and a senior anaesthetic review; a spinal or epidural may be safer than a general anaesthetic.
+s[C]: Fasting | Black coffee counts as a clear fluid, which is allowed up to 2 hours before surgery, but because of your reflux I'll check with the anaesthetist first. | Answers the planted question safely.
+s[D]: Airway | With rheumatoid arthritis the joints at the top of the neck can be unstable, so I'd like an X-ray of your neck bending forwards and backwards before any breathing tube. | The RA twist the scheme rewards.
+
+@+PP36
+src: Breast history, examination and explanation station (3 options) · Breast examination + staging station · CP3 breast notes
+clinch: ✅ Breast lump in a woman 30 or over (unexplained) = 2WW; under 30 = non-urgent referral unless other concerns
+var: C | Ali Fisher, 32 | Suspicious breast lump with a strong family history
+d: You are a Foundation doctor in general practice. Your next patient, Ali, has a breast lump. Tasks: take a history; examine the breast; explain the next steps; answer her questions.
+a: Lump in the upper right breast noticed in the shower a month ago; had a fibroadenoma 10 years ago that went away, so assumed it was the same, but it seems to have grown. Hard and irregular. Not related to your cycle. Nipple has turned in. Feel well; no skin change, discharge, bone pain, abdominal pain, breathlessness or headaches.
+a: Nulliparous; periods started at 13; on the combined pill for 15 years; no allergies. Mum died of ovarian cancer 2 years ago; aunt had breast cancer twice (first at 30); grandad had bowel cancer; nobody has had genetic testing. Ex-smoker; little alcohol; lives alone with 3 cats; deputy head teacher. Worried about breast cancer.
+r: Hard, irregular lump in the right upper outer quadrant, not tethered; asymmetrical nipple inversion; no axillary or supraclavicular nodes.
+x: Suspicious lump with red flags (hard, irregular, growing, nipple inversion) and a strong family history (possible BRCA). 2WW breast clinic for triple assessment (examination, imaging: USS plus mammogram, core biopsy); genetics referral; sensitive explanation; safety-net; support.
+m: The lump feels hard and has made your nipple turn in, so I'd like you seen at the breast clinic within 2 weeks for a scan and a small sample. With your mum's and aunt's history, I'll also refer you to the genetics team. Many lumps turn out to be benign, but we need to be sure.
+var: D | Ali Smith, 28 | Breast cyst
+d: You are a Foundation doctor in general practice. Your next patient, Ali, has a breast lump. Tasks: take a history; examine the breast; explain the next steps; answer her questions.
+a: Lump in the right breast for 2 months; not worried but your boyfriend wanted it checked. Smooth, sometimes tender, gets bigger around your period. Well in yourself. No medicines, no allergies, no family history. Ex-smoker; 2 bottles of wine a week; personal trainer.
+r: Smooth, well-circumscribed, mobile, fluctuant lump; no nodes.
+x: Likely breast cyst. Refer to breast clinic (under 30: non-urgent unless concerning features) for triple assessment: USS (cyst), aspiration if symptomatic (cytology if bloodstained or a residual mass); reassurance; alcohol advice.
+m: This feels like a fluid-filled cyst, which is common and harmless. The breast clinic will confirm it with an ultrasound and can drain it with a fine needle if it's sore.
+var: E | Woman, 46 | Breast cancer: examination, staging (T2 NX M0) and treatment options
+d: You are a Foundation doctor in breast clinic. Your patient was referred on a 2-week-wait pathway. Tasks: examine the breast; interpret the investigations and state the stage; explain the management options; answer her questions.
+a: Ask: "Is it cancer?" "What's my prognosis?" "Will I pass it on to my daughters?" "What are the risks of surgery?"
+r: Hard, craggy, irregular lump next to the right nipple, tethered to skin but not to the chest wall; some bloody discharge expressed; no axillary or cervical nodes. Pathology: invasive lobular carcinoma, 3 cm, oestrogen receptor positive, HER2 negative. PET-CT: no metastases.
+x: Systematic examination including the axillary tail and nodes; offers to examine the spine, liver and lungs. Stage: T2 (2–5 cm), NX (nodes not assessed pathologically; no palpable nodes), M0. Explains with SPIKES; options: breast-conserving surgery (wide local excision with clear margins) plus radiotherapy, or mastectomy with or without reconstruction; sentinel lymph node biopsy; endocrine therapy (tamoxifen if premenopausal, aromatase inhibitor if postmenopausal) because ER positive; chemotherapy depending on risk; genetics referral if family history criteria; specialist nurse; risks of surgery (bleeding, infection, seroma, lymphoedema, numbness, cosmetic change).
+m: I'm sorry, the tests show breast cancer. It's 3 cm, there's no sign it has spread elsewhere, and it is fed by oestrogen, which gives us an extra treatment. The usual plan is an operation, either removing the lump or the breast, checking the nearest lymph node, then radiotherapy and hormone tablets.
+s[C]: Explain | I'd like the breast clinic to see you within 2 weeks: they'll examine you, do a scan and take a small sample. With your family history, I'll also ask the genetics team to see you. | 2WW + triple assessment + genetics.
+s[E]: Stage | A 3 cm tumour is T2; nodes haven't been sampled yet so NX; no spread on PET-CT so M0. | Staging is a marked item.
+s[E]: Options | There are two main options for the operation: removing the lump with a margin of healthy tissue, followed by radiotherapy, or removing the whole breast, with the option of reconstruction. Either way we'd check the first lymph node. | BRAN-style options.
+
+@+PP37
+src: Urology clinic station (BPH history, PSA, TURP counselling)
+var: C | Mr Jones, 68 | BPH not responding to medicines: counsel for TURP
+d: You are an F1 in urology clinic. A 68-year-old man with lower urinary tract symptoms has had a year of lifestyle measures and medicines without improvement, and would like surgery. Task: counsel him on transurethral resection of the prostate (TURP).
+a: Retired bank worker; never exposed to factory chemicals. Up 4 times a night, 8 times in the day, urgency; no pain, blood or incontinence. Stopped alcohol and caffeine and limit fluids after 6 pm: no difference. Fed up: it gets in the way of your rambling club and retirement plans.
+a: Hypertension (ramipril), atorvastatin. Not diabetic. No family history of urological cancer.
+a: Ask: "Will it affect my sex life?" "How long will I be in hospital?"
+r: GP: smooth, enlarged prostate on DRE. PSA 2.0. MSU normal.
+x: Checks understanding and concerns; explains TURP (camera through the urethra to trim the prostate from inside, under spinal or general anaesthetic); before: stop anticoagulants per plan, fasting; after: catheter for 1–3 days, bladder irrigation, home in 1–3 days, blood in the urine for up to 2 weeks (drink plenty), avoid heavy lifting; risks: retrograde ejaculation (most men; dry orgasm, reduced fertility), erectile dysfunction (small risk), incontinence (usually temporary), infection, bleeding, urethral stricture, TUR syndrome (rare), may need repeating; benefit: most men's flow and frequency improve; honest about long-term effects; alternatives (continue medicines, other procedures such as laser or Urolift); checks understanding; questions.
+m: A TURP trims the prostate from the inside with a camera passed through the water pipe, so urine flows more easily. You'd have a catheter for a day or two and some blood in the urine for up to 2 weeks. Most men afterwards ejaculate backwards into the bladder, which is harmless but reduces fertility, and there's a small risk of erection problems or leaking.
+s[C]: Counsel | The most common long-term effect is that when you climax, the semen goes back into the bladder rather than out. It's harmless, but it does reduce fertility. There's a smaller chance of erection problems or some leaking of urine. | Honesty about long-term effects is a professionalism item.
+
+@+PP46
+src: Urology on-call station (acute urinary retention, 3 options)
+hook: Retention: ask about constipation, anticholinergics (tricyclics, antihistamines, oxybutynin), opioids, and neurology (cauda equina).
+var: B | Kenny Anderson, 77 | Drug-induced urinary retention (amitriptyline) with AKI
+d: You are the urology junior doctor on call. A patient in A&E has abdominal pain; a bladder scan shows 1500 mL; eGFR is 30 (baseline over 90). Tasks: take a history; state your differential diagnoses and initial management to the examiner; insert a urinary catheter on the model with aseptic technique.
+a: Not passed urine for 2 days; suprapubic pain 7/10, sharp, constant, getting worse. No vomiting; feel well otherwise; no recent urinary symptoms or blood; no back pain, weight loss, fevers or neurological symptoms.
+a: Anxiety and depression; hypertension. Amitriptyline started 3 days ago (switched from sertraline because of low sodium); enalapril for 6 months. Dad had renal cell carcinoma at 46. Non-smoker, 7 pints a week; lives with your son; swims twice a week.
+r: Bladder scan 1500 mL. Creatinine 210 (baseline 75), K 5.4.
+x: Acute urinary retention from an anticholinergic (amitriptyline) causing post-renal AKI. Catheterise (residual volume, monitor for post-obstructive diuresis), stop amitriptyline and discuss an alternative with the GP or psychiatry, hold enalapril while in AKI, U&E monitoring, DRE and urine dip, renal USS if creatinine doesn't recover, trial without catheter later.
+m: Mr Anderson went into retention 3 days after starting amitriptyline, which relaxes the bladder muscle, and the back-pressure has caused an AKI. I'd catheterise, stop the amitriptyline and his enalapril for now, monitor his kidneys and urine output, and plan a trial without catheter.
+var: C | Barry Edwards, 86 | Retention with suspected prostate cancer and bone metastases (on warfarin)
+d: You are the urology junior doctor on call. A patient in A&E has abdominal pain; a bladder scan shows 1500 mL; eGFR is 30 (baseline over 90). Tasks: take a history; state your differential diagnoses and initial management to the examiner; insert a urinary catheter on the model with aseptic technique.
+a: No urine for 2 days; suprapubic ache; feel OK otherwise; no infection symptoms. ONLY IF ASKED: weight loss, tiredness and lower back pain.
+a: Known LUTS (BPH), AF, hypertension. Tamsulosin, amlodipine, warfarin. No allergies. Live in a care home since your wife died of metastatic breast cancer; non-smoker, non-drinker; mobile and fairly independent.
+r: Bladder scan 1500 mL. Creatinine 190. INR 2.6. DRE (after catheter): hard, irregular, craggy prostate.
+x: Retention with likely locally advanced prostate cancer and possible bone metastases (back pain): catheterise (check INR; gentle technique), DRE, PSA (after counselling; note catheterisation can raise PSA), bone profile, renal USS; urgent MRI spine if any neurological signs (metastatic cord compression); 2WW urology, staging (MRI prostate, bone scan or CT), MDT.
+m: He's in retention with weight loss, back pain and a hard craggy prostate, so I'm worried about prostate cancer with spread to the bones. I'd catheterise carefully because he's on warfarin, check PSA and bone profile, refer urgently to urology and get an MRI spine if there's any weakness or numbness.
+
+@+PP52
+src: CP3 crit care station (A–E overdose: TCA)
+trig: Overdose + dilated pupils + tachycardia + urinary retention + drowsy + broad QRS → tricyclic antidepressant toxicity
+var: C | Thomas Keller, 26 | A–E: tricyclic antidepressant overdose
+d: You are a Foundation doctor in A&E. Thomas Keller, 26, was found collapsed in his room by his housemate. He has emotionally unstable personality disorder and 5 admissions in the past year with overdoses. Tasks: perform an A to E assessment; interpret the investigations; explain your diagnosis and management plan to the examiner.
+a: A: patent. B: RR 10, sats 89% (99% on 15 L non-rebreather), no chest signs, trachea central. C: BP 90/50, HR 130, capillary refill under 2 s, warm, heart sounds normal. D: dilated pupils, responds to voice, GCS 12 (E3 V3 M6), glucose 6, temp 36.0. E: bladder full and tender above the pubic bone.
+r: ABG on 15 L: pH 7.25, PaO2 15, PaCO2 3.0, HCO3 17, BE −6, lactate 1.0. ECG: sinus tachycardia 130, QRS 130 ms, prominent terminal R wave in aVR.
+x: TCA overdose: anticholinergic features (tachycardia, dilated pupils, retention, drowsiness) with cardiotoxicity (broad QRS) and metabolic acidosis. Airway protection (anaesthetist if GCS falls), high-flow oxygen, IV access and fluids for hypotension, sodium bicarbonate 8.4% 50 mL (1–2 mmol/kg) IV for QRS over 100 ms, arrhythmia or acidosis, aiming for pH 7.45–7.55; cardiac monitoring; activated charcoal only if within 1 hour and airway protected; paracetamol and salicylate levels; catheter; benzodiazepines for seizures; avoid flumazenil; Toxbase; ICU referral; psychiatric assessment once medically fit; safeguarding and EUPD crisis plan.
+m: This is a tricyclic overdose: he's drowsy and tachycardic with dilated pupils, urinary retention, a metabolic acidosis and a QRS of 130 ms. I'd protect his airway, give IV sodium bicarbonate, put him on a cardiac monitor, check paracetamol and salicylate levels and refer to ICU.
+s[C]: Disability | Pupils are dilated, he responds to voice, glucose is 6. I'd check paracetamol and salicylate levels in every overdose. | Pupils + levels.
+s[C]: ECG | The QRS is 130 ms with a terminal R in aVR: TCA cardiotoxicity. I'd give 50 mL of 8.4% sodium bicarbonate IV now. | The life-saving step.
+
+@+PP54
+src: GP thoracic back pain station (spinal metastases from breast cancer) · NICE NG234 (metastatic spinal cord compression)
+var: D | Sarah Smith, 70 | Thoracic back pain from spinal metastases (previous breast cancer), no neurological deficit
+d: You are an F1 in general practice. Sarah Smith, 70, has 3 weeks of thoracic back pain. Tasks: take a focused history; perform a focused examination; give the most likely diagnosis with justification; explain your management to the examiner.
+a: Band-like pain around the chest at the back, 4/10, gradual, dull and persistent; worse at night and waking you; more comfortable sitting or sleeping in a chair; paracetamol doesn't help. ONLY IF ASKED: unexplained weight loss, more tired, poor appetite.
+a: Breast cancer "cured" 10 years ago. Worried and exhausted from poor sleep.
+r: Look: mild back muscle wasting. Feel: tender over the thoracic spine around T10. Move: thoracic movement restricted by pain. Lower-limb neurology normal. Gait normal.
+x: Suspected spinal metastases (previous breast cancer, night pain, thoracic, weight loss) without neurological deficit. NICE NG234: MRI whole spine within 1 week if pain suggests spinal metastases without neurology (within 24 hours if neurological symptoms); contact the acute oncology or MSCC coordinator; analgesia; bloods (FBC, calcium, ALP, U&E); safety-net: urgent same-day contact for weakness, numbness, bladder or bowel change (cord compression); oncology referral.
+m: With your history of breast cancer, pain that wakes you at night and weight loss, I'm worried the cancer may have spread to the spine. I'd arrange an MRI of the whole spine within a week, involve the cancer team and give you stronger pain relief; if you get any weakness, numbness, or problems with your bladder or bowels, call 999 straight away.
+
+@+PP55
+src: GP headache station (SAH on warfarin, explain lumbar puncture) · NICE NG228
+trap: An LP needs the INR corrected (below 1.5 per local protocol) and platelets checked: a patient on warfarin can't have one straight away
+var: D | Elizabeth Hodgkins, 56, on warfarin | Suspected SAH, CT negative: explain the lumbar puncture
+d: You are an F1 in general practice. Elizabeth Hodgkins, 56, has a headache. Tasks: take a focused history; tell the examiner your differentials and initial investigations; you'll then be given results: explain to the patient why she now needs a lumbar puncture, what it involves, and its risks.
+a: Woke this morning with the worst headache of your life, at the back of the head, spreading down the neck; hard to move your neck. Drowsy and "not quite right"; couldn't keep your balance walking. Vomited twice. No photophobia, visual change, fever or seizures. Never get headaches. No head injury. No medicines taken for it.
+a: AF on warfarin (INR 3 last week). Don't drink or smoke. Worried it's a brain tumour.
+a: When an LP is mentioned: "Are there any risks? Is it painful? Will I be awake? Do I have to stay in hospital?"
+r: CT head (done more than 6 hours after onset): no blood. INR today 3.1, platelets 240.
+x: Suspected SAH (thunderclap, occipital, neck stiffness, vomiting) on warfarin; differentials: meningitis, encephalitis, intracerebral bleed, migraine. Initial: CT head urgently, FBC, U&E, clotting. NICE NG228: CT negative and done more than 6 hours after onset → LP at least 12 hours after onset for xanthochromia. Warfarin: the INR must be corrected before an LP (discuss with senior and haematology; the stroke-versus-bleed risk balance). LP explanation: lying on your side curled up, local anaesthetic, needle between the lower back bones, small sample of fluid; awake; takes about 20–30 minutes; risks: headache afterwards (common), back pain, bleeding, infection, rarely nerve irritation; stays for monitoring; reassures about tumour fear.
+m: The scan didn't show bleeding, but it can miss a small bleed when done this late, so we need a lumbar puncture at least 12 hours after the headache started. It's done awake, lying on your side, with a local anaesthetic, and a headache afterwards is the commonest side effect; because you're on warfarin, we'll need to correct your blood thinning first.
+s[D]: LP | Because the scan was done more than 6 hours after the headache began, it can miss a small bleed. A sample of the fluid around the spine, taken at least 12 hours after the start, tells us for certain. | Why the LP is needed (NICE NG228).
+s[D]: LP | You'll lie on your side curled up. We numb the skin with local anaesthetic, then a thin needle goes between the bones in your lower back. You're awake; it's uncomfortable rather than painful, and takes about 20 to 30 minutes. | What it involves.
+s[D]: Warfarin | Because you take warfarin, we'll need to reverse its effect safely before the test, with your consultant's advice. | The safety twist.
+
+@+PP57
+src: CP3 crit care station (head injury collateral history, extradural option) · Memory loss station (chronic subdural on warfarin)
+hook: On warfarin + intracranial bleed = reverse now: IV vitamin K + prothrombin complex concentrate.
+trig: Head injury → lucid interval → drowsy with headache = extradural haematoma (middle meningeal artery)
+var: B | Ollie, 20, teammate of James, 21 | Extradural haematoma after a hockey ball to the head (collateral history)
+d: You are a Foundation doctor in A&E. A patient has come in with a head injury. Tasks: take a collateral history from his teammate; interpret the radiological image; explain your diagnosis and management to the teammate.
+a: You are Ollie, James's hockey teammate. James was hit on the side of the head by a hockey ball, was knocked out for about 3 minutes, came round talking, alert and orientated, but now he's confused and drowsy with a severe headache. No seizure; no blood or fluid from the ears or nose; no facial bruising; no vomiting.
+a: No medical history, no medicines, no allergies. Student; non-smoker; about 12 pints a week; occasional MDMA; lives with housemates.
+a: You're worried about your friend, and he's the team's best player: "We need him for the rest of the season."
+r: CT head: biconvex (lens-shaped) hyperdense collection over the right temporoparietal region with midline shift.
+x: Extradural haematoma (temporal blow, middle meningeal artery) with a lucid interval: neurosurgical emergency. A–E, GCS monitoring, airway protection if GCS 8 or less, urgent neurosurgical referral for evacuation, neuro observations; confidentiality: share only what's needed with a friend unless James consents or it's in his best interests; honest about sport: not this season and only after neurosurgical clearance.
+m: The scan shows a bleed between the skull and the brain's outer covering from the blow to the side of his head; the period where he seemed fine is typical. It's pressing on his brain, so he needs the neurosurgeons to operate urgently.
+s[B]: Collateral | Can you tell me exactly what happened, from the moment the ball hit him? How long was he knocked out, and how was he afterwards? | Mechanism + LOC + lucid interval.
+s[B]: Confidentiality | I can tell you he's seriously unwell and needs an operation; the detail I'll discuss with James or his family. | Confidentiality with a friend.
+s[B]: CT | This is a CT head of James, 21. The most striking abnormality is a lens-shaped bright collection over the right side with midline shift: an extradural haematoma. | Data frame.
+
+@+PP80
+src: GP thyroid lump station (hard fixed nodule, hoarse voice, previous radiotherapy)
+var: C | Elizabeth Jones, 72 | Thyroid nodule with red flags (hoarse voice, previous radiotherapy): possible thyroid cancer
+d: You are a Foundation doctor in general practice. Mrs Jones has a lump in her neck. Tasks: take a brief history; perform the relevant examination; explain the likely diagnosis and your management plan.
+a: Lump at the front of the neck for 5 weeks, not painful; may have grown. Noticed rubbing in cream: hard, doesn't move much. Thought it was a gland after a cold.
+a: ONLY IF ASKED: voice hoarse for 2 weeks; heat intolerance, agitation, diarrhoea, very hungry and tired for the same time; lost 5 kg in a month. No swallowing problems. ONLY IF ASKED: radiotherapy for breast cancer 25 years ago.
+a: Vitamins only; no allergies; bungalow with your husband; non-smoker.
+r: Visible anterior neck lump; hard, well-circumscribed, 1.5 cm, fixed to underlying tissue; moves on swallowing, not on tongue protrusion; no nodes. Thyroid status: sweaty, palmar erythema, fine tremor, tachycardia; no eye signs; no hair or skin change.
+x: Thyroid nodule with red flags (hard, fixed, growing, hoarse voice suggesting recurrent laryngeal nerve involvement, previous neck or chest radiotherapy, age): suspected thyroid cancer, plus thyrotoxic symptoms. Urgent suspected-cancer referral (ENT or endocrine surgery), TFTs, USS with FNA (U grading), laryngoscopy for vocal cord function; sensitive explanation; manage thyrotoxic symptoms (beta-blocker if needed).
+m: The lump is hard, fixed and growing, your voice has changed, and you had radiotherapy years ago, so I'm worried it could be a thyroid cancer. I'll refer you urgently to the neck specialists for an ultrasound and a needle sample, and check your thyroid blood tests today.
+s[C]: History | Has your voice changed? Any trouble swallowing or breathing? Have you ever had radiotherapy to the neck or chest? | The scheme's "must ask about previous radiotherapy".
+
+@+PP85
+src: CP3 MDD fall + hip fracture stations · NICE CG124
+var: B | Edna Baker, 78 | Displaced intracapsular neck of femur fracture: total hip replacement vs hemiarthroplasty
+d: You are a Foundation doctor in A&E. Edna Baker, 78, has fallen. Tasks: take a history; interpret the X-ray to the examiner; explain your diagnosis and management plan to the patient.
+a: Tripped on a step at home onto your right hip: sharp pain, couldn't get up; your husband called an ambulance; on the floor for 20 minutes. No head injury, no blackout, no dizziness, palpitations or breathlessness beforehand. Can't weight bear; 8/10. No numbness.
+a: Hypertension, recently diagnosed type 2 diabetes; metformin, amlodipine; no steroids; no allergies. Live with your husband in a bungalow (one step between kitchen and bathroom); son nearby; independent in daily activities, walk without aids; never fallen before; occasional alcohol; never smoked. Worried you've broken your hip like your friend.
+r: AP pelvis: break in Shenton's line on the right; displaced intracapsular neck of femur fracture (Garden IV). Lateral hip on request.
+x: Mechanical fall (exclude syncope: ECG, lying and standing BP); displaced intracapsular NOF fracture. A–E, analgesia (IV paracetamol, opioid, fascia iliaca block), bloods (FBC, U&E incl. CK for long lie, clotting, group and save), ECG, CXR, urine dip, AMT (capacity and delirium); NBM, fluids, VTE prophylaxis; orthogeriatric review; surgery on the day of or the day after admission (NICE CG124); total hip replacement rather than hemiarthroplasty because she walks independently outdoors with no more than a stick, isn't cognitively impaired and is medically fit; post-op bone health and falls assessment.
+m: You've broken the top of your thigh bone inside the hip joint. Because you're fit, walk without a stick and your memory is good, the best operation is a full hip replacement, ideally today or tomorrow; until then we'll control the pain with a nerve block.
+s[B]: X-ray | This is an AP pelvis of Edna Baker. Shenton's line is broken on the right with a displaced intracapsular neck of femur fracture. I'd like a lateral view too. | Systematic X-ray + orthogonal view.
+s[B]: Plan | Because the blood supply to the head of the femur is cut off in this type of fracture, it needs replacing. You walk without aids, so a total hip replacement gives you the best function. | Explains why THR (NICE criteria).
+
+@+PP24
+src: CP3 mock OSCE 2018 Station 4 (GP: abdominal pain, diverticulitis; official anchors)
+var: B | Patient in general practice | Acute diverticulitis with sepsis: escalate to same-day admission
+d: You are a Foundation doctor in general practice. The nurse asks you to see a patient who is unwell. Obs: temp 37.9, HR 118, BP 98/68. Tasks: take a focused history; state your working diagnosis and plan of investigation and management to the examiner; explain the suspected diagnosis to the patient. You don't need to examine.
+a: Three days of left lower abdominal pain, now constant and worse; feverish; loose stools; nausea. Known diverticular disease on a previous colonoscopy. No rectal bleeding. Want to avoid hospital if possible.
+r: Obs as given: tachycardic and borderline hypotensive with fever.
+x: Acute diverticulitis with signs of sepsis: needs escalation to secondary care today (urgent same-day surgical admission): would examine, recheck obs, urine dip; explains that in hospital she may need IV fluids, antibiotics, a CT and surgical review; respects concerns while being clear about safety.
+m: With pain in the lower left tummy, a fever, a fast heart rate and low blood pressure, I think the pouches in your bowel are infected and it's affecting your whole body, so you need to go into hospital today for fluids, antibiotics and a scan.
+
+@+PP48
+hook: Under 18 = paediatric DKA protocol (BSPED): smaller fluid boluses only if shocked, insulin 0.05–0.1 units/kg/hour, no insulin bolus, watch for cerebral oedema.

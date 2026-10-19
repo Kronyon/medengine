@@ -1,0 +1,130 @@
+# Money line for each case. "PPxx K | text". The station's own money: line belongs to the case marked "PPxx K | =".
+PP01 A | The ECG shows sinus tachycardia at about 110 with normal intervals. Her heart is structurally fine; the trigger is caffeine, so the treatment is cutting the energy drinks and coffee, with TFTs, FBC and U&Es to exclude another cause.
+PP01 B | The ECG shows a regular narrow-complex tachycardia at 180 with no visible P waves: SVT. He's stable, so I'd try a modified Valsalva first, then IV adenosine 6 mg, then 12 mg, then 18 mg with continuous monitoring, and refer to cardiology for ablation.
+PP01 C | The ECG shows atrial fibrillation at 112: irregularly irregular with no P waves. I'd rate-control with bisoprolol, and with a CHA2DS2-VASc of 2 I'd offer apixaban after an ORBIT bleeding assessment, plus TFTs, U&Es and an echo.
+PP03 A | =
+PP03 B | Warfarin is once a day in the evening, with your dose set by the INR blood test, aiming for 2 to 3, written in your yellow book. With an INR of 9.1 and no bleeding, I'd stop it, give oral vitamin K, recheck the INR tomorrow and restart at a lower dose.
+PP09 A | =
+PP09 B | There's a laterally displaced, thrusting apex and a pansystolic murmur loudest at the apex in the left lateral position, radiating to the axilla, with a third heart sound: mitral regurgitation. The ECG shows LVH. I'd request an echo and treat any heart failure or AF.
+PP09 C | There's a midline sternotomy scar and a crisp metallic click at the first heart sound with no other murmur: a mechanical mitral valve replacement. He'll need lifelong warfarin with an INR around 3, and good dental care to reduce endocarditis risk.
+PP11 A | =
+PP11 B | She fainted after standing in a hot church with a warning of feeling hot, sick and greying vision, and recovered quickly; the ECG is normal sinus rhythm. That's vasovagal syncope: reassurance, avoiding triggers and counter-pressure manoeuvres, with no driving restriction.
+PP11 C | The ECG shows fast AF at 130. She fell and hit her head, so I'd check if she needs a CT head, control the rate, and with a CHA2DS2-VASc of 4 offer anticoagulation: falls risk alone is not a reason to withhold it.
+PP12 A | =
+PP12 B | Out of 100 people like you, about 14 will have a heart attack or stroke in the next 10 years; atorvastatin 20 mg brings that to about 9 or 10. Serious muscle damage is very rare, and if aches happen we change the dose. It's your choice, and lifestyle helps either way.
+PP13 A | =
+PP13 B | Your home readings average 142 over 90, which confirms high blood pressure. Because you have type 2 diabetes, the best first tablet is ramipril, starting at a low dose. We'll check your kidney blood test before and 1 to 2 weeks after starting; if you get a dry cough, tell us.
+PP13 C | Your home readings average 152 over 96, which confirms high blood pressure. Because you're under 55, the best first tablet is ramipril. With a QRISK of 15%, I'd also offer a statin, and we'll check your kidneys 1 to 2 weeks after starting.
+PP14 A | =
+PP14 B | A pO2 of 9 on 15 litres with a normal CO2 in an asthmatic breathing this fast means she's tiring: life-threatening asthma. Back-to-back salbutamol, ipratropium, steroids, IV magnesium 2 g, and anaesthetics and ICU now.
+PP14 C | Low pH, low bicarbonate, an anion gap of 20 and lactate of 4: a raised-anion-gap metabolic acidosis, most likely from sepsis, with inadequate respiratory compensation. Sepsis 6 now, look for the source, and escalate to critical care.
+PP15 A | A 78-year-old heavy smoker with 6 months of progressive breathlessness and a gas showing pH 7.2, CO2 8.4 and bicarbonate 28: COPD with partially compensated type 2 respiratory failure. Target sats 88 to 92%, nebulisers, prednisolone, and NIV if the pH stays below 7.35.
+PP15 B | =
+PP15 C | Two months of large volumes of purulent sputum after pneumonia, with Pseudomonas in the sputum: bronchiectasis. Ciprofloxacin for 14 days guided by sensitivities, chest physiotherapy, and a high-resolution CT to confirm.
+PP16 A | Broken sentences, widespread wheeze, sats 87% and a low CO2: acute severe asthma. High-flow oxygen to 94 to 98%, salbutamol 5 mg and ipratropium 500 micrograms nebulised, prednisolone 40 to 50 mg, IV magnesium if not responding, and repeat gases watching for a rising CO2.
+PP16 B | Trachea deviated to the right, hyper-resonant with no breath sounds on the left and a BP of 96: left tension pneumothorax. I'm decompressing now with a large-bore cannula, then he needs a chest drain.
+PP16 C | A smoker with wheeze, fever and a gas showing pH 7.24 and CO2 8.1: an infective exacerbation of COPD with type 2 respiratory failure. Controlled oxygen via a 28% Venturi to 88 to 92%, nebulisers, steroids, antibiotics after cultures, and NIV if the acidosis persists.
+PP16 D | After surgery, on the pill, with a hot swollen calf, tachycardia and a low pO2 with a low CO2: pulmonary embolism. High-flow oxygen, treatment-dose anticoagulation now, a CTPA, and a senior if she becomes hypotensive.
+PP16 E | =
+PP22 A | She has more than 6 hours of RUQ pain with fever, raised WCC and CRP, a thick-walled gallbladder with stones and normal LFTs: acute cholecystitis. Admit, analgesia, IV fluids and antibiotics, and laparoscopic cholecystectomy within a week.
+PP22 B | =
+PP27 A | =
+PP27 B | He's tachycardic at 150, hypotensive and dry with a distended tympanic abdomen and an AXR showing small bowel obstruction. Fluid challenge, oxygen, a wide-bore NG tube to aspirate, nil by mouth, analgesia, a CT and the surgeons now.
+PP28 A | =
+PP28 B | Her gallbladder was inflamed by stones, so the surgeons removed it through small cuts. The liver still makes bile and it flows straight to the gut, so most people eat normally; stones can't come back in the gallbladder. If she turns yellow, gets a fever or worse pain, ring us.
+PP29 A | =
+PP29 B | She has coffee-ground vomit and melaena on daily ibuprofen and aspirin with a raised urea: a bleeding peptic ulcer. Resuscitate, endoscopy within 24 hours, a PPI after the scope, stop the NSAID and test for H. pylori.
+PP29 C | Sudden severe epigastric pain that's now generalised, a rigid abdomen and free air under the diaphragm: a perforated peptic ulcer. Nil by mouth, IV fluids, analgesia, antibiotics, IV PPI and an urgent surgical review for repair.
+PP31 A | =
+PP31 B | With 6 weeks of burning after meals and no red flags, this is uncomplicated dyspepsia. Cut down caffeine and late meals, and either a full-dose PPI for 4 weeks or an H. pylori test and treat; if it persists we'll refer.
+PP34 A | =
+PP34 B | There's a left groin swelling above and medial to the pubic tubercle with a cough impulse that reduces easily and isn't controlled by pressure on the deep ring: a reducible direct inguinal hernia. He can be referred for elective repair, and I'd safety-net for strangulation.
+PP35 A | =
+PP35 B | Her HbA1c is 62, under the 69 threshold for elective surgery. She should be first on the list; omit gliclazide on the morning of surgery, stop dapagliflozin the day before and on the day to avoid ketoacidosis, and we'll monitor her capillary glucose.
+PP36 A | =
+PP36 B | Your breast examination is completely normal today. It's understandable to worry after your friend's news; the best protection is knowing what's normal for you, checking monthly, and going for breast screening every 3 years from 50.
+PP37 A | =
+PP37 B | The prostate is hard, craggy and asymmetrical with no median sulcus, the PSA is 68 and he has back pain: likely metastatic prostate cancer. Urgent suspected cancer referral, staging, analgesia, and a safety-net for cord compression.
+PP38 A | =
+PP38 B | The TSH is high at 7.9 with low T3 and T4: primary hypothyroidism, probably autoimmune given her type 1 diabetes. Levothyroxine on an empty stomach before breakfast, TFTs in about 3 months, and a coeliac screen.
+PP41 A | =
+PP41 B | A small, deep, punched-out ulcer on the toe tip with absent pulses and an ABPI of 0.45: an arterial ulcer with critical limb ischaemia. Urgent vascular referral, no compression, analgesia, antiplatelet and statin.
+PP41 C | A deep ulcer under the first metatarsal head with callus, a warm foot and lost monofilament sensation: a neuropathic diabetic foot ulcer. Same-day multidisciplinary foot team, offloading, an X-ray for osteomyelitis, and tight glucose control.
+PP42 A | =
+PP42 B | She has a swollen, tender calf above her cast 5 days after ankle surgery with a Wells score of 3: likely DVT. A proximal leg vein ultrasound within 4 hours, anticoagulation now if that's delayed, and a check for PE symptoms.
+PP43 A | =
+PP43 B | Standing, there's a soft "bag of worms" above the left testis that empties lying down: a left varicocele. I'd arrange a scrotal Doppler ultrasound and, as they're trying to conceive, a semen analysis.
+PP44 A | =
+PP44 B | The CT shows a 6 cm solid enhancing mass in the left kidney with no spread. I'm afraid that looks like a kidney cancer. The urology team will discuss removing part or all of the kidney, which is usually curative at this stage.
+PP44 C | The biopsy shows a prostate cancer that hasn't spread outside the gland, intermediate risk. The options are an operation to remove the prostate or radiotherapy with hormone treatment; the team and specialist nurse will go through the side effects with you.
+PP45 A | =
+PP45 B | The stone is 4 mm with normal kidney function and only mildly raised inflammatory markers: it's likely to pass. He can go home with an NSAID, plenty of fluids and a sieve, with clear advice to come back with fever, uncontrolled pain or vomiting.
+PP45 C | A large branching stone filling the kidney's drainage system: a staghorn calculus, usually from infection. It needs a percutaneous nephrolithotomy, treatment of any urine infection and a stone screen.
+PP52 A | =
+PP52 B | Pinpoint pupils, a respiratory rate of 6 and a GCS of 6 with needle marks: opioid toxicity. Airway adjunct, bag-valve-mask ventilation with oxygen, naloxone 400 micrograms IV repeated, and watch for re-sedation.
+PP53 A | His forehead still moves but the lower face droops on the right with a right arm drift: an upper motor neurone weakness, so a stroke. The CT shows no bleed and he's within 4.5 hours, so the stroke team for thrombolysis and a CT angiogram for thrombectomy.
+PP53 B | =
+PP54 A | =
+PP54 B | Ascending symmetrical weakness, areflexia and glove-and-stocking numbness 3 weeks after diarrhoea, with a high CSF protein: Guillain-Barré syndrome. IV immunoglobulin, FVC every 4 to 6 hours with ICU if it falls, and no steroids.
+PP54 C | Bilateral sciatica, saddle numbness, reduced anal tone and a residual of 800 mL: cauda equina syndrome. Catheterise, emergency MRI of the lumbar spine now, and urgent neurosurgical decompression.
+PP55 A | =
+PP55 B | Fever, neck stiffness, photophobia and a non-blanching rash: meningococcal disease. Ceftriaxone 2 g IV now, before any scan or LP, with dexamethasone, fluids, senior help, and public health notification.
+PP55 C | A 72-year-old with a new temporal headache, scalp tenderness, jaw claudication and transient visual blurring, ESR 82: giant cell arteritis. Prednisolone 60 mg today, same-day ophthalmology, and a temporal artery ultrasound or biopsy within 2 weeks.
+PP56 A | =
+PP56 B | With cirrhosis, an inverted sleep cycle and slowed thinking, this is grade 1 hepatic encephalopathy. Lactulose to 2 to 3 soft stools a day, rifaximin to prevent recurrence, no sedatives, and a search for the trigger.
+PP56 C | Acute, fluctuating confusion with visual hallucinations on a background of mild cognitive impairment, with urinary symptoms and fever: delirium from a urine infection. Confusion screen, antibiotics, and supportive care with family, glasses, a clock and the same staff.
+PP58 A | =
+PP58 B | A seizure in a man with lung cancer and 2 weeks of morning headaches and vomiting: likely brain metastases with raised pressure. Same-day CT or MRI brain, dexamethasone if there's oedema, levetiracetam, oncology, and no driving.
+PP58 C | Twenty minutes of slurred speech and facial weakness that fully resolved: a TIA, not a seizure. Aspirin 300 mg now, specialist TIA review within 24 hours, no driving for a month, and anticoagulation for her AF once the specialist has seen her.
+PP59 A | =
+PP59 B | Numbness of the lateral three and a half fingers sparing the thenar skin, thenar wasting and weak thumb abduction with positive Tinel's and Phalen's: carpal tunnel syndrome. A night splint first, then steroid injection or surgical decompression; nerve conduction studies if unsure.
+PP61 A | =
+PP61 B | Ms Clarke is guarded with a flat affect and slow, sometimes incoherent speech. She describes two men talking about her in the third person, thought insertion and delusions of reference, with no insight. These are first-rank symptoms consistent with first-episode schizophrenia; she needs the early intervention in psychosis team.
+PP64 A | =
+PP64 B | Your wife was given an injection because she was very agitated and talking her down and tablets hadn't worked. We monitor her closely afterwards; side effects include sleepiness, low blood pressure and muscle stiffness, which we can treat quickly.
+PP65 A | =
+PP65 B | He has fleeting thoughts that people would be better off without him but no plan, and his daughters keep him going: lower immediate risk but real. A safety plan, crisis numbers, treating the depression and the drinking, and GP follow-up within a week.
+PP66 A | =
+PP66 B | Ten days after birth with no sleep, rapidly changing mood, confusion and a belief that her baby has been swapped: postpartum psychosis, a psychiatric emergency. Same-day perinatal team and a mother and baby unit; she shouldn't be alone with the baby until assessed.
+PP67 A | =
+PP67 B | Four months after the crash with flashbacks, nightmares, avoidance of driving and being on edge: post-traumatic stress disorder. The most effective treatment is trauma-focused CBT or EMDR; I'd avoid sleeping tablets like benzodiazepines.
+PP69 A | =
+PP69 B | He can't retain or weigh the information and believes he needs to feed a cat that died years ago: he lacks capacity for this decision because of delirium. We act in his best interests, with his family, choose the least restrictive option, treat the delirium and reassess.
+PP70 A | =
+PP70 B | An 8 mm pearly papule on the nose with a rolled edge, telangiectasia and a central crust: a basal cell carcinoma. It grows slowly and rarely spreads; refer to dermatology for excision, urgently if it threatens the eye or nose.
+PP70 C | A rapidly growing 15 mm keratotic nodule with a central plug on the scalp of an immunosuppressed man: a squamous cell carcinoma. Urgent suspected skin cancer referral for excision, checking the regional nodes.
+PP71 A | =
+PP71 B | An annular plaque with a scaly, raised advancing edge and central clearing that grew with hydrocortisone: tinea corporis made worse by a steroid. Stop the steroid, topical terbinafine, and check the feet, nails and the dog.
+PP74 A | =
+PP74 B | Red, dry, cracked skin on the backs of the hands that improves on holiday in a hairdresser: irritant contact dermatitis. Gloves, a soap substitute, frequent emollients and a short course of a potent steroid; patch testing if it doesn't settle.
+PP75 A | =
+PP75 B | Visual loss in a 76-year-old with temporal headache, scalp tenderness, jaw claudication, an RAPD, a pale swollen disc and ESR 90: arteritic ischaemic optic neuropathy from GCA. IV methylprednisolone or high-dose prednisolone now, same-day ophthalmology, to protect the other eye.
+PP75 C | A 28-year-old with painful eye movements, washed-out colours, reduced acuity and a right RAPD: optic neuritis. Urgent ophthalmology and an MRI brain, because it can be the first sign of multiple sclerosis.
+PP76 A | =
+PP76 B | There's a left homonymous hemianopia with normal discs: the lesion is behind the chiasm on the right, most likely a right posterior cerebral artery stroke given his AF. Stroke pathway imaging, anticoagulation via the stroke team, and he mustn't drive.
+PP78 A | The cup-to-disc ratio is 0.7 on the right with a raised pressure of 28: chronic open-angle glaucoma. NICE now offers laser trabeculoplasty first, or latanoprost drops at night, with lifelong monitoring, and his family should have regular eye tests.
+PP78 B | =
+PP78 C | Recent distortion and central blur with a macular haemorrhage: wet age-related macular degeneration. Urgent referral to the macular service for anti-VEGF injections; and stopping smoking helps protect the other eye.
+PP80 A | =
+PP80 B | Six weeks of worsening hoarseness, a hard fixed neck node, ear pain and weight loss in a heavy smoker: suspected laryngeal cancer. Referral on the suspected head and neck cancer pathway for nasendoscopy, ultrasound-guided FNA and imaging.
+PP83 A | =
+PP83 B | A painful arc between 60 and 120 degrees, pain and weakness on resisted abduction, and a positive empty can test with full passive movement: a supraspinatus injury. X-ray to exclude a fracture, ultrasound of the cuff, physiotherapy, an NSAID with a PPI, and a fit note for modified duties.
+PP83 C | Painful then stiff loss of both active and passive movement, worst in external rotation, with a normal X-ray in a diabetic: a frozen shoulder in the stiffening phase. It's self-limiting, with most better within 2 years; physio, an injection, and a supported reduction of her morphine.
+PP84 A | Bony swelling, crepitus, a small effusion and an X-ray with medial joint space loss and osteophytes: knee osteoarthritis. Strengthening exercise and weight loss are the core treatments, with a topical NSAID; paracetamol alone isn't recommended now.
+PP84 B | =
+PP84 C | A hot, swollen knee with fever and pus with Gram-positive cocci on aspirate: septic arthritis. Blood cultures, IV flucloxacillin after the aspirate, and the orthopaedic team for an urgent washout.
+PP84 D | A pop with immediate swelling, an effusion and positive anterior drawer and Lachman's tests: an ACL rupture. One NSAID with a PPI, an X-ray and MRI, physiotherapy and orthopaedic referral.
+PP86 A | =
+PP86 B | Heberden's and Bouchard's nodes with squaring at the base of the thumb and only brief morning stiffness: nodal osteoarthritis. Exercise, joint protection and a thumb splint, a topical NSAID first, and a steroid injection for the thumb base if needed.
+PP89 A | =
+PP89 B | Potassium 7.1 with creatinine rising from 140 to 394: severe AKI with dangerous hyperkalaemia. ECG and monitoring, calcium gluconate 10% 30 mL IV, insulin and glucose, salbutamol nebs; stop furosemide and ramipril, renally adjust the antibiotic, and call the renal team.
+PP93 A | =
+PP93 B | A red, hot, swollen shin with fever and no allergies: cellulitis. Flucloxacillin 1 g four times a day for 5 to 7 days, mark the edge, elevate the leg, treat the athlete's foot, and review in 48 hours.
+PP19 A | =
+PP24 A | =
+PP25 A | =
+PP46 A | =
+PP57 A | =
+PP85 A | =
+PP99 A | =
+PP100 A | =

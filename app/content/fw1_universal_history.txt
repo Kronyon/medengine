@@ -1,0 +1,397 @@
+# Frameworks (v3). Syntax:
+#  @@@ UNIVERSAL            then  nn: Title | what you say (or -) | why
+#  @@ id | icon | Title | blurb       framework
+#    step: key | !Title (! = non-negotiable) | say (or -) | why
+#    nn: framework-level non-negotiable
+#  @ id | Title | station ids | unit idxs      member (presentation / system / task)
+#    use: when this applies    ch: stepkey | what changes    tree: Branch | leaf; leaf
+#    nn: member non-negotiable    pearl: memory hook
+
+@@@ UNIVERSAL
+nn: Bare below the elbows; visible hand hygiene on entering and leaving | - | Official Nottingham anchor: "decontaminates hands when entering clinical area". Examiners tick what they see, so gel where they can see you.
+nn: Introduce yourself with your full name and role | Hello, my name is Nana, I'm a third-year medical student. | First professionalism anchor. The actor is later asked whether they would want you as their doctor; warmth starts here.
+nn: Identify the patient with two identifiers (name + date of birth), and check them against the chart, form or wristband | Can I check your full name and date of birth, please? | Official anchor: "correctly identifies patient using at least two patient identifiable details". In prescribing and procedure stations, check against the chart or form too.
+nn: Explain why you are there and get consent before you start (again before any intimate or painful step) | I've been asked to ___. Is that OK with you? | No consent, no marks for what follows. Re-consenting before an intimate step is a separate mark.
+nn: Ask about pain before you touch; offer a chaperone for breast, genital and rectal examinations | Before I start, are you sore anywhere? | Anchor: "checks if patient has any pain anywhere". Hurting the patient is a professionalism drop; a chaperone is a safety mark.
+nn: Open question first, then listen without interrupting | What's brought you in today? | The golden minute. The actor's second sentence usually holds the cue you need.
+nn: Ideas, concerns and expectations in every station, even A–E and prescribing | Is there anything in particular worrying you about this? | Communication 3 → 4 depends on finding and answering the hidden worry. Every actor brief has one.
+nn: Plain English: explain every medical word; chunk and check | In simple terms, ___. Does that make sense so far? | Anchor: "avoids medical jargon" and "checks patient's understanding".
+nn: Signpost each change of topic, then summarise before the plan | I'm going to ask some questions about your general health now. | Your formative feedback named structure. Signposting is the cheapest structure mark there is.
+nn: Allergies and the reaction before any drug, fluid, dressing or plaster | Do you have any allergies? What happened when you took it? | Rash vs anaphylaxis changes the prescription. It is a critical item in every prescribing scheme.
+nn: Say your reasoning aloud with the reasoning sentence | The important finding is ___. It suggests ___ because ___. The next step is ___. | Clinical reasoning is only marked if the examiner hears it. Your feedback named this sentence.
+nn: Treat as you find in an unwell patient, and call for senior help early | I'd like to call for senior help now while I continue my assessment. | A–E anchors reward "treated things as soon as found" and "recognises need to escalate".
+nn: Safety-net with specific warning signs, who to contact and how fast | If you notice ___, call 999 or come straight back. | A named safety item in almost every scheme; "come back if worse" alone scores less.
+nn: Respect autonomy and dignity: no judgement about smoking, alcohol or drugs; cover the patient | It's your choice, and I'm here to help whichever way you decide. | Anchor: "respects patient's right for autonomy to continue to smoke" and "treats patient with dignity".
+nn: Be honest about limits; never bluff | I'm not certain, so I'd check the BNF and with my senior. | Unsafe confident statements fail a station; honest checking never does.
+nn: Watch the clock: by 8:00 stop gathering and give the plan | - | Your feedback: protect the last 2 minutes for management. The app turns amber at 8:00.
+nn: Close: questions, leaflet, follow-up, thank, hand hygiene | Is there anything you'd like to ask me? I'll give you a leaflet as well. | Anchor: "gives opportunity for questions". A courteous close leaves the actor scoring you well.
+nn: Talk to a manikin as if it were the patient | Mr Smith, I'm just going to listen to your chest. | Anchor: "addresses the manikin as the patient" and "communicates with the manikin".
+
+@@ hx | 🗣 | History: any presenting complaint | One skeleton for every history station. Only the middle (the questions that split the differential) changes.
+step: open | !Open the station | Hello, my name is Nana, I'm a third-year medical student. Can I check your full name and date of birth? I've been asked to find out what's brought you in today; is that OK? | Hand hygiene, name and role, two identifiers, purpose and consent: the professionalism marks are banked in the first 20 seconds.
+step: pc | !Presenting complaint: open question, then the golden minute | What's brought you in today? ... Tell me more about that. | Patients give the key clue in their own words. Interrupting early loses information and the Communication mark.
+step: hpc | Characterise the main symptom | When did it start? Was it sudden or gradual? Has it changed since? | SOCRATES for pain, a timeline for everything else. Timing sorts acute, subacute and chronic causes before you think of a diagnosis.
+step: disc | Discriminators: the questions that split your differential | - | Information gathering is marked on questions that change your differential, not on a checklist read aloud. Run the tree for this complaint.
+step: rf | !Red flags for this complaint | Have you noticed any weight loss, blood, or anything else that's worried you? | Missing the red flag is the commonest reason for a borderline fail. Every scheme has a red-flag line.
+step: sr | Focused systems review | I'm going to ask a few quick questions about the rest of your health. | Catches the second problem the actor is briefed to reveal only if asked.
+step: pmh | Past medical and surgical history | Do you have any other medical problems, or have you had any operations? | The past history often explains the presentation (previous gallstones, previous clot, diabetes).
+step: dh | !Drugs, adherence and allergies | What medicines do you take, including anything you buy yourself? Any allergies, and what happened? | Drug causes are a favourite twist (NSAIDs, codeine, antipsychotics, warfarin). Allergy plus reaction is critical.
+step: fh | Family history relevant to the complaint | Does anything run in the family? | Unlocks risk: sudden death under 40, early heart disease, bowel or breast cancer, clots.
+step: sh | Social history: smoking, alcohol, drugs, work, home, function, driving | Do you smoke? How much alcohol do you drink in a typical week? Who's at home with you? | Quantify: pack-years and units. Function and driving feed straight into the plan.
+step: ice | !Ideas, concerns, expectations and impact | What do you think might be going on? Is anything worrying you? What were you hoping we'd do today? | The actor's hidden worry is in every brief. Naming it moves Communication from 3 to 4.
+step: sum | !Summarise and signpost | Let me check I've got this right: ___. Have I missed anything? | Shows structure (your feedback point) and gives the actor a chance to add the missing clue.
+step: next | Present, explain or plan (what the door asks) | The important finding is ___. It suggests ___ because ___. The next step is ___. | Make the reasoning audible, then move to the plan by 8:00.
+step: close | !Safety-net, questions, thank | If ___ happens, please call 999 or come straight back. Any questions? | Specific safety-netting is a safety item. Close warmly.
+nn: Quantify smoking (pack-years) and alcohol (units per week) every time
+nn: Ask about over-the-counter and herbal medicines, not just prescriptions
+nn: Leave 2 minutes for the summary and plan
+
+@ chest | Chest pain | PP05, PP06, PP07, PP20, PP106, PP108 | 0, 1, 2, 13
+use: Any chest pain door: A&E, GP, ward, or "chest tightness".
+ch: hpc | Full SOCRATES. Onset is the sorter: sudden and tearing = dissection; sudden and pleuritic = PE or pneumothorax; on exertion and relieved by rest = angina.
+ch: disc | Exertion vs rest; radiation to jaw, arm or back; pleuritic (worse on breathing or lying flat, better sitting forward); positional or tender to touch; relation to food, acid brash.
+ch: rf | Pain at rest for more than 15 minutes, sweating and vomiting, tearing pain to the back, collapse, haemoptysis, breathlessness.
+ch: sr | Breathlessness, palpitations, syncope, calf swelling, cough and fever, reflux, weight loss.
+ch: pmh | Previous MI, stents, CABG, diabetes, hypertension, high cholesterol, previous DVT or PE, recent surgery or long travel.
+ch: dh | GTN use and effect, antiplatelets, anticoagulants, the contraceptive pill or HRT (clot risk), cocaine.
+ch: fh | Heart disease under 60 in a first-degree relative; sudden death; clotting disorders.
+ch: sh | Smoking pack-years, alcohol, cocaine, occupation (HGV and driving).
+ch: next | ECG within 10 minutes, troponin; Wells if PE is possible.
+tree: Cardiac | ACS (STEMI, NSTEMI, unstable angina); stable angina; pericarditis or myocarditis; aortic dissection
+tree: Pulmonary | PE; pneumothorax; pneumonia or pleurisy
+tree: Gastrointestinal | GORD or oesophagitis; oesophageal spasm or rupture; peptic ulcer; biliary colic; pancreatitis
+tree: Chest wall and other | costochondritis or muscular; shingles before the rash; anxiety (a diagnosis of exclusion)
+nn: Ask about radiation to the jaw, arm and back
+nn: Cardiac risk factors: smoking, diabetes, hypertension, cholesterol, family history
+pearl: Four killers first: ACS, dissection, PE, tension pneumothorax. Then the rest.
+
+@ sob | Breathlessness | PP10, PP16, PP18, PP19 | 6, 9, 11, 13, 15, 16, 10
+use: "Shortness of breath", "breathless", "swollen ankles", pre-op breathless patient.
+ch: hpc | Speed of onset: seconds (pneumothorax, PE), hours to days (asthma, pneumonia, LVF), months (COPD, ILD, effusion, anaemia). Exercise tolerance in metres or flights of stairs.
+ch: disc | Orthopnoea (pillows) and PND = heart failure; wheeze and night cough with variation = asthma; productive cough and fever = infection; pleuritic pain and calf swelling = PE; ankle swelling.
+ch: rf | Speaking in short sentences, cyanosis, chest pain, haemoptysis, weight loss, collapse.
+ch: sr | Cough, sputum, haemoptysis, chest pain, palpitations, fever, weight loss.
+ch: pmh | Asthma (ever admitted or intubated?), COPD, heart failure, MI, valve disease, clots, cancer.
+ch: dh | Inhalers and technique, home oxygen, steroid courses this year, beta-blockers or NSAIDs (asthma), amiodarone or methotrexate (fibrosis).
+ch: sh | Smoking pack-years, occupation (asbestos, coal, farming, birds), pets, travel, function.
+tree: Heart | pump failure (LVF); valves (AS, MR); rhythm (AF)
+tree: Airways | asthma; COPD; bronchiectasis; obstruction
+tree: Lung tissue | pneumonia; ILD or fibrosis; pulmonary oedema; cancer
+tree: Pleura | effusion; pneumothorax
+tree: Vessels | PE; pulmonary hypertension
+tree: Outside the lung | anaemia; metabolic acidosis (DKA); neuromuscular weakness; anxiety
+nn: Quantify exercise tolerance
+nn: Ask about orthopnoea and ankle swelling
+pearl: Heart, airways, tissue, pleura, vessels, then blood: walk the breath from the heart outwards.
+
+@ cough | Cough (acute or chronic) | PP15, PP21, PP100 | 15, 16, 17, 18, 19, 20, 21, 22, 23
+use: "Persistent cough", "productive cough and fever", haemoptysis.
+ch: hpc | Duration splits it: under 3 weeks is acute (infection, PE); over 8 weeks is chronic (asthma, COPD, reflux, post-nasal drip, ACE inhibitor, cancer, TB, bronchiectasis, ILD).
+ch: disc | Sputum: colour, amount (a cupful daily = bronchiectasis), blood. Fever and rigors; pleuritic pain; night cough or wheeze; reflux; post-nasal drip.
+ch: rf | Haemoptysis, weight loss, night sweats, hoarse voice, smoker over 40, asbestos.
+ch: dh | ACE inhibitor (dry cough), inhalers, recent antibiotics, immunosuppressants.
+ch: sh | Smoking pack-years, occupation (asbestos, mining, shipyards), TB contacts, travel, birds, housing.
+ch: next | CURB-65 if pneumonia; CXR; sputum; urgent CXR or 2WW if a cancer red flag.
+tree: Acute infective | URTI; acute bronchitis; pneumonia (CAP or HAP); COVID-19
+tree: Acute other | PE; aspiration; inhaled foreign body
+tree: Chronic airways | asthma; COPD; bronchiectasis
+tree: Chronic other | GORD; post-nasal drip; ACE inhibitor; lung cancer; TB; ILD
+nn: Ask about haemoptysis and weight loss
+nn: Smoking pack-years and occupational exposure
+pearl: 3 weeks acute, 8 weeks chronic. Haemoptysis + weight loss + smoker = 2WW CXR.
+
+@ palp | Palpitations, blackouts and falls | PP01, PP04, PP11, PP58 | 3, 96
+use: "Palpitations", "collapse", "funny turn", "fall", "faint".
+ch: hpc | Before, during, after. Before: what were they doing (standing, exertion, on standing up), any warning. During: witness account, how long out, colour, jerking. After: how fast they recovered, confusion, injury, long lie.
+ch: disc | Palpitations: tap the rhythm (fast and regular = SVT; irregular = AF), onset and offset abrupt? Collapse: exertional syncope = AS or HCM; postural = orthostatic; prodrome of heat, nausea, greying = vasovagal; tongue-biting, incontinence, prolonged confusion = seizure.
+ch: rf | Syncope on exertion or lying down, chest pain, family history of sudden death under 40, injury, new murmur.
+ch: sr | Chest pain, breathlessness, weight loss and heat intolerance (thyroid), polyuria (diabetes), vision, focal weakness.
+ch: pmh | Heart disease, valve disease, epilepsy, diabetes, previous falls (number and type), bone health, vision, frailty.
+ch: dh | Antihypertensives, diuretics, alpha-blockers, sedatives, antipsychotics (QT), hypoglycaemics, recent changes.
+ch: sh | Caffeine, alcohol, drugs, home (stairs), who's around (long lie), driving and occupation.
+ch: next | ECG on every collapse; lying and standing BP; glucose. DVLA advice before they leave.
+tree: Cardiac | arrhythmia (AF, SVT, VT, heart block, WPW); outflow obstruction (AS, HCM)
+tree: Reflex | vasovagal; situational (cough, micturition)
+tree: Orthostatic | drugs; volume depletion; autonomic failure (diabetes, Parkinson's)
+tree: Not syncope | seizure; hypoglycaemia; mechanical trip; TIA (rarely)
+nn: Witness account
+nn: Driving: tell them what DVLA says before they leave
+pearl: Before, during, after. Exertional syncope is cardiac until proven otherwise.
+
+@ abdo | Acute abdominal pain | PP22, PP23, PP24, PP26, PP27, PP45 | 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 37
+use: SAU, A&E or GP abdominal pain.
+ch: hpc | SOCRATES. Site maps to the organ; colicky = obstruction of a tube (bowel, ureter, bile duct); constant = inflammation; sudden = perforation or vascular.
+ch: disc | Vomiting (bilious? faeculent? coffee grounds?), bowels and flatus (absolute constipation = obstruction), jaundice, dark urine and pale stools, urinary symptoms, fever and rigors, relation to fatty food, previous episodes.
+ch: rf | Peritonism, collapse, GI bleeding, pulsatile mass, pain out of proportion (ischaemia), pregnancy possible.
+ch: sr | Last menstrual period and pregnancy chance in anyone who could be pregnant; chest pain (inferior MI); diabetes symptoms (DKA).
+ch: pmh | Previous operations (adhesions), gallstones, IBD, diverticular disease, AAA, AF (embolic ischaemia).
+ch: dh | NSAIDs and steroids (perforation), anticoagulants, opioids (constipation), the pill.
+ch: sh | Alcohol (pancreatitis), smoking, travel, sexual history if pelvic.
+ch: next | Pregnancy test, urine dip, bloods incl. lipase and lactate, erect CXR, imaging; NBM, analgesia, fluids.
+tree: Inflammation | appendicitis; cholecystitis; pancreatitis; diverticulitis; pyelonephritis; PID
+tree: Obstruction of a tube | bowel obstruction; biliary colic; renal colic; urinary retention
+tree: Perforation | perforated ulcer; perforated diverticulum
+tree: Vascular | ruptured AAA; mesenteric ischaemia
+tree: Don't-miss mimics | ectopic pregnancy; testicular torsion; inferior MI; DKA; lower-lobe pneumonia
+nn: Pregnancy test in anyone who could be pregnant
+nn: Ask about bowels and flatus
+pearl: Inflamed, blocked, burst or ischaemic: four mechanisms, then the mimics.
+
+@ gibleed | GI bleeding (upper or lower) | PP29, PP30 | 32, 38, 35, 36, 33
+use: Haematemesis, melaena, fresh rectal bleeding, positive FIT.
+ch: hpc | Upper: fresh blood vs coffee grounds; vomiting first then blood (Mallory-Weiss). Lower: bright red on paper vs mixed in; melaena (black, tarry, smelly) means upper until proven otherwise.
+ch: disc | Volume and how many times; dizziness or collapse; NSAIDs and alcohol; liver disease; change in bowel habit and weight loss (cancer); anal pain on defecation (fissure).
+ch: rf | Collapse, ongoing bleeding, chest pain, liver disease, anticoagulants, change in bowel habit over 60, iron-deficiency anaemia, weight loss.
+ch: dh | NSAIDs, aspirin, clopidogrel, anticoagulants, SSRIs, steroids, iron (black stool but not tarry).
+ch: sh | Alcohol in units (varices), smoking.
+ch: next | Glasgow-Blatchford score, FBC, U&E (raised urea = upper bleed), clotting, group and save or crossmatch; endoscopy within 24 hours.
+tree: Upper | peptic ulcer; varices; Mallory-Weiss tear; oesophagitis; cancer
+tree: Lower | diverticular bleed; angiodysplasia; colitis (IBD, infective, ischaemic); colorectal cancer; haemorrhoids; fissure
+nn: Ask about NSAIDs, anticoagulants and alcohol
+nn: Look for haemodynamic compromise first
+pearl: Raised urea with a normal creatinine = blood digested from above.
+
+@ bowel | Change in bowel habit or diarrhoea | PP32, PP33, PP30 | 24, 25, 27, 28, 29, 33, 39
+use: Diarrhoea, constipation, IBS, IBD, positive FIT.
+ch: hpc | How often, how long, consistency (Bristol), urgency, nocturnal symptoms (organic, not IBS), blood or mucus, tenesmus.
+ch: disc | Bloody diarrhoea = colitis or infection; nocturnal diarrhoea and weight loss = organic; relief on defecation with bloating = IBS; steatorrhoea = malabsorption; travel and contacts = infection.
+ch: rf | Over 60 with change in bowel habit, rectal bleeding, iron-deficiency anaemia, weight loss, abdominal or rectal mass, family history of bowel cancer.
+ch: sr | Mouth ulcers, joints, eyes, skin (IBD); thyroid symptoms; coeliac symptoms.
+ch: dh | Recent antibiotics (C. difficile), PPIs, laxatives, metformin, opioids, iron.
+ch: fh | Bowel cancer, IBD, coeliac disease.
+ch: sh | Travel, food, contacts, smoking (worsens Crohn's), sexual history if relevant.
+tree: Acute | infective gastroenteritis; C. difficile; first flare of IBD
+tree: Chronic inflammatory | Crohn's disease; ulcerative colitis
+tree: Chronic non-inflammatory | IBS; coeliac disease; thyrotoxicosis; drugs
+tree: Red flag | colorectal cancer
+nn: Ask about blood, weight loss and nocturnal symptoms
+pearl: Nocturnal symptoms and weight loss are never IBS.
+
+@ dysp | Dyspepsia, reflux and dysphagia | PP31 | 30, 31, 32
+use: Heartburn, indigestion, epigastric pain, difficulty swallowing.
+ch: hpc | Burning after meals or at night; relief with food (duodenal) or antacids; bloating; dysphagia: solids first then liquids (stricture or cancer) vs both from the start (motility).
+ch: disc | NSAIDs; alcohol, smoking, late meals; cardiac or biliary features (NICE asks you to exclude them).
+ch: rf | ALARMS: anaemia, loss of weight, anorexia, recent onset and progressive, melaena or haematemesis, swallowing difficulty; age 55 or over with weight loss.
+ch: dh | NSAIDs, aspirin, steroids, bisphosphonates, calcium-channel blockers; PPI use (stop 2 weeks before an H. pylori test).
+ch: sh | Alcohol, smoking, diet, weight, stress.
+ch: next | No red flags: lifestyle, stop NSAIDs, full-dose PPI for 4 weeks or H. pylori test and treat. Dysphagia at any age or 55+ with weight loss: 2WW OGD.
+tree: Benign | GORD; functional dyspepsia; peptic ulcer (H. pylori, NSAIDs); hiatus hernia
+tree: Don't miss | oesophageal or gastric cancer; cardiac pain; biliary colic
+nn: ALARMS red flags every time
+nn: Ask about NSAIDs and over-the-counter antacids
+pearl: Dysphagia is a 2WW at any age.
+
+@ jaund | Jaundice | PP102, PP22 | 41, 42, 43, 49
+use: Yellow skin or eyes; painless jaundice; RUQ pain with jaundice.
+ch: hpc | Painful (stones, cholangitis) or painless (cancer); speed of onset; dark urine and pale stools (cholestatic); itch.
+ch: disc | Fever and rigors (cholangitis: Charcot's triad); weight loss, new diabetes (pancreatic cancer); stress or fasting with nothing else (Gilbert's); IBD (PSC).
+ch: rf | Painless jaundice with weight loss; confusion (liver failure); bleeding; fever with rigors.
+ch: dh | Paracetamol, co-amoxiclav, flucloxacillin, statins, methotrexate, the pill, herbal remedies.
+ch: sh | Alcohol units, IV drug use, tattoos, travel, sexual history (hepatitis risk), occupation.
+ch: next | Split by LFT pattern: bilirubin alone (pre-hepatic) vs ALT high (hepatic) vs ALP and GGT high (post-hepatic) → USS for dilated ducts.
+tree: Pre-hepatic (unconjugated) | Gilbert's syndrome; haemolysis
+tree: Hepatic (ALT high) | viral hepatitis; alcohol; drugs; autoimmune; cirrhosis
+tree: Post-hepatic (ALP and GGT high) | CBD stones; cholangitis; pancreatic head cancer; PSC; stricture
+nn: Ask about dark urine, pale stools and itch
+nn: Alcohol and hepatitis risk factors
+pearl: Courvoisier: a palpable painless gallbladder with jaundice is unlikely to be stones.
+
+@ head | Headache | PP55 | 89, 90, 91, 93, 94, 95, 166
+use: Headache in A&E, MAU or GP.
+ch: hpc | Onset is everything: thunderclap (peak within a minute) = SAH until proven otherwise. New headache over 50 = GCA. Worse lying down, coughing and in the morning with vomiting = raised ICP.
+ch: disc | Fever, rash and neck stiffness (meningitis); confusion or seizure (encephalitis); scalp tenderness and jaw claudication (GCA); aura and photophobia (migraine); eye pain with halos (acute glaucoma); head injury and anticoagulants (subdural).
+ch: rf | SNOOP: systemic signs, neurological signs, onset sudden, older (new over 50), pattern change or positional; plus pregnancy, immunosuppression, cancer history.
+ch: dh | Analgesic use on 15+ days a month (medication overuse); anticoagulants; the pill (migraine with aura).
+ch: sh | Occupation, screen time, stress, alcohol, driving.
+ch: next | CT head, LP if indicated, ESR or CRP if over 50; in GCA start steroids before the biopsy.
+tree: Primary | tension-type; migraine; cluster
+tree: Secondary, sudden | SAH; intracerebral bleed; venous sinus thrombosis
+tree: Secondary, infective | meningitis; encephalitis; brain abscess
+tree: Secondary, inflammatory or pressure | GCA; raised ICP (tumour, subdural, IIH); acute angle-closure glaucoma; medication overuse
+nn: Ask the speed of onset
+nn: Ask about visual symptoms and jaw claudication in anyone over 50
+pearl: Thunderclap = SAH. Over 50 = GCA. Fever + neck stiffness = meningitis.
+
+@ conf | Confusion (collateral history) | PP56, PP57 | 116, 92, 94, 110
+use: "New-onset confusion", "more muddled", collateral from a relative or carer.
+ch: open | Check who you are speaking to, their relationship, and that the patient would be happy for you to talk (or that it's in their best interests).
+ch: hpc | Baseline: what are they normally like? Onset: hours to days (delirium) vs months to years (dementia). Fluctuation, drowsiness or agitation, hallucinations.
+ch: disc | Infection (urine, chest), new drugs, alcohol (or stopping it), falls or head injury (subdural), constipation and retention, pain, glucose.
+ch: rf | Head injury on anticoagulants, fever with headache or seizure, focal neurology, rapid decline.
+ch: dh | Opioids, benzodiazepines, anticholinergics, steroids, recent changes, anticoagulants.
+ch: sh | Who they live with, function, alcohol, safety at home.
+ch: next | 4AT, full A–E, bloods, urine, CXR, CT head if head injury or focal signs.
+tree: Delirium causes (PINCH ME) | pain; infection; nutrition; constipation; hydration; medication; environment
+tree: Intracranial | subdural; stroke; encephalitis or meningitis; seizure
+tree: Metabolic | hypoglycaemia; hyponatraemia; hypercalcaemia; hepatic encephalopathy; uraemia
+tree: Toxic | alcohol withdrawal; Wernicke's; drugs
+nn: Establish the baseline
+nn: Ask about falls and anticoagulants
+pearl: Delirium is acute and fluctuating; dementia is slow and steady.
+
+@ weak | Weakness, numbness and back pain | PP51, PP54, PP59 | 99, 98, 97
+use: Leg weakness, tingling feet, back pain with neurology.
+ch: hpc | Where (one limb, both legs, one side), how fast (minutes = stroke; days = GBS or cord compression; months = neuropathy), ascending or descending.
+ch: disc | Back pain; saddle numbness, bladder and bowel change (cauda equina); sensory level (cord); preceding diarrhoea or chest infection (GBS); glove-and-stocking (neuropathy); wasting and fasciculation (MND).
+ch: rf | Bladder or bowel dysfunction, saddle anaesthesia, cancer history, rapidly progressive weakness, breathing difficulty (GBS).
+ch: pmh | Cancer (breast, lung, prostate, kidney, thyroid metastasise to bone), diabetes, B12, alcohol.
+ch: dh | Steroids, chemotherapy, metformin (B12).
+ch: next | Urgent MRI whole spine if cord compression suspected; FVC in GBS.
+tree: Brain | stroke; tumour
+tree: Cord | metastatic cord compression; disc; myelitis
+tree: Root or cauda | radiculopathy; cauda equina
+tree: Peripheral nerve | diabetic polyneuropathy; GBS; mononeuropathy (carpal tunnel)
+tree: Muscle or junction | myopathy; myasthenia
+nn: Ask about bladder, bowel and saddle sensation
+pearl: Find the level: brain, cord, root, nerve, junction or muscle.
+
+@ eye | Visual loss and red eye | PP75, PP76, PP77, PP78 | 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167
+use: "Sudden loss of vision", "red eye", "flashes and floaters".
+ch: hpc | Sudden or gradual; painful or painless; one eye or both; transient or persistent.
+ch: disc | Flashes, floaters and a curtain (retinal detachment); jaw claudication (GCA); halos and vomiting (acute glaucoma); photophobia (iritis, keratitis); contact lenses (keratitis); pain on eye movement (optic neuritis).
+ch: rf | Sudden painless loss, painful red eye with reduced vision, contact lens wearer with a painful red eye, trauma, new symptoms over 50.
+ch: pmh | Diabetes, hypertension, AF (emboli), autoimmune disease (iritis, scleritis).
+ch: dh | Steroids (cataract, glaucoma), anticoagulants.
+ch: sh | Driving (DVLA), occupation.
+ch: next | Acuity first in every eye station, then pupils, fields, fundoscopy.
+tree: Sudden painless | CRAO; CRVO; retinal detachment; vitreous haemorrhage; GCA (AION); stroke
+tree: Sudden painful | acute angle-closure glaucoma; optic neuritis; keratitis; uveitis
+tree: Gradual | cataract; AMD; diabetic retinopathy; chronic glaucoma
+tree: Red eye, vision normal | conjunctivitis; blepharitis; subconjunctival haemorrhage; episcleritis
+nn: Visual acuity before anything else
+pearl: Red eye + reduced vision or pain = same-day ophthalmology.
+
+@ ent | Ear, nose and throat | PP60, PP79, PP80, PP81, PP82 | 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151
+use: Hearing loss, tinnitus, vertigo, sore throat, nosebleed, blocked nose, neck lump, hoarse voice.
+ch: hpc | Ear: hearing, otalgia, otorrhoea, vertigo, tinnitus (your CP2 notes order). Nose: blockage, discharge, smell, bleeding side. Throat: pain, swallowing, voice, breathing.
+ch: disc | Unilateral hearing loss with tinnitus (acoustic neuroma); episodic vertigo with fullness (Ménière's); positional vertigo lasting seconds (BPPV); drooling and stridor (epiglottitis).
+ch: rf | Unilateral sensorineural loss, hoarse voice over 3 weeks, stridor, unilateral nasal blockage with blood, neck lump over 3 weeks.
+ch: dh | Ototoxic drugs: gentamicin, loop diuretics, cisplatin, high-dose aspirin. Anticoagulants (epistaxis).
+ch: fh | Ear problems (NF2 with bilateral acoustic neuromas).
+ch: sh | Noise exposure, occupation that depends on hearing, smoking and alcohol (head and neck cancer).
+tree: Conductive hearing loss | wax; otitis media or glue ear; otitis externa; perforation; otosclerosis
+tree: Sensorineural hearing loss | presbycusis; noise; ototoxic drugs; acoustic neuroma; sudden SNHL
+tree: Vertigo | BPPV; vestibular neuritis; Ménière's; central (stroke)
+nn: Ask about ototoxic drugs
+pearl: Hearing, otalgia, otorrhoea, vertigo, tinnitus: the 5 ear questions.
+
+@ lump | Lumps: breast, neck, groin and scrotum | PP34, PP36, PP43, PP80, PP104 | 52, 53, 54, 55, 56, 57, 58, 74, 81, 82, 83, 84
+use: Any "lump" or "swelling".
+ch: hpc | When noticed, how, change in size, pain, relation to periods (breast), cough or straining (hernia), skin or nipple changes.
+ch: disc | Breast: nipple discharge (bloody?), inversion, skin tethering, family history. Neck: moves on swallowing (thyroid) or tongue protrusion (thyroglossal cyst), voice change, B symptoms. Groin: reducible? Scrotum: sudden pain (torsion), can you get above it?
+ch: rf | Hard, fixed, irregular, growing, B symptoms, hoarse voice, previous radiotherapy, bloody nipple discharge, sudden testicular pain.
+ch: pmh | Previous cancer and radiotherapy, undescended testis (testicular cancer), thyroid disease.
+ch: dh | HRT and the pill (breast), anticoagulants.
+ch: fh | Breast and ovarian cancer (BRCA), thyroid cancer, bowel cancer.
+ch: next | Breast: triple assessment. Neck: USS ± FNA. Testis: urgent USS plus tumour markers. Torsion: theatre, no imaging.
+tree: Breast | fibroadenoma; cyst; fibroadenosis; abscess; cancer
+tree: Neck midline | thyroid nodule or goitre; thyroglossal cyst
+tree: Neck lateral | reactive node; lymphoma; metastasis; branchial cyst; salivary gland
+tree: Groin | inguinal hernia; femoral hernia; node; saphena varix
+tree: Scrotum | hydrocele; varicocele; epididymal cyst; epididymo-orchitis; torsion; testicular cancer
+nn: Ask about change in size and B symptoms
+pearl: Any lump: site, size, shape, surface, consistency, tenderness, temperature, fixation, transillumination, nodes.
+
+@ leg | Leg pain and ulcers | PP40, PP41, PP42 | 59, 60, 61, 62, 63, 64, 65, 66
+use: Calf pain on walking, leg ulcer, swollen leg, post-op leg pain.
+ch: hpc | Claudication distance in metres; how long rest relieves it; rest pain at night relieved by hanging the leg out of bed (critical ischaemia).
+ch: disc | Buttock pain plus erectile dysfunction (aortoiliac, Leriche); sudden pale, painful, cold leg (acute ischaemia: 6 Ps); unilateral hot swollen calf (DVT); pain under a cast increasing with passive stretch (compartment syndrome).
+ch: rf | Rest pain, tissue loss, gangrene, 6 Ps, pain out of proportion.
+ch: pmh | MI, stroke, diabetes, hypertension, high cholesterol, CKD, previous DVT.
+ch: dh | Statin, antiplatelet, anticoagulant, the pill or HRT.
+ch: sh | Smoking pack-years (the single most important), function, occupation.
+ch: next | ABPI, duplex; best medical therapy; supervised exercise.
+tree: Arterial | intermittent claudication; critical limb ischaemia; acute limb ischaemia
+tree: Venous | varicose veins; venous ulcer; DVT
+tree: Other | spinal stenosis; compartment syndrome; neuropathic (diabetic) ulcer; lymphoedema
+nn: Ask about rest pain and tissue loss
+nn: Smoking history
+pearl: Arterial ulcers are punched out on the toes; venous ulcers sit over the medial malleolus.
+
+@ uro | Urinary symptoms: LUTS, haematuria, retention and colic | PP37, PP44, PP45, PP46 | 75, 76, 77, 78, 79, 80, 85
+use: Urinary symptoms, blood in the urine, can't pass urine, loin pain.
+ch: hpc | LUTS split: storage (frequency, urgency, nocturia) vs voiding (hesitancy, poor stream, terminal dribbling, incomplete emptying). Haematuria: painful or painless, start, throughout or end of stream, clots.
+ch: disc | Loin-to-groin colic, writhing (stone); fever with loin pain (pyelonephritis, obstructed infected kidney); bone pain (prostate metastases); constipation and anticholinergics (retention).
+ch: rf | Painless visible haematuria (cancer until proven otherwise), weight loss, bone pain, fever with an obstructed kidney, anuria.
+ch: dh | Anticholinergics, tricyclics, opioids (retention); anticoagulants; cyclophosphamide (bladder).
+ch: sh | Smoking (bladder cancer); occupation with dyes, rubber or chemicals; fluid, caffeine and alcohol intake.
+ch: next | Urine dip, U&E, PSA (counsel first), bladder scan, CT KUB for colic, 2WW for painless haematuria at 45 or over.
+tree: Bladder outflow | BPH; prostate cancer; urethral stricture; clot retention
+tree: Upper tract | stones; pyelonephritis; renal cancer
+tree: Bladder | UTI; bladder cancer; overactive bladder
+tree: Drug or neuro | anticholinergics; cauda equina
+nn: Ask about painless haematuria and smoking
+pearl: Painless visible haematuria is bladder cancer until proven otherwise.
+
+@ joint | Joint pain | PP83, PP84, PP85, PP86, PP87 | 86, 87, 88
+use: Painful knee, hip, shoulder or hand; red hot joint.
+ch: hpc | One joint or many; morning stiffness under 30 minutes (OA) vs over 1 hour (inflammatory); mechanical symptoms: locking, giving way, clicking.
+ch: disc | Red, hot, swollen single joint = septic until proven otherwise; trauma and a pop with rapid swelling (ACL, haemarthrosis); recent diarrhoea or urethritis (reactive); rash, eyes, gut (seronegative).
+ch: rf | Fever with a hot joint, night pain, weight loss, inability to weight bear.
+ch: dh | Diuretics and alcohol (gout); immunosuppression (septic); analgesia used and how well it works.
+ch: sh | Occupation (kneeling), sport, home, stairs, function and who helps.
+ch: next | Aspirate before antibiotics if septic arthritis is possible (do not delay antibiotics in sepsis).
+tree: Mechanical | osteoarthritis; meniscal tear; ligament injury
+tree: Inflammatory, one joint | septic arthritis; gout; pseudogout
+tree: Inflammatory, many joints | rheumatoid; psoriatic; reactive
+tree: Referred | hip to knee; neck to shoulder
+nn: Function: what can't they do now
+pearl: A red hot joint is septic until proven otherwise.
+
+@ tatt | Tired all the time, diabetes and thyroid | PP49, PP50, PP107, PP38 | 67, 72, 73, 10
+use: "Tired all the time", "passing urine a lot", weight change, heat or cold intolerance.
+ch: hpc | What do they mean by tired (sleepy, weak, low)? How long? Impact on life.
+ch: disc | Polyuria, polydipsia, weight loss (diabetes); cold intolerance, weight gain, constipation, heavy periods (hypothyroid); heat intolerance, palpitations, tremor (hyperthyroid); breathlessness and heavy periods (anaemia); snoring (OSA); mood and anhedonia (depression).
+ch: rf | Weight loss, night sweats, lumps, bleeding, change in bowel habit.
+ch: pmh | Autoimmune disease, previous thyroid treatment, gestational diabetes.
+ch: dh | Lithium, amiodarone, steroids, beta-blockers.
+ch: fh | Diabetes, thyroid disease, coeliac.
+ch: next | FBC, ferritin, TFT, HbA1c or glucose, U&E, LFT, coeliac serology, CRP.
+tree: Endocrine | hypothyroidism; diabetes; hyperthyroidism; Addison's
+tree: Blood | iron-deficiency anaemia; B12 or folate deficiency
+tree: Psychological | depression; anxiety
+tree: Sleep and other | OSA; chronic disease; malignancy; post-viral
+nn: Screen mood every time
+pearl: Thyroid, blood, sugar, mood, sleep.
+
+@ preop | Pre-operative assessment | PP35 | 58, 67, 16, 87
+use: Pre-op or anaesthetic clinic.
+ch: hpc | What operation, when, why, which anaesthetic they expect, and their wishes.
+ch: disc | Exercise tolerance (stairs without stopping = at least 4 METs); chest pain, breathlessness; snoring and daytime sleepiness (OSA); reflux (aspiration risk); loose teeth, crowns, dentures; neck and jaw movement; previous anaesthetics and problems; family history of anaesthetic problems (malignant hyperthermia, suxamethonium apnoea); bleeding or clots; PONV.
+ch: dh | Anticoagulants and antiplatelets, diabetes drugs, the pill or HRT (stop 4 weeks before major surgery), steroids, herbal remedies.
+ch: sh | Smoking, alcohol, home support after discharge.
+ch: next | FBC, U&E, group and save, clotting if indicated, HbA1c in diabetes, ECG if indicated; ASA grade; fasting: food 6 hours, clear fluids until 2 hours.
+tree: Airway | Mallampati, mouth opening, neck movement, teeth, RA neck (C-spine)
+tree: Breathing | COPD, asthma, OSA, smoking
+tree: Circulation | IHD, heart failure, valve disease, hypertension
+tree: Drugs and metabolism | diabetes (first on list, VRIII if more than one missed meal), anticoagulation plan, steroids
+nn: Previous anaesthetics and family history of problems
+nn: Fasting advice
+pearl: ABC for the anaesthetist: Airway, Breathing, Circulation, then Drugs and Diabetes.
+
+@ drug | Medication history (pharmacy stations) | PP68, PP88, PP89, PP101 | 50, 51
+use: "Confirm the medication history", "medication review", "with the relative".
+ch: open | Confirm the patient's identity against the chart; for a relative, confirm who they are.
+ch: hpc | For each drug: name, dose, frequency, route, indication, how long, adherence, when last taken.
+ch: disc | Over-the-counter, herbal, eye drops, inhalers, patches, injections, recently stopped drugs; PRN use (how often in the last week); who manages them (dosette).
+ch: rf | Recent changes, high-risk drugs (insulin, anticoagulants, opioids, methotrexate, lithium), overdose quantities.
+ch: dh | Allergies AND the reaction; intolerance vs allergy.
+ch: next | Decide continue, hold or stop for each drug, with the reason.
+nn: Allergy and reaction
+nn: Every drug: dose, frequency, adherence
+pearl: Name, dose, how often, why, still taking it?
+
+@ skin | Rash or skin lesion history | PP70, PP71, PP72, PP73, PP74 | 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139
+use: Rash, mole, itchy skin.
+ch: hpc | Where it started and spread, how long, itch or pain, change in a mole (ABCDE), bleeding.
+ch: disc | Itch worse at night with contacts affected (scabies); triggers and atopy (eczema); scalp, nails and joints (psoriasis); sun exposure and sunburn (skin cancer); new products (contact dermatitis).
+ch: rf | Changing or bleeding pigmented lesion, systemic illness, mucosal involvement, rapidly spreading redness with pain out of proportion (necrotising fasciitis).
+ch: dh | New drugs (drug eruption), steroid creams used and strength, emollients, isotretinoin plans.
+ch: fh | Atopy, psoriasis, melanoma.
+ch: sh | Occupation, contacts, sun exposure and sunbeds, impact on mood and sleep.
+tree: Pigmented | melanoma; seborrhoeic keratosis; benign naevus
+tree: Non-pigmented lesion | BCC; SCC; actinic keratosis
+tree: Rash | eczema; psoriasis; tinea; scabies; urticaria; drug eruption
+tree: Infection | cellulitis; impetigo; necrotising fasciitis
+nn: Ask about change, bleeding and sun exposure for any lesion
+pearl: Describe before you diagnose: distribution, morphology, colour, characteristics, configuration.

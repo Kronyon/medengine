@@ -1,0 +1,251 @@
+@@ acute | 🚨 | Acute assessment: A to E | The same nine moves whatever the diagnosis. Treat as you find, reassess, escalate.
+step: safe | !Danger, response, call for help, monitoring | Hello, can you hear me? I'm Nana, one of the doctors. I'd like to call for senior help and get monitoring on: sats, BP, ECG. | Anchors: "recognises need to escalate". Calling early is never wrong; calling late is.
+step: a | Airway: look, listen, feel | Can you tell me your name? | Talking = patent. Stridor, gurgling or silence needs action now (suction, jaw thrust, adjunct, anaesthetist).
+step: b | !Breathing: RR, sats, oxygen to target, trachea, expansion, percussion, auscultation; ABG, CXR | I'm giving 15 L oxygen via a non-rebreather mask, aiming for 94–98% (88–92% if he retains CO2). | Oxygen with a target range, then the findings that split asthma, pneumothorax, LVF and pneumonia.
+step: c | !Circulation: HR, BP, CRT, JVP, heart sounds; 2 large-bore cannulas and bloods; fluids; ECG; catheter | Two large-bore cannulas: FBC, U&E, LFT, CRP, clotting, group and save, blood cultures, lactate, VBG. 500 mL crystalloid over 15 minutes, then reassess. | Specific bloods and a fluid bolus with a reassessment are named items in every A–E scheme.
+step: d | !Disability: AVPU or GCS, pupils, glucose, temperature, drug chart | What's his capillary glucose? Can I see the drug chart? | Glucose in D is never optional. The drug chart finds the cause (opioids, insulin, anticoagulants).
+step: e | Exposure: abdomen, calves, rashes, bleeding, wounds, drains, catheter bag; dignity | I'm going to look at his tummy and legs, keeping him covered. | The hidden finding is often in E: a bleeding wound, a swollen calf, a full bladder, a rash.
+step: re | !Reassess after every intervention | Let me reassess his airway and breathing after the oxygen. | Anchor: "reassessed" and "offers to re-assess patient following an intervention".
+step: sbar | !Escalate with SBAR | Situation: I'm Nana, the FY1 on ward 3, calling about ___ who has ___. Background: ___. Assessment: ___. Recommendation: please could you review him within ___ minutes. | SBAR handover is often a whole domain. Ask for something specific and a time.
+step: dx | Working diagnosis and definitive treatment | The most likely diagnosis is ___ because ___. | Name the diagnosis, the treatment and where they should go (CCU, HDU, theatre, ITU).
+nn: Call for help early
+nn: Oxygen with a target range
+nn: Glucose in D
+nn: Reassess after every intervention
+
+@ acs | Chest pain: ACS | PP07, PP06, PP108 | 0, 2
+use: Central crushing chest pain in A&E or on the ward.
+ch: b | Oxygen only if sats below 94% (not routinely).
+ch: c | 12-lead ECG within 10 minutes; troponin; 2 cannulas; careful fluids if hypotensive (cardiogenic shock: 250 mL boluses with senior input).
+ch: dx | STEMI: aspirin 300 mg, GTN, IV morphine with an antiemetic if pain persists, call the cath lab for primary PCI (within 120 minutes of first contact) or fibrinolysis. NSTEMI: aspirin 300 mg, antithrombin (fondaparinux), GRACE score, ticagrelor or prasugrel per plan, angiography within 72 hours if intermediate or high risk.
+tree: ST elevation | anterior (V1–V4, LAD); inferior (II, III, aVF, RCA); lateral (I, aVL, V5–V6, circumflex); posterior (ST depression V1–V3 + tall R)
+tree: Mimics | aortic dissection (unequal arm BPs, back pain); pericarditis (saddle ST, PR depression); PE
+nn: ECG within 10 minutes
+pearl: Don't wait for troponin in a STEMI.
+
+@ breath | Acute breathlessness | PP16, PP97, PP101 | 6, 11, 13, 15, 16, 19
+use: A–E of the breathless patient (asthma, COPD, PE, pneumothorax, anaphylaxis, LVF).
+ch: b | The B findings split it: wheeze (asthma, COPD, anaphylaxis), silent chest (life-threatening asthma), unilateral hyper-resonance with tracheal deviation (tension pneumothorax), bibasal crackles (LVF), clear chest with hypoxia (PE).
+ch: c | Pink frothy sputum, raised JVP and oedema (LVF); swollen calf (PE); hypotension with rash or stridor (anaphylaxis).
+ch: dx | Asthma: salbutamol 5 mg + ipratropium 500 micrograms nebulised (oxygen-driven), prednisolone 40–50 mg, magnesium IV if severe. COPD: target 88–92%, nebs, prednisolone 30 mg 5 days, antibiotics if purulent, NIV if pH <7.35 and PaCO2 >6.5 after treatment. Tension pneumothorax: needle decompression, then a chest drain. PE: anticoagulate, CTPA. Anaphylaxis: IM adrenaline 500 micrograms (0.5 mL of 1 mg/mL) anterolateral thigh, repeat at 5 minutes. LVF: sit up, oxygen, IV furosemide, stop IV fluids, CPAP if needed.
+tree: Wheeze | asthma; COPD; anaphylaxis
+tree: Crackles | LVF; pneumonia
+tree: Clear chest, hypoxic | PE; early pneumonia
+tree: Asymmetry | pneumothorax; effusion; collapse
+nn: Target sats (88–92% if CO2 retainer)
+pearl: Silent chest, cyanosis, poor effort, exhaustion = life-threatening asthma: get an anaesthetist.
+
+@ sepsis | Sepsis and the unwell febrile patient | PP99, PP100, PP97 | 46, 8, 19, 42
+use: Fever, hypotension, NEWS2 high, post-op temperature.
+ch: c | Sepsis Six within an hour: oxygen to target, blood cultures, IV antibiotics (check allergy and reaction), IV fluids, lactate, urine output.
+ch: e | Look for the source: chest, urine, abdomen, wounds, lines, joints, skin, new murmur.
+ch: dx | Source control and senior review; lactate over 4 or hypotension after fluids = critical care.
+tree: Sources | chest; urine; abdomen (cholangitis, perforation, anastomotic leak); skin and soft tissue; lines and valves (endocarditis); meninges
+nn: Blood cultures before antibiotics, without delaying antibiotics
+pearl: Lactate, cultures, antibiotics, fluids, oxygen, urine: in the first hour.
+
+@ bleed | Haemorrhage: GI bleed, post-op bleed | PP29, PP97 | 32, 38, 45
+use: Haematemesis, melaena, post-op shock.
+ch: c | Two large-bore cannulas, crossmatch, FBC, clotting, fibrinogen; major haemorrhage protocol if unstable; O-negative blood while waiting; correct anticoagulation (vitamin K and PCC for warfarin).
+ch: dx | Upper GI: Glasgow-Blatchford score; endoscopy within 24 hours (immediately after resuscitation if unstable); suspected varices: terlipressin + prophylactic antibiotics before endoscopy. Post-op: back to theatre.
+tree: Shock class | tachycardia first; then narrowing pulse pressure; hypotension is late
+nn: Crossmatch and senior help early
+pearl: Hypotension is a late sign of bleeding; young people compensate until they crash.
+
+@ metab | Diabetes emergencies: DKA, HHS, hypoglycaemia | PP48, PP52, PP47 | 68, 69, 70
+use: Unwell diabetic, vomiting, drowsy, low glucose.
+ch: d | Glucose and ketones in D; Kussmaul breathing and pear-drop breath.
+ch: dx | DKA (glucose >11 or known diabetes, ketones ≥3, pH <7.3 or bicarbonate <15): 0.9% saline (1 L over 1 hour then slower), fixed-rate insulin 0.1 units/kg/hour, potassium per level, continue long-acting insulin, add 10% glucose when glucose <14. Under 18: paediatric (BSPED) protocol. Hypoglycaemia: conscious = 15–20 g fast sugar; drowsy = IV 10% glucose 150–200 mL (or glucagon 1 mg IM).
+tree: DKA vs HHS | DKA: ketones high, acidotic, young, hours; HHS: osmolality >320, glucose >30, no significant ketosis, older, days
+nn: Check ketones and potassium
+pearl: Fluids first, then insulin; potassium keeps them alive.
+
+@ tox | Overdose and poisoning | PP52, PP68 | 111
+use: Collapsed or drowsy after an overdose.
+ch: d | Pupils (pinpoint = opioid; dilated = TCA, sympathomimetic), glucose, GCS.
+ch: c | ECG: QRS over 100 ms in TCA overdose.
+ch: dx | Opioid: naloxone 400 micrograms IV, titrate. TCA: sodium bicarbonate 8.4% 50 mL IV if QRS broad, arrhythmia or acidosis; ICU. Paracetamol: level at 4 hours or more, acetylcysteine if above the treatment line (or staggered, or unknown timing). Check paracetamol and salicylate levels in every overdose. Toxbase.
+nn: Paracetamol and salicylate levels in every overdose
+nn: Psychiatric assessment once medically fit
+pearl: Pinpoint = opioids; wide QRS + dilated pupils = TCA.
+
+@ postop | Post-operative deterioration | PP97, PP103, PP105 | 46, 45, 74
+use: Called to a post-op patient: breathless, agitated, hypotensive, in pain.
+ch: safe | Read the op note: what operation, when, any complications.
+ch: e | Wound, drains, abdomen (distension, peritonism), calves, catheter and fluid balance, neck after thyroidectomy.
+ch: dx | Day 0–1: bleeding, atelectasis, hypocalcaemia or haematoma after thyroid surgery. Day 2–3: fluid overload (LVF), pneumonia. Day 5–7: anastomotic leak, wound infection. Day 7–10+: DVT and PE.
+tree: Time after surgery | bleed (hours); atelectasis (day 1–2); fluid overload (day 2–3); leak or sepsis (day 5–7); VTE (day 7–10)
+nn: Check the fluid chart and drains
+pearl: Think in time: bleed, collapse, fluid, leak, clot.
+
+@ arrest | Cardiac arrest: ALS | PP98, PP52 | 3
+use: "The patient collapses", "manage the arrest".
+ch: safe | Danger, response, shout for help and the arrest team, open the airway, look, listen and feel for 10 s (and a central pulse).
+ch: b | CPR 30:2, 100–120 per minute, 5–6 cm deep; bag-valve-mask with oxygen.
+ch: c | Pads on, pause for rhythm check (no more than 5 s). Shockable (VF, pulseless VT): shock, then 2 minutes CPR; adrenaline 1 mg and amiodarone 300 mg after the 3rd shock; adrenaline every 3–5 minutes. Non-shockable (PEA, asystole): adrenaline 1 mg as soon as access, 2 minutes CPR between checks.
+ch: dx | Reversible causes: 4 Hs (hypoxia, hypovolaemia, hypo or hyperkalaemia and metabolic, hypothermia) and 4 Ts (thrombosis, tension pneumothorax, tamponade, toxins). ROSC: A–E, 12-lead ECG, aim sats 94–98%.
+tree: Shockable | VF; pulseless VT
+tree: Non-shockable | PEA; asystole
+nn: Minimise pauses in compressions
+pearl: Shock, 2 minutes; after the 3rd: adrenaline + amiodarone.
+
+@@ expl | 💬 | Explain, counsel, consent or break bad news | Every information-giving station is the same conversation: start where they are, chunk and check, share the plan, teach back, safety-net.
+step: prep | Prepare: right person, private, notes and results read | - | Talking to a relative? Check who they are and that the patient is happy for you to share (or that it's in their best interests).
+step: open | !Open: introduce, identify, purpose, permission | I've come to talk about your results / the treatment we're suggesting. Is now a good time? | Purpose and permission set the agenda; examiners mark an explicit agenda.
+step: know | !Start where they are | What do you understand about what's been going on so far? | Anchor: "assesses patient's prior knowledge". Skipping it is the commonest Communication drop.
+step: shot | Signpost (and give a warning shot for bad news) | I'd like to explain what the tests show, then talk about what we can do. Is that OK? / I'm afraid the results are not what we hoped. | Signposting structure was named in your feedback. A warning shot is a separate BBN mark.
+step: c1 | !Chunk 1: what it is, in plain words | Normally ___. In your case, ___. It's a bit like ___. | Anchor structure: normal anatomy and physiology → what's gone wrong → cause. An analogy earns the plain-language mark.
+step: c2 | Chunk 2: why it matters and what causes it | - | Complications and causes give the reason to act on the plan.
+step: c3 | !Chunk 3: what we do: options with benefits, risks, alternatives (including doing nothing) | - | Shared decision-making and BRAN (benefits, risks, alternatives, nothing) are what Management and Consent marks look for.
+step: chk | !Check after each chunk | Does that make sense so far? What questions do you have? | Chunk and check is in every information-giving anchor.
+step: ice | !ICE and emotion: name it, normalise, support | It sounds like this has been really worrying. What's on your mind most? | Responding to emotion (and to the planted question) moves Communication to 4.
+step: plan | Agree the plan, follow-up and who to contact | - | A shared plan with a follow-up date is the Management mark.
+step: tb | !Teach-back summary | Just so I know I've explained it well, how would you explain this to your family? | Teach-back proves understanding; examiners love it.
+step: sn | !Safety-net, leaflet, questions, thank | If you get ___, call 999. Here's a leaflet and the specialist nurse number. | Safety-netting and offering written information are named items.
+nn: Ask what they already know
+nn: Chunk and check
+nn: Teach-back and safety-net
+
+@ dx | Explain a diagnosis | PP32, PP49, PP50, PP58, PP106, PP107 | 29, 67, 2, 73, 96
+use: "Explain the diagnosis and management to the patient."
+ch: c1 | Normal → what's gone wrong → the name. Example (angina): "The heart muscle is fed by blood vessels; one has narrowed with fatty deposits, so when you walk it can't get enough blood and you feel pain."
+ch: c2 | Causes and risk factors they can change; what happens if untreated.
+ch: c3 | Lifestyle first, then medicines (by name), then procedures, then follow-up.
+nn: Name the condition in plain words and say it isn't their fault
+pearl: Normal, broken, why, what we do.
+
+@ results | Explain results | PP30, PP40, PP45, PP94 | 33, 62, 79, 67
+use: "Explain the results to the patient."
+ch: shot | Signpost which result first.
+ch: c1 | Say the headline, then what the number means compared with normal ("a healthy level is under 48; yours is 60").
+ch: c3 | What happens next because of this result.
+nn: Headline first, numbers second
+pearl: Headline, meaning, next step.
+
+@ drug | Medication counselling | PP03, PP39, PP63, PP73, PP106 | 3, 72, 103, 138, 2
+use: "Counsel the patient on the new medication." Your feedback focus.
+ch: c1 | Fixed sequence: name and dose → why (indication) → how it works (one sentence) → how to take it (time, food, missed dose) → how long.
+ch: c2 | Common side effects → serious side effects and what to do → interactions (alcohol, over-the-counter, other drugs).
+ch: c3 | Monitoring (blood tests, INR, levels) → lifestyle (driving, pregnancy, alcohol) → who to tell (alert card, dentist).
+ch: tb | "So tell me how you'll take it tomorrow morning."
+nn: Anchor every point to the actual prescription (drug, dose, time)
+nn: Serious side effects with an action
+pearl: WHAT, WHY, HOW, HOW LONG, SIDE EFFECTS, WATCH, CHECK, CALL.
+
+@ consent | Consent for a procedure | PP27, PP29, PP37, PP85, PP96 | 48, 32, 75, 87
+use: "Consent the patient for ___", "explain the procedure".
+ch: c1 | What the procedure is and why it's recommended.
+ch: c2 | What it involves: before (fasting, stopping drugs), during (anaesthetic, how long), after (recovery, stay, driving).
+ch: c3 | BRAN: benefits; risks (common and serious, with numbers where you know them); alternatives; what happens if nothing is done. Capacity: understand, retain, weigh, communicate.
+ch: plan | They can change their mind at any time; the form is signed by the person doing the procedure.
+nn: Common and serious risks
+nn: Alternatives including doing nothing
+pearl: BRAN: Benefits, Risks, Alternatives, Nothing.
+
+@ bbn | Breaking bad news (SPIKES) | PP21, PP44, PP36 | 21, 77, 57
+use: "Explain the result" when it's cancer or a serious diagnosis.
+ch: prep | Setting: private room, tissues, bleep handed over, ask if they want someone with them. (Scored 4 marks in your MS scheme.)
+ch: know | Perception: "What have you been told so far?" (4 marks)
+ch: shot | Invitation and warning shot: "Would you like me to go through the results? I'm afraid it's not good news." (2 marks)
+ch: c1 | Knowledge in small chunks, then pause: silence is a skill (4 marks).
+ch: ice | Emotions and empathy: name the emotion; don't rush to fix it (2 marks).
+ch: plan | Strategy and summary: next steps, MDT, specialist nurse, follow-up (2 marks).
+nn: Warning shot, then pause
+nn: Don't overload: one or two key points
+pearl: SPIKES: Setting, Perception, Invitation, Knowledge, Emotion, Strategy.
+
+@ relative | Talking to a relative | PP28, PP56, PP64, PP96, PP91 | 116, 113, 92
+use: "Explain to the patient's daughter / husband".
+ch: prep | Confirm who they are and their relationship; check the patient's consent to share (or, if the patient lacks capacity, share what's needed in their best interests).
+ch: c1 | Same chunks as a patient explanation, at their level.
+ch: ice | Relatives' concerns: "Is it my fault?", "Is she going to die?", "Why didn't anyone tell us?"
+nn: Confidentiality check before sharing
+pearl: Who are you to them, and does the patient agree?
+
+@ negotiate | Negotiating: wants to stop, refuses, or won't take it | PP12, PP39, PP62 | 2, 72, 110
+use: Patient wants to stop a drug, refuses a statin or carbimazole, alcohol.
+ch: know | Explore their reasons without judgement: side effects, beliefs, what they've read.
+ch: c3 | Options including their preferred one, with honest risks; alternatives; compromise (dose change, trial period).
+ch: plan | Respect an informed decision; leave the door open; follow-up.
+nn: Respect autonomy; don't lecture
+pearl: Elicit, inform, respect, review.
+
+@@ presc | 💊 | Prescribing on a drug chart | Every prescription is checked the same way. Only the drug choice changes.
+step: pt | !Patient details on every page: name, DOB, hospital number, weight, ward, date | - | Anchor: "correctly identifies patient" and "allergy and patient info recorded". Weight matters for doses (gentamicin, aminophylline, LMWH).
+step: allergy | !Allergy box: drug and reaction, signed and dated (or NKDA) | Do you have any allergies to medicines? What happened? | Prescribing before completing the allergy box is a fail point in Nottingham schemes.
+step: check | Check: renal and liver function, pregnancy, current drugs and interactions (BNF) | - | Interactions and renal dosing are where the examiner's planted twist sits (eGFR, warfarin, citalopram).
+step: choose | Choose the drug per the guideline provided | - | Use the local guideline in the station; off-guideline is accepted only if clinically appropriate.
+step: write | !Write it: approved name in capitals, dose, route, frequency, start date, indication | - | Units and micrograms in full; no trailing zeros; legible.
+step: section | Right section: once-only, regular, as-required, infusion, oxygen, anticoagulant | - | Wrong section is a named error (e.g. a stat dose in regular; warfarin outside its chart).
+step: prn | As-required: indication, minimum interval, maximum in 24 hours | - | Missing a maximum dose is the commonest PRN error.
+step: stop | Stop or suspend: line through, date, sign, reason | - | Sick-day rules: suspend ACE inhibitors, diuretics, metformin, NSAIDs, sulfonylureas, SGLT2 inhibitors when acutely unwell.
+step: sign | !Sign, print name and bleep, date every entry | - | An unsigned prescription is not a prescription.
+step: review | Antibiotics: indication and review or stop date; VTE assessment; avoid double anticoagulation | - | Cross off enoxaparin when starting therapeutic anticoagulation.
+step: tell | Tell the patient and plan monitoring | - | Counselling or a monitoring plan (U&E, INR, levels) completes the station.
+nn: Allergy box before any drug
+nn: Sign and date every entry
+nn: PRN maximum dose
+
+@ analgesia | Analgesia and opioids | PP88, PP91, PP105 | 50, 88
+use: Pain, constipation from codeine, syringe driver, post-op pain.
+ch: choose | WHO ladder: paracetamol ± NSAID (with PPI if risk; check asthma, renal, bleeding) → weak opioid → strong opioid. Opioid: always co-prescribe a laxative and an as-required antiemetic. Conversions: oral morphine ÷ 2 = SC morphine; oral morphine ÷ 1.5 = oral oxycodone; breakthrough = one-sixth of the 24-hour dose.
+ch: prn | Breakthrough morphine: dose, every 1–2 hours as needed, maximum per 24 hours; review if 2 or more doses a day are needed.
+ch: check | Renal function (morphine accumulates; use oxycodone or alfentanil with low eGFR per palliative advice).
+tree: Mild | paracetamol; NSAID
+tree: Moderate | codeine; tramadol (+ step 1)
+tree: Severe | morphine; oxycodone (+ step 1)
+nn: Laxative with every regular opioid
+pearl: Oral morphine to SC: halve it. Breakthrough: a sixth.
+
+@ abx | Antibiotics | PP93, PP100, PP99, PP31 | 19, 131, 80, 8, 32
+use: CAP, cellulitis, UTI, H. pylori, endocarditis.
+ch: allergy | Penicillin allergy type: rash vs anaphylaxis (avoid all penicillins; caution with cephalosporins if anaphylaxis).
+ch: choose | Local guideline + severity (CURB-65 for pneumonia). Examples: CAP low severity amoxicillin 500 mg TDS 5 days (doxycycline or clarithromycin if allergic). Cellulitis flucloxacillin 500 mg–1 g QDS. H. pylori: PPI + amoxicillin + clarithromycin or metronidazole for 7 days; penicillin allergy: PPI + clarithromycin + metronidazole.
+ch: review | Indication, duration or review date on the chart; cultures before the first dose where possible.
+nn: Allergy type
+nn: Duration or review date
+pearl: Right drug, right dose, right duration, review at 48 hours.
+
+@ fluids | IV fluids | PP47, PP89, PP90 | 51
+use: Maintenance or resuscitation fluids, AKI, NBM patient.
+ch: choose | Resuscitation: 500 mL crystalloid (Hartmann's or 0.9% saline) over less than 15 minutes, reassess (250 mL if heart failure). Maintenance: 25–30 mL/kg/day water, 1 mmol/kg/day K, Na and Cl, 50–100 g glucose (e.g. 0.18% saline/4% glucose with 20–40 mmol KCl).
+ch: check | U&E (potassium), weight, fluid balance, heart failure.
+ch: write | Fluid, volume, additives, rate, start time on the infusion chart.
+nn: Check potassium before adding it
+pearl: 25–30 mL/kg/day; 1 mmol/kg K.
+
+@ insulin | Insulin and peri-operative diabetes | PP47, PP48, PP50 | 67, 68, 70
+use: Prescribe insulin, VRIII, sick-day rules.
+ch: write | Insulin: brand name, "units" in full, device, timing with meals.
+ch: choose | Missing more than one meal: VRIII with substrate fluid (e.g. 0.45% saline/5% glucose + KCl) and continue long-acting insulin at 80%. DKA: fixed-rate 0.1 units/kg/hour.
+ch: review | CBG hourly on VRIII; hypo treatment prescribed.
+nn: Write "units" in full
+pearl: Never stop basal insulin in type 1 diabetes.
+
+@ anticoag | Anticoagulation | PP03, PP20, PP90, PP108 | 3, 13, 0
+use: AF, VTE, ACS, mechanical valve, VTE prophylaxis.
+ch: check | Bleeding risk (ORBIT), renal function, weight, interactions, platelets; mechanical valve = warfarin (DOACs contraindicated).
+ch: section | Anticoagulant section; tick the anticoagulant box; separate warfarin chart with INR each day.
+ch: review | Cross off prophylactic enoxaparin when treatment-dose anticoagulation starts.
+nn: Avoid double anticoagulation
+pearl: Mechanical valve: warfarin only.
+
+@ resp_rx | Acute asthma and COPD | PP16, PP101 | 15, 16
+use: Prescribe acute asthma or COPD treatment.
+ch: choose | Oxygen (target), salbutamol 5 mg neb (back-to-back if severe), ipratropium 500 micrograms neb, prednisolone 40–50 mg 5 days (COPD 30 mg 5 days) or IV hydrocortisone 100 mg, magnesium sulfate 2 g IV over 20 minutes (asthma, severe or life-threatening), aminophylline only with senior advice: loading 5 mg/kg over 20 minutes (omit if on oral theophylline) then 0.5 mg/kg/hour.
+ch: check | Regular inhalers: continue; theophylline levels; beta-blockers stopped.
+nn: Oxygen prescribed with a target
+pearl: Oxygen, nebs, steroid, magnesium, senior.
+
+@ aki_rx | Medication review in AKI | PP89 | 51
+use: AKI drug chart review.
+ch: stop | Suspend: ACE inhibitors and ARBs, diuretics, NSAIDs, metformin, SGLT2 inhibitors; review sulfonylureas if not eating; dose-adjust renally cleared drugs (gentamicin, LMWH, opioids).
+ch: choose | Fluids for hypovolaemia, monitor U&E and urine output, treat hyperkalaemia.
+nn: Write the reason when you suspend a drug
+pearl: SADMANS: sulfonylureas, ACEi, diuretics, metformin, ARBs, NSAIDs, SGLT2i.
+
+@ weekly | High-risk drugs (weekly or narrow-margin) | PP63, PP108 | 103
+use: Methotrexate, lithium, warfarin, digoxin, gentamicin.
+ch: write | Methotrexate: once weekly, cross out the other days; folic acid on a different day. Lithium: brand, levels. Gentamicin: weight and renal function, levels.
+nn: Weekly drugs: cross out the other six days
+pearl: Methotrexate is weekly; folic acid on another day.

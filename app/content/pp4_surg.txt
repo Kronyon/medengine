@@ -1,0 +1,431 @@
+@PP34 | Hernia examination + venepuncture (incarcerated inguinal hernia)
+src: CP3 2018 and 2019 resits (hernia exam + venepuncture) · OSCEs 2018 OSCE 2 resit (hernia + abdomen + U&E bottle) · SMOSCE 17 (incarcerated inguinal hernia)
+u: 58
+fr: hx, ex, proc, plan
+ex: hernia
+pr: venep
+door: You are a Foundation doctor. A 72-year-old man has a troublesome lump in his groin. Tasks: take a focused history (or examine only, as stated); examine the hernia and palpate the abdomen; present your findings including the type of hernia; perform venepuncture on the manikin for U&Es.
+trig: Groin lump with cough impulse above and medial to the pubic tubercle → inguinal hernia
+trig: Previously reducible, now irreducible and tender → incarcerated: risk of strangulation
+hook: "Inguinal: In and up (above-medial to pubic tubercle). Femoral: Far and down (below-lateral), Females, often Fixed."
+hook: Deep ring = midpoint of the inguinal ligament (ASIS to pubic tubercle). Occlude it, ask to cough: controlled = indirect; pops out = direct (unreliable; confirmed at surgery).
+hook: Tubes (NHS order of draw): blood cultures → light blue (clotting) → gold/yellow SST (U&E, LFT) → purple EDTA (FBC) → pink (group and save) → grey (glucose).
+clinch: ✅ Irreducible + tender + red ± obstruction symptoms = incarcerated/strangulated → urgent surgical review
+clinch: ❌ Can get above the lump in the scrotum → not a hernia (scrotal lump)
+clinch: ❌ Cough impulse that disappears lying down + fluid thrill, soft, by the saphenous opening → saphena varix
+money: There's a right groin swelling above and medial to the pubic tubercle with a cough impulse; it's now irreducible, red and tender, consistent with an incarcerated right inguinal hernia. He needs same-day surgical assessment because of the risk of strangulation.
+trap: Not offering a chaperone (MUST in SMOSCE)
+trap: Not examining standing, or forgetting the other side and the scrotum
+trap: Wrong bottle for U&E
+var: A | Gerald Smith, 72 | Incarcerated right inguinal hernia
+a: Lump in the right groin for 6 months; could push it back in, but can't now. Slightly tender 2/10. Bowels opened 2 days ago (normally twice a day). No urinary symptoms, no nausea or vomiting, eating normally, feel well.
+a: Chronic cough from idiopathic pulmonary fibrosis, hypertension, back pain. Appendicectomy at 20; left ankle fracture repair. No allergies. Inhaler, amlodipine 5 mg, paracetamol.
+a: Retired miner, lives with wife, independent. Non-smoker; beer watching rugby. ICE: feel well; worried as it's more tender; think it's a hernia (friend had surgery); not keen on surgery.
+r: Comfortable lying flat, high BMI. Visible lump right inguinal region, cough impulse present, slightly red and tender, irreducible.
+x: Incarcerated inguinal hernia. Differentials: femoral or other hernia, haematoma, lymph node, saphena varix, hydrocele, femoral aneurysm, lipoma. Refer to SAU for urgent surgical review; reduce risk factors (cough, constipation, weight); venepuncture U&E (gold SST).
+var: B | Pre-op clinic, 55 | Reducible direct inguinal hernia
+a: Lump in the left groin when lifting at work, goes away lying down. No pain.
+r: Left groin swelling, reducible, cough impulse, appears with occlusion of the deep ring (direct). Abdomen soft.
+x: Reducible inguinal hernia: elective repair (often laparoscopic mesh); watchful waiting acceptable if minimally symptomatic; safety-net strangulation (pain, irreducible, vomiting).
+dom: Professionalism | !Chaperone offered (must to pass); consent; dignity; pain check
+dom: Information gathering | Structured history: duration, reducibility, pain, bowel/urinary symptoms, risk factors (cough, constipation, straining, lifting), ICE
+dom: Examination | Inspection lying and standing; asks patient to reduce first; !cough impulse; surface anatomy (ASIS, pubic tubercle, deep ring); inguinal vs femoral; direct vs indirect; both sides; scrotal exam; abdomen
+dom: Procedure (venepuncture) | ID check, consent, hand hygiene, gloves; tourniquet; palpate vein; clean; needle bevel up ≤30°; correct bottle and order; release tourniquet before needle out; pressure; sharps; label at bedside; form
+dom: Management | !Urgent SAU referral if incarcerated; modify risk factors; elective repair if reducible
+s: Examine | This is an intimate examination; would you like a chaperone present? | MUST to pass in the SMOSCE scheme.
+s: Examine | Could you stand up for me? I'm looking at both groins and the scrotum. Could you give a cough? | Hernias show best standing; both sides; cough impulse.
+s: Examine | Can you push it back in yourself? | Ask the patient to reduce first: kinder and more effective.
+s: Examine | The pubic tubercle is here; the lump is above and medial to it, so this is inguinal. | Saying the landmark proves the inguinal/femoral distinction.
+s: Examine | I'm pressing on the deep ring, halfway between the hip bone and the pubic tubercle. Cough again. It stays back, so this suggests indirect, though only surgery confirms it. | Technique + honest limitation.
+s: Present | A right inguinal hernia that is now irreducible and tender: incarcerated. He needs same-day surgical review because it could strangulate. | Diagnosis + urgency in one sentence.
+s: Venepuncture | Can I check your name and date of birth against the form? I'll use a tourniquet, then you'll feel a sharp scratch. | ID + consent + warning.
+s: Venepuncture | U&Es go in the gold top. I'll release the tourniquet before I take the needle out, press, and label the bottle here at the bedside. | Order, tourniquet release and bedside labelling are critical items.
+
+@PP35 | Pre-operative assessment + venepuncture and blood form (lap hernia repair; COPD or diabetes)
+src: OSCEs 2018 OSCE 1 (pre-op ×3 days: COPD, diabetes) · CP3 2018 first sit (pre-op + G&S venepuncture) · CP3 2019 resit (pre-op cardio: AS)
+u: 58, 67, 16
+fr: hx, proc, plan
+pr: venep
+door: You are a Foundation doctor in pre-operative clinic. Your patient is booked for a laparoscopic hernia repair. Tasks: conduct a pre-operative assessment; state the investigations required; perform venepuncture, take blood in the correct bottles, and complete the blood form.
+trig: Pre-op = anaesthetic risk history, not a diagnosis
+hook: Pre-op "AMPLE + FAST": Allergies, Medicines (anticoagulants, antiplatelets, diabetes drugs, steroids, OCP), Past medical/anaesthetic history, Last meal (fasting), Events; Family anaesthetic problems, Airway (teeth, neck), Smoking/alcohol, Tolerance of exercise (METs: two flights of stairs = 4 METs).
+hook: Family history: "Did anyone have problems with anaesthetic?" catches malignant hyperthermia and suxamethonium apnoea.
+clinch: ✅ Can't climb two flights of stairs without stopping (<4 METs) → higher perioperative cardiac risk
+clinch: 🧪 Fasting: food 6 h, clear fluids up to 2 h (many units now allow sips until called)
+clinch: ❌ Sulfonylureas and SGLT2 inhibitors: omit on the day (SGLT2i usually from the day before) to avoid hypoglycaemia and euglycaemic DKA
+money: He's ASA 3 with COPD. I'd check FBC, U&E, and an ECG, optimise his COPD, ask him to stop smoking, and make sure the anaesthetist knows; his inhalers continue on the morning of surgery.
+var: A | Man, 64 | COPD (ASA 3)
+a: Hernia repair planned. COPD: breathless on one flight of stairs; uses tiotropium and salbutamol; 2 courses of steroids this year; still smokes 20/day. Previous anaesthetic fine. No family problems with anaesthetic. No allergies.
+x: Bloods: FBC, U&E; ECG; consider spirometry/ABG if severe; optimise COPD; smoking cessation; continue inhalers; steroid cover if long-term steroids; VTE assessment; chest physio.
+var: B | Woman, 58 | Type 2 diabetes on metformin + gliclazide (+ dapagliflozin)
+a: Hernia repair; T2DM on metformin, gliclazide and dapagliflozin; HbA1c last month 62. Hypertension on ramipril.
+x: HbA1c (<69 mmol/mol for elective surgery), U&E, FBC, ECG; first on the list; omit gliclazide on the day; omit dapagliflozin the day before and on the day; metformin usually continued if only one meal missed and eGFR ok (per JBDS); omit ramipril on the morning per local policy; CBG monitoring.
+dom: Information gathering | !Past anaesthetic history and family anaesthetic problems; comorbidities with severity; exercise tolerance; !drug history including anticoagulants/diabetes drugs/steroids; allergies; smoking, alcohol; airway; fasting
+dom: Information giving | !Investigations appropriate to patient and surgery (NICE NG45) with reasons; drug instructions for the day
+dom: Procedure (venepuncture) | Correct bottles and order; bedside labelling; complete request form (patient details, test, clinical details, signature, bleep)
+s: History | Have you had an anaesthetic before? Any problems with it, sickness, slow to wake? Has anyone in your family had a bad reaction to an anaesthetic? | Personal and family anaesthetic history are specific named items.
+s: History | How many flights of stairs can you climb without stopping? | Functional capacity: METs estimate.
+s: History | Do you take any blood thinners, steroids, diabetes medicines or the pill? | The drugs that change on the day of surgery.
+s: History | Any loose teeth, crowns, or problems opening your mouth or moving your neck? | Airway assessment for the anaesthetist.
+s: Plan | For him: FBC, U&E and an ECG; group and save isn't needed routinely for a laparoscopic hernia repair. | Tailoring investigations (NICE NG45) beats a shopping list.
+s: Form | Patient's name, date of birth, hospital number, tests requested, clinical details, my name, signature and bleep. | A complete form is a named item; unlabelled or incomplete forms are rejected.
+
+@PP36 | Breast lump: history, examination and explanation (fibroadenoma) / worried-well breast exam
+src: SMOSCE 18 · OSCEs 2018 OSCE 2 resit (breast exam: report to patient, reassurance and self-exam technique) · CP3 2018 resit (breast history + normal exam + explain)
+u: 52, 57
+fr: hx, ex, expl
+ex: breast
+door: You are a junior doctor in General Practice. A woman has come about a lump in her breast. Tasks: take a focused history, perform a relevant examination, and explain your diagnosis and initial management plan to her.
+trig: Young woman + smooth, round, mobile, well-defined, rubbery 2 cm lump → fibroadenoma ("breast mouse")
+trig: Hard, irregular, fixed, skin tethering, nipple change, axillary nodes → cancer
+hook: Breast lump description "3 S's + 3 C's": Site (quadrant/clock face), Size, Shape; Consistency, Contour (edge), Connections (fixed to skin/muscle).
+hook: Triple assessment: clinical examination + imaging (ultrasound <40, mammogram ≥40 + USS) + biopsy (core).
+clinch: ✅ ≥30 with an unexplained breast lump → suspected cancer pathway (2WW); <30 → consider non-urgent referral
+clinch: ❌ Skin dimpling, peau d'orange, nipple retraction or bloody discharge → cancer pathway regardless of age
+money: The lump is smooth, round, mobile and about 2 cm, with no skin changes or nodes. That's most likely a fibroadenoma, which is benign. To be certain we'll refer you to the breast clinic for an ultrasound and a small needle test.
+trap: Not offering a chaperone (red flag on the mark scheme)
+trap: Saying "definitely not cancer" before triple assessment
+var: A | Mrs Smith, 25 | Fibroadenoma
+a: Noticed a lump in the breast a few days ago; not sure how long it's been there (don't check). Only checked because a colleague was just diagnosed with breast cancer. No other symptoms; fit and well. No family history of cancer; never pregnant; periods from 13; COCP.
+r: No skin changes; ~2 cm mass, right breast upper outer quadrant; smooth, round, well-defined, mobile; no axillary nodes either side.
+x: Likely fibroadenoma; refer to breast clinic (non-urgent under 30 unless concerning features; follow local pathway); triple assessment (USS + core biopsy/FNA; re-examination); reassure honestly; breast awareness.
+var: B | Woman, 47 | Worried well: normal examination
+a: Friend just diagnosed after a mammogram; your own mammogram 8 months ago was normal. No lumps found yourself, but you're scared. Want reassurance and to learn how to check.
+r: Normal bilateral breast and axillary examination.
+x: Normal examination; explain findings; breast awareness technique (look, feel, monthly after period, know what's normal, report changes); NHS breast screening from 50 (every 3 years to 71); return if changes; validate anxiety.
+dom: Professionalism | !Chaperone offered (red flag if not); consent; dignity (cover between stages)
+dom: Information gathering | Duration, change with cycle, pain, nipple discharge/changes, skin change; risk factors (FH, HRT/COCP, age at menarche, parity, previous breast disease); ICE
+dom: Examination | Inspection sitting with arms by sides, hands on hips, above head; both breasts all quadrants + tail of Spence; nipple; !axillary and supraclavicular nodes; describe lump properly
+dom: Information giving | !Likely diagnosis in plain words; referral and what triple assessment involves; honest reassurance; checks understanding
+s: Examine | I'd like to examine both breasts and the glands under your arms. Would you like a chaperone present? | Chaperone offer is a red-flag item.
+s: Examine | Could you put your hands on your hips and press in? Now lift your arms above your head. | Inspection manoeuvres show tethering.
+s: Examine | I'll use the flat of my fingers, going round in sections, including up towards the armpit. | Systematic palpation including the axillary tail.
+s: Describe | A 2 cm smooth, round, well-defined, rubbery lump in the right upper outer quadrant, very mobile, not fixed to skin or muscle, no nodes. | Full lump description = examination marks.
+s: Explain | This feels like a fibroadenoma: a common, harmless lump made of breast tissue, especially in young women. | Plain-language diagnosis.
+s: Explain | Every new lump is checked properly. The breast clinic will examine you, do an ultrasound, and probably a small needle sample. It's very unlikely to be cancer, but we check to be sure. | Triple assessment explained; honest low probability.
+s[B]: Teach | Look in the mirror and feel your breasts and armpits once a month, a few days after your period. You're looking for any change from your normal. | Breast awareness teaching was the hidden task.
+
+@PP37 | Digital rectal examination + history + PSA → BPH or prostate cancer
+src: CP3 2019 mock (DRE: history, explain bloods, diagnosis, management)
+u: 76, 75
+fr: hx, ex, di, expl
+ex: dre
+door: You are a Foundation doctor. A 68-year-old man has urinary symptoms. Tasks: take a focused history, perform a digital rectal examination on the model, explain his blood results, and give the diagnosis and management.
+trig: Hesitancy, weak stream, nocturia + smooth enlarged prostate + PSA mildly raised → BPH
+trig: Hard, craggy, irregular prostate, lost median sulcus + raised PSA + bone pain → prostate cancer
+hook: LUTS: storage "FUN" (Frequency, Urgency, Nocturia) vs voiding "HIS" (Hesitancy, Intermittency, Straining/weak stream).
+hook: DRE "Sulcus, Size, Surface, Sensitivity, Seminal vesicles". Normal prostate: walnut-sized, smooth, rubbery, palpable median sulcus.
+clinch: ✅ Hard irregular nodular prostate = 2WW urology regardless of PSA
+clinch: 🧪 PSA can rise after ejaculation, vigorous exercise or UTI: avoid testing for 48 h / 6 weeks after UTI
+clinch: ❌ Back pain + leg weakness in known prostate cancer → metastatic cord compression: MRI whole spine urgently
+money: The prostate feels smooth and symmetrically enlarged with a preserved sulcus, and the PSA is just above his age range, which fits benign prostatic enlargement. Because the PSA is raised, I'd still refer him to urology on the suspected cancer pathway per NICE.
+trap: No chaperone; not explaining each step; not inspecting the glove at the end
+var: A | Mr Thomas, 68 | BPH with PSA above age range
+a: Up 3 times a night; weak stream, dribbling, takes a while to start. No blood in urine, bone pain or weight loss. Ask: Is it cancer? What's the treatment?
+r: Smooth, enlarged, symmetrical, rubbery prostate with median sulcus; no masses; normal tone. PSA 5.1 (age-specific threshold ~4.5 for 60–69). U&E normal.
+x: BPH; PSA above age-specific range → suspected cancer pathway referral (NICE NG12) for MRI ± biopsy; IPSS; lifestyle (fluids, caffeine/alcohol in evening); alpha-blocker (tamsulosin 400 micrograms) for bothersome symptoms; finasteride if large prostate; safety-net retention.
+var: B | Mr Ellis, 74 | Locally advanced prostate cancer
+a: Months of poor stream; new aching low back pain. Lost weight.
+r: Hard, craggy, asymmetrical prostate; median sulcus lost. PSA 68; ALP raised; calcium 2.7.
+x: Suspected metastatic prostate cancer: 2WW urology; MRI prostate, bone scan/CT; analgesia; check neurology; safety-net cord compression; MDT; androgen deprivation therapy.
+dom: Professionalism | !Chaperone; consent with explanation; dignity
+dom: Information gathering | Storage and voiding LUTS; haematuria; bone pain, weight loss; retention; drug history; FH prostate cancer
+dom: Examination | Left lateral, knees to chest; inspect perianal area; lubricated gloved finger; !assess prostate size, surface, consistency, sulcus, tenderness; tone; inspect glove (blood, mucus); clean and cover
+dom: Information giving | !Explains bloods (PSA with its limitations; U&E); diagnosis; next steps
+s: Consent | I'd like to examine your back passage to feel your prostate. It's uncomfortable but shouldn't hurt, and you can ask me to stop at any time. Would you like a chaperone? | Consent + chaperone are the first critical marks.
+s: Examine | Lie on your left side with your knees up towards your chest. I'll look first, then gently insert a gloved finger with some gel. | Explaining each step keeps the patient relaxed and scores communication.
+s: Examine | The prostate feels about 3 finger-breadths, smooth and rubbery, with a groove down the middle, and it isn't tender. | Size, surface, consistency, sulcus, tenderness.
+s: Examine | No blood on the glove. I'll give you some tissue and let you get dressed. | Glove inspection and dignity close the procedure.
+s: Explain | The PSA is a protein made by the prostate; it goes up with a bigger prostate, infection or cancer. Yours is a little high for your age, so the specialists will do an MRI to check. | Honest explanation of PSA limitations.
+
+@PP38 | Thyroid status examination + TFTs + management (hyper or hypothyroid)
+src: SMOSCE 49 (thyroid status exam + carbimazole) · SMOSCE 48 (hypothyroid history + TFT) · CP3 2018 resit and 2019 (thyroid exam, interpret, manage ×3)
+u: 72, 73
+fr: ex, di, plan
+ex: thyroid
+door: You are a Foundation doctor. A woman has weight loss despite a good appetite and palpitations (or lethargy and weight gain). Tasks: perform a thyroid status examination, interpret the thyroid function tests, and suggest management to the examiner.
+trig: Weight loss + increased appetite + tremor + palpitations + eye signs → Graves' thyrotoxicosis
+trig: Lethargy + weight gain + cold intolerance + dry skin + constipation + heavy periods → hypothyroidism
+hook: Thyroid status order "Hands, Pulse, Eyes, Neck, Legs, Reflexes": tremor (paper on the hands), sweaty, acropachy; pulse/AF; lid lag, exophthalmos, eye movements ("H"); goitre from behind with swallow and tongue; pretibial myxoedema; proximal myopathy (stand from chair arms crossed); reflexes (brisk vs slow-relaxing).
+hook: TFT logic: TSH is the thermostat. Low TSH + high T4 = primary hyper; high TSH + low T4 = primary hypo; high TSH + normal T4 = subclinical.
+clinch: ✅ Exophthalmos, pretibial myxoedema, acropachy = Graves' specifically (not toxic nodule)
+clinch: ❌ Sore throat or fever on carbimazole → stop it and urgent FBC (agranulocytosis)
+clinch: ✅ Swelling that rises on tongue protrusion = thyroglossal cyst; rises on swallowing = thyroid
+money: The TSH is suppressed at 0.1 with high T3 and T4: primary hyperthyroidism. With a smooth goitre and eye signs, Graves' disease is most likely. I'd start propranolol for symptoms and carbimazole, refer to endocrinology, and warn her to stop carbimazole and get an urgent blood count if she gets a sore throat or fever.
+trap: Not watching the swallow and tongue protrusion
+trap: Forgetting the agranulocytosis safety-net
+var: A | Woman, 30 | Graves' thyrotoxicosis
+a: Weeks of sweating, weight loss despite eating more, palpitations, tremor. During the exam, simulate a fine tremor when your hands are examined. Props: water and cup, tendon hammer, watch, paper.
+r: T3 11.2 (4–8.3), T4 41.4 (10–24), TSH 0.1 (0.4–4.0).
+x: Primary hyperthyroidism (Graves'): carbimazole (titration, e.g. 20–40 mg daily then reduce) or block-and-replace; propranolol; endocrinology referral; TRAb; options later: radioiodine, surgery; pregnancy (switch to propylthiouracil in first trimester); smoking cessation (eye disease); agranulocytosis safety-net.
+var: B | Secretary, 43, T1DM | Primary hypothyroidism (Hashimoto's likely)
+a: Weight gain of a few kg over 5–6 months, tired all day, low motivation. If asked: cold all the time, dry coarse skin and hair, muscle aches and stiffness, heavier periods (thought menopause), constipation; no hoarse voice or alopecia. Type 1 diabetes on insulin. Mum had T1DM; cousin "something with thyroid". Ex-smoker. Bottle of wine at weekends.
+r: Hb 135, adj Ca 2.18, albumin 31, T3 1.1 (4–8.3), T4 6.7 (10–24), TSH 7.9 (0.4–4.0).
+x: Primary hypothyroidism (autoimmune, linked to T1DM): levothyroxine (e.g. 1.6 micrograms/kg/day, or 50–100 micrograms; lower start if elderly/IHD); take on an empty stomach 30–60 min before breakfast, separate from iron/calcium; TFTs every 3 months until stable (NICE NG145); TPO antibodies; coeliac screen (autoimmune clustering); watch for hypos (insulin needs may change).
+dom: Examination | Introduction, consent, hand hygiene; exposure to clavicles, chair away from wall; !general inspection; hands (temperature, sweat, palmar erythema, acropachy, !tremor with paper); pulse rate/rhythm; eyes (proptosis from above, inflammation, !eye movements with H, !lid lag); neck (scars, lumps; !swallow with water; tongue protrusion; palpate from behind; nodes; percuss sternum; auscultate bruit); proximal myopathy; pretibial myxoedema; reflexes; presents
+dom: Clinical reasoning | !Correct TFT interpretation (primary hyper / primary hypo)
+dom: Management | !Variant: carbimazole + beta-blocker + endocrinology (A); levothyroxine with monitoring (B); safety-net
+s: Examine | Could you hold your arms out straight? I'll rest a sheet of paper on your hands. | Paper magnifies a fine tremor: a technique mark.
+s: Examine | Follow my finger with your eyes without moving your head; tell me if you see double. Now watch my finger as it moves down quickly. | Eye movements in an H and lid lag are separate named items.
+s: Examine | Take a sip of water, hold it… and swallow. Now stick your tongue out. | Swallow = thyroid moves; tongue = thyroglossal cyst.
+s: Examine | I'll feel your neck from behind. Swallow again for me. | Palpating from behind while swallowing is the standard technique.
+s: Examine | Could you cross your arms and stand up from the chair? | Proximal myopathy check.
+s: Interpret | The TSH is ___ and the T4 is ___, so this is primary ___thyroidism. | One-line TFT logic.
+s[A]: Plan | Propranolol for the palpitations and tremor, carbimazole to switch off the overactive gland, and endocrinology referral. If you get a sore throat, mouth ulcers or fever, stop it and have an urgent blood count. | Drug + safety-net: the two big management marks.
+s[B]: Plan | Levothyroxine once daily on an empty stomach, half an hour before breakfast, away from iron or calcium, and a repeat blood test in about 3 months. Because thyroid and type 1 diabetes run together, I'd also check for coeliac disease. | Monitoring + autoimmune link shows depth.
+
+@PP39 | Hyperthyroid patient reluctant to take carbimazole (happy with the weight loss)
+src: CP2 GP (hyperthyroidism: patient happy to have lost weight, reluctant to take meds)
+u: 72
+fr: expl, counsel
+door: You are a Foundation doctor in General Practice. Your patient's blood tests show an overactive thyroid. She is pleased she has lost weight and is reluctant to take treatment in case she regains it. Tasks: explain the diagnosis and counsel her about treatment.
+trig: "I like being thinner" → explore, respect, then give the risks of untreated thyrotoxicosis
+hook: Untreated hyperthyroidism "HAB": Heart (AF, heart failure, stroke), Anxiety/agitation, Bones (osteoporosis); plus thyroid storm.
+clinch: ✅ Weight regain after treatment is real: counsel diet and activity from the start
+clinch: ❌ Never dismiss the weight concern: it's her ICE and the station's hidden pass mark
+money: I completely understand the weight loss has been a positive for you. The problem is the overactive thyroid is also making your heart race and can thin your bones and cause an irregular heartbeat. Let's treat it and plan together how to keep your weight where you want it.
+var: A | Ms Taylor, 34 | Graves' disease, reluctant
+a: Lost a stone and love it. Also anxious, shaky, sweating, palpitations, loose stools. Ask: Will I put the weight back on? Can't I just leave it? Are the tablets safe? Can I get pregnant on them?
+x: Explain Graves'; risks of no treatment; carbimazole (titration) + propranolol; agranulocytosis safety-net; pregnancy planning (propylthiouracil in first trimester; avoid pregnancy during radioiodine); weight: likely partial regain, dietitian, activity; smoking (eyes); follow-up TFTs 4–6 weekly.
+dom: Communication | !Explores and validates feelings about weight; non-judgemental; shared decision
+dom: Information giving | !Diagnosis in plain words; risks of no treatment; drug counselling in the fixed sequence; pregnancy; chunk and check
+dom: Management | Agreed plan; follow-up; safety-net
+s: Explore | It sounds like losing weight has been a real boost. Tell me more about how you feel about it. | Validating first is what moves her.
+s: Explain | Your thyroid is working overtime, like an engine stuck on full throttle. That burns calories, but it also strains your heart and bones. | Analogy that links the weight loss to the harm.
+s: Explain | Without treatment it can cause an irregular heartbeat, which can lead to stroke, and thinning of the bones. | Risks of refusal: the information-giving core.
+s: Counsel | Carbimazole calms the thyroid down. A rare but serious side effect is a drop in the cells that fight infection, so if you get a sore throat, mouth ulcers or fever, stop it and get a blood test that day. | The safety-critical counselling point.
+s: Agree | Some weight may come back. Shall we plan that now, with a dietitian, so you feel in control? | Turns her concern into a shared plan.
+
+@PP40 | Vascular: arterial examination + ABPI + explain (intermittent claudication)
+src: SMOSCE 19 · CP3 2018 first sit (ABPI, pulses, ulcer image, management) · OSCEs 2018 OSCE 2 (full vascular exam + ankle BP)
+u: 62, 63
+fr: ex, proc, expl
+ex: pvs
+pr: abpi
+door: You are the junior doctor in the vascular clinic. A 70-year-old man has been referred with calf pain on walking. Tasks: perform a focused examination, measure his ABPI, and explain your diagnosis to him.
+trig: Cramping calf pain on walking, relieved by rest within minutes → intermittent claudication (femoro-popliteal disease)
+trig: Buttock pain + absent femoral pulses (+ erectile dysfunction) → aorto-iliac disease (Leriche)
+hook: ABPI = highest ankle pressure (DP or PT) ÷ highest brachial pressure (both arms). >1.3 calcified; 0.9–1.3 normal; 0.5–0.9 claudication; <0.5 critical.
+hook: Critical ischaemia "6 Ps": Pain, Pallor, Pulseless, Paraesthesia, Paralysis, Perishingly cold (acute limb ischaemia).
+hook: Buerger's angle <20° = severe ischaemia; reactive hyperaemia on dependency.
+clinch: ✅ ABPI 0.75 = moderate arterial disease
+clinch: ❌ Diabetes and CKD falsely raise ABPI (calcified vessels): consider toe-brachial index
+clinch: ❌ Rest pain, ulcers or gangrene = critical limb ischaemia → urgent vascular referral
+money: His ABPI is 105 divided by 140, which is 0.75: moderate peripheral arterial disease causing claudication. Because he has diabetes the real value may be lower. The treatment starts with a supervised exercise programme, stopping smoking, atorvastatin 80 mg and clopidogrel, and a duplex scan to find the narrowing.
+trap: Not resting the patient supine before ABPI
+trap: Using the lower brachial pressure
+var: A | Mr Arter, 70 | Intermittent claudication (ABPI 0.75)
+a: GP letter: cramping pain in both calves on walking, progressing over months, relieved by rest. PMH: NSTEMI 2010, COPD, hypertension, T2DM. DH: amlodipine, simvastatin, metformin, salbutamol.
+r: Inspection: no cyanosis, scars, ulcers or amputation; some pallor and hair loss. Palpation: mildly cool feet, CRT <2 s. Pulses: femoral normal; popliteal, posterior tibial and dorsalis pedis faint. Sensation intact. ABPI: brachial 140, ankle 105.
+x: ABPI 0.75 = moderate PAD. Explain plainly; ABPI may be falsely high in diabetes (toe pressures); supervised exercise programme; smoking cessation; atorvastatin 80 mg; clopidogrel 75 mg; BP and diabetes control; weight; foot care; duplex USS; angioplasty/bypass if lifestyle-limiting despite exercise; naftidrofuryl if exercise unsuitable; safety-net rest pain/ulcers.
+dom: Examination | Expose both legs; pain check; inspection (colour, trophic changes, ulcers between toes and pressure areas, scars); temperature; CRT; !pulses (femoral, popliteal, PT, DP) both sides; bruits; Buerger's test; offers AAA and full CVS
+dom: Procedure (ABPI) | Rest supine 5–10 min; correct cuff; !brachial both arms by Doppler (use higher); !DP and PT each leg; cuff deflation 2 mmHg/s; calculates ratio correctly
+dom: Information giving | Explains diagnosis without jargon; explains diabetes effect; lifestyle; further tests
+s: Examine | I'm looking at the colour of the legs, the hair, the skin, and between the toes and heels for any sores. | Pressure areas and between the toes are where arterial ulcers hide.
+s: Examine | I'll feel your pulses from the groin down to the feet, both sides at the same time. | Comparison is a technique mark.
+s: ABPI | Could you lie flat and rest for a few minutes first? That gives a more accurate reading. | Resting is a named step.
+s: ABPI | I'll use the higher of the two arm pressures and the higher pressure at each ankle. | The calculation rule examiners check.
+s: ABPI | 105 divided by 140 is 0.75. | Calculate it yourself: SMOSCE says the student must.
+s: Explain | The arteries in your legs are narrowed, so when you walk your calf muscles don't get enough oxygen and cramp; rest lets the blood catch up. | Mechanism in plain words.
+s: Explain | Walking through the pain in a supervised programme is the best treatment: it grows new small vessels around the narrowing. | Exercise is first-line (NICE CG147).
+s: Explain | Stopping smoking, a statin and a blood-thinning tablet called clopidogrel protect your heart and brain too. | Secondary prevention of all arterial disease.
+
+@PP41 | Leg ulcer: describe the picture and manage (venous vs arterial vs neuropathic)
+src: CP3 2018 first sit (vascular: ABPI + ulcer image + management) · CP2 derm (venous eczema + ulcer)
+u: 63, 127
+fr: di, plan
+door: You are a Foundation doctor. You are shown a photograph of a leg ulcer. Tasks: describe it, give the most likely type, and outline management (including what you'd check before compression).
+trig: Gaiter area (medial malleolus) + shallow + sloping edge + haemosiderin + eczema + oedema → venous ulcer
+trig: Toes/pressure points + punched out + painful + cold + absent pulses → arterial ulcer
+trig: Plantar pressure point + painless + deep + warm foot with neuropathy → neuropathic (diabetic) ulcer
+hook: Ulcer description "SSEBD": Site, Size, Edge (sloping/punched/rolled/everted), Base (granulation/slough/necrotic), Depth; plus surrounding skin.
+hook: Compression rule: "No ABPI, no compression". ABPI ≥0.8 = safe full compression.
+clinch: ✅ Rolled pearly edge = BCC; everted/heaped edge = SCC (Marjolin's in a chronic ulcer)
+clinch: ❌ Compression on an arterial ulcer can cause necrosis
+money: This is a shallow ulcer above the medial malleolus with sloping edges, a granulating base, surrounding haemosiderin staining and venous eczema: a venous ulcer. After checking ABPI is at least 0.8, the treatment is four-layer compression bandaging, leg elevation and managing the eczema.
+var: A | Woman, 74 | Venous ulcer
+r: Photo: shallow 4 cm ulcer above the left medial malleolus, sloping edge, granulating base with some slough, brown haemosiderin pigmentation, lipodermatosclerosis, varicose veins. Pulses present. ABPI 1.0.
+x: Venous ulcer: four-layer compression after ABPI ≥0.8; elevation; exercise; emollient and topical steroid for venous eczema; swab only if infected; refer to vascular for superficial venous reflux (venous duplex; endovenous ablation speeds healing); leg ulcer clinic; review weekly; refer if not healing in 2 weeks or atypical.
+var: B | Man, 68, smoker | Arterial ulcer
+r: Photo: small punched-out deep ulcer on the tip of the 2nd toe, pale base, shiny hairless skin; absent foot pulses. ABPI 0.45.
+x: Arterial ulcer + critical limb ischaemia: urgent vascular referral; no compression; analgesia; smoking cessation; antiplatelet + statin; revascularisation.
+var: C | Man, 59, T2DM | Neuropathic ulcer
+r: Photo: deep ulcer under the 1st metatarsal head with callus rim; warm foot; reduced monofilament sensation; pulses present.
+x: Diabetic foot ulcer: same-day/urgent multidisciplinary foot team (NICE NG19); offload; debride; X-ray/MRI for osteomyelitis; antibiotics if infected; glycaemic control.
+dom: Clinical reasoning | !Systematic description; !correct ulcer type with supporting features
+dom: Management | !ABPI before compression; variant plan; referrals with urgency
+s: Describe | A ___ cm ulcer on the ___; the edge is ___, the base is ___, it is shallow/deep; the surrounding skin shows ___. | Structured description is the main mark.
+s: Reason | The site, sloping edge and surrounding skin changes make this a venous ulcer. | Name the type with evidence.
+s: Plan | Before any compression I'd check the ABPI; if it's 0.8 or more, four-layer compression, elevation and treating the eczema. | The safety rule examiners always ask.
+
+@PP42 | Post-op limb pain under a cast: DVT vs compartment syndrome (assess + SBAR)
+src: CP3 2018 first sit (MDD "assess a patient": bandaged leg, review notes, X-rays, SBAR to ortho reg) · CP3 2019 resit (post-op lower limb with cast, SBAR: DVT) · OSCEs 2018 (tibial nail, compartment syndrome SBAR)
+u: 13
+fr: hx, sbar, plan
+door: You are a Foundation doctor on the orthopaedic ward. A patient is post-operative with leg pain under a cast. Tasks: take a history, review the notes, and hand over to the on-call orthopaedic registrar using SBAR, persuading them to come.
+trig: Calf swelling + post-op + immobile in a cast → DVT
+trig: Pain out of proportion + pain on passive stretch after a tibial fracture/nail → compartment syndrome
+hook: Compartment syndrome: "pain out of proportion + pain on passive stretch" are EARLY; pulselessness is LATE (pulses can be present).
+hook: SBAR persuasion: say the diagnosis you fear in the first sentence, then the number that proves it, then exactly what you want and by when.
+clinch: ✅ Severe pain not relieved by opioids + pain on passive toe flexion/extension = compartment syndrome → split the cast to skin, elevate to heart level, emergency fasciotomy
+clinch: ✅ Wells ≥2 → proximal leg vein USS within 4 h (interim anticoagulation if delayed)
+clinch: ❌ Palpable foot pulses do not exclude compartment syndrome
+money: I'm calling about Mr Davies, 24, day 1 after a tibial nail. I'm worried he has compartment syndrome: his pain is out of proportion, needing morphine every hour, and passive stretch of his toes is excruciating. I've split the dressing and elevated the leg. I need you to see him in the next 15 minutes for fasciotomy.
+trap: Elevating the limb high (reduces perfusion): keep it at heart level
+trap: An SBAR that doesn't ask for anything specific
+var: A | Mr Davies, 24 | Compartment syndrome after tibial IM nail
+a: Day 1 after an intramedullary nail for a tibial fracture. Pain is unbearable and getting worse despite morphine; it hurts terribly when the nurse moves your toes. Tingling on the top of the foot.
+r: Obs: HR 110, BP 135/80, T 37.2. Notes: tibial shaft fracture, IM nail yesterday. Foot pulses palpable; capillary refill 3 s.
+x: Acute compartment syndrome: split cast/dressing to skin; limb at heart level; stop/avoid compressive dressings; analgesia; senior orthopaedic review urgently for fasciotomy (compartment pressure if diagnosis unclear); NBM.
+var: B | Mrs Kaur, 66 | DVT after ankle fracture fixation in a cast
+a: 5 days after ankle surgery; below-knee cast; calf swelling and ache above the cast; no chest pain or breathlessness. Not on VTE prophylaxis since discharge.
+r: Calf 3 cm larger than other side, tender along deep veins above cast. Wells 3.
+x: Likely DVT: proximal leg vein USS within 4 h; interim anticoagulation (DOAC/LMWH) if delay; if confirmed, DOAC 3 months (provoked); review VTE prophylaxis for immobilised lower-limb casts (NICE NG89); assess for PE.
+dom: Information gathering | !Pain severity vs expected, analgesia need; !pain on passive stretch; paraesthesia; swelling; breathlessness/chest pain (PE); VTE risk
+dom: Clinical reasoning | !Recognises compartment syndrome (A) or DVT (B); interprets notes
+dom: Information giving (SBAR) | !Situation with diagnosis feared; background; assessment with numbers; !specific recommendation with timescale; read-back
+dom: Management | Immediate actions (split cast, elevate to heart level / USS and anticoagulate)
+s: History | On a scale of 0 to 10, how bad is the pain now? How often have you needed pain relief? | Pain out of proportion and escalating analgesia are the earliest signs.
+s: Examine | I'm going to gently move your toes. Tell me if it hurts. | Pain on passive stretch is the key clinical test.
+s: Act | I've split the cast down to the skin and put the leg at heart level, not higher. | Immediate actions the examiner wants said.
+s: SBAR | Situation: I'm Nana, F1 on Ward 10. I'm worried Mr Davies has compartment syndrome. | Lead with the feared diagnosis: registrars decide fast.
+s: SBAR | Background: 24, tibial nail yesterday. Assessment: hourly morphine, pain on passive stretch, tingling, HR 110, pulses present. | Numbers persuade.
+s: SBAR | Recommendation: I need you to come and see him within 15 minutes; I think he needs a fasciotomy. Could you confirm that back to me? | Specific ask + timescale + read-back.
+
+@PP43 | External genitalia: history + examination → hydrocele or varicocele
+src: CP3 2019 first sit (external genitalia: history, examine, explain) · CP3 2019 OSCE 2 (hydrocele / varicocele)
+u: 81, 82, 83, 84
+fr: hx, ex, expl
+ex: scrotal
+door: You are a Foundation doctor. A man has a scrotal swelling. Tasks: take a history, examine the external genitalia (model or patient), and explain your diagnosis and management.
+trig: Painless, can get above it, testis not separately palpable, transilluminates → hydrocele
+trig: "Bag of worms" above the left testis, worse standing, empties lying down → varicocele
+trig: Sudden severe testicular pain + high-riding testis + absent cremasteric reflex → torsion (emergency)
+hook: Scrotal lump algorithm: 1) Can you get above it? (no = inguinoscrotal hernia) 2) Is it separate from the testis? (yes = epididymal cyst/spermatocele) 3) Does it transilluminate? (yes = hydrocele / cyst; no = solid: tumour until proven otherwise).
+clinch: ✅ Hard painless lump in the testis itself = testicular cancer → urgent USS + 2WW
+clinch: ❌ Right-sided varicocele or one that doesn't empty lying down → look for a renal tumour/IVC obstruction
+clinch: ❌ Testicular torsion: don't wait for USS: theatre within 6 hours
+money: This is a painless scrotal swelling I can get above, the testis isn't separately palpable and it transilluminates brightly: a hydrocele. I'd arrange an ultrasound to check the testis underneath.
+trap: No chaperone; examining only lying down
+var: A | Man, 45 | Hydrocele
+a: Painless swelling of the right scrotum for 3 months, slowly bigger, heavy feeling. No trauma, urinary symptoms or weight loss.
+r: Right scrotal swelling; can get above it; testis not separately palpable; fluctuant; transilluminates.
+x: Hydrocele: scrotal USS (exclude underlying tumour/infection); conservative if small; surgical repair (Jaboulay/Lord's) if symptomatic.
+var: B | Man, 24 | Left varicocele
+a: Dragging ache in the left scrotum after standing all day at work; partner and you trying to conceive for a year.
+r: Standing: soft "bag of worms" above the left testis, increases with Valsalva, empties lying down; testes normal size.
+x: Varicocele: scrotal USS with Doppler; semen analysis if subfertility; embolisation/surgery if pain, atrophy or subfertility; check right-sided/non-emptying → renal imaging.
+dom: Professionalism | !Chaperone; consent; dignity
+dom: Information gathering | Onset, pain, size change, trauma, urinary/sexual symptoms, fertility, systemic symptoms, FH testicular cancer
+dom: Examination | Inspect lying and standing; both sides; !get above it; separate from testis?; consistency; !transillumination; cough impulse; inguinal nodes (scrotal skin drains there), abdomen
+dom: Information giving | Plain explanation; USS; management options; safety-net (sudden pain, new hard lump)
+s: Examine | I'd like a chaperone present; is that OK? I'll examine you lying and then standing. | Chaperone + positions.
+s: Examine | Can I get above the swelling? Yes, so this is in the scrotum, not a hernia. | Step 1 of the algorithm said aloud.
+s: Examine | I'll shine a light through it. It lights up, so it's fluid. | Transillumination is the decisive test.
+s: Explain | This is a collection of fluid around the testicle called a hydrocele. It's very common and not cancer, but we'll do an ultrasound to check the testicle underneath. | Reassure honestly + why USS.
+s: Safety | If you get sudden severe pain in the testicle, go to A&E straight away. | Torsion safety-net.
+
+@PP44 | Painless haematuria: history + investigations + breaking bad news (bladder / renal / prostate cancer)
+src: OSCEs 2018 OSCE 1 (medicine-urology, 3 days: bladder, renal cell, prostate cancer BBN) · SMOSCE 56 (haematuria differentials + investigation plan)
+u: 77, 78, 76
+fr: hx, di, bbn, plan
+door: You are a Foundation doctor. Your patient has painless visible haematuria. Tasks: take a history; state the investigations you'd do; interpret the results card; explain the diagnosis and management plan to the patient.
+trig: Painless visible haematuria in an older smoker → bladder cancer until proven otherwise
+trig: Haematuria + loin pain + flank mass (+ left varicocele) → renal cell carcinoma
+hook: Visible haematuria red flag: "≥45 with unexplained visible haematuria (or persisting after UTI treatment) → suspected cancer pathway (NICE NG12)".
+hook: Haematuria work-up "Dip, Bloods, Image, Scope": urine dip/MC&S/cytology; U&E, FBC, clotting, PSA (counselled); CT urogram (or USS); flexible cystoscopy.
+clinch: ✅ Smoking + dye/rubber/textile work + painless visible haematuria = transitional cell (urothelial) carcinoma
+clinch: ❌ Haematuria with dysuria and nitrites → treat UTI, then re-test: persisting haematuria still needs referral
+clinch: 🧪 Red cell casts + proteinuria + hypertension → glomerular cause: renal, not urology
+money: With painless visible haematuria in a 75-year-old ex-smoker, my main concern is bladder cancer. I'd send a urine dip and culture, bloods including kidney function, and refer on the suspected cancer pathway for a CT urogram and flexible cystoscopy.
+trap: Not asking smoking and occupation (bladder cancer risk)
+trap: Dropping the news without SPIKES
+var: A | Mr Smith, 75 | Bladder cancer (BBN)
+a: Pink urine for 2 weeks, no clots, no pain, no urinary symptoms; nocturia once. Neighbour had bladder cancer and his bladder removed: your biggest worry. Retired electrical engineer; smoked 30/day for 40 years, stopped 15 years ago; no alcohol. Amlodipine 10 mg; ibuprofen sometimes.
+r: Results card: flexible cystoscopy shows a 2 cm papillary tumour on the bladder wall; biopsy: high-grade urothelial (transitional cell) carcinoma, likely non-muscle-invasive. CT urogram: no upper tract lesion.
+x: BBN (SPIKES); TURBT ± intravesical BCG/mitomycin; MDT; specialist nurse; surveillance cystoscopies; stop NSAIDs; support.
+var: B | Woman, 63 | Renal cell carcinoma (BBN)
+a: Blood in urine twice; dull left loin ache; lost some weight; smoker.
+r: CT: 6 cm solid enhancing left renal mass, no metastases.
+x: RCC: urology MDT; partial/radical nephrectomy; staging; nurse; support.
+var: C | Man, 70 | Prostate cancer (BBN)
+a: Blood in semen and urine once; poor stream for a year.
+r: MRI + biopsy: prostate adenocarcinoma, Gleason 4+3, localised; PSA 14.
+x: Localised intermediate-risk prostate cancer: options (active surveillance not ideal at 4+3; radical prostatectomy; radiotherapy + hormone therapy); MDT; nurse; side effects (continence, erectile function).
+dom: Information gathering | !Visible vs non-visible, clots, pain, LUTS; !smoking and occupational exposure; anticoagulants; weight loss; FH; ICE
+dom: Information giving | !Investigations with reasons; !breaks news using SPIKES; no jargon; chunks and checks
+dom: Clinical reasoning | Differentials: urothelial cancer, RCC, prostate, stones, UTI, glomerular
+dom: Management | !Referral pathway/MDT; treatment options outline; specialist nurse; follow-up
+s: History | Is it pink, red, or with clots? Any pain? | Painless visible haematuria is the red flag; pain points to stones or infection.
+s: History | Have you ever smoked? What did you do for work: any dyes, rubber or chemicals? | Bladder cancer risk factors are named items.
+s: Plan | A urine dip and culture, kidney blood tests, a CT scan of the kidneys and bladder, and a camera test into the bladder called a cystoscopy. | The four-part work-up.
+s: BBN | You mentioned you were worried about your neighbour. What have you been told about the camera test so far? | Perception linked to his ICE.
+s: BBN | I'm afraid the camera test found a growth in the bladder, and the sample shows it's a cancer. | Warning shot + plain word.
+s: BBN | (Pause.) The good news is it looks like it's only on the inner lining. The usual treatment is removing it with a camera through the urethra, sometimes followed by medicine put into the bladder. | Hope with honesty; next steps.
+
+@PP45 | Renal colic: interpret results and explain the plan (obstructed infected / small stone / staghorn)
+src: Nottingham Medicine/Urology station bank (renal colic management)
+u: 79, 80
+fr: di, expl, plan
+door: You are a Foundation doctor in Urology. Mr Roy was admitted yesterday with renal colic, treated conservatively, and is now pain-free. He wants to know if he can go home. Tasks: interpret the investigations for the examiner, explain your plan to the patient, and answer his questions. You are not required to take a history or examine.
+trig: Stone + hydronephrosis + fever/raised WCC/CRP + AKI → obstructed infected kidney = urological emergency
+trig: Stone <5 mm, no obstruction or infection → likely to pass: home with analgesia
+trig: Large branching stone filling the pelvicalyceal system → staghorn (struvite, Proteus)
+hook: "Pus under pressure": an obstructed, infected kidney needs draining (nephrostomy or stent) TODAY; antibiotics alone fail.
+hook: Stone size rule: <5 mm usually pass; 5–10 mm consider tamsulosin (distal ureter); >10 mm or not passing → ureteroscopy/lithotripsy; staghorn → PCNL.
+clinch: ✅ Fever + raised inflammatory markers + hydronephrosis = infected obstruction → urgent decompression
+clinch: 🧪 Calcium oxalate most common; uric acid (gout, allopurinol) radiolucent on X-ray
+clinch: ❌ Don't restrict dietary calcium for calcium stones (it increases oxalate absorption)
+money: He has multiple stones with a grossly dilated renal pelvis, a CRP of 600 and a raised creatinine: an obstructed infected kidney. He can't go home: he needs IV antibiotics, fluids and urgent decompression with a nephrostomy or ureteric stent today.
+var: A | James Roy, 56 | Obstructed infected kidney (urosepsis)
+a: Gout and hypertension; ACE inhibitor and allopurinol; heavy drinker. Feel fine now; want to go home.
+r: Hb 145, WCC 14.0, platelets 180, CRP 600, Na 144, K 5.3, urea 9.0, creatinine 160. CT KUB: multiple renal and ureteric calculi, grossly dilated renal pelvis.
+x: Surgical emergency: urgent decompression (nephrostomy or retrograde stent), IV antibiotics, fluids, hold ACEi (AKI), monitor K; later definitive stone treatment; prevention (fluids, alcohol, purines; urine alkalinisation for uric acid).
+var: B | Markus Roy, 23 | Simple 4 mm stone
+a: Student, no medical history.
+r: Hb 140, WCC 12.0, CRP 12, urea 6.0, creatinine 90. AXR: 4 mm stone.
+x: Likely to pass (<5 mm): discharge with NSAID (e.g. naproxen/diclofenac) ± paracetamol, fluids 2.5–3 L/day, sieve urine, urology follow-up, safety-net (fever, uncontrolled pain, vomiting, reduced urine).
+var: C | Alex Roy, 37 | Staghorn calculus
+a: Construction worker; no history, medicines or operations.
+r: Hb 150, WCC 11.5, CRP 35, urea 4.6, creatinine 96. Imaging: staghorn calculus.
+x: Staghorn (usually struvite with urease-producing infection): percutaneous nephrolithotomy (PCNL); treat infection; urine culture; metabolic stone screen; prevention.
+ask: Can I go home today? | Will it happen again? | What can I do to stop more stones?
+dom: Clinical reasoning | !Variant: obstructed infected kidney (A) / simple stone <5 mm (B) / staghorn (C) with results interpreted
+dom: Information giving | Explains plan to patient in plain words; answers questions; chunks and checks
+dom: Management | All: hydration, analgesia; !A: urgent decompression + IV antibiotics; B: expectant management + safety-net; C: PCNL; prevention advice
+s: Interpret | The CRP is 600 and WCC 14, the creatinine is 160, and the CT shows stones with a grossly dilated kidney. This is an obstructed, infected kidney. | Linking inflammation + obstruction = emergency.
+s[A]: Explain | I know you feel better, but the kidney is blocked and infected behind the stone. It needs a small tube to drain it today, otherwise the infection can spread to the blood. | Answers "can I go home?" honestly with the reason.
+s[B]: Explain | Your stone is small, 4 mm, and most stones that size pass on their own within a few weeks. You can go home with pain relief. | Reassure with the size rule.
+s[B]: Safety | If you get a fever, pain that tablets don't control, keep vomiting, or pass much less urine, come straight back. | Specific safety-net.
+s: Prevent | The best prevention is drinking enough that your urine is pale, about 2.5 to 3 litres a day, cutting down salt, and not cutting out calcium from food. | Prevention with the calcium trap.
+
+@PP46 | Urinary retention: male catheterisation on a model + AKI bloods + plan
+src: SMOSCE 20 · CP3 2018 first sit (post-op assessment + catheter; recognising sepsis + catheter)
+u: 85, 75, 51
+fr: proc, di, plan
+pr: catm
+door: You are the junior doctor in the Emergency Department. An older man has lower abdominal pain and difficulty passing urine; you think he has urinary retention. Tasks: demonstrate male catheterisation on the manikin (address it as a patient), interpret his blood results, and discuss your ongoing plan.
+trig: Suprapubic pain + palpable bladder + can't pass urine → acute urinary retention
+trig: Retention + very high urea/creatinine → post-renal AKI
+hook: Catheter "ANTT + Lido + Lift": aseptic non-touch technique, lidocaine gel and wait, lift the penis to straighten the urethra, advance to the hilt, urine before balloon.
+hook: After draining chronic retention: watch for post-obstructive diuresis (>200 mL/h): replace fluids.
+clinch: ✅ Inflate the balloon only after urine flows (or fully advanced to the Y-junction)
+clinch: ✅ Always replace the foreskin (prevents paraphimosis)
+clinch: 🧪 Residual volume >1 L with high creatinine = high-pressure chronic retention
+money: His creatinine is 383 and urea 32.6 with retention: acute kidney injury from obstruction. He needs admission, the catheter left on free drainage with hourly urine output, IV 0.9% saline without potassium, daily U&Es, and a urology plan for the cause.
+trap: Contaminating gloves and carrying on
+trap: Inflating the balloon in the urethra
+var: A | Man, 74 | Retention with post-renal AKI
+a: (Manikin) You can't pass urine; lower tummy pain. Respond as a patient.
+r: Hb 135, MCV 85, platelets 250, WBC 8, Na 142, K 5.0, urea 32.6, creatinine 383, eGFR 13, LFTs normal, albumin 36, CRP 8.
+x: Post-renal AKI: admit; senior and renal/urology; IV 0.9% NaCl without added K; daily U&E; strict fluid balance (post-obstructive diuresis); keep catheter; investigate cause (BPH, constipation, drugs: anticholinergics/opioids); renal USS; trial without catheter later with tamsulosin.
+dom: Procedure | Consent, chaperone (must), explanation; gather kit (catheter 12–14 Ch, gel, water, bag, pack); hand hygiene, apron, sterile gloves; !aseptic non-touch technique; clean (retract foreskin, clean glans away from meatus); drape; !lidocaine gel and wait; lift penis, advance to hilt; !urine before balloon; inflate with correct volume; withdraw gently; attach bag; !replace foreskin; residual volume; document (batch, size, residual)
+dom: Clinical reasoning | !AKI (post-renal) recognised
+dom: Management | !Admit; senior/renal or urology; IV fluids without K; daily U&E; investigate cause; catheter; fluid balance
+s: Procedure | I need to put a tube into your bladder through your penis to drain the urine. It'll feel uncomfortable, but I'll use numbing gel. Would you like a chaperone? | Consent + chaperone (must).
+s: Procedure | I'll open the pack keeping the inside sterile, put on sterile gloves, and keep one hand clean. | ANTT spoken while done.
+s: Procedure | I'll put the numbing gel in and wait a few minutes for it to work. | Waiting for the lidocaine is a kindness and a mark.
+s: Procedure | Urine is flowing, so I'm in the bladder. Now I'll inflate the balloon with 10 mL of water and gently pull back. | Urine before balloon: the critical safety step.
+s: Procedure | I'm putting your foreskin back over to stop it swelling. | Paraphimosis prevention is a named item.
+s: Interpret | Urea 32.6 and creatinine 383 with an eGFR of 13: severe AKI, most likely post-renal from the obstruction. | Name the AKI and the cause.
+s: Plan | Admit, catheter on free drainage with hourly urine output, IV 0.9% saline without potassium, daily U&Es, and watch for a big diuresis once the blockage is relieved. | Specific fluids + post-obstructive diuresis = depth.

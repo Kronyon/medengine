@@ -1,0 +1,252 @@
+@PP61 | Mental state examination: schizophrenia or mania (examine and present)
+src: CP2 Psych (MSE: schizophrenia/mania; do examination; present back)
+u: 100, 103
+fr: mhx, reason
+door: You are a Foundation doctor in a psychiatric assessment unit. Tasks: perform a mental state examination on this patient and present your findings to the examiner.
+trig: Pressured speech + flight of ideas + grandiosity + reduced need for sleep + elated or irritable mood → mania
+trig: Third-person voices commenting + thought broadcasting/insertion + persecutory delusions + flat affect → schizophrenia
+hook: MSE order "ASEPTIC": Appearance and behaviour, Speech, Emotion (mood subjective/objective, affect), Perception, Thought (form and content), Insight, Cognition (+ Risk).
+hook: Schneider's first-rank symptoms "ABCD": Auditory hallucinations (3rd person, running commentary, thought echo), Broadcasting/insertion/withdrawal of thought, Control (passivity), Delusional perception.
+clinch: ✅ Flight of ideas (rapid jumps with links) = mania; loosening of association/knight's move (no link) = schizophrenia
+clinch: ❌ Visual hallucinations predominantly → think organic (delirium, Lewy body, drugs)
+clinch: ✅ MSE is a snapshot: describe what you observe now, not the history
+money: Mr X is a 28-year-old man, dishevelled and restless, with pressured, loud speech that's hard to interrupt. He describes his mood as "fantastic" and appears elated with a labile affect. There is flight of ideas and grandiose delusions that he is a billionaire inventor. No hallucinations reported. He has no insight. Cognition appeared grossly intact. Risk: financial and sexual disinhibition. These findings are consistent with a manic episode.
+trap: Mixing history into the MSE presentation
+trap: Forgetting risk and insight
+var: A | Mr Ahmed, 28 | Manic episode (bipolar I)
+a: Restless, can't sit still, interrupting; loud, rapid speech jumping between topics with rhyming links; mood "fantastic, never better"; quickly irritable when challenged; say you've slept 2 hours a night for a week and feel great; you're about to become a billionaire from an app you invented; spent £8,000 this week; deny voices; don't think you're ill.
+x: Mania: risk assessment (finances, driving, sexual, aggression, self-neglect); consider MHA if lacks insight and refuses; stop antidepressants; antipsychotic (e.g. olanzapine/quetiapine/haloperidol); later mood stabiliser (lithium/valproate, avoid valproate in women of child-bearing potential); sleep.
+var: B | Ms Clarke, 23 | First-episode schizophrenia
+a: Guarded, poor eye contact, occasionally looks to the corner and mutters; speech slow with long pauses, sometimes doesn't make sense; mood "fine", affect flat. If asked gently: you hear two men talking about you ("she's useless, she's going out now"); the TV sends you messages; your neighbours put thoughts in your head. You stopped going to university 3 months ago. Don't think you're unwell; think the neighbours need dealing with.
+x: First-episode psychosis: early intervention in psychosis team; risk (to others: neighbours; self); physical work-up (bloods, drug screen, consider MRI); antipsychotic (shared decision, e.g. aripiprazole); CBTp, family intervention; MHA if needed.
+dom: Communication | Rapport; calm; non-confrontational; open questions; doesn't collude or argue with delusions
+dom: Examination (MSE) | !Appearance and behaviour; !speech (rate, volume, tone, flow); !mood (subjective and objective) and affect; !thought form and content (delusions, overvalued ideas, obsessions); !perception (hallucinations in all modalities); !insight; cognition (orientation, attention); !risk
+dom: Clinical reasoning / presentation | !Structured MSE presentation; correct impression (mania/schizophrenia); risk formulation
+s: MSE | How would you describe your mood at the moment? | Subjective mood: always ask, then compare with what you observe.
+s: MSE | Sometimes when people are under a lot of stress they hear voices or see things others can't. Has that happened to you? | Normalising question for perception.
+s: MSE | Do you ever feel your thoughts are being interfered with, put in, taken out, or that others can hear them? | First-rank symptoms asked directly.
+s: MSE | Do you have any special abilities or plans at the moment? | Opens grandiose content without challenging it.
+s: MSE | Do you think anything is wrong with your health at the moment? Would you accept help? | Insight is a named item.
+s: Risk | Have you had any thoughts of harming yourself or anyone else? | Risk is part of every MSE.
+s: Present | Appearance and behaviour… Speech… Mood, subjectively "___", objectively ___; affect ___… Thought form… Thought content… Perception… Insight… Cognition… Risk… These findings are consistent with ___. | ASEPTIC presentation is the main mark.
+
+@PP62 | Alcohol history and management (motivational, dependence, withdrawal, Wernicke's)
+src: CP2 Psych (drinking history: history + management to patient)
+u: 110
+fr: mhx, expl, plan
+door: You are a Foundation doctor. Your patient has been referred about their drinking. Tasks: take an alcohol history and discuss management with the patient.
+trig: Morning drinking + tremor on waking + tolerance + failed attempts to cut down → alcohol dependence
+hook: Dependence features (ICD) "3 of 6 in a year": compulsion/craving, loss of control, withdrawal, tolerance, neglect of other interests (salience), persistence despite harm. Mnemonic "TWO CAN" (Tolerance, Withdrawal, Out of control, Craving, Abandoned activities, Narrowed repertoire/persists despite harm).
+hook: Withdrawal timeline "6-12-24-48-72": tremor 6–12 h, hallucinations 12–24 h, seizures 24–48 h, delirium tremens 48–72 h.
+hook: Wernicke's triad (only ~10% have all 3): Confusion, Ataxia, Ophthalmoplegia → IV Pabrinex before glucose.
+clinch: ✅ AUDIT-C ≥5 → full AUDIT; AUDIT ≥20 = possible dependence
+clinch: ❌ Stopping suddenly when dependent can cause seizures/DTs: plan a medically assisted detox
+clinch: ✅ Medically assisted withdrawal: chlordiazepoxide reducing regime + thiamine; relapse prevention: acamprosate or naltrexone (disulfiram if suitable)
+money: Thank you for being so open. From what you've told me, your body has become dependent on alcohol: the morning shakes and needing a drink to settle them are signs of that. Stopping suddenly could be dangerous, so if you're ready, we can plan a safe detox with medication and support.
+var: A | Mr Byrne, 45 | Alcohol dependence (pre-contemplative to contemplative)
+a: Initially defensive ("everyone drinks"). Drink 2 bottles of wine a day plus beer at weekends; first drink at 10 am "to settle the shakes"; tried to cut down twice, couldn't; wife threatening to leave; late for work; one drink-driving warning. No seizures or hallucinations. Eat poorly. If the doctor is non-judgemental, admit you want to cut down.
+x: Units (≈20/day); dependence; withdrawal and seizure history; liver/physical (LFT, GGT, MCV, clotting, FBC, U&E, B12/folate); mental health and suicide risk; motivational interviewing (pros/cons, readiness); brief intervention; referral to community alcohol service; medically assisted withdrawal (community vs inpatient); thiamine orally (IV Pabrinex if Wernicke's risk); relapse prevention drug; mutual aid (AA/SMART); DVLA: alcohol dependence must be notified and not drive; safeguarding (children).
+dom: Communication | !Non-judgemental; open questions; reflects; motivational style (readiness, ambivalence)
+dom: Information gathering | !Quantity (units), pattern, type, timing; !dependence features (CAGE/AUDIT, morning drinking, tolerance, withdrawal, failed attempts); withdrawal seizures/DTs; impact (work, family, legal, driving); physical and mental health; other substances; children at home; support
+dom: Management | !Safe withdrawal plan (not abrupt); thiamine; community alcohol team; relapse prevention drugs; DVLA; safeguarding; follow-up
+s: Engage | Can you tell me a bit about how alcohol fits into your life at the moment? | Open, non-judgemental opener for a defensive patient.
+s: Quantify | What do you usually drink, and how much in a typical day? What time is your first drink? | Units and timing; morning drinking is the dependence marker.
+s: Dependence | Do you ever feel shaky or sweaty in the morning until you have a drink? Have you ever had a fit or seen things when you stopped? | Withdrawal history decides inpatient vs community detox.
+s: CAGE | Have you ever felt you should Cut down? Been Annoyed by people criticising? Felt Guilty? Needed an Eye-opener? | CAGE is quick and examiners recognise it.
+s: Impact | How has drinking affected your work, family, or driving? | Consequences + the DVLA point.
+s: Plan | Stopping suddenly could cause fits, so we'd do it with a reducing course of medicine called chlordiazepoxide, and a vitamin called thiamine to protect your brain. | Safety + specific drugs.
+s: Plan | Afterwards, medicines like acamprosate can reduce cravings, and the alcohol service and groups like AA can support you. | Relapse prevention and support.
+s: Driving | You mustn't drive while you're drinking like this, and the DVLA needs to know about alcohol dependence. | Legal duty: a professionalism mark.
+
+@PP63 | Lithium counselling (bipolar disorder)
+src: CP2 Psych (lithium counselling: explanation, answer questions) · CP2 Psych (explaining to relative: lithium)
+u: 111, 103
+fr: counsel
+door: You are a Foundation doctor. Your patient with bipolar disorder is starting lithium. Tasks: counsel them about the medication and answer their questions.
+trig: Starting lithium → narrow therapeutic index: levels, toxicity, interactions, pregnancy, dehydration
+hook: Lithium counselling "LITHIUM": Levels (12 h post-dose; weekly until stable, then 3-monthly), Interactions (NSAIDs, ACEi/ARB, diuretics), Thyroid (and kidneys: tests 6-monthly), Hydration (avoid dehydration, sweating, D&V), Intoxication signs, Unborn baby (teratogenic: plan pregnancy), Maintain the same brand.
+hook: Toxicity "coarse": fine tremor is a side effect; COARSE tremor, vomiting, diarrhoea, ataxia, slurred speech, confusion = toxicity → stop and get a level.
+clinch: ✅ Target level 0.4–1.0 mmol/L (often 0.6–0.8), 12 hours after the dose
+clinch: ❌ Ibuprofen and other NSAIDs raise lithium levels: use paracetamol
+clinch: ✅ Carry the lithium alert card and record book
+money: Lithium is very good at preventing highs and lows, but the gap between the right level and too much is small. So we'll check your level 12 hours after a dose, every week at first; and if you get vomiting, diarrhoea, a coarse shake or unsteadiness, stop it and get an urgent level.
+var: A | Ms Hughes, 32 | Bipolar I starting lithium
+a: Ask: Will it change my personality? Can I drink? Can I take ibuprofen for period pain? I'd like a baby in a couple of years. Do I need lots of blood tests?
+x: Indication and mechanism (mood stabiliser); once daily at night, same brand, same time; levels 12 h post-dose (5–7 days after start/change, weekly until stable, then 3-monthly in first year, then 6-monthly); U&E/eGFR, TFT (and calcium, weight) before and 6-monthly; side effects (thirst, polyuria, fine tremor, weight gain, hypothyroidism, nausea); toxicity signs and action; interactions (NSAIDs, ACEi/ARB, diuretics), dehydration; alcohol: minimise; pregnancy: plan with psychiatrist (cardiac risk, levels change), effective contraception; don't stop suddenly (rebound mania); alert card; record book.
+dom: Communication | Explores understanding and concerns; non-judgemental; chunks and checks
+dom: Information giving | !Indication; how to take; !blood level monitoring and timing; !toxicity symptoms and what to do; !interactions (NSAIDs) and dehydration; pregnancy; thyroid/kidney checks; alert card; teach-back
+s: Counsel | What do you know about lithium already? | Starting point.
+s: Counsel | It's a mood stabiliser: it reduces the chance of both highs and lows coming back. | Indication in plain words.
+s: Counsel | Take it once a day at night, always the same brand. We check the level in your blood 12 hours after a dose: weekly at first, then every few months. | Timing of levels is the most-tested fact.
+s: Counsel | Common effects are thirst, passing more urine and a fine shake of the hands. If you get a coarse shake, vomiting, diarrhoea, unsteadiness or confusion, that can mean the level is too high: stop it and get an urgent blood test. | Side effects vs toxicity with an action.
+s: Counsel | Avoid ibuprofen and similar painkillers; paracetamol is fine. Tell any doctor or pharmacist you take lithium before starting a new medicine. | Interaction answer to her question.
+s: Counsel | If you're unwell with diarrhoea or sweating a lot, keep drinking fluids, as dehydration raises the level. | Dehydration risk.
+s: Counsel | If you're thinking about a baby, plan it with your psychiatrist beforehand; lithium can affect a baby's heart, and doses change in pregnancy. Until then, use reliable contraception. | Pregnancy planning: a named item.
+
+@PP64 | Explaining ECT (or an IM antipsychotic) to a relative
+src: CP2 Psych (explaining to relative: ECT / lithium / IM risperidone)
+u: 113, 101
+fr: expl, prof
+door: You are a Foundation doctor on a psychiatric ward. The daughter of a patient with severe depression wants to know about the electroconvulsive therapy (ECT) the team has recommended. Tasks: explain ECT and answer her questions (the patient has consented to you speaking with her).
+trig: Severe depression with psychotic features/catatonia/not eating or drinking → ECT
+hook: ECT explained "Asleep, Relaxed, Brief": under a short general anaesthetic + muscle relaxant, a brief controlled electrical current causes a seizure for under a minute; usually twice a week for 6–12 sessions.
+hook: Side effects "HMM": Headache, Muscle aches, Memory problems (short-term, around the time of treatment) + anaesthetic risks.
+clinch: ✅ Indications (NICE): severe life-threatening depression, catatonia, prolonged/severe mania, when rapid response needed or other treatments failed
+clinch: ✅ Consent: needed if capacitous; if detained and lacking capacity, MHA s58A requires a SOAD; a valid advance decision refusing ECT must be respected
+clinch: ❌ The "One Flew Over the Cuckoo's Nest" image is outdated: no visible convulsion, done under anaesthetic
+money: ECT is done under a short general anaesthetic with a muscle relaxant, so your mum is asleep and her body stays still. A brief, controlled current causes a seizure in the brain lasting under a minute. It works faster than tablets for very severe depression. The main side effects are headache, aching muscles and some memory problems around the time of the treatment.
+var: A | Daughter of Mrs Patel, 74 | ECT for depression with psychotic features (not eating)
+a: Shocked; saw ECT in films. Ask: Is it like the films? Will it damage her brain? Does she have to have it? Will she remember me? How many sessions?
+x: Explain indication (not eating/drinking, psychotic depression, risk); procedure; course (twice weekly, 6–12); effectiveness; side effects (headache, muscle ache, confusion after, memory loss for events around treatment, rarely longer-term autobiographical gaps); anaesthetic risk; consent (she has capacity and agreed; can withdraw); no evidence of brain damage; continued medication; leaflet (Royal College of Psychiatrists).
+var: B | Husband of a patient, 40 | IM antipsychotic (rapid tranquillisation)
+a: Upset his wife was given an injection after becoming very agitated. Ask: Why? Is it safe? What side effects?
+x: Rapid tranquillisation (NICE NG10): used when de-escalation and oral options fail and there is risk; e.g. IM lorazepam or IM promethazine/haloperidol (with ECG for haloperidol); monitoring (obs every 15 min first hour); side effects: dystonia, sedation, low BP, NMS rare; treatment of acute dystonia with procyclidine; debrief.
+dom: Professionalism | !Checks consent to share; confidentiality; respectful
+dom: Communication | Explores knowledge and fears (films); empathy; no jargon; chunk and check
+dom: Information giving | !Indication; !procedure (anaesthetic, relaxant, brief seizure); course; effectiveness; !side effects incl. memory; consent and right to withdraw; leaflet
+s: Consent | Your mum has said she's happy for me to talk to you about her treatment. | Confidentiality first.
+s: Explore | What have you heard about ECT? | Find the film images early.
+s: Explain | It's very different from films now. She'll have a short general anaesthetic and a muscle relaxant, so she's asleep and her body barely moves. | Corrects the misconception directly.
+s: Explain | We usually give it twice a week, for 6 to 12 treatments. Many people with depression this severe improve faster than with tablets. | Course and effectiveness.
+s: Explain | Afterwards she may have a headache, aching muscles or feel muddled for a short time. Some people have gaps in memory for around the treatment period; we monitor this closely. | Honest side effects including memory.
+s: Explain | She's agreed to it, and she can change her mind at any point. | Consent and autonomy.
+
+@PP65 | Suicide risk assessment after self-harm or with depression
+src: CP2 Psych (PD/depression/schizophrenia: suicide risk assessment + management)
+u: 102, 111, 109
+fr: mhx, prof, plan
+door: You are a Foundation doctor in A&E. A patient has been medically treated after an overdose (or presents with low mood and suicidal thoughts). Tasks: assess their suicide risk and discuss management.
+trig: Overdose + planning + precautions against discovery + note → high suicidal intent
+hook: Intent questions around the act: "Planned? Alone? Precautions against being found? Note/final acts? Thought it would kill? Regret surviving?"
+hook: Risk factors vs protective factors: male, older, alone, unemployed, chronic illness, substance use, previous attempts, psychiatric illness, access to means vs children, faith, hope, support, engagement.
+clinch: ✅ NICE NG225 (2022): don't use risk scales (e.g. SAD PERSONS) to predict suicide or decide treatment; do a needs-based psychosocial assessment
+clinch: ✅ Ask directly about suicide: it does not increase risk
+clinch: ❌ Discharging without a safety plan and follow-up
+money: The overdose was planned for a week, taken alone with the door locked, after writing a note, and she's disappointed to have survived. Her current intent remains high and she has no protective factors right now, so she needs urgent liaison psychiatry assessment, she shouldn't be left alone, and we should remove access to means.
+var: A | Ms Green, 34 | High intent after overdose (depression)
+a: Took 32 paracetamol and some alcohol last night after your partner left; planned it for a week, waited until alone, locked the door, wrote a note to your sister. Found by a neighbour. "I wish I hadn't woken up." Low mood for 3 months, not sleeping or eating, stopped work. No previous attempts. Lives alone; no children; sister far away.
+x: High risk: 1:1 observation in A&E, liaison psychiatry before discharge, remove means, medical treatment completed (NAC), consider crisis team/admission (voluntary or MHA if needed and refuses), safety plan, involve sister (with consent), follow-up within 48 h of discharge.
+var: B | Mr Doyle, 52 | Suicidal thoughts without plan, protective factors
+a: Low mood since redundancy; fleeting thoughts that "everyone would be better off"; no plan; wouldn't act because of your daughters; drinking more; would accept help.
+x: Lower immediate risk but significant: safety plan, crisis numbers, GP follow-up within a week, treat depression (talking therapy, antidepressant), address alcohol, restrict means (medication supply), involve family.
+dom: Communication | !Calm, empathic, non-judgemental; asks directly about suicide
+dom: Information gathering | !Details of the act (planning, isolation, precautions, note, lethality belief, regret); !current suicidal thoughts, plans, intent, means; mental state (mood, psychosis); previous attempts; substances; social situation; !protective factors; safeguarding
+dom: Clinical reasoning | !Risk formulation (current, short-term, long-term; static vs dynamic factors) without relying on scores
+dom: Management | !Disposition (liaison psychiatry, crisis team, admission, MHA if needed); safety plan; means restriction; follow-up; involving others with consent
+s: Engage | I'm really glad you're safe. Would you be able to tell me what happened last night? | Warmth first; open narrative.
+s: Intent | Had you planned it beforehand? Did you do anything so you wouldn't be found? Did you leave a note? | Intent questions are the core of this station.
+s: Intent | When you took the tablets, what did you think would happen? How do you feel now about having survived? | Lethality belief and regret.
+s: Current | Are you still having thoughts of ending your life? Do you have a plan? | Current risk: the most important question.
+s: Protective | What has kept you going until now? Is there anyone you can talk to? | Protective factors balance the formulation.
+s: Formulate | Her immediate risk is high because ___; protective factors are ___. | Risk formulation sentence (NICE: no scores).
+s: Plan | I'd like you to stay here while the mental health team see you today. Is there anyone you'd like us to contact? | Disposition + involving support.
+
+@PP66 | Low mood with voices on an SSRI (depression with psychotic features) or postnatal presentation
+src: CP2 Psych (depression with psychosis: woman hearing voices on SSRIs; postpartum depression/psychosis/baby blues; depression: diagnosis and why to examiner)
+u: 102, 115
+fr: mhx, reason, plan
+door: You are a Foundation doctor. Take a history from this patient with low mood and explain your diagnosis and management.
+trig: Severe low mood + mood-congruent voices ("you're worthless") + guilt delusions → depression with psychotic features
+trig: Within weeks of birth + confusion + rapidly fluctuating mood + bizarre beliefs about the baby → postpartum psychosis (emergency)
+hook: Depression core (ICD-11/NICE): low mood, anhedonia, low energy for ≥2 weeks + biological symptoms (sleep, appetite, concentration, libido) + cognitive (guilt, hopelessness).
+hook: Postnatal spectrum: baby blues (days 3–10, resolves by 2 weeks), postnatal depression (within a year), postpartum psychosis (first 2 weeks, emergency → mother and baby unit).
+clinch: ✅ Mood-congruent hallucinations/delusions = psychotic depression → antidepressant + antipsychotic (or ECT); urgent psychiatry
+clinch: ❌ Postpartum psychosis: same-day crisis/perinatal team; don't leave mother alone with the baby until assessed
+money: She has severe depression with psychotic features: two months of low mood, no pleasure, early waking and weight loss, plus a voice telling her she's worthless, which is mood-congruent. With the risk, she needs urgent psychiatric review, addition of an antipsychotic to her antidepressant, and a risk assessment including her children.
+var: A | Mrs Morris, 45 | Depression with psychotic features
+a: Low for 2 months despite sertraline 100 mg for 6 weeks; can't enjoy anything; wake at 4 am; lost weight; can't concentrate. If asked gently: a voice says "you're worthless, you deserve to die"; you believe you've ruined your family. Two children (12 and 15). Fleeting thoughts of dying, no plan.
+x: Psychotic depression: urgent CRHTT/psychiatry; risk assessment (self, children, safeguarding); add antipsychotic (e.g. quetiapine or olanzapine) or switch antidepressant + antipsychotic; ECT if life-threatening; bloods (TFT, FBC, U&E, calcium); psychological therapy later; involve family.
+var: B | Ms Ali, 29, 10 days postpartum | Postpartum psychosis
+a: Husband reports you've barely slept for 4 days; confused, laughing then crying; you believe the baby has been swapped and is "not ours". Previous bipolar episode at 22 (stopped lithium in pregnancy).
+x: Psychiatric emergency: same-day perinatal/crisis team; mother and baby unit; don't leave alone with baby; safeguarding; antipsychotic ± mood stabiliser; physical causes (infection, thyroid, eclampsia); MHA if needed.
+dom: Information gathering | !Core and biological symptoms; duration; !psychotic symptoms asked sensitively; treatment so far and adherence; !risk to self and others (children, baby); substances; PMH/postnatal history; social support
+dom: Clinical reasoning | !Correct diagnosis and why (to examiner)
+dom: Management | !Urgency; risk management; drugs (antipsychotic added) or ECT; safeguarding; MBU for postpartum psychosis
+s: History | How has your mood been over the last few weeks? Are you still able to enjoy anything? | Core depressive symptoms.
+s: History | How are you sleeping and eating? Has your weight changed? | Biological symptoms define severity.
+s: Psychosis | When people feel this low, some hear voices or have thoughts others find strange. Has anything like that happened? What do the voices say? | Normalised, gentle psychosis screen; mood congruence matters.
+s: Risk | Do the voices ever tell you to harm yourself or anyone else? Are your children safe at home? | Command hallucinations and safeguarding are critical.
+s: Reason | This is severe depression with psychotic features because ___ and the voice is mood-congruent. | "Diagnosis and why" was the task.
+
+@PP67 | OCD or PTSD: history to establish symptoms, then diagnosis and management
+src: CP2 Psych (OCD: history + manage; PTSD: history to establish symptoms + diagnosis and management to patient)
+u: 106, 105
+fr: mhx, expl, plan
+door: You are a Foundation doctor in General Practice. Take a history to establish this patient's symptoms, then explain the likely diagnosis and management.
+trig: Intrusive unwanted thoughts (contamination, harm) + repetitive acts to neutralise them + recognised as excessive → OCD
+trig: Trauma + flashbacks/nightmares + avoidance + hyperarousal + >1 month → PTSD
+hook: OCD = Obsession (unwanted thought) → anxiety → Compulsion (ritual) → brief relief → stronger obsession. Treatment breaks the loop: CBT with exposure and response prevention (ERP) ± SSRI.
+hook: PTSD "TRAPS": Trauma, Re-experiencing (flashbacks, nightmares), Avoidance, Physiological hyperarousal (startle, sleep, irritability), Symptoms >1 month.
+clinch: ✅ Ego-dystonic (patient sees the thoughts as their own but unwanted) = OCD, not psychosis
+clinch: ✅ PTSD treatment: trauma-focused CBT or EMDR; drugs (sertraline/venlafaxine) if preferred or psychological therapy declined
+clinch: ❌ Benzodiazepines are not recommended for PTSD
+money: What you're describing sounds like obsessive-compulsive disorder: the unwanted thoughts about germs make you very anxious, and the washing brings short-lived relief that keeps the cycle going. The most effective treatment is a type of CBT called exposure and response prevention, sometimes with an SSRI tablet.
+var: A | Mr Lee, 26 | OCD (contamination)
+a: Wash hands 50 times a day until raw; can't touch door handles; showers take 2 hours; know it's excessive but feel unbearable anxiety if you stop; late for work; embarrassed. No voices. Low mood because of it.
+x: OCD: Y-BOCS severity; CBT with ERP (IAPT/NHS Talking Therapies); SSRI (e.g. sertraline, fluoxetine) at higher doses for ≥12 weeks if moderate/severe; skin care; check for depression and suicide risk; review.
+var: B | Ms Wood, 31 | PTSD after an assault/RTC
+a: Car crash 4 months ago; flashbacks when you hear brakes; nightmares; avoid driving and the road; jumpy, irritable, poor sleep, numb; drinking more to sleep.
+x: PTSD: trauma-focused CBT or EMDR; sleep hygiene; alcohol advice; drug treatment (sertraline/venlafaxine) if preferred; screen depression/suicide; support; avoid benzodiazepines; DVLA not usually affected.
+dom: Information gathering | !Symptoms in each domain (obsessions/compulsions or re-experiencing/avoidance/arousal); duration; insight; impact; mood and suicide risk; substances
+dom: Information giving | !Explains diagnosis using the cycle (OCD) or trauma response (PTSD) in plain words; normalises
+dom: Management | !NICE first-line psychological therapy; drug option; follow-up; self-referral
+s: OCD | Do you get thoughts or images that keep coming into your mind even though you don't want them? What do you do to make them go away? | Obsessions and compulsions in two questions.
+s: OCD | Do you feel these thoughts come from your own mind? | Separates OCD (own thoughts) from thought insertion (psychosis).
+s: PTSD | Do you relive what happened, like it's happening again, or have nightmares about it? | Re-experiencing is the core feature.
+s: PTSD | Are there places or things you avoid because they remind you? Are you jumpy or on edge? | Avoidance and hyperarousal.
+s: Explain | The washing gives relief for a moment, but it teaches your brain the danger was real, so the next thought comes back stronger. Therapy helps you gradually face the fear without the ritual, and the anxiety fades. | ERP explained through the cycle.
+
+@PP68 | Paracetamol (or co-codamol) overdose: medication history + prescribe acetylcysteine
+src: OSCEs 2018 OSCE 2 resit (overdose of single analgesia: focused medication history; prescribe NAC per guidelines; analgesia) · CP3 2018 resit (medication history; accidental paracetamol OD)
+u: 111, 50
+fr: hx, presc, plan
+door: You are a Foundation doctor in A&E. A patient has taken an overdose of paracetamol (and co-codamol). Tasks: take a focused medication history; prescribe the appropriate management (acetylcysteine) according to guidelines, and appropriate analgesia.
+trig: Single acute paracetamol ingestion with known time → 4-hour level on the treatment nomogram
+trig: Staggered over >1 h, or time unknown, or presenting >8 h → treat with acetylcysteine immediately
+hook: UK nomogram (single line): treat if the level is on or above the line starting at 100 mg/L at 4 hours. Levels before 4 h are uninterpretable.
+hook: Toxic dose: ≥75 mg/kg (treat as significant); weigh the patient (cap at 110 kg for dose calculations).
+hook: Co-codamol overdose = paracetamol + codeine: watch for opioid toxicity (pinpoint pupils, low RR) → naloxone.
+clinch: ✅ Presenting 8–24 h or staggered → start acetylcysteine without waiting for the level
+clinch: 🧪 Bloods at 4 h (or on arrival if later): paracetamol and salicylate levels, LFT, INR, U&E, VBG (pH, lactate), glucose
+clinch: ❌ Analgesia after a paracetamol OD: no more paracetamol; avoid NSAIDs if renal injury risk; use a cautious opioid if needed
+money: She took 40 × 500 mg paracetamol over the day, a staggered overdose of 20 g, which is about 300 mg/kg. That's well over the toxic threshold and the nomogram doesn't apply, so I'm starting IV acetylcysteine now, dosed by weight per the trust's regimen, with bloods including LFT, INR and a gas, and liaison psychiatry once medically fit.
+var: A | Woman, 24 | Staggered paracetamol + co-codamol overdose
+a: Took tablets through yesterday after an argument: about 24 paracetamol 500 mg and 16 co-codamol 30/500 between 10 am and 10 pm. Now nauseous, right-sided tummy ache. Weight 60 kg. No regular meds; no allergies. Drinks at weekends.
+r: 16 hours since first tablets. Paracetamol level 38 mg/L. ALT 280, INR 1.4, creatinine 88, pH 7.36.
+x: Staggered overdose (~20 g paracetamol ≈ 330 mg/kg): IV acetylcysteine immediately (per TOXBASE/local regimen; many UK trusts use the 12-hour two-bag regimen, weight-based); recheck LFT, INR, U&E, VBG at end; continue if abnormal; antiemetic; watch for opioid toxicity (naloxone 400 micrograms if needed); liver unit criteria (King's College) if deteriorates; analgesia: avoid paracetamol and NSAIDs; mental health assessment and risk; safeguarding.
+dom: Information gathering | !Exactly what, how many, strengths, timing (single vs staggered), alcohol/other drugs; !weight; intent and current suicidal thoughts; liver risk factors; allergies
+dom: Prescribing | !Acetylcysteine prescribed correctly by weight per guideline/TOXBASE; fluids chart; antiemetic; appropriate analgesia (not paracetamol); patient details and allergy box
+dom: Management | !Bloods and timing; NAC indications (staggered); opioid toxicity watch; liaison psychiatry
+s: History | Which tablets did you take, how many, what strength, and over what time? | Single vs staggered decides whether the nomogram applies.
+s: History | Did you take anything else, like alcohol or other tablets? How much do you weigh? | Co-ingestants + weight for dosing.
+s: History | When you took them, did you want to end your life? How do you feel now? | Intent and current risk, sensitively.
+s: Decide | It was staggered over 12 hours, so the level can't be plotted on the nomogram: she needs acetylcysteine now. | The key reasoning step.
+s: Prescribe | ACETYLCYSTEINE IV per the trust regimen (weight 60 kg), prescribed on the fluid chart with the bags and rates written out, checked against TOXBASE. | Using the guideline strategically (your feedback).
+s: Analgesia | For the pain, not paracetamol; a small dose of an opioid if needed, watching her breathing because of the codeine. | Appropriate analgesia was a named task.
+
+@PP69 | Capacity assessment: patient refusing treatment or wanting to go home
+src: CP2 HCoLL (assess capacity: woman refusing meds; patient wanting DNAR / home vs care home) · MH ILOs (MCA 2005)
+u: 112, 116
+fr: prof, expl
+door: You are a Foundation doctor. A patient is refusing a recommended treatment (or wants to go home against advice). Tasks: assess their capacity for this decision and explain what happens next.
+trig: Refusal of treatment → don't argue; assess capacity for THIS decision
+hook: MCA 2005 test: is there an impairment of mind or brain? If so, can they Understand, Retain, Weigh up, Communicate the decision ("URWC")?
+hook: MCA principles: assume capacity; all practicable steps to help; unwise ≠ incapable; best interests if lacking; least restrictive option.
+clinch: ✅ Capacitous refusal must be respected, even if unwise (document, keep the door open, safety-net)
+clinch: ❌ Lacking capacity → best interests decision (consult family, LPA for health and welfare, advance decision, IMCA if no one)
+clinch: ❌ The MHA treats mental disorder; it doesn't authorise treatment of physical illness (that's MCA)
+money: She understands that without antibiotics the infection could spread and kill her, she can repeat that back, she's weighed it against her wish not to be in hospital, and she's clearly communicated her choice. She has capacity for this decision, so I must respect her refusal, document it, offer alternatives and make sure she knows she can change her mind.
+var: A | Mrs Evans, 82 | Capacitous refusal of IV antibiotics
+a: Pneumonia; refuse IV antibiotics and admission because "I've had enough of hospitals; my husband died here". Understand you could die; would accept oral antibiotics at home with district nurses. Answer the four tests clearly.
+x: Has capacity: respect; explore reasons; offer alternatives (oral antibiotics, community support, hospital at home); senior; document; safety-net; family involvement with consent.
+var: B | Mr Price, 79 | Lacks capacity (delirium) to decide to go home
+a: Confused, wants to go home to "feed the cat" (cat died years ago); can't retain information about his infection; can't weigh it.
+x: Lacks capacity for this decision (delirium): best interests (consult family, LPA if any, least restrictive); treat the delirium; reassess capacity as it fluctuates; DoLS if restrictions amount to deprivation of liberty; document.
+dom: Information gathering | !Establishes the specific decision; assesses impairment; tests understand, retain, weigh, communicate with the information given clearly; explores reasons
+dom: Communication | Respectful; aids understanding (all practicable steps); non-coercive
+dom: Professionalism | !Applies MCA principles correctly; respects capacitous refusal; best interests if lacks; documents; involves senior
+s: Explain | You've got a chest infection. Without antibiotics through a drip, it could spread to your blood and could be fatal. With them, most people recover in a few days. | Giving the information needed for a decision.
+s: Understand | Can you tell me in your own words what I've explained? | Understand + retain.
+s: Weigh | What are the good and bad sides of going home versus staying, for you? | Weighing is the test most often failed and examined.
+s: Communicate | So what would you like to do? | Communicate the decision.
+s: Conclude | She has capacity for this decision, so her choice stands, even though I'd advise otherwise. Let's plan the safest version of what she wants. | Unwise ≠ incapable; least restrictive.

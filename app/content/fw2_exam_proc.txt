@@ -1,0 +1,280 @@
+@@ ex | 🩺 | Examination: any system | Same nine moves for every examination. What changes is the core region, the special tests and the "to complete" list.
+step: prep | !WIPER: wash, introduce and identify, permission, expose and position, right side | Hello, I'm Nana, a third-year medical student. Can I check your name and date of birth? I've been asked to examine your ___; is that OK? Are you sore anywhere? | Hand hygiene, ID, consent and a pain check are professionalism anchors in every examination scheme. Position and exposure decide whether you can elicit the signs.
+step: gen | !General inspection: end of the bed, then around the bed | From the end of the bed, he is comfortable at rest, alert, and I can see ___ around the bed. | Clues are planted around the bed (GTN, inhalers, oxygen, walking aid, methotrexate, sick bowl). Say what you see.
+step: hands | Hands and arms (pulse and blood pressure where relevant) | I'm going to look at your hands now. | Peripheral signs (clubbing, flap, splinters, tremor, wasting) earn marks before you reach the main region.
+step: face | Face, eyes, mouth and neck | Could you look up for me? | Pallor, jaundice, cyanosis, JVP and nodes: quick marks that also support your diagnosis.
+step: core | !The core region in order | - | Inspect, palpate, percuss, auscultate (chest and abdomen); look, feel, move (joints); tone, power, reflexes, coordination, sensation (neurology). Order is marked.
+step: special | Special tests and manoeuvres | - | Special tests are where honours marks live (Murphy's, Phalen's, Lachman's, Buerger's, cough impulse, manoeuvres for murmurs).
+step: complete | !"To complete my examination, I would…" | To complete my examination I would like to ___. | A named item in every scheme. Name 3: the joint above and below, observations, a bedside test, a related system.
+step: thank | Thank, cover, hand hygiene | Thank you, let me help you get dressed. | Dignity and courtesy are professionalism anchors.
+step: present | !Present: summary, key positives, key negatives, diagnosis, next step | On examination of this ___, the key findings were ___. Importantly there was no ___. This is consistent with ___. I would like to ___. | Presentation is often a whole domain. Lead with the diagnosis-relevant finding, include pertinent negatives, end with a next step.
+nn: Ask about pain before touching
+nn: Watch the patient's face while palpating
+nn: Present with pertinent negatives and a next step
+
+@ cvs | Cardiovascular | PP09, PP99, PP11 | 7, 6, 8, 3, 0
+use: Murmur, breathless, syncope, pre-op heart.
+ch: prep | Patient at 45°, chest exposed (bra can stay on). Chaperone for female patients.
+ch: gen | Breathlessness, cyanosis, malar flush, sternotomy or thoracotomy scars, GTN spray, oxygen.
+ch: hands | Clubbing, splinters, Janeway lesions, Osler's nodes (endocarditis), capillary refill; radial pulse rate and rhythm; radio-radial delay; collapsing pulse (ask about shoulder pain first); BP both arms.
+ch: face | Conjunctival pallor, corneal arcus, xanthelasma, central cyanosis, dental hygiene; JVP (head turned slightly left, height above the sternal angle); carotid character, one side at a time.
+ch: core | Inspect praecordium, locate the apex (5th ICS MCL), heaves and thrills; auscultate 4 areas timing with the carotid pulse; bell at the apex.
+ch: special | Left lateral + expiration (MS); sit forward + held expiration (AR); listen over carotids (AS) and axilla (MR).
+ch: complete | Lung bases, sacral and ankle oedema, peripheral pulses, fundoscopy, urine dip, ECG, echo.
+ch: present | Name the murmur by timing, site, radiation and character, plus a pulse and apex description.
+tree: Ejection systolic | aortic stenosis (radiates to carotids, slow-rising pulse); aortic sclerosis; flow murmur
+tree: Pansystolic | mitral regurgitation (radiates to axilla); VSD; tricuspid regurgitation
+tree: Diastolic | aortic regurgitation (early, left sternal edge, sitting forward); mitral stenosis (mid, apex, left lateral)
+tree: Prosthetic | metallic click (warfarin, never a DOAC); bioprosthetic (no click)
+nn: Time the murmur with the carotid pulse
+pearl: S1 lub = mitral and tricuspid close; murmur with the pulse is systolic.
+
+@ resp | Respiratory | PP14, PP19, PP18, PP100 | 9, 11, 15, 16, 17, 19, 21, 22, 23
+use: Breathless, cough, ABG station, pre-op lungs.
+ch: prep | Sitting at 45°, chest exposed; ask about pain.
+ch: gen | Respiratory rate (count it), accessory muscles, pursed lips, inhalers, oxygen, sputum pot, cigarettes, methotrexate (ILD).
+ch: hands | Clubbing, tar staining, CO2 retention flap, tremor (salbutamol), pulse (bounding in CO2 retention).
+ch: face | Central cyanosis, Horner's (apical tumour), JVP; trachea position; cervical and supraclavicular nodes.
+ch: core | Front then back: inspect (shape, scars, symmetry), expansion, percussion (compare side to side), auscultation, vocal resonance.
+ch: special | Tactile vocal fremitus or vocal resonance to separate effusion (reduced) from consolidation (increased).
+ch: complete | Sputum pot, PEFR or spirometry, sats, ABG, CXR.
+ch: present | Name the side and zone; dull vs stony dull vs hyper-resonant; crackles fine (ILD) or coarse (bronchiectasis, LVF).
+tree: Dull + reduced breath sounds | effusion (stony dull, trachea away if large); collapse (trachea towards)
+tree: Dull + bronchial breathing | consolidation (pneumonia)
+tree: Hyper-resonant + reduced sounds | pneumothorax (trachea away if tension)
+tree: Crackles | fine end-inspiratory (ILD); coarse (bronchiectasis, LVF)
+tree: Wheeze | asthma; COPD
+nn: Count the respiratory rate
+nn: Examine the back as well as the front
+pearl: Effusion pushes, collapse pulls, consolidation is bronchial.
+
+@ abdo | Abdominal (incl. liver, stoma, hernia orifices) | PP22, PP25, PP27, PP33, PP34, PP102 | 33, 37, 40, 41, 42, 43, 45, 48, 51
+use: Abdominal pain, jaundice, stoma, distension, AXR stations.
+ch: prep | Lying flat with one pillow, arms by the sides, exposed nipple to (covered) groin; ask about pain and start away from it.
+ch: gen | Jaundice, cachexia, distension, scars, stoma bag, drains, NG tube, vomit bowl, catheter.
+ch: hands | Clubbing, leuconychia, koilonychia, palmar erythema, Dupuytren's, liver flap; pulse.
+ch: face | Jaundice, pallor, angular stomatitis, mouth ulcers (Crohn's), fetor hepaticus; Virchow's node (left supraclavicular).
+ch: core | Inspect (scars, distension, visible peristalsis, hernias), palpate light then deep in 9 regions watching the face, liver, spleen, kidneys, aorta; percuss liver and spleen; shifting dullness; auscultate bowel sounds (tinkling = obstruction) and bruits.
+ch: special | Murphy's sign (compare LUQ); Rovsing's (appendicitis); cough impulse at hernia orifices; stoma: lift the bag, site (RIF ileostomy, LIF colostomy), spout, one or two lumens, contents.
+ch: complete | Hernial orifices, external genitalia, DRE, urine dip, bloods, imaging.
+ch: present | Scars named by position; tenderness with or without guarding and rebound; organomegaly; ascites.
+tree: Stoma | ileostomy (RIF, spouted, liquid); colostomy (LIF, flush, formed); urostomy (RIF, spouted, urine); end (1 lumen) or loop (2 lumens)
+tree: Chronic liver disease | clubbing, palmar erythema, flap, spider naevi, jaundice, ascites, caput medusae
+tree: Obstruction | distension, scars (adhesions), tinkling bowel sounds, hernia
+nn: Ask about pain and watch the face
+nn: Examine the hernial orifices (or say you would)
+pearl: Ileostomy spout protects the skin from small-bowel enzymes.
+
+@ neurolimb | Neurology of the limbs (upper or lower) | PP51, PP54, PP59 | 99, 98, 97, 71
+use: Weakness, tingling, back pain with neurology, diabetic neuropathy.
+ch: prep | Expose limbs fully; compare sides; ask about pain.
+ch: gen | Posture, wasting, fasciculation, tremor, walking aids, catheter (cord).
+ch: core | Tone (rotate, then clonus in the legs), power (MRC 0–5, each root), reflexes (with reinforcement), coordination, sensation (light touch, pin-prick, vibration, proprioception; dermatomes or glove-and-stocking).
+ch: special | Gait, Romberg's, straight leg raise (radiculopathy), sensory level on the trunk (cord).
+ch: complete | Cranial nerves, PR tone and saddle sensation if cord or cauda is possible, bladder scan, glucose and B12.
+ch: present | UMN or LMN pattern, distribution, and the level.
+tree: UMN | increased tone, clonus, brisk reflexes, upgoing plantar: brain or cord
+tree: LMN | wasting, fasciculation, reduced tone and reflexes: root, nerve, anterior horn
+tree: Sensory pattern | glove-and-stocking (polyneuropathy); dermatome (root); sensory level (cord); saddle (cauda equina)
+nn: Compare left and right at each step
+pearl: Roots: S1 ankle, L3-4 knee, C5-6 biceps and supinator, C7 triceps.
+
+@ cn | Cranial nerves and eyes | PP53, PP60, PP75, PP76, PP77, PP78 | 141, 154, 163, 166, 140
+use: Facial droop, visual loss, visual field defect, hearing loss.
+ch: prep | Sit level with the patient at arm's length; ask about pain and vision; glasses on for acuity.
+ch: core | CN II (AFRO: acuity, fields, reflexes, ophthalmoscopy), III, IV, VI (H-pattern, diplopia, nystagmus), V (sensation three divisions, masseter), VII (raise eyebrows, screw eyes shut, puff cheeks, smile), VIII (whisper, Rinne, Weber), IX, X (say "ahh", uvula), XI (shrug, turn head), XII (tongue).
+ch: special | Swinging torch (RAPD); red desaturation; cover test; forehead sparing in VII (UMN spares the forehead).
+ch: complete | Fundoscopy, otoscopy, full neurological examination, imaging.
+ch: present | Name the nerve and whether UMN or LMN.
+tree: Facial weakness | forehead spared = UMN (stroke); forehead involved = LMN (Bell's palsy, Ramsay Hunt, parotid)
+tree: Field defect | bitemporal hemianopia (chiasm, pituitary); homonymous hemianopia (behind the chiasm, stroke)
+tree: Hearing | Rinne negative + Weber to same side = conductive; Rinne positive + Weber to other side = sensorineural
+nn: Acuity first in any eye task
+pearl: AFRO for CN II: Acuity, Fields, Reflexes, Ophthalmoscopy.
+
+@ msk | Joints: knee, hip, shoulder, hand, spine | PP83, PP84, PP85, PP86, PP87 | 86, 87
+use: Any joint examination; red hot joint; joint replacement.
+ch: prep | Expose both sides (shorts for lower limb); ask about pain first and where.
+ch: gen | Gait (antalgic, Trendelenburg), walking aids, scars, posture.
+ch: core | Look (swelling, deformity, wasting, scars, skin), feel (temperature with the back of the hand, joint line, effusion), move (active then passive, range, crepitus, painful arc).
+ch: special | Knee: patellar tap, cruciate drawer and Lachman's, collateral stress. Hip: Thomas's, Trendelenburg's. Shoulder: empty can (supraspinatus), external rotation (infraspinatus), lift-off (subscapularis), scarf (ACJ). Hand: Phalen's, Tinel's, grip and pinch.
+ch: complete | Joint above and below, distal neurovascular status, X-ray.
+ch: present | Pattern + deformity + function.
+tree: Hand | OA: Heberden's and Bouchard's nodes, squared thumb; RA: MCP swelling, ulnar deviation, swan neck, boutonnière
+tree: Knee | OA: varus, crepitus, joint-line tenderness; ligament: positive drawer; meniscus: locking, joint-line tenderness
+tree: Shoulder | rotator cuff tear or impingement (painful arc 60–120°); frozen shoulder (external rotation lost); OA
+nn: Joint above and below plus neurovascular status
+pearl: Look, feel, move, special, function.
+
+@ neck | Thyroid and neck (incl. lymph nodes) | PP38, PP80, PP103 | 72, 73, 74, 151, 145
+use: Neck lump, thyroid status, lymphadenopathy.
+ch: prep | Sitting with neck exposed; glass of water ready; stand behind for palpation.
+ch: gen | Weight, agitation or slowness, eyes, voice.
+ch: hands | Tremor (sheet of paper), sweaty, pulse (AF), palmar erythema, onycholysis, thyroid acropachy.
+ch: face | Exophthalmos (look from above and the side), lid retraction, lid lag, eye movements; hair and skin.
+ch: core | Inspect from the front, swallow; palpate from behind each lobe, swallow, tongue protrusion; lymph nodes in order (submental, submandibular, pre and post-auricular, occipital, cervical chains, supraclavicular); trachea; percuss sternal notch (retrosternal goitre); auscultate for bruit.
+ch: special | Moves on swallowing (thyroid) vs on tongue protrusion (thyroglossal cyst); Pemberton's sign.
+ch: complete | Reflexes (slow relaxing in hypothyroidism), proximal myopathy, pretibial myxoedema, TFTs, USS ± FNA.
+ch: present | Lump: site, size, shape, consistency, mobility, tenderness, plus thyroid status.
+tree: Nodes | benign: small, soft, mobile; reactive: tender; lymphoma: rubbery; metastasis: hard, fixed, irregular
+nn: Ask them to swallow while you look and feel
+pearl: Every lump: site, size, shape, surface, consistency, mobility, tenderness, transillumination.
+
+@ breast | Breast | PP36 | 52, 53, 54, 55, 56, 57
+use: Breast lump, worried well, staging station.
+ch: prep | Chaperone (offer and name them). Expose to the waist with a sheet; sitting at 45°.
+ch: gen | Inspect with arms by sides, hands on hips (pressing in), arms above head: asymmetry, skin tethering, peau d'orange, nipple inversion or discharge, scars.
+ch: core | Normal side first; palpate all 4 quadrants plus the axillary tail with the flat of the fingers; nipple: ask the patient to express any discharge.
+ch: special | Axillary nodes (support the arm), supraclavicular nodes.
+ch: complete | Triple assessment; for suspected cancer, palpate the spine, liver and listen to the lungs (metastases).
+ch: present | Lump description, clock position and distance from the nipple, nodes.
+tree: Benign | fibroadenoma (mobile "breast mouse"); cyst (smooth, fluctuant, cyclical); fibroadenosis
+tree: Malignant | hard, irregular, fixed, skin or nipple changes, nodes
+nn: Chaperone
+nn: Examine the normal side first
+pearl: Triple assessment: clinical, imaging (USS under 35, mammogram 35+), biopsy.
+
+@ scrotal | Scrotum and groin | PP34, PP43, PP104 | 58, 81, 82, 83, 84
+use: Scrotal lump or pain, hernia.
+ch: prep | Chaperone, gloves, standing then lying; ask about pain.
+ch: core | Inspect; palpate the normal side first; can you get above it; separate from the testis; consistency; transilluminate; epididymis and cord; cough impulse at the hernial orifices.
+ch: special | Hernia: reduce, occlude the deep ring (midpoint of the inguinal ligament), cough: controlled = indirect. Testis: cremasteric reflex (absent in torsion), Prehn's (pain eased on lifting = epididymitis).
+ch: complete | Abdominal exam, regional nodes (para-aortic for testis), USS.
+ch: present | Getting above it, separate or part of testis, transilluminates.
+tree: Can't get above it | inguinoscrotal hernia
+tree: Separate, cystic | epididymal cyst
+tree: Surrounds the testis, transilluminates | hydrocele
+tree: Bag of worms | varicocele (new left-sided in an older man: think renal cancer)
+tree: Part of the testis, hard | testicular cancer
+nn: Chaperone and gloves
+pearl: Torsion: high-riding, horizontal, absent cremasteric reflex, theatre now.
+
+@ vasc | Vascular: arterial, venous, ulcer and ABPI | PP40, PP41, PP42 | 59, 60, 61, 62, 63, 64, 65, 66
+use: Claudication, leg ulcer, varicose veins, ABPI station.
+ch: prep | Legs exposed to the groin; lying flat.
+ch: gen | Colour, hair loss, shiny skin, amputations, ulcers (between toes and heels), varicose veins, haemosiderin, lipodermatosclerosis.
+ch: core | Temperature (back of the hand down both legs), capillary refill, pulses (femoral at the mid-inguinal point, popliteal, posterior tibial, dorsalis pedis), bruits; sensation.
+ch: special | Buerger's test (pallor on elevation, reactive hyperaemia on dependency); ABPI with Doppler; AAA palpation.
+ch: complete | Cardiovascular exam, ABPI, duplex, glucose and lipids.
+ch: present | Which pulses are present, and the ABPI.
+tree: ABPI | >1.3 calcified (diabetes, unreliable: use toe pressures); 0.9–1.3 normal; 0.5–0.9 claudication; <0.5 critical ischaemia
+tree: Ulcer | arterial (toes, punched out, painful); venous (gaiter area, shallow, haemosiderin); neuropathic (pressure points, painless, warm foot)
+nn: ABPI before compression for any leg ulcer
+pearl: ABPI = highest ankle pressure ÷ highest brachial pressure.
+
+@ ent | Ear, nose and throat (otoscopy) | PP60, PP79, PP81, PP82 | 148, 149, 150, 151, 144
+use: Otoscopy, hearing, nose and mouth examination.
+ch: prep | Correct speculum (largest that fits comfortably); check the light; ask about pain and hearing.
+ch: gen | Pinna, behind the ear (mastoid), scars, skin tags, discharge.
+ch: core | Otoscopy: pull the pinna up and back (adults), hold the otoscope like a pen with your hand braced, look at the canal then the drum: colour, light reflex, perforation, fluid. Nose: tip up, inspect septum and Little's area. Mouth: teeth, tongue, tonsils, palate, parotid duct.
+ch: special | Whisper test, Rinne and Weber (512 Hz fork).
+ch: complete | Examine the other ear, cranial nerves, audiometry and tympanometry; speculum into clinical waste.
+ch: present | Drum appearance + hearing test result.
+nn: Normal ear first
+pearl: Rinne positive is normal (air louder than bone).
+
+@ skin | Skin lesion and rash | PP70, PP71, PP72, PP74 | 122, 123, 124, 137, 139, 128, 131
+use: Describe a lesion or rash, often from a picture.
+ch: prep | Good light, expose the area, ask permission to touch.
+ch: core | Distribution (flexor, extensor, sun-exposed, dermatomal, acral) → morphology (macule, papule, plaque, nodule, vesicle, bulla, pustule) → colour → characteristics (scale, crust, ulcer, lichenification, border) → configuration (discrete, annular, linear, target).
+ch: special | ABCDE (asymmetry, border, colour, diameter >6 mm, evolution) and the 7-point checklist; dermatoscopy.
+ch: complete | Rest of skin, nails, scalp, mucosa, regional nodes.
+ch: present | Describe in terms first, then the diagnosis.
+tree: Pigmented | melanoma; benign naevus; seborrhoeic keratosis
+tree: Pearly or rolled edge | BCC
+tree: Keratotic, ulcerating, sun-exposed | SCC
+nn: Describe before you diagnose
+pearl: Your CP2 notes order: distribution, morphology, colour, characteristics, configuration, palpation.
+
+@ fluid | Fluid status and diabetic foot | PP25, PP89, PP94 | 51, 71
+use: Assess hydration; AKI; high-output stoma; annual diabetic review feet.
+ch: core | Fluid: hands (temperature, capillary refill), pulse and BP lying and standing, JVP, mucous membranes, skin turgor, lung bases, sacral and ankle oedema, weight, fluid chart and urine output. Foot: inspect (ulcers, callus, deformity, between toes), pulses, monofilament at 10 sites, vibration.
+ch: complete | Fluid balance chart, U&E, urine output (catheter), daily weights.
+ch: present | Hypovolaemic, euvolaemic or overloaded, and why.
+tree: Dry | tachycardia, postural drop, dry mucosa, reduced turgor, low JVP, low urine output
+tree: Overloaded | raised JVP, crackles, oedema, weight gain
+nn: Look at the fluid chart and urine output
+pearl: Hands, pulse, pressure, neck, mouth, lungs, legs, chart.
+
+@@ proc | 💉 | Procedure: any DOPS | Check, clean, do, dispose, document. The kit and the one critical step change; the shell never does.
+step: prep | !Check: request or indication, kit, identity against the form, consent, allergies | Can I check your name and date of birth against this form? I've been asked to ___; is that OK? Any allergies to plasters, latex or cleaning wipes? | ID against the form or chart, consent and allergy are critical items in every DOPS. Latex, chlorhexidine and lidocaine allergies matter here.
+step: kit | Prepare the kit on a clean tray | - | Checking expiry dates and having everything before you start avoids leaving the patient mid-procedure.
+step: hh | !Hand hygiene, apron and gloves, aseptic non-touch technique | - | ANTT and visible hand hygiene are marked. Never touch the key parts.
+step: pos | Position the patient and find the landmark | - | Correct site selection (and explaining as you go) is a separate item.
+step: do | Perform the critical step | - | Each procedure has one step that fails you if wrong (balloon only after urine flows; lead positions; label at the bedside).
+step: sharps | !Sharps straight into the sharps bin, by you | - | Leaving a needle out is an automatic safety fail.
+step: after | Aftercare: dressing, check the patient, observations | How are you feeling? | Checking the patient afterwards is a named item.
+step: label | !Label samples at the bedside, complete the form, send | - | Wrong blood in tube is a never event. Label in front of the patient.
+step: doc | !Document: date, time, what, why, who, findings, complications, plan | - | "If it isn't written down, it didn't happen." Documentation is a scored step.
+nn: Two identifiers against the form or chart
+nn: Sharps disposed of by you, immediately
+nn: Document
+
+@ bloods | Venepuncture and blood cultures | PP34, PP35 | 51
+use: Venepuncture on a model, blood cultures, blood form.
+ch: kit | Tourniquet, chlorhexidine 2% + alcohol wipe, vacutainer and needle (or butterfly), bottles, gauze, plaster, sharps bin, form.
+ch: pos | Arm extended and supported; tourniquet 7–10 cm above; palpate the antecubital vein; clean 30 s and let it dry.
+ch: do | Anchor the skin, bevel up at 15–30°, fill bottles in the order of draw, release the tourniquet before withdrawing, then press with gauze. Cultures: clean the bottle tops, aerobic then anaerobic, before antibiotics.
+ch: label | At the bedside, against the wristband; blood cultures: never through an existing cannula.
+nn: Release the tourniquet before removing the needle
+pearl: Order of draw: cultures, blue (citrate), gold or red (serum), green, purple (EDTA), grey.
+
+@ cann | IV cannulation | PP35, PP108 | 51
+use: Cannulate the model; often paired with prescribing or pre-op.
+ch: kit | Cannula (size by need: 14–16 G for resuscitation, 18 G for blood, 20–22 G routine), flush (0.9% saline 5–10 mL), dressing, bung, tourniquet.
+ch: do | Insert at 10–30°, look for flashback, advance the cannula off the needle, release the tourniquet, occlude the vein above, remove the needle into the sharps bin, cap, flush (check no pain or swelling), dressing.
+ch: doc | Date, site, size, VIP score plan.
+nn: Flush and check for pain or swelling
+pearl: Two large-bore cannulas in any unwell patient.
+
+@ abg | Arterial blood gas | PP14 | 12
+use: ABG on a model, then interpret.
+ch: prep | Ask about anticoagulants and bleeding disorders; FiO2 noted; the reason for the gas.
+ch: pos | Wrist extended over a rolled towel; palpate the radial artery; modified Allen's test is optional locally (say you would check collateral flow).
+ch: do | Pre-heparinised syringe at 30–45°, bevel up, towards the pulse; let it fill; withdraw and press for 5 minutes (longer if anticoagulated); expel air, cap, analyse within 10 minutes.
+ch: label | Record FiO2 or oxygen flow on the result.
+nn: Firm pressure for at least 5 minutes
+pearl: No pressure, no pulse: check the hand afterwards.
+
+@ cath | Urinary catheterisation | PP46 | 85, 75
+use: Male or female catheter on a model, usually retention or AKI.
+ch: prep | Chaperone; consent including the reason; check latex allergy.
+ch: kit | Sterile pack, 2 pairs of sterile gloves, lidocaine 2% gel, catheter (12–14 Ch Foley), 10 mL water for the balloon, drainage bag.
+ch: do | Clean (retract the foreskin, clean meatus), change gloves, instil lidocaine gel and wait, insert with no-touch until urine flows then a little further, inflate the balloon ONLY when urine flows, attach the bag, replace the foreskin (paraphimosis).
+ch: after | Measure the residual volume; watch for post-obstructive diuresis.
+ch: doc | Indication, catheter type and size, balloon volume, residual volume and colour, difficulty, removal plan.
+nn: Replace the foreskin
+nn: Balloon only after urine flows
+pearl: Residual over 1 L or rising creatinine: watch for post-obstructive diuresis.
+
+@ ecg | 12-lead ECG | PP03, PP06 | 3, 0
+use: Record an ECG then interpret.
+ch: prep | Chaperone for female patients; expose chest, wrists and ankles; lying at 45°, relaxed and still.
+ch: pos | Limb leads: red right arm, yellow left arm, green left leg, black right leg ("ride your green bike"). V1 4th ICS right sternal edge; V2 4th ICS left; V4 5th ICS mid-clavicular; V3 between V2 and V4; V5 anterior axillary line; V6 mid-axillary line, level with V4.
+ch: do | Enter patient details, check calibration (25 mm/s, 10 mm/mV), record with no artefact.
+ch: doc | Name, date, time, symptoms at the time; show a senior if abnormal.
+nn: Lead positions
+pearl: V4 first (5th ICS MCL), then V6 level with it.
+
+@ inj | Injections: IM, SC, IV, and IV infusion | PP47, PP101 | 51
+use: Give a drug or set up a fluid infusion.
+ch: prep | Check the prescription: right patient, drug, dose, route, time, expiry, allergy (second checker for IV and controlled drugs).
+ch: pos | IM: deltoid or ventrogluteal at 90°. SC: abdomen or thigh, pinch, 45–90°. IV: flush the cannula first.
+ch: do | IV bolus slowly over the stated time watching for reactions; infusion: prime the line, label the bag, set the rate, check the cannula.
+ch: doc | Sign the chart, time given, batch number for vaccines.
+nn: Second checker for IV drugs and controlled drugs
+pearl: The 5 rights: patient, drug, dose, route, time.
+
+@ resp_dev | Peak flow, inhaler technique and oxygen | PP17, PP16 | 15, 16, 12
+use: Asthma review, inhaler teaching, prescribing oxygen.
+ch: do | PEFR: stand, deep breath, tight seal, short sharp blow, best of 3, compare with predicted or best. pMDI: shake, breathe out, seal, press as you start a slow deep breath, hold 10 s, wait 30 s; spacer for most. Oxygen: prescribe with a target range (94–98%, or 88–92% if at risk of hypercapnia).
+ch: after | Watch them do it back; correct one thing at a time.
+nn: Watch the patient demonstrate it
+pearl: Spacer + slow breath beats perfect technique without one.
+
+@ obs | Observations, NEWS2, CBG and urine dip | PP49, PP48 | 67, 80
+use: Bedside tests.
+ch: do | NEWS2: RR, sats (scale 1 or 2), oxygen, BP, pulse, consciousness (ACVPU), temperature. CBG: clean finger with water (not alcohol), side of the fingertip, first drop wiped if contaminated. Urine dip: fresh clean-catch, read at the stated times.
+ch: after | NEWS2 5+ or a single 3 = urgent review; 7+ = emergency.
+nn: Act on the score: escalate
+pearl: New confusion scores 3 on its own.

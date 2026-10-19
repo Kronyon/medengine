@@ -1,0 +1,904 @@
+<script>
+const D = __DATA__;
+const $ = (s, el) => (el || document).querySelector(s), $$ = (s, el) => Array.from((el || document).querySelectorAll(s));
+const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const rich = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/ONLY IF ASKED/g, '<b>ONLY IF ASKED</b>');
+const UNITS = D.units, ST = D.stations, EX = D.exams, PR = D.dops, FR = D.frames, PK = D.packs, GROUPS = D.groups;
+const WEEK = {}; D.weeks.forEach(w => WEEK[w.id] = w.name);
+const stById = {}; ST.forEach(s => stById[s.id] = s);
+const exById = {}; EX.forEach(e => exById[e.id] = e);
+const prById = {}; PR.forEach(e => prById[e.id] = e);
+const PPS = ST.filter(s => s.pp);
+const FWD = D.fw || {uni: [], list: []}, FWL = FWD.list, UNI = FWD.uni, FWBY = {}; FWL.forEach(f => FWBY[f.id] = f);
+const FRFW = {hx: 'hx', mhx: 'mhx', ex: 'ex', proc: 'proc', acute: 'acute', expl: 'expl', counsel: 'expl', bbn: 'expl', presc: 'presc', di: 'di', prof: 'prof'};
+const DRILL = 'https://claude.ai/artifact/NexSvgTB8VhqktVFfko6JR';
+const APP_NAME = 'medengine.exe', APP_VERSION = '0.5.0-beta', PUBLIC = !!window.MEDENGINE_PUBLIC;
+const unitsByName = {}; UNITS.forEach(u => (unitsByName[u.name] = unitsByName[u.name] || []).push(u.i));
+function toast(t){ const el = $('#toast'); el.textContent = t; el.classList.add('show'); clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove('show'), 1800); }
+const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+
+/* ---------- state ---------- */
+const KEY = 'qq-osce-v1';
+const SET0 = {mode: 'script', grp: '', wk: '', kind: '', role: 'cand', recall: false, deck: 'all', hwk: ''};
+let S = {v: 2, ts: 0, att: {}, hk: {}, set: Object.assign({}, SET0)};
+try { const r = localStorage.getItem(KEY); if (r) S = Object.assign(S, JSON.parse(r)); } catch (e) {}
+S.att = S.att || {}; S.hk = S.hk || {}; S.set = Object.assign({}, SET0, S.set || {});
+if (!['script', 'tick', 'friends', 'ai', 'voice'].includes(S.set.mode)) S.set.mode = 'script';
+let DB = null, UID = null, dbT = null;
+function save(){ S.ts = Date.now(); try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} if (DB && UID) { clearTimeout(dbT); dbT = setTimeout(() => DB.doc('data/users/' + UID + '/osce').set(JSON.parse(JSON.stringify(S))).catch(() => {}), 2500); } }
+(async () => { try {
+  if (!window.claude || !window.claude.use) return;
+  const [user, db] = await Promise.all([claude.use('user'), claude.use('db')]);
+  if (!user || !db) return; const id = await user.id(); if (!id) return;
+  DB = db; UID = id;
+  const snap = await db.doc('data/users/' + id + '/osce').get();
+  if (snap.exists) { const r = snap.data(); if (r && (r.ts || 0) > (S.ts || 0)) { S = Object.assign(S, r); S.hk = S.hk || {}; S.set = Object.assign({}, SET0, S.set || {}); try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} if (route.v !== 'station') render(); } else if ((S.ts || 0) > (r.ts || 0)) save(); }
+  else if (S.ts) save();
+} catch (e) {} })();
+let route = {v: 'home'};
+let SAMPLE = null, sampleChecked = false;
+(async () => { try { if (window.claude && claude.use) SAMPLE = await claude.use('sample'); } catch (e) { SAMPLE = null; } sampleChecked = true; if (route.v === 'station') refreshAiAvail(); })();
+
+const best = id => { const a = S.att[id]; return a && a.length ? Math.max(...a.map(x => x.pct)) : null; };
+const scoreCls = p => p == null ? '' : p >= 75 ? 'g' : p >= 55 ? 'w' : 'b';
+const scoreHtml = id => { const b = best(id); return b == null ? '<span class="score">new</span>' : '<span class="score ' + scoreCls(b) + '">' + b + '%</span>'; };
+
+/* ---------- checklist assembly ---------- */
+const ORDER = ['hx', 'mhx', 'ex', 'proc', 'di', 'presc', 'counsel', 'bbn', 'expl', 'acute', 'prof', 'sbar', 'ebm', 'reason', 'plan'];
+function packFor(st){ for (const ui of st.u || []) if (PK[ui]) return {p: PK[ui], u: UNITS[ui]}; return null; }
+const frameItems = fid => { const f = FR[fid]; const out = []; if (f) f.secs.forEach(sc => sc.items.forEach(it => out.push(Object.assign({sub: sc.h}, it)))); return out; };
+function varOf(st, vk){ if (!st.pp) return null; return st.vars.find(v => v.k === vk) || st.vars[0]; }
+function splitX(x){ return x.split(/;\s+|\.\s+(?=[A-Z])/).map(t => t.trim().replace(/\.$/, '')).filter(t => t.length > 3); }
+function buildChecklist(st, vk){
+  const secs = [];
+  const add = (key, h, items, open) => { if (items.length) secs.push({key, h, items: items.map((it, n) => Object.assign({id: key + '.' + n}, it)), open}); };
+  add('open', 'Opening', frameItems('open'));
+  if (st.pp) {
+    st.dom.forEach((d, i) => add('d' + i, d.h, d.items, i === 0));
+    const v = varOf(st, vk); if (v && v.x) add('vx', 'This case: what the examiner wants', splitX(v.x).map(t => ({t})));
+    add('close', 'Closing', frameItems('close'));
+    return secs;
+  }
+  const pk = packFor(st), fr = ORDER.filter(f => (st.fr || []).includes(f));
+  const hasExpl = fr.some(f => ['expl', 'counsel', 'bbn'].includes(f));
+  fr.forEach(f => {
+    if (f === 'hx' || f === 'mhx') {
+      add(f, FR[f].t, frameItems(f));
+      if (pk) add('cx', pk.u.name + ': what to ask', (pk.p.hx || []).slice(0, 7).map(t => ({t: 'Asks: ' + t, sub: 'Discriminating questions'})).concat((pk.p.rf || []).slice(0, 4).map(t => ({t: 'Screens red flag: ' + t, w: 2, sub: 'Red flags'}))));
+    } else if (f === 'ex') {
+      add('ex', 'Examination: core', frameItems('ex'));
+      (st.ex || []).forEach(eid => { const e = exById[eid]; if (!e) return; const items = []; e.secs.forEach(sc => sc.items.forEach(it => items.push(Object.assign({sub: sc.h}, it)))); add('e_' + eid, e.t, items, true); });
+      if (!(st.ex || []).length && pk) add('cxe', pk.u.name + ': what to look for', (pk.p.ex || []).map(t => ({t: 'Looks for: ' + t})));
+    } else if (f === 'proc') {
+      add('proc', 'Procedure: core', frameItems('proc'));
+      (st.pr || []).forEach(pid => { const p = prById[pid]; if (!p) return; const items = []; p.secs.forEach(sc => sc.items.forEach(it => items.push(Object.assign({sub: sc.h}, it)))); add('p_' + pid, p.t, items, true); });
+    } else if (f === 'reason') {
+      const items = frameItems('reason'); if (!st.gen) items.unshift({t: 'Names the working diagnosis or key problem: ' + st.t, w: 2, f: 1});
+      add('reason', 'Clinical reasoning made visible', items);
+    } else if (f === 'plan') {
+      add('plan', 'Management plan: core', frameItems('plan'));
+      if (pk) add('cxm', pk.u.name + ': investigations and management (UK)', (pk.p.ix || []).slice(0, 4).map(t => ({t: 'Investigation: ' + t, sub: 'Investigations'})).concat((pk.p.mx || []).slice(0, 5).map(t => ({t: 'Management: ' + t, sub: 'Management', f: 1}))));
+    } else if (f === 'expl' || f === 'counsel' || f === 'bbn') {
+      add(f, FR[f].t, frameItems(f));
+      if (pk && f !== 'counsel') { const it = []; (pk.p.say || []).forEach(t => it.push({t: 'Explains in plain words, e.g. ' + t, sub: 'Explanation'})); (pk.p.ice || []).slice(0, 1).forEach(t => it.push({t: 'Addresses the likely concern: ' + t, w: 2, sub: 'Concern'})); (pk.p.sn || []).slice(0, 2).forEach(t => it.push({t: 'Safety-nets: ' + t, sub: 'Safety-net'})); add('cxx', pk.u.name + ': explanation points', it); }
+    } else add(f, FR[f].t, frameItems(f));
+  });
+  add('close', 'Closing', frameItems('close').filter(it => !(hasExpl && /^(Check understanding|Safety-net)/.test(it.t))));
+  return secs;
+}
+function pctOf(secs, ticks){ let tot = 0, got = 0; secs.forEach(sc => sc.items.forEach(it => { const w = it.w || 1; tot += w; if (ticks.has(it.id)) got += w; })); return tot ? Math.round(got * 100 / tot) : 0; }
+function stationForExam(eid){ const e = exById[eid]; return ST.find(s => !s.pp && (s.ex || []).includes(eid)) || {id: 'E-' + eid, g: 'EX', k: 'Examination and findings', t: e.t, info: 'Practise the full examination on a friend or model, narrating each step.', task: 'Examine, present your findings, and say what you would do to complete the assessment.', u: e.u, fr: ['ex', 'reason', 'plan'], ex: [eid], pr: [], gen: 1}; }
+function stationForProc(pid){ const p = prById[pid]; return ST.find(s => !s.pp && (s.pr || []).includes(pid)) || {id: 'P-' + pid, g: 'PC', k: 'Practical task and completion', t: p.t, info: 'Practise on a model, narrating each step.', task: 'Perform the procedure safely, explain it to the patient, and complete documentation.', u: p.u, fr: ['proc', 'expl'], ex: [], pr: [pid], gen: 1}; }
+function getStation(id){ if (stById[id]) return stById[id]; if (id.startsWith('E-') && exById[id.slice(2)]) return stationForExam(id.slice(2)); if (id.startsWith('P-') && prById[id.slice(2)]) return stationForProc(id.slice(2)); return null; }
+
+/* ---------- hooks + script ---------- */
+const CKI = {in: '✅', out: '❌', lab: '🧪'};
+const moneyFor = (st, vk) => (st.mv && st.mv[vk]) || st.money;
+function hooksFor(st, vk){
+  if (st.pp) return {trig: st.trig, hook: st.hook, clinch: st.clinch, money: moneyFor(st, vk), trap: st.trap, all: st.vars.length > 1 ? st.vars.map(v => [v.k, v.dx, moneyFor(st, v.k)]) : []};
+  const ck = [], seen = new Set();
+  (st.u || []).forEach(i => (PK[i] && PK[i].ck || []).forEach(c => { if (!seen.has(c[1])) { seen.add(c[1]); ck.push(c); } }));
+  return {trig: st.cmp ? [st.cmp] : [], hook: st.def ? [st.def] : [], clinch: ck.slice(0, 6), money: 'The important finding is ___. It suggests ___ because ___. The next step is ___.', trap: []};
+}
+function hookHtml(h, open){
+  const row = (i, t) => '<div class="hkr"><span class="i">' + i + '</span><span>' + rich(t) + '</span></div>';
+  let b = '';
+  if (h.trig.length) b += '<span class="hkh">Door-sign triggers</span>' + h.trig.map(t => row('⚡', t)).join('');
+  if (h.hook.length) b += '<span class="hkh">Memory hooks</span>' + h.hook.map(t => row('🪝', t)).join('');
+  if (h.clinch.length) b += '<span class="hkh">Clinchers</span>' + h.clinch.map(c => row(CKI[c[0]] || '•', c[1])).join('');
+  if (h.money) b += '<div class="money"><b>🎯 Money line</b>' + rich(h.money) + '</div>';
+  if (h.money && (h.all || []).length) b += '<details class="dd"><summary>🎯 Money lines for every case · ' + h.all.length + '</summary><div class="body">' + h.all.map(([k, dx, m]) => '<div class="money"><b>Case ' + esc(k) + ' · ' + esc(dx) + '</b>' + rich(m || '') + '</div>').join('') + '</div></details>';
+  if (h.trap.length) b += '<span class="hkh">Where marks are lost</span>' + h.trap.map(t => row('⚠️', t)).join('');
+  return '<details class="hk" id="hookCard"' + (open ? ' open' : '') + '><summary>🪝 Hooks, triggers and the money line</summary><div class="body">' + b + '</div></details>';
+}
+function scriptFor(st, vk){
+  const L = [], fl = (fid, label, all) => frameItems(fid).forEach(it => { if (all || it.say || it.w === 2 || it.f) L.push({s: label || FR[fid].t, say: it.say || '', act: it.t, why: it.why || '', nn: it.w === 2}); });
+  fl('open', 'Open', true);
+  if (st.pp) {
+    st.script.filter(r => !r.v || r.v === vk).forEach(r => L.push({s: r.s, say: r.say, why: r.why, v: r.v}));
+  } else {
+    const pk = packFor(st), fr = ORDER.filter(f => (st.fr || []).includes(f));
+    fr.forEach(f => {
+      fl(f);
+      if (!pk) return;
+      const nm = pk.u.name;
+      if (f === 'hx' || f === 'mhx') { (pk.p.hx || []).slice(0, 6).forEach(t => L.push({s: 'Ask: ' + nm, act: 'Ask about ' + t, why: 'A discriminating question for ' + nm + ': it moves your differential.'})); (pk.p.rf || []).slice(0, 3).forEach(t => L.push({s: 'Red flag', act: 'Screen: ' + t, why: 'Safety mark. Missing the red flag is the commonest reason for a borderline fail.'})); }
+      if (f === 'ex' && !(st.ex || []).length) (pk.p.ex || []).slice(0, 4).forEach(t => L.push({s: 'Look for', act: t, why: 'The sign that confirms or refutes ' + nm + '.'}));
+      if (f === 'plan') { (pk.p.ix || []).slice(0, 3).forEach(t => L.push({s: 'Investigate', act: t, why: 'Each test should answer a question; say which one.'})); (pk.p.mx || []).slice(0, 4).forEach(t => L.push({s: 'Manage (UK)', act: t, why: 'The UK management point the examiner listens for.'})); }
+      if (['expl', 'bbn', 'counsel'].includes(f)) { (pk.p.say || []).slice(0, 2).forEach(t => L.push({s: 'Explain', say: t, why: 'Plain-language explanation: the Information-giving mark.'})); (pk.p.ice || []).slice(0, 1).forEach(t => L.push({s: 'Concern', act: t, why: 'The actor\'s hidden worry. Naming it moves Communication from 3 to 4.'})); }
+    });
+    if (pk) (pk.p.sn || []).slice(0, 2).forEach(t => L.push({s: 'Safety-net', say: t, why: 'Specific safety-netting is a safety item in almost every mark scheme.'}));
+  }
+  fl('close', 'Close', true);
+  return L;
+}
+function scriptHtml(st, vk){
+  const L = scriptFor(st, vk), rc = S.set.recall;
+  return '<div class="row"><h2 class="grow">📜 Script: what to say and why</h2><label class="hint"><input type="checkbox" id="recallT"' + (rc ? ' checked' : '') + '> 🙈 Recall mode</label></div><p class="hint" style="margin:0">' + (rc ? 'Say each line out loud before you tap to check it.' : 'Read it once, then switch on Recall mode and say each line before revealing it.') + '</p><div class="scr">' + L.map((l, i) => {
+    const body = l.say ? '<div class="say">🗣 “' + rich(l.say) + '”</div>' : '<div class="say do">' + rich(l.act || '') + '</div>';
+    return '<div class="sl' + (l.v ? ' var' : '') + '"><span class="n">' + (i + 1) + '</span><div><span class="sec">' + (l.nn ? '<span class="nn">⛔</span>' : '') + esc(l.s) + (l.v ? ' · case ' + esc(l.v) : '') + '</span>' + (rc ? '<button class="rev" data-reveal>Tap to reveal' + (l.say ? ' the line' : ' the step') + '</button><div hidden>' + body + '</div>' : body) + (l.why ? '<div class="why">💡 ' + rich(l.why) + '</div>' : '') + '</div></div>';
+  }).join('') + '</div>';
+}
+
+/* ---------- routing ---------- */
+const VIEWS = ['home', 'stations', 'fw', 'hooks', 'exams', 'dops', 'ilos', 'skills'];
+function fromHash(){
+  const h = (location.hash || '').slice(1);
+  let m;
+  if ((m = h.match(/^s-([A-Za-z0-9-]+)$/)) && getStation(m[1])) return {v: 'station', id: m[1]};
+  if ((m = h.match(/^e-(\w+)$/)) && exById[m[1]]) return {v: 'exam', id: m[1]};
+  if ((m = h.match(/^p-(\w+)$/)) && prById[m[1]]) return {v: 'proc', id: m[1]};
+  if ((m = h.match(/^u-?(\d+)$/)) && UNITS[+m[1]]) return {v: 'ilo', id: +m[1]};
+  if ((m = h.match(/^f-(\w+)$/)) && FR[m[1]]) return {v: 'frame', id: m[1]};
+  if ((m = h.match(/^fw-(\w+?)(?:--(\w+))?$/)) && FWBY[m[1]]) return {v: 'fwone', id: m[1], mem: m[2] || ''};
+  if (VIEWS.includes(h)) return {v: h};
+  return {v: 'home'};
+}
+function toHash(r){ return r.v === 'station' ? 's-' + r.id : r.v === 'exam' ? 'e-' + r.id : r.v === 'proc' ? 'p-' + r.id : r.v === 'ilo' ? 'u' + r.id : r.v === 'frame' ? 'f-' + r.id : r.v === 'fwone' ? 'fw-' + r.id + (r.mem ? '--' + r.mem : '') : r.v; }
+function leaveStation(){ stopTimer(); abortChat(); if (typeof VO !== 'undefined' && VO) vShutdown(); }
+function go(r, push = true){ leaveStation(); route = r; if (push) { try { history.pushState(null, '', '#' + toHash(r)); } catch (e) { location.hash = toHash(r); } } render(); window.scrollTo(0, 0); }
+window.addEventListener('popstate', () => { leaveStation(); route = fromHash(); render(); });
+window.addEventListener('hashchange', () => { const r = fromHash(); if (toHash(r) !== toHash(route)) { leaveStation(); route = r; render(); } });
+function render(){
+  const m = $('#main');
+  const navKey = {station: 'stations', exam: 'exams', proc: 'dops', ilo: 'ilos', frame: 'skills', fwone: 'fw'}[route.v] || route.v;
+  $$('#nav button').forEach(b => b.classList.toggle('on', b.dataset.v === navKey));
+  ({home: vHome, stations: vStations, hooks: vHooks, exams: vExams, dops: vDops, ilos: vIlos, skills: vSkills, station: vStation, exam: vExam, proc: vProc, ilo: vIlo, frame: vFrame, fw: vFw, fwone: vFwOne}[route.v] || vHome)(m);
+}
+
+/* ---------- views ---------- */
+const PRIOS = [
+  ['Hypertension medication selection', 'Name ONE step-1 drug for this patient (age, family origin, T2DM), its key side effect and the review date.', ['PP13', 'CV10']],
+  ['Consultation structure and efficiency', 'Signpost every change of topic; summarise; stop gathering at 8 minutes.', ['PP10', 'PP15']],
+  ['Medication counselling', 'Counsel the actual prescription in a fixed order: drug and dose, why, how it works, how to take, side effects, what to do, monitoring, safety-net.', ['PP03', 'PP63']],
+  ['Complete the reasoning sentence', '"The important finding is ___. It suggests ___ because ___. The next step is ___."', ['PP01', 'PP45']],
+  ['Protect time for management', 'The timer turns amber at 8:00. That is your cue to synthesise and give the plan.', ['PP27', 'PP24']]
+];
+function vHome(m){
+  const all = Object.entries(S.att).flatMap(([id, a]) => a.map(x => Object.assign({id}, x))).sort((a, b) => b.ts - a.ts);
+  const done = Object.keys(S.att).length, avg = all.length ? Math.round(all.reduce((s, x) => s + x.pct, 0) / all.length) : null;
+  const hkSeen = Object.keys(S.hk).length;
+  let h = '<section class="card"><span class="eyebrow">' + APP_NAME + ' v0.5.0 beta · FFP CPSA · ' + PPS.length + ' past-paper stations · ' + (ST.length - PPS.length) + ' bank stations · ' + EX.length + ' exams · ' + PR.length + ' procedures</span><h1>One skeleton. Know what changes. Never skip the ⛔.</h1><p class="hint" style="margin:0">Every station has four modes: 📜 <b>Script</b> (what to say and why), ✅ <b>Tick</b> (mark yourself), 👥 <b>Friends</b> (candidate, actor and examiner sheets) and 🤖 <b>AI</b> (patient and examiner). The 🧭 <b>Frameworks</b> tab gives one skeleton per station type, what changes for each presentation, and the ⛔ non-negotiables; 🪝 Hooks drills them.</p><div class="row"><button class="btn primary" data-randpp>🎲 Random past-paper station</button><button class="btn" data-go="hooks">🪝 Hook drill</button><span class="hint">' + done + ' practised' + (avg != null ? ' · average ' + avg + '%' : '') + ' · ' + hkSeen + ' hooks seen</span></div></section>';
+  if (!PUBLIC) {
+  h += '<section class="card"><h2>Your feedback priorities</h2><p class="hint" style="margin:0">From your formative CPSA feedback. They are built into the scripts and checklists (items marked <span class="fb" style="font-family:var(--f-mono);font-size:.62rem;font-weight:700;color:var(--warn);border:1px solid var(--warn);border-radius:5px;padding:0 4px">FOCUS</span>).</p>';
+  PRIOS.forEach(([t, d, ids], i) => { h += '<div class="prio"><span class="n">' + (i + 1) + '</span><div><b>' + esc(t) + '</b><div class="hint">' + esc(d) + '</div><div class="chips" style="margin-top:4px">' + ids.filter(x => stById[x]).map(x => '<button class="chip" data-st="' + x + '">' + x + ' · ' + esc(stById[x].t.split(':')[0]) + ' ' + (best(x) != null ? best(x) + '%' : '') + '</button>').join('') + '</div></div></div>'; });
+  h += '</section>';
+  }
+  h += uniCard(false);
+  if (all.length) { const ML = {ai: '🤖 AI-marked', friends: '👥 Friend-marked', tick: '✅ Self-marked'}; h += '<section class="card"><h2>Recent attempts</h2><div class="list">' + all.slice(0, 6).map(a => { const s = getStation(a.id); return s ? '<button class="li" data-st="' + a.id + '"><span class="code">' + esc(a.id) + '</span><span class="tt"><b>' + esc(s.t) + '</b><span>' + (ML[a.mode] || ML.tick) + ' · ' + new Date(a.ts).toLocaleDateString('en-GB') + '</span></span><span class="score ' + scoreCls(a.pct) + '">' + a.pct + '%</span></button>' : ''; }).join('') + '</div></section>'; }
+  h += '<section class="grid2">' + [['fw', '🧭 Frameworks', FWL.length + ' skeletons (history, exam, procedure, A–E, explain, prescribe, data, psych, professional) with what changes for ' + FWL.reduce((n, f) => n + f.m.length, 0) + ' presentations'], ['pp', '📚 Past-paper stations', PPS.length + ' Nottingham-style stations from your uni papers and SMOSCE, each with a script, hooks, actor and examiner sheets'], ['hooks', '🪝 Hook drill', 'Flashcards: door triggers, memory hooks, clinchers and money lines'], ['stations', '📋 Station bank', (ST.length - PPS.length) + ' briefs from your bank, mapped to your ILOs'], ['exams', '🩺 Examinations', EX.length + ' system examinations with what to say and how to present'], ['dops', '💉 DOPS', 'Your 23 GMC DOPS plus ABPI and BP, step by step'], ['ilos', '🧩 ILOs', '168 condition packs with clinchers'], ['skills', '🗣 Skills and marking', 'How Nottingham marks you, plus every communication frame with why each step scores']].map(([v, t, d]) => '<button class="tile" ' + (v === 'pp' ? 'data-pplist' : 'data-go="' + v + '"') + '><b>' + t + '</b><span class="hint">' + d + '</span></button>').join('') + '</section>';
+  m.innerHTML = h;
+}
+function kindOf(s){ const k = s.k.toLowerCase(); return k.startsWith('exam') ? 'Examination' : k.startsWith('practical') ? 'Procedure' : k.startsWith('results') ? 'Data interpretation' : k.startsWith('prescription') ? 'Prescribing' : k.startsWith('professional') ? 'Professionalism' : k.startsWith('explanation') ? 'Explanation' : k.startsWith('workplace') ? 'Readiness' : k.startsWith('evidence') ? 'Evidence' : k.startsWith('ilo') ? 'ILO practice' : k.includes('a–e') ? 'Acute (A–E)' : 'Clinical task'; }
+function vStations(m){
+  const kinds = [...new Set(ST.map(kindOf))];
+  let h = '<section class="card"><h1>Stations</h1><p class="hint" style="margin:0"><b>Past papers</b> come first: Nottingham-format stations with variants, a script, hooks and friend sheets. The bank stations follow. Filter with the drop-downs.</p><div class="row"><select class="sel" id="fGrp" aria-label="Group"><option value="">All groups</option>' + Object.entries(GROUPS).filter(([g]) => ST.some(s => s.g === g)).map(([g, n]) => '<option value="' + g + '"' + (S.set.grp === g ? ' selected' : '') + '>' + esc(n) + '</option>').join('') + '</select><select class="sel" id="fWk" aria-label="ILO week"><option value="">All ILO weeks</option>' + D.weeks.map(w => '<option value="' + w.id + '"' + (S.set.wk === w.id ? ' selected' : '') + '>' + esc(w.name) + '</option>').join('') + '</select><select class="sel" id="fKind" aria-label="Task type"><option value="">All task types</option>' + kinds.map(k => '<option' + (S.set.kind === k ? ' selected' : '') + '>' + k + '</option>').join('') + '</select><select class="sel" id="fDone" aria-label="Progress"><option value="">Any progress</option><option value="new">Not tried</option><option value="low">Under 75%</option></select></div></section><div class="list" id="stList"></div>';
+  m.innerHTML = h; drawStList();
+}
+function drawStList(){
+  const g = $('#fGrp').value, wk = $('#fWk').value, k = $('#fKind').value, dn = $('#fDone').value;
+  const rows = ST.filter(s => (!g || s.g === g) && (!wk || s.u.some(i => UNITS[i].w === wk)) && (!k || kindOf(s) === k) && (!dn || (dn === 'new' ? best(s.id) == null : best(s.id) != null && best(s.id) < 75)));
+  $('#stList').innerHTML = rows.length ? rows.map(s => '<button class="li" data-st="' + s.id + '"><span class="code">' + esc(s.id) + '</span><span class="tt"><b>' + esc(s.t) + '</b><span>' + (s.pp ? '📚 ' + esc(s.vars.length) + ' case' + (s.vars.length > 1 ? 's' : '') + ' · ' : '') + esc(kindOf(s)) + (s.u.length ? ' · ' + esc(UNITS[s.u[0]].name) : '') + '</span></span>' + scoreHtml(s.id) + '</button>').join('') : '<div class="empty">No stations match these filters.</div>';
+}
+function vExams(m){
+  m.innerHTML = '<section class="card"><h1>Examinations</h1><p class="hint" style="margin:0">Each one: the steps, the words to use, why each step scores, how to present, and where people drop marks. Practise any of them as a timed station.</p></section><div class="list">' + EX.map(e => '<button class="li" data-ex="' + e.id + '"><span class="tt"><b>' + esc(e.t) + '</b><span>' + e.secs.reduce((n, s) => n + s.items.length, 0) + ' steps · ' + esc(e.u.slice(0, 3).map(i => UNITS[i].name).join(', ')) + '</span></span>' + scoreHtml(stationForExam(e.id).id) + '</button>').join('') + '</div>';
+}
+function vDops(m){
+  m.innerHTML = '<section class="card"><h1>Procedures and DOPS</h1><p class="hint" style="margin:0">Your 23 FFP GMC DOPS (plus ABPI and BP). Sign-off levels come from your DOPS guidance: some are simulation-only (NG tube, transfusion), IV infusion is under direct supervision, oxygen under indirect supervision.</p></section><div class="list">' + PR.map(p => '<button class="li" data-pr="' + p.id + '"><span class="tt"><b>' + esc(p.t) + '</b><span>' + esc(p.level) + '</span></span>' + scoreHtml(stationForProc(p.id).id) + '</button>').join('') + '</div>';
+}
+function vIlos(m){
+  let h = '<section class="card"><h1>ILOs</h1><p class="hint" style="margin:0">Every ILO condition with its clinchers and OSCE pack, and the stations that test it (past papers first).</p></section>';
+  D.weeks.forEach(w => {
+    const us = UNITS.filter(u => u.w === w.id);
+    h += '<details class="dd"><summary>' + esc(w.name) + ' <span class="hint">· ' + us.length + ' conditions</span></summary><div class="body"><div class="list">' + us.map(u => { const sts = ST.filter(s => s.u.some(i => UNITS[i].name === u.name)), n = sts.length, p = sts.filter(s => s.pp).length; return '<button class="li" data-u="' + u.i + '"><span class="tt"><b>' + esc(u.name) + '</b><span>' + n + ' station' + (n === 1 ? '' : 's') + (p ? ' · 📚 ' + p + ' past paper' + (p > 1 ? 's' : '') : '') + '</span></span></button>'; }).join('') + '</div></div></details>';
+  });
+  m.innerHTML = h;
+}
+const DOMS = [['Professionalism', 'Dress, bare below the elbow, introduction, ID check, consent, hand hygiene, chaperone, never rude or abrupt.'], ['Communication', 'Empathy, verbal and non-verbal skills, no jargon, invites questions, elicits ICE.'], ['Information gathering', 'A focused, structured history for this task: clear HPC plus the relevant PMH, DH, SH and red flags.'], ['Examination', 'Correct technique, logical sequence; a focused exam still elicits the key signs.'], ['Clinical reasoning', 'Interprets investigations with a structure and reaches the correct diagnosis from what you gathered.'], ['Information giving', 'Explains complex matters in plain language, or hands over succinctly to a colleague (SBAR).'], ['Management', 'A clear, thorough plan: specific treatment plus symptom relief, monitoring and escalation.'], ['Procedures', 'Marked as a step checklist: thorough, sensitive to the patient, safe for you and them.']];
+const VERBS = [['"Take a history"', 'Information gathering + Communication'], ['"Examine"', 'Examination + Professionalism'], ['"Interpret"', 'Clinical reasoning (+ Information giving if "to the patient")'], ['"Explain / counsel / discuss with the patient"', 'Information giving + Communication'], ['"Management to the examiner"', 'Management'], ['"Perform / demonstrate"', 'Procedure checklist'], ['"Prescribe"', 'Prescribing checklist'], ['"Hand over / SBAR"', 'Information giving']];
+function vSkills(m){
+  const order = ['hx', 'mhx', 'ex', 'proc', 'di', 'expl', 'counsel', 'bbn', 'presc', 'acute', 'prof', 'sbar', 'ebm', 'reason', 'plan', 'open', 'close'];
+  m.innerHTML = '<section class="card"><h1>How Nottingham marks you</h1><p class="hint" style="margin:0">Each station is marked on 4–6 of these domains, 0–4 each, plus a global impression (Clear fail, Borderline fail, Borderline pass, Clear pass, Honours pass). Aim for a 3 in every domain; markers start at 3 and move down for significant omissions.</p><div class="mk">' + DOMS.map(([t, d]) => '<div><b>' + t + '</b><span class="hint">' + d + '</span></div>').join('') + '</div><details class="dd"><summary>🚪 Door-sign decoder: verb → domain</summary><div class="body">' + VERBS.map(([v, d]) => '<div class="hkr"><span class="i">→</span><span><b>' + esc(v) + '</b> ' + esc(d) + '</span></div>').join('') + '</div></details><details class="dd"><summary>📏 What 0 to 4 means</summary><div class="body"><div class="hkr"><span class="i">4</span><span>Accurate and comprehensive; above the expected level</span></div><div class="hkr"><span class="i">3</span><span>Most areas covered, few minor errors or omissions</span></div><div class="hkr"><span class="i">2</span><span>Some areas covered, with one or two major omissions or errors</span></div><div class="hkr"><span class="i">1</span><span>Very few areas covered; inadequate</span></div><div class="hkr"><span class="i">0</span><span>Not attempted</span></div></div></details><details class="dd"><summary>⏱ Station timing</summary><div class="body"><p style="margin:0">10 minutes. Signal at 5:00 (halfway), the app turns amber at 8:00 (your feedback cue to move to the plan), warning at 9:00, stop at 10:00. If you finish early you stay in the room in silence.</p></div></details></section><section class="card"><h2>Communication and task frames</h2><p class="hint" style="margin:0">The frames every station is built from, with why each step scores. Learn the order once; then only the clinical content changes. The 🧭 Frameworks tab puts these together with what changes for each presentation.</p><div class="row"><button class="btn sm primary" data-go="fw">🧭 Open Frameworks</button></div></section><div class="list">' + order.filter(k => FR[k]).map(k => '<button class="li" data-fr="' + k + '"><span class="tt"><b>' + esc(FR[k].t) + '</b><span>' + FR[k].secs.reduce((n, s) => n + s.items.length, 0) + ' items</span></span></button>').join('') + '</div>';
+}
+function stepHtml(it){ return '<div class="step"><div>' + rich(it.t) + (it.w === 2 ? ' <span class="crit">CRITICAL</span>' : '') + (it.f ? ' <span class="fb">FOCUS</span>' : '') + '</div>' + (it.say ? '<div class="say">🗣 “' + rich(it.say) + '”</div>' : '') + (it.why ? '<div class="tip">🎯 ' + rich(it.why) + '</div>' : '') + (it.tip ? '<div class="tip">💡 ' + rich(it.tip) + '</div>' : '') + '</div>'; }
+function secsLearn(secs){ return secs.map((s, i) => '<details class="dd"' + (i === 0 ? ' open' : '') + '><summary>' + esc(s.h || 'Steps') + ' <span class="hint">· ' + s.items.length + '</span></summary><div class="body">' + s.items.map(stepHtml).join('') + '</div></details>').join(''); }
+function iloChips(ids){ const seen = new Set(); return (ids || []).filter(i => { const n = UNITS[i].name; if (seen.has(n)) return false; seen.add(n); return true; }).map(i => '<button class="chip" data-u="' + i + '">🧩 ' + esc(UNITS[i].name) + '</button>').join(''); }
+function ppChips(pred){ const l = PPS.filter(pred); return l.length ? '<section class="card"><h2>📚 Past-paper stations using this</h2><div class="list">' + l.map(s => '<button class="li" data-st="' + s.id + '"><span class="code">' + s.id + '</span><span class="tt"><b>' + esc(s.t) + '</b><span>' + esc(s.src) + '</span></span>' + scoreHtml(s.id) + '</button>').join('') + '</div></section>' : ''; }
+function vExam(m){
+  const e = exById[route.id], st = stationForExam(e.id);
+  m.innerHTML = '<section class="card"><span class="eyebrow">Examination</span><h1>' + esc(e.t) + '</h1><div class="chips">' + iloChips(e.u) + '</div><div class="row"><button class="btn primary" data-st="' + st.id + '">⏱ Practise as a station</button></div></section>' + secsLearn([{h: 'Before you touch (every exam)', items: FR.ex.secs[0].items}].concat(e.secs).concat([{h: 'Finish (every exam)', items: FR.ex.secs[2].items}])) + (e.present ? '<details class="dd" open><summary>🎤 How to present it</summary><div class="body"><p style="margin:0">' + rich(e.present) + '</p></div></details>' : '') + (e.fails.length ? '<details class="dd"><summary>⚠️ Where people drop marks</summary><div class="body"><ul style="margin:0;padding-left:20px">' + e.fails.map(f => '<li>' + esc(f) + '</li>').join('') + '</ul></div></details>' : '') + ppChips(s => s.ex.includes(e.id));
+}
+function vProc(m){
+  const p = prById[route.id], st = stationForProc(p.id);
+  m.innerHTML = '<section class="card"><span class="eyebrow">Procedure · DOPS</span><h1>' + esc(p.t) + '</h1><p class="hint" style="margin:0">' + esc(p.level) + '</p><div class="chips">' + iloChips(p.u) + '</div><div class="row"><button class="btn primary" data-st="' + st.id + '">⏱ Practise as a station</button></div></section>' + secsLearn([{h: 'Check (every procedure)', items: FR.proc.secs[0].items}, {h: p.t + ': steps', items: p.secs.flatMap(s => s.items)}, {h: 'Confirm and complete (every procedure)', items: FR.proc.secs[2].items}]) + (p.fails.length ? '<details class="dd"><summary>⚠️ Where people drop marks</summary><div class="body"><ul style="margin:0;padding-left:20px">' + p.fails.map(f => '<li>' + esc(f) + '</li>').join('') + '</ul></div></details>' : '') + ppChips(s => s.pr.includes(p.id));
+}
+function vFrame(m){ const f = FR[route.id]; m.innerHTML = '<section class="card"><span class="eyebrow">Skill frame</span><h1>' + esc(f.t) + '</h1><p class="hint" style="margin:0">Use this order in every station of this type. 🎯 lines say why each step scores. FOCUS items come from your formative feedback.</p></section>' + secsLearn(f.secs.map(s => ({h: s.h || f.t, items: s.items}))); }
+const PL = [['hx', '❓ What to ask'], ['rf', '🚩 Red flags'], ['ex', '🩺 What to look for'], ['ix', '🧪 Investigations'], ['mx', '💊 Management (UK)'], ['say', '🗣 What to say'], ['ice', '🤝 Concern and empathy'], ['sn', '🛟 Safety-net']];
+function packHtml(p, openFirst){ return ((p.ck || []).length ? '<details class="dd"' + (openFirst ? ' open' : '') + '><summary>🔑 Clinchers</summary><div class="body">' + p.ck.map(c => '<div class="hkr"><span class="i">' + (CKI[c[0]] || '•') + '</span><span>' + rich(c[1]) + '</span></div>').join('') + '</div></details>' : '') + PL.filter(([k]) => (p[k] || []).length).map(([k, l], i) => '<details class="dd"' + (openFirst && i < 1 ? ' open' : '') + '><summary>' + l + '</summary><div class="body"><ul class="pack" style="margin:0;padding-left:20px">' + p[k].map(x => '<li>' + rich(x) + '</li>').join('') + '</ul></div></details>').join(''); }
+function vIlo(m){
+  const u = UNITS[route.id], p = PK[u.i] || {}, sts = ST.filter(s => s.u.some(i => UNITS[i].name === u.name));
+  m.innerHTML = '<section class="card"><span class="eyebrow">' + esc(WEEK[u.w] || '') + '</span><h1>' + esc(u.name) + '</h1>' + (PUBLIC ? '' : '<div class="row"><a class="btn sm" href="' + DRILL + '#u' + u.i + '-read" target="_blank" rel="noopener">📖 Notes in Drill ↗</a><a class="btn sm" href="' + DRILL + '#u' + u.i + '-think" target="_blank" rel="noopener">🧠 Think tab in Drill ↗</a></div>') + '</section>' + packHtml(p, true) + '<section class="card"><h2>Stations for this ILO · ' + sts.length + '</h2><div class="list">' + (sts.map(s => '<button class="li" data-st="' + s.id + '"><span class="code">' + esc(s.id) + '</span><span class="tt"><b>' + esc(s.t) + '</b><span>' + (s.pp ? '📚 Past paper · ' : '') + esc(kindOf(s)) + '</span></span>' + scoreHtml(s.id) + '</button>').join('') || '<div class="empty">No station yet.</div>') + '</div></section>';
+}
+
+
+/* ---------- frameworks (v3) ---------- */
+const UNI_BASE = [0, 1, 2, 3, 6, 7, 10, 12, 16], UNI_EXTRA = {hx: [5, 8], mhx: [5, 13], ex: [4, 13], proc: [4, 9], acute: [11, 17], presc: [9, 14], expl: [8, 13], di: [10], prof: [13, 14]};
+function fwFor(st){
+  const out = [], seen = new Set(), fr = st.fr || [];
+  const order = f => { const i = fr.findIndex(x => FRFW[x] === f.id); return i < 0 ? 99 : i; };
+  const fids0 = new Set(fr.map(x => FRFW[x]).filter(Boolean));
+  FWL.forEach(f => f.m.forEach(mm => { if (mm.st.includes(st.id) && !seen.has(f.id) && (!fids0.size || fids0.has(f.id))) { out.push({f, m: mm}); seen.add(f.id); } }));
+  [...new Set(fr.map(x => FRFW[x]).filter(Boolean))].forEach(fid => { if (seen.has(fid) || !FWBY[fid]) return; const f = FWBY[fid]; const mm = f.m.find(x => x.u.some(u => (st.u || []).includes(u))); out.push({f, m: mm || null}); seen.add(fid); });
+  return out.sort((a, b) => order(a.f) - order(b.f)).slice(0, 4);
+}
+function treeHtml(mm){ return mm.tree.length ? '<div class="tree">' + mm.tree.map(([b, lv]) => '<div class="br"><b>' + esc(b) + '</b><div class="lv">' + lv.map(x => '<span>' + esc(x) + '</span>').join('') + '</div></div>').join('') + '</div>' : ''; }
+function fwDiffHtml(f, mm, withTree){
+  const rows = f.steps.filter(s => mm.ch[s.k]).map(s => '<div class="nnr"><span class="k">' + (s.nn ? '⛔' : '🔀') + '</span><span><b>' + esc(s.t) + '</b><span class="s">' + rich(mm.ch[s.k]) + '</span></span></div>').join('');
+  return (rows ? '<span class="hkh">🔀 What changes from the skeleton</span>' + rows : '') + (mm.nn.length ? '<span class="hkh">⛔ Extra non-negotiables here</span>' + mm.nn.map(x => '<div class="nnr"><span class="k">⛔</span><span>' + rich(x) + '</span></div>').join('') : '') + (withTree && mm.tree.length ? '<span class="hkh">🌳 Differential tree</span>' + treeHtml(mm) : '') + (mm.pearl ? '<div class="money"><b>🪝 Hook</b>' + rich(mm.pearl) + '</div>' : '');
+}
+const shortStep = t => t.replace(/^!/, '').split(/[:(,]/)[0].replace(/^(Open|Present|Explain|Check|Chunk \d)\b.*$/, '$1').trim();
+function skelHtml(f, mm){ return '<div class="skel" aria-label="Skeleton">' + f.steps.map((s, i) => '<span class="' + (mm && mm.ch[s.k] ? 'c' : s.nn ? 'x' : '') + '" title="' + esc(s.t) + '">' + (s.nn ? '⛔ ' : '') + esc(shortStep(s.t)) + '</span>' + (i < f.steps.length - 1 ? '→' : '')).join('') + '</div>'; }
+function uniList(idx){ return idx.filter(i => UNI[i]).map(i => '<div class="nnr"><span class="k">⛔</span><span>' + rich(UNI[i].t) + (UNI[i].say ? '<span class="s">🗣 “' + rich(UNI[i].say) + '”</span>' : '') + '</span></div>').join(''); }
+function uniCard(open){ return UNI.length ? '<details class="fw"' + (open ? ' open' : '') + '><summary>⛔ The non-negotiables: do these in every station <span class="hint">· ' + UNI.length + '</span></summary><div class="body"><p class="hint" style="margin:0">Most come straight from the official Nottingham anchor descriptors (CP3 mock 2018). They are marks you can bank in every station, whatever the clinical content.</p>' + UNI.map((n, i) => '<div class="nnr"><span class="k">' + (i + 1) + '</span><span><b>' + rich(n.t) + '</b>' + (n.say ? '<span class="s">🗣 “' + rich(n.say) + '”</span>' : '') + '<span class="s">🎯 ' + rich(n.why) + '</span></span></div>').join('') + '</div></details>' : ''; }
+function fwCard(st){
+  const L = fwFor(st); if (!L.length) return '';
+  const idx = UNI_BASE.slice(); L.forEach(({f}) => (UNI_EXTRA[f.id] || []).forEach(i => { if (!idx.includes(i)) idx.push(i); }));
+  const crit = st.pp ? st.dom.flatMap(d => d.items.filter(it => it.w === 2).map(it => it.t)).slice(0, 8) : [];
+  let b = '<span class="hkh">⛔ Non-negotiables in this station</span>' + uniList(idx.sort((a, c) => a - c));
+  L.forEach(({f}) => f.nn.forEach(x => b += '<div class="nnr"><span class="k">⛔</span><span>' + rich(x) + ' <span class="hint">(' + esc(f.t.split(':')[0]) + ')</span></span></div>'));
+  if (crit.length) b += '<span class="hkh">⛔ Critical in this mark scheme</span>' + crit.map(x => '<div class="nnr"><span class="k">⛔</span><span>' + rich(x) + '</span></div>').join('');
+  L.forEach(({f, m: mm}) => {
+    b += '<div class="card" style="padding:10px 12px;gap:6px"><div class="row"><b class="grow">' + f.i + ' ' + esc(f.t) + (mm ? ' → ' + esc(mm.t) : '') + '</b><button class="btn sm" data-fw="' + f.id + '"' + (mm ? ' data-fwm="' + mm.id + '"' : '') + '>Open ↗</button></div>' + skelHtml(f, mm) + (mm ? fwDiffHtml(f, mm, false) + (mm.tree.length ? '<details class="dd"><summary>🌳 Differential tree</summary><div class="body">' + treeHtml(mm) + '</div></details>' : '') : '<span class="hint">Use the skeleton as it is.</span>') + '</div>';
+  });
+  return '<details class="fw" id="fwCard"><summary>🧭 Framework: ' + L.map(({f, m: mm}) => f.i + ' ' + esc(f.t.split(':')[0]) + (mm ? ' → ' + esc(mm.t) : '')).join(' · ') + '</summary><div class="body"><p class="hint" style="margin:0">Same skeleton as every station of this type. Blue = what changes here; ⛔ = never skip.</p>' + b + '</div></details>';
+}
+function fwStations(f, mm){
+  const ids = new Set(mm ? mm.st : []);
+  const fr = Object.keys(FRFW).filter(k => FRFW[k] === f.id);
+  PPS.forEach(s => { const hasFr = (s.fr || []).some(x => fr.includes(x)); if (mm ? (hasFr && mm.u.some(u => s.u.includes(u))) : hasFr) ids.add(s.id); });
+  return [...ids].filter(id => stById[id]).sort((a, b) => (parseInt(a.slice(2), 10) || 0) - (parseInt(b.slice(2), 10) || 0)).slice(0, mm ? 30 : 60);
+}
+function vFw(m){
+  let h = '<section class="card"><span class="eyebrow">One skeleton per task type</span><h1>🧭 Frameworks</h1><p class="hint" style="margin:0">Like <i>Frameworks for Internal Medicine</i>: every station of a type runs on the same skeleton. Learn the skeleton once, then for each presentation learn only <b>what changes</b> (blue) and the <b>differential tree</b>. ⛔ marks the non-negotiables.</p></section>';
+  h += uniCard(false);
+  h += '<section class="grid2">' + FWL.map(f => '<button class="tile" data-fw="' + f.id + '"><b>' + f.i + ' ' + esc(f.t) + '</b><span class="hint">' + esc(f.b) + '</span><span class="hint">' + f.steps.length + ' steps · ' + f.steps.filter(s => s.nn).length + ' ⛔ · ' + f.m.length + ' variations</span></button>').join('') + '</section>';
+  m.innerHTML = h;
+}
+function vFwOne(m){
+  const f = FWBY[route.id]; if (!f) return vFw(m);
+  const mm = f.m.find(x => x.id === route.mem) || null, only = !!S.set.fwOnly && !!mm;
+  let h = '<section class="card"><span class="eyebrow">🧭 Framework</span><h1>' + f.i + ' ' + esc(f.t) + '</h1><p class="hint" style="margin:0">' + esc(f.b) + '</p><div class="row"><label class="hint" for="fwMem">Variation</label><select class="sel" id="fwMem"><option value="">The skeleton only</option>' + f.m.map(x => '<option value="' + x.id + '"' + (mm && mm.id === x.id ? ' selected' : '') + '>' + esc(x.t) + '</option>').join('') + '</select>' + (mm ? '<label class="hint"><input type="checkbox" id="fwOnly"' + (only ? ' checked' : '') + '> Show only what changes</label>' : '') + '</div>' + (mm && mm.use ? '<span class="src">When: ' + esc(mm.use) + '</span>' : '') + skelHtml(f, mm) + '</section>';
+  h += '<div class="scr">' + f.steps.map((s, i) => { const c = mm && mm.ch[s.k]; return '<div class="fst' + (s.nn ? ' x' : '') + (only && !c ? ' dim' : '') + '"><span class="n">' + (i + 1) + '</span><div><b>' + (s.nn ? '<span class="nn">⛔ never skip</span>' : '') + esc(s.t) + '</b>' + (s.say ? '<div class="say">🗣 “' + rich(s.say) + '”</div>' : '') + '<div class="why">🎯 ' + rich(s.why) + '</div>' + (c ? '<div class="chg"><b>🔀 For ' + esc(mm.t) + '</b>' + rich(c) + '</div>' : mm ? '<div class="same">Same as always.</div>' : '') + '</div></div>'; }).join('') + '</div>';
+  if (f.nn.length || (mm && mm.nn.length)) h += '<section class="card"><h2>⛔ Non-negotiables' + (mm ? ': ' + esc(mm.t) : '') + '</h2>' + f.nn.concat(mm ? mm.nn : []).map(x => '<div class="nnr"><span class="k">⛔</span><span>' + rich(x) + '</span></div>').join('') + '<p class="hint" style="margin:0">Plus the ' + UNI.length + ' universal ones on the home page.</p></section>';
+  if (mm && mm.tree.length) h += '<section class="card"><h2>🌳 Differential tree: ' + esc(mm.t) + '</h2><p class="hint" style="margin:0">The discriminator questions above decide which branch you are on.</p>' + treeHtml(mm) + (mm.pearl ? '<div class="money"><b>🪝 Hook</b>' + rich(mm.pearl) + '</div>' : '') + '</section>';
+  else if (mm && mm.pearl) h += '<div class="money"><b>🪝 Hook</b>' + rich(mm.pearl) + '</div>';
+  if (!mm) h += '<section class="card"><h2>Variations</h2><p class="hint" style="margin:0">Pick one to see exactly which steps change.</p><div class="chips">' + f.m.map(x => '<button class="chip" data-fw="' + f.id + '" data-fwm="' + x.id + '">' + esc(x.t) + '</button>').join('') + '</div></section>';
+  const ids = fwStations(f, mm);
+  if (ids.length) h += '<section class="card"><h2>📚 Practise it' + (mm ? ': ' + esc(mm.t) : '') + ' · ' + ids.length + '</h2><div class="list">' + ids.map(id => { const s = stById[id]; return '<button class="li" data-st="' + id + '"><span class="code">' + id + '</span><span class="tt"><b>' + esc(s.t) + '</b><span>' + (s.pp ? '📚 ' + s.vars.length + ' case' + (s.vars.length > 1 ? 's' : '') + ' · ' : '') + esc(kindOf(s)) + '</span></span>' + scoreHtml(id) + '</button>'; }).join('') + '</div></section>';
+  m.innerHTML = h;
+}
+
+/* ---------- hook drill ---------- */
+let deck = null;
+function buildDeck(){
+  const wk = S.set.hwk, dk = S.set.deck, cards = [];
+  if (dk === 'all' || dk === 'pp') PPS.forEach(s => { const w = s.u.map(i => UNITS[i].w); if (wk && !w.includes(wk)) return; cards.push({id: 'p:' + s.id, st: s.id, kind: 'pp', front: s.trig.length ? s.trig : [s.t], q: 'What is it, what clinches it, and what is your money line?', title: s.t, hook: s.hook, clinch: s.clinch, money: s.money, mons: s.vars.length > 1 ? s.vars.map(v => [v.k, v.dx, moneyFor(s, v.k)]) : [], trap: s.trap}); });
+  if (dk === 'all' || dk === 'fw') {
+    if (!wk) cards.push({id: 'uni', kind: 'fw', front: ['⛔ Every station'], q: 'Name the non-negotiables you do in EVERY station (there are ' + UNI.length + ').', title: 'Universal non-negotiables', back: UNI.map(n => '<div class="nnr"><span class="k">⛔</span><span>' + rich(n.t) + '</span></div>').join('')});
+    FWL.forEach(f => {
+      if (!wk) cards.push({id: 'f:' + f.id, kind: 'fw', fw: f.id, front: [f.i + ' ' + f.t], q: 'Say the skeleton in order. Which steps are non-negotiable (⛔)?', title: f.t, back: f.steps.map((s, i) => '<div class="nnr"><span class="k">' + (s.nn ? '⛔' : i + 1) + '</span><span>' + esc(s.t) + '</span></div>').join('') + (f.nn.length ? '<span class="hkh">Also non-negotiable</span>' + f.nn.map(x => '<div class="nnr"><span class="k">⛔</span><span>' + rich(x) + '</span></div>').join('') : '')});
+      f.m.forEach(mm => { if (wk && !mm.u.some(i => UNITS[i] && UNITS[i].w === wk)) return; if (!Object.keys(mm.ch).length && !mm.tree.length) return; cards.push({id: 'fm:' + f.id + ':' + mm.id, kind: 'fw', fw: f.id, mem: mm.id, front: [f.i + ' ' + f.t.split(':')[0] + ' → ' + mm.t], q: 'What changes from the usual skeleton? Then run the differential tree.', title: mm.t, back: fwDiffHtml(f, mm, true)}); });
+    });
+  }
+  if (dk !== 'pp' && dk !== 'fw') { const seen = new Set(); UNITS.forEach(u => { if (seen.has(u.name) || (wk && u.w !== wk)) return; seen.add(u.name); const ck = (PK[u.i] || {}).ck || []; if (ck.length) cards.push({id: 'u:' + u.i, u: u.i, kind: 'ilo', front: [u.name], q: 'Name the clinchers: what rules it in, what rules it out, which lab pattern?', title: u.name, hook: [], clinch: ck, money: ''}); }); }
+  const sc = c => { const r = S.hk[c.id]; return r ? (r.a || 0) * 2 - (r.ok || 0) : -1; };
+  const unseen = shuffle(cards.filter(c => !S.hk[c.id])), seen = cards.filter(c => S.hk[c.id]).sort((a, b) => sc(b) - sc(a) || (S.hk[a.id].ts || 0) - (S.hk[b.id].ts || 0));
+  deck = {cards: unseen.concat(seen), i: 0, shown: false, n: cards.length};
+}
+function vHooks(m){
+  const hv = S.set.hview || 'all';
+  const seg = '<div class="seg" id="hvSeg"><button data-hview="all" class="' + (hv === 'all' ? 'on' : '') + '">📖 All hooks</button><button data-hview="drill" class="' + (hv === 'drill' ? 'on' : '') + '">🃏 Flashcard drill</button></div>';
+  if (hv === 'all') {
+    const r = allHooksHtml();
+    m.innerHTML = '<section class="card"><h1>🪝 Hooks</h1>' + seg + '<p class="hint" style="margin:0">Every hook in the app in one place: door-sign triggers, memory hooks, clinchers, the money line for every case and where marks are lost, plus the framework hooks and ILO clinchers. Filter by type, ILO week or a word.</p><div class="row"><select class="sel" id="hDeck" aria-label="Type"><option value="all"' + (S.set.deck === 'all' ? ' selected' : '') + '>All hooks</option><option value="pp"' + (S.set.deck === 'pp' ? ' selected' : '') + '>📚 Past-paper stations</option><option value="fw"' + (S.set.deck === 'fw' ? ' selected' : '') + '>🧭 Frameworks</option><option value="ilo"' + (S.set.deck === 'ilo' ? ' selected' : '') + '>🧩 ILO clinchers</option></select><select class="sel" id="hWk" aria-label="ILO week"><option value="">All ILO weeks</option>' + D.weeks.map(w => '<option value="' + w.id + '"' + (S.set.hwk === w.id ? ' selected' : '') + '>' + esc(w.name) + '</option>').join('') + '</select><input class="sel" id="hQ" type="search" placeholder="Filter, e.g. warfarin" value="' + esc(S.set.hq || '') + '" aria-label="Filter hooks"><span class="hint" id="hN">' + r.n + ' cards</span></div></section><div id="hAll" class="list">' + r.h + '</div>';
+    return;
+  }
+  if (!deck) buildDeck();
+  const c = deck.cards[deck.i];
+  let h = '<section class="card"><h1>🪝 Hooks</h1>' + seg + '<p class="hint" style="margin:0">Read the trigger, say your answer out loud, then reveal. Cards you mark 🔁 come back sooner. Past-paper cards end with the money line; 🧭 framework cards drill the skeletons, what changes, and the non-negotiables.</p><div class="row"><select class="sel" id="hDeck" aria-label="Deck"><option value="all"' + (S.set.deck === 'all' ? ' selected' : '') + '>All cards</option><option value="pp"' + (S.set.deck === 'pp' ? ' selected' : '') + '>📚 Past-paper hooks</option><option value="ilo"' + (S.set.deck === 'ilo' ? ' selected' : '') + '>🧩 ILO clinchers</option><option value="fw"' + (S.set.deck === 'fw' ? ' selected' : '') + '>🧭 Frameworks + non-negotiables</option></select><select class="sel" id="hWk" aria-label="ILO week"><option value="">All ILO weeks</option>' + D.weeks.map(w => '<option value="' + w.id + '"' + (S.set.hwk === w.id ? ' selected' : '') + '>' + esc(w.name) + '</option>').join('') + '</select><span class="hint">' + (deck.n ? Math.min(deck.i + 1, deck.n) + ' / ' + deck.n : '0 cards') + '</span></div></section>';
+  if (!c) { h += '<section class="card"><div class="empty">' + (deck.n ? 'Deck done. 🎉 <button class="btn sm" data-hrestart>Go again</button>' : 'No cards for this filter.') + '</div></section>'; m.innerHTML = h; return; }
+  const row = (i, t) => '<div class="hkr"><span class="i">' + i + '</span><span>' + rich(t) + '</span></div>';
+  h += '<section class="card flash"><div><span class="eyebrow">' + (c.kind === 'pp' ? '📚 Past paper · ' + esc(c.st) : c.kind === 'fw' ? '🧭 Framework' : '🧩 ILO clincher') + '</span><div class="front">' + c.front.map(t => (c.kind === 'pp' ? '⚡ ' : '') + esc(t)).join('<br>') + '</div><p class="hint" style="margin:6px 0 0">' + esc(c.q) + '</p></div>';
+  if (deck.shown && c.kind === 'fw') h += '<div class="back">' + c.back + '<div class="row"><button class="btn" data-hk="a">🔁 Again</button><button class="btn primary" data-hk="ok">✅ Got it</button><span class="grow"></span>' + (c.fw ? '<button class="btn sm" data-fw="' + c.fw + '"' + (c.mem ? ' data-fwm="' + c.mem + '"' : '') + '>Open framework ↗</button>' : '<button class="btn sm" data-go="fw">Open frameworks ↗</button>') + '</div></div>';
+  else if (deck.shown) h += '<div class="back">' + (c.kind === 'pp' ? '<b>' + esc(c.title) + '</b>' : '') + c.hook.map(t => row('🪝', t)).join('') + c.clinch.map(x => row(CKI[x[0]] || '•', x[1])).join('') + ((c.mons || []).length ? c.mons.map(([k, dx, m]) => '<div class="money"><b>🎯 Case ' + esc(k) + ' · ' + esc(dx) + '</b>' + rich(m || '') + '</div>').join('') : c.money ? '<div class="money"><b>🎯 Money line</b>' + rich(c.money) + '</div>' : '') + ((c.trap || []).length ? '<span class="hkh">⚠️ Where marks are lost</span>' + c.trap.map(t => row('⚠️', t)).join('') : '') + '<div class="row"><button class="btn" data-hk="a">🔁 Again</button><button class="btn primary" data-hk="ok">✅ Got it</button><span class="grow"></span>' + (c.st ? '<button class="btn sm" data-st="' + c.st + '">Open station ↗</button>' : '<button class="btn sm" data-u="' + c.u + '">Open ILO ↗</button>') + '</div></div>';
+  else h += '<div class="row"><button class="btn primary" data-hshow>Reveal</button><button class="btn sm" data-hskip>Skip</button></div>';
+  h += '</section>';
+  m.innerHTML = h;
+}
+
+/* ---------- station ---------- */
+let cur = null;
+const GLOBAL = ['Clear fail', 'Borderline fail', 'Borderline pass', 'Clear pass', 'Honours pass'];
+const LIK = ['0', '1', '2', '3', '4'];
+const LIKL = '0 not attempted · 1 very few areas · 2 major omissions · 3 most areas, few errors · 4 comprehensive';
+const MODES = [['script', '📜 Script'], ['tick', '✅ Tick'], ['friends', '👥 Friends'], ['ai', '🤖 AI text'], ['voice', '🎙 Voice']];
+const DPROF = {h: 'Professionalism', items: [{t: 'Hand hygiene, introduction, patient ID check', w: 2}, {t: 'Consent; chaperone offered where relevant', w: 2}, {t: 'Dignity, comfort, never rude or abrupt'}]};
+const DCOMM = {h: 'Communication', items: [{t: 'Rapport, open questions, listens without interrupting'}, {t: 'Elicits ideas, concerns and expectations', w: 2}, {t: 'No unexplained jargon; signposts; chunks and checks', f: 1}, {t: 'Responds to emotion and non-verbal cues'}]};
+function domainsFor(st, secs){
+  if (!st.pp) return secs.filter(s => s.key !== 'open' && s.key !== 'close').map(s => ({h: s.h, items: s.items.slice(0, 6)}));
+  const ds = st.dom.map(d => ({h: d.h, items: d.items})), has = re => ds.some(d => re.test(d.h));
+  return (has(/^Professional/i) ? [] : [DPROF]).concat(has(/^Communication/i) ? [] : [DCOMM], ds);
+}
+function vStation(m){
+  const st = getStation(route.id); if (!st) return vHome(m);
+  const vk0 = st.pp ? (st.vars[0].k) : null;
+  cur = {st, vk: vk0, hidden: false, secs: buildChecklist(st, vk0), ticks: new Set(), ai: new Set(), chat: [], mode: S.set.mode, left: 600, fb: null, lik: {}};
+  if ((cur.mode === 'ai' || cur.mode === 'voice') && sampleChecked && !SAMPLE) cur.mode = 'script';
+  const pk = packFor(st);
+  let h = '<section class="card"><div class="row"><span class="code">' + esc(st.id) + '</span><span class="hint">' + (st.pp ? '📚 Past paper · ' : '') + esc(kindOf(st)) + '</span>' + (best(st.id) != null ? '<span class="score ' + scoreCls(best(st.id)) + '">best ' + best(st.id) + '%</span>' : '') + '</div><h1>' + esc(st.t) + '</h1>' + (st.src ? '<span class="src">Source: ' + esc(st.src) + '</span>' : '') + '<div class="chips">' + iloChips(st.u) + (st.ex || []).map(e => exById[e] ? '<button class="chip" data-ex="' + e + '">🩺 ' + esc(exById[e].t) + '</button>' : '').join('') + (st.pr || []).map(p => prById[p] ? '<button class="chip" data-pr="' + p + '">💉 ' + esc(prById[p].t) + '</button>' : '').join('') + '</div>';
+  if (st.pp && st.vars.length) h += '<div class="row" id="varRow"><label class="hint" for="varSel">Case</label><select class="sel" id="varSel">' + st.vars.map(v => '<option value="' + v.k + '">' + esc(v.k + ' · ' + v.who) + '</option>').join('') + (st.vars.length > 1 ? '<option value="?">🎲 Surprise me (hidden)</option>' : '') + '</select><span class="hint dx" id="varDx"></span></div>';
+  h += '<div class="brief"><span class="eyebrow">Candidate information</span><p id="briefP">' + esc(st.info) + '</p>' + (st.task ? '<p class="task">' + esc(st.task) + '</p>' : '') + '</div><div id="resWrap"></div>';
+  h += '<div class="timer"><span class="clock" id="clock">10:00</span><span class="track" aria-hidden="true"><i id="tbar"></i><span class="zone" title="Last 2 minutes: synthesis and plan"></span></span><button class="btn sm primary" data-timer>▶ Start</button><button class="btn sm" data-treset>↺</button></div><div class="alert" id="talert" hidden>⏱ 8 minutes gone. Stop gathering: summarise, give your reasoning and the plan.</div>';
+  h += '<div class="row"><div class="seg" id="modeSeg">' + MODES.map(([k, l]) => '<button data-mode="' + k + '" class="' + (cur.mode === k ? 'on' : '') + '">' + l + '</button>').join('') + '</div></div></section>';
+  h += '<div id="fwWrap"></div><div id="hookWrap"></div>';
+  h += '<section class="card" id="scriptCard"></section>';
+  h += '<section class="card" id="friendsCard"></section>';
+  h += '<section class="card" id="aiCard"><div class="row"><h2 class="grow">🤖 Talk to the patient</h2><button class="btn sm" data-restart>↺ Restart</button></div><p class="hint" style="margin:0" id="aiNote">Type what you would say, exactly as you would say it. For physical steps, describe the action (e.g. "I wash my hands and ask to examine your chest") and the examiner will give findings. Type <b>examiner:</b> to address the examiner.</p><div class="chat" id="chat" aria-live="polite"></div><div class="quick" id="quick"><button data-qk="Hello, my name is Nana, I\'m a third-year medical student. Could I check your full name and date of birth?">👋 Introduce + ID</button><button data-qk="What\'s brought you in today?">Open question</button><button data-qk="What have you been thinking might be going on, and is there anything in particular you\'re worried about?">ICE</button><button data-qk="examiner: Please could I have the observations, examination findings and any results?">Ask for findings</button><button data-qk="Let me just summarise what you\'ve told me to check I\'ve got it right.">Summarise</button></div><div class="compose"><textarea id="say" rows="2" placeholder="What do you say?" aria-label="Your words to the patient"></textarea><button class="btn primary" data-send>Send</button></div><div class="row"><button class="btn" data-stop hidden>■ Stop</button><span class="grow"></span><button class="btn primary" data-grade>🏁 Finish and get marked</button></div><div id="aiOut"></div></section>';
+  h += '<section class="card" id="voiceCard">' + voiceCardHtml() + '</section>';
+  h += '<section class="card stick" id="scoreCard"><div class="row"><span class="pct" id="pct">0%</span><div class="grow" style="min-width:140px"><div class="pctbar"><i id="pbar" style="width:0%"></i></div><span class="hint" id="pinfo"></span></div></div><div class="row"><label class="hint" for="glob">Global impression</label><select class="sel" id="glob"><option value="">Choose…</option>' + GLOBAL.map((g, i) => '<option value="' + (i + 1) + '">' + g + '</option>').join('') + '</select><button class="btn primary sm" data-saveatt>💾 Save attempt</button><button class="btn sm" data-clear>Clear ticks</button></div></section>';
+  h += '<section class="card" id="clCard"></section>';
+  h += '<section class="card" id="modelCard"></section>';
+  m.innerHTML = h;
+  vInit(); drawStationParts(); setMode(cur.mode, true); refreshAiAvail(); drawClock();
+}
+function curVar(){ return varOf(cur.st, cur.vk); }
+function drawStationParts(){
+  const st = cur.st, v = curVar(), pk = packFor(st);
+  const bp = $('#briefP'); if (bp) bp.textContent = (v && v.d) || st.info;
+  $('#fwWrap').innerHTML = fwCard(st);
+  const dx = $('#varDx'); if (dx) dx.textContent = v && !cur.hidden && (cur.mode === 'script' || cur.mode === 'tick' || (cur.mode === 'friends' && S.set.role !== 'cand')) ? '→ ' + v.dx : (cur.hidden ? 'case hidden' : '');
+  $('#resWrap').innerHTML = v && v.r ? '<details class="dd" id="resCard"><summary>📄 Results / findings card <span class="hint">· open when the examiner hands it over</span></summary><div class="body"><p style="margin:0">' + rich(v.r) + '</p></div></details>' : '';
+  $('#hookWrap').innerHTML = hookHtml(Object.assign(hooksFor(st, cur.vk), cur.hidden ? {money: '', all: []} : {}), cur.mode === 'script');
+  $('#scriptCard').innerHTML = scriptHtml(st, cur.hidden ? '~' : cur.vk);
+  drawFriends();
+  cur.secs = buildChecklist(st, cur.vk); cur.ticks = new Set([...cur.ticks].filter(id => cur.secs.some(s => s.items.some(it => it.id === id))));
+  $('#clCard').innerHTML = '<div class="row"><h2 class="grow">Mark scheme</h2><button class="btn sm" data-expand>Open all</button></div><p class="hint" style="margin:0">' + (st.pp ? 'Built from the Nottingham domains for this station.' : 'Built from your station bank and ILO pack.') + ' Tick what you did. <span class="crit" style="font-family:var(--f-mono);font-size:.62rem;font-weight:700;color:var(--bad);border:1px solid var(--bad);border-radius:5px;padding:0 4px">CRITICAL</span> items count double. Tap ⓘ for the words and why.</p><div id="cl" style="display:flex;flex-direction:column;gap:8px">' + cur.secs.map((sc, si) => '<details class="sec" data-sec="' + si + '"' + (sc.open || si === 1 ? ' open' : '') + '><summary>' + esc(sc.h) + '<span class="cnt" data-cnt="' + si + '">0/' + sc.items.length + '</span></summary><div class="items">' + sc.items.map(it => { const cid = 'c_' + it.id.replace(/\W/g, '_'); return '<div class="it" data-iid="' + it.id + '"><input type="checkbox" id="' + cid + '" data-tick="' + it.id + '"' + (cur.ticks.has(it.id) ? ' checked' : '') + '><label for="' + cid + '">' + rich(it.t) + (it.w === 2 ? '<span class="crit">CRITICAL</span>' : '') + (it.f ? '<span class="fb">FOCUS</span>' : '') + '</label>' + (it.say || it.tip || it.why ? '<button class="more" data-more aria-label="Show words and why">ⓘ</button><div class="xp" hidden>' + (it.say ? '<span class="say">🗣 “' + rich(it.say) + '”</span>' : '') + (it.why ? '<span class="tip">🎯 ' + rich(it.why) + '</span>' : '') + (it.tip ? '<span class="tip">💡 ' + rich(it.tip) + '</span>' : '') + '</div>' : '<span></span>') + '</div>'; }).join('') + '</div></details>').join('') + '</div>';
+  let mh = '<h2>Model answer and coaching</h2>';
+  if (st.pp) {
+    if (v) mh += '<details class="dd"' + (cur.hidden ? '' : ' open') + '><summary>🧭 This case' + (cur.hidden ? '' : ': ' + esc(v.dx)) + '</summary><div class="body"><p style="margin:0">' + rich(v.x) + '</p></div></details>';
+    if (st.money && !cur.hidden) mh += '<div class="money"><b>🎯 Money line' + (st.vars.length > 1 && !cur.hidden ? ' · case ' + esc(cur.vk) : '') + '</b>' + rich(moneyFor(st, cur.vk)) + '</div>';
+    if (st.vars.length > 1) mh += '<details class="dd"><summary>🔀 All cases in this station</summary><div class="body">' + st.vars.map(x => '<div class="hkr"><span class="i">' + esc(x.k) + '</span><span><b>' + esc(x.who) + '</b>: ' + esc(x.dx) + '</span></div>').join('') + '</div></details>';
+  } else {
+    if (st.def) mh += '<details class="dd" open><summary>🧭 Default instruction</summary><div class="body"><p style="margin:0">' + esc(st.def) + '</p></div></details>';
+    if (st.cmp) mh += '<details class="dd"><summary>⚖️ The comparison to make</summary><div class="body"><p style="margin:0">' + esc(st.cmp) + '</p></div></details>';
+  }
+  mh += '<details class="dd"><summary>🎤 Reasoning sentence</summary><div class="body"><p style="margin:0">“The important finding is ___. It suggests ___ because ___. The next step is ___.”</p></div></details>' + (pk ? '<details class="dd"><summary>🧩 ' + esc(pk.u.name) + ' pack</summary><div class="body">' + packHtml(pk.p, false) + '</div></details>' : '');
+  $('#modelCard').innerHTML = mh;
+  updScore();
+}
+function drawFriends(){
+  const st = cur.st, v = curVar(), role = S.set.role, pk = packFor(st);
+  let h = '<div class="row"><h2 class="grow">👥 Practise with friends</h2></div><p class="hint" style="margin:0">One phone each, or pass this one round. Everyone opens this station and picks a role. The actor and examiner choose the case; the candidate never sees it.</p><div class="seg" id="roleSeg">' + [['cand', '🧑‍⚕️ Candidate'], ['actor', '🎭 Patient'], ['exam', '📋 Examiner']].map(([k, l]) => '<button data-role="' + k + '" class="' + (role === k ? 'on' : '') + '">' + l + '</button>').join('') + '</div>';
+  if (role === 'cand') {
+    h += '<div class="role"><b>🧑‍⚕️ You are the candidate</b><ul><li>Read the door brief above for 1 minute. Underline every verb: each is a marked domain.</li><li>Start the timer when the examiner says go. Amber at 8:00 means move to the plan.</li><li>Open the results card only when the examiner hands it to you.</li><li>Don\'t open the hooks, script or model answer until afterwards.</li></ul></div>';
+  } else if (role === 'actor') {
+    const facts = v ? v.a : [].concat((pk && pk.p.hx || []).slice(0, 6).map(t => 'If asked: ' + t), (pk && pk.p.ice || []).slice(0, 1).map(t => 'Your worry: ' + t));
+    h += '<div class="role"><b>🎭 You are ' + esc(v ? v.who : 'the patient') + '</b>' + (v && !cur.hidden ? '<span class="hint">Case ' + esc(v.k) + ' · ' + esc(v.dx) + ' (keep this secret)</span>' : '') + '<span class="hkh">Your story</span><ul>' + facts.map(t => '<li>' + rich(t) + '</li>').join('') + '</ul>' + ((st.ask || []).length ? '<span class="hkh">Ask the candidate (when it fits)</span><ul>' + st.ask.map(t => '<li>' + esc(t) + '</li>').join('') + '</ul>' : '') + '<span class="hkh">How to play it</span><ul><li>Answer only what you are asked. Anything marked ONLY IF ASKED needs a direct question.</li><li>Show feeling: worry, pain, irritation. Mime physical signs, or say them.</li><li>If they use jargon, look confused and ask what it means.</li><li>Afterwards, tell them one thing that made you trust them and one that didn\'t.</li></ul></div>';
+  } else {
+    const doms = domainsFor(st, cur.secs);
+    h += '<div class="role"><b>📋 Examiner sheet</b>' + (v ? '<span class="dx">Case ' + esc(v.k) + ': ' + esc(v.dx) + '</span><span class="hint">' + rich(v.x) + '</span>' : '') + (v && v.r ? '<span class="hint">📄 Hand over the results card when they ask, or after the history/examination.</span>' : '') + '</div>';
+    h += '<p class="hint" style="margin:0">Score each domain 0–4: ' + LIKL + '. Most solid candidates score 3.</p><div>' + doms.map((d, i) => '<div class="lik"><div><b>' + esc(d.h) + '</b><ul>' + d.items.map(it => '<li>' + (it.w === 2 ? '<b>' + rich(it.t) + '</b>' : rich(it.t)) + '</li>').join('') + '</ul></div><select class="sel" data-lik="' + i + '" aria-label="' + esc(d.h) + ' score"><option value="">–</option>' + LIK.map((l, n) => '<option value="' + n + '"' + (cur.lik[i] === n ? ' selected' : '') + '>' + l + '</option>').join('') + '</select></div>').join('') + '</div>';
+    h += '<div class="row"><span class="hint">Total</span><span class="pct" id="fpct">–</span><label class="hint" for="fglob">Global</label><select class="sel" id="fglob"><option value="">Choose…</option>' + GLOBAL.map((g, i) => '<option value="' + (i + 1) + '">' + g + '</option>').join('') + '</select><button class="btn primary sm" data-savefr>💾 Save attempt</button></div><p class="hint" style="margin:0">Bold bullets are critical. Afterwards, read out the money line and the hooks above, and give one thing to keep and one to change.</p>';
+  }
+  $('#friendsCard').innerHTML = h; updFriends();
+}
+function updFriends(){ const el = $('#fpct'); if (!el) return; const vals = Object.values(cur.lik).filter(x => x !== '' && x != null); const n = domainsFor(cur.st, cur.secs).length; el.textContent = vals.length ? Math.round(vals.reduce((a, b) => a + b, 0) * 100 / (4 * n)) + '%' : '–'; }
+function updScore(){
+  if (!cur || !$('#pct')) return;
+  const p = pctOf(cur.secs, cur.ticks); $('#pct').textContent = p + '%'; $('#pbar').style.width = p + '%';
+  let n = 0, t = 0, crit = 0, critT = 0; cur.secs.forEach((sc, si) => { let k = 0; sc.items.forEach(it => { t++; if (it.w === 2) critT++; if (cur.ticks.has(it.id)) { k++; n++; if (it.w === 2) crit++; } }); const c = $('[data-cnt="' + si + '"]'); if (c) c.textContent = k + '/' + sc.items.length; });
+  $('#pinfo').textContent = n + ' of ' + t + ' items · critical ' + crit + '/' + critT;
+}
+function refreshAiAvail(){
+  const bs = $$('[data-mode="ai"],[data-mode="voice"]'); if (!bs.length) return;
+  if (sampleChecked && !SAMPLE) { bs.forEach(btn => { btn.disabled = true; btn.title = 'AI works on the published page only'; }); if (cur && (cur.mode === 'ai' || cur.mode === 'voice')) setMode('script'); }
+}
+function setMode(md, init){
+  if (cur.mode === 'voice' && md !== 'voice' && VO && (VO.on || VO.phase === 'read')) { vShutdown(); VO.phase = 'idle'; drawVoiceCtl(); setOrb('idle', 'Ready when you are'); stopTimer(); }
+  cur.mode = md; S.set.mode = md; if (!init) save();
+  $$('#modeSeg button').forEach(b => b.classList.toggle('on', b.dataset.mode === md));
+  const cand = md === 'friends' && S.set.role === 'cand';
+  $('#scriptCard').hidden = md !== 'script';
+  $('#friendsCard').hidden = md !== 'friends';
+  $('#aiCard').hidden = md !== 'ai';
+  $('#voiceCard').hidden = md !== 'voice';
+  $('#scoreCard').hidden = !(md === 'tick' || md === 'ai' || (md === 'voice' && cur.fb));
+  $('#clCard').hidden = !(md === 'tick' || md === 'ai' || (md === 'voice' && cur.fb));
+  $('#modelCard').hidden = cand || (md === 'ai' || md === 'voice') && !cur.fb;
+  $('#hookWrap').hidden = cand;
+  const hc = $('#hookCard'); if (hc) hc.open = md === 'script';
+  const vr = $('#varRow'); if (vr) vr.hidden = cand;
+  const dx = $('#varDx'); const v = curVar(); if (dx) dx.textContent = v && !cur.hidden && !cand && md !== 'ai' && md !== 'voice' ? '→ ' + v.dx : (cur.hidden ? 'case hidden' : '');
+}
+
+/* timer */
+let tInt = null;
+function stopTimer(){ clearInterval(tInt); tInt = null; }
+function drawClock(){ if (!cur) return; const l = cur.left, a = Math.abs(l), mm = Math.floor(a / 60), ss = a % 60; const c = $('#clock'); if (!c) return; c.textContent = (l < 0 ? '+' : '') + mm + ':' + String(ss).padStart(2, '0'); c.classList.toggle('late', l <= 120 && l > 0); c.classList.toggle('over', l <= 0); $('#tbar').style.width = Math.min(100, (600 - l) / 6) + '%'; $('#talert').hidden = !(l <= 120); }
+function toggleTimer(btn){ if (tInt) { stopTimer(); btn.textContent = '▶ Resume'; return; } btn.textContent = '❚❚ Pause'; tInt = setInterval(() => { cur.left--; drawClock(); timeTick(); }, 1000); }
+
+/* ---------- AI patient + examiner ---------- */
+let chatCtl = null;
+function abortChat(){ try { chatCtl && chatCtl.abort(); } catch (e) {} chatCtl = null; }
+function patientRules(st, voice){
+  const pk = packFor(st), p = pk ? pk.p : {}, v = curVar();
+  let secret = '';
+  if (v) secret = '\nSECRET CASE ' + v.k + ': ' + v.who + '. Diagnosis (never say it): ' + v.dx + '.\nYour facts (reveal progressively, only when asked; anything marked ONLY IF ASKED needs a direct question): ' + v.a.join(' ') + '\n' + ((st.ask || []).length ? 'Questions to put to the candidate at natural points: ' + st.ask.join(' | ') + '\n' : '') + (v.r ? 'Results and examination findings, to give as [Examiner] ONLY when the candidate asks for them or performs that step: ' + v.r + '\n' : '');
+  else if (pk) secret = '\nSECRET background (never name the diagnosis, never volunteer unprompted): the case is ' + (st.gen ? pk.u.name : st.t) + '. Typical history features you may draw on when asked: ' + (p.hx || []).join('; ') + '. Red flags present or absent as fits the brief: ' + (p.rf || []).join('; ') + '. Examination findings consistent with the case: ' + (p.ex || []).join('; ') + '. Your main worry (reveal only if asked about worries or if the candidate shows empathy): ' + (p.ice || [''])[0] + '.\n';
+  return 'You are role-playing in a UK medical school OSCE (University of Nottingham, Foundations for Practice CPSA, third-year medical student). You play the SIMULATED PATIENT (or relative, colleague or nurse if the brief implies one), and when the candidate asks for observations, examination findings, results or the chart, you briefly switch to the EXAMINER voice.\n\nSTATION ' + st.id + ': ' + st.t + '\nCandidate information (the candidate has read this): ' + ((v && v.d) || st.info) + (st.task ? '\nCandidate task: ' + st.task : '') + '\n' + secret
+    + (voice ? '\nSPOKEN STATION: your reply is read aloud by text-to-speech the moment you write it, so answer immediately and naturally: no markdown, lists, emojis or headings; one or two short spoken sentences (under 35 words) unless you are the examiner giving findings; contractions and everyday British speech; put any non-verbal cue in brackets at the very start, e.g. (winces); the candidate\'s words come from speech-to-text with no punctuation and occasional misheard words, so answer what they most likely meant; if they speak to the examiner, the examiner replies; as the examiner give numbers plainly (e.g. heart rate 110, blood pressure 90 over 60).\n' : '') + '\nRULES:\n- Stay in character. Speak like a real patient in plain British English, 1 to 3 short sentences per reply.\n- Answer only what you are asked; reveal details progressively. Keep any details you invent consistent with the facts above.\n- Show emotion that fits (worry, pain, irritation), including a non-verbal cue in brackets sometimes, e.g. (fidgets with hands, voice drops).\n- If the candidate describes an examination or procedure step, or asks for observations, results, ECG, chart or findings, reply as "[Examiner]" with concise findings from the facts above, or plausible findings consistent with the case. Do not interpret them for the candidate.\n- If the candidate types "examiner:" they are addressing the examiner; answer as "[Examiner]" briefly and neutrally.\n- Never coach, hint, praise, or reveal the mark scheme or diagnosis. Never mention you are an AI.\n- If the candidate uses jargon, look confused and ask what it means.\nReply with ONLY your next line.';
+}
+function addMsg(who, text){ const c = $('#chat'); if (!c) return null; const d = document.createElement('div'); const ex = who === 'pt' && /^\[Examiner\]/i.test(text); d.className = 'msg ' + (who === 'me' ? 'me' : ex ? 'ex' : 'pt'); d.innerHTML = '<span class="who">' + (who === 'me' ? 'You' : ex ? 'Examiner' : 'Patient') + '</span>'; const t = document.createElement('span'); t.textContent = ex ? text.replace(/^\[Examiner\]\s*:?\s*/i, '') : text; d.appendChild(t); c.appendChild(d); c.scrollTop = c.scrollHeight; return t; }
+async function sendChat(){
+  if (!SAMPLE) { toast('AI is not available here'); return; }
+  const ta = $('#say'), txt = ta.value.trim(); if (!txt || chatCtl) return;
+  ta.value = ''; addMsg('me', txt); cur.chat.push({role: 'user', content: txt, t: elapsed()});
+  if (!tInt && cur.left === 600) toggleTimer($('[data-timer]'));
+  const out = addMsg('pt', '…'); chatCtl = new AbortController(); $('[data-stop]').hidden = false;
+  const turns = [{role: 'user', content: patientRules(cur.st)}, {role: 'user', content: 'The station begins now.'}].concat(turnsOf(cur.chat.slice(-30)));
+  try {
+    const r = await SAMPLE(turns, {cache: false, modelTier: 'quick', signal: chatCtl.signal, onText: ({text}) => { out.textContent = text.replace(/^\[Examiner\]\s*:?\s*/i, ''); if (/^\[Examiner\]/i.test(text)) { out.parentElement.className = 'msg ex'; out.previousSibling.textContent = 'Examiner'; } }});
+    cur.chat.push({role: 'assistant', content: r.text, t: elapsed()});
+  } catch (e) {
+    out.textContent = e && e.text ? e.text : ''; if (!out.textContent) out.parentElement.remove();
+    if (e && e.code !== 'cancelled') { cur.chat.pop(); aiErr(e); }
+  }
+  chatCtl = null; const sb = $('[data-stop]'); if (sb) sb.hidden = true;
+}
+function aiErr(e){ if (e && (e.code === 'sign_in_required' || e.code === 'upgrade_required')) { toast(e.code === 'sign_in_required' ? 'Sign in to use the AI patient and examiner' : 'You have used today\'s free AI turns. Upgrade to Pro for unlimited stations.'); if (window.medengineAccount) window.medengineAccount.open(e.code); return; } const map = {not_granted: 'AI was not allowed for this page. The other modes still work.', sampling_disabled: 'AI is not available on this account. The other modes still work.', rate_limited: 'Too many requests just now. Wait a minute and try again.', refused: 'The AI declined that message. Try rephrasing.', session_expired: 'Please sign in again.'}; toast(map[e.code] || 'The AI could not answer. Try again.'); if (['not_granted', 'sampling_disabled', 'not_declared', 'capability_disabled'].includes(e.code)) { SAMPLE = null; refreshAiAvail(); } }
+async function gradeChat(){ return endStation(false); }
+function pushAttempt(pct, mode, g, extra){
+  (S.att[cur.st.id] = S.att[cur.st.id] || []).push(Object.assign({ts: Date.now(), pct, mode, global: g || null, vk: cur.vk}, extra || {}));
+  if (S.att[cur.st.id].length > 12) S.att[cur.st.id] = S.att[cur.st.id].slice(-12);
+  save(); toast('Saved: ' + pct + '%');
+}
+function saveAttempt(){ pushAttempt(pctOf(cur.secs, cur.ticks), cur.fb ? 'ai' : 'tick', +$('#glob').value || null, {ticks: [...cur.ticks]}); }
+function saveFriends(){ const n = domainsFor(cur.st, cur.secs).length, vals = Object.values(cur.lik).filter(x => x != null && x !== ''); if (!vals.length) return toast('Score at least one domain first'); pushAttempt(Math.round(vals.reduce((a, b) => a + b, 0) * 100 / (4 * n)), 'friends', +$('#fglob').value || null, {lik: Object.assign({}, cur.lik)}); }
+
+
+/* ---------- shared AI helpers (v4) ---------- */
+const mmss = s => { s = Math.max(0, Math.round(s || 0)); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
+const elapsed = () => cur ? Math.max(0, 600 - cur.left) : 0;
+const turnsOf = arr => arr.map(x => ({role: x.role, content: x.content}));
+let AC = null;
+function beep(n, long){ if (S.set.beepOff) return; try { AC = AC || new (window.AudioContext || window.webkitAudioContext)(); if (AC.state === 'suspended') AC.resume(); for (let i = 0; i < (n || 1); i++) { const o = AC.createOscillator(), g = AC.createGain(), t0 = AC.currentTime + i * 0.4, d = long ? 1.1 : 0.25; o.type = 'sine'; o.frequency.value = long ? 660 : 880; o.connect(g); g.connect(AC.destination); g.gain.setValueAtTime(0.0001, t0); g.gain.exponentialRampToValueAtTime(0.3, t0 + 0.02); g.gain.exponentialRampToValueAtTime(0.0001, t0 + d); o.start(t0); o.stop(t0 + d + 0.05); } } catch (e) {} }
+function timeTick(){
+  const l = cur.left;
+  if (l === 300) { toast('5:00: halfway'); beep(1); }
+  if (l === 120) toast('8:00: move to synthesis and plan');
+  if (l === 60) { toast('9:00: one minute left'); beep(2); if (cur.mode === 'voice' && VO && VO.on && S.set.vPrompts !== false) speakQ('One minute remaining.', 'ex', true); }
+  if (l === 0) { toast('Time is up'); beep(1, true); if ((cur.mode === 'voice' && VO && VO.on) || (cur.mode === 'ai' && cur.chat.filter(x => x.role === 'user').length >= 2)) endStation(true); }
+}
+
+/* ---------- voice station ---------- */
+const SRC = window.SpeechRecognition || window.webkitSpeechRecognition || null;
+const TTS = ('speechSynthesis' in window) ? window.speechSynthesis : null;
+let VO = null, VOICES = [];
+function loadVoices(){ try { VOICES = TTS ? TTS.getVoices().filter(v => /^en/i.test(v.lang)) : []; } catch (e) { VOICES = []; } const s1 = $('#vPtSel'); if (s1 && cur) drawVoiceSettings(); return VOICES; }
+if (TTS) { loadVoices(); try { TTS.addEventListener('voiceschanged', loadVoices); } catch (e) { TTS.onvoiceschanged = loadVoices; } }
+const FEMV = /female|libby|sonia|maisie|hazel|susan|kate|serena|stephanie|martha|fiona|moira|tessa|karen|samantha|victoria|zira|jenny|aria|emma|amy|olivia|mia|natasha|clara|abbi|bella|hollie|ava|allison|catherine/i;
+const MALV = /\bmale|ryan|thomas|george|daniel|arthur|oliver|rishi|alex|fred|james|guy|david|mark|brian|william|liam|elliot|alfie|ethan|noah|tom\b/i;
+const isFem = v => FEMV.test(v.name) && !/\bmale\b/i.test(v.name.replace(/female/ig, ''));
+function genderOf(st){ const v = curVar(); const s = ((v && (v.who + ' ' + v.a.slice(0, 2).join(' '))) || st.info || '').toLowerCase(); const f = (s.match(/\b(mrs|ms|miss|woman|female|she|her|daughter|mother|mum|wife|girl|lady)\b/g) || []).length, m = (s.match(/\b(mr|man|male|he|his|son|father|dad|husband|boy|gentleman)\b/g) || []).length; return f > m ? 'f' : m > f ? 'm' : 'f'; }
+function rankVoices(g){ const gb = v => /en[-_]GB/i.test(v.lang) ? 2 : /en[-_](IE|AU|NZ)/i.test(v.lang) ? 1 : 0; const nat = v => /natural|neural|online|premium|enhanced|google/i.test(v.name) ? 1 : 0; return VOICES.slice().sort((a, b) => ((g === 'f' ? isFem(b) : MALV.test(b.name) && !isFem(b)) - (g === 'f' ? isFem(a) : MALV.test(a.name) && !isFem(a))) * 4 + (gb(b) - gb(a)) * 2 + (nat(b) - nat(a))); }
+function voiceFor(who){
+  const g = who === 'ex' ? (S.set.vExG || 'm') : genderOf(cur.st), pick = who === 'ex' ? S.set.vEx : S.set.vPt;
+  let v = pick && VOICES.find(x => x.name === pick); if (v) return {v, pitch: 1};
+  const r = rankVoices(g); v = r[0] || null;
+  if (who === 'ex' && v) { const pt = voiceFor('pt').v; if (pt && pt.name === v.name && r[1]) v = r[1]; }
+  const sameAsPt = who === 'ex' && v && voiceFor('pt').v && voiceFor('pt').v.name === v.name;
+  return {v, pitch: who === 'ex' ? (sameAsPt ? 0.8 : 1) : g === 'f' && v && !isFem(v) ? 1.25 : g === 'm' && v && isFem(v) ? 0.8 : 1};
+}
+function speakable(t){ return t.replace(/^\s*\[Examiner\]\s*:?\s*/i, '').replace(/\([^)]*\)/g, ' ').replace(/\[[^\]]*\]/g, ' ').replace(/\*+/g, '').replace(/(\d+)\s*\/\s*(\d+)(?!\s*(?:kg|mg|mL|L|h))/g, '$1 over $2').replace(/°C/g, ' degrees').replace(/(\d)\s*%/g, '$1 percent').replace(/mmol\/L/gi, ' ').replace(/\bx10\^?9\/L/gi, '').replace(/\s+/g, ' ').trim(); }
+function setOrb(state, txt){ if (!VO) return; VO.state = state; const o = $('#vOrb'); if (o) o.className = 'vorb ' + state; const s = $('#vStatus'); if (s && txt != null) s.textContent = txt; const ib = $('[data-vint]'); if (ib) ib.hidden = state !== 'speaking'; }
+function speakQ(text, who, system){
+  const say = speakable(text); if (!say) return;
+  if (!TTS || S.set.vMute) { if (!system && VO && !VO.busy) setTimeout(vListen, 60); return; }
+  const {v, pitch} = voiceFor(who);
+  const u = new SpeechSynthesisUtterance(say); if (v) { u.voice = v; u.lang = v.lang; } else u.lang = 'en-GB';
+  u.rate = +(S.set.vRate || 1.05); u.pitch = pitch;
+  VO.pending++; VO.speaking = true; vStopRec(); setOrb('speaking', who === 'ex' ? 'Examiner speaking…' : 'Patient speaking…');
+  const done = () => { if (u._done) return; u._done = 1; VO.pending = Math.max(0, VO.pending - 1); if (!VO.pending) { VO.speaking = false; if (!VO.busy && VO.on) setTimeout(vListen, 120); } };
+  u.onend = done; u.onerror = done;
+  try { TTS.speak(u); } catch (e) { done(); }
+  // Chrome safety: if onend never fires, release after an estimate that allows for queued speech
+  const now = Date.now(), est = say.split(' ').length * 430 / (+(S.set.vRate || 1.05)) + 400;
+  VO.qEnd = Math.max(now, VO.qEnd || 0) + est; setTimeout(done, VO.qEnd - now + 2500);
+}
+function vInterrupt(){ if (!VO) return; try { TTS && TTS.cancel(); } catch (e) {} VO.pending = 0; VO.qEnd = 0; VO.speaking = false; VO.barge++; if (!VO.busy) vListen(); }
+function vStopRec(){ if (VO && VO.rec && VO.recOn) { try { VO.rec.abort(); } catch (e) {} VO.recOn = false; } }
+function vMakeRec(){
+  if (!SRC) return null;
+  const r = new SRC(); r.lang = 'en-GB'; r.continuous = true; r.interimResults = true; r.maxAlternatives = 1;
+  r.onstart = () => { VO.recOn = true; if (!VO.speaking && !VO.busy) setOrb('listening', S.set.vPtt ? 'Listening while you hold…' : 'Listening… speak when ready'); };
+  r.onresult = e => {
+    let interim = '';
+    for (let i = e.resultIndex; i < e.results.length; i++) { const res = e.results[i]; if (res.isFinal) VO.buf = (VO.buf + ' ' + res[0].transcript).trim(); else interim += res[0].transcript; }
+    if (!VO.segStart) VO.segStart = Date.now();
+    VO.interim = interim.trim();
+    const live = $('#vLive'); if (live) live.textContent = (VO.buf + ' ' + VO.interim).trim();
+    if (!S.set.vPtt) { clearTimeout(VO.cT); VO.cT = setTimeout(vCommit, VO.interim ? 1300 : +(S.set.vPause || 700)); }
+  };
+  r.onerror = e => {
+    if (['not-allowed', 'service-not-allowed', 'audio-capture'].includes(e.error)) { VO.micOK = false; vStopRec(); setOrb('idle', 'Microphone not available here'); const n = $('#vMicMsg'); if (n) n.hidden = false; }
+  };
+  r.onend = () => { VO.recOn = false; if (!VO.on) return; if (S.set.vPtt) { if (VO.pttUp) { VO.pttUp = false; vCommit(); } return; } if (VO.micOK !== false && !VO.speaking && !VO.busy) setTimeout(vListen, 150); };
+  return r;
+}
+function vListen(){
+  if (!VO || !VO.on || VO.speaking || VO.busy) return;
+  if (!VO.rec || VO.micOK === false) { setOrb('idle', VO.micOK === false ? 'Type your words below (microphone blocked)' : 'Type your words below'); return; }
+  if (S.set.vPtt && !VO.holding) { setOrb('idle', 'Hold 🎙 (or the space bar) to talk'); return; }
+  if (VO.recOn) return; try { VO.rec.start(); } catch (e) {}
+}
+function vCommit(){
+  clearTimeout(VO.cT);
+  const text = (VO.buf + ' ' + (VO.interim || '')).trim(), dur = VO.segStart ? (Date.now() - VO.segStart) / 1000 : 0;
+  VO.buf = ''; VO.interim = ''; VO.segStart = 0; const live = $('#vLive'); if (live) live.textContent = '';
+  if (!text) return vListen();
+  vSend(text, dur);
+}
+function vAdd(who, text, t){
+  const c = $('#vChat'); if (!c) return null; const d = document.createElement('div'); const ex = who === 'ex';
+  d.className = 'msg ' + (who === 'me' ? 'me' : ex ? 'ex' : 'pt'); d.innerHTML = '<span class="who">' + (who === 'me' ? 'You' : ex ? 'Examiner' : 'Patient') + ' · ' + mmss(t) + '</span>';
+  const s = document.createElement('span'); s.textContent = text; d.appendChild(s); c.appendChild(d); c.scrollTop = c.scrollHeight; return s;
+}
+async function vSend(raw, dur){
+  if (!VO || !VO.on) return;
+  if (!SAMPLE) { toast('AI is not available here'); return; }
+  const toEx = VO.target === 'ex' || /^\s*examiner\b/i.test(raw);
+  const content = toEx ? 'examiner: ' + raw.replace(/^\s*examiner\b[,:.]?\s*/i, '') : raw;
+  const t = elapsed();
+  vAdd('me', content.replace(/^examiner:\s*/, '📋 '), t); cur.chat.push({role: 'user', content, t, dur: dur || 0});
+  VO.busy = true; vStopRec(); setOrb('thinking', 'Thinking…');
+  let consumed = 0, who = null, out = null;
+  const ctl = new AbortController(); chatCtl = ctl;
+  const turns = [{role: 'user', content: patientRules(cur.st, true)}, {role: 'user', content: 'The station begins now.'}].concat(turnsOf(cur.chat.slice(-40)));
+  const flush = (text, final) => {
+    if (who === null && text.trim().length >= 3) who = /^\s*\[Examiner\]/i.test(text) ? 'ex' : 'pt';
+    if (!who) return;
+    if (!out) out = vAdd(who, '', t);
+    out.textContent = text.replace(/^\s*\[Examiner\]\s*:?\s*/i, '');
+    const rest = text.slice(consumed); let cut = -1;
+    if (final) cut = rest.length; else { const re = /[.!?…]["'’)\]]*\s+/g; let m; while ((m = re.exec(rest))) cut = m.index + m[0].length; }
+    if (cut > 0) { speakQ(rest.slice(0, cut), who); consumed += cut; }
+  };
+  try {
+    const r = await SAMPLE(turns, {cache: false, modelTier: 'quick', signal: ctl.signal, onText: ({text}) => flush(text, false)});
+    flush(r.text, true);
+    cur.chat.push({role: 'assistant', content: r.text, t: elapsed()});
+  } catch (e) {
+    if (e && e.code !== 'cancelled') { cur.chat.pop(); aiErr(e); }
+  }
+  chatCtl = null; VO.busy = false;
+  if (!VO.speaking) vListen();
+}
+function drawVoiceSettings(){
+  const box = $('#vSettings'); if (!box) return;
+  const opt = (sel, val, lab) => '<option value="' + esc(val) + '"' + (sel === val ? ' selected' : '') + '>' + esc(lab) + '</option>';
+  const vopts = sel => opt(sel || '', '', 'Automatic') + VOICES.map(v => opt(sel, v.name, v.name.replace(/Microsoft |Google /, '') + ' (' + v.lang + ')')).join('');
+  box.innerHTML = '<div class="vgrid">'
+    + '<label>Listening<select class="sel" id="vPttSel">' + opt(S.set.vPtt ? 'ptt' : 'hands', 'hands', 'Hands-free (talk naturally)') + opt(S.set.vPtt ? 'ptt' : 'hands', 'ptt', 'Push to talk (hold 🎙 or space)') + '</select></label>'
+    + '<label>Pause before the patient replies<select class="sel" id="vPauseSel">' + [['500', 'Short (fastest)'], ['700', 'Normal'], ['1100', 'Long (I pause a lot)']].map(([v, l]) => opt(String(S.set.vPause || 700), v, l)).join('') + '</select></label>'
+    + '<label>Reading time<select class="sel" id="vReadSel">' + opt(S.set.vRead === false ? 'skip' : '60', '60', '1 minute (like the real exam)') + opt(S.set.vRead === false ? 'skip' : '60', 'skip', 'Skip') + '</select></label>'
+    + '<label>Patient voice<select class="sel" id="vPtSel">' + vopts(S.set.vPt) + '</select></label>'
+    + '<label>Examiner voice<select class="sel" id="vExSel">' + vopts(S.set.vEx) + '</select></label>'
+    + '<label>Marking<select class="sel" id="vTierSel">' + opt(S.set.markTier || 'complex', 'complex', 'Thorough (best, about a minute)') + opt(S.set.markTier || 'complex', 'default', 'Faster (good)') + '</select></label>'
+    + '<label>Speaking speed<select class="sel" id="vRateSel">' + [['0.9', 'Slower'], ['1.05', 'Normal'], ['1.2', 'Faster']].map(([v, l]) => opt(String(S.set.vRate || '1.05'), v, l)).join('') + '</select></label>'
+    + '</div><div class="row"><label class="hint"><input type="checkbox" id="vMuteT"' + (S.set.vMute ? ' checked' : '') + '> Mute voices (read replies instead)</label><label class="hint"><input type="checkbox" id="vPromptT"' + (S.set.vPrompts !== false ? ' checked' : '') + '> Examiner says "one minute remaining"</label><label class="hint"><input type="checkbox" id="vBeepT"' + (!S.set.beepOff ? ' checked' : '') + '> Beeps at 5:00 and 9:00</label><button class="btn sm" data-vtest>🔊 Test voices</button></div>';
+}
+function voiceCardHtml(){
+  const noRec = !SRC, noTts = !TTS;
+  return '<div class="row"><h2 class="grow">🎙 Voice station: the AI plays the patient and the examiner</h2><button class="btn sm" data-vreset>↺ Restart</button></div>'
+    + '<p class="hint" style="margin:0">Talk exactly as you would in the room. The patient answers out loud. Start a sentence with <b>"Examiner, …"</b> (or tap 📋) to talk to the examiner. Say physical steps out loud ("I\'m washing my hands… I\'d like to examine your chest") and the examiner gives the findings. Beeps at 5:00 and 9:00; at 10:00 the station stops and the examiner marks you.</p>'
+    + (noRec ? '<div class="alert">🎙 This browser can\'t do speech recognition here, so type your words below; the patient and examiner will still speak. Chrome, Edge or Safari usually support it.</div>' : '')
+    + (noTts ? '<div class="alert">🔇 This browser can\'t speak replies aloud; they will appear as text.</div>' : '')
+    + '<div class="alert" id="vMicMsg" hidden>🎙 The microphone was blocked. Allow microphone access for this page in your browser\'s site settings (or the address-bar icon), then tap ↺ Restart. Until then, type below; replies are still spoken.</div>'
+    + '<details class="dd"><summary>⚙️ Voice settings</summary><div class="body" id="vSettings"></div></details>'
+    + '<div class="vstage"><div class="vorb idle" id="vOrb" aria-hidden="true"><span></span></div><div class="grow" style="min-width:0"><b id="vStatus" aria-live="polite">Ready when you are</b><div class="vlive" id="vLive"></div></div></div>'
+    + '<div class="row" id="vCtl"><button class="btn primary" data-vstart>▶ Start the 10-minute station</button></div>'
+    + '<div class="chat" id="vChat" aria-live="polite"></div>'
+    + '<div class="compose"><textarea id="vSay" rows="1" placeholder="Or type what you say…" aria-label="Type to the patient"></textarea><button class="btn" data-vsend>Send</button></div>'
+    + '<div id="vOut"></div>';
+}
+function drawVoiceCtl(){
+  const c = $('#vCtl'); if (!c || !VO) return;
+  if (VO.phase === 'idle') { c.innerHTML = '<button class="btn primary" data-vstart>▶ Start the 10-minute station</button>' + (cur.fb ? '<button class="btn" data-vagain>🔁 Same case again</button>' : ''); return; }
+  if (VO.phase === 'read') { c.innerHTML = '<button class="btn primary" data-venter>🚪 Enter the station now</button><span class="hint">Reading time: <b id="vReadLeft">' + VO.readLeft + '</b> s</span>'; return; }
+  if (VO.phase === 'marking') { c.innerHTML = '<span class="hint">The examiner is marking…</span>'; return; }
+  c.innerHTML = '<div class="seg" id="vTgt"><button data-vtgt="pt" class="' + (VO.target !== 'ex' ? 'on' : '') + '">🧑 Patient</button><button data-vtgt="ex" class="' + (VO.target === 'ex' ? 'on' : '') + '">📋 Examiner</button></div>'
+    + (S.set.vPtt && SRC && VO.micOK !== false ? '<button class="btn primary vptt" data-vptt>🎙 Hold to talk</button>' : '')
+    + '<button class="btn" data-vint hidden>✋ Interrupt</button><span class="grow"></span><button class="btn" data-vend>⏹ End and get marked</button>';
+}
+function vInit(){
+  if (VO) vShutdown();
+  VO = {on: false, phase: 'idle', rec: null, recOn: false, micOK: null, buf: '', interim: '', segStart: 0, pending: 0, speaking: false, busy: false, barge: 0, target: 'pt', state: 'idle', holding: false, pttUp: false, readLeft: 60, rT: null};
+  drawVoiceSettings(); drawVoiceCtl(); setOrb('idle', SAMPLE || !sampleChecked ? 'Ready when you are' : 'AI works on the published page only');
+}
+function vShutdown(){ if (!VO) return; VO.on = false; clearTimeout(VO.cT); clearInterval(VO.rT); vStopRec(); try { TTS && TTS.cancel(); } catch (e) {} abortChat(); }
+function vStart(){
+  if (!SAMPLE) return toast('AI works on the published page only');
+  try { AC = AC || new (window.AudioContext || window.webkitAudioContext)(); AC.resume(); } catch (e) {}
+  if (TTS) { try { TTS.cancel(); const u = new SpeechSynthesisUtterance(' '); u.volume = 0; TTS.speak(u); } catch (e) {} }
+  stopTimer(); cur.left = 600; drawClock(); $('[data-timer]').textContent = '▶ Start';
+  cur.chat = []; cur.fb = null; cur.ticks = new Set(); $('#vChat').innerHTML = ''; $('#vOut').innerHTML = ''; updScore();
+  VO.rec = vMakeRec(); VO.micOK = SRC ? null : false;
+  if (S.set.vRead === false) return vEnter();
+  VO.phase = 'read'; VO.readLeft = 60; drawVoiceCtl(); setOrb('idle', 'Reading time: read the door instructions above');
+  const bp = $('#briefP'); if (bp) bp.scrollIntoView({behavior: 'smooth', block: 'center'});
+  VO.rT = setInterval(() => { VO.readLeft--; const el = $('#vReadLeft'); if (el) el.textContent = VO.readLeft; if (VO.readLeft <= 0) vEnter(); }, 1000);
+}
+function vEnter(){
+  clearInterval(VO.rT); VO.phase = 'live'; VO.on = true; drawVoiceCtl();
+  if (!tInt) toggleTimer($('[data-timer]'));
+  $('#voiceCard').scrollIntoView({behavior: 'smooth', block: 'start'});
+  speakQ('Please go ahead when you are ready.', 'ex', true);
+  if (!TTS || S.set.vMute) vListen();
+}
+async function endStation(auto){
+  if (cur.mode === 'voice' && VO) {
+    if (VO.phase === 'marking') return;
+    vShutdown(); VO.phase = 'marking'; drawVoiceCtl(); stopTimer();
+    if (auto && TTS && !S.set.vMute) { const u = new SpeechSynthesisUtterance('Thank you. That is the end of the station.'); const vf = voiceFor('ex'); if (vf.v) u.voice = vf.v; u.rate = +(S.set.vRate || 1.05); try { TTS.speak(u); } catch (e) {} }
+    setOrb('thinking', 'The examiner is marking your station…');
+  }
+  await markAttempt();
+  if (cur.mode === 'voice' && VO) { VO.phase = 'idle'; drawVoiceCtl(); setOrb('idle', cur.fb ? 'Marked. Your feedback is below.' : 'Ready when you are'); }
+}
+
+/* ---------- local analysis of the transcript ---------- */
+const JARGON = ['haematemesis', 'melaena', 'dyspnoea', 'dysphagia', 'myocardial', 'infarction', 'ischaemia', 'ischaemic', 'aetiology', 'idiopathic', 'metastas', 'neoplasm', 'malignan', 'pyrexia', 'febrile', 'tachycardi', 'bradycardi', 'oedema', 'haematuria', 'micturition', 'nocturia', 'syncope', 'presyncope', 'orthopnoea', 'paroxysmal', 'hypertension', 'hypotension', 'hyperglycaemi', 'hypoglycaemi', 'contraindicat', 'prophyla', 'differential', 'prognosis', 'bilateral', 'unilateral', 'aneurysm', 'thrombo', 'embol', 'anticoagula', 'antiplatelet', 'sepsis', 'renal', 'hepatic', 'gastric', 'cardiac', 'pulmonary', 'radiat', 'socrates', 'prn', 'nbm', 'iv ', 'ecg', 'ct ', 'mri', 'ogd', 'ercp', 'egfr', 'hba1c'];
+function analyse(){
+  const me = cur.chat.filter(x => x.role === 'user'), pt = cur.chat.filter(x => x.role === 'assistant');
+  const wc = s => (s.match(/[A-Za-z0-9']+/g) || []).length;
+  const toPt = me.filter(x => !/^examiner:/i.test(x.content)), toEx = me.filter(x => /^examiner:/i.test(x.content));
+  const wMe = me.reduce((n, x) => n + wc(x.content), 0), wPt = pt.reduce((n, x) => n + wc(speakable(x.content)), 0);
+  const spoke = me.reduce((n, x) => n + (x.dur || 0), 0);
+  const ptText = toPt.map(x => x.content.toLowerCase());
+  const open = ptText.reduce((n, s) => n + (s.match(/\b(what|how|tell me|describe|talk me through|in your own words|explain|why)\b/g) || []).length, 0);
+  const closed = ptText.reduce((n, s) => n + (s.match(/(^|[.?!,]\s*|\band\s+)(do|does|did|is|are|was|were|have|has|had|any|can|could|would|will)\s+you\b/g) || []).length, 0);
+  const fill = me.reduce((n, x) => n + (x.content.toLowerCase().match(/\b(um+|uh+|erm+|err?|you know|sort of|kind of|basically)\b/g) || []).length, 0);
+  const jar = [...new Set(JARGON.filter(j => ptText.some(s => (' ' + s + ' ').includes(j))).map(j => j.trim()))];
+  const T = re => { const x = me.find(y => re.test(y.content)); return x ? x.t : null; };
+  const ms = {
+    'Introduction': T(/my name|i'?m nana|medical student|i'?m one of the/i), 'ID check': T(/date of birth|full name|confirm your name/i), 'Consent': T(/is that (ok|okay|alright|all right)|do you mind|happy for me|would that be ok/i),
+    'ICE explored': T(/worr|concern|what do you think|any idea|thoughts on what|hoping|expect/i), 'Summary': T(/summar|recap|just to check|let me check|make sure i'?ve|so far you'?ve/i),
+    'Turned to the examiner': toEx.length ? toEx[0].t : null, 'Reasoning sentence': T(/most likely|i think (this|it)|diagnosis|suggests|consistent with|differential/i),
+    'Safety-net': T(/come back|999|straight away|a ?(&|and) ?e|urgent|if (it|you|things|the pain)/i), 'Questions invited': T(/any (other )?questions|anything else you'?d like|anything you'?d like to ask/i)
+  };
+  const target = {'Introduction': 30, 'ID check': 60, 'Consent': 60, 'ICE explored': 420, 'Summary': 450, 'Turned to the examiner': 480, 'Reasoning sentence': 510, 'Safety-net': 590, 'Questions invited': 600};
+  const longest = me.reduce((a, x) => Math.max(a, x.dur || 0), 0);
+  const lastT = cur.chat.length ? cur.chat[cur.chat.length - 1].t || 0 : 0;
+  return {turns: me.length, wMe, wPt, ratio: wMe + wPt ? Math.round(wMe * 100 / (wMe + wPt)) : 0, wpm: spoke > 20 ? Math.round(wMe / (spoke / 60)) : null, open, closed, fill, jar, ms, target, longest: Math.round(longest), barge: VO ? VO.barge : 0, used: Math.max(elapsed(), lastT), voice: cur.mode === 'voice'};
+}
+
+/* ---------- the examiner: marking ---------- */
+async function markAttempt(){
+  if (!SAMPLE) return toast('AI is not available here');
+  if (cur.chat.filter(x => x.role === 'user').length < 2) return toast('Have a conversation first, then finish');
+  stopTimer();
+  const st = cur.st, v = curVar(), doms = domainsFor(st, cur.secs), A = analyse(), outSel = cur.mode === 'voice' ? '#vOut' : '#aiOut';
+  const list = cur.secs.flatMap(sc => sc.items.map(it => ({id: it.id, item: it.t.replace(/\*\*/g, ''), critical: it.w === 2, section: sc.h})));
+  const L = fwFor(st), nn = UNI.map(n => n.t).concat(...L.map(({f}) => f.nn), ...L.map(({m: mm}) => mm ? mm.nn : []));
+  const chg = L.filter(x => x.m).map(({f, m: mm}) => f.t + ' → ' + mm.t + ': ' + Object.entries(mm.ch).map(([k, t]) => k + ': ' + t).join(' | ')).join('\n');
+  const transcript = cur.chat.map(x => '[' + mmss(x.t) + '] ' + (x.role === 'user' ? (/^examiner:/i.test(x.content) ? 'CANDIDATE (to examiner): ' + x.content.replace(/^examiner:\s*/i, '') : 'CANDIDATE: ' + x.content) : (/^\s*\[Examiner\]/i.test(x.content) ? 'EXAMINER: ' + x.content.replace(/^\s*\[Examiner\]\s*:?\s*/i, '') : 'PATIENT: ' + x.content))).join('\n');
+  const prev = (S.att[st.id] || []).filter(a => a.fb).slice(-1)[0];
+  const prompt = 'You are a senior, fair, specific UK OSCE examiner for the University of Nottingham Foundations for Practice CPSA (third-year medical students). Mark this ' + (A.voice ? 'SPOKEN (speech-to-text) ' : 'typed ') + 'station attempt using ONLY the transcript. Your feedback must be the most useful a candidate has ever received: concrete, quoted, and fixable.\n\n'
+    + 'STATION ' + st.id + ': ' + st.t + '\nDoor instructions: ' + ((v && v.d) || st.info) + (st.task ? '\nTask: ' + st.task : '')
+    + (v ? '\nThis case: ' + v.dx + '\nWhat the examiner wants (model answer): ' + v.x : '') + (st.money ? '\nModel key sentence (money line): ' + moneyFor(st, cur.vk) : '')
+    + ((st.trap || []).length ? '\nKnown traps: ' + st.trap.join(' | ') : '') + ((st.ask || []).length ? '\nQuestions the actor was briefed to ask: ' + st.ask.join(' | ') : '')
+    + (chg ? '\nFramework changes for this presentation:\n' + chg : '')
+    + '\n\nDOMAINS (score each 0-4; 4 accurate and comprehensive, 3 most areas with few minor errors, 2 some areas with major omissions or errors, 1 very few areas, 0 not attempted; a solid candidate scores 3; start at 3 and move for evidence):\n' + doms.map((d, i) => i + '. ' + d.h + ': ' + d.items.map(x => (x.w === 2 ? '[CRITICAL] ' : '') + x.t).join('; ')).join('\n')
+    + '\n\nCHECKLIST (JSON):\n' + JSON.stringify(list)
+    + '\n\nNON-NEGOTIABLES (indexed):\n' + nn.map((t, i) => i + '. ' + t).join('\n')
+    + '\n\nMEASURED FROM THE RECORDING: station time used ' + mmss(A.used) + ' of 10:00; candidate turns ' + A.turns + '; candidate share of words ' + A.ratio + '%' + (A.wpm ? '; speaking rate about ' + A.wpm + ' words per minute' : '') + '; open-question words ' + A.open + ', closed-question starts ' + A.closed + '; filler words ' + A.fill + (A.jar.length ? '; possible jargon to the patient: ' + A.jar.join(', ') : '') + '; first time of key moments: ' + Object.entries(A.ms).map(([k, t]) => k + ' ' + (t == null ? 'never' : mmss(t))).join(', ') + (A.barge ? '; interrupted the patient ' + A.barge + ' times' : '') + '.'
+    + (prev && prev.fb ? '\nPREVIOUS ATTEMPT AT THIS STATION: ' + prev.pct + '%, ' + (prev.global ? GLOBAL[prev.global - 1] : '') + '. Previous fixes: ' + (prev.fb.f || []).join(' | ') + '. Say whether they fixed these.' : '')
+    + '\n\nTRANSCRIPT (timestamps are mm:ss into the 10-minute station):\n' + transcript.slice(-60000)
+    + '\n\nMARKING RULES:\n- Tick an item only if the candidate clearly did or said it. Physical actions count when explicitly described. Patient answers count only if the candidate asked.'
+    + (A.voice ? '\n- The candidate SPOKE; the transcript is speech-to-text with no punctuation and some misheard words. Read for the most likely meaning; never penalise transcription errors, spelling or missing punctuation.' : '')
+    + '\n- UK practice only (NICE, BNF, Resuscitation Council, DVLA, GMC). Penalise unsafe or wrong statements and say exactly why.\n- Quote the candidate\'s own words (short, exact) as evidence. Give exact replacement words they could say.' + (PUBLIC ? '\n- Always comment on the reasoning sentence ("The important finding is ___, it suggests ___ because ___, the next step is ___") and on protecting the last 2 minutes for management.' : '\n- Known development areas for this candidate (comment when relevant): choosing a step-1 hypertension drug, signposting and summarising, medication counselling anchored to the actual prescription, saying the reasoning sentence ("The important finding is ___, it suggests ___ because ___, the next step is ___"), protecting the last 2 minutes for management.') + '\n- Calibrate: an average pass is 3s with global 3-4. Do not inflate.'
+    + '\n\nReply with ONLY one JSON object:\n{"global":1-5 (1 clear fail, 2 borderline fail, 3 borderline pass, 4 clear pass, 5 honours pass),"verdict":"one sentence: the main reason for that global","domains":[{"score":0-4,"why":"one sentence with evidence"}] (one per domain, in order),"ticked":["ids"],"evidence":{"id":"short exact quote"} (for up to 20 ticked ids),"missed_critical":["ids"],"non_negotiables":[{"i":index,"done":true or false,"note":"quote or what was missing"}] (every indexed item),"timeline":[{"t":"mm:ss","event":"what happened","good":true or false}] (5-9 key moments),"strengths":[{"point":"","quote":""}] (max 4),"fixes":[{"issue":"what cost marks","t":"mm:ss or phase","said":"their words or empty","better":"exact words to say instead","why":"which domain or mark it wins"}] (3-6, most marks first),"reasoning_sentence":{"said":true or false,"model":"the sentence they should have said for this case"},"ice":{"ideas":true or false,"concerns":true or false,"expectations":true or false,"hidden_worry":"the actor\'s hidden worry and whether it was found"},"jargon":["term → plain words"],"safety":"any unsafe statement and the correct version, or empty","model_answer":"the ideal final 90 seconds of this station in the candidate\'s voice (summary, reasoning sentence, plan, safety-net), 5-8 sentences","viva":[{"q":"a question the examiner might ask at the end","a":"model answer"}] (2),"drill":"the single most valuable thing to practise before the next attempt","summary":"2-3 sentences, as the examiner would say it to the candidate"}';
+  const out = $(outSel); out.innerHTML = '<div class="card" style="padding:12px"><b>🧑‍⚕️ The examiner is marking your station…</b><span class="hint">A thorough mark usually takes 30 to 90 seconds. Your transcript and timings are being checked against the Nottingham domains, the checklist and the non-negotiables.</span></div>';
+  out.scrollIntoView({behavior: 'smooth', block: 'start'});
+  let r = null;
+  try { r = await SAMPLE.json(prompt, {modelTier: S.set.markTier || 'complex', cache: false}); }
+  catch (e) { out.innerHTML = ''; if (e && e.code === 'invalid_json') toast('The examiner\'s answer could not be read. Tap Finish again.'); else if (e) aiErr(e); return; }
+  if (!r || typeof r !== 'object') { out.innerHTML = ''; return toast('No marking came back. Try again.'); }
+  const ids = new Set((r.ticked || []).map(String).filter(id => list.some(x => x.id === id)));
+  cur.ai = ids; cur.ticks = new Set(ids); cur.fb = r;
+  $$('[data-tick]').forEach(cb => { cb.checked = ids.has(cb.dataset.tick); const row = cb.closest('.it'); row.classList.toggle('ai', ids.has(cb.dataset.tick)); row.classList.toggle('miss', (r.missed_critical || []).map(String).includes(cb.dataset.tick)); });
+  const g = Math.min(5, Math.max(1, parseInt(r.global, 10) || 0)); if (g) $('#glob').value = String(g);
+  updScore(); const pct = pctOf(cur.secs, cur.ticks);
+  out.innerHTML = feedbackHtml(r, pct, g, doms, list, nn, A, prev);
+  $('#scoreCard').hidden = false; $('#clCard').hidden = false; $('#modelCard').hidden = false;
+  pushAttempt(pct, cur.mode === 'voice' ? 'voice' : 'ai', g || null, {ticks: [...cur.ticks], fb: {s: String(r.summary || '').slice(0, 400), d: (r.domains || []).map(d => d && d.score), f: (r.fixes || []).slice(0, 3).map(x => String(x.better || x.issue || '').slice(0, 200))}});
+}
+function feedbackHtml(r, pct, g, doms, list, nn, A, prev){
+  const li = a => (a || []).filter(Boolean).map(x => '<li>' + esc(x) + '</li>').join('');
+  const ds = Array.isArray(r.domains) ? r.domains : [];
+  const bar = s => { const n = Math.max(0, Math.min(4, +s || 0)); return '<span class="dbar"><i style="width:' + n * 25 + '%" class="' + (n >= 3 ? 'g' : n === 2 ? 'w' : 'b') + '"></i></span>'; };
+  let h = '<div class="card fbk" style="padding:14px"><div class="row"><span class="pct">' + pct + '%</span><span class="score ' + scoreCls(pct) + '">' + (g ? GLOBAL[g - 1] : '') + '</span>' + (prev ? '<span class="hint">Last time: ' + prev.pct + '%' + (prev.global ? ' · ' + GLOBAL[prev.global - 1] : '') + '</span>' : '') + '<span class="grow"></span>' + (TTS ? '<button class="btn sm" data-fbspeak>🔊 Hear the examiner</button>' : '') + '</div>'
+    + (r.verdict ? '<p style="margin:0"><b>' + esc(r.verdict) + '</b></p>' : '') + '<p style="margin:0">' + esc(r.summary || '') + '</p>';
+  if (ds.length) h += '<h3>Domain scores</h3><div class="dlist">' + doms.map((d, i) => { const x = ds[i] || {}; const s = typeof x === 'object' ? x.score : x; return '<div class="drow"><b>' + esc(d.h) + '</b>' + bar(s) + '<span class="dsc">' + (s != null ? esc(s) + '/4' : '–') + '</span>' + (x.why ? '<span class="hint">' + esc(x.why) + '</span>' : '') + '</div>'; }).join('') + '</div>';
+  if (r.safety) h += '<div class="alert">⚠️ ' + esc(r.safety) + '</div>';
+  if ((r.fixes || []).length) h += '<h3>🔧 Fix these next time (biggest marks first)</h3>' + r.fixes.map(f => '<div class="fix"><b>' + esc(f.issue || '') + '</b>' + (f.t ? ' <span class="hint">· ' + esc(f.t) + '</span>' : '') + (f.said ? '<div class="said">You said: “' + esc(f.said) + '”</div>' : '') + (f.better ? '<div class="better">🗣 Say: “' + esc(f.better) + '”</div>' : '') + (f.why ? '<div class="hint">🎯 ' + esc(f.why) + '</div>' : '') + '</div>').join('');
+  if ((r.strengths || []).length) h += '<h3>✅ What went well</h3><ul>' + r.strengths.map(s => '<li>' + esc(s.point || s) + (s.quote ? ' <span class="hint">“' + esc(s.quote) + '”</span>' : '') + '</li>').join('') + '</ul>';
+  if (r.reasoning_sentence) h += '<h3>🎤 Reasoning sentence ' + (r.reasoning_sentence.said ? '✅' : '❌ not said') + '</h3><div class="money"><b>Say it like this</b>' + esc(r.reasoning_sentence.model || '') + '</div>';
+  const NN = Array.isArray(r.non_negotiables) ? r.non_negotiables : [];
+  if (NN.length) { const done = NN.filter(x => x.done).length; h += '<details class="dd"' + (done < NN.length ? ' open' : '') + '><summary>⛔ Non-negotiables: ' + done + ' / ' + NN.length + ' done</summary><div class="body">' + NN.slice().sort((a, b) => (a.done ? 1 : 0) - (b.done ? 1 : 0)).map(x => '<div class="nnr"><span class="k">' + (x.done ? '✅' : '❌') + '</span><span>' + esc(nn[x.i] || '') + (x.note ? '<span class="s">' + esc(x.note) + '</span>' : '') + '</span></div>').join('') + '</div></details>'; }
+  if (r.ice) h += '<details class="dd"><summary>🤝 Ideas, concerns, expectations: ' + ['ideas', 'concerns', 'expectations'].map(k => (r.ice[k] ? '✅ ' : '❌ ') + k).join(' · ') + '</summary><div class="body"><p style="margin:0">' + esc(r.ice.hidden_worry || '') + '</p></div></details>';
+  const missed = (r.missed_critical || []).map(String).map(id => list.find(x => x.id === id)).filter(Boolean);
+  if (missed.length) h += '<details class="dd" open><summary>❗ Critical items missed · ' + missed.length + '</summary><div class="body"><ul style="margin:0;padding-left:20px">' + missed.map(x => '<li>' + esc(x.item) + '</li>').join('') + '</ul></div></details>';
+  h += '<details class="dd"><summary>⏱ Your 10 minutes: when the key moments happened</summary><div class="body">' + Object.entries(A.ms).map(([k, t]) => { const ok = t != null && t <= A.target[k]; return '<div class="nnr"><span class="k">' + (t == null ? '❌' : ok ? '✅' : '⚠️') + '</span><span><b>' + esc(k) + '</b> <span class="hint">' + (t == null ? 'not heard' : 'at ' + mmss(t)) + ' · aim by ' + mmss(A.target[k]) + '</span></span></div>'; }).join('') + ((r.timeline || []).length ? '<span class="hkh">Examiner\'s timeline</span>' + r.timeline.map(x => '<div class="nnr"><span class="k">' + (x.good === false ? '⚠️' : '•') + '</span><span><b>' + esc(x.t || '') + '</b> ' + esc(x.event || '') + '</span></div>').join('') : '') + '</div></details>';
+  h += '<details class="dd"><summary>🗣 How you spoke</summary><div class="body"><div class="stats">' + [['Your share of the talking', A.ratio + '%', A.ratio > 65 ? 'Let the patient talk more' : A.ratio < 30 ? 'Take more control' : 'Good balance'], ['Speaking rate', A.wpm ? A.wpm + ' wpm' : '–', A.wpm ? (A.wpm > 170 ? 'Slow down a little' : A.wpm < 100 ? 'A bit slow' : 'Comfortable') : (A.voice ? '' : 'Typed station')], ['Open-question words', A.open, A.open < 3 ? 'Use more open questions' : 'Good'], ['Closed questions', A.closed, ''], ['Filler words', A.fill, A.fill > 12 ? 'Pause instead of "um"' : 'Fine'], ['Longest single turn', A.longest ? A.longest + ' s' : '–', A.longest > 60 ? 'Chunk and check more' : ''], ['Interruptions', A.barge, A.barge > 2 ? 'Let them finish' : '']].map(([k, v, n]) => '<div class="stat"><span class="hint">' + k + '</span><b>' + esc(v) + '</b>' + (n ? '<span class="hint">' + esc(n) + '</span>' : '') + '</div>').join('') + '</div>' + ((r.jargon || []).length || A.jar.length ? '<span class="hkh">Jargon to swap</span><ul style="margin:0;padding-left:20px">' + li((r.jargon || []).length ? r.jargon : A.jar) + '</ul>' : '') + '</div></details>';
+  if (r.model_answer) h += '<details class="dd"><summary>🎯 The ideal last 90 seconds</summary><div class="body"><p style="margin:0">' + esc(r.model_answer) + '</p></div></details>';
+  if ((r.viva || []).length) h += '<details class="dd"><summary>❓ Examiner questions to practise</summary><div class="body">' + r.viva.map(q => '<div class="nnr"><span class="k">Q</span><span><b>' + esc(q.q || '') + '</b><button class="rev" data-reveal>Tap to reveal the answer</button><div hidden class="s">' + esc(q.a || '') + '</div></span></div>').join('') + '</div></details>';
+  if (r.drill) h += '<div class="money"><b>🏋️ Drill this before your next attempt</b>' + esc(r.drill) + '</div>';
+  h += '<div class="row"><button class="btn primary sm" data-vagain>🔁 Same case again</button><button class="btn sm" data-vnewcase>🎲 Another case</button><span class="hint">Saved automatically. Ticks in the mark scheme below are the examiner\'s; adjust them if you disagree.</span></div></div>';
+  return h;
+}
+function speakFeedback(){
+  const r = cur.fb; if (!r || !TTS) return; try { TTS.cancel(); } catch (e) {}
+  const parts = [r.verdict, r.summary, (r.fixes || []).length ? 'Three things to change. ' + r.fixes.slice(0, 3).map((f, i) => (i + 1) + '. ' + (f.issue || '') + '. Try saying: ' + (f.better || '')).join(' ') : '', r.drill ? 'Before your next attempt: ' + r.drill : ''].filter(Boolean).join(' ');
+  speakable(parts).split(/(?<=[.!?])\s+/).forEach(s => { const u = new SpeechSynthesisUtterance(s); const vf = VO && cur ? voiceFor('ex') : {v: null}; if (vf.v) u.voice = vf.v; u.rate = +(S.set.vRate || 1.05); TTS.speak(u); });
+}
+
+/* ---------- all hooks (browse) ---------- */
+function allHooksHtml(){
+  const wk = S.set.hwk, dk = S.set.deck, q = (S.set.hq || '').toLowerCase().trim(), hit = s => !q || q.split(/\s+/).every(w => s.toLowerCase().includes(w));
+  const row = (i, t) => '<div class="hkr"><span class="i">' + i + '</span><span>' + rich(t) + '</span></div>';
+  let h = '', n = 0;
+  if (dk === 'all' || dk === 'pp') PPS.forEach(s => {
+    if (wk && !s.u.some(i => UNITS[i].w === wk)) return;
+    const mon = s.vars.map(v => [v, moneyFor(s, v.k)]);
+    if (!hit([s.id, s.t, s.trig.join(' '), s.hook.join(' '), s.clinch.map(c => c[1]).join(' '), s.trap.join(' '), mon.map(([v, m]) => v.dx + ' ' + m).join(' ')].join(' '))) return;
+    n++;
+    h += '<section class="card hkall"><div class="row"><span class="code">' + s.id + '</span><b class="grow">' + esc(s.t) + '</b><button class="btn sm" data-st="' + s.id + '">Open ↗</button></div>'
+      + (s.trig.length ? '<span class="hkh">⚡ Door-sign triggers</span>' + s.trig.map(t => row('⚡', t)).join('') : '')
+      + (s.hook.length ? '<span class="hkh">🪝 Memory hooks</span>' + s.hook.map(t => row('🪝', t)).join('') : '')
+      + (s.clinch.length ? '<span class="hkh">🔑 Clinchers</span>' + s.clinch.map(c => row(CKI[c[0]] || '•', c[1])).join('') : '')
+      + '<span class="hkh">🎯 Money line' + (mon.length > 1 ? ' for every case' : '') + '</span>' + mon.map(([v, m]) => '<div class="money"><b>' + (mon.length > 1 ? 'Case ' + esc(v.k) + ' · ' + esc(v.dx) : esc(v.dx)) + '</b>' + rich(m || '') + '</div>').join('')
+      + (s.trap.length ? '<span class="hkh">⚠️ Where marks are lost</span>' + s.trap.map(t => row('⚠️', t)).join('') : '') + '</section>';
+  });
+  if (dk === 'all' || dk === 'fw') FWL.forEach(f => f.m.forEach(mm => {
+    if (wk && !mm.u.some(i => UNITS[i] && UNITS[i].w === wk)) return;
+    if (!hit([f.t, mm.t, mm.pearl, mm.nn.join(' '), Object.values(mm.ch).join(' '), mm.tree.map(b => b[0] + ' ' + b[1].join(' ')).join(' ')].join(' '))) return;
+    n++;
+    h += '<section class="card hkall"><div class="row"><b class="grow">' + f.i + ' ' + esc(f.t.split(':')[0]) + ' → ' + esc(mm.t) + '</b><button class="btn sm" data-fw="' + f.id + '" data-fwm="' + mm.id + '">Open ↗</button></div>' + fwDiffHtml(f, mm, true) + '</section>';
+  }));
+  if (dk === 'all' || dk === 'ilo') { const seen = new Set(); UNITS.forEach(u => {
+    if (seen.has(u.name) || (wk && u.w !== wk)) return; seen.add(u.name);
+    const ck = (PK[u.i] || {}).ck || []; if (!ck.length || !hit(u.name + ' ' + ck.map(c => c[1]).join(' '))) return;
+    n++;
+    h += '<section class="card hkall"><div class="row"><b class="grow">🧩 ' + esc(u.name) + '</b><button class="btn sm" data-u="' + u.i + '">Open ↗</button></div>' + ck.map(c => row(CKI[c[0]] || '•', c[1])).join('') + '</section>';
+  }); }
+  return {h: h || '<div class="empty">No hooks match.</div>', n};
+}
+
+/* ---------- search ---------- */
+function vSearch(q){
+  const m = $('#main'), t = q.toLowerCase().trim().split(/\s+/).filter(Boolean);
+  const hit = s => t.every(w => s.toLowerCase().includes(w));
+  const blob = s => s.id + ' ' + s.t + ' ' + s.info + ' ' + (s.task || '') + (s.pp ? ' ' + s.src + ' ' + s.trig.join(' ') + ' ' + s.hook.join(' ') + ' ' + s.money + ' ' + s.vars.map(v => v.dx).join(' ') : '');
+  const st = ST.filter(s => hit(blob(s))).slice(0, 40);
+  const ex = EX.filter(e => hit(e.t + ' ' + e.keys.join(' '))), pr = PR.filter(p => hit(p.t + ' ' + p.keys.join(' '))), us = UNITS.filter(u => hit(u.name)).filter((u, i, a) => a.findIndex(x => x.name === u.name) === i);
+  const fm = []; FWL.forEach(f => f.m.forEach(mm => { if (hit(f.t + ' ' + mm.t + ' ' + mm.use + ' ' + mm.tree.map(b => b[0] + ' ' + b[1].join(' ')).join(' '))) fm.push([f, mm]); }));
+  m.innerHTML = '<section class="card"><h1>Search: ' + esc(q) + '</h1></section>' + (fm.length ? '<section class="card"><h2>Frameworks</h2><div class="chips">' + fm.slice(0, 12).map(([f, mm]) => '<button class="chip" data-fw="' + f.id + '" data-fwm="' + mm.id + '">' + f.i + ' ' + esc(f.t.split(':')[0]) + ' → ' + esc(mm.t) + '</button>').join('') + '</div></section>' : '') + (us.length ? '<section class="card"><h2>ILOs</h2><div class="chips">' + us.map(u => '<button class="chip" data-u="' + u.i + '">🧩 ' + esc(u.name) + '</button>').join('') + '</div></section>' : '') + (ex.length || pr.length ? '<section class="card"><h2>Exams and procedures</h2><div class="chips">' + ex.map(e => '<button class="chip" data-ex="' + e.id + '">🩺 ' + esc(e.t) + '</button>').join('') + pr.map(p => '<button class="chip" data-pr="' + p.id + '">💉 ' + esc(p.t) + '</button>').join('') + '</div></section>' : '') + '<div class="list">' + (st.map(s => '<button class="li" data-st="' + s.id + '"><span class="code">' + s.id + '</span><span class="tt"><b>' + esc(s.t) + '</b><span>' + (s.pp ? '📚 ' + esc(s.src) : esc(s.task)) + '</span></span>' + scoreHtml(s.id) + '</button>').join('') || '<div class="empty">No stations match.</div>') + '</div>';
+}
+let qT = null;
+$('#q').addEventListener('input', e => { clearTimeout(qT); const v = e.target.value; qT = setTimeout(() => { if (v.trim().length >= 2) { stopTimer(); abortChat(); route = {v: 'search'}; $$('#nav button').forEach(b => b.classList.remove('on')); vSearch(v); } else if (!v.trim()) render(); }, 200); });
+
+/* ---------- events ---------- */
+document.addEventListener('click', e => {
+  const t = e.target.closest('button'); if (!t) return;
+  const d = t.dataset;
+  if (t.id === 'homeBtn') return go({v: 'home'});
+  if (t.id === 'qBtn') { const q = $('#q'); q.classList.toggle('show'); if (q.classList.contains('show')) q.focus(); return; }
+  if (d.v) { if (d.v === 'hooks') deck = null; return go({v: d.v}); }
+  if (d.go) { if (d.go === 'hooks') deck = null; return go({v: d.go}); }
+  if (d.pplist != null) { S.set.grp = 'PP'; S.set.wk = ''; S.set.kind = ''; save(); return go({v: 'stations'}); }
+  if (d.st) return go({v: 'station', id: d.st});
+  if (d.ex) return go({v: 'exam', id: d.ex});
+  if (d.pr) return go({v: 'proc', id: d.pr});
+  if (d.u != null && !d.tick) return go({v: 'ilo', id: +d.u});
+  if (d.fr) return go({v: 'frame', id: d.fr});
+  if (d.fw) return go({v: 'fwone', id: d.fw, mem: d.fwm || ''});
+  if (d.randpp != null) { const pool = PPS.filter(s => best(s.id) == null); const l = pool.length ? pool : PPS; return go({v: 'station', id: l[Math.floor(Math.random() * l.length)].id}); }
+  if (d.more != null) { const x = t.nextElementSibling; x.hidden = !x.hidden; return; }
+  if (d.reveal != null) { t.nextElementSibling.hidden = false; t.remove(); return; }
+  if (d.mode) { if (t.disabled) return; return setMode(d.mode); }
+  if (d.role) { S.set.role = d.role; save(); drawFriends(); setMode(cur.mode); return; }
+  if (d.timer != null) return toggleTimer(t);
+  if (d.treset != null) { stopTimer(); cur.left = 600; drawClock(); $('[data-timer]').textContent = '▶ Start'; return; }
+  if (d.send != null) return sendChat();
+  if (d.stop != null) return abortChat();
+  if (d.qk) { const ta = $('#say'); ta.value = d.qk; ta.focus(); return; }
+  if (d.restart != null) { abortChat(); cur.chat = []; $('#chat').innerHTML = ''; $('#aiOut').innerHTML = ''; cur.fb = null; setMode(cur.mode); return; }
+  if (d.grade != null) return gradeChat();
+  if (d.vstart != null) return vStart();
+  if (d.venter != null) return vEnter();
+  if (d.vend != null) return endStation(false);
+  if (d.vint != null) return vInterrupt();
+  if (d.vtgt) { VO.target = d.vtgt; drawVoiceCtl(); return; }
+  if (d.vsend != null) { const ta = $('#vSay'), v = ta.value.trim(); if (!v) return; ta.value = ''; if (!VO.on) { toast('Start the station first'); ta.value = v; return; } if (VO.speaking) vInterrupt(); return vSend(v, 0); }
+  if (d.vreset != null) { vShutdown(); stopTimer(); cur.left = 600; drawClock(); $('[data-timer]').textContent = '▶ Start'; cur.chat = []; cur.fb = null; $('#vChat').innerHTML = ''; $('#vOut').innerHTML = ''; vInit(); setMode(cur.mode); return; }
+  if (d.vagain != null) { if (cur.mode === 'voice') { vShutdown(); vInit(); return vStart(); } abortChat(); cur.chat = []; $('#chat').innerHTML = ''; $('#aiOut').innerHTML = ''; cur.fb = null; stopTimer(); cur.left = 600; drawClock(); setMode(cur.mode); return; }
+  if (d.vnewcase != null) { const sel = $('#varSel'); if (sel && cur.st.vars.length > 1) { const ks = cur.st.vars.map(v => v.k).filter(k => k !== cur.vk); sel.value = ks[Math.floor(Math.random() * ks.length)]; sel.dispatchEvent(new Event('change', {bubbles: true})); } if (cur.mode === 'voice') { vInit(); return vStart(); } return; }
+  if (d.vtest != null) { if (!TTS) return toast('This browser cannot speak'); if (!VO) vInit(); try { TTS.cancel(); } catch (e) {} const keep = VO.on; VO.on = false; speakQ('Hello doctor, this is how I sound as the patient.', 'pt', true); speakQ('And this is the examiner.', 'ex', true); VO.on = keep; return; }
+  if (d.fbspeak != null) return speakFeedback();
+  if (d.hview) { S.set.hview = d.hview; save(); return vHooks($('#main')); }
+  if (d.saveatt != null) return saveAttempt();
+  if (d.savefr != null) return saveFriends();
+  if (d.clear != null) { cur.ticks.clear(); $$('[data-tick]').forEach(cb => { cb.checked = false; cb.closest('.it').classList.remove('ai', 'miss'); }); updScore(); return; }
+  if (d.expand != null) { const ds = $$('.sec'); const any = ds.some(x => !x.open); ds.forEach(x => x.open = any); t.textContent = any ? 'Close all' : 'Open all'; return; }
+  if (d.hshow != null) { deck.shown = true; return vHooks($('#main')); }
+  if (d.hskip != null) { deck.i++; deck.shown = false; return vHooks($('#main')); }
+  if (d.hk) { const c = deck.cards[deck.i], r = S.hk[c.id] = S.hk[c.id] || {ok: 0, a: 0}; r[d.hk]++; r.ts = Date.now(); save(); if (d.hk === 'a') deck.cards.splice(Math.min(deck.cards.length, deck.i + 4), 0, c); deck.i++; deck.shown = false; return vHooks($('#main')); }
+  if (d.hrestart != null) { buildDeck(); return vHooks($('#main')); }
+});
+document.addEventListener('change', e => {
+  const t = e.target;
+  if (t.dataset && t.dataset.tick) { t.checked ? cur.ticks.add(t.dataset.tick) : cur.ticks.delete(t.dataset.tick); updScore(); return; }
+  if (t.dataset && t.dataset.lik != null) { cur.lik[t.dataset.lik] = t.value === '' ? null : +t.value; updFriends(); return; }
+  if (t.id === 'varSel') { const st = cur.st; if (VO && (VO.on || VO.phase === 'read')) { vShutdown(); vInit(); stopTimer(); cur.left = 600; drawClock(); } cur.chat = []; cur.fb = null; const vc = $('#vChat'); if (vc) vc.innerHTML = ''; const vo = $('#vOut'); if (vo) vo.innerHTML = ''; if (t.value === '?') { cur.hidden = true; cur.vk = st.vars[Math.floor(Math.random() * st.vars.length)].k; } else { cur.hidden = false; cur.vk = t.value; } cur.lik = {}; drawStationParts(); setMode(cur.mode); return; }
+  if (t.id === 'fwMem') { route.mem = t.value; try { history.replaceState(null, '', '#' + toHash(route)); } catch (e) {} return vFwOne($('#main')); }
+  if (t.id === 'fwOnly') { S.set.fwOnly = t.checked; save(); return vFwOne($('#main')); }
+  if (t.id === 'vPttSel') { S.set.vPtt = t.value === 'ptt'; save(); vStopRec(); drawVoiceCtl(); return vListen(); }
+  if (t.id === 'vPauseSel') { S.set.vPause = +t.value; return save(); }
+  if (t.id === 'vReadSel') { S.set.vRead = t.value !== 'skip'; return save(); }
+  if (t.id === 'vPtSel') { S.set.vPt = t.value; return save(); }
+  if (t.id === 'vExSel') { S.set.vEx = t.value; return save(); }
+  if (t.id === 'vRateSel') { S.set.vRate = t.value; return save(); }
+  if (t.id === 'vTierSel') { S.set.markTier = t.value; return save(); }
+  if (t.id === 'vMuteT') { S.set.vMute = t.checked; save(); if (t.checked) vInterrupt(); return; }
+  if (t.id === 'vPromptT') { S.set.vPrompts = t.checked; return save(); }
+  if (t.id === 'vBeepT') { S.set.beepOff = !t.checked; return save(); }
+  if (t.id === 'recallT') { S.set.recall = t.checked; save(); $('#scriptCard').innerHTML = scriptHtml(cur.st, cur.hidden ? '~' : cur.vk); return; }
+  if (t.id === 'hDeck' || t.id === 'hWk') { S.set.deck = $('#hDeck').value; S.set.hwk = $('#hWk').value; save(); deck = null; return vHooks($('#main')); }
+  if (['fGrp', 'fWk', 'fKind', 'fDone'].includes(t.id)) { S.set.grp = $('#fGrp').value; S.set.wk = $('#fWk').value; S.set.kind = $('#fKind').value; save(); drawStList(); }
+});
+document.addEventListener('keydown', e => {
+  if (e.target.id === 'say' && e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendChat(); }
+  if (e.target.id === 'vSay' && e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); const b = $('[data-vsend]'); if (b) b.click(); }
+  if (e.code === 'Space' && !e.repeat && cur && cur.mode === 'voice' && VO && VO.on && S.set.vPtt && !/^(TEXTAREA|INPUT|SELECT|BUTTON)$/.test(e.target.tagName)) { e.preventDefault(); pttDown(); }
+});
+document.addEventListener('keyup', e => { if (e.code === 'Space' && cur && cur.mode === 'voice' && VO && VO.holding && !/^(TEXTAREA|INPUT|SELECT)$/.test(e.target.tagName)) { e.preventDefault(); pttUp(); } });
+function pttDown(){ if (!VO || !VO.on || !VO.rec) return; if (VO.speaking) vInterrupt(); VO.holding = true; VO.pttUp = false; VO.buf = ''; VO.interim = ''; VO.segStart = Date.now(); const b = $('[data-vptt]'); if (b) b.classList.add('on'); setOrb('listening', 'Listening while you hold…'); try { VO.rec.start(); } catch (e) {} }
+function pttUp(){ if (!VO || !VO.holding) return; VO.holding = false; const b = $('[data-vptt]'); if (b) b.classList.remove('on'); if (VO.recOn) { VO.pttUp = true; try { VO.rec.stop(); } catch (e) { vCommit(); } } else vCommit(); }
+document.addEventListener('pointerdown', e => { const b = e.target.closest && e.target.closest('[data-vptt]'); if (b) { e.preventDefault(); pttDown(); } });
+document.addEventListener('pointerup', () => { if (VO && VO.holding) pttUp(); });
+document.addEventListener('pointercancel', () => { if (VO && VO.holding) pttUp(); });
+document.addEventListener('input', e => { if (e.target.id === 'hQ') { S.set.hq = e.target.value; clearTimeout(vHooks.t); vHooks.t = setTimeout(() => { const r = allHooksHtml(); $('#hAll').innerHTML = r.h; $('#hN').textContent = r.n + ' cards'; }, 200); } });
+if (matchMedia('(max-width:620px)').matches) $('#qBtn').style.display = '';
+route = fromHash(); render();
+</script>

@@ -1,0 +1,13 @@
+/* Website-only additions on top of the app's own styles (tokens come from the app). */
+[data-private]{display:none!important}
+#acctBtn{white-space:nowrap;flex:none}
+@media (max-width:620px){#acctBtn .al{display:none}}
+dialog.acct{border:1px solid var(--line);border-radius:16px;background:var(--surface);color:var(--ink);padding:0;width:min(440px,calc(100vw - 32px));box-shadow:var(--shadow)}
+dialog.acct::backdrop{background:rgba(10,20,25,.45)}
+dialog.acct .mbody{padding:18px;display:flex;flex-direction:column;gap:10px}
+dialog.acct h2{margin:0}
+dialog.acct p{margin:0}
+dialog.acct .fld{display:flex;flex-direction:column;gap:4px;font-size:.82rem;font-weight:700;color:var(--muted)}
+dialog.acct .fld input{width:100%;font-size:1rem}
+.site-foot{max-width:980px;margin:24px auto 32px;padding:0 16px;display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:space-between;font-size:.78rem;color:var(--muted)}
+.site-foot a{color:inherit}

@@ -1,0 +1,188 @@
+@PP99 | Fever with a new murmur: infective endocarditis (A–E, cardiovascular signs, SBAR)
+src: Medicine on-call station (Steven Briggs, after aortic valve replacement) · Duke criteria · BSAC endocarditis guidance
+u: 8, 7, 46
+fr: acute, ex, sbar
+ex: cvs
+door: You are an FY1 on call in medicine. A nurse bleeps you at midnight because a patient feels unwell. Tasks: take a brief history, assess the patient as you see fit, start treatment, then hand over by phone to a senior colleague.
+trig: Fever + new murmur + a prosthetic valve or IV drug use → endocarditis until proven otherwise
+trig: Splinters, conjunctival haemorrhages, petechiae, confusion → embolic phenomena
+hook: "FROM JANE": Fever, Roth spots, Osler's nodes, Murmur; Janeway lesions, Anaemia, Nail (splinter) haemorrhages, Emboli.
+hook: Three sets of blood cultures from different sites BEFORE antibiotics, but don't delay antibiotics if septic.
+clinch: ✅ Duke major: typical organism in 2 separate cultures + echo evidence (vegetation, abscess, new valve dehiscence)
+clinch: ✅ Duke minor: predisposition (prosthetic valve, IVDU), fever ≥38, vascular or immunological phenomena
+clinch: ❌ Penicillin angioedema: no beta-lactam; use the vancomycin-based regimen
+money: Mr ___ has a fever of 38.9, a new murmur and embolic signs after valve surgery, so I'm worried about prosthetic valve endocarditis. I've taken three sets of blood cultures and started vancomycin, gentamicin and rifampicin because of his penicillin allergy; please review him and can we get an urgent echo.
+trap: Not taking the dressings down to examine the wound and chest
+trap: Starting a penicillin in someone with angioedema
+trap: Forgetting the echo (TOE for prosthetic valves) and cardiothoracic involvement
+var: A | Steven Briggs, 75 | Prosthetic valve endocarditis after aortic valve replacement (penicillin angioedema)
+a: Aortic valve replacement for age-related aortic stenosis that was causing angina. Now very hot and cold with shivers, exhausted and nauseous.
+a: Allergic to penicillin: your face and throat swell up. No other medical history.
+a: Responsive but sluggish and distracted; keep asking where your wife is; get more distressed and tired as the station goes on.
+r: A: patent. B: RR 16, chest clear. C: HR 115, BP 120/90, capillary refill under 2 s; sternal wound clean; new pansystolic murmur in all areas. D: glucose 6.5, temp 38.9, GCS 15 falling to responding to voice. E: non-blanching petechial rash on the lower legs. Hands: splinter haemorrhages. Eyes: subconjunctival haemorrhages.
+x: [Inference] The source sets this 12 hours after surgery; prosthetic valve endocarditis usually presents weeks to months later, so treat the timing as a teaching simplification. A–E with full exposure (dressings down) and a cardiovascular examination; recognises sepsis and likely prosthetic valve endocarditis; 3 sets of blood cultures from separate sites, FBC, U&E, LFT, CRP, clotting, lactate, urine dip, ECG (conduction delay suggests aortic root abscess), CXR, urgent echo (TOE); fluids; empirical antibiotics per local guideline and allergy: vancomycin + gentamicin + rifampicin for a prosthetic valve; catheter and fluid balance; SBAR to the medical registrar; cardiology and cardiothoracic input; microbiology.
+var: B | Liam, 29 | Native tricuspid endocarditis in a person who injects drugs
+a: Injecting heroin for 3 years, sometimes shares equipment. A week of fevers, sweats and shaking; now coughing and breathless with chest pain on breathing in.
+a: No known allergies. No regular medicines. Worried you'll be judged; ONLY IF ASKED: you'd like help to stop.
+r: A: patent. B: RR 26, sats 93% on air, scattered crackles. C: HR 118, BP 100/60, pansystolic murmur at the left lower sternal edge louder on inspiration, injection marks in both groins. D: temp 39.2, alert. E: no rash. CXR: multiple small round cavitating lesions in both lungs (septic emboli).
+x: Right-sided (tricuspid) endocarditis with septic pulmonary emboli, most likely Staphylococcus aureus. A–E, 3 sets of blood cultures before antibiotics, empirical treatment per local guideline (e.g. vancomycin + gentamicin if MRSA risk or sepsis; flucloxacillin-based if MSSA likely), echo, HIV and hepatitis B and C testing with consent, non-judgemental harm reduction and drug service referral, SBAR.
+m: Liam has fevers, a new tricuspid murmur and septic emboli in both lungs from injecting, so this is right-sided endocarditis, most likely Staph aureus. I've taken three sets of cultures and started IV antibiotics per our guideline; please review him and we need an echo.
+dom: Information gathering | Demographics; reason for surgery or risk factor; !allergy and its nature; brief history
+dom: Examination | !Structured A to E with full exposure (removes dressings); cardiovascular examination; peripheral stigmata
+dom: Management | !Blood cultures ×3 before antibiotics; appropriate empirical antibiotics for the allergy; echo; fluids; monitoring
+dom: Information giving | !Concise SBAR with a clear request for review
+s: Open | Hello, I'm Nana, the doctor on call. I hear you're not feeling well. Can I check your name and date of birth? | Even at midnight: ID and introduction.
+s: History | What operation did you have, and why? Any allergies, and what happens? | Allergy nature changes the antibiotic.
+s: Assess | I'm going to assess you from head to toe, including taking your dressings down to look at the wound. | Anchor: "must remove dressings"; exposure is marked.
+s: Signs | I'm looking at your hands for little splinter-like marks, your eyes and the skin on your legs. | Peripheral stigmata support the Duke criteria.
+s: Reasoning | Fever of 38.9, a new murmur, splinters and petechiae: I'm worried about infective endocarditis. | Reasoning sentence.
+s: Treat | Three sets of blood cultures from different sites, then IV antibiotics per the guideline today, avoiding penicillin because of the swelling reaction. | Cultures before antibiotics, allergy-aware.
+s[B]: Respect | Thanks for telling me about the injecting. My job is to get you well, and if you want, I can get the drug team to see you too. | Non-judgemental: autonomy and dignity anchors.
+s: SBAR | Situation: I'm Nana, the FY1. I'm calling about ___ who I think has endocarditis. Background: ___. Assessment: temp ___, HR ___, new murmur, embolic signs. Recommendation: I've started ___; please review now, and can we arrange an urgent echo? | The handover is the final domain.
+
+@PP100 | Productive cough and fever: community-acquired pneumonia (history, CXR, CURB-65, explain)
+src: A&E respiratory station (Sandra, 68) · NICE NG138 and CG191 · BTS CAP guideline
+u: 19, 16
+fr: hx, di, expl, plan
+door: You are an F1 in A&E. The nurse asks you to see a patient in GP admissions who looks short of breath. Tasks: take a focused history; list the investigations you'd like to the examiner; explain your management plan to the patient. You will be asked to interpret an investigation.
+trig: Days of productive cough + fever + rigors + pleuritic pain → CAP; now score CURB-65 to decide where to treat
+hook: CURB-65: Confusion, Urea >7, Respiratory rate ≥30, BP <90 systolic or ≤60 diastolic, age 65 or over. 0–1 home, 2 consider admission, 3+ severe.
+hook: Silhouette sign: right heart border lost = right middle lobe; right hemidiaphragm lost with the heart border kept = right lower lobe.
+clinch: 🧪 CXR consolidation + CURB-65 1 (age) = low severity: oral amoxicillin at home
+clinch: 🧪 Confusion + urea 9 + RR 32 + age = CURB-65 4: high severity: IV antibiotics, consider HDU
+clinch: ❌ Repeat CXR at 6 weeks is not routine, but is reasonable in a smoker over 50 or if symptoms persist
+money: Your chest X-ray shows a pneumonia in the bottom of your right lung. You're well enough to go home on antibiotics called amoxicillin for 5 days, with paracetamol for the pain; if you get more breathless, confused, or can't keep fluids down, come straight back.
+trap: Not calculating and saying CURB-65 out loud
+trap: Missing the smoking cessation conversation (and the follow-up CXR for a smoker over 50)
+trap: Prescribing amoxicillin without asking about penicillin allergy
+var: A | Sandra, 68 | Low-severity right lower lobe pneumonia (CURB-65 1): home
+a: Unwell for a few days, more and more breathless, cough with yellow-green sputum, no blood. Lethargic, hot then freezing cold with uncontrollable shaking. Sharp right-sided chest pain when you cough or breathe in. No travel.
+a: High blood pressure on amlodipine; otherwise well. No allergies. Smoke 10 a day since your teens; a glass of wine most evenings. Lots of chest infections in the past, never this bad. Worried it's something serious.
+a: You're happy with the plan, but ask: "Do I really need another X-ray in 6 weeks if I'm feeling better?"
+r: Temp 38.6, HR 102, BP 128/78, RR 24, sats 95% on air, alert. Urea 5.8, WCC 15.1, CRP 168. CXR: right lower zone consolidation with loss of the right hemidiaphragm; right heart border visible; no effusion or pneumothorax.
+x: Right lower lobe CAP, CURB-65 1 (age): treat at home. Amoxicillin 500 mg TDS for 5 days (doxycycline or clarithromycin if allergic), paracetamol, fluids, rest, stop smoking (offer support), safety-net (worsening breathlessness, confusion, not improving in 3 days, can't keep fluids down), follow-up; repeat CXR at about 6 weeks is reasonable because she's a smoker over 50.
+var: B | Albert, 78 | High-severity pneumonia (CURB-65 4)
+a: Brought in by your daughter: 3 days of cough and fever; today muddled and very breathless. You can't give much history. Penicillin gave you a rash once.
+a: COPD, hypertension. Ex-smoker (40 pack-years). Lives alone; normally independent.
+r: Temp 38.9, HR 118, BP 96/58, RR 32, sats 89% on air, confused (AMTS 6). Urea 9.4, creatinine 130, WCC 19, CRP 280, lactate 2.6. ABG on air: PaO2 7.8, PaCO2 5.9, pH 7.36. CXR: left lower zone consolidation.
+x: High-severity CAP, CURB-65 4 (confusion, urea, RR, age). A–E; oxygen to 88–92% (COPD) and recheck gas; Sepsis Six; IV antibiotics within 1 hour per guideline and allergy (rash only: e.g. co-amoxiclav is avoided; use the local non-penicillin severe regimen, e.g. levofloxacin, or discuss); IV fluids; urinary pneumococcal and Legionella antigens, sputum and blood cultures; senior and critical care review; VTE prophylaxis.
+m: Albert has a CURB-65 of 4 with confusion, a urea of 9.4, a respiratory rate of 32 and age over 65, so this is high-severity pneumonia. He needs IV antibiotics within the hour suited to his penicillin allergy, controlled oxygen for his COPD, fluids and a critical care review.
+ask: Do I need to come into hospital? | Do I really need another X-ray in 6 weeks?
+dom: Information gathering | Breathlessness severity and baseline; !cough, sputum, haemoptysis, fever, rigors, pleuritic pain; PMH, DH, !allergies; smoking and alcohol; ICE
+dom: Clinical reasoning | !CURB-65 calculated; CXR presented systematically (lobe by silhouette sign)
+dom: Management | !Right setting and antibiotic by severity and allergy; analgesia; smoking cessation; follow-up CXR rule
+dom: Information giving | Plain-language explanation; safety-net; answers the X-ray question
+s: Open | What's brought you in today? ... How breathless are you compared with normal? | Baseline and severity first.
+s: History | Are you bringing anything up? What colour? Any blood? Any fevers or shaking? Any pain when you breathe in? | Sputum, haemoptysis, rigors and pleuritic pain are the named items.
+s: History | Any allergies to antibiotics? What happened? | Penicillin allergy decides the antibiotic.
+s: Ix | I'd check sats, a CXR, bloods including FBC, U&E and CRP, a sputum sample, and work out her CURB-65 score. | CURB-65 is the decision tool the examiner listens for.
+s: CXR | This is a PA chest X-ray of Sandra, aged 68. It's adequate. The most striking abnormality is consolidation in the right lower zone, with loss of the right hemidiaphragm but a visible right heart border: right lower lobe pneumonia. No effusion or pneumothorax. | Data frame: who, adequacy, main finding, location by silhouette, negatives.
+s[A]: Plan | Your CURB-65 score is 1, because of your age, so you can be treated at home with amoxicillin, 500 mg three times a day for 5 days. | Severity → setting → named drug and dose.
+s[A]: Smoking | This would be a good moment to stop smoking; I can refer you to the stop smoking service. Would you like that? | Respects autonomy while offering support.
+s[A]: X-ray | Because you've smoked for a long time, a check X-ray in about 6 weeks makes sure the shadow has cleared and nothing else is hiding behind it. | Answers the planted question honestly.
+s[B]: Plan | His CURB-65 is 4: high severity. Oxygen to 88 to 92%, sepsis bundle, IV antibiotics suited to his allergy within the hour, fluids, and a critical care review. | Severity drives the plan.
+s: Safety-net | If you get more breathless, confused, can't keep fluids down, or aren't better in 3 days, come straight back or call 999. | Specific safety-net.
+
+@PP101 | Life-threatening asthma: medication history from a relative + prescribe acute treatment (aminophylline)
+src: CP3 mock OSCE Jan 2018 Station 2 (Pharmacy: asthma prescribing, official anchors) · BTS/SIGN asthma guideline
+u: 15
+fr: hx, presc
+door: You are a Foundation doctor working overnight in A&E. Ashley Smedley has been brought in by a relative after a suspected life-threatening asthma attack and has not responded to initial treatment for severe asthma (already prescribed and given). Your consultant asks you to treat for life-threatening asthma. Obs: BP 102/65, HR 80, RR 6. Weight 65 kg. Tasks: confirm the medication history only with the relative (no full history); prescribe the appropriate asthma treatment (guideline provided); prescribe the regular medication.
+trig: RR 6 and a falling heart rate in asthma = near-fatal: exhaustion; get the anaesthetist and ICU now
+trig: "Aminophylline" on a pharmacy station = a weight-based dose calculation and a theophylline check
+hook: Aminophylline: loading 5 mg/kg over 20 minutes ONLY if not on oral theophylline; then 0.5 mg/kg/hour, with levels.
+hook: Medication history for every drug: name, dose, frequency, adherence, when last taken, plus allergies and reaction.
+clinch: 🧪 65 kg × 5 mg/kg = 325 mg loading over 20 minutes; infusion 65 × 0.5 = 32.5 mg/hour
+clinch: ❌ On oral theophylline (e.g. Uniphyllin): omit the loading dose and check a level
+clinch: ✅ Magnesium sulfate 2 g IV over 20 minutes, once, in severe or life-threatening asthma
+money: I've confirmed Ashley's medicines with you. For life-threatening asthma I've prescribed oxygen to 94 to 98%, back-to-back salbutamol and ipratropium nebulisers, steroids, IV magnesium, and with my consultant's agreement IV aminophylline by weight; the anaesthetist and ICU are coming because a breathing rate of 6 means she's tiring.
+trap: Giving the aminophylline loading dose to someone already on oral theophylline
+trap: Not identifying the relative and checking the patient's ID against the drug chart
+trap: Missing the RR of 6: that's exhaustion, not improvement
+var: A | Ashley Smedley, 24, with her mother | Life-threatening asthma, not on theophylline
+a: You are Ashley's mother. Her inhalers: Fostair 100/6, 2 puffs twice a day (she often forgets the evening dose); salbutamol inhaler, 2 puffs when needed, used about 10 times a day this week; montelukast 10 mg at night. No other medicines.
+a: She's allergic to ibuprofen: it made her wheezy. No other allergies.
+r: Weight 65 kg. Drug chart: salbutamol 5 mg nebulised, ipratropium 500 micrograms nebulised and prednisolone 40 mg already given once in the department. eGFR normal.
+x: Confirms relative's identity and the patient's ID against the chart; drug, dose, frequency, adherence and recent PRN use for each; allergy (ibuprofen: bronchospasm). Prescribes: oxygen to target 94–98%; salbutamol 5 mg nebulised (oxygen-driven), back-to-back or every 15–30 minutes; ipratropium 500 micrograms nebulised 4–6-hourly; prednisolone 40–50 mg daily for at least 5 days (or hydrocortisone 100 mg IV 6-hourly if unable to swallow); magnesium sulfate 2 g IV over 20 minutes once; aminophylline (senior decision) 325 mg loading over 20 minutes then 32.5 mg/hour with a level after 24 hours. Regular: continue Fostair (inhaled corticosteroid) and montelukast; salbutamol PRN superseded by nebulisers. Escalate to anaesthetist and ICU now (RR 6).
+m: Ashley isn't on theophylline, so with my consultant's agreement I've prescribed aminophylline 325 mg over 20 minutes, then 32.5 mg an hour, alongside oxygen, back-to-back nebulisers, steroids and 2 g of IV magnesium; her breathing rate of 6 means she's tiring, so the anaesthetist and ICU need to see her now.
+var: B | Ashley Smedley, 24, with her mother | Life-threatening asthma, already on oral theophylline
+a: You are Ashley's mother. Fostair 200/6, 2 puffs twice a day; salbutamol 2 puffs when needed (used about 12 times a day this week); Uniphyllin Continus (theophylline) 200 mg twice a day, last taken this morning; montelukast 10 mg at night.
+a: No known drug allergies.
+r: Weight 65 kg. Initial severe-asthma treatment already given once. Theophylline level: requested, awaited.
+x: As for A, but the patient is on oral theophylline: omit the aminophylline loading dose; if aminophylline is used (senior decision), start the maintenance infusion at 0.5 mg/kg/hour (32.5 mg/hour) and check a theophylline level urgently; withhold oral theophylline while on IV aminophylline; continue inhaled corticosteroid and montelukast.
+m: Because Ashley already takes Uniphyllin, I won't give an aminophylline loading dose. I've checked a theophylline level and, if my consultant agrees, I'll start the infusion at 32.5 mg an hour, with oxygen, back-to-back nebulisers, steroids, IV magnesium and an urgent ICU review.
+dom: Information gathering | !For each drug: name, dose, frequency, adherence; !recent PRN salbutamol use; !allergies and reaction; logical approach
+dom: Prescribing | !Acute treatment per guideline (oxygen with target, nebulisers, steroid, magnesium); !aminophylline dose calculated and safe (loading omitted if on theophylline); regular medicines continued safely; chart details complete
+dom: Communication | Explains the purpose of the conversation; listens; no jargon; explains the plan and drug choices
+dom: Professionalism | Introduces self; identifies the patient and !confirms the relative's identity; positive ID between patient and chart
+s: Open | Hello, I'm Nana, one of the doctors. Can I check who you are to Ashley, and confirm her name and date of birth against her chart? | Official anchor: "establishing identity of relative" and "positive patient ID".
+s: Purpose | I need to check exactly which medicines Ashley takes so we can treat her safely. Is that OK? | Anchor: "explains purpose of conversation".
+s: Drugs | For each inhaler: what's it called, how many puffs, how often, and does she manage to take it? When did she last use it? | Drug, dose, frequency, adherence: each is a named item.
+s: PRN | How many times a day has she needed the blue inhaler this week? | Anchor: "checks how often salbutamol has recently been used".
+s: Theophylline | Does she take any tablets for her chest, like theophylline or Uniphyllin? | This one question decides the loading dose.
+s: Allergy | Does she have any allergies? What happens? | Ibuprofen bronchospasm is the planted allergy in case A.
+s: Escalate | Her breathing rate of 6 means she's exhausted. I'm calling the anaesthetist and ICU now. | Life-threatening features demand escalation before paperwork.
+s: Prescribe | Oxygen 94 to 98%; salbutamol 5 mg nebulised back to back; ipratropium 500 micrograms 4-hourly; prednisolone 40 mg daily; magnesium sulfate 2 g IV over 20 minutes once. | Guideline order.
+s[A]: Aminophylline | She isn't on theophylline, so loading 5 mg/kg: 325 mg over 20 minutes, then 0.5 mg/kg/hour: 32.5 mg an hour, with a level at 24 hours. | Shows the calculation (the marked step).
+s[B]: Aminophylline | She takes Uniphyllin, so no loading dose: maintenance 32.5 mg an hour only if my consultant agrees, with an urgent theophylline level. | The safety twist.
+s: Regular | I'll continue her Fostair and montelukast, and write clearly that the theophylline tablets are held while she's on the drip. | "Prescribes medication safe to continue".
+s: Close | I'll explain each medicine to you as we go. Do you have any questions? | Anchor: "explains the management plan and choice of drugs".
+
+@PP102 | Jaundice: history, examination and LFT pattern (Gilbert's / pancreatic cancer / PSC / CBD stones with cholangitis)
+src: Surgery station (jaundice, 3 options) · Biliary colic station (obstructive LFTs, Mrs Smith) · CP3 HPB notes
+u: 41, 42, 43, 49, 25
+fr: hx, ex, di, plan
+ex: abdo
+door: You are a Foundation doctor on the Surgical Admissions Unit. Your next patient is jaundiced. Tasks: take a history; perform a relevant examination; interpret the investigations to the examiner; state your preferred diagnosis and management plan.
+trig: Yellow + well + normal ALP and ALT + stress or fasting = Gilbert's
+trig: Painless jaundice + weight loss + new diabetes + palpable gallbladder = pancreatic head cancer (Courvoisier)
+trig: Jaundice + fever + RUQ pain = cholangitis (Charcot's triad): sepsis, antibiotics, decompress
+hook: LFT triage: bilirubin alone = pre-hepatic; ALT high = hepatic; ALP and GGT high = post-hepatic (obstruction).
+hook: Dark urine + pale stools + itch = conjugated (cholestatic) jaundice.
+clinch: 🧪 Isolated unconjugated hyperbilirubinaemia with normal ALP, ALT and USS = Gilbert's
+clinch: 🧪 ALP and GGT high + dilated ducts on USS = obstruction: find the cause (stone vs tumour)
+clinch: ✅ UC + cholestatic LFTs + beaded ducts = primary sclerosing cholangitis
+money: Your blood tests show a ___ pattern, which means the problem is ___ the liver. The most likely cause is ___, so the next step is ___.
+trap: Missing sepsis in cholangitis: fever + jaundice needs cultures, antibiotics and drainage
+trap: Not asking about alcohol, drugs, travel and hepatitis risk factors
+trap: Giving a penicillin-based antibiotic to someone with a penicillin allergy
+var: A | Tilly Bates, 19 | Gilbert's syndrome
+a: A friend noticed your eyes and skin looked yellow after your exam today. Don't think it's happened before. Otherwise completely well.
+a: Combined pill for 4 years. No allergies. Adopted at birth, so family history unknown. Non-smoker, occasional drinker (nothing for 2 weeks), no drugs, no travel. Revising hard; skipping meals.
+r: No examination findings. ALP 40, ALT 21, bilirubin 40 (conjugated 2), GGT 21, albumin 37. Hepatobiliary USS: normal.
+x: Gilbert's syndrome: isolated unconjugated hyperbilirubinaemia triggered by stress, fasting or illness. Confirm with a repeat (fasting) bilirubin and a normal FBC and reticulocytes to exclude haemolysis. Reassure: harmless, common (about 1 in 20), no treatment, no liver damage; may recur with illness or fasting.
+m: Your blood tests show only the bilirubin is raised, with a normal liver and scan, so this is Gilbert's syndrome: a harmless, common variation in how the liver handles bilirubin, brought on by stress and skipping meals. It needs no treatment.
+var: B | Roger Hipps, 68 | Pancreatic head cancer (Courvoisier's sign)
+a: Yellow skin, no pain. Weight loss over 6 months, tired, poor appetite, aches including the lower back. No vomiting, rash or itch; bowels and bladder normal.
+a: Hypertension; type 2 diabetes diagnosed a month ago. Ramipril, metformin. No allergies. Dad had bowel cancer. Non-drinker; ex-smoker (20 a day for 10 years). Main carer for your wife, who has MS and uses a wheelchair. Too tired for golf lately.
+r: Examination: jaundice, palpable non-tender gallbladder. ALP 150, ALT 60, bilirubin 400, GGT 100, albumin 30. USS: mass in the head of the pancreas, dilated bile ducts.
+x: Likely pancreatic head cancer. Pancreas-protocol CT (chest, abdomen, pelvis) for staging, CA19-9, MDT; biliary drainage (ERCP stent) if needed; surgery (Whipple's) only if resectable; otherwise palliative chemotherapy and stenting; pancreatic enzyme replacement; diabetes management; carers' support for his wife (his ICE). Break news sensitively.
+m: The scan shows a mass at the head of the pancreas blocking the bile duct, which explains the painless jaundice and weight loss. I'm worried it could be a cancer, so you need a detailed CT scan and review by the specialist team, and we'll make sure your wife is supported too.
+var: C | Shelly Davies, 54 | Primary sclerosing cholangitis with cholangitis (penicillin allergy)
+a: Pain in the right upper tummy, sickness, jaundiced for a week, feel feverish and unwell. One episode of bloody diarrhoea. Want to know the cause and to control the pain.
+a: Ulcerative colitis (hemicolectomy last year; on sulfasalazine, controlled) and rheumatoid arthritis. Allergic to penicillin: rash and swollen lips. Non-smoker, non-drinker, part-time teaching assistant, independent.
+r: Examination: RUQ acutely tender, temp 38.3. ALP 200, ALT 32, bilirubin 200, GGT 100, albumin 40. CT: enlarged liver with fine surface nodularity (early cirrhosis); CBD dilated about 9 mm with wall thickening and enhancement; no mass at the CBD or pancreas.
+x: Primary sclerosing cholangitis with an episode of acute cholangitis. Sepsis bundle with blood cultures, non-penicillin antibiotics per local guideline (penicillin allergy with lip swelling), MRCP (beaded strictures), gastroenterology and hepatology referral; ERCP for a dominant stricture with brushings (cholangiocarcinoma risk); colonoscopic surveillance (colorectal cancer risk); liver transplant assessment if progressive.
+m: You have a condition called primary sclerosing cholangitis, linked to your colitis, where the bile ducts become narrowed and scarred; right now they're also infected. We'll give IV antibiotics that are safe with your penicillin allergy, scan the ducts in detail and involve the liver team.
+var: D | Mrs Smith, 50 | Common bile duct stones with ascending cholangitis
+a: Intermittent tummy pain for 2 days, up to 10 out of 10, more on the right; paracetamol hasn't helped. You think it's IBS (you googled it). ONLY IF ASKED: worse after fatty food; your urine has been very dark.
+a: Arthritis in the right knee (ibuprofen gel), tablets for cholesterol. No allergies, no surgery. Hospital receptionist; a glass of red every night; ex-smoker. Florida in June. Never had hepatitis. No family history of liver disease.
+r: Overweight, shaking, sweating and in pain; jaundiced; RUQ tender, no rebound. Hb 141, WCC 13.2, platelets 370, Na 136, K 4.3, urea 6.9, creatinine 109, ALP 960, GGT 624, ALT 70, bilirubin 158, albumin 32.
+x: Obstructive (cholestatic) jaundice from CBD stones with ascending cholangitis (Charcot's triad). A–E, IV access, cultures, IV antibiotics per guideline, fluids, analgesia, USS (dilated CBD), MRCP if unclear, ERCP with sphincterotomy and stone extraction, then cholecystectomy.
+m: The pattern is obstructive: a gallstone is blocking the bile duct and it's infected. I'd start IV antibiotics and fluids after blood cultures, confirm with an ultrasound, and the team will remove the stone with an ERCP and then take out the gallbladder.
+ask: What's causing this? | Is it serious?
+dom: Information gathering | Onset, pain or painless; dark urine, pale stools, itch; fever and rigors; weight loss; !alcohol, drugs, travel, hepatitis risks; PMH (IBD, gallstones); allergies
+dom: Examination | Jaundice, stigmata of chronic liver disease, abdominal examination, !gallbladder and liver palpation
+dom: Clinical reasoning | !Classifies the LFT pattern (pre-hepatic, hepatic, post-hepatic) and names the cause
+dom: Management | Case-specific: reassurance / CT, CA19-9, MDT / sepsis care, MRCP, specialist / ERCP and cholecystectomy; allergy-safe antibiotics
+s: Open | When did you first notice the yellowing? Is there any pain with it? | Pain vs painless splits stones from tumours.
+s: History | Has your urine gone dark, or your stools pale? Any itching? | Cholestatic triad.
+s: History | Any fevers or shivering? Any weight loss? | Cholangitis and cancer screen.
+s: Risks | How much alcohol do you drink? Any recent medicines, herbal remedies, travel, tattoos or injecting? | Hepatitis and drug causes: a named item.
+s: Exam | I'd look for jaundice and signs of chronic liver disease, then examine the abdomen, feeling especially for the liver and gallbladder. | A palpable gallbladder is the Courvoisier clue.
+s: LFTs | Bilirubin ___ with ALP ___ and ALT ___: this is a ___ pattern. | The pattern sentence is the reasoning mark.
+s[A]: Explain | Only the bilirubin is up and the scan is normal: Gilbert's syndrome. It's harmless and common, and stress and skipping meals bring it on. | Reassurance with a reason.
+s[B]: Explain | The scan shows a mass at the head of the pancreas. I'm worried it could be serious, so we'll arrange a CT scan and the specialist team will see you. Who's at home with you? | Warning-shot style plus his carer concern.
+s[C]: Plan | She's septic with cholangitis on a background of PSC: blood cultures, non-penicillin IV antibiotics, fluids, MRCP and the hepatology team. | Allergy-aware sepsis plan.
+s[D]: Plan | Fever, jaundice and RUQ pain: Charcot's triad. Cultures, IV antibiotics, fluids, USS, then ERCP to clear the duct and a cholecystectomy later. | Decompress the infected duct.
+s: Close | Is there anything you'd like to ask? If you get a high fever, shaking or worse pain, tell the nurses straight away. | Safety-net.

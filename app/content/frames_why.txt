@@ -1,0 +1,149 @@
+# frame.index | say (blank keeps the existing line) | why it scores
+open.0 |  | Every verb on the door is a marked domain. Miss a verb and you lose a whole domain, however good the rest is.
+open.1 |  | Professionalism domain. Examiners tick what they SEE, so gel visibly as you walk in.
+open.2 |  | The actor is asked afterwards "would you want this student as your doctor?" A warm introduction sets that score.
+open.3 |  | Patient identification is a safety item; skipping it is a classic professionalism drop.
+open.4 |  | Consent before anything else. No consent = no marks for what follows, and it is a professionalism red flag.
+open.5 | Are you comfortable? Would you like anyone with you? | Shows patient-centred care from minute one; pain checked now protects you from hurting them later.
+hx.0 |  | Patients give the key clue in their own words. Interrupting early loses information and communication marks.
+hx.1 |  | Picking up a cue (a sigh, a look away, "my dad had this") is how you score Communication 3–4 rather than 2.
+hx.2 | Where exactly is it? When did it start, and was it sudden or gradual? | A clear timeline sorts acute, subacute and chronic causes before you even think of a diagnosis.
+hx.3 | Is there anything that makes it better or worse? | Discriminating questions are what "Information gathering" really marks: questions that change your differential.
+hx.4 | Have you noticed any weight loss, night sweats, blood, or anything that worried you? | Red flags are safety marks. Missing the red flag is the commonest reason for a borderline fail.
+hx.5 |  | A focused systems review catches the second problem the actor has been briefed to reveal only if asked.
+hx.6 | Do you have any other medical problems, or have you had any operations? | The past history often explains the presentation (e.g. previous gallstones, previous DVT).
+hx.7 | What medicines do you take, including anything you buy yourself or herbal remedies? | Drug causes and interactions are a favourite twist (NSAIDs, COCP, antipsychotics, codeine).
+hx.8 | Do you have any allergies? What happens when you take it? | "Rash" vs "anaphylaxis" changes your prescribing. Asking the reaction is a named mark.
+hx.9 | Does anything run in the family, especially heart problems, cancers or sudden deaths? | Family history unlocks risk (sudden death <40, early IHD, bowel cancer, thyroid).
+hx.10 | Do you smoke? How much do you drink in a week? What do you do for work? Who is at home? | Social history shapes the plan: driving, work, carers, units and pack-years are all named marks.
+hx.11 |  | ICE is in nearly every Nottingham Communication domain. The actor has a hidden worry waiting to be asked.
+hx.12 | How is this affecting your day-to-day life? | Function and impact make your plan patient-centred and often reveal the hidden agenda.
+hx.13 |  | Signposting was flagged in your feedback. It makes your structure audible, so the examiner can follow and tick it.
+hx.14 |  | Summarising shows organised thinking and gives the patient a chance to correct you. Also flagged in your feedback.
+hx.15 |  | Management is usually its own domain. A perfect history with no plan caps you at borderline.
+mhx.0 |  | Rapport is the gateway in psychiatry; distressed patients only disclose risk to someone who seems safe.
+mhx.1 |  | Onset and trigger separate adjustment, depression, bipolar and organic causes.
+mhx.2 | Sometimes when people are under a lot of stress they hear or see things others don't. Has that happened to you? | Normalising questions get honest answers about psychosis, compulsions or purging.
+mhx.3 |  | Biological symptoms grade severity of depression (and mark mania when sleep need drops).
+mhx.4 |  | Suicide risk is always assessed and always marked. Asking directly does not increase risk.
+mhx.5 | Are there any children at home or anyone who depends on you? | Safeguarding is a professional duty and a named mark in MH stations.
+mhx.6 |  | Self-neglect and vulnerability broaden risk beyond suicide (eating, finances, exploitation).
+mhx.7 |  | Previous episodes, admissions and what helped predict what will help now.
+mhx.8 | How much alcohol do you drink in a typical week? Any other drugs? | Substances cause, mimic and worsen almost every psychiatric presentation.
+mhx.9 |  | Organic causes (thyroid, steroids, head injury) must be excluded before a psychiatric label.
+mhx.10 |  | Family history raises the risk of bipolar, schizophrenia and suicide.
+mhx.11 |  | Personal and forensic history put the presentation in context and inform risk to others.
+mhx.12 |  | Change from premorbid personality is what makes a presentation an illness rather than a trait.
+mhx.13 | What do you think is going on? Would you be open to some help with it? | Insight predicts engagement and is part of every MSE presentation.
+mhx.14 |  | ICE: what they want from today decides whether your plan lands.
+mhx.15 |  | A one-line risk formulation ("low immediate risk because…") is what separates a clear pass from borderline.
+ex.0 |  | Infection control is a professionalism must. Visible hand gel = visible tick.
+ex.1 |  | Consent and a one-line explanation reassure the actor and earn the professionalism mark.
+ex.2 |  | Intimate examinations without a chaperone offer are an automatic fail in Nottingham stations (breast, hernia, genitalia, DRE).
+ex.3 |  | Correct position is a technical mark (45° for CVS/resp, flat for abdomen) and dignity is a professionalism mark.
+ex.4 |  | Causing pain is a red flag that can fail an otherwise perfect examination.
+ex.5 | From the end of the bed I can see… | Examiners can only mark what they hear. Say the clues out loud: oxygen, GTN, inhalers, walking aids.
+ex.6 |  | A fixed sequence shows practice and stops you skipping steps under pressure.
+ex.7 |  | Watching the face shows you care and catches tenderness, which is often the finding.
+ex.8 |  | Covering the patient and thanking them is in every examination checklist.
+ex.9 |  | Hand hygiene at the end completes the infection-control loop.
+ex.10 |  | Presentation is often worth as much as the examination. Positives, key negatives, then one-line impression.
+ex.11 | To complete my examination I would like to… | "To complete" shows you know the full assessment even when time runs out.
+proc.0 |  | Wrong patient errors are never events. Checking ID against the request is always a critical item.
+proc.1 |  | Allergies to chlorhexidine, latex or lidocaine change your kit. Indication shows you know why.
+proc.2 |  | Valid consent: what, why, what it feels like, risks. Without it the procedure is assault.
+proc.3 |  | Checking expiry dates and sterility is a named item in every DOPS checklist.
+proc.4 |  | ANTT protects key parts; contamination without correcting it fails the station.
+proc.5 |  | Comfort and light reduce failed attempts and show patient care.
+proc.6 |  | The order matters (e.g. tourniquet off before needle out). Examiners follow a step list.
+proc.7 |  | Sharps at point of use is a safety-critical item; resheathing is a fail.
+proc.8 |  | Confirming success (flashback, urine, pH) shows you know the procedure worked.
+proc.9 |  | Aftercare and safety-net close the loop for the patient.
+proc.10 |  | Bedside labelling and documentation are critical; unlabelled samples are rejected by the lab.
+di.0 | This is the ECG of ___, a ___-year-old, taken on ___ at ___. | Opening with patient, date and context proves you checked it is the right patient's test.
+di.1 |  | A system protects you when the abnormality is subtle and is what "Information giving" marks.
+di.2 |  | Precise language ("ST elevation in II, III, aVF") scores; vague language ("looks abnormal") does not.
+di.3 |  | Naming the pattern plus one alternative shows reasoning, not guessing.
+di.4 | The important finding is ___. It suggests ___ because ___. The next step is ___. | Your reasoning sentence from feedback. Urgency + next step is where most management marks live.
+di.5 |  | Saying what would confirm it (repeat ECG, old ECG, serial troponin) shows safe uncertainty.
+expl.0 | Before I explain, can you tell me what you understand so far? | Starting from their knowledge avoids talking down or over their head; a named communication mark.
+expl.1 |  | Asking their main concern lets you answer the hidden question the actor is waiting to ask.
+expl.2 |  | Signposting structure was flagged in your feedback; it shows organisation.
+expl.3 | It's a bit like… | Plain language is the core of Information giving. Every unexplained term costs a mark.
+expl.4 | Does that make sense so far? | Chunk and check is the most-cited communication microskill in Nottingham mark schemes.
+expl.5 |  | Addressing the stated concern directly is often the hidden pass mark.
+expl.6 |  | Shared decision-making (options, risks, their choice) moves you from 3 to 4.
+expl.7 |  | Teach-back proves understanding better than "any questions?"
+expl.8 |  | A specific plan (who, what, when) is what the examiner writes down under Management.
+expl.9 | If you notice ___, please call 999 / come straight back. | Specific safety-netting is a safety item; generic "come back if worse" is weak.
+expl.10 |  | Leaflets and a final check for questions close the station professionally.
+counsel.0 | You've been prescribed ___ mg of ___, ___ times a day for ___. | Your feedback: counsel THIS prescription. Anchoring to it is the first and most important mark.
+counsel.1 | This medicine is to… | Indication in plain words: patients take tablets they understand.
+counsel.2 |  | One sentence on mechanism builds trust without drowning them.
+counsel.3 | Take it ___ (with food / at night). If you miss a dose… | How to take it and the missed-dose rule are named counselling items.
+counsel.4 |  | Common side effects, and what to do, prevent people stopping the drug.
+counsel.5 | If you get ___, stop it and seek help straight away. | Serious side effects with an action plan are safety-critical.
+counsel.6 |  | Alcohol, driving and contraception questions are the actor's favourite hidden questions.
+counsel.7 |  | Monitoring (bloods, review date) is often the management mark in counselling stations.
+counsel.8 | Just so I know I've explained it well, could you tell me how you'll take it? | Teach-back plus safety-net is the strongest close.
+counsel.9 |  | Using the BNF strategically shows safe practice; reading it aloud wastes time and looks unsure.
+bbn.0 |  | Setting is the S in SPIKES; offering a support person is a named mark.
+bbn.1 | What have you been told so far about why we did the test? | Perception tells you where to start and avoids repeating or contradicting.
+bbn.2 | How much detail would you like me to go into today? | Invitation respects autonomy and paces the news.
+bbn.3 | I'm afraid I have some difficult news. … The scan has shown a cancer. | A warning shot then the plain word ("cancer") is what examiners listen for. Euphemisms confuse.
+bbn.4 |  | Silence after bad news is a skill. Rushing into facts is the commonest communication drop.
+bbn.5 | I can see this is a real shock. | Responding to emotion before information is the E in SPIKES.
+bbn.6 |  | Strategy and summary: they must leave knowing exactly what happens next.
+bbn.7 |  | Specialist nurse, leaflet and a contact number are named support marks.
+presc.0 |  | Patient details and weight on every chart: incomplete demographics fail prescribing stations.
+presc.1 |  | Allergy box completed (or NKDA signed) is a critical prescribing item.
+presc.2 |  | Renal function and interactions drive dose: the BNF check is marked.
+presc.3 |  | Generic names in capitals prevent errors; brand names only where it matters (insulin, lithium, modified release).
+presc.4 |  | Units written in full ("units", "micrograms") are a never-event safeguard.
+presc.5 |  | A start and stop/review date with indication is good antimicrobial and opioid stewardship.
+presc.6 |  | An unsigned prescription is invalid.
+presc.7 |  | Stopping or withholding the wrong drug is usually the hidden point of the station.
+presc.8 |  | Monitoring shows you know the drug's risks.
+presc.9 |  | Communicating the change to the patient or nurse closes the safety loop.
+acute.0 | This patient is unwell. I'd like to call for senior help now. | Calling for help early is a critical item in every A–E station.
+acute.1 |  | Airway first because nothing else matters if it is lost.
+acute.2 |  | Oxygen to the right target is marked; giving 15 L to a CO2 retainer without monitoring is a safety drop.
+acute.3 |  | Two wide-bore cannulas, bloods, fluids and an ECG are the expected circulation bundle.
+acute.4 | Can I have a capillary glucose please? | "Don't ever forget glucose" (DEFG). Hypoglycaemia mimics everything.
+acute.5 |  | Exposure finds the rash, the bleed, the calf or the wound that is the diagnosis.
+acute.6 |  | Reassessing after every intervention shows you are treating, not just assessing.
+acute.7 |  | Specific treatment with dose is usually the Management domain's main mark.
+acute.8 |  | An SBAR escalation with a clear ask is marked separately from the assessment.
+acute.9 |  | Talking to the patient during A–E keeps Communication marks while you work.
+prof.0 |  | Naming the dilemma precisely shows you understand what is being tested.
+prof.1 |  | Capacity is decision-specific and assumed; knowing the four tests is the core legal mark.
+prof.2 |  | Autonomy and best interests are the two pillars examiners want you to weigh.
+prof.3 |  | Knowing when confidentiality can be broken (serious harm, DVLA, notifiable disease) is a named legal mark.
+prof.4 |  | Montgomery: material risks to THIS patient. Consent is a process, not a signature.
+prof.5 | I'm really sorry this happened. | Duty of candour: say sorry, explain, put it right, report. Apology is not admission of liability.
+prof.6 |  | Escalating to a senior is always acceptable and often required for full marks.
+prof.7 |  | If it isn't documented, it didn't happen.
+prof.8 | I can hear how frustrated you are, and I want to help sort this out. | De-escalation (acknowledge, don't argue, find common ground) is the Communication mark.
+sbar.0 |  | Situation in one breath: who, where, what, how worried. Registrars decide in the first 15 seconds.
+sbar.1 |  | Background only what matters to the decision.
+sbar.2 |  | Numbers (obs, NEWS2, results) convince a senior to come.
+sbar.3 | I'd like you to review him within the next 15 minutes. | A specific request with a timescale is the most-missed SBAR mark.
+sbar.4 |  | Read-back confirms the plan and is a patient-safety behaviour.
+ebm.0 | Out of 100 people like you… | Absolute numbers with a denominator and timeframe are understandable; relative risk alone misleads.
+ebm.1 |  | Contrasting relative and absolute shows statistical literacy.
+ebm.2 |  | Same units for benefit and harm lets the patient weigh them fairly.
+ebm.3 |  | Applicability and limitations show critical appraisal.
+ebm.4 |  | Visual aids improve understanding, especially for numbers.
+ebm.5 |  | Supporting their decision, even if it differs from yours, is autonomy in action.
+reason.0 | The most likely diagnosis is ___ because ___. | Your feedback asked you to make reasoning visible. One sentence with the decisive clue.
+reason.1 | The important thing to exclude is ___, which I'd do by ___. | Naming the dangerous alternative is a safety mark.
+reason.2 |  | A short prioritised list beats a long unranked one.
+plan.0 |  | Investigations that answer a question ("CT KUB to confirm the stone and look for obstruction") score; shopping lists don't.
+plan.1 |  | Drug, dose, route and duration per UK guidance is the Management mark.
+plan.2 |  | Urgency (2WW, same day, emergency) is often the critical management decision.
+plan.3 |  | Follow-up with a timescale closes the plan.
+plan.4 |  | Lifestyle advice shows a holistic plan and often matches the actor's hidden agenda.
+close.0 |  | A one-line summary shows you have a coherent plan.
+close.1 | Is there anything you'd like me to go over again? | Inviting questions lets the actor ask the briefed question, which you need to answer to score.
+close.2 | If you get ___, call 999 / come back straight away. | Specific safety-netting is a safety item in almost every mark scheme.
+close.3 |  | A courteous close leaves the actor scoring you highly.

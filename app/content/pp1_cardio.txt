@@ -1,0 +1,491 @@
+# Past-paper stations: cardiology. Format documented in build_v2.py
+
+@PP01 | Palpitations at work: sinus tachycardia vs SVT vs AF
+src: Nottingham Medicine station bank (cardio 1) · CP3 2019 falls + ECG
+u: 3
+fr: hx, ex, di, expl
+ex: cvs
+door: You are an FY1 on MAU. Your next patient came in after an episode at work of dizziness, palpitations and shortness of breath. Tasks: take a history, perform a cardiovascular examination, interpret the ECG and state your diagnosis to the examiner, then counsel the patient on their condition.
+trig: Young + energy drinks + self-limiting episode → sinus tachycardia or ectopics
+trig: Young + sudden "switch-on" + still going + regular ~180 → SVT
+trig: Over 65 + hypertension + irregular + exertional dizziness → AF
+hook: Rate, Rhythm, Risk: how fast, regular or not, and which risk to quantify (stroke for AF, sudden death for the young).
+hook: "Switch or dimmer?" Switch-on/switch-off = re-entry (SVT). Dimmer (gradual) = sinus tachycardia.
+clinch: ✅ Irregularly irregular, no P waves, narrow QRS = AF
+clinch: ✅ Regular narrow complex 150–250, abrupt onset and offset = SVT
+clinch: ❌ Syncope, chest pain, shock or heart failure = unstable → synchronised DC cardioversion, not counselling
+clinch: 🧪 Sinus tachycardia: P before every QRS; look for the cause (caffeine, thyroid, anaemia, infection, dehydration)
+money: The ECG shows ___ at about ___ beats per minute. She is haemodynamically stable, so my first step is ___, and I'd check TFTs, FBC and U&Es for a trigger.
+trap: Forgetting the family history of sudden death under 40 (named on the mark scheme)
+trap: Not quantifying caffeine, alcohol and smoking: lifestyle is a named Information-gathering mark
+trap: In AF, forgetting anticoagulation: CHA2DS2-VASc and bleeding risk (ORBIT) must be said out loud
+var: A | Sarah Young, 23 | Sinus tachycardia driven by caffeine
+a: At your desk, heart suddenly felt fast, felt sick and dizzy, a little breathless; lasted 2 minutes and settled on its own.
+a: Happened once before on the sofa. No chest pain. No anxiety or panic history; you like your job and hope for promotion.
+a: Combined pill for 4 years (BP checks normal). No allergies.
+a: Grandmother recently died of heart failure, so you are worried it is your heart. No sudden deaths in the family.
+a: Smoke 15 a day, 3 pints most weeknights and more at weekends ("everyone does"), 4 coffees and 2 Red Bulls a day, mostly ready meals; live alone.
+r: ECG: sinus tachycardia, rate 110, normal axis and intervals, no pre-excitation.
+x: Diagnosis: sinus tachycardia, likely caffeine-related. Bloods: TFTs, FBC, U&Es, glucose to exclude a trigger. Lifestyle is the main treatment: caffeine first, then alcohol and smoking. Reassure about her grandmother; safety-net syncope or chest pain.
+var: B | Sam Yeats, 22 | Supraventricular tachycardia (re-entry)
+a: Heart racing very fast for 15 minutes and still going now; sweaty, sick, short of breath, light-headed. Never happened before. Very worried.
+a: Had one pint an hour before while watching football in the pub. Engineering student, 1 coffee a day, non-smoker, no medicines or allergies, no family history.
+r: ECG: regular narrow-complex tachycardia at 180/min, no visible P waves. BP 118/72, SpO2 98%.
+x: Diagnosis: SVT. Stable, so vagal manoeuvres first (modified Valsalva), then IV adenosine 6 mg rapid bolus, 12 mg, then 18 mg with continuous monitoring (warn about a brief sense of doom). If it fails or he becomes unstable: synchronised DC cardioversion. Longer term: cardiology for catheter ablation; avoid triggers.
+var: C | Stewart Fox, 66 | Atrial fibrillation
+a: Heart beating fast, breathless and dizzy while walking the dogs; sat down, took deep breaths, settled after 10 minutes. Brief episodes before lasting seconds; not always on exertion. No chest pain.
+a: Hypertension and familial hypercholesterolaemia. Amlodipine 10 mg, atorvastatin 40 mg at night. No allergies, no over-the-counter drugs.
+a: Dad had a stroke at 60, mum had type 2 diabetes. Ex-smoker 20/day; bottle of wine 4 times a week; recently vegetarian; retired geography teacher, lives with wife.
+r: ECG: irregularly irregular narrow-complex rhythm at 112/min, no P waves.
+x: Diagnosis: AF. Rate control with a beta-blocker (bisoprolol) or rate-limiting CCB. CHA2DS2-VASc: age 65–74 (1) + hypertension (1) = 2 → offer a DOAC (apixaban/edoxaban/rivaroxaban) after ORBIT bleeding assessment. TFTs, U&Es, echo. Cut alcohol. DVLA: may drive unless symptoms cause incapacity.
+ask: Is it my heart, like my nan? | Will this happen again? | Can I still drink coffee and alcohol? | Can I drive?
+dom: Information gathering | Lifestyle: caffeine, alcohol, smoking, diet; HPC in detail with red flags (syncope, chest pain) and rules out MI; !Family history: heart problems and sudden unexplained deaths; PMH, drug history including OTC, allergies
+dom: Examination | Pulse rate and rhythm; BP; heart sounds; signs of failure; thyroid signs
+dom: Clinical reasoning | !Names the rhythm correctly for the variant (sinus tachycardia / SVT / AF); links it to the history (trigger, risk factors)
+dom: Information giving | !Structured ECG: rate, rhythm, axis, P waves, PR, QRS, ST, T; chunk and check; safety-net
+dom: Management | Variant-specific plan (see the variant); bloods for triggers; lifestyle; follow-up
+s: History | What were you doing when it started? Did it start suddenly like a switch, or build up gradually? | Abrupt on/off = re-entry (SVT); gradual = sinus tachycardia. One question splits two diagnoses.
+s: History | Can you tap out on the table how your heart was beating? | Regular vs irregular in 5 seconds. Irregularly irregular points to AF before you see the ECG.
+s: History | Did you black out, feel faint, or have any chest pain? | Red flags: syncope or chest pain makes this unstable or ischaemic. Safety marks.
+s: History | Has anyone in your family died suddenly or unexpectedly, especially under 40? | Screens inherited arrhythmia (HCM, long QT, WPW, Brugada). A named mark.
+s: History | How much coffee, tea or energy drinks do you have in a day? And alcohol? | Caffeine and alcohol are the commonest reversible triggers; the mark scheme lists lifestyle explicitly.
+s: History | Any weight loss, heat intolerance or shakiness? | Thyrotoxicosis is the classic secondary cause of sinus tachycardia and AF.
+s: Examine | I'll feel your pulse for a full 30 seconds and check your blood pressure. | Rate, rhythm and BP decide stability, which decides everything else.
+s: Interpret | This is a 12-lead ECG of ___, taken today. The rate is about ___, the rhythm is ___, the axis is normal… | A systematic read is the Information-giving domain. Say every step out loud.
+s: Interpret | The important finding is ___. It suggests ___ because ___. The next step is ___. | Your reasoning sentence. Diagnosis + why + next step in one breath.
+s[A]: Explain | Your heart tracing shows your heart is healthy but beating fast, the way it does after a lot of caffeine. | Reassurance tied to the result; addresses the grandmother worry directly.
+s[A]: Explain | Cutting the energy drinks and coffee down is the single biggest thing that will help. Shall we make a plan for that together? | Lifestyle is the treatment. Shared plan scores Communication 4.
+s[B]: Explain | Your heart has a short circuit that makes it race. First I'll ask you to blow hard into a syringe while we lift your legs: that often resets it. | Modified Valsalva first-line; plain-language analogy.
+s[B]: Explain | If that doesn't work, a medicine called adenosine through a drip can reset it. It feels strange for a few seconds, like a pause, but it wears off quickly. | Pre-warning about adenosine is a microskill examiners notice.
+s[C]: Explain | Your heart's top chambers are beating irregularly. That can make a clot form, so the main aim is to protect you from a stroke. | Frames anticoagulation around his dad's stroke (his ICE).
+s[C]: Explain | I'd recommend a blood thinner called apixaban. It does raise the risk of bleeding, so we'll check that risk together. | Benefit and harm in the same breath; ORBIT shows safe prescribing.
+s: Close | If you black out, get chest pain, or it lasts more than 15 minutes, call 999. | Specific safety-netting closes the Management domain.
+
+@PP02 | Medication review on antipsychotics + 12-lead ECG: torsades
+src: Nottingham Medicine station bank (cardio ECG) · GP medication review
+u: 3, 101
+fr: hx, proc, di, plan
+pr: ecg12
+door: You are a Foundation doctor in General Practice. John Simmons, 54, takes long-term antipsychotics for schizophrenia and has come for his medication review. Tasks: review his medication, perform a 12-lead ECG, interpret it, and explain your diagnosis and management plan to the examiner.
+trig: Antipsychotic + SSRI + medication review + ECG task → think QT prolongation
+trig: "Twisting" polymorphic broad-complex tachycardia → torsades de pointes
+hook: QT drugs "ABCDE": Anti-arrhythmics, antiBiotics (macrolides), antiCychotics/antipsychotics, antiDepressants (citalopram, TCAs), antiEmetics (ondansetron, domperidone).
+hook: Torsades = Twisting + Magnesium. 2 g IV magnesium sulfate even if the Mg level is normal.
+clinch: ✅ Polymorphic VT with QRS axis twisting round the baseline + long QT on sinus beats = torsades
+clinch: ❌ Pulseless or periarrest = ALS: shock, not magnesium first
+clinch: 🧪 Correct K (aim >4.5), Mg and Ca: low levels prolong QT
+money: This ECG shows polymorphic VT with a twisting axis, consistent with torsades de pointes, likely from QT prolongation by quetiapine with sertraline. He needs an ambulance to A&E, continuous monitoring and IV magnesium.
+trap: Doing a medication review without asking about adherence, side effects, OTC drugs and allergies (all named)
+trap: Leads in the wrong place: V1 and V2 in the 4th intercostal space either side of the sternum, V4 5th ICS mid-clavicular
+trap: Managing in the surgery: torsades can degenerate to VF; this is a 999 referral
+var: A | John Simmons, 54 | Torsades de pointes (QT prolongation)
+a: Quetiapine 400 mg in the evening, sertraline 150 mg in the morning, co-codamol 4 tablets daily for chronic pain, omeprazole 20 mg. Takes everything as prescribed; no recent dose changes.
+a: No mental-health symptoms for years; psychiatrist happy 2 weeks ago. No therapy currently. No chest pain, palpitations or breathlessness.
+a: No allergies. No family history of heart problems or sudden death. Quit smoking 5 years ago, no alcohol or drugs. Lives with mum (main carer), day centre, part-time gardener and dog walker. BMI 32 if asked.
+r: ECG: runs of polymorphic broad-complex tachycardia with a twisting axis; sinus beats show a prolonged QTc (~560 ms).
+x: Torsades de pointes from QT prolongation (quetiapine + sertraline). Ambulance to A&E; IV magnesium sulfate 2 g; continuous cardiac monitoring; U&E, Mg, Ca and correct; stop the precipitant and discuss an alternative with psychiatry; if shocked or periarrest follow ALS (synchronised DC shock).
+ask: Will I have to stop my medicine? Will my voices come back?
+dom: Information gathering | !Medicines: name, dose, route, timing; adherence; recent changes; side effects; OTC and herbal; !allergies; social history and lifestyle
+dom: Procedure | Introduce, consent, chaperone offer; expose chest, wrists, ankles; patient at 45° or flat; correct chest leads V1–V6; limb leads (Ride Your Green Bike: red right arm, yellow left arm, green left leg, black right leg); enter details; patient still; label ECG
+dom: Clinical reasoning | !Torsades de pointes from QT prolongation; links to quetiapine + sertraline
+dom: Information giving | Structured interpretation; justifies each finding
+dom: Management | !Same-day emergency transfer (999); IV magnesium sulfate; monitoring; U&E/Mg/Ca; stop precipitant with psychiatry input; ALS if unstable
+s: Medication review | Could you take me through each medicine, what dose, and what time of day you take it? | The NICE structured medication review: name, dose, route, timing. Named mark.
+s: Medication review | Do you ever miss doses, or take any extra? Anything changed recently? | Adherence and recent changes are listed on the mark scheme.
+s: Medication review | Any side effects at all? Any fainting, palpitations or funny turns? | Targets the QT symptoms without leading him.
+s: Medication review | Do you buy anything from the chemist or take any herbal remedies? | OTC antihistamines and antiemetics also prolong QT.
+s: ECG | I'm going to put some sticky stickers on your chest, wrists and ankles to record your heart. It doesn't hurt. Would you like a chaperone? | Procedure domain opens with explanation, consent and chaperone.
+s: ECG | V1 4th space right of the breastbone, V2 4th space left, V4 5th space in line with the middle of the collarbone, V3 between, V5 and V6 level with V4 out to the side. | Saying positions while you place them proves technique to the examiner.
+s: ECG | Red right arm, yellow left arm, green left leg, black right leg: Ride Your Green Bike. | Limb lead order is a named item.
+s: Interpret | Rate about 200 in the runs, irregular broad complexes with a twisting axis. On the sinus beats the QT is long. | Precise description before the label scores reasoning marks.
+s: Interpret | This is torsades de pointes, most likely from QT prolongation by quetiapine with sertraline. | Diagnosis + cause: the two clinical-reasoning marks.
+s: Plan | He needs an ambulance to A&E now: this can turn into VF. | Urgency is the main management mark.
+s: Plan | In hospital: IV magnesium sulfate 2 g, continuous monitoring, check and correct potassium, magnesium and calcium. If he becomes unstable, synchronised DC cardioversion. | Specific drug and dose, plus the ALS escape route.
+s: Plan | We'll stop the drugs that lengthen the QT and ask his psychiatrist for a safer alternative so his mental health stays stable. | Addresses his hidden worry about relapse; MDT working.
+
+@PP03 | New AF: perform ECG, interpret, counsel on anticoagulation (DOAC or warfarin)
+src: Nottingham Medicine station bank (ECG + drug counselling) · SMOSCE 40 (warfarin, INR 9.1) · SMOSCE 44 (paroxysmal AF)
+u: 3
+fr: proc, di, counsel
+pr: ecg12
+door: You are a Foundation doctor on MAU. Mr Jones has palpitations for 72 hours. Past history: hypertension on ramipril and amlodipine; no drug allergies. Tasks: perform an ECG, interpret it and the other investigations, then counsel the patient on the appropriate drug treatment. You do not need to take a history or examine.
+trig: Irregular palpitations + hypertension + over 65 → AF; the task is anticoagulation counselling
+trig: INR above 8 on warfarin, no bleeding → stop warfarin + oral vitamin K
+hook: Anticoagulation counselling "WHY-HOW-WATCH-WHO": why (stroke), how (dose, timing, missed dose), watch (bleeding signs), who (tell every clinician, alert card, follow-up).
+hook: CHA2DS2-VASc to START, ORBIT to be SAFE. Bleeding risk is a reason to fix things, not usually a reason to withhold.
+clinch: ✅ CHA2DS2-VASc ≥2 → offer anticoagulation (consider in men with a score of 1)
+clinch: 🧪 Warfarin INR >8 with no bleeding: stop warfarin, oral vitamin K (phytomenadione) 1–5 mg, recheck INR next day, restart when INR <5
+clinch: ❌ Aspirin is not stroke prevention in AF
+money: Your heart is beating irregularly, which can let a clot form and cause a stroke. A blood thinner like apixaban cuts that risk by about two-thirds; the main side effect is bleeding, so here's what to watch for.
+trap: Reading the BNF out loud instead of counselling the actual drug
+trap: Forgetting driving (DVLA: may drive unless symptoms cause incapacity) and alcohol, which the actor will ask
+trap: Using a beta-blocker without checking for asthma, or a rate-limiting CCB without checking for heart failure
+var: A | Peter Jones, 67 | AF: start a DOAC
+a: Retired construction project manager. Palpitations for 3 days, some chest tightness; now comfortable.
+a: You only take ramipril and amlodipine. No allergies.
+a: Ask: Is this lifelong? What caused it? Can I still drink? (If feeling mean: can I still take cocaine?) Can I drive?
+r: FBC Hb 145, WCC 8.0, platelets 310. Na 137, K 4.8, urea 4.0, creatinine 70, adjusted Ca 2.3, CRP 12. CXR normal. ECG: irregularly irregular narrow-complex tachycardia ~120, no P waves.
+x: AF. CHA2DS2-VASc 2 (age 65–74 + hypertension) → DOAC (apixaban 5 mg BD unless dose-reduction criteria) after ORBIT. Rate control: bisoprolol (check asthma) or diltiazem (check heart failure). Lifestyle: alcohol, caffeine, weight, smoking, exercise. Drive unless incapacitating symptoms.
+var: B | Mr Roberts, 71 | Paroxysmal AF: start warfarin, then INR 9.1 at 2 months
+a: Diagnosed with paroxysmal AF last night after 24 hours of palpitations and light-headedness. Your senior plans warfarin. CHA2DS2-VASc 2, HAS-BLED 1.
+a: Ask: What is warfarin? Do I need monitoring? How often do I take it? Should I be worried about bleeding? Isn't it rat poison? Do I have to stop drinking? You worry about getting the changing doses wrong.
+r: Two months later: Hb 135, platelets 350, creatinine 101, eGFR 51, INR 9.1. No bleeding.
+x: Counsel warfarin: once daily in the evening, dose by INR, target INR 2.5 (2–3), yellow book and alert card, missed dose (take up to midnight; never double), bleeding signs, consistent vitamin K diet, avoid cranberry and binge drinking, tell all clinicians and pharmacists. INR 9.1 without bleeding: stop warfarin, FBC, oral vitamin K, recheck INR next day, restart at lower dose when in range, find the cause.
+ask: Is it lifelong? | Isn't warfarin rat poison? | Can I drink? | Can I drive? | What if I miss a dose?
+dom: Procedure (ECG) | Introduction, consent, chaperone for female patients; patient at 45°; expose chest, wrists, ankles; !correct chest and limb lead positions; details into machine; patient still and quiet
+dom: Clinical reasoning | !AF: tachycardia, absent P waves, irregularly irregular; ± LVH; interprets bloods (normal TFT/U&E support starting treatment)
+dom: Information giving | Structured; chunk and check; explores ideas and concerns; safety-nets; offers leaflet
+dom: Management | !Anticoagulation decision with CHA2DS2-VASc vs bleeding risk; named drug; rate control with contraindication check; lifestyle; driving
+s: Counsel | What do you already know about what's going on with your heart? | Start from his understanding: a named communication mark.
+s: Counsel | Your heart's upper chambers are quivering instead of squeezing. Blood can pool and form a clot, which can travel to the brain and cause a stroke. | Indication in plain language. The clot-to-stroke link is what makes patients take it.
+s: Counsel | Using a score of your age and blood pressure, your stroke risk is high enough that a blood thinner is recommended. | Shows the CHA2DS2-VASc decision without jargon.
+s[A]: Counsel | It's called apixaban: one 5 mg tablet twice a day, morning and evening, with or without food. | Anchors to the actual drug and dose (your feedback point).
+s[A]: Counsel | If you miss a dose, take it as soon as you remember the same day; never take two together. | Missed-dose rule is a named counselling item.
+s[B]: Counsel | Warfarin is used in tiny doses as a medicine; at these doses it's safe and very well studied. | Disarms the "rat poison" concern with honesty, not dismissal.
+s[B]: Counsel | You'll have a regular finger-prick or blood test called an INR; we aim for between 2 and 3. Your dose may change, and it's written in this yellow book. | Monitoring + yellow book + target INR are core warfarin marks.
+s: Counsel | The main side effect is bleeding: longer nosebleeds, bleeding gums, bruising. Black stools, blood in urine, vomiting blood or a bad headache after a knock: call 999 or go to A&E. | Serious side effects with an action = safety mark.
+s: Counsel | Please tell every doctor, dentist and pharmacist you're on it, and carry the alert card. | Who-to-tell is a named item.
+s: Counsel | Alcohol within the guideline limits is fine; please avoid binges, as that raises bleeding risk. | Answers the actor's planted question.
+s: Counsel | You can keep driving as long as the palpitations don't make you dizzy or faint at the wheel. | DVLA group 1 rule for AF.
+s[B]: Results | The INR is 9.1, well above the range, with no bleeding. I'd stop the warfarin, check his FBC, give oral vitamin K, recheck the INR tomorrow and restart at a lower dose once it's back in range, and look for the cause (new drugs, alcohol, illness). | Exact sequence from the mark scheme.
+s: Close | Just so I know I've explained it well, how will you be taking it? | Teach-back closes counselling stations strongly.
+
+@PP04 | Sudden collapse in a young woman: Wolff-Parkinson-White
+src: Nottingham Medicine station bank (sudden collapse) · SMOSCE 46 (WPW / flutter ECG)
+u: 3
+fr: hx, ex, di, plan
+ex: cvs
+door: You are a Foundation doctor on MAU. Emily Smith, 22, collapsed suddenly at work. Tasks: take a focused history, perform a focused cardiovascular examination, interpret the investigations, and explain your diagnosis and management plan to the examiner.
+trig: Young + palpitations before a faint + family sudden deaths → arrhythmic syncope
+trig: Short PR + slurred QRS upstroke (delta wave) → WPW
+hook: Syncope history "Before, During, After": before (trigger, palpitations, posture), during (witness, colour, jerks, duration), after (recovery speed, confusion, tongue, incontinence).
+hook: WPW: "Short PR, Delta, Wide". And never give AV-node blockers (adenosine, verapamil, digoxin, beta-blockers) in pre-excited AF.
+clinch: ✅ Palpitations then collapse on exertion + rapid full recovery = arrhythmic syncope
+clinch: ✅ Few seconds of symmetrical jerks with quick recovery is reflex anoxic jerking, not epilepsy
+clinch: ❌ Prolonged post-ictal confusion, tongue biting, incontinence → think seizure
+clinch: ❌ Digoxin is contraindicated in WPW
+money: Her palpitations before a sudden collapse, a family history of sudden death in the young, and the short PR with delta waves point to WPW with a re-entry tachycardia. She needs cardiology referral for accessory-pathway ablation.
+trap: Only volunteering the family sudden deaths if asked specifically: you must ask
+trap: Calling the brief jerks a seizure
+var: A | Emily Smith, 22 | WPW with re-entry tachycardia
+a: Palpitations came on suddenly while climbing the stairs to your office, then hot, sweaty, dizzy, went pale and passed out for about 30 seconds. A few seconds of symmetrical twitching of the arms. No tongue biting or incontinence. Came round quickly with no confusion. Palpitations settled. No head injury.
+a: No headache, photophobia, neck stiffness, visual change, FAST symptoms, chest pain or panic. Not dehydrated, ate normally, not a hot day, no prolonged standing. LMP 1 week ago. Normally fine with exercise. Never happened before.
+a: Migraine with aura. Sumatriptan, co-codamol as needed, progestogen-only pill. No allergies.
+a: ONLY IF ASKED about sudden death: aunt and 2 cousins died suddenly in their 20s–30s, one during the London Marathon. Grandmother stroke at 75.
+a: Never smoked; about 10 units a week; no drugs. ONLY IF ASKED: 2 coffees a day. PA at a legal firm for 4 years, not stressed.
+r: Hb 125, WCC 10, urea 3.0, creatinine 50. VBG pH 7.35, pCO2 50, glucose 5.2, lactate 1.0. ECG: sinus rhythm, PR <120 ms, slurred upstroke of QRS (delta wave), broad QRS.
+x: WPW with likely AVRT. Cardiology referral; echo (structural disease, Ebstein's); catheter ablation of the accessory pathway first-line if symptomatic; drugs second-line if declining ablation (specialist); avoid AV-node blockers including digoxin. DVLA: should not drive until assessed.
+ask: Was it a fit? Am I going to die like my aunt? Can I drive?
+dom: Information gathering | !Syncope before, during, after; PMH; DH including allergies; !FH sudden death or cardiac problems; SH incl. smoking, alcohol, caffeine, stress
+dom: Examination | Pulse, BP (lying/standing if time), heart sounds (murmur of HCM or AS), signs of injury
+dom: Clinical reasoning | !Correct diagnosis WPW; explains likely re-entry tachycardia given palpitations and collapse
+dom: Information giving | Clear concise interpretation of investigations; structured plan
+dom: Management | !Refer cardiology; echo; ablation first-line if symptomatic; drugs second-line; !digoxin contraindicated
+s: History | Take me back to just before you passed out. What were you doing, and what did you feel? | "Before" is where the cause lives: palpitations first = cardiac.
+s: History | Did anyone see it? How long were you out, and did you go stiff, shake or change colour? | Witness account separates syncope from seizure.
+s: History | Afterwards, how quickly did you feel yourself again? Any confusion, tongue biting or wetting yourself? | Rapid recovery without confusion argues strongly against epilepsy.
+s: History | Has anyone in your family died suddenly or unexpectedly, especially when young or during exercise? | The key hidden fact. Actor only reveals if asked directly.
+s: History | Any chance you could be pregnant? Did you hit your head? | Two safety questions examiners listen for in collapse.
+s: Interpret | The PR interval is short, under 3 small squares, and there's a slurred upstroke to the QRS, a delta wave, with a broad QRS. That's a Wolff-Parkinson-White pattern. | Describe-then-label scores both reasoning and information giving.
+s: Plan | She needs a cardiology referral and an echo. The definitive treatment is ablation of the extra pathway. | Ablation first-line is the key management mark.
+s: Plan | I'd avoid drugs that slow the AV node, especially digoxin, because they can push impulses down the extra pathway and cause VF. | Named contraindication: shows understanding, not recall.
+s: Plan | She shouldn't drive until she's been assessed. | DVLA safety point after unexplained syncope.
+
+@PP05 | Angina: history + prescribe regular and new medication (asthmatic)
+src: Nottingham Medicine station bank (chest pain history and prescribing)
+u: 2
+fr: hx, presc, plan
+door: You are a Foundation doctor in General Practice. Your next patient has chest pain. Tasks: take a history of the presenting complaint, prescribe their regular medication from the attached repeat prescription, and prescribe a new medication to help their pain.
+trig: Exertional chest tightness relieved by rest or GTN within 5 minutes → stable angina
+trig: Asthma in the history + angina → beta-blocker is a trap
+hook: Stable angina = all 3: constricting chest pain, brought on by exertion, relieved by rest or GTN within 5 minutes. 2 of 3 = atypical; 0–1 = non-anginal.
+hook: Nitrate tolerance: "the patch needs a holiday". Asymmetric dosing (e.g. 08:00 and 14:00) leaves a nitrate-free night.
+clinch: ✅ Pain at rest, lasting >15–20 minutes, not relieved by GTN → ACS, not stable angina (999)
+clinch: ❌ Beta-blocker in asthma: contraindicated (bronchospasm)
+clinch: ✅ Already on max amlodipine + BB contraindicated → add a long-acting nitrate (or ivabradine, nicorandil, ranolazine)
+money: His symptoms are stable angina. He's already on amlodipine 10 mg and a beta-blocker is contraindicated by his asthma, so I'll add isosorbide mononitrate, dosed asymmetrically to avoid tolerance, and continue his GTN.
+trap: Prescribing bisoprolol to an asthmatic
+trap: Prescribing a nitrate twice daily 12 hours apart (tolerance)
+trap: Forgetting the allergy box and patient demographics on the chart
+var: A | Harry Evans, 68 | Stable angina (asthmatic)
+a: Central crushing tight chest pain on exertion: stairs, walking round the golf course. No radiation. With it: nausea, pale, sweaty. Comes with exertion, settles with rest or GTN, 4–5 times a day. 8/10. Slowing down your golf.
+a: Angina, hypertension, asthma (no problems, not used salbutamol for 10 years).
+a: GTN spray as needed, ramipril 10 mg, amlodipine 10 mg. No allergies.
+r: Repeat prescription: ramipril 10 mg tablets; amlodipine 10 mg tablets; sublingual GTN aerosol spray 400 micrograms.
+x: Stable angina, poorly controlled. Continue ramipril 10 mg OD, amlodipine 10 mg OD, GTN 400 micrograms 1–2 sprays sublingually PRN (repeat after 5 min; 999 if pain persists 5 min after second dose). Add isosorbide mononitrate 10–20 mg at 08:00 and 14:00 (asymmetric) or MR once daily in the morning. Beta-blocker contraindicated (asthma). Consider aspirin 75 mg and a statin for secondary prevention; refer to cardiology (rapid access) for worsening symptoms.
+ask: Why can't I have the tablet my friend takes for angina? (bisoprolol)
+dom: Information gathering | !SOCRATES; red flags: tearing pain (dissection), pain at rest not relieved by GTN (ACS), syncope, palpitations, fever, weight loss, night sweats; frequency and impact on life; !drug allergies
+dom: Clinical reasoning | Correct diagnosis of angina
+dom: Prescribing | Patient demographics; !allergy box ticked and signed; regular meds correct; appropriate new drug; !long-acting nitrate prescribed asymmetrically (nitrate-free period)
+dom: Management | Recognises need for long-term symptom control; first-line CCB or BB; BB contraindicated in asthma; alternatives: long-acting nitrate, ivabradine, nicorandil, ranolazine
+s: History | Where's the pain, and what does it feel like? What brings it on? | Exertional constricting pain is 2 of the 3 stable-angina criteria.
+s: History | Does it go away when you rest or use your spray? How quickly? | Relief within 5 minutes completes the definition. Named discriminator.
+s: History | Have you ever had it at rest, or had it last longer than 20 minutes even with the spray? | Rules out ACS: the red flag the mark scheme names.
+s: History | Has it ever been a tearing pain going through to your back? Any blackouts or palpitations? | Dissection and arrhythmia red flags in one sentence.
+s: History | How often does it happen now, and what can't you do because of it? | Frequency and impact justify escalating treatment.
+s: Prescribe | Patient name, DOB, hospital number, weight. Allergies: none known, signed. | Demographics and allergy box are critical prescribing items.
+s: Prescribe | RAMIPRIL 10 mg oral once daily; AMLODIPINE 10 mg oral once daily; GLYCERYL TRINITRATE 400 micrograms sublingual, 1–2 sprays as required. | Copying the repeat accurately with units in full.
+s: Prescribe | ISOSORBIDE MONONITRATE 10 mg oral at 08:00 and 14:00. | Asymmetric times give the nitrate-free period: the hidden mark.
+s: Explain | Because of your asthma, the usual tablet, a beta-blocker, could tighten your airways. This one relaxes the blood vessels instead. | Answers the planted question with the safety reason.
+s: Explain | It can cause a headache at first, which usually settles. Stand up slowly at first. | Common side effects of nitrates.
+s: Close | If the pain comes at rest, or isn't better 5 minutes after the second spray, call 999. | Standard GTN safety-net.
+
+@PP06 | Acute chest pain: history + ECG + troponin → NSTEMI / posterior MI
+src: SMOSCE 42 · Station bank CV01
+u: 0
+fr: hx, di, reason, plan
+door: You are a Foundation doctor in a busy A&E. A 61-year-old woman has sudden-onset chest pain. Tasks: take a focused chest pain history, interpret the investigations and give a brief differential, then outline your management plan to the examiner.
+trig: Central pain radiating to left arm + sweaty + known angina, GTN only partly helped → ACS
+trig: ST depression V1–V3 → check for posterior MI (V7–V9 elevation)
+hook: Acute ACS "MONA is dead, long live ROMANCE"? Use the UK version: Aspirin 300 mg, pain relief (GTN; IV morphine + antiemetic if severe), Oxygen ONLY if SpO2 <94%, antithrombin (fondaparinux), then GRACE to time the angiogram.
+hook: Posterior MI: "flip the anterior": ST depression + tall R + upright T in V1–V3 = mirror image of posterior ST elevation.
+clinch: ✅ Raised troponin with a rise and/or fall + ischaemic symptoms + no ST elevation = NSTEMI
+clinch: ✅ ST depression V1–V3 with ST elevation V7–V9 = posterior STEMI → PCI pathway
+clinch: ❌ Pain that changes with position or breathing, or is reproduced by pressing → less likely ACS
+clinch: ❌ Tearing pain to the back + arm BP difference >20 → dissection: no antiplatelets until CT aorta
+money: This is an acute coronary syndrome. The ECG shows ST depression in V1 to V3 with ST elevation in V7 to V9, so this is a posterior MI. She needs aspirin 300 mg now, analgesia, and urgent cardiology review for PCI.
+trap: Giving oxygen to everyone (only if SpO2 <94%)
+trap: Not asking what she did herself (GTN twice) and previous episodes
+var: A | Mrs H, 61 | Posterior MI / NSTEMI
+a: Sudden chest pain 3 hours ago while rushing home from the shops. 8/10, radiating down the left arm, pale and clammy. Used your GTN twice: some relief. Comfortable now.
+a: Mild chest pain twice in the last year, always relieved by GTN.
+a: Hypertension, angina, type 2 diabetes. Ramipril, simvastatin, bisoprolol, metformin, GTN. No allergies.
+a: Retired nurse, lives alone in a house with stairs, independent. Never smoked, occasional glass of wine.
+r: Hb 152, WCC 9.2, platelets 270, Na 139, K 4.7, urea 4.5, creatinine 98, eGFR 76. Troponin >30 ng/L. ECG: ST depression V1–V3; posterior leads V7–V9 show ST elevation.
+x: Posterior MI (ACS). ABCDE; aspirin 300 mg; GTN; IV morphine with antiemetic if pain severe; oxygen only if SpO2 <94%; P2Y12 inhibitor per cath lab; antithrombin per local guidance (fondaparinux 2.5 mg SC OD if NSTEMI pathway); urgent cardiology for PCI. Secondary prevention: DAPT 12 months, high-intensity statin (atorvastatin 80 mg), ACEi, beta-blocker, cardiac rehab.
+ask: Am I having a heart attack? Can I go home today?
+dom: Information gathering | !SOCRATES; associated symptoms; previous similar episodes; what she did herself (GTN); brief medications and allergies; risk factors
+dom: Clinical reasoning | !Correct ECG interpretation (posterior MI or NSTEMI) and raised troponin; sensible differential (stable angina, PE, dissection, GORD)
+dom: Management | ABCDE; !aspirin 300 mg; analgesia; oxygen if indicated; antithrombin; cardiology for angiography/PCI; secondary prevention
+s: History | Where is the pain, and can you show me with one hand? | A clenched fist over the sternum (Levine's sign) is classic ischaemia.
+s: History | When did it start, and what were you doing? | Onset at exertion vs rest, and the 3-hour timeline, decide reperfusion.
+s: History | Does it go anywhere, to your arm, jaw or back? | Arm/jaw = ischaemia; back = consider dissection.
+s: History | Did you feel sick, sweaty, or short of breath with it? | Autonomic features raise the probability of MI.
+s: History | Did you take anything for it? Has this happened before? | Named on the mark scheme: self-treatment and previous episodes.
+s: Interpret | Troponin is raised above 30. The ECG shows ST depression in V1 to V3; the posterior leads show ST elevation, so this is a posterior myocardial infarction. | Precise lead territories and the posterior catch score the reasoning domain.
+s: Plan | ABCDE first. Aspirin 300 mg now. GTN for pain; IV morphine with an antiemetic if severe. Oxygen only if her sats drop below 94%. | Exact UK sequence with doses.
+s: Plan | I'd call cardiology now for urgent angiography and PCI. | Reperfusion is the main management mark.
+s: Plan | Before discharge: dual antiplatelets for 12 months, atorvastatin 80 mg, an ACE inhibitor, continue her beta-blocker, and cardiac rehab. | Secondary prevention earns the "beyond" marks.
+
+@PP07 | A–E: chest pain on the orthopaedic ward → anterolateral STEMI
+src: SMOSCE 2 · CP3 2019 mock (A–E + ACS ECG + prescribe)
+u: 0
+fr: acute, di, plan, sbar
+door: You are the F1 covering the wards overnight. Gary, 60, on the orthopaedic ward for a knee replacement tomorrow, has had severe chest pain for the last hour. You do not need to take a history. No regular medication, no known drug allergies. Tasks: perform an acute assessment, advising management as you go; interpret the three investigations; give a diagnosis and immediate plan.
+trig: Pre-op patient + crushing pain + cool and clammy → ACS until proven otherwise
+trig: ST elevation V2–V6, I, aVL with reciprocal depression in III, aVF → anterolateral STEMI (proximal LAD)
+hook: STEMI "Time is muscle": primary PCI if presenting within 12 h and PCI deliverable within 120 min of when fibrinolysis could be given.
+hook: Leads to arteries: II, III, aVF = RCA (inferior); V1–V4 = LAD (anterior); I, aVL, V5–V6 = circumflex (lateral).
+clinch: ✅ ST elevation ≥2 contiguous leads + ischaemic pain → STEMI pathway now; don't wait for troponin
+clinch: ❌ Normal CXR and ABG do not exclude MI
+money: This is an anterolateral STEMI. I'm giving aspirin 300 mg and calling the cardiology registrar now for primary PCI.
+trap: Waiting for troponin before activating the PCI pathway
+trap: Forgetting to reassess after each intervention
+var: A | Gary, 60 | Anterolateral STEMI
+a: Severe central chest pain, scared. Answer only what is asked; speak in full sentences.
+r: A: patent, talking. B: SpO2 98% air, RR 22, no deviation, resonant, clear. C: HR 80, BP 145/80, CRT 4 s, cool clammy, HS normal, urine 40 mL last hour. D: alert, pupils equal, BM 6.5, temp 36.6. E: no rash, abdomen soft, calves soft. CXR normal. ABG pH 7.43, pO2 13.5, pCO2 4.5, HCO3 26. ECG: ST elevation V2–V6, I and aVL with reciprocal ST depression in III and aVF.
+x: Anterolateral STEMI. IV access, bloods (FBC, U&E, troponin, glucose, lipids, coagulation, G&S), aspirin 300 mg, second antiplatelet per PCI protocol, analgesia (GTN, IV morphine + antiemetic), oxygen only if SpO2 <94%, call cardiology for immediate primary PCI, cancel tomorrow's surgery, reassess.
+dom: Examination (A–E) | !Systematic ABCDE; reassesses; requests ECG early; checks glucose
+dom: Clinical reasoning | !STEMI (anterolateral); CXR normal; ABG normal; ECG territories
+dom: Management | IV access + bloods incl. troponin; !aspirin 300 mg; analgesia; nitrates; oxygen only if hypoxic; !immediate PCI via cardiology; escalate to senior
+s: A–E | Hello Gary, I'm Nana, one of the doctors. I can see you're in a lot of pain; I'm going to assess you quickly and treat as I go. | Communication while assessing keeps those marks alive.
+s: A–E | Airway: he's talking in full sentences, so his airway is patent. | Say each letter out loud so the examiner can tick it.
+s: A–E | Breathing: rate 22, sats 98% on air, so he doesn't need oxygen. Chest clear. | Withholding oxygen when SpO2 ≥94% is current UK practice and a marked decision.
+s: A–E | Circulation: pulse 80, BP 145/80, cap refill 4 seconds, cool and clammy. I'll get two cannulas in, take bloods including troponin, and I need a 12-lead ECG now. | ECG within 10 minutes of chest pain is the critical circulation step.
+s: A–E | Disability: alert, glucose 6.5. Exposure: no rashes, calves soft. | DEFG: don't ever forget glucose.
+s: Interpret | The ECG shows ST elevation in V2 to V6, I and aVL with reciprocal depression in III and aVF: an anterolateral STEMI, likely the proximal LAD. | Territories named precisely.
+s: Plan | Aspirin 300 mg now, GTN for pain, IV morphine with an antiemetic if needed. | Doses spoken aloud.
+s: SBAR | Hi, I'm Nana, the F1 on orthopaedics. I'm calling about Gary, 60, with an anterolateral STEMI on his ECG, pain for an hour. He's had aspirin. I'd like him to go for primary PCI now. | SBAR with a clear ask is marked separately.
+
+@PP09 | Cardiovascular examination with a murmur: AS, MR or metallic MVR
+src: CP3 2018 first sit (CVS exam + ECG) · CP3 2019 resit (pre-op AS) · OSCEs 2018 (3 days) · SMOSCE 39 (MR + LVH) · SMOSCE 43 (metallic MVR)
+u: 7
+fr: ex, di, expl
+ex: cvs
+door: You are a Foundation doctor. Perform a cardiovascular examination, present your findings to the examiner, interpret the ECG or CXR provided, and answer the patient's questions where asked.
+trig: Ejection systolic murmur radiating to carotids + slow-rising pulse → aortic stenosis
+trig: Pansystolic murmur at apex radiating to axilla + displaced apex → mitral regurgitation
+trig: Sternotomy + audible click + warfarin → metallic valve replacement
+hook: AS triad "SAD": Syncope, Angina, Dyspnoea. Narrow pulse pressure, slow-rising pulse, soft S2.
+hook: Manoeuvres "Left for Mitral, Forward for Aortic": left lateral + expiration with the bell for MS; sit forward + held expiration for AR.
+hook: Timing: thumb on the carotid. Murmur WITH the pulse = systolic.
+clinch: ✅ Soft or absent S2 + slow-rising pulse = severe AS
+clinch: ✅ Metallic click at S1 = mitral replacement; click at S2 = aortic replacement
+clinch: ❌ Murmur that gets louder with Valsalva/standing → HOCM rather than AS
+money: On examination, there was an ejection systolic murmur loudest at the right second intercostal space radiating to the carotids, with a slow-rising pulse and soft second heart sound. This is consistent with aortic stenosis. I'd complete with an ECG and an echocardiogram.
+trap: Timing the murmur without palpating the carotid
+trap: Skipping lung bases and ankle oedema at the end
+trap: Saying "apex normal" without its position
+var: A | Pre-op patient, 70s | Aortic stenosis
+a: Breathless on exertion; due a hernia repair. Comfortable at rest.
+r: Pulse 72 regular, slow rising; BP 130/95 (narrow pulse pressure); apex undisplaced, heaving; harsh ESM aortic area radiating to carotids; soft S2. ECG: LVH (tall voltages, strain).
+x: AS: echo (valve area, gradient); refer cardiology before elective surgery (anaesthetic risk); TAVI or surgical AVR if symptomatic severe.
+var: B | Man, 77 | Mitral regurgitation with LVH
+a: 3 weeks of fatigue, breathlessness on exertion and palpitations; known coronary artery disease.
+r: Pulse may be irregular (AF); apex displaced laterally and thrusting; soft S1; pansystolic murmur loudest at apex in left lateral position radiating to axilla; S3. ECG: LVH with left axis deviation (very high voltages).
+x: MR (likely ischaemic). Echo; manage heart failure and AF; cardiology for repair/replacement if severe or symptomatic.
+var: C | Patient, 66 | Metallic mitral valve replacement
+a: Works at Tesco. Had a valve operation for "a floppy part that didn't pump blood"; cardiologist was busy and never explained. You hear a ticking. Warfarin. Ask: Will my children get it? Why do I have to take warfarin? Will it be cured now? Is there anything I should be worried about?
+r: Well; audible click from end of bed; pulse 90 regular; midline sternotomy; apex slightly displaced; metallic click at S1; normal S2; no other murmurs; lungs clear; no oedema. CXR: metallic mitral valve, cardiomegaly.
+x: Metallic MVR for MR. Lifelong warfarin (INR target 3.0 for mitral mechanical, range 2.5–3.5); endocarditis risk: dental hygiene, report fevers; warning signs: breathlessness, loss of the click, stroke symptoms, bleeding.
+ask: Why is there a ticking sound? | Why warfarin forever? | Will my children get it?
+dom: Examination | Introduction, consent, hand hygiene; position 45°, expose; end of bed; hands (clubbing, splinters, Janeway, Osler); radial rate, rhythm, radio-radial delay, collapsing pulse; BP; face (malar flush, pallor, cyanosis, dentition); !JVP; !carotid character; inspect chest (scars, pacemaker); !apex position and character; heaves and thrills; !auscultate 4 areas timing with carotid; !manoeuvres (left lateral bell, sit forward expiration); carotids and axilla; lung bases; sacral and ankle oedema
+dom: Information giving | !Concise presentation: positives, relevant negatives, impression, to complete
+dom: Clinical reasoning | !Correct lesion for the variant; ECG/CXR interpreted (LVH, metallic valve)
+dom: Communication | (Variant C) elicits concerns, explains in plain words, addresses warfarin and inheritance
+s: Inspect | From the end of the bed he looks comfortable at rest, no oxygen or GTN visible, and I can see a midline sternotomy scar. | Say the inspection out loud: examiners only tick what they hear.
+s: Pulse | Radial pulse: 72, regular. No radio-radial delay. Any pain in your shoulder before I lift your arm? | Asking about shoulder pain before the collapsing pulse is a microskill they notice.
+s: Neck | JVP not raised. Carotid pulse slow-rising. | Pulse character is the strongest bedside AS sign.
+s: Praecordium | Apex in the 5th intercostal space mid-clavicular line, heaving, not displaced. No thrills. | Position AND character. "Normal" alone loses the mark.
+s: Auscultate | I'll keep my thumb on the carotid while I listen. | Timing with the carotid is a named technique mark.
+s: Auscultate | Could you roll onto your left side and breathe out and hold? Now sit forward, breathe all the way out and hold. | Both manoeuvres are named items; do them even if you've heard the murmur.
+s: Finish | I'll listen at the lung bases and check for swelling at the ankles and lower back. | Signs of failure complete the CVS examination.
+s: Present | In summary… These findings are consistent with ___. To complete my examination I'd like an ECG, a urine dip, observations including temperature, and an echocardiogram. | The structured presentation is its own domain.
+s[C]: Explain | The ticking is the new valve doing its job: it's a mechanical door that opens and closes with every heartbeat. | Plain-language analogy for the click.
+s[C]: Explain | Mechanical valves can grow clots on them, so warfarin is lifelong to stop a stroke. We aim for a slightly higher INR than with AF, around 3. | Mitral mechanical INR target is higher: a knowledge mark.
+s[C]: Explain | The valve problem itself isn't usually passed on. The new valve is long-lasting, but you're more prone to valve infection, so look after your teeth and see a doctor with any unexplained fever. | Answers inheritance and endocarditis questions.
+
+@PP10 | Heart failure: breathless with puffy legs (history + plan to patient)
+src: SMOSCE 41
+u: 6
+fr: hx, expl, plan
+door: You are a junior doctor on a busy medical admissions unit. A 73-year-old retired librarian has increasing breathlessness on exertion and swollen legs; friends say she looks puffy. Tasks: take a focused history, summarise and give differentials to the examiner, then discuss your management plan including investigations with the patient.
+trig: Breathless + orthopnoea (3 pillows) + bilateral pitting oedema + known poor pump → decompensated heart failure
+hook: HF history "FOOT-PNW": Fatigue, Orthopnoea (pillows), Oedema, exercise Tolerance, PND, Nocturnal cough/pink frothy sputum, Weight gain.
+hook: HFrEF pillars "ABMS": ACEi/ARB (or ARNI), Beta-blocker, MRA, SGLT2 inhibitor. Diuretic for symptoms, not survival.
+clinch: ✅ Orthopnoea + PND + raised JVP + bibasal crackles = left + right failure
+clinch: ❌ Unilateral swollen calf → DVT, not heart failure
+clinch: 🧪 BNP/NT-proBNP: normal makes heart failure unlikely
+money: The likely problem is worsening of her known heart failure. I'd do bloods including BNP and U&Es, an ECG and CXR, monitor daily weights and fluid balance, and increase her furosemide.
+trap: Not asking the number of pillows and exercise tolerance in metres (named)
+trap: Explaining to the examiner when the task says explain to the patient
+var: A | Retired librarian, 73 | Decompensated heart failure (HFrEF)
+a: Legs puffy for a few weeks, worse at end of day; both calves swollen; no redness or pain; a lasting dent when your husband massages them; better with feet up. No trauma or surgery; no long-haul flight for 10 years.
+a: Usually manage 20 m before resting, now 15 m in the last 2 weeks. No chest pain or palpitations. Sleep on 3 pillows; no waking breathless at night; more breathless lying flat.
+a: Gallstones, hypertension, heart failure diagnosed 3 years ago (recent echo: "not pumping as well"), DVT 5 years ago (warfarin, stopped), bilateral hip replacements 10+ years ago.
+a: Furosemide 40 mg OD (just more toilet trips), lisinopril 5 mg OD, bisoprolol 2.5 mg OD. No allergies.
+a: Never smoked; occasional wine; daughter helps care and cook; walks with a stick just in case. Husband died of lung cancer 15 years ago.
+a: ICE: wonder if the puffiness is your heart; want medicine to make it go away.
+x: Worsening HFrEF. Bloods (FBC, U&E, LFT, CRP, BNP, troponin, glucose, TFT), ECG, CXR, repeat echo; daily weights; fluid balance; increase furosemide; optimise ACEi and beta-blocker, add MRA (spironolactone) and SGLT2i (dapagliflozin) per NICE NG106 via HF team; fluid and salt advice; heart failure nurse.
+ask: Is it my heart? Is there a tablet to make it go away?
+dom: Information gathering | !Heart failure symptoms: fatigue, exercise tolerance, orthopnoea, PND, oedema, nocturnal cough, pink frothy sputum, weight gain; DVT features; medication adherence
+dom: Clinical reasoning | Concise summary; sensible differentials including worsening heart failure (also DVT, hypoalbuminaemia, renal, drug-induced oedema from amlodipine)
+dom: Communication | Listens, allows time, no jargon, checks understanding, empathic
+dom: Management | Bloods incl. BNP; ECG, CXR, echo; daily weights; fluid balance; !increase furosemide
+s: History | How many pillows do you sleep on? Do you ever wake up gasping for breath? | Orthopnoea and PND quantify left heart failure: named items.
+s: History | How far can you walk before you have to stop now, compared with a month ago? | Exercise tolerance in metres is how severity is tracked.
+s: History | Is it both legs equally? Any redness or pain in a calf? | Excludes DVT, especially with her previous clot.
+s: History | Have you noticed your weight going up quickly, or coughing pink frothy phlegm? | Rapid weight gain = fluid; pink froth = pulmonary oedema.
+s: History | Are you managing to take the water tablet every day? | Non-adherence (from the toilet trips) is the commonest cause of decompensation.
+s: Explain | I think the swelling is from your heart: it isn't pumping strongly enough, so fluid builds up in your legs and lungs. | Answers her idea directly in plain words.
+s: Explain | We'll check your blood tests, heart tracing, chest X-ray and a scan of your heart. | Investigations explained to the patient, not the examiner.
+s: Explain | I'd increase your water tablet, and we'll weigh you every morning: a rise of 2 kg in 3 days means fluid is building. | Daily weights are both monitoring and self-management.
+s: Explain | There are also newer heart tablets that help the heart pump better and keep you out of hospital; the heart failure team will add those carefully. | Shows NICE pillars without overload.
+
+@PP11 | Funny turn / fall: history + ECG → complete heart block, AF or vasovagal
+src: CP3 2019 first sit (falls history + ECG) · OSCEs 2018 GP funny turn
+u: 3
+fr: hx, di, plan
+door: You are a Foundation doctor. Take a focused falls or funny-turn history, interpret the ECG, and explain your management to the examiner.
+trig: Elderly + sudden drop with no warning + pale then flushed recovery → Stokes-Adams (complete heart block)
+trig: Standing + hot + nausea + tunnel vision before faint → vasovagal
+hook: Falls "Before, During, After" + "trip or drop?". Drop attacks with no warning = cardiac until proven otherwise.
+hook: Complete heart block: "P's and Q's don't talk": P waves and QRS complexes march independently; broad escape rhythm.
+clinch: ✅ Regular P waves + regular slow QRS with no relationship = complete heart block → admit for pacing
+clinch: ✅ Prodrome (hot, sweaty, nauseous) + provoking situation + quick recovery = vasovagal
+clinch: ❌ Head injury on anticoagulant → CT head within 8 hours (NICE)
+money: The ECG shows complete heart block: P waves and QRS complexes are dissociated with a slow broad escape rhythm. He needs admission, continuous monitoring, atropine if unstable, and a pacemaker.
+trap: Not asking about injury and anticoagulants after a fall
+trap: Missing medications causing bradycardia (beta-blockers, digoxin, rate-limiting CCB)
+var: A | Man, 78 | Complete heart block
+a: Suddenly found yourself on the floor in the kitchen; no warning. Wife says you went grey then pink as you came round within a minute. No confusion after. A bruise on your hip. Similar "dizzy turns" recently.
+a: Hypertension; amlodipine. No anticoagulant. No allergies.
+r: ECG: HR 38, regular P waves at 80, QRS broad and regular, no relationship between P and QRS.
+x: Complete heart block: admit, continuous monitoring, check K/Mg/TFT/troponin, review drugs, atropine 500 micrograms IV if unstable (then transcutaneous pacing), cardiology for permanent pacemaker. No driving.
+var: B | Woman, 24 | Vasovagal syncope
+a: Fainted standing in a hot church at a wedding; felt hot, sick, sweaty and vision went grey first. Out for seconds, came round quickly, no confusion. No palpitations or chest pain. No family sudden deaths.
+r: ECG: sinus rhythm, normal intervals.
+x: Vasovagal syncope: reassure; avoid triggers; physical counter-pressure manoeuvres; fluids; no driving restriction for simple faint.
+var: C | Woman, 72 | Fast AF with a fall
+a: Felt your heart racing then went dizzy and fell; hit your head on the cupboard. Takes apixaban? No: not on any blood thinners. Hypertension, diabetes.
+r: ECG: AF, ventricular rate 130.
+x: AF: rate control; anticoagulation decision (CHA2DS2-VASc 4); falls risk is not a reason to withhold; CT head if indicated.
+dom: Information gathering | !Before, during, after; witness account; !injury and head injury; anticoagulants; drug history (rate-limiting drugs, antihypertensives); cardiac history; previous episodes
+dom: Clinical reasoning | !Correct ECG diagnosis for the variant
+dom: Management | Variant-specific plan; DVLA; falls prevention where relevant
+s: History | Did you trip, or did you just drop? Any warning at all? | Trip vs drop is the first split in any fall.
+s: History | Did anyone see your colour? How quickly did you come round? | Grey then flushed with fast recovery = Stokes-Adams.
+s: History | Did you hurt yourself or hit your head? Are you on any blood thinners? | Injury + anticoagulation decides CT head.
+s: Interpret | The P waves are regular at about 80, the QRS complexes are regular and slow at about 38, and they're unrelated: complete heart block. | Describe the dissociation before naming it.
+s: Plan | Admit, monitor, atropine 500 micrograms IV if he becomes unstable, and refer to cardiology for a pacemaker. | Specific dose and definitive treatment.
+
+@PP12 | GP negotiation: patient wants to stop bisoprolol after MI or refuses a statin
+src: CP3 2019 GP negotiation (bisoprolol post-MI; rivaroxaban post-PE) · CP2 statin counselling ("Daily Mail")
+u: 0, 5
+fr: expl, ebm
+door: You are a Foundation doctor in General Practice. Your patient wants to stop a medicine started after a cardiac event (or refuses a statin after reading a newspaper article). Explore their reasons, discuss, and come to an agreed plan.
+trig: "I feel tired on it / I read it's dangerous" → negotiation station: explore, inform, agree
+hook: Negotiation "LEAP": Listen, Empathise, Agree on what you can, Partner on a plan.
+hook: Risk in absolute numbers: "out of 100 people like you, about X avoid a heart attack over 10 years".
+clinch: ✅ Bisoprolol after MI: continue at least 12 months; indefinitely if LVEF is reduced (NICE NG185)
+clinch: ✅ Statin primary prevention: offer atorvastatin 20 mg if QRISK3 ≥10% (NICE NG238); secondary prevention atorvastatin 80 mg
+clinch: ❌ Never just say "you must take it": autonomy is marked
+money: I can hear the tiredness is really getting in your way. Let's look at whether it's the tablet, and if it is, there are options, like a lower dose or a different medicine, so you stay protected.
+trap: Lecturing rather than exploring the reason
+trap: Using relative risk only ("halves your risk")
+var: A | Man, 58, 4 months post-MI | Wants to stop bisoprolol (tired, low libido)
+a: Had a heart attack 4 months ago and a stent. Feel tired and your sex life has suffered since starting bisoprolol. Read online that you only need it for a while. Want to stop all the "heart pills".
+a: If the doctor listens and offers options, you are willing to try a lower dose or swap.
+x: Explore side effects; check LVEF; explain benefit (reduces further MI, arrhythmia); options: dose reduction, switch, address erectile dysfunction (PDE5 inhibitor safe if not on nitrates, 3–6 months post-MI stable), review at 12 months; never stop abruptly (rebound).
+var: B | Woman, 62 | Refuses statin after a newspaper article
+a: QRISK3 is 14%. Read in the Daily Mail that statins cause muscle damage and diabetes. Your sister had aches on simvastatin. You'd rather "eat healthily".
+a: Persuaded if risks and benefits are explained honestly in numbers and lifestyle is valued too.
+x: QRISK 14%: atorvastatin 20 mg reduces 10-year risk by roughly a third (about 4–5 in 100 avoid an event); muscle aches are common but true myopathy rare; small diabetes risk outweighed by benefit; lipids, LFT baseline, repeat at 3 months; lifestyle alongside; her choice respected.
+dom: Communication | !Explores reasons and ICE; empathic; non-judgemental; avoids jargon
+dom: Information giving | !Absolute risk with denominator and timeframe; benefits and harms in same units; chunk and check
+dom: Management | !Agreed plan (dose change, alternative, trial, review); safety-net (don't stop abruptly); follow-up
+s: Explore | It sounds like you've been thinking about this a lot. What's been worrying you about the tablet? | Exploring first is the main communication mark.
+s: Explore | What have you read about it? | Finding the source lets you address the specific worry.
+s: Inform | Out of 100 people like you over the next 10 years, about 14 would have a heart attack or stroke. The statin brings that down to about 9 or 10. | Absolute numbers are the EBM mark.
+s: Inform | Muscle aches happen in some people, but serious muscle damage is very rare, about 1 in 10,000. If aches happen we can change the dose or type. | Harms in the same units, with an action.
+s: Agree | What would you feel comfortable trying? | Shared decision; her plan, not yours.
+s[A]: Agree | Please don't stop it suddenly: that can make the heart race. Let's reduce the dose and see how you feel in 4 weeks. | Safety point (rebound) + a specific review.
+
+@PP13 | Hypertension: new diagnosis, step-1 drug and counselling (your feedback station)
+src: CP2 GP (COPD/HTN/AF joint plan) · Your formative CPSA feedback (antihypertensive choice)
+u: 4
+fr: di, counsel, plan
+door: You are a Foundation doctor in General Practice. Your patient's home BP readings confirm hypertension. Interpret the results, choose the step-1 drug for this patient and counsel them on it, agreeing a plan.
+trig: Average home BP ≥135/85 → hypertension confirmed
+trig: Choosing the drug: T2DM at any age, or <55 and not Black African/Caribbean → ACEi/ARB; ≥55 or Black African/Caribbean (no T2DM) → CCB
+hook: "A for Age under 55, C for Carib or Cohort over 55." T2DM trumps everything: A at any age (ARB if Black African/Caribbean).
+hook: The fixed counselling sequence from your feedback: drug, dose, why, how it works, how to take, common SE, what to do, serious SE, monitoring, review, safety-net.
+clinch: ✅ Clinic ≥140/90 → confirm with ABPM (daytime average ≥135/85) or HBPM
+clinch: ✅ Treat stage 1 if <80 and target organ damage, CVD, renal disease, diabetes or QRISK ≥10%; treat all stage 2
+clinch: ❌ ACEi in a Black African/Caribbean patient: use an ARB instead
+clinch: 🧪 ACEi: check U&E before and 1–2 weeks after starting (creatinine rise ≤30% and K ≤6 acceptable)
+money: Your home readings average 148 over 92, which confirms high blood pressure. Because you're 62, the best first tablet is amlodipine 5 mg once a day. The commonest side effect is ankle swelling. We'll recheck your blood pressure in 4 weeks.
+trap: Offering two drugs "either/or" (muddies the decision: flagged in your feedback)
+trap: ACEi without U&E monitoring
+trap: Forgetting lifestyle (salt, alcohol, weight, exercise) and QRISK
+var: A | Mr Okafor, 62, Black Caribbean | Step 1: amlodipine (CCB)
+a: Home BP average 148/92. No diabetes. Concerned because your brother had a stroke. Ask: Will I be on it forever? Does it interact with my beer?
+x: CCB amlodipine 5 mg OD; SE ankle oedema, flushing, headache; review 4 weeks; target <140/90 clinic (<135/85 home); lifestyle; QRISK3 and statin discussion; urine ACR, U&E, HbA1c, lipids, ECG, fundoscopy.
+var: B | Mrs Patel, 48, South Asian, T2DM | Step 1: ramipril (ACEi)
+a: Home BP average 142/90; type 2 diabetes on metformin. Ask: Will it hurt my kidneys? What about the cough my friend got?
+x: ACEi ramipril 1.25–2.5 mg OD, titrate; U&E before and 1–2 weeks after; SE dry cough (switch to ARB), angioedema (stop, 999), dizziness; avoid in pregnancy (counsel contraception); target <140/90.
+var: C | Mr Hughes, 52, white British | Step 1: ramipril (ACEi)
+a: Home BP average 152/96, QRISK 15%. Plays football, drinks 20 units a week.
+x: ACEi (<55) ramipril; U&E; lifestyle; statin offer (QRISK ≥10%).
+dom: Clinical reasoning | !Confirms diagnosis from home/ambulatory readings; !chooses the correct step-1 drug for age, ethnicity and diabetes status; justifies it
+dom: Information giving | !Counsels THIS drug in the fixed order; chunk and check; teach-back
+dom: Management | Monitoring (U&E for ACEi), review date, target BP, lifestyle, QRISK/statin, target-organ tests
+s: Interpret | Your home readings average ___ over ___. Over 135 over 85 at home confirms high blood pressure. | Diagnosis criterion said out loud.
+s: Decide | Because you're ___ (age / diabetes / family background), the tablet that works best first is ___. | Your feedback: name ONE drug and justify it. This is the station's main mark.
+s: Counsel | It's ___ mg once a day, at the same time each day. | Anchor to the prescription.
+s: Counsel | It works by ___ (relaxing the blood vessels / blocking a hormone that tightens them). | One-sentence mechanism.
+s: Counsel | The common side effect is ___ (ankle swelling / a dry tickly cough). If that happens, tell us: there are alternatives. | Common SE + action.
+s[B]: Counsel | Rarely it causes swelling of the lips, tongue or throat. If that happens, stop it and call 999. | Angioedema safety-net for ACEi.
+s[B]: Counsel | We'll do a blood test before and 1 to 2 weeks after starting, to check your kidneys. | U&E monitoring is the ACEi management mark.
+s: Counsel | We'll check your blood pressure again in 4 weeks. The aim is under 140 over 90 in clinic. | Review date + target.
+s: Counsel | The other half of the treatment is you: less salt, alcohol within limits, keeping active. | Lifestyle advice is always marked.

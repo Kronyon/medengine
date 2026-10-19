@@ -1,0 +1,19 @@
+{
+  "projectId": "medengine",
+  "projectName": "medengine.exe",
+  "settings": {
+    "auth": {
+      "methods": { "email-password": true, "magic-url": false, "email-otp": false, "anonymous": false, "invites": false, "jwt": true, "phone": false },
+      "security": { "duration": 31536000, "limit": 0, "sessionsLimit": 10, "passwordHistory": 0, "passwordDictionary": true, "personalDataCheck": true }
+    }
+  },
+  "functions": [
+    { "$id": "ai", "name": "ai", "runtime": "node-22", "path": "functions/ai", "entrypoint": "src/main.js", "commands": "npm install --omit=dev", "execute": ["users"], "timeout": 120, "enabled": true, "logging": true, "scopes": ["users.read", "users.write"] },
+    { "$id": "checkout", "name": "checkout", "runtime": "node-22", "path": "functions/checkout", "entrypoint": "src/main.js", "commands": "npm install --omit=dev", "execute": ["users"], "timeout": 30, "enabled": true, "logging": true, "scopes": ["users.read", "users.write"] },
+    { "$id": "portal", "name": "portal", "runtime": "node-22", "path": "functions/portal", "entrypoint": "src/main.js", "commands": "npm install --omit=dev", "execute": ["users"], "timeout": 30, "enabled": true, "logging": true, "scopes": ["users.read"] },
+    { "$id": "stripe-webhook", "name": "stripe-webhook", "runtime": "node-22", "path": "functions/stripe-webhook", "entrypoint": "src/main.js", "commands": "npm install --omit=dev", "execute": ["any"], "timeout": 30, "enabled": true, "logging": true, "scopes": ["users.read", "users.write"] }
+  ],
+  "sites": [
+    { "$id": "web", "name": "medengine.exe", "framework": "other", "buildRuntime": "node-22", "adapter": "static", "path": ".", "installCommand": "npm ci --prefix web", "buildCommand": "npm run build --prefix web", "outputDirectory": "./web/dist", "fallbackFile": "index.html" }
+  ]
+}

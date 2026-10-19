@@ -1,0 +1,366 @@
+@PP22 | RUQ pain: acute cholecystitis (history) or acute cholangitis (exam + explain)
+src: SMOSCE 10 (cholecystitis history + results) · SMOSCE 11 (cholangitis exam + USS + explain)
+u: 41, 42
+fr: hx, ex, di, expl, plan
+ex: abdo
+door: You are the junior doctor on the Surgical Assessment Unit. A woman with known gallstones has right upper quadrant pain. Variant A: take a focused history, present with differentials, interpret the results. Variant B: perform a focused abdominal examination, look at the ultrasound report, and discuss the diagnosis and management with the patient.
+trig: RUQ pain >6 h + fever + raised WCC/CRP + Murphy's sign, NO jaundice → acute cholecystitis
+trig: RUQ pain + fever + jaundice (Charcot's triad) → ascending cholangitis
+hook: Biliary ladder: colic (pain only) → cholecystitis (pain + fever) → cholangitis (pain + fever + jaundice) → Reynolds' pentad (+ hypotension + confusion).
+hook: "Jaundice moves it up a rung": a stone in the gallbladder neck doesn't block bile to the gut; a stone in the CBD does.
+clinch: ❌ Jaundice is not a feature of simple cholecystitis → think CBD stone/cholangitis (or Mirizzi)
+clinch: ✅ CBD dilated >6–8 mm on USS + fever + jaundice = obstructed infected biliary tree → urgent ERCP
+clinch: ❌ Painless jaundice + palpable gallbladder → not stones (Courvoisier): pancreatic head cancer
+money: She has Charcot's triad of RUQ pain, fever and jaundice with a dilated common bile duct on ultrasound: acute cholangitis. She needs admission, IV fluids, IV antibiotics, blood cultures and urgent ERCP to drain the bile duct.
+trap: Not asking about jaundice, dark urine and pale stools
+trap: Calling cholangitis "a gallbladder infection" to the patient (it's the bile duct)
+var: A | Mrs Johnson, 30 | Acute calculous cholecystitis
+a: Sudden RUQ pain while doing nothing, radiating to the back and right shoulder tip; continuous for more than 6 hours; worse moving and breathing; like your gallstone pain but constant; thought it was indigestion; 2 paracetamol helped slightly; 7/10.
+a: Nauseous, vomited twice, feverish. Bowels and urine fine. You have NOT noticed any jaundice.
+a: Gallstones, high cholesterol; no operations. Atorvastatin. No allergies. Housewife, non-smoker, minimal alcohol. Dad died of an MI. ICE: worried it might be a heart attack; worried you might need surgery.
+r: BP 155/90, HR 110, RR 14, T 38.3, SpO2 98%. Hb 132, WBC 13, Na 131, K 3.5, bilirubin 5, AST 16, ALT 10, ALP 50, amylase 73, CRP 115. USS: thickened gallbladder wall, multiple gallstones, sludge (painful during scanning: sonographic Murphy's).
+x: Acute cholecystitis: admit; analgesia; IV fluids; antiemetic; IV antibiotics per local policy (e.g. co-amoxiclav); NBM until senior review; laparoscopic cholecystectomy within 1 week of diagnosis (NICE CG188). Reassure re MI: ECG to be safe.
+var: B | Mrs Johnson, 40 | Acute ascending cholangitis
+a: 24 hours of RUQ pain, fever and jaundice. You will let the doctor examine you. Ask what's wrong and whether you need an operation.
+r: Examination: jaundiced sclera and skin; high fever, sweaty, hot; very tender with guarding in RUQ, Murphy's positive; dull beneath costal margin; normal bowel sounds; HR 120, BP 110/80; normal GCS. USS: CBD dilated 8 mm with obstructing gallstones, thickened duct wall, sludge in gallbladder: consistent with acute cholangitis.
+x: Admit; analgesia; IV fluids; blood cultures; IV antibiotics per trust (e.g. co-amoxiclav, or piperacillin-tazobactam if severe); senior surgical review; urgent ERCP to clear the duct; cholecystectomy later.
+ask: Is it my heart? | Will I need an operation?
+dom: Information gathering | !SOCRATES; risk factors for gallbladder disease; !jaundice, dark urine, pale stools; PMH and DH
+dom: Examination | End of bed; !jaundice (sclera, skin); hands; inspection for scars/masses; palpation with face watching; liver edge; Murphy's sign
+dom: Information giving | Presents methodically; explains diagnosis in plain words to the patient
+dom: Clinical reasoning | !Correct diagnosis (cholecystitis vs cholangitis); results interpreted (inflammatory markers, normal LFTs vs obstructive)
+dom: Management | !Admission; analgesia; IV fluids; IV antibiotics; senior surgical review; !ERCP (B) or cholecystectomy within 1 week (A)
+s: History | Have you noticed your eyes or skin going yellow, dark urine, or pale stools? | The single question that separates cholecystitis from cholangitis.
+s: History | Does the pain go anywhere? Worse breathing in? | Shoulder-tip radiation (diaphragm) and pleuritic catch point to the gallbladder.
+s[A]: Interpret | She's pyrexial and tachycardic with raised WCC and CRP, but normal bilirubin and LFTs; with a thick-walled gallbladder full of stones on ultrasound, that's acute cholecystitis without duct obstruction. | Normal LFTs are the key negative.
+s[B]: Examine | I can see yellowing of the whites of her eyes. Before I touch your tummy, is there anywhere that's sore? | Jaundice spoken aloud at inspection: named essential.
+s[B]: Examine | Breathe in deeply for me while I press here. (Catches breath.) That's a positive Murphy's sign. | Correct technique and naming the sign.
+s[B]: Explain | The scan shows a gallstone has slipped into the main tube that drains bile from your liver. It's blocked and infected, which is why you're yellow and feverish. | Plain explanation linking symptoms to cause.
+s[B]: Explain | You'll need to stay in. We'll give you fluids and antibiotics through a drip, pain relief, and a camera test called an ERCP to unblock the tube. | Management to the patient, as the task says.
+s[A]: Explain | Your heart tracing will be checked to be safe, but this pain fits your gallbladder. Usually we remove it with keyhole surgery within the week. | Addresses both ICE concerns.
+
+@PP23 | Epigastric pain radiating to the back → acute pancreatitis
+src: SMOSCE 12 · CP3 2019 resit (abdominal pain history, acute pancreatitis)
+u: 43
+fr: hx, di, reason
+door: You are the junior doctor in the Emergency Department. A 36-year-old man (BMI 40) has abdominal pain. You are not required to examine him. Tasks: take a full history, present to the examiner, interpret the investigations and discuss your differential.
+trig: Severe epigastric pain boring through to the back + better sitting forward + vomiting → pancreatitis
+hook: Causes "I GET SMASHED": Idiopathic, Gallstones, Ethanol, Trauma, Steroids, Mumps, Autoimmune, Scorpion, Hypertriglyceridaemia/hypercalcaemia, ERCP, Drugs.
+hook: Severity "PANCREAS" (Glasgow-Imrie, ≥3 = severe): PaO2 <8, Age >55, Neutrophils (WCC) >15, Calcium <2, Renal (urea) >16, Enzymes (LDH >600/AST >200), Albumin <32, Sugar >10.
+clinch: ✅ Amylase or lipase >3× upper limit + typical pain = acute pancreatitis
+clinch: ❌ Mildly raised amylase also occurs in perforation, ischaemic bowel and DKA: check the erect CXR
+clinch: 🧪 Hypocalcaemia predicts severity (fat saponification)
+money: Severe epigastric pain radiating to the back with an amylase of 1875, over 10 times the upper limit, is acute pancreatitis. With his family history and previous RUQ pains, gallstones are the likely cause; I'd arrange an ultrasound.
+trap: Not asking alcohol quantity and gallstone symptoms (the two main causes)
+trap: Prophylactic antibiotics are not recommended
+var: A | Man, 36, lorry driver | Acute pancreatitis (likely gallstone)
+a: Pain started 6 hours ago, woke you at 4 am. Sudden severe constant epigastric pain "above your belly button", gnawing, deep, boring through to the back; worse lying down, better sitting forward; no analgesia yet; 8–9/10. No pain like this before, but occasional RUQ pain over recent months.
+a: Vomited 3 times (no blood), loose stools (no blood), hot and sweaty, no urinary symptoms. If asked: no recent excess alcohol, no previous gallstones or ERCP. No medicines, no allergies.
+a: Younger sister, mother and older brother had cholecystectomies for stones/infection. Lager at weekends; non-smoker. ICE: worried it's serious.
+r: Hb 130, platelets 415, WBC 14.0, neutrophils 10.1, Na 140, K 4.5, bilirubin 14, ALT 20, ALP 120, amylase 1875, adjusted Ca 2.20, albumin 34, CRP 120. AXR: normal.
+x: Acute pancreatitis, likely gallstone (FHx, obesity, RUQ pains). Severity score; aggressive IV fluids (goal-directed), analgesia, antiemetic, monitor urine output and obs, USS abdomen, early enteral feeding, no prophylactic antibiotics, cholecystectomy during the same admission if gallstone pancreatitis is mild.
+dom: Information gathering | !SOCRATES; !risk factors (alcohol, gallstones, drugs, trauma, lipids); PMH; DH; FH; SH
+dom: Information giving | Methodical presentation without jargon
+dom: Clinical reasoning | !Acute pancreatitis (gallstones or alcohol); raised inflammatory markers; grossly raised amylase; normal AXR
+s: History | Does the pain go anywhere? Does anything make it better, like sitting forward? | Radiation to the back + relief sitting forward is the pancreatic pattern.
+s: History | How much alcohol do you drink in a week? Any binge recently? | Alcohol is one of the two big causes: must be quantified.
+s: History | Have you had pain under the right ribs before, especially after fatty food? Anyone in the family with gallstones? | Gallstone risk: the actor has been briefed with a strong FHx.
+s: History | Any new medicines, steroids, or injuries to your tummy? | Drugs and trauma from I GET SMASHED.
+s: Interpret | Amylase 1875 is more than three times the upper limit, so this is acute pancreatitis. Calcium is borderline and CRP 120, so I'd score his severity and watch closely. | Diagnostic threshold + severity markers.
+s: Plan | IV fluids guided by urine output, strong analgesia, antiemetics, an ultrasound to look for gallstones, and the surgeons if stones are confirmed. | Goal-directed fluids are the most important treatment.
+
+@PP24 | Left iliac fossa pain in an 82-year-old → diverticulitis (penicillin allergy)
+src: SMOSCE 13 · CP3 2019 OSCE 2 (abdo history + SBAR: diverticulitis with perforation)
+u: 37
+fr: hx, reason, plan, sbar
+door: You are the junior doctor on the Surgical Assessment Unit. An 82-year-old woman has abdominal pain. You are not required to examine her. Tasks: take a focused history; present to the examiner with differentials and investigations you would request; discuss ongoing management.
+trig: Elderly + LIF pain + fever + change in bowel habit → diverticulitis
+trig: Pneumaturia (bubbles in urine) + UTI symptoms in diverticular disease → colovesical fistula
+hook: "Left-sided appendicitis". LIF pain + fever + tender = diverticulitis until CT says otherwise.
+hook: Complications "PAPS": Perforation, Abscess, Pyelo/fistula (colovesical), Stricture (and bleeding).
+clinch: ✅ Bubbles in urine (pneumaturia) or faecaluria = colovesical fistula
+clinch: ❌ Generalised peritonism or air under the diaphragm → perforation: emergency surgical review
+clinch: 🧪 CT abdomen/pelvis with contrast confirms and grades it
+money: The most likely diagnosis is acute diverticulitis, possibly complicated by a colovesical fistula given the bubbles in her urine. She needs admission, IV fluids, analgesia, IV antibiotics that avoid penicillin, and a CT.
+trap: Prescribing co-amoxiclav to a penicillin-allergic patient
+trap: Not asking about the urinary symptoms (only revealed if asked)
+var: A | Woman, 82 | Acute diverticulitis ± colovesical fistula
+a: 2 days of worsening abdominal pain, mainly left lower quadrant, severe 9/10, more generalised in the last 24 hours; no radiation; prefers to keep still; some relief opening bowels; eating less.
+a: Fever, nausea, vomiting, sweaty. Bowels opened 3 days ago, usually variable; unsure about blood. Usually lots of wind and some discomfort. Passing flatus.
+a: ONLY IF ASKED: urinary frequency, dysuria, suprapubic discomfort, bubbles in the urine.
+a: Similar episode last year needing admission. Pneumonia in the last year. Left knee OA, hypertension. Paracetamol, amlodipine, ramipril, simvastatin (unsure of doses). Allergic to penicillin: rash.
+a: Lives alone, independent, daughter visits weekly. Non-smoker; 1 gin and tonic on Fridays. ICE: don't want to be a burden; grateful for staff.
+x: Diverticulitis (complicated?). FBC, CRP, U&E, clotting, G&S, erect CXR, CT abdo/pelvis with contrast, cultures, stool culture, urine dip/MSU, VBG/lactate, DRE. Admit; IV analgesia (titrated morphine); antiemetic; NBM until senior review; IV fluids; IV antibiotics avoiding penicillin per local policy (e.g. cefuroxime + metronidazole if rash only, or as per trust allergy guidance); monitor urine output.
+dom: Information gathering | !SOCRATES; !bowel and urinary changes; PMH; !DH and allergy with reaction; SH essentials given age
+dom: Information giving | !Sensible differentials (diverticulitis, colorectal cancer, constipation, subacute obstruction, gastroenteritis, perforation); investigations with reasons
+dom: Management | !Admission; analgesia; antiemetic; NBM; IV fluids; !antibiotics appropriate to penicillin allergy; senior surgical review
+s: History | Have you noticed any blood when you open your bowels, or a change in how often you go? | Bleeding and altered habit: diverticular disease vs cancer.
+s: History | Any problems passing urine? Burning, going more often, or anything unusual like bubbles? | The hidden fistula clue is only given if you ask directly.
+s: History | Do you have any allergies? What happened? | Penicillin rash changes your antibiotic choice: a named mark.
+s: Present | An 82-year-old with two days of LIF pain becoming generalised, fever and vomiting, a similar admission last year, and pneumaturia. My main diagnosis is acute diverticulitis, possibly with a colovesical fistula; I'd also consider colorectal cancer and perforation. | Structured presentation with prioritised differentials.
+s: Plan | Bloods including cultures, lactate and a group and save; an erect chest X-ray to look for free air; and a CT with contrast. | Each test with its reason.
+s: Plan | Admit, IV fluids, analgesia, nil by mouth until the surgeons review, and IV antibiotics that avoid penicillin per our trust guideline. | Allergy-safe prescribing is the hidden management mark.
+
+@PP25 | High-output stoma: focused abdominal examination + fluid chart
+src: SMOSCE 14
+u: 51, 33
+fr: ex, di, expl
+ex: abdo
+door: You are the junior doctor on the colorectal ward. Mr Begum is 7 days after bowel resection with a stoma. He feels thirsty but otherwise well. Tasks: perform a focused abdominal examination (you need not remove the bag), present your findings, then use the fluid balance chart to discuss your plan with Mr Begum.
+trig: Thirsty + stoma output >1.5 L/day + small oral intake → high-output stoma with dehydration
+hook: Stoma check "Site, Spout, Skin, Stuff": where it is (ileostomy right, colostomy left), spouted or flush, skin around it, what's in the bag.
+hook: High-output stoma paradox: drinking more WATER makes it worse. Restrict hypotonic fluids to ~1 L and use oral rehydration (St Mark's) solution.
+clinch: ✅ Spouted stoma in the right iliac fossa with liquid output = ileostomy
+clinch: ❌ Flush stoma in the left iliac fossa with formed stool = colostomy
+clinch: 🧪 Check U&E and magnesium: high-output stomas lose sodium and magnesium
+money: His stoma output is over 2 litres today with under 300 mL in: a high-output ileostomy with dehydration. I'd give IV fluids, check U&E and magnesium, start loperamide before meals, and swap plain water for oral rehydration solution.
+trap: Telling him just to drink lots more water
+trap: Not checking for a parastomal hernia (cough impulse)
+var: A | Mr Begum | High-output ileostomy, dehydration
+a: Feel thirsty, otherwise well. Mild discomfort around the wound. Bag fills quickly.
+r: Fluid chart today: 06:00 stoma 500 mL; 07:00 orange juice 40 mL; 09:00 toilet; 11:00 stoma 500 mL, bag changed; 12:00 small glass of water; 15:00 tea 30 mL, stoma 750 mL; 17:00 toilet; 19:00 hot chocolate 100 mL, stoma 600 mL; 22:00 stoma full, bag changed. Exam: spouted stoma RIF, healthy pink mucosa, liquid output, peristomal skin intact, no parastomal hernia, bowel sounds present.
+x: High output (>2 L) with tiny intake: IV fluids (0.9% NaCl), U&E/Mg, loperamide 30–60 min before meals, consider PPI, restrict hypotonic drinks, St Mark's solution, stoma nurse, dietitian, discuss with senior, stool culture if infection suspected.
+dom: Examination | Pain check; asks to look under dressing; !palpates abdomen and around stoma; !parastomal hernia (cough impulse); comments on contents, skin, spout, mucosa, site; auscultates
+dom: Information giving | Methodical presentation of findings
+dom: Management | !IV fluids; bloods for electrolytes; !loperamide; increase oral rehydration (not plain water); senior; stool culture acceptable
+s: Examine | It's in the right iliac fossa, spouted, the mucosa is pink and healthy, the output is liquid, and the skin around it is intact. | The four S's said aloud = full inspection marks.
+s: Examine | Could you give a cough for me? I'm feeling for a bulge next to the stoma. | Parastomal hernia check is named.
+s: Interpret | Today's output is over 2.3 litres from the stoma, and he's drunk under 300 mL. That's a high-output stoma and explains his thirst. | Adding the numbers out loud shows the chart was read.
+s: Explain | Your new stoma is producing a lot of fluid, so you're getting dry. We'll give you fluid through a drip and check your salts. | Plain words for the patient.
+s: Explain | It sounds odd, but plain water and tea can make the bag fill faster. A special salty drink works better, and a tablet called loperamide before meals will slow it down. | The counter-intuitive hook is what high-scoring candidates say.
+
+@PP26 | Right iliac fossa pain in a young woman → appendicitis (pregnancy test!)
+src: SMOSCE 15
+u: 40
+fr: hx, ex, plan
+ex: abdo
+door: You are the junior doctor in the Emergency Department. Mary Smith, 27, has abdominal pain. Tasks: take a focused history, perform a relevant examination, and explain the immediate and ongoing management of the likely diagnosis to the examiner.
+trig: Vague central pain → moves to RIF + anorexia + nausea + low-grade fever → appendicitis
+trig: Woman of child-bearing age with RIF pain → pregnancy test is mandatory (ectopic)
+hook: Appendicitis "migrates, anorexia, rebound": periumbilical → RIF migration, loss of appetite, rebound/Rovsing's.
+hook: Every woman 12–55 with abdominal pain: "Could you be pregnant?" + urine βhCG. No exceptions.
+clinch: ✅ Rovsing's sign (pressing LIF causes RIF pain) + rebound + guarding = peritonism in RIF
+clinch: ❌ Positive pregnancy test + RIF pain → ectopic until proven otherwise
+clinch: ❌ Pain and dysuria with nitrites → UTI more likely (but appendix can irritate the bladder)
+money: The most likely diagnosis is acute appendicitis. I'd make her nil by mouth, give analgesia, antiemetic and IV fluids, check a pregnancy test, bloods and urine dip, and ask the surgeons to review for a laparoscopic appendicectomy.
+trap: Not asking about pregnancy (the mark scheme says MUST)
+trap: Forgetting to say "admit"
+var: A | Mary Smith, 27 | Acute appendicitis
+a: 3 days of vague tummy pain getting worse; woken last night by severe lower abdominal pain, right worse than left; 10/10; no radiation; better lying still, worse moving.
+a: Malaise, nausea, vomited once, hot and sweaty. No urinary symptoms. COCP, no missed pills, no unusual bleeding. No allergies. Finance worker; 10 pints at weekends; smokes 15/day; lives with boyfriend. FH: heart problems on father's side. ICE: want to get back to work ASAP.
+r: Pale, sweaty, lying still, in pain. Tender to light palpation in RIF, rebound tenderness, guarding, positive Rovsing's.
+x: Appendicitis. Differentials: ectopic pregnancy, ovarian cyst/torsion, UTI, PID. Admit; analgesia; NBM; antiemetic; IV fluids; senior surgical review; bloods (raised inflammatory markers), urine βhCG, urine dip, USS (± CT); laparoscopic appendicectomy + antibiotics.
+dom: Information gathering | !SOCRATES; !possibility of pregnancy; LMP; contraception; urinary and gynae symptoms; empathy
+dom: Examination | End of bed; light then deep palpation from away from the pain; watches face; rebound/percussion tenderness; Rovsing's; offers DRE and hernial orifices
+dom: Management | !Differential first (examiner may ask); analgesia, NBM, antiemetic, IV fluids; !admit; investigations incl βhCG; definitive: appendicectomy + antibiotics
+s: History | Where did the pain start, and where is it now? | Migration from the middle to the RIF is the classic story.
+s: History | When was your last period? Is there any chance you could be pregnant? | MUST-ask item: missing it caps the station.
+s: History | Any burning when you pass urine, or vaginal discharge? | Rules in/out UTI and PID.
+s: Examine | I'll start pressing away from where it hurts, on the left side, and I'll watch your face. | Starting away from the pain is a technique mark; watching the face shows care.
+s: Examine | Pressing on the left side made the right side hurt: that's a positive Rovsing's sign. | Name the sign.
+s: Plan | My differentials are appendicitis, ectopic pregnancy, ovarian cyst or torsion, and UTI. | Give the differential before management if asked.
+s: Plan | Admit, nil by mouth, analgesia, antiemetic, IV fluids, bloods, a urine pregnancy test and dip, and surgical review for a laparoscopic appendicectomy. | Complete immediate + definitive plan.
+s: Explain | I know you want to get back to work. Most people go home within a day or two after keyhole surgery. | Addresses her ICE.
+
+@PP27 | Large bowel obstruction: consent for investigations + AXR + plan / SBAR
+src: SMOSCE 16 · SMOSCE 4 (A–E small bowel obstruction) · CP3 2019 OSCE 2 (abdo history + SBAR: LBO from cancer / SBO in Crohn's)
+u: 48, 33
+fr: expl, di, plan, sbar
+door: You are the junior doctor on the Surgical Assessment Unit. A 64-year-old man is clinically stable with suspected acute large bowel obstruction. You have already introduced yourself. Tasks: explain the investigations you'd like and gain his consent; interpret the results; present your management plan to the examiner (or hand over by SBAR).
+trig: Distension + absolute constipation + colicky pain + vomiting late → large bowel obstruction
+trig: Microcytic anaemia + LBO in a 64-year-old → obstructing colorectal cancer
+hook: SBO vs LBO: "small = central, early vomiting, valvulae across the whole width; large = peripheral, late vomiting, haustra part-way across".
+hook: Dilated bowel "3-6-9": small bowel >3 cm, colon >6 cm, caecum >9 cm.
+hook: Obstruction management = "drip and suck": IV fluids + NG tube + NBM, then find the cause.
+clinch: ✅ Dilated colon with no rectal gas = mechanical LBO
+clinch: ❌ Caecum >9–12 cm or peritonism → perforation risk: urgent surgery
+clinch: 🧪 Microcytic anaemia (iron deficiency) in an older man = GI blood loss → colorectal cancer
+money: The AXR shows dilated large bowel with no gas in the rectum: large bowel obstruction. With a microcytic anaemia, an obstructing colorectal cancer is most likely. He needs admission, nil by mouth, IV fluids, an NG tube, analgesia, a CT with contrast and senior surgical review.
+trap: Forgetting to gain consent for the tests (the main task)
+trap: Not saying "admit"
+var: A | Man, 64 | LBO from colorectal cancer
+a: Stable; abdomen distended and uncomfortable. You agree to tests if they are explained. Ask why you need a tube up your nose.
+r: Hb 80, MCV 65, WBC 8.0, Na 136, K 3.6, LFTs and amylase normal. Erect CXR: no free air. AXR: dilated large bowel, no gas in the rectum.
+x: Admit; NBM; IV fluids; NG (Ryle's) tube for drainage; analgesia; antiemetics; senior surgical review; CT abdo/pelvis with contrast to find the cause; likely surgery (or stent as a bridge); iron and transfusion planning; colorectal MDT if cancer.
+var: B | Clive, 64 (A–E) | Small bowel obstruction with known bowel cancer
+r: B: SpO2 93% air, RR 24. C: HR 150, BP 98/67, CRT 4 s, cool, dry, urine 25 mL/h (70 kg). D: alert, BM 5.9, temp 37.4. E: abdomen distended, tympanic, no bowel sounds, mildly tender. AXR: SBO. ABG normal. ECG sinus tachycardia.
+x: SBO: O2; IV fluids (fluid challenge); wide-bore NG tube to aspirate; IV access + bloods; analgesia; NBM; CT; surgical team.
+dom: Information giving | !Explains each investigation (bloods, erect CXR, AXR, CT) with reason; !gains consent; empathic and clear
+dom: Clinical reasoning | !Microcytic anaemia ?malignancy; no perforation on CXR; !LBO on AXR with no rectal gas
+dom: Management | !Admit (essential); NBM; IV fluids; NG tube; analgesia; antiemetic; senior surgical review; likely surgery
+s: Consent | I'd like to do some blood tests, a chest X-ray standing up, a tummy X-ray, and probably a CT scan. Can I explain why each one? | Signposting the investigations is the first communication mark.
+s: Consent | The standing chest X-ray checks there's no hole in the bowel, because air would rise under the diaphragm. | Reason for each test in plain words.
+s: Consent | Is that all right with you? Do you have any questions about them? | Explicit consent is the essential item.
+s: Interpret | Microcytic anaemia with Hb 80 suggests iron deficiency from bleeding in the gut. No free air on the chest X-ray. The abdominal film shows dilated large bowel with no rectal gas: large bowel obstruction. | Three investigations, three findings, one story.
+s: Plan | Admit, nil by mouth, IV fluids, an NG tube to decompress the stomach, analgesia and antiemetics, a CT with contrast, and urgent surgical review. | Essential management list.
+s: Explain | The tube up your nose drains the fluid your bowel can't push through, so you'll stop feeling sick. | Answers the planted question.
+
+@PP28 | Explaining to a relative after an emergency operation (appendicectomy / cholecystectomy)
+src: CP3 2019 first sit (surgery: relative asking about patient; explain CT, what's happening, what will happen)
+u: 40, 41
+fr: expl, prof
+door: You are a junior doctor on the surgical ward. A patient's relative wants to know what happened to their family member, who has had an emergency operation. Tasks: check consent to share information, explain the CT result, what was done, and what will happen next, and answer their questions.
+trig: Relative asking questions → check the patient's consent first (confidentiality)
+hook: Relatives "CHAT": Consent from patient to share, How much they know, Above all plain words, Tell them the next steps.
+clinch: ❌ Sharing information without the patient's consent (if they have capacity) breaches confidentiality
+clinch: ✅ Laparoscopic appendicectomy: home in 1–3 days; avoid heavy lifting ~2 weeks (keyhole)
+money: Your dad's scan showed an inflamed appendix that had burst, so the surgeons removed it with keyhole surgery last night. The operation went well. Over the next few days we'll give antibiotics, pain relief and get him eating and walking.
+trap: Using "laparoscopic", "perforated", "peritonitis" without explaining
+var: A | Daughter of Mr Hall, 68 | Perforated appendicitis, laparoscopic appendicectomy
+a: You're anxious and a bit frustrated nobody called you. Ask: Why did nobody tell me? Was it serious? Will he be OK? When can he come home? Can he drive?
+x: Check patient consent (he's agreed); explain CT (inflamed, perforated appendix), operation (keyhole removal and washout), recovery (antibiotics, analgesia, early mobilisation, eating, drain/wounds), complications to watch (wound infection, abscess, ileus, VTE), discharge 3–5 days for perforated; driving when he can do an emergency stop comfortably (often 1–2 weeks); apologise for poor communication; contact details.
+var: B | Husband of Mrs Ali, 52 | Acute cholecystitis, laparoscopic cholecystectomy
+a: Ask: What's a gallbladder for? Can she eat normally without it? Will the stones come back?
+x: Gallbladder stores bile; bile still flows from the liver; most eat normally (some loose stools with fatty food initially); stones can't recur in the gallbladder; watch for jaundice, fever, increasing pain (bile leak/retained stone); home in 1–2 days.
+dom: Professionalism | !Checks patient's consent before sharing; identifies relative; respectful
+dom: Communication | Explores what they know; empathises with frustration; avoids jargon; chunks and checks
+dom: Information giving | !Explains CT, the operation and recovery; complications to watch; discharge; answers questions honestly
+s: Consent | Before we talk, I've checked with your dad and he's happy for me to update you. | Confidentiality first: a named professionalism mark.
+s: Explore | What have you been told so far? | Start from what they know.
+s: Empathy | I'm sorry nobody called you sooner. That must have been really worrying. | Apology defuses frustration (it isn't admission of blame).
+s: Explain | The scan showed his appendix, a small pouch off the bowel, was inflamed and had burst. The surgeons removed it through small cuts with a camera and washed out his tummy. | Plain words for perforation and laparoscopy.
+s: Explain | Over the next few days he'll have antibiotics, pain relief, and we'll get him eating and walking. Most people go home in 3 to 5 days after this. | What will happen next is the core task.
+s: Safety | We're watching for a high temperature, worsening pain or redness of the wounds; at home the same signs mean ring us. | Safety-netting for the relative.
+
+@PP29 | Upper GI bleed: haematemesis history + bloods + plan (peptic ulcer vs varices)
+src: OSCEs 2018 OSCE 1 (HPB: haematemesis, varices, reluctant alcohol history; perforated peptic ulcer) · CP3 2018 first sit (GI bleed history + management)
+u: 32
+fr: hx, di, plan
+door: You are a Foundation doctor. Your patient has vomited blood. Tasks: take a history, interpret the blood results the examiner gives you, and explain your management plan to the patient.
+trig: Haematemesis + NSAIDs/aspirin + epigastric pain → bleeding peptic ulcer
+trig: Haematemesis + heavy alcohol + stigmata of liver disease → varices
+trig: Sudden severe epigastric pain + rigid abdomen + air under diaphragm → perforated ulcer
+hook: UGIB scores: Glasgow-Blatchford BEFORE endoscopy (urea, Hb, SBP, pulse, melaena, syncope, liver/cardiac disease; 0 = can go home); Rockall AFTER (needs endoscopy findings).
+hook: Variceal bleed "TEA + Blood": Terlipressin, Endoscopy for band ligation, Antibiotics (prophylactic), and Blood restrictively (over-transfusing raises portal pressure).
+clinch: 🧪 Raised urea with normal creatinine = digested blood (upper GI bleed)
+clinch: ✅ Transfuse if Hb <70 g/L (restrictive), higher target if active cardiac disease
+clinch: ❌ Don't give PPI before endoscopy (NICE CG141): after it, for non-variceal bleeds
+money: This is an upper GI bleed. His Blatchford score is high, so he needs admission, two wide-bore cannulas, a group and save, resuscitation, and endoscopy within 24 hours, sooner if unstable. With his drinking, I'd treat as variceal until proven otherwise: terlipressin and IV antibiotics.
+trap: Not asking alcohol sensitively and quantifying it (the actor is reluctant)
+trap: Forgetting NSAIDs, aspirin, anticoagulants and SSRIs in the drug history
+var: A | Man, 52 | Oesophageal varices (reluctant alcohol history)
+a: Vomited fresh blood twice this morning, about a cupful each time; felt dizzy. Black stools yesterday. Reluctant to talk about alcohol: only admit to about 2 bottles of wine a day if asked kindly and non-judgementally.
+r: Hb 88, MCV 104, platelets 82, urea 14.2, creatinine 80, INR 1.6, bilirubin 38, albumin 30. HR 112, BP 98/60.
+x: Variceal UGIB: A–E; two large-bore cannulas; G&S/crossmatch; FBC, U&E, LFT, clotting; resuscitate (restrictive transfusion Hb <70; platelets if <50 and active bleeding; FFP/vitamin K per haematology); terlipressin + IV antibiotics (e.g. per local policy); urgent endoscopy (band ligation); Pabrinex; alcohol withdrawal prophylaxis; senior/GI on call; later: alcohol support.
+var: B | Woman, 70 | Bleeding duodenal ulcer (NSAIDs)
+a: Coffee-ground vomit and black stools for 2 days; epigastric pain on and off for months. Ibuprofen daily for knee OA, aspirin 75 mg. Never been scoped.
+r: Hb 92, urea 18.5, creatinine 90, platelets 300, INR 1.0. HR 104, BP 118/70.
+x: Non-variceal UGIB: Blatchford; endoscopy within 24 h (therapy: adrenaline + clips/thermal); PPI after endoscopy; stop NSAID; H. pylori test and eradicate; restrictive transfusion.
+var: C | Man, 58 | Perforated peptic ulcer
+a: Sudden severe epigastric pain 3 hours ago, now everywhere; can't move; vomited once. Ibuprofen for back pain.
+r: Abdomen rigid, absent bowel sounds. Erect CXR: free air under the diaphragm. WCC 16, CRP 80, amylase mildly raised.
+x: Perforated PU: A–E; NBM; IV fluids; analgesia; IV antibiotics; NG tube; IV PPI; urgent surgical review for laparoscopic/open repair (omental patch); CT if unclear.
+dom: Information gathering | !Amount, colour (fresh vs coffee-ground), melaena; dizziness/collapse; !NSAIDs/aspirin/anticoagulants/SSRIs; !alcohol quantified sensitively; liver disease; previous ulcers
+dom: Clinical reasoning | !Interprets bloods (urea rise, Hb, platelets, INR); risk score; correct likely cause
+dom: Management | !Resuscitation and transfusion threshold; endoscopy timing; variant-specific drugs; explains plan to patient in plain words
+s: History | How much blood, roughly: a teaspoon, a cupful, more? Was it bright red or like coffee grounds? | Volume and colour estimate severity and timing.
+s: History | Any black, sticky, tarry stools? Did you feel faint or collapse? | Melaena and syncope are Blatchford items.
+s: History | Do you take anything for pain like ibuprofen or aspirin, or any blood thinners? | NSAIDs and anticoagulants are the commonest causes: named.
+s: History | I ask everyone this: how much alcohol would you drink in a typical day? There's no judgement, it just helps me treat you safely. | Normalising, non-judgemental alcohol question unlocks the reluctant actor.
+s: Interpret | Hb 88 with a raised MCV, low platelets, a high urea with normal creatinine, and a raised INR: an upper GI bleed with features of chronic liver disease. | Urea-creatinine mismatch is the hidden reasoning mark.
+s[A]: Plan | Treat as a variceal bleed: terlipressin, IV antibiotics, urgent endoscopy for banding, and blood if his haemoglobin falls below 70. | Variceal bundle.
+s[B]: Plan | Endoscopy within 24 hours, a PPI after the scope, stop the ibuprofen, and test for H. pylori. | Non-variceal bundle with the PPI timing trap.
+s[C]: Plan | The X-ray shows air under the diaphragm, so the ulcer has burst. Nil by mouth, fluids, antibiotics, IV PPI and the surgeons now. | Perforation is a surgical emergency.
+s: Explain | You're bleeding from the food pipe or stomach. We'll replace the fluid, and a camera test will find the bleeding point and stop it. | Management to the patient, as the task says.
+
+@PP30 | Lower GI bleed / positive FIT: explain the result and colonoscopy
+src: CP3 2019 resit (faecal occult blood positive: explain colonoscopy) · OSCEs 2018 OSCE 1 (lower PR bleeding history + bloods + plan)
+u: 38, 33
+fr: hx, expl, plan
+door: You are a Foundation doctor. Your patient's faecal immunochemical test (FIT) is positive. Tasks: explain the result and why a colonoscopy is needed, gain informed consent for the referral, and answer questions.
+trig: FIT ≥10 µg Hb/g → urgent suspected colorectal cancer referral (2WW)
+trig: Rectal bleeding + change in bowel habit + iron deficiency anaemia → colorectal cancer pathway
+hook: Bowel cancer red flags "BLAM": Bleeding, Lump (abdominal/rectal), Anaemia (iron deficiency), Movement change (bowel habit).
+hook: Colonoscopy consent "PREP": Prep (bowel prep, clear fluids), Risks (bleeding, perforation ~1 in 1,000, missed lesion), Experience (sedation, gas, cramps), Procedures (biopsy/polyp removal).
+clinch: ✅ FIT positive in symptomatic patient = urgent referral (NICE DG56)
+clinch: ❌ FIT positive is not a cancer diagnosis: most positives are polyps, haemorrhoids or inflammation
+money: The stool test found traces of blood that we can't see. That doesn't mean cancer, but we need to look inside the bowel to find the cause, so I'm referring you urgently for a camera test called a colonoscopy within 2 weeks.
+trap: Saying "you have cancer" or "it's nothing"
+trap: Missing the iron tablets warning (stop iron a week before) and anticoagulant plan
+var: A | Mrs Green, 66 | FIT positive: explain colonoscopy
+a: Had a change to looser stools for 2 months; did the test the GP sent. Terrified: your friend died of bowel cancer. Ask: Does this mean I have cancer? Will it hurt? What are the risks? Do I have to stop my iron?
+x: Explain FIT; 2WW colonoscopy (or CT colonography if frail); bowel prep and diet; sedation and gas; biopsy/polypectomy; risks (perforation ~1:1,000, more with polypectomy; bleeding; missed lesion; sedation reactions; incomplete test); stop iron 1 week before; anticoagulant advice from the unit; results; support.
+dom: Communication | !Explores knowledge and fear; warning shot; avoids false reassurance and catastrophising
+dom: Information giving | !Explains FIT meaning; !explains colonoscopy, preparation, sedation, what happens, risks with numbers, alternatives; chunks and checks
+dom: Management | !Urgent suspected cancer referral; consent; follow-up; safety-net (heavy bleeding, obstruction symptoms)
+s: Explain | The test looks for tiny amounts of blood in the stool, too small to see. Yours found some. | Plain meaning of FIT.
+s: Explain | Most of the time it's from something like a polyp or piles, but because it can be from a cancer, we always check properly and quickly. | Honest probability without false reassurance.
+s: Explain | A colonoscopy is a thin flexible camera passed into the back passage to look at the whole large bowel. You'll take a strong laxative the day before to clear it out. | What and how.
+s: Risks | It's very safe, but the main risks are bleeding, especially if a polyp is removed, and a small tear in the bowel wall, about 1 in 1,000. | Risks with numbers: Montgomery consent.
+s: Risks | You'll be offered sedation and pain relief. It can feel crampy and windy. | Experience is what patients fear most.
+s: Practical | Please stop your iron tablets a week before, as they make the bowel hard to see. | Practical prep detail examiners like.
+
+@PP31 | Dyspepsia in GP: GORD with weight loss → urgent endoscopy
+src: CP3 2018 resit (GP dyspepsia: history, referral, explain) · OSCEs 2018 OSCE 2 resit (communication 2WW: GORD with weight loss)
+u: 31, 32, 30
+fr: hx, expl, plan
+door: You are a Foundation doctor in General Practice. A patient has heartburn and would like some medication for it. Tasks: take a history and explain your management plan.
+trig: Reflux symptoms + weight loss + age ≥55 → urgent direct-access endoscopy (2WW)
+trig: Dysphagia at any age → urgent endoscopy
+hook: Upper GI red flags "ALARMS": Anaemia, Loss of weight, Anorexia, Recent onset progressive symptoms (≥55), Melaena/haematemesis, Swallowing difficulty.
+hook: Uncomplicated dyspepsia: lifestyle → full-dose PPI 4 weeks OR test-and-treat H. pylori (2 weeks off PPI before testing).
+clinch: ✅ Dysphagia, or ≥55 with weight loss + reflux/dyspepsia/upper abdominal pain → urgent endoscopy within 2 weeks (NICE NG12)
+clinch: ❌ Starting a PPI before an urgent scope can mask cancer: refer, don't just treat
+money: Because you've lost weight without trying alongside the heartburn, I'd like you to have a camera test of your food pipe and stomach within 2 weeks. It's to make sure nothing serious is causing it, and it's the right thing to do.
+trap: Prescribing omeprazole and sending them home
+var: A | Mr Clarke, 61 | GORD with weight loss → 2WW OGD
+a: Heartburn for 3 months, worse lying down and after big meals; an acid taste. Want "something strong for it". If asked: lost about a stone without trying; food sometimes "sticks" (only if asked about swallowing). Smoke 15/day, 3–4 pints most nights. Ibuprofen for back pain.
+x: 2WW direct-access OGD (dysphagia + weight loss); bloods (FBC for anaemia); stop ibuprofen; lifestyle (smoking, alcohol, weight, meal timing, raise bed head); explain referral sensitively; safety-net (vomiting blood, black stools, unable to swallow).
+var: B | Ms Ahmed, 34 | Uncomplicated dyspepsia
+a: Burning epigastric pain after meals for 6 weeks; no weight loss, vomiting, bleeding or swallowing problems; stressed at work; lots of coffee.
+x: Lifestyle; review drugs; full-dose PPI for 4 weeks or H. pylori test-and-treat (stool antigen or urea breath test, 2 weeks off PPI); review; refer if persists.
+dom: Information gathering | !Red flags: weight loss, dysphagia, vomiting, bleeding, anaemia symptoms; NSAIDs; smoking, alcohol; ICE
+dom: Information giving | !Explains reason for urgent referral without alarming or falsely reassuring
+dom: Management | !2WW OGD when indicated; bloods; stop NSAID; lifestyle; safety-net
+s: History | Have you lost any weight without trying? | The red flag that changes everything.
+s: History | Does food ever feel like it sticks on the way down? | Dysphagia only comes out if you ask.
+s: Explain | I can give you something for the heartburn, but with the weight loss and food sticking, I want to look first, so we don't miss anything. | Explains why not to just prescribe.
+s: Explain | It's called an endoscopy: a thin camera through the mouth into the stomach. It's quick, and you can have a throat spray or sedation. | Plain explanation of the test.
+
+@PP32 | IBS: history and explanation of diagnosis and management
+src: CP2 GP (IBS: history, explain diagnosis and management) · Station bank GI06
+u: 29
+fr: hx, expl, plan
+door: You are a Foundation doctor in General Practice. A 28-year-old has had abdominal pain and bloating for over 6 months. Tasks: take a history and explain the likely diagnosis and management.
+trig: ≥6 months of pain relieved by opening bowels + bloating + altered stool + no red flags → IBS
+hook: NICE IBS criteria "ABC": Abdominal pain or discomfort relieved by defecation or with altered frequency/form, for ≥6 months, plus 2 of: Bloating, Change on eating (worse), straining/urgency/incomplete evacuation, mucus.
+hook: Exclude before labelling: FBC, ESR/CRP, coeliac serology (tTG IgA), faecal calprotectin (if diarrhoea), CA-125 in women with suggestive symptoms.
+clinch: ❌ Nocturnal symptoms, rectal bleeding, weight loss, age >60 with change in habit, family history of bowel/ovarian cancer → not IBS until investigated
+clinch: ✅ Normal calprotectin makes IBD very unlikely
+money: Everything points to irritable bowel syndrome: your gut is real and sensitive, not damaged. The blood tests are to rule out coeliac disease and inflammation. Most people get good control with regular meals, adjusting fibre, and medicines matched to your main symptom.
+trap: "It's all in your head" language
+var: A | Ms Brown, 28 | IBS (mixed)
+a: Crampy lower abdominal pain for 9 months, better after opening bowels, bloating by the evening, alternating loose and hard stools, some mucus; worse with stress and after big meals. No blood, weight loss, night-time symptoms. No family bowel disease. Worried it's bowel cancer or that people think you're making it up.
+x: Positive diagnosis of IBS after bloods (FBC, CRP, coeliac serology, calprotectin); diet (regular meals, fluids, limit caffeine/alcohol/fizzy, adjust fibre, oats/linseed for bloating, low-FODMAP via dietitian); antispasmodic (mebeverine), loperamide for diarrhoea, laxative (not lactulose) for constipation; low-dose TCA second-line; psychological therapy if refractory; safety-net red flags.
+dom: Information gathering | !Duration, pain–defecation relationship, stool form, bloating, mucus; !red flags; diet, stress, mood; FH; ICE
+dom: Information giving | Explains IBS as a real condition (gut–brain sensitivity); addresses cancer fear; chunk and check
+dom: Management | !Exclusion bloods; diet and lifestyle; symptom-led medicines; follow-up; safety-net
+s: History | Does opening your bowels change the pain? | The defining feature of IBS.
+s: History | Do the symptoms ever wake you at night? Any blood, or weight loss? | Nocturnal symptoms and bleeding point away from IBS: red flags named.
+s: Explain | IBS means the bowel is extra sensitive and its muscles squeeze out of rhythm. It's real, it isn't dangerous, and it won't turn into cancer. | Validates and reassures: answers both of her fears.
+s: Explain | We'll do some blood and stool tests first to rule out coeliac disease and inflammation. | Exclusion tests named.
+s: Plan | Small regular meals, plenty of water, less caffeine and fizzy drinks; a tablet called mebeverine for cramps. If that's not enough, a dietitian can try a low-FODMAP diet with you. | Symptom-led stepwise management.
+
+@PP33 | Young woman with diarrhoea and mouth ulcers → Crohn's (history or exam + investigations)
+src: SMOSCE 52
+u: 25, 28
+fr: hx, ex, plan
+ex: abdo
+door: You are the junior doctor in a GP practice. A young woman has "embarrassing" abdominal symptoms. Tasks: take a focused history OR perform an abdominal examination; present key findings; explain how you would investigate further.
+trig: Young + chronic diarrhoea with nocturnal urgency + weight loss + mouth ulcers → Crohn's disease
+hook: IBD vs IBS: "Night, Nutrition, Nasties". Nocturnal symptoms, weight loss, and blood/mouth ulcers/raised markers = organic.
+hook: Crohn's "mouth to anus, skip lesions, smokers worse"; UC "rectum up, continuous, smokers protected".
+clinch: ✅ Raised faecal calprotectin + chronic diarrhoea in a young person = refer for colonoscopy
+clinch: ❌ Positive tTG = coeliac disease (but can coexist)
+money: She has 6 months of nocturnal diarrhoea with mucus, weight loss, fatigue and mouth ulcers, which points to inflammatory bowel disease, probably Crohn's. I'd check FBC, CRP, U&E, LFT, B12, folate, ferritin, coeliac serology, a pregnancy test, stool culture and faecal calprotectin, and refer to gastroenterology.
+var: A | Medical student, 21 | Crohn's disease
+a: 6 months of cramps most days; opening bowels 3–4 times a day, loose; a couple of accidents; sometimes woken at night needing to go; relief after going; mucus but no blood. No vomiting, no diet change. Jeans looser; appetite lost on bad days; tired, struggling at uni. ONLY IF ASKED: lots of mouth ulcers for a year. No travel or antibiotics. Non-smoker, 10 units/week. Appendix out at 15. Allergic to penicillin and apples. Grandad had colon cancer at 85. ICE: worried about cancer; embarrassed; worried about exams.
+r: If examined: generally tender across the lower abdomen.
+x: Bloods: FBC, CRP, U&E, LFT, B12, folate, ferritin, βhCG; coeliac screen; faecal calprotectin; stool MC&S (C. difficile); urine dip; abdominal USS; senior review; gastroenterology for colonoscopy and biopsy.
+dom: Information gathering | !Duration, diarrhoea features (blood, mucus, nocturnal), weight loss, extra-intestinal (mouth ulcers, joints, eyes, skin), smoking, travel, FH, ICE
+dom: Clinical reasoning | IBD (Crohn's) top; differentials coeliac, infective, IBS
+dom: Information giving | !Investigations listed with reasons; senior/GI referral
+s: History | Do you ever have to get up in the night to open your bowels? | Nocturnal diarrhoea = organic disease.
+s: History | Any mouth ulcers, sore joints, red eyes or skin rashes? | Extra-intestinal features (only revealed if asked) push to Crohn's.
+s: Plan | The key stool test is calprotectin: it measures inflammation in the gut. If it's raised, the next step is a colonoscopy with biopsies. | Explains the gatekeeper test.
+s: Explain | I know this is embarrassing and stressful with exams. You've done the right thing coming in. | Empathy for her ICE.
