@@ -1,4 +1,6 @@
-# medengine.exe · v0.5.0 beta
+# medengine-OSCE · v0.5.0 beta
+
+Part of the **medengine.exe** family (medengine-OSCE and medengine-STUDY).
 
 OSCE practice for UK medical students: a script for every station (what to say and why), one framework per station type with what changes, the non-negotiables, every hook, and an AI patient and examiner you can type to or talk to, with detailed marking.
 
@@ -40,7 +42,7 @@ npm run test:app         # Playwright + Chromium, full app suite
    Site: root directory `.` (repo root), install `npm ci --prefix web`, build `npm run build --prefix web`, output `./web/dist`.
 3. **Connect GitHub** (Console → Sites → web → Git) so every push to `main` redeploys.
 4. **Environment variables.** Use `.env.example` as the list. Website build: `APPWRITE_ENDPOINT`, `APPWRITE_PROJECT_ID`. Functions: `ANTHROPIC_API_KEY`, the Stripe keys, `SITE_URL`.
-5. **Stripe (test mode first).** Create a Product "medengine.exe Pro" with a recurring GBP price → `STRIPE_PRICE_ID`. Add a webhook endpoint pointing at the `stripe-webhook` function's domain with events `checkout.session.completed`, `customer.subscription.updated`, `customer.subscription.deleted` → `STRIPE_WEBHOOK_SECRET`. Turn on the customer portal (Settings → Billing → Customer portal).
+5. **Stripe (test mode first).** Create a Product "medengine-OSCE Pro" with a recurring GBP price → `STRIPE_PRICE_ID`. Add a webhook endpoint pointing at the `stripe-webhook` function's domain with events `checkout.session.completed`, `customer.subscription.updated`, `customer.subscription.deleted` → `STRIPE_WEBHOOK_SECRET`. Turn on the customer portal (Settings → Billing → Customer portal).
 6. **Allow your site's domain** as a Web platform in the Appwrite project (Overview → Add platform → Web) so the browser SDK can call it.
 7. **Test end to end** with Stripe's test card `4242 4242 4242 4242`: sign up → AI works for the free allowance → Go Pro → `pro` label appears on the user → unlimited AI → Manage billing → cancel → label removed.
 

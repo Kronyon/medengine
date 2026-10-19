@@ -142,7 +142,7 @@ async function onClick(e) {
     } else if (a === 'signup') {
       await account.create({ userId: ID.unique(), email: v('aEmail'), password: v('aPass'), name: v('aName') || undefined });
       await account.createEmailPasswordSession({ email: v('aEmail'), password: v('aPass') });
-      note = 'Welcome to medengine.exe.'; await refreshMe();
+      note = 'Welcome to medengine-OSCE.'; await refreshMe();
     } else if (a === 'sendreset') {
       await account.createRecovery({ email: v('aEmail'), url: location.origin + '/reset.html' });
       note = 'If that email has an account, a reset link is on its way.'; drawModal();

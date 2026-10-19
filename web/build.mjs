@@ -24,11 +24,11 @@ html = html.replace(/\bNana\b/g, '[your name]');
 // The claude.ai host adds the document skeleton; a plain website needs it explicitly (emoji break without the charset).
 html = '<!doctype html>\n<html lang="en-GB">\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n' + html;
 
-const head = `<meta name="description" content="medengine.exe: OSCE practice with scripts, frameworks, hooks, and an AI patient and examiner you can talk to.">
+const head = `<meta name="description" content="medengine-OSCE: OSCE practice with scripts, frameworks, hooks, and an AI patient and examiner you can talk to.">
 <link rel="icon" href="icon.svg"><link rel="stylesheet" href="site.css">`;
 html = html.replace('</title>', '</title>\n' + head);
 
-const inject = `<footer class="site-foot"><span>medengine.exe v${cfg.version}. For education and exam practice only; not medical advice. Always follow current UK guidance (NICE, BNF) and your medical school's teaching. Not affiliated with or endorsed by any university.</span><span><a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a></span></footer>
+const inject = `<footer class="site-foot"><span>medengine-OSCE v${cfg.version}. For education and exam practice only; not medical advice. Always follow current UK guidance (NICE, BNF) and your medical school's teaching. Not affiliated with or endorsed by any university.</span><span><a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a></span></footer>
 <script>window.MEDENGINE_PUBLIC = true; window.MEDENGINE_CONFIG = ${JSON.stringify(cfg)};</script>
 <script src="shim.js"></script>
 `;
