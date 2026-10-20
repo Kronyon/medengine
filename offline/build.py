@@ -83,7 +83,7 @@ def build():
     shutil.copy(OFF / 'src' / 'launcher.html', OUT / 'medengine.html')
     shutil.copy(OFF / 'src' / 'READ ME.txt', OUT / 'READ ME.txt')
 
-    z = OFF / 'dist' / 'medengine-v0.5.0-beta-offline.zip'
+    z = OFF / 'dist' / 'medengine-v0.6.0-beta-offline.zip'
     if z.exists():
         z.unlink()
     with zipfile.ZipFile(z, 'w', zipfile.ZIP_DEFLATED) as zf:

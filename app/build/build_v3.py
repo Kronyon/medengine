@@ -85,6 +85,28 @@ for i, p in D['packs'].items():
         p['ck'] = ck
         nck += len(ck)
 
+# ---------- 3b. guideline updates (shared with medengine-STUDY) ----------
+UPD = json.load(open(f'{ROOT}/content/updates_2026.json', encoding='utf8'))
+for op in UPD['ops']:
+    p = D['packs'][str(op['u'])]
+    f = op['field']
+    if 'add' in op:
+        if f == 'ck':
+            p.setdefault('ck', []).append(list(op['add']))
+        else:
+            p.setdefault(f, []).append(op['add'])
+        continue
+    hits = 0
+    items = p.get(f, [])
+    for k, it in enumerate(items):
+        if f == 'ck':
+            if op['old'] in it[1]:
+                it[1] = it[1].replace(op['old'], op['new']); hits += 1
+        elif op['old'] in it:
+            items[k] = it.replace(op['old'], op['new']); hits += 1
+    if hits != 1:
+        raise SystemExit(f"update for unit {op['u']} {f} matched {hits} times: {op['old'][:50]}")
+
 # ---------- 4. past-paper stations ----------
 KIND = {'✅': 'in', '❌': 'out', '🧪': 'lab'}
 def kind_for(fr):

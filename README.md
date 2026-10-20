@@ -1,4 +1,4 @@
-# medengine-OSCE · v0.5.0 beta
+# medengine-OSCE · v0.6.0 beta
 
 Part of the **medengine.exe** family (medengine-OSCE and medengine-STUDY).
 
@@ -10,11 +10,16 @@ OSCE practice for UK medical students: a script for every station (what to say a
 offline/          Downloadable app: no sign-in, runs from a folder (python3 offline/build.py)
   src/            launcher, offline AI layer (your own Anthropic key), read-me
   img/            STUDY page images
-study/            medengine-STUDY page source
-app/              The app itself: content (stations, frameworks), source, build pipeline
-  content/        Stations (pp*.txt), frameworks (fw*.txt), money lines, frame why-lines
-  src/            Page head (CSS + layout) and script, base data (ILO units, packs, bank)
-  build/          build_v3.py (data) · build_app_v3.py (page) · test_v4.py (browser tests)
+study/            medengine-STUDY
+  base_v050.html  The v0.5 page (notes, SBAs, word hunt); never edited by hand
+  patch_study.py  Builds medengine-study.html from it + ext_study.js/.css + app/src/mev.* + guideline updates
+  test_study_v6.py  Browser tests: atlas, vault (paste/review), sniper (masking, keys), dropdowns
+app/              The OSCE app: content (stations, frameworks), source, build pipeline
+  content/        Stations (pp*.txt), frameworks (fw*.txt), money lines, frame why-lines,
+                  updates_2026.json (guideline nuances shared by BOTH apps)
+  src/            Page head and script, base data, and mev.js/mev.css: the shared visual layer
+                  (Clinical Atlas Lookup, Visual Showdowns, ECG/CXR/fundus/eardrum schematics)
+  build/          build_v3.py (data) · build_app_v3.py (page) · test_v4.py + test_v6.py (browser tests)
   dist/app.html   The built single-file app (also what runs inside claude.ai)
 web/              The public website (Appwrite Sites, static)
   src/shim.js     Replaces claude.ai's runtime: Appwrite accounts, AI via the `ai` function, billing
@@ -37,6 +42,7 @@ npm --prefix web ci && npm run build:web
 npm run test:functions   # node, no network needed
 npm run test:web         # Playwright + Chromium
 npm run test:app         # Playwright + Chromium, full app suite
+npm run build:study && npm run test:study   # medengine-STUDY v0.6
 ```
 
 ## Download and run (no sign-in)

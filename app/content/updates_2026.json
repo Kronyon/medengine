@@ -1,0 +1,29 @@
+{
+  "_about": "Guideline nuances checked October 2026 and applied to BOTH apps: OSCE packs (build_v3.py) and STUDY clinchers (study/patch_study.py). u = ILO unit index. ck ops edit the clinchers; mx/hx ops edit OSCE pack lines.",
+  "ops": [
+    {"u": 67, "field": "mx", "old": "→ metformin (MR if GI upset) → add SGLT2i if CVD/HF/QRISK ≥10% →", "new": "→ **MR metformin + an SGLT2i together** (NICE NG28, Feb 2026: dual first line for most adults; titrate metformin first; caution if frail) → can't tolerate metformin: SGLT2i alone; ASCVD: add semaglutide; diagnosed under 40: consider a GLP-1 RA or tirzepatide →"},
+    {"u": 67, "field": "ck", "add": ["nb", "**NICE NG28 (Feb 2026)**: **MR metformin + SGLT2i = dual first line** for most T2DM (titrate metformin first; caution if frail; don't start if previous DKA, ketogenic diet, dehydrated or acutely unwell). Older banks: metformin alone, SGLT2i only if **CVD, HF or QRISK ≥10%**. Answer the rule the question was written for."]},
+    {"u": 93, "field": "ck", "old": "Over 60 or immunosuppressed → add **amoxicillin** for Listeria", "new": "**≥60** (UK specialist societies, most trusts) **or >50** (Passmed, some trusts) **or immunosuppressed** (diabetes, alcohol, pregnancy, steroids) → add IV **amoxicillin** for Listeria; NICE NG240 just says \"Listeria risk factors\""},
+    {"u": 93, "field": "mx", "old": "add amoxicillin if >60/immunosuppressed", "new": "add IV amoxicillin if Listeria risk (≥60, or >50 in some banks and trusts; immunosuppressed incl. diabetes and alcohol; pregnant)"},
+    {"u": 93, "field": "hx", "old": "Age >60 (Listeria)", "new": "Age ≥60 (>50 in some sources), immunosuppressed or pregnant (Listeria)"},
+    {"u": 112, "field": "ck", "old": "**5(2)** doctor holding 72 h", "new": "**5(2)** doctor holding 72 h (**inpatients only**, any ward; **never in ED**)"},
+    {"u": 112, "field": "ck", "add": ["out", "**s5(2) can't be used in ED/A&E**: an ED patient is not an inpatient (any informal ward inpatient, general wards included, is fine). Overdose wanting to leave ED → assess **capacity (MCA) + risk** first: lacks capacity → keep them safe in their best interests under the MCA; mental disorder + high risk → urgent **MHA assessment** (s2, or s4 in an emergency)"]},
+    {"u": 112, "field": "mx", "old": "5(2) doctor's holding power 72 h", "new": "5(2) doctor's holding power 72 h (informal inpatients on any ward only: never in ED; in ED use MCA + an urgent MHA assessment)"}
+  ],
+  "study": {
+    "hunt": {
+      "400": ["NICE NG28: metformin → add **SGLT2i** if CVD, HF or high QRISK", "NICE NG28 (Feb 2026): **MR metformin + SGLT2i** together for most (older banks: SGLT2i only if CVD, HF or QRISK ≥10%)"],
+      "1008": ["(add **amoxicillin** if >60, immunocompromised or Listeria risk;", "(add **amoxicillin** if ≥60 (>50 in some banks), immunocompromised or Listeria risk;"]
+    },
+    "why": {
+      "93": ["• Add amoxicillin if >60 / immunocompromised / pregnant (Listeria: cephalosporins don't cover it)", "• Add amoxicillin if ≥60 (>50 in some banks) / immunocompromised / pregnant (Listeria: cephalosporins don't cover it)"]
+    },
+    "lines": {
+      "60.3.7.1": "🆕 NICE NG28 (Feb 2026): offer MR metformin AND an SGLT2i together as first line for most adults (titrate metformin first; caution if frail).",
+      "60.3.7.2": "🆕 This is the pre-2026 rule (SGLT2i only if CVD, HF or QRISK ≥10%). Older question banks still use it; current NICE gives the SGLT2i to almost everyone from the start.",
+      "60.3.7.6": "🆕 2026: if MR metformin isn't tolerated, use an SGLT2i alone (no CVD requirement).",
+      "60.3.13.2": "🆕 2026: start alongside MR metformin at diagnosis for most adults, not only with CVD, HF or QRISK ≥10%.",
+      "134.2.4.3": "🆕 Clincher: s5(2) needs an informal INPATIENT on any ward (general wards count). In ED: capacity (MCA) + risk, then an urgent MHA assessment."
+    }
+  }
+}

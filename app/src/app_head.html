@@ -253,11 +253,17 @@ select.sel{border:1px solid var(--line);background:var(--surface);border-radius:
 .stat b{font-family:var(--f-mono);font-size:1.05rem}
 .hkall{gap:6px}
 #hQ{flex:1 1 180px}
+/* v0.6: amber last two minutes, 8:00 gong flash */
+.track.live i{background:var(--warn)}
+.track.live .zone{background:var(--warn);opacity:.85}
+.track.gonged .zone{animation:gongpulse .9s ease-in-out 3}
+@keyframes gongpulse{50%{opacity:.25}}
+#atlasQ{flex:1 1 220px;min-height:38px}
 </style>
 
 <header class="top">
   <div class="bar">
-    <button class="brand" id="homeBtn" aria-label="medengine-OSCE home"><span class="bill">m</span><span class="bname">medengine<span class="ext">-OSCE</span></span><span class="ver">v0.5.0 beta</span></button>
+    <button class="brand" id="homeBtn" aria-label="medengine-OSCE home"><span class="bill">m</span><span class="bname">medengine<span class="ext">-OSCE</span></span><span class="ver">v0.6.0 beta</span></button>
     <a class="switch" id="drillLink" data-private href="https://claude.ai/artifact/NexSvgTB8VhqktVFfko6JR" target="_blank" rel="noopener" title="Open medengine-STUDY (notes, SBAs, word hunt)"><span class="dot">m</span>medengine-STUDY ↗</a>
     <span class="grow"></span>
     <input class="search" id="q" type="search" placeholder="Search stations, exams, DOPS, ILOs…" autocomplete="off" aria-label="Search">

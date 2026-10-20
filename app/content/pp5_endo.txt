@@ -66,23 +66,23 @@ hook: Diagnosis (WHO): symptomatic + random glucose ≥11.1, or fasting ≥7.0, 
 hook: Complications "Big vessels, small vessels": macro (heart, stroke, legs) and micro (eyes, kidneys, nerves) → annual checks (eyes, feet, urine ACR, bloods, BP).
 clinch: ✅ Two random glucoses >11.1 (13.5 and 12.1) + symptoms = diabetes
 clinch: ❌ Thin + young + weight loss + ketones → think type 1
-money: Your sugar is 13.5, and with last month's 12.1 and your symptoms, that's type 2 diabetes. It's very common and very manageable. The main treatment is diet, activity and weight, and usually a tablet called metformin, plus yearly checks on your eyes, feet and kidneys.
+money: Your sugar is 13.5, and with last month's 12.1 and your symptoms, that's type 2 diabetes. It's very common and very manageable. The main treatment is diet, activity and weight, usually with two tablets: slow-release metformin, and one called dapagliflozin that also protects your heart and kidneys. Plus yearly checks on your eyes, feet and kidneys.
 var: A | Taxi driver, 58 | New type 2 diabetes
 a: Very tired all the time; sleeping well; no change in activity; taxi driver with little exercise. Passing urine much more in the last few weeks (missed fares). Some itching; slight deterioration in vision.
 a: High blood pressure on amlodipine. Father (big guy) died of a heart attack at 56. Smoke 10/day for 40 years. 16 units on Friday, otherwise avoid as you drive. Live with wife; son moved out. If asked: poor diet, fast food, snacking while driving, lots of Coca-Cola.
 a: For the BM: "not great with needles", a bit nervous. Then ask: What problems will this give me? Will I die from it? Is it curable? What can make it better? Will I need checks? Will it affect my work?
 r: Random CBG 13.5 mmol/L. Last month (incidental) 12.1 mmol/L.
-x: T2DM: explain; lifestyle (diet, swap sugary drinks, activity, weight, stop smoking, alcohol); HbA1c, U&E, lipids, urine ACR; metformin (start low, titrate; GI side effects) with SGLT2i if CVD/high CV risk/HF/CKD per NICE NG28; structured education (DESMOND); annual review: retinal screening, foot checks, kidney, BP, lipids; statin (QRISK); DVLA: no need to notify for diet/metformin; taxi licensing authority if on hypo-risk drugs.
+x: T2DM: explain; lifestyle (diet, swap sugary drinks, activity, weight, stop smoking, alcohol); HbA1c, U&E, lipids, urine ACR; MR metformin (titrate; GI side effects) + an SGLT2i (dapagliflozin or empagliflozin) together as dual first line per NICE NG28 (Feb 2026; caution if frail; counsel sick-day rules, genital thrush, rare DKA); structured education (DESMOND); annual review: retinal screening, foot checks, kidney, BP, lipids; statin (QRISK); DVLA: no need to notify for diet/metformin; taxi licensing authority if on hypo-risk drugs.
 dom: Information gathering | !Osmotic symptoms (polyuria, thirst), weight change, blurred vision, infections/itch; lifestyle factors (diet, drinks, activity); FH; smoking; alcohol; occupation
 dom: Procedure (CBG) | Equipment and in-date strips; primes meter; side of the finger; gentle pressure; applies to strip; sharps; explains result; hand hygiene
-dom: Information giving | !Explains T2DM without jargon; answers each question; complications; lifestyle; HbA1c; metformin; annual review; work/driving
+dom: Information giving | !Explains T2DM without jargon; answers each question; complications; lifestyle; HbA1c; metformin + SGLT2i (NICE 2026); annual review; work/driving
 s: History | Have you been more thirsty, or getting up at night to pass urine? | Osmotic symptoms are the key named questions.
 s: History | Any blurred vision, itching, or infections like thrush? | Hyperglycaemia features from the actor brief.
 s: CBG | It's a tiny prick on the side of your finger: less sore than the tip. I'll be quick. | Reassuring a needle-phobic patient + correct site.
 s: Explain | Diabetes means there's too much sugar in your blood because your body isn't using insulin properly. Over time, high sugar damages small and large blood vessels. | Plain mechanism + why complications happen.
 s: Explain | It isn't curable in the usual sense, but it's very controllable; some people even put it into remission by losing weight. | Honest + hopeful answer to "is it curable?"
 s: Explain | Swapping the Coca-Cola for sugar-free drinks is one of the biggest single changes you could make. | Specific lifestyle advice tied to his history.
-s: Explain | You'll have checks every year: eyes, feet, kidneys, blood pressure and cholesterol. You don't need to tell the DVLA if you're on diet or metformin alone. | Annual review + work/driving question answered.
+s: Explain | You'll have checks every year: eyes, feet, kidneys, blood pressure and cholesterol. You don't need to tell the DVLA for diet, metformin or dapagliflozin, because none of them cause hypos. | Annual review + work/driving question answered.
 
 @PP50 | New type 1 diabetes: results + counselling (sick-day rules, hypos, DVLA)
 src: SMOSCE 50

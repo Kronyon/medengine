@@ -1,6 +1,6 @@
 {
   "name": "medengine-web",
-  "version": "0.5.0-beta",
+  "version": "0.6.0-beta",
   "description": "medengine.exe website (Appwrite Sites)",
   "scripts": {
     "build": "node build.mjs"
