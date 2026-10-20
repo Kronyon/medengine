@@ -8,3 +8,4 @@ app/out/
 app/build/osce_data_v3.json
 __pycache__/
 *.zip
+offline/dist/

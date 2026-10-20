@@ -10,6 +10,8 @@
     "build": "npm run build:app && npm run build:web",
     "test:functions": "node functions/test/run.mjs",
     "test:web": "python3 web/test_site.py",
-    "test:app": "python3 app/build/test_v4.py"
+    "test:app": "python3 app/build/test_v4.py",
+    "build:offline": "python3 offline/build.py",
+    "test:offline": "python3 offline/test_offline.py"
   }
 }

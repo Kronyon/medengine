@@ -1,0 +1,29 @@
+medengine.exe  v0.5.0 beta
+==========================
+
+HOW TO OPEN
+1. Unzip this folder and keep the files together (don't move osce.html,
+   study.html or the img folder out of it).
+2. Double-click medengine.html. It opens in your web browser.
+3. Press 1 (or click) for medengine-OSCE, 2 for medengine-STUDY.
+
+No sign-in, no claude.ai. Everything runs from this folder, offline.
+
+THE AI PATIENT, VOICE STATIONS AND EXAMINER MARKING
+These need an internet connection and your own Anthropic API key:
+1. Go to console.anthropic.com, add some credit, then API keys > Create key.
+2. In medengine-OSCE, press "AI key" (top right), paste the key, Save, Test.
+The key stays in your browser on this computer and is only ever sent to
+api.anthropic.com. You pay Anthropic directly for what you use.
+Everything else (scripts, frameworks, hooks, friend practice, self-marking,
+all of STUDY) works with no key and no internet.
+
+VOICE
+Use Chrome or Edge for the voice stations; allow the microphone when asked.
+
+YOUR PROGRESS
+Saved in your browser for this folder. Use the same browser each time.
+Progress from the claude.ai versions does not carry over.
+
+For education and exam practice only; not medical advice. Always follow
+current UK guidance (NICE, BNF) and your medical school's teaching.

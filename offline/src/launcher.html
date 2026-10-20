@@ -65,7 +65,7 @@ button.theme{font:inherit;font-size:.82rem;background:none;border:1px solid var(
   <p class="lede">Two engines, one revision system. <b>OSCE</b> is where you perform; <b>STUDY</b> is where you load the knowledge. Pick one to launch.</p>
 
   <div class="grid">
-    <a class="app osce" id="osce" href="https://claude.ai/artifact/2inAuiJNGrZaB4XqP7uQYm" target="_blank" rel="noopener">
+    <a class="app osce" id="osce" href="osce.html">
       <span class="tag">🩺 PERFORM</span>
       <h2>medengine<span>-OSCE</span></h2>
       <p>Stations, scripts and the AI patient and examiner.</p>
@@ -74,9 +74,9 @@ button.theme{font:inherit;font-size:.82rem;background:none;border:1px solid var(
         <li>Frameworks, non-negotiables and every hook</li>
         <li>🎙 10-minute voice stations with detailed marking</li>
       </ul>
-      <div class="go">Launch ↗ <kbd>1</kbd></div>
+      <div class="go">Launch → <kbd>1</kbd></div>
     </a>
-    <a class="app study" id="study" href="https://claude.ai/artifact/NexSvgTB8VhqktVFfko6JR" target="_blank" rel="noopener">
+    <a class="app study" id="study" href="study.html">
       <span class="tag">🧠 LOAD</span>
       <h2>medengine<span>-STUDY</span></h2>
       <p>Notes, SBAs and word hunt, filtered to your ILOs.</p>
@@ -85,12 +85,12 @@ button.theme{font:inherit;font-size:.82rem;background:none;border:1px solid var(
         <li>SBA drills and the Think tab</li>
         <li>Links straight into the matching OSCE pack</li>
       </ul>
-      <div class="go">Launch ↗ <kbd>2</kbd></div>
+      <div class="go">Launch → <kbd>2</kbd></div>
     </a>
   </div>
 
   <div class="foot">
-    <span>Opens in claude.ai; sign in with the account that owns the apps. For education only; not medical advice.</span>
+    <span>Runs from this folder: no sign-in, works offline. The AI patient and examiner use your own key (🔑 AI key in OSCE). For education only; not medical advice.</span>
     <button class="theme" id="theme" type="button">◐ Theme</button>
   </div>
 </main>
@@ -98,7 +98,7 @@ button.theme{font:inherit;font-size:.82rem;background:none;border:1px solid var(
 document.addEventListener('keydown', function (e) {
   if (e.metaKey || e.ctrlKey || e.altKey) return;
   var t = e.key === '1' ? 'osce' : e.key === '2' ? 'study' : null;
-  if (t) window.open(document.getElementById(t).href, '_blank', 'noopener');
+  if (t) location.href = document.getElementById(t).href;
 });
 (function () {
   var r = document.documentElement, k = 'medengine-launcher-theme';

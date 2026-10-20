@@ -7,8 +7,10 @@ OSCE practice for UK medical students: a script for every station (what to say a
 ## What's in this repo
 
 ```
-launcher/         medengine.html: double-click to open either app (keys 1 = OSCE, 2 = STUDY)
-study/            medengine-STUDY page backup (notes, SBAs, word hunt)
+offline/          Downloadable app: no sign-in, runs from a folder (python3 offline/build.py)
+  src/            launcher, offline AI layer (your own Anthropic key), read-me
+  img/            STUDY page images
+study/            medengine-STUDY page source
 app/              The app itself: content (stations, frameworks), source, build pipeline
   content/        Stations (pp*.txt), frameworks (fw*.txt), money lines, frame why-lines
   src/            Page head (CSS + layout) and script, base data (ILO units, packs, bank)
@@ -36,6 +38,15 @@ npm run test:functions   # node, no network needed
 npm run test:web         # Playwright + Chromium
 npm run test:app         # Playwright + Chromium, full app suite
 ```
+
+## Download and run (no sign-in)
+
+```bash
+npm run build:app && python3 offline/build.py   # → offline/dist/medengine-v0.5.0-beta-offline.zip
+python3 offline/test_offline.py                  # file:// test with the Anthropic API faked
+```
+
+Unzip, double-click `medengine.html`, press 1 (OSCE) or 2 (STUDY). Everything works offline except the AI patient, voice stations and examiner marking, which call the Anthropic API directly with your own key (🔑 AI key in OSCE; stored only in that browser).
 
 ## Deploy (Appwrite Cloud + Stripe)
 
