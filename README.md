@@ -7,6 +7,8 @@ OSCE practice for UK medical students: a script for every station (what to say a
 ## What's in this repo
 
 ```
+launcher/         medengine.html: double-click to open either app (keys 1 = OSCE, 2 = STUDY)
+study/            medengine-STUDY page backup (notes, SBAs, word hunt)
 app/              The app itself: content (stations, frameworks), source, build pipeline
   content/        Stations (pp*.txt), frameworks (fw*.txt), money lines, frame why-lines
   src/            Page head (CSS + layout) and script, base data (ILO units, packs, bank)

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>medengine.exe</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+:root{
+  --bg:#edf3f2; --surface:#fff; --ink:#10242a; --muted:#536770; --line:#d4e1df;
+  --osce:#0e8f7e; --osce-soft:#d6f0eb; --osce-ink:#06594e;
+  --study:#c98f00; --study-soft:#fff3cf; --study-ink:#6b4c00; --focus:#2f6fed;
+  --shadow:0 1px 2px rgba(16,36,42,.06),0 6px 20px rgba(16,36,42,.08);
+  --f-display:"Bricolage Grotesque","Avenir Next","Segoe UI",system-ui,sans-serif;
+  --f-body:"Atkinson Hyperlegible","Verdana","Segoe UI",system-ui,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0b1517; --surface:#13201f; --ink:#e5f0ee; --muted:#93aaa6; --line:#24393a;
+  --osce:#3cc7b2; --osce-soft:#123a35; --osce-ink:#8fe8da;
+  --study:#ffcb3d; --study-soft:#3a2e0e; --study-ink:#ffe08a; --focus:#7aa6ff;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.25); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0b1517; --surface:#13201f; --ink:#e5f0ee; --muted:#93aaa6; --line:#24393a;
+  --osce:#3cc7b2; --osce-soft:#123a35; --osce-ink:#8fe8da;
+  --study:#ffcb3d; --study-soft:#3a2e0e; --study-ink:#ffe08a; --focus:#7aa6ff;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.25); color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:var(--bg);color:var(--ink);font-family:var(--f-body);line-height:1.55;display:flex;align-items:center;justify-content:center;padding:32px 16px}
+main{width:100%;max-width:820px}
+.top{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+.bill{width:44px;height:44px;border-radius:12px;background:var(--ink);color:var(--bg);display:grid;place-items:center;font-family:var(--f-display);font-weight:800;font-size:1.5rem}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(1.8rem,5vw,2.6rem);letter-spacing:-.02em;margin:0;line-height:1}
+h1 .ext{font-family:var(--f-mono);font-size:.62em;font-weight:700;color:var(--muted)}
+.ver{font-family:var(--f-mono);font-size:.78rem;border:1px solid var(--line);border-radius:99px;padding:2px 9px;color:var(--muted);margin-left:auto;white-space:nowrap}
+.lede{color:var(--muted);margin:10px 0 26px;max-width:60ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+a.app{display:flex;flex-direction:column;gap:10px;text-decoration:none;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:var(--shadow);position:relative;overflow:hidden;transition:transform .15s ease,border-color .15s ease}
+a.app::before{content:"";position:absolute;inset:0 0 auto;height:5px;background:var(--c)}
+a.app:hover{transform:translateY(-2px);border-color:var(--c)}
+a.app:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+.osce{--c:var(--osce);--soft:var(--osce-soft);--cink:var(--osce-ink)}
+.study{--c:var(--study);--soft:var(--study-soft);--cink:var(--study-ink)}
+.tag{align-self:flex-start;font-family:var(--f-mono);font-size:.72rem;font-weight:700;letter-spacing:.06em;background:var(--soft);color:var(--cink);border-radius:99px;padding:3px 10px}
+a.app h2{font-family:var(--f-display);font-size:1.45rem;font-weight:800;margin:0;letter-spacing:-.01em}
+a.app h2 span{color:var(--cink)}
+a.app p{margin:0;color:var(--muted);font-size:.95rem}
+ul{margin:0;padding-left:1.1em;font-size:.92rem}
+.go{margin-top:auto;padding-top:6px;font-weight:700;color:var(--cink);display:flex;justify-content:space-between;align-items:center}
+kbd{font-family:var(--f-mono);font-size:.75rem;border:1px solid var(--line);border-bottom-width:2px;border-radius:6px;padding:1px 7px;color:var(--muted)}
+.foot{margin-top:26px;font-size:.82rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:space-between}
+@media (hover:none){kbd{display:none}}
+button.theme{font:inherit;font-size:.82rem;background:none;border:1px solid var(--line);border-radius:99px;padding:2px 10px;color:var(--muted);cursor:pointer}
+</style>
+</head>
+<body>
+<main>
+  <div class="top">
+    <div class="bill" aria-hidden="true">m</div>
+    <h1>medengine<span class="ext">.exe</span></h1>
+    <span class="ver">v0.5.0 beta</span>
+  </div>
+  <p class="lede">Two engines, one revision system. <b>OSCE</b> is where you perform; <b>STUDY</b> is where you load the knowledge. Pick one to launch.</p>
+
+  <div class="grid">
+    <a class="app osce" id="osce" href="https://claude.ai/artifact/2inAuiJNGrZaB4XqP7uQYm" target="_blank" rel="noopener">
+      <span class="tag">🩺 PERFORM</span>
+      <h2>medengine<span>-OSCE</span></h2>
+      <p>Stations, scripts and the AI patient and examiner.</p>
+      <ul>
+        <li>Past-paper and bank stations with what to say and why</li>
+        <li>Frameworks, non-negotiables and every hook</li>
+        <li>🎙 10-minute voice stations with detailed marking</li>
+      </ul>
+      <div class="go">Launch ↗ <kbd>1</kbd></div>
+    </a>
+    <a class="app study" id="study" href="https://claude.ai/artifact/NexSvgTB8VhqktVFfko6JR" target="_blank" rel="noopener">
+      <span class="tag">🧠 LOAD</span>
+      <h2>medengine<span>-STUDY</span></h2>
+      <p>Notes, SBAs and word hunt, filtered to your ILOs.</p>
+      <ul>
+        <li>Notes by ILO with the original pages</li>
+        <li>SBA drills and the Think tab</li>
+        <li>Links straight into the matching OSCE pack</li>
+      </ul>
+      <div class="go">Launch ↗ <kbd>2</kbd></div>
+    </a>
+  </div>
+
+  <div class="foot">
+    <span>Opens in claude.ai; sign in with the account that owns the apps. For education only; not medical advice.</span>
+    <button class="theme" id="theme" type="button">◐ Theme</button>
+  </div>
+</main>
+<script>
+document.addEventListener('keydown', function (e) {
+  if (e.metaKey || e.ctrlKey || e.altKey) return;
+  var t = e.key === '1' ? 'osce' : e.key === '2' ? 'study' : null;
+  if (t) window.open(document.getElementById(t).href, '_blank', 'noopener');
+});
+(function () {
+  var r = document.documentElement, k = 'medengine-launcher-theme';
+  try { var s = localStorage.getItem(k); if (s) r.dataset.theme = s; } catch (e) {}
+  document.getElementById('theme').addEventListener('click', function () {
+    var dark = r.dataset.theme ? r.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+    r.dataset.theme = dark ? 'light' : 'dark';
+    try { localStorage.setItem(k, r.dataset.theme); } catch (e) {}
+  });
+})();
+</script>
+</body>
+</html>

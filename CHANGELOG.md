@@ -12,3 +12,5 @@ First named release: **medengine.exe**.
 
 ### 0.5.0-beta (rename)
 - The OSCE app is now **medengine-OSCE** and the notes/SBA app is **medengine-STUDY** (both part of medengine.exe). Cross-links, page titles, website footer and legal pages updated. Saved progress is untouched (storage keys unchanged).
+- Added `launcher/medengine.html`: one page that launches medengine-OSCE or medengine-STUDY.
+- Added a backup of the medengine-STUDY page under `study/`.
