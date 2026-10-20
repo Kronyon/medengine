@@ -97,8 +97,7 @@ def main():
 
         # links between apps stay local
         if page.get_attribute('#drillLink', 'href') != 'study.html': errs.append('drill link not local')
-        with ctx.expect_page() as np: page.click('#drillLink')
-        page = np.value; page.on('pageerror', lambda e: errs.append('pageerror: ' + str(e))); page.wait_for_load_state(); page.wait_for_timeout(1500)
+        page.click('#drillLink'); page.wait_for_load_state(); page.wait_for_timeout(1500)  # same tab: straight there
         if not page.url.endswith('study.html'): errs.append('STUDY did not open: ' + page.url)
         if 'medengine-STUDY' not in page.title(): errs.append('STUDY title wrong')
         hrefs = page.evaluate("() => [...document.querySelectorAll('a[href]')].map(a => a.getAttribute('href'))")

@@ -43,6 +43,14 @@ def must_replace(s, old, new, count=None):
     return s.replace(old, new)
 
 
+def same_tab(s, href_re, count):
+    # Links between the two apps open in the same tab, so tapping goes straight there.
+    s, n = re.subn('(' + href_re + r')\s+target="_blank" rel="noopener"', r'\1', s)
+    if n != count:
+        raise SystemExit(f'expected {count} cross-app links, changed {n}')
+    return s
+
+
 def build():
     if OUT.exists():
         shutil.rmtree(OUT)
@@ -56,6 +64,7 @@ def build():
     osce = must_replace(osce, 'AI works on the published page only', 'Add your AI key (top right) to use the AI')
     if STUDY_URL in osce:
         raise SystemExit('a STUDY link was left pointing at claude.ai')
+    osce = same_tab(osce, r'href="(?:study\.html|\' \+ DRILL \+ [^"]*)"', 3)
     shim = (OFF / 'src' / 'offline-ai.js').read_text(encoding='utf-8')
     app_script = osce.index('<script>\nconst D = ')
     osce = osce[:app_script] + DIALOG_CSS + '<script>\n' + shim + '\n</script>\n' + osce[app_script:]
@@ -64,6 +73,7 @@ def build():
     # medengine-STUDY
     study = (ROOT / 'study' / 'medengine-study.html').read_text(encoding='utf-8')
     study = must_replace(study, OSCE_URL, 'osce.html')
+    study = same_tab(study, r'href="osce\.html[^"]*"', 2)
     if 'claude.ai/artifact' in study:
         raise SystemExit('STUDY still links to claude.ai')
     (OUT / 'study.html').write_text(SKELETON + study, encoding='utf-8')

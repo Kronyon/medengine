@@ -42,11 +42,13 @@ npm run test:app         # Playwright + Chromium, full app suite
 ## Download and run (no sign-in)
 
 ```bash
-npm run build:app && python3 offline/build.py   # → offline/dist/medengine-v0.5.0-beta-offline.zip
-python3 offline/test_offline.py                  # file:// test with the Anthropic API faked
+npm run build:app && npm run build:offline   # → offline/dist/medengine.html (one file) + medengine-website.zip
+npm run test:offline                          # file:// tests with the Anthropic API faked
 ```
 
-Unzip, double-click `medengine.html`, press 1 (OSCE) or 2 (STUDY). Everything works offline except the AI patient, voice stations and examiner marking, which call the Anthropic API directly with your own key (🔑 AI key in OSCE; stored only in that browser).
+- **`medengine.html`**: one file with both apps and every page image inside. Double-click it, tap OSCE or STUDY (or press 1 / 2). The apps' own buttons jump straight between them.
+- **`medengine-website.zip`**: the same apps as a small static site (`index.html` = launcher). iPhone and iPad won't run scripts in a downloaded file, so drop this folder on any static host (Netlify Drop, Appwrite Sites, GitHub Pages) and open the link in Safari; Share → Add to Home Screen makes it an app icon.
+ Everything works offline except the AI patient, voice stations and examiner marking, which call the Anthropic API directly with your own key (🔑 AI key in OSCE; stored only in that browser).
 
 ## Deploy (Appwrite Cloud + Stripe)
 
