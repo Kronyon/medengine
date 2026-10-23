@@ -23,3 +23,4 @@
 .rmx-item .t{font-size:.9rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 #rmx{display:flex;flex-direction:column;gap:8px}
 .rmx-stat{display:inline-flex;flex-wrap:wrap;align-items:center;gap:6px}
+.rmx-out{min-height:32px;padding:4px 10px;font-size:.82rem}

@@ -192,6 +192,16 @@ def run(width, mock=True):
         if nm < 1 or f'Only misses · {nm}' not in pg.text_content('#rmxVault'): errs.append('only-misses count wrong')
         pg.click('[data-rmxmiss]'); pg.wait_for_timeout(80); pg.click('[data-rmxreplay]'); pg.wait_for_timeout(150)
         if f'Replay 1 / {nm}' not in pg.text_content('#rmx'): errs.append('replay misses did not start')
+        # getting out of a replay: Esc, the button, or just pasting a new question
+        if 'Stop replay' not in pg.text_content('#rmx'): errs.append('no Stop replay button during a replay')
+        pg.keyboard.press('Escape'); pg.wait_for_timeout(120)
+        if pg.evaluate('__me8.rmx.step') != 'home' or pg.evaluate('__me8.rmx.queue') is not None: errs.append('Esc did not leave the replay')
+        if pg.evaluate("document.activeElement && document.activeElement.id") != 'rmxIn': errs.append('paste box not focused after leaving')
+        pg.click('[data-rmxreplay]'); pg.wait_for_timeout(120); pg.click('#rmx [data-rmxreset]'); pg.wait_for_timeout(120)
+        if pg.evaluate('__me8.rmx.step') != 'home': errs.append('Stop replay button did not leave the replay')
+        pg.click('[data-rmxreplay]'); pg.wait_for_timeout(120); pg.evaluate(PASTE, SAMPLE_B); pg.wait_for_timeout(150)
+        if pg.evaluate('__me8.rmx.step') != 'check' or pg.evaluate('__me8.rmx.queue') is not None: errs.append('pasting during a replay did not start a new question')
+        pg.keyboard.press('Escape'); pg.wait_for_timeout(100)
         pg.click('[data-rmxmiss]'); pg.wait_for_timeout(80)
         if pg.locator('[data-rmxexport]').count():
             try:

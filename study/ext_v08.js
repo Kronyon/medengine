@@ -176,7 +176,7 @@ function drawRemix(){
 }
 function rmxCardHtml(){
   const C = rmx.card, c = C.c, i = rmx.i, total = c.beats.length;
-  let h = '<div class="qmeta"><span class="code">' + (rmx.queue ? '🔁 Replay ' + (rmx.queue.pos + 1) + ' / ' + rmx.queue.list.length : '🔄 Remix') + '</span>' + (C.src === 'local' ? '<span class="code">📴 offline</span>' : '<span class="code" title="Written by AI from your question: check it against the explanation">🤖 AI</span>') + '<span class="grow"></span><span class="mono">' + C.res.map(r => r == null ? '·' : r ? '✅' : '❌').join(' ') + '</span></div>';
+  let h = '<div class="qmeta"><span class="code">' + (rmx.queue ? '🔁 Replay ' + (rmx.queue.pos + 1) + ' / ' + rmx.queue.list.length : '🔄 Remix') + '</span>' + (C.src === 'local' ? '<span class="code">📴 offline</span>' : '<span class="code" title="Written by AI from your question: check it against the explanation">🤖 AI</span>') + '<span class="grow"></span><span class="mono">' + C.res.map(r => r == null ? '·' : r ? '✅' : '❌').join(' ') + '</span><button class="btn ghost rmx-out" data-rmxreset title="Back to pasting (Esc). You can also just press ⌘V here.">' + (rmx.queue ? '⏹ Stop replay' : '📋 New question') + ' <span class="kbd">Esc</span></button></div>';
   h += '<div class="rmx-case"><div class="snp-lab">① What happened</div><div class="stem snp-clue">🎬 ' + esc(c.film || C.q.stem.slice(0, 160)) + '</div>';
   if (c.right) h += '<div class="kl kl-in"><span class="ki">✅</span><span><b>' + esc(C.q.opts[C.q.correct]) + '</b>: ' + esc(c.right) + '</span></div>';
   if (c.wrong) h += '<div class="kl kl-out"><span class="ki">❌</span><span>' + (C.q.picked >= 0 ? '<b>' + esc(C.q.opts[C.q.picked]) + '</b>: ' : '') + esc(c.wrong) + '</span></div>';
@@ -202,6 +202,12 @@ function drawRmxVault(){
   const list = rmx.missOnly ? miss : all;
   box.innerHTML = '<div class="panel"><div class="toolbar"><b class="grow">🗂 Remix vault · ' + all.length + '</b><button class="btn primary" data-rmxreplay>🔁 Replay ' + list.length + '</button><button class="btn' + (rmx.missOnly ? ' primary' : '') + '" data-rmxmiss>♻️ Only misses · ' + miss.length + '</button><button class="btn ghost" data-rmxexport>⬇️ Export</button><button class="btn ghost" data-rmxclear>🗑 Clear</button></div>'
     + '<div class="rmx-list">' + list.slice(0, 30).map(c => '<button class="rmx-item" data-rmxopen="' + c.id + '"><span class="t">' + esc(c.c.film || c.q.stem.slice(0, 120)) + '</span><span class="hint">' + c.res.map(r => r == null ? '·' : r ? '✅' : '❌').join('') + ' · ' + new Date(c.ts).toLocaleDateString('en-GB') + '</span></button>').join('') + (list.length > 30 ? '<p class="hint">…and ' + (list.length - 30) + ' older</p>' : '') + '</div></div>';
+}
+function rmxHome(){
+  if (rmx.ctl && rmx.busy) rmx.ctl.abort();
+  rmx = Object.assign(rmx, {step: 'home', q: null, card: null, queue: null, err: '', busy: false, pick: null});
+  drawRemix(); drawRmxVault();
+  setTimeout(() => { const el = $('#rmxIn'); if (el) { el.focus({preventScroll: true}); el.scrollIntoView({block: 'nearest'}); } }, 30);
 }
 function rmxIngest(text){
   const q = rmxParse(text);
@@ -279,11 +285,12 @@ function rmxKey(e){
   if (route.view !== 'remix') return false;
   const k = e.key;
   if (rmx.step === 'check' && k === 'Enter' && !rmx.busy && rmx.q.correct >= 0 && rmx.q.opts.length >= 4) { e.preventDefault(); RMX_AI ? rmxRunAi() : rmxMake(rmxLocal(rmx.q), 'local'); return true; }
+  if (k === 'Escape' && rmx.step !== 'home') { e.preventDefault(); rmxHome(); return true; }
   if (rmx.step !== 'card') return false;
   const C = rmx.card;
   if (/^[1-5]$/.test(k) && rmx.i < C.c.beats.length) { e.preventDefault(); rmxAnswer(+k - 1); return true; }
   if (k === 'Enter' || k === ' ' || k === 'ArrowRight') {
-    if (rmx.i >= C.c.beats.length && !rmx.queue) { e.preventDefault(); rmx.step = 'home'; rmx.card = null; drawRemix(); drawRmxVault(); setTimeout(() => { const el = $('#rmxIn'); if (el) el.focus(); }, 30); return true; }
+    if (rmx.i >= C.c.beats.length && !rmx.queue) { e.preventDefault(); rmxHome(); return true; }
     e.preventDefault(); rmxNext(); return true;
   }
   return k.toLowerCase() === 's';
@@ -299,7 +306,7 @@ function extClick8(t, d){
   if (d.rmxai != null) { rmxRunAi(); return true; }
   if (d.rmxlocal != null) { rmxMake(rmxLocal(rmx.q), 'local'); return true; }
   if (d.rmxstop != null) { if (rmx.ctl) rmx.ctl.abort(); return true; }
-  if (d.rmxreset != null) { rmx = Object.assign(rmx, {step: 'home', q: null, card: null, queue: null, err: ''}); drawRemix(); drawRmxVault(); return true; }
+  if (d.rmxreset != null) { rmxHome(); return true; }
   if (d.rmxa != null) { rmxAnswer(+d.rmxa); return true; }
   if (d.rmxnext != null) { rmxNext(); return true; }
   if (d.rmxkey != null) { if (window.medengineAccount) window.medengineAccount.open(); return true; }

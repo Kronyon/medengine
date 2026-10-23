@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.8.2-beta (2026-10-23)
+
+- Remix: you're never stuck finishing a card or a replay. **📋 New question / ⏹ Stop replay** sits on every card, **Esc** goes straight back to the paste box (cursor ready), and pasting a new question mid-card or mid-replay starts it at once.
+
 ## 0.8.1-beta (2026-10-23)
 
 - Fix "Empty answer" with your own AI key (website/download): newer models think by default and thinking counts toward `max_tokens`, so the 600-token quick budget could end with no text. Quick calls now switch thinking off (with a one-time fallback for custom models), Remix asks for 2,000 tokens, and an empty reply explains itself. Also fixes the OSCE AI patient on the website.
