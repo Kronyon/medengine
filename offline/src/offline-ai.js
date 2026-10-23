@@ -48,7 +48,12 @@
     if (!messages.length) throw { code: 'invalid_request', message: 'Empty prompt' };
     var tier = MAX_TOKENS[opts.modelTier] ? opts.modelTier : 'default';
     var stream = typeof opts.onText === 'function';
-    var res;
+    // Newer models think by default and thinking counts toward max_tokens, so a small budget can end
+    // with no text at all ("Empty answer"). Quick replies switch thinking off; the rest get room to think.
+    var noThink = tier === 'quick';
+    var maxTok = Math.max(MAX_TOKENS[tier], +opts.maxTokens || 0);
+    var res, retried = false;
+    for (;;) {
     try {
       res = await fetch('https://api.anthropic.com/v1/messages', {
         method: 'POST',
@@ -59,13 +64,13 @@
           'anthropic-version': '2023-06-01',
           'anthropic-dangerous-direct-browser-access': 'true'
         },
-        body: JSON.stringify({
+        body: JSON.stringify(Object.assign({
           model: modelFor(tier),
-          max_tokens: MAX_TOKENS[tier],
+          max_tokens: maxTok,
           system: SYSTEM + (opts._json ? ' Reply with ONLY one valid JSON value, no prose and no code fences.' : ''),
           messages: messages,
           stream: stream
-        })
+        }, noThink ? { thinking: { type: 'disabled' } } : {}))
       });
     } catch (e) {
       if (e && e.name === 'AbortError') throw { code: 'cancelled', message: 'cancelled' };
@@ -75,11 +80,15 @@
       var body = {};
       try { body = await res.json(); } catch (e) {}
       var msg = (body.error && body.error.message) || ('HTTP ' + res.status);
+      // a custom model that does not take the thinking switch: ask once more without it
+      if (res.status === 400 && noThink && !retried && /thinking/i.test(msg)) { noThink = false; retried = true; maxTok = Math.max(maxTok, 4000); continue; }
       if (res.status === 401 || res.status === 403) { msg = 'That key was rejected (' + msg + '). Check it and paste it again.'; openKey(msg); throw { code: 'upstream_error', message: msg }; }
       if (res.status === 429) throw { code: 'rate_limited', message: msg };
       if (res.status === 404 || /model/i.test(msg)) { msg = 'The model name was not recognised (' + msg + '). Update the model names under "Models".'; openKey(msg); throw { code: 'upstream_error', message: msg }; }
       if (/credit|billing|balance/i.test(msg)) { msg = 'Your Anthropic account needs credit: ' + msg; openKey(msg); throw { code: 'upstream_error', message: msg }; }
       throw { code: 'upstream_error', message: msg };
+    }
+    break;
     }
     var text = '', stop = null;
     if (!stream) {
@@ -113,7 +122,7 @@
         throw e && e.code ? e : { code: 'upstream_error', message: 'The connection dropped mid-answer' };
       }
     }
-    if (!text.trim()) throw { code: 'empty_completion', message: 'Empty answer' };
+    if (!text.trim()) throw { code: 'empty_completion', message: stop === 'max_tokens' ? 'The AI ran out of room before answering. Try again.' : 'The AI sent back an empty answer. Try again.' };
     return { text: text, truncated: stop === 'max_tokens', modelTierApplied: tier };
   }
   sample.json = async function (input, opts) {

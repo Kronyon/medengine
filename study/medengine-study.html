@@ -2574,7 +2574,9 @@ function rmxParse(raw){
   if (qi < 0) return {stem: L.join(' ').slice(0, 1500), opts: [], correct: -1, picked: -1, expl: '', ok: false};
   let s0 = qi; while (s0 > 0 && L[s0 - 1].length > 40 && qi - s0 < 6) s0--;
   const stem = L.slice(s0, qi + 1).join(' ');
-  const rawOpts = L.slice(oi, oi + on), opts = rawOpts.map(optLine);
+  const rawOpts = L.slice(oi, oi + on);
+  let opts = rawOpts.map(optLine);
+  if (opts.every(o => /\d{1,3}(\.\d)?%$/.test(o))) opts = opts.map(o => o.replace(/\s*\d{1,3}(\.\d)?%$/, '').trim());
   const after = L.slice(oi + on);
   const norm = s => s.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
   let correct = -1, picked = -1;
@@ -2743,7 +2745,7 @@ async function rmxRunAi(){
   const target = q.picked >= 0 && q.picked !== q.correct && Math.random() < 0.6 ? q.picked : others[Math.floor(Math.random() * others.length)];
   rmx.busy = true; rmx.err = ''; rmx.ctl = new AbortController(); drawRemix();
   try {
-    const j = await RMX_AI.json(rmxPrompt(q, target), {modelTier: S.set.rmxTier === 'default' ? 'default' : 'quick', signal: rmx.ctl.signal, cache: false});
+    const j = await RMX_AI.json(rmxPrompt(q, target), {modelTier: S.set.rmxTier === 'default' ? 'default' : 'quick', maxTokens: 2000, signal: rmx.ctl.signal, cache: false});
     rmxMake(rmxFromAi(q, j), 'ai');
   } catch (e) {
     rmx.busy = false;

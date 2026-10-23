@@ -38,6 +38,13 @@ D. Ascending cholangitis
 E. Hepatitis A
 The correct answer is B
 """
+SAMPLE_C = """A 63-year-old man presents to the emergency department with 1 hour of severe pain in his left groin and he is unable to identify a trigger for it. He is on the waiting list for a left inguinal hernia repair. On examination, there is a tender, erythematous lump superomedial to the pubic tubercle, separate from the testis, that does not disappear in the supine position. A cough impulse is absent. What is the next step in management?
+Apply a cold compress to the area0%
+Attempt at manual reduction9%
+Proceed immediately to theatre for laparoscopic repair40%
+Proceed immediately to theatre for open repair46%
+Request CT abdomen and pelvis5%
+"""
 AI_JSON = {"film": "45F, 3 days constant RUQ pain, fever, raised WCC, positive Murphy's",
            "right": "Over 6 hours with fever and inflammation means cholecystitis",
            "wrong": "Colic is under 6 hours with no fever or raised WCC",
@@ -75,6 +82,8 @@ def run(width, mock=True):
         if not a['stem'].startswith('A 45-year-old') or not a['stem'].endswith('diagnosis?'): errs.append('parser A stem: ' + a['stem'][:80])
         if 'PassMedicine' in a['stem'] or 'comments' in a['expl'].lower() or 'Great question' in a['expl']: errs.append('parser A kept page junk')
         if 'Murphy' not in a['expl']: errs.append('parser A lost the explanation')
+        cq = pg.evaluate('t => __me8.rmxParse(t)', SAMPLE_C)
+        if cq['opts'] != ['Apply a cold compress to the area', 'Attempt at manual reduction', 'Proceed immediately to theatre for laparoscopic repair', 'Proceed immediately to theatre for open repair', 'Request CT abdomen and pelvis']: errs.append(f"parser C (glued %): {cq['opts']}")
         bq = pg.evaluate('t => __me8.rmxParse(t)', SAMPLE_B)
         if bq['opts'][1] != 'Pancreatic cancer' or bq['correct'] != 1 or bq['picked'] != -1: errs.append(f"parser B: {bq['opts']} {bq['correct']} {bq['picked']}")
         for txt, want in (('Acute cholecystitis', 'Gallstones'), ('Ascending cholangitis', 'Acute cholangitis'), ('Acute pancreatitis', 'Acute pancreatitis'), ("Wolff-Parkinson-White syndrome", None), ('Hepatitis A', '')):
