@@ -1,0 +1,25 @@
+/* medengine-STUDY v0.8: Remix + speed tags */
+.spdline{margin:4px 0 0}
+.spd{display:inline-flex;align-items:center;gap:4px;padding:2px 9px;border-radius:999px;border:1px solid var(--line);background:var(--surface-2);font-size:.78rem;font-weight:700}
+.spdrow{padding:0 10px 10px;align-items:center}
+.rmx-in{width:100%;min-height:96px;border-radius:10px;border:2px dashed var(--line);background:var(--surface-2);color:var(--ink);padding:10px;font:inherit;font-size:.92rem;resize:vertical}
+.rmx-in:focus{outline:none;border-color:var(--accent)}
+.rmx-stem{max-height:9.5em;overflow:auto;padding:8px 10px;border-radius:9px;background:var(--surface-2);font-size:.9rem;line-height:1.45}
+.rmx-opts{display:flex;flex-direction:column;gap:6px}
+.rmx-opt{display:flex;align-items:center;gap:8px;padding:6px 8px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+.rmx-opt .k{font-family:var(--f-mono,monospace);font-weight:700;color:var(--muted);min-width:1.2em}
+.rmx-opt .t{flex:1 1 auto;min-width:0;font-size:.92rem}
+.rmx-opt .iconbtn{opacity:.35;flex:0 0 auto}
+.rmx-opt .iconbtn[aria-pressed="true"]{opacity:1}
+.rmx-opt.ok{border-color:var(--good,#1f9d55);background:var(--good-soft,#e3f6ea)}
+.rmx-opt.me{border-style:dashed;border-color:var(--bad,#c93a3a)}
+.rmx-case{display:flex;flex-direction:column;gap:6px;padding-bottom:8px;border-bottom:1px dashed var(--line)}
+.rmx-chg{padding:7px 10px;border-radius:9px;border:2px solid var(--mev-amber);background:var(--mev-amber-soft);font-size:1rem;line-height:1.45}
+.rmx-busy{font-weight:700;animation:rmxp 1.2s ease-in-out infinite}
+@keyframes rmxp{50%{opacity:.4}}
+@media (prefers-reduced-motion:reduce){.rmx-busy{animation:none}}
+.rmx-list{display:flex;flex-direction:column;gap:6px;margin-top:8px}
+.rmx-item{display:flex;flex-direction:column;gap:2px;text-align:left;padding:7px 10px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);font:inherit;cursor:pointer;min-width:0}
+.rmx-item .t{font-size:.9rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#rmx{display:flex;flex-direction:column;gap:8px}
+.rmx-stat{display:inline-flex;flex-wrap:wrap;align-items:center;gap:6px}

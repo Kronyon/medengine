@@ -1,0 +1,15 @@
+{
+  "_about": "medengine-STUDY v0.8: how fast each condition arrives. Only units with one clear time course are tagged; the rest stay untagged on purpose.",
+  "spd_labels": {
+    "s": ["⚡", "Sudden", "seconds to minutes"],
+    "e": ["〰️", "Comes and goes", "attacks with normal in between"],
+    "f": ["🌊", "Fluctuates", "waxes and wanes over hours to days"],
+    "g": ["📈", "Gradual", "creeps on over weeks to months"]
+  },
+  "spd": {
+    "s": ["Acute coronary syndrome / MI / unstable angina", "Aortic dissection", "Pneumothorax", "VTE & pulmonary embolism", "Subarachnoid haemorrhage", "Testicular torsion", "Retinal artery occlusion & sudden vision loss", "GI perforation & peritonitis", "Ischaemic limb, embolic occlusion & arterial thrombosis", "Retinal detachment", "Airway obstruction in children", "Ocular trauma"],
+    "e": ["Ischaemic heart disease", "Gallstones, biliary colic & cholecystitis", "Urinary tract calculi", "BPPV & vertigo", "Headache", "Epilepsy", "Ménière's disease", "Raynaud's", "Generalised anxiety & panic", "Peripheral vascular disease"],
+    "f": ["Delirium", "Subdural haemorrhage", "Asthma", "Irritable bowel syndrome", "Inflammatory bowel disease"],
+    "g": ["Colorectal tumours", "Lung cancer", "Breast cancer", "Prostate cancer", "Bladder cancer", "Renal cancer", "Testicular cancer", "Thyroid cancer", "Malignant melanoma", "Basal cell carcinoma", "Squamous cell carcinoma & pre-malignancy", "Motor neurone disease", "Fibrotic lung disease & extrinsic allergic alveolitis", "Occupational & asbestos-related lung disease", "Osteoarthritis (hip, knee, shoulder, hand)", "Benign prostatic hyperplasia & urethral stricture", "Cataracts", "Macular degeneration", "Acoustic neuroma", "Hypothyroidism", "COPD (incl asthma-COPD overlap)", "Heart valve disease", "Tuberculosis", "Lymphoedema", "Varicose veins", "Raised intracranial pressure"]
+  }
+}

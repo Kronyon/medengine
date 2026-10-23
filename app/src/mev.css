@@ -51,6 +51,11 @@ dialog.mev-dlg::backdrop{background:rgba(8,14,24,.5)}
 .mev-ecg text{font-family:var(--f-mono,monospace);font-size:9px;fill:var(--ink)}
 .mev-ecg .drop{fill:var(--mev-red);font-weight:700}
 .mev-ecg .pm{fill:var(--mev-amber);font-weight:700}
+.mev-ecg .dl{fill:var(--mev-amber);opacity:.45}
+.mev-ecg .dlt{fill:var(--mev-amber);font-weight:800;font-size:13px}
+.mev-ecg .mm{fill:var(--mev-red);font-weight:800;font-size:11px}
+.mev-feat{margin:0;padding-left:1.2em;display:grid;gap:6px;font-size:.88rem;line-height:1.45}
+.mev-feat li::marker{font-weight:700}
 .mev-lead{cursor:pointer}
 .mev-lead rect{stroke:var(--line);stroke-width:1}
 .mev-lead text{font-family:var(--f-mono,monospace);font-size:11px;font-weight:700;fill:var(--ink)}

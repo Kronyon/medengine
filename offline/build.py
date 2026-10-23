@@ -76,6 +76,8 @@ def build():
     study = same_tab(study, r'href="osce\.html[^"]*"', 2)
     if 'claude.ai/artifact' in study:
         raise SystemExit('STUDY still links to claude.ai')
+    # the Remix AI: same key shim as OSCE (same origin, so the key saved in OSCE is reused)
+    study = must_replace(study, '<header class="top">', DIALOG_CSS + '<script>\n' + shim + '\n</script>\n<header class="top">', 1)
     (OUT / 'study.html').write_text(SKELETON + study, encoding='utf-8')
     shutil.copytree(OFF / 'img', OUT / 'img')
 
@@ -83,7 +85,7 @@ def build():
     shutil.copy(OFF / 'src' / 'launcher.html', OUT / 'medengine.html')
     shutil.copy(OFF / 'src' / 'READ ME.txt', OUT / 'READ ME.txt')
 
-    z = OFF / 'dist' / 'medengine-v0.6.0-beta-offline.zip'
+    z = OFF / 'dist' / 'medengine-v0.8.0-beta-offline.zip'
     if z.exists():
         z.unlink()
     with zipfile.ZipFile(z, 'w', zipfile.ZIP_DEFLATED) as zf:

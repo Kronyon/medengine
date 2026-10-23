@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.8.0-beta (2026-10-23)
+
+medengine-STUDY only; OSCE build unchanged. Saved progress untouched.
+- 🔄 **Remix**: paste a Passmedicine question you got wrong (⌘A, ⌘C, then ⌘V on the Remix page). The page clutter is stripped, you confirm ✅ the right answer and ✋ your pick, then get the case in one line plus three one-change variations (change one clue, change the patient, change the timeline), answered with 1-5. Uses AI where available (claude.ai `sample` in the artifact; the user's own key on the website/download, shared with OSCE), otherwise an offline remix that quizzes the clinchers of the matched ILO conditions. Remix vault in this browser with replay, only-misses, export and clear.
+- ⏱ **Speed tags** on 63 conditions with one clear time course (⚡ sudden, 〰️ comes and goes, 🌊 fluctuates, 📈 gradual) with a filter under Browse.
+- Plain-word labels in the decoder and sniper (what you see, memory hook, what do you do).
+- Website/download STUDY now carries the AI key layer. Tests: `study/test_study_v8.py`.
+
+## 0.7.0-beta (2026-10-23)
+
+- 🎬🟰🏷️ Dual-code clinchers (29 rewritten, 18 added): what you see 🟰 the exam name with a memory hook → the diagnosis.
+- 🔺 Jargon decoder: 40 exam names that don't describe what they are, each with what you see, hook, trap and what to do.
+- Sniper modes: picture → name, name → picture, what do you do, or all three on one term.
+- 🥊 WPW vs LBBB showdown with drawn strips (shared visual layer, `app/src/mev.js`; OSCE dist not rebuilt yet). Tests: `study/test_study_v7.py`.
+
 ## 0.6.0-beta (2026-10-20)
 
 Visual layer, exam-proofing and sniper training. Both apps, nothing removed, saved progress untouched.

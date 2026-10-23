@@ -10,7 +10,7 @@ MEV.onQuiz = ok => { if (ok) addXp(3); };
 
 function extHeader(u){
   setTimeout(() => refreshShotBox(u.i, false), 0);
-  return MEV.atlasRowHtml(u.name, usys(u), u.name + ' ' + (weekName[u.w] || '')) + shotBoxHtml(u.i);
+  return (u.spd ? '<div class="spdline">' + spdBadge(u) + '</div>' : '') + MEV.atlasRowHtml(u.name, usys(u), u.name + ' ' + (weekName[u.w] || '')) + jgChipsHtml(u) + shotBoxHtml(u.i);
 }
 
 /* systems & presentations */
@@ -23,7 +23,7 @@ function jumpHtml(){
     + '<label>Presentation or framework<select class="jsel" data-jpres aria-label="Jump to a presentation"><option value="">Jump to…</option><optgroup label="ILO weeks">' + WEEKS.map(w => '<option value="w:' + w.id + '">' + esc(w.name) + '</option>').join('') + '</optgroup><optgroup label="Frameworks (chest pain, SOB, abdo pain, jaundice…)">' + FW.map(f => '<option value="f:' + f.id + '">' + esc(f.title) + '</option>').join('') + '</optgroup></select></label></div></details>';
 }
 function homeSysHtml(){
-  return '<details class="sysrow"' + (S.set.sys ? ' open' : '') + '><summary>🗂 Browse by system</summary><div class="chips">' + MEV.SYS.map(s => { const n = UNITS.filter(u => usys(u) === s[0]).length; return '<button class="chip' + (S.set.sys === s[0] ? ' on' : '') + '" data-sysset="' + s[0] + '">' + esc(s[1]) + ' · ' + n + '</button>'; }).join('') + '</div></details>';
+  return '<details class="sysrow"' + (S.set.sys || S.set.spd ? ' open' : '') + '><summary>🗂 Browse by system or speed</summary><div class="chips">' + MEV.SYS.map(s => { const n = UNITS.filter(u => usys(u) === s[0]).length; return '<button class="chip' + (S.set.sys === s[0] ? ' on' : '') + '" data-sysset="' + s[0] + '">' + esc(s[1]) + ' · ' + n + '</button>'; }).join('') + '</div>' + spdChipsHtml() + '</details>';
 }
 
 /* ----- screenshot vault (IndexedDB, falls back to localStorage) ----- */
@@ -168,7 +168,7 @@ async function vaultGrade(ok){
 /* ----- 🎯 blind clincher sniper ----- */
 const SNP_META = /differentials|pain ladder|describing skin|overview|catheterisation|IV fluids|joint replacements/i;
 const SNP_STOP = new Set(['acute','chronic','disease','diseases','disorder','disorders','syndrome','syndromes','other','problems','overview','primary','secondary','cancer','tumours','tumour','infection','infections','failure','differentials','related','including','incl','children','adults','upper','lower','lung','skin','heart','with','and','the','of','in','&','drugs','toxicity','misuse','pain','type','test','care','from']);
-let SNPU = null, snpCfg = {sys: '', wk: '', miss: false}, snpRecent = [];
+let SNPU = null, snpCfg = {sys: '', wk: '', miss: false, mode: (S.set && ['clue', 'm1', 'm2', 'm3', 'tri'].includes(S.set.snpm)) ? S.set.snpm : 'clue'}, snpRecent = [];
 function snpUnits(){
   if (SNPU) return SNPU;
   const seen = new Set();
@@ -236,15 +236,16 @@ function snpPool(){
   return P;
 }
 function viewSniper(m){
-  const st = snpState(), missN = Object.keys(st.miss).length, P = snpPool();
-  let h = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code">🎯 Sniper</span><span class="grow"></span><span class="mono">best streak ' + st.best + ' · ' + st.dx + '/' + st.n + ' named</span></div><h1>Blind clincher sniper</h1><p class="hint" style="margin:0">One decisive clue with the disease blacked out. <b>Name it</b>, pick the <b>first move</b>, then call the <b>lookalike trap</b>. 🧬 Mutate keeps the presentation and changes one feature of the film.</p></div>';
-  h += '<div class="panel snp-cfg"><div class="toolbar"><select class="jsel" data-snpsys aria-label="System" style="width:auto"><option value="">All systems</option>' + MEV.sysOptions(snpCfg.sys) + '</select><select class="jsel" data-snpwk aria-label="ILO week" style="width:auto"><option value="">All ILO weeks</option>' + WEEKS.map(w => '<option value="' + w.id + '"' + (snpCfg.wk === w.id ? ' selected' : '') + '>' + esc(w.name) + '</option>').join('') + '</select><button class="btn' + (snpCfg.miss ? ' primary' : '') + '" data-snpmiss>♻️ Only my misses · ' + missN + '</button><span class="grow"></span><span class="hint">' + P.length + ' targets</span></div></div><div id="snp"></div></div>';
+  const st = snpState(), tri = snpCfg.mode !== 'clue', missN = tri ? Object.keys(jgSt().jm).length : Object.keys(st.miss).length, P = tri ? jgPool() : snpPool();
+  let h = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code">' + (tri ? '🔺 Name · picture · treat' : '🎯 Sniper') + '</span><span class="grow"></span><span class="mono">best streak ' + st.best + ' · ' + (tri ? jgSt().jg.got + '/' + jgSt().jg.n + ' fired' : st.dx + '/' + st.n + ' named') + '</span></div><h1>' + (tri ? 'Name it · picture it · treat it' : 'Blind clincher sniper') + '</h1><p class="hint" style="margin:0">' + (tri ? 'Exam names from the decoder, three ways: <b>① picture → name</b>, <b>② name → picture</b>, <b>③ what do you do</b>. Answer in your head, reveal, then mark yourself honestly.' : 'One decisive clue with the disease blacked out. <b>Name it</b>, pick the <b>first move</b>, then call the <b>lookalike trap</b>. 🧬 Mutate keeps the presentation and changes one feature of the film.') + '</p></div>';
+  h += '<div class="panel snp-cfg">' + snpModeHtml() + '<div class="toolbar"><select class="jsel" data-snpsys aria-label="System" style="width:auto"><option value="">All systems</option>' + MEV.sysOptions(snpCfg.sys) + '</select><select class="jsel" data-snpwk aria-label="ILO week" style="width:auto"><option value="">All ILO weeks</option>' + WEEKS.map(w => '<option value="' + w.id + '"' + (snpCfg.wk === w.id ? ' selected' : '') + '>' + esc(w.name) + '</option>').join('') + '</select><button class="btn' + (snpCfg.miss ? ' primary' : '') + '" data-snpmiss>♻️ Only my misses · ' + missN + '</button><span class="grow"></span><span class="hint">' + P.length + (tri ? ' terms' : ' targets') + '</span></div></div><div id="snp"></div></div>';
   m.innerHTML = h;
   session = {kind: 'sniper', k: 0, shots: 0, hits: 0, streak: 0, earned: 0, t: null};
   snpNext();
 }
 function snpNext(){
   const s = session; if (!s || s.kind !== 'sniper') return;
+  if (snpCfg.mode !== 'clue') return jgNext();
   const st = snpState(), P = snpPool();
   if (!P.length) { const b = $('#snp'); if (b) b.innerHTML = '<div class="panel empty">' + (snpCfg.miss ? 'No misses queued: every target you missed has been re-sniped. 🎯' : 'No targets for this filter.') + '</div>'; return; }
   const misses = P.filter(u => st.miss[u.i]);
@@ -256,6 +257,7 @@ function snpNext(){
 }
 function snpMutate(){
   const s = session; if (!s || s.kind !== 'sniper' || !s.t) return;
+  if (s.t.jg) return;
   const T = s.t, P = snpUnits();
   let c = T.pickedU != null && UNITS[T.pickedU] && P.includes(UNITS[T.pickedU]) ? UNITS[T.pickedU] : null;
   if (!c) { const same = P.filter(x => x.w === T.u.w && x.name !== T.u.name); const sys = P.filter(x => usys(x) === usys(T.u) && x.name !== T.u.name); const arr = same.length ? same : sys; c = arr[Math.floor(Math.random() * arr.length)]; }
@@ -264,11 +266,12 @@ function snpMutate(){
 }
 function drawSnp(){
   const s = session, box = $('#snp'); if (!box || !s || s.kind !== 'sniper' || !s.t) return;
+  if (s.t.jg) return drawJg();
   const T = s.t, u = T.u, done = T.cur >= T.steps.length;
   let h = '<div class="qcard snp"><div class="qmeta"><span class="code">🎯 Target ' + s.k + '</span>' + (T.mut ? '<span class="code">🧬 Mutation</span>' : '') + '<span class="grow"></span><span class="mono">🔥 ' + s.streak + ' · ' + s.hits + '/' + s.shots + (s.earned ? ' · ฿' + s.earned : '') + '</span></div>';
   if (T.mut) h += '<div class="snp-mut">🧬 Same presentation, one feature changed. Last film: <i>' + fmtRich(T.mut.clue) + '</i> = <b>' + esc(T.mut.u.name) + '</b>. What does the new feature make it?</div>';
   const named = T.steps[0].pick != null;
-  h += '<div class="snp-lab">🔍 Decisive clue</div><div class="stem snp-clue">' + (named ? fmtRich(T.clue) : snpHtml(snpMask(T.clue, u))) + '</div>';
+  h += '<div class="snp-lab">🔍 Decisive clue</div><div class="stem snp-clue">' + (named ? fmtRich(T.clue) : snpHtml(snpMask(dxStrip(T.clue), u))) + '</div>';
   T.steps.forEach((st, i) => {
     if (i > T.cur) return;
     if (st.k === 'trap') {
@@ -305,6 +308,7 @@ function snpReveal(){ const s = session; if (!s || s.kind !== 'sniper') return; 
 function snpGrade(got){ const s = session; if (!s || s.kind !== 'sniper') return; const st = s.t.steps[s.t.cur]; if (!st || st.k !== 'trap' || !st.rev || st.got != null) return; st.got = got; if (got) { snpState().trap++; s.earned += 5; addXp(5); } else save(); s.t.cur++; drawSnp(); }
 function snpKey(e){
   const s = session, T = s.t; if (!T) return false;
+  if (T.jg) return jgKey(e);
   const k = e.key.toLowerCase();
   if (T.cur >= T.steps.length) { if (k === 'enter' || k === 'arrowright') { e.preventDefault(); snpNext(); return true; } if (k === 'm') { snpMutate(); return true; } return k === 's'; }
   const st = T.steps[T.cur];
@@ -326,6 +330,8 @@ function viewVisual(m){
 
 /* ----- click and change handlers for the v0.6 layer ----- */
 function extClick(t, d){
+  if (extClick7(t, d)) return true;
+  if (extClick8(t, d)) return true;
   if (d.atlasgo != null) { MEV.openAtlas((($('#atlasQ') || {}).value || '').trim(), ''); return true; }
   if (d.shotopen) { openShot(d.shotopen); return true; }
   if (d.shotclose != null) { $('#shotView').hidden = true; return true; }

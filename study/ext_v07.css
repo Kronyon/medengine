@@ -1,0 +1,33 @@
+/* medengine-STUDY v0.7: dual-code clinchers, Jargon Decoder, triangulation sniper */
+.dc{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;line-height:1.45}
+.dc-i{margin-right:4px}
+.dc-f{flex:1 1 100%;min-width:0}
+.dc-eq{font-size:1.05em;line-height:1}
+.dc-l{display:inline-flex;flex-wrap:wrap;align-items:center;gap:4px 6px;padding:3px 9px;border-radius:9px;border:2px solid var(--mev-amber);background:var(--mev-amber-soft);font-weight:700;max-width:100%}
+.dc-lt b{font-weight:800}
+.dc-h{display:inline-block;padding:1px 7px;border-radius:999px;background:var(--surface);border:1px dashed var(--mev-amber);font-size:.8em;font-weight:600;font-style:italic}
+.dc-d{flex:1 1 100%;font-weight:600}
+.snp-clue .dc-f{flex-basis:100%}
+.jgchips{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:6px 0 0}
+.jgchips .chip{border-color:var(--mev-amber);background:var(--mev-amber-soft)}
+.jgs{display:grid;gap:10px}
+.jg{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:10px 12px;display:flex;flex-direction:column;gap:7px;min-width:0}
+.jg h3{margin:0;font-size:1.02rem}
+.jgr{display:grid;grid-template-columns:minmax(0,1fr);gap:2px;font-size:.92rem;line-height:1.45;padding:6px 9px;border-radius:9px;background:var(--surface-2)}
+.jgk{font-family:var(--f-mono,monospace);font-size:.7rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.jg-h{background:var(--mev-amber-soft)}
+.jg-x{background:var(--bad-soft,#fbe3e3)}
+.jg-m{border-left:3px solid var(--accent)}
+.jg-ecg{margin:0;overflow-x:auto}
+.jg-ecg svg{display:block;width:100%;min-width:340px;height:auto;border-radius:8px}
+.jg-ecg figcaption{font-size:.72rem;color:var(--muted)}
+.jg-units{display:flex;flex-wrap:wrap;gap:6px}
+.jgmodal{width:min(720px,96vw);max-width:none;max-height:92dvh;overflow:auto;display:flex;flex-direction:column;gap:8px}
+.snp-modes{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 8px}
+.snp-modes button{min-height:36px;padding:5px 10px;border-radius:9px;border:1px solid var(--line);background:var(--surface-2);color:var(--ink);font:inherit;font-size:.84rem;font-weight:700;cursor:pointer}
+.snp-modes button.on{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.jgstep{display:flex;flex-direction:column;gap:6px}
+.jgstep.past{opacity:.72}
+.jg-label{display:inline-block;align-self:flex-start;max-width:100%;padding:6px 12px;border-radius:10px;border:2px solid var(--mev-amber);background:var(--mev-amber-soft);font-size:1.15rem;font-weight:800}
+.jg-label.sm{font-size:.98rem}
+.jg-ans{display:flex;flex-direction:column;gap:6px}

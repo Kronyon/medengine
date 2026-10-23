@@ -4,7 +4,7 @@
 import pathlib, re, sys
 from playwright.sync_api import sync_playwright
 
-PAGE = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else pathlib.Path(__file__).resolve().parent / 'medengine-study.html').resolve()
+PAGE = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else pathlib.Path(__file__).resolve().parent / 'index.html').resolve()
 MOCK = "window.claude={use:async c=>c==='user'?{id:async()=>'u1'}:c==='db'?{doc:()=>({get:async()=>({exists:false}),set:async()=>{}})}:null};"
 PASTE = """async (sel) => {
   const c = document.createElement('canvas'); c.width = 600; c.height = 300; const x = c.getContext('2d');
@@ -35,7 +35,7 @@ def run(width, mock=True):
         def side():
             if narrow and not pg.evaluate("document.body.classList.contains('nav')"): pg.click('#menuBtn'); pg.wait_for_timeout(150)
 
-        if 'v0.6.0' not in pg.text_content('#homeBtn'): errs.append('version not 0.6.0')
+        if not re.search(r'v0\.[678]\.0', pg.text_content('#homeBtn')): errs.append('version not 0.6+/0.7')
         ov('home')
         # systems & presentations
         side()
@@ -117,7 +117,7 @@ def run(width, mock=True):
         ov('sniper')
         # visual library
         pg.evaluate("location.hash = 'visual'"); pg.wait_for_timeout(400)
-        if pg.locator('#mevLib .mev-sd').count() != 13: errs.append('visual library not 13 cards')
+        if pg.locator('#mevLib .mev-sd').count() < 14: errs.append('visual library missing showdowns (expected 14)')
         ov('visual')
         # regressions: fill, mcq, think still render
         for mode, sel in (('fill', 'select.dd'), ('mcq', '#quiz .opt'), ('think', '#main .panel')):

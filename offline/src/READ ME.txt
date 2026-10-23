@@ -1,4 +1,4 @@
-medengine.exe  v0.6.0 beta
+medengine.exe  v0.8.0 beta
 ==========================
 
 HOW TO OPEN

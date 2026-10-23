@@ -114,24 +114,36 @@
     for (var y = 2; y <= H; y += 4) g += '<line class="' + ((y - 2) % 20 ? 'g1' : 'g2') + '" x1="0" y1="' + y + '" x2="' + W + '" y2="' + y + '"/>';
     h += g;
     var pts = [];
-    for (var t = 0; t <= o.ms; t += 4) {
+    function val(t) {
       var v = 0;
       o.beats.forEach(function (b) {
         if (b.p != null) v += (o.pAmp == null ? 0.15 : o.pAmp) * gauss(t, b.p + 40, 16);
         if (b.q != null) {
           var q = b.q;
-          if (o.wide) v += -0.05 * gauss(t, q + 10, 10) + 0.85 * gauss(t, q + 50, 20) - 0.35 * gauss(t, q + 105, 22);
+          // wpw: slow slurred delta ramp, then the spike; lbbb (V6): sharp onset, broad notched "M"
+          if (o.qrs === 'wpw') v += 0.4 * gauss(t, q + 52, 24) + 0.9 * gauss(t, q + 80, 9) - 0.22 * gauss(t, q + 100, 9);
+          else if (o.qrs === 'lbbb') v += 0.72 * gauss(t, q + 38, 13) + 0.78 * gauss(t, q + 92, 16);
+          else if (o.wide) v += -0.05 * gauss(t, q + 10, 10) + 0.85 * gauss(t, q + 50, 20) - 0.35 * gauss(t, q + 105, 22);
           else v += -0.08 * gauss(t, q + 8, 6) + 1.1 * gauss(t, q + 30, 8) - 0.28 * gauss(t, q + 52, 8);
-          var tc = q + (o.wide ? 330 : 300);
+          var tc = q + (o.wide || o.qrs ? 330 : 300);
           if (o.t === 'tall') v += 0.95 * gauss(t, q + (o.wide ? 300 : 270), 20);
           else if (o.t === 'flat') v += 0.05 * gauss(t, tc, 45);
+          else if (o.t === 'inv') v -= 0.26 * gauss(t, tc, 44);
           else v += 0.28 * gauss(t, tc, 42);
           if (o.u) v += 0.17 * gauss(t, q + 480, 32);
           if (o.std) { var a = 1 / (1 + Math.exp(-(t - q - 85) / 8)), z = 1 / (1 + Math.exp((t - q - 250) / 14)); v += o.std * a * z; }
         }
       });
-      pts.push((t * 0.1).toFixed(1) + ',' + (base - v * k).toFixed(1));
+      return v;
     }
+    // capital delta: shade the slurred ramp under the curve (wpw only)
+    if (o.qrs === 'wpw') o.beats.forEach(function (b) {
+      if (b.q == null) return;
+      var dp = [];
+      for (var t2 = b.q + 4; t2 <= b.q + 62; t2 += 4) dp.push((t2 * 0.1).toFixed(1) + ',' + (base - val(t2) * k).toFixed(1));
+      h += '<polygon class="dl" points="' + ((b.q + 4) * 0.1).toFixed(1) + ',' + base + ' ' + dp.join(' ') + ' ' + ((b.q + 62) * 0.1).toFixed(1) + ',' + base + '"/>';
+    });
+    for (var t = 0; t <= o.ms; t += 4) pts.push((t * 0.1).toFixed(1) + ',' + (base - val(t) * k).toFixed(1));
     h += '<polyline class="tr" points="' + pts.join(' ') + '"/>';
     (o.ann || []).forEach(function (a) { h += '<text x="' + (a[0] * 0.1).toFixed(1) + '" y="' + (a[3] || 12) + '" text-anchor="middle" class="' + (a[2] || '') + '">' + esc(a[1]) + '</text>'; });
     return h + '</svg>';
@@ -158,7 +170,17 @@
       return ecgStrip({ms: 6000, beats: beats, wide: true, ann: ann, label: 'Complete heart block: P waves and QRS independent'});
     },
     hiK: function () { var ps = [150, 950, 1750, 2550, 3350, 4150, 4950]; return ecgStrip({ms: 5600, beats: beatsFrom(ps, [210]), pAmp: 0.04, wide: true, t: 'tall', label: 'Hyperkalaemia: tented T, flat P, wide QRS'}); },
-    loK: function () { var ps = [150, 950, 1750, 2550, 3350, 4150, 4950]; return ecgStrip({ms: 5600, beats: beatsFrom(ps, [190]), t: 'flat', u: true, std: -0.06, label: 'Hypokalaemia: flat T, U waves'}); }
+    loK: function () { var ps = [150, 950, 1750, 2550, 3350, 4150, 4950]; return ecgStrip({ms: 5600, beats: beatsFrom(ps, [190]), t: 'flat', u: true, std: -0.06, label: 'Hypokalaemia: flat T, U waves'}); },
+    wpw: function () {
+      var ps = [150, 1050, 1950, 2850], ann = [];
+      ps.forEach(function (p, i) { if (i === 1) ann.push([p + 50, 'PR 0.10 s', 'pm', 94]); if (i === 1 || i === 3) ann.push([p + 128, 'Δ', 'dlt', 40]); });
+      return ecgStrip({ms: 3600, beats: beatsFrom(ps, [100]), qrs: 'wpw', t: 'inv', ann: ann, label: 'WPW: short PR, delta wave slurring the start of a wide QRS, discordant T'});
+    },
+    lbbb: function () {
+      var ps = [150, 1050, 1950, 2850], ann = [];
+      ps.forEach(function (p, i) { if (i === 1) ann.push([p + 80, 'PR 0.16 s', 'pm', 94]); if (i === 1 || i === 3) ann.push([p + 225, 'M', 'mm', 14]); });
+      return ecgStrip({ms: 3600, beats: beatsFrom(ps, [160]), qrs: 'lbbb', t: 'inv', ann: ann, label: 'LBBB in V6: normal PR, broad notched M-shaped QRS, discordant T'});
+    }
   };
 
   // seeded random for stable lesion layouts
@@ -325,6 +347,12 @@
       {n: 'Complete (third-degree) heart block', film: 'Atria and ventricles have divorced: P waves march regularly straight through a slow, wide escape rhythm that ignores them.', look: ['**AV dissociation**: P–P regular, R–R regular, no link', 'Slow (often 30–40) with a broad escape', 'Cannon a waves; Stokes–Adams attacks'], act: 'Unstable → **atropine 500 mcg** (repeat to 3 mg) → **transcutaneous pacing**, or isoprenaline/adrenaline → permanent pacemaker', q: 'complete heart block ECG'}],
       split: '**PR lengthening then a drop = Mobitz I**; **fixed PR then a drop = Mobitz II**; **P and QRS independent = complete block**.',
       trap: '**2:1 block** could be either type: find a longer strip. Resus Council "risk of asystole" (pace even if stable): Mobitz II, complete block with broad QRS, recent asystole, ventricular pause >3 s.'},
+    {id: 'wpw-lbbb', g: 'ecg', t: 'WPW vs LBBB: two wide QRS complexes', fig: ['ecg', [['wpw', 'WPW (pre-excitation)', 'short PR + Δ ramp at the START'], ['lbbb', 'LBBB (V6)', 'normal PR + notched M at the END']]], kw: /\bWPW\b|wolff|pre-?excit|delta wave|accessory pathway|bundle of kent|\bLBBB\b|bundle branch|broad complex|wide QRS|arrhythm|palpitation/i, s: [
+      {n: 'WPW (Wolff–Parkinson–White)', film: 'The impulse sneaks down an extra wire (Bundle of Kent) and starts squeezing the ventricle early, muscle to muscle: the PR is short and the QRS begins with a slow, slurred ramp before the normal spike arrives.', look: ['**Short PR (<120 ms, <3 small squares)**', '**Delta (Δ) wave**: slurred upstroke at the START of a wide QRS', 'Discordant ST-T; negative Δ waves can mimic Q waves'], act: 'Pre-excited AF: **never AV-node blockers**; unstable → **synchronised DC cardioversion**; cure = **catheter ablation**', q: 'WPW delta wave ECG'},
+      {n: 'LBBB (left bundle branch block)', film: 'The left bundle is cut, so the left ventricle is activated late and slowly from the right: the PR is normal, the QRS starts sharply but drags on, notching into an M in V6 and a W in V1.', look: ['**Normal PR**, no slurred ramp at the onset', '**Broad notched M in V6 / W in V1** (WiLLiaM)', 'Discordant ST-T; new LBBB with ischaemic pain = STEMI pathway'], act: 'Look for the cause (IHD, hypertension, aortic stenosis); **new LBBB + ischaemic pain → STEMI pathway**', q: 'LBBB ECG WiLLiaM'}],
+      feat: ['**Where the QRS widens:** WPW widens at the **START** (short PR + slurred Δ ramp from early muscle-to-muscle pre-excitation via the Bundle of Kent); LBBB widens at the **END** (normal PR, sharp onset, notched **M in V6 / W in V1**: WiLLiaM).', '**The pseudo-infarction trap:** negative Δ waves in WPW mimic pathological Q waves (a false "old MI"). Always check the PR interval before you call an old infarct.', '**The lethal drug contraindication:** WPW + AF = fast, irregularly irregular, wide QRS complexes that keep changing shape. **NEVER** give AV-node blockers (adenosine, verapamil, diltiazem, β-blockers, digoxin): blocking the node funnels every impulse down the accessory pathway → **VF**. Unstable → synchronised DC cardioversion; stable → specialist drug therapy (flecainide in the UK; procainamide is the US choice); definitive cure = **catheter ablation**.'],
+      split: '**Short PR + slurred start = WPW**; **normal PR + notched M at the end = LBBB**.',
+      trap: '**Irregular broad-complex tachycardia in a young patient = pre-excited AF until proven otherwise**: adenosine or verapamil can tip it into VF.'},
     {id: 'k', g: 'ecg', t: 'Hyperkalaemia vs hypokalaemia', fig: ['ecg', [['norm', 'Normal', 'for comparison'], ['hiK', 'High K⁺', 'tented T, flat P, wide QRS'], ['loK', 'Low K⁺', 'flat T, U wave after it']]], kw: /potassium|hyperkal|hypokal|electrolyte|kidney injury|\bAKI\b|renal failure|ketoacidosis|\bDKA\b|IV fluids|rhabdo/i, s: [
       {n: 'Hyperkalaemia', film: 'As potassium climbs, the T waves stand up like tents, the P waves fade away, the QRS widens and finally melts into a sine wave before VF.', look: ['**Tall, peaked (tented) T waves**', 'Flat or absent P, long PR', '**Broad QRS → sine wave → VF or asystole**'], act: 'ECG changes or K⁺ ≥6.5: **IV calcium** (gluconate 10% 30 mL, or chloride 10% 10 mL) to protect the heart → **insulin–glucose** ± salbutamol to shift K⁺ in → remove it (stop ACEi/ARB/spironolactone, binders, dialysis)', q: 'hyperkalaemia ECG'},
       {n: 'Hypokalaemia', film: 'As potassium drains away, the T waves sag flat and a little U wave pops up after each one, stretching the QT(U).', look: ['**Flat or small T waves**', '**Prominent U waves**', 'ST depression, long QT(U), long PR'], act: 'Replace K⁺ (oral if mild; IV KCl if <2.5 or symptomatic, at a protocol rate) and **check magnesium**', q: 'hypokalaemia ECG U waves'}],
@@ -370,6 +398,7 @@
     h += figHtml(sd);
     if (sd.table) h += '<table class="mev-tbl"><tr><th>Wall</th><th>Leads</th><th>Artery</th><th>Watch for</th></tr>' + sd.table.map(function (r) { return '<tr><td><b>' + esc(r[0]) + '</b></td><td>' + esc(r[1]) + '</td><td>' + esc(r[2]) + '</td><td>' + rich(r[3]) + '</td></tr>'; }).join('') + '</table>';
     if (sd.s.length) h += '<div class="mev-vs">' + sd.s.map(sideHtml).join('') + '</div>';
+    if (sd.feat) h += '<div class="mev-split"><b>🎬 Change one feature of the film:</b><ol class="mev-feat">' + sd.feat.map(function (f) { return '<li>' + rich(f) + '</li>'; }).join('') + '</ol></div>';
     h += '<div class="mev-split">✂️ <b>The one feature that splits them:</b> ' + rich(sd.split) + '</div><div class="mev-trap">⚠️ <b>Trap:</b> ' + rich(sd.trap) + '</div>';
     return h + '</div></article>';
   };

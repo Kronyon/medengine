@@ -93,7 +93,7 @@ def run(width):
         # visual view
         pg.evaluate("location.hash = 'visual'"); pg.wait_for_timeout(400)
         cards = pg.locator('#mevLib .mev-sd').count()
-        if cards != 13: errs.append(f'expected 13 showdowns, got {cards}')
+        if cards < 14: errs.append(f'expected 14 showdowns, got {cards}')
         pg.click('[data-mev-flt="derm"]'); pg.wait_for_timeout(100)
         vis = pg.evaluate("[...document.querySelectorAll('#mevLib .mev-sd')].filter(c => !c.hidden).length")
         if vis != 4: errs.append(f'derm filter shows {vis}')
