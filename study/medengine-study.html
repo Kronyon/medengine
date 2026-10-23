@@ -549,7 +549,7 @@ dialog.mev-dlg::backdrop{background:rgba(8,14,24,.5)}
 </style>
 <header class="top">
   <button class="iconbtn menu-btn" id="menuBtn" aria-label="Open chapters">☰</button>
-  <button class="brand" id="homeBtn" aria-label="medengine-STUDY home"><span class="bill">m</span><span class="word">medengine-STUDY</span><small>v0.8.0 beta</small></button>
+  <button class="brand" id="homeBtn" aria-label="medengine-STUDY home"><span class="bill">m</span><span class="word">medengine-STUDY</span><small>v0.8.1 beta</small></button>
   <a class="oscelink" href="https://claude.ai/artifact/2inAuiJNGrZaB4XqP7uQYm" target="_blank" rel="noopener" title="Open medengine-OSCE: stations, exams, DOPS, AI patient"><span class="od">m</span>medengine-OSCE ↗</a>
   <div class="search-wrap">
     <svg class="search-ico" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8.5" cy="8.5" r="6"/><path d="m13 13 5 5"/></svg>
@@ -2553,41 +2553,54 @@ function rmxAll(){ if (rmxCards) return rmxCards; try { rmxCards = JSON.parse(lo
 function rmxSave(){ try { localStorage.setItem(RMX_LS, JSON.stringify(rmxAll().slice(0, RMX_MAX))); return true; } catch (e) { toast('Could not save: browser storage is full or blocked'); return false; } }
 
 /* ----- paste → question: strip the Passmedicine page around it ----- */
-const RMX_JUNK = /^(passmedicine|medical student finals.*|home|questions|question bank|previous sessions|mock exams|review questions|performance|comment threads|textbooks?|high-yield textbook|extended textbook|knowledge tutor|review facts|custom revision|revision sets|concepts|all concepts|top 100 concepts|ukmla content map.*|next question|previous question|next|previous|submit( answer)?|skip|flag( question)?|rate this question.*|report( an)? (error|issue)|feedback|show (explanation|answer)|hide|menu|log ?out|sign ?out|my account|settings|help|contact us|privacy.*|terms.*|cookie.*|©.*|copyright.*|\d+\s*\/\s*\d+|question \d+( of \d+)?|time( remaining)?:?.*|\d{1,3}(\.\d)?%|average score.*|\d+ (people|users) .*|important for me|less important|very important)$/i;
+const RMX_JUNK = /^(passmedicine|medical student finals.*|home|questions|question bank|previous sessions|mock exams|review questions|performance|comment threads|textbooks?|high-yield textbook|extended textbook|knowledge tutor|review facts|custom revision|revision sets|concepts|all concepts|top 100 concepts|ukmla content map.*|reference ranges|end and review|next question|previous question|next|previous|submit( answer)?|skip|flag( question)?|rate this question.*|report( an)? (error|issue)|report broken (link|media)|suggest (better categorisation|link)|key concept image|important for me.*|less important|very important|feedback|show (explanation|answer)|hide|menu|log ?out|sign ?out|my account|settings|help|contact us|privacy.*|terms.*|cookie.*|©.*|copyright.*|all contents of this site.*|back to top|score:?\s*\d+%?|\d+\s*\/\s*\d+|\d+|time( remaining)?:?.*|\d{1,3}(\.\d)?%|average score.*|\d+ (people|users) .*)$/i;
 const RMX_END = /^(comments?|discussion|add a comment|post( a)? comment|\d+ comments?|show comments|view comments)$/i;
+const RMX_QMARK = /^question [\d,]+ of [\d,]+$/i;
+const LINKY = /youtube|video|zero to finals|brandl|osmosis|geeky medics|medicosis|ninja nerd|\bwatch\b|\d+ \d+$/i;
 function rmxParse(raw){
   let L = String(raw || '').replace(/\r/g, '').split('\n').map(s => s.replace(/\s+/g, ' ').trim()).filter(Boolean);
-  L = L.filter(l => !RMX_JUNK.test(l));
+  L = L.map(l => RMX_QMARK.test(l) ? '§Q§' : l).filter(l => l === '§Q§' || !RMX_JUNK.test(l));
   const end = L.findIndex((l, i) => i > 3 && RMX_END.test(l)); if (end > 0) L = L.slice(0, end);
   const optLine = l => l.replace(/^\(?([A-Ea-e1-5])[).:]\s+/, '').replace(/\s+\d{1,3}(\.\d)?%$/, '').replace(/\s*[✓✔✗✘×]\s*$/, '').trim();
-  const isOpt = l => { const o = optLine(l); return o.length >= 1 && o.length <= 110 && !/[?]$/.test(o) && !/\.\s+[A-Z]/.test(o.slice(0, -1)); };
-  // the question line: the last line ending in "?" that is followed by 4-5 option-like lines
-  let qi = -1, oi = -1, on = 0;
+  const isOpt = l => { if (l === '§Q§') return false; const o = optLine(l); return o.length >= 1 && o.length <= 110 && !/[?]$/.test(o) && !/\.\s+[A-Z]/.test(o.slice(0, -1)); };
+  // the case runs back from the question line: to "Question N of M" if Passmed's marker is there,
+  // otherwise over sentences, lab rows (digits) and lines ending in . or : (up to 10 lines)
+  const caseStart = i => { let a = i; while (a > 0 && L[a - 1] !== '§Q§' && i - a < 10 && (L[a - 1].length > 40 || /[.:]$/.test(L[a - 1]) || /\d/.test(L[a - 1]))) a--; return a; };
+  // every "question line + 4-5 short lines" block is a candidate; the real one sits under the case,
+  // later ones (related videos, "How does X work?" links) have no case above them
+  const cands = [];
   for (let i = 0; i < L.length; i++) {
     if (!/\?$/.test(L[i]) && !/^(which|what|how|the most|select)\b.*[:?]?$/i.test(L[i])) continue;
     let n = 0; while (i + 1 + n < L.length && n < 5 && isOpt(L[i + 1 + n])) n++;
-    if (n >= 4) { qi = i; oi = i + 1; on = n; }
+    if (n < 4) continue;
+    const a = caseStart(i), caseLen = L.slice(a, i + 1).join(' ').length, links = L.slice(i + 1, i + 1 + n).filter(l => LINKY.test(l)).length;
+    cands.push({qi: i, a, on: n, score: (caseLen >= 100 ? 1000 : 0) + Math.min(caseLen, 999) + (a > 0 && L[a - 1] === '§Q§' ? 500 : 0) - links * 600 - (n === 5 ? 0 : 50)});
   }
-  if (qi < 0) { // no question mark: find the first run of 5 short lines after a long line
-    for (let i = 1; i < L.length - 4; i++) { if (L[i - 1].length > 120 && [0, 1, 2, 3, 4].every(k => isOpt(L[i + k]))) { qi = i - 1; oi = i; on = 5; break; } }
+  if (!cands.length) { // no question line: the first run of 5 short lines after a long line
+    for (let i = 1; i < L.length - 4; i++) if (L[i - 1].length > 120 && [0, 1, 2, 3, 4].every(k => isOpt(L[i + k]))) { cands.push({qi: i - 1, a: caseStart(i - 1), on: 5, score: 0}); break; }
   }
-  if (qi < 0) return {stem: L.join(' ').slice(0, 1500), opts: [], correct: -1, picked: -1, expl: '', ok: false};
-  let s0 = qi; while (s0 > 0 && L[s0 - 1].length > 40 && qi - s0 < 6) s0--;
-  const stem = L.slice(s0, qi + 1).join(' ');
+  if (!cands.length) return {stem: L.filter(l => l !== '§Q§').join(' ').slice(0, 1500), opts: [], correct: -1, picked: -1, expl: '', ok: false};
+  const best = cands.reduce((x, y) => y.score > x.score ? y : x), qi = best.qi, oi = qi + 1, on = best.on;
+  const stem = L.slice(best.a, qi + 1).filter(l => l !== '§Q§').join(' ');
   const rawOpts = L.slice(oi, oi + on);
   let opts = rawOpts.map(optLine);
+  // Passmed glues the answer percentages onto each option ("…GIP50%"): strip them when every option has one
   if (opts.every(o => /\d{1,3}(\.\d)?%$/.test(o))) opts = opts.map(o => o.replace(/\s*\d{1,3}(\.\d)?%$/, '').trim());
-  const after = L.slice(oi + on);
+  const after = L.slice(oi + on).filter(l => l !== '§Q§');
   const norm = s => s.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+  const which = v => { const n = norm(v); let k = opts.findIndex(o => norm(o) === n); if (k < 0) k = opts.findIndex(o => norm(o).length >= 4 && n.startsWith(norm(o))); return k; };
   let correct = -1, picked = -1;
   rawOpts.forEach((l, k) => { if (/[✓✔]\s*$|\bcorrect\b/i.test(l) && !/\bincorrect\b/i.test(l)) correct = k; if (/[✗✘×]\s*$|\byour answer\b|\bincorrect\b/i.test(l)) picked = k; });
   const txt = after.join('\n');
+  if (correct < 0) { // Passmed: "<option> is correct."
+    for (const l of after) { const m = l.match(/^(.{3,140}?) is (?:the )?correct\b/i); if (m) { const k = which(m[1]); if (k >= 0) { correct = k; break; } } }
+  }
   const mC = txt.match(/(?:the )?correct answer(?: is|:)\s*([A-E1-5](?=[).:\s]|$)|[^\n.]{3,90})/i);
-  if (correct < 0 && mC) { const v = mC[1].trim(); correct = /^[A-E1-5]$/i.test(v) ? 'ABCDE12345'.indexOf(v.toUpperCase()) % 5 : opts.findIndex(o => norm(v).startsWith(norm(o)) || norm(o) === norm(v)); }
+  if (correct < 0 && mC) { const v = mC[1].trim(); correct = /^[A-E1-5]$/i.test(v) ? 'ABCDE12345'.indexOf(v.toUpperCase()) % 5 : which(v); }
   const mP = txt.match(/you (?:answered|chose|selected|picked)(?: option)?:?\s*([A-E1-5](?=[).:\s]|$)|[^\n.]{3,90})/i);
-  if (picked < 0 && mP) { const v = mP[1].trim(); picked = /^[A-E1-5]$/i.test(v) ? 'ABCDE12345'.indexOf(v.toUpperCase()) % 5 : opts.findIndex(o => norm(v).startsWith(norm(o))); }
-  if (correct < 0 && after.length) { const f = norm(after[0]); correct = opts.findIndex(o => norm(o) && (f === norm(o) || f.startsWith(norm(o) + ' '))); }
-  const expl = after.filter(l => !/correct answer|you (answered|chose|selected|picked)/i.test(l)).join(' ').slice(0, 1800);
+  if (picked < 0 && mP) { const v = mP[1].trim(); picked = /^[A-E1-5]$/i.test(v) ? 'ABCDE12345'.indexOf(v.toUpperCase()) % 5 : which(v); }
+  if (correct < 0 && after.length) correct = which(after[0]);
+  const expl = after.filter(l => !/correct answer|you (answered|chose|selected|picked)/i.test(l) && !LINKY.test(l)).join(' ').slice(0, 1800);
   return {stem: stem.slice(0, 1500), opts, correct, picked: picked === correct ? -1 : picked, expl, ok: opts.length >= 4};
 }
 

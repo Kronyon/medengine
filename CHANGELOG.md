@@ -4,6 +4,7 @@
 
 - Fix "Empty answer" with your own AI key (website/download): newer models think by default and thinking counts toward `max_tokens`, so the 600-token quick budget could end with no text. Quick calls now switch thinking off (with a one-time fallback for custom models), Remix asks for 2,000 tokens, and an empty reply explains itself. Also fixes the OSCE AI patient on the website.
 - Remix reader strips Passmedicine's answer percentages glued onto each option ("…area0%").
+- Remix reader tuned to a real Passmedicine page copy: the case runs from "Question N of M" to the question (lab rows and short lines included), the related-video block can no longer be mistaken for the question, "<option> is correct." sets ✅, and page furniture (reference ranges, ratings, links, media, score) is stripped.
 
 ## 0.8.0-beta (2026-10-23)
 

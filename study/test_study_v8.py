@@ -45,12 +45,33 @@ Proceed immediately to theatre for laparoscopic repair40%
 Proceed immediately to theatre for open repair46%
 Request CT abdomen and pelvis5%
 """
+SAMPLE_D = NAV + """A 58-year-old man with type 2 diabetes has an HbA1c of 62 mmol/mol on metformin 1 g twice daily. His BMI is 27 kg/m2 and he has no cardiovascular disease. He is started on sitagliptin.
+What is the mechanism of action of sitagliptin?
+Increases incretin levels by inhibiting their breakdown14%
+Increases insulin sensitivity via PPAR-gamma22%
+Blocks glucose reabsorption in the proximal tubule9%
+Closes ATP-sensitive potassium channels on beta cells11%
+Reduces hepatic gluconeogenesis via AMP kinase44%
+The correct answer is Increases incretin levels by inhibiting their breakdown
+DPP-4 inhibitors (gliptins) stop the breakdown of GLP-1 and GIP, increasing insulin release after meals. They are weight neutral.
+How does sitagliptin work? DPP-4 inhibitors and GLP-1 mimetics
+Zero to Finals - YouTube 32 2
+YouTube
+Type 2 diabetes agents and their mechanism of action
+Brandl's Basics - YouTube 7 1
+YouTube
+Comments
+4 comments
+"""
 AI_JSON = {"film": "45F, 3 days constant RUQ pain, fever, raised WCC, positive Murphy's",
            "right": "Over 6 hours with fever and inflammation means cholecystitis",
            "wrong": "Colic is under 6 hours with no fever or raised WCC",
            "flip": {"change": "Pain settled within 4 hours, afebrile, normal WCC", "answer": 1, "why": "Short pain without inflammation is biliary colic"},
            "twist": {"change": "She is 28 weeks pregnant", "options": ["Ultrasound abdomen", "CT abdomen with contrast", "HIDA scan first", "Plain abdominal X-ray"], "answer": 1, "why": "Ultrasound is first-line and safe in pregnancy"},
            "time": {"speed": "gradual", "change": "6 weeks of painless jaundice and a palpable gallbladder", "options": ["Pancreatic head cancer", "Acute cholecystitis", "Biliary colic", "Hepatitis A"], "answer": 1, "why": "Courvoisier: painless jaundice and palpable gallbladder"}}
+# a real Passmedicine page copy (kept outside the repo): pass its path in MEDENGINE_REAL_PASTE to test against it
+import os
+REAL = pathlib.Path(os.environ.get('MEDENGINE_REAL_PASTE', '/nonexistent'))
 PASTE = """(t) => { const dt = new DataTransfer(); dt.setData('text/plain', t); document.body.dispatchEvent(new ClipboardEvent('paste', {clipboardData: dt, bubbles: true, cancelable: true})); }"""
 
 
@@ -72,7 +93,7 @@ def run(width, mock=True):
         def hashgo(h, wait=400):
             pg.evaluate(f"location.hash = '{h}'"); pg.wait_for_timeout(wait)
 
-        if 'v0.8.0' not in pg.text_content('#homeBtn'): errs.append('version not 0.8.0')
+        if not re.search(r'v0\.8\.\d', pg.text_content('#homeBtn')): errs.append('version not 0.8.x')
         if not pg.locator('#main [data-go="remix"]').count(): errs.append('home: no Remix button')
 
         # ---- parser + matching (pure functions) ----
@@ -84,6 +105,15 @@ def run(width, mock=True):
         if 'Murphy' not in a['expl']: errs.append('parser A lost the explanation')
         cq = pg.evaluate('t => __me8.rmxParse(t)', SAMPLE_C)
         if cq['opts'] != ['Apply a cold compress to the area', 'Attempt at manual reduction', 'Proceed immediately to theatre for laparoscopic repair', 'Proceed immediately to theatre for open repair', 'Request CT abdomen and pelvis']: errs.append(f"parser C (glued %): {cq['opts']}")
+        dq = pg.evaluate('t => __me8.rmxParse(t)', SAMPLE_D)
+        if not dq['stem'].startswith('A 58-year-old') or dq['correct'] != 0 or len(dq['opts']) != 5 or dq['opts'][4] != 'Reduces hepatic gluconeogenesis via AMP kinase': errs.append(f"parser D (video links after the explanation): {dq['stem'][:50]} {dq['opts']} {dq['correct']}")
+        if 'YouTube' in dq['expl']: errs.append('parser D kept video links in the explanation')
+        if REAL.exists():
+            rq = pg.evaluate('t => __me8.rmxParse(t)', REAL.read_text(encoding='utf-8'))
+            if not rq['stem'].startswith('A 56-year-old lorry driver') or 'HbA1c 62' not in rq['stem'] or 'Sitagliptin is added' not in rq['stem'] or not rq['stem'].endswith('blood glucose?'): errs.append('real paste stem: ' + rq['stem'][:120])
+            if rq['opts'] != ['Acts as an agonist at GLP-1 receptors', 'Stimulates GLP-1 secretion from intestinal L-cells', 'Acts as an agonist at GIP and GLP-1 receptors', 'Reduces breakdown of endogenous GLP-1 and GIP', 'Reduces breakdown of endogenous GLP-1 alone']: errs.append(f"real paste options: {rq['opts']}")
+            if rq['correct'] != 3: errs.append(f"real paste correct: {rq['correct']}")
+            if not rq['expl'].startswith('DPP-4 inhibitors increase') or 'YouTube' in rq['expl'] or 'Important for me' in rq['expl']: errs.append('real paste explanation: ' + rq['expl'][:100])
         bq = pg.evaluate('t => __me8.rmxParse(t)', SAMPLE_B)
         if bq['opts'][1] != 'Pancreatic cancer' or bq['correct'] != 1 or bq['picked'] != -1: errs.append(f"parser B: {bq['opts']} {bq['correct']} {bq['picked']}")
         for txt, want in (('Acute cholecystitis', 'Gallstones'), ('Ascending cholangitis', 'Acute cholangitis'), ('Acute pancreatitis', 'Acute pancreatitis'), ("Wolff-Parkinson-White syndrome", None), ('Hepatitis A', '')):
