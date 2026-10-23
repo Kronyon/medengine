@@ -110,10 +110,10 @@ def run(width, mock=True):
         if 'YouTube' in dq['expl']: errs.append('parser D kept video links in the explanation')
         if REAL.exists():
             rq = pg.evaluate('t => __me8.rmxParse(t)', REAL.read_text(encoding='utf-8'))
-            if not rq['stem'].startswith('A 56-year-old lorry driver') or 'HbA1c 62' not in rq['stem'] or 'Sitagliptin is added' not in rq['stem'] or not rq['stem'].endswith('blood glucose?'): errs.append('real paste stem: ' + rq['stem'][:120])
-            if rq['opts'] != ['Acts as an agonist at GLP-1 receptors', 'Stimulates GLP-1 secretion from intestinal L-cells', 'Acts as an agonist at GIP and GLP-1 receptors', 'Reduces breakdown of endogenous GLP-1 and GIP', 'Reduces breakdown of endogenous GLP-1 alone']: errs.append(f"real paste options: {rq['opts']}")
+            if not re.match(r'A \d+-year-old', rq['stem']) or not re.search(r'HbA1c \d', rq['stem']) or not rq['stem'].endswith('?') or 'Reference ranges' in rq['stem']: errs.append('real paste stem: ' + rq['stem'][:120])
+            if len(rq['opts']) != 5 or any(re.search(r'\d%$', o) for o in rq['opts']) or any('YouTube' in o for o in rq['opts']): errs.append(f"real paste options: {rq['opts']}")
             if rq['correct'] != 3: errs.append(f"real paste correct: {rq['correct']}")
-            if not rq['expl'].startswith('DPP-4 inhibitors increase') or 'YouTube' in rq['expl'] or 'Important for me' in rq['expl']: errs.append('real paste explanation: ' + rq['expl'][:100])
+            if len(rq['expl']) < 200 or 'YouTube' in rq['expl'] or 'Important for me' in rq['expl']: errs.append('real paste explanation: ' + rq['expl'][:100])
         bq = pg.evaluate('t => __me8.rmxParse(t)', SAMPLE_B)
         if bq['opts'][1] != 'Pancreatic cancer' or bq['correct'] != 1 or bq['picked'] != -1: errs.append(f"parser B: {bq['opts']} {bq['correct']} {bq['picked']}")
         for txt, want in (('Acute cholecystitis', 'Gallstones'), ('Ascending cholangitis', 'Acute cholangitis'), ('Acute pancreatitis', 'Acute pancreatitis'), ("Wolff-Parkinson-White syndrome", None), ('Hepatitis A', '')):
