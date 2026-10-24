@@ -160,11 +160,6 @@ function rmxMark(text, phrases){
   let h = '', p = 0; M.forEach(([a, b]) => { h += esc(t.slice(p, a)) + '<mark class="rmx-mk">' + esc(t.slice(a, b)) + '</mark>'; p = b; });
   return h + esc(t.slice(p));
 }
-function rmxDiffFilm(film, b){
-  const from = String(b.from || '').trim(), to = String(b.to || '').trim(); if (!film || !to) return '';
-  if (from) { const i = film.toLowerCase().indexOf(from.toLowerCase()); if (i < 0) return ''; return esc(film.slice(0, i)) + '<del class="rmx-old">' + esc(film.slice(i, i + from.length)) + '</del> <ins class="rmx-new">' + esc(to) + '</ins>' + esc(film.slice(i + from.length)); }
-  return esc(film) + ' <ins class="rmx-new">+ ' + esc(to) + '</ins>';
-}
 // offline: numbers with units, and stem words the key concept or the right answer's explanation also uses
 function rmxLocalTrig(q){
   const out = [], st = q.stem || '';
@@ -194,49 +189,44 @@ function rmxQBlock(q, hasImg){
     + (q.expl ? '\n\nEXPLANATION FROM THE QUESTION BANK (treat as correct):\n' + q.expl.slice(0, 1500) : '');
 }
 function rmxBeatSpec(target){
-  return '"flip":{"from":"the exact words copied from the film that change (empty if you only add something)","to":"what they change to","change":"at most 14 words: ONE changed clinical feature that makes option ' + (target + 1) + ' the answer; everything else stays the same","answer":' + (target + 1) + ',"why":"at most 16 words"},'
-    + '"twist":{"from":"exact words copied from the film that change, or empty","to":"the new words","change":"at most 12 words: same diagnosis, one change to the patient (pregnant, eGFR under 30, allergy, unstable, first-line failed, on a DOAC...)","options":["4 management or investigation options, at most 8 words each"],"answer":1,"was":"at most 6 words: the right choice before this change, in the same terms as these options","why":"at most 16 words"},'
-    + '"time":{"speed":"sudden|comes and goes|fluctuates|gradual","from":"exact words copied from the film that change, or empty","to":"the new words","change":"at most 14 words: same body area, a different time course","options":["4 diagnoses, at most 6 words each"],"answer":1,"was":"at most 6 words: the diagnosis before this change","why":"at most 16 words"}';
+  return '"flip":{"change":"at most 14 words: ONE changed clinical feature that makes option ' + (target + 1) + ' the answer; everything else stays the same","answer":' + (target + 1) + ',"why":"at most 16 words"},'
+    + '"twist":{"change":"at most 12 words: same diagnosis, one change to the patient (pregnant, eGFR under 30, allergy, unstable, first-line failed, on a DOAC...)","options":["4 management or investigation options, at most 8 words each"],"answer":1,"why":"at most 16 words"},'
+    + '"time":{"speed":"sudden|comes and goes|fluctuates|gradual","change":"at most 14 words: same body area, a different time course","options":["4 diagnoses, at most 6 words each"],"answer":1,"why":"at most 16 words"}';
 }
 const RMX_RULES = t => '\nRules: "answer" values are 1-based. In "flip", if option ' + (t + 1) + ' cannot be made right by one change, use another wrong option and give its number (never the original right answer). Twist and time must each have exactly one right option.';
 function rmxPrompt(q, target){
   return rmxQBlock(q, q.hasImg)
     + '\n\nReply with ONLY this JSON, every value one short line in plain words, no paragraphs:\n'
     + '{"film":"the case in at most 18 words: age/sex + main problem + the clue that decides it",'
-    + '"trigger":["1 to 3 phrases of at most 6 words, copied word for word from QUESTION, that decide the answer"],'
-    + '"rule":"at most 16 words: the rule this question tests",'
+    + '"trigger":["1 to 3 phrases of at most 5 words, copied word for word from QUESTION, that decide the answer"],'
     + '"right":"at most 14 words: why ' + (q.correct + 1) + ' is right",'
     + '"wrong":"at most 14 words: why ' + (q.picked >= 0 ? (q.picked + 1) : 'the strongest wrong option') + ' is wrong",'
-    + '"grid":["exactly ' + q.opts.length + ' entries in option order, at most 12 words each: for the right option why it wins here; for each other option the one feature that would make it right"],'
     + rmxBeatSpec(target) + '}' + RMX_RULES(target);
 }
 function rmxFreshPrompt(C, target, avoid){
   return rmxQBlock(C.q, C.hasImg)
-    + '\n\nFILM (copy "from" words exactly from this): ' + C.c.film
-    + (avoid.length ? '\n\nALREADY USED, use different changes:\n- ' + avoid.join('\n- ') : '')
+    + '\n\nREVIEW ROUND: make new variations.' + (avoid.length ? ' ALREADY USED, change something different:\n- ' + avoid.join('\n- ') : '')
     + '\n\nReply with ONLY this JSON, every value one short line in plain words:\n{' + rmxBeatSpec(target) + '}' + RMX_RULES(target);
 }
 function rmxShuffle4(b){ const idx = shuffle([0, 1, 2, 3], Math.random); return {opts: idx.map(i => b.options[i]), ans: idx.indexOf(b.answer)}; }
 const rmxS1 = v => String(v == null ? '' : v).replace(/\s+/g, ' ').trim().slice(0, 220);
-function rmxBeatsFromAi(q, j, film){
-  const beats = [], fl = String(film || '').toLowerCase();
-  const fromTo = b => { const fr = rmxS1(b.from), hit = !!fr && fl.includes(fr.toLowerCase()); return {from: hit ? fr : '', to: hit || !fr ? rmxS1(b.to) : ''}; };
-  if (j && j.flip && j.flip.change) { const a = (+j.flip.answer || 0) - 1; if (a >= 0 && a < q.opts.length && a !== q.correct) beats.push(Object.assign({k: 'flip', change: rmxS1(j.flip.change), opts: q.opts.slice(), ans: a, why: rmxS1(j.flip.why)}, fromTo(j.flip))); }
+function rmxBeatsFromAi(q, j){
+  const beats = [];
+  if (j && j.flip && j.flip.change) { const a = (+j.flip.answer || 0) - 1; if (a >= 0 && a < q.opts.length && a !== q.correct) beats.push({k: 'flip', change: rmxS1(j.flip.change), opts: q.opts.slice(), ans: a, why: rmxS1(j.flip.why)}); }
   ['twist', 'time'].forEach(k => {
     const b = j && j[k]; if (!b || !b.change || !Array.isArray(b.options) || b.options.length !== 4) return;
     const a = (+b.answer || 0) - 1; if (a < 0 || a > 3) return;
     const sh = rmxShuffle4({options: b.options.map(rmxS1), answer: a});
-    beats.push(Object.assign({k, change: rmxS1(b.change), spd: k === 'time' ? rmxS1(b.speed) : '', was: rmxS1(b.was), opts: sh.opts, ans: sh.ans, why: rmxS1(b.why)}, fromTo(b)));
+    beats.push({k, change: rmxS1(b.change), spd: k === 'time' ? rmxS1(b.speed) : '', opts: sh.opts, ans: sh.ans, why: rmxS1(b.why)});
   });
   if (beats.length < 2) throw {code: 'invalid_json', message: 'incomplete remix'};
   return beats;
 }
 function rmxFromAi(q, j){
   if (!j || typeof j !== 'object' || Array.isArray(j)) throw {code: 'invalid_json', message: 'not an object'};
-  const film = rmxS1(j && j.film), st = (q.stem || '').toLowerCase();
-  const trig = (Array.isArray(j && j.trigger) ? j.trigger : []).map(rmxS1).filter(p => p.length >= 2 && st.includes(p.toLowerCase())).slice(0, 3);
-  const grid = Array.isArray(j && j.grid) && j.grid.length === q.opts.length ? j.grid.map(rmxS1) : [];
-  return {film, right: rmxS1(j.right), wrong: rmxS1(j.wrong), rule: rmxS1(j.rule), trig, grid, beats: rmxBeatsFromAi(q, j, film)};
+  const st = (q.stem || '').toLowerCase();
+  const trig = (Array.isArray(j.trigger) ? j.trigger : []).map(rmxS1).filter(p => p.length >= 2 && st.includes(p.toLowerCase())).slice(0, 3);
+  return {film: rmxS1(j.film), right: rmxS1(j.right), wrong: rmxS1(j.wrong), trig, beats: rmxBeatsFromAi(q, j)};
 }
 
 /* ----- offline remix: match the options to your ILO units and quiz their clinchers ----- */
@@ -264,12 +254,11 @@ function rmxLocal(q){
     beats.push({k: 'ck', change: txt, opts: q.opts.slice(), ans: c.ans, why: CLK[c.ci][1]});
   });
   const words = q.stem.replace(/\s+/g, ' ').split(' ');
-  return {film: words.slice(0, 28).join(' ') + (words.length > 28 ? '…' : ''), right: '', wrong: '', rule: '', trig: rmxLocalTrig(q), grid: [], beats, units};
+  return {film: words.slice(0, 28).join(' ') + (words.length > 28 ? '…' : ''), right: '', wrong: '', trig: rmxLocalTrig(q), beats, units};
 }
 
 /* ----- view ----- */
-let rmx = {step: 'home', q: null, card: null, i: 0, pick: null, busy: false, ctl: null, err: '', missOnly: false, sys: '', queue: null, loading: false, stale: false, scheduled: false, pendingImg: null};
-const rmxPre = {};
+let rmx = {step: 'home', q: null, card: null, i: 0, pick: null, busy: false, ctl: null, err: '', missOnly: false, sys: '', queue: null, scheduled: false, pendingImg: null};
 const RMX_BEAT = {flip: ['🔄', 'Change one clue', 'If instead'], twist: ['🧍', 'Change the patient', 'Now'], time: ['⏱', 'Change the timeline', 'Now'], ck: ['🔑', 'Whose clincher is this?', 'Clincher']};
 function viewRemix(m){
   m.innerHTML = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code">🔄 Remix</span><span class="grow"></span><span class="mono" id="rmxN"></span></div><h1>Remix a question you got wrong</h1><p class="hint" style="margin:0">Answer it on Passmedicine first, then copy the page (⌘A then ⌘C), come here and press ⌘V. You get the case in one line, then the same question three ways with <b>one thing changed</b> each time. Answer with <span class="kbd">1</span>–<span class="kbd">5</span>, <span class="kbd">Enter</span> for next, <span class="kbd">Esc</span> to paste another.</p></div><div id="rmx" class="panel"></div><div id="rmxVault"></div></div>';
@@ -287,7 +276,7 @@ function drawRemix(){
   if (rmx.step === 'home') {
     const due = rmxAll().filter(rmxIsDue).length;
     h += '<textarea id="rmxIn" class="rmx-in" rows="4" placeholder="Paste the question here (or press ⌘V / Ctrl+V anywhere on this page)." aria-label="Paste a question"></textarea>'
-      + (rmx.pendingImg ? '<div class="rmx-imgrow"><button class="rmx-thumb" data-rmxzoom="p"><img src="' + rmx.pendingImg.d + '" alt="Image ready"></button><span class="hint">📷 Image ready: now paste the question text</span></div>' : '')
+      + (rmx.pendingImg ? '<div class="rmx-imgrow"><button class="rmx-thumb sm" data-rmxzoom="p"><img src="' + rmx.pendingImg.d + '" alt="Image ready"></button><span class="hint">📷 ready: now paste the question</span></div>' : '')
       + '<div class="toolbar"><button class="btn primary" data-rmxpaste>📋 Paste</button><button class="btn" data-rmxgo>Use this text →</button>' + (due ? '<button class="btn" data-rmxdue>▶ ' + due + ' due today</button>' : '') + '<span class="grow"></span><span id="rmxStat" class="rmx-stat">' + rmxStatusHtml() + '</span></div>';
   } else if (rmx.step === 'check') {
     const q = rmx.q;
@@ -295,51 +284,44 @@ function drawRemix(){
     if (q.early) h += '<div class="kl kl-out"><span class="ki">⏳</span><span>Looks like this one hasn\'t been answered yet. Submit it on Passmedicine first, then copy the page: the explanation is what makes the remix accurate.</span></div>';
     if (q.opts.length < 4) h += '<div class="kl kl-out"><span class="ki">⚠️</span><span>I couldn\'t find the 5 options. Copy the whole question page, or paste the stem with one option per line.</span></div>';
     else h += '<p class="hint" style="margin:0">Tap <b>✅</b> on the right answer and <b>✋</b> on the one you picked.</p><div class="rmx-opts">' + q.opts.map((o, k) => '<div class="rmx-opt' + (k === q.correct ? ' ok' : '') + (k === q.picked ? ' me' : '') + '"><span class="k">' + (k + 1) + '</span><span class="t">' + esc(o) + '</span><button class="iconbtn" data-rmxc="' + k + '" aria-label="Right answer" aria-pressed="' + (k === q.correct) + '">✅</button><button class="iconbtn" data-rmxp="' + k + '" aria-label="My pick" aria-pressed="' + (k === q.picked) + '">✋</button></div>').join('') + '</div>';
-    h += '<div class="rmx-imgrow">' + (q.img ? '<button class="rmx-thumb" data-rmxzoom="q"><img src="' + q.img.d + '" alt="Question image"></button><button class="btn ghost" data-rmximgdel>✕ Remove image</button>' + (RMX_AI && !RMX_IMG ? '<span class="hint">Kept on the card; the AI here can\'t see images</span>' : '') : '<label class="btn ghost"><input type="file" accept="image/*" data-rmximgfile hidden>📷 Add image</label><span class="hint">ECG, X-ray or rash? Screenshot it (⌘⌃⇧4) and press ⌘V here.</span>') + '</div>';
     if (rmx.err) h += '<div class="kl kl-out"><span class="ki">⚠️</span><span>' + esc(rmx.err) + '</span></div>';
     const ready = q.opts.length >= 4 && q.correct >= 0, careful = rmxTier() === 'default';
-    h += '<div class="toolbar">' + (rmx.busy ? '<span class="rmx-busy">' + (careful ? 'Thinking carefully… (up to a minute)' : 'Thinking…') + '</span><button class="btn" data-rmxstop>Stop</button>' : (RMX_AI ? '<button class="btn primary" data-rmxai' + (ready ? '' : ' disabled') + '>🔄 Remix <span class="kbd">Enter</span></button><button class="btn" data-rmxlocal' + (ready ? '' : ' disabled') + '>Offline remix</button><button class="chip' + (careful ? ' on' : '') + '" data-rmxtier title="Slower but more accurate: use it for tricky topics">🧠 Careful</button>' : '<button class="btn primary" data-rmxlocal' + (ready ? '' : ' disabled') + '>🔄 Remix offline <span class="kbd">Enter</span></button>') + '<button class="btn ghost" data-rmxreset>Start again</button>') + '<span class="grow"></span>' + rmxStatusHtml() + '</div>';
+    h += '<div class="toolbar">' + (rmx.busy ? '<span class="rmx-busy">' + (careful ? 'Thinking carefully… (up to a minute)' : 'Thinking…') + '</span><button class="btn" data-rmxstop>Stop</button>' : (RMX_AI ? '<button class="btn primary" data-rmxai' + (ready ? '' : ' disabled') + '>🔄 Remix <span class="kbd">Enter</span></button><button class="btn" data-rmxlocal' + (ready ? '' : ' disabled') + '>Offline remix</button><button class="chip' + (careful ? ' on' : '') + '" data-rmxtier title="Slower but more accurate: use it for tricky topics">🧠 Careful</button>' : '<button class="btn primary" data-rmxlocal' + (ready ? '' : ' disabled') + '>🔄 Remix offline <span class="kbd">Enter</span></button>') + '<button class="btn ghost" data-rmxreset>Start again</button>') + (q.img ? '<button class="rmx-thumb sm" data-rmxzoom="q" title="Tap to zoom"><img src="' + q.img.d + '" alt="Question image"></button><button class="iconbtn" data-rmximgdel aria-label="Remove image" title="Remove image">✕</button>' : '<label class="btn ghost" title="ECG, X-ray or rash? Screenshot it and press ⌘V here, or choose the file" aria-label="Add image"><input type="file" accept="image/*" data-rmximgfile hidden>📷</label>') + '<span class="grow"></span>' + rmxStatusHtml() + '</div>';
   } else if (rmx.step === 'card') h += rmxCardHtml();
   box.innerHTML = h;
   if (rmx.step === 'card' && rmx.card && rmx.card.img) rmxFillThumbs(rmx.card);
 }
 async function rmxFillThumbs(C){ const im = await rmxImgGet(C.id); if (!im) return; document.querySelectorAll('[data-rmximg="' + C.id + '"]').forEach(b => { b.innerHTML = '<img src="' + im.d + '" alt="Question image">'; b.hidden = false; }); }
 function rmxCaseHtml(C){
-  const c = C.c, q = C.q, rule = q.concept || c.rule, trig = c.trig || [];
-  let h = '<div class="rmx-case"><div class="snp-lab">① What happened</div><div class="stem snp-clue">🎬 ' + rmxMark(c.film || q.stem.slice(0, 160), trig) + '</div>';
-  if (rule) h += '<div class="rmx-rule">🔑 <b>The rule:</b> ' + esc(rule) + '</div>';
+  const c = C.c, q = C.q;
+  let h = '<div class="rmx-case"><div class="snp-lab">① What happened</div><div class="stem snp-clue">🎬 ' + rmxMark(c.film || q.stem.slice(0, 160), c.trig || []) + '</div>';
   if (c.right) h += '<div class="kl kl-in"><span class="ki">✅</span><span><b>' + esc(q.opts[q.correct]) + '</b>: ' + esc(c.right) + '</span></div>';
   if (c.wrong) h += '<div class="kl kl-out"><span class="ki">❌</span><span>' + (q.picked >= 0 ? '<b>' + esc(q.opts[q.picked]) + '</b>: ' : '') + esc(c.wrong) + '</span></div>';
-  const us = [...new Set([C.unit].concat(c.units || []).filter(x => x != null && x >= 0))].slice(0, 4);
-  h += '<div class="chips rmx-chips">' + (trig.length ? '<span class="hint">🔍</span>' + trig.map(t => '<span class="rmx-trig">' + esc(t) + '</span>').join('') : '') + (C.img ? '<button class="rmx-thumb sm" data-rmxzoom="c" data-rmximg="' + C.id + '" hidden></button>' : '') + us.map(ui => UNITS[ui] ? '<button class="chip" data-u="' + ui + '" data-mode="read">📖 ' + esc(UNITS[ui].name) + '</button>' : '').join('') + '</div>';
-  h += '<details class="rmx-orig"><summary>📄 Original question' + (trig.length ? ' · deciding words in yellow' : '') + '</summary><div class="rmx-stem">' + rmxMark(q.stem, trig) + '</div></details></div>';
-  return h;
+  const us = [...new Set([C.unit].concat(c.units || []).filter(x => x != null && x >= 0))].slice(0, 3);
+  if (us.length || C.img) h += '<div class="chips rmx-chips">' + (C.img ? '<button class="rmx-thumb sm" data-rmxzoom="c" data-rmximg="' + C.id + '" hidden></button>' : '') + us.map(ui => UNITS[ui] ? '<button class="chip" data-u="' + ui + '" data-mode="read">📖 ' + esc(UNITS[ui].name) + '</button>' : '').join('') + '</div>';
+  return h + '</div>';
 }
-function rmxGridHtml(C){
-  const q = C.q, c = C.c, rows = q.opts.map((o, k) => ({o, k, line: (c.grid && c.grid[k]) || rmxOptLine(q, k)})).filter(r => r.line);
-  if (rows.length < 2) return '';
-  return '<div class="rmx-grid"><div class="snp-lab">🧩 All five, side by side</div>' + rows.map(r => '<div class="rmx-gr' + (r.k === q.correct ? ' ok' : '') + (r.k === q.picked ? ' me' : '') + '"><span class="k">' + (r.k === q.correct ? '✅' : r.k === q.picked ? '✋' : r.k + 1) + '</span><span><b>' + esc(r.o) + '</b>: ' + esc(r.line) + '</span></div>').join('') + '</div>';
+// tucked away at the end: the rule and all five options side by side, only if you open it
+function rmxMoreHtml(C){
+  const q = C.q, rows = q.opts.map((o, k) => ({o, k, line: rmxOptLine(q, k)})).filter(r => r.line);
+  if (!q.concept && rows.length < 2) return '';
+  return '<details class="rmx-more"><summary>🧩 Compare all five' + (q.concept ? ' + the rule' : '') + '</summary>' + (q.concept ? '<div class="rmx-rule">🔑 ' + esc(q.concept) + '</div>' : '')
+    + (rows.length >= 2 ? '<div class="rmx-grid">' + rows.map(r => '<div class="rmx-gr' + (r.k === q.correct ? ' ok' : '') + (r.k === q.picked ? ' me' : '') + '"><span class="k">' + (r.k === q.correct ? '✅' : r.k === q.picked ? '✋' : r.k + 1) + '</span><span><b>' + esc(r.o) + '</b>: ' + esc(r.line) + '</span></div>').join('') + '</div>' : '') + '</details>';
 }
 function rmxCardHtml(){
   const C = rmx.card, c = C.c, i = rmx.i, total = c.beats.length;
   let h = '<div class="qmeta"><span class="code">' + (rmx.queue ? '🔁 Replay ' + (rmx.queue.pos + 1) + ' / ' + rmx.queue.list.length : '🔄 Remix') + '</span>' + (C.src === 'local' ? '<span class="code">📴 offline</span>' : '<span class="code" title="Written by AI from your question: check it against the explanation">🤖 AI</span>') + '<span class="grow"></span><span class="mono">' + (C.res || []).map(r => r == null ? '·' : r ? '✅' : '❌').join(' ') + '</span><button class="btn ghost rmx-out" data-rmxreset title="Back to pasting (Esc). You can also just press ⌘V here.">' + (rmx.queue ? '⏹ Stop replay' : '📋 New question') + ' <span class="kbd">Esc</span></button></div>';
   h += rmxCaseHtml(C);
-  if (rmx.loading) return h + '<div class="rmx-load"><span class="rmx-busy">🎲 Fresh variations on the way…</span><button class="btn" data-rmxold>Use last time\'s <span class="kbd">Enter</span></button></div>';
-  if (!total) return h + '<p class="hint">Not enough of these options are in your ILO units to build an offline quiz. Turn the AI on for a full remix.</p>' + rmxGridHtml(C) + '<div class="toolbar"><button class="btn primary" data-rmxnext>Done <span class="kbd">Enter</span></button></div>';
+  if (!total) return h + '<p class="hint">Not enough of these options are in your ILO units to build an offline quiz. Turn the AI on for a full remix.</p>' + rmxMoreHtml(C) + '<div class="toolbar"><button class="btn primary" data-rmxnext>Done <span class="kbd">Enter</span></button></div>';
   if (i < total) {
     const b = c.beats[i], B = RMX_BEAT[b.k], tag = b.k === 'time' && b.spd ? ' · ' + esc(b.spd) : '';
-    const diff = b.k !== 'ck' ? rmxDiffFilm(c.film, b) : '';
-    h += '<div class="snp-lab rmx-bl"><span>' + '②③④⑤'[i] + ' ' + B[0] + ' ' + B[1] + tag + '</span>' + (b.k !== 'ck' ? '<button class="btn ghost rmx-flag" data-rmxflag title="This variation looks medically wrong: drop it">🚩 Looks wrong</button>' : '') + '</div>';
-    h += '<div class="rmx-chg">' + (diff ? '<div class="rmx-film">🎬 ' + diff + '</div><div class="rmx-if"><b>' + B[2] + ':</b> ' + esc(b.change) + '</div>' : '<b>' + B[2] + ':</b> ' + (b.k === 'ck' ? snpHtml(b.change) : esc(b.change))) + '</div>';
+    h += '<div class="snp-lab rmx-bl"><span>' + '②③④⑤'[i] + ' ' + B[0] + ' ' + B[1] + tag + '</span>' + (b.k !== 'ck' ? '<button class="iconbtn rmx-flag" data-rmxflag title="Looks medically wrong: drop it" aria-label="Looks wrong: drop it">🚩</button>' : '') + '</div>';
+    h += '<div class="rmx-chg"><b>' + B[2] + ':</b> ' + (b.k === 'ck' ? snpHtml(b.change) : esc(b.change)) + '</div>';
     h += '<div class="opts">' + b.opts.map((o, k) => { let cl = 'opt'; if (rmx.pick != null) { if (k === b.ans) cl += ' right'; else if (k === rmx.pick) cl += ' wrong'; } return '<button class="' + cl + '" data-rmxa="' + k + '"' + (rmx.pick != null ? ' disabled' : '') + '><span class="k">' + (k + 1) + '</span><span>' + esc(o) + '</span></button>'; }).join('') + '</div>';
-    if (rmx.pick != null) {
-      const was = b.k === 'flip' ? C.q.opts[C.q.correct] : b.was, now = b.opts[b.ans];
-      if (was && rmxNorm(was) !== rmxNorm(now)) h += '<div class="rmx-flipans">🔁 <del>' + esc(was) + '</del> → <ins>' + esc(now) + '</ins></div>';
-      h += '<div class="kl ' + (rmx.pick === b.ans ? 'kl-in' : 'kl-out') + '"><span class="ki">' + (rmx.pick === b.ans ? '✅' : '❌') + '</span><span>' + (b.k === 'ck' ? fmtRich(b.why) : esc(b.why)) + '</span></div><div class="toolbar"><button class="btn primary" data-rmxnext>' + (i + 1 < total ? 'Next' : 'Finish') + ' <span class="kbd">Enter</span></button></div>';
-    }
+    if (rmx.pick != null) h += '<div class="kl ' + (rmx.pick === b.ans ? 'kl-in' : 'kl-out') + '"><span class="ki">' + (rmx.pick === b.ans ? '✅' : '❌') + '</span><span>' + (b.k === 'ck' ? fmtRich(b.why) : esc(b.why)) + '</span></div><div class="toolbar"><button class="btn primary" data-rmxnext>' + (i + 1 < total ? 'Next' : 'Finish') + ' <span class="kbd">Enter</span></button></div>';
   } else {
     const got = C.res.filter(Boolean).length, asked = C.res.filter(r => r != null).length;
-    h += '<div class="snp-end"><div class="rmx-endl"><b>' + got + ' / ' + asked + '</b>' + (C.due ? '<span class="hint">back ' + rmxDueLabel(C.due) + (rmx.queue ? '' : ' · saved to your Remix vault') + '</span>' : '') + '</div>' + (rmx.stale ? '<p class="hint" style="margin:4px 0 0">Same variations as last time (the AI wasn\'t available).</p>' : '') + rmxGridHtml(C) + '<div class="toolbar">' + (rmx.queue ? '<button class="btn primary" data-rmxnext>' + (rmx.queue.pos + 1 < rmx.queue.list.length ? 'Next card' : 'Finish replay') + ' <span class="kbd">Enter</span></button>' : '<button class="btn primary" data-rmxreset>📋 Paste another <span class="kbd">Enter</span></button>') + '</div></div>';
+    h += '<div class="snp-end"><div class="rmx-endl"><b>' + got + ' / ' + asked + '</b>' + (C.due ? '<span class="hint">back ' + rmxDueLabel(C.due) + '</span>' : '') + '</div>' + rmxMoreHtml(C) + '<div class="toolbar">' + (rmx.queue ? '<button class="btn primary" data-rmxnext>' + (rmx.queue.pos + 1 < rmx.queue.list.length ? 'Next card' : 'Finish replay') + ' <span class="kbd">Enter</span></button>' : '<button class="btn primary" data-rmxreset>📋 Paste another <span class="kbd">Enter</span></button>') + '</div></div>';
   }
   return h;
 }
@@ -357,7 +339,7 @@ function drawRmxVault(){
 }
 function rmxHome(){
   if (rmx.ctl && rmx.busy) rmx.ctl.abort();
-  rmx = Object.assign(rmx, {step: 'home', q: null, card: null, queue: null, err: '', busy: false, pick: null, loading: false, stale: false});
+  rmx = Object.assign(rmx, {step: 'home', q: null, card: null, queue: null, err: '', busy: false, pick: null});
   drawRemix(); drawRmxVault();
   setTimeout(() => { const el = $('#rmxIn'); if (el) { el.focus({preventScroll: true}); el.scrollIntoView({block: 'nearest'}); } }, 30);
 }
@@ -365,7 +347,7 @@ function rmxIngest(text){
   const q = rmxParse(text);
   if (!q.stem || q.stem.length < 30) return toast('That doesn\'t look like a question: copy the question page and paste again');
   if (rmx.pendingImg) { q.img = rmx.pendingImg; rmx.pendingImg = null; }
-  rmx = Object.assign(rmx, {step: 'check', q, card: null, i: 0, pick: null, err: '', queue: null, loading: false});
+  rmx = Object.assign(rmx, {step: 'check', q, card: null, i: 0, pick: null, err: '', queue: null});
   drawRemix();
 }
 async function rmxAttachImg(file){
@@ -381,7 +363,7 @@ function rmxMake(c, src){
   rmxAll().unshift(card);
   rmxCards.slice(RMX_MAX).forEach(x => { if (x.img) rmxImgDel(x.id); });
   rmxCards = rmxCards.slice(0, RMX_MAX); rmxSave();
-  rmx = Object.assign(rmx, {step: 'card', card, i: 0, pick: null, busy: false, err: '', queue: null, loading: false, stale: false, scheduled: false});
+  rmx = Object.assign(rmx, {step: 'card', card, i: 0, pick: null, busy: false, err: '', queue: null, scheduled: false});
   drawRemix(); drawRmxVault();
 }
 function rmxAiErr(e){
@@ -404,39 +386,32 @@ async function rmxRunAi(){
     rmx.err = rmxAiErr(e); drawRemix();
   }
 }
-/* ----- replays: fresh variations each time, on a spaced schedule ----- */
+/* ----- replays: instant, on a spaced schedule; next time's variations are made quietly after you finish ----- */
 async function rmxFreshBeats(C){
-  if (C.src === 'local') { const L = rmxLocal(C.q); return L.beats.length ? L.beats : null; }
   if (!RMX_AI) return null;
   const avoid = (C.seen || []).concat((C.c.beats || []).map(b => b.change)).filter(Boolean).slice(-12);
   try {
     let images = null; if (C.img && RMX_IMG) { const im = await rmxImgGet(C.id); if (im) images = rmxBlob(im.d); }
-    const j = await RMX_AI.json(rmxFreshPrompt(Object.assign({}, C, {hasImg: !!images}), rmxTarget(C.q), avoid), Object.assign({modelTier: rmxTier(), maxTokens: rmxTier() === 'default' ? 8000 : 1800, cache: false}, images ? {images} : {}));
-    return rmxBeatsFromAi(C.q, j, C.c.film);
+    const j = await RMX_AI.json(rmxFreshPrompt(Object.assign({}, C, {hasImg: !!images}), rmxTarget(C.q), avoid), Object.assign({modelTier: 'quick', maxTokens: 1800, cache: false}, images ? {images} : {}));
+    return rmxBeatsFromAi(C.q, j);
   } catch (e) { return null; }
 }
-function rmxPrefetch(C){ if (C && C.src === 'ai' && RMX_AI && !rmxPre[C.id]) rmxPre[C.id] = rmxFreshBeats(C); }
+const rmxMaking = new Set();
+function rmxMakeNext(C){
+  if (!C || C.src !== 'ai' || !RMX_AI || rmxMaking.has(C.id)) return;
+  rmxMaking.add(C.id);
+  rmxFreshBeats(C).then(b => { rmxMaking.delete(C.id); if (b && b.length >= 2) { C.next = b; rmxSave(); } });
+}
 function rmxReuse(C){ return (C.c.beats || []).filter(b => !b.flag).map(b => { if (b.k === 'ck') return b; const idx = shuffle(b.opts.map((_, i) => i), Math.random); return Object.assign({}, b, {opts: idx.map(i => b.opts[i]), ans: idx.indexOf(b.ans)}); }); }
-function rmxStart(C){
-  C.c.beats = (C.c.beats || []).filter(b => !b.flag); C.res = C.c.beats.map(() => null);
-  rmx.loading = false; rmxSave(); drawRemix();
+function rmxPlay(card, queue){
+  rmx = Object.assign(rmx, {step: 'card', card, i: 0, pick: null, queue: queue || null, scheduled: false, err: ''});
+  if (card.src === 'local') { const L = rmxLocal(card.q); if (L.beats.length) card.c.beats = L.beats; }
+  else if (card.next && card.next.length >= 2) { card.seen = (card.seen || []).concat(card.c.beats.map(b => b.change)).filter(Boolean).slice(-12); card.c.beats = card.next; delete card.next; }
+  else card.c.beats = rmxReuse(card);
+  card.c.beats = card.c.beats.filter(b => !b.flag); card.res = card.c.beats.map(() => null);
+  rmxSave(); drawRemix();
   const b = $('#rmx'); if (b) b.scrollIntoView({block: 'start'});
-  if (rmx.queue) rmxPrefetch(rmx.queue.list[rmx.queue.pos + 1]);
 }
-async function rmxPlay(card, queue){
-  rmx = Object.assign(rmx, {step: 'card', card, i: 0, pick: null, queue: queue || null, loading: false, stale: false, scheduled: false, err: ''});
-  const pre = rmxPre[card.id]; delete rmxPre[card.id];
-  if (card.src === 'local') { const L = rmxLocal(card.q); if (L.beats.length) card.c.beats = L.beats; return rmxStart(card); }
-  if (!RMX_AI) { card.c.beats = rmxReuse(card); rmx.stale = true; return rmxStart(card); }
-  rmx.loading = true; card.res = []; drawRemix();
-  const b0 = $('#rmx'); if (b0) b0.scrollIntoView({block: 'start'});
-  const got = await (pre || rmxFreshBeats(card));
-  if (rmx.card !== card || !rmx.loading) return; // left, or chose last time's
-  if (got && got.length >= 2) { card.seen = (card.seen || []).concat(card.c.beats.map(b => b.change)).filter(Boolean).slice(-12); card.c.beats = got; }
-  else { card.c.beats = rmxReuse(card); rmx.stale = true; }
-  rmxStart(card);
-}
-function rmxUseOld(){ const C = rmx.card; if (!C || !rmx.loading) return; C.c.beats = rmxReuse(C); rmx.stale = false; rmxStart(C); }
 function rmxSchedule(C){
   const wrong = C.res.some(r => r === false);
   C.n = (C.n || 0) + 1; C.last = Date.now();
@@ -444,18 +419,18 @@ function rmxSchedule(C){
   C.due = rmxAddDays(rmxDay(), RMX_GAP[C.box]);
   rmxSave();
 }
-function rmxFinish(){ const C = rmx.card; if (!rmx.scheduled && C && !rmx.loading && rmx.i >= C.c.beats.length) { rmx.scheduled = true; rmxSchedule(C); drawRmxVault(); } }
+function rmxFinish(){ const C = rmx.card; if (!rmx.scheduled && C && rmx.i >= C.c.beats.length) { rmx.scheduled = true; rmxSchedule(C); rmxMakeNext(C); drawRmxVault(); } }
 // leaving half-way: anything you got wrong still comes back tomorrow, nothing moves forward
 function rmxLeave(){ const C = rmx.card; if (rmx.step !== 'card' || !C || rmx.scheduled) return; if (rmx.i >= C.c.beats.length) return rmxFinish(); if ((C.res || []).some(r => r === false)) { C.box = 0; C.due = rmxAddDays(rmxDay(), 1); rmxSave(); } }
 function rmxAnswer(k){
-  if (rmx.step !== 'card' || rmx.loading || rmx.pick != null) return;
+  if (rmx.step !== 'card' || rmx.pick != null) return;
   const C = rmx.card, b = C.c.beats[rmx.i]; if (!b || k >= b.opts.length) return;
   rmx.pick = k; C.res[rmx.i] = k === b.ans;
   if (C.res[rmx.i]) addXp(5);
   rmxSave(); drawRemix();
 }
 function rmxFlag(){
-  if (rmx.step !== 'card' || rmx.loading) return;
+  if (rmx.step !== 'card') return;
   const C = rmx.card, b = C.c.beats[rmx.i]; if (!b) return;
   b.flag = true; C.res[rmx.i] = null; C.seen = (C.seen || []).concat('(this one was wrong) ' + b.change).slice(-12);
   toast('🚩 Dropped: it won\'t come back');
@@ -463,7 +438,7 @@ function rmxFlag(){
   rmxSave(); drawRemix();
 }
 function rmxNext(){
-  if (rmx.step !== 'card' || rmx.loading) return;
+  if (rmx.step !== 'card') return;
   const C = rmx.card, total = C.c.beats.length;
   if (rmx.i < total) { if (rmx.pick == null) return; rmx.i++; rmx.pick = null; if (rmx.i >= total) rmxFinish(); return drawRemix(); }
   rmxFinish();
@@ -512,7 +487,6 @@ function rmxKey(e){
   if (k === 'Escape' && rmx.step !== 'home') { e.preventDefault(); rmxLeave(); rmxHome(); return true; }
   if (rmx.step !== 'card') return false;
   const C = rmx.card;
-  if (rmx.loading) { if (k === 'Enter') { e.preventDefault(); rmxUseOld(); } return true; }
   if (/^[1-5]$/.test(k) && rmx.i < C.c.beats.length) { e.preventDefault(); rmxAnswer(+k - 1); return true; }
   if (k === 'Enter' || k === ' ' || k === 'ArrowRight') {
     if (rmx.i >= C.c.beats.length && !rmx.queue) { e.preventDefault(); rmxFinish(); rmxHome(); return true; }
@@ -549,7 +523,6 @@ function extClick8(t, d){
   if (d.rmxreset != null) { rmxLeave(); rmxHome(); return true; }
   if (d.rmxa != null) { rmxAnswer(+d.rmxa); return true; }
   if (d.rmxnext != null) { rmxNext(); return true; }
-  if (d.rmxold != null) { rmxUseOld(); return true; }
   if (d.rmxflag != null) { rmxFlag(); return true; }
   if (d.rmximgdel != null) { if (rmx.q) { rmx.q.img = null; drawRemix(); } return true; }
   if (d.rmxzoom) { if (d.rmxzoom === 'q' && rmx.q && rmx.q.img) rmxZoom(rmx.q.img.d); else if (d.rmxzoom === 'p' && rmx.pendingImg) rmxZoom(rmx.pendingImg.d); else if (d.rmxzoom === 'c' && rmx.card) rmxImgGet(rmx.card.id).then(im => im && rmxZoom(im.d)); return true; }
@@ -563,4 +536,4 @@ function extClick8(t, d){
   if (d.rmxclear != null) { if (!t.dataset.armed) { t.dataset.armed = '1'; t.textContent = 'Tap again to delete all'; return true; } rmxAll().forEach(c => { if (c.img) rmxImgDel(c.id); }); rmxCards = []; rmxSave(); drawRmxVault(); drawRemix(); toast('Remix vault cleared'); return true; }
   return false;
 }
-try { Object.defineProperty(window, '__me8', {value: Object.freeze({rmxParse, rmxUnitFor, rmxCondUnit, rmxFromAi, rmxLocal, rmxMark, rmxDiffFilm, rmxOptLine, rmxDay, rmxAddDays, rmxIsDue, get rmx(){ return rmx; }, rmxAll: () => rmxAll(), save: () => rmxSave(), imgGet: id => rmxImgGet(id), setAi(f, img){ RMX_AI = f; RMX_IMG = !!img; }})}); } catch (e) {}
+try { Object.defineProperty(window, '__me8', {value: Object.freeze({rmxParse, rmxUnitFor, rmxCondUnit, rmxFromAi, rmxLocal, rmxMark, rmxOptLine, rmxDay, rmxAddDays, rmxIsDue, get rmx(){ return rmx; }, rmxAll: () => rmxAll(), save: () => rmxSave(), imgGet: id => rmxImgGet(id), setAi(f, img){ RMX_AI = f; RMX_IMG = !!img; }})}); } catch (e) {}

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""medengine-STUDY v0.9 Remix tests (no network). Passmed-layout pastes written in our own words (no Passmed text
-in the repo): key concept, condition tag → ILO, per-option explanations → grid, unanswered-paste warning, × marks;
-AI card with deciding words, rule, spot-the-change, answer flip, 🚩 flag, grid; fresh variations on replay
-(avoid list, prefetch, "use last time's"); spacing (due today, 1 → 3 days, wrong → tomorrow, leaving half-way);
-image paste (pending, attach, sent to AI, stored outside the Screenshot vault, zoom); careful mode;
-Weak spots panel; misses by system; overflow at 3 widths."""
+"""medengine-STUDY v0.9.1 Remix tests (no network). Passmed-layout pastes written in our own words (no Passmed text
+in the repo): key concept, condition tag → ILO, per-option explanations, unanswered-paste warning, × marks;
+the simple card (one amber change line, no animation, no extra boxes), 🚩 flag, "Compare all five" tucked away;
+instant replays with next time's variations made in the background (avoid list); spacing (due today, 1 → 3 days,
+wrong → tomorrow, leaving half-way); image paste (pending, attach, sent to AI, outside the Screenshot vault, zoom);
+careful mode; Weak spots panel; misses by system; overflow at 3 widths."""
 import json, os, pathlib, re, sys
 from playwright.sync_api import sync_playwright
 
@@ -68,22 +68,20 @@ Submit answer
 """
 AI = {"film": "52F, sudden right loin pain to groin, afebrile, 6 mm distal ureteric stone",
       "trigger": ["6 mm stone in the distal ureter", "afebrile"],
-      "rule": "Ureteric stones under 10 mm usually pass with analgesia and an alpha blocker",
       "right": "Small distal stone, no infection: expect it to pass", "wrong": "Under 5 mm only; this stone is 6 mm",
-      "grid": ["Stone under 5 mm", "Obstructed and infected kidney", "Small stone likely to pass: right here", "Renal stone over 20 mm", "Almost never first line now"],
-      "flip": {"from": "afebrile", "to": "fever 39°C and rigors", "change": "Fever and rigors with the stone: an infected obstructed kidney", "answer": 2, "why": "Infected obstruction needs urgent decompression"},
-      "twist": {"from": "", "to": "she is 30 weeks pregnant", "change": "She is 30 weeks pregnant", "options": ["Ultrasound and analgesia", "CT with contrast", "Alpha blocker alone", "Shockwave lithotripsy"], "answer": 1, "was": "CT KUB", "why": "Avoid radiation and shockwave in pregnancy"},
-      "time": {"speed": "gradual", "from": "sudden right loin pain to groin", "to": "months of dull loin ache", "change": "Months of dull ache instead of sudden colic", "options": ["Staghorn calculus", "Ureteric colic", "Pyelonephritis", "Appendicitis"], "answer": 1, "was": "Ureteric colic", "why": "A slow, dull ache suggests a large renal stone"}}
-FRESH = {"flip": {"from": "6 mm distal ureteric stone", "to": "25 mm renal pelvis stone", "change": "A 25 mm stone in the renal pelvis", "answer": 4, "why": "Large renal stones need PCNL"},
-         "twist": {"from": "", "to": "eGFR 25", "change": "eGFR is 25", "options": ["Avoid NSAIDs, use paracetamol", "Diclofenac 75 mg", "Ibuprofen 400 mg", "No analgesia"], "answer": 1, "was": "Diclofenac", "why": "NSAIDs harm kidneys with low eGFR"},
-         "time": {"speed": "sudden", "from": "", "to": "pain started 2 hours ago", "change": "Pain started 2 hours ago", "options": ["Ureteric colic", "Renal cell cancer", "Staghorn calculus", "Polycystic kidneys"], "answer": 1, "was": "Ureteric colic", "why": "Sudden colic is a moving stone"}}
+      "flip": {"change": "Fever and rigors with the stone: an infected obstructed kidney", "answer": 2, "why": "Infected obstruction needs urgent decompression"},
+      "twist": {"change": "She is 30 weeks pregnant", "options": ["Ultrasound and analgesia", "CT with contrast", "Alpha blocker alone", "Shockwave lithotripsy"], "answer": 1, "why": "Avoid radiation and shockwave in pregnancy"},
+      "time": {"speed": "gradual", "change": "Months of dull ache instead of sudden colic", "options": ["Staghorn calculus", "Ureteric colic", "Pyelonephritis", "Appendicitis"], "answer": 1, "why": "A slow, dull ache suggests a large renal stone"}}
+FRESH = {"flip": {"change": "A 25 mm stone in the renal pelvis", "answer": 4, "why": "Large renal stones need PCNL"},
+         "twist": {"change": "eGFR is 25", "options": ["Avoid NSAIDs, use paracetamol", "Diclofenac 75 mg", "Ibuprofen 400 mg", "No analgesia"], "answer": 1, "why": "NSAIDs harm kidneys with low eGFR"},
+         "time": {"speed": "sudden", "change": "Pain started 2 hours ago", "options": ["Ureteric colic", "Renal cell cancer", "Staghorn calculus", "Polycystic kidneys"], "answer": 1, "why": "Sudden colic is a moving stone"}}
 PASTE = """(t) => { const dt = new DataTransfer(); dt.setData('text/plain', t); document.body.dispatchEvent(new ClipboardEvent('paste', {clipboardData: dt, bubbles: true, cancelable: true})); }"""
 PASTE_IMG = """async () => { const c = document.createElement('canvas'); c.width = 400; c.height = 160; const x = c.getContext('2d'); x.fillStyle = '#fff'; x.fillRect(0, 0, 400, 160); x.strokeStyle = '#000'; x.beginPath(); for (let i = 0; i < 400; i += 4) x.lineTo(i, 80 + (i % 40 === 0 ? -50 : 0)); x.stroke();
   const blob = await new Promise(r => c.toBlob(r, 'image/png')); const dt = new DataTransfer(); dt.items.add(new File([blob], 'ecg.png', {type: 'image/png'}));
   document.body.dispatchEvent(new ClipboardEvent('paste', {clipboardData: dt, bubbles: true, cancelable: true})); }"""
 SET_AI = """([full, fresh, img, delay]) => { window.__calls = []; __me8.setAi(Object.assign(async () => ({text: ''}), {
-  json: async (p, o) => { window.__calls.push({fresh: p.includes('ALREADY USED') || p.includes('FILM (copy'), avoid: p.includes('ALREADY USED'), p, tier: o.modelTier, max: o.maxTokens, img: !!o.images, imgType: o.images ? o.images.type : ''});
-    if (delay) await new Promise(r => setTimeout(r, delay)); return JSON.parse(JSON.stringify(p.includes('FILM (copy') ? fresh : full)); },
+  json: async (p, o) => { window.__calls.push({fresh: p.includes('REVIEW ROUND'), avoid: p.includes('ALREADY USED'), p, tier: o.modelTier, max: o.maxTokens, img: !!o.images, imgType: o.images ? o.images.type : ''});
+    if (delay) await new Promise(r => setTimeout(r, delay)); return JSON.parse(JSON.stringify(p.includes('REVIEW ROUND') ? fresh : full)); },
   limits: async () => (img ? {maxPromptBytes: 262144, images: {maxCount: 5}} : {maxPromptBytes: 262144})}), img); }"""
 
 
@@ -114,7 +112,7 @@ def run(width, mock=True):
                 pg.keyboard.press(str(a + 1 if right else (a + 1) % 4 + 1)); pg.wait_for_timeout(60)
                 pg.keyboard.press('Enter'); pg.wait_for_timeout(60)
 
-        if 'v0.9.0' not in pg.text_content('#homeBtn'): errs.append('version not 0.9.0')
+        if 'v0.9.1' not in pg.text_content('#homeBtn'): errs.append('version not 0.9.1')
 
         # ---- parser: Passmed layout ----
         q = ev('t => __me8.rmxParse(t)', STONE)
@@ -136,8 +134,6 @@ def run(width, mock=True):
             if not rq['concept'] or 'Important' in rq['concept'] or not rq['cond'] or ev('n => __me8.rmxCondUnit(n)', rq['cond']) < 0 or len([x for x in rq['optx'] if x]) < 4: errs.append(f"real paste v0.9 fields: concept={rq['concept'][:40]} cond={rq['cond']} optx={len([x for x in rq['optx'] if x])}")
         # helpers
         if ev("__me8.rmxMark('A 6 mm stone here', ['6 mm stone'])") != 'A <mark class="rmx-mk">6 mm stone</mark> here': errs.append('rmxMark')
-        if '<del class="rmx-old">afebrile</del> <ins class="rmx-new">fever</ins>' not in ev("__me8.rmxDiffFilm('52F, afebrile, stone', {from: 'afebrile', to: 'fever'})"): errs.append('rmxDiffFilm replace')
-        if ev("__me8.rmxDiffFilm('52F', {from: 'missing', to: 'x'})") != '': errs.append('rmxDiffFilm should give up on a wrong from')
         if ev("__me8.rmxAddDays('2026-12-31', 1)") != '2027-01-01': errs.append('day maths')
 
         # ---- AI card: rule, deciding words, spot the change, flip, flag, grid, schedule ----
@@ -158,19 +154,21 @@ def run(width, mock=True):
         if not call['img'] or call['imgType'] not in ('image/webp', 'image/jpeg', 'image/png'): errs.append('image not sent to the AI')
         if 'KEY CONCEPT FROM THE QUESTION BANK: Stones under 10 mm' not in call['p']: errs.append('key concept not in the prompt')
         if call['tier'] != 'quick' or call['max'] < 2000: errs.append(f"fast mode request: {call['tier']} {call['max']}")
-        t = pg.text_content('#rmx')
-        if 'The rule: Stones under 10 mm' not in t: errs.append('rule should come from Passmed\'s key concept')
-        if pg.locator('#rmx .rmx-trig').count() != 2: errs.append('deciding-word chips missing')
-        if pg.locator('#rmx .rmx-orig mark.rmx-mk').count() < 2: errs.append('deciding words not highlighted in the original stem')
+        # ① stays short: film with the deciding words marked, ✅, ❌, ILO chip; no rule box, chips or original question
+        if pg.locator('#rmx .rmx-case .rmx-rule, #rmx .rmx-trig, #rmx .rmx-orig, #rmx details').count(): errs.append('① has extra boxes again')
+        if pg.locator('#rmx .rmx-case mark.rmx-mk').count() < 1: errs.append('deciding words not highlighted in the film')
+        if pg.locator('#rmx .rmx-case .kl').count() != 2: errs.append('① should have one ✅ and one ❌ line')
         if not c['unit'] >= 0 or ev('i => __me8.rmxCondUnit(["Urinary tract calculi"]) === i', c['unit']) is not True: errs.append('card not linked to Urinary tract calculi')
         pg.wait_for_timeout(300)
         if not pg.locator('#rmx .rmx-thumb.sm img').count(): errs.append('card image thumbnail not shown')
-        # ② spot the change
-        if not pg.locator('#rmx .rmx-chg del.rmx-old').count() or 'fever 39°C and rigors' not in pg.text_content('#rmx .rmx-chg ins.rmx-new'): errs.append('spot-the-change diff missing')
-        if 'If instead:' not in pg.text_content('#rmx .rmx-chg'): errs.append('If instead caption missing')
+        # ② one amber line, nothing moving
+        chg = pg.text_content('#rmx .rmx-chg')
+        if not chg.startswith('If instead:') or 'Fever and rigors' not in chg: errs.append('change line: ' + chg)
+        if pg.locator('#rmx del, #rmx ins, #rmx .rmx-old, #rmx .rmx-new, #rmx .rmx-flipans, #rmx .rmx-film').count(): errs.append('diff or flip markup still on the card')
+        if ev("[...document.querySelectorAll('#rmx *')].some(e => getComputedStyle(e).animationName !== 'none')"): errs.append('something on the card is animated')
+        if pg.text_content('#rmx [data-rmxflag]').strip() != '🚩': errs.append('flag should be a lone icon')
         pg.keyboard.press('2'); pg.wait_for_timeout(80)
-        fl = pg.text_content('#rmx .rmx-flipans') if pg.locator('#rmx .rmx-flipans').count() else ''
-        if 'Analgesia and an alpha blocker' not in fl or 'Emergency nephrostomy' not in fl: errs.append('answer flip line missing: ' + fl)
+        if pg.locator('#rmx .opts + .kl').count() != 1: errs.append('one why line after answering')
         pg.keyboard.press('Enter'); pg.wait_for_timeout(80)
         # ③ flag it
         pg.click('#rmx [data-rmxflag]'); pg.wait_for_timeout(100)
@@ -178,9 +176,19 @@ def run(width, mock=True):
         # ④ timeline, then the end
         a = ev('__me8.rmx.card.c.beats[2].ans'); pg.keyboard.press(str(a + 1)); pg.wait_for_timeout(80); pg.keyboard.press('Enter'); pg.wait_for_timeout(120)
         t = pg.text_content('#rmx')
-        if pg.locator('#rmx .rmx-gr').count() != 5 or pg.locator('#rmx .rmx-gr.ok').count() != 1 or pg.locator('#rmx .rmx-gr.me').count() != 1: errs.append('5-option grid wrong')
+        if pg.locator('#rmx details.rmx-more').count() != 1 or ev("document.querySelector('#rmx details.rmx-more').open"): errs.append('"Compare all five" should be there and closed')
+        elif 'Compare all five + the rule' not in pg.text_content('#rmx details.rmx-more summary'): errs.append('compare summary text')
+        else:
+            pg.click('#rmx details.rmx-more summary'); pg.wait_for_timeout(80)
+            if pg.locator('#rmx .rmx-gr').count() != 5 or pg.locator('#rmx .rmx-gr.ok').count() != 1 or pg.locator('#rmx .rmx-gr.me').count() != 1: errs.append('5-option grid wrong')
+            if 'Stones under 10 mm' not in pg.text_content('#rmx .rmx-more .rmx-rule'): errs.append('rule should come from Passmed\'s key concept')
         if 'back tomorrow' not in t: errs.append('end screen should say back tomorrow')
         if ev('__me8.rmx.card.due') != ev("__me8.rmxAddDays(__me8.rmxDay(), 1)") or ev('__me8.rmx.card.n') != 1: errs.append('first play should be due tomorrow')
+        pg.wait_for_timeout(200)
+        bg = ev('window.__calls[window.__calls.length - 1]')
+        if ev('window.__calls.length') != 2 or not bg['fresh']: errs.append('next round was not made in the background after finishing')
+        elif 'Fever and rigors with the stone' not in bg['p']: errs.append('background round has no avoid list')
+        if not ev('(__me8.rmx.card.next || []).length >= 2'): errs.append('background variations not saved on the card')
         ov('AI card end')
         # image stored outside the Screenshot vault
         cid = ev('__me8.rmx.card.id')
@@ -197,10 +205,13 @@ def run(width, mock=True):
         hashgo('home', 200); hashgo('remix', 300)
         if 'Due today · 1' not in pg.text_content('#rmxVault'): errs.append('Due today count missing')
         n0 = ev('window.__calls.length')
-        pg.click('[data-rmxdue]'); pg.wait_for_timeout(400)
-        fc = ev('window.__calls[window.__calls.length - 1]')
-        if ev('window.__calls.length') != n0 + 1 or not fc['fresh'] or not fc['avoid'] or 'Fever and rigors with the stone' not in fc['p']: errs.append('replay did not ask for fresh variations with an avoid list')
-        if '25 mm renal pelvis stone' not in pg.text_content('#rmx'): errs.append('fresh variation not shown')
+        ev(SET_AI, [AI, FRESH, True, 3000])  # a slow AI must not slow the replay
+        pg.click('[data-rmxdue]'); pg.wait_for_timeout(120)
+        if ev('__me8.rmx.step') != 'card' or not pg.locator('#rmx .rmx-chg').count(): errs.append('replay did not start instantly')
+        if ev('window.__calls.length'): errs.append('replay waited on an AI call')
+        if 'A 25 mm stone in the renal pelvis' not in pg.text_content('#rmx'): errs.append('replay did not use the variations made in the background')
+        if ev('!!__me8.rmx.card.next'): errs.append('used variations should be cleared')
+        ev(SET_AI, [AI, FRESH, True, 0])
         if ev('__me8.rmx.card.c.beats.some(b => b.flag)'): errs.append('flagged variation came back')
         answer_all(True)
         if ev('__me8.rmx.card.box') != 1 or ev('__me8.rmx.card.due') != ev("__me8.rmxAddDays(__me8.rmxDay(), 3)"): errs.append(f"all right on review should push to 3 days: box={ev('__me8.rmx.card.box')}")
@@ -208,7 +219,8 @@ def run(width, mock=True):
         pg.keyboard.press('Enter'); pg.wait_for_timeout(150)
         # wrong on review → tomorrow
         ev("(() => { const c = __me8.rmxAll()[0]; c.due = '2000-01-01'; __me8.save(); })()"); hashgo('home', 150); hashgo('remix', 250)
-        pg.click('[data-rmxdue]'); pg.wait_for_timeout(400)
+        pg.click('[data-rmxdue]'); pg.wait_for_timeout(150)
+        if ev('__me8.rmx.card.c.beats.length') < 2: errs.append('replay with no background round should reuse the old variations')
         answer_all(False)
         if ev('__me8.rmx.card.box') != 0 or ev('__me8.rmx.card.due') != ev("__me8.rmxAddDays(__me8.rmxDay(), 1)"): errs.append('a miss on review should bring it back tomorrow')
         pg.keyboard.press('Enter'); pg.wait_for_timeout(150)
@@ -221,24 +233,12 @@ def run(width, mock=True):
         cc = ev('__me8.rmxAll()[0]')
         if cc['n'] != nplay or cc['box'] != 0 or cc['due'] != ev("__me8.rmxAddDays(__me8.rmxDay(), 1)"): errs.append(f"leaving half-way: n {nplay}->{cc['n']} box {cc['box']} due {cc['due']}")
 
-        # ---- "use last time's" when the AI is slow ----
-        ev(SET_AI, [AI, FRESH, True, 2500])
-        pg.click('[data-rmxreplay]'); pg.wait_for_timeout(200)
-        if not pg.locator('#rmx [data-rmxold]').count(): errs.append('no loading state with "use last time\'s"')
-        pg.keyboard.press('Enter'); pg.wait_for_timeout(150)
-        if ev('__me8.rmx.loading') or not ev('__me8.rmx.card.c.beats.length'): errs.append('"use last time\'s" did not start the card')
-        before = ev('__me8.rmx.card.c.beats[0].change')
-        pg.wait_for_timeout(2700)
-        if ev('__me8.rmx.card.c.beats[0].change') != before: errs.append('late AI reply overwrote the card in play')
-        pg.keyboard.press('Escape'); pg.wait_for_timeout(100)
-
         # ---- careful mode + AI without image support + offline card with a second system ----
         ev(SET_AI, [AI, FRESH, False, 0])
         ev(PASTE_IMG); pg.wait_for_timeout(500)
         if not pg.locator('#rmx .rmx-imgrow img').count(): errs.append('image pasted first should wait for the text')
         ev(PASTE, STONE); pg.wait_for_timeout(200)
         if not pg.locator('#rmx .rmx-thumb img').count(): errs.append('waiting image not attached to the pasted question')
-        if 'can\'t see images' not in pg.text_content('#rmx'): errs.append('no note when the AI cannot see images')
         pg.click('[data-rmxtier]'); pg.wait_for_timeout(80)
         if ev('__me8.rmx.q') is None: errs.append('lost the question after toggling careful mode')
         pg.keyboard.press('Enter'); pg.wait_for_timeout(400)
@@ -266,16 +266,6 @@ Acute angle-closure glaucoma is correct. Haloes and a fixed mid-dilated pupil ar
             pg.click('#rmxVault [data-rmxsys].on'); pg.wait_for_timeout(100)
         ov('vault')
 
-        # ---- prefetch: while one replay card is up, the next card's fresh variations are already being made ----
-        ev(SET_AI, [AI, FRESH, True, 0])
-        ev("(() => { __me8.rmx.missOnly = false; })()")
-        n1 = ev('window.__calls.length')
-        pg.click('[data-rmxreplay]'); pg.wait_for_timeout(400)
-        first_local = ev('__me8.rmx.card.src') == 'local'
-        made = ev('window.__calls.length') - n1
-        if made < (1 if first_local else 2): errs.append(f'next card not prefetched ({made} AI calls)')
-        pg.keyboard.press('Escape'); pg.wait_for_timeout(100)
-
         # ---- Weak spots panel ----
         ev("(() => { __me8.rmxAll().forEach(c => { c.due = '2000-01-01'; }); __me8.save(); })()")
         hashgo('weak', 400)
@@ -293,7 +283,7 @@ if __name__ == '__main__':
     bad = 0
     for w in (1280, 820, 390):
         e = run(w); bad += len(e)
-        print(f'{w}px STUDY v0.9 errors: {len(e)}'); [print('  -', x) for x in e]
+        print(f'{w}px STUDY v0.9.1 errors: {len(e)}'); [print('  -', x) for x in e]
     e = run(1280, mock=False); bad += len(e)
-    print(f'no-runtime STUDY v0.9 errors: {len(e)}'); [print('  -', x) for x in e]
+    print(f'no-runtime STUDY v0.9.1 errors: {len(e)}'); [print('  -', x) for x in e]
     sys.exit(1 if bad else 0)

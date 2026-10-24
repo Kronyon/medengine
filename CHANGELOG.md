@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.9.1-beta (2026-10-24)
+
+Remix made simple again: v0.8's calm card with v0.9's useful parts kept underneath. Saved cards carry over.
+- One card shape: 🎬 the case (deciding words in yellow), ✅ why right, ❌ why yours was wrong, then each variation as **one amber "If instead…" line** and the options. Removed: the struck-out/underlined animation, the answer-flip line, the rule box, the deciding-word chips, the "Original question" dropdown.
+- **Replays start instantly.** The next round's new variations are made quietly after you finish a card and are ready next time; no "Fresh variations on the way…" wait and no "Use last time's" button. Smaller AI replies, so the first remix is quicker too.
+- 🧩 **Compare all five + the rule** is tucked into one closed line at the end; open it only if you want it.
+- 📷 is a single button on the check screen; 🚩 is a small icon.
+- Kept: spaced ▶ Due today, exact ILO link, image paste, 🧠 Careful, misses by system, Weak spots.
+
 ## 0.9.0-beta (2026-10-24)
 
 Remix v0.9 (medengine-STUDY; OSCE unchanged). Saved progress and v0.8 remix cards carry over.
