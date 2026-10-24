@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.9.0-beta (2026-10-24)
+
+Remix v0.9 (medengine-STUDY; OSCE unchanged). Saved progress and v0.8 remix cards carry over.
+- 🔁 **Fresh variations on every replay** (the AI is told which changes it has already used), on a spaced schedule: tomorrow → 3 days → a week → 3 weeks → 2 months, back to tomorrow after a miss. **▶ Due today** in the vault, on the paste screen and in Weak spots. The next card's variations are made while you answer the current one; "Use last time's" if the AI is slow.
+- 🎬 **Spot the change**: the case line shows the old words struck out and the new words underlined (0.4 s, then still; off with reduced motion), and the answer flips (old → new) once you answer.
+- 🧩 **All five, side by side** at the end of each card: one line per option ("it would be right if…"), from the AI or, offline, from Passmedicine's own per-option explanation.
+- 🔑 **The rule** from Passmedicine's key-concept box, and 🔍 **deciding words** in yellow (chips plus the original stem, highlighted).
+- 📷 **Image paste**: screenshot the ECG/X-ray/rash and ⌘V on the check screen (or before the text). Sent to the AI where it can take images (`sample: {images: true}` in the artifact; image blocks with your own key), stored on the device outside the Screenshot vault, tap to zoom.
+- 🎯 Exact ILO link from Passmedicine's **Condition** tag; Weak spots shows Remix misses by condition; the vault shows **misses by system** as filters.
+- 🚩 **Looks wrong** drops a variation for good; 🧠 **Careful** uses the stronger model (slower).
+- Reader: warns when a question was pasted before submitting, ignores cross-out × marks unless exactly one option has one, strips "Deep dive", score and question-list lines.
+- Tests: `study/test_study_v9.py` (pastes in Passmed layout written in our own words); v0.6–v0.8 suites still pass.
+
 ## 0.8.2-beta (2026-10-23)
 
 - Remix: you're never stuck finishing a card or a replay. **📋 New question / ⏹ Stop replay** sits on every card, **Esc** goes straight back to the paste box (cursor ready), and pasting a new question mid-card or mid-replay starts it at once.

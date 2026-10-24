@@ -40,12 +40,33 @@
     return undefined;
   }
 
+  var IMG_TYPES = ['image/jpeg', 'image/png', 'image/gif', 'image/webp'], IMG_MAX = 5 * 1024 * 1024;
+  async function b64(blob) {
+    var buf = new Uint8Array(await blob.arrayBuffer()), s = '';
+    for (var i = 0; i < buf.length; i += 0x8000) s += String.fromCharCode.apply(null, buf.subarray(i, i + 0x8000));
+    return btoa(s);
+  }
+
   async function sample(input, opts) {
     opts = opts || {};
     var key = get(KEY);
     if (!key) throw { code: 'sign_in_required', message: 'Add your AI key first' };
     var messages = toMessages(input);
     if (!messages.length) throw { code: 'invalid_request', message: 'Empty prompt' };
+    // images (a question's ECG or X-ray) go with the last user turn, as the API's image blocks
+    var imgs = !opts.images ? [] : (typeof Blob !== 'undefined' && opts.images instanceof Blob) ? [opts.images] : Array.prototype.slice.call(opts.images);
+    if (imgs.length) {
+      if (imgs.length > 5) throw { code: 'image_rejected', message: 'Too many images' };
+      var blocks = [];
+      for (var ii = 0; ii < imgs.length; ii++) {
+        var im = imgs[ii];
+        if (IMG_TYPES.indexOf(im.type) < 0 || im.size > IMG_MAX) throw { code: 'image_rejected', message: 'Use a JPEG, PNG, GIF or WebP image under 5 MB' };
+        blocks.push({ type: 'image', source: { type: 'base64', media_type: im.type, data: await b64(im) } });
+      }
+      var last = messages[messages.length - 1];
+      blocks.push({ type: 'text', text: last.content });
+      last.content = blocks;
+    }
     var tier = MAX_TOKENS[opts.modelTier] ? opts.modelTier : 'default';
     var stream = typeof opts.onText === 'function';
     // Newer models think by default and thinking counts toward max_tokens, so a small budget can end
@@ -131,7 +152,7 @@
     if (v === undefined) throw { code: 'invalid_json', message: 'Could not read the reply', text: r.text };
     return v;
   };
-  sample.limits = async function () { return { maxPromptBytes: 262144 }; };
+  sample.limits = async function () { return { maxPromptBytes: 262144, images: { maxCount: 5, maxInputBytes: IMG_MAX, mediaTypes: IMG_TYPES.slice() } }; };
 
   window.claude = { use: async function (name) { return name === 'sample' ? sample : null; } };
 

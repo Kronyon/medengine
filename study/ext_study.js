@@ -45,7 +45,7 @@ function lsShots(){ try { return JSON.parse(localStorage.getItem(SHOT_LS) || '[]
 async function shotsAll(){
   if (shotsCache) return shotsCache;
   const db = await shotIdb();
-  if (db) { try { shotsCache = await new Promise((res, rej) => { const r = db.transaction('shots').objectStore('shots').getAll(); r.onsuccess = () => res(r.result || []); r.onerror = () => rej(r.error); }); return shotsCache; } catch (e) {} }
+  if (db) { try { shotsCache = await new Promise((res, rej) => { const r = db.transaction('shots').objectStore('shots').getAll(); r.onsuccess = () => res((r.result || []).filter(x => !x.rmx)); r.onerror = () => rej(r.error); }); return shotsCache; } catch (e) {} }
   shotsCache = lsShots(); return shotsCache;
 }
 async function shotPut(s){
