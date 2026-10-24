@@ -63,12 +63,12 @@ YouTube
 Comments
 4 comments
 """
-AI_JSON = {"film": "45F, 3 days constant RUQ pain, fever, raised WCC, positive Murphy's",
-           "right": "Over 6 hours with fever and inflammation means cholecystitis",
-           "wrong": "Colic is under 6 hours with no fever or raised WCC",
-           "flip": {"change": "Pain settled within 4 hours, afebrile, normal WCC", "answer": 1, "why": "Short pain without inflammation is biliary colic"},
-           "twist": {"change": "She is 28 weeks pregnant", "options": ["Ultrasound abdomen", "CT abdomen with contrast", "HIDA scan first", "Plain abdominal X-ray"], "answer": 1, "why": "Ultrasound is first-line and safe in pregnancy"},
-           "time": {"speed": "gradual", "change": "6 weeks of painless jaundice and a palpable gallbladder", "options": ["Pancreatic head cancer", "Acute cholecystitis", "Biliary colic", "Hepatitis A"], "answer": 1, "why": "Courvoisier: painless jaundice and palpable gallbladder"}}
+AI_JSON = {"film": "45F, 3 days constant RUQ pain, fever, raised WCC, positive Murphy's", "clue": "3 days",
+           "rows": [{"if": "pain settled within 4 hours, afebrile", "hook": "a cramp that passes"},
+                    {"if": "over 6 hours with fever and Murphy's", "hook": "inflamed bag stops the breath"},
+                    {"if": "jaundice, fever and rigors", "hook": "yellow, hot and shaking"},
+                    {"if": "epigastric pain through to the back", "hook": "pain boring into the back"},
+                    {"if": "", "hook": "no colic pattern at all"}]}
 # a real Passmedicine page copy (kept outside the repo): pass its path in MEDENGINE_REAL_PASTE to test against it
 import os
 REAL = pathlib.Path(os.environ.get('MEDENGINE_REAL_PASTE', '/nonexistent'))
@@ -93,7 +93,7 @@ def run(width, mock=True):
         def hashgo(h, wait=400):
             pg.evaluate(f"location.hash = '{h}'"); pg.wait_for_timeout(wait)
 
-        if not re.search(r'v0\.[89]\.\d', pg.text_content('#homeBtn')): errs.append('version not 0.8+')
+        if not re.search(r'v0\.([89]|1\d)\.\d', pg.text_content('#homeBtn')): errs.append('version not 0.8+')
         if not pg.locator('#main [data-go="remix"]').count(): errs.append('home: no Remix button')
 
         # ---- parser + matching (pure functions) ----
@@ -166,15 +166,13 @@ def run(width, mock=True):
         if not card or card['src'] != 'ai': errs.append('AI card not built')
         else:
             ks = [x['k'] for x in card['c']['beats']]
-            if ks != ['flip', 'twist', 'time']: errs.append(f'AI beats: {ks}')
-            if card['c']['beats'][0]['ans'] != 0: errs.append('flip answer index wrong')
-            tw = card['c']['beats'][1]
-            if tw['opts'][tw['ans']] != 'Ultrasound abdomen': errs.append('twist answer lost in shuffle')
-            tm = card['c']['beats'][2]
-            if tm['opts'][tm['ans']] != 'Pancreatic head cancer': errs.append('time answer lost in shuffle')
+            if ks != ['if', 'if', 'if']: errs.append(f'AI beats: {ks}')
+            if card['c']['beats'][0]['ans'] != 0: errs.append('first round should be the option you picked')
+            if sorted(x['ans'] for x in card['c']['beats']) != [0, 2, 3]: errs.append('rounds should be the wrong options that have a clue')
+            if any(x['opts'] != a['opts'] for x in card['c']['beats']): errs.append('rounds must keep the options in place')
             t = pg.text_content('#rmx')
             if '45F, 3 days constant RUQ pain' not in t: errs.append('film line missing')
-            if 'If instead:' not in t or 'Pain settled within 4 hours' not in t: errs.append('flip change not shown')
+            if 'If instead:' not in t or 'pain settled within 4 hours' not in t: errs.append('round change not shown')
             for k in ('1', 'Enter', '2', 'Enter', '3', 'Enter'): pg.keyboard.press(k); pg.wait_for_timeout(70)
             if pg.evaluate('__me8.rmx.card.res.length') != 3 or pg.evaluate('__me8.rmx.card.res[0]') is not True: errs.append('AI card answers not recorded')
             ov('remix AI card')

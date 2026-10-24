@@ -67,14 +67,17 @@ Lumbar puncture ×
 Submit answer
 """
 AI = {"film": "52F, sudden right loin pain to groin, afebrile, 6 mm distal ureteric stone",
-      "trigger": ["6 mm stone in the distal ureter", "afebrile"],
-      "right": "Small distal stone, no infection: expect it to pass", "wrong": "Under 5 mm only; this stone is 6 mm",
-      "flip": {"change": "Fever and rigors with the stone: an infected obstructed kidney", "answer": 2, "why": "Infected obstruction needs urgent decompression"},
-      "twist": {"change": "She is 30 weeks pregnant", "options": ["Ultrasound and analgesia", "CT with contrast", "Alpha blocker alone", "Shockwave lithotripsy"], "answer": 1, "why": "Avoid radiation and shockwave in pregnancy"},
-      "time": {"speed": "gradual", "change": "Months of dull ache instead of sudden colic", "options": ["Staghorn calculus", "Ureteric colic", "Pyelonephritis", "Appendicitis"], "answer": 1, "why": "A slow, dull ache suggests a large renal stone"}}
-FRESH = {"flip": {"change": "A 25 mm stone in the renal pelvis", "answer": 4, "why": "Large renal stones need PCNL"},
-         "twist": {"change": "eGFR is 25", "options": ["Avoid NSAIDs, use paracetamol", "Diclofenac 75 mg", "Ibuprofen 400 mg", "No analgesia"], "answer": 1, "why": "NSAIDs harm kidneys with low eGFR"},
-         "time": {"speed": "sudden", "change": "Pain started 2 hours ago", "options": ["Ureteric colic", "Renal cell cancer", "Staghorn calculus", "Polycystic kidneys"], "answer": 1, "why": "Sudden colic is a moving stone"}}
+      "clue": "6 mm stone in the distal ureter", "code": "Pass, push, drain or remove: size vs infection",
+      "rows": [{"if": "a stone under 5 mm", "hook": "a grain of sand slips through", "how": "**tiny stone** → ureter wide enough → **passes alone**"},
+               {"if": "fever and rigors with the stone", "hook": "pus behind a dam: drain it", "how": "blocked ureter → infected urine trapped → sepsis → drain above"},
+               {"if": "6 mm distal stone, no infection", "hook": "small and low: help it out"},
+               {"if": "a 25 mm stone in the kidney", "hook": "a boulder needs a tunnel"},
+               {"if": "", "hook": "open surgery is a last resort"}]}
+FRESH = {"rows": [{"if": "a 3 mm stone", "hook": "it falls out by itself"},
+                  {"if": "temperature 39°C and a raised CRP", "hook": "hot, blocked kidney"},
+                  {"if": "6 mm distal stone, no infection", "hook": "small and low: help it out"},
+                  {"if": "a staghorn stone filling the kidney", "hook": "antlers in the kidney"},
+                  {"if": "", "hook": "open surgery is a last resort"}]}
 PASTE = """(t) => { const dt = new DataTransfer(); dt.setData('text/plain', t); document.body.dispatchEvent(new ClipboardEvent('paste', {clipboardData: dt, bubbles: true, cancelable: true})); }"""
 PASTE_IMG = """async () => { const c = document.createElement('canvas'); c.width = 400; c.height = 160; const x = c.getContext('2d'); x.fillStyle = '#fff'; x.fillRect(0, 0, 400, 160); x.strokeStyle = '#000'; x.beginPath(); for (let i = 0; i < 400; i += 4) x.lineTo(i, 80 + (i % 40 === 0 ? -50 : 0)); x.stroke();
   const blob = await new Promise(r => c.toBlob(r, 'image/png')); const dt = new DataTransfer(); dt.items.add(new File([blob], 'ecg.png', {type: 'image/png'}));
@@ -112,7 +115,7 @@ def run(width, mock=True):
                 pg.keyboard.press(str(a + 1 if right else (a + 1) % 4 + 1)); pg.wait_for_timeout(60)
                 pg.keyboard.press('Enter'); pg.wait_for_timeout(60)
 
-        if 'v0.9.1' not in pg.text_content('#homeBtn'): errs.append('version not 0.9.1')
+        if 'v0.10.0' not in pg.text_content('#homeBtn'): errs.append('version not 0.10.0')
 
         # ---- parser: Passmed layout ----
         q = ev('t => __me8.rmxParse(t)', STONE)
@@ -126,12 +129,18 @@ def run(width, mock=True):
         if 'Score' in q['expl'] or '8-10' in q['expl'] or 'Deep dive' in q['expl']: errs.append('page furniture left in the explanation')
         ui = ev('n => __me8.rmxCondUnit(n)', q['cond'])
         if ev('i => i >= 0 ? document.title && __UN(i) : ""'.replace('__UN(i)', "i"), ui) is None or ui < 0: errs.append('condition tag did not map to an ILO')
-        if ev('t => __me8.rmxOptLine(__me8.rmxParse(t), 2)', STONE) != 'small distal stones usually pass and the alpha blocker relaxes the ureter.': errs.append('offline grid line for the right answer')
+        if ev('t => __me8.rmxOptLine(__me8.rmxParse(t), 2)', STONE) != 'small distal stones usually pass and the alpha blocker relaxes the ureter': errs.append('offline line for the right answer')
+        L = ev('t => __me8.rmxLocal(__me8.rmxParse(t))', STONE)
+        want = [('if', 'a stone under 5 mm'), ('if', 'an obstructed, infected kidney'), ('if', 'small distal stones usually pass and the alpha blocker relaxes the ureter'), ('if', 'large renal stones over 20 mm'), ('why', 'rarely used now')]
+        got = [(k, r.get(k, '')) for (k, _), r in zip(want, L['rows'])]
+        if got != want: errs.append(f'offline rows: {got}')
+        if [x['k'] for x in L['beats']] != ['if'] * 3 or sorted(x['ans'] for x in L['beats']) != [0, 1, 3]: errs.append(f"offline rounds should be Passmed's lines: {[(x['k'], x['ans']) for x in L['beats']]}")
+        if any(x['opts'] != q['opts'] for x in L['beats']): errs.append('rounds must keep the same five options in the same order')
         un = ev('t => __me8.rmxParse(t)', UNANSWERED)
         if not un['early'] or un['correct'] != -1 or un['picked'] != -1 or len(un['opts']) != 5 or un['opts'][0] != 'CT head': errs.append(f"unanswered paste: early={un['early']} correct={un['correct']} picked={un['picked']} opts={un['opts']}")
         if REAL.exists():
             rq = ev('t => __me8.rmxParse(t)', REAL.read_text(encoding='utf-8'))
-            if not rq['concept'] or 'Important' in rq['concept'] or not rq['cond'] or ev('n => __me8.rmxCondUnit(n)', rq['cond']) < 0 or len([x for x in rq['optx'] if x]) < 4: errs.append(f"real paste v0.9 fields: concept={rq['concept'][:40]} cond={rq['cond']} optx={len([x for x in rq['optx'] if x])}")
+            if not rq['concept'] or 'Important' in rq['concept'] or not rq['cond'] or ev('n => __me8.rmxCondUnit(n)', rq['cond']) < 0 or len([x for x in rq['optx'] if x]) < 4 or len(ev('t => __me8.rmxLocal(__me8.rmxParse(t)).beats.filter(b => b.k === "if")', REAL.read_text(encoding='utf-8'))) < 2: errs.append(f"real paste v0.9 fields: concept={rq['concept'][:40]} cond={rq['cond']} optx={len([x for x in rq['optx'] if x])}")
         # helpers
         if ev("__me8.rmxMark('A 6 mm stone here', ['6 mm stone'])") != 'A <mark class="rmx-mk">6 mm stone</mark> here': errs.append('rmxMark')
         if ev("__me8.rmxAddDays('2026-12-31', 1)") != '2027-01-01': errs.append('day maths')
@@ -157,38 +166,48 @@ def run(width, mock=True):
         # ① stays short: film with the deciding words marked, ✅, ❌, ILO chip; no rule box, chips or original question
         if pg.locator('#rmx .rmx-case .rmx-rule, #rmx .rmx-trig, #rmx .rmx-orig, #rmx details').count(): errs.append('① has extra boxes again')
         if pg.locator('#rmx .rmx-case mark.rmx-mk').count() < 1: errs.append('deciding words not highlighted in the film')
-        if pg.locator('#rmx .rmx-case .kl').count() != 2: errs.append('① should have one ✅ and one ❌ line')
+        if pg.locator('#rmx .rmx-case .rmx-gr').count() != 2: errs.append('① should have one ✅ and one ❌ line')
+        elif 'a stone under 5 mm' not in pg.text_content('#rmx .rmx-case .rmx-gr.me') or '6 mm distal stone' not in pg.text_content('#rmx .rmx-case .rmx-gr.ok'): errs.append('① lines should be the same-axis rows')
+        if 'If you choose' in call['p'] or 'pregnant' in call['p'].split('Rules:')[0][-400:]: errs.append('prompt drifted')
+        if '"rows"' not in call['p'] or 'same patient' not in call['p'].lower(): errs.append('prompt does not ask for one row per option')
         if not c['unit'] >= 0 or ev('i => __me8.rmxCondUnit(["Urinary tract calculi"]) === i', c['unit']) is not True: errs.append('card not linked to Urinary tract calculi')
         pg.wait_for_timeout(300)
         if not pg.locator('#rmx .rmx-thumb.sm img').count(): errs.append('card image thumbnail not shown')
         # ② one amber line, nothing moving
         chg = pg.text_content('#rmx .rmx-chg')
-        if not chg.startswith('If instead:') or 'Fever and rigors' not in chg: errs.append('change line: ' + chg)
+        if not chg.startswith('If instead:') or 'a stone under 5 mm' not in chg: errs.append('round 1 should be the option you picked: ' + chg)
+        if ev('__me8.rmx.card.c.beats.map(b => b.opts.join("|"))') != ['|'.join(q['opts'])] * 3: errs.append('rounds must keep the same five options in the same order')
         if pg.locator('#rmx del, #rmx ins, #rmx .rmx-old, #rmx .rmx-new, #rmx .rmx-flipans, #rmx .rmx-film').count(): errs.append('diff or flip markup still on the card')
         if ev("[...document.querySelectorAll('#rmx *')].some(e => getComputedStyle(e).animationName !== 'none')"): errs.append('something on the card is animated')
         if pg.text_content('#rmx [data-rmxflag]').strip() != '🚩': errs.append('flag should be a lone icon')
-        pg.keyboard.press('2'); pg.wait_for_timeout(80)
+        pg.keyboard.press('1'); pg.wait_for_timeout(80)
         if pg.locator('#rmx .opts + .kl').count() != 1: errs.append('one why line after answering')
+        elif 'a grain of sand' not in pg.text_content('#rmx .opts + .kl'): errs.append('hook not shown after answering')
+        elif '🧬 tiny stone → ureter wide enough → passes alone' not in pg.text_content('#rmx .opts + .kl .rmx-how') or not pg.locator('#rmx .opts + .kl .rmx-how b').count(): errs.append('mechanism chain not shown after answering')
+        if pg.locator('#rmx .rmx-case .rmx-how').count(): errs.append('① should stay lean: no mechanism lines')
+        if 'how' not in call['p'] or '"code"' not in call['p']: errs.append('prompt does not ask for the mechanism')
         pg.keyboard.press('Enter'); pg.wait_for_timeout(80)
         # ③ flag it
         pg.click('#rmx [data-rmxflag]'); pg.wait_for_timeout(100)
-        if ev('__me8.rmx.i') != 2 or ev('__me8.rmx.card.res[1]') is not None or not ev('__me8.rmx.card.c.beats[1].flag'): errs.append('flag did not drop the variation')
+        if ev('__me8.rmx.i') != 2 or ev('__me8.rmx.card.res[1]') is not None or not ev('__me8.rmx.card.c.beats[1].flag') or ev('__me8.rmx.card.c.rows[__me8.rmx.card.c.beats[1].ans].if'): errs.append('flag did not drop the variation')
         # ④ timeline, then the end
         a = ev('__me8.rmx.card.c.beats[2].ans'); pg.keyboard.press(str(a + 1)); pg.wait_for_timeout(80); pg.keyboard.press('Enter'); pg.wait_for_timeout(120)
         t = pg.text_content('#rmx')
-        if pg.locator('#rmx details.rmx-more').count() != 1 or ev("document.querySelector('#rmx details.rmx-more').open"): errs.append('"Compare all five" should be there and closed')
-        elif 'Compare all five + the rule' not in pg.text_content('#rmx details.rmx-more summary'): errs.append('compare summary text')
-        else:
-            pg.click('#rmx details.rmx-more summary'); pg.wait_for_timeout(80)
-            if pg.locator('#rmx .rmx-gr').count() != 5 or pg.locator('#rmx .rmx-gr.ok').count() != 1 or pg.locator('#rmx .rmx-gr.me').count() != 1: errs.append('5-option grid wrong')
-            if 'Stones under 10 mm' not in pg.text_content('#rmx .rmx-more .rmx-rule'): errs.append('rule should come from Passmed\'s key concept')
+        if pg.locator('#rmx details:not(.whyc)').count(): errs.append('the lineup should be open, not in a dropdown')
+        if pg.locator('#rmx .rmx-lineup .rmx-gr').count() != 5 or pg.locator('#rmx .rmx-lineup .rmx-gr.ok').count() != 1 or pg.locator('#rmx .rmx-lineup .rmx-gr.me').count() != 1: errs.append('lineup should be 5 rows')
+        if 'size vs infection' not in pg.text_content('#rmx .rmx-lineup .rmx-code'): errs.append('the A vs B title should head the lineup')
+        if not pg.locator('#rmx .rmx-lineup details.whyc').count() or 'Kidney stones' not in pg.text_content('#rmx .rmx-lineup details.whyc summary'): errs.append('matching Pathoma card missing from the lineup')
+        elif ev("document.querySelector('#rmx .rmx-lineup details.whyc').open"): errs.append('Pathoma card should start closed')
+        if pg.locator('#rmx .rmx-lineup .rmx-how').count() != ev('__me8.rmx.card.c.rows.filter(r => r.how).length') or not pg.locator('#rmx .rmx-lineup .rmx-how').count(): errs.append('lineup should show each row\'s mechanism chain')
+        lw = [len(x.split()) for x in ev("[...document.querySelectorAll('#rmx .rmx-lineup .rmx-gr')].map(e => { const c = e.cloneNode(true); c.querySelectorAll('.rmx-how').forEach(x => x.remove()); return c.textContent; })")]
+        if max(lw) > 22: errs.append(f'lineup rows too wordy: {lw}')
         if 'back tomorrow' not in t: errs.append('end screen should say back tomorrow')
         if ev('__me8.rmx.card.due') != ev("__me8.rmxAddDays(__me8.rmxDay(), 1)") or ev('__me8.rmx.card.n') != 1: errs.append('first play should be due tomorrow')
         pg.wait_for_timeout(200)
         bg = ev('window.__calls[window.__calls.length - 1]')
         if ev('window.__calls.length') != 2 or not bg['fresh']: errs.append('next round was not made in the background after finishing')
-        elif 'Fever and rigors with the stone' not in bg['p']: errs.append('background round has no avoid list')
-        if not ev('(__me8.rmx.card.next || []).length >= 2'): errs.append('background variations not saved on the card')
+        elif 'a stone under 5 mm' not in bg['p'] or 'ALREADY USED' not in bg['p']: errs.append('background round has no avoid list')
+        if not ev('((__me8.rmx.card.next || {}).beats || []).length >= 2'): errs.append('background variations not saved on the card')
         ov('AI card end')
         # image stored outside the Screenshot vault
         cid = ev('__me8.rmx.card.id')
@@ -209,7 +228,7 @@ def run(width, mock=True):
         pg.click('[data-rmxdue]'); pg.wait_for_timeout(120)
         if ev('__me8.rmx.step') != 'card' or not pg.locator('#rmx .rmx-chg').count(): errs.append('replay did not start instantly')
         if ev('window.__calls.length'): errs.append('replay waited on an AI call')
-        if 'A 25 mm stone in the renal pelvis' not in pg.text_content('#rmx'): errs.append('replay did not use the variations made in the background')
+        if 'a 3 mm stone' not in pg.text_content('#rmx'): errs.append('replay did not use the variations made in the background')
         if ev('!!__me8.rmx.card.next'): errs.append('used variations should be cleared')
         ev(SET_AI, [AI, FRESH, True, 0])
         if ev('__me8.rmx.card.c.beats.some(b => b.flag)'): errs.append('flagged variation came back')
@@ -283,7 +302,7 @@ if __name__ == '__main__':
     bad = 0
     for w in (1280, 820, 390):
         e = run(w); bad += len(e)
-        print(f'{w}px STUDY v0.9.1 errors: {len(e)}'); [print('  -', x) for x in e]
+        print(f'{w}px STUDY v0.10 errors: {len(e)}'); [print('  -', x) for x in e]
     e = run(1280, mock=False); bad += len(e)
-    print(f'no-runtime STUDY v0.9.1 errors: {len(e)}'); [print('  -', x) for x in e]
+    print(f'no-runtime STUDY v0.10 errors: {len(e)}'); [print('  -', x) for x in e]
     sys.exit(1 if bad else 0)

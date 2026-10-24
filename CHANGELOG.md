@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.10.0-beta (2026-10-24)
+
+Remix rebuilt around one idea: **same patient, five endings**. Saved cards carry over (older AI cards switch to the new format after their next review).
+- Every round is the **same case with the same five options in the same places**; one clue changes and you watch which option wins. The option you picked comes first. No more pregnancy twists or whole new cases.
+- For each option, the AI gives one line on one shared axis: **option ← the clue that picks it 🔗 a picture hook**, plus a **🧬 Pathoma-style "why"** (cause → what physically happens: the finding), with the key words in bold.
+- The end of each card is the **🧬 Why it happens** lineup: an "A vs B: X vs Y" title, the five rows, and the matching Pathoma card from your library (closed until you tap it).
+- Offline: Passmedicine's own per-option lines are trimmed to the clue ("is for an obstructed, infected kidney" → *an obstructed, infected kidney*) and become the rounds and the lineup; your ILO clinchers are the fallback.
+- Only a whole option name is hidden in a clue, so clues stay readable.
+
 ## 0.9.1-beta (2026-10-24)
 
 Remix made simple again: v0.8's calm card with v0.9's useful parts kept underneath. Saved cards carry over.

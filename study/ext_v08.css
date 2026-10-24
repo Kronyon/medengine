@@ -30,9 +30,15 @@
 .rmx-bl{display:flex;align-items:center;gap:8px}
 .rmx-flag{margin-left:auto;opacity:.45;font-size:.85rem}
 .rmx-flag:hover,.rmx-flag:focus-visible{opacity:1}
-.rmx-more{margin-top:8px}
-.rmx-more>summary{cursor:pointer;font-size:.86rem;font-weight:700;color:var(--muted)}
-.rmx-more[open]>summary{margin-bottom:6px}
+.rmx-lineup{margin-top:10px;display:flex;flex-direction:column;gap:6px}
+.rmx-arw{color:var(--mev-amber);font-weight:800}
+.rmx-hook{color:var(--muted);font-size:.86rem}
+.rmx-why{color:var(--muted)}
+.rmx-how{display:block;margin-top:3px;font-size:.9rem;line-height:1.45;color:var(--ink)}
+.rmx-code{font-weight:800;font-size:1rem;padding:8px 10px;border-radius:10px;border:2px solid var(--accent);background:var(--surface)}
+.rmx-lineup .whyc{margin:2px 0 0}
+.rmx-case .rmx-gr{border:0;background:none;padding:2px 0}
+.rmx-case .rmx-gr .k{min-width:1.2em}
 .rmx-rule{padding:6px 10px;border-radius:9px;background:var(--surface-2);border-left:3px solid var(--mev-amber);font-size:.92rem;line-height:1.45}
 .rmx-grid{display:flex;flex-direction:column;gap:5px;margin-top:6px}
 .rmx-gr{display:flex;gap:8px;align-items:flex-start;padding:6px 9px;border:1px solid var(--line);border-radius:9px;font-size:.9rem;line-height:1.4;background:var(--surface)}

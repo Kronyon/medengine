@@ -108,7 +108,7 @@ rep('<header class="top">', '<style>\n' + mev_css + ext_css + '</style>\n<header
 rep('<script id="qqdata" type="application/json">', '<script>\n' + mev_js + '</script>\n<script id="qqdata" type="application/json">')
 
 # ---------- version ----------
-rep('<small>v0.5.0 beta</small>', '<small>v0.9.1 beta</small>')
+rep('<small>v0.5.0 beta</small>', '<small>v0.10.0 beta</small>')
 rep('const fmtRich = t => fmtPlain(t)', 'const fmtRich = t => dualHtml(t) || fmtRich0(t);\nconst fmtRich0 = t => fmtPlain(t)')
 
 # ---------- script hooks ----------
@@ -137,7 +137,7 @@ rep("/* ---------- events ---------- */", ext_js + "\n/* ---------- events -----
 help_rows = ('<tr><td>👁️</td><td>Clinical Atlas Lookup on every condition: DermNet, LITFL, Radiopaedia, Radiology Masterclass and Google Images open in a new tab. 🥊 chips open the visual showdowns (drawn ECGs, X-rays, fundi, eardrums).</td></tr>'
              '<tr><td>📋</td><td>Paste exam image: on any condition press Ctrl+V / ⌘V (iPad and phone: long-press the paste box → Paste, or 📷 Choose image) to file a question image that tricked you. The vault reviews them with your note hidden.</td></tr>'
              '<tr><td>🎯</td><td>Blind clincher sniper: a clincher with the disease blacked out. <span class="kbd">1</span>–<span class="kbd">4</span> name it and pick the first move, <span class="kbd">Space</span> reveals the trap, <span class="kbd">M</span> mutates (same presentation, one feature changed).</td></tr>'
-             '<tr><td>🔄</td><td>Remix: answer the question on Passmedicine, copy the page (⌘A, ⌘C), open 🔄 Remix and press ⌘V. Check ✅ and ✋ (📷 adds an image), then answer the same question three ways with one thing changed (<span class="kbd">1</span>–<span class="kbd">5</span>, <span class="kbd">Enter</span>, <span class="kbd">Esc</span> to leave). Cards come back tomorrow, then in 3 days, a week and so on, with new variations ready each time (▶ Due today). 🚩 drops one that looks wrong; 🧠 Careful is slower and more accurate.</td></tr>'
+             '<tr><td>🔄</td><td>Remix: answer the question on Passmedicine, copy the page (⌘A, ⌘C), open 🔄 Remix and press ⌘V. Check ✅ and ✋ (📷 adds an image), then the same patient with one clue changed each round: watch which option wins (<span class="kbd">1</span>–<span class="kbd">5</span>, <span class="kbd">Enter</span>, <span class="kbd">Esc</span> to leave). The end lines up all five: answer ← the clue that picks it. Cards come back tomorrow, then in 3 days, a week and so on, with new variations ready each time (▶ Due today). 🚩 drops one that looks wrong; 🧠 Careful is slower and more accurate.</td></tr>'
              '<tr><td>⚡〰️🌊📈</td><td>Speed tags: how fast a condition arrives (sudden, comes and goes, fluctuates, gradual). Filter by speed under 🗂 Browse on the home screen.</td></tr>'
              '<tr><td>🎬🟰🏷️</td><td>Clinchers that hinge on an exam name read as: 🎬 what you see 🟰 🏷️ the exam name (with a 🔗 memory hook) → 🎯 the diagnosis. The sniper hides the 🎯 part until you answer.</td></tr>'
              '<tr><td>🔺</td><td>Jargon decoder: exam names that don\'t describe what they are (Δ wave, Wenckebach, Kussmaul, Rinne…). Chips on each condition open them. In the sniper: ① picture → name, ② name → picture, ③ what do you do, or 🔺 all three. <span class="kbd">Space</span> reveal, <span class="kbd">1</span>/<span class="kbd">2</span> mark, <span class="kbd">Enter</span> next.</td></tr>'

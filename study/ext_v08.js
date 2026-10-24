@@ -169,99 +169,118 @@ function rmxLocalTrig(q){
   st.split(/[\s,.;:()]+/).forEach(w => { const n = rmxNorm(w); if (n.length >= 6 && refW.includes(n.slice(0, 6)) && !out.some(o => o.toLowerCase() === w.toLowerCase())) out.push(w); });
   return out.slice(0, 4);
 }
-// offline grid line: Passmed's own sentence for that option
-function rmxOptLine(q, k){
-  let s = (q.optx && q.optx[k]) || ''; if (!s) return '';
-  s = s.replace(/^(is|are)\s+(the\s+)?correct(\s+answer)?\s*(because|as|since)?[.,:]?\s*/i, '');
-  const m = s.match(/^.*?[.!?](\s|$)/); s = (m ? m[0] : s).trim();
-  const w = s.split(/\s+/); if (w.length > 24) s = w.slice(0, 24).join(' ') + '…';
-  return s;
+/* ----- one patient, five endings: for each option, the one clue in THIS patient that makes it the answer ----- */
+const rmxWords = (s, n) => { const w = String(s || '').trim().split(/\s+/); return w.length > n ? w.slice(0, n).join(' ') + '…' : w.join(' '); };
+const rmxSent = s => String(s || '').match(/[^.!?]+[.!?]?/g) || [];
+const RMX_WHEN = [
+  /^(?:is|are)\s+(?:(?:usually|typically|mainly|mostly|often|only|best|classically)\s+)?(?:(?:used|indicated|reserved|given|preferred|first[- ]line|appropriate|useful|suitable|seen|found|the (?:treatment|management|investigation|test|drug) of choice)\s+)(?:for|in|when|if|with|after)\s+(.+)/i,
+  /^(?:is|are)\s+(?:(?:usually|typically|mainly|mostly|only|best)\s+)?(?:for|if|when)\s+(.+)/i,
+  /^(?:could|would|might|may)\s+(?:be\s+)?(?:reasonable|appropriate|correct|right|considered|the answer|used|indicated|suitable|useful|preferred)\s+(?:for|in|if|when|with)\s+(.+)/i,
+  /^describes\s+(.+)/i
+];
+// offline: Passmed's own line for each option, cut down to the clue that would make it right
+function rmxOptRow(q, k){
+  const raw = ((q.optx && q.optx[k]) || '').replace(/\s+/g, ' ').trim(); if (!raw) return {if: '', why: ''};
+  let S = rmxSent(raw).map(x => x.trim()).filter(Boolean);
+  if (k === q.correct) {
+    S[0] = (S[0] || '').replace(/^(is|are)\s+(the\s+)?correct(\s+answer)?\s*(because|as|since)?[.,:]?\s*/i, '');
+    if (S[0].split(/\s+/).length < 3) S.shift();
+    return {if: rmxWords((S[0] || '').replace(/[.!?]$/, ''), 12), why: ''};
+  }
+  for (const R of RMX_WHEN) { const m = (S[0] || '').match(R); if (m) return {if: rmxWords(m[1].replace(/[.!?]$/, ''), 12), why: ''}; }
+  S[0] = (S[0] || '').replace(/^(is|are)\s+(incorrect|wrong|not correct|a (common )?(misconception|distractor|trap))\b[.,:]?\s*/i, '').replace(/^(is|are)\s+/i, '');
+  if (S[0].split(/\s+/).length < 3) S.shift();
+  return {if: '', why: rmxWords((S[0] || '').replace(/[.!?]$/, ''), 12)};
+}
+function rmxOptLine(q, k){ const r = rmxOptRow(q, k); return r.if || r.why; }
+function rmxRoundOrder(q, rows){ // the option you picked first, then the others; three rounds at most
+  const w = q.opts.map((_, k) => k).filter(k => k !== q.correct && rows[k] && rows[k].if);
+  const rest = shuffle(w.filter(k => k !== q.picked), Math.random);
+  return (w.includes(q.picked) ? [q.picked] : []).concat(rest).slice(0, 3);
+}
+function rmxRounds(q, rows){
+  return rmxRoundOrder(q, rows).map(k => {
+    let txt = rows[k].if; q.opts.forEach(o => { if (o.length >= 4) txt = txt.split(new RegExp(o.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi')).join('▒▒▒'); }); // hide only a whole option name
+    return {k: 'if', change: txt, opts: q.opts.slice(), ans: k, why: rows[k].hook || '', how: rows[k].how || ''};
+  });
 }
 
 /* ----- the AI remix ----- */
-function rmxTarget(q){ const others = q.opts.map((_, k) => k).filter(k => k !== q.correct); return q.picked >= 0 && q.picked !== q.correct && Math.random() < 0.6 ? q.picked : others[Math.floor(Math.random() * others.length)]; }
 function rmxQBlock(q, hasImg){
-  return 'You turn a UK medical-school single-best-answer question that a student got wrong into a fast "change one thing" drill. UK practice only (NICE, BNF, Resus Council UK). Be medically accurate: if a change would be doubtful, choose a simpler textbook one.\n\n'
+  return 'You turn a UK medical-school single-best-answer question that a student got wrong into a "same patient, five endings" drill: for every option, the ONE clue in this same patient that would make that option the answer. UK practice only (NICE, BNF, Resus Council UK). Be medically accurate: if a clue would be doubtful, choose a simpler textbook one.\n\n'
     + (hasImg ? 'The attached image is part of the question: read it.\n\n' : '')
     + 'QUESTION:\n' + q.stem + '\n\nOPTIONS:\n' + q.opts.map((o, i) => (i + 1) + '. ' + o).join('\n') + '\n\nCORRECT: ' + (q.correct + 1) + '. ' + q.opts[q.correct]
     + '\nSTUDENT PICKED: ' + (q.picked >= 0 ? (q.picked + 1) + '. ' + q.opts[q.picked] : 'not given')
     + (q.concept ? '\n\nKEY CONCEPT FROM THE QUESTION BANK: ' + q.concept : '')
     + (q.expl ? '\n\nEXPLANATION FROM THE QUESTION BANK (treat as correct):\n' + q.expl.slice(0, 1500) : '');
 }
-function rmxBeatSpec(target){
-  return '"flip":{"change":"at most 14 words: ONE changed clinical feature that makes option ' + (target + 1) + ' the answer; everything else stays the same","answer":' + (target + 1) + ',"why":"at most 16 words"},'
-    + '"twist":{"change":"at most 12 words: same diagnosis, one change to the patient (pregnant, eGFR under 30, allergy, unstable, first-line failed, on a DOAC...)","options":["4 management or investigation options, at most 8 words each"],"answer":1,"why":"at most 16 words"},'
-    + '"time":{"speed":"sudden|comes and goes|fluctuates|gradual","change":"at most 14 words: same body area, a different time course","options":["4 diagnoses, at most 6 words each"],"answer":1,"why":"at most 16 words"}';
-}
-const RMX_RULES = t => '\nRules: "answer" values are 1-based. In "flip", if option ' + (t + 1) + ' cannot be made right by one change, use another wrong option and give its number (never the original right answer). Twist and time must each have exactly one right option.';
-function rmxPrompt(q, target){
+const rmxRowSpec = q => '"rows":[exactly ' + q.opts.length + ' objects, one per option in the order given: {"if":"at most 9 words: the ONE clue in this same patient that would make this option the answer (for option ' + (q.correct + 1) + ', the clue already in the question that makes it right)","hook":"at most 6 words: a picture or feeling that makes it stick","how":"at most 16 words, Pathoma style: cause → what physically happens: the finding or reason this option fits; wrap the 2 or 3 key words in **double asterisks**"}]';
+const RMX_RULES = '\nRules: same patient, same question, same options. Each "if" changes ONE clue only, and keep the five on the same theme where you can (size, site, timing, one sign, one result) so they read like a lineup. No pregnancy, allergy or kidney-function twists unless the question is about them. If nothing in this patient could make an option right, set its "if" to "" and make its "hook" the reason it never wins. Plain words, no brackets.';
+function rmxPrompt(q){
   return rmxQBlock(q, q.hasImg)
-    + '\n\nReply with ONLY this JSON, every value one short line in plain words, no paragraphs:\n'
-    + '{"film":"the case in at most 18 words: age/sex + main problem + the clue that decides it",'
-    + '"trigger":["1 to 3 phrases of at most 5 words, copied word for word from QUESTION, that decide the answer"],'
-    + '"right":"at most 14 words: why ' + (q.correct + 1) + ' is right",'
-    + '"wrong":"at most 14 words: why ' + (q.picked >= 0 ? (q.picked + 1) : 'the strongest wrong option') + ' is wrong",'
-    + rmxBeatSpec(target) + '}' + RMX_RULES(target);
+    + '\n\nReply with ONLY this JSON:\n{"film":"the case in at most 18 words: age/sex + main problem + the clue that decides it, using the clue\'s exact words",'
+    + '"clue":"at most 5 words copied word for word from QUESTION: the clue that decides it",'
+    + '"code":"at most 10 words: a title naming the ONE axis that separates the options, in the form \'A vs B: X vs Y\' (for example \'Extradural vs subdural: artery vs bridging vein\')",'
+    + rmxRowSpec(q) + '}' + RMX_RULES;
 }
-function rmxFreshPrompt(C, target, avoid){
+function rmxFreshPrompt(C, avoid){
   return rmxQBlock(C.q, C.hasImg)
-    + '\n\nREVIEW ROUND: make new variations.' + (avoid.length ? ' ALREADY USED, change something different:\n- ' + avoid.join('\n- ') : '')
-    + '\n\nReply with ONLY this JSON, every value one short line in plain words:\n{' + rmxBeatSpec(target) + '}' + RMX_RULES(target);
+    + '\n\nREVIEW ROUND: new clues for the wrong options (keep option ' + (C.q.correct + 1) + '\'s row as it is).' + (avoid.length ? ' ALREADY USED, pick different clues:\n- ' + avoid.join('\n- ') : '')
+    + '\n\nReply with ONLY this JSON:\n{' + rmxRowSpec(C.q) + '}' + RMX_RULES;
 }
-function rmxShuffle4(b){ const idx = shuffle([0, 1, 2, 3], Math.random); return {opts: idx.map(i => b.options[i]), ans: idx.indexOf(b.answer)}; }
-const rmxS1 = v => String(v == null ? '' : v).replace(/\s+/g, ' ').trim().slice(0, 220);
-function rmxBeatsFromAi(q, j){
-  const beats = [];
-  if (j && j.flip && j.flip.change) { const a = (+j.flip.answer || 0) - 1; if (a >= 0 && a < q.opts.length && a !== q.correct) beats.push({k: 'flip', change: rmxS1(j.flip.change), opts: q.opts.slice(), ans: a, why: rmxS1(j.flip.why)}); }
-  ['twist', 'time'].forEach(k => {
-    const b = j && j[k]; if (!b || !b.change || !Array.isArray(b.options) || b.options.length !== 4) return;
-    const a = (+b.answer || 0) - 1; if (a < 0 || a > 3) return;
-    const sh = rmxShuffle4({options: b.options.map(rmxS1), answer: a});
-    beats.push({k, change: rmxS1(b.change), spd: k === 'time' ? rmxS1(b.speed) : '', opts: sh.opts, ans: sh.ans, why: rmxS1(b.why)});
-  });
+const rmxS1 = v => String(v == null ? '' : v).replace(/\s+/g, ' ').trim().slice(0, 160);
+function rmxRowsFromAi(q, j){
+  const R = j && Array.isArray(j.rows) ? j.rows : null;
+  if (!R || R.length !== q.opts.length) throw {code: 'invalid_json', message: 'need one row per option'};
+  const rows = R.map(r => ({if: rmxS1(r && r.if), hook: rmxS1(r && r.hook), how: rmxS1(r && r.how)}));
+  const beats = rmxRounds(q, rows);
   if (beats.length < 2) throw {code: 'invalid_json', message: 'incomplete remix'};
-  return beats;
+  return {rows, beats};
 }
 function rmxFromAi(q, j){
   if (!j || typeof j !== 'object' || Array.isArray(j)) throw {code: 'invalid_json', message: 'not an object'};
-  const st = (q.stem || '').toLowerCase();
-  const trig = (Array.isArray(j.trigger) ? j.trigger : []).map(rmxS1).filter(p => p.length >= 2 && st.includes(p.toLowerCase())).slice(0, 3);
-  return {film: rmxS1(j.film), right: rmxS1(j.right), wrong: rmxS1(j.wrong), trig, beats: rmxBeatsFromAi(q, j)};
+  const st = (q.stem || '').toLowerCase(), cl = rmxS1(Array.isArray(j.clue) ? j.clue[0] : j.clue);
+  const R = rmxRowsFromAi(q, j);
+  return {film: rmxS1(j.film), code: rmxS1(j.code), trig: cl.length >= 2 && st.includes(cl.toLowerCase()) ? [cl] : [], rows: R.rows, beats: R.beats};
 }
 
-/* ----- offline remix: match the options to your ILO units and quiz their clinchers ----- */
+/* ----- offline remix: Passmed's own per-option lines become the rounds; else your ILO clinchers ----- */
 function rmxLocal(q){
   const units = q.opts.map(o => rmxUnitFor(o));
-  const optKeys = q.opts.map(o => rmxNorm(o).split(' ').filter(w => w.length >= 5 && !RMX_GEN.test(w)));
-  // which options does a clincher talk about? (whole option text, or its distinctive words)
-  const mentions = text => { const t = ' ' + rmxNorm(text) + ' '; return q.opts.map((o, k) => { const n = rmxNorm(o); return (n.length >= 4 && rmxHit(t, n)) || (optKeys[k].length && optKeys[k].every(w => rmxHit(t, w))); }); };
-  const cands = [];
-  [...new Set(units.filter(ui => ui >= 0))].forEach(ui => {
-    const mine = units.map((x, k) => x === ui ? k : -1).filter(k => k >= 0);
-    (UNITS[ui].ck || []).forEach(ci => {
-      if (!CLK[ci] || CLK[ci][0] === 'out') return;
-      const m = mentions(CLK[ci][1]), hit = m.map((v, k) => v ? k : -1).filter(k => k >= 0);
-      const ans = hit.length === 1 ? hit[0] : hit.length === 0 && mine.length === 1 ? mine[0] : -1;
-      if (ans >= 0) cands.push({ui, ci, ans});
+  const rows = q.opts.map((_, k) => rmxOptRow(q, k));
+  let beats = rmxRounds(q, rows);
+  if (beats.length < 2) {
+    beats = [];
+    const optKeys = q.opts.map(o => rmxNorm(o).split(' ').filter(w => w.length >= 5 && !RMX_GEN.test(w)));
+    const mentions = text => { const t = ' ' + rmxNorm(text) + ' '; return q.opts.map((o, k) => { const n = rmxNorm(o); return (n.length >= 4 && rmxHit(t, n)) || (optKeys[k].length && optKeys[k].every(w => rmxHit(t, w))); }); };
+    const cands = [];
+    [...new Set(units.filter(ui => ui >= 0))].forEach(ui => {
+      const mine = units.map((x, k) => x === ui ? k : -1).filter(k => k >= 0);
+      (UNITS[ui].ck || []).forEach(ci => {
+        if (!CLK[ci] || CLK[ci][0] === 'out') return;
+        const m = mentions(CLK[ci][1]), hit = m.map((v, k) => v ? k : -1).filter(k => k >= 0);
+        const ans = hit.length === 1 ? hit[0] : hit.length === 0 && mine.length === 1 ? mine[0] : -1;
+        if (ans >= 0) cands.push({ui, ci, ans});
+      });
     });
-  });
-  const beats = [], usedU = new Set(), usedA = new Set();
-  shuffle(cands, Math.random).forEach(c => {
-    if (beats.length >= 3 || usedA.has(c.ans) || usedU.has(c.ui + ':' + c.ans)) return;
-    usedA.add(c.ans); usedU.add(c.ui + ':' + c.ans);
-    let txt = snpMask(dxStrip(CLK[c.ci][1]), UNITS[c.ui]);
-    q.opts.forEach(o => { txt = snpMask(txt, {name: o}); });
-    beats.push({k: 'ck', change: txt, opts: q.opts.slice(), ans: c.ans, why: CLK[c.ci][1]});
-  });
+    const usedA = new Set();
+    shuffle(cands, Math.random).forEach(c => {
+      if (beats.length >= 3 || usedA.has(c.ans)) return;
+      usedA.add(c.ans);
+      let txt = snpMask(dxStrip(CLK[c.ci][1]), UNITS[c.ui]);
+      q.opts.forEach(o => { txt = snpMask(txt, {name: o}); });
+      beats.push({k: 'ck', change: txt, opts: q.opts.slice(), ans: c.ans, why: CLK[c.ci][1]});
+    });
+  }
   const words = q.stem.replace(/\s+/g, ' ').split(' ');
-  return {film: words.slice(0, 28).join(' ') + (words.length > 28 ? '…' : ''), right: '', wrong: '', trig: rmxLocalTrig(q), beats, units};
+  return {film: words.slice(0, 28).join(' ') + (words.length > 28 ? '…' : ''), trig: rmxLocalTrig(q), rows, beats, units};
 }
 
 /* ----- view ----- */
 let rmx = {step: 'home', q: null, card: null, i: 0, pick: null, busy: false, ctl: null, err: '', missOnly: false, sys: '', queue: null, scheduled: false, pendingImg: null};
-const RMX_BEAT = {flip: ['🔄', 'Change one clue', 'If instead'], twist: ['🧍', 'Change the patient', 'Now'], time: ['⏱', 'Change the timeline', 'Now'], ck: ['🔑', 'Whose clincher is this?', 'Clincher']};
+const RMX_BEAT = {if: ['🔄', 'Same patient, one clue changed', 'If instead'], flip: ['🔄', 'Change one clue', 'If instead'], twist: ['🧍', 'Change the patient', 'Now'], time: ['⏱', 'Change the timeline', 'Now'], ck: ['🔑', 'Whose clincher is this?', 'Clincher']};
 function viewRemix(m){
-  m.innerHTML = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code">🔄 Remix</span><span class="grow"></span><span class="mono" id="rmxN"></span></div><h1>Remix a question you got wrong</h1><p class="hint" style="margin:0">Answer it on Passmedicine first, then copy the page (⌘A then ⌘C), come here and press ⌘V. You get the case in one line, then the same question three ways with <b>one thing changed</b> each time. Answer with <span class="kbd">1</span>–<span class="kbd">5</span>, <span class="kbd">Enter</span> for next, <span class="kbd">Esc</span> to paste another.</p></div><div id="rmx" class="panel"></div><div id="rmxVault"></div></div>';
+  m.innerHTML = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code">🔄 Remix</span><span class="grow"></span><span class="mono" id="rmxN"></span></div><h1>Remix a question you got wrong</h1><p class="hint" style="margin:0">Answer it on Passmedicine first, then copy the page (⌘A then ⌘C), come here and press ⌘V. You get the case in one line, then the <b>same patient with one clue changed</b>: watch which option wins. Answer with <span class="kbd">1</span>–<span class="kbd">5</span>, <span class="kbd">Enter</span> for next, <span class="kbd">Esc</span> to paste another.</p></div><div id="rmx" class="panel"></div><div id="rmxVault"></div></div>';
   drawRemix(); drawRmxVault();
 }
 function rmxStatusHtml(){
@@ -292,36 +311,60 @@ function drawRemix(){
   if (rmx.step === 'card' && rmx.card && rmx.card.img) rmxFillThumbs(rmx.card);
 }
 async function rmxFillThumbs(C){ const im = await rmxImgGet(C.id); if (!im) return; document.querySelectorAll('[data-rmximg="' + C.id + '"]').forEach(b => { b.innerHTML = '<img src="' + im.d + '" alt="Question image">'; b.hidden = false; }); }
+const rmxRowsOf = C => (C.c.rows && C.c.rows.length === C.q.opts.length) ? C.c.rows : C.q.opts.map((_, k) => rmxOptRow(C.q, k));
+function rmxRowHtml(q, r, k, mark, how){
+  return '<div class="rmx-gr' + (k === q.correct ? ' ok' : '') + (k === q.picked && k !== q.correct ? ' me' : '') + '"><span class="k">' + mark + '</span><span><b>' + esc(q.opts[k]) + '</b>'
+    + (r.if ? ' <span class="rmx-arw">←</span> ' + esc(r.if) : r.why ? ' <span class="rmx-why">· ' + esc(r.why) + '</span>' : '')
+    + (r.hook ? ' <span class="rmx-hook">🔗 ' + esc(r.hook) + '</span>' : '') + (how && r.how ? '<span class="rmx-how">' + fmtRich(r.how) + '</span>' : '') + '</span></div>';
+}
 function rmxCaseHtml(C){
-  const c = C.c, q = C.q;
-  let h = '<div class="rmx-case"><div class="snp-lab">① What happened</div><div class="stem snp-clue">🎬 ' + rmxMark(c.film || q.stem.slice(0, 160), c.trig || []) + '</div>';
-  if (c.right) h += '<div class="kl kl-in"><span class="ki">✅</span><span><b>' + esc(q.opts[q.correct]) + '</b>: ' + esc(c.right) + '</span></div>';
-  if (c.wrong) h += '<div class="kl kl-out"><span class="ki">❌</span><span>' + (q.picked >= 0 ? '<b>' + esc(q.opts[q.picked]) + '</b>: ' : '') + esc(c.wrong) + '</span></div>';
+  const c = C.c, q = C.q, rows = rmxRowsOf(C);
+  const film = c.film || q.stem.slice(0, 160), fl = film.toLowerCase();
+  let marks = (c.trig || []).filter(t => fl.includes(String(t).toLowerCase()));
+  if (!marks.length) marks = [].concat(...(c.trig || []).map(t => String(t).match(/\d+(?:\.\d+)?\s?[a-zµ%\/]*|[a-z][a-z'-]{3,}/gi) || [])).filter(w => new RegExp('(^|[^a-z0-9])' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '($|[^a-z0-9])', 'i').test(film));
+  let h = '<div class="rmx-case"><div class="snp-lab">① What happened</div><div class="stem snp-clue">🎬 ' + rmxMark(film, marks) + '</div>';
+  const ended = rmx.card === C && rmx.i >= (c.beats || []).length && (c.beats || []).length > 0;
+  if (ended && rows.filter(r => r.if || r.why || r.hook).length >= 2) { /* the lineup below already has these */ }
+  else if (c.rows || rows[q.correct].if) {
+    h += rmxRowHtml(q, rows[q.correct], q.correct, '✅');
+    if (q.picked >= 0 && q.picked !== q.correct) h += rmxRowHtml(q, rows[q.picked], q.picked, '❌');
+  } else { // cards saved before v0.10
+    if (c.right) h += '<div class="kl kl-in"><span class="ki">✅</span><span><b>' + esc(q.opts[q.correct]) + '</b>: ' + esc(c.right) + '</span></div>';
+    if (c.wrong) h += '<div class="kl kl-out"><span class="ki">❌</span><span>' + (q.picked >= 0 ? '<b>' + esc(q.opts[q.picked]) + '</b>: ' : '') + esc(c.wrong) + '</span></div>';
+  }
   const us = [...new Set([C.unit].concat(c.units || []).filter(x => x != null && x >= 0))].slice(0, 3);
   if (us.length || C.img) h += '<div class="chips rmx-chips">' + (C.img ? '<button class="rmx-thumb sm" data-rmxzoom="c" data-rmximg="' + C.id + '" hidden></button>' : '') + us.map(ui => UNITS[ui] ? '<button class="chip" data-u="' + ui + '" data-mode="read">📖 ' + esc(UNITS[ui].name) + '</button>' : '').join('') + '</div>';
   return h + '</div>';
 }
-// tucked away at the end: the rule and all five options side by side, only if you open it
-function rmxMoreHtml(C){
-  const q = C.q, rows = q.opts.map((o, k) => ({o, k, line: rmxOptLine(q, k)})).filter(r => r.line);
-  if (!q.concept && rows.length < 2) return '';
-  return '<details class="rmx-more"><summary>🧩 Compare all five' + (q.concept ? ' + the rule' : '') + '</summary>' + (q.concept ? '<div class="rmx-rule">🔑 ' + esc(q.concept) + '</div>' : '')
-    + (rows.length >= 2 ? '<div class="rmx-grid">' + rows.map(r => '<div class="rmx-gr' + (r.k === q.correct ? ' ok' : '') + (r.k === q.picked ? ' me' : '') + '"><span class="k">' + (r.k === q.correct ? '✅' : r.k === q.picked ? '✋' : r.k + 1) + '</span><span><b>' + esc(r.o) + '</b>: ' + esc(r.line) + '</span></div>').join('') + '</div>' : '') + '</details>';
+// the matching Pathoma card from your library (checked content), for the card's condition first
+function rmxRootFor(C){
+  const us = [C.unit].concat(C.c.units || [], C.q.opts.map(o => rmxUnitFor(o))).filter(u => u != null && u >= 0);
+  for (const u of us) { const i = ROOTS.findIndex(r => (r.u || []).includes(u)); if (i >= 0) return i; }
+  return -1;
+}
+// the payoff: one line per option, all on the same axis (answer ← the clue that picks it)
+function rmxLineupHtml(C){
+  const q = C.q, rows = rmxRowsOf(C);
+  if (rows.filter(r => r.if || r.why || r.hook).length < 2 && !q.concept && !C.c.code) return '';
+  const code = C.c.code ? '<div class="rmx-code">🧬 ' + esc(C.c.code) + '</div>' : q.concept ? '<div class="rmx-rule">🔑 ' + esc(q.concept) + '</div>' : '';
+  const ri = rmxRootFor(C);
+  return '<div class="rmx-lineup"><div class="snp-lab">🧬 Why it happens</div>' + code
+    + '<div class="rmx-grid">' + rows.map((r, k) => rmxRowHtml(q, r, k, k === q.correct ? '✅' : k === q.picked ? '✋' : k + 1, true)).join('') + '</div>' + (ri >= 0 ? rootHtml(ri) : '') + '</div>';
 }
 function rmxCardHtml(){
   const C = rmx.card, c = C.c, i = rmx.i, total = c.beats.length;
   let h = '<div class="qmeta"><span class="code">' + (rmx.queue ? '🔁 Replay ' + (rmx.queue.pos + 1) + ' / ' + rmx.queue.list.length : '🔄 Remix') + '</span>' + (C.src === 'local' ? '<span class="code">📴 offline</span>' : '<span class="code" title="Written by AI from your question: check it against the explanation">🤖 AI</span>') + '<span class="grow"></span><span class="mono">' + (C.res || []).map(r => r == null ? '·' : r ? '✅' : '❌').join(' ') + '</span><button class="btn ghost rmx-out" data-rmxreset title="Back to pasting (Esc). You can also just press ⌘V here.">' + (rmx.queue ? '⏹ Stop replay' : '📋 New question') + ' <span class="kbd">Esc</span></button></div>';
   h += rmxCaseHtml(C);
-  if (!total) return h + '<p class="hint">Not enough of these options are in your ILO units to build an offline quiz. Turn the AI on for a full remix.</p>' + rmxMoreHtml(C) + '<div class="toolbar"><button class="btn primary" data-rmxnext>Done <span class="kbd">Enter</span></button></div>';
+  if (!total) return h + '<p class="hint">Not enough here to build rounds offline. Turn the AI on for a full remix.</p>' + rmxLineupHtml(C) + '<div class="toolbar"><button class="btn primary" data-rmxnext>Done <span class="kbd">Enter</span></button></div>';
   if (i < total) {
     const b = c.beats[i], B = RMX_BEAT[b.k], tag = b.k === 'time' && b.spd ? ' · ' + esc(b.spd) : '';
     h += '<div class="snp-lab rmx-bl"><span>' + '②③④⑤'[i] + ' ' + B[0] + ' ' + B[1] + tag + '</span>' + (b.k !== 'ck' ? '<button class="iconbtn rmx-flag" data-rmxflag title="Looks medically wrong: drop it" aria-label="Looks wrong: drop it">🚩</button>' : '') + '</div>';
     h += '<div class="rmx-chg"><b>' + B[2] + ':</b> ' + (b.k === 'ck' ? snpHtml(b.change) : esc(b.change)) + '</div>';
     h += '<div class="opts">' + b.opts.map((o, k) => { let cl = 'opt'; if (rmx.pick != null) { if (k === b.ans) cl += ' right'; else if (k === rmx.pick) cl += ' wrong'; } return '<button class="' + cl + '" data-rmxa="' + k + '"' + (rmx.pick != null ? ' disabled' : '') + '><span class="k">' + (k + 1) + '</span><span>' + esc(o) + '</span></button>'; }).join('') + '</div>';
-    if (rmx.pick != null) h += '<div class="kl ' + (rmx.pick === b.ans ? 'kl-in' : 'kl-out') + '"><span class="ki">' + (rmx.pick === b.ans ? '✅' : '❌') + '</span><span>' + (b.k === 'ck' ? fmtRich(b.why) : esc(b.why)) + '</span></div><div class="toolbar"><button class="btn primary" data-rmxnext>' + (i + 1 < total ? 'Next' : 'Finish') + ' <span class="kbd">Enter</span></button></div>';
+    if (rmx.pick != null) h += '<div class="kl ' + (rmx.pick === b.ans ? 'kl-in' : 'kl-out') + '"><span class="ki">' + (rmx.pick === b.ans ? '✅' : '❌') + '</span><span>' + (b.k === 'ck' ? fmtRich(b.why) : b.k === 'if' ? '<b>' + esc(b.opts[b.ans]) + '</b>' + (b.why ? ' <span class="rmx-hook">🔗 ' + esc(b.why) + '</span>' : '') + (b.how ? '<span class="rmx-how">🧬 ' + fmtRich(b.how) + '</span>' : '') : esc(b.why)) + '</span></div><div class="toolbar"><button class="btn primary" data-rmxnext>' + (i + 1 < total ? 'Next' : 'Finish') + ' <span class="kbd">Enter</span></button></div>';
   } else {
     const got = C.res.filter(Boolean).length, asked = C.res.filter(r => r != null).length;
-    h += '<div class="snp-end"><div class="rmx-endl"><b>' + got + ' / ' + asked + '</b>' + (C.due ? '<span class="hint">back ' + rmxDueLabel(C.due) + '</span>' : '') + '</div>' + rmxMoreHtml(C) + '<div class="toolbar">' + (rmx.queue ? '<button class="btn primary" data-rmxnext>' + (rmx.queue.pos + 1 < rmx.queue.list.length ? 'Next card' : 'Finish replay') + ' <span class="kbd">Enter</span></button>' : '<button class="btn primary" data-rmxreset>📋 Paste another <span class="kbd">Enter</span></button>') + '</div></div>';
+    h += '<div class="snp-end"><div class="rmx-endl"><b>' + got + ' / ' + asked + '</b>' + (C.due ? '<span class="hint">back ' + rmxDueLabel(C.due) + '</span>' : '') + '</div>' + rmxLineupHtml(C) + '<div class="toolbar">' + (rmx.queue ? '<button class="btn primary" data-rmxnext>' + (rmx.queue.pos + 1 < rmx.queue.list.length ? 'Next card' : 'Finish replay') + ' <span class="kbd">Enter</span></button>' : '<button class="btn primary" data-rmxreset>📋 Paste another <span class="kbd">Enter</span></button>') + '</div></div>';
   }
   return h;
 }
@@ -374,11 +417,10 @@ function rmxAiErr(e){
 }
 async function rmxRunAi(){
   const q = rmx.q; if (!RMX_AI || rmx.busy || q.correct < 0) return;
-  const target = rmxTarget(q);
   rmx.busy = true; rmx.err = ''; rmx.ctl = new AbortController(); drawRemix();
   try {
     const images = q.img && RMX_IMG ? rmxBlob(q.img.d) : null;
-    const j = await RMX_AI.json(rmxPrompt(Object.assign({}, q, {hasImg: !!images}), target), Object.assign({modelTier: rmxTier(), maxTokens: rmxTier() === 'default' ? 8000 : 2400, signal: rmx.ctl.signal, cache: false}, images ? {images} : {}));
+    const j = await RMX_AI.json(rmxPrompt(Object.assign({}, q, {hasImg: !!images})), Object.assign({modelTier: rmxTier(), maxTokens: rmxTier() === 'default' ? 8000 : 2400, signal: rmx.ctl.signal, cache: false}, images ? {images} : {}));
     rmxMake(rmxFromAi(q, j), 'ai');
   } catch (e) {
     rmx.busy = false;
@@ -392,22 +434,23 @@ async function rmxFreshBeats(C){
   const avoid = (C.seen || []).concat((C.c.beats || []).map(b => b.change)).filter(Boolean).slice(-12);
   try {
     let images = null; if (C.img && RMX_IMG) { const im = await rmxImgGet(C.id); if (im) images = rmxBlob(im.d); }
-    const j = await RMX_AI.json(rmxFreshPrompt(Object.assign({}, C, {hasImg: !!images}), rmxTarget(C.q), avoid), Object.assign({modelTier: 'quick', maxTokens: 1800, cache: false}, images ? {images} : {}));
-    return rmxBeatsFromAi(C.q, j);
+    const j = await RMX_AI.json(rmxFreshPrompt(Object.assign({}, C, {hasImg: !!images}), avoid), Object.assign({modelTier: 'quick', maxTokens: 1800, cache: false}, images ? {images} : {}));
+    return rmxRowsFromAi(C.q, j);
   } catch (e) { return null; }
 }
 const rmxMaking = new Set();
 function rmxMakeNext(C){
   if (!C || C.src !== 'ai' || !RMX_AI || rmxMaking.has(C.id)) return;
   rmxMaking.add(C.id);
-  rmxFreshBeats(C).then(b => { rmxMaking.delete(C.id); if (b && b.length >= 2) { C.next = b; rmxSave(); } });
+  rmxFreshBeats(C).then(R => { rmxMaking.delete(C.id); if (R && R.beats.length >= 2) { C.next = R; rmxSave(); } });
 }
-function rmxReuse(C){ return (C.c.beats || []).filter(b => !b.flag).map(b => { if (b.k === 'ck') return b; const idx = shuffle(b.opts.map((_, i) => i), Math.random); return Object.assign({}, b, {opts: idx.map(i => b.opts[i]), ans: idx.indexOf(b.ans)}); }); }
+function rmxReuse(C){ return (C.c.beats || []).filter(b => !b.flag).map(b => { if (b.k === 'ck' || b.k === 'if') return b; const idx = shuffle(b.opts.map((_, i) => i), Math.random); return Object.assign({}, b, {opts: idx.map(i => b.opts[i]), ans: idx.indexOf(b.ans)}); }); }
 function rmxPlay(card, queue){
   rmx = Object.assign(rmx, {step: 'card', card, i: 0, pick: null, queue: queue || null, scheduled: false, err: ''});
   if (card.src === 'local') { const L = rmxLocal(card.q); if (L.beats.length) card.c.beats = L.beats; }
-  else if (card.next && card.next.length >= 2) { card.seen = (card.seen || []).concat(card.c.beats.map(b => b.change)).filter(Boolean).slice(-12); card.c.beats = card.next; delete card.next; }
-  else card.c.beats = rmxReuse(card);
+  else if (card.next && card.next.beats && card.next.beats.length >= 2) { card.seen = (card.seen || []).concat(card.c.beats.map(b => b.change)).filter(Boolean).slice(-12); card.c.rows = card.next.rows; card.c.beats = card.next.beats; delete card.next; }
+  else if (card.c.rows && card.c.rows.length === card.q.opts.length) { delete card.next; card.c.beats = rmxRounds(card.q, card.c.rows); }
+  else { delete card.next; card.c.beats = rmxReuse(card); }
   card.c.beats = card.c.beats.filter(b => !b.flag); card.res = card.c.beats.map(() => null);
   rmxSave(); drawRemix();
   const b = $('#rmx'); if (b) b.scrollIntoView({block: 'start'});
@@ -432,7 +475,7 @@ function rmxAnswer(k){
 function rmxFlag(){
   if (rmx.step !== 'card') return;
   const C = rmx.card, b = C.c.beats[rmx.i]; if (!b) return;
-  b.flag = true; C.res[rmx.i] = null; C.seen = (C.seen || []).concat('(this one was wrong) ' + b.change).slice(-12);
+  b.flag = true; C.res[rmx.i] = null; if (b.k === 'if' && C.c.rows && C.c.rows[b.ans]) C.c.rows[b.ans] = {if: '', hook: ''}; C.seen = (C.seen || []).concat('(this one was wrong) ' + b.change).slice(-12);
   toast('🚩 Dropped: it won\'t come back');
   rmx.pick = null; rmx.i++; if (rmx.i >= C.c.beats.length) rmxFinish();
   rmxSave(); drawRemix();
