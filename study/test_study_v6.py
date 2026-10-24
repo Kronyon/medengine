@@ -35,7 +35,7 @@ def run(width, mock=True):
         def side():
             if narrow and not pg.evaluate("document.body.classList.contains('nav')"): pg.click('#menuBtn'); pg.wait_for_timeout(150)
 
-        if not re.search(r'v0\.([6789]|1\d)\.\d', pg.text_content('#homeBtn')): errs.append('version not 0.6+/0.7')
+        if not re.search(r'v(0\.([6789]|1\d)|1\.\d+)\.\d', pg.text_content('#homeBtn')): errs.append('version not 0.6+/0.7')
         ov('home')
         # systems & presentations
         side()

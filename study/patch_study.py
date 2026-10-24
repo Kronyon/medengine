@@ -85,6 +85,15 @@ for j in V7['jg']:
 D['jg'] = JGD
 V8 = json.load(open(HERE / 'v08_content.json', encoding='utf-8'))
 D['spdl'] = V8['spd_labels']
+# v1.0: new mechanism cards (own words) appended to the Pathoma library and linked to their ILO units
+V10 = json.load(open(HERE / 'v10_content.json', encoding='utf-8'))
+_ids = {r['id'] for r in D['path']}
+for r in V10['path_add']:
+    if r['id'] in _ids: raise SystemExit('duplicate Pathoma id ' + r['id'])
+    if '—' in json.dumps(r, ensure_ascii=False): raise SystemExit('em dash in ' + r['id'])
+    D['path'].append({'id': r['id'], 't': r['t'], 'l': r['l'], 'u': r['u']})
+    for ui in r['u']:
+        D['units'][ui].setdefault('pa', []).append(len(D['path']) - 1)
 for k, names in V8['spd'].items():
     for n in names:
         assert n in UBY, n
@@ -108,7 +117,7 @@ rep('<header class="top">', '<style>\n' + mev_css + ext_css + '</style>\n<header
 rep('<script id="qqdata" type="application/json">', '<script>\n' + mev_js + '</script>\n<script id="qqdata" type="application/json">')
 
 # ---------- version ----------
-rep('<small>v0.5.0 beta</small>', '<small>v0.10.0 beta</small>')
+rep('<small>v0.5.0 beta</small>', '<small>v1.0.0</small>')
 rep('const fmtRich = t => fmtPlain(t)', 'const fmtRich = t => dualHtml(t) || fmtRich0(t);\nconst fmtRich0 = t => fmtPlain(t)')
 
 # ---------- script hooks ----------

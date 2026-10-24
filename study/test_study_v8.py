@@ -93,7 +93,7 @@ def run(width, mock=True):
         def hashgo(h, wait=400):
             pg.evaluate(f"location.hash = '{h}'"); pg.wait_for_timeout(wait)
 
-        if not re.search(r'v0\.([89]|1\d)\.\d', pg.text_content('#homeBtn')): errs.append('version not 0.8+')
+        if not re.search(r'v(0\.([89]|1\d)|1\.\d+)\.\d', pg.text_content('#homeBtn')): errs.append('version not 0.8+')
         if not pg.locator('#main [data-go="remix"]').count(): errs.append('home: no Remix button')
 
         # ---- parser + matching (pure functions) ----

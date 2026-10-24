@@ -212,7 +212,8 @@ function rmxQBlock(q, hasImg){
     + 'QUESTION:\n' + q.stem + '\n\nOPTIONS:\n' + q.opts.map((o, i) => (i + 1) + '. ' + o).join('\n') + '\n\nCORRECT: ' + (q.correct + 1) + '. ' + q.opts[q.correct]
     + '\nSTUDENT PICKED: ' + (q.picked >= 0 ? (q.picked + 1) + '. ' + q.opts[q.picked] : 'not given')
     + (q.concept ? '\n\nKEY CONCEPT FROM THE QUESTION BANK: ' + q.concept : '')
-    + (q.expl ? '\n\nEXPLANATION FROM THE QUESTION BANK (treat as correct):\n' + q.expl.slice(0, 1500) : '');
+    + (q.expl ? '\n\nEXPLANATION FROM THE QUESTION BANK (treat as correct):\n' + q.expl.slice(0, 1500) : '')
+    + rmxRootNote(q);
 }
 const rmxRowSpec = q => '"rows":[exactly ' + q.opts.length + ' objects, one per option in the order given: {"if":"at most 9 words: the ONE clue in this same patient that would make this option the answer (for option ' + (q.correct + 1) + ', the clue already in the question that makes it right)","hook":"at most 6 words: a picture or feeling that makes it stick","how":"at most 16 words, Pathoma style: cause → what physically happens: the finding or reason this option fits; wrap the 2 or 3 key words in **double asterisks**"}]';
 const RMX_RULES = '\nRules: same patient, same question, same options. Each "if" changes ONE clue only, and keep the five on the same theme where you can (size, site, timing, one sign, one result) so they read like a lineup. No pregnancy, allergy or kidney-function twists unless the question is about them. If nothing in this patient could make an option right, set its "if" to "" and make its "hook" the reason it never wins. Plain words, no brackets.';
@@ -337,10 +338,25 @@ function rmxCaseHtml(C){
   return h + '</div>';
 }
 // the matching Pathoma card from your library (checked content), for the card's condition first
-function rmxRootFor(C){
-  const us = [C.unit].concat(C.c.units || [], C.q.opts.map(o => rmxUnitFor(o))).filter(u => u != null && u >= 0);
-  for (const u of us) { const i = ROOTS.findIndex(r => (r.u || []).includes(u)); if (i >= 0) return i; }
-  return -1;
+// the best card is the one that names the most of this question's options (ties: the card's own condition first)
+function rmxRootPick(q, unit){
+  const us = [unit].concat(q.opts.map(o => rmxUnitFor(o))).filter(u => u != null && u >= 0);
+  if (!us.length) return -1;
+  const keys = q.opts.map(o => rmxNorm(o).split(' ').filter(w => w.length >= 5 && !RMX_GEN.test(w)));
+  let best = -1, bs = -1;
+  ROOTS.forEach((r, i) => {
+    const ru = r.u || [], hitU = us.findIndex(u => ru.includes(u)); if (hitU < 0) return;
+    const txt = ' ' + rmxNorm(r.t + ' ' + r.l.join(' ')) + ' ';
+    const sc = keys.filter(k => k.length && k.some(w => txt.includes(' ' + w))).length * 10 + (hitU === 0 ? 5 : 0) - hitU * 0.01;
+    if (sc > bs) { bs = sc; best = i; }
+  });
+  return best;
+}
+function rmxRootFor(C){ return rmxRootPick(C.q, C.unit); }
+// the checked card goes into the AI prompt so its "why" lines stay consistent with your library
+function rmxRootNote(q){
+  const i = rmxRootPick(q, rmxCondUnit(q.cond)); if (i < 0) return '';
+  const r = ROOTS[i]; return ('\n\nCHECKED MECHANISM NOTES from the student\'s library (stay consistent with these; reuse their cause → effect logic):\n' + r.t + '\n- ' + r.l.join('\n- ')).replace(/\*\*/g, '').slice(0, 1200);
 }
 // the payoff: one line per option, all on the same axis (answer ← the clue that picks it)
 function rmxLineupHtml(C){
@@ -579,4 +595,4 @@ function extClick8(t, d){
   if (d.rmxclear != null) { if (!t.dataset.armed) { t.dataset.armed = '1'; t.textContent = 'Tap again to delete all'; return true; } rmxAll().forEach(c => { if (c.img) rmxImgDel(c.id); }); rmxCards = []; rmxSave(); drawRmxVault(); drawRemix(); toast('Remix vault cleared'); return true; }
   return false;
 }
-try { Object.defineProperty(window, '__me8', {value: Object.freeze({rmxParse, rmxUnitFor, rmxCondUnit, rmxFromAi, rmxLocal, rmxMark, rmxOptLine, rmxDay, rmxAddDays, rmxIsDue, get rmx(){ return rmx; }, rmxAll: () => rmxAll(), save: () => rmxSave(), imgGet: id => rmxImgGet(id), setAi(f, img){ RMX_AI = f; RMX_IMG = !!img; }})}); } catch (e) {}
+try { Object.defineProperty(window, '__me8', {value: Object.freeze({rmxParse, rmxUnitFor, rmxCondUnit, rmxFromAi, rmxLocal, rmxMark, rmxOptLine, rmxDay, rmxAddDays, rmxIsDue, get rmx(){ return rmx; }, rmxAll: () => rmxAll(), save: () => rmxSave(), imgGet: id => rmxImgGet(id), rootPick: (q, u) => { const i = rmxRootPick(q, u); return i >= 0 ? ROOTS[i].id : ''; }, setAi(f, img){ RMX_AI = f; RMX_IMG = !!img; }})}); } catch (e) {}

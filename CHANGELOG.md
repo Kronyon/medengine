@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.0 (2026-10-24)
+
+medengine v1.0. Same app, same screens, deeper "why". Saved progress carries over.
+- 🧬 **16 new mechanism cards** in the Pathoma library (78 in all), written in our own words, each in the "A vs B: X vs Y" frame with cause → what physically happens → the finding: the gallstone ladder, bowel obstruction (small vs large, ileus, volvulus), groin hernias, above vs below the dentate line, gut ischaemia, PID and ectopic, acute scrotum, thyrotoxicosis (overmaking vs leaking), thiamine and Wernicke's, the four shocks, hormone-driven hypertension, murmurs by valve and phase, nipple discharge and mastitis, familial hypercholesterolaemia, varicose veins/lymphoedema/Raynaud's, and perforation. They appear on each condition's 🧠 Think tab, in the Pathoma library and in Remix.
+- 🔄 **Remix "why" lines are grounded**: the AI now gets the best-matching checked card from your library (the one naming the most of the question's options) and is told to stay consistent with it; the same card closes the lineup.
+- Content audit: written with a USMLE course (Bootcamp) as a reference for which mechanisms and contrasts matter, cross-checked against standard UK teaching; no course text or images are included, and management stays UK.
+- medengine-OSCE: version label only (v1.0.0); the stations are unchanged.
+- Tests: `study/test_study_v10.py`; all earlier suites still pass.
+
 ## 0.10.0-beta (2026-10-24)
 
 Remix rebuilt around one idea: **same patient, five endings**. Saved cards carry over (older AI cards switch to the new format after their next review).

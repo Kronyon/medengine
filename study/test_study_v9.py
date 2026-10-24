@@ -115,7 +115,7 @@ def run(width, mock=True):
                 pg.keyboard.press(str(a + 1 if right else (a + 1) % 4 + 1)); pg.wait_for_timeout(60)
                 pg.keyboard.press('Enter'); pg.wait_for_timeout(60)
 
-        if 'v0.10.0' not in pg.text_content('#homeBtn'): errs.append('version not 0.10.0')
+        if 'v1.0.0' not in pg.text_content('#homeBtn'): errs.append('version not 1.0.0')
 
         # ---- parser: Passmed layout ----
         q = ev('t => __me8.rmxParse(t)', STONE)

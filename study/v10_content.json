@@ -1,0 +1,218 @@
+{
+ "_about": "medengine v1.0 mechanism cards. Written in our own words for the ILO conditions that had no Pathoma card or lacked the decisive contrast; facts cross-checked against standard UK teaching. Bootcamp was used only as a reference for which mechanisms and contrasts matter; none of its text or images are reproduced. Same shape as D.path: id, t (title, 'A vs B' where possible), l (2 to 4 lines, cause -> what physically happens -> the finding, key words in **bold**, no brackets because the eye skips them), u (ILO unit indices).",
+ "path_add": [
+  {
+   "id": "gsladder",
+   "t": "The gallstone ladder: where the stone sits decides the picture",
+   "u": [
+    41,
+    42,
+    43
+   ],
+   "l": [
+    "**Biliary colic**: after a fatty meal **CCK** squeezes the gallbladder and a stone **briefly** plugs its neck → RUQ pain that **settles within hours**, no fever, normal bloods.",
+    "**Acute cholecystitis**: the stone **stays** → the trapped gallbladder inflames → pain **beyond 6 hours**, **fever**, raised WCC and CRP, **Murphy's sign**, but usually **no jaundice** because the common bile duct is still open.",
+    "**Stone in the common bile duct**: bile cannot reach the gut → **jaundice**, dark urine, pale stools, **ALP and bilirubin up**. Add **infection behind the block** → **ascending cholangitis** = **Charcot's triad**: pain, fever, jaundice. Add confusion and low BP → **Reynolds' pentad**: drain it.",
+    "A stone passing the ampulla can block the pancreatic duct too → **gallstone pancreatitis**."
+   ]
+  },
+  {
+   "id": "obstruct",
+   "t": "Bowel obstruction: small vs large, and the twist",
+   "u": [
+    48,
+    49
+   ],
+   "l": [
+    "**Blockage** → gut above fills with gas and fluid → **pressure rises** → veins and lymphatics squash first → **wall oedema** → then arteries → **ischaemia** → **perforation**.",
+    "**Small bowel**, usually adhesions or hernias: **early vomiting**, central distension, **valvulae conniventes** cross the whole width. **Large bowel**, usually cancer or volvulus: **late vomiting**, big distension, **haustra** only part-cross; a competent ileocaecal valve makes a **closed loop** that can burst the **caecum**.",
+    "**Ileus**: nothing blocks it, the gut just stops moving after surgery, with **low potassium** or on opioids → gas all the way through, **no transition point**, a quiet abdomen.",
+    "**Volvulus**: bowel twists on its mesentery → obstruction **plus** ischaemia. **Sigmoid** in older constipated people: **coffee bean** on X-ray. **Midgut** in babies with **malrotation**: **bilious vomiting**."
+   ]
+  },
+  {
+   "id": "groin",
+   "t": "Groin hernias: through the ring, through the wall, or under the ligament",
+   "u": [
+    58
+   ],
+   "l": [
+    "**Indirect inguinal**: through the **deep ring** and along the canal inside the cord, **lateral to the inferior epigastric vessels**; a **patent processus vaginalis**, so young males, and it can reach the scrotum.",
+    "**Direct inguinal**: bulges through a weak **posterior wall**, Hesselbach's triangle, **medial to the inferior epigastric vessels**; older men, wide neck, rarely strangulates.",
+    "**Femoral**: under the inguinal ligament through the narrow **femoral canal**, **below and lateral to the pubic tubercle**, where inguinal hernias sit above and medial; more common in **women**; the tight neck makes **strangulation** likely, so it is repaired urgently."
+   ]
+  },
+  {
+   "id": "dentate",
+   "t": "Above vs below the dentate line: why piles bleed and fissures hurt",
+   "u": [
+    35,
+    36,
+    34
+   ],
+   "l": [
+    "**Above** the line: gut lining, **columnar**; **visceral** nerves, so **no pain**; drains to the **portal** system → **internal haemorrhoids** bleed bright red **painlessly**.",
+    "**Below** the line: skin, **squamous**; **somatic** pudendal nerves, so it **hurts** → **external haemorrhoids** are painful, worst when **thrombosed**. An **anal fissure** is a tear in this sensitive skin, usually **posterior midline**: **sphincter spasm** cuts its blood supply and stops it healing.",
+    "**Anal glands** open at the dentate line: a blocked, infected gland → **perianal abscess**; the tunnel it burrows to the skin → **fistula**. Recurrent or complex: think **Crohn's**."
+   ]
+  },
+  {
+   "id": "gutisch",
+   "t": "Gut ischaemia: pain out of proportion",
+   "u": [
+    49,
+    38
+   ],
+   "l": [
+    "**Acute mesenteric ischaemia**: sudden block of the **superior mesenteric artery**, usually an **embolus from AF**, sometimes thrombosis on atheroma → the small bowel dies from the inside out → severe pain with a **soft abdomen** at first = **pain out of proportion**, rising **lactate**, then peritonitis and sepsis.",
+    "**Chronic mesenteric ischaemia**: narrowed gut arteries cannot meet the extra demand after eating → **pain after meals**, fear of food, **weight loss**: angina of the gut.",
+    "**Ischaemic colitis**: low flow hits the **watershed** zones, the **splenic flexure** and rectosigmoid → left-sided pain then **bloody diarrhoea**, in older people with vascular disease or after shock or AAA repair."
+   ]
+  },
+  {
+   "id": "ectopic",
+   "t": "PID and ectopic pregnancy: a scarred tube",
+   "u": [
+    47,
+    49
+   ],
+   "l": [
+    "**PID**: chlamydia or gonorrhoea **ascend** from the cervix to the uterus and tubes → pelvic pain, **cervical motion tenderness**, discharge, fever; healing leaves **scarred tubes**.",
+    "A damaged tube slows the embryo, which implants in the **tube**. Risks: previous PID or ectopic, tubal surgery, IVF, pregnancy with a coil. The tube **cannot stretch** → pain and bleeding at about **6 to 8 weeks**, then **rupture** → bleeding into the abdomen, **shock**, shoulder-tip pain.",
+    "**hCG rises more slowly than expected** with **no pregnancy in the uterus** on ultrasound: every woman of reproductive age with abdominal pain gets a **pregnancy test**."
+   ]
+  },
+  {
+   "id": "scrotum",
+   "t": "Acute scrotum: twist vs infection",
+   "u": [
+    83,
+    82,
+    81
+   ],
+   "l": [
+    "**Torsion**: a testis not anchored at the back, the **bell-clapper** testis, twists on its cord → veins block first, then arteries → infarction within hours: **sudden** severe pain in a **teenager**, high-riding horizontal testis, **absent cremasteric reflex**; straight to theatre, no scan delay.",
+    "**Epididymo-orchitis**: infection **ascends** from the urethra or bladder: **chlamydia or gonorrhoea** under 35, **E. coli** in older men → **gradual** pain and swelling at the **back** of the testis, often dysuria or discharge, cremasteric reflex usually kept. Pain easing on lifting, Prehn's sign, is **unreliable**.",
+    "**Torsion of a testicular appendage**: younger boys, pain at the **upper pole**, sometimes a **blue dot**."
+   ]
+  },
+  {
+   "id": "thyrotox",
+   "t": "Too much thyroid hormone: overmaking vs leaking",
+   "u": [
+    72,
+    73
+   ],
+   "l": [
+    "**Overmaking**, the gland is driven: **Graves**, where antibodies switch on the TSH receptor → diffuse goitre, **eye disease**, pretibial myxoedema; or **toxic nodules** working on their own → **high uptake** on a scan; treatment stops production.",
+    "**Leaking**, the gland is damaged: **thyroiditis** spills stored hormone → brief thyrotoxicosis, often then **hypothyroid** before recovery. **De Quervain's** after a viral illness: very **tender** gland, high ESR. **Postpartum**: painless, within a year of delivery. Both → **low uptake**.",
+    "Antithyroid drugs do nothing for leaking because nothing is being made, so treat symptoms with a **beta-blocker**. **Amiodarone** and iodine can push the thyroid either way."
+   ]
+  },
+  {
+   "id": "thiamine",
+   "t": "Thiamine: why alcohol starves the brain's engine",
+   "u": [
+    110
+   ],
+   "l": [
+    "Thiamine is a **cofactor** for the enzymes that feed glucose into **aerobic** energy production: pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, transketolase → without it, the **brain** and **heart** run out of ATP.",
+    "Alcohol cuts intake and absorption → **Wernicke's**: **confusion, eye signs, ataxia**, with nystagmus or ophthalmoplegia; few have all three. Damage to the **mammillary bodies** and thalamus → **Korsakoff's**: memory loss with **confabulation**, often permanent.",
+    "**Glucose first** burns the last thiamine and can tip someone into Wernicke's, so give **IV thiamine, Pabrinex, first** to anyone at risk. In the heart: **wet beriberi**, high-output heart failure."
+   ]
+  },
+  {
+   "id": "shock",
+   "t": "Shock: empty tank, failing pump, blocked pipe or wide-open pipes",
+   "u": [
+    46,
+    51
+   ],
+   "l": [
+    "**Hypovolaemic**, from bleeding or fluid loss: empty tank → **low JVP**, vessels clamp down → **cold, clammy** peripheries; give volume.",
+    "**Cardiogenic**, from MI or arrhythmia: failing pump → blood backs up → **raised JVP and crackles**, cold peripheries; fluid can make it worse.",
+    "**Obstructive**, from tension pneumothorax, tamponade or massive PE: flow is blocked → **raised JVP** with clear lungs; relieve the block.",
+    "**Distributive**, from sepsis, anaphylaxis or spinal cord injury: vessels **dilate** → low resistance, **warm** peripheries early. **Neurogenic** shock has a **slow** pulse because sympathetic drive is lost; the others are fast."
+   ]
+  },
+  {
+   "id": "hormonehtn",
+   "t": "Hormone-driven hypertension: aldosterone, adrenaline, cortisol",
+   "u": [
+    4
+   ],
+   "l": [
+    "**Conn's**, an aldosterone-secreting adenoma or bilateral hyperplasia: salt and water kept, **potassium lost** → hypertension with **low K**, mild alkalosis, **renin suppressed**, so a high aldosterone to renin ratio. In **renal artery stenosis** the poorly perfused kidney drives **renin up**, and renal function drops on an ACE inhibitor.",
+    "**Phaeochromocytoma**: an adrenal medulla tumour releasing **catecholamines** in bursts → **episodic** headache, sweating, palpitations and high BP; measure **metanephrines**; **alpha-blocker before beta-blocker**, or unopposed alpha causes a crisis.",
+    "**Cushing's**: too much cortisol → salt retention, high glucose, central fat, thin skin, **purple striae**, proximal weakness."
+   ]
+  },
+  {
+   "id": "murmurs",
+   "t": "Murmurs: which valve, which phase",
+   "u": [
+    7
+   ],
+   "l": [
+    "In **systole** the aortic valve opens and the mitral valve shuts. So a systolic murmur is a valve that should be open but is **narrow** or one that should be shut but **leaks**.",
+    "**Aortic stenosis**: **ejection systolic**, crescendo-decrescendo, right 2nd intercostal space, **radiates to the carotids**. **Mitral regurgitation**: **pansystolic** at the apex, radiates to the **axilla**.",
+    "**Diastole** flips it. **Aortic regurgitation**, a leaking aortic valve: **early diastolic** at the left sternal edge, patient sitting forward, **collapsing pulse**. **Mitral stenosis**, a narrow mitral valve: **mid-diastolic rumble** at the apex, opening snap, AF from a big left atrium.",
+    "**Left-sided** murmurs are louder in **expiration**, **right-sided** in **inspiration**; **HOCM** gets louder with **Valsalva**: less filling, more obstruction."
+   ]
+  },
+  {
+   "id": "nipple",
+   "t": "Nipple discharge and breast infection: read the duct",
+   "u": [
+    55,
+    54,
+    56
+   ],
+   "l": [
+    "**Bloody** discharge from **one duct** → **intraductal papilloma**, a small growth under the areola: investigate to exclude cancer.",
+    "**Thick, green or cheesy** discharge with a slit-like nipple around the menopause → **duct ectasia**: dilated ducts of stagnant secretions. **Periductal mastitis** in **smokers**: smoke damages the duct walls → abscess and fistula.",
+    "**Lactational mastitis**: milk stasis plus **Staph aureus** through a cracked nipple → a hot, red, painful segment; **keep feeding or expressing**; a fluctuant lump is an **abscess** to drain.",
+    "**Milky** discharge from **both** sides → **galactorrhoea** from high **prolactin**: pregnancy, drugs such as antipsychotics, prolactinoma."
+   ]
+  },
+  {
+   "id": "fh",
+   "t": "Familial hypercholesterolaemia: the LDL door is broken",
+   "u": [
+    5
+   ],
+   "l": [
+    "**Autosomal dominant** fault in the **LDL receptor**, or apoB → the liver cannot pull LDL out of the blood → very high LDL from birth → **tendon xanthomata** on the Achilles and knuckles, **corneal arcus** when young, **early MI**.",
+    "Very high **triglycerides**, from chylomicrons and VLDL, often with alcohol or diabetes, cause **eruptive xanthomas** and **acute pancreatitis** rather than early atheroma.",
+    "Statins block **HMG-CoA reductase** → the liver makes less cholesterol, puts out **more LDL receptors** and clears more LDL."
+   ]
+  },
+  {
+   "id": "legflow",
+   "t": "Varicose veins, lymphoedema and Raynaud's: pressure, drainage, spasm",
+   "u": [
+    64,
+    65,
+    66
+   ],
+   "l": [
+    "**Varicose veins**: **valves fail**, often at the saphenofemoral junction → blood falls back → **venous hypertension** → dilated tortuous veins and aching, then **haemosiderin** staining, eczema, **lipodermatosclerosis** and ulcers.",
+    "**Lymphoedema**: lymph cannot drain. **Primary**: faulty lymphatics. **Secondary**: cancer surgery or radiotherapy, filariasis → protein-rich fluid → **non-pitting** swelling with time, thick skin, **Stemmer's sign**: you cannot pinch the skin at the base of the second toe.",
+    "**Raynaud's**: digital arteries **spasm** with cold or stress → **white** → **blue** → **red** as blood rushes back. **Secondary** Raynaud's, with systemic sclerosis or SLE, starts later, is asymmetric and can ulcerate."
+   ]
+  },
+  {
+   "id": "perf",
+   "t": "Perforation: air escapes, the peritoneum burns",
+   "u": [
+    45,
+    32
+   ],
+   "l": [
+    "A hole in the gut wall, from an **anterior duodenal ulcer**, diverticulitis, obstruction or ischaemia, lets **air** and contents out → **free air under the diaphragm** on an erect chest X-ray.",
+    "Gastric acid causes an early **chemical peritonitis**: sudden severe pain, **board-like rigidity**, lying still. Then **bacterial** peritonitis and sepsis; a colonic perforation is faecal from the start.",
+    "**Shoulder-tip pain** is the diaphragm irritated, via the phrenic nerve, C3 to C5. **Posterior** duodenal ulcers **bleed** from the gastroduodenal artery rather than perforate."
+   ]
+  }
+ ]
+}

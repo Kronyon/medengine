@@ -28,7 +28,7 @@ def run(width):
             ov = pg.evaluate('document.documentElement.scrollWidth - document.documentElement.clientWidth')
             if ov > 1: errs.append(f'{label}: horizontal overflow {ov}px')
 
-        if 'v0.6.0 beta' not in pg.text_content('#homeBtn'): errs.append('version badge not 0.6.0')
+        if 'v1.0.0' not in pg.text_content('#homeBtn'): errs.append('version badge not 1.0.0')
         # station: atlas row + showdown chip
         pg.evaluate("location.hash = 's-PP01'"); pg.wait_for_timeout(400)
         if not pg.locator('.mev-atlasrow').count(): errs.append('no atlas row on station')
