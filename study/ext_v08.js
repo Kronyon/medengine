@@ -277,6 +277,9 @@ function rmxLocal(q){
   return {film: words.slice(0, 28).join(' ') + (words.length > 28 ? '…' : ''), trig: rmxLocalTrig(q), rows, beats, units};
 }
 
+/* ----- 🧬 Why it happens: colour the arrows so the movement stands out (only inside the card body, never in attributes) ----- */
+{ const base = rootHtml; rootHtml = function(i, lib){ const h = base(i, lib), k = h.indexOf('<div class="wa">'); return k < 0 ? h : h.slice(0, k) + h.slice(k).replace(/→/g, '<span class="pa-ar">→</span>'); }; }
+
 /* ----- view ----- */
 let rmx = {step: 'home', q: null, card: null, i: 0, pick: null, busy: false, ctl: null, err: '', missOnly: false, sys: '', queue: null, scheduled: false, pendingImg: null};
 const RMX_BEAT = {if: ['🔄', 'Same patient, one clue changed', 'If instead'], flip: ['🔄', 'Change one clue', 'If instead'], twist: ['🧍', 'Change the patient', 'Now'], time: ['⏱', 'Change the timeline', 'Now'], ck: ['🔑', 'Whose clincher is this?', 'Clincher']};

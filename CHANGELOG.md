@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.0 (2026-10-24)
+
+- 🧬 **Why it happens** now has its own section (home screen, and "All cards" on every condition): all **111** mechanism cards grouped by system, with a search box, system chips and **📖 Read all** to open every card and read straight through.
+- **Every card rewritten as movement**: one chain per line, cause → what physically happens → what you see, arrows in every line (coloured so the movement stands out), bold key words, no brackets, contrasts on one shared axis ("A vs B: X vs Y").
+- **33 new cards** for the ILO conditions that had none: acid-base and respiratory failure, Covid and bronchitis, infective diarrhoea, the pain ladder, bladder and kidney cancer, epilepsy, nerve vs junction vs muscle, Bell's palsy, vertigo, the four dopamine roads, serotonin syndrome vs NMS, depression and bipolar, lithium, paracetamol overdose, panic/phobia/PTSD/OCD, delirium, catatonia and ECT, eating disorders and refeeding, perinatal mental health, ADHD, urticaria, eczema vs psoriasis, acne, skin infections, ears, sore throats and the child's airway, sinusitis, nosebleeds, sleep apnoea, the red eye, glaucoma, cataract/AMD/detachment, orbital cellulitis.
+- Tests: `study/test_study_v11.py`; all earlier suites pass.
+
 ## 1.0.0 (2026-10-24)
 
 medengine v1.0. Same app, same screens, deeper "why". Saved progress carries over.

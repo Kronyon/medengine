@@ -1,0 +1,484 @@
+#!/usr/bin/env python3
+"""medengine v1.1: every 🧬 Why it happens card rewritten as movement.
+Rules: each line is ONE chain that moves (trigger → what physically happens → what you see), arrows in every line,
+key words in **bold**, no brackets (the eye skips them), no em dashes, contrasts on one shared axis.
+Writes v11_content.json: {"path_rewrite": {id: {"t": title, "l": [lines]}}}."""
+import json, pathlib
+
+C = {}
+def card(i, t, *l): C[i] = {'t': t, 'l': list(l)}
+
+# ---------------- neuro ----------------
+card('gca', 'Giant cell arteritis: inflamed big arteries starve what they feed',
+ '**Granulomas** settle in the walls of big arteries, especially the **temporal** and **ophthalmic** branches → the wall thickens and the lumen narrows → chewing muscles run short of blood → **jaw claudication**, and the eye loses its supply → **sudden visual loss**.',
+ 'The inflammation sits in **skip lesions** → a short biopsy can land on a healthy stretch → a **negative biopsy does not rule it out** → treat on suspicion.',
+ 'The whole body feels the inflammation → **ESR and CRP climb** → it travels with **polymyalgia rheumatica** → it melts away with **steroids**.')
+card('berry', 'Berry aneurysm: a weak spot where arteries fork',
+ 'Where arteries **branch** on the circle of Willis the wall **lacks a muscle layer** → pressure balloons out a thin sac → most often at the **anterior communicating artery**.',
+ 'Anything that weakens walls or raises pressure grows it → **ADPKD**, Marfan, Ehlers–Danlos, **hypertension**, smoking.',
+ 'The sac bursts → blood floods the subarachnoid space → **thunderclap headache** → red cells break down in the CSF → **bilirubin** → a yellow tap, **xanthochromia**, after about 12 hours.')
+card('episub', 'Extradural vs subdural: artery vs bridging vein',
+ '**Extradural**: a **temporal bone fracture** tears the **middle meningeal artery** → high-pressure arterial blood peels dura off bone → a **lens-shaped** clot stopped at the sutures → the patient wakes, talks, then crashes: the **lucid interval**.',
+ '**Subdural**: the brain shrinks with age or alcohol → **bridging veins** stretch across the gap → a minor knock tears them → slow venous ooze spreads freely → a **crescent** that crosses sutures → **fluctuating confusion** over days to weeks.')
+card('herniation', 'Raised ICP: a full box squeezes brain through the exits',
+ 'The skull is a **fixed box** → add a mass, blood or swelling → pressure rises → the brain has nowhere to go but through the openings.',
+ '**Uncal herniation**: the temporal lobe slides over the tentorium → crushes **CN III** → a **blown pupil**, eye down and out. **Tonsillar herniation**: the cerebellum plugs the **foramen magnum** → squeezes the **brainstem** → breathing stops → so **no LP** with a mass.',
+ 'The downward shift stretches pontine vessels → they tear → **Duret haemorrhages** in the brainstem.')
+card('brainmets', 'Brain tumours: metastases first in adults, below the tentorium in children',
+ 'Cancer cells ride the blood to the brain → they drop out where vessels narrow at the **grey-white junction** → **several round lesions** → most adult brain tumours are **metastases**: lung, breast, melanoma, kidney, bowel.',
+ '**Glioblastoma** grows fast → outgrows its blood supply → **central necrosis** → crosses the corpus callosum as a **butterfly**. **Meningioma** grows slowly from the dura → **pushes rather than invades**.',
+ "Children's tumours sit **below the tentorium** → they press on the cerebellum and fourth ventricle → **ataxia** and **hydrocephalus**.")
+card('mening', 'Meningitis: who gets which bug, and what the CSF shows',
+ 'Age picks the bug → **neonates**: Group B strep, E. coli, **Listeria** → children and young adults: **N. meningitidis** → older adults: **Strep pneumoniae**, with Listeria back in the old and immunosuppressed.',
+ '**Bacteria** eat glucose and call neutrophils → **neutrophils, low glucose**, high protein. **Viruses** call lymphocytes and leave the sugar → **lymphocytes, normal glucose**. **TB** smoulders → lymphocytes, low glucose, **very high protein**.',
+ 'Healing scars the meninges → CSF cannot drain → **hydrocephalus**, plus **deafness** and seizures.')
+card('mnd', 'Motor neurone disease: both motor wires fail, sensation untouched',
+ 'The **upper** motor neurones in the brain and cord and the **lower** motor neurones in the anterior horn both die → both pictures appear at once → **spasticity and brisk reflexes** beside **wasting and fasciculations**.',
+ 'The sensory tracts are spared → **no numbness** → that separates it from cord compression; some familial cases come from **SOD1** mutations and free radical damage.',
+ 'The breathing muscles weaken too → **respiratory failure** → the usual cause of death.')
+
+# ---------------- cardiovascular ----------------
+card('atheroma', 'Atherosclerosis: from fatty streak to rupture',
+ 'Smoking, hypertension, diabetes and high **LDL** injure the endothelium → LDL slips into the wall and oxidises → macrophages swallow it → **foam cells** → a **fatty streak**.',
+ 'Smooth muscle migrates in and lays down matrix → a **fibrous cap** forms over a soft lipid core.',
+ 'A **stable plaque** slowly narrows the lumen past about 70% → pain on demand → **stable angina, claudication**. A thin cap **ruptures** → the core meets blood → **thrombus** in minutes → **ACS, stroke, acute limb ischaemia**.')
+card('mi', 'Myocardial infarction: what the dying muscle does, day by day',
+ '**First hours**: nothing visible yet, but the starving edge fires chaotically → **arrhythmias**, the main early killer → by **4 to 24 hours** coagulative necrosis sets in.',
+ '**Days 1 to 3**: neutrophils pour in → the surface inflames → **pericarditis** with a rub. **Days 4 to 7**: macrophages clear dead muscle → the wall is at its softest → **rupture**: free wall → **tamponade**, septum → **VSD**, papillary muscle → **acute MR**.',
+ '**Weeks**: granulation tissue → scar → a thin bulging **ventricular aneurysm** with **mural thrombus**; weeks later an autoimmune **Dressler\'s pericarditis**.')
+card('dissection', 'Aortic dissection: blood splitting the wall',
+ 'A weak media, from **hypertension** most often or **Marfan** and Ehlers–Danlos, takes the pounding of the proximal aorta → an **intimal tear** → blood forces its way along the **media** → the wall splits → **tearing pain through to the back**.',
+ 'The false channel runs both ways → back into the pericardium → **tamponade**; into the root → **aortic regurgitation**; across branch origins → **unequal arm pulses**, stroke, gut or kidney ischaemia.')
+card('aaa', 'Abdominal aortic aneurysm: why below the renals',
+ 'Atheroma thickens the inner wall → oxygen from the lumen cannot reach the outer media → the **infrarenal aorta** has few vasa vasorum to make up for it → the media starves, weakens and **balloons**.',
+ 'Classic in older male **smokers** → the wider it gets, the higher the wall tension → the more likely it **ruptures** → **low BP, a pulsatile mass, back or flank pain**.')
+card('as', 'Aortic stenosis: calcium and the squeezed ventricle',
+ 'With age, or decades earlier on a **bicuspid** valve, the leaflets **calcify** → the opening narrows → the ventricle has to squeeze harder → it thickens: **concentric LVH**.',
+ 'Thick muscle needs more blood than the coronaries can give → **angina**; output is fixed, so exertion drops BP → **syncope**; the stiff ventricle backs up → **breathlessness** → once symptoms start, survival without a new valve is short.',
+ 'Blood jets through the narrow valve → an **ejection systolic murmur to the carotids** → the turbulence can shred red cells → **haemolysis**.')
+card('mr_rhd', 'Rheumatic heart disease: antibodies aimed at strep hit the heart',
+ '**Group A strep** sore throat → antibodies against the bacterial **M protein** → they also fit heart proteins: **molecular mimicry** → acute rheumatic fever.',
+ 'Years of repeated inflammation scar the mitral valve → **mitral stenosis** → the left atrium strains and swells → **AF** and **atrial thrombus**.',
+ 'Scarred valves catch passing bacteria → **infective endocarditis** later.')
+card('hf', 'Heart failure: left backs up into the lungs, right into the body',
+ 'The **left** ventricle fails → blood backs up into the lungs → fluid leaks into the alveoli → **pulmonary oedema**, worse lying flat → **orthopnoea and PND**.',
+ 'The **right** ventricle fails, usually because the left failed first → blood backs up into the body → **raised JVP**, a congested **nutmeg liver**, **ankle oedema**.',
+ 'Low output fools the kidneys into thinking the body is dry → **RAAS** switches on → salt and water are kept → more congestion → the loop that **ACE inhibitors, MRAs and diuretics** break.')
+card('vte', "Thrombosis: Virchow's triad and how a DVT becomes a PE",
+ "**Virchow's triad**: blood that **pools**, a wall that is **injured**, blood that clots **too easily** → surgery, cancer, pregnancy and the pill load all three.",
+ 'A clot grows in the deep veins of the leg → a piece breaks off → travels through the right heart → lodges in the pulmonary arteries → **PE**.',
+ 'A big **saddle embolus** blocks outflow → the right ventricle strains and fails → **sudden collapse**. A true clot shows **lines of Zahn**, layers laid down in flowing blood.')
+
+# ---------------- respiratory ----------------
+card('pneumonia', 'Pneumonia patterns: whole lobe vs patchy vs between the air sacs',
+ '**Lobar**, from Strep pneumoniae: bacteria spread through a whole lobe → it fills with fluid and cells → a **solid lobe** → bronchial breathing, dull to percussion.',
+ '**Bronchopneumonia**, from Staph aureus or H. influenzae: infection centred on small airways → **patchy** consolidation across several lobes.',
+ '**Atypical**, from Mycoplasma, Legionella or viruses: inflammation in the walls between air sacs → **looks worse on X-ray than it sounds**. **Aspiration** falls down the straighter **right main bronchus** → **right lower lobe**.')
+card('tb', 'Tuberculosis: walled off, then breaking out at the apex',
+ 'Inhaled bacilli → macrophages swallow them but cannot kill them → **Th1 cells** release IFN-γ → macrophages wall them off in **caseating granulomas** → a **Ghon focus** plus a hilar node.',
+ 'Years later immunity drops → bacteria wake where oxygen is richest, the **apices** → tissue liquefies → **cavities** → **haemoptysis** → spread through blood → **miliary TB**.',
+ 'Anything that weakens T cells wakes it → **HIV, steroids, anti-TNF drugs**, diabetes, malnutrition.')
+card('asthma_copd', 'Asthma vs COPD: spasm that reverses vs walls that are gone',
+ '**Asthma**: an allergen → **Th2** cells → IL-4 makes IgE, IL-5 calls eosinophils → airways spasm and fill with mucus → **wheeze that reverses** with a bronchodilator.',
+ '**Chronic bronchitis**: smoke enlarges the mucus glands → **productive cough** for 3 months in 2 years → mucus narrows and traps.',
+ '**Emphysema**: proteases outnumber their inhibitors → alveolar walls dissolve → lungs lose **elastic recoil** → airways collapse on breathing out → **air trapping**. Smoking hits the **upper lobes**; **alpha-1 antitrypsin** deficiency hits the **lower lobes** young.')
+card('bronchiect', 'Bronchiectasis: damaged airways that cannot clear',
+ 'Infection plus **blocked or poorly cleared airways** → inflammation destroys the wall → the bronchi **permanently widen**.',
+ 'Wide airways cannot clear mucus → it pools → bacteria grow → more inflammation → more damage: a **vicious cycle** of **daily purulent sputum**.',
+ "Starting points → **cystic fibrosis**, broken cilia in **Kartagener's** with situs inversus, a tumour or foreign body, severe pneumonia, **ABPA**.")
+card('restrictive', 'Restrictive lung disease: stiff lungs that cannot fill',
+ 'Repeated injury → **TGF-β** drives fibrosis → stiff, **honeycombed** lungs → small volumes with an FEV1/FVC that is **normal or high** → **fine end-inspiratory crackles**.',
+ '**Hypersensitivity pneumonitis**: breathing in birds or mould → granulomas in the small airways → **breathless hours after exposure**.',
+ '**Asbestos** fibres sink to the **lower lobes** → fibrosis and **pleural plaques** → a higher risk of **lung cancer** than of mesothelioma; coal and silica settle in the **upper lobes**.')
+card('lungca', 'Lung cancer: where it sits and what it secretes',
+ '**Small cell**: central neuroendocrine cells → they secrete hormones → **ADH** → SIADH, **ACTH** → Cushing\'s, calcium-channel antibodies → **Lambert–Eaton** weakness → spreads early → chemotherapy, not surgery.',
+ '**Squamous cell**: central in smokers → makes **PTHrP** → **hypercalcaemia**. **Adenocarcinoma**: peripheral → the commonest type in **non-smokers and women**.',
+ "At the **apex** it invades the sympathetic chain → **Horner's**; pressing the SVC → **swollen face and arms**; catching the recurrent laryngeal nerve → **hoarse voice**.")
+card('effusion', 'Transudate vs exudate: pushed out vs leaked out',
+ '**Transudate**: vessels are intact but **pressure pushes** fluid out, as in heart failure, or **low albumin** cannot hold it in, as in nephrotic syndrome or cirrhosis → **protein-poor** fluid.',
+ '**Exudate**: inflammation or cancer makes vessels **leaky** → protein and cells escape → **protein-rich** fluid → pneumonia, TB, malignancy.',
+ 'A torn or blocked **thoracic duct**, often from lymphoma → **milky chylothorax** full of triglyceride.')
+card('ptx', 'Pneumothorax: primary vs secondary vs tension',
+ '**Primary**: tall thin young men grow **apical blebs** → one pops → air enters the pleural space → the lung collapses away from the chest wall.',
+ '**Secondary**: already diseased lung, such as emphysema, ruptures → even a small pneumothorax causes **far more trouble**.',
+ '**Tension**: a flap lets air in but not out → pressure builds with each breath → the **mediastinum shifts away** → venous return is choked → **shock** → decompress before the X-ray.')
+
+# ---------------- GI ----------------
+card('barrett', "Barrett's oesophagus to adenocarcinoma",
+ 'Acid keeps washing up the oesophagus → the squamous lining swaps to tougher **columnar cells with goblet cells** → **metaplasia**, a protective change.',
+ 'Ongoing damage → metaplasia → dysplasia → **adenocarcinoma** of the **lower third**. **Squamous cell carcinoma** grows higher up instead → smoking, alcohol, very hot drinks.')
+card('achalasia', 'Achalasia: the gate that will not open',
+ 'The nerve cells in the **myenteric plexus** that tell the lower sphincter to relax are lost → the sphincter **stays shut** → peristalsis fades.',
+ 'Food and drink pile up above the closed gate → **dysphagia to solids and liquids from the start**, regurgitation → a **bird\'s beak** on barium; **Chagas disease** does the same in South America.',
+ 'Stagnant food irritates the lining for years → a higher risk of **squamous cell carcinoma**.')
+card('mwvar', 'Mallory–Weiss vs Boerhaave vs varices: a tear, a burst, a bursting vein',
+ '**Mallory–Weiss**: forceful retching → a **tear in the lining** at the junction → a small **bleed after vomiting** that usually stops.',
+ '**Boerhaave**: the same force goes **through the full wall** → air and contents escape into the mediastinum → **chest pain, surgical emphysema, sepsis**.',
+ '**Varices**: cirrhosis raises **portal pressure** → blood detours through the left gastric vein into **oesophageal veins** → they swell thin and burst → **massive painless haematemesis**.')
+card('pud', 'Peptic ulcers: what strips the defences, and which artery bleeds',
+ '**H. pylori** or **NSAIDs** strip the defences → NSAIDs cut prostaglandins → less mucus, bicarbonate and blood flow → acid digests the lining → an **ulcer**.',
+ '**Duodenal**: food buffers the acid → pain **eases with meals** → an anterior ulcer **perforates** into the peritoneum, a posterior one erodes the **gastroduodenal artery** and bleeds.',
+ '**Gastric**: food brings acid → pain **worse with meals** → a lesser-curve ulcer erodes the **left gastric artery**; some gastric ulcers are cancers → **biopsy them**.')
+card('coeliac', 'Coeliac disease: gluten flattens the duodenum',
+ '**Gliadin** from gluten → tissue transglutaminase modifies it → it fits **HLA-DQ2 or DQ8** → T cells attack the duodenal lining.',
+ 'The villi flatten → **villous atrophy** → the absorbing surface shrinks → the **duodenum** fails first → **iron and folate** deficiency → then diarrhoea, bloating, weight loss.',
+ 'The body makes **anti-tTG IgA** → the blood test, if total IgA is normal → the same reaction in skin → **dermatitis herpetiformis** → untreated, a risk of **intestinal lymphoma**.')
+card('ibd', "Crohn's vs UC: deep and patchy vs shallow and continuous",
+ "**Crohn's**: inflammation goes **through the whole wall** and jumps about, mouth to anus, mostly the **terminal ileum** → full-thickness damage → **fistulae and strictures**, cobblestones, **non-caseating granulomas**; smoking makes it worse.",
+ '**UC**: inflammation stays in the **lining** and spreads **continuously up from the rectum** → **bloody diarrhoea**, crypt abscesses → a featureless **lead-pipe colon** → links with **PSC**; smoking seems protective.',
+ 'Years of inflamed colon → **colorectal cancer** risk → higher in UC the longer and wider it has been.')
+card('appendix', 'Appendicitis: blocked tube, then the pain moves',
+ 'The lumen blocks, with lymphoid swelling in children or a **faecolith** in adults → mucus builds behind it → the appendix swells → veins compress → the wall goes ischaemic → bacteria invade.',
+ "At first only the gut's own nerves feel it → vague **central pain** → inflammation reaches the **parietal peritoneum** → pain moves to **McBurney's point** in the right iliac fossa.",
+ 'The dead wall gives way → **perforation** → peritonitis or an abscess.')
+card('divert', 'Diverticula: pressure pushes pouches out',
+ 'Low fibre and straining raise pressure in the colon → lining pushes out where the **vasa recta** pierce the muscle → **false diverticula**, mostly in the **sigmoid**.',
+ 'Faeces plug a pouch → inflammation → **diverticulitis**, left iliac fossa pain and fever; a vessel at a pouch neck erodes → **painless heavy rectal bleeding**; inflamed bowel sticks to bladder → a **colovesical fistula**, air in the urine.',
+ '**Angiodysplasia**: fragile, dilated vessels in the **caecum**, where wall tension is highest → **painless bleeding** in the elderly.')
+card('crc', 'Colorectal cancer: two roads, two sides',
+ '**The polyp road**: lose **APC** → a polyp grows → gain **KRAS** → it grows faster → lose **p53** → it invades. **The mismatch repair road**: faulty DNA repair, as in **Lynch syndrome** → errors pile up → **right-sided cancers in younger people**.',
+ '**Left-sided** tumours narrow a tube of solid stool → **change in habit, obstruction, fresh blood**. **Right-sided** tumours bleed slowly into liquid stool → hidden loss → **iron deficiency anaemia** and a mass.',
+ '**CEA** tracks recurrence → Strep gallolyticus in the blood → look for a colorectal cancer.')
+card('ibs', 'IBS: a sensitive gut with nothing broken',
+ 'Gut–brain signalling is turned up → normal stretching is felt as **pain** → movement speeds up or slows → **diarrhoea, constipation or both**.',
+ 'Pain **eases after opening the bowels**, with bloating → nothing structural or inflammatory is found → bloods, calprotectin and coeliac serology are **normal**.',
+ 'Stress and some foods turn the volume up → more common in **young and middle-aged women** → weight loss, bleeding or new symptoms over 60 point **elsewhere**.')
+card('panc', 'Acute pancreatitis: the gland digests itself',
+ 'A gallstone blocks the duct or **alcohol** injures acinar cells → **trypsin switches on inside the pancreas** → it activates the other enzymes → the gland **digests itself**.',
+ 'Lipase frees fatty acids → they grab **calcium** → **hypocalcaemia**; blood tracks to the flank → **Grey Turner\'s**, or to the umbilicus → **Cullen\'s**.',
+ 'Leaked fluid walls itself off → a **pseudocyst** with no true lining. Repeated attacks → **chronic pancreatitis** → calcification → **steatorrhoea and diabetes**.')
+card('gallstones', 'Gallstones: what bile is carrying decides the stone',
+ 'Too much **cholesterol** in bile → it crystallises → **cholesterol stones**, favoured by being female, oestrogen, obesity, rapid weight loss; too much **bilirubin** from haemolysis → **pigment stones**.',
+ 'A stone plugs the gallbladder neck briefly → **biliary colic** → it stays → **acute cholecystitis** → years of irritation → a **porcelain gallbladder** with a cancer risk.',
+ 'A stone in the common bile duct with bacteria behind it → **ascending cholangitis** → sepsis and jaundice.')
+card('jaundice', 'Jaundice: before, in or after the liver',
+ "**Before the liver**: red cells break down too fast, or the conjugating enzyme is lazy as in **Gilbert's** → **unconjugated** bilirubin builds up → it is not water-soluble → **urine stays normal**.",
+ '**After the liver**: a stone or tumour blocks the duct → **conjugated** bilirubin backs up into blood → spills into urine → **dark urine, pale stools, itching**, high ALP and GGT.',
+ '**In the liver**: hepatitis or cirrhosis damages the cells → handling and draining both fail → a **mixed** picture with very high **ALT and AST**.')
+card('pancca', 'Pancreatic cancer: the silent squeeze on the bile duct',
+ 'A smoker\'s **adenocarcinoma** in the **head** squeezes the bile duct → **painless obstructive jaundice** → bile backs up into a **palpable gallbladder** → tail tumours grow silently and present late.',
+ 'The tumour makes blood clot → **migratory thrombophlebitis**; it destroys islets → **new diabetes** → **CA19-9** rises → prognosis is poor.')
+
+# ---------------- haematology ----------------
+card('ida', 'Iron deficiency: stores empty first, cells shrink last',
+ 'Iron is lost faster than it is absorbed → **periods and pregnancy**, poor diet, coeliac disease, and in older adults **GI bleeding** from bowel cancer.',
+ 'Stores empty first → **ferritin falls** → the transporter rises → **TIBC up** → then blood iron falls → then new red cells come out **small and pale**.',
+ 'Iron is absorbed in the **duodenum** → coeliac disease damages the duodenum first → **iron deficiency early**.')
+card('haemolysis', 'Haemolysis: eaten in the spleen vs burst in the vessels',
+ '**Extravascular**: spleen macrophages eat coated or misshapen red cells → the spleen works hard and **enlarges** → bilirubin rises → **jaundice** and pigment gallstones → spherocytes in hereditary spherocytosis.',
+ '**Intravascular**: red cells **burst in the bloodstream** → free haemoglobin uses up **haptoglobin** → spills into urine → **dark urine, haemoglobinuria**.',
+ 'In both, cells break → **LDH rises** → the marrow answers → **reticulocytes rise**; a **direct Coombs test** shows antibody stuck to the cells.')
+card('b12', 'B12 vs folate: same blood, different nerves',
+ 'Both are needed to make DNA → without either, red cell precursors grow but cannot divide → **big megaloblastic cells** and **hypersegmented neutrophils** → homocysteine rises in both.',
+ 'Only **B12** also keeps myelin healthy → deficiency raises **methylmalonic acid** → myelin fails → **subacute combined degeneration**: numb feet, lost vibration and position sense.',
+ '**Pernicious anaemia** antibodies block intrinsic factor → no B12 absorbed at the terminal ileum → **folate alone** fixes the blood but lets nerves degenerate → **replace B12 first**.')
+
+# ---------------- liver / renal / urology ----------------
+card('alcohol', 'Alcohol and the liver: fat, then fire, then scar',
+ 'Alcohol loads the liver → fat builds up → **fatty liver**, reversible → keep drinking → inflammation → **alcoholic hepatitis** with an **AST to ALT ratio above 2** → keep going → fibrosis and nodules → **cirrhosis**.',
+ 'Scar resists blood flow → **portal hypertension** → varices, ascites, a big spleen; failing cells → **low albumin, poor clotting**, encephalopathy.',
+ "The liver cannot clear oestrogen → **spider naevi, palmar erythema, gynaecomastia** → years of regeneration → **hepatocellular carcinoma** risk.")
+card('stones', 'Kidney stones: four reasons urine crystallises',
+ "**Calcium** stones, the commonest: too much calcium in the urine → from hypercalcaemia, or Crohn's absorbing more oxalate → crystals → stones.",
+ '**Struvite**: **Proteus** splits urea → urine turns **alkaline** → magnesium ammonium phosphate crystallises → big **staghorn** stones → treat the infection and remove the stone.',
+ '**Uric acid**: acidic urine, **gout** or high cell turnover → **radiolucent** stones → hydrate and alkalinise. **Cystine**: an inherited transport fault → **hexagonal** crystals from childhood.')
+card('uti', 'UTI: bacteria climbing upstream',
+ 'Gut bacteria, mostly **E. coli**, climb the urethra → a **short female urethra** makes it easy → the bladder inflames → **dysuria and frequency**.',
+ 'Reflux, obstruction or pregnancy lets them keep climbing → the kidney is infected → **pyelonephritis** → **fever, loin pain**, white cell casts.',
+ 'Repeated infection with reflux → the kidney scars → **chronic pyelonephritis** → small, scarred kidneys.')
+card('aki', 'AKI: before, in or after the kidney',
+ '**Pre-renal**: low perfusion, but the tubules still work → they hold on to sodium and urea → **urine sodium low**, **urea rises more than creatinine**.',
+ '**Tubular necrosis**: ischaemia or toxins such as aminoglycosides, contrast or myoglobin kill tubular cells → they slough off as **muddy brown casts** → the tubules cannot hold sodium → **urine sodium high**.',
+ '**Post-renal**: prostate, stones or cancer block the flow → urine backs up → **hydronephrosis** → caught early it behaves like pre-renal, left long it kills the tubules.')
+card('prostate', 'BPH vs prostate cancer: the middle zone vs the back zone',
+ '**BPH**: **DHT** drives growth in the **transition zone** around the urethra → it squeezes the urethra → **hesitancy, poor stream, retention** → it is not a precancer.',
+ '**Cancer**: grows in the **peripheral zone** at the back → the urethra is spared early, so often silent → felt as a **hard nodule on DRE** → PSA rises.',
+ 'It spreads through veins to the **lumbar spine** → **sclerotic bone metastases** and back pain → it feeds on androgens → **androgen deprivation** treats it.')
+card('testis', 'Scrotal lumps: what each swelling is made of',
+ '**Germ cell tumours** in men 15 to 40, more after an **undescended testis** → a painless hard lump → spread up the testicular lymphatics to the **para-aortic nodes** → **seminoma** makes no AFP, **yolk sac** makes **AFP**, **choriocarcinoma** makes **hCG**.',
+ '**Varicocele**: the left testicular vein drains at a right angle into the **left renal vein** → pressure backs up → a **bag of worms** on the left → a new one in an older man → think **renal cancer** blocking that vein.',
+ '**Hydrocele**: fluid collects in the **tunica vaginalis** → a smooth swelling that **transilluminates**. **Torsion** twists the cord → veins block first → the testis swells and infarcts.')
+
+# ---------------- endocrine ----------------
+card('thyroid', 'Thyroid: switched on, switched off, and the four cancers',
+ '**Graves**: antibodies **switch on the TSH receptor** → the whole gland overworks → thyrotoxicosis with a **diffuse goitre** → the same antibodies inflame the orbit → **exophthalmos**, and the shins → pretibial myxoedema.',
+ "**Hashimoto's**: an anti-TPO immune attack destroys follicles → **hypothyroidism** with a firm goitre → a small risk of thyroid **lymphoma**.",
+ 'Cancers → **papillary**, the commonest, spreads to nodes and does well → **follicular** spreads by blood and needs **capsular invasion**, so a needle sample cannot tell it from an adenoma → **medullary** comes from C cells → **calcitonin**, with **MEN2** → **anaplastic** grows fast in the elderly.')
+card('diabetes', 'Diabetes: no insulin vs ignored insulin, and why vessels and nerves fail',
+ '**Type 1**: T cells destroy beta cells → **no insulin** → glucose cannot enter cells → the body burns fat → **weight loss** and **DKA**.',
+ '**Type 2**: obesity makes cells **resist insulin** → beta cells overwork, then tire → relative deficiency → slower hyperglycaemia and **HHS**.',
+ 'High glucose sticks sugar onto vessel walls → **atherosclerosis** and thick small arteries → the kidney leaks albumin → **nephropathy**; glucose turns to **sorbitol** inside nerves, retina and lens → they swell and fail → **neuropathy, retinopathy, cataracts**.')
+card('dka', 'DKA vs HHS: no insulin vs a little insulin',
+ '**DKA**: **no insulin** → fat breaks down → the liver turns fatty acids into **ketones** → acid builds → **high anion gap acidosis** → deep **Kussmaul breathing**, fruity breath.',
+ 'Glucose pours into urine dragging water → **osmotic diuresis** → dehydration; acid pushes potassium out of cells → serum **K normal or high** while the body is **depleted** → it **crashes once insulin starts** → replace it.',
+ '**HHS**: just enough insulin to stop ketones, not enough to control glucose → glucose climbs for days → **extreme glucose and osmolality** → profound dehydration and **confusion** in older type 2 patients.')
+card('hypo', 'Hypoglycaemia: C-peptide tells you who made the insulin',
+ 'The pancreas makes insulin and **C-peptide** together, one for one → an **insulinoma** makes both → **high insulin, high C-peptide** → sulfonylureas push the pancreas → the same picture.',
+ '**Injected insulin** carries no C-peptide → **high insulin, low C-peptide** → think overdose or factitious use.',
+ "Low glucose starves the brain → confusion, sweating, shaking → **Whipple's triad**: symptoms, low glucose, relief with glucose.")
+card('adrenal', 'Adrenal insufficiency: why sodium falls and potassium rises',
+ "**Addison's**: the adrenal cortex is destroyed, usually autoimmune → **cortisol** and **aldosterone** both fall → salt is lost and potassium kept → **low Na, high K**, low BP, collapse.",
+ 'The pituitary shouts for cortisol → **ACTH** rises → it shares a precursor with **MSH** → **pigmented skin** and gums; pituitary failure gives low ACTH → **no pigmentation**, and aldosterone survives.',
+ '**Meningococcal sepsis** → DIC → bleeding into both adrenals → **Waterhouse–Friderichsen**: sudden adrenal crisis.')
+card('adh', 'DI vs SIADH: too little water kept vs too much',
+ '**Central DI**: no ADH from a damaged pituitary → the kidneys cannot hold water → **huge dilute urine**, high sodium → water deprivation fails → **desmopressin works**.',
+ '**Nephrogenic DI**: ADH is there but the kidney ignores it, classically with **lithium** → desmopressin **does nothing**.',
+ '**SIADH**: too much ADH from **small cell lung cancer**, brain injury, pneumonia or drugs → water is kept → blood dilutes → **low sodium, concentrated urine** → the brain swells → confusion and fits → restrict fluid.')
+card('calcium', 'Hypercalcaemia: PTH driving it vs PTH switched off',
+ '**Primary hyperparathyroidism**: an adenoma makes **PTH** regardless → bone releases calcium, kidneys keep it, phosphate is lost → **high calcium with high or normal PTH** → stones, bones, groans, low mood.',
+ '**Malignancy**: tumours make **PTHrP**, as squamous lung cancer does, or eat bone through **metastases or myeloma** → calcium rises → the parathyroids switch off → **PTH low**.',
+ '**Secondary hyperparathyroidism**: CKD or low vitamin D drops calcium → PTH climbs to compensate → **high PTH, low or normal calcium**.')
+
+# ---------------- breast / MSK / skin / general ----------------
+card('breast', 'Breast lumps: benign biology vs malignant biology',
+ '**Fibroadenoma**: an oestrogen-sensitive overgrowth of stroma and glands → a smooth, **mobile breast mouse** in young women that grows in pregnancy → **phyllodes**, its stromal cousin, grows fast in older women and can turn malignant.',
+ '**Fibrocystic change**: cyclical hormones → cysts and fibrosis → **lumpy, tender breasts** before periods → only **atypical hyperplasia** meaningfully raises cancer risk.',
+ '**Cancer**: DCIS calcifies → seen on a mammogram → it breaks out of the duct → **invasive ductal**, a hard irregular lump; **lobular** cells lose **E-cadherin** → they grow in single file, often both sides; tumour in the skin lymphatics → **peau d\'orange**; **ER, PR and HER2** decide treatment.',
+ '**Gynaecomastia**: oestrogen rises relative to testosterone → cirrhosis, spironolactone, digoxin, testicular tumours → male breast tissue grows.')
+card('joints', 'Hot joints vs worn joints: crystals, bugs and wear',
+ "**Osteoarthritis**: years of load from age, weight or old injury → **cartilage wears away** → bone meets bone → it **thickens** and grows **osteophytes** at the edges → pain **worse with use**, brief morning stiffness → **Heberden's nodes** on the end finger joints, **Bouchard's** on the middle ones.",
+ '**Gout**: too much urate made or too little excreted, pushed by alcohol, meat or diuretics → urate crystallises in a cool joint, classically the **big toe** → neutrophils attack the **needle-shaped, negatively birefringent** crystals → a **red hot joint** overnight → years of it → **tophi**.',
+ '**Pseudogout**: **calcium pyrophosphate** crystals, **rhomboid and positively birefringent** → the same red hot joint → usually the **knee of an older person**.',
+ '**Septic arthritis**: bacteria seed the joint, usually **Staph aureus**, or **gonorrhoea** in young sexually active adults → pus destroys cartilage in days → **aspirate first**. **Reactive arthritis**: a gut or chlamydia infection elsewhere → **HLA-B27** immune crossfire → **arthritis, urethritis, conjunctivitis**.')
+card('ulcers', 'Leg ulcers: high pressure vs no flow vs no feeling',
+ '**Venous**: valves fail → blood pools → **venous hypertension** → capillaries leak protein and red cells → skin starves behind fibrin → **shallow, wet ulcers at the medial malleolus** with **brown haemosiderin** staining.',
+ '**Arterial**: atheroma narrows the arteries → tissue starves → **painful, punched-out ulcers on the toes and pressure points** → rest pain at night, cold pale feet.',
+ '**Diabetic**: **neuropathy** removes pain and **small vessel disease** slows healing → **painless ulcers under pressure points** like the metatarsal heads.')
+card('necrosis', 'Necrosis: how dead tissue looks depends on how it died',
+ 'Blood supply stops to most organs → cells die but their **outlines stay** → **coagulative necrosis**, as in heart and limbs → a limb that dies this way dries out → **dry gangrene**.',
+ 'Add infection → enzymes liquefy the tissue → **wet gangrene**; the **brain** and **abscesses** always die this way → **liquefactive necrosis**.',
+ '**TB** leaves cheesy dead tissue → **caseous necrosis**; pancreatic enzymes or breast trauma digest fat → **fat necrosis**.')
+card('skinca', 'Skin cancer: SCC vs BCC vs melanoma',
+ '**SCC**: UV damage, immunosuppression or a chronic wound → **actinic keratosis** first → keratinocytes invade → a **crusting, growing lump** that can spread → often lip, ear, scalp.',
+ '**BCC**: the commonest → basal cells grow slowly → a **pearly rolled edge with telangiectasia** → erodes locally, rarely spreads.',
+ '**Melanoma**: melanocytes multiply and go **deeper** → **Breslow depth** predicts spread → watch for **ABCDE** changes in a mole.')
+card('cellulitis', 'Skin infections by depth: crust, spread, then the fascia',
+ '**Impetigo**: Staph or Strep in the **top layer** of skin → **golden honey crusts**.',
+ '**Cellulitis**: Strep or Staph deeper in the **dermis and fat** → a spreading hot, red, swollen area.',
+ '**Necrotising fasciitis**: bacteria race along the **fascia** → vessels clot → tissue dies under skin that still looks fine → **pain out of proportion**, crepitus, rapid toxicity → **theatre now**.')
+card('sepsis', 'Septic shock: why vessels dilate and blood clots',
+ 'Bacterial products such as **lipopolysaccharide** switch on macrophages → **TNF, IL-1 and nitric oxide** → vessels **dilate** and **leak** everywhere → BP falls despite a racing heart.',
+ 'The same cytokines switch on clotting → microclots use up platelets and factors → **DIC** → bleeding and organ failure; starved tissue switches to anaerobic metabolism → **lactate rises**.')
+card('granuloma', 'Granulomas: caseating vs non-caseating',
+ '**Th1 cells** release IFN-γ → macrophages turn into **epithelioid cells** and fuse into **giant cells** → a wall around something they cannot clear.',
+ "**Caseating**, a cheesy dead centre → **TB** and fungi. **Non-caseating** → **sarcoidosis, Crohn's**, foreign bodies, giant cell arteritis.",
+ '**TNF** holds granulomas together → **anti-TNF drugs** let them fall apart → latent TB escapes → **screen for TB first**.')
+card('neoplasia', 'Adapt, disorder, invade: from hyperplasia to carcinoma',
+ "Stress makes cells adapt → bigger cells: **hypertrophy** → more cells: **hyperplasia** → a swap to a tougher type: **metaplasia**, as in Barrett's or a smoker's airways → reversible if the stress stops.",
+ 'Damage keeps going → cells become disordered → **dysplasia**, still potentially reversible → they break through the **basement membrane** → **carcinoma**.',
+ '**Grade** = how abnormal the cells look → **stage** = how far it has spread → **stage predicts prognosis better**.')
+
+# ---------------- the v1.0 cards, smoothed ----------------
+card('gsladder', 'The gallstone ladder: where the stone sits decides the picture',
+ '**Biliary colic**: a fatty meal → **CCK** squeezes the gallbladder → a stone **briefly** plugs its neck → RUQ pain that **settles within hours** → no fever, normal bloods.',
+ "**Acute cholecystitis**: the stone **stays** → the trapped gallbladder inflames → pain **beyond 6 hours**, **fever**, raised WCC and CRP, **Murphy's sign** → but the common bile duct is open → **no jaundice**.",
+ "**Common bile duct stone**: bile cannot reach the gut → **jaundice**, dark urine, pale stools, **ALP and bilirubin up** → add **infection behind the block** → **cholangitis**: pain, fever, jaundice, **Charcot's triad** → add confusion and low BP → **Reynolds' pentad** → drain it.",
+ 'A stone passing the ampulla → blocks the pancreatic duct → **gallstone pancreatitis**.')
+card('obstruct', 'Bowel obstruction: small vs large, and the twist',
+ '**Blockage** → gut above fills with gas and fluid → **pressure rises** → veins and lymphatics squash first → **wall oedema** → then arteries → **ischaemia** → **perforation**.',
+ '**Small bowel**, from adhesions or hernias → **early vomiting**, central distension, **valvulae conniventes** across the whole width. **Large bowel**, from cancer or volvulus → **late vomiting**, big distension, **haustra** only part-way → a competent ileocaecal valve traps gas → a **closed loop** that can burst the **caecum**.',
+ '**Ileus**: nothing blocks it, the gut just stops after surgery, with **low potassium** or opioids → gas all the way through → **no transition point** → a quiet abdomen.',
+ '**Volvulus**: bowel twists on its mesentery → obstruction **plus** ischaemia → **sigmoid** in older constipated people → a **coffee bean** on X-ray; **midgut** in babies with **malrotation** → **bilious vomiting**.')
+card('groin', 'Groin hernias: through the ring, through the wall, or under the ligament',
+ "**Indirect inguinal**: the **processus vaginalis** stays open → bowel follows the testis's old path → in through the **deep ring**, **lateral to the inferior epigastric vessels** → along the canal → can reach the scrotum, in young males.",
+ "**Direct inguinal**: years of strain weaken the **posterior wall**, Hesselbach's triangle → bowel pushes straight through, **medial to the inferior epigastric vessels** → a wide-necked bulge in older men → rarely strangulates.",
+ '**Femoral**: bowel slips under the inguinal ligament into the narrow **femoral canal** → **below and lateral to the pubic tubercle** → the tight neck pinches → **strangulation** is common → repaired urgently; more common in **women**.')
+card('dentate', 'Above vs below the dentate line: why piles bleed and fissures hurt',
+ '**Above** the line: gut lining, **columnar** → **visceral** nerves that feel no cutting pain → drains to the **portal** system → **internal haemorrhoids** bleed bright red **painlessly**.',
+ '**Below** the line: skin, **squamous** → **somatic** pudendal nerves → **external haemorrhoids hurt**, worst when **thrombosed**; an **anal fissure** tears this sensitive skin, usually **posterior midline** → **sphincter spasm** cuts its blood supply → it will not heal.',
+ "**Anal glands** open at the dentate line → one blocks and gets infected → **perianal abscess** → the tunnel it burrows to the skin → **fistula** → recurrent or complex → think **Crohn's**.")
+card('gutisch', 'Gut ischaemia: pain out of proportion',
+ '**Acute mesenteric ischaemia**: an **embolus from AF**, or thrombosis on atheroma, blocks the **superior mesenteric artery** → the bowel dies from the inside out → severe pain with a **soft abdomen** at first → **pain out of proportion** → **lactate** climbs → peritonitis and sepsis follow.',
+ '**Chronic mesenteric ischaemia**: narrowed gut arteries cannot meet the demand after eating → **pain after meals** → fear of food → **weight loss**: angina of the gut.',
+ '**Ischaemic colitis**: low flow hits the **watershed** zones, the **splenic flexure** and rectosigmoid → left-sided pain → **bloody diarrhoea** → older vascular patients, or after shock or AAA repair.')
+card('ectopic', 'PID and ectopic pregnancy: a scarred tube',
+ '**PID**: chlamydia or gonorrhoea **ascend** from the cervix to the uterus and tubes → pelvic pain, **cervical motion tenderness**, discharge, fever → healing leaves **scarred tubes**.',
+ 'A damaged tube from previous PID or ectopic, tubal surgery, IVF or a coil → slows the embryo → it implants in the **tube** → the tube **cannot stretch** → pain and bleeding at about **6 to 8 weeks** → **rupture** → bleeding into the abdomen → **shock**, shoulder-tip pain.',
+ '**hCG rises more slowly than expected** with **no pregnancy in the uterus** on ultrasound → so every woman of reproductive age with abdominal pain gets a **pregnancy test**.')
+card('scrotum', 'Acute scrotum: twist vs infection',
+ '**Torsion**: a **bell-clapper** testis not anchored at the back → twists on its cord → veins block first, then arteries → infarction within hours → **sudden** severe pain in a **teenager**, high-riding horizontal testis, **absent cremasteric reflex** → straight to theatre.',
+ "**Epididymo-orchitis**: infection **ascends** from urethra or bladder, **chlamydia or gonorrhoea** under 35 and **E. coli** in older men → **gradual** pain and swelling at the **back** of the testis → dysuria or discharge, cremasteric reflex kept → pain easing on lifting, Prehn's sign, is **unreliable**.",
+ '**Torsion of a testicular appendage** → younger boys → pain at the **upper pole** → sometimes a **blue dot**.')
+card('thyrotox', 'Too much thyroid hormone: overmaking vs leaking',
+ '**Overmaking**, the gland is driven: **Graves** antibodies switch on the TSH receptor → diffuse goitre, **eye disease**, pretibial myxoedema; or **toxic nodules** work on their own → either way the scan shows **high uptake** → treatment stops production.',
+ "**Leaking**, the gland is damaged: **thyroiditis** spills stored hormone → brief thyrotoxicosis → often **hypothyroid** before recovery → **de Quervain's** after a virus with a **tender** gland, or **postpartum** and painless → the scan shows **low uptake**.",
+ 'Nothing is being made in leaking → antithyroid drugs do nothing → treat symptoms with a **beta-blocker**; **amiodarone** and iodine can push the thyroid either way.')
+card('thiamine', "Thiamine: why alcohol starves the brain's engine",
+ 'Thiamine is a **cofactor** for pyruvate dehydrogenase and its partner enzymes → they feed glucose into **aerobic** energy production → without it the **brain** and **heart** run out of ATP.',
+ "Alcohol cuts intake and absorption → **Wernicke's**: **confusion, eye signs, ataxia**, with nystagmus or ophthalmoplegia → few have all three → the **mammillary bodies** and thalamus are damaged → **Korsakoff's**: memory loss with **confabulation**, often permanent.",
+ "**Glucose first** burns the last thiamine → can tip someone into Wernicke's → give **IV Pabrinex first** to anyone at risk; in the heart → **wet beriberi**, high-output heart failure.")
+card('shock', 'Shock: empty tank, failing pump, blocked pipe or wide-open pipes',
+ '**Hypovolaemic**: bleeding or fluid loss empties the tank → **low JVP** → vessels clamp down → **cold, clammy** peripheries → give volume.',
+ '**Cardiogenic**: MI or arrhythmia makes the pump fail → blood backs up → **raised JVP and crackles**, cold peripheries → fluid can make it worse.',
+ '**Obstructive**: tension pneumothorax, tamponade or massive PE blocks the flow → **raised JVP with clear lungs** → relieve the block.',
+ '**Distributive**: sepsis, anaphylaxis or spinal injury **dilates** vessels → low resistance → **warm** peripheries early → in **neurogenic** shock sympathetic drive is lost → the pulse is **slow** while the others race.')
+card('hormonehtn', 'Hormone-driven hypertension: aldosterone vs adrenaline vs cortisol',
+ "**Conn's**: an adenoma or bilateral hyperplasia makes aldosterone → salt and water kept, **potassium lost** → hypertension with **low K** → renin is switched off → **high aldosterone to renin ratio**. In **renal artery stenosis** the starved kidney drives **renin up** → renal function drops on an ACE inhibitor.",
+ '**Phaeochromocytoma**: an adrenal medulla tumour fires **catecholamines** in bursts → **episodic headache, sweating, palpitations**, high BP → measure **metanephrines** → **alpha-block before beta-block**, or unopposed alpha causes a crisis.',
+ "**Cushing's**: too much cortisol → salt retention, high glucose → central fat, thin skin, **purple striae**, proximal weakness.")
+card('murmurs', 'Murmurs: which valve, which phase',
+ 'In **systole** the aortic valve opens and the mitral shuts → so a systolic murmur is an open valve that is **narrow** or a shut valve that **leaks**.',
+ '**Aortic stenosis**: blood forced through a narrow valve → **ejection systolic**, crescendo-decrescendo → right upper sternal edge → **radiates to the carotids**. **Mitral regurgitation**: blood leaks back into the atrium all through systole → **pansystolic** at the apex → **radiates to the axilla**.',
+ 'In **diastole** it flips: **aortic regurgitation** → blood falls back into the ventricle → **early diastolic** at the left sternal edge, sitting forward → **collapsing pulse**. **Mitral stenosis** → blood struggles into the ventricle → **mid-diastolic rumble** at the apex → a big left atrium → **AF**.',
+ 'Breathing in fills the **right** heart → right-sided murmurs **louder on inspiration**, left-sided on expiration → Valsalva underfills the heart → **HOCM gets louder**.')
+card('nipple', 'Nipple discharge and breast infection: read the duct',
+ '**Bloody** discharge from **one duct** → a small growth under the areola, an **intraductal papilloma** → investigate to exclude cancer.',
+ '**Duct ectasia**: ducts dilate and fill with stagnant secretions around the menopause → **thick, green or cheesy** discharge, a slit-like nipple. **Periductal mastitis**: smoke damages the duct walls in **smokers** → abscess → fistula.',
+ '**Lactational mastitis**: milk stasis → **Staph aureus** enters a cracked nipple → a hot, red, painful segment → **keep feeding or expressing** → a fluctuant lump → an **abscess** to drain.',
+ '**Milky** discharge from **both** sides → high **prolactin** from pregnancy, antipsychotics or a prolactinoma → **galactorrhoea**.')
+card('fh', 'Familial hypercholesterolaemia: the LDL door is broken',
+ '**Autosomal dominant** fault in the **LDL receptor** → the liver cannot pull LDL out of the blood → very high LDL from birth → **tendon xanthomata** on the Achilles and knuckles, **corneal arcus** young → **early MI**.',
+ 'Very high **triglycerides** from chylomicrons and VLDL, often with alcohol or diabetes → **eruptive xanthomas** and **acute pancreatitis** → rather than early atheroma.',
+ 'Statins block **HMG-CoA reductase** → the liver makes less cholesterol → it puts out **more LDL receptors** → it clears more LDL.')
+card('legflow', "Varicose veins vs lymphoedema vs Raynaud's: pressure, drainage, spasm",
+ '**Varicose veins**: **valves fail**, often at the saphenofemoral junction → blood falls back → **venous hypertension** → dilated tortuous veins and aching → **haemosiderin** staining, eczema, **lipodermatosclerosis**, ulcers.',
+ "**Lymphoedema**: faulty lymphatics, or damage from cancer surgery or radiotherapy → lymph cannot drain → protein-rich fluid collects → **non-pitting** swelling with time → **Stemmer's sign**: the skin at the base of the second toe will not pinch up.",
+ "**Raynaud's**: cold or stress → digital arteries **spasm** → **white** → **blue** → **red** as blood rushes back → secondary to systemic sclerosis or SLE → starts later, asymmetric, can ulcerate.")
+card('perf', 'Perforation: air escapes, the peritoneum burns',
+ 'An **anterior duodenal ulcer**, diverticulitis, obstruction or ischaemia makes a hole → **air** and contents escape → **free air under the diaphragm** on an erect chest X-ray.',
+ 'Gastric acid hits the peritoneum → **chemical peritonitis** → sudden severe pain, **board-like rigidity**, lying still → then **bacterial** peritonitis → sepsis; a colonic hole is faecal from the start.',
+ 'Blood or air under the diaphragm irritates the phrenic nerve → **shoulder-tip pain**; **posterior** duodenal ulcers erode the gastroduodenal artery → they **bleed** rather than perforate.')
+
+
+# ---------------- v1.1 NEW cards for ILO conditions that had none ----------------
+A = {}
+def add(i, t, u, *l): A[i] = {'t': t, 'u': u, 'l': list(l)}
+
+add('acidbase', 'Respiratory failure and acid-base: lungs move CO2, kidneys move bicarbonate', [12],
+ '**Type 1**: oxygen cannot cross, as in pneumonia, PE or pulmonary oedema → **low O2** → you breathe harder → CO2 is blown off → **normal or low CO2**.',
+ '**Type 2**: the pump fails, as in COPD, exhaustion, opioids or weak muscles → air does not move → **CO2 rises** with low O2 → CO2 makes acid → **respiratory acidosis** → given days, the kidneys keep bicarbonate → **compensated**: high bicarbonate, near-normal pH.',
+ 'Read a gas in order → **pH** says acid or alkali → if the **CO2** explains it, it is **respiratory** → if the **bicarbonate** explains it, it is **metabolic** → a metabolic acidosis with a high **anion gap** means added acid: ketones, lactate, toxins.')
+add('covidbronch', 'Covid-19 vs acute bronchitis: alveoli vs bronchi', [14, 18],
+ '**Covid-19**: the virus binds **ACE2** on airway and lung cells → multiplies → fever, cough, **lost smell** → in some it inflames the alveoli → **viral pneumonitis** with bilateral ground-glass change → oxygen falls, sometimes before breathlessness is felt.',
+ 'The immune response can overshoot → a **cytokine storm** → leaky lungs → ARDS; inflamed endothelium → blood clots readily → **VTE and PE** → steroids help those who need oxygen.',
+ '**Acute bronchitis**: a virus inflames only the **bronchi** → cough for up to about 3 weeks → the chest is clear, **no consolidation** → most need **no antibiotics**.')
+add('diarrhoea', 'Infective diarrhoea: preformed toxin vs secretory toxin vs invasion', [24],
+ '**Preformed toxin** already in the food, from **Staph aureus** or **Bacillus cereus** in reheated rice → it acts at once → **vomiting within hours**.',
+ '**Secretory toxin** from **cholera** or travellers\' **E. coli** → cAMP rises in gut cells → chloride and water pour out → **profuse watery diarrhoea**, no blood, no fever → the danger is dehydration.',
+ '**Invasive bacteria** such as **Campylobacter**, **Shigella** and **Salmonella** → damage the colonic lining → **bloody diarrhoea, fever, cramps**; **E. coli O157** releases Shiga toxin → damages kidney vessels → **HUS** in children.',
+ '**C. difficile**: antibiotics clear the normal flora → C. diff overgrows → its toxins → **pseudomembranous colitis** after clindamycin, cephalosporins, co-amoxiclav or quinolones.')
+add('analgesia', 'The pain ladder: block the signal at the site, then in the cord and brain', [50, 88],
+ 'Damaged tissue → **COX** makes **prostaglandins** → nerve endings become sensitised → **NSAIDs** block COX → less pain and swelling → but prostaglandins also guard the stomach and keep kidney blood flowing → **GI bleeding** and **AKI**, worse with ACE inhibitors and diuretics.',
+ '**Paracetamol** works mainly centrally → few side effects at normal doses → the base of every step.',
+ '**Opioids** bind **mu receptors** → pain signals damped in the cord and brain → the same receptors slow the brainstem → **respiratory depression**, pinpoint pupils → slow the gut → **constipation**, so add a laxative → stir the vomiting trigger zone → nausea → **naloxone** reverses them.')
+add('urocancer', 'Bladder vs kidney cancer: what the urine carries vs what the kidney grows', [77, 78],
+ '**Bladder**: smoking and industrial dyes put **carcinogens into urine** → they sit against the lining → **transitional cell carcinoma** → **painless visible haematuria** in an older smoker; years of **schistosomiasis** → squamous cell carcinoma instead.',
+ '**Kidney**: loss of the **VHL** gene → cells act as if starved of oxygen → they pour out **VEGF** → a blood-rich **clear cell** tumour → **haematuria, loin pain, a mass** → it may make **EPO** → polycythaemia → it grows into the **renal vein** → a left varicocele → spreads to the lungs as **cannonball** metastases.')
+add('epilepsy', 'Epilepsy: neurones firing together', [96],
+ 'Excitation outweighs inhibition in a group of neurones → they fire **together** in a burst → whatever that area normally does happens all at once → a **seizure**.',
+ '**Focal**: one area fires → its job shows → temporal lobe → **déjà vu, a rising gut feeling, lip smacking**; motor cortex → jerking that **marches** along the body → it can spread to both sides.',
+ '**Generalised**: both hemispheres fire from the start → **consciousness lost** → stiffening then jerking → or in children a brief **absence** stare.',
+ 'Drugs calm the burst by blocking **sodium channels** or boosting **GABA** → **valproate** is avoided in anyone who could become pregnant → a seizure lasting **5 minutes** → **status epilepticus** → a benzodiazepine.')
+add('nervemuscle', 'Nerve vs junction vs muscle: where the signal fails', [98, 99],
+ '**Neuropathy**: the longest nerves fail first → **glove and stocking** numbness and weakness from the feet up → reflexes fade → diabetes, alcohol, B12. One nerve squeezed → its own patch → median at the wrist → **carpal tunnel**; common peroneal at the fibula → **foot drop**.',
+ '**Myasthenia gravis**: antibodies block **acetylcholine receptors** → each repeated signal finds fewer receptors → **weakness that worsens with use**: drooping lids, double vision → better after rest. **Lambert–Eaton** blocks calcium channels upstream → strength **improves** briefly with use.',
+ '**Myopathy**: the muscle itself fails → **proximal** weakness, trouble rising from a chair or lifting arms → **sensation normal** → **CK raised** when muscle breaks down, as in myositis or with statins.')
+add('bells', "Bell's palsy vs stroke: is the forehead spared?", [141],
+ 'The **facial nerve** swells inside its narrow bony canal, often after a virus → it squeezes itself → the **whole half of the face** drops, **forehead included** → a lower motor neurone lesion → steroids within 72 hours.',
+ 'A **stroke** hits the upper motor neurone → the forehead gets signals from **both** hemispheres → the **forehead is spared**.',
+ "The same nerve carries **taste** to the front of the tongue, tightens the **stapedius** → sounds too loud, and closes the eye → **protect the cornea**; vesicles in the ear → **Ramsay Hunt**: shingles of the nerve.")
+add('vertigo', 'Vertigo: crystals vs fluid vs nerve vs tumour', [142, 146, 140],
+ '**BPPV**: loose **crystals** drift into the posterior canal → a head turn moves them → fluid swirls → **seconds** of spinning on rolling over → **Dix–Hallpike** provokes it → **Epley** puts them back.',
+ "**Ménière's**: too much **endolymph** → the inner ear swells → **attacks lasting hours** with **hearing loss, tinnitus and fullness** together.",
+ '**Vestibular neuritis**: a virus inflames the balance nerve → **constant vertigo for days** → hearing **intact** because the cochlear nerve is spared.',
+ '**Acoustic neuroma**: a slow Schwann cell tumour on the **eighth nerve** → **one-sided hearing loss and tinnitus** creep on → both sides in **NF2** → MRI.')
+add('dopamine', 'Psychosis and antipsychotics: one drug, four dopamine roads', [100, 101],
+ 'Too much dopamine in the **mesolimbic** road → **positive symptoms**: hallucinations, delusions → too little in the **mesocortical** road → **negative symptoms**: flat affect, poverty of speech, withdrawal.',
+ 'Antipsychotics block **D2** receptors on every road → mesolimbic → **positive symptoms settle** → mesocortical → negative symptoms can worsen.',
+ '**Nigrostriatal** blocked → movement problems → **acute dystonia** in hours to days → **akathisia** restlessness → **parkinsonism** over weeks → **tardive dyskinesia** after months as receptors upregulate. **Tuberoinfundibular** blocked → prolactin escapes → **galactorrhoea, amenorrhoea**.',
+ '**Clozapine** works after two others have failed → but can wipe out neutrophils → **agranulocytosis** → regular blood counts.')
+add('serotonin', 'Serotonin syndrome vs NMS: fast and twitchy vs slow and stiff', [112, 101],
+ "**Serotonin syndrome**: two serotonergic drugs together, such as an SSRI with tramadol, an MAOI, a triptan or St John's wort → serotonin floods → **within hours** → **clonus, hyperreflexia**, big pupils, agitation, sweating, diarrhoea.",
+ '**NMS**: dopamine blocked by an antipsychotic → **over days** → **lead-pipe rigidity** with **slow reflexes**, high fever, swinging BP, confusion → **very high CK**.',
+ 'Both → stop the drug, cool and support → **cyproheptadine** for serotonin syndrome → **dantrolene or bromocriptine** for NMS.')
+add('mood', 'Depression and bipolar: why antidepressants take weeks, and can tip into mania', [102, 103],
+ 'The **monoamine** idea: too little serotonin and noradrenaline signalling → **low mood, anhedonia**, poor sleep, appetite and energy → an SSRI blocks reuptake → more serotonin in the synapse within hours.',
+ 'Mood lifts only after **2 to 4 weeks** → receptors adjust and new connections grow → **energy often returns before mood** → a **window of higher suicide risk** → review early, especially young people.',
+ '**Bipolar**: mood swings up into **mania** → little need for sleep, grandiosity, pressured speech, risky spending → an antidepressant alone can **flip** someone into mania → a **mood stabiliser** such as lithium comes first.')
+add('lithium', 'Lithium: handled like sodium, so the kidney sets the level', [111, 103],
+ 'The kidney treats **lithium like sodium** → whatever makes it hold sodium makes it hold lithium → **dehydration, NSAIDs, ACE inhibitors, thiazides** → the level rises → its **narrow window** tips into toxicity.',
+ 'Toxicity → **coarse tremor**, unsteadiness, slurred speech, vomiting, confusion → seizures → stop it, give fluids, sometimes dialysis.',
+ 'Long term → it blunts ADH in the kidney → **nephrogenic DI** → it blocks thyroid hormone release → **hypothyroidism** → it raises calcium → so **levels, U&Es, TFTs and calcium** are checked regularly.')
+add('paracetamol', 'Paracetamol overdose: the glutathione runs out', [111],
+ 'At normal doses the liver conjugates paracetamol safely → a small part becomes toxic **NAPQI** → **glutathione** mops it up.',
+ 'Overdose → conjugation is swamped → NAPQI piles up → **glutathione runs out** → NAPQI kills liver cells around the **central veins** → the patient feels fine at first → **liver failure at about 3 days**: jaundice, rising INR, low glucose, acidosis.',
+ '**Acetylcysteine** refills glutathione → it protects best within **8 hours** → plot a timed level on the nomogram → treat straight away if the overdose was staggered or the timing is unclear.')
+add('anxiety', 'Panic, phobias, PTSD and OCD: an alarm that keeps itself going', [104, 105, 118, 106],
+ '**Panic**: the **amygdala** fires the alarm → adrenaline → palpitations, tight chest → you overbreathe → CO2 drops → **tingling and dizziness** → you read it as dying → more alarm → the **panic loop**. **Generalised anxiety** is the same alarm on a low, constant setting.',
+ '**Phobia**: fear gets tied to one cue → **avoidance** brings relief → relief rewards the avoidance → the fear never gets tested → **graded exposure** lets it fade.',
+ '**PTSD**: overwhelming trauma → the memory is stored raw, not filed as past → triggers replay it → **flashbacks, nightmares, hypervigilance**, avoidance → trauma-focused CBT or EMDR files it away.',
+ '**OCD**: an intrusive thought → anxiety → a **compulsion** gives brief relief → relief strengthens the ritual → the loop tightens → **exposure with response prevention** breaks it.')
+add('delirium', 'Delirium: a sudden brain failure that fluctuates', [116],
+ 'An acute stress on a vulnerable brain → infection, drugs, dehydration, pain, **retention, constipation**, alcohol withdrawal → **acetylcholine falls** while dopamine rises → **attention** fails first.',
+ 'It comes on over hours to days → **fluctuates**, often worse at night → **hyperactive** and agitated, or **hypoactive** and quiet and easily missed → screen with the **4AT**.',
+ '**Anticholinergic** drugs push acetylcholine lower → they make it worse → find and treat the cause → dementia creeps in over months, **delirium arrives suddenly**.')
+add('catatonia', 'Catatonia and ECT: when the motor system locks', [113],
+ 'In **catatonia** the person **freezes**: stupor, mutism, staring, odd postures, limbs that stay where they are placed → linked to underactive **GABA** signalling → **lorazepam** often unlocks it within hours.',
+ '**ECT** triggers a brief, controlled **generalised seizure** under anaesthetic → a surge of monoamines and new connections → the **fastest treatment** for severe depression with psychosis, refusal to eat or drink, or catatonia → the main side effect is **short-term memory loss**.')
+add('eating', 'Eating disorders: starvation slows the body, refeeding shifts the salts', [108],
+ 'Starvation → the body saves energy → **slow pulse, low BP, low temperature** → the hypothalamus switches off GnRH → **periods stop** → oestrogen falls → **bones thin** → fine body hair grows: **lanugo**.',
+ 'Repeated **vomiting** → acid and potassium are lost → **hypokalaemic metabolic alkalosis** → arrhythmia risk → teeth graze the knuckles → **Russell\'s sign**, swollen parotids, eroded enamel.',
+ 'Feeding restarts → insulin surges → **phosphate, potassium and magnesium rush into cells** → blood levels crash → **refeeding syndrome**: heart failure and arrhythmias → feed slowly and replace the salts.')
+add('perinatal', 'After birth: blues vs depression vs psychosis', [115],
+ 'Delivery → oestrogen and progesterone crash → **baby blues** around **days 3 to 5**: tearful and up and down → settles within 2 weeks.',
+ 'Low mood that lasts, loss of pleasure, guilt about coping → **postnatal depression** → screen with the **Edinburgh scale** → talking therapy and medicines safe in breastfeeding.',
+ '**Postpartum psychosis**, usually within **2 weeks** → confusion, mania, delusions about the baby → highest risk with **bipolar disorder** → an **emergency** → a mother and baby unit.')
+add('adhd', 'ADHD: a weak brake in the prefrontal cortex', [119],
+ 'Lower **dopamine and noradrenaline** signalling in prefrontal circuits → the brain\'s **brake** is weak → attention jumps to whatever is new or rewarding → **inattention, impulsivity, hyperactivity** across settings, from childhood.',
+ '**Stimulants** such as methylphenidate or lisdexamfetamine → more dopamine and noradrenaline in the synapse → the brake strengthens → focus improves → appetite falls, pulse and BP rise → monitor **height, weight, BP and heart rate**.')
+add('urticaria', 'Urticaria vs angioedema: mast cells empty into the skin', [126],
+ 'A trigger → **mast cells** burst open → **histamine** → dermal vessels leak → itchy **wheals** that move around and fade within **24 hours** → antihistamines settle it.',
+ 'The same leak deeper down → **angioedema** of lips, eyes and tongue → add wheeze and low BP → **anaphylaxis** → IM adrenaline.',
+ '**ACE inhibitor** angioedema runs on **bradykinin**, not histamine → no wheals, no itch → antihistamines **do nothing** → stop the ACE inhibitor.')
+add('eczpso', 'Eczema vs psoriasis: a leaky barrier vs skin made too fast', [128, 137],
+ '**Atopic eczema**: a faulty **filaggrin** barrier → water escapes, irritants and allergens get in → dry itchy skin → scratching breaks it further → the **itch-scratch cycle** in the **flexures** → emollients rebuild the barrier; herpes infecting it → **eczema herpeticum**, an emergency.',
+ '**Contact dermatitis**: an irritant strips the skin directly → or an allergen such as **nickel** sets off a **type IV** reaction → a rash **48 to 72 hours** after contact.',
+ '**Psoriasis**: **T cells** push keratinocytes to turn over in days instead of weeks → thick red plaques with **silvery scale** on **extensors** and scalp → new plaques in scratches: **Koebner** → **nail pitting** → some develop **psoriatic arthritis**.')
+add('acne', 'Acne: plug, feed, inflame', [138],
+ '**Androgens** at puberty → sebaceous glands grow → more **sebum** → keratin plugs the follicle → a **comedone**: open blackhead or closed whitehead.',
+ '**Cutibacterium acnes** feeds on the trapped sebum → inflammation → **papules and pustules** → then deep **nodules and cysts** → **scarring**.',
+ 'Treatment follows the chain → retinoids unplug → benzoyl peroxide and antibiotics cut bacteria → **isotretinoin** shrinks the glands → it is **teratogenic** → pregnancy prevention.')
+add('skininf', 'Skin invaders: bacteria vs virus vs fungus vs mite', [129, 133, 134, 135, 136],
+ '**Folliculitis**: Staph aureus infects hair follicles → **pustules centred on hairs** → after a hot tub, Pseudomonas. **Warts**: **HPV** infects keratinocytes → they overgrow → rough papules with **black dots** → most clear by themselves.',
+ '**Tinea**: dermatophyte fungi eat **keratin** → spread outwards in a ring → **scaly edge, clearing centre** → scrape to confirm. **Candida** loves warm wet folds → a beefy red rash with **satellite spots**.',
+ '**Scabies**: a mite **burrows** into the skin → weeks later the immune system reacts → **intense itch, worse at night**, burrows in the **finger webs** and wrists → treat the **whole household** at once. **Head lice** cling to hair → itch → wet combing or a lotion.')
+add('ears', 'Otitis media vs otitis externa: behind the drum vs in the canal', [149, 148],
+ '**Otitis media**: a cold swells the **Eustachian tube** → the middle ear cannot drain → pneumococcus or H. influenzae grow → a **red, bulging drum**, fever and ear pain in a child → if the drum **perforates**, discharge comes and the pain eases.',
+ '**Glue ear**: fluid stays behind the drum → sound cannot move the ossicles well → **conductive hearing loss** → speech or school problems → watch, then grommets.',
+ '**Otitis externa**: water or scratching strips the canal\'s protective wax → **Pseudomonas or Staph** → a swollen, painful canal, **pain on moving the tragus** → in an older diabetic it can eat into bone → **malignant otitis externa**.')
+add('throat', 'Sore throat: tonsil vs whole body vs airway', [151, 145, 143, 153],
+ '**Tonsillitis**: mostly viral, sometimes **Group A strep** → fever, pus on the tonsils, tender nodes, no cough → **FeverPAIN or Centor** decides antibiotics → pus spreading beside the tonsil → **quinsy**: trismus, muffled voice, uvula pushed away.',
+ '**Glandular fever**: **EBV** infects B cells → atypical lymphocytes → sore throat, big nodes, exhaustion, a **big spleen** → amoxicillin brings a **rash** → **no contact sport** while the spleen is enlarged.',
+ '**Epiglottitis**: H. influenzae type b swells the epiglottis → the airway narrows from above → **drooling, tripod sitting, stridor**, a toxic child → **do not examine the throat** → senior airway help.',
+ '**Croup**: parainfluenza swells the airway **below the cords** → a **barking cough** and stridor → dexamethasone; a **sudden** choke while eating or playing → an **inhaled foreign body**.')
+add('sinus', 'Rhinosinusitis: blocked drainage holes', [150],
+ 'A cold swells the nasal lining → the small **ostia** that drain the sinuses block → mucus is trapped → **facial pain and pressure** worse bending forward, a blocked nose, discoloured discharge.',
+ 'Most are **viral** and settle in **2 to 3 weeks** → antibiotics only if it persists or is severe → symptoms beyond **12 weeks** → **chronic rhinosinusitis**, often with **nasal polyps**.')
+add('epistaxis', "Nosebleeds: why pressure on the soft part works", [144],
+ 'Most bleeds come from **Little\'s area** on the front of the septum → a plexus of vessels under thin lining → picking, drying or a cold → an **anterior bleed**.',
+ 'First aid follows the anatomy → **lean forward** → pinch the **soft part** of the nose for 10 to 15 minutes → the plexus is compressed and blood is not swallowed → then cautery or packing.',
+ '**Posterior** bleeds in older, hypertensive or anticoagulated patients → heavier, running down the throat → packing and admission.')
+add('osa', 'Obstructive sleep apnoea: the airway collapses when the muscles relax', [147],
+ 'Sleep relaxes the throat muscles → a narrow airway from **obesity, a thick neck or big tonsils** collapses → breathing stops → **oxygen falls** → the brain half-wakes → breathing restarts → again and again all night.',
+ 'Broken sleep → **daytime sleepiness**, scored with the **Epworth** scale → loud snoring and witnessed pauses → repeated oxygen drops → **hypertension** and cardiovascular risk.',
+ '**CPAP** splints the airway open → the sleepiness lifts → sleepiness that affects driving → tell the **DVLA**.')
+add('redeye', 'Red eye: surface vs deep, the pain and the pupil decide', [154, 156, 155, 157, 158, 159],
+ '**Conjunctivitis**: the **surface** inflames → gritty, sticky or watery → **vision and pupil normal**, no real pain. **Blepharitis**: the lid margins inflame → crusty, sore lids.',
+ '**Keratitis**: the **cornea** is infected, often in **contact lens** wearers → real **pain, photophobia**, blurred vision → same-day eye referral.',
+ '**Anterior uveitis**: the **iris** inflames → redness ringing the cornea, a **small irregular pupil**, photophobia → linked to **HLA-B27** conditions → urgent.',
+ '**Scleritis**: the deep white wall inflames → **severe boring pain**, a tender eye → with **rheumatoid arthritis** or vasculitis. The other painful red eye → **acute glaucoma** with a fixed mid-dilated pupil.')
+add('glaucoma', 'Glaucoma: the angle shuts vs the drain slowly clogs', [160],
+ 'Aqueous is made behind the iris → flows through the pupil → drains at the **angle** through the trabecular meshwork.',
+ '**Acute angle closure**: dim light dilates the pupil → the iris bunches into an already narrow angle, often in long-sighted people → drainage **shuts** → pressure rockets → **painful red eye, haloes, a fixed mid-dilated pupil, vomiting** → emergency.',
+ '**Chronic open angle**: the meshwork slowly clogs → pressure creeps up → the optic nerve is squeezed → the disc **cups** → **side vision lost silently** → found on screening → drops lower the pressure.')
+add('camera', 'Cataract vs macular degeneration vs retinal detachment: lens, film, peeling', [164, 165, 162],
+ '**Cataract**: lens proteins clump with age, diabetes or steroids → the lens clouds → **gradual blur and glare** → surgery replaces the lens.',
+ '**Macular degeneration**: **dry** → deposits and wasting of the macula → slow **central loss**; **wet** → new leaky vessels driven by **VEGF** → fluid and bleeding → **rapid distortion**, straight lines look wavy → urgent **anti-VEGF** injections.',
+ '**Retinal detachment**: the vitreous tugs → a retinal **tear** → fluid gets underneath → the retina peels off → **flashes, a shower of floaters**, then a **curtain** over vision → same-day surgery.')
+add('orbital', 'Periorbital vs orbital cellulitis: in front of the septum vs behind it', [161],
+ '**Periorbital**: infection stays **in front of the orbital septum** → swollen red lids → eye movements and vision **normal** → oral antibiotics.',
+ '**Orbital**: infection gets **behind the septum**, often from the **ethmoid sinuses** → **pain on eye movement**, a bulging eye, **reduced vision or colour** → it can reach the brain → emergency IV antibiotics and CT.')
+
+out = {'_about': 'medengine v1.1: every Why it happens card rewritten as movement. One chain per line, arrows in every line, bold key words, no brackets, no em dashes. Applied over D.path by id in patch_study.py.', 'path_rewrite': C, 'path_add': [dict(id=k, **v) for k, v in A.items()]}
+json.dump(out, open(pathlib.Path(__file__).with_name('v11_content.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print(len(C), 'rewritten,', len(A), 'new')

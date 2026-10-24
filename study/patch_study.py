@@ -94,6 +94,19 @@ for r in V10['path_add']:
     D['path'].append({'id': r['id'], 't': r['t'], 'l': r['l'], 'u': r['u']})
     for ui in r['u']:
         D['units'][ui].setdefault('pa', []).append(len(D['path']) - 1)
+rep("""if (pas.length) h += '<div class="panel pap"><b>🧬 Why it happens · Pathoma</b>'""", """if (pas.length) h += '<div class="panel pap"><div class="toolbar"><b class="grow">🧬 Why it happens · Pathoma</b><button class="btn ghost sm" data-go="why">All ' + ROOTS.length + ' cards</button></div>'""")
+# v1.1: every Why it happens card rewritten as movement (one chain per line, arrows, no brackets)
+V11 = json.load(open(HERE / 'v11_content.json', encoding='utf-8'))['path_rewrite']
+_byid = {r['id']: r for r in D['path']}
+if set(V11) != set(_byid): raise SystemExit('v1.1 rewrite does not cover every card: ' + str(set(_byid) ^ set(V11)))
+for _id, c in V11.items():
+    _byid[_id]['t'] = c['t']; _byid[_id]['l'] = c['l']
+# v1.1: new cards for ILO conditions that had none
+for r in json.load(open(HERE / 'v11_content.json', encoding='utf-8'))['path_add']:
+    if r['id'] in _byid: raise SystemExit('duplicate Pathoma id ' + r['id'])
+    D['path'].append({'id': r['id'], 't': r['t'], 'l': r['l'], 'u': r['u']}); _byid[r['id']] = D['path'][-1]
+    for ui in r['u']:
+        D['units'][ui].setdefault('pa', []).append(len(D['path']) - 1)
 for k, names in V8['spd'].items():
     for n in names:
         assert n in UBY, n
@@ -110,21 +123,21 @@ html = html[:m.start(1)] + data + html[m.end(1):]
 mev_css = open(OSCE / 'src' / 'mev.css', encoding='utf-8').read()
 mev_js = open(OSCE / 'src' / 'mev.js', encoding='utf-8').read()
 ext_css = open(HERE / 'ext_study.css', encoding='utf-8').read()
-ext_js = open(HERE / 'ext_study.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v07.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v08.js', encoding='utf-8').read()
-ext_css += open(HERE / 'ext_v07.css', encoding='utf-8').read() + open(HERE / 'ext_v08.css', encoding='utf-8').read()
+ext_js = open(HERE / 'ext_study.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v07.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v08.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v11.js', encoding='utf-8').read()
+ext_css += open(HERE / 'ext_v07.css', encoding='utf-8').read() + open(HERE / 'ext_v08.css', encoding='utf-8').read() + open(HERE / 'ext_v11.css', encoding='utf-8').read()
 assert '</script' not in mev_js and '</script' not in ext_js
 rep('<header class="top">', '<style>\n' + mev_css + ext_css + '</style>\n<header class="top">')
 rep('<script id="qqdata" type="application/json">', '<script>\n' + mev_js + '</script>\n<script id="qqdata" type="application/json">')
 
 # ---------- version ----------
-rep('<small>v0.5.0 beta</small>', '<small>v1.0.0</small>')
+rep('<small>v0.5.0 beta</small>', '<small>v1.1.0</small>')
 rep('const fmtRich = t => fmtPlain(t)', 'const fmtRich = t => dualHtml(t) || fmtRich0(t);\nconst fmtRich0 = t => fmtPlain(t)')
 
 # ---------- script hooks ----------
 rep("const CLK = D.key || [], KICON = {in: '✅', out: '❌', lab: '🧪'};", "const CLK = D.key || [], KICON = {in: '✅', out: '❌', lab: '🧪', nb: '🆕'};")
-rep("if (['sprint','weak','gloss','all','home'].includes(h)) return {view: h};", "if (['sprint','weak','gloss','all','home','sniper','vault','visual','jargon','remix'].includes(h)) return {view: h};")
-rep("  else if (route.view === 'fw') viewFw(m);\n}", "  else if (route.view === 'fw') viewFw(m);\n  else if (route.view === 'sniper') viewSniper(m);\n  else if (route.view === 'vault') viewVault(m);\n  else if (route.view === 'visual') viewVisual(m);\n  else if (route.view === 'jargon') viewJargon(m);\n  else if (route.view === 'remix') viewRemix(m);\n}")
-rep("qb('weak', '🎯', 'Weak spots', weakN)", "qb('remix', '🔄', 'Remix a missed question') + qb('sniper', '🎯', 'Blind clincher sniper') + qb('weak', '♻️', 'Weak spots', weakN)")
+rep("if (['sprint','weak','gloss','all','home'].includes(h)) return {view: h};", "if (['sprint','weak','gloss','all','home','sniper','vault','visual','jargon','remix','why'].includes(h)) return {view: h};")
+rep("  else if (route.view === 'fw') viewFw(m);\n}", "  else if (route.view === 'fw') viewFw(m);\n  else if (route.view === 'sniper') viewSniper(m);\n  else if (route.view === 'vault') viewVault(m);\n  else if (route.view === 'visual') viewVisual(m);\n  else if (route.view === 'jargon') viewJargon(m);\n  else if (route.view === 'remix') viewRemix(m);\n  else if (route.view === 'why') viewWhy(m);\n}")
+rep("qb('weak', '🎯', 'Weak spots', weakN)", "qb('remix', '🔄', 'Remix a missed question') + qb('why', '🧬', 'Why it happens', ROOTS.length) + qb('sniper', '🎯', 'Blind clincher sniper') + qb('weak', '♻️', 'Weak spots', weakN)")
 rep("+ qb('gloss', '🔤', 'Abbreviations', GLOSS.length);", "+ qb('gloss', '🔤', 'Abbreviations', GLOSS.length) + qb('visual', '👁️', 'Visual showdowns', MEV.SD.length) + qb('jargon', '🔺', 'Jargon decoder', JG.length) + qb('vault', '📋', 'Screenshot vault', shotsCache ? shotsCache.length : 0);")
 rep("""  h += '</div><h4>ILO weeks · ' + UNITS.length + ' conditions</h4>';
   WEEKS.forEach((w, wi) => {
@@ -132,7 +145,7 @@ rep("""  h += '</div><h4>ILO weeks · ' + UNITS.length + ' conditions</h4>';
   WEEKS.forEach((w, wi) => {
     const us = unitsOf(w.id).filter(u => (!S.set.sys || usys(u) === S.set.sys) && (!S.set.spd || u.spd === S.set.spd)), open = openWk.has(w.id) || !!S.set.sys || !!S.set.spd;
     if (!us.length) return;""")
-rep("""data-rand="1">🎲 Random condition</button></div></section>';""", """data-rand="1">🎲 Random condition</button><button class="btn" data-go="sniper">🎯 Blind sniper</button><button class="btn" data-go="visual">👁️ Visual showdowns</button><button class="btn" data-go="jargon">🔺 Jargon decoder</button><button class="btn" data-go="remix">🔄 Remix</button></div></section>';""")
+rep("""data-rand="1">🎲 Random condition</button></div></section>';""", """data-rand="1">🎲 Random condition</button><button class="btn" data-go="sniper">🎯 Blind sniper</button><button class="btn" data-go="visual">👁️ Visual showdowns</button><button class="btn" data-go="jargon">🔺 Jargon decoder</button><button class="btn" data-go="remix">🔄 Remix</button><button class="btn" data-go="why">🧬 Why it happens</button></div></section>';""")
 rep("""  h += '<div class="crumbs" style="justify-content:space-between"><h2>Your ILO weeks</h2>""", """  h += homeSysHtml();
   h += '<div class="crumbs" style="justify-content:space-between"><h2>Your ILO weeks</h2>""")
 rep("  if ((u.ck || []).length) h += keyHtml(u);", "  h += extHeader(u);\n  if ((u.ck || []).length) h += keyHtml(u);")

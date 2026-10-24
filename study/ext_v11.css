@@ -1,0 +1,7 @@
+/* v1.1 🧬 Why it happens section */
+.why-bar{display:flex;flex-direction:column;gap:8px}
+.why-q{flex:1 1 220px;min-width:0;padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface-2);color:var(--ink);font:inherit}
+.why-q:focus{outline:none;border-color:var(--accent)}
+.why-sys{align-items:center}
+.why-g{margin-top:14px}
+.why-h{margin:0 0 6px;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}

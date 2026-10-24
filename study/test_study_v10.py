@@ -36,7 +36,7 @@ def run(width, mock=True):
         pg.on('pageerror', lambda e: errs.append('pageerror: ' + str(e)))
         pg.goto(PAGE.as_uri()); pg.wait_for_timeout(1500)
         ev = pg.evaluate
-        if 'v1.0.0' not in pg.text_content('#homeBtn'): errs.append('version not v1.0.0')
+        if not re.search(r'v1\.[1-9]\.\d|v1\.0\.0', pg.text_content('#homeBtn')): errs.append('version not v1.x')
         D = ev("JSON.parse(document.getElementById('qqdata').textContent)")
         ids = [r['id'] for r in D['path']]
         if len(ids) != len(set(ids)): errs.append('duplicate Pathoma ids')

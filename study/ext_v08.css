@@ -54,3 +54,6 @@
 #rmx .opt{flex-wrap:nowrap}
 #rmx .opt>span:last-child{flex:1 1 auto;min-width:0}
 .rmx-endl{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
+.pa-ar{color:var(--mev-amber);font-weight:800}
+.whyc.pa .wl{margin:0 0 9px;line-height:1.6}
+.whyc.pa .wl:last-child{margin-bottom:0}
