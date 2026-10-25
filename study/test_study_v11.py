@@ -18,9 +18,10 @@ def run(width, mock=True):
         ctx.route(re.compile(r'^https?://.*'), lambda r: r.abort())
         pg = ctx.new_page(); pg.on('pageerror', lambda e: errs.append('pageerror: ' + str(e)))
         pg.goto(PAGE.as_uri()); pg.wait_for_timeout(1500); ev = pg.evaluate
-        if 'v1.1' not in pg.text_content('#homeBtn'): errs.append('version not v1.1')
+        if not re.search(r'v1\.[1-9]', pg.text_content('#homeBtn')): errs.append('version not v1.1+')
         D = ev("JSON.parse(document.getElementById('qqdata').textContent)")
-        if len(D['path']) != 111: errs.append(f"expected 111 cards, got {len(D['path'])}")
+        NP = len(D['path'])
+        if NP < 111: errs.append(f"expected at least 111 cards, got {NP}")
         cov = {u for r in D['path'] for u in r['u']}
         for u in (12, 96, 100, 101, 102, 111, 126, 128, 141, 142, 147, 160, 162):
             if u not in cov: errs.append(f'unit {u} still has no card')
@@ -42,9 +43,9 @@ def run(width, mock=True):
         ev("location.hash = 'home'"); pg.wait_for_timeout(300)
         if not pg.locator('#main [data-go="why"]').count(): errs.append('no way into Why it happens from home')
         ev("location.hash = 'why'"); pg.wait_for_timeout(500)
-        if pg.locator('#whyList details.pa').count() != 111: errs.append(f"section shows {pg.locator('#whyList details.pa').count()} cards")
+        if pg.locator('#whyList details.pa').count() != NP: errs.append(f"section shows {pg.locator('#whyList details.pa').count()} cards")
         pg.click('[data-whyall]'); pg.wait_for_timeout(150)
-        if pg.locator('#whyList details.pa[open]').count() != 111: errs.append('Read all did not open every card')
+        if pg.locator('#whyList details.pa[open]').count() != NP: errs.append('Read all did not open every card')
         pg.click('[data-whyall]'); pg.wait_for_timeout(150)
         if pg.locator('#whyList details.pa[open]').count(): errs.append('Close all did not close')
         pg.fill('#whyQ', 'glutathione'); pg.wait_for_timeout(150)
@@ -55,7 +56,7 @@ def run(width, mock=True):
         pg.fill('#whyQ', ''); pg.wait_for_timeout(100)
         pg.click('[data-whysys]:has-text("Psych")'); pg.wait_for_timeout(300)
         n = pg.locator('#whyList details.pa').count()
-        if not 5 <= n < 111: errs.append(f'system chip shows {n} cards')
+        if not 5 <= n < NP: errs.append(f'system chip shows {n} cards')
         o = ev('document.documentElement.scrollWidth - document.documentElement.clientWidth')
         if o > 1: errs.append(f'section overflow {o}px')
         if ev("[...document.querySelectorAll('details.pa')].some(d => (d.dataset.paf || '').includes('<'))"): errs.append('markup leaked into the search attribute')

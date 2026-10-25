@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.0 (2026-10-25)
+
+- ⚡ **First move vs cure**: 48 decision cards in the same arrow style as 🧬 Why it happens, for the acute and high-yield ILO conditions. 🔴 unstable vs 🟢 stable splits and 1️⃣ → 2️⃣ → 🎯 ladders: tachy and brady arrhythmias, ACS, heart failure, the NICE hypertension ladder, PE, DVT, acute asthma, COPD oxygen, pneumothorax, CURB-65, sepsis, upper GI bleed, perforation, UC flares, gallstones, coeliac, reflux, fissure, diverticulitis, hernias, bowel cancer surgery by site, obstruction, breast referral and hormone drugs, DKA vs HHS, hypoglycaemia, thyroid, adrenal crisis, hyperkalaemia, AKI, renal colic, UTI, the acute scrotum and urology 2-week waits, status epilepticus, SAH, meningitis, C. diff and food poisoning, TB, skin, eye and ENT emergencies, psychiatric drug emergencies, antidotes, anaemia, opioid maths. UK guidance only. Own section (search, system chips, 📖 Read all, a "read it like a playmaker" cue), plus a ⚡ strip on each condition's Think tab.
+- 🔄 Remix grounds next-step answers with the matching ⚡ card as well as the 🧬 card.
+- 🔥 **My misses**: import a misses file made from your Passmedicine history (kept on your device only, never in the app or the repo). Each miss is your old pick vs the right answer, cued by the learning point with the answer hidden; never re-done misses first; right on two separate days and it is fixed; keyboard 1/2 and Enter.
+- 🧬 New card: nerve injuries, where the bone breaks and which nerve stops (112 cards).
+- Tests: `study/test_study_v12.py`; all earlier suites pass.
+
 ## 1.1.0 (2026-10-24)
 
 - 🧬 **Why it happens** now has its own section (home screen, and "All cards" on every condition): all **111** mechanism cards grouped by system, with a search box, system chips and **📖 Read all** to open every card and read straight through.
