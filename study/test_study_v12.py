@@ -31,6 +31,10 @@ def run(width, mock=True):
         D = ev("JSON.parse(document.getElementById('qqdata').textContent)")
         A = D.get('act', [])
         if len(A) < 45: errs.append(f'only {len(A)} action cards')
+        cov = {u for r in A for u in r['u']}
+        miss = [u['name'] for i, u in enumerate(D['units']) if i not in cov]
+        if miss: errs.append(f'ILO conditions with no ⚡ card: {miss[:5]}')
+        if len(A) > 120: errs.append(f'{len(A)} action cards is getting bloated')
         for r in A:
             for l in r['l']:
                 if '→' not in l: errs.append(f"{r['id']}: a line with no arrow")
@@ -45,7 +49,7 @@ def run(width, mock=True):
         if pg.locator('#whyList details.pa').count() != len(A): errs.append('section does not show every action card')
         if 'last line first' not in pg.text_content('#main .ph'): errs.append('reading cue missing')
         pg.fill('#whyQ', 'cardioversion'); pg.wait_for_timeout(150)
-        if not 1 <= pg.locator('#whyList details.pa:not([hidden])').count() <= 4: errs.append('search did not narrow the cards')
+        if not 1 <= pg.locator('#whyList details.pa:not([hidden])').count() <= 6: errs.append('search did not narrow the cards')
         pg.fill('#whyQ', ''); pg.click('[data-whyall]'); pg.wait_for_timeout(150)
         if pg.locator('#whyList details.pa[open] .pa-ar').count() < 100: errs.append('arrows not coloured in action cards')
         ov('action section')

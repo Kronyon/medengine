@@ -210,6 +210,148 @@ act('opioid_act', 'Opioid maths: divide and switch', [50, 88],
  'Oral morphine → **subcutaneous morphine**: **divide by 2** → subcutaneous diamorphine: divide by 3.',
  '**Breakthrough** dose → **one sixth** of the 24-hour total. **Severe CKD** → avoid morphine and codeine → **buprenorphine or fentanyl**.')
 
+
+# ---------------- v1.2.1: every remaining ILO condition ----------------
+act('dissect_act', 'Aortic dissection: type A vs type B', [1, 61],
+ '1️⃣ Suspected and stable → **CT angiography** → unstable → bedside echo → **never thrombolyse** a possible dissection.',
+ '🔴 **Type A**, involving the ascending aorta → **emergency surgery** → control BP and pain on the way.',
+ '🟢 **Type B**, descending only → **IV labetalol** to bring BP and heart rate down → rupture, malperfusion or expansion → **endovascular repair**.')
+act('lipid_act', 'Lipids: who gets which statin', [5],
+ 'Primary prevention → **QRISK3 10% or more** → lifestyle + **atorvastatin 20 mg** → CKD or type 1 diabetes → also offered.',
+ 'Established cardiovascular disease → **atorvastatin 80 mg** → recheck at 3 months → aim for a **40% or more fall in non-HDL** → not reached → adherence, then a higher dose or ezetimibe.',
+ 'LFTs before, at 3 and at 12 months → muscle pain → **CK** → suspected familial hypercholesterolaemia → **specialist and family testing**.')
+act('ie_act', 'Infective endocarditis: cultures before antibiotics', [8],
+ '1️⃣ Fever plus a murmur, new emboli or a valve history → **3 sets of blood cultures** from separate sites **before antibiotics** → **echo**, transthoracic then transoesophageal → **Duke criteria**.',
+ '2️⃣ Empirical IV antibiotics by local guidance → adjusted to the organism → **weeks** of IV treatment.',
+ '🔴 **Heart failure, abscess, uncontrolled infection or large vegetations with emboli** → **cardiac surgery**.')
+act('effusion_act', 'Pleural effusion: tap or treat the cause', [9],
+ '1️⃣ **Chest X-ray** → bilateral with obvious heart failure → **treat the failure**, no tap unless it behaves oddly.',
+ '2️⃣ Unilateral or unexplained → **ultrasound-guided aspiration**: protein, LDH, pH, glucose, cytology, culture → **Light\'s criteria** sorts transudate from exudate.',
+ '🔴 **pH under 7.2**, pus or organisms → **chest drain** for empyema → malignant and recurrent → **pleurodesis or an indwelling catheter**.')
+act('chestinf_act', 'Bronchitis vs Covid vs bronchiectasis: who needs what', [18, 14, 17],
+ '**Acute bronchitis** → self-care, no antibiotics for most → frail, comorbid or systemically unwell → antibiotics → **CRP** helps: under 20 → none, 20 to 100 → delayed, over 100 → offer.',
+ '**Covid-19** → low oxygen → oxygen to target → needs oxygen → **dexamethasone** → high-risk patients early on → antivirals.',
+ '**Bronchiectasis** → daily **airway clearance physiotherapy** → sputum culture each exacerbation → **14 days of antibiotics** → frequent exacerbations → specialist long-term macrolide.')
+act('lungca_act', 'Lung cancer and fibrotic lung: refer, image, treat', [21, 22, 23],
+ '**Urgent chest X-ray** → 40 or over with two unexplained symptoms such as cough, breathlessness, weight loss or chest pain, or one if a smoker → **haemoptysis at 40 or over** or a suspicious X-ray → **2-week wait**.',
+ '**Non-small cell, early** → **surgery**, usually lobectomy → **small cell** → chemotherapy → **SVC obstruction** → steroids and a stent → **hypercalcaemia** → IV fluids then bisphosphonate.',
+ 'Fibrosis → **HRCT** → IPF → antifibrotics, pirfenidone or nintedanib → **hypersensitivity pneumonitis** → remove the exposure, steroids → asbestos disease → industrial injuries compensation.')
+act('nutrition_act', 'Malnutrition and refeeding: screen, feed slowly, replace', [26],
+ '1️⃣ **MUST** screen everyone admitted → score 2 or more → **dietitian** → oral first → unsafe swallow → **NG feeding** → gut not working → parenteral nutrition.',
+ '🔴 **High refeeding risk**: very low BMI, little intake for days, low potassium, phosphate or magnesium → **start feeding slowly** → **thiamine and B vitamins before feeding** → check and replace phosphate, potassium and magnesium daily.')
+act('bowel_act', 'IBS and constipation: exclude, then step up', [29, 39],
+ '**IBS** → exclude red flags → FBC, CRP, coeliac serology, **calprotectin** → regular meals, adjust fibre → pain → **antispasmodic** → diarrhoea → **loperamide** → constipation → laxative, not lactulose → still bad → low-dose tricyclic → low FODMAP with a dietitian.',
+ '**Constipation** → red flags → 2-week wait → 1️⃣ **bulk-forming**, ispaghula → 2️⃣ **osmotic**, macrogol → 3️⃣ **stimulant**, senna → **opioid-induced** → osmotic + stimulant, avoid bulk-forming → **impaction** → high-dose macrogol or enemas.')
+act('perianal_act', 'Perianal abscess and fistula: drain it, then map it', [34],
+ '**Perianal abscess** → **incision and drainage**, antibiotics alone are not enough.',
+ '**Fistula** → **MRI pelvis** maps the tract → seton or fistulotomy → recurrent or complex → **think Crohn\'s** → gastroenterology.')
+act('lgib_act', 'Lower GI bleed: unstable vs stable', [38],
+ '🔴 **Unstable**, shock index over 1 → resuscitate → **CT angiography** → bleeding point found → **embolisation** → upper GI source possible → OGD.',
+ '🟢 **Stable** → **Oakland score** → 8 or less → discharge for outpatient tests → over 8 → admit for colonoscopy → most diverticular and angiodysplasia bleeds **stop by themselves**.')
+act('appendix_act', 'Appendicitis: confirm, then remove', [40],
+ '1️⃣ Bloods, **pregnancy test**, urinalysis → young women and children → **ultrasound** → adults with doubt → **CT**.',
+ '2️⃣ **Laparoscopic appendicectomy** + antibiotics → **appendix mass** → antibiotics, drain any abscess → later interval surgery → 🔴 **perforation** → urgent surgery.')
+act('pid_act', 'PID: treat on suspicion', [47],
+ '1️⃣ **Pregnancy test** and **NAAT swabs** for chlamydia and gonorrhoea → **start treatment straight away**, do not wait for results.',
+ '2️⃣ **IM ceftriaxone once + oral doxycycline and metronidazole for 14 days** → coil in situ → can stay unless no better in 72 hours → **partner notification**.',
+ '🔴 Pregnant, very unwell, **tubo-ovarian abscess** or no improvement → **admit** for IV antibiotics → ectopic must be excluded.')
+act('acuteabdo_act', 'Abdominal pain: rule out the killers first', [49],
+ '1️⃣ **ABCDE** → **pregnancy test** in every woman who could be pregnant → bloods with **amylase or lipase, lactate, group and save** → ECG for inferior MI.',
+ '🔴 The killers → **ruptured AAA**, **ruptured ectopic**, **perforation**, **mesenteric ischaemia**, DKA → straight to the right pathway: theatre, CT angiography, erect chest X-ray, glucose and ketones.',
+ '**Ectopic** → stable, small, low hCG → methotrexate or watch → **ruptured or unstable** → **laparoscopic salpingectomy**.')
+act('mastitis_act', 'Mastitis and breast abscess: keep feeding, then treat', [54],
+ '🟢 **Lactational mastitis** → **keep breastfeeding or expressing**, analgesia, warm compresses → not settling in 12 to 24 hours, or infected nipple → **flucloxacillin**, or erythromycin if allergic.',
+ '**Abscess**, a fluctuant tender lump → **ultrasound** → **needle aspiration** or incision and drainage → non-lactational in a smoker → periductal mastitis → antibiotics and breast referral.')
+act('veins_act', "Varicose veins, lymphoedema and Raynaud's: when to refer", [64, 65, 66],
+ '**Varicose veins** → refer if symptomatic, skin changes, ulcer, bleeding or thrombophlebitis → **duplex** → **endothermal ablation** first → then sclerotherapy or surgery → **bleeding varicosity** → elevate, press, urgent vascular.',
+ '**Lymphoedema** → **compression garments**, skin care, exercise, lymphatic drainage → treat **cellulitis** early because it worsens the swelling.',
+ "**Raynaud's** → keep warm, stop smoking, avoid beta-blockers → **nifedipine** → **secondary features**: onset after 30, asymmetric, ulcers, systemic symptoms → rheumatology.")
+act('dmcomp_act', 'Diabetes: the yearly review that prevents complications', [71, 67],
+ '**Every year** → **retinal screening**, urine **ACR and eGFR**, **10 g monofilament** foot check, BP, lipids → HbA1c target usually **48**, or 53 on drugs that cause hypos.',
+ 'ACR 3 or more → **ACE inhibitor or ARB** → type 2 → add an **SGLT2 inhibitor** → painful neuropathy → **amitriptyline, duloxetine, gabapentin or pregabalin**.',
+ '🔴 **Active diabetic foot problem**: ulcer, infection, ischaemia, Charcot → **multidisciplinary foot team within 1 working day**.')
+act('thyroidca_act', 'Thyroid lump and cancer: scan, needle, operate', [74],
+ '1️⃣ **TFTs** → **ultrasound** with a U grade → suspicious → **FNA** → unexplained lump with red flags → **2-week wait**.',
+ '**Papillary or follicular** → **thyroidectomy** ± radioiodine → levothyroxine to suppress TSH → **medullary** → calcitonin, RET testing, total thyroidectomy → **anaplastic** → palliative.',
+ 'After surgery → check **calcium** for parathyroid damage → hoarse voice → recurrent laryngeal nerve.')
+act('bph_act', 'BPH and urethral stricture: assess, then tablets, then surgery', [75, 85],
+ '1️⃣ LUTS → **IPSS**, DRE, urinalysis, counselled PSA, **frequency-volume chart** → voiding symptoms → **alpha-blocker**, tamsulosin.',
+ '2️⃣ Prostate over 30 g or PSA over 1.4 → add a **5-alpha reductase inhibitor**, finasteride, which takes months → storage symptoms → antimuscarinic → refractory or complications → **TURP**.',
+ '🔴 **Acute retention** → **catheter** → chronic high-pressure retention with AKI → catheterise and watch for **post-obstructive diuresis**. **Urethral stricture** → urethrotomy or dilatation.')
+act('prostateca_act', 'Prostate cancer: MRI first, then risk decides', [76],
+ '1️⃣ PSA raised for age or a hard nodule on DRE → **2-week wait** → **multiparametric MRI first** → then biopsy.',
+ '2️⃣ Low risk, localised → **active surveillance** → intermediate or high → **radical prostatectomy or radiotherapy** with hormones → metastatic → **androgen deprivation**, an LHRH agonist with anti-androgen cover for the flare.',
+ '🔴 Back pain with leg weakness → **metastatic spinal cord compression** → **dexamethasone + MRI within 24 hours** → radiotherapy or surgery.')
+act('penis_act', 'Penis and scrotum: which lump or problem is urgent', [81],
+ '🔴 **Paraphimosis** → reduce it now with ice, compression and gentle pressure → **priapism** over 4 hours → **emergency aspiration**.',
+ '**Balanitis** → hygiene, topical antifungal or mild steroid → **phimosis** in adults → steroid cream → circumcision if persistent.',
+ 'Adult **hydrocele** → **ultrasound** to exclude a tumour → **varicocele** that is new, right-sided or does not empty lying down → **renal imaging** → epididymal cyst → reassure.')
+act('oa_act', 'Osteoarthritis and joint replacement: core first, then the knife', [86, 87],
+ '1️⃣ Clinical diagnosis → 45 or over, pain with use, morning stiffness under 30 minutes → **exercise and weight loss** for everyone → knee or hand → **topical NSAID** → 2️⃣ **oral NSAID + PPI** → short-term relief → intra-articular steroid.',
+ '🎯 Severe pain or loss of function despite this → **joint replacement**.',
+ 'After replacement → **VTE prophylaxis** → hot, painful joint → **infection** → urgent orthopaedics → posterior hip approach → **dislocation precautions**.')
+act('cns_act', 'Raised ICP, bleeds and brain infections: what to do first', [90, 92, 94, 95],
+ '🔴 **Raised ICP** → head up 30 degrees, airway, treat the cause → **mannitol or hypertonic saline** → GCS 8 or less → **intubate** → **no LP**.',
+ '**Subdural**: acute with mass effect → **craniotomy** → chronic and symptomatic → **burr hole drainage** → reverse anticoagulation → **extradural** → urgent evacuation.',
+ '**Encephalitis** → **IV aciclovir immediately** → MRI, LP for HSV PCR, EEG. **Brain abscess** → **IV ceftriaxone + metronidazole** → neurosurgical drainage → find the source: ears, sinuses, teeth, heart.')
+act('neuromusc_act', 'MND, GBS, myasthenia and palsies: support the breathing', [97, 98, 99],
+ '**Guillain–Barré** → monitor **FVC** → **IV immunoglobulin** or plasma exchange → no steroids → falling FVC → ICU.',
+ '**Myasthenia** → **pyridostigmine** → steroids or azathioprine → CT chest for **thymoma** → 🔴 **crisis** → IVIG or plasma exchange + ventilatory support.',
+ '**MND** → **riluzole** → breathing failing → **NIV** prolongs life → swallow failing → gastrostomy. **Carpal tunnel** → splint or steroid injection → surgery if severe.')
+act('psychosis_act', 'First episode psychosis: refer fast, monitor the body', [100],
+ '1️⃣ **Early intervention in psychosis team** within 2 weeks → oral antipsychotic + **CBT for psychosis** + family intervention.',
+ 'Before and during treatment → **weight, waist, BP, glucose or HbA1c, lipids, prolactin**, ECG if risk → two antipsychotics failed → **clozapine** with blood count monitoring.',
+ '🔴 **Acute agitation** → de-escalation → oral lorazepam or an antipsychotic → refused and still a risk → **IM rapid tranquillisation**.')
+act('depression_act', 'Depression: risk first, then severity picks the treatment', [102],
+ '1️⃣ **Risk first** → active plan or intent → **crisis team or urgent psychiatry** → safety plan.',
+ '**Less severe** → guided self-help, CBT or group exercise → **more severe** → **CBT + an SSRI** such as sertraline → review at **2 weeks**, or **1 week** if under 25 or at risk.',
+ 'Remission → continue **at least 6 months** → stop slowly to avoid discontinuation symptoms → severe, life-threatening or with psychosis → **ECT**.')
+act('anxiety_act', 'Anxiety, PTSD, OCD, phobias and adjustment: therapy first', [104, 105, 106, 118, 117],
+ '**GAD** → education → low-intensity self-help → **CBT or applied relaxation, or an SSRI** such as sertraline → **panic** → CBT or SSRI → **no benzodiazepines**.',
+ '**PTSD** → **trauma-focused CBT or EMDR** → drug only if preferred → venlafaxine or an SSRI. **OCD** → **CBT with exposure and response prevention** → SSRI → both.',
+ '**Phobia** → **graded exposure** → **adjustment disorder** → support, problem-solving, short-term help.')
+act('edperinatal_act', 'Eating disorders, perinatal illness and unexplained symptoms', [108, 115, 107],
+ '**Eating disorder** → **specialist eating disorder service** → anorexia → eating-disorder-focused therapy, family therapy if young → 🔴 medically unstable: very low weight, bradycardia, low BP, low potassium → **admit** with refeeding precautions.',
+ '**Postpartum psychosis** → **emergency** → mother and baby unit → **postnatal depression** → guided self-help or CBT → **sertraline** if breastfeeding → avoid **valproate** in anyone who could become pregnant.',
+ '**Medically unexplained symptoms** → one named clinician, **regular scheduled appointments**, avoid repeated tests → CBT.')
+act('neurodev_act', 'Personality, neurodevelopment and catatonia: who needs what', [109, 119, 114, 120, 121, 113],
+ '**EUPD** → **DBT** → crisis plan → medication only short-term in crises. **ADHD** → specialist diagnosis → **methylphenidate**, or lisdexamfetamine in adults → monitor **height, weight, BP and pulse**.',
+ '**Autism** → specialist diagnosis → **reasonable adjustments**, treat co-occurring conditions → **conduct disorder or ODD** → **parent training programmes**.',
+ '**Intellectual disability** → reasonable adjustments, **annual health check**, capacity per decision → new behaviour → **look for pain or illness first**. **Catatonia** → **lorazepam** → **ECT**.')
+act('alcohol_act', 'Alcohol and drugs: withdrawal, Wernicke, relapse', [110],
+ '🔴 **Withdrawal** → **chlordiazepoxide** reducing regimen → seizures → lorazepam → **delirium tremens** at 48 to 72 hours → admit.',
+ 'Any risk of Wernicke\'s → **IV Pabrinex before glucose** → confusion, eye signs, ataxia → high-dose IV thiamine.',
+ 'Staying off → **acamprosate or naltrexone** → disulfiram as a deterrent → **opioid dependence** → methadone or buprenorphine → overdose → **naloxone**.')
+act('delirium_act', 'Delirium: find the cause, calm without drugs', [116],
+ '1️⃣ **4AT** → hunt the cause: infection, drugs, **retention, constipation**, pain, hypoxia, salts, glucose → treat it.',
+ '2️⃣ **Non-drug care** → glasses and hearing aids, orientation, sleep, mobility, familiar faces → most settle as the cause is treated.',
+ '🔴 Distressed or a risk to themselves or others → short-term low-dose **haloperidol** → **avoid** in Parkinson\'s or Lewy body dementia.')
+act('derm_act', 'Urticaria, eczema, psoriasis and acne: the step-up', [126, 128, 137, 138],
+ '**Urticaria** → **non-sedating antihistamine** → up to four times the dose → chronic → specialist. 🔴 **Anaphylaxis** → **IM adrenaline 500 micrograms**, repeat after 5 minutes.',
+ '**Eczema** → **lots of emollient** → flares → topical steroid by strength and site → infected → flucloxacillin → 🔴 **eczema herpeticum** → urgent aciclovir → contact dermatitis → patch test and avoid.',
+ '**Psoriasis** → **potent steroid + vitamin D analogue** → then a **4-week break** from potent steroids → phototherapy → methotrexate → biologics.',
+ '**Acne** → topical combination for 12 weeks → moderate to severe → add **oral lymecycline or doxycycline** → severe, scarring or failing → **refer for isotretinoin**.')
+act('skininf_act', 'Skin infections and infestations: the first line', [130, 129, 133, 134, 135, 136],
+ '**Impetigo** → localised → **hydrogen peroxide 1% cream** → topical fusidic acid → widespread or unwell → **flucloxacillin** → off school until crusted or 48 hours of antibiotics. **Folliculitis** → hygiene, topical antiseptic.',
+ '**Warts** → leave them → salicylic acid → cryotherapy. **Tinea** of skin → **topical terbinafine** → scalp or nails → **oral** treatment after confirming the fungus.',
+ '**Scabies** → **permethrin 5%** to the whole body → **repeat after 7 days** → treat everyone in the household at once → itch can last weeks. **Head lice** → only if live lice → wet combing or dimeticone → repeat after 7 days.')
+act('skinsys_act', 'Skin failure and skin signs of disease: act on these', [139, 125],
+ '🔴 **Erythroderma or SJS/TEN** → **acute skin failure** → stop the culprit drug, such as allopurinol, anticonvulsants or sulfonamides → admit: fluids, warmth, infection control, nutrition.',
+ '**Erythema nodosum** → look for **strep throat, sarcoid, TB, IBD**, pregnancy or the pill → **pyoderma gangrenosum** → IBD or RA → steroids, **no debridement**.',
+ 'Sudden **acanthosis nigricans** → insulin resistance or a hidden **gastric cancer**.')
+act('entkids_act', 'Ears, throats and airways in children', [149, 143, 145, 153, 152],
+ '**Otitis media** → analgesia, most settle in 3 days → **amoxicillin** if systemically unwell, under 2 with both ears, discharge, or not improving → **glue ear** → watch 3 months → hearing test → grommets or hearing aids.',
+ '🔴 **Epiglottitis** → do not examine the throat → senior anaesthetist and ENT → secure the airway → IV ceftriaxone. **Croup** → **single dose of oral dexamethasone** → severe → nebulised adrenaline and oxygen.',
+ '**Glandular fever** → supportive → **no contact sport** while the spleen is big → avoid amoxicillin. Failed newborn hearing screen or speech delay → **audiology**.')
+act('vertigo_act', "Vertigo, Ménière's, acoustic neuroma and Bell's palsy", [142, 146, 140, 141, 147],
+ '**BPPV** → **Dix–Hallpike** → **Epley manoeuvre**, no drugs → **vestibular neuritis** → prochlorperazine for a few days only → vestibular rehabilitation.',
+ "**Ménière's** → ENT → prochlorperazine for attacks → betahistine to prevent → tell the DVLA. **One-sided hearing loss or tinnitus** → **MRI internal auditory meatus**. New neuro signs or a central HINTS exam → **stroke pathway**.",
+ "**Bell's palsy** within 72 hours → **prednisolone** → **eye protection**: lubricants and taping at night → forehead spared → stroke pathway. **Sleep apnoea** → Epworth and a sleep study → **CPAP**.")
+act('eyemore_act', 'Red eye, cataract and trauma: treat vs same-day', [154, 155, 156, 157, 158, 159, 164, 166, 167],
+ '**Conjunctivitis** → mostly self-limiting → severe bacterial → **chloramphenicol drops** → allergic → antihistamine drops. **Blepharitis** → warm compresses and lid hygiene.',
+ '🔴 Same day → **keratitis** in a contact lens wearer → stop lenses, no steroids → **uveitis** → steroid and dilating drops → **scleritis** → systemic treatment → **herpes dendritic ulcer** → topical aciclovir.',
+ '🔴 **Chemical injury** → **irrigate immediately** for at least 20 minutes, check pH → **penetrating injury** → shield, no pressure → **corneal abrasion** → fluorescein, chloramphenicol. **Cataract** → surgery when it limits life.')
+
 PATH = [{'id': 'nerves', 't': 'Nerve injuries: where the bone breaks, which nerve stops', 'u': [99], 'l': [
  '**Surgical neck of humerus** → **axillary nerve** → numb patch over the deltoid, weak shoulder → **midshaft humerus** → **radial nerve** in its groove → **wrist drop** → so test **wrist extension**.',
  '**Medial epicondyle** → **ulnar nerve** → claw hand, weak finger spreading → **wrist** → **median nerve** in the carpal tunnel → numb thumb side, thenar wasting → **splint first**, surgery if severe.',

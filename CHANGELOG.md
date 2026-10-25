@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.1 (2026-10-25)
+
+- ⚡ **First move vs cure now covers every ILO condition** (168 of 168) in 84 cards: related conditions share a card so it stays lean. New: aortic dissection, lipids, endocarditis, effusion, bronchitis/Covid/bronchiectasis, lung cancer and fibrosis, malnutrition and refeeding, IBS and constipation, perianal abscess, lower GI bleed, appendicitis, PID, the acute abdomen, mastitis, veins and Raynaud's, the diabetes annual review, thyroid cancer, BPH and stricture, prostate cancer and cord compression, penis and scrotum, OA and joint replacement, raised ICP and brain infections, GBS/myasthenia/MND, first-episode psychosis, depression, anxiety/PTSD/OCD, eating disorders and perinatal, neurodevelopment and catatonia, alcohol and drugs, delirium, the derm step-up, skin infections and infestations, skin failure, children's ENT and airway, vertigo and Bell's, and the eye.
+- Tests: a coverage check fails if any ILO condition has no ⚡ card, or if the deck grows past 120 cards.
+
 ## 1.2.0 (2026-10-25)
 
 - ⚡ **First move vs cure**: 48 decision cards in the same arrow style as 🧬 Why it happens, for the acute and high-yield ILO conditions. 🔴 unstable vs 🟢 stable splits and 1️⃣ → 2️⃣ → 🎯 ladders: tachy and brady arrhythmias, ACS, heart failure, the NICE hypertension ladder, PE, DVT, acute asthma, COPD oxygen, pneumothorax, CURB-65, sepsis, upper GI bleed, perforation, UC flares, gallstones, coeliac, reflux, fissure, diverticulitis, hernias, bowel cancer surgery by site, obstruction, breast referral and hormone drugs, DKA vs HHS, hypoglycaemia, thyroid, adrenal crisis, hyperkalaemia, AKI, renal colic, UTI, the acute scrotum and urology 2-week waits, status epilepticus, SAH, meningitis, C. diff and food poisoning, TB, skin, eye and ENT emergencies, psychiatric drug emergencies, antidotes, anaemia, opioid maths. UK guidance only. Own section (search, system chips, 📖 Read all, a "read it like a playmaker" cue), plus a ⚡ strip on each condition's Think tab.

@@ -143,7 +143,7 @@ rep('<header class="top">', '<style>\n' + mev_css + ext_css + '</style>\n<header
 rep('<script id="qqdata" type="application/json">', '<script>\n' + mev_js + '</script>\n<script id="qqdata" type="application/json">')
 
 # ---------- version ----------
-rep('<small>v0.5.0 beta</small>', '<small>v1.2.0</small>')
+rep('<small>v0.5.0 beta</small>', '<small>v1.2.1</small>')
 rep('const fmtRich = t => fmtPlain(t)', 'const fmtRich = t => dualHtml(t) || fmtRich0(t);\nconst fmtRich0 = t => fmtPlain(t)')
 
 # ---------- script hooks ----------
