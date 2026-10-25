@@ -8,11 +8,31 @@ const WEEK = {}; D.weeks.forEach(w => WEEK[w.id] = w.name);
 const stById = {}; ST.forEach(s => stById[s.id] = s);
 const exById = {}; EX.forEach(e => exById[e.id] = e);
 const prById = {}; PR.forEach(e => prById[e.id] = e);
-const PPS = ST.filter(s => s.pp);
+const PPS = ST.filter(s => s.pp && !s.twin);
+const TYPES = [
+  ['hx', '🗣️', 'History', 'History', 'Take a focused history, then present to the examiner. No examination, no counselling.'],
+  ['ex', '🩺', 'Examination', 'Exam', 'Examine, then present your findings and how you would complete it.'],
+  ['img', '🖼️', 'Imaging and ECG', 'Imaging', 'Present a chest X-ray, abdominal X-ray, CT or ECG systematically.'],
+  ['drug', '💊', 'Drug counselling', 'Drugs', 'Why → How → Watch → Check, with the patient.'],
+  ['comm', '💬', 'Communication', 'Comms', 'Bad news, explaining a diagnosis, antibiotics, and the harder conversations.'],
+  ['proc', '🧪', 'Procedures', 'Procedures', 'Every FFP DOPS step by step, with what to say and the pictures.'],
+  ['psych', '🧠', 'Psychiatry', 'Psych', 'Mental health history, MSE, risk and suicide risk.']];
+const TY = {}; TYPES.forEach(t => TY[t[0]] = {id: t[0], i: t[1], t: t[2], nav: t[3], d: t[4]});
+const TALK = new Set(['hx', 'drug', 'comm', 'psych', 'img']);
+const typeOf = s => s.type || 'hx';
+const FFP = D.ffp || [];
+const HOW = {
+  hx: ['Read the door: who, where, what they came with.', 'Open question, then listen for the golden minute.', 'Focused questions to split your top 3 differentials, plus red flags.', 'ICE, then PMH, drugs, allergies, family and social history.', 'At 8 minutes stop and turn to the examiner: summary → diagnosis and why → what to exclude → first tests.'],
+  ex: ['WIPER: wash, introduce, permission, expose, reposition.', 'Look from the end of the bed, then the system in order.', 'Say what you see as you go.', 'Finish by 7 minutes; thank and cover.', 'Present: positives, key negatives, diagnosis, and how you would complete it.'],
+  img: ['Details: name, date, type of film or scan.', 'Quality checks.', 'A fixed system: the same order every time.', 'The key finding, then the diagnosis.', 'The next step.'],
+  drug: ['What they know and what worries them.', 'Why: the condition and how the drug helps.', 'How: dose, timing, how long.', 'Watch: side effects, red flags, monitoring.', 'Check: teach-back, leaflet, follow-up.'],
+  comm: ['Set up and find out what they know.', 'Signpost, then chunk and check.', 'Respond to emotion.', 'A clear plan.', 'Summary, teach-back and safety-net.'],
+  proc: ['ID, explain, consent, allergies.', 'Equipment and hand hygiene.', 'The steps in order, saying what you are doing.', 'Sharps and waste.', 'Document and act on the result.'],
+  psych: ['Rapport and confidentiality.', 'Story, mood, anxiety, psychosis, mania, substances.', 'Risk: to self, to others, from others.', 'Background and life story.', 'Present: summary, diagnosis, risk level, plan.']};
 const FWD = D.fw || {uni: [], list: []}, FWL = FWD.list, UNI = FWD.uni, FWBY = {}; FWL.forEach(f => FWBY[f.id] = f);
 const FRFW = {hx: 'hx', mhx: 'mhx', ex: 'ex', proc: 'proc', acute: 'acute', expl: 'expl', counsel: 'expl', bbn: 'expl', presc: 'presc', di: 'di', prof: 'prof'};
 const DRILL = 'https://claude.ai/artifact/NexSvgTB8VhqktVFfko6JR';
-const APP_NAME = 'medengine-OSCE', APP_VERSION = '0.6.0-beta', PUBLIC = !!window.MEDENGINE_PUBLIC;
+const APP_NAME = 'medengine-OSCE', APP_VERSION = '1.3.0', PUBLIC = !!window.MEDENGINE_PUBLIC;
 const unitsByName = {}; UNITS.forEach(u => (unitsByName[u.name] = unitsByName[u.name] || []).push(u.i));
 function toast(t){ const el = $('#toast'); el.textContent = t; el.classList.add('show'); clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove('show'), 1800); }
 const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -44,14 +64,22 @@ const scoreCls = p => p == null ? '' : p >= 75 ? 'g' : p >= 55 ? 'w' : 'b';
 const scoreHtml = id => { const b = best(id); return b == null ? '<span class="score">new</span>' : '<span class="score ' + scoreCls(b) + '">' + b + '%</span>'; };
 
 /* ---------- checklist assembly ---------- */
-const ORDER = ['hx', 'mhx', 'ex', 'proc', 'di', 'presc', 'counsel', 'bbn', 'expl', 'acute', 'prof', 'sbar', 'ebm', 'reason', 'plan'];
+const ORDER = ['hx', 'mhx', 'ex', 'proc', 'di', 'presc', 'counsel', 'bbn', 'expl', 'acute', 'prof', 'sbar', 'ebm', 'reason', 'plan', 'pres'];
 function packFor(st){ for (const ui of st.u || []) if (PK[ui]) return {p: PK[ui], u: UNITS[ui]}; return null; }
 const frameItems = fid => { const f = FR[fid]; const out = []; if (f) f.secs.forEach(sc => sc.items.forEach(it => out.push(Object.assign({sub: sc.h}, it)))); return out; };
-function varOf(st, vk){ if (!st.pp) return null; return st.vars.find(v => v.k === vk) || st.vars[0]; }
+function varOf(st, vk){ if (!(st.vars || []).length) return null; return st.vars.find(v => v.k === vk) || st.vars[0]; }
 function splitX(x){ return x.split(/;\s+|\.\s+(?=[A-Z])/).map(t => t.trim().replace(/\.$/, '')).filter(t => t.length > 3); }
 function buildChecklist(st, vk){
   const secs = [];
   const add = (key, h, items, open) => { if (items.length) secs.push({key, h, items: items.map((it, n) => Object.assign({id: key + '.' + n}, it)), open}); };
+  if (st.secs) {
+    const w = st.wrap || ['open', 'close'];
+    add(w[0], FR[w[0]].t, frameItems(w[0]));
+    st.secs.forEach((sc, i) => add('s' + i, sc.h, sc.items, i === 0));
+    const v = varOf(st, vk); if (v && v.x) add('vx', 'This case: what the examiner wants', splitX(v.x).map(t => ({t})));
+    add(w[1], FR[w[1]].t, frameItems(w[1]));
+    return secs;
+  }
   add('open', 'Opening', frameItems('open'));
   if (st.pp) {
     st.dom.forEach((d, i) => add('d' + i, d.h, d.items, i === 0));
@@ -95,6 +123,7 @@ function getStation(id){ if (stById[id]) return stById[id]; if (id.startsWith('E
 const CKI = {in: '✅', out: '❌', lab: '🧪', nb: '🆕'};
 const moneyFor = (st, vk) => (st.mv && st.mv[vk]) || st.money;
 function hooksFor(st, vk){
+  if (st.secs) return {trig: [], hook: st.hooks || [], clinch: [], money: moneyFor(st, vk), trap: st.traps || [], all: []};
   if (st.pp) return {trig: st.trig, hook: st.hook, clinch: st.clinch, money: moneyFor(st, vk), trap: st.trap, all: st.vars.length > 1 ? st.vars.map(v => [v.k, v.dx, moneyFor(st, v.k)]) : []};
   const ck = [], seen = new Set();
   (st.u || []).forEach(i => (PK[i] && PK[i].ck || []).forEach(c => { if (!seen.has(c[1])) { seen.add(c[1]); ck.push(c); } }));
@@ -113,6 +142,13 @@ function hookHtml(h, open){
 }
 function scriptFor(st, vk){
   const L = [], fl = (fid, label, all) => frameItems(fid).forEach(it => { if (all || it.say || it.w === 2 || it.f) L.push({s: label || FR[fid].t, say: it.say || '', act: it.t, why: it.why || '', nn: it.w === 2}); });
+  if (st.secs) {
+    const w = st.wrap || ['open', 'close'];
+    fl(w[0], 'Open', true);
+    st.secs.forEach(sc => sc.items.forEach(it => L.push({s: sc.h, say: it.say || '', act: it.t, why: it.why || '', nn: it.w === 2})));
+    fl(w[1], 'Close', true);
+    return L;
+  }
   fl('open', 'Open', true);
   if (st.pp) {
     st.script.filter(r => !r.v || r.v === vk).forEach(r => L.push({s: r.s, say: r.say, why: r.why, v: r.v}));
@@ -134,18 +170,21 @@ function scriptFor(st, vk){
 }
 function scriptHtml(st, vk){
   const L = scriptFor(st, vk), rc = S.set.recall;
-  return '<div class="row"><h2 class="grow">📜 Script: what to say and why</h2><label class="hint"><input type="checkbox" id="recallT"' + (rc ? ' checked' : '') + '> 🙈 Recall mode</label></div><p class="hint" style="margin:0">' + (rc ? 'Say each line out loud before you tap to check it.' : 'Read it once, then switch on Recall mode and say each line before revealing it.') + '</p><div class="scr">' + L.map((l, i) => {
-    const body = l.say ? '<div class="say">🗣 “' + rich(l.say) + '”</div>' : '<div class="say do">' + rich(l.act || '') + '</div>';
+  return '<div class="row"><h2 class="grow">📜 What to do, what to say, and why</h2><label class="hint"><input type="checkbox" id="recallT"' + (rc ? ' checked' : '') + '> 🙈 Recall mode</label></div><p class="hint" style="margin:0">' + (rc ? 'Say each line out loud before you tap to check it.' : 'Read it once, then switch on Recall mode and say each line before revealing it.') + '</p><div class="scr">' + L.map((l, i) => {
+    const body = (l.say && l.act ? '<div class="say do">' + rich(l.act) + '</div>' : '') + (l.say ? '<div class="say">🗣 “' + rich(l.say) + '”</div>' : '<div class="say do">' + rich(l.act || '') + '</div>');
     return '<div class="sl' + (l.v ? ' var' : '') + '"><span class="n">' + (i + 1) + '</span><div><span class="sec">' + (l.nn ? '<span class="nn">⛔</span>' : '') + esc(l.s) + (l.v ? ' · case ' + esc(l.v) : '') + '</span>' + (rc ? '<button class="rev" data-reveal>Tap to reveal' + (l.say ? ' the line' : ' the step') + '</button><div hidden>' + body + '</div>' : body) + (l.why ? '<div class="why">💡 ' + rich(l.why) + '</div>' : '') + '</div></div>';
   }).join('') + '</div>';
 }
 
 /* ---------- routing ---------- */
-const VIEWS = ['home', 'stations', 'fw', 'hooks', 'exams', 'dops', 'ilos', 'skills', 'visual'];
+const VIEWS = ['home', 'stations', 'fw', 'hooks', 'exams', 'dops', 'ilos', 'skills', 'visual', 'ffp'];
 function fromHash(){
   const h = (location.hash || '').slice(1);
   let m;
   if ((m = h.match(/^s-([A-Za-z0-9-]+)$/)) && getStation(m[1])) return {v: 'station', id: m[1]};
+  if ((m = h.match(/^t-(\w+)$/)) && TY[m[1]]) return {v: 'type', id: m[1]};
+  if ((m = h.match(/^e-(\w+)$/)) && (D.exmap || {})[m[1]] && getStation(D.exmap[m[1]])) return {v: 'station', id: D.exmap[m[1]]};
+  if ((m = h.match(/^p-(\w+)$/)) && (D.prmap || {})[m[1]] && getStation(D.prmap[m[1]])) return {v: 'station', id: D.prmap[m[1]]};
   if ((m = h.match(/^e-(\w+)$/)) && exById[m[1]]) return {v: 'exam', id: m[1]};
   if ((m = h.match(/^p-(\w+)$/)) && prById[m[1]]) return {v: 'proc', id: m[1]};
   if ((m = h.match(/^u-?(\d+)$/)) && UNITS[+m[1]]) return {v: 'ilo', id: +m[1]};
@@ -154,16 +193,17 @@ function fromHash(){
   if (VIEWS.includes(h)) return {v: h};
   return {v: 'home'};
 }
-function toHash(r){ return r.v === 'station' ? 's-' + r.id : r.v === 'exam' ? 'e-' + r.id : r.v === 'proc' ? 'p-' + r.id : r.v === 'ilo' ? 'u' + r.id : r.v === 'frame' ? 'f-' + r.id : r.v === 'fwone' ? 'fw-' + r.id + (r.mem ? '--' + r.mem : '') : r.v; }
-function leaveStation(){ stopTimer(); abortChat(); if (typeof VO !== 'undefined' && VO) vShutdown(); }
+function toHash(r){ return r.v === 'type' ? 't-' + r.id : r.v === 'station' ? 's-' + r.id : r.v === 'exam' ? 'e-' + r.id : r.v === 'proc' ? 'p-' + r.id : r.v === 'ilo' ? 'u' + r.id : r.v === 'frame' ? 'f-' + r.id : r.v === 'fwone' ? 'fw-' + r.id + (r.mem ? '--' + r.mem : '') : r.v; }
+function leaveStation(){ if (window.DG) DG.stopAll(); stopTimer(); abortChat(); if (typeof VO !== 'undefined' && VO) vShutdown(); }
 function go(r, push = true){ leaveStation(); route = r; if (push) { try { history.pushState(null, '', '#' + toHash(r)); } catch (e) { location.hash = toHash(r); } } render(); window.scrollTo(0, 0); }
 window.addEventListener('popstate', () => { leaveStation(); route = fromHash(); render(); });
 window.addEventListener('hashchange', () => { const r = fromHash(); if (toHash(r) !== toHash(route)) { leaveStation(); route = r; render(); } });
 function render(){
   const m = $('#main');
-  const navKey = {station: 'stations', exam: 'exams', proc: 'dops', ilo: 'ilos', frame: 'skills', fwone: 'fw', visual: 'fw'}[route.v] || route.v;
-  $$('#nav button').forEach(b => b.classList.toggle('on', b.dataset.v === navKey));
-  ({home: vHome, stations: vStations, hooks: vHooks, exams: vExams, dops: vDops, ilos: vIlos, skills: vSkills, station: vStation, exam: vExam, proc: vProc, ilo: vIlo, frame: vFrame, fw: vFw, fwone: vFwOne, visual: vVisual}[route.v] || vHome)(m);
+  const st0 = route.v === 'station' ? getStation(route.id) : null;
+  const navKey = route.v === 'type' ? 'ty:' + route.id : st0 ? 'ty:' + typeOf(st0) : route.v === 'exam' ? 'ty:ex' : route.v === 'proc' ? 'ty:proc' : route.v === 'home' || route.v === 'ffp' ? 'home' : '';
+  $$('#nav button').forEach(b => b.classList.toggle('on', (b.dataset.ty ? 'ty:' + b.dataset.ty : b.dataset.v) === navKey));
+  ({type: vType, ffp: vFfp, home: vHome, stations: vStations, hooks: vHooks, exams: vExams, dops: vDops, ilos: vIlos, skills: vSkills, station: vStation, exam: vExam, proc: vProc, ilo: vIlo, frame: vFrame, fw: vFw, fwone: vFwOne, visual: vVisual}[route.v] || vHome)(m);
 }
 
 /* ---------- views ---------- */
@@ -174,7 +214,51 @@ const PRIOS = [
   ['Complete the reasoning sentence', '"The important finding is ___. It suggests ___ because ___. The next step is ___."', ['PP01', 'PP45']],
   ['Protect time for management', 'The timer turns amber and chimes at 8:00. That is your cue to synthesise and give the plan.', ['PP27', 'PP24']]
 ];
+const doneOf = id => best(id) != null;
+const stTitle = s => s.t;
+function stRow(s, showCode){
+  const n = (s.vars || []).length, cs = (s.cases || []).length;
+  const sub = s.sub || (s.secs ? (s.ffp ? '✅ FFP: ' + s.ffp : '') : s.u.length && UNITS[s.u[0]] ? UNITS[s.u[0]].name : '');
+  return '<button class="li" data-st="' + s.id + '">' + (showCode && s.pp ? '<span class="code">' + esc(s.id.replace(/-x$/, '')) + '</span>' : '<span class="code ty">' + TY[typeOf(s)].i + '</span>') + '<span class="tt"><b>' + esc(stTitle(s)) + '</b><span>' + esc(sub) + (n > 1 ? ' · ' + n + ' cases' : '') + (cs ? ' · ' + cs + ' cases to present' : '') + ((s.dg || []).length ? ' · 🖼️ ' + s.dg.length : '') + '</span></span>' + scoreHtml(s.id) + '</button>';
+}
+function ffpDone(){ let n = 0, t = 0; FFP.forEach(sec => sec.items.forEach(it => { t++; if (it.s.some(doneOf)) n++; })); return [n, t]; }
+function ffpHtml(open){
+  const [n, t] = ffpDone();
+  return '<details class="dd ffp"' + (open ? ' open' : '') + '><summary>✅ FFP checklist <span class="hint">· ' + n + ' of ' + t + ' practised</span></summary><div class="body">' + FFP.map(sec => '<div class="ffps"><span class="hkh">' + esc(sec.h) + '</span><div class="chips">' + sec.items.map(it => { const b = Math.max(...it.s.map(id => best(id) == null ? -1 : best(id))); return '<button class="chip' + (b >= 0 ? ' did' : '') + '" data-st="' + it.s[0] + '">' + (b >= 0 ? '✓ ' : '') + esc(it.n) + (b >= 0 ? ' · ' + b + '%' : '') + '</button>' + (it.s.length > 1 ? it.s.slice(1).map(id => '<button class="chip sm" data-st="' + id + '">+ ' + esc(stById[id] ? stById[id].t.replace(/^.*?:\s*/, '') : id) + '</button>').join('') : ''); }).join('') + '</div></div>').join('') + '</div></details>';
+}
+function vFfp(m){ m.innerHTML = '<section class="card"><h1>✅ FFP checklist</h1><p class="hint" style="margin:0">Your paper checklist, every item linked to its station. A tick means you have saved an attempt.</p></section>' + ffpHtml(true); }
 function vHome(m){
+  const all = Object.entries(S.att).flatMap(([id, a]) => a.map(x => Object.assign({id}, x))).sort((a, b) => b.ts - a.ts);
+  const [fn, ft] = ffpDone();
+  let h = '<section class="card hero"><span class="eyebrow">' + APP_NAME + ' v1.3 · FFP CPSA · one station, one task</span><h1>What kind of station?</h1><p class="hint" style="margin:0">Every station is a single 10-minute task, the way FFP runs them. Open one, read the door, then pick 📜 <b>Script</b> to learn it, ✅ <b>Tick</b> to mark yourself, 👥 <b>Friends</b> to run it together, or 🤖 <b>AI</b> on the talking stations.</p><div class="row"><button class="btn primary" data-rand>🎲 Random FFP station</button>' + (all.length ? '<button class="btn" data-st="' + all[0].id + '">↩︎ Back to the last one</button>' : '') + '<span class="hint">' + fn + ' of ' + ft + ' FFP items practised</span></div></section>';
+  h += '<section class="tiles">' + TYPES.map(([k]) => { const L = ST.filter(s => typeOf(s) === k), core = L.filter(s => s.core || s.pp).length, done = L.filter(s => doneOf(s.id)).length; return '<button class="tile ty-' + k + '" data-ty="' + k + '"><span class="tic">' + TY[k].i + '</span><b>' + esc(TY[k].t) + '</b><span class="hint">' + esc(TY[k].d) + '</span><span class="tmeta">' + L.length + ' stations' + (done ? ' · ' + done + ' practised' : '') + '</span><span class="tbar"><i style="width:' + (L.length ? Math.round(done * 100 / L.length) : 0) + '%"></i></span></button>'; }).join('') + '</section>';
+  h += ffpHtml(false);
+  if (all.length) { const ML = {ai: '🤖 AI-marked', voice: '🎙 Voice-marked', friends: '👥 Friend-marked', tick: '✅ Self-marked'}; h += '<section class="card"><h2>Recent attempts</h2><div class="list">' + all.slice(0, 5).map(a => { const s = getStation(a.id); return s ? '<button class="li" data-st="' + a.id + '"><span class="code ty">' + TY[typeOf(s)].i + '</span><span class="tt"><b>' + esc(s.t) + '</b><span>' + (ML[a.mode] || ML.tick) + ' · ' + new Date(a.ts).toLocaleDateString('en-GB') + '</span></span><span class="score ' + scoreCls(a.pct) + '">' + a.pct + '%</span></button>' : ''; }).join('') + '</div></section>'; }
+  if (!PUBLIC) h += '<details class="dd"><summary>🎯 Your feedback priorities</summary><div class="body">' + PRIOS.map(([t, d, ids], i) => '<div class="prio"><span class="n">' + (i + 1) + '</span><div><b>' + esc(t) + '</b><div class="hint">' + esc(d) + '</div><div class="chips" style="margin-top:4px">' + ids.filter(x => stById[x]).map(x => '<button class="chip" data-st="' + x + '">' + esc(stById[x].t) + (best(x) != null ? ' ' + best(x) + '%' : '') + '</button>').join('') + '</div></div></div>').join('') + '</div></details>';
+  h += '<div class="row more"><span class="hint">More:</span><button class="btn sm" data-go="hooks">🪝 Hook drill</button><button class="btn sm" data-go="ilos">🧩 ILO packs</button><button class="btn sm" data-go="fw">🧭 Frameworks</button><button class="btn sm" data-go="skills">🗣 How you\'re marked</button><button class="btn sm" data-go="visual">👁️ Showdowns</button></div>';
+  m.innerHTML = h;
+}
+function sysOf(s){ const u = (s.u || []).find(i => UNITS[i]); return u == null ? 'other' : MEV.unitSys(u, UNITS[u].w); }
+function groupHtml(title, L, open, code){ return L.length ? '<details class="dd grp"' + (open ? ' open' : '') + '><summary>' + title + ' <span class="hint">· ' + L.length + '</span></summary><div class="body"><div class="list">' + L.map(s => stRow(s, code)).join('') + '</div></div></details>' : ''; }
+function bySystem(L, open, code){ const g = {}; L.forEach(s => (g[sysOf(s)] = g[sysOf(s)] || []).push(s)); return MEV.SYS.map(([k, lab]) => g[k] ? groupHtml(esc(lab), g[k], open, code) : '').join('') + (g.other ? groupHtml('Other', g.other, open, code) : ''); }
+function vType(m){
+  const k = route.id, T = TY[k], q = (S.set['tq_' + k] || '').toLowerCase().trim();
+  const hit = s => !q || q.split(/\s+/).every(w => (s.t + ' ' + (s.sub || '') + ' ' + (s.ffp || '') + ' ' + s.id + ' ' + (s.u || []).map(i => UNITS[i] ? UNITS[i].name : '').join(' ')).toLowerCase().includes(w));
+  const L = ST.filter(s => typeOf(s) === k && hit(s));
+  let h = '<section class="card"><span class="eyebrow">' + T.i + ' ' + esc(T.t) + ' stations · 10 minutes · one task</span><h1>' + esc(T.t) + '</h1><p class="hint" style="margin:0">' + esc(T.d) + '</p><div class="howto">' + HOW[k].map((x, i) => '<span><b>' + (i + 1) + '</b>' + esc(x) + '</span>').join('') + '</div><div class="row"><input class="sel" id="tQ" type="search" placeholder="Filter: a condition, a drug, a sign…" value="' + esc(S.set['tq_' + k] || '') + '" aria-label="Filter stations"><button class="btn sm" data-randty="' + k + '">🎲 Random</button></div></section><div id="tList">' + typeListHtml(k, L, !!q) + '</div>';
+  m.innerHTML = h;
+}
+function typeListHtml(k, L, open){
+  const core = L.filter(s => s.core), pp = L.filter(s => s.pp && !s.core), bank = L.filter(s => !s.core && !s.pp);
+  let h = '';
+  if (k === 'ex') return ['Medicine', 'Surgery', 'Speciality'].map(g => groupHtml(g, core.filter(s => s.grp === g), true)).join('') || '<div class="empty">No stations match.</div>';
+  if (k === 'proc' || k === 'img') return groupHtml(k === 'proc' ? 'FFP DOPS and procedures' : 'FFP imaging', core, true) || '<div class="empty">No stations match.</div>';
+  if (core.length) h += groupHtml('✅ The FFP list', core, true);
+  if (k === 'hx') h += '<h2 class="lh">⭐ Past-paper histories <span class="hint">with an actor story for every case</span></h2>' + bySystem(pp, open, true) + (bank.length ? '<h2 class="lh">More presentations <span class="hint">from your ILO bank</span></h2>' + bySystem(bank, open) : '');
+  else h += groupHtml('⭐ Past-paper stations', pp, open || !core.length, true) + groupHtml('More practice', bank, open);
+  return h || '<div class="empty">No stations match.</div>';
+}
+function vHome0(m){
   const all = Object.entries(S.att).flatMap(([id, a]) => a.map(x => Object.assign({id}, x))).sort((a, b) => b.ts - a.ts);
   const done = Object.keys(S.att).length, avg = all.length ? Math.round(all.reduce((s, x) => s + x.pct, 0) / all.length) : null;
   const hkSeen = Object.keys(S.hk).length;
@@ -189,7 +273,7 @@ function vHome(m){
   h += '<section class="grid2">' + [['fw', '🧭 Frameworks', FWL.length + ' skeletons (history, exam, procedure, A–E, explain, prescribe, data, psych, professional) with what changes for ' + FWL.reduce((n, f) => n + f.m.length, 0) + ' presentations'], ['pp', '📚 Past-paper stations', PPS.length + ' Nottingham-style stations from your uni papers and SMOSCE, each with a script, hooks, actor and examiner sheets'], ['hooks', '🪝 Hook drill', 'Flashcards: door triggers, memory hooks, clinchers and money lines'], ['stations', '📋 Station bank', (ST.length - PPS.length) + ' briefs from your bank, mapped to your ILOs'], ['exams', '🩺 Examinations', EX.length + ' system examinations with what to say and how to present'], ['dops', '💉 DOPS', 'Your 23 GMC DOPS plus ABPI and BP, step by step'], ['ilos', '🧩 ILOs', '168 condition packs with clinchers'], ['skills', '🗣 Skills and marking', 'How Nottingham marks you, plus every communication frame with why each step scores'], ['visual', '👁️ Visual showdowns', MEV.SD.length + ' drawn side-by-sides where words fail (ECG, CXR, fundus, eardrum, skin), plus the Clinical Atlas Lookup']].map(([v, t, d]) => '<button class="tile" ' + (v === 'pp' ? 'data-pplist' : 'data-go="' + v + '"') + '><b>' + t + '</b><span class="hint">' + d + '</span></button>').join('') + '</section>';
   m.innerHTML = h;
 }
-function kindOf(s){ const k = s.k.toLowerCase(); return k.startsWith('exam') ? 'Examination' : k.startsWith('practical') ? 'Procedure' : k.startsWith('results') ? 'Data interpretation' : k.startsWith('prescription') ? 'Prescribing' : k.startsWith('professional') ? 'Professionalism' : k.startsWith('explanation') ? 'Explanation' : k.startsWith('workplace') ? 'Readiness' : k.startsWith('evidence') ? 'Evidence' : k.startsWith('ilo') ? 'ILO practice' : k.includes('a–e') ? 'Acute (A–E)' : 'Clinical task'; }
+function kindOf(s){ if (s.type) return TY[s.type].t; const k = (s.k || '').toLowerCase(); return k.startsWith('exam') ? 'Examination' : k.startsWith('practical') ? 'Procedure' : k.startsWith('results') ? 'Data interpretation' : k.startsWith('prescription') ? 'Prescribing' : k.startsWith('professional') ? 'Professionalism' : k.startsWith('explanation') ? 'Explanation' : k.startsWith('workplace') ? 'Readiness' : k.startsWith('evidence') ? 'Evidence' : k.startsWith('ilo') ? 'ILO practice' : k.includes('a–e') ? 'Acute (A–E)' : 'Clinical task'; }
 function vStations(m){
   const kinds = [...new Set(ST.map(kindOf))];
   let h = '<section class="card"><h1>Stations</h1><p class="hint" style="margin:0"><b>Past papers</b> come first: Nottingham-format stations with variants, a script, hooks and friend sheets. The bank stations follow. Filter with the drop-downs.</p><div class="row"><select class="sel" id="fSys" aria-label="System"><option value="">All systems</option>' + MEV.sysOptions(S.set.sys) + '</select><select class="sel" id="fGrp" aria-label="Group"><option value="">All groups</option>' + Object.entries(GROUPS).filter(([g]) => ST.some(s => s.g === g)).map(([g, n]) => '<option value="' + g + '"' + (S.set.grp === g ? ' selected' : '') + '>' + esc(n) + '</option>').join('') + '</select><select class="sel" id="fWk" aria-label="ILO week"><option value="">All ILO weeks</option>' + D.weeks.map(w => '<option value="' + w.id + '"' + (S.set.wk === w.id ? ' selected' : '') + '>' + esc(w.name) + '</option>').join('') + '</select><select class="sel" id="fKind" aria-label="Task type"><option value="">All task types</option>' + kinds.map(k => '<option' + (S.set.kind === k ? ' selected' : '') + '>' + k + '</option>').join('') + '</select><select class="sel" id="fDone" aria-label="Progress"><option value="">Any progress</option><option value="new">Not tried</option><option value="low">Under 75%</option></select></div></section><div class="list" id="stList"></div>';
@@ -356,26 +440,29 @@ const GLOBAL = ['Clear fail', 'Borderline fail', 'Borderline pass', 'Clear pass'
 const LIK = ['0', '1', '2', '3', '4'];
 const LIKL = '0 not attempted · 1 very few areas · 2 major omissions · 3 most areas, few errors · 4 comprehensive';
 const MODES = [['script', '📜 Script'], ['tick', '✅ Tick'], ['friends', '👥 Friends'], ['ai', '🤖 AI text'], ['voice', '🎙 Voice']];
+const modesFor = st => TALK.has(typeOf(st)) ? MODES : MODES.filter(([k]) => k !== 'ai' && k !== 'voice');
 const DPROF = {h: 'Professionalism', items: [{t: 'Hand hygiene, introduction, patient ID check', w: 2}, {t: 'Consent; chaperone offered where relevant', w: 2}, {t: 'Dignity, comfort, never rude or abrupt'}]};
 const DCOMM = {h: 'Communication', items: [{t: 'Rapport, open questions, listens without interrupting'}, {t: 'Elicits ideas, concerns and expectations', w: 2}, {t: 'No unexplained jargon; signposts; chunks and checks', f: 1}, {t: 'Responds to emotion and non-verbal cues'}]};
 function domainsFor(st, secs){
-  if (!st.pp) return secs.filter(s => s.key !== 'open' && s.key !== 'close').map(s => ({h: s.h, items: s.items.slice(0, 6)}));
+  if (!st.pp) { const ds = secs.filter(s => !/^(open|close|xopen|xclose|popen|pclose|vx)$/.test(s.key)).map(s => ({h: s.h, items: s.items.slice(0, 6)})); return TALK.has(typeOf(st)) ? [DPROF, DCOMM].concat(ds).slice(0, 7) : [DPROF].concat(ds).slice(0, 7); }
   const ds = st.dom.map(d => ({h: d.h, items: d.items})), has = re => ds.some(d => re.test(d.h));
   return (has(/^Professional/i) ? [] : [DPROF]).concat(has(/^Communication/i) ? [] : [DCOMM], ds);
 }
 function vStation(m){
   const st = getStation(route.id); if (!st) return vHome(m);
-  const vk0 = st.pp ? (st.vars[0].k) : null;
+  const vk0 = (st.vars || []).length ? st.vars[0].k : null;
   cur = {st, vk: vk0, hidden: false, secs: buildChecklist(st, vk0), ticks: new Set(), ai: new Set(), chat: [], mode: S.set.mode, left: 600, fb: null, lik: {}};
   if ((cur.mode === 'ai' || cur.mode === 'voice') && sampleChecked && !SAMPLE) cur.mode = 'script';
-  const pk = packFor(st);
-  let h = '<section class="card"><div class="row"><span class="code">' + esc(st.id) + '</span><span class="hint">' + (st.pp ? '📚 Past paper · ' : '') + esc(kindOf(st)) + '</span>' + (best(st.id) != null ? '<span class="score ' + scoreCls(best(st.id)) + '">best ' + best(st.id) + '%</span>' : '') + '</div><h1>' + esc(st.t) + '</h1>' + (st.src ? '<span class="src">Source: ' + esc(st.src) + '</span>' : '') + '<div class="chips">' + iloChips(st.u) + (st.ex || []).map(e => exById[e] ? '<button class="chip" data-ex="' + e + '">🩺 ' + esc(exById[e].t) + '</button>' : '').join('') + (st.pr || []).map(p => prById[p] ? '<button class="chip" data-pr="' + p + '">💉 ' + esc(prById[p].t) + '</button>' : '').join('') + '</div>';
-  h += atlasFor(st.u, st.u.length && UNITS[st.u[0]] ? UNITS[st.u[0]].name : st.t, st.t);
-  if (st.pp && st.vars.length) h += '<div class="row" id="varRow"><label class="hint" for="varSel">Case</label><select class="sel" id="varSel">' + st.vars.map(v => '<option value="' + v.k + '">' + esc(v.k + ' · ' + v.who) + '</option>').join('') + (st.vars.length > 1 ? '<option value="?">🎲 Surprise me (hidden)</option>' : '') + '</select><span class="hint dx" id="varDx"></span></div>';
-  h += '<div class="brief"><span class="eyebrow">Candidate information</span><p id="briefP">' + esc(st.info) + '</p>' + (st.task ? '<p class="task">' + esc(st.task) + '</p>' : '') + '</div><div id="resWrap"></div>';
+  if (!modesFor(st).some(([k]) => k === cur.mode)) cur.mode = 'script';
+  const pk = packFor(st), ty = TY[typeOf(st)];
+  let h = '<section class="card"><div class="row"><button class="chip typill" data-ty="' + ty.id + '">' + ty.i + ' ' + esc(ty.t) + '</button>' + (st.pp ? '<span class="code">' + esc(st.id.replace(/-x$/, '')) + '</span><span class="hint">📚 past paper</span>' : '') + (st.ffp ? '<span class="hint">✅ FFP: ' + esc(st.ffp) + '</span>' : '') + (best(st.id) != null ? '<span class="score ' + scoreCls(best(st.id)) + '">best ' + best(st.id) + '%</span>' : '') + '</div><h1>' + esc(st.t) + '</h1>' + (st.sub && !st.core ? '<span class="src" id="stSub">' + esc(st.sub) + '</span>' : '') + '<div class="chips">' + iloChips((st.u || []).slice(0, 4)) + '</div>';
+  if (ty.id === 'img' || st.grp === 'Speciality') h += atlasFor(st.u, st.u.length && UNITS[st.u[0]] ? UNITS[st.u[0]].name : st.t, st.t);
+  if ((st.vars || []).length) h += '<div class="row" id="varRow"><label class="hint" for="varSel">Case</label><select class="sel" id="varSel">' + st.vars.map(v => '<option value="' + v.k + '">' + esc(v.k + ' · ' + v.who) + '</option>').join('') + (st.vars.length > 1 ? '<option value="?">🎲 Surprise me (hidden)</option>' : '') + '</select><span class="hint dx" id="varDx"></span></div>';
+  h += '<div class="brief"><span class="eyebrow">Candidate information</span><p id="briefP">' + esc(st.info) + '</p>' + (st.task ? '<p class="task">' + esc(st.task) + '</p>' : '') + '<div id="caseImg"></div></div><div id="resWrap"></div>';
   h += '<div class="timer"><span class="clock" id="clock">10:00</span><span class="track" aria-hidden="true"><i id="tbar"></i><span class="zone" title="Last 2 minutes: synthesis and plan"></span></span><button class="btn sm primary" data-timer>▶ Start</button><button class="btn sm" data-treset>↺</button><button class="btn sm" data-gong title="Chimes: 8:00 gong and timer beeps on or off" aria-label="Chimes on or off">' + (S.set.beepOff ? '🔕' : '🔔') + '</button></div><div class="alert" id="talert" hidden>⏱ 8 minutes gone. Stop gathering: summarise, give your reasoning and the plan.</div>';
-  h += '<div class="row"><div class="seg" id="modeSeg">' + MODES.map(([k, l]) => '<button data-mode="' + k + '" class="' + (cur.mode === k ? 'on' : '') + '">' + l + '</button>').join('') + '</div></div></section>';
-  h += '<div id="fwWrap"></div><div id="hookWrap"></div>';
+  h += '<div class="row"><div class="seg" id="modeSeg">' + modesFor(st).map(([k, l]) => '<button data-mode="' + k + '" class="' + (cur.mode === k ? 'on' : '') + '">' + l + '</button>').join('') + '</div></div></section>';
+  h += '<div id="fwWrap"></div><div id="dgWrap"></div><div id="hookWrap"></div>';
+  h += '<section class="card" id="casesCard" hidden></section>';
   h += '<section class="card" id="scriptCard"></section>';
   h += '<section class="card" id="friendsCard"></section>';
   h += '<section class="card" id="aiCard"><div class="row"><h2 class="grow">🤖 Talk to the patient</h2><button class="btn sm" data-restart>↺ Restart</button></div><p class="hint" style="margin:0" id="aiNote">Type what you would say, exactly as you would say it. For physical steps, describe the action (e.g. "I wash my hands and ask to examine your chest") and the examiner will give findings. Type <b>examiner:</b> to address the examiner.</p><div class="chat" id="chat" aria-live="polite"></div><div class="quick" id="quick"><button data-qk="Hello, my name is Nana, I\'m a third-year medical student. Could I check your full name and date of birth?">👋 Introduce + ID</button><button data-qk="What\'s brought you in today?">Open question</button><button data-qk="What have you been thinking might be going on, and is there anything in particular you\'re worried about?">ICE</button><button data-qk="examiner: Please could I have the observations, examination findings and any results?">Ask for findings</button><button data-qk="Let me just summarise what you\'ve told me to check I\'ve got it right.">Summarise</button></div><div class="compose"><textarea id="say" rows="2" placeholder="What do you say?" aria-label="Your words to the patient"></textarea><button class="btn primary" data-send>Send</button></div><div class="row"><button class="btn" data-stop hidden>■ Stop</button><span class="grow"></span><button class="btn primary" data-grade>🏁 Finish and get marked</button></div><div id="aiOut"></div></section>';
@@ -387,23 +474,37 @@ function vStation(m){
   vInit(); drawStationParts(); setMode(cur.mode, true); refreshAiAvail(); drawClock();
 }
 function curVar(){ return varOf(cur.st, cur.vk); }
+function dgCardHtml(st){
+  const ids = (st.dg || []).filter(id => window.DG && DG.has(id)); if (!ids.length) return '';
+  const i = Math.min(cur.dg || 0, ids.length - 1);
+  return '<details class="hk dgc" id="dgCard" open><summary>🖼️ Pictures <span class="hint">· ' + ids.length + ' · tap ▶ to play, or swipe</span></summary><div class="body">' + (ids.length > 1 ? '<div class="chips dgchips">' + ids.map((id, k) => '<button class="chip' + (k === i ? ' on' : '') + '" data-dgpick="' + k + '">' + esc(DG.title(id).split(':')[0]) + '</button>').join('') + '</div>' : '') + '<div id="dgOne">' + DG.html(ids[i]) + '</div></div></details>';
+}
+function casesHtml(st){
+  const C = st.cases || []; if (!C.length) return '';
+  return '<h2>🎤 Present these findings <span class="hint">· ' + C.length + '</span></h2><p class="hint" style="margin:0">Read the findings, say your presentation out loud, then reveal the model.</p><div class="cases">' + C.map((c, k) => '<div class="case"><span class="n">' + (k + 1) + '</span><div><div class="f">' + rich(c.f) + '</div><button class="rev" data-reveal>Say it, then tap to reveal</button><div hidden><div class="money"><b>' + esc(c.dx) + '</b>' + rich(c.p) + '</div></div></div></div>').join('') + '</div>';
+}
 function drawStationParts(){
   const st = cur.st, v = curVar(), pk = packFor(st);
   const bp = $('#briefP'); if (bp) bp.textContent = (v && v.d) || st.info;
-  $('#fwWrap').innerHTML = fwCard(st);
+  $('#fwWrap').innerHTML = st.secs || st.type ? '' : fwCard(st);
+  const ci = $('#caseImg'); if (ci) ci.innerHTML = v && v.img && window.DG ? DG.img(v.img) : '';
+  $('#dgWrap').innerHTML = dgCardHtml(st);
+  const cc = $('#casesCard'); if (cc) { cc.innerHTML = casesHtml(st); }
   const dx = $('#varDx'); if (dx) dx.textContent = v && !cur.hidden && (cur.mode === 'script' || cur.mode === 'tick' || (cur.mode === 'friends' && S.set.role !== 'cand')) ? '→ ' + v.dx : (cur.hidden ? 'case hidden' : '');
-  $('#resWrap').innerHTML = v && v.r ? '<details class="dd" id="resCard"><summary>📄 Results / findings card <span class="hint">· open when the examiner hands it over</span></summary><div class="body"><p style="margin:0">' + rich(v.r) + '</p></div></details>' : '';
+  $('#resWrap').innerHTML = v && v.r ? '<details class="dd" id="resCard"><summary>' + (typeOf(st) === 'img' ? '🔑 Answer key: what it shows <span class="hint">· open after you have presented</span>' : '📄 Results / findings card <span class="hint">· open when the examiner hands it over</span>') + '</summary><div class="body"><p style="margin:0">' + rich(v.r) + '</p></div></details>' : '';
   $('#hookWrap').innerHTML = hookHtml(Object.assign(hooksFor(st, cur.vk), cur.hidden ? {money: '', all: []} : {}), cur.mode === 'script');
   $('#scriptCard').innerHTML = scriptHtml(st, cur.hidden ? '~' : cur.vk);
   drawFriends();
   cur.secs = buildChecklist(st, cur.vk); cur.ticks = new Set([...cur.ticks].filter(id => cur.secs.some(s => s.items.some(it => it.id === id))));
-  $('#clCard').innerHTML = '<div class="row"><h2 class="grow">Mark scheme</h2><button class="btn sm" data-expand>Open all</button></div><p class="hint" style="margin:0">' + (st.pp ? 'Built from the Nottingham domains for this station.' : 'Built from your station bank and ILO pack.') + ' Tick what you did. <span class="crit" style="font-family:var(--f-mono);font-size:.62rem;font-weight:700;color:var(--bad);border:1px solid var(--bad);border-radius:5px;padding:0 4px">CRITICAL</span> items count double. Tap ⓘ for the words and why.</p><div id="cl" style="display:flex;flex-direction:column;gap:8px">' + cur.secs.map((sc, si) => '<details class="sec" data-sec="' + si + '"' + (sc.open || si === 1 ? ' open' : '') + '><summary>' + esc(sc.h) + '<span class="cnt" data-cnt="' + si + '">0/' + sc.items.length + '</span></summary><div class="items">' + sc.items.map(it => { const cid = 'c_' + it.id.replace(/\W/g, '_'); return '<div class="it" data-iid="' + it.id + '"><input type="checkbox" id="' + cid + '" data-tick="' + it.id + '"' + (cur.ticks.has(it.id) ? ' checked' : '') + '><label for="' + cid + '">' + rich(it.t) + (it.w === 2 ? '<span class="crit">CRITICAL</span>' : '') + (it.f ? '<span class="fb">FOCUS</span>' : '') + '</label>' + (it.say || it.tip || it.why ? '<button class="more" data-more aria-label="Show words and why">ⓘ</button><div class="xp" hidden>' + (it.say ? '<span class="say">🗣 “' + rich(it.say) + '”</span>' : '') + (it.why ? '<span class="tip">🎯 ' + rich(it.why) + '</span>' : '') + (it.tip ? '<span class="tip">💡 ' + rich(it.tip) + '</span>' : '') + '</div>' : '<span></span>') + '</div>'; }).join('') + '</div></details>').join('') + '</div>';
+  $('#clCard').innerHTML = '<div class="row"><h2 class="grow">✅ Mark scheme</h2><button class="btn sm" data-expand>Open all</button></div><p class="hint" style="margin:0">' + (st.pp ? 'Built from the Nottingham domains for this station.' : 'Built from your station bank and ILO pack.') + ' Tick what you did. <span class="crit" style="font-family:var(--f-mono);font-size:.62rem;font-weight:700;color:var(--bad);border:1px solid var(--bad);border-radius:5px;padding:0 4px">CRITICAL</span> items count double. Tap ⓘ for the words and why.</p><div id="cl" style="display:flex;flex-direction:column;gap:8px">' + cur.secs.map((sc, si) => '<details class="sec" data-sec="' + si + '"' + (sc.open || si === 1 ? ' open' : '') + '><summary>' + esc(sc.h) + '<span class="cnt" data-cnt="' + si + '">0/' + sc.items.length + '</span></summary><div class="items">' + sc.items.map(it => { const cid = 'c_' + it.id.replace(/\W/g, '_'); return '<div class="it" data-iid="' + it.id + '"><input type="checkbox" id="' + cid + '" data-tick="' + it.id + '"' + (cur.ticks.has(it.id) ? ' checked' : '') + '><label for="' + cid + '">' + rich(it.t) + (it.w === 2 ? '<span class="crit">CRITICAL</span>' : '') + (it.f ? '<span class="fb">FOCUS</span>' : '') + '</label>' + (it.say || it.tip || it.why ? '<button class="more" data-more aria-label="Show words and why">ⓘ</button><div class="xp" hidden>' + (it.say ? '<span class="say">🗣 “' + rich(it.say) + '”</span>' : '') + (it.why ? '<span class="tip">🎯 ' + rich(it.why) + '</span>' : '') + (it.tip ? '<span class="tip">💡 ' + rich(it.tip) + '</span>' : '') + '</div>' : '<span></span>') + '</div>'; }).join('') + '</div></details>').join('') + '</div>';
   let mh = '<h2>Model answer and coaching</h2>';
   if (st.pp) {
     if (v) mh += '<details class="dd"' + (cur.hidden ? '' : ' open') + '><summary>🧭 This case' + (cur.hidden ? '' : ': ' + esc(v.dx)) + '</summary><div class="body"><p style="margin:0">' + rich(v.x) + '</p></div></details>';
     if (st.money && !cur.hidden) mh += '<div class="money"><b>🎯 Money line' + (st.vars.length > 1 && !cur.hidden ? ' · case ' + esc(cur.vk) : '') + '</b>' + rich(moneyFor(st, cur.vk)) + '</div>';
     if (st.vars.length > 1) mh += '<details class="dd"><summary>🔀 All cases in this station</summary><div class="body">' + st.vars.map(x => '<div class="hkr"><span class="i">' + esc(x.k) + '</span><span><b>' + esc(x.who) + '</b>: ' + esc(x.dx) + '</span></div>').join('') + '</div></details>';
   } else {
+    if (st.secs && v) mh += '<details class="dd"' + (cur.hidden ? '' : ' open') + '><summary>🧭 This case' + (cur.hidden ? '' : ': ' + esc(v.dx)) + '</summary><div class="body"><p style="margin:0">' + rich(v.x) + '</p></div></details>';
+    if (st.money && st.secs) mh += '<div class="money"><b>🎯 Model answer</b>' + rich(moneyFor(st, cur.vk)) + '</div>';
     if (st.def) mh += '<details class="dd" open><summary>🧭 Default instruction</summary><div class="body"><p style="margin:0">' + esc(st.def) + '</p></div></details>';
     if (st.cmp) mh += '<details class="dd"><summary>⚖️ The comparison to make</summary><div class="body"><p style="margin:0">' + esc(st.cmp) + '</p></div></details>';
   }
@@ -451,6 +552,11 @@ function setMode(md, init){
   $('#clCard').hidden = !(md === 'tick' || md === 'ai' || (md === 'voice' && cur.fb));
   $('#modelCard').hidden = cand || (md === 'ai' || md === 'voice') && !cur.fb;
   $('#hookWrap').hidden = cand;
+  $('#dgWrap').hidden = cand || ((md === 'ai' || md === 'voice') && !cur.fb);
+  const dc = $('#dgCard'); if (dc) dc.open = md === 'script' || md === 'tick';
+  const ci = $('#caseImg'); if (ci) ci.classList.toggle('lab', md === 'script' && !cur.hidden);
+  const ss = $('#stSub'); if (ss) ss.hidden = md !== 'script';
+  $('#casesCard').hidden = !(md === 'script' && (cur.st.cases || []).length);
   const hc = $('#hookCard'); if (hc) hc.open = md === 'script';
   const vr = $('#varRow'); if (vr) vr.hidden = cand;
   const dx = $('#varDx'); const v = curVar(); if (dx) dx.textContent = v && !cur.hidden && !cand && md !== 'ai' && md !== 'voice' ? '→ ' + v.dx : (cur.hidden ? 'case hidden' : '');
@@ -467,6 +573,7 @@ let chatCtl = null;
 function abortChat(){ try { chatCtl && chatCtl.abort(); } catch (e) {} chatCtl = null; }
 function patientRules(st, voice){
   const pk = packFor(st), p = pk ? pk.p : {}, v = curVar();
+  if (typeOf(st) === 'img') return 'You are a fair UK OSCE EXAMINER for the University of Nottingham Foundations for Practice CPSA (third-year medical students). This is an imaging and data interpretation station: ' + st.t + '. The candidate is looking at ' + (v ? 'the image for ' + v.who : 'an image') + '. What it shows (never say this unless the candidate has already said it): ' + (v ? v.r + ' Diagnosis: ' + v.dx + '. What the examiner wants: ' + v.x : '') + '\n' + (voice ? 'SPOKEN STATION: reply in one or two short spoken sentences, no markdown.\n' : '') + 'RULES:\n- Start every reply with [Examiner].\n- Let the candidate present. Answer factual questions about the clinical context briefly.\n- When they finish or stall, ask one short follow-up question at a time, chosen from: ' + (st.ask || []).join(' | ') + '.\n- Never coach, hint, praise, or give the diagnosis. Never mention you are an AI.\nReply with ONLY your next line.';
   let secret = '';
   if (v) secret = '\nSECRET CASE ' + v.k + ': ' + v.who + '. Diagnosis (never say it): ' + v.dx + '.\nYour facts (reveal progressively, only when asked; anything marked ONLY IF ASKED needs a direct question): ' + v.a.join(' ') + '\n' + ((st.ask || []).length ? 'Questions to put to the candidate at natural points: ' + st.ask.join(' | ') + '\n' : '') + (v.r ? 'Results and examination findings, to give as [Examiner] ONLY when the candidate asks for them or performs that step: ' + v.r + '\n' : '');
   else if (pk) secret = '\nSECRET background (never name the diagnosis, never volunteer unprompted): the case is ' + (st.gen ? pk.u.name : st.t) + '. Typical history features you may draw on when asked: ' + (p.hx || []).join('; ') + '. Red flags present or absent as fits the brief: ' + (p.rf || []).join('; ') + '. Examination findings consistent with the case: ' + (p.ex || []).join('; ') + '. Your main worry (reveal only if asked about worries or if the candidate shows empathy): ' + (p.ice || [''])[0] + '.\n';
@@ -842,6 +949,10 @@ document.addEventListener('click', e => {
   const d = t.dataset;
   if (t.id === 'homeBtn') return go({v: 'home'});
   if (t.id === 'qBtn') { const q = $('#q'); q.classList.toggle('show'); if (q.classList.contains('show')) q.focus(); return; }
+  if (d.ty && !d.st) return go({v: 'type', id: d.ty});
+  if (d.randty) { const l = ST.filter(s => typeOf(s) === d.randty && (s.core || s.pp)); const n = l.filter(s => best(s.id) == null); const p = n.length ? n : l; return go({v: 'station', id: p[Math.floor(Math.random() * p.length)].id}); }
+  if (d.rand != null) { const ids = FFP.flatMap(x => x.items.flatMap(it => it.s)); const n = ids.filter(id => best(id) == null); const p = n.length ? n : ids; return go({v: 'station', id: p[Math.floor(Math.random() * p.length)]}); }
+  if (d.dgpick != null) { cur.dg = +d.dgpick; if (window.DG) DG.stopAll(); $('#dgWrap').innerHTML = dgCardHtml(cur.st); return; }
   if (d.v) { if (d.v === 'hooks') deck = null; return go({v: d.v}); }
   if (d.go) { if (d.go === 'hooks') deck = null; return go({v: d.go}); }
   if (d.pplist != null) { S.set.grp = 'PP'; S.set.wk = ''; S.set.kind = ''; save(); return go({v: 'stations'}); }
@@ -920,7 +1031,7 @@ function pttUp(){ if (!VO || !VO.holding) return; VO.holding = false; const b = 
 document.addEventListener('pointerdown', e => { const b = e.target.closest && e.target.closest('[data-vptt]'); if (b) { e.preventDefault(); pttDown(); } });
 document.addEventListener('pointerup', () => { if (VO && VO.holding) pttUp(); });
 document.addEventListener('pointercancel', () => { if (VO && VO.holding) pttUp(); });
-document.addEventListener('input', e => { if (e.target.id === 'hQ') { S.set.hq = e.target.value; clearTimeout(vHooks.t); vHooks.t = setTimeout(() => { const r = allHooksHtml(); $('#hAll').innerHTML = r.h; $('#hN').textContent = r.n + ' cards'; }, 200); } });
+document.addEventListener('input', e => { if (e.target.id === 'tQ') { S.set['tq_' + route.id] = e.target.value; clearTimeout(vType.t); vType.t = setTimeout(() => { save(); const k = route.id, q = e.target.value.toLowerCase().trim(); const L = ST.filter(s => typeOf(s) === k && (!q || q.split(/\s+/).every(w => (s.t + ' ' + (s.sub || '') + ' ' + (s.ffp || '') + ' ' + s.id + ' ' + (s.u || []).map(i => UNITS[i] ? UNITS[i].name : '').join(' ')).toLowerCase().includes(w)))); $('#tList').innerHTML = typeListHtml(k, L, !!q); }, 180); return; } if (e.target.id === 'hQ') { S.set.hq = e.target.value; clearTimeout(vHooks.t); vHooks.t = setTimeout(() => { const r = allHooksHtml(); $('#hAll').innerHTML = r.h; $('#hN').textContent = r.n + ' cards'; }, 200); } });
 if (matchMedia('(max-width:620px)').matches) $('#qBtn').style.display = '';
 route = fromHash(); render();
 </script>

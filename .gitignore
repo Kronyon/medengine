@@ -10,3 +10,4 @@ __pycache__/
 *.zip
 offline/dist/
 medengine-misses*.json
+app/build/osce_data_v4.json

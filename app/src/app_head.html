@@ -162,7 +162,7 @@ select.sel{border:1px solid var(--line);background:var(--surface);border-radius:
 .hkr .i{text-align:center}
 .hkh{font-family:var(--f-mono);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:2px}
 .money{background:var(--accent-soft);color:var(--ink);border-radius:10px;padding:10px 12px;border-left:4px solid var(--accent)}
-.money b{display:block;font-family:var(--f-mono);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-ink);margin-bottom:2px}
+.money>b:first-child{display:block;font-family:var(--f-mono);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-ink);margin-bottom:2px}.money b{color:var(--accent-ink)}
 .scr{display:flex;flex-direction:column;gap:8px}
 .sl{display:grid;grid-template-columns:30px minmax(0,1fr);gap:2px 10px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
 .sl .n{font-family:var(--f-mono);font-size:.72rem;font-weight:700;color:var(--accent-ink);background:var(--accent-soft);border-radius:7px;text-align:center;padding:2px 0;height:max-content}
@@ -259,25 +259,47 @@ select.sel{border:1px solid var(--line);background:var(--surface);border-radius:
 .track.gonged .zone{animation:gongpulse .9s ease-in-out 3}
 @keyframes gongpulse{50%{opacity:.25}}
 #atlasQ{flex:1 1 220px;min-height:38px}
+/* v1.3: FFP layout */
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,210px),1fr));gap:10px}
+.tiles .tile{gap:4px;position:relative;overflow:hidden}
+.tiles .tic{font-size:1.6rem;line-height:1.1}
+.tiles .tmeta{font-family:var(--f-mono);font-size:.72rem;color:var(--muted);margin-top:auto}
+.tbar{display:block;height:4px;border-radius:2px;background:var(--line);overflow:hidden}.tbar i{display:block;height:100%;background:var(--accent)}
+.hero h1{font-size:1.7rem}
+.howto{display:flex;flex-wrap:wrap;gap:6px}.howto span{display:flex;gap:6px;align-items:baseline;background:var(--surface-2);border:1px solid var(--line);border-radius:9px;padding:5px 9px;font-size:.86rem;flex:1 1 200px}.howto b{font-family:var(--f-mono);color:var(--accent-ink)}
+#tQ{flex:1 1 220px;min-height:38px}
+.lh{margin:10px 2px 2px;font-size:1.05rem}
+.grp>summary{font-weight:700}
+.code.ty{font-size:1rem;background:none;border:0;padding:0;min-width:1.6em;text-align:center}
+.chip.did{border-color:var(--good);color:var(--good)}.chip.sm{font-size:.78rem;opacity:.85}
+.ffps{display:flex;flex-direction:column;gap:4px;margin-bottom:6px}
+.typill{font-weight:700}
+.dgchips .chip.on{border-color:var(--accent);background:var(--accent-soft);color:var(--accent-ink)}
+.dgc .body{display:flex;flex-direction:column;gap:8px}
+.cases{display:flex;flex-direction:column;gap:8px}.case{display:flex;gap:10px;border:1px solid var(--line);border-radius:10px;padding:10px;background:var(--surface-2)}.case .n{font-family:var(--f-mono);font-weight:700;color:var(--accent-ink)}.case .f{margin-bottom:6px}
+#caseImg .dg-img{margin-top:8px}
+#caseImg:not(.lab) text:not(.keep){display:none}
+#caseImg:not(.lab) .dl{fill:none}
+.more{gap:6px}
 </style>
 
 <header class="top">
   <div class="bar">
-    <button class="brand" id="homeBtn" aria-label="medengine-OSCE home"><span class="bill">m</span><span class="bname">medengine<span class="ext">-OSCE</span></span><span class="ver">v1.0.0</span></button>
+    <button class="brand" id="homeBtn" aria-label="medengine-OSCE home"><span class="bill">m</span><span class="bname">medengine<span class="ext">-OSCE</span></span><span class="ver">v1.3.0</span></button>
     <a class="switch" id="drillLink" data-private href="https://claude.ai/artifact/NexSvgTB8VhqktVFfko6JR" target="_blank" rel="noopener" title="Open medengine-STUDY (notes, SBAs, word hunt)"><span class="dot">m</span>medengine-STUDY ↗</a>
     <span class="grow"></span>
-    <input class="search" id="q" type="search" placeholder="Search stations, exams, DOPS, ILOs…" autocomplete="off" aria-label="Search">
+    <input class="search" id="q" type="search" placeholder="Search any station, drug or sign…" autocomplete="off" aria-label="Search">
     <button class="btn sm" id="qBtn" aria-label="Search" style="display:none">🔎</button>
   </div>
   <nav class="nav" id="nav" aria-label="Sections">
-    <button data-v="home">🏠 Today</button>
-    <button data-v="stations">📋 Stations</button>
-    <button data-v="fw">🧭 Frameworks</button>
-    <button data-v="hooks">🪝 Hooks</button>
-    <button data-v="exams">🩺 Exams</button>
-    <button data-v="dops">💉 DOPS</button>
-    <button data-v="ilos">🧩 ILOs</button>
-    <button data-v="skills">🗣 Skills</button>
+    <button data-v="home">🏠 Home</button>
+    <button data-ty="hx">🗣️ History</button>
+    <button data-ty="ex">🩺 Exam</button>
+    <button data-ty="img">🖼️ Imaging</button>
+    <button data-ty="drug">💊 Drugs</button>
+    <button data-ty="comm">💬 Comms</button>
+    <button data-ty="proc">🧪 Procedures</button>
+    <button data-ty="psych">🧠 Psych</button>
   </nav>
 </header>
 <main id="main"></main>

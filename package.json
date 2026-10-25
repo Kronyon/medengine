@@ -1,6 +1,6 @@
 {
   "name": "medengine",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "private": true,
   "description": "medengine.exe: OSCE practice with scripts, frameworks, hooks, and an AI patient and examiner you can talk to.",
   "license": "UNLICENSED",
@@ -10,7 +10,7 @@
     "build": "npm run build:app && npm run build:web",
     "test:functions": "node functions/test/run.mjs",
     "test:web": "python3 web/test_site.py",
-    "test:app": "python3 app/build/test_v4.py && python3 app/build/test_v6.py",
+    "test:app": "python3 app/build/test_v7.py",
     "build:offline": "python3 offline/build.py && python3 offline/build_single.py",
     "test:offline": "python3 offline/test_offline.py && python3 offline/test_single.py",
     "build:study": "python3 study/patch_study.py",
