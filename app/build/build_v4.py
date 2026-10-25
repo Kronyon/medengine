@@ -11,6 +11,10 @@ sys.path.insert(0, str(HERE))
 from c4.common import STATIONS
 from c4 import exams_med, exams_surg, exams_spec, procs, drugs, talk  # noqa: F401 (registers stations)
 from c4.frames import FRAMES
+from c4.redflags import RF, URG
+from c4.skeletons import SKEL
+from c4.exams_surg import MSK_HOOKS
+from c4.drugs import FRAME as DRUG_FRAME
 
 D = json.load(open(HERE / 'osce_data_v3.json', encoding='utf-8'))
 OUT = HERE / 'osce_data_v4.json'
@@ -143,6 +147,160 @@ def make_talk(s, kind):
     return st
 
 
+SKEL_OF = {**{k: 'exam' for k in ('E-cvs', 'E-resp', 'E-abdo', 'E-thyroid', 'E-nodes')}, 'E-cn': 'cn', 'E-ul': 'neuro', 'E-ll': 'neuro',
+           **{k: 'msk' for k in ('E-ankle', 'E-elbow', 'E-hand', 'E-knee', 'E-shoulder', 'E-hip')},
+           **{k: 'intimate' for k in ('E-breast', 'E-scrotal', 'E-dre', 'E-genit')}, 'E-rash': 'skin', 'E-lesion': 'skin',
+           **{k: 'senses' for k in ('E-nose', 'E-mouth', 'E-ear', 'E-anteye', 'E-eye', 'E-fundo')}, 'C-bbn': 'bbn'}
+SKEL_TYPE = {'hx': 'hx', 'psych': 'psych', 'proc': 'proc', 'drug': 'counsel', 'comm': 'comm', 'img': 'img', 'ex': 'exam'}
+# hooks the skeleton now carries, so the station card only holds what is special to it
+DROP_HOOK = {MSK_HOOKS[0], DRUG_FRAME}
+DROP_FIRST = {'E-cvs', 'E-ul', 'E-ll', 'E-breast', 'E-anteye', 'C-bbn', 'Y-mhx', 'Y-risk'}
+DROP_TWO = {'E-cn', 'C-expl'}
+ADD_HOOK = {
+  'E-cvs': ['**AS = SAD:** severe aortic stenosis gives Syncope, Angina, Dyspnoea, with a slow-rising pulse and a soft second sound.'],
+  'E-abdo': ['**Big liver, 3 Cs:** Cirrhosis early on, Cancer, Congestion from right heart failure.', '**Liver signs, hands to feet:** flap, white nails, red palms, yellow eyes, spider naevi, breasts in men, ascites, big spleen, ankle swelling.'],
+  'E-resp': ['**Clubbing is never COPD alone:** think cancer, fibrosis, bronchiectasis, empyema.'],
+  'E-knee': ['**Unhappy triad:** ACL, MCL and medial meniscus torn together by a twist on a planted foot.'],
+  'E-ul': ['**SWIFT before you touch:** Scars, Wasting, Involuntary movements, Fasciculations, Tremor.'],
+  'E-ll': ['**Gait last:** walk, heel-toe, Romberg. Romberg falls with eyes closed = sensory; wobbly with eyes open = cerebellar.'],
+  'E-scrotal': ['**Lump: S S S C T F, then the 3 questions.**'],
+  'E-nodes': ['**Lump: S S S C T F:** Site, Size, Shape, Consistency, Tenderness, Fixation.'],
+  'D-alc': ['**CAGE, then count the units:** 2 or more yes = likely dependence.'],
+}
+EXTRA_DG = {
+  'E-cvs': ['jvp', 'cvshands', 'clubbing'], 'E-resp': ['clubbing'], 'E-abdo': ['liversigns'], 'E-thyroid': ['lidlag'], 'E-nodes': ['lump'],
+  'E-ul': ['swift', 'myoUL', 'danish'], 'E-ll': ['swift', 'myoLL', 'plantar'], 'E-cn': ['rapd'],
+  'E-knee': ['kneetests'], 'E-hip': ['leglength'], 'E-ankle': ['simmonds'], 'E-hand': ['handjoints'],
+  'E-breast': ['lump'], 'E-scrotal': ['lump'], 'E-ear': ['otoscope'], 'E-eye': ['confront', 'rapd'], 'E-anteye': ['rapd'],
+  'P-cann': ['cannangle'], 'P-bpm': ['cuff'], 'P-catm': ['cathM'], 'P-catf': ['cathF'],
+  'D-ins': ['insulin'], 'D-acoag': ['doac'], 'D-alc': ['cage', 'units'],
+  'I-ecg': ['ecgrate', 'axis', 'ecgblocks'], 'I-cxr': ['hfcxr'], 'I-ct': ['ctwin'],
+  'Y-mhx': ['sigecaps', 'digfast', 'cage'], 'Y-risk': ['sadpersons'], 'PP61': ['aseptic'], 'PP65': ['sadpersons'],
+}
+RF_DG = {'chest': ['chestpain', 'socrates'], 'palp': ['palpit'], 'vasc': ['legswell'], 'sob': ['sobtime'], 'lungca': ['ng12', 'sobtime'], 'ugi': ['ng12', 'abdopain'], 'lgi': ['ng12', 'abdopain'],
+         'abdo': ['abdopain', 'socrates', 'sepsis'], 'breast': ['ng12', 'lump'], 'dm': ['insulin'], 'thyroid': ['lump'], 'uro': ['ng12'],
+         'scrot': ['lump'], 'head': ['headache', 'socrates'], 'neuro': ['tunafish'], 'msk': ['tunafish', 'handjoints'],
+         'psych': ['sigecaps', 'digfast', 'sadpersons', 'cage'], 'skin': ['ng12'], 'ent': ['ng12'], 'eye': ['rapd'], 'gen': ['sepsis', 'ng12']}
+RF_OF_U = {}
+for _sh in RF:
+    for _u in _sh['u']: RF_OF_U.setdefault(_u, []).append(_sh['id'])
+STOP = set('that this with from your have what about they them their then when were been into does over more than also some only just very will would could should there which where while after before'.split())
+
+
+def toks(x):
+    return {w for w in re.findall(r"[a-z]{4,}", (x or '').lower()) if w not in STOP}
+
+
+def _pool(rows):
+    return [(toks((r.get('t') or '') + ' ' + (r.get('say') or '') + ' ' + (r.get('why') or '') + ' ' + (r.get('s') or '')), r) for r in rows if r.get('say') or r.get('why')]
+
+
+FRAME_POOL = []
+
+
+def _best(a, pool, need):
+    best, sc = None, 0
+    for b, r in pool:
+        k = len(a & b)
+        v = k / len(a) if (k >= 2 or len(a) == 1) else 0
+        if v > sc: best, sc = r, v
+    return best if sc >= need else None
+
+
+GEN_I = [
+  (r'one-line summary|concise summary|^summar', 'So, to summarise: a ___-year-old with ___, the key positives are ___ and importantly no ___.', 'One sentence with the positives and the negatives that matter shows the examiner your thinking.'),
+  (r'first investigations|^investigations|bloods', 'I would like to start with bedside tests, then bloods, then imaging: ___.', 'Each test should answer a question; say which one.'),
+  (r'differential|diagnosis', 'The most likely diagnosis is ___ because ___. The important one to exclude is ___.', 'Say the diagnosis and the clue that clinches it, then the dangerous alternative.'),
+  (r'follow.?up', 'Let\'s book a review in ___ to see how things are going.', 'A specific follow-up date closes the loop.'),
+  (r'chunks? and checks?|checks understanding|teach.?back', 'Does that make sense so far? ... Could you tell me in your own words what we\'ve agreed?', 'Chunk and check, then teach-back: the strongest Information-giving marks.'),
+  (r'\bice\b|ideas|concerns|knowledge and fear', 'What have you been thinking might be going on? Is anything worrying you in particular?', 'The actor has a hidden worry waiting to be asked.'),
+  (r'^fh$|family', 'Does anything run in the family?', 'Family history unlocks risk.'),
+  (r'^pmh$|past medical|previous episodes|cardiac history', 'Have you had any other medical problems, or anything like this before?', 'The past often explains the present: MJ THREADS.'),
+  (r'^sh\b|social|smoking|alcohol|occupation', 'Do you smoke? How much do you drink in a week? What do you do for work? Who is at home?', 'SADDO: Smoking, Alcohol, Drugs, Driving, Occupation.'),
+  (r'drug|medication|allerg|adherence', 'What medicines do you take, including any you buy yourself? Any allergies?', 'Drug causes are a favourite twist; ask the allergic reaction too.'),
+  (r'non.?judgement|respect|dignity|empath|calm', 'That sounds really difficult. Thank you for telling me.', 'Name the emotion and stay non-judgemental: Communication 3 becomes 4.'),
+  (r'jargon', 'That means ___, in plain words.', 'Every unexplained term costs a Communication mark.'),
+  (r'answers questions|invites questions', 'What questions do you have for me?', 'The actor has a briefed question; you need to answer it to score.'),
+  (r'open question|listens|allows time', 'In your own words, what\'s been happening?', 'Open first, then let them talk.'),
+  (r'structured|before, during, after', 'Tell me what happened before, during and after.', 'A clear order the examiner can follow scores Organisation.'),
+  (r'lifestyle|diet|exercise|weight', 'Small changes like ___ make a real difference. Which feels doable for you?', 'Advice tied to their life, agreed with them.'),
+  (r'risk factors', 'Do you smoke, have high blood pressure, diabetes, or high cholesterol?', 'Risk factors move the probability.'),
+  (r'warning shot', 'I\'m afraid the results are not what we hoped.', 'A warning shot prepares them for the news.'),
+  (r'consent', 'Is it OK if I go ahead?', 'Consent before anything else.'),
+  (r'chaperone', 'Would you like a chaperone with us?', 'Offering a chaperone is a professionalism must.'),
+  (r'safety.?net', 'If you get ___, call 999 or come straight back.', 'Specific safety-netting is a safety mark.'),
+  (r'leaflet', 'I\'ll give you a leaflet to take away.', 'Written information backs up what you said.'),
+  (r'pregnan', 'Is there any chance you could be pregnant?', 'Pregnancy changes tests and treatment.'),
+  (r'analgesia|pain relief', 'Let\'s get your pain under control first.', 'Analgesia early is good care and a mark.'),
+  (r'management options|options', 'There are a few options; let me go through them and see what suits you.', 'Shared decision-making.'),
+]
+
+
+def gen_info(t):
+    tl = t.lower()
+    for rx, say, why in GEN_I:
+        if re.search(rx, tl): return {'say': say, 'why': why}
+    return None
+
+
+def attach_info(st):
+    """Give each past-paper mark-scheme item the words and the why from the closest script line, else the closest skeleton line."""
+    pool = _pool(st.get('script', []))
+    n = 0
+    for dm in st.get('dom', []):
+        for it in dm['items']:
+            if it.get('say') or it.get('why'): continue
+            a = toks(it['t']) or {it['t'].lower()}
+            r = _best(a, pool, 0.34) or gen_info(it['t']) or _best(a, FRAME_POOL, 0.5)
+            if r:
+                if r.get('say'): it['say'] = r['say']
+                if r.get('why'): it['why'] = r['why']
+                n += 1
+    return n
+
+
+def finish(out):
+    got = tot = 0
+    fr = dict(D['frames']); fr.update(FRAMES)
+    for k in ('open', 'xopen', 'hx', 'mhx', 'pres', 'close', 'hxclose'):
+        FRAME_POOL.extend(_pool([it for sc in fr[k]['secs'] for it in sc['items']]))
+    for st in out:
+        sid, ty = st['id'], st['type']
+        k = SKEL_OF.get(sid) or ('bbn' if 'bbn' in st.get('fr', []) and ty == 'comm' else SKEL_TYPE[ty])
+        st['skel'] = k
+        if st.get('hooks'):
+            h = [x for x in st['hooks'] if x not in DROP_HOOK]
+            if sid in DROP_FIRST: h = h[1:]
+            if sid in DROP_TWO: h = h[2:]
+            st['hooks'] = ADD_HOOK.get(sid, []) + h
+        if ty in ('hx', 'psych'):
+            ids = []
+            for u in st.get('u', []):
+                for r in RF_OF_U.get(u, []):
+                    if r not in ids: ids.append(r)
+            if ty == 'psych' and 'psych' not in ids: ids.insert(0, 'psych')
+            st['rf'] = ids[:2]
+        dg = list(st.get('dg', []))
+        for x in EXTRA_DG.get(sid, []):
+            if x not in dg: dg.append(x)
+        if ty in ('hx', 'psych') and not st.get('core'):
+            for r in st.get('rf', []):
+                for x in RF_DG.get(r, []):
+                    if x not in dg and len(dg) < 4: dg.append(x)
+            nm = ' '.join(D['units'][u]['name'].lower() for u in st.get('u', []) if u < len(D['units']))
+            if 'alcohol' in nm or 'alcohol' in st['t'].lower():
+                for x in ('cage', 'units'):
+                    if x not in dg: dg.insert(0, x)
+                dg = dg[:4]
+        if dg: st['dg'] = dg
+        if st.get('pp'):
+            tot += sum(len(dm['items']) for dm in st.get('dom', []))
+            got += attach_info(st)
+    for u in range(len(D['units'])): assert u in RF_OF_U, 'no red-flag sheet for unit %d' % u
+    for st in out: assert st['skel'] in SKEL, st['id']
+    print('i attached', got, 'of', tot, 'past-paper items')
+
+
 def main():
     by = {s['id']: s for s in STATIONS}
     out, cases = [], {}
@@ -203,6 +361,9 @@ def main():
         st['fr'] = {'ex': ['ex'], 'proc': ['proc'], 'drug': ['counsel'], 'comm': ['expl'], 'psych': ['mhx'], 'img': ['di'], 'hx': ['hx']}[st['type']]
         st['ex'] = []; st['pr'] = []
         out.append(st)
+
+    # v1.4: skeletons, red flags, more pictures, "i" on past-paper items
+    finish(out)
     ids = [s['id'] for s in out]
     assert len(ids) == len(set(ids)), [i for i in ids if ids.count(i) > 1]
     for s in out: assert s['type'] in TYPES, s['id']
@@ -227,6 +388,7 @@ def main():
         ffp.append({'h': sec, 'items': rows})
     frames = dict(D['frames']); frames.update(FRAMES)
     data = {k: D[k] for k in ('units', 'weeks', 'exams', 'dops', 'packs', 'groups', 'fw')}
+    data.update(rf=RF, urg=URG, skel=SKEL)
     data.update(stations=out, frames=frames, ffp=ffp, exmap=EXMAP, prmap=PRMAP,
                 meta={'v': 4, 'n': len(out), 'by': {t: sum(1 for s in out if s['type'] == t) for t in TYPES}})
     OUT.write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')

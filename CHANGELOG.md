@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.4.0 (2026-10-25)
+
+medengine-OSCE: learn the skeleton once, then only remember what is special to each station.
+- 🚩 **Red flags → where to send** on every history and psychiatry station, matched to its conditions: the flag, what it means, what you do and how fast (🔴 999 or A&E · 🟠 same-day specialist · 🟣 suspected cancer pathway · 🟡 urgent · 🟢 routine). 21 sheets cover all 168 ILO conditions, written from current UK guidance including the NG12 suspected cancer changes (oesophago-gastric to the suspected cancer pathway, FIT 10 or more). A 🚩 browser with a filter sits on the History and Psychiatry pages and the home screen.
+- 🧱 **Skeleton card** on every station: the moves that never change for that kind of station, as a chip row, with the mnemonics that carry them: SOCRATES, ICE, MJ THREADS, SADDO, Present in 4, WIPER, IPPA, Look Feel Move, SEADS, SWIFT, Tell People Really Calm Stories, UMN goes up, DANISH, LR6 SO4, S S S C T F, DCM, PREP and DONE, SPIKES, Ask Tell Ask, ASEPTIC, SIGECAPS, DIGFAST.
+- 🎯 **Only remember for this one:** the hooks card now holds just the station's own specifics. Generic lines the skeleton covers are gone; new hooks include AS = SAD, the 3 Cs of a big liver, the unhappy triad and CAGE.
+- 🖼️ **47 new step-through pictures (128 in all):** SOCRATES, chest pain patterns, abdominal pain by region, headache onset curves, palpitations, breathlessness timing, leg swelling, TUNA FISH, sepsis, CAGE and units, the NG12 age ladder, ASEPTIC, SIGECAPS, DIGFAST, SAD PERSONS as a prompt only, SWIFT, DANISH, SEADS, the lump checklist, arm and leg myotomes with MRC grades, the plantar response, JVP vs carotid, Schamroth's window, endocarditis hands, liver signs, knee tests, RA vs OA hands and the hand nerves, true vs apparent leg length, Simmonds', otoscope grip, confrontation, the swinging torch, thyroid eye signs, PREP and DONE, cannula angle, BP cuff, male and female catheter, ECG rate, axis, heart block strips, heart failure on a CXR, CT windows, insulin profiles and DOAC vs warfarin. History and psychiatry stations now get up to 4 pictures for their presentation.
+- 🙈 **Test me** on pictures: hides the labels and captions so you say them first, then tap the picture to check. Resets on every step.
+- ✅ **Leaner checklists:** the history skeleton is 13 items with the mnemonics built in, and histories now close with a thank-you instead of a plan and safety-net. ⓘ words and the why now appear on 745 of 1,045 past-paper mark-scheme items.
+- Tests: `app/build/test_v8.py`.
+
 ## 1.3.0 (2026-10-25)
 
 medengine-OSCE rebuilt around how FFP stations actually run: **one station, one 10-minute task**.

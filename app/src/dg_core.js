@@ -78,6 +78,7 @@
   function show(fig, i) {
     var o = R[fig.dataset.dg]; if (!o) return;
     var n = nOf(o); i = (i + n) % n; fig.dataset.i = i;
+    fig.classList.remove('dg-rev');
     var st = fig.querySelector('.dg-stage'); st.innerHTML = stageHtml(o, i);
     fig.querySelector('.dg-cap').innerHTML = rich(capOf(o, i));
     var c = fig.querySelector('.dg-n'); if (c) c.textContent = (i + 1) + ' / ' + n;
@@ -95,6 +96,8 @@
   }
   DG.stopAll = function () { timers.forEach(function (_, f) { stop(f); }); };
   document.addEventListener('click', function (e) {
+    var tm = document.body.classList.contains('dg-testing') && e.target.closest && !e.target.closest('button') && e.target.closest('.dg-stage,.dg-cap');
+    if (tm) { var tf = tm.closest('.dg'); if (tf) { tf.classList.toggle('dg-rev'); return; } }
     var b = e.target.closest && e.target.closest('[data-dgn],[data-dgp],[data-dgi]'); if (!b) return;
     var fig = b.closest('.dg'); if (!fig) return;
     e.preventDefault();
@@ -109,7 +112,11 @@
   document.addEventListener('touchend', function (e) { if (!sx) return; var dx = e.changedTouches[0].clientX - sx[0], dy = e.changedTouches[0].clientY - sx[1]; if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy) * 1.5) { stop(sx[2]); show(sx[2], +sx[2].dataset.i + (dx < 0 ? 1 : -1)); } sx = null; }, {passive: true});
 
   /* ---------- styles ---------- */
-  var css = '.dg{margin:0;border:1px solid var(--line);border-radius:12px;background:var(--surface-2);padding:10px 12px;display:flex;flex-direction:column;gap:8px;min-width:0}' +
+  var css = '.dg-testing .dg:not(.dg-rev) .dg-cap,.dg-testing .dg:not(.dg-rev) .dg-cap b,.dg-testing .dg:not(.dg-rev) .dg-card:not(.done) b,.dg-testing .dg:not(.dg-rev) .dg-card .sm,.dg-testing .dg:not(.dg-rev) .dg-tab tr:not(.done) td{color:transparent!important;text-shadow:0 0 8px var(--muted);user-select:none}' +
+    '.dg-testing .dg:not(.dg-rev) .dg-svg text:not(.keep),.dg-testing .dg:not(.dg-rev) .dg-tag,.dg-testing .dg:not(.dg-rev) .dg-img text{opacity:0}' +
+    '.dg-testing .dg:not(.dg-rev) .dg-cap::before{content:"👆 Say it, then tap the picture to check";display:block;color:var(--muted);text-shadow:none;font-size:.85rem}' +
+    '.dg-testing .dg-stage,.dg-testing .dg-cap{cursor:pointer}.dg-testing .dg.dg-rev{outline:2px solid var(--accent);outline-offset:2px}' +
+    '.dg{margin:0;border:1px solid var(--line);border-radius:12px;background:var(--surface-2);padding:10px 12px;display:flex;flex-direction:column;gap:8px;min-width:0}' +
     '.dg-head{display:flex;align-items:center;gap:8px}.dg-head b{flex:1;font-family:var(--f-display);font-size:1rem;line-height:1.25}' +
     '.dg-n{font-family:var(--f-mono);font-size:.72rem;color:var(--muted)}' +
     '.dg-b{border:1px solid var(--line);background:var(--surface);border-radius:999px;min-width:34px;height:30px;padding:0 10px;font-size:.85rem;line-height:1}' +

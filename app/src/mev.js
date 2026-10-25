@@ -153,6 +153,7 @@
   }
   var ECG = {
     norm: function () { var ps = [150, 950, 1750, 2550, 3350, 4150, 4950]; return ecgStrip({ms: 5600, beats: beatsFrom(ps, [160]), label: 'Normal sinus rhythm'}); },
+    hb1: function () { var ps = [150, 950, 1750, 2550, 3350, 4150, 4950]; return ecgStrip({ms: 5600, beats: beatsFrom(ps, [270]), ann: ps.map(function (p) { return [p + 155, '0.27s', '', 12]; }), label: 'First-degree block: long fixed PR, every P conducted'}); },
     mob1: function () {
       var ps = [120, 940, 1760, 2580, 3400, 4220, 5040], prs = [160, 250, 330, null];
       var ann = []; ps.forEach(function (p, i) { var pr = prs[i % 4]; if (pr == null) { ann.push([p + 40, '✕ no QRS', 'drop', 94]); } else ann.push([p + pr / 2 + 20, (pr / 1000).toFixed(2) + 's', '', 12]); });
