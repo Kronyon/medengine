@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.5.0 (2026-10-25)
+
+medengine-STUDY: a picture snapshot for every condition.
+- 🎞️ **Snapshot at the top of all 168 ILO conditions:** the same 7-frame picture film every time, so only the content changes. 1 🧬 **What goes wrong:** the organ is drawn with the broken part glowing, and the chain runs down in arrows. 2 🧍 **Who gets it.** 3 👀 **Spot it:** numbered dots on a body map. 4 🧪 **Prove it:** the tests, with ★ on the one that proves it. 5 💊 **Treat:** a ladder from first move to cure. 6 🚩 **Watch for:** each danger colour-coded by how fast to act. 7 🪝 **The hook.** UK guidance, written in our own words.
+- 17 drawn organ pictures carry them: heart, lungs, limb vessels, gut, liver and pancreas, urinary tract, scrotum, breast, thyroid, diabetes, brain, nerve and muscle, joint, skin, eye, ear nose and throat, the mind and the blood.
+- ▶ plays a snapshot like a GIF, swiping steps it, and 🙈 **Test me** hides the words so you say each frame before you tap. **More pictures** under each snapshot opens the matching medengine-OSCE drawings.
+- 🎞️ **Snapshots** section on the home screen: all of them by ILO week, with a filter.
+- Tests: `study/test_study_v15.py`; all earlier STUDY suites pass.
+
 ## 1.4.0 (2026-10-25)
 
 medengine-OSCE: learn the skeleton once, then only remember what is special to each station.
