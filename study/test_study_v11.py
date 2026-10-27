@@ -18,7 +18,7 @@ def run(width, mock=True):
         ctx.route(re.compile(r'^https?://.*'), lambda r: r.abort())
         pg = ctx.new_page(); pg.on('pageerror', lambda e: errs.append('pageerror: ' + str(e)))
         pg.goto(PAGE.as_uri()); pg.wait_for_timeout(1500); ev = pg.evaluate
-        if not re.search(r'v1\.[1-9]', pg.text_content('#homeBtn')): errs.append('version not v1.1+')
+        if not re.search(r'v(1\.[1-9]|2\.\d)', pg.text_content('#homeBtn')): errs.append('version not v1.1+')
         D = ev("JSON.parse(document.getElementById('qqdata').textContent)")
         NP = len(D['path'])
         if NP < 111: errs.append(f"expected at least 111 cards, got {NP}")

@@ -27,7 +27,7 @@ def run(width, mock=True):
         def ov(label):
             o = ev('document.documentElement.scrollWidth - document.documentElement.clientWidth')
             if o > 1: errs.append(f'{label}: overflow {o}px')
-        if not re.search(r'v1\.([2-9]|\d\d)', pg.text_content('#homeBtn')): errs.append('version not v1.2+')
+        if not re.search(r'v(1\.([2-9]|\d\d)|2\.\d)', pg.text_content('#homeBtn')): errs.append('version not v1.2+')
         D = ev("JSON.parse(document.getElementById('qqdata').textContent)")
         A = D.get('act', [])
         if len(A) < 45: errs.append(f'only {len(A)} action cards')

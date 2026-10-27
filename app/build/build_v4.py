@@ -15,6 +15,11 @@ from c4.redflags import RF, URG
 from c4.skeletons import SKEL
 from c4.exams_surg import MSK_HOOKS
 from c4.drugs import FRAME as DRUG_FRAME
+from c4 import posters as POSTERS
+
+# v2.0: the hand and wrist and the shoulder examinations are not in the FFP CPSA, so they leave the app
+NOT_IN_EXAM = {'E-hand', 'E-shoulder'}
+SNAPDIR = HERE.parent.parent / 'study' / 'snap'
 
 D = json.load(open(HERE / 'osce_data_v3.json', encoding='utf-8'))
 OUT = HERE / 'osce_data_v4.json'
@@ -35,7 +40,7 @@ HX_DOM = re.compile(r'^(Information gathering|Communication|Clinical reasoning|P
 EXPL_DOM = re.compile(r'^(Information giving|Management|Communication|Professional|Leadership|ReSPECT)', re.I)
 DRUG_PP = {'PP13', 'PP39', 'PP63', 'PP73', 'PP106', 'PP03', 'PP50'}
 EXMAP = {'cvs': 'E-cvs', 'resp': 'E-resp', 'abdo': 'E-abdo', 'cn': 'E-cn', 'ul': 'E-ul', 'll': 'E-ll', 'thyroid': 'E-thyroid',
-         'breast': 'E-breast', 'scrotal': 'E-scrotal', 'knee': 'E-knee', 'hip': 'E-hip', 'shoulder': 'E-shoulder', 'hand': 'E-hand',
+         'breast': 'E-breast', 'scrotal': 'E-scrotal', 'knee': 'E-knee', 'hip': 'E-hip',
          'ent': 'E-ear', 'eye': 'E-eye', 'nodes': 'E-nodes', 'dre': 'E-dre', 'mse': 'PP61', 'skin': 'E-rash', 'bp': 'P-bpm'}
 PRMAP = {'bpm': 'P-bpm', 'scrub': 'P-wash', 'cbg': 'P-cbg', 'inhaler': 'P-inhaler', 'pefr': 'P-pefr', 'obs': 'P-obs', 'ecg12': 'P-ecg12',
          'ecg3': 'P-ecg3', 'dip': 'P-dip', 'cann': 'P-cann', 'venep': 'P-venep', 'abg': 'P-abg', 'swab': 'P-swab', 'catm': 'P-catm',
@@ -348,6 +353,7 @@ def main():
         out.append(st)
     # authored stations, with past-paper findings appended as extra cases
     for st in STATIONS:
+        if st['id'] in NOT_IN_EXAM: continue
         st = copy.deepcopy(st)
         if st['type'] == 'ex':
             st['wrap'] = ['xopen', 'xclose']
@@ -370,7 +376,7 @@ def main():
     # the FFP checklist, in the order of the paper list
     FFP = [
         ('Medicine', ['Cardiovascular', 'Respiratory', 'Cranial nerve', 'PNS', 'Abdominal', 'Thyroid']),
-        ('Surgery', ['MSK Ankle + Foot', 'MSK Elbow', 'MSK Hand + Wrist', 'MSK Knee', 'MSK Shoulder', 'MSK Hip', 'Breast', 'Testicular', 'DRE', 'External Genitalia']),
+        ('Surgery', ['MSK Ankle + Foot', 'MSK Elbow', 'MSK Knee', 'MSK Hip', 'Breast', 'Testicular', 'DRE', 'External Genitalia']),
         ('Speciality', ['Describing a rash', 'Pigmented & non-pigmented lesions', 'Nasal Cavity', 'Oral Cavity', 'Otoscopy + Hearing', 'Lymph node exam', 'Anterior Eye', 'Full Eye Exam (VA + Fields)', 'Fundoscopy']),
         ('Psychiatry', ['Mental Health History', 'MSE', 'Risk Assessment', 'Suicide Risk Assessment']),
         ('DOPS and procedures', ['BP', 'Hand washing', 'Blood glucose', 'Inhaler technique', 'Peak flow', 'Basic physiological obs', '12-lead ECG', '3-lead ECG', 'Urine dipstick', 'IV cannulation', 'Venepuncture', 'ABG', 'Swabs (viral & bacterial)', 'Male & Female Catheterisation']),
@@ -388,7 +394,17 @@ def main():
         ffp.append({'h': sec, 'items': rows})
     frames = dict(D['frames']); frames.update(FRAMES)
     data = {k: D[k] for k in ('units', 'weeks', 'exams', 'dops', 'packs', 'groups', 'fw')}
+    data['exams'] = [e for e in data['exams'] if e['id'] not in ('hand', 'shoulder')]
     data.update(rf=RF, urg=URG, skel=SKEL)
+    # v2.0 🗺️ posters: condition posters and master posters shared with medengine-STUDY, plus routes and storyboards for stations
+    sys.path.insert(0, str(SNAPDIR))
+    import importlib, glob as _glob, snapdsl, master
+    for _f in sorted(_glob.glob(str(SNAPDIR / 's[0-9]_*.py'))): importlib.import_module(pathlib.Path(_f).stem)
+    if snapdsl.ERR: raise SystemExit('snapshot errors: ' + '; '.join(snapdsl.ERR))
+    assert sorted(snapdsl.SNAP) == list(range(len(D['units']))), 'every ILO unit needs a poster'
+    data['snap'] = {str(k): v for k, v in sorted(snapdsl.SNAP.items())}
+    data['master'] = master.MASTER
+    data['po'] = POSTERS.check(out)
     data.update(stations=out, frames=frames, ffp=ffp, exmap=EXMAP, prmap=PRMAP,
                 meta={'v': 4, 'n': len(out), 'by': {t: sum(1 for s in out if s['type'] == t) for t in TYPES}})
     OUT.write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')

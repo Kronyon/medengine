@@ -287,11 +287,14 @@ select.sel{border:1px solid var(--line);background:var(--surface);border-radius:
 .rfr{display:grid;grid-template-columns:22px minmax(0,1fr);gap:2px 8px;align-items:start;line-height:1.4;padding:4px 0;border-bottom:1px dashed var(--line)}.rfr:last-of-type{border-bottom:0}.rfr .s{display:block;color:var(--muted);font-size:.86rem}
 .urg{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.78rem;color:var(--muted)}
 .dgtools{margin:-2px 0 2px}
+.po-mp{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:8px}.po-mp>span{color:var(--muted);font-size:.8rem;font-weight:700}
+#posterCard{display:flex;flex-direction:column;gap:8px}#posterCard[hidden]{display:none}
+.why-po .place{display:flex;flex-direction:column;gap:6px;margin-top:8px}.why-po .place>div{display:grid;grid-template-columns:28px minmax(0,1fr);gap:8px;align-items:baseline;font-size:.9rem;line-height:1.4}.why-po .place>div>b{font-family:var(--f-display);font-size:1.1rem;color:var(--accent)}
 </style>
 
 <header class="top">
   <div class="bar">
-    <button class="brand" id="homeBtn" aria-label="medengine-OSCE home"><span class="bill">m</span><span class="bname">medengine<span class="ext">-OSCE</span></span><span class="ver">v1.4.0</span></button>
+    <button class="brand" id="homeBtn" aria-label="medengine-OSCE home"><span class="bill">m</span><span class="bname">medengine<span class="ext">-OSCE</span></span><span class="ver">v2.0.0</span></button>
     <a class="switch" id="drillLink" data-private href="https://claude.ai/artifact/NexSvgTB8VhqktVFfko6JR" target="_blank" rel="noopener" title="Open medengine-STUDY (notes, SBAs, word hunt)"><span class="dot">m</span>medengine-STUDY ↗</a>
     <span class="grow"></span>
     <input class="search" id="q" type="search" placeholder="Search any station, drug or sign…" autocomplete="off" aria-label="Search">
@@ -299,6 +302,7 @@ select.sel{border:1px solid var(--line);background:var(--surface);border-radius:
   </div>
   <nav class="nav" id="nav" aria-label="Sections">
     <button data-v="home">🏠 Home</button>
+    <button data-v="posters">🗺️ Posters</button>
     <button data-ty="hx">🗣️ History</button>
     <button data-ty="ex">🩺 Exam</button>
     <button data-ty="img">🖼️ Imaging</button>

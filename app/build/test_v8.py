@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""medengine-OSCE v1.4 tests: v1.3 checks plus red flags for every unit, skeleton cards, test-me pictures, history close.
+"""medengine-OSCE v1.4 tests, kept green for v2.0 (stations now open on 🗺️ Poster, so the old checks switch to Script first): v1.3 checks plus red flags for every unit, skeleton cards, test-me pictures, history close.
 v1.3 tests (no network): the FFP layout. One station = one task; 7 station types;
 FFP checklist links; history stations carry no examination or counselling; AI only on talking stations;
 pictures play and step; imaging case pictures hide their labels outside Script; old links still land;
@@ -52,7 +52,7 @@ def audit():
     n_hx = sum(len(sc['items']) for sc in DATA['frames']['hx']['secs'])
     if n_hx > 13: errs.append(f'history skeleton has {n_hx} items; keep it to 13 or fewer')
     n = sum(len(x['items']) for x in DATA['ffp'])
-    if n != 65: errs.append(f'FFP checklist has {n} items, expected 65')
+    if n != 63: errs.append(f'FFP checklist has {n} items, expected 63: hand and shoulder are out')
     return errs
 
 
@@ -72,7 +72,7 @@ def run(width):
             o = ev('document.documentElement.scrollWidth - document.documentElement.clientWidth')
             if o > 1: errs.append(f'{label}: overflow {o}px')
 
-        if 'v1.4.0' not in pg.text_content('#homeBtn') and width > 420: errs.append('version badge not 1.4.0')
+        if not re.search(r'v(1\.4|2\.\d)\.\d', pg.text_content('#homeBtn')) and width > 420: errs.append('version badge not 1.4+')
         if pg.locator('#main .tiles [data-ty]').count() != 7: errs.append('home should show 7 type tiles')
         if pg.locator('#nav [data-ty]').count() != 7: errs.append('nav should have 7 type buttons')
         ids = ev("FFP.flatMap(x => x.items.flatMap(it => it.s))")
@@ -91,6 +91,7 @@ def run(width):
         pg.fill('#tQ', ''); pg.wait_for_timeout(300)
         # AI only on talking stations
         ev("location.hash = 's-E-cvs'"); pg.wait_for_timeout(300)
+        pg.click('[data-mode="script"]'); pg.wait_for_timeout(80)
         if pg.locator('[data-mode="ai"]').count(): errs.append('exam station should not offer AI')
         if not pg.locator('#dgCard .dg').count(): errs.append('exam station has no pictures')
         cap0 = pg.text_content('#dgCard .dg-cap'); pg.click('#dgCard [data-dgn="1"]'); pg.wait_for_timeout(80)

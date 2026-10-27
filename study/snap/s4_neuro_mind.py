@@ -21,11 +21,11 @@ N(90, 'Raised intracranial pressure', 'brain', 'whole',
 N(91, 'Subarachnoid haemorrhage', 'brain', 'vessel',
   'A berry aneurysm bursts → blood fills the space around the brain → sudden severe headache',
   '40 to 60 · smokers, high BP · polycystic kidneys, family history',
-  'Thunderclap headache, worst ever, peaks in 1 minute>head; Neck stiffness>neck; Vomiting, collapse>mouth; Light hurts>eyes',
+  'Thunderclap headache, worst ever, peaks within 1 to 5 minutes>head; Neck stiffness>neck; Vomiting, collapse>mouth; Light hurts>eyes',
   'CT head within 6 h>blood around the brain*; LP at 12 h if CT normal after 6 h>xanthochromia; CT angiogram>the aneurysm',
   'ABCDE; neurosurgery referral | Nimodipine to prevent spasm | Coil or clip the aneurysm | Keep sodium and BP in range',
   'Drowsy or falling GCS>e; Vasospasm days 4 to 14: new weakness>e; Hydrocephalus>e',
-  'Thunderclap = peaks in under a minute. Never send it home without imaging.')
+  'Thunderclap = worst ever, at its peak within 1 to 5 minutes. Never send it home without imaging.')
 
 N(92, 'Subdural haemorrhage', 'brain', 'sub',
   'A bridging vein tears → blood collects slowly between the brain and the dura → a crescent squeezing the brain',

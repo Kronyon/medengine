@@ -34,18 +34,19 @@ const HOW = {
 const FWD = D.fw || {uni: [], list: []}, FWL = FWD.list, UNI = FWD.uni, FWBY = {}; FWL.forEach(f => FWBY[f.id] = f);
 const FRFW = {hx: 'hx', mhx: 'mhx', ex: 'ex', proc: 'proc', acute: 'acute', expl: 'expl', counsel: 'expl', bbn: 'expl', presc: 'presc', di: 'di', prof: 'prof'};
 const DRILL = 'https://claude.ai/artifact/NexSvgTB8VhqktVFfko6JR';
-const APP_NAME = 'medengine-OSCE', APP_VERSION = '1.4.0', PUBLIC = !!window.MEDENGINE_PUBLIC;
+const APP_NAME = 'medengine-OSCE', APP_VERSION = '2.0.0', PUBLIC = !!window.MEDENGINE_PUBLIC;
 const unitsByName = {}; UNITS.forEach(u => (unitsByName[u.name] = unitsByName[u.name] || []).push(u.i));
 function toast(t){ const el = $('#toast'); el.textContent = t; el.classList.add('show'); clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove('show'), 1800); }
 const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 
 /* ---------- state ---------- */
 const KEY = 'qq-osce-v1';
-const SET0 = {mode: 'script', grp: '', wk: '', kind: '', role: 'cand', recall: false, deck: 'all', hwk: ''};
+const SET0 = {mode: 'poster', grp: '', wk: '', kind: '', role: 'cand', recall: false, deck: 'all', hwk: ''};
 let S = {v: 2, ts: 0, att: {}, hk: {}, set: Object.assign({}, SET0)};
 try { const r = localStorage.getItem(KEY); if (r) S = Object.assign(S, JSON.parse(r)); } catch (e) {}
 S.att = S.att || {}; S.hk = S.hk || {}; S.set = Object.assign({}, SET0, S.set || {});
-if (!['script', 'tick', 'friends', 'ai', 'voice'].includes(S.set.mode)) S.set.mode = 'script';
+if (!S.set.v2) { S.set.mode = 'poster'; S.set.v2 = 1; }
+if (!['poster', 'script', 'tick', 'friends', 'ai', 'voice'].includes(S.set.mode)) S.set.mode = 'poster';
 let DB = null, UID = null, dbT = null;
 function save(){ S.ts = Date.now(); try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} if (DB && UID) { clearTimeout(dbT); dbT = setTimeout(() => DB.doc('data/users/' + UID + '/osce').set(JSON.parse(JSON.stringify(S))).catch(() => {}), 2500); } }
 (async () => { try {
@@ -187,14 +188,14 @@ function scriptFor(st, vk){
 }
 function scriptHtml(st, vk){
   const L = scriptFor(st, vk), rc = S.set.recall;
-  return '<div class="row"><h2 class="grow">📜 What to do, what to say, and why</h2><label class="hint"><input type="checkbox" id="recallT"' + (rc ? ' checked' : '') + '> 🙈 Recall mode</label></div><p class="hint" style="margin:0">' + (rc ? 'Say each line out loud before you tap to check it.' : 'Read it once, then switch on Recall mode and say each line before revealing it.') + '</p><div class="scr">' + L.map((l, i) => {
+  return '<div class="row"><h2 class="grow">📜 What to do, what to say, and why</h2><label class="hint"><input type="checkbox" id="recallT"' + (rc ? ' checked' : '') + '> 🔒 Lock the lines</label></div><p class="hint" style="margin:0">' + (rc ? 'Say each line out loud before you tap to check it.' : 'Read it once, then lock the lines and say each one before revealing it.') + '</p><div class="scr">' + L.map((l, i) => {
     const body = (l.say && l.act ? '<div class="say do">' + rich(l.act) + '</div>' : '') + (l.say ? '<div class="say">🗣 “' + rich(l.say) + '”</div>' : '<div class="say do">' + rich(l.act || '') + '</div>');
     return '<div class="sl' + (l.v ? ' var' : '') + '"><span class="n">' + (i + 1) + '</span><div><span class="sec">' + (l.nn ? '<span class="nn">⛔</span>' : '') + esc(l.s) + (l.v ? ' · case ' + esc(l.v) : '') + '</span>' + (rc ? '<button class="rev" data-reveal>Tap to reveal' + (l.say ? ' the line' : ' the step') + '</button><div hidden>' + body + '</div>' : body) + (l.why ? '<div class="why">💡 ' + rich(l.why) + '</div>' : '') + '</div></div>';
   }).join('') + '</div>';
 }
 
 /* ---------- routing ---------- */
-const VIEWS = ['home', 'stations', 'fw', 'hooks', 'exams', 'dops', 'ilos', 'skills', 'visual', 'ffp', 'rf'];
+const VIEWS = ['home', 'stations', 'fw', 'hooks', 'exams', 'dops', 'ilos', 'skills', 'visual', 'ffp', 'rf', 'posters'];
 function fromHash(){
   const h = (location.hash || '').slice(1);
   let m;
@@ -206,11 +207,12 @@ function fromHash(){
   if ((m = h.match(/^p-(\w+)$/)) && prById[m[1]]) return {v: 'proc', id: m[1]};
   if ((m = h.match(/^u-?(\d+)$/)) && UNITS[+m[1]]) return {v: 'ilo', id: +m[1]};
   if ((m = h.match(/^f-(\w+)$/)) && FR[m[1]]) return {v: 'frame', id: m[1]};
+  if ((m = h.match(/^mp-([\w-]+)$/)) && MBY[m[1]]) return {v: 'master', id: m[1]};
   if ((m = h.match(/^fw-(\w+?)(?:--(\w+))?$/)) && FWBY[m[1]]) return {v: 'fwone', id: m[1], mem: m[2] || ''};
   if (VIEWS.includes(h)) return {v: h};
   return {v: 'home'};
 }
-function toHash(r){ return r.v === 'type' ? 't-' + r.id : r.v === 'station' ? 's-' + r.id : r.v === 'exam' ? 'e-' + r.id : r.v === 'proc' ? 'p-' + r.id : r.v === 'ilo' ? 'u' + r.id : r.v === 'frame' ? 'f-' + r.id : r.v === 'fwone' ? 'fw-' + r.id + (r.mem ? '--' + r.mem : '') : r.v; }
+function toHash(r){ return r.v === 'type' ? 't-' + r.id : r.v === 'station' ? 's-' + r.id : r.v === 'exam' ? 'e-' + r.id : r.v === 'proc' ? 'p-' + r.id : r.v === 'ilo' ? 'u' + r.id : r.v === 'frame' ? 'f-' + r.id : r.v === 'master' ? 'mp-' + r.id : r.v === 'fwone' ? 'fw-' + r.id + (r.mem ? '--' + r.mem : '') : r.v; }
 function leaveStation(){ document.body.classList.remove('dg-testing'); if (window.DG) DG.stopAll(); stopTimer(); abortChat(); if (typeof VO !== 'undefined' && VO) vShutdown(); }
 function go(r, push = true){ leaveStation(); route = r; if (push) { try { history.pushState(null, '', '#' + toHash(r)); } catch (e) { location.hash = toHash(r); } } render(); window.scrollTo(0, 0); }
 window.addEventListener('popstate', () => { leaveStation(); route = fromHash(); render(); });
@@ -218,9 +220,9 @@ window.addEventListener('hashchange', () => { const r = fromHash(); if (toHash(r
 function render(){
   const m = $('#main');
   const st0 = route.v === 'station' ? getStation(route.id) : null;
-  const navKey = route.v === 'type' ? 'ty:' + route.id : st0 ? 'ty:' + typeOf(st0) : route.v === 'exam' ? 'ty:ex' : route.v === 'proc' ? 'ty:proc' : route.v === 'home' || route.v === 'ffp' ? 'home' : route.v === 'rf' ? 'ty:hx' : '';
+  const navKey = route.v === 'type' ? 'ty:' + route.id : st0 ? 'ty:' + typeOf(st0) : route.v === 'exam' ? 'ty:ex' : route.v === 'proc' ? 'ty:proc' : route.v === 'home' || route.v === 'ffp' ? 'home' : route.v === 'rf' ? 'ty:hx' : route.v === 'posters' || route.v === 'master' ? 'posters' : '';
   $$('#nav button').forEach(b => b.classList.toggle('on', (b.dataset.ty ? 'ty:' + b.dataset.ty : b.dataset.v) === navKey));
-  ({type: vType, ffp: vFfp, rf: vRf, home: vHome, stations: vStations, hooks: vHooks, exams: vExams, dops: vDops, ilos: vIlos, skills: vSkills, station: vStation, exam: vExam, proc: vProc, ilo: vIlo, frame: vFrame, fw: vFw, fwone: vFwOne, visual: vVisual}[route.v] || vHome)(m);
+  ({type: vType, ffp: vFfp, rf: vRf, home: vHome, stations: vStations, hooks: vHooks, exams: vExams, dops: vDops, ilos: vIlos, skills: vSkills, station: vStation, exam: vExam, proc: vProc, ilo: vIlo, frame: vFrame, fw: vFw, fwone: vFwOne, visual: vVisual, posters: vPosters, master: vMaster}[route.v] || vHome)(m);
 }
 
 /* ---------- views ---------- */
@@ -247,12 +249,12 @@ function vFfp(m){ m.innerHTML = '<section class="card"><h1>✅ FFP checklist</h1
 function vHome(m){
   const all = Object.entries(S.att).flatMap(([id, a]) => a.map(x => Object.assign({id}, x))).sort((a, b) => b.ts - a.ts);
   const [fn, ft] = ffpDone();
-  let h = '<section class="card hero"><span class="eyebrow">' + APP_NAME + ' v1.4 · FFP CPSA · one station, one task</span><h1>What kind of station?</h1><p class="hint" style="margin:0">Every station is a single 10-minute task, the way FFP runs them. Open one, read the door, then pick 📜 <b>Script</b> to learn it, ✅ <b>Tick</b> to mark yourself, 👥 <b>Friends</b> to run it together, or 🤖 <b>AI</b> on the talking stations.</p><div class="row"><button class="btn primary" data-rand>🎲 Random FFP station</button>' + (all.length ? '<button class="btn" data-st="' + all[0].id + '">↩︎ Back to the last one</button>' : '') + '<span class="hint">' + fn + ' of ' + ft + ' FFP items practised</span></div></section>';
+  let h = '<section class="card hero"><span class="eyebrow">' + APP_NAME + ' v2.0 · FFP CPSA · one station, one task</span><h1>What kind of station?</h1><p class="hint" style="margin:0">Every station is a single 10-minute task, the way FFP runs them. Open one, read the door, then pick 🗺️ <b>Poster</b> to see the whole station as one picture, 📜 <b>Script</b> to learn it, ✅ <b>Tick</b> to mark yourself, 👥 <b>Friends</b> to run it together, or 🤖 <b>AI</b> on the talking stations.</p><div class="row"><button class="btn primary" data-rand>🎲 Random FFP station</button>' + (all.length ? '<button class="btn" data-st="' + all[0].id + '">↩︎ Back to the last one</button>' : '') + '<span class="hint">' + fn + ' of ' + ft + ' FFP items practised</span></div></section>';
   h += '<section class="tiles">' + TYPES.map(([k]) => { const L = ST.filter(s => typeOf(s) === k), core = L.filter(s => s.core || s.pp).length, done = L.filter(s => doneOf(s.id)).length; return '<button class="tile ty-' + k + '" data-ty="' + k + '"><span class="tic">' + TY[k].i + '</span><b>' + esc(TY[k].t) + '</b><span class="hint">' + esc(TY[k].d) + '</span><span class="tmeta">' + L.length + ' stations' + (done ? ' · ' + done + ' practised' : '') + '</span><span class="tbar"><i style="width:' + (L.length ? Math.round(done * 100 / L.length) : 0) + '%"></i></span></button>'; }).join('') + '</section>';
   h += ffpHtml(false);
   if (all.length) { const ML = {ai: '🤖 AI-marked', voice: '🎙 Voice-marked', friends: '👥 Friend-marked', tick: '✅ Self-marked'}; h += '<section class="card"><h2>Recent attempts</h2><div class="list">' + all.slice(0, 5).map(a => { const s = getStation(a.id); return s ? '<button class="li" data-st="' + a.id + '"><span class="code ty">' + TY[typeOf(s)].i + '</span><span class="tt"><b>' + esc(s.t) + '</b><span>' + (ML[a.mode] || ML.tick) + ' · ' + new Date(a.ts).toLocaleDateString('en-GB') + '</span></span><span class="score ' + scoreCls(a.pct) + '">' + a.pct + '%</span></button>' : ''; }).join('') + '</div></section>'; }
   if (!PUBLIC) h += '<details class="dd"><summary>🎯 Your feedback priorities</summary><div class="body">' + PRIOS.map(([t, d, ids], i) => '<div class="prio"><span class="n">' + (i + 1) + '</span><div><b>' + esc(t) + '</b><div class="hint">' + esc(d) + '</div><div class="chips" style="margin-top:4px">' + ids.filter(x => stById[x]).map(x => '<button class="chip" data-st="' + x + '">' + esc(stById[x].t) + (best(x) != null ? ' ' + best(x) + '%' : '') + '</button>').join('') + '</div></div></div>').join('') + '</div></details>';
-  h += '<div class="row more"><span class="hint">More:</span><button class="btn sm" data-go="rf">🚩 Red flags</button><button class="btn sm" data-go="hooks">🪝 Hook drill</button><button class="btn sm" data-go="ilos">🧩 ILO packs</button><button class="btn sm" data-go="fw">🧭 Frameworks</button><button class="btn sm" data-go="skills">🗣 How you\'re marked</button><button class="btn sm" data-go="visual">👁️ Showdowns</button></div>';
+  h += '<div class="row more"><span class="hint">More:</span><button class="btn sm" data-go="posters">🗺️ Posters</button><button class="btn sm" data-go="rf">🚩 Red flags</button><button class="btn sm" data-go="hooks">🪝 Hook drill</button><button class="btn sm" data-go="ilos">🧩 ILO packs</button><button class="btn sm" data-go="fw">🧭 Frameworks</button><button class="btn sm" data-go="skills">🗣 How you\'re marked</button><button class="btn sm" data-go="visual">👁️ Showdowns</button></div>';
   m.innerHTML = h;
 }
 function sysOf(s){ const u = (s.u || []).find(i => UNITS[i]); return u == null ? 'other' : MEV.unitSys(u, UNITS[u].w); }
@@ -340,7 +342,7 @@ const PL = [['hx', '❓ What to ask'], ['rf', '🚩 Red flags'], ['ex', '🩺 Wh
 function packHtml(p, openFirst){ return ((p.ck || []).length ? '<details class="dd"' + (openFirst ? ' open' : '') + '><summary>🔑 Clinchers</summary><div class="body">' + p.ck.map(c => '<div class="hkr"><span class="i">' + (CKI[c[0]] || '•') + '</span><span>' + rich(c[1]) + '</span></div>').join('') + '</div></details>' : '') + PL.filter(([k]) => (p[k] || []).length).map(([k, l], i) => '<details class="dd"' + (openFirst && i < 1 ? ' open' : '') + '><summary>' + l + '</summary><div class="body"><ul class="pack" style="margin:0;padding-left:20px">' + p[k].map(x => '<li>' + rich(x) + '</li>').join('') + '</ul></div></details>').join(''); }
 function vIlo(m){
   const u = UNITS[route.id], p = PK[u.i] || {}, sts = ST.filter(s => s.u.some(i => UNITS[i].name === u.name));
-  m.innerHTML = '<section class="card"><span class="eyebrow">' + esc(WEEK[u.w] || '') + '</span><h1>' + esc(u.name) + '</h1>' + atlasFor([u.i], u.name, u.name) + (PUBLIC ? '' : '<div class="row"><a class="btn sm" href="' + DRILL + '#u' + u.i + '-read" target="_blank" rel="noopener">📖 Notes in medengine-STUDY ↗</a><a class="btn sm" href="' + DRILL + '#u' + u.i + '-think" target="_blank" rel="noopener">🧠 Think tab in medengine-STUDY ↗</a></div>') + '</section>' + packHtml(p, true) + '<section class="card"><h2>Stations for this ILO · ' + sts.length + '</h2><div class="list">' + (sts.map(s => '<button class="li" data-st="' + s.id + '"><span class="code">' + esc(s.id) + '</span><span class="tt"><b>' + esc(s.t) + '</b><span>' + (s.pp ? '📚 Past paper · ' : '') + esc(kindOf(s)) + '</span></span>' + scoreHtml(s.id) + '</button>').join('') || '<div class="empty">No station yet.</div>') + '</div></section>';
+  m.innerHTML = '<section class="card"><span class="eyebrow">' + esc(WEEK[u.w] || '') + '</span><h1>' + esc(u.name) + '</h1>' + atlasFor([u.i], u.name, u.name) + (PUBLIC ? '' : '<div class="row"><a class="btn sm" href="' + DRILL + '#u' + u.i + '-read" target="_blank" rel="noopener">📖 Notes in medengine-STUDY ↗</a><a class="btn sm" href="' + DRILL + '#u' + u.i + '-think" target="_blank" rel="noopener">🧠 Think tab in medengine-STUDY ↗</a></div>') + '</section>' + condPosterHtml(u.i) + packHtml(p, true) + '<section class="card"><h2>Stations for this ILO · ' + sts.length + '</h2><div class="list">' + (sts.map(s => '<button class="li" data-st="' + s.id + '"><span class="code">' + esc(s.id) + '</span><span class="tt"><b>' + esc(s.t) + '</b><span>' + (s.pp ? '📚 Past paper · ' : '') + esc(kindOf(s)) + '</span></span>' + scoreHtml(s.id) + '</button>').join('') || '<div class="empty">No station yet.</div>') + '</div></section>';
 }
 
 
@@ -456,7 +458,7 @@ let cur = null;
 const GLOBAL = ['Clear fail', 'Borderline fail', 'Borderline pass', 'Clear pass', 'Honours pass'];
 const LIK = ['0', '1', '2', '3', '4'];
 const LIKL = '0 not attempted · 1 very few areas · 2 major omissions · 3 most areas, few errors · 4 comprehensive';
-const MODES = [['script', '📜 Script'], ['tick', '✅ Tick'], ['friends', '👥 Friends'], ['ai', '🤖 AI text'], ['voice', '🎙 Voice']];
+const MODES = [['poster', '🗺️ Poster'], ['script', '📜 Script'], ['tick', '✅ Tick'], ['friends', '👥 Friends'], ['ai', '🤖 AI text'], ['voice', '🎙 Voice']];
 const modesFor = st => TALK.has(typeOf(st)) ? MODES : MODES.filter(([k]) => k !== 'ai' && k !== 'voice');
 const DPROF = {h: 'Professionalism', items: [{t: 'Hand hygiene, introduction, patient ID check', w: 2}, {t: 'Consent; chaperone offered where relevant', w: 2}, {t: 'Dignity, comfort, never rude or abrupt'}]};
 const DCOMM = {h: 'Communication', items: [{t: 'Rapport, open questions, listens without interrupting'}, {t: 'Elicits ideas, concerns and expectations', w: 2}, {t: 'No unexplained jargon; signposts; chunks and checks', f: 1}, {t: 'Responds to emotion and non-verbal cues'}]};
@@ -471,7 +473,7 @@ function vStation(m){
   const vk0 = (st.vars || []).length ? st.vars[0].k : null;
   cur = {st, vk: vk0, hidden: false, secs: buildChecklist(st, vk0), ticks: new Set(), ai: new Set(), chat: [], mode: S.set.mode, left: 600, fb: null, lik: {}};
   if ((cur.mode === 'ai' || cur.mode === 'voice') && sampleChecked && !SAMPLE) cur.mode = 'script';
-  if (!modesFor(st).some(([k]) => k === cur.mode)) cur.mode = 'script';
+  if (!modesFor(st).some(([k]) => k === cur.mode)) cur.mode = 'poster';
   const pk = packFor(st), ty = TY[typeOf(st)];
   let h = '<section class="card"><div class="row"><button class="chip typill" data-ty="' + ty.id + '">' + ty.i + ' ' + esc(ty.t) + '</button>' + (st.pp ? '<span class="code">' + esc(st.id.replace(/-x$/, '')) + '</span><span class="hint">📚 past paper</span>' : '') + (st.ffp ? '<span class="hint">✅ FFP: ' + esc(st.ffp) + '</span>' : '') + (best(st.id) != null ? '<span class="score ' + scoreCls(best(st.id)) + '">best ' + best(st.id) + '%</span>' : '') + '</div><h1>' + esc(st.t) + '</h1>' + (st.sub && !st.core ? '<span class="src" id="stSub">' + esc(st.sub) + '</span>' : '') + '<div class="chips">' + iloChips((st.u || []).slice(0, 4)) + '</div>';
   if (ty.id === 'img' || st.grp === 'Speciality') h += atlasFor(st.u, st.u.length && UNITS[st.u[0]] ? UNITS[st.u[0]].name : st.t, st.t);
@@ -479,7 +481,7 @@ function vStation(m){
   h += '<div class="brief"><span class="eyebrow">Candidate information</span><p id="briefP">' + esc(st.info) + '</p>' + (st.task ? '<p class="task">' + esc(st.task) + '</p>' : '') + '<div id="caseImg"></div></div><div id="resWrap"></div>';
   h += '<div class="timer"><span class="clock" id="clock">10:00</span><span class="track" aria-hidden="true"><i id="tbar"></i><span class="zone" title="Last 2 minutes: synthesis and plan"></span></span><button class="btn sm primary" data-timer>▶ Start</button><button class="btn sm" data-treset>↺</button><button class="btn sm" data-gong title="Chimes: 8:00 gong and timer beeps on or off" aria-label="Chimes on or off">' + (S.set.beepOff ? '🔕' : '🔔') + '</button></div><div class="alert" id="talert" hidden>⏱ 8 minutes gone. Stop gathering: summarise, give your reasoning and the plan.</div>';
   h += '<div class="row"><div class="seg" id="modeSeg">' + modesFor(st).map(([k, l]) => '<button data-mode="' + k + '" class="' + (cur.mode === k ? 'on' : '') + '">' + l + '</button>').join('') + '</div></div></section>';
-  h += '<div id="fwWrap"></div><div id="dgWrap"></div><div id="hookWrap"></div>';
+  h += '<div id="posterCard"></div><div id="fwWrap"></div><div id="dgWrap"></div><div id="hookWrap"></div>';
   h += '<section class="card" id="casesCard" hidden></section>';
   h += '<section class="card" id="scriptCard"></section>';
   h += '<section class="card" id="friendsCard"></section>';
@@ -495,7 +497,7 @@ function curVar(){ return varOf(cur.st, cur.vk); }
 function dgCardHtml(st){
   const ids = (st.dg || []).filter(id => window.DG && DG.has(id)); if (!ids.length) return '';
   const i = Math.min(cur.dg || 0, ids.length - 1);
-  return '<details class="hk dgc" id="dgCard" open><summary>🖼️ Pictures <span class="hint">· ' + ids.length + ' · tap ▶ to play, or swipe</span></summary><div class="body"><div class="row dgtools"><label class="hint"><input type="checkbox" data-dgtest' + (S.set.dgtest ? ' checked' : '') + '> 🙈 Test me: hide the words, say them, tap to check</label></div>' + (ids.length > 1 ? '<div class="chips dgchips">' + ids.map((id, k) => '<button class="chip' + (k === i ? ' on' : '') + '" data-dgpick="' + k + '">' + esc(DG.title(id).split(':')[0]) + '</button>').join('') + '</div>' : '') + '<div id="dgOne">' + DG.html(ids[i]) + '</div></div></details>';
+  return '<details class="hk dgc" id="dgCard" open><summary>🖼️ Pictures <span class="hint">· ' + ids.length + ' · tap ▶ to play, or swipe</span></summary><div class="body"><div class="row dgtools"><label class="hint"><input type="checkbox" data-dgtest' + (S.set.dgtest ? ' checked' : '') + '> 🔒 Lock: hide the words, say them, tap to check</label></div>' + (ids.length > 1 ? '<div class="chips dgchips">' + ids.map((id, k) => '<button class="chip' + (k === i ? ' on' : '') + '" data-dgpick="' + k + '">' + esc(DG.title(id).split(':')[0]) + '</button>').join('') + '</div>' : '') + '<div id="dgOne">' + DG.html(ids[i]) + '</div></div></details>';
 }
 function casesHtml(st){
   const C = st.cases || []; if (!C.length) return '';
@@ -504,11 +506,12 @@ function casesHtml(st){
 function drawStationParts(){
   const st = cur.st, v = curVar(), pk = packFor(st);
   const bp = $('#briefP'); if (bp) bp.textContent = (v && v.d) || st.info;
+  const pc = $('#posterCard'); if (pc) pc.innerHTML = posterFor(st);
   $('#fwWrap').innerHTML = st.secs || st.type ? '' : fwCard(st);
   const ci = $('#caseImg'); if (ci) ci.innerHTML = v && v.img && window.DG ? DG.img(v.img) : '';
   $('#dgWrap').innerHTML = dgCardHtml(st);
   const cc = $('#casesCard'); if (cc) { cc.innerHTML = casesHtml(st); }
-  const dx = $('#varDx'); if (dx) dx.textContent = v && !cur.hidden && (cur.mode === 'script' || cur.mode === 'tick' || (cur.mode === 'friends' && S.set.role !== 'cand')) ? '→ ' + v.dx : (cur.hidden ? 'case hidden' : '');
+  const dx = $('#varDx'); if (dx) dx.textContent = v && !cur.hidden && (cur.mode === 'poster' || cur.mode === 'script' || cur.mode === 'tick' || (cur.mode === 'friends' && S.set.role !== 'cand')) ? '→ ' + v.dx : (cur.hidden ? 'case hidden' : '');
   $('#resWrap').innerHTML = v && v.r ? '<details class="dd" id="resCard"><summary>' + (typeOf(st) === 'img' ? '🔑 Answer key: what it shows <span class="hint">· open after you have presented</span>' : '📄 Results / findings card <span class="hint">· open when the examiner hands it over</span>') + '</summary><div class="body"><p style="margin:0">' + rich(v.r) + '</p></div></details>' : '';
   $('#hookWrap').innerHTML = skelCardHtml(st) + rfCardHtml(st) + hookHtml(Object.assign(hooksFor(st, cur.vk), cur.hidden ? {money: '', all: []} : {}), cur.mode === 'script');
   $('#scriptCard').innerHTML = scriptHtml(st, cur.hidden ? '~' : cur.vk);
@@ -562,18 +565,19 @@ function setMode(md, init){
   cur.mode = md; S.set.mode = md; if (!init) save();
   $$('#modeSeg button').forEach(b => b.classList.toggle('on', b.dataset.mode === md));
   const cand = md === 'friends' && S.set.role === 'cand';
+  $('#posterCard').hidden = md !== 'poster';
   $('#scriptCard').hidden = md !== 'script';
   $('#friendsCard').hidden = md !== 'friends';
   $('#aiCard').hidden = md !== 'ai';
   $('#voiceCard').hidden = md !== 'voice';
   $('#scoreCard').hidden = !(md === 'tick' || md === 'ai' || (md === 'voice' && cur.fb));
   $('#clCard').hidden = !(md === 'tick' || md === 'ai' || (md === 'voice' && cur.fb));
-  $('#modelCard').hidden = cand || (md === 'ai' || md === 'voice') && !cur.fb;
-  $('#hookWrap').hidden = cand;
+  $('#modelCard').hidden = cand || md === 'poster' || (md === 'ai' || md === 'voice') && !cur.fb;
+  $('#hookWrap').hidden = cand || md === 'poster';
   $('#dgWrap').hidden = cand || ((md === 'ai' || md === 'voice') && !cur.fb);
   const dc = $('#dgCard'); if (dc) dc.open = md === 'script' || md === 'tick';
   const ci = $('#caseImg'); if (ci) ci.classList.toggle('lab', md === 'script' && !cur.hidden);
-  const ss = $('#stSub'); if (ss) ss.hidden = md !== 'script';
+  const ss = $('#stSub'); if (ss) ss.hidden = md !== 'script' && md !== 'poster';
   $('#casesCard').hidden = !(md === 'script' && (cur.st.cases || []).length);
   const hc = $('#hookCard'); if (hc) hc.open = md === 'script';
   ['#skelCard', '#rfCard'].forEach(q => { const c = $(q); if (c) c.open = md === 'script'; });
@@ -639,7 +643,7 @@ function gong(){ if (S.set.beepOff) return; try { AC = AC || new (window.AudioCo
 function timeTick(){
   const l = cur.left;
   if (l === 300) { toast('5:00: halfway'); beep(1); }
-  if (l === 120) { toast('8:00 🔔 Stop gathering: summarise → reasoning sentence → plan → safety-net'); gong(); const tr = $('.timer .track'); if (tr) { tr.classList.remove('gonged'); void tr.offsetWidth; tr.classList.add('gonged'); } }
+  if (l === 120) { toast('8:00 🔔 Stop gathering: summarise → reasoning sentence → plan → safety-net'); gong(); if (cur.mode === 'poster') { const po = $('#posterCard .po-corners'); if (po && window.PO) { PO.setSprint(po, true); cur.sprint = true; } } const tr = $('.timer .track'); if (tr) { tr.classList.remove('gonged'); void tr.offsetWidth; tr.classList.add('gonged'); } }
   if (l === 60) { toast('9:00: one minute left'); beep(2); if (cur.mode === 'voice' && VO && VO.on && S.set.vPrompts !== false) speakQ('One minute remaining.', 'ex', true); }
   if (l === 0) { toast('Time is up'); beep(1, true); if ((cur.mode === 'voice' && VO && VO.on) || (cur.mode === 'ai' && cur.chat.filter(x => x.role === 'user').length >= 2)) endStation(true); }
 }
@@ -957,16 +961,134 @@ function vSearch(q){
   const st = ST.filter(s => hit(blob(s))).slice(0, 40);
   const ex = EX.filter(e => hit(e.t + ' ' + e.keys.join(' '))), pr = PR.filter(p => hit(p.t + ' ' + p.keys.join(' '))), us = UNITS.filter(u => hit(u.name)).filter((u, i, a) => a.findIndex(x => x.name === u.name) === i);
   const fm = []; FWL.forEach(f => f.m.forEach(mm => { if (hit(f.t + ' ' + mm.t + ' ' + mm.use + ' ' + mm.tree.map(b => b[0] + ' ' + b[1].join(' ')).join(' '))) fm.push([f, mm]); }));
-  m.innerHTML = '<section class="card"><h1>Search: ' + esc(q) + '</h1></section>' + (fm.length ? '<section class="card"><h2>Frameworks</h2><div class="chips">' + fm.slice(0, 12).map(([f, mm]) => '<button class="chip" data-fw="' + f.id + '" data-fwm="' + mm.id + '">' + f.i + ' ' + esc(f.t.split(':')[0]) + ' → ' + esc(mm.t) + '</button>').join('') + '</div></section>' : '') + (us.length ? '<section class="card"><h2>ILOs</h2><div class="chips">' + us.map(u => '<button class="chip" data-u="' + u.i + '">🧩 ' + esc(u.name) + '</button>').join('') + '</div></section>' : '') + (ex.length || pr.length ? '<section class="card"><h2>Exams and procedures</h2><div class="chips">' + ex.map(e => '<button class="chip" data-ex="' + e.id + '">🩺 ' + esc(e.t) + '</button>').join('') + pr.map(p => '<button class="chip" data-pr="' + p.id + '">💉 ' + esc(p.t) + '</button>').join('') + '</div></section>' : '') + '<div class="list">' + (st.map(s => '<button class="li" data-st="' + s.id + '"><span class="code">' + s.id + '</span><span class="tt"><b>' + esc(s.t) + '</b><span>' + (s.pp ? '📚 ' + esc(s.src) : esc(s.task)) + '</span></span>' + scoreHtml(s.id) + '</button>').join('') || '<div class="empty">No stations match.</div>') + '</div>';
+  const mpm = MASTER.filter(x => hit(x.t + ' ' + (x.sub || '') + ' ' + (x.hook || '') + ' ' + (x.u || []).map(i => UNITS[i] ? UNITS[i].name : '').join(' ')));
+  m.innerHTML = '<section class="card"><h1>Search: ' + esc(q) + '</h1></section>' + (mpm.length ? '<section class="card"><h2>🧭 Master posters</h2><div class="chips">' + mpm.map(x => '<button class="chip" data-mp="' + x.id + '">' + esc(x.ic) + ' ' + esc(x.t) + '</button>').join('') + '</div></section>' : '') + (fm.length ? '<section class="card"><h2>Frameworks</h2><div class="chips">' + fm.slice(0, 12).map(([f, mm]) => '<button class="chip" data-fw="' + f.id + '" data-fwm="' + mm.id + '">' + f.i + ' ' + esc(f.t.split(':')[0]) + ' → ' + esc(mm.t) + '</button>').join('') + '</div></section>' : '') + (us.length ? '<section class="card"><h2>ILOs</h2><div class="chips">' + us.map(u => '<button class="chip" data-u="' + u.i + '">🧩 ' + esc(u.name) + '</button>').join('') + '</div></section>' : '') + (ex.length || pr.length ? '<section class="card"><h2>Exams and procedures</h2><div class="chips">' + ex.map(e => '<button class="chip" data-ex="' + e.id + '">🩺 ' + esc(e.t) + '</button>').join('') + pr.map(p => '<button class="chip" data-pr="' + p.id + '">💉 ' + esc(p.t) + '</button>').join('') + '</div></section>' : '') + '<div class="list">' + (st.map(s => '<button class="li" data-st="' + s.id + '"><span class="code">' + s.id + '</span><span class="tt"><b>' + esc(s.t) + '</b><span>' + (s.pp ? '📚 ' + esc(s.src) : esc(s.task)) + '</span></span>' + scoreHtml(s.id) + '</button>').join('') || '<div class="empty">No stations match.</div>') + '</div>';
 }
 let qT = null;
 $('#q').addEventListener('input', e => { clearTimeout(qT); const v = e.target.value; qT = setTimeout(() => { if (v.trim().length >= 2) { stopTimer(); abortChat(); route = {v: 'search'}; $$('#nav button').forEach(b => b.classList.remove('on')); vSearch(v); } else if (!v.trim()) render(); }, 200); });
+
+/* ---------- v2.0: 🗺️ posters: one picture code for every station and every condition ---------- */
+const SNAPD = D.snap || {}, MASTER = D.master || [], MBY = {}, POD = D.po || {routes: {}, story: {}};
+MASTER.forEach(x => MBY[x.id] = x);
+const MOFU = {}; MASTER.forEach(x => (x.u || []).forEach(u => (MOFU[u] = MOFU[u] || []).push(x.id)));
+const cutT = (t, n) => { t = String(t == null ? '' : t).trim(); if (t.replace(/\*\*/g, '').length <= n) return t; t = t.replace(/\*\*/g, ''); const c = t.slice(0, n); return c.slice(0, Math.max(c.lastIndexOf(' '), n - 24)).replace(/[\s,;:.]+$/, '') + '…'; };
+function masterChipsHtml(ids){ const L = [...new Set(ids.flatMap(i => MOFU[i] || []))].filter(id => MBY[id]); return L.length ? '<div class="po-mp"><span>🧭 Master posters</span>' + L.map(id => '<button type="button" class="chip" data-mp="' + id + '">' + esc(MBY[id].ic || '🧭') + ' ' + esc(MBY[id].t) + '</button>').join('') + '</div>' : ''; }
+function condPosterHtml(ui){ const s = SNAPD[ui]; return s && window.PO ? PO.cond(s, {id: 'u' + ui, lock: PO.lockOn, foot: masterChipsHtml([ui])}) : ''; }
+function whyPostersHtml(){
+  return '<details class="dd why-po"><summary>💡 Why posters work for you</summary><div class="body"><p class="hint" style="margin:0">You take in a page as one picture and remember where things sat, so every poster follows one code. Only the content changes.</p><div class="place">'
+    + [['P', 'Picture with the words on it', 'the words sit inside the picture, never in a separate list'], ['L', 'Location never changes', 'cause top-left, who top-right, tests on the right, treatment bottom-right, danger bottom-left, the lookalike on the left, signs in the middle'], ['A', 'Arrows carry the movement', 'every mechanism is a chain you can play like a film'], ['C', 'Contrast on one axis', 'each condition sits beside the one it gets confused with, compared on a single question'], ['E', 'Exaggerate one thing', 'one hook per poster, not ten'], ['🔒', 'Then LOCK it', 'a glance feels like knowing, so Lock hides the drugs, numbers and signs: say them, then tap. Pulling them back out is what makes them stick']].map(r => '<div><b>' + r[0] + '</b><span><b>' + esc(r[1]) + ':</b> ' + esc(r[2]) + '</span></div>').join('') + '</div></div></details>';
+}
+/* a talking station as a 10-minute clock: 4 timed corners, the plan always bottom-right */
+const PCF = {
+  hx: [['🚪', 'The door', 'who', '0:00', 1], ['🗣️', 'Gather', 'spot', '1:00', 5], ['🧠', 'Think', 'cause', '6:00', 2], ['🎯', 'Present and plan', 'treat', '8:00', 2]],
+  talk: [['🚪', 'The door', 'who', '0:00', 1], ['💬', 'Explain', 'spot', '1:00', 5], ['🧠', 'Clinch', 'cause', '6:00', 2], ['🎯', 'Plan and safety-net', 'treat', '8:00', 2]],
+  psych: [['🤝', 'Open', 'who', '0:00', 1], ['🗣️', 'Story and screen', 'spot', '1:00', 4], ['🚩', 'Risk and background', 'watch', '5:00', 3], ['🎯', 'Present: risk and plan', 'treat', '8:00', 2]],
+  drug: [['🤝', 'Start with them', 'who', '0:00', 1], ['💊', 'Why and how', 'spot', '1:00', 4], ['🚩', 'Watch', 'watch', '5:00', 3], ['✅', 'Check and safety-net', 'treat', '8:00', 2]],
+  comm: [['🤝', 'Set up and find out', 'who', '0:00', 2], ['💬', 'Explain in chunks', 'spot', '2:00', 3], ['💛', 'Feelings and plan', 'cause', '5:00', 3], ['✅', 'Summary and safety-net', 'treat', '8:00', 2]],
+  img: [['📋', 'Details and quality', 'who', '0:00', 1], ['🔍', 'The system', 'spot', '1:00', 4], ['🎯', 'The finding', 'cause', '5:00', 2], ['➡️', 'Conclude and next step', 'treat', '7:00', 3]]};
+const PRE = {psych: [/^Open/, /^(Presenting|Screen|Substances|Current)/, /^(Risk|Background|Context)/, /^(Present|Formulate)/],
+  drug: [/^(Start|Explore)/, /^(Why|How|Detox|Explain|Pen)/, /^(Watch|Monitor|Fire|Sick|Driving|Life|Staying|Act on|Decide)/, /^(Check|Safety)/],
+  comm: [/^(S: Setting|P:|I:|Start|Explore)/, /^(K:|Explain)/, /^(E:|Plan)/, /^(S: Strategy|Close|Safety)/],
+  img: [/^(Details|Quality|Orientation)/, /./, /^$/, /^Conclude/]};
+const SPRINT = {hx: ['Summarise in one line: who, what, how long', '"The important finding is ___. It suggests ___ because ___."', 'What you must exclude, and how', 'First tests, then the plan and the safety-net'],
+  talk: ['Summarise the 2 or 3 key points', 'Check understanding: teach-back', 'The plan and the follow-up date', 'Safety-net: exactly when to come back'],
+  img: ['The diagnosis in one line', 'The 2 findings that prove it', 'What else it could be', 'The next step, today']};
+function splitArrow(t){ const s = String(t || ''), i = Math.max(s.lastIndexOf(' → '), s.lastIndexOf(' = ')); return i > 0 ? {h: s.slice(0, i + 2).trim(), t: s.slice(i + 3).trim(), all: 1} : {t: s}; }
+function routeSecs(secs, re){ const out = [[], [], [], []]; let last = 0; secs.forEach((sc, i) => { let k = i === secs.length - 1 ? 3 : re.findIndex(r => r.test(sc.h)); if (k < 0) k = last; out[k].push(sc); last = k; }); return out; }
+const secLines = L => L.flatMap(sc => sc.items.map((it, j) => ({h: j === 0 && L.length > 1 ? sc.h + ':' : '', t: it.t, all: 1})));
+function forkLines(st, n){
+  const V = (st.vars || []).filter(v => v.dx); if (!V.length || (cur && cur.hidden)) return [];
+  const first = V.find(v => cur && v.k === cur.vk) || V[0];
+  return [first].concat(V.filter(v => v !== first)).slice(0, n || 4).map(v => ({h: (V.length > 1 ? 'Case ' + v.k + ' · ' : '') + plainDx(v.dx) + ' →', t: cutT(String((st.mv && st.mv[v.k]) || v.x || '').replace(/^In summary,\s*_+\.?\s*/i, ''), 300), all: 1}));
+}
+const plainDx = t => String(t || '').replace(/\*\*/g, '');
+const nobT = t => String(t == null ? '' : t).replace(/\s*\(([^()]*)\)/g, ', $1').replace(/,\s*([.;:,])/g, '$1').replace(/[()]/g, '');
+const nobL = l => Object.assign({}, l, {h: l.h ? nobT(l.h) : l.h, t: nobT(l.t)});
+function rfLines(st, n){ const out = []; (st.rf || []).map(id => rfById[id]).filter(Boolean).forEach(sh => sh.rows.forEach(r => out.push({h: r[0] + ' →', t: r[1] + ': ' + r[3], all: 1}))); return out.slice(0, n); }
+function cornersOf(st){
+  const ty = typeOf(st), pk = packFor(st), p = pk ? pk.p : {}, sk = SKEL[st.skel];
+  let Z = PCF[ty] || PCF.hx, L = [[], [], [], []], hook = '', sp = SPRINT.hx;
+  if (st.secs && PRE[ty]) {
+    routeSecs(st.secs, PRE[ty]).forEach((g, i) => L[i] = secLines(g));
+    if (ty === 'img') { L[2] = (st.vars || []).filter(v => v.r).slice(0, 4).map(v => ({h: plainDx(v.dx) + ':', t: cutT(v.r, 220), all: 1})); sp = SPRINT.img; }
+    else L[3] = L[3].concat(forkLines(st, 3));
+    if (ty === 'drug' || ty === 'comm') sp = SPRINT.talk;
+    hook = (st.hooks || [])[0] || '';
+  } else if (st.pp) {
+    const talk = ty === 'drug' || ty === 'comm'; Z = talk ? PCF.talk : PCF.hx; if (talk) sp = SPRINT.talk;
+    L[0] = (st.trig || []).slice(0, 4).map(splitArrow);
+    L[1] = talk ? (st.hook || []).slice(0, 3).map(t => ({t, all: 1})) : (sk ? [{h: 'Skeleton:', t: sk.chips.join(' → ')}] : []).concat(rfLines(st, 3));
+    L[1] = L[1].concat((st.ask || []).slice(0, 2).map(q => ({h: 'They ask:', t: '“' + q + '”'})));
+    L[2] = (st.clinch || []).slice(0, 5).map(c => Object.assign({}, splitArrow(c[1]), {h: (CKI[c[0]] || '•') + ' ' + (splitArrow(c[1]).h || '')})).concat((st.trap || []).slice(0, 2).map(t => ({h: '⚠️', t})));
+    L[3] = [{h: 'Say:', t: st.money || ''}].concat(forkLines(st, 4));
+    hook = talk ? '' : (st.hook || [])[0] || '';
+  } else {
+    Z = PCF.hx;
+    L[0] = (st.cmp ? [{h: 'Split:', t: st.cmp}] : []).concat((() => { const dx = []; (st.rf || []).map(id => rfById[id]).filter(Boolean).forEach(sh => sh.rows.forEach(r => { if (!dx.includes(r[1])) dx.push(r[1]); })); return dx.length ? [{h: 'Think of:', t: dx.slice(0, 5).join(', ')}] : []; })());
+    L[1] = (p.hx || []).slice(0, 5).map(t => ({h: 'Ask:', t, all: 1})).concat(rfLines(st, 2));
+    L[2] = (p.ck || []).slice(0, 5).map(c => Object.assign({}, splitArrow(c[1]), {h: (CKI[c[0]] || '•') + ' ' + (splitArrow(c[1]).h || '')}));
+    L[3] = [{h: 'Say:', t: ty === 'psych' ? 'In summary, ___. The most likely diagnosis is ___ because ___. Their risk is ___, so my plan is ___.' : 'In summary, ___. The most likely diagnosis is ___ because ___. I would exclude ___, and my first tests are ___.'}].concat((p.ix || []).slice(0, 3).map(t => ({h: 'Test:', t, all: 1})), (p.mx || []).slice(0, 3).map(t => ({h: 'Treat:', t, all: 1})), (p.sn || []).slice(0, 1).map(t => ({h: 'Safety-net:', t, all: 1})));
+  }
+  if (sk) L.forEach((l, i) => { if (!l.length) L[i] = [{h: 'Skeleton:', t: sk.chips.join(' → ')}]; });
+  return {id: st.id, t: st.t, sub: st.pp ? '📚 past paper' : '', hook,
+    top: '<div class="po-sprint"><b>⚡ The last 2 minutes</b><ol>' + sp.map(x => '<li>' + esc(x) + '</li>').join('') + '</ol></div>',
+    zones: Z.map((z, i) => ({i: z[0], h: z[1], c: z[2], time: z[3], span: z[4], lines: (L[i].length ? L[i] : [{t: '…'}]).map(nobL)}))};
+}
+function storyOf(st){
+  const x = POD.story[st.id] || {fail: [], nums: []}, secs = st.secs || [], n = secs.length, H = [['🧰', 'Set up'], ['✋', 'Do it'], ['✅', 'Finish and act']], F = [[], [], []];
+  if (n >= 3) secs.forEach((sc, i) => F[i === 0 ? 0 : i === n - 1 ? 2 : 1].push(sc));
+  const lines = g => g.flatMap(sc => sc.items.map(it => it.t));
+  let L = F.map(lines);
+  if (n < 3) { const all = lines(secs), a = Math.ceil(all.length / 3), b2 = Math.ceil((all.length - a) / 2); L = [all.slice(0, a), all.slice(a, a + b2), all.slice(a + b2)]; }
+  L[2] = L[2].concat(x.more || []);
+  return {id: st.id, t: st.t, nums: x.nums || [], frames: H.map((h, k) => ({i: h[0], h: n >= 3 ? F[k].map(sc => sc.h).join(' · ') : h[1], lines: L[k].length ? L[k] : ['…'], fail: (x.fail || [])[k]}))};
+}
+function posterFor(st){
+  if (!window.PO) return '';
+  const ty = typeOf(st), o = {id: st.id, lock: PO.lockOn};
+  if (ty === 'ex' && POD.routes[st.id]) return PO.route(Object.assign({id: st.id, t: st.t, present: st.money || ''}, POD.routes[st.id]), o) + masterChipsHtml(st.u || []);
+  if (ty === 'proc' && POD.story[st.id]) return PO.story(storyOf(st), o);
+  return PO.corners(cornersOf(st), Object.assign(o, {sprint: !!(cur && cur.sprint), extra: '<button type="button" class="po-b" data-posprint aria-pressed="' + (cur && cur.sprint ? 'true' : 'false') + '" title="Collapse to the last 2 minutes: present and plan">⚡ Last 2 min</button>'})) + masterChipsHtml(st.u || []);
+}
+if (window.PO) PO.onSprint = on => { if (cur) cur.sprint = on; };
+/* the Posters hub and the master posters */
+function posterWallHtml(q){
+  const seen = new Set(); let h = '';
+  D.weeks.forEach(w => {
+    const us = UNITS.filter(u => u.w === w.id && SNAPD[u.i] && !seen.has(SNAPD[u.i].n) && (!q || (u.name + ' ' + SNAPD[u.i].n + ' ' + SNAPD[u.i].m).toLowerCase().includes(q)));
+    us.forEach(u => seen.add(SNAPD[u.i].n));
+    if (us.length) h += '<span class="hkh">' + esc(w.name) + ' · ' + us.length + '</span><div class="chips">' + us.map(u => '<button class="chip" data-u="' + u.i + '">🗺️ ' + esc(SNAPD[u.i].n) + '</button>').join('') + '</div>';
+  });
+  return h || '<p class="hint">Nothing matches.</p>';
+}
+function vPosters(m){
+  const q = (S.set.poq || '').toLowerCase().trim(), ex = ST.filter(s => typeOf(s) === 'ex' && POD.routes[s.id]), pr = ST.filter(s => typeOf(s) === 'proc' && POD.story[s.id]);
+  let h = '<section class="card"><span class="eyebrow">🗺️ One picture code everywhere</span><h1>Posters</h1><p class="hint" style="margin:0">Every condition, examination and procedure drawn the same way, so only the content changes. Press 🔒 <b>Lock</b> or the <span class="kbd">L</span> key to hide the details, say them, then tap each pill or press <span class="kbd">N</span>. ▶ <b>Walk it</b> lights the zones in reading order.</p>' + whyPostersHtml() + '</section>';
+  h += '<section class="card"><h2>🧭 Master posters · ' + MASTER.length + '</h2><p class="hint" style="margin:0">One picture for a whole topic. The first five rebuild your AI-made infographics with every error fixed; 🔎 lists what was wrong.</p><div class="grid2">' + MASTER.map(x => '<button class="tile" data-mp="' + x.id + '"><b>' + esc(x.ic) + ' ' + esc(x.t) + '</b><span class="hint">' + esc(x.sub || '') + '</span>' + ((x.fix || []).length ? '<span class="hint">🔎 ' + x.fix.length + ' fixes to the AI version</span>' : '') + '</button>').join('') + '</div></section>';
+  h += '<section class="card"><h2>🩺 Examination routes · ' + ex.length + '</h2><div class="chips">' + ex.map(s => '<button class="chip" data-stpo="' + s.id + '">' + esc(s.t) + '</button>').join('') + '</div><h2>🎬 Procedure storyboards · ' + pr.length + '</h2><div class="chips">' + pr.map(s => '<button class="chip" data-stpo="' + s.id + '">' + esc(s.t) + '</button>').join('') + '</div></section>';
+  h += '<section class="card"><h2>🗺️ Condition posters · ' + new Set(Object.values(SNAPD).map(s => s.n)).size + '</h2><input class="sel" id="poQ" type="search" placeholder="Filter: e.g. thyroid, stone, eye" value="' + esc(S.set.poq || '') + '" aria-label="Filter condition posters"><div id="poWall">' + posterWallHtml(q) + '</div></section>';
+  m.innerHTML = h;
+}
+function vMaster(m){
+  const x = MBY[route.id]; if (!x || !window.PO) return vPosters(m);
+  const i = MASTER.indexOf(x), pv = MASTER[(i - 1 + MASTER.length) % MASTER.length], nx = MASTER[(i + 1) % MASTER.length];
+  m.innerHTML = '<section class="card"><div class="row"><button class="btn sm" data-v="posters">← All posters</button><span class="grow"></span><button class="btn sm" data-mp="' + pv.id + '">← ' + esc(pv.t) + '</button><button class="btn sm" data-mp="' + nx.id + '">' + esc(nx.t) + ' →</button></div></section>' + PO.split(x, {lock: PO.lockOn}) + ((x.u || []).length ? '<section class="card"><h2>Conditions on this poster</h2><div class="chips">' + iloChips(x.u) + '</div></section>' : '');
+}
+document.addEventListener('input', e => { if (e.target.id === 'poQ') { S.set.poq = e.target.value; clearTimeout(vPosters.t); vPosters.t = setTimeout(() => { save(); const w = $('#poWall'); if (w) w.innerHTML = posterWallHtml(e.target.value.toLowerCase().trim()); }, 180); } });
+/* ⌘F / Ctrl+F jumps to the search bar; press it again there for the browser's own find */
+document.addEventListener('keydown', e => {
+  if (!(e.metaKey || e.ctrlKey) || e.altKey || e.shiftKey || (e.key || '').toLowerCase() !== 'f') return;
+  const q = $('#q'); if (!q || document.activeElement === q) return;
+  e.preventDefault(); q.classList.add('show'); q.focus(); q.select();
+}, true);
 
 /* ---------- events ---------- */
 document.addEventListener('click', e => {
   const t = e.target.closest('button'); if (!t) return;
   const d = t.dataset;
   if (t.id === 'homeBtn') return go({v: 'home'});
+  if (d.mp) return go({v: 'master', id: d.mp});
+  if (d.stpo) { S.set.mode = 'poster'; save(); return go({v: 'station', id: d.stpo}); }
   if (t.id === 'qBtn') { const q = $('#q'); q.classList.toggle('show'); if (q.classList.contains('show')) q.focus(); return; }
   if (d.ty && !d.st) return go({v: 'type', id: d.ty});
   if (d.randty) { const l = ST.filter(s => typeOf(s) === d.randty && (s.core || s.pp)); const n = l.filter(s => best(s.id) == null); const p = n.length ? n : l; return go({v: 'station', id: p[Math.floor(Math.random() * p.length)].id}); }

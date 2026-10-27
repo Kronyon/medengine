@@ -49,7 +49,7 @@ N(29, 'Irritable bowel syndrome', 'gut', 'colon',
   'The gut and brain talk too loudly → normal stretching feels painful → bowel habit swings, no damage',
   '20 to 40 · women more · stress, anxiety · after gastroenteritis',
   'Pain relieved by opening bowels>abdo; Bloating>abdo; Alternating diarrhoea and constipation>lif; Mucus in stool>genit',
-  'Diagnosis of exclusion: 6 months of symptoms>pain plus 2 of: stool change, form change, relief*; Bloods>FBC, CRP, coeliac serology; Faecal calprotectin>to exclude IBD',
+  'Positive diagnosis after 6 months of symptoms>pain eased by opening bowels or tied to a habit change, plus 2 of: straining or urgency, bloating, worse after eating, mucus*; Bloods>FBC, CRP, coeliac serology; Faecal calprotectin>to exclude IBD',
   'Explain, reassure; regular meals, fibre, fluids | Antispasmodic for pain; loperamide or laxative by habit | Low FODMAP diet with a dietitian | Low-dose amitriptyline; CBT',
   '60+ with change in bowel habit: cancer>c; Rectal bleeding or weight loss>c; Raised calprotectin: IBD>u',
   'IBS has no alarm features. If any red flag appears, it isn\'t IBS until proved.')
@@ -176,7 +176,7 @@ N(43, 'Acute pancreatitis', 'hepat', 'panc',
   'Gallstones: older women · alcohol: men · drugs, high triglycerides, trauma, ERCP',
   'Severe epigastric pain through to the back>epi; Better sitting forward>back; Vomiting>mouth; Bruising on flanks or navel>loin',
   'Serum lipase or amylase>over 3 times normal*; Ultrasound>gallstones; Glasgow score>severity at 48 h; CT>if unsure or not improving',
-  'Aggressive IV fluids, analgesia, oxygen | Early feeding; no routine antibiotics | Gallstones: ERCP if obstructed; cholecystectomy same admission | Alcohol: stop, support',
+  'Goal-directed IV fluids, analgesia, oxygen if needed | Early feeding; no routine antibiotics | Gallstones: ERCP if obstructed; cholecystectomy same admission | Alcohol: stop, support',
   'Severe: organ failure, high Glasgow score>e; Necrosis or pseudocyst>s; Low calcium, ARDS>e',
   'GET SMASHED: Gallstones, Ethanol, Trauma, Steroids, Mumps, Autoimmune, Scorpion, Hyperlipidaemia, ERCP, Drugs.')
 

@@ -134,6 +134,9 @@ if snapdsl.ERR: raise SystemExit('snapshot errors: ' + '; '.join(snapdsl.ERR))
 _miss = [i for i in range(len(U)) if i not in snapdsl.SNAP]
 if _miss: raise SystemExit('units without a snapshot: ' + str(_miss))
 D['snap'] = {str(k): v for k, v in sorted(snapdsl.SNAP.items())}
+# v2.0: 🧭 master posters, shared with medengine-OSCE (snap/master.py)
+import master as _master
+D['master'] = _master.MASTER
 _V4 = json.load(open(MEDAPP / 'build' / 'osce_data_v4.json', encoding='utf-8'))
 _dgu = {}
 for _st in sorted(_V4['stations'], key=lambda x: (not x.get('core'), x['id'])):
@@ -152,23 +155,29 @@ html = html[:m.start(1)] + data + html[m.end(1):]
 # ---------- shared visual layer + v0.6 styles ----------
 mev_css = open(MEDAPP / 'src' / 'mev.css', encoding='utf-8').read()
 mev_js = open(MEDAPP / 'src' / 'mev.js', encoding='utf-8').read()
-dg_js = '\n'.join(open(MEDAPP / 'src' / f, encoding='utf-8').read() for f in ('dg_core.js', 'dg_cards.js', 'dg_ex.js', 'dg_img.js', 'dg_more.js', 'dg_new.js', 'dg_snap.js'))
+dg_js = '\n'.join(open(MEDAPP / 'src' / f, encoding='utf-8').read() for f in ('dg_core.js', 'dg_cards.js', 'dg_ex.js', 'dg_img.js', 'dg_more.js', 'dg_new.js', 'dg_snap.js', 'dg_poster.js', 'dg_figs.js'))
 ext_css = open(HERE / 'ext_study.css', encoding='utf-8').read()
-ext_js = open(HERE / 'ext_study.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v07.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v08.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v11.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v12.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v15.js', encoding='utf-8').read()
-ext_css += open(HERE / 'ext_v07.css', encoding='utf-8').read() + open(HERE / 'ext_v08.css', encoding='utf-8').read() + open(HERE / 'ext_v11.css', encoding='utf-8').read() + open(HERE / 'ext_v12.css', encoding='utf-8').read() + open(HERE / 'ext_v15.css', encoding='utf-8').read()
+ext_js = open(HERE / 'ext_study.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v07.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v08.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v11.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v12.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v15.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v20.js', encoding='utf-8').read()
+ext_css += open(HERE / 'ext_v07.css', encoding='utf-8').read() + open(HERE / 'ext_v08.css', encoding='utf-8').read() + open(HERE / 'ext_v11.css', encoding='utf-8').read() + open(HERE / 'ext_v12.css', encoding='utf-8').read() + open(HERE / 'ext_v15.css', encoding='utf-8').read() + open(HERE / 'ext_v20.css', encoding='utf-8').read()
 assert '</script' not in mev_js and '</script' not in ext_js and '</script' not in dg_js
 rep('<header class="top">', '<style>\n' + mev_css + ext_css + '</style>\n<header class="top">')
 rep('<script id="qqdata" type="application/json">', '<script>\n' + mev_js + '</script>\n<script>\n' + dg_js + '</script>\n<script id="qqdata" type="application/json">')
 
 # ---------- version ----------
-rep('<small>v0.5.0 beta</small>', '<small>v1.5.0</small>')
+rep('<small>v0.5.0 beta</small>', '<small>v2.0.0</small>')
 rep('const fmtRich = t => fmtPlain(t)', 'const fmtRich = t => dualHtml(t) || fmtRich0(t);\nconst fmtRich0 = t => fmtPlain(t)')
 
 # ---------- script hooks ----------
+rep("  if (us.length) { h += '<h6>ILO conditions</h6>';", "  const mpm = (D.master || []).filter(x => has((x.t + ' ' + (x.sub || '') + ' ' + (x.hook || '')).toLowerCase())).slice(0, 4);\n  if (mpm.length) { h += '<h6>🧭 Master posters</h6>'; mpm.forEach(x => h += '<button class=\"sr\" data-sr=\"mp\" data-mpid=\"' + x.id + '\"><span class=\"where\">' + x.ic + ' poster</span>' + hl(x.t, terms) + '</button>'); }\n  if (us.length) { h += '<h6>ILO conditions</h6>';")
+rep("qb('all', '📖', 'All ILO notes (Ctrl+F)')", "qb('all', '📖', 'All ILO notes on one page')")
+rep("Press <span class=\"kbd\">/</span> to search every ILO condition, or open “All ILO notes” and use Ctrl+F.", "Press <span class=\"kbd\">/</span> or <span class=\"kbd\">⌘F</span> to search every ILO condition, every line of the notes and the posters. Press <span class=\"kbd\">⌘F</span> twice for the browser\\'s own find.")
+rep("Use your browser’s Ctrl+F / ⌘F here: every line linked to your ILOs is on this one scroll.", "Every line linked to your ILOs is on this one scroll. ⌘F or Ctrl+F jumps to the search bar; press it twice for your browser’s own find.")
 rep("const CLK = D.key || [], KICON = {in: '✅', out: '❌', lab: '🧪'};", "const CLK = D.key || [], KICON = {in: '✅', out: '❌', lab: '🧪', nb: '🆕'};")
-rep("if (['sprint','weak','gloss','all','home'].includes(h)) return {view: h};", "if (['sprint','weak','gloss','all','home','sniper','vault','visual','jargon','remix','why','act','misses','snap'].includes(h)) return {view: h};")
-rep("  else if (route.view === 'fw') viewFw(m);\n}", "  else if (route.view === 'fw') viewFw(m);\n  else if (route.view === 'sniper') viewSniper(m);\n  else if (route.view === 'vault') viewVault(m);\n  else if (route.view === 'visual') viewVisual(m);\n  else if (route.view === 'jargon') viewJargon(m);\n  else if (route.view === 'remix') viewRemix(m);\n  else if (route.view === 'why') viewWhy(m);\n  else if (route.view === 'act') viewAct(m);\n  else if (route.view === 'misses') viewMisses(m);\n  else if (route.view === 'snap') viewSnap(m);\n}")
-rep("qb('weak', '🎯', 'Weak spots', weakN)", "qb('snap', '🎞️', 'Snapshots', UNITS.length) + qb('remix', '🔄', 'Remix a missed question') + qb('why', '🧬', 'Why it happens', ROOTS.length) + qb('act', '⚡', 'First move vs cure', ACTS.length) + qb('misses', '🔥', 'My misses', msLoad().items.filter(x => !x.fixed).length || null) + qb('sniper', '🎯', 'Blind clincher sniper') + qb('weak', '♻️', 'Weak spots', weakN)")
+rep("if (['sprint','weak','gloss','all','home'].includes(h)) return {view: h};", "const mp = h.match(/^mp-([\\w-]+)$/); if (mp && (D.master || []).some(x => x.id === mp[1])) return {view: 'mp', id: mp[1]};\n  if (['sprint','weak','gloss','all','home','sniper','vault','visual','jargon','remix','why','act','misses','snap','posters'].includes(h)) return {view: h};")
+rep("const h = r.view === 'unit' ? 'u' + r.u + '-' + r.mode : r.view === 'fw' ? 'fw' + (r.id ? '-' + r.id : '') : r.view;", "const h = r.view === 'unit' ? 'u' + r.u + '-' + r.mode : r.view === 'fw' ? 'fw' + (r.id ? '-' + r.id : '') : r.view === 'mp' ? 'mp-' + r.id : r.view;")
+rep("if (r.view !== route.view || r.u !== route.u || r.mode !== route.mode) go(r, false);", "if (r.view !== route.view || r.u !== route.u || r.mode !== route.mode || r.id !== route.id) go(r, false);")
+rep("  else if (route.view === 'fw') viewFw(m);\n}", "  else if (route.view === 'fw') viewFw(m);\n  else if (route.view === 'sniper') viewSniper(m);\n  else if (route.view === 'vault') viewVault(m);\n  else if (route.view === 'visual') viewVisual(m);\n  else if (route.view === 'jargon') viewJargon(m);\n  else if (route.view === 'remix') viewRemix(m);\n  else if (route.view === 'why') viewWhy(m);\n  else if (route.view === 'act') viewAct(m);\n  else if (route.view === 'misses') viewMisses(m);\n  else if (route.view === 'snap' || route.view === 'posters') viewPosters(m);\n  else if (route.view === 'mp') viewMaster(m);\n}")
+rep("qb('weak', '🎯', 'Weak spots', weakN)", "qb('posters', '🗺️', 'Posters', (D.master || []).length + new Set(Object.values(D.snap || {}).map(x => x.n)).size) + qb('remix', '🔄', 'Remix a missed question') + qb('why', '🧬', 'Why it happens', ROOTS.length) + qb('act', '⚡', 'First move vs cure', ACTS.length) + qb('misses', '🔥', 'My misses', msLoad().items.filter(x => !x.fixed).length || null) + qb('sniper', '🎯', 'Blind clincher sniper') + qb('weak', '♻️', 'Weak spots', weakN)")
 rep("+ qb('gloss', '🔤', 'Abbreviations', GLOSS.length);", "+ qb('gloss', '🔤', 'Abbreviations', GLOSS.length) + qb('visual', '👁️', 'Visual showdowns', MEV.SD.length) + qb('jargon', '🔺', 'Jargon decoder', JG.length) + qb('vault', '📋', 'Screenshot vault', shotsCache ? shotsCache.length : 0);")
 rep("""  h += '</div><h4>ILO weeks · ' + UNITS.length + ' conditions</h4>';
   WEEKS.forEach((w, wi) => {
@@ -176,7 +185,7 @@ rep("""  h += '</div><h4>ILO weeks · ' + UNITS.length + ' conditions</h4>';
   WEEKS.forEach((w, wi) => {
     const us = unitsOf(w.id).filter(u => (!S.set.sys || usys(u) === S.set.sys) && (!S.set.spd || u.spd === S.set.spd)), open = openWk.has(w.id) || !!S.set.sys || !!S.set.spd;
     if (!us.length) return;""")
-rep("""data-rand="1">🎲 Random condition</button></div></section>';""", """data-rand="1">🎲 Random condition</button><button class="btn" data-go="snap">🎞️ Snapshots</button><button class="btn" data-go="sniper">🎯 Blind sniper</button><button class="btn" data-go="visual">👁️ Visual showdowns</button><button class="btn" data-go="jargon">🔺 Jargon decoder</button><button class="btn" data-go="remix">🔄 Remix</button><button class="btn" data-go="why">🧬 Why it happens</button><button class="btn" data-go="act">⚡ First move vs cure</button><button class="btn" data-go="misses">🔥 My misses</button></div></section>';""")
+rep("""data-rand="1">🎲 Random condition</button></div></section>';""", """data-rand="1">🎲 Random condition</button><button class="btn" data-go="posters">🗺️ Posters</button><button class="btn" data-go="sniper">🎯 Blind sniper</button><button class="btn" data-go="visual">👁️ Visual showdowns</button><button class="btn" data-go="jargon">🔺 Jargon decoder</button><button class="btn" data-go="remix">🔄 Remix</button><button class="btn" data-go="why">🧬 Why it happens</button><button class="btn" data-go="act">⚡ First move vs cure</button><button class="btn" data-go="misses">🔥 My misses</button></div></section>';""")
 rep("""  h += '<div class="crumbs" style="justify-content:space-between"><h2>Your ILO weeks</h2>""", """  h += homeSysHtml();
   h += '<div class="crumbs" style="justify-content:space-between"><h2>Your ILO weeks</h2>""")
 rep("  if ((u.ck || []).length) h += keyHtml(u);", "  h += extHeader(u);\n  if ((u.ck || []).length) h += keyHtml(u);")
@@ -187,7 +196,9 @@ rep("  if (tg.tagName === 'INPUT' || tg.tagName === 'TEXTAREA' || tg.tagName ===
 rep("  const s = session;\n  if (s && s.kind === 'quiz') {", "  const s = session;\n  if (s && s.kind === 'sniper' && snpKey(e)) return;\n  if (s && s.kind === 'vault' && vaultKey(e)) return;\n  if (s && s.kind === 'quiz') {")
 rep("if (e.key.toLowerCase() === 's' && route.view !== 'sprint') return go({view: 'sprint'});", "if (e.key.toLowerCase() === 's' && route.view !== 'sprint' && route.view !== 'sniper') return go({view: 'sprint'});")
 rep("/* ---------- events ---------- */", ext_js + "\n/* ---------- events ---------- */")
-help_rows = ('<tr><td>🎞️</td><td>Snapshot: every condition as the same 7-frame picture film at the top of its page: what goes wrong, who, spot it, prove it, treat, watch for, the hook. ▶ plays it, swipe steps it, 🙈 Test me hides the words so you say them first. More pictures sit underneath.</td></tr>'
+help_rows = ('<tr><td>🗺️</td><td>Poster: every condition as one picture with the same layout: cause top-left, who top-right, tests on the right, treatment bottom-right, danger bottom-left, the lookalike on the left, signs in the middle, the hook along the bottom. 🔒 Lock or <span class="kbd">L</span> hides the drugs, numbers and signs: say them, then tap or press <span class="kbd">N</span>. ▶ Walk it lights the zones in order. In quiz modes the poster starts locked. The 🎞️ Film and 🖼️ Pictures tabs sit beside it; paste your own infographics there and box over the details.</td></tr>'
+             '<tr><td>🧭</td><td>Master posters: one picture for a whole topic, from spirometry to antidotes. The first five rebuild your AI-made infographics, with what was wrong listed under 🔎.</td></tr>'
+             '<tr><td>⌘F</td><td>⌘F or Ctrl+F jumps to the search bar. Press it again there for the browser\'s own find.</td></tr>'
              '<tr><td>👁️</td><td>Clinical Atlas Lookup on every condition: DermNet, LITFL, Radiopaedia, Radiology Masterclass and Google Images open in a new tab. 🥊 chips open the visual showdowns (drawn ECGs, X-rays, fundi, eardrums).</td></tr>'
              '<tr><td>📋</td><td>Paste exam image: on any condition press Ctrl+V / ⌘V (iPad and phone: long-press the paste box → Paste, or 📷 Choose image) to file a question image that tricked you. The vault reviews them with your note hidden.</td></tr>'
              '<tr><td>🎯</td><td>Blind clincher sniper: a clincher with the disease blacked out. <span class="kbd">1</span>–<span class="kbd">4</span> name it and pick the first move, <span class="kbd">Space</span> reveals the trap, <span class="kbd">M</span> mutates (same presentation, one feature changed).</td></tr>'

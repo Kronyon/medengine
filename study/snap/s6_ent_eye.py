@@ -101,12 +101,12 @@ N(150, 'Rhinosinusitis', 'ent', 'sinus',
 
 N(151, 'Tonsillitis and sore throat', 'ent', 'tonsil',
   'A virus or group A strep infects the tonsils → sore throat → rarely abscess',
-  'Children and young adults',
+  'Children and young adults · strep peaks at 5 to 15 · winter and spring',
   'Sore throat, pain swallowing>throat; Fever>head; Tonsil exudate>mouth; Tender front neck nodes>neck',
   'FeverPAIN or Centor score*; Throat swab not routine',
-  'Analgesia, fluids | FeverPAIN 2 to 3: back-up antibiotic; 4 to 5: phenoxymethylpenicillin 5 to 10 days | Tonsillectomy if many episodes a year',
-  'Quinsy: trismus, uvula pushed away>e; Drooling, stridor>e; Rheumatic fever later: rare>r',
-  'FeverPAIN: Fever, Purulence, Attend fast, Inflamed tonsils, No cough.')
+  'Analgesia, fluids | FeverPAIN 0 to 1 or Centor 0 to 2: no antibiotic | FeverPAIN 2 to 3: none or back-up; 4 to 5 or Centor 3 to 4: immediate or back-up | Phenoxymethylpenicillin 5 to 10 days; allergic: clarithromycin 5 days',
+  'Quinsy: trismus, uvula pushed away>e; Drooling, stridor>e; Rheumatic fever later: rare>r; 7 in a year, 5 a year for 2 years, or 3 a year for 3: tonsillectomy referral>r',
+  'FeverPAIN: Fever in the last 24 h, Purulence, Attended within 3 days, Inflamed tonsils, No cough or cold.')
 
 N(152, 'Congenital and developmental ENT problems', 'ent', 'airway',
   'Structures form or grow abnormally → airway, hearing or feeding problems in children',
@@ -164,10 +164,10 @@ N(157, 'Infective keratitis', 'eye', 'cornea',
 
 N(158, 'Uveitis and iritis', 'eye', 'iris',
   'The immune system inflames the iris and front chamber → aching red eye, light hurts',
-  'Young adults · HLA-B27: ankylosing spondylitis, IBD · sarcoid',
-  'Aching red eye>eyes; Redness ringing the cornea>eyes; Light sensitivity>eyes; Small, irregular pupil>eyes; Blurred vision>eyes',
-  'Slit lamp>cells in the front chamber*; Screen for associated disease>back pain, bowel',
-  'Same-day eye casualty | Steroid drops | Dilating drops for pain',
+  'Young adults · HLA-B27: ankylosing spondylitis, reactive and psoriatic arthritis, IBD · also sarcoid, Behçet\'s',
+  'Aching red eye>eyes; Redness ringing the cornea>eyes; Light sensitivity>eyes; Small, irregular pupil: iris stuck to the lens>eyes; Blurred vision>eyes',
+  'Slit lamp>cells and flare in the front chamber*; Screen for associated disease>back pain, joints, bowel, skin',
+  'Same-day eye casualty: slit lamp first | Steroid drops, started by the eye team once herpes is excluded | Cyclopentolate drops: ease the spasm pain and stop the iris sticking to the lens',
   'Reduced vision>s; Raised pressure, glaucoma>s; Recurrent: systemic disease>u',
   'Iritis: small pupil, ring of red. Acute glaucoma: mid-dilated pupil, hard eye.')
 
@@ -230,8 +230,8 @@ N(165, 'Macular degeneration', 'eye', 'macula',
   '60+ · smokers · family history',
   'Central blur, edges fine>eyes; Straight lines look wavy>eyes; Wet: sudden distortion>eyes',
   'Amsler grid>distortion; OCT>fluid under the macula*; Fundoscopy>drusen',
-  'Dry: stop smoking, vitamins, low vision aids | Wet: urgent anti-VEGF injections | Certify sight impaired if needed',
-  'Sudden distortion: wet AMD, refer urgently>s; Falls and depression from low vision>u',
+  'Dry: stop smoking, vitamins, low vision aids | Wet: anti-VEGF injections, started within 14 days of referral | Certify sight impaired if needed',
+  'Sudden distortion: wet AMD, macula clinic within 1 working day>s; Falls and depression from low vision>u',
   'Dry is slow and has drusen; wet is fast and needs injections.')
 
 N(166, 'The eye in systemic and neurological disease', 'eye', 'retina',

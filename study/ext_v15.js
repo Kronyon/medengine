@@ -6,12 +6,12 @@ function snapPanelHtml(u){
   if (!window.DG || !DG.has('snap' + u.i)) return '';
   const more = (DGU[u.i] || []).filter(id => DG.has(id));
   return '<details class="panel snap" id="snapCard"' + (S.set.snapClosed ? '' : ' open') + '><summary><b>🎞️ Snapshot</b> <span class="hint">the whole condition in 7 frames · ▶ play, swipe, or test yourself</span></summary>'
-    + '<label class="hint snap-t"><input type="checkbox" data-snaptest' + (S.set.dgtest ? ' checked' : '') + '> 🙈 Test me: hide the words, say them, tap the picture to check</label>'
+    + '<label class="hint snap-t"><input type="checkbox" data-snaptest' + (S.set.dgtest ? ' checked' : '') + '> 🔒 Lock: hide the words, say them, tap the picture to check</label>'
     + '<div id="snapOne">' + DG.html('snap' + u.i) + '</div>'
     + (more.length ? '<div class="snap-more"><span class="hint">More pictures:</span>' + more.map(id => '<button class="chip" data-snapdg="' + id + '">🖼️ ' + esc(DG.title(id).split(':')[0]) + '</button>').join('') + '</div><div id="snapPic"></div>' : '')
     + '</details>';
 }
-{ const eh = extHeader; extHeader = function(u){ document.body.classList.toggle('dg-testing', !!S.set.dgtest); return snapPanelHtml(u) + eh(u); }; }
+{ const eh = extHeader; extHeader = function(u){ document.body.classList.toggle('dg-testing', !!S.set.dgtest); return (typeof posterPanelHtml === 'function' ? posterPanelHtml(u) : snapPanelHtml(u)) + eh(u); }; }
 function viewSnap(m){
   const q = (S.set.snapq || '').toLowerCase().trim();
   let h = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code">🎞️ Snapshots</span><span class="grow"></span><span class="mono">' + UNITS.length + ' conditions</span></div><h1>Snapshots</h1><p class="hint" style="margin:0">Every condition as the same 7-frame film: <b>what goes wrong → who → spot it → prove it → treat → watch for → the hook</b>. Same order every time, so only the content changes. Open one, press ▶, then switch on 🙈 Test me and say each frame before you tap.</p><input class="snap-q" id="snapQ" type="search" placeholder="Filter, e.g. thyroid, stone, eye" value="' + esc(S.set.snapq || '') + '" aria-label="Filter snapshots"></div><div id="snapList">' + snapListHtml(q) + '</div></div>';
@@ -37,4 +37,4 @@ document.addEventListener('click', e => {
 });
 document.addEventListener('change', e => { if (e.target.dataset && e.target.dataset.snaptest != null) { S.set.dgtest = e.target.checked; save(); document.body.classList.toggle('dg-testing', !!S.set.dgtest); } });
 document.addEventListener('toggle', e => { if (e.target.id === 'snapCard') { S.set.snapClosed = !e.target.open; save(); if (!e.target.open && window.DG) DG.stopAll(); } }, true);
-document.addEventListener('input', e => { if (e.target.id === 'snapQ') { S.set.snapq = e.target.value; clearTimeout(viewSnap.t); viewSnap.t = setTimeout(() => { save(); const l = document.getElementById('snapList'); if (l) l.innerHTML = snapListHtml(e.target.value.toLowerCase().trim()); }, 180); } });
+document.addEventListener('input', e => { if (e.target.id === 'snapQ') { S.set.snapq = e.target.value; clearTimeout(viewSnap.t); viewSnap.t = setTimeout(() => { save(); const l = document.getElementById('snapList'); if (l) l.innerHTML = (typeof posterWallHtml === 'function' ? posterWallHtml : snapListHtml)(e.target.value.toLowerCase().trim()); }, 180); } });

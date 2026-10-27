@@ -1,0 +1,19 @@
+.panel.popanel{display:flex;flex-direction:column;gap:8px}.panel.popanel>summary{cursor:pointer;list-style:none;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}.panel.popanel>summary::-webkit-details-marker{display:none}
+.panel.popanel>summary:before{content:"▸";color:var(--muted);font-size:.8rem}.panel.popanel[open]>summary:before{content:"▾"}
+.potabs{align-self:flex-start}.potabs button{font:inherit}
+#poBody{display:flex;flex-direction:column;gap:8px;min-width:0}#poBody .dg{max-width:560px}
+.po-mp{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:2px}.po-mp>span{color:var(--muted);font-size:.8rem;font-weight:700}
+.mp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px;margin:6px 0 14px}.mp-tile b{font-size:1rem}
+.po-vsline{font-size:.78rem!important;color:var(--muted)}
+.why-po{margin:10px 0}.why-po>summary{cursor:pointer}.why-po .place{display:flex;flex-direction:column;gap:6px;margin-top:8px}.why-po .place>div{display:grid;grid-template-columns:28px minmax(0,1fr);gap:8px;align-items:baseline;line-height:1.45}.why-po .place>div>b{font-family:var(--f-display);font-size:1.1rem;color:var(--accent)}
+.igpanel{margin:10px 0 14px}.igpanel>summary{cursor:pointer}.igpanel-in{border-top:1px solid var(--line);padding-top:8px;display:flex;flex-direction:column;gap:6px}
+.igzone{min-height:64px}.igthumb img{object-fit:cover}
+.igmodal{max-width:min(1100px,96vw);width:100%;display:flex;flex-direction:column;gap:8px}.igtitle{flex:1;min-width:160px}
+.igstage{position:relative;align-self:center;max-width:100%;line-height:0;user-select:none;-webkit-user-select:none;touch-action:none}.igstage img{max-width:100%;max-height:72vh;width:auto;height:auto;display:block;border-radius:8px}
+.igstage.draw{cursor:crosshair}
+.igbox{position:absolute;background:#f6e3bd;border:1.5px dashed #b26a00;border-radius:4px;cursor:pointer;box-sizing:border-box;line-height:1}
+.igbox.rv{background:rgba(22,134,90,.12);border-style:solid;border-color:rgba(22,134,90,.7)}
+.igstage.draw .igbox{background:rgba(246,227,189,.55)}.igbox.drawing{border-style:solid;pointer-events:none}
+.igbox span{position:absolute;top:-9px;right:-9px;width:18px;height:18px;border-radius:9px;background:#c93a3a;color:#fff;font-size:11px;display:grid;place-items:center;cursor:pointer}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .igbox{background:#3a2a10;border-color:#f0b04a}}
+:root[data-theme="dark"] .igbox{background:#3a2a10;border-color:#f0b04a}

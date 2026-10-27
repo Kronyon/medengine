@@ -1,5 +1,19 @@
 # Changelog
 
+## 2.0.0 (2026-10-27)
+
+Both apps rebuilt around one picture code: 🗺️ **posters**.
+- **The code, PLACE + LOCK.** Every poster puts the same zone in the same place and colour: 🧬 what goes wrong top-left, 🧍 who top-right, 🧪 prove it on the right, 💊 treat bottom-right, 🚩 watch for bottom-left, ⚖️ the lookalike on the left, 👀 spot it in the middle on a body or head map, 🪝 the hook along the bottom. Words sit inside the picture, arrows carry the mechanism, one hook per poster. 🔒 **Lock** or the L key turns drugs, doses, numbers, signs and findings into amber pills: say them, then tap or press N, with a counter. ▶ **Walk it** lights the zones in reading order.
+- **medengine-STUDY:** every condition page opens on its poster, unlocked when reading and locked in Fill, SBA and Recall so it scaffolds without spoiling. The 🎞️ film and 🖼️ pictures sit in tabs beside it. ⚖️ **Don't confuse with** on all 165 conditions: each next to its classic lookalike, compared on one shared axis.
+- 🧭 **14 master posters** with drawn figures: spirometry, mitral stenosis, anterior uveitis, sore throat and CT contrast rebuilt from the AI-made infographics with every error fixed and listed under 🔎; plus the red eye, dizziness and hearing, stable or unstable first moves, antidotes, the pain ladder and opioid maths, nerve injuries on a body map, bowel operations and stomas, antibodies pinned to their organs, and four murmurs on one time axis.
+- 🖼️ **My infographics** in STUDY: paste, drop or choose a picture, drag boxes over the details, then study by tapping each box. Kept only in this browser on this device.
+- **medengine-OSCE:** 🗺️ Poster is the first mode on every station. History, psychiatry, drug, communication and imaging stations become a 10-minute clock with 4 timed corners built from each station's own data, with the plan forked by case; ⚡ **Last 2 min**, automatic at the 8:00 gong, collapses it to the plan. The 24 examinations become a route round a body or a head: props before you touch, numbered pins, what to hunt for, how to complete. The 15 procedures become a 3-frame storyboard with the move that fails each frame and the numbers to know, including the proteinuria plan on the urine dip. ILO pages open on the condition poster; a 🗺️ Posters hub holds them all.
+- **Hand and wrist, and shoulder, examinations removed:** not in the FFP CPSA. The FFP checklist is now 63 items.
+- **⌘F / Ctrl+F** jumps to the search bar in both apps; press it again there for the browser's own find. Search finds the master posters.
+- **Accuracy pass:** type 2 diabetes to NICE NG28 2026, modified-release metformin with an SGLT2 inhibitor from diagnosis and semaglutide for artery disease; lipid targets from NG238; FeverPAIN and Centor bands from NG84; IBS as a positive diagnosis; thunderclap headache peaking within 1 to 5 minutes; wet AMD to a macula clinic within 1 working day; the uveitis HLA-B27 list and treatment order; asthma control wording; goal-directed fluids in pancreatitis; brackets removed from station posters.
+- 🙈 Test me is now 🔒 Lock everywhere.
+- Tests: `app/build/test_v9.py`, `study/test_study_v20.py`; all earlier suites pass.
+
 ## 1.5.0 (2026-10-25)
 
 medengine-STUDY: a picture snapshot for every condition.

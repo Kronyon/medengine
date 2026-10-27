@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""medengine v1.5 tests (no network): 🎞️ Snapshots. Every ILO condition has a 7-frame picture film at the top of its
-page; frames step, play and swipe; Test me hides the words and a tap reveals; related pictures open under it; the
-Snapshots section lists and filters; content is in our own words with no brackets or em dashes; no overflow."""
+"""medengine v1.5 tests, kept green for v2.0 (no network): 🎞️ the 7-frame film for every ILO condition, which now sits in
+the 🎞️ Film tab of the poster panel; frames step, play and swipe; 🔒 Lock hides the words and a tap reveals; related
+pictures open in the 🖼️ Pictures tab; the Posters hub (old #snap link) lists and filters; content is in our own words with
+no brackets or em dashes; no overflow."""
 import json, pathlib, re, sys
 from playwright.sync_api import sync_playwright
 
@@ -20,7 +21,7 @@ def run(width):
         def ov(label):
             o = ev('document.documentElement.scrollWidth - document.documentElement.clientWidth')
             if o > 1: errs.append(f'{label}: overflow {o}px')
-        if 'v1.5' not in pg.text_content('#homeBtn'): errs.append('version not v1.5')
+        if not re.search(r'v(1\.[5-9]|2\.\d)', pg.text_content('#homeBtn')): errs.append('version not v1.5+')
         D = ev("JSON.parse(document.getElementById('qqdata').textContent)")
         SN = D.get('snap', {})
         miss = [u['name'] for i, u in enumerate(D['units']) if str(i) not in SN]
@@ -40,7 +41,7 @@ def run(width):
             broken = ev("""() => { const out = []; Object.keys(JSON.parse(document.getElementById('qqdata').textContent).snap).forEach(k => { const w = document.createElement('div'); w.innerHTML = DG.html('snap' + k); document.body.appendChild(w); const f = w.firstChild; for (let i = 0; i < 7; i++) { DG.show(f, i); const s = f.querySelector('svg'); if (!s) { out.push(k + ':' + i); continue; } const vb = s.viewBox.baseVal; s.querySelectorAll('text').forEach(t => { const bb = t.getBBox(); if (bb.x + bb.width > vb.width + 1) out.push(k + ':' + i + ' wide'); }); } w.remove(); }); return out; }""")
             if broken: errs.append('snapshot frames broken or overflowing: ' + str(broken[:6]))
         # home → section
-        if not pg.locator('#main [data-go="snap"]').count(): errs.append('no way into Snapshots from home')
+        if not pg.locator('#main [data-go="posters"]').count(): errs.append('no way into Posters from home')
         ev("location.hash = 'snap'"); pg.wait_for_timeout(400)
         n0 = pg.locator('#snapList .snap-tile').count()
         if n0 < 160: errs.append(f'Snapshots section lists only {n0}')
@@ -51,8 +52,9 @@ def run(width):
         ov('snapshots section')
         # the condition page
         ev("location.hash = 'u0-read'"); pg.wait_for_timeout(500)
-        if not pg.locator('#snapCard #snapOne .dg').count(): errs.append('no snapshot on the ACS page')
-        if pg.locator('#snapCard').evaluate('e => e.open') is not True: errs.append('snapshot should be open by default')
+        if pg.locator('#poCard').evaluate('e => e.open') is not True: errs.append('poster panel should be open by default')
+        pg.click('[data-potab="film"]'); pg.wait_for_timeout(150)
+        if not pg.locator('#poCard #snapOne .dg').count(): errs.append('no film on the ACS page')
         cap0 = pg.text_content('#snapOne .dg-cap'); pg.click('#snapOne [data-dgn="1"]'); pg.wait_for_timeout(80)
         if pg.text_content('#snapOne .dg-cap') == cap0: errs.append('next frame did not change')
         if '7' not in pg.text_content('#snapOne .dg-n'): errs.append('snapshot should have 7 frames')
@@ -64,18 +66,19 @@ def run(width):
         pg.click('#snapOne .dg-stage'); pg.wait_for_timeout(40)
         if not ev("document.querySelector('#snapOne .dg').classList.contains('dg-rev')"): errs.append('test-me tap did not reveal')
         pg.uncheck('[data-snaptest]')
+        pg.click('[data-potab="pics"]'); pg.wait_for_timeout(200)
         if pg.locator('[data-snapdg]').count():
             pg.click('[data-snapdg] >> nth=0'); pg.wait_for_timeout(80)
             if not pg.locator('#snapPic .dg').count(): errs.append('more-pictures chip did not open a picture')
         else: errs.append('ACS should have related pictures')
-        pg.click('#snapCard > summary'); pg.wait_for_timeout(80)
+        pg.click('#poCard > summary'); pg.wait_for_timeout(80)
         ev("location.hash = 'u2-read'"); pg.wait_for_timeout(400)
-        if pg.locator('#snapCard').evaluate('e => e.open'): errs.append('closing the snapshot was not remembered')
-        pg.click('#snapCard > summary'); pg.wait_for_timeout(80)
+        if pg.locator('#poCard').evaluate('e => e.open'): errs.append('closing the poster panel was not remembered')
+        pg.click('#poCard > summary'); pg.wait_for_timeout(80)
         ov('condition page')
         for h in ('u91-fill', 'u160-mcq', 'u102-think'):
             ev(f"location.hash = '{h}'"); pg.wait_for_timeout(300)
-            if not pg.locator('#snapCard .dg').count(): errs.append(f'no snapshot on {h}')
+            if not pg.locator('#poCard .po').count(): errs.append(f'no poster on {h}')
             ov(h)
         b.close()
     return errs

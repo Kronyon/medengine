@@ -50,7 +50,7 @@ N(5, 'Hyperlipidaemia', 'heart', 'cor',
   'Any adult · diet, obesity, diabetes, hypothyroidism · familial: young, strong family history',
   'Usually nothing>all; Tendon xanthomas on the knuckles or Achilles>hands; Yellow lid plaques>eyes; Arcus under 45>eyes',
   'Non-fasting lipid profile>total, HDL, non-HDL, triglycerides; QRISK3>10 or more = offer a statin*; TFT, LFT, HbA1c, U&E>secondary causes and baseline',
-  'Diet, exercise, stop smoking | Primary prevention: atorvastatin 20 mg | Secondary prevention: atorvastatin 80 mg | Aim for a 40% fall in non-HDL; add ezetimibe if not reached',
+  'Diet, exercise, stop smoking | Primary prevention: atorvastatin 20 mg; aim for a 40% fall in non-HDL | Secondary prevention: atorvastatin 80 mg; aim for LDL 2.0 or less | Not at target: add ezetimibe, then inclisiran or a PCSK9 inhibitor if eligible',
   'Muscle pain on a statin: check CK>u; Total cholesterol over 7.5 with family history: think familial>u; Triglycerides over 20: pancreatitis risk>s',
   'LDL is the plaque builder; statins turn down the liver\'s cholesterol factory.')
 
@@ -141,7 +141,7 @@ N(15, 'Asthma', 'lungs', 'airway',
   'Wheeze, worse at night and early morning>chest; Cough, especially at night>lungs; Tight chest>lchest; Triggered by cold, exercise, pets>all',
   'FeNO>raised: 50 or more in adults; Spirometry with reversibility>FEV1 rises 12% and 200 ml*; Peak flow diary>20% variability',
   'Low-dose ICS-formoterol as needed | Daily MART: ICS-formoterol morning and evening plus as needed | Moderate-dose MART | Then check FeNO and eosinophils, specialist add-ons',
-  'Can\'t finish sentences, PEF under 50%>e; Silent chest, sats under 92%, exhausted: life-threatening>e; Using reliever more than 3 times a week: not controlled>u',
+  'Can\'t finish sentences, PEF under 50%>e; Silent chest, sats under 92%, exhausted: life-threatening>e; Reliever on 3 or more days a week, or waking at night: not controlled>u',
   'Inflammation is the fire, the reliever is the bucket. Treat the fire with a steroid inhaler.')
 
 N(16, 'COPD', 'lungs', 'airway',
