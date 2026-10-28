@@ -138,7 +138,8 @@ D['snap'] = {str(k): v for k, v in sorted(snapdsl.SNAP.items())}
 import master as _master
 D['master'] = _master.MASTER
 # v2.1: 🧲 Triggers (snap/t_cond, t_bugs, t_drugs, t_ix, t_mx; engine in medengine-OSCE src/trg.js)
-import triggers as _trg
+import triggers as _trg, hlmark as _hl
+_nh = _hl.apply(D)  # v2.2: every word-hunt clue highlighted and stacked by scene
 D['trg'] = _trg.build(len(U))
 _V4 = json.load(open(MEDAPP / 'build' / 'osce_data_v4.json', encoding='utf-8'))
 _dgu = {}
@@ -167,7 +168,7 @@ rep('<header class="top">', '<style>\n' + mev_css + ext_css + '</style>\n<header
 rep('<script id="qqdata" type="application/json">', '<script>\n' + mev_js + '</script>\n<script>\n' + dg_js + '</script>\n<script id="qqdata" type="application/json">')
 
 # ---------- version ----------
-rep('<small>v0.5.0 beta</small>', '<small>v2.1.0</small>')
+rep('<small>v0.5.0 beta</small>', '<small>v2.2.0</small>')
 rep('const fmtRich = t => fmtPlain(t)', 'const fmtRich = t => dualHtml(t) || fmtRich0(t);\nconst fmtRich0 = t => fmtPlain(t)')
 
 # ---------- script hooks ----------
@@ -212,6 +213,9 @@ help_rows = ('<tr><td>🧲</td><td>Triggers: every condition, bug, drug, investi
              '<tr><td>🔺</td><td>Jargon decoder: exam names that don\'t describe what they are (Δ wave, Wenckebach, Kussmaul, Rinne…). Chips on each condition open them. In the sniper: ① picture → name, ② name → picture, ③ what do you do, or 🔺 all three. <span class="kbd">Space</span> reveal, <span class="kbd">1</span>/<span class="kbd">2</span> mark, <span class="kbd">Enter</span> next.</td></tr>'
              '<tr><td>🗂 / 🆕</td><td>Systems &amp; presentations (top of the chapter list) filters by system or jumps to any ILO week or framework. 🆕 marks guideline updates next to older rules.</td></tr>')
 rep('data-huntall>Reveal all</button></div><p class="hint" style="margin:0">The phrase a stem hides', 'data-huntall>Reveal all</button><button class="btn ghost sm" data-trjump="\' + u.i + \'">🧲 All triggers</button></div>\' + trStar(u) + \'<p class="hint" style="margin:0">The phrase a stem hides')
+rep("hwBar(hunts) + '<div class=\"hws' + (lim ? ' lim' : '') + '\">' + huntHtml(hunts) + '</div>'", "hwBar(hunts) + '<div class=\"hws' + (lim ? ' lim' : '') + '\">' + huntStacks(hunts, u.i) + '</div>'")
+rep("</h6><div class=\"hws\">' + huntHtml(u.hunt) + '</div></div>'", "</h6><div class=\"hws\">' + huntStacks(u.hunt, u.i) + '</div></div>'")
+rep("  $$('.hw', box).forEach(x => x.hidden = (f !== 'all' && !x.classList.contains(f)) || (!!q && !x.textContent.toLowerCase().includes(q)));\n", "  $$('.hw', box).forEach(x => x.hidden = (f !== 'all' && !x.classList.contains(f)) || (!!q && !x.textContent.toLowerCase().includes(q)));\n  hwStHide(box);\n")
 rep('<tr><td>🩺 / 🧬</td>', help_rows + '<tr><td>🩺 / 🧬</td>')
 
 open(a.out, 'w', encoding='utf-8').write(html)

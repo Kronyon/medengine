@@ -411,10 +411,15 @@ def main():
     _sh = (HERE.parent.parent / 'study' / 'medengine-study.html').read_text(encoding='utf-8')
     _SD = json.loads(re.search(r'<script id="qqdata" type="application/json">(.*?)</script>', _sh, re.S).group(1).replace('<\\/', '</'))
     assert [u['name'] for u in _SD['units']] == [u['name'] for u in D['units']], 'STUDY and OSCE units differ'
-    _seen = set(); _units = []
+    _seen = set(); _units = []; _hst = _SD.get('hst', {})
     for i, u in enumerate(_SD['units']):
         hs = [h for h in u.get('hunt', []) if h not in _seen]; _seen.update(hs)
-        _units.append({'i': i, 'name': u['name'], 'w': u['w'], 'o': data['snap'][str(i)]['o'], 'h': [_SD['hunt'][h][:3] for h in hs]})
+        left, rows = set(hs), []
+        for lab, ids in _hst.get(str(i), []):
+            for h in ids:
+                if h in left: rows.append(_SD['hunt'][h][:3] + [lab]); left.discard(h)
+        rows += [_SD['hunt'][h][:3] for h in hs if h in left]
+        _units.append({'i': i, 'name': u['name'], 'w': u['w'], 'o': data['snap'][str(i)]['o'], 'h': rows})
     data['trgu'] = {'weeks': [[w['id'], w['name']] for w in _SD['weeks']], 'units': _units}
     data.update(stations=out, frames=frames, ffp=ffp, exmap=EXMAP, prmap=PRMAP,
                 meta={'v': 4, 'n': len(out), 'by': {t: sum(1 for s in out if s['type'] == t) for t in TYPES}})

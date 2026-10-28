@@ -90,7 +90,7 @@ COND = {
     85: '**Cannot pass urine, painful distended bladder** | Acute urinary retention: catheter and residual volume',
     86: 'Over 45, **knee pain with use**, stiff under 30 minutes in the morning | Osteoarthritis: diagnose clinically, no X-ray needed',
     87: '**Hip replacement**, new pain + fever weeks later | Prosthetic joint infection: orthopaedics, no blind antibiotics',
-    88: 'OA knee pain despite exercise and weight loss | Topical NSAID first, then oral NSAID with a PPI',
+    88: 'OA knee pain **despite exercise and weight loss** | Topical NSAID first, then oral NSAID with a PPI',
     89: '**One-sided throbbing headache**, flashing zigzags before, light hurts, lies in a dark room | Migraine with aura',
     90: 'Headache **worse lying down and coughing**, vomiting, **papilloedema** | Raised intracranial pressure',
     91: '**Worst headache ever, peaks within minutes**, neck stiffness | Subarachnoid haemorrhage: CT head now',

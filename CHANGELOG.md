@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.2.0 (2026-10-28)
+
+🧲 Triggers: every one of the 1,975 word-hunt clues gone through by hand, system by system.
+- **The flipping word is highlighted on every clue**: the phrase the exam hides the answer behind, in highlighter, in Triggers and on each condition's word-hunt panel.
+- **Stacks, Mehlman's left column:** clues that share a scene now sit together under one label (After an MI: the timeline; Reading the ECG; Which bug; Small cells; Big cells; Broken cells; The withdrawal clock; and 430 more), so the scene stays still and only the highlighted word changes. On a phone the label sits on top.
+- **Answers brought up to date where they were wrong:** open-angle glaucoma now starts with selective laser trabeculoplasty (NICE NG81); suspected wet AMD goes to a macula service within 1 working day (NICE NG82).
+- Content in `study/snap/hl_*.py` (one file per ILO system), checked by `hlmark.py`: every clue covered once, every phrase found, no stack split in two.
+- Tests: `test_trg.py` now fails if any condition clue has no highlighted word.
+
 ## 2.1.0 (2026-10-28)
 
 🧲 **Triggers** in both apps: the Mehlman HY pattern for everything in the ILOs.

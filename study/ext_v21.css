@@ -2,3 +2,8 @@
 .trg-wrap{max-width:1060px;min-width:0;width:100%}
 .tr-star{margin:6px 0 2px;padding:7px 10px;border-radius:9px;background:var(--accent-soft);font-size:.92rem;line-height:1.4}
 .tr-star b{font-weight:700}.tr-star .tr-arr{color:var(--muted);font-weight:700}
+.hw-st{margin:10px 0 2px;padding:0 0 2px 8px;border-left:3px solid var(--accent);font:700 .74rem var(--f-mono,monospace);letter-spacing:.03em;text-transform:uppercase;color:var(--muted)}
+.hws>.hw-st:first-child{margin-top:2px}
+.hws.lim>.hw-st:nth-child(n+15){display:none}
+.hw-c b{background:linear-gradient(transparent 55%,var(--accent-soft) 55%)}
+.tr-star b{background:none}

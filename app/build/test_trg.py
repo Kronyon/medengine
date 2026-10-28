@@ -51,6 +51,10 @@ def run(width, dark=False):
         if broken: errs.append('pictures with no symbol: ' + str(broken[:5]))
         o = ev('document.documentElement.scrollWidth - document.documentElement.clientWidth')
         if o > 1: errs.append(f'overflow {o}px')
+        plain = ev("Array.from(document.querySelectorAll('#tgRoot .tg-part[data-part=c] .tg .tc')).filter(c => !c.querySelector('b')).length")
+        if plain: errs.append(f'{plain} condition clues with no highlighted word')
+        stacks = pg.locator('#tgRoot .tg-stk').count()
+        if stacks < 400: errs.append(f'only {stacks} stacks')
         if dark: b.close(); return errs
         # parts
         for part in ('b', 'd', 'x', 'm', 'c'):

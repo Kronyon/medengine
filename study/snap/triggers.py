@@ -41,6 +41,7 @@ def build(n_units):
     if miss: err.append(f'units without a ⭐ trigger: {miss}')
     for k, s in COND.items():
         if '|' not in s: err.append(f'cond {k}: no |')
+        if '**' not in s.split('|')[0]: err.append(f'cond {k}: no highlighted word in the clue')
         err += lint(f'cond {k}', s)
     used = set()
     for title, ic, lines in SCENES:

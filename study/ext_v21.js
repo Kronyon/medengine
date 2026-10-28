@@ -1,7 +1,24 @@
 /* ---------- v2.1: 🧲 Triggers: every condition, bug, drug, test and procedure as Mehlman-style lines (engine: trg.js) ---------- */
+/* word-hunt stacks: lines that share a scene sit together under its label (D.hst, from snap/hl_*.py) */
+const HST = D.hst || {};
+function stackOrder(ids, ui){
+  const st = HST[ui], left = new Set(ids), out = [];
+  (st || []).forEach(([lab, hs]) => hs.forEach(i => { if (left.has(i)) { out.push([i, lab]); left.delete(i); } }));
+  ids.forEach(i => { if (left.has(i)) out.push([i, '']); });
+  return out;
+}
+function huntStacks(ids, ui){
+  let h = '', last = null;
+  stackOrder(ids, ui).forEach(([i, lab]) => { if (lab !== last) { if (lab) h += '<div class="hw-st">' + esc(lab) + '</div>'; last = lab; } h += huntHtml([i]); });
+  return h;
+}
+function hwStHide(box){
+  if (!box) return;
+  $$('.hw-st', box).forEach(st => { let n = st.nextElementSibling, any = false; while (n && !n.classList.contains('hw-st')) { if (n.classList.contains('hw') && !n.hidden) { any = true; break; } n = n.nextElementSibling; } st.hidden = !any; });
+}
 function trgU(){
   if (trgU.c) return trgU.c;
-  return trgU.c = {weeks: WEEKS.map(w => [w.id, w.name]), units: UNITS.map(u => ({i: u.i, name: u.name, w: u.w, o: (SNAPS[u.i] || {}).o, h: (u.hunt || []).filter(i => huntUnit[i] === u.i && HUNT[i]).map(i => HUNT[i].slice(0, 3))}))};
+  return trgU.c = {weeks: WEEKS.map(w => [w.id, w.name]), units: UNITS.map(u => ({i: u.i, name: u.name, w: u.w, o: (SNAPS[u.i] || {}).o, h: stackOrder((u.hunt || []).filter(i => huntUnit[i] === u.i && HUNT[i]), u.i).map(([i, lab]) => HUNT[i].slice(0, 3).concat(lab ? [lab] : []))}))};
 }
 function trgCount(){ return window.TG && D.trg ? TG.count(D.trg, trgU()) : null; }
 function viewTriggers(m){

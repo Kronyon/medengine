@@ -147,7 +147,7 @@
     if (!cache) cache = build(T, U, opts);
     const part = ST.part || 'all', n = TG.count(T, U);
     return '<div class="tgw' + (ST.lock ? ' tg-lock' : '') + '" id="tgRoot" data-part="' + part + '">' + SPRITE
-      + '<div class="tg-top"><h1>🧲 Triggers</h1><p class="hint">The scene, the <b class="tg-hlx">word that flips it</b>, then the answer. Every condition, bug, drug, test and procedure in your ILOs on one scroll. <span class="kbd">⌘F</span> once filters here; twice is your browser\'s own find. 🔒 <span class="kbd">L</span> blurs the answers, tap or <span class="kbd">N</span> to reveal.</p>'
+      + '<div class="tg-top"><h1>🧲 Triggers</h1><p class="hint">The scene, the <b class="tg-hlx">word that flips it</b>, then the answer. Lines that share a scene stack under one label, so only the highlighted word changes. Every condition, bug, drug, test and procedure in your ILOs on one scroll. <span class="kbd">⌘F</span> once filters here; twice is your browser\'s own find. 🔒 <span class="kbd">L</span> blurs the answers, tap or <span class="kbd">N</span> to reveal.</p>'
       + '<details class="tg-why"><summary>Why this layout works for you</summary><ul><li><b>One stem, one flipping word.</b> Exams keep the scene and change one word; stacked lines train your eye on that word, the way you already hunt words in stems.</li><li><b>A picture on every line</b> sits next to the words, so each line is stored as an image as well as a sentence. The bug pictures are the real Gram-stain look: purple is positive, pink is negative.</li><li><b>Blur, then pull it out.</b> Recognising an answer feels like knowing it; saying it before you reveal is what makes it stick.</li></ul></details></div>'
       + '<div class="tg-bar"><input id="trq" type="search" placeholder="Filter every trigger: e.g. birds, lithium, CT, child" autocomplete="off" aria-label="Filter triggers" value="' + esc(TG.preset || '') + '">'
       + '<div class="tg-parts">' + [['all', '', 'All']].concat(PARTS).map(([k, e, l]) => '<button class="tg-p' + (part === k ? ' on' : '') + '" data-tgpart="' + k + '">' + (e ? e + ' ' : '') + l + '</button>').join('') + '</div>'
@@ -164,7 +164,13 @@
         const org = ORG[u.o] || 'mind', s = (T.c || {})[u.i];
         h += '<div class="tg-b tg-u" id="tg-u' + u.i + '" data-name="' + esc(u.name.toLowerCase()) + '"><div class="tg-uh">' + ico(org) + '<button class="tg-un" ' + ua(u.i) + '>' + esc(u.name) + ' ↗</button><span class="tg-n">' + (u.h.length + (s ? 1 : 0)) + '</span></div>';
         if (s) h += row('star', s[0], s[1], 'star');
-        u.h.forEach(x => { const tg = TAG[x[0]]; h += row(x[0] === 'uk' ? 'flag' : x[0] === 'hk' ? 'hook' : kindOf(x[1]) || org, x[1], x[2], tg ? tg[0] : '', tg ? '<span class="tg-t ' + tg[0] + '">' + tg[1] + '</span>' : ''); });
+        let last = null;
+        u.h.forEach(x => {
+          const lab = x[3] || '';
+          if (lab !== last) { if (last) h += '</div></div>'; if (lab) h += '<div class="tg-stk"><div class="tg-sth">' + esc(lab) + '</div><div class="tg-stb">'; last = lab; }
+          const tg = TAG[x[0]]; h += row(x[0] === 'uk' ? 'flag' : x[0] === 'hk' ? 'hook' : kindOf(x[1]) || org, x[1], x[2], tg ? tg[0] : '', tg ? '<span class="tg-t ' + tg[0] + '">' + tg[1] + '</span>' : '');
+        });
+        if (last) h += '</div></div>';
         h += '</div>';
       });
       h += '</div>';
@@ -198,6 +204,7 @@
     root.querySelectorAll('.tg-part').forEach(p => { p.hidden = part !== 'all' && p.dataset.part !== part; });
     root.querySelectorAll('.tg-b').forEach(b => { b._nm = !!terms.length && has(b.dataset.name || ''); });
     idx.forEach(([r, t]) => { const b = r.closest('.tg-b'), ok = !terms.length || has(t) || (b && b._nm); r.hidden = !ok; if (!r.closest('.tg-part').hidden) { all++; if (ok) n++; } });
+    root.querySelectorAll('.tg-stk').forEach(k => { k.hidden = !k.querySelector('.tg:not([hidden])'); });
     root.querySelectorAll('.tg-b').forEach(b => { b.hidden = !b.querySelector('.tg:not([hidden])'); });
     root.querySelectorAll('.tg-sec').forEach(s => { s.hidden = !!terms.length && !s.querySelector('.tg-b:not([hidden])'); });
     root.querySelectorAll('.tg-part').forEach(p => { if (!p.hidden && terms.length && !p.querySelector('.tg-sec:not([hidden]) .tg:not([hidden])')) p.hidden = true; });
@@ -275,6 +282,10 @@
 .tg-un{font:inherit;font-weight:700;font-size:.95rem;background:none;border:0;padding:0;color:var(--tg-ink);cursor:pointer;text-align:left}.tg-un:hover{text-decoration:underline}
 .tg{display:grid;grid-template-columns:26px minmax(0,1.2fr) minmax(0,1fr);gap:4px 10px;align-items:start;padding:7px 10px;border-top:1px solid var(--tg-line);font-size:.92rem;line-height:1.4}
 .tg-b>.tg:first-child,.tg-uh+.tg{border-top:0}
+.tg-stk{display:grid;grid-template-columns:150px minmax(0,1fr);border-top:1px solid var(--tg-line)}
+.tg-uh+.tg-stk,.tg-b>.tg-stk:first-child{border-top:0}
+.tg-sth{padding:8px 8px 8px 12px;font-size:.74rem;font-weight:700;letter-spacing:.02em;text-transform:uppercase;color:var(--tg-mut);border-right:3px solid var(--accent,#ffc21a);background:var(--surface-2,transparent);line-height:1.3}
+.tg-stb{min-width:0}.tg-stb>.tg:first-child{border-top:0}
 .tg .ti{width:22px;height:22px;margin-top:1px;transition:transform .2s}
 .tg .ta{color:var(--tg-ink)}.tg .ta::before{content:'→ ';color:var(--tg-mut);font-weight:700}
 .tg .ta b{font-weight:700}
@@ -305,7 +316,7 @@
 @keyframes tgbreathe{0%,100%{transform:scale(1)}50%{transform:scale(1.15,1.08)}}
 @keyframes tgflash{50%{opacity:.25}}
 @media (prefers-reduced-motion:reduce){.tg .ti,.tg-uh .ti{animation:none!important;transition:none}}
-@media (max-width:640px){.tg{grid-template-columns:24px minmax(0,1fr)}.tg .ta{grid-column:2}.tg.catch{padding-left:12px}.tg-key{grid-template-columns:1fr 1fr}}
+@media (max-width:640px){.tg-stk{grid-template-columns:minmax(0,1fr)}.tg-sth{border-right:0;border-left:3px solid var(--accent,#ffc21a);padding:6px 10px}.tg{grid-template-columns:24px minmax(0,1fr)}.tg .ta{grid-column:2}.tg.catch{padding-left:12px}.tg-key{grid-template-columns:1fr 1fr}}
 `;
   const el = document.createElement('style'); el.id = 'tg-css'; el.textContent = css; (document.head || document.documentElement).appendChild(el);
 })();
