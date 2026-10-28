@@ -1,5 +1,15 @@
 # Changelog
 
+## 2.3.0 (2026-10-28)
+
+🔨 **Hammer SBAs** in medengine-STUDY, built from the formative mock: what it tests, and three graded questions for everything in the ILOs.
+- **969 new single-best-answer questions, written in our own words for UK practice:** 3 for each of the 166 ILO conditions (61 and 88 share the pages they repeat), 83 drug groups, 53 tests and procedures, and 21 off-map topics the mock tested from just outside the ILO titles (otosclerosis, CSF leak, Budd-Chiari, misidentification delusions, grief, vasculitis, colonic blood supply, node drainage, adrenal tests and more).
+- **The hammer scale:** 🔨 the classic picture, 🔨🔨 two steps, a lookalike or a number that overrides the story, 🔨🔨🔨 the curveball. Each question is tagged with the pattern it tests: 👯 lookalike, 🔢 number, 📍 place, time or anatomy, 💊 drug, 🪜 right rung (the first step versus the definitive one).
+- **🔄 The flip** after every answer: the one change to the stem that would make another option right.
+- **🎓 My mock:** the paper's 91 unique questions (Q84 repeats Q83) with their answers and explanations, each tagged with its hammer, pattern, ILO and flip, and a 📊 blueprint of what the paper asked by system, question type, source and pattern.
+- **Use it:** filter by source, hammer, pattern, system, not done or missed last time; A to E or 1 to 5 to answer, Enter for next, Esc to leave; results are saved with your progress; the end screen ranks your patterns and redoes the misses. Every condition page has its own 🔨 button, and search offers matching questions.
+- Content in `study/snap/hq_*.py`, linted by `hammer.py` (one question at each level per target, 5 options, one answer, no brackets, dashes or US spellings); mock in `study/snap/mock92.json` with `mock_meta.py`. Tests: `study/test_study_v22.py`.
+
 ## 2.2.0 (2026-10-28)
 
 🧲 Triggers: every one of the 1,975 word-hunt clues gone through by hand, system by system.

@@ -1,0 +1,1290 @@
+[
+ {
+  "id": "Question 6",
+  "ref": "NOT-290622-0029",
+  "question": "A 53 year old man with a long standing history of paranoid schizophrenia has been voluntarily admitted to a Mental Health hospital with increased auditory hallucinations and paranoid delusions. His auditory hallucinations have made him worried about his own safety and is paranoid about the food in hospital. He is increasingly unkempt and is eating less. He wishes to leave the hospital immediately even though his mental health is deteriorating. Which section of the Mental Health Act 1983 is appropriate to apply by the approved clinician?",
+  "options": [
+   "Application of section 2 of the Mental Health Act 1983",
+   "Application of section 3 of the Mental Health Act 1983",
+   "Application of section 5(2) of the Mental Health Act 1983",
+   "Application of section 5(4) of the Mental Health Act 1983",
+   "Application of section 135 of the Mental Health Act 1983"
+  ],
+  "answer": 2,
+  "explanation": "Section 5(2) is the doctor's holding power, allowing a registered medical practitioner (in charge of treatment) to detain an informal inpatient who wishes to leave for up to 72 hours while an assessment under Section 2 or 3 is arranged."
+ },
+ {
+  "id": "Question 8",
+  "ref": "NOT-280823-0893",
+  "question": "A 9 year old boy is seen with his mother in the outpatient child and adolescent mental health services clinic. He has a diagnosis of ADHD and his mother has successfully implemented a healthy diet and exercise regime for him. He has been treated for the past 12 weeks with increasing doses of methylphenidate but according to his school and mother, this appears to have given no benefit. What is the most appropriate next action?",
+  "options": [
+   "Continue with the current medication regime and refer for a trial of cognitive behavioural therapy",
+   "Continue with the current medication regime and review in 12 weeks",
+   "Stop methylphenidate and begin treatment with clonidine",
+   "Stop methylphenidate and begin treatment with guanfacine",
+   "Stop methylphenidate and begin treatment with lisdexamfetamine"
+  ],
+  "answer": 4,
+  "explanation": "Under NICE guidelines for ADHD in children aged 5 and over, lisdexamfetamine is the recommended second-line pharmacological agent if methylphenidate at an adequate dose has had insufficient benefit after a 6-week trial."
+ },
+ {
+  "id": "Question 10",
+  "ref": "NOT-280822-0034",
+  "question": "A 23 year old woman develops widespread, hypopigmented patches with fine scaling on her back after a sunny holiday. Which is the most appropriate treatment for this condition?",
+  "options": [
+   "Intravenous flucloxacillin",
+   "Oral acyclovir",
+   "Topical hydrocortisone",
+   "Topical ketoconazole",
+   "Topical permethrin"
+  ],
+  "answer": 3,
+  "explanation": "This presentation is classic for pityriasis versicolor (caused by Malassezia yeast). First-line treatment is topical antifungal therapy such as ketoconazole shampoo or cream."
+ },
+ {
+  "id": "Question 12",
+  "ref": "NOT-290622-0037",
+  "question": "An 18 year old woman presents with a 2 week history of a painless swelling on her neck. She denies any problem with her swallowing or change in her voice. She is otherwise well, is a current smoker and afebrile when seen. On examination, the swelling measures 4 x 5 cm and is located deep to the anterior border of the mid-portion of the left sternocleidomastoid muscle (Level III). The swelling has a smooth surface, is non-tender, fluctuant and transilluminates. Which is the most likely diagnosis?",
+  "options": [
+   "Branchial cyst",
+   "Cystic hygroma",
+   "Goitre",
+   "Lymphoma",
+   "Thyroglossal cyst"
+  ],
+  "answer": 0,
+  "explanation": "A branchial cleft cyst typically presents in late adolescence or early adulthood as a smooth, fluctuant, painless mass along the anterior border of the upper/mid sternocleidomastoid muscle."
+ },
+ {
+  "id": "Question 13",
+  "ref": "NOT-290622-0040",
+  "question": "A 50 year old woman is seen in the ENT clinic with a 6 month history of right-sided non-pulsatile tinnitus and reduced hearing. Systemic examination is unremarkable, however MRI scan shows a mass at the cerebellopontine angle and in the internal auditory meatus. Which is the most likely diagnosis?",
+  "options": [
+   "Acute mastoiditis",
+   "Benign paroxysmal positional vertigo",
+   "Cholesteatoma",
+   "Meniere's disease",
+   "Vestibular schwannoma"
+  ],
+  "answer": 4,
+  "explanation": "Unilateral sensorineural hearing loss and tinnitus with an MRI demonstrating an enhancing lesion in the cerebellopontine angle and internal acoustic meatus is diagnostic of a vestibular schwannoma (acoustic neuroma)."
+ },
+ {
+  "id": "Question 14",
+  "ref": "NOT-290622-0043",
+  "question": "A 20 year old woman with myopia who wears contact lenses presents with a red painful left eye. Her visual acuity is 6/18 in the left eye and 6/6 in the right eye. The left eye is red and has a small white spot on the cornea. What is the most likely diagnosis?",
+  "options": [
+   "Allergic conjunctivitis",
+   "Blepharitis",
+   "Corneal ulcer",
+   "Dry eye",
+   "Episcleritis"
+  ],
+  "answer": 2,
+  "explanation": "Contact lens wearers are at high risk for bacterial keratitis/corneal ulcer (frequently Pseudomonas). A painful red eye with reduced visual acuity and a focal corneal opacity/white spot is indicative of a corneal ulcer requiring emergency ophthalmology evaluation."
+ },
+ {
+  "id": "Question 17",
+  "ref": "NOT-290622-0046",
+  "question": "A 24 year old patient attends your GP clinic; she explains that she has been feeling very low all day every day for the past two weeks, she feels little motivation to eat, is sleeping poorly and has little energy. She no longer enjoys what she used to. This episode was precipitated by the sudden death of her brother a month previously. What is the most likely diagnosis?",
+  "options": [
+   "Abnormal grief reaction",
+   "Moderate depressive episode",
+   "Mild depressive episode",
+   "Normal grief reaction",
+   "Severe depressive episode"
+  ],
+  "answer": 3,
+  "explanation": "Bereavement within the first few months following a major acute loss often displays depressive symptomatology and is categorized as a normal grief reaction in early assessment unless severe psychotic features, suicidality, or prolonged morbid impairment emerge."
+ },
+ {
+  "id": "Question 22",
+  "ref": "NOT-050822-0053",
+  "question": "A 32 year old brewery worker develops a three month history of increasing shortness of breath. His oxygen saturations are reported as 88% on air, his respiratory rate is 14 breaths per minute and auscultation of the chest reveals widespread crackles and squeaks. Which is the most likely diagnosis?",
+  "options": [
+   "Extrinsic allergic alveolitis",
+   "Granulomatosis with polyangiitis",
+   "Pneumoconiosis",
+   "Psittacosis",
+   "Sarcoidosis"
+  ],
+  "answer": 0,
+  "explanation": "Extrinsic allergic alveolitis (hypersensitivity pneumonitis), such as malt worker's lung caused by Aspergillus clavatus in breweries, causes progressive dyspnoea, crackles/squeaks, and hypoxia."
+ },
+ {
+  "id": "Question 27",
+  "ref": "NOT-050822-0063",
+  "question": "A 45 year old man believes that his wife has been replaced by a woman in disguise who is plotting to poison him. Which of the following is the most appropriate term to describe this phenomenon?",
+  "options": [
+   "Capgras syndrome",
+   "Confabulation",
+   "Delusional perception",
+   "Nihilistic delusion",
+   "Somatic delusion"
+  ],
+  "answer": 0,
+  "explanation": "Capgras syndrome is a delusional misidentification syndrome where a patient believes that a known close friend or family member has been replaced by an identical imposter."
+ },
+ {
+  "id": "Question 29",
+  "ref": "NOT-050822-0065",
+  "question": "A 25 year old man develops vesicular eczema on the palms of the hands and lateral borders of the fingers. Which is the most appropriate initial treatment option?",
+  "options": [
+   "1% hydrocortisone cream and emollient",
+   "Dermovate (clobetasol propionate) ointment and emollient",
+   "Efudix (5-fluorouracil) cream",
+   "Protopic (tacrolimus) ointment and an emollient",
+   "Timovate (nystatin, tetracycline and clobetasone butyrate) cream"
+  ],
+  "answer": 1,
+  "explanation": "Pompholyx (dyshidrotic eczema) on the thick stratum corneum of palms and lateral fingers typically requires a potent or very potent topical corticosteroid (such as clobetasol propionate) along with intensive emollients."
+ },
+ {
+  "id": "Question 30",
+  "ref": "NOT-050822-0066",
+  "question": "A 45 year old woman with no previous medical history complains of intermittent nose bleeds. On examination there is an ulcer in the left Little's area posterior edge. She has also recently developed conjunctivitis. Which is the most likely diagnosis?",
+  "options": [
+   "Cocaine abuse",
+   "Granulomatosis with polyangiitis",
+   "Hypertension",
+   "Nasal actinomycosis",
+   "Nasal carcinoma"
+  ],
+  "answer": 1,
+  "explanation": "Granulomatosis with polyangiitis (GPA) classically involves the upper respiratory tract (epistaxis, crusting, mucosal ulceration/perforation) and ocular manifestations (scleritis, episcleritis, conjunctivitis)."
+ },
+ {
+  "id": "Question 37",
+  "ref": "NOT-010922-0072",
+  "question": "A 66 year old patient attends the emergency department with severe abdominal pain. They are found to have atrial fibrillation, and a diagnosis of acute intestinal ischaemia, secondary to embolism is made. At surgery ischaemia and necrosis confined to the first two thirds of the transverse colon are noted. Which artery has been affected by the embolism?",
+  "options": [
+   "Superior mesenteric artery",
+   "Inferior mesenteric artery",
+   "Right colic artery",
+   "Left colic artery",
+   "Middle colic artery"
+  ],
+  "answer": 4,
+  "explanation": "The middle colic artery arises from the superior mesenteric artery and supplies the proximal two-thirds of the transverse colon. An isolated embolus here selectively compromises this segment."
+ },
+ {
+  "id": "Question 38",
+  "ref": "NOT-010922-0073",
+  "question": "A 22 year old male has been referred to the urology 2 week wait clinic with a testicular mass. Ultrasound confirms the presence of a likely malignant seminoma. A CT abdomen and pelvis has been requested for staging purposes before a treatment plan is made by the MDT. Which group of lymph nodes would be the most probable site for metastases?",
+  "options": [
+   "Para-aortic lymph nodes",
+   "Superficial inguinal lymph nodes",
+   "Deep inguinal lymph nodes",
+   "Internal iliac lymph nodes",
+   "External iliac lymph nodes"
+  ],
+  "answer": 0,
+  "explanation": "The lymphatic drainage of the testes mirrors their embryonic origin and testicular blood supply, draining directly to the retroperitoneal para-aortic lymph nodes (around L2)."
+ },
+ {
+  "id": "Question 45",
+  "ref": "MSCAA-220819-21824",
+  "question": "A 50 year old woman has developed shortness of breath on exertion over the past 2 days. She has no cough, sputum or chest pain. One week ago she completed treatment with concurrent chemoradiotherapy for cervical cancer. She underwent 5 weeks of radiotherapy with cisplatin chemotherapy. Her temperature is 36.7°C, pulse rate 105 bpm, BP 118/60 mmHg, respiratory rate 18 breaths per minute and oxygen saturation 92% breathing air. Which is the most likely diagnosis?",
+  "options": [
+   "Chemotherapy-induced pneumonitis",
+   "Left ventricular failure",
+   "Pneumonia",
+   "Pulmonary embolism",
+   "Radiation-induced pulmonary fibrosis"
+  ],
+  "answer": 3,
+  "explanation": "Active malignancy, recent systemic cancer therapy, and tachycardia with acute subacute hypoxaemic breathlessness make pulmonary embolism the leading and most life-threatening diagnosis."
+ },
+ {
+  "id": "Question 46",
+  "ref": "MSCAA-210221-23567",
+  "question": "A 20 year old woman has wheeze, shortness of breath and cough of acute onset. She has a history of asthma and has had previous intensive care admissions with acute exacerbations. Her temperature is 37.1°C, pulse rate 120 bpm, BP 142/86 mmHg, respiratory rate 35 breaths per minute, and oxygen saturation 89% breathing air and 93% breathing 15 L/min oxygen. She is unable to complete sentences. She has widespread wheeze in both lungs. Investigations: Arterial blood gas breathing 15 L/min oxygen: pH 7.31 (7.35-7.45), PCO2 7.1 kPa (4.6-6.4), PO2 9.2 kPa (11-15), Bicarbonate 26.8 mmol/L (22-29). Which is the most concerning clinical finding?",
+  "options": [
+   "Inability to complete sentences",
+   "Oxygen saturation 89% breathing air",
+   "PCO2 7.1 kPa",
+   "Pulse rate 120 bpm",
+   "Respiratory rate 35 breaths per minute"
+  ],
+  "answer": 2,
+  "explanation": "In acute asthma, tachypnoea normally drives hyperventilation producing a low PaCO2. A normal or elevated PaCO2 (7.1 kPa) indicates respiratory muscle exhaustion, hypercapnic respiratory failure, and imminent arrest requiring urgent ICU/intubation consideration."
+ },
+ {
+  "id": "Question 48",
+  "ref": "NOT-070223-0902",
+  "question": "A 79 year old woman has six months of increasing breathlessness on exertion. Her pulse rate is 72 bpm, irregularly irregular, and BP is 118/72 mmHg. She has a diastolic murmur. Which is the most likely cause of her murmur?",
+  "options": [
+   "Aortic regurgitation",
+   "Aortic stenosis",
+   "Hypertrophic cardiomyopathy",
+   "Mitral regurgitation",
+   "Mitral stenosis"
+  ],
+  "answer": 4,
+  "explanation": "A mid-diastolic murmur accompanied by atrial fibrillation (irregularly irregular pulse) and symptoms of exertional dyspnoea/pulmonary congestion is characteristically caused by mitral stenosis."
+ },
+ {
+  "id": "Question 50",
+  "ref": "MSCAA-200307-1692",
+  "question": "A 26 year old man has abdominal pain and vomiting. He has had type 1 diabetes for 20 years. His blood glucose is 45 mmol/L and his urine is strongly positive for ketones. Arterial pH is 7.1. He was treated with an insulin infusion and intravenous saline. Despite treatment, he has persistent abdominal pain and vomiting. His temperature is 37.8 °C. Abdominal x-ray: gastric dilatation; White blood cell count 18.2 x 10^9/L; ALT 80 U/L; Alkaline phosphatase 190 U/L. Which of these factors should prompt surgical referral?",
+  "options": [
+   "Abnormal liver function tests",
+   "Acute gastric dilatation",
+   "Fever",
+   "Pain persisting after normalisation of blood glucose",
+   "Raised white cell count"
+  ],
+  "answer": 3,
+  "explanation": "Abdominal pain is common in acute DKA and typically resolves as ketoacidosis and hyperglycemia are corrected. Pain persisting despite biochemical resolution of DKA strongly suggests an underlying acute surgical pathology."
+ },
+ {
+  "id": "Question 57",
+  "ref": "MSCAA-210116-10693",
+  "question": "A 71 year old woman has 4 hours of severe abdominal pain. Her pain started suddenly in the epigastrium and generalised over the next 2 hours. She has a history of mild indigestion. Pulse rate 110 bpm, BP 90/60 mmHg, respiratory rate 24 breaths per minute, oxygen saturation 97% on air. Her chest is clear, and her abdomen is diffusely tender with guarding and absent bowel sounds. Apart from blood tests, which is the most appropriate next investigation?",
+  "options": [
+   "CT scan of abdomen",
+   "Erect chest X-ray",
+   "Intravenous pyelogram",
+   "Oesophagogastroduodenoscopy",
+   "Ultrasound scan of abdomen"
+  ],
+  "answer": 1,
+  "explanation": "Sudden onset severe peritonitis in an elderly patient with indigestion suggests a perforated peptic ulcer. An erect chest X-ray is the rapid initial bed-side/departmental investigation to look for free subdiaphragmatic gas (pneumoperitoneum)."
+ },
+ {
+  "id": "Question 68",
+  "ref": "MSCAA-270819-22141",
+  "question": "A 28 year old woman has 3 days of a painful and swollen right breast lump associated with fever. She is breast feeding. There is a tender, fluctuant, erythematous swelling in her right breast 4 cm in diameter. Which is the most appropriate next step in management?",
+  "options": [
+   "Antibiotics",
+   "Core biopsy",
+   "Mammography",
+   "MR imaging of breast",
+   "Needle aspiration"
+  ],
+  "answer": 4,
+  "explanation": "A fluctuant, tender mass in a lactating woman with signs of infection indicates a breast abscess. Needle aspiration (often ultrasound-guided) combined with antibiotics is the preferred first-line drainage approach over incision and drainage."
+ },
+ {
+  "id": "Question 71",
+  "ref": "NOT-210923-1364",
+  "question": "A 50 year old woman presents to the GP with bloodstained nipple discharge. She is otherwise well and reports no other breast problems. There are no breast lumps, skin changes or lymphadenopathy. Mammogram is normal. Which is the most likely diagnosis?",
+  "options": [
+   "Abscess",
+   "Carcinoma",
+   "Duct ectasia",
+   "Fibroadenoma",
+   "Papilloma"
+  ],
+  "answer": 4,
+  "explanation": "Intraductal papilloma is the most common cause of unilateral bloody or serosanguinous nipple discharge in a middle-aged woman with no palpable breast mass and normal imaging."
+ },
+ {
+  "id": "Question 72",
+  "ref": "MSCAA-020722-28155",
+  "question": "A 24 year old woman has a fever, headache and confusion for last 36 hours. A lumbar puncture is performed and CSF analysis shows a lymphocytosis. Which virus is most likely to be seen on PCR?",
+  "options": [
+   "Enterovirus",
+   "Herpes simplex virus",
+   "Human immunodeficiency virus",
+   "Mumps virus",
+   "Varicella zoster virus"
+  ],
+  "answer": 1,
+  "explanation": "Acute encephalitis presenting with fever, headache, altered consciousness/confusion, and CSF lymphocytosis is most commonly and critically caused by Herpes Simplex Virus 1 (HSV)."
+ },
+ {
+  "id": "Question 82",
+  "ref": "MSCAA-291016-17619",
+  "question": "A 24 year old man has 1 week of progressive abdominal pain, fever and headache following his return from a holiday in Tanzania. Initially he was constipated, but he has now passed loose stool containing blood. His temperature is 39.2 °C and pulse rate 50 bpm. His abdomen is diffusely tender. Which organism is most likely to be responsible for his illness?",
+  "options": [
+   "Cryptosporidium hominis",
+   "Entamoeba histolytica",
+   "Giardia lamblia",
+   "Salmonella typhi",
+   "Shigella sonnei"
+  ],
+  "answer": 3,
+  "explanation": "Stepwise fever, relative bradycardia (Faget's sign / sphygmothermic dissociation), headache, early constipation followed by blood-stained diarrhoea and abdominal tenderness after travel are classic features of Salmonella typhi (typhoid/enteric fever)."
+ },
+ {
+  "id": "Question 83",
+  "ref": "NOT-220923-1399",
+  "question": "A 22 year old woman wants to leave the Emergency Department. She has been treated with acetylcysteine following an overdose of paracetamol. She expresses regret that she survived, refuses to speak with the hospital mental health team and is adamant that she wishes to go home. Which is the most appropriate action?",
+  "options": [
+   "Arrange an urgent Mental Health Act (section 2) assessment",
+   "Call security and ask them to restrain her",
+   "Increase her antidepressant dosage and organise urgent crisis team support at home",
+   "Detain the individual according to section 5(2) of the Mental Health Act",
+   "Attempt to assess her mental capacity and risk with respect to the decision"
+  ],
+  "answer": 4,
+  "explanation": "Before applying compulsory powers or physical restraint, the clinical team must first assess the patient's decision-making capacity and understand the immediate risk regarding her decision to discharge herself."
+ },
+ {
+  "id": "Question 84",
+  "ref": "NOT-220923-1411",
+  "question": "A 22 year old woman wants to leave the Emergency Department. She has been treated with acetylcysteine following an overdose of paracetamol. She expresses regret that she survived, refuses to speak with the hospital mental health team and is adamant that she wishes to go home. Which is the most appropriate action?",
+  "options": [
+   "Arrange an urgent Mental Health Act (section 2) assessment",
+   "Attempt to assess her mental capacity and risk with respect to the decision",
+   "Call security and ask them to restrain her",
+   "Detain the individual according to section 5(2) of the Mental Health Act",
+   "Increase her antidepressant dosage and organise urgent crisis team support at home"
+  ],
+  "answer": 1,
+  "explanation": "Emergency medicine protocols emphasize that evaluating capacity and risk to self is the mandatory fundamental step before considering common law or mental health legislation."
+ },
+ {
+  "id": "Question 85",
+  "ref": "MSCAA-111217-18969",
+  "question": "The parents of a seven year boy are concerned about his persistent challenging behaviour at school and home since he was four years old. This includes hitting peers and siblings, bullying, damaging and stealing toys that belong to peers and siblings, and arguing with teachers and his parents. He has three close friends. He enjoys reading and concentrates and behaves well in literacy classes. Which is the most likely diagnosis?",
+  "options": [
+   "Attention-deficit/hyperactivity disorder",
+   "Autism spectrum disorder",
+   "Conduct disorder",
+   "Dissocial personality disorder",
+   "Oppositional defiant disorder"
+  ],
+  "answer": 2,
+  "explanation": "Conduct disorder involves a repetitive and persistent pattern of behavior violating the basic rights of others or major age-appropriate societal norms, such as aggression toward people, bullying, and theft."
+ },
+ {
+  "id": "Question 87",
+  "ref": "MSCAA-171017-18660",
+  "question": "A 73 year old man has a persistent ulcer on his ear. He has an enlarged lymph node in the upper part of his neck on the same side. Which is the most likely diagnosis?",
+  "options": [
+   "Actinic keratosis",
+   "Basal cell carcinoma",
+   "Keratinous horn",
+   "Malignant melanoma",
+   "Squamous cell carcinoma"
+  ],
+  "answer": 4,
+  "explanation": "An indurated, ulcerating cutaneous lesion on sun-exposed ear cartilage with regional lymph node metastasis is typical of cutaneous squamous cell carcinoma (BCC rarely metastasizes to lymph nodes)."
+ },
+ {
+  "id": "Question 91",
+  "ref": "MSCAA-220124-28827",
+  "question": "A 38 year old woman has had severe headache that is worse upon standing and improves with lying down for 2 weeks. There is associated nausea, neck pain and muffled hearing. She takes paracetamol. Her BP is 138/88 mmHg. The rest of the examination is normal. Investigations: MR scan of brain with contrast: diffuse pachymeningeal enhancement with small subdural fluid collections. Which is the most appropriate initial management?",
+  "options": [
+   "Epidural blood patch",
+   "Intravenous caffeine",
+   "Oral nimodipine",
+   "Oral prednisolone",
+   "Surgical evacuation of subdural fluid"
+  ],
+  "answer": 0,
+  "explanation": "Orthostatic headache with diffuse pachymeningeal enhancement and subdural fluid collections points to spontaneous intracranial hypotension (CSF leak). An epidural blood patch is the definitive targeted treatment."
+ },
+ {
+  "id": "Question 93",
+  "ref": "MSCAA-090313-5828",
+  "question": "A 45 year old woman develops an intensely painful eruption around her right eye. The illness started with pain 5 days previously, followed by the appearance of a few vesicles, which have now developed into a rash. She has no significant medical history. Treatment is started. What is the most likely long-term outcome?",
+  "options": [
+   "Complete resolution with no sequelae",
+   "Corneal ulceration",
+   "Extensive scarring of the right temple",
+   "Partial ptosis",
+   "Reduced visual acuity"
+  ],
+  "answer": 0,
+  "explanation": "With prompt systemic antiviral therapy for herpes zoster ophthalmicus, the vast majority of immunocompetent patients experience complete resolution with no long-term permanent sequelae."
+ },
+ {
+  "id": "Question 95",
+  "ref": "MSCAA-220512-2041",
+  "question": "A 23 year old woman has had increasing deafness and ringing in her ears since the birth of her first child 2 months ago. She first noticed these symptoms during her pregnancy. She has no previous history of ear problems and is in good health. Which is the most likely diagnosis?",
+  "options": [
+   "Acute otitis media",
+   "Chronic otitis media",
+   "Early presbycusis",
+   "Otosclerosis",
+   "Tympanosclerosis"
+  ],
+  "answer": 3,
+  "explanation": "Otosclerosis classically presents in young adults with progressive conductive deafness and tinnitus, and onset or progression is notably accelerated by pregnancy hormonal shifts."
+ },
+ {
+  "id": "Question 99",
+  "ref": "MSCAA-080518-11726",
+  "question": "A 75 year old woman has advanced metastatic ovarian carcinoma. She is being treated with a fentanyl 25 micrograms/hour patch for her pain. She has increasing pain and death is imminent. Which is the most appropriate way to manage her pain?",
+  "options": [
+   "Add oral morphine solution as required",
+   "Add subcutaneous infusion of morphine",
+   "Increase strength of fentanyl patch",
+   "Stop fentanyl patch and start long-acting oral morphine",
+   "Stop fentanyl patch and start subcutaneous infusion of morphine"
+  ],
+  "answer": 1,
+  "explanation": "In palliative care when transdermal fentanyl is already established, patches take 12-24 hours to change steady state and should not be removed abruptly. Adding parenteral subcutaneous breakthrough medication or a syringe driver alongside the patch addresses escalating end-of-life pain."
+ },
+ {
+  "id": "Question 1",
+  "ref": "NOT-290622-0038",
+  "question": "A 45 year old man presents with very severe pain and slightly reduced hearing in his left ear. On examination, there is discomfort on movement of the pinna. Introduction of an aural speculum causes intense pain and reveals a narrowed ear canal full of pus. Which is the most likely diagnosis?",
+  "options": [
+   "Acute otitis externa",
+   "Acute otitis media",
+   "Cholesteatoma",
+   "Otitis media with effusion (serous otitis media)",
+   "Vestibular schwannoma"
+  ],
+  "answer": 0,
+  "explanation": "Intense pinna/tragal tenderness, canal erythema, edema, and purulent discharge are classic hallmarks of acute otitis externa."
+ },
+ {
+  "id": "Question 3",
+  "ref": "NOT-290622-0041",
+  "question": "A 19 year old sheet metal worker presents with sudden onset, severe pain in his right eye. His vision is reduced to \"counting fingers\" and there is an area of conjunctival injection. Which is the most appropriate imaging technique to request for this patient?",
+  "options": [
+   "Orbital CT",
+   "Orbital MRI",
+   "Orbital ultrasound",
+   "Orbital X-rays",
+   "Transorbital colour doppler ultrasound"
+  ],
+  "answer": 0,
+  "explanation": "In sheet metal workers with suspected intraocular metallic foreign bodies, MRI is strictly contraindicated due to magnetic projectile/thermal risks. Orbital thin-slice non-contrast CT is the gold standard imaging modality."
+ },
+ {
+  "id": "Question 4",
+  "ref": "NOT-290622-0027",
+  "question": "A 42 year old woman presents with an 8 month history of headaches and dizziness. She has episodes where her heart races, she feels sweaty and her mouth goes dry. She is finding it difficult to concentrate at work and has noticed that she often forgets things, although she has not made any important mistakes. The symptoms occur frequently and follow no pattern. She frequently worries that family members are going to fall ill or have an accident. Which is the most likely diagnosis?",
+  "options": [
+   "Agoraphobia",
+   "Generalised Anxiety Disorder",
+   "Obsessive Compulsive Disorder",
+   "Somatisation disorder",
+   "Social anxiety disorder"
+  ],
+  "answer": 1,
+  "explanation": "Chronic excessive, uncontrollable worry regarding everyday matters (such as relatives' health/safety) accompanied by somatic symptoms (palpitations, sweating, dry mouth, tension) lasting >6 months characterizes Generalized Anxiety Disorder (GAD)."
+ },
+ {
+  "id": "Question 5",
+  "ref": "NOT-280622-0028",
+  "question": "A 46 year old woman is currently on fluoxetine for depression and has been recently commenced on tramadol for back pain. She has been using her friends cough syrup she bought from the pharmacy for a cold. She has developed diarrhoea, sweating, agitation and shivering. On examination, her temperature is 38°C and has hyperreflexia. Which is the most likely diagnosis?",
+  "options": [
+   "Encephalitis",
+   "Neuroleptic malignant syndrome",
+   "Sepsis",
+   "Serotonin syndrome",
+   "Tardive dyskinesia"
+  ],
+  "answer": 3,
+  "explanation": "Combining an SSRI (fluoxetine), tramadol, and over-the-counter cough medicines containing dextromethorphan precipitates Serotonin Syndrome, characterized by neuromuscular hyperactivity (hyperreflexia, clonus, shivering), autonomic instability, and altered mental state."
+ },
+ {
+  "id": "Question 9",
+  "ref": "NOT-280822-0032",
+  "question": "A 35 year old man presents to his GP as he is finding it difficult to cope at home. His wife has recently taken a new job which involves a lot of travel and he is finding it difficult to cope. He finds it difficult to make simple decisions (what clothes to wear, what to eat) as his wife has always done this for him. He says that prior to getting married his parents used to help him with decisions and support him. He is very worried about how he will manage when there is no one to support him. Which is the most likely diagnosis?",
+  "options": [
+   "Anxious-avoidant personality disorder",
+   "Dependent personality disorder",
+   "Emotionally unstable - borderline type personality disorder",
+   "Emotionally unstable - Impulsive type personality disorder",
+   "Histrionic personality disorder"
+  ],
+  "answer": 1,
+  "explanation": "Pervasive reliance on others for advice and decision-making, difficulty initiating tasks independently, and intense anxiety around separation or being alone characterize dependent personality disorder."
+ },
+ {
+  "id": "Question 11",
+  "ref": "NOT-280822-0036",
+  "question": "A 48 year old man has recurrent coin-shaped plaques across the torso and limbs. He reports that they are very itchy and unsightly. He finds the condition much worse in the winter months. Which is the most likely diagnosis?",
+  "options": [
+   "Atopic eczema",
+   "Discoid eczema",
+   "Dyshidrotic eczema",
+   "Seborrheic dermatitis",
+   "Varicose eczema"
+  ],
+  "answer": 1,
+  "explanation": "Coin-shaped ('nummular'), highly pruritic erythematous dry scaly plaques on the limbs and trunk that worsen in dry/winter conditions are pathognomonic for discoid (nummular) eczema."
+ },
+ {
+  "id": "Question 15",
+  "ref": "NOT-290622-0044",
+  "question": "A 7 year old boy with asthma gives a 1 month history of red itchy eyes with some whitish discharge. Examination showed visual acuity of 6/6 in both eyes and bilateral marked redness. No lymphadenopathy was detected. What is the most likely diagnosis?",
+  "options": [
+   "Allergic conjunctivitis",
+   "Blepharitis",
+   "Corneal ulcer",
+   "Dry eye",
+   "Episcleritis"
+  ],
+  "answer": 0,
+  "explanation": "Bilateral itchy eyes, atopic predisposition (asthma), conjunctival hyperaemia, stringy/whitish discharge, and preserved visual acuity are diagnostic of allergic conjunctivitis."
+ },
+ {
+  "id": "Question 16",
+  "ref": "NOT-290622-0045",
+  "question": "A 59 year old woman reports longstanding sore eyes, not improving with eye drops purchased from the local pharmacist. She says her lids are often crusty in the mornings, though she does not have much of an eye discharge during the day. On examination she had normal visual acuities. On both sides she had flaky material on her eye lashes. The eyes were slightly red and the cornea was clear. What is the most likely diagnosis?",
+  "options": [
+   "Allergic conjunctivitis",
+   "Blepharitis",
+   "Corneal ulcer",
+   "Dry eye",
+   "Episcleritis"
+  ],
+  "answer": 1,
+  "explanation": "Bilateral chronic eyelid margin inflammation with morning crusting, flakes/collarettes on lashes, and clear corneas points to chronic blepharitis."
+ },
+ {
+  "id": "Question 18",
+  "ref": "NOT-290622-0047",
+  "question": "You are working in Liaison Psychiatry and you are called to one of the oncology wards. Mr Smith (77) has been admitted to hospital for treatment of his multiple myeloma. Yesterday he was given Cyclophosphamide and Dexamethasone. Since yesterday evening he has been pacing the ward, refusing the sleep and talking rapidly. He has become convinced that he is a detective needs to catch a criminal on the ward and subjects all visitors to an interrogation upon entering the ward. He has no past psychiatric history and no family history of psychiatric disorders. What is the most likely diagnosis?",
+  "options": [
+   "Acute mania",
+   "Adverse reaction to high dose glucocorticoids",
+   "Adjustment reaction",
+   "Intracranial space occupying lesion",
+   "Psychosis"
+  ],
+  "answer": 1,
+  "explanation": "Rapid onset mania and psychotic symptoms (paranoia, grandiose delusions, flight of ideas, insomnia) following initiation of high-dose dexamethasone is an acute glucocorticoid-induced mood/psychotic disorder."
+ },
+ {
+  "id": "Question 19",
+  "ref": "NOT-290622-0048",
+  "question": "A 35 year old patient who is on lithium comes to the GP surgery. They have had three days of vomiting and diarrhoea and although this has improved they feel much worse. They feel very shaky and have noted a coarse tremor. They are also slurring their words and feeling lethargic. What is the most appropriate immediate management?",
+  "options": [
+   "Give them a form for blood tests to be done routinely",
+   "Call the crisis team suspecting a relapse in their bipolar disorder",
+   "Refer to the medical assessment unit for urgent assessment",
+   "Reassure and arrange a follow up appointment in 1 weeks time",
+   "Advise them to rehydrate with oral rehydration solution (dioralyte)"
+  ],
+  "answer": 2,
+  "explanation": "Dehydration from GI illness decreases renal lithium clearance, causing lithium toxicity (coarse tremor, ataxia, dysarthria, lethargy). This is a medical emergency requiring immediate hospital admission for fluids and monitoring."
+ },
+ {
+  "id": "Question 20",
+  "ref": "NOT-050822-0049",
+  "question": "A 78 year old patient develops increasing breathlessness over a three week period. They have also reported a cough productive of frothy white sputum. Their X-ray is shown below [illustrating cardiomegaly and alveolar batwing bat-wing shadowing]. Which is the most likely diagnosis?",
+  "options": [
+   "Pneumonia",
+   "Haemothorax",
+   "Left ventricular failure",
+   "Perforated abdominal viscus",
+   "Pneumothorax"
+  ],
+  "answer": 2,
+  "explanation": "Progressive breathlessness, production of frothy sputum, cardiomegaly, and pulmonary venous congestion/oedema are characteristic of acute decompensated left ventricular failure."
+ },
+ {
+  "id": "Question 23",
+  "ref": "NOT-050822-0057",
+  "question": "A 58-year-old man presents to the Emergency Department with a four-hour history of a painful cold white left leg. Which of the following features, would specifically support a diagnosis of acute limb ischaemia?",
+  "options": [
+   "Demonstrable weakness",
+   "Hyperaesthesia",
+   "Loss of hair",
+   "Oedema",
+   "Presence of arterial pulses"
+  ],
+  "answer": 0,
+  "explanation": "The 6 P's of acute limb ischaemia are Pain, Pallor, Pulselessness, Paresthesia, Perishing cold, and Paralysis (motor weakness). Demonstrable weakness denotes neuromuscular compromise requiring emergency revascularisation."
+ },
+ {
+  "id": "Question 24",
+  "ref": "NOT-050822-0059",
+  "question": "A 36 year old woman is referred to a psychiatrist by her GP. She has reported multiple episodes of unrelated minor ailments. Once a particular set of symptoms have been full investigated these tend to resolve and new symptoms develop. Which is the most likely diagnosis?",
+  "options": [
+   "Conversion disorder",
+   "Depression",
+   "Delusional disorder",
+   "Generalised anxiety disorder",
+   "Somatisation Disorder"
+  ],
+  "answer": 4,
+  "explanation": "Somatisation disorder (somatic symptom disorder) involves multiple, recurrent, and medically unexplained physical symptoms across various organ systems leading to frequent investigations and clinic visits."
+ },
+ {
+  "id": "Question 25",
+  "ref": "NOT-050822-0060",
+  "question": "A 50 year old man reports experiencing high levels of stress at work. He is particularly concerned that he may shortly be made redundant. He subsequently develops paralysis of both legs. The neurologists are unable to identify a cause but report inconsistent sensory deficits. Which is the most likely diagnosis?",
+  "options": [
+   "Adjustment disorder",
+   "Conversion disorder",
+   "Depression",
+   "Factitious disorder",
+   "Hypochondriacal disorder"
+  ],
+  "answer": 1,
+  "explanation": "Conversion disorder (functional neurological symptom disorder) presents with unexplained neurological deficits (e.g. paralysis, non-epileptic seizures) that are often triggered by acute psychological stress."
+ },
+ {
+  "id": "Question 26",
+  "ref": "NOT-050822-0062",
+  "question": "A 33 year old woman reports that she has become preoccupied with concerns about dirt. She gets intrusive and distressing thoughts that the environment is dirty and contaminated. This leads to a constant feeling of anxiety which is partially relived by washing her hands. She now finds that she is washing her hands up to 30 times per day. Which is the most appropriate psychotherapy for this patient to undertake?",
+  "options": [
+   "Eye movement desensitisation reprocessing",
+   "Exposure and response prevention",
+   "Interpersonal psychotherapy",
+   "Psychodrama",
+   "Systemic desensitisation"
+  ],
+  "answer": 1,
+  "explanation": "Cognitive behavioural therapy using Exposure and Response Prevention (ERP) is the specific first-line psychological intervention for Obsessive-Compulsive Disorder (OCD)."
+ },
+ {
+  "id": "Question 28",
+  "ref": "NOT-050822-0064",
+  "question": "A 30 year old shopkeeper develops plaque psoriasis which is localised to his elbows, knees and over the sacrum. He is otherwise well and has not tried any treatment before. Which is the most appropriate initial management option?",
+  "options": [
+   "1% hydrocortisone ointment",
+   "Calcipotriol ointment and emollient",
+   "Duac gel (benzoyl peroxide and clindamycin)",
+   "Lamisil (terbinafine) cream",
+   "Isotretinoin cream"
+  ],
+  "answer": 1,
+  "explanation": "First-line topical treatments for chronic plaque psoriasis include topical vitamin D analogues (such as calcipotriol) and potent topical corticosteroids applied alongside regular emollients."
+ },
+ {
+  "id": "Question 31",
+  "ref": "NOT-050822-0067",
+  "question": "A 52 year old man with a background of ankylosing spondylitis presents with a 3 day history of pain, redness, visual blurring and photophobia in the left eye only. When examined the left eye has a visual acuity of 6/18, ins injected and had an irregular pupil. The cornea was unremarkable. Examination of the right eye did not reveal any abnormalities. Which is the most likely diagnosis?",
+  "options": [
+   "Acute angle closure glaucoma",
+   "Corneal ulcer",
+   "Episcleritis",
+   "Optic Neuritis",
+   "Uveitis"
+  ],
+  "answer": 4,
+  "explanation": "Acute anterior uveitis (iritis) is strongly associated with HLA-B27 spondyloarthropathies (ankylosing spondylitis) and classically causes unilateral deep eye pain, ciliary injection, photophobia, blurred vision, and an irregular pupil due to posterior synechiae."
+ },
+ {
+  "id": "Question 32",
+  "ref": "NOT-050822-0069",
+  "question": "A 36 year old woman presents with sudden loss of vision in the left eye. There is pain behind the left eye when she looks from side to side. Her visual acuity is 6/12 in the affected side which also has an afferent pupillary defect, and the eyes are not injected. Which is the most likely diagnosis?",
+  "options": [
+   "Acute glaucoma",
+   "Episcleritis",
+   "Scleritis",
+   "Optic neuritis",
+   "Uveitis"
+  ],
+  "answer": 3,
+  "explanation": "Subacute monocular vision loss, retrobulbar pain exacerbated by eye movements, and a relative afferent pupillary defect (RAPD) in a young woman are classic for demyelinating optic neuritis."
+ },
+ {
+  "id": "Question 34",
+  "ref": "MSCAA-200318-0550",
+  "question": "A 75 year old woman is seen by their GP with fever, pleuritic pain and a cough productive of green sputum. They are found to be tachypnoeic with mild confusion. Her temperature is 38.2 degrees celcius and saturations are 94% in room air. Her Abbreviated Mental Test score is 7/10. Which is the most likely diagnosis?",
+  "options": [
+   "Acute Myocardial infarction",
+   "Aortic dissection",
+   "Community acquired pneumonia",
+   "Mesothelioma",
+   "Pericarditis"
+  ],
+  "answer": 2,
+  "explanation": "Fever, pleuritic chest pain, productive purulent cough, tachypnoea, and new confusion in an elderly patient is a typical presentation of community-acquired pneumonia."
+ },
+ {
+  "id": "Question 35",
+  "ref": "NOT-120822-0070",
+  "question": "A 42 year old woman presents to the emergency department with a history of sudden onset headache earlier that afternoon. She reports intermittent headaches for the preceding 2 weeks. On examination, she has photophobia and there are no focal neurological findings on examination. Her blood pressure is 135/83 with heart rate 90/min. She appears mildly confused. What is the most appropriate initial investigation?",
+  "options": [
+   "Lumbar puncture",
+   "Urgent CT head without contrast",
+   "24 hour blood pressure monitoring",
+   "MRI brain with contrast",
+   "Plain X ray of the head"
+  ],
+  "answer": 1,
+  "explanation": "Sudden-onset severe ('thunderclap') headache warrants immediate urgent non-contrast CT head within 6 hours of onset to detect subarachnoid haemorrhage. Lumbar puncture is used second-line if the CT is negative."
+ },
+ {
+  "id": "Question 36",
+  "ref": "NOT-120822-0071",
+  "question": "An 18 year old university student presents to the GP acutely embarrassed as he has started to wet the bed over the last 4 nights. He reports a 2 week history of associated thirst and polyuria. His mother has coeliac disease. On examination he has a respiratory rate of 20 breaths per minute, with heart rate 90/min and blood pressure 110/65. His fingerprick blood glucose is 28mmol/l. What is the most appropriate next step?",
+  "options": [
+   "Arrange a next day appointment for blood test to check HbA1c and fasting glucose",
+   "Arrange an appointment the next day with the diabetes nurse at the practice",
+   "Book a chest X ray for the following day",
+   "Suggest he buys a glucometer and monitors blood glucose with follow up in 5 days",
+   "Urgent referral to medicine for assessment and treatment"
+  ],
+  "answer": 4,
+  "explanation": "A teenager presenting with marked osmotic symptoms, nocturnal enuresis, and marked hyperglycemia (28 mmol/L) has new-onset Type 1 Diabetes Mellitus and requires same-day emergency hospital assessment to initiate insulin and manage/prevent DKA."
+ },
+ {
+  "id": "Question 39",
+  "ref": "NOT-010922-0074",
+  "question": "A 55 year old gentleman is referred to the ophthalmologist with squint. He has noticed it over the last 2 to 3 weeks. At rest, his right eye is held in adduction and when he looks towards the right, the squint is exacerbated. Which cranial nerve is affected?",
+  "options": [
+   "Right Third Cranial Nerve",
+   "Right Fourth Cranial Nerve",
+   "Right Sixth Cranial Nerve",
+   "Left Fourth Cranial Nerve",
+   "Left Sixth Cranial Nerve"
+  ],
+  "answer": 2,
+  "explanation": "The abducens nerve (CN VI) innervates the lateral rectus muscle responsible for eye abduction. Right CN VI palsy causes inward adduction of the right eye at rest and failure to abduct to the right."
+ },
+ {
+  "id": "Question 40",
+  "ref": "NOT-290622-0039",
+  "question": "A 25 year old man presents with smelly discharge from his right ear for many years. His hearing has always been a little reduced on this side but doesn't cause him any particular problems. He has had no tinnitus or vertigo and is otherwise well. On examination, there is some white debris associated with a reddish swelling in the attic region. The pars tensa is intact. Which is the most likely diagnosis?",
+  "options": [
+   "Acute mastoiditis",
+   "Acute otitis externa",
+   "Cholesteatoma",
+   "Meniere's disease",
+   "Otitis media with effusion (serous otitis media)"
+  ],
+  "answer": 2,
+  "explanation": "Chronic foul-smelling otorrhoea, conductive hearing impairment, and attic retraction/crust with keratic whitish debris are hallmarks of an attic cholesteatoma."
+ },
+ {
+  "id": "Question 41",
+  "ref": "MSCAA-051005-0791",
+  "question": "A 26 year old man presents to the Emergency Department with sudden onset chest pain and breathlessness. The pain is worse on coughing. He gives no significant past medical history. Which initial investigation would be most informative in making a diagnosis?",
+  "options": [
+   "Arterial blood gases",
+   "Chest X-ray",
+   "Full blood count",
+   "Pulmonary function tests",
+   "Ventilation perfusion scan"
+  ],
+  "answer": 1,
+  "explanation": "Sudden pleuritic chest pain and dyspnoea in a young man is suspicious for primary spontaneous pneumothorax. An erect PA chest X-ray is the definitive first-line investigation."
+ },
+ {
+  "id": "Question 43",
+  "ref": "MSCAA-010219-20949",
+  "question": "A 40 year old man has a productive cough and fever, and is found to have community-acquired pneumonia. Which is the most likely causative organism?",
+  "options": [
+   "Haemophilus influenzae",
+   "Klebsiella pneumoniae",
+   "Pseudomonas aeruginosa",
+   "Staphylococcus aureus",
+   "Streptococcus pneumoniae"
+  ],
+  "answer": 4,
+  "explanation": "Streptococcus pneumoniae remains the single most common bacterial cause of community-acquired pneumonia across all adult age groups."
+ },
+ {
+  "id": "Question 47",
+  "ref": "MSCAA-190221-23709",
+  "question": "A 74 year old woman has 1 year of productive cough with purulent sputum. She has breathlessness on exertion. She has had five chest infections in the past 12 months. She has finger clubbing and bilateral crackles on auscultation of the chest. Her FEV1/FVC ratio is 0.74. Which is the most likely diagnosis?",
+  "options": [
+   "Asthma",
+   "Bronchiectasis",
+   "COPD",
+   "Idiopathic pulmonary fibrosis",
+   "Sarcoidosis"
+  ],
+  "answer": 1,
+  "explanation": "Chronic copious daily purulent sputum, recurrent bacterial chest infections, finger clubbing, and coarse bibasal crackles with preserved FEV1/FVC ratio are typical of bronchiectasis."
+ },
+ {
+  "id": "Question 49",
+  "ref": "MSCAA-260920-23272",
+  "question": "A 54 year old man has shortness of breath. He has type 2 diabetes mellitus and hypertension. He takes atorvastatin, dapagliflozin, insulin glargine, losartan and metformin. Investigations: Arterial blood gas breathing air: pH 6.93, PO2 11.3 kPa, PCO2 3.1 kPa, Plasma glucose 9.4 mmol/L, Lactate 2.1 mmol/L, Ketones 6.2 mmol/L. Which drug is most likely to have caused the metabolic derangement?",
+  "options": [
+   "Atorvastatin",
+   "Dapagliflozin",
+   "Insulin glargine",
+   "Losartan",
+   "Metformin"
+  ],
+  "answer": 1,
+  "explanation": "SGLT2 inhibitors (like dapagliflozin) can trigger euglycaemic or near-normal glucose diabetic ketoacidosis (euDKA) presenting with severe ketoacidosis (ketones 6.2, pH 6.93) without marked hyperglycemia."
+ },
+ {
+  "id": "Question 51",
+  "ref": "NOT-080223-0966",
+  "question": "A 40 year old woman visits the GP with tiredness, cold intolerance and depression. She has a BMI of 28 and gained 2 kg over the last 2 months. She has a visible neck swelling and dry thin hair. Which endocrine disorder is most likely to explain her symptoms?",
+  "options": [
+   "Cushing's syndrome",
+   "Diabetes",
+   "Hyperparathyroidism",
+   "Hyperthyroidism",
+   "Hypothyroidism"
+  ],
+  "answer": 4,
+  "explanation": "Cold intolerance, fatigue, weight gain, depression, thinning coarse hair, and goitre are classic manifestations of primary hypothyroidism (e.g. Hashimoto thyroiditis)."
+ },
+ {
+  "id": "Question 52",
+  "ref": "NOT-030523-0836",
+  "question": "A 28 year old woman has taken several consecutive courses of high dose oral prednisolone over the past year to control her asthma. An investigation is performed to determine if her pituitary and adrenal glands have recovered from prolonged use of glucocorticoids. What is the best investigation to confirm this?",
+  "options": [
+   "ACTH stimulation test (short synacthen test)",
+   "Insulin tolerance test",
+   "Overnight dexamethasone suppression test",
+   "Random measurement of plasma cortisol level",
+   "Urine cortisol test"
+  ],
+  "answer": 0,
+  "explanation": "The short Synacthen (tetracosactide) test evaluates adrenal reserve and assesses recovery of the hypothalamic-pituitary-adrenal axis following prolonged corticosteroid suppression."
+ },
+ {
+  "id": "Question 53",
+  "ref": "MSCAA-090405-1227",
+  "question": "A 42 year old woman has been taking ibuprofen for a muscular injury. She develops gnawing discomfort in the epigastrium, especially at night. It is suspected that the ibuprofen has had an effect on the gastric mucosa. What pharmacological mechanism is most likely to be responsible?",
+  "options": [
+   "Changes in glycosylation of surface mucopolysaccharides",
+   "Cleavage of pepsinogen to pepsin",
+   "Esterification with bile salts to make toxic product",
+   "Local blockade of prostaglandin synthesis",
+   "Stimulation of Helicobacter pylori overgrowth"
+  ],
+  "answer": 3,
+  "explanation": "NSAIDs inhibit cyclooxygenase (COX-1), blocking gastric prostaglandin synthesis (PGE2 and PGI2), which normally stimulate cytoprotective mucus/bicarbonate secretion and maintain mucosal perfusion."
+ },
+ {
+  "id": "Question 54",
+  "ref": "MSCAA-070911-3283",
+  "question": "A 45 year old man has a massive haematemesis. He is known to have hepatitis C and liver cirrhosis. He is pale, has a pulse rate 132 bpm and a systolic BP of 80 mmHg. There is fullness in the left upper quadrant of his abdomen. What is the most likely cause of his haematemesis?",
+  "options": [
+   "Acute gastritis",
+   "Mallory-Weiss tear",
+   "Oesophageal varices",
+   "Oesophagitis",
+   "Peptic ulcer"
+  ],
+  "answer": 2,
+  "explanation": "Cirrhosis with portal hypertension and splenomegaly (left upper quadrant fullness) presenting with massive upper gastrointestinal hemorrhage and haemodynamic shock is most commonly caused by ruptured oesophageal varices."
+ },
+ {
+  "id": "Question 55",
+  "ref": "MSCAA-040813-6680",
+  "question": "A 50 year old woman has intermittent right sided abdominal pain for six months. She describes that it is related to eating chips. Her BMI is 40 and she has had no change in her weight. Her bowel habit is unchanged. She is not jaundiced, but her abdomen is tender in the right upper quadrant. Which is the most likely diagnosis?",
+  "options": [
+   "Gallstones",
+   "Gastro-oesophageal reflux",
+   "Irritable bowel syndrome",
+   "Peptic ulcer",
+   "Peritonitis"
+  ],
+  "answer": 0,
+  "explanation": "Episodic postprandial RUQ pain provoked by fatty meals in an obese female without jaundice represents symptomatic cholelithiasis (biliary colic)."
+ },
+ {
+  "id": "Question 56",
+  "ref": "MSCAA-040613-7289",
+  "question": "A 60 year old man suddenly develops central upper abdominal pain two days after left hip replacement. The pain is severe and associated with nausea, vomiting and shortness of breath. He is found to be cold and clammy. Chest and abdominal examinations are normal. His peripheral pulses are present. Pulse rate 95 bpm, BP 105/55 mmHg, oxygen saturation 96% on air. Electrocardiogram shows a new left bundle branch block. X-ray of the chest is normal. Which is the most likely diagnosis?",
+  "options": [
+   "Aortic dissection",
+   "Myocardial infarction",
+   "Perforated peptic ulcer",
+   "Pulmonary embolism",
+   "Septic shock"
+  ],
+  "answer": 1,
+  "explanation": "A new onset left bundle branch block (LBBB) in the context of acute ischemic-type chest/epigastric symptoms and diaphoresis represents an ST-elevation myocardial infarction equivalent until proven otherwise."
+ },
+ {
+  "id": "Question 58",
+  "ref": "MSCAA-120119-20599",
+  "question": "A 52 year old man has 4 weeks of worsening epigastric abdominal pain. The pain starts gradually 20 minutes after his meals, radiates to his back and is associated with nausea and vomiting. Each episode lasts about an hour. His stools are loose and difficult to flush. He had a similar episode 5 months ago. He drinks 92 units of alcohol per week. He has epigastric tenderness. Which is the most likely diagnosis?",
+  "options": [
+   "Acute cholangitis",
+   "Acute cholecystitis",
+   "Acute hepatitis",
+   "Chronic pancreatitis",
+   "Peptic ulcer disease"
+  ],
+  "answer": 3,
+  "explanation": "Heavy chronic alcohol excess, recurrent postprandial epigastric pain radiating to the back, and steatorrhoea (greasy difficult-to-flush stools) indicate chronic pancreatitis with exocrine insufficiency."
+ },
+ {
+  "id": "Question 59",
+  "ref": "MSCAA-020516-16873",
+  "question": "A 44 year old woman has 2 days of severe right upper quadrant pain, jaundice and fever. Treatment with intravenous antibiotics has been started. Investigations: Ultrasound scan of abdomen: multiple stones in the gallbladder, a stone in the distal common bile duct and dilatation of the common bile duct at 12 mm. Which is the most appropriate next step in management?",
+  "options": [
+   "CT of abdomen",
+   "Endoscopic ultrasonography",
+   "ERCP",
+   "Laparoscopic cholecystectomy",
+   "MR cholangiopancreatography"
+  ],
+  "answer": 2,
+  "explanation": "Charcot's triad (fever, jaundice, RUQ pain) indicates acute ascending cholangitis due to choledocholithiasis. Urgent endoscopic retrograde cholangiopancreatography (ERCP) is indicated for biliary decompression and stone extraction."
+ },
+ {
+  "id": "Question 60",
+  "ref": "MSCAA-201015-13527",
+  "question": "A 32 year old woman has 4 hours of pain in her right upper abdomen. The pain came on approximately 1 hour after eating and has since worsened. She also has pain in her right shoulder. She has vomited twice. Her temperature is 37.9°C. She is tender in the right upper quadrant on deep inspiration. She is not jaundiced. Which is the most appropriate diagnostic investigation?",
+  "options": [
+   "Abdominal X-ray",
+   "CT scan of abdomen",
+   "Endoscopic retrograde cholangiopancreatography",
+   "Serum amylase",
+   "Ultrasound scan of abdomen"
+  ],
+  "answer": 4,
+  "explanation": "Fever, positive Murphy's sign (pain on deep inspiration in the RUQ), and postprandial onset indicate acute cholecystitis. Transabdominal ultrasound is the first-line imaging modality of choice."
+ },
+ {
+  "id": "Question 61",
+  "ref": "MSCAA-041114-11545",
+  "question": "A 48 year old woman presents with sudden onset right upper quadrant pain and abdominal distension. A previous pregnancy was complicated by a deep vein thrombosis. She is jaundiced. She has a temperature of 37.4°C and pulse rate 61 bpm. She has tender hepatomegaly with the liver edge palpable 5 cm below the costal margin in the midclavicular line. Her spleen is not palpable and there is shifting dullness. Which is the most likely diagnosis?",
+  "options": [
+   "Cholangitis",
+   "Hepatic artery occlusion",
+   "Hepatic vein occlusion",
+   "Liver metastases",
+   "Superior vena cava obstruction"
+  ],
+  "answer": 2,
+  "explanation": "The triad of tender hepatomegaly, ascites (shifting dullness), and abdominal pain/jaundice in a patient with a prothrombotic history describes Budd-Chiari syndrome (hepatic vein thrombosis/occlusion)."
+ },
+ {
+  "id": "Question 62",
+  "ref": "NOT-090623-0778",
+  "question": "An 87 year old man is admitted to the hospital with lower left quadrant pain and bloody diarrhoea. A colonoscopy shows herniation of the mucosa between the taeniae coli of his large intestine. Which is the most likely diagnosis in this case?",
+  "options": [
+   "Coeliac disease",
+   "Crohn's disease",
+   "Diverticular disease",
+   "Haemorrhoids",
+   "Ulcerative colitis"
+  ],
+  "answer": 2,
+  "explanation": "Herniation of mucosa and submucosa through muscular defects between the taeniae coli defines diverticulosis / diverticular disease."
+ },
+ {
+  "id": "Question 63",
+  "ref": "MSCAA-070206-0715",
+  "question": "A 70 year old man has left loin pain and abdominal distension. He has a previous history of myocardial infarction eight years ago. On examination, he is pale and clammy. Examination findings are: temperature 36.4°C, pulse rate 125 bpm, BP 95/55 mmHg. What is the most likely cause?",
+  "options": [
+   "Acute pancreatitis",
+   "Diverticulitis",
+   "Leaking aortic aneurysm",
+   "Left ureteric stone",
+   "Perforation of the bowel"
+  ],
+  "answer": 2,
+  "explanation": "Loin or flank pain in an older vasculopath accompanied by profound hypotension, tachycardia, and pallor is a classic presentation of a ruptured or leaking abdominal aortic aneurysm (AAA)."
+ },
+ {
+  "id": "Question 64",
+  "ref": "MSCAA-070220-31546",
+  "question": "A 63 year old woman has 1 hour of pain and numbness in her left foot of sudden onset. She has tablet-controlled type 2 diabetes. She is a current smoker with a 20 pack-year history. Her foot is pale and cold to touch. The dorsalis pedis and posterior tibial artery pulses are absent on the left, whilst the popliteal and femoral pulses are present. Which is the most likely diagnosis?",
+  "options": [
+   "Acute limb ischaemia",
+   "Buerger's disease",
+   "Compartment syndrome",
+   "Deep venous thrombosis",
+   "Diabetic neuropathy"
+  ],
+  "answer": 0,
+  "explanation": "Sudden onset severe foot pain, coldness, pallor, numbness, and acute loss of distal pulses with preserved proximal pulses represents acute limb ischaemia (thromboembolic event)."
+ },
+ {
+  "id": "Question 65",
+  "ref": "MSCAA-140508-2813",
+  "question": "A 50 year old woman is admitted for surgery to remove an ovarian tumour with local spread. She had a deep vein thrombosis and pulmonary embolism after childbirth 10 years ago. She takes no medications and has no other past medical history. What is the most appropriate form of anti thrombotic prophylaxis for this patient?",
+  "options": [
+   "Aspirin",
+   "High dose warfarin",
+   "Low dose warfarin",
+   "Low molecular weight heparin",
+   "Unfractionated heparin"
+  ],
+  "answer": 3,
+  "explanation": "In patients undergoing major abdominopelvic cancer surgery with high venous thromboembolism risk, low molecular weight heparin (LMWH) combined with mechanical prophylaxis is the standard guideline-recommended thromboprophylaxis."
+ },
+ {
+  "id": "Question 66",
+  "ref": "NOT-220923-0886",
+  "question": "A 34 year old woman with Type 1 diabetes visits her GP with sharp, burning pains in her right foot that are getting worse. This has been ongoing for the past 8 months. What type of pain is this patient most likely experiencing?",
+  "options": [
+   "Inflammatory",
+   "Neuropathic",
+   "Nociceptive",
+   "Nociplastic",
+   "Radicular"
+  ],
+  "answer": 1,
+  "explanation": "Burning, lancinating, dysaesthetic foot sensations in a patient with diabetes signify peripheral neuropathy and neuropathic pain originating from direct somatosensory nerve fibre damage."
+ },
+ {
+  "id": "Question 67",
+  "ref": "MSCAA-211013-10230",
+  "question": "A 78 year old woman has 2 weeks of severe low back pain. She had a mastectomy for breast cancer 10 years ago. She had her menopause at age 40. X-ray of lumbar spine shows fractures of the L1 and L2 vertebral bodies. An MR scan of the spine is requested. Why is MR scan the most appropriate next investigation?",
+  "options": [
+   "Avoids ionising radiation exposure",
+   "Avoids the use of intravenous contrast",
+   "Provides an estimate of bone density",
+   "Provides cortical bone detail",
+   "Provides soft tissue detail"
+  ],
+  "answer": 4,
+  "explanation": "MRI offers superior soft tissue contrast resolution, allowing precise assessment of epidural extension, spinal cord/thecal sac compression, bone marrow infiltration, and differentiating benign osteoporotic fractures from malignant metastatic lesions."
+ },
+ {
+  "id": "Question 69",
+  "ref": "MSCAA-130218-19278",
+  "question": "A 28 year old woman has 4 months of painful breast lumps. The pain is worse during her menstrual cycle. Her grandmother had ovarian cancer. There are several spherical fluctuant lumps in both breasts, each less than 1 cm x 2 cm in size. There are no overlying skin changes. Which is the most likely diagnosis?",
+  "options": [
+   "Breast abscess",
+   "Carcinoma of the breast",
+   "Fat necrosis",
+   "Fibroadenoma",
+   "Fibrocystic change"
+  ],
+  "answer": 4,
+  "explanation": "Bilateral, multifocal, tender, fluctuant breast lumps that fluctuate in size and severity in sync with the menstrual cycle in a young reproductive woman are typical of fibrocystic change."
+ },
+ {
+  "id": "Question 70",
+  "ref": "MSCAA-140916-17540",
+  "question": "A 24 year old woman has a painless lump in her left breast. She has no past medical history and is taking no medication. She is apyrexial. There is a smooth, mobile lump in the left lower outer quadrant of the breast with no skin or nipple changes. There is no tenderness on palpation. Which is the most likely cause?",
+  "options": [
+   "Abscess",
+   "Carcinoma",
+   "Cyst",
+   "Fibroadenoma",
+   "Nodularity"
+  ],
+  "answer": 3,
+  "explanation": "A discrete, highly mobile, smooth, non-tender breast lump in a woman under 30 is the quintessential 'breast mouse' or fibroadenoma."
+ },
+ {
+  "id": "Question 74",
+  "ref": "MSCAA-021209-3139",
+  "question": "A 75 year old woman has pain, swelling and a reduced range of movement in her right wrist. She has rheumatoid arthritis and underwent a steroid injection in her right wrist five days ago. She takes methotrexate, paracetamol and ibuprofen. She is unwell and has a temperature of 38.5°C, pulse rate 110 bpm and blood pressure of 125/85 mmHg. Her right wrist is red, hot and swollen and there is an effusion. She is unable to flex her wrist actively or passively. What investigation is most likely to be diagnostic in this patient?",
+  "options": [
+   "Aspiration of the affected joint for crystals",
+   "Aspiration of the affected joint for Gram stain, microscopy and culture",
+   "Blood cultures",
+   "MR scan of the affected joint",
+   "E-ray of the affected joint"
+  ],
+  "answer": 1,
+  "explanation": "An acute, febrile monoarthritis following an invasive intra-articular steroid injection is septic arthritis until proven otherwise. Synovial joint fluid aspiration with urgent Gram stain, microscopy, and culture is the diagnostic gold standard."
+ },
+ {
+  "id": "Question 75",
+  "ref": "MSCAA-160219-21105",
+  "question": "A 47 year old woman has 3 months of pain and swelling in both wrists and hands. She has stiffness in her hands that lasts up to 40 minutes in the mornings. Both wrists and all metacarpophalangeal joints are swollen and tender. CRP is 10 mg/L. Which is the most likely diagnosis?",
+  "options": [
+   "Osteoarthritis",
+   "Polymyalgia rheumatica",
+   "Psoriatic arthropathy",
+   "Rheumatoid arthritis",
+   "Systemic lupus erythematosus"
+  ],
+  "answer": 3,
+  "explanation": "Symmetrical inflammatory polyarthritis involving the MCP and wrist joints with prolonged early morning stiffness lasting >30 minutes in a middle-aged woman is classic rheumatoid arthritis."
+ },
+ {
+  "id": "Question 76",
+  "ref": "MSCAA-020120-22389",
+  "question": "A 78 year old woman has a hot swollen right knee after a fall. She is struggling to weight bear. She has a history of atrial fibrillation and takes warfarin sodium. Her temperature is 36.5°C, pulse rate 90 bpm and BP 124/86 mmHg. Investigations: White cell count 8.0 x 10^9/L, INR 6.4, CRP 12 mg/L. Which is the most likely diagnosis?",
+  "options": [
+   "Acute gout",
+   "Haemarthrosis",
+   "Pseudogout",
+   "Reactive arthritis",
+   "Septic arthritis"
+  ],
+  "answer": 1,
+  "explanation": "Acute knee swelling following minor trauma in an elderly anticoagulated patient with a supratherapeutic INR (6.4) and normal inflammatory markers is indicative of acute haemarthrosis."
+ },
+ {
+  "id": "Question 77",
+  "ref": "NOT-180723-1129",
+  "question": "An 88 year old woman is admitted to hospital with breathlessness. She has severe left ventricular dysfunction. There are bibasal crackles in both lungs, her JVP is raised and she has sacral oedema. Her urine output has been <0.5 mL/kg/hr for the last 12 hours. Sodium 129 mmol/L, Potassium 3.8 mmol/L, Urea 19.0 mmol/L, Creatinine 227 µmol/L (AKI Stage 2). What is the most likely cause of her acute kidney injury?",
+  "options": [
+   "Cardiogenic",
+   "Infective",
+   "Inflammatory",
+   "Nephrotoxic",
+   "Obstructive"
+  ],
+  "answer": 0,
+  "explanation": "Decompensated severe biventricular heart failure causes renal hypoperfusion and venous congestion (Cardiorenal Syndrome / cardiogenic pre-renal AKI)."
+ },
+ {
+  "id": "Question 78",
+  "ref": "NOT-240823-1364",
+  "question": "A 65-year-old male with a history of hypertension and chronic kidney disease presents to the emergency department with weakness and palpitations. He takes Ramipril 10mg daily. He reports having had multiple episodes of watery diarrhoea over the past 48 hours after eating undercooked chicken. On examination, his blood pressure is 100/70 mmHg, heart rate is 70 bpm, and he is experiencing muscle twitching. An urgent ECG is shown below. What is the most appropriate immediate therapy?",
+  "options": [
+   "Intravenous Amiodarone",
+   "Intravenous Calcium gluconate",
+   "Intravenous Furosemide",
+   "Intravenous Glucose and insulin",
+   "Nebulised salbutamol"
+  ],
+  "answer": 1,
+  "explanation": "In severe hyperkalaemia with ECG changes, intravenous calcium gluconate is administered immediately to stabilize the cardiac myocyte membrane and prevent fatal ventricular arrhythmias."
+ },
+ {
+  "id": "Question 79",
+  "ref": "NOT-210923-1390",
+  "question": "A 58 year old previously well male presents to his GP with complaints of persistent left-sided flank pain and visible haematuria for the past month. He denies dysuria or any recent trauma. There are no palpable abdominal masses or signs of anaemia. A digital rectal examination is normal. Urinalysis is positive for red blood cells and negative for white blood cells and nitrites. What the most appropriate management plan?",
+  "options": [
+   "Perform a prostate-specific antigen (PSA) test",
+   "Perform a renal ultrasound",
+   "Prescribe cefalexin and as-required analgesia",
+   "Recommend increased fluid intake and revaluation in 2 weeks",
+   "Urgently refer to the 2-week wait urology clinic"
+  ],
+  "answer": 4,
+  "explanation": "Unexplained visible (macroscopic) haematuria in patients aged 45 and over mandates an urgent 2-week wait referral to urology to exclude bladder or upper tract transitional/renal cell carcinoma."
+ },
+ {
+  "id": "Question 80",
+  "ref": "NOT-071222-1065",
+  "question": "A 28 year old man attends his GP surgery with frank haematuria. He reports no other urinary symptoms and is usually fit and well. He is currently suffering from a coryzal illness. Urine microscopy shows dysmorphic erythrocytes, urine culture is negative. Blood tests reveal a normal renal function. Which is the most likely diagnosis?",
+  "options": [
+   "IgA nephropathy",
+   "Membranous nephropathy",
+   "Mesangiocapillary glomerulonephritis",
+   "Minimal change disease",
+   "Post-streptococcal glomerulonephritis"
+  ],
+  "answer": 0,
+  "explanation": "Synpharyngitic macroscopic haematuria developing concurrently or within 1-2 days of an upper respiratory tract infection in a young male is classic for IgA nephropathy (Berger's disease), unlike post-streptococcal GN which has a 1-3 week latent period."
+ },
+ {
+  "id": "Question 81",
+  "ref": "MSCAA-211013-10835",
+  "question": "A 54 year old woman has four hours of nausea and vomiting. For two days, she has had abdominal pain and she last opened her bowel four days ago. Over the previous three months, she has lost 8 kg in weight and noted progressive symptoms of constipation. On several occasions, she has passed blood mixed in with her bowel movements. She appears acutely uncomfortable and has a temperature of 37.3°C. Her abdomen is diffusely distended and tender to palpation in the left lower quadrant. There are hyperactive bowel sounds. A plain abdominal X-ray shows multiple small bowel air fluid levels and a dilated colon proximal to the sigmoid colon. Which is the most likely diagnosis?",
+  "options": [
+   "Colorectal carcinoma",
+   "Diverticulitis",
+   "Faecal impaction",
+   "Ovarian carcinoma",
+   "Sigmoid volvulus"
+  ],
+  "answer": 0,
+  "explanation": "Mechanical large bowel obstruction preceded by altered bowel habit, rectal bleeding, and substantial unintentional weight loss in a 54-year-old woman is most likely due to an obstructing colorectal carcinoma."
+ },
+ {
+  "id": "Question 86",
+  "ref": "MSCAA-041116-11525",
+  "question": "An 18 year old woman sees her general practitioner with recurrent episodes of sore eyes and a runny nose with sneezing. Her eyes are watery and red, with swollen conjunctivae. Which is the most appropriate management?",
+  "options": [
+   "Oral antihistamines",
+   "Oral sodium cromoglicate",
+   "Oral steroids",
+   "Steroid nasal spray",
+   "Topical chloramphenicol"
+  ],
+  "answer": 0,
+  "explanation": "Allergic rhinoconjunctivitis presenting with sneezing, rhinorrhea, and itchy watery red eyes responds effectively to systemic non-sedating oral antihistamines as initial first-line therapy."
+ },
+ {
+  "id": "Question 88",
+  "ref": "MSCAA-130515-11662",
+  "question": "A 40 year old man has had slimy and bloody diarrhoea for 3 weeks. Now he has pain in the left lower abdomen. He has had similar, less severe, episodes for the past 3 years, often accompanied with a low grade fever. These episodes settled spontaneously. He has occasional pain in the right hip. He is pale and has left lower abdominal tenderness. Which is the most likely diagnosis?",
+  "options": [
+   "Acute diverticulitis",
+   "Caecal carcinoma",
+   "Crohn's disease",
+   "Ischaemic colitis",
+   "Ulcerative colitis"
+  ],
+  "answer": 4,
+  "explanation": "Recurrent bloody diarrhoea with mucus, left lower quadrant pain/tenderness, low-grade fevers, enteropathic peripheral arthralgia (hip pain), and anaemia in a young adult is characteristic of ulcerative colitis."
+ },
+ {
+  "id": "Question 89",
+  "ref": "MSCAA-210712-9872",
+  "question": "A 45 year old man has 2 hours of colicky left sided abdominal pain radiating to his groin. The pain started abruptly and is associated with severe nausea and intermittent vomiting. He is restless and writhing in pain. There is extreme tenderness on palpation of the left costovertebral angle. Abdominal palpation is otherwise normal. Bowel sounds are present but scanty. Urinalysis shows blood 4+. Which is the most sensitive imaging investigation to confirm the likely diagnosis?",
+  "options": [
+   "Intravenous urography",
+   "MR urography",
+   "Non-contrast CT urography",
+   "Plain abdominal X-ray",
+   "Ultrasound scan of renal tract"
+  ],
+  "answer": 2,
+  "explanation": "Acute ureteric colic presents with excruciating spasmodic flank-to-groin pain, restlessness, and hematuria. Non-contrast low-dose CT of the kidneys, ureters, and bladder (CT KUB) is the gold standard imaging investigation."
+ },
+ {
+  "id": "Question 90",
+  "ref": "MSCAA-121024-31293",
+  "question": "A 78 year old woman has loss of consciousness for 20 seconds. She feels hot with blurred vision prior to collapsing. She feels nauseous during recovery. She has had three separate episodes over the past 3 weeks whilst standing in the kitchen cooking for her family. She has hypertension and takes amlodipine and indapamide. She drinks two cups of coffee and seven cups of water per day. Her pulse is 84/every bpm, BP 128/75 mmHg (lying down) and 105/73 mmHg (standing). Which is the most appropriate initial management?",
+  "options": [
+   "Add midodrine hydrochloride",
+   "Increase salt and fluid intake",
+   "Stop amlodipine",
+   "Stop caffeine",
+   "Stop indapamide"
+  ],
+  "answer": 4,
+  "explanation": "Postural drop with pre-syncopal prodrome triggered by prolonged standing demonstrates orthostatic hypotension, which is frequently exacerbated by thiazide-like diuretics such as indapamide. Stopping the offending diuretic is the primary first step."
+ },
+ {
+  "id": "Question 92",
+  "ref": "MSCAA-160507-0428",
+  "question": "A 57 year old woman has metastatic carcinoma of the colon and has been deteriorating over the last 2 weeks. She has poor appetite, is bed bound and sleeps a lot of the time. The multidisciplinary team agree that she needs palliative care. She is having difficulty in clearing her respiratory tract secretions, which is causing her significant distress. Which is the most appropriate class of medication to manage the secretions?",
+  "options": [
+   "Antiemetic",
+   "Antimuscarinic",
+   "Antipsychotic",
+   "Anxiolytic",
+   "Opioid"
+  ],
+  "answer": 1,
+  "explanation": "Terminal respiratory tract secretions ('death rattle') in palliative end-of-life care are managed using antimuscarinic (anticholinergic) agents, such as hyoscine hydrobromide or glycopyrronium, to reduce mucous production."
+ },
+ {
+  "id": "Question 96",
+  "ref": "MSCAA-260216-16579",
+  "question": "A 70 year old man has severe vertigo with nausea of sudden onset, but no deafness, tinnitus, weakness or speech disturbance. Hallpike test shows right sided nystagmus. Which is the most likely diagnosis?",
+  "options": [
+   "Acoustic neuroma",
+   "Benign positional vertigo",
+   "Cerebellar haematoma",
+   "Ménière's disease",
+   "Vertebrobasilar insufficiency"
+  ],
+  "answer": 1,
+  "explanation": "Sudden brief episodes of vertigo triggered by head movements with nausea and a positive Dix-Hallpike test eliciting positional rotatory nystagmus with no auditory symptoms are diagnostic of Benign Paroxysmal Positional Vertigo (BPPV)."
+ },
+ {
+  "id": "Question 97",
+  "ref": "MSCAA-301014-11429",
+  "question": "A 66 year old woman has three months of deteriorating vision. She has a history of hypertension and is taking amlodipine. She recently arrived in the UK from Afghanistan. Her BMI is 35 kg/m2 and BP 150/90 mmHg. Her vision is 6/12 and 6/18 in the right and left eyes respectively. Her right retina is shown in the image [demonstrating multiple hard exudates and microaneurysms encroaching the macula]. Which is the most likely cause of her reduced vision?",
+  "options": [
+   "Diabetic maculopathy",
+   "Hypertensive retinopathy",
+   "Idiopathic intracranial hypertension",
+   "Retinal vein thrombosis",
+   "Retinitis pigmentosa"
+  ],
+  "answer": 0,
+  "explanation": "Retinopathy featuring hard exudates, retinal thickening, or microaneurysms within or threatening the fovea/macular region causing subacute central visual acuity decline represents diabetic maculopathy."
+ },
+ {
+  "id": "Question 98",
+  "ref": "MSCAA-041114-11546",
+  "question": "A 35 year old woman presents to her GP with two days of upper abdominal pain. She gives a two month history of intermittent right sided discomfort related to meals. She is jaundiced. Her temperature is 37.6°C and pulse 75 bpm. She has right upper quadrant tenderness, but no guarding. Her BMI is 32. Investigations: Haemoglobin 154 g/L, White cell count 13.4 x 10^9/L, Alanine aminotransferase 71 U/L, Alkaline phosphatase 256 IU/L, Bilirubin 51 µmol/L. Which is the most likely diagnosis?",
+  "options": [
+   "Carcinoma of the head of pancreas",
+   "Gallstone in the common bile duct",
+   "Non-alcoholic steatohepatitis",
+   "Portal venous thrombosis",
+   "Sclerosing cholangitis"
+  ],
+  "answer": 1,
+  "explanation": "Postprandial RUQ pain progressing to acute painful obstructive jaundice with cholestatic LFT derangement (high ALP and conjugated bilirubin) and mild leukocytosis indicates choledocholithiasis (gallstone in the common bile duct)."
+ },
+ {
+  "id": "Question 100",
+  "ref": "MSCAA-240724-29283",
+  "question": "A 68 year old woman attends her GP with intermittent palpitations. She has diet-controlled type 2 diabetes. Her pulse is 78 bpm, regular. BP: 121/77 mmHg. Investigations: Haemoglobin 137 g/L, eGFR 85 mL/min/1.73m2; 24 hour ECG: Normal sinus rhythm with a single episode of irregularly irregular rhythm with absent P waves, and normal QRS complexes lasting 15 minutes. Ventricular rate 110 beats per minute during the episode. What is the most appropriate initial management?",
+  "options": [
+   "Start apixaban 5 mg twice daily",
+   "Start aspirin 75mg once daily",
+   "Start digoxin 125 micrograms once daily",
+   "Give digoxin 75 micrograms stat",
+   "Refer for left atrial ablation"
+  ],
+  "answer": 0,
+  "explanation": "Paroxysmal atrial fibrillation carries equivalent stroke risk to persistent AF. For a 68-year-old woman with diabetes, her CHA2DS2-VASc score is 3 (Female = 1, Age 65-74 = 1, Diabetes = 1). Direct oral anticoagulation (DOAC) such as apixaban is indicated to prevent thromboembolic stroke."
+ }
+]
