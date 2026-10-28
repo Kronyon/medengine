@@ -9,13 +9,13 @@ Q = '''
 = Every woman of reproductive age with abdominal pain has a pregnancy test first, because a ruptured ectopic kills.
 ~ Positive pregnancy test with no intrauterine pregnancy on scan → ectopic until proven otherwise.
 3T: A 41-year-old man has had right iliac fossa pain for 5 days. There is a tender mass and CT shows an inflammatory phlegmon with no abscess. What is the most appropriate management?
-> Discharge with oral antibiotics ; Emergency appendicectomy ; *IV antibiotics and conservative management ; Percutaneous drainage ; Right hemicolectomy
+> Discharge with oral antibiotics ; Emergency appendicectomy ; *IV antibiotics without surgery ; CT-guided percutaneous drainage ; Right hemicolectomy
 = A late appendix mass is stuck to the bowel, so early surgery is risky. Treat with antibiotics and consider an interval appendicectomy, with a colonoscopy if over 40.
 ~ CT shows a 5 cm abscess → percutaneous drainage plus antibiotics.
 
 @u 41
 1R: A 45-year-old woman has 18 hours of right upper quadrant pain and a fever. Murphy's sign is positive. Ultrasound shows gallstones and a thickened gallbladder wall with a normal bile duct. What is the most appropriate management?
-> Delayed cholecystectomy at 8 weeks ; ERCP ; IV antibiotics alone ; *Laparoscopic cholecystectomy within 1 week ; Percutaneous cholecystostomy
+> Interval cholecystectomy after 8 weeks ; ERCP with sphincterotomy ; IV antibiotics then discharge ; *Laparoscopic cholecystectomy within 1 week ; Percutaneous cholecystostomy
 = Acute cholecystitis: antibiotics and laparoscopic cholecystectomy within a week of diagnosis. ERCP is for stones in the duct.
 ~ Too frail for surgery → percutaneous cholecystostomy.
 2L: A 39-year-old woman has 2 hours of colicky right upper quadrant pain after a fried meal, which has now settled. She has no fever and a normal white cell count. Ultrasound shows gallstones. What is the most likely diagnosis?
@@ -33,7 +33,7 @@ Q = '''
 = Charcot's triad: fever, right upper quadrant pain and jaundice means infected, blocked bile.
 ~ Add confusion and hypotension → Reynolds' pentad, severe cholangitis.
 2R: A woman with cholangitis has a stone in a dilated common bile duct on ultrasound. Despite IV antibiotics and fluids her blood pressure is falling. What is the most appropriate next step?
-> Continue antibiotics alone ; Laparoscopic cholecystectomy now ; MRCP ; Percutaneous transhepatic drainage first ; *Urgent ERCP to drain the duct
+> Continue antibiotics ; Laparoscopic cholecystectomy now ; MRCP ; Percutaneous transhepatic drainage first ; *Urgent ERCP to drain the duct
 = Antibiotics cannot sterilise blocked bile: the duct must be decompressed, usually by ERCP with sphincterotomy and stone removal, urgently if septic.
 ~ ERCP not possible because of altered anatomy → percutaneous transhepatic biliary drainage.
 3L: A 39-year-old man with ulcerative colitis has itch and a raised ALP. MRCP shows multiple strictures giving a beaded appearance to the bile ducts. What is the most likely diagnosis?
@@ -61,7 +61,7 @@ Q = '''
 = 3 to 4.4 cm: yearly scans. 4.5 to 5.4 cm: every 3 months. 5.5 cm or more, growth over 1 cm a year or symptoms: vascular referral within 2 weeks.
 ~ Aneurysm 5.7 cm → refer within 2 weeks for repair.
 2R: A 76-year-old man with a known 6 cm aneurysm collapses with back pain. His pulse is 130 and blood pressure 70/40. What is the most appropriate next step?
-> Bedside FAST scan before deciding ; CT angiogram first ; Fluid resuscitation to a normal blood pressure ; Admit to HDU for monitoring ; *Immediate transfer to theatre with the vascular team
+> Bedside FAST scan before deciding ; CT angiogram before any decision ; Fluids to a normal blood pressure ; Admission to HDU for monitoring ; *Immediate transfer to theatre
 = An unstable patient with a known aneurysm and symptoms goes straight to theatre. Permissive hypotension is used on the way, and scans waste time.
 ~ Stable with suspected leak → CT angiography to plan EVAR or open repair.
 3T: Which group is invited to the NHS abdominal aortic aneurysm screening programme?
@@ -85,7 +85,7 @@ Q = '''
 
 @u 46
 1R: A 69-year-old woman has suspected sepsis from a urinary source. Her blood pressure is 88/50 and lactate 4.2 mmol/L. Blood cultures can be taken in the next 5 minutes. What is the most appropriate order of actions?
-> Antibiotics first, cultures once she is stable ; Await a urine culture result ; CT abdomen and pelvis ; *Take blood cultures then give IV antibiotics within the hour ; Fluids and review the next morning
+> IV antibiotics, then cultures once stable ; Await the urine culture result ; CT abdomen, then antibiotics ; *Blood cultures, then IV antibiotics at once ; IV fluids, then review in 6 hours
 = Cultures before antibiotics, as long as that does not delay the antibiotic. The first hour counts most.
 ~ Cultures cannot be taken quickly → give the antibiotics first.
 2N: A 52-year-old man with a suspected chest infection has a NEWS2 score of 6. His lactate and kidney function are normal. Within what time should antibiotics be given if sepsis is still suspected after senior review?
@@ -93,17 +93,17 @@ Q = '''
 = NICE 2024: NEWS2 of 7 or more means antibiotics within 1 hour; 5 or 6 means senior review within 1 hour and antibiotics within 3 hours if needed.
 ~ NEWS2 of 8 → within 1 hour.
 3N: A woman with septic shock has had 2 litres of crystalloid. Her mean arterial pressure is 58 mmHg and lactate 5 mmol/L. What is the most appropriate next step?
-> Another 2 litres of fluid ; Dobutamine ; IV adrenaline on the ward ; IV hydrocortisone alone ; *Noradrenaline with critical care input
+> A further 2 litres of crystalloid ; Dobutamine infusion ; IV adrenaline bolus on the ward ; IV hydrocortisone 200 mg ; *Noradrenaline infusion
 = Septic shock is hypotension needing vasopressors to keep MAP at 65 or more, with lactate over 2 despite fluids. Noradrenaline is first choice.
 ~ MAP 72 after the first fluid bolus → reassess, no vasopressor.
 
 @u 47
 1L: A 22-year-old woman has lower abdominal pain, deep pain during sex and a new vaginal discharge. She has a temperature of 38 °C and cervical motion tenderness. Her pregnancy test is negative. What is the most likely diagnosis?
-> Appendicitis ; Ectopic pregnancy ; Endometriosis ; Ovarian torsion ; *Pelvic inflammatory disease
+> Acute appendicitis ; Ruptured ectopic pregnancy ; Endometriosis ; Torsion of an ovarian cyst ; *Pelvic inflammatory disease
 = PID: ascending infection, usually chlamydia or gonorrhoea, with pelvic pain, discharge and cervical excitation. Treat on suspicion.
 ~ Positive pregnancy test with shoulder tip pain → ectopic pregnancy.
 2D: A 24-year-old woman with PID is well enough to be treated as an outpatient. Which is the most appropriate regimen?
-> Amoxicillin for 7 days ; Azithromycin 1 g single dose ; *IM ceftriaxone once then doxycycline and metronidazole for 14 days ; Metronidazole for 7 days ; Nitrofurantoin for 5 days
+> Oral amoxicillin and metronidazole ; Azithromycin with metronidazole ; *Ceftriaxone, doxycycline and metronidazole ; Ciprofloxacin, doxycycline and metronidazole ; Co-amoxiclav, doxycycline and metronidazole
 = UK PID treatment covers gonorrhoea, chlamydia and anaerobes: a single ceftriaxone dose plus 14 days of doxycycline and metronidazole.
 ~ Allergic to ceftriaxone → ofloxacin with metronidazole for 14 days.
 3T: A woman being treated for PID now has right upper quadrant pain that is worse on breathing. Her gallbladder ultrasound is normal. What is the most likely diagnosis?
@@ -121,7 +121,7 @@ Q = '''
 = Valvulae conniventes cross the whole width of small bowel. Colonic haustra only cross part of the way and the loops sit around the edge.
 ~ Peripheral dilated loops with haustra that do not cross the full width → large bowel obstruction.
 3R: An 84-year-old care-home resident has abdominal distension and absolute constipation. X-ray shows a coffee bean shape rising from the pelvis. There are no signs of peritonitis. What is the most appropriate management?
-> Colonoscopy ; Emergency laparotomy ; *Flexible sigmoidoscopy with a flatus tube ; Hartmann's procedure ; IV neostigmine
+> Diagnostic colonoscopy ; Emergency laparotomy ; *Endoscopic decompression ; Hartmann's procedure ; IV neostigmine infusion
 = Sigmoid volvulus without ischaemia is untwisted endoscopically and a flatus tube left in. Many go on to elective surgery as it recurs.
 ~ Caecal volvulus, or signs of perforation or ischaemia → surgery.
 
@@ -135,7 +135,7 @@ Q = '''
 = An inferior MI often presents as epigastric pain, especially in diabetes. The ECG is quick and changes the plan at once.
 ~ ECG normal and lipase 4 times normal → acute pancreatitis.
 3T: A 14-year-old boy has 3 hours of lower abdominal pain and vomiting. His abdomen is soft. Which examination must not be missed?
-> Digital rectal examination ; Examination of the hips ; Examination of the spine ; *Examination of the testes ; Urine dipstick only
+> Digital rectal examination ; Examination of the hips ; Examination of the spine ; *Examination of the testes ; Urine dipstick
 = Testicular torsion often presents as lower abdominal pain in boys, who may be embarrassed to mention the testis. Missing it costs the testis within hours.
 ~ Tenderness at McBurney's point with Rovsing's sign → appendicitis.
 

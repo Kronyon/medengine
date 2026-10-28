@@ -5,7 +5,7 @@ Q = '''
 = Third-person voices and thought withdrawal are first-rank symptoms. Lasting over a month with a decline in function makes it schizophrenia.
 ~ A single fixed belief for months with otherwise normal behaviour and no hallucinations → delusional disorder.
 2T: A 30-year-old woman develops hallucinations and persecutory ideas a week after a house fire. Within 3 weeks she is completely back to normal. What is the most likely diagnosis?
-> *Acute and transient psychotic disorder ; Bipolar disorder ; Delusional disorder ; Post-traumatic stress disorder ; Schizophrenia
+> *Acute and transient psychotic disorder ; Bipolar affective disorder ; Delusional disorder ; Post-traumatic stress disorder ; Schizophrenia
 = Psychosis with sudden onset, often after stress, that settles within weeks to a few months is acute and transient psychotic disorder.
 ~ First-rank symptoms persisting for over a month → schizophrenia.
 3L: A 68-year-old woman with severe depression says she is dead and her insides have rotted away. Which term describes this?
@@ -15,7 +15,7 @@ Q = '''
 
 @u 101
 1D: A 19-year-old man had his first dose of haloperidol 6 hours ago. His neck is twisted to one side and his eyes are fixed looking upwards. What is the most appropriate treatment?
-> Dantrolene ; Lorazepam alone ; *Procyclidine ; Propranolol ; Tetrabenazine
+> Dantrolene ; Lorazepam ; *Procyclidine ; Propranolol ; Tetrabenazine
 = Acute dystonia appears within hours to days of starting an antipsychotic. An anticholinergic such as procyclidine reverses it quickly.
 ~ Inner restlessness and unable to sit still after a few weeks → akathisia, reduce the dose or try propranolol.
 2T: A 58-year-old woman has taken haloperidol for 6 years. She now has lip smacking, tongue thrusting and chewing movements. What is the most likely diagnosis?
@@ -23,7 +23,7 @@ Q = '''
 = Tardive dyskinesia comes after months to years of dopamine blockade. Anticholinergics make it worse.
 ~ Within hours of the first dose with eyes rolled upwards → acute dystonia.
 3N: Five days after starting haloperidol, a man has a temperature of 39.5 °C, lead-pipe rigidity, a labile blood pressure and confusion. His CK is 12,000 U/L. What is the most appropriate management?
-> Add procyclidine ; Cyproheptadine ; Increase the haloperidol dose ; Lorazepam and continue haloperidol ; *Stop haloperidol, give IV fluids and supportive care, considering dantrolene
+> Add procyclidine ; Cyproheptadine ; Increase the haloperidol ; Lorazepam, continue haloperidol ; *Stop haloperidol, IV fluids
 = Neuroleptic malignant syndrome: stop the antipsychotic, cool and rehydrate to protect the kidneys from muscle breakdown. Dantrolene or bromocriptine if severe.
 ~ Clonus and hyperreflexia within 24 hours of adding tramadol to sertraline → serotonin syndrome, cyproheptadine.
 
@@ -37,7 +37,7 @@ Q = '''
 = Under 25s have a higher risk of suicidal thoughts when starting antidepressants, so review after 1 week. Others are reviewed at 2 weeks.
 ~ A 45-year-old with no raised risk → review at 2 weeks.
 3T: A 56-year-old man with depression lives alone since his divorce. Which feature most raises his immediate risk of suicide?
-> A paracetamol overdose 20 years ago ; He drinks 10 units a week ; He is still working ; *He has recently written a will and given away his belongings ; He visits his daughter weekly
+> An overdose 20 years ago ; Drinking 10 units a week ; Still working full time ; *Recently made a will ; Weekly visits to his daughter
 = Final acts such as a will, a note or giving things away show planning and intent, the strongest warning signs. Older men living alone are already high risk.
 ~ No plan, future-focused and close to family → lower immediate risk, but still make a safety plan.
 
@@ -47,7 +47,7 @@ Q = '''
 = Mania: elevated mood, reduced need for sleep, pressured speech and reckless spending, with grandiose delusions here. It marks bipolar type I.
 ~ The same mood change for 4 days, still working and no psychosis → hypomania.
 2D: A 31-year-old woman has a first manic episode. She takes no psychiatric drugs. Which is the most appropriate first-line treatment?
-> Carbamazepine ; Clonazepam alone ; Lamotrigine ; *Olanzapine ; Sertraline
+> Carbamazepine ; Clonazepam ; Lamotrigine ; *Olanzapine ; Sertraline
 = NICE: acute mania is treated with an antipsychotic such as haloperidol, olanzapine, quetiapine or risperidone. Stop any antidepressant.
 ~ Not responding to two antipsychotics → add lithium.
 3N: A man has just started lithium for bipolar disorder. When should the blood sample for his lithium level be taken?
@@ -79,7 +79,7 @@ Q = '''
 = NICE: trauma-focused CBT or EMDR are first-line. Drugs are for people who prefer them or cannot engage.
 ~ She prefers medication → venlafaxine or an SSRI such as sertraline.
 3T: Two days after a major incident, managers want a single group debriefing session for all staff. What is the most appropriate advice?
-> All staff should attend ; Debriefing should be compulsory for those injured ; Offer benzodiazepines to all ; Prescribe SSRIs to prevent PTSD ; *Do not offer single-session debriefing; provide support and active monitoring
+> All staff should attend ; Compulsory for those injured ; Benzodiazepines for all ; SSRIs to prevent PTSD ; *Support and active monitoring
 = Single-session debriefing does not prevent PTSD and may make it worse. Watch, support and offer treatment to those who develop symptoms.
 ~ Clear PTSD symptoms still present after a month → trauma-focused CBT.
 
@@ -93,7 +93,7 @@ Q = '''
 = Clomipramine, a strongly serotonergic tricyclic, is next for OCD that has not responded to SSRIs.
 ~ No treatment yet → SSRI with CBT including exposure and response prevention.
 3N: A woman with OCD started fluoxetine 6 weeks ago and has improved a little. What is the most appropriate next step?
-> Add an antipsychotic ; Stop the drug ; Switch to another SSRI now ; *Continue for at least 12 weeks before judging the response ; Switch to clomipramine now
+> Add an antipsychotic ; Stop fluoxetine ; Switch to sertraline now ; *Continue to 12 weeks ; Switch to clomipramine now
 = OCD responds more slowly than depression and often needs higher doses. Give 12 weeks at an adequate dose before changing.
 ~ No response at 12 weeks on the maximum dose → switch SSRI or try clomipramine.
 
@@ -107,7 +107,7 @@ Q = '''
 = Malingering is faking symptoms for an external reward such as compensation, benefits or avoiding court. It is not a mental disorder.
 ~ Secretly injects insulin to be admitted with nothing to gain but the sick role → factitious disorder.
 3R: A woman has had several unexplained physical symptoms for years with many normal tests. What is the most appropriate management?
-> Antipsychotic medication ; Repeat all tests each visit ; Refer to a new specialist for each symptom ; *Regular scheduled appointments with one named GP ; Tell her nothing is wrong and discharge her
+> Antipsychotic medication ; Repeat the tests each visit ; Refer to each specialty ; *Regular planned GP reviews ; Discharge with reassurance
 = Medically unexplained symptoms: one clinician, regular planned reviews rather than crisis visits, limit repeat tests and offer CBT.
 ~ A new red flag symptom → investigate it properly.
 
@@ -127,7 +127,7 @@ Q = '''
 
 @u 109
 1L: A 24-year-old woman has stormy relationships, frequent self-harm, chronic emptiness and frantic fear of being abandoned. What is the most likely diagnosis?
-> Antisocial personality disorder ; Bipolar disorder ; Dependent personality disorder ; *Emotionally unstable personality disorder, borderline type ; Histrionic personality disorder
+> Antisocial personality disorder ; Bipolar affective disorder ; Dependent personality disorder ; *Borderline personality disorder ; Histrionic personality disorder
 = Borderline EUPD: unstable identity, mood and relationships, impulsive self-harm and fear of abandonment.
 ~ Shallow emotions with dramatic attention-seeking → histrionic personality disorder.
 2D: A woman with borderline personality disorder asks about longer-term treatment. Which is the most appropriate?
@@ -141,7 +141,7 @@ Q = '''
 
 @u 110
 1D: A 52-year-old man who drinks heavily is confused, unsteady on his feet and has nystagmus. What is the most appropriate immediate treatment?
-> Chlordiazepoxide alone ; Haloperidol ; IV glucose first ; *IV high-dose thiamine ; Oral thiamine
+> Chlordiazepoxide ; Haloperidol ; IV glucose first ; *IV high-dose thiamine ; Oral thiamine
 = Wernicke's encephalopathy: confusion, ataxia and eye signs. Give IV thiamine such as Pabrinex at once, before glucose, which can make it worse.
 ~ Permanent memory loss with confabulation → Korsakoff's syndrome.
 2T: On day 3 of an admission, a man who drinks heavily becomes confused and agitated, sees insects on the walls and has a temperature, tremor and fast pulse. What is the most likely diagnosis?
@@ -155,11 +155,11 @@ Q = '''
 
 @u 111
 1T: A 22-year-old woman took paracetamol tablets on and off over 24 hours. What is the most appropriate management?
-> Activated charcoal ; Discharge if she feels well ; Oral methionine ; *Start IV acetylcysteine without waiting for a level ; Take a level at 4 hours and decide
+> Activated charcoal ; Discharge if she is well ; Oral methionine ; *Start acetylcysteine now ; Level at 4 hours, then decide
 = With a staggered overdose the nomogram cannot be used: start acetylcysteine and check paracetamol, ALT and INR.
 ~ A single overdose 2 hours ago → take a level at 4 hours and plot it.
 2N: A woman on lithium started ibuprofen for back pain. She has a coarse tremor, slurred speech and diarrhoea. Her lithium level is 2.1 mmol/L and kidney function is normal. What is the most appropriate management?
-> Activated charcoal ; Continue lithium at a lower dose ; Give furosemide ; Procyclidine ; *Stop lithium and ibuprofen and give IV fluids
+> Activated charcoal ; Reduce the lithium dose ; IV furosemide ; Urgent haemodialysis ; *Stop lithium, IV fluids
 = NSAIDs, ACE inhibitors and thiazides cut lithium excretion. Stop it, rehydrate and monitor. Charcoal does not bind lithium.
 ~ Level over 4 mmol/L, or severe neurological features or kidney failure → haemodialysis.
 3D: A man has taken an overdose of amitriptyline. His QRS is 140 ms and blood pressure 85/50. What is the most appropriate treatment?
@@ -183,7 +183,7 @@ Q = '''
 
 @u 113
 1D: A 45-year-old woman with depression has stopped talking, eating and moving. She holds odd postures for hours. Which is the most appropriate first treatment?
-> ECT straight away ; Haloperidol ; *Lorazepam ; Olanzapine ; Procyclidine
+> ECT ; Haloperidol ; *Lorazepam ; Olanzapine ; Procyclidine
 = Catatonia responds to benzodiazepines in most cases. A lorazepam challenge is also diagnostic.
 ~ No response to lorazepam, or life-threatening catatonia → ECT.
 2L: A man holds his arm in the air for hours. When the examiner moves his limbs, they stay in the new position as if made of wax. He is not on antipsychotics and has no fever. What is the most likely diagnosis?
@@ -201,7 +201,7 @@ Q = '''
 = Autism: differences in social communication plus restricted, repetitive behaviour and interests, present from early childhood.
 ~ Inattentive, impulsive and hyperactive at home and school with normal social skills → ADHD.
 2R: A GP suspects autism in a 5-year-old girl. What is the most appropriate next step?
-> Genetic testing first ; MRI brain ; *Refer to the local autism assessment team ; Trial of risperidone ; Wait 2 years and review
+> Genetic testing ; MRI brain ; *Autism assessment team ; Trial of risperidone ; Review in 2 years
 = Autism is diagnosed by a specialist multidisciplinary team using history and observation. There is no blood test or scan for it.
 ~ A girl who loses her speech and develops hand-wringing → Rett syndrome, test for MECP2.
 3D: An autistic teenager has severe aggression that has not responded to behavioural approaches. Which drug may be considered?
@@ -233,7 +233,7 @@ Q = '''
 = Typical antipsychotics worsen Parkinson's and Lewy body disease severely. A low-dose benzodiazepine is used with care instead.
 ~ No Parkinson's or Lewy body disease → low-dose haloperidol, short term.
 3L: An 80-year-old man admitted with pneumonia has become quiet, sleepy and withdrawn and is not eating. His 4AT score is 6. What is the most likely diagnosis?
-> Catatonia ; Dementia ; Depression ; *Hypoactive delirium ; Normal ageing
+> Catatonia ; Lewy body dementia ; Depression ; *Hypoactive delirium ; Normal ageing
 = Hypoactive delirium looks like low mood or tiredness and is often missed. A 4AT of 4 or more suggests delirium.
 ~ 4AT score of 0 with low mood for months → depression.
 
@@ -247,7 +247,7 @@ Q = '''
 = Symptoms usually start within a month of the stressor and settle within about 6 months unless the stressor continues.
 ~ Symptoms still present long after the stressor has ended → reconsider the diagnosis.
 3R: A woman has an adjustment disorder after her divorce. What is the most appropriate management?
-> Antipsychotic ; Benzodiazepine ; *Supportive problem-solving and watchful waiting ; SSRI first-line ; Psychiatric admission
+> Low-dose antipsychotic ; Short benzodiazepine course ; *Support and problem-solving ; Start sertraline ; Psychiatric admission
 = Most adjustment disorders settle as the person adapts. Support, problem-solving and brief therapy help. Drugs are not routine.
 ~ She now meets criteria for a depressive episode → treat as depression.
 
@@ -271,11 +271,11 @@ Q = '''
 = NICE: methylphenidate is first-line for children aged 5 and over. Lisdexamfetamine is next if a 6-week trial does not work.
 ~ An adult → lisdexamfetamine or methylphenidate first.
 2N: A child is about to start methylphenidate. Which baseline measures are needed?
-> EEG ; ECG for every child ; *Height, weight, heart rate and blood pressure ; Liver function tests ; MRI brain
+> EEG ; Echocardiogram ; *Growth, pulse and blood pressure ; Liver and kidney function ; MRI brain and urine drug screen
 = Stimulants reduce appetite and can slow growth and raise pulse and blood pressure. Plot growth and monitor every 6 months.
 ~ A family history of sudden cardiac death or fainting on exercise → ECG and cardiology advice first.
 3D: A boy on methylphenidate is eating less and his height is falling across the centiles. His ADHD is well controlled. What is the most appropriate step?
-> Add cyproheptadine ; Add growth hormone ; *Consider a planned break in treatment, such as in school holidays ; Stop it permanently ; Switch to dexamfetamine
+> Add cyproheptadine ; Add growth hormone ; *Planned treatment break ; Stop it ; Switch to dexamfetamine
 = NICE suggests a planned break in treatment to allow catch-up growth when a stimulant slows it.
 ~ Growth and weight on track → continue with checks every 6 months.
 
@@ -303,7 +303,7 @@ Q = '''
 = Fragile X is the commonest inherited cause of learning disability: CGG repeat expansion, long face, big ears and macro-orchidism.
 ~ Floppy as a baby, then constant hunger and obesity → Prader-Willi syndrome.
 3R: A 40-year-old man with severe learning disability and no speech has started banging his head and refusing food. What is the most appropriate first step?
-> Admit to a psychiatric unit ; Increase sedation ; Start risperidone ; *Look for a physical cause such as dental pain, constipation or reflux ; Behavioural plan alone
+> Psychiatric admission ; Increase sedation ; Start risperidone ; *Look for a physical cause ; Behaviour support plan
 = Diagnostic overshadowing: blaming new behaviour on the disability misses pain. People who cannot speak show pain through behaviour.
 ~ Physical causes excluded and the behaviour continues → a positive behaviour support plan.
 '''

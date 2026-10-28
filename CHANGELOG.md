@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.4.0 (2026-10-28)
+
+🔨 **Hammer SBAs, Passmedicine-style, and 501 new mock-style questions.**
+- **Move back and forth:** a numbered palette (green right, red wrong) jumps to any question; ← Prev and Next →, or the arrow keys, move without losing answers. 🏁 End finishes early; ✕ Leave keeps your place.
+- **Save and come back:** every pick, cross-out and your place are saved with your progress. The Hammer hub shows ⏸ Unfinished run with ▶ Resume, after a reload too.
+- **Cross out options** before you answer: tap ✕, right-click the option or press Shift and the letter. Tap again to undo.
+- **🧲 Triggers under the answer:** after each answer, the matching ⭐ signature line and up to 4 trigger lines (condition clues, bugs, drugs, investigations, management), with a jump to that unit's triggers.
+- **No give-away options:** every option set was rebalanced so the answer is not the longest or most detailed one (it had been the longest in 47% of questions; now about 28%, close to the 20% of chance, with tiny margins), and distractors no longer carry absolute words such as only, never or always. `hammer.py` now fails any question whose answer is much longer than every distractor or whose distractors carry an absolute word the answer lacks.
+- **Set B: 501 new questions written to the mock's style:** 3 more for every ILO condition (unit 57 gets 6), with realistic vignettes, numbers to interpret, short sibling options and the same pattern mix. Total 1,470 hammers plus the 91 mock questions.
+- Content in `study/snap/hq2_*.py`. Tests: `study/test_study_v22.py` now checks the palette, Prev and ArrowLeft, cross-outs, resume after reload, triggers under the answer and the option-length audit; the oldest STUDY tests accept 2.x versions.
+
 ## 2.3.0 (2026-10-28)
 
 🔨 **Hammer SBAs** in medengine-STUDY, built from the formative mock: what it tests, and three graded questions for everything in the ILOs.

@@ -19,7 +19,7 @@ Q = '''
 = NICE: a prostate that feels malignant is a suspected cancer referral whatever the PSA. Some aggressive cancers make little PSA.
 ~ Smooth, benign-feeling prostate with a normal PSA → no cancer referral.
 2R: A 64-year-old man is seen in urology with a raised PSA. Which is the most appropriate first investigation?
-> Bone scan ; CT abdomen and pelvis ; *Multiparametric MRI of the prostate ; PSMA PET scan ; Transrectal biopsy straight away
+> Isotope bone scan ; CT abdomen and pelvis ; *Multiparametric MRI of the prostate ; PSMA PET scan ; Transrectal ultrasound-guided biopsy
 = MRI comes first in the UK pathway. It decides who needs a biopsy and where to aim it.
 ~ MRI scores 3 or more on the Likert scale → targeted biopsy, usually transperineal.
 3D: A man with prostate cancer and bone metastases in his spine is about to start goserelin. What should be given first?
@@ -37,7 +37,7 @@ Q = '''
 = NICE: aged 60 or over with unexplained non-visible haematuria plus dysuria or a raised white cell count → suspected cancer referral.
 ~ Aged 52 with non-visible haematuria alone → not a suspected cancer referral; check kidney function, ACR and blood pressure.
 3D: After TURBT, a man has high-grade non-muscle-invasive bladder cancer. Which further treatment is most appropriate?
-> Systemic cisplatin chemotherapy ; *Intravesical BCG ; Pelvic radiotherapy ; Radical cystectomy at once ; Surveillance only
+> Systemic cisplatin chemotherapy ; *Intravesical BCG ; Pelvic radiotherapy ; Radical cystectomy ; Surveillance
 = High-risk non-muscle-invasive disease is treated with BCG instilled into the bladder, which provokes a local immune attack and cuts recurrence and progression.
 ~ Muscle-invasive tumour → radical cystectomy or radiotherapy, usually after chemotherapy.
 
@@ -47,7 +47,7 @@ Q = '''
 = A left renal tumour can grow into the left renal vein, which drains the left testicular vein, causing a varicocele that does not empty lying down.
 ~ A child under 5 with an abdominal mass → Wilms tumour.
 2N: A 64-year-old man with a flank mass has a haemoglobin of 195 g/L and normal oxygen saturations. What is the most likely explanation?
-> Chronic hypoxia ; Dehydration ; *Erythropoietin made by a renal cell carcinoma ; Polycythaemia vera ; Testosterone use
+> Chronic hypoxia ; Dehydration ; *Tumour erythropoietin ; Polycythaemia vera ; Testosterone use
 = Renal cell carcinoma can make erythropoietin, PTH-related peptide and other hormones, so polycythaemia and hypercalcaemia are classic paraneoplastic features.
 ~ JAK2 positive with itching after a hot bath → polycythaemia vera.
 3L: A 28-year-old man has tumours in both kidneys and a cerebellar haemangioblastoma. What is the most likely diagnosis?
@@ -65,13 +65,13 @@ Q = '''
 = Distal ureteric stones under 10 mm often pass: an alpha-blocker helps them through. Stones under 5 mm usually pass alone.
 ~ A 2.5 cm stone in the renal pelvis → percutaneous nephrolithotomy.
 3R: A woman with a ureteric stone has rigors, a temperature of 39 °C and hydronephrosis on CT. What is the most appropriate management?
-> Discharge on oral antibiotics ; Extracorporeal shockwave lithotripsy ; Tamsulosin and IV antibiotics ; *Urgent nephrostomy or ureteric stent with IV antibiotics ; Ureteroscopy to remove the stone today
+> Oral antibiotics at home ; Shockwave lithotripsy ; Tamsulosin and IV antibiotics ; *Urgent nephrostomy ; Ureteroscopy today
 = An infected, obstructed kidney is a urological emergency: drain it first. The stone is dealt with later once the infection is treated.
 ~ No fever and pain controlled → watchful waiting with an alpha-blocker.
 
 @u 80
 1D: A 28-year-old woman has dysuria and frequency for 2 days. She is not pregnant and her eGFR is normal. Which is the most appropriate treatment?
-> Amoxicillin ; Cefalexin ; Ciprofloxacin ; Co-amoxiclav ; *Nitrofurantoin for 3 days
+> Amoxicillin for 3 days ; Cefalexin for 7 days ; Ciprofloxacin for 3 days ; Co-amoxiclav for 5 days ; *Nitrofurantoin for 3 days
 = Uncomplicated lower UTI in a woman: nitrofurantoin for 3 days, or trimethoprim if resistance is unlikely.
 ~ eGFR 35 → avoid nitrofurantoin; trimethoprim or pivmecillinam.
 2T: A woman who is 12 weeks pregnant has a UTI. Which is the most appropriate treatment?
@@ -89,17 +89,17 @@ Q = '''
 = A hydrocele surrounds the testis, so the testis cannot be felt apart from it. It transilluminates and you can get above it.
 ~ A swelling separate from and above the testis → epididymal cyst.
 2R: A 76-year-old man had a catheter placed and his foreskin was left retracted. It cannot be pulled back and the glans is swollen. What is the most appropriate management?
-> Antibiotics ; Circumcision today ; *Manual reduction with analgesia, ice and compression ; Remove the catheter only ; Topical steroid
+> Oral antibiotics ; Emergency circumcision ; *Manual reduction ; Remove the catheter ; Topical steroid
 = Paraphimosis is an emergency: the foreskin acts like a tourniquet. Reduce it with analgesia and compression. Always replace the foreskin after catheterising.
 ~ A 3-year-old whose foreskin does not retract with no problems → physiological phimosis, reassure.
 3T: A 24-year-old man with sickle cell disease has had a painful erection for 5 hours. What is the most appropriate management?
-> Doppler ultrasound next week ; Ice packs and wait ; *Aspiration of the corpora with phenylephrine if needed ; Oral tadalafil ; Urgent circumcision
+> Doppler ultrasound next week ; Ice packs and wait ; *Corporal aspiration ; Oral terbutaline ; Exchange transfusion
 = Ischaemic priapism over 4 hours is an emergency: blood is trapped and the tissue is dying. Aspirate and use phenylephrine.
 ~ A painless partial erection after a perineal injury → high-flow priapism, not an emergency to aspirate.
 
 @u 82
 1D: A 24-year-old sexually active man has a swollen, tender left epididymis and a urethral discharge. Which is the most appropriate treatment?
-> Amoxicillin ; *IM ceftriaxone with oral doxycycline ; Nitrofurantoin ; Ofloxacin alone ; Trimethoprim
+> Amoxicillin and metronidazole ; *Ceftriaxone and doxycycline ; Nitrofurantoin ; Ofloxacin ; Trimethoprim
 = Under 35 and sexually active, epididymo-orchitis is usually chlamydia or gonorrhoea: ceftriaxone plus doxycycline, and partner notification.
 ~ A 65-year-old with BPH and urinary symptoms → enteric organisms, ofloxacin or levofloxacin.
 2L: A 19-year-old student had a swollen parotid gland last week. Now his right testis is swollen and painful. What is the most likely diagnosis?
@@ -121,17 +121,17 @@ Q = '''
 = Salvage is over 90% within 6 hours and falls steeply after that.
 ~ After 24 hours → most testes are lost, but it is still explored.
 3T: At exploration, a twisted testis turns pink after it is untwisted. What is the most appropriate next step?
-> Close and review in clinic ; *Fix both testes ; Fix only the twisted testis ; Orchidectomy ; Fix the other testis at a later operation
+> Close and review in clinic ; *Fix both testes ; Fix the twisted testis ; Orchidectomy ; Fix the other testis at a later operation
 = The bell clapper deformity is usually on both sides, so both testes are fixed at the same operation.
 ~ The testis stays black after untwisting → orchidectomy, and fix the other side.
 
 @u 84
 1R: A 30-year-old man has a painless, hard lump in his right testis. What is the most appropriate first investigation?
-> AFP alone ; CT chest, abdomen and pelvis ; MRI pelvis ; *Scrotal ultrasound ; Testicular biopsy through the scrotum
+> AFP ; CT chest, abdomen and pelvis ; MRI pelvis ; *Scrotal ultrasound ; Testicular biopsy through the scrotum
 = A testicular lump gets an urgent ultrasound. Tumours are never biopsied through the scrotum as that spreads cells to a different set of nodes.
 ~ Ultrasound confirms a solid mass → tumour markers, staging CT and inguinal orchidectomy.
 2N: A 26-year-old man has a testicular tumour. His AFP is raised. What type of tumour is it most likely to be?
-> Leydig cell tumour ; Lymphoma ; *Non-seminomatous germ cell tumour ; Seminoma ; Sertoli cell tumour
+> Leydig cell tumour ; Diffuse large B-cell lymphoma ; *Non-seminomatous germ cell tumour ; Classical seminoma ; Spermatocytic tumour
 = A raised AFP means non-seminomatous elements such as yolk sac tumour. Pure seminoma does not make AFP, but can make some hCG.
 ~ AFP normal with a mildly raised hCG → seminoma.
 3T: A 71-year-old man has a firm, painless testicular mass. What is the most likely diagnosis?
@@ -141,15 +141,15 @@ Q = '''
 
 @u 85
 1T: You are catheterising a man. The catheter is inserted but no urine has come out yet. What is the most appropriate next step?
-> Inflate the balloon now ; Inflate with 30 ml of air ; *Advance the catheter fully and wait for urine before inflating ; Pull it back 5 cm and inflate ; Remove and try a smaller catheter
+> Inflate the balloon now ; Inflate with 10 ml of air ; *Advance fully and wait ; Withdraw 5 cm and inflate ; Swap to a smaller catheter
 = Inflating before urine flows risks blowing the balloon up in the urethra. Insert fully to the hub and inflate only once urine drains.
 ~ Urine is flowing → inflate the balloon with the volume of sterile water stated on the catheter.
 2R: A man had a catheter placed for retention 4 hours ago. The bag is empty and a bladder scan shows 600 ml. What is the most appropriate next step?
-> Give furosemide ; Give IV fluids ; Reassure ; Remove the catheter permanently ; *Check the tubing, then flush or replace the catheter
+> IV furosemide ; IV fluid bolus ; Reassure and recheck ; Remove the catheter ; *Flush or replace it
 = Urine in the bladder but none in the bag means the catheter is blocked or kinked. Fix the drainage.
 ~ Bladder scan is empty with a low output → oliguria: assess fluids and look for AKI.
 3R: A woman with a long-term catheter, in place for 3 months, has a fever and loin pain. What is the most appropriate order of actions?
-> Antibiotics only, keep the catheter ; Remove the catheter and do not replace it ; Send urine from the bag and start antibiotics ; *Replace the catheter, send urine from the new one, then start antibiotics ; Wait for culture before treating
+> Antibiotics, keep the catheter ; Remove it, no new catheter ; Bag sample, then antibiotics ; *New catheter, sample, antibiotics ; Await culture, then treat
 = Old catheters carry biofilm. Change it before antibiotics if it has been in over 7 days, and sample from the new catheter, never the bag.
 ~ A positive dipstick in a well patient with a catheter → no antibiotic.
 '''

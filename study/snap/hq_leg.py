@@ -5,11 +5,11 @@ Q = '''
 = Popliteal aneurysms are the commonest peripheral aneurysm: a pulsatile and expansile mass in the popliteal fossa. They thrombose or throw emboli rather than burst.
 ~ Non-pulsatile fluctuant swelling in a person with knee osteoarthritis → Baker's cyst.
 2R: A 70-year-old man has a popliteal artery aneurysm on duplex scan. Which further investigation is most important?
-> Coronary angiogram ; CT head ; Echocardiogram ; *Ultrasound of the abdominal aorta and the other popliteal artery ; Ankle-brachial pressure index alone
+> Coronary angiogram ; CT head ; Echocardiogram ; *Aorta and contralateral ultrasound ; Ankle-brachial pressure index
 = Half of popliteal aneurysms are bilateral and many people also have an aortic aneurysm, so both are scanned.
 ~ Pulsatile groin lump after a femoral angiogram → false aneurysm, treated with ultrasound-guided thrombin injection.
 3T: A day after a coronary angiogram through the right femoral artery, a man has a tender pulsatile lump in his right groin with a systolic bruit. What is the most likely diagnosis?
-> Arteriovenous fistula ; *False aneurysm of the femoral artery ; Femoral hernia ; Groin haematoma ; Inguinal lymph node
+> Arteriovenous fistula ; *Femoral false aneurysm ; Femoral hernia ; Groin haematoma ; Reactive inguinal node
 = A puncture that does not seal leaks into a cavity held by surrounding tissue: a pulsatile lump with a bruit at the access site.
 ~ A continuous machinery bruit at the puncture site → arteriovenous fistula.
 
@@ -19,17 +19,17 @@ Q = '''
 = Sudden onset, a source such as AF, no history of claudication and normal pulses in the other leg point to an embolus. Without collaterals the leg goes white fast.
 ~ Years of claudication and weak pulses in both legs → thrombosis in situ.
 2R: A man has an acutely ischaemic leg that is still viable: sensation and movement are intact. What is the most appropriate immediate management?
-> Amputation ; Aspirin and outpatient review ; Catheter-directed thrombolysis on the ward ; CT angiogram then discharge ; *IV unfractionated heparin and urgent vascular review
+> Primary amputation ; Aspirin and outpatient review ; Ward thrombolysis ; CT angiogram then discharge home ; *IV heparin and urgent vascular review
 = Heparin stops the clot spreading while the vascular team plans embolectomy, bypass or thrombolysis. Every hour of ischaemia counts.
 ~ Fixed mottling, a rigid calf and paralysis → irreversible: amputation or palliation.
 3T: Six hours after an embolectomy, a woman has severe calf pain that is much worse when her foot is moved passively. The calf is tense. What is the most appropriate management?
-> Analgesia and elevation ; Compression bandage ; Heparin infusion alone ; *Fasciotomy of all four compartments ; Repeat embolectomy
+> Analgesia and elevation ; Compression bandage ; Heparin infusion ; *Four-compartment fasciotomy ; Repeat embolectomy
 = Reperfusion swells the muscle inside tight fascia: compartment syndrome. Pain on passive stretch is the earliest sign; pulses are often still present. Fasciotomy is needed.
 ~ The foot goes white and pulseless again → re-occlusion, back to theatre.
 
 @u 62
 1R: A 66-year-old smoker gets calf pain after walking 200 m that goes with rest. His ankle-brachial pressure index is 0.7. What is the most appropriate first-line management?
-> Angioplasty ; Femoropopliteal bypass ; Naftidrofuryl ; Rest and avoid walking ; *Supervised exercise programme with clopidogrel, atorvastatin 80 mg and smoking cessation
+> Angioplasty and stenting ; Femoropopliteal bypass ; Naftidrofuryl ; Cilostazol ; *Supervised exercise programme
 = Intermittent claudication: supervised exercise, stopping smoking and cardiovascular risk reduction first. Most people improve.
 ~ Still limited after the exercise programme → imaging to consider angioplasty.
 2N: A 71-year-old man with diabetes has absent foot pulses but an ankle-brachial pressure index of 1.45. What is the most appropriate next test?
@@ -47,7 +47,7 @@ Q = '''
 = Neuropathic ulcers form over pressure points of a numb foot and are painless, often with a callus rim.
 ~ Shallow ulcer over the medial malleolus with brown staining → venous ulcer.
 2N: A 70-year-old woman has a venous leg ulcer. Her ankle-brachial pressure index is 0.9. What is the most appropriate treatment?
-> Oral antibiotics ; Skin graft ; Topical steroid ; Vascular bypass ; *Multilayer compression bandaging
+> Oral antibiotics ; Split-skin graft ; Topical steroid ; Vascular bypass ; *Multilayer compression
 = Compression is the treatment for venous ulcers once arterial disease is excluded with an ABPI of 0.8 or more.
 ~ ABPI 0.5 → no compression; refer to vascular surgery.
 3L: A 77-year-old man has had a venous ulcer for 15 years. It has recently grown and now has a raised, rolled edge. What is the most likely diagnosis?
@@ -57,7 +57,7 @@ Q = '''
 
 @u 64
 1R: A 45-year-old woman has varicose veins in both legs. She has no symptoms, skin changes or bleeding, and wants them removed for appearance. What is the most appropriate management?
-> Compression stockings ; Endothermal ablation ; Foam sclerotherapy ; *Reassure; NHS referral is not indicated ; Vascular referral
+> Compression stockings ; Endothermal ablation ; Foam sclerotherapy ; *Reassurance ; Vascular referral
 = NICE refers varicose veins that cause symptoms, skin changes, thrombophlebitis, ulcers or bleeding. Purely cosmetic veins are not treated on the NHS.
 ~ Brown skin and eczema around the ankle → refer to the vascular service.
 2R: A man with symptomatic varicose veins and great saphenous reflux on duplex is seen in the vascular clinic. Which is the most appropriate first-line treatment?
@@ -79,17 +79,17 @@ Q = '''
 = Lipoedema is abnormal fat in women: symmetrical, tender, easy bruising and the feet are spared, leaving a cuff at the ankle.
 ~ Swelling that includes the feet with a positive Stemmer sign → lymphoedema.
 3D: A man with leg lymphoedema has had 3 episodes of cellulitis this year. Which is the most appropriate long-term measure?
-> Compression with no other measures ; Furosemide ; Long-term topical antifungal only ; *Phenoxymethylpenicillin prophylaxis ; Surgery to remove lymph tissue
+> Compression with no other measures ; Furosemide ; Long-term topical antifungal ; *Phenoxymethylpenicillin prophylaxis ; Surgery to remove lymph tissue
 = Recurrent cellulitis in lymphoedema, 2 or more episodes a year, is prevented with long-term low-dose penicillin, along with skin care and compression.
 ~ A first episode → treat that episode, usually with flucloxacillin.
 
 @u 66
 1D: A 28-year-old woman has painful white then blue fingers in the cold that turn red on warming. Gloves and stopping smoking have not been enough. Which is the most appropriate drug?
-> Aspirin ; Atenolol ; Diltiazem ; Iloprost ; *Nifedipine modified release
+> Low-dose aspirin ; Atenolol ; Sildenafil ; Iloprost infusion ; *Modified-release nifedipine
 = Primary Raynaud's: keep warm and stop smoking, then modified-release nifedipine. IV prostacyclins are for severe secondary disease.
 ~ Digital ulcers or onset after 30 → look for secondary causes such as connective tissue disease.
 2L: A 52-year-old woman has Raynaud's, tight shiny skin on her fingers, telangiectasia on her face, calcium deposits in her fingertips and trouble swallowing. What is the most likely diagnosis?
-> Dermatomyositis ; Diffuse systemic sclerosis ; *Limited cutaneous systemic sclerosis ; Primary Raynaud's ; Systemic lupus erythematosus
+> Dermatomyositis ; Diffuse systemic sclerosis ; *Limited cutaneous systemic sclerosis ; Mixed connective tissue disease ; Systemic lupus erythematosus
 = CREST: calcinosis, Raynaud's, oesophageal dysmotility, sclerodactyly and telangiectasia, with anti-centromere antibodies.
 ~ Anti-Scl-70 with skin thickening up to the trunk → diffuse systemic sclerosis.
 3D: A man's Raynaud's has worsened since he started a drug for performance anxiety. Which drug is most likely?

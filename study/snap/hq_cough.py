@@ -1,7 +1,7 @@
 Q = '''
 @u 15
 1D: A 26-year-old woman is newly diagnosed with asthma after a positive FeNO and variable peak flow. She has symptoms twice a week. Which is the most appropriate first treatment?
-> *As-needed low-dose budesonide with formoterol ; Salbutamol inhaler alone ; Montelukast ; Regular tiotropium ; Oral prednisolone
+> *As-needed budesonide with formoterol ; As-needed salbutamol ; Regular montelukast ; Regular beclometasone with salbutamol ; Regular salmeterol
 = The 2024 UK guideline starts adults on an anti-inflammatory reliever: low-dose ICS with formoterol taken when needed. A SABA alone is no longer offered.
 ~ Still uncontrolled on as-needed ICS with formoterol → low-dose maintenance and reliever therapy, MART.
 2N: A 31-year-old man has acute asthma. He cannot finish sentences, his respiratory rate is 27, pulse 115, saturations 95% and peak flow is 40% of his best. How severe is this attack?
@@ -15,7 +15,7 @@ Q = '''
 
 @u 16
 1L: A 63-year-old man who has smoked for 40 pack-years has a chronic productive cough and breathlessness on exertion. Post-bronchodilator FEV1/FVC is 0.61 with little reversibility. What is the most likely diagnosis?
-> Asthma ; Bronchiectasis ; *Chronic obstructive pulmonary disease ; Heart failure ; Idiopathic pulmonary fibrosis
+> Asthma ; Bronchiectasis ; *COPD ; Heart failure ; Idiopathic pulmonary fibrosis
 = Post-bronchodilator FEV1/FVC under 0.7 in a long-term smoker with persistent symptoms confirms COPD. Large reversibility or variability points to asthma.
 ~ FEV1/FVC 0.78 with daily cupfuls of purulent sputum → bronchiectasis.
 2D: A 67-year-old woman with COPD still has breathlessness despite her salbutamol inhaler. She has no asthmatic features and a normal eosinophil count. What is the most appropriate next step?
@@ -23,13 +23,13 @@ Q = '''
 = No asthmatic or steroid-responsive features → dual bronchodilator, a LABA with a LAMA.
 ~ Previous asthma diagnosis, raised eosinophils or variable FEV1 → LABA with an inhaled steroid.
 3N: A 72-year-old man with COPD has stopped smoking. His PaO2 on air is 7.6 kPa on two readings 3 weeks apart and he has ankle oedema. What is the most appropriate management?
-> Ambulatory oxygen only ; *Long-term oxygen therapy for at least 15 hours a day ; No oxygen as PaO2 is over 7.3 kPa ; Short-burst oxygen as needed ; Non-invasive ventilation at home
+> Ambulatory oxygen ; *Long-term oxygen therapy ; No oxygen therapy ; Short-burst oxygen ; Home non-invasive ventilation
 = LTOT is offered if PaO2 is under 7.3 kPa, or 7.3 to 8 kPa with polycythaemia, peripheral oedema or pulmonary hypertension. The oedema makes him eligible.
 ~ He still smokes → no LTOT, because of the fire risk.
 
 @u 17
 1R: A 48-year-old woman has coughed up large amounts of purulent sputum every day for 2 years and has had 4 chest infections this year. Which investigation confirms the most likely diagnosis?
-> Chest X-ray ; *High-resolution CT chest ; Spirometry ; Sputum culture ; Sweat test
+> Chest X-ray ; *High-resolution CT chest ; Spirometry with reversibility ; Sputum culture ; Sweat chloride test
 = Bronchiectasis is confirmed on HRCT: airways wider than the next artery, the signet ring sign, and no tapering towards the edge.
 ~ A young adult with malabsorption, diabetes or infertility as well → sweat test or genetic test for cystic fibrosis.
 2L: A man with bronchiectasis has an exacerbation. His sputum grows Gram-negative rods that produce a green pigment and smell of grapes on the plate. Which organism is this?
@@ -43,11 +43,11 @@ Q = '''
 
 @u 18
 1R: A healthy 34-year-old woman has had a cough with clear sputum for 10 days. She has no fever and her chest is clear. What is the most appropriate management?
-> Amoxicillin for 5 days ; Chest X-ray ; Doxycycline for 5 days ; Oral prednisolone ; *Self-care advice with no antibiotic
+> Amoxicillin for 5 days ; Chest X-ray ; Doxycycline for 5 days ; Oral prednisolone ; *Self-care advice
 = Acute bronchitis is usually viral and the cough can last 3 weeks. Antibiotics do not help a healthy adult with a clear chest.
 ~ Focal crackles, fever and a fast breathing rate → assess for pneumonia.
 2N: A 71-year-old man has acute bronchitis and some comorbidity. A point-of-care CRP is 46 mg/L. What is the most appropriate management?
-> Admission to hospital ; Chest X-ray ; *Back-up antibiotic prescription ; Immediate antibiotic ; No antibiotic
+> Admission to hospital ; Same-day chest X-ray ; *Back-up antibiotic ; Immediate antibiotic ; No antibiotic
 = Point-of-care CRP: under 20 mg/L no antibiotic, 20 to 100 mg/L a back-up prescription, over 100 mg/L an immediate antibiotic.
 ~ CRP 130 mg/L → immediate antibiotic.
 3D: A 45-year-old man with acute bronchitis and a CRP of 120 mg/L needs an antibiotic. He has no allergies and is not pregnant. Which is the most appropriate first choice?
@@ -71,7 +71,7 @@ Q = '''
 
 @u 20
 1R: A 34-year-old man who moved from a country with high TB rates has 2 months of night sweats, weight loss and blood-streaked sputum. His chest X-ray shows a right upper lobe cavity. What is the most appropriate first investigation?
-> Bronchoscopy ; CT thorax ; Interferon gamma release assay ; Mantoux test ; *Three sputum samples for acid-fast bacilli, culture and nucleic acid test
+> Bronchoscopy with lavage ; CT thorax ; Interferon gamma release assay ; Mantoux test ; *Sputum smear, culture and NAAT
 = Active TB is confirmed on sputum: smear for AFB, culture, and rapid nucleic acid amplification to look for rifampicin resistance. He goes in a side room in the meantime.
 ~ A well household contact with no symptoms → IGRA or Mantoux to screen for latent TB.
 2D: A 46-year-old woman is 6 weeks into TB treatment. She now has numbness and tingling in both feet. Which drug is most likely responsible?
@@ -107,7 +107,7 @@ Q = '''
 = Silica dust from stone, quarrying and sandblasting causes upper zone fibrosis and eggshell hilar calcification, and raises the risk of TB.
 ~ Lower zone fibrosis with clubbing in a pipe lagger → asbestosis.
 3T: A 79-year-old man who fitted boilers for 30 years dies of mesothelioma at home under palliative care. What is the most appropriate next step for the death certificate?
-> Issue the medical certificate as death was expected ; Ask the family to consent to a hospital post-mortem ; Complete cremation forms only ; No action needed ; *Refer the death to the coroner
+> Issue the medical certificate as death was expected ; Ask the family to consent to a hospital post-mortem ; Complete cremation forms ; No action needed ; *Refer the death to the coroner
 = A death caused by an industrial disease such as mesothelioma must be referred to the coroner, however expected it was. It can also lead to compensation for the family.
 ~ Expected death from lung cancer in a lifelong smoker with no work exposure → medical examiner review and an MCCD.
 

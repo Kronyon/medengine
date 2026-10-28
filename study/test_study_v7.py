@@ -50,7 +50,7 @@ def run(width, mock=True):
         def hashgo(h, wait=400):
             pg.evaluate(f"location.hash = '{h}'"); pg.wait_for_timeout(wait)
 
-        if not re.search(r'v(0\.([789]|1\d)|1\.\d+)\.\d', pg.text_content('#homeBtn')): errs.append('version not 0.7+')
+        if not re.search(r'v(0\.([789]|1\d)|[12]\.\d+)\.\d', pg.text_content('#homeBtn')): errs.append('version not 0.7+')
         if not pg.locator('#main [data-go="jargon"]').count(): errs.append('home: no Jargon decoder button')
 
         # ---- dual-code clinchers ----

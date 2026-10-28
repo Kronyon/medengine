@@ -5,7 +5,7 @@ Q = '''
 = Long-term PPIs can cause hypomagnesaemia, which also drives low calcium and potassium. Other risks include C. difficile, fractures and B12 deficiency.
 ~ Recurrent diarrhoea after antibiotics on a PPI → C. difficile.
 2D: A 62-year-old starts naproxen for osteoarthritis of the hip. What should be prescribed with it?
-> Misoprostol for everyone ; Nothing extra ; *A proton pump inhibitor ; Ranitidine ; Sucralfate
+> Misoprostol ; Low-dose aspirin ; *A proton pump inhibitor ; Ranitidine ; Sucralfate suspension
 = NICE: offer a PPI with any oral NSAID used for osteoarthritis, at the lowest dose for the shortest time.
 ~ A topical NSAID for the knee → no PPI needed.
 3L: A 70-year-old woman on lansoprazole has had watery diarrhoea for 3 months. Colonoscopy looks normal but biopsies show lymphocytes in the lining. What is the most likely diagnosis?
@@ -19,7 +19,7 @@ Q = '''
 = Mesalazine can cause interstitial nephritis, so kidney function is checked before starting and then regularly.
 ~ He takes sulfasalazine instead → full blood count and liver tests too, and orange urine and low sperm counts.
 2D: A woman on mesalazine has a sore throat, fever and mouth ulcers. What is the most appropriate step?
-> Antibiotics and continue ; Double the dose ; Gargle and review in 1 week ; *Check a full blood count urgently ; Switch to prednisolone at once
+> Amoxicillin and continue carbimazole ; Double the dose ; Gargle and review in 1 week ; *Check a full blood count urgently ; Switch to propylthiouracil
 = Aminosalicylates can cause blood dyscrasias. Unexplained bleeding, bruising or a sore throat need an urgent blood count.
 ~ Same symptoms on carbimazole → the same advice, for agranulocytosis.
 3D: A man with ulcerative colitis on sulfasalazine and his partner have not conceived after a year. What is the most appropriate change?
@@ -29,7 +29,7 @@ Q = '''
 
 @d immunomodulators Azathioprine, methotrexate and biologics
 1D: A man on azathioprine for Crohn's disease is about to start allopurinol for gout. What is the most appropriate advice?
-> Allopurinol is safe with no changes ; Double the azathioprine ; *Reduce azathioprine to a quarter of the dose or avoid the combination ; Stop allopurinol after 1 week ; Take them 12 hours apart
+> No change needed ; Double the azathioprine ; *Quarter the azathioprine dose ; Use allopurinol for 1 week ; Take them 12 hours apart
 = Allopurinol blocks xanthine oxidase, which breaks down azathioprine, so levels rise and cause marrow suppression.
 ~ Colchicine for the flare instead → no interaction.
 2T: A woman is about to start infliximab. Which infection must be screened for first?
@@ -37,17 +37,17 @@ Q = '''
 = Anti-TNF drugs can reactivate latent TB. Screen with IGRA and a chest X-ray, plus hepatitis B and C, HIV and varicella.
 ~ Live vaccines are due → avoided while on biologics.
 3N: A woman is starting methotrexate. What is the correct dosing advice?
-> Daily with folic acid daily ; *Once a week on the same day, with folic acid on a different day ; Twice weekly ; Once a month ; Daily for 5 days then stop
+> Daily, with daily folic acid ; *Weekly, folic acid another day ; Twice weekly, with folic acid ; Weekly, with folinic acid daily ; Daily for 5 days each month
 = Methotrexate is taken once weekly. Daily dosing by mistake causes fatal marrow suppression. Folic acid reduces side effects.
 ~ She has been taking it daily by mistake → stop, check blood count and give folinic acid.
 
 @d laxatives Laxatives
 1D: A man with cirrhosis has become confused and drowsy with a flapping tremor. There is no bleeding or infection. Which is the most appropriate first treatment?
-> Haloperidol ; *Lactulose ; Loperamide ; Lorazepam ; Senna alone
+> Haloperidol ; *Lactulose ; Loperamide ; Lorazepam ; Senna
 = Hepatic encephalopathy: lactulose acidifies the colon so ammonia is trapped and excreted. Aim for 2 to 3 soft stools a day.
 ~ Recurrent episodes despite lactulose → add rifaximin.
 2T: A 4-year-old has had hard stools for 3 months. Diet advice has not helped. Which is the most appropriate first laxative?
-> Docusate ; Lactulose alone ; *Macrogol ; Phosphate enema ; Senna alone
+> Docusate ; Lactulose ; *Macrogol ; Phosphate enema ; Senna
 = NICE: macrogol is first-line for children, with a disimpaction regimen first if they are impacted.
 ~ An adult taking codeine → osmotic plus stimulant laxative.
 3D: A palliative care patient has constipation from opioids despite regular macrogol and senna. There is no obstruction. Which drug may be considered?
@@ -71,11 +71,11 @@ Q = '''
 
 @d liverdrugs Liver drugs
 1D: A 52-year-old woman has itch, a raised ALP and anti-mitochondrial antibodies. Which is the most appropriate first treatment?
-> Azathioprine ; Prednisolone ; Rifaximin ; Terlipressin ; *Ursodeoxycholic acid
+> Azathioprine ; Prednisolone ; Colestyramine ; Obeticholic acid ; *Ursodeoxycholic acid
 = Primary biliary cholangitis is treated with ursodeoxycholic acid, which slows progression.
 ~ Itch alone needing relief → colestyramine.
 2N: A man with a heavy alcohol history has jaundice, fever and a tender liver. His discriminant function is 46. What is the most appropriate drug?
-> N-acetylcysteine alone ; Pentoxifylline ; *Prednisolone ; Terlipressin ; Ursodeoxycholic acid
+> N-acetylcysteine ; Pentoxifylline ; *Prednisolone ; Terlipressin ; Ursodeoxycholic acid
 = Severe alcoholic hepatitis with a Maddrey score of 32 or more may benefit from prednisolone if there is no infection or bleeding.
 ~ Maddrey score under 32 → supportive care, nutrition and abstinence.
 3D: A man with cirrhosis has large varices on endoscopy that have never bled. Which is the most appropriate preventive drug?
@@ -85,11 +85,11 @@ Q = '''
 
 @d metformin Metformin
 1D: A woman started metformin 4 weeks ago and has diarrhoea and abdominal cramps. What is the most appropriate change?
-> Add loperamide ; Stop and start insulin ; *Switch to modified-release metformin ; Switch to gliclazide straight away ; Take it on an empty stomach
+> Add regular loperamide ; Stop and start basal insulin ; *Switch to modified-release metformin ; Switch to gliclazide ; Take it on an empty stomach each morning
 = Gut upset is common with standard metformin. Modified-release forms are better tolerated. Start low and go slow.
 ~ Still not tolerated → consider a different drug class.
 2N: At what eGFR should metformin be stopped?
-> Under 60 ; Under 45 ; *Under 30 ; Under 15 ; It never needs stopping
+> Under 60 ; Under 45 ; *Under 30 ; Under 15 ; Under 10
 = Metformin is stopped below an eGFR of 30 and the dose is reviewed between 30 and 45, as it can build up and cause lactic acidosis.
 ~ eGFR 40 → review and reduce the dose.
 3T: A man on metformin has an eGFR of 50 and needs a CT scan with IV contrast. What is the most appropriate advice?
@@ -99,7 +99,7 @@ Q = '''
 
 @d sulfonylureas Sulfonylureas, DPP-4 inhibitors and pioglitazone
 1D: Which side effect is most typical of gliclazide?
-> Genital thrush ; *Hypoglycaemia and weight gain ; Lactic acidosis ; Pancreatitis ; Weight loss
+> Genital thrush ; *Hypoglycaemia ; Lactic acidosis ; Acute pancreatitis ; Weight loss
 = Sulfonylureas make the pancreas release insulin whatever the glucose, so hypos and weight gain are the main problems.
 ~ A DPP-4 inhibitor → weight neutral with little hypo risk.
 2D: A 66-year-old man with type 2 diabetes has heart failure. Which drug should be avoided?
@@ -113,39 +113,39 @@ Q = '''
 
 @d glp1 GLP-1 receptor agonists
 1N: A man with type 2 diabetes has a BMI of 37 and high HbA1c despite metformin, gliclazide and sitagliptin. What is the most appropriate next step?
-> Add pioglitazone ; Increase gliclazide ; *Switch one drug to a GLP-1 receptor agonist ; Start insulin first ; Stop all drugs
+> Add pioglitazone ; Increase the gliclazide ; *Switch to a GLP-1 agonist ; Start basal insulin ; Add dapagliflozin
 = NICE: if triple therapy fails and BMI is 35 or more with obesity problems, consider switching to a GLP-1 agonist.
 ~ BMI 30 → only if insulin would affect his job or weight loss would help other conditions.
 2N: Six months after starting semaglutide, what must be achieved to continue it?
-> Any fall in HbA1c ; HbA1c under 48 ; *HbA1c fall of 11 mmol/mol and weight loss of 3% ; Weight loss of 10% ; No targets
+> Any fall in HbA1c ; HbA1c under 48 mmol/mol ; *HbA1c down 11, weight down 3% ; Weight down 10% ; HbA1c down 5, weight down 1%
 = NICE: continue only if HbA1c has fallen by at least 11 mmol/mol and weight by at least 3% at 6 months.
 ~ HbA1c down 5 with weight down 1% → stop and review.
 3L: A woman on semaglutide has severe epigastric pain going through to her back. What is the most appropriate action?
-> Continue and give antacids ; Halve the dose ; *Stop semaglutide and check for pancreatitis ; Switch to liraglutide ; Take it with food
+> Continue with antacids ; Halve the dose ; *Stop it and check lipase ; Switch to liraglutide ; Add a PPI and continue
 = GLP-1 agonists are linked to acute pancreatitis and gallstones. Stop and do not restart if confirmed.
 ~ Mild nausea in the first weeks → usually settles; continue.
 
 @d insulin Insulin regimens
 1D: A 22-year-old is newly diagnosed with type 1 diabetes. Which insulin regimen is most appropriate?
-> Mixed insulin twice daily ; NPH insulin at bedtime only ; *Basal-bolus with twice-daily detemir and mealtime rapid-acting insulin ; Sliding scale with meals ; Tablets first
+> Twice-daily mixed insulin ; Bedtime NPH insulin ; *Basal-bolus insulin ; Variable-rate insulin infusion ; Metformin first
 = NICE: multiple daily injections, with twice-daily detemir as basal and rapid-acting insulin with meals.
 ~ Type 2 diabetes starting insulin → NPH once or twice daily.
 2T: A man with type 1 diabetes has flu and is not eating. What is the most appropriate advice about his insulin?
-> Stop all insulin until eating ; Stop the basal insulin ; *Keep taking basal insulin and check glucose and ketones often ; Take only his rapid-acting insulin ; Halve every dose
+> Stop all insulin until eating ; Stop the basal insulin ; *Continue basal, check ketones ; Rapid-acting insulin with meals ; Halve every dose
 = Sick day rules: never stop basal insulin. Illness raises glucose and ketones. Extra rapid-acting insulin may be needed.
 ~ Ketones over 3 or vomiting → go to hospital.
 3T: A woman with type 1 diabetes has erratic glucose readings and soft lumps where she always injects. What is the most likely cause?
-> Insulin allergy ; Insulin antibodies ; *Lipohypertrophy from repeated injection in one place ; Wrong insulin type ; Gastroparesis
+> Insulin allergy ; Insulin antibodies ; *Lipohypertrophy ; Lipoatrophy ; Gastroparesis
 = Lumpy fat at overused sites absorbs insulin unpredictably. Rotate sites and avoid the lumps.
 ~ Glucose swings after meals with early fullness and vomiting → gastroparesis.
 
 @d thyroiddrugs Thyroid drugs
 1T: How should levothyroxine be taken?
-> At bedtime with milk ; *On an empty stomach 30 to 60 minutes before breakfast, away from iron and calcium ; With breakfast and coffee ; With iron tablets to help absorption ; Twice a day with meals
+> At bedtime with a glass of milk ; *Before breakfast on an empty stomach ; With breakfast and coffee ; With an iron tablet ; Twice daily with meals
 = Food, coffee, iron, calcium and PPIs reduce absorption. Separate iron and calcium by about 4 hours.
 ~ She has started ferrous sulfate and her TSH has risen → separate the doses.
 2D: A woman with Graves' disease and active eye disease is considering radioactive iodine. What is the most appropriate advice?
-> Eye disease always improves with it ; No precautions needed ; Pregnancy can follow straight away ; *It can worsen eye disease, so steroid cover is needed or another option chosen ; It is safe in pregnancy
+> It improves eye disease ; No precautions are needed ; Pregnancy can follow ; *It may worsen eye disease ; It is safe during pregnancy
 = Radioiodine can worsen thyroid eye disease, especially in smokers. Steroid cover is given. Avoid pregnancy for 6 months afterwards.
 ~ No eye disease → radioiodine is fine.
 3N: Six weeks into carbimazole, a woman's TSH is still suppressed but her free T4 is now low. What is the most appropriate step?
@@ -159,11 +159,11 @@ Q = '''
 = Prednisolone 5 mg ≈ hydrocortisone 20 mg ≈ dexamethasone 0.75 mg in glucocorticoid effect.
 ~ The question asks for dexamethasone → about 0.75 mg.
 2T: A man with Addison's disease has flu with a temperature of 38.5 °C. What is the most appropriate advice about his hydrocortisone?
-> Continue the usual dose ; *Double the daily dose until he is well ; Stop it until the fever settles ; Switch to fludrocortisone only ; Take it once at night
+> Continue the usual dose ; *Double the daily dose until he is well ; Stop it until the fever has settled ; Add fludrocortisone for a week ; Take the whole dose once at night
 = Sick day rules: double the glucocorticoid dose during fever or illness. If vomiting, give IM hydrocortisone and seek help.
 ~ Vomiting and cannot keep tablets down → IM hydrocortisone 100 mg and go to hospital.
 3R: A woman with Addison's disease is vomiting, confused and has a blood pressure of 78/40. What is the most appropriate immediate step?
-> Oral hydrocortisone 20 mg ; Short synacthen test first ; *IV hydrocortisone 100 mg and IV fluids ; IV dexamethasone after the scan ; Fludrocortisone only
+> Oral hydrocortisone 20 mg ; Short synacthen test first ; *IV hydrocortisone 100 mg and IV fluids ; IV dexamethasone after a CT head ; Oral fludrocortisone and IV fluids
 = Adrenal crisis: IV or IM hydrocortisone 100 mg at once and saline. Do not wait for tests.
 ~ Suspected new adrenal failure in a stable patient → short synacthen test.
 
@@ -177,7 +177,7 @@ Q = '''
 = Cranial DI: the kidney can respond but no ADH is made, so giving desmopressin concentrates the urine.
 ~ No rise after desmopressin → nephrogenic DI.
 3D: A man on long-term lithium passes large amounts of dilute urine and does not respond to desmopressin. Which treatment can help?
-> Desmopressin at a higher dose ; *Amiloride or a thiazide ; Fluid restriction alone ; Furosemide ; Increase the lithium
+> Desmopressin at a higher dose ; *Amiloride or a thiazide ; Fluid restriction ; Furosemide ; Increase the lithium
 = Lithium causes nephrogenic DI. Amiloride blocks lithium entering the collecting duct, and thiazides paradoxically cut urine volume.
 ~ Cranial DI after pituitary surgery → desmopressin.
 '''

@@ -5,7 +5,7 @@ Q = '''
 = HbA1c of 48 mmol/mol or more diagnoses diabetes, but without symptoms it needs a second result to confirm.
 ~ Thirst, polyuria and weight loss with the same result → one result is enough.
 2D: A 61-year-old man who had a myocardial infarction 2 years ago is diagnosed with type 2 diabetes. He is starting metformin. Which drug should be added once metformin is tolerated?
-> DPP-4 inhibitor ; Insulin ; Pioglitazone ; *SGLT2 inhibitor such as dapagliflozin ; Sulfonylurea
+> Sitagliptin ; Basal insulin ; Pioglitazone ; *Dapagliflozin ; Gliclazide
 = NICE: type 2 diabetes with established cardiovascular disease or heart failure → metformin plus an SGLT2 inhibitor, which reduces cardiac events.
 ~ No cardiovascular disease, heart failure or high risk → metformin alone first.
 3L: A slim 24-year-old woman has diabetes. Her mother and grandmother were diagnosed in their 20s. Her islet antibodies are negative and her C-peptide is normal. What is the most likely diagnosis?
@@ -15,7 +15,7 @@ Q = '''
 
 @u 68
 1R: A 19-year-old man with type 1 diabetes has DKA. His blood pressure is 86/54. What is the most appropriate first step?
-> Fixed-rate IV insulin at once ; IV sodium bicarbonate ; IV potassium 40 mmol over 10 minutes ; *IV 0.9% saline bolus ; 10% glucose infusion
+> Fixed-rate IV insulin ; IV sodium bicarbonate ; IV potassium 40 mmol over 10 minutes ; *IV 0.9% saline bolus ; 10% glucose infusion
 = Fluid first: systolic under 90 → 500 ml of 0.9% saline over 10 to 15 minutes, repeated as needed. Insulin follows once fluids are running.
 ~ Systolic over 90 → 1 litre of 0.9% saline over 1 hour, then start fixed-rate insulin.
 2N: A woman with DKA is on fixed-rate insulin. Her potassium is 4.2 mmol/L. How much potassium should be added to the next litre of fluid?
@@ -29,7 +29,7 @@ Q = '''
 
 @u 69
 1L: An 82-year-old woman with type 2 diabetes is drowsy and very dry. Her glucose is 48 mmol/L, osmolality 345 mOsm/kg, ketones 0.6 mmol/L and pH 7.34. What is the most likely diagnosis?
-> Diabetes insipidus ; Diabetic ketoacidosis ; Euglycaemic ketoacidosis ; *Hyperosmolar hyperglycaemic state ; Lactic acidosis
+> Diabetes insipidus ; Diabetic ketoacidosis ; Euglycaemic ketoacidosis ; *Hyperosmolar hyperglycaemic state ; Metformin-associated lactic acidosis
 = HHS: very high glucose and osmolality over 320 with severe dehydration, but no significant ketones or acidosis. It builds over days.
 ~ Ketones of 5 mmol/L and pH 7.1 → DKA.
 2N: A patient has sodium 150 mmol/L, glucose 40 mmol/L and urea 20 mmol/L. What is the calculated serum osmolality?
@@ -43,11 +43,11 @@ Q = '''
 
 @u 70
 1D: A 34-year-old woman on insulin is sweaty and shaky with a glucose of 2.8 mmol/L. She is alert and can swallow. What is the most appropriate first treatment?
-> IM glucagon 1 mg ; IV 20% glucose ; *150 to 200 ml of fruit juice or 4 to 5 glucose tablets ; A glass of milk and a biscuit ; Wait and recheck in 30 minutes
+> IM glucagon 1 mg ; IV 20% glucose ; *A glass of fruit juice ; A glass of milk and a biscuit ; Recheck in 30 minutes
 = Conscious hypo: 15 to 20 g of fast-acting carbohydrate, recheck in 10 to 15 minutes, then a longer-acting snack once over 4.
 ~ Unconscious or cannot swallow → IM glucagon or IV glucose.
 2D: An 80-year-old man on gliclazide is found confused with a glucose of 2.1 mmol/L. He recovers after oral glucose. What is the most appropriate next step?
-> Discharge home with family ; Give IM glucagon to take home ; Increase his gliclazide ; *Admit for monitoring and glucose infusion if needed ; Switch to insulin
+> Discharge home with family ; IM glucagon to take home ; Reduce gliclazide and discharge ; *Admit for glucose monitoring ; Switch to insulin
 = Sulfonylurea hypos last a long time and come back, especially in the elderly or with kidney impairment. Admit and watch.
 ~ Insulin hypo with a clear cause and full recovery → long-acting carbohydrate and home with a responsible adult.
 3N: A 45-year-old man with insulin-treated diabetes drives a car. What is the minimum glucose level before he starts driving?
@@ -57,7 +57,7 @@ Q = '''
 
 @u 71
 1N: A 58-year-old woman with type 2 diabetes has an albumin-creatinine ratio of 8 mg/mmol on two samples. Her blood pressure is 132/80. What is the most appropriate management?
-> Furosemide ; No change ; Repeat in 1 year ; Spironolactone ; *Start an ACE inhibitor
+> Furosemide ; No change ; Repeat the ACR in 1 year ; Spironolactone ; *Start an ACE inhibitor
 = An ACR of 3 or more in diabetes is diabetic kidney disease: an ACE inhibitor or ARB protects the kidneys whatever the blood pressure.
 ~ ACR under 3 and blood pressure at target → no ACE inhibitor just for the kidneys.
 2D: A 64-year-old man has burning pain in both feet from diabetic neuropathy that keeps him awake. Which is the most appropriate first-line treatment?
@@ -75,7 +75,7 @@ Q = '''
 = Eye disease and pretibial myxoedema are unique to Graves', caused by TSH receptor stimulating antibodies.
 ~ A tender neck after a viral illness with low uptake on scan → de Quervain's thyroiditis.
 2D: A 38-year-old woman started carbimazole 6 weeks ago. She has a sore throat and a temperature of 38.4 °C. What is the most appropriate next step?
-> Continue carbimazole and give amoxicillin ; *Stop carbimazole and check a full blood count urgently ; Reduce the dose ; Switch to propylthiouracil at once ; Throat swab and review in a week
+> Continue and give amoxicillin ; *Stop it and check a blood count ; Halve the carbimazole dose ; Switch to propylthiouracil ; Throat swab and review
 = Carbimazole can cause agranulocytosis. Any sore throat or fever means stop and check the neutrophils that day.
 ~ Planning pregnancy in the first trimester → propylthiouracil is used.
 3L: A woman with poorly controlled Graves' disease has an emergency appendicectomy. That night her temperature is 40 °C, pulse 160 in AF, and she is agitated and vomiting. What is the most likely diagnosis?
@@ -93,7 +93,7 @@ Q = '''
 = Subclinical hypothyroidism often settles. Repeat in 3 months before labelling it. Over 10 on two readings usually means treatment.
 ~ TSH 12 mU/L on two readings 3 months apart → offer levothyroxine.
 3T: A 30-year-old woman who takes levothyroxine 100 micrograms has a positive pregnancy test. What is the most appropriate advice?
-> Halve the dose ; No change ; Stop until the second trimester ; Switch to liothyronine ; *Increase the dose by 25 to 50 micrograms straight away
+> Halve the dose ; No change until 12 weeks ; Stop until the second trimester ; Switch to liothyronine ; *Increase the dose now
 = The fetal brain depends on maternal thyroxine early on, and needs rise in pregnancy. Increase at once and check TFTs every trimester.
 ~ After delivery → return to the pre-pregnancy dose.
 
@@ -107,7 +107,7 @@ Q = '''
 = Medullary carcinoma comes from the parafollicular C cells, which make calcitonin. Check RET and exclude phaeochromocytoma before surgery as it can be part of MEN2.
 ~ Follow-up after total thyroidectomy for papillary cancer → thyroglobulin.
 3T: Four hours after a thyroidectomy, a woman has a rapidly swelling neck and stridor. What is the most appropriate immediate step?
-> CT neck ; IV calcium gluconate ; Nebulised adrenaline ; *Open the wound at the bedside to release the haematoma ; Wait for the anaesthetist to intubate
+> Urgent CT neck ; IV calcium gluconate ; Nebulised adrenaline ; *Open the wound at the bedside ; Await the anaesthetist to intubate
 = A haematoma under the strap muscles compresses the airway. Removing the skin clips and sutures at the bedside saves the airway, then she goes back to theatre.
 ~ Tingling lips and a positive Chvostek sign on day 1 → hypocalcaemia from parathyroid damage, IV calcium gluconate.
 '''

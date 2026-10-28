@@ -15,15 +15,15 @@ Q = '''
 
 @u 90
 1L: A man is admitted after a head injury. His blood pressure rises to 190/100, his pulse falls to 46 and his breathing becomes irregular. What does this show?
-> Autonomic dysreflexia ; Haemorrhagic shock ; Neurogenic shock ; *Raised intracranial pressure with impending coning ; Vasovagal response
+> Autonomic dysreflexia ; Haemorrhagic shock ; Neurogenic shock ; *Raised intracranial pressure ; Vasovagal response
 = Cushing's triad: hypertension, bradycardia and irregular breathing is a late sign of brain herniation. Call the neurosurgeons and protect the airway.
 ~ Low blood pressure with a fast pulse → bleeding elsewhere; the head injury alone rarely causes shock.
 2D: A 27-year-old woman with a BMI of 36 has headaches and papilloedema. MRI and MRV are normal and her LP opening pressure is 34 cm of CSF. Which is the most appropriate drug, alongside weight loss?
-> *Acetazolamide ; Furosemide ; Prednisolone ; Sumatriptan ; Topiramate only
+> *Acetazolamide ; Furosemide ; Prednisolone ; Sumatriptan ; Topiramate
 = Idiopathic intracranial hypertension: weight loss plus acetazolamide, which reduces CSF production. Watch vision closely.
 ~ Vision getting worse despite treatment → urgent CSF shunt or optic nerve sheath fenestration.
 3R: A 40-year-old man has fever, neck stiffness, a GCS of 10 and papilloedema. Bacterial meningitis is suspected. What is the most appropriate order of actions?
-> CT head, wait for result, then antibiotics ; LP first, then antibiotics ; LP straight away as it is meningitis ; *Antibiotics now, then CT head before any lumbar puncture ; MRI head, then decide
+> CT head, then antibiotics ; LP, then antibiotics ; Antibiotics, then LP ; *Antibiotics, then CT head ; MRI head, then antibiotics
 = Reduced consciousness, papilloedema or focal signs mean raised pressure: LP could cause herniation. Never delay antibiotics for a scan.
 ~ GCS 15 with no focal signs or papilloedema → LP within the hour, with antibiotics.
 
@@ -51,13 +51,13 @@ Q = '''
 = The middle meningeal artery runs under the pterion, the thinnest part of the skull. An extradural clot is held by the sutures, so it is lens-shaped.
 ~ A crescent-shaped collection that crosses sutures → bridging veins, subdural.
 3D: A 79-year-old woman on warfarin has an acute subdural haematoma. Her INR is 3.4. What is the most appropriate reversal?
-> Fresh frozen plasma alone ; Platelet transfusion ; Protamine sulfate ; *Prothrombin complex concentrate with IV vitamin K ; Tranexamic acid
+> Fresh frozen plasma ; Platelet transfusion ; Protamine sulfate ; *PCC and IV vitamin K ; Tranexamic acid
 = Life-threatening bleeding on warfarin: PCC works in minutes and vitamin K sustains the reversal.
 ~ On dabigatran → idarucizumab.
 
 @u 93
 1D: A GP sees an 18-year-old student with fever, drowsiness and a non-blanching rash. An ambulance has been called. What is the most appropriate immediate step?
-> Oral amoxicillin ; *IM or IV benzylpenicillin without delaying transfer ; No treatment until hospital ; Oral ciprofloxacin ; Paracetamol only
+> Oral amoxicillin ; *IM benzylpenicillin ; No treatment until hospital ; Oral ciprofloxacin ; IM dexamethasone
 = Suspected meningococcal disease outside hospital: give parenteral benzylpenicillin as soon as possible, but never let it delay transfer.
 ~ The patient is already in hospital → IV ceftriaxone.
 2N: CSF shows 300 white cells per mm3, mainly lymphocytes, a protein of 2.5 g/L and a glucose ratio of 0.3. What is the most likely diagnosis?
@@ -71,7 +71,7 @@ Q = '''
 
 @u 94
 1D: A 54-year-old woman has fever, confusion, odd behaviour and a seizure over 2 days. Encephalitis is suspected. What is the most appropriate immediate treatment?
-> *IV aciclovir ; IV ceftriaxone alone ; IV dexamethasone ; IV ganciclovir ; Oseltamivir
+> *IV aciclovir ; IV ceftriaxone ; IV dexamethasone ; IV ganciclovir ; Oseltamivir
 = Herpes simplex encephalitis kills or disables if untreated. Start IV aciclovir on suspicion, before the scan or CSF PCR results.
 ~ CMV encephalitis in advanced HIV → ganciclovir.
 2T: A man has herpes simplex encephalitis. Where on MRI are the changes most likely to be?
@@ -93,7 +93,7 @@ Q = '''
 = A mass with oedema makes LP dangerous because of herniation. Diagnose with imaging, cultures and aspiration of the abscess.
 ~ No mass on imaging and no raised pressure → LP is safe.
 3T: A brain abscess is found in the temporal lobe. What is the most likely source?
-> Dental infection ; Endocarditis ; Frontal sinusitis ; Lung abscess ; *Middle ear infection or mastoiditis
+> Dental infection ; Endocarditis ; Frontal sinusitis ; Lung abscess ; *Otitis media
 = Abscesses spread from next door: the ear and mastoid seed the temporal lobe and cerebellum, the sinuses and teeth seed the frontal lobe. Several abscesses suggest blood spread from the heart or lungs.
 ~ Frontal lobe abscess → frontal sinusitis or a dental source.
 
@@ -135,13 +135,13 @@ Q = '''
 = CK over 5 times the upper limit with symptoms → stop the statin and recheck. Once settled, a lower dose or another statin can be tried.
 ~ Aches with a normal CK → a short break to see whether the statin is the cause.
 3N: A woman with myasthenia gravis is admitted with worsening weakness and difficulty swallowing. Which measure is most important to monitor her breathing?
-> Arterial gas only ; ECG ; *Forced vital capacity ; Oxygen saturation ; Peak flow
+> Arterial gas ; ECG ; *Forced vital capacity ; Oxygen saturation ; Peak flow
 = In neuromuscular weakness, saturations stay normal until late. FVC falls first. Under 15 to 20 ml per kg means intensive care.
 ~ Weakness that improves with repeated effort in a smoker → Lambert-Eaton syndrome.
 
 @u 99
 1T: A man who sits with his legs crossed for long periods has foot drop. Dorsiflexion and eversion are weak, inversion is normal, and there is numbness over the top of the foot. Which nerve is affected?
-> *Common peroneal nerve ; Femoral nerve ; L5 nerve root ; Sciatic nerve ; Tibial nerve
+> *Common peroneal nerve ; Femoral nerve ; L5 nerve root ; Sciatic nerve ; Deep peroneal nerve
 = The common peroneal nerve wraps round the fibular head where it is easily compressed. Inversion is spared because it is supplied by the tibial nerve.
 ~ Inversion is also weak with back pain → L5 radiculopathy.
 2L: A 34-year-old woman has weakness that started in her feet and has spread to her thighs over 5 days. She had diarrhoea 2 weeks ago. Her reflexes are absent. What is the most likely diagnosis?

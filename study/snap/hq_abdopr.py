@@ -15,11 +15,11 @@ Q = '''
 
 @u 34
 1R: A 34-year-old man has a 2-day history of a throbbing, swollen, tender lump beside his anus. He has a fever of 38 °C and the lump is fluctuant. What is the most appropriate management?
-> Glyceryl trinitrate ointment ; *Incision and drainage ; MRI pelvis first ; Oral antibiotics alone ; Rubber band ligation
+> Glyceryl trinitrate ointment ; *Incision and drainage ; MRI pelvis first ; Oral antibiotics ; Rubber band ligation
 = A perianal abscess needs the pus out: incision and drainage, usually under general anaesthetic. Antibiotics alone do not clear it.
 ~ Recurrent abscesses with a persistent discharging opening → think fistula and get an MRI pelvis.
 2T: A man has a fistula with its external opening at 7 o'clock, posterior to an imaginary line drawn across the anus. Where is the internal opening most likely to be?
-> 1 o'clock ; 7 o'clock on a straight track ; 12 o'clock, anterior midline ; 3 o'clock ; *6 o'clock, posterior midline, on a curved track
+> 7 o'clock, straight radial track ; 12 o'clock, curved track ; 3 o'clock, straight radial track ; 1 o'clock, curved track ; *6 o'clock, curved track
 = Goodsall's rule: openings behind the transverse line curve back to the posterior midline. Openings in front of it run straight in.
 ~ External opening at 2 o'clock, in front of the line → a straight radial track to the opening at 2 o'clock.
 3L: A 26-year-old woman has several perianal fistulae, skin tags, weight loss and loose stools for 4 months. What is the most likely underlying cause?
@@ -51,27 +51,27 @@ Q = '''
 = A chronic fissure, over 6 weeks, is treated first with topical GTN for 6 to 8 weeks to relax the sphincter and let it heal.
 ~ Still not healed after 8 weeks of GTN → refer for botulinum toxin or sphincterotomy.
 3D: A woman stops her topical glyceryl trinitrate for a chronic fissure after 3 days because of severe headaches. Which is the most appropriate alternative?
-> Lidocaine gel alone ; Oral nifedipine ; Topical clotrimazole ; *Topical diltiazem 2% ; Topical hydrocortisone
+> Lidocaine gel ; Oral nifedipine ; Topical clotrimazole ; *Topical diltiazem 2% ; Topical hydrocortisone
 = Topical diltiazem relaxes the internal sphincter like GTN but with fewer headaches. Headache is the main reason people stop GTN.
 ~ Both topical treatments fail → surgical referral.
 
 @u 37
 1D: A 63-year-old woman has left iliac fossa pain and a temperature of 37.6 °C. She is eating, otherwise well and not immunosuppressed. Acute diverticulitis is suspected. What is the most appropriate management?
-> Admit for IV antibiotics ; Co-amoxiclav for 5 days ; Ibuprofen and codeine ; *Paracetamol and safety-netting without an antibiotic ; Urgent CT abdomen
+> Admission for IV antibiotics ; Oral co-amoxiclav for 5 days ; Ibuprofen with codeine ; *Paracetamol with no antibiotic ; Same-day CT abdomen
 = NICE: a systemically well patient can manage without antibiotics, with paracetamol and review if worse. NSAIDs and opioids are avoided as they raise the risk of perforation.
 ~ Systemically unwell, immunosuppressed or frail → oral co-amoxiclav for 5 days.
 2R: A 70-year-old man is admitted with left iliac fossa pain, fever and a tender mass. Complicated diverticulitis is suspected. Which is the most appropriate investigation?
-> Abdominal X-ray ; Barium enema ; Colonoscopy ; *CT abdomen and pelvis with contrast ; Flexible sigmoidoscopy
+> Erect chest and abdominal X-ray ; Barium enema ; Urgent colonoscopy ; *Contrast CT abdomen and pelvis ; Flexible sigmoidoscopy
 = CT with contrast shows abscess, perforation or fistula. Scopes are avoided in the acute phase as they can perforate an inflamed colon.
 ~ Six weeks after recovery → colonoscopy or CT colonography to rule out cancer.
 3R: A 76-year-old man with diverticulitis has generalised peritonitis. CT shows free gas and faecal contamination. What is the most appropriate operation?
-> CT-guided percutaneous drainage ; Colonic stenting ; *Hartmann's procedure ; IV antibiotics alone ; Right hemicolectomy
+> CT-guided percutaneous drainage ; Colonic stenting ; *Hartmann's procedure ; IV antibiotics ; Right hemicolectomy
 = Faecal peritonitis is too contaminated for a join: the diseased sigmoid is removed with an end colostomy and the rectal stump closed.
 ~ A 5 cm pericolic abscess without peritonitis → antibiotics and CT-guided drainage.
 
 @u 38
 1N: A 71-year-old woman has passed bright red blood per rectum. She is stable and her Oakland score is 6. What is the most appropriate management?
-> Admit for inpatient colonoscopy ; CT angiogram ; Emergency laparotomy ; *Discharge with urgent outpatient investigation ; Transfuse 2 units
+> Admission for inpatient colonoscopy ; Urgent CT angiography ; Emergency laparotomy ; *Discharge with outpatient colonoscopy ; Transfusion of 2 units
 = An Oakland score of 8 or less means a minor bleed that can go home with outpatient investigation.
 ~ Oakland score over 8 → admit for inpatient colonoscopy.
 2R: A 76-year-old man has a large rectal bleed. After fluids his pulse is 120 and blood pressure 95/60, a shock index over 1. Which is the most appropriate next investigation?
@@ -89,7 +89,7 @@ Q = '''
 = Start with a bulk-forming laxative and plenty of fluid. If stools stay hard add an osmotic such as macrogol.
 ~ Constipation from regular codeine → osmotic plus stimulant; bulk-formers make opioid constipation worse.
 2L: An 88-year-old care-home resident has leaking loose stool for a week. Rectal examination finds a large hard mass of stool. What is the most likely cause of the diarrhoea?
-> Clostridioides difficile ; Colorectal cancer ; *Faecal impaction with overflow ; Gastroenteritis ; Irritable bowel syndrome
+> Clostridioides difficile infection ; Obstructing colorectal cancer ; *Faecal impaction with overflow ; Viral gastroenteritis ; Irritable bowel syndrome
 = Overflow: liquid stool leaks around a hard impacted mass. Antidiarrhoeals make it worse; clear the impaction with macrogol or enemas.
 ~ Watery diarrhoea after antibiotics with a positive toxin → C. difficile.
 3N: A 66-year-old woman with breast cancer has constipation, thirst, passing lots of urine and confusion. Which result is most likely to explain her constipation?

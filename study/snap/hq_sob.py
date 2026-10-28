@@ -23,7 +23,7 @@ Q = '''
 = Right-sided murmurs get louder on inspiration as venous return rises. Giant v waves and a pulsatile liver confirm tricuspid regurgitation, typically from endocarditis in people who inject drugs.
 ~ Pansystolic murmur at the apex radiating to the axilla → mitral regurgitation.
 3R: An 86-year-old frail woman has severe symptomatic aortic stenosis. The heart team judges her too high risk for open surgery. What is the most appropriate management?
-> Balloon valvuloplasty alone ; Medical therapy with an ACE inhibitor ; Surgical aortic valve replacement ; *Transcatheter aortic valve implantation ; Watchful waiting
+> Balloon valvuloplasty ; Medical therapy with an ACE inhibitor ; Surgical aortic valve replacement ; *Transcatheter aortic valve implantation ; Watchful waiting
 = Severe symptomatic aortic stenosis needs the valve replaced. High surgical risk or older age points to TAVI; medical therapy does not change the outcome.
 ~ A fit 62-year-old with low surgical risk → surgical aortic valve replacement.
 
@@ -43,15 +43,15 @@ Q = '''
 
 @u 9
 1R: A 68-year-old ex-smoker has a new unilateral pleural effusion on chest X-ray. He has lost weight. What is the most appropriate next investigation?
-> Bronchoscopy ; Chest drain insertion ; CT thorax without contrast ; Thoracoscopy ; *Ultrasound-guided pleural aspiration
+> Bronchoscopy ; Chest drain insertion ; CT thorax without contrast ; Medical thoracoscopy ; *Diagnostic pleural tap
 = A unilateral effusion is tapped under ultrasound for protein, LDH, pH, glucose, cytology and culture. Contrast CT follows if it is an exudate or the cause is unclear.
 ~ Bilateral effusions in known heart failure with typical features → treat the heart failure and only tap if it is atypical or does not respond.
 2N: A 55-year-old man with pneumonia has a new effusion. Ultrasound-guided aspiration shows cloudy fluid with a pH of 7.08. What is the most appropriate management?
-> Continue antibiotics alone ; *Insert a chest drain ; Repeat aspiration in 1 week ; Talc pleurodesis ; VATS decortication first
+> Continue antibiotics ; *Insert a chest drain ; Repeat aspiration in 1 week ; Talc pleurodesis ; VATS decortication first
 = A parapneumonic effusion with pH under 7.2, or frank pus, is a complicated effusion or empyema and needs a chest drain plus antibiotics.
 ~ Clear fluid with pH 7.40 → antibiotics alone.
 3N: Pleural fluid protein is 30 g/L with serum protein 50 g/L. Fluid LDH is 160 IU/L with serum LDH 200 IU/L, upper limit 230 IU/L. Which is the best interpretation?
-> Chylothorax ; Empyema ; *Exudate by Light's criteria ; Haemothorax ; Transudate
+> Chylothorax ; Empyema ; *Exudate ; Haemothorax ; Transudate
 = Light's criteria: fluid to serum protein over 0.5, fluid to serum LDH over 0.6, or fluid LDH over two thirds of the upper limit makes it an exudate. Here 0.6 and 0.8.
 ~ Protein ratio 0.4, LDH ratio 0.4, fluid LDH 80 → transudate, for example heart failure or cirrhosis.
 
@@ -61,25 +61,25 @@ Q = '''
 = Low ferritin is the most specific test for iron deficiency. Microcytic anaemia with low ferritin in a menstruating woman is iron deficiency.
 ~ Normal ferritin, MCV very low for a mild anaemia and raised HbA2 → beta thalassaemia trait.
 2R: A 67-year-old man has a haemoglobin of 98 g/L, MCV 72 fL and ferritin 5 µg/L. He has no gut symptoms. What is the most appropriate next step?
-> Blood transfusion ; IV iron ; Oral iron and repeat in 3 months ; *Suspected cancer referral for upper and lower GI endoscopy ; Coeliac serology alone
+> Blood transfusion ; IV iron ; Oral iron and review ; *Suspected cancer referral ; Coeliac serology
 = Iron deficiency anaemia at 60 or over is a suspected cancer referral for colonoscopy and gastroscopy, even with no symptoms. Start iron as well, but do not let it delay the scopes.
 ~ A 30-year-old woman with heavy periods and a normal coeliac screen → oral iron and treat the periods.
 3N: A 71-year-old man on a surgical ward has a haemoglobin of 78 g/L. He had a non-ST elevation myocardial infarction 3 days ago. What is the most appropriate management?
-> *Transfuse 1 unit of red cells and reassess ; Transfuse 3 units of red cells ; No transfusion ; IV iron only ; Erythropoietin
+> *Transfuse 1 unit ; Transfuse 3 units ; No transfusion ; IV iron ; Erythropoietin
 = Restrictive thresholds are 70 g/L, but 80 g/L with acute coronary syndrome. Give one unit at a time and check before the next.
 ~ Same haemoglobin of 78 g/L with no heart disease → no transfusion.
 
 @u 11
 1R: A 28-year-old man is stabbed in the chest. He is breathless, his trachea is deviated to the left and he has absent breath sounds on the right. His pulse is 135 and blood pressure 78/40. What is the most appropriate immediate step?
-> Chest X-ray ; CT thorax ; High-flow oxygen alone ; *Needle or finger thoracostomy on the right ; Right-sided chest drain before any other step
+> Chest X-ray ; CT thorax ; High-flow oxygen ; *Needle or finger thoracostomy on the right ; Right-sided chest drain before any other step
 = Tension pneumothorax is a clinical diagnosis: decompress first, then place a chest drain. Waiting for an X-ray costs the patient.
 ~ Breathless but trachea central and blood pressure normal → chest X-ray first.
 2N: A 70-year-old man with COPD has a pneumothorax with a 2.5 cm rim on chest X-ray. He is breathless. What is the most appropriate management?
-> *Chest drain insertion ; Discharge with review in 2 weeks ; Needle aspiration then discharge ; Oxygen and observation alone ; VATS pleurodesis
+> *Chest drain insertion ; Discharge with review in 2 weeks ; Needle aspiration then discharge ; Oxygen and observation ; VATS pleurodesis
 = A secondary pneumothorax in lung disease is more dangerous: if breathless or over 2 cm, it needs a chest drain and admission.
 ~ Rim under 1 cm and comfortable → admit with oxygen and observe.
 3T: A 22-year-old man had a primary pneumothorax 2 months ago that has fully resolved. He asks about scuba diving. What is the most appropriate advice?
-> Dive after 1 week ; Dive after 6 weeks ; Dive once a chest X-ray is normal ; *Avoid diving for good unless he has bilateral surgical pleurectomy ; Diving is safe because it was a primary pneumothorax
+> Dive after 1 week ; Dive after 6 weeks ; Dive once the X-ray is normal ; *Avoid diving permanently ; Dive after 1 year
 = Pressure changes underwater can re-expand a hidden bleb into a tension pneumothorax at depth. Diving is avoided permanently unless definitive surgery has been done.
 ~ He asks about flying → safe once an X-ray confirms full resolution, usually waiting about a week after that.
 
@@ -99,7 +99,7 @@ Q = '''
 
 @u 13
 1R: A 48-year-old woman has sudden pleuritic chest pain and breathlessness 10 days after a hip replacement. Her heart rate is 112 and her two-level Wells score is 6. What is the most appropriate next step?
-> Chest X-ray only ; *CT pulmonary angiogram ; D-dimer ; Doppler ultrasound of the legs ; V/Q scan
+> Chest X-ray ; *CT pulmonary angiogram ; D-dimer ; Doppler ultrasound of the legs ; V/Q scan
 = Wells over 4 means PE is likely: go straight to CTPA, with interim anticoagulation if there is a delay. A D-dimer only helps when PE is unlikely.
 ~ Wells 4 or less → D-dimer first; if positive, CTPA.
 2D: A 39-year-old woman with antiphospholipid syndrome has a confirmed pulmonary embolism. She is stable. Which is the most appropriate long-term anticoagulant?
@@ -107,7 +107,7 @@ Q = '''
 = DOACs are first-line for most PE, but in antiphospholipid syndrome they are linked to more clots, so warfarin is used after LMWH cover.
 ~ No antiphospholipid syndrome and normal kidneys → apixaban or rivaroxaban.
 3N: CTPA confirms a large pulmonary embolism. Despite 1 litre of fluid, her blood pressure is 76/48. What is the most appropriate management?
-> Apixaban ; Inferior vena cava filter ; Low molecular weight heparin alone ; *Thrombolysis with alteplase ; Repeat CTPA in 24 hours
+> Apixaban ; Inferior vena cava filter ; Low molecular weight heparin ; *Thrombolysis with alteplase ; Repeat CTPA in 24 hours
 = PE with a systolic under 90 mmHg is high risk, the massive PE picture: thrombolyse unless there is a contraindication.
 ~ Blood pressure normal with right heart strain on echo → anticoagulate and watch closely; thrombolysis is not routine.
 

@@ -40,3 +40,24 @@
 .hq-take{margin:12px 0 0;padding-left:18px;line-height:1.5;font-size:.92rem}
 .hq-take li{margin:4px 0}
 @media (max-width:700px){.hq-bpg{grid-template-columns:1fr}.hq-bar{grid-template-columns:minmax(0,130px) 1fr 30px}.hq-idx{grid-template-columns:1fr}}
+/* v2.4: question palette, cross-outs, triggers under the answer */
+.hq-pal{display:flex;gap:4px;overflow-x:auto;padding:6px 2px 8px;margin-top:6px;scrollbar-width:thin;max-width:100%}
+.hq-pn{flex:none;min-width:30px;height:30px;padding:0 6px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:600 .78rem var(--f-mono,monospace);cursor:pointer}
+.hq-pn.ok{background:var(--good-soft);border-color:var(--good)}
+.hq-pn.bad{background:var(--bad-soft);border-color:var(--bad)}
+.hq-pn.on{outline:2px solid var(--accent);outline-offset:1px}
+.hq-orow{display:flex;gap:6px;align-items:stretch;min-width:0}
+.hq-orow .hq-o{flex:1}
+.hq-xb{flex:none;width:36px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--muted);font-size:.9rem;cursor:pointer}
+.hq-xb:hover,.hq-xb.on{color:var(--bad);border-color:var(--bad)}
+.hq-o.x .hq-ot{text-decoration:line-through;opacity:.45}
+.hq-o.x .hq-l{opacity:.45}
+.hq-hint{margin:10px 0 0;font-size:.82rem}
+.hq-nav{margin-top:14px;border-top:1px solid var(--line);padding-top:12px}
+.hq-trg{margin:8px 0 0;padding:9px 12px;border-radius:10px;background:var(--accent-soft);border:1px solid var(--line);line-height:1.5}
+.hq-tl{margin:4px 0;font-size:.92rem}
+.hq-tl b{background:linear-gradient(transparent 55%,rgba(255,213,74,.55) 55%)}
+.hq-tl .hq-ta{background:none}
+.hq-tl .tr-arr{color:var(--muted);font-weight:700}
+.hq-tgo{margin-top:6px}
+.hq-resume{border-color:var(--accent)}

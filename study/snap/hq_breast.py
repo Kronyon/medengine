@@ -9,7 +9,7 @@ Q = '''
 = NICE: aged 30 or over with an unexplained lump → suspected cancer pathway. Under 30 → consider a non-urgent referral. Ultrasound is the imaging under 35.
 ~ Aged 32 → suspected cancer pathway.
 3N: Core biopsy confirms a 1.5 cm fibroadenoma in a 23-year-old woman. What is the most appropriate management?
-> Annual MRI ; Excision ; Mastectomy ; *Reassurance with no routine follow-up ; Tamoxifen
+> Annual mammography ; Surgical excision ; Vacuum excision biopsy ; *Reassurance and discharge ; Ultrasound in 6 months
 = A small confirmed fibroadenoma is left alone. Many shrink with time.
 ~ 4 cm and growing → excision.
 
@@ -19,17 +19,17 @@ Q = '''
 = Cysts are common in the 10 years before the menopause: fluid-filled and anechoic on ultrasound.
 ~ A breastfeeding woman with a milk-filled cyst → galactocele.
 2R: A breast cyst is aspirated. The fluid is bloodstained and a lump remains afterwards. What is the most appropriate next step?
-> Antibiotics ; Aspirate again in 4 weeks ; *Core biopsy of the remaining lump with cytology of the fluid ; Excise all breast cysts ; Reassure
+> Oral flucloxacillin ; Repeat aspiration in 4 weeks ; *Cytology and core biopsy ; Excision of the cyst wall ; Reassurance and discharge
 = Clear fluid with the lump gone needs nothing more. Bloody fluid or a residual mass can hide a cancer, so it goes for cytology and biopsy.
 ~ Clear straw-coloured fluid and the lump disappears → no further tests.
 3D: A 35-year-old woman has tender, lumpy breasts in the week before each period. Examination and imaging are normal. Which is the most appropriate first-line management?
-> Bromocriptine ; Danazol ; Evening primrose oil ; Tamoxifen ; *Well-fitting bra and simple analgesia
+> Bromocriptine ; Danazol ; Evening primrose oil capsules ; Tamoxifen ; *Supportive bra and analgesia
 = Cyclical mastalgia is hormonal and benign: reassurance, a supportive bra and paracetamol or topical NSAIDs. Hormonal drugs are specialist only.
 ~ Pain is non-cyclical in one spot → examine and image to rule out a lump.
 
 @u 54
 1D: A breastfeeding woman 3 weeks after delivery has a painful red wedge in her breast and a fever. It has not improved after 24 hours of effective milk removal. What is the most appropriate management?
-> Cabergoline ; Clarithromycin and stop feeding ; *Continue breastfeeding and start flucloxacillin ; Incision and drainage ; Stop breastfeeding on that side
+> Cabergoline to stop lactation ; Clarithromycin and stop feeding ; *Flucloxacillin and keep feeding ; Ultrasound-guided aspiration ; Rest that breast for 48 hours
 = Lactational mastitis: keep milk flowing by feeding or expressing, plus flucloxacillin if not improving after 12 to 24 hours. Stopping makes it worse.
 ~ Penicillin allergy → erythromycin or clarithromycin.
 2L: A 35-year-old woman who smokes and is not breastfeeding has recurrent red, tender swelling beside her areola. What is the most likely diagnosis?
@@ -37,21 +37,21 @@ Q = '''
 = Periductal mastitis affects young women who smoke: damaged ducts behind the nipple become infected. It needs co-amoxiclav and can form fistulae.
 ~ A breastfeeding mother with a red wedge → lactational mastitis.
 3L: A 52-year-old woman has a red, swollen breast with skin like orange peel. She has no fever and two courses of antibiotics have not helped. What is the most likely diagnosis?
-> Breast abscess ; Cellulitis ; Fat necrosis ; *Inflammatory breast cancer ; Mastitis
+> Breast abscess ; Breast cellulitis ; Fat necrosis ; *Inflammatory breast cancer ; Non-lactational mastitis
 = Inflammatory breast cancer blocks the dermal lymphatics: red, warm, peau d'orange and not responding to antibiotics. It needs urgent triple assessment.
 ~ Fever and a tender breast in a breastfeeding mother → mastitis.
 
 @u 55
 1L: A 32-year-old woman on risperidone has milky discharge from both nipples and her periods have stopped. Her pregnancy test is negative. What is the most likely cause?
-> Duct ectasia ; *Drug-induced hyperprolactinaemia ; Intraductal papilloma ; Pituitary macroadenoma ; Pregnancy
+> Mammary duct ectasia ; *Drug-induced hyperprolactinaemia ; Intraductal papilloma ; Non-functioning pituitary macroadenoma ; Primary hypothyroidism
 = Antipsychotics block dopamine, which normally holds prolactin down. Risperidone is one of the worst. Check prolactin.
 ~ No drugs with headache and loss of the outer visual fields → prolactinoma.
 2N: A 56-year-old woman has spontaneous discharge from one nipple. Examination finds no lump. What is the most appropriate referral?
-> No referral needed ; Non-urgent breast referral ; Repeat in 6 weeks ; Routine mammogram only ; *Suspected cancer pathway within 2 weeks
+> No referral ; Non-urgent breast clinic ; Review after 6 weeks ; Routine mammogram ; *Suspected cancer pathway
 = NICE: aged 50 or over with discharge, retraction or other worrying change in one nipple only → suspected cancer referral.
 ~ A 40-year-old with bilateral milky discharge → check drugs, pregnancy and prolactin.
 3T: A 61-year-old woman has a red, scaly, crusting rash that started on the nipple itself and is eroding it. It is on one side only and did not settle with a steroid cream. What is the most likely diagnosis?
-> Contact dermatitis ; Duct ectasia ; Eczema of the areola ; *Paget's disease of the nipple ; Psoriasis
+> Contact dermatitis ; Duct ectasia ; Atopic eczema of the areola ; *Paget's disease of the nipple ; Nipple psoriasis
 = Paget's disease starts on the nipple and spreads out to the areola, on one side, and marks an underlying cancer. It needs a punch biopsy and imaging.
 ~ Itchy rash on both areolae that spares the nipple in an atopic woman → eczema.
 
@@ -71,7 +71,7 @@ Q = '''
 
 @u 57
 1N: Who is routinely invited to the NHS breast screening programme?
-> All women over 40 every year ; Women aged 40 to 50 every 2 years ; *Women aged 50 to 71 every 3 years ; Women aged 60 to 75 every 5 years ; Women with a family history only
+> All women over 40 every year ; Women aged 40 to 50 every 2 years ; *Women aged 50 to 71 every 3 years ; Women aged 60 to 75 every 5 years ; Women with a family history
 = NHS breast screening offers a mammogram every 3 years from 50 up to the 71st birthday. Women over 71 can ask to continue.
 ~ A 30-year-old BRCA1 carrier → yearly MRI from age 30.
 2D: A 41-year-old premenopausal woman has had surgery for an oestrogen-receptor positive, HER2-negative breast cancer. Which is the most appropriate endocrine therapy?

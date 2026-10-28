@@ -5,11 +5,11 @@ Q = '''
 = Citalopram prolongs the QT in a dose-related way. Over 65, the maximum is 20 mg.
 ~ A 40-year-old with a normal ECG → up to 40 mg.
 2D: A man on sertraline is started on naproxen for back pain. What should be added?
-> Aspirin ; Clopidogrel ; *A proton pump inhibitor ; Tramadol ; Nothing
+> Aspirin ; Misoprostol ; *Omeprazole ; Ranitidine ; Sucralfate
 = SSRIs reduce platelet serotonin and, with NSAIDs, sharply raise the risk of GI bleeding. Add gastroprotection or avoid the combination.
 ~ Paracetamol instead of naproxen → no extra protection needed.
 3T: A woman stopped paroxetine suddenly 3 days ago. She has dizziness, electric-shock sensations and irritability. What is the most likely explanation?
-> Anxiety relapse only ; Multiple sclerosis ; Serotonin syndrome ; *SSRI discontinuation syndrome ; Stroke
+> Relapse of anxiety ; Multiple sclerosis ; Serotonin syndrome ; *Discontinuation syndrome ; SSRI-induced hyponatraemia
 = Short half-life SSRIs such as paroxetine cause the worst discontinuation symptoms. Restart and taper slowly over at least 4 weeks.
 ~ She stopped fluoxetine → its long half-life makes discontinuation symptoms rare.
 
@@ -19,7 +19,7 @@ Q = '''
 = Mirtazapine is sedating and increases appetite, which suits people with insomnia and weight loss.
 ~ Already overweight with daytime sleepiness → avoid mirtazapine.
 2D: A woman starting venlafaxine has hypertension. What is the most appropriate monitoring?
-> ECG only ; Eye tests ; *Blood pressure ; Liver tests weekly ; Thyroid function
+> ECG ; Eye tests ; *Blood pressure ; Liver tests weekly ; Thyroid function
 = Venlafaxine raises blood pressure in a dose-related way. Check before and during treatment.
 ~ She takes sertraline instead → no routine blood pressure monitoring needed.
 3D: Which antidepressant is most dangerous in overdose?
@@ -29,11 +29,11 @@ Q = '''
 
 @d lithiumdrug Lithium long-term effects
 1N: A woman has been stable on lithium for 2 years. How often should her thyroid and kidney function be checked?
-> Every month ; *Every 6 months ; Every year ; Every 3 years ; Only if symptoms
+> Every month ; *Every 6 months ; Every year ; Every 3 years ; When symptoms appear
 = Lithium levels every 3 months once stable, and thyroid function, kidney function and calcium every 6 months.
 ~ She has just started or changed dose → weekly levels until stable.
 2N: A man on lithium for 10 years has a calcium of 2.85 mmol/L and a raised PTH. What is the most likely explanation?
-> Bone metastases ; Milk-alkali syndrome ; *Lithium-induced hyperparathyroidism ; Sarcoidosis ; Vitamin D toxicity
+> Bone metastases ; Milk-alkali syndrome ; *Lithium-induced hyperparathyroidism ; Sarcoidosis ; Thiazide-induced hypercalcaemia
 = Lithium resets the parathyroid calcium sensor, causing hyperparathyroidism and hypercalcaemia.
 ~ Low calcium and raised PTH with low vitamin D → secondary hyperparathyroidism.
 3T: A woman on lithium becomes pregnant. Which fetal heart problem is linked to lithium in the first trimester?
@@ -43,7 +43,7 @@ Q = '''
 
 @d typicals Typical antipsychotics
 1R: A man is starting haloperidol. Which baseline test is most important?
-> Bone density ; *ECG ; EEG ; Lung function ; Urine drug screen only
+> Bone density ; *ECG ; EEG ; Lung function ; Urine drug screen
 = Haloperidol prolongs the QT. A baseline ECG is needed, especially with other risks.
 ~ Starting clozapine → full blood count before the first dose.
 2D: An 84-year-old woman with Alzheimer's disease has agitation. What is the main risk of antipsychotics in this group?
@@ -75,11 +75,11 @@ Q = '''
 = Olanzapine and clozapine cause the most weight gain and diabetes. Aripiprazole and lurasidone cause the least.
 ~ Raised prolactin is her main problem → aripiprazole again.
 2N: A man starts olanzapine. When should his HbA1c and lipids be checked?
-> Only if symptoms ; *At baseline, at 12 weeks and then at least yearly ; Every month ; Every week for 6 weeks ; Every 5 years
+> When symptoms appear ; *Baseline, 12 weeks, then yearly ; Every month ; Every week for 6 weeks ; Baseline and then every 5 years
 = NICE: weight weekly for 6 weeks then at 12 weeks and yearly; glucose or HbA1c and lipids at baseline, 12 weeks and yearly.
 ~ Weight rises by 7% in the first month → review lifestyle, dose and drug.
 3D: A woman on quetiapine is very drowsy during the day and dizzy when she stands. What is the most likely cause?
-> *Sedation and alpha-blockade from quetiapine ; Hyperthyroidism ; Pregnancy ; Neuroleptic malignant syndrome ; Tardive dyskinesia
+> *Side effects of quetiapine ; Hypothyroidism ; Iron deficiency anaemia ; Neuroleptic malignant syndrome ; Depressive relapse
 = Quetiapine is strongly antihistamine and alpha-blocking, causing sedation and postural hypotension. Take at night and rise slowly.
 ~ Fever, rigidity and a raised CK → NMS.
 
@@ -89,11 +89,11 @@ Q = '''
 = Stimulants raise heart rate and blood pressure. They are avoided with serious heart disease, uncontrolled hypertension, glaucoma or MAOIs.
 ~ Controlled epilepsy → stimulants can be used with monitoring.
 2D: A 16-year-old on atomoxetine has new suicidal thoughts and dark urine. What is the most appropriate step?
-> Continue and review in a month ; Double the dose ; *Stop and assess liver function and mental state urgently ; Switch to dexamfetamine at once ; Add an SSRI
+> Continue and review in a month ; Double the dose ; *Stop it and urgent review ; Switch to dexamfetamine ; Add sertraline
 = Atomoxetine can cause suicidal thoughts and, rarely, serious liver damage.
 ~ Only reduced appetite and nausea → common side effects that often settle.
 3T: A boy takes guanfacine for ADHD. What advice is important?
-> Take with grapefruit ; It is a stimulant with abuse potential ; *Do not stop it suddenly, as blood pressure can rebound ; It cannot be used with melatonin ; It works within 1 hour
+> Avoid grapefruit juice ; It is a controlled stimulant ; *Do not stop it suddenly ; Avoid using it with melatonin ; Take it on school days
 = Guanfacine is an alpha-2 agonist that lowers pulse and blood pressure. Sudden withdrawal causes rebound hypertension, so taper it.
 ~ He takes methylphenidate → can be paused for holidays without tapering.
 
@@ -103,11 +103,11 @@ Q = '''
 = Naloxone reverses opioids. It wears off sooner than most opioids, so observe for re-sedation.
 ~ Long-acting opioid such as methadone → repeat doses or an infusion may be needed.
 2D: A woman last used heroin 4 hours ago and wants to start buprenorphine. She has no withdrawal signs yet. What is the most appropriate advice?
-> Start buprenorphine now ; *Wait until withdrawal signs appear before the first dose ; Give naloxone first ; Start methadone and buprenorphine together ; Take double dose
+> Start buprenorphine now ; *Wait for withdrawal signs ; Give naloxone first ; Start methadone alongside ; Start with a double dose
 = Buprenorphine is a high-affinity partial agonist. Given while heroin is still on the receptors, it causes precipitated withdrawal.
 ~ She is in clear withdrawal → start buprenorphine.
 3D: A man on methadone is started on ciprofloxacin and clarithromycin. What is the main concern?
-> Constipation ; Hypoglycaemia ; *QT prolongation and torsades de pointes ; Serotonin syndrome ; Kidney failure
+> Constipation ; Hypoglycaemia ; *QT prolongation ; Serotonin syndrome ; Respiratory depression
 = Methadone prolongs the QT. Adding other QT drugs or enzyme inhibitors adds to the risk. Get an ECG.
 ~ Rifampicin is started → methadone levels fall and withdrawal follows.
 
@@ -117,7 +117,7 @@ Q = '''
 = Acamprosate or naltrexone are first-line for relapse prevention, with psychological support.
 ~ She also takes opioids for pain → avoid naltrexone; acamprosate.
 2D: A man taking disulfiram drinks a pint of beer. What will most likely happen?
-> Nothing ; *Flushing, nausea, palpitations and breathlessness ; Seizures only ; Sleepiness ; Deep sleep
+> No reaction ; *Flushing and vomiting ; Seizures ; Profound sedation ; Hypoglycaemia
 = Disulfiram blocks aldehyde dehydrogenase, so acetaldehyde builds up. Avoid alcohol in food and mouthwash too.
 ~ He takes acamprosate instead → no reaction to alcohol.
 3D: A man with alcohol dependence also takes long-term codeine for back pain. Which relapse drug should be avoided?
@@ -131,7 +131,7 @@ Q = '''
 = Chronic insomnia over 3 months is treated with CBT for insomnia. Drugs are only for short-term use.
 ~ A few bad nights before an exam → sleep hygiene, and a short hypnotic only if severe.
 2D: A man takes zopiclone. Which side effect is most typical?
-> Diarrhoea ; Hair loss ; *A bitter metallic taste and next-day drowsiness ; Hypertension ; Weight gain
+> Diarrhoea ; Hair loss ; *Bitter metallic taste ; Hypertension ; Increased appetite
 = Zopiclone leaves a bitter taste and can impair driving the next morning.
 ~ A woman over 55 with short-term insomnia → modified-release melatonin is an option.
 3D: An autistic child has severe sleep problems despite good sleep hygiene. Which drug may be used?
@@ -155,7 +155,7 @@ Q = '''
 
 @d paracetamol Paracetamol
 1N: A frail 80-year-old woman weighs 42 kg. What is the most appropriate paracetamol dose?
-> 1 g four times daily ; 2 g twice daily ; *15 mg per kg per dose, up to 4 times a day ; 1 g once daily only ; Paracetamol is contraindicated
+> 1 g four times daily ; 2 g twice daily ; *15 mg per kg four times daily ; 500 mg twice daily with food ; 1 g once daily at night
 = Adults under 50 kg, or with risk factors for liver toxicity, need weight-based dosing at 15 mg per kg.
 ~ A 70 kg man with normal liver function → 1 g up to 4 times a day.
 2N: What paracetamol level at 4 hours after a single overdose is the UK treatment line?
@@ -163,21 +163,21 @@ Q = '''
 = The UK uses a single line at 100 mg/L at 4 hours, sloping down over time. On or above the line → acetylcysteine.
 ~ The level is 80 mg/L at 4 hours after a single dose → no acetylcysteine needed.
 3T: A woman took 30 paracetamol tablets 10 hours ago in one go. What is the most appropriate management?
-> Activated charcoal ; Discharge if she feels well ; *Start acetylcysteine now, then check the level ; Take a level and wait for it ; Oral methionine
+> Activated charcoal ; Discharge if well ; *Start acetylcysteine now ; Await the paracetamol level ; Oral methionine
 = Over 8 hours after a significant dose, start acetylcysteine at once, because effectiveness falls with time. Stop if the level and bloods are reassuring.
 ~ Took them 2 hours ago → wait for a 4-hour level.
 
 @d nsaids NSAIDs
 1D: A 74-year-old man on ramipril and furosemide is given ibuprofen for gout. Three days later his creatinine has doubled. What is the most likely explanation?
-> Gout nephropathy ; Kidney stones ; Rhabdomyolysis ; *Acute kidney injury from the combination of ACE inhibitor, diuretic and NSAID ; Urinary tract infection
+> Urate nephropathy ; Kidney stones ; Rhabdomyolysis ; *Drug-induced pre-renal AKI ; Acute interstitial nephritis
 = The triple whammy: the NSAID blocks prostaglandins that widen the afferent arteriole, the ACE inhibitor relaxes the efferent and the diuretic empties the tank.
 ~ Colchicine for the flare instead → avoids the NSAID effect on the kidney.
 2T: A woman who is 32 weeks pregnant has back pain. Why should she avoid ibuprofen?
-> It causes cleft lip ; It causes neural tube defects ; It harms breast milk ; *It can close the ductus arteriosus early and reduce fluid around the baby ; It is safe in pregnancy
+> Cleft lip and palate ; Neural tube defects ; Neonatal withdrawal ; *Early closure of the ductus arteriosus ; Persistent pulmonary hypertension of the newborn
 = NSAIDs are avoided in pregnancy, especially from 20 weeks and in the third trimester, because of oligohydramnios and early ductal closure.
 ~ Paracetamol → the preferred analgesic in pregnancy.
 3D: A woman on weekly methotrexate takes regular ibuprofen for joint pain. What is the main risk?
-> Hypoglycaemia ; Lower methotrexate levels ; *Methotrexate toxicity from reduced kidney clearance ; QT prolongation ; Tendon rupture
+> Hypoglycaemia ; Lower methotrexate levels ; *Methotrexate toxicity ; QT prolongation ; Peptic ulcer
 = NSAIDs reduce kidney excretion of methotrexate and lithium, raising their levels.
 ~ She takes lithium instead → the same problem: lithium toxicity.
 
@@ -187,11 +187,11 @@ Q = '''
 = The breakthrough dose is a sixth of the total daily dose: 120 mg divided by 6.
 ~ Total daily dose of 60 mg → 10 mg breakthrough.
 2D: A man on morphine is drowsy, confused and has muscle jerks. His kidney function has worsened. What is the most likely cause?
-> Brain metastases ; Hypercalcaemia ; *Opioid toxicity from build-up of morphine metabolites ; Opioid withdrawal ; Serotonin syndrome
+> Brain metastases ; Hypercalcaemia ; *Opioid toxicity ; Opioid withdrawal ; Uraemic encephalopathy
 = Morphine metabolites build up when the kidneys fail, causing myoclonus, drowsiness and hallucinations. Reduce the dose or switch to oxycodone or alfentanil.
 ~ Pinpoint pupils with slow breathing → give naloxone.
 3T: A man with stable cancer pain is switched from oral morphine to a fentanyl patch. What is the most important advice?
-> Remove the patch after 24 hours ; Stop morphine 24 hours before the patch ; *The patch takes 12 to 24 hours to work, so continue morphine for the first 12 hours ; Warm the patch site to help absorption ; Use it for rapidly changing pain
+> Change the patch every 24 hours ; Stop morphine 24 hours before ; *Keep morphine going for 12 hours ; Warm the site to help absorption ; Use it for rapidly changing pain
 = Fentanyl patches take a long time to reach a steady level and also stay in the body after removal. Heat raises absorption and can cause overdose.
 ~ Pain changing quickly from day to day → use oral or subcutaneous opioids rather than a patch.
 
@@ -201,11 +201,11 @@ Q = '''
 = 1% means 1 g in 100 ml, or 10 mg per ml. 10 ml contains 100 mg.
 ~ 10 ml of 2% → 200 mg.
 2N: What is the usual maximum dose of plain lidocaine without adrenaline?
-> 1 mg per kg ; *3 mg per kg, up to 200 mg ; 7 mg per kg ; 10 mg per kg ; No limit
+> 1 mg per kg ; *3 mg per kg ; 7 mg per kg ; 10 mg per kg ; 15 mg per kg
 = Plain lidocaine is limited to about 3 mg per kg. With adrenaline, 7 mg per kg, as adrenaline slows absorption.
 ~ Lidocaine with adrenaline → 7 mg per kg, up to 500 mg.
 3D: During a nerve block, a man has tingling lips, a metallic taste and then a seizure. What is the most appropriate specific treatment?
-> Flumazenil ; *IV lipid emulsion 20% ; Naloxone ; Protamine ; Sodium bicarbonate only
+> Flumazenil ; *IV lipid emulsion 20% ; Naloxone ; Protamine ; Sodium bicarbonate
 = Local anaesthetic systemic toxicity: stop injecting, manage the airway and seizures, and give IV lipid emulsion.
 ~ Wheeze and low blood pressure without neurological signs → anaphylaxis.
 
@@ -215,7 +215,7 @@ Q = '''
 = One fingertip unit is about 0.5 g and covers two adult palms, which helps prescribing and use.
 ~ A whole adult arm → about 3 fingertip units.
 2T: What safety advice should be given to someone using paraffin-based emollients?
-> *They soak into clothes and bedding and make them flammable, so keep away from flames ; They cause skin cancer ; They should not be used with steroids ; They must be stored in the fridge ; They cannot be used on the face
+> *Fire risk from soaked fabric ; Risk of skin cancer ; Avoid using with steroids ; Store them in the fridge ; Avoid using on the face
 = Emollient-soaked fabric burns easily. There have been deaths from smoking or naked flames. Washing does not fully remove it.
 ~ The question asks about order with a steroid → apply emollient, then wait about 30 minutes before the steroid.
 3D: A woman has used a potent steroid cream on her face for months. She now has small red papules around her mouth. What is the most likely diagnosis?
@@ -233,13 +233,13 @@ Q = '''
 = Ciclosporin is nephrotoxic and causes hypertension, gum overgrowth and hair growth.
 ~ Methotrexate instead → marrow, liver and lung toxicity.
 3T: A man with plaque psoriasis is having narrowband UVB phototherapy. What is the main long-term risk?
-> Cataracts only ; Hair loss ; *Skin cancer ; Vitiligo ; Weight gain
+> Cataracts ; Hair loss ; *Skin cancer ; Vitiligo ; Weight gain
 = Phototherapy ages the skin and raises skin cancer risk, so the total number of sessions is limited.
 ~ PUVA, with psoralen → even higher skin cancer risk.
 
 @d acnedrugs Acne drugs
 1D: A woman with acne takes co-cyprindiol. What is its main serious risk?
-> Kidney stones ; Liver failure ; Osteoporosis ; *Venous thromboembolism ; Weight loss
+> Kidney stones ; Liver failure ; Osteoporosis ; *Venous thromboembolism ; Cervical cancer risk
 = Co-cyprindiol carries a higher VTE risk than standard pills. Stop it about 3 months after the acne is controlled.
 ~ A standard combined pill → still a VTE risk, but lower.
 2N: A teenager has taken lymecycline for acne for 3 months with improvement. What is the usual maximum course?
@@ -247,7 +247,7 @@ Q = '''
 = NICE: review oral antibiotics at 12 weeks and use for no longer than 6 months, always with a topical retinoid or benzoyl peroxide.
 ~ No improvement at 12 weeks → refer for isotretinoin if moderate to severe.
 3D: A young man on isotretinoin is also prescribed doxycycline. What is the main danger?
-> Bone marrow failure ; Hypoglycaemia ; *Idiopathic intracranial hypertension ; Kidney stones ; QT prolongation
+> Bone marrow failure ; Severe photosensitivity ; *Raised intracranial pressure ; Kidney stones ; QT prolongation
 = Retinoids and tetracyclines both raise intracranial pressure. The combination is avoided.
 ~ Headache, nausea and visual blurring on isotretinoin alone → still check for raised pressure.
 
@@ -261,7 +261,7 @@ Q = '''
 = Adult and child over 12: 500 micrograms, 0.5 ml of 1 mg per ml. Child 6 to 12: 300 micrograms. Under 6: 150 micrograms.
 ~ A 7-year-old → 300 micrograms.
 3T: A man with anaphylaxis is still hypotensive after 2 doses of IM adrenaline and IV fluids. What is the most appropriate next step?
-> Give IV chlorphenamine and wait ; *Start an IV adrenaline infusion with critical care help ; IV hydrocortisone and wait ; Oral prednisolone ; A third IM dose only after 30 minutes
+> IV chlorphenamine ; *IV adrenaline infusion ; IV hydrocortisone ; Nebulised salbutamol ; IV glucagon
 = Refractory anaphylaxis: after 2 IM doses, low-dose IV adrenaline infusion by experienced staff.
 ~ Improved after the first IM dose → observe for biphasic reactions.
 
@@ -275,21 +275,21 @@ Q = '''
 = Acetazolamide causes paraesthesia, metabolic acidosis, low potassium and calcium stones. Avoid in severe kidney disease.
 ~ Tingling with a high MCV → B12 deficiency.
 3T: A long-sighted 70-year-old woman has dilating drops for an eye examination. That evening she has severe eye pain, a red eye and halos. What is the most likely cause?
-> Allergy to the drops ; Conjunctivitis ; *Acute angle-closure glaucoma triggered by dilation ; Migraine ; Uveitis
+> Allergy to the drops ; Bacterial conjunctivitis ; *Acute angle-closure glaucoma ; Migraine with aura ; Anterior uveitis
 = Long-sighted eyes have shallow angles. Dilating the pupil can bunch up the iris and block drainage.
 ~ Short-sighted with deep angles → dilation is low risk.
 
 @d haematinics Iron, B12 and folate
 1D: A woman with iron deficiency is starting oral iron. What is the most appropriate advice?
-> Black stools mean bleeding, stop at once ; Take three tablets a day for faster results ; *Take one tablet a day or on alternate days; black stools and constipation are common ; Take it with tea ; Take it with calcium
+> Stop if stools turn black ; Three tablets a day for speed ; *One tablet daily or alternate days ; Take it with tea ; Take it with milk
 = Once daily or alternate day dosing is better absorbed and tolerated. Black stools are expected.
 ~ She cannot tolerate or absorb oral iron → IV iron.
 2T: A man has a megaloblastic anaemia with low B12 and low folate. What is the most appropriate order of treatment?
-> Folic acid first, then B12 ; Folic acid alone ; No treatment until a bone marrow ; *B12 first, then folic acid ; Iron first
+> Folic acid first, then B12 ; Folic acid ; No treatment until a bone marrow ; *B12 first, then folic acid ; Iron first
 = Giving folate alone in B12 deficiency can precipitate subacute combined degeneration of the cord. Start B12 first or together.
 ~ Folate deficiency alone with normal B12 → folic acid 5 mg daily.
 3N: A woman has pernicious anaemia with no neurological symptoms. What is the most appropriate hydroxocobalamin regimen?
-> Oral B12 daily only ; Once a year ; *IM 1 mg three times a week for 2 weeks, then every 3 months ; IM daily for life ; Monthly IV infusion
+> Oral cyanocobalamin daily ; IM once a year ; *IM loading, then every 3 months ; IM weekly for a year ; IV infusion every month
 = Loading then maintenance every 3 months. Oral B12 is not reliable in pernicious anaemia as intrinsic factor is missing.
 ~ Neurological involvement → alternate days until no further improvement, then every 2 months.
 
@@ -313,7 +313,7 @@ Q = '''
 = Tranexamic acid cuts death from trauma bleeding if given within 3 hours. After that it can do harm.
 ~ Bleeding started 5 hours ago → tranexamic acid is not started, as late use may harm.
 2D: A woman with heavy periods has a normal uterus and wants a non-hormonal treatment. Which is most appropriate?
-> Danazol ; Norethisterone ; *Tranexamic acid during periods ; Ulipristal ; Warfarin
+> Danazol ; Norethisterone ; *Tranexamic acid ; Ulipristal acetate ; Combined pill
 = Tranexamic acid reduces menstrual blood loss and is taken only during the period. Mefenamic acid is the other non-hormonal option.
 ~ She also wants contraception → levonorgestrel intrauterine system.
 3D: In which situation does tranexamic acid not improve outcome?

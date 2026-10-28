@@ -115,7 +115,7 @@ def run(width, mock=True):
                 pg.keyboard.press(str(a + 1 if right else (a + 1) % 4 + 1)); pg.wait_for_timeout(60)
                 pg.keyboard.press('Enter'); pg.wait_for_timeout(60)
 
-        if not re.search(r'v1\.\d+\.\d', pg.text_content('#homeBtn')): errs.append('version not 1.x')
+        if not re.search(r'v[12]\.\d+\.\d', pg.text_content('#homeBtn')): errs.append('version not 1.x')
 
         # ---- parser: Passmed layout ----
         q = ev('t => __me8.rmxParse(t)', STONE)

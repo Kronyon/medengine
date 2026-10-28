@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
-"""medengine-STUDY v2.3 tests (no network): 🔨 Hammer SBAs.
+"""medengine-STUDY v2.4 tests (no network): 🔨 Hammer SBAs.
 The data holds 3 hammers (🔨, 🔨🔨, 🔨🔨🔨) for every unique ILO condition, drug group, test or procedure and off-map topic,
 plus the 91 mock questions; every question has 5 options, a valid answer, a why and a flip; the hub opens from the sidebar
 and home; filters by source, hammer, pattern, status and system change the count; a quiz answers with A to E and 1 to 5,
 shows why and the flip, moves on with Enter and leaves with Esc; results are saved and survive a reload; the end screen
 offers to redo missed ones; each condition page has its own 🔨 button (aliases 61 and 88 included) that starts its 3;
-the mock blueprint renders; search offers matching hammers; no page overflow at 3 widths or in dark mode."""
+the mock blueprint renders; search offers matching hammers; no page overflow at 3 widths or in dark mode.
+v2.4: a numbered palette jumps between questions; Prev, Next and the arrow keys move back and forth with answers kept;
+options can be crossed out with ✕ or Shift+letter; triggers show under the answer; a run left midway resumes after a reload;
+no answer is much longer than every distractor, the answer is the longest option in at most a third of questions,
+and no distractor carries an absolute word the answer lacks."""
 import pathlib, re, sys
 from playwright.sync_api import sync_playwright
 
@@ -17,15 +21,23 @@ MOCK = "window.claude={use:async c=>c==='user'?{id:async()=>'u1'}:c==='db'?{doc:
 def data_checks(D, errs):
     H, M = D.get('hq', {}), D.get('mock', {})
     qs = H.get('q', [])
-    if len(qs) < 900: errs.append(f'only {len(qs)} hammer questions')
+    if len(qs) < 1400: errs.append(f'only {len(qs)} hammer questions')
+    longest = 0
+    ABS = re.compile(r'\b(only|alone|never|always|ever|nothing|indefinitely|for life|permanently|straight away|at once)\b', re.I)
     by = {}
     for q in qs:
         by.setdefault((q['t'], q['k']), []).append(q['h'])
         if len(q['o']) != 5 or not 0 <= q['a'] < 5: errs.append('bad options ' + q['id'])
         if not q.get('w') or not q.get('f'): errs.append('missing why or flip ' + q['id'])
         if re.search(r'[—–()]', q['s'] + q['w'] + q['f'] + ' '.join(q['o'])): errs.append('dash or bracket in ' + q['id'])
+        L = [len(o) for o in q['o']]; rest = max(L[:q['a']] + L[q['a'] + 1:])
+        longest += L[q['a']] > rest
+        if L[q['a']] - rest >= 12 and L[q['a']] > rest * 1.4: errs.append('answer much longer than every distractor ' + q['id'])
+        if any(ABS.search(o) for i, o in enumerate(q['o']) if i != q['a']) and not ABS.search(q['o'][q['a']]) and 'Progestogen-only' not in ' '.join(q['o']): errs.append('absolute word in a distractor ' + q['id'])
+    if qs and longest / len(qs) > 0.33: errs.append(f'answer is the longest option in {longest}/{len(qs)}')
     for k, hs in by.items():
-        if sorted(hs) != [1, 2, 3]: errs.append(f'{k}: hammers {hs}')
+        if not (hs.count(1) == hs.count(2) == hs.count(3) >= 1 and len(hs) == 3 * hs.count(1)): errs.append(f'{k}: hammers {hs}')
+    if sum(1 for (t, k), hs in by.items() if t == 'u' and len(hs) >= 6) < 160: errs.append('most units should have 6 or more hammers')
     units = {int(k) for t, k in by if t == 'u'}
     al = {int(k) for k in H.get('al', {})}
     miss = [i for i in range(len(D['units'])) if i not in units and i not in al]
@@ -54,7 +66,7 @@ def run(width, dark):
         def go(h, t=400):
             ev(f"location.hash = '{h}'"); pg.wait_for_timeout(t)
 
-        if not re.search(r'v2\.3', pg.text_content('#homeBtn')): errs.append('version not v2.3')
+        if not re.search(r'v2\.4', pg.text_content('#homeBtn')): errs.append('version not v2.4')
         D = ev("JSON.parse(document.getElementById('qqdata').textContent)")
         if width == 1280 and not dark: data_checks(D, errs)
         if not pg.locator('#main [data-go="hammer"]').count(): errs.append('no Hammer button on home')
@@ -88,11 +100,36 @@ def run(width, dark):
         if not pg.locator('.hq-flip').count(): errs.append('no flip after answering')
         if pg.locator('.hq-o.ok').count() != 1: errs.append('correct option not shown')
         ov('quiz answered')
+        if not pg.locator('.hq-trg').count(): errs.append('no triggers under the answer')
+        if pg.locator('.hq-pal .hq-pn').count() != 20: errs.append('palette should have 20 buttons')
+        if pg.locator('.hq-pal .hq-pn.ok, .hq-pal .hq-pn.bad').count() != 1: errs.append('palette did not mark the answer')
         pg.keyboard.press('Enter'); pg.wait_for_timeout(100)
         if pg.locator('.hq-why').count(): errs.append('Enter did not move on')
         if '2 / 20' not in pg.text_content('#main'): errs.append('counter did not advance')
+        # cross-outs: ✕ button and Shift+letter, kept when moving away and back
+        pg.locator('.hq-xb').nth(0).click(); pg.wait_for_timeout(60)
+        pg.keyboard.press('Shift+D'); pg.wait_for_timeout(60)
+        if pg.locator('.hq-o.x').count() != 2: errs.append('cross-outs did not apply')
+        if pg.locator('.hq-why').count(): errs.append('crossing out answered the question')
+        pg.keyboard.press('ArrowLeft'); pg.wait_for_timeout(80)
+        if '1 / 20' not in pg.text_content('#main') or not pg.locator('.hq-why').count(): errs.append('ArrowLeft did not go back to the answered question')
+        pg.click('[data-hqnav="1"]'); pg.wait_for_timeout(80)
+        if '2 / 20' not in pg.text_content('#main') or pg.locator('.hq-o.x').count() != 2: errs.append('Next lost the cross-outs')
+        pg.locator('.hq-xb').nth(0).click(); pg.wait_for_timeout(60)
+        if pg.locator('.hq-o.x').count() != 1: errs.append('second ✕ did not undo the cross-out')
         pg.keyboard.press('3'); pg.wait_for_timeout(80)
         if not pg.locator('.hq-why').count(): errs.append('3 did not answer')
+        pg.click('[data-hqgo="9"]'); pg.wait_for_timeout(80)
+        if '10 / 20' not in pg.text_content('#main'): errs.append('palette jump failed')
+        pg.click('[data-hqgo="1"]'); pg.wait_for_timeout(80)
+        # resume after reload
+        pg.click('[data-hqexit]'); pg.wait_for_timeout(120)
+        pg.reload(); pg.wait_for_timeout(1300); go('hammer')
+        if not pg.locator('[data-hqresume]').count(): errs.append('no resume after reload')
+        else:
+            pg.click('[data-hqresume]'); pg.wait_for_timeout(150)
+            t = pg.text_content('#main')
+            if '2 / 20' not in t or '2 answered' not in t: errs.append('resume did not restore the place: ' + t[:50])
         for _ in range(18):
             pg.keyboard.press('Enter'); pg.wait_for_timeout(30); pg.locator('.hq-o').first.click(); pg.wait_for_timeout(30)
         pg.keyboard.press('Enter'); pg.wait_for_timeout(120)
@@ -112,7 +149,7 @@ def run(width, dark):
         # condition pages: own button, aliases included
         al = {int(k): v for k, v in D['hq']['al'].items()}
         for ui in (0, 61, 88, 140):
-            k = al.get(ui, ui); want = 3 + sum(1 for m in D['mock']['q'] if m['u'] == k)
+            k = al.get(ui, ui); want = sum(1 for q in D['hq']['q'] if q['t'] == 'u' and int(q['k']) == k) + sum(1 for m in D['mock']['q'] if m['u'] == k)
             go(f'u{ui}-read', 350)
             btn = pg.locator('#main [data-hqtgt]')
             if not btn.count(): errs.append(f'unit {ui} has no hammer button'); continue

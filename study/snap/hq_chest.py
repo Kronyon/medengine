@@ -23,7 +23,7 @@ Q = '''
 = A stable patient goes for CT aortic angiography: fast, available and it maps the whole aorta for planning. A widened mediastinum on X-ray only raises suspicion.
 ~ Too unstable to leave resus → bedside transoesophageal echo.
 3T: CT shows an aortic dissection that starts beyond the origin of the left subclavian artery. There is no organ or limb malperfusion. What is the most appropriate initial management?
-> Emergency open surgical repair ; *IV labetalol to a systolic pressure of 100 to 120 mmHg ; IV glyceryl trinitrate alone ; Aspirin 300 mg ; Thrombolysis
+> Emergency open repair ; *IV labetalol ; IV glyceryl trinitrate ; Aspirin 300 mg ; IV alteplase
 = Stanford type B is managed medically first: a beta-blocker lowers the rate and the force on the wall before any vasodilator is added. A vasodilator alone causes reflex tachycardia.
 ~ Dissection involving the ascending aorta, Stanford type A → emergency cardiothoracic surgery.
 
@@ -51,13 +51,13 @@ Q = '''
 = A regular rate of almost exactly 150 is flutter with 2:1 block until proven otherwise. Flutter waves at 300 per minute hide behind every second QRS.
 ~ Irregularly irregular with no P waves → atrial fibrillation. Broad QRS over 120 ms → treat as ventricular tachycardia.
 3D: A 72-year-old woman on clarithromycin and haloperidol collapses briefly. The monitor shows a broad complex tachycardia whose QRS axis twists around the baseline. She now has a pulse and a blood pressure of 110/70. Which is the most appropriate immediate drug?
-> IV adenosine ; IV amiodarone ; *IV magnesium sulfate ; IV verapamil ; IV lidocaine
+> IV adenosine ; IV amiodarone ; *IV magnesium sulfate ; IV verapamil ; IV potassium chloride
 = Torsades de pointes on QT-prolonging drugs: IV magnesium sulfate 2 g, stop the culprits and correct potassium. Amiodarone prolongs the QT further.
 ~ No pulse → defibrillate and follow the cardiac arrest algorithm.
 
 @u 4
 1R: A 49-year-old man has a clinic blood pressure of 156/96 on two readings. He feels well and his fundi are normal. What is the most appropriate next step?
-> *Ambulatory blood pressure monitoring ; Start amlodipine ; Start ramipril ; Recheck in 5 years ; Same-day specialist referral
+> *Ambulatory blood pressure monitoring ; Start amlodipine today ; Start ramipril today ; Repeat clinic reading in 1 year ; Same-day specialist referral
 = Clinic BP from 140/90 to 179/119 is confirmed with ABPM, or home monitoring if ABPM is not tolerated, before diagnosing hypertension.
 ~ BP 180/120 or more with papilloedema or retinal haemorrhage → same-day specialist referral.
 2D: A 54-year-old man of Black African family origin has ABPM confirming hypertension at 152/94. He does not have diabetes. Which is the most appropriate first-line drug?

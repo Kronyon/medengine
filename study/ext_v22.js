@@ -77,6 +77,8 @@ function viewHammer(m){
   let h = '<div class="wrap hq-wrap"><div class="ph"><div class="crumbs"><span class="code">🔨 Hammer</span></div><h1>Hammer SBAs</h1><p class="hint" style="margin:0">Three questions for every ILO condition, drug group, test and procedure, plus the off-map topics and your own mock. <b>🔨</b> the classic picture · <b>🔨🔨</b> two steps, a lookalike or a number that overrides the story · <b>🔨🔨🔨</b> the curveball. After each answer, <b>🔄 the flip</b> shows the one change that would make another option right. Keys: <span class="kbd">A</span>–<span class="kbd">E</span> or <span class="kbd">1</span>–<span class="kbd">5</span>, <span class="kbd">Enter</span> next, <span class="kbd">Esc</span> leave.</p></div>';
   h += '<div class="tiles">' + [[all.length, 'Questions'], [done, 'Answered'], [miss, 'Missed last time'], [MOCK.q.length, 'From your mock']].map(([v, l]) => '<div class="tile"><div class="v">' + v + '</div><div class="l">' + l + '</div></div>').join('') + '</div>';
   h += hqBlueprint();
+  const run = S.hqRun;
+  if (run && run.ids && run.ids.length) { const nd = Object.keys(run.pk || {}).length; h += '<div class="panel hq-resume"><div class="toolbar"><b class="grow">⏸ Unfinished run' + (run.lbl ? ': ' + esc(run.lbl) : '') + ' · ' + nd + ' of ' + run.ids.length + ' answered</b><button class="btn primary" data-hqresume>▶ Resume at Q' + ((run.i || 0) + 1) + '</button></div></div>'; }
   if (c.tgt) {
     h += '<div class="panel"><div class="toolbar"><b class="grow">' + esc(hqTitle(list[0] || {t: c.tgt[0], k: c.tgt.slice(2)})) + ' · ' + list.length + ' questions</b><button class="btn ghost sm" data-hqset="tgt:">✕ Show everything</button></div></div>';
   } else {
@@ -95,65 +97,124 @@ function hqIndex(list){
   list.forEach(it => { const k = it.t === 'm' ? 'mq:' + it.id : it.t + ':' + it.k; if (!seen.has(k)) seen.set(k, [it, 0]); seen.get(k)[1]++; });
   return '<div class="hq-idx">' + Array.from(seen.entries()).map(([k, [it, n]]) => '<button class="sr" data-hqtgt="' + esc(k) + '"><span class="where">' + (it.t === 'm' ? '🎓' : HAM(1)) + ' ' + n + '</span>' + esc(it.t === 'm' ? 'Q' + it.n + ' · ' + ((UNITS[+it.k] || {}).name || '') : hqTitle(it)) + '</button>').join('') + '</div>';
 }
+/* ----- a run: Passmedicine-style. Move back and forth, cross options out, leave and come back; it is saved with your progress ----- */
+const HQ_BY = {}; function hqItem(id){ if (!HQ_BY._ok) { hqAll().forEach(it => HQ_BY[it.id] = it); HQ_BY._ok = 1; } return HQ_BY[id]; }
+function hqNewRun(list, lbl){
+  hqSess = {kind: 'hammer', ids: list.map(it => it.id), i: 0, pk: {}, x: {}, lbl: lbl || ''};
+  hqSave(); session = hqSess; hqDraw($('#main')); window.scrollTo({top: 0});
+}
+function hqSave(){ if (!hqSess) return; S.hqRun = {ids: hqSess.ids, i: hqSess.i, pk: hqSess.pk, x: hqSess.x, lbl: hqSess.lbl, ts: Date.now()}; save(); }
+function hqResume(){
+  const r = S.hqRun; if (!r || !r.ids || !r.ids.length) return false;
+  const ids = r.ids.filter(id => hqItem(id)); if (!ids.length) return false;
+  hqSess = {kind: 'hammer', ids, i: Math.min(r.i || 0, ids.length - 1), pk: r.pk || {}, x: r.x || {}, lbl: r.lbl || ''};
+  session = hqSess; hqDraw($('#main')); return true;
+}
 function hqStart(n){
   let list = hqFilter();
   if (!hqCfg.tgt) list = shuffle(list, rng(Date.now() & 0xffffffff));
   else list = list.slice().sort((a, b) => a.h - b.h || (a.t === 'm') - (b.t === 'm'));
   if (n) list = list.slice(0, n);
   if (!list.length) return;
-  hqSess = {kind: 'hammer', list, i: 0, pick: null, res: []};
-  session = hqSess; hqDraw($('#main')); window.scrollTo({top: 0});
+  hqNewRun(list, hqCfg.tgt ? hqTitle(list[0]) : '');
+}
+/* 🧲 the trigger lines that belong with a question, shown under the answer */
+function hqTrIndex(){
+  if (hqTrIndex.c) return hqTrIndex.c;
+  const T = D.trg || {}, out = [];
+  Object.entries(T.c || {}).forEach(([u, s]) => out.push({c: s[0], a: s[1], u: +u, star: 1}));
+  if (window.TG) trgU().units.forEach(u => (u.h || []).forEach(h => out.push({c: h[1], a: h[2], u: u.i})));
+  (T.sc || []).forEach(sc => sc[2].forEach(l => out.push({c: l[1], a: l[2] + ' · ' + (((T.bug || {})[l[0]] || [])[0] || ''), g: (((T.bug || {})[l[0]] || [])[0] || '')})));
+  ['dr', 'ix', 'mx'].forEach(k => (T[k] || []).forEach(gr => gr[2].forEach(d => { const nm = d[0].split(' · ')[0]; out.push({c: d[2], a: nm, g: nm}); (d[3] || []).forEach(c => out.push({c: c[0], a: nm + ': ' + c[1], g: nm})); })));
+  out.forEach(x => x.k = (x.c + ' ' + x.a).replace(/\*\*/g, '').toLowerCase());
+  return hqTrIndex.c = out;
+}
+const HQ_STOP = new Set('with that this from have been their which what most likely appropriate management after before into than then them they there these those when where would could should about other also only such your over under more less each both very none acute chronic first next given patient woman years year week weeks days hours left right normal raised severe'.split(' '));
+function hqToks(t){ return (t || '').toLowerCase().replace(/[^a-z0-9 ]+/g, ' ').split(' ').filter(w => w.length > 3 && !HQ_STOP.has(w)); }
+function hqTriggers(it){
+  const ui = hqUnitOf(it), ans = it.o[it.a], idx = hqTrIndex();
+  const strong = new Set(hqToks(ans)), weak = new Set(hqToks(hqTitle(it) + ' ' + (it.f || '').split('→')[0]));
+  const sc = idx.map(x => {
+    let s = 0; const ws = new Set(hqToks(x.k));
+    strong.forEach(w => { if (ws.has(w)) s += 3; }); weak.forEach(w => { if (ws.has(w)) s += 1; });
+    if (x.g && ans.toLowerCase().includes(x.g.toLowerCase())) s += 4;
+    if (x.g && it.t !== 'u' && it.t !== 'm' && hqTitle(it).toLowerCase().includes(x.g.toLowerCase())) s += 3;
+    if (ui != null && x.u === ui) s += 2.5;
+    return [s, x];
+  }).filter(p => p[0] >= 3).sort((a, b) => b[0] - a[0]);
+  const pick = [], seen = new Set();
+  const star = ui != null ? idx.find(x => x.star && x.u === ui) : null;
+  if (star) { pick.push(star); seen.add(star.k); }
+  for (const [, x] of sc) { if (pick.length >= 4) break; if (!seen.has(x.k)) { pick.push(x); seen.add(x.k); } }
+  if (!pick.length) return '';
+  return '<div class="hq-trg"><span class="hq-fl">🧲 Triggers</span>' + pick.map(x => '<div class="hq-tl">' + (x.star ? '⭐ ' : '') + fmtRich0(x.c) + ' <span class="tr-arr">→</span> <b class="hq-ta">' + fmtRich0(x.a) + '</b></div>').join('')
+    + '<div class="hq-tgo">' + (ui != null && UNITS[ui] ? '<button class="btn ghost sm" data-trjump="' + ui + '">🧲 All triggers for ' + esc(UNITS[ui].name) + '</button>' : '<button class="btn ghost sm" data-trgo="' + esc(hqToks(ans)[0] || ans) + '">🧲 More triggers</button>') + '</div></div>';
 }
 function hqDraw(m){
   const s = hqSess; m = m || $('#main');
-  if (s.i >= s.list.length) return hqEnd(m);
-  const it = s.list[s.i], L = 'ABCDE', ans = s.pick != null;
-  let h = '<div class="wrap hq-wrap"><div class="ph"><div class="crumbs"><span class="code">🔨 ' + (s.i + 1) + ' / ' + s.list.length + '</span><span class="grow"></span><button class="btn ghost sm" data-hqexit>✕ Leave</button></div>';
+  if (s.done) return hqEnd(m);
+  const n = s.ids.length, it = hqItem(s.ids[s.i]), L = 'ABCDE', pick = s.pk[it.id], ans = pick != null, xs = s.x[it.id] || [];
+  const done = Object.keys(s.pk).length;
+  let h = '<div class="wrap hq-wrap"><div class="ph"><div class="crumbs"><span class="code">🔨 ' + (s.i + 1) + ' / ' + n + '</span><span class="hint">' + done + ' answered' + (s.lbl ? ' · ' + esc(s.lbl) : '') + '</span><span class="grow"></span><button class="btn ghost sm" data-hqfin>🏁 End</button><button class="btn ghost sm" data-hqexit title="Your place is saved">✕ Leave</button></div>';
+  h += '<div class="hq-pal" role="navigation" aria-label="Questions">' + s.ids.map((id, j) => { const p = s.pk[id], q = hqItem(id); const c = p == null ? '' : p === q.a ? ' ok' : ' bad'; return '<button class="hq-pn' + c + (j === s.i ? ' on' : '') + '" data-hqgo="' + j + '" aria-label="Question ' + (j + 1) + '">' + (j + 1) + '</button>'; }).join('') + '</div>';
   h += '<div class="hq-tag"><span>' + esc(hqTitle(it)) + '</span><span class="hq-h">' + HAM(it.h) + '</span><span class="hq-p">' + HQ_PI[it.p] + ' ' + esc(HQ.pat[it.p] || '') + '</span>' + (it.ref ? '<span class="hq-ref">' + esc(it.ref) + '</span>' : '') + '</div></div>';
   h += '<div class="panel hq-q"><p class="hq-s">' + esc(it.s) + '</p><div class="hq-os">';
   it.o.forEach((o, i) => {
-    let cl = 'hq-o';
-    if (ans) cl += i === it.a ? ' ok' : i === s.pick ? ' bad' : ' dim';
-    h += '<button class="' + cl + '" data-hqpick="' + i + '"' + (ans ? ' disabled' : '') + '><span class="hq-l">' + L[i] + '</span><span>' + esc(o) + '</span></button>';
+    let cl = 'hq-o' + (xs.includes(i) ? ' x' : '');
+    if (ans) cl += i === it.a ? ' ok' : i === pick ? ' bad' : ' dim';
+    h += '<div class="hq-orow"><button class="' + cl + '" data-hqpick="' + i + '"' + (ans ? ' disabled' : '') + '><span class="hq-l">' + L[i] + '</span><span class="hq-ot">' + esc(o) + '</span></button><button class="hq-xb' + (xs.includes(i) ? ' on' : '') + '" data-hqx="' + i + '" title="Cross out (Shift+' + L[i] + ')" aria-label="Cross out option ' + L[i] + '">✕</button></div>';
   });
   h += '</div>';
+  if (!ans) h += '<p class="hint hq-hint">Tap ✕ or right-click an option to cross it out (Shift + letter). Answer with <span class="kbd">A</span>–<span class="kbd">E</span>. <span class="kbd">←</span> <span class="kbd">→</span> move between questions.</p>';
   if (ans) {
-    const ok = s.pick === it.a;
+    const ok = pick === it.a;
     h += '<div class="hq-why ' + (ok ? 'ok' : 'bad') + '"><b>' + (ok ? '✅ Right.' : '❌ ' + L[it.a] + ' is the answer.') + '</b> ' + esc(it.w || '') + '</div>';
     if (it.f) h += '<div class="hq-flip"><span class="hq-fl">🔄 Flip it</span>' + esc(it.f).replace('→', '<b class="hq-arr">→</b>') + '</div>';
+    h += hqTriggers(it);
     const ui = hqUnitOf(it);
-    h += '<div class="toolbar">' + (ui != null && UNITS[ui] ? '<button class="btn ghost sm" data-u="' + ui + '" data-mode="read">📖 Notes</button><button class="btn ghost sm" data-trjump="' + ui + '">🧲 Triggers</button>' : '') + '<span class="grow"></span><button class="btn primary" data-hqnext>' + (s.i + 1 < s.list.length ? 'Next →' : 'Finish') + ' <span class="kbd">Enter</span></button></div>';
+    if (ui != null && UNITS[ui]) h += '<div class="toolbar"><button class="btn ghost sm" data-u="' + ui + '" data-mode="read">📖 Notes for ' + esc(UNITS[ui].name) + '</button></div>';
   }
+  h += '<div class="toolbar hq-nav"><button class="btn" data-hqnav="-1"' + (s.i ? '' : ' disabled') + '>← Prev</button><span class="grow"></span>' + (s.i + 1 < n ? '<button class="btn' + (ans ? ' primary' : '') + '" data-hqnav="1">Next →</button>' : '<button class="btn primary" data-hqfin>🏁 Finish</button>') + '</div>';
   h += '</div></div>';
   m.innerHTML = h;
+  const on = m.querySelector('.hq-pn.on'); if (on && on.scrollIntoView) { const pal = m.querySelector('.hq-pal'); pal.scrollLeft = on.offsetLeft - pal.clientWidth / 2; }
 }
 function hqPick(i){
-  const s = hqSess; if (!s || s.pick != null) return;
-  const it = s.list[s.i]; s.pick = i; const ok = i === it.a;
-  s.res.push([it, ok]); hqMark(it.id, ok); if (ok) addXp(it.h * 2);
-  hqDraw();
+  const s = hqSess; if (!s) return; const it = hqItem(s.ids[s.i]);
+  if (s.pk[it.id] != null || i >= it.o.length) return;
+  s.pk[it.id] = i; const ok = i === it.a;
+  hqMark(it.id, ok); if (ok) addXp(it.h * 2);
+  hqSave(); hqDraw();
 }
-function hqNext(){ const s = hqSess; if (!s || s.pick == null) return; s.i++; s.pick = null; hqDraw(); window.scrollTo({top: 0}); }
+function hqStrike(i){
+  const s = hqSess; if (!s) return; const it = hqItem(s.ids[s.i]); if (s.pk[it.id] != null) return;
+  const xs = s.x[it.id] || (s.x[it.id] = []); const k = xs.indexOf(i); if (k >= 0) xs.splice(k, 1); else xs.push(i);
+  hqSave(); hqDraw();
+}
+function hqGo(j){ const s = hqSess; if (!s) return; s.i = Math.max(0, Math.min(s.ids.length - 1, j)); hqSave(); hqDraw(); window.scrollTo({top: 0}); }
+function hqFinish(){ const s = hqSess; if (!s) return; s.done = true; S.hqRun = null; save(); hqEnd($('#main')); window.scrollTo({top: 0}); }
 function hqEnd(m){
-  const s = hqSess, r = s.res, ok = r.filter(x => x[1]).length;
+  const s = hqSess, r = s.ids.filter(id => s.pk[id] != null).map(id => [hqItem(id), s.pk[id] === hqItem(id).a]), ok = r.filter(x => x[1]).length;
   const byP = {}; r.forEach(([it, g]) => { const b = byP[it.p] || (byP[it.p] = [0, 0]); b[1]++; if (g) b[0]++; });
-  const wrong = r.filter(x => !x[1]).map(x => x[0]);
-  let h = '<div class="wrap hq-wrap"><div class="ph"><h1>🔨 ' + ok + ' / ' + r.length + '</h1><p class="hint" style="margin:0">Where the points went, by pattern. The weakest row is what to drill next.</p></div><div class="panel">';
+  const wrong = r.filter(x => !x[1]).map(x => x[0]), skipped = s.ids.length - r.length;
+  let h = '<div class="wrap hq-wrap"><div class="ph"><h1>🔨 ' + ok + ' / ' + r.length + '</h1><p class="hint" style="margin:0">' + (skipped ? skipped + ' left unanswered. ' : '') + 'Where the points went, by pattern. The weakest row is what to drill next.</p></div><div class="panel">';
   Object.entries(byP).sort((a, b) => a[1][0] / a[1][1] - b[1][0] / b[1][1]).forEach(([p, [g, n]]) => h += '<div class="hq-bar"><span class="hq-bl">' + HQ_PI[p] + ' ' + esc(HQ.pat[p] || p) + '</span><span class="hq-bt"><i style="width:' + Math.round(g / n * 100) + '%"></i></span><b>' + g + '/' + n + '</b></div>');
   h += '</div>';
   if (wrong.length) h += '<div class="panel"><h6>🔄 Flips you missed</h6>' + wrong.map(it => '<div class="hq-flip"><span class="hq-fl">' + esc(hqTitle(it)) + '</span>' + esc(it.f || '') + '</div>').join('') + '</div>';
-  h += '<div class="toolbar">' + (wrong.length ? '<button class="btn primary" data-hqretry>🔥 Redo the ' + wrong.length + ' missed</button>' : '') + '<button class="btn" data-hqexit>Back to the list</button></div></div>';
+  h += '<div class="toolbar">' + (wrong.length ? '<button class="btn primary" data-hqretry>🔥 Redo the ' + wrong.length + ' missed</button>' : '') + '<button class="btn" data-hqreview>👀 Review this run</button><button class="btn" data-hqexit>Back to the list</button></div></div>';
   m.innerHTML = h;
   s.wrong = wrong;
 }
 function hqKey(e){
   const s = hqSess; if (!s) return false;
-  if (e.key === 'Escape') { hqSess = null; render(); return true; }
-  if (s.i >= s.list.length) return false;
-  const k = e.key.toUpperCase(), idx = 'ABCDE'.indexOf(k) >= 0 ? 'ABCDE'.indexOf(k) : /^[1-5]$/.test(e.key) ? +e.key - 1 : -1;
-  if (s.pick == null && idx >= 0 && idx < s.list[s.i].o.length) { e.preventDefault(); hqPick(idx); return true; }
-  if (s.pick != null && (e.key === 'Enter' || e.key === 'ArrowRight' || k === 'N')) { e.preventDefault(); hqNext(); return true; }
-  return idx >= 0;
+  if (e.key === 'Escape') { hqSess = null; hqCfg.tgt = ''; render(); return true; }
+  if (s.done) return false;
+  if (e.key === 'ArrowLeft') { e.preventDefault(); hqGo(s.i - 1); return true; }
+  if (e.key === 'ArrowRight') { e.preventDefault(); if (s.i + 1 < s.ids.length) hqGo(s.i + 1); return true; }
+  const it = hqItem(s.ids[s.i]), k = e.key.toUpperCase(), li = 'ABCDE'.indexOf(k), idx = li >= 0 && k.length === 1 ? li : /^[1-5]$/.test(e.key) ? +e.key - 1 : -1;
+  if (idx >= 0 && idx < it.o.length) { e.preventDefault(); if (e.shiftKey && li >= 0) hqStrike(idx); else hqPick(idx); return true; }
+  if (e.key === 'Enter' || k === 'N') { e.preventDefault(); if (s.i + 1 < s.ids.length) hqGo(s.i + 1); else hqFinish(); return true; }
+  return false;
 }
 /* search: hammer stems that mention the term */
 function hqSearchHtml(q, has){
@@ -161,22 +222,27 @@ function hqSearchHtml(q, has){
   return n ? '<h6>🔨 Hammer SBAs</h6><button class="sr" data-hqq="' + esc(q) + '"><span class="where">🔨 ' + n + '</span>Practise every question that mentions “' + esc(q) + '”</button>' : '';
 }
 document.addEventListener('click', e => {
-  const t = e.target.closest && e.target.closest('[data-hqset],[data-hqstart],[data-hqpick],[data-hqnext],[data-hqexit],[data-hqretry],[data-hqtgt],[data-hqq]'); if (!t) return;
+  const t = e.target.closest && e.target.closest('[data-hqset],[data-hqstart],[data-hqpick],[data-hqx],[data-hqnav],[data-hqgo],[data-hqfin],[data-hqexit],[data-hqretry],[data-hqreview],[data-hqresume],[data-hqtgt],[data-hqq]'); if (!t) return;
   const d = t.dataset; e.preventDefault(); e.stopImmediatePropagation();
   const sp = document.getElementById('sp'); if (sp) sp.hidden = true;
+  const toHub = () => { if (route.view !== 'hammer') { route = {view: 'hammer'}; try { history.replaceState(null, '', '#hammer'); } catch(x) {} renderSide(); } };
   if (d.hqset != null) { const i = d.hqset.indexOf(':'), k = d.hqset.slice(0, i), v = d.hqset.slice(i + 1); hqCfg[k] = k === 'h' ? +v : v; if (k === 'tgt' && !v) hqCfg.tgt = ''; return viewHammer($('#main')); }
   if (d.hqstart != null) return hqStart(+d.hqstart);
   if (d.hqpick != null) return hqPick(+d.hqpick);
-  if (d.hqnext != null) return hqNext();
-  if (d.hqexit != null) { hqSess = null; return route.view === 'hammer' ? render() : go({view: 'hammer'}); }
-  if (d.hqretry != null) { const w = hqSess.wrong; hqSess = {kind: 'hammer', list: w, i: 0, pick: null, res: []}; session = hqSess; return hqDraw(); }
-  if (d.hqtgt != null) { hqCfg.tgt = d.hqtgt; hqSess = null; if (route.view !== 'hammer') { route = {view: 'hammer'}; try { history.replaceState(null, '', '#hammer'); } catch(x) {} renderSide(); } return hqStart(0); }
+  if (d.hqx != null) return hqStrike(+d.hqx);
+  if (d.hqnav != null) return hqGo(hqSess.i + (+d.hqnav));
+  if (d.hqgo != null) return hqGo(+d.hqgo);
+  if (d.hqfin != null) return hqFinish();
+  if (d.hqresume != null) { toHub(); return hqResume(); }
+  if (d.hqexit != null) { hqSess = null; hqCfg.tgt = ''; return route.view === 'hammer' ? render() : go({view: 'hammer'}); }
+  if (d.hqretry != null) return hqNewRun(hqSess.wrong, '🔥 Missed');
+  if (d.hqreview != null) { hqSess.done = false; hqSess.i = 0; session = hqSess; return hqDraw(); }
+  if (d.hqtgt != null) { hqCfg.tgt = d.hqtgt; hqSess = null; toHub(); return hqStart(0); }
   if (d.hqq != null) {
     const q = d.hqq.toLowerCase(); const list = hqAll().filter(it => (it.s + ' ' + it.o.join(' ')).toLowerCase().includes(q));
-    hqSess = {kind: 'hammer', list, i: 0, pick: null, res: []};
-    if (route.view !== 'hammer') { route = {view: 'hammer'}; try { history.replaceState(null, '', '#hammer'); } catch(x) {} renderSide(); }
-    session = hqSess; const qi = document.getElementById('q'); if (qi) qi.blur(); return hqDraw();
+    toHub(); const qi = document.getElementById('q'); if (qi) qi.blur(); return hqNewRun(list, '“' + d.hqq + '”');
   }
 }, true);
+document.addEventListener('contextmenu', e => { const b = e.target.closest && e.target.closest('[data-hqpick]'); if (!b || !hqSess || b.disabled) return; e.preventDefault(); hqStrike(+b.dataset.hqpick); });
 document.addEventListener('change', e => { const t = e.target; if (t.dataset && t.dataset.hqsys != null) { hqCfg.sys = t.value; viewHammer($('#main')); } });
 document.addEventListener('toggle', e => { if (e.target.classList && e.target.classList.contains('hq-bp')) { S.set.hqBp = e.target.open; save(); } }, true);

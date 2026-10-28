@@ -15,7 +15,7 @@ Q = '''
 
 @d nitrates Nitrates and other anti-anginals
 1N: A man with angina uses his GTN spray and the pain has not eased. When should he call 999?
-> Immediately after the first dose ; *If the pain has not gone 5 minutes after the second dose ; After 4 doses over an hour ; After 30 minutes of rest ; Only if he faints
+> Straight after the first dose ; *5 minutes after a second dose ; After a third dose ; After 30 minutes of rest ; If he becomes sweaty
 = Use GTN, repeat after 5 minutes if needed, and call 999 if the pain is still there 5 minutes after the second dose.
 ~ Pain settles within 2 minutes of the first dose → rest and carry on.
 2D: Which drug must not be taken with isosorbide mononitrate?
@@ -23,7 +23,7 @@ Q = '''
 = Nitrates and PDE5 inhibitors both raise cyclic GMP and together cause profound hypotension.
 ~ Tamsulosin → use with caution for postural drop, but it is not contraindicated.
 3D: A woman's angina has become less controlled on isosorbide mononitrate taken at 8 am and 8 pm. What is the most appropriate change?
-> Add a third dose at night ; *Take the second dose at 2 pm to leave a nitrate-free period ; Double both doses ; Stop the drug ; Switch to sublingual GTN only
+> Add a third dose at night ; *Move the second dose to 2 pm ; Double both doses ; Switch to a GTN patch ; Add nicorandil
 = Continuous nitrate exposure causes tolerance. Asymmetric dosing leaves a nitrate-free gap overnight.
 ~ She takes a once-daily modified-release tablet → already has a gap; no change needed.
 
@@ -51,13 +51,13 @@ Q = '''
 = AV node blockers such as verapamil, digoxin and adenosine in AF with an accessory pathway can push conduction down the pathway and cause VF.
 ~ AF with no accessory pathway → verapamil or diltiazem are fine for rate control.
 3D: A man takes simvastatin 80 mg and is started on amlodipine. What is the most appropriate change?
-> Add ezetimibe ; Continue both unchanged ; Stop amlodipine ; Stop the statin completely ; *Reduce simvastatin to 20 mg or switch to atorvastatin
+> Add ezetimibe ; Continue both unchanged ; Swap amlodipine for verapamil ; Stop the statin ; *Reduce simvastatin to 20 mg
 = Amlodipine raises simvastatin levels, so simvastatin is capped at 20 mg to avoid myopathy.
 ~ He takes atorvastatin → no dose cap with amlodipine.
 
 @d acei ACE inhibitors, ARBs and ARNI
 1D: A 58-year-old woman on ramipril has a dry tickly cough for 2 months. Her chest is clear. What is the most appropriate change?
-> Add a cough suppressant ; Chest X-ray then continue ; Reduce the ramipril dose ; *Switch to an angiotensin receptor blocker ; Switch to bisoprolol
+> Add a cough suppressant ; Chest X-ray then continue ; Reduce the ramipril dose ; *Switch to losartan ; Switch to bisoprolol
 = ACE inhibitors stop bradykinin breakdown, which causes cough. ARBs do not affect bradykinin.
 ~ Lip and tongue swelling → stop and avoid ACE inhibitors for life.
 2N: Two weeks after starting ramipril, a man's creatinine has risen from 100 to 118 µmol/L. His potassium is 5.0 mmol/L. What is the most appropriate action?
@@ -65,7 +65,7 @@ Q = '''
 = A rise in creatinine of up to 30%, or a fall in eGFR of up to 25%, is acceptable after starting an ACE inhibitor.
 ~ Creatinine up by more than 30% → stop or reduce and consider renal artery stenosis.
 3D: A woman taking ramipril for hypertension plans to become pregnant. What is the most appropriate advice?
-> Continue ramipril through pregnancy ; Stop all blood pressure treatment ; Switch to losartan ; *Switch to labetalol, nifedipine or methyldopa before trying to conceive ; Switch to spironolactone
+> Continue ramipril ; Stop all antihypertensives ; Switch to losartan ; *Switch to labetalol ; Switch to spironolactone
 = ACE inhibitors and ARBs harm the fetal kidneys and skull. Switch to a pregnancy-safe drug.
 ~ Switching ramipril to sacubitril-valsartan → stop ramipril 36 hours first to avoid angioedema.
 
@@ -75,7 +75,7 @@ Q = '''
 = Thiazides raise urate, calcium and glucose and lower sodium and potassium.
 ~ A loop diuretic instead → low calcium, low potassium and ototoxicity at high doses.
 2N: An 81-year-old woman on indapamide is unsteady and confused with a sodium of 124 mmol/L. What is the most appropriate step?
-> Add fluid restriction alone ; Continue and recheck in 1 month ; Give 3% saline ; Increase her salt intake ; *Stop indapamide
+> Add fluid restriction ; Continue and recheck in 1 month ; Give 3% saline ; Increase her salt intake ; *Stop indapamide
 = Thiazides are a common cause of hyponatraemia in older women. Stop the drug and monitor the sodium as it recovers.
 ~ Sodium 133 mmol/L with no symptoms → continue and monitor.
 3D: A man on high-dose IV furosemide is to start an antibiotic. Which antibiotic most raises the risk of hearing damage?
@@ -85,15 +85,15 @@ Q = '''
 
 @d mra Spironolactone and aldosterone
 1N: A man with heart failure takes ramipril and spironolactone. His potassium is 6.1 mmol/L and his ECG is normal. What is the most appropriate step?
-> Continue and recheck in 1 month ; Give calcium gluconate ; Increase furosemide only ; *Stop spironolactone and recheck ; Switch ramipril to losartan
+> Continue and recheck in 1 month ; Give calcium gluconate ; Increase furosemide ; *Stop spironolactone and recheck ; Switch ramipril to losartan
 = Potassium over 6 on an MRA means stop it and recheck. Between 5.5 and 6, halve the dose.
 ~ Potassium 5.4 mmol/L → continue at a lower dose with monitoring.
 2R: A 42-year-old woman has hypertension and a potassium of 3.0 mmol/L. She takes no diuretics. What is the most appropriate investigation?
-> *Aldosterone to renin ratio ; Cortisol at 9 am ; Plasma metanephrines ; Renal ultrasound ; TSH
+> *Aldosterone to renin ratio ; Cortisol at 9 am ; Plasma metanephrines ; Renal artery Doppler ; Thyroid function tests
 = Hypertension with unexplained low potassium suggests primary hyperaldosteronism, Conn's. Screen with the aldosterone to renin ratio.
 ~ Episodic headache, sweating and palpitations → plasma metanephrines.
 3D: A man with cirrhosis has tense ascites. Which is the most appropriate first diuretic?
-> Amiloride ; Bendroflumethiazide ; Furosemide alone ; Mannitol ; *Spironolactone
+> Amiloride ; Bendroflumethiazide ; Furosemide ; Mannitol ; *Spironolactone
 = Cirrhosis drives high aldosterone, so spironolactone is first. Furosemide is added if needed.
 ~ Not responding to spironolactone → add furosemide.
 
@@ -107,13 +107,13 @@ Q = '''
 = Digoxin binds the same site on the sodium-potassium pump as potassium, so low potassium lets it bind more.
 ~ Hypercalcaemia → also raises toxicity.
 3D: A man with digoxin toxicity has ventricular arrhythmias and a potassium of 6.2 mmol/L. Which is the most appropriate treatment?
-> Atropine ; Calcium gluconate ; *Digoxin-specific antibody fragments ; Lidocaine ; Magnesium alone
+> IV atropine ; IV calcium gluconate ; *Digoxin-specific antibody ; IV lidocaine ; IV magnesium sulfate
 = Life-threatening digoxin toxicity is reversed with digoxin-specific antibody fragments. High potassium here is a marker of severe poisoning.
 ~ Mild nausea with a stable rhythm → withhold digoxin and correct potassium.
 
 @d antiarrhythmics Antiarrhythmics
 1R: A man is starting long-term amiodarone. Which baseline tests are needed?
-> ECG only ; Echocardiogram only ; HbA1c and lipids ; *Thyroid tests, liver tests and a chest X-ray ; Kidney function only
+> ECG and echocardiogram ; Lipids and HbA1c ; Kidney function and urine ACR ; *TFTs, LFTs and chest X-ray ; Eye examination and audiogram
 = Amiodarone affects the thyroid, liver, lungs, skin, eyes and nerves. Check TFTs and LFTs every 6 months.
 ~ Breathless with fine crackles on amiodarone → pulmonary fibrosis.
 2D: A 30-year-old woman with asthma has a stable SVT that did not respond to vagal manoeuvres. Which drug is most appropriate?
@@ -121,17 +121,17 @@ Q = '''
 = Adenosine can cause bronchospasm in asthma, so IV verapamil is used instead.
 ~ No asthma → adenosine 6 mg rapid IV bolus.
 3D: A man with paroxysmal AF is considered for flecainide as a pill in the pocket. Which history makes it unsuitable?
-> *Previous myocardial infarction ; Age 45 ; Attacks once a month ; Normal echocardiogram ; Taking apixaban
+> *Previous myocardial infarction ; Age over 65 ; Attacks once a month ; Well-controlled hypertension ; Taking apixaban
 = Flecainide raised death rates in people with ischaemic or structural heart disease, so it is only used in structurally normal hearts.
 ~ A structurally normal heart → flecainide as a pill in the pocket.
 
 @d statins Statins and lipid drugs
 1T: A man takes simvastatin. When should he take it?
-> *At night ; In the morning ; With breakfast and dinner ; Only on alternate days ; With grapefruit juice
+> *At night ; In the morning ; With breakfast ; On alternate days ; With grapefruit juice
 = Cholesterol is made mostly at night and simvastatin is short-acting, so it is taken at night. Grapefruit raises levels.
 ~ He takes atorvastatin → any time of day.
 2D: A woman on simvastatin 40 mg needs a 7-day course of clarithromycin. What is the most appropriate advice?
-> Continue both ; Double the statin ; Swap to fluvastatin permanently ; *Stop simvastatin during the course ; Take them 12 hours apart
+> Continue both as normal ; Halve the statin dose ; Swap to fluvastatin long term ; *Stop simvastatin during the course ; Take them 12 hours apart
 = Clarithromycin blocks CYP3A4 and raises simvastatin levels, risking rhabdomyolysis. Pause the statin.
 ~ The antibiotic is amoxicillin → no interaction.
 3N: Three months after starting atorvastatin, a man's ALT is twice the upper limit of normal. He feels well. What is the most appropriate action?
@@ -145,7 +145,7 @@ Q = '''
 = AF and first VTE: target 2.5, range 2 to 3.
 ~ Recurrent VTE while in range → target 3.5.
 2N: A man on warfarin has an INR of 9 and no bleeding. What is the most appropriate management?
-> Continue at a lower dose ; Give prothrombin complex concentrate ; Give IV vitamin K 5 mg ; Withhold 1 dose only ; *Stop warfarin and give oral vitamin K 1 to 5 mg
+> Reduce the dose and recheck ; Prothrombin complex concentrate ; IV vitamin K 5 mg ; Omit 1 dose and recheck ; *Stop warfarin, oral vitamin K
 = INR over 8 without bleeding: stop warfarin, give oral vitamin K, recheck and restart when under 5.
 ~ INR 6.5 with no bleeding → withhold 1 or 2 doses and reduce the maintenance dose.
 3D: A woman's INR has fallen from 2.6 to 1.4 after starting a new drug. Which drug is most likely?
@@ -159,7 +159,7 @@ Q = '''
 = Apixaban for AF is reduced to 2.5 mg twice daily if 2 of these apply: age 80 or over, weight 60 kg or less, creatinine 133 or more.
 ~ Only one of those applies → 5 mg twice daily.
 2D: A man on dabigatran has a life-threatening bleed. Which is the specific reversal agent?
-> Fresh frozen plasma ; *Idarucizumab ; Protamine sulfate ; Tranexamic acid alone ; Vitamin K
+> Fresh frozen plasma ; *Idarucizumab ; Protamine sulfate ; Tranexamic acid ; Vitamin K
 = Idarucizumab is an antibody fragment that binds dabigatran. Andexanet alfa reverses factor Xa inhibitors.
 ~ He is on warfarin → prothrombin complex concentrate with IV vitamin K.
 3T: A woman with AF has moderate rheumatic mitral stenosis. Which anticoagulant is most appropriate?
@@ -177,13 +177,13 @@ Q = '''
 = Protamine binds and neutralises heparin quickly. It only partly reverses LMWH.
 ~ Bleeding on warfarin → vitamin K and prothrombin complex concentrate.
 3N: A woman with an eGFR of 18 has a PE and needs treatment-dose anticoagulation. Which is most appropriate?
-> Dabigatran ; Fondaparinux ; Standard-dose enoxaparin ; *Unfractionated heparin with APTT monitoring ; Rivaroxaban
+> Dabigatran ; Fondaparinux ; Treatment-dose enoxaparin twice daily ; *Unfractionated heparin infusion ; Rivaroxaban with loading
 = With severe kidney impairment LMWH and fondaparinux build up. Unfractionated heparin is cleared differently and can be monitored and reversed.
 ~ eGFR 70 → standard LMWH or a DOAC.
 
 @d thrombolysis Thrombolysis
 1T: A 66-year-old man has had a left-sided weakness and slurred speech for 2 hours. CT head shows no bleed. What is the most appropriate treatment?
-> Aspirin 300 mg only ; Clopidogrel ; *IV thrombolysis with alteplase ; LMWH ; Wait for MRI
+> Aspirin 300 mg ; Clopidogrel 300 mg ; *IV alteplase ; Treatment-dose LMWH ; MRI head first
 = Ischaemic stroke within 4.5 hours with haemorrhage excluded: thrombolysis, plus thrombectomy if a large vessel is blocked.
 ~ Woke with symptoms after last being seen well 10 hours ago → outside the standard window unless imaging selects him.
 2N: A woman with acute ischaemic stroke is eligible for thrombolysis but her blood pressure is 200/115. What is the most appropriate step?
@@ -191,7 +191,7 @@ Q = '''
 = Blood pressure must be under 185/110 before thrombolysis, usually with IV labetalol, to cut the bleeding risk.
 ~ Blood pressure 170/95 → proceed.
 3T: Which of these is an absolute contraindication to thrombolysis for stroke?
-> Age over 80 ; Atrial fibrillation ; Diabetes ; *Previous intracranial haemorrhage ; Mild hypertension
+> Age over 80 ; Atrial fibrillation on aspirin ; Type 2 diabetes ; *Previous intracranial haemorrhage ; Blood pressure of 170/95
 = A previous brain haemorrhage makes another bleed too likely. Age alone is not a contraindication.
 ~ Aged 85 and otherwise eligible → can still be thrombolysed.
 
@@ -201,7 +201,7 @@ Q = '''
 = SGLT2 inhibitors make the urine sugary, so genital thrush is common. They also lower weight.
 ~ Vomiting and unwell with a near-normal glucose → euglycaemic DKA.
 2T: A man with type 2 diabetes on dapagliflozin has gastroenteritis and cannot keep fluids down. What is the most appropriate advice?
-> Continue as normal ; Double the dose ; Switch to gliclazide permanently ; *Stop dapagliflozin until eating and drinking normally ; Take it with food
+> Continue as normal with fluids ; Halve the dose until he is better ; Switch to gliclazide ; *Pause it until eating and drinking ; Take it at night instead
 = Sick day rules: SGLT2 inhibitors are paused during dehydrating illness to avoid ketoacidosis and AKI.
 ~ Metformin too → pause it during the same illness.
 3N: A 60-year-old man without diabetes has CKD with an eGFR of 40 and an ACR of 40 mg/mmol. He takes the maximum ACE inhibitor dose. Which drug should be added?

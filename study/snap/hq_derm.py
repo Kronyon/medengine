@@ -37,7 +37,7 @@ Q = '''
 = Immunosuppression after transplant raises the risk of SCC dramatically. A growing tender keratotic nodule is a suspected cancer referral.
 ~ A pearly edge with telangiectasia → BCC.
 3D: A man has used 5-fluorouracil cream on actinic keratoses for 2 weeks. The area is now red, sore and crusted. What is the most appropriate advice?
-> Allergy, stop at once ; Infection, start antibiotics ; Switch to a potent steroid cream ; *This is the expected reaction; continue as planned ; Urgent biopsy
+> Stop: allergic reaction ; Start oral flucloxacillin ; Switch to a steroid cream ; *Continue the course ; Urgent skin biopsy
 = Fluorouracil works by inflaming and destroying the abnormal cells, so redness and crusting are expected. Warn people before starting.
 ~ Diclofenac gel used instead → a milder reaction but slower results.
 
@@ -61,7 +61,7 @@ Q = '''
 = Acute urticaria: a non-sedating antihistamine such as cetirizine, loratadine or fexofenadine. Sedating ones are avoided in the day.
 ~ Lip and tongue swelling with wheeze and low blood pressure → anaphylaxis, IM adrenaline.
 2N: A woman has had wheals most days for 3 months despite standard-dose cetirizine. What is the most appropriate next step?
-> Add chlorphenamine at night ; Long-term prednisolone ; Omalizumab straight away ; *Increase the cetirizine up to 4 times the standard dose ; Stop all antihistamines
+> Add chlorphenamine at night ; Oral prednisolone course ; Start omalizumab injections ; *Up to 4 times the cetirizine dose ; Add montelukast
 = Chronic urticaria, over 6 weeks, is stepped up to 4 times the usual non-sedating antihistamine dose before specialist drugs.
 ~ Still uncontrolled on 4 times the dose → specialist referral for omalizumab.
 3D: A 62-year-old man taking ramipril has recurrent swelling of his tongue and lips without itch or wheals. What is the most likely cause?
@@ -75,7 +75,7 @@ Q = '''
 = Arterial ulcers are deep, punched out and painful, on the toes, heels or lateral malleolus, with a cold foot and weak pulses.
 ~ A shallow ulcer in the gaiter area that aches and improves with elevation → venous ulcer.
 2N: A woman has a venous leg ulcer and an ankle-brachial pressure index of 0.6. What is the most appropriate management?
-> Amputation referral ; Full multilayer compression ; No investigation needed ; *Specialist review with reduced compression only ; Skin graft
+> Amputation referral ; Full multilayer compression bandaging ; Oral antibiotics for 7 days ; *Reduced compression with specialist ; Split-skin graft
 = ABPI 0.8 to 1.3 → full compression is safe. 0.5 to 0.8 → mixed disease, reduced compression under specialist care. Under 0.5 → no compression.
 ~ ABPI 0.4 → no compression, urgent vascular referral.
 3D: Which drug has evidence for speeding the healing of venous leg ulcers?
@@ -113,21 +113,21 @@ Q = '''
 
 @u 130
 1D: A 5-year-old has a small patch of golden crusts on his chin and is otherwise well. Which is the most appropriate first treatment?
-> Aciclovir cream ; Fusidic acid cream ; *Hydrogen peroxide 1% cream ; Mupirocin ointment ; Oral flucloxacillin
+> Aciclovir cream ; Fusidic acid 2% cream ; *Hydrogen peroxide 1% cream ; Mupirocin 2% ointment ; Oral flucloxacillin
 = NICE: localised non-bullous impetigo in a well person → hydrogen peroxide 1% cream, to cut antibiotic resistance. Fusidic acid if that is unsuitable.
 ~ Widespread or bullous impetigo, or unwell → oral flucloxacillin.
 2N: A child with impetigo has started an antibiotic. When can she go back to school?
-> After 24 hours ; *After 48 hours of treatment, or when the lesions have crusted ; After 5 days ; After 2 weeks ; No exclusion needed
+> 24 hours after starting antibiotics ; *48 hours after starting antibiotics ; 5 days after starting antibiotics ; When every lesion has healed ; No exclusion is needed
 = UK advice: stay off until 48 hours after starting antibiotics, or until lesions have crusted and healed.
 ~ Chickenpox → until all the spots have crusted, about 5 days.
 3L: A feverish 3-year-old has widespread tender red skin that peels off with light pressure. His mouth and eyes are normal. What is the most likely diagnosis?
-> Bullous impetigo ; Kawasaki disease ; Scarlet fever ; *Staphylococcal scalded skin syndrome ; Toxic epidermal necrolysis
+> Widespread bullous impetigo ; Kawasaki disease ; Scarlet fever ; *Staphylococcal scalded skin syndrome ; Drug-induced toxic epidermal necrolysis
 = Staph exfoliative toxin splits the top layer of skin: Nikolsky positive, but the mucous membranes are spared. It needs IV antibiotics.
 ~ Mouth and eyes affected after starting a new drug → toxic epidermal necrolysis.
 
 @u 131
 1D: A 54-year-old man has a red, hot, swollen lower leg spreading over 2 days. He is well apart from a mild fever and has no allergies. Which is the most appropriate antibiotic?
-> Amoxicillin ; Clarithromycin ; Co-amoxiclav ; *Flucloxacillin ; Phenoxymethylpenicillin alone
+> Amoxicillin ; Clarithromycin ; Co-amoxiclav ; *Flucloxacillin ; Phenoxymethylpenicillin
 = Cellulitis is usually Strep pyogenes or Staph aureus: flucloxacillin covers both. Mark the edge to watch it.
 ~ Cellulitis around the eyes or nose → co-amoxiclav.
 2N: A woman with leg cellulitis is confused, with a pulse of 120 and blood pressure 88/50. What is the most appropriate management?
@@ -145,7 +145,7 @@ Q = '''
 = Pain out of proportion to the signs, rapid spread, dusky skin, crepitus or anaesthesia, and a very unwell patient are necrotising fasciitis.
 ~ Spreading redness with pain that matches the signs in a well patient → cellulitis.
 2R: Necrotising fasciitis is suspected in a man's leg. What is the most appropriate next step?
-> Hyperbaric oxygen first ; IV antibiotics and review in 24 hours ; MRI leg before deciding ; Oral clindamycin ; *Urgent surgical debridement with IV antibiotics
+> Hyperbaric oxygen ; IV antibiotics and review ; MRI of the leg ; IV immunoglobulin ; *Surgical debridement
 = Surgery is both the diagnosis and the treatment: dead tissue must be cut away quickly. Scans must not delay theatre.
 ~ The diagnosis is uncertain → surgical exploration is still the test.
 3T: A 62-year-old man with diabetes has a painful, swollen scrotum and perineum that is spreading fast. There is crepitus on palpation. What is the most likely diagnosis?
@@ -155,7 +155,7 @@ Q = '''
 
 @u 133
 1R: A 9-year-old has a few painless common warts on her hands. She is not bothered by them. What is the most appropriate management?
-> Cryotherapy straight away ; Oral cimetidine ; *Reassure that most go within 2 years; salicylic acid if she wants treatment ; Refer to dermatology ; Surgical excision
+> Cryotherapy ; Oral cimetidine ; *Reassurance ; Dermatology referral ; Surgical excision
 = Most warts clear by themselves within 2 years. Salicylic acid or cryotherapy can be used if they bother the patient.
 ~ Immunosuppressed with many widespread warts → refer.
 2L: A man has a painful lump on the sole of his foot. The skin lines run around it and paring reveals tiny black dots. It hurts when squeezed from the sides. What is the most likely diagnosis?
@@ -169,7 +169,7 @@ Q = '''
 
 @u 134
 1D: A 6-year-old boy has a scaly patch of hair loss with broken hairs. Scrapings confirm a dermatophyte. What is the most appropriate treatment?
-> Minoxidil ; No treatment ; *Oral antifungal ; Steroid shampoo ; Topical antifungal cream alone
+> Minoxidil ; No treatment ; *Oral antifungal ; Steroid shampoo ; Topical antifungal cream
 = Tinea capitis lives in the hair shaft where creams cannot reach, so it needs an oral antifungal such as griseofulvin or terbinafine, plus an antifungal shampoo.
 ~ A ring on the body with central clearing → topical terbinafine.
 2L: A man's rash was treated as eczema with a steroid cream. It has spread, with an indistinct scaly edge and pustules. What is the most likely diagnosis?
@@ -177,17 +177,17 @@ Q = '''
 = Steroids suppress the inflammation of tinea so it loses its classic ring and spreads. Scrape before treating any odd ring.
 ~ A herald patch then oval patches along the skin lines on the trunk → pityriasis rosea.
 3R: A 58-year-old man has a thickened, yellow, crumbly big toenail. What is the most appropriate first step?
-> Oral itraconazole straight away ; Oral terbinafine straight away ; Remove the nail ; *Send nail clippings for microscopy and culture ; Topical steroid
+> Start oral itraconazole ; Start oral terbinafine ; Amorolfine nail lacquer ; *Nail clippings for mycology ; Nail avulsion
 = Confirm a fungal cause first because psoriasis and trauma look the same, and treatment lasts months.
 ~ Dermatophyte confirmed → oral terbinafine for 3 months for toenails.
 
 @u 135
 1D: A 26-year-old woman and her partner have intense itch that is worse at night. She has burrows between her fingers. What is the most appropriate treatment?
-> Hydrocortisone cream ; Malathion only for her ; Oral ivermectin for her ; *Permethrin 5% for everyone in the household on the same day, repeated after 7 days ; Permethrin for her only
+> Hydrocortisone cream ; Malathion for her ; Oral ivermectin for her ; *Permethrin for both, repeated ; Permethrin for her, repeated
 = Scabies: permethrin from the neck down, left on for 8 to 12 hours, repeated after a week, with all close contacts treated at the same time.
 ~ Crusted scabies in an immunosuppressed person → oral ivermectin plus topical treatment.
 2T: Two weeks after correct scabies treatment, a man still itches but has no new burrows. What is the most appropriate advice?
-> Malathion ; Oral ivermectin ; *Itch can last up to 4 to 6 weeks; use crotamiton or an antihistamine ; Repeat permethrin today ; Refer to dermatology
+> Switch to malathion ; Oral ivermectin ; *Crotamiton and reassurance ; Repeat permethrin today ; Dermatology referral
 = Itch after scabies is an allergic reaction to dead mites and can last weeks. It does not mean treatment failed.
 ~ New burrows appear → treatment failure; check the technique and re-treat.
 3L: A frail 88-year-old care-home resident has thick crusted scaly plaques on her hands and many staff now have an itchy rash. What is the most likely diagnosis?
@@ -205,13 +205,13 @@ Q = '''
 = UK advice: head lice are not a reason to keep a child off school.
 ~ Impetigo → off school until 48 hours after starting antibiotics.
 3R: A boy has head lice. What should be done about the rest of the family?
-> Shave everyone's hair ; Treat everyone whether or not lice are found ; Treat only the boy and do not check anyone ; *Check all household members and treat only those with live lice ; Wash all bedding at 90 °C daily for a month
+> Shave everyone's hair ; Treat the whole household ; Treat the boy and his siblings ; *Check everyone, treat if lice seen ; Hot-wash all bedding daily
 = Treat only people with live lice, at the same time, to avoid reinfection. Preventive treatment encourages resistance.
 ~ A sister has live lice → treat her on the same day.
 
 @u 137
 1D: A 32-year-old man has scaly plaques on his elbows and knees that have never been treated. Which is the most appropriate first treatment?
-> Coal tar alone ; Methotrexate ; Oral prednisolone ; *Potent corticosteroid once daily plus vitamin D analogue once daily for up to 4 weeks ; Very potent steroid continuously
+> Coal tar ; Methotrexate ; Oral prednisolone ; *Potent steroid with calcipotriol ; Very potent steroid twice daily
 = NICE: trunk and limb plaques → potent steroid and calcipotriol, applied at different times of day, for up to 4 weeks.
 ~ Plaques on the face, flexures or genitals → mild or moderate steroid for up to 2 weeks.
 2L: A 17-year-old has many small teardrop-shaped scaly spots on his trunk 2 weeks after a sore throat. What is the most likely diagnosis?
@@ -225,7 +225,7 @@ Q = '''
 
 @u 138
 1D: A 16-year-old has mild to moderate acne with comedones and papules on his face. Which is the most appropriate first treatment?
-> COCP ; Oral isotretinoin ; Oral lymecycline alone ; *Topical adapalene with benzoyl peroxide ; Topical clindamycin alone
+> Combined pill ; Oral isotretinoin ; Oral lymecycline ; *Adapalene with benzoyl peroxide ; Topical clindamycin with tretinoin cream
 = NICE: a 12-week course of a fixed topical combination, such as adapalene with benzoyl peroxide. Avoid antibiotics on their own because of resistance.
 ~ Severe nodular acne with scarring → refer for isotretinoin.
 2T: A woman who is 14 weeks pregnant has moderate acne. Which treatment is most appropriate?
@@ -233,7 +233,7 @@ Q = '''
 = Retinoids and tetracyclines are avoided in pregnancy. Topical benzoyl peroxide or azelaic acid can be used.
 ~ Not pregnant → topical adapalene with benzoyl peroxide.
 3T: A 19-year-old woman is starting isotretinoin. What is essential before she starts?
-> Annual ECG ; Bone density scan ; Monthly kidney biopsy ; *Pregnancy prevention programme with effective contraception and pregnancy tests ; Stop all moisturisers
+> Baseline ECG ; Bone density scan ; Kidney function and urine ACR ; *Pregnancy prevention programme ; Eye examination
 = Isotretinoin causes severe birth defects. It needs a pregnancy prevention programme, plus checks of mood, liver tests and lipids.
 ~ A male patient → no pregnancy programme, but mood is still monitored.
 
@@ -247,7 +247,7 @@ Q = '''
 = Fluid blisters under 0.5 cm are vesicles and larger ones are bullae. A pustule contains pus.
 ~ The blister contains yellow pus → pustule.
 3R: An 80-year-old woman has red, scaly skin over more than 90% of her body. She is shivering and has ankle swelling. What is the most appropriate management?
-> Discharge with a steroid cream ; Oral antihistamine alone ; *Admit to hospital, as erythroderma is skin failure ; Routine dermatology referral ; Topical antifungal
+> Discharge with a steroid cream ; Oral antihistamine ; *Hospital admission ; Routine dermatology referral ; Oral prednisolone at home
 = Erythroderma loses heat, fluid and protein through the skin and can cause high-output heart failure and infection. Admit for warmth, emollients and fluid balance.
 ~ Rash covering 20% of the body in a stable patient → outpatient dermatology.
 '''

@@ -67,11 +67,17 @@ def lint(q):
     for u in US:
         if re.search(u, blob, re.I): e.append(f'{w}: US spelling {u}')
     if len(q['s']) > 700: e.append(f'{w}: stem too long')
+    # no give-aways: the answer must not stand out by length, and distractors must not carry absolute words
+    L = [len(n) for n in names]; ai = [i for i, o in enumerate(q['o']) if o.startswith('*')][0]
+    rest = max(L[:ai] + L[ai + 1:])
+    if L[ai] - rest >= 12 and L[ai] > rest * 1.4: e.append(f'{w}: answer much longer than every distractor')
+    ABS = re.compile(r'\b(only|alone|never|always|ever|nothing|indefinitely|for life|permanently|straight away|at once)\b', re.I)
+    if any(ABS.search(n) for i, n in enumerate(names) if i != ai) and not ABS.search(names[ai]) and 'Progestogen-only' not in ' '.join(names): e.append(f'{w}: absolute word in a distractor')
     return e
 
 
 def build(units):
-    files = sorted(glob.glob(str(HERE / 'hq_*.py')))
+    files = sorted(glob.glob(str(HERE / 'hq_*.py')) + glob.glob(str(HERE / 'hq2_*.py')))
     qs, err = [], []
     for f in files:
         mod = importlib.import_module(pathlib.Path(f).stem)
@@ -89,7 +95,7 @@ def build(units):
     by = {}
     for q in qs: by.setdefault((q['t'], q['k']), []).append(q['h'])
     for (t, k), hs in by.items():
-        if sorted(hs) != [1, 2, 3]: err.append(f'{t} {k}: hammers {sorted(hs)}, want exactly 1, 2 and 3')
+        if not (hs.count(1) == hs.count(2) == hs.count(3) >= 1 and len(hs) == 3 * hs.count(1)): err.append(f'{t} {k}: hammers {sorted(hs)}, want each of 1, 2 and 3 the same number of times')
     if err: raise SystemExit('hammer errors:\n  ' + '\n  '.join(err[:60]))
     out, n = [], 0
     for q in qs:
