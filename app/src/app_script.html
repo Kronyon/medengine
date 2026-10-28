@@ -34,7 +34,7 @@ const HOW = {
 const FWD = D.fw || {uni: [], list: []}, FWL = FWD.list, UNI = FWD.uni, FWBY = {}; FWL.forEach(f => FWBY[f.id] = f);
 const FRFW = {hx: 'hx', mhx: 'mhx', ex: 'ex', proc: 'proc', acute: 'acute', expl: 'expl', counsel: 'expl', bbn: 'expl', presc: 'presc', di: 'di', prof: 'prof'};
 const DRILL = 'https://claude.ai/artifact/NexSvgTB8VhqktVFfko6JR';
-const APP_NAME = 'medengine-OSCE', APP_VERSION = '2.0.0', PUBLIC = !!window.MEDENGINE_PUBLIC;
+const APP_NAME = 'medengine-OSCE', APP_VERSION = '2.1.0', PUBLIC = !!window.MEDENGINE_PUBLIC;
 const unitsByName = {}; UNITS.forEach(u => (unitsByName[u.name] = unitsByName[u.name] || []).push(u.i));
 function toast(t){ const el = $('#toast'); el.textContent = t; el.classList.add('show'); clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove('show'), 1800); }
 const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -195,7 +195,7 @@ function scriptHtml(st, vk){
 }
 
 /* ---------- routing ---------- */
-const VIEWS = ['home', 'stations', 'fw', 'hooks', 'exams', 'dops', 'ilos', 'skills', 'visual', 'ffp', 'rf', 'posters'];
+const VIEWS = ['home', 'stations', 'fw', 'hooks', 'exams', 'dops', 'ilos', 'skills', 'visual', 'ffp', 'rf', 'posters', 'triggers'];
 function fromHash(){
   const h = (location.hash || '').slice(1);
   let m;
@@ -220,9 +220,9 @@ window.addEventListener('hashchange', () => { const r = fromHash(); if (toHash(r
 function render(){
   const m = $('#main');
   const st0 = route.v === 'station' ? getStation(route.id) : null;
-  const navKey = route.v === 'type' ? 'ty:' + route.id : st0 ? 'ty:' + typeOf(st0) : route.v === 'exam' ? 'ty:ex' : route.v === 'proc' ? 'ty:proc' : route.v === 'home' || route.v === 'ffp' ? 'home' : route.v === 'rf' ? 'ty:hx' : route.v === 'posters' || route.v === 'master' ? 'posters' : '';
+  const navKey = route.v === 'type' ? 'ty:' + route.id : st0 ? 'ty:' + typeOf(st0) : route.v === 'exam' ? 'ty:ex' : route.v === 'proc' ? 'ty:proc' : route.v === 'home' || route.v === 'ffp' ? 'home' : route.v === 'rf' ? 'ty:hx' : route.v === 'posters' || route.v === 'master' ? 'posters' : route.v === 'triggers' ? 'triggers' : '';
   $$('#nav button').forEach(b => b.classList.toggle('on', (b.dataset.ty ? 'ty:' + b.dataset.ty : b.dataset.v) === navKey));
-  ({type: vType, ffp: vFfp, rf: vRf, home: vHome, stations: vStations, hooks: vHooks, exams: vExams, dops: vDops, ilos: vIlos, skills: vSkills, station: vStation, exam: vExam, proc: vProc, ilo: vIlo, frame: vFrame, fw: vFw, fwone: vFwOne, visual: vVisual, posters: vPosters, master: vMaster}[route.v] || vHome)(m);
+  ({type: vType, ffp: vFfp, rf: vRf, home: vHome, stations: vStations, hooks: vHooks, exams: vExams, dops: vDops, ilos: vIlos, skills: vSkills, station: vStation, exam: vExam, proc: vProc, ilo: vIlo, frame: vFrame, fw: vFw, fwone: vFwOne, visual: vVisual, posters: vPosters, master: vMaster, triggers: vTriggers}[route.v] || vHome)(m);
 }
 
 /* ---------- views ---------- */
@@ -254,7 +254,7 @@ function vHome(m){
   h += ffpHtml(false);
   if (all.length) { const ML = {ai: '🤖 AI-marked', voice: '🎙 Voice-marked', friends: '👥 Friend-marked', tick: '✅ Self-marked'}; h += '<section class="card"><h2>Recent attempts</h2><div class="list">' + all.slice(0, 5).map(a => { const s = getStation(a.id); return s ? '<button class="li" data-st="' + a.id + '"><span class="code ty">' + TY[typeOf(s)].i + '</span><span class="tt"><b>' + esc(s.t) + '</b><span>' + (ML[a.mode] || ML.tick) + ' · ' + new Date(a.ts).toLocaleDateString('en-GB') + '</span></span><span class="score ' + scoreCls(a.pct) + '">' + a.pct + '%</span></button>' : ''; }).join('') + '</div></section>'; }
   if (!PUBLIC) h += '<details class="dd"><summary>🎯 Your feedback priorities</summary><div class="body">' + PRIOS.map(([t, d, ids], i) => '<div class="prio"><span class="n">' + (i + 1) + '</span><div><b>' + esc(t) + '</b><div class="hint">' + esc(d) + '</div><div class="chips" style="margin-top:4px">' + ids.filter(x => stById[x]).map(x => '<button class="chip" data-st="' + x + '">' + esc(stById[x].t) + (best(x) != null ? ' ' + best(x) + '%' : '') + '</button>').join('') + '</div></div></div>').join('') + '</div></details>';
-  h += '<div class="row more"><span class="hint">More:</span><button class="btn sm" data-go="posters">🗺️ Posters</button><button class="btn sm" data-go="rf">🚩 Red flags</button><button class="btn sm" data-go="hooks">🪝 Hook drill</button><button class="btn sm" data-go="ilos">🧩 ILO packs</button><button class="btn sm" data-go="fw">🧭 Frameworks</button><button class="btn sm" data-go="skills">🗣 How you\'re marked</button><button class="btn sm" data-go="visual">👁️ Showdowns</button></div>';
+  h += '<div class="row more"><span class="hint">More:</span><button class="btn sm" data-go="triggers">🧲 Triggers</button><button class="btn sm" data-go="posters">🗺️ Posters</button><button class="btn sm" data-go="rf">🚩 Red flags</button><button class="btn sm" data-go="hooks">🪝 Hook drill</button><button class="btn sm" data-go="ilos">🧩 ILO packs</button><button class="btn sm" data-go="fw">🧭 Frameworks</button><button class="btn sm" data-go="skills">🗣 How you\'re marked</button><button class="btn sm" data-go="visual">👁️ Showdowns</button></div>';
   m.innerHTML = h;
 }
 function sysOf(s){ const u = (s.u || []).find(i => UNITS[i]); return u == null ? 'other' : MEV.unitSys(u, UNITS[u].w); }
@@ -342,7 +342,7 @@ const PL = [['hx', '❓ What to ask'], ['rf', '🚩 Red flags'], ['ex', '🩺 Wh
 function packHtml(p, openFirst){ return ((p.ck || []).length ? '<details class="dd"' + (openFirst ? ' open' : '') + '><summary>🔑 Clinchers</summary><div class="body">' + p.ck.map(c => '<div class="hkr"><span class="i">' + (CKI[c[0]] || '•') + '</span><span>' + rich(c[1]) + '</span></div>').join('') + '</div></details>' : '') + PL.filter(([k]) => (p[k] || []).length).map(([k, l], i) => '<details class="dd"' + (openFirst && i < 1 ? ' open' : '') + '><summary>' + l + '</summary><div class="body"><ul class="pack" style="margin:0;padding-left:20px">' + p[k].map(x => '<li>' + rich(x) + '</li>').join('') + '</ul></div></details>').join(''); }
 function vIlo(m){
   const u = UNITS[route.id], p = PK[u.i] || {}, sts = ST.filter(s => s.u.some(i => UNITS[i].name === u.name));
-  m.innerHTML = '<section class="card"><span class="eyebrow">' + esc(WEEK[u.w] || '') + '</span><h1>' + esc(u.name) + '</h1>' + atlasFor([u.i], u.name, u.name) + (PUBLIC ? '' : '<div class="row"><a class="btn sm" href="' + DRILL + '#u' + u.i + '-read" target="_blank" rel="noopener">📖 Notes in medengine-STUDY ↗</a><a class="btn sm" href="' + DRILL + '#u' + u.i + '-think" target="_blank" rel="noopener">🧠 Think tab in medengine-STUDY ↗</a></div>') + '</section>' + condPosterHtml(u.i) + packHtml(p, true) + '<section class="card"><h2>Stations for this ILO · ' + sts.length + '</h2><div class="list">' + (sts.map(s => '<button class="li" data-st="' + s.id + '"><span class="code">' + esc(s.id) + '</span><span class="tt"><b>' + esc(s.t) + '</b><span>' + (s.pp ? '📚 Past paper · ' : '') + esc(kindOf(s)) + '</span></span>' + scoreHtml(s.id) + '</button>').join('') || '<div class="empty">No station yet.</div>') + '</div></section>';
+  m.innerHTML = '<section class="card"><span class="eyebrow">' + esc(WEEK[u.w] || '') + '</span><h1>' + esc(u.name) + '</h1>' + atlasFor([u.i], u.name, u.name) + (PUBLIC ? '' : '<div class="row"><a class="btn sm" href="' + DRILL + '#u' + u.i + '-read" target="_blank" rel="noopener">📖 Notes in medengine-STUDY ↗</a><a class="btn sm" href="' + DRILL + '#u' + u.i + '-think" target="_blank" rel="noopener">🧠 Think tab in medengine-STUDY ↗</a></div>') + '<div class="row"><button class="btn sm" data-trjump="' + u.i + '">🧲 Triggers for this condition</button></div></section>' + condPosterHtml(u.i) + packHtml(p, true) + '<section class="card"><h2>Stations for this ILO · ' + sts.length + '</h2><div class="list">' + (sts.map(s => '<button class="li" data-st="' + s.id + '"><span class="code">' + esc(s.id) + '</span><span class="tt"><b>' + esc(s.t) + '</b><span>' + (s.pp ? '📚 Past paper · ' : '') + esc(kindOf(s)) + '</span></span>' + scoreHtml(s.id) + '</button>').join('') || '<div class="empty">No station yet.</div>') + '</div></section>';
 }
 
 
@@ -962,7 +962,8 @@ function vSearch(q){
   const ex = EX.filter(e => hit(e.t + ' ' + e.keys.join(' '))), pr = PR.filter(p => hit(p.t + ' ' + p.keys.join(' '))), us = UNITS.filter(u => hit(u.name)).filter((u, i, a) => a.findIndex(x => x.name === u.name) === i);
   const fm = []; FWL.forEach(f => f.m.forEach(mm => { if (hit(f.t + ' ' + mm.t + ' ' + mm.use + ' ' + mm.tree.map(b => b[0] + ' ' + b[1].join(' ')).join(' '))) fm.push([f, mm]); }));
   const mpm = MASTER.filter(x => hit(x.t + ' ' + (x.sub || '') + ' ' + (x.hook || '') + ' ' + (x.u || []).map(i => UNITS[i] ? UNITS[i].name : '').join(' ')));
-  m.innerHTML = '<section class="card"><h1>Search: ' + esc(q) + '</h1></section>' + (mpm.length ? '<section class="card"><h2>🧭 Master posters</h2><div class="chips">' + mpm.map(x => '<button class="chip" data-mp="' + x.id + '">' + esc(x.ic) + ' ' + esc(x.t) + '</button>').join('') + '</div></section>' : '') + (fm.length ? '<section class="card"><h2>Frameworks</h2><div class="chips">' + fm.slice(0, 12).map(([f, mm]) => '<button class="chip" data-fw="' + f.id + '" data-fwm="' + mm.id + '">' + f.i + ' ' + esc(f.t.split(':')[0]) + ' → ' + esc(mm.t) + '</button>').join('') + '</div></section>' : '') + (us.length ? '<section class="card"><h2>ILOs</h2><div class="chips">' + us.map(u => '<button class="chip" data-u="' + u.i + '">🧩 ' + esc(u.name) + '</button>').join('') + '</div></section>' : '') + (ex.length || pr.length ? '<section class="card"><h2>Exams and procedures</h2><div class="chips">' + ex.map(e => '<button class="chip" data-ex="' + e.id + '">🩺 ' + esc(e.t) + '</button>').join('') + pr.map(p => '<button class="chip" data-pr="' + p.id + '">💉 ' + esc(p.t) + '</button>').join('') + '</div></section>' : '') + '<div class="list">' + (st.map(s => '<button class="li" data-st="' + s.id + '"><span class="code">' + s.id + '</span><span class="tt"><b>' + esc(s.t) + '</b><span>' + (s.pp ? '📚 ' + esc(s.src) : esc(s.task)) + '</span></span>' + scoreHtml(s.id) + '</button>').join('') || '<div class="empty">No stations match.</div>') + '</div>';
+  const tgn = trgHits(hit);
+  m.innerHTML = '<section class="card"><h1>Search: ' + esc(q) + '</h1></section>' + (tgn ? '<section class="card"><h2>🧲 Triggers</h2><button class="btn" data-trgo="' + esc(q) + '">Open the ' + tgn + ' trigger line' + (tgn > 1 ? 's' : '') + ' that mention “' + esc(q) + '”</button></section>' : '') + (mpm.length ? '<section class="card"><h2>🧭 Master posters</h2><div class="chips">' + mpm.map(x => '<button class="chip" data-mp="' + x.id + '">' + esc(x.ic) + ' ' + esc(x.t) + '</button>').join('') + '</div></section>' : '') + (fm.length ? '<section class="card"><h2>Frameworks</h2><div class="chips">' + fm.slice(0, 12).map(([f, mm]) => '<button class="chip" data-fw="' + f.id + '" data-fwm="' + mm.id + '">' + f.i + ' ' + esc(f.t.split(':')[0]) + ' → ' + esc(mm.t) + '</button>').join('') + '</div></section>' : '') + (us.length ? '<section class="card"><h2>ILOs</h2><div class="chips">' + us.map(u => '<button class="chip" data-u="' + u.i + '">🧩 ' + esc(u.name) + '</button>').join('') + '</div></section>' : '') + (ex.length || pr.length ? '<section class="card"><h2>Exams and procedures</h2><div class="chips">' + ex.map(e => '<button class="chip" data-ex="' + e.id + '">🩺 ' + esc(e.t) + '</button>').join('') + pr.map(p => '<button class="chip" data-pr="' + p.id + '">💉 ' + esc(p.t) + '</button>').join('') + '</div></section>' : '') + '<div class="list">' + (st.map(s => '<button class="li" data-st="' + s.id + '"><span class="code">' + s.id + '</span><span class="tt"><b>' + esc(s.t) + '</b><span>' + (s.pp ? '📚 ' + esc(s.src) : esc(s.task)) + '</span></span>' + scoreHtml(s.id) + '</button>').join('') || '<div class="empty">No stations match.</div>') + '</div>';
 }
 let qT = null;
 $('#q').addEventListener('input', e => { clearTimeout(qT); const v = e.target.value; qT = setTimeout(() => { if (v.trim().length >= 2) { stopTimer(); abortChat(); route = {v: 'search'}; $$('#nav button').forEach(b => b.classList.remove('on')); vSearch(v); } else if (!v.trim()) render(); }, 200); });
@@ -1075,6 +1076,23 @@ function vMaster(m){
   m.innerHTML = '<section class="card"><div class="row"><button class="btn sm" data-v="posters">← All posters</button><span class="grow"></span><button class="btn sm" data-mp="' + pv.id + '">← ' + esc(pv.t) + '</button><button class="btn sm" data-mp="' + nx.id + '">' + esc(nx.t) + ' →</button></div></section>' + PO.split(x, {lock: PO.lockOn}) + ((x.u || []).length ? '<section class="card"><h2>Conditions on this poster</h2><div class="chips">' + iloChips(x.u) + '</div></section>' : '');
 }
 document.addEventListener('input', e => { if (e.target.id === 'poQ') { S.set.poq = e.target.value; clearTimeout(vPosters.t); vPosters.t = setTimeout(() => { save(); const w = $('#poWall'); if (w) w.innerHTML = posterWallHtml(e.target.value.toLowerCase().trim()); }, 180); } });
+/* ---------- v2.1: 🧲 Triggers, the Mehlman-style pattern list shared with medengine-STUDY (engine: trg.js) ---------- */
+function vTriggers(m){
+  if (!window.TG || !D.trg || !D.trgu) { m.innerHTML = '<section class="card"><p class="hint">Triggers did not load.</p></section>'; return; }
+  m.innerHTML = '<section class="card tg-card">' + TG.page(D.trg, D.trgu, {unitAttr: i => 'data-u="' + i + '"'}) + '</section>';
+  TG.mount();
+}
+function trgHits(hit){
+  if (!window.TG || !D.trg) return 0;
+  if (!trgHits.c) { const T = D.trg, o = []; Object.values(T.c || {}).forEach(x => o.push(x.join(' '))); (T.sc || []).forEach(s => s[2].forEach(l => o.push(l[1] + ' ' + l[2] + ' ' + ((T.bug || {})[l[0]] || []).slice(0, 2).join(' ')))); ['dr', 'ix', 'mx'].forEach(k => (T[k] || []).forEach(g => g[2].forEach(d => { o.push(d[0] + ' ' + d[2]); d[3].forEach(c => o.push(d[0] + ' ' + c.join(' '))); }))); (D.trgu.units || []).forEach(u => u.h.forEach(x => o.push(x[1] + ' ' + x[2]))); trgHits.c = o.map(s => s.replace(/\*\*/g, '')); }
+  return trgHits.c.filter(hit).length;
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest && e.target.closest('[data-trjump],[data-trgo]'); if (!b || !window.TG) return;
+  e.preventDefault(); e.stopImmediatePropagation();
+  if (b.dataset.trjump != null) { TG.jump = 'tg-u' + b.dataset.trjump; TG.preset = ''; } else TG.preset = b.dataset.trgo;
+  if (route.v === 'triggers') vTriggers($('#main')); else go({v: 'triggers'});
+}, true);
 /* ⌘F / Ctrl+F jumps to the search bar; press it again there for the browser's own find */
 document.addEventListener('keydown', e => {
   if (!(e.metaKey || e.ctrlKey) || e.altKey || e.shiftKey || (e.key || '').toLowerCase() !== 'f') return;

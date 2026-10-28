@@ -83,7 +83,7 @@ def run(width):
         def go(h, t=250):
             ev(f"location.hash = '{h}'"); pg.wait_for_timeout(t)
 
-        if width > 420 and 'v2.0.0' not in pg.text_content('#homeBtn'): errs.append('version badge not 2.0.0')
+        if width > 420 and not re.search(r'v2\.[0-9]\.[0-9]', pg.text_content('#homeBtn')): errs.append('version badge not 2.x')
         if not pg.locator('#nav [data-v="posters"]').count(): errs.append('nav has no Posters button')
         if ev("MODES[0][0]") != 'poster': errs.append('Poster should be the first mode')
         # every station, every kind

@@ -1,0 +1,4 @@
+/* v2.1: 🧲 Triggers */
+.trg-wrap{max-width:1060px;min-width:0;width:100%}
+.tr-star{margin:6px 0 2px;padding:7px 10px;border-radius:9px;background:var(--accent-soft);font-size:.92rem;line-height:1.4}
+.tr-star b{font-weight:700}.tr-star .tr-arr{color:var(--muted);font-weight:700}

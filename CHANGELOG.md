@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.1.0 (2026-10-28)
+
+🧲 **Triggers** in both apps: the Mehlman HY pattern for everything in the ILOs.
+- **One line = the scene + the word that flips it → the answer.** The flipping words are in highlighter; lines that share a scene stack together so only that word changes. 3,410 lines on one scroll, each with a small picture: the organ, the kind of clue (ECG, scan, bloods, child, pregnancy, travel, drug, fever), a bug's real Gram-stain look (purple positive, pink negative, rods, cocci, spirals, yeast, mould), a drug's route, or the kind of procedure.
+- **5 parts:** 🩺 **Conditions** (a ⭐ signature trigger for all 168 ILO conditions plus the 1,975 word-hunt clues), 🦠 **Bugs** (76 organisms filed under the scene the exam sets, with a picture key), 💊 **Drugs** (every ILO drug: the scene that calls for it, then the catches), 🔬 **Investigations** (scores such as Wells, CURB-65, CHA2DS2-VASc and GRACE; bloods; X-ray, CT, CT angiography, MRI, MRCP, ultrasound; OGD, colonoscopy, flexible sigmoidoscopy, cystoscopy, ERCP and other scopes; bedside tests) and 🛠️ **Management** (cardioversion, pacing, valve replacement and TAVI, needle decompression, chest drains, VATS, coiling, thrombectomy, hemiarthroplasty, DHS and nails, EVAR, TURP, TURBT, stomas and bowel operations, ENT and eye surgery, therapies and the Mental Health Act).
+- **Use it:** ⌘F or Ctrl+F filters it, press again for the browser's own find; a jump list for every section; 🔒 Lock or L blurs the answers, tap or N reveals; each condition's word hunt and ILO page link to its own triggers; search shows a Triggers result.
+- Written in our own words for UK practice (NICE, BTS, BNF, MHRA, RC UK, the Mental Health Act). One shared engine, `app/src/trg.js`; content in `study/snap/t_cond.py`, `t_bugs.py`, `t_drugs.py`, `t_ix.py`, `t_mx.py`, linted by `triggers.py`.
+- Tests: `app/build/test_trg.py` for both apps.
+
 ## 2.0.0 (2026-10-27)
 
 Both apps rebuilt around one picture code: 🗺️ **posters**.

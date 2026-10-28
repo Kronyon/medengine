@@ -5,7 +5,7 @@ rd = lambda p: open(f'{R}/{p}', encoding='utf8').read()
 head, js = rd('src/app_head.html'), rd('src/app_script.html')
 data = rd('build/osce_data_v4.json').replace('</', '<\\/')
 mev_css, mev_js = rd('src/mev.css'), rd('src/mev.js')
-dg_js = '\n'.join(rd('src/' + f) for f in ('dg_core.js', 'dg_cards.js', 'dg_ex.js', 'dg_img.js', 'dg_more.js', 'dg_new.js', 'dg_snap.js', 'dg_poster.js', 'dg_figs.js'))
+dg_js = '\n'.join(rd('src/' + f) for f in ('dg_core.js', 'dg_cards.js', 'dg_ex.js', 'dg_img.js', 'dg_more.js', 'dg_new.js', 'dg_snap.js', 'dg_poster.js', 'dg_figs.js', 'trg.js'))
 assert '</script' not in mev_js + dg_js and '<header class="top">' in head
 head = head.replace('<header class="top">', '<style>\n' + mev_css + '</style>\n<header class="top">', 1)
 html = head + '<script>\n' + mev_js + '</script>\n<script>\n' + dg_js + '\n</script>\n' + js.replace('__DATA__', data, 1)

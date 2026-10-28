@@ -36,7 +36,7 @@ def run(width, pic):
         def go(h, t=400):
             ev(f"location.hash = '{h}'"); pg.wait_for_timeout(t)
 
-        if 'v2.0' not in pg.text_content('#homeBtn'): errs.append('version not v2.0')
+        if not re.search(r'v2\.[0-9]', pg.text_content('#homeBtn')): errs.append('version not v2.x')
         D = ev("JSON.parse(document.getElementById('qqdata').textContent)")
         if len(D.get('master', [])) != 14: errs.append('expected 14 master posters in the data')
         if not pg.locator('#main [data-go="posters"]').count(): errs.append('no way into Posters from home')

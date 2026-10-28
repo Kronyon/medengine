@@ -405,6 +405,17 @@ def main():
     data['snap'] = {str(k): v for k, v in sorted(snapdsl.SNAP.items())}
     data['master'] = master.MASTER
     data['po'] = POSTERS.check(out)
+    # v2.1 🧲 Triggers: shared with medengine-STUDY (study/snap/t_*.py); word-hunt lines come from the built STUDY page
+    import triggers as _trg
+    data['trg'] = _trg.build(len(D['units']))
+    _sh = (HERE.parent.parent / 'study' / 'medengine-study.html').read_text(encoding='utf-8')
+    _SD = json.loads(re.search(r'<script id="qqdata" type="application/json">(.*?)</script>', _sh, re.S).group(1).replace('<\\/', '</'))
+    assert [u['name'] for u in _SD['units']] == [u['name'] for u in D['units']], 'STUDY and OSCE units differ'
+    _seen = set(); _units = []
+    for i, u in enumerate(_SD['units']):
+        hs = [h for h in u.get('hunt', []) if h not in _seen]; _seen.update(hs)
+        _units.append({'i': i, 'name': u['name'], 'w': u['w'], 'o': data['snap'][str(i)]['o'], 'h': [_SD['hunt'][h][:3] for h in hs]})
+    data['trgu'] = {'weeks': [[w['id'], w['name']] for w in _SD['weeks']], 'units': _units}
     data.update(stations=out, frames=frames, ffp=ffp, exmap=EXMAP, prmap=PRMAP,
                 meta={'v': 4, 'n': len(out), 'by': {t: sum(1 for s in out if s['type'] == t) for t in TYPES}})
     OUT.write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
