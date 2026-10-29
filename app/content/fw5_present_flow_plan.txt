@@ -1,0 +1,321 @@
+# v2.6: present and differentials, junction and rescue lines, management ladder.
+# Same syntax as fw1. No em dashes.
+
+@@ present | 🎤 | Present to the examiner and give differentials | Conclusion first, then the evidence for and against, then three reasoned tiers of differential, then what you would do. The same seven moves after a history, an examination or a data station.
+step: head | !Headline: who, what you did, your one-line impression | Mr Jones is a 61-year-old man who presented with ___. My findings are consistent with ___. | The examiner decides in your first sentence whether you know what is going on. Lead with the conclusion; never narrate "first I looked at the hands, then…".
+step: pos | !Key positives: the two or three findings that support it | The key findings were ___, ___ and ___. | Group findings by what they mean, not the order you found them. Three is enough; a list of ten hides the important one.
+step: neg | !Important negatives: the absent signs that rule out the dangerous lookalike or a complication | Importantly, there was no ___, which makes ___ less likely. | A negative only scores when you say what it excludes. The "which makes" clause is your reasoning made audible.
+step: comp | To complete: three named items | To complete my assessment, I would like to ___, ___ and ___. | A named mark in every examination scheme. Pick items that would change the diagnosis: observations, a urine dip, the joint above and below, a full neurological examination.
+step: ddx | !Differentials in three tiers, each with a because | The most likely diagnosis is ___ because ___. A common alternative is ___, which I would tell apart by ___. The important one not to miss is ___, so I would ___. | Three reasoned tiers beat a list of seven. Likely, lookalike, must-not-miss is how seniors think, and each tier carries its reason.
+step: ix | Investigations, in the order you would do them | I would start with bedside tests: ___. Then bloods: ___. Then imaging: ___, and if needed ___. | Bedside → bloods → imaging → special. An ordered list sounds safe; a random one sounds like guessing.
+step: mx | Management first steps, and who you would tell | Initially I would ___, and I would discuss this with my senior today. | Ending on an action with its urgency earns the management mark most students leave on the table.
+nn: Turn to the examiner and present by meaning, never in the order you did things
+nn: Every differential carries a "because"
+nn: Only present findings you actually elicited; if unsure, say so
+nn: When you have finished, stop and let the examiner ask
+
+@ afterhx | After a history | PP05, PP06, PP22, PP55, PP107 |
+use: "Please summarise and tell me what you think is going on." Thank the patient, then turn your body to the examiner.
+ch: head | Mr Jones is a 61-year-old smoker with 45 minutes of central crushing chest pain radiating to his left arm, with sweating. Who, what, how long, and the one risk factor that matters.
+ch: pos | History positives: the character, the associated symptoms and the risk factors that load the dice.
+ch: neg | The red flags you asked about that are absent: "He has no tearing pain through to the back, no haemoptysis and no calf swelling."
+ch: comp | Swap "to complete" for the examination you would do next: "I would like to examine his cardiovascular system and check his observations."
+ch: ix | Bedside first: observations, ECG, urine dip, capillary glucose. Then the one specific blood test.
+tree: Most likely | ACS, because of central crushing pain at rest with sweating in a smoker
+tree: Common alternative | GORD, told apart by the link to meals and lying flat, and a normal ECG and troponin
+tree: Must not miss | Aortic dissection: tearing pain to the back and unequal arm blood pressures mean a CT aortogram
+pearl: Who, what, how long, why it matters; then likely, lookalike, killer.
+
+@ exab | After an abnormal examination | PP09, PP14, PP34, PP84 |
+use: "Present your findings." Cover the patient, thank them, then face the examiner. No notes, no list of every step.
+ch: head | Today I examined Mrs Patel, a 68-year-old woman, and my findings are consistent with a right-sided pleural effusion.
+ch: pos | Positives grouped by meaning: "reduced expansion on the right, stony dull percussion and reduced breath sounds and vocal resonance at the right base."
+ch: neg | "Importantly, the trachea is central and there is no clubbing or lymphadenopathy, so there is no sign of mediastinal shift or an obvious malignant cause."
+ch: comp | To complete, I would check her observations including oxygen saturations, review the temperature chart and request a chest X-ray.
+tree: Most likely | Pleural effusion, because of stony dull percussion with reduced breath sounds and vocal resonance
+tree: Common alternative | Consolidation, told apart by bronchial breathing and increased vocal resonance
+tree: Must not miss | A malignant effusion: weight loss, smoking or clubbing mean a CXR, then an ultrasound-guided pleural tap with cytology
+pearl: Inspection, palpation, percussion and auscultation are only evidence; present the meaning.
+
+@ exnorm | After a normal examination | PP09, PP84 |
+use: You found nothing. Many examination stations use volunteers with no signs, so a confident normal presentation is common and scores.
+ch: head | "This was a normal ___ examination, with no signs of ___ or ___." Name the conditions you were looking for.
+ch: pos | Say the normal findings that matter for the complaint: "The pulse is regular at 72, the heart sounds are normal with no added sounds."
+ch: neg | The negatives are the presentation here: list the signs you looked for that were absent.
+ch: ddx | If the station gave a complaint, still give three tiers for it: a normal examination does not cancel the history.
+nn: Never invent a sign to sound clever
+pearl: Normal is a finding: say what you excluded.
+
+@ data | After a data station: ECG, X-ray, gas, bloods | PP01, PP15, PP14, PP102 |
+use: You are handed an ECG, a film, a gas or a set of bloods and asked to interpret it.
+ch: head | "This is a 12-lead ECG of John Smith, aged 65, taken today at 10:15. The most striking abnormality is ___."
+ch: pos | The abnormalities in your systematic order, the most important first.
+ch: neg | The negative that would change management: no ST elevation, no free air under the diaphragm, no pneumothorax.
+ch: ddx | "In summary, this shows ___, consistent with ___." Then the alternative and the must-not-miss.
+ch: mx | Act on it: "Given this, I would ___ and inform my senior now."
+pearl: Who and when, adequate, the striking thing, the reassuring negative, the action.
+
+@ ddq | When the examiner asks "What are your differentials?" | |
+use: Mid-station or at the end. The question is a gift: the examiner is pointing at the marks.
+ch: ddx | Three, not seven: "The most likely is ___ because ___. A common alternative is ___, which I would tell apart by ___. The important one not to miss is ___." If pushed for more, sort by system or by the surgical sieve.
+tree: Likely | The best fit for the story and signs, with the clue that clinches it
+tree: Common alternative | The commonest lookalike, with the one detail that splits them
+tree: Must not miss | The dangerous one, with the test that excludes it
+pearl: Likely, lookalike, killer: each with its "because".
+
+@ ixq | When asked "How would you investigate?" | |
+ch: ix | Bedside: observations, ECG, urine dip, glucose, pregnancy test. Bloods: FBC, U&Es, LFTs, CRP and the one specific test. Imaging: first line, then definitive. Special: endoscopy, biopsy, echo, lumbar puncture.
+pearl: Bedside, bloods, imaging, special: cheapest and quickest first.
+
+@ mxq | When asked "How would you manage?" | |
+ch: mx | Say the urgency first, then run the 🗺 management ladder: bedside, bloods, imaging, conservative, the named first-line drug, specialist with urgency, safety-net.
+pearl: Urgency first, then the ladder.
+
+@@ flow | 🔀 | What to say next: junction lines and rescues | Marks are lost at the joins, not in the content. One pre-learnt line for every change of section, timed for a 10-minute station, plus what to say when it goes wrong.
+step: open | !Open, minute 0 | Hello, I'm Nana, a third-year medical student. Can I check your full name and date of birth? I've been asked to ___. Is that OK? | Every opening anchor in one breath, so your head is free to watch the patient.
+step: pc | Open question, then let them talk, by 30 seconds | What's brought you in today? … Tell me more about that. | The golden minute. Actors give their planted clues early if you do not interrupt.
+step: hpc | !Into the details, by about 1½ minutes | Thank you, that's really helpful. I'd like to ask some more specific questions about the ___ itself. | Signposting was flagged in your feedback. One sentence makes your structure audible.
+step: rf | Into the dangerous questions, by about 3½ minutes | I'm going to ask a few questions to make sure we're not missing anything serious. | Framing red flags this way stops them sounding frightening, and tells the examiner you are hunting the killer.
+step: bg | Into the background, by about 5 minutes | Now I'd like to step back and ask about your general health, medicines and day-to-day life. | Drugs, allergies, smoking, alcohol, work and driving hide the station-winners: the pill in a PE, NSAIDs in a bleed, a lorry licence after a fit.
+step: ice | !Hand it back to the patient, by about 6½ minutes | Before I go on, what were your own thoughts about what might be going on? Is there anything in particular worrying you? | The actor's hidden worry usually comes out only when you ask directly.
+step: sum | !Summarise, by about 7 minutes | Let me summarise to check I've got this right: ___. Have I missed anything? | Shows structure and lets the patient correct you. Also flagged in your feedback.
+step: plan | !Plan or examiner, at 8 minutes | Based on what you've told me, I think the most likely cause is ___. What I'd like to do next is ___. / To the examiner: Would you like me to present my findings? | Stop gathering at 8:00 whatever is left. The plan is worth more than the last questions.
+step: close | Close, by 9½ minutes | If you notice ___, please call 999 or come straight back. Is there anything you'd like to ask me? Thank you. | Specific safety-netting and an invitation for questions are scored in almost every scheme.
+nn: Signpost every change of section in one sentence
+nn: At 8:00 stop gathering, whatever you have not asked
+nn: One question at a time; no double questions
+
+@ blank | Your mind goes blank | |
+use: You lose your place or cannot think of the next question.
+ch: sum | Summarise out loud: "So far you've told me ___." It buys 20 seconds and the gap usually shows itself.
+ch: bg | If the middle has gone, jump to the background: medicines, allergies, smoking and alcohol are always marks.
+ch: ice | Ask ICE: the actor's worry often tells you where the station is heading.
+nn: Never sit in silence: summarise, then ask "Is there anything else you think I should know?"
+pearl: Lost? Summarise. The summary is the map.
+
+@ cue | The patient drops a cue or gets upset | |
+use: A throwaway line such as "my dad had something like this", a pause, tears, or a change in tone.
+ch: pc | "You mentioned ___. Can you tell me a bit more about that?" Follow the cue the first time you hear it; picking up cues is a marked communication item.
+ch: ice | Name the emotion before the next question: "I can see this has really worried you." Then pause and let them answer.
+nn: Emotion before information
+pearl: Name it, normalise it, then ask.
+
+@ interrupt | The examiner interrupts or asks you directly | |
+use: "What's your differential?", "Please move on to the plan", or a question mid-examination.
+ch: plan | Stop, answer exactly what was asked in one or two sentences, then offer: "Would you like me to carry on with ___?"
+nn: Never argue or say "I was getting to that"
+pearl: The examiner's question tells you where the marks are.
+
+@ dontknow | You don't know the answer | |
+use: A dose, a guideline, a test you cannot remember.
+ch: plan | "I'm not certain. I would check the BNF and local guidelines and discuss with my senior. What I would do now to keep the patient safe is ___."
+nn: Never bluff a dose or a fact
+pearl: Safe and honest beats confident and wrong.
+
+@ forgot | You realise you missed something | |
+use: Halfway through the background you remember you never asked about radiation, or about allergies.
+ch: sum | "Sorry, before we move on, could I go back and ask about ___?" Going back openly still earns the mark.
+pearl: Going back is a mark; leaving it out is not.
+
+@ time | Time is running out | |
+use: The one-minute warning, or you reach 8:00 still asking questions.
+ch: plan | Drop the remaining questions. One-sentence summary, the most likely diagnosis with its reason, the next step.
+ch: close | Always safety-net, even in one line: "If it gets worse or you notice ___, call 999."
+pearl: At 8:00 the plan beats the perfect history.
+
+@ pushback | The examiner challenges your answer | |
+use: "Are you sure?" or "What else could it be?"
+ch: plan | "That's a fair point. The other possibility is ___, and ___ would help tell them apart." Reconsider aloud; change your answer only if the new reasoning is better.
+pearl: Reason aloud; "Are you sure?" is not a reason to flip.
+
+@ angry | The patient or relative is angry | |
+use: Raised voice, crossed arms, "Nobody has told me anything."
+ch: open | Acknowledge before anything else: "I can see you're really frustrated, and I'd like to help." Sit down, open posture, let them finish.
+ch: ice | Ask what they have been told and what would help most.
+nn: Never be defensive; apologise for their experience without blaming colleagues
+pearl: Angry people need to be heard before they can listen.
+
+@@ plan | 🗺 | Management plan: any condition | Run the same ladder every time you reach 8:00 or the examiner asks "How would you manage?" Only what sits on each rung changes.
+step: now | !Urgency: is it urgent? Say so first | This could be serious, so I would assess him with an A to E approach, start ___ and involve my senior now. | If the patient is unwell, A to E and escalation come before any list. Saying the urgency first shows you can triage.
+step: bed | Bedside: observations, ECG, urine dip, glucose, pregnancy test, peak flow | At the bedside I would check his observations with a NEWS2 score and ___. | The cheapest tests are the quickest marks and catch the planted abnormal observation.
+step: bl | Bloods: the core set plus the one specific test | Bloods: full blood count, U&Es, LFTs, CRP, and specifically ___. | The specific test is the mark: troponin, D-dimer, HbA1c, TFTs, lipase, tTG.
+step: img | Imaging and special tests | Imaging: ___ first, then ___ if needed. | Name the first-line test, then the definitive one.
+step: cons | Conservative and lifestyle | I would explain the diagnosis, give a leaflet and talk about ___. | Smoking, alcohol, weight, exercise and driving are a rung on almost every NICE ladder and cost one sentence.
+step: med | !Medical: the first-line drug, named | First line would be ___. | Name the class and, if you know it, the drug. "Some medication" scores nothing.
+step: spec | Specialist, surgical or referral, with its urgency | I would refer to ___ on the ___ pathway. | Urgency is the mark: 999, same day, suspected cancer pathway, routine.
+step: sn | !Safety-net and follow-up | If you develop ___, call 999. I'd like to see you again in ___. | Specific warning signs plus a follow-up date close every management answer.
+nn: Urgency before detail
+nn: Name the drug class, never just "medication"
+nn: Say who you would tell, and how fast
+
+@ chest | Chest pain, ACS, hypertension and PE | PP06, PP05, PP13, PP20 | 0, 1, 2, 4, 13
+ch: now | Suspected ACS: aspirin 300 mg, GTN, oxygen only if saturations are below 94%, an opioid with an antiemetic if pain persists, ECG and senior now; STEMI goes for primary PCI. Suspected dissection: no antiplatelets, urgent CT aortogram.
+ch: bed | ECG within 10 minutes and repeated; observations; blood pressure in both arms if dissection is possible.
+ch: bl | High-sensitivity troponin at presentation and repeated per local protocol; FBC, U&Es, glucose, lipids. D-dimer only if the Wells score says PE is unlikely.
+ch: img | CXR. CTPA if Wells says PE is likely. CT aortogram for dissection. CT coronary angiography for new stable chest pain. Echo after an MI.
+ch: cons | Stop smoking, cardiac rehabilitation after an MI, diet and exercise, check DVLA rules before driving.
+ch: med | Stable angina: GTN spray plus a beta-blocker or a calcium channel blocker, with aspirin and a statin. After an MI: dual antiplatelets, ACE inhibitor, beta-blocker, atorvastatin 80 mg. Hypertension: ACE inhibitor or ARB if under 55 or with type 2 diabetes; calcium channel blocker if 55 or over, or of Black African or African-Caribbean family origin without diabetes.
+ch: spec | STEMI: primary PCI. NSTEMI: cardiology for angiography guided by the GRACE score. Type A dissection: cardiothoracic surgery.
+ch: sn | Angina: if the pain has not gone 5 minutes after the second GTN dose, call 999.
+pearl: Aspirin and GTN for all; oxygen only if hypoxic; morphine only if needed.
+
+@ sob | Breathlessness: asthma, COPD and heart failure | PP18, PP17, PP10, PP101 | 6, 15, 16, 12
+ch: now | Severe or life-threatening asthma: oxygen to 94 to 98%, back-to-back nebulised salbutamol, ipratropium, prednisolone 40 to 50 mg, senior and ICU if life-threatening. COPD exacerbation: controlled oxygen at 88 to 92% via a Venturi mask until the gas is back. Pulmonary oedema: sit up, oxygen, IV furosemide.
+ch: bed | Peak flow against best or predicted, saturations, ABG if saturations are low or the patient is drowsy, ECG.
+ch: bl | FBC, U&Es, CRP; NT-proBNP for suspected heart failure.
+ch: img | CXR. Echo if NT-proBNP is raised. When stable: FeNO or blood eosinophils, then spirometry with reversibility, for asthma; spirometry for COPD.
+ch: cons | Inhaler technique, a personalised asthma action plan, stop smoking, pulmonary rehabilitation for COPD, flu and pneumococcal vaccines, daily weights in heart failure.
+ch: med | New asthma: as-needed low-dose ICS with formoterol, then low-dose MART. COPD: a short-acting bronchodilator as needed, then LABA plus LAMA. Heart failure with reduced ejection fraction: ACE inhibitor and beta-blocker, then a mineralocorticoid receptor antagonist and an SGLT2 inhibitor; loop diuretic for fluid.
+ch: spec | Heart failure: specialist assessment and echo within 2 weeks if NT-proBNP is above 2000 ng/L, within 6 weeks if 400 to 2000. Asthma uncontrolled on moderate-dose MART: specialist referral.
+ch: sn | If the reliever is not helping, or you are too breathless to speak or eat, call 999.
+pearl: Asthma gets 94 to 98%; COPD gets 88 to 92% until the gas says otherwise.
+
+@ cough | Cough: pneumonia, lung cancer and TB | PP15, PP100, PP21 | 19, 21, 20, 17
+ch: now | CURB-65 decides where they sleep: 0 to 1 home, 2 consider admission, 3 or more urgent admission and think critical care. Septic: blood cultures, antibiotics and fluids within the hour.
+ch: bed | Saturations, sputum culture; urinary pneumococcal and Legionella antigens if moderate or severe.
+ch: bl | FBC, U&Es with urea, CRP, blood cultures if febrile.
+ch: img | CXR. Urgent CXR within 2 weeks if lung cancer is possible, then CT chest. Three sputum samples for acid-fast bacilli if TB is possible.
+ch: cons | Stop smoking, fluids, paracetamol, rest. TB: notify the local health protection team and start contact tracing.
+ch: med | Low-severity CAP: amoxicillin 500 mg three times a day for 5 days. Moderate: amoxicillin, adding clarithromycin if an atypical organism is suspected. High severity: co-amoxiclav plus clarithromycin. TB: rifampicin, isoniazid, pyrazinamide and ethambutol for 2 months, then rifampicin and isoniazid for 4.
+ch: spec | Suspected lung cancer: suspected cancer pathway referral to the lung team. Bronchiectasis: respiratory clinic.
+ch: sn | Seek review if not improving after 3 days of antibiotics, or at once if more breathless, coughing blood or confused.
+pearl: CURB-65 tells you where they sleep tonight; severity picks the antibiotic.
+
+@ giupset | GI upset: diarrhoea, IBD, IBS, coeliac and reflux | PP33, PP32, PP31 | 24, 25, 28, 29, 31, 32
+ch: now | Acute severe colitis by Truelove and Witts: admit, IV hydrocortisone, VTE prophylaxis, stool cultures, daily bloods and AXR. Dehydrated: IV fluids.
+ch: bed | Stool for culture and C. difficile, faecal calprotectin, observations, fluid balance.
+ch: bl | FBC, U&Es, CRP, LFTs, ferritin, B12, folate; tTG IgA with total IgA while still eating gluten.
+ch: img | Colonoscopy with biopsies for IBD. Urgent OGD for dysphagia, or if 55 or over with weight loss and upper abdominal pain, reflux or dyspepsia.
+ch: cons | IBS: regular meals, fluids, less insoluble fibre, caffeine and alcohol; low FODMAP only with a dietitian. Coeliac: lifelong gluten-free diet. Reflux: weight loss, smaller meals, raise the head of the bed, stop smoking.
+ch: med | Dyspepsia: full-dose PPI for 4 weeks or H. pylori test and treat. Mild to moderate ulcerative colitis: an aminosalicylate, topical for proctitis. Crohn's flare: a corticosteroid. IBS: antispasmodic; a laxative but not lactulose for constipation; loperamide for diarrhoea.
+ch: spec | Gastroenterology for suspected IBD. Suspected cancer pathway for dysphagia, or 55 or over with weight loss and dyspepsia.
+ch: sn | Blood in the stool, weight loss, symptoms waking you at night or a fever need prompt review.
+pearl: Calprotectin splits IBS from IBD; tTG only works while they are eating gluten.
+
+@ abdopr | Lower GI: bleeding, colorectal cancer, diverticular and anal | PP30, PP37, PP24 | 33, 35, 36, 37, 38, 39
+ch: now | Lower GI bleed: A to E, two large-bore cannulas, group and save, crossmatch if unstable; a shock index above 1 means unstable. Diverticulitis with an abscess, perforation or sepsis: admit.
+ch: bed | Observations, DRE, FIT in primary care.
+ch: bl | FBC, U&Es with urea, clotting, group and save, ferritin.
+ch: img | Colonoscopy; CT colonography if frail. CT abdomen and pelvis with contrast for complicated diverticulitis. CT angiography for an unstable lower GI bleed.
+ch: cons | Fibre and fluids for constipation, haemorrhoids and fissures; avoid straining.
+ch: med | Uncomplicated diverticulitis in someone systemically well: paracetamol and no antibiotics; antibiotics if unwell or immunosuppressed. Fissure: topical GTN. Constipation: bulk-forming laxative first, then an osmotic such as macrogol.
+ch: spec | FIT of 10 or more, or a rectal or abdominal mass: suspected cancer pathway referral to colorectal surgery.
+ch: sn | Passing large amounts of blood, feeling faint, or severe abdominal pain: call 999.
+pearl: FIT decides the referral; the colonoscopy decides the diagnosis.
+
+@ acuteabdo | Acute abdomen | PP22, PP23, PP26, PP45 | 40, 41, 42, 43, 44, 45, 48, 49
+ch: now | A to E, IV access, analgesia, nil by mouth, IV fluids, catheter and fluid balance if unwell, sepsis treatment within the hour if septic, senior surgeon early. Suspected ruptured AAA: vascular team at once, permissive hypotension.
+ch: bed | Observations, urine dip, pregnancy test in every woman who could be pregnant, capillary glucose, ECG.
+ch: bl | FBC, U&Es, LFTs, CRP, amylase or lipase, clotting, group and save, VBG with lactate, blood cultures if febrile.
+ch: img | Erect CXR for perforation. Ultrasound for gallstones. CT abdomen and pelvis with contrast for most surgical abdomens. Non-contrast CT KUB for renal colic.
+ch: cons | Nil by mouth until a decision is made. Obstruction with vomiting: NG tube and IV fluids, "drip and suck".
+ch: med | Renal colic: an NSAID first line. Antibiotics per local guidance for cholecystitis, cholangitis, appendicitis or perforation. Pancreatitis: fluids, analgesia, early feeding, no prophylactic antibiotics.
+ch: spec | Appendicitis: laparoscopic appendicectomy. Cholecystitis: laparoscopic cholecystectomy within a week. Cholangitis: ERCP. Obstruction that fails conservative management or strangulates: surgery.
+ch: sn | Worsening pain, fever, vomiting or a swollen abdomen after discharge: come straight back.
+pearl: Pregnancy test, glucose and urine dip in every abdomen: three cheap tests that change the diagnosis.
+
+@ breast | Breast lumps and hernias | PP36, PP34 | 52, 53, 54, 55, 57, 58
+ch: bed | Every breast lump gets triple assessment: clinical examination, imaging and core biopsy.
+ch: img | Younger women: ultrasound. Older women: mammogram plus ultrasound. Then a core biopsy of anything suspicious.
+ch: cons | Mastitis: keep breastfeeding or expressing. Hernia: avoid heavy lifting until repaired, weight loss, stop smoking before surgery.
+ch: med | Infective mastitis: flucloxacillin. Breast cancer: surgery with adjuvant treatment chosen by receptor status at the MDT.
+ch: spec | Suspected cancer pathway if 30 or over with an unexplained breast lump, or 50 or over with discharge, retraction or other concerning change in one nipple. Hernia: routine surgical referral; same day if irreducible or tender.
+ch: sn | A hernia that becomes hard, tender or red, or vomiting with it: A&E the same day.
+pearl: Examine, image, needle: every lump.
+
+@ leg | Leg: arterial disease, ulcers and veins | PP42 | 60, 62, 63, 64
+ch: now | Acutely ischaemic limb, the six Ps: IV heparin and urgent vascular surgery; do not wait for imaging if the limb is threatened.
+ch: bed | ABPI: below 0.9 suggests PAD, below 0.5 critical, above 1.3 unreliable from calcified vessels. ABPI before any compression for a leg ulcer.
+ch: bl | FBC, HbA1c, lipids, U&Es, clotting before heparin.
+ch: img | Duplex ultrasound first line; CT or MR angiography if revascularisation is planned.
+ch: cons | Stop smoking, supervised exercise programme for claudication, foot care; elevation and compression for venous ulcers once the ABPI allows.
+ch: med | PAD: clopidogrel and atorvastatin 80 mg, with blood pressure and diabetes control. Naftidrofuryl if supervised exercise has not helped.
+ch: spec | Critical limb ischaemia: urgent vascular referral. A venous leg ulcer not healed after 2 weeks: vascular referral.
+ch: sn | A cold, pale, painful or numb leg is an emergency: call 999.
+pearl: No compression without an ABPI.
+
+@ dm | Diabetes and thyroid | PP49, PP50, PP94, PP39 | 67, 68, 70, 72, 73
+ch: now | DKA: fixed-rate insulin infusion at 0.1 units per kg per hour, IV fluids, potassium replacement, continue long-acting insulin. Hypoglycaemia: 15 to 20 g of fast-acting glucose if able to swallow; IV glucose or IM glucagon if not.
+ch: bed | Capillary glucose and ketones, urine dip for ketones and protein, BMI, blood pressure, foot check.
+ch: bl | HbA1c of 48 or more diagnoses diabetes; U&Es and eGFR, lipids, urine ACR. TSH and free T4; thyroid antibodies.
+ch: img | Thyroid ultrasound for a nodule; uptake scan if the cause of hyperthyroidism is unclear.
+ch: cons | Structured education: DESMOND for type 2, DAFNE for type 1. Diet, weight loss, exercise, retinal screening, annual foot checks, tell the DVLA if on insulin.
+ch: med | Type 2: metformin first, adding an SGLT2 inhibitor if there is heart failure, cardiovascular disease or high cardiovascular risk. Type 1: basal-bolus insulin. Hyperthyroid: carbimazole, with propranolol for symptoms. Hypothyroid: levothyroxine, rechecking TSH every 3 months until stable.
+ch: spec | New type 1 or possible DKA: same-day diabetes team. Hyperthyroidism: endocrinology. A thyroid lump with red flags: suspected cancer pathway.
+ch: sn | Carbimazole: sore throat, mouth ulcers or fever means stop it and get an urgent blood count. Insulin: a hypo plan and sick-day rules.
+pearl: Carbimazole plus a sore throat equals an FBC today.
+
+@ haem | Anaemia and urology | PP44, PP45, PP107 | 10, 76, 77, 79, 80, 75
+ch: bed | Urine dip and MSU, observations, DRE for the prostate.
+ch: bl | FBC, ferritin, B12 and folate, reticulocytes, U&Es, PSA after counselling.
+ch: img | Visible haematuria: cystoscopy plus CT urogram. Iron deficiency in a man or a postmenopausal woman: OGD and colonoscopy. Renal colic: non-contrast CT KUB.
+ch: cons | Fluids for stones; diet rich in iron; bladder training and less caffeine for LUTS.
+ch: med | Iron deficiency: oral ferrous sulfate once daily. Lower UTI in a non-pregnant woman: nitrofurantoin for 3 days if eGFR is 45 or more. Renal colic: an NSAID. BPH: an alpha-blocker such as tamsulosin, adding a 5-alpha reductase inhibitor for a large prostate.
+ch: spec | Visible haematuria at 45 or over: suspected cancer pathway to urology. Iron deficiency anaemia at 60 or over: suspected cancer pathway, lower GI. PSA above the age-specific range: suspected cancer pathway.
+ch: sn | Fever with loin pain, rigors or vomiting with a UTI: same-day review.
+pearl: Unexplained iron deficiency in a man is bowel cancer until scoped.
+
+@ joint | Joints and orthopaedics | PP84, PP85, PP83, PP42 | 86, 87, 88
+ch: now | Hot swollen joint: aspirate before antibiotics; septic until proven otherwise. Compartment syndrome: split the cast to skin, keep the limb at heart level, urgent orthopaedics.
+ch: bed | Joint aspiration for Gram stain, culture and crystals.
+ch: bl | FBC, CRP, ESR, urate, blood cultures if the joint is hot.
+ch: img | Osteoarthritis is diagnosed clinically if 45 or over with activity-related pain and morning stiffness under 30 minutes; X-ray if atypical: loss of joint space, osteophytes, subchondral sclerosis and cysts.
+ch: cons | Exercise and strengthening, weight loss, walking aids, physiotherapy.
+ch: med | Topical NSAID for knee or hand osteoarthritis; an oral NSAID with a PPI at the lowest dose for the shortest time; avoid relying on paracetamol and avoid strong opioids.
+ch: spec | Joint replacement referral when symptoms damage quality of life despite non-surgical treatment.
+ch: sn | A joint that becomes hot, swollen and too painful to move, with a fever: same day.
+pearl: Hot joint: needle before antibiotics.
+
+@ neuro | Neurology | PP55, PP58, PP51, PP57 | 89, 91, 92, 93, 96, 99
+ch: now | Strongly suspected meningococcal disease in the community: IM or IV benzylpenicillin or ceftriaxone if it will not delay transfer, and 999; for suspected meningitis without that picture, do not delay transfer to give antibiotics. In hospital: ceftriaxone after blood cultures, without waiting for an LP. Thunderclap headache: CT head now. Seizure over 5 minutes: buccal midazolam or IV lorazepam.
+ch: bed | Full neurological examination, fundoscopy for papilloedema, blood pressure, glucose, temperature.
+ch: bl | FBC, U&Es, CRP, glucose, clotting, blood cultures; ESR if giant cell arteritis is possible.
+ch: img | Thunderclap: non-contrast CT within 6 hours of onset; after 6 hours with a normal CT, an LP at least 12 hours after onset for xanthochromia. MRI for new epilepsy.
+ch: cons | Epilepsy: stop driving and tell the DVLA; care with baths, water and heights. Headache diary; cut analgesic overuse.
+ch: med | Migraine: triptan plus an NSAID or paracetamol; prevention with propranolol or amitriptyline, topiramate only with highly effective contraception. Focal epilepsy: lamotrigine or levetiracetam. Sodium valproate is not started in anyone under 55 unless two specialists agree. Suspected GCA: prednisolone 40 to 60 mg today.
+ch: spec | First seizure: specialist within 2 weeks. SAH: neurosurgery. Symptomatic chronic subdural: neurosurgery.
+ch: sn | Worst headache ever, headache with fever and a stiff neck or rash, or a seizure lasting over 5 minutes: call 999.
+pearl: Thunderclap within 6 hours: CT alone. After 6 hours: CT, then LP at 12 hours.
+
+@ mh | Mental health | PP65, PP66, PP62, PP63 | 100, 102, 103, 110, 111
+ch: now | Risk first. Immediate risk to self or others: do not leave them alone; crisis team or psychiatric liaison today. Paracetamol overdose: level at 4 hours, acetylcysteine by the treatment line. Alcohol withdrawal: chlordiazepoxide and IV thiamine as Pabrinex.
+ch: bed | Mental state examination, risk assessment, AUDIT for alcohol, observations.
+ch: bl | Organic screen: FBC, U&Es, LFTs, TFTs, glucose, calcium, B12; urine drug screen. Before lithium: U&Es and eGFR, TFTs, calcium, weight, ECG if cardiac risk.
+ch: cons | Psychological: guided self-help or group CBT for less severe depression; CBT plus an antidepressant for more severe. Social: housing, money, work, support. Psychosis: CBT for psychosis and family intervention.
+ch: med | Depression: an SSRI such as sertraline, reviewed at 2 weeks, or at 1 week if under 25 or at higher risk. Lithium: levels 12 hours after the dose, usually 0.6 to 0.8 mmol/L. Psychosis: an oral antipsychotic chosen with the patient.
+ch: spec | First-episode psychosis: early intervention in psychosis service within 2 weeks.
+ch: sn | A crisis plan: who to call, NHS 111 option 2 for urgent mental health help, Samaritans on 116 123, 999 if in danger.
+pearl: Bio, psycho, social, plus a safety plan: four rungs for every psychiatry plan.
+
+@ derm | Skin | PP70, PP71, PP72, PP73, PP74 | 122, 123, 124, 128, 131, 137, 138
+ch: now | Pain out of proportion to the skin: suspect necrotising fasciitis, IV antibiotics and the surgeon now. Erythroderma or blistering with mucosal involvement: admit.
+ch: bed | Describe the lesion: site, size, shape, colour, surface, edge. Pigmented lesion: weighted 7-point checklist and dermoscopy.
+ch: bl | Usually none; swabs if infected; FBC and CRP for cellulitis with systemic features.
+ch: img | Suspected melanoma: excision biopsy with a 2 mm margin, by the specialist team.
+ch: cons | Emollients and soap substitutes for eczema and psoriasis; sun protection; skin self-checks.
+ch: med | Eczema: emollient plus a topical steroid matched to severity. Psoriasis: a potent topical steroid plus a vitamin D analogue. Acne: topical adapalene with benzoyl peroxide; add oral lymecycline or doxycycline for moderate to severe. Cellulitis: flucloxacillin.
+ch: spec | Suspected melanoma or SCC, or a 7-point score of 3 or more: suspected cancer pathway. BCC: usually a routine referral. Isotretinoin: dermatologist only.
+ch: sn | Redness spreading past the marked line, fever or feeling very unwell: same-day review.
+pearl: A 7-point score of 3 or more means the suspected cancer pathway.
+
+@ ent | ENT | PP79, PP81, PP82, PP60, PP80 | 140, 144, 149, 150, 151
+ch: now | Epistaxis: sit forward, pinch the soft part of the nose for 10 to 15 minutes; then cautery or packing. Drooling, stridor or a muffled voice: senior anaesthetist and ENT, do not examine the throat.
+ch: bed | Otoscopy, tuning fork tests, FeverPAIN or Centor score, observations.
+ch: bl | Monospot if glandular fever is suspected; FBC and clotting for heavy or recurrent epistaxis.
+ch: img | MRI of the internal auditory meatus for unilateral sensorineural hearing loss or tinnitus.
+ch: cons | Sore throat: fluids, paracetamol or ibuprofen; most settle within a week. Sinusitis: saline irrigation; most is viral.
+ch: med | Sore throat with FeverPAIN 4 to 5: phenoxymethylpenicillin for 5 to 10 days, or a back-up prescription; 2 to 3: consider no or back-up antibiotics. Otitis externa: antibiotic drops with or without a steroid. Sinusitis over 10 days: high-dose nasal steroid for 14 days.
+ch: spec | Neck lump or persistent hoarseness at 45 or over: suspected cancer pathway. Sudden sensorineural hearing loss: same-day ENT.
+ch: sn | Difficulty swallowing saliva, noisy breathing or a muffled voice with a sore throat: call 999.
+pearl: One-sided sensorineural loss means an MRI until proven otherwise.
+
+@ eye | Eyes | PP75, PP77, PP78, PP76 | 154, 158, 160, 162, 163
+ch: now | Acute angle closure: same-day ophthalmology, lie flat, pilocarpine, acetazolamide, analgesia and an antiemetic. Retinal detachment, retinal artery occlusion, or GCA with visual loss: same day.
+ch: bed | Visual acuity first, every time; pupils for an RAPD; fields; fundoscopy; fluorescein for a corneal ulcer.
+ch: bl | ESR and CRP if over 50 with visual loss and headache.
+ch: img | Slit lamp and optical coherence tomography in eye casualty.
+ch: cons | Contact lens wearers: stop wearing lenses. Driving: check the DVLA visual standard.
+ch: med | Bacterial conjunctivitis: usually self-limiting; chloramphenicol drops if severe. Open-angle glaucoma: a prostaglandin analogue such as latanoprost. Wet AMD: anti-VEGF injections.
+ch: spec | Red eye with pain, photophobia or reduced vision: same-day eye casualty. Suspected wet AMD: macular service within 1 week.
+ch: sn | Sudden loss of vision, a curtain over the vision, or new flashes and floaters: same day.
+pearl: Visual acuity is the vital sign of the eye: document it first.

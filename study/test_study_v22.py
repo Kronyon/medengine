@@ -86,7 +86,7 @@ def run(width, dark):
         def go(h, t=400):
             ev(f"location.hash = '{h}'"); pg.wait_for_timeout(t)
 
-        if not re.search(r'v2\.5', pg.text_content('#homeBtn')): errs.append('version not v2.5')
+        if not re.search(r'v2\.[5-9]', pg.text_content('#homeBtn')): errs.append('version not v2.5+')
         D = ev("JSON.parse(document.getElementById('qqdata').textContent)")
         if width == 1280 and not dark: data_checks(D, errs)
         if not pg.locator('#main [data-go="hammer"]').count(): errs.append('no Hammer button on home')
@@ -216,6 +216,27 @@ def run(width, dark):
             if f'1 / {want}' not in t: errs.append(f'unit {ui}: expected {want} questions, got {t[:60]!r}')
             if '🔨' not in pg.text_content('.hq-tag .hq-h'): errs.append('first question has no hammer tag')
             pg.keyboard.press('Escape'); pg.wait_for_timeout(120)
+        # v2.6: no topic spoiler before answering; several saved runs
+        for ui in (61, 140):
+            k = al.get(ui, ui); nm = D['units'][k]['name'] if 'units' in D else ''
+            go(f'u{ui}-read', 350); pg.locator('#main [data-hqtgt]').first.click(); pg.wait_for_timeout(150)
+            tag = pg.text_content('.hq-tag')
+            if not pg.locator('.hq-tag .hq-lock').count(): errs.append('no topic lock before answering')
+            if nm and nm in tag: errs.append(f'topic {nm!r} shown before answering')
+            if nm and nm in (pg.text_content('.crumbs') or ''): errs.append(f'topic {nm!r} in crumbs before answering')
+            pg.locator('.hq-o').first.click(); pg.wait_for_timeout(100)
+            if pg.locator('.hq-tag .hq-lock').count(): errs.append('lock still shown after answering')
+            if nm and nm not in pg.text_content('.hq-tag'): errs.append(f'topic {nm!r} missing after answering')
+            pg.keyboard.press('Escape'); pg.wait_for_timeout(120)
+        go('hammer')
+        nres = pg.locator('[data-hqresume]').count()
+        if nres < 2: errs.append(f'only {nres} saved runs kept')
+        go('u61-read', 350); pg.locator('#main [data-hqtgt]').first.click(); pg.wait_for_timeout(150)
+        if not pg.locator('.hq-why').count(): errs.append('reopening the same unit did not resume its saved run')
+        pg.keyboard.press('Escape'); pg.wait_for_timeout(120); go('hammer')
+        pg.locator('[data-hqdrop]').first.click(); pg.wait_for_timeout(120)
+        if pg.locator('[data-hqresume]').count() != nres - 1: errs.append('delete saved run failed')
+        ov('saved runs')
         # search
         pg.click('#q'); pg.keyboard.type('glaucoma'); pg.wait_for_timeout(400)
         if not pg.locator('#sp [data-hqq]').count(): errs.append('search offers no hammers')

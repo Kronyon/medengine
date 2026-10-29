@@ -32,9 +32,9 @@ const HOW = {
   proc: ['ID, explain, consent, allergies.', 'Equipment and hand hygiene.', 'The steps in order, saying what you are doing.', 'Sharps and waste.', 'Document and act on the result.'],
   psych: ['Rapport and confidentiality.', 'Story, mood, anxiety, psychosis, mania, substances.', 'Risk: to self, to others, from others.', 'Background and life story.', 'Present: summary, diagnosis, risk level, plan.']};
 const FWD = D.fw || {uni: [], list: []}, FWL = FWD.list, UNI = FWD.uni, FWBY = {}; FWL.forEach(f => FWBY[f.id] = f);
-const FRFW = {hx: 'hx', mhx: 'mhx', ex: 'ex', proc: 'proc', acute: 'acute', expl: 'expl', counsel: 'expl', bbn: 'expl', presc: 'presc', di: 'di', prof: 'prof'};
+const FRFW = {hx: 'hx', mhx: 'mhx', ex: 'ex', proc: 'proc', acute: 'acute', expl: 'expl', counsel: 'expl', bbn: 'expl', presc: 'presc', di: 'di', prof: 'prof', pres: 'present', plan: 'plan'};
 const DRILL = 'https://claude.ai/artifact/NexSvgTB8VhqktVFfko6JR';
-const APP_NAME = 'medengine-OSCE', APP_VERSION = '2.5.1', PUBLIC = !!window.MEDENGINE_PUBLIC;
+const APP_NAME = 'medengine-OSCE', APP_VERSION = '2.6.0', PUBLIC = !!window.MEDENGINE_PUBLIC;
 const unitsByName = {}; UNITS.forEach(u => (unitsByName[u.name] = unitsByName[u.name] || []).push(u.i));
 function toast(t){ const el = $('#toast'); el.textContent = t; el.classList.add('show'); clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove('show'), 1800); }
 const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -149,6 +149,17 @@ function skelCardHtml(st){
 }
 const URGL = () => Object.entries(URG).map(([k, [e, l]]) => '<span>' + e + ' ' + esc(l) + '</span>').join('');
 function rfRows(sh, q){ return sh.rows.filter(r => !q || r.join(' ').toLowerCase().includes(q)).map(([f, th, u, d]) => '<div class="rfr"><span class="u" title="' + esc((URG[u] || ['', ''])[1]) + '">' + (URG[u] || ['•'])[0] + '</span><span><b>' + rich(f) + '</b> → ' + esc(th) + '<span class="s">' + rich(d) + '</span></span></div>').join(''); }
+/* v2.6: what to say after the gathering: how to present for this station type, and the management ladder for its ILO week */
+function nextCardHtml(st){
+  const ty = st.type || '', P = FWBY.present, L = FWBY.plan;
+  if (!P || !/^(hx|ex|img|psych)$/.test(ty)) return '';
+  const pm = P.m.find(x => x.id === (ty === 'img' ? 'data' : ty === 'ex' ? 'exab' : 'afterhx')); if (!pm) return '';
+  const su = st.u || [], wk = su.map(i => UNITS[i] && UNITS[i].w), lm = L ? L.m.find(x => x.u.some(u => su.includes(u))) || L.m.find(x => x.u.some(u => UNITS[u] && wk.includes(UNITS[u].w))) : null;
+  let b = '<div class="row"><b class="grow">🎤 Present → ' + esc(pm.t) + '</b><button class="btn sm" data-fw="present" data-fwm="' + pm.id + '">Open ↗</button></div>' + skelHtml(P, pm) + fwDiffHtml(P, pm, false);
+  if (lm) b += '<div class="row"><b class="grow">🗺 Plan → ' + esc(lm.t) + '</b><button class="btn sm" data-fw="plan" data-fwm="' + lm.id + '">Open ↗</button></div>' + skelHtml(L, lm) + fwDiffHtml(L, lm, false);
+  if (FWBY.flow) b += '<div class="row"><button class="btn sm" data-fw="flow">🔀 Stuck? What to say next ↗</button></div>';
+  return '<details class="hk sk" id="nextCard"><summary>🎤 Present, differentials and plan</summary><div class="body">' + b + '</div></details>';
+}
 function rfCardHtml(st){
   const L = (st.rf || []).map(id => rfById[id]).filter(Boolean); if (!L.length) return '';
   return '<details class="hk rf" id="rfCard"><summary>🚩 Red flags → where to send</summary><div class="body">' + (L.length === 1 ? '<span class="hkh">' + esc(L[0].t) + '</span>' : '') + '<div class="urg">' + URGL() + '</div>' + L.map(sh => (L.length > 1 ? '<span class="hkh">' + esc(sh.t) + '</span>' : '') + rfRows(sh)).join('') + '<button class="btn sm" data-go="rf">🚩 Every red flag ↗</button></div></details>';
@@ -289,7 +300,7 @@ function vHome0(m){
   }
   h += uniCard(false);
   if (all.length) { const ML = {ai: '🤖 AI-marked', friends: '👥 Friend-marked', tick: '✅ Self-marked'}; h += '<section class="card"><h2>Recent attempts</h2><div class="list">' + all.slice(0, 6).map(a => { const s = getStation(a.id); return s ? '<button class="li" data-st="' + a.id + '"><span class="code">' + esc(a.id) + '</span><span class="tt"><b>' + esc(s.t) + '</b><span>' + (ML[a.mode] || ML.tick) + ' · ' + new Date(a.ts).toLocaleDateString('en-GB') + '</span></span><span class="score ' + scoreCls(a.pct) + '">' + a.pct + '%</span></button>' : ''; }).join('') + '</div></section>'; }
-  h += '<section class="grid2">' + [['fw', '🧭 Frameworks', FWL.length + ' skeletons (history, exam, procedure, A–E, explain, prescribe, data, psych, professional) with what changes for ' + FWL.reduce((n, f) => n + f.m.length, 0) + ' presentations'], ['pp', '📚 Past-paper stations', PPS.length + ' Nottingham-style stations from your uni papers and SMOSCE, each with a script, hooks, actor and examiner sheets'], ['hooks', '🪝 Hook drill', 'Flashcards: door triggers, memory hooks, clinchers and money lines'], ['stations', '📋 Station bank', (ST.length - PPS.length) + ' briefs from your bank, mapped to your ILOs'], ['exams', '🩺 Examinations', EX.length + ' system examinations with what to say and how to present'], ['dops', '💉 DOPS', 'Your 23 GMC DOPS plus ABPI and BP, step by step'], ['ilos', '🧩 ILOs', '168 condition packs with clinchers'], ['skills', '🗣 Skills and marking', 'How Nottingham marks you, plus every communication frame with why each step scores'], ['visual', '👁️ Visual showdowns', MEV.SD.length + ' drawn side-by-sides where words fail (ECG, CXR, fundus, eardrum, skin), plus the Clinical Atlas Lookup']].map(([v, t, d]) => '<button class="tile" ' + (v === 'pp' ? 'data-pplist' : 'data-go="' + v + '"') + '><b>' + t + '</b><span class="hint">' + d + '</span></button>').join('') + '</section>';
+  h += '<section class="grid2">' + [['fw', '🧭 Frameworks', FWL.length + ' skeletons (history, exam, procedure, A–E, explain, prescribe, data, psych, professional, presenting and differentials, what to say next, management plan) with what changes for ' + FWL.reduce((n, f) => n + f.m.length, 0) + ' presentations'], ['pp', '📚 Past-paper stations', PPS.length + ' Nottingham-style stations from your uni papers and SMOSCE, each with a script, hooks, actor and examiner sheets'], ['hooks', '🪝 Hook drill', 'Flashcards: door triggers, memory hooks, clinchers and money lines'], ['stations', '📋 Station bank', (ST.length - PPS.length) + ' briefs from your bank, mapped to your ILOs'], ['exams', '🩺 Examinations', EX.length + ' system examinations with what to say and how to present'], ['dops', '💉 DOPS', 'Your 23 GMC DOPS plus ABPI and BP, step by step'], ['ilos', '🧩 ILOs', '168 condition packs with clinchers'], ['skills', '🗣 Skills and marking', 'How Nottingham marks you, plus every communication frame with why each step scores'], ['visual', '👁️ Visual showdowns', MEV.SD.length + ' drawn side-by-sides where words fail (ECG, CXR, fundus, eardrum, skin), plus the Clinical Atlas Lookup']].map(([v, t, d]) => '<button class="tile" ' + (v === 'pp' ? 'data-pplist' : 'data-go="' + v + '"') + '><b>' + t + '</b><span class="hint">' + d + '</span></button>').join('') + '</section>';
   m.innerHTML = h;
 }
 function kindOf(s){ if (s.type) return TY[s.type].t; const k = (s.k || '').toLowerCase(); return k.startsWith('exam') ? 'Examination' : k.startsWith('practical') ? 'Procedure' : k.startsWith('results') ? 'Data interpretation' : k.startsWith('prescription') ? 'Prescribing' : k.startsWith('professional') ? 'Professionalism' : k.startsWith('explanation') ? 'Explanation' : k.startsWith('workplace') ? 'Readiness' : k.startsWith('evidence') ? 'Evidence' : k.startsWith('ilo') ? 'ILO practice' : k.includes('a–e') ? 'Acute (A–E)' : 'Clinical task'; }
@@ -358,13 +369,16 @@ function vVisual(m){
 MEV.onLibrary = id => { go({v: 'visual'}); if (id) requestAnimationFrame(() => { const c = document.getElementById('SD-' + id); if (c) { c.scrollIntoView({block: 'start'}); c.classList.add('flash'); setTimeout(() => c.classList.remove('flash'), 1600); } }); };
 
 /* ---------- frameworks (v3) ---------- */
-const UNI_BASE = [0, 1, 2, 3, 6, 7, 10, 12, 16], UNI_EXTRA = {hx: [5, 8], mhx: [5, 13], ex: [4, 13], proc: [4, 9], acute: [11, 17], presc: [9, 14], expl: [8, 13], di: [10], prof: [13, 14]};
+const UNI_BASE = [0, 1, 2, 3, 6, 7, 10, 12, 16], UNI_EXTRA = {hx: [5, 8], mhx: [5, 13], ex: [4, 13], proc: [4, 9], acute: [11, 17], presc: [9, 14], expl: [8, 13], di: [10], prof: [13, 14], present: [10, 14], plan: [12, 15], flow: [8, 15]};
 function fwFor(st){
   const out = [], seen = new Set(), fr = st.fr || [];
   const order = f => { const i = fr.findIndex(x => FRFW[x] === f.id); return i < 0 ? 99 : i; };
   const fids0 = new Set(fr.map(x => FRFW[x]).filter(Boolean));
   FWL.forEach(f => f.m.forEach(mm => { if (mm.st.includes(st.id) && !seen.has(f.id) && (!fids0.size || fids0.has(f.id))) { out.push({f, m: mm}); seen.add(f.id); } }));
-  [...new Set(fr.map(x => FRFW[x]).filter(Boolean))].forEach(fid => { if (seen.has(fid) || !FWBY[fid]) return; const f = FWBY[fid]; const mm = f.m.find(x => x.u.some(u => (st.u || []).includes(u))); out.push({f, m: mm || null}); seen.add(fid); });
+  /* v2.6: how to present depends on the station type; the management ladder follows the ILO week */
+  const presMem = f => f.m.find(x => x.id === (fr.includes('di') ? 'data' : fr.includes('ex') ? 'exab' : 'afterhx'));
+  [...new Set(fr.map(x => FRFW[x]).filter(Boolean))].forEach(fid => { if (seen.has(fid) || !FWBY[fid]) return; const f = FWBY[fid]; const mm = fid === 'present' ? presMem(f) : f.m.find(x => x.u.some(u => (st.u || []).includes(u))); out.push({f, m: mm || null}); seen.add(fid); });
+  if (seen.has('present') && !seen.has('plan') && FWBY.plan) { const mm = FWBY.plan.m.find(x => x.u.some(u => (st.u || []).includes(u))); if (mm) { out.push({f: FWBY.plan, m: mm}); seen.add('plan'); } }
   return out.sort((a, b) => order(a.f) - order(b.f)).slice(0, 4);
 }
 function treeHtml(mm){ return mm.tree.length ? '<div class="tree">' + mm.tree.map(([b, lv]) => '<div class="br"><b>' + esc(b) + '</b><div class="lv">' + lv.map(x => '<span>' + esc(x) + '</span>').join('') + '</div></div>').join('') + '</div>' : ''; }
@@ -513,7 +527,7 @@ function drawStationParts(){
   const cc = $('#casesCard'); if (cc) { cc.innerHTML = casesHtml(st); }
   const dx = $('#varDx'); if (dx) dx.textContent = v && !cur.hidden && (cur.mode === 'poster' || cur.mode === 'script' || cur.mode === 'tick' || (cur.mode === 'friends' && S.set.role !== 'cand')) ? '→ ' + v.dx : (cur.hidden ? 'case hidden' : '');
   $('#resWrap').innerHTML = v && v.r ? '<details class="dd" id="resCard"><summary>' + (typeOf(st) === 'img' ? '🔑 Answer key: what it shows <span class="hint">· open after you have presented</span>' : '📄 Results / findings card <span class="hint">· open when the examiner hands it over</span>') + '</summary><div class="body"><p style="margin:0">' + rich(v.r) + '</p></div></details>' : '';
-  $('#hookWrap').innerHTML = skelCardHtml(st) + rfCardHtml(st) + hookHtml(Object.assign(hooksFor(st, cur.vk), cur.hidden ? {money: '', all: []} : {}), cur.mode === 'script');
+  $('#hookWrap').innerHTML = skelCardHtml(st) + rfCardHtml(st) + nextCardHtml(st) + hookHtml(Object.assign(hooksFor(st, cur.vk), cur.hidden ? {money: '', all: []} : {}), cur.mode === 'script');
   $('#scriptCard').innerHTML = scriptHtml(st, cur.hidden ? '~' : cur.vk);
   drawFriends();
   cur.secs = buildChecklist(st, cur.vk); cur.ticks = new Set([...cur.ticks].filter(id => cur.secs.some(s => s.items.some(it => it.id === id))));

@@ -1,5 +1,17 @@
 # Changelog
 
+## 2.6.0 (2026-10-29)
+
+🔒 **No spoilers in Hammer SBAs.** Before you answer, the tag row shows only where the question comes from (🔨 Hammer SBA, 🎓 Mock Qn or 🏛️ paper Qn), its hammer rating and reference, and "🔒 Topic after you answer". The topic, the pattern, the ILO verdict and the 🔥 double-tested badge appear once you answer. Run labels that name a topic in the header wait too; examiner-pattern runs show "🧬 Examiner pattern set".
+
+💾 **Every run is saved.** Up to 12 unfinished runs are kept on this device, newest first, each with its place, answers, cross-outs, score so far and age, and a ▶ Resume and 🗑 button in the hub. Starting a new run no longer wipes the last one; reopening the same set resumes it; 🏁 End closes it. A "💾 saved" note sits in the header. The old single saved run is migrated.
+
+🎤 **OSCE: three new frameworks** (12 tiles), built from the Gemini advice where it added to what the app had:
+- **🎤 Present to the examiner and give differentials:** headline, key positives, important negatives, to complete, three-tier differentials (likely, common alternative, must-not-miss, each with a "because"), investigations in order, first management. Variations after a history, an abnormal or a normal examination, a data station, and the examiner's "Differentials?", "Investigate?" and "Manage?" questions.
+- **🔀 What to say next:** a timed junction line for every change of section in a 10-minute station, plus rescues for a blank mind, a cue or tears, an interruption, not knowing, forgetting something, running out of time, being challenged and an angry patient.
+- **🗺 Management plan:** urgency, bedside, bloods, imaging, conservative, named first-line drug, specialist with urgency, safety-net; filled in for all 16 ILO weeks with UK guidance.
+- History, examination, data and psychiatry stations show a 🎤 Present, differentials and plan card (outside poster view) for their type and ILO week. Test: `app/build/test_v26.py`.
+
 ## 2.5.1 (2026-10-29)
 
 🎯 **ILO audit of all 399 official questions**, one by one, against the 168 FFP ILO conditions.
