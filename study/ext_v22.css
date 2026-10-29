@@ -87,7 +87,7 @@
 .hq-q.scan .hq-lab .dir{display:inline;font-weight:800}
 .hq-q.scan .vx.nm{opacity:.45}
 .hq-q.scan .vx.ab{background:rgba(255,196,0,.35);border-radius:4px;padding:0 2px;font-weight:700}
-.hq-q.scan .fw{background:linear-gradient(transparent 55%,rgba(255,213,74,.6) 55%);font-weight:600}
+.hq-q.scan .hq-fw{background:linear-gradient(transparent 55%,rgba(255,213,74,.6) 55%);font-weight:600}
 .hq-scanb.on{border-color:var(--accent);background:var(--accent-soft)}
 .hq-out{background:var(--surface-2)}
 .hq-hot{border-color:var(--bad)!important}
@@ -121,3 +121,14 @@
 .hq-fhead{gap:.4rem;flex-wrap:wrap;margin-bottom:.2rem}
 .hq-rl{font-size:.8rem;opacity:.75;align-self:center;margin-right:.2rem}
 .hq-trm{display:inline-flex;gap:.3rem}
+/* v2.7: pattern rule hidden until the set is done; 🗺️ poster and clinchers under the answer */
+.hq-grr{margin:6px 0}
+.hq-grr>summary{cursor:pointer;font-weight:600;font-size:.92em;list-style:none}
+.hq-grr>summary::-webkit-details-marker{display:none}
+.hq-po{margin-top:12px;padding:10px 12px}
+.hq-po>summary{cursor:pointer;list-style:none}
+.hq-po>summary::-webkit-details-marker{display:none}
+.hq-pob{margin-top:10px;max-width:100%;overflow-x:auto}
+.hq-ck{margin-top:10px;display:flex;flex-direction:column;gap:6px}
+.hq-ck h6{margin:4px 0}
+.hq-ck .kl{display:flex;gap:8px;align-items:flex-start}

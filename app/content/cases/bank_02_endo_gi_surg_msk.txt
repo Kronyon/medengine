@@ -1,0 +1,1398 @@
+# Station bank: diabetes, thyroid, GI, acute abdomen, proctology and osteoarthritis.
+
+=== DM02 | New type 2 diabetes in an asymptomatic man
+who: Dean Walsh, 52, warehouse manager
+act: Relaxed, sceptical, arms folded; you feel fine and think the fuss is overblown.
+open: The nurse says I've got diabetes, but I feel absolutely fine.
+story: I had a routine check and they said my sugar test was high twice. I don't have any symptoms, so I don't see why I need treatment.
+hpc: Results: HbA1c 68 on two samples
+hpc: Symptoms: None; no thirst or urinary frequency
+hpc: Weight: BMI 32, gained weight over 5 years
+hpc: Diet: Takeaways 3 times a week, sugary drinks
+hpc: Activity: Sedentary job, no exercise
+yes: Weight gain; snoring
+no: Thirst; polyuria; weight loss; blurred vision; numb feet; chest pain; erectile dysfunction
+pmh: Nothing
+dh: None
+all: None
+fh: Mother had type 2 diabetes and a leg amputation
+sh: Smokes 10 a day; 20 units a week; warehouse manager; drives
+ice: It's only treated if symptoms appear | Losing a leg like his mum | To be left alone unless he gets symptoms
+cue: When his mum comes up, go quiet: "She lost her leg at 65."
+ask: Why treat it if I feel fine?
+key: What do you understand about the result? | Starts where he is
+key: Explain that HbA1c reflects 3 months of glucose and that damage happens silently | Asymptomatic disease
+key: Explore risk factors: weight, diet, activity, smoking, alcohol, family | Risk
+key: Ask about any symptoms: thirst, urination, vision, feet, erections | Hidden complications
+key: Agree a plan he will accept: lifestyle, metformin, structured education | Shared decision
+rf: Ketones, weight loss or vomiting | Type 1 or DKA
+rf: Chest pain on exertion | Silent cardiovascular disease
+sum: So you've had two high diabetes tests, you feel completely well, and you think it only needs treating if symptoms appear. Your mum lost a leg to diabetes. Is that right?
+pres: Dean Walsh is a 52-year-old man with newly diagnosed type 2 diabetes, HbA1c 68 on two samples, BMI 32, eGFR 88, a smoker, with a mother who had a diabetic amputation. He is asymptomatic and believes treatment is unnecessary. I have explained silent complications and agreed a plan.
+ddx: Type 2 diabetes, because of HbA1c 68 on two samples with obesity | Type 1 or LADA, unlikely without weight loss or ketones; check antibodies if atypical | Secondary causes such as steroids or pancreatic disease, excluded by history
+ix: Lipids, U&Es, LFTs, urine ACR, TSH; BP; retinal screening referral; foot check; QRISK3
+mx: Structured education such as DESMOND; diet, weight loss and activity; metformin, titrated slowly; consider an SGLT2 inhibitor if QRISK3 is 10% or more; statin per risk; smoking cessation; annual review; target HbA1c 48 to 53
+tell: Diabetes damages the eyes, kidneys, nerves and heart silently, years before you feel anything, which is what happened with your mum. Getting your sugar down now protects you. Losing some weight can even put type 2 diabetes into remission. I'll start a tablet called metformin and book you on a course.
+
+=== DM05 | Hypoglycaemia unable to swallow
+who: Nurse Adebayo, on behalf of Mrs Joan Price, 64
+act: The patient is sweaty, confused, mumbling; she can't follow instructions. You are the nurse: concise and calm.
+open: Mrs Price is sweaty and confused. Her sugar is 2.4.
+story: She had her usual insulin before breakfast but only ate half of it because she felt sick. Now she's clammy and talking nonsense.
+hpc: Glucose: 2.4 mmol/L
+hpc: Consciousness: Awake but confused; cannot swallow safely
+hpc: Insulin: Usual mixed insulin this morning
+hpc: Intake: Ate half her breakfast; nauseous
+hpc: Access: IV cannula in place
+yes: Sweating; confusion; tremor
+no: Seizure; head injury; chest pain; known kidney failure; sulfonylurea
+pmh: Type 2 diabetes on insulin; CKD stage 3
+dh: Humulin M3 twice daily; ramipril
+all: None
+fh: Not relevant
+sh: Lives with husband
+ice: Not available from the patient | Her getting worse | Clear instructions
+cue: The patient tries to pull the cannula out.
+ask: What do you want me to give?
+key: ABCDE assessment and capillary glucose | Confirm hypoglycaemia
+key: Can she swallow safely? If not, oral glucose is unsafe | Route
+key: Give IV glucose: 10% glucose 150 to 200 mL over 15 minutes, or 20% 75 to 100 mL | JBDS guidance
+key: Recheck glucose after 10 to 15 minutes and repeat if still below 4 | Response
+key: Once alert and swallowing, give a long-acting carbohydrate | Prevent recurrence
+key: Find the cause and review insulin, nutrition and renal function | Prevention
+rf: Seizure or unconsciousness | IM glucagon if no IV access; call for help
+rf: CKD prolonging insulin action | Monitor for recurrence
+sum: Mrs Price is confused with a glucose of 2.4 after her usual insulin and half a breakfast, and she can't swallow safely. I'll give IV glucose now.
+pres: Mrs Price is a 64-year-old woman with insulin-treated type 2 diabetes and CKD who is confused and sweaty with a capillary glucose of 2.4 after reduced intake following her usual mixed insulin. She cannot swallow safely, so this is severe hypoglycaemia requiring IV glucose.
+ddx: Insulin-induced hypoglycaemia from reduced intake, because of low glucose after usual insulin with poor eating | Hypoglycaemia worsened by CKD, which slows insulin clearance | Sepsis, adrenal insufficiency or alcohol, considered if recurrent or unexplained
+ix: Capillary glucose every 10 to 15 minutes initially; U&Es; observations; review drug chart
+mx: IV 10% glucose 150 to 200 mL over 15 minutes; repeat if glucose stays below 4; long-acting carbohydrate when able; if no IV access, IM glucagon 1 mg; do not omit insulin entirely in a type 2 on insulin without review, but adjust the dose; monitor for 24 hours; diabetes team review
+tell: Mrs Price, your sugar has gone very low, which is why you feel muddled. We're giving you sugar through your drip now and you should feel better in a few minutes. Then we'll get you something to eat and look at your insulin dose.
+
+=== DM06 | Sick-day rules in type 1 diabetes
+who: Callum Reid, 30, software developer
+act: Sounds weak on the phone; planning to stop insulin; open to advice.
+open: I've got a stomach bug and I'm barely eating, so I'm going to skip my insulin.
+story: I've had diarrhoea and some vomiting since yesterday. I'm eating very little. My sugar is 15 and ketones 1.2.
+hpc: Illness: Gastroenteritis since yesterday
+hpc: Intake: Very little food; keeping small sips of fluid down
+hpc: Glucose: 15 mmol/L
+hpc: Ketones: 1.2 mmol/L
+hpc: Insulin: Glargine at night, aspart with meals
+yes: Diarrhoea; occasional vomiting; tiredness
+no: Abdominal pain; breathlessness; drowsiness; unable to keep any fluids down
+pmh: Type 1 diabetes for 15 years
+dh: Insulin glargine 20 units at night; insulin aspart with meals
+all: None
+fh: Nothing relevant
+sh: Lives alone; software developer
+ice: No food, no insulin | Going hypo | Advice
+cue: "I don't want to go low on my own."
+ask: Should I stop my insulin?
+key: How are you, and can you keep fluids down? | Severity
+key: What are your glucose and ketones now, and how often are you checking? | Monitoring
+key: Never stop basal insulin: continue glargine as usual | DKA prevention
+key: Check glucose and ketones every 2 to 4 hours; take extra correction doses of rapid-acting insulin per your plan | Sick-day rules
+key: Drink at least 3 litres of sugar-free fluids, or sugary sips if not eating | Hydration and substrate
+key: When to seek urgent help | Safety-net
+rf: Ketones 1.5 or more and rising, or above 3 | Urgent advice or hospital
+rf: Vomiting and unable to keep fluids down, abdominal pain, rapid breathing, drowsiness | DKA: hospital now
+sum: So you have a stomach bug, you're barely eating, your sugar is 15 with ketones of 1.2, and you were planning to skip all your insulin. Is that right?
+pres: Callum Reid is a 30-year-old man with type 1 diabetes on basal-bolus insulin with gastroenteritis, reduced intake, glucose 15 and ketones 1.2, planning to omit all insulin. I have advised sick-day rules: continue basal insulin, monitor glucose and ketones every 2 to 4 hours, extra rapid-acting insulin, fluids and clear thresholds to seek help.
+ddx: Intercurrent illness with early ketosis at risk of DKA, because of ketones 1.2 with hyperglycaemia | DKA, excluded for now by ketones below 1.5 and his ability to drink | Hypoglycaemia if he takes meal-time insulin without eating
+ix: Home capillary glucose and blood ketones every 2 to 4 hours
+mx: Continue glargine; take correction doses of aspart per his sick-day plan; carbohydrate-containing fluids if not eating; antiemetic if needed; seek urgent help if ketones rise to 1.5 or more, persistent vomiting, abdominal pain or drowsiness; review the next day
+tell: Please don't stop your long-acting insulin, even if you're not eating; your body still needs it and stopping it can cause ketoacidosis. Check your sugar and ketones every 2 to 4 hours, keep sipping fluids, and use extra quick-acting insulin if your sugar stays high. If ketones go above 1.5, you can't keep fluids down or you get tummy pain or feel drowsy, go to A&E.
+
+=== DM07 | Diabetic neuropathic foot at risk of ulceration
+who: Stan Hughes, 63, retired factory worker
+act: Calm, unaware of the danger; show the blister casually. Admit walking barefoot at home.
+open: My feet burn at night, and I've got a blister under my big toe that doesn't hurt.
+story: For months my feet burn and tingle at night. A few days ago I noticed a blister under my right big toe, but it doesn't hurt at all.
+hpc: Burning: Both feet, worse at night, months
+hpc: Blister: Under the right great toe, painless, 4 days
+hpc: Sensation: Reduced monofilament sensation
+hpc: Pulses: Palpable
+hpc: Footwear: Walks barefoot at home
+yes: Numbness; burning; painless blister
+no: Claudication; rest pain; fever; spreading redness; swelling; discharge
+pmh: Type 2 diabetes for 12 years; high blood pressure
+dh: Metformin; gliclazide; ramipril; atorvastatin
+all: None
+fh: Nothing relevant
+sh: Ex-smoker; 10 units a week; lives with wife
+ice: Just a blister | Nothing much | A plaster
+cue: "It doesn't hurt, so it can't be serious."
+ask: Why does it matter if it doesn't hurt?
+key: Describe the burning and numbness: where and when? | Neuropathy
+key: How did the blister happen, and does it hurt? | Painless injury from loss of protective sensation
+key: Footwear and walking barefoot? | Risk behaviours
+key: Any calf pain on walking, rest pain, colour change? | Ischaemia
+key: Any redness, swelling, discharge or fever? | Infection or Charcot foot
+rf: Hot, red, swollen foot | Charcot foot or infection: urgent
+rf: Any ulcer or blister | Refer to the foot protection or MDT foot service
+sum: So your feet have burned at night for months, you have a painless blister under your right big toe, and you walk barefoot at home. Is that right?
+pres: Stan Hughes is a 63-year-old man with type 2 diabetes with painful peripheral neuropathy and loss of protective sensation on monofilament testing, with palpable pulses, presenting with a painless blister under his right great toe after walking barefoot. This is a high-risk neuropathic foot with pre-ulceration.
+ddx: Diabetic peripheral neuropathy with pre-ulcerative lesion, because of reduced monofilament sensation and a painless blister | Peripheral arterial disease, excluded by palpable pulses but check ABPI | Charcot neuroarthropathy or infection, excluded by the absence of a hot swollen foot
+ix: Full foot examination; ABPI; HbA1c; U&Es; B12 if on metformin
+mx: Referral to the diabetic foot service, within 1 working day for any active ulcer; offload and protect the blister; never walk barefoot; daily foot checks; proper footwear; podiatry; neuropathic pain: amitriptyline, duloxetine, gabapentin or pregabalin; glucose control
+tell: Because the nerves in your feet aren't working properly, you can't feel injuries, which is why the blister doesn't hurt. That's exactly what makes it dangerous: small injuries can become ulcers and infections. Please wear slippers or shoes at all times, check your feet daily, and I'm referring you to the foot team this week.
+
+=== DM09 | Background diabetic retinopathy and screening
+who: Ahmed Siddiqui, 46, IT consultant
+act: Busy, slightly dismissive; waves the letter. Your vision is fine.
+open: I got a letter saying I have diabetic retinopathy, but my eyesight is perfect.
+story: The screening letter says background retinopathy. I can see fine, so I was going to ignore the next invitation.
+hpc: Letter: Background retinopathy, R1, no maculopathy
+hpc: Vision: Normal
+hpc: Diabetes: Type 2 for 6 years, HbA1c 64
+hpc: BP: 148/90 last time
+yes: Busy lifestyle
+no: Blurred vision; floaters; flashes; eye pain
+pmh: Type 2 diabetes; high blood pressure
+dh: Metformin; ramipril
+all: None
+fh: Father has diabetes
+sh: Non-smoker; 6 units a week; drives
+ice: Nothing wrong as he can see | Being nagged | To skip screening
+cue: "I'm too busy for eye appointments."
+ask: Why bother if I can see fine?
+key: What do you understand by the letter? | Starts where he is
+key: Explain that retinopathy causes no symptoms until it's advanced; screening catches it early | Rationale
+key: Check for any visual symptoms | Exclude sight-threatening disease
+key: Explore glucose and BP control | Modifiable risk
+key: Agree continued screening and targets | Shared plan
+rf: Sudden vision loss or floaters | Vitreous haemorrhage
+sum: So your screening found early diabetic changes at the back of your eyes, your vision is fine, and you were planning to skip the next screening. Is that right?
+pres: Ahmed Siddiqui is a 46-year-old man with type 2 diabetes, HbA1c 64 and BP 148/90, whose screening shows background diabetic retinopathy without maculopathy. He has normal vision and planned to skip screening. I have explained that retinopathy is asymptomatic until advanced and that screening plus better glucose and BP control prevent sight loss.
+ddx: Background diabetic retinopathy, because of screening findings with normal vision | Maculopathy or proliferative disease, excluded at screening and to be monitored | Hypertensive retinopathy contributing, given raised BP
+ix: Continue annual retinal screening or as advised; HbA1c, lipids, U&Es, urine ACR
+mx: Continue screening; improve HbA1c gradually; BP below 140/90; statin; manage lipids; safety-net for visual symptoms
+tell: Early diabetic eye changes don't affect your vision, which is exactly why screening matters: by the time you notice, damage can be permanent. Keeping your sugar and blood pressure down can stop it progressing. Please keep your screening appointments; they take less than an hour.
+
+=== DM10 | Type 2 diabetes and overall cardiovascular risk
+who: Sandra Holt, 58, care assistant
+act: Focused only on her sugar result; defensive about smoking.
+open: I just want to talk about my sugar. My HbA1c is 60.
+story: My diabetes nurse said my sugar's a bit high. I don't want to talk about smoking or anything else.
+hpc: HbA1c: 60
+hpc: BP: 150/92
+hpc: LDL: 3.7
+hpc: Smoking: 15 a day
+hpc: Medicines: Metformin only
+yes: Breathless on hills
+no: Chest pain; claudication; stroke symptoms; foot problems
+pmh: Type 2 diabetes for 5 years
+dh: Metformin 1 g twice daily
+all: None
+fh: Brother had a stroke at 60
+sh: Smokes 15 a day; 4 units a week; care assistant
+ice: Sugar is the only problem | A stroke like her brother | To discuss only her sugar
+cue: "My brother had a stroke at 60."
+ask: Why are you talking about my blood pressure?
+key: What matters most to you about your health? | Engagement
+key: Explain that heart attacks and strokes are the biggest risk in diabetes, and BP, cholesterol and smoking matter as much as sugar | Overall risk
+key: Discuss BP: target below 140/90, start an ACE inhibitor | Hypertension in diabetes
+key: Discuss a statin: atorvastatin 20 mg | Lipids
+key: Very brief advice on smoking | Biggest single modifiable risk
+rf: Chest pain or stroke symptoms | Established disease
+sum: So you'd like to focus on your sugar, which is 60, but your blood pressure, cholesterol and smoking also raise your risk, and your brother had a stroke. Is that right?
+pres: Sandra Holt is a 58-year-old woman with type 2 diabetes, HbA1c 60, BP 150/92, LDL 3.7 and 15 cigarettes a day, with a brother who had a stroke at 60. She wants to discuss glucose only. Her overall cardiovascular risk is high and BP, lipids and smoking need addressing alongside glucose.
+ddx: High cardiovascular risk in type 2 diabetes, because of hypertension, dyslipidaemia and smoking | Suboptimal glycaemic control, HbA1c 60 above target | Undiagnosed cardiovascular disease, assessed by symptoms and ECG
+ix: QRISK3; U&Es, urine ACR; lipids; ECG
+mx: Start an ACE inhibitor such as ramipril for BP; atorvastatin 20 mg; smoking cessation support; add a second glucose-lowering agent, considering an SGLT2 inhibitor for cardiovascular benefit; lifestyle; review in 3 months
+tell: Your sugar matters, but in diabetes the biggest danger is a heart attack or stroke, and your blood pressure, cholesterol and smoking each raise that risk. Bringing those down protects you more than sugar alone. Let's start with one step that suits you, and I'll support you with the rest.
+
+=== DM12 | Severe hypoglycaemia and driving
+who: Liam Foster, 35, van delivery driver
+act: Anxious about money, pleading; you feel fine now.
+open: I had a bad hypo at the weekend and my partner had to help me. I'm fine now, I need to drive tomorrow.
+story: On Saturday I went hypo, got confused and my partner had to give me sugary drinks. I don't remember the warning signs. I need to work tomorrow.
+hpc: Episode: Severe hypo needing his partner's help, Saturday, at home, not driving
+hpc: Awareness: Didn't get his usual warning signs
+hpc: Previous: No other severe hypo in the last year
+hpc: Cause: Played football and skipped dinner after insulin
+hpc: Vehicle: Van under 3.5 tonnes
+yes: Reduced hypo awareness recently
+no: Seizure; injury; driving during the episode; alcohol
+pmh: Type 1 diabetes for 12 years
+dh: Basal-bolus insulin
+all: None
+fh: Nothing relevant
+sh: Delivery driver; lives with partner; 8 units a week
+ice: A one-off | Losing his income | To drive tomorrow
+cue: "If I don't drive, I don't get paid."
+ask: Can I drive tomorrow?
+key: Tell me what happened: where, needing help, driving? | Severity and context
+key: Did you get your usual warning signs? | Impaired awareness is the key DVLA issue
+key: Any other severe hypos in the last 12 months? | Group 1: two or more episodes must be notified
+key: What vehicle do you drive for work? | Group 1 versus Group 2 licence
+key: What caused it, and how will you prevent it? | Prevention
+rf: Impaired hypo awareness | Must not drive and must notify the DVLA
+rf: Any hypo while driving | Must notify
+sum: So you had a severe hypo on Saturday needing your partner's help, you didn't get your usual warning, and you drive a van for work. Is that right?
+pres: Liam Foster is a 35-year-old van driver with type 1 diabetes who had a severe hypoglycaemic episode needing third-party help, with reduced awareness of hypoglycaemia. This is his first severe episode in 12 months and he holds a Group 1 licence. Because of impaired awareness, he must not drive until reassessed and should inform the DVLA.
+ddx: Severe hypoglycaemia triggered by exercise and a missed meal, because of insulin without carbohydrate | Impaired hypoglycaemia awareness, which changes driving eligibility | Other contributors such as alcohol, renal decline or coeliac disease, assessed by history and bloods
+ix: HbA1c; review glucose meter or CGM data; U&Es; coeliac serology and TFTs if recurrent hypos
+mx: Advise no driving until awareness is restored and assessed; DVLA notification required for impaired awareness, and for Group 1 if two severe episodes in 12 months; for Group 2 any single severe episode; diabetes team review; consider continuous glucose monitoring; exercise and insulin adjustment education; check glucose before driving, above 5 to drive, and every 2 hours
+tell: I know this is hard with your work. Because you didn't get your usual warning signs, it isn't safe to drive tomorrow; a hypo at the wheel could be fatal for you or someone else. You need to tell the DVLA about the loss of warning signs. The diabetes team can help restore your awareness, often with a sensor, and many people get back to driving.
+
+=== TH01 | Graves' disease
+who: Chloe Barnes, 37, hairdresser
+act: Fidgety, warm, slightly sweaty, talking fast; hands tremble holding a cup.
+open: I've lost weight without trying, I'm always hot and my heart races.
+story: Over three months I've lost 6 kg though I'm eating loads. I'm always hot, my heart races and my hands shake. My neck looks a bit full.
+hpc: Weight: Lost 6 kg in 3 months, eating more
+hpc: Heat: Intolerant, sweating
+hpc: Heart: Palpitations, HR 112
+hpc: Tremor: Fine tremor
+hpc: Neck: Diffuse swelling
+hpc: Eyes: Gritty, slightly prominent
+yes: Anxiety; loose stools; light periods; poor sleep; gritty eyes
+no: Neck pain; recent viral illness; pregnancy; double vision; vision loss; iodine or amiodarone
+pmh: Nothing
+dh: Combined pill
+all: None
+fh: Mother has an underactive thyroid
+sh: Smokes 10 a day; 8 units a week; hairdresser
+ice: Stress | Her heart | Something to calm her down
+cue: "My heart feels like it's going to burst out of my chest."
+ask: Is it my heart?
+key: Weight, appetite, heat intolerance, sweating? | Hyperthyroid symptoms
+key: Palpitations, tremor, anxiety, bowels, periods? | Systemic effects
+key: Any eye symptoms: grittiness, bulging, double vision, sight changes? | Graves' eye disease
+key: Neck pain or recent viral illness? | Thyroiditis
+key: Any chance of pregnancy, or planning one? | Drug choice
+rf: Visual loss or double vision | Sight-threatening eye disease
+rf: Fever, confusion, very fast heart rate | Thyroid storm
+sum: So over three months you've lost 6 kg while eating more, you're always hot with a racing heart and shaky hands, your neck looks fuller and your eyes feel gritty. Is that right?
+pres: Chloe Barnes is a 37-year-old smoker with 3 months of weight loss, heat intolerance, palpitations, tremor and a diffuse goitre with gritty eyes. HR 112, TSH suppressed below 0.01 and free T4 36. This is primary hyperthyroidism, most likely Graves' disease.
+ddx: Graves' disease, because of thyrotoxicosis with a diffuse goitre and eye symptoms | Toxic multinodular goitre or toxic adenoma, told apart by a nodular goitre and uptake scan | Painful or silent thyroiditis, excluded by no neck pain and confirmed with TRAb or uptake scan
+ix: TSH receptor antibodies; FBC and LFTs before carbimazole; ECG for AF; consider uptake scan if TRAb negative; eye assessment
+mx: Propranolol for symptoms; carbimazole by titration or block-and-replace, with warning about agranulocytosis; endocrinology referral; stop smoking to protect the eyes; options later: radioiodine or surgery; contraception, as carbimazole is harmful in early pregnancy
+tell: Your thyroid is overactive, most likely from Graves' disease, where the immune system switches the gland on. A beta-blocker will calm the racing heart within days, and carbimazole will bring the thyroid down over weeks. If you get a sore throat, mouth ulcers or fever on carbimazole, stop it and get a blood test that day. Stopping smoking protects your eyes.
+
+=== TH03 | Suspected thyroid cancer
+who: Martin Doyle, 48, engineer
+act: Rough voice; touch the lump at the front of your neck. Calm and analytical.
+open: I've got a lump in my neck that's getting bigger, and my voice has been hoarse.
+story: For two months there's been a firm lump at the front of my neck, and it's grown. My voice has been hoarse for a month. I had radiotherapy to my neck as a child for lymphoma.
+hpc: Lump: Front of neck, 2 months, enlarging, firm
+hpc: Voice: Hoarse for a month, persistent
+hpc: Swallowing: Slight discomfort
+hpc: Radiation: Neck radiotherapy as a child
+hpc: TFTs: Normal
+yes: Hoarseness; growth; radiation history
+no: Thyroid symptoms; pain; breathing problems; stridor; weight loss; night sweats
+pmh: Hodgkin lymphoma treated with radiotherapy aged 10
+dh: None
+all: None
+fh: Nothing relevant
+sh: Non-smoker; 8 units a week; engineer
+ice: Thyroid trouble | Cancer | Answers
+cue: "They said my thyroid tests were normal, so it can't be serious?"
+ask: My thyroid tests are normal, so it's fine?
+key: When did you notice it, and is it growing? | Enlarging nodule
+key: Voice change, swallowing, breathing? | Local invasion
+key: Previous radiation to the head or neck? | Major risk factor
+key: Family history of thyroid cancer or endocrine tumours? | MEN 2
+key: Thyroid symptoms? | Function
+rf: Hoarseness, rapid growth, radiation history, fixed lump | Suspected cancer pathway
+rf: Stridor | Airway emergency
+sum: So for two months you've had a firm, growing lump at the front of your neck, your voice has been hoarse for a month, and you had neck radiotherapy as a child. Is that right?
+pres: Martin Doyle is a 48-year-old man with a 2-month enlarging firm thyroid lump, a month of persistent hoarseness and childhood neck radiotherapy. Thyroid function is normal, which does not exclude cancer. This is suspicious for thyroid cancer with possible recurrent laryngeal nerve involvement.
+ddx: Differentiated thyroid cancer, likely papillary, because of an enlarging nodule with hoarseness after neck radiation | Benign nodule or cyst, told apart by ultrasound and cytology | Recurrent lymphoma or anaplastic cancer, distinguished on FNA or biopsy
+ix: Ultrasound with U-grading and fine-needle aspiration; laryngoscopy for vocal cord movement; calcitonin if medullary suspected; CT neck and chest if malignant
+mx: Suspected cancer pathway referral to the thyroid team; thyroid MDT; usually surgery, then radioiodine if indicated
+tell: Normal thyroid blood tests don't rule out a cancer, because most thyroid cancers don't change hormone levels. A growing lump with a hoarse voice and past neck radiotherapy needs urgent checks, so I'm referring you to be seen within two weeks for a scan and a needle test. Thyroid cancers usually respond very well to treatment.
+
+=== TH06 | Radioactive iodine counselling
+who: Graham Pike, 56, retired postman
+act: Thoughtful, keen to understand; grandparent who adores his grandchildren.
+open: They've suggested radioactive iodine for my thyroid. My grandchildren live with me. Can they come straight back?
+story: My Graves' has come back twice after carbimazole. I'm considering radioactive iodine. My two grandchildren, aged 3 and 5, live with us.
+hpc: Graves': Relapsed twice after carbimazole
+hpc: Eyes: Mild grittiness, no double vision
+hpc: Household: Two grandchildren, 3 and 5, live with him
+hpc: Smoking: Smokes 10 a day
+yes: Mild gritty eyes
+no: Pregnancy plans in partner; double vision; vision loss; neck compression
+pmh: Graves' disease
+dh: Carbimazole 10 mg
+all: None
+fh: Nothing relevant
+sh: Smokes 10 a day; lives with wife and grandchildren
+ice: Radiation is dangerous | Harming the grandchildren | Practical rules
+cue: "I pick them up from school every day."
+ask: Can the grandchildren come straight back?
+key: What do you know about radioactive iodine? | Starts where he is
+key: Explain: a capsule or drink that destroys overactive thyroid tissue | Procedure
+key: Precautions: avoid prolonged close contact with children and pregnant women for a period set by the dose, often up to 3 weeks; sleep apart; separate cutlery, flush twice | Household safety
+key: Likely hypothyroidism needing lifelong levothyroxine | Expected outcome
+key: Eye disease may worsen, especially in smokers: steroid cover may be offered; stop smoking | Eye risk
+key: Stop carbimazole a week or so before as advised | Practicalities
+rf: Active moderate to severe eye disease | Radioiodine may be unsuitable
+sum: So your Graves' has come back twice, you're considering radioactive iodine, and your young grandchildren live with you. Is that right?
+pres: Graham Pike is a 56-year-old man with Graves' disease relapsing twice after carbimazole, a smoker with mild eye symptoms, considering radioactive iodine, who lives with grandchildren aged 3 and 5. I have explained the procedure, likely lifelong levothyroxine, the risk of worsening eye disease especially with smoking, and the radiation precautions including avoiding close contact with the children for a set period.
+ddx: Relapsing Graves' disease suitable for definitive treatment, because of two relapses after antithyroid drugs | Radioiodine versus thyroidectomy, weighed by eye disease and household | Graves' orbitopathy that could worsen with radioiodine, assessed by an eye specialist if needed
+ix: TFTs; eye assessment; pregnancy test for partners of childbearing age not relevant here
+mx: Radioiodine with written radiation protection advice tailored to the dose; arrange alternative childcare for the restriction period; consider prophylactic steroids if eye disease is present; smoking cessation; TFTs every 4 to 6 weeks after; levothyroxine when hypothyroid
+tell: Radioactive iodine is a safe, effective way to switch off the overactive thyroid. For a short time afterwards you'll give off a little radiation, so you'll need to avoid close contact with your grandchildren, such as cuddles or sharing a bed, usually for a couple of weeks; the team will give you exact dates. Most people end up needing a daily thyroid tablet. Stopping smoking will protect your eyes.
+
+=== TH08 | Subacute (de Quervain's) thyroiditis
+who: Lauren Mitchell, 38, PA
+act: Hold the front of your neck gingerly; mention the cold a few weeks ago.
+open: The front of my neck is really sore, and my heart's racing.
+story: A few weeks ago I had a bad cold. Now the front of my neck is tender and sore, it hurts to swallow, and I've had palpitations and feel hot.
+hpc: Neck: Painful, tender thyroid, radiating to the jaw
+hpc: Onset: 2 weeks after a viral illness
+hpc: Thyrotoxic symptoms: Palpitations, heat intolerance, anxiety
+hpc: Results: TSH below 0.01, free T4 30, ESR 68
+hpc: Eyes: Normal
+yes: Neck pain; fever; palpitations; fatigue
+no: Eye symptoms; weight loss over months; neck lump; recent pregnancy; iodine or amiodarone
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Non-smoker; PA
+ice: Throat infection | Thyroid cancer | Pain relief
+cue: "It hurts even to touch my neck."
+ask: Will I need carbimazole?
+key: Neck pain, tenderness, radiation to the jaw? | Painful thyroiditis
+key: Recent viral illness? | Post-viral
+key: Thyrotoxic symptoms and duration? | Transient phase
+key: Eye symptoms? | Graves' features absent
+key: Pregnancy in the last year? | Postpartum thyroiditis
+rf: Stridor or rapidly enlarging mass | Anaplastic cancer or haemorrhage
+sum: So a couple of weeks after a cold the front of your neck became painful and tender, and you've had palpitations and felt hot. Is that right?
+pres: Lauren Mitchell is a 38-year-old woman with a painful tender thyroid after a viral illness, thyrotoxic symptoms, TSH below 0.01, free T4 30 and ESR 68, without eye signs or bruit. This is subacute de Quervain's thyroiditis.
+ddx: Subacute granulomatous thyroiditis, because of a painful tender gland after a viral illness with thyrotoxicosis and high ESR | Graves' disease, told apart by a painless gland, eye signs and positive TRAb | Haemorrhage into a nodule or acute suppurative thyroiditis, distinguished on ultrasound
+ix: Low uptake on a technetium scan confirms; TRAb negative; FBC, CRP
+mx: NSAIDs for pain, or prednisolone if severe; beta-blocker for symptoms; antithyroid drugs are not used as the gland is leaking hormone, not overproducing; recheck TFTs every 4 to 6 weeks for the hypothyroid phase; usually full recovery
+tell: This is inflammation of the thyroid after a virus. The gland is leaking stored hormone, so carbimazole won't help. Anti-inflammatory painkillers and a beta-blocker for the racing heart will ease it. Over the next few months your thyroid may go a bit underactive before recovering, so we'll check your blood regularly.
+
+=== GI02 | Inflammatory bowel disease, likely ulcerative colitis
+who: Amelia Grant, 24, primary school teacher
+act: Embarrassed, tired; speak quietly about blood and accidents.
+open: I've had diarrhoea for two months and I'm getting up at night to go.
+story: For eight weeks I've had loose stools up to six times a day, sometimes with blood, and I'm getting up at night. I've lost 4 kg.
+hpc: Diarrhoea: 8 weeks, up to 6 a day
+hpc: Blood: Occasionally mixed in
+hpc: Nocturnal: Up at night to open bowels
+hpc: Urgency: Yes
+hpc: Weight: Lost 4 kg
+hpc: Results: CRP 28, faecal calprotectin 620
+yes: Urgency; tenesmus; fatigue
+no: Travel; antibiotics; sick contacts; fever; mouth ulcers; perianal pain; joint or eye problems
+pmh: Nothing
+dh: None
+all: None
+fh: Uncle has Crohn's disease
+sh: Non-smoker; 6 units a week; teacher
+ice: IBS | Cancer | Answers
+cue: "I can't do playground duty without knowing where the toilet is."
+ask: Is it IBS?
+key: How often, consistency, blood, mucus, nocturnal? | Organic features
+key: Urgency, tenesmus, incontinence? | Rectal involvement
+key: Weight loss, fever, abdominal pain? | Severity
+key: Travel, antibiotics, contacts? | Infection
+key: Mouth ulcers, joint, eye or skin problems; perianal symptoms? | Extra-intestinal and Crohn's features
+key: Smoking and family history? | Risk
+rf: More than 6 bloody stools a day with fever or tachycardia | Acute severe colitis: admit
+rf: Weight loss and nocturnal symptoms | Excludes IBS
+sum: So for eight weeks you've had loose stools up to six times a day, sometimes with blood, waking you at night, and you've lost 4 kg. Is that right?
+pres: Amelia Grant is a 24-year-old woman with 8 weeks of diarrhoea up to 6 times daily with intermittent blood, nocturnal stools, urgency and 4 kg weight loss, with CRP 28 and faecal calprotectin 620. This is inflammatory bowel disease, most likely ulcerative colitis.
+ddx: Ulcerative colitis, because of bloody diarrhoea, urgency, nocturnal symptoms and raised calprotectin | Crohn's colitis, told apart by patchy disease, ileal and perianal involvement | Infective colitis or C. difficile, excluded with stool cultures
+ix: Stool culture and C. difficile; FBC, CRP, U&Es, LFTs, albumin, ferritin; urgent colonoscopy with biopsies
+mx: Urgent gastroenterology referral; mesalazine for mild to moderate UC once confirmed; steroids if more severe; IBD nurse; admit if acute severe criteria develop
+tell: Your tests show inflammation in your bowel, so this isn't IBS. The most likely cause is ulcerative colitis, a condition where the immune system inflames the bowel lining. It's very treatable. I'm referring you urgently for a camera test. If you get more than six bloody stools a day, a fever or a racing heart, go to A&E.
+
+=== GI03 | Crohn's disease with perianal disease
+who: Josh Turner, 28, chef
+act: Uncomfortable sitting; thin; smoking a vape outside before you came in.
+open: I've had diarrhoea and I've lost weight, and I keep getting discharge near my bottom.
+story: For months I've had diarrhoea and lost weight. There's been discharge from near my bottom on and off. My colonoscopy report mentions patches of inflammation.
+hpc: Diarrhoea: Months, non-bloody
+hpc: Weight: Lost 6 kg
+hpc: Perianal: Recurrent discharge
+hpc: Pain: Right lower abdominal cramps
+hpc: Colonoscopy: Patchy terminal ileal inflammation with skip lesions
+yes: Mouth ulcers; fatigue
+no: Blood in stool; vomiting; fever now; joint pain
+pmh: Perianal abscess drained last year
+dh: None
+all: None
+fh: Nothing relevant
+sh: Smokes 15 a day; 10 units a week; chef
+ice: An infection | Losing his job | Treatment
+cue: "I can't keep running off the kitchen floor."
+ask: Will smoking make it worse?
+key: Bowel habit, blood, nocturnal symptoms? | Activity
+key: Abdominal pain, especially right lower? | Ileal disease
+key: Perianal discharge, pain or abscesses? | Fistulating disease
+key: Weight loss, mouth ulcers, joint, skin, eye symptoms? | Systemic features
+key: Smoking? | Worsens Crohn's
+rf: Obstructive symptoms: vomiting, distension | Stricture
+rf: Perianal abscess | Drainage
+sum: So you've had months of diarrhoea, weight loss, right-sided cramps and discharge near your bottom, and your colonoscopy showed patchy inflammation at the end of the small bowel. You smoke. Is that right?
+pres: Josh Turner is a 28-year-old smoker with months of non-bloody diarrhoea, 6 kg weight loss, right iliac fossa cramps and recurrent perianal discharge after a previous abscess, with patchy terminal ileal inflammation and skip lesions at colonoscopy. This is ileal Crohn's disease with perianal fistulating disease.
+ddx: Crohn's disease with perianal fistula, because of skip lesions in the terminal ileum and perianal disease | Ulcerative colitis, excluded by continuous rectal disease being absent and ileal involvement | Intestinal TB or lymphoma, excluded by histology
+ix: FBC, CRP, albumin, B12, ferritin, vitamin D; MR enterography; MRI pelvis for fistula anatomy; stool calprotectin
+mx: Gastroenterology and colorectal MDT; induce remission with steroids or ileal budesonide; maintenance immunomodulator or biologic; EUA with seton for fistula; stop smoking, which strongly worsens Crohn's; dietitian; IBD nurse
+tell: Your colonoscopy shows Crohn's disease, where the immune system inflames patches of the gut, and it has made a small tunnel near your bottom. Treatment calms the inflammation, and the surgeons can drain the tunnel. Stopping smoking is one of the most powerful things you can do; smoking makes Crohn's much worse.
+
+=== GI06 | Irritable bowel syndrome without alarm features
+who: Sam Patel, 29, accountant
+act: Anxious, asking about food intolerance tests from an online advert.
+open: I've had tummy cramps and my bowels switch between loose and hard for a year.
+story: The cramps get better when I open my bowels. Some days I'm loose, some days constipated. I saw an advert for a food intolerance test.
+hpc: Pain: Cramping, lower abdomen, relieved by defecation
+hpc: Bowels: Alternating, a year
+hpc: Bloating: Evenings
+hpc: Weight: Stable
+hpc: Bloods: FBC and CRP normal
+yes: Bloating; stress-related flares
+no: Blood; weight loss; nocturnal symptoms; family bowel cancer or IBD; fever
+pmh: Anxiety
+dh: None
+all: None
+fh: Nothing relevant
+sh: Non-smoker; 10 units a week; accountant, busy season
+ice: A food intolerance | Something serious being missed | A food intolerance test
+cue: "The advert said most people are intolerant to something."
+ask: Should I do the food intolerance test?
+key: Pain related to bowel opening? | Rome IV
+key: Stool form and frequency? | IBS subtype
+key: Alarm features: blood, weight loss, nocturnal, family history? | Red flags
+key: Triggers: stress, food, caffeine, alcohol? | Management targets
+key: What tests have you done? | Coeliac serology
+rf: Rectal bleeding, weight loss, change over 60 | Investigate
+sum: So for a year you've had cramps eased by opening your bowels, alternating loose and hard stools, and bloating, with no blood or weight loss. Is that right?
+pres: Sam Patel is a 29-year-old man with a year of lower abdominal cramping relieved by defecation, alternating stool form and bloating, without alarm features, with normal FBC and CRP. This is IBS with a mixed pattern.
+ddx: Irritable bowel syndrome, mixed type, because of Rome IV criteria without red flags | Coeliac disease, excluded with tTG | IBD, excluded with normal CRP and calprotectin
+ix: Coeliac serology; faecal calprotectin if diarrhoea predominant; no IgG food intolerance tests
+mx: Positive diagnosis and explanation; regular meals, less insoluble fibre, caffeine and alcohol; low FODMAP with a dietitian if needed; antispasmodic; loperamide or a laxative by symptom; stress management or CBT
+tell: This is IBS, a common condition where the gut is over-sensitive. The intolerance tests you see online, IgG tests, aren't reliable and can lead to unnecessary diet restriction. A dietitian-guided low FODMAP diet is the evidence-based way to find trigger foods. Come back if you see blood, lose weight or have symptoms at night.
+
+=== GI07 | Pancreatic exocrine insufficiency from chronic pancreatitis
+who: Mark Riley, 45, unemployed former builder
+act: Thin, tired; a little defensive about alcohol.
+open: My stools are greasy and float, and I keep losing weight.
+story: For months my stools have been bulky, greasy and hard to flush. I've lost a lot of weight. I've had pancreatitis before.
+hpc: Stools: Bulky, pale, greasy, float, foul-smelling
+hpc: Weight: Lost 8 kg
+hpc: Pain: Recurrent upper abdominal pain to the back
+hpc: Alcohol: Heavy for years
+hpc: Vitamin D: Low
+yes: Upper abdominal pain; thirst and urinating more
+no: Blood in stool; jaundice; vomiting blood; fever
+pmh: Chronic pancreatitis
+dh: None
+all: None
+fh: Nothing relevant
+sh: Drinks about 100 units a week; smokes 20 a day
+ice: A stomach bug | Being judged | To stop losing weight
+cue: "I know I drink too much."
+ask: Is it the drink?
+key: Describe the stools: greasy, pale, floating? | Steatorrhoea
+key: Weight loss and appetite? | Malabsorption
+key: Pain and pancreatitis history? | Chronic pancreatitis
+key: Alcohol and smoking? | Causes
+key: Thirst and urinating more? | Pancreatic diabetes
+rf: Jaundice or weight loss with new diabetes | Pancreatic cancer
+sum: So for months you've had bulky greasy floating stools and lost 8 kg, with past pancreatitis and heavy drinking. Is that right?
+pres: Mark Riley is a 45-year-old man with chronic pancreatitis from heavy alcohol use presenting with steatorrhoea, 8 kg weight loss, low vitamin D and osmotic symptoms. This is pancreatic exocrine insufficiency, with possible pancreatogenic diabetes.
+ddx: Pancreatic exocrine insufficiency from chronic pancreatitis, because of steatorrhoea and weight loss in known chronic pancreatitis | Coeliac disease, told apart by tTG and duodenal biopsy | Pancreatic cancer, considered with weight loss and new diabetes: CT
+ix: Faecal elastase; HbA1c and glucose; fat-soluble vitamins A, D, E, K; FBC, LFTs, albumin, clotting; coeliac serology; CT pancreas
+mx: Pancreatic enzyme replacement such as Creon with meals and snacks, adjusted to symptoms; vitamin replacement; dietitian; alcohol cessation support with Pabrinex or thiamine; manage diabetes; smoking cessation
+tell: Your pancreas isn't making enough digestive enzymes, so fat passes straight through. Taking enzyme capsules with every meal fixes much of this and helps you regain weight. Stopping alcohol is the most important thing to prevent further damage, and we can help you with that without judgement.
+
+=== GI08 | Malnutrition with high MUST score before surgery
+who: Dorothy Hart, 78, retired seamstress
+act: Frail, cardigan loose; hold your jaw when chewing comes up.
+open: I'm here for my pre-op check. I don't eat much these days.
+story: My appetite's gone and my teeth hurt, so I eat one small meal a day. My clothes are hanging off me.
+hpc: Weight: 43 kg now, from 49 kg three months ago
+hpc: Height: 1.60 m, BMI 16.8
+hpc: Intake: One small meal a day
+hpc: Teeth: Painful, poorly fitting dentures
+hpc: Mood: Low since her husband died
+yes: Dental pain; low mood; fatigue
+no: Dysphagia; vomiting; diarrhoea; bleeding; night sweats
+pmh: Hernia awaiting repair; osteoporosis
+dh: Alendronic acid; calcium and vitamin D
+all: None
+fh: Nothing relevant
+sh: Lives alone since husband died 6 months ago; no alcohol
+ice: Old age | Being a burden | To get her operation done
+cue: "It's not worth cooking for one."
+ask: Why does my weight matter for the operation?
+key: Weight now and 3 to 6 months ago? | Unintentional weight loss over 10%
+key: Height and BMI | MUST
+key: What and how much do you eat? Any problems chewing or swallowing? | Intake and cause
+key: Mood, loneliness, cooking and shopping? | Social and psychological causes
+key: Red flags: dysphagia, vomiting, bleeding, night sweats? | Organic causes
+rf: Very low intake for over 5 days and low BMI | Refeeding risk
+sum: So you've lost 6 kg in three months, you eat one small meal a day because of dental pain and low appetite, and you live alone since your husband died. Is that right?
+pres: Dorothy Hart is a 78-year-old woman awaiting hernia repair with BMI 16.8, 12% unintentional weight loss in 3 months and intake of one small meal daily due to dental pain and low mood after bereavement. Her MUST score is 4: BMI below 18.5 scores 2 and weight loss over 10% scores 2. She is at high risk of malnutrition.
+ddx: Protein-energy malnutrition from poor intake due to dental pain and bereavement | Depression contributing to anorexia, assessed with PHQ-9 | Occult malignancy or thyroid disease, excluded by history, examination and bloods
+ix: MUST score; FBC, U&Es, LFTs, albumin, calcium, phosphate, magnesium, TFTs, glucose; PHQ-9
+mx: Dietitian referral; oral nutritional supplements; dental review; treat low mood; social support such as meals at home and lunch clubs; consider delaying elective surgery to optimise nutrition; assess refeeding risk
+tell: Being underweight before an operation slows healing and raises the risk of infection, so it's worth building you up first. A dietitian will help with nourishing drinks and easy meals, and we'll get your teeth sorted so eating doesn't hurt. I'm sorry about your husband; we can also find you some company and support.
+
+=== GI09 | Uncomplicated GORD
+who: Mike Fraser, 41, sales rep
+act: Rub your sternum, mention big business lunches. Relaxed.
+open: I get burning behind my breastbone after big meals, and a sour taste lying down.
+story: After big lunches with clients I get heartburn, and lying down at night I get a sour taste in my mouth.
+hpc: Heartburn: Retrosternal burning after large meals
+hpc: Regurgitation: Sour taste lying down
+hpc: Duration: 3 months
+hpc: Triggers: Large meals, alcohol, late eating
+hpc: Alarm features: None
+yes: Night-time regurgitation
+no: Dysphagia; vomiting; bleeding; weight loss; anaemia; NSAIDs; chest pain on exertion
+pmh: Nothing
+dh: Gaviscon
+all: None
+fh: Nothing relevant
+sh: Non-smoker; 20 units a week; BMI 30; sales rep
+ice: Heartburn | An ulcer | A tablet
+cue: "I eat late most nights."
+ask: Do I need a camera test?
+key: Burning, regurgitation, relation to meals and lying down? | GORD pattern
+key: Alarm features: dysphagia, weight loss, bleeding, vomiting? | Endoscopy criteria
+key: NSAIDs, aspirin? | Ulcer risk
+key: Lifestyle: weight, alcohol, late meals, smoking? | Triggers
+key: Exertional chest pain? | Cardiac mimic
+rf: Dysphagia or weight loss | Urgent endoscopy
+sum: So for three months you've had burning behind your breastbone after big meals and a sour taste lying down, with no swallowing problems, bleeding or weight loss. Is that right?
+pres: Mike Fraser is a 41-year-old man with 3 months of typical reflux symptoms triggered by large meals and lying down, without alarm features or NSAID use, with a BMI of 30 and 20 units of alcohol a week. This is uncomplicated GORD not needing endoscopy.
+ddx: Uncomplicated GORD, because of typical heartburn and regurgitation without alarm features | Functional dyspepsia or peptic ulcer, told apart by symptom pattern and H. pylori testing | Cardiac pain, excluded by no exertional component
+ix: None needed; consider H. pylori testing
+mx: Lifestyle: weight loss, smaller meals, no eating 3 hours before bed, raise the bed head, reduce alcohol; full-dose PPI for 4 weeks then step down to lowest effective dose or on demand; review
+tell: This is acid reflux. Eating smaller meals, not eating late, raising the head of your bed, losing a little weight and cutting back on alcohol help a lot. I'll give you an acid-reducing tablet for 4 weeks. You don't need a camera test unless you have trouble swallowing, lose weight or bleed.
+
+=== GI10 | Sliding hiatus hernia with reflux oesophagitis
+who: Patricia Wood, 62, retired cook
+act: Holding the endoscopy report; anxious about the word hernia.
+open: My camera test said I've got a hiatus hernia. Do I need an operation?
+story: I had reflux and the camera showed a small sliding hiatus hernia and inflamed food pipe. The word hernia worried me.
+hpc: Report: Small sliding hiatus hernia; LA grade B oesophagitis
+hpc: Symptoms: Heartburn, worse lying down
+hpc: Treatment: Omeprazole 20 mg, partially helping
+hpc: Alarm features: None
+yes: Night-time reflux
+no: Dysphagia; weight loss; bleeding; vomiting
+pmh: Obesity, BMI 31
+dh: Omeprazole 20 mg
+all: None
+fh: Nothing relevant
+sh: Non-smoker; 6 units a week
+ice: A hernia needs surgery | An operation | To know if she needs surgery
+cue: "My neighbour's hernia had to be operated on urgently."
+ask: Do I need an operation?
+key: What does the word hernia mean to you? | Starts where she is
+key: Explain: part of the stomach slides up through the diaphragm, common and usually managed without surgery | Plain words
+key: Current symptoms and response to PPI? | Control
+key: Alarm features? | Complications
+key: Lifestyle factors? | Management
+rf: Dysphagia, vomiting or pain after eating | Para-oesophageal hernia complications
+sum: So the camera showed a small sliding hiatus hernia with some inflammation, and you're worried it means an operation. Your reflux is partly controlled on omeprazole. Is that right?
+pres: Patricia Wood is a 62-year-old woman with endoscopy showing a small sliding hiatus hernia and grade B reflux oesophagitis, with partially controlled symptoms on omeprazole 20 mg and no alarm features. She is worried that a hernia means surgery.
+ddx: Sliding hiatus hernia with reflux oesophagitis, managed medically | Para-oesophageal hernia, which carries a risk of volvulus and may need surgery, excluded by the report | Barrett's oesophagus, excluded at endoscopy
+ix: None further unless symptoms change
+mx: Full-dose PPI for 8 weeks for oesophagitis, then lowest effective dose; weight loss; smaller meals; raise the bed head; surgical fundoplication only for refractory symptoms or intolerance of PPIs
+tell: A sliding hiatus hernia is very common: a small part of the stomach slips up through the diaphragm. It's not like your neighbour's hernia and very rarely needs surgery. A stronger acid tablet for 8 weeks will heal the inflammation, and losing a little weight helps. Surgery is only for people whose symptoms don't settle with tablets.
+
+=== GI11 | Possible upper GI bleed from NSAID-related ulcer
+who: Kevin Ward, 50, scaffolder
+act: Pale, a bit light-headed when standing; downplay it.
+open: I've had stomach pain, and yesterday my poo was black. I feel a bit light-headed today.
+story: I've taken ibuprofen every day for my back for months. I've had pain in the top of my stomach. Yesterday my stool was black and sticky, and today I'm dizzy.
+hpc: Pain: Epigastric, weeks
+hpc: Melaena: Black, tarry stool yesterday
+hpc: Dizziness: Light-headed on standing today
+hpc: NSAIDs: Ibuprofen 400 mg three times a day for months
+hpc: Vomiting: No blood
+yes: Melaena; postural dizziness; fatigue
+no: Haematemesis; weight loss; dysphagia; liver disease; anticoagulants
+pmh: Back pain
+dh: Ibuprofen
+all: None
+fh: Nothing relevant
+sh: Smokes 15 a day; 20 units a week; scaffolder
+ice: Indigestion | Missing work | Something for the pain
+cue: "I can't afford time off."
+ask: Can I just have stronger indigestion tablets?
+key: Black, sticky stools: when, how many? | Melaena
+key: Dizziness, fainting, breathlessness? | Haemodynamic compromise
+key: Vomiting blood? | Haematemesis
+key: NSAIDs, aspirin, anticoagulants, steroids? | Causes
+key: Alcohol and liver disease? | Varices
+rf: Melaena with postural dizziness | Same-day hospital assessment
+rf: Haematemesis or syncope | 999
+sum: So you've had stomach pain while taking ibuprofen daily, a black tarry stool yesterday, and you're light-headed today. Is that right?
+pres: Kevin Ward is a 50-year-old man taking daily ibuprofen with weeks of epigastric pain, melaena yesterday and postural light-headedness today. This is an upper GI bleed, likely from an NSAID-related peptic ulcer, and he needs same-day hospital assessment.
+ddx: Bleeding peptic ulcer from NSAIDs, because of epigastric pain, melaena and postural symptoms | Variceal bleed, unlikely without liver disease, but assessed | Gastric cancer, excluded at endoscopy
+ix: In primary care: observations and postural BP; then hospital: FBC, U&Es with urea, LFTs, clotting, group and save; Glasgow-Blatchford score; OGD within 24 hours
+mx: Same-day admission via ambulance if unstable; stop ibuprofen; PPI after endoscopy; endoscopic therapy; H. pylori testing; alternative back pain management
+tell: Black stools and feeling dizzy mean you may be bleeding from an ulcer, probably caused by the ibuprofen. You need to go to hospital today for blood tests and a camera test. Please stop the ibuprofen completely. If you vomit blood or faint, call 999.
+
+=== GI13 | NSAID and aspirin dyspepsia
+who: Brenda Lowe, 67, retired dinner lady
+act: Practical, slightly stubborn; plan to just double your antacid.
+open: My stomach's been uncomfortable since I started naproxen for my knee. I'll just take more antacid.
+story: My knee's been bad so the GP gave me naproxen. Now I've got a burning in my upper stomach. I'm on aspirin since my heart attack.
+hpc: Discomfort: Epigastric burning, 3 weeks
+hpc: NSAID: Naproxen 500 mg twice daily for a month
+hpc: Aspirin: 75 mg since MI
+hpc: Bleeding: No black stools or vomiting blood
+yes: Dyspepsia
+no: Melaena; haematemesis; weight loss; dysphagia
+pmh: MI 2 years ago; knee osteoarthritis
+dh: Aspirin 75 mg; naproxen 500 mg twice daily; atorvastatin; bisoprolol; ramipril
+all: None
+fh: Nothing relevant
+sh: Non-smoker; lives with husband
+ice: Indigestion | Losing her knee pain relief | More antacid
+cue: "The naproxen is the only thing that helps my knee."
+ask: Can't I just take more Gaviscon?
+key: When did the discomfort start relative to naproxen? | Temporal link
+key: Any black stools, vomiting blood or dizziness? | Bleeding
+key: List all medicines: aspirin, naproxen, others? | Combined bleeding risk
+key: What else have you tried for the knee? | Alternatives
+key: Previous ulcers? | Risk
+rf: Melaena or haematemesis | Upper GI bleed
+sum: So since starting naproxen a month ago you've had upper stomach burning, you also take aspirin after your heart attack, and no bleeding signs. Is that right?
+pres: Brenda Lowe is a 67-year-old woman with previous MI on aspirin 75 mg who developed epigastric dyspepsia after starting naproxen for knee osteoarthritis, without bleeding features. NSAID plus aspirin in an older patient carries a high risk of GI bleeding, and naproxen also adds cardiovascular and renal risk with her ramipril.
+ddx: NSAID-induced dyspepsia or peptic ulcer, because of epigastric pain after starting naproxen with aspirin | GORD, which can coexist | Cardiac pain, excluded by history and ECG given her MI
+ix: H. pylori test; FBC; U&Es given NSAID with ramipril
+mx: Stop naproxen; continue aspirin as secondary prevention; full-dose PPI; topical NSAID and paracetamol for the knee, physiotherapy and exercise; review knee options; safety-net for bleeding
+tell: The naproxen together with aspirin is irritating your stomach and raises the risk of a bleeding ulcer, so doubling the antacid would just hide a problem. We'll stop the naproxen, keep the aspirin for your heart, and add a stomach-protecting tablet. For your knee, an anti-inflammatory gel and physio are much safer.
+
+=== GI14 | Crohn's stricture surgery is not a cure
+who: Daniel Moss, 39, bus driver
+act: Hopeful that surgery will cure you; thin, uncomfortable after eating.
+open: The surgeon wants to operate on my bowel. That will cure my Crohn's, won't it?
+story: I keep vomiting after meals because of a narrowing in my small bowel. The surgeon wants to remove it. I'm hoping that's the end of it.
+hpc: Symptoms: Vomiting after meals, colicky pain, distension
+hpc: Stricture: Fibrotic terminal ileal stricture on MRI
+hpc: Medicines: On azathioprine
+hpc: Smoking: Still smokes
+yes: Weight loss; colicky pain
+no: Fever; bleeding; perianal disease
+pmh: Crohn's disease for 10 years
+dh: Azathioprine 150 mg
+all: None
+fh: Nothing relevant
+sh: Smokes 10 a day; bus driver
+ice: Surgery cures Crohn's | Living with Crohn's forever | Reassurance that he'll be cured
+cue: "I just want to be normal again."
+ask: Will this cure me?
+key: What do you understand about the operation? | Starts where he is
+key: Explain: surgery removes the narrowed segment and treats the blockage, but Crohn's can come back elsewhere | Correct the misconception
+key: Recurrence is common, often at the join, so maintenance medicine and monitoring continue after | Expectations
+key: Smoking strongly increases recurrence | Modifiable risk
+key: Risks: infection, leak at the join, short bowel if repeated resections | Material risks
+rf: Complete obstruction or perforation | Emergency
+sum: So you're vomiting because of a narrowing in your small bowel, the surgeon wants to remove it, and you hoped this would cure your Crohn's. Is that right?
+pres: Daniel Moss is a 39-year-old smoker with 10 years of Crohn's disease on azathioprine, now with obstructive symptoms from a fibrotic terminal ileal stricture, recommended for resection. He believes surgery will cure Crohn's. I have explained that resection treats the complication but not the disease, that recurrence is common, and that smoking increases recurrence.
+ddx: Fibrostenotic Crohn's stricture needing resection, because of obstructive symptoms and a fibrotic stricture on MRI | Inflammatory stricture, which might respond to medical therapy, excluded by imaging | Malignancy within a stricture, excluded at histology
+ix: MR enterography already done; pre-operative bloods, nutrition review
+mx: Ileocaecal resection; post-operative maintenance therapy and colonoscopy at around 6 months; stop smoking; dietitian
+tell: The operation will remove the narrowed piece and should stop the vomiting, which is a big improvement. But it doesn't cure Crohn's itself; it can come back, often near the join, which is why you'll still need medicine and a check camera test afterwards. Stopping smoking roughly halves the chance of it returning.
+
+=== GI16 | High refeeding risk
+who: Gary Phelps, 43, unemployed
+act: Very thin, weak, tremulous; mumble.
+open: I haven't really eaten for over a week.
+story: I've been drinking heavily and barely eating for eleven days. I feel weak.
+hpc: Intake: Almost nothing for 11 days
+hpc: BMI: 16.4
+hpc: Alcohol: Heavy, dependent
+hpc: Bloods: Potassium 3.1, phosphate 0.5, magnesium 0.52
+yes: Weakness; tremor
+no: Confusion; seizures; vomiting blood; chest pain
+pmh: Alcohol dependence
+dh: None
+all: None
+fh: Not relevant
+sh: Drinks heavily; lives alone
+ice: Just weak | Withdrawal fits | To feel stronger
+cue: "My hands won't stop shaking."
+ask: Can I have a proper meal now?
+key: How long have you eaten little or nothing? | Refeeding risk
+key: Alcohol: how much and when last? | Withdrawal and thiamine
+key: Assess against NICE criteria: BMI, intake, weight loss, low potassium, phosphate, magnesium | High risk
+key: Thiamine before feeding: IV Pabrinex | Wernicke's prevention
+key: Start feeding slowly: around 10 kcal/kg/day, or 5 in extreme cases | Prevent refeeding syndrome
+key: Replace and monitor potassium, phosphate and magnesium daily | Electrolyte shifts
+rf: Confusion, ataxia, eye movement problems | Wernicke's encephalopathy
+rf: Arrhythmias or heart failure on feeding | Refeeding syndrome
+sum: So you've eaten almost nothing for 11 days while drinking heavily, you feel weak and shaky, and your salts are low. Is that right?
+pres: Gary Phelps is a 43-year-old man with alcohol dependence, BMI 16.4 and negligible intake for 11 days, with pre-feeding hypokalaemia, hypophosphataemia and hypomagnesaemia. He is at high risk of refeeding syndrome per NICE.
+ddx: High refeeding risk, because of low BMI, prolonged negligible intake, alcohol misuse and low electrolytes before feeding | Wernicke's encephalopathy risk, assessed for confusion, ataxia and ophthalmoplegia | Alcohol withdrawal, assessed with CIWA
+ix: Daily U&Es, phosphate, magnesium, calcium, glucose for the first days; ECG; weight; fluid balance
+mx: IV Pabrinex before and during feeding; start nutrition slowly at around 10 kcal/kg/day, increasing over 4 to 7 days; replace potassium, phosphate and magnesium; dietitian; alcohol withdrawal management with chlordiazepoxide; cardiac monitoring if severe abnormalities
+tell: Your body has adapted to having almost no food, so we need to restart eating slowly, otherwise your salts can drop dangerously. We'll give you vitamins through a drip first, top up your salts, and build your food up over a few days with a dietitian. We'll also give medicine for the shakes.
+
+=== AA01 | Acute appendicitis
+who: Kyle Morgan, 21, apprentice electrician
+act: Lying still, knees bent; wince when coughing or when the trolley moves.
+open: My stomach's killing me. It started around my belly button and moved to the right.
+story: About twelve hours ago I got pain around my belly button. Now it's moved down to the right and it's sharp. I feel sick and haven't eaten.
+hpc: Onset: 12 hours ago, periumbilical
+hpc: Migration: To the right iliac fossa
+hpc: Character: Constant, sharp now
+hpc: Worse: Moving, coughing
+hpc: Appetite: Lost
+hpc: Observations: Temp 38.0, HR 104
+yes: Nausea; anorexia; fever
+no: Diarrhoea; urinary symptoms; testicular pain; blood in stool; previous episodes
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Smokes 5 a day; 10 units a week
+ice: Food poisoning | Surgery | Pain relief
+cue: "I've got a football tournament this weekend."
+ask: Do I need an operation?
+key: Where did it start and where is it now? | Migration
+key: Constant, worse with movement or coughing? | Peritonism
+key: Appetite, nausea, vomiting, fever? | Systemic features
+key: Urinary symptoms or testicular pain? | Renal colic and torsion
+key: Bowel change or blood? | Gastroenteritis and IBD
+rf: Generalised pain and rigidity | Perforation
+rf: Testicular pain | Torsion presenting as abdominal pain
+sum: So twelve hours ago pain started around your belly button and moved to the lower right, it's worse moving, and you feel sick and have lost your appetite. Is that right?
+pres: Kyle Morgan is a 21-year-old man with 12 hours of periumbilical pain migrating to the right iliac fossa, anorexia, nausea, fever of 38.0 and HR 104. This is acute appendicitis.
+ddx: Acute appendicitis, because of migratory RIF pain with anorexia, fever and peritonism | Mesenteric adenitis or terminal ileitis, told apart by imaging and history | Testicular torsion or renal colic, excluded by examination and urine dip
+ix: Urine dip; FBC, CRP, U&Es; group and save; examine testes; ultrasound or CT if diagnosis uncertain
+mx: Nil by mouth; IV fluids; analgesia; antiemetic; IV antibiotics per local guidance; surgical review for laparoscopic appendicectomy
+tell: I think your appendix is inflamed. The usual treatment is keyhole surgery to remove it. We'll give you pain relief, fluids and antibiotics, and the surgeons will see you soon. The football will have to wait a couple of weeks.
+
+=== AA02 | Biliary colic
+who: Nicola Hart, 44, office manager
+act: Well now; describe the pain with a hand under your right ribs.
+open: I've had three attacks of pain under my right ribs after meals.
+story: After a takeaway, I get a bad pain under my right ribs that lasts about an hour, then goes completely. It's happened three times.
+hpc: Pain: Right upper quadrant, after fatty meals
+hpc: Duration: About an hour each time, then resolves completely
+hpc: Episodes: Three in 2 months
+hpc: Now: Pain-free
+yes: Nausea during attacks
+no: Fever; jaundice; dark urine; pale stools; pain lasting over 6 hours; pain to the back
+pmh: Nothing
+dh: Combined pill
+all: None
+fh: Mother had her gallbladder out
+sh: Non-smoker; 6 units a week; BMI 31
+ice: Indigestion | An operation | To stop the attacks
+cue: "I'm scared to eat out now."
+ask: Do I need an operation?
+key: Where, when, how long, and does it go completely? | Biliary colic
+key: Relation to fatty food? | Trigger
+key: Fever, jaundice, dark urine, pale stools? | Complications
+key: Pain to the back or vomiting? | Pancreatitis
+key: Family history and risk factors? | Gallstones
+rf: Pain over 6 hours with fever | Cholecystitis
+rf: Jaundice | CBD stones
+sum: So you've had three hour-long attacks of right upper pain after fatty meals that settle completely, with no fever or yellowing. Is that right?
+pres: Nicola Hart is a 44-year-old woman with three episodes of postprandial RUQ pain lasting around an hour and resolving completely, without fever, jaundice or pancreatitis features. This is biliary colic.
+ddx: Biliary colic from gallstones, because of transient postprandial RUQ pain | Acute cholecystitis, excluded by short duration and no fever | Peptic ulcer or GORD, told apart by pattern and ultrasound
+ix: Abdominal ultrasound; LFTs; lipase if pain to the back
+mx: Low-fat diet; analgesia for attacks; refer for elective laparoscopic cholecystectomy; safety-net
+tell: This sounds like gallstones causing short attacks of pain. An ultrasound will confirm them. The usual treatment is keyhole surgery to remove the gallbladder, which stops the attacks; you can live normally without it. If pain lasts more than a few hours, you get a fever or go yellow, seek help that day.
+
+=== AA03 | Acute calculous cholecystitis
+who: Sheila Burns, 56, care worker
+act: Lying still; catch your breath when the examiner presses under your right ribs.
+open: I've had constant pain under my right ribs since this morning, and a temperature.
+story: It started 8 hours ago and hasn't eased. It's worse when I breathe in. I've had this kind of pain before but it always went away.
+hpc: Pain: RUQ, constant for 8 hours
+hpc: Breathing: Worse on deep inspiration
+hpc: Fever: 38.4
+hpc: Previous: Shorter episodes after meals
+yes: Nausea; vomiting once; fever
+no: Jaundice; dark urine; pale stools; rigors; confusion
+pmh: Obesity; type 2 diabetes
+dh: Metformin
+all: None
+fh: Nothing relevant
+sh: Non-smoker; care worker
+ice: A stomach bug | Surgery | Pain relief
+cue: "I can't afford time off."
+ask: Will I need my gallbladder out?
+key: How long has it been constant? | Over 6 hours suggests cholecystitis
+key: Fever and vomiting? | Inflammation
+key: Jaundice, rigors? | Cholangitis
+key: Previous episodes? | Biliary colic history
+key: Diabetes and other conditions? | Complications risk
+rf: Rigors and jaundice | Cholangitis
+rf: Sepsis | Escalate
+sum: So for eight hours you've had constant right upper pain worse on breathing in, with a fever and vomiting, after shorter episodes before. Is that right?
+pres: Sheila Burns is a 56-year-old woman with diabetes and 8 hours of constant RUQ pain, fever of 38.4 and a positive Murphy's sign, with previous episodes of biliary colic and no jaundice. This is acute calculous cholecystitis.
+ddx: Acute cholecystitis, because of constant RUQ pain over 6 hours with fever and Murphy's sign | Cholangitis, excluded by no jaundice | Pancreatitis or a right lower lobe pneumonia, excluded with lipase and CXR
+ix: FBC, CRP, LFTs, lipase, U&Es, blood cultures; capillary glucose; abdominal ultrasound
+mx: IV fluids, analgesia, IV antibiotics per local guidance; hold metformin while unwell; laparoscopic cholecystectomy within a week per NICE
+tell: Your gallbladder is inflamed, most likely because of a stone. We'll treat it with antibiotics and fluids, and the surgeons will usually remove it with keyhole surgery during this admission or very soon after.
+
+=== AA05 | Acute alcohol-related pancreatitis with organ dysfunction
+who: Gary Wilde, 48, roofer
+act: Bent forward, sweaty, pale; voice weak.
+open: The pain in my stomach goes straight through to my back. It's unbearable.
+story: After a heavy weekend drinking, I got this awful pain at the top of my stomach going through to my back. I've been vomiting. I've barely passed water today.
+hpc: Pain: Epigastric, radiating to the back, severe
+hpc: Onset: After heavy alcohol, 12 hours ago
+hpc: Vomiting: Repeated
+hpc: Urine: Reduced output
+hpc: Results: Lipase 1200; HR 118, BP 104/64
+yes: Vomiting; reduced urine; sweating
+no: Jaundice; gallstones known; blood in vomit; chest pain
+pmh: Previous pancreatitis
+dh: None
+all: None
+fh: Nothing relevant
+sh: Drinks about 80 units a week; smokes 20 a day
+ice: A bad hangover | Dying | Pain relief
+cue: "I promised my wife I'd stop."
+ask: Is it the drink?
+key: Pain site, radiation, onset? | Pancreatitis
+key: Alcohol: how much and when? | Cause and withdrawal
+key: Gallstones, medicines, triglycerides? | Other causes
+key: Urine output, breathlessness, confusion? | Organ failure
+key: Vomiting blood? | Bleeding
+rf: Falling urine output, tachycardia, hypotension | Severe pancreatitis: HDU
+rf: Withdrawal | Chlordiazepoxide and Pabrinex
+sum: So after heavy drinking you developed severe upper stomach pain going through to your back, with vomiting and very little urine. Is that right?
+pres: Gary Wilde is a 48-year-old man with acute epigastric pain radiating to the back after heavy alcohol intake, lipase of 1200, HR 118, BP 104/64 and falling urine output. This is acute pancreatitis with early organ dysfunction, likely moderately severe to severe.
+ddx: Acute alcohol-related pancreatitis with hypovolaemia and early AKI, because of typical pain, lipase over 3 times normal and oliguria | Gallstone pancreatitis, excluded with ultrasound | Perforated ulcer, excluded by erect CXR
+ix: FBC, U&Es, LFTs, calcium, glucose, CRP, ABG with lactate, triglycerides; Glasgow score; abdominal ultrasound; catheter and hourly urine output; CT if not improving after 48 to 72 hours
+mx: IV fluids guided by urine output; analgesia; antiemetic; catheter; HDU review; no prophylactic antibiotics; early enteral nutrition; Pabrinex and alcohol withdrawal management; alcohol team
+tell: Your pancreas is badly inflamed, almost certainly from the alcohol, and it's making you dehydrated and affecting your kidneys. We'll give lots of fluid, strong pain relief and watch you closely, possibly on a higher-dependency ward. When you're better, we'll help you stop drinking.
+
+=== AA08 | Post-operative peritonitis, likely anastomotic leak
+who: Ron Hughes, 65, retired plumber
+act: Rigid, lying very still, grey; breathing fast and shallow.
+open: My tummy's agony. It's got much worse since yesterday.
+story: I had bowel surgery two days ago. Yesterday the pain was getting better, but today it's spread everywhere and I feel terrible.
+hpc: Operation: Anterior resection 2 days ago
+hpc: Pain: Increasingly diffuse
+hpc: Fever: Yes
+hpc: Observations: HR 126, BP 90/56, RR 28
+hpc: Abdomen: Rigid
+yes: Fever; nausea; vomiting
+no: Chest pain; calf pain; urinary symptoms
+pmh: Rectal cancer
+dh: Analgesia; enoxaparin
+all: None
+fh: Nothing relevant
+sh: Ex-smoker; lives with wife
+ice: Normal after surgery | Something's gone wrong | Help
+cue: "Something's not right."
+ask: Is this normal?
+key: How has the pain changed since the operation? | Worsening rather than improving
+key: Fever, vomiting, passing wind? | Peritonitis and ileus
+key: Assess sepsis: HR, BP, RR, lactate, urine output | Septic shock
+key: Examine for rigidity and guarding | Peritonism
+key: Escalate early to the surgical registrar | Return to theatre
+rf: Rigidity with shock | Anastomotic leak: emergency
+sum: So two days after your bowel operation, the pain has spread everywhere and got worse, with fever. Is that right?
+pres: Mr Hughes is a 65-year-old man 2 days after anterior resection with worsening diffuse abdominal pain, fever, rigidity, HR 126, BP 90/56 and RR 28. This is generalised peritonitis with septic shock, most likely from an anastomotic leak.
+ddx: Anastomotic leak with peritonitis, because of worsening diffuse pain, rigidity and septic shock after bowel surgery | Intra-abdominal collection or ischaemic bowel, distinguished on CT | Non-surgical sepsis such as pneumonia or UTI, which would not cause rigidity
+ix: Sepsis Six; FBC, CRP, U&Es, lactate, clotting, group and save; blood cultures; CT abdomen and pelvis with contrast
+mx: Sepsis Six; IV fluids; broad-spectrum IV antibiotics; oxygen; urgent senior surgical review; return to theatre; critical care
+tell: I'm worried there's a leak from the join in your bowel causing infection in your tummy. This is serious, so we're giving fluids and antibiotics now and the surgeons are coming. You'll probably need another operation today.
+
+=== AA10 | Pelvic inflammatory disease
+who: Leah Carter, 25, retail assistant
+act: Glancing at the curtain; lower your voice. Grimace when lower abdomen is touched.
+open: I've got pain low in my tummy on both sides, and a temperature.
+story: For three days I've had pain on both sides low down, and an unusual discharge. I've got a temperature. My partner's in the waiting room.
+hpc: Pain: Bilateral lower abdominal, 3 days
+hpc: Discharge: Yellow, offensive
+hpc: Fever: 38.2
+hpc: Periods: Last period 2 weeks ago; pregnancy test negative
+hpc: Sex: Pain during sex; new partner 2 months ago; no condoms
+yes: Dyspareunia; post-coital bleeding
+no: Vomiting; urinary symptoms; diarrhoea; shoulder tip pain; IUD
+pmh: Nothing
+dh: Combined pill
+all: None
+fh: Nothing relevant
+sh: Non-smoker; retail assistant
+ice: A water infection | Her partner hearing; infertility | Treatment
+cue: Whispering: "Can we keep this between us?"
+ask: Will I be able to have babies?
+key: Offer to talk privately, without the partner | Confidentiality
+key: Pain, discharge, fever? | PID features
+key: Sexual history: partners, condoms, previous STIs | Risk
+key: Periods and pregnancy test | Ectopic
+key: Bowel and urinary symptoms; right-sided pain | Appendicitis and UTI
+rf: Positive pregnancy test with pain | Ectopic: emergency
+rf: Severe illness or tubo-ovarian abscess | Admission
+sum: So for three days you've had pain low on both sides, an offensive discharge, fever and pain during sex, with a new partner and no condoms. Your pregnancy test is negative. Is that right?
+pres: Leah Carter is a 25-year-old woman with 3 days of bilateral lower abdominal pain, offensive vaginal discharge, fever of 38.2 and dyspareunia, after a new partner without barrier contraception. Pregnancy test is negative. This is pelvic inflammatory disease.
+ddx: Pelvic inflammatory disease, because of bilateral lower abdominal pain, discharge, fever and cervical motion tenderness in a sexually active woman | Appendicitis, told apart by migratory right-sided pain | Ectopic pregnancy, excluded by a negative test; ovarian torsion or cyst on ultrasound
+ix: Pregnancy test; NAAT for chlamydia and gonorrhoea; high vaginal swab; FBC, CRP; blood cultures if febrile; HIV and syphilis testing; pelvic ultrasound if abscess suspected
+mx: Per BASHH: ceftriaxone 1 g IM once, plus doxycycline 100 mg twice daily and metronidazole 400 mg twice daily for 14 days; analgesia; admit if severely unwell or tubo-ovarian abscess; partner notification through sexual health; abstain until treatment complete; review at 72 hours
+tell: You have an infection of the womb and tubes, often caught through sex. Antibiotics clear it, and treating it promptly protects your fertility. Your partner needs testing and treatment too; the sexual health clinic can contact partners anonymously. What we discuss stays confidential.
+
+=== AA11 | Adhesional small bowel obstruction
+who: Harold Pearce, 71, retired bank clerk
+act: Distended, uncomfortable, vomiting into a bowl; groan with colicky waves.
+open: My tummy's swollen and I keep being sick. I haven't passed wind for a day.
+story: It started yesterday with cramping pains that come in waves. My tummy's blown up, I'm vomiting green stuff, and I haven't passed any wind for 24 hours.
+hpc: Pain: Colicky, central, in waves
+hpc: Distension: Increasing
+hpc: Vomiting: Bilious
+hpc: Flatus: None for 24 hours
+hpc: Surgery: Previous laparotomy for perforated ulcer
+yes: Bilious vomiting; distension; absolute constipation
+no: Hernias he's noticed; blood in stool; weight loss; fever; constant severe pain
+pmh: Previous laparotomy
+dh: Amlodipine
+all: None
+fh: Nothing relevant
+sh: Ex-smoker; lives with wife
+ice: Constipation | Another operation | Relief
+cue: "I can't keep anything down."
+ask: Will I need an operation?
+key: Pain pattern: colicky or constant? | Constant pain suggests strangulation
+key: Vomiting: when, what colour? | Proximal obstruction
+key: When did you last pass wind or open your bowels? | Absolute constipation
+key: Previous abdominal surgery? | Adhesions
+key: Check hernial orifices | Incarcerated hernia
+rf: Constant pain, fever, tachycardia, peritonism | Strangulation: emergency surgery
+sum: So since yesterday you've had cramping pain in waves, a swollen tummy, green vomiting, and no wind for 24 hours, and you've had tummy surgery before. Is that right?
+pres: Harold Pearce is a 71-year-old man with a previous laparotomy and 24 hours of colicky abdominal pain, distension, bilious vomiting and absolute constipation, with no features of strangulation. This is small bowel obstruction, most likely adhesional.
+ddx: Adhesional small bowel obstruction, because of obstructive symptoms after previous laparotomy | Incarcerated hernia, excluded by examining the hernial orifices | Large bowel obstruction from cancer or volvulus, distinguished on CT
+ix: FBC, U&Es, lactate, CRP, VBG, group and save; AXR; CT abdomen and pelvis with contrast
+mx: Nil by mouth; NG tube on free drainage; IV fluids with electrolyte replacement; catheter and fluid balance; analgesia; water-soluble contrast study; surgery if strangulation is suspected or no resolution within 48 to 72 hours
+tell: Your bowel is blocked, most likely by scar tissue from your old operation. Often it settles if we rest the bowel: a tube through your nose to empty your stomach and fluids through a drip. If it doesn't settle, or there are signs of damage to the bowel, you'd need an operation.
+
+=== PR01 | Suspected colorectal cancer
+who: Alan Fisher, 64, retired taxi driver
+act: Dismissive, blames piles; tired, pale.
+open: It's just my piles playing up. My wife made me come.
+story: For three months my stools have been looser and there's been blood mixed in. I've lost 5 kg and I'm tired.
+hpc: Bowels: Looser for 3 months
+hpc: Blood: Mixed in with stool, dark red
+hpc: Weight: Lost 5 kg
+hpc: Fatigue: Tired, breathless on stairs
+hpc: Bloods: Hb 98, microcytic
+yes: Tenesmus; fatigue
+no: Abdominal pain; vomiting; obstruction symptoms; fever
+pmh: Haemorrhoids years ago
+dh: None
+all: None
+fh: Brother had bowel polyps
+sh: Ex-smoker; 14 units a week
+ice: Piles | Cancer | A cream
+cue: "It's just piles, isn't it?"
+ask: It's just piles?
+key: Change in bowel habit: how long, what change? | Red flag
+key: Blood: mixed in or on the paper, colour? | Mixed blood is more sinister
+key: Weight loss, fatigue, breathlessness? | Anaemia and malignancy
+key: Tenesmus, abdominal pain, obstruction? | Rectal and obstructing tumours
+key: Family history of bowel cancer or polyps? | Risk
+rf: Rectal bleeding with change in bowel habit and weight loss, iron deficiency anaemia over 60 | Suspected cancer pathway
+sum: So for three months your stools have been looser with blood mixed in, you've lost 5 kg and you're tired, and your blood test shows anaemia. Is that right?
+pres: Alan Fisher is a 64-year-old man with 3 months of looser stools with dark blood mixed in, tenesmus, 5 kg weight loss and a microcytic anaemia with Hb 98. Haemorrhoids do not explain these features. This is colorectal cancer until proven otherwise.
+ddx: Colorectal cancer, because of change in bowel habit with mixed blood, weight loss and iron deficiency anaemia over 60 | Inflammatory bowel disease, told apart by colonoscopy and biopsies | Haemorrhoids alone, which do not cause weight loss, mixed blood or anaemia
+ix: DRE; FIT; FBC, ferritin, U&Es, LFTs; CEA; colonoscopy; CT chest, abdomen and pelvis for staging if confirmed
+mx: Suspected cancer pathway referral to colorectal surgery; start iron replacement; colorectal MDT
+tell: I don't think piles explain this. Blood mixed in with your stools, a change in your bowels, weight loss and a low blood count need an urgent camera test to look at the bowel. I'm referring you on the urgent pathway to be seen within two weeks.
+
+=== PR02 | Perianal abscess
+who: Craig Lloyd, 36, delivery driver
+act: Perched on one buttock; can't sit properly; sweaty.
+open: I've got a really painful lump next to my bottom and I can't sit down.
+story: For three days I've had a throbbing constant pain next to my back passage. Now there's a swollen tender lump and I feel feverish.
+hpc: Pain: Constant, throbbing, perianal, 3 days
+hpc: Lump: Tender swelling beside the anus
+hpc: Fever: 38.2
+hpc: Bowels: Painful to open but no blood
+yes: Fever; difficulty sitting
+no: Diarrhoea; weight loss; previous abscesses; diabetes known; discharge
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Smokes 10 a day; delivery driver
+ice: Piles | Surgery | Pain relief and antibiotics
+cue: "I've been sitting in the van all week."
+ask: Can't I just have antibiotics?
+key: Pain: constant or only on opening bowels? | Abscess versus fissure
+key: Swelling, fever, discharge? | Abscess
+key: Diarrhoea, weight loss, mouth ulcers? | Crohn's
+key: Diabetes symptoms? | Risk
+key: Previous episodes? | Recurrence and fistula
+rf: Spreading cellulitis or sepsis, especially with diabetes | Fournier's gangrene
+sum: So for three days you've had constant throbbing pain with a tender lump next to your bottom and a fever. Is that right?
+pres: Craig Lloyd is a 36-year-old man with 3 days of constant throbbing perianal pain, a tender fluctuant perianal swelling and fever of 38.2. This is a perianal abscess.
+ddx: Perianal abscess, because of constant pain with a fluctuant tender swelling and fever | Thrombosed external haemorrhoid, told apart by a bluish tender lump without fever | Crohn's-associated abscess or Fournier's gangrene, assessed by history and examination
+ix: Capillary glucose; FBC, CRP; examination under anaesthesia
+mx: Incision and drainage under general anaesthetic; antibiotics alone are not enough; analgesia; check glucose for diabetes; follow-up for fistula
+tell: This is an abscess, a collection of pus next to the back passage. Antibiotics alone won't fix it; it needs a small operation to drain it, usually today or tomorrow under a general anaesthetic. You'll feel much better quickly afterwards.
+
+=== PR03 | Anal fistula, possibly Crohn's
+who: Simon Hale, 41, plasterer
+act: Embarrassed; mention loose stools only if asked.
+open: I've got a little hole near my bottom that keeps leaking.
+story: After I had an abscess drained last year, a small opening has kept discharging on and off. Lately I've had diarrhoea and lost some weight.
+hpc: Discharge: Recurrent, from an opening near the anus
+hpc: Previous: Perianal abscess drained a year ago
+hpc: Bowels: ONLY IF ASKED: intermittent diarrhoea for months
+hpc: Weight: Lost 5 kg
+yes: Diarrhoea; weight loss; mouth ulcers
+no: Blood in stool; fever now; tenesmus
+pmh: Perianal abscess
+dh: None
+all: None
+fh: Sister has Crohn's
+sh: Smokes 15 a day; plasterer
+ice: A bad wound | Another operation | To stop the leaking
+cue: "It ruins my underwear."
+ask: Will it heal on its own?
+key: Discharge: where, how often, what? | Fistula
+key: Previous abscesses? | Cause
+key: Bowel habit, weight loss, mouth ulcers? | Crohn's
+key: Family history of IBD? | Risk
+key: Continence? | Before surgery
+rf: Systemic features of Crohn's | Colonoscopy
+sum: So since your abscess was drained last year, a small opening keeps leaking, and you've had diarrhoea and lost weight. Your sister has Crohn's. Is that right?
+pres: Simon Hale is a 41-year-old smoker with recurrent discharge from an external perianal opening after a previous abscess, with intermittent diarrhoea, 5 kg weight loss and a sister with Crohn's disease. This is an anal fistula, possibly a manifestation of Crohn's disease.
+ddx: Anal fistula in ano from a previous abscess, because of persistent discharge from an external opening | Crohn's perianal disease, suggested by diarrhoea, weight loss and family history | Pilonidal sinus or hidradenitis, distinguished by location
+ix: MRI pelvis for fistula anatomy; examination under anaesthesia; FBC, CRP, calprotectin; colonoscopy for Crohn's
+mx: Colorectal referral; seton or fistulotomy depending on anatomy and sphincter involvement; gastroenterology if Crohn's; smoking cessation
+tell: The leaking opening is a fistula, a small tunnel left from the old abscess. It rarely heals on its own and usually needs surgery planned with an MRI scan. Because of the diarrhoea and your sister's Crohn's, I also want to check your bowel with a camera test.
+
+=== PR04 | Haemorrhoids
+who: Rob Kennedy, 40, office worker
+act: Embarrassed; speak quietly.
+open: I've seen bright red blood on the toilet paper after I strain.
+story: For a few weeks I've seen bright red blood on the paper after straining. Sometimes something pops out and goes back. It doesn't hurt.
+hpc: Blood: Bright red, on the paper and on the stool surface
+hpc: Prolapse: Lumps that come down and go back on their own
+hpc: Pain: None
+hpc: Bowels: Constipated, strains
+yes: Itch; constipation
+no: Change in bowel habit; weight loss; mixed blood; fatigue; family history of bowel cancer
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Desk job; low fibre diet
+ice: Piles | Cancer | Treatment
+cue: "I googled it and scared myself."
+ask: Is it cancer?
+key: Blood: colour, on paper or mixed? | Outlet bleeding
+key: Prolapse, itch, pain? | Haemorrhoid grade
+key: Bowel habit change, weight loss, fatigue? | Red flags
+key: Diet and straining? | Constipation
+key: Family history of bowel cancer? | Risk
+rf: Change in bowel habit, weight loss, anaemia, mixed blood | Investigate
+sum: So you've seen bright red blood on the paper after straining, with lumps that pop out and go back, no pain, and no bowel changes or weight loss. Is that right?
+pres: Rob Kennedy is a 40-year-old man with painless bright red bleeding on the paper after straining, with spontaneously reducing prolapse and constipation, without alarm features. This is grade 2 haemorrhoids.
+ddx: Grade 2 haemorrhoids, because of painless outlet bleeding with prolapse that reduces spontaneously | Anal fissure, which causes pain on defecation | Colorectal cancer or polyps, unlikely without red flags but considered if they develop
+ix: DRE and proctoscopy; FBC if heavy bleeding
+mx: High-fibre diet, fluids, avoid straining; bulk-forming laxative; topical treatments for symptoms; rubber band ligation if persistent; safety-net
+tell: This sounds like piles, swollen veins at the back passage, made worse by straining. More fibre, more water and not straining usually helps a lot, and if it doesn't, a simple band treatment in clinic works well. If your bowel habit changes, you lose weight or the blood is mixed in, come back.
+
+=== PR05 | Acute anal fissure
+who: Jess Bowen, 29, receptionist
+act: Wince describing passing stool; embarrassed.
+open: It's agony when I open my bowels, and there's a bit of blood.
+story: Since I was constipated a few weeks ago, opening my bowels is like passing glass, and the pain lasts an hour. There's a streak of bright red blood.
+hpc: Pain: Sharp, on defecation, lasting an hour after
+hpc: Blood: Small streak, bright red
+hpc: Trigger: Constipation 3 weeks ago
+hpc: Systemic: None
+yes: Constipation; fear of opening bowels
+no: Swelling; fever; discharge; diarrhoea; weight loss; mouth ulcers
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Non-smoker; low fibre diet
+ice: Piles | It never healing | Pain relief
+cue: "I'm scared to go to the toilet."
+ask: Will it heal?
+key: Pain: when, character, how long after? | Fissure pain
+key: Blood: amount, colour? | Outlet bleeding
+key: Constipation or hard stools? | Cause
+key: Swelling, discharge, fever? | Abscess
+key: Diarrhoea, weight loss, mouth ulcers? | Crohn's: off-midline fissure
+rf: Lateral fissure, multiple fissures, systemic symptoms | Crohn's, HIV, TB, malignancy
+sum: So since constipation three weeks ago, opening your bowels is sharply painful for an hour after, with a streak of bright blood. Is that right?
+pres: Jess Bowen is a 29-year-old woman with 3 weeks of sharp pain on defecation lasting an hour after and a small streak of fresh blood following constipation, without systemic symptoms. This is an acute anal fissure, likely posterior midline.
+ddx: Acute anal fissure, because of sharp defecation pain with a streak of blood after constipation | Thrombosed haemorrhoid or abscess, excluded by the absence of a lump or fever | Crohn's fissure, suggested by an off-midline site or systemic features
+ix: Gentle inspection only; avoid DRE if too painful
+mx: Fibre, fluids, laxatives to keep stools soft; warm baths; topical anaesthetic; topical GTN 0.4% twice daily for 6 to 8 weeks if not healing, warning about headaches, or diltiazem; refer if chronic beyond 8 weeks for botulinum toxin or surgery
+tell: This is a small tear in the lining of the back passage. Keeping your stools soft is the key, with fibre, water and a gentle laxative. Most heal within a few weeks. If it doesn't, an ointment that relaxes the muscle helps it heal.
+
+=== PR08 | Opioid-induced constipation
+who: Edna Morris, 78, retired seamstress
+act: Uncomfortable, shifting; matter-of-fact.
+open: Since starting codeine for my back I've been really bunged up.
+story: I started codeine for my back a month ago. Now I go every four days and strain with hard stools.
+hpc: Bowels: Every 4 days, hard, straining
+hpc: Codeine: 30 mg four times a day for a month
+hpc: Pain: Back pain controlled
+hpc: Flatus: Passing wind
+yes: Straining; bloating
+no: Vomiting; abdominal pain; blood; weight loss; overflow diarrhoea; urinary retention
+pmh: Lumbar spondylosis; osteoporosis
+dh: Codeine 30 mg four times a day; paracetamol; alendronic acid
+all: None
+fh: Nothing relevant
+sh: Lives alone; independent
+ice: The codeine | Not being able to stop it | Relief
+cue: "The codeine's the only thing that helps my back."
+ask: Do I have to stop the codeine?
+key: Bowel frequency, consistency, straining since when? | Onset with codeine
+key: Vomiting, pain, distension, passing wind? | Obstruction
+key: Blood or weight loss? | Red flags
+key: Medicines including codeine and others like iron or calcium? | Causes
+key: Fluid and fibre intake, mobility? | Contributing factors
+rf: Vomiting with absolute constipation | Obstruction
+rf: New change in bowel habit over 60 with weight loss | Cancer
+sum: So since starting codeine a month ago you've been going every four days with hard stools and straining, but you're passing wind and no vomiting or blood. Is that right?
+pres: Edna Morris is a 78-year-old woman with new constipation since starting codeine 30 mg four times daily a month ago, with infrequent hard stools and straining, still passing flatus, without vomiting, bleeding or weight loss. This is opioid-induced constipation.
+ddx: Opioid-induced constipation, because of onset after starting codeine | Faecal impaction with overflow, assessed with DRE | Obstruction or colorectal cancer, excluded by the absence of red flags
+ix: Abdominal examination and DRE; calcium and TFTs if not explained
+mx: Regular laxatives with opioids: an osmotic such as macrogol plus a stimulant such as senna; avoid bulk-forming laxatives with opioids; fluids; review whether codeine is still needed or reduce; safety-net
+tell: Codeine slows the bowel, which is why you're constipated. You don't have to stop it if it's helping your back, but anyone on codeine should take laxatives regularly. I'll give you two: one softens and one gets things moving. If you start vomiting or stop passing wind, come back straight away.
+
+=== PR09 | Positive bowel cancer screening FIT
+door: GP: a 59-year-old man has had a positive NHS bowel screening FIT result. He has no bowel symptoms, is afraid of colonoscopy and asks whether this proves he has cancer.
+who: Peter Wong, 59, bus depot manager
+act: Anxious, frightened of colonoscopy; no symptoms.
+open: My bowel screening kit came back positive. I'm scared of the camera test.
+story: I did the home test and it came back positive. I don't have any symptoms. I've heard colonoscopy is awful.
+hpc: Result: Positive screening FIT
+hpc: Symptoms: None
+hpc: Bowels: Normal
+hpc: Weight: Stable
+hpc: Fear: Colonoscopy
+yes: Anxiety
+no: Blood; bowel change; weight loss; abdominal pain; fatigue
+pmh: High blood pressure
+dh: Amlodipine; aspirin 75 mg
+all: None
+fh: No bowel cancer
+sh: Non-smoker; 6 units a week
+ice: That he has cancer | The colonoscopy itself | To avoid it if possible
+cue: "My friend said it was the worst thing he'd been through."
+ask: Does this mean I have cancer? Do I have to have the colonoscopy?
+key: What do you understand by the result? | Starts where he is
+key: Explain: a positive FIT means blood was found, not that cancer is present; most people with a positive test do not have cancer, around 1 in 10 do, and many have polyps that can be removed | Accurate risk
+key: Explain colonoscopy, bowel preparation, sedation and gas and air | Procedure
+key: Risks: bleeding, perforation around 1 in 1,000, sedation reaction | Material risks
+key: Alternatives: CT colonography, which can't remove polyps | Alternatives
+key: Medicines: aspirin and iron need advice from the screening team | Practicalities
+rf: Any new symptoms | Clinical rather than screening pathway
+sum: So your screening test came back positive, you have no symptoms, and you're frightened of the colonoscopy. Is that right?
+pres: Peter Wong is a 59-year-old man with an asymptomatic positive bowel screening FIT, frightened of colonoscopy. I have explained that a positive test is not a diagnosis of cancer, the procedure, risks and alternatives, and he will see the screening practitioner.
+ddx: Positive screening FIT needing colonoscopy, because blood was detected | Adenomatous polyps, the commonest significant finding | Colorectal cancer, found in a minority, ideally at an early stage
+ix: Screening colonoscopy via the bowel cancer screening programme; CT colonography if unable
+mx: Specialist screening practitioner assessment; colonoscopy with sedation or Entonox; polypectomy as needed; advice about aspirin from the team
+tell: A positive test means some blood was found, not that you have cancer; most people with a positive result don't, and polyps found can be removed during the test, preventing cancer. You can have sedation or gas and air to keep you comfortable. The screening nurse will talk it through and answer your questions.
+
+=== OA01 | Hip osteoarthritis
+who: Jean Hardy, 68, retired dinner lady
+act: Limp slightly; struggle to bend to your feet.
+open: I've got pain in my groin when I walk, and I can't get my socks on.
+story: For about a year I've had pain in the right groin when walking. Putting socks on is hard. I'm stiff for a few minutes after sitting.
+hpc: Pain: Right groin, on walking, a year
+hpc: Stiffness: Brief, after sitting, under 30 minutes
+hpc: Function: Difficulty with socks and shoes, getting out of the car
+hpc: Night: Occasionally aches at night
+yes: Limp
+no: Back pain with leg tingling; fever; weight loss; trauma; other swollen joints
+pmh: Obesity
+dh: Paracetamol
+all: None
+fh: Nothing relevant
+sh: Non-smoker; lives with husband; BMI 32
+ice: Arthritis | A wheelchair | Something for the pain
+cue: "I've had to stop walking the dog."
+ask: Will I need a new hip?
+key: Where is the pain: groin, buttock or thigh? | Groin pain is hip joint
+key: Pain with activity, brief stiffness? | OA pattern
+key: Function: socks, shoes, stairs, car? | Impact and restriction
+key: Back pain, leg tingling? | Referred pain
+key: Night pain, weight loss, fever? | Red flags
+rf: Night pain with weight loss or fever | Malignancy or infection
+sum: So for a year you've had right groin pain on walking, difficulty putting socks on and brief stiffness after sitting. Is that right?
+pres: Jean Hardy is a 68-year-old woman with a year of activity-related right groin pain, difficulty with socks and brief stiffness after rest, with BMI 32. This fits right hip osteoarthritis, which per NICE can be diagnosed clinically.
+ddx: Hip osteoarthritis, because of groin pain with activity and restricted internal rotation over 45 | Lumbar spine referred pain, told apart by back pain and dermatomal symptoms | Trochanteric pain syndrome, which causes lateral hip tenderness
+ix: Clinical diagnosis; X-ray if atypical or considering surgery
+mx: Exercise and strengthening, weight loss, walking aids, physiotherapy; topical or oral NSAID with PPI at lowest dose; referral for joint replacement if symptoms severely limit life despite non-surgical care
+tell: This sounds like osteoarthritis of the hip. Strengthening exercises and losing a little weight make a real difference to pain. Anti-inflammatories can help too. If it still stops you doing what matters despite that, a hip replacement is very effective.
+
+=== OA02 | Knee osteoarthritis
+who: Bill Grant, 72, retired postman
+act: Rub your knees; get up from the chair with effort.
+open: My knees hurt on the stairs, and they're stiff first thing.
+story: For a couple of years my knees ache, especially on stairs. They're stiff for about ten minutes in the morning and they crunch.
+hpc: Pain: Both knees, worse on stairs
+hpc: Stiffness: 10 minutes in the morning
+hpc: Crepitus: Crunching
+hpc: Deformity: Slightly bow-legged
+hpc: Hot swelling: Never
+yes: Crepitus; varus deformity
+no: Hot swollen joint; fever; locking; giving way; other joints
+pmh: High blood pressure
+dh: Amlodipine; paracetamol
+all: None
+fh: Nothing relevant
+sh: Ex-smoker; BMI 30
+ice: Wear and tear | Losing his independence | Something to help
+cue: "I can't do my allotment any more."
+ask: What can I do?
+key: Pain pattern and triggers? | Mechanical
+key: Morning stiffness duration? | Under 30 minutes is OA
+key: Hot, swollen joints, fever? | Inflammation or infection
+key: Locking or giving way? | Mechanical lesions
+key: Function and what matters to you? | Goals
+rf: Hot swollen joint with fever | Septic arthritis
+sum: So for two years your knees ache, worse on stairs, with ten minutes of morning stiffness and crunching, and no hot swollen joints. Is that right?
+pres: Bill Grant is a 72-year-old man with 2 years of bilateral activity-related knee pain, brief morning stiffness, crepitus and mild varus deformity, without signs of inflammation. This is knee osteoarthritis.
+ddx: Knee osteoarthritis, because of activity-related pain, brief stiffness and crepitus over 45 | Inflammatory arthritis, excluded by brief stiffness and no synovitis | Crystal arthritis or meniscal pathology, excluded by history
+ix: Clinical diagnosis per NICE
+mx: Exercise and strengthening, weight loss, physiotherapy; topical NSAID; oral NSAID with PPI if needed with BP monitoring; walking aids; referral for knee replacement if severe
+tell: This is osteoarthritis of the knees. The single best treatment is strengthening the thigh muscles, and a physio can show you how. An anti-inflammatory gel helps the pain. Movement doesn't damage the joint; it helps it.
+
+=== OA04 | Hand osteoarthritis
+who: Sylvia Marsh, 63, retired hairdresser
+act: Show knobbly finger ends; struggle opening a water bottle.
+open: My finger end-joints hurt, and the base of my thumb aches opening jars.
+story: My fingers have become knobbly at the ends, and they ache. Opening jars hurts my thumb. I'm stiff for about fifteen minutes in the morning.
+hpc: Joints: DIPs and thumb bases
+hpc: Swelling: Bony, hard
+hpc: Stiffness: 15 minutes
+hpc: Function: Opening jars, turning keys
+yes: Bony swellings
+no: Soft swelling of knuckles or wrists; prolonged stiffness; psoriasis; nail changes; fatigue
+pmh: Nothing
+dh: Paracetamol
+all: None
+fh: Mother had knobbly hands
+sh: Non-smoker; retired hairdresser
+ice: Arthritis like her mum | Losing her hands | Something to help
+cue: "I can't open a jar of jam."
+ask: Is it rheumatoid?
+key: Which joints, and is the swelling bony or soft? | OA versus inflammatory
+key: Morning stiffness duration? | Brief in OA
+key: Knuckle or wrist swelling? | RA
+key: Psoriasis or nail changes? | Psoriatic arthritis
+key: Function and impact? | Goals
+rf: Soft swelling of MCPs and wrists with long stiffness | Early inflammatory arthritis
+sum: So your finger end-joints are knobbly and achy, your thumb bases hurt opening jars, and you're stiff for 15 minutes in the morning. Is that right?
+pres: Sylvia Marsh is a 63-year-old woman with painful bony enlargement of the DIP joints, thumb base pain with jar opening and 15 minutes of morning stiffness. This is nodal hand osteoarthritis with first CMC involvement.
+ddx: Nodal hand osteoarthritis, because of bony DIP swellings and thumb base pain with brief stiffness | Rheumatoid arthritis, excluded by no MCP or wrist synovitis | Psoriatic arthritis, excluded by no skin or nail changes
+ix: Clinical diagnosis
+mx: Hand exercises, joint protection, assistive devices; topical NSAID; thumb splint; steroid injection to the thumb base if needed; occupational therapy
+tell: This is osteoarthritis of the hands, not rheumatoid; the swellings are bone, not inflammation. Hand exercises, a thumb splint and gadgets for jars make a big difference, and an anti-inflammatory gel helps the ache.
+
+=== OA05 | Early inflammatory arthritis, not osteoarthritis
+who: Rachel Foster, 47, office manager
+act: Stiff hands, slow buttons; tired.
+open: My hands are swollen and stiff. I thought it was the same arthritis as my mum.
+story: For three months my knuckles and wrists have been swollen and painful. I'm stiff for an hour and a half every morning. I'm exhausted.
+hpc: Joints: MCPs and wrists, both hands, swollen
+hpc: Stiffness: 90 minutes every morning
+hpc: Duration: 3 months
+hpc: Fatigue: Marked
+hpc: Mother: Bony DIP changes, osteoarthritis
+yes: Fatigue; feet sore in the mornings
+no: Rash; psoriasis; eye problems; bowel symptoms; back pain
+pmh: Nothing
+dh: Ibuprofen
+all: None
+fh: Mother has hand osteoarthritis
+sh: Smokes 10 a day; office manager
+ice: Mum's arthritis | Deformed hands | Painkillers
+cue: "Mum's hands are knobbly. Is that what will happen?"
+ask: Is it the same as my mum's?
+key: Which joints, symmetrical, swollen? | Inflammatory pattern
+key: Morning stiffness duration? | Over an hour suggests inflammation
+key: Fatigue, weight loss, fevers? | Systemic
+key: Feet, rash, psoriasis, eyes, bowels? | Other inflammatory arthritides
+key: Smoking? | RA risk and severity
+rf: Persistent synovitis | Urgent rheumatology referral within 3 weeks
+sum: So for three months your knuckles and wrists have been swollen and painful, with 90 minutes of stiffness each morning and exhaustion. Is that right?
+pres: Rachel Foster is a 47-year-old smoker with 3 months of symmetrical swelling of the MCP joints and wrists, 90 minutes of morning stiffness and fatigue. This is an inflammatory polyarthritis, most likely early rheumatoid arthritis, not osteoarthritis like her mother's.
+ddx: Early rheumatoid arthritis, because of symmetrical small joint synovitis with prolonged morning stiffness | Psoriatic arthritis or viral arthritis, told apart by skin features and duration | Osteoarthritis, excluded by MCP and wrist synovitis
+ix: FBC, ESR, CRP, rheumatoid factor and anti-CCP; X-rays of hands and feet; U&Es, LFTs, hepatitis serology
+mx: Urgent rheumatology referral per NICE for persistent synovitis, to be seen within 3 weeks; NSAID with PPI meanwhile; smoking cessation; early DMARDs give the best outcomes
+tell: This is different from your mum's arthritis. The long morning stiffness and soft swelling of your knuckles suggest inflammation, possibly rheumatoid arthritis. Treating it early protects your joints, so I'm referring you urgently to a rheumatologist. Stopping smoking will also help.
+
+=== OA06 | Total hip replacement counselling
+who: Margaret Hale, 74, retired librarian
+act: Organised, with a list of questions; walk with a stick.
+open: I've been offered a hip replacement. I'd like to know about recovery and what could go wrong.
+story: My hip arthritis is severe. I've done exercises and taken painkillers but it still stops me walking more than a few minutes.
+hpc: Function: Walks 5 minutes with a stick
+hpc: Pain: Constant, wakes her at night
+hpc: Treatment: Exercise programme, paracetamol, topical NSAID
+hpc: X-ray: Severe OA
+yes: Night pain; limp
+no: Heart or lung problems; previous clots; infections; dental problems
+pmh: High blood pressure
+dh: Amlodipine; paracetamol
+all: None
+fh: Nothing relevant
+sh: Lives with husband in a bungalow; non-smoker
+ice: Surgery is the next step | Complications and a long recovery | Clear information
+cue: "My friend dislocated hers."
+ask: How long is recovery, and what are the risks?
+key: What do you know about the operation? | Starts where she is
+key: Explain: the worn ball and socket replaced with an artificial joint | Procedure
+key: Benefits: most people have much less pain and better mobility | Benefits
+key: Risks: infection about 1 in 100, dislocation, blood clots, leg length difference, nerve injury, fracture, loosening and revision | Material risks
+key: Recovery: walking with help the next day, home in a few days, crutches for weeks, driving at around 6 weeks, most recovery by 3 months | Expectations
+key: Alternatives: continuing non-surgical care | Alternatives
+rf: Dental or skin infection before surgery | Infection risk
+sum: So you've been offered a hip replacement because pain limits you to five minutes of walking despite exercise and painkillers, and you'd like to know about recovery and risks. Is that right?
+pres: Margaret Hale is a 74-year-old woman with severe right hip osteoarthritis and disabling pain despite exercise therapy and analgesia, offered a total hip replacement. I have explained the procedure, benefits, material risks including infection, dislocation, VTE and leg length discrepancy, and the expected recovery.
+ddx: Severe hip OA suitable for arthroplasty, because of disability despite non-surgical care | Continued conservative management, an acceptable alternative | Contraindications such as active infection, assessed pre-operatively
+ix: Pre-operative assessment: FBC, U&Es, group and save, ECG, MRSA screen
+mx: Total hip replacement; VTE prophylaxis; early mobilisation; physiotherapy; hip precautions; occupational therapy; follow-up
+tell: A new hip usually gives excellent pain relief and lets people walk much further. The main risks are infection, about 1 in 100, the hip dislocating, blood clots and a slight difference in leg length. You'd be walking with help the next day, home within a few days, driving at about 6 weeks, and most people feel back to normal by 3 months.
+
+=== OA07 | Osteoarthritis pain beliefs and NSAID harm
+who: Dennis Price, 69, retired lorry driver
+act: Protective of the knee, avoids movement; pops ibuprofen from his pocket.
+open: Exercise makes my knee hurt, so I just rest it and take my anti-inflammatories.
+story: I've got arthritis in my knee. I avoid walking because pain means I'm damaging it. I take ibuprofen most days.
+hpc: Knee: OA, painful with activity
+hpc: Activity: Avoids all exercise
+hpc: NSAIDs: Ibuprofen 400 mg three times a day most days
+hpc: Belief: Pain means damage
+yes: Weight gain; stiffness
+no: Hot swollen joint; locking; indigestion currently; black stools
+pmh: High blood pressure; peptic ulcer 5 years ago
+dh: Amlodipine; ibuprofen
+all: None
+fh: Nothing relevant
+sh: BMI 31; lives with wife
+ice: Rest protects the joint | Ending up in a wheelchair | Stronger painkillers
+cue: "If it hurts, I must be wearing it out."
+ask: Shouldn't I rest it?
+key: What do you think happens in the joint when it hurts? | Pain beliefs
+key: Explain: exercise strengthens muscles that protect the joint; hurt does not equal harm | Reframe
+key: NSAID use and risks: his ulcer history and high blood pressure | Harm
+key: Indigestion, black stools? | Current bleeding
+key: Weight and goals | Plan
+rf: Black stools or indigestion on NSAIDs | GI bleed
+sum: So you avoid exercise because you think pain means damage, and you take ibuprofen most days despite a past ulcer and high blood pressure. Is that right?
+pres: Dennis Price is a 69-year-old man with knee OA who avoids all activity believing pain means damage, taking regular oral ibuprofen despite previous peptic ulcer disease and hypertension. I have addressed his beliefs and the harms of oral NSAIDs.
+ddx: Knee OA with fear-avoidance and deconditioning, because of avoidance driven by pain beliefs | NSAID-related risks: GI bleeding given previous ulcer, raised BP and kidney injury | Other causes of knee pain, excluded by history
+ix: BP; U&Es; FBC
+mx: Stop regular oral ibuprofen; topical NSAID; paracetamol only if helpful; physiotherapy with graded strengthening; weight loss; walking aids; if an oral NSAID is essential, lowest dose with a PPI after discussion; review
+tell: It feels logical to rest a sore joint, but in osteoarthritis the opposite is true: stronger muscles take load off the joint, and some ache with exercise is safe. Ibuprofen tablets are risky for you because of your old ulcer and blood pressure, so let's switch to a gel and get a physio to build you up gradually.

@@ -1,0 +1,1092 @@
+# Station bank: cardiology, respiratory and cardiorespiratory signs. One full case per station.
+
+=== CV01 | Inferior STEMI
+who: Graham Pike, 61, taxi driver
+act: Grey, sweaty, gripping the bed rail; short sentences; rub your left arm. Frightened, keep asking if it's a heart attack.
+open: There's a terrible pressure in my chest. It's going down my left arm.
+story: It started 45 minutes ago while I was sitting in the cab. It's like a heavy weight on my chest, going into my left arm. I feel sick and I'm sweating.
+hpc: Site: Central chest
+hpc: Onset: Sudden, at rest, 45 minutes ago
+hpc: Character: Heavy pressure, crushing
+hpc: Radiation: Left arm and jaw
+hpc: Severity: 9 out of 10, constant
+hpc: Relief: Nothing helps
+yes: Sweating; nausea; light-headed
+no: Tearing pain to the back; pleuritic pain; calf swelling; recent travel; cough; fever; cocaine; previous MI
+pmh: High blood pressure; type 2 diabetes
+dh: Ramipril 5 mg; metformin 1 g twice daily
+all: None
+fh: Brother had an MI at 54
+sh: Smokes 20 a day for 40 years; 14 units a week; taxi driver; lives with partner
+ice: A heart attack | Dying, like his brother nearly did | Something for the pain, now
+cue: Gripping your arm: "Is this a heart attack? Am I going to die?"
+ask: Is this a heart attack?
+key: When did the pain start, what were you doing, and is it constant? | Rest pain over 15 minutes is ACS
+key: Where is the pain, what is it like, and does it spread? | Ischaemic character and radiation
+key: Any sweating, sickness or breathlessness? | Autonomic features
+key: Any tearing pain to the back, pain on breathing in, or leg swelling? | Dissection and PE
+key: Have you had heart problems, and what are your risk factors? | Smoking, diabetes, hypertension, family history
+key: Any cocaine or other drugs? | Coronary spasm
+rf: Pain ongoing with sweating and nausea | ECG within 10 minutes
+rf: Collapse, breathlessness, low blood pressure | Cardiogenic shock or arrhythmia
+sum: So for 45 minutes you've had crushing central chest pain at rest going into your left arm and jaw, with sweating and sickness, and you smoke, have diabetes and high blood pressure. Is that right?
+pres: Mr Pike is a 61-year-old smoker with diabetes and hypertension presenting with 45 minutes of crushing central chest pain at rest radiating to the left arm and jaw, with sweating and nausea. HR 104, BP 146/88, SpO2 96%. His ECG shows ST elevation in II, III and aVF. This is an inferior STEMI.
+ddx: Inferior STEMI, because of ischaemic rest pain with ST elevation in the inferior leads | NSTEMI or unstable angina, told apart by the absence of ST elevation and troponin | Aortic dissection, which can involve the right coronary artery: check both arm BPs and the mediastinum; and pericarditis, with saddle-shaped ST elevation and pleuritic pain
+ix: 12-lead ECG now, with right-sided leads V4R for right ventricular infarction; troponin, FBC, U&Es, glucose, lipids, clotting; CXR without delaying reperfusion
+mx: Aspirin 300 mg; analgesia with IV morphine and an antiemetic; GTN only if not hypotensive and no RV infarct; oxygen only if saturations below 94%; activate the primary PCI pathway, aiming for reperfusion within 120 minutes; second antiplatelet and anticoagulation per the cath lab; then secondary prevention and cardiac rehab
+tell: Your heart tracing shows a heart attack, where a heart artery is blocked. We're giving you aspirin and pain relief, and you're going straight to the heart team to open the artery with a small balloon and stent. The sooner it's opened, the less damage there is.
+
+=== CV02 | Stable angina
+who: Linda Barker, 58, school receptionist
+act: Calm, slightly embarrassed to be making a fuss; press your palm flat to the centre of your chest.
+open: I get a tightness in my chest when I walk uphill. It goes when I stop.
+story: For about two months, when I walk up the hill to work I get a tight band across my chest. If I stop, it goes in two or three minutes. It never comes when I'm resting.
+hpc: Site: Central, band-like
+hpc: Trigger: Walking uphill, carrying shopping; worse in the cold or after meals
+hpc: Relief: Rest, within 3 minutes
+hpc: Pattern: Unchanged for 2 months; never at rest
+hpc: Severity: 5 out of 10
+hpc: Radiation: Occasionally to the left shoulder
+yes: Breathless with the pain
+no: Rest pain; pain lasting over 15 minutes; syncope; palpitations; tearing pain; pleuritic pain; orthopnoea; ankle swelling
+pmh: High cholesterol; high blood pressure
+dh: Amlodipine 5 mg
+all: None
+fh: Father had angina in his 60s
+sh: Ex-smoker, 20 pack-years; 7 units a week; receptionist
+ice: Unfit | A heart attack | To know if it's her heart
+cue: "My dad had angina. He ended up with a bypass."
+ask: Is it my heart?
+key: What brings the pain on, and how quickly does it go when you stop? | Exertional pain relieved by rest within 5 minutes
+key: Has it ever happened at rest or lasted longer than 15 minutes? | Unstable angina
+key: Has the pattern changed recently? | Crescendo symptoms
+key: Any breathlessness, palpitations or fainting? | Valve disease or arrhythmia
+key: Smoking, cholesterol, diabetes, family history? | Cardiovascular risk
+rf: Pain at rest, increasing frequency, or lasting over 15 minutes | Same-day assessment
+rf: Exertional syncope | Aortic stenosis
+sum: So for two months you've had a tight band across your chest when walking uphill, gone within three minutes of stopping, never at rest, and unchanged. Is that right?
+pres: Linda Barker is a 58-year-old woman with 2 months of stable, predictable central chest tightness on exertion relieved by rest within 3 minutes, never at rest. She has hypertension, hypercholesterolaemia and a 20 pack-year ex-smoking history. This meets all three criteria for typical stable angina.
+ddx: Stable angina, because of constricting central pain provoked by exertion and relieved by rest within 5 minutes | GORD or musculoskeletal pain, told apart by relation to meals and reproducibility on palpation | Aortic stenosis or anaemia worsening angina, excluded with an examination for a murmur and an FBC
+ix: ECG; FBC, U&Es, HbA1c, lipids, TFTs; CT coronary angiography as first-line investigation per NICE; echo if a murmur
+mx: GTN spray for symptoms; a beta-blocker or calcium channel blocker for prevention: as she takes amlodipine, add a beta-blocker such as bisoprolol; aspirin 75 mg; atorvastatin 80 mg; lifestyle; rapid access chest pain clinic or cardiology
+tell: This sounds like angina: the heart muscle isn't getting enough blood when it works harder, usually because of narrowed arteries. We'll arrange a heart scan and start a spray to use when the pain comes, plus tablets to protect your heart. If the pain comes at rest or doesn't go 5 minutes after a second spray, call 999.
+
+=== CV03 | Unstable angina or NSTEMI
+who: Peter Gould, 67, retired engineer
+act: Pale, anxious, rubbing your sternum; you minimise it but your hands shake.
+open: My angina's been getting worse this week, and this morning I had pain just sitting down.
+story: I used to get pain only climbing stairs. This week it comes on just getting dressed. Today I had 20 minutes of pain sitting in my chair.
+hpc: Previous pattern: Stairs only, stable for 2 years
+hpc: This week: On minimal exertion, getting dressed
+hpc: Today: 20 minutes of central pain at rest
+hpc: GTN: Took 2 sprays; partial relief
+hpc: Now: Pain-free
+yes: Sweating with today's episode; breathless with it
+no: Tearing pain; pleuritic pain; calf swelling; palpitations; fainting
+pmh: Stable angina; high blood pressure; high cholesterol
+dh: Bisoprolol 5 mg; aspirin 75 mg; atorvastatin 40 mg; GTN spray
+all: None
+fh: Father died of an MI at 70
+sh: Ex-smoker; 10 units a week; lives with wife
+ice: The angina is playing up | A heart attack | To know if it's serious
+cue: "My wife thinks I'm overreacting."
+ask: Am I having a heart attack?
+key: How has the pattern changed this week? | Crescendo angina
+key: Tell me about today: at rest, how long, what helped? | Rest pain over 20 minutes
+key: Any sweating, nausea or breathlessness? | Ischaemia
+key: Is the pain there now? | Ongoing ischaemia
+key: Any tearing pain or pain on breathing? | Alternatives
+rf: Ongoing pain or haemodynamic instability | Urgent angiography
+rf: New arrhythmia or heart failure | High-risk features
+sum: So your angina, which used to come only on stairs, now comes on getting dressed, and today you had 20 minutes of pain sitting in your chair, only partly helped by GTN. Is that right?
+pres: Peter Gould is a 67-year-old man with known stable angina whose symptoms have escalated this week to minimal exertion, with a 20-minute episode of rest pain today partially relieved by GTN. He is now pain-free. This is an acute coronary syndrome, unstable angina or NSTEMI depending on troponin.
+ddx: NSTEMI or unstable angina, because of crescendo and rest angina, classified by troponin | STEMI, excluded by the ECG | Aortic dissection or PE, unlikely from the history but excluded clinically
+ix: ECG and repeat; high-sensitivity troponin at presentation and repeated; FBC, U&Es, glucose, lipids; CXR; GRACE score; echo
+mx: Aspirin 300 mg loading; second antiplatelet per risk; fondaparinux unless angiography is immediate; continue bisoprolol and increase statin to 80 mg; GTN; cardiology referral for coronary angiography within 72 hours if NSTEMI with intermediate or higher risk; cardiac monitoring
+tell: Your angina has changed in a way that means the narrowing in your heart artery has become unstable. We'll keep you in, do blood tests to see if there's been any heart damage, give blood-thinning medicines and arrange a test to look at the heart arteries.
+
+=== CV04 | Type A aortic dissection
+who: Raymond Cole, 64, retired bus mechanic
+act: Restless, pale, grimacing; point between your shoulder blades. Hard to get comfortable.
+open: I've got a terrible tearing pain in my chest going through to my back.
+story: It came on all of a sudden an hour ago, like something ripping. It went straight through between my shoulder blades.
+hpc: Onset: Sudden, maximal at onset, 1 hour ago
+hpc: Character: Tearing, ripping
+hpc: Radiation: Between the shoulder blades
+hpc: Severity: 10 out of 10
+hpc: Associated: Left arm feels a bit weak and cold
+hpc: Observations: Right-arm BP 184/102, left-arm 142/86, weaker left radial pulse
+yes: Sweating; left arm feels weak and cold
+no: Syncope; leg weakness; abdominal pain; vision loss; pleuritic pain; cough
+pmh: High blood pressure, poorly controlled
+dh: Amlodipine 10 mg, sometimes missed
+all: None
+fh: Nothing known
+sh: Smokes 15 a day; 20 units a week; lives with wife
+ice: A heart attack | Dying | Pain relief
+cue: "It feels like I'm being torn in half."
+ask: Is it my heart?
+key: How did it start: suddenly at its worst, or building up? | Abrupt maximal onset
+key: What is the pain like, and where does it go? | Tearing pain to the back
+key: Any weakness, numbness, fainting or vision loss? | Branch vessel involvement
+key: Any tummy pain or leg weakness? | Mesenteric or spinal ischaemia
+key: High blood pressure, connective tissue disease, or recent cardiac procedures? | Risk factors
+rf: Pulse or BP differential over 20 mmHg | Dissection: no antiplatelets or thrombolysis
+rf: Syncope, neurological deficit or shock | Complicated dissection
+sum: So an hour ago you had a sudden tearing pain in your chest going through to your back, and your left arm feels weak. You have high blood pressure. Is that right?
+pres: Mr Cole is a 64-year-old hypertensive smoker with an hour of sudden-onset, maximal tearing chest pain radiating between the shoulder blades, with a 42 mmHg systolic difference between the arms and a weaker left radial pulse. This is an acute aortic dissection, likely type A, until proven otherwise.
+ddx: Acute aortic dissection, because of abrupt tearing back-radiating pain with a pulse and BP differential | STEMI, told apart on ECG, though dissection can cause inferior STEMI | PE or pneumothorax, excluded by history and imaging
+ix: Urgent CT aortic angiography; ECG; FBC, U&Es, clotting, crossmatch; CXR may show a widened mediastinum; bedside echo
+mx: Senior and cardiothoracic surgical help immediately; IV opioid analgesia; IV labetalol to target systolic 100 to 120 and heart rate below 60; no antiplatelets or anticoagulants; type A: emergency surgery; type B: medical management or endovascular repair
+tell: I'm worried there's a tear in the wall of the main artery from your heart. It's serious, so we're doing an urgent scan, giving you strong pain relief and medicine to lower your blood pressure, and the heart surgeons are coming now.
+
+=== CV06 | Supraventricular tachycardia
+who: Ellie Morgan, 23, PhD student
+act: Pale, hand on chest, breathing quickly; you can feel your neck pulsing. Anxious but alert.
+open: My heart suddenly started racing after my coffee and it won't stop.
+story: About 40 minutes ago, just after my second coffee, it suddenly went really fast, like flicking a switch. I feel a bit light-headed.
+hpc: Onset: Abrupt, 40 minutes ago, at rest after coffee
+hpc: Rate: Very fast, regular
+hpc: Previous: Two short episodes last year that stopped by themselves
+hpc: Neck: Feels a pounding in the neck
+hpc: Observations: HR 184 regular, BP 122/74, SpO2 99%
+yes: Light-headed; neck pounding; previous self-terminating episodes
+no: Chest pain; syncope; breathlessness; drugs; thyroid symptoms; family sudden death
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Non-smoker; 4 coffees a day; 6 units a week; PhD student
+ice: Too much coffee | Something wrong with her heart | To stop it
+cue: "Please make it stop, I can feel it in my throat."
+ask: Is my heart damaged?
+key: Did it start suddenly like a switch, and is it regular? | Re-entry tachycardia
+key: Any chest pain, breathlessness, fainting? | Adverse features
+key: Previous episodes and how they stopped? | Pattern
+key: Caffeine, alcohol, energy drinks, drugs? | Triggers
+key: Any family history of sudden death or heart conditions? | WPW and channelopathies
+rf: Shock, syncope, ischaemia or heart failure | Synchronised DC cardioversion
+rf: Irregular or broad-complex tachycardia | Different management
+sum: So 40 minutes ago, after coffee, your heart suddenly started racing regularly, you feel it in your neck and you're light-headed, and you've had two short episodes before. No chest pain or fainting. Is that right?
+pres: Ellie Morgan is a 23-year-old woman with 40 minutes of abrupt-onset regular palpitations after caffeine, with neck pounding and light-headedness, HR 184 regular, BP 122/74, and no adverse features. Her ECG shows a regular narrow-complex tachycardia. This is a stable supraventricular tachycardia, likely AVNRT.
+ddx: AVNRT, because of an abrupt-onset regular narrow-complex tachycardia in a young woman with neck pounding | AVRT from an accessory pathway, told apart by a delta wave on the sinus rhythm ECG | Atrial flutter with 2:1 block or sinus tachycardia, distinguished on the ECG and response to adenosine
+ix: 12-lead ECG during tachycardia and in sinus rhythm; U&Es, magnesium, TFTs
+mx: Vagal manoeuvres: modified Valsalva; if unsuccessful, IV adenosine 6 mg rapid bolus, then 12 mg, then 18 mg per Resuscitation Council UK, with ECG recording and warning of transient discomfort; if adverse features, synchronised DC cardioversion; cardiology referral for ablation if recurrent; reduce caffeine
+tell: Your heart has an extra electrical loop that can make it race. First I'll ask you to blow hard into a syringe while lying back with your legs raised. If that doesn't work, a medicine called adenosine resets the rhythm in seconds, though it feels horrible for a moment. A heart specialist can discuss a procedure to fix the loop permanently.
+
+=== CV08 | Paroxysmal palpitations needing ambulatory ECG
+who: Rachel Grant, 36, secondary school teacher
+act: Organised, tired; tap out a fast regular rhythm when asked.
+open: My heart keeps racing in the evenings. It's happened three times this week.
+story: It comes on in the evenings, racing for about ten minutes, then stops. I feel a bit light-headed but I've never fainted. My ECG at the walk-in centre was normal.
+hpc: Episodes: Three this week, each about 10 minutes, evenings
+hpc: Rhythm: Fast and regular when tapped
+hpc: Onset and offset: Sudden start and sudden stop
+hpc: Associated: Light-headed
+hpc: Resting ECG: Normal
+yes: Light-headedness
+no: Syncope; chest pain; breathlessness at rest; weight loss; heat intolerance; family sudden death
+pmh: Nothing
+dh: Combined pill
+all: None
+fh: Nothing relevant
+sh: Non-smoker; 2 coffees a day; 10 units a week; teacher
+ice: Stress | Collapsing in front of her class | To find out what it is
+cue: "What if it happens in a lesson?"
+ask: How will you catch it if my ECG is normal?
+key: How often, how long, and how does it start and stop? | Frequency decides the monitor
+key: Can you tap out the rhythm? | Regular or irregular
+key: Any fainting, chest pain or breathlessness? | Red flags
+key: Caffeine, alcohol, stress, thyroid symptoms? | Triggers
+key: Family history of sudden death? | Inherited conditions
+rf: Syncope or exertional symptoms | Urgent cardiology
+rf: Family sudden death under 40 | Inherited arrhythmia
+sum: So you've had three ten-minute episodes of a fast regular heartbeat this week in the evenings, starting and stopping suddenly, with light-headedness but no fainting, and your resting ECG was normal. Is that right?
+pres: Rachel Grant is a 36-year-old teacher with three 10-minute episodes of regular palpitations this week with abrupt onset and offset and light-headedness, without syncope or chest pain, and a normal resting ECG. Given daily-to-weekly frequency, a 24 to 72-hour ambulatory ECG is the right test.
+ddx: Paroxysmal SVT, because of abrupt-onset regular palpitations with a normal resting ECG | Sinus tachycardia from anxiety, told apart by gradual onset and a normal ambulatory recording | Paroxysmal AF or thyrotoxicosis, assessed by the recording and TFTs
+ix: 24 to 72-hour Holter monitor as symptoms occur most days; event recorder or patch if less frequent; TFTs, FBC, U&Es; echo if structural concern
+mx: Teach vagal manoeuvres; reduce caffeine and alcohol; cardiology referral if SVT is confirmed; safety-net for red flags
+tell: Your ECG looked normal because the rhythm wasn't happening at the time. We'll give you a small monitor to wear for a day or two to catch an episode. If it's what I suspect, a simple trick like blowing hard can stop it, and there are treatments to prevent it. If you faint or get chest pain with it, call 999.
+
+=== CV11 | Calcium channel blocker ankle oedema
+who: Patricia Moore, 66, retired librarian
+act: Pull up your trousers to show puffy ankles; firm that you want to stop the tablet.
+open: My ankles have swollen since starting the blood pressure tablet. I want to stop it.
+story: Six weeks ago I started amlodipine. My blood pressure's better, but by the evening both ankles are puffy. I don't like it.
+hpc: Swelling: Both ankles, by evening, better in the morning
+hpc: Onset: Since starting amlodipine 5 mg six weeks ago
+hpc: Pain: None
+hpc: BP: Now 132/80
+yes: Bilateral evening ankle swelling
+no: Breathlessness; orthopnoea; chest pain; one-sided calf pain or swelling; facial swelling; frothy urine; liver disease
+pmh: Hypertension
+dh: Amlodipine 5 mg
+all: None
+fh: Nothing relevant
+sh: Non-smoker; 6 units a week; walks daily
+ice: The tablet | Heart failure | To stop the tablet
+cue: "I can't get my shoes on by the evening."
+ask: Can I just stop it?
+key: When did the swelling start relative to the new tablet? | Temporal relationship
+key: Both ankles, worse by evening? | Dependent CCB oedema
+key: Any breathlessness, needing more pillows, or waking breathless? | Heart failure
+key: Is one calf painful, red or swollen? | DVT
+key: Any frothy urine or facial puffiness? | Nephrotic syndrome
+rf: Unilateral calf swelling and pain | DVT
+rf: Orthopnoea or PND | Heart failure
+sum: So since starting amlodipine six weeks ago, both your ankles swell by evening, with no breathlessness or one-sided pain, and your blood pressure is now good. Is that right?
+pres: Mrs Moore is a 66-year-old woman with hypertension, now controlled at 132/80 on amlodipine 5 mg started 6 weeks ago, with bilateral dependent ankle oedema worse by evening. There are no features of heart failure, DVT or nephrotic syndrome. This is calcium channel blocker-associated ankle oedema.
+ddx: CCB-related peripheral oedema, because of bilateral dependent swelling after starting amlodipine | Heart failure, told apart by orthopnoea, raised JVP and NT-proBNP | DVT or nephrotic syndrome, excluded by bilateral painless swelling and a urine dip for protein
+ix: Examination for JVP and crackles; urine dip for protein; U&Es, albumin if concerned
+mx: Do not stop antihypertensives without a plan; per NICE for 55 or over, if a CCB is not tolerated, switch to a thiazide-like diuretic such as indapamide; recheck BP and U&Es; home BP monitoring
+tell: The swelling is a common side effect of amlodipine, not a sign of heart failure. Rather than stopping treatment, which would let your blood pressure rise again, we can switch you to a different tablet called indapamide. We'll check your blood pressure and kidney tests in a few weeks.
+
+=== CV13 | Post-MI secondary prevention and DVLA
+who: Mick Saunders, 60, bus driver
+act: Upbeat, keen to get back to normal; dismissive of tablets. Grows serious when driving comes up.
+open: I feel completely normal now. I don't see why I need all these tablets.
+story: I had a heart attack, they put a stent in, and I feel fine. I'd rather not take six tablets for the rest of my life.
+hpc: Event: MI treated with PCI 2 weeks ago
+hpc: Symptoms: None now
+hpc: Medicines: Aspirin, ticagrelor, atorvastatin 80 mg, bisoprolol, ramipril, GTN
+hpc: Side effects: Slight breathlessness on ticagrelor
+hpc: Work: Bus driver, wants to return to driving
+yes: Mild breathlessness
+no: Chest pain; palpitations; bleeding; muscle pain; dizziness
+pmh: MI treated with PCI; high blood pressure
+dh: Aspirin 75 mg; ticagrelor 90 mg twice daily; atorvastatin 80 mg; bisoprolol 2.5 mg; ramipril 2.5 mg; GTN spray
+all: None
+fh: Father had an MI
+sh: Ex-smoker since MI; 12 units a week; bus driver; married
+ice: He's fixed | Being on tablets forever and losing his job | To stop the tablets and drive
+cue: "If I can't drive the bus, I can't pay the mortgage."
+ask: Can I stop them? When can I drive the bus again?
+key: What do you understand each tablet is for? | Starts where he is
+key: Any side effects: bleeding, breathlessness, aching muscles, dizziness? | Adherence barriers
+key: Explain each: two blood thinners keep the stent open, the statin stabilises plaques, bisoprolol and ramipril protect the heart muscle | Plain explanations
+key: Stopping ticagrelor early risks stent thrombosis, a second heart attack | Key risk
+key: Driving: as a bus driver, a Group 2 licence: he must tell the DVLA and not drive the bus for at least 6 weeks, then needs assessment | DVLA
+key: Cardiac rehabilitation, smoking abstinence, diet | Secondary prevention
+rf: Chest pain on stopping medicines | Stent thrombosis
+sum: So you feel well after your heart attack and stent, you'd like to stop your tablets, and you want to get back to driving the bus. Is that right?
+pres: Mr Saunders is a 60-year-old bus driver 2 weeks after PCI for an MI, now asymptomatic and wishing to stop his secondary prevention: aspirin, ticagrelor, atorvastatin 80 mg, bisoprolol and ramipril. He has mild breathlessness on ticagrelor. I have explained each medicine, the risk of stent thrombosis if dual antiplatelet therapy stops early, and that as a Group 2 driver he must inform the DVLA and not drive a bus for at least 6 weeks.
+ddx: Non-adherence risk after MI driven by feeling well, because he feels recovered | Ticagrelor-related dyspnoea, usually mild and self-limiting, reviewed by cardiology | Ongoing ischaemia or heart failure, excluded by symptoms and echo review
+ix: Lipids, U&Es on ramipril, HbA1c; echo result; cardiac rehab assessment
+mx: Continue all secondary prevention: dual antiplatelets usually for 12 months, then aspirin long-term; statin, beta-blocker and ACE inhibitor long-term; cardiac rehab; Group 2: must inform the DVLA, no bus driving for at least 6 weeks and until licensing requirements are met; car driving after 1 week if successful PCI and LVEF over 40%
+tell: Feeling well is great news, and it means the tablets are working. The two blood thinners keep the stent from clotting; stopping them early could cause another heart attack. The others protect your heart long-term. For the bus, you must tell the DVLA and stop bus driving for at least 6 weeks; they'll tell you what tests you need. Let's keep you on the tablets and get you to cardiac rehab.
+
+=== CV14 | QRISK3 risk communication and statin offer
+who: Helen Barlow, 52, office manager
+act: Confused and alarmed by the number; you think 12% means your arteries are 12% blocked.
+open: The nurse said my risk is 12%. Does that mean I have a 12% blockage?
+story: I had a health check and they said my 10-year risk is 12%. My dad had a heart attack at 55. I'm worried I'm a ticking time bomb.
+hpc: Health check: QRISK3 12%
+hpc: BP: 138/86
+hpc: Cholesterol: Total 6.4, HDL 1.2
+hpc: Symptoms: None; no chest pain
+hpc: Weight: BMI 29
+yes: Family history of early MI
+no: Chest pain; breathlessness; diabetes; kidney disease; muscle problems
+pmh: Nothing
+dh: None
+all: None
+fh: Father had an MI at 55
+sh: Smokes 5 a day; 14 units a week; little exercise; office manager
+ice: A blockage | A heart attack like her dad | To understand the number and what to do
+cue: "Dad was 55. I'm 52."
+ask: Does that mean I have a 12% blockage?
+key: What do you understand by the 12% figure? | Starts where she is
+key: Explain with natural frequencies: of 100 people like you, 12 will have a heart attack or stroke in the next 10 years, and 88 won't | Risk communication
+key: Explore modifiable factors: smoking, weight, activity, alcohol, BP, cholesterol | Shared decision-making
+key: Offer atorvastatin 20 mg, explaining benefits and side effects | NICE NG238: QRISK3 of 10% or more
+key: Explain how stopping smoking and lifestyle change lower the number | Behaviour change
+rf: Any chest pain or exertional breathlessness | Symptomatic disease needs assessment
+sum: So the health check said your 10-year risk is 12%, and you were worried that meant a 12% blockage, especially with your dad's heart attack at 55. Is that right?
+pres: Helen Barlow is a 52-year-old woman with a QRISK3 of 12%, borderline hypertension, raised cholesterol, a BMI of 29, light smoking and a father with an MI at 55. She misunderstood the score as a percentage blockage. I have explained it using natural frequencies, discussed lifestyle changes and offered atorvastatin 20 mg per NICE.
+ddx: Moderate 10-year cardiovascular risk suitable for a statin offer, because QRISK3 is over 10% | Familial hypercholesterolaemia, considered if total cholesterol is above 7.5 or a strong family history, assessed with Simon Broome criteria | Established symptomatic coronary disease, excluded by the absence of symptoms
+ix: Fasting lipid profile, HbA1c, U&Es, LFTs, TFTs before statin; ambulatory or home BP
+mx: Shared decision on atorvastatin 20 mg; stop smoking with support; diet, activity and weight loss; alcohol within 14 units; recheck lipids at 3 months aiming for a 40% fall in non-HDL; BP monitoring
+tell: The 12% isn't a blockage. It means that out of 100 people with the same risk as you, about 12 will have a heart attack or stroke in the next 10 years, and 88 won't. We can lower your number: stopping smoking makes a big difference, and a cholesterol tablet called a statin lowers it further. It's your choice; let's talk it through.
+
+=== RE01 | Suspected asthma: needs objective testing
+who: Josh Ellery, 20, sports science student
+act: Relaxed, sporty, slightly sheepish about using his brother's inhaler.
+open: I get wheezy after running, and a cough wakes me up a couple of times a week.
+story: When I run I get wheezy and tight. I cough at night about twice a week. My brother's blue inhaler helps.
+hpc: Wheeze: After running, especially in cold air
+hpc: Cough: Wakes him twice a week
+hpc: Variation: Comes and goes; worse in spring
+hpc: Treatment: Borrowed brother's salbutamol, which helps
+hpc: Examination today: Normal
+yes: Hay fever; worse in cold air and spring
+no: Admissions; steroids; weight loss; sputum; haemoptysis; smoking; vaping; pets
+pmh: Hay fever
+dh: Cetirizine in spring; brother's salbutamol
+all: None
+fh: Brother has asthma; mum has eczema
+sh: Non-smoker, no vaping; sports science student; plays football
+ice: Asthma like his brother | Not being able to play football | His own inhaler
+cue: "I don't want to stop playing football."
+ask: Can I just have my own inhaler?
+key: What symptoms do you get, and when? | Variable wheeze, cough, tightness
+key: Does it vary through the day or with seasons and triggers? | Variability
+key: Do you wake at night with cough or wheeze? | Control
+key: Any eczema, hay fever or family asthma? | Atopy
+key: Do you smoke or vape, and any exposures? | Triggers
+rf: Breathless at rest or unable to complete sentences | Acute asthma
+rf: Weight loss, haemoptysis or chronic sputum | Alternative diagnosis
+sum: So you get wheezy after running, especially in the cold, and a cough wakes you twice a week, symptoms vary, and your brother's blue inhaler helps. You have hay fever. Is that right?
+pres: Josh Ellery is a 20-year-old student with variable exertional wheeze and nocturnal cough twice weekly, triggered by cold air, improving with salbutamol, with atopy and a family history of asthma. Examination is normal today. Asthma is likely, but per NICE it should be confirmed with objective tests.
+ddx: Asthma, because of variable wheeze and nocturnal cough with atopy and a family history | Exercise-induced bronchoconstriction alone, told apart by symptoms only with exercise | Vocal cord dysfunction or poor fitness, considered if objective tests are normal
+ix: Blood eosinophil count and FeNO, then bronchodilator reversibility on spirometry, then peak flow variability or bronchial challenge if needed, per NICE NG245
+mx: Do not use someone else's inhaler; once confirmed, start as-needed low-dose ICS with formoterol, AIR therapy; inhaler technique; personalised action plan; review in 4 to 8 weeks
+tell: It sounds like asthma, but we need to confirm it with a couple of simple breath and blood tests, because treatment is long-term. Please don't use your brother's inhaler. Once confirmed, I'll give you your own inhaler that both relieves and prevents symptoms. You should be able to keep playing football.
+
+=== RE02 | Acute asthma with life-threatening features
+who: Megan Price, 26, nursery nurse
+act: Sitting upright, hands on knees, speaking in 2 or 3-word phrases; frightened.
+open: Can't... catch... breath.
+story: (Short phrases) Asthma... bad all day... blue inhaler... not working.
+hpc: Duration: Worse all day
+hpc: Reliever: Used it repeatedly today, over 10 times
+hpc: Trigger: A cold for 3 days
+hpc: Observations: RR 30, HR 124, SpO2 91% on air, PEF 180 against best 480
+hpc: Previous: One admission 2 years ago, no ICU
+yes: Cold symptoms; repeated reliever use
+no: Chest pain; previous intubation; anaphylaxis signs
+pmh: Asthma since childhood; one previous admission
+dh: Clenil inhaler, often forgotten; salbutamol
+all: None
+fh: Nothing relevant
+sh: Non-smoker; nursery nurse
+ice: Asthma attack | Not being able to breathe | Help now
+cue: Grabbing your arm, wide-eyed.
+ask: Am I... going to... be okay?
+key: Assess severity quickly: speech, RR, HR, SpO2, PEF as percentage of best | PEF 37% of best; SpO2 below 92% is a life-threatening feature
+key: Oxygen to 94 to 98% | Hypoxia
+key: Back-to-back nebulised salbutamol 5 mg with ipratropium 500 micrograms, oxygen-driven | Bronchodilation
+key: Prednisolone 40 to 50 mg orally or hydrocortisone 100 mg IV | Steroids
+key: ABG because SpO2 is below 92% | Normal or rising CO2 is life-threatening
+key: Call for senior help; consider IV magnesium | Escalation
+rf: SpO2 below 92%, silent chest, exhaustion, normal or high CO2 | Life-threatening: senior and ICU
+rf: No improvement after initial treatment | Escalate
+sum: Megan, your asthma is very bad right now. We're giving oxygen and nebulisers, and the senior doctor is coming.
+pres: Megan Price is a 26-year-old woman with an acute asthma attack after a viral illness, speaking in short phrases, RR 30, HR 124 and PEF 180, which is 37% of her best of 480, meeting criteria for acute severe asthma. Her SpO2 of 91% on air is a life-threatening feature, so this is life-threatening asthma needing an ABG and senior and ICU involvement.
+ddx: Life-threatening acute asthma, because SpO2 is below 92% on air with severe features | Pneumothorax, excluded by examination and CXR | Anaphylaxis or pneumonia, excluded by history, examination and CXR
+ix: ABG; PEF before and after treatment; CXR if pneumothorax or infection suspected or not improving; U&Es and potassium
+mx: Oxygen 94 to 98%; back-to-back oxygen-driven salbutamol and ipratropium; prednisolone 40 to 50 mg or IV hydrocortisone 100 mg; IV magnesium sulfate 2 g over 20 minutes; senior and ICU review; continue prednisolone for at least 5 days; follow-up within 2 working days after discharge
+tell: Your asthma attack is serious, but we're giving you strong treatment. The mask gives oxygen and medicine to open your airways, and the steroid tablet calms the swelling. A senior doctor is coming to see you now.
+
+=== RE03 | COPD
+who: Stan Collins, 69, retired miner
+act: Pursed-lip breathing; pause mid-sentence; cough into a handkerchief.
+open: I can't walk to the shops without stopping any more.
+story: My breathing has got worse and worse over a couple of years. I cough up phlegm every morning. I used to walk to the shops easily.
+hpc: Breathlessness: Progressive over 2 years; stops after 100 metres on the flat
+hpc: Cough: Every morning, white sputum
+hpc: Exacerbations: Two chest infections last winter needing antibiotics
+hpc: Spirometry: Post-bronchodilator FEV1/FVC 0.58, FEV1 56% predicted
+hpc: Night: Not woken by symptoms
+yes: Morning sputum; exertional breathlessness
+no: Haemoptysis; weight loss; chest pain; ankle swelling; orthopnoea; diurnal variation; childhood asthma
+pmh: High blood pressure
+dh: Salbutamol when needed; amlodipine
+all: None
+fh: Nothing relevant
+sh: 45 pack-years, still smokes 10 a day; retired miner; lives with wife
+ice: Old age and smoking | Ending up on oxygen | To breathe better
+cue: "My dad ended up on oxygen at home."
+ask: Will I end up on oxygen?
+key: How far can you walk before stopping, and how has that changed? | MRC dyspnoea grade
+key: Cough and sputum: how long, what colour, any blood? | Chronic bronchitis and red flags
+key: How many flare-ups in the last year, any admissions? | Exacerbation risk
+key: How much do you smoke now and in the past? | Pack-years
+key: Any occupational dust exposure? | Mining
+key: Any weight loss, haemoptysis, ankle swelling? | Cancer and cor pulmonale
+rf: Haemoptysis or weight loss | Lung cancer
+rf: Ankle swelling or cyanosis | Cor pulmonale or respiratory failure
+sum: So over two years you've become breathless after 100 metres, you cough up phlegm every morning, had two chest infections last winter, and you still smoke after 45 pack-years. Is that right?
+pres: Stan Collins is a 69-year-old retired miner with 45 pack-years who still smokes, presenting with progressive exertional breathlessness, MRC grade 3, chronic morning sputum and two exacerbations last year. Post-bronchodilator spirometry shows FEV1/FVC 0.58 and FEV1 56% predicted, confirming moderate COPD. There are no red flags.
+ddx: COPD, because of persistent post-bronchodilator obstruction with a smoking history | Asthma or asthma-COPD overlap, told apart by variability and eosinophils | Lung cancer, occupational lung disease or heart failure, assessed with CXR and NT-proBNP
+ix: CXR; FBC for polycythaemia and anaemia, eosinophils; BMI; pulse oximetry; ECG; alpha-1 antitrypsin if young or minimal smoking
+mx: Smoking cessation with pharmacotherapy and support; flu, COVID and pneumococcal vaccines; pulmonary rehabilitation; inhaler technique; LABA plus LAMA as he remains symptomatic on SABA; self-management plan with rescue pack if appropriate; review
+tell: Your breathing tests show COPD, long-term damage to the airways from smoking and possibly the mines. It can't be reversed, but we can slow it down and help you breathe better. Stopping smoking is the most important step. We'll give you a stronger daily inhaler and refer you to an exercise programme that really helps.
+
+=== RE04 | Asthma-COPD overlap
+who: Joyce Hammond, 61, retired cleaner
+act: Breathless, wheezy; mention night-time wheeze clearly.
+open: I'm breathless every day now, but some days are much better than others.
+story: I had asthma as a child. I smoked for 30 years, stopped 5 years ago. Now I'm breathless daily, wheezy at night, and it really varies.
+hpc: Breathlessness: Daily, variable
+hpc: Night: Wakes wheezy twice a week
+hpc: History: Childhood asthma; ex-smoker, 30 pack-years
+hpc: Spirometry: Post-bronchodilator FEV1/FVC 0.62
+hpc: Bloods: Raised eosinophils
+yes: Nocturnal wheeze; variability; hay fever
+no: Weight loss; haemoptysis; ankle swelling; chest pain
+pmh: Childhood asthma
+dh: Tiotropium; salbutamol
+all: None
+fh: Mum had asthma
+sh: Ex-smoker for 5 years; retired cleaner
+ice: COPD | Getting worse | Better control
+cue: "The tiotropium isn't doing much."
+ask: Is it asthma or COPD?
+key: Childhood asthma and atopy? | Asthma features
+key: Does it vary day to day and wake you at night? | Variability
+key: Smoking history | COPD risk
+key: Previous response to steroids? | Steroid responsiveness
+key: Exacerbations in the last year? | Risk
+rf: Weight loss or haemoptysis | Malignancy
+sum: So you had childhood asthma, smoked for 30 years, and now you're breathless daily with variable symptoms and night-time wheeze, and your blood eosinophils are raised. Is that right?
+pres: Joyce Hammond is a 61-year-old ex-smoker with childhood asthma, daily variable breathlessness, nocturnal wheeze, raised eosinophils and persistent obstruction with FEV1/FVC 0.62 after bronchodilator. She has features of both asthma and COPD.
+ddx: Asthma-COPD overlap, because of persistent obstruction with asthmatic features of variability, nocturnal symptoms and eosinophilia | COPD alone, which lacks these features | Heart failure or bronchiectasis, assessed with NT-proBNP and imaging
+ix: CXR; FBC with eosinophils; FeNO; spirometry with reversibility; NT-proBNP if indicated
+mx: Inhaled corticosteroid is needed given asthmatic features: LABA plus ICS, escalating to LAMA plus LABA plus ICS triple therapy if needed; avoid LAMA or LABA without ICS; inhaler technique; pulmonary rehab; vaccines
+tell: You have features of both asthma and COPD. The key thing is you need a steroid preventer inhaler, which treats the asthma part, alongside an airway opener. That should reduce the night-time wheeze. We'll review you in a few weeks.
+
+=== RE05 | Bronchiectasis
+who: Sue Kimber, 54, care home manager
+act: Productive cough throughout; hand a tissue to the bin. Practical.
+open: I cough up loads of green phlegm every morning, and I keep getting chest infections.
+story: Every morning I bring up a few tablespoons of green phlegm. I've had three chest infections this year. Once there was blood in it.
+hpc: Sputum: Several tablespoons of green sputum daily, worse in the morning
+hpc: Infections: Three courses of antibiotics this year
+hpc: Haemoptysis: Once, blood streaking
+hpc: Duration: Years, worse recently
+hpc: Childhood: Severe pneumonia at 8
+yes: Fatigue; occasional wheeze
+no: Weight loss; night sweats; fever now; sinus disease; infertility; reflux; IBD
+pmh: Pneumonia aged 8
+dh: None
+all: None
+fh: Nothing relevant
+sh: Never smoked; care home manager
+ice: Weak lungs | Something serious | To stop the infections
+cue: "I'm worried about bringing infections into the care home."
+ask: Is it serious?
+key: How much sputum daily and what colour? | Volume and purulence
+key: How many chest infections in the last year? | Exacerbation frequency
+key: Any blood in the sputum? | Haemoptysis
+key: Childhood infections, TB, whooping cough? | Post-infective causes
+key: Any sinus disease, infertility, reflux or bowel disease? | Ciliary dyskinesia, CF, aspiration, IBD
+rf: Large-volume haemoptysis | Emergency
+rf: Weight loss and night sweats | TB or malignancy
+sum: So you bring up several tablespoons of green phlegm every morning, you've had three chest infections this year and some blood once, and you had a bad pneumonia as a child. Is that right?
+pres: Sue Kimber is a 54-year-old never-smoker with chronic daily production of several tablespoons of purulent sputum, three infective exacerbations this year and one episode of blood-streaked sputum, with childhood pneumonia. Examination shows coarse basal crackles. This is bronchiectasis until proven otherwise.
+ddx: Post-infective bronchiectasis, because of chronic purulent sputum with recurrent infections and crackles | Recurrent pneumonia or chronic bronchitis, told apart by HRCT | TB or malignancy, excluded with sputum AFB and imaging
+ix: Sputum culture including Pseudomonas and AFB; HRCT chest; FBC, immunoglobulins, Aspergillus serology; spirometry; CF testing if indicated
+mx: Respiratory referral; daily airway clearance with physiotherapy; vaccines; antibiotics for exacerbations for 14 days guided by sputum culture; long-term macrolide if 3 or more exacerbations a year per specialist
+tell: Your symptoms suggest bronchiectasis, where airways widen and hold on to mucus, often after a bad childhood chest infection. A detailed CT will confirm it. The cornerstone is daily chest-clearing exercises a physio will teach you, plus antibiotics when you flare.
+
+=== RE07 | Severe community-acquired pneumonia with sepsis
+who: Joan Fairbairn, 72, retired teacher
+act: Flushed, shivering, breathless; wince with deep breaths on the right; slow to respond but orientated.
+open: I've got a horrible cough and I'm so hot, and it hurts on the right when I breathe.
+story: Three days ago I started coughing up rusty phlegm. I've had a high temperature and shakes, and a sharp pain on the right.
+hpc: Cough: 3 days, rusty sputum
+hpc: Fever: High, rigors
+hpc: Pain: Right-sided, pleuritic
+hpc: Breathlessness: Worse
+hpc: Observations: RR 32, BP 92/58, HR 112, temp 38.7, alert
+yes: Rigors; pleuritic pain; poor intake
+no: Confusion; haemoptysis; recent hospital stay; travel; weight loss
+pmh: High blood pressure; osteoarthritis
+dh: Ramipril; paracetamol
+all: None
+fh: Nothing relevant
+sh: Non-smoker; lives with husband
+ice: A chest infection | Being very ill | To feel better
+cue: "I've never felt this poorly."
+ask: Will I be okay?
+key: How long have you had the cough and what are you bringing up? | CAP
+key: Any confusion? | CURB-65
+key: Calculate CURB-65 with RR 32, BP 92/58 and age 72: at least 3 | High severity
+key: Assess for sepsis and start the Sepsis Six within the hour | Sepsis
+key: Any allergies? | Antibiotic choice
+rf: Hypotension and tachypnoea | Septic shock and critical care
+rf: Rising lactate or reduced urine output | Organ dysfunction
+sum: So for three days you've had a cough with rusty phlegm, fevers with shakes and sharp right-sided pain on breathing, and you're more breathless. Is that right?
+pres: Joan Fairbairn is a 72-year-old woman with 3 days of productive cough, fever with rigors and right pleuritic chest pain, with RR 32, BP 92/58, HR 112 and temperature 38.7. Her CURB-65 is at least 3 for respiratory rate, blood pressure and age, before urea and confusion. This is high-severity community-acquired pneumonia with sepsis.
+ddx: High-severity community-acquired pneumonia with sepsis, because of fever, consolidation symptoms and CURB-65 of 3 or more | Pulmonary embolism with infarction, considered if pleuritic pain persists | Empyema or lung abscess, assessed with imaging
+ix: ABG; lactate; blood cultures; FBC, CRP, U&Es, LFTs; sputum culture; urinary pneumococcal and Legionella antigens; CXR; ECG
+mx: Sepsis Six; oxygen to 94 to 98%; IV fluids; IV co-amoxiclav plus clarithromycin per NICE for high severity; catheter and fluid balance; critical care review; VTE prophylaxis
+tell: You have a serious pneumonia that's affecting your blood pressure. We're giving you antibiotics and fluids through a drip and oxygen now. The intensive care team may review you to make sure you get the best support.
+
+=== RE08 | Hospital-acquired pneumonia after surgery
+who: Ken Barrow, 76, retired butcher
+act: Tired, coughing, sweaty; clutching a sputum pot with green sputum.
+open: I've started coughing and I feel hot and shivery.
+story: My bowel operation was five days ago. I was getting on alright, then yesterday I started coughing and feeling hot.
+hpc: Operation: Bowel resection 5 days ago
+hpc: Cough: Since yesterday, green sputum
+hpc: Fever: 38.6
+hpc: Breathing: More breathless; SpO2 90% on air
+hpc: Mobility: Mostly in bed since surgery
+yes: Productive cough; fever; breathlessness
+no: Calf pain; chest pain; wound redness or discharge; abdominal pain worsening; vomiting; urinary symptoms
+pmh: COPD, mild; high blood pressure
+dh: Inhalers; amlodipine; enoxaparin
+all: None
+fh: Nothing relevant
+sh: Ex-smoker; lives with wife
+ice: A chest infection | Setback after the operation | To get better
+cue: "I've barely got out of bed since the operation."
+ask: Is this because of the operation?
+key: When did the cough start relative to admission? | HAP is over 48 hours after admission
+key: Sputum, fever, breathlessness, chest pain? | Pneumonia versus PE
+key: How much have you been mobilising and breathing deeply? | Atelectasis
+key: Any calf pain or swelling? | VTE
+key: Wound, abdominal pain, urine, lines? | Other sources of fever after surgery
+rf: Abdominal pain with fever after bowel surgery | Anastomotic leak
+rf: Hypoxia with clear chest | PE
+sum: So five days after your bowel operation, you've developed a cough with green phlegm, fever and more breathlessness, having been mostly in bed. Is that right?
+pres: Mr Barrow is a 76-year-old man 5 days after bowel surgery with new productive cough, fever of 38.6 and SpO2 90% on air, having been largely immobile. There are no features of anastomotic leak, wound infection or DVT. This is hospital-acquired pneumonia, late-onset as it is more than 5 days after admission.
+ddx: Hospital-acquired pneumonia, because of new cough, fever and hypoxia 5 days into admission | Pulmonary embolism, considered with immobility and hypoxia: assess Wells and image if needed | Anastomotic leak or other surgical source, excluded by abdominal examination and CT if concerned
+ix: Observations; ABG; CXR; FBC, CRP, U&Es, lactate; sputum and blood cultures; abdominal examination; CT if concern for leak; CTPA if PE suspected
+mx: Oxygen to target; antibiotics per local HAP guidance, covering resistant organisms for late-onset or severe disease, for example piperacillin with tazobactam; chest physiotherapy; mobilisation; continue VTE prophylaxis; review at 48 to 72 hours
+tell: You've picked up a chest infection in hospital, which can happen after an operation when you've been lying still. We'll give you antibiotics through a drip, oxygen, and the physios will help you clear your chest and get moving.
+
+=== RE09 | Pulmonary tuberculosis
+who: Arjun Malik, 29, restaurant chef
+act: Thin, tired, coughing into your elbow; worried about work and family.
+open: I've had a cough for six weeks and I'm sweating at night.
+story: The cough has gone on six weeks. I wake up drenched in sweat, and I've lost 5 kg. My uncle, who I lived with, was treated for TB.
+hpc: Cough: 6 weeks, productive, occasionally blood-streaked
+hpc: Night sweats: Drenching
+hpc: Weight: Lost 5 kg
+hpc: Contact: Lived with an uncle treated for TB 3 months ago
+hpc: Fever: Evening fevers
+yes: Fatigue; anorexia; occasional haemoptysis
+no: Breathlessness at rest; chest pain; HIV known; previous TB; BCG unsure
+pmh: Nothing
+dh: None
+all: None
+fh: Uncle with TB
+sh: Non-smoker; no alcohol; chef in a busy restaurant; lives with parents and sister
+ice: TB like his uncle | Infecting his family and losing his job | Treatment
+cue: "I work with food and lots of people. Will I lose my job?"
+ask: Is it TB? Can I go to work?
+key: How long have you had the cough, and any blood? | Over 3 weeks
+key: Night sweats, fevers, weight loss? | Systemic features
+key: Any contact with TB, travel or living abroad? | Exposure
+key: Any risk factors: HIV, diabetes, immunosuppression? | Risk
+key: Who do you live and work with? | Contact tracing
+rf: Haemoptysis | Infectious TB or other causes
+rf: Close contacts including children | Public health
+sum: So for six weeks you've had a cough with occasional blood, drenching night sweats and weight loss, and you lived with your uncle who had TB. Is that right?
+pres: Arjun Malik is a 29-year-old chef with 6 weeks of productive cough, occasional haemoptysis, drenching night sweats, evening fevers and 5 kg weight loss, after close household contact with a relative treated for TB. This is pulmonary tuberculosis until proven otherwise.
+ddx: Pulmonary tuberculosis, because of chronic cough with systemic features after household TB contact | Lung abscess or non-tuberculous mycobacteria, told apart by culture | Lymphoma or malignancy, excluded with imaging and microbiology
+ix: CXR; three sputum samples for AFB smear, culture and TB PCR; HIV test; FBC, LFTs, U&Es before treatment; HbA1c
+mx: Respiratory isolation until non-infectious; TB specialist referral; standard treatment: rifampicin, isoniazid, pyrazinamide and ethambutol for 2 months, then rifampicin and isoniazid for 4 months, with pyridoxine; directly observed therapy if needed; notify the health protection team; contact tracing; off work until cleared as non-infectious
+tell: Your symptoms are very suggestive of TB. It's treatable and curable with six months of tablets. We'll test your sputum and do an X-ray. Until you're no longer infectious, usually about two weeks into treatment, you'll need to stay off work. Your family will be offered tests too.
+
+=== RE10 | Suspected lung cancer
+who: Brian Fletcher, 68, retired steelworker
+act: Downplays everything ("just another chest infection"); folds a bloodied tissue away.
+open: It's probably just another chest infection. My wife made me come.
+story: I've had a cough for a few months, and for three weeks I've been coughing up blood. I've lost 4 kg.
+hpc: Haemoptysis: 3 weeks, streaks and small clots
+hpc: Cough: Persistent, worse
+hpc: Weight: Lost 4 kg
+hpc: Appetite: Reduced
+hpc: SpO2: 97%
+yes: Fatigue; weight loss; hoarseness for a week
+no: Fever; chest pain; bone pain; headache; breathlessness at rest
+pmh: COPD, mild
+dh: Salbutamol
+all: None
+fh: Brother had lung cancer
+sh: Ex-smoker, quit 5 years ago, 50 pack-years; retired steelworker
+ice: A chest infection | Lung cancer like his brother | Antibiotics
+cue: "My brother had the same and was gone in six months."
+ask: It's probably just an infection, isn't it?
+key: How long, how much blood, and how often? | Haemoptysis
+key: Weight loss, appetite, tiredness? | Systemic features
+key: Voice changes, bone pain, headaches? | Local and distant spread
+key: Smoking and occupational exposures? | Risk
+key: Fever or purulent sputum? | Infection versus malignancy
+rf: Haemoptysis aged 40 or over | Suspected cancer pathway referral
+rf: Hoarseness | Recurrent laryngeal nerve involvement
+sum: So for three weeks you've been coughing up blood, you've lost 4 kg, and your voice has been hoarse for a week. You smoked heavily. Is that right?
+pres: Brian Fletcher is a 68-year-old ex-smoker with 50 pack-years presenting with 3 weeks of haemoptysis, a persistent cough, 4 kg weight loss and new hoarseness, with a brother who had lung cancer. Normal saturations do not reassure. This is lung cancer until proven otherwise.
+ddx: Lung cancer, because of haemoptysis, weight loss and hoarseness in a heavy ex-smoker | Infection or bronchiectasis, told apart by fever, sputum and imaging | TB, excluded with sputum AFB
+ix: Suspected cancer pathway: urgent CXR and CT chest; FBC, U&Es, calcium, LFTs, clotting; bronchoscopy or CT-guided biopsy; PET-CT staging
+mx: Suspected cancer pathway referral to the lung team per NICE for haemoptysis at 40 or over; lung cancer nurse specialist; safety-net for massive haemoptysis
+tell: Coughing up blood with weight loss in someone who has smoked needs urgent checking, and I can't say it's just an infection. I'm referring you to the lung team to be seen within two weeks, with an X-ray and scan. If you cough up a large amount of blood, call 999.
+
+=== RE11 | Asbestos-related lung disease
+who: Albert Graves, 73, retired shipyard worker
+act: Breathless, finger clubbing; a matter-of-fact man who remembers the dust well.
+open: My breathing has been getting worse for a couple of years.
+story: I worked in the shipyards for 25 years. We cut asbestos insulation boards with no masks in the 70s. Now I'm breathless walking short distances.
+hpc: Breathlessness: Progressive over 2 years; now 50 metres
+hpc: Cough: Dry
+hpc: Exposure: Cut asbestos insulation boards without protection in the 1970s
+hpc: Chest pain: Dull ache on the right, recent
+hpc: Weight: Lost 3 kg
+yes: Dry cough; clubbing; recent right chest ache; weight loss
+no: Haemoptysis; fever; orthopnoea; ankle swelling
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Ex-smoker, 20 pack-years; retired shipyard worker
+ice: Asbestos | Mesothelioma like his mates | Answers and compensation
+cue: "Three of my mates died of mesothelioma."
+ask: Is it the asbestos? Can I get compensation?
+key: Tell me about your work and exposure to asbestos: when, how long, protection? | Exposure
+key: How has your breathing changed? | Progression
+key: Chest pain, weight loss, sweats? | Mesothelioma
+key: Smoking history? | Lung cancer synergy
+key: Cough and sputum? | Other lung disease
+rf: Chest pain with weight loss | Mesothelioma
+rf: Haemoptysis | Lung cancer
+sum: So you were exposed to asbestos dust in the shipyards for years without protection, your breathing has worsened over two years, and you now have a right-sided chest ache and weight loss. Is that right?
+pres: Albert Graves is a 73-year-old former shipyard worker with significant unprotected asbestos exposure in the 1970s and 20 pack-years of smoking, presenting with progressive exertional breathlessness, a dry cough, clubbing, recent right chest wall ache and weight loss. Asbestosis is likely, with mesothelioma to be excluded.
+ddx: Asbestosis, because of progressive breathlessness, clubbing and heavy asbestos exposure | Malignant mesothelioma, suggested by chest wall pain and weight loss, excluded with CT and pleural biopsy | Lung cancer or idiopathic pulmonary fibrosis, distinguished by imaging and history
+ix: CXR; HRCT showing basal fibrosis and pleural plaques; CT with contrast for pleural thickening; spirometry and gas transfer, restrictive with reduced transfer; pleural biopsy if effusion or thickening
+mx: Respiratory referral; urgent investigation of chest pain and weight loss; supportive care, pulmonary rehab, oxygen if hypoxic; advice on Industrial Injuries Disablement Benefit and legal compensation; mesothelioma is a reportable death to the coroner
+tell: Breathing in asbestos dust years ago can cause scarring of the lungs and other problems, sometimes decades later. We'll do a detailed scan and breathing tests. Because of the chest ache and weight loss, I'll ask the lung team to see you urgently. You may well be entitled to compensation, and I'll point you to the right support.
+
+=== RE13 | Extrinsic allergic alveolitis
+who: Derek Shaw, 46, pigeon fancier and electrician
+act: Proud of your pigeons; slight breathlessness; dry cough.
+open: I get breathless and a dry cough a few hours after cleaning out my pigeon loft.
+story: I've kept pigeons for 20 years. Lately, about 4 to 6 hours after cleaning the loft, I get breathless, achy and feverish with a dry cough. When I was away for a fortnight, it went.
+hpc: Timing: 4 to 6 hours after cleaning the loft
+hpc: Symptoms: Breathlessness, dry cough, fever, aches
+hpc: Away: Improved during 2 weeks away
+hpc: Duration: 6 months, worsening
+hpc: SpO2: 94% on air; fine crackles
+yes: Flu-like symptoms after exposure; weight loss of 2 kg
+no: Wheeze; haemoptysis; chest pain; smoking; asthma
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Non-smoker; electrician; keeps 40 pigeons
+ice: A virus | Having to give up his birds | Treatment that lets him keep them
+cue: "The birds are my life."
+ask: Do I have to give up my pigeons?
+key: When do symptoms come on in relation to the birds? | Delayed onset after exposure
+key: Do you improve away from the loft? | Exposure link
+key: Any fever, aches or weight loss? | Systemic features
+key: Wheeze or asthma? | Asthma differs
+key: Smoking and other exposures: mouldy hay, hot tubs? | Other antigens
+rf: Persistent breathlessness away from exposure | Chronic fibrotic disease
+sum: So for six months you've had breathlessness, a dry cough and flu-like aches a few hours after cleaning the pigeon loft, which improved when you were away. Is that right?
+pres: Derek Shaw is a 46-year-old pigeon keeper with 6 months of breathlessness, dry cough, fever and myalgia 4 to 6 hours after cleaning his loft, improving away from exposure, with fine crackles and SpO2 of 94%. This is extrinsic allergic alveolitis, bird fancier's lung.
+ddx: Hypersensitivity pneumonitis, bird fancier's lung, because of delayed symptoms after antigen exposure that improve with avoidance | Asthma, told apart by immediate wheeze and variable obstruction | Atypical pneumonia or idiopathic pulmonary fibrosis, excluded by history and HRCT
+ix: CXR; HRCT; spirometry and gas transfer, restrictive with reduced transfer; serum precipitins, avian IgG; bronchoalveolar lavage lymphocytosis if needed
+mx: Antigen avoidance is the key treatment: ideally rehome the birds or at minimum strict protective equipment; respiratory referral; oral corticosteroids for significant disease; monitor for fibrosis
+tell: Your lungs are reacting to proteins in the pigeons' droppings and feathers. The most effective treatment is avoiding them, which I know is hard. Continued exposure can lead to permanent scarring. A respirator mask helps, but giving up the birds is safest. We'll do a scan and breathing tests.
+
+=== RE15 | Smoking cessation in COPD
+who: Gary Holt, 59, delivery driver
+act: Defensive at first; softens if listened to. Fidget with your lighter.
+open: Look, I know I should stop smoking, but I'm not ready today.
+story: I've got COPD. I smoke 15 a day. I've tried twice to stop, but both times stress at work got me.
+hpc: Smoking: 15 a day, 40 pack-years
+hpc: Attempts: Two, cold turkey; relapsed under stress
+hpc: COPD: Breathless on stairs
+hpc: Readiness: Wants to breathe better; not ready today
+hpc: First cigarette: Within 30 minutes of waking
+yes: Morning craving; stress smoking
+no: Previous NRT; varenicline; e-cigarettes tried; depression
+pmh: COPD
+dh: Salbutamol; tiotropium
+all: None
+fh: Nothing relevant
+sh: Delivery driver; lives with partner who smokes; 10 units a week
+ice: Will power | Failing again | Not to be lectured
+cue: "Every doctor just tells me off."
+ask: What's the point if I just fail again?
+key: Ask about smoking and readiness without judgement | Very brief advice: ask, advise, act
+key: What happened in your previous attempts? | Learn from relapse
+key: How soon after waking do you smoke? | Nicotine dependence
+key: Advise: stopping is the single best thing for COPD, and support triples success | Advise
+key: Offer: NHS stop smoking service, combination NRT, varenicline, or a vaping product | Act
+key: If not ready: cut down to quit with NRT, set a future quit date | Stage-matched plan
+rf: Low mood or anxiety | Support during quitting
+sum: So you smoke 15 a day, you've tried twice cold turkey and relapsed under stress, and you want to breathe better but aren't ready to quit today. Is that right?
+pres: Gary Holt is a 59-year-old man with COPD who smokes 15 a day with high dependence, who has relapsed twice under stress after unsupported attempts. He is contemplative but not ready to quit today. I have used very brief advice, explored previous attempts and agreed a cut-down-to-quit plan with combination NRT and referral to the stop smoking service.
+ddx: Nicotine dependence in a contemplative smoker, because he wants to stop but feels not ready | Unsupported quit attempts as the reason for relapse | Stress and anxiety as triggers needing a plan
+ix: Exhaled carbon monoxide to track progress; spirometry review
+mx: Referral to the NHS stop smoking service; combination NRT, patch plus a short-acting form; consider varenicline where available or a vaping product; cut down to quit with a quit date; stress plan; involve his partner; follow-up in 2 weeks
+tell: You're not a failure: most people take a few goes, and having support and medicine triples your chances. Let's start by cutting down with patches and gum, and pick a quit date that suits you. The stop smoking service will support you weekly. Every cigarette you don't smoke helps your lungs.
+
+=== RE17 | Infective exacerbation of COPD without acidosis
+who: Frank Ellis, 68, retired lorry driver
+act: Breathless with pursed lips; tripoding; cough with green sputum. Alert.
+open: My chest has been bad for two days. I'm much more breathless and coughing up green stuff.
+story: Two days ago my breathing got worse and my phlegm went from white to green. I've used my blue inhaler a lot.
+hpc: Breathlessness: Increased for 2 days
+hpc: Sputum: More and changed from white to green
+hpc: Reliever use: Much more
+hpc: Pleuritic pain: None
+hpc: Observations: RR 24, HR 102, SpO2 88% on air, ABG no acidosis
+yes: Increased breathlessness; increased purulent sputum
+no: Pleuritic pain; haemoptysis; calf swelling; confusion; drowsiness; chest pain
+pmh: COPD; high blood pressure
+dh: LABA and LAMA inhaler; salbutamol; amlodipine
+all: None
+fh: Nothing relevant
+sh: Ex-smoker, 40 pack-years; lives with wife
+ice: A chest infection | Needing a breathing machine | To feel better
+cue: "Last time I ended up on the mask machine."
+ask: Will I need the mask machine?
+key: How have your breathing, sputum volume and colour changed? | Anthonisen criteria
+key: Any chest pain, calf swelling or coughing blood? | PE
+key: Any drowsiness, confusion or headache? | Hypercapnia
+key: Previous admissions, NIV or ICU? | Severity history
+key: Home oxygen and baseline saturations? | Target range
+rf: pH below 7.35 with raised CO2 | NIV
+rf: Pleuritic pain or hypoxia out of keeping | PE or pneumothorax
+sum: So for two days you've been more breathless with more phlegm that's turned green, you're using your blue inhaler a lot, and there's no chest pain. Is that right?
+pres: Frank Ellis is a 68-year-old ex-smoker with COPD presenting with 2 days of increased breathlessness, increased sputum and purulence, with RR 24, HR 102, SpO2 88% on air, alert, and an ABG without acidosis. This is an infective exacerbation of COPD not currently requiring NIV.
+ddx: Infective exacerbation of COPD, because of increased breathlessness, sputum volume and purulence | Pneumonia or pneumothorax, excluded with a CXR | PE or heart failure, considered if not improving
+ix: ABG and repeat after oxygen; CXR; FBC, CRP, U&Es; sputum culture; ECG; theophylline level if taking it
+mx: Controlled oxygen via Venturi to 88 to 92%; nebulised salbutamol and ipratropium; prednisolone 30 mg for 5 days; oral antibiotics for purulent sputum per NICE, such as amoxicillin, doxycycline or clarithromycin; repeat ABG; NIV if pH falls below 7.35 with raised CO2; review inhaled therapy and offer pulmonary rehab after recovery
+tell: Your COPD has flared up with a chest infection. We'll give you nebulisers, steroid tablets and antibiotics, and oxygen at a carefully controlled level. Your blood gas is reassuring, so you don't need the mask machine at the moment, but we'll keep checking.
+
+=== SB01 | Heart failure with reduced ejection fraction
+who: Ron Baxter, 71, retired postman
+act: Breathless when lying back; prop yourself up; ankles swollen in your slippers.
+open: My breathing's got bad, I can't lie flat, and my ankles are swollen.
+story: Over two months I've got more breathless. I need three pillows now and my ankles swell.
+hpc: Breathlessness: Progressive over 2 months, now after 50 metres
+hpc: Orthopnoea: Three pillows
+hpc: PND: Wakes gasping twice a week
+hpc: Ankles: Both swollen, pitting
+hpc: Weight: Up 4 kg
+hpc: NT-proBNP: 2400 ng/L
+yes: Orthopnoea; PND; ankle swelling; fatigue
+no: Chest pain; palpitations; fever; cough with sputum; calf pain
+pmh: MI 5 years ago; high blood pressure; type 2 diabetes
+dh: Aspirin; atorvastatin; ramipril 2.5 mg; metformin
+all: None
+fh: Nothing relevant
+sh: Ex-smoker; 10 units a week; lives with wife
+ice: Getting old | His heart failing | To breathe better
+cue: "Is my heart giving up?"
+ask: Is it my heart?
+key: How far can you walk, and how has it changed? | NYHA class
+key: How many pillows, and do you wake gasping? | Orthopnoea and PND
+key: Ankle swelling and weight gain? | Fluid overload
+key: Any chest pain, palpitations or infections? | Precipitants
+key: Previous heart attacks, valve problems, alcohol? | Causes
+rf: Breathless at rest or chest pain | Acute decompensation
+rf: NT-proBNP over 2000 | Specialist and echo within 2 weeks
+sum: So over two months you've become more breathless, need three pillows, wake gasping, your ankles have swollen and you've gained 4 kg. You had a heart attack 5 years ago. Is that right?
+pres: Mr Baxter is a 71-year-old man with previous MI presenting with 2 months of progressive exertional breathlessness, orthopnoea, PND, bilateral pitting oedema and weight gain, with raised JVP, basal crackles and NT-proBNP of 2400. This is heart failure, likely ischaemic with reduced ejection fraction.
+ddx: Heart failure with reduced ejection fraction secondary to ischaemic heart disease, because of congestive symptoms and signs with raised NT-proBNP after MI | Valvular disease, assessed on echo | COPD or kidney disease, distinguished by spirometry and U&Es
+ix: ECG; CXR; U&Es, LFTs, TFTs, FBC, HbA1c, lipids; urine ACR; echocardiogram and specialist assessment within 2 weeks as NT-proBNP is above 2000
+mx: Loop diuretic for congestion with daily weights; titrate ramipril and add a beta-blocker; add an MRA and SGLT2 inhibitor; fluid and salt advice; heart failure nurse; vaccines; cardiac rehab
+tell: Your heart isn't pumping as strongly as it should, probably because of damage from your heart attack, so fluid is building up. A water tablet will clear it, and other tablets protect the heart long-term. Weigh yourself every morning; if you gain 2 kg in 3 days, call us.
+
+=== SB03 | Severe aortic stenosis
+who: Harold Wren, 75, retired groundsman
+act: Breathless walking into the room; hand on chest. Stoic.
+open: When I walk uphill I get tightness in my chest and nearly pass out.
+story: For six months, walking uphill, I get chest tightness and feel I'm going to faint. I've had to sit down on the pavement.
+hpc: Chest tightness: On exertion, uphill
+hpc: Presyncope: On exertion, twice nearly fainted
+hpc: Breathlessness: On exertion
+hpc: Duration: 6 months
+hpc: Examination: Slow-rising pulse; harsh ejection systolic murmur radiating to the carotids
+yes: Exertional angina; exertional presyncope; breathlessness
+no: Rest pain; palpitations; ankle swelling; orthopnoea; fever
+pmh: High blood pressure
+dh: Amlodipine
+all: None
+fh: Nothing relevant
+sh: Ex-smoker; 8 units a week; lives with wife
+ice: Age | Collapsing | To be checked
+cue: "I had to sit on the kerb last week."
+ask: Is it serious?
+key: Chest pain, breathlessness or fainting on exertion? | The triad of severe AS
+key: How far can you walk? | Severity
+key: Any rest pain or palpitations? | ACS or arrhythmia
+key: Rheumatic fever, bicuspid valve or murmur known? | Causes
+key: Medicines including vasodilators? | Caution with nitrates
+rf: Exertional syncope | Severe AS: urgent echo and cardiology
+rf: Heart failure symptoms | Decompensation
+sum: So for six months you get chest tightness and nearly faint when walking uphill, and you're breathless. Is that right?
+pres: Harold Wren is a 75-year-old man with 6 months of exertional angina, presyncope and breathlessness. On examination he has a slow-rising pulse and a harsh ejection systolic murmur radiating to both carotids. This is symptomatic severe aortic stenosis.
+ddx: Severe calcific aortic stenosis, because of the symptomatic triad with a slow-rising pulse and radiating ejection systolic murmur | Hypertrophic obstructive cardiomyopathy, told apart by a murmur that increases with Valsalva | Aortic sclerosis or ischaemic heart disease, distinguished on echo
+ix: Echocardiogram for valve area and gradient; ECG for left ventricular hypertrophy; CXR; FBC, U&Es; coronary angiography before valve surgery
+mx: Urgent cardiology referral for aortic valve replacement: surgical or TAVI; avoid strenuous exertion and vasodilators such as nitrates until treated; DVLA advice if syncope
+tell: One of your heart valves has become very narrow, which is why you get pain and nearly faint when you walk uphill. The fix is replacing the valve, often now done through a tube in the leg without open surgery. Until then, avoid heavy exertion. If you faint or get chest pain at rest, call 999.
+
+=== SB04 | Infective endocarditis in a person who injects drugs
+who: Lee Carter, 38, unemployed
+act: Hot, sweaty, guarded at first; scratch at injection sites on your arms. Warm up if treated respectfully.
+open: I've been really hot and shivery, and it hurts to breathe.
+story: For a week I've had fevers and shakes. Now it hurts on both sides when I breathe in. I've been injecting heroin.
+hpc: Fever: A week, rigors
+hpc: Pleuritic pain: Both sides
+hpc: Injecting: Heroin, shares needles sometimes
+hpc: Breathlessness: Mild
+hpc: Observations: Temp 39.0, HR 118, new systolic murmur
+yes: Rigors; night sweats; pleuritic pain; cough
+no: Previous endocarditis; known valve disease; recent antibiotics
+pmh: Hepatitis C
+dh: Methadone, missed doses
+all: None
+fh: Nothing relevant
+sh: Injects heroin; smokes 20 a day; homeless at times
+ice: Flu | Being judged | To feel better
+cue: "Doctors usually treat me like rubbish."
+ask: Am I going to be alright?
+key: Fever: how long, rigors, night sweats? | Bacteraemia
+key: Injecting: what, where, sharing equipment? Ask without judgement | Risk
+key: Pleuritic pain and cough? | Septic pulmonary emboli from right-sided endocarditis
+key: Previous valve problems or endocarditis? | Risk
+key: Any emboli signs: painful fingers, vision change, weakness? | Systemic emboli
+rf: Sepsis | Sepsis Six, but cultures first
+rf: Heart failure or neurological signs | Surgical indications
+sum: So for a week you've had fevers with shakes, now pain on breathing in, and you've been injecting heroin and sometimes sharing needles. Is that right?
+pres: Lee Carter is a 38-year-old man who injects drugs, with a week of fever, rigors and bilateral pleuritic chest pain, temperature 39.0, HR 118 and a new systolic murmur. This is infective endocarditis, likely right-sided tricuspid with septic pulmonary emboli, until proven otherwise.
+ddx: Infective endocarditis, probably tricuspid with Staphylococcus aureus, because of fever, a new murmur and injecting drug use with pleuritic pain from septic emboli | Pneumonia, told apart by CXR and blood cultures | Injection site abscess with bacteraemia, assessed clinically
+ix: Three sets of blood cultures from separate sites before antibiotics; FBC, CRP, U&Es, LFTs; urinalysis for haematuria; ECG; CXR; transthoracic then transoesophageal echo; HIV, hepatitis B and C testing
+mx: Take cultures then start empirical IV antibiotics per local guidance promptly as he is unwell; cardiology and microbiology involvement; typically 4 to 6 weeks of IV antibiotics; surgical review if indicated; continue methadone; drug and alcohol team; harm reduction
+tell: I think you have an infection on one of your heart valves, which can happen when bacteria get into the blood through injecting. It's serious but treatable with several weeks of antibiotics through a drip. We'll make sure you get your methadone, and the drug team can help with whatever you want. You won't be judged here.
+
+=== SB05 | Malignant pleural effusion
+who: Brenda Moss, 64, retired factory worker
+act: Breathless, lean slightly to the left; tired and thin.
+open: I've been getting more and more breathless over the last few weeks.
+story: Over about six weeks I've got more breathless, now just walking to the bathroom. I've lost weight and I've got a dull ache on the left side.
+hpc: Breathlessness: 6 weeks, now on minimal exertion
+hpc: Pain: Dull left chest ache
+hpc: Weight: Lost 6 kg
+hpc: Cough: Dry
+hpc: Examination: Stony dull left base, reduced breath sounds and vocal resonance
+yes: Weight loss; fatigue; dry cough
+no: Fever; sputum; orthopnoea; ankle swelling; haemoptysis; calf pain
+pmh: Breast cancer 8 years ago, treated
+dh: None now
+all: None
+fh: Nothing relevant
+sh: Ex-smoker, 30 pack-years; lives with husband; no asbestos exposure known
+ice: A chest infection | The cancer coming back | To breathe easier
+cue: "Is it my breast cancer back?"
+ask: Is the cancer back?
+key: How long and how fast has the breathlessness come on? | Tempo
+key: Chest pain, cough, fever, haemoptysis? | Cause
+key: Weight loss, appetite, night sweats? | Malignancy
+key: Previous cancer, asbestos, TB? | Causes of exudate
+key: Orthopnoea, ankle swelling, kidney or liver problems? | Transudate
+rf: Breathless at rest | Therapeutic aspiration
+rf: Previous cancer with weight loss | Malignant effusion
+sum: So over six weeks you've become breathless, with a left-sided ache, dry cough and weight loss, and you had breast cancer 8 years ago. Is that right?
+pres: Brenda Moss is a 64-year-old ex-smoker with previous breast cancer presenting with 6 weeks of progressive breathlessness, a dull left chest ache, dry cough and 6 kg weight loss. Examination shows stony dullness, reduced breath sounds and vocal resonance at the left base. This is a left pleural effusion, likely malignant.
+ddx: Malignant pleural effusion from recurrent breast cancer or a new lung primary, because of an exudative picture with weight loss and previous cancer | Parapneumonic effusion, told apart by fever and fluid pH | Heart failure transudate, excluded by the absence of congestion and Light's criteria
+ix: CXR; ultrasound-guided pleural aspiration: protein, LDH, glucose, pH, cytology, microbiology; CT chest, abdomen and pelvis with contrast; pleural biopsy if cytology negative
+mx: Therapeutic aspiration for symptoms; respiratory and oncology referral; indwelling pleural catheter or talc pleurodesis for recurrent malignant effusion; specialist palliative input as appropriate
+tell: There's fluid around your left lung, which is why you're breathless. Draining some will help your breathing, and testing it will tell us the cause. I'm worried it could be linked to cancer, so we'll do a scan too, and I'll be honest with you about the results.
+
+=== SB06 | Primary spontaneous pneumothorax
+who: Tom Bradley, 22, university student
+act: Tall and thin; sit still, hand on the left chest, mildly breathless.
+open: I got a sudden sharp pain on the left side of my chest and I'm a bit breathless.
+story: I was sitting at my desk and suddenly got a sharp stabbing pain on the left, worse breathing in. I'm a bit short of breath.
+hpc: Onset: Sudden, at rest, 3 hours ago
+hpc: Pain: Left, sharp, pleuritic
+hpc: Breathlessness: Mild
+hpc: Observations: RR 22, SpO2 95%, BP 126/78
+hpc: Previous: Never
+yes: Mild breathlessness
+no: Trauma; fever; cough; haemoptysis; calf swelling; previous lung disease
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Smokes 10 a day and cannabis at weekends; student; plans to go scuba diving in the summer
+ice: Pulled muscle | A collapsed lung | To get back to uni
+cue: "I'm meant to be going diving in Egypt this summer."
+ask: Can I still go diving and fly?
+key: When did it start, what were you doing, and is the pain sharp on breathing in? | Pleuritic pain at rest
+key: How breathless are you? | Symptom-led management
+key: Smoking and cannabis? | Risk of recurrence
+key: Any lung disease, previous pneumothorax, or connective tissue disease? | Primary versus secondary
+key: Any calf swelling, fever or cough? | Alternatives
+rf: Hypotension, tachycardia, tracheal deviation | Tension pneumothorax: decompress now
+rf: Underlying lung disease | Secondary pneumothorax needs more aggressive management
+sum: So three hours ago you got a sudden sharp left-sided chest pain worse on breathing in with mild breathlessness, and you smoke cigarettes and cannabis. Is that right?
+pres: Tom Bradley is a 22-year-old tall, thin smoker with sudden left pleuritic chest pain and mild breathlessness, RR 22, SpO2 95% and BP 126/78, with no underlying lung disease. CXR shows a left pneumothorax without features of tension. This is a primary spontaneous pneumothorax.
+ddx: Primary spontaneous pneumothorax, because of sudden pleuritic pain and breathlessness in a tall young smoker | Tension pneumothorax, excluded by stable observations and central trachea | PE or musculoskeletal pain, excluded by CXR and history
+ix: CXR; CT if uncertain or complex
+mx: Per BTS 2023: if minimally symptomatic, conservative management with outpatient review; if symptomatic, ambulatory device or needle aspiration; chest drain if this fails or he deteriorates; smoking and cannabis cessation; no flying until resolution is confirmed; avoid diving permanently unless he has definitive surgery
+tell: Part of your left lung has collapsed. Because you're stable, we can sometimes let it settle by itself, or let some air out with a small needle. Stopping smoking really reduces the chance of it happening again. You can't fly until a scan confirms it's healed, and I'm afraid scuba diving isn't safe in future unless you have an operation.
+
+=== SB08 | Acute respiratory alkalosis from hyperventilation
+who: Jade Morris, 24, call centre worker
+act: Breathing fast, tingling fingers held stiffly, frightened; calm down with slow breathing coaching.
+open: I can't breathe properly, my hands are tingling.
+story: I had a big argument with my boyfriend and suddenly couldn't get my breath. My fingers and lips are tingling.
+hpc: Trigger: Argument 30 minutes ago
+hpc: Breathing: Fast, feels she can't get a full breath
+hpc: Tingling: Fingers and around the lips; hands cramping
+hpc: Chest pain: Tight, central, non-radiating
+hpc: Previous: Similar episodes when stressed
+hpc: ABG: pH 7.51, PaCO2 3.7, bicarbonate 22, PaO2 13.5
+yes: Perioral paraesthesia; carpopedal spasm; anxiety
+no: Calf swelling; haemoptysis; recent surgery or travel; oestrogen; fever; cough; diabetes; overdose
+pmh: Anxiety
+dh: Progestogen-only pill
+all: None
+fh: Nothing relevant
+sh: Non-smoker; call centre worker
+ice: Panic attack | Something serious with her heart or lungs | To calm down
+cue: "Am I having a heart attack?"
+ask: Am I dying?
+key: What happened just before? | Trigger
+key: Tingling around the lips and fingers, cramping hands? | Hypocapnia
+key: Any calf swelling, recent travel, surgery, oestrogen or coughing blood? | Exclude PE
+key: Any diabetes, tablets taken, or vomiting? | DKA and salicylate overdose
+key: Have you had episodes like this before? | Panic disorder
+rf: Hypoxia or abnormal A-a gradient | PE
+rf: Metabolic acidosis on gas | DKA or salicylates
+sum: So after an argument you suddenly started breathing fast, with tingling in your lips and fingers and cramping hands, and you've had similar episodes when stressed. Is that right?
+pres: Jade Morris is a 24-year-old woman with acute hyperventilation after an argument, with perioral and digital paraesthesia and carpopedal spasm. ABG shows pH 7.51, PaCO2 3.7, normal bicarbonate and normal PaO2: an uncompensated acute respiratory alkalosis with a normal A-a gradient. With no PE risk factors, this is consistent with hyperventilation from a panic attack, but organic causes should be excluded first.
+ddx: Acute respiratory alkalosis from anxiety-related hyperventilation, because of an emotional trigger, typical symptoms and a normal oxygen and A-a gradient | Pulmonary embolism, which can cause hyperventilation, assessed with Wells and PERC | Early salicylate toxicity or sepsis, excluded by history and bloods
+ix: ABG already done; ECG; Wells score and PERC; calcium; glucose; salicylate level if any overdose suspected
+mx: Reassure; coached slow breathing; do not rebreathe into a paper bag; talking therapies referral for panic; safety-net
+tell: When we panic, we breathe too fast and blow off too much carbon dioxide, which causes the tingling and cramps. It's frightening but not dangerous, and your oxygen level is normal. Breathe in slowly through your nose for four, out through your mouth for six. If it keeps happening, talking therapy is very effective for panic.
+
+=== SB10 | Deep vein thrombosis after a long-haul flight
+who: Colin Ward, 62, sales director
+act: Leg up on a chair; rub the swollen calf.
+open: My left calf has been swollen and painful since I flew back from Australia.
+story: I got back from Sydney four days ago. The next day my left calf started aching and swelling. It's 4 cm bigger than the other one.
+hpc: Calf: Left, painful, swollen, 3 days
+hpc: Flight: 22 hours, back from Australia 4 days ago
+hpc: Swelling: 4 cm larger than the right
+hpc: Breathing: Fine
+hpc: Chest pain: None
+yes: Calf tenderness; pitting oedema of the left leg
+no: Breathlessness; chest pain; haemoptysis; previous clots; recent surgery; trauma; weight loss; bowel change
+pmh: High blood pressure
+dh: Amlodipine
+all: None
+fh: Mother had a DVT
+sh: Ex-smoker; 14 units a week; frequent flyer
+ice: Pulled muscle | A clot that travels to his lungs | To know what to do
+cue: "My mum had a clot in her lung."
+ask: Can I fly again?
+key: Which leg, when did it start, and how swollen? | Unilateral swelling
+key: Any breathlessness, chest pain or coughing blood? | PE
+key: Recent flights, surgery, immobility, cancer? | Wells score
+key: Previous clots or family history? | Thrombophilia
+key: Any weight loss, bowel or urinary change? | Occult cancer
+rf: Breathlessness or chest pain | PE
+rf: Phlegmasia: very swollen blue painful leg | Emergency
+sum: So three days after a long flight from Australia, your left calf became painful and swollen, 4 cm bigger, with no chest symptoms, and your mum had a clot. Is that right?
+pres: Colin Ward is a 62-year-old man with 3 days of a painful swollen left calf, 4 cm larger than the right, after a 22-hour flight, without breathlessness or chest pain, and a family history of VTE. His Wells score is at least 2, so DVT is likely.
+ddx: Left leg DVT, because of unilateral calf swelling and tenderness after long-haul travel | Ruptured Baker's cyst or cellulitis, told apart by ultrasound and the absence of fever and redness | Muscle strain, excluded by ultrasound
+ix: Wells score; proximal leg vein ultrasound within 4 hours; if delayed, interim anticoagulation and D-dimer; FBC, U&Es, LFTs, clotting before anticoagulation; history and examination for cancer
+mx: If confirmed: apixaban or rivaroxaban for at least 3 months; review at 3 months for provoked versus unprovoked; advice on future flights: mobilise, hydrate, consider compression stockings
+tell: I think you have a clot in your leg vein, which long flights can trigger. We'll confirm it with an ultrasound today and start a blood-thinning tablet for at least three months. For future flights, walk around regularly and keep hydrated. If you get breathless or chest pain, call 999.
+
+=== SB11 | Iron deficiency anaemia from menorrhagia
+who: Karen Holt, 48, nurse manager
+act: Pale, tired, slightly breathless after stairs; brisk professional manner.
+open: I'm exhausted and breathless on the stairs. My blood test came back low.
+story: I've been tired for months and breathless on stairs. My periods have got really heavy over the last year.
+hpc: Fatigue: Months
+hpc: Breathlessness: On exertion
+hpc: Periods: Heavy, flooding, clots, 8 days, getting heavier over a year
+hpc: Bloods: Hb 82, MCV 69, ferritin 6
+hpc: Bowels: No change, no blood
+yes: Heavy periods; fatigue; breathlessness; craving ice
+no: Weight loss; bowel change; rectal bleeding; dyspepsia; dysphagia; intermenstrual or postcoital bleeding; pelvic pain
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant; no bowel cancer
+sh: Non-smoker; 6 units a week; eats meat
+ice: Busy job | Something sinister | To feel normal
+cue: "I've just been pushing through."
+ask: Do I need a camera test?
+key: How heavy are your periods: flooding, clots, pads, days? | Menorrhagia
+key: Any bleeding between periods or after sex? | Endometrial pathology
+key: Any bowel change, rectal bleeding, indigestion or weight loss? | GI blood loss
+key: Diet and any coeliac symptoms? | Absorption
+key: Family history of bowel cancer? | GI investigation threshold
+rf: GI symptoms or weight loss | Endoscopy
+rf: Intermenstrual or postcoital bleeding | Gynaecology urgent assessment
+sum: So you've been tired and breathless for months, your periods have become very heavy with flooding and clots, and your bloods show low iron. No bowel symptoms. Is that right?
+pres: Karen Holt is a 48-year-old woman with fatigue and exertional breathlessness, Hb 82, MCV 69 and ferritin 6, consistent with iron deficiency anaemia, with a year of increasingly heavy menstrual bleeding. She has no GI symptoms or family history of colorectal cancer.
+ddx: Iron deficiency anaemia from heavy menstrual bleeding, because of microcytic anaemia with very low ferritin and menorrhagia | GI blood loss, considered given age near 50: coeliac serology and endoscopy if any GI features | Fibroids or endometrial pathology causing menorrhagia, assessed with pelvic ultrasound
+ix: Coeliac serology; pelvic ultrasound; consider endometrial assessment if risk factors; FBC and ferritin to monitor
+mx: Oral iron: ferrous sulfate 200 mg once daily; recheck Hb at 2 to 4 weeks; continue 3 months after correction; treat menorrhagia: levonorgestrel IUS first-line, or tranexamic acid; gynaecology referral if structural cause; GI investigation if criteria are met
+tell: Your blood count is low because of iron loss from heavy periods. Iron tablets will build it back up over a few months. We'll also treat the heavy periods, with options like a hormonal coil, and do a scan of your womb. I'll check for coeliac disease too, as it can stop iron being absorbed.
+
+=== SB14 | Mitral regurgitation
+who: Valerie Grant, 67, retired accountant
+act: Mildly breathless; calm and curious.
+open: I've been getting breathless when I walk, and the GP heard a murmur.
+story: Over a year I've become breathless walking up the hill. Sometimes my heart flutters. The GP heard a murmur.
+hpc: Breathlessness: Exertional, a year
+hpc: Palpitations: Occasional flutters
+hpc: Orthopnoea: Two pillows
+hpc: Fever: None
+hpc: Examination: Pansystolic murmur at the apex radiating to the axilla; displaced apex beat
+yes: Fatigue; palpitations
+no: Fever; chest pain; syncope; ankle swelling; weight loss; IV drug use; rheumatic fever
+pmh: High blood pressure
+dh: Amlodipine
+all: None
+fh: Nothing relevant
+sh: Non-smoker; lives with husband
+ice: Getting older | Heart surgery | To know what the murmur means
+cue: "Will I need open-heart surgery?"
+ask: Will I need surgery?
+key: How far can you walk, and how has it changed? | Severity
+key: Palpitations: regular or irregular? | AF complicates MR
+key: Orthopnoea, PND, ankle swelling? | Heart failure
+key: Fever, weight loss, dental work? | Endocarditis
+key: Rheumatic fever or heart attack? | Causes
+rf: Fever with a murmur | Endocarditis
+rf: Heart failure symptoms | Decompensation
+sum: So over a year you've become breathless on exertion with occasional flutters, you sleep on two pillows, and the GP heard a murmur. No fever. Is that right?
+pres: Valerie Grant is a 67-year-old woman with a year of exertional breathlessness, mild orthopnoea and occasional palpitations, with an apical pansystolic murmur radiating to the axilla and a displaced apex beat. This is mitral regurgitation.
+ddx: Chronic mitral regurgitation, because of an apical pansystolic murmur radiating to the axilla with a displaced apex | Aortic stenosis, told apart by an ejection systolic murmur radiating to the carotids | Tricuspid regurgitation or VSD, distinguished by location and echo
+ix: ECG for AF; CXR; echocardiogram for severity, cause and LV function; NT-proBNP
+mx: Cardiology referral; diuretics for symptoms; manage AF with anticoagulation if present; surgical or transcatheter repair for severe symptomatic MR or LV dysfunction
+tell: The murmur comes from a leaky valve between the left heart chambers. A heart scan will show how leaky it is. Water tablets help the breathlessness, and if it's severe, it can be repaired, sometimes through a tube rather than open surgery.
+
+=== SB15 | Mitral stenosis with atrial fibrillation
+who: Grace Adeyemi, 58, church administrator
+act: Flushed cheeks, breathless; feel your pulse when asked about palpitations.
+open: I get breathless and my heart races and flutters.
+story: I had rheumatic fever as a child in Nigeria. Over a year I've got breathless walking, and lately my heart flutters irregularly.
+hpc: Breathlessness: Exertional, a year
+hpc: Palpitations: Irregular, recent weeks
+hpc: Cough: Occasional blood-streaked sputum
+hpc: Rheumatic fever: As a child
+hpc: Examination: Irregularly irregular pulse, malar flush, tapping apex, mid-diastolic murmur at the apex
+yes: Palpitations; haemoptysis; malar flush; fatigue
+no: Fever; chest pain; stroke symptoms; syncope
+pmh: Rheumatic fever in childhood
+dh: None
+all: None
+fh: Nothing relevant
+sh: Non-smoker; no alcohol; church administrator
+ice: Her heart | A stroke | Treatment
+cue: "My aunt had a stroke from her heart rhythm."
+ask: Do I need a blood thinner?
+key: Rheumatic fever history? | Mitral stenosis cause
+key: Exertional breathlessness and haemoptysis? | Pulmonary venous congestion
+key: Palpitations: irregular? | AF
+key: Any stroke symptoms? | Embolic risk
+key: Pregnancy plans not relevant at 58; check other valves | Completeness
+rf: Stroke symptoms | AF with MS has very high embolic risk
+sum: So you had rheumatic fever as a child, you've become breathless over a year, and recently your heart flutters irregularly, with some blood in your phlegm. Is that right?
+pres: Grace Adeyemi is a 58-year-old woman with previous rheumatic fever, a year of exertional breathlessness, occasional haemoptysis and new irregular palpitations. Examination shows an irregularly irregular pulse, malar flush, tapping apex and an apical mid-diastolic murmur. This is rheumatic mitral stenosis complicated by atrial fibrillation.
+ddx: Rheumatic mitral stenosis with AF, because of a mid-diastolic apical murmur, malar flush and AF after rheumatic fever | Mitral regurgitation, told apart by a pansystolic murmur | Lone AF, excluded by the murmur and echo
+ix: ECG; echocardiogram for valve area and pressures; CXR; FBC, U&Es, TFTs
+mx: Anticoagulation with warfarin, as DOACs are not recommended in moderate to severe mitral stenosis; rate control; diuretics; cardiology referral for percutaneous balloon valvotomy or valve replacement
+tell: The rheumatic fever damaged a valve, which has become narrow, and your heart has developed an irregular rhythm. Together these raise the risk of clots and stroke, so you need a blood thinner called warfarin. The valve can often be stretched open with a balloon through a vein.

@@ -1,0 +1,502 @@
+# Station bank: ophthalmology.
+
+=== OP01 | Blepharitis
+who: Margaret Ellis, 49, office manager
+act: Rub your eyelids; blink a lot; eyes look slightly red at the rims.
+open: My eyes feel gritty and itchy, and my eyelids are crusty when I wake up.
+story: For months my eyes have felt sandy and sore, worse in the morning. The lid edges are red and crusty. My vision's fine.
+hpc: Symptoms: Gritty, itchy, burning eyes, both sides
+hpc: Lids: Crusting at the lash line on waking
+hpc: Timing: Months, worse in the mornings
+hpc: Vision: Unchanged
+hpc: Pain and light: No severe pain, no photophobia
+yes: Dandruff; red cheeks and nose flushing
+no: Reduced vision; severe pain; photophobia; one red eye; contact lenses; discharge of pus
+pmh: Rosacea
+dh: None
+all: None
+fh: Nothing relevant
+sh: Screen work all day; non-smoker
+ice: An infection | Damaging her eyes | Something to fix it
+cue: "I'm fed up with it, it's every single morning."
+ask: Will it ever go away?
+key: Both eyes, gritty, crusty lids, worse in the morning? | Blepharitis
+key: Vision, pain, photophobia? | Sight-threatening red eye
+key: Contact lenses? | Keratitis risk
+key: Rosacea, dandruff, seborrhoeic dermatitis? | Associations
+key: Recurrent styes or chalazia? | Meibomian gland disease
+rf: Reduced vision, severe pain or photophobia | Urgent eye assessment
+sum: So for months both your eyes have felt gritty and itchy with crusty lid margins on waking, and your vision is fine with no pain or light sensitivity. Is that right?
+pres: Margaret Ellis is a 49-year-old woman with rosacea and months of bilateral gritty, itchy, burning eyes with lid-margin crusting worse on waking, normal vision and no pain or photophobia. This is chronic blepharitis.
+ddx: Chronic blepharitis with meibomian gland dysfunction, because of bilateral lid-margin symptoms with rosacea | Dry eye disease, which often coexists | Allergic or infective conjunctivitis, distinguished by discharge and onset
+ix: Clinical; slit-lamp examination if unclear
+mx: Explain it is chronic but controllable; daily lid hygiene: warm compresses for 5 to 10 minutes, lid massage, cleaning the lid margins with diluted baby shampoo or lid wipes; lubricating drops; treat rosacea; topical antibiotic or oral doxycycline if persistent
+tell: This is blepharitis, inflammation of the eyelid edges. It's common, not dangerous to your sight, but tends to come back. Warm compresses and cleaning your lid edges every day is the key treatment, and lubricating drops help the grittiness. If your vision drops or the eye becomes painful, get seen the same day.
+
+=== OP02 | Bacterial conjunctivitis
+who: Jamie Turner, 24, barista
+act: Red sticky eyes; keep wiping them with a tissue; otherwise comfortable.
+open: My eyes are red and sticky. I woke up with them glued shut.
+story: It started in my left eye two days ago and spread to the right. There's yellow sticky stuff, especially in the morning. My vision's fine once I wipe them.
+hpc: Onset: 2 days, left then right
+hpc: Discharge: Yellow, sticky, lids stuck in the morning
+hpc: Vision: 6/6
+hpc: Pain: Gritty discomfort only
+hpc: Light: No photophobia
+yes: Flatmate had red eyes last week
+no: Contact lenses; severe pain; photophobia; reduced vision; recent eye injury; genital symptoms; newborn contact
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Barista; lives with flatmates
+ice: Pink eye | Missing work | Antibiotic drops
+cue: "I can't serve customers looking like this."
+ask: Do I need antibiotic drops?
+key: Discharge type: sticky purulent, watery, stringy? | Bacterial, viral or allergic
+key: Vision, pain, photophobia? | Exclude keratitis, uveitis, glaucoma
+key: Contact lenses? | Lens wearers need urgent assessment
+key: Itch, hay fever? | Allergic conjunctivitis
+key: Contacts with similar symptoms, sexual history if relevant? | Spread and chlamydia or gonorrhoea
+rf: Pain, photophobia, reduced vision | Not simple conjunctivitis
+rf: Contact lens wearer | Same-day assessment for keratitis
+sum: So for two days both eyes have been red with yellow sticky discharge, your vision is normal, there's no pain or light sensitivity and you don't wear lenses. Is that right?
+pres: Jamie Turner is a 24-year-old man with 2 days of bilateral red eyes with mucopurulent discharge and morning lid stickiness, visual acuity 6/6, no pain or photophobia and no contact lenses. This is acute infective conjunctivitis, likely bacterial.
+ddx: Acute bacterial conjunctivitis, because of purulent discharge with normal vision | Viral conjunctivitis, with watery discharge and preauricular nodes | Keratitis, uveitis or acute glaucoma, excluded by normal vision and no pain or photophobia
+ix: Clinical; swab only if severe, recurrent or hyperacute
+mx: Usually self-limiting within 7 days; clean lids with cooled boiled water; consider chloramphenicol drops or a delayed prescription if not settling; hand hygiene, no towel sharing; no need to stay off work; seek review if pain, photophobia or reduced vision
+tell: This is conjunctivitis, usually from a germ, and it normally clears on its own within a week. Bathing your eyes and washing your hands helps stop it spreading. I can give you antibiotic drops to use if it isn't settling. If your eye becomes painful, light hurts or your vision drops, come straight back.
+
+=== OP03 | Contact lens-related microbial keratitis
+who: Ella Brooks, 24, student nurse
+act: Eye screwed shut; shielding it from light; tearful from pain.
+open: My right eye is agony and I can't open it in the light.
+story: It started yesterday as a sore eye and got much worse overnight. My vision's blurry and the light is unbearable. I wear monthly contact lenses.
+hpc: Pain: Severe, right eye, since yesterday
+hpc: Photophobia: Marked
+hpc: Vision: Blurred in the right eye
+hpc: Lenses: Monthly soft lenses, sometimes sleeps in them, showers in them
+hpc: Discharge: Watery, some mucus
+yes: White spot on the cornea seen in the mirror
+no: Trauma; previous similar episode; cold sores; other eye affected
+pmh: Myopia
+dh: Contact lens solution
+all: None
+fh: Nothing relevant
+sh: Student nurse; long shifts
+ice: An infection from her lenses | Losing her sight | Drops to fix it
+cue: "I've been really lazy with my lenses lately."
+ask: Will I lose my vision?
+key: Pain, photophobia, reduced vision? | Sight-threatening red eye
+key: Contact lens hygiene: sleeping, swimming or showering in lenses, overuse? | Acanthamoeba and Pseudomonas risk
+key: Trauma or foreign body? | Corneal abrasion
+key: Previous cold sores, recurrent episodes? | Herpes simplex keratitis
+key: Has she removed the lenses? | Immediate step
+rf: Contact lens wearer with painful red eye and reduced vision | Same-day eye casualty
+sum: So since yesterday your right eye has become very painful with light sensitivity and blurred vision, and you sometimes sleep and shower in your monthly lenses. Is that right?
+pres: Ella Brooks is a 24-year-old contact lens wearer with poor lens hygiene presenting with a day of severe right eye pain, marked photophobia, reduced vision and a white corneal opacity. This is microbial keratitis until proven otherwise and needs same-day ophthalmology.
+ddx: Bacterial keratitis such as Pseudomonas, because of a painful red eye with a corneal infiltrate in a lens wearer | Acanthamoeba keratitis, linked to water exposure and severe pain | Herpes simplex keratitis or abrasion, distinguished by a dendritic ulcer on fluorescein or a history of trauma
+ix: Visual acuity; fluorescein staining; same-day slit lamp; corneal scrape for Gram stain and culture, including Acanthamoeba; send the lens and case
+mx: Remove lenses and stop wearing them; same-day eye casualty; intensive topical antibiotics such as a fluoroquinolone hourly; analgesia; cycloplegic drops; no topical steroid until the organism is known; lens hygiene education
+tell: I'm worried you have an infection on the front of your eye from the lenses, which can damage your vision if not treated quickly. Take the lenses out and don't put them back in. I'm sending you to eye casualty today for antibiotic drops very often. Never sleep, swim or shower in lenses again.
+
+=== OP04 | Acute anterior uveitis with axial spondyloarthritis
+who: Rebecca Kerr, 35, solicitor
+act: Shield your left eye from the window; describe aching back stiffness.
+open: My left eye is red and painful, and the light hurts.
+story: Over two days my left eye has become red, aching and blurry, and bright light hurts it. I've had back stiffness for years that's bad in the mornings.
+hpc: Eye: Left, red, aching pain, 2 days
+hpc: Photophobia: Yes
+hpc: Vision: Blurred
+hpc: Redness: Around the iris
+hpc: Back: Morning stiffness over 30 minutes, improves with exercise, years
+yes: Night back pain; heel pain
+no: Discharge; contact lenses; trauma; bowel symptoms; psoriasis; genital symptoms
+pmh: Nothing diagnosed
+dh: Ibuprofen for back
+all: None
+fh: Father has ankylosing spondylitis
+sh: Solicitor; non-smoker
+ice: Conjunctivitis | Going blind | Eye drops
+cue: "I just thought my back was from sitting at a desk."
+ask: Is my back linked to my eye?
+key: Pain, photophobia, blurred vision? | Anterior uveitis
+key: Redness pattern: around the cornea? | Ciliary flush
+key: Previous episodes? | Recurrent uveitis
+key: Inflammatory back pain, joint pain, heel pain? | Spondyloarthritis
+key: Bowel symptoms, psoriasis, genital symptoms? | Associations: IBD, psoriasis, reactive arthritis
+rf: Painful red eye with photophobia and reduced vision | Same-day ophthalmology
+sum: So for two days your left eye has been red, aching and blurred with light sensitivity, and you've had years of morning back stiffness, and your father has ankylosing spondylitis. Is that right?
+pres: Rebecca Kerr is a 35-year-old woman with 2 days of a painful red left eye with circumcorneal injection, photophobia and blurred vision, on a background of inflammatory back pain and a family history of ankylosing spondylitis. This is acute anterior uveitis, likely associated with axial spondyloarthritis.
+ddx: Acute anterior uveitis, HLA-B27-associated, because of a painful photophobic red eye with ciliary flush and inflammatory back pain | Acute angle-closure glaucoma, with a fixed mid-dilated pupil and raised pressure | Keratitis or scleritis, distinguished on slit lamp
+ix: Same-day slit lamp: anterior chamber cells and flare; intraocular pressure; later HLA-B27, CRP, ESR, sacroiliac MRI
+mx: Same-day ophthalmology; topical corticosteroid drops and cycloplegic drops; rheumatology referral for spondyloarthritis; advise urgent review for future episodes
+tell: Your eye has inflammation inside it called uveitis, which needs steroid and dilating drops from the eye team today. Your back symptoms may be a linked condition called axial spondyloarthritis, so I'll also refer you to rheumatology. If it comes back, get seen urgently.
+
+=== OP05 | Scleritis with rheumatoid arthritis
+who: Patricia Lowe, 52, teaching assistant
+act: Hold your right eye; wince when you look around; hands with swollen knuckles.
+open: My right eye is red and the pain is deep, it's keeping me awake.
+story: For four days I've had a deep boring pain in my right eye. It's worse when I move my eye and at night. It's very red, and the vision's slightly blurry.
+hpc: Pain: Deep, boring, severe, worse on eye movement
+hpc: Night pain: Wakes her
+hpc: Redness: Deep, purplish, doesn't blanch
+hpc: Vision: Slightly reduced
+hpc: Duration: 4 days
+yes: Tenderness of the eye; joint flare recently
+no: Discharge; photophobia as main feature; trauma; contact lenses
+pmh: Rheumatoid arthritis
+dh: Methotrexate; folic acid
+all: None
+fh: Nothing relevant
+sh: Teaching assistant; non-smoker
+ice: Conjunctivitis | Losing the eye | Pain relief
+cue: "The pain's worse than my joints."
+ask: Is it linked to my arthritis?
+key: Pain severity, depth, worse with movement, night pain? | Scleritis
+key: Redness: deep, violet, tender? | Scleritis versus episcleritis
+key: Vision? | Complications
+key: Rheumatoid arthritis activity, other autoimmune disease? | Association
+key: Discharge, photophobia? | Alternatives
+rf: Severe eye pain with systemic inflammatory disease | Same-day ophthalmology
+sum: So for four days you've had deep severe pain in your right eye, worse with movement and at night, with deep redness and slightly blurred vision, and you have rheumatoid arthritis. Is that right?
+pres: Patricia Lowe is a 52-year-old woman with rheumatoid arthritis on methotrexate with 4 days of severe deep boring right eye pain worse on eye movement and waking her at night, deep violaceous non-blanching redness and slightly reduced vision. This is anterior scleritis associated with rheumatoid arthritis.
+ddx: Anterior scleritis, because of severe deep pain and violaceous redness with rheumatoid arthritis | Episcleritis, which is mild, superficial and blanches with phenylephrine | Anterior uveitis, with photophobia and anterior chamber cells
+ix: Same-day slit lamp; phenylephrine blanching test; FBC, CRP, ESR, ANCA, RF, U&Es
+mx: Same-day ophthalmology; systemic NSAIDs or oral corticosteroids; immunosuppression with rheumatology; analgesia; monitor for necrotising scleritis
+tell: This looks like scleritis, deep inflammation of the white of the eye, often linked to rheumatoid arthritis. It needs the eye team today, as it can threaten the eye if not treated. They'll likely use anti-inflammatory tablets or steroids and work with your rheumatologist.
+
+=== OP09 | Penetrating eye injury from hammering metal
+who: Liam Hart, 33, car mechanic
+act: Hand over the right eye; anxious; admit you rubbed it.
+open: Something flew into my eye when I was hammering metal. It really hurts.
+story: An hour ago I was hammering a metal panel without goggles. Something hit my right eye. It's painful, watering and blurry. I rubbed it to try to get it out.
+hpc: Mechanism: Hammering metal on metal, no goggles
+hpc: Timing: 1 hour ago
+hpc: Pain: Sharp, right eye
+hpc: Vision: Blurred
+hpc: Rubbed: Yes
+yes: Watering; photophobia
+no: Chemical exposure; loss of consciousness; double vision; other injury
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Car mechanic; tetanus up to date last year
+ice: A bit of grit | Losing his eye | Get it out
+cue: "I should have worn my goggles."
+ask: Can you just flush it out?
+key: Mechanism: metal on metal, high velocity? | Penetrating injury risk
+key: Vision, pain, photophobia? | Severity
+key: Did you wear eye protection? Rubbing? | Risk
+key: Chemical exposure? | Different emergency
+key: Tetanus status | Prophylaxis
+rf: High-velocity metal injury | Exclude intraocular foreign body with X-ray or CT, not MRI
+rf: Irregular pupil, shallow chamber or prolapse | Penetrating injury: shield, no pressure
+sum: So an hour ago something flew into your right eye while hammering metal without goggles, it's painful and blurred, and you rubbed it. Is that right?
+pres: Liam Hart is a 33-year-old mechanic with right eye pain, watering and blurred vision an hour after a high-velocity metal fragment struck the eye while hammering without eye protection. This is a possible penetrating injury with an intraocular foreign body until proven otherwise.
+ddx: Penetrating eye injury with intraocular foreign body, because of high-velocity metal-on-metal injury with reduced vision | Corneal foreign body or abrasion, distinguished on slit lamp and fluorescein | Hyphaema or traumatic uveitis, distinguished on examination
+ix: Visual acuity; inspect without pressing; orbital X-ray or CT to look for a metallic foreign body; never MRI with suspected metal
+mx: Stop rubbing; rigid eye shield, no pad and no pressure; nil by mouth; analgesia and antiemetic; tetanus check; same-day ophthalmology; IV antibiotics if penetrating; occupational eye protection advice
+tell: Because a piece of metal hit your eye at speed, it may have gone inside, even if it doesn't look much. I'll put a hard shield over it without pressing and get an X-ray or CT, and the eye team will see you urgently. Don't rub it or press on it.
+
+=== OP10 | Rhegmatogenous retinal detachment
+who: Susan Grey, 62, retired bank clerk
+act: Calm but worried; cover your left eye to show what you can't see.
+open: This morning I started seeing flashes and lots of floaters, and now there's a dark curtain over part of my vision.
+story: It came on this morning in my left eye. First flashes, then a shower of black dots, and now there's a shadow coming in from the top. It doesn't hurt.
+hpc: Flashes: New, left eye
+hpc: Floaters: Shower of new floaters
+hpc: Curtain: Dark shadow from above, spreading
+hpc: Pain: None
+hpc: Onset: This morning
+yes: Short-sighted
+no: Pain; red eye; headache; jaw pain; trauma; previous detachment
+pmh: High myopia; cataract surgery on the left 2 years ago
+dh: None
+all: None
+fh: Nothing relevant
+sh: Lives with husband; drives
+ice: Tired eyes | Going blind | To see properly
+cue: "Will I lose the sight in that eye?"
+ask: Do I need an operation?
+key: Flashes, floaters, curtain or shadow? | Retinal tear and detachment
+key: Onset and progression? | Urgency
+key: Is the central vision affected? | Macula on or off
+key: Myopia, cataract surgery, trauma? | Risk factors
+key: Pain, red eye? | Alternatives
+rf: New flashes and floaters with a curtain | Same-day ophthalmology
+sum: So since this morning you've had flashes, a shower of floaters and now a dark curtain over the top of your left eye's vision, without pain. Is that right?
+pres: Susan Grey is a 62-year-old highly myopic woman with previous left cataract surgery and sudden painless left flashes, a shower of floaters and a progressive superior visual field shadow since this morning. This is a rhegmatogenous retinal detachment.
+ddx: Rhegmatogenous retinal detachment, because of flashes, floaters and a curtain in a myopic pseudophakic eye | Posterior vitreous detachment without tear, without a field defect | Vitreous haemorrhage or retinal vein occlusion, distinguished on dilated fundoscopy
+ix: Visual acuity; visual fields; same-day dilated fundoscopy; B-scan ultrasound if view obscured
+mx: Same-day ophthalmology; surgery: vitrectomy, scleral buckle or pneumatic retinopexy; positioning advice as instructed; urgency greatest if macula still on
+tell: These symptoms mean the retina at the back of your eye may be peeling away, which needs treatment today to save your vision. I'm sending you straight to eye casualty. If it's caught before the centre is affected, surgery usually saves good sight.
+
+=== OP12 | Age-related cataract
+who: Joan Fisher, 77, retired seamstress
+act: Squint, especially towards the window; hold a magnifying glass.
+open: My eyes have been getting more blurry, and car headlights dazzle me at night. Will new glasses fix it?
+story: Over a year or two my vision has gradually become misty. Headlights at night have halos and dazzle me. I struggle to read and to thread a needle. It doesn't hurt.
+hpc: Vision: Gradual blurring, both eyes, worse right, 1 to 2 years
+hpc: Glare: Headlights, bright sunlight
+hpc: Reading: Struggles, needs more light
+hpc: Pain: None
+hpc: Glasses: Changed twice in a year
+yes: Faded colours; worse in bright light
+no: Sudden loss; distortion; flashes or floaters; pain; red eye; headache
+pmh: Type 2 diabetes; hypertension
+dh: Metformin; amlodipine; inhaled steroid for asthma
+all: None
+fh: Mother had cataracts
+sh: Lives alone; still drives in daylight
+ice: Needs new glasses | Going blind and losing independence | Glasses to fix it
+cue: "I've stopped driving at night and I miss seeing friends."
+ask: Will new glasses alone fix it?
+key: Gradual or sudden, one or both eyes? | Cataract is gradual
+key: Glare, halos, faded colours? | Cataract features
+key: Distortion, central loss, flashes, pain? | Other causes
+key: Functional impact: reading, driving, falls? | Indication for surgery
+key: Risk factors: diabetes, steroids, smoking? | Cause
+rf: Sudden visual loss | Urgent assessment
+rf: Driving with vision below the DVLA standard | Must stop driving
+sum: So over a couple of years your vision has gradually become misty with glare from headlights and difficulty reading, without pain or sudden changes. Is that right?
+pres: Joan Fisher is a 77-year-old woman with diabetes and inhaled steroid use with 1 to 2 years of gradual painless bilateral blurred vision, glare and halos from headlights, faded colours and difficulty reading, affecting her independence and night driving. This is age-related cataract.
+ddx: Age-related cataract, because of gradual painless glare and blurring | Age-related macular degeneration, with central distortion | Diabetic retinopathy or refractive change, distinguished on fundoscopy and refraction
+ix: Visual acuity with pinhole; red reflex; fundoscopy; refer to optometrist and ophthalmology
+mx: New glasses may help briefly but won't fix the cloudy lens; refer for cataract surgery when symptoms affect daily life per NICE; phacoemulsification with lens implant as a day case; driving: check she meets the DVLA standard
+tell: The lens inside your eye has become cloudy; this is a cataract. New glasses can help a little, but they can't clear the cloudiness. A short day-case operation replaces the cloudy lens and usually improves vision a lot. Until then, please check you can still read a number plate at 20 metres before driving.
+
+=== OP13 | Neovascular age-related macular degeneration
+who: Arthur Webb, 79, retired joiner
+act: Tilt your head to use the side of your vision; hold up a bent newspaper line.
+open: Straight lines have started looking wavy, and it's come on over three days.
+story: In my right eye, door frames and lines on the paper look bent. The centre of what I'm looking at is a bit blurry. My side vision is fine.
+hpc: Distortion: Straight lines wavy, right eye
+hpc: Onset: 3 days
+hpc: Central vision: Blurred
+hpc: Peripheral vision: Preserved
+hpc: Report: Drusen and new subretinal fluid at the macula on OCT
+yes: Smoker in the past; dry AMD in the left eye
+no: Pain; red eye; flashes; floaters; headache; jaw pain
+pmh: Dry macular degeneration in the left eye; hypertension
+dh: Amlodipine
+all: None
+fh: Sister has macular degeneration
+sh: Ex-smoker; lives with wife; reads a lot
+ice: Getting older | Going blind | To keep reading
+cue: "Reading is all I've got since I retired."
+ask: Is there treatment?
+key: Distortion, central blur, onset? | Wet AMD
+key: Which eye; is the other eye affected? | Bilateral risk
+key: Peripheral vision preserved? | Macular disease
+key: Pain, red eye, flashes? | Alternatives
+key: Smoking, family history | Risk
+rf: New distortion with subretinal fluid | Urgent macular clinic within days
+sum: So over three days straight lines in your right eye look wavy and the centre is blurred, your side vision is fine, and the scan shows fluid at the macula. Is that right?
+pres: Arthur Webb is a 79-year-old ex-smoker with known left dry AMD and 3 days of right metamorphopsia and central blur with preserved peripheral vision, with drusen and new subretinal fluid on OCT. This is neovascular wet age-related macular degeneration.
+ddx: Neovascular age-related macular degeneration, because of new distortion with subretinal fluid | Dry AMD progression, without fluid | Central serous chorioretinopathy or macular oedema from vein occlusion, distinguished on OCT and angiography
+ix: Visual acuity; Amsler grid; OCT; fluorescein or OCT angiography
+mx: Urgent referral to the macular service, seen within 2 weeks; intravitreal anti-VEGF injections such as aflibercept or ranibizumab, loading then maintenance; Amsler monitoring of the other eye; smoking avoidance; low-vision support
+tell: The wavy lines are caused by a leaky blood vessel under the centre of the retina, called wet macular degeneration. There's good treatment with injections into the eye, which work best if started quickly, so I'm referring you urgently. They can often stabilise or improve your vision.
+
+=== OP14 | Proliferative diabetic retinopathy found on screening
+door: Retinal screening review: a 56-year-old woman with diabetes has screening photographs showing retinal haemorrhages, cotton-wool spots and new vessels at the disc. She sees well and wants to postpone her eye appointment.
+who: Lorraine Price, 56, care home manager
+act: Relaxed, sure nothing's wrong because you can see well; busy.
+open: The screening letter said I need to see the eye clinic, but my eyes are perfect. Can I put it off until after Christmas?
+story: I can read fine with my glasses. I've had diabetes for 15 years. My sugars haven't been great.
+hpc: Vision: Normal to her
+hpc: Diabetes: Type 2 for 15 years, HbA1c 82
+hpc: Screening: Haemorrhages, cotton-wool spots and new vessels at the disc
+hpc: BP: 158/92
+hpc: Kidneys: ACR raised
+yes: Missed last year's screening
+no: Floaters; sudden loss; pain; distortion
+pmh: Type 2 diabetes; hypertension
+dh: Metformin; gliclazide; ramipril
+all: None
+fh: Mother had diabetes and lost sight
+sh: Care home manager; long shifts; non-smoker
+ice: Nothing's wrong because she can see | Losing her sight like her mother | To postpone
+cue: "Mum lost her sight in the end."
+ask: Why do I need to go if I can see fine?
+key: What does she understand about the result? | Starts where she is
+key: Explain: new vessels can bleed or detach the retina without warning, and good vision now doesn't mean safety | Core message
+key: Treatment: laser or injections can prevent sight loss if done before bleeding | Benefit of acting now
+key: Diabetes, BP and cholesterol control | Slows progression
+key: Explore her barriers to attending and agree a plan | Shared decision
+rf: New vessels at the disc | Urgent ophthalmology within 2 weeks
+rf: Sudden floaters or loss of vision | Vitreous haemorrhage: same day
+sum: So the screening shows bleeding spots and new blood vessels at the back of your eye, but you see well and want to delay the eye clinic. Is that right?
+pres: Lorraine Price is a 56-year-old woman with poorly controlled type 2 diabetes, hypertension and albuminuria whose screening photographs show retinal haemorrhages, cotton-wool spots and new vessels at the disc. This is proliferative diabetic retinopathy, which needs urgent treatment despite good visual acuity.
+ddx: Proliferative diabetic retinopathy, because of new vessels at the disc | Pre-proliferative retinopathy alone, excluded by the presence of new vessels | Hypertensive retinopathy, which may coexist
+ix: Urgent ophthalmology; OCT for macular oedema; HbA1c, lipids, U&Es, ACR
+mx: Urgent referral to ophthalmology to be seen within 2 weeks; panretinal photocoagulation or anti-VEGF; optimise HbA1c, BP and lipids; diabetes team; safety-net for sudden floaters or visual loss
+tell: Even though you see well now, the new blood vessels at the back of your eye are fragile and can bleed suddenly, causing serious sight loss. Laser or injections now can prevent that, which is why the appointment can't wait until after Christmas. Getting your sugar and blood pressure down also protects your eyes.
+
+=== OP16 | Low vision and rehabilitation
+who: Edith Morris, 82, retired teacher
+act: Hold a magnifier; peer around the edge of objects.
+open: I can't read my medicine labels or the bus numbers any more. I'm frightened of losing my independence.
+story: I have macular degeneration in both eyes. The injections stopped helping. I live alone and I'm frightened I'll have to go into a home.
+hpc: Diagnosis: Bilateral AMD, central vision lost
+hpc: Reading: Can't read labels or post
+hpc: Mobility: Can't read bus numbers, nervous crossing roads
+hpc: Falls: One trip on the stairs
+hpc: Mood: Low, more isolated
+yes: Sees faces as blurred; visual hallucinations of patterns sometimes
+no: Pain; red eye; sudden new change
+pmh: Bilateral AMD; atrial fibrillation; osteoporosis
+dh: Apixaban; bisoprolol; alendronic acid
+all: None
+fh: Nothing relevant
+sh: Lives alone; daughter visits weekly; stopped driving years ago
+ice: Her sight is gone | Losing independence and going into a home | Help to keep living at home
+cue: "Sometimes I see patterns that aren't there, am I going mad?"
+ask: Can anything give me my sight back?
+key: What can and can't she do day to day? | Functional assessment
+key: Medicines: can she manage them safely? | Safety
+key: Falls, mobility, home safety? | Risk
+key: Mood and isolation | Depression is common
+key: Visual hallucinations: Charles Bonnet syndrome | Reassure
+key: Certificate of visual impairment, low-vision services, benefits | Support
+rf: Unable to manage medicines | Dosette, pharmacy support, carers
+sum: So with macular degeneration in both eyes you can't read labels or bus numbers, you've had a trip, you feel low, and you sometimes see patterns, and you want to stay at home. Is that right?
+pres: Edith Morris is an 82-year-old woman living alone with end-stage bilateral AMD and loss of central vision, unable to read medication labels or bus numbers, with a fall, low mood and Charles Bonnet hallucinations. The focus is rehabilitation, safety and independence rather than restoring sight.
+ddx: Visual impairment from bilateral AMD with functional decline | Charles Bonnet syndrome for her hallucinations, in clear consciousness with insight | Depression, which needs screening and support
+ix: Low-vision assessment; falls assessment; mood screen; medicines review
+mx: Low-vision clinic: magnifiers, lighting, large print, talking devices; certificate of visual impairment and sight loss registration; eye clinic liaison officer; RNIB and local sight loss charities; occupational therapy home assessment; pharmacy support with large-print labels or a dosette; benefits advice; social contact; reassure about Charles Bonnet syndrome
+tell: I can't promise your sight will come back, but there is a lot of support to help you stay independent at home: magnifiers, better lighting, talking labels, help with medicines and a home safety check. The patterns you see are common with sight loss and called Charles Bonnet syndrome; it isn't a sign of madness.
+
+=== OP17 | Steroid eye drop complication
+who: Sam Okoye, 31, delivery driver
+act: Squinting, eye watering, rubbing your forehead; want the prescription quickly.
+open: I just need another bottle of my steroid eye drops. My eye's getting worse.
+story: A month ago I had a painful red eye and a friend's spare steroid drops helped at first. I then got a prescription from a walk-in centre. Now the pain and blurring are much worse.
+hpc: Drops: Prednisolone drops for a month, no eye review
+hpc: Pain: Increasing, right eye
+hpc: Vision: Reduced
+hpc: Original problem: Painful red eye, unsure of diagnosis
+hpc: Cold sores: Has had them
+yes: Photophobia; watering
+no: Trauma; contact lenses; headache with vomiting; halos
+pmh: Recurrent cold sores
+dh: Prednisolone 1% eye drops
+all: None
+fh: Nothing relevant
+sh: Delivery driver
+ice: Needs more drops | Losing the eye or his job | A repeat prescription
+cue: "I can't afford time off to sit in eye casualty."
+ask: Can you just give me a repeat?
+key: What was the original diagnosis and who prescribed the drops? | Was it ever diagnosed?
+key: Pain, vision, photophobia now? | Worsening on treatment
+key: Cold sores, contact lenses, trauma? | Herpes simplex keratitis worsened by steroids
+key: Halos, headache, vomiting? | Steroid-induced raised pressure
+key: How long on drops, any eye review? | Steroid risks: glaucoma, cataract, infection
+rf: Worsening pain and vision on steroid drops | Same-day ophthalmology, do not repeat
+sum: So you've used steroid drops for a month without an eye check, and the pain and blurring in your right eye are getting worse, and you get cold sores. Is that right?
+pres: Sam Okoye is a 31-year-old man with a history of cold sores using topical prednisolone for a month for an undiagnosed painful red eye without ophthalmic review, now with worsening pain, photophobia and reduced vision. Steroid-worsened herpes simplex keratitis or steroid-induced glaucoma must be excluded; a repeat prescription is not safe.
+ddx: Herpes simplex keratitis worsened by topical steroids, because of cold sores and deterioration on steroid | Steroid-induced ocular hypertension or glaucoma, assessed by intraocular pressure | Undertreated uveitis or other keratitis, distinguished on slit lamp
+ix: Visual acuity; fluorescein for a dendritic ulcer; intraocular pressure; same-day slit lamp
+mx: Do not issue a repeat; same-day eye casualty; ophthalmology decides about stopping or tapering steroids; antiviral such as topical aciclovir or ganciclovir if HSV; manage pressure if raised; fit note
+tell: I'm not able to give you more steroid drops, because your eye is getting worse on them, and steroids can make some infections like cold sore virus much worse or raise the pressure in the eye. You need to be seen at eye casualty today so they can find the cause and treat it properly.
+
+=== OP18 | Giant cell arteritis with transient visual loss
+who: Dorothy Kent, 74, retired seamstress
+act: Touch your temple tenderly; mention brushing your hair hurts.
+open: I've had a new headache at my temple, and this morning my vision went dark in one eye for a few minutes.
+story: For two weeks I've had a headache on the right side. My scalp is sore when I brush my hair. My jaw aches when I chew. This morning my right eye went dark for about five minutes.
+hpc: Headache: New, right temple, 2 weeks
+hpc: Scalp: Tender to brushing hair
+hpc: Jaw claudication: Pain on chewing
+hpc: Vision: Transient right monocular loss this morning, 5 minutes
+hpc: ESR: 82
+yes: Shoulder and hip stiffness in the mornings; fatigue; weight loss
+no: Previous similar headache; persistent visual loss; double vision; limb weakness
+pmh: Hypertension; osteopenia
+dh: Amlodipine
+all: None
+fh: Nothing relevant
+sh: Lives with husband; non-smoker
+ice: A migraine | Going blind | Pain relief
+cue: "I thought it was just tension."
+ask: Will I go blind?
+key: New headache over 50? | GCA red flag
+key: Scalp tenderness, jaw claudication? | GCA features
+key: Visual symptoms: loss, blurring, diplopia? | Ischaemic risk
+key: Shoulder and hip girdle stiffness? | Polymyalgia rheumatica
+key: Systemic: weight loss, fever, fatigue? | Inflammation
+rf: GCA with visual symptoms | Immediate steroids and same-day ophthalmology
+sum: So for two weeks you've had a new right temple headache with a sore scalp and jaw pain when chewing, and this morning your right eye went dark for five minutes, with an ESR of 82. Is that right?
+pres: Dorothy Kent is a 74-year-old woman with 2 weeks of new right temporal headache, scalp tenderness, jaw claudication, polymyalgic symptoms and transient right monocular visual loss this morning, with ESR 82. This is giant cell arteritis with visual involvement, a sight-threatening emergency.
+ddx: Giant cell arteritis with amaurosis fugax, because of new headache, jaw claudication, scalp tenderness and transient visual loss | Retinal or carotid embolic TIA, assessed with carotid imaging | Migraine or tension headache, excluded by age, raised ESR and features
+ix: FBC, CRP, ESR, U&Es, LFTs; temporal artery ultrasound or biopsy within 1 to 2 weeks of starting steroids; ophthalmology assessment
+mx: Start high-dose glucocorticoids immediately without waiting for tests: with visual symptoms, IV methylprednisolone or oral prednisolone 60 mg per local protocol; same-day ophthalmology and rheumatology; bone protection; PPI if indicated; aspirin is not routinely advised
+tell: I think you have giant cell arteritis, inflammation of the arteries in the head. The darkening in your eye is a warning that it could cause permanent sight loss, so we're starting high-dose steroids today and you'll see the specialists today. If your vision goes again, call 999.
+
+=== OP19 | Preseptal cellulitis in a child
+who: Hannah Wright, mother of Oscar, 7
+act: Calm but worried; Oscar is watching a tablet, eyelid swollen.
+open: Oscar's eyelid is red and swollen. Does that mean the infection is behind his eye?
+story: Two days ago he had a cold, then he scratched an insect bite near his eyebrow. Yesterday the eyelid became red and swollen. He has a mild temperature but he's playing.
+hpc: Eyelid: Left upper lid red and swollen, 1 day
+hpc: Fever: 37.8
+hpc: Vision: Normal
+hpc: Eye movements: Full, painless
+hpc: Proptosis: None
+yes: Insect bite near the eyebrow; recent cold
+no: Pain on moving the eye; double vision; bulging eye; reduced vision; drowsiness; headache; vomiting
+pmh: Nothing
+dh: Calpol
+all: None
+fh: Nothing relevant
+sh: Primary school; fully vaccinated
+ice: An infected bite | Infection spreading to his eye or brain | Antibiotics
+cue: "I read about kids losing their sight."
+ask: Does all swelling mean infection behind the eye?
+key: Vision: can he see normally? | Orbital involvement
+key: Pain on moving the eye, double vision? | Orbital cellulitis
+key: Bulging eye? | Proptosis
+key: Fever, drowsiness, headache, vomiting? | Systemic or intracranial spread
+key: Source: bite, sinusitis, trauma? | Cause
+rf: Reduced vision, painful or reduced eye movements, proptosis | Orbital cellulitis: emergency CT, IV antibiotics, ENT and ophthalmology
+sum: So after a cold and a scratched bite, Oscar's left upper eyelid became red and swollen with a mild temperature, but his vision and eye movements are normal and his eye isn't bulging. Is that right?
+pres: This is a history from Hannah about her son Oscar, 7, with a day of left upper eyelid erythema and swelling after a scratched insect bite and a cold, temperature 37.8, with normal vision, full painless eye movements and no proptosis. This is preseptal cellulitis without orbital signs.
+ddx: Preseptal periorbital cellulitis, because of lid swelling with normal vision and eye movements | Orbital cellulitis, excluded by no pain on movement, diplopia, proptosis or visual loss | Allergic reaction or insect bite swelling, which is itchy without fever
+ix: Visual acuity and colour vision; eye movements; FBC, CRP if unwell; CT orbits only if orbital signs
+mx: Oral co-amoxiclav; discuss with paediatrics or ophthalmology per local pathway; review within 24 to 48 hours; strict safety-net for orbital signs; analgesia
+tell: Not all eyelid swelling means infection behind the eye. Oscar's vision and eye movements are normal and his eye isn't bulging, so this is an infection of the eyelid in front of the eye. Antibiotics by mouth should treat it. If he has pain moving his eye, double vision, the eye bulges or he becomes drowsy, take him to A&E straight away.
+
+=== OP20 | Alkali chemical eye injury
+who: Karen Moss, 32, office cleaner
+act: Screaming in pain, eye clamped shut, holding the bottle.
+open: I've splashed oven cleaner in my eye! It's burning!
+story: Ten minutes ago, the spray bottle nozzle slipped and it went straight into my right eye. It's burning and blurry.
+hpc: Agent: Alkaline oven cleaner, sodium hydroxide
+hpc: Time: 10 minutes ago
+hpc: Eye: Right
+hpc: Irrigation: None yet
+hpc: Symptoms: Severe pain, blurred vision
+yes: Container available
+no: Other injuries; ingestion; inhalation
+pmh: Nothing
+dh: None
+all: None
+fh: Not relevant
+sh: Cleaner
+ice: Burn | Going blind | Stop the pain
+cue: "Please do something now!"
+ask: Am I going to be blind?
+key: Start irrigation immediately, before a full history | Alkali penetrates deeply: minutes matter
+key: Topical anaesthetic drops, then irrigate with at least 1 to 2 L of saline or water, everting the lids | Irrigation technique
+key: Check pH after irrigation, continue until pH 7.0 to 7.5 | Endpoint
+key: Identify the chemical from the container | Alkali worse than acid
+key: Remove particles from the fornices | Retained chemical
+rf: Alkali injury | Emergency: irrigate first, ophthalmology same day
+sum: Karen, you got oven cleaner in your right eye 10 minutes ago. We're washing it out now.
+pres: Karen Moss is a 32-year-old cleaner with an alkaline oven cleaner splash to the right eye 10 minutes ago with severe pain and blurred vision. I started immediate copious irrigation after topical anaesthetic, with lid eversion and pH checks, before a full history, and will refer to ophthalmology urgently for grading.
+ddx: Alkali chemical injury to the right eye, an emergency | Acid injury, less penetrating, excluded by the container | Corneal abrasion or foreign body, assessed after irrigation
+ix: pH of the tear film before and after irrigation; visual acuity once irrigated; fluorescein; limbal ischaemia assessment by ophthalmology
+mx: Immediate irrigation with at least 1 to 2 L, continuing until pH 7.0 to 7.5; remove particles; analgesia; same-day ophthalmology; topical antibiotic, steroid and cycloplegic as directed; workplace safety advice
+tell: We're washing your eye straight away with lots of fluid, because getting the chemical out quickly is the most important thing for your sight. It'll feel better once numbing drops work. We'll keep going until your eye is neutral, then the eye specialists will check for damage.

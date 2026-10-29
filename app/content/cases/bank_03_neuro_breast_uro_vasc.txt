@@ -1,0 +1,1553 @@
+# Station bank: neurology, breast and hernia, urology and vascular.
+
+=== NE01 | Migraine with aura, on the combined pill
+who: Hannah Price, 26, marketing assistant
+act: Sunglasses pushed up on your head; wince at bright light. Calm between attacks.
+open: I keep getting bad headaches on one side. They knock me out for the day.
+story: They're throbbing on one side, with sickness, and light hurts. They last about eight hours. Before some, I see zigzag lines for about 20 minutes.
+hpc: Pattern: Unilateral, throbbing, 8 hours, 3 times this month
+hpc: Associated: Nausea, photophobia, phonophobia
+hpc: Aura: ONLY IF ASKED: zigzag lines for 20 minutes before some attacks, fully resolving
+hpc: Triggers: Periods, poor sleep, skipped meals
+hpc: Painkillers: Ibuprofen 2 to 3 days a week
+yes: Aura; nausea; photophobia
+no: Thunderclap onset; worst ever; fever; neck stiffness; weakness lasting beyond the aura; worse on lying down or coughing; new over 50
+pmh: Similar headaches since her teens
+dh: Combined oral contraceptive pill; ibuprofen
+all: None
+fh: Mother has migraine
+sh: Non-smoker; 8 units a week; marketing assistant
+ice: Migraine | A brain tumour | Better treatment
+cue: "I've had to leave work twice this month."
+ask: Is it a tumour?
+key: Describe a typical headache: side, character, duration, frequency | Migraine features
+key: Any visual symptoms before the headache, and how long do they last? | Aura
+key: Contraception: are you on the combined pill? | Migraine with aura plus combined pill is UKMEC 4: stroke risk
+key: How many days a week do you take painkillers? | Medication overuse headache
+key: Red flags: thunderclap, fever, neck stiffness, positional, focal deficit | Secondary causes
+rf: Sudden worst-ever headache, or aura lasting over an hour or with weakness | Secondary cause or stroke
+rf: Combined pill with aura | Stop the pill
+sum: So for years you've had one-sided throbbing headaches lasting eight hours with nausea and light sensitivity, some preceded by zigzag lines, and you take the combined pill. Is that right?
+pres: Hannah Price is a 26-year-old woman with recurrent unilateral throbbing headaches lasting 8 hours with nausea, photophobia and typical visual aura, with a normal neurological examination and a family history. She takes the combined pill. This is migraine with aura, and the combined pill is contraindicated.
+ddx: Migraine with aura, because of recurrent typical attacks with fully reversible visual aura | Medication overuse headache, considered with frequent analgesia | Secondary headache such as raised ICP or arterial dissection, excluded by the absence of red flags
+ix: Clinical diagnosis; headache diary; no imaging needed with a normal examination
+mx: Stop the combined pill and switch to progestogen-only or non-hormonal contraception; acute: triptan plus NSAID or paracetamol, antiemetic; limit analgesia to fewer than 10 days a month; prophylaxis such as propranolol or amitriptyline if frequent; lifestyle triggers
+tell: These are migraines, not a tumour. Because you get warning zigzags, the combined pill raises your stroke risk, so we'll switch your contraception to a progestogen-only method. For attacks, take a triptan with ibuprofen early. If you ever get a sudden worst-ever headache or weakness that doesn't go, call 999.
+
+=== NE02 | Raised intracranial pressure from a space-occupying lesion
+who: Philip Barnes, 58, accountant
+act: Slow, tired, rub your forehead; right arm slightly clumsy; wife answers some questions.
+open: I've had headaches every morning for weeks, and I've been sick. Now my right arm's weak.
+story: For six weeks I've woken with headaches. They're worse when I cough or bend. I've been sick in the mornings. This week my right arm has gone weak.
+hpc: Headache: Morning, 6 weeks, worsening
+hpc: Worse: Coughing, bending, lying down
+hpc: Vomiting: Mornings
+hpc: Weakness: Right arm, this week
+hpc: Behaviour: Wife says he's more forgetful and irritable
+yes: Morning vomiting; right arm weakness; personality change
+no: Fever; neck stiffness; thunderclap; seizures yet; known cancer; weight loss
+pmh: Nothing
+dh: Paracetamol
+all: None
+fh: Nothing relevant
+sh: Ex-smoker; 10 units a week; accountant
+ice: Stress | A brain tumour | Answers
+cue: Wife: "He's just not himself."
+ask: Is it a tumour?
+key: When are the headaches worst, and what makes them worse? | Morning and Valsalva-provoked headache
+key: Vomiting, visual blurring? | Raised ICP
+key: Weakness, numbness, speech, personality change? | Focal deficit
+key: Seizures? | Cortical irritation
+key: Any cancer history, weight loss? | Metastases
+rf: Headache with focal deficit and vomiting | Urgent imaging
+rf: Drowsiness | Herniation
+sum: So for six weeks you've had morning headaches worse on coughing and bending, with morning vomiting, and this week your right arm has become weak. Is that right?
+pres: Philip Barnes is a 58-year-old man with 6 weeks of progressive morning headaches worse with Valsalva, morning vomiting, personality change and new right arm weakness. These features indicate raised intracranial pressure with a left hemisphere space-occupying lesion until proven otherwise.
+ddx: Intracranial space-occupying lesion such as a glioma or metastasis, because of raised ICP features and a focal deficit | Chronic subdural haematoma, told apart by history of a fall and imaging | Abscess, suggested by fever, distinguished on imaging
+ix: Neurological examination and fundoscopy for papilloedema; urgent CT then MRI with contrast; FBC, U&Es, CRP; staging CT if metastases suspected; no LP
+mx: Same-day referral; dexamethasone with a PPI if a mass with oedema; neurosurgical and neuro-oncology MDT; seizure management if needed; stop driving and inform the DVLA
+tell: Headaches that are worse in the morning, with sickness and new arm weakness, can mean raised pressure inside the head. We need an urgent brain scan today. If there's a growth, a steroid medicine can reduce swelling quickly, and the brain specialists will discuss treatment.
+
+=== NE03 | Subarachnoid haemorrhage
+who: Sandra Lowe, 46, fitness instructor
+act: Lying still, hand on the back of your neck; nauseous; alert but in agony.
+open: I was teaching a class and suddenly got the worst headache of my life.
+story: It was instant, like being hit on the back of the head. I was sick straight away. My neck is stiff.
+hpc: Onset: Instantaneous, peak within seconds, during exercise, 2 hours ago
+hpc: Site: Occipital, into the neck
+hpc: Severity: 10 out of 10, worst ever
+hpc: Associated: Vomiting, neck stiffness
+hpc: BP: 164/92
+yes: Vomiting; neck pain; photophobia
+no: Trauma; fever; rash; loss of consciousness; seizure; weakness
+pmh: High blood pressure
+dh: None, should be on amlodipine but stopped
+all: None
+fh: Brother has polycystic kidney disease
+sh: Smokes 5 a day; fitness instructor
+ice: A migraine | A bleed | Pain relief
+cue: "It was like an explosion in my head."
+ask: Is it a bleed?
+key: Exactly how quickly did it peak? | Thunderclap within a minute
+key: Activity at onset? | Exertion
+key: Vomiting, neck stiffness, light sensitivity? | Meningism
+key: Loss of consciousness, seizures, weakness? | Severity
+key: Family history of aneurysms or kidney cysts? | ADPKD
+rf: Reduced GCS | Neurosurgical emergency
+sum: So two hours ago, while exercising, you had an instant worst-ever headache at the back of your head with vomiting and neck pain. Is that right?
+pres: Sandra Lowe is a 46-year-old hypertensive smoker with a thunderclap occipital headache during exertion 2 hours ago, with vomiting and neck pain, alert with BP 164/92, and a brother with polycystic kidney disease. This is subarachnoid haemorrhage until proven otherwise.
+ddx: Aneurysmal subarachnoid haemorrhage, because of a thunderclap exertional headache with meningism | Reversible cerebral vasoconstriction syndrome or dissection, told apart by CT angiography | Migraine, excluded by an instantaneous onset never experienced before
+ix: Non-contrast CT head now, within 6 hours; if positive, CT angiography; if negative and within 6 hours, SAH is effectively excluded; FBC, U&Es, clotting, group and save; ECG
+mx: Analgesia and antiemetic; neuro observations; if confirmed: nimodipine 60 mg 4-hourly, neurosurgery for coiling or clipping, BP control, sodium monitoring
+tell: A sudden headache like this needs an urgent scan to check for bleeding around the brain. If there is a bleed, the brain team will treat the weak spot in the blood vessel. Tell us immediately if you feel drowsy, weak or confused.
+
+=== NE04 | Chronic subdural haematoma on anticoagulation
+who: Janet Moore, daughter of Fred Moore, 82
+act: Worried and organised; Fred is confused, slow, holding his head.
+open: Dad's been getting more confused for a week, and he fell three weeks ago.
+story: He tripped in the kitchen three weeks ago and hit his head. He seemed fine. This week he's confused, headachy and walking more slowly.
+hpc: Fall: 3 weeks ago, struck head, no loss of consciousness
+hpc: Confusion: Increasing over a week, fluctuating
+hpc: Headache: Worsening
+hpc: Gait: Slower, unsteady
+hpc: Anticoagulation: Apixaban for AF
+yes: Headache; confusion; slow gait; drowsiness
+no: Fever; urinary symptoms; seizures; new medicines; vomiting
+pmh: Atrial fibrillation; high blood pressure
+dh: Apixaban 5 mg twice daily; bisoprolol
+all: None
+fh: Not relevant
+sh: Lives alone; independent until recently
+ice: Dementia | Brain damage | Answers
+cue: "I should have brought him straight in after the fall."
+ask: Is it dementia?
+key: Details of the fall: when, head strike, loss of consciousness? | Mechanism
+key: Anticoagulants or antiplatelets? | Major risk
+key: How has the confusion developed and does it fluctuate? | Subacute course
+key: Headache, drowsiness, vomiting, weakness? | Mass effect
+key: Baseline cognition and function? | Comparison
+rf: Falling GCS or new focal deficit | Neurosurgical emergency
+sum: So three weeks after a fall where he hit his head, your dad has become increasingly confused with worsening headache and slower walking, and he takes apixaban. Is that right?
+pres: This is a collateral history from Janet about her father, 82, on apixaban for AF, who struck his head 3 weeks ago and now has a week of fluctuating confusion, worsening headache and gait slowing. This is a chronic subdural haematoma until proven otherwise.
+ddx: Chronic subdural haematoma, because of subacute deterioration weeks after head injury on anticoagulation | Delirium from infection or metabolic causes, excluded with bloods and a septic screen | Stroke or dementia progression, distinguished by tempo and imaging
+ix: Urgent non-contrast CT head; FBC, U&Es, clotting, glucose; neuro observations
+mx: Hold apixaban; discuss reversal with andexanet alfa or prothrombin complex concentrate per local protocol; neurosurgical referral for burr hole drainage if symptomatic; later decision about restarting anticoagulation
+tell: I'm worried there's a slow bleed under the skull from the fall, made more likely by his blood thinner. We're doing an urgent scan. If it's confirmed, the brain surgeons can often drain it with a small procedure, and many people improve a lot afterwards.
+
+=== NE05 | Meningococcal meningitis with septicaemia
+who: Ben Hollis, 20, university student
+act: Curled away from light, groaning; flinch when your neck is moved; rash on the shins.
+open: My head's killing me and the light hurts.
+story: Since last night I've had a terrible headache, fever and stiff neck. My flatmate saw spots on my legs.
+hpc: Headache: Severe, since last night
+hpc: Fever: 39.1, rigors
+hpc: Neck: Stiff
+hpc: Light: Hurts
+hpc: Rash: Non-blanching spots on legs
+hpc: Observations: HR 118, BP 104/62
+yes: Vomiting; leg pain; cold hands
+no: Head injury; seizures; travel; immunosuppression
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Lives in halls; 20 units a week
+ice: Freshers' flu | Dying | Help
+cue: "My legs really ache."
+ask: Is it meningitis?
+key: When did it start, and how fast? | Rapid progression
+key: Headache, neck stiffness, photophobia, vomiting? | Meningism
+key: Rash: where, does it fade with a glass? | Non-blanching rash
+key: Cold hands and feet, leg pain? | Early sepsis
+key: Vaccination history, contacts? | Public health
+rf: Non-blanching rash with fever | Antibiotics immediately
+rf: Shock | Fluids and critical care
+sum: So since last night you've had a severe headache, high fever, stiff neck, light sensitivity and a spotty rash on your legs. Is that right?
+pres: Ben Hollis is a 20-year-old student with fever of 39.1, severe headache, photophobia, neck stiffness and a non-blanching rash, with HR 118 and BP 104/62. This is meningococcal meningitis with septicaemia.
+ddx: Meningococcal meningitis and septicaemia, because of fever, meningism and a non-blanching rash | Viral meningitis, without rash or shock | Other sepsis with DIC, distinguished by cultures
+ix: Blood cultures and meningococcal PCR without delaying antibiotics; FBC, CRP, U&Es, clotting, lactate, glucose; LP only when stable and safe
+mx: IV ceftriaxone 2 g immediately; fluid resuscitation; senior and critical care review; dexamethasone per local guidance for suspected bacterial meningitis; notify the health protection team; contacts offered prophylaxis
+tell: I'm very worried this is meningitis with blood poisoning. We're giving strong antibiotics right now and fluids, and the intensive care team is coming. Your flatmates will be offered antibiotics to protect them.
+
+=== NE06 | Herpes simplex encephalitis
+who: Lucy Grant, partner of Matt Grant, 34
+act: Frightened, holding Matt's hand; Matt is confused, saying odd things.
+open: Matt's not himself. He's saying strange things and he had a fit.
+story: He's had a fever for two days. Today he's been rude and inappropriate, which is nothing like him, confused, and then his right arm and face twitched.
+hpc: Fever: 2 days
+hpc: Behaviour: Disinhibited, rude, out of character
+hpc: Confusion: Disorientated
+hpc: Seizure: Focal twitching of right face and arm
+hpc: Headache: Yes
+yes: Fever; headache; behaviour change; focal seizure; strange smells he mentioned
+no: Neck stiffness; rash; head injury; drugs; travel; HIV known
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Works in IT; 10 units a week
+ice: A bad virus | Brain damage | Answers
+cue: "He's never spoken to me like that."
+ask: Will he be the same again?
+key: When did the behaviour change start? | Acute onset
+key: Fever, headache, seizures? | Encephalitis
+key: What exactly has changed in his behaviour? | Temporal lobe
+key: Drugs, alcohol, head injury? | Alternatives
+key: Immunosuppression, travel? | Other organisms
+rf: Seizures with fever and confusion | IV aciclovir now
+sum: So Matt has had a fever for two days, today became disinhibited and confused, and had a focal seizure, which is completely unlike him. Is that right?
+pres: This is a collateral history from Lucy about her partner Matt, 34, with 2 days of fever and headache, acute behavioural change with disinhibition, confusion and a focal seizure. This is viral encephalitis, likely HSV, until proven otherwise.
+ddx: HSV encephalitis, because of fever, temporal lobe behaviour change and focal seizure | Bacterial meningitis, told apart by meningism and CSF | Autoimmune encephalitis or intoxication, distinguished by CSF, antibodies and history
+ix: CT head then LP: CSF HSV PCR, cell count, protein, glucose; MRI brain; EEG; blood cultures; HIV test
+mx: IV aciclovir 10 mg/kg 8-hourly started immediately; antibiotics until bacterial meningitis is excluded; seizure management; neurology; supportive care
+tell: I'm worried Matt has an infection of the brain, often caused by the cold sore virus. We've started an antiviral medicine straight away because it works best early. We'll do a scan and test the spinal fluid. It's serious, and I'll keep you updated at every step.
+
+=== NE08 | First generalised seizure and driving
+who: Ryan Webb, 23, electrician
+act: Embarrassed, achy, keen to drive home.
+open: I had a fit apparently. I feel fine now. I just want to drive home.
+story: My mate said I collapsed, went stiff and jerked for about a minute and a half, then I was confused for ten minutes. I don't remember it.
+hpc: Event: Witnessed collapse, stiffening, jerking for 90 seconds
+hpc: After: Confused for 10 minutes; sore muscles; bit tongue
+hpc: Before: Late night out, little sleep
+hpc: Previous: None
+yes: Tongue bite; myalgia; sleep deprivation
+no: Head injury; drugs; prodrome of heat or nausea; palpitations; family epilepsy
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: 20 units a week, more at weekends; electrician, works on ladders
+ice: A one-off | Losing his licence and job | To drive home
+cue: "I need my van for work."
+ask: Can I drive home?
+key: Witness account: before, during, after? | Seizure versus syncope
+key: Tongue biting, incontinence, post-ictal confusion? | Seizure features
+key: Triggers: sleep, alcohol, drugs? | Provoked seizure
+key: Previous events, absences, jerks? | Epilepsy
+key: Work at heights, driving? | Safety
+rf: Driving after a seizure | Must not drive; DVLA
+sum: So you collapsed, went stiff and jerked for 90 seconds, were confused for ten minutes, and you'd had little sleep. Is that right?
+pres: Ryan Webb is a 23-year-old man with a first witnessed generalised tonic-clonic seizure lasting 90 seconds with 10 minutes of post-ictal confusion and a lateral tongue bite, after sleep deprivation and alcohol. He wants to drive home.
+ddx: First generalised tonic-clonic seizure, because of tonic-clonic activity with post-ictal confusion | Convulsive syncope, told apart by a prodrome and rapid recovery | Provoked seizure from alcohol withdrawal or drugs, assessed by history
+ix: Glucose, U&Es, calcium, magnesium; ECG; first seizure clinic within 2 weeks; EEG; MRI
+mx: Must not drive; inform the DVLA; usually 6 months off driving for a first unprovoked seizure if investigations are normal; avoid heights and working on ladders until assessed; sleep and alcohol advice; seizure first aid for family
+tell: I'm sorry, but you can't drive home today, and by law you must stop driving and tell the DVLA; it's usually 6 months if tests are normal. Avoid ladders at work for now. You'll see a specialist within two weeks. Getting enough sleep and cutting back on alcohol lowers the chance of another.
+
+=== NE09 | Breakthrough seizure after missed doses
+who: Sophie Clarke, 31, nurse
+act: Tired, alert, slightly embarrassed.
+open: I had a seizure this morning. I'd missed my tablets because I was vomiting.
+story: I've had a vomiting bug and couldn't keep my levetiracetam down, so I missed three doses. This morning I had a seizure. I'm fine now.
+hpc: Seizure: Generalised, this morning, 2 minutes
+hpc: Missed doses: Three, due to vomiting
+hpc: Usual control: Seizure-free for 2 years
+hpc: Now: Alert, no injury
+yes: Recent gastroenteritis
+no: Head injury; fever; headache; new medicines; alcohol; sleep deprivation beyond the illness; pregnancy
+pmh: Juvenile myoclonic epilepsy
+dh: Levetiracetam 750 mg twice daily
+all: None
+fh: Nothing relevant
+sh: Nurse; non-smoker; 4 units a week; drives
+ice: Missed tablets | Losing her driving licence | To go home
+cue: "I was 2 years seizure-free."
+ask: Can I still drive?
+key: Usual seizure control and medicines? | Baseline
+key: Missed doses: how many and why? | Trigger
+key: Other triggers: sleep, alcohol, new drugs, pregnancy? | Contributors
+key: Injury, head injury? | Safety
+key: Driving | DVLA rules
+rf: Recurrent seizures or status | Escalate
+sum: So you're normally well controlled on levetiracetam, missed three doses while vomiting, and had a seizure this morning, and you're alert now with no injury. Is that right?
+pres: Sophie Clarke is a 31-year-old woman with juvenile myoclonic epilepsy, seizure-free for 2 years on levetiracetam, who had a breakthrough generalised seizure after missing three doses during gastroenteritis. She is alert with normal observations and no injury.
+ddx: Provoked breakthrough seizure from missed doses during illness | Seizure from a new cause such as metabolic disturbance or pregnancy, excluded by bloods and pregnancy test | Worsening epilepsy needing a regimen change, unlikely given the clear trigger
+ix: U&Es, glucose, calcium, magnesium; pregnancy test; antiseizure drug adherence review
+mx: Restart levetiracetam at usual dose; no change of regimen given the clear trigger; antiemetic and a plan for future vomiting illness; driving: tell the DVLA; rules on seizures after medication changes or missed doses are set by them; epilepsy nurse review
+tell: Missing your tablets because of vomiting is the likely cause, so your usual dose should keep you well. Next time you're vomiting, contact us early; we can help with anti-sickness medicine. You'll need to tell the DVLA about the seizure, and they'll advise on driving.
+
+=== NE11 | Motor neurone disease
+who: Graham Wells, 64, retired joiner
+act: Slurred speech, wasted hand muscles; fasciculations you point to in your arm.
+open: My hands have got weak and thin, and my speech has gone a bit slurred.
+story: Over a year my right hand got weak, then the left. The muscles have wasted. My speech has slurred over the last few months. My muscles twitch.
+hpc: Weakness: Hands, right then left, a year
+hpc: Wasting: Hand muscles
+hpc: Fasciculations: Arms
+hpc: Speech: Slurred, progressive
+hpc: Sensation: Normal
+yes: Cramps; occasional choking on liquids
+no: Numbness; pain; bladder problems; double vision; fatigability; weight loss beyond muscle
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing known
+sh: Retired joiner; lives with wife
+ice: Arthritis | MND like a friend | Answers
+cue: "My friend had MND."
+ask: Is it MND?
+key: Where did weakness start and how has it spread? | Progressive asymmetric weakness
+key: Wasting, twitching, cramps? | Lower motor neurone signs
+key: Speech, swallowing, choking? | Bulbar involvement
+key: Any numbness or sensory change? | Pure motor
+key: Breathing at night, morning headaches? | Respiratory weakness
+rf: Choking or breathlessness | Aspiration and respiratory failure
+sum: So over a year your hands have become weak and thin, with twitching muscles, and your speech has slurred, but no numbness. Is that right?
+pres: Graham Wells is a 64-year-old man with a year of progressive asymmetric hand weakness and wasting, fasciculations, cramps and progressive dysarthria with occasional choking, with normal sensation. Mixed upper and lower motor neurone signs without sensory loss suggest motor neurone disease.
+ddx: Motor neurone disease, because of progressive mixed UMN and LMN signs without sensory loss | Cervical myeloradiculopathy, told apart by sensory signs and MRI | Multifocal motor neuropathy or inclusion body myositis, distinguished by nerve conduction and EMG
+ix: EMG and nerve conduction; MRI brain and cervical spine; CK; B12, TFTs; FVC; neurology assessment
+mx: Neurology referral; MDT care; riluzole; speech and language therapy and swallow assessment; consider gastrostomy; NIV for respiratory weakness; advance care planning
+tell: Your symptoms make me concerned about motor neurone disease, a condition affecting the nerves that control muscles. We'll need specialist tests to confirm it. If it is MND, a team will support you, with medicine to slow it and help with speech, swallowing and breathing.
+
+=== NE12 | Dermatomyositis
+who: Karen Burns, 49, school administrator
+act: Struggle to stand from the chair without your arms; show the rash on your knuckles.
+open: I can't get up from a chair, and I can't lift my arms to wash my hair.
+story: Over two months my thighs and shoulders have got weak. I struggle to get up from chairs and lift my arms. I've got a rash on my knuckles and eyelids.
+hpc: Weakness: Proximal, legs and arms, 2 months
+hpc: Rash: Purple knuckles, purplish eyelids
+hpc: Pain: Mild aching
+hpc: Sensation: Normal
+hpc: CK: 1800
+yes: Fatigue; mild dysphagia; weight loss
+no: Numbness; fatigability; double vision; statins; recent infection
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Ex-smoker; school administrator
+ice: Getting old | Something serious | Answers
+cue: "I had to crawl upstairs last night."
+ask: What's causing this?
+key: Which muscles are weak? | Proximal pattern
+key: Numbness or sensory change? | Myopathy is motor only
+key: Rash on knuckles, eyelids, chest? | Dermatomyositis
+key: Swallowing or breathing problems? | Severity
+key: Weight loss, cough, other symptoms of cancer? | Paraneoplastic association
+key: Statins or other drugs? | Drug-induced myopathy
+rf: Dysphagia or breathlessness | Respiratory and bulbar involvement
+sum: So over two months your shoulder and thigh muscles have become weak, you have a purple rash on your knuckles and eyelids, and your CK is raised. No numbness. Is that right?
+pres: Karen Burns is a 49-year-old woman with 2 months of progressive proximal weakness, Gottron's papules, a heliotrope rash, mild dysphagia and weight loss, normal sensation and CK of 1800. This is dermatomyositis, which requires screening for underlying malignancy.
+ddx: Dermatomyositis, because of proximal myopathy with Gottron's papules, heliotrope rash and raised CK | Polymyositis or statin myopathy, told apart by skin features and drug history | Hypothyroid myopathy, excluded with TFTs
+ix: CK, ESR, CRP, TFTs; myositis-specific antibodies; MRI muscle; EMG; muscle biopsy; malignancy screen: CT chest, abdomen and pelvis, breast imaging; swallow assessment; lung function
+mx: Rheumatology or neurology referral; high-dose corticosteroids with steroid-sparing agents; physiotherapy; SALT for dysphagia; investigate and treat any malignancy; sun protection
+tell: The pattern of weakness with this rash suggests dermatomyositis, an inflammation of the muscles and skin. It's treatable with steroids and other medicines. Because it can sometimes be linked to a hidden cancer, we'll also do some scans to be thorough.
+
+=== NE13 | Diabetic peripheral neuropathy
+who: Keith Dunn, 57, delivery driver
+act: Shuffle; describe walking on cotton wool.
+open: My feet have been getting number and number.
+story: Over a couple of years both feet have gone numb, like walking on cotton wool. It's creeping up towards my ankles.
+hpc: Numbness: Both feet, gradually ascending, 2 years
+hpc: Tingling: At night
+hpc: Balance: Worse in the dark
+hpc: Diabetes: Type 2, 10 years, HbA1c 74
+hpc: Metformin: For 10 years
+yes: Night tingling; unsteadiness in the dark
+no: Weakness; back pain; bladder problems; alcohol excess; foot ulcers; rapid progression
+pmh: Type 2 diabetes
+dh: Metformin; gliclazide
+all: None
+fh: Nothing relevant
+sh: Drinks 10 units a week; delivery driver
+ice: Circulation | Losing his feet | To stop it getting worse
+cue: "I drive for a living. Is it safe?"
+ask: Will it get worse?
+key: Where is the numbness and has it spread? | Length-dependent pattern
+key: Weakness, back pain, bladder symptoms? | Exclude cord or root
+key: Alcohol, diet, metformin use? | B12 and toxic causes
+key: Foot injuries or ulcers? | Risk
+key: Balance and falls? | Sensory ataxia
+rf: Rapidly ascending weakness | Guillain-Barré
+rf: Foot ulcer | Urgent foot service
+sum: So over two years both feet have gone numb, rising towards your ankles, with night tingling and unsteadiness in the dark, on a background of diabetes and metformin. Is that right?
+pres: Keith Dunn is a 57-year-old man with poorly controlled type 2 diabetes on long-term metformin with 2 years of symmetrical ascending distal sensory loss in a stocking distribution, nocturnal paraesthesia and sensory ataxia. This is diabetic peripheral neuropathy, with B12 deficiency from metformin to exclude.
+ddx: Diabetic sensorimotor peripheral neuropathy, because of a length-dependent stocking sensory loss in poorly controlled diabetes | B12 deficiency from metformin, excluded with B12 levels | Alcohol, hypothyroidism or paraproteinaemia, excluded with bloods
+ix: Monofilament and vibration testing; B12, folate, TFTs, U&Es, LFTs, HbA1c, FBC, serum protein electrophoresis
+mx: Improve glycaemic control; replace B12 if low; foot protection: daily checks, footwear, podiatry; neuropathic pain treatment if painful; annual foot review
+tell: This is nerve damage from diabetes, which affects the longest nerves to the feet first. Better sugar control slows it down, and we'll check your B12 because metformin can lower it. Checking your feet every day is vital, because you may not feel injuries.
+
+=== NE15 | Bell's palsy
+who: Kirsty Hall, 35, accountant
+act: Left face drooping, eye not closing fully; frightened it's a stroke.
+open: The left side of my face has dropped. Am I having a stroke?
+story: Since yesterday the left side of my face has drooped. I can't close my left eye or smile properly. Water dribbles from my mouth.
+hpc: Onset: Over a day
+hpc: Weakness: Whole left face including forehead
+hpc: Eye: Cannot close fully
+hpc: Taste: Altered on the left
+hpc: Ear: Ache behind the left ear
+yes: Ear ache; altered taste; sensitivity to sound
+no: Limb weakness; speech problems; vesicles in the ear; hearing loss; rash; tick bite
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Non-smoker; accountant
+ice: A stroke | Permanent disfigurement | Reassurance
+cue: "I look so different in the mirror."
+ask: Is it a stroke?
+key: When did it start and how quickly? | Onset over hours to a day
+key: Can you raise your eyebrows? Forehead involvement? | LMN versus UMN
+key: Any limb weakness, speech or swallowing problems? | Stroke
+key: Ear pain, vesicles, hearing loss? | Ramsay Hunt
+key: Can you close your eye? | Corneal protection
+rf: Forehead sparing or limb weakness | Stroke: 999
+rf: Vesicles in the ear | Ramsay Hunt: antivirals
+sum: So since yesterday the whole left side of your face, including the forehead, has become weak, you can't close the eye, and there's no limb weakness. Is that right?
+pres: Kirsty Hall is a 35-year-old woman with left facial weakness developing over a day involving the forehead, incomplete eye closure, altered taste and post-auricular pain, without limb weakness, vesicles or hearing loss. This is a left lower motor neurone facial palsy consistent with Bell's palsy.
+ddx: Bell's palsy, because of acute unilateral LMN facial weakness including the forehead | Ramsay Hunt syndrome, told apart by ear vesicles | Stroke, excluded by forehead involvement and no limb signs
+ix: Clinical diagnosis; BP; glucose
+mx: Prednisolone within 72 hours, for example 50 mg daily for 10 days; eye protection: lubricating drops by day, ointment and taping at night; refer if not improving by 3 weeks; urgent ophthalmology if eye pain or redness
+tell: This isn't a stroke; it's Bell's palsy, inflammation of the nerve that moves the face. Most people recover fully within a few months. Steroid tablets started now help. Protecting your eye is really important: use drops during the day and tape it closed at night.
+
+=== NE16 | Vasovagal syncope with brief jerks
+who: Jake Turner, 22, student
+act: Embarrassed; friends filmed it.
+open: I fainted at a gig. My mates said I jerked a bit.
+story: It was boiling and packed. I felt sweaty and sick, things went fuzzy, then I was on the floor. I came round quickly and knew where I was.
+hpc: Setting: Standing in a hot crowded room
+hpc: Prodrome: Sweaty, nauseous, vision greying
+hpc: Duration: Seconds
+hpc: Jerks: A few brief limb jerks seen by a witness
+hpc: Recovery: Quick, no confusion
+yes: Prodrome; alcohol earlier
+no: Tongue bite; incontinence; prolonged confusion; palpitations; exertional; family sudden death
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: 4 pints that evening; student
+ice: Fainted | Epilepsy | To know if he can drive
+cue: "My mate said I was having a fit."
+ask: Was it a fit?
+key: What happened before: heat, standing, prodrome? | Reflex syncope
+key: How long, and how did you feel afterwards? | Rapid recovery
+key: Jerks: how long and what type? | Convulsive syncope causes brief jerks
+key: Tongue bite, incontinence, confusion? | Seizure features
+key: Exertion, palpitations, family sudden death? | Cardiac red flags
+rf: Exertional syncope or family sudden death | Cardiac assessment
+sum: So in a hot crowded room you felt sweaty and sick, your vision greyed, you fainted for seconds with a few jerks and recovered quickly without confusion. Is that right?
+pres: Jake Turner is a 22-year-old man with a brief loss of consciousness while standing in a hot crowded room after alcohol, with a clear prodrome, a few brief limb jerks and rapid recovery without confusion or red flags. This is vasovagal syncope.
+ddx: Vasovagal syncope, because of a trigger, prodrome and rapid recovery | Generalised seizure, told apart by prolonged confusion, tongue biting and longer jerking | Cardiac syncope, excluded by a normal ECG and no red flags
+ix: Lying and standing BP; 12-lead ECG
+mx: Reassure; avoid triggers; counter-pressure manoeuvres; fluids; DVLA: a simple faint with clear triggers doesn't need notification
+tell: This was a faint. The few jerks happen in many faints and don't mean epilepsy. Your heart tracing is normal. If you feel it coming, sit or lie down. You can carry on driving.
+
+=== NE17 | Cluster headache
+who: Matt Lowe, 31, chef
+act: Agitated, pacing; hand pressed over your left eye.
+open: I get this unbearable pain around my left eye, every night, twice a night.
+story: For a week I've had attacks of stabbing pain round my left eye for about 40 minutes, twice a night. My eye waters, my nose runs, and I can't sit still.
+hpc: Site: Around the left eye
+hpc: Duration: 40 minutes
+hpc: Frequency: Twice nightly for a week
+hpc: Autonomic: Watering eye, runny nose, drooping eyelid
+hpc: Behaviour: Paces, can't keep still
+hpc: Previous: Similar bout 2 years ago for 6 weeks
+yes: Alcohol triggers attacks; smoker
+no: Neurological deficit; fever; visual loss; thunderclap
+pmh: Similar bout 2 years ago
+dh: Ibuprofen, no help
+all: None
+fh: Nothing relevant
+sh: Smokes 20 a day; 20 units a week; chef
+ice: Migraine | A brain tumour | Pain relief
+cue: "I'd bang my head against the wall if it helped."
+ask: What can stop it?
+key: Site, duration, frequency, timing? | Cluster pattern
+key: Eye watering, nose running, ptosis? | Autonomic features
+key: Restlessness during attacks? | Cluster, unlike migraine
+key: Previous bouts? | Episodic cluster
+key: Alcohol and smoking? | Triggers and risk
+rf: Neurological deficit or persistent Horner's | Secondary cause: imaging
+sum: So for a week you've had 40-minute attacks of severe pain round your left eye twice a night, with a watering eye and runny nose, and you pace during attacks. Is that right?
+pres: Matt Lowe is a 31-year-old smoker with a week of nocturnal attacks of severe left periorbital pain lasting 40 minutes, twice nightly, with ipsilateral lacrimation, rhinorrhoea and ptosis, and restlessness, with a similar bout 2 years ago. This is episodic cluster headache.
+ddx: Episodic cluster headache, because of short severe unilateral orbital attacks with autonomic features and restlessness | Migraine, which lasts longer with a wish to lie still | Secondary causes such as pituitary lesion or carotid dissection, considered if atypical
+ix: Clinical diagnosis; MRI brain if first presentation or atypical features
+mx: Acute: 100% oxygen at 12 to 15 L/min via non-rebreather for 15 minutes, and subcutaneous sumatriptan 6 mg or a nasal triptan; avoid alcohol during a bout; neurology referral for prophylaxis such as verapamil with ECG monitoring; smoking cessation
+tell: This is cluster headache, one of the most painful headaches but not dangerous. High-flow oxygen through a mask at home and a triptan injection can stop attacks within minutes. Avoid alcohol during a cluster, and I'll refer you to the neurologist for a preventive medicine.
+
+=== NE18 | Myasthenia gravis with bulbar symptoms
+who: Julie Ward, 40, teacher
+act: Eyelids drooping as you talk; voice getting nasal later in the consultation.
+open: My eyelids droop by the evening, and I get double vision.
+story: By the end of the day my eyelids droop and I see double. My jaw tires chewing by the end of a meal. Lately I've had trouble swallowing drinks.
+hpc: Ptosis: Worse in the evening
+hpc: Diplopia: Intermittent
+hpc: Chewing: Tires late in meals
+hpc: Swallowing: New difficulty with liquids
+hpc: Rest: Improves
+yes: Nasal voice when tired; neck weakness
+no: Numbness; pain; breathlessness at rest; recent new medicines
+pmh: Nothing
+dh: None
+all: None
+fh: Mother has hypothyroidism
+sh: Teacher; non-smoker
+ice: Tiredness | Something serious | Answers
+cue: "Drinks sometimes come down my nose."
+ask: Is it dangerous?
+key: Does it get worse through the day and better with rest? | Fatigability
+key: Double vision, droopy eyelids? | Ocular
+key: Chewing, swallowing, speech, breathing? | Bulbar and respiratory
+key: Numbness? | Excludes neuropathy
+key: Recent new medicines? | Drugs that worsen MG
+rf: Swallowing or breathing difficulty | Myasthenic crisis risk: measure FVC
+sum: So you get droopy eyelids and double vision by evening, your jaw tires chewing, and now drinks are hard to swallow, all better with rest. Is that right?
+pres: Julie Ward is a 40-year-old woman with fatigable ptosis, diplopia and jaw weakness improving with rest, now with dysphagia to liquids, with normal sensation. This is generalised myasthenia gravis with bulbar involvement, which carries a risk of crisis.
+ddx: Myasthenia gravis with bulbar involvement, because of fatigable ocular and bulbar weakness with normal sensation | Lambert-Eaton syndrome, which improves with exertion and has autonomic features | Brainstem lesion or thyroid eye disease, excluded by imaging and TFTs
+ix: Acetylcholine receptor antibodies, MuSK antibodies; TFTs; single-fibre EMG; CT thorax for thymoma; FVC and swallow assessment
+mx: Urgent neurology referral; monitor FVC; SALT swallow assessment; pyridostigmine; immunosuppression; thymectomy if thymoma; avoid drugs that worsen MG such as aminoglycosides; admit if bulbar or respiratory deterioration
+tell: Your symptoms suggest myasthenia gravis, where the signal between nerves and muscles tires easily. It's treatable. Because swallowing is affected, I want the neurologists to see you urgently and check your breathing strength. If you struggle to breathe or swallow, call 999.
+
+=== NE19 | Guillain-Barré syndrome
+who: Leon Fraser, 28, plumber
+act: Struggle to stand; tingling feet; frightened.
+open: My legs have got weaker and weaker over a few days. I can barely stand.
+story: Ten days ago I had diarrhoea. Three days ago my feet started tingling and my legs got weak. Now it's moving up and I can hardly stand.
+hpc: Preceding illness: Diarrhoea 10 days ago
+hpc: Weakness: Ascending, legs, 3 days
+hpc: Tingling: Feet and hands
+hpc: Back pain: Aching
+hpc: Breathing: Slightly breathless lying flat
+yes: Back pain; paraesthesia; mild breathlessness
+no: Bladder or bowel problems; sensory level; fever now; neck pain
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Plumber; non-smoker
+ice: A trapped nerve | Paralysis | Help
+cue: "It's going up my body."
+ask: Will I be paralysed?
+key: Preceding infection? | Campylobacter
+key: Pattern and speed of weakness? | Ascending, symmetrical
+key: Breathing, swallowing, facial weakness? | Respiratory risk
+key: Bladder and bowel, sensory level? | Cord lesion
+key: Palpitations, dizziness? | Autonomic involvement
+rf: Falling FVC or bulbar weakness | ICU
+rf: Sensory level with sphincter involvement | Cord compression
+sum: So ten days after diarrhoea you developed tingling feet and leg weakness that's spreading upwards over three days, and you're a bit breathless lying flat. Is that right?
+pres: Leon Fraser is a 28-year-old man with rapidly progressive ascending symmetrical weakness and distal paraesthesia over 3 days, 10 days after a diarrhoeal illness, with back pain and mild orthopnoea, and no sphincter disturbance. Reflexes would be expected to be absent. This is Guillain-Barré syndrome.
+ddx: Guillain-Barré syndrome, likely after Campylobacter, because of ascending areflexic weakness after infection | Spinal cord compression or transverse myelitis, told apart by a sensory level and sphincter involvement | Hypokalaemia or botulism, excluded with bloods and history
+ix: FVC every 4 to 6 hours; nerve conduction studies; LP: raised protein with normal cell count; U&Es, potassium, CK; ECG; MRI spine if cord lesion suspected; stool for Campylobacter
+mx: Admit; monitor FVC and swallowing; ICU referral if FVC is falling or below 20 mL/kg; IV immunoglobulin; VTE prophylaxis; analgesia; physiotherapy
+tell: I think you have Guillain-Barré syndrome, where the immune system attacks the nerves after an infection. Most people recover, though it can take months. We need to watch your breathing closely and treat with immunoglobulin through a drip.
+
+=== NE20 | Convulsive status epilepticus
+who: Tom Clarke, partner of Rebecca, 25
+act: Frantic, holding her phone; Rebecca is convulsing on the trolley.
+open: She's been fitting for ages! She's missed her tablets.
+story: She started fitting about six minutes ago and hasn't stopped. She's missed her lamotrigine for two days.
+hpc: Duration: Continuous convulsion for 6 minutes
+hpc: Missed medication: Lamotrigine for 2 days
+hpc: Glucose: 6.2
+hpc: IV access: In place
+hpc: Previous: Known epilepsy
+yes: Missed doses
+no: Head injury; drugs; alcohol; pregnancy known; fever
+pmh: Epilepsy
+dh: Lamotrigine
+all: None
+fh: Not relevant
+sh: Lives with Tom
+ice: Make it stop | Brain damage or death | Help now
+cue: "Please do something!"
+ask: Is she going to be okay?
+key: Airway: protect, suction, oxygen; recovery position if possible | ABC first
+key: Note the time: seizure over 5 minutes is status | Time-critical
+key: First-line benzodiazepine: IV lorazepam 0.1 mg/kg, usually 4 mg, repeat once after 5 to 10 minutes if still fitting | Protocol
+key: Check glucose, already 6.2 | Exclude hypoglycaemia
+key: Second line if still fitting: IV levetiracetam, phenytoin or sodium valproate per protocol | Established status
+key: Call the anaesthetist if fitting continues | Refractory status needs anaesthesia
+rf: Respiratory depression after benzodiazepines | Airway support
+sum: Rebecca has been fitting for six minutes after missing her lamotrigine. We're giving lorazepam through her drip now.
+pres: Rebecca is a 25-year-old woman with known epilepsy in convulsive status epilepticus for 6 minutes after missing lamotrigine for 2 days, with glucose 6.2 and IV access. I have secured the airway, given oxygen and IV lorazepam per protocol, and will escalate to a second-line agent and the anaesthetist if seizures continue.
+ddx: Convulsive status epilepticus from missed antiseizure medication | Non-epileptic attack disorder, considered later if atypical, but treat as status | Other triggers: hypoglycaemia, infection, eclampsia, intoxication, excluded with glucose, pregnancy test and history
+ix: Glucose, U&Es, calcium, magnesium, FBC, CRP; antiseizure drug levels; pregnancy test; VBG; CT head if first seizure, trauma or focal features
+mx: ABC, oxygen; IV lorazepam 4 mg, repeat once; then IV levetiracetam, phenytoin or valproate per local protocol; anaesthetic support and rapid sequence induction if refractory; restart lamotrigine; neurology review
+tell: Tom, Rebecca is having a prolonged seizure. We're giving medicine through her drip to stop it, and we're protecting her breathing. Most seizures stop with this. I'll update you as soon as she's settled.
+
+=== BH01 | Fibroadenoma
+who: Erin Doyle, 22, nursing student
+act: Calm, slightly anxious because of your aunt.
+open: I've had a lump in my breast for two months. My aunt had breast cancer.
+story: It's a smooth lump that moves around. It doesn't hurt. My aunt had breast cancer at 55.
+hpc: Lump: Left breast, 2 cm, smooth, mobile, 2 months
+hpc: Pain: None
+hpc: Changes: None with the cycle
+hpc: Skin and nipple: Normal
+yes: Mobility
+no: Skin changes; nipple discharge or inversion; axillary lumps; weight loss
+pmh: Nothing
+dh: Combined pill
+all: None
+fh: Paternal aunt had breast cancer at 55
+sh: Non-smoker; student
+ice: A cyst | Cancer like her aunt | To be checked
+cue: "My aunt was fine until she wasn't."
+ask: Do I need a biopsy?
+key: When noticed, size, change? | Growth
+key: Smooth, mobile, painless? | Fibroadenoma
+key: Skin or nipple changes? | Red flags
+key: Axillary lumps? | Nodes
+key: Family history: who, which cancer, what age? | Genetic risk
+rf: Hard, fixed, or skin changes | Malignant features
+sum: So for two months you've had a smooth, mobile, painless 2 cm lump, with no skin or nipple changes, and your aunt had breast cancer at 55. Is that right?
+pres: Erin Doyle is a 22-year-old woman with a 2-month smooth, mobile, painless 2 cm left breast lump without skin, nipple or axillary changes, and a single second-degree relative with breast cancer at 55, which does not meet high-risk criteria. This is likely a fibroadenoma, but examination alone cannot prove it benign.
+ddx: Fibroadenoma, because of a smooth mobile painless lump in a young woman | Breast cyst or phyllodes tumour, told apart on ultrasound and biopsy | Breast cancer, rare at 22, excluded by triple assessment
+ix: Triple assessment: examination, ultrasound, and core biopsy if any uncertainty
+mx: Breast clinic referral; if confirmed fibroadenoma, reassure, no routine excision; breast awareness; family history does not need genetics referral
+tell: This lump is most likely a fibroadenoma, a harmless lump common in young women. The breast clinic will do an ultrasound and possibly a small needle test to be sure. Your aunt's cancer at 55 doesn't significantly raise your risk.
+
+=== BH02 | Cyclical mastalgia
+who: Laura King, 34, nursery manager
+act: Arms folded protectively; anxious about cancer.
+open: Both my breasts are sore and lumpy before my period. I'm scared it's cancer.
+story: Every month, a week before my period, both breasts become sore and lumpy, then it settles after my period.
+hpc: Pain: Both breasts, cyclical, a week before periods
+hpc: Lumpiness: Diffuse, settles after periods
+hpc: Discrete lump: None persistent
+hpc: Discharge: None
+yes: Cyclical pattern
+no: Persistent lump; skin changes; nipple discharge; non-cyclical focal pain
+pmh: Nothing
+dh: Combined pill
+all: None
+fh: No breast cancer
+sh: Non-smoker; 4 coffees a day
+ice: Cancer | Missing something | Reassurance
+cue: "My friend's sister was 35 when she was diagnosed."
+ask: Could it be cancer?
+key: Is it both sides and linked to your cycle? | Cyclical mastalgia
+key: Any persistent discrete lump? | Focal lesion
+key: Nipple discharge, skin changes? | Red flags
+key: Medications and hormones? | Contributing factors
+key: Family history? | Risk
+rf: Persistent focal lump or non-cyclical focal pain | Assessment
+sum: So both breasts become sore and lumpy a week before your period and settle afterwards, with no persistent lump. Is that right?
+pres: Laura King is a 34-year-old woman with bilateral cyclical breast pain and diffuse nodularity before menstruation, settling after, without a persistent discrete lump, discharge or skin changes. This is cyclical mastalgia with fibrocystic change.
+ddx: Cyclical mastalgia with benign nodularity, because of bilateral cyclical symptoms without focal signs | Breast cyst, told apart by a persistent discrete lump | Breast cancer, very rarely presents with pain alone
+ix: Clinical breast examination; no imaging if examination is normal
+mx: Reassure; well-fitting supportive bra; topical NSAID; pain diary; review the contraceptive pill if it began on starting; return if a persistent lump develops
+tell: This sounds like cyclical breast pain, very common and linked to hormones; breast cancer rarely causes pain like this. A supportive bra and an anti-inflammatory gel usually help. If you find a lump that stays after your period, come back.
+
+=== BH04 | Breast abscess in a breastfeeding woman
+who: Ruth Okafor, 31, new mother
+act: Flushed, tired, cradling the breast; worried about the baby.
+open: My breast is red and painful and the antibiotics haven't fixed it.
+story: I'm breastfeeding my 6-week-old. Last week my breast became red and sore, and I started antibiotics. Now there's a hard painful swelling and a fever.
+hpc: Site: Left breast, upper outer
+hpc: Swelling: Persistent, tender, fluctuant
+hpc: Fever: 38.4
+hpc: Treatment: Flucloxacillin for 5 days
+hpc: Feeding: Has stopped feeding from that side
+yes: Fever; malaise
+no: Nipple discharge of pus; skin necrosis; baby unwell
+pmh: Nothing
+dh: Flucloxacillin
+all: None
+fh: Nothing relevant
+sh: Lives with partner; 6-week-old baby
+ice: Infection | Harming her baby | To keep feeding
+cue: "Is my milk safe for the baby?"
+ask: Should I stop breastfeeding?
+key: When did it start, and what treatment so far? | Failure of treatment
+key: Is there a hard lump or swelling? | Abscess
+key: Fever, feeling unwell? | Systemic infection
+key: How is feeding going, and is the baby well? | Feeding support
+key: Smoking, nipple damage? | Risk factors
+rf: Sepsis or skin necrosis | Admission
+sum: So your left breast has been red and painful for a week, there's now a hard swelling with fever despite antibiotics, and you've stopped feeding from that side. Is that right?
+pres: Ruth Okafor is a 31-year-old breastfeeding mother with a week of left breast inflammation, now a persistent tender fluctuant swelling with fever of 38.4 despite 5 days of flucloxacillin. This is a breast abscess.
+ddx: Lactational breast abscess, because of a persistent fluctuant swelling despite antibiotics | Mastitis without abscess, told apart on ultrasound | Inflammatory breast cancer, considered if not resolving
+ix: Breast ultrasound; aspirate culture; FBC, CRP
+mx: Same-day referral to the breast surgical team for ultrasound-guided needle aspiration; antibiotics guided by culture; continue breastfeeding or express from the affected side; analgesia; follow up until resolved
+tell: The antibiotics haven't worked because a pocket of pus has formed. The breast team will drain it with a needle using ultrasound, usually today. Your milk is safe for your baby; keep feeding or expressing from that side, as emptying the breast helps it heal.
+
+=== BH05 | Blood-stained nipple discharge
+who: Joan Price, 58, retired accountant
+act: Composed, anxious underneath.
+open: I've noticed blood-stained discharge from one nipple.
+story: For a month I've seen spots of blood-stained fluid on my bra from my right nipple. It comes on its own. No pain, no lump that I can feel.
+hpc: Discharge: Right nipple, spontaneous, blood-stained, single duct
+hpc: Duration: 1 month
+hpc: Lump: None felt
+hpc: Nipple: Not inverted
+yes: Spontaneous discharge
+no: Pain; lump; skin changes; bilateral discharge; milky discharge; medicines causing prolactin
+pmh: HRT stopped 2 years ago
+dh: None
+all: None
+fh: Mother had breast cancer at 70
+sh: Non-smoker; 6 units a week
+ice: An infection | Cancer | Answers
+cue: "My mother's cancer started with something small."
+ask: Is it cancer?
+key: One or both nipples; spontaneous or only when squeezed? | Spontaneous single duct is significant
+key: Colour: blood-stained, clear, milky? | Blood-stained
+key: Lump, skin or nipple changes? | Associated mass
+key: Medicines raising prolactin? | Galactorrhoea
+key: Family history? | Risk
+rf: Unilateral discharge in a woman 50 or over | Suspected cancer pathway
+sum: So for a month you've had spontaneous blood-stained discharge from one duct of your right nipple, without a lump or pain. Is that right?
+pres: Joan Price is a 58-year-old woman with a month of spontaneous unilateral single-duct blood-stained nipple discharge, without a palpable mass or skin changes, and a mother with breast cancer at 70. This needs assessment on the suspected cancer pathway.
+ddx: Intraductal papilloma, the commonest cause of blood-stained single-duct discharge | DCIS or invasive breast cancer, which must be excluded | Duct ectasia, usually bilateral, multi-duct and coloured
+ix: Triple assessment: mammogram, ultrasound, discharge cytology; ductography or ductoscopy if needed
+mx: Suspected cancer pathway breast referral per NICE for women 50 or over with nipple discharge of concern; microdochectomy for a papilloma
+tell: Blood-stained discharge from one nipple is often caused by a small harmless growth in a milk duct, but because you're over 50, we need to check it urgently to rule out cancer. I'm referring you to the breast clinic to be seen within two weeks.
+
+=== BH06 | Suspected breast cancer with emotional distress
+who: Pauline Harris, 61, retired nurse
+act: Steady at first; becomes tearful when referral is mentioned.
+open: I found a hard lump in my breast, and my nipple has turned in.
+story: I found a hard lump in my left breast a few weeks ago, and my nipple has pulled in. My sister died of breast cancer.
+hpc: Lump: Left breast, hard, irregular, few weeks
+hpc: Nipple: New inversion
+hpc: Skin: Slight dimpling
+hpc: Systemic: Feels well
+yes: Nipple inversion; skin dimpling
+no: Bone pain; breathlessness; headaches; weight loss
+pmh: Nothing
+dh: None
+all: None
+fh: Sister died of breast cancer at 58
+sh: Non-smoker; lives with husband
+ice: Cancer like her sister | Dying | Honesty
+cue: Tearful: "I watched my sister go through all of it."
+ask: Is it cancer?
+key: When did you notice it, and has it changed? | Growth
+key: Nipple and skin changes? | Red flags
+key: Bone pain, breathlessness, headaches? | Metastatic symptoms
+key: Family history: who, age? | Genetics
+key: Explore emotions and support | Emotional response
+rf: Hard irregular lump with nipple inversion | Suspected cancer pathway
+sum: So you've found a hard lump in your left breast with nipple inversion and some dimpling, and your sister died of breast cancer. Is that right?
+pres: Pauline Harris is a 61-year-old woman with a hard irregular left breast lump, new nipple inversion and skin dimpling, and a sister who died of breast cancer. These are highly suspicious features. She is distressed, and I have acknowledged her emotions while explaining the urgent referral.
+ddx: Breast cancer, because of a hard irregular lump with nipple inversion and skin tethering | Fat necrosis or a complex cyst, distinguished by triple assessment | Benign causes of inversion, unlikely with a mass
+ix: Suspected cancer pathway triple assessment; staging if confirmed; genetics if criteria met
+mx: Suspected cancer pathway referral within 2 weeks; breast care nurse; emotional support; safety-net
+tell: I can see how frightening this is, especially after your sister. These changes need checking quickly, so I'm referring you to be seen within two weeks for a scan and a needle test. I can't tell you yet what it is, but if it is cancer, treatment has improved a lot. Who can be with you at the appointment?
+
+=== BH08 | NHS breast screening invitation
+who: Diane Carter, 53, office manager
+act: Unsure, holding the invitation letter.
+open: I've had my first breast screening letter. I'm not sure whether to go.
+story: I've read about over-diagnosis and I'm not sure if it's worth it. I don't have any symptoms.
+hpc: Invitation: First NHS breast screening
+hpc: Symptoms: None
+hpc: Concerns: Over-diagnosis, radiation, pain
+hpc: Family history: None
+yes: Uncertainty
+no: Breast lumps; nipple changes; skin changes
+pmh: Nothing
+dh: None
+all: None
+fh: No breast or ovarian cancer
+sh: Non-smoker; office manager
+ice: Not sure it's worth it | Being treated for something harmless | Balanced information
+cue: "My friend said it really hurts."
+ask: Should I go?
+key: What do you already know about screening? | Starts where she is
+key: Explain: mammogram every 3 years from 50 to 71; finds cancers early | Programme
+key: Benefits: for every 200 women screened over 20 years, about 1 breast cancer death is prevented | Balanced figures
+key: Harms: false positives and recalls, and overdiagnosis of about 3 in 200 | Balanced figures
+key: The procedure: brief discomfort from compression | Practical
+key: Screening is for women without symptoms; any lump needs a GP visit, not screening | Breast awareness
+rf: Any new breast symptom | Clinical referral, not screening
+sum: So you've had your first screening invitation, you're unsure because of over-diagnosis, and you have no symptoms. Is that right?
+pres: Diane Carter is a 53-year-old asymptomatic woman with her first NHS breast screening invitation, uncertain about over-diagnosis. I have given balanced information about benefits, false positives and overdiagnosis, the procedure, and breast awareness, supporting an informed choice.
+ddx: Informed decision about population screening, because she is asymptomatic | Symptoms would need clinical referral instead | Higher-risk family history would change screening, not present here
+ix: None
+mx: Shared decision; she can attend or decline; breast awareness; return if symptoms develop
+tell: Screening finds cancers early, when they're easier to treat, and saves about 1 woman's life for every 200 screened over 20 years. It can also find small cancers that would never have caused harm, about 3 in 200, and some women are called back for tests that turn out normal. The mammogram squeezes briefly. It's your choice, and whatever you decide, see me if you notice any change.
+
+=== BH09 | Reducible inguinal hernia in a manual worker
+who: Steve Kirk, 46, builder
+act: Practical, keen to keep working; stand up to show the lump.
+open: I've got a lump in my groin that pops out when I'm lifting.
+story: It comes out when I lift at work and goes back when I lie down. It doesn't hurt. I don't want time off.
+hpc: Lump: Right groin, appears on lifting, disappears lying down
+hpc: Pain: None currently
+hpc: Duration: 6 months
+hpc: Bowels: Normal
+yes: Heavy lifting
+no: Pain; vomiting; irreducibility; redness; constipation; chronic cough
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Builder; smokes 10 a day
+ice: A hernia | Losing work | To keep working
+cue: "I'm self-employed. Time off costs me."
+ask: Do I have to have an operation?
+key: When does it appear and does it go back? | Reducible
+key: Pain, redness, vomiting? | Complications
+key: Constipation, cough, straining? | Contributing factors
+key: What does your job involve? | Planning
+key: Previous hernias? | Recurrence
+rf: Irreducible, painful, vomiting | Emergency
+sum: So a lump in your right groin pops out when you lift and goes back lying down, painless, and you want to keep working. Is that right?
+pres: Steve Kirk is a 46-year-old builder with a 6-month painless, reducible right groin swelling that appears on lifting, without features of obstruction or strangulation. This is a reducible inguinal hernia.
+ddx: Reducible inguinal hernia, because of a groin swelling that appears on straining and reduces lying down | Femoral hernia, below and lateral to the pubic tubercle with higher strangulation risk | Lymph node or saphena varix, distinguished on examination
+ix: Clinical; ultrasound if uncertain
+mx: Offer elective repair, especially as symptoms affect a manual job; watchful waiting is an option if minimal symptoms; safety-net for incarceration; return to light work in about 2 weeks and heavy lifting at 4 to 6 weeks after repair
+tell: This is a hernia, a weak spot in the tummy wall. It's not dangerous right now, and you can choose when to have it fixed. Given your lifting, a planned repair is sensible. Light work after about 2 weeks, heavy lifting after about 6. If it becomes stuck, painful or you're sick, go to A&E.
+
+=== BH10 | Obstructed inguinal hernia
+who: Ray Webb, 62, retired bus driver
+act: Distressed, vomiting, guarding the tender groin lump.
+open: My hernia's come out and won't go back. I've been sick.
+story: My hernia popped out six hours ago and won't go back. Now I've got cramping pain and I've been sick twice.
+hpc: Hernia: Right groin, out for 6 hours, irreducible
+hpc: Pain: Colicky abdominal pain; tender lump
+hpc: Vomiting: Twice
+hpc: Bowels: No wind since this morning
+hpc: Observations: HR 108
+yes: Colicky pain; vomiting; tender lump
+no: Previous irreducible episodes; fever; urinary symptoms
+pmh: Inguinal hernia for 2 years, awaiting repair
+dh: Amlodipine
+all: None
+fh: Nothing relevant
+sh: Ex-smoker; lives with wife
+ice: It'll go back | Emergency surgery | Pain relief
+cue: "It's never been stuck before."
+ask: Can you push it back?
+key: How long has it been out? | Strangulation risk rises with time
+key: Pain, vomiting, wind and bowels? | Obstruction
+key: Is the lump tender, red or hot? | Strangulation
+key: Previous episodes? | History
+key: Fit for surgery? | Anaesthetic planning
+rf: Tender irreducible hernia with obstruction | Emergency surgery
+sum: So your hernia has been out for six hours and won't go back, with colicky pain, vomiting twice and no wind since this morning. Is that right?
+pres: Ray Webb is a 62-year-old man with a previously reducible right groin hernia now irreducible for 6 hours, tender, with colicky abdominal pain, vomiting and no flatus, and HR 108. This is an obstructed and possibly strangulated inguinal hernia.
+ddx: Obstructed inguinal hernia with possible strangulation, because of an irreducible tender hernia with obstructive symptoms | Femoral hernia, distinguished by position | Incarcerated hernia without strangulation, which still needs urgent surgery
+ix: FBC, CRP, U&Es, lactate, VBG, group and save; AXR or CT if unclear
+mx: Do not force reduction; nil by mouth; IV fluids; analgesia; antiemetic; NG tube if vomiting; urgent surgical review for emergency repair
+tell: Your hernia is stuck and has blocked the bowel, which can cut off its blood supply. You need an operation today to free it and repair the weak spot. We'll give you pain relief and fluids while the surgeons get ready.
+
+=== BH12 | Inguinal hernia repair counselling
+who: Gary Hicks, 39, scaffolder
+act: Practical, list of questions on your phone.
+open: I'm booked for my hernia repair. I've got some questions about the mesh and getting back to work.
+story: It's a right inguinal hernia. I've read about mesh problems. I need to know when I can go back to scaffolding.
+hpc: Hernia: Right, reducible
+hpc: Operation: Planned laparoscopic mesh repair
+hpc: Concerns: Mesh, recurrence, testicles, work
+hpc: Work: Scaffolding, heavy lifting daily, self-employed
+yes: Physical job
+no: Previous surgery; bleeding problems; anticoagulants
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Scaffolder; non-smoker
+ice: The mesh is dangerous | Not working for months | Honest information
+cue: "I read horror stories about mesh."
+ask: Is mesh safe? When can I go back to work?
+key: What have you read about mesh? | Starts where he is
+key: Mesh: standard for inguinal hernia, lowers recurrence | Benefit
+key: Risks: chronic groin pain in some, recurrence about 1 to 2 in 100, infection, bleeding, injury to the cord or testicular blood supply rarely | Material risks
+key: Recovery: light work after 2 weeks, heavy lifting at around 4 to 6 weeks | Return to work
+key: Alternatives: open repair, watchful waiting | Alternatives
+rf: Check anticoagulants and bleeding history | Safety
+sum: So you're having a mesh repair of your right inguinal hernia and want to know about mesh safety, recurrence, testicular effects and returning to scaffolding. Is that right?
+pres: Gary Hicks is a 39-year-old scaffolder booked for laparoscopic mesh repair of a reducible right inguinal hernia. I have discussed the benefits and risks including chronic pain, recurrence, infection and rare testicular complications, and the return to heavy work at about 4 to 6 weeks.
+ddx: Reducible inguinal hernia for elective repair | Open versus laparoscopic approach, an informed choice | Watchful waiting, a reasonable alternative with low strangulation risk
+ix: Pre-operative assessment
+mx: Laparoscopic mesh repair; fit note; graded return to work; safety-net
+tell: Mesh for groin hernias is standard and safe; most of the problems in the news were with vaginal mesh. The main risks are some ongoing groin pain in a minority, the hernia coming back in about 1 to 2 in 100, and very rarely affecting the testicle. You'll do light work at around 2 weeks and scaffolding at about 6 weeks.
+
+=== UR01 | Benign prostatic hyperplasia
+who: Ken Wright, 68, retired electrician
+act: Embarrassed, calls it poor sleep at first.
+open: I'm not sleeping well. I'm up three times a night.
+story: I'm up three times a night to pass water. It takes a while to start, the flow is weak, and it feels like I haven't finished.
+hpc: Nocturia: Three times a night
+hpc: Voiding: Hesitancy, weak stream, terminal dribbling, incomplete emptying
+hpc: Storage: Some urgency
+hpc: Duration: A year
+yes: Incomplete emptying; urgency
+no: Haematuria; dysuria; fever; bone pain; weight loss; retention
+pmh: High blood pressure
+dh: Amlodipine
+all: None
+fh: No prostate cancer
+sh: Drinks tea in the evening; 10 units a week
+ice: Poor sleep | Prostate cancer | Something to help
+cue: "It's a bit embarrassing."
+ask: Is it cancer?
+key: How often do you pass urine at night and in the day? | Frequency and nocturia
+key: Hesitancy, weak stream, dribbling, incomplete emptying? | Voiding symptoms
+key: Urgency or incontinence? | Storage symptoms
+key: Blood, pain, fever, bone pain, weight loss? | Red flags
+key: Evening fluids, caffeine, alcohol, diuretics? | Contributing factors
+rf: Haematuria or bone pain | Cancer
+rf: Retention | Catheter
+sum: So for a year you've been up three times a night, with hesitancy, a weak stream and feeling you haven't finished. Is that right?
+pres: Ken Wright is a 68-year-old man with a year of nocturia three times nightly, hesitancy, weak stream, terminal dribbling and incomplete emptying, without haematuria or red flags. This is lower urinary tract symptoms likely from benign prostatic hyperplasia.
+ddx: Benign prostatic hyperplasia, because of voiding LUTS in an older man | Prostate cancer, excluded with DRE and PSA after counselling | Nocturnal polyuria or overactive bladder, distinguished by a frequency volume chart
+ix: IPSS; frequency volume chart; urine dip; U&Es; PSA after counselling; DRE
+mx: Conservative: reduce evening fluids, caffeine and alcohol, bladder training; alpha-blocker such as tamsulosin for moderate to severe symptoms; 5-alpha reductase inhibitor if prostate is large; urology if not improving
+tell: This sounds like an enlarged prostate squeezing the water pipe. It's very common and usually not cancer. I'll examine the prostate and offer a blood test. Cutting down drinks in the evening helps, and a tablet called tamsulosin can improve the flow.
+
+=== UR03 | Painless visible haematuria and bladder cancer risk
+who: Bernard Hale, 71, retired painter and decorator
+act: Dismissive, thinks it's age.
+open: I've seen blood in my water twice. It doesn't hurt. I suppose it's just age.
+story: Twice in the last month my urine has been red. There's no pain.
+hpc: Haematuria: Twice, visible, painless
+hpc: Clots: Small once
+hpc: Urine culture: Negative
+hpc: Smoking: 40 pack-years
+yes: Small clot once
+no: Dysuria; frequency; loin pain; weight loss; anticoagulants; trauma
+pmh: High blood pressure
+dh: Ramipril
+all: None
+fh: Nothing relevant
+sh: Ex-smoker, 40 pack-years; retired decorator, exposure to dyes
+ice: Age | Nothing | No fuss
+cue: "I'm 71, things go wrong."
+ask: Is it just age?
+key: How many times, any clots, any pain? | Painless haematuria
+key: Urinary symptoms? | Infection
+key: Smoking and occupational exposure to dyes or chemicals? | Bladder cancer risk
+key: Weight loss, loin pain? | Upper tract
+key: Anticoagulants? | Doesn't explain haematuria alone
+rf: Visible haematuria aged 45 or over | Suspected cancer pathway
+sum: So twice in the last month your urine has been red without pain, with a small clot once, and you smoked heavily. Is that right?
+pres: Bernard Hale is a 71-year-old ex-smoker with 40 pack-years and occupational dye exposure presenting with two episodes of painless visible haematuria with a negative urine culture. This needs urgent assessment for bladder cancer.
+ddx: Bladder urothelial carcinoma, because of painless visible haematuria in a heavy ex-smoker | Renal or upper tract cancer, excluded with CT urogram | Prostatic bleeding or stones, distinguished by investigation
+ix: U&Es, FBC; PSA after counselling; flexible cystoscopy and CT urogram
+mx: Suspected cancer pathway referral to urology per NICE for visible haematuria at 45 or over; safety-net for clot retention
+tell: Blood in the urine isn't part of normal ageing, even without pain. Because you smoked, we need to look inside your bladder with a camera and do a scan. I'm referring you urgently to be seen within two weeks.
+
+=== UR04 | Suspected renal cell carcinoma: next steps
+who: Linda Moss, 59, school business manager
+act: Worried, notebook in hand; wants clear next steps.
+open: I've been told there's something on my kidney. What happens next?
+story: I've had blood in my urine on and off and lost weight. The scan shows a mass on my right kidney.
+hpc: Haematuria: Intermittent
+hpc: Weight: Lost 5 kg
+hpc: Imaging: CT showing a 6 cm right renal mass
+hpc: Symptoms: Mild right loin ache
+yes: Fatigue; night sweats
+no: Bone pain; cough; headaches; breathlessness
+pmh: High blood pressure; obesity
+dh: Amlodipine
+all: None
+fh: Nothing relevant
+sh: Smokes 10 a day
+ice: Kidney cancer | Losing her kidney or dying | A clear plan
+cue: "Will I need dialysis?"
+ask: What happens next?
+key: What have you been told so far? | Starts where she is
+key: Explain the likely diagnosis honestly with a warning shot | Breaking news
+key: Staging: CT chest, sometimes bone scan; MDT discussion | Next steps
+key: Treatment: surgery, partial or radical nephrectomy, often curative if localised | Options
+key: One healthy kidney is enough; dialysis is unlikely | Address the concern
+rf: Bone pain or neurological symptoms | Metastatic disease
+sum: So you've had blood in your urine and weight loss, and the scan shows a mass on your right kidney, and you want to know what happens next. Is that right?
+pres: Linda Moss is a 59-year-old smoker with intermittent haematuria, weight loss and a 6 cm right renal mass on CT, highly suggestive of renal cell carcinoma. I have explained the likely diagnosis, staging, MDT review and surgical options.
+ddx: Renal cell carcinoma, because of a solid renal mass with haematuria and weight loss | Oncocytoma or angiomyolipoma, distinguished by imaging features and histology | Upper tract urothelial cancer, assessed on CT urogram
+ix: CT chest for staging; U&Es and eGFR; FBC, calcium, LFTs; biopsy in selected cases
+mx: Urology MDT; partial or radical nephrectomy if localised; systemic therapy if metastatic; smoking cessation; clinical nurse specialist
+tell: The scan shows a growth on your right kidney, which is most likely a kidney cancer. The next step is a scan of your chest to check it hasn't spread, then the specialist team will plan treatment. If it's contained, an operation to remove part or all of the kidney is often curative, and one healthy kidney is enough, so dialysis is very unlikely.
+
+=== UR05 | Uncomplicated left ureteric colic
+who: Daniel Shaw, 38, sales rep
+act: Writhing, can't keep still, clutching your left side.
+open: I've got agonising pain in my left side going down to my groin.
+story: It came on suddenly two hours ago, in waves. It goes from my back into my groin. I've been sick.
+hpc: Pain: Left loin to groin, colicky, severe
+hpc: Onset: Sudden, 2 hours ago
+hpc: Vomiting: Twice
+hpc: Urine: Dipstick blood positive
+hpc: Observations: Temp 37.0, BP 138/82, creatinine 92
+yes: Restlessness; vomiting
+no: Fever; rigors; dysuria; previous stones known; single kidney
+pmh: Nothing
+dh: None
+all: None
+fh: Father had kidney stones
+sh: Drinks little water; sales rep
+ice: Kidney stone | Surgery | Pain relief
+cue: "I can't sit still."
+ask: Will I need an operation?
+key: Where is the pain, where does it go, and is it in waves? | Renal colic
+key: Fever, rigors? | Infected obstructed kidney is an emergency
+key: Urinary symptoms, blood? | Stone
+key: Previous stones, single kidney, kidney disease? | Risk
+key: Fluid intake and family history? | Prevention
+rf: Fever with obstruction | Emergency drainage
+rf: AAA in older patients | Leaking aneurysm mimic
+sum: So two hours ago you got sudden severe left-sided pain in waves going into your groin, with vomiting and blood in your urine, but no fever. Is that right?
+pres: Daniel Shaw is a 38-year-old man with sudden severe colicky left loin-to-groin pain, vomiting and non-visible haematuria, apyrexial with normal creatinine. This is uncomplicated left ureteric colic.
+ddx: Left ureteric calculus, because of colicky loin-to-groin pain with haematuria | Infected obstructed kidney, excluded by no fever | Leaking AAA or pyelonephritis, considered in older or febrile patients
+ix: Urine dip and culture; U&Es, FBC, CRP, calcium, urate; non-contrast CT KUB within 24 hours
+mx: NSAID first line by any route, such as IM diclofenac; IV paracetamol if NSAID contraindicated; antiemetic; alpha-blocker for distal ureteric stones under 10 mm; urology if stone is large, pain uncontrolled or obstruction persists; fluids for prevention
+tell: This sounds like a kidney stone passing down the tube to your bladder. An anti-inflammatory injection usually eases the pain quickly. A scan will show the size; small stones usually pass on their own. If you get a fever or shivers, come straight back, as that needs urgent treatment.
+
+=== UR06 | Uncomplicated lower UTI in a woman
+who: Emily Ross, 28, nurse
+act: Uncomfortable, frequent trips; matter-of-fact.
+open: It burns when I wee and I'm going all the time.
+story: For two days it stings when I pass urine and I'm going every half hour. No fever.
+hpc: Dysuria: 2 days
+hpc: Frequency: Every 30 minutes
+hpc: Urgency: Yes
+hpc: Systemic: No fever, no loin pain
+hpc: Pregnancy: Not pregnant, on the pill
+yes: Suprapubic discomfort; cloudy urine
+no: Fever; rigors; loin pain; vaginal discharge; haematuria; recurrent UTIs
+pmh: Nothing
+dh: Combined pill
+all: None
+fh: Nothing relevant
+sh: Nurse; non-smoker
+ice: Cystitis | Kidney infection | Antibiotics
+cue: "I'm on shift tomorrow."
+ask: Can I have antibiotics?
+key: Dysuria, frequency, urgency? | Lower UTI
+key: Fever, rigors, loin pain? | Pyelonephritis
+key: Vaginal discharge or itch? | STI or thrush
+key: Pregnant, or could you be? | Changes management
+key: Kidney problems, allergies? | Drug choice
+rf: Fever with loin pain | Pyelonephritis
+sum: So for two days you've had stinging when you pass urine and you're going every half hour, with no fever, loin pain or discharge, and you're not pregnant. Is that right?
+pres: Emily Ross is a 28-year-old non-pregnant woman with 2 days of dysuria, frequency and urgency without fever, loin pain or vaginal symptoms, and no renal disease or allergy. This is an uncomplicated lower UTI.
+ddx: Uncomplicated lower UTI, because of typical symptoms in a non-pregnant woman | STI such as chlamydia, told apart by discharge and sexual history | Pyelonephritis, excluded by no fever or loin pain
+ix: Urine dip optional; culture not routinely needed in women under 65 with typical symptoms
+mx: Nitrofurantoin 100 mg modified-release twice daily for 3 days, or a back-up prescription; fluids; paracetamol or ibuprofen; safety-net
+tell: This is cystitis, a bladder infection. I'll give you a 3-day course of nitrofurantoin, taken with food. Drink plenty of fluids. If you get a fever, pain in your back or side, or you're not better in 2 days, come back.
+
+=== UR08 | Urethral stricture
+who: Craig Ellis, 42, warehouse worker
+act: Frustrated; describe straining.
+open: My stream has got weaker and weaker. It takes me ages to wee.
+story: Since a straddle injury on a bike frame years ago, my stream has slowly got weaker. Now I strain and it takes several minutes.
+hpc: Stream: Progressively weak, spraying
+hpc: Straining: Yes, several minutes to void
+hpc: Previous injury: Straddle injury 8 years ago
+hpc: Infections: Two UTIs last year
+yes: Spraying stream; straining; post-void dribbling
+no: Fever now; retention; haematuria; urethral discharge
+pmh: Straddle injury
+dh: None
+all: None
+fh: Nothing relevant
+sh: Warehouse worker; non-smoker
+ice: Prostate | Not being able to pass water | A fix
+cue: "Sometimes I'm in the toilet for ages."
+ask: Is it my prostate?
+key: Stream, straining, spraying, how long? | Obstructive pattern
+key: Previous injury, catheterisation, STIs? | Stricture causes
+key: UTIs, retention episodes? | Complications
+key: Fever, blood? | Complications
+key: Age and prostate symptoms | BPH less likely at 42
+rf: Unable to pass urine | Retention
+sum: So since a straddle injury years ago your stream has become weaker, you strain for minutes, and you've had UTIs. Is that right?
+pres: Craig Ellis is a 42-year-old man with progressive weak and spraying urinary stream and straining after a straddle injury, with recurrent UTIs. This is a urethral stricture.
+ddx: Bulbar urethral stricture from previous trauma, because of progressive obstructive voiding after a straddle injury | BPH, unlikely at 42 | Bladder neck obstruction or neurogenic bladder, distinguished by urodynamics
+ix: Urine dip and culture; flow rate and post-void residual; retrograde urethrogram or flexible urethroscopy; U&Es
+mx: Urology referral; dilatation, optical urethrotomy, or urethroplasty for longer or recurrent strictures; safety-net for retention
+tell: Your symptoms suggest scar tissue narrowing the water pipe, likely from the old injury. A flow test and a camera or X-ray will confirm it. It can be treated by stretching, cutting or reconstructing the narrowed part. If you can't pass urine at all, go to A&E.
+
+=== UR09 | Acute urinary retention after an anticholinergic
+who: Harold Mills, 77, retired postman
+act: Pacing, desperate, holding your lower abdomen.
+open: I can't pass water. It's agony.
+story: I haven't passed water for ten hours. My tummy's painful. The GP started me on a new tablet for my bladder last week.
+hpc: Retention: No urine for 10 hours
+hpc: Pain: Severe suprapubic
+hpc: Bladder scan: 850 mL
+hpc: New medicine: Oxybutynin started last week
+hpc: Previous: Weak stream for a year
+yes: Weak stream; constipation
+no: Fever; haematuria; back pain; leg weakness; saddle numbness
+pmh: High blood pressure
+dh: Oxybutynin; amlodipine
+all: None
+fh: Nothing relevant
+sh: Lives with wife
+ice: Prostate | Bursting | Relief
+cue: "Please, I'm desperate."
+ask: Will it hurt?
+key: When did you last pass urine, and is it painful? | Acute retention
+key: New medicines, especially anticholinergics or opioids? | Precipitants
+key: Constipation? | Contributor
+key: Previous prostate symptoms? | BPH
+key: Back pain, leg weakness, saddle numbness? | Cauda equina
+rf: Back pain with saddle anaesthesia | Cauda equina syndrome
+rf: Post-obstructive diuresis or AKI | Monitor
+sum: So you haven't passed urine for 10 hours, you're in a lot of pain, and you started a new bladder tablet last week. Is that right?
+pres: Harold Mills is a 77-year-old man with painful acute urinary retention of 850 mL after starting oxybutynin, on a background of a year of poor stream. There are no features of cauda equina. This is acute urinary retention precipitated by an anticholinergic.
+ddx: Acute urinary retention precipitated by oxybutynin on underlying BPH | Constipation-related retention | Cauda equina syndrome, excluded by the absence of back pain and neurological signs
+ix: U&Es; urine dip and culture after catheterisation; residual volume; PSA later
+mx: Urethral catheterisation with consent, recording the residual volume; stop oxybutynin; treat constipation; start an alpha-blocker such as tamsulosin; trial without catheter after 2 to 3 days; urology follow-up
+tell: Your bladder can't empty, partly because of the new tablet. A thin tube into the bladder will give you immediate relief. We'll stop that tablet and start one that helps the prostate relax, then try removing the tube in a few days.
+
+=== UR10 | Genital ulcer: confidential assessment
+who: Sam Patel, 32, solicitor
+act: Defensive, anxious about confidentiality; avoid eye contact.
+open: I've got a painful sore down below. Please don't put anything on my record.
+story: It's a painful sore on my penis, came up three days ago. I'm worried about my record.
+hpc: Ulcer: Painful, shallow, multiple small sores on the penis
+hpc: Onset: 3 days ago, after tingling
+hpc: Systemic: Mild flu-like feeling
+hpc: Sexual history: ONLY IF ASKED privately: new male partner 1 week ago, no condom
+yes: Painful sores; tender inguinal nodes; dysuria
+no: Retention; fever now; rash elsewhere; previous episodes
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Solicitor; non-smoker
+ice: An infection | His workplace or family finding out | Treatment without a record
+cue: "Can you not write this down?"
+ask: Will this go on my record?
+key: Explain confidentiality and its limits honestly; offer the sexual health clinic, which keeps separate records | Trust
+key: Describe the sore: painful or painless, single or multiple? | HSV versus syphilis
+key: Sexual history: partners, gender, condoms, timing? | Risk
+key: Previous episodes? | Recurrent HSV
+key: Systemic symptoms, rash, urinary retention? | Complications
+rf: Urinary retention | Severe primary HSV
+sum: So three days ago you developed painful sores on your penis after a new partner, and you're worried about your record. Is that right?
+pres: Sam Patel is a 32-year-old man with 3 days of multiple painful penile ulcers after tingling, tender inguinal lymphadenopathy and mild systemic symptoms, a week after unprotected sex with a new male partner. This is most likely primary genital herpes.
+ddx: Primary genital herpes simplex, because of multiple painful shallow ulcers with a prodrome and lymphadenopathy | Primary syphilis, typically a single painless chancre | Other causes such as LGV, Behçet's or a fixed drug eruption, distinguished by swabs and serology
+ix: HSV PCR swab; syphilis serology; HIV test; chlamydia and gonorrhoea NAAT; ideally via sexual health services
+mx: Aciclovir 400 mg three times daily for 5 days for a first episode; analgesia, saline bathing; referral or signposting to sexual health for confidential care and partner notification; condom advice
+tell: This is most likely genital herpes, which is common and treatable. Antiviral tablets will help it heal. I have to keep accurate records, but the sexual health clinic keeps separate confidential records and can test for other infections and contact partners anonymously.
+
+=== UR11 | Epididymo-orchitis likely sexually transmitted
+who: Ryan Hughes, 27, barber
+act: Uncomfortable, legs apart; open about the new partner when asked.
+open: My left testicle has been getting more painful over two days, and it burns when I wee.
+story: The pain built up over two days. It's swollen and I have a temperature. It stings when I pass urine. I've got a new partner.
+hpc: Pain: Gradual, left testicle, 2 days
+hpc: Swelling: Yes
+hpc: Dysuria: Yes
+hpc: Fever: Yes
+hpc: Sexual history: New partner 3 weeks ago, no condom
+yes: Dysuria; urethral discharge
+no: Sudden onset; vomiting; trauma; mumps
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Barber; non-smoker
+ice: An infection | Fertility | Antibiotics
+cue: "Could this affect having kids?"
+ask: Will it affect my fertility?
+key: Onset sudden or gradual? | Torsion versus infection
+key: Dysuria, discharge, fever? | Infection
+key: Sexual history? | STI-related under 35
+key: Mumps symptoms? | Viral orchitis
+key: Vomiting or severe sudden pain? | Torsion
+rf: Sudden onset or uncertainty | Exclude torsion
+sum: So over two days your left testicle has become painful and swollen with fever, it burns when you pass urine, and you have a new partner. Is that right?
+pres: Ryan Hughes is a 27-year-old man with 2 days of gradually increasing left scrotal pain with swelling, dysuria and fever after a new sexual partner, with epididymal tenderness. This is epididymo-orchitis, likely sexually transmitted.
+ddx: STI-related epididymo-orchitis, because of gradual onset with dysuria and a new partner | Testicular torsion, time-critical and must be excluded | Mumps orchitis, excluded by history
+ix: First-void urine NAAT; urethral swab; MSU; full STI screen; ultrasound if diagnosis uncertain
+mx: Ceftriaxone 1 g IM plus doxycycline 100 mg twice daily for 10 to 14 days; analgesia; scrotal support; partner notification; abstain until treated
+tell: This is an infection of the tube behind the testicle, usually caught through sex. An injection plus 10 to 14 days of tablets will clear it. It rarely affects fertility when treated. Your partner needs testing and treatment too; the clinic can help anonymously.
+
+=== UR12 | Testicular torsion in a teenager
+who: Josh Bennett, 16, sixth-form student, with his mum
+act: Distressed, pale, vomiting; embarrassed to be examined.
+open: My testicle really hurts. It came on suddenly.
+story: Ninety minutes ago I suddenly got terrible pain in my right testicle. I've been sick twice.
+hpc: Onset: Sudden, 90 minutes ago, at rest
+hpc: Pain: Severe, right testicle
+hpc: Vomiting: Twice
+hpc: Urinary: No symptoms
+hpc: Trauma: None
+yes: Vomiting; lower abdominal pain
+no: Dysuria; fever; trauma; previous episodes
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Lives with parents
+ice: A pulled muscle | Losing his testicle | Pain relief
+cue: "Do I have to be examined?"
+ask: Will I need an operation?
+key: Onset: sudden or gradual, and how long ago? | Torsion: time-critical
+key: Vomiting? | Supports torsion
+key: Trauma, urinary symptoms, fever? | Alternatives
+key: Previous similar episodes? | Intermittent torsion
+key: Consent: at 16 he can consent; involve his mum with his agreement | Consent
+rf: Sudden severe testicular pain | Emergency exploration within 6 hours
+sum: So 90 minutes ago you suddenly got severe pain in your right testicle and you've been sick twice. Is that right?
+pres: Josh Bennett is a 16-year-old with 90 minutes of sudden severe right testicular pain with vomiting and no urinary or traumatic features. This is testicular torsion until proven otherwise, a surgical emergency.
+ddx: Testicular torsion, because of sudden severe pain with vomiting in an adolescent | Torsion of a testicular appendage, distinguished at surgery or by a blue dot | Epididymo-orchitis, unlikely with sudden onset and no urinary symptoms
+ix: Clinical diagnosis; do not delay surgery for ultrasound
+mx: Analgesia; nil by mouth; immediate urology for scrotal exploration and bilateral fixation; he can give his own consent at 16, ideally with his mum involved
+tell: I think your testicle has twisted and cut off its blood supply. It needs an operation straight away to untwist and fix it, and the other side too. The sooner we operate, the more likely we save it. Is it okay if we talk to your mum about this together?
+
+=== UR13 | Testicular cancer
+who: Ben Lowe, 25, graphic designer
+act: Embarrassed, avoids eye contact; delayed coming.
+open: I found a lump on my testicle a while ago. I was too embarrassed to come.
+story: About two months ago I felt a firm lump on my left testicle. It doesn't hurt. I kept putting off coming in.
+hpc: Lump: Left testis, firm, painless, 2 months
+hpc: Growth: Thinks it's slightly bigger
+hpc: Systemic: Mild back ache
+hpc: Breasts: Slight tenderness
+yes: Back ache; breast tenderness
+no: Pain; infection symptoms; trauma; cough; breathlessness
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Non-smoker; 10 units a week
+ice: A cyst | Cancer and fertility | To be checked
+cue: "I should have come sooner."
+ask: Is it cancer?
+key: When, size, growth, painful? | Painless firm testicular lump
+key: Is it part of the testis or separate? | Intratesticular
+key: Back pain, cough, breast changes? | Metastases and hCG effects
+key: Undescended testis history? | Risk
+key: Infection symptoms? | Orchitis
+rf: Painless intratesticular lump | Suspected cancer pathway
+sum: So for two months you've had a firm painless lump on your left testicle, slightly bigger, with some back ache and breast tenderness. Is that right?
+pres: Ben Lowe is a 25-year-old man with a 2-month painless firm left intratesticular lump, possibly enlarging, with back ache and gynaecomastia symptoms. This is highly suspicious for testicular germ cell tumour.
+ddx: Testicular germ cell tumour, because of a painless firm intratesticular lump in a young man | Epididymal cyst, separate from the testis | Orchitis or haematoma, distinguished by history and ultrasound
+ix: Urgent scrotal ultrasound; AFP, beta-hCG, LDH; CT chest, abdomen and pelvis
+mx: Suspected cancer pathway referral; sperm banking; radical inguinal orchidectomy; oncology MDT
+tell: I'm glad you came. This lump needs urgent checking because it could be a testicular cancer, but even if it is, it's one of the most curable cancers. We'll do a scan and blood tests, and refer you to be seen within two weeks. You'll be offered the chance to store sperm before treatment.
+
+=== UR14 | Blocked catheter drainage
+who: Nurse Kaur, on behalf of Mr Douglas, 74
+act: Calm; the patient is uncomfortable in bed with tubing under his leg.
+open: Mr Douglas is uncomfortable. His catheter bag has been empty for four hours.
+story: He has a long-term catheter. He's got lower tummy discomfort and the bag hasn't filled for four hours. No fever.
+hpc: Catheter: Long-term, 16 Fr, changed 4 weeks ago
+hpc: Drainage: Bag empty for 4 hours
+hpc: Discomfort: Suprapubic
+hpc: Tubing: Kinked beneath his leg
+hpc: Fever: None
+yes: Suprapubic discomfort
+no: Fever; rigors; haematuria; confusion; bypassing
+pmh: BPH with retention; long-term catheter
+dh: Tamsulosin
+all: None
+fh: Not relevant
+sh: Lives in a care home
+ice: Infection | Pain | Help
+cue: "It's really uncomfortable down there."
+ask: Is it infected?
+key: Check the whole system from catheter to bag: kinks, bag above bladder level, clamps | Mechanical causes first
+key: Bladder scan for residual volume | Retention behind a blocked catheter
+key: Fever, confusion, haematuria? | Infection or clots
+key: Fluid intake and output | Dehydration or AKI
+key: If still blocked, change the catheter per policy | Blockage
+rf: Fever or rigors | Catheter-associated UTI or sepsis
+sum: Mr Douglas has suprapubic discomfort and an empty bag for four hours, with the tubing kinked under his leg and no fever.
+pres: Mr Douglas is a 74-year-old man with a long-term urinary catheter, 4 hours of absent drainage and suprapubic discomfort, with kinked tubing and no fever. This is mechanical drainage failure rather than infection.
+ddx: Mechanical obstruction from kinked tubing, because of absent drainage with an obvious kink | Catheter blockage from encrustation or clots, if drainage does not resume | Oliguria from AKI or dehydration, excluded by a full bladder on scanning
+ix: Bladder scan; urine dip only if symptoms of infection, as catheterised urine is usually colonised
+mx: Unkink tubing, keep the bag below bladder level, check flow; if still blocked, change the catheter; do not treat asymptomatic bacteriuria; encourage fluids; review catheter need
+tell: Mr Douglas, the tube was bent under your leg, so the urine couldn't drain. I've straightened it and you should feel relief soon. If it doesn't drain, we'll change the catheter.
+
+=== VA01 | Intermittent claudication
+who: Terry Bolton, 66, retired lorry driver
+act: Rub your calf; describe stopping at the bus stop.
+open: My calf aches after I've walked a couple of hundred metres. I have to stop.
+story: After about 200 metres my right calf cramps. If I stop for a few minutes it goes. It's never there at rest.
+hpc: Pain: Right calf cramp
+hpc: Distance: 200 metres
+hpc: Relief: Rest, within minutes
+hpc: Rest pain: None
+hpc: Pulses: Reduced pedal pulses
+yes: Cold feet
+no: Rest pain; night pain; ulcers; gangrene; back pain with leg tingling; erectile dysfunction mentioned
+pmh: High blood pressure; type 2 diabetes
+dh: Amlodipine; metformin
+all: None
+fh: Father had a stroke
+sh: Smokes 20 a day; retired lorry driver
+ice: Muscles | Losing his leg | To walk further
+cue: "I can't walk to the pub any more."
+ask: Will I lose my leg?
+key: Where, how far, how quickly does it go with rest? | Claudication
+key: Rest pain, night pain, ulcers? | Critical limb ischaemia
+key: Back pain or tingling, better bending forward? | Spinal stenosis
+key: Smoking, diabetes, BP, cholesterol? | Risk
+key: Heart or stroke symptoms? | Polyvascular disease
+rf: Rest pain or tissue loss | Urgent vascular referral
+sum: So after about 200 metres your right calf cramps and it goes within minutes of rest, never at rest, and you smoke. Is that right?
+pres: Terry Bolton is a 66-year-old smoker with diabetes and hypertension with intermittent claudication of the right calf at 200 metres, relieved by rest, without rest pain or tissue loss, and with reduced pedal pulses. This is peripheral arterial disease with stable claudication.
+ddx: Peripheral arterial disease with intermittent claudication | Lumbar spinal stenosis, which improves with bending forward | Critical limb ischaemia, excluded by no rest pain or tissue loss
+ix: ABPI; HbA1c, lipids, U&Es, FBC; duplex ultrasound if considering intervention
+mx: Smoking cessation; supervised exercise programme; clopidogrel 75 mg and atorvastatin 80 mg; BP and diabetes control; naftidrofuryl if exercise fails; vascular referral if lifestyle-limiting despite treatment
+tell: Your leg pain is from narrowed arteries not delivering enough blood when you walk. Stopping smoking and a supervised walking programme are the best treatments; most people walk further. I'll start a blood thinner and cholesterol tablet to protect your heart and brain too.
+
+=== VA06 | Arterial ulcer with critical limb ischaemia
+who: Maureen Ellis, 75, retired cook
+act: Sit with the leg hanging over the bed edge; wince at touch.
+open: I've got a painful sore on the side of my foot, and my foot is always cold.
+story: There's a small sore on the outside of my foot that won't heal. It's painful, especially at night. I hang my leg out of bed to ease it. My daughter suggested compression stockings.
+hpc: Ulcer: Lateral foot, small, punched-out, painful
+hpc: Night pain: Yes, eased by hanging the leg down
+hpc: Foot: Cold, pale
+hpc: Pulses: Absent pedal pulses
+hpc: ABPI: 0.42
+yes: Rest pain; claudication before
+no: Fever; spreading redness; diabetes; recent trauma
+pmh: High blood pressure; ex-smoker
+dh: Amlodipine
+all: None
+fh: Nothing relevant
+sh: Ex-smoker, 40 pack-years; lives alone
+ice: A sore that won't heal | Losing her leg | Stockings to help
+cue: "My daughter's already bought the stockings."
+ask: Should I wear the compression stockings?
+key: Ulcer site, pain, appearance? | Arterial ulcer
+key: Night pain relieved by hanging the leg down? | Rest pain
+key: Claudication history? | PAD
+key: ABPI result | 0.42 means severe ischaemia
+key: Diabetes, smoking? | Risk
+rf: ABPI below 0.5 | Compression is contraindicated
+rf: Rest pain with tissue loss | Critical limb-threatening ischaemia: urgent vascular referral
+sum: So you have a painful sore on the side of your foot that won't heal, night pain eased by hanging your leg down, a cold foot, and your ABPI is 0.42. Is that right?
+pres: Maureen Ellis is a 75-year-old ex-smoker with a painful punched-out lateral foot ulcer, rest pain relieved by dependency, a cold foot, absent pedal pulses and ABPI 0.42. This is an arterial ulcer with chronic limb-threatening ischaemia; compression is contraindicated.
+ddx: Arterial ulcer with chronic limb-threatening ischaemia, because of a painful lateral foot ulcer with rest pain and ABPI below 0.5 | Venous ulcer, excluded by site and ABPI | Neuropathic or mixed ulcer, excluded by no diabetes
+ix: Duplex ultrasound; CT or MR angiography; FBC, U&Es, lipids, HbA1c; wound swab if infected
+mx: Urgent vascular referral for revascularisation; do not apply compression; analgesia; wound care; antiplatelet and statin; smoking abstinence
+tell: Please don't wear the compression stockings; they'd squeeze the little blood supply your foot has left and could make things much worse. The sore isn't healing because the arteries are narrowed. I'm referring you urgently to the vascular surgeons, who can often improve the blood flow.
+
+=== VA07 | Venous leg ulcer
+who: Pat Collins, 67, retired shop worker
+act: Leg up on a stool; show brown-stained skin and a weeping dressing.
+open: I've got a sore above my ankle that keeps weeping and won't heal.
+story: It's above my inside ankle. It's been there for two months. My ankle swells and the skin's gone brown.
+hpc: Ulcer: Above the medial malleolus, shallow, weeping, 2 months
+hpc: Pain: Mild ache, better with leg raised
+hpc: Swelling: Ankle oedema
+hpc: Skin: Brown staining, itchy
+hpc: ABPI: 1.0
+yes: Varicose veins; previous DVT
+no: Rest pain; fever; spreading redness; diabetes
+pmh: Varicose veins; DVT 10 years ago
+dh: None
+all: None
+fh: Mother had leg ulcers
+sh: Non-smoker; BMI 32; stood all day at work
+ice: Poor healing | Infection | Dressings
+cue: "It's been dressed for weeks and it's no better."
+ask: Why won't it heal?
+key: Site, appearance, duration? | Venous ulcer features
+key: Swelling, skin changes, varicose veins? | Venous hypertension
+key: Previous DVT? | Post-thrombotic syndrome
+key: Pain at rest or claudication? | Arterial component
+key: ABPI result | 1.0: compression is safe
+rf: Spreading cellulitis | Antibiotics
+rf: Not healing at 2 weeks | Vascular referral
+sum: So for two months you've had a weeping sore above your inside ankle with ankle swelling and brown skin, and you have varicose veins and a past clot. Is that right?
+pres: Pat Collins is a 67-year-old woman with a 2-month shallow weeping ulcer above the medial malleolus, ankle oedema, haemosiderin staining and varicose veins, with a previous DVT and ABPI 1.0. This is a venous leg ulcer, and compression is safe.
+ddx: Venous leg ulcer, because of gaiter area ulceration with venous skin changes and normal ABPI | Mixed arterial-venous ulcer, excluded by ABPI 1.0 | Malignant ulcer, biopsy if non-healing or atypical
+ix: ABPI done; FBC, HbA1c; duplex ultrasound of veins; wound swab only if clinically infected
+mx: Multilayer compression bandaging; leg elevation; exercise; skin care with emollients; refer to vascular services for venous intervention per NICE; weight loss
+tell: This ulcer is caused by high pressure in the leg veins. The most important treatment is firm compression bandages, which are safe because your circulation is good, along with raising your leg. I'll refer you to the vascular team, as treating the veins helps it heal and stops it coming back.
+
+=== VA08 | Neuropathic diabetic foot ulcer
+who: Derek Moss, 62, taxi driver
+act: Unbothered by the ulcer; wearing tight shoes.
+open: The nurse said I've got an ulcer on my foot. It doesn't hurt.
+story: There's a sore under the ball of my big toe. I didn't feel it. I wear the same work shoes every day.
+hpc: Ulcer: Under the first metatarsal head, painless
+hpc: Callus: Surrounding thick callus
+hpc: Sensation: Reduced monofilament
+hpc: Pulses: Palpable
+hpc: Shoes: Tight work shoes
+yes: Numb feet
+no: Fever; spreading redness; swelling; pain; probe-to-bone sinus
+pmh: Type 2 diabetes for 15 years
+dh: Metformin; gliclazide
+all: None
+fh: Nothing relevant
+sh: Taxi driver; ex-smoker
+ice: A blister | Losing his foot | Nothing much
+cue: "It doesn't hurt, so it's fine."
+ask: Why does it matter if it doesn't hurt?
+key: Ulcer site, pain, how it started? | Pressure ulcer
+key: Footwear and walking barefoot? | Cause
+key: Numbness, burning? | Neuropathy
+key: Claudication, rest pain? | Ischaemia
+key: Redness, swelling, fever, discharge? | Infection and osteomyelitis
+rf: Spreading infection or sepsis | Emergency
+rf: Active ulcer | MDT foot service within 1 working day
+sum: So you have a painless ulcer under the ball of your big toe with hard skin around it, numb feet and tight work shoes. Is that right?
+pres: Derek Moss is a 62-year-old man with long-standing type 2 diabetes and a painless plantar ulcer under the first metatarsal head with surrounding callus, reduced monofilament sensation and palpable pulses, wearing tight shoes. This is a neuropathic diabetic foot ulcer.
+ddx: Neuropathic diabetic foot ulcer, because of a painless pressure-point ulcer with sensory loss and palpable pulses | Ischaemic or neuroischaemic ulcer, excluded with ABPI or toe pressures | Osteomyelitis, assessed with probe-to-bone and X-ray
+ix: ABPI or toe pressures; X-ray foot; swab if infected; HbA1c, FBC, CRP
+mx: Referral to the multidisciplinary foot service within 1 working day; offloading, callus debridement, appropriate footwear; antibiotics if infected; glucose control
+tell: Because the nerves in your feet are damaged, you didn't feel the pressure from tight shoes, and that's caused an ulcer. It's serious because it can get infected without hurting. I'm referring you to the foot team this week, and you'll need special shoes or a boot to take the pressure off.
+
+=== VA09 | Symptomatic varicose veins
+who: Sarah Hughes, 48, primary school teacher
+act: Rub your calves; mention standing all day.
+open: My varicose veins ache by the end of the day.
+story: After standing all day teaching, my legs ache and my ankles swell a little. The veins are getting bigger.
+hpc: Ache: Heavy, aching legs by evening
+hpc: Swelling: Mild ankle swelling
+hpc: Veins: Visible, enlarging over years
+hpc: Bleeding or ulcers: None
+yes: Itching; night cramps
+no: Bleeding; ulcers; skin changes; one-sided acute swelling; previous DVT
+pmh: Two pregnancies
+dh: None
+all: None
+fh: Mother had varicose veins
+sh: Teacher; non-smoker
+ice: Getting older | Clots | Treatment
+cue: "I wear trousers all summer."
+ask: Can they be treated?
+key: Symptoms: aching, heaviness, swelling, itching? | Symptomatic veins
+key: Bleeding, ulcers, skin changes? | Complications
+key: Previous DVT? | Deep venous disease
+key: Acute painful swelling? | DVT or thrombophlebitis
+key: Pregnancy, occupation, family history? | Risk
+rf: Bleeding varicose vein | Urgent referral
+sum: So your varicose veins ache and your ankles swell a little after standing all day, without bleeding or ulcers. Is that right?
+pres: Sarah Hughes is a 48-year-old teacher with symptomatic primary varicose veins causing aching, heaviness and mild ankle swelling after prolonged standing, without bleeding, ulceration or skin changes.
+ddx: Symptomatic primary varicose veins, because of aching veins worsened by standing | Deep venous insufficiency after DVT, excluded by history | DVT, excluded by no acute unilateral swelling
+ix: Refer for venous duplex ultrasound
+mx: Per NICE: refer to a vascular service for symptomatic varicose veins; endothermal ablation first-line; compression stockings if intervention is unsuitable; leg elevation, exercise
+tell: Varicose veins are caused by faulty valves in the leg veins. Because they're causing symptoms, I'll refer you to the vascular team, who usually treat them with a heat procedure through a needle. Raising your legs and walking help in the meantime.
+
+=== VA10 | Secondary lymphoedema after pelvic cancer treatment
+who: Christine Ward, 55, former teaching assistant
+act: Leg in a heavy trouser leg; self-conscious.
+open: My left leg has been swollen for months since my cancer treatment.
+story: After surgery and radiotherapy for cervical cancer last year, my left leg started swelling, including my toes. The skin's thicker now.
+hpc: Swelling: Left leg, including toes, months
+hpc: Skin: Thickened
+hpc: Pain: Heaviness, no acute pain
+hpc: Cancer: Cervical cancer, surgery with pelvic lymphadenectomy and radiotherapy
+hpc: Recent change: Gradually worse
+yes: Heaviness; reduced mobility
+no: Acute calf pain; redness; fever; new pelvic pain; weight loss; bleeding
+pmh: Cervical cancer, treated
+dh: None
+all: None
+fh: Nothing relevant
+sh: Former teaching assistant
+ice: Side effect of treatment | The cancer coming back | To reduce the swelling
+cue: "Is the cancer back?"
+ask: Will it go away?
+key: When did it start, and has it changed recently? | Chronic versus new
+key: Toes involved, skin thickening? | Lymphoedema
+key: Acute pain, redness, fever? | Cellulitis or DVT
+key: New pelvic symptoms, weight loss, bleeding? | Recurrence
+key: Previous cancer treatment details | Cause
+rf: New or rapidly worsening swelling after cancer | Exclude recurrence and DVT with imaging
+rf: Cellulitis | Antibiotics promptly
+sum: So since your cervical cancer treatment, your left leg including the toes has gradually swollen and the skin has thickened, with no acute pain or fever. Is that right?
+pres: Christine Ward is a 55-year-old woman with gradually progressive left leg swelling including the toes with skin thickening after pelvic lymphadenectomy and radiotherapy for cervical cancer, without acute pain or infection. This is secondary lymphoedema, with recurrence and DVT to exclude.
+ddx: Secondary lymphoedema after pelvic lymph node treatment, because of chronic swelling with toe involvement and skin thickening | DVT, excluded with duplex ultrasound | Pelvic recurrence compressing veins or lymphatics, excluded with imaging
+ix: Duplex ultrasound; CT or MRI pelvis if recurrence suspected; U&Es, albumin
+mx: Specialist lymphoedema service; compression garments; skin care; exercise; manual lymphatic drainage; prompt antibiotics for cellulitis
+tell: The swelling is lymphoedema, caused by the treatment removing lymph glands that drain the leg. It can't be cured, but a specialist team can reduce it with compression garments, skin care and exercises. Because it's after cancer treatment, we'll do a scan to check nothing new is pressing on the drainage.
+
+=== VA11 | Primary Raynaud's phenomenon
+who: Megan Price, 26, receptionist
+act: Show white fingertips; rub your hands together.
+open: My fingers go white then blue when it's cold.
+story: In the cold my fingers turn white, then blue, then red and tingly as they warm up. It happens in both hands.
+hpc: Colour change: White, blue, then red
+hpc: Trigger: Cold, stress
+hpc: Distribution: Both hands, symmetrical
+hpc: Resolution: Resolves with warming
+yes: Cold triggers
+no: Ulcers; joint pain; rash; swallowing problems; dry eyes or mouth; skin tightening; one-sided attacks
+pmh: Nothing
+dh: Combined pill
+all: None
+fh: Mother has Raynaud's
+sh: Smokes 5 a day
+ice: Poor circulation | Losing fingers | Advice
+cue: "It's embarrassing at work."
+ask: Is it dangerous?
+key: Colour changes and triggers? | Raynaud's
+key: Symmetrical or one-sided? | Primary versus secondary
+key: Ulcers, joint pain, rash, swallowing, skin tightening? | Connective tissue disease
+key: Smoking, beta-blockers, vibrating tools? | Triggers
+key: Age of onset | Primary usually young
+rf: Digital ulcers or features of systemic disease | Secondary Raynaud's: refer
+sum: So in the cold your fingers go white, blue, then red in both hands, and there are no ulcers, joint pain or swallowing problems. Is that right?
+pres: Megan Price is a 26-year-old woman with symmetrical episodic triphasic colour change of the fingers triggered by cold and resolving on warming, with a family history and no features of secondary disease. This is primary Raynaud's phenomenon.
+ddx: Primary Raynaud's, because of young onset, symmetry and no secondary features | Secondary Raynaud's from systemic sclerosis or SLE, excluded by history and normal nailfold capillaries | Vibration white finger, excluded by occupational history
+ix: Clinical; ANA and nailfold capillaroscopy if any secondary features
+mx: Keep warm, gloves, heated hand warmers; stop smoking; avoid beta-blockers; nifedipine if severe and frequent
+tell: This is Raynaud's, where small blood vessels in the fingers overreact to cold. It's common and usually harmless. Keeping your hands and whole body warm, wearing gloves and stopping smoking help most. If it becomes severe, a tablet can help.
+
+=== VA12 | Small abdominal aortic aneurysm on surveillance
+door: Vascular clinic: a 70-year-old man has a 4.2 cm abdominal aortic aneurysm on ultrasound. He has no pain but believes any aneurysm will rupture tomorrow.
+who: Brian Roberts, 70, retired engineer
+act: Anxious; convinced it will burst tomorrow; keeps touching your tummy.
+open: They've found an aneurysm. I'm convinced it's going to burst any day.
+story: The scan says my aorta is 4.2 cm. I've no pain at all. I can't stop thinking about it bursting.
+hpc: Size: 4.2 cm on ultrasound
+hpc: Symptoms: None; no abdominal or back pain
+hpc: Smoking: 30 pack-years, still smokes 15 a day
+hpc: BP: 152/88
+hpc: Sleep: Poor since the scan
+yes: Anxiety
+no: Abdominal pain; back pain; collapse; leg symptoms
+pmh: High blood pressure
+dh: Amlodipine
+all: None
+fh: Brother had an aneurysm repair
+sh: Smokes 15 a day; lives with wife
+ice: It'll burst | Dying suddenly | Reassurance
+cue: "I can't sleep thinking about it."
+ask: Will it burst?
+key: What were you told about the size? | Starts where he is
+key: Explain: 4.2 cm is a small aneurysm; rupture risk at this size is very low; yearly scans | Surveillance: 3.0 to 4.4 cm yearly, 4.5 to 5.4 cm every 3 months
+key: Any pain in the tummy or back, or collapse? | Symptomatic aneurysm
+key: Smoking, BP, cholesterol | Growth risk
+key: When surgery is offered: 5.5 cm or more, growth over 1 cm a year, or symptoms | Thresholds
+rf: Abdominal or back pain or collapse | Rupture: 999
+sum: So your scan found a 4.2 cm aneurysm, you have no pain, and you're worried it'll burst tomorrow. Is that right?
+pres: Brian Roberts is a 70-year-old smoker with hypertension and an asymptomatic 4.2 cm abdominal aortic aneurysm, with a brother who had a repair, and marked anxiety about rupture. Small aneurysms of 3.0 to 4.4 cm have a very low rupture risk and are monitored with yearly ultrasound, with referral at 5.5 cm, growth over 1 cm per year or symptoms.
+ddx: Asymptomatic small AAA, because of a 4.2 cm aneurysm without symptoms | Symptomatic or rapidly expanding aneurysm, excluded by history | Health anxiety amplifying the risk, addressed by explanation
+ix: Yearly surveillance ultrasound; BP; lipids
+mx: Smoking cessation, the key modifiable factor for growth; BP control; statin and antiplatelet for cardiovascular risk; yearly surveillance; vascular referral at 5.5 cm, growth over 1 cm per year or symptoms
+tell: At 4.2 cm, the chance of it bursting is very low, which is why we check it with a scan once a year rather than operate. Stopping smoking slows its growth more than anything else. If it ever reaches 5.5 cm, the surgeons will plan a repair. If you get sudden tummy or back pain or collapse, call 999.
+
+=== VA13 | Amputation discussion for an unsalvageable foot
+who: Ron Baker, 73, retired coal miner
+act: Quiet, worried; asks about walking and his wife.
+open: They say I might need my foot off. Will I ever walk again?
+story: My foot's infected and dying from poor circulation. The surgeons say it can't be saved. I care for my wife, who has dementia.
+hpc: Foot: Infected, gangrenous toes, unsalvageable
+hpc: Circulation: Not suitable for revascularisation
+hpc: Mobility before: Walked with a stick
+hpc: Caring: Main carer for his wife with dementia
+yes: Pain; fever at times
+no: Chest pain; breathlessness at rest
+pmh: Peripheral arterial disease; type 2 diabetes; COPD
+dh: Metformin; clopidogrel; atorvastatin; inhalers
+all: None
+fh: Nothing relevant
+sh: Ex-smoker; lives with wife
+ice: Losing his leg | Not being able to care for his wife | Honest answers
+cue: "Who will look after Mary?"
+ask: Will I walk again? Who will care for my wife?
+key: What has the team told you so far? | Starts where he is
+key: Explain why: infection and lack of blood flow mean the foot can't heal, and keeping it risks spreading infection | Rationale
+key: Walking: many people walk again with a prosthetic leg, especially below-knee; rehabilitation takes months | Realistic hope
+key: Phantom pain and how it is managed | Expectations
+key: Address caring: social services, respite and support for his wife | His main concern
+rf: Spreading infection or sepsis | Urgency
+sum: So your foot can't be saved because of infection and poor circulation, and you're worried about walking and caring for your wife. Is that right?
+pres: Ron Baker is a 73-year-old man with an infected, unsalvageable ischaemic foot not suitable for revascularisation, offered amputation. He walked with a stick and is the main carer for his wife with dementia. I have explained the rationale, rehabilitation and prosthetic options, phantom pain, and arranged support for his wife.
+ddx: Unsalvageable infected ischaemic foot needing amputation | Below-knee versus above-knee amputation, decided by the vascular team based on tissue perfusion | Ongoing sepsis risk if delayed
+ix: Pre-operative assessment; FBC, CRP, U&Es, HbA1c; cardiorespiratory assessment
+mx: Vascular surgery; physiotherapy and prosthetics team; occupational therapy; pain team for phantom limb pain; social services and carers for his wife urgently; psychological support
+tell: The infection and poor blood flow mean the foot can't heal, and keeping it could let infection spread. Many people walk again with an artificial leg after a lot of hard work with the physios, especially if the amputation is below the knee. We'll make sure Mary is looked after while you're in hospital and recovering.

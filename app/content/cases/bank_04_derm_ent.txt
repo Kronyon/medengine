@@ -1,0 +1,1220 @@
+# Station bank: dermatology and ENT.
+
+=== DE01 | Suspected malignant melanoma
+who: Gillian Hart, 54, travel agent
+act: Pull your collar to show the upper back; husband noticed it.
+open: My husband says the mole on my back has changed. It's got bigger and darker.
+story: Over three months it's grown, gone uneven, and has different browns and black in it. It itched once and bled a little.
+hpc: Change: Bigger over 3 months
+hpc: Shape: Irregular, asymmetric
+hpc: Colour: Several shades of brown and black
+hpc: Size: About 8 mm
+hpc: Symptoms: Itched, bled slightly once
+yes: Itch; slight bleeding
+no: Other changing moles; lumps in armpit or neck; weight loss; cough; headaches
+pmh: Nothing
+dh: None
+all: None
+fh: Father had melanoma
+sh: Holidays in Spain twice a year; sunburn as a child; used sunbeds in her twenties
+ice: Just a mole | Skin cancer | To have it checked
+cue: "My dad had a melanoma removed."
+ask: Is it cancer?
+key: When noticed, how has it changed: size, shape, colour? | Evolution is the strongest sign
+key: Itch, bleeding, crusting? | Symptoms of a changing lesion
+key: Sun exposure, sunburn, sunbeds, skin type? | UV risk
+key: Family or personal history of melanoma? | Risk
+key: Number of moles, other changing lesions? | Risk and spread
+key: Lumps in neck or armpit, weight loss? | Metastatic disease
+rf: Changing pigmented lesion scoring 3 or more on the weighted 7-point checklist | Suspected cancer pathway
+sum: So the mole on your upper back has grown, become irregular and multicoloured over three months, has itched and bled once, and your father had melanoma. Is that right?
+pres: Gillian Hart is a 54-year-old woman with a pigmented lesion on the upper back that has enlarged, become asymmetric and multicoloured over 3 months, about 8 mm, with itch and bleeding, a history of childhood sunburn and sunbed use, and a father with melanoma. This scores highly on the weighted 7-point checklist and is suspicious for malignant melanoma.
+ddx: Malignant melanoma, because of a changing irregular multicoloured lesion | Dysplastic naevus, distinguished on dermoscopy and histology | Seborrhoeic keratosis or pigmented BCC, distinguished on dermoscopy
+ix: Dermoscopy; photograph; excision biopsy with a 2 mm margin by the specialist team; do not shave or partially biopsy in primary care
+mx: Suspected cancer pathway referral to dermatology within 2 weeks per NICE NG12; sun protection; skin self-examination; if confirmed, wide local excision and staging by Breslow thickness
+tell: The changes in your mole need checking urgently, so I'm referring you to a skin specialist within two weeks. They'll look with a special magnifier and probably remove it to test it. If it is a melanoma, finding it early gives an excellent chance of cure. Until then, protect your skin from the sun.
+
+=== DE02 | Basal cell carcinoma
+who: Frank Ellison, 76, retired farmer
+act: Point beside your nose; unbothered, embarrassed to waste time.
+open: My wife made me come about this spot by my nose. It's been there a year.
+story: It started as a small pearly bump and has slowly got bigger. The middle sometimes scabs and bleeds, then heals over, then breaks down again.
+hpc: Site: Left side of the nose
+hpc: Duration: About a year, slowly growing
+hpc: Appearance: Pearly, rolled edge, small blood vessels
+hpc: Centre: Ulcerates, scabs and re-forms
+hpc: Pain: None
+yes: Occasional bleeding
+no: Rapid growth; tenderness; lumps in the neck; other similar lesions known; immunosuppression
+pmh: Hypertension
+dh: Amlodipine
+all: None
+fh: Nothing relevant
+sh: Farmed outdoors all his life; rarely used sun cream; lives with wife
+ice: A spot | Losing part of his nose | To get rid of it
+cue: "It's not hurting, so it can't be much."
+ask: Do I need an operation?
+key: How long, how fast is it growing? | Slow growth suggests BCC
+key: Pearly appearance, rolled edge, ulceration, bleeding? | BCC features
+key: Outdoor work, sunburn history? | UV exposure
+key: Other lesions? | Field change
+key: Immunosuppression, previous skin cancers? | Risk
+rf: Rapid growth, tenderness or a neck lump | Consider SCC: suspected cancer pathway
+sum: So over a year a pearly spot by your nose has slowly grown and keeps scabbing and bleeding, and you've worked outdoors all your life. Is that right?
+pres: Frank Ellison is a 76-year-old retired farmer with a 1-year slowly enlarging pearly lesion beside the nose with a rolled telangiectatic edge and central ulceration that intermittently bleeds, without lymphadenopathy. This is a nodular basal cell carcinoma.
+ddx: Nodular basal cell carcinoma, because of a slowly growing pearly telangiectatic ulcerated facial lesion | Squamous cell carcinoma, faster growing, keratinising and tender | Keratoacanthoma or sebaceous hyperplasia, distinguished clinically and on histology
+ix: Dermoscopy; diagnostic biopsy by dermatology
+mx: Routine dermatology referral per NICE, as BCC rarely spreads; on the central face consider Mohs micrographic surgery; other options are surgical excision, radiotherapy or topical treatments for superficial types; sun protection
+tell: This is most likely a basal cell carcinoma, a type of skin cancer that grows slowly and almost never spreads. Because it's on your nose, the skin specialist may use a careful technique that removes it while saving as much healthy skin as possible. It's very curable.
+
+=== DE03 | Cutaneous squamous cell carcinoma
+who: Bill Haynes, 71, retired roofer
+act: Hold your hand out; flinch when the nodule is touched.
+open: I've got a lump on the back of my hand that's grown fast and keeps bleeding.
+story: Six weeks ago it was a rough spot. Now it's a raised crusty lump that's tender, and it bleeds when I knock it.
+hpc: Site: Back of right hand
+hpc: Growth: Rapid over 6 weeks
+hpc: Surface: Scaly, crusted, keratin horn
+hpc: Tenderness: Yes
+hpc: Bleeding: When knocked
+yes: Tenderness; bleeding
+no: Lumps in the armpit; weight loss; fever; injury to the site
+pmh: Kidney transplant 10 years ago
+dh: Tacrolimus; mycophenolate; prednisolone 5 mg
+all: None
+fh: Nothing relevant
+sh: Roofer for 45 years; ex-smoker
+ice: A wart | Cancer | To have it removed
+cue: "It just keeps growing."
+ask: Is it cancer?
+key: When did it start, and how quickly has it grown? | Rapid growth suggests SCC
+key: Tenderness, bleeding, crusting? | SCC features
+key: Immunosuppression or transplant? | Greatly raised SCC risk
+key: Sun exposure and occupation? | UV
+key: Lumps in the armpit? | Nodal spread
+rf: Growing nodule in an immunosuppressed patient | Suspected cancer pathway
+sum: So over six weeks a rough spot on the back of your hand has become a tender, crusty, bleeding lump, and you take anti-rejection medicines. Is that right?
+pres: Bill Haynes is a 71-year-old retired roofer and renal transplant recipient on immunosuppression with a rapidly growing tender crusted keratotic nodule on the dorsum of the right hand over 6 weeks, which bleeds on contact. This is a cutaneous squamous cell carcinoma until proven otherwise.
+ddx: Cutaneous squamous cell carcinoma, because of a rapidly growing tender keratotic nodule in an immunosuppressed outdoor worker | Keratoacanthoma, which grows fast and may regress but is treated as SCC | Viral wart or hypertrophic actinic keratosis, distinguished on histology
+ix: Examine regional nodes; excision biopsy by specialist team
+mx: Suspected cancer pathway dermatology referral within 2 weeks; surgical excision with margins; liaise with the transplant team about immunosuppression; regular skin surveillance; sun protection
+tell: This lump needs checking urgently, as it could be a squamous cell skin cancer. Your transplant medicines raise the risk. It's usually cured by removing it, and I'm referring you to be seen within two weeks.
+
+=== DE04 | Actinic keratoses and Bowen's disease
+who: Doreen Clarke, 69, retired PE teacher
+act: Touch your rough forehead; pull up your trouser to show the shin.
+open: I've got rough patches on my forehead and a red scaly patch on my leg that won't go.
+story: The forehead patches feel like sandpaper and come and go. The shin patch has been there a year; moisturiser and eczema cream did nothing.
+hpc: Forehead: Several rough, scaly, sandpaper patches
+hpc: Shin: Single sharply outlined red scaly plaque, 1 year
+hpc: Ulceration: None
+hpc: Growth: Shin patch slowly enlarging
+hpc: Treatment: Hydrocortisone for eczema, no effect
+yes: Itch occasionally
+no: Bleeding; nodules; rapid growth; tenderness
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Outdoor PE teacher for decades; fair skin; sunburnt easily
+ice: Eczema | Skin cancer | Proper treatment
+cue: "The cream didn't touch it."
+ask: Is it cancer?
+key: Where, how long, and has it changed? | Persistent lesions
+key: Rough texture, bleeding, nodules, ulceration? | Progression to SCC
+key: Response to emollients or steroids? | Not eczema if unresponsive
+key: Sun exposure and skin type? | UV
+key: Immunosuppression? | Risk
+rf: A lump, tenderness, bleeding or ulceration in a patch | Possible invasive SCC
+sum: So you've got rough patches on your forehead and a red scaly patch on your shin for a year that didn't respond to eczema cream, without bleeding or lumps. Is that right?
+pres: Doreen Clarke is a 69-year-old woman with fair skin and high lifetime sun exposure with multiple rough scaly patches on the forehead consistent with actinic keratoses, and a persistent well-defined erythematous scaly plaque on the shin unresponsive to topical steroid, consistent with Bowen's disease. Neither has ulcerated or become nodular.
+ddx: Actinic keratoses and Bowen's disease, squamous cell carcinoma in situ, because of sun-exposed scaly patches and a persistent well-defined plaque | Eczema or psoriasis, excluded by no response and a single plaque | Superficial BCC or invasive SCC, distinguished by biopsy if atypical
+ix: Clinical and dermoscopy; biopsy if diagnostic doubt or thickening
+mx: Actinic keratoses: sun protection, topical 5-fluorouracil, imiquimod or cryotherapy; Bowen's: 5-fluorouracil, cryotherapy, photodynamic therapy or excision; review for change
+tell: The forehead patches are sun damage, and the leg patch is an early, surface-only skin cancer called Bowen's disease. Neither is dangerous now, but treating them stops them becoming deeper. Creams or freezing usually clear them, and high-factor sun cream protects you.
+
+=== DE05 | Seborrhoeic keratoses with a separate bleeding lesion
+who: Malcolm Reid, 62, bus driver
+act: Lift your shirt to show many brown waxy lesions; point to one that bled.
+open: I've got loads of these brown growths, but one new one bled on its own.
+story: The brown ones have been there years and look stuck on. A new one appeared a couple of months ago and bled on my vest without being scratched.
+hpc: Old lesions: Many, brown, waxy, stuck-on, years
+hpc: New lesion: 2 months, darker, firm
+hpc: Bleeding: Spontaneous, from the new lesion
+hpc: Growth: New one growing
+yes: Spontaneous bleeding from the new lesion
+no: Itch of others; weight loss; lumps in armpits
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Bus driver; holidays abroad
+ice: More of the same | Cancer | To know which ones matter
+cue: "They all look the same to me."
+ask: Do they all need removing?
+key: How long have the brown lesions been there, and have they changed? | Stable lesions
+key: Which one is new, and what has changed: size, colour, bleeding? | Ugly duckling sign
+key: Bleeding with or without trauma? | Spontaneous bleeding is a red flag
+key: Sun exposure, family history of skin cancer? | Risk
+key: Lumps in the armpit or neck? | Nodal spread
+rf: A new, changing or spontaneously bleeding lesion | Assess separately; suspected cancer pathway if suspicious
+sum: So you have many long-standing brown stuck-on growths, and one new lesion that's grown and bled on its own. Is that right?
+pres: Malcolm Reid is a 62-year-old man with multiple long-standing stable waxy stuck-on brown lesions on the trunk, consistent with seborrhoeic keratoses, and a separate new growing lesion that bled spontaneously. The new lesion must be assessed on its own merits.
+ddx: Seborrhoeic keratoses for the stable lesions | New lesion: nodular melanoma or pigmented BCC, which must be excluded | Irritated seborrhoeic keratosis, a diagnosis made only after assessment
+ix: Dermoscopy of the new lesion; excision biopsy if suspicious
+mx: Reassure about the seborrhoeic keratoses, no treatment needed; suspected cancer pathway referral for the new bleeding lesion if dermoscopy is concerning; photograph and monitor
+tell: The older brown growths are harmless and very common with age. The new one is different, and because it bled on its own, it needs checking urgently. I'm referring you so a specialist can look at it and probably remove it to test.
+
+=== DE06 | Erythema nodosum with inflammatory bowel disease
+who: Leah Morgan, 28, primary school teacher
+act: Limp slightly; rub your shins; tired.
+open: I've got painful red lumps on my shins and my joints ache. I've also had diarrhoea for weeks.
+story: The lumps appeared two weeks ago on both shins. They're hot and tender, like bruises. I've had six weeks of loose stools with blood and some tummy cramps.
+hpc: Rash: Tender red nodules on both shins, 2 weeks
+hpc: Joints: Ankles and knees ache
+hpc: Bowels: Diarrhoea with blood, 6 weeks, 6 times a day
+hpc: Weight: Lost 4 kg
+hpc: Other: Mouth ulcers
+yes: Abdominal cramps; tiredness; mouth ulcers
+no: Recent sore throat; cough; new medicines; pregnancy; travel; TB contact
+pmh: Nothing
+dh: Combined pill
+all: None
+fh: Aunt has Crohn's disease
+sh: Non-smoker; teacher
+ice: Bruises | Something serious | Answers
+cue: "I thought the diarrhoea was stress."
+ask: Are the lumps and the diarrhoea linked?
+key: Describe the lumps: where, tender, colour change? | Erythema nodosum
+key: Bowel symptoms: frequency, blood, nocturnal, weight loss? | IBD
+key: Recent sore throat, cough, TB contact? | Strep and TB
+key: Medicines: contraceptive pill, antibiotics? | Drug causes
+key: Eye, joint, mouth symptoms? | Extraintestinal features
+rf: Severe colitis: 6 or more bloody stools a day with systemic features | Same-day assessment
+sum: So for two weeks you've had tender red lumps on both shins with joint aches, and for six weeks bloody diarrhoea with weight loss. Is that right?
+pres: Leah Morgan is a 28-year-old woman with 2 weeks of tender erythematous nodules over both shins, arthralgia, and 6 weeks of bloody diarrhoea 6 times daily with weight loss and mouth ulcers. This is erythema nodosum secondary to likely inflammatory bowel disease.
+ddx: Erythema nodosum from inflammatory bowel disease, because of shin nodules with bloody diarrhoea | Other causes: streptococcal infection, sarcoidosis, TB or the combined pill, excluded with history, ASO titre and chest X-ray | Cellulitis or vasculitis, excluded by bilateral tender nodules
+ix: FBC, CRP, ESR, U&Es, LFTs, albumin; faecal calprotectin; stool culture and C. difficile; ASO titre; chest X-ray; pregnancy test; urgent gastroenterology for colonoscopy
+mx: Urgent gastroenterology referral; assess severity by Truelove and Witts criteria; NSAIDs avoided if colitis; rest and leg elevation; erythema nodosum settles as the underlying disease is treated
+tell: These lumps are called erythema nodosum, an inflammation of the fat under the skin, and they're often a sign of bowel inflammation such as ulcerative colitis or Crohn's. I'm referring you urgently to the bowel team for a camera test. Treating your bowel should settle the lumps too.
+
+=== DE07 | Acute urticaria after an NSAID
+who: Ollie Grant, 34, gym instructor
+act: Scratching; calm breathing; worried.
+open: I've come up in itchy lumps all over after taking naproxen for my back.
+story: About ninety minutes after a naproxen tablet I came out in raised itchy welts. Each one goes after a few hours but new ones appear.
+hpc: Onset: 90 minutes after naproxen
+hpc: Lesions: Raised itchy wheals, each fading within hours
+hpc: Distribution: Trunk and arms
+hpc: Systemic: No tongue swelling, wheeze, faintness or vomiting
+yes: Itch
+no: Lip or tongue swelling; difficulty breathing; throat tightness; dizziness; vomiting; previous episodes
+pmh: Lower back strain
+dh: Naproxen started today
+all: None previously
+fh: Nothing relevant
+sh: Gym instructor
+ice: An allergy | Choking | To stop the itch
+cue: "My throat isn't tight, but will it be?"
+ask: Am I allergic to painkillers now?
+key: Timing after the medicine or food? | Trigger
+key: How long does each wheal last? | Under 24 hours suggests urticaria
+key: Lip, tongue or throat swelling, wheeze, faintness, vomiting? | Anaphylaxis
+key: Previous episodes, other triggers? | Chronic urticaria
+key: Other NSAIDs or aspirin taken before? | Cross-reactivity
+rf: Airway, breathing or circulation compromise | Anaphylaxis: IM adrenaline
+sum: So 90 minutes after naproxen you developed itchy wheals that each fade within hours, with no swelling, breathing trouble or faintness. Is that right?
+pres: Ollie Grant is a 34-year-old man with acute urticaria 90 minutes after a first dose of naproxen, with transient wheals fading within hours and no angioedema, respiratory, cardiovascular or gastrointestinal features. This is acute NSAID-induced urticaria without anaphylaxis.
+ddx: Acute urticaria from naproxen, because of transient wheals shortly after the drug | Anaphylaxis, excluded by no airway, breathing or circulatory compromise | Urticarial vasculitis, excluded by lesions under 24 hours without bruising
+ix: Clinical; observations including BP and SpO2
+mx: Stop naproxen; non-sedating antihistamine such as cetirizine 10 mg daily; consider a short prednisolone course if severe; record the reaction in his allergy record; avoid NSAIDs, using paracetamol for back pain; safety-net for anaphylaxis
+tell: This is hives, a reaction to the naproxen. It isn't dangerous now, and antihistamine tablets will calm it. Avoid naproxen and related anti-inflammatories like ibuprofen; paracetamol is safe for your back. If your lips or tongue swell or you struggle to breathe, call 999.
+
+=== DE08 | Atopic eczema undertreated through steroid fear
+who: Chloe Adams, 18, sixth-form student
+act: Scratch the creases of your elbows; tired from poor sleep.
+open: My eczema is awful, I can't sleep, but I stopped the steroid cream because it thins your skin.
+story: The insides of my elbows and knees are itchy and raw. I read one use thins skin forever, so I stopped after one go.
+hpc: Sites: Elbow and knee creases, neck
+hpc: Itch: Severe, worse at night
+hpc: Sleep: Waking several times
+hpc: Skin: Dry, red, scratched, some weeping
+hpc: Treatment: Stopped steroid after one application; moisturiser rarely
+yes: Asthma; hay fever
+no: Yellow crusts; punched-out painful blisters; fever
+pmh: Asthma; hay fever; eczema since childhood
+dh: Salbutamol; stopped clobetasone
+all: None
+fh: Mother has hay fever
+sh: Exams this term; swims weekly
+ice: Steroids are dangerous | Permanent skin damage | Help without steroids
+cue: "I read it on TikTok."
+ask: Do I really have to use steroids?
+key: Where is it, how bad, sleep and school impact? | Severity
+key: What treatments, how much and how often? | Adherence
+key: Explore what she has read about steroids | Health beliefs
+key: Infection: weeping, crusting, painful punched-out lesions? | Impetiginised or eczema herpeticum
+key: Triggers: soaps, swimming, stress, heat? | Trigger control
+rf: Painful clustered punched-out erosions with fever | Eczema herpeticum: same-day aciclovir
+sum: So your elbow and knee creases are itchy and raw, you're not sleeping, and you stopped the steroid cream after one use because of what you'd read. Is that right?
+pres: Chloe Adams is an 18-year-old with atopic eczema, asthma and hay fever, with a moderate flare in the flexures disturbing sleep, undertreated because she stopped topical steroid after one application from fear of permanent skin thinning. There are no features of infection.
+ddx: Moderate atopic eczema undertreated from steroid concerns | Secondary bacterial infection, excluded by no crusting | Eczema herpeticum, excluded by no punched-out lesions or fever
+ix: Clinical; swab only if infected
+mx: Address beliefs: appropriate steroid use for short courses does not permanently thin skin; moderate-potency steroid such as clobetasone once or twice daily for 7 to 14 days to flares, using fingertip units; liberal emollients and soap substitute; weekend maintenance if frequent flares; written eczema plan
+tell: When used correctly, steroid creams don't permanently thin the skin; that mostly happens with strong creams used for months. A moderate cream for a week or two will calm this flare, and lots of moisturiser keeps it away. I'll show you how much to use with fingertip units.
+
+=== DE09 | Occupational irritant contact dermatitis
+who: Tracy Bell, 42, office cleaner
+act: Show cracked, red hands; frustrated.
+open: My hands have been red, cracked and itchy since we got new cleaning products.
+story: It started two months ago with new products at work. The backs of my hands and fingers are sore and cracked. It got much better on holiday.
+hpc: Sites: Backs of hands and fingers; forearms under sleeves spared
+hpc: Onset: 2 months, with new cleaning products
+hpc: Holiday: Improved a lot during two weeks off
+hpc: Gloves: Doesn't always wear them
+hpc: Symptoms: Itch, stinging, cracking
+yes: Frequent handwashing
+no: Rash elsewhere; blisters on palms only; rash with jewellery or watch strap; childhood eczema
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Cleaner; washes hands 20 times a day
+ice: Allergy to the products | Losing her job | Cream to fix it
+cue: "I can't afford to stop working."
+ask: Will I have to give up my job?
+key: Where exactly, and is covered skin spared? | Exposure pattern
+key: Timing with work and improvement off work? | Occupational link
+key: Which products, gloves, handwashing frequency? | Irritants
+key: Childhood eczema, asthma? | Atopy
+key: Reactions to metals, rubber, perfumes? | Allergic contact
+rf: Weeping, crusting, spreading | Infection
+sum: So since new products at work two months ago, your hands have become red, cracked and itchy, the covered forearms are spared, and it improved on holiday. Is that right?
+pres: Tracy Bell is a 42-year-old cleaner with 2 months of itchy cracked dermatitis on the dorsal hands and fingers starting with new cleaning products, sparing covered forearms and improving on holiday. This is likely occupational irritant contact dermatitis, with allergic contact dermatitis to consider.
+ddx: Irritant contact dermatitis, because of exposure-linked disease on exposed skin improving away from work | Allergic contact dermatitis, assessed with patch testing | Atopic hand eczema or psoriasis, distinguished by history and distribution
+ix: Clinical; patch testing if suspected allergy or not improving
+mx: Avoid irritants: wear gloves, cotton liners, soap substitutes; liberal emollients; topical steroid for flares; occupational health involvement; dermatology referral and patch testing if persists
+tell: Your hands are reacting to the cleaning products, which strip the skin's protective barrier. Wearing gloves, using soap substitutes and moisturising lots usually lets you keep working. A steroid cream will calm the current flare, and occupational health can help adjust things at work.
+
+=== DE10 | Superficial folliculitis from shaving
+who: Darnell Brooks, 24, retail manager
+act: Touch your bearded jaw; slightly self-conscious.
+open: I keep getting little spots on my beard area after I shave.
+story: After shaving, small tender pus spots appear around the hairs on my jaw and neck. I'm otherwise fine.
+hpc: Lesions: Small follicular pustules, beard area
+hpc: Trigger: Shaving, especially close shaves
+hpc: Pain: Mildly tender
+hpc: Duration: Recurrent over months
+hpc: Systemic: No fever
+yes: Ingrown hairs; razor bumps
+no: Spreading redness; large painful swelling; fever; recurrent boils elsewhere; diabetes
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Shaves daily with a multi-blade razor; shares towels with flatmate
+ice: Acne | Scarring | Stop the spots
+cue: "It's affecting my confidence at work."
+ask: Do I need antibiotics?
+key: Where, when, what triggers them? | Follicular pattern
+key: Shaving technique, razor, sharing towels? | Cause
+key: Spreading redness, deep painful swelling, fever? | Cellulitis or abscess
+key: Recurrent boils, diabetes, close contacts affected? | PVL or underlying cause
+key: Ingrown hairs, darker patches? | Pseudofolliculitis barbae
+rf: Spreading redness, fever or an abscess | Antibiotics or drainage
+sum: So after shaving you get small tender pus spots around hairs on your jaw and neck, with no fever, spreading redness or deep swelling. Is that right?
+pres: Darnell Brooks is a 24-year-old man with recurrent small tender follicular pustules in the beard area after close shaving, without fever, spreading erythema or abscess. This is superficial folliculitis, likely with pseudofolliculitis barbae.
+ddx: Superficial folliculitis, because of follicular pustules triggered by shaving | Pseudofolliculitis barbae, from ingrowing curly hairs, often coexistent | Furunculosis or cellulitis, excluded by no deep swelling or spreading redness
+ix: Clinical; swab if recurrent or not responding
+mx: Shaving advice: single-blade razor or clippers, shave with the grain, do not stretch the skin, avoid close shaves or grow a short beard; antiseptic wash; do not share towels; topical antibiotic such as fusidic acid only if needed; oral antibiotics only for extensive or deep infection
+tell: These are inflamed hair follicles, often from close shaving and hairs curling back into the skin. Using a single-blade razor or clippers, shaving with the grain and not sharing towels usually stops them. They rarely need antibiotics.
+
+=== DE11 | Impetigo and school attendance
+who: Jo Barnes, mother of Alfie, 7
+act: Apologetic; Alfie is playing happily with a toy.
+open: Alfie's got these crusty sores around his nose and mouth. Can he go to school tomorrow?
+story: They started three days ago as little blisters that burst and went into golden crusts. He's not unwell. They're spreading a bit.
+hpc: Lesions: Honey-coloured crusts around nose and mouth
+hpc: Onset: 3 days, started as small blisters
+hpc: Spread: A few new lesions
+hpc: Systemic: Well, eating and drinking, no fever
+hpc: Extent: Localised, fewer than 4 lesions
+yes: Itch; scratching
+no: Fever; lethargy; spreading redness; large blisters; eczema
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Lives with mum and baby sister
+ice: A cold sore | Baby sister catching it | Can he go to school
+cue: "I can't take more time off work."
+ask: Can he go to school tomorrow?
+key: How did it start and has it spread? | Impetigo course
+key: Fever, unwell, spreading redness? | Systemic infection
+key: How many lesions, localised or widespread? | Treatment choice
+key: Eczema or other skin conditions? | Underlying skin disease
+key: Contacts: siblings, school? | Spread
+rf: Systemically unwell or widespread bullae | Oral antibiotics or admission
+sum: So Alfie has had crusty golden sores around his nose and mouth for three days, a few new ones, but he's well with no fever. Is that right?
+pres: This is a history from Jo about her son Alfie, 7, with 3 days of localised honey-crusted lesions around the nose and mouth after small blisters, systemically well. This is localised non-bullous impetigo.
+ddx: Localised non-bullous impetigo, because of honey-coloured crusts in a well child | Herpes simplex, with grouped painful vesicles | Infected eczema, excluded by no background eczema
+ix: Clinical; swab if recurrent or treatment fails
+mx: Per NICE: hydrogen peroxide 1% cream for localised non-bullous impetigo in a well child; topical fusidic acid if unsuitable; oral flucloxacillin if widespread; hygiene: separate towels, wash hands, keep nails short; exclude from school until lesions have crusted and healed or 48 hours after starting antibiotics
+tell: This is impetigo, a common skin infection. The cream will clear it in about a week. It's very catching, so Alfie should stay off school until the sores have crusted over and healed, or for 48 hours after starting antibiotics if he needs them. Keep his towels separate to protect his baby sister.
+
+=== DE14 | Common warts
+who: Isla Thompson, 16, student
+act: Fiddle with your fingers; mention a nail clipper.
+open: I've got two rough lumps on my fingers. Can I just cut them off myself?
+story: They've been there four months, they're rough, and they've got tiny black dots in them. They're embarrassing.
+hpc: Lesions: Two rough raised lesions on fingers
+hpc: Duration: 4 months
+hpc: Features: Interrupt skin lines; tiny black dots
+hpc: Pain: None
+yes: Embarrassment
+no: Bleeding; rapid growth; immunosuppression; diabetes
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Plays netball; swims
+ice: Warts | Spreading them | To get rid of them
+cue: "I was going to use nail clippers."
+ask: Can I cut them off myself?
+key: Where, how long, how many? | Warts
+key: Skin lines interrupted, black dots? | Warts versus callus
+key: Pain, bleeding, rapid change? | Atypical lesion
+key: Immunosuppression, diabetes? | Caution with treatment
+key: Treatments tried? | Options
+rf: Atypical, bleeding or rapidly growing lesion | Alternative diagnosis
+sum: So you have two rough lumps on your fingers for four months with tiny dark dots, and you want to cut them off. Is that right?
+pres: Isla Thompson is a 16-year-old with two common warts on the fingers for 4 months, interrupting the skin lines with dark capillary dots, without atypical features. She is considering cutting them off herself.
+ddx: Common warts, verruca vulgaris, because of rough papules interrupting skin lines with thrombosed capillaries | Callus, which preserves skin lines | Molluscum or other lesions, distinguished clinically
+ix: Clinical
+mx: Advise against cutting them off: risk of bleeding, infection, scarring and spreading; reassure most resolve within 2 years; options: salicylic acid daily after soaking and filing, duct tape, or cryotherapy; don't share towels; cover in swimming
+tell: Please don't cut them off; it can cause bleeding, infection and spread the virus. Warts are harmless and most disappear on their own within two years. If you want to speed things up, a salicylic acid paint from the pharmacy used every day for 12 weeks often works.
+
+=== DE15 | Tinea corporis and onychomycosis after steroid use
+who: Paul Kemp, 37, PE teacher
+act: Scratch your forearm; show thickened toenails.
+open: I've got a rash on my arm that's getting bigger, and my toenails have gone thick and yellow.
+story: The arm rash is a red ring with a scaly edge, getting bigger over a month. I used steroid cream and it made it worse. My big toenails are thick and discoloured.
+hpc: Arm: Expanding red ring, scaly edge, clearer centre, 1 month
+hpc: Itch: Yes
+hpc: Steroid: Hydrocortisone made it spread
+hpc: Toenails: Thickened, yellow, crumbly
+hpc: Feet: Itchy between toes
+yes: Athlete's foot; uses communal showers
+no: Pain; fever; joint pain; nail pitting; diabetes
+pmh: Nothing
+dh: Hydrocortisone cream
+all: None
+fh: Nothing relevant
+sh: PE teacher; gym and communal showers
+ice: Eczema | Spreading to his family | Something that works
+cue: "The cream made it worse."
+ask: Why didn't the cream work?
+key: Shape, edge, expansion of the rash? | Annular tinea
+key: Steroid use and effect? | Tinea incognito
+key: Nails: thickened, discoloured, which ones? | Onychomycosis
+key: Feet, groin, contacts, pets? | Source
+key: Diabetes, immunosuppression? | Risk
+rf: Spreading cellulitis | Antibiotics
+sum: So you have an expanding itchy red ring on your arm that got worse with steroid cream, and thick discoloured toenails. Is that right?
+pres: Paul Kemp is a 37-year-old man with a month of an expanding itchy annular scaly plaque on the forearm that worsened with topical steroid, with tinea pedis and thickened discoloured toenails. This is tinea corporis modified by steroid use, with onychomycosis.
+ddx: Tinea corporis with onychomycosis, because of an annular scaly expanding plaque and dystrophic nails | Discoid eczema, which lacks central clearing and responds to steroids | Psoriasis with nail involvement, distinguished by pitting and plaques elsewhere
+ix: Skin scrapings and nail clippings for microscopy and culture before systemic treatment
+mx: Stop steroid; topical terbinafine for the body for 1 to 2 weeks; for nails, oral terbinafine 250 mg daily for 3 months for toenails once confirmed, with LFTs; treat athlete's foot; hygiene and foot care
+tell: This is a fungal infection, and steroid cream made it worse because it lowers the skin's defences. An antifungal cream will clear the arm. For your toenails, we'll take clippings first, and if fungus is confirmed, tablets for three months work best.
+
+=== DE16 | Scabies with household contacts
+who: Joe Sinclair, 22, student
+act: Scratching constantly, especially your fingers.
+open: I'm itching like mad, especially at night. My housemate's itching too.
+story: For three weeks it's been terrible at night. There are little lines and spots between my fingers and on my wrists. My housemate Ben has the same.
+hpc: Itch: Severe, worse at night, 3 weeks
+hpc: Sites: Finger webs, wrists, waistband
+hpc: Lesions: Small papules, burrows
+hpc: Contacts: Housemate with similar itch
+hpc: Treatment: Antihistamines, no help
+yes: Contacts affected; burrows
+no: Crusted plaques; immunosuppression; fever; spreading infection
+pmh: Nothing
+dh: Cetirizine
+all: None
+fh: Not relevant
+sh: Shares a house with 4 people; new partner
+ice: An allergy | Being dirty | Treatment for himself
+cue: "Isn't it just me who needs treating?"
+ask: Do I just treat myself?
+key: Itch: where, worse at night? | Scabies
+key: Burrows in finger webs, wrists, genitals? | Diagnostic sites
+key: Close contacts, partners, housemates with itch? | Spread
+key: Crusting or immunosuppression? | Crusted scabies
+key: Infected lesions? | Secondary infection
+rf: Crusted scabies | Highly contagious: specialist management
+sum: So you've had severe night-time itch for three weeks with lesions in your finger webs and wrists, and your housemate has the same. Is that right?
+pres: Joe Sinclair is a 22-year-old student with 3 weeks of severe nocturnal itch and papules with burrows in the finger webs, wrists and waistband, with a symptomatic housemate. This is scabies.
+ddx: Scabies, because of nocturnal itch, burrows and affected contacts | Eczema or urticaria, which lack burrows and contact spread | Insect bites, without burrows
+ix: Clinical; dermoscopy for burrows
+mx: Permethrin 5% cream to the whole body from neck down, including under nails and genitals, washed off after 8 to 12 hours, repeated after 7 days; treat all household and close contacts at the same time, including the partner, even without symptoms; wash bedding and clothes at 60 degrees or seal in bags for 72 hours; itch may persist 2 to 4 weeks
+tell: This is scabies, tiny mites in the skin, and it's nothing to do with being dirty. Everyone in your house and your partner needs treating on the same day, even if they're not itchy, or it'll keep coming back. Apply the cream all over from the neck down, wash it off after 8 to 12 hours, and repeat after a week.
+
+=== DE17 | Head lice
+who: Karen Price, mother of Ruby, 9
+act: Embarrassed and itchy just thinking about it; wants to treat everyone.
+open: I found live lice in Ruby's hair. I want everyone in the house treated today.
+story: She's been scratching for a week. I found live lice crawling when I combed her hair last night. Her scalp isn't infected.
+hpc: Finding: Live lice seen on combing
+hpc: Itch: Scalp, a week
+hpc: Scalp: No sores or infection
+hpc: Household: Mum, dad, brother aged 6; none checked yet
+yes: Itch
+no: Scalp infection; swollen neck glands; asthma
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Primary school
+ice: Dirty hair | Everyone getting it | Treat everyone now
+cue: "I'm mortified."
+ask: Should we all be treated?
+key: How were lice confirmed: live lice seen? | Treat only confirmed infestation
+key: Scalp sores or infection? | Secondary infection
+key: Household members: have they been checked by detection combing? | Treat only those with live lice
+key: Treatments tried, asthma or allergies? | Choice of agent
+key: Reassure: not linked to hygiene | Stigma
+rf: Secondary infection | Treat infection
+sum: So you found live lice in Ruby's hair after a week of itching, her scalp isn't infected, and you'd like everyone treated. Is that right?
+pres: This is a history from Karen about her daughter Ruby, 9, with confirmed head lice infestation on detection combing and scalp itch, without secondary infection. She wants the whole household treated.
+ddx: Head lice infestation, because live lice were seen | Nits only from a past infestation, which is not active | Scalp eczema or dandruff, which lacks lice
+ix: Detection combing of all household members
+mx: Treat only those with live lice found: wet combing with a detection comb every 4 days for at least 2 weeks, or dimeticone 4% applied and repeated after 7 days; no need to exclude from school; no need to wash bedding extensively
+tell: Head lice are common and nothing to do with dirty hair. Check everyone with a fine-toothed comb on wet, conditioned hair, and treat only those who have live lice; treating everyone without checking doesn't prevent them. Ruby can go to school as normal.
+
+=== DE18 | Plaque psoriasis with possible psoriatic arthritis
+who: Richard Owen, 45, IT consultant
+act: Long sleeves; reluctant to roll them up.
+open: My psoriasis is worse, and now my fingers are stiff in the mornings.
+story: I've had scaly patches on my elbows and knees for years. My nails have pits. For two months my fingers and one knee have been stiff and swollen in the morning for over an hour.
+hpc: Skin: Well-defined scaly plaques, elbows, knees, scalp
+hpc: Nails: Pitting, onycholysis
+hpc: Joints: Morning stiffness over an hour, fingers and right knee, 2 months
+hpc: Swelling: A swollen whole finger
+hpc: Impact: Avoids swimming
+yes: Scalp involvement; sausage finger
+no: Back pain at night; eye problems; fever; recent infection
+pmh: Psoriasis for 15 years
+dh: Emollients, calcipotriol and betamethasone gel
+all: None
+fh: Father had psoriasis
+sh: Smokes 10 a day; 20 units a week; avoids the pool
+ice: Getting older | Crippled hands | To feel normal
+cue: "I won't take my kids swimming."
+ask: Is it linked to my psoriasis?
+key: Skin extent and response to treatment | Severity
+key: Nail changes? | Linked to psoriatic arthritis
+key: Joint pain, swelling, morning stiffness, dactylitis? | Psoriatic arthritis
+key: Psychological impact | Quality of life
+key: Smoking, alcohol, weight, mood? | Comorbidities and triggers
+rf: Joint symptoms in psoriasis | Rheumatology referral
+sum: So you have long-standing scaly plaques with nail pitting, and for two months stiff, swollen fingers and a knee in the mornings, and it's stopping you swimming. Is that right?
+pres: Richard Owen is a 45-year-old man with long-standing chronic plaque psoriasis of the elbows, knees and scalp with nail pitting and onycholysis, now with 2 months of inflammatory joint symptoms including dactylitis, and significant psychosocial impact. This suggests psoriatic arthritis.
+ddx: Psoriatic arthritis with plaque psoriasis, because of inflammatory arthritis, dactylitis and nail disease | Rheumatoid arthritis, distinguished by serology and pattern | Osteoarthritis or gout, distinguished by imaging and pattern
+ix: PEST screening questionnaire; CRP, ESR, rheumatoid factor, anti-CCP; hand and foot X-rays; lipids, HbA1c, LFTs as baseline
+mx: Rheumatology referral; dermatology for systemic or biological therapy; DMARD such as methotrexate addresses both; topical therapy continued; smoking cessation, alcohol reduction; screen mood
+tell: Your joint symptoms are likely psoriatic arthritis, which is linked to your psoriasis and nail changes. It's treatable, and some medicines help both the skin and joints. I'll refer you to rheumatology. You shouldn't have to avoid swimming; there are treatments that can clear the skin a lot.
+
+=== DE21 | Stevens-Johnson syndrome after a new medicine
+who: Natasha Bell, 39, receptionist
+act: Unwell, flushed, mouth sore; speak with difficulty.
+open: I've got a painful rash all over, my mouth is full of ulcers and I've got a fever.
+story: Ten days ago I started lamotrigine. Two days ago I felt flu-ish, then a painful red rash spread, and my mouth and eyes became sore. Some spots are blistering.
+hpc: Medicine: Lamotrigine started 10 days ago
+hpc: Prodrome: Flu-like illness, fever
+hpc: Rash: Painful, dusky red targets, some blistering
+hpc: Mucosa: Mouth ulcers, sore red eyes, painful urination
+hpc: Observations: Temp 38.8, HR 118
+yes: Skin pain; blistering; eye and mouth involvement
+no: Previous reaction; other new medicines
+pmh: Bipolar disorder
+dh: Lamotrigine
+all: None known
+fh: Nothing relevant
+sh: Lives with partner
+ice: An allergy | Dying | To stop the pain
+cue: "My skin is burning."
+ask: Is it the tablet?
+key: New medicines in the last 8 weeks: lamotrigine, allopurinol, antibiotics, antiepileptics? | Culprit drug
+key: Skin pain, blisters, peeling? | Epidermal detachment
+key: Mouth, eye, genital involvement? | Mucosal disease
+key: Fever and systemic features | Severity
+key: Ability to eat, drink, pass urine? | Complications
+rf: Painful rash with mucosal involvement and fever | SJS or TEN: emergency
+sum: So ten days after starting lamotrigine you've developed fever, a painful widespread blistering rash and ulcers in your mouth and eyes. Is that right?
+pres: Natasha Bell is a 39-year-old woman who started lamotrigine 10 days ago and now has a febrile prodrome followed by a painful widespread dusky targetoid rash with blistering, oral, ocular and genital mucosal involvement, temperature 38.8 and HR 118. This is Stevens-Johnson syndrome or toxic epidermal necrolysis.
+ddx: Stevens-Johnson syndrome or TEN from lamotrigine, because of painful mucocutaneous blistering after a culprit drug | Erythema multiforme, usually after HSV with less mucosal involvement | DRESS or staphylococcal scalded skin syndrome, distinguished by eosinophilia, organ involvement and histology
+ix: Body surface area of detachment; SCORTEN; FBC, U&Es, LFTs, glucose, bicarbonate; skin biopsy; swabs; ophthalmology assessment
+mx: Stop lamotrigine immediately and record as a severe allergy; emergency referral to dermatology and burns or ICU if extensive; fluids, analgesia, wound care, nutrition; ophthalmology, oral and urogenital care; involve psychiatry for alternative mood stabiliser
+tell: I think you're having a severe reaction to lamotrigine called Stevens-Johnson syndrome. We're stopping the tablet now and admitting you to a specialist unit for skin and eye care, pain relief and fluids. You must never take lamotrigine again.
+
+=== DE22 | Patch testing explained
+who: Sophie Lang, 44, hairdresser
+act: Curious; show your dry cracked hands.
+open: I'm booked for patch testing. Is it the same as a skin-prick test, and will it find all my allergies?
+story: My hands keep flaring. The dermatologist thinks I might be allergic to hair dye or something at work.
+hpc: Hands: Recurrent dermatitis, 2 years
+hpc: Work: Hairdresser, dyes, perming chemicals, gloves sometimes
+hpc: Booking: Patch testing next week
+hpc: Concern: Confuses it with skin-prick testing
+yes: Worse at work
+no: Hives; anaphylaxis; asthma
+pmh: Nothing
+dh: Emollients; steroid cream
+all: None known
+fh: Nothing relevant
+sh: Hairdresser for 20 years
+ice: It tests for all allergies | Losing her career | To understand the test
+cue: "I have to work Saturday."
+ask: Is it the same as a skin-prick test?
+key: What does she already know? | Starts where she is
+key: Patch testing finds delayed type IV contact allergy; skin-prick tests immediate type I allergy | The difference
+key: Process: patches on the back on day 1, removed and read on day 2 or 3, read again on day 4 or 5 | Logistics
+key: Don't wet the back, avoid sun on the back, avoid exercise causing sweating; avoid steroids on the back | Instructions
+key: Limitations: tests a set panel, may miss some allergens, irritant dermatitis isn't detected | Expectations
+rf: A strong positive reaction or blistering | Contact the clinic
+sum: So you're having patch testing next week for hand dermatitis and want to know how it differs from a skin-prick test and what it can find. Is that right?
+pres: Sophie Lang is a 44-year-old hairdresser with recurrent hand dermatitis booked for patch testing. I explained that patch testing detects delayed contact allergy, unlike skin-prick testing for immediate allergy, how the test runs over a week, the care needed, and its limitations.
+ddx: Allergic contact dermatitis, for example to paraphenylenediamine in hair dye, which patch testing would identify | Irritant contact dermatitis, not detected by patch testing | Atopic hand eczema, a possible contributor
+ix: Patch testing with a baseline series plus a hairdressing series
+mx: Explain procedure and care; avoid topical steroids on the back and oral immunosuppressants where advised; review results with avoidance advice; occupational health
+tell: Patch testing is different from a skin-prick test. It looks for allergies that cause eczema hours or days after contact, like hair dye. Patches go on your back for two days, then we read them twice over the week. Keep your back dry. It tests a set of common chemicals, so it may not find everything, but it often pins down the culprit.
+
+=== DE23 | Leg ulcer with diabetes before ABPI
+who: Edna Fox, 73, retired dinner lady
+act: Leg up, bandaged; numb feet.
+open: The nurse wants to put compression on my ulcer, but they haven't checked my circulation yet.
+story: The sore above my inside ankle has been there two months. My ankles swell and the skin's brown. I have diabetes and can't feel my feet well.
+hpc: Ulcer: Shallow, medial ankle, 2 months
+hpc: Swelling: Ankle oedema
+hpc: Skin: Brown staining
+hpc: Sensation: Reduced in feet
+hpc: ABPI: Not yet measured
+yes: Varicose veins; diabetes
+no: Rest pain; calf pain on walking; fever; spreading redness
+pmh: Type 2 diabetes for 12 years; hypertension
+dh: Metformin; ramipril
+all: None
+fh: Nothing relevant
+sh: Ex-smoker
+ice: Poor healing | Infection | Compression to help
+cue: "The nurse said bandages would fix it."
+ask: Should I have the compression now?
+key: Ulcer site, appearance, duration? | Venous features
+key: Claudication, rest pain? | Arterial disease
+key: Numbness, injuries unnoticed? | Neuropathy
+key: Diabetes control | Healing and calcified arteries
+key: ABPI or toe pressures before compression | Safety
+rf: Compression before ABPI | Risk of ischaemic injury
+rf: Diabetes with neuropathy | ABPI may be falsely raised: toe pressures
+sum: So you have a two-month ulcer above your inside ankle with swelling and brown skin, you have diabetes with numb feet, and your circulation hasn't been checked. Is that right?
+pres: Edna Fox is a 73-year-old woman with diabetes and peripheral neuropathy with a 2-month shallow medial ankle ulcer, oedema and haemosiderin staining, suggesting venous ulceration. ABPI has not been measured, and with diabetes there may be mixed arterial disease or falsely raised readings.
+ddx: Venous leg ulcer, because of gaiter-area ulceration with venous skin changes | Mixed arterial-venous ulcer, excluded only by ABPI and toe pressures | Neuropathic contribution, from reduced sensation
+ix: ABPI and toe pressures or toe-brachial index before compression; HbA1c; FBC; duplex of veins
+mx: No compression until arterial disease is excluded; if ABPI 0.8 to 1.3, full compression; vascular referral if ABPI is below 0.8 or above 1.3; leg ulcer clinic; diabetes optimisation; foot protection
+tell: Compression is the right treatment for this type of ulcer, but only once we've checked the blood flow. With diabetes, arteries can be narrowed or stiff, and compression could harm the foot. We'll measure the pressures first, then start bandaging safely.
+
+=== DE25 | Pyoderma gangrenosum with ulcerative colitis
+who: Fiona Hale, 46, accountant
+act: Wince when the shin is uncovered; frustrated by the speed.
+open: A small knock on my shin has turned into a huge painful ulcer in a week.
+story: I knocked my shin on a cupboard. A pustule appeared, then broke down into a rapidly growing ulcer with a purple edge. It's agonising. My colitis has flared lately.
+hpc: Ulcer: Shin, rapidly enlarging over a week
+hpc: Edge: Violaceous, undermined
+hpc: Pain: Severe, out of proportion
+hpc: Trigger: Minor trauma
+hpc: Colitis: Recent flare
+hpc: Pulses: Palpable pedal pulses
+yes: Severe pain; bloody stools recently
+no: Fever; diabetes; venous disease; rest pain
+pmh: Ulcerative colitis
+dh: Mesalazine
+all: None
+fh: Nothing relevant
+sh: Non-smoker; accountant
+ice: An infected cut | Losing her leg | Pain relief
+cue: "Antibiotics did nothing."
+ask: Why is it getting worse?
+key: How did it start, and how fast has it grown? | Rapid growth after trauma: pathergy
+key: Pain level, edge appearance? | Pyoderma features
+key: Bowel symptoms and colitis activity? | Association
+key: Claudication, diabetes, venous disease? | Alternative ulcer causes
+key: Fever, spreading redness, antibiotics used? | Infection
+rf: Debridement worsens pyoderma | Avoid surgical debridement
+sum: So after a minor knock your shin developed a rapidly growing very painful ulcer with a purple edge, while your colitis has flared. Is that right?
+pres: Fiona Hale is a 46-year-old woman with ulcerative colitis in a recent flare, with a rapidly enlarging extremely painful shin ulcer with a violaceous undermined edge developing after minor trauma, with palpable pulses and no response to antibiotics. This is pyoderma gangrenosum.
+ddx: Pyoderma gangrenosum, because of a painful undermined violaceous ulcer after trauma with IBD | Infective ulcer or necrotising infection, excluded by swabs and course | Vasculitic, arterial or venous ulcer, distinguished by pulses, history and biopsy
+ix: Wound swab; biopsy from the edge, a diagnosis of exclusion; FBC, CRP, U&Es, LFTs; ANCA; ABPI
+mx: Urgent dermatology; avoid debridement; potent topical steroid or tacrolimus for small lesions; systemic prednisolone or ciclosporin for larger; gastroenterology to treat the colitis flare; analgesia; wound care
+tell: This looks like pyoderma gangrenosum, an inflammatory skin condition linked to colitis, not an infection, which is why antibiotics didn't help. Cutting it away makes it worse, so we'll treat it with strong anti-inflammatory medicine and get your colitis under control.
+
+=== EN01 | Vestibular schwannoma concern
+who: Steve Morton, 52, call centre manager
+act: Turn your good ear towards the speaker; cup your ear.
+open: I've had ringing in my left ear and my hearing's been going on that side for six months.
+story: It's just the left ear. I struggle on the phone on that side. Sometimes I'm a bit off balance.
+hpc: Hearing: Progressive left-sided loss, 6 months
+hpc: Tinnitus: Left, constant, not pulsatile
+hpc: Balance: Mild imbalance
+hpc: Face: Some numbness on the left cheek recently
+hpc: Headache: None
+yes: Phone difficulty on the left; mild imbalance
+no: Ear pain; discharge; vertigo attacks; facial weakness; headaches
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Uses a headset at work
+ice: Wax | A brain tumour | Answers
+cue: "Is it the headset?"
+ask: Is it a tumour?
+key: Which ear, how long, gradual or sudden? | Asymmetry
+key: Tinnitus: unilateral, pulsatile? | Red flags
+key: Balance, vertigo? | Vestibular involvement
+key: Facial numbness or weakness? | Cranial nerves V and VII
+key: Noise exposure, ear infections, family history? | Alternative causes
+rf: Unilateral sensorineural hearing loss or tinnitus | MRI internal auditory meatus
+rf: Sudden sensorineural hearing loss | Urgent ENT within 24 hours
+sum: So for six months you've had progressive hearing loss and ringing in your left ear, some imbalance and now some numbness of your left cheek. Is that right?
+pres: Steve Morton is a 52-year-old man with 6 months of progressive unilateral left-sided hearing loss and non-pulsatile tinnitus, mild imbalance and new left facial numbness. Asymmetric sensorineural hearing loss with trigeminal involvement raises concern for a vestibular schwannoma.
+ddx: Vestibular schwannoma, because of progressive unilateral sensorineural loss, tinnitus and facial numbness | Ménière's disease, with episodic vertigo and fluctuating hearing | Meningioma or other cerebellopontine angle lesion, distinguished on MRI
+ix: Otoscopy; Rinne and Weber; audiometry; MRI internal auditory meatus with gadolinium
+mx: ENT referral; MRI; options depend on size: watch and rescan, stereotactic radiosurgery or microsurgery; hearing support
+tell: Hearing loss and ringing in just one ear needs checking with a hearing test and an MRI scan. Sometimes it's caused by a slow-growing, non-cancerous growth on the hearing nerve. If that's what it is, it's very treatable, and small ones are often just monitored.
+
+=== EN02 | Ramsay Hunt syndrome
+who: Anita Desai, 40, pharmacist
+act: Left face drooping; touch your sore left ear.
+open: My face has dropped on one side and my ear is really painful.
+story: Two days ago my left ear became very painful, then blisters appeared in the ear, and today my face has dropped on the left. My hearing is muffled on that side.
+hpc: Ear pain: Severe, left, 2 days
+hpc: Vesicles: In the ear canal and pinna
+hpc: Face: Left facial weakness including forehead, today
+hpc: Hearing: Reduced on the left
+hpc: Vertigo: Mild
+yes: Vesicles; hearing loss; vertigo
+no: Limb weakness; speech disturbance; headache; immunosuppression
+pmh: Chickenpox as a child
+dh: None
+all: None
+fh: Nothing relevant
+sh: Pharmacist
+ice: Bell's palsy | Permanent weakness | Treatment fast
+cue: "Is it the same as Bell's palsy?"
+ask: Will my face recover?
+key: When did weakness start? Forehead involved? | LMN versus UMN
+key: Ear pain, blisters in or around the ear? | Ramsay Hunt
+key: Hearing loss, vertigo? | Vestibulocochlear involvement
+key: Limb weakness, speech? | Stroke
+key: Eye closure? | Corneal protection
+rf: Vesicles with facial palsy | Antivirals plus steroids, ENT
+sum: So two days ago you developed severe left ear pain and blisters, and today your left face, including your forehead, has dropped, with muffled hearing. Is that right?
+pres: Anita Desai is a 40-year-old woman with 2 days of severe left otalgia and auricular vesicles followed by left lower motor neurone facial palsy, ipsilateral hearing loss and mild vertigo. This is Ramsay Hunt syndrome, herpes zoster oticus.
+ddx: Ramsay Hunt syndrome, because of facial palsy with ear vesicles | Bell's palsy, which lacks vesicles | Stroke or cholesteatoma, excluded by forehead involvement and otoscopy
+ix: Clinical; audiometry; swab of vesicles for VZV PCR if uncertain
+mx: Start aciclovir or valaciclovir plus prednisolone within 72 hours; eye protection; analgesia; ENT referral; audiology
+tell: This is Ramsay Hunt syndrome, caused by the chickenpox virus reactivating in the nerve to the face and ear. It's treated with antiviral and steroid tablets started today. Recovery is often slower than Bell's palsy, so protecting your eye and following up with ENT are important.
+
+=== EN03 | Benign paroxysmal positional vertigo
+who: Barbara Lane, 56, librarian
+act: Turn your head slowly; anxious about bed.
+open: Every time I roll onto my right side in bed, the room spins.
+story: For two weeks, rolling over or looking up makes the room spin for about twenty seconds, then it stops. I'm fine in between.
+hpc: Trigger: Rolling onto the right side, looking up
+hpc: Duration: About 20 seconds
+hpc: Between episodes: Normal
+hpc: Nausea: Mild
+hpc: Onset: 2 weeks
+yes: Mild nausea
+no: Hearing loss; tinnitus; headache; limb weakness; double vision; slurred speech; falls
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Librarian; lives alone
+ice: An inner ear problem | A stroke | To stop it
+cue: "I'm scared to go to bed."
+ask: Is it a stroke?
+key: What triggers it, how long does it last? | Brief positional vertigo
+key: Spinning or light-headedness? | True vertigo
+key: Hearing loss, tinnitus, fullness? | Ménière's
+key: Neurological symptoms: diplopia, dysarthria, weakness, headache? | Central cause
+key: Falls and impact | Safety
+rf: Continuous vertigo with neurological signs | Central cause
+sum: So for two weeks, rolling onto your right side brings on 20 seconds of spinning, with no hearing or neurological symptoms. Is that right?
+pres: Barbara Lane is a 56-year-old woman with 2 weeks of brief positional vertigo lasting 20 seconds on rolling to the right, without hearing loss, tinnitus or neurological symptoms. This is right posterior canal benign paroxysmal positional vertigo.
+ddx: BPPV, because of brief positional vertigo without other features | Vestibular neuronitis, which causes continuous vertigo for days | Central positional vertigo, excluded by no neurological features and typical Dix-Hallpike
+ix: Dix-Hallpike test: torsional upbeating nystagmus with latency and fatigue
+mx: Epley manoeuvre; Brandt-Daroff exercises; avoid vestibular sedatives; reassure, often resolves in weeks; re-refer if persists
+tell: This is BPPV: tiny crystals in your inner ear have moved into the wrong place. It's harmless and not a stroke. A simple head manoeuvre can move them back and often stops it straight away, and I'll give you exercises to do at home.
+
+=== EN04 | Ménière's disease
+who: Martin Shaw, 47, warehouse supervisor
+act: Hold your right ear; wary of sudden movements.
+open: I get attacks of the room spinning for hours, with ringing and fullness in my right ear.
+story: Every couple of weeks I get spinning for about two hours. Before an attack, my right ear feels full and rings, and the hearing goes muffled. It comes back afterwards, but not completely.
+hpc: Vertigo: Episodes of 2 hours
+hpc: Frequency: Every couple of weeks
+hpc: Ear: Right fullness, tinnitus, fluctuating hearing
+hpc: Vomiting: During attacks
+hpc: Between attacks: Hearing slightly reduced
+yes: Vomiting during attacks; fluctuating hearing
+no: Headache; diplopia; limb weakness; ear discharge; triggers with position
+pmh: Nothing
+dh: Prochlorperazine
+all: None
+fh: Nothing relevant
+sh: Warehouse supervisor; uses forklifts; drives
+ice: Inner ear trouble | Losing his hearing and job | To control attacks
+cue: "I can't drive a forklift like this."
+ask: Will I go deaf?
+key: How long do attacks last? | Minutes to hours suggests Ménière's
+key: Hearing loss, tinnitus, fullness? | The triad
+key: Positional trigger? | BPPV
+key: Headaches, visual aura? | Vestibular migraine
+key: Work, driving, safety? | DVLA and occupation
+rf: Neurological symptoms | Central cause
+sum: So every couple of weeks you get 2-hour attacks of spinning with fullness, ringing and muffled hearing in your right ear. Is that right?
+pres: Martin Shaw is a 47-year-old man with recurrent 2-hour episodes of vertigo with vomiting, right-sided aural fullness, tinnitus and fluctuating low-frequency hearing loss with incomplete recovery between attacks. This is Ménière's disease.
+ddx: Ménière's disease, because of episodic vertigo lasting hours with fluctuating hearing, tinnitus and fullness | Vestibular migraine, with headache and photophobia | Vestibular schwannoma, excluded with MRI
+ix: Audiometry showing low-frequency sensorineural loss; MRI internal auditory meatus to exclude a schwannoma
+mx: ENT referral; acute attacks: prochlorperazine or an antihistamine such as cinnarizine; prophylaxis such as betahistine; low-salt diet; avoid operating machinery during attacks; inform the DVLA if attacks without warning affect driving
+tell: This sounds like Ménière's disease, a build-up of fluid in the inner ear. Tablets can ease attacks, and ENT can help prevent them. Your hearing may get worse over time, but there's lots of support. You should tell the DVLA and stop driving or using forklifts if attacks come without warning.
+
+=== EN05 | Posterior circulation stroke presenting as vertigo
+who: Roy Bennett, 68, retired engineer
+act: Lying still, eyes shut; nauseous; can't sit up unsupported.
+open: The room's been spinning since this morning, I've been sick and I'm seeing double.
+story: It started suddenly at breakfast and hasn't stopped. I can't walk without holding on. I'm seeing double.
+hpc: Onset: Sudden, this morning, continuous
+hpc: Vomiting: Several times
+hpc: Gait: Cannot walk unsupported
+hpc: Diplopia: Yes
+hpc: Speech: Slightly slurred, wife thinks
+yes: Diplopia; ataxia; slurred speech
+no: Hearing loss; ear pain; headache; neck injury
+pmh: Hypertension; high cholesterol
+dh: Amlodipine; atorvastatin
+all: None
+fh: Brother had a stroke
+sh: Ex-smoker
+ice: An ear infection | A stroke | Help
+cue: "I've never felt anything like this."
+ask: Is it my ears?
+key: Onset sudden and continuous? | Acute vestibular syndrome
+key: Diplopia, dysarthria, dysphagia, numbness, weakness? | Central red flags
+key: Can you walk unaided? | Severe ataxia suggests central cause
+key: Headache, neck pain? | Vertebral dissection
+key: Vascular risk factors | Stroke
+rf: Vertigo with diplopia and inability to walk | Posterior circulation stroke: stroke pathway
+sum: So since this morning you've had sudden continuous spinning, vomiting, double vision and you can't walk without help. Is that right?
+pres: Roy Bennett is a 68-year-old hypertensive man with sudden-onset continuous vertigo, vomiting, diplopia, possible dysarthria and inability to walk unsupported since this morning. These central features indicate a posterior circulation stroke until proven otherwise.
+ddx: Posterior circulation stroke, because of acute vertigo with diplopia, dysarthria and severe ataxia | Vertebral artery dissection, assessed by CT angiography | Vestibular neuronitis, excluded by central features
+ix: HINTS examination by trained clinician; urgent MRI with diffusion-weighted imaging, CT and CT angiography; glucose; ECG
+mx: Activate the stroke pathway; assess for thrombolysis or thrombectomy; NBM until swallow screen; antiemetic; stroke unit
+tell: The double vision and difficulty walking make me worried this is a stroke affecting the balance centre at the back of the brain, rather than an ear problem. We need an urgent scan, and the stroke team will see you straight away, as some treatments work best within hours.
+
+=== EN09 | Obstructive sleep apnoea in a lorry driver
+who: Gary Fletcher, 51, HGV driver
+act: Yawning; defensive about driving.
+open: My partner's nagging me about my snoring. I'm a bit tired, that's all.
+story: She says I stop breathing in my sleep and gasp. I'm always tired. I've nodded off at traffic lights.
+hpc: Snoring: Loud
+hpc: Apnoeas: Witnessed pauses and gasping
+hpc: Daytime sleepiness: Epworth score 16
+hpc: Driving: Nodded off at traffic lights; near miss on the motorway
+hpc: Morning: Headaches, unrefreshed
+yes: Morning headaches; nocturia
+no: Cataplexy; restless legs; shift work
+pmh: Hypertension; type 2 diabetes
+dh: Amlodipine; metformin
+all: None
+fh: Nothing relevant
+sh: HGV driver, 50-hour weeks; 20 units a week; BMI 36
+ice: Just snoring | Losing his licence and job | Something for the snoring
+cue: "Driving is my whole income."
+ask: Will I lose my licence?
+key: Snoring, witnessed apnoeas, gasping? | OSA
+key: Daytime sleepiness: Epworth score? | Severity
+key: Falling asleep while driving, near misses? | Safety
+key: Alcohol, sedatives, weight? | Contributing factors
+key: Hypertension, diabetes, heart disease? | Associations
+rf: Excessive sleepiness while driving | Must not drive until controlled; DVLA
+sum: So you snore loudly, stop breathing at night, you're very sleepy in the day and you've nodded off while driving. Is that right?
+pres: Gary Fletcher is a 51-year-old HGV driver with BMI 36, hypertension and diabetes with loud snoring, witnessed apnoeas, morning headaches and excessive daytime sleepiness with an Epworth score of 16, including sleepiness while driving. This is obstructive sleep apnoea with a significant driving risk.
+ddx: Obstructive sleep apnoea, because of snoring, witnessed apnoeas and daytime sleepiness | Insufficient sleep from long working hours | Hypothyroidism or narcolepsy, excluded by TFTs and history
+ix: Epworth Sleepiness Scale; STOP-BANG; referral for home sleep study; TFTs; BP, HbA1c
+mx: Urgent sleep clinic referral; must not drive if excessively sleepy; tell the DVLA; CPAP for moderate to severe OSA; weight loss, alcohol reduction, avoid sedatives; once effective treatment controls symptoms, he can usually drive again
+tell: This sounds like obstructive sleep apnoea, where your airway closes during sleep. It's dangerous to drive while this sleepy, so you must stop driving and tell the DVLA. The good news is CPAP treatment usually fixes it quickly, and most drivers get back to work once their sleepiness is controlled.
+
+=== EN10 | Otitis externa
+who: Hayley Burns, 30, swimming coach
+act: Tilt your head away; flinch if the ear is touched.
+open: My ear's really painful, especially when I touch it or pull it.
+story: For four days my right ear has hurt and itched. Pulling the ear makes it worse. There's a bit of discharge. I'm in the pool every day.
+hpc: Pain: Right ear, 4 days
+hpc: Tragal tenderness: Pain on pulling the pinna
+hpc: Itch: Yes
+hpc: Discharge: Scant, watery
+hpc: Hearing: Slightly muffled
+yes: Daily swimming; uses cotton buds
+no: Fever; facial weakness; spreading redness; diabetes; severe headache
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Swimming coach
+ice: An ear infection | Perforated drum | Drops to fix it
+cue: "I can't miss coaching."
+ask: Can I still swim?
+key: Pain worse on moving the pinna? | Canal disease
+key: Swimming, cotton buds, hearing aids? | Triggers
+key: Discharge, hearing? | Severity
+key: Fever, spreading redness, facial weakness? | Complications
+key: Diabetes or immunosuppression? | Necrotising otitis externa
+rf: Severe pain with diabetes or facial nerve palsy | Necrotising otitis externa
+sum: So for four days your right ear has been painful, itchy and worse when you pull it, with a little discharge, and you swim daily. Is that right?
+pres: Hayley Burns is a 30-year-old swimming coach with 4 days of right otalgia worse on moving the pinna, itch, scant discharge and muffled hearing, without fever or risk factors for necrotising disease. This is acute otitis externa.
+ddx: Acute otitis externa, because of canal pain with tragal tenderness in a swimmer | Acute otitis media with perforation, distinguished on otoscopy | Furunculosis or necrotising otitis externa, distinguished by focal swelling or diabetes
+ix: Otoscopy; swab if recurrent or failing treatment
+mx: Topical antibiotic with or without steroid ear drops for 7 days, such as acetic acid 2% for mild or neomycin and dexamethasone; analgesia; keep the ear dry: avoid swimming for 7 to 10 days or use earplugs; avoid cotton buds
+tell: This is swimmer's ear, an infection of the ear canal. Drops for a week should clear it. Try to keep it dry, so avoid swimming for about a week, then use earplugs. Avoid cotton buds, which scratch the canal.
+
+=== EN11 | Acute otitis media in a child
+who: Lisa Nolan, mother of Max, 5
+act: Concerned but calm; Max is playing quietly.
+open: Max has had a fever and earache for two days. Does he need antibiotics?
+story: He's been tugging his left ear and had a temperature of 38.5. He's eating less but drinking fine and playing.
+hpc: Ear pain: Left, 2 days
+hpc: Fever: 38.5
+hpc: Otoscopy: Bulging red left tympanic membrane
+hpc: Hydration: Drinking well
+hpc: Behaviour: Alert, playing
+yes: Recent cold
+no: Ear discharge; swelling behind the ear; drowsiness; neck stiffness; rash; vomiting
+pmh: Nothing
+dh: Calpol
+all: None
+fh: Nothing relevant
+sh: Lives with parents; nursery
+ice: An ear infection | Burst eardrum or deafness | Antibiotics
+cue: "Last time he had antibiotics, he got better quickly."
+ask: Does he need antibiotics?
+key: How long, fever, how is he in himself? | Systemic state
+key: Drinking, wees, alertness? | Hydration
+key: Discharge, swelling behind the ear, ear sticking out? | Perforation and mastoiditis
+key: Neck stiffness, rash, drowsiness? | Meningitis
+key: Previous episodes? | Recurrence
+rf: Mastoid swelling or systemic illness | Same-day admission
+sum: So Max has had left earache and fever for two days, a red bulging eardrum, but he's drinking, alert and playing. Is that right?
+pres: This is a history from Lisa about her son Max, 5, with 2 days of left otalgia and fever of 38.5 with a bulging erythematous tympanic membrane, who is alert, drinking well and has no mastoid swelling. This is uncomplicated acute otitis media.
+ddx: Acute otitis media, because of otalgia, fever and a bulging red drum | Otitis media with effusion, without acute symptoms | Mastoiditis or meningitis, excluded by no swelling or systemic signs
+ix: Clinical
+mx: Per NICE: most resolve in 3 days; regular paracetamol or ibuprofen; no antibiotic or a back-up prescription to use if no better after 3 days or worse; antibiotics now if systemically unwell, discharge or under 2 with bilateral infection; amoxicillin 5 days if needed; safety-net
+tell: This is a middle ear infection, and most clear up within three days without antibiotics. Regular Calpol or ibuprofen will help most. I'll give you a prescription to use if he's no better in three days or gets worse. If he gets swelling behind his ear, becomes drowsy or very unwell, bring him straight back.
+
+=== EN12 | Acute rhinosinusitis
+who: Jess Morgan, 38, solicitor
+act: Blocked voice; press your cheeks.
+open: I've had a blocked nose and pressure in my face for eleven days since a cold.
+story: After a cold, my nose stayed blocked with thick discharge, and my cheeks ache when I bend forward. I feel okay otherwise.
+hpc: Duration: 11 days
+hpc: Nose: Blocked, thick discharge
+hpc: Face: Pressure over cheeks, worse bending forward
+hpc: Systemic: Not unwell, no high fever
+yes: Reduced smell
+no: Eye swelling; double vision; reduced vision; severe frontal headache; confusion; neck stiffness
+pmh: Nothing
+dh: Paracetamol
+all: None
+fh: Nothing relevant
+sh: Non-smoker; solicitor
+ice: A sinus infection | It spreading | Antibiotics
+cue: "I've got a big trial next week."
+ask: Do I need antibiotics?
+key: How long and since a cold? | Duration
+key: Discharge, facial pain, smell? | Sinusitis
+key: Eye swelling, double vision, reduced vision? | Orbital complications
+key: Severe headache, confusion, neck stiffness? | Intracranial complications
+key: Recurrent episodes, nasal polyps? | Chronic disease
+rf: Periorbital swelling or visual change | Same-day ENT
+sum: So for eleven days after a cold you've had a blocked nose with thick discharge and cheek pressure, no eye or neurological symptoms, and you feel okay otherwise. Is that right?
+pres: Jess Morgan is a 38-year-old woman with 11 days of nasal obstruction, purulent discharge and maxillary pressure after a cold, systemically well, without orbital or intracranial red flags. This is acute post-viral rhinosinusitis.
+ddx: Acute post-viral rhinosinusitis, because of symptoms beyond 10 days after a cold | Acute bacterial sinusitis, suggested by marked deterioration or high fever | Orbital or intracranial complication, excluded by no red flags
+ix: Clinical
+mx: Per NICE: over 10 days, consider high-dose nasal corticosteroid for 14 days; no antibiotic or a back-up prescription; analgesia; saline irrigation; safety-net
+tell: This is sinusitis after a cold, and most clear within two to three weeks without antibiotics. A steroid nasal spray and saline rinses can help. If you get swelling around your eye, changes in vision, a severe headache or feel very unwell, seek help straight away.
+
+=== EN13 | Acute sore throat: FeverPAIN assessment
+who: Liam Ford, 21, student
+act: Hoarse, swallowing painfully; insistent on antibiotics.
+open: My throat is killing me. I need antibiotics.
+story: Two days of a very sore throat and fever. It hurts to swallow. I can still drink.
+hpc: Duration: 2 days
+hpc: Fever: Yes, 38.3
+hpc: Tonsils: Exudate
+hpc: Cough: None
+hpc: Symptoms began: Within 2 days
+yes: Fever; exudate; tender neck glands
+no: Drooling; trismus; muffled voice; unilateral swelling; difficulty breathing; rash
+pmh: Nothing
+dh: Paracetamol
+all: Penicillin: rash as a child
+fh: Nothing relevant
+sh: Student; non-smoker
+ice: Tonsillitis | Missing exams | Antibiotics
+cue: "Antibiotics always fix it for me."
+ask: Can I have antibiotics?
+key: Duration, fever, cough or coryza? | FeverPAIN
+key: Pus on tonsils, swollen glands? | FeverPAIN
+key: Drooling, trismus, muffled voice, unilateral swelling? | Quinsy
+key: Difficulty breathing or swallowing saliva? | Airway
+key: Allergies, especially penicillin? | Choice of drug
+rf: Stridor, drooling or inability to swallow | Airway threat
+sum: So for two days you've had a very sore throat with fever and pus on your tonsils, no cough, and you can still drink. Is that right?
+pres: Liam Ford is a 21-year-old man with 2 days of sore throat, fever, tonsillar exudate and no cough, with a FeverPAIN score of 4, without features of quinsy or airway compromise. He is penicillin-allergic and is requesting antibiotics.
+ddx: Acute tonsillitis, likely streptococcal, because of FeverPAIN 4 | Infectious mononucleosis, with lymphadenopathy, fatigue and splenomegaly | Peritonsillar abscess, excluded by no trismus or unilateral swelling
+ix: Clinical; FeverPAIN score
+mx: FeverPAIN 4 or 5: immediate antibiotic or back-up; with penicillin allergy, clarithromycin for 5 days; analgesia; safety-net for quinsy or airway symptoms
+tell: Your score suggests a bacterial infection is possible, so an antibiotic is reasonable. Because of your penicillin allergy, I'll give you clarithromycin for 5 days. Painkillers and fluids help most. If you can't swallow saliva, can't open your mouth, or have trouble breathing, go to A&E.
+
+=== EN14 | Speech and hearing after cleft palate repair
+who: Amy Clarke, mother of Noah, 4
+act: Worried; Noah plays happily with a toy truck.
+open: Noah's speech isn't clear, and I'm worried about his hearing.
+story: He had his cleft palate repaired as a baby. His speech sounds nasal, and people struggle to understand him. He often says "what?" and turns up the TV.
+hpc: Cleft: Palate repaired at 10 months
+hpc: Speech: Nasal, unclear
+hpc: Hearing: Says "what?", turns up TV
+hpc: Ear infections: Frequent
+hpc: Feeding: Some fluid comes out of his nose
+yes: Nasal speech; nasal regurgitation; ear infections
+no: Breathing problems; developmental regression; snoring
+pmh: Cleft palate
+dh: None
+all: None
+fh: Nothing relevant
+sh: Nursery; parents and sister
+ice: Speech delay | School problems | Specialist help
+cue: "Other kids are starting to tease him."
+ask: Will he catch up?
+key: Speech: nasal, unclear, how understood by strangers? | Velopharyngeal insufficiency
+key: Hearing concerns, ear infections? | Glue ear common after cleft
+key: Feeding: nasal regurgitation? | Palatal function
+key: Development and school readiness | Impact
+key: Support from the cleft team? | Ongoing care
+rf: Persistent hearing loss | Speech and language impact
+sum: So Noah's speech is nasal and unclear after his cleft palate repair, he has frequent ear infections and seems not to hear well. Is that right?
+pres: This is a history from Amy about her son Noah, 4, with a repaired cleft palate, with hypernasal unclear speech and nasal regurgitation suggesting velopharyngeal insufficiency, and hearing concerns with recurrent ear infections suggesting otitis media with effusion.
+ddx: Velopharyngeal insufficiency after cleft palate repair, because of hypernasal speech and nasal regurgitation | Otitis media with effusion, very common with cleft palate | Developmental speech delay, distinguished by specialist assessment
+ix: Audiology; tympanometry; speech and language therapy assessment; nasendoscopy or videofluoroscopy by the cleft team
+mx: Referral back to the regional cleft MDT; speech and language therapy; grommets or hearing aids for glue ear; possible further palatal surgery; liaison with nursery
+tell: Children after cleft repair often need speech therapy, and many get fluid behind the eardrums, which muffles hearing. The cleft team will check his hearing and speech, and there are treatments for both, such as grommets and therapy. With support, most children make great progress.
+
+=== EN15 | Inhaled foreign body in a toddler
+who: Kerry Hughes, mother of Leo, 3
+act: Frightened; Leo coughing, wheezy but conscious.
+open: Leo was eating nuts and suddenly started choking. Now his breathing sounds noisy.
+story: He was eating peanuts on the sofa, suddenly coughed and choked, went red, then the coughing settled but he's been wheezy since. It was an hour ago.
+hpc: Event: Sudden choking while eating peanuts, 1 hour ago
+hpc: Now: Wheezy, coughing
+hpc: Air entry: Reduced on the right
+hpc: Colour: Pink, alert
+hpc: Before: Well, no cold
+yes: Persistent cough; wheeze
+no: Fever; previous wheeze; asthma; cyanosis now; unable to speak or cry
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Lives with parents and sister
+ice: He swallowed it | Choking to death | Get it out
+cue: "Should I make him sick?"
+ask: Is it stuck?
+key: What happened: sudden onset while eating or playing? | Foreign body
+key: Can he cough, cry and speak? | Effective versus ineffective cough
+key: Colour, breathing effort, stridor? | Severity
+key: Previous respiratory illness? | Alternative causes
+key: Do not perform blind finger sweeps | Safety
+rf: Ineffective cough or reducing consciousness | Choking algorithm: back blows and chest thrusts
+sum: So an hour ago Leo choked suddenly while eating peanuts, and since then he's been coughing and wheezy with reduced air on the right. Is that right?
+pres: This is a history from Kerry about her son Leo, 3, with sudden choking while eating peanuts an hour ago, now with persistent cough, wheeze and reduced right-sided air entry, alert and pink. This is an inhaled foreign body in the right main bronchus until proven otherwise.
+ddx: Inhaled foreign body, because of sudden choking while eating with unilateral signs | Viral-induced wheeze or asthma, excluded by abrupt onset and unilateral findings | Croup, which develops gradually with barking cough
+ix: Chest X-ray, may show air trapping or be normal; do not delay bronchoscopy if strongly suspected
+mx: Keep calm and with parent; do not attempt to examine the throat or blind sweep; give oxygen if needed; urgent ENT or paediatric surgery for rigid bronchoscopy under general anaesthetic; advise no whole nuts under 5
+tell: I think a piece of nut has gone down into his lung, which is why he's wheezy on one side. He's breathing well enough for now, but it needs removing, and the specialists will use a camera under anaesthetic, usually today. Please don't try to make him sick or put your fingers in his mouth.
+
+=== EN17 | Head and neck cancer: neck lump and leukoplakia
+who: Tony Walsh, 60, taxi driver
+act: Rub the side of your neck; hoarse voice.
+open: I've had a lump in my neck for six weeks. It's not going down.
+story: It's painless and getting slowly bigger. I've had a red and white patch on the side of my tongue for a while. I've lost weight and my voice has gone a bit hoarse.
+hpc: Neck lump: Painless, 6 weeks, enlarging
+hpc: Tongue: Persistent red-white patch, side of tongue
+hpc: Weight: Lost 5 kg
+hpc: Voice: Hoarse 3 weeks
+hpc: Ear: Pain in left ear
+yes: Weight loss; hoarseness; referred otalgia
+no: Recent cold or sore throat; fever; dental problems; night sweats
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Smokes 25 a day for 40 years; 30 units a week
+ice: A gland | Cancer | Answers
+cue: "I thought it was just a gland up."
+ask: Is it cancer?
+key: Neck lump: how long, painless, getting bigger? | Persistent lump over 3 weeks
+key: Mouth: ulcers, red or white patches, bleeding? | Oral cancer
+key: Voice, swallowing, ear pain? | Laryngeal or pharyngeal involvement
+key: Weight loss, night sweats? | B symptoms
+key: Smoking and alcohol | Major risk factors
+rf: Unexplained neck lump over 40, or persistent oral patch | Suspected cancer pathway
+sum: So for six weeks you've had a painless growing neck lump, a red-white patch on your tongue, weight loss, hoarseness and ear pain, and you smoke and drink heavily. Is that right?
+pres: Tony Walsh is a 60-year-old heavy smoker and drinker with a 6-week painless enlarging neck lump, a persistent erythroleukoplakic patch on the lateral tongue, 5 kg weight loss, hoarseness and referred otalgia, without recent infection. This is highly suspicious for head and neck squamous cell carcinoma with nodal metastasis.
+ddx: Head and neck squamous cell carcinoma with nodal spread, because of a persistent neck lump with an oral lesion in a smoker and drinker | Lymphoma, distinguished by B symptoms and biopsy | Reactive lymphadenopathy, excluded by persistence without infection
+ix: Suspected cancer pathway ENT or oral surgery referral; ultrasound-guided FNA or core biopsy of the neck lump; biopsy of the tongue lesion; nasendoscopy; CT or MRI and PET for staging
+mx: Suspected cancer pathway referral within 2 weeks per NICE; smoking and alcohol cessation support; head and neck MDT; treatment by surgery, radiotherapy or chemoradiotherapy
+tell: A lump in the neck that's lasted six weeks, together with the patch on your tongue, needs checking urgently, because it could be a cancer of the mouth or throat. I'm referring you to be seen within two weeks. Stopping smoking and cutting down alcohol will help whatever the result.
+
+=== EN18 | Bilateral tinnitus and hearing support
+who: Carol Pearce, 57, office administrator
+act: Lean in to hear; tired.
+open: My ears ring all the time, and I can't follow conversations in noisy places.
+story: It's both ears, a high-pitched ringing, not in time with my heartbeat. It's worse at night and stops me sleeping. I can't hear friends in restaurants.
+hpc: Tinnitus: Bilateral, high-pitched, constant
+hpc: Pulsatile: No
+hpc: Hearing: Difficulty in background noise
+hpc: Sleep: Disturbed
+hpc: Mood: Frustrated, a bit low
+yes: Noise exposure from concerts in her youth
+no: Unilateral symptoms; vertigo; facial weakness; ear discharge; sudden loss; pulsatile tinnitus
+pmh: Nothing
+dh: None
+all: None
+fh: Mother had hearing aids
+sh: Lives with husband
+ice: Getting old | Going deaf | To sleep and hear better
+cue: "I've stopped going out with my friends."
+ask: Will it ever stop?
+key: One or both ears, pulsatile or not? | Red flags
+key: Hearing loss: gradual, symmetrical? | Presbycusis
+key: Vertigo, facial weakness, discharge? | Other pathology
+key: Sleep, mood, impact on life? | Distress
+key: Noise exposure, ototoxic drugs? | Cause
+rf: Unilateral or pulsatile tinnitus, or sudden loss | Urgent assessment
+sum: So you have constant high-pitched ringing in both ears, not pulsing, difficulty hearing in noisy places, and it's affecting your sleep and mood. Is that right?
+pres: Carol Pearce is a 57-year-old woman with bilateral non-pulsatile tinnitus and difficulty hearing speech in background noise, affecting sleep, mood and social life, without unilateral or neurological red flags. This is likely age-related sensorineural hearing loss with tinnitus.
+ddx: Presbycusis with tinnitus, because of bilateral high-frequency symptoms | Noise-induced hearing loss, a contributor | Vestibular schwannoma or vascular cause, excluded by no unilateral or pulsatile features
+ix: Otoscopy; tuning fork tests; audiology referral
+mx: Audiology for hearing assessment and hearing aids, which often reduce tinnitus; sound therapy at night; tinnitus support and CBT-based therapy; screen and support mood; avoid loud noise
+tell: The ringing is common with some age-related hearing loss, and it's not a sign of anything dangerous. Hearing aids often help both your hearing and the ringing. Background sound at night and tinnitus support groups help sleep. Let's get your hearing tested properly.
+
+=== EN19 | Tonsillectomy consent and post-operative bleeding
+who: Rachel Grant, mother of Ella, 8
+act: Anxious, with a notebook.
+open: Ella's booked for her tonsils out. I'm really worried about bleeding after she comes home.
+story: She's had seven bad tonsillitis episodes this year and misses school. I read that bleeding after the operation can be serious.
+hpc: Episodes: 7 in the last year, each needing time off school
+hpc: Offered: Tonsillectomy
+hpc: Concern: Bleeding after discharge
+hpc: Bleeding history: None in Ella or family
+yes: School absence
+no: Bleeding disorders; bruising easily; sleep apnoea symptoms
+pmh: Recurrent tonsillitis
+dh: None
+all: None
+fh: No bleeding disorders
+sh: Primary school
+ice: Surgery will help | Ella bleeding at home | Clear advice
+cue: "What if she bleeds in the night?"
+ask: How likely is bleeding, and what do I do?
+key: What does she already know? | Starts where she is
+key: Benefits: fewer sore throats and less time off school | Benefit
+key: Bleeding: about 1 in 30 to 50 children, mostly within the first 2 weeks, especially days 5 to 10 | Material risk
+key: What to do: any fresh bleeding, go to A&E or call 999 if heavy | Safety-net
+key: Recovery: regular paracetamol and ibuprofen, normal eating helps healing, 2 weeks off school | Recovery
+rf: Fresh bleeding after tonsillectomy | Emergency
+sum: So Ella's having her tonsils out after seven episodes this year, and you're worried about bleeding afterwards. Is that right?
+pres: Rachel Grant is the mother of Ella, 8, who meets criteria for tonsillectomy with 7 significant episodes in a year. I have discussed the benefits, the risk of post-operative haemorrhage of about 1 in 30 to 50 and its timing, recovery, analgesia, and clear advice on what to do if bleeding occurs.
+ddx: Recurrent acute tonsillitis meeting SIGN criteria | Alternative: watchful waiting | Consider sleep-disordered breathing as another indication if present
+ix: Pre-operative assessment; clotting only if history suggests
+mx: Tonsillectomy; regular paracetamol and ibuprofen; normal diet; 2 weeks off school; avoid crowded places; return immediately for bleeding
+tell: The operation should mean far fewer sore throats. Bleeding happens in about 1 in 30 to 50 children, usually in the first 2 weeks. If she spits out fresh blood, take her to A&E straight away, and call 999 if it's heavy. Regular painkillers and eating normal food actually help healing.
+
+=== EN20 | Moderate croup
+who: Laura Patel, mother of Kai, 2
+act: Worried; Kai is on her lap, barking cough.
+open: Kai's got a cough like a seal and his breathing is noisy.
+story: He had a cold for two days. Tonight he woke with a barking cough and noisy breathing in. He's drinking and not drooling.
+hpc: Cough: Barking, since tonight
+hpc: Stridor: Inspiratory, at rest
+hpc: Breathing: RR 36, mild recession
+hpc: Preceding: Cold for 2 days
+hpc: Behaviour: Alert, drinking
+yes: Fever 38.0; hoarse voice
+no: Drooling; sudden onset while eating; toxic appearance; cyanosis; unvaccinated
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Nursery; fully vaccinated
+ice: A chest infection | Him stopping breathing | Help him breathe
+cue: "He sounds terrible."
+ask: Is he going to be okay?
+key: Onset: gradual after a cold, or sudden while eating? | Foreign body
+key: Barking cough, stridor at rest or only when upset? | Severity
+key: Drooling, unable to swallow, toxic appearance? | Epiglottitis
+key: Drinking, alertness? | Severity
+key: Vaccination status | Hib
+rf: Stridor at rest or recession | Moderate croup: steroids and observe
+rf: Drooling, toxic, tripod position | Epiglottitis: don't examine the throat
+sum: So after a cold, Kai woke tonight with a barking cough and noisy breathing at rest, but he's alert and drinking and not drooling. Is that right?
+pres: This is a history from Laura about her son Kai, 2, with a barking cough, inspiratory stridor at rest, RR 36 and mild recession after 2 days of coryza, who is alert, drinking and not drooling. This is moderate croup.
+ddx: Moderate viral croup, because of barking cough and stridor after a cold | Epiglottitis, excluded by no drooling or toxicity | Inhaled foreign body, excluded by gradual onset
+ix: Clinical; avoid distressing the child; no throat examination
+mx: Oral dexamethasone 0.15 mg/kg single dose; keep child calm on parent's lap; observe for improvement; nebulised adrenaline and senior review if severe; safety-net for worsening stridor, drooling or cyanosis
+tell: This is croup, a viral infection that swells the windpipe. A single dose of steroid medicine reduces swelling within a few hours. Keep him calm on your lap. If his breathing gets harder, he drools, or he goes blue or grey, call 999.
+
+=== EN21 | Peritonsillar abscess
+who: Ben Cooper, 24, chef
+act: Muffled "hot potato" voice; can barely open your mouth; spitting saliva.
+open: My throat's gone really bad on one side, and I can barely open my mouth.
+story: I've had tonsillitis for five days. Over the last two days the left side got much worse, I can't open my mouth properly, and I can't swallow my spit.
+hpc: Pain: Left throat, worsening over 2 days
+hpc: Trismus: Yes
+hpc: Voice: Muffled
+hpc: Swallowing: Unable to swallow saliva, struggling to drink
+hpc: Fever: 38.6
+yes: Ear pain on the left; drooling
+no: Breathing difficulty; stridor; neck swelling extending down
+pmh: Recurrent tonsillitis
+dh: Paracetamol
+all: None
+fh: Nothing relevant
+sh: Smokes 10 a day; chef
+ice: Bad tonsillitis | Choking | Relief
+cue: "I can't even swallow water."
+ask: Will you need to cut it?
+key: Unilateral pain worsening despite tonsillitis? | Quinsy
+key: Trismus, muffled voice, drooling? | Peritonsillar abscess
+key: Breathing difficulty, stridor? | Airway
+key: Fluid intake, urine output? | Dehydration
+key: Neck swelling, stiffness? | Deep neck space infection
+rf: Stridor or breathing difficulty | Airway emergency
+sum: So after five days of tonsillitis, your left throat has got much worse with trismus, a muffled voice and you can't swallow your saliva. Is that right?
+pres: Ben Cooper is a 24-year-old man with worsening unilateral left throat pain after 5 days of tonsillitis with trismus, a muffled voice, drooling, inability to swallow saliva and fever of 38.6, without stridor. This is a left peritonsillar abscess.
+ddx: Peritonsillar abscess, because of unilateral worsening with trismus and muffled voice | Peritonsillar cellulitis, distinguished on aspiration | Parapharyngeal abscess or epiglottitis, distinguished by neck findings and airway
+ix: FBC, CRP, U&Es; monospot; CT neck if deep neck space infection suspected
+mx: Same-day ENT; needle aspiration or incision and drainage; IV antibiotics such as benzylpenicillin and metronidazole; IV fluids; analgesia; consider steroid dose; consider interval tonsillectomy if recurrent
+tell: You have a collection of pus next to your tonsil, called a quinsy. ENT will drain it with a needle, which brings quick relief, and we'll give you antibiotics and fluids through a drip. If your breathing becomes difficult, tell us immediately.

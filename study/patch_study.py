@@ -191,6 +191,9 @@ for _ck, _qs in _ch.items():
     D['off']['g'].append({'k': 'chain', 't': U[int(_qs[0]['k'])]['name'] + ': one patient, three steps', 'r': _qs[0]['cr'], 'ids': [q['id'] for q in _qs]})
 for _q in D['hq']['q']:
     _q.pop('ck', None); _q.pop('cr', None)
+# v2.7: lay out the 🔨 and 🎓 questions the way the MSCAA and MS AKT papers do (snap/mscaa.py)
+import mscaa as _msc
+_msc.apply(D)
 _V4 = json.load(open(MEDAPP / 'build' / 'osce_data_v4.json', encoding='utf-8'))
 _dgu = {}
 for _st in sorted(_V4['stations'], key=lambda x: (not x.get('core'), x['id'])):
@@ -218,7 +221,7 @@ rep('<header class="top">', '<style>\n' + mev_css + ext_css + '</style>\n<header
 rep('<script id="qqdata" type="application/json">', '<script>\n' + mev_js + '</script>\n<script>\n' + dg_js + '</script>\n<script id="qqdata" type="application/json">')
 
 # ---------- version ----------
-rep('<small>v0.5.0 beta</small>', '<small>v2.6.1</small>')
+rep('<small>v0.5.0 beta</small>', '<small>v2.7.0</small>')
 rep('const fmtRich = t => fmtPlain(t)', 'const fmtRich = t => dualHtml(t) || fmtRich0(t);\nconst fmtRich0 = t => fmtPlain(t)')
 
 # ---------- script hooks ----------

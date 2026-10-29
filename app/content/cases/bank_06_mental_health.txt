@@ -1,0 +1,891 @@
+# Station bank: mental health. Risk lines follow NICE NG225: assess needs and safety; do not use risk scales to predict suicide.
+
+=== MH01 | Moderate to severe depression with suicidal thoughts
+who: Natalie Brooks, 32, recruitment consultant
+act: Slumped, little eye contact, quiet slow speech; long pauses; tearful when family is mentioned.
+open: I just feel like there's no point to anything any more.
+story: For about six weeks I've felt low every day. I don't enjoy anything, even my daughter. I wake at 4 every morning. I've stopped eating properly and I've missed work.
+hpc: Mood: Low most of the day, every day, 6 weeks
+hpc: Anhedonia: No pleasure, even with her daughter
+hpc: Sleep: Early morning waking at 4 am
+hpc: Appetite: Poor, lost 4 kg
+hpc: Energy and concentration: Exhausted, can't focus at work
+hpc: Thoughts: "My family would be better without me"
+hpc: Suicidal thoughts: ONLY IF ASKED directly: passive thoughts of not waking up, no plan, has thought about tablets but has none stockpiled
+yes: Guilt; hopelessness; worthlessness
+no: Previous episodes; mania; voices; alcohol excess; drugs; self-harm
+pmh: Nothing
+dh: Combined pill
+all: None
+fh: Father had depression
+sh: Lives with partner and daughter aged 4; recruitment job under pressure; 6 units a week
+ice: Failing as a mum | Losing her job, being a bad mother | To feel like herself again
+cue: Tearful: "I'm supposed to be happy, I've got everything."
+ask: Will I always feel like this?
+key: Core symptoms: low mood, anhedonia, low energy, and for how long? | Depression criteria, 2 weeks or more
+key: Biological symptoms: sleep, appetite, weight, concentration, libido | Severity
+key: Ask directly: have you had thoughts of ending your life? Any plans, means, preparation? | Suicide risk: asking does not increase risk
+key: Protective factors: daughter, partner, reasons to live | Safety planning
+key: Screen for mania, psychosis, alcohol and drugs | Differentials
+key: Impact on work, home, childcare | Function and safeguarding
+rf: Plans, preparation or access to means | Same-day crisis team
+rf: Concern about the child's welfare | Safeguarding
+sum: So for six weeks you've felt low every day, you've lost enjoyment, you wake at 4, you've lost weight and missed work, and you've had thoughts your family would be better off without you, but no plans. Is that right?
+pres: Natalie Brooks is a 32-year-old woman with 6 weeks of persistent low mood, anhedonia, early morning waking, reduced appetite with weight loss, poor concentration and guilt, impairing work. She has passive suicidal thoughts without plan or preparation, protective factors in her daughter and partner, and no psychotic or manic features. This is a moderate to severe depressive episode.
+ddx: Moderate to severe depressive episode, because of core and biological symptoms for over 2 weeks with impairment | Bipolar depression, excluded by no history of mania | Hypothyroidism, anaemia or substance use, excluded with bloods and history
+ix: PHQ-9; FBC, TFTs, U&Es, LFTs, glucose; collateral history with consent
+mx: Shared decision per NICE NG222: high-intensity psychological therapy such as CBT or behavioural activation, and or an SSRI such as sertraline; safety plan with crisis numbers and who to call; consider limited supply of medication; review within 1 to 2 weeks, sooner if under 26 starting an antidepressant; fit note; involve partner with consent; crisis team if risk escalates
+tell: What you're describing is depression, a real and treatable illness, not a failing on your part. Talking therapy, an antidepressant, or both, work well. Let's make a safety plan now, with who you'll call if the thoughts get stronger. If you feel you might act on them, call 999 or NHS 111 option 2. I'd like to see you again in a week.
+
+=== MH02 | Self-harm with ongoing suicidal intent
+who: Callum Reid, 23, warehouse operative
+act: Arm bandaged; defensive, looks at the floor; wants to leave.
+open: I don't need to be here. I just want to go home.
+story: I had an argument with my girlfriend and cut my arm with a knife. I'm still thinking about ending it. I've got a load of tablets at home.
+hpc: Self-harm: Cut forearm with a kitchen knife after an argument, 3 hours ago
+hpc: Intent: Still wants to die
+hpc: Means: Stockpiled paracetamol and co-codamol at home
+hpc: Plan: Was going to take them tonight
+hpc: Previous: Cut twice in the past year, never told anyone
+hpc: Alcohol: 8 pints tonight
+yes: Low mood for months; hopelessness; drinking more
+no: Voices; plans to harm others; previous mental health contact; drug use
+pmh: Nothing
+dh: None prescribed
+all: None
+fh: Uncle died by suicide
+sh: Lives alone; girlfriend ended relationship today; friend waiting outside; 30 units a week
+ice: Nobody can help | Being sectioned | To go home
+cue: "Nobody would even notice if I was gone."
+ask: Are you going to section me?
+key: Build rapport, acknowledge distress, explain confidentiality and its limits | Engagement
+key: The act: what happened, what with, intent at the time? | Intent
+key: Current thoughts: do you still want to end your life? Plans, means at home? | Current risk
+key: Previous self-harm, triggers, alcohol and drugs | Risk factors
+key: Protective factors: friend outside, family, reasons to live | Safety
+key: Mood, psychosis screen | Underlying illness
+rf: Current intent with access to means | Do not let him leave; psychiatric liaison now
+rf: Intoxication | Reassess when sober; capacity
+sum: So after an argument tonight you cut your arm, you still want to die, and you've got a store of tablets at home you planned to take tonight. Is that right?
+pres: Callum Reid is a 23-year-old man who cut his forearm after a relationship breakdown tonight while intoxicated. He describes ongoing suicidal intent with a plan to overdose on stockpiled medication at home tonight, previous undisclosed self-harm, months of low mood, living alone and a family history of suicide. His friend is supportive. He needs urgent psychiatric liaison assessment and must not leave.
+ddx: Self-harm with ongoing suicidal intent in the context of a likely depressive episode and alcohol misuse | Acute crisis reaction to relationship loss, which does not reduce the immediate concern | Alcohol-related disinhibition, assessed again when sober
+ix: Wound assessment; medical review including paracetamol level if any ingestion; psychosocial assessment by liaison psychiatry per NICE NG225
+mx: Treat the wound; keep him safe in the department with appropriate observation; psychiatric liaison assessment before discharge; if he tries to leave and lacks capacity or under the Mental Health Act as appropriate; with consent, ask his friend to remove means from home; safety plan; follow-up within 48 hours; alcohol support
+tell: Thank you for being honest with me. I'm worried about your safety tonight, so I'd like you to stay and speak to the mental health team. Being seen doesn't automatically mean being sectioned; we want to find what helps. Would it be okay to involve your friend and ask him to take the tablets out of your flat?
+
+=== MH03 | First-episode psychosis with cannabis use
+who: Daniel Okafor, 22, student, attending with his mum
+act: Guarded, glancing at the door and ceiling; pauses as if listening.
+open: I'm only here because Mum made me. There's nothing wrong with me.
+story: The neighbours have been watching me through the walls for months. They've put cameras in. I hear them talking about me, saying what I'm doing.
+hpc: Delusions: Neighbours monitoring him with hidden cameras, 4 months
+hpc: Hallucinations: Third-person voices commenting on his actions
+hpc: Functioning: Dropped out of lectures, poor self-care, isolated
+hpc: Sleep: Very disrupted
+hpc: Cannabis: ONLY IF ASKED: smokes skunk 2 to 3 times a week for 2 years
+yes: Thought broadcasting; suspiciousness
+no: Elated mood; low mood; head injury; seizures; fever; other drugs; plans to harm others; suicidal thoughts
+pmh: Nothing
+dh: None
+all: None
+fh: Uncle has schizophrenia
+sh: Lives with mum; dropped out of university this term
+ice: The neighbours are the problem | Being locked up | For mum to stop worrying
+cue: "If I tell you, they'll hear."
+ask: Do you believe me?
+key: Explore beliefs non-judgementally without colluding or confronting | Rapport
+key: Hallucinations: what do the voices say, second or third person, commands? | Schneiderian features
+key: Thought insertion, withdrawal, broadcasting? | First-rank symptoms
+key: Mood: elation or depression? | Affective psychosis
+key: Substances: cannabis, stimulants, alcohol | Precipitant
+key: Risk: to self, others, from others, self-neglect | Safety
+key: Insight | Engagement
+rf: Command hallucinations or plans to harm others | Urgent risk management
+sum: So for about four months you've believed the neighbours are watching you with cameras and you've heard them talking about you, you've stopped going to lectures, and you smoke cannabis a few times a week. Is that right?
+pres: Daniel Okafor is a 22-year-old man with 4 months of persecutory delusions, third-person auditory hallucinations commenting on his actions, thought broadcasting and functional decline with self-neglect, on a background of regular high-potency cannabis use and a family history of schizophrenia. He has limited insight and no current risk to others or himself identified. This is a first episode of psychosis.
+ddx: First-episode psychosis, possibly schizophrenia, because of over a month of delusions, hallucinations and functional decline | Cannabis-induced psychotic disorder, distinguished by persistence after abstinence | Organic causes such as thyroid disease, temporal lobe epilepsy or other drug use, excluded with bloods, urine drug screen and examination
+ix: FBC, U&Es, LFTs, TFTs, glucose, HIV and syphilis serology; urine drug screen; physical examination; consider MRI or EEG if atypical features; collateral history from mum
+mx: Urgent referral to early intervention in psychosis service, assessed within 2 weeks; offer an antipsychotic with CBT for psychosis and family intervention per NICE CG178; baseline weight, BMI, lipids, glucose, prolactin, ECG; cannabis reduction support; risk management and crisis plan
+tell: I can see how frightening this is for you. I'd like you to see a specialist team that helps young people with experiences like yours. They can help with the stress and the voices. Cannabis can make these experiences much stronger, so cutting down would really help. Your mum will be supported too.
+
+=== MH04 | Manic episode
+who: Sophie Lambert, 28, events coordinator, with her partner
+act: Talking fast, hard to interrupt, jumping between topics; laughing, then irritable when challenged.
+open: I've never felt better in my life! I don't know why everyone's fussing.
+story: I've barely needed sleep this week, two hours a night. I've launched three businesses, spent fifteen grand, and I've got amazing ideas. I'm going to be a millionaire.
+hpc: Sleep: 2 hours a night for a week, not tired
+hpc: Mood: Elated, irritable when challenged
+hpc: Speech: Pressured, flight of ideas
+hpc: Spending: £15,000 on business ventures
+hpc: Grandiosity: Believes she has exceptional business powers
+hpc: Driving: Partner worried about fast unsafe driving
+yes: Increased libido; started many projects; distractible
+no: Voices; drugs; recent antidepressant; thyroid symptoms
+pmh: Depression aged 20 treated with sertraline
+dh: None currently
+all: None
+fh: Mother has bipolar disorder
+sh: Lives with partner; stopped going to work; drinking more
+ice: Finally reaching her potential | People holding her back | To be left alone
+cue: Partner: "She's not herself, and she nearly crashed the car."
+ask: Why can't you be happy for me?
+key: Mood, energy, sleep need, how long? | Mania criteria: at least 7 days or hospitalisation
+key: Speech, racing thoughts, distractibility? | Manic features
+key: Spending, risky behaviour, sexual disinhibition, driving? | Risk and impairment
+key: Psychotic features: grandiose beliefs, voices? | Mania with psychosis
+key: Previous depression, antidepressants, drugs, family history? | Bipolar
+key: Insight, capacity, willingness for treatment | Management
+rf: Dangerous driving, financial ruin, vulnerability | Urgent home treatment or admission
+sum: So for a week you've slept two hours a night, felt fantastic, spent £15,000 starting businesses, and your partner's worried about your driving. Is that right?
+pres: Sophie Lambert is a 28-year-old woman with a previous depressive episode and a mother with bipolar disorder, presenting with a week of elevated and irritable mood, reduced need for sleep, pressured speech, flight of ideas, grandiosity, excessive spending of £15,000 and dangerous driving, with limited insight. This is a manic episode, consistent with bipolar affective disorder.
+ddx: Manic episode in bipolar affective disorder, because of over a week of elevated mood with reduced sleep need, grandiosity and impairment | Substance-induced mania such as stimulants or steroids, excluded with history and urine drug screen | Hyperthyroidism or organic brain disease, excluded with TFTs and examination
+ix: FBC, U&Es, LFTs, TFTs, calcium, glucose; urine drug screen; pregnancy test; ECG; collateral from partner
+mx: Urgent psychiatric assessment; crisis or home treatment team, or admission if risk is high; antipsychotic such as olanzapine, quetiapine or risperidone per NICE CG185; stop any antidepressant; advise not to drive and inform the DVLA; protect finances; involve partner; later consider long-term lithium
+tell: I can hear how good you feel, but sleeping two hours a night and spending this much are signs of an illness called mania, which can cause real harm. I'd like the mental health team to see you today. Please don't drive until you're well; you'll need to let the DVLA know.
+
+=== MH05 | Generalised anxiety disorder
+who: Marcus Hale, 39, accounts manager
+act: Fidget, tense shoulders, rub your neck; apologise a lot.
+open: I can't stop worrying. About everything.
+story: For eight months I've worried most days about work, money, my kids. I know it's too much but I can't switch it off. I'm tense and I can't sleep.
+hpc: Worry: Excessive, multiple topics, most days, 8 months
+hpc: Control: Hard to control
+hpc: Physical: Muscle tension, headaches, restlessness, palpitations
+hpc: Sleep: Difficulty getting off to sleep
+hpc: Impact: Irritable at home, avoiding work meetings
+yes: Fatigue; poor concentration
+no: Panic attacks with sudden peaks; low mood as main symptom; suicidal thoughts; trauma; alcohol or drug use to cope; caffeine excess
+pmh: Nothing
+dh: None
+all: None
+fh: Mother anxious
+sh: Married, two children; 3 coffees a day; 8 units a week
+ice: Just stress | Heart attack from the palpitations | Something to switch it off
+cue: "My wife says I'm not present any more."
+ask: Is there a tablet to switch it off?
+key: What do you worry about, how often, and can you control it? | GAD: 6 months, multiple domains
+key: Physical symptoms: tension, palpitations, sleep, fatigue? | Somatic features
+key: Panic attacks, phobias, obsessions, trauma? | Other anxiety disorders
+key: Low mood, suicidal thoughts? | Comorbid depression
+key: Caffeine, alcohol, drugs, thyroid symptoms? | Organic causes
+key: Impact on work and relationships | Severity
+rf: Suicidal thoughts | Safety
+sum: So for eight months you've worried most days about lots of things, you can't control it, and you're tense, not sleeping, and it's affecting work and home. Is that right?
+pres: Marcus Hale is a 39-year-old man with 8 months of excessive, uncontrollable worry about multiple areas of life with muscle tension, restlessness, palpitations, fatigue, poor concentration and initial insomnia, impairing work and family life, without panic attacks, depression or substance misuse. This is generalised anxiety disorder.
+ddx: Generalised anxiety disorder, because of over 6 months of multi-domain uncontrollable worry with somatic symptoms | Depression with anxiety, which needs screening | Hyperthyroidism, caffeine or alcohol effects, excluded with TFTs and history
+ix: GAD-7; TFTs, FBC, glucose; ECG if palpitations concern him
+mx: Stepped care per NICE CG113: psychoeducation and self-help; low-intensity CBT-based guided self-help; then high-intensity CBT or applied relaxation, or an SSRI such as sertraline; avoid benzodiazepines; reduce caffeine; sleep hygiene; review
+tell: This sounds like generalised anxiety disorder; the palpitations come from anxiety, not your heart. There isn't a tablet that just switches it off, but CBT works very well, and an SSRI medicine can help if needed. I'll refer you to NHS Talking Therapies, and you can self-refer too.
+
+=== MH06 | Acute stress reaction after witnessing a fatal collision
+who: Amy Clarke, 30, nursery practitioner
+act: Shaking, clutching a tissue; repeatedly describe the scene.
+open: I can't stop seeing it. The crash. I keep seeing it.
+story: Yesterday I saw a car hit a cyclist. He died at the scene. I tried to help. Since then I've been shaking, I barely slept, and the images keep coming back.
+hpc: Event: Witnessed fatal road collision yesterday, tried to help
+hpc: Intrusions: Flashbacks of the scene
+hpc: Sleep: Barely slept
+hpc: Physical: Shaking, nausea, startles
+hpc: Numbness: Feels detached at times
+yes: Avoiding the road; tearful
+no: Suicidal thoughts; self-harm; alcohol or drugs to cope; previous trauma; previous mental illness
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Lives with partner; supportive family; works in a nursery
+ice: Going mad | That it'll never stop | Something to help her sleep
+cue: "Could I have saved him?"
+ask: Am I going mad?
+key: Allow her to talk at her own pace; do not force a detailed debrief | Trauma-informed approach
+key: Symptoms: intrusions, avoidance, arousal, dissociation, and when they started | Acute stress reaction
+key: Sleep, eating, functioning | Impact
+key: Suicidal thoughts, alcohol or drugs to cope | Risk
+key: Support network | Protective factors
+key: Previous trauma or mental illness | Vulnerability
+rf: Suicidal thoughts or inability to function | Urgent mental health support
+sum: So yesterday you witnessed a fatal collision, and since then you've had flashbacks, shaking and very little sleep, but you have supportive family and no thoughts of harming yourself. Is that right?
+pres: Amy Clarke is a 30-year-old woman who witnessed a fatal road collision yesterday and attempted to help, now with intrusive images, hyperarousal, initial dissociation and insomnia, without suicidal thoughts, substance use or previous trauma, and with good support. This is an acute stress reaction, a normal response to an abnormal event.
+ddx: Acute stress reaction, because of symptoms starting within hours of a traumatic event | PTSD, which can only be diagnosed after at least a month | Depression or substance misuse, to monitor for
+ix: None; review in 2 to 4 weeks
+mx: Reassure these are normal reactions; practical support, rest, routine, talking with family when she wants; no single-session debriefing; avoid alcohol to cope; short-term sleep hygiene, avoid routine hypnotics; active monitoring with review within a month; trauma-focused CBT referral if symptoms persist beyond 4 weeks
+tell: You're not going mad. What you're feeling is a normal reaction to something truly shocking, and for most people it eases over the next few weeks. Lean on your family, keep a routine and try not to use alcohol to cope. I'd like to see you again in two to four weeks, and if things aren't easing, there's very effective trauma therapy.
+
+=== MH07 | Adjustment disorder after redundancy
+who: Steve Morris, 45, former factory supervisor
+act: Tearful, embarrassed; rub your hands; ashamed to be here.
+open: I lost my job three weeks ago and I've fallen apart.
+story: After 20 years, they made me redundant. I'm tearful, I can't sleep and I'm snapping at my wife. I've never been like this.
+hpc: Trigger: Redundancy 3 weeks ago after 20 years
+hpc: Mood: Tearful, low at times, still enjoys his grandchildren
+hpc: Sleep: Poor
+hpc: Function: Struggling to apply for jobs
+hpc: Previous: No previous mood episodes
+yes: Worry about money; irritability
+no: Persistent anhedonia; early morning waking; weight loss; suicidal thoughts; mania; alcohol increase; psychotic symptoms
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Married, two adult children; 10 units a week
+ice: Being weak | Not finding work, losing the house | Help to cope
+cue: "Men like me don't cry."
+ask: Am I depressed?
+key: What happened and when did symptoms start? | Within 1 month of a stressor
+key: Mood, enjoyment, sleep, appetite, concentration? | Depression screen
+key: Suicidal thoughts, alcohol? | Risk
+key: Mania? | Bipolar
+key: Coping, supports, finances | Practical support
+rf: Suicidal thoughts | Safety
+sum: So since being made redundant three weeks ago you've been tearful, not sleeping and irritable, but you still enjoy your grandchildren and have no thoughts of harming yourself. Is that right?
+pres: Steve Morris is a 45-year-old man with 3 weeks of tearfulness, low mood at times, poor sleep, irritability and difficulty functioning following redundancy, with preserved enjoyment, no biological features of depression, no suicidal thoughts and no previous mood disorder. This is an adjustment disorder.
+ddx: Adjustment disorder, because of emotional symptoms within a month of a clear stressor without meeting depression criteria | Depressive episode, if symptoms persist or deepen | Alcohol misuse, which needs monitoring
+ix: PHQ-9 as a baseline
+mx: Supportive approach; problem-solving; signpost to financial and employment advice and NHS Talking Therapies; encourage routine, exercise and social contact; review in 2 to 4 weeks; safety-net
+tell: Feeling like this after losing a job you've done for 20 years is a very human reaction, not weakness. It usually improves as things settle. Talking therapies, practical help with money and jobs, and keeping a routine all help. Let's meet again in a few weeks, and come back sooner if you feel worse.
+
+=== MH08 | Post-traumatic stress disorder after assault
+who: Grace Taylor, 27, pharmacy technician
+act: Hypervigilant, sit facing the door; flinch at noises; become distressed if pushed for details.
+open: I'm not sleeping. I keep having nightmares.
+story: Six months ago I was assaulted on my way home. I don't want to go into what happened. Since then I have nightmares, I avoid that street, I jump at every noise.
+hpc: Event: Assault 6 months ago
+hpc: Re-experiencing: Nightmares and flashbacks
+hpc: Avoidance: Avoids the route home, takes taxis
+hpc: Hyperarousal: Jumpy, hypervigilant, poor concentration
+hpc: Mood: Low, feels detached
+yes: Guilt; poor sleep
+no: Suicidal thoughts; self-harm; alcohol or drugs to cope; ongoing contact with the attacker
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Lives with a friend; works in a pharmacy
+ice: Weak for not getting over it | Not being believed | To sleep and feel safe
+cue: "I'm scared nobody will believe me."
+ask: Do I have to tell you what happened?
+key: Reassure: she doesn't need to describe the event in detail | Trauma-informed; avoid retraumatising
+key: Re-experiencing: flashbacks, nightmares? | PTSD
+key: Avoidance and numbing | PTSD
+key: Hyperarousal: startle, sleep, irritability, concentration | PTSD
+key: Current safety: is she safe now, any ongoing risk? | Safeguarding
+key: Mood, suicidal thoughts, alcohol and drugs | Comorbidity and risk
+rf: Ongoing risk from the perpetrator | Safety planning
+sum: So since an assault six months ago you've had nightmares and flashbacks, you avoid the route home, and you're jumpy and on edge, and you don't need to tell me details. Is that right?
+pres: Grace Taylor is a 27-year-old woman with 6 months of re-experiencing, avoidance, hyperarousal and negative mood following an assault, without suicidal thoughts or substance misuse, and currently safe. I did not ask for a detailed retelling. This is post-traumatic stress disorder.
+ddx: PTSD, because of re-experiencing, avoidance and hyperarousal over a month after trauma | Depression, which may coexist | Complex PTSD, if repeated trauma
+ix: PCL-5 or similar; PHQ-9
+mx: Refer for trauma-focused CBT or EMDR per NICE NG116; drug treatment such as sertraline only if she prefers or therapy declined; sleep advice; signpost to victim support services; safety plan
+tell: I believe you, and you don't have to tell me what happened. What you're experiencing is called PTSD, a common and understandable response to a frightening event. It's very treatable with specialist talking therapies, which work at your pace. I'll refer you, and you can contact victim support services too.
+
+=== MH09 | Social anxiety disorder
+who: Ryan Patel, 25, software developer
+act: Avoid eye contact, blush, speak quietly; relax when talking about close friends.
+open: I've been offered a promotion but I'd have to do presentations, and I just can't.
+story: Whenever I have to speak in meetings or present, I'm terrified I'll blush or shake and people will judge me. I've turned down promotions. With close friends I'm fine.
+hpc: Fear: Being judged, embarrassed, blushing
+hpc: Situations: Presentations, meetings, speaking to strangers
+hpc: Avoidance: Declined promotions, avoids meetings
+hpc: Physical: Blushing, sweating, shaking, racing heart
+hpc: Duration: Since teenage years
+yes: Anticipatory anxiety days before
+no: Panic attacks out of the blue; low mood; alcohol before events; fears in all situations; suicidal thoughts
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Lives with a flatmate; drinks 2 pints before social events
+ice: Just shy | Never progressing at work | Help to do presentations
+cue: "I have a couple of pints before any work do."
+ask: Is it just shyness?
+key: What situations, what does he fear will happen? | Fear of negative evaluation
+key: Physical symptoms and avoidance | Severity
+key: Impact on work, relationships, career | Impairment
+key: Alcohol or drugs to cope | Risk
+key: Low mood, panic attacks, other anxiety | Comorbidity
+rf: Escalating alcohol use | Substance misuse
+sum: So since your teens you've feared being judged when presenting or speaking up, you blush and shake, you've turned down promotions, and you're fine with close friends. Is that right?
+pres: Ryan Patel is a 25-year-old man with longstanding marked fear of negative evaluation in performance and social situations, with blushing, tremor and palpitations, avoidance including declining promotions, and use of alcohol before social events, while comfortable with close friends. This is social anxiety disorder.
+ddx: Social anxiety disorder, because of persistent fear of scrutiny with avoidance and impairment | Ordinary shyness, without impairment | Panic disorder or avoidant personality, distinguished by pattern
+ix: Liebowitz Social Anxiety Scale or SPIN
+mx: Individual CBT for social anxiety per NICE CG159; SSRI such as escitalopram or sertraline if he declines therapy or as an adjunct; do not routinely offer beta-blockers or benzodiazepines; address alcohol use
+tell: This is social anxiety, which is much more than shyness and very treatable. Specialised CBT helps you face these situations step by step, and many people go on to present confidently. Try not to rely on alcohol to cope, as it keeps the anxiety going.
+
+=== MH10 | Obsessive-compulsive disorder
+who: Laura Bennett, 29, accountant
+act: Embarrassed; rub your hands; glance at your bag as if checking it.
+open: I spend hours checking the locks. I know it's ridiculous but I can't stop.
+story: I get horrible thoughts that if I don't check, someone will break in and hurt my family. I check the door, windows and cooker over and over, about three hours a day.
+hpc: Obsessions: Intrusive thoughts that her family will be harmed
+hpc: Compulsions: Checking locks, windows and cooker repeatedly
+hpc: Time: About 3 hours a day
+hpc: Insight: Knows it's excessive, resists but anxiety builds
+hpc: Impact: Late for work, partner frustrated
+yes: Distress; counting rituals
+no: Voices; low mood as main feature; tics; eating problems; suicidal thoughts
+pmh: Nothing
+dh: None
+all: None
+fh: Aunt had OCD
+sh: Lives with partner; accountant
+ice: Going mad | Something bad happening if she stops | To stop the checking
+cue: "I'm scared I'm going mad."
+ask: Am I crazy?
+key: Obsessions: what are the thoughts, are they your own, do you try to resist them? | Ego-dystonic obsessions
+key: Compulsions: what do you do, how long, what happens if you stop? | Compulsions
+key: Insight | OCD versus psychosis
+key: Impact on time, work and relationships | Severity
+key: Low mood, suicidal thoughts | Comorbid depression
+key: Tics, eating disorder, hoarding | Related disorders
+rf: Severe depression or suicidal thoughts | Urgent assessment
+sum: So you get intrusive thoughts that your family will be harmed, and you check the locks and cooker for about three hours a day, knowing it's excessive but unable to stop. Is that right?
+pres: Laura Bennett is a 29-year-old woman with intrusive ego-dystonic thoughts of harm coming to her family and checking compulsions taking around 3 hours daily, with good insight, causing marked distress and functional impairment. This is obsessive-compulsive disorder.
+ddx: Obsessive-compulsive disorder, because of recognised intrusive thoughts and time-consuming compulsions | Generalised anxiety disorder, without compulsions | Psychotic disorder, excluded by preserved insight and thoughts recognised as her own
+ix: Yale-Brown Obsessive Compulsive Scale
+mx: Per NICE CG31: CBT including exposure and response prevention; SSRI such as sertraline or fluoxetine if moderate to severe or preferred, often at higher doses; involve partner in understanding; review
+tell: You're not going mad; this is OCD, a common condition where unwanted thoughts cause anxiety and checking brings short-term relief. A therapy called exposure and response prevention is very effective, and medicine can help too. I'll refer you, and you can self-refer to NHS Talking Therapies.
+
+=== MH11 | Persistent physical symptoms with reassuring tests
+who: Debbie Hughes, 43, school receptionist
+act: Frustrated, holding a folder of results; tearful when dismissed.
+open: I've had this tummy pain for two years and nobody can tell me what it is.
+story: I've had scans, a camera test, blood tests, all normal. But the pain is real. Everyone thinks I'm making it up.
+hpc: Pain: Recurrent abdominal pain, 2 years
+hpc: Investigations: Normal bloods, ultrasound, CT, OGD and colonoscopy
+hpc: Other symptoms: Fatigue, headaches, back pain
+hpc: Stressors: Mother's illness, marriage strain
+hpc: Impact: Off work frequently
+yes: Low mood; poor sleep; worry about cancer
+no: Weight loss; rectal bleeding; vomiting; night pain waking her; fever; new change
+pmh: IBS diagnosed by gastroenterology
+dh: Mebeverine, codeine occasionally
+all: None
+fh: Father had bowel cancer at 72
+sh: Married; school receptionist; caring for her mother
+ice: Something has been missed | Cancer like her father | Another scan
+cue: "I'm not making this up."
+ask: Can I have another scan?
+key: Explore the symptoms and their impact fully | Validation
+key: Ideas, concerns, expectations about what is wrong | Cancer worry
+key: Red flags: weight loss, bleeding, night pain, change in pattern? | Ensure nothing new
+key: Mood, anxiety, sleep, stressors | Contributing factors
+key: Explain normal results and that symptoms are real | Shared understanding
+rf: New red flags | Re-investigate
+sum: So for two years you've had tummy pain with lots of normal tests, it's affecting work, you're under a lot of stress, and you're worried something like cancer has been missed. Is that right?
+pres: Debbie Hughes is a 43-year-old woman with 2 years of recurrent abdominal pain and other physical symptoms with extensive normal investigations and a gastroenterology diagnosis of IBS, significant stressors, low mood and a fear of cancer after her father's diagnosis, without new red flags. This is persistent physical symptoms, likely IBS with associated distress.
+ddx: Irritable bowel syndrome with persistent physical symptoms and health anxiety | Depression or anxiety, which needs screening | New organic pathology, which needs re-evaluation only if red flags appear
+ix: No repeat imaging without new features; PHQ-9 and GAD-7
+mx: Validate symptoms; explain the gut-brain link; one named clinician with regular planned reviews rather than repeated tests; IBS management: diet, fibre, antispasmodic, low-dose tricyclic; reduce codeine; CBT or gut-directed hypnotherapy; carers' support
+tell: I believe the pain is real. Your tests show no damage or cancer, and the pain comes from a very sensitive gut that's affected by stress, like turning up the volume. Another scan won't help, but regular appointments with me, treatment for your gut, and support with stress will.
+
+=== MH13 | Emotional dysregulation after a relationship breakdown
+who: Chloe Martin, 26, retail assistant
+act: Intense, tearful one moment and angry the next; arms with old healed scars.
+open: I need something to stop me feeling everything. A tablet that just turns it all off.
+story: My boyfriend left me two days ago. I feel like I'm going to explode. I'm terrified of being alone. I've cut in the past when I feel like this.
+hpc: Trigger: Relationship ended 2 days ago
+hpc: Emotions: Intense, rapidly changing; emptiness
+hpc: Abandonment: Terrified of being alone
+hpc: Self-harm: Previously cut; urge now, not acted
+hpc: Suicidal thoughts: ONLY IF ASKED: fleeting thoughts, no plan
+yes: Impulsive spending; unstable relationships
+no: Voices; elated mood; drug use; overdose
+pmh: Emotionally unstable personality disorder diagnosis aged 20
+dh: None
+all: None
+fh: Nothing relevant
+sh: Lives alone; sister supportive; 15 units a week
+ice: She can't cope | Being alone forever | A tablet to stop all emotions
+cue: "Everyone always leaves me."
+ask: Can you give me something to stop all the feelings?
+key: Validate her distress without stereotyping | Engagement
+key: Current risk: urges to self-harm, suicidal thoughts, plans, means? | Safety
+key: Previous self-harm and what helped | Coping
+key: Supports: sister, crisis contacts | Protective factors
+key: Alcohol and drugs | Risk
+key: Previous help: DBT or community services? | Treatment
+rf: Escalating intent or plan | Crisis team
+sum: So since your boyfriend left two days ago, your feelings have been overwhelming, you're scared of being alone, you have urges to cut and fleeting thoughts of dying but no plan. Is that right?
+pres: Chloe Martin is a 26-year-old woman with a diagnosis of emotionally unstable personality disorder presenting after a relationship breakdown with intense emotional distress, fear of abandonment, urges to self-harm and fleeting suicidal thoughts without plan. She has a supportive sister. She asks for medication to stop all emotions.
+ddx: Emotional crisis in emotionally unstable personality disorder | Depressive episode, which may coexist | Substance misuse contributing, assessed by history
+ix: None routinely
+mx: Collaborative safety plan with coping strategies, distraction, and crisis contacts; explain medication isn't recommended for EUPD itself per NICE CG78, avoid sedative prescribing in crisis; refer or re-refer to the community mental health team for DBT or mentalisation-based therapy; involve sister with consent; review soon
+tell: I can hear how unbearable this feels. There isn't a tablet that switches off all feelings, and sedatives can make things riskier. What helps most is a plan for the next few days, people you can call, and a therapy called DBT that teaches ways to manage intense emotions. Let's write that plan together now.
+
+=== MH14 | Alcohol dependence wishing to stop abruptly
+who: Gary Thomson, 51, self-employed painter
+act: Hands tremble; sweaty; defensive then honest.
+open: I want to stop drinking completely this weekend, before my daughter's wedding.
+story: I drink a bottle of vodka a day. In the mornings I shake until I have a drink. I want to stop dead on Friday so I'm sober for the wedding.
+hpc: Amount: 1 litre bottle of vodka a day, about 37 units
+hpc: Withdrawal: Morning tremor, sweating relieved by drinking
+hpc: Previous: Had a fit 2 years ago when he tried to stop
+hpc: Duration: Heavy drinking 10 years
+hpc: Cravings: Strong
+yes: Morning drinking; failed attempts to cut down; neglecting work
+no: Hallucinations; confusion; jaundice; vomiting blood; suicidal thoughts
+pmh: Withdrawal seizure 2 years ago
+dh: None
+all: None
+fh: Father was alcohol dependent
+sh: Lives alone; divorced; daughter's wedding on Saturday; drives for work
+ice: Willpower is enough | Embarrassing his daughter | To stop cold turkey
+cue: "I want her to be proud of me."
+ask: Can I just stop on Friday?
+key: Quantify drinking: what, how much, how often, units | Dependence
+key: Withdrawal: tremor, sweating, morning drinking, previous fits or DTs? | Withdrawal risk
+key: Previous attempts and complications | Planning
+key: Physical health: liver, memory, nutrition | Complications
+key: Mood, suicidal thoughts, other substances | Comorbidity
+key: Driving | DVLA and safety
+rf: Previous withdrawal seizure or DTs | Do not stop abruptly at home: medically assisted withdrawal
+sum: So you drink a litre of vodka a day, shake in the mornings until you drink, had a fit last time you stopped, and you want to stop suddenly on Friday. Is that right?
+pres: Gary Thomson is a 51-year-old man with alcohol dependence, drinking about 37 units daily for 10 years with morning withdrawal tremor relieved by alcohol and a previous withdrawal seizure. He wants to stop abruptly before his daughter's wedding. Unassisted abrupt cessation carries a high risk of seizures and delirium tremens.
+ddx: Moderate to severe alcohol dependence with withdrawal | Alcohol-related liver disease, to assess with LFTs | Comorbid depression, to screen
+ix: AUDIT; SADQ; FBC, LFTs, GGT, U&Es, clotting, B12 and folate; consider FibroScan
+mx: Advise against abrupt stopping; with a previous seizure, offer admission or specialist-supervised assisted withdrawal per NICE CG115, not unsupervised at home; chlordiazepoxide reducing regimen; thiamine; referral to alcohol services; relapse prevention such as acamprosate later; inform the DVLA as relevant
+tell: I really respect you wanting to stop for your daughter. But stopping suddenly with your level of drinking, especially after a fit last time, could cause another fit or dangerous withdrawal. Let's get you a supported detox with medication, which is much safer, and the alcohol team can help plan it around the wedding.
+
+=== MH15 | Opioid dependence with recent overdoses
+who: Kelly Ward, 34, unemployed, mother of two
+act: Wary, defensive about the children; sleeves pulled down.
+open: I want to get off heroin, but I'm scared you'll take my kids.
+story: I've used heroin daily for three years. I've overdosed twice in the last two months. My kids live with my mum at the moment.
+hpc: Use: Heroin daily, injecting, 3 years
+hpc: Overdoses: Two in the last 2 months, one needed naloxone from paramedics
+hpc: Injecting: Shares equipment sometimes
+hpc: Withdrawal: Aches, sweats, diarrhoea if she misses
+hpc: Children: Aged 6 and 9, living with her mum
+yes: Benzodiazepine use sometimes; low mood
+no: Current suicidal intent; psychosis; known HIV or hepatitis
+pmh: Two overdoses
+dh: None prescribed; buys diazepam
+all: None
+fh: Nothing relevant
+sh: Lives alone; mum caring for the children; no work
+ice: She's a failure | Losing her children | Help to stop
+cue: "My kids are the only reason I'm still going."
+ask: Will social services take my kids?
+key: Non-judgemental approach; explain confidentiality and its limits around child safety | Engagement
+key: Use: what, how much, how often, route, sharing equipment? | Harm
+key: Overdoses: when, how, intentional or accidental? | Risk
+key: Other substances: benzodiazepines, alcohol | Overdose risk
+key: Mood and suicidal thoughts | Risk
+key: Children: who cares for them, are they safe? | Safeguarding
+rf: Mixing opioids with benzodiazepines or alcohol | Overdose risk
+rf: Children at risk | Safeguarding referral
+sum: So you've used heroin daily for three years, you've overdosed twice recently, sometimes take diazepam, and your children are with your mum, and you want help but you're scared about the children. Is that right?
+pres: Kelly Ward is a 34-year-old woman with 3 years of daily injected heroin use, intermittent equipment sharing and illicit benzodiazepines, with two recent overdoses, one requiring naloxone. Her children live with her mother. She is motivated to stop but fears child protection involvement.
+ddx: Opioid dependence with high overdose risk | Comorbid depression | Blood-borne virus infection, to test for
+ix: Urine drug screen; HIV, hepatitis B and C testing; hepatitis B vaccination; LFTs
+mx: Referral to drug and alcohol services for opioid substitution therapy with methadone or buprenorphine; take-home naloxone and training; needle exchange; overdose awareness, avoid mixing with benzodiazepines; mental health support; supportive conversation about the children: seeking help is a protective step; safeguarding only as required
+tell: Asking for help is the best thing you can do for yourself and your children. Treatment with a substitute like methadone or buprenorphine greatly reduces the risk of overdose. I'll give you naloxone today in case of overdose. Seeking help shows you're protecting your kids, and we'll work with you, not against you.
+
+=== MH16 | Adult ADHD assessment discussion
+who: Josh Turner, 24, final-year engineering student
+act: Fidget, tap your foot, interrupt with tangents; self-deprecating humour.
+open: I think I've got ADHD. Can you just diagnose me today?
+story: I've always been disorganised, I lose things, I miss deadlines, I can't sit through lectures. My school reports said the same. I've watched videos online about ADHD and it's me.
+hpc: Inattention: Disorganised, loses things, misses deadlines
+hpc: Hyperactivity: Restless, fidgets, interrupts
+hpc: Onset: Since childhood, school reports say similar
+hpc: Settings: University, part-time job, home
+hpc: Impact: Failing modules, lost a job
+yes: Impulsive spending; poor sleep
+no: Low mood; anxiety as main issue; drug use; head injury; suicidal thoughts
+pmh: Nothing
+dh: None
+all: None
+fh: Brother diagnosed with ADHD as a child
+sh: Lives with flatmates; 4 energy drinks a day; occasional cannabis
+ice: It's definitely ADHD | Failing his degree | A diagnosis and medicine today
+cue: "My brother's on medication and it changed his life."
+ask: Does this prove I have ADHD?
+key: Symptoms: inattention, hyperactivity, impulsivity | Core features
+key: Onset in childhood: school reports, parents' view? | Developmental onset before 12
+key: Multiple settings and impact | Pervasive impairment
+key: Mood, anxiety, sleep, substances including caffeine and cannabis | Differentials and comorbidity
+key: Family history | Heritability
+key: Explain the process: specialist assessment, rating scales, collateral | Expectations
+rf: Substance misuse | Affects assessment and prescribing
+sum: So since childhood you've been disorganised, restless and impulsive, it's affecting university and work, your school reports said similar, and your brother has ADHD. Is that right?
+pres: Josh Turner is a 24-year-old student with lifelong inattention, hyperactivity and impulsivity documented since childhood, causing impairment across university, work and home, with a brother with ADHD, high caffeine intake and occasional cannabis use. This warrants specialist adult ADHD assessment; the history alone cannot prove the diagnosis.
+ddx: Adult ADHD, because of childhood-onset symptoms with impairment in multiple settings | Anxiety, depression or sleep disorder, which can mimic or coexist | Substance effects from caffeine or cannabis, which need addressing
+ix: ASRS screening tool; collateral history and school reports
+mx: Refer to adult ADHD services for specialist diagnostic assessment per NICE NG87; diagnosis can't be made today; meanwhile university disability services, study skills support; reduce energy drinks and cannabis; if diagnosed, options include medication with baseline BP, pulse, weight, and ECG if indicated
+tell: Your story does sound like it could be ADHD, especially with it starting in childhood and your brother's diagnosis, but I can't diagnose it today; it needs a specialist assessment with more information, like school reports. I'll refer you, and in the meantime your university can offer support. Cutting down on energy drinks may help your sleep and focus.
+
+=== MH17 | Autism assessment in a 9-year-old
+who: Sarah Collins, mother of Ethan, 9
+act: Thoughtful, has a list of examples on her phone; Ethan sits drawing trains and doesn't look up.
+open: I've wondered for years whether Ethan might be autistic. His teacher has raised it too.
+story: He's always found friendships hard. He gets very upset if routines change. He knows everything about trains. He doesn't like noisy places or unexpected questions.
+hpc: Social: Finds friendships difficult, prefers to play alone
+hpc: Communication: Takes things literally, limited eye contact
+hpc: Routine: Very distressed by changes
+hpc: Interests: Intense interest in trains
+hpc: Sensory: Dislikes loud noise, labels in clothes
+yes: Meltdowns after school; picky eating
+no: Developmental regression; seizures; hearing problems; speech delay as a toddler
+pmh: Born at term; normal milestones
+dh: None
+all: None
+fh: Uncle "very particular"
+sh: Mainstream primary school; lives with parents and younger sister
+ice: He's autistic | Him being labelled or bullied | An assessment and support at school
+cue: "I don't want him to feel there's something wrong with him."
+ask: Will a diagnosis change anything?
+key: Social interaction and communication since early childhood | Core domain
+key: Restricted interests, routines, sensory differences | Core domain
+key: Development: milestones, regression? | Regression is a red flag
+key: Hearing and vision checked? | Exclude sensory causes
+key: School: behaviour, learning, bullying | Impact and support
+key: Adapt questions for Ethan: give warning, be literal | Respecting his needs
+rf: Developmental regression | Urgent paediatric assessment
+sum: So Ethan has always found social situations hard, gets very upset by changes in routine, has an intense interest in trains and dislikes noise, and his teacher has noticed too. Is that right?
+pres: This is a history from Sarah about her son Ethan, 9, with longstanding difficulties in social communication and interaction, insistence on routine, an intense restricted interest and sensory sensitivities, noticed at home and school, with normal early milestones and no regression. This warrants referral to the autism assessment pathway.
+ddx: Autism spectrum condition, because of longstanding social communication differences with restricted interests and sensory differences | ADHD or anxiety, which may coexist | Hearing impairment or language disorder, excluded with audiology and speech assessment
+ix: Hearing test; information from school
+mx: Referral to the local autism diagnostic team per NICE CG128; school support via SENCo, not waiting for diagnosis; parent support and resources; involve Ethan in decisions in a way that suits him
+tell: The things you describe could fit autism, and an assessment would help understand how Ethan experiences the world. A diagnosis doesn't change who he is, but it can help school support him in the right way. I'll refer him, and you can speak to the school's special needs coordinator now.
+
+=== MH20 | Postpartum psychosis
+who: Mark Lewis, partner of Jenny Lewis, 30
+act: Frightened, holding the car seat; Jenny looks distracted, whispering to herself.
+open: Jenny's not herself. She thinks someone is coming to hurt the baby.
+story: Our baby is ten days old. Jenny's barely slept for days. She says she hears a voice telling her the baby isn't safe, and she thinks the TV is sending her messages.
+hpc: Postpartum: Day 10 after birth
+hpc: Sleep: Barely slept for 4 days
+hpc: Hallucinations: Voice saying the baby is unsafe
+hpc: Delusions: TV sending her messages
+hpc: Behaviour: Agitated, confused at times
+hpc: Baby: Feeding, but she won't let anyone else hold her
+yes: Mood swings; confusion
+no: Fever; headache; seizures; drug or alcohol use; known infection
+pmh: Bipolar disorder diagnosed at 22, stopped lithium in pregnancy
+dh: None currently
+all: None
+fh: Mother had a breakdown after giving birth
+sh: Lives with Mark; first baby
+ice: She's exhausted | Jenny or the baby being harmed | Help now
+cue: "She said she might have to protect the baby herself."
+ask: Is she going to be okay?
+key: Onset after birth, symptoms, speed of change? | Postpartum psychosis
+key: Hallucinations, delusions, confusion? | Psychotic features
+key: Thoughts of harming herself or the baby? | Risk to mother and infant
+key: History of bipolar disorder, family history? | Highest risk factors
+key: Physical causes: infection, thyroid, sleep, medicines | Organic causes
+key: Who is caring for the baby now? | Immediate safety
+rf: Postpartum psychosis | Psychiatric emergency: same-day assessment, mother and baby unit
+sum: So since your baby was born ten days ago, Jenny's barely slept, hears a voice saying the baby is unsafe and believes the TV sends her messages, and she has bipolar disorder. Is that right?
+pres: This is a collateral history from Mark about his partner Jenny, 30, 10 days postpartum, with acute onset of insomnia, auditory hallucinations that the baby is unsafe, delusions of reference, agitation and confusion. She has bipolar disorder, stopped lithium in pregnancy and her mother had a postpartum illness. This is postpartum psychosis, a psychiatric emergency with risk to mother and baby.
+ddx: Postpartum psychosis, because of acute psychosis days after delivery with bipolar disorder | Delirium from infection, eclampsia or thyroid disease, excluded with examination and bloods | Severe postnatal depression with psychotic features, distinguished by mood
+ix: Observations; FBC, CRP, U&Es, LFTs, TFTs, calcium, glucose; urine dip; examination for postpartum infection
+mx: Same-day emergency psychiatric assessment; admission to a mother and baby unit; ensure baby is never alone with her until assessed; antipsychotic and mood stabiliser; Mental Health Act if needed; health visitor and perinatal team; safeguarding the baby
+tell: Mark, this is an illness called postpartum psychosis. It's serious, but very treatable, and most women recover fully. Jenny needs the mental health team today, ideally in a specialist mother and baby unit where she and the baby stay together. Until she's seen, please make sure someone else is with the baby at all times.
+
+=== MH21 | Hyperactive delirium in hospital
+who: Paula Grant, daughter of Albert, 84
+act: Distressed; Albert is picking at the sheets, looking at the corner.
+open: Dad was fine yesterday. Today he doesn't know where he is and he's seeing people.
+story: He came in with a chest infection. Yesterday he was chatting normally. Overnight he became confused, he keeps trying to get out of bed, and he says there are children in the room.
+hpc: Onset: Overnight, acute
+hpc: Attention: Fluctuating, can't follow conversation
+hpc: Hallucinations: Visual, children in the room
+hpc: Baseline: Normally orientated, independent, does crosswords
+hpc: Admission: Pneumonia, started antibiotics
+yes: Constipated; poor sleep; catheter inserted
+no: Head injury; falls on the ward; new sedatives; alcohol
+pmh: Hypertension; benign prostatic hyperplasia
+dh: Amlodipine; tamsulosin; co-amoxiclav; codeine started yesterday
+all: None
+fh: Nothing relevant
+sh: Lives with wife; independent; doesn't drink
+ice: He's got dementia | He won't come back to normal | To have her dad back
+cue: "Is this dementia now?"
+ask: Will he go back to normal?
+key: Baseline cognition and function from the family | Acute versus chronic
+key: Onset, fluctuation, inattention? | Delirium
+key: Hallucinations, agitation or drowsiness? | Hyperactive or hypoactive
+key: Precipitants: infection, pain, constipation, retention, new drugs, alcohol, hypoxia | PINCH ME
+key: Falls, head injury | Subdural
+rf: Sedation as first resort | Treat cause first; low-dose haloperidol only if distress or danger
+sum: So your dad was normally sharp yesterday, but overnight he became confused, inattentive and is seeing children that aren't there, after starting treatment for a chest infection and codeine. Is that right?
+pres: This is a collateral history from Paula about her father Albert, 84, admitted with pneumonia, with acute onset overnight of fluctuating confusion, inattention, visual hallucinations and agitation, from a baseline of normal cognition and independence. Precipitants include infection, a new opioid, constipation and a new catheter. This is hyperactive delirium.
+ddx: Hyperactive delirium from pneumonia, codeine and constipation | Dementia, excluded by acute onset from a normal baseline | Subdural haematoma, hypoxia or urinary retention, assessed by examination, SpO2 and bladder scan
+ix: 4AT; observations including SpO2; FBC, CRP, U&Es, calcium, glucose, LFTs, TFTs; urine dip; bladder scan; review drug chart; consider CT head if falls or focal signs
+mx: Treat infection; stop codeine; treat constipation; check catheter and hydration; orientation, glasses and hearing aids, family presence, sleep, lighting; avoid moving bays; avoid restraint; haloperidol at low dose only if distressed or dangerous to self or others, and not in Parkinson's disease
+tell: Your dad has delirium, a sudden confusion caused by his infection and medicines. It's not dementia, and most people improve as the cause is treated, though it can take days or weeks. Having familiar faces, his glasses and hearing aids really helps. We've stopped the codeine and we're treating the infection.
+
+=== MH22 | Biopsychosocial formulation of recurrent depression
+who: Emma Fox, 33, administrative assistant
+act: Thoughtful, quiet; warm when talking about your sister.
+open: It's happening again. The depression. I recognise the signs.
+story: This is my third episode. My relationship ended two months ago. I've stopped seeing friends. I'm not sleeping. My sister checks on me every day. CBT helped me last time.
+hpc: Current: Low mood, anhedonia, poor sleep, 6 weeks
+hpc: History: Third episode; previous episodes at 19 and 27
+hpc: Trigger: Relationship ended 2 months ago
+hpc: Childhood: Parents' divorce, emotionally neglectful father
+hpc: Supports: Sister daily; previous CBT helpful
+hpc: Suicidal thoughts: ONLY IF ASKED: none
+yes: Isolation; poor sleep
+no: Suicidal thoughts; mania; psychosis; alcohol increase
+pmh: Recurrent depression
+dh: Previously sertraline, stopped 2 years ago
+all: None
+fh: Mother has depression
+sh: Lives alone since the breakup; sister nearby
+ice: Depression is back | Being stuck again | A plan that worked before
+cue: "I don't want to lose another year to this."
+ask: Why does this keep happening to me?
+key: Biological: family history, previous episodes, sleep | Predisposing and perpetuating
+key: Psychological: childhood adversity, core beliefs, coping | Predisposing
+key: Social: relationship loss, isolation, work | Precipitating and perpetuating
+key: Protective: sister, previous therapy response, insight | Protective factors
+key: Risk: suicidal thoughts, self-neglect | Safety
+key: Link the formulation to action: each factor guides an intervention | Formulation into plan
+rf: Any emerging suicidal thoughts | Safety plan
+sum: So this is your third depressive episode, triggered by your relationship ending, with low mood, poor sleep and isolation, but your sister supports you daily and CBT helped before. Is that right?
+pres: Emma Fox is a 33-year-old woman with a third depressive episode. Predisposing factors are a family history of depression and childhood adversity; the precipitant is a relationship breakdown; perpetuating factors are isolation and poor sleep; protective factors are her sister's daily support, insight and good past response to CBT. This formulation guides a plan combining therapy, medication and social reconnection.
+ddx: Recurrent depressive disorder, current moderate episode | Adjustment reaction, less likely given recurrence and severity | Bipolar disorder, excluded by no history of mania
+ix: PHQ-9; TFTs, FBC
+mx: Biological: restart an SSRI, given recurrent episodes, and continue for at least 2 years to prevent relapse; sleep hygiene; psychological: CBT or mindfulness-based cognitive therapy for relapse prevention; social: re-engage friends, activity scheduling, sister's support; safety plan; review in 2 weeks
+tell: Depression can come back for people who've had it before, especially with a family history, a difficult childhood and a big loss like this. The good news is we know what helps you: therapy worked before, and a medicine can help now. Staying connected with your sister and friends is part of the treatment too.
+
+=== MH23 | Mental state examination in mania
+who: Liam Carter, 35, unemployed graphic designer
+act: Restless, pacing, overfamiliar; talk quickly, jump topics; laugh loudly; claim special powers.
+open: Doc! Great to meet you, we're going to change the world together.
+story: I've got powers now, I can see the future in colours. I don't need sleep. I'm going to design a new national flag.
+hpc: Appearance: Bright mismatched clothes, unshaven, restless
+hpc: Speech: Pressured, loud, hard to interrupt
+hpc: Thought form: Flight of ideas, clang associations
+hpc: Thought content: Grandiose delusions of special powers
+hpc: Perception: Denies voices
+hpc: Cognition: Orientated, distractible
+yes: Elated mood; irritable when interrupted
+no: Suicidal thoughts; plans to harm others; voices
+pmh: Bipolar disorder
+dh: Stopped lithium 2 months ago
+all: None
+fh: Nothing relevant
+sh: Lives alone; drinking more
+ice: He's brilliant | Being stopped | Nothing
+cue: "Do you see the colours too?"
+ask: Can you see my powers?
+key: Appearance and behaviour: dress, hygiene, psychomotor activity, rapport | MSE
+key: Speech: rate, volume, quantity | MSE
+key: Mood subjectively and affect objectively | MSE
+key: Thought form and content: flight of ideas, delusions | MSE
+key: Perception: hallucinations | MSE
+key: Cognition, insight and judgement | MSE
+key: Risk: self, others, vulnerability | Safety
+rf: Disinhibited, vulnerable or dangerous behaviour | Urgent psychiatric assessment
+sum: So you feel full of energy, you don't need sleep, you believe you have special powers, and you've stopped your lithium. Is that right?
+pres: On mental state examination, Liam Carter is a 35-year-old man appearing restless and overfamiliar, in bright mismatched clothing, unshaven. Speech is pressured and loud. Mood is subjectively great and objectively elated with irritability. There is flight of ideas with clang associations and grandiose delusions of special powers. He denies hallucinations. He is orientated but distractible. Insight is absent. In the context of stopping lithium, this is consistent with a manic episode with psychotic features.
+ddx: Manic episode with psychotic features in bipolar disorder after stopping lithium | Schizoaffective disorder, distinguished by course | Substance-induced or organic mania, excluded with drug screen and bloods
+ix: Lithium level; FBC, U&Es, TFTs, calcium; urine drug screen
+mx: Urgent psychiatric assessment; home treatment or admission; antipsychotic; restart mood stabiliser under specialist guidance; Mental Health Act if refusing and at risk; DVLA advice
+tell: I think you're going through a manic episode, partly because the lithium stopped. You may feel amazing, but this can lead to things you regret. I'd like the mental health team to see you today and help you get back on an even keel.
+
+=== MH26 | Agitated patient with possible alcohol withdrawal
+who: Rob Phillips, 40, scaffolder
+act: Shouting, pacing, sweating, hands shaking; calmer when spoken to slowly and respectfully.
+open: I've been waiting six hours! I'm out of here!
+story: I came in with a cut hand. I haven't had a drink since last night. I feel like my skin's crawling and I can't sit still.
+hpc: Waiting: 6 hours in the department
+hpc: Last drink: About 14 hours ago
+hpc: Usual intake: About 20 units a day
+hpc: Symptoms: Tremor, sweating, anxiety, nausea
+hpc: Observations: HR 112, BP 156/94, temp 37.6, glucose 4.2
+yes: Previous withdrawal symptoms
+no: Head injury; seizures today; hallucinations; chest pain; drug use
+pmh: Alcohol dependence
+dh: None
+all: None
+fh: Nothing relevant
+sh: Scaffolder; lives alone
+ice: Just fed up of waiting | Being treated like a drunk | To get his hand stitched and go
+cue: "Everyone looks at me like I'm scum."
+ask: Are you going to drug me?
+key: De-escalate: calm voice, safe space, acknowledge the wait | Least restrictive first
+key: Physical causes of agitation: withdrawal, hypoglycaemia, hypoxia, head injury, sepsis | Don't assume behaviour
+key: Last drink, usual intake, previous withdrawal or seizures? | Withdrawal risk
+key: CIWA-Ar score | Severity
+key: Capacity if he wants to leave | Safety
+rf: Sedation request without assessment | Treat cause, not reflex sedation
+rf: Hypoglycaemia or head injury | Treat immediately
+sum: So you've waited six hours, your last drink was about 14 hours ago, you usually drink about 20 units a day, and you're shaky, sweaty and restless. Is that right?
+pres: Rob Phillips is a 40-year-old man with alcohol dependence who became agitated after a 6-hour wait, with tremor, sweating, anxiety, tachycardia of 112 and hypertension, 14 hours after his last drink, with a normal glucose and no head injury. This is alcohol withdrawal contributing to agitation, which should be treated rather than reflexly sedated.
+ddx: Alcohol withdrawal, because of autonomic symptoms 14 hours after stopping | Hypoglycaemia, sepsis or head injury, excluded with glucose, observations and examination | Situational frustration, which coexists
+ix: Glucose; observations; CIWA-Ar; U&Es, magnesium, LFTs; examine for head injury
+mx: Verbal de-escalation and a quieter space; treat withdrawal with oral chlordiazepoxide per symptom-triggered protocol; parenteral thiamine as Pabrinex; fluids, electrolytes; treat the hand; rapid tranquillisation only if de-escalation fails and he is a danger, per NICE NG10; alcohol liaison
+tell: I'm sorry you've waited so long. I think your body is going into alcohol withdrawal, which is why you feel so shaky and on edge. I'd like to give you some tablets to settle that and vitamins to protect your brain, then we'll sort your hand. You're not in trouble; we want to keep you safe.
+
+=== MH27 | Delirium tremens with possible Wernicke's encephalopathy
+who: Nurse Ali, on behalf of Ray Collins, 58
+act: Ray is agitated, picking at things, staring at the wall in fear, unsteady.
+open: Mr Collins is really agitated. He's seeing spiders on the wall, and his pulse is racing.
+story: He was admitted two days ago with a fall. His last drink was 48 hours ago. Tonight he's sweaty, shaking, confused and seeing things. He's unsteady walking.
+hpc: Last drink: 48 hours ago
+hpc: Usual intake: Bottle of whisky daily
+hpc: Hallucinations: Visual, spiders
+hpc: Confusion: Disorientated, fluctuating
+hpc: Observations: HR 128, temp 38.2, BP 168/96
+hpc: Gait: Unsteady; nystagmus noticed
+yes: Tremor; sweating; previous withdrawal
+no: Head injury on CT; seizures today
+pmh: Alcohol dependence; previous withdrawal seizure
+dh: None
+all: None
+fh: Not relevant
+sh: Lives alone
+ice: Ray: terrified of the spiders | Nurse: harm to Ray | Nurse: help now
+cue: Ray: "Get them off me!"
+ask: Nurse: should we just give him something to calm him?
+key: Recognise delirium tremens: 48 to 72 hours after the last drink, confusion, hallucinations, autonomic instability | Medical emergency
+key: Look for Wernicke's: confusion, ataxia, ophthalmoplegia or nystagmus | Neurological emergency
+key: Exclude other causes: hypoglycaemia, sepsis, head injury, hepatic encephalopathy | Differentials
+key: Benzodiazepines in adequate doses: oral chlordiazepoxide or IV lorazepam if unable to take | Treatment
+key: High-dose IV thiamine before glucose | Prevent Korsakoff's
+rf: DTs with fever and tachycardia | Senior review, possible HDU
+sum: Mr Collins is 48 hours from his last drink, now confused, hallucinating spiders, febrile and tachycardic, with unsteady gait and nystagmus.
+pres: Ray Collins is a 58-year-old man with alcohol dependence, 48 hours after his last drink, with acute confusion, visual hallucinations, tremor, fever of 38.2, tachycardia of 128 and hypertension, consistent with delirium tremens, plus ataxia and nystagmus suggesting Wernicke's encephalopathy. Both are medical emergencies.
+ddx: Delirium tremens with Wernicke's encephalopathy | Sepsis or hepatic encephalopathy, excluded with bloods, cultures and examination | Subdural haematoma, considered after a fall, excluded on CT
+ix: Glucose; FBC, CRP, U&Es, magnesium, phosphate, LFTs, clotting, ammonia; blood cultures; repeat CT head if new signs
+mx: Senior review; benzodiazepines per protocol, oral chlordiazepoxide or IV lorazepam if not tolerating oral; IV Pabrinex high-dose thiamine 2 pairs 3 times daily for Wernicke's, given before glucose; fluids, correct magnesium and phosphate; quiet well-lit environment; consider HDU
+tell: Mr Collins, you're safe. Your body is reacting to stopping alcohol, and that's why you're seeing things. We're giving you medicine to settle you and vitamins through the drip to protect your brain. The nurses will stay close by.
+
+=== MH28 | Neuroleptic malignant syndrome
+who: Tom Ellis, brother of Joe Ellis, 36
+act: Worried; Joe is rigid, sweaty, confused, mumbling.
+open: Joe started a new medicine for his mental health two weeks ago, and now he's rigid and boiling hot.
+story: Two weeks ago he started haloperidol. Over two days he's become stiff, confused, sweaty and his temperature is very high.
+hpc: Drug: Haloperidol started 2 weeks ago, dose increased 4 days ago
+hpc: Rigidity: Generalised lead-pipe rigidity
+hpc: Fever: 39.5
+hpc: Mental state: Confused
+hpc: Autonomic: HR 124, labile BP, sweating
+hpc: CK: 4800
+yes: Reduced urine; dark urine
+no: Recent antidepressant change; clonus; diarrhoea; infection symptoms; illicit drugs
+pmh: Schizophrenia
+dh: Haloperidol
+all: None
+fh: Nothing relevant
+sh: Lives with brother
+ice: Infection | Joe dying | Help
+cue: "He was doing so well."
+ask: Is it the medicine?
+key: New antipsychotic or dose increase? | NMS trigger
+key: Rigidity, fever, confusion, autonomic instability? | NMS features
+key: Clonus, hyperreflexia, recent serotonergic drugs? | Serotonin syndrome
+key: Infection symptoms | Sepsis
+key: Urine output and colour | Rhabdomyolysis and AKI
+rf: Fever, rigidity and raised CK on an antipsychotic | Stop the drug; HDU or ICU
+sum: So two weeks after starting haloperidol, with a recent dose increase, Joe has become rigid, confused, very hot and sweaty, with a CK of 4800. Is that right?
+pres: This is a collateral history from Tom about his brother Joe, 36, with schizophrenia, 2 weeks after starting haloperidol with a recent dose increase, now with lead-pipe rigidity, hyperthermia of 39.5, confusion, autonomic instability and CK of 4800, without serotonergic drugs or clonus. This is neuroleptic malignant syndrome.
+ddx: Neuroleptic malignant syndrome, because of rigidity, fever, altered mental state and raised CK after an antipsychotic | Serotonin syndrome, excluded by no serotonergic drug and no clonus | Sepsis, meningitis or malignant catatonia, excluded with cultures and LP if needed
+ix: CK serially; U&Es; LFTs; FBC, CRP; blood cultures; urine myoglobin; clotting; ECG
+mx: Stop haloperidol; senior review and HDU or ICU; IV fluids for rhabdomyolysis; active cooling; benzodiazepines; consider dantrolene or bromocriptine; VTE prophylaxis; careful antipsychotic rechallenge later after at least 2 weeks
+tell: I think Joe is having a rare but serious reaction to his antipsychotic called neuroleptic malignant syndrome. We've stopped it, and he needs close monitoring, fluids and cooling, possibly in intensive care. Most people recover well with prompt treatment.
+
+=== MH29 | Acute dystonia after metoclopramide
+who: Dan Price, 21, chef
+act: Neck twisted to one side, eyes rolled upwards; frightened but alert; speak with effort.
+open: My neck's twisting on its own and my eyes keep rolling up!
+story: I had food poisoning and the walk-in centre gave me an anti-sickness injection this morning. A few hours later my neck started twisting and my eyes rolled up.
+hpc: Drug: Metoclopramide injection this morning
+hpc: Onset: Few hours later
+hpc: Neck: Twisted, painful torticollis
+hpc: Eyes: Oculogyric crisis, upward deviation
+hpc: Consciousness: Alert, remembers everything
+yes: Jaw tightness; fear
+no: Fever; headache; seizures; loss of consciousness; head injury; previous similar
+pmh: Nothing
+dh: Metoclopramide
+all: None
+fh: Nothing relevant
+sh: Chef
+ice: A stroke or fit | Being permanently like this | Make it stop
+cue: "Am I having a fit?"
+ask: Will it go away?
+key: New medicines: antiemetics or antipsychotics in the last few hours or days? | Dopamine antagonists
+key: Is he alert and does he remember everything? | Not a seizure
+key: Fever, headache, rigidity? | NMS or meningitis
+key: Breathing, swallowing, stridor? | Laryngeal dystonia
+key: Previous reactions | Recurrence
+rf: Laryngeal dystonia with stridor | Airway emergency
+sum: So a few hours after an anti-sickness injection this morning, your neck started twisting and your eyes rolled up, but you're fully alert. Is that right?
+pres: Dan Price is a 21-year-old man with painful torticollis and an oculogyric crisis a few hours after a metoclopramide injection, alert with full recall, afebrile and without airway compromise. This is acute dystonia from a dopamine antagonist.
+ddx: Acute dystonic reaction to metoclopramide, because of torticollis and oculogyric crisis in an alert patient after a dopamine antagonist | Focal seizure, excluded by preserved awareness | Tetanus or NMS, excluded by no fever, rigidity or wound
+ix: Clinical; observations
+mx: IV or IM procyclidine 5 to 10 mg, repeat if needed; stop metoclopramide and record as an adverse reaction; oral procyclidine for a few days; reassure; avoid dopamine antagonists in future where possible
+tell: This is a reaction to the anti-sickness injection called acute dystonia. It's frightening but not dangerous and goes away quickly with an injection of procyclidine. We'll note it so you aren't given that medicine again.
+
+=== MH31 | Catatonia
+who: Nurse Gale, on behalf of Aaron Wells, 29
+act: Aaron sits motionless and mute, staring; holds his arm in the air when placed there; resists being moved.
+open: Aaron hasn't spoken or moved properly all day, and he's barely eaten or drunk.
+story: He's been on the ward a week with psychosis. Today he's just frozen. If you lift his arm, it stays there. He pushes against us when we try to help him.
+hpc: Mutism: Not speaking all day
+hpc: Immobility: Motionless, staring
+hpc: Posturing: Waxy flexibility, holds an imposed posture
+hpc: Negativism: Resists instructions and movement
+hpc: Intake: Barely eaten or drunk today
+yes: Recent antipsychotic dose increase
+no: Fever; rigidity with high CK; seizures; head injury
+pmh: Schizophrenia
+dh: Risperidone, dose increased 3 days ago
+all: None
+fh: Nothing relevant
+sh: Inpatient
+ice: Nurse: he's being uncooperative | Nurse: him getting dehydrated | Nurse: what to do
+cue: Nurse: "Is he just refusing?"
+ask: Nurse: is he doing this on purpose?
+key: Recognise catatonic signs: mutism, stupor, posturing, waxy flexibility, negativism | Catatonia
+key: Food and fluid intake, urine output | Dehydration and AKI
+key: Fever, rigidity, autonomic instability, CK | Malignant catatonia or NMS
+key: Medical causes: encephalitis, seizures, metabolic | Organic causes
+key: Medication changes | Antipsychotics can worsen it
+rf: Fever with autonomic instability | Malignant catatonia: emergency
+sum: Aaron has been mute and motionless all day, holds imposed postures, resists movement and has barely eaten or drunk.
+pres: Aaron Wells is a 29-year-old man with schizophrenia, recently had his risperidone increased, presenting with mutism, stupor, posturing, waxy flexibility and negativism, with minimal oral intake today. This is catatonia, not deliberate non-cooperation, and needs urgent medical and psychiatric management.
+ddx: Catatonia associated with schizophrenia | Neuroleptic malignant syndrome or malignant catatonia, excluded with temperature, CK and observations | Non-convulsive status, encephalitis or metabolic disturbance, excluded with EEG and bloods
+ix: Observations; Bush-Francis Catatonia Rating Scale; FBC, U&Es, CK, glucose, LFTs, TFTs; consider EEG and MRI
+mx: Lorazepam challenge then regular lorazepam; hold or review the antipsychotic; IV fluids and nutrition; VTE prophylaxis; pressure care; ECT if no response or malignant
+tell: Nurse, this isn't Aaron being difficult. It's catatonia, a medical emergency that responds well to lorazepam. We need fluids and bloods, and the psychiatric team should review his medicines.
+
+=== MH32 | Overdose with an unknown substance
+who: Sasha Lee, 22, student
+act: Drowsy but talking; refusing to name the tablets; turn away.
+open: I don't want to talk about it. Just leave me alone.
+story: I took a load of tablets two hours ago after a row with my mum. I'm not telling you what.
+hpc: Ingestion: Unknown tablets, 2 hours ago
+hpc: Amount: Unknown, "a handful"
+hpc: Observations: HR 110, BP 118/74, drowsy, GCS 14
+hpc: Alcohol: Some vodka
+hpc: Intent: "I just wanted it all to stop"
+yes: Previous self-harm
+no: Vomiting so far; seizures; chest pain
+pmh: Anxiety
+dh: Sertraline; previously propranolol
+all: None
+fh: Nothing relevant
+sh: Lives in student halls; argument with her mum
+ice: She doesn't care | Getting in trouble | To be left alone
+cue: "Nobody listens to me."
+ask: Why should I tell you?
+key: ABCDE first, monitoring | Medical priority
+key: What did you take, how much, when, with alcohol? Check packets, prescriptions, friends | Toxicology
+key: Explain why knowing the drug matters: some, like paracetamol, need early treatment | Engagement
+key: Capacity to refuse treatment | Legal framework
+key: Intent and current suicidal thoughts | Risk
+rf: Drowsiness, tachycardia, unknown agents including propranolol or sertraline | ECG and toxicology, TOXBASE
+rf: Paracetamol co-ingestion | Paracetamol level at 4 hours
+sum: So you took a handful of tablets two hours ago with some vodka after a row with your mum, and you don't want to say what they were. Is that right?
+pres: Sasha Lee is a 22-year-old woman, 2 hours after an intentional overdose of unknown tablets with alcohol following an argument, drowsy with GCS 14, HR 110 and BP 118/74. She has access to sertraline and propranolol. She declines to name the substances. Immediate toxicological assessment takes priority, followed by psychosocial assessment.
+ddx: Intentional overdose with unknown agents, possibly sertraline or propranolol, with possible paracetamol | Serotonin toxicity, assessed by clonus and temperature | Beta-blocker toxicity, assessed by bradycardia and hypotension
+ix: ECG for QRS and QT; glucose; VBG; paracetamol and salicylate levels at 4 hours; U&Es, LFTs, INR; CK; TOXBASE
+mx: ABCDE; continuous monitoring; consult TOXBASE; activated charcoal if within 1 hour and airway safe; treat according to agent; assess capacity; if she lacks capacity, treat in her best interests under the Mental Capacity Act; psychiatric liaison once medically fit per NICE NG225
+tell: Sasha, I'm not here to judge you. Knowing what you took really matters, because some tablets cause damage hours later but can be treated if we act now. Can you tell me, or can I check with someone? We'll look after your body first, and then someone will talk with you about how things got to this point.

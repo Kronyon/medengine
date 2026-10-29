@@ -133,7 +133,7 @@ function hqNewRun(list, lbl){
   hqSave(); session = hqSess; hqDraw($('#main')); window.scrollTo({top: 0});
 }
 function hqSave(){
-  if (!hqSess || hqSess.done || hqSess.rev) return; const R = hqRuns(), rec = {rid: hqSess.rid, ids: hqSess.ids, i: hqSess.i, pk: hqSess.pk, x: hqSess.x, lbl: hqSess.lbl, ts: Date.now()};
+  if (!hqSess || hqSess.done || hqSess.rev) return; const R = hqRuns(), rec = {rid: hqSess.rid, ids: hqSess.ids, i: hqSess.i, pk: hqSess.pk, x: hqSess.x, lbl: hqSess.lbl, ts: Date.now(), ov: 2};
   const k = R.findIndex(r => r.rid === hqSess.rid); if (k >= 0) R.splice(k, 1);
   R.unshift(rec); R.length = Math.min(R.length, HQ_KEEP); save();
 }
@@ -141,6 +141,7 @@ function hqDrop(rid){ S.hqRuns = hqRuns().filter(r => r.rid !== rid); save(); }
 function hqResume(rid){
   const R = hqRuns(), r = rid ? R.find(x => x.rid === rid) : R[0]; if (!r || !r.ids || !r.ids.length) return false;
   const ids = r.ids.filter(id => hqItem(id)); if (!ids.length) { hqDrop(r.rid); return false; }
+  if (!r.ov) { Object.keys(r.pk || {}).forEach(id => { const q = hqItem(id); if (q && q.pm) r.pk[id] = q.pm[r.pk[id]]; }); Object.keys(r.x || {}).forEach(id => { const q = hqItem(id); if (q && q.pm) r.x[id] = r.x[id].map(v => q.pm[v]); }); r.ov = 2; }
   hqSess = {kind: 'hammer', rid: r.rid, ids, i: Math.min(r.i || 0, ids.length - 1), pk: r.pk || {}, x: r.x || {}, lbl: r.lbl || ''};
   session = hqSess; hqDraw($('#main')); window.scrollTo({top: 0}); return true;
 }
@@ -215,7 +216,7 @@ function hqDraw(m){
     h += '<div class="hq-why ' + (ok ? 'ok' : 'bad') + '"><b>' + (ok ? '✅ Right.' : '❌ ' + L[it.a] + ' is the answer.') + '</b> ' + (it.t === 'o' ? '<span class="hq-off">📋 Examiners\' justification:</span> ' + esc(it.w || 'none given in the paper; the flip and triggers below explain it.') : esc(it.w || '')) + '</div>';
     if (it.f) h += '<div class="hq-flip"><span class="hq-fl">🔄 Flip it</span>' + esc(it.f).replace('→', '<b class="hq-arr">→</b>') + '</div>';
     if (it.t === 'o' && it.iw) h += '<div class="hq-ilo hq-il' + it.il + '"><span class="hq-fl">' + (HQ_IL[it.il] || ['🎯'])[0] + ' ILO check</span>' + esc(it.iw) + (it.ic ? ' <span class="hint">Belongs to: ' + esc(it.ic) + '.</span>' : '') + '</div>';
-    h += hqTriggers(it) + hqGroupBox(it);
+    h += hqTriggers(it) + hqPosterBox(it) + hqGroupBox(it);
     const ui = hqUnitOf(it);
     if (ui != null && UNITS[ui]) h += '<div class="toolbar"><button class="btn ghost sm" data-u="' + ui + '" data-mode="read">📖 Notes for ' + esc(UNITS[ui].name) + '</button></div>';
   }
@@ -246,6 +247,8 @@ function hqEnd(m){
   Object.entries(byP).sort((a, b) => a[1][0] / a[1][1] - b[1][0] / b[1][1]).forEach(([p, [g, n]]) => h += '<div class="hq-bar"><span class="hq-bl">' + HQ_PI[p] + ' ' + esc(HQ.pat[p] || p) + '</span><span class="hq-bt"><i style="width:' + Math.round(g / n * 100) + '%"></i></span><b>' + g + '/' + n + '</b></div>');
   h += '</div>';
   if (wrong.length) h += '<div class="panel"><h6>🔄 Flips you missed</h6>' + wrong.map(it => '<div class="hq-flip"><span class="hq-fl">' + esc(hqTitle(it)) + '</span>' + esc(it.f || '') + '</div>').join('') + '</div>';
+  const gEnd = OFF.g.filter(g => g.ids.length > 1 && g.ids.every(id => s.ids.includes(id)) && g.ids.every(id => s.pk[id] != null));
+  if (gEnd.length) h += '<div class="panel hq-gx"><span class="hq-fl">🧬 The pattern you just did</span>' + gEnd.map(g => '<div class="hq-gb"><div class="hq-gt"><span class="hq-gk">' + (HQ_GK[g.k] || ['🧬'])[0] + ' ' + esc((HQ_GK[g.k] || ['', g.k])[1]) + '</span> <b>' + esc(g.t) + '</b></div>' + hqGroupRule(g, true) + '</div>').join('') + '</div>';
   h += '<div class="toolbar">' + (wrong.length ? '<button class="btn primary" data-hqretry>🔥 Redo the ' + wrong.length + ' missed</button>' : '') + '<button class="btn" data-hqreview>👀 Review this run</button><button class="btn" data-hqexit>Back to the list</button></div></div>';
   m.innerHTML = h;
   s.wrong = wrong;
@@ -322,7 +325,7 @@ const HQ_QW = /\b(first|initial|immediate|next|definitive|long-term|additional|m
 function hqHi(text, mode){
   text = String(text || ''); const spans = [];
   const add = (re, fn) => { re.lastIndex = 0; let m; while ((m = re.exec(text))) { const c = fn(m); if (c) spans.push([m.index, m.index + m[0].length, c]); if (!m[0].length) re.lastIndex++; } };
-  if (mode === 'q') add(HQ_QW, () => 'fw');
+  if (mode === 'q') add(HQ_QW, () => 'hq-fw');
   else {
     add(/(\d{2}(?:\.\d)?) ?°C/g, m => 'vx ' + (+m[1] >= 38 || +m[1] < 36 ? 'ab' : 'nm'));
     add(/(\d{2,3}) ?bpm/g, m => 'vx ' + (+m[1] > 100 || +m[1] < 50 ? 'ab' : 'nm'));
@@ -330,7 +333,7 @@ function hqHi(text, mode){
     add(/respiratory rate (?:is |of )?(\d{1,2})(?: breaths per minute)?/gi, m => 'vx ' + (+m[1] > 20 || +m[1] < 10 ? 'ab' : 'nm'));
     add(/oxygen saturation (?:is |of )?(\d{2,3}) ?%/gi, m => 'vx ' + (+m[1] < 94 ? 'ab' : 'nm'));
     add(/(\d+(?:\.\d+)?)([^()\d]{0,24}?)\(\s*([<>≤≥]?\s*\d+(?:\.\d+)?(?:\s*[–-]\s*\d+(?:\.\d+)?)?)\s*\)/g, m => { const r = hqAbn(m[1], m[3])[0]; return r == null ? '' : 'vx ' + (r ? 'ab' : 'nm'); });
-    add(HQ_FW, () => 'fw');
+    add(HQ_FW, () => 'hq-fw');
   }
   spans.sort((a, b) => a[0] - b[0] || b[1] - a[1]);
   let out = '', at = 0;
@@ -357,17 +360,48 @@ function hqBadges(it){
   return (it.t === 'o' && HQ_IL[it.il] ? '<span class="hq-p hq-il' + it.il + '">' + HQ_IL[it.il].join(' ') + '</span>' : '') + (hqInKind(it.id, 'clone') ? '<span class="hq-p hq-hot">🔥 Double-tested</span>' : '');
 }
 function hqGLabel(it){
-  const a = it.o[it.a]; return (it.t === 'm' ? '🎓 Mock Q' + it.n : it.t === 'o' ? '🏛️ ' + hqPaper(it) + ' Q' + it.n : HAM(it.h) + ' Step ' + it.h) + ' → ' + (a.length > 46 ? a.slice(0, 44) + '…' : a);
+  /* never the answer: the set is meant to be done next */
+  const st = hqStat(it.id), mk = !st ? '○' : st[2] ? '✅' : '❌';
+  return mk + ' ' + (it.t === 'm' ? '🎓 Mock Q' + it.n : it.t === 'o' ? '🏛️ ' + hqPaper(it) + ' Q' + it.n : HAM(it.h) + ' Step ' + it.h);
+}
+function hqGroupDone(g){ return g.ids.every(id => !!hqStat(id)); }
+function hqGroupRule(g, open){
+  return hqGroupDone(g) || open ? '<p class="hq-gr">' + esc(g.r) + '</p>'
+    : '<details class="hq-grr"><summary>🔓 Show the pattern <span class="hint">gives away the other answers in this set, so do the set first</span></summary><p class="hq-gr">' + esc(g.r) + '</p></details>';
 }
 function hqGroupBox(it){
   const gs = hqGroupsOf(it.id); if (!gs.length) return '';
   return '<div class="hq-gx"><span class="hq-fl">🧬 Examiner pattern</span>' + gs.map(gi => {
-    const g = OFF.g[gi], K = HQ_GK[g.k] || ['🧬', g.k];
-    return '<div class="hq-gb"><div class="hq-gt"><span class="hq-gk">' + K[0] + ' ' + esc(K[1]) + '</span> <b>' + esc(g.t) + '</b></div><p class="hq-gr">' + esc(g.r) + '</p><div class="hq-gp">'
+    const g = OFF.g[gi], K = HQ_GK[g.k] || ['🧬', g.k], todo = g.ids.filter(id => !hqStat(id)).length;
+    return '<div class="hq-gb"><div class="hq-gt"><span class="hq-gk">' + K[0] + ' ' + esc(K[1]) + '</span> <b>' + esc(g.t) + '</b></div>' + hqGroupRule(g) + '<div class="hq-gp">'
       + g.ids.map((id, j) => { const x = hqItem(id); if (!x) return ''; return '<button class="chip' + (id === it.id ? ' on' : '') + '" data-hqgrp="' + gi + ':' + j + '"' + (id === it.id ? ' aria-current="true"' : '') + '>' + esc(hqGLabel(x)) + '</button>'; }).join('')
-      + '</div><div class="hint">Tap one to run the whole set in order and watch which single detail moves the answer.</div></div>';
+      + '</div><div class="hint">' + (todo ? '○ ' + todo + ' still to do. ' : '') + 'Tap one to run the whole set in order and watch which single detail moves the answer. The answers stay hidden until you do them.</div></div>';
   }).join('') + '</div>';
 }
+/* 🗺️ the poster and the notes for the question, under the answer */
+function hqGuessUnit(it){
+  const ui = hqUnitOf(it); if (ui != null && UNITS[ui]) return ui;
+  const ans = (it.o[it.a] || '').toLowerCase(), rest = ((it.f || '') + ' ' + (it.w || '') + ' ' + hqTitle(it)).toLowerCase();
+  let best = null, bs = 0;
+  UNITS.forEach((u, i) => {
+    [u.name, (SNAPS[i] || {}).n].filter(Boolean).forEach(nm => {
+      const n = nm.toLowerCase().replace(/\s*\(.*?\)\s*/g, ' ').trim(); if (n.length < 5) return;
+      const sc = (ans.includes(n) ? 3 : 0) + (rest.includes(n) ? 1 : 0) + n.length / 100;
+      if (sc >= 1 && sc > bs) { bs = sc; best = i; }
+    });
+  });
+  return best;
+}
+function hqPosterBox(it){
+  const ui = hqGuessUnit(it); if (ui == null || !UNITS[ui]) return '';
+  const u = UNITS[ui], hasPo = !!(SNAPS[ui] && window.PO), ck = (u.ck || []).filter(i => CLK[i]).slice(0, 6);
+  if (!hasPo && !ck.length) return '';
+  let h = '<details class="panel hq-po"' + (S.set.hqPoClosed ? '' : ' open') + '><summary><b>🗺️ Snapshot: ' + esc(u.name) + '</b> <span class="hint">the poster and the clinchers, so the answer sticks to the picture</span></summary>';
+  if (hasPo) h += '<div class="hq-pob">' + PO.cond(SNAPS[ui], {id: 'hq' + ui, lock: false, foot: typeof poMasterChips === 'function' ? poMasterChips(ui) : ''}) + '</div>';
+  if (ck.length) h += '<div class="hq-ck"><h6>🔑 Clinchers from your notes</h6>' + ck.map(i => '<div class="kl kl-' + CLK[i][0] + '"><span class="ki">' + KICON[CLK[i][0]] + '</span><span>' + fmtRich(CLK[i][1]) + '</span></div>').join('') + '</div>';
+  return h + '</details>';
+}
+document.addEventListener('toggle', e => { if (e.target.classList && e.target.classList.contains('hq-po')) { S.set.hqPoClosed = !e.target.open; save(); } }, true);
 /* ----- the official papers, decoded: computed from the papers themselves ----- */
 function hqOffBlueprint(){
   const Q = OFF.q; if (!Q.length) return '';

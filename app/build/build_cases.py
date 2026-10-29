@@ -5,6 +5,7 @@ examination station of build/osce_data_v4.json.
 
 Case syntax (one block per case):
   === ID [K] | dx          K = the past-paper variant letter; dx is required for bank stations
+  door:  optional replacement for the station's door information (bank stations only)
   who:   name, age, job                 act:  how to play it: posture, voice, hands, affect
   open:  the opening line, verbatim     story: what they say if given space
   hpc:   Topic: answer        (repeat)  yes: present if asked    no: absent if asked
@@ -23,7 +24,7 @@ HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 DATA = HERE / 'osce_data_v4.json'
 REP = {'hpc', 'ask', 'find', 'key', 'rf'}
-ONE = {'who', 'act', 'open', 'story', 'yes', 'no', 'pmh', 'dh', 'all', 'fh', 'sh', 'ice', 'cue', 'sum', 'pres', 'ddx', 'ix', 'mx', 'tell', 'dx'}
+ONE = {'door', 'who', 'act', 'open', 'story', 'yes', 'no', 'pmh', 'dh', 'all', 'fh', 'sh', 'ice', 'cue', 'sum', 'pres', 'ddx', 'ix', 'mx', 'tell', 'dx'}
 D = json.loads(DATA.read_text(encoding='utf-8'))
 ST = {s['id']: s for s in D['stations']}
 TARGET = [s for s in D['stations'] if s.get('type') in ('hx', 'psych', 'ex')]
@@ -132,6 +133,8 @@ for st in TARGET:
             if c['find']: v['r'] = 'Findings: ' + ' '.join(f.rstrip('.') + '.' for f in c['find'])
             vs.append(v)
         st['vars'] = vs
+        dr = [cases[(st['id'], k)].get('door') for k in ks if cases[(st['id'], k)].get('door')]
+        if dr: st['info'] = dr[0]
 for key in cases:
     if key not in used: errs.append(f'case {key} not attached (wrong variant letter?)')
 
@@ -144,6 +147,7 @@ D['meta']['cases'] = len(used); D['meta']['casesMissing'] = len(miss)
 STRICT = '--strict' in sys.argv
 print(f'cases {len(used)} attached; {len(miss)} history/psych/exam cases still without a full case')
 if miss and not STRICT: print('  missing (first 40):', ' '.join(miss[:40]))
+if '--list' in sys.argv: print('ALL', ' '.join(miss))
 if errs:
     for e in errs: print('ERR', e)
     sys.exit(1)

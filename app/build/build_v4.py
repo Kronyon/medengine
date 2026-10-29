@@ -54,7 +54,7 @@ PRES_DOM = {'h': 'Presenting to the examiner', 'items': [
     {'t': 'Most likely diagnosis with the clue that supports it', 'w': 2, 'f': 1},
     {'t': 'Names the dangerous alternative and how to exclude it', 'w': 2},
     {'t': 'Sensible first investigations'}]}
-RESULTY = re.compile(r'\b(ECG|X-ray|CXR|CT|ultrasound|USS|results?|bloods? show|findings|troponin|reading|readings|spirometry|audiogram|scan)\b', re.I)
+RESULTY = re.compile(r'\b(ECG|X-ray|CXR|CT|ultrasound|USS|results?|bloods? show|findings|troponin|readings|spirometry|audiogram|scan)\b', re.I)
 
 
 def nob(x):

@@ -32,7 +32,7 @@ def data_checks(D, errs):
         by.setdefault((q['t'], q['k']), []).append(q['h'])
         if len(q['o']) != 5 or not 0 <= q['a'] < 5: errs.append('bad options ' + q['id'])
         if not q.get('w') or not q.get('f'): errs.append('missing why or flip ' + q['id'])
-        if re.search(r'[—–()]', q['s'] + q['w'] + q['f'] + ' '.join(q['o'])): errs.append('dash or bracket in ' + q['id'])
+        if re.search(r'[—–()]', re.sub(r'\s?\([<>]?\d[\d.]*(?:–[\d.]+)?\)', '', q['s'] + q.get('post', '')) + q['w'] + q['f'] + ' '.join(q['o'])): errs.append('dash or bracket in ' + q['id'])
         L = [len(o) for o in q['o']]; rest = max(L[:q['a']] + L[q['a'] + 1:])
         longest += L[q['a']] > rest
         if L[q['a']] - rest >= 12 and L[q['a']] > rest * 1.4: errs.append('answer much longer than every distractor ' + q['id'])
