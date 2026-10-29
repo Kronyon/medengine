@@ -1,0 +1,172 @@
+# Core psychiatry stations Y-mhx and Y-risk: full cases for the existing variants.
+
+=== Y-mhx A
+who: Ms Priya Patel, 32, teacher
+act: Flat, slow, little eye contact; brighten slightly at your children; tearful when the divorce comes up.
+open: I just don't feel like myself any more. Everything's an effort.
+story: Since my divorce six weeks ago I've felt low every day. I've stopped painting, which I used to love. I wake at 4am and can't get back to sleep.
+hpc: Mood: Low most of the day for 6 weeks, since the divorce
+hpc: Interest: Stopped painting; no enjoyment
+hpc: Sleep: Wakes at 4am, can't get back to sleep
+hpc: Appetite and weight: Poor appetite; lost half a stone
+hpc: Energy and concentration: Tired; struggling to mark books
+hpc: Suicidal thoughts: ONLY IF ASKED: sometimes thinks she'd be better off not waking up; no plans; would never act because of her children
+yes: Guilt; hopelessness at times
+no: Voices; periods of very high mood; self-harm; drugs; previous episodes
+pmh: Nothing
+dh: None
+all: None
+fh: Mother had postnatal depression
+sh: Lives with her two children aged 6 and 9; drinks 2 glasses of wine every night to sleep; still working
+ice: Not coping with the divorce | Failing her children | Help to feel herself again
+cue: Tearful at the mention of the children: "They deserve better than this."
+ask: Is this depression?
+key: Core symptoms: mood, interest, energy, and how long? | Depression criteria
+key: Biological symptoms: sleep, appetite, weight, concentration | Severity
+key: Ask directly about thoughts of not wanting to be alive, plans, means and what stops you | Risk to self
+key: Alcohol and drugs | Self-medicating
+key: Screen for mania and psychosis | Differentials
+key: Children: who cares for them, are they safe? | Safeguarding and protective factor
+rf: Plans, preparation or worsening hopelessness | Same-day crisis assessment
+sum: So for six weeks since your divorce you've felt low every day, lost interest in painting, wake early, lost weight and drink two glasses of wine to sleep, and sometimes you think you'd be better off not waking up, but your children keep you safe. Is that right?
+pres: Ms Patel is a 32-year-old teacher with 6 weeks of low mood, anhedonia, early morning waking, reduced appetite with weight loss and poor concentration after her divorce, with passive death wishes but no plan or intent and strong protective factors in her children. She drinks 2 glasses of wine nightly. There are no psychotic or manic features. This is a moderate depressive episode, and her current risk to self appears low to moderate.
+ddx: Moderate depressive episode, because of core and biological symptoms for over 2 weeks | Adjustment disorder, less likely given the biological symptoms | Alcohol-related low mood or hypothyroidism, assessed by history and TFTs
+ix: PHQ-9; FBC, TFTs, LFTs; AUDIT-C
+mx: NHS Talking Therapies for CBT; offer an SSRI such as sertraline; reduce alcohol; safety plan with crisis numbers; review in 1 to 2 weeks; fit note if needed
+tell: What you're feeling is depression, and it's very treatable. Talking therapy and an antidepressant both help, and cutting down the wine will help your sleep and mood. If the thoughts of not waking up get stronger, call 111 option 2 or 999. Let's meet again in a week or two.
+
+=== Y-mhx B
+who: Dan Okoro, 23, university student
+act: Fidgety, rub your neck, talk quickly; jiggle your leg.
+open: I can't switch off. I worry about literally everything.
+story: For about eight months I've worried about exams, money, my health, my family. I know it's too much. I get headaches, my shoulders are tense and I can't sleep.
+hpc: Worry: Most days, many topics, 8 months, hard to control
+hpc: Physical: Headaches, tense shoulders, restlessness
+hpc: Sleep: Can't get off to sleep
+hpc: Panic: ONLY IF ASKED: panic attacks before exams with racing heart and tingling
+hpc: Caffeine: 6 energy drinks a day
+yes: Irritability; poor concentration
+no: Low mood as the main problem; suicidal thoughts; drugs; alcohol excess; trauma; obsessions
+pmh: Nothing
+dh: None
+all: None
+fh: Mum has anxiety
+sh: Final-year student; part-time bar job; lives in shared house
+ice: Stress | Failing his degree, something wrong with his heart | Something to calm him down
+cue: "I'm worried my heart's going to give out."
+ask: Can I have something to calm me down?
+key: Worry: what about, how often, how long, can you control it? | GAD criteria
+key: Physical symptoms and sleep | Somatic features
+key: Panic attacks, phobias, obsessions | Other anxiety disorders
+key: Mood and suicidal thoughts | Comorbidity and risk
+key: Caffeine, alcohol, drugs | Contributors
+key: Impact on study and work | Severity
+rf: Suicidal thoughts | Safety plan
+sum: So for eight months you've worried about everything most days and can't switch off, with headaches, tension and poor sleep, panic attacks before exams, and six energy drinks a day. Is that right?
+pres: Dan Okoro is a 23-year-old student with 8 months of excessive uncontrollable worry across several areas with muscle tension, headaches, restlessness and initial insomnia, panic attacks before exams and high caffeine intake, without depression, substance misuse or suicidal thoughts. This is generalised anxiety disorder with situational panic, aggravated by caffeine.
+ddx: Generalised anxiety disorder | Panic disorder, if attacks are unexpected and recurrent | Hyperthyroidism or caffeine excess, assessed with TFTs and history
+ix: GAD-7; TFTs
+mx: Psychoeducation; reduce energy drinks gradually; self-help and NHS Talking Therapies CBT; SSRI if moderate to severe; avoid benzodiazepines; university wellbeing service
+tell: This is generalised anxiety disorder, and it's very treatable. Cutting down the energy drinks will help a lot, and CBT teaches ways to manage worry. A daily SSRI is an option if needed; I won't give sedatives because they can be habit-forming.
+
+=== Y-mhx C
+who: Kayleigh Doyle, 26, events planner
+act: Talk fast, hard to interrupt, jump topics, laugh; irritable if challenged.
+open: Honestly, I've never been better! I've got so many ideas!
+story: I've barely slept for a week and I don't need to. I've started a business and spent three grand on it. I'm going to be huge.
+hpc: Sleep: 2 to 3 hours a night for a week, not tired
+hpc: Energy and ideas: Racing thoughts, many plans
+hpc: Spending: £3,000 on a business plan
+hpc: Speech: Fast, jumps between topics
+hpc: Past: ONLY IF ASKED: a very low period last year lasting months
+yes: Increased confidence; irritability when challenged
+no: Voices; drugs; alcohol excess; recent antidepressants; thyroid symptoms
+pmh: Low period last year, not treated
+dh: None
+all: None
+fh: Uncle has bipolar disorder
+sh: Lives with partner; still working but missing meetings
+ice: She's finally thriving | People holding her back | Nothing
+cue: "Why is everyone so worried? I'm amazing."
+ask: Why can't you just be happy for me?
+key: Sleep, energy, speech and thoughts | Manic features
+key: Spending, risk-taking, sexual disinhibition, driving | Risk and impairment
+key: Grandiose or unusual beliefs, voices | Psychotic features
+key: Previous low mood | Bipolar
+key: Drugs, recent medication, thyroid | Organic causes
+key: Insight and who supports her | Management
+rf: Dangerous behaviour or financial ruin | Urgent psychiatric assessment
+sum: So for a week you've barely slept but feel full of energy and ideas, you've spent £3,000 on a business, and last year you had a long low period. Is that right?
+pres: Kayleigh Doyle is a 26-year-old woman with a week of reduced need for sleep, elevated mood, pressured speech, racing thoughts and excessive spending of £3,000, with a previous untreated depressive episode and a family history of bipolar disorder, and limited insight. This is a probable manic episode in bipolar affective disorder.
+ddx: Manic episode in bipolar disorder | Drug-induced mania, excluded by urine drug screen | Hyperthyroidism, excluded with TFTs
+ix: FBC, U&Es, TFTs, calcium, glucose; urine drug screen; pregnancy test
+mx: Urgent psychiatry referral or crisis team; antipsychotic per specialist; avoid antidepressant alone; protect finances; advise not to drive; involve partner
+tell: I can see you feel great, but sleeping this little and spending this much are signs of mania, which can cause real problems later. I'd like a mental health specialist to see you urgently. Please hold off on big decisions and don't drive for now.
+
+=== Y-risk A
+who: Mr Gary Hughes, 34, unemployed
+act: Angry, guarded, scanning the room; respond to calm respect.
+open: I don't need to be here. It's him next door who needs locking up.
+story: My neighbour's been putting poison through my letterbox for weeks. A voice tells me to sort him out. I'm not going to let him get away with it.
+hpc: Delusion: Neighbour putting poison through his letterbox
+hpc: Hallucination: Voice telling him to "sort him out"
+hpc: Weapon: ONLY IF ASKED: hammer by the door "for protection"
+hpc: Violence: ONLY IF ASKED: hit someone in a fight 5 years ago
+hpc: Treatment: Stopped olanzapine 2 months ago; smokes cannabis daily
+yes: Anger; poor sleep
+no: Thoughts of harming himself; alcohol excess; head injury
+pmh: Schizophrenia
+dh: Olanzapine, stopped
+all: None
+fh: Nothing relevant
+sh: Lives alone; police brought him in after an argument with the neighbour
+ice: The neighbour is poisoning him | Being locked up | To go home
+cue: "If he does it again, I'll do something about it."
+ask: Are you going to section me?
+key: Stay calm, safe position near the exit, non-confrontational | Safety
+key: Risk to others: target, plan, intent, weapon, command hallucinations | Imminent risk
+key: Past violence, forensic history | Strongest predictor
+key: Risk to self and from others | Full risk assessment
+key: Adherence, cannabis | Relapse drivers
+key: Explain confidentiality limits | Duty to protect others
+rf: Command hallucinations, a named target and a weapon | High imminent risk: senior now
+sum: So you believe your neighbour is poisoning you, a voice tells you to sort him out, you keep a hammer by the door and you stopped your olanzapine two months ago. Is that right?
+pres: Mr Hughes is a 34-year-old man with schizophrenia who stopped olanzapine 2 months ago and uses cannabis daily, presenting with persecutory delusions about his neighbour, command hallucinations to harm him, access to a hammer and previous violence. There is no current risk to self. His risk to others is high and imminent, and he lacks insight.
+ddx: Relapse of schizophrenia with high risk to others | Cannabis-induced psychosis contributing | Organic causes, excluded by examination and bloods
+ix: Urine drug screen; bloods; physical examination
+mx: Senior and psychiatric liaison urgently; keep staff and him safe; Mental Health Act assessment; consider disclosure to protect the neighbour; restart antipsychotic; cannabis support
+tell: Mr Hughes, I can see how angry and frightened you are. I'm worried about what might happen if you go home tonight. I'd like the mental health team to see you now to help with the voice and these worries.
+
+=== Y-risk B
+who: Jade Morris, 29, part-time shop worker
+act: Quiet, tearful, glance at the door; open up only when you're alone with the doctor.
+open: I'm just really low. I don't know why I'm here.
+story: I've felt hopeless for months. I've got two kids, two and five. Things at home are hard.
+hpc: Mood: Low and hopeless for months
+hpc: Children: Aged 2 and 5
+hpc: Domestic abuse: ONLY IF ASKED, alone: partner hits her when he drinks; she's scared
+hpc: Coping: ONLY IF ASKED: sometimes feels she can't cope with the children
+hpc: Self-harm: Thoughts of escaping, no plans to end her life
+yes: Poor sleep; tearful
+no: Plans to harm herself or the children; drugs; voices
+pmh: Postnatal depression after second child
+dh: None
+all: None
+fh: Nothing relevant
+sh: Lives with partner and children; partner drinks heavily; few friends nearby; mother lives 20 minutes away
+ice: She's failing | Partner finding out she spoke, losing her children | To feel safe
+cue: Long pause, then: "He'd kill me if he knew I said anything."
+ask: Will social services take my kids?
+key: Speak to her alone and ask directly and sensitively about safety at home | Risk from others
+key: Domestic abuse: what happens, how often, injuries, escalation, strangulation, weapons | Danger assessment
+key: Children: are they harmed or exposed, does she ever feel she might hurt them? | Safeguarding
+key: Risk to self | Suicide risk
+key: Support network and safe places | Protective factors
+key: Explain confidentiality and its limits around the children | Honesty
+rf: Escalating violence, strangulation, threats to kill | High-risk domestic abuse: MARAC referral
+sum: So you've felt low and hopeless for months, your partner hits you when he drinks and you're scared, and sometimes you feel you can't cope with the children, though you'd never hurt them. Is that right?
+pres: Jade Morris is a 29-year-old mother of two young children with months of low mood and hopelessness, disclosing physical domestic abuse when her partner drinks, with fear for her safety, feeling unable to cope with the children at times but no intent to harm them, and no current suicidal plans. She has a supportive mother nearby. The main risks are from others and to the children through exposure to abuse.
+ddx: Depressive episode in the context of domestic abuse | Adjustment reaction | Risk to children from exposure to domestic abuse, a safeguarding concern
+ix: PHQ-9; DASH risk checklist
+mx: Safety planning; domestic abuse services and helpline; refuge information; safeguarding referral for the children with explanation; MARAC if high risk; treat depression; document carefully and confidentially
+tell: Thank you for trusting me. What's happening isn't your fault, and you deserve to be safe. There are services that can help you and the children, including a safe place to stay if you need it. Because the children see this, I do need to involve the team that supports families, and I'll do that with you, not behind your back.

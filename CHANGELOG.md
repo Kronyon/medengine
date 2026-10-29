@@ -1,5 +1,33 @@
 # Changelog
 
+## 2.7.0 (2026-10-29)
+
+🎭 **A full case for every OSCE station.** All 444 history, psychiatry and examination cases now have a proper patient script, not a few sparse lines. This covers the 141 past-paper variants, every bank history and psychiatry station, the core Y stations, and 2 to 3 cases for each of the 24 examination stations.
+- **🎭 Patient sheet (Friends → Patient):** how to play the part, a verbatim opening line, the story if given space, an answer for each history question, yes and no symptoms, background, ideas, concerns and expectations, a hidden cue, and a question to ask the candidate. Exam cases list the findings to mime or read out.
+- **📋 Examiner sheet:** the verbatim presentation, three-tier differentials (most likely, common alternative, must-not-miss, each with a because), investigations in order, management, and what to tell the patient.
+- **📝 Script and ✅ mark scheme:** each case adds "This case: what to ask" (or "what the examiner looks for") with the reason for each question, red flags, and a "Present, differentials and next steps" section.
+- Exam cases can carry their own door brief, so choosing case B of the cardiovascular station gives the 71-year-old woman with mitral regurgitation. Bank stations whose door text lost a sentence to the results filter now read in full.
+- Build: `content/cases/*.txt`, `build/build_cases.py --strict` (fails if any station lacks a case). Test: `app/build/test_v27.py`.
+
+📝 **STUDY 2.7.0: MSCAA layout.** All 1,632 Hammer questions and 91 mock questions are laid out the way the MSCAA and MS AKT papers are:
+- ages written "54 year old";
+- history, then a new paragraph for observations and examination;
+- observations written "pulse rate 104 bpm", "BP 88/50 mmHg";
+- the lead-in on its own line, worded "Which is the most…";
+- options in alphabetical order (numbers in ascending order), with saved runs remapped.
+🧪 Results carry the reference ranges printed in the papers, and three or more results become an Investigations table. Fluid results (pleural, CSF, urine) are left without serum ranges. Code: `study/snap/mscaa.py`.
+
+🟦 **Fixed:** blocker and question words such as "initial", "safest" and "takes warfarin" were drawn as full-width rounded cards, because the highlighter's class name clashed with an existing card style. They're plain text again, highlighted only in 🦅 Scan mode.
+
+🔒 **Examiner patterns no longer give the answers away:**
+- the set chips show only ○ (not done), ✅ or ❌;
+- the pattern rule stays folded behind "🔓 Show the pattern" until the whole set is done;
+- finishing a 🧬 set shows the pattern at the end.
+
+🗺️ **Snapshot under every answer:** the condition's poster and up to 6 🔑 clinchers from the notes. It can be collapsed and remembers that choice.
+
+🧹 Removed the "© Medical Schools Council… Page n of N" footers that had leaked into 224 official justifications. Test: `study/test_study_v27.py`.
+
 ## STUDY 2.6.1 (2026-10-29)
 
 🔀 **Multi-select Hammer filters.** Every chip row now takes several picks: inside a row they add together (official papers plus my mock; 🔨 plus 🔨🔨; in my ILOs plus ILO edge; not done plus missed), and across rows they narrow each other. The paper and ILO rows narrow official questions only, so mixing sources still works. The examiner-pattern row has an "In any of these / In all of these" switch, and a ✕ Clear filters button resets everything.

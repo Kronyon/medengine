@@ -5,7 +5,7 @@ examination station of build/osce_data_v4.json.
 
 Case syntax (one block per case):
   === ID [K] | dx          K = the past-paper variant letter; dx is required for bank stations
-  door:  optional replacement for the station's door information (bank stations only)
+  door:  optional door information for this case (bank stations): shown when the case is picked
   who:   name, age, job                 act:  how to play it: posture, voice, hands, affect
   open:  the opening line, verbatim     story: what they say if given space
   hpc:   Topic: answer        (repeat)  yes: present if asked    no: absent if asked
@@ -112,7 +112,7 @@ def check(c, st, k):
 
 used = set()
 for st in TARGET:
-    if st.get('pp'):
+    if st.get('pp') or (st.get('vars') and not st.get('bank') and not st['id'].startswith('E-')):
         for v in st['vars']:
             c = cases.get((st['id'], v['k']))
             if not c: continue
@@ -131,17 +131,18 @@ for st in TARGET:
             v = {'k': vk, 'who': c.get('who', ''), 'dx': c.get('dx', st['t']), 'a': flat(c), 'cs': pack(c, st),
                  'x': ' '.join(x for x in (c.get('pres', ''), 'Investigations: ' + c['ix'] if c.get('ix') else '', 'Management: ' + c['mx'] if c.get('mx') else '') if x)}
             if c['find']: v['r'] = 'Findings: ' + ' '.join(f.rstrip('.') + '.' for f in c['find'])
+            if c.get('door'): v['d'] = c['door']
             vs.append(v)
         st['vars'] = vs
         dr = [cases[(st['id'], k)].get('door') for k in ks if cases[(st['id'], k)].get('door')]
-        if dr: st['info'] = dr[0]
+        if dr and len(ks) == 1: st['info'] = dr[0]
 for key in cases:
     if key not in used: errs.append(f'case {key} not attached (wrong variant letter?)')
 
 # coverage report
 miss = []
 for st in TARGET:
-    if st.get('pp'): miss += [f"{st['id']} {v['k']}" for v in st['vars'] if 'cs' not in v]
+    if st.get('vars'): miss += [f"{st['id']} {v['k']}" for v in st['vars'] if 'cs' not in v]
     elif not st.get('vars'): miss.append(st['id'])
 D['meta']['cases'] = len(used); D['meta']['casesMissing'] = len(miss)
 STRICT = '--strict' in sys.argv

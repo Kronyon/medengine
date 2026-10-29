@@ -1,0 +1,911 @@
+# Station bank: skills, prescribing, professionalism, referral, data and ILO stations.
+
+=== PC26 | Unreliable pulse oximetry from poor peripheral perfusion
+who: Linda Shaw, 58, school cook
+act: Sitting up, chatting comfortably, rubbing cold white fingers; slightly irritated by the alarm.
+open: That machine keeps beeping, but honestly I feel fine. My hands are just freezing.
+story: I came in yesterday for my gallbladder. The ward's cold and my fingers always go white and numb in the cold. I'm not short of breath at all.
+hpc: Breathing: Not breathless, talking in full sentences
+hpc: Fingers: Cold, white, numb; she has Raynaud's
+hpc: Monitor: SpO2 84% with a flat, poor waveform
+hpc: Other observations: RR 14, HR 78, BP 132/80, temp 36.6
+hpc: Nail varnish: Dark gel nail varnish on all fingers
+yes: Raynaud's in the cold
+no: Chest pain; cough; breathlessness; confusion; cyanosis of lips
+pmh: Gallstones; Raynaud's phenomenon
+dh: Paracetamol; nifedipine in winter
+all: None
+fh: Nothing relevant
+sh: Non-smoker; school cook
+ice: The machine is wrong | Something wrong with her lungs | To stop the beeping
+cue: "Do I really look like I can't breathe?"
+ask: Is my oxygen actually low?
+key: Look at the patient first: talking, colour, work of breathing, RR | Treat the patient, not the number
+key: Check the waveform and probe: poor trace, cold fingers, nail varnish, movement | Artefact
+key: Warm the hand, remove varnish or move the probe to the earlobe | Get a reliable reading
+key: Full observations and NEWS2 | Overall picture
+key: If doubt persists: ABG | Gold standard for oxygenation
+rf: Breathless, confused, cyanosed or a true low reading with a good trace | Oxygen and urgent review
+sum: So you feel fine and aren't breathless, your fingers are cold and white, and the monitor reads 84% with a poor trace. Is that right?
+pres: Linda Shaw is a 58-year-old woman with Raynaud's and dark nail varnish whose finger probe shows SpO2 84% with a poor waveform, while she is comfortable, talking in full sentences with RR 14 and otherwise normal observations. This is most likely an unreliable oximetry reading from poor peripheral perfusion and varnish, which needs confirming rather than treating blindly.
+ddx: Spurious low SpO2 from poor perfusion, Raynaud's and nail varnish, because of a poor trace in a comfortable patient | True hypoxia, from PE or atelectasis after admission, excluded by a reliable reading or ABG | Methaemoglobinaemia or carbon monoxide, rare, considered if readings stay discordant
+ix: Repeat SpO2 on a warmed finger without varnish or on the earlobe; full NEWS2; ABG if a reliable reading can't be obtained or she deteriorates
+mx: Warm hands, remove varnish, re-site probe; document the corrected reading; do not start high-flow oxygen on an artefact; escalate if genuinely hypoxic
+tell: Your oxygen level is very likely fine; the machine struggles to read through cold fingers and nail varnish. I'll warm your hand and try your earlobe to get an accurate number. If it's still low, a quick blood test from the wrist will tell us exactly.
+
+=== DI05 | Suspected lung cancer on CT without tissue diagnosis
+door: Respiratory clinic: a 74-year-old ex-smoker has had a CT chest showing a 3.2 cm spiculated upper-lobe mass with enlarged mediastinal nodes. He has lost weight and there is no tissue diagnosis yet.
+who: Derek Hale, 74, retired steelworker
+act: Thin, coughing occasionally; wife beside you; braced for bad news.
+open: The doctor said the scan showed something. I want to know straight what it is.
+story: I've had a cough for three months and coughed up a bit of blood twice. I've lost about 7 kg. They did a scan last week.
+hpc: Cough: 3 months, persistent
+hpc: Haemoptysis: Twice, streaks
+hpc: Weight: Lost 7 kg
+hpc: CT: 3.2 cm spiculated right upper-lobe mass, enlarged mediastinal nodes
+hpc: Performance: Still walks the dog daily, self-caring
+yes: Fatigue; reduced appetite
+no: Bone pain; headaches; hoarse voice; arm swelling; confusion
+pmh: COPD; hypertension
+dh: Tiotropium; amlodipine
+all: None
+fh: Brother had lung cancer
+sh: Ex-smoker, 50 pack-years, stopped 5 years ago; steelworker, some asbestos exposure; lives with wife
+ice: Cancer | Dying and leaving his wife | Honesty
+cue: Grips his wife's hand: "Just tell me."
+ask: Is it cancer?
+key: What does he know and want to know? | Breaking news: start where he is
+key: Warning shot then explain: the scan shows a mass that looks like lung cancer, but we need a sample to be certain | Honest without overstating
+key: Symptoms of spread: bone pain, headaches, confusion, hoarseness, arm or face swelling | Staging and emergencies
+key: Performance status: what can he do day to day? | Fitness for treatment
+key: Smoking and occupational history, including asbestos | Risk and compensation
+key: Next steps: PET-CT, biopsy such as EBUS, lung MDT | Plan
+rf: Facial swelling, stridor, confusion or back pain with weakness | SVCO, hypercalcaemia or cord compression
+sum: So you've had a cough for three months with some blood, lost 7 kg, and the scan shows a mass in your right lung with enlarged glands. Is that right?
+pres: Derek Hale is a 74-year-old ex-smoker with 50 pack-years and asbestos exposure, with 3 months of cough, haemoptysis and 7 kg weight loss, and a CT showing a 3.2 cm spiculated right upper-lobe mass with mediastinal lymphadenopathy, performance status 1. This is highly suspicious of primary lung cancer with nodal spread, but there is no tissue diagnosis yet.
+ddx: Primary lung cancer, likely non-small cell, because of a spiculated mass with nodes in a heavy smoker | Metastasis from another primary, distinguished by histology | Infection such as TB or a granuloma, unlikely with weight loss and spiculation but excluded by biopsy
+ix: PET-CT; EBUS-guided node sampling or CT-guided biopsy; FBC, U&Es, calcium, LFTs, clotting; spirometry and transfer factor for fitness; brain imaging if indicated
+mx: Lung cancer MDT; lung cancer nurse specialist; staging guides surgery, radical radiotherapy or systemic therapy; support for him and his wife; safety-net for emergencies
+tell: I'm sorry, the scan shows a growth in your lung that looks very much like a lung cancer, and the glands near it are enlarged. We need a small sample to be certain and a further scan to see the full picture, then the specialist team will discuss treatment with you. A lung cancer nurse will be your point of contact.
+
+=== DI07 | Spirometry showing moderate COPD
+door: Respiratory clinic: a 67-year-old man has chronic exertional breathlessness and smoked 40 pack-years. Post-bronchodilator spirometry shows FEV1 1.5 L, FVC 3.1 L, FEV1/FVC ratio 0.48, FEV1 49% predicted.
+who: Ray Dennis, 67, retired builder
+act: Slightly breathless on talking; pursed lips; cough with phlegm.
+open: I get out of breath walking up hills now, and I've got this cough every morning.
+story: For a couple of years I've been getting breathless on hills and stairs. I cough up white phlegm every morning. I had two chest infections last winter.
+hpc: Breathlessness: On hills and stairs, mMRC 2
+hpc: Cough: Daily, productive of white sputum
+hpc: Exacerbations: 2 last year needing antibiotics, no admissions
+hpc: Spirometry: FEV1/FVC 0.48 post-bronchodilator, FEV1 49% predicted
+hpc: Wheeze: Sometimes
+yes: Exertional breathlessness; morning sputum
+no: Childhood asthma; hay fever; diurnal variation; weight loss; haemoptysis; ankle swelling; night waking
+pmh: Hypertension
+dh: Salbutamol inhaler as needed; amlodipine
+all: None
+fh: Nothing relevant
+sh: Smokes 15 a day, 40 pack-years; retired builder
+ice: Smoker's cough | Ending up on oxygen | Something to help breathing
+cue: "I've tried to stop smoking loads of times."
+ask: What does the breathing test show?
+key: Breathlessness: when, how far, mMRC grade? | Severity
+key: Cough, sputum, exacerbations, admissions? | Phenotype and risk
+key: Asthma features: childhood, atopy, variability, night symptoms? | Asthma or overlap
+key: Red flags: weight loss, haemoptysis | Lung cancer
+key: Smoking: amount, attempts to stop, readiness | Most important treatment
+key: Interpret spirometry: post-bronchodilator ratio below 0.7 is obstruction; FEV1 49% is GOLD 3 | Data interpretation
+rf: Weight loss or haemoptysis | Chest X-ray and cancer pathway
+sum: So for two years you've been breathless on hills with a morning cough, two chest infections last year, and you still smoke. Is that right?
+pres: Ray Dennis is a 67-year-old current smoker with 40 pack-years with progressive exertional breathlessness, mMRC 2, chronic productive cough and two exacerbations last year, without asthma features or red flags. Post-bronchodilator spirometry shows FEV1/FVC 0.48 and FEV1 49% predicted. This is COPD with severe airflow obstruction, GOLD 3.
+ddx: COPD, because of fixed post-bronchodilator obstruction in a heavy smoker | Asthma or asthma-COPD overlap, excluded by no variability or atopy | Bronchiectasis or lung cancer, assessed with chest X-ray and CT if indicated
+ix: Chest X-ray; FBC for polycythaemia or anaemia; BMI; eosinophil count; SpO2; alpha-1 antitrypsin if young or family history
+mx: Smoking cessation with varenicline or NRT and behavioural support; pulmonary rehabilitation; inhaled therapy: LAMA plus LABA given exacerbations; vaccinations: influenza, pneumococcal, COVID, RSV as eligible; self-management plan; rescue pack consideration
+tell: Your breathing test shows the airways are narrowed in a way that doesn't fully reverse, which is COPD. Stopping smoking is the single best thing to slow it down, and I can help with tablets and support. A long-acting inhaler and an exercise programme called pulmonary rehab will help your breathing.
+
+=== PS09 | IV fluids for dehydration from vomiting
+who: Jane Pollard, 56, office worker
+act: Pale, tired, sipping water; feels sick.
+open: I've been sick for three days. I can't keep anything down.
+story: It started with a tummy bug. I've vomited everything, even water, and I've hardly passed urine today.
+hpc: Vomiting: 3 days, unable to keep fluids down
+hpc: Urine: Very little today, dark
+hpc: Dizziness: On standing
+hpc: Observations: BP 98/64, HR 104, weight 65 kg
+hpc: Bloods: Sodium 138, potassium 4.1, eGFR 84
+yes: Diarrhoea once; thirst
+no: Blood in vomit; abdominal pain; heart failure; kidney disease; ankle swelling
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Lives with partner
+ice: A bug | Dehydration | A drip
+cue: "I feel so weak."
+ask: Do I need a drip?
+key: Fluid losses: how much vomiting, diarrhoea, intake? | Replacement need
+key: Signs of hypovolaemia: thirst, dizziness, urine output, BP, HR | Resuscitation need
+key: Heart failure, kidney disease, oedema? | Fluid caution
+key: Electrolytes and weight | Prescribing
+key: NICE 5 Rs: resuscitation, routine maintenance, replacement, redistribution, reassessment | Fluid framework
+rf: Systolic below 100 and HR above 90 | Fluid bolus 500 mL crystalloid over under 15 minutes
+sum: So you've vomited for three days, can't keep fluids down, you're dizzy standing and hardly passing urine, with no heart or kidney problems. Is that right?
+pres: Jane Pollard is a 56-year-old woman weighing 65 kg with 3 days of vomiting, oliguria and postural dizziness, BP 98/64 and HR 104, with normal sodium, potassium and eGFR, and no heart failure. She is hypovolaemic and needs resuscitation fluid followed by maintenance with replacement of ongoing losses.
+ddx: Hypovolaemia from gastroenteritis | AKI developing from hypovolaemia, monitor creatinine and urine output | Other causes of vomiting such as obstruction or DKA, excluded with examination, glucose and ketones
+ix: U&Es, glucose, ketones, VBG, lactate; fluid balance chart; daily weights
+mx: Bolus 500 mL Hartmann's or 0.9% saline over under 15 minutes, reassess and repeat up to 2 L; then maintenance 25 to 30 mL/kg/day, about 1.6 to 2 L, with potassium 1 mmol/kg/day and glucose 50 to 100 g/day, plus replacement of ongoing losses; antiemetic such as cyclizine; review U&Es daily
+tell: You're quite dehydrated, so we'll give fluid through a drip quickly first, then a steady drip to keep you topped up, plus anti-sickness medicine. We'll check your bloods and how much urine you pass to make sure it's working.
+
+=== PS12 | Starting anticoagulation for AF
+who: Margaret Doyle, 76, retired florist
+act: Thoughtful; worried about bleeding because a friend had a brain bleed on warfarin.
+open: The doctor said I need a blood thinner for my heart rhythm. I'm worried about bleeding.
+story: They found my irregular heartbeat last week. I had a mini-stroke two years ago. My friend had a bleed on warfarin.
+hpc: AF: New, found last week
+hpc: Previous TIA: 2 years ago
+hpc: Weight and kidneys: 64 kg, creatinine 95 µmol/L, eGFR 58
+hpc: Bleeding: No previous bleeds, no falls
+hpc: CHA2DS2-VASc: 6 (age 2, female 1, hypertension 1, TIA 2)
+yes: Hypertension
+no: Active bleeding; peptic ulcer; alcohol excess; NSAIDs; antiplatelets; falls; liver disease
+pmh: Hypertension; TIA
+dh: Ramipril; atorvastatin; clopidogrel since the TIA
+all: None
+fh: Nothing relevant
+sh: Lives with husband; 4 units a week
+ice: She needs it | A bleed like her friend | To understand the risks
+cue: "My friend was never the same after her bleed."
+ask: Is it safe for me?
+key: Stroke risk: CHA2DS2-VASc | Indication
+key: Bleeding risk: ORBIT or HAS-BLED, modifiable factors such as NSAIDs, alcohol, BP | Balance
+key: Medicines: antiplatelets, interactions | Stop clopidogrel when anticoagulated unless a specialist advises
+key: Weight, age, creatinine and CrCl for dosing | Dose adjustment
+key: Explain benefits and risks with numbers | Shared decision
+rf: Active bleeding | Contraindication
+sum: So you have a new irregular heartbeat, had a mini-stroke two years ago, and you're worried about bleeding after your friend's experience. Is that right?
+pres: Margaret Doyle is a 76-year-old woman with newly diagnosed AF, hypertension and previous TIA, CHA2DS2-VASc 6, weight 64 kg, creatinine 95 and eGFR 58, without bleeding risk factors other than age and current clopidogrel. She is worried about bleeding. Anticoagulation with a DOAC is clearly indicated; the dose depends on the drug's own criteria, such as creatinine clearance, age and weight, not eGFR alone.
+ddx: AF with high stroke risk needing anticoagulation | Bleeding risk from concurrent antiplatelet, addressed by stopping clopidogrel | Underlying causes of AF such as thyroid disease, excluded with TFTs
+ix: FBC, U&Es with Cockcroft-Gault creatinine clearance, LFTs, clotting, TFTs; echocardiogram
+mx: Offer a DOAC per NICE NG196: for example apixaban 5 mg twice daily, which she meets as she has no two of age 80 or over, weight 60 kg or under, creatinine 133 or more; stop clopidogrel unless specialist reason; rate control; review renal function regularly; bleeding advice and alert card
+tell: Your risk of a stroke from this rhythm is high, around 10 in 100 a year without treatment, and a blood thinner cuts that by about two thirds. Bleeding is a real risk, but newer blood thinners cause fewer brain bleeds than warfarin. We'll stop your clopidogrel so you're only on one. Seek help urgently for black stools, blood in your urine or a bad headache after a fall.
+
+=== PS20 | Omitted basal insulin in type 1 diabetes while nil by mouth
+who: Liam Ford, 27, plumber
+act: Slightly nauseated, thirsty; annoyed the insulin was missed.
+open: They didn't give me my night-time insulin because I wasn't eating. Now I feel rubbish.
+story: I'm nil by mouth for my appendix operation. The nurse skipped my Levemir last night. I feel sick and thirsty and my sugar's 18.
+hpc: Diabetes: Type 1 for 15 years
+hpc: Basal: Levemir 18 units at bedtime, omitted last night
+hpc: Glucose: 18 mmol/L
+hpc: Ketones: 1.8 mmol/L
+hpc: Status: Nil by mouth for surgery
+yes: Nausea; thirst
+no: Vomiting; abdominal pain beyond the appendix; breathlessness; confusion
+pmh: Type 1 diabetes; appendicitis
+dh: Insulin detemir 18 units nightly; insulin aspart with meals
+all: None
+fh: Nothing relevant
+sh: Plumber
+ice: The insulin was missed | Going into DKA | Get his insulin
+cue: "I always take my long-acting even when I'm ill."
+ask: Why did they skip my insulin?
+key: Type 1 diabetes always needs basal insulin, even when not eating | Omission risks DKA
+key: Glucose and ketones now: 18 and 1.8 | Early ketosis
+key: Vomiting, abdominal pain, breathlessness? | DKA
+key: Usual doses and devices | Prescribing
+key: Report the omission as an incident | Patient safety
+rf: Ketones 3 or more, or pH below 7.3 or bicarbonate below 15 | DKA protocol
+sum: So you have type 1 diabetes, your bedtime basal insulin was missed because you're nil by mouth, and now your sugar is 18 with ketones of 1.8. Is that right?
+pres: Liam Ford is a 27-year-old man with type 1 diabetes, nil by mouth for appendicectomy, whose basal insulin was omitted last night, now with glucose 18 mmol/L and ketones 1.8 mmol/L without features of DKA. This is a serious insulin omission causing early ketosis.
+ddx: Ketosis from omitted basal insulin | Evolving DKA, excluded by VBG and ketone trend | Stress hyperglycaemia from appendicitis, a contributor
+ix: VBG for pH and bicarbonate; U&Es; repeat capillary glucose and ketones hourly
+mx: Give basal insulin now, prescribed as never to be omitted; start a variable-rate IV insulin infusion with glucose-containing fluids while nil by mouth per JBDS; monitor ketones; diabetes inpatient team; incident report; involve him in self-management
+tell: You're right: with type 1 diabetes you always need your long-acting insulin, even without food. We're giving it now and starting an insulin drip with sugary fluids while you're not eating, which will bring the ketones down. I'm sorry this happened; I'll report it so it doesn't happen again.
+
+=== PS24 | Sick day rules in acute kidney injury
+who: Graham West, 64, retired bus driver
+act: Washed out, dry lips; holding a carrier bag of medicines.
+open: I've been vomiting for two days. My GP said my kidney test is worse.
+story: I can't keep much down. I've still been taking my usual tablets, including ibuprofen for my knee. I'm passing less water.
+hpc: Vomiting: 2 days
+hpc: Kidneys: Creatinine 210 from 90
+hpc: Potassium: 5.6
+hpc: BP: 96/60, dizzy standing
+hpc: Medicines: Ramipril, metformin, ibuprofen still being taken
+yes: Reduced urine output; thirst
+no: Chest pain; breathlessness; abdominal pain; blood in vomit
+pmh: Type 2 diabetes; hypertension; knee osteoarthritis
+dh: Ramipril 10 mg; metformin 1 g twice daily; ibuprofen 400 mg three times daily; atorvastatin
+all: None
+fh: Nothing relevant
+sh: Lives with wife
+ice: A bug | Kidney failure | To feel better
+cue: "I thought I had to take all my tablets no matter what."
+ask: Should I stop all my tablets?
+key: Volume status and losses | Prerenal AKI
+key: Medicines review: nephrotoxins and those risky in AKI: NSAIDs, ACE inhibitor, metformin, diuretics | Stop and remember
+key: Potassium level and ECG changes | Hyperkalaemia
+key: Urine output, urinary symptoms | Obstruction or intrinsic causes
+key: Sick day rules education | Prevention
+rf: Potassium 6.5 or more or ECG changes | Emergency treatment
+sum: So you've vomited for two days, you're dizzy and passing less urine, your kidney test has worsened, and you've kept taking ramipril, metformin and ibuprofen. Is that right?
+pres: Graham West is a 64-year-old man with diabetes and hypertension with 2 days of vomiting, hypotension and oliguria, creatinine 210 from a baseline of 90 and potassium 5.6, while continuing ramipril, metformin and ibuprofen. This is stage 2 prerenal AKI worsened by medicines.
+ddx: Prerenal AKI from hypovolaemia with nephrotoxic medicines | Intrinsic renal injury such as acute tubular necrosis, if not responding to fluids | Obstruction, excluded with bladder scan and ultrasound
+ix: U&Es, VBG for bicarbonate and lactate, ECG; urine dip and ACR; bladder scan; renal ultrasound if not improving
+mx: IV fluids; hold ramipril, metformin and ibuprofen; recheck potassium and ECG; fluid balance; daily U&Es; restart medicines once creatinine is back to baseline and eating, except avoid NSAIDs; sick day rules leaflet
+tell: Your kidneys are struggling because you're dried out and some tablets make it worse when you're unwell. We'll give fluids and pause ramipril, metformin and ibuprofen until you're better. In future, if you're vomiting or have diarrhoea, stop those tablets for a day or two and restart once you're eating, and avoid ibuprofen.
+
+=== PRF03 | Consent for venepuncture in a patient prone to fainting
+who: Patricia Cole, 57, librarian
+act: Nervous, clutching a form; pale when the needle is mentioned.
+open: I've signed the form, so I suppose I can't back out now even if I faint.
+story: I fainted last time I had blood taken. I'm scared. The receptionist gave me a form and I thought signing it meant I had to go through with it.
+hpc: Test: Blood test for anaemia, FBC and ferritin
+hpc: Previous: Fainted during venepuncture 3 years ago
+hpc: Belief: Signing means she cannot change her mind
+hpc: Anxiety: Moderate
+yes: Needle phobia; fainting before
+no: Bleeding disorders; anticoagulants; lymph node surgery on either arm; latex allergy
+pmh: Tired, being checked for anaemia
+dh: None
+all: Plasters cause a rash
+fh: Nothing relevant
+sh: Librarian
+ice: She has to go ahead now | Fainting and embarrassment | Reassurance
+cue: "What if I change my mind halfway?"
+ask: Can I still say no?
+key: Explain consent is ongoing; she can withdraw at any time, form or not | Valid consent
+key: Explain the purpose, procedure, risks such as bruising and fainting, and alternatives | Information
+key: Previous fainting: lie her down, distraction | Safety
+key: Check anticoagulants, arm restrictions, allergies including plasters | Safety
+key: Check understanding and agree a stop signal | Control and trust
+rf: Withdrawal of consent during the procedure | Stop immediately
+sum: So you need a blood test for anaemia, you fainted last time, and you thought signing the form meant you couldn't change your mind. Is that right?
+pres: Patricia Cole is a 57-year-old woman needing venepuncture for suspected anaemia who has previously fainted during blood tests and believed signing a form made consent irrevocable. I explained that consent is ongoing and can be withdrawn at any time, the purpose and risks, and agreed to perform it lying down with a stop signal.
+ddx: Needle-related vasovagal syncope risk | Needle phobia, which may need support or anxiety management | Misunderstanding of consent, corrected
+ix: FBC, ferritin as planned
+mx: Lie her down; distraction; use a plaster alternative; stop if she asks; observe for 10 minutes after; document consent discussion
+tell: Signing the form doesn't lock you in; you can stop at any point, even halfway. We'll do it with you lying down so you're less likely to faint, and if you raise your hand, I'll stop. Afterwards, stay lying for a few minutes.
+
+=== PRF06 | Safeguarding concern in a child with unexplained bruises
+who: Kelly Barnes, mother of Mason, 7
+act: Defensive, talks quickly; Mason sits quietly, flinches when you raise your voice; explanations change.
+open: He's just clumsy. Please don't write the bruises down, it'll cause trouble.
+story: He bumped into the door. Actually, he fell off his bike. He bruises easily. His stepdad plays rough with him.
+hpc: Bruises: Several, upper arms, back and ear, different ages
+hpc: Explanations: Changing between door, bike, rough play
+hpc: Child's behaviour: Quiet, frightened when the parent speaks
+hpc: Delay: Bruises noticed by school a week ago
+hpc: Household: Mum, stepdad, baby sister
+yes: Missed health appointments
+no: Bleeding disorder known; easy bruising elsewhere; recent illness
+pmh: Nothing
+dh: None
+all: None
+fh: No bleeding disorders
+sh: Lives with mum, stepdad and baby; primary school raised concern
+ice: Mum: he's clumsy | Mum: social services taking him | Mum: no records
+cue: Mason looks at his mum before every answer.
+ask: Do you have to write this down?
+key: Take a calm, non-judgemental history: when, how, who was there? | Factual record
+key: Record explanations verbatim and note inconsistency | Documentation
+key: Speak to the child alone if appropriate, with open questions, not leading ones | Child's voice
+key: Explain you cannot agree to keep it off the record; the child's welfare comes first | Honesty and duty
+key: Other children in the household, including the baby | Siblings at risk
+key: Bleeding disorder history | Exclude medical causes
+rf: Bruising on ears, back or upper arms in a child, with changing explanations | Same-day safeguarding referral
+sum: So Mason has several bruises in different places, the explanations have varied, and you'd prefer they weren't recorded. Is that right?
+pres: This is a history from Kelly about her son Mason, 7, with multiple bruises of different ages on the upper arms, back and ear, inconsistent explanations, delayed presentation and fearful behaviour, with a baby sibling at home. These features raise concern for non-accidental injury. I have documented findings factually, cannot agree to omit them, and will make a same-day safeguarding referral.
+ddx: Non-accidental injury, because of bruising in protected sites with changing explanations | Bleeding disorder such as ITP or haemophilia, excluded with FBC and clotting | Genuine accidental injury, considered but not consistent with the pattern
+ix: Full examination with body map; FBC, clotting screen; skeletal survey and other tests decided by the paediatric safeguarding team
+mx: Discuss with the safeguarding lead and on-call paediatrician; same-day referral to children's social care; consider the baby sibling; document factually with times and quotes; do not confront or accuse; explain to the parent what will happen unless doing so puts the child at risk
+tell: I can see you're worried. I'm not able to leave the bruises out of his notes, because my first duty is to make sure Mason is safe. I need to ask the paediatric team to see him today and to share this with the children's services team who help families. I'll explain each step to you.
+
+=== PRF08 | Psychotic patient threatening to leave and confront a neighbour
+who: Jason Pike, 33, unemployed
+act: Agitated, standing near the door, scanning the room; tense voice; not hitting anyone.
+open: I'm leaving. I'm going to sort out my neighbour once and for all.
+story: He's controlling my thoughts through the walls. He's been doing it for weeks. I'm going to make him stop tonight.
+hpc: Delusions: Neighbour controlling his thoughts
+hpc: Hallucinations: Hears the neighbour's voice
+hpc: Intent: Plans to confront him tonight
+hpc: Weapon: ONLY IF ASKED: has a hammer at home
+hpc: Insight: None
+yes: Not taking medication for 2 months
+no: Suicidal thoughts; drug use today; head injury
+pmh: Schizophrenia; one previous admission under section 2
+dh: Aripiprazole, stopped 2 months ago
+all: None
+fh: Nothing relevant
+sh: Lives alone, next door to the neighbour
+ice: The neighbour is the problem | Being controlled | To leave
+cue: "If you try to stop me, I'll just go anyway."
+ask: You can't keep me here, can you?
+key: Stay calm, safe position, non-confrontational, give space | De-escalation and safety
+key: Explore beliefs and intent: what do you plan to do, do you have a weapon? | Risk to others
+key: Risk to self, from others, self-neglect | Full risk assessment
+key: Assess capacity and mental state | Legal options
+key: Know the law: an FY1 cannot detain under the MHA; call senior psychiatry, nurse holding power section 5(4) or doctor holding power section 5(2) applies only to inpatients, police for imminent danger | Proper escalation
+key: Duty to warn the neighbour: discuss with seniors about disclosure in the public interest | Third-party risk
+rf: Imminent risk to an identifiable person with access to a weapon | Senior help now, police if needed
+sum: So you believe your neighbour is controlling your thoughts, you plan to confront him tonight, you have a hammer at home and you stopped your medication two months ago. Is that right?
+pres: Jason Pike is a 33-year-old man with schizophrenia off antipsychotic medication for 2 months with persecutory delusions of thought control by his neighbour, auditory hallucinations, no insight and stated intent to confront the neighbour tonight with access to a hammer. There is a significant risk to an identifiable person. As an FY1 I cannot detain him; I have escalated to the senior psychiatrist for urgent Mental Health Act assessment and would involve security or police if he attempts to leave with imminent risk.
+ddx: Relapse of schizophrenia with high risk to others | Drug-induced psychosis, excluded by history and urine screen | Organic cause, excluded with examination and bloods
+ix: Urine drug screen; bloods; physical examination when safe
+mx: Keep staff safe; urgent senior psychiatry review; MHA assessment by an AMHP and two doctors; if an inpatient, section 5(2) by the responsible clinician or their nominee; police under section 136 in a public place; consider public interest disclosure to protect the neighbour; restart antipsychotic
+tell: Jason, I can see how frightening and angry this feels. I'm worried about what might happen tonight, for you and for your neighbour. I'd like you to stay and talk with my senior, who can help with these experiences. Can we sit down together while they come?
+
+=== PRF15 | Angry patient after a long wait for analgesia
+who: Mike Sutton, 52, delivery driver
+act: Raised voice, pacing, holding his side; calms when listened to; not threatening.
+open: Four hours! Four hours and nobody has given me anything for the pain!
+story: I've got a kidney stone, I know the feeling. I asked three times for painkillers. Nobody explained what's going on.
+hpc: Pain: Right loin to groin, 8 out of 10, colicky
+hpc: Wait: 4 hours, no analgesia given
+hpc: Explanation: None given about the delay
+hpc: Previous: Kidney stones twice before
+yes: Nausea; blood in urine before
+no: Fever; rigors; single kidney; allergies to NSAIDs
+pmh: Kidney stones
+dh: None
+all: None
+fh: Nothing relevant
+sh: Delivery driver, self-employed
+ice: Nobody cares | Missing work and income | Pain relief and an explanation
+cue: "I'm not a troublemaker, I'm just in agony."
+ask: Why has nobody helped me?
+key: Introduce yourself, sit down, listen without interrupting | De-escalation
+key: Acknowledge and apologise for the wait and lack of communication | Validating
+key: Address the immediate need: assess pain and give analgesia now | Treating the cause of anger
+key: Clinical history: fever, rigors, kidney function | Safety
+key: Explain the plan and timeline honestly | Restoring trust
+key: Offer the PALS or complaint route if he wishes | Feedback
+rf: Fever with obstruction | Emergency drainage
+sum: So you've waited four hours in severe pain from what feels like a kidney stone, nobody's given you painkillers or explained the delay, and you've no fever. Is that right?
+pres: Mike Sutton is a 52-year-old man with a history of renal stones, angry after waiting 4 hours with severe right loin-to-groin colic without analgesia or explanation, not physically threatening, apyrexial. I acknowledged and apologised, gave analgesia, explained the plan, and offered PALS. Clinically this is likely ureteric colic.
+ddx: Right ureteric colic | Infected obstructed kidney, excluded by no fever | Other causes such as AAA, considered given age, excluded on examination and imaging
+ix: Urine dip; U&Es, FBC, CRP; CT KUB
+mx: Analgesia now: IM diclofenac or IV paracetamol; antiemetic; CT KUB; regular updates; incident or feedback form if desired; PALS information
+tell: I'm really sorry you've waited so long in pain without anyone explaining; that's not okay. I'm going to give you a painkiller injection right now, then arrange a scan. I'll come back to update you within the hour. If you'd like to give feedback, the patient advice service can help.
+
+=== PRF16 | Patient wishing to complain about a previous consultation
+who: Elaine Ross, 61, retired cashier
+act: Composed but upset, holding a notebook; still in pain.
+open: I want to make a formal complaint. The last doctor ignored me.
+story: Three weeks ago I came with back pain and was told it was muscular. It's got worse, I'm waking at night with it, and I've lost weight.
+hpc: Back pain: Thoracic, 6 weeks, worsening
+hpc: Night pain: Wakes her
+hpc: Weight: Lost 5 kg
+hpc: Previous consultation: Told muscular, no examination
+hpc: Neurology: No leg weakness, numbness or bladder problems
+yes: Night pain; weight loss; fatigue
+no: Trauma; fever; saddle numbness; urinary retention
+pmh: Breast cancer 8 years ago, treated
+dh: Paracetamol; letrozole finished
+all: None
+fh: Nothing relevant
+sh: Lives alone
+ice: She was dismissed | Something serious missed | A complaint and proper care
+cue: "Nobody even examined me."
+ask: How do I complain?
+key: Acknowledge her experience without criticising colleagues | Professional and empathetic
+key: Explain the complaint route: practice complaints manager, NHS England or the ombudsman, PALS for hospitals | Information
+key: Make sure today's clinical needs are addressed: full history and examination | Clinical priority
+key: Red flags: night pain, weight loss, previous cancer, neurology | Spinal metastasis
+key: Agree the plan and safety-net | Trust
+rf: Previous cancer with new back pain | Urgent MRI for metastatic spinal disease
+sum: So you want to complain because you feel your back pain was dismissed, and since then it's worse at night with weight loss, and you had breast cancer before. Is that right?
+pres: Elaine Ross is a 61-year-old woman with previous breast cancer and 6 weeks of worsening thoracic back pain with night pain and 5 kg weight loss, without neurological symptoms, who wishes to complain about a previous consultation. I explained the complaints process and prioritised today's assessment, which raises concern for spinal metastases.
+ddx: Metastatic breast cancer to the spine, because of night pain, weight loss and previous cancer | Osteoporotic fracture after aromatase inhibitor, assessed by imaging | Mechanical back pain, a diagnosis of exclusion here
+ix: Urgent MRI whole spine per NICE for suspected spinal metastases without neurology within 1 week; FBC, calcium, ALP, LFTs, myeloma screen
+mx: Urgent oncology and MSCC pathway discussion; analgesia; safety-net for leg weakness, numbness or bladder or bowel change, which needs same-day MRI; complaint information
+tell: I'm sorry you felt unheard. You have every right to complain, and I'll give you the details of the practice complaints manager. Most importantly today, because of your past breast cancer and night pain, I'd like an urgent MRI scan of your spine. If you get leg weakness, numbness or trouble passing urine, go to A&E straight away.
+
+=== PRF19 | Respectful identity and a persistent cough
+who: Sam Taylor, 27, graphic designer, uses they/them
+act: Guarded at first; relax when called Sam and they; cough occasionally.
+open: Hi, I'm Sam. I use they/them. Your system might have a different name.
+story: I've had this cough for five weeks. It's dry and worse at night. I'm fine otherwise.
+hpc: Cough: Dry, 5 weeks, worse at night
+hpc: Trigger: Started after a cold
+hpc: Wheeze: Mild when running
+hpc: Systemic: No fever, weight loss or night sweats
+hpc: Smoking: Never
+yes: Hay fever; post-nasal drip
+no: Haemoptysis; breathlessness at rest; reflux; ACE inhibitor; TB contact; vaping
+pmh: Hay fever
+dh: Cetirizine in summer
+all: None
+fh: Mother has asthma
+sh: Graphic designer; lives with partner; no smoking
+ice: Post-viral cough | Being misgendered or symptoms dismissed | Treatment for the cough
+cue: "Last time they kept using my old name."
+ask: Will my records show my name properly?
+key: Use their name and pronouns; verify identity with date of birth and address rather than the name | Respect and safety
+key: Update the preferred name on the record with consent | Respect
+key: Cough history: duration, triggers, nocturnal, wheeze, reflux, post-nasal drip | Differentials
+key: Red flags: haemoptysis, weight loss, night sweats, smoking | Serious causes
+key: Avoid irrelevant assumptions about identity in the clinical history | Professionalism
+rf: Haemoptysis, weight loss or night sweats | Chest X-ray and further tests
+sum: So, Sam, you've had a dry cough for five weeks after a cold, worse at night with mild wheeze when running, and hay fever. Is that right?
+pres: Sam Taylor is a 27-year-old non-smoker who uses they/them pronouns, with 5 weeks of dry nocturnal cough after a viral illness, mild exercise wheeze, hay fever and a family history of asthma, without red flags. I verified identity by date of birth and address and updated their preferred name. This is likely post-viral cough or cough-variant asthma.
+ddx: Post-viral cough or cough-variant asthma, because of nocturnal cough with atopy | Post-nasal drip from rhinitis | Other causes such as reflux, or TB and lung cancer, excluded by history and chest X-ray if persisting
+ix: Peak flow diary; FeNO and spirometry with reversibility; chest X-ray if lasting beyond 8 weeks or red flags
+mx: Trial of inhaled corticosteroid if asthma suspected after testing; treat rhinitis with nasal steroid; safety-net
+tell: Thanks, Sam. I've updated your record so your name shows properly. This cough is likely from airways that are still irritated after the cold, possibly mild asthma given your hay fever. Let's check your breathing tests and treat your nose. If you cough up blood or lose weight, come back sooner.
+
+=== EBM06 | Confounding in an observational study
+who: Brian Murray, 64, retired teacher
+act: Holding a newspaper clipping; curious and keen.
+open: I read that coffee prevents strokes. Should I drink more coffee?
+story: The article said coffee drinkers had fewer strokes in a big study. I had a mini-stroke last year, so I want to do anything that helps.
+hpc: Article: Observational cohort, coffee drinkers had fewer strokes
+hpc: Study detail: Coffee drinkers were younger and smoked less; adjustment not reported
+hpc: Him: TIA last year
+hpc: Current coffee: 1 cup a day
+yes: Hypertension
+no: Palpitations; insomnia; reflux
+pmh: TIA; hypertension
+dh: Clopidogrel; atorvastatin; amlodipine
+all: None
+fh: Father had a stroke
+sh: Ex-smoker; walks daily
+ice: Coffee will protect him | Another stroke | Whether to drink more
+cue: "It was a really big study."
+ask: Does coffee prevent strokes?
+key: What did the article say, and what kind of study was it? | Study design
+key: Explain association versus causation: an observational study can't prove coffee caused fewer strokes | Core concept
+key: Confounding: coffee drinkers were younger and smoked less, which lower stroke risk anyway | Confounders
+key: Other limitations: reverse causation, residual confounding, recall bias, healthy user effect | Bias
+key: What would be stronger evidence: adjusted analysis, randomised trial, meta-analysis | Hierarchy of evidence
+key: Bring it back to proven measures for him | Practical advice
+rf: Palpitations or high caffeine intake | Caffeine side effects
+sum: So you read that coffee drinkers had fewer strokes, and you wonder whether drinking more would protect you after your mini-stroke. Is that right?
+pres: Brian Murray is a 64-year-old man with previous TIA asking whether to drink more coffee after reading of an observational cohort where coffee drinkers had fewer strokes. The coffee drinkers were younger and smoked less, and adjustment is not reported, so the association is likely confounded and cannot show causation. Proven secondary prevention matters more.
+ddx: Confounding by age and smoking explains the association | Reverse causation or healthy user bias, other explanations | A true small protective effect, which only randomised or well-adjusted evidence could support
+ix: Look for the original study and whether results were adjusted for confounders
+mx: Moderate coffee is fine; no need to increase; focus on BP control, antiplatelet, statin, exercise, not smoking, diet and alcohol moderation
+tell: The study only shows that coffee drinkers had fewer strokes, not that coffee caused it. Those people were also younger and smoked less, which protects against stroke by itself. So drinking more coffee isn't likely to help. Your tablets, blood pressure control and staying active are what really cut your risk.
+
+=== RP02 | Telephone referral for suspected testicular torsion
+who: Dr Patel, urology registrar on call (actor), about Callum Byrne, 17
+act: Busy, in theatre recovery; slightly impatient; responds to a clear SBAR.
+open: Urology registrar, go ahead.
+story: If the referral is clear, I'll come straight down. If it rambles, I'll ask what you actually want.
+hpc: Patient: Callum Byrne, 17, ED cubicle 4
+hpc: Pain: Sudden severe left testicular pain for 2 hours, with vomiting
+hpc: Examination: High-riding tender left testis, absent cremasteric reflex
+hpc: Urinary: No symptoms; no trauma
+hpc: Observations: HR 100, temp 36.9, otherwise normal
+yes: Vomiting; nil by mouth since arrival
+no: Fever; dysuria; previous episodes; bleeding disorders
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Sixth-form student; mum present
+ice: Registrar: is this a genuine torsion? | Registrar: wasting theatre time | Registrar: a clear request
+cue: "So what do you want me to do?"
+ask: Has he had an ultrasound?
+key: Introduce yourself, role, location, and confirm who you're speaking to | Situation
+key: SBAR: situation in one line: suspected left testicular torsion, 2 hours, needs urgent exploration | Clarity
+key: Background and assessment: onset, vomiting, examination findings, observations | Evidence
+key: Recommendation: please review now for scrotal exploration; he is nil by mouth with analgesia given | Clear ask
+key: Don't delay for ultrasound | Time-critical
+key: Read back the plan and agree a timeframe | Closed-loop communication
+rf: Over 6 hours from onset | Testicular salvage falls sharply
+sum: To confirm: you'll come to ED within 15 minutes to see Callum for scrotal exploration, and we'll keep him nil by mouth and get consent ready.
+pres: I referred Callum Byrne, 17, to the urology registrar using SBAR: sudden severe left testicular pain for 2 hours with vomiting, a high-riding tender testis and absent cremasteric reflex, consistent with testicular torsion. I requested urgent review for scrotal exploration without waiting for ultrasound, confirmed he is nil by mouth with analgesia, and read back the agreed plan.
+ddx: Left testicular torsion | Torsion of a testicular appendage, distinguished at surgery | Epididymo-orchitis, unlikely with sudden onset and no urinary symptoms
+ix: None that delay surgery; group and save; pre-operative bloods
+mx: Analgesia; nil by mouth; consent with patient and mum; emergency scrotal exploration and bilateral fixation
+tell: Callum, I've spoken to the urology surgeon, who's coming within 15 minutes. You'll likely need a quick operation to untwist and fix the testicle, and the sooner it's done the better. Please don't eat or drink anything.
+
+=== RP04 | Deteriorating NEWS2 in pneumonia
+who: Staff Nurse Ali, about Eileen Ward, 78
+act: Concerned, holding the observation chart; Eileen is breathless and drowsy in bed.
+open: Mrs Ward's NEWS has jumped. She was fine this morning.
+story: She came in yesterday with pneumonia. This morning RR 18 and sats 96%. Now RR 30, sats 88% on air, HR 120, BP 94/58. She's more confused.
+hpc: Change: RR 18 to 30; SpO2 96% to 88% on air
+hpc: HR: 120
+hpc: BP: 94/58
+hpc: Consciousness: New confusion
+hpc: Temperature: 38.6
+yes: Reduced urine output
+no: Chest pain; known COPD or CO2 retention; DNACPR in place
+pmh: Pneumonia; hypertension; type 2 diabetes
+dh: Co-amoxiclav and clarithromycin IV; amlodipine; metformin
+all: None
+fh: Not relevant
+sh: Lives alone, independent
+ice: Nurse: she's deteriorating | Nurse: she'll arrest | Nurse: someone to come now
+cue: "I'm really worried about her."
+ask: Can you come now?
+key: Recognise NEWS2 well above 7 with new confusion: urgent response | Escalation threshold
+key: A to E assessment at the bedside now | Structured approach
+key: Oxygen to target 94 to 98% | Treat hypoxia
+key: Sepsis Six within the hour: cultures, lactate, fluids, antibiotics review, urine output | Sepsis
+key: Escalate to the registrar and critical care outreach; SBAR | Senior help
+key: Check escalation plan and treatment limits | Ceiling of care
+rf: Systolic below 90, RR over 25, new confusion | Red flag sepsis
+sum: So Mrs Ward has gone from RR 18 and sats 96% to RR 30, sats 88%, HR 120 and BP 94/58, she's newly confused and febrile.
+pres: Eileen Ward is a 78-year-old woman with community-acquired pneumonia who has deteriorated over hours: RR 30, SpO2 88% on air, HR 120, BP 94/58, temperature 38.6 and new confusion, giving a NEWS2 of at least 12. This is sepsis with respiratory failure. I have started oxygen, the Sepsis Six and escalated to the medical registrar and outreach.
+ddx: Sepsis with type 1 respiratory failure from worsening pneumonia | Pulmonary embolism, considered given immobility | Complications such as empyema or pulmonary oedema from fluids, assessed with chest X-ray and examination
+ix: ABG; lactate; blood cultures; FBC, CRP, U&Es; chest X-ray; ECG; urine output monitoring
+mx: Oxygen to target 94 to 98%; IV fluid bolus 500 mL with reassessment; review antibiotics against cultures; catheter if needed; hold metformin; senior review and critical care outreach; agree escalation plan and DNACPR discussion if appropriate
+tell: Nurse Ali, thank you for calling. I'm coming now. Please start oxygen to keep her sats 94 to 98, put out a call to outreach, and get a blood gas kit and cultures ready. I'll review her and escalate to the registrar.
+
+=== RP08 | Urgent referral letter for a suspicious breast lump
+who: Valerie Grant, 62, retired hairdresser
+act: Very anxious, holding a tissue; wants to know what the letter will say.
+open: You're sending me to the hospital. What are you going to tell them? Do I have cancer?
+story: I found a hard lump in my left breast two weeks ago. The skin seems pulled in. I've never had a mammogram since I moved here.
+hpc: Lump: Left breast, upper outer, hard, 2.5 cm
+hpc: Skin: Tethering
+hpc: Duration: 2 weeks noticed
+hpc: Axilla: No palpable nodes
+hpc: Screening: Never attended
+yes: Anxiety
+no: Nipple discharge; bone pain; breathlessness; weight loss
+pmh: Hypertension
+dh: Ramipril
+all: None
+fh: Sister had breast cancer at 58
+sh: Lives alone; retired hairdresser
+ice: Cancer | Dying alone | To know what's being said
+cue: "I've got nobody to come with me."
+ask: Will the letter say I have cancer?
+key: Explain the referral: suspected cancer pathway to be seen within 2 weeks; the letter describes findings, not a diagnosis | Honest framing
+key: Letter content: demographics, reason for referral, findings, relevant history, medicines, allergies, family history, social needs, urgency | Complete letter
+key: Record facts, not conclusions: "suspicious for malignancy" | Accuracy
+key: Confirm consent and contact details | Practicality
+key: Address emotional needs and support | Holistic care
+rf: Hard lump with skin tethering | Suspected cancer pathway
+sum: So you found a hard lump in your left breast two weeks ago with pulled-in skin, your sister had breast cancer, and you'd like to know what the letter says. Is that right?
+pres: Valerie Grant is a 62-year-old woman with a 2-week history of a hard 2.5 cm left upper outer quadrant breast lump with skin tethering, no axillary nodes, never screened, and a sister with breast cancer. I am making a suspected cancer pathway referral describing the findings as suspicious, not confirmed, with her consent, contact details and social circumstances, and have addressed her anxiety.
+ddx: Breast cancer, because of a hard lump with skin tethering | Fat necrosis, distinguished by history and imaging | Fibroadenoma or cyst, unlikely at her age with tethering
+ix: Triple assessment at the breast clinic
+mx: Suspected cancer pathway referral per NICE NG12; letter with clear findings and urgency; safety-net; breast care nurse contact; support options
+tell: The letter will describe what I've found: a hard lump with some skin change that needs checking quickly. It won't say you have cancer, because we don't know that yet. You'll be seen within two weeks for a scan and a test. You're welcome to bring a friend, and the clinic has nurses who'll support you.
+
+=== WD05 | Salicylate overdose
+who: Ellie Morgan, 24, student
+act: Breathing fast, flushed, sweating; ears ringing; anxious and nauseous.
+open: My ears are ringing and I feel sick. I took some tablets.
+story: Last night after a breakup I took a load of tablets from the cupboard. I didn't look what they were. I've been sick and I can't stop breathing fast.
+hpc: Ingestion: Unknown tablets, last night, about 6 hours ago
+hpc: Symptoms: Tinnitus, vomiting, sweating, rapid breathing
+hpc: ABG: pH 7.47, PaCO2 3.0, bicarbonate 16
+hpc: Packets: ONLY IF ASKED: aspirin 300 mg tablets from her mum's cupboard, about 40
+hpc: Intent: Wanted to die at the time
+yes: Low mood for months
+no: Alcohol; other tablets; previous overdoses; seizures
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Lives with flatmates; relationship ended
+ice: Sick from the tablets | Damage | To feel better
+cue: "I just wanted it to stop."
+ask: Am I going to be okay?
+key: What, how many, when, with what? Check packets | Toxicology
+key: Tinnitus, vomiting, hyperventilation, sweating: salicylate toxicity | Recognition
+key: Interpret the ABG: respiratory alkalosis with metabolic acidosis | Mixed disturbance
+key: Salicylate and paracetamol levels, glucose, potassium | Severity
+key: Suicide intent and current risk | Psychiatric assessment
+rf: Salicylate over 700 mg/L, acidaemia, confusion, renal failure | Haemodialysis
+sum: So last night you took about 40 aspirin tablets after a breakup, and now you have ringing ears, vomiting and fast breathing, and at the time you wanted to die. Is that right?
+pres: Ellie Morgan is a 24-year-old woman about 6 hours after an intentional overdose of around 40 aspirin 300 mg tablets, about 12 g, with tinnitus, vomiting, sweating and hyperventilation. ABG shows a mixed respiratory alkalosis and metabolic acidosis, typical of salicylate poisoning. Toxicological treatment takes priority, then psychosocial assessment.
+ddx: Salicylate poisoning with mixed acid-base disturbance | Co-ingestion of paracetamol, excluded with a level | Other causes of high anion gap acidosis, excluded with lactate, ketones and glucose
+ix: Salicylate level and repeat at 2 hours until falling; paracetamol level; U&Es, glucose, potassium, INR; VBG repeated; ECG
+mx: TOXBASE; IV fluids; correct potassium; IV sodium bicarbonate to alkalinise urine for moderate to severe toxicity; haemodialysis if severe; avoid intubation where possible as it worsens acidosis; liaison psychiatry once medically fit per NICE NG225
+tell: The aspirin is affecting your body's chemistry, which is why your ears ring and you're breathing fast. We'll give fluids and a medicine through the drip to help your kidneys clear it, and check levels regularly. Once you're better physically, someone will talk with you about how things got to this point.
+
+=== IL029 | Irritable bowel syndrome
+door: GP: a 28-year-old woman has 8 months of recurrent abdominal pain with bloating and an altered bowel habit.
+who: Rachel Hughes, 28, call centre worker
+act: Frustrated; rub your lower abdomen; worried about missing work.
+open: My stomach's been up and down for months. Bloating, cramps, and I never know if it's diarrhoea or constipation.
+story: For eight months I've had cramping lower tummy pain that eases when I open my bowels. Some weeks it's loose, some weeks hard. I bloat by evening. It's worse with stress.
+hpc: Pain: Lower abdominal cramps, relieved by defecation
+hpc: Bowels: Alternating diarrhoea and constipation
+hpc: Bloating: Worse in the evening
+hpc: Duration: 8 months
+hpc: Trigger: Stress, certain foods
+yes: Mucus; urgency
+no: Rectal bleeding; weight loss; nocturnal symptoms; family history of bowel cancer, IBD or coeliac disease; fever; anaemia
+pmh: Anxiety
+dh: Combined pill; loperamide as needed
+all: None
+fh: Nothing relevant
+sh: Call centre worker; shift work; drinks 4 coffees a day
+ice: Food intolerance | Bowel cancer | A diagnosis and something to help
+cue: "My aunt had bowel cancer, but she was 75."
+ask: Is it cancer?
+key: Pain relieved by defecation, change in frequency or form? | Rome IV and NICE criteria
+key: Bloating, mucus, urgency, worse after eating? | Supporting features
+key: Red flags: bleeding, weight loss, nocturnal symptoms, over 60, anaemia, family history | Exclude serious disease
+key: Diet, caffeine, alcohol, stress, sleep | Triggers
+key: Effect on life and mood | Impact
+rf: Rectal bleeding, weight loss or a raised calprotectin | Further investigation
+sum: So for eight months you've had cramping pain that eases when you open your bowels, alternating loose and hard stools, bloating, and no bleeding or weight loss. Is that right?
+pres: Rachel Hughes is a 28-year-old woman with 8 months of lower abdominal pain relieved by defecation, alternating bowel habit, evening bloating and mucus, worse with stress and caffeine, without red flags. This is likely irritable bowel syndrome, pending exclusion of coeliac disease and inflammatory bowel disease.
+ddx: Irritable bowel syndrome, mixed type, because of pain linked to defecation with altered habit and no red flags | Coeliac disease, excluded with tTG IgA | Inflammatory bowel disease, excluded with faecal calprotectin
+ix: FBC, ESR or CRP, coeliac serology tTG IgA with total IgA, faecal calprotectin; CA-125 in women over 50 with IBS-type symptoms
+mx: Explain the diagnosis positively; diet: regular meals, reduce caffeine, alcohol and fizzy drinks, adjust fibre, consider low FODMAP with a dietitian; antispasmodic such as mebeverine; loperamide or laxative as needed, avoiding lactulose; low-dose tricyclic if persistent; CBT or hypnotherapy if refractory
+tell: This sounds like irritable bowel syndrome, where the gut is extra sensitive. It's common and doesn't lead to cancer. I'll do some blood and stool tests to rule out other causes. Cutting down caffeine and regular meals often help, and there are medicines for cramps and loose or hard stools.
+
+=== IL101 | Antipsychotic side effects and monitoring
+door: Mental health clinic: a 30-year-old man with schizophrenia stable on olanzapine attends a review. He has gained weight and wants to stop his medication.
+who: Kieran Walsh, 30, kitchen porter
+act: Calm, slightly flat affect; pull at your waistband; frustrated about weight.
+open: I want to stop the olanzapine. I've put on two stone and I feel slow.
+story: It's kept the voices away for a year, but I've gained loads of weight and I'm tired all the time. My mates take the mick.
+hpc: Medication: Olanzapine 15 mg nightly, 14 months
+hpc: Symptoms: Voices gone, no paranoid thoughts
+hpc: Weight: Gained 13 kg, BMI 31
+hpc: Sedation: Tired in the mornings
+hpc: Other: Increased thirst recently
+yes: Increased appetite; thirst; passing more urine
+no: Stiffness; tremor; restlessness; abnormal movements; fever; breast changes; sexual dysfunction
+pmh: Schizophrenia
+dh: Olanzapine 15 mg
+all: None
+fh: Father has type 2 diabetes
+sh: Lives with mum; works as kitchen porter; smokes 20 a day; occasional cannabis
+ice: The tablet is causing his weight | Getting ill again if he stops, and diabetes | To stop the medicine or change it
+cue: "I don't want to end up in hospital again, though."
+ask: Can I just stop it?
+key: Response and current mental state | Benefit
+key: Metabolic side effects: weight, appetite, thirst, polyuria | Olanzapine risks
+key: Extrapyramidal symptoms, akathisia, tardive dyskinesia, prolactin effects, sedation | Side effect screen
+key: Adherence, cannabis, smoking | Relapse risk and levels
+key: Explain risks of stopping suddenly: relapse | Shared decision
+key: Monitoring: weight, waist, BP, HbA1c, lipids, ECG, prolactin | Physical health
+rf: Thirst and polyuria on olanzapine | Check glucose: diabetes or DKA
+sum: So olanzapine has kept the voices away, but you've gained 13 kg, feel tired and are thirsty and passing more urine, and you'd like to stop it. Is that right?
+pres: Kieran Walsh is a 30-year-old man with schizophrenia in remission on olanzapine 15 mg for 14 months with 13 kg weight gain, sedation, and new thirst and polyuria, with a family history of type 2 diabetes. He wants to stop it. Metabolic syndrome and possible new diabetes need urgent checking, and a supported switch to a more weight-neutral antipsychotic is preferable to stopping.
+ddx: Antipsychotic-induced weight gain and possible type 2 diabetes | Other causes of polyuria, such as hypercalcaemia, excluded with bloods | Relapse risk if stopped abruptly
+ix: Capillary glucose now, HbA1c, lipids, U&Es, LFTs, prolactin; weight, waist, BP; ECG
+mx: Do not stop abruptly; discuss switching to aripiprazole with psychiatry; lifestyle and dietetic support; consider metformin for antipsychotic-induced weight gain; treat diabetes if confirmed; smoking cessation; annual physical health check
+tell: I understand: the weight gain is a real side effect of olanzapine. Stopping suddenly risks the voices coming back, but we can talk to your psychiatrist about switching to one that's kinder on weight. Your thirst could mean high sugar, so I'll check that today.
+
+=== IL107 | Somatic symptom disorder
+door: GP: a 38-year-old woman attends for the ninth time this year with multiple physical symptoms. Previous investigations, including bloods, endoscopy and an MRI, have been normal.
+who: Sarah Lawson, 38, part-time cleaner
+act: Anxious, list of symptoms written down; frustrated, tearful when doubted.
+open: I've brought a list. My headaches, my stomach, my back, my tingling. Something's being missed.
+story: For two years I've had symptoms all over. Every test comes back normal. I'm sure it's something like MS. I can't work full-time any more.
+hpc: Symptoms: Headaches, abdominal pain, back pain, tingling in hands, fatigue
+hpc: Duration: 2 years
+hpc: Investigations: Normal bloods, endoscopy, MRI brain
+hpc: Consultations: 9 this year, 2 A&E visits
+hpc: Function: Reduced work hours, stopped socialising
+yes: Worry about illness most of the day; low mood; poor sleep
+no: Weight loss; objective neurological signs; fevers; new red flags
+pmh: IBS; anxiety
+dh: Codeine; amitriptyline 10 mg
+all: None
+fh: Mother had chronic pain
+sh: Divorced; two teenagers; financial stress
+ice: Something like MS has been missed | Being disbelieved or dying | Another scan
+cue: "Everyone thinks it's in my head."
+ask: Can I have another MRI?
+key: Validate the symptoms as real and their impact | Therapeutic alliance
+key: Explore symptoms, health worries, time spent and behaviours: checking, reassurance seeking | Somatic symptom disorder
+key: Screen for depression, anxiety and trauma | Comorbidity
+key: Red flags or new objective findings | Avoid missing disease
+key: Explain the mind-body link without saying it's in her head | Explanation
+key: Agree regular planned appointments with one clinician | Containment
+rf: New objective findings | Investigate appropriately
+sum: So for two years you've had headaches, tummy and back pain, tingling and tiredness, every test has been normal, and you're worried about MS and that people think it's in your head. Is that right?
+pres: Sarah Lawson is a 38-year-old woman with 2 years of multiple physical symptoms, extensive normal investigations, frequent consultations, persistent health worry and functional decline, with anxiety, low mood and stressors. This is consistent with somatic symptom disorder; there are no new red flags.
+ddx: Somatic symptom disorder | Depression or generalised anxiety, contributing | Organic disease such as MS, unlikely with normal MRI and no signs but kept under review
+ix: No repeat imaging without new signs; PHQ-9 and GAD-7
+mx: One named clinician with regular scheduled appointments; explanation of how stress and the nervous system amplify symptoms; CBT; treat depression or anxiety; graded activity; review codeine and taper; limit unnecessary tests
+tell: I believe your symptoms are real and they're clearly affecting your life. Your tests are reassuring that there's no MS or serious disease. Symptoms like these often come from an overactive nervous system, especially under stress, and they can improve. Let's meet regularly, and I'd like to refer you for a therapy that helps people with exactly this.
+
+=== IL113 | Catatonia and ECT discussion
+door: Mental health ward: the wife of a 52-year-old man with severe depression and catatonic features asks about ECT, which the team has recommended after lorazepam has not worked.
+who: Helen Brooks, wife of Peter Brooks, 52
+act: Frightened, has read about ECT online; Peter sits mute and motionless nearby.
+open: The team wants to give Peter electric shock treatment. It sounds barbaric.
+story: He's had severe depression for three months. For two weeks he's barely spoken, moved or eaten. The lorazepam hasn't helped. I've seen films about ECT.
+hpc: Illness: Severe depression with catatonia
+hpc: Intake: Barely eating or drinking, weight loss
+hpc: Treatment: Lorazepam trial, no response
+hpc: Risk: Dehydration, pressure areas, VTE
+hpc: Capacity: Peter lacks capacity to consent
+yes: Previous good response to antidepressants years ago
+no: Previous ECT; recent heart attack; raised intracranial pressure
+pmh: Recurrent depression; hypertension
+dh: Lorazepam; sertraline; amlodipine
+all: None
+fh: Mother had depression
+sh: Married; teacher on sick leave
+ice: ECT is cruel | Brain damage, memory loss | Peter back to himself
+cue: "I just want my husband back."
+ask: Will it damage his brain or memory?
+key: Find out what she knows and fears | Starting point
+key: Explain ECT: under general anaesthetic with muscle relaxant, a brief controlled seizure, usually twice weekly | Modern ECT
+key: Benefits: most effective treatment for severe depression with catatonia, often works quickly | Indication
+key: Side effects: headache, confusion, short-term memory loss, rare anaesthetic risks | Honest risks
+key: Consent and capacity: lacking capacity, ECT needs the Mental Health Act with a second opinion doctor, and must respect any advance refusal | Legal framework
+rf: Not eating or drinking | Physical risk making treatment urgent
+sum: So Peter has severe depression and has barely spoken, moved or eaten for two weeks, lorazepam hasn't helped, and you're worried ECT is harmful. Is that right?
+pres: This is a conversation with Helen, wife of Peter, 52, who has severe depression with catatonia, minimal oral intake and no response to lorazepam, lacking capacity. ECT is indicated. I explained modern ECT under anaesthesia, its effectiveness, side effects including temporary memory problems, and the legal safeguards including the Mental Health Act and second opinion.
+ddx: Severe depressive episode with catatonia | Neuroleptic malignant syndrome or medical causes of catatonia, excluded | Malignant catatonia, which makes treatment more urgent
+ix: Pre-ECT workup: physical examination, ECG, bloods, anaesthetic assessment
+mx: ECT under the Mental Health Act section 58A with a SOAD certificate where he lacks capacity, or as an emergency under section 62 if life-threatening; fluids and nutrition, VTE prophylaxis; continue lorazepam; involve Helen
+tell: I can understand why it sounds frightening. Modern ECT is done under a general anaesthetic with a muscle relaxant, so Peter won't feel it or convulse visibly. For severe depression like his, it's one of the most effective treatments, often working within a few weeks. Some people have temporary memory problems, which usually improve. Because Peter can't decide himself, an independent doctor must agree it's right.
+
+=== IL120 | Conduct disorder in a child
+door: CAMHS clinic: the mother of a 10-year-old boy reports a year of aggression, lying, stealing and fighting at school, and exclusion from school twice.
+who: Donna Price, mother of Tyler, 10
+act: Exhausted, defensive about her parenting; Tyler kicks the chair and refuses to answer.
+open: I can't cope with him. He's been excluded twice. Everyone blames me.
+story: For about a year he's been fighting, lying, stealing from shops and from my purse. He was cruel to the neighbour's cat. He doesn't seem sorry.
+hpc: Behaviour: Aggression, fighting, lying, stealing, cruelty to an animal
+hpc: Duration: 12 months
+hpc: School: Excluded twice, behind with reading
+hpc: Home: Defiant, outbursts
+hpc: Remorse: Little
+yes: Difficulty concentrating; impulsivity
+no: Low mood; psychotic symptoms; seizures; substance use; sexualised behaviour
+pmh: Born at 34 weeks; speech delay
+dh: None
+all: None
+fh: Father in prison, history of violence
+sh: Lives with mum and younger sister; dad absent; mum works two jobs
+ice: He's bad | Him ending up like his dad | Help and support
+cue: "Am I a bad mum?"
+ask: Is it my fault?
+key: Behaviours: type, frequency, severity, settings, duration | Conduct disorder criteria
+key: ADHD, learning difficulties, language problems, autism | Comorbidity
+key: Mood, trauma, exposure to violence | Contributing factors
+key: Safeguarding: risk to him, sister, others; any abuse | Safety
+key: Family, school and social context | Formulation
+key: Validate mum without blame | Engagement
+rf: Abuse or serious violence | Safeguarding referral
+sum: So for a year Tyler has been fighting, lying, stealing and was cruel to an animal, he's been excluded twice, and you feel blamed. Is that right?
+pres: This is a history from Donna about her son Tyler, 10, with 12 months of aggression, deceitfulness, theft, cruelty to an animal and school exclusions, with little remorse, impulsivity, poor concentration, speech delay, prematurity, and exposure to paternal violence. This is consistent with conduct disorder, with possible comorbid ADHD and learning difficulties.
+ddx: Conduct disorder, childhood-onset type | ADHD, which commonly coexists | Oppositional defiant disorder, a milder pattern without serious violations; or trauma-related behaviour
+ix: Strengths and Difficulties Questionnaire from parent and teacher; ADHD rating scales; educational and language assessment
+mx: Per NICE CG158: parent training programme such as Incredible Years; child-focused social and cognitive problem-solving; school liaison and SEN support; treat ADHD if present; safeguarding; support for mum
+tell: You're not a bad mum; you're dealing with something really hard. Tyler's behaviour may be conduct disorder, often linked to attention or learning difficulties. Parenting programmes work well and teach techniques that make a real difference. We'll also work with school and check for ADHD.
+
+=== IL124 | Cutaneous squamous cell carcinoma
+door: GP: a 74-year-old man has a rapidly growing tender lump on his scalp.
+who: Ken Barnes, 74, retired groundskeeper
+act: Bald, take off your cap to show the lesion; matter-of-fact.
+open: I've got a lump on my head that's grown in a few weeks and sometimes bleeds.
+story: Two months ago it was a rough patch. Now it's a raised crusty lump that's sore and catches on my cap.
+hpc: Site: Scalp vertex
+hpc: Growth: Rapid over 2 months
+hpc: Appearance: Raised keratotic crusted nodule, 1.5 cm
+hpc: Symptoms: Tender, bleeds when caught
+hpc: Background: Rough sun-damaged patches on scalp
+yes: Actinic keratoses
+no: Neck lumps; weight loss; immunosuppression
+pmh: Actinic keratoses treated with cream
+dh: Ramipril
+all: None
+fh: Nothing relevant
+sh: Outdoor work for 40 years; no hat
+ice: A cyst | Skin cancer | To have it removed
+cue: "I never bothered with sun cream."
+ask: Is it serious?
+key: Growth speed, tenderness, bleeding? | SCC features
+key: Previous actinic keratoses or skin cancers? | Field change
+key: Sun exposure and immunosuppression | Risk
+key: Lymph nodes in the neck? | Nodal spread
+key: Explain urgent referral | Plan
+rf: Rapidly growing tender keratotic nodule | Suspected cancer pathway
+sum: So over two months a rough patch on your scalp has become a raised, crusty, tender lump that bleeds, and you've worked outdoors without a hat. Is that right?
+pres: Ken Barnes is a 74-year-old retired groundskeeper with extensive sun exposure and previous actinic keratoses with a 2-month rapidly growing tender keratotic crusted scalp nodule that bleeds, without lymphadenopathy. This is cutaneous squamous cell carcinoma until proven otherwise.
+ddx: Cutaneous squamous cell carcinoma, because of a rapidly growing tender keratotic nodule on sun-damaged skin | Keratoacanthoma, managed as SCC | Nodular BCC or amelanotic melanoma, distinguished by histology
+ix: Examine regional nodes; excision biopsy by the specialist team
+mx: Suspected cancer pathway dermatology referral; surgical excision with margins; treat field actinic damage; sun protection; skin surveillance
+tell: This lump could be a type of skin cancer called squamous cell carcinoma, which grows faster than other kinds but is usually cured by removing it. I'm referring you to be seen within two weeks. Wearing a wide-brimmed hat from now on will help protect your scalp.
+
+=== IL127 | Venous leg ulcer
+door: Practice nurse clinic: a 69-year-old woman has a leg ulcer above the inner ankle that has not healed for 3 months.
+who: Jean Hollis, 69, retired dinner lady
+act: Leg up, dressing on, embarrassed by the smell.
+open: This ulcer won't heal. It's been three months and it weeps through my dressings.
+story: It's just above my inside ankle. My legs swell by evening and the skin's gone brown and itchy. I had a clot years ago.
+hpc: Site: Above the medial malleolus
+hpc: Appearance: Shallow, sloughy, weeping
+hpc: Pain: Aching, better when legs raised
+hpc: Skin: Brown staining, itchy, hardened
+hpc: ABPI: 1.05
+yes: Varicose veins; previous DVT; ankle swelling
+no: Rest pain; claudication; diabetes; fever; spreading redness
+pmh: DVT 15 years ago; obesity
+dh: None
+all: None
+fh: Mother had leg ulcers
+sh: Stood all day at work; BMI 34; lives with husband
+ice: Poor healing | Infection, losing her leg | Something that works
+cue: "I'm embarrassed about the smell."
+ask: Why won't it heal?
+key: Site, appearance, duration | Venous features
+key: Swelling, varicose veins, skin changes, previous DVT | Venous hypertension
+key: Claudication, rest pain, diabetes | Arterial disease
+key: Infection signs | Cellulitis
+key: ABPI before compression | Safety
+rf: ABPI below 0.8 | Avoid full compression, vascular referral
+sum: So for three months you've had a weeping ulcer above your inside ankle with swelling and brown, itchy skin, and you had a clot years ago. Is that right?
+pres: Jean Hollis is a 69-year-old woman with a 3-month shallow weeping ulcer above the medial malleolus, oedema, haemosiderin staining, lipodermatosclerosis, varicose veins and previous DVT, with ABPI 1.05 and no arterial symptoms. This is a venous leg ulcer, and compression is safe.
+ddx: Venous leg ulcer | Mixed arterial-venous ulcer, excluded by normal ABPI | Malignant ulcer, biopsy if not healing at 12 weeks or atypical
+ix: ABPI done; FBC, HbA1c; swab only if infected; venous duplex
+mx: Multilayer compression; leg elevation and activity; emollients for skin; dressings for exudate and odour; vascular referral for venous intervention per NICE; weight loss support
+tell: This ulcer comes from high pressure in your leg veins after your clot. The best treatment is firm compression bandaging, which is safe because your circulation is good, plus raising your legs. The smell is from the fluid, not you, and the right dressing helps. I'll refer you to the vein specialists too.
+
+=== IL146 | Ménière's disease
+door: GP: a 44-year-old woman has recurrent attacks of vertigo with ringing and fullness in one ear.
+who: Lisa Cartwright, 44, teaching assistant
+act: Hold your left ear; anxious about the next attack.
+open: I keep getting these horrible attacks where the room spins for hours.
+story: Every few weeks I get spinning for 2 to 3 hours. Beforehand my left ear feels blocked and rings. The hearing goes muffled. I'm sick during them.
+hpc: Vertigo: Attacks lasting 2 to 3 hours
+hpc: Frequency: Every few weeks
+hpc: Ear: Left fullness, tinnitus, fluctuating hearing loss
+hpc: Nausea: Vomiting during attacks
+hpc: Between: Normal balance, hearing slightly reduced
+yes: Fluctuating hearing
+no: Headache; visual aura; neurological symptoms; positional trigger; ear discharge
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Teaching assistant; drives
+ice: An inner ear problem | Going deaf | To stop the attacks
+cue: "I'm scared to drive in case one starts."
+ask: Can I drive?
+key: Attack duration: minutes to hours | Ménière's
+key: Hearing loss, tinnitus, aural fullness | Triad
+key: Headache or aura with attacks | Vestibular migraine
+key: Neurological symptoms | Central cause
+key: Driving and safety | DVLA
+rf: Sudden hearing loss or neurological signs | Urgent assessment
+sum: So every few weeks you get 2 to 3 hours of spinning with vomiting, and beforehand your left ear feels full, rings and goes muffled. Is that right?
+pres: Lisa Cartwright is a 44-year-old woman with recurrent episodes of vertigo lasting 2 to 3 hours with vomiting, left aural fullness, tinnitus and fluctuating hearing loss, normal between attacks. This is Ménière's disease.
+ddx: Ménière's disease | Vestibular migraine, with headache or photophobia | Vestibular schwannoma, excluded by MRI
+ix: Audiometry for low-frequency sensorineural loss; MRI internal auditory meatus
+mx: ENT referral; prochlorperazine or antihistamine for attacks; betahistine for prevention may be tried; low-salt diet; stop driving if attacks come without warning and inform the DVLA
+tell: This sounds like Ménière's disease, caused by fluid pressure in the inner ear. Tablets can ease the attacks and the ear team can help prevent them. Because attacks can start suddenly, you shouldn't drive until they're controlled, and you'll need to tell the DVLA.
+
+=== IL163 | Central retinal artery occlusion
+door: Eye casualty: a 71-year-old man has sudden painless loss of vision in his right eye that started 90 minutes ago.
+who: George Pritchard, 71, retired accountant
+act: Cover your left eye, alarmed you can't see; calm voice.
+open: I suddenly lost the sight in my right eye about an hour and a half ago. It doesn't hurt.
+story: I was reading the paper and everything went dark in my right eye, like a curtain. It hasn't come back. Last month I had a brief blurring in that eye that cleared.
+hpc: Onset: Sudden, 90 minutes ago
+hpc: Vision: Right eye, counting fingers only
+hpc: Pain: None
+hpc: Previous: Transient loss in the same eye last month
+hpc: Fundoscopy: Pale retina with a cherry-red spot
+yes: Previous amaurosis fugax; hypertension; AF
+no: Headache; jaw claudication; scalp tenderness; flashes; floaters
+pmh: Hypertension; atrial fibrillation; high cholesterol
+dh: Amlodipine; atorvastatin; not anticoagulated, declined previously
+all: None
+fh: Nothing relevant
+sh: Ex-smoker; drives
+ice: A blood clot | Losing his sight permanently | To get it back
+cue: "Will it come back?"
+ask: Can you get my sight back?
+key: Sudden painless monocular loss, timing | Vascular cause
+key: Previous transient episodes | Amaurosis fugax
+key: GCA symptoms: headache, jaw claudication, scalp tenderness | Must exclude
+key: Vascular risk: AF, carotid disease, hypertension | Cause
+key: Flashes, floaters, curtain | Retinal detachment
+rf: Sudden monocular visual loss | Eye stroke: same-day stroke pathway
+sum: So 90 minutes ago you suddenly lost the sight in your right eye without pain, after a brief episode last month, and you have AF and aren't on a blood thinner. Is that right?
+pres: George Pritchard is a 71-year-old man with hypertension and AF not anticoagulated with sudden painless right monocular visual loss 90 minutes ago, preceded by amaurosis fugax, and a pale retina with a cherry-red spot. This is central retinal artery occlusion, an ocular stroke.
+ddx: Central retinal artery occlusion from embolism | Giant cell arteritis, excluded with ESR and CRP and history | Retinal detachment or vitreous haemorrhage, excluded on fundoscopy
+ix: ESR, CRP immediately; FBC, glucose, lipids; ECG; carotid Doppler; CT angiography or MRI brain; echocardiogram
+mx: Same-day ophthalmology and stroke pathway; urgent GCA exclusion; some centres consider thrombolysis within 4.5 hours in trials or protocols; secondary prevention: anticoagulation for AF, statin, BP control; inform the DVLA if vision standard not met
+tell: The blood supply to the back of your right eye has been blocked, most likely by a small clot from your irregular heartbeat. Sadly sight often doesn't fully return, but we need to act now because this is a warning sign for a stroke. The stroke team will see you today, and we'll talk about a blood thinner to protect you.

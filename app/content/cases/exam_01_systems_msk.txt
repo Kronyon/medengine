@@ -1,0 +1,682 @@
+# Examination stations: one case per variant. find = what the patient shows or the examiner reads out when asked.
+
+=== E-cvs A | Aortic stenosis
+who: Frank Booth, 68, retired electrician
+act: Lie at 45 degrees, comfortable. If asked, you get chest tightness and dizziness walking uphill.
+open: My GP heard a murmur and sent me in. I get a bit dizzy on hills.
+find: Slow-rising, low-volume pulse, regular at 72
+find: BP 118/96 with a narrow pulse pressure
+find: Heaving, undisplaced apex beat
+find: Harsh ejection systolic murmur loudest in the right second intercostal space, radiating to both carotids
+find: Soft second heart sound
+find: Chest clear, no peripheral oedema
+key: Feel the character of the pulse at the carotid | Slow-rising pulse means AS
+key: Time the murmur against the carotid pulse | Systolic versus diastolic
+key: Listen for radiation to the carotids | AS radiates to the neck
+key: Comment on S2 and pulse pressure | Severity markers
+key: Look for heart failure: crackles, oedema, raised JVP | Decompensation
+pres: On examination of Mr Booth's cardiovascular system, he was comfortable at rest. He had a slow-rising, low-volume regular pulse at 72 and a narrow pulse pressure, BP 118/96. The apex was heaving but undisplaced. There was a harsh ejection systolic murmur loudest at the right upper sternal edge radiating to the carotids, with a soft second heart sound. The chest was clear with no oedema. These findings are consistent with severe aortic stenosis without heart failure.
+ddx: Aortic stenosis, likely calcific, because of a slow-rising pulse and ejection systolic murmur radiating to the carotids | Aortic sclerosis, which has a normal pulse and S2 and no radiation | Hypertrophic obstructive cardiomyopathy, which is louder with Valsalva and has a jerky pulse
+ix: ECG for LVH; echocardiogram for valve area, gradient and LV function; chest X-ray; bloods including FBC and U&Es
+mx: Cardiology referral; symptomatic severe AS needs valve replacement: surgical AVR or TAVI decided by the heart team; avoid strenuous exertion until assessed; endocarditis awareness and dental hygiene
+tell: Your murmur is from a narrowed valve in the heart, which is why you get dizzy on hills. A heart scan will show how tight it is. If it's severe, replacing the valve, sometimes through a tube in the leg, makes a big difference.
+
+=== E-cvs B | Mitral regurgitation
+door: You are an FY1. A 71-year-old woman with breathlessness on exertion has been found to have a murmur. Examine her cardiovascular system, then present your findings to the examiner. You have 10 minutes: aim to finish examining by 7 and present in the last 2 to 3.
+who: Patricia Lane, 71, retired shop owner
+act: Slightly breathless lying flat; prefer two pillows.
+open: I get breathless on the stairs and my ankles swell.
+find: Irregularly irregular pulse at 92
+find: Displaced, thrusting apex beat in the anterior axillary line
+find: Pansystolic murmur at the apex radiating to the axilla
+find: Soft first heart sound
+find: Fine bibasal crackles and mild pitting ankle oedema
+key: Locate the apex and say whether it is displaced | Volume overload
+key: Listen at the apex with the patient rolled to the left, and into the axilla | MR radiation
+key: Pulse rhythm | AF commonly accompanies MR
+key: Look for heart failure | Decompensation
+pres: On examination of Mrs Lane's cardiovascular system, she was mildly breathless lying flat. Her pulse was irregularly irregular at 92. The apex was displaced to the anterior axillary line. There was a pansystolic murmur at the apex radiating to the axilla with a soft first heart sound. There were fine bibasal crackles and mild ankle oedema. These findings suggest mitral regurgitation with atrial fibrillation and heart failure.
+ddx: Mitral regurgitation with AF and heart failure | Tricuspid regurgitation, louder at the left lower sternal edge on inspiration with giant v waves | Ventricular septal defect, loudest at the left sternal edge without axillary radiation
+ix: ECG; echocardiogram; chest X-ray; BNP; U&Es; TFTs
+mx: Heart failure treatment including diuretics; rate control and anticoagulation for AF; cardiology referral for valve repair or replacement, or transcatheter edge-to-edge repair if high surgical risk
+tell: The murmur is from a leaky valve between the chambers on the left of the heart, causing fluid to back up into your lungs and legs. Water tablets will ease that, and a blood thinner protects against stroke from the irregular rhythm. A heart scan will decide whether the valve should be repaired.
+
+=== E-cvs C | Atrial fibrillation with a metallic mitral valve
+door: You are an FY1. A 64-year-old man with a previous heart operation attends pre-operative assessment. Examine his cardiovascular system, then present your findings to the examiner. You have 10 minutes: aim to finish examining by 7 and present in the last 2 to 3.
+who: Colin Ward, 64, retired postman
+act: Comfortable; if they listen carefully, they'll hear a click.
+open: I'm here for my hernia operation check.
+find: Midline sternotomy scar
+find: Irregularly irregular pulse at 78
+find: Audible metallic click at the first heart sound, heard without a stethoscope
+find: No additional murmurs; chest clear; no oedema
+find: Warfarin chart at the bedside
+key: Inspect for scars and clues: sternotomy, warfarin chart | Narration
+key: Identify the mechanical click and its timing: S1 means mitral, S2 means aortic | Which valve
+key: Listen for a new regurgitant murmur | Valve dysfunction
+key: Pulse rhythm | AF
+key: Look for endocarditis signs | Complications
+pres: On examination of Mr Ward's cardiovascular system, there was a midline sternotomy scar and a warfarin chart. The pulse was irregularly irregular at 78. There was a crisp metallic first heart sound consistent with a mechanical mitral valve, with no additional murmurs suggesting dysfunction. The chest was clear with no oedema and no stigmata of endocarditis. This is a functioning mechanical mitral valve replacement with atrial fibrillation on warfarin.
+ddx: Functioning mechanical mitral valve with AF | Prosthetic valve dysfunction or paravalvular leak, suggested by a new murmur | Prosthetic valve endocarditis, suggested by fever and embolic signs
+ix: INR; FBC; echocardiogram if any new murmur; ECG
+mx: Warfarin must continue: DOACs are contraindicated with mechanical valves; perioperative bridging with heparin per haematology for the hernia operation; INR target per valve; endocarditis advice
+tell: The click is your artificial valve working normally. Because it's metal, you'll need to stay on warfarin, and for your hernia operation we'll plan a short switch to heparin injections so you're protected while the warfarin is paused.
+
+=== E-resp A | Right pleural effusion
+who: Margaret Hughes, 72, retired school secretary
+act: Slightly breathless on talking; sit up.
+open: I've got more and more breathless over a few weeks.
+find: RR 22, SpO2 94% on air
+find: Trachea central; reduced expansion on the right
+find: Stony dull percussion at the right base to mid-zone
+find: Reduced breath sounds and reduced vocal resonance at the right base
+find: Left lung normal; no clubbing
+key: Percuss carefully comparing sides, including the axilla | Stony dullness
+key: Check trachea and expansion | Large effusion pushes away; collapse pulls towards
+key: Auscultate and test vocal resonance | Effusion versus consolidation
+key: Look for causes: clubbing, nodes, heart failure signs, cachexia | Aetiology
+pres: On examination of Mrs Hughes' respiratory system, she was mildly breathless at rest with RR 22 and SpO2 94% on air. The trachea was central, with reduced expansion on the right. There was stony dull percussion from the right base to the mid-zone with reduced breath sounds and reduced vocal resonance. The left side was normal. These findings are consistent with a right pleural effusion.
+ddx: Right pleural effusion, possibly malignant or parapneumonic | Consolidation, which has bronchial breathing and increased vocal resonance | Lobar collapse, which pulls the trachea towards it
+ix: Chest X-ray; ultrasound-guided diagnostic pleural aspiration: protein, LDH, pH, glucose, cytology, microscopy and culture; Light's criteria; CT chest with contrast
+mx: Treat the cause; therapeutic aspiration if breathless; chest drain if empyema or pH below 7.2; respiratory referral; 2-week-wait if malignancy suspected
+tell: There's fluid around your right lung, which is making you breathless. We'll scan it and draw off a sample with a fine needle to find the cause, and drain some to help your breathing.
+
+=== E-resp B | Idiopathic pulmonary fibrosis
+door: You are an FY1. A 74-year-old man has had a dry cough and worsening breathlessness for 18 months. Examine his respiratory system, then present your findings to the examiner. You have 10 minutes: aim to finish examining by 7 and present in the last 2 to 3.
+who: Leonard Pike, 74, retired joiner
+act: Dry cough every so often; breathless after undressing.
+open: My breathing's got worse over the last year and a half, and I've got this dry cough.
+find: Finger clubbing
+find: RR 20, SpO2 92% on air
+find: Symmetrically reduced expansion
+find: Fine end-inspiratory crackles at both bases, not clearing with coughing
+find: No signs of heart failure
+key: Examine hands for clubbing | Fibrosis association
+key: Listen for fine end-inspiratory crackles, and ask the patient to cough | Fibrosis versus secretions
+key: Look for causes: rheumatoid hands, scleroderma, drug history clues such as amiodarone or methotrexate | Secondary ILD
+key: Look for cor pulmonale | Complications
+pres: On examination of Mr Pike's respiratory system, he had finger clubbing and was breathless after undressing with RR 20 and SpO2 92% on air. Expansion was symmetrically reduced. There were fine end-inspiratory crackles at both bases that did not clear with coughing. There were no signs of connective tissue disease or right heart failure. These findings suggest pulmonary fibrosis, likely idiopathic.
+ddx: Idiopathic pulmonary fibrosis, because of clubbing and bibasal fine crackles in an older man | Connective tissue disease or drug-induced ILD, excluded by history and autoantibodies | Heart failure, with coarser crackles that change and other signs of fluid
+ix: High-resolution CT chest; spirometry with transfer factor showing restriction and low TLCO; autoantibodies; ABG; echocardiogram
+mx: ILD MDT; antifibrotic therapy such as pirfenidone or nintedanib if eligible; pulmonary rehabilitation; oxygen if hypoxic; vaccinations; smoking cessation; palliative care involvement for symptom control
+tell: The crackling sounds suggest scarring in your lungs. A detailed scan will confirm it, and specialist lung doctors can offer medicines that slow it down, along with breathing exercises and oxygen if needed.
+
+=== E-resp C | Right upper lobe consolidation
+door: You are an FY1. A 52-year-old woman has had a productive cough and fever for 4 days. Examine her respiratory system, then present your findings to the examiner. You have 10 minutes: aim to finish examining by 7 and present in the last 2 to 3.
+who: Diane Rowe, 52, care worker
+act: Flushed, coughing up green phlegm, wince on deep breaths on the right.
+open: I've got a terrible cough with green phlegm and I've been shivery.
+find: Temperature 38.7, RR 24, SpO2 93% on air, HR 104
+find: Reduced expansion on the right upper chest
+find: Dull percussion in the right upper zone
+find: Bronchial breathing and coarse crackles in the right upper zone, increased vocal resonance
+key: Observations and work of breathing | Severity
+key: Percuss and auscultate all zones front and back | Localising
+key: Bronchial breathing and increased vocal resonance | Consolidation versus effusion
+key: CURB-65 elements | Severity score
+pres: On examination of Mrs Rowe's respiratory system, she was febrile at 38.7 with RR 24, SpO2 93% on air and HR 104. There was reduced expansion, dull percussion, bronchial breathing, coarse crackles and increased vocal resonance in the right upper zone. These findings are consistent with right upper lobe consolidation from community-acquired pneumonia.
+ddx: Right upper lobe pneumonia | Lung cancer with post-obstructive pneumonia, to exclude with follow-up imaging | TB, considered with upper lobe disease and risk factors
+ix: Chest X-ray; FBC, CRP, U&Es for CURB-65; blood and sputum cultures; urinary pneumococcal and legionella antigens if severe; ABG if SpO2 low
+mx: CURB-65 guides setting; oral amoxicillin for low severity, add clarithromycin for moderate; oxygen to target; fluids; repeat chest X-ray at 6 weeks if smoker or over 50
+tell: You have pneumonia in the top part of your right lung. Antibiotics and fluids should help you improve over the next few days. We'll check an X-ray again in about six weeks to make sure it's fully cleared.
+
+=== E-cn A | Left lower motor neurone facial palsy
+who: Sharon Ellis, 54, cashier
+act: Left face droops; cannot close left eye fully; cannot raise left eyebrow.
+open: My face looked different this morning. The left side's dropped.
+find: Weakness of the whole left face including the forehead
+find: Incomplete left eye closure with Bell's phenomenon
+find: Reduced taste on the left anterior tongue, if asked
+find: No vesicles in the ear; other cranial nerves normal; no limb weakness
+key: Test forehead: raise eyebrows | Forehead sparing distinguishes UMN from LMN
+key: Eye closure, smile, puff cheeks | Facial nerve
+key: Inspect ear and palate for vesicles | Ramsay Hunt
+key: Complete the other cranial nerves and limbs | Isolated lesion
+pres: On examination of Ms Ellis's cranial nerves, there was weakness of the entire left side of the face including the forehead, with incomplete eye closure and Bell's phenomenon. There were no vesicles. All other cranial nerves were intact and there was no limb weakness. This is an isolated left lower motor neurone facial nerve palsy, most likely Bell's palsy.
+ddx: Bell's palsy | Ramsay Hunt syndrome, excluded by no vesicles | Stroke, excluded by forehead involvement and no other signs; parotid tumour or Lyme disease, considered if atypical
+ix: Clinical; BP and glucose
+mx: Prednisolone within 72 hours; eye protection with lubricants and taping at night; follow-up and referral if no improvement at 3 weeks
+tell: This is Bell's palsy, a swollen facial nerve, not a stroke. Steroid tablets help, and most people recover within months. Protect your eye with drops by day and tape it closed at night.
+
+=== E-cn B | Right upper motor neurone facial weakness from stroke
+door: You are an FY1. A 70-year-old man has noticed his face drooping and his right arm feels clumsy since this morning. Examine his cranial nerves, then present your findings to the examiner. You have 10 minutes: aim to finish examining by 7 and present in the last 2 to 3.
+who: Harry Dodd, 70, retired butcher
+act: Right lower face droops but you can wrinkle your forehead; speech slightly slurred.
+open: My face has gone funny and my arm's clumsy.
+find: Right lower facial weakness with forehead sparing
+find: Mild dysarthria
+find: Right pronator drift
+find: Other cranial nerves normal
+key: Forehead sparing | UMN facial weakness
+key: Speech, pronator drift, visual fields | Stroke territory
+key: Note time of onset | Thrombolysis window
+key: Activate the stroke pathway | Urgency
+pres: On examination of Mr Dodd's cranial nerves, there was right-sided lower facial weakness sparing the forehead, mild dysarthria and a right pronator drift. The remaining cranial nerves were normal. This is an upper motor neurone facial weakness, consistent with an acute left hemisphere stroke.
+ddx: Left middle cerebral artery ischaemic stroke | Haemorrhagic stroke, excluded on CT | Stroke mimics: hypoglycaemia, seizure with Todd's paresis, excluded with glucose and history
+ix: Glucose; urgent CT head and CT angiography; ECG; bloods
+mx: Stroke pathway; thrombolysis within 4.5 hours if eligible; thrombectomy for large vessel occlusion; aspirin 300 mg if no haemorrhage and not thrombolysed; swallow screen
+tell: The pattern of your face weakness with arm clumsiness suggests a stroke. We need an urgent brain scan because some treatments work best within hours.
+
+=== E-cn C | Left third nerve palsy
+door: You are an FY1. A 59-year-old woman has had double vision and a drooping left eyelid since yesterday. Examine her cranial nerves, then present your findings to the examiner. You have 10 minutes: aim to finish examining by 7 and present in the last 2 to 3.
+who: Brenda Lamb, 59, office worker
+act: Left eyelid droops; headache behind left eye.
+open: My left eyelid has dropped and I'm seeing double. My head hurts behind the eye.
+find: Complete left ptosis
+find: Left eye down and out
+find: Left pupil dilated and unreactive
+find: Other cranial nerves normal
+key: Lift the eyelid and observe eye position | Third nerve
+key: Check the pupil | Surgical third nerve: compressive
+key: Eye movements and diplopia | Pattern
+key: Ask about headache | Posterior communicating artery aneurysm
+pres: On examination of Ms Lamb's cranial nerves, there was complete left ptosis with the eye resting down and out, and a dilated unreactive left pupil. Other cranial nerves were intact. This is a complete left third nerve palsy with pupil involvement, which is a posterior communicating artery aneurysm until proven otherwise.
+ddx: Compressive third nerve palsy from a posterior communicating artery aneurysm | Microvascular third nerve palsy, usually pupil sparing in diabetes or hypertension | Myasthenia gravis, without pupil involvement
+ix: Urgent CT angiography or MR angiography; glucose, BP
+mx: Emergency neurosurgical referral; aneurysm coiling or clipping
+tell: The nerve controlling your eyelid and eye movements is being pressed, and the large pupil makes me worried about a swollen blood vessel. We need an urgent scan of the blood vessels in your head today.
+
+=== E-ul A | Right carpal tunnel syndrome
+door: You are an FY1. A 45-year-old woman has tingling in her right hand, worse at night. Examine her upper limbs neurologically, then present your findings to the examiner. You have 10 minutes: aim to finish examining by 7 and present in the last 2 to 3.
+who: Julie Marsh, 45, data entry clerk
+act: Shake your hand to relieve tingling; thumb weakness.
+open: My right hand tingles at night and I drop things.
+find: Wasting of the right thenar eminence
+find: Reduced sensation over the thumb, index, middle and radial half of the ring finger, sparing the thenar eminence
+find: Weak right thumb abduction
+find: Positive Tinel's and Phalen's tests; reflexes normal
+key: Inspect for thenar wasting | Chronic compression
+key: Map sensation in the median distribution | Nerve versus root
+key: Test abductor pollicis brevis | Median motor
+key: Tinel's and Phalen's | Provocation
+pres: On examination of Mrs Marsh's upper limbs, there was wasting of the right thenar eminence, weakness of thumb abduction and reduced sensation over the radial three and a half digits sparing the palm, with positive Tinel's and Phalen's tests. Reflexes were normal. These findings are consistent with right carpal tunnel syndrome.
+ddx: Right carpal tunnel syndrome | C6 or C7 radiculopathy, with neck pain, reflex change and dermatomal sensory loss | Proximal median nerve lesion, which affects the palm and forearm muscles
+ix: Nerve conduction studies; TFTs, glucose if risk factors
+mx: Wrist splint at night; steroid injection; surgical decompression if thenar wasting or severe symptoms
+tell: The nerve to your thumb and fingers is being squeezed at the wrist. A night splint and an injection often help, but because the muscle is thinning, surgery to release the nerve is likely the best option.
+
+=== E-ul B | Right ulnar nerve lesion at the elbow
+who: Neil Shaw, 45, plumber
+act: Right little finger tingles; claw of ring and little fingers.
+open: My right little finger has gone numb and my hand's weak.
+find: Wasting of the first dorsal interosseous and hypothenar eminence
+find: Clawing of the ring and little fingers
+find: Reduced sensation over the little finger and ulnar half of the ring finger
+find: Positive Froment's sign; Tinel's positive at the cubital tunnel
+key: Inspect for interosseous wasting | Ulnar motor
+key: Froment's test | Adductor pollicis weakness
+key: Sensation including the dorsum of the hand | Level of lesion
+key: Tinel's at the elbow | Cubital tunnel
+pres: On examination of Mr Shaw's upper limbs, there was wasting of the first dorsal interosseous and hypothenar muscles, clawing of the ring and little fingers, reduced sensation over the ulnar one and a half fingers and a positive Froment's sign. Tinel's test was positive at the elbow. This is a right ulnar neuropathy at the cubital tunnel.
+ddx: Ulnar neuropathy at the elbow | C8 or T1 radiculopathy, with sensory change in the medial forearm | Thoracic outlet syndrome or Pancoast tumour, considered with a Horner's syndrome
+ix: Nerve conduction studies; elbow X-ray if deformity
+mx: Avoid elbow leaning; night splint keeping the elbow extended; surgical decompression or transposition if severe or progressive
+tell: The nerve that runs along the funny bone is being pressed at your elbow. Avoiding leaning on it and keeping the elbow straighter at night helps, and an operation can free it if it doesn't improve.
+
+=== E-ul C | Left C6 radiculopathy
+door: You are an FY1. A 52-year-old man has neck pain radiating into his left arm with tingling in his thumb. Examine his upper limbs neurologically, then present your findings to the examiner. You have 10 minutes: aim to finish examining by 7 and present in the last 2 to 3.
+who: Keith Rowe, 52, scaffolder
+act: Hold your neck stiffly; pain down the left arm when you look left.
+open: I've got neck pain shooting down my left arm and my thumb tingles.
+find: Weak left elbow flexion and wrist extension
+find: Reduced left biceps and supinator reflexes
+find: Reduced sensation over the left lateral forearm and thumb
+find: No upper motor neurone signs
+key: Myotomes: elbow flexion, wrist extension | Root level
+key: Reflexes: biceps and supinator are C5 to C6 | Root level
+key: Dermatomes: lateral forearm and thumb are C6 | Root level
+key: Look for myelopathy signs | Cord involvement
+pres: On examination of Mr Rowe's upper limbs, there was weakness of left elbow flexion and wrist extension, reduced left biceps and supinator reflexes and reduced sensation over the lateral forearm and thumb, without upper motor neurone signs. This is consistent with a left C6 radiculopathy, likely from cervical spondylosis.
+ddx: Left C6 radiculopathy from disc or spondylosis | Carpal tunnel syndrome, without reflex change or forearm sensory loss | Cervical myelopathy, with UMN signs
+ix: MRI cervical spine if severe, progressive or not settling
+mx: Analgesia, physiotherapy; most settle within 6 to 12 weeks; urgent referral if progressive weakness or myelopathy
+tell: A nerve in your neck is being pinched, causing pain and tingling down to your thumb. Most improve with painkillers and physio within a few weeks, but tell us if your weakness gets worse.
+
+=== E-ll A | Metastatic spinal cord compression
+who: Roger Blake, 62, retired engineer
+act: Struggle to lift legs; back pain.
+open: My legs have got weak over two days and my back's been hurting.
+find: Increased tone in both legs
+find: Weakness of hip flexion and knee extension, 3 out of 5 bilaterally
+find: Brisk knee and ankle reflexes, upgoing plantars
+find: Sensory level at the umbilicus, T10
+find: Tender thoracic spine
+key: Tone, power, reflexes, plantars | UMN pattern
+key: Find a sensory level | Cord lesion
+key: Ask about bladder and bowel, saddle anaesthesia | Autonomic involvement
+key: Recognise MSCC as an emergency | Urgency
+pres: On examination of Mr Blake's lower limbs, there was increased tone, bilateral weakness 3 out of 5, brisk reflexes and upgoing plantars, with a sensory level at T10 and thoracic spinal tenderness. In a man with prostate cancer, these findings indicate metastatic spinal cord compression.
+ddx: Metastatic spinal cord compression | Epidural abscess, with fever and raised inflammatory markers | Transverse myelitis, without a mass on imaging
+ix: Whole-spine MRI within 24 hours, immediately if neurological deficit; bloods including calcium and PSA
+mx: Dexamethasone 16 mg with PPI; flat bed rest if spinal instability suspected; MSCC coordinator; oncology for radiotherapy or spinal surgery
+tell: The cancer may be pressing on your spinal cord, which is why your legs are weak. We'll give you a steroid now to reduce swelling and do an urgent MRI. Quick treatment gives the best chance of keeping your walking.
+
+=== E-ll B | Diabetic peripheral neuropathy
+door: You are an FY1. A 64-year-old man with type 2 diabetes has numb feet and has fallen twice. Examine his lower limbs neurologically, then present your findings to the examiner. You have 10 minutes: aim to finish examining by 7 and present in the last 2 to 3.
+who: Brian Holt, 64, taxi driver
+act: Shuffle; say you can't feel the floor properly.
+open: My feet feel numb and I've fallen twice.
+find: Reduced sensation to light touch and pinprick to mid-shin bilaterally, stocking distribution
+find: Absent vibration sense at the toes and ankles
+find: Reduced proprioception at the toes; positive Romberg's test
+find: Absent ankle reflexes; power normal
+key: Sensation pattern: stocking distribution | Length-dependent neuropathy
+key: Vibration and proprioception | Large fibre loss
+key: Romberg's test | Sensory ataxia
+key: Inspect feet for ulcers | Diabetic foot
+pres: On examination of Mr Holt's lower limbs, there was reduced light touch and pinprick sensation to the mid-shin in a stocking distribution, absent vibration and reduced proprioception at the toes, absent ankle reflexes, normal power and a positive Romberg's test. These findings indicate a length-dependent sensory peripheral neuropathy, most likely diabetic.
+ddx: Diabetic peripheral neuropathy | B12 deficiency, alcohol, hypothyroidism, which need excluding | Subacute combined degeneration, with UMN signs
+ix: HbA1c, B12, folate, TFTs, U&Es, LFTs, serum electrophoresis
+mx: Glycaemic control; foot care and podiatry; falls assessment; neuropathic pain treatment if needed
+tell: The nerves to your feet are damaged, probably from diabetes, which affects your balance. Checking your feet every day, good footwear and better sugar control all help.
+
+=== E-ll C | Right L5 radiculopathy
+door: You are an FY1. A 41-year-old woman has low back pain radiating down her right leg to the foot. Examine her lower limbs neurologically, then present your findings to the examiner. You have 10 minutes: aim to finish examining by 7 and present in the last 2 to 3.
+who: Kate Allen, 41, nurse
+act: Limp; pain down the outer right leg on straight leg raise.
+open: My back's been bad for a week and the pain goes down to my right foot.
+find: Positive right straight leg raise at 40 degrees
+find: Weak right great toe extension and ankle dorsiflexion
+find: Reduced sensation over the dorsum of the right foot and lateral shin
+find: Reflexes normal; perianal sensation normal
+key: Straight leg raise | Nerve root irritation
+key: Extensor hallucis longus power | L5
+key: Dermatome: dorsum of the foot | L5
+key: Saddle sensation and bladder | Cauda equina
+pres: On examination of Ms Allen's lower limbs, there was a positive right straight leg raise at 40 degrees, weakness of right great toe extension and dorsiflexion and reduced sensation over the dorsum of the right foot, with normal reflexes and normal perianal sensation. This is a right L5 radiculopathy without cauda equina features.
+ddx: Right L5 radiculopathy from a disc prolapse | Common peroneal nerve palsy, which spares hip abduction | Cauda equina syndrome, excluded by normal saddle sensation and bladder
+ix: MRI lumbar spine if progressive weakness or not settling at 6 weeks
+mx: Analgesia including neuropathic options; keep active; physio; safety-net for cauda equina symptoms
+tell: A disc in your lower back is pressing on a nerve to your leg. Most settle with painkillers and keeping moving. If you get numbness between your legs or bladder or bowel changes, go to A&E straight away.
+
+=== E-abdo A | Chronic liver disease with ascites
+who: Gary Lane, 58, former publican
+act: Swollen belly; yellow eyes; flinch slightly when the liver edge is felt.
+open: My tummy's been swelling up for weeks.
+find: Jaundice; spider naevi on the chest; palmar erythema; gynaecomastia
+find: Distended abdomen with shifting dullness
+find: Firm irregular liver edge; splenomegaly
+find: Caput medusae; no asterixis
+key: Peripheral stigmata of chronic liver disease | Narrate signs
+key: Test for shifting dullness | Ascites
+key: Assess for asterixis and confusion | Encephalopathy
+key: Look for portal hypertension | Splenomegaly, caput medusae
+pres: On examination of Mr Lane's abdomen, he was jaundiced with spider naevi, palmar erythema and gynaecomastia. The abdomen was distended with shifting dullness. There was a firm liver edge and splenomegaly with caput medusae. There was no asterixis. These findings indicate decompensated chronic liver disease with ascites and portal hypertension, likely alcohol-related.
+ddx: Alcohol-related cirrhosis with ascites | Hepatocellular carcinoma, suggested by an irregular liver | Other causes of ascites: heart failure, malignancy, nephrotic syndrome
+ix: LFTs, albumin, INR, FBC, U&Es; ultrasound with Doppler; diagnostic ascitic tap for cell count to exclude SBP; AFP; viral hepatitis screen
+mx: Alcohol cessation with support; spironolactone and salt restriction; therapeutic paracentesis with albumin; treat SBP; endoscopy for varices; hepatology referral
+tell: Your liver has been damaged by alcohol, and fluid has built up in your tummy. Stopping drinking completely is the most important thing. Tablets can remove the fluid, and we may drain some with a needle.
+
+=== E-abdo B | Renal transplant with polycystic kidneys
+door: You are an FY1. A 55-year-old woman attends the renal clinic. Examine her abdomen, then present your findings to the examiner. You have 10 minutes: aim to finish examining by 7 and present in the last 2 to 3.
+who: Linda Carr, 55, accountant
+act: Relaxed; scar in the right iliac fossa.
+open: I'm here for my kidney review.
+find: Hockey-stick scar in the right iliac fossa with an underlying smooth non-tender mass
+find: Bilateral ballotable flank masses
+find: Arteriovenous fistula in the left forearm, no thrill
+find: Cushingoid features
+key: Inspect scars and look for an AV fistula | Renal replacement history
+key: Palpate the transplant kidney | Transplant
+key: Ballot the kidneys | Polycystic kidney disease
+key: Note immunosuppression side effects | Complications
+pres: On examination of Mrs Carr's abdomen, there was a right iliac fossa hockey-stick scar with a smooth non-tender underlying mass consistent with a renal transplant, bilateral ballotable flank masses suggesting polycystic kidneys, a non-functioning left forearm AV fistula and cushingoid features. This is a renal transplant in a patient with adult polycystic kidney disease.
+ddx: Renal transplant for ADPKD | Hepatomegaly from polycystic liver disease, which is common with ADPKD | Transplant rejection, with a tender graft and rising creatinine
+ix: U&Es, tacrolimus level, FBC, urine dip; ultrasound of the graft if function falls
+mx: Continue immunosuppression; skin cancer surveillance; cardiovascular risk management; screen family members for ADPKD
+tell: Your transplanted kidney feels healthy. We'll check your blood tests and medicine levels, and keep an eye on your skin because the anti-rejection medicines raise skin cancer risk.
+
+=== E-abdo C | Acute appendicitis
+door: You are an FY1. A 22-year-old man has had abdominal pain for 18 hours that started in the middle and moved to the right. Examine his abdomen, then present your findings to the examiner. You have 10 minutes: aim to finish examining by 7 and present in the last 2 to 3.
+who: Josh Reid, 22, student
+act: Lie still; wince with coughing; guarding in the right iliac fossa.
+open: My tummy started hurting in the middle and now it's all on the right.
+find: Temperature 38.0, HR 102
+find: Tenderness and guarding in the right iliac fossa, maximal at McBurney's point
+find: Rovsing's sign positive; rebound tenderness
+find: No masses; normal hernial orifices
+key: Observe patient lying still and pain on coughing | Peritonism
+key: Palpate gently starting away from the pain | Technique
+key: Rovsing's and psoas signs | Appendicitis
+key: Check hernial orifices and testes | Differentials in men
+pres: On examination of Mr Reid's abdomen, he was febrile at 38.0 and tachycardic at 102, lying still with pain on coughing. There was tenderness, guarding and rebound in the right iliac fossa, maximal at McBurney's point, and a positive Rovsing's sign. Hernial orifices were normal. These findings are consistent with acute appendicitis.
+ddx: Acute appendicitis | Mesenteric adenitis, with recent viral illness | Testicular torsion or urinary stones, excluded by examination and urine dip
+ix: FBC, CRP, U&Es, urine dip, group and save; ultrasound or CT if diagnosis uncertain
+mx: Nil by mouth; IV fluids; analgesia; antibiotics; laparoscopic appendicectomy
+tell: This looks like appendicitis. You'll likely need keyhole surgery to remove the appendix. We'll give you fluids and pain relief while the surgeons see you.
+
+=== E-thyroid A | Graves' thyrotoxicosis
+who: Amy Patel, 34, hairdresser
+act: Restless, sweaty; stare slightly.
+open: I've lost weight and I always feel hot and on edge.
+find: Fine tremor; warm sweaty palms; HR 112, regular
+find: Smooth diffuse goitre with a bruit
+find: Lid retraction and proptosis; lid lag
+find: Brisk reflexes; pretibial myxoedema absent
+key: Hands: tremor, sweating, pulse | Thyrotoxicosis
+key: Eyes: proptosis, lid lag, eye movements | Graves' eye disease
+key: Neck: inspect, swallow, palpate from behind, auscultate | Goitre and bruit
+key: Lymph nodes | Malignancy
+pres: On examination of Ms Patel, she had a fine tremor, warm sweaty palms and a regular tachycardia of 112. There was a smooth diffuse goitre with a bruit, lid retraction, proptosis and lid lag, and brisk reflexes. These findings indicate thyrotoxicosis with a diffuse goitre and eye signs, consistent with Graves' disease.
+ddx: Graves' disease | Toxic multinodular goitre, with a nodular gland and no eye disease | Thyroiditis, with a tender gland and low uptake
+ix: TFTs, TSH receptor antibodies; FBC, LFTs before carbimazole; thyroid uptake scan if unclear; ophthalmology assessment
+mx: Beta-blocker such as propranolol; carbimazole with agranulocytosis warning; radioiodine or surgery for relapse; stop smoking for eye disease; pregnancy planning advice
+tell: Your thyroid is overactive, likely from Graves' disease. A beta-blocker will ease the shakiness and racing heart, and carbimazole calms the thyroid. If you get a sore throat or fever, get a blood test straight away.
+
+=== E-thyroid B | Hypothyroidism
+door: You are an FY1. A 56-year-old woman feels tired, cold and has gained weight. Examine her thyroid status and neck, then present your findings to the examiner. Aim to finish examining by 7 minutes.
+who: Joan Price, 56, librarian
+act: Slow speech; puffy face; wear a cardigan.
+open: I feel exhausted, always cold, and I've put on weight.
+find: Bradycardia at 54
+find: Dry coarse skin and hair; periorbital puffiness
+find: Small firm goitre
+find: Slow-relaxing ankle reflexes
+key: Hands and pulse | Bradycardia, dry skin
+key: Face and hair | Myxoedema features
+key: Reflexes | Slow relaxing
+key: Neck palpation | Hashimoto's goitre
+pres: On examination of Mrs Price, she had bradycardia of 54, dry coarse skin and hair, periorbital puffiness, a small firm goitre and slow-relaxing reflexes. These findings indicate hypothyroidism, likely Hashimoto's thyroiditis.
+ddx: Primary hypothyroidism from Hashimoto's thyroiditis | Depression or anaemia, which coexist and mimic | Secondary hypothyroidism, with low TSH and other pituitary features
+ix: TSH, free T4, TPO antibodies; lipids; FBC
+mx: Levothyroxine, starting dose by age and cardiac status; recheck TSH at 6 to 8 weeks; take on an empty stomach
+tell: Your thyroid is underactive, which explains the tiredness and weight gain. A daily tablet replaces the hormone, and we'll check your blood test in six to eight weeks to get the dose right.
+
+=== E-thyroid C | Solitary thyroid nodule with red flags
+door: You are an FY1. A 47-year-old man has noticed a lump in his neck and a hoarse voice. Examine his thyroid status and neck, then present your findings to the examiner. Aim to finish examining by 7 minutes.
+who: Tom Hart, 47, teacher
+act: Hoarse voice; swallow when asked.
+open: I've found a lump in my neck and my voice has gone hoarse.
+find: Hard 2 cm nodule in the right thyroid lobe, moves on swallowing
+find: Fixed to surrounding tissues
+find: Firm right cervical lymph node
+find: Euthyroid clinically
+key: Inspect and palpate with swallowing | Thyroid origin
+key: Consistency and fixation | Malignancy features
+key: Lymph nodes | Spread
+key: Voice: recurrent laryngeal nerve | Invasion
+pres: On examination of Mr Hart, there was a hard 2 cm fixed nodule in the right thyroid lobe moving on swallowing, a firm right cervical lymph node and a hoarse voice. He was clinically euthyroid. These findings are suspicious for thyroid cancer.
+ddx: Thyroid cancer, likely papillary | Benign nodule or cyst, unlikely with hardness, fixation and nodes | Lymphoma, with rapid growth in Hashimoto's
+ix: TFTs; ultrasound neck; fine needle aspiration; laryngoscopy for vocal cord function
+mx: Suspected cancer pathway referral; thyroid MDT; surgery
+tell: This lump needs checking urgently because the hoarse voice and gland suggest it could be a thyroid cancer. Most thyroid cancers are very treatable. I'm referring you to be seen within two weeks.
+
+=== E-ankle A | Lateral ankle sprain
+who: Ryan Fox, 28, footballer
+act: Limp; tender just below and in front of the outer ankle bone.
+open: I went over on my ankle playing football yesterday.
+find: Swelling and bruising over the lateral ankle
+find: Tenderness over the anterior talofibular ligament, not over the bone
+find: No tenderness over the posterior edge or tip of either malleolus, the navicular or the fifth metatarsal base
+find: Able to weight-bear four steps
+key: Look, feel, move | Structure
+key: Ottawa ankle rules | X-ray decision
+key: Squeeze test and external rotation | Syndesmosis injury
+key: Calf squeeze for Achilles | Simmonds' test
+pres: On examination of Mr Fox's right ankle, there was swelling and bruising laterally with tenderness over the anterior talofibular ligament, no bony tenderness at the Ottawa points and he could weight-bear four steps. Calf squeeze was normal. These findings are consistent with a lateral ankle sprain; no X-ray is needed by the Ottawa rules.
+ddx: Lateral ligament sprain | Ankle fracture, excluded by Ottawa rules | Syndesmosis or Achilles injury, excluded by negative tests
+ix: No X-ray needed under Ottawa ankle rules
+mx: Rest, ice, compression and elevation; analgesia; early weight-bearing; physiotherapy for balance; return to sport gradually
+tell: You've sprained the ligament on the outside of your ankle, but no X-ray is needed. Ice, elevation and walking on it as pain allows help it heal, and balance exercises prevent it happening again.
+
+=== E-ankle B | Achilles tendon rupture
+door: You are an FY1. A 42-year-old man felt like he was kicked in the back of his ankle playing squash. Examine his ankle and foot, then present your findings to the examiner. Aim to finish examining by 7 minutes.
+who: Mark Ellis, 42, accountant
+act: Flat-footed limp; cannot stand on tiptoe.
+open: I felt like someone kicked me in the back of the leg playing squash.
+find: Palpable gap in the Achilles tendon 5 cm above the insertion
+find: Positive Simmonds' calf squeeze test: no plantarflexion
+find: Unable to stand on tiptoe on the right
+find: Increased resting dorsiflexion of the right foot lying prone
+key: Inspect and palpate the tendon | Gap
+key: Simmonds' test | Rupture
+key: Matles test | Resting angle
+key: Ask about fluoroquinolones or steroids | Risk factors
+pres: On examination of Mr Ellis's right ankle, there was a palpable gap in the Achilles tendon, a positive Simmonds' test, inability to stand on tiptoe and increased resting dorsiflexion. These findings indicate a complete right Achilles tendon rupture.
+ddx: Achilles tendon rupture | Calf muscle tear, with intact tendon and normal Simmonds' | Ankle fracture, excluded clinically
+ix: Ultrasound if diagnosis uncertain
+mx: Equinus cast or boot; orthopaedic referral for operative or non-operative functional rehabilitation
+tell: Your Achilles tendon has snapped. We'll put your foot in a boot pointing downwards and the orthopaedic team will decide whether surgery or a boot alone is best.
+
+=== E-ankle C | Acute gout of the first MTP joint
+door: You are an FY1. A 60-year-old man woke with a hot, painful big toe. Examine his ankle and foot, then present your findings to the examiner. Aim to finish examining by 7 minutes.
+who: Derek Moore, 60, publican
+act: Can't bear the bedsheet touching the toe.
+open: I woke up with my big toe agony. I couldn't even have the sheet on it.
+find: Hot, red, swollen right first metatarsophalangeal joint
+find: Exquisitely tender, reduced movement
+find: Tophus on the left ear
+find: Temperature 37.5
+key: Inspect and gently palpate | Inflammation
+key: Look for tophi | Chronic gout
+key: Consider septic arthritis | Must not miss
+key: Ask about diuretics, alcohol, diet | Triggers
+pres: On examination of Mr Moore's right foot, the first metatarsophalangeal joint was hot, red, swollen and exquisitely tender with reduced movement. There was a tophus on the left ear and a low-grade temperature. These findings are consistent with acute gout.
+ddx: Acute gout | Septic arthritis, excluded by aspiration if any doubt | Pseudogout or cellulitis
+ix: Serum urate, ideally 2 weeks after the attack; U&Es; joint aspiration for crystals and culture if diagnostic doubt
+mx: NSAID with PPI or colchicine; rest and elevate; review diuretics; lifestyle and alcohol advice; offer allopurinol treat-to-target after the flare
+tell: This is gout, caused by crystals in the joint. Anti-inflammatory tablets or colchicine will ease it within days. Once it's settled, a daily tablet can stop it coming back.
+
+=== E-elbow A | Lateral epicondylitis
+who: Steve Clarke, 45, decorator
+act: Rub the outside of your elbow; pain gripping a cup.
+open: The outside of my right elbow hurts, especially when I grip a paintbrush.
+find: Tenderness over the right lateral epicondyle
+find: Pain on resisted wrist extension and middle finger extension
+find: Full range of elbow movement
+find: No swelling or deformity
+key: Palpate the lateral epicondyle | Site
+key: Resisted wrist extension, Cozen's test | Tennis elbow
+key: Range of motion | Joint pathology
+key: Examine neck and shoulder | Referred pain
+pres: On examination of Mr Clarke's right elbow, there was tenderness over the lateral epicondyle with pain on resisted wrist and middle finger extension and a full range of movement. These findings indicate right lateral epicondylitis.
+ddx: Lateral epicondylitis | Radial tunnel syndrome, tender distal to the epicondyle | C6 radiculopathy, with neck pain
+ix: Clinical
+mx: Activity modification; analgesia; physiotherapy with eccentric exercises; counterforce brace; most settle within a year
+tell: This is tennis elbow, inflammation where forearm muscles attach. Rest from gripping, physio exercises and a brace help, and most people recover fully.
+
+=== E-elbow B | Olecranon bursitis
+door: You are an FY1. A 52-year-old carpet fitter has a swelling over the back of his left elbow. Examine his elbow, then present your findings to the examiner. Aim to finish examining by 7 minutes.
+who: Phil Burns, 52, carpet fitter
+act: Leans on elbows; swelling not very painful.
+open: I've got a lump on the back of my elbow.
+find: Fluctuant swelling over the left olecranon
+find: Not hot or red; mildly tender
+find: Full elbow range of movement
+find: No skin breach
+key: Inspect and palpate | Bursitis
+key: Check temperature and redness | Septic bursitis
+key: Range of movement | Joint versus bursa
+key: Look for gout tophi or rheumatoid nodules | Causes
+pres: On examination of Mr Burns's left elbow, there was a fluctuant, non-erythematous, mildly tender swelling over the olecranon with full elbow movement and no skin breach. These findings indicate non-septic olecranon bursitis.
+ddx: Traumatic olecranon bursitis | Septic bursitis, with redness, heat and fever | Gouty bursitis or rheumatoid nodules
+ix: Aspiration with Gram stain, culture and crystals if infection suspected
+mx: Avoid leaning; compression; NSAIDs; antibiotics if septic
+tell: The fluid sac over your elbow has filled up from leaning on it. Avoiding pressure and anti-inflammatories usually settle it.
+
+=== E-elbow C | Rheumatoid nodules and arthritis
+door: You are an FY1. A 58-year-old woman with painful hands has lumps on her elbows. Examine her elbow, then present your findings to the examiner. Aim to finish examining by 7 minutes.
+who: Pam Jones, 58, retired hairdresser
+act: Swollen knuckles; stiffness.
+open: My hands are stiff in the mornings and I've got lumps on my elbows.
+find: Firm non-tender nodules on the extensor surfaces of both forearms
+find: Symmetrical swelling of MCP and PIP joints
+find: Ulnar deviation of the fingers
+find: Reduced elbow extension
+key: Inspect extensor surfaces | Rheumatoid nodules
+key: Examine the hands | Pattern of arthritis
+key: Range of motion | Joint involvement
+key: Function | Impact
+pres: On examination of Mrs Jones's elbows, there were firm non-tender nodules on the extensor surfaces bilaterally, reduced elbow extension and symmetrical MCP and PIP synovitis with ulnar deviation. These findings are consistent with rheumatoid arthritis with rheumatoid nodules.
+ddx: Rheumatoid arthritis with nodules | Gouty tophi, chalky and often near joints | Psoriatic arthritis, with skin and nail changes
+ix: RF, anti-CCP, CRP, ESR, FBC; hand and foot X-rays
+mx: Rheumatology referral; DMARDs such as methotrexate; physiotherapy and occupational therapy
+tell: These lumps are rheumatoid nodules, linked to rheumatoid arthritis in your joints. A rheumatologist can start treatment to calm the inflammation and protect your joints.
+
+=== E-knee A | Knee osteoarthritis
+who: Mary Hart, 66, retired cleaner
+act: Antalgic gait; crepitus on bending.
+open: My right knee has been painful for two years and it's stiff in the mornings for a few minutes.
+find: Varus deformity of the right knee
+find: Bony swelling and joint line tenderness
+find: Crepitus on movement; reduced flexion to 100 degrees
+find: Small effusion; stable ligaments
+key: Gait and alignment | Deformity
+key: Effusion tests | Swelling
+key: Range of motion and crepitus | Osteoarthritis
+key: Ligament stability | Instability
+pres: On examination of Mrs Hart's right knee, there was an antalgic gait, varus deformity, bony swelling, joint line tenderness, crepitus, a small effusion and reduced flexion to 100 degrees, with stable ligaments. These findings indicate osteoarthritis of the right knee.
+ddx: Knee osteoarthritis | Inflammatory arthritis, with prolonged stiffness and synovitis | Referred hip pain, excluded by hip examination
+ix: Clinical diagnosis per NICE in over 45s; X-ray if atypical or considering surgery
+mx: Exercise and strengthening; weight loss; topical NSAIDs; paracetamol limited use; walking aids; joint replacement referral if severe despite treatment
+tell: This is osteoarthritis in your knee. Exercise and strengthening help the most, along with anti-inflammatory gel. If it stays severe, a knee replacement can be considered.
+
+=== E-knee B | ACL rupture
+door: You are an FY1. A 24-year-old rugby player felt a pop in his left knee during a tackle last week. Examine his knee, then present your findings to the examiner. Aim to finish examining by 7 minutes.
+who: Jake Reid, 24, rugby player
+act: Says the knee gives way when turning.
+open: I heard a pop in my knee during a tackle and it swelled up straight away.
+find: Moderate effusion
+find: Positive anterior drawer and Lachman's test
+find: Negative McMurray's test
+find: Full extension, flexion limited by swelling
+key: Effusion | Haemarthrosis
+key: Lachman's and anterior drawer | ACL
+key: McMurray's | Meniscus
+key: Collateral ligaments | Associated injury
+pres: On examination of Mr Reid's left knee, there was a moderate effusion, a positive Lachman's and anterior drawer test, negative McMurray's test and stable collaterals. These findings indicate an anterior cruciate ligament rupture.
+ddx: ACL rupture | Meniscal tear, with locking and joint line tenderness | Patellar dislocation or tibial plateau fracture
+ix: MRI knee; X-ray if bony injury suspected
+mx: Analgesia, ice, physiotherapy; orthopaedic referral for reconstruction in active sportspeople
+tell: You've likely torn the main ligament inside your knee. An MRI will confirm it. As you play rugby, a reconstruction operation followed by physio is often recommended.
+
+=== E-knee C | Septic arthritis of the knee
+door: You are an FY1. A 75-year-old man with a hot swollen left knee and fever has been brought in. Examine his knee, then present your findings to the examiner. Aim to finish examining by 7 minutes.
+who: Albert King, 75, retired miner
+act: Refuse to move the knee; feel shivery.
+open: My knee is red hot and I can't move it.
+find: Temperature 38.9, HR 108
+find: Hot, red, swollen left knee with large effusion
+find: Severe pain on any passive movement
+find: Unable to weight-bear
+key: Observations | Sepsis
+key: Inspect and palpate | Effusion and heat
+key: Range of motion | Pain on any movement
+key: Do not delay aspiration | Must not miss
+pres: On examination of Mr King's left knee, he was febrile at 38.9 with HR 108. The knee was hot, red and swollen with a large effusion and severe pain on any passive movement, and he could not weight-bear. These findings are septic arthritis until proven otherwise.
+ddx: Septic arthritis | Acute gout or pseudogout, diagnosed by crystals | Haemarthrosis
+ix: Joint aspiration before antibiotics: Gram stain, culture, crystals; blood cultures; FBC, CRP
+mx: IV flucloxacillin or per local guidance after aspiration; orthopaedic referral for washout; analgesia
+tell: I'm worried there's an infection in your knee joint, which can damage it quickly. We'll draw some fluid out with a needle to test it, then start antibiotics through a drip and the orthopaedic team will see you.
+
+=== E-hip A | Hip osteoarthritis
+who: Bill Grant, 71, retired postman
+act: Limp; struggle to put socks on.
+open: My right hip hurts and I can't put my socks on.
+find: Antalgic gait; positive Trendelenburg sign on the right
+find: Reduced internal rotation, painful
+find: Fixed flexion deformity on Thomas's test
+find: Apparent shortening of the right leg
+key: Gait and Trendelenburg | Hip abductor weakness
+key: Internal rotation | Earliest movement lost in OA
+key: Thomas's test | Fixed flexion
+key: Leg length | Shortening
+pres: On examination of Mr Grant's right hip, there was an antalgic gait and positive Trendelenburg sign, painful restricted internal rotation, a fixed flexion deformity and apparent leg shortening. These findings indicate osteoarthritis of the right hip.
+ddx: Hip osteoarthritis | Trochanteric bursitis, with lateral tenderness and preserved rotation | Referred lumbar spine pain
+ix: X-ray hip: joint space narrowing, osteophytes, sclerosis, cysts
+mx: Exercise, weight loss, analgesia, walking aids; total hip replacement if severe impact on quality of life
+tell: Your hip joint has worn down. Exercises, painkillers and a stick help. If it keeps limiting you, a hip replacement works very well.
+
+=== E-hip B | Fractured neck of femur
+door: You are an FY1. An 84-year-old woman fell at home and cannot stand. Examine her hip, then present your findings to the examiner. Aim to finish examining by 7 minutes.
+who: Edna Fox, 84, retired seamstress
+act: Lie with the right leg turned out; cry out if moved.
+open: I fell in the kitchen and now I can't get up.
+find: Right leg shortened and externally rotated
+find: Tenderness over the right groin
+find: Unable to straight leg raise
+find: Distal pulses and sensation intact
+key: Inspect leg position | Fracture
+key: Gentle palpation; avoid unnecessary movement | Pain
+key: Neurovascular status | Safety
+key: Why did she fall? | Falls assessment
+pres: On examination of Mrs Fox's right hip, the leg was shortened and externally rotated with groin tenderness and inability to straight leg raise. Distal neurovascular status was intact. These findings indicate a fractured neck of femur.
+ddx: Intracapsular or extracapsular neck of femur fracture | Pubic ramus fracture | Pathological fracture
+ix: Hip X-rays AP and lateral; bloods including FBC, U&Es, group and save; ECG; investigate the fall
+mx: Analgesia including fascia iliaca block; surgery within 36 hours per NICE; orthogeriatric review; VTE prophylaxis; bone health
+tell: You've broken your hip. We'll give you strong pain relief and a numbing injection, and the surgeons will fix it, ideally within a day or two, so you can get moving again.
+
+=== E-hip C | Trochanteric bursitis
+door: You are an FY1. A 55-year-old woman has pain on the outside of her right hip, worse lying on that side. Examine her hip, then present your findings to the examiner. Aim to finish examining by 7 minutes.
+who: Sue Barker, 55, nurse
+act: Point to the outer hip; wince when pressed there.
+open: The outside of my right hip hurts, especially at night lying on it.
+find: Point tenderness over the right greater trochanter
+find: Full painless internal and external rotation
+find: Pain on resisted hip abduction
+find: Normal gait
+key: Palpate the greater trochanter | Bursitis
+key: Hip rotation | Joint preserved
+key: Resisted abduction | Gluteal tendinopathy
+key: Examine the lumbar spine | Referred pain
+pres: On examination of Mrs Barker's right hip, there was point tenderness over the greater trochanter, pain on resisted abduction and a full painless range of hip rotation. These findings are consistent with greater trochanteric pain syndrome.
+ddx: Greater trochanteric pain syndrome | Hip osteoarthritis, with restricted internal rotation | Lumbar radiculopathy
+ix: Clinical; ultrasound if unclear
+mx: Activity modification; physiotherapy; analgesia; steroid injection if persistent
+tell: The pain comes from inflamed tendons on the outside of your hip, not the joint itself. Physio exercises and avoiding lying on that side usually help.
+
+=== E-breast A | Suspicious left breast lump
+who: Claire Smith, 42, teacher
+act: Anxious; point to the lump.
+open: I found a lump in my left breast last week.
+find: Hard, irregular 2 cm lump in the left upper outer quadrant
+find: Tethered to skin with dimpling
+find: Palpable firm left axillary lymph node
+find: Right breast normal
+key: Inspect with arms by sides, on hips, and raised | Skin changes
+key: Palpate all quadrants and the axillary tail | Systematic
+key: Describe the lump: size, shape, consistency, mobility, fixation | Characterisation
+key: Axillary and supraclavicular nodes | Spread
+pres: On examination of Mrs Smith's breasts, with a chaperone, there was a hard irregular 2 cm lump in the left upper outer quadrant, tethered to the skin with dimpling, and a firm left axillary node. The right breast was normal. These findings are highly suspicious of breast cancer.
+ddx: Breast carcinoma | Fat necrosis, after trauma | Fibroadenoma, which is smooth and mobile
+ix: Triple assessment: mammogram, ultrasound and core biopsy, including the axilla
+mx: Suspected cancer pathway referral; breast MDT; breast care nurse
+tell: This lump needs checking urgently, and I'm referring you to be seen within two weeks for a scan and a needle test. I can't say what it is yet, but the breast team will support you through it.
+
+=== E-breast B | Fibroadenoma
+door: You are an FY1. A 21-year-old woman has found a lump in her right breast. Examine her breasts, then present your findings to the examiner. Aim to finish examining by 7 minutes.
+who: Leah Cole, 21, student
+act: Nervous; point to a smooth lump that moves away.
+open: I've found a lump in my right breast.
+find: Smooth, rubbery, well-defined 2 cm lump in the right breast
+find: Highly mobile, non-tender
+find: No skin changes
+find: No lymphadenopathy
+key: Inspect | Skin changes
+key: Palpate all quadrants | Systematic
+key: Characterise the lump | Fibroadenoma features
+key: Lymph nodes | Spread
+pres: On examination of Ms Cole's breasts, with a chaperone, there was a smooth, rubbery, well-defined, highly mobile 2 cm non-tender lump in the right breast without skin changes or lymphadenopathy. These features are most consistent with a fibroadenoma, which still needs confirmation.
+ddx: Fibroadenoma | Breast cyst | Phyllodes tumour, if large or rapidly growing
+ix: Triple assessment: ultrasound and core biopsy if needed
+mx: Breast clinic referral; reassurance if confirmed; no routine excision
+tell: This lump is most likely a fibroadenoma, a harmless lump common in young women. The breast clinic will do an ultrasound to confirm it.
+
+=== E-breast C | Breast abscess
+door: You are an FY1. A 30-year-old breastfeeding woman has a painful red swelling of her left breast. Examine her breasts, then present your findings to the examiner. Aim to finish examining by 7 minutes.
+who: Hannah Ward, 30, new mother
+act: Guard the breast; feel feverish.
+open: My left breast is red, swollen and agony to touch.
+find: Temperature 38.2
+find: Erythematous, warm left breast
+find: Tender fluctuant 3 cm swelling in the upper outer quadrant
+find: Tender left axillary node
+key: Observations | Systemic infection
+key: Inspect | Erythema
+key: Palpate gently | Fluctuance
+key: Nipple and axilla | Source and nodes
+pres: On examination of Mrs Ward's breasts, she was febrile at 38.2, with an erythematous warm left breast, a tender fluctuant 3 cm swelling in the upper outer quadrant and a tender axillary node. These findings indicate a lactational breast abscess.
+ddx: Breast abscess | Mastitis without abscess | Inflammatory breast cancer, if not resolving
+ix: Ultrasound; aspirate for culture; FBC, CRP
+mx: Ultrasound-guided aspiration; antibiotics such as flucloxacillin; continue breastfeeding or expressing; analgesia
+tell: There's a collection of pus in your breast. The breast team will drain it with a needle, and you'll have antibiotics. It's safe to keep feeding.

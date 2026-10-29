@@ -289,6 +289,7 @@ story: It comes out when I'm lifting at work and goes away when I lie down. It d
 hpc: Lump: Left groin, 8 months, appears on lifting and straining, disappears lying down
 hpc: Pain: None
 hpc: Bowels and urine: Normal
+hpc: Cough and straining: No chronic cough or constipation
 yes: Heavy lifting at work
 no: Pain; vomiting; constipation; straining to pass urine; chronic cough; weight loss
 pmh: Nothing
@@ -490,6 +491,7 @@ story: My friend was diagnosed after a mammogram. I had one 8 months ago and it 
 hpc: Symptoms: None; no lumps found
 hpc: Mammogram: Normal 8 months ago, done privately
 hpc: Checking: Doesn't know how to check properly
+hpc: Family history: No breast or ovarian cancer in relatives
 yes: Anxiety; poor sleep since the friend's news
 no: Lumps; pain; nipple discharge; skin changes; family history of breast or ovarian cancer
 pmh: Nothing
@@ -792,6 +794,7 @@ story: For about three months the right side of my scrotum has got bigger, slowl
 hpc: Swelling: Right scrotum, 3 months, slowly enlarging
 hpc: Pain: None, just heaviness
 hpc: Trauma: None
+hpc: Lump in the testis itself: None noticed; can feel the testis is normal size
 yes: Dragging heaviness
 no: Pain; fever; urinary symptoms; discharge; weight loss; lump in the testis itself; abdominal swelling
 pmh: Nothing
@@ -826,6 +829,7 @@ story: It aches on the left after standing all day at work and feels better lyin
 hpc: Ache: Left scrotum, dragging, end of the day
 hpc: Better: Lying down
 hpc: Fertility: Trying to conceive for a year without success
+hpc: Onset: Noticed 6 months ago, worse when standing
 yes: Dragging ache; better lying down
 no: Sudden severe pain; fever; urinary symptoms; trauma; lump in the testis; weight loss; loin pain; blood in urine
 pmh: Nothing

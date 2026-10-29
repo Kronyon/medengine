@@ -1,0 +1,673 @@
+# Examination stations: genitourinary, skin, ENT, lymph nodes and eyes.
+
+=== E-scrotal A | Testicular tumour
+who: Dan Mills, 28, electrician
+act: Embarrassed; point to a painless lump.
+open: I've noticed a lump on my left testicle.
+find: Hard, irregular, painless 1 cm lump arising from the left testis
+find: Able to get above the swelling
+find: Does not transilluminate
+find: Epididymis and cord normal; no inguinal nodes
+key: Chaperone, consent, examine standing then lying | Professionalism
+key: Can you get above it? | Hernia versus scrotal
+key: Is it separate from the testis? | Testicular versus epididymal
+key: Transillumination | Solid versus cystic
+pres: On examination of Mr Mills's scrotum, with a chaperone, there was a hard, irregular, painless 1 cm lump arising from the left testis. I could get above it and it did not transilluminate. The epididymis and cord were normal. These findings are suspicious of a testicular tumour.
+ddx: Testicular germ cell tumour | Orchitis or haematoma | Epididymal cyst, which is separate and transilluminates
+ix: Urgent scrotal ultrasound; AFP, beta-hCG, LDH; CT staging if confirmed
+mx: Suspected cancer pathway referral; sperm banking; radical inguinal orchidectomy
+tell: This lump needs an urgent scan, as it could be a testicular cancer, which is one of the most curable cancers. I'm referring you to be seen within two weeks.
+
+=== E-scrotal B | Hydrocele
+door: You are an FY1. A 64-year-old man has noticed his right scrotum gradually enlarging. Examine his testes, then present your findings to the examiner. Aim to finish examining by 7 minutes.
+who: Arthur Moss, 64, retired driver
+act: Unbothered; heavy feeling.
+open: My right side down below has slowly got bigger.
+find: Large smooth non-tender right scrotal swelling
+find: Able to get above it
+find: Testis not separately palpable; swelling surrounds it
+find: Brightly transilluminates
+key: Get above it | Scrotal origin
+key: Is the testis palpable separately? | Hydrocele surrounds the testis
+key: Transillumination | Fluid
+key: Recommend ultrasound to see the testis | Exclude underlying tumour
+pres: On examination of Mr Moss's scrotum, with a chaperone, there was a large smooth non-tender right scrotal swelling that I could get above, which surrounded the testis so it could not be felt separately, and which transilluminated brightly. These findings indicate a right hydrocele.
+ddx: Hydrocele | Epididymal cyst, separate from the testis | Inguinoscrotal hernia, which you cannot get above
+ix: Ultrasound scrotum to examine the underlying testis
+mx: Reassure if ultrasound normal; surgical repair if symptomatic
+tell: This is a collection of fluid around the testicle, which is usually harmless. An ultrasound will check the testicle underneath, and an operation can remove it if it bothers you.
+
+=== E-scrotal C | Left varicocele
+door: You are an FY1. A 23-year-old man has a dragging feeling in his left scrotum. Examine his testes, then present your findings to the examiner. Aim to finish examining by 7 minutes.
+who: Sam Price, 23, footballer
+act: Mention it aches by the end of the day.
+open: I've got a dragging ache on my left side down below.
+find: Soft "bag of worms" swelling above the left testis on standing
+find: Increases with Valsalva, disappears lying down
+find: Left testis slightly smaller than the right
+find: Does not transilluminate
+key: Examine standing and with Valsalva | Varicocele
+key: Check lying down | Empties if primary
+key: Testicular size | Atrophy and fertility
+key: Persistence lying down or right-sided | Renal or retroperitoneal mass
+pres: On examination of Mr Price's scrotum, with a chaperone, there was a soft bag-of-worms swelling above the left testis on standing which increased with Valsalva and disappeared lying down, with a slightly smaller left testis. This is a left varicocele.
+ddx: Primary left varicocele | Secondary varicocele from a left renal tumour, suspected if it doesn't empty lying down | Inguinal hernia
+ix: Ultrasound scrotum; renal ultrasound if secondary features
+mx: Scrotal support; analgesia; referral if painful, subfertility or testicular atrophy
+tell: This is a varicocele, enlarged veins like varicose veins. It's common and usually harmless. Supportive underwear helps; surgery is an option if it's painful or affecting fertility.
+
+=== E-dre A | Benign prostatic hyperplasia
+who: Ken Wright, 72, retired electrician
+act: Model station: read findings when examined.
+open: I've got a weak stream and I'm up three times a night.
+find: Normal perianal skin and anal tone
+find: Smoothly enlarged, rubbery prostate, about 40 g
+find: Median sulcus preserved
+find: No rectal masses; stool on glove normal
+key: Consent, chaperone, left lateral position | Professionalism
+key: Inspect perianal area | Skin, haemorrhoids, fissures
+key: Assess anal tone | Neurology
+key: Describe the prostate: size, surface, consistency, sulcus | Benign versus malignant
+pres: On digital rectal examination of Mr Wright, with a chaperone and consent, perianal skin and anal tone were normal. The prostate was smoothly enlarged, rubbery, about 40 g, with a preserved median sulcus. There were no rectal masses. These findings are consistent with benign prostatic hyperplasia.
+ddx: Benign prostatic hyperplasia | Prostate cancer, which is hard and irregular | Prostatitis, which is tender
+ix: PSA after counselling; urine dip; U&Es; IPSS; frequency volume chart
+mx: Lifestyle measures; alpha-blocker such as tamsulosin; add finasteride if large prostate; urology referral if refractory
+tell: Your prostate is enlarged but feels smooth, which is common with age. Tablets can help your flow, and we'll do a blood test to check the PSA.
+
+=== E-dre B | Locally advanced prostate cancer
+door: You are an FY1. A 68-year-old man has back pain and urinary symptoms. Perform a digital rectal examination on the model, then present your findings to the examiner.
+who: Harry Jones, 68, retired builder
+act: Model station: read findings when examined.
+open: I've got back pain and my waterworks are bad.
+find: Normal anal tone
+find: Hard, irregular, craggy prostate
+find: Median sulcus obliterated
+find: Fixed to surrounding tissues
+key: Anal tone | Cord compression with back pain
+key: Prostate surface and consistency | Malignancy
+key: Median sulcus | Local extension
+key: Ask about bone pain | Metastases
+pres: On digital rectal examination of Mr Jones, with consent and a chaperone, anal tone was normal. The prostate was hard, irregular and craggy with an obliterated median sulcus and appeared fixed. With back pain, these findings are highly suspicious of locally advanced prostate cancer with possible bone metastases.
+ddx: Prostate cancer with possible spinal metastases | Prostatitis, tender and boggy | BPH, smooth and rubbery
+ix: PSA; MRI prostate; biopsy; bone scan or PSMA-PET; calcium, ALP; MRI spine if neurological symptoms
+mx: Suspected cancer pathway urology referral; urgent MRI spine if any neurological signs; androgen deprivation therapy as decided by MDT
+tell: Your prostate feels abnormal, which could mean prostate cancer. With your back pain, we'll check whether anything has spread. I'm referring you urgently, and if you get leg weakness or bladder problems, go to A&E.
+
+=== E-dre C | Rectal cancer
+door: You are an FY1. A 70-year-old woman has had rectal bleeding and a change in bowel habit for 2 months. Perform a digital rectal examination on the model, then present your findings to the examiner.
+who: Mary Jenkins, 70, retired teacher
+act: Model station: read findings when examined.
+open: I've been bleeding from my back passage and going more often.
+find: Normal perianal skin
+find: Hard, irregular, ulcerated mass on the posterior wall 6 cm from the anal verge
+find: Mass partly fixed
+find: Blood on the glove
+key: Inspect perianal area | Fissures, haemorrhoids
+key: Sweep all walls | Systematic
+key: Describe the mass: distance, position, mobility | Staging
+key: Inspect the glove | Blood, mucus
+pres: On digital rectal examination of Mrs Jenkins, with consent and a chaperone, there was a hard, irregular, ulcerated mass on the posterior rectal wall 6 cm from the anal verge, partly fixed, with blood on the glove. These findings are highly suspicious of rectal cancer.
+ddx: Rectal adenocarcinoma | Large villous adenoma | Anal cancer, if at the verge
+ix: FBC; CEA; colonoscopy with biopsy; MRI pelvis and CT chest, abdomen and pelvis for staging
+mx: Suspected cancer pathway referral; lower GI cancer MDT; neoadjuvant chemoradiotherapy and surgery as decided
+tell: I can feel a growth in your back passage that needs urgent investigation, as it could be a bowel cancer. I'm referring you to be seen within two weeks for a camera test.
+
+=== E-genit A | Primary genital herpes
+door: You are an FY1. A 35-year-old man has a sore area on his penis. Examine the external genitalia on the model, then present your findings to the examiner.
+who: Lee Brown, 35, sales rep
+act: Model station: read findings when examined.
+open: I've got sore spots down below.
+find: Multiple painful shallow ulcers on the glans and shaft
+find: Some vesicles
+find: Tender bilateral inguinal lymphadenopathy
+find: No urethral discharge
+key: Consent, chaperone | Professionalism
+key: Describe lesions: number, pain, edge, base | Herpes versus syphilis
+key: Inguinal nodes | Associated features
+key: Sexual history after examination | Risk
+pres: On examination of Mr Brown's external genitalia, with consent and a chaperone, there were multiple painful shallow ulcers and vesicles on the glans and shaft with tender bilateral inguinal lymphadenopathy and no urethral discharge. These findings suggest primary genital herpes.
+ddx: Genital herpes simplex | Primary syphilis, a single painless chancre | Behçet's disease or fixed drug eruption
+ix: HSV PCR swab; syphilis serology; HIV and full STI screen
+mx: Aciclovir; analgesia; saline bathing; sexual health referral and partner notification
+tell: These sores are most likely genital herpes, which is common and treatable. Antiviral tablets will help them heal, and the sexual health clinic can check for other infections confidentially.
+
+=== E-genit B | Primary syphilis
+who: Matt Green, 35, chef
+act: Model station: read findings when examined.
+open: I've got a sore on my penis that doesn't hurt.
+find: Single painless, indurated ulcer with a clean base on the coronal sulcus
+find: Painless rubbery bilateral inguinal lymphadenopathy
+find: No vesicles; no discharge
+find: No rash elsewhere on inspection
+key: Describe the ulcer: painless, indurated | Chancre
+key: Inguinal nodes | Associated features
+key: Look for secondary syphilis rash | Stage
+key: Sexual history after examination | Risk
+pres: On examination of Mr Green's external genitalia, with consent and a chaperone, there was a single painless indurated clean-based ulcer on the coronal sulcus with painless rubbery inguinal lymphadenopathy. These findings are consistent with primary syphilis.
+ddx: Primary syphilis | Genital herpes, painful and multiple | Lymphogranuloma venereum or chancroid
+ix: Treponemal serology, dark-ground microscopy or PCR of the lesion; HIV and STI screen
+mx: Sexual health referral; benzathine benzylpenicillin IM; partner notification
+tell: This sore is likely syphilis, a sexually transmitted infection that's easily treated with a penicillin injection. The sexual health clinic will test and treat you and help contact partners confidentially.
+
+=== E-genit C | Phimosis
+door: You are an FY1. A 54-year-old man with diabetes has difficulty retracting his foreskin. Examine the external genitalia on the model, then present your findings to the examiner.
+who: Roy Bell, 54, warehouse worker
+act: Model station: read findings when examined.
+open: I can't pull my foreskin back properly any more.
+find: Foreskin non-retractile with a white scarred ring at the tip
+find: Mild balanitis with redness
+find: No masses or ulcers
+find: Urine sugar positive
+key: Attempt gentle retraction | Phimosis
+key: Look for lichen sclerosus or balanitis | Cause
+key: Return the foreskin | Avoid paraphimosis
+key: Check glucose | Diabetes control
+pres: On examination of Mr Bell's external genitalia, with consent and a chaperone, the foreskin was non-retractile with a white scarred preputial ring and mild balanitis, without masses or ulcers. With glycosuria, these findings indicate phimosis, likely from balanitis xerotica obliterans associated with poorly controlled diabetes.
+ddx: Pathological phimosis from lichen sclerosus | Balanitis from candida in diabetes | Penile cancer, excluded by no mass
+ix: Glucose, HbA1c; swab
+mx: Potent topical steroid; treat candida; improve diabetes control; urology referral for circumcision if persistent
+tell: Your foreskin has become tight from scarring and infection, helped by high sugar. A steroid cream and better sugar control may help; if not, a circumcision can fix it.
+
+=== E-rash A | Chronic plaque psoriasis
+who: Mike Turner, 32, IT technician
+act: Show elbows and knees; mention itch.
+open: I've had this itchy rash on my elbows and knees for months.
+find: Well-demarcated erythematous plaques with silvery scale on the extensor elbows and knees
+find: Scalp involvement behind the ears
+find: Nail pitting and onycholysis
+find: No joint swelling
+key: Describe: site, distribution, morphology, colour, scale | Dermatology language
+key: Examine scalp and nails | Psoriasis clues
+key: Check joints | Psoriatic arthritis
+key: Assess extent | Severity
+pres: On examination of Mr Turner's skin, there were well-demarcated erythematous plaques with silvery scale on the extensor surfaces of the elbows and knees, scalp involvement and nail pitting with onycholysis, without joint swelling. This is chronic plaque psoriasis.
+ddx: Chronic plaque psoriasis | Discoid eczema, which lacks silvery scale | Tinea corporis, annular with central clearing
+ix: Clinical; PASI and DLQI scores
+mx: Emollients; potent topical steroid with vitamin D analogue; scalp preparations; dermatology referral if extensive or refractory; screen for psoriatic arthritis, CV risk and mood
+tell: This is psoriasis, a common skin condition. Creams combining a steroid and vitamin D usually control it well. Tell us if your joints become painful or swollen.
+
+=== E-rash B | Atopic eczema
+door: You are an FY1. A 19-year-old woman has an itchy rash in the creases of her elbows and knees. Examine and describe the rash. Present your findings to the examiner.
+who: Chloe Adams, 19, student
+act: Scratch; dry skin.
+open: My skin is so itchy, especially in the creases.
+find: Ill-defined erythematous, excoriated patches in the antecubital and popliteal fossae
+find: Lichenification
+find: Generalised dry skin
+find: No crusting or vesicles
+key: Describe the distribution: flexural | Atopic eczema
+key: Look for lichenification and excoriation | Chronicity
+key: Look for infection: crusting, punched-out erosions | Complications
+key: Ask about atopy | History
+pres: On examination of Ms Adams's skin, there were ill-defined erythematous excoriated patches with lichenification in the antecubital and popliteal fossae, with generalised xerosis and no signs of infection. This is flexural atopic eczema.
+ddx: Atopic eczema | Contact dermatitis | Scabies, with burrows in finger webs
+ix: Clinical
+mx: Emollients and soap substitutes; moderate-potency topical steroid for flares; avoid triggers; eczema action plan
+tell: This is eczema. Using lots of moisturiser every day and a steroid cream for flare-ups will settle it.
+
+=== E-rash C | Shingles
+door: You are an FY1. A 72-year-old woman has a painful blistering rash on one side of her chest. Examine and describe the rash. Present your findings to the examiner.
+who: Joan Fisher, 72, retired nurse
+act: Guard your left chest; burning pain.
+open: I've got a painful rash on the left side of my chest.
+find: Grouped vesicles on an erythematous base in a band from the left mid-back to the chest
+find: Does not cross the midline
+find: Dermatomal, T5
+find: Eye and nose not involved
+key: Distribution: dermatomal, unilateral | Shingles
+key: Morphology: grouped vesicles | Herpes zoster
+key: Check eye and nose tip | Hutchinson's sign
+key: Ask about immunosuppression | Risk
+pres: On examination of Mrs Fisher's skin, there were grouped vesicles on an erythematous base in a unilateral left T5 dermatomal distribution, not crossing the midline, with no ophthalmic involvement. This is herpes zoster.
+ddx: Herpes zoster | Contact dermatitis | Disseminated zoster in immunosuppression
+ix: Clinical
+mx: Aciclovir or valaciclovir within 72 hours; analgesia; cover lesions; avoid contact with pregnant women and immunosuppressed people without chickenpox immunity; offer shingles vaccine later
+tell: This is shingles, the chickenpox virus waking up along one nerve. Antiviral tablets started now shorten it and reduce pain. Keep it covered to protect others.
+
+=== E-lesion A | Superficial spreading melanoma
+who: Tony Clark, 64, retired builder
+act: Turn around to show your back.
+open: My wife says the mole on my back has changed.
+find: 9 mm asymmetrical pigmented lesion on the upper back
+find: Irregular border
+find: Multiple colours: brown, black and grey
+find: No regional lymphadenopathy
+key: ABCDE: asymmetry, border, colour, diameter, evolution | Melanoma features
+key: Weighted 7-point checklist | Referral
+key: Examine regional nodes | Spread
+key: Examine the rest of the skin | Other lesions
+pres: On examination of Mr Clark's skin, there was a 9 mm asymmetrical pigmented lesion on the upper back with an irregular border and variegated pigmentation, without regional lymphadenopathy. These features are highly suspicious of melanoma.
+ddx: Superficial spreading melanoma | Dysplastic naevus | Seborrhoeic keratosis
+ix: Dermoscopy; excision biopsy with a 2 mm margin
+mx: Suspected cancer pathway referral; sun protection
+tell: This mole has worrying features and needs checking urgently. I'm referring you to a skin specialist within two weeks who will likely remove it for testing.
+
+=== E-lesion B | Basal cell carcinoma
+door: You are an FY1. A 78-year-old man has a slowly growing spot near his eye. Examine and describe the lesion. Present your findings to the examiner.
+who: Ernest Blake, 78, retired farmer
+act: Point near your eye.
+open: This spot near my eye has slowly grown.
+find: 8 mm pearly nodule at the left inner canthus
+find: Rolled edge with telangiectasia
+find: Central ulceration and crust
+find: No lymphadenopathy
+key: Describe: pearly, rolled edge, telangiectasia | BCC
+key: Site: high-risk facial area | Treatment choice
+key: Lymph nodes | SCC versus BCC
+key: Sun exposure | Risk
+pres: On examination of Mr Blake's skin, there was an 8 mm pearly nodule with a rolled telangiectatic edge and central ulceration at the left inner canthus, without lymphadenopathy. This is a nodular basal cell carcinoma in a high-risk site.
+ddx: Nodular basal cell carcinoma | Squamous cell carcinoma | Keratoacanthoma
+ix: Biopsy by dermatology
+mx: Routine dermatology referral, sooner if near the eye; Mohs surgery for periocular sites
+tell: This is likely a basal cell carcinoma, a skin cancer that grows slowly and almost never spreads. Because it's near your eye, a specialist will remove it carefully.
+
+=== E-lesion C | Seborrhoeic keratosis
+door: You are an FY1. A 70-year-old woman is worried about a brown lump on her back. Examine and describe the lesion. Present your findings to the examiner.
+who: Rita Stone, 70, retired cook
+act: Turn to show your back.
+open: I've got a brown lump on my back. Is it cancer?
+find: 12 mm well-defined, raised, waxy brown lesion
+find: Stuck-on appearance
+find: Surface with keratin plugs
+find: Several similar lesions elsewhere on the back
+key: Describe | Morphology
+key: Stuck-on appearance and keratin plugs | Seborrhoeic keratosis
+key: Compare with other lesions | Ugly duckling sign
+key: Dermoscopy if uncertain | Exclude melanoma
+pres: On examination of Mrs Stone's skin, there was a 12 mm well-defined, raised, waxy, stuck-on brown lesion with keratin plugs, similar to several others on her back. This is consistent with a seborrhoeic keratosis.
+ddx: Seborrhoeic keratosis | Pigmented BCC | Melanoma, excluded by dermoscopy if any doubt
+ix: Dermoscopy
+mx: Reassure; no treatment needed; cryotherapy if irritated; return if any lesion changes
+tell: This is a seborrhoeic keratosis, a harmless growth common with age. It doesn't need treatment, but come back if one changes or bleeds.
+
+=== E-nose A | Nasal polyps
+door: You are an FY1. A 45-year-old woman has had a blocked nose on both sides and loss of smell for 3 months. Examine the nose. Present your findings to the examiner.
+who: Gill Hart, 45, receptionist
+act: Nasal voice; can't smell coffee.
+open: My nose has been blocked for months and I can't smell anything.
+find: Bilateral pale, grey, glistening, insensate masses in the nasal cavities
+find: Mobile on probing, non-tender
+find: Septum straight
+find: Reduced nasal airflow bilaterally
+key: Inspect externally and with a speculum | Technique
+key: Describe the masses | Polyps
+key: Bilateral versus unilateral | Unilateral is a red flag
+key: Ask about asthma and aspirin sensitivity | Samter's triad
+pres: On examination of Mrs Hart's nose, there were bilateral pale, grey, glistening, mobile, insensate masses in both nasal cavities with reduced airflow and a straight septum. These are bilateral nasal polyps.
+ddx: Bilateral nasal polyps with chronic rhinosinusitis | Inverted papilloma or malignancy, suspected if unilateral | Allergic rhinitis
+ix: Nasendoscopy; CT sinuses if surgery considered
+mx: Intranasal corticosteroid drops or spray; short oral steroid course; ENT referral if not improving or unilateral
+tell: You have polyps in your nose, swellings of the lining. Steroid drops usually shrink them and help your smell come back.
+
+=== E-nose B | Septal haematoma
+door: You are an FY1. An 18-year-old was punched in the nose last night and cannot breathe through it. Examine the nose. Present your findings to the examiner.
+who: Kyle Moss, 18, student
+act: Swollen nose; breathe through your mouth.
+open: Someone punched me last night and now I can't breathe through my nose.
+find: Bilateral boggy purple swelling of the nasal septum
+find: Nasal obstruction bilaterally
+find: External nasal swelling and bruising
+find: No CSF rhinorrhoea
+key: Inspect septum with a speculum | Septal haematoma
+key: Palpate for boggy swelling | Diagnosis
+key: Check for other facial injury | Associated injury
+key: Recognise urgency | Septal necrosis
+pres: On examination of Mr Moss's nose after trauma, there was a bilateral boggy purple septal swelling causing nasal obstruction, with external swelling and no CSF leak. This is a septal haematoma, an ENT emergency.
+ddx: Septal haematoma | Simple nasal fracture with mucosal swelling | Septal abscess, if infected
+ix: Clinical
+mx: Same-day ENT for incision and drainage; nasal packing; antibiotics; review of nasal fracture in 5 to 7 days
+tell: There's a blood clot inside the middle of your nose, which needs draining today, otherwise it can damage the cartilage and collapse your nose. The ENT team will see you now.
+
+=== E-nose C | Anterior epistaxis from Little's area
+door: You are an FY1. A 68-year-old man on aspirin has recurrent nosebleeds from the left nostril. Examine the nose. Present your findings to the examiner.
+who: Bert Cole, 68, retired postman
+act: Hold tissue to the nose.
+open: My left nostril keeps bleeding.
+find: Prominent vessels on the left anterior septum, Little's area
+find: Fresh blood clot
+find: No posterior bleeding into the throat
+find: BP 158/92
+key: Assess ABC and haemodynamics | Safety
+key: Inspect anterior septum with good light | Little's area
+key: Look for posterior bleeding | Posterior source
+key: Medications: anticoagulants or antiplatelets | Risk
+pres: On examination of Mr Cole's nose, there were prominent vessels with fresh clot on the left anterior septum in Little's area and no posterior bleeding. He was haemodynamically stable with BP 158/92. This is anterior epistaxis from Little's area.
+ddx: Anterior epistaxis from Little's area | Posterior epistaxis, which bleeds into the throat | Nasal tumour, if unilateral and persistent
+ix: FBC; clotting if on anticoagulants
+mx: First aid: lean forward, pinch the soft nose 10 to 15 minutes; silver nitrate cautery of visible vessel; Naseptin cream; packing if continuing
+tell: The bleeding is from small vessels at the front of your nose. I can seal them with a chemical stick, and an antiseptic cream helps them heal.
+
+=== E-mouth A | Oral squamous cell carcinoma
+who: Ray Hall, 58, lorry driver
+act: Sore tongue; heavy smoker.
+open: I've had a sore patch on the side of my tongue for five weeks.
+find: 1.5 cm indurated ulcer with rolled edges on the left lateral tongue
+find: Surrounding leukoplakia
+find: Firm left submandibular lymph node
+find: Rest of oral cavity normal
+key: Use gloves, light, tongue depressor; examine systematically | Technique
+key: Describe the lesion including induration | Malignancy features
+key: Palpate the floor of mouth and neck | Spread
+key: Ask about smoking and alcohol | Risk
+pres: On examination of Mr Hall's mouth, there was a 1.5 cm indurated ulcer with rolled edges and surrounding leukoplakia on the left lateral tongue, with a firm left submandibular node. These findings are highly suspicious of oral squamous cell carcinoma.
+ddx: Oral squamous cell carcinoma | Traumatic ulcer, which heals within 3 weeks once the cause is removed | Aphthous ulcer, small and painful without induration
+ix: Biopsy; imaging CT or MRI neck; chest imaging
+mx: Suspected cancer pathway referral to oral and maxillofacial surgery or ENT; smoking and alcohol cessation
+tell: This ulcer needs an urgent check because it could be mouth cancer. I'm referring you to be seen within two weeks. Stopping smoking will help whatever the result.
+
+=== E-mouth B | Oral candidiasis
+door: You are an FY1. A 67-year-old man using a steroid inhaler has a sore mouth. Examine the mouth. Present your findings to the examiner.
+who: Ted Black, 67, retired teacher
+act: Sore mouth when eating.
+open: My mouth is sore and things taste funny.
+find: White plaques on the palate and tongue that wipe off leaving red patches
+find: Angular cheilitis
+find: Dentures fit poorly
+find: No lymphadenopathy
+key: Do the plaques wipe off? | Candida versus leukoplakia
+key: Look for risk factors: inhaled steroids, dentures, diabetes | Cause
+key: Examine dentures | Source
+key: Lymph nodes | Exclude malignancy
+pres: On examination of Mr Black's mouth, there were white plaques on the palate and tongue that wiped off leaving erythematous areas, angular cheilitis and ill-fitting dentures. This is oral candidiasis, likely from inhaled steroids and dentures.
+ddx: Oral candidiasis | Leukoplakia, which does not wipe off | Lichen planus, with lacy white striae
+ix: Glucose or HbA1c
+mx: Miconazole oral gel or nystatin; rinse mouth after inhaler; spacer; denture hygiene; review if persistent
+tell: This is thrush in your mouth, partly from your inhaler. An antifungal gel will clear it. Rinsing your mouth after your inhaler and cleaning dentures overnight stop it coming back.
+
+=== E-mouth C | Peritonsillar abscess
+door: You are an FY1. A 25-year-old man has a severe sore throat on one side and can hardly open his mouth. Examine the mouth. Present your findings to the examiner.
+who: Ben Cooper, 25, chef
+act: Hot potato voice; drool; struggle to open your mouth.
+open: My throat is agony on the left and I can't open my mouth properly.
+find: Trismus
+find: Left peritonsillar swelling with uvula deviated to the right
+find: Muffled voice; drooling
+find: Temperature 38.5; tender left cervical nodes
+key: Assess airway first | Safety
+key: Inspect with a light, gently | Trismus limits view
+key: Uvula deviation | Quinsy
+key: Ability to swallow | Hydration
+pres: On examination of Mr Cooper's mouth, he had trismus, a muffled voice and drooling, with a left peritonsillar swelling deviating the uvula to the right, fever of 38.5 and tender cervical nodes, without stridor. This is a left peritonsillar abscess.
+ddx: Peritonsillar abscess | Severe tonsillitis without abscess | Parapharyngeal abscess or epiglottitis
+ix: FBC, CRP, U&Es
+mx: Same-day ENT for aspiration or incision; IV antibiotics; IV fluids; analgesia
+tell: You have an abscess beside your tonsil. The ENT team will drain it, which brings quick relief, and you'll have antibiotics through a drip.
+
+=== E-ear A | Left vestibular schwannoma
+who: Paul Grant, 40, call centre worker
+act: Turn your good ear towards the speaker.
+open: My left ear's hearing has been going for two months, with ringing.
+find: Normal otoscopy both ears
+find: Rinne positive both sides
+find: Weber lateralises to the right
+find: Reduced left corneal reflex
+key: Otoscopy | Exclude conductive causes
+key: Whispered voice test | Hearing
+key: Rinne and Weber | Sensorineural versus conductive
+key: Check CN V and VII | Cerebellopontine angle
+pres: On examination of Mr Grant's ears, otoscopy was normal. Rinne's test was positive bilaterally and Weber's lateralised to the right, indicating left sensorineural hearing loss, with a reduced left corneal reflex. These findings suggest a left vestibular schwannoma.
+ddx: Left vestibular schwannoma | Sudden sensorineural hearing loss, if acute | Ménière's disease, with episodic vertigo
+ix: Pure tone audiometry; MRI internal auditory meatus
+mx: ENT referral; watch and scan, radiosurgery or surgery depending on size
+tell: Your hearing loss is from the nerve on the left, so we need an MRI scan. Sometimes a slow-growing non-cancerous growth on the nerve causes this, and it's treatable.
+
+=== E-ear B | Otitis externa
+door: You are an FY1. A 30-year-old swimmer has a painful itchy right ear. Examine the ears and test his hearing. Present your findings to the examiner.
+who: Dan Ford, 30, lifeguard
+act: Wince when you pull the ear.
+open: My right ear is itchy and sore.
+find: Pain on moving the pinna and pressing the tragus
+find: Swollen erythematous ear canal with debris
+find: Tympanic membrane partially visible, intact
+find: Rinne negative on the right, Weber lateralises to the right
+key: Examine the pinna and tragus | Otitis externa
+key: Otoscopy, normal ear first | Technique
+key: Tympanic membrane integrity | Drop choice
+key: Tuning forks | Conductive loss from debris
+pres: On examination of Mr Ford's right ear, there was pain on moving the pinna and pressing the tragus, an erythematous swollen canal with debris and an intact tympanic membrane. Rinne was negative on the right and Weber lateralised to the right, indicating a conductive loss. This is right otitis externa.
+ddx: Acute otitis externa | Furunculosis | Otitis media with perforation
+ix: Swab if recurrent
+mx: Topical antibiotic or acetic acid drops; aural toilet; keep dry; analgesia
+tell: This is swimmer's ear, an infection of the ear canal. Drops for a week and keeping it dry will clear it.
+
+=== E-ear C | Cholesteatoma
+door: You are an FY1. A 38-year-old woman has a smelly discharge from her left ear and reduced hearing. Examine the ears and test her hearing. Present your findings to the examiner.
+who: Sarah Jones, 38, bank clerk
+act: Mention the smell; hearing reduced.
+open: My left ear keeps discharging and it smells.
+find: Foul-smelling discharge in the left canal
+find: Attic retraction pocket with white keratin debris
+find: Rinne negative on the left, Weber lateralises to the left
+find: Facial nerve intact
+key: Otoscopy: look at the attic | Cholesteatoma
+key: Tuning forks | Conductive loss
+key: Facial nerve | Complications
+key: Ask about vertigo and headache | Complications
+pres: On examination of Mrs Jones's left ear, there was foul-smelling discharge and an attic retraction pocket containing white keratin debris, with a left conductive hearing loss and an intact facial nerve. This is a left cholesteatoma.
+ddx: Cholesteatoma | Chronic suppurative otitis media | Otitis externa
+ix: Audiometry; CT temporal bone
+mx: ENT referral for surgical removal; keep ear dry; urgent if vertigo, facial weakness or headache
+tell: There's a growth of skin cells in your middle ear, called a cholesteatoma. It isn't cancer but slowly damages the ear, so it needs an operation. I'll refer you to ENT.
+
+=== E-nodes A | Hodgkin lymphoma
+who: Emma Hughes, 24, student
+act: Point to painless neck lumps; mention night sweats.
+open: I've had lumps in my neck for a month and I've been sweating at night.
+find: Multiple painless, rubbery, enlarged left supraclavicular and cervical nodes, largest 3 cm
+find: Nodes mobile, non-tender
+find: No axillary or inguinal nodes
+find: No hepatosplenomegaly
+key: Examine all node groups systematically from behind | Technique
+key: Describe nodes: size, consistency, tenderness, mobility | Character
+key: Check axillae, groins, liver and spleen | Extent
+key: Ask about B symptoms | Staging
+pres: On examination of Ms Hughes's lymph nodes, there were multiple painless, rubbery, mobile left cervical and supraclavicular nodes up to 3 cm, without axillary or inguinal nodes or hepatosplenomegaly. With night sweats, these findings are concerning for lymphoma, likely Hodgkin.
+ddx: Hodgkin lymphoma | Infectious mononucleosis, with sore throat and tender nodes | TB or metastatic malignancy
+ix: FBC, blood film, LDH, ESR; monospot; chest X-ray; excision node biopsy; CT or PET staging
+mx: Suspected cancer pathway haematology referral; staging and chemotherapy
+tell: These lumps need urgent checking, with a scan and a biopsy, as they could be lymphoma. Lymphoma in young people is often very treatable. I'm referring you to be seen within two weeks.
+
+=== E-nodes B | Infectious mononucleosis
+door: You are an FY1. A 17-year-old has a sore throat, tiredness and neck lumps for 10 days. Examine her lymph nodes. Present your findings to the examiner.
+who: Mia Turner, 17, sixth-form student
+act: Tired, sore throat.
+open: I've had a sore throat and I'm exhausted, and my neck's swollen.
+find: Tender, enlarged bilateral posterior cervical nodes
+find: Exudative tonsillitis with palatal petechiae
+find: Palpable spleen tip
+find: Temperature 38.0
+key: Node groups including posterior cervical | Pattern
+key: Examine throat | Tonsillitis
+key: Palpate for splenomegaly | Glandular fever
+key: Ask about antibiotics given | Amoxicillin rash
+pres: On examination of Ms Turner's lymph nodes, there was tender bilateral posterior cervical lymphadenopathy, exudative tonsillitis with palatal petechiae, a palpable spleen tip and fever of 38.0. These findings are consistent with infectious mononucleosis.
+ddx: Infectious mononucleosis | Streptococcal tonsillitis | CMV, HIV seroconversion or lymphoma
+ix: Monospot or EBV serology; FBC with atypical lymphocytes; LFTs
+mx: Rest, fluids, analgesia; avoid contact sports for at least 4 weeks; avoid amoxicillin; safety-net for airway compromise
+tell: This looks like glandular fever, caused by a virus. Rest and painkillers help, and it can take weeks to feel normal. Your spleen is enlarged, so avoid contact sports for at least a month.
+
+=== E-nodes C | Virchow's node from gastric cancer
+door: You are an FY1. A 66-year-old man has lost weight and has indigestion and a lump above his collarbone. Examine his lymph nodes. Present your findings to the examiner.
+who: Frank Dean, 66, retired fitter
+act: Thin; point to the left collarbone.
+open: I've lost weight, I've had indigestion and there's a lump above my collarbone.
+find: Hard, fixed 2 cm left supraclavicular node
+find: Cachexia
+find: Epigastric mass on abdominal palpation
+find: No other lymphadenopathy
+key: Supraclavicular nodes | Virchow's node
+key: Describe hardness and fixation | Malignancy
+key: Examine the abdomen | Primary source
+key: Ask about dysphagia, vomiting, melaena | Upper GI cancer
+pres: On examination of Mr Dean, he was cachectic with a hard fixed 2 cm left supraclavicular node and an epigastric mass. These findings suggest Virchow's node from upper gastrointestinal malignancy, likely gastric cancer.
+ddx: Metastatic gastric cancer with Virchow's node | Other abdominal or thoracic malignancy | Lymphoma
+ix: Urgent OGD with biopsy; CT chest, abdomen and pelvis; FBC
+mx: Suspected cancer pathway referral; upper GI MDT; nutrition support
+tell: The lump in your neck and your weight loss make me worried about a cancer in the stomach. We need an urgent camera test and scans. I'm referring you to be seen within two weeks.
+
+=== E-anteye A | Microbial keratitis
+door: You are an FY1. A 35-year-old contact lens wearer has a painful red right eye. Examine the front of the eye. Present your findings to the examiner.
+who: Kate Moore, 35, journalist
+act: Eye shut; photophobic.
+open: My right eye is really painful and red.
+find: Visual acuity right 6/18, left 6/6
+find: Circumcorneal injection
+find: White corneal infiltrate staining with fluorescein
+find: Pupil reactive
+key: Visual acuity first | Baseline
+key: Inspect and use fluorescein | Corneal defect
+key: Pupil and anterior chamber | Uveitis, hypopyon
+key: Contact lens history | Risk
+pres: On examination of Ms Moore's right eye, acuity was 6/18 compared with 6/6 on the left. There was circumcorneal injection and a white corneal infiltrate staining with fluorescein, with a reactive pupil. In a contact lens wearer, this is microbial keratitis.
+ddx: Bacterial keratitis | Acanthamoeba keratitis | Herpes simplex keratitis, with a dendritic ulcer
+ix: Corneal scrape for culture; send the lens case
+mx: Stop lens wear; same-day ophthalmology; intensive topical antibiotics
+tell: There's an infection on the surface of your eye from the contact lens. You need eye casualty today for strong drops. Please don't wear lenses until they say it's safe.
+
+=== E-anteye B | Acute angle-closure glaucoma
+door: You are an FY1. A 65-year-old woman has a painful red left eye with headache and vomiting. Examine the front of the eye. Present your findings to the examiner.
+who: Dorothy Bell, 65, retired cashier
+act: Clutch your head; nauseous; see halos.
+open: My left eye is agony and I've been sick. I see rainbow haloes round lights.
+find: Visual acuity left 6/60
+find: Red eye with a hazy cornea
+find: Fixed mid-dilated oval left pupil
+find: Eye feels hard on gentle palpation through the lid
+key: Acuity | Severity
+key: Cornea and pupil | Angle closure
+key: Ask about halos, headache, vomiting | Classic history
+key: Treat urgently | Sight-threatening
+pres: On examination of Mrs Bell's left eye, acuity was 6/60 with a red eye, hazy cornea, fixed mid-dilated oval pupil and a hard globe. With halos, headache and vomiting, this is acute angle-closure glaucoma.
+ddx: Acute angle-closure glaucoma | Anterior uveitis | Migraine or intracranial cause, excluded by eye signs
+ix: Intraocular pressure measurement; gonioscopy
+mx: Emergency ophthalmology; lie flat face up; IV acetazolamide; topical pilocarpine, beta-blocker and alpha-agonist; analgesia and antiemetic; laser iridotomy to both eyes
+tell: The pressure in your eye is dangerously high. We're giving medicine to lower it now, and the eye team will see you straight away to save your sight.
+
+=== E-anteye C | Anterior uveitis
+who: Ben Price, 35, contact lens wearer, with ankylosing spondylitis
+act: Photophobic; back stiff.
+open: My right eye is painful and red, and light hurts.
+find: Visual acuity right 6/12
+find: Circumcorneal injection
+find: Small irregular right pupil
+find: Cornea clear without fluorescein staining
+key: Acuity | Severity
+key: Pupil shape and reaction | Posterior synechiae
+key: Fluorescein | Exclude keratitis
+key: Systemic associations | Spondyloarthritis
+pres: On examination of Mr Price's right eye, acuity was 6/12 with circumcorneal injection, a small irregular pupil and a clear cornea without staining. In a man with ankylosing spondylitis, this is anterior uveitis.
+ddx: Anterior uveitis | Keratitis, excluded by no staining | Scleritis, with deep severe pain
+ix: Slit lamp: anterior chamber cells and flare
+mx: Same-day ophthalmology; topical steroid and cycloplegic drops
+tell: You have inflammation inside your eye, often linked to your back condition. The eye team will see you today for steroid and dilating drops.
+
+=== E-eye A | Left homonymous hemianopia
+who: Ron Hughes, 60, retired engineer
+act: Bump into things on the left.
+open: I keep walking into door frames on my left.
+find: Visual acuity 6/6 both eyes
+find: Left homonymous hemianopia with macular sparing on confrontation
+find: Pupils equal and reactive
+find: No other neurological deficit
+key: Acuity in each eye with glasses | Baseline
+key: Confrontation fields each eye separately | Field defect
+key: Localise the lesion | Right occipital lobe
+key: Ask about onset | Stroke
+pres: On examination, Mr Hughes had 6/6 acuity in both eyes and a left homonymous hemianopia with macular sparing on confrontation testing, with normal pupils. This suggests a right occipital lobe lesion, most likely a posterior cerebral artery stroke.
+ddx: Right posterior cerebral artery stroke | Space-occupying lesion | Migraine aura, which is transient
+ix: CT or MRI brain; formal visual fields; vascular risk assessment
+mx: Stroke pathway with secondary prevention; driving: must not drive with a homonymous hemianopia and must inform the DVLA
+tell: Part of your vision on the left side is missing in both eyes, likely from a stroke at the back of the brain. We need a brain scan, and you mustn't drive until your vision is assessed.
+
+=== E-eye B | Bitemporal hemianopia
+door: You are an FY1. A 48-year-old woman has headaches and has started missing cars approaching from both sides. Check her visual acuity and visual fields. Present your findings to the examiner.
+who: Lisa Grant, 48, bus driver
+act: Mention irregular periods and milky discharge if asked.
+open: I keep missing cars coming from the sides, and I've had headaches.
+find: Visual acuity 6/9 both eyes
+find: Bitemporal hemianopia on confrontation
+find: Pupils equal and reactive
+find: No other cranial nerve deficit
+key: Test each eye separately | Field defect
+key: Localise the lesion | Optic chiasm
+key: Ask about endocrine symptoms | Pituitary tumour
+key: Driving and occupation | Safety
+pres: On examination, Mrs Grant had 6/9 acuity in both eyes and a bitemporal hemianopia on confrontation, with normal pupils. With headaches and possible endocrine symptoms, this suggests a chiasmal compression from a pituitary adenoma.
+ddx: Pituitary adenoma, possibly prolactinoma | Craniopharyngioma | Meningioma
+ix: MRI pituitary; prolactin, IGF-1, TFTs, cortisol, LH, FSH; formal fields
+mx: Endocrinology and neurosurgery; dopamine agonist for prolactinoma; stop driving and inform the DVLA
+tell: You're losing vision on both outer sides, likely from a growth pressing on the eye nerves near the pituitary gland. Most are benign and treatable. We'll arrange an MRI, and you shouldn't drive until it's sorted.
+
+=== E-eye C | Optic neuritis
+door: You are an FY1. A 28-year-old woman has blurred vision and pain on moving her right eye for 3 days. Check her visual acuity and visual fields. Present your findings to the examiner.
+who: Sophie Lane, 28, teacher
+act: Colours look washed out.
+open: My right eye has gone blurry and it hurts to move it.
+find: Visual acuity right 6/36, left 6/6
+find: Right relative afferent pupillary defect
+find: Reduced red colour saturation in the right eye
+find: Central scotoma in the right eye
+key: Acuity and colour vision | Optic nerve function
+key: Swinging light test | RAPD
+key: Fields: central scotoma | Optic nerve
+key: Ask about previous neurological episodes | Multiple sclerosis
+pres: On examination, Ms Lane's acuity was 6/36 on the right and 6/6 on the left, with a right RAPD, reduced red colour saturation and a central scotoma. With pain on eye movement, this is right optic neuritis.
+ddx: Optic neuritis, possibly demyelinating | Ischaemic optic neuropathy, in older patients | Compressive optic neuropathy
+ix: MRI brain and orbits; ophthalmology and neurology assessment
+mx: Urgent ophthalmology; high-dose steroids may speed recovery; neurology for MS risk
+tell: The nerve at the back of your right eye is inflamed. Vision usually recovers over weeks. An MRI scan will check whether it's linked to MS, and the eye team will see you urgently.
+
+=== E-fundo A | Pre-proliferative diabetic retinopathy with maculopathy
+who: Paul Webb, 62, taxi driver
+act: Model station: read findings when examined.
+open: I've come for my diabetes eye check.
+find: Dot and blot haemorrhages and microaneurysms
+find: Cotton-wool spots and venous beading
+find: Hard exudates within one disc diameter of the fovea
+find: No new vessels
+key: Dilate pupils with consent | Technique
+key: Red reflex, disc, vessels, four quadrants, macula | Systematic
+key: Grade the retinopathy | Severity
+key: Check driving and BP | Practical
+pres: On fundoscopy of Mr Webb's right eye, there were microaneurysms, dot and blot haemorrhages, cotton-wool spots and venous beading, with hard exudates within one disc diameter of the fovea and no new vessels. This is pre-proliferative diabetic retinopathy with maculopathy.
+ddx: Pre-proliferative diabetic retinopathy with maculopathy | Hypertensive retinopathy | Retinal vein occlusion
+ix: OCT macula; HbA1c, BP, lipids
+mx: Ophthalmology referral; anti-VEGF for clinically significant macular oedema; optimise glucose, BP and lipids
+tell: Diabetes has damaged the back of your eye, including near the centre of your vision. The eye team can treat it with injections, and better sugar and blood pressure control protect your sight.
+
+=== E-fundo B | Papilloedema
+door: You are an FY1. A 26-year-old woman with headaches worse in the morning attends for review. Perform fundoscopy on the model. Present your findings to the examiner.
+who: Nina Jones, 26, nursery worker
+act: Model station: read findings when examined.
+open: My headaches are worse in the mornings and my vision blurs sometimes.
+find: Bilateral swollen optic discs with blurred margins
+find: Loss of venous pulsation
+find: Peripapillary haemorrhages
+find: Vessels obscured at the disc margin
+key: Examine both discs | Bilateral swelling
+key: Venous pulsation | Raised pressure
+key: Ask about BMI and medicines | Idiopathic intracranial hypertension
+key: Urgency | Imaging before LP
+pres: On fundoscopy of Ms Jones, there was bilateral optic disc swelling with blurred margins, obscured vessels, peripapillary haemorrhages and loss of venous pulsation. With morning headaches, this is papilloedema from raised intracranial pressure.
+ddx: Idiopathic intracranial hypertension | Space-occupying lesion | Venous sinus thrombosis
+ix: Urgent CT or MRI with venography; then LP with opening pressure
+mx: Same-day medical or neurology referral; IIH: weight loss, acetazolamide; visual field monitoring
+tell: The nerves at the back of both eyes are swollen, which means pressure in your head is raised. You need an urgent scan today to find the cause.
+
+=== E-fundo C | Hypertensive retinopathy
+who: Desmond Clarke, 62, security guard
+act: Model station: read findings when examined.
+open: My GP said my blood pressure is very high.
+find: Arteriolar narrowing and AV nipping
+find: Silver wiring
+find: Flame haemorrhages and cotton-wool spots
+find: No disc swelling
+key: Systematic fundoscopy | Technique
+key: Grade hypertensive changes | Severity
+key: Check BP | Emergency if very high with papilloedema
+key: Look for end-organ damage | Kidneys, heart
+pres: On fundoscopy of Mr Clarke, there was arteriolar narrowing, AV nipping, silver wiring, flame haemorrhages and cotton-wool spots without disc swelling. This is hypertensive retinopathy, Keith-Wagener grade 3.
+ddx: Hypertensive retinopathy | Diabetic retinopathy | Retinal vein occlusion
+ix: BP; U&Es, urine ACR, ECG; HbA1c
+mx: Antihypertensive treatment; urgent assessment if BP 180/120 or higher with retinal haemorrhage or papilloedema
+tell: High blood pressure has affected the blood vessels at the back of your eye. Bringing your blood pressure down protects your eyes, heart and kidneys.
