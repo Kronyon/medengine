@@ -34,7 +34,7 @@ const HOW = {
 const FWD = D.fw || {uni: [], list: []}, FWL = FWD.list, UNI = FWD.uni, FWBY = {}; FWL.forEach(f => FWBY[f.id] = f);
 const FRFW = {hx: 'hx', mhx: 'mhx', ex: 'ex', proc: 'proc', acute: 'acute', expl: 'expl', counsel: 'expl', bbn: 'expl', presc: 'presc', di: 'di', prof: 'prof'};
 const DRILL = 'https://claude.ai/artifact/NexSvgTB8VhqktVFfko6JR';
-const APP_NAME = 'medengine-OSCE', APP_VERSION = '2.5.0', PUBLIC = !!window.MEDENGINE_PUBLIC;
+const APP_NAME = 'medengine-OSCE', APP_VERSION = '2.5.1', PUBLIC = !!window.MEDENGINE_PUBLIC;
 const unitsByName = {}; UNITS.forEach(u => (unitsByName[u.name] = unitsByName[u.name] || []).push(u.i));
 function toast(t){ const el = $('#toast'); el.textContent = t; el.classList.add('show'); clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove('show'), 1800); }
 const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };

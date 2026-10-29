@@ -98,3 +98,15 @@
 .hq-gr{margin:4px 0 6px;font-size:.92rem}
 .hq-gp{display:flex;flex-wrap:wrap;gap:6px}
 .hq-gp .chip{max-width:100%;white-space:normal;text-align:left}
+/* v2.5.1: ILO audit */
+.hq-ilI{border-color:var(--good)!important}
+.hq-ilE{border-color:var(--mev-amber,var(--accent))!important}
+.hq-ilO{border-color:var(--muted)!important}
+.hq-ilo{margin:8px 0 0;padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface);line-height:1.5}
+.hq-alist{margin-top:10px}
+.hq-alist h5{margin:14px 0 4px}
+.hq-alist h6{margin:10px 0 4px}
+.hq-arow{display:block;width:100%;text-align:left;white-space:normal;line-height:1.45}
+.hq-arow .where{margin-right:8px}
+.hq-why,.hq-flip,.hq-ilo,.hq-gr,.hq-stem{overflow-wrap:anywhere}
+@media (max-width:700px){.hq-iap .hq-bar,.hq-obp .hq-bar{grid-template-columns:minmax(0,1fr) 80px 44px}.hq-iap .hq-bl,.hq-obp .hq-bl{white-space:normal;overflow:visible}}

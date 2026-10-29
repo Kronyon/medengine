@@ -4,6 +4,7 @@ const HQ = D.hq || {q: [], tt: {}, pat: {}, al: {}};
 const MOCK = D.mock || {q: []};
 /* v2.5: 🏛️ the official papers (MS AKT 2023 P1 and P2; MSCAA 2017, 2018, 2019, 2020) and 🧬 how they repeat */
 const OFF = D.off || {q: [], pp: {}, img: {}, g: []};
+const HQ_IL = {I: ['🎯', 'In my ILOs'], E: ['🟡', 'ILO edge'], O: ['🌍', 'Outside my ILOs']};
 const HQ_GK = {clone: ['🔥', 'Double-tested'], chain: ['⛓️', 'Same patient, next step'], block: ['🚫', 'Comorbidity blocks first line'], decoy: ['⚠️', 'Lab decoy'], matrix: ['🧮', 'One grid, every angle'], twin: ['🔗', 'Same trap, new patient']};
 function hqGroupsOf(id){ if (!hqGroupsOf.c) { const m = {}; OFF.g.forEach((g, gi) => g.ids.forEach(x => (m[x] = m[x] || []).push(gi))); hqGroupsOf.c = m; } return hqGroupsOf.c[id] || []; }
 function hqInKind(id, k){ return hqGroupsOf(id).some(gi => OFF.g[gi].k === k); }
@@ -33,7 +34,7 @@ function hqFilter(){
     if (c.tgt) return c.tgt.slice(0, 2) === 'g:' ? OFF.g[+c.tgt.slice(2)].ids.includes(it.id) : c.tgt === 'mq:' + it.id || c.tgt === 'oq:' + it.id || c.tgt === it.t + ':' + it.k || (c.tgt[0] === 'u' && (it.t === 'm' || it.t === 'o') && 'u:' + it.k === c.tgt);
     if (c.src !== 'all' && it.t !== c.src) return false;
     if (c.pp && it.pp !== c.pp) return false;
-    if (c.ilo && (c.ilo === 'in') !== (hqUnitOf(it) != null)) return false;
+    if (c.ilo && it.il !== c.ilo) return false;
     if (c.tr && !hqInKind(it.id, c.tr)) return false;
     if (c.h && it.h !== c.h) return false;
     if (c.p && it.p !== c.p) return false;
@@ -86,7 +87,7 @@ function viewHammer(m){
   const chip = (k, v, lab) => '<button class="chip' + (String(c[k]) === String(v) ? ' on' : '') + '" data-hqset="' + k + ':' + v + '">' + lab + '</button>';
   let h = '<div class="wrap hq-wrap"><div class="ph"><div class="crumbs"><span class="code">🔨 Hammer</span></div><h1>Hammer SBAs</h1><p class="hint" style="margin:0">Three questions for every ILO condition, drug group, test and procedure, plus the off-map topics, your own mock and 399 questions from the official practice papers 🏛️. <b>🔨</b> the classic picture · <b>🔨🔨</b> two steps, a lookalike or a number that overrides the story · <b>🔨🔨🔨</b> the curveball. After each answer, <b>🔄 the flip</b> shows the one change that would make another option right. Keys: <span class="kbd">A</span>–<span class="kbd">E</span> or <span class="kbd">1</span>–<span class="kbd">5</span>, <span class="kbd">Enter</span> next, <span class="kbd">S</span> 🦅 scan mode, <span class="kbd">Esc</span> leave.</p></div>';
   h += '<div class="tiles">' + [[all.length, 'Questions'], [done, 'Answered'], [miss, 'Missed last time'], [MOCK.q.length, 'From your mock'], [OFF.q.length, 'Official papers']].map(([v, l]) => '<div class="tile"><div class="v">' + v + '</div><div class="l">' + l + '</div></div>').join('') + '</div>';
-  h += hqBlueprint() + hqOffBlueprint();
+  h += hqBlueprint() + hqOffBlueprint() + hqIloAudit();
   const run = S.hqRun;
   if (run && run.ids && run.ids.length) { const nd = Object.keys(run.pk || {}).length; h += '<div class="panel hq-resume"><div class="toolbar"><b class="grow">⏸ Unfinished run' + (run.lbl ? ': ' + esc(run.lbl) : '') + ' · ' + nd + ' of ' + run.ids.length + ' answered</b><button class="btn primary" data-hqresume>▶ Resume at Q' + ((run.i || 0) + 1) + '</button></div></div>'; }
   if (c.tgt) {
@@ -94,7 +95,7 @@ function viewHammer(m){
   } else {
     h += '<div class="panel hq-f"><div class="chips">' + HQ_SRC.map(([k, ic, l]) => chip('src', k, ic + ' ' + l + ' · ' + (k === 'all' ? all.length : all.filter(it => it.t === k).length))).join('') + '</div>'
       + '<div class="chips">' + chip('h', 0, 'Any hammer') + [1, 2, 3].map(n => chip('h', n, HAM(n))).join('') + '<span class="hq-sep"></span>' + chip('p', '', 'Any pattern') + Object.keys(HQ.pat).map(p => chip('p', p, HQ_PI[p] + ' ' + esc(HQ.pat[p]))).join('') + '</div>'
-      + (c.src === 'o' ? '<div class="chips">' + chip('pp', '', 'Every paper') + Object.entries(OFF.pp).map(([k, v]) => chip('pp', k, esc(v[0]) + ' · ' + OFF.q.filter(o => o.pp === k).length)).join('') + '<span class="hq-sep"></span>' + chip('ilo', '', 'Any topic') + chip('ilo', 'in', '🎯 Inside my ILOs') + chip('ilo', 'out', '🌍 Beyond them') + '</div>' : '')
+      + (c.src === 'o' ? '<div class="chips">' + chip('pp', '', 'Every paper') + Object.entries(OFF.pp).map(([k, v]) => chip('pp', k, esc(v[0]) + ' · ' + OFF.q.filter(o => o.pp === k).length)).join('') + '<span class="hq-sep"></span>' + chip('ilo', '', 'Any topic') + Object.entries(HQ_IL).map(([k, v]) => chip('ilo', k, v[0] + ' ' + v[1] + ' · ' + OFF.q.filter(o => o.il === k).length)).join('') + '</div>' : '')
       + '<div class="chips">' + chip('tr', '', '🧬 Any examiner pattern') + Object.entries(HQ_GK).map(([k, v]) => chip('tr', k, v[0] + ' ' + v[1])).join('') + '</div>'
       + '<div class="chips">' + chip('st', '', 'All') + chip('st', 'new', '🆕 Not done') + chip('st', 'miss', '🔥 Missed last time') + '<label class="hq-sys">System <select data-hqsys aria-label="Filter by system"><option value="">All systems</option>' + MEV.sysOptions(c.sys) + '</select></label></div></div>';
   }
@@ -183,6 +184,7 @@ function hqDraw(m){
     const ok = pick === it.a;
     h += '<div class="hq-why ' + (ok ? 'ok' : 'bad') + '"><b>' + (ok ? '✅ Right.' : '❌ ' + L[it.a] + ' is the answer.') + '</b> ' + (it.t === 'o' ? '<span class="hq-off">📋 Examiners\' justification:</span> ' + esc(it.w || 'none given in the paper; the flip and triggers below explain it.') : esc(it.w || '')) + '</div>';
     if (it.f) h += '<div class="hq-flip"><span class="hq-fl">🔄 Flip it</span>' + esc(it.f).replace('→', '<b class="hq-arr">→</b>') + '</div>';
+    if (it.t === 'o' && it.iw) h += '<div class="hq-ilo hq-il' + it.il + '"><span class="hq-fl">' + (HQ_IL[it.il] || ['🎯'])[0] + ' ILO check</span>' + esc(it.iw) + (it.ic ? ' <span class="hint">Belongs to: ' + esc(it.ic) + '.</span>' : '') + '</div>';
     h += hqTriggers(it) + hqGroupBox(it);
     const ui = hqUnitOf(it);
     if (ui != null && UNITS[ui]) h += '<div class="toolbar"><button class="btn ghost sm" data-u="' + ui + '" data-mode="read">📖 Notes for ' + esc(UNITS[ui].name) + '</button></div>';
@@ -261,7 +263,7 @@ document.addEventListener('click', e => {
 }, true);
 document.addEventListener('contextmenu', e => { const b = e.target.closest && e.target.closest('[data-hqpick]'); if (!b || !hqSess || b.disabled) return; e.preventDefault(); hqStrike(+b.dataset.hqpick); });
 document.addEventListener('change', e => { const t = e.target; if (t.dataset && t.dataset.hqsys != null) { hqCfg.sys = t.value; viewHammer($('#main')); } });
-document.addEventListener('toggle', e => { if (e.target.classList && e.target.classList.contains('hq-bp') && !e.target.classList.contains('hq-obp')) { S.set.hqBp = e.target.open; save(); } }, true);
+document.addEventListener('toggle', e => { if (e.target.classList && e.target.classList.contains('hq-bp') && !e.target.classList.contains('hq-obp') && !e.target.classList.contains('hq-iap')) { S.set.hqBp = e.target.open; save(); } }, true);
 /* ---------- v2.5: 🏛️ official papers, 🦅 scan mode and 🧬 examiner patterns ---------- */
 function hqScanToggle(){ S.set.hqScan = !S.set.hqScan; save(); if (hqSess && !hqSess.done) hqDraw(); }
 function hqNum(v){ const m = String(v).replace(/,/g, '').match(/-?\d+(?:\.\d+)?/); return m ? +m[0] : null; }
@@ -313,7 +315,7 @@ function hqStem(it){
   return h + (ql ? '<p class="hq-ql hq-qbot">' + hqHi(ql, 'q') + '</p>' : '') + '</div>';
 }
 function hqBadges(it){
-  return (it.t === 'o' && +it.k < 0 ? '<span class="hq-p hq-out">🌍 Beyond the FFP ILOs</span>' : '') + (hqInKind(it.id, 'clone') ? '<span class="hq-p hq-hot">🔥 Double-tested</span>' : '');
+  return (it.t === 'o' && HQ_IL[it.il] ? '<span class="hq-p hq-il' + it.il + '">' + HQ_IL[it.il].join(' ') + '</span>' : '') + (hqInKind(it.id, 'clone') ? '<span class="hq-p hq-hot">🔥 Double-tested</span>' : '');
 }
 function hqGLabel(it){
   const a = it.o[it.a]; return (it.t === 'm' ? '🎓 Mock Q' + it.n : it.t === 'o' ? '🏛️ ' + hqPaper(it) + ' Q' + it.n : HAM(it.h) + ' Step ' + it.h) + ' → ' + (a.length > 46 ? a.slice(0, 44) + '…' : a);
@@ -351,7 +353,30 @@ function hqOffBlueprint(){
     + '<li><b>The stories are not longer.</b> Median ' + ow + ' words against ' + mw + ' in your mock. The length is the vertical lab table (' + pc(lab, Q.length) + ' of questions) and the full vitals block. ' + pc(normal, rows.length) + ' of lab rows are normal: noise.</li>'
     + '<li><b>🦅 Scan mode (S):</b> the question line moves to the top, out-of-range numbers and vitals light up, normal rows fade, and blocker words (CKD, Parkinson\'s, pregnant, a job, a valve) get the highlighter.</li>'
     + '<li><b>Your mock leans to diagnosis; the national papers lean to management.</b> Expect “what do you do next” as often as “what is it”.</li>'
-    + '<li><b>' + pc(inn, Q.length) + ' sit inside your FFP ILOs.</b> The rest (obstetrics, paediatrics, statistics, ethics, rheumatology) are under 🌍: useful, but lower yield for this exam.</li></ul></details>';
+    + '<li><b>Only ' + pc(Q.filter(q => q.il === 'I').length, Q.length) + ' test one of your ILO conditions directly.</b> ' + pc(Q.filter(q => q.il === 'E').length, Q.length) + ' sit on the edge of an ILO week, and ' + pc(Q.filter(q => q.il === 'O').length, Q.length) + ' are outside your ILOs altogether. The 🎯 ILO audit below goes through every one.</li></ul></details>';
 }
 document.addEventListener('toggle', e => { if (e.target.classList && e.target.classList.contains('hq-obp')) { S.set.hqObp = e.target.open; save(); } }, true);
 document.addEventListener('click', e => { const im = e.target.closest && e.target.closest('[data-hqzoom]'); if (im) im.classList.toggle('big'); });
+
+/* ----- 🎯 the ILO audit: every official question checked against the 168 ILO conditions ----- */
+function hqIloAudit(){
+  const Q = OFF.q; if (!Q.length || !Q[0].il) return '';
+  const W = {}; (D.weeks || []).forEach(w => W[w.id] = w.name);
+  const wk = q => q.u >= 0 && UNITS[q.u] ? W[UNITS[q.u].w] || UNITS[q.u].w : '';
+  const n = k => Q.filter(q => q.il === k).length;
+  const bar = (lab, v, max) => '<div class="hq-bar"><span class="hq-bl">' + lab + '</span><span class="hq-bt"><i style="width:' + Math.round(v / max * 100) + '%"></i></span><b>' + v + '</b></div>';
+  const byW = {}; Q.filter(q => q.il !== 'O').forEach(q => { const w = wk(q); const b = byW[w] || (byW[w] = [0, 0]); b[q.il === 'I' ? 0 : 1]++; });
+  const byC = {}; Q.filter(q => q.il === 'O').forEach(q => byC[q.ic] = (byC[q.ic] || 0) + 1);
+  const row = q => '<button class="sr hq-arow" data-hqtgt="oq:' + q.id + '"><span class="where">' + HQ_IL[q.il][0] + ' ' + esc(hqPaper(q)) + ' Q' + q.n + '</span><b>' + esc(q.il === 'O' ? q.ic || '' : (UNITS[q.u] || {}).name || '') + '</b> · ' + esc(q.iw) + '</button>';
+  const group = (k, keyf, order) => { const g = {}; Q.filter(q => q.il === k).forEach(q => (g[keyf(q)] = g[keyf(q)] || []).push(q)); return Object.keys(g).sort(order).map(x => '<h6>' + esc(x) + ' · ' + g[x].length + '</h6>' + g[x].map(row).join('')).join(''); };
+  const wOrder = (D.weeks || []).map(w => w.name), byWeek = (a, b) => wOrder.indexOf(a) - wOrder.indexOf(b);
+  return '<details class="panel hq-bp hq-iap"' + (S.set.hqIap ? ' open' : '') + '><summary>🎯 ILO audit · every official question checked against your 168 ILO conditions</summary>'
+    + '<p class="hint">Contains answers: open it after you have done the papers, or use it to pick what to drill. Tap any row to practise that question.</p>'
+    + '<div class="hq-bpg"><div><h6>Verdict</h6>' + Object.entries(HQ_IL).map(([k, v]) => bar(v[0] + ' ' + v[1], n(k), Q.length)).join('')
+    + '<p class="hint">🎯 the condition or decision is one of your ILO conditions. 🟡 it sits in one of your 16 ILO weeks as a differential, complication or principle, but is not itself an ILO condition. 🌍 not in any of your ILO weeks.</p>'
+    + '<h6>Outside your ILOs: where they belong</h6>' + Object.entries(byC).sort((a, b) => b[1] - a[1]).map(([c, v]) => bar(esc(c), v, n('O'))).join('')
+    + '</div><div><h6>In and on the edge of your ILOs, by week</h6>' + Object.entries(byW).sort((a, b) => byWeek(a[0], b[0])).map(([w, [i, e]]) => '<div class="hq-bar"><span class="hq-bl">' + esc(w) + '</span><span class="hq-bt"><i style="width:' + Math.round((i + e) / 40 * 100) + '%"></i></span><b>' + i + '+' + e + '</b></div>').join('')
+    + '<p class="hint">Numbers show 🎯 + 🟡.</p></div></div>'
+    + '<div class="hq-alist"><h5>🎯 In my ILOs · ' + n('I') + '</h5>' + group('I', wk, byWeek) + '<h5>🟡 ILO edge · ' + n('E') + '</h5>' + group('E', wk, byWeek) + '<h5>🌍 Outside my ILOs · ' + n('O') + '</h5>' + group('O', q => q.ic || 'Other', (a, b) => a.localeCompare(b)) + '</div></details>';
+}
+document.addEventListener('toggle', e => { if (e.target.classList && e.target.classList.contains('hq-iap')) { S.set.hqIap = e.target.open; save(); } }, true);

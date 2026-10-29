@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.5.1 (2026-10-29)
+
+🎯 **ILO audit of all 399 official questions**, one by one, against the 168 FFP ILO conditions.
+- **Verdicts:** 🎯 218 in my ILOs (the condition or decision tested is an ILO condition or its listed content), 🟡 69 on the edge (inside one of the 16 ILO weeks as a differential, complication or principle), 🌍 112 outside (obstetrics and gynaecology, paediatrics, statistics and ethics, rheumatology and orthopaedics, renal and endocrine, trauma and anaesthetics, other neurology, haematology, infection and genetics). This corrects 2.5.0, which counted 73% as inside by pinning edge questions to the nearest unit.
+- **Every question carries its verdict:** a badge before you answer and a one-line 🎯 ILO check after it; outside questions say which specialty they belong to. The ILO filter now has the three levels, and condition pages count only in-ILO and edge questions.
+- **🎯 ILO audit panel** in the Hammer hub: verdict totals, a per-week breakdown, the outside questions by specialty, and all 399 rows with the reason, each one tap to practise.
+- Long URLs in the examiners' justifications now wrap on phones. Content in `study/snap/off_ilo.py`; tests check every verdict and the full audit list.
+
 ## 2.5.0 (2026-10-29)
 
 🏛️ **The official practice papers inside medengine-STUDY, decoded.**

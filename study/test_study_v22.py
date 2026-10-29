@@ -58,6 +58,7 @@ def data_checks(D, errs):
             if not O.get('img', {}).get(n, '').startswith('data:image/'): errs.append('missing image ' + n)
     if sum(1 for o in oq if o.get('img')) != 21: errs.append('official images should be on 21 questions')
     if sum(1 for o in oq if o['u'] >= 0) < 280: errs.append('too few official questions mapped to ILO units')
+    if any(o.get('il') not in ('I', 'E', 'O') or not o.get('iw') or (o['il'] == 'O') != (o['u'] < 0) for o in oq): errs.append('ILO audit verdict missing or inconsistent')
     for g in O.get('g', []):
         if g['k'] not in ('clone', 'chain', 'block', 'decoy', 'matrix', 'twin') or len(g['ids']) < 2 or any(x not in ids for x in g['ids']): errs.append('bad group ' + g['t'])
     if sum(1 for g in O.get('g', []) if g['k'] == 'clone') < 4: errs.append('clone groups missing')
@@ -172,11 +173,11 @@ def run(width, dark):
         if n_o != 399: errs.append(f'official filter shows {n_o}')
         pg.click('[data-hqset="pp:p2020"]'); pg.wait_for_timeout(120)
         if int(re.search(r'(\d+) match', pg.text_content('#main')).group(1)) != 50: errs.append('paper filter wrong')
-        pg.click('[data-hqset="ilo:out"]'); pg.wait_for_timeout(120)
+        pg.click('[data-hqset="ilo:O"]'); pg.wait_for_timeout(120)
         n_out = int(re.search(r'(\d+) match', pg.text_content('#main')).group(1))
         if not 0 < n_out < 50: errs.append('ILO filter did not narrow')
         pg.click('[data-hqset="ilo:"]'); pg.wait_for_timeout(80)
-        pg.click('[data-hqtgt="oq:o-p2020-001"]'); pg.wait_for_timeout(200)
+        pg.click('.hq-idx [data-hqtgt="oq:o-p2020-001"]'); pg.wait_for_timeout(200)
         if not pg.locator('.hq-lab tr').count(): errs.append('official lab table missing')
         if pg.locator('.hq-q.scan').count(): pg.keyboard.press('s'); pg.wait_for_timeout(80)
         pg.keyboard.press('s'); pg.wait_for_timeout(120)
@@ -193,7 +194,7 @@ def run(width, dark):
         pg.keyboard.press('s'); pg.wait_for_timeout(60)
         pg.keyboard.press('Escape'); pg.wait_for_timeout(150)
         pg.click('.hq-f [data-hqset="src:o"]'); pg.click('[data-hqset="pp:mla1"]'); pg.wait_for_timeout(120)
-        pg.click('[data-hqtgt="oq:o-mla1-057"]'); pg.wait_for_timeout(200)
+        pg.click('.hq-idx [data-hqtgt="oq:o-mla1-057"]'); pg.wait_for_timeout(200)
         if not pg.locator('.hq-fig img').count(): errs.append('official image missing')
         ov('official image')
         pg.keyboard.press('Escape'); pg.wait_for_timeout(150)
@@ -202,6 +203,7 @@ def run(width, dark):
         if not 6 <= n_cl < 30: errs.append(f'clone filter shows {n_cl}')
         pg.click('.hq-f [data-hqset="tr:"]'); pg.wait_for_timeout(80)
         if not pg.locator('.hq-obp').count(): errs.append('official blueprint missing')
+        if pg.locator('.hq-iap .hq-arow').count() != 399: errs.append('ILO audit should list all 399')
         # condition pages: own button, aliases included
         al = {int(k): v for k, v in D['hq']['al'].items()}
         for ui in (0, 61, 88, 140):

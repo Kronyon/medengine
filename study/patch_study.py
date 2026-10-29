@@ -158,7 +158,7 @@ for _q in sorted(_MQ, key=lambda x: int(re.search(r'\d+', x['id']).group())):
 assert len(D['mock']['q']) == 91, len(D['mock']['q'])
 # v2.5: 🏛️ the official papers (MSC: MS AKT practice papers 1 and 2, 2023; MSCAA practice papers Dec 2017, Nov 2018, Dec 2019, Dec 2020)
 # from snap/official/*.json (parsed from the answer-key PDFs) + snap/off_meta_*.py (my tags) + snap/off_links.py (how they repeat)
-import base64 as _b64, importlib as _il, off_links as _ol
+import base64 as _b64, importlib as _il, off_links as _ol, off_ilo as _oi
 _PP = [('mla1', 'MS AKT 2023 · P1', 'MS AKT practice paper 1, Medical Schools Council 2023'), ('mla2', 'MS AKT 2023 · P2', 'MS AKT practice paper 2, Medical Schools Council 2023'),
        ('p2017', 'MSCAA Dec 2017', 'MSCAA practice paper 1, December 2017'), ('p2018', 'MSCAA Nov 2018', 'MSCAA practice paper 2, November 2018'),
        ('p2019', 'MSCAA Dec 2019', 'MSCAA practice paper 3, December 2019'), ('p2020', 'MSCAA Dec 2020', 'MSCAA practice paper, December 2020')]
@@ -168,8 +168,10 @@ for _k, _s, _l in _PP:
     _meta = _il.import_module('off_meta_' + _k).META
     for _q in json.load(open(_OFFDIR / (_k + '.json'), encoding='utf-8')):
         _u, _h, _p, _f = _meta[_q['n']]
+        _il_v, _u, _il_r = _oi.A[_k + ':' + str(_q['n'])]  # the ILO audit decides the unit: inside and edge keep one, outside has none
         _it = {'id': 'o-%s-%03d' % (_k, _q['n']), 'pp': _k, 'n': _q['n'], 'ref': _q.get('ref', ''), 's': _q['s'], 'lab': _q['lab'], 'post': _q['post'], 'ql': _q['ql'],
-               'o': _q['o'], 'a': _q['a'], 'w': _q['w'], 'h': _h, 'p': _p, 'u': _u, 'f': _f}
+               'o': _q['o'], 'a': _q['a'], 'w': _q['w'], 'h': _h, 'p': _p, 'u': _u, 'f': _f, 'il': _il_v, 'iw': _il_r}
+        if _il_v == 'O': _it['ic'] = _oi.cat(_il_r)
         if _q.get('img'): _it['img'] = _q['img']
         for _nm in _q.get('img', []): D['off']['img'][_nm] = 'data:image/jpeg;base64,' + _b64.b64encode((_OFFDIR / 'img' / _nm).read_bytes()).decode()
         D['off']['q'].append(_it)
@@ -216,7 +218,7 @@ rep('<header class="top">', '<style>\n' + mev_css + ext_css + '</style>\n<header
 rep('<script id="qqdata" type="application/json">', '<script>\n' + mev_js + '</script>\n<script>\n' + dg_js + '</script>\n<script id="qqdata" type="application/json">')
 
 # ---------- version ----------
-rep('<small>v0.5.0 beta</small>', '<small>v2.5.0</small>')
+rep('<small>v0.5.0 beta</small>', '<small>v2.5.1</small>')
 rep('const fmtRich = t => fmtPlain(t)', 'const fmtRich = t => dualHtml(t) || fmtRich0(t);\nconst fmtRich0 = t => fmtPlain(t)')
 
 # ---------- script hooks ----------
