@@ -1,0 +1,541 @@
+# Past-paper musculoskeletal and drug-history stations: full cases.
+
+=== PP83 A
+who: Ken Wallace, 70, retired joiner
+act: Guard the right shoulder; when asked to lift the arm, raise it only to shoulder height with a grimace, and hunch the shoulder. Practical and patient.
+open: My right shoulder has been getting stiffer and more painful for a couple of years.
+story: It's a deep ache and it grinds. I can't reach the top shelf, and it aches at night. Putting a coat on is a struggle.
+hpc: Duration: 2 years, gradually worse
+hpc: Pain: Deep ache, worse with use, aches at night
+hpc: Stiffness: Can't reach overhead or behind his back
+hpc: Grinding: Crunching with movement
+hpc: Injury: None
+hpc: Function: Struggles with coats and reaching shelves; still drives
+yes: Night pain; crepitus; stiffness in all directions
+no: Trauma; fever; weight loss; neck pain with arm tingling; weakness in the hand; other joints swollen
+pmh: High blood pressure
+dh: Amlodipine 5 mg; paracetamol
+all: None
+fh: Nothing relevant
+sh: Retired joiner; right-handed; ex-smoker; lives with wife
+ice: Wear and tear | Losing independence | Something to help the pain and stiffness
+cue: "I can't even lift my grandson up any more."
+ask: Will I need a new shoulder?
+find: Wasting of deltoid and supraspinatus on the right; no scars or swelling
+find: Tender over the anterior joint line; crepitus on movement
+find: Active and passive movement reduced in all directions, especially external rotation and abduction; passive equals active
+find: X-ray: loss of joint space, osteophytes, subchondral sclerosis and cysts in the glenohumeral joint
+key: Look from the front, side and behind: wasting, swelling, scars, asymmetry | Inspection
+key: Feel along the clavicle, acromioclavicular joint, joint line and muscles | Palpation
+key: Move: active then passive flexion, extension, abduction, adduction, internal and external rotation | Passive restriction equals active in OA and frozen shoulder
+key: Special tests: painful arc, Jobe's, Hawkins-Kennedy, Scarf test | Rotator cuff and ACJ
+key: Examine the neck and do a neurovascular check of the arm | Joint above and below
+rf: Night pain with weight loss or fever | Malignancy or infection
+sum: So for two years your right shoulder has become stiffer and more painful with grinding and night aches, and you struggle to reach overhead. Is that right?
+pres: Mr Wallace is a 70-year-old right-handed retired joiner with 2 years of progressive right shoulder pain and stiffness. On examination there is deltoid wasting, joint line tenderness and crepitus, with globally reduced active and passive movement, especially external rotation. The X-ray shows loss of joint space, osteophytes, subchondral sclerosis and cysts. These findings are consistent with glenohumeral osteoarthritis.
+ddx: Glenohumeral osteoarthritis, because of progressive global stiffness with crepitus and typical X-ray changes in an older manual worker | Adhesive capsulitis, told apart by a normal X-ray and loss of external rotation early | Rotator cuff arthropathy, distinguished by a high-riding humeral head on X-ray and cuff weakness
+ix: Shoulder X-ray: AP and axillary views; bloods only if inflammatory or infective features
+mx: Analgesia: paracetamol, topical then oral NSAID with PPI; physiotherapy; intra-articular steroid injection for flares; orthopaedic referral for shoulder replacement if symptoms remain severe
+tell: Your X-ray shows wear and tear in the shoulder joint. Physiotherapy, painkillers and sometimes a steroid injection usually help. If the pain still stops you sleeping and doing things, a shoulder replacement is an option and works well for pain. I'll refer you to physio first.
+
+=== PP83 B
+who: Daniel Shaw, 40, police officer
+act: Hold your right arm close to the body; flinch when lifting it out to the side. Drink from a cup with your left hand. Keen to get back to work.
+open: I got tackled at rugby 10 days ago and my right shoulder's been bad ever since.
+story: I was tackled and landed on my shoulder. It felt like a sprain. Now it hurts to lift my arm out to the side, it's weak, and I can't sleep on it.
+hpc: Injury: Rugby tackle 10 days ago, landed on the shoulder
+hpc: Pain: Sharp on lifting the arm out to the side and overhead; 4 to 6 out of 10
+hpc: Weakness: Struggles to lift; drinking tea with his left hand
+hpc: Night: Pain lying on it
+hpc: Analgesia: Ibuprofen helps a bit
+hpc: Dominance: Right-handed
+yes: Night pain; weakness; painful overhead movement
+no: Deformity; numbness or tingling; neck pain; fever; previous shoulder problems
+pmh: Nothing
+dh: Ibuprofen 400 mg three times a day
+all: None
+fh: Nothing relevant
+sh: Police officer; smokes 10 a day; plays rugby
+ice: A sprain | Not being able to do the physical side of his job | A fit note for desk duties
+cue: "I can't arrest anyone like this."
+ask: Can I have a fit note for desk duties?
+find: No deformity or wasting; tender just below the acromion
+find: Painful arc between about 60 and 120 degrees of abduction
+find: Weakness and pain on resisted abduction with the empty can, Jobe's, test; Hawkins-Kennedy positive
+find: Passive range near full; external rotation preserved
+key: Inspect for deformity, wasting and swelling | Dislocation and ACJ injury
+key: Check active versus passive range | Passive better than active suggests cuff pathology
+key: Painful arc and Jobe's empty can test | Supraspinatus
+key: External rotation strength and lift-off test | Infraspinatus and subscapularis
+key: Neurovascular check: axillary nerve sensation over the deltoid | Complication of shoulder trauma
+rf: Marked weakness after trauma | Acute rotator cuff tear: urgent referral
+rf: Axillary nerve numbness | Nerve injury
+sum: So after a rugby tackle 10 days ago your right shoulder hurts when you lift it out to the side or overhead, it's weak, and painful to sleep on. Is that right?
+pres: Daniel Shaw is a 40-year-old right-handed police officer with 10 days of right shoulder pain and weakness after a rugby tackle. On examination there is subacromial tenderness, a painful arc between 60 and 120 degrees, weakness and pain on Jobe's test and a positive Hawkins-Kennedy test, with near-full passive range. These findings are consistent with supraspinatus tendinopathy, though an acute traumatic tear must be excluded.
+ddx: Supraspinatus tendinopathy or impingement after trauma, because of a painful arc and pain on resisted abduction | Acute traumatic rotator cuff tear, told apart by marked weakness and imaging | AC joint injury or fracture, excluded by examination and X-ray
+ix: Shoulder X-ray; ultrasound or MRI if a tear is suspected from significant weakness
+mx: Relative rest, avoid overhead activity; analgesia; physiotherapy; urgent orthopaedic referral if a traumatic tear is suspected, as early repair gives the best results; fit note: may be fit for work with amended duties
+tell: You've strained, and possibly torn, one of the tendons that lift your arm. Because of the weakness, I'd like a scan to check for a tear, as tears are best repaired early. Meanwhile, physio and painkillers will help. I'll write a fit note for desk duties.
+
+=== PP83 C
+who: Lisa Morgan, 42, office administrator
+act: Keep the right arm against your side; can barely rotate it outwards. Frustrated; you ask several direct questions.
+open: My right shoulder has been painful and now it's so stiff I can barely use it.
+story: The pain started gradually seven months ago and was terrible, even at rest. Now the pain's easing, but it's really stiff in every direction. I can't open jars or get dressed properly.
+hpc: Onset: Gradual, 7 months ago
+hpc: Pain phase: Worst 7 out of 10, even at rest, now easing
+hpc: Stiffness: Severe in all directions, especially rotating outwards
+hpc: Function: Can't open jars, struggles to dress or do her hair
+hpc: Previous injury: Shoulder injury a year ago with a period of immobility
+yes: Night pain earlier; global stiffness
+no: Trauma recently; fever; weight loss; numbness; neck pain
+pmh: Type 2 diabetes; hypothyroidism
+dh: Metformin; levothyroxine; co-codamol and Oramorph when needed
+all: None
+fh: Nothing relevant
+sh: Office administrator; non-smoker; 6 units a week
+ice: Something torn | Never getting better, or her morphine being stopped | Answers and pain relief
+cue: "My friend had her morphine stopped. Will you do the same?"
+ask: What's happened? Will it get better? Will I need surgery?
+find: No wasting or swelling
+find: Severe restriction of both active and passive movement in all directions, most marked in external rotation
+find: X-ray normal
+key: Inspect and palpate | Excludes other causes
+key: Compare active and passive range | Both reduced equally in frozen shoulder
+key: External rotation is the first and most restricted | Hallmark sign
+key: Ask about diabetes, thyroid disease and previous immobility | Risk factors
+rf: Fever, weight loss or a hot joint | Infection or malignancy
+sum: So over seven months your right shoulder went through a very painful phase that's now easing, but it's very stiff in all directions, especially turning outwards. You have diabetes and an underactive thyroid. Is that right?
+pres: Lisa Morgan is a 42-year-old woman with diabetes and hypothyroidism with 7 months of right shoulder pain, now easing, and severe stiffness, after a period of immobility. On examination active and passive movement are equally and globally reduced, most markedly external rotation, and the X-ray is normal. This is adhesive capsulitis in the stiffening phase. She uses co-codamol and Oramorph.
+ddx: Adhesive capsulitis, because of painful then stiff shoulder with loss of passive external rotation and a normal X-ray in a diabetic | Glenohumeral osteoarthritis, excluded by a normal X-ray | Locked posterior dislocation, excluded by history and imaging
+ix: Shoulder X-ray to exclude other causes; HbA1c and TFTs to optimise risk factors
+mx: Explain the natural history of freezing, frozen and thawing over 1 to 3 years; paracetamol and NSAID; physiotherapy and home exercises; intra-articular steroid injection; hydrodilatation or surgical release if not improving; review opioids: Oramorph is not appropriate long-term, so agree a gradual taper with her
+tell: This is frozen shoulder: the lining of the joint has become inflamed and then tight. It does get better by itself, though it can take one to three years. Physio, painkillers and an injection can speed things up, and surgery is rarely needed. I won't stop your morphine suddenly, but it isn't good for long-term pain, so let's plan to reduce it slowly together.
+
+=== PP84 A
+who: Dennis Hart, 68, retired bus driver
+act: Walk in with a slight limp; rub both knees when sitting. Cheerful, slightly overweight. Groan at the stairs question.
+open: My knees are killing me, especially the right one. Paracetamol isn't touching it.
+story: Both knees have hurt for years, right worse than left. It's worse walking and on stairs, and stiff for about 20 minutes in the morning. Sometimes the right gives way.
+hpc: Duration: Years
+hpc: Site: Both knees, right worse
+hpc: Pattern: Worse with activity and stairs; better with rest
+hpc: Stiffness: About 20 minutes in the mornings
+hpc: Instability: Right knee gives way sometimes
+hpc: Treatment: Paracetamol, no help
+yes: Crepitus; giving way; activity-related pain
+no: Hot swollen joint; fever; locking; injury; other joints; morning stiffness over an hour
+pmh: High blood pressure; BMI 33
+dh: Amlodipine 5 mg; paracetamol 1 g four times a day
+all: None
+fh: Nothing relevant
+sh: Retired bus driver; ex-smoker; 10 units a week; lives with wife
+ice: Wear and tear | Ending up in a wheelchair | Stronger painkillers or a new knee
+cue: "I can't walk the dog round the park any more."
+ask: Do I need a new knee?
+find: Antalgic gait; mild varus deformity of both knees; quadriceps wasting on the right
+find: Bony swelling of the medial joint line; small effusion on the right; crepitus on movement
+find: Reduced flexion of the right knee to 100 degrees; stable ligaments
+key: Inspect standing and walking: gait, alignment, swelling, wasting | Inspection
+key: Feel for warmth, effusion with patellar tap or bulge test, and joint line tenderness | Palpation
+key: Move: active and passive flexion and extension | Range of movement
+key: Special tests: collateral stress, anterior and posterior drawer, Lachman's | Stability
+key: Examine the hip | Hip pain refers to the knee
+rf: Hot, red, swollen joint with fever | Septic arthritis
+sum: So both knees have hurt for years, right worse, worse walking and on stairs, with 20 minutes of morning stiffness, and the right sometimes gives way. Paracetamol isn't helping. Is that right?
+pres: Mr Hart is a 68-year-old man with a BMI of 33 with years of bilateral activity-related knee pain, right worse, with brief morning stiffness and occasional giving way. On examination he has an antalgic gait, bilateral varus deformity, right quadriceps wasting, medial bony swelling, a small right effusion, crepitus and reduced flexion with stable ligaments. These findings are consistent with osteoarthritis of both knees.
+ddx: Knee osteoarthritis, because of activity-related pain, brief morning stiffness, crepitus and bony swelling over 45 | Inflammatory arthritis, told apart by prolonged morning stiffness and synovitis | Referred hip pain or a meniscal tear, excluded by hip examination and the absence of locking
+ix: Clinical diagnosis per NICE; X-ray only if atypical or considering surgery
+mx: Exercise and strengthening, weight loss, physiotherapy, walking aid; topical NSAID first; oral NSAID with PPI at the lowest dose; avoid strong opioids; intra-articular steroid for flares; orthopaedic referral for knee replacement if symptoms remain severe
+tell: This is osteoarthritis of the knees, wear and tear of the cartilage. The best treatments are strengthening exercises and losing some weight, which takes pressure off the knees. An anti-inflammatory gel helps more than paracetamol for many people. If it still limits you despite that, a knee replacement is an option.
+
+=== PP84 B
+who: Ada Lockwood, 76, retired seamstress
+act: Hold your right knee still; wince at any touch; look flushed and tired.
+open: My right knee suddenly went hot, swollen and really painful yesterday.
+story: It came on over a few hours yesterday. It's hot, swollen and agony to move. I feel a bit feverish.
+hpc: Onset: Over hours, yesterday
+hpc: Knee: Right, hot, swollen, very painful
+hpc: Fever: Low-grade
+hpc: Weight-bearing: Painful
+hpc: Previous: Similar episode in the left wrist years ago
+yes: Low-grade fever; previous wrist episode
+no: Injury; skin break; recent infection; diarrhoea; urethritis; rash; other joints now
+pmh: Hypothyroidism; knee osteoarthritis
+dh: Levothyroxine 100 micrograms
+all: None
+fh: Nothing relevant
+sh: Lives alone; non-smoker; 2 units a week
+ice: Arthritis flaring | Losing her independence | Pain relief
+cue: "I can't manage the stairs at home like this."
+ask: Is it infected?
+find: Hot, red, swollen right knee with a large effusion
+find: Painful, restricted range of movement
+find: Aspirate: cloudy fluid with positively birefringent rhomboid crystals; Gram stain negative
+key: Inspect and feel for warmth, redness and effusion | Acute monoarthritis
+key: Check range of movement and ability to bear weight | Severity
+key: Aspirate the joint before any antibiotics: Gram stain, culture, crystals | Diagnosis
+key: Examine other joints, skin and the patient's temperature | Polyarticular disease and sepsis
+rf: Hot swollen joint | Septic arthritis until proven otherwise
+sum: So since yesterday your right knee has been hot, swollen and very painful with a low-grade fever, and you had something similar in your wrist years ago. Is that right?
+pres: Mrs Lockwood is a 76-year-old woman with hypothyroidism and an acutely hot, swollen, painful right knee with low-grade fever. Aspiration shows positively birefringent rhomboid crystals with a negative Gram stain. This is acute calcium pyrophosphate crystal arthritis, pseudogout, though septic arthritis must be excluded by culture.
+ddx: Acute CPPD crystal arthritis, because of an acute monoarthritis of the knee with positively birefringent crystals in an older woman | Septic arthritis, which can coexist with crystals and needs a negative culture | Gout, told apart by negatively birefringent needle-shaped crystals
+ix: Joint aspirate for Gram stain, culture and polarised microscopy; FBC, CRP, U&Es, urate, calcium, magnesium, TFTs; blood cultures if febrile; knee X-ray showing chondrocalcinosis
+mx: Treat as septic until culture is negative if clinically uncertain; analgesia; NSAID with PPI or colchicine if renal function allows; intra-articular steroid once infection is excluded; ice and rest; physiotherapy
+tell: The fluid from your knee shows calcium crystals, which cause sudden painful swelling, sometimes called pseudogout. We're waiting for the culture to make sure there's no infection. Anti-inflammatory medicine and possibly a steroid injection into the knee should settle it within days.
+
+=== PP84 C
+who: Steve Pritchard, 55, gardener
+act: Shivering, sweaty, refuse to bend the left knee; can't put weight on it.
+open: My left knee is red hot and swollen, and I've got a fever and shakes.
+story: Two days ago my knee started hurting and swelling. Now it's hot and I can't put any weight on it. I've had shivers and sweats. I cut my shin gardening last week.
+hpc: Onset: 2 days
+hpc: Knee: Left, hot, red, swollen, very painful
+hpc: Weight-bearing: Unable
+hpc: Fever: Rigors and sweats
+hpc: Skin: Cut on the left shin a week ago
+yes: Rigors; inability to bear weight; recent skin break
+no: Previous gout; other joints; rash; urethritis; diarrhoea; joint replacement
+pmh: Type 2 diabetes
+dh: Metformin 1 g twice daily
+all: None
+fh: Nothing relevant
+sh: Gardener; smokes 10 a day; 14 units a week
+ice: Gout | Losing his leg | Antibiotics and pain relief
+cue: "I've never felt this ill."
+ask: Will I need an operation?
+find: Hot, red, swollen left knee with a large effusion
+find: Unable to flex beyond 20 degrees; severe pain on any movement
+find: Healing infected cut on the left shin; temperature 38.9, HR 110
+key: Inspect, feel and assess range | Acute monoarthritis
+key: Check the temperature, pulse and blood pressure | Sepsis
+key: Look for a skin entry point | Source
+key: Aspirate before antibiotics: Gram stain, culture, crystals | Diagnosis
+rf: Hot swollen joint with fever | Septic arthritis: joint destruction within days
+rf: Tachycardia and fever | Sepsis
+sum: So for two days your left knee has become hot, swollen and too painful to bear weight, with rigors, after a cut on your shin, and you have diabetes. Is that right?
+pres: Steve Pritchard is a 55-year-old man with diabetes with 2 days of an acutely hot, swollen left knee, inability to bear weight and rigors, after a shin laceration. He is febrile at 38.9 and tachycardic. There is a large effusion with severely restricted movement. This is septic arthritis until proven otherwise, with sepsis.
+ddx: Septic arthritis, likely Staphylococcus aureus, because of an acute hot monoarthritis with fever after a skin break in a diabetic | Crystal arthritis, told apart by crystals on aspiration, though they can coexist | Cellulitis or pre-patellar bursitis, distinguished by the absence of joint effusion and preserved movement
+ix: Joint aspiration before antibiotics: Gram stain, culture, crystals, cell count; blood cultures; FBC, CRP, ESR, U&Es, lactate, glucose; knee X-ray
+mx: Sepsis treatment; IV antibiotics per local guidance, typically flucloxacillin, after aspiration; urgent orthopaedic referral for joint washout; analgesia; hold metformin if AKI; usually 4 to 6 weeks of antibiotics in total
+tell: I think your knee joint is infected, likely from the cut on your shin. This is an emergency because infection can damage the joint quickly. We'll take fluid from the knee, start antibiotics through a drip, and the orthopaedic surgeons will likely wash the joint out. You'll need antibiotics for several weeks.
+
+=== PP84 D
+who: Jade Holloway, 35, construction worker
+act: Limp, keep the knee slightly bent; describe the "pop" vividly. Want a fit note.
+open: I got tackled at rugby 10 days ago. My knee went backwards and I heard a pop.
+story: My foot was planted and someone hit me. The knee went backwards and I heard a loud pop. It swelled up straight away. I still can't walk on it properly.
+hpc: Mechanism: Twisting and hyperextension injury with foot planted
+hpc: Pop: Loud, audible
+hpc: Swelling: Immediate, within an hour, now settling
+hpc: Weight-bearing: Difficult; knee feels unstable
+hpc: Locking: None
+hpc: Painkillers: Ibuprofen and diclofenac together, no PPI
+yes: Instability; immediate swelling
+no: Locking; numbness; previous knee injury; calf pain; fever
+pmh: Nothing
+dh: Ibuprofen 400 mg three times a day plus diclofenac 50 mg three times a day
+all: None
+fh: Nothing relevant
+sh: Construction worker; smokes 5 a day; plays rugby
+ice: A bad sprain | Not working and losing money | A fit note
+cue: "If I don't work, I don't get paid."
+ask: When can I go back to work?
+find: Mild effusion; tender medial joint line
+find: Positive Lachman's test with a soft end point; positive anterior drawer
+find: Collateral ligaments stable; no locking
+key: Inspect and feel for effusion | Haemarthrosis
+key: Lachman's test: most sensitive for ACL | ACL rupture
+key: Anterior and posterior drawer, collateral stress tests | Associated ligaments
+key: McMurray's or joint line tenderness | Meniscal injury
+key: Neurovascular check | Complications
+rf: Locked knee | Bucket-handle meniscal tear: urgent
+rf: Two NSAIDs together without gastroprotection | Prescribing safety
+sum: So 10 days ago your knee went backwards in a tackle with a loud pop and immediate swelling, and it's felt unstable since. You're taking ibuprofen and diclofenac. Is that right?
+pres: Jade Holloway is a 35-year-old construction worker with a twisting hyperextension knee injury 10 days ago with an audible pop, immediate swelling and instability. On examination there is a mild effusion, medial joint line tenderness and a positive Lachman's and anterior drawer test with stable collaterals. This is an anterior cruciate ligament rupture. She is taking two NSAIDs together without a PPI.
+ddx: ACL rupture, because of a pop, immediate haemarthrosis, instability and a positive Lachman's test | Meniscal tear, which may coexist, suggested by joint line tenderness or locking | Tibial plateau fracture, excluded with X-ray
+ix: Knee X-ray to exclude fracture; MRI knee
+mx: Stop taking two NSAIDs: one NSAID with a PPI or paracetamol; RICE; physiotherapy; orthopaedic or sports knee referral to discuss reconstruction; fit note: not fit for heavy construction work, consider amended duties
+tell: The pop and the test I did suggest you've torn the main ligament inside the knee, the ACL. We'll do a scan to confirm. Physio is the first step, and some people choose surgery to rebuild it. Please don't take ibuprofen and diclofenac together, it's risky for your stomach; one is enough. I'll write a fit note, as heavy site work isn't safe for now.
+
+=== PP85 A
+who: Frank Doyle, 71, retired plasterer
+act: Walk with a stick and a limp; lean over the right side; struggle to cross your legs or reach your right foot.
+open: My right hip has been bad for two years. I can't even put my socks on.
+story: The pain is in my groin and sometimes my knee. I can only walk about 200 metres. I'm stiff for 20 minutes in the morning.
+hpc: Site: Right groin, sometimes radiating to the knee
+hpc: Duration: 2 years
+hpc: Exercise tolerance: About 200 metres before stopping
+hpc: Function: Can't put socks on; difficulty getting in and out of the car
+hpc: Stiffness: 20 minutes in the morning
+hpc: Aids: Walking stick
+yes: Night pain sometimes; limp
+no: Back pain with leg tingling; fever; trauma; weight loss; other joints
+pmh: High blood pressure; type 2 diabetes
+dh: Ramipril; metformin; paracetamol; naproxen
+all: None
+fh: Nothing relevant
+sh: Retired plasterer; ex-smoker; lives with wife in a house
+ice: Wear and tear | Ending up immobile | A hip replacement
+cue: "My wife has to help me with my socks."
+ask: What does a hip replacement involve? Are there risks? How long to recover?
+find: Antalgic gait; positive Trendelenburg on the right
+find: Apparent leg length shorter on the right; fixed flexion deformity on Thomas's test
+find: Reduced internal rotation, then flexion and abduction on the right, with pain in the groin
+key: Inspect gait and do Trendelenburg's test | Abductor weakness
+key: Measure true and apparent leg lengths | Deformity
+key: Thomas's test for fixed flexion | Hip contracture
+key: Range of movement: internal rotation is lost first | OA hip
+key: Examine the back and knee | Referred pain
+rf: Night pain with weight loss | Malignancy
+sum: So for two years you've had right groin pain spreading to the knee, you can walk about 200 metres, can't put your socks on, and are stiff for 20 minutes in the morning. Is that right?
+pres: Frank Doyle is a 71-year-old man with 2 years of progressive right groin pain radiating to the knee, reduced walking distance to 200 metres and difficulty with socks. On examination he has an antalgic gait, positive Trendelenburg sign, fixed flexion deformity and painful reduced internal rotation. These findings are consistent with right hip osteoarthritis.
+ddx: Right hip osteoarthritis, because of groin pain, early loss of internal rotation and functional limitation | Lumbar radiculopathy, told apart by back pain and dermatomal symptoms | Avascular necrosis or trochanteric bursitis, distinguished by imaging and point tenderness
+ix: AP pelvis and lateral hip X-ray
+mx: Analgesia, exercise, weight loss, walking aid; total hip replacement referral as symptoms are severe despite non-surgical care; counsel on THR: benefits and risks including infection, dislocation, DVT and PE, leg length difference, nerve injury and loosening; review naproxen in diabetes and with ramipril
+tell: A hip replacement replaces the worn ball and socket with an artificial joint. Most people have much less pain and walk better. Risks include infection, the hip dislocating, blood clots and a slight difference in leg length. You'd usually be walking with help the next day and home in a few days, with most recovery over about 3 months. Most new hips last 15 to 20 years or more.
+
+=== PP85 B
+who: Edna Baker, 78, retired school secretary
+act: Lying still, the right leg shortened and turned out; wince at any movement. Anxious that it's broken like your friend.
+open: I tripped on the step and fell on my right hip. I couldn't get up.
+story: I tripped on the step between the kitchen and bathroom and landed on my right hip. The pain was terrible. My husband called the ambulance; I was on the floor about 20 minutes.
+hpc: Mechanism: Mechanical trip on a step
+hpc: Before: No dizziness, palpitations, blackout or breathlessness
+hpc: Head: No head injury
+hpc: Pain: Right hip, 8 out of 10, can't weight bear
+hpc: Floor time: 20 minutes
+hpc: Sensation: No numbness in the leg
+yes: Inability to weight bear; severe hip pain
+no: Loss of consciousness; head injury; chest pain; previous falls; numbness; steroids
+pmh: High blood pressure; type 2 diabetes, recently diagnosed
+dh: Metformin; amlodipine
+all: None
+fh: Nothing relevant
+sh: Lives with husband in a bungalow, one step between kitchen and bathroom; son nearby; independent; walks without aids; never fallen before; occasional alcohol; never smoked
+ice: Broken hip like her friend | Not walking again | To get back to normal
+cue: "My friend broke her hip and never came home."
+ask: Have I broken my hip? Will I walk again?
+find: Right leg shortened and externally rotated
+find: Pain on any hip movement; tender over the groin; distal neurovascular status intact
+find: X-ray: displaced intracapsular fracture of the right femoral neck
+key: Inspect: shortening and external rotation | Hip fracture
+key: Neurovascular check of the leg | Complication
+key: Ask why she fell: mechanical or a faint, fit or palpitations | Falls assessment
+key: Pre-fall mobility and cognition | Decides total hip versus hemiarthroplasty
+key: Check for other injuries and time on the floor | Rhabdomyolysis and pressure areas
+rf: Collapse before the fall | Cardiac or neurological cause
+sum: So you tripped on the step and fell onto your right hip without any warning, couldn't get up, and you were walking without aids and fully independent before. Is that right?
+pres: Edna Baker is a 78-year-old woman with a mechanical fall onto her right hip, unable to weight bear, with no syncopal features. She was fully independent and mobile without aids, with no cognitive impairment. The right leg is shortened and externally rotated and the X-ray shows a displaced intracapsular neck of femur fracture. Per NICE, as she walks independently outdoors and is cognitively intact, she should be offered a total hip replacement rather than a hemiarthroplasty.
+ddx: Displaced intracapsular femoral neck fracture after a mechanical fall, because of a shortened externally rotated leg with typical X-ray | Undisplaced or extracapsular fracture, which would be fixed instead | Pathological fracture or a fall due to syncope, excluded by history and bone profile
+ix: Hip and pelvis X-ray; FBC, U&Es, glucose, clotting, group and save, CK; ECG; CXR if indicated; bone profile and vitamin D
+mx: Analgesia with a fascia iliaca block; surgery on the day of or the day after admission: total hip replacement; orthogeriatric review; VTE prophylaxis; early mobilisation; falls and bone health assessment with bisphosphonate after vitamin D
+tell: I'm afraid your hip is broken at the neck of the thigh bone. Because you were so active and independent, the best option is a total hip replacement, which gives the best long-term walking. You'll have the operation today or tomorrow and be up with the physios the next day. Most people in your situation get home and walk again.
+
+=== PP86 A
+who: Pauline Webster, 50, shop assistant
+act: Stiff, slow hand movements; rub your knuckles; tired. Apologetic about wasting time; reveal your mum's story only if the doctor is empathetic.
+open: My hands have been painful and stiff for years, but it's got worse lately.
+story: For ten years my hands have ached, but the last six months they're much worse. The knuckles are swollen and stiff for a couple of hours every morning. I'm tired and I've lost some weight.
+hpc: Joints: Knuckles and middle finger joints of both hands, symmetrical
+hpc: Stiffness: 2 hours every morning, eases with movement
+hpc: Duration: 10 years, worse for 6 months
+hpc: Systemic: Tired, some weight loss
+hpc: Function: Struggling to do up buttons, cook, open jars; lives alone
+hpc: Delay: ONLY IF empathised with: "Mum died of cancer when I was a child. We never went to the doctor."
+yes: Fatigue; weight loss; Raynaud's; anaemia
+no: Eye, skin, bowel or chest symptoms; rash; psoriasis; back pain; fever
+pmh: Raynaud's; anaemia on iron
+dh: Paracetamol; ferrous sulfate
+all: None
+fh: Mother had "some kind of arthritis"
+sh: Smokes 10 a day for 20 years; 10 units a week; lives alone; shop assistant
+ice: Getting old | Being a time-waster | Something to help her cope
+cue: "I didn't want to waste your time."
+ask: Is it too late to do anything?
+find: Symmetrical swelling and tenderness of the MCP and PIP joints of both hands; warm synovitis
+find: Early ulnar deviation, swan neck deformities and a Z-shaped thumb; rheumatoid nodules at the elbow
+find: Reduced grip strength and difficulty with buttons
+key: Inspect: swelling, deformity, wasting, nodules, nail changes | RA versus psoriatic arthritis
+key: Feel for warmth and synovitis: squeeze MCPs | Active disease
+key: Function: grip, pinch, buttons, writing | Impact
+key: Examine elbows and feet | Nodules and MTP involvement
+rf: Neck pain with arm tingling | Atlantoaxial instability
+rf: Breathlessness or dry eyes and mouth | Extra-articular disease
+sum: So for ten years, and worse in the last six months, both hands have been painful and swollen at the knuckles, stiff for two hours each morning, with tiredness and weight loss. Is that right?
+pres: Pauline Webster is a 50-year-old smoker with 10 years of symmetrical small joint polyarthritis of the hands, worse for 6 months, with 2 hours of early morning stiffness, fatigue and weight loss. On examination she has active synovitis of the MCP and PIP joints with ulnar deviation, swan neck deformities and rheumatoid nodules. This is long-standing, untreated rheumatoid arthritis.
+ddx: Rheumatoid arthritis, because of symmetrical MCP and PIP synovitis with prolonged morning stiffness, deformities and nodules | Psoriatic arthritis, told apart by DIP involvement, nail pitting and psoriasis | Nodal osteoarthritis, distinguished by DIP Heberden's nodes and brief stiffness
+ix: FBC, ESR, CRP, rheumatoid factor and anti-CCP antibodies, U&Es, LFTs; X-rays of hands and feet; hepatitis serology before DMARDs
+mx: Urgent rheumatology referral for persistent synovitis; conventional DMARD, usually methotrexate, with short-term steroid bridging; smoking cessation; physiotherapy and occupational therapy; cardiovascular risk review
+tell: This looks like rheumatoid arthritis, where the immune system inflames the joints. You haven't wasted anyone's time; it's never too late. Modern medicines can calm the inflammation and protect your joints from further damage. I'm referring you urgently to the joint specialists, and stopping smoking will make the treatment work better.
+
+=== PP86 B
+who: Maureen Fletcher, 64, retired dental nurse and keen gardener
+act: Show your knobbly finger ends; rub the base of your thumb when opening jars. Cheerful.
+open: My fingers have gone knobbly and ache after gardening.
+story: For years the ends of my fingers have gone knobbly. They ache after gardening, and the base of my thumb hurts opening jars. I'm stiff for about 15 minutes in the morning.
+hpc: Joints: Finger end-joints and middle joints; base of both thumbs
+hpc: Pain: After use, especially gardening
+hpc: Stiffness: 15 minutes in the morning
+hpc: Thumb: Pain opening jars and turning keys
+yes: Bony swellings; activity-related ache
+no: Hot swollen joints; prolonged morning stiffness; fatigue; weight loss; rash; nail pitting
+pmh: Nothing
+dh: Paracetamol occasionally
+all: None
+fh: Mother had knobbly fingers
+sh: Never smoked; 6 units a week; retired
+ice: Arthritis | Giving up gardening | Something to help
+cue: "Gardening is what keeps me sane."
+ask: Will it get worse?
+find: Heberden's nodes at the DIP joints and Bouchard's nodes at the PIP joints
+find: Squaring of the thumb bases with tenderness at the first carpometacarpal joints
+find: No synovitis; grip slightly reduced by thumb pain
+key: Inspect for nodes, deformity and thumb squaring | Nodal OA
+key: Feel for bony versus soft swelling | Osteophytes versus synovitis
+key: Function: grip, pinch, jar opening | Impact
+key: Look for nail pitting and psoriasis | Psoriatic arthritis
+rf: Hot swollen joints or prolonged stiffness | Inflammatory arthritis
+sum: So for years your finger ends have become knobbly, they ache after gardening, your thumb bases hurt opening jars, and you're stiff only briefly in the morning. Is that right?
+pres: Maureen Fletcher is a 64-year-old woman with years of activity-related hand pain with brief morning stiffness. On examination there are Heberden's and Bouchard's nodes with squaring and tenderness of both thumb bases, without synovitis. These findings are consistent with nodal hand osteoarthritis with first CMC joint involvement.
+ddx: Nodal hand osteoarthritis, because of Heberden's and Bouchard's nodes with thumb base involvement and brief stiffness | Rheumatoid arthritis, excluded by the absence of synovitis and MCP involvement | Psoriatic arthritis, excluded by no nail or skin changes
+ix: Clinical diagnosis; X-ray only if uncertain
+mx: Hand exercises, joint protection, gardening tools with thicker handles; topical NSAID; thumb splint; steroid injection to the thumb base; occupational therapy; surgery rarely
+tell: This is osteoarthritis of the hands, very common and often runs in families. It usually doesn't cause the damage rheumatoid does. An anti-inflammatory gel, a thumb splint and some hand exercises help, and tools with chunkier handles make gardening easier. You can keep gardening.
+
+=== PP87 A
+who: Karen Booth, 45, painter and decorator
+act: Rub the outside of your right elbow; wince lifting a mug. Keen on an injection.
+open: The outside of my right elbow has been aching for three months. I want an injection.
+story: It aches on the outside of my elbow, worse painting ceilings and lifting the kettle. There was no injury. A mate had an injection and it worked.
+hpc: Site: Lateral right elbow
+hpc: Duration: 3 months
+hpc: Triggers: Gripping, painting overhead, lifting the kettle
+hpc: Injury: None
+hpc: Sensation: No numbness or tingling
+yes: Pain gripping; weakness gripping
+no: Swelling; locking; numbness; neck pain; fever; other joints
+pmh: Nothing
+dh: Ibuprofen gel
+all: None
+fh: Nothing relevant
+sh: Self-employed decorator, right-handed; non-smoker; 10 units a week
+ice: Tennis elbow | Losing work | An injection
+cue: "I'm self-employed. If I can't paint, I don't eat."
+ask: Can I have an injection?
+find: Tender just distal to the lateral epicondyle
+find: Pain on resisted wrist and middle finger extension, Cozen's test positive; Mill's test positive
+find: Full elbow range; no effusion; normal neurology
+key: Inspect for swelling or deformity | Effusion
+key: Palpate the lateral epicondyle and common extensor origin | Point tenderness
+key: Resisted wrist extension and Mill's test | Lateral epicondylitis
+key: Neck and neurological check of the arm | Radiculopathy and radial tunnel
+rf: Locking, effusion or trauma | Intra-articular pathology
+sum: So for three months the outside of your right elbow has ached, worse with gripping and painting, without injury or numbness. Is that right?
+pres: Karen Booth is a 45-year-old right-handed decorator with 3 months of lateral right elbow pain worse with gripping and repetitive wrist extension. On examination there is tenderness distal to the lateral epicondyle and pain on resisted wrist extension, with full range and normal neurology. This is lateral epicondylitis.
+ddx: Lateral epicondylitis, tennis elbow, because of lateral epicondyle tenderness with pain on resisted wrist extension | Radial tunnel syndrome, told apart by tenderness over the supinator and neurological features | Cervical radiculopathy, excluded by a normal neck and neurology
+ix: Clinical diagnosis; imaging only if atypical or not improving
+mx: Activity modification, analgesia including topical NSAID; physiotherapy with eccentric loading; epicondylitis clasp; steroid injection is not routinely recommended, as short-term relief can come with worse long-term outcomes; usually settles within 6 to 24 months
+tell: This is tennis elbow, an overuse strain of the tendon that lifts the wrist. Injections can give short-term relief, but research shows people often do worse in the long run, so physio and a strap are better first. Adjusting how you grip the brush, taking breaks and the gel should help. Most people improve within a year.
+
+=== PP88 A
+who: Vera Jones, 80, retired dinner lady
+act: Clutch your tummy with cramps; slightly embarrassed about bowels. Read your medicines from a list.
+open: My tummy's been crampy for two days, and I feel sick.
+story: The pain is all over, crampy, came on gradually. I feel sick but haven't vomited. I haven't opened my bowels for six days.
+hpc: Pain: Crampy, generalised, 2 days, 5 out of 10
+hpc: Nausea: Yes, no vomiting
+hpc: Bowels: Not opened for 6 days; passing wind
+hpc: Relief: Mild relief passing wind
+hpc: Weight: No loss
+hpc: Blood: None
+yes: Nausea; constipation; bloating
+no: Vomiting; rectal bleeding; weight loss; fever; urinary symptoms; previous surgery
+pmh: Osteoarthritis; high blood pressure; high cholesterol; COPD
+dh: Amlodipine 5 mg in the morning; atorvastatin 40 mg at night; codeine 60 mg three times a day; paracetamol 1 g four times a day; Seretide 250 Evohaler 2 puffs twice a day; salbutamol 2 puffs when needed, not needed recently
+all: Ramipril: tongue swelling
+fh: Nothing relevant
+sh: Lives alone; non-smoker; normal diet
+ice: Something blocked | Cancer | Relief
+cue: "I haven't been this bunged up before."
+ask: Is it my tablets?
+key: Can you tell me every medicine you take, with the dose, timing and what it's for? | Full drug history
+key: When did you start the codeine, and has the dose changed? | Opioid-induced constipation
+key: Any over-the-counter, herbal or other people's medicines? | Completeness
+key: Allergies: what happened with ramipril? | Angioedema is a true allergy
+key: Are you passing wind, vomiting or is your tummy swollen? | Exclude obstruction
+key: How do you take your inhalers, and do you use a spacer? | Technique
+rf: Vomiting, not passing wind and a distended abdomen | Bowel obstruction
+rf: Rectal bleeding or weight loss | Colorectal cancer
+sum: So for two days you've had crampy tummy pain and nausea, no bowel opening for six days but you're passing wind, and you take codeine 60 mg three times a day with your other medicines. You're allergic to ramipril. Is that right?
+pres: Vera Jones is an 80-year-old woman with 2 days of crampy abdominal pain, nausea and 6 days without a bowel opening, still passing flatus, while taking codeine 60 mg three times daily. Her full drug history: amlodipine 5 mg mane, atorvastatin 40 mg nocte, codeine 60 mg TDS, paracetamol 1 g QDS, Seretide 250 Evohaler 2 puffs BD and salbutamol PRN. She has angioedema to ramipril. This is opioid-induced constipation.
+ddx: Opioid-induced constipation from regular codeine, because of constipation with cramping while still passing flatus | Large bowel obstruction or colorectal cancer, told apart by vomiting, absolute constipation and red flags | Hypercalcaemia or hypothyroidism, excluded with bloods
+ix: Abdominal examination and DRE; U&Es, calcium, TFTs, FBC; AXR only if obstruction suspected
+mx: Review codeine: reduce or switch to an alternative analgesic plan for OA; regular laxatives: osmotic such as macrogol plus a stimulant such as senna for opioid-induced constipation; fluids; record the ramipril angioedema clearly
+tell: The codeine you take for your joints slows the bowel down and is the most likely cause. We'll give you laxatives to get things moving and look at reducing the codeine or swapping to a different pain plan. If you start vomiting, stop passing wind, or your tummy swells, tell us straight away.
+
+=== PP89 A
+who: John Smith, 60, retired postman
+act: Weak, dry lips, sipping water; nauseous. Proud that you take all your tablets, including the "as needed" ones, regularly.
+open: I feel weak and a bit under the weather. The GP said my blood tests were off.
+story: I had diarrhoea and vomiting last week, which has settled, but I still feel very sick. I've kept taking all my tablets.
+hpc: Illness: Diarrhoea and vomiting last week, settled
+hpc: Now: Nauseous, weak, dizzy on standing
+hpc: Urine: Passing less, dark
+hpc: Fluids: Drinking little
+hpc: Medicines: Taking everything regularly, including the as-needed docusate and codeine
+yes: Nausea; dizziness; reduced urine
+no: Fever; abdominal pain; blood in stool; chest pain; breathlessness
+pmh: Heart failure; previous MI; high blood pressure; osteoarthritis
+dh: Amlodipine 5 mg in the morning; aspirin 75 mg in the morning; furosemide 40 mg twice a day; paracetamol 1 g four times a day; ramipril 1.25 mg at night; codeine 30 mg four times a day as needed; docusate 100 mg three times a day as needed
+all: Penicillin: rash
+fh: Nothing relevant
+sh: Lives alone; non-smoker; minimal alcohol
+ice: A bug | His kidneys | To feel better
+cue: "I thought I was supposed to take them all every day."
+ask: Should I stop any of my tablets?
+key: Can you tell me each medicine, the dose, when you take it, and what it's for? | Full drug history
+key: Do you take the as-needed medicines regularly? | Docusate and codeine misuse
+key: Any over-the-counter painkillers like ibuprofen? | NSAIDs and AKI
+key: Allergies and the reaction | Penicillin rash
+key: How much are you eating, drinking and passing urine? | Hypovolaemia
+rf: Very low urine output, breathlessness or confusion | Severe AKI or hyperkalaemia
+sum: So after diarrhoea and vomiting last week you still feel sick and weak, you're passing less urine, and you've kept taking all your tablets regularly, including the docusate and codeine. Is that right?
+pres: John Smith is a 60-year-old man with heart failure presenting with weakness, nausea and reduced urine output after a diarrhoeal illness, with an acute kidney injury on his bloods. His drug history: amlodipine 5 mg mane, aspirin 75 mg mane, furosemide 40 mg BD, paracetamol 1 g QDS, ramipril 1.25 mg nocte, and codeine 30 mg and docusate 100 mg, both prescribed as needed but taken regularly. He is allergic to penicillin with a rash. This is a pre-renal AKI from volume depletion, worsened by furosemide and ramipril.
+ddx: Pre-renal AKI from diarrhoea and vomiting with a diuretic and ACE inhibitor, because of fluid loss and reduced intake | Intrinsic renal injury such as acute tubular necrosis, told apart by urine sodium and response to fluids | Obstruction, excluded with a bladder scan and renal ultrasound if not improving
+ix: U&Es, potassium, bicarbonate, FBC, CRP; urine dip and microscopy; fluid balance; bladder scan; renal ultrasound if no improvement; ECG if potassium raised
+mx: Hold ramipril and furosemide; stop regular docusate; review codeine as it accumulates in renal impairment; careful IV fluids with daily weights given heart failure; daily U&Es; restart medicines once recovered; teach sick-day rules
+tell: The tummy bug dried you out, and your water tablet and ramipril made it harder for your kidneys to cope. We'll pause those two, give fluids carefully because of your heart, and check your kidneys daily. The as-needed medicines are only for when you need them. Next time you're poorly with vomiting or diarrhoea, pause the water tablet and ramipril and call us.
+
+=== PP89 B
+who: Gary Smith, 52, warehouse supervisor
+act: Tired, guarded about drinking; tap your chest as you list your heart tablets.
+open: I'm feeling better than I was, just tired. They said my potassium is high.
+story: I was in intensive care with pneumonia. I'm much better now but really tired.
+hpc: Illness: Klebsiella pneumonia treated on ITU, now on the ward
+hpc: Symptoms: Tired; no chest pain; no palpitations
+hpc: Urine: Passing less than usual
+hpc: Antibiotic: Co-amoxiclav, 5 days left
+yes: Fatigue
+no: Palpitations; chest pain; weakness of limbs; breathlessness worse
+pmh: Angina; previous MI; high cholesterol; high blood pressure
+dh: Furosemide 40 mg; ramipril 10 mg; aspirin 75 mg; clopidogrel 75 mg; simvastatin 40 mg; co-amoxiclav 625 mg three times a day
+all: None
+fh: Nothing relevant
+sh: Divorced; smokes; drinks to cope
+ice: Feeling run down | Another heart attack | To go home
+cue: "The drink helps me cope since the divorce."
+ask: Is my heart okay?
+key: Full drug history: each medicine, dose, timing and purpose | Hyperkalaemic drugs
+key: Any potassium supplements, salt substitutes or over-the-counter medicines? | Hidden potassium
+key: Any palpitations, chest pain or muscle weakness? | Hyperkalaemia features
+key: How much are you passing urine and drinking? | AKI
+key: Alcohol: how much and how often? | Withdrawal risk on the ward
+rf: Potassium 7.1 | Emergency: ECG and calcium gluconate now
+rf: ECG changes: peaked T waves, broad QRS | Cardiac arrest risk
+sum: So you're recovering from pneumonia after intensive care, you feel tired and are passing less urine, and you take ramipril and furosemide with your heart tablets and co-amoxiclav. Is that right?
+pres: Gary Smith is a 52-year-old man recovering from Klebsiella pneumonia after ITU, now with an acute kidney injury and potassium of 7.1. His medicines include ramipril 10 mg, furosemide 40 mg, aspirin, clopidogrel, simvastatin and co-amoxiclav. Ramipril with AKI is the likely driver of the hyperkalaemia. This is a medical emergency.
+ddx: Severe hyperkalaemia from AKI with an ACE inhibitor, because of potassium 7.1 with reduced urine output on ramipril | Spurious hyperkalaemia from a haemolysed sample, excluded with a repeat sample, but do not delay treatment | Other causes of AKI: sepsis, nephrotoxins, obstruction
+ix: Urgent ECG and cardiac monitoring; repeat U&Es; VBG for potassium and acidosis; urine output; bladder scan
+mx: 10 mL 10% calcium gluconate IV over 5 to 10 minutes if ECG changes; insulin-dextrose: 10 units soluble insulin in 25 g glucose; nebulised salbutamol; stop ramipril; review furosemide and fluid status; repeat potassium; senior and renal involvement if refractory; alcohol withdrawal assessment
+tell: Your potassium level is dangerously high, which can upset the heart's rhythm, so we're giving treatment through a drip right now and watching your heart on a monitor. The blood pressure tablet ramipril is the likely cause while your kidneys are recovering, so we'll stop it. You'll feel no different from the treatment, but it's important.

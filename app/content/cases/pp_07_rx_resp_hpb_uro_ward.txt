@@ -1,0 +1,766 @@
+# Past-paper prescribing, diabetes review, hypertension, respiratory, jaundice, testicular, ward and fatigue stations.
+
+=== PP93 A
+who: Margaret Hill, 72, retired shopkeeper
+act: Coughing, a bit breathless, tissues in hand; sensible and clear. Mention the childhood rash when asked about allergies.
+open: I've had a horrible cough with green phlegm for four days and I feel rotten.
+story: It started four days ago. I'm coughing up green phlegm, I've had a temperature and I'm more breathless than normal.
+hpc: Cough: 4 days, productive of green sputum
+hpc: Fever: Feverish and shivery
+hpc: Breathlessness: More than usual, on walking
+hpc: Chest pain: Slight right-sided pain on coughing
+hpc: Confusion: None
+hpc: Observations: RR 24, BP 130/80, urea 8
+yes: Fever; productive cough; breathlessness; pleuritic pain
+no: Haemoptysis; confusion; weight loss; recent hospital stay; travel
+pmh: High cholesterol; high blood pressure
+dh: Simvastatin 40 mg at night; amlodipine 5 mg
+all: Penicillin: rash as a child
+fh: Nothing relevant
+sh: Non-smoker; lives with husband; independent
+ice: A chest infection | Being admitted | Antibiotics and home
+cue: "My husband can't manage on his own."
+ask: Can I go home?
+key: Confirm the allergy: what happened, and when? | Penicillin rash changes the choice
+key: Assess severity: confusion, urea, respiratory rate, blood pressure, age | CURB-65 = 2: urea over 7 and age 65 or over; RR 24 does not score
+key: Full drug history including simvastatin | Clarithromycin interacts with simvastatin
+key: Choose an antibiotic per guidance for moderate severity with penicillin allergy: clarithromycin or doxycycline | NICE NG138
+key: If clarithromycin: suspend simvastatin while on it | Myopathy risk
+key: Prescribe correctly: drug, dose, route, frequency, duration, indication, sign | Prescribing marks
+rf: Confusion, RR 30 or more, BP under 90 systolic | High severity
+rf: Sepsis | Escalate
+sum: So you've had four days of a productive cough with green phlegm, fever and breathlessness, you take simvastatin, and you had a rash with penicillin as a child. Is that right?
+pres: Mrs Hill is a 72-year-old woman with 4 days of productive cough, fever and breathlessness with right pleuritic pain. Her CURB-65 score is 2 for age and urea, indicating moderate-severity community-acquired pneumonia; hospital management should be considered. She has a non-severe penicillin allergy and takes simvastatin.
+ddx: Moderate-severity community-acquired pneumonia, because of a productive cough, fever and CURB-65 of 2 | Infective exacerbation of undiagnosed COPD or bronchitis, unlikely without smoking history | Pulmonary embolism, considered if pleuritic pain persists without consolidation
+ix: Observations; CXR; FBC, CRP, U&Es; sputum and blood cultures; urinary pneumococcal and Legionella antigens for moderate severity
+mx: Doxycycline 200 mg on day 1 then 100 mg once daily for a total of 5 days, avoiding the simvastatin interaction; or clarithromycin 500 mg twice daily for 5 days with simvastatin suspended; consider admission or close review; oxygen to target; review at 48 to 72 hours
+tell: You have a chest infection, a pneumonia. Because you reacted to penicillin, I'll give you a different antibiotic called doxycycline for 5 days, which doesn't clash with your cholesterol tablet. Take it with a full glass of water, sitting upright. If you become confused, very breathless or much worse, call 999.
+
+=== PP93 B
+who: Paul Fox, 50, postman
+act: Limp, roll up your right trouser leg to show a red shin; scratch between your toes.
+open: My right shin has gone red, hot and swollen over two days.
+story: It started as a small red patch two days ago and it's spreading. It's hot and sore, and I feel feverish.
+hpc: Site: Right shin
+hpc: Onset: 2 days, spreading
+hpc: Pain: Tender, 5 out of 10
+hpc: Fever: Feverish
+hpc: Entry: Itchy, cracked skin between the toes, athlete's foot
+hpc: Severity: Can walk; no confusion
+yes: Fever; athlete's foot
+no: Pain out of proportion; blistering; crepitus; rapidly spreading; calf swelling; recent travel; immobility
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Postman; non-smoker; 10 units a week
+ice: An infection | Missing work | Antibiotics
+cue: "I walk ten miles a day for work."
+ask: Can I keep working?
+key: When did it start, how fast is it spreading, and any blisters? | Cellulitis versus necrotising fasciitis
+key: Any cuts, insect bites or athlete's foot? | Entry point
+key: Any fever, feeling very unwell, or confusion? | Systemic involvement and Eron class
+key: Any allergies? | Antibiotic choice
+key: Is the calf swollen and is there recent immobility? | DVT
+key: Prescribe correctly, and mark the edge of the redness | Monitoring spread
+rf: Pain out of proportion, crepitus, rapid spread | Necrotising fasciitis
+rf: Sepsis | Admission and IV antibiotics
+sum: So for two days your right shin has been red, hot and swollen, spreading, with a fever, and you have athlete's foot. No allergies. Is that right?
+pres: Paul Fox is a 50-year-old man with 2 days of a spreading, hot, tender, erythematous right shin with fever, and tinea pedis as a likely portal of entry. He has no red flags for necrotising fasciitis and is systemically well enough for oral treatment, Eron class 1 to 2.
+ddx: Lower leg cellulitis, because of spreading erythema, warmth and tenderness with fever and a portal of entry | DVT, told apart by calf swelling and ultrasound | Necrotising fasciitis, excluded by the absence of severe pain, crepitus and systemic toxicity
+ix: Observations; mark the erythema; FBC, CRP if systemically unwell; swab only if broken skin
+mx: Flucloxacillin 500 mg to 1 g four times a day for 5 to 7 days; analgesia; elevate the leg; treat athlete's foot with topical terbinafine; review in 48 hours or sooner if spreading; admit if red flags
+tell: This is cellulitis, a skin infection, probably getting in through the cracks between your toes. Take the antibiotic four times a day for a week, raise your leg when you can, and use the cream on your toes to stop it coming back. I've drawn round the redness; if it spreads past the line or you feel very unwell, come back that day.
+
+=== PP94 A
+who: Kate Price, 56, sales assistant
+act: Tired and a bit defensive; peel off a sock to show the heel dressing; squint at the eye chart. Low mood only if asked.
+open: I'm here for my diabetes check. I know it's not great.
+story: I've had diabetes 15 years. My sugars go up and down. My husband had a heart attack recently and I've been eating cake and biscuits from the stress.
+hpc: Control: Up and down; on maximum metformin; no hypos; doesn't check glucose at home
+hpc: Vision: Blurred in the right eye recently; driving has become harder
+hpc: Feet: Numb and tingling up to the ankles, "like cotton wool"
+hpc: Ulcer: Under the heel for 2 weeks, no injury remembered, not healing, smelly
+hpc: Lifestyle: Comfort eating; mostly on the sofa; BMI 30
+hpc: Mood: ONLY IF ASKED: feeling down, out of control of her diabetes
+yes: Numb feet; heel ulcer; blurred vision; low mood if asked
+no: Hypos; chest pain; claudication; fever; red hot swollen foot
+pmh: Type 2 diabetes for 15 years; high blood pressure; high cholesterol
+dh: Metformin 1 g twice daily; ramipril; atorvastatin
+all: None
+fh: Mother had diabetes
+sh: Cut down from 20 to 5 cigarettes a day; drinks socially; husband recently had an MI
+ice: It's her fault | Losing her foot and her sight | To know what to do
+cue: "Is it my fault I've got all these complications?"
+ask: Is it my fault? Why is my HbA1c high when my sugar was fine this morning? When do I need to come back? Would gliclazide be good for me?
+key: How have your sugars been, and do you monitor at home? | Control and self-management
+key: Any problems with your eyes, and when was your last eye screening? Do you drive? | Retinopathy and DVLA
+key: Any numbness, tingling or sores on your feet? Let me look at both feet | Neuropathy and ulcer
+key: Any kidney problems, swelling or frothy urine? | Nephropathy
+key: Any chest pain, breathlessness or leg pain on walking? | Macrovascular disease
+key: How is your mood? | Diabetes distress and depression
+rf: Infected diabetic foot ulcer | Referral to the multidisciplinary foot service within 1 working day; same day if limb-threatening
+rf: Blurred vision affecting driving | Ophthalmology and DVLA standard
+sum: So your diabetes control has been up and down, you have blurred vision in your right eye, numb feet, and a smelly heel ulcer for two weeks, and you've been feeling down. Is that right?
+pres: Kate Price is a 56-year-old woman with 15 years of type 2 diabetes on maximal metformin with poor control, attending her annual review. She has right visual blurring suggesting retinopathy, peripheral neuropathy with an infected neuropathic heel ulcer, and possible nephropathy, with low mood. She has cut down to 5 cigarettes a day and her husband recently had an MI.
+ddx: Type 2 diabetes with microvascular complications: retinopathy, neuropathy with an infected neuropathic ulcer, and nephropathy | Peripheral arterial disease contributing to non-healing, assessed with foot pulses and ABPI | Osteomyelitis under the ulcer, assessed with X-ray and probe-to-bone
+ix: HbA1c, U&Es, eGFR, urine ACR, lipids, FBC, LFTs; foot exam: monofilament, pulses, ABPI; ulcer swab and X-ray; retinal screening urgently; BP; BMI; PHQ-9
+mx: Urgent referral to the diabetic foot MDT within 1 working day; antibiotics for the infected ulcer per guidance; offload the heel; ophthalmology review and check visual standard for driving; add an SGLT2 inhibitor given cardiovascular and kidney risk rather than gliclazide, which causes weight gain and hypos; review ramipril dose for ACR; smoking cessation; diabetes education; support for mood
+tell: It's not your fault: diabetes is a progressive condition, and stress makes it harder. Your HbA1c reflects your average sugar over 3 months, which is why one good morning reading doesn't show the whole picture. The foot ulcer is my biggest worry, so I'm referring you to the foot team within a day. I'd suggest a different tablet than gliclazide that also protects your heart and kidneys. I'll see you again in 2 weeks.
+
+=== PP95 A
+who: Ray Hudson, 64, retired lorry driver
+act: Proud of your home readings chart; calm, a little breathless; rub your calves when you mention walking.
+open: I've brought my blood pressure readings. They're still high even with the new tablet.
+story: I'm on three tablets and it's still high. I take them every day. I get pain in my calves when I walk.
+hpc: Readings: Average around 165/95 over 2 weeks
+hpc: Adherence: Takes every dose
+hpc: Calves: Cramp on walking 100 metres, eases with rest
+hpc: Angina: Occasional, GTN helps
+hpc: Breathlessness: Sudden breathless episodes at night twice this year
+yes: Claudication; angina; sudden breathless episodes
+no: Headaches; palpitations; sweating episodes; snoring with daytime sleepiness; NSAIDs; liquorice
+pmh: Angina; type 2 diabetes; intermittent claudication
+dh: Ramipril 10 mg; amlodipine 10 mg; indapamide 2.5 mg; GTN spray; metformin; aspirin; citalopram
+all: None
+fh: Nothing relevant
+sh: Smoked 20 a day for 40 years; drank 40 units a week in his 40s, now an ex-drinker; retired lorry driver
+ice: Needs another tablet | A stroke | To get his blood pressure down
+cue: "My kidney blood test went off when they started ramipril."
+ask: Why isn't my blood pressure coming down? Will I need more tablets?
+key: Do you take every tablet every day, and how do you measure your blood pressure? | Adherence and technique
+key: Any over-the-counter medicines, NSAIDs, decongestants, liquorice or alcohol? | Secondary causes
+key: Any other vascular disease: angina, leg pain, strokes? | Atherosclerosis burden
+key: Did your kidney function worsen when ramipril was started? Any sudden breathlessness at night? | Renal artery stenosis and flash pulmonary oedema
+key: Any headaches, palpitations, sweating, snoring or daytime sleepiness? | Phaeochromocytoma and OSA
+rf: BP over 180/120 with symptoms | Accelerated hypertension
+rf: Flash pulmonary oedema | Renovascular disease
+sum: So despite taking three tablets every day your readings average about 165/95, you have angina, diabetes, calf pain on walking, a long smoking history, and your kidney test worsened on ramipril. Is that right?
+pres: Mr Hudson is a 64-year-old man with resistant hypertension on ramipril, amlodipine and indapamide with good adherence and an ambulatory average of about 165/95. He has widespread atherosclerotic disease: angina, claudication, type 2 diabetes and a 40 pack-year smoking history, with a rise in creatinine on starting ramipril and episodes of flash pulmonary oedema. This suggests atherosclerotic renal artery stenosis.
+ddx: Atherosclerotic renal artery stenosis, because of resistant hypertension with diffuse vascular disease and worsening renal function on an ACE inhibitor | Primary aldosteronism, told apart by an aldosterone to renin ratio and hypokalaemia | Non-adherence, OSA or drug causes, excluded by history and pill counts
+ix: U&Es and potassium, eGFR, urine ACR; renal ultrasound for asymmetric kidneys; renal artery imaging with MR or CT angiography; aldosterone to renin ratio; ECG; echo
+mx: Specialist hypertension or renal referral; optimise vascular risk: high-intensity statin, antiplatelet, smoking cessation, diabetes control; monitor renal function on ACE inhibitor; revascularisation only in selected cases such as flash pulmonary oedema
+tell: Your blood pressure is stubborn despite three tablets, and with the narrowing of your arteries elsewhere, I wonder if an artery to your kidneys is narrowed too. We'll do a kidney scan and some blood tests, and I'll refer you to a specialist. Meanwhile, keeping your cholesterol and diabetes under control and staying off cigarettes protects your arteries.
+
+=== PP95 B
+who: Mark Hudson, 45, IT consultant
+act: Anxious, sweaty palms; rub your temples. Describe the episodes vividly.
+open: My blood pressure is still high on three tablets, and I keep getting these awful headaches.
+story: I get pounding headaches that paracetamol doesn't touch. Every so often my heart pounds, I sweat and I go pale. I feel light-headed when I stand up.
+hpc: Headaches: Throbbing, episodic, not helped by paracetamol
+hpc: Episodes: Pounding heart, sweating, pallor, anxiety, lasting 15 to 30 minutes, several times a week
+hpc: Postural: Light-headed when standing
+hpc: Adherence: Takes every tablet every day
+hpc: Home readings: Very variable, some over 200 systolic during episodes
+yes: Episodic headaches; palpitations; sweating; postural dizziness; weight loss
+no: Caffeine; alcohol excess; drugs; thyroid symptoms; snoring
+pmh: Nothing until hypertension last year
+dh: Ramipril 10 mg; amlodipine 10 mg; indapamide 2.5 mg
+all: None
+fh: Nothing relevant
+sh: No caffeine; 5 units a week; non-smoker; IT consultant
+ice: Stress | A stroke | Answers
+cue: "During these attacks I genuinely think I'm going to die."
+ask: Why isn't my blood pressure coming down?
+key: Describe the headaches and the episodes: what happens, how long, how often? | Paroxysmal symptoms
+key: Any palpitations, sweating or pallor during episodes? | The classic triad
+key: Any light-headedness on standing? | Orthostatic hypotension
+key: Any caffeine, drugs, decongestants or alcohol? | Mimics
+key: Any family history of endocrine tumours? | MEN 2 and other syndromes
+rf: BP over 200 with headache or chest pain | Hypertensive crisis
+sum: So despite three tablets your readings are very variable and high, and you get episodes of throbbing headache, pounding heart, sweating and pallor, and you feel faint on standing. Is that right?
+pres: Mark Hudson is a 45-year-old man with resistant, labile hypertension despite three agents, with paroxysms of headache, palpitations and sweating, pallor and orthostatic light-headedness. This classic triad strongly suggests a phaeochromocytoma.
+ddx: Phaeochromocytoma, because of the triad of episodic headache, sweating and palpitations with labile resistant hypertension | Panic attacks or hyperthyroidism, told apart by normal metanephrines and TFTs | Drug-related causes such as cocaine or stimulants, excluded by history and screening
+ix: Plasma free metanephrines or 24-hour urinary metanephrines; TFTs; U&Es, glucose; if positive, CT or MRI adrenals; genetic testing
+mx: Endocrinology referral; alpha-blockade first, such as phenoxybenzamine or doxazosin, then a beta-blocker only after alpha-blockade; surgical adrenalectomy; avoid starting a beta-blocker alone
+tell: The attacks you describe, with headaches, a pounding heart and sweating, can be caused by a rare adrenal gland tumour that releases adrenaline. It's usually not cancerous and can be cured with surgery. We'll check your blood and urine for adrenaline breakdown products and refer you to the hormone specialists.
+
+=== PP95 C
+who: Laura Hudson, 32, physiotherapist
+act: Calm, healthy-looking, slightly puzzled; mention nocturia only if asked.
+open: My blood pressure is still high on three tablets. I'm only 32.
+story: It was found at a pill check. I stopped the combined pill and now have a copper coil. I don't really have symptoms.
+hpc: Discovery: At a combined pill check
+hpc: Treatment: Three tablets; still high at home
+hpc: Contraception: Copper coil now
+hpc: Urine: ONLY IF ASKED: getting up at night to pass urine
+hpc: Fatigue: ONLY IF ASKED: tired
+yes: Nocturia; fatigue; muscle cramps
+no: Headaches; palpitations; sweating episodes; weight gain; stretch marks; snoring; liquorice; NSAIDs
+pmh: Hypertension
+dh: Ramipril 10 mg; amlodipine 10 mg; indapamide 2.5 mg
+all: None
+fh: Mother and 25-year-old brother have hard-to-control blood pressure; grandmother had a stroke
+sh: Non-smoker; non-drinker; no drugs; physiotherapist; work not stressful
+ice: Bad genes | A stroke like her grandmother | Answers
+cue: "My brother's only 25 and on two tablets."
+ask: Why isn't my blood pressure coming down?
+key: When was it found, and how young? | Hypertension under 40 needs secondary causes excluded
+key: Any muscle weakness, cramps, nocturia or tiredness? | Hypokalaemia
+key: Any headaches, sweating or palpitations? | Phaeochromocytoma
+key: Any weight gain, stretch marks, or easy bruising? | Cushing's
+key: Any family history of high blood pressure or early strokes? | Familial hyperaldosteronism
+key: Any liquorice, decongestants or other medicines? | Mimics
+rf: Hypokalaemia | Hyperaldosteronism
+sum: So you're 32 with high blood pressure despite three tablets, you get up at night to pass urine and feel tired, and your mum and brother have hard-to-control blood pressure. Is that right?
+pres: Laura Hudson is a 32-year-old woman with resistant hypertension on three agents, nocturia and fatigue, and a strong family history of early-onset resistant hypertension in her mother and 25-year-old brother. This suggests primary aldosteronism, possibly familial.
+ddx: Primary aldosteronism, possibly familial hyperaldosteronism, because of young resistant hypertension with nocturia and a family history | Renovascular disease from fibromuscular dysplasia, told apart by renal artery imaging | Phaeochromocytoma or Cushing's, excluded by metanephrines and cortisol testing
+ix: U&Es for hypokalaemia; aldosterone to renin ratio, noting that ACE inhibitors and diuretics affect results; CT adrenals; adrenal vein sampling; renal artery imaging
+mx: Specialist referral, as under 40 with hypertension; mineralocorticoid receptor antagonist such as spironolactone; adrenalectomy for a unilateral adenoma; screen relatives
+tell: Being 32 with blood pressure that won't come down, and with your mum and brother the same, makes me think of a hormone problem in the adrenal glands called aldosteronism. It's very treatable, sometimes with a single tablet or a keyhole operation. We'll do a blood test and refer you to a specialist, and your family may need testing too.
+
+=== PP100 A
+who: Sandra Bell, 68, retired hairdresser
+act: Flushed, coughing, a bit breathless; hold your right side when you cough. Sensible; agree to the plan but challenge the follow-up X-ray.
+open: I've been unwell for a few days and I'm getting more breathless. I've been coughing up yellow-green stuff.
+story: For a few days I've had a cough with yellow-green phlegm, fevers and shaking chills, and a sharp pain on the right when I cough or breathe in.
+hpc: Cough: Few days, yellow-green sputum, no blood
+hpc: Fever: Hot then freezing cold with uncontrollable shaking
+hpc: Pain: Sharp, right-sided, on coughing and deep breaths
+hpc: Breathlessness: Worse over days
+hpc: Observations: RR 22, BP 128/78, alert, urea normal
+yes: Rigors; pleuritic pain; lethargy
+no: Confusion; haemoptysis; travel; weight loss; recent hospital stay
+pmh: High blood pressure; many chest infections in the past
+dh: Amlodipine 5 mg
+all: None
+fh: Nothing relevant
+sh: Smokes 10 a day since her teens; a glass of wine most evenings
+ice: A bad chest infection | Something serious | To go home if safe
+cue: "Do I really need another X-ray in 6 weeks if I'm feeling better?"
+ask: Do I need to come into hospital? Do I really need another X-ray in 6 weeks?
+key: How long have you had the cough, and what are you coughing up? | Productive cough
+key: Any fevers, sweats or shaking? | Rigors
+key: Any chest pain on breathing? | Pleurisy
+key: Any confusion? Calculate CURB-65 | Severity: age scores 1
+key: Do you smoke, and any weight loss or blood in sputum? | Malignancy risk
+rf: Confusion, RR 30 or more, BP low | High severity
+rf: Haemoptysis or weight loss | Underlying malignancy
+sum: So for a few days you've had a cough with yellow-green phlegm, fevers with shaking, a sharp right chest pain when breathing, and you're more breathless. You smoke. Is that right?
+pres: Sandra Bell is a 68-year-old smoker with a few days of productive cough, rigors, right pleuritic chest pain and increasing breathlessness. She is alert with a respiratory rate of 22 and normal blood pressure and urea, giving a CURB-65 score of 1 for age. The CXR shows right lower lobe consolidation. This is low-severity community-acquired pneumonia suitable for home treatment.
+ddx: Low-severity right lower lobe community-acquired pneumonia, because of productive cough, fever and consolidation with CURB-65 of 1 | Pulmonary embolism, less likely with productive cough, fever and consolidation | Post-obstructive pneumonia from lung cancer in a smoker, excluded by a follow-up CXR
+ix: Observations, saturations; CXR; CRP; FBC and U&Es if admitted; sputum culture if moderate or severe
+mx: Amoxicillin 500 mg three times daily for 5 days; analgesia; fluids; safety-net; review if not improving in 3 days; follow-up CXR at about 6 weeks as she is a smoker over 50; smoking cessation
+tell: You have a pneumonia, but it's a mild one, so you can go home with antibiotic tablets for 5 days. You should start to feel better within a few days, though the cough can last a few weeks. Because you smoke, we do repeat the X-ray in 6 weeks to make sure the shadow has gone and nothing is hiding behind it. If you get confused, more breathless or not better in 3 days, come back.
+
+=== PP100 B
+who: Patricia, daughter of Albert, 78
+act: Worried, holding his inhaler bag; Albert is muddled and breathless in the bed. Answer for him.
+open: Dad's been coughing for three days, and today he's really muddled and can't catch his breath.
+story: Three days ago he got a cough and fever. Today he didn't know what day it was and he's struggling to breathe. He lives alone and is normally independent.
+hpc: Cough: 3 days, productive
+hpc: Fever: 3 days
+hpc: Confusion: New today
+hpc: Breathlessness: Severe today
+hpc: Observations: RR 32, BP 85/50, urea 9, sats 88% on air
+yes: Confusion; severe breathlessness; fever
+no: Chest pain; haemoptysis; vomiting; falls
+pmh: COPD; high blood pressure
+dh: Inhalers; amlodipine
+all: Penicillin: rash
+fh: Nothing relevant
+sh: Ex-smoker, 40 pack-years; lives alone; normally independent
+ice: Pneumonia | Losing her dad | To get him the right care
+cue: "He was fine on Sunday."
+ask: Is he going to be alright?
+key: When did the cough and fever start, and when did the confusion start? | Tempo
+key: What is he normally like? | Baseline
+key: Allergy: what happened with penicillin? | Antibiotic choice
+key: Any COPD flares, home oxygen or recent steroids? | Target saturations 88 to 92%
+key: Calculate CURB-65: confusion, urea, RR, BP, age | 5 points: high severity
+rf: CURB-65 4 or 5 | Critical care review
+rf: Septic shock | Sepsis Six within the hour
+sum: So your dad has had three days of cough and fever, and today he's confused and very breathless. He has COPD and a penicillin rash. Is that right?
+pres: Albert is a 78-year-old man with COPD and a 40 pack-year smoking history presenting with 3 days of productive cough and fever, now with new confusion, RR 32, BP 85/50, urea 9 and saturations of 88% on air. His CURB-65 score is 5. This is high-severity community-acquired pneumonia with septic shock. He has a penicillin allergy with rash.
+ddx: High-severity community-acquired pneumonia with sepsis, because of CURB-65 of 5 with hypotension and confusion | Infective exacerbation of COPD with type 2 respiratory failure, assessed with an ABG | Aspiration pneumonia or PE, considered by history and imaging
+ix: A to E; ABG; CXR; FBC, CRP, U&Es, LFTs, lactate; blood and sputum cultures; urinary pneumococcal and Legionella antigens; ECG
+mx: Sepsis Six; controlled oxygen to 88 to 92% given COPD; IV fluids; IV antibiotics for high severity with penicillin allergy per local guidance, for example levofloxacin with microbiology advice; critical care review; treatment escalation plan discussion
+tell: Your dad has a severe pneumonia that has spread into his bloodstream, which is why he's confused and his blood pressure is low. We're giving oxygen, fluids and strong antibiotics now, and the intensive care team will see him. I'll keep you updated, and we'll talk together about his wishes.
+
+=== PP101 A
+who: Janet Smedley, mother of Ashley, 24
+act: Frightened, clutching Ashley's inhalers; Ashley is exhausted, barely moving air, drowsy. Answer quickly and accurately when asked about medicines.
+open: Please help her, she can hardly breathe. Her inhalers aren't working.
+story: She's been wheezy all week and using her blue inhaler constantly. Tonight she couldn't speak.
+hpc: This week: Salbutamol about 10 times a day
+hpc: Preventer: Fostair 100/6, 2 puffs twice a day, often forgets the evening dose
+hpc: Other: Montelukast 10 mg at night
+hpc: Theophylline: Not on it
+hpc: Observations: RR 6, HR 80, BP 102/65, weight 65 kg, silent chest, exhausted
+yes: Exhaustion; drowsiness; silent chest
+no: Previous ICU admissions known; anaphylaxis signs; foreign body; chest pain
+pmh: Asthma since childhood
+dh: Fostair 100/6 2 puffs twice a day; salbutamol 2 puffs when needed; montelukast 10 mg at night
+all: Ibuprofen: made her wheezy
+fh: Nothing relevant
+sh: Lives with mum
+ice: A bad attack | Losing her daughter | Make her breathe
+cue: "She's gone so quiet. Is that good?"
+ask: Is she going to be okay?
+key: Recognise life-threatening features: RR 6 with exhaustion and drowsiness is peri-arrest; silent chest; SpO2 below 92% | Life-threatening and near-fatal asthma
+key: Call for senior and anaesthetic help immediately | She may need intubation
+key: Oxygen to 94 to 98%; continue back-to-back nebulised salbutamol 5 mg, ipratropium 500 micrograms | Bronchodilation
+key: Steroids: prednisolone 40 to 50 mg orally or hydrocortisone 100 mg IV | Reduces inflammation
+key: IV magnesium sulfate 1.2 to 2 g over 20 minutes | For life-threatening asthma
+key: Aminophylline only with senior advice: loading dose 5 mg/kg over 20 minutes as she is not on theophylline | Avoid if on oral theophylline
+rf: Respiratory rate of 6 | Imminent respiratory arrest: anaesthetist now
+rf: Ibuprofen allergy | No NSAIDs
+sum: So Ashley has used her blue inhaler about ten times a day this week, often misses her evening Fostair, takes montelukast, isn't on theophylline, and is allergic to ibuprofen. Is that right?
+pres: Ashley Smedley is a 24-year-old woman with life-threatening asthma not responding to initial treatment, with a respiratory rate of 6, exhaustion, drowsiness and a silent chest, which indicates near-fatal asthma and impending respiratory arrest. She uses Fostair 100/6 inconsistently, salbutamol about 10 times a day and montelukast, is not on theophylline and is NSAID-sensitive. I have called the anaesthetist and ICU.
+ddx: Near-fatal asthma with impending respiratory arrest, because of bradypnoea, exhaustion and a silent chest | Tension pneumothorax, excluded by examination and CXR | Anaphylaxis, excluded by history and the absence of urticaria or angioedema
+ix: ABG: a normal or rising CO2 is life-threatening; CXR; FBC, U&Es, potassium; peak flow when able
+mx: Senior and anaesthetic help now for intubation; oxygen 94 to 98%; back-to-back salbutamol and ipratropium nebulisers driven by oxygen; IV hydrocortisone 100 mg; IV magnesium sulfate 2 g over 20 minutes; IV aminophylline with senior advice: loading 5 mg/kg over 20 minutes then infusion; monitor potassium; ICU
+tell: Ashley is having a life-threatening asthma attack and is very tired from breathing. We've called the intensive care doctors, who may need to put her to sleep and help her breathe with a machine while the medicines work. I'll keep you with her as much as I can.
+
+=== PP101 B
+who: Janet Smedley, mother of Ashley, 24
+act: Frightened; hand over a box of Uniphyllin and the inhalers. Ashley is exhausted and drowsy.
+open: She can hardly breathe. She's been bad all week.
+story: She's been using her blue inhaler about twelve times a day. She takes Uniphyllin tablets too; she had one this morning.
+hpc: Reliever: Salbutamol about 12 times a day this week
+hpc: Preventer: Fostair 200/6, 2 puffs twice a day
+hpc: Theophylline: Uniphyllin Continus 200 mg twice a day; last dose this morning
+hpc: Other: Montelukast 10 mg at night
+hpc: Observations: RR 6, HR 80, BP 102/65, weight 65 kg, silent chest, exhausted
+yes: Exhaustion; drowsiness
+no: Nausea; palpitations; seizures
+pmh: Asthma since childhood; previous admissions
+dh: Fostair 200/6 2 puffs twice a day; salbutamol when needed; Uniphyllin Continus 200 mg twice a day; montelukast 10 mg at night
+all: No known drug allergies
+fh: Nothing relevant
+sh: Lives with mum
+ice: Another bad attack | Losing her | Help
+cue: "She took her Uniphyllin this morning, does that matter?"
+ask: Is she going to be okay?
+key: Recognise near-fatal asthma: RR 6 with exhaustion | Impending arrest
+key: Senior and anaesthetic help now | Intubation
+key: Oxygen, back-to-back nebulised salbutamol and ipratropium | Bronchodilation
+key: Steroids and IV magnesium sulfate | Life-threatening asthma
+key: Theophylline: do not give a loading dose of aminophylline as she takes oral theophylline; check a theophylline level first | Toxicity: arrhythmias and seizures
+key: Monitor potassium | Salbutamol and theophylline both lower potassium
+rf: Respiratory rate of 6 | Imminent arrest
+rf: Theophylline toxicity | Loading dose contraindicated
+sum: So Ashley uses Fostair 200/6, salbutamol about 12 times a day, montelukast, and Uniphyllin 200 mg twice a day, last taken this morning, with no allergies. Is that right?
+pres: Ashley Smedley is a 24-year-old woman with near-fatal asthma, respiratory rate 6, exhaustion and a silent chest, not responding to initial treatment. Importantly, she takes oral theophylline, Uniphyllin 200 mg twice daily, last this morning, so an aminophylline loading dose must not be given and a level is needed before any infusion.
+ddx: Near-fatal asthma with impending respiratory arrest, because of bradypnoea and exhaustion | Theophylline toxicity contributing, assessed with a level, potassium and ECG | Pneumothorax, excluded with examination and CXR
+ix: ABG; theophylline level; U&Es and potassium; CXR; ECG
+mx: Anaesthetic and ICU now; oxygen; back-to-back nebulisers; IV hydrocortisone; IV magnesium; no aminophylline loading dose; maintenance infusion only with senior advice guided by the theophylline level; potassium replacement as needed
+tell: Ashley is having a life-threatening attack and the intensive care doctors are coming now. Because she takes Uniphyllin, we have to be careful with one of the drip medicines, so we're checking her level first. Thank you for bringing her tablets; that really helped.
+
+=== PP102 A
+who: Tilly Bates, 19, university student
+act: Bubbly, slightly embarrassed; point at your yellow eyes in a mirror. Completely well otherwise.
+open: My friend said my eyes look yellow. I feel completely fine.
+story: After my exam today my friend said my eyes and skin looked yellow. I've been revising hard and skipping meals.
+hpc: Onset: Noticed today
+hpc: Symptoms: None
+hpc: Diet: Skipping meals while revising for exams
+hpc: Urine and stool: Normal colour
+hpc: Previous: Doesn't think it's happened before
+yes: Skipped meals; stress
+no: Abdominal pain; itch; dark urine; pale stools; fever; weight loss; rash; joint pain; travel; drugs; new medicines; alcohol in the last 2 weeks
+pmh: Nothing
+dh: Combined pill for 4 years
+all: None
+fh: Adopted at birth; unknown
+sh: Non-smoker; occasional drinker, nothing for 2 weeks; no drugs; no travel; student
+ice: Something wrong with her liver | Liver failure | Reassurance
+cue: "Is something wrong with my liver? I barely drink."
+ask: What's causing this? Is it serious?
+key: When did you notice the yellowing, and is it the first time? | Episodic jaundice
+key: Any dark urine, pale stools or itch? | Pre-hepatic versus obstructive
+key: Any pain, fever or feeling unwell? | Hepatitis or cholangitis
+key: Have you been fasting, unwell or stressed? | Triggers for Gilbert's
+key: Any medicines, alcohol, drugs, travel or tattoos? | Hepatitis and drug causes
+key: Any family history of jaundice or blood disorders? | Haemolysis; she's adopted
+rf: Abdominal pain with fever | Cholangitis
+rf: Confusion or bleeding | Liver failure
+sum: So after exams and skipping meals your friend noticed yellow eyes today, and you feel well with normal urine and stools, no pain or itch. Is that right?
+pres: Tilly Bates is a 19-year-old woman with isolated scleral icterus noticed after a period of fasting and exam stress, with no abdominal pain, pruritus, dark urine or pale stools, and no risk factors for liver disease. She is otherwise completely well. This is most likely Gilbert's syndrome.
+ddx: Gilbert's syndrome, because of isolated jaundice triggered by fasting and stress in a well young person | Haemolysis, told apart by anaemia, raised reticulocytes and LDH, and low haptoglobin | Hepatitis or drug-induced liver injury, excluded by normal transaminases and history
+ix: LFTs showing raised unconjugated bilirubin with normal ALT, ALP and GGT; FBC, reticulocytes, LDH, haptoglobin, blood film; repeat after normal eating
+mx: Reassure; explain it is a harmless inherited condition affecting bilirubin processing; regular meals and fluids; no treatment needed; mention it to future doctors
+tell: This looks like Gilbert's syndrome, a very common and harmless inherited condition where the liver processes a yellow pigment a bit slowly. It shows up when you skip meals, are stressed or unwell. Your liver itself is healthy. Eating regularly helps, and you don't need any treatment.
+
+=== PP102 B
+who: Roger Hipps, 68, retired bank clerk
+act: Tired, yellow, thin; rub your lower back. Worried about your wife at home.
+open: My wife says I've gone yellow. I don't have any pain.
+story: I've been losing weight for six months and I'm tired. My appetite's gone and my back aches. Now I'm yellow.
+hpc: Jaundice: Noticed by wife this week, painless
+hpc: Weight: Lost over 6 months
+hpc: Appetite: Poor
+hpc: Back: Ache in the lower back
+hpc: Diabetes: Newly diagnosed a month ago
+yes: Weight loss; fatigue; back pain; new diabetes
+no: Abdominal pain; vomiting; itch; fever; rash; bowel change; blood in stool
+pmh: High blood pressure; type 2 diabetes diagnosed a month ago
+dh: Ramipril; metformin
+all: None
+fh: Dad had bowel cancer
+sh: Non-drinker; ex-smoker, 20 a day for 10 years; main carer for his wife, who has MS and uses a wheelchair
+ice: Liver trouble | Cancer, and who will care for his wife | Answers
+cue: "If anything happens to me, who'll look after Joan?"
+ask: What's causing this? Is it serious?
+key: When did you notice the yellowing, and any pain? | Painless jaundice
+key: Any dark urine, pale stools or itch? | Obstructive jaundice
+key: Have you lost weight, lost your appetite or felt tired? | Malignancy
+key: Any back pain? | Pancreatic cancer
+key: Any recent new diabetes? | New-onset diabetes over 60 can signal pancreatic cancer
+key: Alcohol, medicines, travel? | Other causes
+rf: Painless jaundice over 40 | Suspected cancer pathway
+rf: Fever and rigors | Cholangitis
+sum: So you've gone yellow without pain, after six months of weight loss, tiredness and back ache, and you were diagnosed with diabetes a month ago. Is that right?
+pres: Roger Hipps is a 68-year-old man with painless obstructive jaundice, 6 months of weight loss, anorexia and back pain, and new-onset diabetes. On examination there is a palpable non-tender gallbladder, Courvoisier's sign. This is highly suggestive of pancreatic head cancer. He is the main carer for his wife.
+ddx: Carcinoma of the head of the pancreas, because of painless jaundice with a palpable gallbladder, weight loss and new diabetes | Cholangiocarcinoma or ampullary tumour, told apart on imaging | Choledocholithiasis, less likely with painless jaundice and weight loss
+ix: LFTs showing an obstructive picture; FBC, U&Es, clotting, CA19-9; ultrasound then pancreatic protocol CT; EUS with biopsy; staging
+mx: Suspected cancer pathway referral to the upper GI and pancreatic team; correct clotting with vitamin K; biliary stent via ERCP if needed for symptoms; HPB MDT; carer support for his wife through social services
+tell: Going yellow without pain, together with losing weight and new diabetes, can be a sign of a blockage caused by a growth in the pancreas. I'm referring you urgently for a scan and to the specialist team. I know your wife relies on you, so we'll also arrange support for her at home.
+
+=== PP102 C
+who: Shelly Davies, 54, teaching assistant
+act: Hot, unwell, yellow; hold your right upper tummy. Clear about your penicillin reaction.
+open: I've been yellow for a week, and now I've got pain and I feel feverish and rotten.
+story: I've had pain in my right upper tummy, sickness, and I've been yellow for a week. Now I feel feverish. I had one episode of bloody diarrhoea.
+hpc: Pain: Right upper quadrant
+hpc: Jaundice: 1 week
+hpc: Fever: Feverish and shivery
+hpc: Itch: Itchy skin
+hpc: Bowels: One episode of bloody diarrhoea
+yes: Fever; jaundice; RUQ pain; itch; dark urine
+no: Alcohol; travel; new medicines; weight loss
+pmh: Ulcerative colitis, hemicolectomy last year, on sulfasalazine; rheumatoid arthritis
+dh: Sulfasalazine
+all: Penicillin: rash and swollen lips
+fh: Nothing relevant
+sh: Non-smoker; non-drinker; teaching assistant; independent
+ice: A flare of colitis | Her liver | To know the cause and control the pain
+cue: "My penicillin reaction was really bad. My lips swelled."
+ask: What's causing this? Is it serious?
+key: How long have you been yellow, and any itch, dark urine or pale stools? | Cholestasis
+key: Any fever, rigors and pain? | Cholangitis
+key: Tell me about your colitis and treatment | PSC association with UC
+key: Allergy: exactly what happened with penicillin? | Lip swelling is angioedema
+key: Alcohol, travel, new medicines? | Other causes
+rf: Fever with jaundice and RUQ pain | Charcot's triad
+rf: Confusion or hypotension | Severe cholangitis
+sum: So you've been yellow and itchy for a week, with right upper tummy pain, sickness and now fever, on a background of ulcerative colitis, and penicillin made your lips swell. Is that right?
+pres: Shelly Davies is a 54-year-old woman with ulcerative colitis presenting with a week of jaundice, pruritus, RUQ pain and now fever, fulfilling Charcot's triad. She has a penicillin allergy with angioedema. The association with UC suggests primary sclerosing cholangitis complicated by ascending cholangitis.
+ddx: Ascending cholangitis on a background of primary sclerosing cholangitis, because of Charcot's triad in a woman with UC | Choledocholithiasis with cholangitis, told apart on MRCP | Cholangiocarcinoma, a complication of PSC, excluded with imaging and CA19-9
+ix: Blood cultures; FBC, CRP, LFTs showing cholestasis, U&Es, clotting, lactate; ultrasound; MRCP showing beaded strictures; CA19-9
+mx: IV fluids; analgesia; IV antibiotics per local guidance avoiding all penicillins given angioedema; gastroenterology and hepatology review; ERCP for dominant strictures if needed; long-term PSC surveillance, including colonoscopy and cholangiocarcinoma surveillance
+tell: I think the bile ducts in your liver have become infected, probably because they've been narrowed by a condition linked to colitis, called PSC. We'll give you antibiotics that are safe with your allergy and fluids, and do a special scan of the bile ducts. We'll also give you painkillers now.
+
+=== PP102 D
+who: Linda Smith, 50, hospital receptionist
+act: Convinced it's IBS; holding your phone with a search result. Clutch your right side in waves.
+open: I've got IBS, I think. My tummy has been really bad for two days.
+story: The pain comes and goes, up to 10 out of 10, more on the right. Paracetamol hasn't helped. I googled it and I think it's IBS.
+hpc: Pain: Intermittent, 2 days, up to 10 out of 10, right upper abdomen
+hpc: Food: ONLY IF ASKED: worse after fatty food
+hpc: Urine: ONLY IF ASKED: very dark
+hpc: Fever: Felt hot and shivery last night
+hpc: Eyes: Husband said her eyes look yellow
+yes: Dark urine; rigors; nausea; fatty food trigger
+no: Alcohol excess; travel recently except Florida in June; hepatitis; family liver disease; weight loss
+pmh: Right knee arthritis; high cholesterol
+dh: Ibuprofen gel; atorvastatin
+all: None
+fh: No family history of liver disease
+sh: Hospital receptionist; a glass of red wine every night; ex-smoker
+ice: IBS | That it's serious | Pain relief
+cue: "I read online it's probably IBS."
+ask: What's causing this? Is it serious?
+key: Where is the pain, and does it come in waves? | Biliary colic
+key: Is it worse after fatty food? | Gallstones
+key: Any dark urine, pale stools, itch or yellow eyes? | Obstructive jaundice
+key: Any fever or shivers? | Cholangitis
+key: Alcohol, travel, hepatitis? | Other causes
+rf: Fever with jaundice and pain | Charcot's triad: cholangitis
+rf: Epigastric pain to the back | Gallstone pancreatitis
+sum: So for two days you've had severe right upper pain in waves, worse after fatty food, dark urine, yellow eyes and shivers. Is that right?
+pres: Linda Smith is a 50-year-old woman with 2 days of severe intermittent right upper quadrant pain after fatty food, with dark urine, scleral icterus and rigors, fulfilling Charcot's triad. This suggests common bile duct stones complicated by ascending cholangitis.
+ddx: Choledocholithiasis with ascending cholangitis, because of RUQ biliary pain with jaundice and fever | Acute cholecystitis, told apart by the absence of jaundice and a normal bile duct | Gallstone pancreatitis or hepatitis, excluded with lipase and serology
+ix: Blood cultures; FBC, CRP, LFTs, lipase, U&Es, clotting, lactate; ultrasound for a dilated common bile duct; MRCP
+mx: IV fluids; analgesia; IV antibiotics per local guidance; ERCP with stone extraction; cholecystectomy afterwards
+tell: This isn't IBS. I think a gallstone has slipped into the main bile pipe and blocked it, and it's become infected, which is why you're yellow and shivery. We'll start antibiotics and fluids, and a camera test can remove the stone. Later, the surgeons may remove your gallbladder to stop it happening again.
+
+=== PP104 A
+who: Callum Price, 24, model and personal trainer
+act: Pale, sweating, curled up, guarding the right testicle; vomit bowl. Short answers.
+open: My right testicle is agony. It came on suddenly playing football.
+story: Three hours ago I thought I'd been hit, but I don't think I was. The pain was sudden and severe. I was sick. Ice and my dad's Oramorph didn't touch it.
+hpc: Onset: Sudden, 3 hours ago, during football
+hpc: Pain: Severe, right testicle, radiating to the lower abdomen
+hpc: Vomiting: Yes
+hpc: Position: Doesn't change with position or lifting
+hpc: Previous: Brief similar pains before that settled
+yes: Vomiting; previous self-resolving episodes
+no: Urinary symptoms; discharge; fever; trauma; new sexual partner; rash
+pmh: Nothing
+dh: None; dad's Oramorph
+all: None
+fh: Nothing relevant
+sh: Smokes 5 a day; 9 pints a week; model and personal trainer
+ice: A knock | Losing a testicle | Pain relief
+cue: "Will I still be able to have kids?"
+ask: Will I lose it?
+find: Swollen, exquisitely tender right testis, high-riding with a horizontal lie
+find: Absent cremasteric reflex on the right; lifting the testis does not relieve pain
+key: Onset and timing: how many hours? | Viability falls after 6 hours
+key: Nausea and vomiting? | Torsion often causes vomiting
+key: Examine: lie, position, swelling, cremasteric reflex | Torsion signs
+key: Ask about previous episodes | Intermittent torsion
+rf: Sudden severe testicular pain | Torsion: theatre without delay
+sum: So three hours ago you had sudden severe right testicular pain playing football, with vomiting, not relieved by anything. Is that right?
+pres: Callum Price is a 24-year-old man with 3 hours of sudden severe right testicular pain with vomiting. On examination the right testis is swollen, high-riding with a horizontal lie and an absent cremasteric reflex. This is testicular torsion, a surgical emergency.
+ddx: Testicular torsion, because of sudden severe pain with vomiting, a high-riding testis and absent cremasteric reflex | Epididymo-orchitis, told apart by gradual onset, fever and urinary symptoms | Torsion of the appendix testis, distinguished by a blue dot sign and localised tenderness
+ix: Clinical diagnosis; do not delay surgery for imaging; urine dip
+mx: Analgesia; nil by mouth; immediate urology referral for scrotal exploration and bilateral orchidopexy; consent includes orchidectomy if non-viable
+tell: I think the testicle has twisted on its cord, cutting off the blood supply. This needs an operation straight away to untwist and fix it, and the other side, so it can't happen again. If we act quickly, the testicle usually survives. Most men, even with one testicle, can still have children.
+
+=== PP104 B
+who: Jamie Hughes, 21, geography student
+act: Embarrassed, quiet, a little anxious; describe the lump calmly. Mention weight loss only if asked.
+open: I think I felt a lump in my right testicle a couple of weeks ago.
+story: I noticed it in the shower. There's a slight discomfort. I had an operation for an undescended testicle as a baby.
+hpc: Lump: Right testis, noticed 2 weeks ago
+hpc: Pain: Slight discomfort, a dragging ache
+hpc: Systemic: ONLY IF ASKED: some weight loss and feeling run down
+hpc: Breasts: No change
+hpc: Previous: Orchidopexy as a baby
+yes: Weight loss and fatigue if asked
+no: Back pain; cough; breathlessness; breast tenderness; urinary symptoms; trauma
+pmh: Orchidopexy for an undescended testis as a baby
+dh: None
+all: None
+fh: Nothing relevant
+sh: Non-smoker; occasional drinker; student in a flatshare
+ice: A cyst | Cancer and fertility | To know what it is
+cue: "Will I be able to have kids?"
+ask: Is it cancer?
+find: Hard, irregular, non-tender lump arising from the right testis; cannot be separated from it
+find: Does not transilluminate; can get above it; no inguinal lymphadenopathy palpable
+key: Examine standing then lying: can you get above it? | Scrotal versus inguinal
+key: Is it part of the testis or separate? | Intratesticular means cancer until proven otherwise
+key: Does it transilluminate? | Solid versus cystic
+key: Examine the abdomen and supraclavicular nodes | Para-aortic and distant spread
+rf: Hard intratesticular lump | Suspected cancer pathway
+sum: So two weeks ago you felt a lump in your right testicle with slight discomfort, you've lost some weight, and you had an undescended testicle as a baby. Is that right?
+pres: Jamie Hughes is a 21-year-old man with a history of orchidopexy presenting with a 2-week right testicular lump with slight discomfort, weight loss and fatigue. On examination there is a hard, irregular, non-transilluminating mass arising from the right testis. This is highly suspicious of testicular cancer.
+ddx: Testicular germ cell tumour, because of a hard intratesticular mass in a young man with previous cryptorchidism | Epididymal cyst, which is separate from the testis and transilluminates | Orchitis or haematoma, distinguished by history and ultrasound
+ix: Urgent scrotal ultrasound; tumour markers: AFP, beta-hCG, LDH; CT chest, abdomen and pelvis for staging
+mx: Suspected cancer pathway urology referral; sperm banking before treatment; radical inguinal orchidectomy; MDT for further treatment
+tell: The lump is part of the testicle and feels firm, so I need to refer you urgently to check whether it could be a cancer. Testicular cancer is one of the most curable cancers, even when it has spread. We'll do a scan and blood tests, and before any treatment you can store sperm to protect your fertility.
+
+=== PP104 C
+who: Liam Carter, 26, plasterer
+act: Uncomfortable, legs apart, protective of the left side. Initially vague about sex; reveal the weekend partner only if asked privately and confidentially.
+open: My left testicle has been painful and swollen for two days, and I feel feverish.
+story: It came on over a day or so. It's red, hot and swollen. Ibuprofen helps a bit.
+hpc: Onset: Gradual over 2 days
+hpc: Testis: Left, red, hot, swollen, tender
+hpc: Fever: Feels feverish
+hpc: Urine: No dysuria, discharge or frequency
+hpc: Sexual history: ONLY IF ASKED confidentially: unprotected sex with someone else at the weekend; doesn't want his girlfriend to know
+yes: Fever; swelling; redness
+no: Sudden onset; vomiting; trauma; mumps symptoms; urinary symptoms
+pmh: Nothing
+dh: Ibuprofen; paracetamol
+all: None
+fh: Nothing relevant
+sh: Smokes 15 a day; 10 or more pints at weekends; plasterer
+ice: An infection | His girlfriend finding out | Antibiotics
+cue: "Will you tell my girlfriend?"
+ask: Will you tell my girlfriend?
+find: Swollen, red, warm, tender left epididymis and testis
+find: Lifting the testis eases the pain, Prehn's sign; cremasteric reflex present
+key: Was the onset sudden or gradual? | Torsion versus infection
+key: Any fever, urinary symptoms or discharge? | Infection
+key: Sexual history, confidentially: new partners, condom use | STI risk under 35
+key: Mumps or recent parotid swelling? | Mumps orchitis
+key: Examine: cremasteric reflex and Prehn's sign | Help distinguish from torsion, but do not rule it out
+rf: Sudden onset or any doubt | Exclude torsion first
+rf: Systemic sepsis or abscess | Admission
+sum: So over two days your left testicle has become painful, red and swollen with a fever, and you had unprotected sex with a new partner at the weekend. Is that right?
+pres: Liam Carter is a 26-year-old man with 2 days of gradually worsening left testicular pain and swelling with fever, following unprotected sex with a new partner. On examination the left epididymis and testis are swollen, warm and tender, with a positive Prehn's sign and preserved cremasteric reflex. This is epididymo-orchitis, likely sexually transmitted.
+ddx: STI-related epididymo-orchitis, from chlamydia or gonorrhoea, because of gradual onset in a young man after unprotected sex | Testicular torsion, which must be excluded given age, though onset and signs argue against it | Mumps orchitis or a testicular tumour, excluded by history and ultrasound
+ix: First-void urine NAAT for chlamydia and gonorrhoea; urethral swab if discharge; MSU; full STI screen including HIV and syphilis; scrotal ultrasound if diagnosis uncertain
+mx: Per BASHH: ceftriaxone 1 g IM single dose plus doxycycline 100 mg twice daily for 10 to 14 days; analgesia, scrotal support; partner notification via the sexual health clinic, which can be anonymous; abstain from sex until treatment is complete and partners are treated
+tell: This is an infection of the testicle, most likely passed on during sex. An injection and a course of tablets will treat it. Your partners need treatment too; the sexual health clinic can contact them anonymously, without using your name. Everything you've told me is confidential. If the pain becomes sudden and severe, come back immediately.
+
+=== PP104 D
+who: Mike Dawson, 76, retired decorator
+act: Uncomfortable walking; describe the swelling as "ugly". Mention the weight loss and blood in urine only if asked.
+open: My left testicle has felt heavy and uncomfortable for four months, and it looks bigger.
+story: It feels like a heavy dragging, worse walking. It looks swollen and ugly.
+hpc: Testis: Left, heavy and dragging, 4 months
+hpc: Appearance: Swollen, wormy-looking veins above it
+hpc: Weight: ONLY IF ASKED: lost about a stone over a year
+hpc: Urine: ONLY IF ASKED: two episodes of blood in the urine, treated as infection, no follow-up
+hpc: BP: Hypertension diagnosed 2 months ago, poorly controlled
+yes: Weight loss; haematuria; fatigue; poor appetite
+no: Pain; fever; urinary symptoms now; trauma
+pmh: Hypertension; type 2 diabetes
+dh: Amlodipine 10 mg; metformin 500 mg
+all: None
+fh: Dad and uncle had prostate cancer
+sh: Retired decorator; non-smoker; non-drinker
+ice: Varicose veins | Cancer | To know
+cue: "My dad and uncle had prostate cancer."
+ask: Is it cancer?
+find: Left-sided bag-of-worms swelling above the testis
+find: Does not empty when lying down; both testes otherwise normal
+key: Examine standing and lying | A varicocele that does not empty supine is sinister
+key: Which side, and new in an older man? | New left varicocele in an older man suggests a renal mass
+key: Ask about haematuria, weight loss, loin pain | Renal cell carcinoma
+key: Check blood pressure | Renal tumour causing hypertension
+rf: New varicocele in an older man, not reducing lying down | Renal or retroperitoneal mass
+rf: Visible haematuria over 45 | Suspected cancer pathway
+sum: So for four months your left testicle has felt heavy with wormy veins, you've lost a stone, had blood in your urine twice, and new high blood pressure. Is that right?
+pres: Mike Dawson is a 76-year-old man with a 4-month new left varicocele that does not decompress when supine, with a year of weight loss, two episodes of untreated visible haematuria and new poorly controlled hypertension. This is concerning for a left renal cell carcinoma obstructing the left gonadal vein at the renal vein.
+ddx: Left renal cell carcinoma with a secondary varicocele, because of a new non-reducing varicocele with haematuria and weight loss | Primary varicocele, unusual new at 76 and should empty supine | Prostate or bladder cancer causing haematuria, excluded with cystoscopy, PSA and imaging
+ix: Urine dip; U&Es, FBC, calcium; PSA; CT abdomen with contrast and CT urogram; cystoscopy
+mx: Suspected cancer pathway urology referral; BP management; urology MDT
+tell: The swollen veins in your scrotum, especially as they don't go down when you lie down, together with the blood in your urine and weight loss, make me want to check your left kidney with a scan. Sometimes a growth there can cause this. I'm referring you urgently to the urology team.
+
+=== PP105 A
+who: Maureen Jones, 72, retired post office clerk
+act: Tired, sore, coughing occasionally into a tissue; reluctant to make a fuss. Mention the cough only if asked.
+open: I'm sore and tired, but I suppose that's normal after a new hip.
+story: I had my left hip replaced yesterday morning under a spinal. The hip is sore down to the knee. Paracetamol and tramadol help a bit.
+hpc: Operation: Left total hip replacement yesterday at 10:30 under spinal anaesthetic
+hpc: Pain: Hip to knee, still a lot of pain despite paracetamol and tramadol
+hpc: Cough: ONLY IF ASKED: since overnight, green sputum
+hpc: Eating and drinking: Since yesterday afternoon
+hpc: Urine and bowels: Passing urine; bowels not opened but passing wind
+hpc: Mobility: Walking slowly to the toilet with a Zimmer frame
+hpc: VTE: Injections in her tummy and stockings
+yes: Productive cough; pain
+no: Calf pain; chest pain; haemoptysis; wound discharge; numbness in the leg; nausea
+pmh: Right hip replacement in April; otherwise well
+dh: Paracetamol; tramadol; enoxaparin
+all: Sticking plasters
+fh: Nothing relevant
+sh: Smokes 20 a day for 40 years; occasional drinker; lives in a two-storey house with her husband, only toilet upstairs; no carers
+ice: Normal after surgery | A chest infection setting her back | To get home
+cue: "The only toilet is upstairs at home."
+ask: When can I go home?
+key: Pain: where, how bad, and what helps? | Analgesia review
+key: Any cough, sputum, breathlessness or chest pain? | Post-op pneumonia and PE
+key: Any calf pain or swelling? | DVT
+key: Eating, drinking, urine and bowels | Recovery
+key: Mobility and home set-up | Discharge planning
+key: Check the wound and the leg's sensation and circulation | Complications
+rf: Breathlessness, chest pain or haemoptysis | PE
+rf: Fever with wound redness | Prosthetic infection
+sum: So since your left hip replacement yesterday, you're sore despite paracetamol and tramadol, and since overnight you've had a cough with green phlegm. Is that right?
+pres: Mrs Jones is a 72-year-old smoker on day 1 after an uncomplicated left total hip replacement under spinal anaesthetic, with ongoing pain despite paracetamol and tramadol, and a new productive cough of green sputum since overnight. She is eating, drinking, passing urine and mobilising with a frame. Importantly, she has no calf pain, chest pain or haemoptysis. This suggests hospital-acquired pneumonia.
+ddx: Early hospital-acquired pneumonia, because of a new productive cough within 48 hours of admission in a smoker after surgery | Atelectasis, told apart by the absence of purulent sputum and consolidation | Pulmonary embolism, excluded by assessment, observations and imaging if suspected
+ix: Observations and NEWS2; examination of chest, calves and wound; FBC, CRP, U&Es; sputum culture; CXR; ABG if hypoxic
+mx: Antibiotics per local HAP guidance; chest physiotherapy and early mobilisation; analgesia review: regular paracetamol, consider an alternative opioid if pain uncontrolled; continue VTE prophylaxis; smoking cessation; OT for toilet access at home; avoid plasters, use alternatives
+tell: Your hip is healing as expected, but your cough suggests a chest infection, which can happen after an operation, especially in smokers. We'll give you antibiotics and the physios will help you breathe deeply and get moving. We'll also improve your pain relief. The occupational therapists will check how you'll manage the stairs to the toilet before you go home.
+
+=== PP105 B
+who: Mr OP, 60, retired engineer
+act: Grimacing, breathing fast, arm over your left side; desperate for relief. Vomit about 2 minutes after the first PCA press until given an antiemetic.
+open: I thought the epidural would take away all the pain. The left side of my tummy is agony.
+story: I had my operation this morning with an epidural. I was fine at first, but for three hours the left side has been more and more painful. It's excruciating when I move or cough.
+hpc: Operation: Laparotomy this morning under general anaesthetic with an epidural
+hpc: Pain: Left side of the abdomen, increasing over 3 hours, sore at rest, excruciating on movement or coughing
+hpc: Ice test: Feels cold on the left; on the right can't feel cold up to just above the navel
+hpc: Asthma: Mild, salbutamol occasionally
+yes: Severe left-sided pain; rapid breathing
+no: Chest pain; breathlessness at rest; leg weakness; headache; itching
+pmh: Asthma, mild; tolerates ibuprofen without wheeze
+dh: Salbutamol when needed; ibuprofen in the past without problems
+all: None
+fh: Nothing relevant
+sh: Non-smoker; 10 units a week; lives with wife
+ice: The epidural has failed | That he'll be in agony | Pain relief
+cue: "I'd do anything to get rid of it."
+ask: Is the ibuprofen safe with my stomach and my asthma? Can I take the PCA home? Can I get addicted or overdose on the morphine?
+key: Assess pain: site, severity, character, at rest and on movement | Pain assessment
+key: Test the block with ice on both sides | One-sided block
+key: Call the anaesthetist to re-site, top up or withdraw the epidural catheter | Specialist
+key: Start a PCA with morphine, an antiemetic and naloxone prescribed | Rescue analgesia
+key: Regular paracetamol; ibuprofen if asthma is NSAID-tolerant, with a PPI | Multimodal analgesia
+rf: Pain with signs of a surgical complication | Exclude anastomotic leak or bleeding
+rf: Respiratory depression or oversedation on PCA | Naloxone
+sum: So since your operation this morning, the left side of your tummy has become more and more painful over three hours, and the epidural only numbs your right side. Is that right?
+pres: Mr OP is a 60-year-old man with mild asthma who had a laparotomy this morning with an epidural and now has severe left-sided abdominal pain over 3 hours. Ice testing shows a unilateral block on the right only to around T10, with normal sensation on the left. This is a one-sided epidural failure. I would call the anaesthetist and start a morphine PCA with an antiemetic.
+ddx: Unilateral epidural block, because of severe left-sided pain with a right-sided sensory block only | Surgical complication such as bleeding or an anastomotic issue, told apart by observations, examination and abdominal signs | Opioid-induced nausea once PCA starts, managed with antiemetic
+ix: Observations including sedation score and respiratory rate; abdominal examination; sensory level testing
+mx: Anaesthetic review for epidural adjustment or replacement; morphine PCA: bolus 1 mg, lockout 5 minutes, with regular antiemetic and naloxone available; regular paracetamol; NSAID only if no NSAID-sensitive asthma and renal function is normal, with PPI; monitor for respiratory depression, sedation, nausea and constipation
+tell: Your epidural is only working on one side, which is why the left is so painful. The anaesthetist will come to adjust it, and meanwhile we'll start a pump that lets you give yourself small doses of morphine. It has a safety lockout, so you can't overdose, and short-term use after surgery very rarely causes addiction. It's only for use in hospital. Ibuprofen is okay for your asthma since it hasn't caused wheeze before, and we'll protect your stomach.
+
+=== PP107 A
+who: Fiona Marsh, 30, marketing manager
+act: Slow, flat, wrapped in a cardigan; only mention other symptoms if specifically asked. Worried it's cancer.
+open: I'm tired all the time. I just don't feel right.
+story: For about three months I've been lethargic all day and a bit slow mentally, even though I sleep eight to ten hours. Nothing set it off.
+hpc: Fatigue: 3 months, despite 8 to 10 hours of sleep
+hpc: Mental: Slow, foggy
+hpc: Periods: ONLY IF ASKED: heavier for a few months
+hpc: Cold: ONLY IF ASKED: always cold, heating on high, heated underblanket
+hpc: Bowels: ONLY IF ASKED: opening every 2 to 3 days, better with Movicol
+hpc: Weight: ONLY IF ASKED: weight gain without eating more
+yes: Cold intolerance; constipation; weight gain; heavier periods
+no: Vision changes; breathlessness; thirst; polyuria; low mood; snoring; night sweats; lumps
+pmh: Appendix out at 14
+dh: Over-the-counter laxatives
+all: None
+fh: Mum has osteoporosis; dad died of throat cancer
+sh: Never smoked; 10 units a week; lives with husband; marketing job
+ice: Cancer | Never being the same again | To be sent to hospital
+cue: "Dad was tired before they found his cancer."
+ask: Is it cancer? How long until I feel better? Will I need tablets forever?
+key: How long, and how does it affect your day and sleep? | Fatigue characterisation
+key: Any cold intolerance, weight gain, constipation, dry skin or hair changes? | Hypothyroidism
+key: Any heavy periods, breathlessness or palpitations? | Anaemia
+key: Any thirst, passing urine more, or weight loss? | Diabetes
+key: How is your mood and interest in things? | Depression
+key: Snoring, night sweats or lumps? | OSA and malignancy
+rf: Weight loss, night sweats or lumps | Malignancy
+sum: So for three months you've been tired and slow despite sleeping well, you're always cold, constipated, have gained weight and your periods are heavier. Is that right?
+pres: Fiona Marsh is a 30-year-old woman with 3 months of fatigue and mental slowing despite adequate sleep, with cold intolerance, constipation, weight gain and menorrhagia. Her TSH is raised with a low free T4. This is primary hypothyroidism, most likely Hashimoto's thyroiditis.
+ddx: Primary hypothyroidism from Hashimoto's thyroiditis, because of classic symptoms with raised TSH and low free T4 | Iron deficiency anaemia from menorrhagia, which can coexist, checked with FBC and ferritin | Depression or other causes of fatigue, excluded by history and bloods
+ix: TFTs; thyroid peroxidase antibodies; FBC, ferritin; HbA1c; coeliac serology; lipids
+mx: Levothyroxine started at about 1.6 micrograms per kg per day as she is young without heart disease; recheck TSH every 3 months until stable then yearly; take on an empty stomach, separate from iron and calcium; managed in primary care, no hospital referral needed
+tell: Your tests show an underactive thyroid, which explains the tiredness, feeling cold and weight gain. It isn't cancer. A daily thyroid hormone tablet replaces what your gland isn't making, and most people feel much better within a few weeks to months. It's usually lifelong, but it's one small tablet, and we'll check your blood every few months to get the dose right.
+
+=== PP107 B
+who: Grace Okafor, 34, primary school teacher
+act: Tired, a little breathless climbing onto the couch; touch your thinning hair. Worried about leukaemia.
+open: I'm exhausted all the time and I get out of breath on the stairs at work.
+story: For four months I've been tired, breathless on the stairs, with occasional palpitations, and my hair seems thinner.
+hpc: Fatigue: 4 months
+hpc: Breathlessness: On stairs
+hpc: Palpitations: Occasional
+hpc: Hair: Thinning
+hpc: Periods: ONLY IF ASKED: very heavy, flooding and clots, changing pads every 2 hours on heavy days
+hpc: Diet: Vegetarian for 5 years
+yes: Menorrhagia if asked; hair thinning; palpitations
+no: Weight loss; bowel change; blood in stool; night sweats; bruising; recurrent infections; pregnancy
+pmh: Nothing
+dh: Progestogen-only pill
+all: None
+fh: Nothing relevant
+sh: Teacher; non-smoker; 4 units a week; vegetarian
+ice: Something serious | Leukaemia, like a colleague's sister | To know what's wrong
+cue: "My colleague's sister had leukaemia and started off just tired."
+ask: Is it leukaemia? How long until I feel better? Will I need tablets forever?
+key: How long have you been tired, and are you breathless? | Anaemia symptoms
+key: How heavy are your periods: flooding, clots, pads per day? | Menorrhagia
+key: Diet: meat and iron-rich foods? | Vegetarian
+key: Any bowel change, blood in stool or weight loss? | GI blood loss
+key: Any bruising, infections, night sweats or lumps? | Haematological malignancy
+key: Could you be pregnant? | Pregnancy test
+rf: Bruising, infections, night sweats | Leukaemia or lymphoma
+rf: GI symptoms or weight loss | GI investigation
+sum: So for four months you've been tired and breathless on stairs, with palpitations and thinning hair, you have very heavy periods with clots, and you've been vegetarian for five years. Is that right?
+pres: Grace Okafor is a 34-year-old woman with 4 months of fatigue, exertional breathlessness, palpitations and hair thinning, with heavy menstrual bleeding with flooding and clots, and a vegetarian diet. FBC shows a microcytic anaemia with low ferritin. This is iron deficiency anaemia from menorrhagia and low dietary intake.
+ddx: Iron deficiency anaemia from heavy menstrual bleeding and diet, because of microcytic anaemia with low ferritin and menorrhagia | Coeliac disease, told apart by tTG serology | GI blood loss or haematological malignancy, excluded by history, a normal blood film and no red flags
+ix: FBC, ferritin, blood film, B12 and folate, coeliac serology; pregnancy test; TFTs; pelvic examination and ultrasound if structural cause suspected
+mx: Oral ferrous sulfate 200 mg once daily or on alternate days; recheck Hb in 2 to 4 weeks, expecting a rise of about 20 g/L in 4 weeks; continue for 3 months after Hb normalises; treat heavy periods: levonorgestrel IUS first line per NICE, or tranexamic acid during periods; dietary advice
+tell: Your blood test shows low iron, almost certainly from heavy periods plus a vegetarian diet. It isn't leukaemia; your blood film looks otherwise normal. Iron tablets usually make you feel better within a few weeks, and you'll take them for a few months after your blood count is back to normal. We'll also treat the heavy periods so it doesn't come back.

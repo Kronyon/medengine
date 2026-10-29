@@ -1,0 +1,785 @@
+# Past-paper diabetes, neurology and psychiatry stations: full cases.
+
+=== PP47 A
+who: Gareth Evans, 45, postman with type 1 diabetes
+act: Friendly, knowledgeable about his diabetes; a little anxious about fasting and hypos. Holds up his FlexPen when asked about insulin.
+open: I'm in for my gallbladder operation. I'm worried about my sugars while I'm nil by mouth.
+story: I've had type 1 since I was 12. I take NovoMix 30, 30 units in the morning and 10 in the evening. My control's good and I rarely have hypos. The surgeon said I'll miss two meals.
+hpc: Diabetes: Type 1 since age 12; NovoMix 30 FlexPen, 30 units morning, 10 units evening
+hpc: Control: HbA1c 54 last month; checks capillary glucose 4 times a day
+hpc: Hypos: Rare; recognises them early; carries dextrose
+hpc: Operation: Laparoscopic cholecystectomy on the morning list; will miss breakfast and lunch
+hpc: Weight: 75 kg
+yes: Good hypo awareness
+no: Previous DKA admissions; kidney problems; heart problems; neuropathy; gastroparesis; anaesthetic problems
+pmh: Type 1 diabetes; gallstones
+dh: NovoMix 30, 30 units with breakfast and 10 units with evening meal
+all: None
+fh: Nothing relevant
+sh: Non-smoker; 6 units a week; postman
+ice: Sugars going haywire | A hypo or DKA while asleep | A clear plan for his insulin
+cue: "Last time I was in hospital they stopped my insulin completely and I ended up with ketones."
+ask: What happens to my insulin while I can't eat?
+key: Which insulin do you take, what doses and when? | Biphasic insulin twice daily
+key: What is your recent HbA1c and how often do you have hypos? | Control and risk
+key: How many meals will you miss, and when is the operation? | Two missed meals means a VRIII
+key: Check his weight and U&Es to prescribe maintenance fluids | 25 to 30 mL/kg/day water, 1 mmol/kg/day sodium, potassium and chloride, 50 to 100 g glucose
+key: Prescribe the VRIII on the insulin chart: 50 units soluble human insulin in 50 mL 0.9% saline, rate by the local sliding scale, hourly capillary glucose | JBDS standard
+key: Prescribe the substrate fluid: 0.45% saline with 5% glucose and potassium chloride 0.15% at the rate for his weight, around 83 mL/hour for 75 kg | Prevents hypoglycaemia and hypokalaemia
+rf: Never stop insulin completely in type 1 diabetes | DKA within hours
+rf: Check ketones if glucose is above 12 | Early DKA
+sum: So you have type 1 diabetes on NovoMix 30, 30 units in the morning and 10 at night, with good control, and you'll miss breakfast and lunch for your operation. Is that right?
+pres: Mr Evans is a 45-year-old man with type 1 diabetes on twice-daily NovoMix 30, HbA1c 54 and good hypo awareness, for a morning laparoscopic cholecystectomy missing 2 meals. He needs a variable-rate intravenous insulin infusion with substrate fluid, per JBDS guidance, until he is eating and drinking.
+ddx: Peri-operative VRIII is needed, because he has type 1 diabetes and will miss more than one meal | Hypoglycaemia risk from residual biphasic insulin, managed by omitting the morning dose and hourly monitoring | DKA if insulin is stopped, prevented by never leaving him without insulin and checking ketones
+ix: Capillary glucose hourly and ketones if glucose above 12; U&Es before and daily on IV fluids; weight
+mx: Night before: usual evening NovoMix dose; day of surgery: omit the morning NovoMix, start VRIII from 7am with 0.45% saline, 5% glucose and 0.15% KCl at about 83 mL/hour; adjust insulin rate by capillary glucose; restart NovoMix with the first meal, stopping the VRIII 30 to 60 minutes after the subcutaneous dose; diabetes team input
+tell: You'll have your usual evening insulin the night before, then skip the morning pen. We'll give insulin and a sugar drip through your arm, checking your sugar every hour so it stays steady. You'll never be without insulin. Once you're eating again, you'll restart your pen with a meal and we'll stop the drip.
+
+=== PP49 A
+who: Dave Morris, 58, taxi driver
+act: Heavy-set, tired, yawning; grumbles about missed fares. Nervous of needles: flinch when the finger-prick is mentioned. Asks lots of questions after the diagnosis.
+open: I'm tired all the time, doc. And I'm up and down to the toilet constantly.
+story: I'm shattered, even though I'm sleeping. The last few weeks I've been weeing so much I've missed fares. I'm always thirsty.
+hpc: Fatigue: Months, constant, despite sleeping well
+hpc: Urine: Passing urine much more for a few weeks; up at night twice
+hpc: Thirst: Very thirsty; drinks lots of Coca-Cola
+hpc: Vision: Slightly blurred lately
+hpc: Itch: Itching, especially in the groin
+hpc: Weight: Stable, maybe slightly down
+yes: Thirst; polyuria; nocturia; blurred vision; itching
+no: Weight loss over 5 kg; vomiting; abdominal pain; chest pain; numbness in feet; foot ulcers; low mood; snoring with daytime sleepiness
+pmh: High blood pressure
+dh: Amlodipine 5 mg
+all: None
+fh: Father, a "big guy", died of a heart attack at 56
+sh: Smokes 10 a day for 40 years; 16 units on Fridays, avoids alcohol otherwise as he drives; poor diet, fast food, snacks while driving, lots of Coca-Cola; little exercise; lives with wife
+ice: Getting old | Dying young like his dad, and losing his licence | To feel less tired
+cue: When his dad comes up: "Dad was 56. I'm 58. I think about that."
+ask: What problems will this give me? Will I die from it? Is it curable? Will it affect my work?
+key: How long have you been tired, and how is your sleep? | Fatigue screen
+key: Are you passing more urine or drinking more than usual? | Osmotic symptoms
+key: Any blurred vision, itching, thrush or slow-healing cuts? | Hyperglycaemia features
+key: Any weight loss, vomiting or tummy pain? | Type 1 or DKA red flags
+key: Any numbness or tingling in your feet? | Neuropathy
+key: Tell me about your diet, exercise, smoking and alcohol | Lifestyle and cardiovascular risk
+rf: Vomiting, abdominal pain, drowsiness or rapid weight loss | DKA or HHS needs same-day admission
+rf: Chest pain or breathlessness on exertion | Cardiovascular disease given risk factors
+sum: So you've been tired for months, passing lots of urine and very thirsty for a few weeks, with blurred vision and itching. Your diet is heavy on fast food and Coke, you smoke, and your dad died of a heart attack at 56. Is that right?
+pres: Dave Morris is a 58-year-old taxi driver with months of fatigue and weeks of polyuria, polydipsia, blurred vision and pruritus. He has hypertension, smokes 10 a day, has a sedentary lifestyle with a high-sugar diet, and a father who died of an MI at 56. Importantly, there is no vomiting, abdominal pain or rapid weight loss. A capillary glucose today is high.
+ddx: Type 2 diabetes, because of osmotic symptoms with risk factors of central obesity, inactivity and hypertension | Other causes of fatigue such as hypothyroidism, anaemia or obstructive sleep apnoea, told apart by TFTs, FBC and an Epworth score | Hyperosmolar or ketotic crisis, excluded by the absence of vomiting and drowsiness and by checking ketones
+ix: Capillary glucose and ketones; urine dip for glucose, ketones and protein; HbA1c, 48 or more confirms; fasting lipids, U&Es and eGFR, LFTs, TFTs, FBC; urine ACR; BMI, BP; ECG
+mx: Structured education such as DESMOND; diet, weight loss, exercise and smoking cessation; metformin, titrated up to reduce GI side effects; add an SGLT2 inhibitor given high cardiovascular risk; statin per QRISK3; retinal screening and foot checks; DVLA: tell them only if on insulin or certain tablets; taxi licensing authority rules apply
+tell: Your tests show type 2 diabetes, where your body can't use sugar properly. It can't be cured, but it can be controlled very well, and some people put it into remission by losing weight. We'll start a tablet called metformin and book you on a course. Good control protects your eyes, kidneys, feet and heart. You can keep working; I'll explain the driving rules.
+
+=== PP50 A
+who: Jo Talbot, 22, trainee solicitor
+act: Bright, organised, has googled type 1 diabetes; you list questions from your phone. Thin, a bit tired. Worried but practical.
+open: I've come back for my results. The other doctor mentioned type 1 diabetes.
+story: I've been increasingly tired for a couple of months. Mum noticed I'm going to the toilet constantly, about 10 times a day. I thought it was the new job or anaemia.
+hpc: Fatigue: 2 months, increasing
+hpc: Urine: About 10 times a day; up 3 to 4 times at night
+hpc: Thirst: Drinking lots of tea at work, always thirsty
+hpc: Weight: Lost a bit since starting the new job, thought it was stress
+hpc: Nausea: Occasional, no vomiting or abdominal pain
+hpc: Results: Random glucose 22, ketones 1.2, HbA1c 88
+yes: Thirst; polyuria; nocturia; weight loss; nausea at times
+no: Vomiting; abdominal pain; breathlessness; drowsiness; fainting; vision problems
+pmh: Nothing
+dh: Iron supplements bought over the counter
+all: None
+fh: Aunt has thyroid problems; grandmother has arthritis
+sh: Lives with parents; new job at a law firm, long hours; used to play rugby; goes to the gym; 8 units a week; drives
+ice: Overwork or anaemia | Complications: blindness, amputations | To understand type 1, treatment and whether she can drive
+cue: "I've read people go blind. Is that going to happen to me?"
+ask: What is type 1 diabetes? What's the treatment? Complications? Follow-up? Can I keep driving?
+key: Find out what she already knows about type 1 diabetes | Starts where she is
+key: Check for DKA features: vomiting, abdominal pain, breathlessness, drowsiness | Ketones 1.2 needs same-day action
+key: Explain type 1: the immune system has damaged the cells in the pancreas that make insulin, so insulin must be replaced | Plain words
+key: Treatment: basal-bolus insulin injections, glucose monitoring and carbohydrate counting, with DAFNE education | Treatment
+key: Complications: good control greatly reduces risks to eyes, kidneys, nerves and heart | Honest and hopeful
+key: Driving: tell the DVLA when on insulin, check glucose before driving and every 2 hours, above 5 to drive | Practical safety
+rf: Vomiting, abdominal pain, fast breathing or drowsiness | DKA: hospital now
+rf: Ketones above 3 or rising | DKA
+sum: So you've had two months of tiredness, thirst and passing lots of urine, with some weight loss, and your glucose and HbA1c are very high with some ketones. You want to know what type 1 is and whether you can drive. Is that right?
+pres: Jo Talbot is a 22-year-old woman with 2 months of fatigue, polyuria, polydipsia and weight loss, with a random glucose of 22, HbA1c of 88 and blood ketones of 1.2, without vomiting or features of DKA. This is new type 1 diabetes, and she needs same-day referral to the diabetes team to start insulin.
+ddx: Type 1 diabetes, because of a young age, weight loss, osmotic symptoms and ketones | Type 2 or MODY, told apart by autoantibodies, C-peptide and family history | Early DKA, excluded by her being well with ketones below 1.5 but she must be seen today
+ix: Venous gas, U&Es, glucose and ketones today; GAD and IA-2 antibodies; C-peptide; TFTs and coeliac serology as associated autoimmunity; lipids; urine ACR
+mx: Same-day referral to the diabetes team to start basal-bolus insulin; DAFNE structured education; hypo management; sick-day rules; DVLA notification; annual review of eyes, feet and kidneys; support with her new job
+tell: Type 1 diabetes means your pancreas has stopped making insulin, so we need to replace it with injections. It's not caused by anything you did. The diabetes team will see you today to start insulin and teach you how to adjust it. With good control, most people avoid serious complications. You can still drive, but you'll need to tell the DVLA and check your sugar before driving.
+
+=== PP51 A
+who: Colin Hughes, 65, retired factory worker
+act: Rubs his feet together under the chair; patient and quiet. Doesn't interrupt when told the diagnosis, but admits he knows nothing about diabetes.
+open: I've been getting these tingling pains in my feet and legs.
+story: It started in my feet a few months ago and it's spreading up my legs. Like electric shocks. My feet feel numb sometimes.
+hpc: Site: Both feet and toes, spreading up both legs symmetrically
+hpc: Onset: A few months ago, gradually worse
+hpc: Character: Tingling, burning, electric shocks; numb patches
+hpc: Timing: Lasts for hours; worse at night
+hpc: Severity: 4 out of 10
+hpc: Relief: Nothing helps
+hpc: Urine: ONLY IF ASKED: passing urine more often, thirsty
+yes: Numbness; worse at night; tiredness; urinary frequency and thirst if asked
+no: Weakness; falls; back pain; bladder or bowel incontinence; foot ulcers; alcohol excess; B12 deficiency known; chemotherapy
+pmh: Cataracts; high blood pressure
+dh: Amlodipine 5 mg
+all: None
+fh: Father and grandmother had diabetes
+sh: Smokes 10 a day for 40 years; no alcohol; lives with wife
+ice: Bad circulation | Losing his feet | To get rid of the tingling
+cue: "My dad had a toe off in the end."
+ask: What can I do to get rid of the tingling pains?
+key: Where exactly is it, both sides, and has it spread? | Glove and stocking distribution
+key: What does it feel like and when is it worse? | Neuropathic pain
+key: Any weakness, falls, back pain or bladder problems? | Exclude cord or root pathology
+key: Are you passing more urine or thirsty? | Undiagnosed diabetes
+key: How much alcohol do you drink, and how is your diet? | Alcohol and B12
+key: Any foot sores, cuts you didn't feel, or colour change? | Diabetic foot risk
+rf: Back pain with leg weakness or bladder change | Cauda equina or cord compression
+rf: A foot ulcer, a red hot swollen foot | Diabetic foot emergency
+sum: So for a few months you've had tingling and burning in both feet spreading up your legs, worse at night, and you've been thirsty and passing more urine. Your dad had diabetes. Is that right?
+pres: Colin Hughes is a 65-year-old man with a few months of symmetrical burning and tingling in both feet ascending the legs, worse at night, with numbness, and on questioning, polyuria and polydipsia. He has a family history of diabetes and smokes 10 a day. Importantly, there is no weakness, back pain or sphincter disturbance.
+ddx: Diabetic peripheral neuropathy from undiagnosed type 2 diabetes, because of a symmetrical length-dependent sensory neuropathy with osmotic symptoms and a family history | B12 deficiency, hypothyroidism or alcohol-related neuropathy, told apart by bloods and history | Spinal cord or root compression, excluded by the absence of weakness, back pain and sphincter symptoms
+ix: Capillary glucose and HbA1c; B12, folate, TFTs, U&Es, LFTs, FBC; urine ACR; foot examination with monofilament and vibration sense; retinal screening
+mx: Start diabetes management and education; neuropathic pain: amitriptyline, duloxetine, gabapentin or pregabalin per NICE; foot protection and podiatry; smoking cessation; annual foot checks
+tell: I think the tingling is caused by diabetes, where high sugar levels damage the small nerves in the feet. We'll confirm it with a blood test. Getting your sugar down helps stop it worsening, and there are tablets for nerve pain. Check your feet every day for cuts, and wear well-fitting shoes. If you get a sore, red or swollen foot, see us that day.
+
+=== PP55 A
+who: Karen Pearce, 45, office manager
+act: Lying still with eyes shut against the light, one hand on the back of your neck; vomit bowl nearby. Speak slowly; wince if asked to move your head.
+open: I've got the worst headache of my life. It came on at the gym like I'd been hit with a bat.
+story: Three hours ago I was lifting weights and suddenly got this massive pain in the back of my head. It was at its worst within seconds. I've been sick and my neck is stiff. The lights hurt.
+hpc: Onset: Sudden, at the gym, peak within seconds, 3 hours ago
+hpc: Character: Like being hit with a bat; worst ever
+hpc: Site: Occipital, spreading down the neck
+hpc: Severity: 10 out of 10
+hpc: Associated: Vomited twice; neck stiff; light hurts
+hpc: Previous headaches: Never like this
+yes: Vomiting; neck stiffness; photophobia
+no: Fever; rash; loss of consciousness; seizure; weakness; speech problems; visual loss; head injury; anticoagulants
+pmh: High blood pressure
+dh: Ramipril 5 mg
+all: None
+fh: Mother had a "brain bleed" at 50
+sh: Smokes 15 a day; 10 units a week; office manager
+ice: A migraine | A bleed like her mum | Something for the pain and to know what it is
+cue: Whispering: "Mum had a brain bleed. She was 50."
+ask: Is it a bleed?
+key: How quickly did it come on: was it at its worst within seconds or minutes? | Thunderclap headache
+key: What were you doing when it started? | Exertion
+key: Any vomiting, neck stiffness or light sensitivity? | Meningism
+key: Any loss of consciousness, fits, weakness or speech problems? | Severity and focal deficit
+key: Any fever or rash? | Meningitis
+key: Any family history of brain bleeds, kidney cysts, or are you on blood thinners? | Aneurysm risk
+rf: Thunderclap headache reaching peak within a minute | SAH until proven otherwise
+rf: Reduced consciousness or focal neurology | Neurosurgical emergency
+sum: So three hours ago at the gym you had a sudden worst-ever headache at the back of your head that peaked in seconds, with vomiting, a stiff neck and light sensitivity. Your mum had a brain bleed. Is that right?
+pres: Karen Pearce is a 45-year-old woman with a thunderclap occipital headache during exertion 3 hours ago, peaking within seconds, with vomiting, neck stiffness and photophobia. She smokes, has hypertension and her mother had an intracranial haemorrhage at 50. Importantly, there is no fever, rash, loss of consciousness or focal deficit.
+ddx: Subarachnoid haemorrhage, because of a thunderclap exertional headache with meningism and risk factors | Meningitis, told apart by fever, rash and a more gradual onset | Other thunderclap causes such as reversible cerebral vasoconstriction or arterial dissection, assessed with CT angiography if CT and LP are normal
+ix: Observations and GCS; neurological examination; non-contrast CT head now, within 6 hours of onset; if normal and done within 6 hours, SAH is effectively excluded; FBC, U&Es, clotting, glucose, group and save; ECG; CT angiography if SAH confirmed
+mx: Analgesia and antiemetic; senior review; if confirmed: neurosurgery referral, nimodipine, blood pressure control, aneurysm coiling or clipping; monitor sodium; keep her nil by mouth until reviewed
+tell: A sudden headache like this needs an urgent scan to check for bleeding around the brain. We'll do a CT now and give you pain relief and something for the sickness. If there is a bleed, the brain surgery team can treat it. Please tell us at once if you feel drowsy or your arms or legs feel weak.
+
+=== PP55 B
+who: Callum Reid, 19, university student
+act: Hot, flushed, curled up away from the light; moans when you move your neck. Answers slowly. Pull up your trouser leg to show the rash only if asked about rashes.
+open: My head is killing me and I feel really ill.
+story: The headache started yesterday and keeps getting worse. I've got a temperature, my neck hurts to bend and light hurts my eyes. I've been sick.
+hpc: Onset: Yesterday, gradually worse
+hpc: Site: All over
+hpc: Fever: Hot and shivery
+hpc: Neck: Painful to bend forward
+hpc: Light: Hurts the eyes
+hpc: Rash: ONLY IF ASKED: a blotchy purple rash on the legs this morning that doesn't fade under a glass
+yes: Fever; neck stiffness; photophobia; vomiting; rash if asked; drowsy
+no: Head injury; seizures; weakness; travel; recent ear or sinus infection; immunosuppression; drug use
+pmh: Nothing; vaccinations as a child, not sure about MenACWY
+dh: None
+all: None
+fh: Nothing relevant
+sh: Lives in halls; 20 units a week; non-smoker
+ice: A hangover or flu | Meningitis, which went round halls last year | To feel better
+cue: "Someone in halls had meningitis last year."
+ask: Is it meningitis?
+key: When did the headache start and how quickly did it get worse? | Subacute onset
+key: Do you have a fever, neck stiffness or does light hurt your eyes? | Meningism
+key: Have you noticed any rash anywhere? | Non-blanching rash means meningococcal sepsis
+key: Any vomiting, drowsiness or confusion? | Severity
+key: Any seizures, weakness or recent head injury? | Contraindications to LP and differentials
+key: Have you had the meningitis vaccine, and any close contacts unwell? | Prophylaxis for contacts
+rf: A non-blanching rash with fever | Meningococcal sepsis: antibiotics immediately
+rf: Reduced consciousness or seizures | Raised intracranial pressure
+sum: So since yesterday you've had a worsening headache with fever, a stiff neck, light sensitivity and vomiting, and this morning a purple rash on your legs. Is that right?
+pres: Callum Reid is a 19-year-old student with 24 hours of worsening headache, fever, neck stiffness, photophobia and vomiting, with a non-blanching purpuric rash on his legs this morning. He lives in halls. These features suggest bacterial meningitis with meningococcal septicaemia, a medical emergency.
+ddx: Meningococcal meningitis with septicaemia, because of fever, meningism and a non-blanching rash | Viral meningitis, told apart by a less unwell patient without a rash and CSF findings | Subarachnoid haemorrhage or encephalitis, excluded by the gradual febrile onset and normal consciousness, with CT if needed
+ix: A to E; blood cultures and meningococcal PCR before antibiotics but without delay; FBC, CRP, U&Es, clotting, glucose, lactate; LP once stable if no contraindications; CT head first only if reduced GCS, focal signs or seizures
+mx: Immediate IV ceftriaxone 2 g; senior and critical care review; fluids for shock; consider dexamethasone for suspected bacterial meningitis per local guidance; notify the health protection team; prophylaxis for close contacts; isolation
+tell: I'm very worried this is meningitis with blood poisoning, which is serious but treatable if we act fast. We're giving you strong antibiotics right now and calling the senior team. People you live with will be offered antibiotics to protect them.
+
+=== PP55 C
+who: Maureen Clegg, 72, retired cook
+act: Rubs her right temple; winces when touching her hair. Stiff getting up from the chair. Covers her right eye when describing the blurring.
+open: I've had this headache on the right side of my head for two weeks. It's not like me.
+story: It's over my right temple. It hurts to brush my hair. My jaw aches when I chew, and yesterday the vision in my right eye went blurry for a few minutes.
+hpc: Site: Right temple
+hpc: Duration: 2 weeks, new
+hpc: Scalp: Tender to brush hair
+hpc: Jaw: Aches when chewing, eases when she stops
+hpc: Vision: Blurred right eye for a few minutes yesterday, now back to normal
+hpc: Morning stiffness: Shoulders and hips stiff in the mornings for a month
+yes: Scalp tenderness; jaw claudication; transient visual blurring; morning shoulder stiffness; tired; poor appetite
+no: Fever; rash; head injury; vomiting; weakness; double vision now; previous headaches
+pmh: Osteoporosis; high blood pressure
+dh: Alendronic acid weekly; amlodipine 5 mg
+all: None
+fh: Nothing relevant
+sh: Non-smoker; 2 units a week; lives alone
+ice: Old age | Going blind | To be checked
+cue: "I can't lose my sight. I live on my own."
+ask: Will I go blind?
+key: Is this a new headache, and where is it? | New headache over 50
+key: Is your scalp tender, for example when brushing your hair? | Scalp tenderness
+key: Does your jaw ache when you chew? | Jaw claudication is highly specific
+key: Any changes in your vision: blurring, double vision or loss? | Ischaemic optic neuropathy
+key: Any stiffness of your shoulders and hips in the mornings? | Polymyalgia rheumatica
+key: Any fever, weight loss or night sweats? | Systemic features
+rf: Any visual loss or double vision | Ophthalmology emergency: steroids now
+rf: New headache over 50 with jaw claudication | GCA until proven otherwise
+sum: So for two weeks you've had a new right temple headache, your scalp is tender, your jaw aches when chewing, your right eye blurred yesterday, and your shoulders are stiff in the mornings. Is that right?
+pres: Maureen Clegg is a 72-year-old woman with a 2-week new right temporal headache, scalp tenderness, jaw claudication, a transient episode of right visual blurring and morning shoulder girdle stiffness. These features are highly suggestive of giant cell arteritis with visual symptoms, a medical emergency.
+ddx: Giant cell arteritis, because of a new temporal headache over 50 with scalp tenderness, jaw claudication and visual disturbance | Polymyalgia rheumatica alone, told apart by the absence of cranial symptoms | Other causes of visual loss such as TIA or retinal artery occlusion, and intracranial pathology, assessed by examination and imaging
+ix: ESR and CRP, FBC, LFTs, U&Es, glucose; temporal artery tenderness and pulse; fundoscopy and visual acuity; urgent temporal artery ultrasound or biopsy within 1 to 2 weeks of starting steroids
+mx: Start high-dose steroids immediately without waiting for results: with visual symptoms, same-day ophthalmology and IV methylprednisolone or prednisolone 60 mg; bone protection, she is already on alendronic acid; PPI; urgent rheumatology referral; long-term steroid taper
+tell: I think this is giant cell arteritis, an inflammation of the blood vessels in the head. It can affect your sight, so we need to start steroid tablets today, before the tests come back. The eye team will see you today too. If your vision changes, come straight in.
+
+=== PP55 D
+who: Elizabeth Hodgkins, 56, receptionist
+act: Drowsy and slow, holding the back of your neck; unsteady when shifting. Anxious about the needle and asks practical questions.
+open: I woke with the worst headache of my life. They said the scan is clear but they want to do a needle in my back.
+story: I woke this morning with this terrible pain at the back of my head going down my neck. I couldn't keep my balance walking and I've been sick twice. They did a CT scan and it was normal, but they still want to check.
+hpc: Onset: On waking this morning; worst of her life; she's not sure how quickly it peaked
+hpc: Site: Occipital, spreading down the neck
+hpc: Neck: Hard to move
+hpc: Balance: Couldn't keep her balance walking
+hpc: Vomiting: Twice
+hpc: CT: Non-contrast CT more than 6 hours after onset, normal
+yes: Drowsy, "not quite right"; unsteady; vomiting; neck stiffness
+no: Photophobia; visual change; fever; seizures; head injury; previous headaches
+pmh: Atrial fibrillation
+dh: Warfarin, INR 3 last week
+all: None
+fh: Nothing relevant
+sh: Doesn't smoke or drink; receptionist
+ice: A brain tumour | A tumour, and the needle | To know the risks: is it painful, will I be awake, do I have to stay in?
+cue: "Are there any risks? Is it painful?"
+ask: Are there any risks? Is it painful? Will I be awake? Do I have to stay in hospital?
+key: Find out what she understands about why the scan isn't the end of the story | A CT after 6 hours can miss a small bleed
+key: Explain LP: a thin needle into the lower back, under local anaesthetic, awake, curled up on her side, to take a little spinal fluid | Procedure
+key: Why: to look for traces of blood breakdown, xanthochromia, at least 12 hours after the headache started | Rationale
+key: Risks: headache afterwards, back pain, bleeding, infection, rarely nerve irritation | Material risks
+key: Warfarin: her INR must be checked and corrected before the needle because of bleeding risk | Safety
+key: Afterwards: lie flat if headache, fluids, simple analgesia; usually able to go home the same day if results are normal | Practicalities
+rf: Drowsiness and ataxia | Re-examine; a posterior fossa bleed or stroke on warfarin needs urgent reassessment and possibly MRI
+rf: Anticoagulated with INR 3 | LP contraindicated until corrected
+sum: So you woke with the worst headache of your life, at the back of your head, with vomiting, a stiff neck and unsteadiness; the CT was normal, and you're on warfarin. You'd like to know about the risks of the needle test. Is that right?
+pres: Elizabeth Hodgkins is a 56-year-old woman on warfarin for AF with a sudden severe occipital headache on waking, neck stiffness, vomiting, drowsiness and ataxia. Her CT head more than 6 hours after onset was normal. Per NICE, she needs an LP at least 12 hours after onset for xanthochromia, after reversal of anticoagulation, with neurology input. I have explained the procedure, benefits and risks.
+ddx: Subarachnoid haemorrhage not seen on a delayed CT, because of a thunderclap headache with meningism | Posterior circulation stroke or cerebellar haemorrhage on warfarin, given drowsiness and ataxia, told apart by repeat imaging including MRI or CT angiography | Meningitis, excluded by CSF analysis and the absence of fever
+ix: INR, FBC, clotting; LP at least 12 hours after onset: opening pressure, cell count, protein, glucose with paired serum glucose, xanthochromia; CT angiography if xanthochromia positive or clinical concern
+mx: Discuss warfarin reversal with haematology and the senior, weighing her AF stroke risk; analgesia, antiemetic; neuro observations; neurosurgical referral if SAH confirmed; reassess drowsiness and ataxia urgently
+tell: The scan was normal, but a small bleed can hide on a scan done later in the day, so we'd like to test the fluid around the spine. You'll be awake, lying on your side, with numbing medicine, and it takes about 20 minutes. Some people get a headache afterwards. Because you take warfarin, we'll check your blood and may need to reverse it first. Most people go home the same day if it's normal.
+
+=== PP56 A
+who: Harold, 80, Mabel's husband
+act: Worried and a bit breathless himself from COPD; holding Mabel's handbag. Answer clearly; you know her well. Mabel is sleepy in the bed beside you.
+open: She's not herself at all, doctor. She doesn't even know who I am.
+story: She's been poorly for a few days, feverish, headache, under the weather, we thought it was flu. Today she was confused and sleepy, and in the ambulance she had a fit.
+hpc: Onset: Unwell for 3 days; confused since this morning
+hpc: Fever: Hot and sweaty for 3 days
+hpc: Headache: Complained of a headache for 3 days
+hpc: Behaviour: Talking nonsense, didn't recognise him, sleepy, responds to voice
+hpc: Seizure: Tonic-clonic seizure in the ambulance
+hpc: Baseline: Normally sharp, does crosswords, carers help with meals and dressing for her arthritis
+yes: Fever; headache; confusion; drowsiness; seizure; odd behaviour
+no: Neck stiffness noticed; rash; vision changes; cancer; travel; animal bites; new medicines; falls or head injury; urinary symptoms; cough
+pmh: High blood pressure; hypothyroidism, stable
+dh: Amlodipine 5 mg; levothyroxine 75 micrograms; nothing new
+all: None
+fh: Nothing relevant
+sh: Non-smoker; non-drinker; no drugs; lives with Harold, who has COPD; carers twice daily
+ice: Flu or an infection | That she's dying, and he can't cope alone | To know what's wrong and get her back
+cue: Voice cracking: "Fifty-six years married. She's always the one who looks after me."
+ask: What's wrong with her? Will she get better?
+key: What is she normally like: memory, mobility, daily activities? | Baseline
+key: When did the confusion start and how has it changed? | Acute onset
+key: Any fever, headache, neck stiffness, rash or sensitivity to light? | CNS infection
+key: Tell me about the fit: what did it look like and how long? | Seizure in encephalitis
+key: Any falls, head injury, new medicines, alcohol or drugs? | Other causes of confusion
+key: Any recent cough, urine symptoms, travel or animal bites? | Source of infection
+rf: Fever with confusion and a seizure | Encephalitis: IV aciclovir without delay
+rf: Reduced consciousness | Airway and GCS monitoring
+sum: So Mabel has been feverish with a headache for three days, became confused and sleepy this morning, didn't recognise you, and had a fit in the ambulance. Normally she's sharp. Is that right?
+pres: This is a collateral history from Harold about his wife Mabel, 78, who has 3 days of fever, headache and malaise, then acute confusion with drowsiness today and a tonic-clonic seizure in the ambulance, from a baseline of normal cognition. Importantly, there is no neck stiffness, rash, head injury, new medicines or focal infective source.
+ddx: Herpes simplex encephalitis, because of fever, headache, acute confusion and a seizure in an older adult | Bacterial meningitis or delirium from sepsis, told apart by meningism, CSF and a septic screen | Stroke, subdural haematoma or non-convulsive status, excluded with CT and EEG; and metabolic causes with bloods
+ix: A to E, GCS, glucose; FBC, CRP, U&Es, LFTs, calcium, TFTs, blood cultures; urine culture; CXR; CT head then LP with CSF HSV PCR; MRI brain; EEG
+mx: Start IV aciclovir 10 mg/kg three times daily immediately on suspicion, adjusted for renal function, with IV antibiotics until bacterial meningitis is excluded; treat seizures; senior and neurology input; support for Harold and social care
+tell: I'm worried Mabel has an infection of the brain itself, called encephalitis, often caused by the cold sore virus. We're starting an antiviral medicine straight away, along with antibiotics, and we'll do a brain scan and a test of the fluid around the spine. It's serious, but treatment works best started early, and we've started now. We'll also make sure you have support at home.
+
+=== PP56 B
+who: Sue Hartley, 58, wife of Martin, 60
+act: Tired and protective; proud of Martin's 6 months sober. Slightly defensive when alcohol comes up, then honest.
+open: Martin's been a bit muddled and not himself. He's sleeping all day and up all night.
+story: Over the last week he's got slower and confused, irritable, low. He sleeps in the day and is awake at night. He's been sober six months after 15 years of drinking a bottle of vodka a day.
+hpc: Confusion: Mild, a week, slower thinking
+hpc: Sleep: Reversed sleep-wake cycle
+hpc: Mood: Low, irritable
+hpc: Bowels: ONLY IF ASKED: constipated for a week
+hpc: Alcohol: Sober 6 months
+yes: Constipation if asked; irritability; tremor of the hands, flapping
+no: Fever; vomiting blood; black stools; abdominal swelling she's noticed; jaundice she's noticed; falls; head injury; new medicines; relapse to drinking
+pmh: Alcohol dependence, sober 6 months; liver cirrhosis; high blood pressure; high cholesterol; depression
+dh: Ramipril; simvastatin; colestyramine
+all: None
+fh: Nothing relevant
+sh: Lives with Sue; independent; mobile
+ice: Depression coming back | That he's drinking again, or his liver | To get him right
+cue: Firmly: "He hasn't touched a drop. I'd know."
+ask: Is it his liver?
+key: What is he normally like, and when did this change? | Baseline and tempo
+key: Has his sleep pattern changed? | Reversal is an early sign of hepatic encephalopathy
+key: Any constipation, bleeding, vomiting blood or black stools? | Precipitants
+key: Any fever, cough or urinary symptoms? | Infection precipitating encephalopathy
+key: Any new medicines, sedatives or has he been drinking again? | Precipitants
+key: Any falls or head injury? | Subdural haematoma in cirrhosis
+rf: Black stools or vomiting blood | GI bleed precipitating encephalopathy
+rf: Fever or abdominal pain with swelling | Spontaneous bacterial peritonitis
+sum: So over a week Martin has become slower, muddled and irritable, sleeping in the day and awake at night, he's been constipated, and he's been sober for six months with known cirrhosis. Is that right?
+pres: This is a collateral history from Sue about her husband Martin, 60, who has alcohol-related cirrhosis and has been abstinent for 6 months. He has a week of mild confusion, slowed thinking, irritability and sleep-wake reversal, with constipation. Importantly, there is no reported bleeding, fever, head injury or relapse.
+ddx: Hepatic encephalopathy precipitated by constipation, because of confusion with sleep-wake reversal in known cirrhosis | Depression or Wernicke's encephalopathy, told apart by asterixis, ammonia and response to treatment | Occult GI bleed, SBP or subdural haematoma, excluded by FBC, ascitic tap and CT head
+ix: Examination for asterixis, ascites, jaundice; FBC, U&Es, LFTs, clotting, glucose, CRP, ammonia; blood and urine cultures; diagnostic ascitic tap if ascites; CT head if falls or focal signs
+mx: Treat the precipitant; lactulose titrated to 2 to 3 soft stools a day; rifaximin for recurrence; avoid sedatives; review colestyramine; nutrition; hepatology follow-up
+tell: Because his liver is scarred, toxins from the gut can build up and affect his brain, especially when he's constipated. It's very treatable: a laxative called lactulose clears them out, and we'll look for any other trigger. This doesn't mean he's been drinking. If he becomes very drowsy, bleeds or gets a fever, bring him straight in.
+
+=== PP56 C
+who: Harold, 80, husband of Mabel, 78
+act: Calm, observant; Mabel is in the next bed batting at things in the air. You want her home.
+open: She woke up this morning confused, not like her usual self at all. She's seeing things.
+story: She has mild memory problems normally, but this morning she didn't know where she was or who I was. She's been batting things away in the air. For a few days she's had tummy pain and her wee smells strong.
+hpc: Onset: This morning, sudden
+hpc: Baseline: Mild cognitive impairment; normally knows him, chats, uses a walking frame
+hpc: Behaviour: Disorientated to time, place and person; visual hallucinations; agitated
+hpc: Urine: Strong-smelling, going more often; lower tummy pain for a few days
+hpc: Fever: Felt hot and shivery
+yes: Fever; urinary frequency; smelly urine; lower abdominal pain; hallucinations; agitation
+no: Falls; head injury; new medicines; alcohol recently; cough; diarrhoea; constipation known; weakness
+pmh: Hypertension; asthma; mild cognitive impairment
+dh: Amlodipine 5 mg; salbutamol when needed
+all: None
+fh: Nothing relevant
+sh: Occasional drink, none for a month; non-smoker; lives with Harold
+ice: An infection | Dementia getting worse for good | To get her home
+cue: "Is this the dementia? Is she going to stay like this?"
+ask: Is this dementia?
+key: What is she normally like, and when exactly did this start? | Acute change from baseline
+key: Does it fluctuate during the day? Is she drowsy or agitated? | Delirium features
+key: Any urinary symptoms, fever, cough, or pain? | Infection source
+key: Any constipation, pain, new medicines, or missed medicines? | PINCH ME precipitants
+key: Any falls or head injury? | Subdural
+key: How is she eating and drinking? | Dehydration
+rf: New confusion with fever | Sepsis
+rf: Falls or head injury | Subdural haematoma
+sum: So since this morning Mabel has been acutely confused and seeing things, much worse than her usual mild memory problems, and for a few days she's had lower tummy pain, smelly urine and a fever. Is that right?
+pres: This is a collateral history from Harold about Mabel, 78, with acute-onset confusion, visual hallucinations and agitation since this morning on a background of mild cognitive impairment, preceded by several days of suprapubic pain, foul-smelling urine, frequency and fever. Importantly, there are no falls, head injury or medication changes.
+ddx: Hyperactive delirium secondary to a urinary tract infection, because of acute fluctuating confusion with urinary symptoms and fever | Progression of dementia, which would be gradual rather than overnight | Sepsis from another source, a subdural haematoma, or medication effects, excluded by a septic screen, history and CT if indicated
+ix: 4AT; observations; mid-stream urine culture, not a dip in over-65s; FBC, CRP, U&Es, glucose, calcium, LFTs, TFTs, B12; blood cultures if septic; bladder scan; ECG
+mx: Treat the UTI with antibiotics per local guidance; fluids; manage reversible factors: pain, constipation, hydration, sleep; reorientation, glasses, hearing aids, family presence; avoid sedatives, using low-dose haloperidol only if distressed and unsafe; review cognition after recovery
+tell: Mabel has something called delirium: sudden confusion caused by an infection, here most likely in her water. It usually improves as the infection is treated, though it can take days to weeks. Your being with her and bringing her glasses helps a lot. Once she's better, we'll check her memory again.
+
+=== PP57 A
+who: Rachel Price, 49, daughter of Mr Price, 81
+act: Worried, organised, holding a list of his medicines. Mr Price in the bed is drowsy and fumbles with his right hand.
+open: Dad's been getting more muddled and sleepy over the last week. He had a fall three weeks ago.
+story: He fell in the garden three weeks ago and bumped his head. He seemed fine. This week he's been muddled, sleepy, complaining of headaches, and now he's unsteady and his right hand is clumsy.
+hpc: Fall: 3 weeks ago in the garden, bumped head, no loss of consciousness, no hospital visit
+hpc: Confusion: Increasing over a week, fluctuating
+hpc: Drowsiness: Sleeping much more
+hpc: Headache: Complaining of headaches
+hpc: Weakness: Unsteady on his feet; right hand clumsy for 2 days
+yes: Headache; drowsiness; confusion; right-hand clumsiness; unsteadiness
+no: Fever; urinary symptoms; seizures; vomiting; new medicines; alcohol
+pmh: Atrial fibrillation; high blood pressure
+dh: Warfarin; bisoprolol 2.5 mg; ramipril 5 mg
+all: None
+fh: Nothing relevant
+sh: Lives alone; independent until recently; ex-smoker; 6 units a week
+ice: A stroke | That he won't come back from this | To find out and get him treated
+cue: "I should have brought him in after the fall."
+ask: Is it a stroke?
+key: Tell me about the fall: when, did he hit his head, was he knocked out? | Mechanism
+key: Is he on any blood thinners? | Warfarin is a major risk for subdural haematoma
+key: How has his confusion changed: gradually, and does it fluctuate? | Chronic subdural pattern
+key: Any headache, drowsiness, vomiting or seizures? | Raised intracranial pressure
+key: Any weakness, clumsiness or speech change? | Focal signs
+key: What is he normally like? | Baseline
+rf: Falling GCS or new weakness | Expanding haematoma
+rf: Anticoagulation after head injury | CT within 8 hours even without symptoms; urgent now
+sum: So three weeks after a fall where he bumped his head, your dad's become increasingly muddled and sleepy with headaches over a week, is unsteady, and his right hand is clumsy. He takes warfarin. Is that right?
+pres: This is a collateral history from Rachel about her father, Mr Price, 81, who is anticoagulated with warfarin for AF and fell 3 weeks ago striking his head. Over the last week he has had fluctuating confusion, increasing drowsiness, headaches, unsteadiness and new right-hand clumsiness. These features suggest a left chronic subdural haematoma.
+ddx: Chronic subdural haematoma, because of subacute fluctuating confusion and focal weakness weeks after a head injury on warfarin | Ischaemic or haemorrhagic stroke, told apart by sudden onset and CT | Delirium from infection or a metabolic cause, excluded with a septic screen and bloods
+ix: GCS and neurological examination; urgent non-contrast CT head; INR, FBC, U&Es, clotting, glucose, group and save
+mx: Reverse warfarin urgently with IV vitamin K and prothrombin complex concentrate; neurosurgical referral for burr hole drainage if symptomatic; neuro observations; hold anticoagulation and discuss restarting later
+tell: I think there may be a slow bleed between the brain and skull, caused by the fall and made worse by warfarin. We're doing an urgent scan, and we'll reverse the warfarin now. If it's confirmed, the neurosurgeons can often drain it with a small operation, and many people improve a lot afterwards. You couldn't have known; these bleeds often appear weeks later.
+
+=== PP57 B
+who: Ollie, 20, James's hockey teammate
+act: Restless, sporty, still in his kit; keeps checking his phone. Worried, and blurts out that James is their best player.
+open: James got hit on the head with a hockey ball. He was fine after, but now he's not making any sense.
+story: About an hour ago a ball hit him on the side of the head. He was knocked out for a few minutes, then came round and was totally normal, joking. Now he's confused, sleepy and says his head is killing him.
+hpc: Injury: Hockey ball to the left side of the head, about an hour ago
+hpc: Loss of consciousness: About 3 minutes
+hpc: Lucid interval: Came round alert, orientated, talking normally
+hpc: Now: Confused, drowsy, severe headache
+hpc: Other: No seizure; no fluid or blood from the ears or nose; no facial bruising; no vomiting
+yes: Initial loss of consciousness; lucid interval; worsening headache; drowsiness; confusion
+no: Seizure; vomiting; CSF leak; previous head injuries; blood thinners; drink or drugs today
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Student; non-smoker; about 12 pints a week; occasional MDMA, not today; lives with housemates
+ice: Concussion | His friend getting worse | Him back for the season
+cue: "We need him for the rest of the season."
+ask: Will he be able to play again?
+key: How exactly was he hit, and where on the head? | Temporal impact over the middle meningeal artery
+key: Was he knocked out, and for how long? | Loss of consciousness
+key: What was he like when he came round? | Lucid interval
+key: How has he changed since? Drowsier, confused, headache, vomiting? | Deterioration
+key: Any fits, bleeding or clear fluid from the nose or ears? | Skull fracture signs
+key: Has he had alcohol or drugs today, and does he take any medicines? | Confounders
+rf: Deterioration after a lucid interval | Extradural haematoma: immediate CT and neurosurgery
+rf: GCS falling | Airway and neurosurgical emergency
+sum: So James was hit on the side of the head by a hockey ball, knocked out for about three minutes, then was completely normal, and now within an hour he's confused, drowsy with a bad headache. Is that right?
+pres: This is a collateral history from Ollie about his friend James, 21, who was struck on the left side of the head by a hockey ball, lost consciousness for about 3 minutes, had a lucid interval, and is now confused and drowsy with a severe headache. This pattern is highly suggestive of an extradural haematoma, a neurosurgical emergency.
+ddx: Extradural haematoma from a middle meningeal artery bleed, because of loss of consciousness, a lucid interval and then deterioration after a temporal blow | Concussion, told apart by steady improvement rather than deterioration | Acute subdural haematoma or drug intoxication, excluded with CT and history
+ix: A to E; GCS and pupils every 15 minutes; immediate non-contrast CT head; FBC, clotting, group and save
+mx: Senior and anaesthetic help; protect the airway if GCS 8 or below; urgent neurosurgical referral for craniotomy and evacuation; no return to sport until cleared by a specialist
+tell: I'm worried there's bleeding inside James's skull from the blow, which is pressing on his brain. It needs an urgent scan and most likely an operation. People often do very well if this is treated quickly. I can't say yet about the season; right now the priority is his brain.
+
+=== PP58 A
+who: Laura Bennett, 32, nursery manager
+act: Shaken and embarrassed, with a sore tongue that makes you speak carefully. Bombards you with practical questions.
+open: I had a fit at home and was in hospital overnight. They've told me to see you.
+story: My partner says I went stiff then jerked for about a minute. I bit my tongue and wet myself. I was confused and sleepy for about an hour after. I don't remember any of it.
+hpc: Before: No warning; she was watching TV
+hpc: During: Stiffened then jerked all four limbs for about a minute, eyes open, witnessed by partner
+hpc: Tongue: Bit the side of her tongue
+hpc: Continence: Wet herself
+hpc: After: Confused and sleepy for an hour, aching muscles
+hpc: Previous: Never before; no childhood febrile seizures; ONLY IF ASKED: occasional jerks of the arms in the mornings
+yes: Lateral tongue bite; incontinence; post-ictal confusion; morning arm jerks if asked
+no: Alcohol excess; drugs; sleep deprivation she noticed; head injury; fever; headache before; pregnancy; new medicines
+pmh: Nothing
+dh: Combined pill
+all: None
+fh: Cousin has epilepsy
+sh: Non-smoker; 6 units a week; nursery manager; drives to work
+ice: A one-off | Losing her licence and her job | Answers: can I drive, can I have a bath, will it happen again?
+cue: "I drive to work. How will I get there?"
+ask: Can I drive? Can I have a bath? Will it happen again?
+key: Ask the witness: what happened before, during and after? | Seizure versus syncope
+key: Any tongue biting, incontinence or confusion afterwards? | Lateral tongue biting and post-ictal confusion favour seizure
+key: Any warning, triggers like lack of sleep, alcohol or flashing lights? | Provoking factors
+key: Any previous funny turns, morning jerks or absences? | Undiagnosed epilepsy syndrome
+key: Any head injury, fever or headache? | Secondary causes
+key: Do you drive, work at heights, or care for children? | Safety
+rf: A seizure lasting over 5 minutes | Status epilepticus: 999
+rf: New focal neurology or headache | Structural cause
+sum: So you had a witnessed fit where you went stiff and jerked for a minute, bit your tongue, wet yourself and were confused for an hour, with no warning. You've had occasional morning jerks. Is that right?
+pres: Laura Bennett is a 32-year-old woman discharged after a first witnessed generalised tonic-clonic seizure lasting about a minute, with lateral tongue biting, urinary incontinence and an hour of post-ictal confusion. On questioning she has occasional morning myoclonic jerks and a cousin with epilepsy. Importantly, there were no provoking factors or features of syncope. She drives.
+ddx: A first unprovoked generalised seizure, possibly juvenile myoclonic epilepsy given morning jerks, because of tonic-clonic movements, tongue biting and post-ictal confusion | Convulsive syncope, told apart by a prodrome, brief jerks and rapid recovery | A structural or metabolic cause, excluded with MRI and bloods
+ix: Bloods already done in hospital: glucose, U&Es, calcium, magnesium; ECG; first seizure clinic within 2 weeks; EEG; MRI brain
+mx: Specialist first seizure clinic within 2 weeks; driving: stop and tell the DVLA, usually 6 months off after a first unprovoked seizure with normal investigations; safety: showers not baths, no swimming alone, care with heights and cooking; seizure first aid for family; contraception and folic acid discussion if antiseizure medication is started
+tell: This was most likely a seizure. About 4 in 10 people have another one, which is why you'll see a specialist within two weeks for a brain scan and tracing. By law you must stop driving and tell the DVLA; usually it's 6 months if tests are normal. Have showers, not baths. If a seizure lasts more than 5 minutes, someone should call 999.
+
+=== PP58 B
+who: Joan Cartwright, wife of Bill Cartwright, 66
+act: Tearful, holding Bill's hand; he is slow and a bit flat in the bed. You answer for him when he struggles.
+open: Bill had a fit this morning. He's got lung cancer. Is it because of that?
+story: This morning he went stiff and shook for a minute or two. For two weeks he's had headaches first thing and been sick in the mornings, and his left hand has been clumsy.
+hpc: Seizure: This morning, generalised shaking for 1 to 2 minutes, confused for 30 minutes after
+hpc: Headaches: 2 weeks, worse in the mornings and on bending and coughing
+hpc: Vomiting: Morning vomiting for a week
+hpc: Left hand: Clumsy, dropping cups
+hpc: Cancer: Non-small cell lung cancer, under oncology, last scan 3 months ago
+yes: Morning headache; vomiting; left hand weakness; tiredness; weight loss
+no: Fever; head injury; alcohol; vision loss; incontinence of bowels; neck stiffness
+pmh: Lung cancer, diagnosed 6 months ago, on chemotherapy; COPD
+dh: Chemotherapy; inhalers; no anticoagulants
+all: None
+fh: Nothing relevant
+sh: Ex-smoker; lives with Joan; drives
+ice: The cancer has spread | Losing him | Honesty about what this means
+cue: "Has it gone to his brain?"
+ask: Has it spread to his brain?
+key: Describe the seizure: what happened, how long, and afterwards? | Seizure characterisation
+key: Headaches: when are they worse, any vomiting? | Raised intracranial pressure
+key: Any weakness, clumsiness, speech or vision change? | Focal deficit
+key: Tell me about his cancer and treatment | Metastatic risk
+key: Any fever or neck stiffness? | Infection in immunosuppression
+rf: Morning headache with vomiting and focal weakness | Raised ICP from metastases
+rf: Seizure over 5 minutes or recurrent | Status epilepticus
+sum: So Bill had a fit this morning, and for two weeks he's had morning headaches, vomiting and a clumsy left hand, on a background of lung cancer. Is that right?
+pres: This is a collateral history from Joan about Bill, 66, with known lung cancer, who had a first generalised seizure this morning after 2 weeks of morning headaches, vomiting and left-hand clumsiness. These features suggest brain metastases with raised intracranial pressure.
+ddx: Brain metastases from lung cancer causing a seizure and raised ICP, because of new focal deficit, morning headaches and vomiting | Primary brain tumour, told apart by imaging and histology | Infection, haemorrhage or metabolic causes such as hyponatraemia or hypercalcaemia, excluded with bloods and imaging
+ix: GCS and neurological examination; glucose, U&Es, sodium, calcium, LFTs, FBC; CT head then MRI brain with contrast
+mx: Dexamethasone with a PPI to reduce oedema; antiseizure medication such as levetiracetam; urgent oncology and neuro-oncology MDT; stop driving and inform the DVLA; palliative care involvement as appropriate
+tell: The fit, headaches and clumsy hand make me worried the cancer may have spread to the brain, causing swelling. We'll do a scan to find out. A steroid medicine can reduce the swelling and should help the headaches, and another medicine will prevent fits. The cancer team will talk with you about what this means and the options.
+
+=== PP58 C
+who: Edith Morley, 70, retired librarian
+act: Composed, articulate, quite sure it's nothing now it's passed. Speech fully normal today.
+open: Yesterday my speech went funny for about 20 minutes, but I'm completely fine now.
+story: I was reading the paper and suddenly my words came out slurred and my husband said the right side of my face drooped. It lasted about 20 minutes and went back to normal.
+hpc: Onset: Sudden, at rest, yesterday at 10am
+hpc: Symptoms: Slurred speech; right facial droop
+hpc: Duration: About 20 minutes, complete recovery
+hpc: Limbs: No arm or leg weakness she noticed
+hpc: Consciousness: Never lost; no jerking
+yes: Dysarthria; facial droop
+no: Loss of consciousness; jerking; tongue biting; incontinence; headache; visual loss; palpitations noticed; previous episodes
+pmh: High blood pressure; atrial fibrillation, not anticoagulated: she declined warfarin years ago
+dh: Amlodipine 10 mg; bisoprolol 2.5 mg
+all: None
+fh: Sister had a stroke
+sh: Ex-smoker; 4 units a week; drives
+ice: A funny turn, maybe a fit | A stroke like her sister | Reassurance
+cue: "My sister never spoke properly again after hers."
+ask: Was it a fit? Do I need blood thinners now?
+key: Exactly what happened, when, and how long did it last? | Transient focal deficit
+key: Did you lose consciousness, jerk, bite your tongue or wet yourself? | Excludes seizure
+key: Any weakness, numbness, vision loss or headache? | Vascular territory
+key: Are you fully back to normal now? | TIA versus stroke
+key: Do you have atrial fibrillation, and are you on a blood thinner? | Cardioembolic risk
+key: Do you drive? | DVLA: no driving for 1 month after a TIA
+rf: Symptoms that return or persist | Stroke: 999 and thrombolysis pathway
+rf: AF without anticoagulation | High recurrent stroke risk
+sum: So yesterday you had 20 minutes of slurred speech and a drooping right face that fully recovered, without losing consciousness or jerking, and you have AF but aren't on a blood thinner. Is that right?
+pres: Edith Morley is a 70-year-old woman with a 20-minute episode of sudden dysarthria and right facial weakness yesterday with complete resolution, and no features of a seizure. She has hypertension and atrial fibrillation and is not anticoagulated. This is a transient ischaemic attack, likely cardioembolic.
+ddx: Transient ischaemic attack, likely cardioembolic from untreated AF, because of a sudden focal deficit fully resolving within 24 hours | Focal seizure with Todd's paresis, told apart by positive symptoms, jerking and a slower recovery | Hypoglycaemia, migraine aura or a small stroke, excluded by glucose, history and MRI
+ix: Neurological examination; ECG; FBC, U&Es, glucose, lipids, clotting; MRI brain with diffusion-weighted imaging; carotid Doppler; echo
+mx: Aspirin 300 mg now unless contraindicated; referral to the TIA clinic to be seen within 24 hours; once haemorrhage is excluded, start a DOAC for AF as CHA2DS2-VASc is at least 4; statin; blood pressure control; no driving for 1 month
+tell: This sounds like a mini-stroke, where a small clot briefly blocked blood flow to part of the brain. It's a warning sign, and your irregular heartbeat is the likely source. We'll start aspirin today and you'll be seen in the specialist clinic within 24 hours, where they'll likely start a blood thinner. Please don't drive for a month. If symptoms come back, call 999 straight away.
+
+=== PP60 A
+who: Martin Gale, 52, call centre manager
+act: Leans his left ear towards you when you speak; rubs his right cheek absently. Mildly frustrated, then worried.
+open: I've been losing the hearing in my right ear, and there's a constant hissing.
+story: Over about a year the hearing on the right has gone. I use the phone on my left ear now. There's a constant hiss in that ear, and I've been a bit unsteady.
+hpc: Hearing: Gradual right-sided loss over a year
+hpc: Tinnitus: Constant hissing, right ear
+hpc: Balance: Mild unsteadiness, no spinning
+hpc: Face: ONLY IF ASKED: right cheek feels a bit numb
+hpc: Ear: No pain, discharge or fullness
+yes: Unsteadiness; right facial numbness if asked
+no: Episodic vertigo; ear fullness; discharge; ear pain; facial weakness; headache; vision change; noise exposure; ear surgery
+pmh: Nothing
+dh: None
+all: None
+fh: No family history of deafness or neurofibromatosis
+sh: Non-smoker; 8 units a week; call centre manager, uses a headset on the left
+ice: Age or earwax | A brain tumour | To find out
+cue: "My wife says I've got selective hearing."
+ask: Is it a tumour?
+key: Is the hearing loss one-sided, and gradual or sudden? | Asymmetric sensorineural loss
+key: Do you have ringing or hissing, and on which side? | Unilateral tinnitus
+key: Any spinning vertigo in attacks, or ear fullness? | Ménière's disease
+key: Any facial numbness or weakness? | Trigeminal and facial nerve involvement
+key: Any discharge, pain or previous ear surgery? | Middle ear disease
+key: Any family history of hearing loss or neurofibromatosis? | NF2
+rf: Sudden hearing loss | Same-day ENT
+rf: Unilateral sensorineural loss with facial numbness | Cerebellopontine angle lesion: MRI
+sum: So over a year you've gradually lost hearing in your right ear with constant hissing, mild unsteadiness and a slightly numb right cheek, without spinning attacks or discharge. Is that right?
+pres: Martin Gale is a 52-year-old man with a year of progressive right-sided hearing loss, constant right tinnitus and mild unsteadiness, with right facial numbness on questioning. Importantly, there are no episodic vertigo attacks, ear discharge or pain. This picture is concerning for a right vestibular schwannoma.
+ddx: Right vestibular schwannoma, because of progressive unilateral sensorineural hearing loss with tinnitus and trigeminal involvement | Ménière's disease, told apart by episodic vertigo with fluctuating hearing and aural fullness | Other cerebellopontine angle tumours such as meningioma, distinguished on MRI
+ix: Otoscopy; Rinne and Weber tests; corneal reflex; pure tone audiometry; MRI internal auditory meatus with contrast
+mx: ENT referral; MRI; management by size and symptoms: watch-and-scan, stereotactic radiosurgery or microsurgery; hearing aid
+tell: One-sided hearing loss with ringing needs a hearing test and an MRI scan to look at the hearing nerve. Sometimes a slow-growing, non-cancerous lump on the nerve causes it. If so, it can often be watched or treated. I'll refer you to the ear team. If your hearing suddenly drops or your face becomes weak, come back the same day.
+
+=== PP61 A
+who: Imran Ahmed, 28, app developer
+act: Can't sit still, gets up and paces; loud, fast, jumps topics with rhymes and puns; grinning, then snaps when challenged. Dressed flamboyantly. Deny voices; insist you're fine.
+open: Doctor, I've never felt better in my life! I've got an app that'll make me a billionaire, honey, money, sunny!
+story: I don't need sleep, two hours a night and I'm buzzing. I've spent £8,000 this week on investors' dinners. Everyone's slow, they can't keep up with me.
+hpc: Mood: "Fantastic, never better"; irritable if contradicted
+hpc: Sleep: 2 hours a night for a week, not tired
+hpc: Grandiosity: About to become a billionaire from an app he invented
+hpc: Spending: £8,000 this week
+hpc: Speech: Pressured, flight of ideas with rhymes
+hpc: Perception: Denies voices
+hpc: Insight: Doesn't think he's ill
+yes: Reduced need for sleep; overspending; irritability; increased libido; started three new projects
+no: Voices; suicidal thoughts; harm to others; drugs, he says; alcohol excess
+pmh: One episode of depression at 22, treated with sertraline, which he restarted himself 3 weeks ago
+dh: Sertraline 100 mg, restarted 3 weeks ago
+all: None
+fh: Uncle "had bipolar"
+sh: App developer; lives with partner who called the GP; drives fast lately
+ice: Nothing is wrong | That people want to slow him down | To leave
+cue: Suddenly angry when doubted: "You're just jealous. Everyone's jealous."
+ask: Can I go now? I've got meetings.
+key: Observe and describe appearance and behaviour: dress, psychomotor activity, rapport | MSE: appearance and behaviour
+key: Describe speech: rate, volume, pressure, flight of ideas, clang associations | MSE: speech and thought form
+key: Ask about mood in his words and observe affect | Elated, irritable
+key: How are you sleeping, spending, and do you have any special plans or abilities? | Grandiosity
+key: Do you ever hear voices or see things others don't? | Perception
+key: Do you think anything is wrong, and would you accept help? | Insight
+rf: Risks: spending, driving, sexual disinhibition, aggression, exhaustion, and any suicidal thoughts | Risk assessment is essential in mania
+rf: Has he started an antidepressant? | SSRI-induced switch
+sum: So you've been feeling fantastic, sleeping only 2 hours a night, spending a lot, and you're working on a big plan, but you don't think anything is wrong. Have I understood that?
+pres: Mr Ahmed is a 28-year-old man presenting with a week of reduced need for sleep, elevated and irritable mood, grandiose ideas and £8,000 of spending. On mental state examination he is flamboyantly dressed and restless, with pressured speech, flight of ideas and clang associations, elated and labile affect, grandiose delusions, no hallucinations reported and no insight. He restarted sertraline 3 weeks ago. Risks include financial ruin, reckless driving and disinhibition.
+ddx: Manic episode with psychotic features, bipolar I disorder, because of elevated mood, reduced sleep, grandiosity and pressured speech lasting a week | Substance-induced mania, for example cocaine or amphetamines, told apart by a urine drug screen | Organic causes such as hyperthyroidism or a frontal lesion, excluded with TFTs and examination; SSRI-precipitated switch
+ix: Urine drug screen; FBC, U&Es, LFTs, TFTs, glucose, calcium; consider CT head if atypical; baseline for mood stabilisers: renal function, ECG, weight
+mx: Stop sertraline; assess capacity and need for admission, using the Mental Health Act if he refuses and is at significant risk; antipsychotic such as olanzapine, quetiapine, haloperidol or risperidone per NICE; reduce stimulation; involve family; long-term mood stabiliser such as lithium; DVLA advice
+tell: I can see you're full of energy and ideas, and I believe you feel great. But sleeping two hours a night and spending this much worries me; it can be a sign of a mood illness called mania, which can make people very unwell. I'd like you to stay with us so we can help you rest and settle with medicine. We'll involve your partner, and I'll keep you informed at each step.
+
+=== PP61 B
+who: Sophie Clarke, 23, university student who has stopped attending
+act: Guarded, poor eye contact; occasionally glance at the corner and mutter. Slow speech with long pauses, sometimes not making sense; flat face. Only describe the voices if asked gently.
+open: I'm fine. My mum made me come.
+story: (After a long pause) I don't go to uni any more. The neighbours are causing trouble.
+hpc: Voices: ONLY IF ASKED gently: two men talking about her in the third person, "She's useless, she's going out now"
+hpc: Thought insertion: Neighbours put thoughts into her head
+hpc: Delusions of reference: The TV sends her messages
+hpc: Function: Stopped going to university 3 months ago; stays in her room
+hpc: Mood: "Fine"; flat affect
+hpc: Insight: Doesn't think she's unwell; thinks the neighbours "need dealing with"
+yes: Social withdrawal; poor self-care; poor sleep
+no: Elated mood; suicidal thoughts she admits; drug use she admits, though she smoked cannabis daily at 17; head injury
+pmh: Nothing
+dh: None
+all: None
+fh: Aunt has schizophrenia
+sh: Student; lives with mum; smoked cannabis heavily as a teenager
+ice: The neighbours are the problem | Being locked up | Mum to leave her alone
+cue: Lowering voice and glancing at the wall: "They can hear us, you know."
+ask: Why are you asking me all this?
+key: Describe appearance and behaviour: self-care, eye contact, responding to unseen stimuli | MSE
+key: Describe speech and thought form: slow, long pauses, derailment | Thought disorder
+key: Ask gently about voices: do you ever hear people talking when nobody's there? What do they say? | Third-person auditory hallucinations are first-rank symptoms
+key: Ask about thoughts being put in or taken out of her head, or messages from the TV | Thought insertion and delusions of reference
+key: Mood and affect | Flat affect, negative symptoms
+key: Insight: does she think she's unwell? | Insight
+rf: Risk to others: "the neighbours need dealing with"; ask what she means and whether she plans to act | Risk to others
+rf: Risk to self and self-neglect | Risk assessment
+sum: So you've stopped going to uni, you hear two men talking about you, you feel the TV sends you messages and the neighbours put thoughts in your head, and you don't feel unwell. Have I got that right?
+pres: Sophie Clarke is a 23-year-old woman with 3 months of social withdrawal and functional decline. On MSE she is guarded with poor eye contact, appears to respond to unseen stimuli, has slow speech with derailment and a flat affect. She describes third-person auditory hallucinations, thought insertion and delusions of reference, and lacks insight. She states the neighbours "need dealing with", which is a risk to others. This is a first episode of psychosis, most likely schizophrenia.
+ddx: First-episode schizophrenia, because of first-rank symptoms, negative symptoms and decline over more than a month | Drug-induced psychosis, told apart by a urine drug screen and timeline | Organic psychosis or psychotic depression, excluded with bloods, examination and mood assessment
+ix: Urine drug screen; FBC, U&Es, LFTs, TFTs, glucose, HbA1c, lipids, calcium, B12; ECG before antipsychotics; consider MRI if atypical
+mx: Urgent referral to the early intervention in psychosis team within 2 weeks; assess risk to others and capacity, with crisis team or admission if risk is high; oral antipsychotic chosen with her; CBT for psychosis and family intervention; support for her mum
+tell: It sounds like things have been very frightening and confusing lately. Hearing voices and feeling that thoughts are put in your head can be signs of an illness called psychosis, which is treatable. A specialist team who help young people with this will see you soon. Treatment usually includes medicine and talking therapy. You won't be locked up for asking for help.
+
+=== PP62 A
+who: Kevin Byrne, 45, sales manager
+act: Defensive at first, arms folded, "everyone drinks"; slight tremor of the hands you hide in your lap. Soften and admit you want to cut down if the doctor stays non-judgemental.
+open: The GP sent me about my drinking. I don't really see the problem.
+story: Everyone has a drink. Alright, maybe I drink more than most. Work's stressful.
+hpc: Quantity: ONLY IF ASKED kindly: 2 bottles of wine a day plus beer at weekends, roughly 200 units a week
+hpc: Pattern: First drink at 10am "to settle the shakes"
+hpc: Control: Tried to cut down twice, couldn't
+hpc: Consequences: Wife threatening to leave; late for work; one drink-driving warning
+hpc: Withdrawal: Morning shakes and sweats; no seizures or hallucinations ever
+yes: Morning shakes; sweats; craving; neglecting hobbies; poor eating
+no: Withdrawal seizures; hallucinations; vomiting blood; jaundice; other drugs; suicidal thoughts
+pmh: High blood pressure
+dh: Amlodipine 5 mg
+all: None
+fh: Father drank heavily
+sh: Smokes 10 a day; sales manager, drives for work; married, two teenage children
+ice: Stress at work | Losing his family and his job | To be left alone, though really he wants to cut down
+cue: When asked about family: "She says she'll take the kids."
+ask: Do I have to stop completely?
+key: Ask open and non-judgemental: tell me about your drinking in a typical day | Rapport before numbers
+key: Quantify units per week and pattern; when is your first drink? | 200 units a week; morning drinking
+key: Dependence features: cravings, failed attempts to cut down, tolerance, withdrawal, neglect, drinking despite harm | ICD-11 dependence
+key: Withdrawal history: shakes, sweats, seizures, hallucinations | Risk for assisted withdrawal
+key: Consequences: relationships, work, legal, driving, health | Impact
+key: Readiness to change: what would you like to do about it? | Stages of change
+rf: History of withdrawal seizures or delirium tremens | Inpatient assisted withdrawal
+rf: Drink-driving and driving for work | DVLA duty and public safety
+sum: So you drink about two bottles of wine a day plus beer at weekends, you need a drink at 10am to stop the shakes, you've tried to cut down but couldn't, and it's affecting your marriage and work. Is that right?
+pres: Kevin Byrne is a 45-year-old sales manager drinking about 200 units a week, with morning drinking to relieve withdrawal tremor, failed attempts to cut down, and harm to his marriage, work and driving. He has never had withdrawal seizures or hallucinations. He meets criteria for alcohol dependence and is moving from pre-contemplation to contemplation.
+ddx: Alcohol dependence, because of tolerance, withdrawal relieved by drinking, loss of control and continued use despite harm | Harmful use without dependence, excluded by the withdrawal and loss of control | Comorbid depression or anxiety, and alcohol-related liver disease, assessed with screening and LFTs
+ix: AUDIT; FBC with MCV, LFTs including GGT, U&Es, clotting; consider liver fibrosis assessment such as FIB-4 or elastography
+mx: Brief intervention and motivational interviewing; referral to community alcohol services; do not stop suddenly: planned assisted withdrawal with chlordiazepoxide; oral thiamine; relapse prevention with acamprosate or naltrexone; DVLA: alcohol dependence must be declared and he must not drive; smoking support; support for the family
+tell: Thank you for being honest with me. From what you've told me, your body has become dependent on alcohol, which is why you get the shakes. Stopping suddenly could be dangerous, so please don't. The safest way is a planned detox with medicine to stop withdrawal, then support to stay off it. You'll also need to stop driving and tell the DVLA. Would you like me to refer you today?
+
+=== PP65 A
+who: Rebecca Green, 34, office worker, after an overdose
+act: Flat, exhausted, little eye contact, quiet monotone; long pauses. Tears come when the note is mentioned. Not hostile; just hopeless.
+open: I didn't want to wake up.
+story: My partner left last week. I'd planned it for a week. I waited until I was alone, took the tablets with some drink and locked the door. My neighbour found me.
+hpc: Event: Large paracetamol overdose with alcohol last night after her partner left
+hpc: Planning: Planned for a week; waited until alone; locked the door
+hpc: Final acts: Wrote a note to her sister
+hpc: Discovery: Found by a neighbour by chance
+hpc: Now: "I wish I hadn't woken up"
+hpc: Mood: Low for 3 months; not sleeping or eating; stopped work
+yes: Low mood; anhedonia; poor sleep; poor appetite; hopelessness
+no: Previous attempts; voices; drug use; self-harm history; children
+pmh: None known; no previous mental health contact
+dh: None
+all: None
+fh: Mother had depression
+sh: Lives alone; sister lives far away; off work; 14 units a week, more lately
+ice: Things will never get better | Being a burden | Nothing, or to be left alone
+cue: When the sister comes up, tears: "I wrote to her. I said sorry."
+ask: What's the point?
+key: Start gently: thank her for talking, explain confidentiality and its limits | Rapport and safety
+key: Explore the overdose: what led up to it, what did you take, did you plan it? | Intent
+key: Ask about precautions against discovery, a note, and whether she expected to die | Beck suicide intent features
+key: How do you feel now about having survived? | Current intent
+key: Screen for depression: mood, interest, sleep, appetite, energy, concentration, hopelessness | Underlying illness
+key: Protective factors: people, reasons to live, future plans | Protective factors
+rf: Do you still have thoughts of ending your life, and do you have any plans or means at home? | Current suicide risk
+rf: Psychotic symptoms, alcohol, living alone, recent loss | Risk factors
+sum: So after your partner left you planned this for a week, waited until you were alone, locked the door and wrote to your sister, and right now you wish you hadn't woken up. You've been low for three months. Is that right?
+pres: Rebecca Green is a 34-year-old woman after a planned paracetamol overdose with alcohol following her partner leaving. Features of high suicidal intent include planning for a week, ensuring she was alone, locking the door, a final note, and regret at survival. She has 3 months of depressive symptoms and lives alone with few supports. Her current risk of suicide is high.
+ddx: Severe depressive episode with high suicidal intent, because of persistent low mood, biological symptoms and a planned overdose with regret at survival | Adjustment disorder, told apart by severity and duration of depressive symptoms | Psychotic depression or alcohol misuse, assessed through MSE and history
+ix: Completion of medical treatment for the overdose with paracetamol levels and LFTs; full psychiatric assessment by the liaison team; collateral history from her sister with consent
+mx: Not to leave until assessed by psychiatric liaison; observation level to keep her safe; consider admission, informally or under the Mental Health Act if needed; treat depression; safety plan with crisis contacts; involve her sister with consent; follow-up within 48 to 72 hours if discharged
+tell: Thank you for telling me all of this. I can hear how much pain you're in. I'm worried about your safety right now, so I'd like the mental health team to see you before you leave, and we'll keep you safe here. Depression like this is treatable, even when it feels like nothing will change. Can we talk about who we could involve, like your sister?
+
+=== PP65 B
+who: Tony Doyle, 52, former factory supervisor
+act: Weary, slumped, rubbing his forehead; you speak openly and warm when your daughters come up. Alcohol smell faint.
+open: I've been really low since I lost my job. My wife made me come.
+story: I was made redundant three months ago after 25 years. I feel useless. Sometimes I think everyone would be better off without me, but I wouldn't do anything.
+hpc: Mood: Low for 3 months since redundancy
+hpc: Thoughts: Fleeting thoughts that "everyone would be better off"
+hpc: Plans: No plans, no preparations, no previous attempts
+hpc: Protective: Wouldn't act because of his two daughters
+hpc: Alcohol: Drinking more, 4 cans a night
+hpc: Help: Would accept help
+yes: Low mood; poor sleep; low self-esteem; drinking more; loss of interest
+no: Plans; means stockpiled; previous attempts; self-harm; voices; feeling hopeless all the time
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Married; two daughters aged 16 and 19; 4 cans a night, around 35 units a week; smokes 10 a day
+ice: Being a failure | Letting his family down | Something to help
+cue: "My girls still need their dad."
+ask: Am I going mad?
+key: How have you been feeling, and how long has it been like this? | Depression screen
+key: Do you ever feel life isn't worth living, or have thoughts of ending your life? | Asking does not increase risk
+key: Have you made any plans or preparations, or done anything to harm yourself? | Intent and plans
+key: What stops you from acting on those thoughts? | Protective factors
+key: How much are you drinking now? | Alcohol increases risk
+key: Who can you talk to, and would you accept help? | Support and engagement
+rf: Plans, means, hopelessness, previous attempts | Immediate high risk
+rf: Escalating alcohol use | Disinhibition raises risk
+sum: So since your redundancy three months ago you've felt low and useless, you've had fleeting thoughts that people would be better off without you, but no plans, and your daughters stop you. You're drinking more. Is that right?
+pres: Tony Doyle is a 52-year-old man with 3 months of low mood after redundancy, with fleeting passive suicidal ideation without plans, intent or previous attempts. He identifies his daughters as a strong protective factor and would accept help. Risk factors include male sex, unemployment and increased alcohol use. His current risk is low to moderate and he can be managed in the community with a safety plan.
+ddx: Moderate depressive episode, because of 3 months of low mood, anhedonia and poor sleep after a major loss | Adjustment disorder, told apart by the severity and duration | Alcohol-induced low mood, assessed after a period of reduced drinking
+ix: PHQ-9; FBC, LFTs, TFTs; AUDIT
+mx: Collaborative safety plan with crisis contacts: NHS 111 option 2, Samaritans 116 123, 999 if in danger; talking therapy referral and consider an SSRI; reduce alcohol; involve his wife with consent; follow-up within 1 to 2 weeks; job centre and money advice
+tell: Thank you for being so open. Feeling low after losing a job you'd had for 25 years is understandable, and you're not going mad. What you describe sounds like depression, which is treatable with talking therapy and sometimes medication. Let's write a plan together for if things get worse, including numbers you can call any time. I'd like to see you again in a week.

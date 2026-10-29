@@ -1,0 +1,862 @@
+# Past-paper psychiatry, toxicology, dermatology, eye and ENT stations: full cases.
+
+=== PP66 A
+who: Diane Morris, 45, school administrator
+act: Slumped, slowed movements and speech, long pauses, eyes down; hands still in your lap. Only reveal the voice if asked gently and privately.
+open: I just feel nothing. The tablets aren't working.
+story: I've been on sertraline for six weeks and I'm worse if anything. I can't enjoy anything, I wake at four every morning, I've lost weight and I can't concentrate.
+hpc: Mood: Low for 2 months, worse in the mornings
+hpc: Anhedonia: Can't enjoy anything, even her children
+hpc: Biological: Wakes at 4am; lost 6 kg; poor concentration; no energy
+hpc: Treatment: Sertraline 100 mg for 6 weeks, taken every day
+hpc: Voices: ONLY IF ASKED gently: a voice says "you're worthless, you deserve to die"
+hpc: Beliefs: ONLY IF ASKED: she believes she has ruined her family and they'd be better off without her
+hpc: Suicidal thoughts: Fleeting thoughts of dying; no plan; ONLY IF ASKED
+yes: Early morning waking; weight loss; guilt; psychomotor slowing; a derogatory voice if asked
+no: Plans; previous attempts; alcohol excess; drugs; elated periods; thyroid symptoms
+pmh: No previous mental illness
+dh: Sertraline 100 mg once daily
+all: None
+fh: Mother had severe depression and ECT
+sh: Married; two children aged 12 and 15; school administrator, off sick; 2 units a week
+ice: That she's failed everyone | Her family suffering because of her | Nothing; she doesn't think she deserves help
+cue: Whispering: "They'd be better off without me. I've ruined everything."
+ask: Will I ever feel normal again?
+key: How has your mood been, and how long? Is it worse at any time of day? | Diurnal variation
+key: Biological symptoms: sleep, appetite, weight, energy, concentration, libido | Severity
+key: Have the tablets helped, and are you taking them every day? | Adherence and response
+key: Sometimes when people are this low, they hear voices or have strong beliefs others don't share. Has that happened to you? | Psychotic features
+key: Ask about guilt and beliefs about having ruined things | Mood-congruent delusions
+key: Do you have thoughts of ending your life? Any plans? | Suicide risk
+rf: Psychotic features with suicidal ideation | High risk: same-day psychiatric assessment
+rf: Children at home and parental severe illness | Safeguarding and support
+sum: So for two months you've been very low despite sertraline, waking at 4am, losing weight, unable to enjoy anything, you hear a voice telling you you're worthless, you believe you've ruined your family, and you've had fleeting thoughts of dying. Is that right?
+pres: Diane Morris is a 45-year-old woman with 2 months of severe low mood with anhedonia, early morning waking, weight loss and poor concentration, unresponsive to 6 weeks of sertraline 100 mg. She has a mood-congruent derogatory second-person auditory hallucination, delusions of guilt and fleeting suicidal ideation without a plan. This is a severe depressive episode with psychotic features, with significant risk.
+ddx: Severe depression with psychotic features, because of severe biological symptoms with mood-congruent hallucinations and delusions | Bipolar depression, told apart by any history of elevated mood | Organic causes such as hypothyroidism, excluded with bloods; and schizophrenia, unlikely given mood-congruent content
+ix: Full risk assessment; FBC, U&Es, LFTs, TFTs, calcium, glucose, B12, folate; ECG before antipsychotics
+mx: Same-day psychiatric assessment by the crisis team; consider admission; add an antipsychotic to the antidepressant, or switch per specialist; ECT for life-threatening or treatment-resistant depression; safety plan; involve her husband and consider support for the children
+tell: I think you have a severe form of depression, where the illness can make people hear a critical voice and believe they've harmed their family. That voice is part of the illness, not the truth. It's very treatable, but it needs specialist help today. I'd like the mental health team to see you now. Is that okay?
+
+=== PP66 B
+who: Farhan Ali, husband of Saira Ali, 29, 10 days after giving birth
+act: Exhausted, frightened, holding the car seat; speak quickly. Saira, in the room, laughs then cries and stares at the baby suspiciously.
+open: I'm really worried about my wife. She's not sleeping and she's saying strange things about the baby.
+story: Saira had our baby ten days ago. For four days she's barely slept, she's confused, laughing then crying, and now she says the baby has been swapped and isn't ours.
+hpc: Onset: 6 days after delivery, worse over 4 days
+hpc: Sleep: Barely slept for 4 days
+hpc: Mood: Swings between laughing and crying
+hpc: Confusion: Muddled, forgets what she's doing
+hpc: Beliefs: The baby has been swapped and is "not ours"
+hpc: Baby: She won't feed him; husband is doing all the care
+yes: Insomnia; mood lability; confusion; delusions about the baby
+no: Fever; headache; seizures; heavy bleeding; drugs or alcohol; thyroid symptoms known
+pmh: Bipolar disorder, episode at 22; lithium stopped when pregnant
+dh: None now
+all: None
+fh: Mother had "a breakdown" after a birth
+sh: Married; first baby; family nearby
+ice: She's exhausted | That she'll hurt herself or the baby | Help today
+cue: Quietly: "Last night she held the baby and said, he isn't ours, we should give him back."
+ask: Is she going to be alright?
+key: When did this start in relation to the birth? | Postpartum psychosis usually within 2 weeks
+key: How is she sleeping, and how is her mood? | Mania and mixed states
+key: What has she said about the baby? Any thoughts of harming the baby or herself? | Risk of harm
+key: Any confusion, fever, headache or bleeding? | Organic causes: infection, thyroid, retained products
+key: Any past mental illness or medicines stopped in pregnancy? | Bipolar disorder greatly raises risk
+key: Who is caring for the baby, and what support is there? | Safeguarding
+rf: Delusions about the baby | Risk to the baby: emergency
+rf: Bipolar history with postpartum onset | Psychiatric emergency
+sum: So since around six days after the birth, Saira has barely slept, swings between laughing and crying, seems confused, and believes the baby isn't yours. She has bipolar disorder and stopped lithium in pregnancy. Is that right?
+pres: This is a collateral history from Farhan about his wife Saira, 29, 10 days postpartum, with 4 days of severe insomnia, labile mood, confusion and a delusion that her baby has been swapped. She has a history of bipolar disorder and stopped lithium in pregnancy. This is postpartum psychosis, a psychiatric emergency with risk to her and the baby.
+ddx: Postpartum psychosis on a background of bipolar disorder, because of acute onset within 2 weeks of delivery with mood lability, confusion and delusions about the baby | Postnatal depression or baby blues, which lack psychosis and confusion | Organic causes such as infection, thyroiditis, eclampsia or retained products, excluded with examination and bloods
+ix: Observations and examination; FBC, CRP, U&Es, TFTs, glucose, calcium; urine for protein; urine drug screen
+mx: Same-day referral to the perinatal mental health or crisis team; admission to a mother and baby unit; do not leave her alone with the baby until assessed; antipsychotic and mood stabiliser per specialist; safeguarding involvement; support for Farhan
+tell: I think Saira has a serious but treatable illness called postpartum psychosis, which can happen after birth, especially with bipolar disorder. It isn't anyone's fault. She needs to be seen by the specialist team today, ideally in a mother and baby unit so she can stay with the baby safely. Until then, please don't leave her alone with him. Most women recover fully.
+
+=== PP67 A
+who: Daniel Lee, 26, accounts assistant
+act: Red, cracked knuckles; hold your hands away from surfaces; embarrassed and apologetic. Wipe your hands discreetly after shaking hands.
+open: This is embarrassing. I wash my hands a lot. Like, a lot.
+story: I wash my hands about 50 times a day until they bleed. I can't touch door handles. My showers take two hours. I know it's over the top, but if I stop the anxiety is unbearable.
+hpc: Obsessions: Fear of contamination by germs; intrusive, unwanted thoughts of making his family ill
+hpc: Compulsions: Hand washing 50 times a day; 2-hour showers; avoids door handles
+hpc: Insight: Knows it's excessive and irrational
+hpc: Duration: 2 years, worse for 6 months
+hpc: Impact: Late for work; embarrassed; avoids friends
+yes: Anxiety if he resists; low mood because of it; cracked skin
+no: Voices; delusions; suicidal thoughts; tics; eating problems; substance misuse
+pmh: Eczema
+dh: Emollient cream
+all: None
+fh: Mum is "very anxious"
+sh: Non-smoker; 4 units a week; accounts assistant; lives alone
+ice: He's weird | Losing his job | To be normal again
+cue: Hiding his hands: "Please don't tell anyone at work."
+ask: Can this be fixed?
+key: What thoughts come into your mind that you can't get rid of? | Obsessions
+key: What do you feel you have to do, and what happens if you don't? | Compulsions reduce anxiety
+key: Do you know the thoughts are coming from your own mind? Do you think they're excessive? | Insight distinguishes OCD from psychosis
+key: How much time does it take each day, and how does it affect your life? | Severity
+key: How has your mood been? Any thoughts of harming yourself? | Comorbid depression and risk
+key: Any tics, or other repeated behaviours like checking or counting? | Related disorders
+rf: Suicidal thoughts | Risk
+rf: Lack of insight with bizarre beliefs | Psychosis
+sum: So for two years, and worse recently, you've had intrusive fears about germs, wash your hands about 50 times a day and shower for two hours, and you know it's excessive but feel unbearable anxiety if you stop. Is that right?
+pres: Daniel Lee is a 26-year-old man with 2 years of contamination obsessions and washing compulsions, washing his hands 50 times a day and showering for 2 hours, with intact insight and significant functional impairment. He has secondary low mood but no suicidal ideation or psychotic features.
+ddx: Obsessive-compulsive disorder, contamination subtype, because of ego-dystonic intrusive thoughts with compulsions that relieve anxiety and intact insight | Generalised anxiety disorder, told apart by free-floating worry without compulsions | Psychosis or OCPD, excluded by intact insight and ego-dystonic symptoms
+ix: Y-BOCS severity score; PHQ-9; risk assessment
+mx: Psychoeducation; CBT with exposure and response prevention; add an SSRI such as sertraline or fluoxetine if moderate or severe; emollients for his hands; review in 2 to 4 weeks
+tell: What you're describing sounds like OCD, which is common and treatable. Your brain sends a false alarm about germs, and washing turns the alarm off for a moment, which keeps the cycle going. A specific therapy helps you face the anxiety without washing, and medicine can help too. You're not weird, and this stays confidential.
+
+=== PP67 B
+who: Gemma Wood, 31, primary school teacher
+act: Jumpy, startles at noises outside; rubs your arms; speaks flatly about the crash then becomes tearful. Avoids saying "car".
+open: Since the crash I'm not myself. I can't sleep and I keep seeing it.
+story: Four months ago a car went into the side of mine. Now when I hear brakes I'm back there. I have nightmares, I won't drive, I avoid that road, I'm jumpy and I feel numb. I'm drinking to get to sleep.
+hpc: Event: Road traffic collision 4 months ago; thought she would die
+hpc: Re-experiencing: Flashbacks triggered by braking sounds; nightmares several times a week
+hpc: Avoidance: Won't drive; avoids the road and talking about it
+hpc: Hyperarousal: Jumpy, irritable, poor sleep, hypervigilant
+hpc: Numbness: Feels detached from friends
+hpc: Alcohol: A bottle of wine most nights to sleep
+yes: Flashbacks; nightmares; avoidance; hyperarousal; emotional numbness; drinking more
+no: Head injury at the time; suicidal plans; voices; drugs; previous trauma
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Primary school teacher, off sick; lives with partner; 50 units a week now
+ice: She's weak | Never getting back to normal | Something to help her sleep
+cue: Startles at a sudden noise outside, then embarrassed: "Sorry. That keeps happening."
+ask: Will I ever drive again?
+key: Tell me what happened, at your own pace | Trauma-informed approach
+key: Do you relive it through flashbacks or nightmares? | Re-experiencing
+key: Do you avoid reminders, places or conversations? | Avoidance
+key: Do you feel on edge, jumpy, irritable, or struggle to sleep? | Hyperarousal
+key: How has your mood been, and any thoughts of harming yourself? | Comorbid depression and risk
+key: How much are you drinking now, and why? | Self-medication
+rf: Suicidal thoughts | Risk
+rf: Escalating alcohol use | Dependence
+sum: So since the crash four months ago, you have flashbacks and nightmares, avoid driving and that road, feel jumpy and numb, and drink a bottle of wine most nights to sleep. Is that right?
+pres: Gemma Wood is a 31-year-old teacher with 4 months of re-experiencing, avoidance and hyperarousal after a road traffic collision, with emotional numbing and alcohol use of about 50 units a week to sleep. She has no suicidal ideation. This is post-traumatic stress disorder with harmful alcohol use.
+ddx: PTSD, because of re-experiencing, avoidance and hyperarousal for more than a month after a life-threatening trauma | Acute stress reaction, which resolves within a month | Depression or alcohol dependence, assessed with PHQ-9 and AUDIT
+ix: PCL-5 or a similar PTSD scale; PHQ-9; AUDIT; LFTs if drinking heavily
+mx: Trauma-focused CBT or EMDR; avoid benzodiazepines; reduce alcohol with support; sleep hygiene; an SSRI such as sertraline if she prefers or therapy is not effective; phased return to work; driving rehabilitation when ready
+tell: What you're going through has a name: post-traumatic stress disorder. It's your brain still treating the crash as if it's happening now, and it's not weakness. A specific talking therapy helps the memory settle, and most people improve a lot. The wine might help you fall asleep, but it makes nightmares and anxiety worse, so let's work on cutting down together. Yes, many people drive again.
+
+=== PP68 A
+who: Chloe Barnes, 24, care assistant
+act: Pale, nauseous, holding a sick bowl and your right side; quiet and ashamed; avoid eye contact. Open up if treated kindly.
+open: I took some tablets yesterday. I feel really sick now.
+story: After an argument with my boyfriend I took tablets through the day, paracetamol and co-codamol, from about 10am to 10pm. Now I feel sick and my right side aches.
+hpc: Tablets: About 24 paracetamol 500 mg and 16 co-codamol 30/500, taken over 12 hours yesterday
+hpc: Timing: Staggered from 10am to 10pm yesterday
+hpc: Alcohol: A few glasses of wine with it
+hpc: Symptoms: Nausea, right upper abdominal ache
+hpc: Weight: 60 kg
+hpc: Intent: Wanted to "make the pain stop"; no note; told a friend this morning
+yes: Nausea; RUQ ache; vomited once
+no: Drowsiness; breathing problems; other tablets; previous overdoses; liver disease
+pmh: Nothing
+dh: No regular medicines
+all: None
+fh: Nothing relevant
+sh: Drinks at weekends; care assistant; lives with boyfriend
+ice: Liver damage | Dying, and being judged | To feel better and go home
+cue: Tearful: "I didn't really want to die. I just wanted it to stop."
+ask: Have I damaged my liver?
+key: Exactly what did you take, how many, what strength, and over what time? | Staggered ingestion changes management
+key: Any other tablets or alcohol? | Co-ingestants: codeine and alcohol
+key: What is your weight? | mg/kg calculation: about 333 mg/kg
+key: Any vomiting, abdominal pain, drowsiness or confusion? | Liver injury and opioid toxicity
+key: What was happening, and did you want to die? | Intent
+key: Do you feel safe now? Any thoughts of harming yourself? | Ongoing risk
+rf: Staggered overdose | Treat with acetylcysteine without waiting for the nomogram
+rf: Reduced respiratory rate or pinpoint pupils | Opioid toxicity: naloxone
+sum: So yesterday between 10am and 10pm you took about 24 paracetamol and 16 co-codamol with some wine after an argument, and now you feel sick with right-sided pain. You said you wanted the pain to stop. Is that right?
+pres: Chloe Barnes is a 24-year-old woman with a staggered overdose of about 20 g of paracetamol, around 333 mg/kg, and 480 mg of codeine over 12 hours yesterday, with alcohol, now with nausea and RUQ pain. Because it was staggered, the nomogram cannot be used and acetylcysteine is indicated. She expresses passive intent to escape distress and needs a psychosocial assessment once medically fit.
+ddx: Significant staggered paracetamol overdose with possible hepatotoxicity, because of over 150 mg/kg over more than an hour with RUQ pain | Opioid toxicity from codeine, assessed by respiratory rate, GCS and pupils | Mixed overdose with other agents, excluded by history and a salicylate level
+ix: Paracetamol and salicylate levels, LFTs, INR, U&Es, glucose, VBG with lactate and pH, FBC, phosphate; repeat LFTs and INR at the end of treatment
+mx: Start IV acetylcysteine immediately per the current UK regimen, as a staggered overdose regardless of level; antiemetic; monitor for opioid toxicity and give naloxone if needed; discuss with the liver unit if INR, creatinine or pH are abnormal; psychiatric liaison assessment before discharge; safety plan
+tell: Thank you for telling us. Because the tablets were taken over a day, we'll start a medicine through a drip now that protects your liver; it works best started early. We'll check your blood tests to see how your liver is doing. Once you're feeling better, someone from the mental health team will talk with you about the argument and how you're feeling, without judgement.
+
+=== PP71 A
+who: Josh Turner, 20, history student
+act: Scratching between your fingers and your waistband throughout; embarrassed and slightly defensive. Worried about hygiene.
+open: I've been really itchy for about three weeks, especially at night. It's driving me mad.
+story: It's between my fingers, on my wrists and round my waist. It's worse at night. My flatmate's started itching too.
+hpc: Duration: 3 weeks
+hpc: Site: Finger webs, wrists, waistband, around the navel
+hpc: Timing: Much worse at night and when warm
+hpc: Rash: Small red bumps and some thin wavy lines between the fingers
+hpc: Contacts: Flatmate itchy; new partner a month ago
+yes: Night-time itch; contacts itchy
+no: Face involvement; fever; new soaps or washing powder; pets; known eczema; genital sores
+pmh: Nothing
+dh: Antihistamine from the chemist, not helping
+all: None
+fh: Nothing relevant
+sh: Student in a shared flat; 12 units a week
+ice: An allergy | That he's dirty, and people will find out | To stop the itch
+cue: "Am I dirty? I shower every day."
+ask: Am I dirty? Do I need to throw out my clothes? When can I go back to lectures?
+key: Where is the itch and when is it worst? | Nocturnal itch in typical sites
+key: Is anyone close to you itchy too? | Close contacts
+key: Any new partners? | Sexual transmission
+key: Have you noticed burrows: thin wavy lines between the fingers? | Pathognomonic sign
+key: Any new soaps, detergents or pets? | Contact dermatitis
+rf: Crusted, thickened skin or immunosuppression | Crusted scabies: highly contagious
+rf: Infected, weeping sores | Secondary bacterial infection
+sum: So for three weeks you've had intense itching, worse at night, between your fingers, wrists and waist, and your flatmate is itchy too. Is that right?
+pres: Josh Turner is a 20-year-old student with 3 weeks of intense nocturnal pruritus affecting the finger webs, wrists and waistband, with a papular rash and burrows, and an itchy flatmate and a new partner. This is scabies.
+ddx: Scabies, because of nocturnal itch in typical sites with burrows and itchy close contacts | Atopic or contact dermatitis, told apart by distribution and no affected contacts | Other infestations or urticaria, excluded clinically and by dermoscopy or skin scraping if unclear
+ix: Clinical diagnosis; dermoscopy or skin scraping if uncertain; STI screen offered given new partner
+mx: Permethrin 5% cream to the whole body from the neck down, including under nails and the genitals, left on for 8 to 12 hours, repeated after 7 days; treat all household and sexual contacts at the same time; wash clothes, towels and bedding at 50°C or seal in a bag for 72 hours; antihistamine and emollient for itch, which can persist 2 to 4 weeks
+tell: This is scabies, tiny mites under the skin. It's nothing to do with being dirty; it spreads by close contact. You don't need to throw clothes away; wash them hot or bag them for 3 days. You, your flatmate and your partner all need the cream on the same day, then again a week later. You can go back to lectures the day after the first treatment. The itch can last a few weeks after.
+
+=== PP71 B
+who: Stuart Kelly, 35, personal trainer
+act: Lifts your shorts to show the patch on your thigh; frustrated the chemist cream made it worse.
+open: I've got an itchy red ring on my thigh that's getting bigger. The cream from the chemist made it worse.
+story: It started a month ago as a small itchy patch. It's spreading outwards with a clear middle. I used hydrocortisone and it got bigger.
+hpc: Site: Right thigh
+hpc: Duration: 1 month, spreading
+hpc: Appearance: Red ring with a scaly raised edge and a clearer centre
+hpc: Treatment: Hydrocortisone 1% from the chemist, made it bigger and less defined
+hpc: Contacts: Has a dog with a patchy coat; uses gym mats daily
+yes: Itch; dog with hair loss; gym use
+no: Other patches; scalp or nail changes; fever; joint pain; recent tick bite; travel
+pmh: Nothing
+dh: Hydrocortisone cream
+all: None
+fh: Nothing relevant
+sh: Personal trainer; non-smoker; 8 units a week
+ice: Eczema | Spreading to clients | Something that works
+cue: "I can't have clients see this."
+ask: Is it contagious?
+key: When did it start, and how has it changed? | Annular expanding lesion
+key: Describe it: ring, scale, clear centre? | Tinea features
+key: What have you used on it? | Steroids modify tinea: tinea incognito
+key: Any pets, gym mats or contact sports? | Sources
+key: Any other patches, including feet, groin, nails or scalp? | Other sites
+rf: Expanding red rash after a tick bite with fever | Erythema migrans: Lyme disease
+rf: Widespread or immunosuppressed | Systemic therapy
+sum: So for a month you've had an itchy red ring with a clearer middle spreading on your thigh, it got worse with hydrocortisone, and your dog has a patchy coat. Is that right?
+pres: Stuart Kelly is a 35-year-old personal trainer with a month-long expanding annular scaly itchy plaque on his right thigh with central clearing, worsened by topical hydrocortisone, with a dog with patchy hair loss and daily gym mat use. This is tinea corporis, modified by steroid use.
+ddx: Tinea corporis, partly modified by steroids, because of an annular scaly plaque with an active edge worsened by hydrocortisone | Discoid eczema or psoriasis, told apart by skin scrapings and the absence of central clearing | Erythema migrans or granuloma annulare, excluded by history and the absence of scale
+ix: Skin scrapings for microscopy and culture before treatment if uncertain
+mx: Stop the steroid; topical terbinafine once or twice daily for 1 to 2 weeks, or an imidazole such as clotrimazole until 2 weeks after clearance; oral terbinafine if extensive; vet review for the dog; keep skin dry, don't share towels, clean gym mats
+tell: This is a fungal infection, often called ringworm, though there's no worm. The steroid cream fed the fungus, so please stop it. An antifungal cream should clear it in a couple of weeks. It can spread by skin contact and shared towels, so keep it covered at work and get your dog checked by a vet. If it spreads or doesn't improve in 2 weeks, come back.
+
+=== PP72 A
+who: Sarah Hall, mother of Lily, 4
+act: Tired and frustrated, a little defensive about the steroid; Lily scratches her elbow creases in your lap. Pull up a printout about skin thinning.
+open: Lily's eczema keeps coming back. We've tried everything.
+story: She's had eczema since she was a baby, in the creases of her elbows and knees and on her neck. She scratches all night and none of us sleep.
+hpc: Duration: Since infancy
+hpc: Sites: Elbow and knee creases, neck
+hpc: Itch: Scratches at night; poor sleep for the whole family
+hpc: Emollient use: Only "when it looks dry"; a small tube lasts a month
+hpc: Steroid use: Stops hydrocortisone after 2 days because she read it thins the skin
+hpc: Triggers: Worse in winter, with wool and bubble bath
+yes: Night-time scratching; dry skin; flare in winter
+no: Weeping crusted sores; fever; punched-out blisters; food reactions with hives or vomiting; poor growth; diarrhoea
+pmh: Lily: eczema; otherwise well; growing normally
+dh: Lily: hydrocortisone 1% cream; emollient
+all: Lily: none known
+fh: Dad has asthma; mum has hay fever
+sh: Lives with both parents; attends nursery
+ice: Something she's eating | That the steroid will thin her skin | To know if she'll grow out of it
+cue: Holding up a printout: "It says steroids thin the skin. I don't want to damage her."
+ask: Will the steroid thin her skin? Is it something she's eating? Will she grow out of it?
+key: Where is the eczema, and how often does it flare? | Distribution and severity
+key: How much moisturiser do you use, and how often? | Under-use of emollients
+key: How do you use the steroid cream, and why do you stop? | Steroid phobia
+key: Any weeping, crusting or painful blisters? | Infection or eczema herpeticum
+key: Any reaction to foods: hives, vomiting or diarrhoea straight after eating? | Food allergy
+key: How is it affecting her sleep, nursery and the family? | Impact
+rf: Painful punched-out blisters with fever | Eczema herpeticum: same-day aciclovir
+rf: Poor growth or severe resistant eczema | Specialist referral
+sum: So Lily's had eczema since a baby in her elbow and knee creases and neck, she scratches all night, you use moisturiser when it looks dry, and you stop the steroid after two days because you're worried about skin thinning. Is that right?
+pres: Lily is a 4-year-old with flexural atopic eczema since infancy, a family history of atopy, and night-time scratching affecting sleep. Her eczema is poorly controlled because of emollient under-use and early cessation of topical steroids due to fear of skin thinning. There are no features of infection, eczema herpeticum or food allergy.
+ddx: Moderate atopic eczema, poorly controlled due to under-treatment, because of flexural distribution, atopic history and inadequate emollient and steroid use | Food-allergy-associated eczema, told apart by immediate reactions to food or gut symptoms | Infected eczema or eczema herpeticum, excluded by the absence of weeping, crusting or punched-out lesions
+ix: Clinical diagnosis; swab only if infected; food allergy testing only if history suggests
+mx: Emollients liberally and often, 250 to 500 g a week, as soap substitute too; topical steroid of appropriate potency for flares, using fingertip units, until 48 hours after the flare settles; stepped care; avoid triggers like bubble bath and wool; written eczema plan; review in 2 to 4 weeks
+tell: Steroid creams used the right way, in the right amount for short bursts, don't thin the skin. Stopping after two days lets the eczema come back. Use the moisturiser all the time, lots of it, even when the skin looks fine. Eczema is rarely caused by food unless she reacts straight after eating. Most children improve a lot as they grow. If she gets painful blisters or a fever, see us that day.
+
+=== PP74 A
+who: Ryan Doyle, 34, warehouse manager
+act: Self-conscious, wearing long sleeves; roll them up reluctantly. Rub your finger ends when asked about joints.
+open: I've had these scaly patches on my elbows and knees for years, but they're getting worse.
+story: They're thick, red and scaly, on my elbows, knees and in my scalp. They're worse with stress and in winter. My dad has the same.
+hpc: Sites: Elbows, knees, scalp, behind the ears
+hpc: Appearance: Thick, red plaques with silvery scale
+hpc: Duration: Years, worse for 6 months
+hpc: Triggers: Stress, winter, alcohol
+hpc: Joints: ONLY IF ASKED: sore, stiff finger end-joints in the mornings
+hpc: Nails: Small pits in the nails
+yes: Itch; nail pitting; finger joint stiffness if asked; low mood about appearance
+no: Fever; widespread redness; pustules; eye pain; back pain; sore throat recently
+pmh: Nothing
+dh: Moisturiser
+all: None
+fh: Dad has psoriasis
+sh: Smokes 15 a day; 25 units a week; warehouse manager; self-conscious, avoids the gym
+ice: Psoriasis like his dad | People staring, and his joints getting worse | Something that clears it
+cue: "I don't wear T-shirts any more."
+ask: Will I end up with arthritis?
+key: Where are the patches, and what do they look like? | Extensor plaques with silvery scale
+key: Any scalp, nail or skin-fold involvement? | Psoriasis sites
+key: Any joint pain, stiffness or swelling, especially fingers or back? | Psoriatic arthritis screen
+key: Any triggers: stress, alcohol, smoking, infections, medicines such as lithium or beta-blockers? | Triggers
+key: How is it affecting your mood and life? | Psychological impact
+rf: Widespread redness or pustules with fever | Erythrodermic or pustular psoriasis: urgent
+rf: Inflammatory joint symptoms | Rheumatology referral
+sum: So for years you've had thick scaly patches on your elbows, knees and scalp, worse with stress and winter, your dad has psoriasis, you have nail pits and your finger end-joints are stiff in the mornings. Is that right?
+pres: Ryan Doyle is a 34-year-old man with chronic plaque psoriasis affecting the elbows, knees and scalp with nail pitting, a family history, and morning stiffness of the distal interphalangeal joints suggesting psoriatic arthritis. He smokes, drinks 25 units a week and is self-conscious.
+ddx: Chronic plaque psoriasis with possible psoriatic arthritis, because of extensor plaques with silvery scale, nail pits and DIP joint stiffness | Eczema, told apart by flexural distribution and lack of silvery scale | Fungal infection or seborrhoeic dermatitis of the scalp, excluded clinically
+ix: PEST questionnaire; examine joints; ESR, CRP, rheumatoid factor; cardiovascular risk: BP, lipids, HbA1c
+mx: Potent topical corticosteroid once daily plus a vitamin D analogue once daily at a different time for up to 4 weeks; scalp: potent steroid shampoo or solution; emollients; reduce alcohol and stop smoking; rheumatology referral for suspected psoriatic arthritis; dermatology if not controlled; address mood
+tell: This is psoriasis, where the skin grows too fast. It's not contagious. Two creams used together usually help a lot, and there's a special treatment for the scalp. The stiff finger joints may be a linked arthritis, so I'll refer you to the joint specialists, as early treatment protects the joints. Cutting down alcohol and smoking also improves psoriasis.
+
+=== PP74 B
+who: Amy Clarke, 27, hairdresser
+act: Show red, cracked hands, palms up; wince when flexing. Cheerful about holidays when the hands got better.
+open: My hands have been red, dry and cracked for six months. They're really sore.
+story: It's on the backs of my hands and between my fingers. It got better when I was on holiday for two weeks. I wash my hands about 30 times a day at work and don't use gloves with shampoo.
+hpc: Sites: Backs of hands, finger webs
+hpc: Duration: 6 months
+hpc: Appearance: Red, dry, cracked, scaly, sore
+hpc: Pattern: Better on holiday, worse in the working week
+hpc: Exposures: Shampoo, water, hair dye; washes hands 30 times a day; no gloves for shampooing
+yes: Hay fever; sore cracks
+no: Blisters; weeping; spread to face or arms; reaction to hair dye with swelling; fever
+pmh: Hay fever; childhood eczema
+dh: Antihistamine in summer
+all: None known
+fh: Nothing relevant
+sh: Hairdresser; non-smoker; 10 units a week
+ice: An allergy | Having to give up hairdressing | Cream that fixes it
+cue: "I can't afford to stop working."
+ask: Will I have to give up my job?
+key: Where is it and when did it start? | Distribution
+key: Is it better away from work? | Occupational link
+key: What do you touch at work, and do you wear gloves? | Irritants: water, shampoo; allergens: dyes
+key: Any reaction to hair dye or other products with swelling or itch? | Allergic contact dermatitis to PPD
+key: Any eczema, asthma or hay fever? | Atopy raises risk
+rf: Spreading, weeping or infected skin | Secondary infection
+rf: Facial swelling after dyes | Severe allergy
+sum: So for six months your hands have been red, cracked and sore, better on holiday, and you wash your hands 30 times a day without gloves for shampooing. Is that right?
+pres: Amy Clarke is a 27-year-old hairdresser with 6 months of red, dry, cracked dermatitis on the backs of her hands and finger webs that improves away from work, with frequent wet work and no gloves, and a history of atopy. This is most likely irritant contact dermatitis of the hands.
+ddx: Irritant contact dermatitis from wet work, because of hand dermatitis improving away from work with frequent washing and shampoo exposure | Allergic contact dermatitis to hair dye or preservatives, told apart by patch testing | Hand eczema from atopy or psoriasis, assessed by history and examination
+ix: Clinical diagnosis; patch testing via dermatology if not improving or allergy is suspected
+mx: Avoid irritants: nitrile gloves for wet work and dyes, cotton liners; lukewarm water, soap substitute; frequent emollients, especially after washing; potent topical steroid for 2 to 4 weeks for flares; occupational health involvement
+tell: Your hands are irritated by water and shampoo many times a day, which strips the skin's barrier. Wearing gloves for shampooing and dyeing, using a moisturiser after every wash, and a steroid cream for a few weeks should help a lot, and most people can keep working. If it doesn't settle, we'll check for allergies with patch tests.
+
+=== PP75 A
+who: Roy Bennett, 74, retired builder
+act: Calm but frightened; cover your left eye to show you can't see with the right. Matter-of-fact about smoking.
+open: I woke up this morning and couldn't see out of my right eye. It's like a curtain came down.
+story: It was fine last night. This morning I woke and the right eye was just dark. There's no pain at all.
+hpc: Onset: On waking, sudden, painless
+hpc: Vision: Can only see hand movements in the right eye
+hpc: Pain: None
+hpc: Previous: A few seconds of the right eye going dark like a curtain twice last month
+hpc: Headache: None
+yes: Previous transient visual loss
+no: Headache; jaw pain; scalp tenderness; flashes or floaters; eye pain; red eye; weakness or speech problems
+pmh: High blood pressure; atrial fibrillation, not anticoagulated
+dh: Amlodipine 10 mg; bisoprolol 5 mg
+all: None
+fh: Nothing relevant
+sh: Smokes 20 a day; 10 units a week; lives with wife; drives
+ice: Something in his eye | Losing his sight and his independence | To get his vision back
+cue: "I can't be blind. Who'll drive my wife?"
+ask: Will my sight come back?
+key: When did it start, how quickly, and is it painful? | Sudden painless loss
+key: How much can you see in that eye? | Severity
+key: Any previous episodes of vision going dark briefly? | Amaurosis fugax: embolic
+key: Any headache, jaw pain or scalp tenderness? | Arteritic cause: GCA
+key: Any flashes, floaters or a shadow spreading? | Retinal detachment
+key: Do you have AF, high blood pressure, and are you on a blood thinner? | Embolic source
+rf: Age over 50 with headache or jaw claudication | GCA: steroids now
+rf: Sudden painless visual loss | Treat as a stroke: same-day ophthalmology and stroke pathway
+sum: So this morning you woke with sudden painless loss of vision in your right eye, you'd had brief episodes of it going dark before, and you have AF without a blood thinner. No headache or jaw pain. Is that right?
+pres: Roy Bennett is a 74-year-old smoker with hypertension and untreated atrial fibrillation who woke with sudden painless loss of vision in the right eye to hand movements, preceded by episodes of amaurosis fugax. There are no features of giant cell arteritis. Fundoscopy would be expected to show a pale retina with a cherry-red spot. This is a central retinal artery occlusion, an ocular stroke.
+ddx: Central retinal artery occlusion, likely embolic from AF, because of sudden painless profound visual loss after amaurosis fugax | Arteritic ischaemic optic neuropathy from GCA, excluded by asking about cranial symptoms and checking ESR and CRP | Retinal detachment, vitreous haemorrhage or central retinal vein occlusion, told apart by fundoscopy
+ix: Visual acuity, RAPD, fundoscopy; ESR and CRP urgently; FBC, glucose, lipids, clotting; ECG; carotid Doppler; MRI brain; echo
+mx: Same-day ophthalmology and stroke team assessment; manage as a stroke: antiplatelet initially, then anticoagulation for AF once imaging is reviewed; statin; BP control; smoking cessation; no driving until assessed against DVLA standards
+tell: I think a small clot has blocked the main artery to the back of your right eye, a kind of stroke in the eye, likely from your irregular heartbeat. The eye specialists and stroke team will see you today. Sadly, sight often doesn't fully return, but treatment now protects your other eye and your brain. Please don't drive for now.
+
+=== PP75 B
+who: Margaret Pugh, 76, retired seamstress
+act: Weary and stiff getting out of the chair; hold the left side of your head. Cover your right eye to show the left is dim.
+open: My left eye went blurred and now I can barely see out of it.
+story: This morning the vision in my left eye went blurry then dark. For two weeks I've had a headache on the left side, it hurts to comb my hair and my jaw aches when I chew. My shoulders are stiff in the mornings.
+hpc: Vision: Left eye blurred then lost this morning, painless
+hpc: Headache: Left temple, 2 weeks
+hpc: Scalp: Tender combing hair
+hpc: Jaw: Aches when chewing
+hpc: Shoulders: Stiff in the mornings for a month
+hpc: General: Tired, lost appetite
+yes: Scalp tenderness; jaw claudication; morning shoulder stiffness; fatigue; weight loss
+no: Eye pain; red eye; flashes; floaters; weakness; speech problems; fever
+pmh: Osteoarthritis; type 2 diabetes
+dh: Metformin; paracetamol
+all: None
+fh: Nothing relevant
+sh: Non-smoker; lives alone
+ice: Old age | Losing sight in both eyes | Help to save her sight
+cue: "Will the other eye go too?"
+ask: Will I go blind in the other eye?
+key: When did the vision go, and is it painful? | Sudden painless loss
+key: Any new headache, scalp tenderness or jaw ache when chewing? | GCA
+key: Any shoulder or hip stiffness in the mornings? | Polymyalgia rheumatica
+key: Any weight loss, fever or tiredness? | Systemic features
+key: Any previous brief episodes of visual loss or double vision? | Warning symptoms
+rf: Visual loss with GCA features | Emergency: IV methylprednisolone and same-day ophthalmology
+rf: Diabetes and high-dose steroids | Monitor glucose closely
+sum: So this morning the vision in your left eye went, after two weeks of a left-sided headache, a tender scalp, jaw ache on chewing and stiff shoulders. Is that right?
+pres: Margaret Pugh is a 76-year-old woman with sudden painless visual loss in the left eye this morning, preceded by 2 weeks of left temporal headache, scalp tenderness, jaw claudication and polymyalgic symptoms. This is giant cell arteritis with arteritic anterior ischaemic optic neuropathy, an emergency threatening the other eye.
+ddx: Arteritic anterior ischaemic optic neuropathy from GCA, because of visual loss with jaw claudication, scalp tenderness and PMR in an older woman | Non-arteritic AION, which lacks systemic features and has a normal ESR | Central retinal artery occlusion or stroke, distinguished by fundoscopy and imaging
+ix: Visual acuity, RAPD, fundoscopy showing a pale swollen disc; ESR, CRP, FBC, LFTs, glucose; temporal artery ultrasound or biopsy within 1 to 2 weeks
+mx: Immediate IV methylprednisolone per local guidance, then high-dose oral prednisolone; same-day ophthalmology; monitor glucose with diabetes; bone protection and PPI; rheumatology; aspirin not routine
+tell: I think the vision loss is caused by giant cell arteritis, where inflamed blood vessels starve the eye of blood. Your other eye is at risk, so we're starting strong steroids straight away, through a drip. They protect the other eye. The lost vision may not fully return, but acting today matters. We'll watch your blood sugar closely too.
+
+=== PP75 C
+who: Hannah Price, 28, graphic designer
+act: Anxious, rubbing your right eye; wince when looking side to side. Mention the leg tingling only if asked about past symptoms.
+open: My right eye has gone blurry in the middle over a few days, and it hurts to move it.
+story: Over three days the centre of my vision in the right eye has gone blurry. It aches when I move my eye, and colours look washed out, especially red.
+hpc: Vision: Central blurring, right eye, over 3 days
+hpc: Pain: Ache on eye movement
+hpc: Colour: Reds look washed out
+hpc: Past neurology: ONLY IF ASKED: tingling in both legs for a few weeks last year that went away
+hpc: Heat: Vision worse after a hot shower
+yes: Pain on eye movement; red desaturation; previous leg tingling if asked
+no: Headache; red eye; discharge; double vision; weakness; bladder problems; fever
+pmh: Nothing
+dh: Combined pill
+all: None
+fh: Aunt has multiple sclerosis
+sh: Non-smoker; 6 units a week; graphic designer
+ice: Eye strain from screens | Losing her sight or MS like her aunt | To know what's wrong
+cue: "My aunt has MS. Is that what this is?"
+ask: Is this MS?
+key: How has your vision changed, over what time, and is it central? | Subacute central loss
+key: Does it hurt to move your eye? | Optic neuritis
+key: Do colours look different, especially red? | Red desaturation
+key: Have you ever had numbness, tingling, weakness or vision problems before that went away? | Prior demyelination
+key: Any bladder problems, double vision or balance problems? | MS symptoms
+rf: Severe headache, papilloedema or both eyes affected | Other causes needing urgent imaging
+sum: So over three days the centre of your right eye's vision has blurred, it aches when you move the eye, reds look washed out, and last year you had leg tingling that settled. Is that right?
+pres: Hannah Price is a 28-year-old woman with 3 days of subacute central visual loss in the right eye with pain on eye movement and red desaturation, and a previous episode of transient bilateral leg paraesthesia. On examination I would expect a right RAPD and reduced acuity. This is right optic neuritis, likely demyelinating.
+ddx: Demyelinating optic neuritis, because of subacute painful central visual loss with red desaturation in a young woman with prior sensory symptoms | Ischaemic or compressive optic neuropathy, excluded by age and imaging | Neuromyelitis optica or MOG antibody disease, told apart by antibodies and severity
+ix: Visual acuity, colour vision with Ishihara plates, RAPD, fundoscopy; same-day ophthalmology; MRI brain and orbits with contrast; bloods including ESR, CRP and AQP4 and MOG antibodies if atypical
+mx: Same-day ophthalmology; neurology referral; IV methylprednisolone may speed recovery but does not change the final outcome; discuss MS risk sensitively once MRI is done
+tell: This looks like optic neuritis, inflammation of the nerve at the back of the eye. Most people's vision recovers over weeks to months. It can sometimes be the first sign of MS, so we'll arrange an MRI scan and a neurologist will talk it through with you. I can't say yet whether you have MS, and many people with optic neuritis never develop it.
+
+=== PP76 A
+who: Joanne Webb, 41, estate agent
+act: Rub a bruise on your shoulder from a door frame; a little embarrassed to mention the nipple discharge.
+open: I keep bumping into door frames. And I've been having headaches.
+story: For a few months I've been walking into things on both sides. I get headaches most days. My periods stopped six months ago, and I'm not pregnant.
+hpc: Vision: Bumping into things on both sides; missing cars coming from the side
+hpc: Headaches: Most days, dull, frontal
+hpc: Periods: Stopped 6 months ago
+hpc: Breasts: ONLY IF ASKED: milky discharge from both nipples
+hpc: Libido: Reduced
+yes: Headaches; amenorrhoea; galactorrhoea if asked; low libido
+no: Pregnancy; vomiting; double vision; weight change; facial change; hand or foot growth; thirst
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Non-smoker; 6 units a week; estate agent, drives for work
+ice: Needs glasses | A brain tumour | Answers
+cue: "I nearly hit a cyclist I didn't see."
+ask: Can I still drive?
+key: Where in your vision do you miss things, and on which side? | Bitemporal field loss
+key: Any headaches? | Mass effect
+key: Have your periods changed, any nipple discharge, or reduced sex drive? | Hyperprolactinaemia
+key: Any chance you could be pregnant? | Exclude pregnancy
+key: Any changes in your hands, feet or face, or weight gain and stretch marks? | Acromegaly and Cushing's
+key: Do you drive? | Field loss and DVLA
+rf: Sudden severe headache with visual loss | Pituitary apoplexy
+rf: Field loss while driving | Safety: stop driving until assessed
+sum: So for a few months you've been bumping into things on both sides, with headaches, your periods stopped six months ago and you've had milky nipple discharge. Is that right?
+pres: Joanne Webb is a 41-year-old woman with months of bilateral peripheral visual difficulty, daily headaches, secondary amenorrhoea, galactorrhoea and reduced libido. Confrontation testing would show a bitemporal hemianopia. This suggests a pituitary macroadenoma compressing the optic chiasm, most likely a prolactinoma.
+ddx: Prolactinoma compressing the optic chiasm, because of bitemporal field loss with amenorrhoea and galactorrhoea | Non-functioning pituitary adenoma with stalk effect, told apart by a prolactin only modestly raised | Craniopharyngioma or meningioma, distinguished on MRI
+ix: Pregnancy test; prolactin, TFTs, LH, FSH, oestradiol, cortisol, IGF-1; formal visual field testing; MRI pituitary with contrast
+mx: Urgent endocrinology referral; dopamine agonist such as cabergoline is first-line for prolactinoma and often shrinks it; surgery if not responding; stop driving and inform the DVLA until fields are assessed; ophthalmology follow-up
+tell: Your vision tests suggest something is pressing on the nerves for the outer parts of your vision. With your periods stopping and the discharge, the likeliest cause is a non-cancerous growth in the pituitary gland that makes a hormone called prolactin. Often it shrinks with tablets alone. Please don't drive until we've tested your vision properly.
+
+=== PP76 B
+who: Leonard Shaw, 70, retired postman
+act: Turn your head to the right to see; puzzled that the left side of things is missing. Talk about the wing mirror.
+open: Since yesterday I can't see things on my left. I hit my wing mirror parking.
+story: Yesterday morning, things on my left just weren't there. I clipped the left wing mirror on the gatepost. I can read if I move my head.
+hpc: Onset: Sudden, yesterday at about 9am
+hpc: Vision: Can't see the left side of things with either eye
+hpc: Reading: Can read with head turned
+hpc: Other: No weakness, numbness, speech problems or headache
+yes: Left-sided visual loss in both eyes
+no: Eye pain; headache; weakness; numbness; speech problems; confusion; previous episodes
+pmh: Atrial fibrillation; high blood pressure
+dh: Bisoprolol; amlodipine; aspirin 75 mg, never started an anticoagulant
+all: None
+fh: Nothing relevant
+sh: Ex-smoker; 8 units a week; drives
+ice: Needs new glasses | A stroke | To drive again
+cue: "I've driven 50 years without a scratch."
+ask: Can I still drive?
+key: When exactly did it start, and is it both eyes? | A homonymous field defect is behind the chiasm
+key: Can you see things on your left with either eye? | Homonymous hemianopia
+key: Any weakness, numbness, speech, swallowing or balance problems? | Stroke territory
+key: Any headache or reduced consciousness? | Haemorrhage
+key: Do you have AF, and are you on a blood thinner? | Embolic stroke
+key: Do you drive? | DVLA
+rf: Within the thrombolysis or thrombectomy window | Stroke pathway timing
+rf: Driving with field loss | Must stop driving
+sum: So since yesterday morning you've lost the left side of your vision in both eyes, without weakness or speech problems, and you have AF and take aspirin but not an anticoagulant. Is that right?
+pres: Leonard Shaw is a 70-year-old man with AF on aspirin alone who developed sudden left-sided visual loss in both eyes yesterday morning, about 24 hours ago, without other focal deficits. Confrontation would show a left homonymous hemianopia, likely with macular sparing. This is a right occipital, posterior cerebral artery territory stroke, likely cardioembolic.
+ddx: Right occipital ischaemic stroke, cardioembolic from AF, because of sudden homonymous hemianopia | Intracerebral haemorrhage, excluded with CT | Occipital tumour or migraine aura, unlikely given sudden persistent onset
+ix: Formal visual fields; CT head with CT angiography; MRI with diffusion-weighted imaging; ECG; FBC, U&Es, glucose, lipids, clotting; echo
+mx: Stroke unit admission; outside the thrombolysis window; aspirin 300 mg for 2 weeks, then a DOAC for AF per specialist timing; statin; BP control; must not drive and must tell the DVLA; visual rehabilitation
+tell: You've had a stroke in the part of the brain that handles vision on the left side. The irregular heartbeat likely sent a clot there. You'll be looked after on the stroke unit, and we'll start a blood thinner to prevent another. I'm sorry, but you mustn't drive with this kind of vision loss, and you'll need to tell the DVLA.
+
+=== PP77 A
+who: Peter Hill, 55, architect, very short-sighted
+act: Cover and uncover your right eye; gesture a shadow rising from below. Anxious but precise.
+open: I've had flashing lights and loads of floaters in my right eye, and today there's a shadow coming up from below.
+story: Two days ago I saw flashing lights in the right eye, then lots of black dots and cobwebs. Today a dark shadow is creeping up from the bottom. My central vision is still okay.
+hpc: Flashes: Right eye, 2 days ago, at the edge of vision
+hpc: Floaters: Shower of black dots and cobwebs since
+hpc: Shadow: Since this morning, rising from below
+hpc: Central vision: Still fine
+hpc: Myopia: -7 dioptres; wears glasses
+yes: Flashes; floaters; curtain; high myopia
+no: Pain; red eye; trauma; previous eye surgery; headache; weakness
+pmh: High myopia
+dh: None
+all: None
+fh: Nothing relevant
+sh: Non-smoker; architect; drives
+ice: Migraine | Going blind | Urgent help
+cue: "Is this something serious? I can't lose my sight, I'm an architect."
+ask: Will I lose my sight?
+key: When did the flashes and floaters start, and in which eye? | Posterior vitreous detachment
+key: Is there a shadow or curtain, and where is it coming from? | Retinal detachment
+key: Is your central vision still clear? | Macula on or off: urgency
+key: Are you short-sighted, and any eye surgery or injury? | Risk factors
+key: Any pain or redness? | Exclude other causes
+rf: Curtain with central vision preserved | Macula-on detachment: emergency surgery
+rf: New flashes and floaters | Same-day ophthalmology
+sum: So two days ago you had flashes then a shower of floaters in your right eye, and today a shadow is creeping up from below, but your central vision is fine. You're very short-sighted. Is that right?
+pres: Peter Hill is a 55-year-old highly myopic man with 2 days of flashes and a shower of floaters in the right eye followed today by an inferior field shadow rising upwards, with central vision preserved. This is a macula-on rhegmatogenous retinal detachment, an ophthalmic emergency.
+ddx: Rhegmatogenous retinal detachment with the macula on, because of flashes, floaters and a progressive curtain in a high myope | Posterior vitreous detachment without a tear, which lacks a field defect | Vitreous haemorrhage, told apart on dilated fundoscopy
+ix: Visual acuity; confrontation fields; same-day dilated fundoscopy by ophthalmology; ultrasound B-scan if view is poor
+mx: Same-day ophthalmology referral for urgent surgical repair, vitrectomy or scleral buckle, to protect the macula; avoid strenuous activity; no driving if vision is affected
+tell: I think the inner lining at the back of your eye, the retina, is coming away. Your central vision is still okay, which is good, but it needs fixing urgently to keep it that way. I'm referring you to the eye team to be seen today, and you'll likely need an operation soon. Avoid heavy activity until then.
+
+=== PP78 A
+who: Graham Pike, 62, retired accountant
+act: Holding the optician's letter; worried and a bit sceptical about lifelong drops.
+open: The optician said my eye pressure is high and the nerve looks cupped. I've no symptoms.
+story: I went for a routine eye test and they referred me. I can see fine. My brother has glaucoma.
+hpc: Symptoms: None
+hpc: Optician: Raised intraocular pressure; cupped optic discs; possible field changes
+hpc: Vision: Good with reading glasses
+hpc: Eye pain: Never
+yes: Brother with glaucoma
+no: Eye pain; haloes; red eye; headaches; vision loss; steroid use; asthma; heart block
+pmh: High blood pressure
+dh: Amlodipine 5 mg
+all: None
+fh: Brother has glaucoma
+sh: Ex-smoker; 6 units a week; drives
+ice: Ageing eyes | Going blind | Answers: will I go blind, drops forever?
+cue: "My brother puts drops in every night. Is that me now?"
+ask: Will I go blind? Do I need drops forever?
+key: Any symptoms: vision loss, pain, haloes, headaches? | Chronic open-angle glaucoma is asymptomatic
+key: What did the optician find? | Pressure, cupping, fields
+key: Any family history of glaucoma? | First-degree relatives have higher risk
+key: Any asthma, heart block or slow pulse? | Beta-blocker drops are contraindicated
+key: Any steroid use, eye injury or diabetes? | Risk factors
+rf: Painful red eye with haloes and vomiting | Acute angle closure: emergency
+sum: So the optician found high eye pressure and cupped nerves on a routine test, you've no symptoms, and your brother has glaucoma. Is that right?
+pres: Graham Pike is a 62-year-old man with asymptomatic raised intraocular pressure and optic disc cupping on routine optometry, with a brother with glaucoma. This is likely chronic open-angle glaucoma. He has no contraindications to beta-blocker drops but prostaglandin analogues are first line.
+ddx: Chronic open-angle glaucoma, because of raised pressure, disc cupping and family history | Ocular hypertension without nerve damage, told apart by normal discs and fields | Normal-tension glaucoma or secondary glaucoma, distinguished by specialist assessment
+ix: Ophthalmology: tonometry, gonioscopy, visual field testing, optic nerve assessment, central corneal thickness
+mx: Refer to ophthalmology per NICE; first-line generic prostaglandin analogue eye drops such as latanoprost; lifelong treatment and monitoring; laser trabeculoplasty an option; inform DVLA only if field loss affects both eyes; relatives over 40 get free NHS eye tests
+tell: Glaucoma damages the eye nerve slowly, usually without symptoms, which is why it's often found at routine tests. With drops, most people keep useful sight for life. The drops lower the pressure, and yes, it's usually lifelong, a bit like blood pressure tablets. Your children and siblings should have regular eye tests too.
+
+=== PP78 B
+who: Brian Ward, 58, delivery driver with type 2 diabetes
+act: A bit defensive about missing appointments; squint when looking at small print.
+open: My vision's a bit blurry, and they say my diabetes has affected my eyes.
+story: I've had diabetes ten years. I missed my last eye screening. My sugar's not great and my blood pressure is up.
+hpc: Diabetes: Type 2 for 10 years; HbA1c 75
+hpc: BP: 152/94
+hpc: Vision: Slightly blurred centrally, worse reading
+hpc: Screening: Missed last appointment
+hpc: Screening result: Exudates near the macula, microaneurysms and blot haemorrhages
+yes: Blurred central vision
+no: Sudden vision loss; floaters; flashes; eye pain; numb feet; foot ulcers
+pmh: Type 2 diabetes; high blood pressure
+dh: Metformin 1 g twice daily; gliclazide 80 mg; ramipril 5 mg
+all: None
+fh: Mother had diabetes and went partially blind
+sh: Smokes 10 a day; delivery driver; 10 units a week
+ice: Needs glasses | Going blind like his mum and losing his job | To keep driving
+cue: "Mum lost her sight from diabetes. I can't end up like that."
+ask: Will I go blind? Can I still drive?
+key: How long have you had diabetes, and how is your control? | HbA1c and duration
+key: How is your blood pressure? | BP accelerates retinopathy
+key: How is your vision: blurred, central, sudden loss, floaters? | Maculopathy versus proliferative
+key: When was your last eye screening? | Screening adherence
+key: Any kidney, foot or nerve problems? | Other microvascular disease
+rf: Sudden loss of vision or floaters | Vitreous haemorrhage from proliferative retinopathy
+sum: So you've had diabetes ten years, your HbA1c is 75 and blood pressure high, you missed your screening, and your vision is blurred in the middle. Is that right?
+pres: Brian Ward is a 58-year-old man with 10 years of poorly controlled type 2 diabetes, HbA1c 75, hypertension at 152/94, who missed screening and now has blurred central vision. Fundoscopy shows microaneurysms, blot haemorrhages and hard exudates near the macula. This is background diabetic retinopathy with maculopathy.
+ddx: Diabetic maculopathy with background retinopathy, because of exudates near the macula with central blurring | Pre-proliferative or proliferative retinopathy, excluded by the absence of cotton wool spots and new vessels | Cataract or refractive error, assessed by an optometrist
+ix: Visual acuity; dilated retinal examination; optical coherence tomography; HbA1c, U&Es, urine ACR, lipids
+mx: Refer to ophthalmology; anti-VEGF injections for centre-involving macular oedema; improve glycaemic control gradually; blood pressure to below 140/90; statin; smoking cessation; diabetic eye screening adherence; DVLA rules on vision
+tell: Diabetes has damaged small blood vessels at the back of your eye, and fluid near the centre is blurring your vision. The eye team can treat it, sometimes with injections into the eye, and better sugar and blood pressure control slows it down. Keeping your screening appointments really matters. I'll check whether your vision meets the driving standard.
+
+=== PP78 C
+who: Dorothy Allen, 79, retired dressmaker
+act: Holds a magazine at arm's length; describes wavy door frames with her hands.
+open: Over the last week, straight lines look wavy in my left eye, and there's a smudge in the middle when I read.
+story: The door frames look bent and wavy in my left eye. There's a dark smudge in the centre when I read. It's happened over about a week.
+hpc: Onset: Over a week
+hpc: Distortion: Straight lines wavy in the left eye
+hpc: Central scotoma: Dark smudge when reading
+hpc: Right eye: Fine
+hpc: Previous: Told she has "dry" macular degeneration in the right eye a few years ago
+yes: Metamorphopsia; central scotoma
+no: Pain; red eye; flashes; floaters; headaches; jaw pain
+pmh: Dry AMD right eye; high blood pressure
+dh: Amlodipine 5 mg
+all: None
+fh: Mother had macular degeneration
+sh: Smokes 10 a day; lives alone; enjoys sewing
+ice: Old age | Losing her reading and sewing | Help
+cue: "My sewing is all I have."
+ask: Can it be treated?
+key: When did the change start, and in which eye? | Rapid onset suggests wet AMD
+key: Do straight lines look wavy or bent? | Metamorphopsia
+key: Is there a dark patch in the centre? | Central scotoma
+key: Any pain, redness, flashes or floaters? | Other causes
+key: Do you smoke, and any family history? | AMD risk
+rf: Rapid central distortion | Wet AMD: macular clinic within 1 week
+sum: So over a week, straight lines in your left eye look wavy and there's a dark smudge in the centre when you read. You smoke and your mum had macular degeneration. Is that right?
+pres: Dorothy Allen is a 79-year-old smoker with a week of metamorphopsia and a central scotoma in the left eye, with known dry AMD in the right eye and a family history. This is suspected neovascular, wet, age-related macular degeneration in the left eye.
+ddx: Wet AMD, because of rapid-onset distortion and central scotoma in an older smoker | Dry AMD progression, which is slower and without distortion | Macular hole or epiretinal membrane, distinguished on OCT
+ix: Visual acuity; Amsler grid; dilated fundoscopy; OCT and fluorescein angiography at the macular clinic
+mx: Rapid referral to the macular service, to be seen within 1 week; anti-VEGF injections; smoking cessation; low vision aids; Amsler grid self-monitoring of the other eye
+tell: I think you have the "wet" form of macular degeneration in your left eye, where fragile vessels leak under the centre of the retina. There are injections that can stop it getting worse and sometimes improve vision, but they work best when started quickly, so you'll be seen within a week. Stopping smoking also protects your other eye.
+
+=== PP79 A
+who: Emma Lewis, 24, retail manager
+act: Hoarse, swallowing painfully, holding a tissue; frustrated by repeated time off work.
+open: I've got tonsillitis again. That's my seventh time this year.
+story: Day four of a really bad sore throat. I've got a fever and can barely eat. This keeps happening, and my boss isn't happy.
+hpc: Duration: 4 days
+hpc: Throat: Severe pain, painful swallowing
+hpc: Fever: 38.5 at home
+hpc: Cough: None
+hpc: Episodes: 7 this year, each needing time off work and antibiotics
+yes: Fever; tender neck glands; pus on tonsils; off food
+no: Cough; drooling; difficulty breathing; muffled voice; trismus; unilateral swelling; rash; fatigue for weeks
+pmh: Recurrent tonsillitis
+dh: Paracetamol
+all: None to penicillin
+fh: Nothing relevant
+sh: Non-smoker; 8 units a week; retail manager
+ice: Tonsillitis again | Losing her job | To have her tonsils out
+cue: "I can't keep taking time off."
+ask: Should I have my tonsils out? Is it dangerous? How long off work?
+key: How long have you had it, and how bad is the pain? | Duration and severity
+key: Any fever, cough, pus on the tonsils, tender glands? | FeverPAIN or Centor score
+key: Any drooling, difficulty breathing, muffled voice, or trouble opening your mouth? | Quinsy or epiglottitis
+key: How many episodes this year and in previous years, and how much time off? | Tonsillectomy criteria
+key: Any tiredness for weeks, or a rash with amoxicillin before? | Glandular fever
+rf: Unilateral swelling, trismus, uvula deviation | Peritonsillar abscess: same-day ENT
+rf: Stridor or drooling | Airway emergency: 999
+sum: So you've had four days of a severe sore throat with fever, no cough, and this is your seventh episode this year. Is that right?
+pres: Emma Lewis is a 24-year-old woman with 4 days of severe sore throat, fever and painful swallowing without cough, her seventh episode of tonsillitis this year with time off work each time. There are no features of quinsy or airway compromise. Her FeverPAIN score is high.
+ddx: Acute bacterial tonsillitis with recurrent tonsillitis meeting criteria for tonsillectomy, because of 7 episodes in a year | Infectious mononucleosis, told apart by prolonged fatigue, posterior nodes, splenomegaly and a Monospot | Peritonsillar abscess, excluded by the absence of trismus and uvular deviation
+ix: Clinical; FeverPAIN or Centor score; Monospot if features of glandular fever; throat swab not routine
+mx: Phenoxymethylpenicillin for 5 to 10 days, as no penicillin allergy; analgesia: paracetamol or ibuprofen; fluids; ENT referral for tonsillectomy per SIGN criteria; fit note
+tell: This is another bout of tonsillitis, and I'll prescribe penicillin. Because you've had seven this year, you meet the criteria to see the ear, nose and throat team about having your tonsils out. It's a common operation; the main risk is bleeding afterwards, and recovery usually takes about 2 weeks off work. If you can't swallow your saliva, struggle to breathe or open your mouth, go to A&E.
+
+=== PP80 A
+who: Clare Simmons, 38, primary school teacher
+act: Touch your throat repeatedly; swallow to demonstrate; speak with a slightly tired voice. Anxious about cancer.
+open: I've had a feeling of a lump in my throat for two months. I'm worried it's cancer.
+story: It feels like something is stuck in my throat, but it's better when I eat. It's worse when I'm stressed. My voice is tired at the end of the school day.
+hpc: Sensation: Lump in throat, 2 months, constant
+hpc: Eating: Better when eating; no food sticking
+hpc: Stress: Worse when stressed
+hpc: Voice: Tired by the end of the day, recovers overnight
+hpc: Pain: None
+yes: Stress; voice fatigue; throat clearing
+no: Difficulty swallowing food; pain; weight loss; neck lump; persistent hoarseness; blood; ear pain; smoking
+pmh: Anxiety
+dh: None
+all: None
+fh: Aunt had throat cancer
+sh: Non-smoker; 6 units a week; teacher
+ice: Something stuck | Cancer like her aunt | To be checked
+cue: "My aunt had a lump in her throat and it was cancer."
+ask: Is it cancer?
+key: Describe the sensation, and is it better or worse when eating? | Globus improves with eating
+key: Does food ever stick, or is swallowing painful? | True dysphagia or odynophagia
+key: Any weight loss, persistent hoarseness, neck lump or ear pain? | Head and neck cancer red flags
+key: Do you smoke or drink heavily? | Risk factors
+key: How much do you use your voice? Any reflux? | Voice strain and reflux
+rf: Persistent hoarseness over 3 weeks, dysphagia, neck lump, weight loss, unilateral ear pain | Suspected cancer pathway
+sum: So for two months you've felt a lump in your throat that's better when you eat and worse with stress, your voice gets tired at work, and there's no swallowing difficulty, weight loss or neck lump. Is that right?
+pres: Clare Simmons is a 38-year-old teacher with 2 months of a persistent sensation of a lump in the throat that improves with eating and worsens with stress, with end-of-day voice fatigue. She has no dysphagia, odynophagia, weight loss, persistent hoarseness or neck lump and is a non-smoker. This is globus pharyngeus with voice overuse.
+ddx: Globus pharyngeus, because of a lump sensation that improves with eating without red flags | Laryngopharyngeal reflux, told apart by heartburn and throat clearing responding to treatment | Head and neck cancer, very unlikely without red flags; refer if any develop
+ix: Neck examination; no imaging needed without red flags; nasendoscopy by ENT if persistent or any doubt
+mx: Reassure with a clear explanation; voice hygiene: hydration, voice rest, avoid shouting, microphone in class; speech and language therapy if voice symptoms persist; trial of reflux treatment if reflux symptoms; safety-net
+tell: This sounds like globus, a common feeling of a lump in the throat caused by muscle tension, often worse with stress. It's not cancer. Unlike cancer, it improves when you eat. Looking after your voice at work helps. If food starts sticking, you lose weight, your voice stays hoarse for 3 weeks or you feel a lump in your neck, come back and we'll refer you urgently.
+
+=== PP80 B
+who: Terry Watts, 62, scaffolder
+act: Hoarse, rough voice; rub your right neck and right ear. Gruff, reluctant to discuss drinking.
+open: My voice has been hoarse for six weeks, and now I've got a lump in my neck.
+story: My voice went rough six weeks ago and it's getting worse. Three weeks ago I found a lump on the right side of my neck. My right ear hurts and I've lost weight.
+hpc: Voice: Hoarse 6 weeks, worsening
+hpc: Neck lump: Right side, 3 weeks, painless, hard
+hpc: Ear: Right ear pain, nothing wrong with the ear
+hpc: Weight: Lost 5 kg in 2 months
+hpc: Swallowing: Some discomfort swallowing
+yes: Weight loss; referred otalgia; odynophagia
+no: Fever; recent infection; breathing difficulty; stridor; coughing blood
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Smokes 30 a day for 45 years; 6 pints a night; scaffolder
+ice: A throat infection | Cancer | Antibiotics
+cue: "My voice is my job. I shout all day."
+ask: Is it cancer?
+key: How long have you been hoarse, and is it getting worse? | Over 3 weeks is a red flag
+key: Tell me about the neck lump: when, where, painful, growing? | Nodal metastasis
+key: Any ear pain, difficulty or pain swallowing, or weight loss? | Referred otalgia and red flags
+key: Any breathing difficulty or noisy breathing? | Airway compromise
+key: How much do you smoke and drink? | Major risk factors
+rf: Stridor or breathing difficulty | Airway emergency
+rf: Persistent hoarseness and neck lump over 45 | Suspected cancer pathway
+sum: So for six weeks your voice has been worsening, for three weeks you've had a lump on the right of your neck, your right ear hurts and you've lost weight. You smoke and drink heavily. Is that right?
+pres: Terry Watts is a 62-year-old man with a heavy smoking and alcohol history and 6 weeks of progressive hoarseness, a 3-week painless hard right neck lump, right referred otalgia, odynophagia and 5 kg weight loss. This is highly suspicious of a laryngeal or hypopharyngeal cancer with nodal metastasis.
+ddx: Laryngeal squamous cell carcinoma with nodal spread, because of progressive hoarseness with a neck node, otalgia and weight loss in a heavy smoker and drinker | Benign vocal cord pathology with reactive node, unlikely given red flags | Lymphoma or thyroid cancer, distinguished by examination, ultrasound and biopsy
+ix: Head and neck examination; suspected cancer pathway: flexible nasendoscopy, ultrasound and fine-needle aspiration of the node, CT or MRI of neck and chest, panendoscopy and biopsy
+mx: Suspected cancer pathway referral to head and neck ENT; smoking and alcohol cessation support; urgent review if any breathing difficulty; head and neck MDT
+tell: A hoarse voice that won't go plus a lump in your neck needs checking urgently, and one possibility is cancer of the voice box. I'm referring you to the specialists to be seen within two weeks, where they'll look at your voice box with a small camera. If you have any trouble breathing or noisy breathing, call 999.
+
+=== PP80 C
+who: Elizabeth Jones, 72, retired nursery nurse
+act: Touch the lump at the front of your neck; slightly hoarse; restless, fanning yourself. Reveal the radiotherapy only if asked.
+open: I've found a lump at the front of my neck. I thought it was a gland after a cold.
+story: I noticed it five weeks ago putting cream on. It's hard and doesn't move much, and I think it's grown.
+hpc: Lump: Front of neck, 5 weeks, hard, fixed, possibly growing, painless
+hpc: Voice: ONLY IF ASKED: hoarse for 2 weeks
+hpc: Thyroid symptoms: ONLY IF ASKED: heat intolerance, agitation, diarrhoea, hungry and tired for 5 weeks
+hpc: Weight: Lost 5 kg in a month
+hpc: Radiotherapy: ONLY IF ASKED: radiotherapy for breast cancer 25 years ago
+yes: Hoarseness; weight loss; heat intolerance; diarrhoea; agitation
+no: Difficulty swallowing; breathing problems; pain; fever; eye changes
+pmh: Breast cancer 25 years ago, treated with surgery and radiotherapy
+dh: Vitamins only
+all: None
+fh: Nothing relevant
+sh: Non-smoker; lives in a bungalow with her husband
+ice: A swollen gland | Breast cancer coming back | To get it checked
+cue: "I had breast cancer before. Is it back?"
+ask: Is it the cancer back?
+key: When did you notice it, is it growing, and is it hard and fixed? | Malignant features
+key: Any change in your voice, swallowing or breathing? | Recurrent laryngeal nerve and compression
+key: Any heat intolerance, palpitations, diarrhoea, weight loss or anxiety? | Thyroid function
+key: Any previous radiotherapy to the neck or chest? | Radiation-induced thyroid cancer
+key: Any family history of thyroid cancer? | Risk
+rf: Hoarseness, rapid growth, hard fixed lump, radiation history | Suspected cancer pathway
+rf: Stridor | Airway compromise
+sum: So for five weeks you've had a hard, fixed lump at the front of your neck that may be growing, your voice has been hoarse for two weeks, you've lost weight with heat intolerance and diarrhoea, and you had radiotherapy 25 years ago. Is that right?
+pres: Elizabeth Jones is a 72-year-old woman with a 5-week hard, fixed, possibly enlarging anterior neck lump with 2 weeks of hoarseness, 5 kg weight loss and thyrotoxic symptoms, with previous radiotherapy for breast cancer 25 years ago. The red flags of hoarseness, a hard fixed lump and prior radiation make thyroid cancer the main concern.
+ddx: Thyroid cancer with recurrent laryngeal nerve involvement, because of a hard fixed enlarging nodule with hoarseness and previous radiation | Toxic nodule, told apart by TFTs and an isotope scan, though this does not exclude cancer | Recurrent breast cancer or lymphoma, distinguished on biopsy
+ix: TFTs; suspected cancer pathway: ultrasound with fine-needle aspiration; laryngoscopy for vocal cord function; CT neck and chest if malignant
+mx: Suspected cancer pathway referral; beta-blocker for thyrotoxic symptoms if needed; thyroid MDT; surgery and further treatment as indicated
+tell: Some features of this lump worry me: it's hard, it may be growing, your voice has changed and you had radiotherapy years ago. These can be signs of a thyroid cancer, so I'm referring you to be seen within two weeks for a scan and a needle test. It's unlikely to be your breast cancer coming back, but the tests will tell us.
+
+=== PP81 A
+who: Mark Owens, 40, plumber
+act: Nasal voice, sniffing; press on your cheeks and lean forward to show the pain worsens. Keen on antibiotics.
+open: I've had this cold for two weeks and now my face is killing me. I need antibiotics.
+story: I had a cold two weeks ago and it's turned into this. My nose is blocked, there's thick green stuff, my cheeks hurt and it's worse when I bend down. I can't smell anything.
+hpc: Duration: 12 days since the cold started
+hpc: Nose: Blocked, thick green discharge
+hpc: Pain: Over both cheeks, worse bending forward
+hpc: Smell: Lost
+hpc: Temperature: 37.8
+yes: Facial pain; discoloured discharge; anosmia; mild fever
+no: Eye swelling; double vision; reduced vision; severe headache; confusion; neck stiffness; forehead swelling; previous sinus surgery
+pmh: Nothing
+dh: Paracetamol
+all: None
+fh: Nothing relevant
+sh: Non-smoker; plumber; 10 units a week
+ice: A sinus infection | Losing work days | Antibiotics
+cue: "Last time the doctor gave me antibiotics and it cleared up."
+ask: Can I have antibiotics?
+key: How long have you had symptoms, and did they start with a cold? | Over 10 days
+key: Where is the pain, and is it worse bending forward? | Sinus pain
+key: What colour is the discharge, and can you smell? | Discharge and anosmia
+key: Any swelling around the eye, double vision or reduced vision? | Orbital complications
+key: Any severe headache, confusion or neck stiffness? | Intracranial complications
+rf: Periorbital swelling or visual change | Orbital cellulitis: same-day referral
+rf: Severe frontal headache, confusion or neck stiffness | Intracranial spread
+sum: So after a cold two weeks ago you have a blocked nose with green discharge, pain over your cheeks that's worse bending forward, you can't smell, and a mild temperature, with no eye or vision problems. Is that right?
+pres: Mark Owens is a 40-year-old man with 12 days of nasal obstruction, purulent discharge, bilateral maxillary pain worse on bending and anosmia following a cold, with a low-grade fever. There are no orbital or intracranial red flags. This is acute rhinosinusitis with symptoms beyond 10 days.
+ddx: Acute rhinosinusitis, possibly bacterial, because of symptoms beyond 10 days after a cold with facial pain and purulent discharge | Viral rhinosinusitis, which usually resolves within 2 to 3 weeks | Orbital cellulitis or intracranial complications, excluded by the absence of red flags; dental infection if unilateral
+ix: Clinical diagnosis; no imaging or swabs needed
+mx: Per NICE: high-dose nasal corticosteroid for 14 days, such as mometasone; paracetamol or ibuprofen; saline irrigation; no antibiotic or a back-up prescription of phenoxymethylpenicillin for 5 days if worsening or not improving; safety-net
+tell: This is sinusitis, and most cases clear up without antibiotics, even after 10 days. A steroid nose spray for 2 weeks, saltwater rinses and painkillers usually help most. I'll give you a back-up antibiotic prescription to use only if you get worse or aren't improving in a few days. If you get swelling around the eye, double vision or a severe headache, go to A&E.
+
+=== PP82 A
+who: Arthur Grey, 72, retired coach driver
+act: Head tilted back, blood-stained tissues, anxious; spit out blood occasionally. Feel a bit dizzy when you sit up.
+open: My nose has been bleeding for an hour and it won't stop.
+story: It started an hour ago from the right nostril. I've been tilting my head back and pinching the bridge of my nose. It's still going.
+hpc: Duration: 1 hour, continuous
+hpc: Side: Right nostril
+hpc: First aid: Tilting head back; pinching the bony bridge
+hpc: Blood in throat: Swallowing some blood
+hpc: Dizziness: A bit dizzy on sitting up
+hpc: Previous: Small nosebleeds before, stopped quickly
+yes: Dizziness; swallowing blood; on warfarin
+no: Trauma; nose picking; bleeding elsewhere; bruising; chest pain; black stools
+pmh: Atrial fibrillation; high blood pressure
+dh: Warfarin; bisoprolol; amlodipine
+all: None
+fh: Nothing relevant
+sh: Ex-smoker; 6 units a week; lives with wife
+ice: Blood pressure | That it won't stop | To stop the bleeding
+cue: "Should I stop my warfarin?"
+ask: Should I stop my warfarin?
+key: How long has it been bleeding, from which side, and is it going down your throat? | Anterior versus posterior
+key: What have you done so far? | Correct first aid
+key: Are you on blood thinners, and when was your last INR? | Anticoagulation
+key: Any dizziness, palpitations or fainting? | Haemodynamic compromise
+key: Any previous nosebleeds, injury, or bleeding elsewhere? | Underlying causes
+rf: Haemodynamic instability or posterior bleeding | Senior and ENT emergency
+rf: Supratherapeutic INR | Reversal may be needed
+sum: So your right nostril has been bleeding for an hour despite tilting your head back, you're swallowing blood and feel dizzy, and you're on warfarin. Is that right?
+pres: Arthur Grey is a 72-year-old man on warfarin for AF with hypertension presenting with 1 hour of persistent right anterior epistaxis despite incorrect first aid, swallowing some blood, with mild dizziness. I would first assess A to E and correct his first aid.
+ddx: Persistent anterior epistaxis from Little's area, worsened by warfarin, because of a unilateral bleed | Posterior epistaxis, suggested by bleeding into the throat despite anterior pressure | Supratherapeutic INR or haemodynamic compromise, assessed with INR, FBC and observations
+ix: A to E, observations; FBC, INR, clotting, group and save; examine with a headlight for a bleeding point
+mx: Correct first aid: sit forward, mouth open, pinch the soft part of the nose for 10 to 15 minutes without releasing, ice to the mouth; if it continues: topical anaesthetic and vasoconstrictor, silver nitrate cautery to a visible point, or anterior nasal packing; ENT if posterior or persistent; do not stop warfarin routinely unless the INR is high or bleeding is life-threatening, with senior advice; Naseptin cream after cautery if no peanut allergy
+tell: Tilting your head back makes you swallow blood, so lean forward instead and pinch the soft part of your nose for 15 minutes without letting go. If it doesn't stop, we can seal the vessel or put a pack in your nose. Please don't stop your warfarin yourself; we'll check your blood level and decide together. If it happens again at home and won't stop after 20 minutes, come in.
