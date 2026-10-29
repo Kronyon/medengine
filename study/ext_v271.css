@@ -1,0 +1,21 @@
+
+/* v2.7.1 🖍️ highlighter */
+mark.hq-mk{background:#ffe45c;color:#1a1a1a;border-radius:2px;padding:0 1px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.hq-stem.hl-on [data-hlb]{cursor:text}
+.hq-stem.hl-on mark.hq-mk{cursor:pointer}
+.hq-stem.hl-on mark.hq-mk:hover{background:#ffd21f}
+.hq-labw mark.hq-mk{color:#1a1a1a}
+.hq-penb.on{border-color:#e0b400;background:rgba(255,228,92,.35)}
+/* the sync label in a run is a button that opens 📲 */
+button.hq-saved{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-decoration:underline dotted;text-underline-offset:3px}
+/* 📲 devices panel */
+.dv-modal{max-width:600px}
+.dv-sec{border-top:1px solid var(--line);padding:12px 0 4px}
+.dv-sec h4{margin:0 0 6px}
+.dv-st{margin:0 0 8px;font-weight:600}
+.dv-ta{width:100%;box-sizing:border-box;font:12px ui-monospace,SFMono-Regular,Menlo,monospace;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg,transparent);color:inherit;resize:vertical;word-break:break-all;margin:6px 0}
+.dv-file{position:relative;cursor:pointer}
+.dv-msg{font-weight:600;min-height:1em;margin:6px 0 0}
+.dv-list{margin:6px 0;padding-left:18px}
+.dv-list li{margin:2px 0}
+#devBtn{font-size:1rem}

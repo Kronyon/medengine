@@ -1,5 +1,24 @@
 # Changelog
 
+## 2.7.2 (2026-10-29)
+
+🖍️ **STUDY: highlighter on every question, like Passmedicine.**
+- Drag across words, or tap a word, and it turns yellow. Tap more words next to it to build a phrase.
+- Tap a highlight to remove it, or use 🧽 to clear the whole question.
+- 🖍️ or <kbd>H</kbd> switches the pen on and off.
+- Highlights work on the stem, the Investigations table and the lead-in. They stay through answering and review, and they are kept per question.
+
+📲 **STUDY: carry on from your laptop to your phone.**
+- **☁️ Automatic sync is fixed.** Progress used to go to the database as one document, and documents are capped at 256 KiB. Once a progress record grew past that, sync switched itself off without saying so.
+- Progress is now split into parts and chunks, and each part is merged record by record:
+  - each saved run is matched by its ID and the newer one wins; ended runs stay deleted;
+  - question stats keep the higher attempt count;
+  - streak days and highlights are merged.
+- So two devices never wipe each other's work. Sync pulls when you return to the tab and every minute, and pushes when you leave.
+- The run header now shows ☁️ synced or 💾 saved. Tap it, or 📲 in the top bar, for the devices panel.
+- **💾 Save file and 📋 save code** move everything between devices, including the offline and website copies that cannot sync: progress, runs, highlights, 🔥 My misses and remix cards. Loading merges rather than replaces. The API key is never included.
+- Test: `study/test_study_v271.py` plays a laptop and a phone against a mock database with the real size limit, plus a no-Claude copy loading a save code.
+
 ## 2.7.1 (2026-10-29)
 
 📝 **STUDY 2.7.1: every Hammer question is now a full MSCAA-length vignette.** All 1,632 stems were rewritten by hand, so none read like "A woman with DKA has…" any more.

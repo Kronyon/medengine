@@ -214,14 +214,14 @@ mev_css = open(MEDAPP / 'src' / 'mev.css', encoding='utf-8').read()
 mev_js = open(MEDAPP / 'src' / 'mev.js', encoding='utf-8').read()
 dg_js = '\n'.join(open(MEDAPP / 'src' / f, encoding='utf-8').read() for f in ('dg_core.js', 'dg_cards.js', 'dg_ex.js', 'dg_img.js', 'dg_more.js', 'dg_new.js', 'dg_snap.js', 'dg_poster.js', 'dg_figs.js', 'trg.js'))
 ext_css = open(HERE / 'ext_study.css', encoding='utf-8').read()
-ext_js = open(HERE / 'ext_study.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v07.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v08.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v11.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v12.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v15.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v20.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v21.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v22.js', encoding='utf-8').read()
-ext_css += open(HERE / 'ext_v07.css', encoding='utf-8').read() + open(HERE / 'ext_v08.css', encoding='utf-8').read() + open(HERE / 'ext_v11.css', encoding='utf-8').read() + open(HERE / 'ext_v12.css', encoding='utf-8').read() + open(HERE / 'ext_v15.css', encoding='utf-8').read() + open(HERE / 'ext_v20.css', encoding='utf-8').read() + open(HERE / 'ext_v21.css', encoding='utf-8').read() + open(HERE / 'ext_v22.css', encoding='utf-8').read()
+ext_js = open(HERE / 'ext_study.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v07.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v08.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v11.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v12.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v15.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v20.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v21.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v22.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v271.js', encoding='utf-8').read()
+ext_css += open(HERE / 'ext_v07.css', encoding='utf-8').read() + open(HERE / 'ext_v08.css', encoding='utf-8').read() + open(HERE / 'ext_v11.css', encoding='utf-8').read() + open(HERE / 'ext_v12.css', encoding='utf-8').read() + open(HERE / 'ext_v15.css', encoding='utf-8').read() + open(HERE / 'ext_v20.css', encoding='utf-8').read() + open(HERE / 'ext_v21.css', encoding='utf-8').read() + open(HERE / 'ext_v22.css', encoding='utf-8').read() + open(HERE / 'ext_v271.css', encoding='utf-8').read()
 assert '</script' not in mev_js and '</script' not in ext_js and '</script' not in dg_js
 rep('<header class="top">', '<style>\n' + mev_css + ext_css + '</style>\n<header class="top">')
 rep('<script id="qqdata" type="application/json">', '<script>\n' + mev_js + '</script>\n<script>\n' + dg_js + '</script>\n<script id="qqdata" type="application/json">')
 
 # ---------- version ----------
-rep('<small>v0.5.0 beta</small>', '<small>v2.7.1</small>')
+rep('<small>v0.5.0 beta</small>', '<small>v2.7.2</small>')
 rep('const fmtRich = t => fmtPlain(t)', 'const fmtRich = t => dualHtml(t) || fmtRich0(t);\nconst fmtRich0 = t => fmtPlain(t)')
 
 # ---------- script hooks ----------
@@ -271,6 +271,14 @@ rep("hwBar(hunts) + '<div class=\"hws' + (lim ? ' lim' : '') + '\">' + huntHtml(
 rep("</h6><div class=\"hws\">' + huntHtml(u.hunt) + '</div></div>'", "</h6><div class=\"hws\">' + huntStacks(u.hunt, u.i) + '</div></div>'")
 rep("  $$('.hw', box).forEach(x => x.hidden = (f !== 'all' && !x.classList.contains(f)) || (!!q && !x.textContent.toLowerCase().includes(q)));\n", "  $$('.hw', box).forEach(x => x.hidden = (f !== 'all' && !x.classList.contains(f)) || (!!q && !x.textContent.toLowerCase().includes(q)));\n  hwStHide(box);\n")
 rep('<tr><td>🩺 / 🧬</td>', help_rows + '<tr><td>🩺 / 🧬</td>')
+
+# v2.7.1: sync across devices in chunks with per-record merging, plus the 📲 transfer panel and the 🖍️ highlighter
+rep("""(async function initDb(){
+  try {""", """(async function initDb(){ await 0; return syncInit();
+  try {""")
+rep("async function pushDb(){\n  if (!DB || !UID) return;\n  if (dbBusy)", "async function pushDb0(){\n  if (!DB || !UID) return;\n  if (dbBusy)")
+rep('<button class="iconbtn" id="helpBtn"', '<button class="iconbtn" id="devBtn" aria-label="Sync and move your progress between devices" title="Sync and move your progress between devices">📲</button><button class="iconbtn" id="helpBtn"')
+rep('<p class="hint" id="syncNote" style="margin-top:14px">Progress is saved in this browser.</p>', '<div class="toolbar" style="margin-top:14px"><button class="btn sm" data-devopen>📲 Sync and move progress between devices</button></div><p class="hint" id="syncNote">Progress is saved in this browser.</p>')
 
 open(a.out, 'w', encoding='utf-8').write(html)
 print('wrote', a.out, len(html) // 1024, 'KB; clinchers', len(K), '; units with act', sum(1 for u in U if u.get('act')))

@@ -135,9 +135,9 @@ function hqNewRun(list, lbl){
 function hqSave(){
   if (!hqSess || hqSess.done || hqSess.rev) return; const R = hqRuns(), rec = {rid: hqSess.rid, ids: hqSess.ids, i: hqSess.i, pk: hqSess.pk, x: hqSess.x, lbl: hqSess.lbl, ts: Date.now(), ov: 2};
   const k = R.findIndex(r => r.rid === hqSess.rid); if (k >= 0) R.splice(k, 1);
-  R.unshift(rec); R.length = Math.min(R.length, HQ_KEEP); save();
+  R.unshift(rec); R.length = Math.min(R.length, HQ_KEEP); syLocalRunTs = rec.ts; save();
 }
-function hqDrop(rid){ S.hqRuns = hqRuns().filter(r => r.rid !== rid); save(); }
+function hqDrop(rid){ S.hqDel = S.hqDel || {}; S.hqDel[rid] = Date.now(); S.hqRuns = hqRuns().filter(r => r.rid !== rid); save(); }
 function hqResume(rid){
   const R = hqRuns(), r = rid ? R.find(x => x.rid === rid) : R[0]; if (!r || !r.ids || !r.ids.length) return false;
   const ids = r.ids.filter(id => hqItem(id)); if (!ids.length) { hqDrop(r.rid); return false; }
@@ -151,7 +151,7 @@ function hqResumeBox(){
   return '<div class="panel hq-resume"><h6>⏸ Saved runs · ' + R.length + '</h6>' + R.map(r => {
     const nd = Object.keys(r.pk || {}).length, ok = Object.entries(r.pk || {}).filter(([id, p]) => { const q = hqItem(id); return q && q.a === p; }).length;
     return '<div class="toolbar hq-rrow"><span class="grow"><b>' + esc(r.lbl || '🔀 Mixed run') + '</b> <span class="hint">' + nd + ' of ' + r.ids.length + ' answered' + (nd ? ' · ' + ok + ' right' : '') + ' · ' + hqAgo(r.ts) + '</span></span><button class="btn primary sm" data-hqresume="' + esc(r.rid) + '">▶ Resume at Q' + ((r.i || 0) + 1) + '</button><button class="btn ghost sm" data-hqdrop="' + esc(r.rid) + '" title="Delete this saved run" aria-label="Delete saved run">🗑</button></div>';
-  }).join('') + '<p class="hint" style="margin:0">Each run keeps its place, answers and cross-outs. Starting a new run never wipes these; 🏁 End closes one.</p></div>';
+  }).join('') + '<p class="hint" style="margin:0">Each run keeps its place, answers, cross-outs and 🖍️ highlights. Starting a new run never wipes these; 🏁 End closes one.</p><div class="toolbar"><button class="btn ghost sm" data-devopen>📲 Continue on another device</button></div></div>';
 }
 function hqStart(n){
   let list = hqFilter();
@@ -199,7 +199,7 @@ function hqDraw(m){
   if (s.done) return hqEnd(m);
   const n = s.ids.length, it = hqItem(s.ids[s.i]), L = 'ABCDE', pick = s.pk[it.id], ans = pick != null, xs = s.x[it.id] || [];
   const done = Object.keys(s.pk).length;
-  let h = '<div class="wrap hq-wrap"><div class="ph"><div class="crumbs"><span class="code">🔨 ' + (s.i + 1) + ' / ' + n + '</span><span class="hint">' + done + ' answered' + (s.lbl && (ans || hqLblSafe(s.lbl)) ? ' · ' + esc(s.lbl) : /^🧬/.test(s.lbl || '') ? ' · 🧬 Examiner pattern set' : '') + ' · <span class="hq-saved" title="Every answer and cross-out is saved on this device">💾 saved</span></span><span class="grow"></span><button class="btn ghost sm hq-scanb' + (S.set.hqScan ? ' on' : '') + '" data-hqscan title="Scan mode: question line first, out-of-range numbers lit, normal ones dimmed (S)" aria-pressed="' + (S.set.hqScan ? 'true' : 'false') + '">🦅 Scan</button><button class="btn ghost sm" data-hqfin>🏁 End</button><button class="btn ghost sm" data-hqexit title="Your place is saved">✕ Leave</button></div>';
+  let h = '<div class="wrap hq-wrap"><div class="ph"><div class="crumbs"><span class="code">🔨 ' + (s.i + 1) + ' / ' + n + '</span><span class="hint">' + done + ' answered' + (s.lbl && (ans || hqLblSafe(s.lbl)) ? ' · ' + esc(s.lbl) : /^🧬/.test(s.lbl || '') ? ' · 🧬 Examiner pattern set' : '') + ' · <button class="hq-saved" data-devopen title="Saved on this device. Tap 📲 to move it">' + (SY.on && !SY.err ? '☁️ synced' : '💾 saved') + '</button></span><span class="grow"></span>' + hlBtns(it.id) + '<button class="btn ghost sm hq-scanb' + (S.set.hqScan ? ' on' : '') + '" data-hqscan title="Scan mode: question line first, out-of-range numbers lit, normal ones dimmed (S)" aria-pressed="' + (S.set.hqScan ? 'true' : 'false') + '">🦅 Scan</button><button class="btn ghost sm" data-hqfin>🏁 End</button><button class="btn ghost sm" data-hqexit title="Your place is saved">✕ Leave</button></div>';
   h += '<div class="hq-pal" role="navigation" aria-label="Questions">' + s.ids.map((id, j) => { const p = s.pk[id], q = hqItem(id); const c = p == null ? '' : p === q.a ? ' ok' : ' bad'; return '<button class="hq-pn' + c + (j === s.i ? ' on' : '') + '" data-hqgo="' + j + '" aria-label="Question ' + (j + 1) + '">' + (j + 1) + '</button>'; }).join('') + '</div>';
   h += ans ? '<div class="hq-tag"><span>' + esc(hqTitle(it)) + '</span><span class="hq-h">' + HAM(it.h) + '</span><span class="hq-p">' + HQ_PI[it.p] + ' ' + esc(HQ.pat[it.p] || '') + '</span>' + (it.ref ? '<span class="hq-ref">' + esc(it.ref) + '</span>' : '') + hqBadges(it) + '</div></div>'
     : '<div class="hq-tag"><span>' + esc(hqSrcLabel(it)) + '</span><span class="hq-h">' + HAM(it.h) + '</span>' + (it.ref ? '<span class="hq-ref">' + esc(it.ref) + '</span>' : '') + '<span class="hq-p hq-lock" title="The topic and the pattern appear once you answer, so they cannot give the answer away">🔒 Topic after you answer</span></div></div>';
@@ -222,7 +222,7 @@ function hqDraw(m){
   }
   h += '<div class="toolbar hq-nav"><button class="btn" data-hqnav="-1"' + (s.i ? '' : ' disabled') + '>← Prev</button><span class="grow"></span>' + (s.i + 1 < n ? '<button class="btn' + (ans ? ' primary' : '') + '" data-hqnav="1">Next →</button>' : '<button class="btn primary" data-hqfin>🏁 Finish</button>') + '</div>';
   h += '</div></div>';
-  m.innerHTML = h;
+  m.innerHTML = h; hlApply(m, it.id);
   const on = m.querySelector('.hq-pn.on'); if (on && on.scrollIntoView) { const pal = m.querySelector('.hq-pal'); pal.scrollLeft = on.offsetLeft - pal.clientWidth / 2; }
 }
 function hqPick(i){
@@ -260,6 +260,7 @@ function hqKey(e){
   if (e.key === 'ArrowLeft') { e.preventDefault(); hqGo(s.i - 1); return true; }
   if (e.key === 'ArrowRight') { e.preventDefault(); if (s.i + 1 < s.ids.length) hqGo(s.i + 1); return true; }
   if (e.key === 's' || e.key === 'S') { if (e.metaKey || e.ctrlKey || e.altKey) return false; e.preventDefault(); hqScanToggle(); return true; }
+  if (e.key === 'h' || e.key === 'H') { if (e.metaKey || e.ctrlKey || e.altKey) return false; e.preventDefault(); hlPenToggle(); return true; }
   const it = hqItem(s.ids[s.i]), k = e.key.toUpperCase(), li = 'ABCDE'.indexOf(k), idx = li >= 0 && k.length === 1 ? li : /^[1-5]$/.test(e.key) ? +e.key - 1 : -1;
   if (idx >= 0 && idx < it.o.length) { e.preventDefault(); if (e.shiftKey && li >= 0) hqStrike(idx); else hqPick(idx); return true; }
   if (e.key === 'Enter' || k === 'N') { e.preventDefault(); if (s.i + 1 < s.ids.length) hqGo(s.i + 1); else hqFinish(); return true; }
@@ -350,11 +351,12 @@ function hqStem(it){
   let s = it.s || '', ql = it.ql || '';
   if (!ql) { const m = s.match(/^([\s\S]*?)((?:Which|What|How|Where|When|Who|Why|In which|In what|At what|To what|From which|Damage to which|A surge in which)[^?]*\?)\s*$/); if (m && m[1].trim()) { s = m[1].trim(); ql = m[2]; } }
   let h = '<div class="hq-stem">' + (ql ? '<p class="hq-ql hq-qtop"><span class="hq-qi">❓ Read this first</span> ' + hqHi(ql, 'q') + '</p>' : '');
-  s.split('\n').filter(x => x.trim()).forEach(p => h += '<p class="hq-s">' + hqHi(p) + '</p>');
-  if (it.lab && it.lab.length) h += hqLab(it.lab);
-  (it.post || '').split('\n').filter(x => x.trim()).forEach(p => h += '<p class="hq-s">' + hqHi(p) + '</p>');
+  let bi = 0;
+  s.split('\n').filter(x => x.trim()).forEach(p => h += '<p class="hq-s" data-hlb="p' + (bi++) + '">' + hqHi(p) + '</p>');
+  if (it.lab && it.lab.length) h += hqLab(it.lab).replace('<div class="hq-labw">', '<div class="hq-labw" data-hlb="lab">');
+  (it.post || '').split('\n').filter(x => x.trim()).forEach(p => h += '<p class="hq-s" data-hlb="p' + (bi++) + '">' + hqHi(p) + '</p>');
   (it.img || []).forEach(n => { if (OFF.img[n]) h += '<figure class="hq-fig"><img src="' + OFF.img[n] + '" alt="Image for this question" loading="lazy" data-hqzoom></figure>'; });
-  return h + (ql ? '<p class="hq-ql hq-qbot">' + hqHi(ql, 'q') + '</p>' : '') + '</div>';
+  return h + (ql ? '<p class="hq-ql hq-qbot" data-hlb="q">' + hqHi(ql, 'q') + '</p>' : '') + '</div>';
 }
 function hqBadges(it){
   return (it.t === 'o' && HQ_IL[it.il] ? '<span class="hq-p hq-il' + it.il + '">' + HQ_IL[it.il].join(' ') + '</span>' : '') + (hqInKind(it.id, 'clone') ? '<span class="hq-p hq-hot">🔥 Double-tested</span>' : '');
