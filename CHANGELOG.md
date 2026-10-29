@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.5.0 (2026-10-29)
+
+🏛️ **The official practice papers inside medengine-STUDY, decoded.**
+- **399 official questions** with their answers, images and the examiners' justifications: MS AKT practice papers 1 and 2 (Medical Schools Council, 2023) and the MSCAA practice papers of December 2017, November 2018, December 2019 and December 2020. Parsed from the answer-key PDFs; lab results become real Investigations tables with reference ranges; the 21 images (ECGs, X-rays, CT, fundus and skin photos) are embedded.
+- **Tagged like the mock:** each question has an ILO unit (73% sit inside the FFP ILOs; the rest are marked 🌍 beyond them), a hammer rating, a pattern and a 🔄 flip. Filter by paper, by inside or beyond the ILOs, and by examiner pattern. Each condition page's 🔨 button now includes its official questions.
+- **🦅 Scan mode (S):** the question line moves to the top, out-of-range lab rows and vitals light up with ↑ or ↓, normal rows fade, and blocker words (CKD, Parkinson's, pregnant, a job, a valve, warfarin) get the highlighter. Works on every question.
+- **🧬 Examiner patterns:** 45 hand-checked groups that link questions across the papers and the mock: 🔥 double-tested (near word for word, or the same X-ray reused for a different answer), ⛓️ same patient at the next step, 🚫 a comorbidity that blocks first line, ⚠️ lab decoys just over the line, 🧮 one decision grid tested from every angle, 🔗 the same trap in a new patient. After each answer the pattern box shows the rule and runs the whole set in order.
+- **🏛️ The official papers, decoded:** a blueprint computed from the papers: question types against the mock, story length, lab tables and how many lab rows are normal decoys.
+- **Set C: 162 new MSCAA-style hammers.** For each of the 54 ILO units the official papers never asked about, one patient across three questions (diagnosis, test or number, treatment with a blocker), with vitals blocks and Investigations tables. `hammer.py` gains `$` lab rows and `!` patient rules; question ids for sets A and B are unchanged, so saved progress carries over.
+- Content in `study/snap/official/` (papers and images), `off_meta_*.py` (my tags), `off_links.py` (the groups) and `hq3_*.py` (set C). Tests: `study/test_study_v22.py` checks the official data, filters, scan mode, pattern runs, images and lab tables.
+
 ## 2.4.0 (2026-10-28)
 
 🔨 **Hammer SBAs, Passmedicine-style, and 501 new mock-style questions.**

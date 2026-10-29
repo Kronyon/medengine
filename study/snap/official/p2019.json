@@ -1,0 +1,1278 @@
+[
+ {
+  "s": "An 88 year old woman has recurrent falls. She says that she cannot feel where her feet are.\nThere is reduced pinprick sensation up to the level of her mid calf and proprioception is impaired. Knee reflexes are brisk, but ankle reflexes are absent.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "91 g/L",
+    "115–150"
+   ],
+   [
+    "White cell count",
+    "3.5 × 10⁹/L",
+    "3.8–10.0"
+   ],
+   [
+    "Platelets",
+    "130 × 10⁹/L",
+    "150–400"
+   ],
+   [
+    "MCV",
+    "116 fL",
+    "80–96"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most likely deficiency?",
+  "n": 1,
+  "o": [
+   "Folate",
+   "Iron",
+   "Pyridoxine",
+   "Thiamine",
+   "Vitamin B12"
+  ],
+  "a": 4,
+  "w": "This is a typical presentation of B12 deficiency. The most common neurologic findings are symmetric paraesthesias or numbness and gait problems. This is much less common with folate deficiency.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 55 year old man has had lower back pain and fatigue for 3 months.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "110 g/L",
+    "130–175"
+   ],
+   [
+    "White cell count",
+    "5.8 × 10⁹/L",
+    "3.8–10.0"
+   ],
+   [
+    "Platelets",
+    "120 × 10⁹/L",
+    "150–400"
+   ],
+   [
+    "Corrected calcium",
+    "2.90 mmol/L",
+    "2.2–2.6"
+   ],
+   [
+    "Albumin",
+    "29 g/L",
+    "35–50"
+   ],
+   [
+    "Serum electrophoresis",
+    "monoclonal Ig kappa peak",
+    ""
+   ],
+   [
+    "Bone marrow biopsy",
+    "foci of plasma cells, which account for 18% of all",
+    ""
+   ]
+  ],
+  "post": "haematopoietic cells",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 2,
+  "o": [
+   "Acute lymphoblastic lymphoma",
+   "Chronic lymphocytic leukaemia",
+   "Extramedullary plasmacytoma",
+   "Multiple myeloma",
+   "Waldenström's macroglobulinaemia"
+  ],
+  "a": 3,
+  "w": "The patient has classical clinical and laboratory features of multiple myeloma.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 54 year old woman has reduced urine output 24 hours after admission with right lower lobe consolidation due to community-acquired pneumonia. She has been treated with intravenous amoxicillin and clarithromycin, but remains breathless. Her creatinine was 82 μmol/L (60–120) on admission.\nHer temperature is 38.0°C, pulse rate 106 bpm, BP 102/50 mmHg and oxygen saturation 95% breathing 4 L/min oxygen via nasal prongs. Her urine output is 250 mL over the past 12 hours. Her urinalysis has protein 1+.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "119 g/L",
+    "115–150"
+   ],
+   [
+    "White cell count",
+    "16.9 × 10⁹/L",
+    "3.8–10.0"
+   ],
+   [
+    "Platelets",
+    "95 × 10⁹/L",
+    "150–400"
+   ],
+   [
+    "Urea",
+    "15.5 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "160 μmol/L",
+    "60–120"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most likely cause of her acute kidney injury?",
+  "n": 3,
+  "o": [
+   "Drug-induced interstitial nephritis",
+   "Haemolytic uraemic syndrome",
+   "Infection-related glomerulonephritis",
+   "Renal hypoperfusion",
+   "Systemic vasculitis"
+  ],
+  "a": 3,
+  "w": "The patient has ongoing sepsis with hypotension which is leading to pre-renal AKI. This clinical pattern may ultimately lead to acute tubular necrosis/tubular injury. None of the other diagnoses fit the clinical picture. Interstitial nephritis would normally not appear until 4-7 days of antibiotic exposure and is relatively rare. Infection related glomerulonephritis is uncommon with pneumonia and there is no evidence of non- visible haematuria. The same applies to systemic vasculitis. Haemolytic uraemic syndrome would have a different clinical picture with marked anaemia and a lower platelet count. Copyright © 2019 – MSC Assessment Page 4 of 45",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 70 year old woman has an ulcer above the left medial malleolus. She has a history of type 2 diabetes mellitus. She smokes 10 cigarettes per day.\nThe ulcer is 10 × 5 cm and superficial. She has brown discolouration of both lower legs. The skin has a thickened, waxy feel. Her BMI is 34.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely type of ulcer in this patient?",
+  "n": 4,
+  "o": [
+   "Arterial",
+   "Inflammatory",
+   "Malignant",
+   "Neuropathic",
+   "Venous"
+  ],
+  "a": 4,
+  "w": "The site and presence of hyperpigmentation or lipodermatosclerosis are suggestive of venous ulceration. The classic location for these is by medial or lateral malleolus and they are not associated with significant pain.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 67 year old man has 3 weeks of progressive ankle oedema. He has a history of hypertension, treated with amlodipine. He is a lifelong heavy smoker and drinks 12 units of alcohol per week.\nHis BP is 125/85 mmHg and oxygen saturation 98% breathing air. His JVP is 4 cm above the sternal angle. He has marked bilateral pitting ankle oedema. He has dull percussion note at both bases with reduced breath sounds.",
+  "lab": [
+   [
+    "Creatinine",
+    "85 µmol/L",
+    "60–120"
+   ],
+   [
+    "Fasting glucose",
+    "5.7 mmol/L",
+    "3.0–6.0"
+   ],
+   [
+    "Total cholesterol",
+    "9 mmol/L",
+    "<5.0"
+   ],
+   [
+    "Albumin",
+    "15 g/L",
+    "35–50"
+   ],
+   [
+    "Urinary protein",
+    "creatinine ratio 568 mg/mmol",
+    "<30"
+   ],
+   [
+    "Urine microscopy",
+    "no cells, no casts",
+    ""
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 5,
+  "o": [
+   "Cardiac failure",
+   "Nephritic syndrome",
+   "Nephrotic syndrome",
+   "Rapidly progressive glomerulonephritis",
+   "Renovascular disease"
+  ],
+  "a": 2,
+  "w": "The combination of hypoalbuminaemia, proteinuria, oedema, hypercholesterolaemia etc. is characteristic of nephrotic syndrome. The most likely causes in the age group (without diabetes) would be membranous nephropathy, minimal change or FSGS. Myeloma would also need to be considered. A renal biopsy would be required to confirm the diagnosis",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 81 year old woman sustains a fractured neck of femur on falling while walking on carpet in her flat. She recovers well after surgery and rehabilitation, and is discharged home. She is advised to take calcium and vitamin D supplements.",
+  "lab": [],
+  "post": "",
+  "ql": "Which additional medication should be prescribed to reduce the risk of a future fracture?",
+  "n": 6,
+  "o": [
+   "Alendronic acid",
+   "Denosumab",
+   "Raloxifene hydrochloride",
+   "Teriparatide",
+   "Zoledronic acid"
+  ],
+  "a": 0,
+  "w": "Treatment for osteoporosis should be commenced with an oral bisphosphonate plus calcium and Vitamin D. Denosumab (RANKL inhibitor) is a second-line treatment for osteoporosis. Zoledronate is only administered intravenously and is reserved for those intolerant of an oral bisphosphonate.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 68 year old man has eight weeks of back pain. It sometimes wakes him at night, and he is feeling increasingly tired. He has no history of back problems and has no history of recent trauma.\nHe has tenderness over L3 and L4 vertebrae.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "137 g/L",
+    "130–175"
+   ],
+   [
+    "Erythrocyte sedimentation rate",
+    "55 mm/hr",
+    "<20"
+   ],
+   [
+    "Creatinine",
+    "72 µmol/L",
+    "60–120"
+   ],
+   [
+    "Calcium",
+    "2.5 mmol/L",
+    "2.2–2.6"
+   ],
+   [
+    "Serum protein electrophoresis",
+    "no paraprotein",
+    ""
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate next investigation?",
+  "n": 7,
+  "o": [
+   "CT scan abdomen and pelvis",
+   "DEXA scan",
+   "HLA-B27 antigen",
+   "Isotope bone scan",
+   "X-ray lumbar spine"
+  ],
+  "a": 4,
+  "w": "Being woken from sleep is a red flag symptom, as is the duration. At this age and with the persistence of symptoms, spinal tenderness and an elevated ESR it is reasonable to perform imaging. Plain X-rays are appropriate initially, although if negative an MR scan would be indicated.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 17 year old girl has a florid skin rash for 24 hours. She has been feeling unwell for the past week with intermittent abdominal pain.\nShe has a palpable, purpuric rash on her lower limbs and buttocks. Her temperature is 37.2°C, pulse rate 70 bpm and BP 122/80 mmHg. Her urinalysis has blood 3+, protein 2+, nitrites negative, leucocytes negative",
+  "lab": [
+   [
+    "Haemoglobin",
+    "122 g/L",
+    "115–150"
+   ],
+   [
+    "White cell count",
+    "8.9 × 10⁹/L",
+    "3.8–10.0"
+   ],
+   [
+    "Platelets",
+    "320 × 10⁹/L",
+    "150–400"
+   ],
+   [
+    "Urea",
+    "3.2 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "60 µmol/L",
+    "60–120"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 8,
+  "o": [
+   "IgA vasculitis (Henoch–Schönlein purpura)",
+   "Meningococcal septicaemia",
+   "Microscopic polyangiitis",
+   "Postinfectious glomerulonephritis",
+   "Systemic lupus erythematosus"
+  ],
+  "a": 0,
+  "w": "Classic presentation of HSP with a purpuric (vasculitic) rash and an active urinary sediment. Abdominal and joint pain may also occur. Renal function is usually normal. With meningococcal sepsis the patient would be much more unwell. Postinfectious GN would follow a clear-cut infection, particularly streptococcal sore throat. SLE would normally have a longer history, does not typically give a vasculitis rash and would be associated with other features of SLE e.g. alopecia, arthralgia, skin rash, cytopenias, mouth ulcers. Microscopic polyangiitis (ANCA associated normally) is less common in this age group and usually has a longer history.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 67 year old woman becomes unwell whilst attending the diabetes foot clinic. She is anxious and noticeably tremulous as she drinks from her water bottle.\nShe is sweaty but apyrexial. Her pulse rate is 98 bpm, BP 128/76 mmHg and oxygen saturation 96% breathing air. Her capillary blood glucose is 2.1 mmol/L.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate next step in management?",
+  "n": 9,
+  "o": [
+   "Intramuscular glucagon",
+   "Intravenous 10% glucose",
+   "Intravenous 20% glucose",
+   "Oral glucose gel (GlucoGel ® )",
+   "Oral glucose tablets"
+  ],
+  "a": 4,
+  "w": "She is alert enough to swallow so does not need to be given glucogel but the tablets. JBDS guidelines (March 2010).",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 82 year old woman has constipation and passes infrequent, hard stools. She has hypertension, overactive bladder symptoms and type 2 diabetes mellitus. She takes amlodipine, doxazosin, gliclazide, metformin and oxybutynin.",
+  "lab": [],
+  "post": "",
+  "ql": "Which medication is most likely to be worsening her constipation?",
+  "n": 10,
+  "o": [
+   "Amlodipine",
+   "Doxazosin",
+   "Gliclazide",
+   "Metformin",
+   "Oxybutynin"
+  ],
+  "a": 4,
+  "w": "Oxybutynin is an anticholinergic and a frequent cause of constipation.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 65 year old man reports sudden onset of visual disturbance with flashing lights, floaters and loss of vision in the upper outer quadrant of his right eye. He has a history of hypertension.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 11,
+  "o": [
+   "Acute glaucoma",
+   "Central retinal artery occlusion",
+   "Central retinal vein occlusion",
+   "Retinal detachment",
+   "Vitreous haemorrhage"
+  ],
+  "a": 3,
+  "w": "Patients with retinal detachment typically complain of an increasing number of floaters in one eye. As detachment progresses the separating vitreous will tug on the surface of the retina and create a mechanical depolarization of the axons running through the nerve fibre layer of the retina. This leads to flashing lights.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 70 year old woman develops pyrexia and reduced oxygen saturation 2 days after an elective subtotal gastrectomy. Her postoperative pain control has been difficult, which has limited her ability to have chest physiotherapy and to mobilise.\nHer temperature is 37.8°C, pulse 84 bpm and oxygen saturation 92% breathing 35% oxygen. Her BMI 36. There is reduced breath sounds at both lung bases. Her abdomen is soft, with tenderness around her wound. Her drain has serous output.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely postoperative complication?",
+  "n": 12,
+  "o": [
+   "Anastomotic leak",
+   "Atelectasis",
+   "Pneumothorax",
+   "Pulmonary embolism",
+   "Wound infection"
+  ],
+  "a": 1,
+  "w": "The development of a fever in the early postoperative period, in combination with reduced oxygen saturation, is most likely to be due to the development of bibasal atelectasis, especially in a patient who has undergone an abdominal procedure and is experiencing pain.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 69 year old man has 6 months of back pain extending into his buttocks and back of his thighs. The pain is worse on standing and on walking, and is relieved when he sits down and leans forward. He has diet-controlled type 2 diabetes mellitus. He is an ex-smoker with a 40 pack-year history.\nHis BP is 178/95 mmHg. He has weakness of hip flexion bilaterally. His peripheral pulses are palpable.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 13,
+  "o": [
+   "Diabetic amyotrophy",
+   "Lumbar disc prolapse",
+   "Lumbar spinal stenosis",
+   "Osteoarthritis of hips",
+   "Peripheral arterial disease"
+  ],
+  "a": 2,
+  "w": "This patient gives a typical history of neurogenic claudication coming on with walking or standing and relieved by siting. Patient may also have signs of single or multiple lumbosacral radiculopathies.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 62 year old man presents to the Emergency Department following a road traffic collision. He has severe bruising of the right upper shoulder from the seat belt, but no other injuries.\nChest X-ray to exclude a pneumothorax shows a 2 cm mass in the right upper zone.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate next investigation?",
+  "n": 14,
+  "o": [
+   "CT scan of chest",
+   "Lateral chest X-ray",
+   "MR scan of chest",
+   "PET scan of chest",
+   "Technetium bone scan"
+  ],
+  "a": 0,
+  "w": "CT would be the most appropriate investigation for a suspected lung cancer.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 28 year old woman returns to the dermatology clinic 2 weeks after surgery to excise a 1.1 cm pigmented lesion on her right lower leg.\nThe histopathological report states that the lesion is a superficial spreading melanoma with a Clark level 3, Breslow depth 0.9 mm, mitotic index of 1/mm2and no ulceration. It has been completely excised.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most important pathological prognostic indicator?",
+  "n": 15,
+  "o": [
+   "Breslow depth",
+   "Clark level",
+   "Diameter of lesion",
+   "Melanoma subtype",
+   "Mitotic index"
+  ],
+  "a": 0,
+  "w": "A complete full-thickness excisional biopsy of suspicious lesions with 1 to 3 mm margin of normal skin and part of the subcutaneous fat should be performed. Tumour thickness is the single most important prognostic factor for patients with localised melanoma. This is measured as the Breslow depth or thickness.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 42 year old woman has 12 hours of colicky central abdominal pain, vomiting, abdominal distension and increased bowel sounds. She had a ruptured appendix aged 20 years.\nPlain abdominal X-ray: see image.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate initial management?",
+  "n": 16,
+  "o": [
+   "Flatus tube insertion",
+   "Intravenous antibiotics",
+   "Laparoscopy",
+   "Laparotomy",
+   "Nasogastric tube insertion"
+  ],
+  "a": 4,
+  "w": "The patient has small bowel obstruction due to adhesions from her previous appendicitis. This is treated conservatively with fluid resuscitation and nasogastric decompression of the gut. The stomach contents should be aspirated using a syringe, following which the bag should be placed on free drainage. Further aspiration may be needed if required. Conservative management is successful in 65- 80% of cases and surgical intervention is only considered for those patients who do not improve with conservative management. Surgically dividing adhesions creates further raw surfaces on which adhesions may form during the healing process and hence is avoided wherever possible. Intravenous antibiotics are not indicated in cases managed conservatively. Upper GI endoscopy has no role in the management of this case.",
+  "ref": "",
+  "img": [
+   "p2019-016-0.jpg"
+  ]
+ },
+ {
+  "s": "A 59 year old woman has loin pain and dysuria.\nHer temperature is 39°C, pulse rate 108 bpm, BP 90/60 mmHg and respiratory rate 18 breaths per minute.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "130 g/L",
+    "115–150"
+   ],
+   [
+    "White cell count",
+    "22.0 × 10⁹/L",
+    "3.8–10.0"
+   ],
+   [
+    "Platelets",
+    "40 × 10⁹/L",
+    "150–400"
+   ],
+   [
+    "PT",
+    "20 seconds",
+    "10–12"
+   ],
+   [
+    "APTT",
+    "60 seconds",
+    "22–41"
+   ],
+   [
+    "Fibrinogen",
+    "1.0 g/dL",
+    "1.5–4.0"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most likely explanation for her thrombocytopenia?",
+  "n": 17,
+  "o": [
+   "Disseminated intravascular coagulation",
+   "Haemophilia B",
+   "Idiopathic thrombocytopenic purpura",
+   "Vitamin B12 deficiency",
+   "von Willebrand disease"
+  ],
+  "a": 0,
+  "w": "The clotting abnormalities are consistent with acute DIC due to complicated urosepsis. typically patients have thrombocytopaenia, prolonged PT and aPTT, low plasma fibrinogen and an elevated plasma D-dimer. There may also be microangiopathic abnormalities on the blood smear.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A previously well 22 year old student is brought to the Emergency Department by his flatmate having briefly lost consciousness. He explains that he had gone to bed after a party and been woken at 03:00 by the need to pass urine. He remembers feeling faint and nauseated while bearing down to pass urine, lost consciousness and fell to the floor.\nExamination and ECG are normal.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 18,
+  "o": [
+   "Alcohol related seizure",
+   "Cardiac dysrhythmia",
+   "Ecstasy toxicity",
+   "Hypoglycaemia",
+   "Vasovagal syncope"
+  ],
+  "a": 4,
+  "w": "",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 19 year old woman requires an urgent appendicectomy. The anaesthetist explains that it will be necessary for the patient to breathe some oxygen from a face mask before induction of anaesthesia, and that she will feel some pressure on the front of her neck as she goes to sleep. The patient asks why.",
+  "lab": [],
+  "post": "",
+  "ql": "What is the purpose of cricoid pressure?",
+  "n": 19,
+  "o": [
+   "It facilitates endotracheal intubation",
+   "It prevents the passage of gastric contents into the airway",
+   "It reduces the haemodynamic response to endotracheal intubation",
+   "It reduces the risk of vomiting",
+   "It stabilises the neck in a neutral position"
+  ],
+  "a": 1,
+  "w": "The cricoid cartilage is a complete ring; pressure on the front is transmitted to the back, and this seals the oesophagus, preventing gastric contents in a patient who is not fasted or has abdominal problems from passing higher up and possibly entering the airway. None of the others are true - in fact, it can make intubation more difficult.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 45 year old man with pain caused by cancer has been using opioids to control his pain very successfully. He is taking a regular dose of MST Continus® 60 mg 12-hourly orally. He has been using three breakthrough doses (oral morphine 20 mg) per day for the past week.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate opioid prescription?",
+  "n": 20,
+  "o": [
+   "Diamorphine 60 mg subcutaneously over 24 h by syringe driver",
+   "Morphine 90 mg subcutaneously over 24 h by syringe driver",
+   "MST Continus ® 60 mg 12-hourly and morphine 30 mg as required (up to 4- hourly) orally",
+   "MST Continus ® 90 mg 12-hourly and morphine 20 mg as required (up to 4- hourly) orally",
+   "MST Continus ® 90 mg 12-hourly and morphine 30 mg as required (up to 4- hourly) orally"
+  ],
+  "a": 4,
+  "w": "The breakthrough dose should be one-sixth of the total daily dose. The current daily morphine dose is 180 mg, hence MST continues at 90 mg 12 hourly and the breakthrough at morphine 30 mg. Copyright © 2019 – MSC Assessment Page 20 of 45",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 25 year old man has left-sided chest pain that is worsened by lying back and when he takes a deep breath. He has had a recent respiratory tract infection.",
+  "lab": [
+   [
+    "Troponin T",
+    "0.025 µg/L",
+    "<0.01"
+   ],
+   [
+    "ECG",
+    "see image",
+    ""
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 21,
+  "o": [
+   "Pericardial effusion",
+   "Pericarditis",
+   "Pulmonary embolism",
+   "ST-elevation myocardial infarction",
+   "Unstable angina"
+  ],
+  "a": 1,
+  "w": "The history and ECG changes (widespread PR depression and ST elevation) are strongly suggestive of pericarditis. A pericardial effusion would produce low-voltage complexes on the ECG.",
+  "ref": "",
+  "img": [
+   "p2019-021-0.jpg"
+  ]
+ },
+ {
+  "s": "A 18 year old woman has 6 hours of severe dizziness and nausea. She says that the room is constantly spinning round and she has vomited several times. The dizziness is worse when she opens her eyes. She reports that her hearing has not changed.\nShe has nystagmus with the fast phase to the left, which does not fatigue.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 22,
+  "o": [
+   "Benign positional vertigo",
+   "Cerebellar tumour",
+   "Ménière's disease",
+   "Vestibular migraine",
+   "Vestibular neuronitis"
+  ],
+  "a": 4,
+  "w": "The most likely diagnosis is vestibular neuronitis as this is a single episode in an 18- year-old. The diagnoses of vestibular migraine and benign positional vertigo would not be considered unless the attacks were recurrent.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 60 year old man visits his GP as he wants to start training for a 5 km race for charity. He plans to run 3–5 km three times per week. He describes occasional central chest tightness when he walks up hills. He has a history of type 2 diabetes mellitus and COPD for which he is taking metformin and using an as-required salbutamol inhaler.\nHis BP is 162/94 mmHg. His BMI is 32.",
+  "lab": [],
+  "post": "",
+  "ql": "Which aspect of his clinical background is a contra-indication to his training plan?",
+  "n": 23,
+  "o": [
+   "BP >160/90 mmHg",
+   "COPD",
+   "Exertional chest tightness",
+   "Obesity",
+   "Type 2 diabetes mellitus"
+  ],
+  "a": 2,
+  "w": "The presence of exertional chest pain indicates a high likelihood of undiagnosed ischaemic heart disease. Vigorous exercise runs the risk of a significant ischaemic event including a myocardial infarct or arrhythmia",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 75 year old man visits his GP with one episode of visible haematuria.\nHis temperature is 36.2°C and BP 142/80 mmHg.",
+  "lab": [
+   [
+    "Midstream urine",
+    "red blood cells and epithelial cells, no microbial growth",
+    ""
+   ],
+   [
+    "Urinalysis",
+    "blood 2+, leucocytes negative, protein negative, nitrite negative",
+    ""
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate next step?",
+  "n": 24,
+  "o": [
+   "Arrange an ultrasound scan of renal tract",
+   "Arrange CT urography",
+   "Check serum prostate specific antigen",
+   "Refer for urology opinion",
+   "Repeat midstream urine sample for culture and sensitivity"
+  ],
+  "a": 3,
+  "w": "This is because the patient may have transitional cell carcinoma of the bladder and thorough investigation of haematuria is urgent to rule this out.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 73 year old man has 3 months of increasing weakness of his right hand with reduced sensation of the forearm.\nThere is wasting of all the intrinsic muscles of the right hand. There is weakness of finger abduction and adduction, and thumb adduction. Finger flexion is normal. There is mild altered light touch sensation along the ulnar aspect of the forearm. The biceps, supinator and triceps reflexes are normal. The lower limbs and the left arm are normal.",
+  "lab": [],
+  "post": "",
+  "ql": "Where is the most likely site of the lesion causing his symptoms?",
+  "n": 25,
+  "o": [
+   "Median nerve in the forearm",
+   "Median nerve in the wrist",
+   "Spinal cord C8 level",
+   "T1 nerve root",
+   "Ulnar nerve at the elbow"
+  ],
+  "a": 3,
+  "w": "The intrinsic hand muscle wasting suggests T1. The normal reflexes and normal other arm are against a cord lesion. The sensory loss on the forearm excludes median and ulnar nerve lesions. T1 dermatome is often thought to be higher in the arm medially.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 84 year old woman is admitted 24 hours earlier following a fall in her home. She has mild dementia and osteoarthritis. She is taking donepezil and ibuprofen.\nHer temperature is 36.2°C, pulse rate 77 bpm and BP 152/88 mmHg. Her abbreviated mini-mental test score is 6/10. She has some bruising on her face.\nA midstream urine culture result 24 hours later shows a mixed growth of organisms with no leucocytes.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely explanation for the midstream urine culture result?",
+  "n": 26,
+  "o": [
+   "Bladder carcinoma",
+   "Colovesical fistula",
+   "Contaminated urine specimen",
+   "Cystitis",
+   "Interstitial nephritis"
+  ],
+  "a": 2,
+  "w": "A mixed growth in a urine specimen is usually a result of contamination. There are no features to suggest any other underlying urinary, renal or GI problems or any evidence of infection, especially with the lack of leucocytes.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 70 year old woman has 6 weeks of generalised shoulder and hip pain and stiffness. She feels excessively tired.\nHer temperature is 37.5°C. She has reduced range of movement at the shoulders, but no muscle tenderness. There is synovial thickening and tenderness at the right wrist.",
+  "lab": [
+   [
+    "Erythrocyte sedimentation rate",
+    "85 mm/hr",
+    "<20"
+   ],
+   [
+    "Creatine kinase",
+    "110 U/L",
+    "25–175"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate treatment?",
+  "n": 27,
+  "o": [
+   "Allopurinol",
+   "Hydroxychloroquine",
+   "Ibuprofen",
+   "Prednisolone",
+   "Sulfasalazine"
+  ],
+  "a": 3,
+  "w": "This is because the clinical scenario is that of a patient with polymyalgia rheumatica based on the age, pattern of muscle weakness and raised ESR. Muscle enzymes are normal in patients with polymyalgia rheumatica. The treatment for polymyalgia rheumatica is corticosteroids.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 53 year old man has increasing abdominal swelling over several weeks. He has developed severe abdominal pain over the past 12 hours. He drinks one to two bottles of vodka per day.\nHe has jaundice, and has spider naevi and prominent veins on his abdominal wall. His temperature is 37.6°C. His abdomen is diffusely tender.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "136 g/L",
+    "130–175"
+   ],
+   [
+    "White cell count",
+    "9.6 × 10⁹/L",
+    "3.8–10.0"
+   ],
+   [
+    "Platelets",
+    "160 × 10⁹/L",
+    "150–400"
+   ],
+   [
+    "INR",
+    "1.2",
+    "1.0"
+   ],
+   [
+    "ALT",
+    "350 IU/L",
+    "10–50"
+   ],
+   [
+    "ALP",
+    "140 IU/L",
+    "25–115"
+   ],
+   [
+    "Bilirubin",
+    "78 μmol/L",
+    "<17"
+   ]
+  ],
+  "post": "Ultrasound scan of abdomen shows ascites with mild hepatosplenomegaly.",
+  "ql": "Which is the most appropriate next step?",
+  "n": 28,
+  "o": [
+   "Ascitic tap",
+   "CT of abdomen",
+   "Hepatitis serology",
+   "Percutaneous liver biopsy",
+   "Ultrasonography of abdomen"
+  ],
+  "a": 0,
+  "w": "Spontaneous bacterial peritonitis (SBP) should be suspected in patients with ascites due to cirrhosis who develop symptoms such as fever, abdominal pain or tenderness, and confusion. The signs and symptoms are more subtle compared with those seen in patients with standard bacterial peritonitis. It is important not to miss SBP as delayed recognition is associated with a high mortality.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 65 year old woman has had a painful, red and watery left eye for 3 days.\nVisual acuity is 6/24 on the left and 6/12 on the right. Fundoscopy is normal.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate next step in management?",
+  "n": 29,
+  "o": [
+   "Arrange ophthalmology outpatient appointment",
+   "Prescribe chloramphenicol eye drops",
+   "Prescribe prednisolone eye drops",
+   "Prescribe sodium cromoglicate eye drops",
+   "Refer to the ophthalmology department as an emergency"
+  ],
+  "a": 4,
+  "w": "Painful eye with loss of acuity needs urgent ophthalmology assessment.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 75 year old man with metastatic prostate cancer develops lumbar discomfort, weakness in both legs and urinary incontinence.\nPower is 2/5 in all lower limb muscle groups, he has bilateral extensor plantar reflexes, and sensation to pinprick is reduced below the umbilicus.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate immediate treatment?",
+  "n": 30,
+  "o": [
+   "Dexamethasone",
+   "Gabapentin",
+   "Morphine sulfate",
+   "Spinal decompression",
+   "Spinal radiotherapy"
+  ],
+  "a": 0,
+  "w": "The patient has likely malignant spinal cord compression. Glucocorticoids are standard initial treatment both to treat pain and reduce neurological deficit. This allows definitive investigation to be performed and treatment planned. Standard treatment would be a loading dose of dexamethasone (16 mg IV or PO), followed by 8 mg bd.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 45 year old woman notices a painless breast lump while showering. She makes an urgent appointment with her GP because she is worried about breast cancer. She is seen in the breast clinic for triple assessment.",
+  "lab": [],
+  "post": "",
+  "ql": "What does triple assessment involve?",
+  "n": 31,
+  "o": [
+   "Clinical examination, breast imaging and bone scan",
+   "Clinical examination, breast imaging and core biopsy",
+   "MR scan, bone scan and excision biopsy",
+   "MR scan, genetic screening and excision biopsy",
+   "PET scan, genetic screening and core biopsy"
+  ],
+  "a": 1,
+  "w": "Triple assessment involves clinical examination, breast imaging (usually mammography and ultrasound) followed by biopsy to achieve a pathological diagnosis.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 52 year old Afro-Carribbean man is referred to the hypertension clinic with an average daytime reading on ambulatory BP monitoring of 164/105 mmHg. He has no other medical history of note and is currently taking no medication.\nIn clinic, his BP is 158/98 mmHg. His 10-year cardiovascular risk is calculated to be 23%.",
+  "lab": [],
+  "post": "",
+  "ql": "In addition to atorvastatin, which is the most appropriate medication to prescribe?",
+  "n": 32,
+  "o": [
+   "Amlodipine",
+   "Bendroflumethiazide",
+   "Doxazosin",
+   "Losartan potassium",
+   "Ramipril"
+  ],
+  "a": 0,
+  "w": "NICE guidelines (CG127, 2011) for hypertension indicate that this patient has Stage 2 hypertension and should offered drug treatment. As he is Afro-Caribbean , the first line treatment is a calcium channel blocker.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "The association between low birth weight babies and maternal smoking during pregnancy was studied by obtaining smoking histories from women at the time of their first prenatal visit, then assessing birth weight at delivery and analysing according to the smoking histories.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the best description of this type of study?",
+  "n": 33,
+  "o": [
+   "Case–control",
+   "Case series",
+   "Clinical trial",
+   "Cross-sectional",
+   "Prospective cohort"
+  ],
+  "a": 4,
+  "w": "A prospective cohort study is a longitudinal cohort study that follows over time a group of similar individuals (i.e. babies) who differ with respect to certain factors under study (i.e. maternal smoking history), to determine how these factors affect rates of a certain outcome (i.e. birth weight).",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 60 year old woman is brought in after found drowsy and confused by her daughter. She has been unwell for the past 2–3 days with diarrhoea and vomiting. She has a history of bipolar disorder. Her regular medication includes lithium, risperidone and co-codamol.\nHer temperature is 37.3°C, pulse rate 94 bpm, BP 122/70 mmHg, respiratory rate 14 breaths per minute and oxygen saturation 99% breathing high-flow oxygen. Her GCS score is 12/15. She has coarse tremor in her arms and jerking movements of her legs.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 34,
+  "o": [
+   "Hypernatraemia",
+   "Lithium toxicity",
+   "Neuroleptic malignant syndrome",
+   "Opioid toxicity",
+   "Subdural haematoma"
+  ],
+  "a": 1,
+  "w": "The patient displays classic features of lithium toxicity (confusion, coarse tremor, jerking leg movements), likely precipitated by dehydration secondary to diarrhoea and vomiting.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 42 year old woman has a three month history of weight loss, insomnia, and palpitations. She has a fine resting tremor and bilateral proptosis.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the underlying pathological mechanism?",
+  "n": 35,
+  "o": [
+   "Antibody directed against the thyroid stimulating hormone receptor",
+   "Antibody directed against thyroid peroxidase",
+   "Autonomous activity of thyroid follicular cells",
+   "Destruction of thyroid cells by lymphocytes",
+   "Excess production of thyroid stimulating hormone"
+  ],
+  "a": 0,
+  "w": "The clinical picture fits with Graves' disease. It is caused by autoantibodies to the thyroid stimulating hormone receptor (a.k.a thyrotropin receptor antibody, TRAb) that activates the receptor, stimulating thyroid hormone synthesis and secretion and a goitre",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 53 year old woman has 6 months of worsening tiredness.\nShe has jaundice, xanthelasma and 7 cm non-tender hepatomegaly.\nINR 1.2 1.0)\nALT 60 IU/L (10–50) ALP 302 IU/L (25–115) Bilirubin 50 µmol/L (<17) Antinuclear antibodies 1:40 (negative at 1:20) Antimitochondrial antibodies 1:320 (negative at 1:20)\nUltrasound scan of abdomen hepatosplenomegaly, no biliary dilatation",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate treatment?",
+  "n": 36,
+  "o": [
+   "Azathioprine",
+   "Lamivudine",
+   "Prednisolone",
+   "Thiamine",
+   "Ursodeoxycholic acid"
+  ],
+  "a": 4,
+  "w": "The clinical picture fits a diagnosis of primary biliary cirrhosis (raised ALP, AMA positive with no evidence of obstruction. There is good evidence that Ursodeoxycholic acid should be prescribed for all patients with this diagnosis. A biopsy is not required to make the diagnosis.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 91 year old woman is admitted from a nursing home with a 3 day history of vomiting and diarrhoea.\nHer pulse rate is 110 bpm. Her BP is 116/66 mmHg lying in bed, with a postural BP drop of 30 mmHg when sitting.",
+  "lab": [
+   [
+    "Sodium",
+    "130 mmol/L",
+    "135–146"
+   ],
+   [
+    "Potassium",
+    "4.0 mmol/L",
+    "3.5–5.3"
+   ],
+   [
+    "Bicarbonate",
+    "20 mmol/L",
+    "22–29"
+   ],
+   [
+    "Urea",
+    "25.6 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "177 µmol/L",
+    "60–120"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate initial intravenous fluid?",
+  "n": 37,
+  "o": [
+   "0.9% sodium chloride",
+   "1.4% sodium bicarbonate",
+   "1.8% sodium chloride",
+   "4% glucose, 0.18% sodium chloride",
+   "5% glucose"
+  ],
+  "a": 0,
+  "w": "The patient is hypovolaemic and needs IV fluid resuscitation. guidelines recommend using crystalloids that contain sodium in the range 130–154 mmol/l, with a bolus of 500 ml over less than 15 minutes (NICE guideline CG174).",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 30 year old man has three months of intermittent, but worsening headaches. He is not taking any regular medications aside from paracetamol and ibuprofen as required. His BP is 220/130 mmHg.",
+  "lab": [
+   [
+    "Sodium",
+    "144 mmol/L",
+    "135–146"
+   ],
+   [
+    "Potassium",
+    "3.0 mmol/L",
+    "3.5–5.3"
+   ],
+   [
+    "Urea",
+    "7.0 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "92 µmol/L",
+    "60–120"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most likely underlying diagnosis?",
+  "n": 38,
+  "o": [
+   "Addison's disease",
+   "Chronic kidney disease",
+   "Cushing's disease",
+   "Phaeochromocytoma",
+   "Primary aldosteronism (Conn's syndrome)"
+  ],
+  "a": 4,
+  "w": "Conn's is the commonest endocrine cause of hypertension and much more common than Cushing's/Phaeo. The classic presenting signs of primary aldosteronism are hypertension and hypokalemia, although the later is not present in all cases. The diagnosis should also be considered in those with severe hypertension (>150/100 mmHg), hypertension with sleep apnoea and hypertension with a family history of early onset hypertension.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 24 year old man has acute shortness of breath and lightheadedness. He was admitted 24 hours earlier following a car accident. He had multiple pelvic fractures and compound fractures of both tibia. These required surgical fixation. He is on intravenous morphine via a patient-controlled analgesia device, prophylactic low molecular weight heparin, intravenous flucloxacillin and intravenous 0.9% saline at 120 mL/hour. He is confused and disorientated. His temperature is 36.4°C, pulse rate 100 bpm, BP 110/60 mmHg, respiratory rate 30 breaths per minute and oxygen saturation 85% breathing 4 L/min oxygen via nasal prongs. His chest is clear.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 39,
+  "o": [
+   "Cardiac tamponade",
+   "Fat embolism syndrome",
+   "Opiate toxicity",
+   "Pulmonary embolus",
+   "Subdural haematoma"
+  ],
+  "a": 1,
+  "w": "Classic presentation of fat emboli. Multiple fractures followed by early onset (within 24 hours) of hypoxia, dyspnea, and tachypnea are the most frequent findings. Neurologic manifestations range from the development of an acute confusional state and altered level of consciousness to seizures and focal deficits and usually follow respiratory symptoms. A petechial rash is the last component to appear and only appears in about a third of cases. Patients with PE may present in the same time frame (ie, 24 to 72 hours), but neurologic abnormalities are not explained by this.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 46 year old man has a cardiac arrest in the Emergency Department after an episode of chest pain. He remains in ventricular fibrillation after three DC shocks, and he is treated with a bolus of intravenous adrenaline/epinephrine.",
+  "lab": [],
+  "post": "",
+  "ql": "Which other drug treatment should be administered at the same time?",
+  "n": 40,
+  "o": [
+   "Alteplase",
+   "Amiodarone hydrochloride",
+   "Atropine sulfate",
+   "Lidocaine",
+   "Magnesium sulfate"
+  ],
+  "a": 1,
+  "w": "If VF/VT persists after a third shock, resume chest compressions immediately and then give adrenaline 1 mg IV and amiodarone 300 mg IV while performing a further 2 min CPR. As per ALS guidelines 2015.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 18 year old man has 3 weeks of malaise, fever and headaches and 1 week of a sore throat.\nHe has large tonsils with exudate, a petechial rash on the palate, and axillary and inguinal lymphadenopathy. His temperature is 37.6°C, pulse rate 84 bpm, BP 120/82 mmHg and respiratory rate 12 breaths per minute.",
+  "lab": [
+   [
+    "White cell count",
+    "11.2 × 10⁹/L",
+    "3.8–10.0"
+   ],
+   [
+    "Lymphocytes",
+    "5.5 × 10⁹/L",
+    "1.1–3.3"
+   ],
+   [
+    "ALT",
+    "72 IU/L",
+    "10–50"
+   ],
+   [
+    "AST",
+    "45 IU/L",
+    "10–40"
+   ],
+   [
+    "Alkaline phosphatase",
+    "91 IU/L",
+    "25–115"
+   ],
+   [
+    "Bilirubin",
+    "16 µmol/L",
+    "<17"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate investigation to confirm the diagnosis?",
+  "n": 41,
+  "o": [
+   "Anti-streptolysin O titre",
+   "Blood cultures",
+   "Epstein–Barr virus serology",
+   "Hepatitis A serology",
+   "Throat swab"
+  ],
+  "a": 2,
+  "w": "This is a typical clinical picture of glandular fever in the usual age group. Epstein- Barr virus (EBV)-induced infectious mononucleosis (IM) should be suspected when a young adult complains of sore throat, fever, and malaise and also has lymphadenopathy and pharyngitis. The presence of palatal petechiae is also characteristic. Lymphocytosis is usually seen in the FBC. The diagnosis can be confirmed through EBV specific antibodies.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 74 year old man is brought to the Emergency Department by his son after falling down the stairs. He has no pain. He has a history of atrial fibrillation and takes apixaban.\nHe has significant bruising to the left side of his face and left arm. His pulse rate is 80 bpm, irregular, BP 150/95 mmHg and oxygen saturation 96% breathing air. His GCS score is 14.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate next step in management?",
+  "n": 42,
+  "o": [
+   "Cervical spine immobilisation",
+   "Chest X-ray",
+   "CT of head",
+   "Intravenous prothrombin complex",
+   "Intravenous vitamin K"
+  ],
+  "a": 0,
+  "w": "This is because sequence of care for potential trauma patient is airway and cervical spine. There is no mention of a collar so this should be applied. This would need to be done before any of the other options. A CT scan head will be required and a chest X-ray likely. Vitamin K would not have a role and the use of prothrombin complex or other reversal agents would depend on the results of subsequent investigations. Copyright © 2019 – MSC Assessment Page 38 of 45",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 17 year old boy has repeated episodes characterised by a funny 'racing' sensation in his abdomen, followed by loss of awareness. His girlfriend describes that he has a vacant stare and waves his left arm around in a writhing manner during these attacks.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely site of origin of these episodes?",
+  "n": 43,
+  "o": [
+   "Cerebellum",
+   "Right frontal lobe",
+   "Right occipital lobe",
+   "Right parietal lobe",
+   "Right temporal lobe"
+  ],
+  "a": 4,
+  "w": "He has focal onset impaired awareness seizures, the aura implicates one of the temporal lobes.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 45 year old woman is feeling unwell with a severe sore throat. She has schizophrenia and started taking clozapine 4 months ago.\nHer temperature is 39.0°C. She has an ulcerated throat with tonsillar exudate.\nBlood cultures have been sent.",
+  "lab": [],
+  "post": "",
+  "ql": "What additional investigation is most likely to establish the underlying cause?",
+  "n": 44,
+  "o": [
+   "Clozapine concentration",
+   "Creatine kinase",
+   "Full blood count",
+   "Lumbar puncture",
+   "Throat swab"
+  ],
+  "a": 2,
+  "w": "Risk of agranulocytosis on clozapine - potential medical emergency. Clozapine induced agranulocytosis occurs in around 1% of patients and usually occurs between 6-18 weeks of initiation of therapy.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 34 year old man has three days of fever, sweats and productive cough, bringing up brown sputum.\nHis temperature is 38.8°C. he has bronchial breathing over the right mid-zone.\nHis chest X-ray is shown (see image).",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely pathogen?",
+  "n": 45,
+  "o": [
+   "Haemophilus influenzae",
+   "Legionella pneumophila",
+   "Mycoplasma sp.",
+   "Staphylococcus aureus",
+   "Streptococcus pneumoniae"
+  ],
+  "a": 4,
+  "w": "The clinical and radiological findings are typical of Streptococcus pneumonia. In this age group with strep pneumonia is the most common. Its incidence in older patients may be reduced by increasing use of pneumococcal vaccination in patients with underlying respiratory disease or immunoconpromise.",
+  "ref": "",
+  "img": [
+   "p2019-045-0.jpg"
+  ]
+ },
+ {
+  "s": "A 38 year old man has a 3 month history of a cough with bloodstained sputum. A sputum analysis is positive for Mycobacterium tuberculosis. He is treated with quadruple antituberculous therapy. Two weeks later he reports that he is passing orange urine.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the medication most likely to be responsible for his orange urine?",
+  "n": 46,
+  "o": [
+   "Ethambutol",
+   "Isoniazid",
+   "Pyrazinamide",
+   "Pyridoxine",
+   "Rifampicin"
+  ],
+  "a": 4,
+  "w": "Rifampicin typically causes an orange or red-orange discolouration of body fluids (including urine, sweat, saliva, and tears). The patient should be warned of this possibility.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 46 year old woman attends the Emergency Department with fever, headache and confusion, which have developed over several hours. She finds it impossible to lift her head from the pillow and resists your attempts to feel her neck.\nHer temperature is 38.1°C, pulse rate 105 bpm and BP 110/60 mmHg. Her GCS score is 14. A CT scan of her head is normal. A lumbar puncture is performed.",
+  "lab": [],
+  "post": "",
+  "ql": "Which are the most likely observations in the cerebrospinal fluid?",
+  "n": 47,
+  "o": [
+   "High pressure, normal protein, excess red cells",
+   "High pressure, raised protein, excess neutrophils",
+   "Normal pressure, normal protein, excess lymphocytes",
+   "Normal pressure, raised protein, excess neutrophils",
+   "Normal pressure, normal protein, no cells"
+  ],
+  "a": 1,
+  "w": "This is because she has typical bacterial meningitis- fever, neck pain, confusion. A high pressure acute inflammatory exudate is typical.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 51 year old woman presents to her GP with 6 months of dry mouth and gritty eyes. She has had vitiligo for the last 10 years.\nBoth parotid glands are mildly enlarged.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 48,
+  "o": [
+   "Graves' disease",
+   "Pleomorphic adenoma",
+   "Sarcoidosis",
+   "Sialolithiasis (salivary gland calculi)",
+   "Sjögren's syndrome"
+  ],
+  "a": 4,
+  "w": "Sjögren’s syndrome can be associated with other autoimmune conditions (e.g. vitiligo) and typically affects tear ducts and salivary glands. The length of the clinical history is too long for acute infection. Sarcoidosis is associated with widespread lymphadenopathy, including parotid involvement, but is not typically associated with sicca symptoms. Copyright © 2019 – MSC Assessment Page 43 of 45",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 62 year old man has one year of intermittent heartburn and difficulty in swallowing.\nAn endoscopic biopsy of the oesophagus 5 cm above the anatomical gastro- oesophageal junction is reported as showing 'columnar epithelium containing goblet cells and Paneth cells'.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate pathological description of the features noted?",
+  "n": 49,
+  "o": [
+   "Hyperplasia",
+   "Hypertrophy",
+   "Intestinal metaplasia",
+   "Intraepithelial neoplasia",
+   "Squamous metaplasia"
+  ],
+  "a": 2,
+  "w": "This is because the combination of goblet cells and Paneth cells is characteristic of (small) intestinal metaplasia.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 64 year old man is admitted to the Emergency Department with acute dyspnoea. His exercise tolerance has been limited by breathlessness for several years.",
+  "lab": [
+   [
+    "Arterial blood gas breathing air",
+    "",
+    ""
+   ],
+   [
+    "pH",
+    "7.20",
+    "7.35–7.45"
+   ],
+   [
+    "PO2",
+    "8 kPa",
+    "11–15"
+   ],
+   [
+    "PCO2",
+    "8.1 kPa",
+    "4.6–6.4"
+   ],
+   [
+    "Bicarbonate",
+    "23 mmol/L",
+    "22–30"
+   ]
+  ],
+  "post": "Base excess –4 mmol/L (–2 to +2)",
+  "ql": "Which is the best interpretation of the arterial blood result?",
+  "n": 50,
+  "o": [
+   "Acute type 1 respiratory failure",
+   "Acute type 2 respiratory failure",
+   "Chronic type 1 respiratory failure",
+   "Chronic type 2 respiratory failure",
+   "Metabolic acidosis"
+  ],
+  "a": 1,
+  "w": "This is because the hypoxaemia and retention of CO2 resulting in a low pH is typical of an acute on chronic hypoxia of COPD. The normal [HCO(3)-] excludes a primary metabolic cause.",
+  "ref": "",
+  "img": []
+ }
+]

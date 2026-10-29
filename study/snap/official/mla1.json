@@ -1,0 +1,2263 @@
+[
+ {
+  "s": "A 24 year old man has poor urine flow and takes a very long time to empty his bladder. He has no other urinary symptoms. He has been well previously apart from one episode of non-gonococcal urethritis 1 year ago.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 1,
+  "o": [
+   "Overactive bladder",
+   "Neurogenic bladder",
+   "Phimosis",
+   "Prostatic hypertrophy",
+   "Urethral stricture"
+  ],
+  "a": 4,
+  "w": "Based on the symptoms described, the most likely diagnosis for the 24 year old man is urethral stricture. Urethral stricture is a condition that occurs when the urethra narrows, which can cause difficulty in passing urine and a slow urinary stream. This can lead to a feeling of incomplete emptying of the bladder and a need to strain to empty the bladder completely. Urethral stricture follows previous urethral inflammation due to infection. Other possible causes of these symptoms include prostatic hypertrophy, but this condition is more common in older men, usually over the age of 50. Overactive bladder and neurogenic bladder can also cause urinary symptoms, but they typically present with other symptoms such as urgency, frequency, and incontinence. Phimosis refers to the condition where the foreskin cannot be retracted from the tip of the penis and is unlikely to cause the urinary symptoms described. © Medical Schools Council 2023 Page 2 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 67 year old man is found to have an ejection systolic murmur. He is otherwise well. His pulse rate is 72 bpm and BP 128/84 mmHg. His chest is clear.\nECG shows sinus rhythm. Echocardiography shows aortic stenosis, valve gradient 50 mmHg. Left ventricular (LV) diastolic dysfunction, LV ejection fraction 45% (>55).",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate management?",
+  "n": 2,
+  "o": [
+   "Clinical review and echocardiography in 6 months",
+   "Reassure and discharge",
+   "Refer for aortic valve replacement",
+   "Start bisoprolol fumarate and advise review if symptomatic",
+   "Start lisinopril and advise review if symptomatic"
+  ],
+  "a": 2,
+  "w": "The aortic valve gradient of 50mmHg is considered the level where aortic valve replacement should be considered. In addition, the mild reduction in LV function would also support prompt consideration of an AVR. Medications should not be started as these have no effect on the valve disease progression and may even cause side effects. The patient needs to start the process of definitive treatment with valve replacement, so it is not good practice or safe to either discharge or review in 6 months.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 27 year old woman has muscle weakness which is worse on exercise. When asked to count from one to 100 her voice progressively becomes weaker. She has bilateral ptosis.",
+  "lab": [],
+  "post": "",
+  "ql": "Which pathophysiological process is most likely to be responsible for this disorder?",
+  "n": 3,
+  "o": [
+   "Autoimmunity",
+   "Genetic disorder",
+   "Infarction",
+   "Malignancy",
+   "Meningeal infection"
+  ],
+  "a": 0,
+  "w": "Autoimmunity is the most likely pathophysiological process responsible for this disorder. The symptoms described are consistent with myasthenia gravis, an autoimmune disorder that affects neuromuscular transmission. The muscle weakness worsens with exercise or prolonged use, and the patient also has bilateral ptosis, which is a common feature of myasthenia gravis. The progressive weakness of voice during counting is a characteristic finding known as the fatigue test. Autoimmune antibodies target the acetylcholine receptors at the neuromuscular junction, resulting in impaired transmission of nerve impulses to the muscle.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 60 year old man has 6 months of dry cough and increasing shortness of breath on effort. He was previously fit and well, and is a non-smoker.\nHis temperature is 36.8°C, pulse rate 60 bpm and oxygen saturation 89% breathing air.\nHe has finger clubbing. Cardiac examination is normal, and chest examination reveals bibasal crepitations.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 4,
+  "o": [
+   "Bronchiectasis",
+   "Extrinsic allergic alveolitis",
+   "Idiopathic pulmonary fibrosis",
+   "Lung carcinoma",
+   "Pulmonary tuberculosis"
+  ],
+  "a": 2,
+  "w": "All of the answers are possible causes of cough, finger clubbing and increasing breathlessness but Idiopathic Pulmonary Fibrosis (IPF) is most likely. The dry cough, increasing shortness of breath on exertion, hypoxia, finger clubbing and bibasal crepitations are all in keeping with IPF. Lung cancer is less likely as the patient is a non-smoker and the signs are bilateral in the chest. Extrinsic allergic alveolitis is a possible correct answer but it is less common than IPF and it is usually associated with a history of exposure to a specific antigen. Pulmonary TB is less likely as there is no fever, the cough is dry and the signs are bibasal. © Medical Schools Council 2023 Page 5 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 46 year old man has pain in his left leg and tingling in his left big toe. He developed severe lower back pain 1 week ago and he is unable to walk on his left heel. There is loss of pinprick perception over the left great toe.",
+  "lab": [],
+  "post": "",
+  "ql": "Which nerve root is the most likely to have been affected?",
+  "n": 5,
+  "o": [
+   "L1",
+   "L3",
+   "L5",
+   "S1",
+   "S2"
+  ],
+  "a": 2,
+  "w": "L5 is the most likely nerve root to have been affected. The patient has a combination of lower back pain, pain in the left leg, and tingling in the left big toe, which are consistent with the dermatomal distribution of the L5 nerve root. The inability to walk on the left heel suggests a left-sided foot drop, and so is also consistent with L5 nerve root dysfunction. The loss of pinprick perception over the left great toe also suggests involvement of the L5 dermatome. © Medical Schools Council 2023 Page 6 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 65 year old man attends the anticoagulant clinic. He has had a metal mitral valve replacement and atrial fibrillation. He takes warfarin 7 mg daily.\nThere are no signs of bleeding. His pulse rate is 70 bpm, irregularly irregular, with a mechanical second heart sound. His INR is 5.1.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate next step in management?",
+  "n": 6,
+  "o": [
+   "Continue warfarin at lower dose",
+   "Continue warfarin at same dose",
+   "Give vitamin K intravenously",
+   "Give vitamin K orally",
+   "Withhold warfarin for 2 days then restart at lower dose"
+  ],
+  "a": 4,
+  "w": "It is important to maintain a therapeutic INR to avoid thromboembolism from both the metallic valve and atrial fibrillation. However, we also have to manage the risk of bleeding. With the INR of 5.1 there is a risk of bleeding which can be catastrophic if affecting vital organs such as the brain. In this situation with no bleeding, it is safe to withhold the warfarin for 2 days to allow it to reduce naturally and then perhaps start at a lower dose of warfarin than before. Not stopping warfarin runs the risk that the INR fails to fall with a risk of bleeding (A and B wrong). Reducing the INR too quickly with vitamin K (IV or oral) in the absence of bleeding, can lead to the development of thromboembolisms occurring and also challenges in maintaining future therapeutic levels (requirement for SC heparin). © Medical Schools Council 2023 Page 7 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 52 year old man has three days of severe epigastric pain, radiating to his back, but no chest pain. He has vomited several times. He was previously well. He drinks approximately 60 units of alcohol a week and smokes 20 cigarettes per day.\nThere is epigastric tenderness but his abdomen is not distended, and bowel sounds are present.",
+  "lab": [],
+  "post": "",
+  "ql": "Which test would confirm the most likely diagnosis?",
+  "n": 7,
+  "o": [
+   "Abdominal X-ray",
+   "Gastroduodenoscopy",
+   "Serum alkaline phosphatase concentration",
+   "Serum amylase concentration",
+   "Ultrasound scan of abdomen"
+  ],
+  "a": 3,
+  "w": "Serum amylase concentration would confirm the most likely diagnosis in this case. The patient presents with severe epigastric pain, radiating to his back, and vomiting, which are suggestive of acute pancreatitis. The presence of epigastric tenderness but not distended abdomen and normal bowel sounds are also consistent with this diagnosis. Serum amylase concentration is an important diagnostic test for acute pancreatitis. Elevated serum amylase levels occur early in the course of the disease and can be measured within hours of symptom onset. Abdominal X-ray, gastroduodenoscopy, serum alkaline phosphatase concentration, and ultrasound scan of the abdomen may be useful in certain cases, but they are not as specific for diagnosing acute pancreatitis as serum amylase concentration.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 24 year old man attends the Emergency Department after 2 days of vomiting. He has type 1 diabetes. He is drowsy but maintaining his airway. His pulse rate is 100 bpm, BP 90/60 mmHg, respiratory rate 30 breaths per minute and oxygen saturation 96% breathing air.\nBlood capillary glucose 32 mmol/L Blood capillary ketones 6.2 mmol/L (<0.6) Venous pH 7.15 (7.35–7.45)",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate initial treatment?",
+  "n": 8,
+  "o": [
+   "Intravenous 0.9% sodium chloride",
+   "Intravenous 1.26% sodium bicarbonate",
+   "Intravenous antibiotics",
+   "Intravenous insulin",
+   "Subcutaneous insulin"
+  ],
+  "a": 0,
+  "w": "This patient has diabetic ketoacidosis (DKA). The first step in treatment is intravenous 0.9% sodium chloride to correct dehydration and hyperosmolality. IV insulin will be required but follows initial fluid prescription. © Medical Schools Council 2023 Page 9 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 55 year old man is rescued from a collapsed building where he has been trapped for 12 hours without water.His temperature is 35.6°C, pulse rate 100 bpm and BP 90/42 mmHg. His JVP is not visible. His abdomen is non tender.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "168 g/L",
+    "130–175"
+   ],
+   [
+    "Sodium",
+    "148 mmol/L",
+    "135–146"
+   ],
+   [
+    "Potassium",
+    "6.0 mmol/L",
+    "3.5–5.3"
+   ],
+   [
+    "Urea",
+    "25.1 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "184 μmol/L",
+    "60–120"
+   ],
+   [
+    "Creatine kinase",
+    "840 U/L",
+    "25–200"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most likely cause of this biochemical picture?",
+  "n": 9,
+  "o": [
+   "Bladder outflow obstruction",
+   "Direct renal trauma",
+   "Hypovolaemia",
+   "Rhabdomyolysis",
+   "Sepsis"
+  ],
+  "a": 2,
+  "w": "The most likely cause is acute kidney injury due to hypovolaemia. The observations of tachycardia and hypotension fit this. There are no signs of sepsis or reason why this has developed. The creatine kinase is only minimally elevated and would normally be 10,000 in cases of rhabdomyolysis.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 24 year old woman has diarrhoea. She is HIV positive and has been working in Namibia.\nFaeces microscopy (following modified Ziehl–Neelsen stain): protozoa",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely causative organism?",
+  "n": 10,
+  "o": [
+   "Acanthamoeba",
+   "Cryptosporidium parvum",
+   "Entamoeba coli",
+   "Plasmodium falciparum",
+   "Schistosoma mansoni"
+  ],
+  "a": 1,
+  "w": "Cryptosporidium parvum is the most likely causative organism for diarrhoea in an HIV positive patient working in Namibia. Cryptosporidium is a protozoan parasite that can cause diarrhoea in immunocompromised patients, including those with HIV. It is commonly found in contaminated water sources and is a significant cause of diarrhoeal disease in developing countries. Acanthamoeba, Entamoeba coli, Plasmodium falciparum, and Schistosoma mansoni can also cause various diseases, but are less likely to be the cause of diarrhoea in this patient given the clinical context.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 67 year old man has difficulty chewing and speaking. He underwent carotid surgery 2 days ago.\nHis tongue deviates to the right when he is asked to protrude it.",
+  "lab": [],
+  "post": "",
+  "ql": "Which nerve has been damaged?",
+  "n": 11,
+  "o": [
+   "Left glossopharyngeal nerve",
+   "Left hypoglossal nerve",
+   "Left vagus nerve",
+   "Right glossopharyngeal nerve",
+   "Right hypoglossal nerve"
+  ],
+  "a": 4,
+  "w": "The hypoglossal nerve is responsible for motor function of the tongue, including protrusion and side-to-side movements. Damage to the hypoglossal nerve on one side will cause the tongue to deviate towards the affected side (the stronger left side will push it to the right). In this case, the patient had carotid surgery on the left side, so the right hypoglossal nerve is likely to have been damaged. © Medical Schools Council 2023 Page 12 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 18 year old woman has had 3 years of intermittent zig-zagging and flashing lights in both eyes associated with headache. These episodes occur 2-3 times per month, last approximately half an hour, and are associated with nausea and vomiting. Her vision is affected at the time of each episode but returns to normal afterwards.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 12,
+  "o": [
+   "Acute glaucoma",
+   "Migraine",
+   "Occipital lobe epilepsy",
+   "Retinal detachment",
+   "Tension-type headache"
+  ],
+  "a": 1,
+  "w": "The most likely diagnosis is B. Migraine. The classic visual symptoms of zig-zagging and flashing lights, headache, nausea, and vomiting are typical features of migraine with aura. The fact that the patient’s vision returns to normal after each episode is also consistent with migraine. Acute glaucoma and retinal detachment may present with sudden onset of symptoms, but these are a one off and persist, and require urgent ophthalmologic assessment. Occipital lobe epilepsy is a possibility but less likely since zig-zags almost always point to migraine rather than epilepsy. Tension-type headache does not typically have visual symptoms.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 75 year old man has had 3 days of intermittent headaches, blurred vision and vomiting. For the past 24 hours he has had a severe left sided headache and eye pain, accompanied by blurred vision and vomiting. His left eye is red and the left pupil is dilated.",
+  "lab": [],
+  "post": "",
+  "ql": "Which investigation is most likely to confirm the diagnosis?",
+  "n": 13,
+  "o": [
+   "CT scan of head",
+   "Erythrocyte sedimentation rate",
+   "Fluorescein staining of the cornea",
+   "Measurement of intraocular pressure",
+   "MR scan of head"
+  ],
+  "a": 3,
+  "w": "Based on the symptoms and signs described, the most likely diagnosis is acute angle-closure glaucoma, which is a medical emergency that requires prompt diagnosis and treatment to prevent vision loss. Therefore, the investigation that is most likely to confirm the diagnosis is measurement of intraocular pressure. A high intraocular pressure is characteristic of acute angle-closure glaucoma, although other investigations such as a CT or MR scan of the head may be performed to rule out other causes of the symptoms. © Medical Schools Council 2023 Page 14 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 72 year old woman has had 4 months of progressive difficulty walking. She describes numbness and tingling in her feet and has fallen on several occasions.\nOn examination of her lower limbs, she has normal tone, moderate weakness of ankle dorsiflexion and plantar flexion, normal knee jerks, but absent ankle jerks and extensor plantars. Romberg's test is positive. She has reduced vibration sense, and joint position sense is impaired up to the ankle joints. Temperature and pinprick sensations are normal.",
+  "lab": [],
+  "post": "",
+  "ql": "Which investigation is most likely to confirm the diagnosis?",
+  "n": 14,
+  "o": [
+   "HbA 1c",
+   "Serum folate",
+   "Serum protein electrophoresis",
+   "Serum vitamin B12",
+   "Serum vitamin D"
+  ],
+  "a": 3,
+  "w": "The clinical picture is consistent with subacute combined degeneration of the cord, giving a mixture of upper motor neurone (extensor plantars) and lower motor neurone (absent ankle jerks) features. The sensory ataxia (positive Romberg test and absent position sense in the ankles) is most likely due to dorsal column dysfunction from vitamin B12 deficiency, and this can be confirmed by serum vitamin B12 measurement. Vitamin B12 deficiency of this severity is usually caused by pernicious anaemia. © Medical Schools Council 2023 Page 15 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 34 year old woman has a recurrent itchy rash which lasts for several hours before resolving (see image). She has not identified any triggers. She is systemically well. She is a firefighter and says that she does not want any treatments that may affect her level of alertness.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate treatment to control her symptoms?",
+  "n": 15,
+  "o": [
+   "Oral chlorphenamine maleate",
+   "Oral loratadine",
+   "Oral prednisolone",
+   "Topical aqueous cream",
+   "Topical hydrocortisone"
+  ],
+  "a": 1,
+  "w": "The image shows urticarial weals. Initial treatment for this should be a non-sedating H1-antihistamine. The correct answer is thus B (oral loratadine). Chlorphenamine maleate is a sedating antihistamine, which is more likely to cause adverse effects; this patient also specifically requested treatment that would not affect her level of alertness. Prednisolone is effective for severe, acute urticaria but should not be used first-line. Aqueous cream is a soap substitute and has no role in the management of urticaria. Topical corticosteroids are ineffective for urticaria so hydrocortisone is not indicated here.",
+  "ref": "",
+  "img": [
+   "mla1-015-0.jpg"
+  ]
+ },
+ {
+  "s": "A 29 year old woman has 2 days of marked loss of vision and acute pain in her left eye. The pain is worse when she changes her gaze direction. Her eyes appear normal on general inspection. Her vision is 'count fingers only' in the affected eye. The swinging flashlight test shows that the left pupil dilates when a bright light is moved from the right eye to the left eye. The optic discs are normal on fundoscopy.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 16,
+  "o": [
+   "Acute closed angle glaucoma",
+   "Giant cell arteritis",
+   "Idiopathic intracranial hypertension",
+   "Migraine with aura",
+   "Retrobulbar optic neuritis"
+  ],
+  "a": 4,
+  "w": "The most likely diagnosis in this scenario is retrobulbar optic neuritis. The acute onset of eye pain and marked loss of vision, along with the presence of relative afferent pupillary defect (RAPD) on swinging flashlight test, are suggestive of optic neuritis. The absence of optic disc swelling on fundoscopy suggests a retrobulbar lesion. Acute closed angle glaucoma also presents with acute eye pain, but it is typically associated with other features such as vomiting, headaches and a red eye with a dilated pupil accompanied by a high intraocular pressure. Giant cell arteritis can also cause acute visual loss, but it is more commonly seen in older patients and is often associated with systemic symptoms such as headache, jaw claudication, and malaise. Idiopathic intracranial hypertension can cause vision loss and headache, but it typically does not cause pain with eye movements. Migraine with aura can cause visual disturbances, but it is typically not associated with pain, and the presence of RAPD suggests a neuro- ophthalmic rather than a primary headache disorder. © Medical Schools Council 2023 Page 18 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 45 year old woman develops an intensely painful eruption around her right eye. The illness started with pain 5 days previously, followed by the appearance of a few vesicles, which has now developed into the rash (see image). She has no significant medical history. Treatment is started.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely long-term outcome?",
+  "n": 17,
+  "o": [
+   "Complete resolution with no sequelae",
+   "Corneal ulceration",
+   "Extensive scarring of the right temple",
+   "Partial ptosis",
+   "Reduced visual acuity"
+  ],
+  "a": 0,
+  "w": "The clinical presentation described in this scenario is consistent with herpes zoster ophthalmicus, which is caused by reactivation of the varicella-zoster virus in the ophthalmic division of the trigeminal nerve. Ocular involvement occurs in approximately 50% of patients and some of these can experience a range of complications. However, in the majority of cases there is complete resolution with no sequelae.",
+  "ref": "",
+  "img": [
+   "mla1-017-0.jpg"
+  ]
+ },
+ {
+  "s": "A 48 year old woman has rheumatoid arthritis. She takes regular paracetamol and has no drug allergies. She is due to commence methotrexate weekly.",
+  "lab": [],
+  "post": "",
+  "ql": "Which additional treatment should be prescribed?",
+  "n": 18,
+  "o": [
+   "Calcium carbonate",
+   "Folic acid",
+   "Pyridoxine hydrochloride",
+   "Thiamine",
+   "Vitamin D"
+  ],
+  "a": 1,
+  "w": "Folic acid is recommended as an additional treatment for patients taking methotrexate to reduce the risk of adverse effects. It can be used for this purpose once a week, or daily but omitted on the day of the (weekly) methotrexate dose. Calcium carbonate, pyridoxine hydrochloride, thiamine, and vitamin D are not routinely prescribed as additional treatments for methotrexate. Pyridoxine hydrochloride is usually prescribed alongside isoniazid in the treatment of tuberculosis.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 74 year old woman has 6 months of progressive weakness of her right leg and 3 months of a similar problem on the left, resulting in several falls. She has also noticed difficulty using her hands and can no longer fasten the buttons on her clothes.\nThere is wasting of both legs and the hands, particularly the thenar eminences. There is fasciculation in her right quadriceps. Tone is increased in both legs, with brisk reflexes.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 19,
+  "o": [
+   "Chronic inflammatory demyelinating polyneuropathy",
+   "Motor neurone disease",
+   "Multiple sclerosis",
+   "Myasthenia gravis",
+   "Polymyositis"
+  ],
+  "a": 1,
+  "w": "The most likely diagnosis is motor neurone disease, which is characterised by progressive weakness and wasting of muscles due to degeneration of motor neurones in the brain and spinal cord. The combination of both lower motor neurone signs (fasciculation) and upper motor neurone signs (brisk reflexes) in the same limb are particularly characteristic of motor neurone disease. Multiple sclerosis is purely upper motor neurone and the options listed (chronic inflammatory demyelinating polyneuropathy, myasthenia gravis, and polymyositis) are purely lower motor neurone conditions.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 61 year old man has had 2 months of ankle swelling. He has hypertension and a 30 year history of seronegative polyarthritis. His medication includes ramipril, sulfasalzine, hydroxychloroquine sulfate and diclofenac.\nHis BP is 156/90 mmHg. He has pitting oedema to mid thigh and signs of chronic deforming polyarthropathy in his hands, but no joint tenderness. His optic fundi show silver wiring and arteriovenous nipping. Urinalysis: protein 4+, no other abnormalities.",
+  "lab": [
+   [
+    "Sodium",
+    "133 mmol/L",
+    "135–146"
+   ],
+   [
+    "Potassium",
+    "5.4 mmol/L",
+    "3.5–5.3"
+   ],
+   [
+    "Urea",
+    "9.0 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "119 µmol/L",
+    "60–120"
+   ],
+   [
+    "Albumin",
+    "21 g/L",
+    "35–50"
+   ],
+   [
+    "CRP",
+    "43 mg/L",
+    "<5"
+   ],
+   [
+    "Urinary protein",
+    "creatinine ratio 1100 mg/mmol",
+    "<30"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate initial treatment?",
+  "n": 20,
+  "o": [
+   "Candesartan cilexetil",
+   "Furosemide",
+   "Indapamide",
+   "Prednisolone",
+   "Prednisolone and cyclophosphamide"
+  ],
+  "a": 1,
+  "w": "Based on the clinical presentation and investigations, the most likely diagnosis is nephrotic syndrome, possibly secondary to the patient’s long-standing polyarthritis. The appropriate initial treatment would be to start a furosemide to reduce the patient’s ankle swelling and to refer the patient to a specialist for further investigation and management of the underlying cause. Furosemide is a loop diuretic that acts on the ascending limb of the loop of Henle to increase sodium and water excretion, which can reduce oedema. It is a commonly used diuretic in the management of nephrotic syndrome.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 75 year old woman has had 5 months of a 2 cm red plaque on her leg.",
+  "lab": [
+   [
+    "Skin biopsy",
+    "Bowen's disease",
+    ""
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate topical treatment?",
+  "n": 21,
+  "o": [
+   "5-fluorouracil (Efudix® ) cream",
+   "Betamethasone valerate (Betnovate® ) cream",
+   "Diclofenac (Solaraze® ) gel",
+   "Isotretinoin gel",
+   "Salicylic acid gel"
+  ],
+  "a": 0,
+  "w": "The most appropriate topical treatment for Bowen’s disease, a type of squamous cell carcinoma in situ 5-fluorouracil (Efudix) cream. This is a form of topical cytotoxic chemotherapy which is used to treat both Bowen’s disease and actinic keratosis. It is typically applied to the affected area once or twice a day for 2-4 weeks. An inflammatory reaction, which can be severe, should be expected. Topical corticosteroids such as betamethasone valerate have no effect on Bowen’s disease. Diclofenac can be used in the treatment of actinic keratosis but is not indicated for Bowen’s disease. Isotretinoin gel is a retinoid used in the treatment of acne. Salicylic acid is a keratolytic agent, which is used in the management of hyperkeratotic lesions such as viral warts and sometimes actinic keratoses. Whilst it might reduce hyperkeratosis in Bowen’s, it will not treat the underlying dysplasia effectively. © Medical Schools Council 2023 Page 23 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 32 year old woman has had palpitations and hot flushes for 4 weeks. She has noticed a painless swelling in her neck over the same time and her weight has decreased by 2 kg. She gave birth 4 months ago after a normal pregnancy. She is not breastfeeding.\nHer pulse rate is 120 bpm and BP 140/90 mmHg. She is tremulous and restless. She has a large smooth non-tender goitre.\nFree T4 35.6 pmol/L (9–25) Free T3 10.8 pmol/L (4.0–7.2) TSH <0.01 mU/L (0.3–4.2) Thyroid peroxidase antibodies >1600 IU/L (<50) Thyroid stimulating antibodies <1.0 IU/L (<1.75)",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate initial treatment?",
+  "n": 22,
+  "o": [
+   "Carbimazole",
+   "Propranolol",
+   "Propylthiouracil",
+   "Thyroidectomy",
+   "Thyrotropin alfa"
+  ],
+  "a": 1,
+  "w": "The patient’s presentation and investigations are consistent with hyperthyroidism and a diagnosis of postpartum thyroiditis. Given her symptoms of palpitations, hot flushes, tremulousness, and a high pulse rate, the most appropriate initial treatment is option propranolol. It works by blocking the effects of thyroid hormones on the heart and peripheral tissues. Propranolol can be started immediately to control the patient’s symptoms while further investigations and management are initiated.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 80 year old man has an ulcer over the left heel and reduced mobility. He has a loss of appetite. He has type 2 diabetes mellitus and has previously had a myocardial infarction.\nThe ulcer is 3 cm in diameter and deeply penetrating. Sensory testing shows reduced vibration sense but normal sensation to light touch. His Doppler ratio (ankle brachial pressure index) on the left is 0.68 and on the right is 0.98 (normal value 1.00).",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely mechanism of his ulcer?",
+  "n": 23,
+  "o": [
+   "Arterial",
+   "Neuropathic",
+   "Nutritional",
+   "Vasculitic",
+   "Venous"
+  ],
+  "a": 0,
+  "w": "The ulcer description is arterial. Given the APB of 0.68 and a history of previous MI to support this diagnosis. Normal sensation rules out neuropathic. Nutritional, venous and vasculitic ulcers have different characteristics. © Medical Schools Council 2023 Page 25 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 73 year old man is in hospital with a chest infection. He has several episodes of confusion, anxiety and aggression, during which he attempts to leave the hospital. He is convinced he is being 'spied on' by the doctors and nurses and insists that 'cameras have been installed in my room'. These episodes alternate with periods of marked lethargy, which become more pronounced towards the evening.\nHis temperature is 37.8°C, pulse rate 100 bpm, BP 110/73 mmHg and respiratory rate 12 breaths per minute.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 24,
+  "o": [
+   "Alzheimer's dementia",
+   "Bipolar disorder",
+   "Delirium",
+   "Lewy body dementia",
+   "Schizophrenia"
+  ],
+  "a": 2,
+  "w": "Delirium is the most likely diagnosis given the patient’s acute onset of confusion, fluctuating level of consciousness, perceptual disturbances, and physical illness (chest infection) as a precipitating factor. Delirium is a common acute neuropsychiatric disorder among hospitalised elderly patients and can be caused by a variety of factors such as infection, medication side effects and metabolic derangements. Alzheimer’s dementia and Lewy body dementia are chronic neurodegenerative disorders characterized by progressive cognitive decline and are not typically associated with acute changes in mental status. Bipolar disorder and schizophrenia are chronic psychiatric disorders that may cause psychosis and delusions but are not typically associated with the acute onset of confusion seen in delirium. © Medical Schools Council 2023 Page 26 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 78 year old woman is admitted to the surgical unit with a suspected vesicocolic fistula. She has a history of hypertension, type 2 diabetes mellitus and angina. She is taking amlodipine, metformin, gliclazide, simvastatin and bisoprolol.Her serum creatinine is 120 µmol/L (60–120). The consultant surgeon requests a CT scan of abdomen with contrast.",
+  "lab": [],
+  "post": "",
+  "ql": "Which medication should be stopped before her CT scan?",
+  "n": 25,
+  "o": [
+   "Amlodipine",
+   "Bisoprolol",
+   "Gliclazide",
+   "Metformin",
+   "Simvastatin"
+  ],
+  "a": 3,
+  "w": "Metformin should be stopped before a CT scan with contrast as it can increase the risk of contrast-induced nephropathy. The risk is greater in patients with impaired renal function like the patient in this scenario. The other medications do not need to be stopped before the CT scan. © Medical Schools Council 2023 Page 27 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 50 year old man has a 3 month history of right loin pain and weight loss. For the past 20 years, he has smoked ten cigarettes per day. His temperature is 37.4°C, pulse rate is 72 bpm and BP is 142/74 mmHg.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "11.2 g/L",
+    "130–175"
+   ],
+   [
+    "Platelets",
+    "340 × 10⁹/L",
+    "150–400"
+   ],
+   [
+    "White cell count",
+    "10.1 × 10⁹/L",
+    "4.0–11.0"
+   ]
+  ],
+  "post": "Urinalysis blood 3+",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 26,
+  "o": [
+   "Benign prostatic hypertrophy",
+   "Pyelonephritis",
+   "Renal calculus",
+   "Renal cancer",
+   "Urinary tract infection"
+  ],
+  "a": 3,
+  "w": "Given the patient’s history of weight loss, loin pain, and smoking, as well as the presence of blood in the urine, the most likely diagnosis is renal cancer. Other conditions, such as benign prostatic hypertrophy, pyelonephritis, renal calculus, and urinary tract infection, may also present with similar symptoms but are less likely given the patient’s history and laboratory findings. Further imaging studies, such as a CT scan or ultrasound, would be needed to confirm the diagnosis. © Medical Schools Council 2023 Page 28 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 74 year old man with type 2 diabetes has been increasingly unwell and experiencing progressive thirst and nausea for 2 weeks. Initially he described needing to pass urine more frequently than usual, but now he has not passed urine for 24 hours.\nHe is dehydrated.",
+  "lab": [
+   [
+    "Sodium",
+    "149 mmol/L",
+    "135–146"
+   ],
+   [
+    "Potassium",
+    "5.2 mmol/L",
+    "3.5–5.3"
+   ],
+   [
+    "Chloride",
+    "101 mmol/L",
+    "95–106"
+   ],
+   [
+    "Urea",
+    "15.4 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "208 µmol/L",
+    "60–120"
+   ],
+   [
+    "Fasting glucose",
+    "41.7 mmol/L",
+    "3.0–6.0"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the calculated serum osmolality?",
+  "n": 27,
+  "o": [
+   "206.1 mmol/L",
+   "255.2 mmol/L",
+   "312.3 mmol/L",
+   "355.1 mmol/L",
+   "Impossible to calculate, more information needed"
+  ],
+  "a": 3,
+  "w": "Serum osmolality is 2 x(Na) + Urea + glucose The calculation is 298 + 15.4 + 41.6 = 355",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 65 year old man receives a renal transplant. He is transferred back to the ward after four hours in recovery.\nHis pulse is 106 bpm regular, BP 110/70 mmHg and respiratory rate 18 breaths per minute. His chest is clear on auscultation. His urine output has been 15–20 mL per hour while in recovery. Drain output has been 120 mL since surgery.\nHaemoglobin 90 g/L (130–175) (preoperative level 103 g/L) Sodium 142 mmol/L (135–146) Potassium 5.8 mmol/L (3.5–5.3) Urea 31.9 mmol/L (2.5–7.8) Creatinine 590 µmol/L (60–120)",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the next most appropriate management step?",
+  "n": 28,
+  "o": [
+   "Blood transfusion",
+   "Fluid challenge",
+   "Furosemide",
+   "Haemofiltration",
+   "Insulin and dextrose infusion"
+  ],
+  "a": 1,
+  "w": "The patient has a low urine output, with tachycardia and relative hypotension shortly after a renal transplant. In this early post-operative phase the most likely cause is hypovolaemia so the most appropriate intervention would be to administer a fluid challenge.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 70 year old man has a sharp stabbing pain in his jaw and cheek that lasts for seconds. He reports that the pain is triggered when brushing his teeth, cold wind and touching his face.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate treatment?",
+  "n": 29,
+  "o": [
+   "Carbamazepine",
+   "Indometacin",
+   "Morphine",
+   "Prednisolone",
+   "Pregabalin"
+  ],
+  "a": 0,
+  "w": "The symptoms described suggest the diagnosis of trigeminal neuralgia. Carbamazepine is the first-line treatment for this condition and is therefore the most appropriate option among the choices given.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 64 year old man has developed a tremor in both arms over the last 6 months. It is worse on the right. He also reports difficulty sleeping due to restlessness.\nHe appears emotionally flat and has a tremor at rest that is alleviated on movement.",
+  "lab": [],
+  "post": "",
+  "ql": "Which neurotransmitter is most likely to be deficient?",
+  "n": 30,
+  "o": [
+   "Acetylcholine",
+   "Dopamine",
+   "Glycine",
+   "Norepinephrine (noradrenaline)",
+   "Serotonin"
+  ],
+  "a": 1,
+  "w": "The diagnosis is Parkinson’s disease and hence dopamine is most likely to be deficient. The presence of an asymmetric resting tremor that is alleviated on movement is a characteristic feature of Parkinson’s disease. The restless sleep implies probable associated REM sleep behaviour disorder.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 85 year old man is admitted from a nursing home with a spreading cellulitis originating from an ulcer over his right ankle. Cultures taken from the ulcer and blood have grown MRSA.\nHe is mildly confused. His temperature is 39.5°C, pulse rate 96 bpm and BP 114/60 mmHg.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate initial antibiotic treatment?",
+  "n": 31,
+  "o": [
+   "Co-amoxiclav",
+   "Flucloxacillin",
+   "Meropenem",
+   "Piperacillin with tazobactam",
+   "Vancomycin"
+  ],
+  "a": 4,
+  "w": "Vancomycin would be the most appropriate initial antibiotic treatment in this case of MRSA cellulitis. Vancomycin is a glycopeptide antibiotic that is active against MRSA and other Gram-positive bacteria. It is the drug of choice for treating serious MRSA infections, such as cellulitis, when the strain is known or suspected to be resistant to beta-lactam antibiotics like flucloxacillin or co- amoxiclav. Piperacillin with tazobactam and meropenem are broad-spectrum antibiotics that may be used as an alternative if the patient has a severe penicillin allergy or if the infection is suspected to be caused by Gram-negative bacteria as well. However, they are not specific for MRSA and should be used judiciously to avoid the development of antibiotic resistance.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 75 year old man is found collapsed at home and is brought to the Emergency Department. He has right sided weakness and reduced consciousness. He has type 2 diabetes mellitus, atrial fibrillation and hypertension. He is taking warfarin.",
+  "lab": [
+   [
+    "INR",
+    "4.6",
+    "<1.4"
+   ]
+  ],
+  "post": "CT scan of the head shows a large intracranial haemorrhage.\nHe is given intravenous vitamin K.",
+  "ql": "Which is the most appropriate next additional treatment?",
+  "n": 32,
+  "o": [
+   "Cryoprecipitate",
+   "Fresh frozen plasma",
+   "Fibrinogen concentrate",
+   "No additional treatment needed",
+   "Prothrombin complex concentrate"
+  ],
+  "a": 4,
+  "w": "The patient has an INR of 4.6, which is significantly elevated, suggesting an excessive anticoagulant effect of warfarin. The CT scan shows a large intracranial haemorrhage, which is a life-threatening complication that requires urgent management. The administration of vitamin K will help to reverse the anticoagulant effect of warfarin, but this will take several hours to take effect. In the meantime, the patient is at risk of ongoing bleeding, and so requires further treatment. Prothrombin complex concentrate (PCC) is the most appropriate next additional treatment in this situation. PCC is a concentrated source of clotting factors that can be used to rapidly reverse the anticoagulant effect of warfarin and restore haemostasis. It is more effective than fresh frozen plasma or cryoprecipitate and has a lower risk of complications. Fibrinogen concentrate is not indicated in this situation as there is no evidence of fibrinogen deficiency. © Medical Schools Council 2023 Page 34 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 76 year old woman has no energy and reports excessive tiredness for the past 3 weeks. She has lost 5 kg in weight over the past 3 months. She drinks 30 units of alcohol per week.\nShe is thin and jaundiced. Her temperature is 37.2°C. She has a palpable epigastric mass and 4 cm liver edge.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 33,
+  "o": [
+   "Cholangiocarcinoma",
+   "Cholecystitis",
+   "Cirrhosis of the liver",
+   "Hepatocellular carcinoma",
+   "Pancreatic adenocarcinoma"
+  ],
+  "a": 4,
+  "w": "The most likely diagnosis given the presentation of the patient is pancreatic adenocarcinoma. The symptoms of excessive tiredness, weight loss, jaundice, and palpable mass in the epigastric area along with a history of alcohol use make pancreatic adenocarcinoma the most probable diagnosis. The presence of a 4cm liver edge also indicates liver metastasis.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 76 year old woman with hypertension is taking amlodipine 10 mg daily. A 24 hour BP measurement shows a mean BP of 168/90 mmHg.",
+  "lab": [
+   [
+    "Sodium",
+    "135 mmol/L",
+    "135–146"
+   ],
+   [
+    "Potassium",
+    "4.0 mmol/L",
+    "3.5–5.3"
+   ],
+   [
+    "Urea",
+    "7 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "100 μmol/L",
+    "60–120"
+   ],
+   [
+    "eGFR",
+    "68 mL/min/1.73 m²",
+    ">60"
+   ],
+   [
+    "Urinary albumin",
+    "creatinine ratio 50 mg/mmol",
+    "<3.5"
+   ]
+  ],
+  "post": "",
+  "ql": "Which class of antihypertensive should be added?",
+  "n": 34,
+  "o": [
+   "ACE inhibitor",
+   "Alpha blocker",
+   "Beta blocker",
+   "Loop diuretic",
+   "Thiazide-like diuretic"
+  ],
+  "a": 0,
+  "w": "Ace inhibitors are the most effective medication to treat albuminuria to delay progression to end stage renal disease and reduces cardiovascular risk. NICE suggest that ACE inhibitors or AR2B medications should be first choice in this situation with an ACR 30 mg/mmol in a patient with hypertension. There is no evidence for the other medications to reduce proteinuria and thus CVS risk. © Medical Schools Council 2023 Page 36 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 70 year old man is an inpatient on the cardiology ward. He has worsening breathlessness that woke him up last night.\nHis pulse rate is 99 bpm, BP 160/100 mmHg and respiratory rate 20 breaths per minute. Auscultation of the chest reveals bibasal crepitations, and there is dullness to percussion of both bases.\nChest X-ray shows small bilateral pleural effusions with upper lobe blood vessel diversion.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate diagnostic investigation?",
+  "n": 35,
+  "o": [
+   "Coronary angiography",
+   "CT pulmonary angiography",
+   "ECG",
+   "Echocardiography",
+   "Serum D dimer"
+  ],
+  "a": 3,
+  "w": "Echocardiography would be the most appropriate diagnostic investigation for this patient with worsening breathlessness and signs of heart failure on examination and chest X-ray. Echocardiography can provide information on cardiac function and identify possible causes of heart failure such as valvular disease, cardiomyopathy or pericardial effusion. Coronary angiography would be indicated if there is suspicion of underlying coronary artery disease, but the presentation in this case suggests heart failure rather than acute coronary syndrome. CT pulmonary angiography and serum D-dimer would be indicated if there is suspicion of pulmonary embolism, but the presence of bilateral pleural effusions and upper lobe blood vessel diversion on chest X-ray suggests a cardiac cause for the symptoms. ECG may show evidence of underlying cardiac disease, but echocardiography would be a more appropriate investigation to assess cardiac function.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 80 year old man has sudden onset of loss of vision in his right eye. He has hypertension and a previous stroke.\nHis visual acuity is hand movements only in the right eye and 6/9 in left eye. The right eye has an afferent pupillary defect; left eye pupil responses are normal. On fundoscopy there is a red spot at the right macula.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 36,
+  "o": [
+   "Anterior ischaemic optic neuropathy",
+   "Branch retinal vein occlusion",
+   "Central retinal artery occlusion",
+   "Macular degeneration",
+   "Retinal detachment"
+  ],
+  "a": 2,
+  "w": "The most likely diagnosis in this scenario is central retinal artery occlusion (CRAO). The sudden onset of visual loss, the presence of an afferent pupillary defect, and red spot (the cherry red spot) on fundoscopy are all consistent with this diagnosis. The patient also has risk factors for this diagnosis. In branch retinal vein occlusion patients typically have multiple retinal haemorrhages in the distribution of the vein. Macular degeneration does not cause sudden onset visual loss and although both retinal detachment and anterior ischaemic optic neuropathy cause acute visual loss neither have the fundoscopic findings described. © Medical Schools Council 2023 Page 38 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 72 year old woman has had inability to sleep well for the past 3 years. She gets to sleep by 23:00 but wakes up two or three times in the night and gets up by 07:00. Her husband says that she doesn't snore. Her BMI is 23 kg/m². She carries out her normal daytime activities with no daytime somnolence. She is otherwise well. Her MMSE (Mini Mental State Examination) score is 27/30.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely cause of her insomnia?",
+  "n": 37,
+  "o": [
+   "Depression",
+   "Early stages of dementia",
+   "Hypomania",
+   "Normal age related sleep pattern",
+   "Obstructive sleep apnoea"
+  ],
+  "a": 3,
+  "w": "Based on the information given, the most likely cause of her insomnia is normal age-related sleep pattern. This is because she is able to carry out normal daytime activities with no daytime somnolence, has no history of snoring or other sleep-related symptoms, and has a high MMSE score indicating good cognitive function. It is common for older adults to experience changes in their sleep patterns, such as more fragmented sleep and more frequent awakenings during the night. Other potential causes such as depression, dementia, hypomania, and obstructive sleep apnoea would require further evaluation and additional symptoms or risk factors to be confirmed.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 35 year old man visits his GP with 3 days of a red, painful left eye with no discharge.\nThere is a diffuse area of redness in the medial aspect of his left sclera. His pupils and visual acuity are normal.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate management?",
+  "n": 38,
+  "o": [
+   "Arrange assessment in emergency eye clinic",
+   "Prescribe chloramphenicol eye drops",
+   "Prescribe corticosteroid eye drops",
+   "Prescribe topical aciclovir",
+   "Reassure patient that it will resolve spontaneously"
+  ],
+  "a": 0,
+  "w": "The symptoms of a painful red eye without discharge and a diffuse area of redness on the sclera are suggestive of scleritis, which requires immediate referral by his GP to an ophthalmologist via the emergency eye clinic. Scleritis is an inflammatory condition of the sclera that can lead to other serious ocular complications if untreated. Although topical corticosteroids may be used in the management of scleritis these should only be initiated under the supervision of an Ophthalmologist after confirmation of the diagnosis. None of the other options in this case would be appropriate. © Medical Schools Council 2023 Page 40 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 18 year old woman is found dead, sitting in front of a gas fire that is still burning. The flue that carries gases away from the fire is found to be blocked.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the principal mechanism of action of the poison involved in her death?",
+  "n": 39,
+  "o": [
+   "Binding to the site on haemoglobin normally occupied by oxygen",
+   "Converting carbon dioxide to carbonic acid in the cytoplasm of peripheral cells",
+   "Converting the iron in haem to an iron salt",
+   "Damaging the lipid bilayer of alveolar pneumocytes",
+   "Inhibiting cytochrome enzyme systems"
+  ],
+  "a": 0,
+  "w": "The most likely cause of death in this case is carbon monoxide (CO) poisoning, which is known to result from blocked flues and unvented fires. CO binds to the site on haemoglobin normally occupied by oxygen, thereby reducing the oxygen-carrying capacity of the blood. This leads to tissue hypoxia and eventually death.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 35 year old man with type 1 diabetes mellitus has burning pain in his feet and difficulty sleeping. He has retinopathy and nephropathy.",
+  "lab": [
+   [
+    "eGFR",
+    "28 mL/min/1.73m2",
+    ">60"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate management?",
+  "n": 40,
+  "o": [
+   "Acupuncture",
+   "Amitriptyline",
+   "Duloxetine",
+   "Physiotherapy",
+   "Sodium valproate"
+  ],
+  "a": 1,
+  "w": "The most appropriate management for this patient with type 1 diabetes mellitus, burning pain in his feet, difficulty sleeping, and decreased eGFR would be amitriptyline. Although duloxetine can be used in this condition it is not recommended with an eGFR <30 mL/min. © Medical Schools Council 2023 Page 42 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 24 year old woman has tiredness, bloating and weight loss with bouts of offensive smelling diarrhoea. Abdominal examination is normal.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "10.0 g/L",
+    "115–150"
+   ],
+   [
+    "Mean cell volume (MCV)",
+    "78 fL",
+    "80–96"
+   ],
+   [
+    "Platelets",
+    "350 × 10⁹/L",
+    "150–400"
+   ]
+  ],
+  "post": "Duodenal biopsy shows flattening of villi and increased lymphocytes in the lamina propria and surface epithelium. In addition, there is gross crypt hyperplasia.",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 41,
+  "o": [
+   "Carcinoid tumour",
+   "Coeliac disease",
+   "Collagenous enteropathy",
+   "Crohn's disease",
+   "Pseudomembranous enteropathy"
+  ],
+  "a": 1,
+  "w": "The most likely diagnosis is Coeliac disease. The symptoms of tiredness, bloating and weight loss along with flattened villi and increased lymphocytes in the lamina propria and surface epithelium on duodenal biopsy suggest the diagnosis. The low haemoglobin and MCV values could also be attributed to malabsorption associated with coeliac disease. The other options listed (carcinoid tumour, collagenous enteropathy, Crohn’s disease, and pseudomembranous enteropathy) do not fit the clinical picture and findings described in the case.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 87 year old man develops profuse watery diarrhoea 6 days after admission for an infective exacerbation of COPD. He is currently taking oral co- amoxiclav.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely causative organism?",
+  "n": 42,
+  "o": [
+   "Campylobacter jejuni",
+   "Clostridioides difficile (Clostridium difficile)",
+   "Escherichia coli",
+   "Norovirus",
+   "Salmonella enteriditis"
+  ],
+  "a": 1,
+  "w": "The most likely causative organism in this case is Clostridioides difficile (Clostridium difficile) as it is a common cause of antibiotic- associated diarrhoea and the patient is taking oral co-amoxiclav. © Medical Schools Council 2023 Page 44 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 22 year old woman has worsening shortness of breath and cough productive of four to five tablespoons of sputum per day. She has a history of childhood pneumonia and recurrent chest infections, and coughed up blood on two occasions many years ago.\nOn auscultation of her chest there are bilateral scattered wheezes and coarse inspiratory crackles.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 43,
+  "o": [
+   "Bronchiectasis",
+   "COPD",
+   "Lung cancer",
+   "Pulmonary fibrosis",
+   "Sarcoidosis"
+  ],
+  "a": 0,
+  "w": "Bronchiectasis is most likely due to the copious sputum production, and the history of childhood pneumonia and recurrent chest infections. Cystic fibrosis should be considered also as a cause of the bronchiectasis. Bronchiectasis is characterised by permanent dilation and thickening of bronchi resulting in chronic cough with daily sputum production and recurrent respiratory infections. Often there are coarse crackles on examination and there may be wheeze if there is an exacerbation. Haemoptysis can be a feature of bronchiectasis especially when there is an exacerbation. COPD and lung cancer are very uncommon in this age group. Pulmonary fibrosis generally has fine crackles and copious sputum production is less common. Sarcoidosis can cause fine crackles also, but it is unusual in this age group and it does not usually present with recurrent chest infections and copious sputum production is not usually a feature.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 52 year old woman has had four episodes of severe, colicky epigastric pain associated with vomiting over the past 3 months. The episodes occurred after eating and lasted for about 1 hour before complete resolution. She has a history of type 2 diabetes mellitus and takes metformin.\nAbdominal examination is normal. Her BMI is 35 kg/m².",
+  "lab": [],
+  "post": "",
+  "ql": "Which investigation is most likely to confirm the diagnosis?",
+  "n": 44,
+  "o": [
+   "Helicobacter stool antigen test",
+   "Serum Amylase",
+   "Plain abdominal X-ray",
+   "Ultrasonography of abdomen",
+   "Upper gastrointestinal endoscopy"
+  ],
+  "a": 3,
+  "w": "The patient reports intermittent episodes of colicky pain in association with nausea and vomiting. This would be consistent with biliary colic. She has risk factors for gallstones including being female, middle aged and overweight. Therefore, an ultrasound of abdomen would be the appropriate investigation at this stage. Pain associated with gastro-oesophageal reflux disease (GORD) and dyspepsia this is likely to lead to persistent symptoms over a period of time. Upper Gi endoscopy and Helicobacter stool antigen test are relevant when investigating for suspected GORD. Serum amylase is indicated in suspected pancreatitis. Plain abdominal X-ray would be potentially helpful in the investigation of suspected small or large bowel pathologies (e.g. obstruction, constipation), although CT would likely be more informative.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 83 year old woman has recurring 'dizzy spells'. The episodes are associated with transient shaking of her hands that is most noticeable before her lunch and evening meals. She has hypertension and type 2 diabetes mellitus. Her medication includes metformin 1 g twice daily, gliclazide 80 mg twice daily and ramipril 10 mg daily.\nHer BP is 138/82 mmHg supine and 130/78 mmHg erect. Her blood capillary glucose is 6 mmol/L.",
+  "lab": [
+   [
+    "Sodium",
+    "136 mmol/L",
+    "135-146"
+   ],
+   [
+    "Potassium",
+    "5.0 mmol/L",
+    "3.5-5.3"
+   ],
+   [
+    "Urea",
+    "3.9 mmol/L",
+    "2.5-7.8"
+   ],
+   [
+    "Creatinine",
+    "77 μmol/L",
+    "60-120"
+   ],
+   [
+    "Glycated haemoglobin",
+    "50 mmol/mol",
+    "20-42"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate therapeutic change?",
+  "n": 45,
+  "o": [
+   "Increase gliclazide dose",
+   "Increase metformin dose",
+   "Reduce gliclazide dose",
+   "Reduce metformin dose",
+   "Reduce ramipril dose"
+  ],
+  "a": 2,
+  "w": "This 83 year old woman is experiencing symptoms consistent with hypoglycaemia. The timing of her \"dizzy spells\" and hand shaking - before lunch and evening meals - suggests they might be related to periods of extended fasting and thus to her medications, particularly the ones that have the potential to lower blood glucose. Furthermore, her glycated haemoglobin (HbA1c) level is 50 mmol/mol. While this is elevated compared to the normal reference range provided (20-42 mmol/mol), it's in the target range or even a bit stringent for many elderly patients with type 2 diabetes. Overly aggressive glycaaemic control can increase the risk of hypoglycaemia in older adults. Therefore, the most appropriate therapeutic change, given the symptoms and the clinical context, would be to reduce gliclazide dose.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 76 year old woman has progressive breathlessness with right-sided pleuritic chest pain and weight loss over 6 months. She is a retired mechanic and has a 25 pack-year smoking history.",
+  "lab": [
+   [
+    "Chest X-ray",
+    "marked volume loss in right hemithorax",
+    ""
+   ],
+   [
+    "CT scan of chest",
+    "see image",
+    ""
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 46,
+  "o": [
+   "Asbestosis",
+   "Chronic hypersensitivity pneumonitis",
+   "Lung cancer",
+   "Malignant pleural mesothelioma",
+   "Tuberculosis"
+  ],
+  "a": 3,
+  "w": "The symptoms and imaging findings described in the scenario are consistent with malignant pleural mesothelioma. The CT image shows marked volume loss in the right lung and the right lung is encased with tumour. The patient may have been exposed to asbestos in her job as a mechanic (brake pads etc). Chronic hypersensitivity pneumonitis and asbestosis have changes in the lung fields, not the pleura. The changes are usually bilateral and crackles are heard at the area of abnormality. This patient’s history would fit with lung cancer and she does have risk factors for lung cancer (smoking and asbestos exposure) but chest pain is more common with mesothelioma and the CT scan appearances are classical of mesothelioma as the thickening is of the pleura. TB can mimic anything but it is less likely in this case and there is no fever.",
+  "ref": "",
+  "img": [
+   "mla1-046-0.jpg"
+  ]
+ },
+ {
+  "s": "A 65 year old woman has severe left-sided abdominal pain. Yesterday, she noticed blood mixed in with her stools. There is no history of weight loss.\nHer temperature is 37.7°C. She is very tender on palpation in the left lower quadrant. No masses are felt on rectal examination, but there is blood on the glove.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely cause of her symptoms?",
+  "n": 47,
+  "o": [
+   "Angiodysplasia",
+   "Colorectal cancer",
+   "Diverticulitis",
+   "Haemorrhoids",
+   "Ulcerative colitis"
+  ],
+  "a": 2,
+  "w": "Based on the patient’s presentation of severe left- sided abdominal pain, blood mixed in with her stools, and tenderness on palpation in the left lower quadrant, the most likely cause of her symptoms is diverticulitis. Angiodysplasia is a condition where abnormal blood vessels in the gastrointestinal tract can cause bleeding, but it typically presents with painless bleeding and is not associated with abdominal pain or tenderness. Colorectal cancer can cause abdominal pain and bleeding, but it is less likely to present with acute onset of severe pain and tenderness, especially if there is no history of weight loss. Haemorrhoids can cause bleeding during bowel movements, but they typically do not cause severe abdominal pain. Ulcerative colitis is a chronic inflammatory bowel disease that can cause abdominal pain and bloody diarrhoea, but it is less likely to present with acute onset of severe pain and tenderness. Additionally, the absence of any history of weight loss makes ulcerative colitis less likely. Therefore, based on the information provided, diverticulitis is the most likely cause of this patient’s symptoms. © Medical Schools Council 2023 Page 50 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 35 year old woman was admitted two days ago after taking 32 paracetamol tablets. She has alcohol use disorder and weighs 40 kg. She has been treated with a full dose of acetylcysteine.",
+  "lab": [],
+  "post": "",
+  "ql": "Which investigation best demonstrates restoration of liver synthetic function?",
+  "n": 48,
+  "o": [
+   "Albumin",
+   "ALT",
+   "Bilirubin",
+   "γGT",
+   "PT"
+  ],
+  "a": 4,
+  "w": "In this scenario, the patient has ingested a potentially toxic amount of paracetamol and has been treated with acetylcysteine, which is the antidote for paracetamol overdose. As a result, the most likely organ affected is the liver, and the investigation that best demonstrates the restoration of liver synthetic function is the prothrombin time (PT). Paracetamol overdose can cause liver damage, which can lead to a decrease in the synthesis of clotting factors by the liver. The PT is a measure of the time it takes for a clot to form in a blood sample, and it is used to assess liver function. An elevated PT indicates impaired liver function, and a prolonged PT is commonly seen in patients with liver damage due to paracetamol overdose. Therefore, monitoring the PT is essential in patients with paracetamol overdose to assess the extent of liver damage and to evaluate the effectiveness of treatment with acetylcysteine. Albumin is a protein synthesized by the liver and is often used as a marker of liver function. However, albumin levels may not show immediate changes in liver synthetic function in the setting of acute liver injury. ALT is an enzyme that is released into the bloodstream when liver cells are damaged. ALT levels can be elevated in patients with liver damage due to paracetamol overdose, but they do not reflect the restoration of liver synthetic function. Bilirubin is a pigment produced by the breakdown of red blood cells and is typically elevated in patients with liver damage. However, it does not reflect the restoration of liver synthetic function. Gamma GT is an enzyme found in liver cells that can be elevated in patients with liver damage. However, it is not a specific marker of liver function, and its levels may remain elevated even after the restoration of liver synthetic function. Therefore, the investigation that best demonstrates the restoration of liver synthetic function in this patient is the prothrombin time (PT). © Medical Schools Council 2023 Page 51 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 64 year old woman has thumping palpitations and says that she sometimes feels her heart 'gives a sudden jump'. Her husband recently died due to myocardial infarction.\nHer pulse rate is 70 bpm, BP 136/80 mmHg. Her heart sounds are normal.\nHer 12-lead ECG is shown in the tracing.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely cause of her palpitations?",
+  "n": 49,
+  "o": [
+   "Atrial fibrillation",
+   "Premature supraventricular beats",
+   "Premature ventricular beats",
+   "Sinus arrhythmia",
+   "Ventricular tachycardia"
+  ],
+  "a": 2,
+  "w": "Premature ventricular beats (aka ventricular ectopic beats) are a common cause of palpitations and may present with thumping palpitations or a sensation of a sudden jump in the heart. Premature supraventricular beats can also present in this way but the ECG shows three broad-complex ectopic beats suggesting a ventricular origin. Premature ventricular beats are caused by early depolarisation of the ventricular tissue leading to an early contraction. The symptoms are usually brief and self-limited, and the patient may not require any specific treatment. However, it is important to exclude underlying cardiac disease. Atrial fibrillation and ventricular tachycardia can also cause palpitations but are less likely in this scenario based on the patient’s history, normal physical examination findings and abnormal ECG. Sinus arrhythmia is a normal variation in heart rate that © Medical Schools Council 2023 Page 52 of 105 occurs during breathing and is not typically associated with palpitations or sudden jumps in heart rate.",
+  "ref": "",
+  "img": [
+   "mla1-049-0.jpg"
+  ]
+ },
+ {
+  "s": "A 35 year old man has painless swelling of the right side of his scrotum.\nThe swelling is soft and fluctuant, and transilluminates.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 50,
+  "o": [
+   "Hydrocoele",
+   "Inguinal hernia",
+   "Testicular torsion",
+   "Testicular tumour",
+   "Varicocoele"
+  ],
+  "a": 0,
+  "w": "Based on the provided information, the most likely diagnosis is hydrocoele. A hydrocoele is a collection of fluid that surrounds the testicle within the tunica vaginalis, causing painless swelling of the scrotum. The swelling is typically soft, fluctuant, and transilluminates when a light is shone on it. This condition can occur at any age, but it is more common in older men. An inguinal hernia may also present as a painless swelling in the scrotum, but it is typically firmer and does not transilluminate. Testicular torsion, on the other hand, is a painful condition that typically presents with sudden onset of severe testicular pain, often accompanied by nausea and vomiting. Testicular tumours may present as a painless testicular mass or swelling, but they are less likely to cause diffuse scrotal swelling. Varicoceles are enlarged veins within the scrotum, but they typically feel like a bag of worms and do not transilluminate. © Medical Schools Council 2023 Page 54 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 67 year old woman has an ulcer with a raised white margin on her left ear; it has been present for 3 years, growing slowly and never completely healing. She spent 20 years living in Australia before returning to the UK recently.\nOn examination, she has a small ulcerated area, 4 mm × 6 mm, on her left pinna.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 51,
+  "o": [
+   "Actinic keratosis",
+   "Basal cell carcinoma",
+   "Malignant melanoma",
+   "Seborrhoeic keratosis",
+   "Squamous cell carcinoma"
+  ],
+  "a": 1,
+  "w": "The history of an ulcerated lesion on the ear in an individual likely to have had a high level of ultraviolet light exposure from living in Australia should raise the possibility of a keratinocyte cancer. Given the long history yet small size of the lesion, together with the description of a raised, pale border make basal cell carcinoma (BCC) the most likely diagnosis. Other characteristic features would be a shiny or pearly surface, a rolled edge or overlying telangiectasia. Actinic keratoses are pink and scaly or hyperkeratotic and do not ulcerate. There is no pigmentation to suggest melanoma. Whilst amelanotic melanoma is not completely impossible here, BCC is hugely more common and therefore a much more likely diagnosis. Seborrhoeic keratosis is a harmless warty lesion, which is usually pigmented and does not ulcerate. Squamous cell carcinoma is the other main type of keratinocyte cancer, but is usually red, not pale. It typically grows at a much faster rate than BCC. © Medical Schools Council 2023 Page 55 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 90 year old man has had 3 days of spasmodic suprapubic pain radiating to the tip of the penis. His long-term urinary catheter has recently been changed. He is mildly confused.\nHis temperature is 38.2º C, pulse rate 88 bpm, BP 146/88 mmHg, respiratory rate 15 breaths per minute and oxygen saturation 96% breathing air. Urinalysis: dark and strong smelling, protein 1+, blood 1+, negative for leucocytes and nitrites.",
+  "lab": [],
+  "post": "",
+  "ql": "Which factor(s) indicate(s) the need to start antibiotics?",
+  "n": 52,
+  "o": [
+   "Blood and protein in urine",
+   "Dark strong-smelling urine",
+   "Fever and mild confusion",
+   "Presence of pain",
+   "Recent catheter change"
+  ],
+  "a": 2,
+  "w": "The patient’s fever, mild confusion and urinary symptoms suggest the presence of a systemic infection, which could be due to a urinary tract infection (UTI) or catheter-related infection given his recent catheter change. It is therefore important to start antibiotics. The presence of blood and protein in the urine, are not specific to urinary infection and are very commonly associated with indwelling urinary catheters. Blood and protein in the urine could also suggest other renal or urinary tract pathologies. Dark strong-smelling urine is again not specific for urinary infection. Pain could be a symptom of urinary tract pathology, but it does not necessarily indicate the need for antibiotics unless it is associated with other signs of infection. The indications for antibiotics with a catheter change include neutrophils 1 × 10⁹/L, multiple attempts or traumatic insertion, post trans-urethral urological surgery, previous episode of catheter change related sepsis, frank pus at the urethral meatus or in critical care patients. © Medical Schools Council 2023 Page 56 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 82 year old woman with atrial fibrillation takes warfarin to reduce her risk of stroke. Her INR is fluctuating between 1.1 and 3.8 (1.0), and she admits that she does not always remember to take her tablets. Her CHA2DS2-VASc score is 4. She lives alone and independently.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the safest way to manage her stroke risk?",
+  "n": 53,
+  "o": [
+   "Change to aspirin using a monitored dosage system",
+   "Change to dalteparin administered by district nurse",
+   "Change to rivaroxaban using a monitored dosage system",
+   "Continue warfarin using a monitored dosage system",
+   "Stop anticoagulation"
+  ],
+  "a": 2,
+  "w": "Still needs anti-coagulation from CHA2DS2VASc score. Warfarin or rivaroxaban only indicated for stroke prevention in AF. Metered dosage system appropriate but variable dosing of warfarin difficult with this so change to rivaroxaban.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 48 year old man has visible haematuria and right loin pain. His temperature is 37.3°C, pulse rate 72 bpm and BP 170/97 mmHg. Masses are palpable in both flanks.",
+  "lab": [
+   [
+    "Creatinine",
+    "220 µmol/L",
+    "60-120"
+   ],
+   [
+    "Urinalysis",
+    "blood 4+",
+    ""
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate next investigation?",
+  "n": 54,
+  "o": [
+   "CT scan of kidneys, ureters and bladder",
+   "Cystoscopy",
+   "MR scan of renal tract",
+   "Ultrasound scan of renal tract",
+   "Urine cytology"
+  ],
+  "a": 3,
+  "w": "The most appropriate next investigation is an ultrasound of the renal tract. The patient likely has undiagnosed polycystic kidney disease with bilateral renal masses, reduced renal function and haematuria. A renal ultrasound will rapidly confirm the presence of cysts. MR scan may be done later to assess renal sizes ahead of possible therapy with vasopressin antagonists. Cystoscopy is not required at this stage and urine cytology would not be of benefit. CT kidney, ureter and bladder would be used in suspected malignancy and urolithiasis.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 35 year old man visits his GP with a severe frontal headache of 12 hours' duration. It started suddenly, reaching maximum intensity within 1 minute. He has associated nausea.\nAt the onset of his headache he noticed a small hole in his vision. This hole started centrally, moved to the edge of his vision and has now resolved. The headache is worse in bright light. Paracetamol has not helped his pain.",
+  "lab": [],
+  "post": "",
+  "ql": "Which feature should prompt immediate referral to hospital?",
+  "n": 55,
+  "o": [
+   "Abrupt onset",
+   "Failure to respond to paracetamol",
+   "Nausea",
+   "Photophobia",
+   "Visual disturbance"
+  ],
+  "a": 0,
+  "w": "The case description seems to be of migraine with a surprisingly abrupt onset of headache. It is the abrupt onset of headache is the most worrying feature and suggests a serious underlying cause. Abrupt onset of headache with visual disturbance could be due to subarachnoid haemorrhage (possibly a haemorrhage into the occipital lobe, e.g. from an intracerebral arteriovenous malformation), or haemorrhage into a pituitary macroadenoma with compression of the anterior visual pathway. Other possibilities include reversible cerebral vasoconstriction syndrome, cerebral venous sinus thrombosis or low- pressure headache, though visual disturbance would not be easily explained).",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 28 year old man has an insurance medical.\nHis pulse rate is 72 bpm and BP 210/110 mmHg. There is radiofemoral delay. A systolic murmur is audible on auscultation.\nChest X-ray reveals notching of the ribs in the mid-clavicular line.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 56,
+  "o": [
+   "Coarctation of the aorta",
+   "Dissecting aortic aneurysm",
+   "Marfan's syndrome",
+   "Renal artery stenosis",
+   "Takayasu's arteritis"
+  ],
+  "a": 0,
+  "w": "The patient’s elevated blood pressure, radiofemoral delay, and chest X-ray findings of notching of the ribs in the mid- clavicular line are suggestive of aortic coarctation. Coarctation of the aorta is a congenital defect that results in a narrowing of the aorta, just beyond the origin of left subclavian artery. This can lead to hypertension and other cardiovascular complications. The systolic murmur heard on auscultation may arise from flow across the coarctation itself or associated aortic valve disease. Dissecting aortic aneurysm is less likely, as it typically presents with sudden, severe chest or back pain and is a medical emergency requiring immediate intervention. Marfan’s syndrome is a genetic disorder that can affect multiple organ systems, including the heart and blood vessels, but typically presents with other clinical features such as joint hypermobility and tall stature. Renal artery stenosis and Takayasu’s arteritis may also cause hypertension but are less likely given the patient’s other clinical findings. © Medical Schools Council 2023 Page 60 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 42 year old woman has two episodes of haemoptysis. She also reports two months of sinusitis with pain, stuffiness and nose bleeds. She has some loosening of her teeth and painful oral ulceration. Previously, she noticed a rash and nodules over her elbows but they have disappeared.",
+  "lab": [
+   [
+    "Chest X-ray",
+    "see image",
+    ""
+   ],
+   [
+    "Urinalysis",
+    "occasional red cell casts",
+    ""
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 57,
+  "o": [
+   "Behçet's disease",
+   "Granulomatosis with polyangiitis",
+   "Metastatic nasopharyngeal carcinoma",
+   "Syphilis",
+   "Tuberculosis"
+  ],
+  "a": 1,
+  "w": "Granulomatosis with polyangiitis (GPA) is the most likely diagnosis based on the history of sinusitis, oral ulceration and haemoptysis and the bilateral pulmonary nodules on chest X-ray. GPA is a rare autoimmune disease that affects small blood vessels in the body, causing inflammation and tissue damage. The presence of red cell casts in the urinalysis suggests renal involvement, which is also common in GPA. The other conditions listed are less likely to explain the patient’s symptoms and findings.",
+  "ref": "",
+  "img": [
+   "mla1-057-0.jpg"
+  ]
+ },
+ {
+  "s": "A 19 year old man has had a sore throat, malaise and intermittent fever for 2 weeks.\nHis pulse rate is 74 bpm and BP 115/75 mmHg. His throat is red and tonsils are swollen. His sclerae are yellow-tinged. There are multiple soft palpable lymph nodes in the neck. There is tenderness in the right upper abdominal quadrant.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate diagnostic investigation?",
+  "n": 58,
+  "o": [
+   "Epstein–Barr virus test",
+   "HIV test",
+   "Lymph node biopsy for histology",
+   "Mantoux test",
+   "Throat swab and culture"
+  ],
+  "a": 0,
+  "w": "Based on the presented information, the most appropriate diagnostic investigation is an Epstein-Barr virus (EBV) test. The clinical features, including sore throat, malaise, intermittent fever, swollen tonsils, yellow- tinged sclerae, and tender lymph nodes, suggest infectious mononucleosis (glandular fever). This is a relatively common disease in the 15 - 25 year old age group and is caused by EBV. Blood tests for antibodies can be used to confirm acute infection once a person has been ill for at least 7 days. © Medical Schools Council 2023 Page 63 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 27 year old woman has had abdominal pain for 48 hours. She also reports recurrent mouth ulcers and altered bowel habit for a few weeks.\nHer temperature is 37.5°C. She has central abdominal tenderness.\nCT colonoscopy shows a normal appendix with distal small bowel thickening. There are enlarged nodes in the small bowel mesentery.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 59,
+  "o": [
+   "Crohn's ileitis",
+   "Intestinal tuberculosis",
+   "Meckel's diverticulitis",
+   "Mesenteric adenitis",
+   "Small bowel lymphoma"
+  ],
+  "a": 0,
+  "w": "Crohn’s ileitis is the most likely diagnosis based on the patient’s symptoms, findings on CT colonoscopy, and demographic factors. Crohn’s disease is a chronic inflammatory bowel disease that can affect any part of the gastrointestinal tract, but it most commonly involves the terminal ileum. The patient’s symptoms of recurrent mouth ulcers and altered bowel habit are consistent with Crohn’s disease, and the finding of small bowel thickening with enlarged mesenteric nodes on CT colonoscopy is also suggestive. Intestinal tuberculosis may be considered in the differential diagnosis, but the patient’s demographics make this less likely. Meckel’s diverticulitis and mesenteric adenitis may also be considered, but the lack of a diverticulum or focal lymphadenopathy makes these less likely. Small bowel lymphoma is another possible diagnosis, but the presence of a normal appendix makes this less likely. © Medical Schools Council 2023 Page 64 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 34 year old man has cough and weight loss.\nA diagnosis of tuberculosis is confirmed and treatment is started. As part of his monitoring, he is screened for loss of visual acuity.",
+  "lab": [],
+  "post": "",
+  "ql": "Which antituberculosis drug is an indication for visual monitoring?",
+  "n": 60,
+  "o": [
+   "Ethambutol hydrochloride",
+   "Isoniazid",
+   "Moxifloxacin",
+   "Pyrazinamide",
+   "Rifampicin"
+  ],
+  "a": 0,
+  "w": "Ethambutol hydrochloride is the antituberculosis drug that requires monitoring of visual acuity. Ethambutol can cause optic neuritis, which can lead to impaired colour discrimination, central visual field defects, and blurred vision. Therefore, it is recommended to perform baseline ophthalmologic examination before starting the treatment and periodic monitoring during the treatment, especially in patients with pre-existing visual impairment or renal impairment. The other antituberculosis drugs listed do not require routine ophthalmologic monitoring.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 21 year old woman presents to her GP with moderately severe acne. She has tried topical retinoids and topical antibiotics without satisfactory response. She has a history of a deep vein thrombosis following a long-haul flight.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate treatment?",
+  "n": 61,
+  "o": [
+   "Co-cyprindiol",
+   "Desogestrel",
+   "Flucloxacillin",
+   "Isotretinoin",
+   "Lymecycline"
+  ],
+  "a": 4,
+  "w": "The most appropriate treatment next treatment for moderately severe acne in a patient with a history of deep vein thrombosis is Lymecycline. Co-cyprindiol is a form of the oral contraceptive pill (OCP) with anti- androgenic effects, which is licensed for acne. However, it carries a higher risk of thromboembolic disease than other OCPs and is contraindicated here. Desogestrel (when used alone) is a progesterone-only OCP, which may exacerbate acne. Flucloxacillin has no effect on acne. Oral isotretinoin is the most effective treatment for acne but on account of its potential adverse effects is usually reserved for severe or scarring disease or when other treatments including tetracycline antibiotics have not been sufficiently effective.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 45 year old man has had weight loss, fatigue and polyuria for 3 months. He takes a number of multivitamin preparations.\nClinical examination is unremarkable.\nSerum corrected calcium 2.9 mmol/L (2.2–2.6)Phosphate 0.82 mmol/L (0.8– 1.5) Serum alkaline phosphatase 154 IU/L (25–115) Parathyroid hormone 7.9 pmol/L (1.6–8.5)\nSerum electrolytes and urea are normal.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 62,
+  "o": [
+   "Bony metastases",
+   "Excess calcium intake",
+   "Primary hyperparathyroidism",
+   "Sarcoidosis",
+   "Vitamin D excess"
+  ],
+  "a": 2,
+  "w": "The most likely diagnosis in this case is primary hyperparathyroidism as it is characterised by increased serum calcium and alkaline phosphatase. The parathyroid hormone is only slightly elevated which is still consistent with the diagnosis, as it should be suppressed in the presence of hypercalcaemia. Excess calcium intake and vitamin D excess can also cause hypercalcaemia but they are less likely in this case as the patient does not report any excessive intake of these substances. Bony metastases and sarcoidosis can also cause hypercalcemia, but they would cause a suppressed PTH.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 59 year old man has a 1 year history of erectile dysfunction. He has a history of angina, type 2 diabetes mellitus and peripheral vascular disease. He had a thyroidectomy 2 years ago for thyrotoxicosis. His regular medications are aspirin, diltiazem, levothyroxine, metformin, ramipril and simvastatin.\nHis BP is 140/90 mmHg lying and 135/85 mmHg standing. His foot pulses are not palpable. He has normal sensation in his feet.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is most likely to be the main cause of his erectile dysfunction?",
+  "n": 63,
+  "o": [
+   "Adverse effect of medication",
+   "Autonomic neuropathy",
+   "Hypothyroidism",
+   "Testosterone deficiency",
+   "Vascular insufficiency"
+  ],
+  "a": 4,
+  "w": "Vascular insufficiency is the most likely main cause of erectile dysfunction in this patient. The patient has peripheral vascular disease and similar vascular disease can occur in the penile blood supply. None of his medications is likely to cause erectile dysfunction and there are no clinical features of testosterone deficiency. Autonomic neuropathy can contribute to erectile dysfunction in patients with diabetes but the patient does not have any other features of neuropathic disease. Hypothyroidism can also cause erectile dysfunction, but this is less likely in this patient given that he is on levothyroxine replacement therapy. © Medical Schools Council 2023 Page 68 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 52 year old man has had 3 months of fatigue. He has a history of ulcerative colitis and takes mesalazine. He drinks 20 units of alcohol per week. His temperature is 36.8°C and pulse rate 80 bpm. He has 3 cm hepatomegaly.",
+  "lab": [
+   [
+    "Albumin",
+    "36 g/L",
+    "35–50"
+   ],
+   [
+    "ALT",
+    "65 IU/L",
+    "10–50"
+   ],
+   [
+    "ALP",
+    "580 IU/L",
+    "25–115"
+   ],
+   [
+    "Bilirubin",
+    "18 µmol/L",
+    "<17"
+   ],
+   [
+    "γGT",
+    "230 IU/L",
+    "9–40"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 64,
+  "o": [
+   "Alcoholic hepatitis",
+   "Cholangiocarcinoma",
+   "Choledocholithiasis",
+   "Hepatocellular carcinoma",
+   "Primary sclerosing cholangitis"
+  ],
+  "a": 4,
+  "w": "The correct answer is Primary Sclerosing cholangitis. He has had non-specific symptoms for a number of months. His liver function test shows a cholestatic pattern with a raised ALP. This is an increased incidence of primary sclerosing cholangitis in patients with inflammatory bowel disease. While alcoholic hepatitis is a possibility an alcohol intake of 20 units per week is not high enough to cause significant damage in an otherwise healthy liver. Cholangiocarcinoma and hepatocellular carcinoma are less likely given the short duration of symptoms and lack of specific risk factors, such as viral hepatitis or cirrhosis. Choledocholithiasis may present with elevated liver function tests, but is less likely to cause hepatomegaly or fatigue. © Medical Schools Council 2023 Page 69 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 73 year old man has increasing breathlessness over 1 week. He has a history of chronic kidney disease and ischaemic heart disease. He takes alfacalcidol, aspirin, atorvastatin, bisoprolol fumarate, furosemide and irbesartan.\nThere are bibasal inspiratory crepitations and mild peripheral oedema.",
+  "lab": [
+   [
+    "Sodium",
+    "134 mmol/L",
+    "135–146"
+   ],
+   [
+    "Potassium",
+    "6.7 mmol/L",
+    "3.5–5.3"
+   ]
+  ],
+  "post": "Urea19 mmol/L (2.5–7.8) Creatinine 259 µmol/L (60–120) eGFR 23 mL/min/1.73 m² (>60)",
+  "ql": "Which drug is most likely to be contributing to his hyperkalaemia?",
+  "n": 65,
+  "o": [
+   "Alfacalcidol",
+   "Aspirin",
+   "Bisoprolol fumarate",
+   "Furosemide",
+   "Irbesartan"
+  ],
+  "a": 4,
+  "w": "The most likely drug contributing to the patient’s hyperkalaemia is irbesartan. Irbesartan is an angiotensin II receptor blocker (ARB) commonly used to treat hypertension, especially in CKD. It leads to reduced aldosterone secretion, which in turn leads to reduced potassium secretion. © Medical Schools Council 2023 Page 70 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 65 year old man is invited to the abdominal aortic aneurysm screening programme. An ultrasound scan shows his abdominal aorta to be 33 mm in diameter.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate management plan?",
+  "n": 66,
+  "o": [
+   "Reassure and discharge",
+   "Refer for angiography",
+   "Refer for vascular surgery",
+   "Repeat ultrasound scan in 12 months",
+   "Request CT scan of abdomen"
+  ],
+  "a": 3,
+  "w": "Abdominal aortic aneurysm (AAA) is defined as a permanent dilatation of the abdominal aorta with a diameter of 3 cm or more. The risk of AAA rupture increases with increasing diameter. In the UK, screening for AAA is offered to all men aged 65 years and above. The aorta should be measured at three levels: just below the origin of the renal arteries, at the level of the superior mesenteric artery, and just above the bifurcation. Current NICE guidance recommends that if the abdominal aorta measures between 3.0 and 4.4 cm in diameter, then an ultrasound scan should be repeated every years. If the aorta measures between 4.5 and 5.4 cm in diameter, then an ultrasound scan should be repeated every three months. If the aorta measures 5.5 cm or more in diameter, then the patient should be referred for vascular surgery. In this case, as the diameter of the aorta is 33 mm, which is between 3.0 and 4.4 cm, the most appropriate management plan is to repeat the ultrasound scan in 12 months. © Medical Schools Council 2023 Page 71 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 28 year old woman has pain on swallowing. She has a history of asthma that is well controlled using metered dose salbutamol and beclometasone dipropionate (800 micrograms/day) inhalers.\nShe has white plaques in her mouth.\nAn anti-fungal oral suspension is prescribed.",
+  "lab": [],
+  "post": "",
+  "ql": "What is the most appropriate management with regard to her beclometasone?",
+  "n": 67,
+  "o": [
+   "Change beclometasone dipropionate to a dry powder formulation",
+   "Change beclometasone dipropionate to fluticasone",
+   "Change beclometasone dipriopionate to salmeterol",
+   "Take beclometasone dipropionate using a large volume spacer",
+   "Take salbutamol and beclometasone dipropionate at least 1h apart"
+  ],
+  "a": 3,
+  "w": "This patient has developed oral candidiasis and this is most likely due to local deposition of the inhaled steroid (beclometasone dipropionate). The risk of this happening again can be reduced by using a large volume spacer as there will be less local deposition of the drug in her mouth. Changing to a dry powder or a different steroid inhaler is unlikely to help and may make things worse.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 37 year old man has increasing fever and shortness of breath. He was admitted 3 days ago with left lower lobe pneumonia due penicillin-sensitive Streptococcus pneumoniae. He is receiving intravenous benzylpenicillin 1.2 g four times daily.\nHis temperature is 38.5°C, pulse 100 bpm and BP 122/80 mmHg.",
+  "lab": [
+   [
+    "Chest X-ray",
+    "left basal effusion.",
+    ""
+   ],
+   [
+    "Diagnostic pleural aspiration",
+    "Purulent fluid. Microscopy shows numerous",
+    ""
+   ]
+  ],
+  "post": "polymorphs and Gram-positive cocci",
+  "ql": "Which is the most appropriate next step in management?",
+  "n": 68,
+  "o": [
+   "Chest drain insertion",
+   "Increase dose of benzylpenicillin",
+   "Open thoracostomy",
+   "Switch benzylpenicillin to ceftriaxone",
+   "Switch benzylpenicillin to vancomycin"
+  ],
+  "a": 0,
+  "w": "This patient has a fever and an empyema at the left lung base. A chest drain needs to be inserted to allow the purulent fluid to be drained away. The patient is already on appropriate antibiotics for Streptococcus pneumoniae but a discussion with the Microbiology team would still be useful.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 52 year old man has 4 weeks of joint pain, fever and weight loss. He is a non-smoker and has no significant medical history.\nExamination is unremarkable.",
+  "lab": [
+   [
+    "Calcium",
+    "3.12 mmol/L",
+    "2.2–2.6"
+   ],
+   [
+    "Plasma parathyroid hormone",
+    "<0.5 pmol/L",
+    "0.9–5.4"
+   ]
+  ],
+  "post": "Chest X-ray shows perihilar lymphadenopathy.",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 69,
+  "o": [
+   "Granulomatosis with polyangiitis",
+   "Hodgkin's lymphoma",
+   "Primary hyperparathyroidism",
+   "Sarcoidosis",
+   "Tuberculosis"
+  ],
+  "a": 3,
+  "w": "The most likely diagnosis is sarcoidosis due to the history, elevated calcium and perihilar lymphadenopathy. The elevated calcium and low parathyroid hormone can occur in sarcoidosis due to increased production of 1,25-dihydroxyvitamin D by activated macrophages in the granulomas. Hodgkin’s lymphoma and tuberculosis can also cause lymphadenopathy, weight loss and fever but hypercalcaemia is less likely. The normal plasma parathyroid hormone level makes primary hyperparathyroidism less likely. Granulomatosis with polyangiitis may present with joint pain and fever but does not usually cause hypercalcaemia.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 56 year old man has had a single episode of painless visible haematuria. He has no other urinary symptoms and is otherwise fit and well. He has smoked ten cigarettes per day for the past 35 years.\nHe has a BP of 140/85 mmHg. Urinalysis performed after this episode shows blood 2+, no protein and no nitrites.",
+  "lab": [
+   [
+    "Urea",
+    "6.5 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "95 µmol/L",
+    "60–120"
+   ],
+   [
+    "Urine culture",
+    "no growth",
+    ""
+   ]
+  ],
+  "post": "",
+  "ql": "Which investigation is most likely to confirm the diagnosis?",
+  "n": 70,
+  "o": [
+   "Flexible cystoscopy",
+   "Serum prostate specific antigen",
+   "Transrectal ultrasound scan of prostate",
+   "Ultrasound scan of kidneys",
+   "Urine cytology"
+  ],
+  "a": 0,
+  "w": "A single episode of painless visible haematuria in a smoker is concerning for bladder cancer. Cystoscopy will enable visualisation and biopsy of any lesion in the bladder wall.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "The daughter of a 78 year old man is concerned about an area of redness on her father's back. He lives alone and spends most of his day sitting in a chair.\nThere is a reddened area over the sacrum, but his skin is intact.\nHe is considered to be at risk of pressure ulcers.",
+  "lab": [],
+  "post": "",
+  "ql": "Which member of the community multidisciplinary team would be most suited to conduct an initial assessment?",
+  "n": 71,
+  "o": [
+   "Dietician",
+   "District nurse",
+   "Occupational therapist",
+   "Physiotherapist",
+   "Tissue viability nurse"
+  ],
+  "a": 1,
+  "w": "The district nurse is the most appropriate member of the community multidisciplinary team to conduct an initial assessment of redness over the sacrum in an elderly man who is at risk of pressure ulcers. The district nurse will advise on care planning and give repositioning advice. Tissue viability nurses offer support to district nurses in the management of complex wounds. Dieticians have an important role in the optimisation of patients at risk of pressure damage but would not carry out the initial assessment of an area at risk of further pressure damage. Occupational therapists provide assessment and treatment to those who are finding it difficult to carry out everyday tasks. Physiotherapists support and optimise movement and function in patients.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A doctor in training sustains a needle-stick injury while inserting a venous cannula into a patient. The patient has a history of intravenous drug use.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most important first action for the doctor in training?",
+  "n": 72,
+  "o": [
+   "Encourage bleeding from the needle-stick injury wound",
+   "Make an appointment with occupational health",
+   "Seek post-exposure prophylaxis",
+   "Test the patient for HIV",
+   "Get an immediate blood sample taken from themselves"
+  ],
+  "a": 0,
+  "w": "The most important first action is to manage the local skin puncture wound sustained by the doctor in training, so the best answer is to encourage bleeding from the wound. Standard management of the needlestick puncture wound is based on NICE guidance (NICE CKS Health topics A to Z HIV infection and AIDS Management Post-exposure prophylaxis, last revised May 2021), which states: Puncture wounds should be encouraged to bleed freely but should not be sucked. Small wounds and punctures may also be cleansed with an antiseptic, for example an alcohol-based hand hygiene solution.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 32 year old woman has 3 weeks of fever, rigors and lethargy. In the past week, she has also become breathless on exertion. She is an intravenous drug user.\nHer temperature is 38°C, pulse rate 100 bpm regular, and BP 100/60 mmHg. Her JVP is raised with predominant V waves. There is a pansystolic murmur at the left sternal edge on inspiration. She has reduced air entry with dullness to percussion at the right lung base. She has swelling of both ankles.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely pathogen?",
+  "n": 73,
+  "o": [
+   "Enterococcus faecalis",
+   "Staphylococcus aureus",
+   "Staphylococcus epidermidis",
+   "Streptococcus bovis / streptococcus equinus complex",
+   "Streptococcus viridans"
+  ],
+  "a": 1,
+  "w": "The patient’s presentation with fever, rigors, lethargy and breathlessness suggests sepsis. The pansystolic murmur at the left sternal edge heard on inspiration suggests tricuspid regurgitation and thus the most likely diagnosis is tricuspid valve endocarditis. Tricuspid regurgitation is a common complication of right-sided infective endocarditis in intravenous drug users. Staphylococcus aureus is a common pathogen in intravenous drug users and can cause endocarditis, pneumonia, and sepsis. The other organisms listed can all cause endocarditis but are less commonly associated with intravenous drug use- related infections. © Medical Schools Council 2023 Page 78 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 34 year old woman has sudden onset of right arm weakness and inability to speak. She has a history of migraine and generalised joint pains. Four years ago, she had a deep vein thrombosis in her right leg.\nHer pulse rate is 68 bpm and BP 178/94 mmHg. She has an expressive dysphasia. She has flaccid weakness of her right arm and facial droop on the right lower half of her face.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "118 g/L",
+    "115–150"
+   ],
+   [
+    "White cell count",
+    "4.3 × 10⁹/L",
+    "3.8–10.0"
+   ],
+   [
+    "Neutrophils",
+    "2.1 × 10⁹/L",
+    "2.0–7.5"
+   ],
+   [
+    "Lymphocytes",
+    "0.6 × 10⁹/L",
+    "1.1–3.3"
+   ],
+   [
+    "Platelets",
+    "132 × 10⁹/L",
+    "150–400"
+   ],
+   [
+    "Total cholesterol",
+    "4.6 mmol/L",
+    "<5.0"
+   ]
+  ],
+  "post": "CT scan of head left frontoparietal infarct",
+  "ql": "Which additional investigation is most likely to reveal the underlying cause of her stroke?",
+  "n": 74,
+  "o": [
+   "Anti-dsDNA antibody",
+   "Anticardiolipin antibody",
+   "Anti-Ro antibody",
+   "Rheumatoid factor",
+   "Serum immunoglobulins"
+  ],
+  "a": 1,
+  "w": "The most likely underlying cause of her stroke is a cardioembolic source, possibly related to her history of deep vein thrombosis. Therefore, the most appropriate investigation to reveal the underlying cause of her stroke is anticardiolipin antibody. Anticardiolipin antibodies are a type of antiphospholipid antibody that can cause thrombosis and are associated with an increased risk of stroke. Patients with a history of deep vein thrombosis, like this patient, are at increased risk for the development of anticardiolipin antibodies. Testing for the presence of anticardiolipin antibodies can help confirm the diagnosis of antiphospholipid syndrome, which is an important cause of thrombotic events, including stroke. While the patient’s history of migraine and joint pains raise the possibility of an underlying autoimmune disorder, such as systemic lupus erythematosus, the presence of anticardiolipin antibodies is a more specific and relevant investigation in the context of her recent stroke. © Medical Schools Council 2023 Page 79 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 55 year old woman has been feeling tired and sleepy. Her partner says that she snores heavily. She has a history of type 2 diabetes mellitus and takes metformin.\nHer BMI is 38 kg/m². Her oxygen saturation is 95% breathing air. Her Epworth sleepiness score is 19 (normal <11). Her HbA1cis 60 mmol/mol (20-42).",
+  "lab": [],
+  "post": "",
+  "ql": "Which treatment is most likely to improve her daytime somnolence?",
+  "n": 75,
+  "o": [
+   "Bariatric surgery",
+   "Continuous positive airway pressure ventilation",
+   "Long acting insulin",
+   "Mandibular advancement device",
+   "Modafinil"
+  ],
+  "a": 1,
+  "w": "Based on the patient’s clinical presentation and history, the most likely cause of the daytime somnolence is obstructive sleep apnoea (OSA), which is characterised by snoring, excessive daytime sleepiness, and obesity. Continuous positive airway pressure (CPAP) ventilation is the gold standard treatment for OSA and involves using a mask to deliver air pressure to keep the airway open during sleep. It is highly effective in reducing daytime sleepiness, improving quality of life, and reducing the risk of cardiovascular complications associated with untreated OSA. While bariatric surgery may be considered in obese patients with OSA, it is not the first-line treatment for daytime somnolence. Long- acting insulin is also not indicated in this patient. Mandibular advancement devices may be considered in patients with mild to moderate OSA who cannot tolerate CPAP, but they are generally less effective than CPAP. Modafinil is a wake- promoting agent may be used as an adjunctive therapy in patients with residual daytime sleepiness despite optimal CPAP therapy, but it is not a first-line treatment for OSA.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 72 year old man has had six months of increased frequency of defaecation and three months of dark red rectal bleeding mixed with the stool.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "101 g/L",
+    "130–175"
+   ],
+   [
+    "Mean cell haemoglobin (MCH)",
+    "24 pg",
+    "27–33"
+   ],
+   [
+    "MCV",
+    "73 fL",
+    "80–96"
+   ],
+   [
+    "White cell count",
+    "9.1 × 10⁹/L",
+    "3.0–10.0"
+   ],
+   [
+    "Platelets",
+    "354 × 10⁹/L",
+    "150–400"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 76,
+  "o": [
+   "Colonic carcinoma",
+   "Diverticular disease",
+   "Haemorrhoids",
+   "Ischaemic colitis",
+   "Ulcerative colitis"
+  ],
+  "a": 0,
+  "w": "Colonic carcinoma is the most likely diagnosis in this patient with a six-month history of increased frequency of defecation and three months of dark red rectal bleeding mixed with the stool. The low haemoglobin, low MCV, and low MCH suggest that the patient has iron deficiency anaemia, which is commonly associated with colorectal cancer. The other differential diagnoses, such as diverticular disease, haemorrhoids, ischaemic colitis, and ulcerative colitis, may also cause rectal bleeding, but are less likely to present with such a prolonged duration of symptoms and iron deficiency anaemia. A colonoscopy would be required for confirmation of the diagnosis.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 24 year old man is reviewed following a recent orchidectomy. The pathologist's report describes a mass with cystic spaces. Histological examination shows areas of mature cartilage and columnar epithelium.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 77,
+  "o": [
+   "Chondrosarcoma",
+   "Hamartoma",
+   "Lymphoma",
+   "Seminoma",
+   "Teratoma"
+  ],
+  "a": 4,
+  "w": "The most likely diagnosis in this case is teratoma, as it is a type of germ cell tumour that often contains different types of tissue, including cartilage and epithelium. © Medical Schools Council 2023 Page 82 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 50 year old man has had increasing breathlessness when climbing the stairs. There is no chest pain, wheeze or cough. He has COPD. He takes a salbutamol inhaler several times per day. He is an ex-smoker of 3 months and has a 30 pack-year smoking history. His weight is stable and he is otherwise well.",
+  "lab": [
+   [
+    "FEV1",
+    "75% predicted",
+    ""
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate next step in pharmacological management?",
+  "n": 78,
+  "o": [
+   "Inhaled beclometasone",
+   "Inhaled tiotropium and salmeterol",
+   "Nebulised salbultamol and ipratropium bromide",
+   "Oral prednisolone",
+   "Oral theophylline"
+  ],
+  "a": 1,
+  "w": "The most appropriate next step in pharmacological management would be inhaled tiotropium and salmeterol. This combination therapy is recommended for patients with COPD who have persistent symptoms despite bronchodilator therapy (such as salbutamol) and who have an FEV1 of less than 80% predicted. Tiotropium is a long-acting anticholinergic bronchodilator, while salmeterol is a long-acting beta-agonist bronchodilator. Together, they work to improve lung function and reduce breathlessness in patients with COPD. NICE guideline [NG115] Chronic obstructive pulmonary disease in over 16s: diagnosis and management. Last updated 26 July 2019 Inhaled beclometasone is a corticosteroid inhaler and oral prednisolone is a systemic corticosteroid used for acute exacerbations of COPD rather than chronic management. Nebulised salbutamol and ipratropium bromide is a combination bronchodilator therapy used for acute exacerbations of COPD. Oral theophylline is a bronchodilator that is not typically recommended as a first-line therapy for COPD management.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 86 year old woman has had three falls in the past 3 months. On each occasion, she describes feeling lightheaded and dizzy prior to falling. She is taking alendronic acid, amlodipine, atorvastatin, metformin and zolpidem tartrate. Her BP is 132/80 mmHg sitting and 138/84 mmHg standing.",
+  "lab": [],
+  "post": "",
+  "ql": "Which medication is most likely to be contributing to her falls?",
+  "n": 79,
+  "o": [
+   "Alendronic acid",
+   "Amlodipine",
+   "Atorvastatin",
+   "Metformin",
+   "Zolpidem tartrate"
+  ],
+  "a": 4,
+  "w": "Alendronic acid is a bisphosphonate and is not directly associated with falls. Atorvastatin is an HMG-CoA Reductase inhibitor which is not directly related to falls. Metformin is a biguanide and is not directly associated with falls. Whilst amlodipine can be associated with postural hypotension and subsequent falls this is not the case in this patient who does not have a postural drop in blood pressure on standing. Zolpidem tartrate is the correct answer as it is a non- benzodiazepine hypnotic and sedative and is associated with postural instability and falls. © Medical Schools Council 2023 Page 84 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 81 year old man has three months of malaise, bleeding gums and pain in his legs. He has been struggling to look after himself since his wife died one year ago. He has a poor diet and reports that he mostly has tea and toast.\nHe has gingival hypertrophy and skin petechiae.",
+  "lab": [],
+  "post": "",
+  "ql": "Which micronutrient deficiency is he most likely to have?",
+  "n": 80,
+  "o": [
+   "Magnesium",
+   "Vitamin A",
+   "Vitamin B 1",
+   "Vitamin C",
+   "Zinc"
+  ],
+  "a": 3,
+  "w": "This is typical of vitamin C deficiency which presents with a petechial rash and gum changes. It is still seen in the UK in people with poor diets. © Medical Schools Council 2023 Page 85 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 45 year old man has had 6 months of tiredness, reduced libido and erectile dysfunction.",
+  "lab": [
+   [
+    "Testosterone",
+    "1.8 nmol/L",
+    "9.9–27.8"
+   ],
+   [
+    "LH",
+    "1.2 U/L",
+    "1–8"
+   ],
+   [
+    "FSH",
+    "1.0 U/L",
+    "1–12"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most likely cause of his presentation?",
+  "n": 81,
+  "o": [
+   "Anabolic steroid misuse",
+   "Androgen insensitivity syndrome",
+   "Congenital adrenal hyperplasia",
+   "Klinefelter's syndrome",
+   "Pituitary adenoma"
+  ],
+  "a": 4,
+  "w": "Based on the low testosterone and low LH and FSH levels, the most likely cause of his presentation is a pituitary adenoma leading to hypogonadotropic hypogonadism. The pituitary adenoma would suppress the production of LH and FSH, which are required for testosterone production in the testes.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 24 year old man is admitted to hospital with an exacerbation of asthma. His symptoms improve with treatment, and he is ready for discharge after 24 hours. His discharge medication includes a salbutamol inhaler, a combined beclometasone and salmeterol inhaler, and a short course of oral prednisolone.",
+  "lab": [],
+  "post": "",
+  "ql": "Which further management must be provided prior to discharge?",
+  "n": 82,
+  "o": [
+   "Antibiotic rescue pack",
+   "Course of antihistamines",
+   "Nebuliser machine for use at home",
+   "Personalised asthma action plan",
+   "Volumatic spacer device"
+  ],
+  "a": 3,
+  "w": "A personalised asthma action plan should be provided prior to discharge. It is a written plan that outlines the patient’s daily management of asthma and how to adjust treatment in response to worsening symptoms or changes in lung function. It is an essential tool for patients with asthma to ensure that they can manage their condition effectively and prevent future exacerbations. Antibiotic rescue packs and antihistamines are not routinely prescribed for asthma management. Nebuliser machines and Volumatic spacer devices may be prescribed as needed, but a personalised asthma action plan is a more crucial component of long-term asthma management. NICE Guidelines Asthma Quality standard. Last updated 20 September 2018. © Medical Schools Council 2023 Page 87 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 40 year old man develops sudden breathlessness 5 days after an acute inferior ST-elevation myocardial infarction treated by primary coronary intervention.\nHis pulse rate is 110 bpm, BP 110/75 mmHg, respiratory rate 22 breaths per minute and oxygen saturation 92% on breathing 28% oxygen. There is a pansystolic murmur at the apex and bibasal inspiratory crackles.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely cause of this presentation?",
+  "n": 83,
+  "o": [
+   "Acute pulmonary embolus",
+   "Aortic regurgitation",
+   "Cardiac tamponade",
+   "Papillary muscle rupture",
+   "Pericarditis"
+  ],
+  "a": 3,
+  "w": "Based on the clinical features described, the most likely cause of the presentation is acute heart failure due to papillary muscle rupture as a complication of his recent myocardial infarction. The presence of a pansystolic murmur at the apex suggests mitral regurgitation, which can occur due to the rupture of one of the papillary muscles that anchors the valve leaflets. The bibasal inspiratory crackles suggest pulmonary oedema, which can occur as a result of the increased pressure in the left atrium and pulmonary veins due to the mitral regurgitation. While acute pulmonary embolus, aortic regurgitation, cardiac tamponade, and pericarditis can also cause acute breathlessness, they are less likely in this clinical scenario.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 48 year old man presents to his doctor with headaches. He has noticed that his hands have become larger, and his facial features have coarsened. More recently, his vision has deteriorated. He has an upper temporal defect in both visual fields.",
+  "lab": [],
+  "post": "",
+  "ql": "Damage to which structure is the most likely source of his visual problems?",
+  "n": 84,
+  "o": [
+   "Lateral geniculate body",
+   "Occipital cortex",
+   "Oculomotor nerve",
+   "Optic chiasm",
+   "Optic radiation"
+  ],
+  "a": 3,
+  "w": "This 48-year-old man's presentation suggests acromegaly, which is typically caused by a growth hormone-secreting pituitary adenoma. One of the complications of a pituitary tumour is compression of nearby structures. Given the bitemporal (upper temporal) visual field defect described, this indicates compression of the optic chiasm. When the optic chiasm is compressed, particularly from an inferior approach as with a pituitary tumour, the crossing fibres (those responsible for the peripheral/temporal vision) are primarily affected, leading to a bitemporal field defect.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 42 year old man has a rash on his face, mainly around his chin. The rash started 24 hours ago with a 0.5 cm thin-walled blister that then ruptured, leaving a yellow crusted lesion that has since enlarged and now other similar lesions are appearing in the same area. He is a primary school teacher.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely causative organism?",
+  "n": 85,
+  "o": [
+   "Escherichia coli",
+   "Pseudomonas aeruginosa",
+   "Staphylococcus aureus",
+   "Streptococcus pyogenes",
+   "Varicella zoster virus"
+  ],
+  "a": 2,
+  "w": "The description of the eruption fits best with bullous impetigo, although this usually occurs in children. Staphylococcus aureus, is the most common causative organism, although Streptococcus pyogenes can also be responsible for non-bullous impetigo. E. coli is not expected to cause skin infection. Pseudomonas may be found as a coloniser in chronic wounds but does not cause primary cutaneous infection in immunocompetent individuals. Varicella zoster virus causes chicken pox and subsequently shingles, neither of which fit the clinical picture described here. © Medical Schools Council 2023 Page 90 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 48 year old woman has had 3 years of increasing knee pain and reduced physical activity. She has radiologically-confirmed osteoarthritis. She has hypertension and type 2 diabetes. She takes lisinopril, metformin, semaglutide and simvastatin. Her BMI is 48 kg/m²and has not changed despite lifestyle advice and a low calorie diet for the last year.",
+  "lab": [
+   [
+    "Glycated haemoglobin",
+    "55 mmol/mol",
+    "20-42"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate management?",
+  "n": 86,
+  "o": [
+   "Intensify lifestyle measures and review in 6 months",
+   "Prescribe orlistat",
+   "Refer for bariatric surgery",
+   "Refer for bilateral knee replacements",
+   "Start insulin therapy"
+  ],
+  "a": 2,
+  "w": "The patient has severe obesity (BMI > 40 kg/m²) and comorbidities including hypertension and type 2 diabetes, which puts her at high risk for obesity-related complications. Despite lifestyle measures and low calorie diet, she has not been able to achieve significant weight loss. Bariatric surgery is an effective treatment option for obesity in patients with BMI > 40 kg/m², or BMI > 35 kg/m² with comorbidities such as diabetes and hypertension. The surgery has been shown to improve weight loss, reduce obesity-related comorbidities, including knee pain, and improve quality of life.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 22 year old soldier steps off a cramped military aircraft following a long flight from the United Kingdom. She suddenly collapses and hits her head on the ground. While unconscious, she has asynchronous jerking of her limbs for less than 15 seconds. Witnesses say that she looked pale. She regains consciousness within 1 minute.",
+  "lab": [],
+  "post": "",
+  "ql": "What is the most likely cause of her collapse?",
+  "n": 87,
+  "o": [
+   "Cardiac arrhythmia",
+   "Epilepsy",
+   "Hypoglycaemia",
+   "Pulmonary embolism",
+   "Vasovagal syncope"
+  ],
+  "a": 4,
+  "w": "The most likely cause of her collapse is vasovagal syncope. The cramped conditions and fatigue during the flight could have caused her to experience a vasovagal response, resulting in a temporary loss of consciousness. The asynchronous jerking of her limbs may have been due to myoclonus, which can occur during syncope. The pallor may be due to a transient decrease in blood pressure during the episode. Pulmonary embolism is a possibility, but vasovagal syncope is much more likely. Epilepsy is a possibility, but the duration of shaking would be unusually short.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 62 year old man has 2 months of increasing shortness of breath and chest pain. He is now unable to lie flat. For the past 2 weeks, he has also had a productive cough which was flecked with blood on two occasions. He had a myocardial infarction 6 months ago, at which point he stopped smoking.\nHis temperature is 37.1°C, BP 126/66 mmHg, respiratory rate 24 breaths per minute and oxygen saturation 93% breathing air.",
+  "lab": [
+   [
+    "Chest X-ray",
+    "moderate right-sided pleural effusion.",
+    ""
+   ]
+  ],
+  "post": "Pleural aspirate protein content 56 g/L.",
+  "ql": "Which is the most likely underlying diagnosis?",
+  "n": 88,
+  "o": [
+   "Bacterial pneumonia",
+   "Heart failure",
+   "Lung cancer",
+   "Pulmonary embolism",
+   "Tuberculosis"
+  ],
+  "a": 2,
+  "w": "The most likely underlying diagnosis is lung cancer. The high protein content (56 g/L) in the pleural aspirate indicates an exudative effusion, which more indicative of malignancies like lung cancer. Heart failure and pulmonary embolism can present with similar symptoms, but they are less likely given the chest X-ray and pleural aspirate. Bacterial pneumonia or tuberculosis are also less likely due to a lack of fever.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 55 year old man is referred to the vascular outpatient clinic with bilateral claudication, limiting his walking distance to 10 metres. He is a smoker.\nImaging shows chronic distal aortic and bilateral common iliac occlusive disease.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate surgical intervention?",
+  "n": 89,
+  "o": [
+   "Aortic endarterectomy",
+   "Aorto-bifemoral bypass graft",
+   "Aorto-iliac embolectomy",
+   "Bilateral iliac angioplasty",
+   "Femoral-to-femoral crossover graft"
+  ],
+  "a": 1,
+  "w": "Chronic distal aortic and bilateral common iliac occlusive disease would make aorto-bifemoral bypass graft the most appropriate surgical intervention. This involves bypassing the occluded aortic and iliac vessels with a synthetic graft to restore blood flow to the legs. Other surgical options like aortic endarterectomy or aorto-iliac embolectomy may not be suitable for chronic occlusive disease, while bilateral iliac angioplasty and femoral-to-femoral crossover graft may not be adequate for restoring blood flow to the entire leg. © Medical Schools Council 2023 Page 94 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 65 year old man sees his GP for monitoring of hypertension and ischaemic heart disease. His medication includes aspirin, atenolol, amlodipine, lisinopril and simvastatin.\nHe has marked ankle swelling.",
+  "lab": [],
+  "post": "",
+  "ql": "Which drug is the most likely cause of his ankle swelling?",
+  "n": 90,
+  "o": [
+   "Amlodipine",
+   "Aspirin",
+   "Atenolol",
+   "Lisinopril",
+   "Simvastatin"
+  ],
+  "a": 0,
+  "w": "Some antihypertensive medications such as calcium channel blockers like amlodipine, can cause ankle swelling as a side effect. Lisinopril is an angiotensin-converting enzyme (ACE) inhibitor used to treat hypertension and heart failure. It is known to cause cough as a side effect. Statins such as Simvastatin and beta blockers such as Atenolol are not known to cause ankle swelling as a side effect.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 85 year old woman was admitted with a stroke three weeks ago. She has a history of urinary incontinence and has a long-term urinary catheter in place. Her current medication includes clopidogrel and ramipril.\nHer temperature is 36.8°C, pulse rate 85 bpm and BP 134/74 mmHg.A catheter specimen of urine shows >105CFU/mL, mixed growth.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate management?",
+  "n": 91,
+  "o": [
+   "No change in treatment",
+   "Remove urinary catheter",
+   "Request antibiotic sensitivities",
+   "Start oral ciprofloxacin",
+   "Start oral trimethoprim"
+  ],
+  "a": 0,
+  "w": "Colonisation of urinary catheters with a mixed growth of bacteria is very common, does not usually cause symptoms and is not an infection that needs treatment with antibiotics in most patients. It would be inappropriate to remove the catheter, in this patient with a previous history of incontinence who in addition has had a stroke and will be at increased risk of pressure area damage. There are no indications for antibiotics. Indwelling urinary catheters quickly become colonised with microorganisms after insertion. These microorganisms produce proteins and facilitate the formation of biofilms. These biofilms often make it impossible to eradicate the bacteria with antibiotics.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 28 year old man has a headache, intermittent fever, sore throat and diarrhoea.\nHis temperature is 37.7°C. His fauces are red and there are two small aphthous ulcers on his left buccal mucosa. He also has a maculopapular erythematous rash on his upper trunk, red hands and folliculitis on his chest. His liver and spleen are just palpable and he has mild neck stiffness.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "135 g/L",
+    "130–175"
+   ],
+   [
+    "White cell count",
+    "3.3 × 10⁹/L",
+    "3.0–10.0"
+   ],
+   [
+    "Platelets",
+    "84 × 10⁹/L",
+    "150–400"
+   ]
+  ],
+  "post": "",
+  "ql": "Which investigation is most likely to lead to a diagnosis?",
+  "n": 92,
+  "o": [
+   "First catch urine microscopy",
+   "Glandular fever screening test",
+   "HIV serology",
+   "Serum antinuclear antibodies",
+   "Serum toxoplasma gondii IgM antibody titre"
+  ],
+  "a": 2,
+  "w": "The presentation suggests an infection, which is affecting a number of different body regions and systems. The most specific information is the presence of a rash with folliculitis on the chest, which is a prominent feature in late stage HIV infection. Additionally, HIV can explain all of the symptoms, hence the correct answer is HIV serology. © Medical Schools Council 2023 Page 97 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 79 year old woman has six months of increasing breathlessness on exertion.\nHer pulse rate is 72 bpm, irregularly irregular, and BP 118/72 mmHg. She has a diastolic murmur best heard at the apex in expiration.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely cause of her murmur?",
+  "n": 93,
+  "o": [
+   "Aortic regurgitation",
+   "Aortic stenosis",
+   "Hypertrophic cardiomyopathy",
+   "Mitral regurgitation",
+   "Mitral stenosis"
+  ],
+  "a": 4,
+  "w": "Based on the location and timing of the murmur, the most likely cause is Mitral stenosis.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 78 year old woman is found dead at home. At autopsy, the pathologist finds bilateral pneumonia and meningitis. Microscopy of a meningeal swab shows Gram-positive cocci arranged in pairs.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely causative organism?",
+  "n": 94,
+  "o": [
+   "Candida albicans",
+   "Neisseria meningitidis",
+   "Pseudomonas aeruginosa",
+   "Staphylococcus aureus",
+   "Streptococcus pneumoniae"
+  ],
+  "a": 4,
+  "w": "The most likely causative organism in this case is Streptococcus pneumoniae. Streptococcus pneumoniae is a Gram-positive coccus that can cause pneumonia and meningitis, particularly in the elderly. The presence of bilateral pneumonia and meningitis, as well as the Gram-positive cocci seen on microscopy, are consistent with this diagnosis. Of the other possible answers, Neisseria meningitidis, Candida albicans and Pseudomonas aeruginosa are not Gram positive cocci. Staph aureus tends to form clusters rather than being arranged in pairs.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 40 year old man was admitted to hospital with central crushing chest pain.\nExamination revealed pale cream coloured nodules on both elbows and medial aspects of his upper eyelids.\nECG on admission showed ST elevation and T wave inversion.\nHe deteriorated and died.\nA post mortem examination is performed and shows very severe narrowing of the anterior descending branch of the left coronary artery.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely causative mechanism?",
+  "n": 95,
+  "o": [
+   "Atheroma",
+   "Arterial dissection",
+   "Malignant deposit",
+   "Thrombosis",
+   "Vasculitis"
+  ],
+  "a": 0,
+  "w": "The most likely causative mechanism of the severe narrowing of the anterior descending branch of the left coronary artery is atheroma, given the patient’s clinical presentation of central crushing chest pain, ST elevation and T wave inversion on ECG, and subsequent deterioration and death and the post mortem findings. The presence of pale cream coloured nodules on both elbows and medial aspects of the upper eyelids suggests the possibility of xanthomas, which are associated with hyperlipidemia and can be seen in patients with atheromatous plaques. However, thrombosis on the atheroma is likely to cause the acute presentation and fatal outcome. Arterial dissection, malignant deposits, and vasculitis are less likely causes in this clinical scenario.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 55 year old man visits his GP concerned that he may be a carrier of cystic fibrosis, a condition that has just been diagnosed in his 5 year old grandson. He has heard that this is an inherited condition, but no one else in his family has the illness.",
+  "lab": [],
+  "post": "",
+  "ql": "What is the likelihood that the grandfather is a carrier?",
+  "n": 96,
+  "o": [
+   "1 in 2",
+   "1 in 4",
+   "1 in 8",
+   "1 in 16",
+   "1 in 25"
+  ],
+  "a": 0,
+  "w": "Cystic fibrosis is an autosomal recessive disorder, which means that an individual must inherit two copies of the mutated gene (one from each parent) to develop the disease. If the grandchild is affected, both of his parents must be carriers. The parent of the 5 year old must have received the recessive gene from one of their parents. There is a 50:50 chance that this was the grandfather and 50:50 that it was the grandmother. This means that the likelihood that the grandfather is a carrier is 1 in 2.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 79 year old woman has been repeatedly found wandering at night by her neighbours. The problem has progressively worsened over 6 months. She is independent in her activities of daily living, although her family do her shopping. She was previously well.",
+  "lab": [],
+  "post": "",
+  "ql": "What aspect of cognition is likely to show the greatest impairment?",
+  "n": 97,
+  "o": [
+   "Attention",
+   "Concentration",
+   "Praxis",
+   "Registration of information",
+   "Short-term memory"
+  ],
+  "a": 4,
+  "w": "The scenario describes a patient with symptoms of dementia, and impairment of short-term memory is a characteristic feature of dementia. The patient’s wandering behaviour may be due to disorientation caused by forgetfulness or confusion. Attention, concentration, and praxis may also be affected in dementia, but short-term memory is often the most severely impaired.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 52 year old woman reports increased urinary frequency, urgency and urge incontinence. She has multiple sclerosis, which affects her walking. A midstream urine sample shows no cells and is sterile on culture. A bladder scan shows a residual volume of 300 mL. Urodynamic assessment shows that she has a neuropathic bladder.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate management?",
+  "n": 98,
+  "o": [
+   "α-Adrenoceptor blocker",
+   "Anticholinergic drug",
+   "Indwelling urethral catheter",
+   "Intermittent self catheterisation",
+   "Suprapubic catheter"
+  ],
+  "a": 3,
+  "w": "The most appropriate management in this case of a patient with a neuropathic bladder due to multiple sclerosis would be intermittent self-catheterization. Drug interventions are unlikely to be of benefit. Indwelling urethral catheter or suprapubic catheter are to be avoided due to increase infection risk. © Medical Schools Council 2023 Page 103 of 105",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 43 year old woman is admitted with acute right upper quadrant pain, which radiates to her right shoulder.\nHer temperature is 38.6°C and respiratory rate 20 breaths per minute. She is tender to palpation in the right upper quadrant but has no rebound tenderness.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "132 g/L",
+    "115–150"
+   ],
+   [
+    "White cell count",
+    "13 × 10⁹/L",
+    "3.8–10.0"
+   ],
+   [
+    "Platelets",
+    "340 × 10⁹/L",
+    "150–400"
+   ],
+   [
+    "Bilirubin",
+    "30 µmol/L",
+    "<17"
+   ],
+   [
+    "Alanine aminotransferase (ALT)",
+    "80 IU/L",
+    "10–50"
+   ],
+   [
+    "Alkaline phosphatase",
+    "306 IU/L",
+    "25–115"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the next most appropriate radiological test?",
+  "n": 99,
+  "o": [
+   "Abdominal X-ray",
+   "CT scan of abdomen",
+   "Erect chest X-ray",
+   "MR scan of abdomen",
+   "Ultrasound scan of abdomen"
+  ],
+  "a": 4,
+  "w": "The most appropriate radiological test for suspected acute cholecystitis is an ultrasound scan of the abdomen.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 84 year old man develops profuse diarrhoea whilst in hospital. An outbreak of Clostridioides (Clostridium) difficile has occurred in his ward.",
+  "lab": [],
+  "post": "",
+  "ql": "Which feature of this organism makes it particularly difficult to destroy?",
+  "n": 100,
+  "o": [
+   "Motility",
+   "Outer capsule",
+   "Rapid mutation",
+   "Spore formation",
+   "Surface adherence"
+  ],
+  "a": 3,
+  "w": "The feature of Clostridioides difficile that makes it particularly difficult to destroy is spore formation. C. difficile spores are resistant to many environmental stresses, including heat, disinfectants, and antibiotics, which makes them particularly difficult to eliminate. These spores can persist on surfaces for months, making them a significant source of transmission in healthcare settings. © Medical Schools Council 2023 Page 105 of 105",
+  "ref": "",
+  "img": []
+ }
+]

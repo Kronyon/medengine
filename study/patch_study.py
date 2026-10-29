@@ -156,6 +156,39 @@ for _q in sorted(_MQ, key=lambda x: int(re.search(r'\d+', x['id']).group())):
     _h, _p, _u, _f = _mm.META[_n]
     D['mock']['q'].append({'id': 'm%03d' % _n, 'n': _n, 'ref': _q.get('ref', ''), 's': _q['question'].strip(), 'o': _q['options'], 'a': _q['answer'], 'w': (_q.get('explanation') or '').strip(), 'h': _h, 'p': _p, 'u': _u, 'f': _f})
 assert len(D['mock']['q']) == 91, len(D['mock']['q'])
+# v2.5: 🏛️ the official papers (MSC: MS AKT practice papers 1 and 2, 2023; MSCAA practice papers Dec 2017, Nov 2018, Dec 2019, Dec 2020)
+# from snap/official/*.json (parsed from the answer-key PDFs) + snap/off_meta_*.py (my tags) + snap/off_links.py (how they repeat)
+import base64 as _b64, importlib as _il, off_links as _ol
+_PP = [('mla1', 'MS AKT 2023 · P1', 'MS AKT practice paper 1, Medical Schools Council 2023'), ('mla2', 'MS AKT 2023 · P2', 'MS AKT practice paper 2, Medical Schools Council 2023'),
+       ('p2017', 'MSCAA Dec 2017', 'MSCAA practice paper 1, December 2017'), ('p2018', 'MSCAA Nov 2018', 'MSCAA practice paper 2, November 2018'),
+       ('p2019', 'MSCAA Dec 2019', 'MSCAA practice paper 3, December 2019'), ('p2020', 'MSCAA Dec 2020', 'MSCAA practice paper, December 2020')]
+D['off'] = {'pp': {k: [s_, l_] for k, s_, l_ in _PP}, 'q': [], 'img': {}, 'g': []}
+_OFFDIR = HERE / 'snap' / 'official'
+for _k, _s, _l in _PP:
+    _meta = _il.import_module('off_meta_' + _k).META
+    for _q in json.load(open(_OFFDIR / (_k + '.json'), encoding='utf-8')):
+        _u, _h, _p, _f = _meta[_q['n']]
+        _it = {'id': 'o-%s-%03d' % (_k, _q['n']), 'pp': _k, 'n': _q['n'], 'ref': _q.get('ref', ''), 's': _q['s'], 'lab': _q['lab'], 'post': _q['post'], 'ql': _q['ql'],
+               'o': _q['o'], 'a': _q['a'], 'w': _q['w'], 'h': _h, 'p': _p, 'u': _u, 'f': _f}
+        if _q.get('img'): _it['img'] = _q['img']
+        for _nm in _q.get('img', []): D['off']['img'][_nm] = 'data:image/jpeg;base64,' + _b64.b64encode((_OFFDIR / 'img' / _nm).read_bytes()).decode()
+        D['off']['q'].append(_it)
+_ids = {_it['pp'] + ':' + str(_it['n']): _it['id'] for _it in D['off']['q']}
+_ids.update({'mock:' + str(_m['n']): _m['id'] for _m in D['mock']['q']})
+for _kind, _t, _r, _g in _ol.GROUPS:
+    _miss = [x for x in _g if x not in _ids]
+    if _miss: raise SystemExit('off_links: unknown ids ' + str(_miss))
+    D['off']['g'].append({'k': _kind, 't': _t, 'r': _r, 'ids': [_ids[x] for x in _g]})
+assert len(D['off']['q']) == 399, len(D['off']['q'])
+# set C (snap/hq3_*.py): each gap unit's three questions follow one patient, so they form a ⛓️ chain too
+_ch = {}
+for _q in D['hq']['q']:
+    if _q.get('ck'): _ch.setdefault(_q['ck'], []).append(_q)
+for _ck, _qs in _ch.items():
+    _qs.sort(key=lambda q: q['h'])
+    D['off']['g'].append({'k': 'chain', 't': U[int(_qs[0]['k'])]['name'] + ': one patient, three steps', 'r': _qs[0]['cr'], 'ids': [q['id'] for q in _qs]})
+for _q in D['hq']['q']:
+    _q.pop('ck', None); _q.pop('cr', None)
 _V4 = json.load(open(MEDAPP / 'build' / 'osce_data_v4.json', encoding='utf-8'))
 _dgu = {}
 for _st in sorted(_V4['stations'], key=lambda x: (not x.get('core'), x['id'])):
@@ -183,7 +216,7 @@ rep('<header class="top">', '<style>\n' + mev_css + ext_css + '</style>\n<header
 rep('<script id="qqdata" type="application/json">', '<script>\n' + mev_js + '</script>\n<script>\n' + dg_js + '</script>\n<script id="qqdata" type="application/json">')
 
 # ---------- version ----------
-rep('<small>v0.5.0 beta</small>', '<small>v2.4.0</small>')
+rep('<small>v0.5.0 beta</small>', '<small>v2.5.0</small>')
 rep('const fmtRich = t => fmtPlain(t)', 'const fmtRich = t => dualHtml(t) || fmtRich0(t);\nconst fmtRich0 = t => fmtPlain(t)')
 
 # ---------- script hooks ----------
@@ -215,7 +248,7 @@ rep("  if (tg.tagName === 'INPUT' || tg.tagName === 'TEXTAREA' || tg.tagName ===
 rep("  const s = session;\n  if (s && s.kind === 'quiz') {", "  const s = session;\n  if (s && s.kind === 'hammer' && hqKey(e)) return;\n  if (s && s.kind === 'sniper' && snpKey(e)) return;\n  if (s && s.kind === 'vault' && vaultKey(e)) return;\n  if (s && s.kind === 'quiz') {")
 rep("if (e.key.toLowerCase() === 's' && route.view !== 'sprint') return go({view: 'sprint'});", "if (e.key.toLowerCase() === 's' && route.view !== 'sprint' && route.view !== 'sniper') return go({view: 'sprint'});")
 rep("/* ---------- events ---------- */", ext_js + "\n/* ---------- events ---------- */")
-help_rows = ('<tr><td>🔨</td><td>Hammer SBAs: three single-best-answer questions for every ILO condition, drug group, test and procedure, plus off-map topics and your own mock (🎓). 🔨 classic, 🔨🔨 two steps or a lookalike, 🔨🔨🔨 curveball. Each answer shows why, then 🔄 the flip: the one change that makes another option right. <span class="kbd">A</span>–<span class="kbd">E</span> answer, <span class="kbd">Enter</span> next, <span class="kbd">Esc</span> leave. Each condition page has its own 🔨 button.</td></tr>'
+help_rows = ('<tr><td>🔨</td><td>Hammer SBAs: three single-best-answer questions for every ILO condition, drug group, test and procedure, plus off-map topics and your own mock (🎓). 🔨 classic, 🔨🔨 two steps or a lookalike, 🔨🔨🔨 curveball. Each answer shows why, then 🔄 the flip: the one change that makes another option right. <span class="kbd">A</span>–<span class="kbd">E</span> answer, <span class="kbd">Enter</span> next, <span class="kbd">Esc</span> leave. Each condition page has its own 🔨 button. 🏛️ Official papers: the 399 MS AKT and MSCAA practice questions with their images, lab tables and examiners\' justifications. <span class="kbd">S</span> 🦅 scan mode lifts the question line, lights out-of-range values and fades normal ones. After each answer, 🧬 examiner pattern links the twins across papers.</td></tr>'
              '<tr><td>🧲</td><td>Triggers: every condition, bug, drug, investigation and procedure in your ILOs as one line each: the scene, the word that flips it in highlighter, then the answer. One long scroll with a picture on every line. <span class="kbd">⌘F</span> filters it, twice for the browser\'s find; 🔒 <span class="kbd">L</span> blurs the answers, tap or <span class="kbd">N</span> to reveal. Each condition\'s word hunt opens its own triggers.</td></tr>'
              '<tr><td>🗺️</td><td>Poster: every condition as one picture with the same layout: cause top-left, who top-right, tests on the right, treatment bottom-right, danger bottom-left, the lookalike on the left, signs in the middle, the hook along the bottom. 🔒 Lock or <span class="kbd">L</span> hides the drugs, numbers and signs: say them, then tap or press <span class="kbd">N</span>. ▶ Walk it lights the zones in order. In quiz modes the poster starts locked. The 🎞️ Film and 🖼️ Pictures tabs sit beside it; paste your own infographics there and box over the details.</td></tr>'
              '<tr><td>🧭</td><td>Master posters: one picture for a whole topic, from spirometry to antidotes. The first five rebuild your AI-made infographics, with what was wrong listed under 🔎.</td></tr>'

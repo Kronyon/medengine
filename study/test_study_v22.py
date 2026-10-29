@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""medengine-STUDY v2.4 tests (no network): 🔨 Hammer SBAs.
+"""medengine-STUDY v2.5 tests (no network): 🔨 Hammer SBAs.
 The data holds 3 hammers (🔨, 🔨🔨, 🔨🔨🔨) for every unique ILO condition, drug group, test or procedure and off-map topic,
 plus the 91 mock questions; every question has 5 options, a valid answer, a why and a flip; the hub opens from the sidebar
 and home; filters by source, hammer, pattern, status and system change the count; a quiz answers with A to E and 1 to 5,
@@ -9,7 +9,10 @@ the mock blueprint renders; search offers matching hammers; no page overflow at 
 v2.4: a numbered palette jumps between questions; Prev, Next and the arrow keys move back and forth with answers kept;
 options can be crossed out with ✕ or Shift+letter; triggers show under the answer; a run left midway resumes after a reload;
 no answer is much longer than every distractor, the answer is the longest option in at most a third of questions,
-and no distractor carries an absolute word the answer lacks."""
+and no distractor carries an absolute word the answer lacks.
+v2.5: the 399 official practice paper questions with images, lab tables and justifications; paper and ILO filters;
+🦅 scan mode lifts the question line, lights out-of-range values and dims normal ones; 🧬 examiner pattern groups link
+twins across papers, the mock and set C (one patient, three steps)."""
 import pathlib, re, sys
 from playwright.sync_api import sync_playwright
 
@@ -44,6 +47,22 @@ def data_checks(D, errs):
     if miss: errs.append('units without hammers: ' + str(miss))
     for t in 'dxb':
         if sum(1 for tt, _ in by if tt == t) < (10 if t == 'b' else 20): errs.append('too few targets of type ' + t)
+    # v2.5: the official papers
+    O = D.get('off', {})
+    oq = O.get('q', [])
+    if len(oq) != 399: errs.append(f'official papers have {len(oq)} questions, want 399')
+    ids = {q['id'] for q in qs} | {m['id'] for m in M.get('q', [])} | {o['id'] for o in oq}
+    for o in oq:
+        if not (len(o['o']) == 5 and 0 <= o['a'] < 5 and o['h'] in (1, 2, 3) and o['p'] in 'LNTDR' and o['f'] and o['ql'].endswith('?') and -1 <= o['u'] < len(D['units'])): errs.append('bad official item ' + o['id'])
+        for n in o.get('img', []):
+            if not O.get('img', {}).get(n, '').startswith('data:image/'): errs.append('missing image ' + n)
+    if sum(1 for o in oq if o.get('img')) != 21: errs.append('official images should be on 21 questions')
+    if sum(1 for o in oq if o['u'] >= 0) < 280: errs.append('too few official questions mapped to ILO units')
+    for g in O.get('g', []):
+        if g['k'] not in ('clone', 'chain', 'block', 'decoy', 'matrix', 'twin') or len(g['ids']) < 2 or any(x not in ids for x in g['ids']): errs.append('bad group ' + g['t'])
+    if sum(1 for g in O.get('g', []) if g['k'] == 'clone') < 4: errs.append('clone groups missing')
+    labq = [q for q in qs if q.get('lab')]
+    if len(labq) < 30: errs.append(f'only {len(labq)} hammers with an Investigations table')
     mq = M.get('q', [])
     if len(mq) != 91: errs.append(f'mock has {len(mq)} questions, want 91')
     if any(m['n'] == 84 for m in mq): errs.append('Q84 duplicate kept')
@@ -66,7 +85,7 @@ def run(width, dark):
         def go(h, t=400):
             ev(f"location.hash = '{h}'"); pg.wait_for_timeout(t)
 
-        if not re.search(r'v2\.4', pg.text_content('#homeBtn')): errs.append('version not v2.4')
+        if not re.search(r'v2\.5', pg.text_content('#homeBtn')): errs.append('version not v2.5')
         D = ev("JSON.parse(document.getElementById('qqdata').textContent)")
         if width == 1280 and not dark: data_checks(D, errs)
         if not pg.locator('#main [data-go="hammer"]').count(): errs.append('no Hammer button on home')
@@ -146,10 +165,47 @@ def run(width, dark):
         n_new = int(re.search(r'(\d+) match', pg.text_content('#main')).group(1))
         if n_new > n_all - 20: errs.append('results not kept after reload')
         pg.click('[data-hqset="st:"]')
+        # v2.5: official papers, scan mode and examiner patterns
+        go('hammer')
+        pg.click('.hq-f [data-hqset="src:o"]'); pg.wait_for_timeout(120)
+        n_o = int(re.search(r'(\d+) match', pg.text_content('#main')).group(1))
+        if n_o != 399: errs.append(f'official filter shows {n_o}')
+        pg.click('[data-hqset="pp:p2020"]'); pg.wait_for_timeout(120)
+        if int(re.search(r'(\d+) match', pg.text_content('#main')).group(1)) != 50: errs.append('paper filter wrong')
+        pg.click('[data-hqset="ilo:out"]'); pg.wait_for_timeout(120)
+        n_out = int(re.search(r'(\d+) match', pg.text_content('#main')).group(1))
+        if not 0 < n_out < 50: errs.append('ILO filter did not narrow')
+        pg.click('[data-hqset="ilo:"]'); pg.wait_for_timeout(80)
+        pg.click('[data-hqtgt="oq:o-p2020-001"]'); pg.wait_for_timeout(200)
+        if not pg.locator('.hq-lab tr').count(): errs.append('official lab table missing')
+        if pg.locator('.hq-q.scan').count(): pg.keyboard.press('s'); pg.wait_for_timeout(80)
+        pg.keyboard.press('s'); pg.wait_for_timeout(120)
+        if not pg.locator('.hq-q.scan').count(): errs.append('S did not turn on scan mode')
+        if pg.locator('.hq-lab tr.ab').count() < 3 or not pg.locator('.hq-lab tr.nm').count(): errs.append('scan mode did not sort lab rows')
+        if not pg.locator('.hq-qtop').is_visible(): errs.append('scan mode did not lift the question line')
+        if not pg.locator('.vx.ab').count(): errs.append('scan mode missed the abnormal temperature')
+        ov('scan mode')
+        pg.keyboard.press('b'); pg.wait_for_timeout(120)
+        if '📋' not in pg.text_content('.hq-why'): errs.append('official justification label missing')
+        if pg.locator('.hq-gx .hq-gb').count() < 2: errs.append('examiner pattern boxes missing')
+        pg.locator('.hq-gx [data-hqgrp]').first.click(); pg.wait_for_timeout(200)
+        if '🧬' not in pg.text_content('.crumbs'): errs.append('group run did not start')
+        pg.keyboard.press('s'); pg.wait_for_timeout(60)
+        pg.keyboard.press('Escape'); pg.wait_for_timeout(150)
+        pg.click('.hq-f [data-hqset="src:o"]'); pg.click('[data-hqset="pp:mla1"]'); pg.wait_for_timeout(120)
+        pg.click('[data-hqtgt="oq:o-mla1-057"]'); pg.wait_for_timeout(200)
+        if not pg.locator('.hq-fig img').count(): errs.append('official image missing')
+        ov('official image')
+        pg.keyboard.press('Escape'); pg.wait_for_timeout(150)
+        pg.click('.hq-f [data-hqset="src:all"]'); pg.click('.hq-f [data-hqset="tr:clone"]'); pg.wait_for_timeout(120)
+        n_cl = int(re.search(r'(\d+) match', pg.text_content('#main')).group(1))
+        if not 6 <= n_cl < 30: errs.append(f'clone filter shows {n_cl}')
+        pg.click('.hq-f [data-hqset="tr:"]'); pg.wait_for_timeout(80)
+        if not pg.locator('.hq-obp').count(): errs.append('official blueprint missing')
         # condition pages: own button, aliases included
         al = {int(k): v for k, v in D['hq']['al'].items()}
         for ui in (0, 61, 88, 140):
-            k = al.get(ui, ui); want = sum(1 for q in D['hq']['q'] if q['t'] == 'u' and int(q['k']) == k) + sum(1 for m in D['mock']['q'] if m['u'] == k)
+            k = al.get(ui, ui); want = sum(1 for q in D['hq']['q'] if q['t'] == 'u' and int(q['k']) == k) + sum(1 for m in D['mock']['q'] if m['u'] == k) + sum(1 for o in D['off']['q'] if o['u'] == k)
             go(f'u{ui}-read', 350)
             btn = pg.locator('#main [data-hqtgt]')
             if not btn.count(): errs.append(f'unit {ui} has no hammer button'); continue

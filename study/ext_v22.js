@@ -2,20 +2,27 @@
    the off-map topics your mock tested, and your mock's own questions (D.hq from snap/hq_*.py, D.mock from snap/mock92.json + mock_meta.py) ---------- */
 const HQ = D.hq || {q: [], tt: {}, pat: {}, al: {}};
 const MOCK = D.mock || {q: []};
-const HQ_SRC = [['all', '🔨', 'Everything'], ['u', '🩺', 'Conditions'], ['d', '💊', 'Drugs'], ['x', '🛠️', 'Tests and procedures'], ['b', '🧭', 'Off the map'], ['m', '🎓', 'My mock']];
+/* v2.5: 🏛️ the official papers (MS AKT 2023 P1 and P2; MSCAA 2017, 2018, 2019, 2020) and 🧬 how they repeat */
+const OFF = D.off || {q: [], pp: {}, img: {}, g: []};
+const HQ_GK = {clone: ['🔥', 'Double-tested'], chain: ['⛓️', 'Same patient, next step'], block: ['🚫', 'Comorbidity blocks first line'], decoy: ['⚠️', 'Lab decoy'], matrix: ['🧮', 'One grid, every angle'], twin: ['🔗', 'Same trap, new patient']};
+function hqGroupsOf(id){ if (!hqGroupsOf.c) { const m = {}; OFF.g.forEach((g, gi) => g.ids.forEach(x => (m[x] = m[x] || []).push(gi))); hqGroupsOf.c = m; } return hqGroupsOf.c[id] || []; }
+function hqInKind(id, k){ return hqGroupsOf(id).some(gi => OFF.g[gi].k === k); }
+const HQ_SRC = [['all', '🔨', 'Everything'], ['u', '🩺', 'Conditions'], ['d', '💊', 'Drugs'], ['x', '🛠️', 'Tests and procedures'], ['b', '🧭', 'Off the map'], ['m', '🎓', 'My mock'], ['o', '🏛️', 'Official papers']];
 const HQ_PI = {L: '👯', N: '🔢', T: '📍', D: '💊', R: '🪜'};
 const HAM = n => '🔨'.repeat(n);
-let hqCfg = {src: 'all', h: 0, p: '', sys: '', st: '', tgt: ''};
+let hqCfg = {src: 'all', h: 0, p: '', sys: '', st: '', tgt: '', pp: '', ilo: '', tr: ''};
 let hqSess = null;
 /* every item, hammers and mock, in one shape: {id, t, k, h, p, s, o, a, w, f, ref?} */
 function hqAll(){
   if (hqAll.c) return hqAll.c;
-  return hqAll.c = HQ.q.concat(MOCK.q.map(m => Object.assign({t: 'm', k: String(m.u)}, m)));
+  return hqAll.c = HQ.q.concat(MOCK.q.map(m => Object.assign({t: 'm', k: String(m.u)}, m)), OFF.q.map(o => Object.assign({t: 'o', k: String(o.u)}, o)));
 }
-function hqUnitOf(it){ return it.t === 'u' || it.t === 'm' ? +it.k : null; }
+function hqUnitOf(it){ return it.t === 'u' || it.t === 'm' ? +it.k : it.t === 'o' && +it.k >= 0 ? +it.k : null; }
+function hqPaper(it){ return (OFF.pp[it.pp] || [it.pp])[0]; }
 function hqTitle(it){
   if (it.t === 'u') return (UNITS[+it.k] || {}).name || '';
   if (it.t === 'm') return '🎓 Mock Q' + it.n + ' · ' + ((UNITS[+it.k] || {}).name || '');
+  if (it.t === 'o') return '🏛️ ' + hqPaper(it) + ' Q' + it.n + ' · ' + (+it.k >= 0 ? (UNITS[+it.k] || {}).name || '' : 'beyond the ILOs');
   return HQ.tt[it.t + ':' + it.k] || it.k;
 }
 function hqStat(id){ S.hq = S.hq || {}; return S.hq[id]; }
@@ -23,8 +30,11 @@ function hqMark(id, ok){ S.hq = S.hq || {}; const r = S.hq[id] || [0, 0, 0]; r[0
 function hqFilter(){
   const c = hqCfg;
   return hqAll().filter(it => {
-    if (c.tgt) return c.tgt === 'mq:' + it.id || c.tgt === it.t + ':' + it.k || (c.tgt[0] === 'u' && it.t === 'm' && 'u:' + it.k === c.tgt);
+    if (c.tgt) return c.tgt.slice(0, 2) === 'g:' ? OFF.g[+c.tgt.slice(2)].ids.includes(it.id) : c.tgt === 'mq:' + it.id || c.tgt === 'oq:' + it.id || c.tgt === it.t + ':' + it.k || (c.tgt[0] === 'u' && (it.t === 'm' || it.t === 'o') && 'u:' + it.k === c.tgt);
     if (c.src !== 'all' && it.t !== c.src) return false;
+    if (c.pp && it.pp !== c.pp) return false;
+    if (c.ilo && (c.ilo === 'in') !== (hqUnitOf(it) != null)) return false;
+    if (c.tr && !hqInKind(it.id, c.tr)) return false;
     if (c.h && it.h !== c.h) return false;
     if (c.p && it.p !== c.p) return false;
     if (c.sys) { const ui = hqUnitOf(it); if (ui == null || !UNITS[ui] || usys(UNITS[ui]) !== c.sys) return false; }
@@ -38,10 +48,10 @@ function hqCount(){ return hqAll().length; }
 /* the button on each condition page: its own 3 hammers, plus any mock question on it */
 function hqUnitBtn(u){
   const k = String(HQ.al && HQ.al[u.i] != null ? HQ.al[u.i] : u.i);
-  const n = HQ.q.filter(q => q.t === 'u' && q.k === k).length, mk = MOCK.q.filter(m => String(m.u) === k).length;
-  if (!n && !mk) return '';
+  const n = HQ.q.filter(q => q.t === 'u' && q.k === k).length, mk = MOCK.q.filter(m => String(m.u) === k).length, ok = OFF.q.filter(o => String(o.u) === k).length;
+  if (!n && !mk && !ok) return '';
   const done = HQ.q.filter(q => q.t === 'u' && q.k === k && hqStat(q.id)).length;
-  return '<div class="srcs hq-row"><button class="src hq-go" data-hqtgt="u:' + k + '">🔨 ' + n + ' hammer SBAs' + (done ? ' · ' + done + ' done' : '') + '</button>' + (mk ? '<span class="hint">includes ' + mk + ' from your mock 🎓</span>' : '') + '</div>';
+  return '<div class="srcs hq-row"><button class="src hq-go" data-hqtgt="u:' + k + '">🔨 ' + n + ' hammer SBAs' + (done ? ' · ' + done + ' done' : '') + '</button>' + (mk || ok ? '<span class="hint">plus ' + [mk ? mk + ' from your mock 🎓' : '', ok ? ok + ' from the official papers 🏛️' : ''].filter(Boolean).join(' and ') + '</span>' : '') + '</div>';
 }
 /* ----- the blueprint: what the mock actually tested, computed from the paper ----- */
 function hqBlueprint(){
@@ -74,9 +84,9 @@ function viewHammer(m){
   const c = hqCfg, list = hqFilter(), all = hqAll();
   const done = all.filter(it => hqStat(it.id)).length, miss = all.filter(it => { const s = hqStat(it.id); return s && s[2] === 0; }).length;
   const chip = (k, v, lab) => '<button class="chip' + (String(c[k]) === String(v) ? ' on' : '') + '" data-hqset="' + k + ':' + v + '">' + lab + '</button>';
-  let h = '<div class="wrap hq-wrap"><div class="ph"><div class="crumbs"><span class="code">🔨 Hammer</span></div><h1>Hammer SBAs</h1><p class="hint" style="margin:0">Three questions for every ILO condition, drug group, test and procedure, plus the off-map topics and your own mock. <b>🔨</b> the classic picture · <b>🔨🔨</b> two steps, a lookalike or a number that overrides the story · <b>🔨🔨🔨</b> the curveball. After each answer, <b>🔄 the flip</b> shows the one change that would make another option right. Keys: <span class="kbd">A</span>–<span class="kbd">E</span> or <span class="kbd">1</span>–<span class="kbd">5</span>, <span class="kbd">Enter</span> next, <span class="kbd">Esc</span> leave.</p></div>';
-  h += '<div class="tiles">' + [[all.length, 'Questions'], [done, 'Answered'], [miss, 'Missed last time'], [MOCK.q.length, 'From your mock']].map(([v, l]) => '<div class="tile"><div class="v">' + v + '</div><div class="l">' + l + '</div></div>').join('') + '</div>';
-  h += hqBlueprint();
+  let h = '<div class="wrap hq-wrap"><div class="ph"><div class="crumbs"><span class="code">🔨 Hammer</span></div><h1>Hammer SBAs</h1><p class="hint" style="margin:0">Three questions for every ILO condition, drug group, test and procedure, plus the off-map topics, your own mock and 399 questions from the official practice papers 🏛️. <b>🔨</b> the classic picture · <b>🔨🔨</b> two steps, a lookalike or a number that overrides the story · <b>🔨🔨🔨</b> the curveball. After each answer, <b>🔄 the flip</b> shows the one change that would make another option right. Keys: <span class="kbd">A</span>–<span class="kbd">E</span> or <span class="kbd">1</span>–<span class="kbd">5</span>, <span class="kbd">Enter</span> next, <span class="kbd">S</span> 🦅 scan mode, <span class="kbd">Esc</span> leave.</p></div>';
+  h += '<div class="tiles">' + [[all.length, 'Questions'], [done, 'Answered'], [miss, 'Missed last time'], [MOCK.q.length, 'From your mock'], [OFF.q.length, 'Official papers']].map(([v, l]) => '<div class="tile"><div class="v">' + v + '</div><div class="l">' + l + '</div></div>').join('') + '</div>';
+  h += hqBlueprint() + hqOffBlueprint();
   const run = S.hqRun;
   if (run && run.ids && run.ids.length) { const nd = Object.keys(run.pk || {}).length; h += '<div class="panel hq-resume"><div class="toolbar"><b class="grow">⏸ Unfinished run' + (run.lbl ? ': ' + esc(run.lbl) : '') + ' · ' + nd + ' of ' + run.ids.length + ' answered</b><button class="btn primary" data-hqresume>▶ Resume at Q' + ((run.i || 0) + 1) + '</button></div></div>'; }
   if (c.tgt) {
@@ -84,6 +94,8 @@ function viewHammer(m){
   } else {
     h += '<div class="panel hq-f"><div class="chips">' + HQ_SRC.map(([k, ic, l]) => chip('src', k, ic + ' ' + l + ' · ' + (k === 'all' ? all.length : all.filter(it => it.t === k).length))).join('') + '</div>'
       + '<div class="chips">' + chip('h', 0, 'Any hammer') + [1, 2, 3].map(n => chip('h', n, HAM(n))).join('') + '<span class="hq-sep"></span>' + chip('p', '', 'Any pattern') + Object.keys(HQ.pat).map(p => chip('p', p, HQ_PI[p] + ' ' + esc(HQ.pat[p]))).join('') + '</div>'
+      + (c.src === 'o' ? '<div class="chips">' + chip('pp', '', 'Every paper') + Object.entries(OFF.pp).map(([k, v]) => chip('pp', k, esc(v[0]) + ' · ' + OFF.q.filter(o => o.pp === k).length)).join('') + '<span class="hq-sep"></span>' + chip('ilo', '', 'Any topic') + chip('ilo', 'in', '🎯 Inside my ILOs') + chip('ilo', 'out', '🌍 Beyond them') + '</div>' : '')
+      + '<div class="chips">' + chip('tr', '', '🧬 Any examiner pattern') + Object.entries(HQ_GK).map(([k, v]) => chip('tr', k, v[0] + ' ' + v[1])).join('') + '</div>'
       + '<div class="chips">' + chip('st', '', 'All') + chip('st', 'new', '🆕 Not done') + chip('st', 'miss', '🔥 Missed last time') + '<label class="hq-sys">System <select data-hqsys aria-label="Filter by system"><option value="">All systems</option>' + MEV.sysOptions(c.sys) + '</select></label></div></div>';
   }
   h += '<div class="panel"><div class="toolbar"><b class="grow">' + list.length + ' match</b>' + (list.length ? '<button class="btn primary" data-hqstart="20">▶ Start ' + Math.min(20, list.length) + '</button>' + (list.length > 20 ? '<button class="btn" data-hqstart="0">Start all ' + list.length + '</button>' : '') : '') + '</div>';
@@ -94,8 +106,8 @@ function viewHammer(m){
 /* list of targets in the current source, each opening its own 3 */
 function hqIndex(list){
   const seen = new Map();
-  list.forEach(it => { const k = it.t === 'm' ? 'mq:' + it.id : it.t + ':' + it.k; if (!seen.has(k)) seen.set(k, [it, 0]); seen.get(k)[1]++; });
-  return '<div class="hq-idx">' + Array.from(seen.entries()).map(([k, [it, n]]) => '<button class="sr" data-hqtgt="' + esc(k) + '"><span class="where">' + (it.t === 'm' ? '🎓' : HAM(1)) + ' ' + n + '</span>' + esc(it.t === 'm' ? 'Q' + it.n + ' · ' + ((UNITS[+it.k] || {}).name || '') : hqTitle(it)) + '</button>').join('') + '</div>';
+  list.forEach(it => { const k = it.t === 'm' ? 'mq:' + it.id : it.t === 'o' ? 'oq:' + it.id : it.t + ':' + it.k; if (!seen.has(k)) seen.set(k, [it, 0]); seen.get(k)[1]++; });
+  return '<div class="hq-idx">' + Array.from(seen.entries()).map(([k, [it, n]]) => '<button class="sr" data-hqtgt="' + esc(k) + '"><span class="where">' + (it.t === 'm' ? '🎓' : it.t === 'o' ? '🏛️' : HAM(1)) + ' ' + n + '</span>' + esc(it.t === 'm' ? 'Q' + it.n + ' · ' + ((UNITS[+it.k] || {}).name || '') : it.t === 'o' ? hqPaper(it) + ' Q' + it.n + ' · ' + (+it.k >= 0 ? (UNITS[+it.k] || {}).name || '' : 'beyond the ILOs') : hqTitle(it)) + '</button>').join('') + '</div>';
 }
 /* ----- a run: Passmedicine-style. Move back and forth, cross options out, leave and come back; it is saved with your progress ----- */
 const HQ_BY = {}; function hqItem(id){ if (!HQ_BY._ok) { hqAll().forEach(it => HQ_BY[it.id] = it); HQ_BY._ok = 1; } return HQ_BY[id]; }
@@ -113,10 +125,11 @@ function hqResume(){
 function hqStart(n){
   let list = hqFilter();
   if (!hqCfg.tgt) list = shuffle(list, rng(Date.now() & 0xffffffff));
+  else if (hqCfg.tgt.slice(0, 2) === 'g:') { const ids = OFF.g[+hqCfg.tgt.slice(2)].ids; list = list.slice().sort((a, b) => ids.indexOf(a.id) - ids.indexOf(b.id)); }
   else list = list.slice().sort((a, b) => a.h - b.h || (a.t === 'm') - (b.t === 'm'));
   if (n) list = list.slice(0, n);
   if (!list.length) return;
-  hqNewRun(list, hqCfg.tgt ? hqTitle(list[0]) : '');
+  hqNewRun(list, hqCfg.tgt ? (hqCfg.tgt.slice(0, 2) === 'g:' ? '🧬 ' + OFF.g[+hqCfg.tgt.slice(2)].t : hqTitle(list[0])) : '');
 }
 /* 🧲 the trigger lines that belong with a question, shown under the answer */
 function hqTrIndex(){
@@ -155,10 +168,10 @@ function hqDraw(m){
   if (s.done) return hqEnd(m);
   const n = s.ids.length, it = hqItem(s.ids[s.i]), L = 'ABCDE', pick = s.pk[it.id], ans = pick != null, xs = s.x[it.id] || [];
   const done = Object.keys(s.pk).length;
-  let h = '<div class="wrap hq-wrap"><div class="ph"><div class="crumbs"><span class="code">🔨 ' + (s.i + 1) + ' / ' + n + '</span><span class="hint">' + done + ' answered' + (s.lbl ? ' · ' + esc(s.lbl) : '') + '</span><span class="grow"></span><button class="btn ghost sm" data-hqfin>🏁 End</button><button class="btn ghost sm" data-hqexit title="Your place is saved">✕ Leave</button></div>';
+  let h = '<div class="wrap hq-wrap"><div class="ph"><div class="crumbs"><span class="code">🔨 ' + (s.i + 1) + ' / ' + n + '</span><span class="hint">' + done + ' answered' + (s.lbl ? ' · ' + esc(s.lbl) : '') + '</span><span class="grow"></span><button class="btn ghost sm hq-scanb' + (S.set.hqScan ? ' on' : '') + '" data-hqscan title="Scan mode: question line first, out-of-range numbers lit, normal ones dimmed (S)" aria-pressed="' + (S.set.hqScan ? 'true' : 'false') + '">🦅 Scan</button><button class="btn ghost sm" data-hqfin>🏁 End</button><button class="btn ghost sm" data-hqexit title="Your place is saved">✕ Leave</button></div>';
   h += '<div class="hq-pal" role="navigation" aria-label="Questions">' + s.ids.map((id, j) => { const p = s.pk[id], q = hqItem(id); const c = p == null ? '' : p === q.a ? ' ok' : ' bad'; return '<button class="hq-pn' + c + (j === s.i ? ' on' : '') + '" data-hqgo="' + j + '" aria-label="Question ' + (j + 1) + '">' + (j + 1) + '</button>'; }).join('') + '</div>';
-  h += '<div class="hq-tag"><span>' + esc(hqTitle(it)) + '</span><span class="hq-h">' + HAM(it.h) + '</span><span class="hq-p">' + HQ_PI[it.p] + ' ' + esc(HQ.pat[it.p] || '') + '</span>' + (it.ref ? '<span class="hq-ref">' + esc(it.ref) + '</span>' : '') + '</div></div>';
-  h += '<div class="panel hq-q"><p class="hq-s">' + esc(it.s) + '</p><div class="hq-os">';
+  h += '<div class="hq-tag"><span>' + esc(hqTitle(it)) + '</span><span class="hq-h">' + HAM(it.h) + '</span><span class="hq-p">' + HQ_PI[it.p] + ' ' + esc(HQ.pat[it.p] || '') + '</span>' + (it.ref ? '<span class="hq-ref">' + esc(it.ref) + '</span>' : '') + hqBadges(it) + '</div></div>';
+  h += '<div class="panel hq-q' + (S.set.hqScan ? ' scan' : '') + '">' + hqStem(it) + '<div class="hq-os">';
   it.o.forEach((o, i) => {
     let cl = 'hq-o' + (xs.includes(i) ? ' x' : '');
     if (ans) cl += i === it.a ? ' ok' : i === pick ? ' bad' : ' dim';
@@ -168,9 +181,9 @@ function hqDraw(m){
   if (!ans) h += '<p class="hint hq-hint">Tap ✕ or right-click an option to cross it out (Shift + letter). Answer with <span class="kbd">A</span>–<span class="kbd">E</span>. <span class="kbd">←</span> <span class="kbd">→</span> move between questions.</p>';
   if (ans) {
     const ok = pick === it.a;
-    h += '<div class="hq-why ' + (ok ? 'ok' : 'bad') + '"><b>' + (ok ? '✅ Right.' : '❌ ' + L[it.a] + ' is the answer.') + '</b> ' + esc(it.w || '') + '</div>';
+    h += '<div class="hq-why ' + (ok ? 'ok' : 'bad') + '"><b>' + (ok ? '✅ Right.' : '❌ ' + L[it.a] + ' is the answer.') + '</b> ' + (it.t === 'o' ? '<span class="hq-off">📋 Examiners\' justification:</span> ' + esc(it.w || 'none given in the paper; the flip and triggers below explain it.') : esc(it.w || '')) + '</div>';
     if (it.f) h += '<div class="hq-flip"><span class="hq-fl">🔄 Flip it</span>' + esc(it.f).replace('→', '<b class="hq-arr">→</b>') + '</div>';
-    h += hqTriggers(it);
+    h += hqTriggers(it) + hqGroupBox(it);
     const ui = hqUnitOf(it);
     if (ui != null && UNITS[ui]) h += '<div class="toolbar"><button class="btn ghost sm" data-u="' + ui + '" data-mode="read">📖 Notes for ' + esc(UNITS[ui].name) + '</button></div>';
   }
@@ -211,6 +224,7 @@ function hqKey(e){
   if (s.done) return false;
   if (e.key === 'ArrowLeft') { e.preventDefault(); hqGo(s.i - 1); return true; }
   if (e.key === 'ArrowRight') { e.preventDefault(); if (s.i + 1 < s.ids.length) hqGo(s.i + 1); return true; }
+  if (e.key === 's' || e.key === 'S') { if (e.metaKey || e.ctrlKey || e.altKey) return false; e.preventDefault(); hqScanToggle(); return true; }
   const it = hqItem(s.ids[s.i]), k = e.key.toUpperCase(), li = 'ABCDE'.indexOf(k), idx = li >= 0 && k.length === 1 ? li : /^[1-5]$/.test(e.key) ? +e.key - 1 : -1;
   if (idx >= 0 && idx < it.o.length) { e.preventDefault(); if (e.shiftKey && li >= 0) hqStrike(idx); else hqPick(idx); return true; }
   if (e.key === 'Enter' || k === 'N') { e.preventDefault(); if (s.i + 1 < s.ids.length) hqGo(s.i + 1); else hqFinish(); return true; }
@@ -222,12 +236,14 @@ function hqSearchHtml(q, has){
   return n ? '<h6>🔨 Hammer SBAs</h6><button class="sr" data-hqq="' + esc(q) + '"><span class="where">🔨 ' + n + '</span>Practise every question that mentions “' + esc(q) + '”</button>' : '';
 }
 document.addEventListener('click', e => {
-  const t = e.target.closest && e.target.closest('[data-hqset],[data-hqstart],[data-hqpick],[data-hqx],[data-hqnav],[data-hqgo],[data-hqfin],[data-hqexit],[data-hqretry],[data-hqreview],[data-hqresume],[data-hqtgt],[data-hqq]'); if (!t) return;
+  const t = e.target.closest && e.target.closest('[data-hqset],[data-hqstart],[data-hqpick],[data-hqx],[data-hqnav],[data-hqgo],[data-hqfin],[data-hqexit],[data-hqretry],[data-hqreview],[data-hqresume],[data-hqtgt],[data-hqq],[data-hqscan],[data-hqgrp]'); if (!t) return;
   const d = t.dataset; e.preventDefault(); e.stopImmediatePropagation();
   const sp = document.getElementById('sp'); if (sp) sp.hidden = true;
   const toHub = () => { if (route.view !== 'hammer') { route = {view: 'hammer'}; try { history.replaceState(null, '', '#hammer'); } catch(x) {} renderSide(); } };
-  if (d.hqset != null) { const i = d.hqset.indexOf(':'), k = d.hqset.slice(0, i), v = d.hqset.slice(i + 1); hqCfg[k] = k === 'h' ? +v : v; if (k === 'tgt' && !v) hqCfg.tgt = ''; return viewHammer($('#main')); }
+  if (d.hqset != null) { const i = d.hqset.indexOf(':'), k = d.hqset.slice(0, i), v = d.hqset.slice(i + 1); hqCfg[k] = k === 'h' ? +v : v; if (k === 'tgt' && !v) hqCfg.tgt = ''; if (k === 'src' && v !== 'o') { hqCfg.pp = ''; hqCfg.ilo = ''; } return viewHammer($('#main')); }
   if (d.hqstart != null) return hqStart(+d.hqstart);
+  if (d.hqscan != null) return hqScanToggle();
+  if (d.hqgrp != null) { const [gi, j] = d.hqgrp.split(':').map(Number); hqCfg.tgt = 'g:' + gi; hqSess = null; toHub(); hqStart(0); return hqGo(j); }
   if (d.hqpick != null) return hqPick(+d.hqpick);
   if (d.hqx != null) return hqStrike(+d.hqx);
   if (d.hqnav != null) return hqGo(hqSess.i + (+d.hqnav));
@@ -245,4 +261,97 @@ document.addEventListener('click', e => {
 }, true);
 document.addEventListener('contextmenu', e => { const b = e.target.closest && e.target.closest('[data-hqpick]'); if (!b || !hqSess || b.disabled) return; e.preventDefault(); hqStrike(+b.dataset.hqpick); });
 document.addEventListener('change', e => { const t = e.target; if (t.dataset && t.dataset.hqsys != null) { hqCfg.sys = t.value; viewHammer($('#main')); } });
-document.addEventListener('toggle', e => { if (e.target.classList && e.target.classList.contains('hq-bp')) { S.set.hqBp = e.target.open; save(); } }, true);
+document.addEventListener('toggle', e => { if (e.target.classList && e.target.classList.contains('hq-bp') && !e.target.classList.contains('hq-obp')) { S.set.hqBp = e.target.open; save(); } }, true);
+/* ---------- v2.5: 🏛️ official papers, 🦅 scan mode and 🧬 examiner patterns ---------- */
+function hqScanToggle(){ S.set.hqScan = !S.set.hqScan; save(); if (hqSess && !hqSess.done) hqDraw(); }
+function hqNum(v){ const m = String(v).replace(/,/g, '').match(/-?\d+(?:\.\d+)?/); return m ? +m[0] : null; }
+/* is a value outside its reference range? true high or low, false normal, null unknown. Returns [abnormal, direction] */
+function hqAbn(val, rg){
+  const v = hqNum(val); rg = String(rg || '').replace(/\s+/g, '');
+  if (v == null || !rg) return [null, ''];
+  let m = rg.match(/^(-?[\d.]+)[–-]([\d.]+)$/); if (m) return v < +m[1] ? [true, '↓'] : v > +m[2] ? [true, '↑'] : [false, ''];
+  m = rg.match(/^[<≤]([\d.]+)$/); if (m) return v >= +m[1] ? [true, '↑'] : [false, ''];
+  m = rg.match(/^[>≥]([\d.]+)$/); if (m) return v <= +m[1] ? [true, '↓'] : [false, ''];
+  m = rg.match(/^([\d.]+)$/); if (m) return v > +m[1] * 1.2 ? [true, '↑'] : [false, ''];
+  return [null, ''];
+}
+/* the words that flip an answer: blockers in the stem, and the rung words in the question line */
+const HQ_FW = /\b(Parkinson['’]s disease|chronic kidney disease(?: stage \d)?|CKD stage \d|eGFR (?:of )?\d+|\d+ weeks['’]? (?:pregnant|gestation)|pregnant|breastfeeding|asthma|COPD|heart failure|ventricular systolic dysfunction|takes warfarin|on warfarin|apixaban|rivaroxaban|metallic \w+ valve|mechanical \w+ valve|allergic to \w+|firefighter|lorry driver|deep vein thrombosis|peptic ulcer|is dying|last days of life|end of life|unable to swallow|methotrexate|immunosuppress\w*|takes lithium|on lithium|clozapine|sickle cell disease|HIV positive|contact lens(?:es)?|after (?:a |an )?(?:long-haul flight|spinal anaesthetic|femoral artery angioplasty)|recently returned from \w+|\d+ (?:minutes|hours|days|weeks) (?:ago|after|previously))\b/gi;
+const HQ_QW = /\b(first|initial|immediate|next|definitive|long-term|additional|most sensitive|most specific|confirm|safest|most important|underlying|mechanism|before|in addition)\b/gi;
+function hqHi(text, mode){
+  text = String(text || ''); const spans = [];
+  const add = (re, fn) => { re.lastIndex = 0; let m; while ((m = re.exec(text))) { const c = fn(m); if (c) spans.push([m.index, m.index + m[0].length, c]); if (!m[0].length) re.lastIndex++; } };
+  if (mode === 'q') add(HQ_QW, () => 'fw');
+  else {
+    add(/(\d{2}(?:\.\d)?) ?°C/g, m => 'vx ' + (+m[1] >= 38 || +m[1] < 36 ? 'ab' : 'nm'));
+    add(/(\d{2,3}) ?bpm/g, m => 'vx ' + (+m[1] > 100 || +m[1] < 50 ? 'ab' : 'nm'));
+    add(/(\d{2,3}) ?\/ ?(\d{2,3}) ?mmHg/g, m => 'vx ' + (+m[1] < 90 || +m[1] >= 180 || +m[2] >= 110 ? 'ab' : 'nm'));
+    add(/respiratory rate (?:is |of )?(\d{1,2})(?: breaths per minute)?/gi, m => 'vx ' + (+m[1] > 20 || +m[1] < 10 ? 'ab' : 'nm'));
+    add(/oxygen saturation (?:is |of )?(\d{2,3}) ?%/gi, m => 'vx ' + (+m[1] < 94 ? 'ab' : 'nm'));
+    add(/(\d+(?:\.\d+)?)([^()\d]{0,24}?)\(\s*([<>≤≥]?\s*\d+(?:\.\d+)?(?:\s*[–-]\s*\d+(?:\.\d+)?)?)\s*\)/g, m => { const r = hqAbn(m[1], m[3])[0]; return r == null ? '' : 'vx ' + (r ? 'ab' : 'nm'); });
+    add(HQ_FW, () => 'fw');
+  }
+  spans.sort((a, b) => a[0] - b[0] || b[1] - a[1]);
+  let out = '', at = 0;
+  spans.forEach(([s, e, c]) => { if (s < at) return; out += esc(text.slice(at, s)) + '<span class="' + c + '">' + esc(text.slice(s, e)) + '</span>'; at = e; });
+  return out + esc(text.slice(at));
+}
+function hqLab(rows){
+  return '<div class="hq-labw"><table class="hq-lab"><caption>Investigations</caption><tbody>' + rows.map(r => {
+    const [ab, dir] = hqAbn(r[1], r[2]); const c = ab == null ? (r[2] ? 'nm' : 'tx') : ab ? 'ab' : 'nm';
+    return '<tr class="' + c + '"><td>' + esc(r[0]) + '</td><td>' + esc(r[1]) + (dir ? ' <span class="dir">' + dir + '</span>' : '') + '</td><td class="rg">' + (r[2] ? '(' + esc(r[2]) + ')' : '') + '</td></tr>';
+  }).join('') + '</tbody></table></div>';
+}
+function hqStem(it){
+  let s = it.s || '', ql = it.ql || '';
+  if (!ql) { const m = s.match(/^([\s\S]*?)((?:Which|What|How|Where|When|Who|Why|In which|In what|At what|To what|From which|Damage to which|A surge in which)[^?]*\?)\s*$/); if (m && m[1].trim()) { s = m[1].trim(); ql = m[2]; } }
+  let h = '<div class="hq-stem">' + (ql ? '<p class="hq-ql hq-qtop"><span class="hq-qi">❓ Read this first</span> ' + hqHi(ql, 'q') + '</p>' : '');
+  s.split('\n').filter(x => x.trim()).forEach(p => h += '<p class="hq-s">' + hqHi(p) + '</p>');
+  if (it.lab && it.lab.length) h += hqLab(it.lab);
+  (it.post || '').split('\n').filter(x => x.trim()).forEach(p => h += '<p class="hq-s">' + hqHi(p) + '</p>');
+  (it.img || []).forEach(n => { if (OFF.img[n]) h += '<figure class="hq-fig"><img src="' + OFF.img[n] + '" alt="Image for this question" loading="lazy" data-hqzoom></figure>'; });
+  return h + (ql ? '<p class="hq-ql hq-qbot">' + hqHi(ql, 'q') + '</p>' : '') + '</div>';
+}
+function hqBadges(it){
+  return (it.t === 'o' && +it.k < 0 ? '<span class="hq-p hq-out">🌍 Beyond the FFP ILOs</span>' : '') + (hqInKind(it.id, 'clone') ? '<span class="hq-p hq-hot">🔥 Double-tested</span>' : '');
+}
+function hqGLabel(it){
+  const a = it.o[it.a]; return (it.t === 'm' ? '🎓 Mock Q' + it.n : it.t === 'o' ? '🏛️ ' + hqPaper(it) + ' Q' + it.n : HAM(it.h) + ' Step ' + it.h) + ' → ' + (a.length > 46 ? a.slice(0, 44) + '…' : a);
+}
+function hqGroupBox(it){
+  const gs = hqGroupsOf(it.id); if (!gs.length) return '';
+  return '<div class="hq-gx"><span class="hq-fl">🧬 Examiner pattern</span>' + gs.map(gi => {
+    const g = OFF.g[gi], K = HQ_GK[g.k] || ['🧬', g.k];
+    return '<div class="hq-gb"><div class="hq-gt"><span class="hq-gk">' + K[0] + ' ' + esc(K[1]) + '</span> <b>' + esc(g.t) + '</b></div><p class="hq-gr">' + esc(g.r) + '</p><div class="hq-gp">'
+      + g.ids.map((id, j) => { const x = hqItem(id); if (!x) return ''; return '<button class="chip' + (id === it.id ? ' on' : '') + '" data-hqgrp="' + gi + ':' + j + '"' + (id === it.id ? ' aria-current="true"' : '') + '>' + esc(hqGLabel(x)) + '</button>'; }).join('')
+      + '</div><div class="hint">Tap one to run the whole set in order and watch which single detail moves the answer.</div></div>';
+  }).join('') + '</div>';
+}
+/* ----- the official papers, decoded: computed from the papers themselves ----- */
+function hqOffBlueprint(){
+  const Q = OFF.q; if (!Q.length) return '';
+  const words = t => (String(t || '').match(/[A-Za-z0-9'’]+/g) || []).length, med = a => { const b = a.slice().sort((x, y) => x - y); return b.length ? b[b.length >> 1] : 0; };
+  const qt = t => { t = t.toLowerCase(); return /most likely (diagnosis|cause|explanation|underlying)|likely to explain|which (virus|organism|artery|nerve|structure|deficiency|pathogen|personality)|what is the (diagnosis|most likely)/.test(t) ? 'dx' : /management|treatment|next step|action|therapy|prescribe|medication|drug|advice|plan|manage|should be|change/.test(t) ? 'mx' : /investigation|imaging|test|radiological|measure|parameter/.test(t) ? 'ix' : 'oth'; };
+  const ty = {dx: 0, mx: 0, ix: 0, oth: 0}; Q.forEach(q => ty[qt(q.ql)]++);
+  const mty = {dx: 0, mx: 0, ix: 0, oth: 0}; MOCK.q.forEach(m => { const x = (m.s.match(/[^.?]*\?\s*$/) || [m.s])[0]; mty[qt(x)]++; });
+  const ow = med(Q.map(q => words(q.s + ' ' + q.post))), mw = med(MOCK.q.map(m => words(m.s.replace(/(Which|What|How)[^?]*\?\s*$/, ''))));
+  const lab = Q.filter(q => q.lab && q.lab.length).length, rows = []; Q.forEach(q => (q.lab || []).forEach(r => { const a = hqAbn(r[1], r[2])[0]; if (a != null) rows.push(a); }));
+  const normal = rows.filter(a => !a).length, inn = Q.filter(q => q.u >= 0).length, mscaa = MOCK.q.filter(m => /^MSCAA/i.test(m.ref || '')).length;
+  const pc = (a, b) => Math.round(a / b * 100) + '%';
+  const bar = (lab_, n, max) => '<div class="hq-bar"><span class="hq-bl">' + lab_ + '</span><span class="hq-bt"><i style="width:' + Math.round(n / max * 100) + '%"></i></span><b>' + n + '</b></div>';
+  const byK = {}; OFF.g.forEach(g => byK[g.k] = (byK[g.k] || 0) + 1);
+  return '<details class="panel hq-bp hq-obp"' + (S.set.hqObp ? ' open' : '') + '><summary>🏛️ The official papers, decoded · ' + Q.length + ' questions from 6 papers</summary><div class="hq-bpg"><div><h6>What the stem asks: official vs your mock</h6>'
+    + bar('🔎 Diagnosis', ty.dx, Q.length) + bar('💊 Management', ty.mx, Q.length) + bar('🧪 Investigation', ty.ix, Q.length) + bar('🧠 Mechanism, law, stats', ty.oth, Q.length)
+    + '<p class="hint">Your mock: ' + pc(mty.dx, MOCK.q.length) + ' diagnosis, ' + pc(mty.mx, MOCK.q.length) + ' management. The official papers: ' + pc(ty.dx, Q.length) + ' diagnosis, ' + pc(ty.mx, Q.length) + ' management.</p>'
+    + '<h6>Papers</h6>' + Object.entries(OFF.pp).map(([k, v]) => bar(esc(v[0]), Q.filter(q => q.pp === k).length, 100)).join('')
+    + '</div><div><h6>Why the stems look longer (medians)</h6>' + bar('Story words, official', ow, 80) + bar('Story words, mock', mw, 80) + bar('Has a lab table', lab, Q.length) + bar('Normal lab rows', normal, rows.length)
+    + '<h6>🧬 How they repeat</h6>' + Object.entries(HQ_GK).map(([k, v]) => '<button class="chip" data-hqset="tr:' + k + '">' + v[0] + ' ' + esc(v[1]) + ' · ' + (byK[k] || 0) + '</button>').join(' ')
+    + '</div></div><ul class="hq-take">'
+    + '<li><b>Same bank as your mock.</b> ' + mscaa + ' of your ' + MOCK.q.length + ' mock questions carry MSCAA codes. Three are here almost word for word, and one chest X-ray is reused for two different answers. 🔥 marks them.</li>'
+    + '<li><b>The stories are not longer.</b> Median ' + ow + ' words against ' + mw + ' in your mock. The length is the vertical lab table (' + pc(lab, Q.length) + ' of questions) and the full vitals block. ' + pc(normal, rows.length) + ' of lab rows are normal: noise.</li>'
+    + '<li><b>🦅 Scan mode (S):</b> the question line moves to the top, out-of-range numbers and vitals light up, normal rows fade, and blocker words (CKD, Parkinson\'s, pregnant, a job, a valve) get the highlighter.</li>'
+    + '<li><b>Your mock leans to diagnosis; the national papers lean to management.</b> Expect “what do you do next” as often as “what is it”.</li>'
+    + '<li><b>' + pc(inn, Q.length) + ' sit inside your FFP ILOs.</b> The rest (obstetrics, paediatrics, statistics, ethics, rheumatology) are under 🌍: useful, but lower yield for this exam.</li></ul></details>';
+}
+document.addEventListener('toggle', e => { if (e.target.classList && e.target.classList.contains('hq-obp')) { S.set.hqObp = e.target.open; save(); } }, true);
+document.addEventListener('click', e => { const im = e.target.closest && e.target.closest('[data-hqzoom]'); if (im) im.classList.toggle('big'); });

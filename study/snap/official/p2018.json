@@ -1,0 +1,1215 @@
+[
+ {
+  "s": "A 73 year old man collapses on the surgical ward 24 hours after having a sigmoid volvulus reduced by sigmoidoscopy.\nHe has no pulse and an ECG shows asystole. Chest compressions and ventilation are started. The cardiac arrest team are with the patient.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate next step in management?",
+  "n": 1,
+  "o": [
+   "Cardiac defibrillation",
+   "Intravenous 0.9% sodium chloride",
+   "Intravenous adrenaline/epinephrine",
+   "Intravenous atropine sulfate",
+   "Transcutaneous pacing"
+  ],
+  "a": 2,
+  "w": "Epinephrine the only recommended treatment for asystole. Atropine no longer recommended.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 78 year old woman has pain in both shoulders, hips and thighs. She is very stiff on waking in the morning and takes 2–3 hours to loosen up. She finds getting dressed difficult.",
+  "lab": [
+   [
+    "Erythrocyte sedimentation rate",
+    "67 mm/hr",
+    "<20"
+   ],
+   [
+    "CRP",
+    "87 mg/L",
+    "<5"
+   ]
+  ],
+  "post": "",
+  "ql": "What is the most appropriate initial treatment?",
+  "n": 2,
+  "o": [
+   "Co-codamol",
+   "Leflunomide",
+   "Methotrexate",
+   "Naproxen",
+   "Prednisolone"
+  ],
+  "a": 4,
+  "w": "The scenario describes typical features of polymyalgia rheumatica, which responds well to prednisolone and poorly to analgesics such as Naproxen or cocodamol. No features to suggest inflammatory arthritis",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 36 year old man is rescued from a house fire.\nHe is alert and talking but has a dull headache. His pulse rate is 98 bpm, BP 139/86 mmHg, respiratory rate 22 breaths per minute and oxygen saturation 100% breathing 15 L/min oxygen via a non-rebreather mask.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate parameter to measure?",
+  "n": 3,
+  "o": [
+   "Bicarbonate",
+   "Carboxyhaemoglobin",
+   "Haemoglobin",
+   "Lactate",
+   "Methaemoglobin"
+  ],
+  "a": 1,
+  "w": "Carbon monoxide inhalation likely. Will not show on pulse oximeter as is read as oxyhaemoglobin Copyright © 2018 - Medical Schools Council Page 3 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 60 year old man has 2 days of a swollen, painful right leg. He has a history of hypertension and takes ramipril. He is otherwise well.\nHe has a swollen right leg. The remainder of the examination is normal.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "140 g/L",
+    "130–175"
+   ],
+   [
+    "White cell count",
+    "8.0 × 10⁹/L",
+    "3.8–10.0"
+   ],
+   [
+    "Platelets",
+    "340 × 10⁹/L",
+    "150–400"
+   ],
+   [
+    "Creatinine",
+    "94 µmol/L",
+    "60–120"
+   ],
+   [
+    "Calcium",
+    "2.5 mmol/L",
+    "2.2–2.6"
+   ],
+   [
+    "ALT",
+    "30 IU/L",
+    "10–50"
+   ],
+   [
+    "ALP",
+    "99 IU/L",
+    "25–115"
+   ],
+   [
+    "APTT",
+    "30 seconds",
+    "22–41"
+   ],
+   [
+    "PT",
+    "12 seconds",
+    "10–12"
+   ],
+   [
+    "Urinalysis",
+    "normal",
+    ""
+   ],
+   [
+    "Chest X-ray",
+    "normal",
+    ""
+   ],
+   [
+    "Venous duplex ultrasound scan",
+    "thrombus in superficial femoral vein",
+    ""
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate additional investigation?",
+  "n": 4,
+  "o": [
+   "CT of abdomen and pelvis",
+   "Serum carcinoembryonic antigen",
+   "Serum prostate specific antigen",
+   "Serum protein electrophoresis",
+   "Ultrasonography of abdomen"
+  ],
+  "a": 0,
+  "w": "The patient has an unprovoked DVT. Patients should be offered CT scan abdomen and pelvis to help identify possible malignancy.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 65 year old woman had a mechanical aortic valve replacement and coronary revascularisation 3 days ago. She is being treated with dalteparin sodium. She is also taking aspirin long term.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate long-term patient management?",
+  "n": 5,
+  "o": [
+   "Apixaban",
+   "Clopidogrel",
+   "Continue dalteparin sodium",
+   "Rivaroxaban",
+   "Warfarin sodium"
+  ],
+  "a": 4,
+  "w": "All patients with mechanical valves require treatment with aspirin and warfarin. Low molecular weight heparin is used as bridging anti-coagulation but not long-term. There is no place for novel oral anticoagulants (yet).",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "The association between maternal smoking during pregnancy and low birthweight can be studied by obtaining smoking histories from pregnant women at the time of first prenatal visit, then assessing birthweight at delivery and analysing the data according to the smoking histories.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the best description of this type of study?",
+  "n": 6,
+  "o": [
+   "Case–control",
+   "Cross-sectional",
+   "Prospective cohort",
+   "Randomised clinical trial",
+   "Retrospective cohort"
+  ],
+  "a": 2,
+  "w": "This is a prospective cohort study where a group of individuals who differ with respect to one or more factors are followed, to determine how these factors affect outcomes. A case-control study finds individuals with a given outcome along with a suitable control group and looks back retrospectively at how many individuals from both groups had the exposure(s) of interest. A cross-sectional study measures prevalence in a population at a given point in time. A randomised clinical trial tests the effects of a specific intervention or interventions against a control group. A retrospective cohort begins after the outcome has occurred and looks back at the exposure of interest. Copyright © 2018 - Medical Schools Council Page 5 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 18 year old woman has had a chronic skin condition for several years. She has noticed that she gets well-defined areas of scale formation at the sites of minor skin injuries, such as scratches or insect bites, typically when the injuries are healing. The scaling can persist for several weeks or months.",
+  "lab": [],
+  "post": "",
+  "ql": "What is the most likely underlying skin condition?",
+  "n": 7,
+  "o": [
+   "Acne vulgaris",
+   "Eczema",
+   "Psoriasis",
+   "Seborrhoeic dermatitis",
+   "Vitiligo"
+  ],
+  "a": 2,
+  "w": "This is typical of Koebnerisation. Psoriasis is by far the commonest underlying cause, though it can also occur in vitiligo.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 64 year old man has vomiting and severe chest pain after eating a large meal.\nHis temperature is 37.6°C, pulse rate 130 bpm, BP 95/50 mmHg and respiratory rate 30 breaths per minute. There is palpable subcutaneous emphysema on the left side of his neck.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 8,
+  "o": [
+   "Diaphragmatic rupture",
+   "Mallory–Weiss tear",
+   "Necrotising fasciitis",
+   "Oesophageal rupture",
+   "Spontaneous pneumohaemothorax"
+  ],
+  "a": 3,
+  "w": "The scenario describes Boerhaave's syndrome (oesophageal rupture). Copyright © 2018 - Medical Schools Council Page 6 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 54 year old woman has polyuria and the feeling that she needs to drink continuously. She drinks at least 1 litre of water before bedtime and gets up three to four times during the night to pass urine. She has another glass of water each time that she gets up.",
+  "lab": [
+   [
+    "Sodium",
+    "140 mmol/L",
+    "135–146"
+   ],
+   [
+    "Potassium",
+    "4.1 mmol/L",
+    "3.5–5.3"
+   ],
+   [
+    "Urea",
+    "4.5 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "86 µmol/L",
+    "60–120"
+   ],
+   [
+    "Calcium",
+    "2.56 mmol/L",
+    "2.2–2.6"
+   ],
+   [
+    "Fasting glucose",
+    "4.8 mmol/L",
+    "3.0–6.0"
+   ],
+   [
+    "Serum osmolality",
+    "295 mOsmol/kg",
+    "285–295"
+   ],
+   [
+    "Urinary osmolality",
+    "86 mOsmol/kg",
+    "100–1000"
+   ]
+  ],
+  "post": "After 8 hours of a water deprivation test, the serum osmolality is 308 mOsmol/kg and the urinary osmolality is 152 mOsmol/kg.\nFollowing the administration of desmopressin, the serum osmolality is 286 mOsmol/kg and the urinary osmolality is 660 mOsmol/kg.",
+  "ql": "Which is the most appropriate next investigation?",
+  "n": 9,
+  "o": [
+   "CT scan of thorax, abdomen and pelvis",
+   "MR scan of pituitary",
+   "Oral glucose tolerance test",
+   "Technetium-99 Sestamibi parathyroid scan",
+   "Supervised fluid restriction and daily weights"
+  ],
+  "a": 1,
+  "w": "The test results are consistent with cranial diabetes insipidus.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 30 year old woman has irregular periods, decreased libido and galactorrhoea.\nVisual field examination is normal.",
+  "lab": [
+   [
+    "Prolactin",
+    "5000 mU/L",
+    "100–500"
+   ],
+   [
+    "Pregnancy test",
+    "negative",
+    ""
+   ]
+  ],
+  "post": "MR scan of pituitary shows a 4-mm mass in the sella turcica.",
+  "ql": "Which is the most appropriate management?",
+  "n": 10,
+  "o": [
+   "Cabergoline",
+   "Dexamethasone",
+   "Octreotide",
+   "Radiotherapy",
+   "Transsphenoidal surgery"
+  ],
+  "a": 0,
+  "w": "Cabergoline (a dopamine agonist) is the first-line treatment for a micro- and macroprolatinomas. Copyright © 2018 - Medical Schools Council Page 8 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 23 year old man is admitted to the acute surgical ward with appendicitis and is prepared for theatre. Although he has not eaten for 24 hours, he has been vomiting on and off all day.",
+  "lab": [],
+  "post": "",
+  "ql": "Which airway device provides protection for the lungs from regurgitated stomach contents?",
+  "n": 11,
+  "o": [
+   "Guedel (oral) airway",
+   "i-gel ® (supraglottic) airway",
+   "Laryngeal mask airway",
+   "Nasopharyngeal airway",
+   "Tracheal tube"
+  ],
+  "a": 4,
+  "w": "i-gels are often used in cardiac arrest situations as they are easier to place than tracheal tubes. However, only the tracheal tube can seal the trachea off and protect against aspiration. Copyright © 2018 - Medical Schools Council Page 9 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 32 year old man is referred to a gastroenterology clinic with hepatomegaly. He has a history of type 2 diabetes that is diet controlled. He is taking no regular medication. He is a non-smoker and drinks approximately 16 units of alcohol per week. He is married with no children.\nCardiovascular and respiratory examinations are normal. His abdomen is soft, with a 3 cm palpable liver edge. His BMI is 23 kg/m²(18–25).",
+  "lab": [
+   [
+    "Albumin",
+    "38 g/L",
+    "35–50"
+   ],
+   [
+    "ALT",
+    "90 IU/L",
+    "10–50"
+   ],
+   [
+    "ALP",
+    "112 IU/L",
+    "25–115"
+   ],
+   [
+    "Bilirubin",
+    "15 µmol/L",
+    "<17"
+   ],
+   [
+    "Ferritin",
+    "710 µg/L",
+    "12–200"
+   ],
+   [
+    "CRP",
+    "6 mg/L",
+    "<5"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate next investigation?",
+  "n": 12,
+  "o": [
+   "Hepatitis C serology",
+   "Liver biopsy",
+   "Reticulocyte count",
+   "Serum γGT",
+   "Transferrin saturation"
+  ],
+  "a": 4,
+  "w": "Transferrin saturation is the screening test for haemochromatosis.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 30 year old woman has severe headache 24 hours after a spinal anaesthetic.\nHer temperature is 37.1°C, pulse rate 90 bpm and BP 120/80 mmHg.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 13,
+  "o": [
+   "Low pressure headache",
+   "Meningitis",
+   "Migraine",
+   "Subarachnoid haemorrhage",
+   "Subdural haemorrhage"
+  ],
+  "a": 0,
+  "w": "Most likely cause in this setting - common phenomenon.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 27 year old man is brought to the Emergency Department with left-sided chest pain of sudden onset that is worse on taking a deep breath.\nHis temperature is 36.8°C, pulse rate 126 bpm, BP 108/60 mmHg, respiratory rate 28 breaths per minute and oxygen saturation 94% breathing air.",
+  "lab": [
+   [
+    "ECG",
+    "sinus tachycardia",
+    ""
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate next investigation?",
+  "n": 14,
+  "o": [
+   "Chest X-ray",
+   "CT pulmonary angiography",
+   "D dimers",
+   "Echocardiography",
+   "Ventilation/perfusion isotope lung scan"
+  ],
+  "a": 0,
+  "w": "CXR to rule out other pathology before Well’s score and then CTPA (or V/Q) if PE likely or D-dimer if PE unlikely. (NICE CG144) Diagnostic investigations for pulmonary embolism 1.1.7 If a patient presents with signs or symptoms of pulmonary embolism (PE), carry out an assessment of their general medical history, a physical examination and a chest X ray to exclude other causes. [2012] Copyright © 2018 - Medical Schools Council Page 11 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A healthy 23 year old man is scheduled to undergo an elective arthroscopy of his knee. He is to have a general anaesthetic for the operation and asks the pre-operative assessment nurse how long he needs to fast beforehand.",
+  "lab": [],
+  "post": "",
+  "ql": "Which are the most appropriate fasting times for clear liquids and solids respectively?",
+  "n": 15,
+  "o": [
+   "2 h for clear liquids, 2 h for solids",
+   "2 h for clear liquids, 6 h for solids",
+   "2 h for clear liquids, 12 h for solids",
+   "6 h for both clear liquids and solids",
+   "6 h for clear liquids, 12 h for solids"
+  ],
+  "a": 1,
+  "w": "http://www.aagbi.org/sites/default/files/Perioperative_fasting_in_adults_and_children__.4 .pdf Standard national guidelines for elective patients with no problems affecting gastric emptying. Too long a period of fasting is unnecessary whilst residual solid food in the stomach poses a big risk of aspiration/asphyxiation. Copyright © 2018 - Medical Schools Council Page 12 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 28 year old woman presents to her GP with a neck lump that she noticed incidentally when rubbing her neck.\nThere is a smooth, non-tender 1.5 cm mobile lump within the thyroid gland.",
+  "lab": [
+   [
+    "TSH",
+    "2.3 mU/L",
+    "0.3–4.2"
+   ]
+  ],
+  "post": "Free T4 17 pmol/L (9–25)",
+  "ql": "Which is the most appropriate next investigation?",
+  "n": 16,
+  "o": [
+   "CT of neck",
+   "No further investigations",
+   "Thyroid antibodies",
+   "Thyroid scintigraphy",
+   "Ultrasonography of neck"
+  ],
+  "a": 4,
+  "w": "This is a non-functional thyroid nodule so needs ultrasound to classify - FNA may then be indicated. Copyright © 2018 - Medical Schools Council Page 13 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 78 year old man has type 2 diabetes. His clinician does not invite him to join an internet-based self-monitoring programme because she considers him to be too old to engage with it effectively.",
+  "lab": [],
+  "post": "",
+  "ql": "What is the most appropriate description of the clinician's approach?",
+  "n": 17,
+  "o": [
+   "Bias",
+   "Discrimination",
+   "Inequity",
+   "Prejudice",
+   "Stereotyping"
+  ],
+  "a": 1,
+  "w": "Discrimination is the unjust or prejudicial treatment of different categories of people.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 47 year old man with hypertension attends for annual review. He takes ramipril (10 mg once daily).\nHis BP is 138/78 mmHg.",
+  "lab": [
+   [
+    "Sodium",
+    "139 mmol/L",
+    "135–146"
+   ],
+   [
+    "Potassium",
+    "6.2 mmol/L",
+    "3.5–5.3"
+   ],
+   [
+    "Urea",
+    "5.0 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "90 µmol/L",
+    "60–120"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate immediate action?",
+  "n": 18,
+  "o": [
+   "Add indapamide",
+   "Advise low potassium diet",
+   "Change ramipril to amlodipine",
+   "Reduce dose of ramipril",
+   "Repeat urea and electrolytes"
+  ],
+  "a": 4,
+  "w": "This is likely spurious - and needs repeat. Copyright © 2018 - Medical Schools Council Page 14 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 33 year old woman has 4 months of joint pain and stiffness, predominantly affecting her feet. This is worst in the morning and gradually improves through the day. She feels tired all the time but reports no other health problems.",
+  "lab": [],
+  "post": "",
+  "ql": "Which investigation would confirm the most likely diagnosis?",
+  "n": 19,
+  "o": [
+   "Anti-cyclic citrillinated peptide antibody",
+   "Anti-double-stranded DNA antibodies",
+   "Antinuclear antibody",
+   "CRP",
+   "Rheumatoid factor"
+  ],
+  "a": 0,
+  "w": "The correct answer is A (Anti CCP) antibody. This is the test that has the highest specificity for rheumatoid arthritis, which is what the question is asking. CCP antibodies are found in 80% of people with rheumatoid arthritis, but fewer than 0.5% of healthy individuals. Rheumatoid factor is present in up to 10% of the healthy population, and whilst of similar sensitivity to CCP, is much less specific. CRP is a non-specific marker of inflammation, and can often be normal in early rheumatoid. ANA testing is high sensitivity (but low specificity) test for connective tissue disorders such as SLE and Sjorgren’s. Copyright © 2018 - Medical Schools Council Page 15 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 27 year old man has severe central chest pain. He admits to using cocaine shortly before the onset of the chest pain, but says that he had used it on only two previous occasions.\nHe is distressed and sweating. His pulse rate is 115 bpm and BP 118/68 mmHg. An ECG shows sinus tachycardia with ST elevation in the lateral leads, and several ventricular ectopics.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the mechanism by which cocaine has caused this acute episode?",
+  "n": 20,
+  "o": [
+   "Blockade of myocyte repolarisation",
+   "Coronary artery spasm",
+   "Enhanced platelet aggregation",
+   "Increased systemic vascular resistance",
+   "Rupture of pre-existing arterial plaques"
+  ],
+  "a": 1,
+  "w": "Cocaine-induced ACS.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 18 year old man, who was born in the UK, develops drowsiness and confusion 2 days after returning from visiting his grandparents in Malawi. Over the past week he has had recurrent episodes of high fever.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "92 g/L",
+    "130–175"
+   ],
+   [
+    "White cell count",
+    "3.2 × 10⁹/L",
+    "3.8–10.0"
+   ],
+   [
+    "Platelets",
+    "184 × 10⁹/L",
+    "150–400"
+   ],
+   [
+    "Blood film",
+    "parasites visible",
+    ""
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most likely causative organism?",
+  "n": 21,
+  "o": [
+   "Plasmodium falciparum",
+   "Plasmodium malariae",
+   "Plasmodium vivax",
+   "Trypanosoma brucei",
+   "Trypanosoma cruzi"
+  ],
+  "a": 0,
+  "w": "Malaria is the most likely diagnosis. Cerebral involvement makes falciparum more likely. T cruzi is seen in S America. T brucei could cause these symptoms but is much rarer.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 31 year old man visits his GP with a painless lump in his scrotum.\nThere is a well-defined, non-tender spherical 1 cm mass on the right side of the scrotum. It is superior to the testis and transilluminates.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 22,
+  "o": [
+   "Abscess",
+   "Epididymal cyst",
+   "Hydrocoele",
+   "Inguinal hernia",
+   "Testicular tumour"
+  ],
+  "a": 1,
+  "w": "Separate and can get above mass which is cystic is an epididymal cyst (spermatocele) which is benign and usually asymptomatic and managed conservatively. Although a hydrocele trans illuminates it would surround the testis. Copyright © 2018 - Medical Schools Council Page 17 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 68 year old man has 3 days of worsening vomiting and abdominal pain. He has not passed any stool for 3 days. He has a history of a right hemicolectomy for Dukes' A (T1, N0) bowel cancer 6 months ago.\nHe is dehydrated and his abdomen is distended.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 23,
+  "o": [
+   "Adhesional small bowel obstruction",
+   "Anastomotic leak",
+   "Cholecystitis",
+   "Pancreatitis",
+   "Tumour recurrence"
+  ],
+  "a": 0,
+  "w": "Adhesional bowel obstruction is most likely as he has had a hemicolectomy. Recurrence is less likely because this is Dukes A (early stage). Too late after surgery for anastamotic leak. Pancreatitis and cholecystitis are less likely because they don't cause constipation.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 78 year old patient is admitted with chronic oropharyngeal dysphagia. He has left ventricular systolic dysfunction from ischaemic heart disease. He is breathless on exertion, particularly when climbing stairs. He is being prepared for a percutaneous endoscopic gastrostomy feeding tube. The passage of a nasogastric tube has been unsuccessful, and he is having nil by mouth.\nHe weighs 70 kg. His pulse rate is 72 bpm and BP 132/80 mmHg.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the correct volume of maintenance fluids (in mL) to prescribe for the next 24 hours?",
+  "n": 24,
+  "o": [
+   "1750",
+   "2450",
+   "2800",
+   "3000",
+   "3250"
+  ],
+  "a": 0,
+  "w": "Maintenance fluid requirements for someone with underlying cardiac disease is recommended as 20-25 mL/kg. This gives an upper volume of 25 x 70= 1750. This conforms to current NICE guideline CG 174 (2013). Copyright © 2018 - Medical Schools Council Page 18 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 75 year old woman is reviewed 4 days after a fractured neck of femur repair. She has been agitated and upset, particularly at night. She has punched nurses and keeps trying to leave the ward. She has seen strange men in black capes entering the ward and believes that they are controlling the hospital. When she was seen in the memory clinic 6 months ago, she was found to have mild cognitive impairment.",
+  "lab": [],
+  "post": "",
+  "ql": "What is the most appropriate treatment?",
+  "n": 25,
+  "o": [
+   "Chlordiazepoxide hydrochloride",
+   "Chlorpromazine hydrochloride",
+   "Donepezil hydrochloride",
+   "Haloperidol",
+   "Memantine hydrochloride"
+  ],
+  "a": 3,
+  "w": "This woman has delirium. Therefore, low dose haloperidol would be the best option, according to NICE guidelines.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 72 year old woman has 6 months of increasing pain at the base of her right thumb. She is having difficulty opening jars and sewing. She is otherwise well. No other joints are painful. She is taking regular analgesia.\nThe first carpometacarpal joint is swollen and tender, with reduced opposition of the thumb.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 26,
+  "o": [
+   "De Quervain's tenosynovitis",
+   "Gout",
+   "Osteoarthritis",
+   "Rheumatoid arthritis",
+   "Septic arthritis"
+  ],
+  "a": 2,
+  "w": "This is a classic description of osteoarthritis and a common site Gout and septic arthritis would have a much more acute history. Rheumatoid arthritis would affect multiple joints. The pain of de Quervains tenosynovitis would be felt over the radial aspect of the wrist. Rheumatoid arthritis usually affects multiple joints. Copyright © 2018 - Medical Schools Council Page 19 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 62 year old man has acute breathlessness with a weak cough, following a recent viral upper respiratory infection. Over the past 4 months, he has had double vision, limb weakness and slurred speech when tired.\nHis respiratory rate is 18 breaths per minute and oxygen saturation 96% breathing air. He is sweating and using his accessory muscles of inspiration.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate test to monitor his respiratory function?",
+  "n": 27,
+  "o": [
+   "Arterial blood gas",
+   "FEV 1",
+   "FVC",
+   "Peak expiratory flow rate",
+   "Ratio of FEV 1 to FVC"
+  ],
+  "a": 2,
+  "w": "Myasthenic crisis is an acute respiratory failure characterised by forced vital capacity (FVC) below 1 L, negative inspiratory force (NIF) of 20 cm H2O or less, and the need for ventilatory support. The use of accessory muscles indicates significant inspiratory weakness. Weak cough indicates weakness of expiratory muscles. Arterial blood gas analysis commonly shows hypercapnia before hypoxia. There should be a low threshold for endotracheal intubation due to rapid deterioration of bulbar and respiratory muscles. Copyright © 2018 - Medical Schools Council Page 20 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 40 year old man has 4 days of left flank pain associated with fever, nausea and vomiting.\nHis temperature is 39.6°C, pulse rate 118 bpm and BP 90/40 mmHg. Imaging shows an obstructing proximal left ureteric stone with severe hydronephrosis.\nHe is treated with intravenous antibiotics and intravenous fluids.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate next step in management?",
+  "n": 28,
+  "o": [
+   "Lithotripsy",
+   "Nephrostomy",
+   "Retrograde pyelography",
+   "Ureteric stent",
+   "Urethral catheter"
+  ],
+  "a": 1,
+  "w": "The renal pelvis should be decompressed with a nephrostomy.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 19 year old man has 2 days of right-sided chest pain and breathlessness on exertion. He smokes cannabis and takes cocaine.\nHis temperature is 36.4°C, pulse rate 108 bpm, BP 112/80 mmHg, respiratory rate 24 breaths per minute and oxygen saturation 94% breathing air. His trachea is central. He has reduced breath sounds at the right apex.",
+  "lab": [],
+  "post": "",
+  "ql": "What is the most likely diagnosis?",
+  "n": 29,
+  "o": [
+   "Acute coronary syndrome",
+   "Coronary artery spasm",
+   "Pneumonia",
+   "Pneumothorax",
+   "Pulmonary embolism"
+  ],
+  "a": 3,
+  "w": "Pneumothoraces are more commonly encountered in young, tall men who smoke. There is no past medical history provided in the vignette confirming the presence of existing lung disease - this excludes secondary pneumothorax as a diagnosis.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 80 year old woman is admitted to the Emergency Department after being found collapsed at home. She has central chest pain.\nHer pulse rate is 30 bpm, BP 70/40 mmHg and respiratory rate 26 breaths per minute. Her 12-lead ECG shows sinus bradycardia with no evidence of myocardial ischaemia.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate initial treatment?",
+  "n": 30,
+  "o": [
+   "Adrenaline/epinephrine",
+   "Atropine sulfate",
+   "Dobutamine",
+   "Normal saline",
+   "Permanent cardiac pacemaker"
+  ],
+  "a": 1,
+  "w": "Atropine is the first line initial treatment for sinus bradycardia. Copyright © 2018 - Medical Schools Council Page 22 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 62 year old man develops acute pain, redness, swelling and warmth of his right first metatarsophalangeal joint. He has a history of gout and hypertension. His medications are allopurinol, amlodipine and ramipril.\nHis eGFR is >60 mL/min/1.73 m²(>60).",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate next step in his management?",
+  "n": 31,
+  "o": [
+   "Change allopurinol to febuxostat",
+   "Start naproxen",
+   "Stop allopurinol",
+   "Stop amlodipine",
+   "Stop ramipril"
+  ],
+  "a": 1,
+  "w": "The patient has acute gout. The immediate management would be to commence an NSAID.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A previously healthy 10 year old boy has deafness of new onset. He has a history of a recent respiratory tract infection.\nTuning fork tests show: a) when the tuning fork is placed in the middle of his forehead he hears the tone loudest in his right ear; b) when the tuning fork is held in front of his right external auditory meatus it is quieter than when it is placed on the bone behind the same ear; c) when the tuning fork is held in front of the left external auditory meatus the sound is louder than when it is placed on the bone behind the same ear.",
+  "lab": [],
+  "post": "",
+  "ql": "Which ear(s) is/are affected and which type of hearing loss is this?",
+  "n": 32,
+  "o": [
+   "Bilateral mixed deafness",
+   "Left conductive deafness",
+   "Left sensorineural deafness",
+   "Right conductive deafness",
+   "Right sensorineural deafness"
+  ],
+  "a": 3,
+  "w": "The combination of lateralisation of Weber’s test to the right and a negative Rinne’s test on the right (i.e. bone conduction louder than air conduction) occurs with right conductive deafness. This also fits with the clinical history of a recent respiratory tract infection. Copyright © 2018 - Medical Schools Council Page 23 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 55 year old man has 2 days of painful red swelling of his left lower leg. He has a history of type 2 diabetes mellitus and takes metformin.\nHis temperature is 37.6°C. He has a tender erythematous area extending from the ankle to the proximal calf.",
+  "lab": [],
+  "post": "",
+  "ql": "What is the most likely causative organism?",
+  "n": 33,
+  "o": [
+   "Bacteroides species",
+   "Proteus mirabilis",
+   "Pseudomonas aeruginosa",
+   "Staphylococcus epidermidis",
+   "Streptococcus pyogenes"
+  ],
+  "a": 4,
+  "w": "Streptococcus is the most common pathogen in leg cellulitis (including in patients with diabetes).",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 55 year old woman has a tender, erythematous, swollen hard cord in the long saphenous vein distribution in her calf. She has a longstanding history of bilateral varicose veins.\nAn ultrasound scan shows superficial thrombophlebitis without deep vein thrombosis.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate treatment?",
+  "n": 34,
+  "o": [
+   "Dipyridamole",
+   "Flucloxacillin",
+   "Naproxen",
+   "Paracetamol",
+   "Rivaroxaban"
+  ],
+  "a": 2,
+  "w": "NSAIDs are the first-line treatment for superficial thrombophlebitis (NICE CKS thrombophlebitis – superficial, May 2017) Copyright © 2018 - Medical Schools Council Page 24 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 64 year old woman is due to undergo an arthroscopy of her knee. She has type 2 diabetes and takes metformin (500 mg twice daily) and gliclazide (80 mg each morning).\nHer glycated haemoglobin is 54 mmol/mol (20–42). She is scheduled first on the morning day case list and is asked to fast from midnight the previous night.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate plan for managing her diabetic medication?",
+  "n": 35,
+  "o": [
+   "Continue both drugs and start a variable-rate insulin infusion",
+   "No change to usual medication",
+   "Omit both drugs and start a variable-rate insulin infusion",
+   "Omit gliclazide and continue metformin",
+   "Omit metformin and continue gliclazide"
+  ],
+  "a": 3,
+  "w": "Joint British Diabetes Societies' 2016 guidelines - Management of adults with diabetes undergoing surgery and elective procedures: Improving standards. Principles are to minimise fasting times (hence first on list) and disruption to usual medication. In this setting where the procedure is fairly minor, patient should be eating again at lunchtime and hence there is no call for insulin in any form. Specifics are in Appendix 2 of document. https://www.diabetes.org.uk/resources-s3/2017- 09/Surgical%20guidelines%202015%20- %20full%20FINAL%20amended%20Mar%202016_0.pdf Copyright © 2018 - Medical Schools Council Page 25 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 67 year old man has difficulty walking. He states that he has to raise his left leg higher in the air than normal to avoid scraping his toes on the ground when he walks.\nWhen he raises the left foot from the floor, the ankle assumes a plantar-flexed position with the toes directed towards the floor.",
+  "lab": [],
+  "post": "",
+  "ql": "Which nerve is most likely to be affected?",
+  "n": 36,
+  "o": [
+   "Common peroneal",
+   "Medial plantar",
+   "Saphenous",
+   "Superficial peroneal",
+   "Tibial"
+  ],
+  "a": 0,
+  "w": "The patient has foot drop due to loss of active dorsiflexion. The muscles affected are supplied by the common peroneal nerve. Copyright © 2018 - Medical Schools Council Page 26 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 35 year old woman has 6 months of cyclical pain in both breasts. She has recently noticed a lump in the right breast. There is diffuse nodularity of the axillary tails of both breasts with a discrete 20 mm mass in the upper outer quadrant of the right breast. Fine needle aspiration is performed and 5 mL of brown fluid is removed, with disappearance of the mass. Cytology shows cellular debris with no malignant cells.",
+  "lab": [],
+  "post": "",
+  "ql": "What is the most likely diagnosis?",
+  "n": 37,
+  "o": [
+   "Breast abscess",
+   "Breast carcinoma",
+   "Fat necrosis",
+   "Fibroadenoma",
+   "Fibrocystic disease"
+  ],
+  "a": 4,
+  "w": "Fibrocystic disease characteristically causes pain associated with the menstrual cycle. The fine needle aspiration supports this with no malignant cells seen. A fibroadenoma is a solid lump. Pain if present would be localised with fat necrosis. Breast abscess would be a more acute history and again would not be expected to cause bilateral breast pain. Copyright © 2018 - Medical Schools Council Page 27 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 70 year old man has a brief episode of twitching that starts in his left hand and spreads up the arm over 2 minutes, then stops. His arm feels weak for an hour afterwards. He had an ischaemic stroke affecting his left side 6 months ago with good functional recovery. He has a history of type 2 diabetes mellitus and is taking clopidogrel, metformin, ramipril and simvastatin. He is anxious about a further stroke.\nThere is no weakness on neurological examination.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 38,
+  "o": [
+   "Functional episode",
+   "Hypoglycaemia",
+   "Migraine",
+   "Partial seizure",
+   "Right hemisphere transient ischaemic attack"
+  ],
+  "a": 3,
+  "w": "The description fits with partial seizure affecting his right hemisphere as a result of a previous stroke.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 63 year old woman has 4 months of abdominal bloating, fatigue and nausea.\nShe is found to have with ovarian cancer. Staging CT is performed to look for lymphatic spread and metastatic disease.",
+  "lab": [],
+  "post": "",
+  "ql": "To what regional lymph nodes is her tumour most likely to spread initially?",
+  "n": 39,
+  "o": [
+   "Deep inguinal nodes",
+   "External iliac nodes",
+   "Internal iliac nodes",
+   "Para-aortic nodes",
+   "Superficial inguinal nodes"
+  ],
+  "a": 3,
+  "w": "The main lymphatic drainage of the ovary is to the para-aortic nodes. The iliac nodes are less frequently involved. Copyright © 2018 - Medical Schools Council Page 28 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 52 year old woman has had three episodes of severe epigastric pain associated with vomiting over the past 3 months. The episodes occurred following eating and lasted for about 1 hour. She has type 2 diabetes mellitus and takes metformin.\nAbdominal examination is normal. Her BMI is 35 kg/m²(18–25).",
+  "lab": [
+   [
+    "ALT",
+    "15 IU/L",
+    "10–50"
+   ],
+   [
+    "ALP",
+    "71 IU/L",
+    "25–115"
+   ],
+   [
+    "Bilirubin",
+    "9 µmol/L",
+    "<17"
+   ],
+   [
+    "Ultrasound scan of abdomen",
+    "single 2-cm gallstone in gallbladder, common",
+    ""
+   ]
+  ],
+  "post": "bile duct normal, evidence of fatty liver.",
+  "ql": "Which is the most appropriate management?",
+  "n": 40,
+  "o": [
+   "Endoscopic retrograde cholangiopancreatography",
+   "Laparoscopic cholecystectomy",
+   "MR cholangiopancreatography",
+   "Open cholecystectomy",
+   "Ursodeoxycholic acid"
+  ],
+  "a": 1,
+  "w": "The patient has symptomatic gallstone disease and laparoscopic cholecystectomy is indicated. Percutaneous cholecystostomy may be used in patients who are not fit for surgery. urosdeoxycholic acid may be used for gallstone dissolution, but is not part of common UK practice. Copyright © 2018 - Medical Schools Council Page 29 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 56 year old woman develops vertigo, nausea, vomiting and intense occipital headache of sudden onset. She is unable to walk without falling. She has a history of hypertension treated with ramipril.\nHer temperature is 37.4°C, pulse rate 94 bpm, BP 146/92 mmHg, respiratory rate 12 breaths per minute and oxygen saturation 96% breathing air. She has multidirectional nystagmus and some clumsiness of her right arm.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 41,
+  "o": [
+   "Acute labyrinthitis",
+   "Benign paroxysmal positional vertigo",
+   "Cerebellar stroke",
+   "Ménière's disease",
+   "Multiple sclerosis"
+  ],
+  "a": 2,
+  "w": "Triad of headache, nausea/vomitting and ataxia. Profound imbalance, sudden onset and prominent headache suggest cerebellar stroke.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 79 year old woman has 3 months of a left leg venous ulcer that is slowly healing.\nAnkle–brachial pressure Indices are 0.9 on the left side and 1.1 on the right side (0.8–1.2).",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate management?",
+  "n": 42,
+  "o": [
+   "Compression stockings",
+   "Diagnostic biopsy",
+   "Full-length graduated compression bandaging",
+   "No further management required",
+   "Repeat ankle–brachial pressure indices in 3 months"
+  ],
+  "a": 0,
+  "w": "Despite gradual improvement this venous ulcer would be best managed with stockings, which would also help prevent further lesions.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 26 year old woman sustains a head injury in a motorcycle accident. Her eyes are closed, but she opens them when asked to do. She is confused about what happened and about where she is, but attempts to talk about it. She is repeatedly attempting to remove the cannula from her right wrist.",
+  "lab": [],
+  "post": "",
+  "ql": "What is her GCS?",
+  "n": 43,
+  "o": [
+   "3",
+   "7",
+   "9",
+   "12",
+   "14"
+  ],
+  "a": 3,
+  "w": "Opens eyes in response to voice = 3 Confused, disoriented = 4 Localizes painful stimuli = 5.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 65 year old man has sudden pain and redness in his right eye. He also has a headache and nausea.\nVisual acuity is 6/60 in the right eye. The eye is congested, with a hazy cornea and mid-dilated pupil.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 44,
+  "o": [
+   "Acute glaucoma",
+   "Conjunctivitis",
+   "Corneal ulcer",
+   "Scleritis",
+   "Uveitis"
+  ],
+  "a": 0,
+  "w": "All the symptoms and signs described can occur with acute glaucoma. Uveitis whilst causing red eye, headache and visual disturbance is associated with a small pupil. Scleritis, corneal ulcer and conjunctivitis are not generally associated with headache and nausea or a significant drop in visual acuity. Copyright © 2018 - Medical Schools Council Page 31 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 45 year old woman attends her GP surgery with symptoms of vaginal soreness, itching and discharge. She has had recurrent episodes of vaginal candidiasis over the past 4 months.\nThe labia minora are red and swollen. A diagnosis of vaginal candidiasis is made.",
+  "lab": [],
+  "post": "",
+  "ql": "What is the most appropriate investigation at this stage?",
+  "n": 45,
+  "o": [
+   "Glycated haemoglobin",
+   "HIV test",
+   "Sexually transmitted infection screen",
+   "Test her partner for candidiasis",
+   "Vaginal pH testing"
+  ],
+  "a": 0,
+  "w": "Recurrent candidiasis indicates the need to test for diabetes mellitus.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 68 year old man collapses when rising from a chair and is seen in the emergency department 45 minutes later. He is conscious but has reduced power in his left arm and leg (3/5 and 4/5 respectively) and is slurring his speech. He has a past medical history of COPD and hypertension. He smokes 10 cigarettes per day.\nHe has bilateral scattered wheeze and carotid bruits on auscultation.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate initial radiological investigation?",
+  "n": 46,
+  "o": [
+   "Carotid ultrasonography",
+   "Cerebral angiography",
+   "CT cerebral venography",
+   "CT of head",
+   "MR imaging of brain"
+  ],
+  "a": 3,
+  "w": "This is a probable CVA (presentation and risk factors). Due to rapid presentation he is a candidate for systemic thrombolysis. Non-contrast CT head is the most rapid investigation to exclude intracranial haemorrhage and allow thrombolysis. Copyright © 2018 - Medical Schools Council Page 32 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 25 year old man sustains 40% full-thickness burns in a house fire. Despite intensive treatment, he becomes breathless and hypotensive. He develops a petechial rash.\nHis temperature is 38°C, pulse rate 110 bpm, BP 80/50 mmHg and oxygen saturation 96% breathing 40% oxygen.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "110 g/L",
+    "130–175"
+   ],
+   [
+    "White cell count",
+    "4.2 × 10⁹/L",
+    "3.8–10.0"
+   ],
+   [
+    "Platelets",
+    "15 × 10⁹/L",
+    "150–400"
+   ],
+   [
+    "APTT",
+    "75 seconds",
+    "22–41"
+   ],
+   [
+    "PT",
+    "25 seconds",
+    "10–12"
+   ],
+   [
+    "Fibrinogen",
+    "0.7 g/dL",
+    "1.5–4.0"
+   ],
+   [
+    "Fibrinogen degradation products",
+    "137 mg/mL",
+    "<8"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 47,
+  "o": [
+   "Anaphylactic reaction to antibiotics",
+   "Disseminated intravascular coagulation",
+   "Fat embolism",
+   "Immune thrombocytopenic purpura",
+   "Pulmonary embolism"
+  ],
+  "a": 1,
+  "w": "The history, signs and investigations are all most indicative of DIC.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 65 year old woman with newly diagnosed advanced lung cancer has 1 day of breathlessness and 1 week of progressive headache.Her pulse rate is 88 bpm, respiratory rate 20 breaths per minute and oxygen saturation 95% breathing 4 L/min oxygen via nasal prongs. She has a swollen face and neck and distended veins on her chest. Her chest is clear. CT scan of chest shows mediastinal lymphadenopathy compressing the superior vena cava.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate initial treatment?",
+  "n": 48,
+  "o": [
+   "Intravenous alteplase",
+   "Intravenous dexamethasone",
+   "Intravenous heparin infusion",
+   "Intravenous mannitol",
+   "Insert endovenous stent"
+  ],
+  "a": 1,
+  "w": "The patient has superior vena cava obstruction. The standard initial treatment is dexamethasone to reduce tumour swelling. There is no evidence of thrombus to justify systemic anticoagulation and systemic thrombolysis has no place. Intravenous mannitol is not used. It is worth noting that although dexamethasone is commonly recommended there is limited controlled data confirming its effectiveness. Insertion of endovenous stent would be considered if there was stridor, but would likely follow intubation and steroids. The following guideline is of use: http://www.palliativecareguidelines.scot.nhs.uk/guidelines/palliative- emergencies/Superior-Vena-Cava-Obstruction.aspx Copyright © 2018 - Medical Schools Council Page 34 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 80 year old man presents to the Emergency Department with dizziness and melaena of recent onset. He has a metallic mitral valve and is taking aspirin and warfarin sodium. His pulse rate is 80 bpm and BP 122/70 mmHg.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "105 g/L",
+    "130–175"
+   ],
+   [
+    "White cell count",
+    "7.0 × 10⁹/L",
+    "3.8–10.0"
+   ],
+   [
+    "Platelets",
+    "676 × 10⁹/L",
+    "150–400"
+   ],
+   [
+    "INR",
+    "9.6",
+    "1.0"
+   ]
+  ],
+  "post": "He is treated with intravenous vitamin K and is blood cross-matched.",
+  "ql": "What is the most appropriate additional treatment?",
+  "n": 49,
+  "o": [
+   "Fresh frozen plasma",
+   "Pantoprazole",
+   "Protamine sulfate",
+   "Prothrombin complex concentrate",
+   "Tranexamic acid"
+  ],
+  "a": 3,
+  "w": "Prothrombin complex concentrate is used to reverse warfarin in medical emergencies. It is quicker to administer than FFP and can reverse anti-coagulation within minutes. FFP also carries the risk of allergic reactions, transfusion-related lung injury and volume overload. PCC is therefore considered first-line to reverse warfarin. The other drugs do not reverse warfarin. Copyright © 2018 - Medical Schools Council Page 35 of 36",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 65 year old man has 3 weeks of progressive ankle oedema. He is a lifelong heavy smoker and drinks 12 units of alcohol per week.\nHis BP is 125/85 mmHg and oxygen saturation 98% breathing air. He has marked bilateral pitting ankle oedema.",
+  "lab": [
+   [
+    "Creatinine",
+    "85 µmol/L",
+    "60–120"
+   ],
+   [
+    "Urinary protein: creatinine ratio",
+    "400 mg/mmol",
+    "<30"
+   ],
+   [
+    "Fasting glucose",
+    "5.7 mmol/L",
+    "3.0–6.0"
+   ],
+   [
+    "Total cholesterol",
+    "9 mmol/L",
+    "<5.0"
+   ],
+   [
+    "Albumin",
+    "20 g/L",
+    "35–50"
+   ]
+  ],
+  "post": "He is treated with furosemide.",
+  "ql": "Which investigation is most likely to be diagnostic?",
+  "n": 50,
+  "o": [
+   "Chest X-ray",
+   "Renal arteriography",
+   "Renal auto-antibody screen",
+   "Renal biopsy",
+   "Serum protein electrophoresis"
+  ],
+  "a": 3,
+  "w": "Nephrotic syndrome in adults requires renal biopsy to identify the cause, prior to definitive treatment. Copyright © 2018 - Medical Schools Council Page 36 of 36",
+  "ref": "",
+  "img": []
+ }
+]

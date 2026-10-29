@@ -10,6 +10,8 @@ lookalike pool, one decisive clue. Own words, UK guidance. Files hq_*.py hold Q,
     > option ; option ; *correct option ; option ; option
     = why the answer is right
     ~ what one change would flip it
+    $ Sodium ; 128 mmol/L ; 135–145   optional Investigations rows: name ; value ; reference range (set C, MSCAA style)
+    ! rule                      set C: one patient across a target's three questions (diagnosis, test, treatment); the rule that links them
 
 Hammer: 1 = classic picture, one step. 2 = two steps, a lookalike or a number that overrides the story.
 3 = the curveball: an exception, a contraindication, anatomy, the rare-but-tested variant.
@@ -28,24 +30,31 @@ def natkey(s):
 
 
 def parse_file(text, src):
-    out, err, tgt, cur = [], [], None, None
+    out, err, tgt, cur, rule = [], [], None, None, ''
     for n, raw in enumerate(text.splitlines(), 1):
         line = raw.strip()
         if not line: continue
         where = f'{src}:{n}'
         m = re.match(r'^@([udxb])\s+(\S+)(?:\s+(.*))?$', line)
         if m:
-            tgt = (m.group(1), m.group(2), (m.group(3) or '').strip()); continue
+            tgt = (m.group(1), m.group(2), (m.group(3) or '').strip()); rule = ''; continue
+        if line.startswith('!'):
+            rule = line[1:].strip(); continue
         m = re.match(r'^([123])([LNTDR]):\s*(.+)$', line)
         if m:
             if tgt is None: err.append(f'{where}: question before any @ target'); continue
             cur = {'t': tgt[0], 'k': tgt[1], 'kt': tgt[2], 'h': int(m.group(1)), 'p': m.group(2), 's': m.group(3).strip(), 'src': where}
+            if rule: cur['cr'] = rule; cur['ck'] = src + ':' + tgt[0] + ':' + tgt[1]
             out.append(cur); continue
         if cur is None: err.append(f'{where}: line outside a question'); continue
         if line.startswith('>'):
             cur['o'] = [o.strip() for o in line[1:].split(' ; ')]
         elif line.startswith('='): cur['w'] = line[1:].strip()
         elif line.startswith('~'): cur['f'] = line[1:].strip()
+        elif line.startswith('$'):
+            parts = [x.strip() for x in line[1:].split(' ; ')]
+            if not 2 <= len(parts) <= 3: err.append(f'{where}: lab row needs name ; value ; range')
+            cur.setdefault('lab', []).append((parts + [''])[:3])
         else: err.append(f'{where}: cannot read "{line[:40]}"')
     return out, err
 
@@ -77,7 +86,8 @@ def lint(q):
 
 
 def build(units):
-    files = sorted(glob.glob(str(HERE / 'hq_*.py')) + glob.glob(str(HERE / 'hq2_*.py')))
+    # order fixes the question ids (h0001...), which key saved progress: sets A and B sorted together as v2.4 shipped, then set C after
+    files = sorted(glob.glob(str(HERE / 'hq_*.py')) + glob.glob(str(HERE / 'hq2_*.py'))) + sorted(glob.glob(str(HERE / 'hq3_*.py')))
     qs, err = [], []
     for f in files:
         mod = importlib.import_module(pathlib.Path(f).stem)
@@ -85,6 +95,7 @@ def build(units):
     titles = {}
     for q in qs:
         err += lint(q)
+        if q['src'].startswith('hq3_') and not q.get('cr'): err.append(f'{q["src"]}: set C questions need a ! rule for their patient')
         if q['t'] == 'u':
             if not q['k'].isdigit() or int(q['k']) >= len(units): err.append(f'{q["src"]}: unit {q["k"]} does not exist')
         else:
@@ -103,7 +114,10 @@ def build(units):
         ans = names[[i for i, o in enumerate(q['o']) if o.startswith('*')][0]]
         names.sort(key=natkey)
         n += 1
-        out.append({'id': 'h%04d' % n, 't': q['t'], 'k': q['k'], 'h': q['h'], 'p': q['p'], 's': q['s'], 'o': names, 'a': names.index(ans), 'w': q['w'], 'f': q['f']})
+        it = {'id': 'h%04d' % n, 't': q['t'], 'k': q['k'], 'h': q['h'], 'p': q['p'], 's': q['s'], 'o': names, 'a': names.index(ans), 'w': q['w'], 'f': q['f']}
+        for k in ('lab', 'cr', 'ck'):
+            if q.get(k): it[k] = q[k]
+        out.append(it)
     tt = {}
     for q in qs:
         if q['t'] != 'u' and q['kt']: tt[q['t'] + ':' + q['k']] = q['kt']

@@ -1,0 +1,1355 @@
+[
+ {
+  "s": "A 67 year old woman suddenly loses the vision in her left eye. She is in good health with no history of eye disease and is not taking any medication.\nHer right eye is normal. The left has vision reduced to hand movements only. The left pupil reacts sluggishly to light. Her fundal photograph is shown (see image).",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the cause of her sudden loss of vision?",
+  "n": 1,
+  "o": [
+   "Branch retinal artery occlusion",
+   "Branch retinal vein occlusion",
+   "Central retinal artery occlusion",
+   "Central retinal vein occlusion",
+   "Cilioretinal vein occlusion"
+  ],
+  "a": 1,
+  "w": "",
+  "ref": "",
+  "img": [
+   "p2017-001-0.jpg"
+  ]
+ },
+ {
+  "s": "A 78 year old man develops increasing confusion on the ward at night. He is wandering around naked asking for his wife, shouting, and threatening staff and patients. He was admitted this morning with 1 week of productive cough and temperature. He has a history of idiopathic Parkinson's disease.\nHis temperature is 37.6°C, pulse rate 100 bpm, BP 132/71 mmHg and oxygen saturation 95% breathing air. His capillary blood glucose is 5 mmol/L.\nAttempts to calm him with nursing measures do not improve the situation, and he begins hitting staff.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate treatment?",
+  "n": 2,
+  "o": [
+   "Amitriptyline",
+   "Haloperidol",
+   "Immediate release carbidopa-levodopa",
+   "Lorazepam",
+   "Risperidone"
+  ],
+  "a": 3,
+  "w": "Whilst anti-psychotics are first-line to manage delirium where medication required, they are contra-indicated in Parkinson’s disease. (NICE CG103 Delirium: prevention, diagnosis and management). Copyright © 2017 - Medical Schools Council Page 3 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 78 year old woman has back pain and bilateral leg weakness. She had surgery for breast cancer 14 years ago. She had a minor fall at home a few days ago.\nShe has weakness of hip flexion bilaterally.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 3,
+  "o": [
+   "Lumbar disc prolapse",
+   "Mechanical back pain",
+   "Osteomalacia",
+   "Osteoporotic vertebral collapse",
+   "Spinal cord compression"
+  ],
+  "a": 4,
+  "w": "",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 28 year old man is investigated for polyuria and polydipsia. He has bipolar disorder for which he has taken lithium for 2 years.",
+  "lab": [
+   [
+    "Sodium",
+    "145 mmol/L",
+    "135–146"
+   ],
+   [
+    "Potassium",
+    "3.9 mmol/L",
+    "3.5–5.3"
+   ],
+   [
+    "Serum osmolality",
+    "296 mOsmol/kg",
+    "285–295"
+   ],
+   [
+    "Urinary osmolality",
+    "356 mOsmol/kg",
+    "350–1000"
+   ],
+   [
+    "Fasting glucose",
+    "5.8 mmol/L",
+    "3.0–6.0"
+   ],
+   [
+    "Serum lithium",
+    "0.75 mmol/L",
+    "0.5–1.2"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most useful diagnostic investigation?",
+  "n": 4,
+  "o": [
+   "24-h urinary cortisol test",
+   "Glucose tolerance test",
+   "Serum corrected calcium",
+   "Short Synacthen test",
+   "Water deprivation test"
+  ],
+  "a": 2,
+  "w": "It is essential to exclude hypercalcaemia due to hyperparathyroidism before progressing to a water deprivation test. Copyright © 2017 - Medical Schools Council Page 5 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 65 year old woman had a stroke 2 weeks ago causing right arm weakness and dysphasia. CT scan of head showed a left parietal lobe infarct. Her medication since the stroke includes aspirin and simvastatin.\nHer pulse rate is 82 bpm and irregular.",
+  "lab": [
+   [
+    "ECG",
+    "atrial fibrillation, rate 68 bpm.",
+    ""
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate long-term plan for secondary stroke prevention?",
+  "n": 5,
+  "o": [
+   "Apixaban",
+   "Aspirin",
+   "Aspirin and dipyridamole",
+   "Clopidogrel",
+   "Ticagrelor"
+  ],
+  "a": 0,
+  "w": "For patients with a stroke and AF should start anticoagulation as secondary prevention. This can be with either warfarin or with a factor Xa inhibitor such as apixaban. This is covered in both NICE AF guidelines (https://pathways.nice.org.uk/pathways/atrial- fibrillation#path=view%3A/pathways/atrial-fibrillation/preventing-stroke-in-people-with- atrial-fibrillation.xml&content=view-node%3Anodes-anticoagulation-treatment ) and the most recently updated stroke guidance (2016) (https://www.rcplondon.ac.uk/guidelines- policy/stroke-guidelines ). This version reflects increasing use of the novel oral anticoagulants, which FY doctors need to be aware of. Copyright © 2017 - Medical Schools Council Page 6 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 49 year old man has 3 days of cough and fever. He undergoes haemodialysis three times per week.\nHis temperature is 38.6°C, pulse rate 90 bpm, BP 122/80 mmHg, respiratory rate 30 breaths per minute and oxygen saturation 95% breathing 15 L/min oxygen via a non-rebreather mask. His JVP is 4 cm above the sternal angle. He has inspiratory crackles in the right mid and lower zone and left upper zone. His blood capillary glucose is 12 mmol/L.",
+  "lab": [
+   [
+    "Sodium",
+    "131 mmol/L",
+    "135–146"
+   ],
+   [
+    "Potassium",
+    "5.7 mmol/L",
+    "3.5–5.3"
+   ],
+   [
+    "Urea",
+    "16.7 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "327 μmol/L",
+    "60–120"
+   ],
+   [
+    "Chext X-ray",
+    "see image",
+    ""
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate initial treatment?",
+  "n": 6,
+  "o": [
+   "Haemodialysis",
+   "Intravenous 10 mL 10% calcium gluconate",
+   "Intravenous 1000 mL 0.9% sodium chloride over 1 h",
+   "Intravenous co-amoxiclav and clarithromycin",
+   "Intravenous furosemide"
+  ],
+  "a": 3,
+  "w": "This patient has severe pneumonia with evidence of multifocal consolidation on the chest X-ray. He requires treatment with antibiotics first. The other interventions are not indicated. Copyright © 2017 - Medical Schools Council Page 8 of 51",
+  "ref": "",
+  "img": [
+   "p2017-006-0.jpg"
+  ]
+ },
+ {
+  "s": "A 67 year old man is due to have a CT scan of chest, abdomen and pelvis with intravenous contrast as assessment for possible lymphoma. He had a renal transplant 5 years ago. His medication includes prednisolone, tacrolimus and lisninopril.\nHis BP is 131/86 mmHg.",
+  "lab": [
+   [
+    "Urea",
+    "12.9 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "165 µmol/L",
+    "60–120"
+   ],
+   [
+    "eGFR",
+    "39 mL/min/1.73 m²",
+    ">60"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate treatment to give before the scan?",
+  "n": 7,
+  "o": [
+   "Intravenous 0.9% sodium chloride infusion",
+   "Intravenous acetylcysteine",
+   "Intravenous furosemide infusion",
+   "Intravenous hydrocortisone",
+   "Intravenous mannitol"
+  ],
+  "a": 0,
+  "w": "The patient is due to receive IV contrast and has existing CKD. He is an increased risk of contrast nephropathy. Volume expansion with 0.9% sodium chloride infusion (1 mL/kg) is recommended and shown to reduce the incidence of contrast nephropathy. Some units still recommend oral acetylcysteine (although trial data is lacking), but IV acetylcysteine is no longer used due to risk of anaphylactoid reaction. There is no indication for additional steroids. IV furosemide may increase risk of contrast nephropathy. IV mannitol is no longer used as no evidence of benefit. Copyright © 2017 - Medical Schools Council Page 9 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 78 year old woman is admitted after been found collapsed at home. She has been lying on the floor overnight. She has a history of hypertension and takes amlodipine.\nHer temperature is 35.8°C, pulse rate 88 bpm and irregular, and BP 102/60 mmHg.",
+  "lab": [
+   [
+    "Sodium",
+    "136 mmol/L",
+    "135–146"
+   ],
+   [
+    "Potassium",
+    "5.8 mmol/L",
+    "3.5–5.3"
+   ],
+   [
+    "Urea",
+    "20.9 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "180 μmol/L",
+    "60–120"
+   ],
+   [
+    "Creatine kinase",
+    "870 U/L",
+    "25–175"
+   ],
+   [
+    "Urinalysis",
+    "glucose negative, ketones negative, blood 2+, protein 1+,",
+    ""
+   ]
+  ],
+  "post": "leucocytes positive (catheter sample).\nShe has passed 60 mL of urine over the past 2 hours.",
+  "ql": "Which is the most likely cause for her acute kidney injury?",
+  "n": 8,
+  "o": [
+   "Glomerulonephritis",
+   "Hypovolaemia",
+   "Renal arterial emboli",
+   "Rhabdomyolysis",
+   "Ureteric obstruction"
+  ],
+  "a": 1,
+  "w": "This patient is hypovolaemic due to long lie without hydration and the probably sepsis. The level of CK is compatible with minor soft tissue injury. Rhabdomyolysis would give a CK of >10,000. There is no indicators of glomerulonephritis and the urinalysis abnormalities are compatible with a catheter sample +/- urosepsis. Renal emboli are rare and would give loin pain. Ureteric obstruction is unlikely as the patient is still passing some urine. Copyright © 2017 - Medical Schools Council Page 10 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 76 year old woman has become increasingly confused over the past 2 weeks. She has a history of hypertension and cardiac failure. She is taking bendroflumethiazide, doxazosin, amlodipine, ramipril and atenolol.\nHer BP is 108/71 mmHg.",
+  "lab": [
+   [
+    "Sodium",
+    "121 mmol/L",
+    "135–146"
+   ],
+   [
+    "Potassium",
+    "3.5 mmol/L",
+    "3.5–5.3"
+   ],
+   [
+    "Urea",
+    "10.0 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "105 µmol/L",
+    "60–120"
+   ]
+  ],
+  "post": "",
+  "ql": "Which medication is most likely to be responsible for her presentation?",
+  "n": 9,
+  "o": [
+   "Amlodipine",
+   "Atenolol",
+   "Bendroflumethiazide",
+   "Doxazosin",
+   "Ramipril"
+  ],
+  "a": 2,
+  "w": "Of the medications listed, bendroflumethiazide is most likely to cause hyponatraemia. Copyright © 2017 - Medical Schools Council Page 11 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 92 year old woman has severe neck, chest and back pain and tingling in her left hand following a mechanical fall. She has bruising around her right eye.",
+  "lab": [
+   [
+    "CT scan of head",
+    "no intracranial injury or bleed, mild small vessel disease;",
+    ""
+   ]
+  ],
+  "post": "right orbital fracture\nChest X-ray lung fields clear; left sided 4th rib fracture\nFull blood count and clotting screen are normal.",
+  "ql": "Which is the most appropriate next investigation?",
+  "n": 10,
+  "o": [
+   "Cervical spine X-ray",
+   "CT angiography",
+   "CT scan of chest",
+   "CT scan of neck",
+   "MR scan of brain"
+  ],
+  "a": 3,
+  "w": "The history and examination suggest a cervical spine fracture. This is best detected by a CT scan of the neck. Copyright © 2017 - Medical Schools Council Page 12 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 24 year old woman attends her GP with 2 months of intermittent palpitations. She describes the episodes as feeling as if the heart stops for a second followed by a pounding sensation. She reports episodes two to three times per week lasting 5–10 minutes, most commonly when she is going to sleep. She is otherwise well. She has been taking the combined oral contraceptive pill for 2 years.\nHer pulse rate is 68 bpm and BP 108/71 mmHg. Her heart sounds are normal.",
+  "lab": [
+   [
+    "ECG",
+    "sinus rhythm, rate 70 bpm.",
+    ""
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 11,
+  "o": [
+   "Paroxysmal atrial fibrillation",
+   "Sinus arrhythmia",
+   "Sinus tachycardia",
+   "Supraventricular premature beats",
+   "Supraventricular tachycardia"
+  ],
+  "a": 3,
+  "w": "The description of the arrhythmias best fits with ectopics (either supraventricular or ventricular). Supraventricular are probably more common in this age group. There are no worrying features and the cause is most likely benign. Copyright © 2017 - Medical Schools Council Page 13 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 64 year old woman develops an acutely painful right knee 3 weeks after a prosthetic right knee replacement. Her temperature is 38.2°C and pulse rate 103 bpm. Her right knee is inflamed, with serous fluid discharging from the lower end of the wound.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely causative organism?",
+  "n": 12,
+  "o": [
+   "Corynebacterium species",
+   "Enterococcus species",
+   "Pseudomonas aeruginosa",
+   "Staphylococcus aureus",
+   "Streptococcus pyogenes"
+  ],
+  "a": 3,
+  "w": "Staphylococcus is responsible for 20-25% of prosthetic joint infections, with coagulase negative staph next (not included on list). The other bacterial causes would be rare. Candida is also very uncommon. Copyright © 2017 - Medical Schools Council Page 14 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 52 year old man has 3 months of fatigue. He has a history of ulcerative colitis and takes mesalazine. He drinks 20 units of alcohol per week.\nHis temperature is 36.8°C and pulse rate 80 bpm. He has 3 cm hepatomegaly.",
+  "lab": [
+   [
+    "Albumin",
+    "36 g/L",
+    "35–50"
+   ],
+   [
+    "ALT",
+    "65 IU/L",
+    "10–50"
+   ],
+   [
+    "ALP",
+    "580 IU/L",
+    "25–115"
+   ],
+   [
+    "Bilirubin",
+    "18 µmol/L",
+    "<17"
+   ],
+   [
+    "γGT",
+    "230 IU/L",
+    "9–40"
+   ],
+   [
+    "Ultrasound scan of abdomen",
+    "bile duct wall thickening and dilatation",
+    ""
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate next diagnostic investigation?",
+  "n": 13,
+  "o": [
+   "CT scan of abdomen",
+   "Endoscopic retrograde cholangiopancreatography",
+   "Liver biopsy",
+   "MR cholangiopancreatography",
+   "Percutaneous transhepatic cholangiography"
+  ],
+  "a": 3,
+  "w": "The patient has a classic cholestatic pattern of blood test abnormalities. PSC often has limited symptoms at presentation and bilirubin and albumin are often normal. There is a strong association with UC. Ultrasound shows evidence of abnormal bile ducts. MRCP is the typical initial diagnostic investigation as it is non-invasive. This usually shows typical beaded appearance of the bile duct. Copyright © 2017 - Medical Schools Council Page 15 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 60 year old woman has 6 weeks of a cough productive of blood streaked sputum.",
+  "lab": [
+   [
+    "CT scan of chest",
+    "mass in left lower lobe",
+    ""
+   ],
+   [
+    "Needle biopsy",
+    "nuclei that are enlarged, hyperchromatic and pleomorphic",
+    ""
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 14,
+  "o": [
+   "Adenoma",
+   "Carcinoma",
+   "Hamartoma",
+   "Sarcoidosis",
+   "Tuberculosis"
+  ],
+  "a": 1,
+  "w": "This is because nuclear enlargement, hyperchromasia and pleomorphism are features that suggest carcinoma in all sites of the body.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 65 year old woman has an infective exacerbation of COPD.\nHer temperature is 37.8°C, pulse rate 108 bpm, BP 100/75mmHg, respiratory rate 26 breaths per minute and oxygen saturation 88% breathing 15 L/minute oxygen via a non-rebreather mask. She is alert.\nArterial blood gas on 15 L/min oxygen pH 7.28 (7.35–7.45) PO2 7.2 kPa (11–15) PCO2 8.9 kPa (4.6–6.4) Bicarbonate 31.3 mmol/L (22–30) Lactate 1.2 mmol/L (1–2)",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate next management option?",
+  "n": 15,
+  "o": [
+   "Continuous positive airway pressure",
+   "Invasive ventilation",
+   "Nasal high flow oxygen",
+   "Nasopharyngeal airway",
+   "Non-invasive ventilation"
+  ],
+  "a": 4,
+  "w": "Respiratory acidosis needs to be corrected with ventilation in an alert patient. Copyright © 2017 - Medical Schools Council Page 17 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 79 year old man attends the Emergency Department with 2 hours of chest pain and lightheadedness.\nHis ECG is shown (see image).",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely explanation for the ECG findings?",
+  "n": 16,
+  "o": [
+   "Aortic dissection",
+   "Hyperkalaemia",
+   "Myocardial infarction",
+   "Pericarditis",
+   "Pulmonary embolism"
+  ],
+  "a": 2,
+  "w": "Classic STEMI",
+  "ref": "",
+  "img": [
+   "p2017-016-0.jpg"
+  ]
+ },
+ {
+  "s": "A 50 year old woman has acute onset of shortness of breath. She underwent a laparoscopic cholecystectomy 10 days ago.\nHer temperature is 37.4°C, pulse rate 104 bpm, BP 122/80 mmHg, respiratory rate 24 breaths per minute and oxygen saturation 94% breathing air. Her chest is clear. She has minimal tenderness over the right hypochondrium.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 17,
+  "o": [
+   "Myocardial infarction",
+   "Pancreatitis",
+   "Pneumonia",
+   "Pulmonary embolus",
+   "Subphrenic abscess"
+  ],
+  "a": 3,
+  "w": "This is because she is most likely to have suffered pulmonary embolus after period of surgery. Copyright © 2017 - Medical Schools Council Page 19 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 39 year old man has had fever, chills and generalised weakness for 1 month. He has a history of systolic heart murmur. He is an intravenous drug user.",
+  "lab": [
+   [
+    "White cell count",
+    "15 × 10⁹/L",
+    "3.0–10.0"
+   ],
+   [
+    "Erythrocyte sedimentation rate",
+    "55 mm/hr",
+    "<20"
+   ]
+  ],
+  "post": "Blood cultures are awaited.",
+  "ql": "Which further investigation will help to establish the diagnosis?",
+  "n": 18,
+  "o": [
+   "Chest X-ray",
+   "ECG",
+   "Nasal swabs",
+   "Transoesophageal echocardiogram",
+   "Urine dipstick analysis"
+  ],
+  "a": 3,
+  "w": "The patient has a likely diagnosis of endocarditis and requires a TOE and blood cultures. Copyright © 2017 - Medical Schools Council Page 20 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 16 year old girl presents to the Emergency Department after an episode of loss of consciousness following a fall. She had consumed an excessive amount of alcohol at a party before the fall.\nShe has a dirty scalp wound and cannot remember recent events. Her pulse rate is 68 bpm, BP 110/80 mmHg and oxygen saturation 98% breathing air. She opens her eyes to command and is confused. Her capillary blood glucose is 6.0 mmol/L.\nHer wound is cleaned and sutured.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate immediate management plan?",
+  "n": 19,
+  "o": [
+   "Admit and observe for 24 h",
+   "CT scan of head",
+   "Discharge with head injury instructions",
+   "Refer to neurosurgeon",
+   "X-ray of skull"
+  ],
+  "a": 1,
+  "w": "Current guidelines. Safety issue. A child of 16 doesn't need a tetanus booster. Copyright © 2017 - Medical Schools Council Page 21 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 47 year old woman has 1 year of increased urinary frequency, urgency and nocturia. She finds that she leaks urine if she is unable to get to the toilet promptly. She had three normal pregnancies with no complications.\nThe perineum appears normal and there is no uterine prolapse. Incontinence is not provoked by coughing or straining. Urinalysis is negative. A post- micturition ultrasound scan of bladder shows minimal residual urine volume.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate initial management plan?",
+  "n": 20,
+  "o": [
+   "Botulinum toxin type A injection into bladder wall",
+   "Oral duloxetine",
+   "Oral oxybutynin",
+   "Percutaneous sacral nerve stimulation",
+   "Topical oestrogen"
+  ],
+  "a": 2,
+  "w": "Immediate release anticholinergics are the first line treatment for overactive bladder with urge incontinence in the NICE 2013 guidelines. Copyright © 2017 - Medical Schools Council Page 22 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 72 year old woman has 6 months of mild constipation.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "110 g/L",
+    "115–165"
+   ],
+   [
+    "Creatinine",
+    "70 µmol/L",
+    "60–120"
+   ],
+   [
+    "Calcium",
+    "2.90 mmol/L",
+    "2.2–2.6"
+   ],
+   [
+    "Phosphate",
+    "0.65 mmol/L",
+    "0.8–1.5"
+   ],
+   [
+    "24 h urinary calcium",
+    "7 mmol",
+    "2–6"
+   ],
+   [
+    "Parathyroid hormone",
+    "11.2 pmol/L",
+    "1.6–8.5"
+   ],
+   [
+    "Vitamin D",
+    "65 nmol/L",
+    ">60"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 21,
+  "o": [
+   "Familial hypocalciuric hypercalcaemia",
+   "Multiple myeloma",
+   "Primary hyperparathyroidism",
+   "Tertiary hyperparathyroidism",
+   "Vitamin D intoxication"
+  ],
+  "a": 2,
+  "w": "This is because primary Hyperparathyroidism is commoner in older female patients. In most cases symptoms are either mild, as in this case or absent. Biochemistry hypercalcaemia, elevated PTH and hypercalciuria point towards primary hyperparathyroidism. Tertiary hyperparathyroidism is possible but less likely as renal function is normal. There is no evidence for anaemia (malabsorption) and the patient is well. Copyright © 2017 - Medical Schools Council Page 23 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 52 year old man visits his GP for health screening. He is well.\nHis pulse rate is 80 bpm and irregular, and BP 128/84 mmHg.",
+  "lab": [
+   [
+    "Sodium",
+    "136 mmol/L",
+    "135–146"
+   ],
+   [
+    "Potassium",
+    "3.9 mmol/L",
+    "3.5–5.3"
+   ],
+   [
+    "Urea",
+    "4.9 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "80 μmol/L",
+    "60–120"
+   ],
+   [
+    "HbA1c",
+    "40 mmol/mol",
+    "20–42"
+   ]
+  ],
+  "post": "Thyroid function tests are normal.\nECG shows atrial fibrillation, 76 bpm.",
+  "ql": "Which is the most appropriate treatment?",
+  "n": 22,
+  "o": [
+   "Apixaban",
+   "Aspirin",
+   "Diltiazem hydrochloride",
+   "No treatment",
+   "Warfarin sodium"
+  ],
+  "a": 3,
+  "w": "The patient has incidental non-symptomatic AF. This is a common way to pick up AF. The rate is controlled. He has no other risk factors and his CHA2DS2-VASc score is 0 and anticoagulation is not recommended (Atrial fibrillation: management (2014) NICE guideline CG180)",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 80 year old man presents to the Emergency Department with 2 hours of epistaxis that has not stopped despite compression. He has a history of hypertension.\nA bleeding site is visible in the anterior nasal cavity. His BP is 160/95 mmHg.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate initial management option?",
+  "n": 23,
+  "o": [
+   "Anterior pack",
+   "Antihypertensive medication",
+   "Cautery",
+   "Cryotherapy",
+   "Ice pack"
+  ],
+  "a": 2,
+  "w": "Minor bleeding from an accessible site can be treated with cautery using a silver nitrate stick or electrocautery. Anterior pack is for profuse bleeding with site difficult to localise. Anti hypertensives will only prevent further attacks of epistaxis. Cryotherapy and ice pack of little advantage and secondary. Copyright © 2017 - Medical Schools Council Page 25 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 65 year old man has abdominal distension and vomiting 48 hours after a sigmoid colectomy with primary anastomosis for bowel cancer. He has not passed any flatus for 24 hours. He is taking regular paracetamol and as required intravenous morphine.\nHis abdomen is distended with tenderness over the wound but no rebound or guarding. There are no bowel sounds.\nHis temperature is 37.6°C, pulse rate 96 bpm and BP 122/85 mmHg.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate initial management?",
+  "n": 24,
+  "o": [
+   "Give intravenous piperacillin with tazobactam",
+   "Give Microlax ® enema",
+   "Insert a nasogastric tube",
+   "Start regular intravenous morphine",
+   "Take to theatre for laparotomy"
+  ],
+  "a": 2,
+  "w": "The patient has evidence of a paralytic ileus. The initial treatment would involve making patient nil by mouth and inserting a nasogastric tube. Morphine would make the condition worse. There is no indication for antibiotics. An enema would not be appropriate and unlikely to be of benefit. There is no indication for immediate surgery as further investigations will be required to identify treatable causes. Copyright © 2017 - Medical Schools Council Page 26 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 23 year old man attends the sexual health clinic with a painful swelling in his groin and pain when opening his bowels. He had unprotected anal sex with a new male partner 4 weeks ago.\nHe has a perianal ulcer and tender inguinal lymphadenopathy.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 25,
+  "o": [
+   "Genital herpes",
+   "Gonorrhoea",
+   "HIV seroconversion",
+   "Lymphogranuloma venereum",
+   "Secondary syphilis"
+  ],
+  "a": 3,
+  "w": "Proctitis and lymphadenopathy make LGV the most likely - and is endemic in MSM population in UK.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 63 year old man with COPD has had an increase in cough for 2 days. He now has pain of sudden onset in the right side of his chest radiating to the right shoulder, and increasing breathlessness.\nChest X-ray: see image.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely cause of his acute deterioration?",
+  "n": 26,
+  "o": [
+   "Acute myocardial infarction",
+   "Diaphragmatic hernia",
+   "Lobar pneumonia",
+   "Pneumothorax",
+   "Pulmonary embolus"
+  ],
+  "a": 3,
+  "w": "",
+  "ref": "",
+  "img": [
+   "p2017-026-0.jpg"
+  ]
+ },
+ {
+  "s": "A 25 year old man presents to the Emergency Department after vomiting a large quantity of blood.\nAt endoscopy, a deep ulcer is identified in the posterior wall at the junction of the first and second parts of the duodenum. There is a bleeding vessel in the base.",
+  "lab": [],
+  "post": "",
+  "ql": "From which artery is the bleeding most likely to be arising?",
+  "n": 27,
+  "o": [
+   "Gastroduodenal artery",
+   "Left gastric artery",
+   "Short gastric artery",
+   "Splenic artery",
+   "Superior mesenteric artery"
+  ],
+  "a": 0,
+  "w": "The gastroduodenal artery runs posterior to the first and second parts of the duodenum and may be a source of major haemorrhage in peptic ulcer disease. Copyright © 2017 - Medical Schools Council Page 29 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 27 year old woman has a long history of irregular menstruation. She does not take any medication. Her BMI is 29.4 kg/m 2.",
+  "lab": [
+   [
+    "LH (pre-menopausal female)",
+    "15 U/L (follicular)",
+    "1–11"
+   ],
+   [
+    "FSH",
+    "6 U/L (follicular)",
+    "2–8"
+   ],
+   [
+    "Testosterone",
+    "3.5 nmol/L",
+    "0.2–2.9"
+   ],
+   [
+    "Cortisol post",
+    "1 mg dexamethasone 40 nmol/L",
+    "<50"
+   ],
+   [
+    "Prolactin",
+    "425 U/L",
+    "100–500"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 28,
+  "o": [
+   "Androgen secreting tumour",
+   "Cushing's syndrome",
+   "Polycystic ovary syndrome",
+   "Premature ovarian failure",
+   "Prolactinoma"
+  ],
+  "a": 2,
+  "w": "The increased ratio of LH:FSH along with oligomenorrhoea and BMI in the overweight range indicates PCOS is most likely. A mild elevation in prolactin is sometimes seen in PCOS. Copyright © 2017 - Medical Schools Council Page 30 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 30 year old woman attends 3 months after a diagnosis of iron deficiency anaemia. She was advised to take oral iron supplements and has been taking these regularly. She has some looseness of her stools, and her periods are scanty on a combined oral contraceptive.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "92 g/L",
+    "115–165"
+   ],
+   [
+    "MCV",
+    "70 fL",
+    "80–96"
+   ],
+   [
+    "Ferritin",
+    "8 µg/L",
+    "12–200"
+   ]
+  ],
+  "post": "",
+  "ql": "Which antibody test is most likely to diagnose the underlying cause?",
+  "n": 29,
+  "o": [
+   "Anti-gastric parietal cell",
+   "Antimitochondrial",
+   "Antinuclear",
+   "Anti-smooth muscle",
+   "Anti-tissue transglutaminase"
+  ],
+  "a": 4,
+  "w": "Coeliac disease is the most likely diagnosis.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 75 year old man is admitted with weakness in his legs. He has a squamous cell lung cancer treated by radiotherapy 18 months previously.\nHe is cachetic. He has 4 out of 5 power in hip flexion and knee flexion bilaterally. Sensation and reflexes are normal, and sphincter function is preserved. His BMI is 17 kg/m². MR scan of spine shows destructive bony lesions of T12 and L2–L4 vertebral body.",
+  "lab": [],
+  "post": "",
+  "ql": "Which treatment is most appropriate to preserve neurological function?",
+  "n": 30,
+  "o": [
+   "Chemotherapy",
+   "External beam radiotherapy",
+   "Intravenous bisphosphonates",
+   "Radiation brachytherapy",
+   "Surgical decompression of the spinal cord"
+  ],
+  "a": 1,
+  "w": "History and examination findings suggest cord compression. He has multiple lesions and is too frail for surgery. Radiotherapy is best treatment option. Copyright © 2017 - Medical Schools Council Page 32 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 34 year old woman has headaches for 3 months. Her mother developed hypertension at the age of 38 years.\nHer BP is 180/92 mmHg. Otherwise, examination, including fundoscopy, is normal.",
+  "lab": [
+   [
+    "Sodium",
+    "136 mmol/L",
+    "135–146"
+   ],
+   [
+    "Potassium",
+    "3.3 mmol/L",
+    "3.5–5.3"
+   ],
+   [
+    "Chloride",
+    "97 mmol/L",
+    "95–106"
+   ],
+   [
+    "Urea",
+    "4.0 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "94 µmol/L",
+    "60–120"
+   ],
+   [
+    "Plasma aldosterone",
+    "renin ratio 50",
+    "<25"
+   ],
+   [
+    "Cortisol (9am)",
+    "307 nmol/L",
+    "200–700"
+   ]
+  ],
+  "post": "Urinalysis is normal.",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 31,
+  "o": [
+   "Essential hypertension",
+   "Glucocorticoid excess",
+   "Phaeochromocytoma",
+   "Primary hyperaldosteronism",
+   "Primary hypoadrenalism"
+  ],
+  "a": 3,
+  "w": "FHx of hypertension and biochemistry suggest mineralcorticod excess. High PRA ratio. Copyright © 2017 - Medical Schools Council Page 33 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 20 year old man has 2 days of visible haematuria. Three days before the haematuria started, he developed tonsillitis and was treated with phenoxymethylpenicillin. He has no significant medical history.\nHis BP is 112/54 mmHg.",
+  "lab": [
+   [
+    "Urea",
+    "3.2 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "61 µmol/L",
+    "60–120"
+   ],
+   [
+    "Urinalysis",
+    "glucose negative, ketones negative, blood 3+, protein 3+, nitrites",
+    ""
+   ]
+  ],
+  "post": "negative, leucocytes negative.",
+  "ql": "Which is the most likely cause of his haematuria?",
+  "n": 32,
+  "o": [
+   "Alport's nephropathy",
+   "Drug reaction",
+   "Granulomatosis with polyangiitis",
+   "IgA nephropathy",
+   "Postinfectious glomerulonephritis"
+  ],
+  "a": 3,
+  "w": "IgA characteristically causes visible haematuria a few days after URTI (post-infectious GN has lag time of around 2 weeks before haematuria occurs and would be a less benign presentation if associated with visible haematuria). Copyright © 2017 - Medical Schools Council Page 34 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 38 year old man has 2 months of epigastric pain that radiates into his back. It is worse at night and sometimes wakes him up. It is better after eating. He has been very busy at work. He occasionally misses lunch, which worsens the pain. He has not lost weight. He smokes 10 cigarettes per day and drinks two bottles of wine per week.\nExamination is normal.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 33,
+  "o": [
+   "Cholecystitis",
+   "Chronic pancreatitis",
+   "Duodenal ulcer",
+   "Gastric ulcer",
+   "Gastric carcinoma"
+  ],
+  "a": 2,
+  "w": "Duodenal ulcers tend to be made worse with stress and the pain is often worse at night radiating into the back - it is relieved by eating and patients tend to put weight on - in contrast to a gastric ulcer which is made worse with eating and people often lose weight. Copyright © 2017 - Medical Schools Council Page 35 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 26 year old woman has 12 months of back pain, located in the low lumbosacral region. She has intermittent bilateral thigh pain. The back pain disturbs her sleep. The pain is improved by activity but not relieved by resting. She finds it difficult to bend down during the day to pick things up from the floor.",
+  "lab": [],
+  "post": "",
+  "ql": "Which clinical feature is most specific for inflammatory back pain?",
+  "n": 34,
+  "o": [
+   "Improvement with activity",
+   "Nocturnal pain",
+   "Radiation to leg",
+   "Stiffness during the day",
+   "Young age"
+  ],
+  "a": 0,
+  "w": "Inflammatory back pain (IBP) is typically improved with activity and not relieved by rest, as opposed to mechanical pain which is worse with activity and is relieved by rest. IBP can wake the patient in the early hours of the morning and sacroilieitis can radiate to the thigh, but these features are much less specific. Morning stiffness is specific for inflammatory back pain but not persistent daytime stiffness. IBP can occur at any age although mechanical pain is less common in young people. Copyright © 2017 - Medical Schools Council Page 36 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 68 year old man has a swollen tender knee for 3 days and cannot weight bear. He has had previous episodes of big toe swelling. He has a history of chronic kidney disease stage 4.",
+  "lab": [
+   [
+    "Fluid analysis of knee aspirate",
+    "",
+    ""
+   ]
+  ],
+  "post": "White cell count 55 000/mL, 95% neutrophils Gram stain negative Copious 10 μm intracellular needle shaped crystals",
+  "ql": "Which is the best initial treatment for his acute knee pain and swelling?",
+  "n": 35,
+  "o": [
+   "Arthroscopic joint washout",
+   "Intravenous flucloxacillin",
+   "Oral allopurinol",
+   "Oral naproxen",
+   "Oral prednisolone"
+  ],
+  "a": 4,
+  "w": "The presentation is likely due to an acute attack of gout. Although infection is not completely excluded at this stage it is less likely as G stain is negative and there are several positive features of gout in the history. IA or oral steroids, colchicine or NSAIDs are all effective treatments for acute gout. NSAIDs are contraindicated in CKD of this stage. Allopurinol will not help the acute attack. Copyright © 2017 - Medical Schools Council Page 37 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "An 18 year old man is in the intensive care unit with septic shock as a result of a compound fracture of his leg. His urine output has been <30 mL for the past 2 hours.\nHis pulse rate is 125 bpm, BP 85/40 mmHg and JVP 4 cm above the sternal angle. There are basal crackles on auscultation of the chest.\nECG shows sinus rhythm, 125 bpm.\nHe is being treated with intravenous 0.9% sodium chloride at 125 mL/h and antibiotics.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate additional intravenous treatment?",
+  "n": 36,
+  "o": [
+   "500 mL 0.9% sodium chloride over 15 min",
+   "500 mL Hartmann's solution over 15 min",
+   "Dopamine hydrochloride",
+   "Furosemide",
+   "Noradrenaline/norepinephrine"
+  ],
+  "a": 4,
+  "w": "Description of adequate (if not over) hydration. Needs vasoconstriction. Copyright © 2017 - Medical Schools Council Page 38 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 34 year old man has pain in his right shoulder and upper arm for 6 weeks that worsens when elevating his arm above his head. He does not recall any injury.\nThere is no deformity, tenderness or reduced range of movement. There is pain on abduction of the right shoulder that is worse with the arm in internal rotation and when abduction is resisted. He is treated with ibuprofen.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate next step in management?",
+  "n": 37,
+  "o": [
+   "MR scan of shoulder",
+   "Refer for orthopaedic opinion",
+   "Refer for physiotherapy",
+   "Ultrasound scan of shoulder",
+   "X-ray of shoulder"
+  ],
+  "a": 2,
+  "w": "Clinically the diagnosis is right supraspinatus tendinopathy and no further investigation is required to confirm the diagnosis. Most cases can be managed in primary care and a referral to orthopaedics is not required. The most appropriate management is either general advise and home exercises or referral to a physiotherapist. Copyright © 2017 - Medical Schools Council Page 39 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 65 year old woman with advanced carcinoma of the breast with cerebral and liver metastases is rapidly deteriorating and is recognised to be dying. She becomes confused and agitated.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most suitable initial treatment?",
+  "n": 38,
+  "o": [
+   "Diamorphine hydrochloride",
+   "Glycopyrronium",
+   "Hyoscine hydrobromide",
+   "Midazolam",
+   "Mirtazapine"
+  ],
+  "a": 3,
+  "w": "Terminal restlessness is a common and distressing condition that requires active management: important knowledge for FY doctors. The diagnosis of dying has already been made and reversible causes of her deterioration will thus have been considered and excluded: NICE guidelines indicate that terminal restlessness should be managed with Midazolam by prn subcutaneous injections / continuous subcutaneous infusion via a syringe driver. Copyright © 2017 - Medical Schools Council Page 40 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 80 year old man has progressive memory loss over 2 years.\nHe scores 20/30 on the Montreal Cognitive Assessment, and he requires an MR scan of brain.",
+  "lab": [],
+  "post": "",
+  "ql": "In which part of the brain are changes most likely to be found in early Alzheimer’s disease?",
+  "n": 39,
+  "o": [
+   "Basal ganglia",
+   "Frontal lobe",
+   "Medulla oblongata",
+   "Parietal lobe",
+   "Temporal lobe"
+  ],
+  "a": 4,
+  "w": "",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 43 year old woman is admitted to hospital with an overdose of amitriptyline hydrochloride taken 4 hours previously. She has a history of chronic headache.\nHer pulse rate is 105 bpm and BP 95/40 mmHg. She is drowsy and her pupils are dilated. ECG shows significant QRS prolongation.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate immediate management option?",
+  "n": 40,
+  "o": [
+   "Activated charcoal",
+   "Intravenous amiodarone hydrochloride",
+   "Intravenous atropine sulfate",
+   "Intravenous magnesium",
+   "Intravenous sodium bicarbonate"
+  ],
+  "a": 4,
+  "w": "Bicarbonate is the treatment of the choice in patients with prolonged QRS complexes following a tricyclic antidepressant overdose. Copyright © 2017 - Medical Schools Council Page 42 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 76 year old man undergoes an abdominoperineal resection for a low rectal carcinoma. He has a history of severe COPD and hypertension.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate method for providing analgesia during the early postoperative period?",
+  "n": 41,
+  "o": [
+   "Epidural anaesthesia",
+   "Intramuscular opioid",
+   "Oral non-steroidal analgesia",
+   "Patient controlled intravenous analgesia",
+   "Spinal anaesthesia"
+  ],
+  "a": 0,
+  "w": "This is because for major abdominal surgery in respiratory disease opioid, by whatever route, should be avoided. Epidural is best because it can be topped up and titrated; spinal anaesthesia cannot. Transcutaneous electrical nerve stimulation has been used for post- operative pain, but trial results are contradictory. Intramuscular injection is difficult to titrate. Copyright © 2017 - Medical Schools Council Page 43 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A researcher is seeking to examine whether long-term mobile phone use is linked to acoustic neuroma risk. The information on mobile phone usage is collected from participants with acoustic neuroma and a comparable group of participants without acoustic neuroma, selected from the general practice register.",
+  "lab": [],
+  "post": "",
+  "ql": "Which type of study design is being used?",
+  "n": 42,
+  "o": [
+   "Case–control study",
+   "Case series",
+   "Cohort study",
+   "Cross-sectional study",
+   "Ecological study"
+  ],
+  "a": 0,
+  "w": "",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 56 year old woman has home blood pressure readings averaging 160/90 mmHg.\nHypertension is confirmed on 24 hour ambulatory monitoring. She has type 1 diabetes mellitus.",
+  "lab": [
+   [
+    "Urinary albumin",
+    "creatinine ratio 42 mg/mmol",
+    "<3.5"
+   ],
+   [
+    "eGFR",
+    "43 mL/min/1.73 m²",
+    ">60"
+   ]
+  ],
+  "post": "",
+  "ql": "Which type of antihypertensive is most appropriate?",
+  "n": 43,
+  "o": [
+   "ACE inhibitor",
+   "Alpha blocker",
+   "Beta blocker",
+   "Calcium channel blocker",
+   "Thiazide-like diuretic"
+  ],
+  "a": 0,
+  "w": "There is good evidence for renal function protection in diabetic nephropathy with ACE-1 in addition to its hypertensive properties. Copyright © 2017 - Medical Schools Council Page 45 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 70 year old man has dry cough and breathlessness on exertion for the past 3 months. He has lost 4 kg is weight. He has a history of ischaemic heart disease and atrial fibrillation. He takes warfarin sodium, ramipril and amiodarone hydrochloride. He is a never smoker.\nHis temperature is 37.5°C, pulse rate 70 bpm, respiratory rate 18 breaths per minute and oxygen saturation 91% breathing air. He has fine bibasal inspiratory crackles. There is no finger clubbing.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "141 g/L",
+    "130–175"
+   ],
+   [
+    "White cell count",
+    "9",
+    ""
+   ]
+  ],
+  "post": "14.0 × 10⁹/L (3.0–10.0) Erythrocyte sedimentation rate 65 mm/hr (<20)\nChest X-ray shows bilateral reticular opacities in both bases.",
+  "ql": "Which investigation is most likely to confirm the diagnosis?",
+  "n": 44,
+  "o": [
+   "Blood cultures",
+   "Bronchoscopy",
+   "Echocardiography",
+   "High resolution CT scan of chest",
+   "Induced sputum for microscopy and culture"
+  ],
+  "a": 3,
+  "w": "This is because the patient has pulmonary fibrosis as a complication from amiodarone therapy. This classically does not cause clubbing. Patients present with cough and dyspnoea. Fever and reactive blood changes (raised WCC, ESR) are not uncommon. An HRCT would confirm changes of interstitial lung disease. Blood cultures are indicated but this is unlikely to be an infective cause. Bronchoscopy is not indicated. The features are not those of heart failure so an echo will not confirm the diagnosis. An induced sputum is not indicated at this stage. Copyright © 2017 - Medical Schools Council Page 46 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 31 year old woman is admitted with 24 hours of confusion. She is having visual hallucinations of snakes and mice on the floor. Her partner says that she often drinks 80 units of alcohol per week. He has not seen her for the past week. She has a history of depression and takes fluoxetine. Her temperature is 37.6°C, pulse rate 100 bpm and BP 162/98 mmHg. She is disorientated in time and place. She has no focal neurological deficit.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most likely diagnosis?",
+  "n": 45,
+  "o": [
+   "Delirium tremens",
+   "Fluoxetine overdose",
+   "Hepatic encephalopathy",
+   "Korsakoff's psychosis",
+   "Wernicke's encephalopathy"
+  ],
+  "a": 0,
+  "w": "The patient has typical features of delerium tremens with confusion, visual hallucinations, tachycardia and pyrexia on the background of heavy alcohol use. This normally occurs on reduction or abstinence, which may not be clear from the history. Copyright © 2017 - Medical Schools Council Page 47 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 61 year old woman is admitted with 2 days of confusion. She has a history of hypertension and takes nifedipine. She smokes 20 cigarettes per day. She is confused but has no focal neurological deficit. Her pulse rate is 75 bpm, BP 139/87 mmHg and JVP 2 cm above the sternal angle.",
+  "lab": [
+   [
+    "Sodium",
+    "117 mmol/L",
+    "135–146"
+   ],
+   [
+    "Potassium",
+    "4.2 mmol/L",
+    "3.5–5.3"
+   ],
+   [
+    "Urea",
+    "1.9 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "57 μmol/L",
+    "60–120"
+   ],
+   [
+    "Serum osmolality",
+    "252 mOsmol/kg",
+    "285–295"
+   ],
+   [
+    "Urine osmolality",
+    "585 mOsmol/kg",
+    "100–1000"
+   ]
+  ],
+  "post": "",
+  "ql": "Which mechanism best explains the development of hyponatraemia?",
+  "n": 46,
+  "o": [
+   "Increased sodium secretion in the distal tubule",
+   "Increased water absorption in the collecting duct",
+   "Increased water ingestion",
+   "Reduced cortisol secretion",
+   "Reduced sodium reabsorption in the proximal tubule"
+  ],
+  "a": 1,
+  "w": "The picture is of syndrome of inappropriate ADH secretion with hyponatraemia and inappropriately concentrated urine. ADH stimulates synthesis of aquaporin-2 in the apical membrane of the collecting duct which promotes water absorption. This leads to a dilutional hyponatraemia. Copyright © 2017 - Medical Schools Council Page 48 of 51",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 43 year old woman has a sudden severe headache that started 24 hours ago. She has a history of autosomal dominant polycystic kidney disease.\nHer temperature is 36.8°C, pulse rate 92 bpm and BP 140/100 mmHg. Neurological examination is normal. CT scan of head is normal.",
+  "lab": [],
+  "post": "",
+  "ql": "Which is the most appropriate next step in management?",
+  "n": 47,
+  "o": [
+   "Erythrocyte sedimentation rate",
+   "Lumbar puncture",
+   "MR scan of brain",
+   "Refer to outpatient headache clinic",
+   "Start amlodipine"
+  ],
+  "a": 1,
+  "w": "This is because APKD is associated with subarachnoid haemorrage. A lumbar puncture should be performed. MRA would be reasonable, but not MRI.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 74 year old man has progressively worsening muscle aches that are now causing him to struggle to get up from a chair or raise his arms above his head. He has a history of oesophageal cancer treated surgically and ischaemic heart disease. He is taking bisoprolol, clopidogrel, ramipril and simvastatin.",
+  "lab": [
+   [
+    "Haemoglobin",
+    "125 g/L",
+    "130–175"
+   ],
+   [
+    "White cell count",
+    "7.8 × 10⁹/L",
+    "3.0–10.0"
+   ],
+   [
+    "Platelets",
+    "391 × 10⁹/L",
+    "150–400"
+   ],
+   [
+    "Erythrocyte sedimentation rate",
+    "105 mm/hr",
+    "<20"
+   ]
+  ],
+  "post": "",
+  "ql": "Which is the most appropriate therapeutic change?",
+  "n": 48,
+  "o": [
+   "Start co-codamol",
+   "Start ibuprofen",
+   "Start prednisolone",
+   "Stop bisoprolol",
+   "Stop simvastatin"
+  ],
+  "a": 2,
+  "w": "Classical PMR history, presentation and raised inflammatory markers.",
+  "ref": "",
+  "img": []
+ },
+ {
+  "s": "A 59 year old woman has 6 months of pain affecting her hips and lower back. She is Libyan and has lived in the UK for 10 years. She has chronic kidney disease stage 3 and hypertension. She is taking lisinopril and simvastatin. She has weakness of hip flexion bilaterally. There is no muscle or bony tenderness.",
+  "lab": [
+   [
+    "Urea",
+    "7.8 mmol/L",
+    "2.5–7.8"
+   ],
+   [
+    "Creatinine",
+    "122 μmol/L",
+    "60–120"
+   ],
+   [
+    "Calcium",
+    "2.1 mmol/L",
+    "2.2–2.6"
+   ],
+   [
+    "eGFR",
+    "41 mL/min/1.73 m²",
+    ">60"
+   ],
+   [
+    "Alkaline phosphatase",
+    "230 IU/L",
+    "25–115"
+   ],
+   [
+    "Parathyroid hormone",
+    "14.5 pmol/L",
+    "1.6–8.5"
+   ]
+  ],
+  "post": "",
+  "ql": "Which additional investigation is most likely to confirm the diagnosis?",
+  "n": 49,
+  "o": [
+   "Creatine kinase",
+   "Erythrocyte sedimentation rate",
+   "Serum 25-OH cholecalciferol",
+   "Ultrasound scan of neck",
+   "X-ray of thoracic and lumbar spine"
+  ],
+  "a": 2,
+  "w": "The clinical features suggest osteomalacia. She has hypocalcaemia and proximal muscle weakness. The low serum calcium is not adequately explained by CKD. Serum vitamin D would establish the diagnosis. 24 hour urinary calcium is sometimes performed in primary hyperparathyroidism but not in a secondary case such as this. The presentation is not one of myositis and this is unlikely to be significantly elevated. Ultrasound of neck is another primary hyperparathyroidism test. The lumbar spine X-ray is most likely to show osteopenia but does not give diagnostic features (unlike in children). Copyright © 2017 - Medical Schools Council Page 51 of 51",
+  "ref": "",
+  "img": []
+ }
+]
