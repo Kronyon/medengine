@@ -1,0 +1,424 @@
+# Past-paper cardiology stations: full cases. Syntax in build/build_cases.py.
+
+=== PP01 A
+who: Sarah Young, 23, trainee estate agent
+act: Sitting upright, a bit jittery; bouncing one knee and turning a can of energy drink in your hands. Bright and chatty, but your voice tightens when your nan comes up.
+open: My heart suddenly went really fast at my desk and I felt dizzy. It's happened before and I'm a bit freaked out.
+story: I was at my desk this morning, nothing stressful, and it just started pounding. I felt sick and a bit breathless and dizzy. It lasted about two minutes and stopped on its own.
+hpc: Onset: Suddenly, sitting at your desk at about 11am, after your second Red Bull
+hpc: Duration: About 2 minutes, then it slowed down by itself
+hpc: Rhythm: Fast but you think regular; tap it on the desk if asked, a fast even beat
+hpc: Previous episodes: Once before, on the sofa a few weeks ago, same thing, also about 2 minutes
+hpc: Triggers: You hadn't thought about it; if asked about caffeine, you realise both times were after energy drinks
+hpc: Now: Completely fine
+yes: Felt sick; a bit breathless; light-headed during it
+no: Chest pain; blacking out; weight loss; heat intolerance or tremor; feeling anxious or panicky; vomiting; diarrhoea; heavy periods
+pmh: Nothing; never been in hospital
+dh: Combined pill for 4 years, blood pressure checks always normal; nothing over the counter; no recreational drugs
+all: None
+fh: Nan died last month of heart failure, aged 84. No one in the family died suddenly or young.
+sh: Smoke 15 a day for 6 years; 3 pints most weeknights and more at weekends, "everyone does"; 4 coffees and 2 Red Bulls a day; mostly ready meals; live alone; you like your job and want promotion
+ice: It might be my heart, like Nan | That something is wrong with my heart and I could die | To be told it's not my heart and whether I need tablets
+cue: When the family history comes up, go quiet and look down: "My nan died last month. It was her heart."
+ask: Is it my heart, like my nan?
+ask: Can I still drink coffee and alcohol?
+key: When it happened, did it start suddenly or build up? How long did it last, and how did it stop? | Sudden onset and offset suggests an arrhythmia; gradual suggests sinus tachycardia
+key: Can you tap out the beat for me on the table? | Regular versus irregular separates SVT or sinus tachycardia from AF
+key: Did you have any chest pain, breathlessness, or feel faint or black out? | Syncope or chest pain makes it a dangerous arrhythmia
+key: Has this happened before, and is there anything that seems to set it off? | Pattern and triggers
+key: How much coffee, tea, energy drinks and alcohol do you have in a day? | Caffeine and alcohol are the commonest triggers in the young
+key: Have you noticed weight loss, sweating, tremor or feeling hot all the time? | Thyrotoxicosis screen
+rf: Did you lose consciousness at any point, or have any chest pain? | Syncope or chest pain with palpitations needs urgent ECG and cardiology
+rf: Has anyone in your family died suddenly or unexpectedly before the age of 40? | Inherited arrhythmia syndromes
+sum: So you've had two short episodes of a fast heartbeat with dizziness and nausea, both after energy drinks, settling on their own after a couple of minutes, with no chest pain or blackouts. Have I got that right?
+pres: Sarah Young is a 23-year-old woman with two self-limiting 2-minute episodes of regular palpitations with dizziness and nausea, both after energy drinks. She drinks 4 coffees and 2 energy drinks a day, smokes 15 a day and drinks above 14 units a week. Importantly, there was no syncope, chest pain or family history of sudden death, and no symptoms of thyrotoxicosis.
+ddx: Sinus tachycardia triggered by caffeine and alcohol, because both episodes followed energy drinks and settled quickly with no red flags | SVT, told apart by an abrupt start and stop and a very fast regular rate on an ECG during an episode | A dangerous arrhythmia or pre-excitation, excluded with a 12-lead ECG looking for a delta wave or long QT, and thyrotoxicosis with TFTs
+ix: Observations and a 12-lead ECG now; FBC, U&Es, TFTs, glucose; a 24-hour or longer ambulatory ECG if episodes continue
+mx: Reassure if the ECG is normal; cut caffeine and energy drinks, reduce alcohol to under 14 units a week and offer smoking cessation; cardiology referral if the ECG is abnormal, symptoms recur or any red flag appears
+tell: Your heart tracing looks normal, so I don't think this is your heart in the way your nan's was. The most likely cause is all the caffeine from energy drinks and coffee. Cutting those down should help. If you faint, get chest pain, or it lasts more than a few minutes, call 999.
+
+=== PP01 B
+who: Sam Yeats, 22, engineering student
+act: Pale, sweaty, one hand pressed flat on your chest, breathing fast. Restless and frightened; keep glancing at the monitor.
+open: My heart's going crazy and it won't stop. I feel really sick.
+story: I was watching the football in the pub and my heart suddenly started racing, like it's going a hundred miles an hour. It's been going about 15 minutes now and it's not stopping.
+hpc: Onset: Suddenly, like a switch, while sitting watching football
+hpc: Duration: About 15 minutes so far, still going now
+hpc: Rhythm: Very fast and regular; tap a fast, even beat if asked
+hpc: Previous episodes: Never before
+hpc: Trying to stop it: Nothing helped; you haven't tried anything
+hpc: Severity: Scary; you feel light-headed but you haven't passed out
+yes: Sweaty; sick; short of breath; light-headed
+no: Chest pain; blacking out; recent illness or fever; weight loss or tremor; drugs
+pmh: Nothing
+dh: None; no over-the-counter or recreational drugs
+all: None
+fh: No heart problems; no one died young or suddenly
+sh: Non-smoker; had one pint an hour before; 1 coffee a day; engineering student; lives in shared student housing; doesn't drive
+ice: Something's wrong with my heart | Am I having a heart attack? Will I die? | Make it stop
+cue: Grip the bed rail when they ask how you feel: "Please just make it stop."
+ask: Is this a heart attack?
+key: When did it start, did it start suddenly, and is it still going now? | Abrupt onset that persists suggests a re-entry tachycardia
+key: Can you tap out the beat? Is it regular? | Regular narrow-complex tachycardia is SVT until proven otherwise
+key: Any chest pain, or have you passed out or nearly passed out? | Adverse features change the treatment
+key: Has it happened before, and have you ever been told your ECG was unusual? | WPW and previous episodes
+key: Any alcohol, caffeine, energy drinks or recreational drugs today? | Triggers, including cocaine and amphetamines
+rf: Do you have any chest pain or breathlessness right now? | Adverse features: shock, syncope, ischaemia or heart failure mean synchronised DC cardioversion
+rf: Has anyone in your family died suddenly at a young age? | Inherited arrhythmia
+sum: Your heart suddenly started racing 15 minutes ago in the pub, it's fast and regular and still going, and you feel sweaty, sick and light-headed, but you haven't passed out and have no chest pain. Is that right?
+pres: Sam Yeats is a 22-year-old man with 15 minutes of ongoing sudden-onset, regular, fast palpitations with sweating, nausea and light-headedness, starting at rest in a pub after one pint. This is his first episode. Importantly, he has no chest pain, no syncope, no drug use and no family history of sudden death.
+ddx: SVT from AV re-entry, because of an abrupt onset of a fast regular rhythm in a young man at rest | Sinus tachycardia from anxiety or alcohol, told apart by a gradual onset and visible P waves at a lower rate | Ventricular tachycardia or a pre-excited rhythm, excluded on the 12-lead ECG, and treated as dangerous if there are adverse features
+ix: A to E with monitoring; 12-lead ECG now to confirm a regular narrow-complex tachycardia; U&Es, magnesium, calcium, TFTs, troponin if chest pain; repeat ECG in sinus rhythm to look for a delta wave
+mx: If stable: vagal manoeuvres such as a modified Valsalva, then IV adenosine 6 mg as a rapid bolus with a flush, then 12 mg and a further 12 mg if needed, warning him of a brief awful feeling; if unstable: synchronised DC cardioversion. Senior review and cardiology referral
+tell: Your heart has gone into a fast rhythm that we can usually stop quickly. First I'll ask you to blow hard into a syringe while we tip you back. If that doesn't work, we'll give a medicine that briefly resets your heart; it can feel horrible for a few seconds. If it happens again, try blowing hard against a closed mouth and come straight in if it lasts more than a few minutes, you feel faint or get chest pain.
+
+=== PP01 C
+who: Stewart Fox, 66, retired geography teacher
+act: Calm, slightly out of breath when you talk for a while. Precise, a teacher's manner; you like dates and details.
+open: My heart went all over the place while I was walking the dogs and I came over dizzy and breathless.
+story: I was walking the dogs up the hill this morning and suddenly my heart was racing and fluttering, all over the place. I had to sit on a bench and take deep breaths. It settled after about 10 minutes.
+hpc: Onset: Suddenly while walking the dogs uphill this morning
+hpc: Rhythm: Fast and irregular, "like a drum played badly"; tap an irregular beat if asked
+hpc: Duration: About 10 minutes, then it settled
+hpc: Previous episodes: Brief flutters lasting seconds over the past few months, not always on exertion
+hpc: Now: Fine, a bit tired
+yes: Breathless during it; dizzy
+no: Chest pain; blacking out; weakness or numbness in the face or limbs; speech problems; weight loss; heat intolerance; ankle swelling
+pmh: High blood pressure; familial hypercholesterolaemia
+dh: Amlodipine 10 mg in the morning; atorvastatin 40 mg at night; no over-the-counter medicines
+all: None
+fh: Dad had a stroke at 60; Mum had type 2 diabetes
+sh: Ex-smoker, 20 a day until 50; a bottle of wine 4 nights a week, around 40 units; recently vegetarian; lives with his wife; drives
+ice: Too much wine, probably | Having a stroke like Dad | To know if it's serious and whether I can keep driving
+cue: If stroke or blood thinners come up: "My dad had a stroke at 60. He couldn't speak after it."
+ask: Can I still drive?
+key: Was the heartbeat regular or irregular? Can you tap it out? | Irregularly irregular suggests AF
+key: How long did it last, and have you had shorter episodes before? | Paroxysmal versus persistent AF
+key: Any chest pain, fainting or breathlessness at rest? | Haemodynamic compromise
+key: Have you had any weakness, numbness, problems with speech or vision? | Stroke or TIA already
+key: How much alcohol do you drink in a week? | Alcohol is a reversible trigger
+key: Any weight loss, tremor, or feeling hot all the time? | Thyrotoxicosis
+rf: Any sudden weakness, facial droop or speech problems, now or at any point? | Stroke is the main complication of AF
+rf: Do you have any chest pain or are you breathless right now? | Unstable AF
+sum: So, while walking uphill you had 10 minutes of a fast, irregular heartbeat with dizziness and breathlessness, and you've had shorter flutters for months. You have high blood pressure and drink about 40 units a week, and your dad had a stroke. Is that right?
+pres: Stewart Fox is a 66-year-old retired teacher with a 10-minute episode of irregular palpitations with breathlessness and dizziness on exertion, on a background of months of brief flutters. He has hypertension and familial hypercholesterolaemia, drinks around 40 units a week and is an ex-smoker. Importantly, there were no stroke symptoms, chest pain or syncope.
+ddx: Paroxysmal atrial fibrillation, because of irregular palpitations with alcohol excess and hypertension in a man over 65 | Frequent ectopic beats, told apart by isolated missed or extra beats rather than sustained irregular racing, on a 24-hour ECG | Thyrotoxicosis or ischaemia driving AF, excluded with TFTs and a history and ECG for ischaemia; and stroke, excluded by asking about focal symptoms
+ix: Pulse and a 12-lead ECG; if normal, a 24-hour or longer ambulatory ECG; FBC, U&Es, LFTs, TFTs, glucose and HbA1c, lipids; echocardiogram for structural heart disease
+mx: Rate control with a beta-blocker or a rate-limiting calcium channel blocker; CHA2DS2-VASc, here at least 2 for age and hypertension, so offer a DOAC such as apixaban after an ORBIT bleeding risk assessment; cut alcohol; cardiology referral for rhythm control if symptoms persist
+tell: Your heart tracing suggests a rhythm problem called atrial fibrillation, where the top chambers beat irregularly. The main risk is a clot causing a stroke, so I'd recommend a blood thinner as well as a tablet to slow your heart. Cutting the wine down will really help. If you get weakness, a droopy face or trouble speaking, call 999.
+
+=== PP02 A
+who: John Simmons, 54, part-time gardener and dog walker
+act: Friendly, slow and slightly flat in your speech; hands resting on your knees. Anxious only when stopping medicines is mentioned: then fidget and look at the door.
+open: I've come for my medicine check. I'm doing well, thanks.
+story: I've been well for years. My psychiatrist saw me two weeks ago and was happy. Mum helps me with my tablets.
+hpc: Mental health: No voices for years; mood fine; sleeping well; psychiatrist happy 2 weeks ago
+hpc: Medicines taken: Every dose as prescribed, Mum helps; no recent dose changes
+hpc: Side effects: Put on weight over the years; no stiffness or shaking; a bit sleepy in the evenings
+hpc: Heart symptoms: None
+yes: Weight gain over the years
+no: Palpitations; blackouts or funny turns; chest pain; breathlessness; muscle stiffness or fever; constipation beyond the usual
+pmh: Schizophrenia for 30 years, stable; depression; chronic back pain
+dh: Quetiapine 400 mg in the evening; sertraline 150 mg in the morning; co-codamol 30/500, 2 tablets twice a day for back pain; omeprazole 20 mg once daily
+all: None
+fh: No heart problems; no sudden deaths
+sh: Quit smoking 5 years ago; no alcohol or drugs; lives with his mum, his main carer; day centre; part-time gardener and dog walker; BMI 32 if asked
+ice: It's a normal check | That I'll have to stop the medicine and the voices will come back | To keep things as they are
+cue: If changing medicines is mentioned, look worried: "Last time they changed my tablets I ended up in hospital."
+ask: Will I have to stop my medicine? Will my voices come back?
+key: Can you tell me all the medicines you take, the doses and when? | QT-prolonging combinations: quetiapine plus sertraline
+key: Have you had any palpitations, dizzy spells or blackouts? | Symptoms of torsades
+key: Any side effects such as stiffness, shaking, restlessness, weight gain or sleepiness? | Antipsychotic monitoring
+key: How is your mood, and have you heard any voices recently? | Relapse screen before any change
+key: Any diarrhoea, vomiting or new medicines that might affect your salts? | Hypokalaemia and hypomagnesaemia worsen QT
+rf: Has anyone in your family died suddenly or unexpectedly? | Congenital long QT
+rf: Have you ever blacked out without warning? | Torsades can present as syncope
+sum: So you've been well on quetiapine and sertraline for years, with no voices and no heart symptoms, and you're also taking co-codamol and omeprazole. Is that everything?
+pres: John Simmons is a 54-year-old man with stable schizophrenia attending a medication review. He takes quetiapine 400 mg and sertraline 150 mg, both QT-prolonging, with omeprazole, which can lower magnesium. He has no palpitations or syncope and no family history of sudden death. His ECG shows a prolonged QTc, putting him at risk of torsades de pointes.
+ddx: Drug-induced long QT from quetiapine and sertraline, because both prolong the QT and his ECG shows it | Electrolyte-driven QT prolongation from low potassium or magnesium, for example from the PPI, told apart by U&Es and magnesium | Torsades de pointes or congenital long QT: ask about syncope and family sudden death, and act urgently if he has had blackouts
+ix: 12-lead ECG with a manual QTc; U&Es, magnesium, calcium; glucose, HbA1c and lipids as antipsychotic monitoring; repeat ECG after any change
+mx: Correct potassium and magnesium; discuss with his psychiatrist the same week about switching to an antipsychotic with lower QT risk, such as aripiprazole, and reviewing the SSRI dose; do not stop quetiapine abruptly; review the PPI; if QTc is above 500 ms or he has had syncope, seek same-day advice
+tell: Your heart tracing shows that one of the electrical intervals is a bit long, which some of your medicines can cause. You won't need to stop anything today, and we won't change your medicine without your psychiatrist. We'll check your bloods and talk to your psychiatrist about a safer option. If you ever feel your heart racing, feel faint or black out, call 999.
+
+=== PP04 A
+who: Emily Smith, 22, PA at a legal firm
+act: Composed but a bit embarrassed to have caused a fuss; you fiddle with your hospital wristband. When asked about family deaths, stop fiddling and go very still.
+open: I collapsed at work. My colleagues said I passed out on the stairs.
+story: I was walking up the stairs to my office when my heart suddenly started racing. I felt hot, sweaty and dizzy, then everything went grey and I woke up on the floor. They said I was out for about 30 seconds and my arms twitched a bit.
+hpc: Before: Sudden racing heart while climbing the stairs, then hot, sweaty, dizzy, pale
+hpc: During: Out for about 30 seconds; colleagues saw a few seconds of twitching of both arms
+hpc: After: Came round quickly, knew where you were, no confusion, palpitations settled
+hpc: Injuries: None; no head injury
+hpc: Previous episodes: Never before; normally fine with exercise
+yes: Palpitations before; sweaty; dizzy
+no: Tongue biting; wetting yourself; confusion afterwards; headache; neck stiffness; vision change; weakness or speech problems; chest pain; dehydration or missed meals; prolonged standing; a hot day; possible pregnancy, last period a week ago
+pmh: Migraine with aura
+dh: Sumatriptan when needed; co-codamol when needed; progestogen-only pill
+all: None
+fh: ONLY IF ASKED about sudden death: your aunt and two cousins died suddenly in their 20s and 30s, one during the London Marathon. Grandmother had a stroke at 75.
+sh: Never smoked; about 10 units a week; no drugs; ONLY IF ASKED 2 coffees a day; PA for 4 years, not stressed; drives
+ice: Maybe a fit, or I didn't eat enough | Dying suddenly like my aunt | To know what it was and whether I can drive
+cue: When sudden deaths come up: "My aunt just dropped dead running the marathon. Nobody knew why." Pause.
+ask: Was it a fit? Am I going to die like my aunt?
+ask: Can I drive?
+key: What were you doing just before, and did you get any warning? | Exertional syncope with palpitations is cardiac until proven otherwise
+key: Did your heart race before you passed out? | Arrhythmic syncope
+key: How long were you out, and what did people see? Any tongue biting or incontinence? | Brief twitching is common in syncope; tongue biting and prolonged confusion favour a seizure
+key: How quickly did you come round, and were you confused afterwards? | Rapid recovery favours syncope
+key: Has anyone in your family died suddenly or unexpectedly at a young age? | Inherited cardiac conditions
+key: Any chance you could be pregnant, and any headache, neck stiffness or weakness? | Exclude ectopic, SAH and stroke
+rf: Has this ever happened during exercise before, or have you had chest pain? | Exertional syncope is a red flag needing cardiology within 24 hours
+rf: Any family history of sudden cardiac death under 40? | High-risk feature
+sum: So while climbing the stairs your heart suddenly raced, you went hot and dizzy, and you passed out for about 30 seconds with a little twitching, then came round quickly with no confusion. And your aunt and two cousins died suddenly when young. Have I got that right?
+pres: Emily Smith is a 22-year-old woman with exertional syncope preceded by sudden palpitations, lasting 30 seconds with brief twitching and a rapid recovery without confusion. Importantly, she has a family history of three sudden deaths in relatives in their 20s and 30s, one during a marathon. There was no tongue biting, incontinence or post-ictal confusion, and no headache or neurological symptoms.
+ddx: Arrhythmic syncope, such as WPW with a re-entry tachycardia, because of palpitations before an exertional collapse with rapid recovery | Vasovagal syncope, told apart by a clear trigger like standing or pain and a slow prodrome, which she did not have | An inherited cardiac condition such as long QT, Brugada or hypertrophic cardiomyopathy, given the family sudden deaths: ECG and echo now and cardiology review
+ix: Lying and standing blood pressure; 12-lead ECG looking for a delta wave, long QT, Brugada pattern or hypertrophy; FBC, U&Es, magnesium, calcium, glucose, pregnancy test; echocardiogram; ambulatory ECG
+mx: Do not discharge yet: exertional syncope with a family history of sudden death needs cardiology assessment within 24 hours; advise no driving until assessed; if WPW is confirmed, referral for ablation; screening for family members
+tell: I don't think this was a fit. Fainting during exercise after your heart raced, with family members who died suddenly, makes me want to check your heart rhythm carefully. We'll do a heart tracing and a scan and get the heart team to see you. Please don't drive for now. If it happens again, or you get chest pain or palpitations that don't stop, call 999.
+
+=== PP05 A
+who: Harry Evans, 68, retired postman and keen golfer
+act: Cheerful and talkative about golf, then deflated when you mention he's slowing down. Rubs the centre of his chest with a flat hand when describing the pain.
+open: I keep getting this tightness in my chest when I'm out on the golf course. It's slowing me down.
+story: It's like a band squeezing my chest. It comes on when I walk up the hill on the course or climb the stairs, and it goes when I stop or use my spray. It's happening four or five times a day now.
+hpc: Site: Central chest, behind the breastbone; does not spread
+hpc: Character: Tight and crushing, like a band
+hpc: Onset and trigger: Always on exertion: stairs, the hill on the 7th hole, carrying the golf bag
+hpc: Relief: Stops within 3 to 5 minutes of resting or 1 to 2 sprays of GTN
+hpc: Frequency: 4 to 5 times a day now, up from once a week a few months ago
+hpc: Severity: 8 out of 10 at its worst
+hpc: Impact: Can only play 9 holes now instead of 18
+yes: Nausea, pale and sweaty with bad episodes
+no: Pain at rest; pain lasting more than 15 minutes; pain spreading to the jaw or arm; tearing pain to the back; palpitations; blackouts; breathlessness at night; ankle swelling; wheeze recently
+pmh: Angina for 2 years; high blood pressure; asthma since childhood, mild, hasn't used salbutamol for 10 years
+dh: GTN spray when needed; ramipril 10 mg once daily; amlodipine 10 mg once daily; no aspirin or statin
+all: None
+fh: Brother had a heart attack at 62
+sh: Ex-smoker, quit 15 years ago, 25 pack-years; 10 units a week; lives with wife; drives
+ice: The angina is getting worse | That it'll stop him playing golf, or worse, a heart attack | Something stronger, like the tablet his friend takes
+cue: When golf comes up: "That's my life, golf. I can barely do nine holes now."
+ask: Why can't I have the tablet my friend takes for angina?
+key: When exactly does the pain come on, and what makes it go? | Exertional pain relieved by rest or GTN within 5 minutes is stable angina
+key: Have you ever had it at rest, or had it last more than 15 minutes even with your spray? | Rest pain means unstable angina or ACS
+key: How often is it happening now compared with a few months ago? | Crescendo pattern
+key: Have you had any wheeze or breathing problems with your asthma? | Beta-blockers are contraindicated in asthma
+key: Which medicines do you take, and are you on aspirin or a statin? | Secondary prevention gaps
+rf: Any pain at rest, waking you from sleep, or lasting longer than 15 minutes? | Unstable angina needs same-day assessment
+rf: Has the pain ever been tearing, going through to your back, or with fainting? | Dissection and aortic stenosis
+sum: So you're getting tight central chest pain on exertion four or five times a day, relieved by rest or your spray within five minutes, never at rest, and it's stopping you playing a full round. You also have asthma. Is that right?
+pres: Harry Evans is a 68-year-old man with known angina whose exertional central chest tightness has increased to 4 to 5 times a day, always relieved by rest or GTN within 5 minutes, with no rest pain. He takes ramipril, amlodipine 10 mg and GTN, and is not on aspirin or a statin. Importantly, he has asthma, so a beta-blocker is contraindicated, and there are no features of unstable angina.
+ddx: Stable angina, poorly controlled, because the pain is exertional and relieved by rest or GTN within 5 minutes | Unstable angina, told apart by pain at rest or a sudden crescendo, which he denies but must be safety-netted | Aortic stenosis or anaemia worsening angina, excluded by listening for a murmur and checking an FBC
+ix: ECG; FBC for anaemia, U&Es, HbA1c, lipids, TFTs; echocardiogram if there is a murmur; rapid access chest pain clinic or CT coronary angiography
+mx: Continue amlodipine and ramipril; add a long-acting nitrate such as isosorbide mononitrate with asymmetric dosing at 8am and 2pm to avoid tolerance, as a beta-blocker is contraindicated by asthma; start aspirin 75 mg and atorvastatin 80 mg; refer to cardiology for worsening symptoms; GTN plan
+tell: Your angina is getting worse, so we'll add a tablet that widens the heart's blood vessels. You take it at 8 in the morning and 2 in the afternoon so it keeps working. Your friend's tablet, a beta-blocker, can tighten the airways and set off your asthma, which is why we're not using it. If the pain comes at rest, or hasn't gone 5 minutes after a second spray, call 999.
+
+=== PP06 A
+who: Mrs Helen Hargreaves, 61, retired nurse
+act: Pale, a little clammy; you sit very still and speak calmly, as a nurse would. Underplay it ("I'm sure it's nothing"), but keep your hand on your chest.
+open: I had a bad chest pain on the way home from the shops. It's eased now, I'm sure it's nothing.
+story: I was rushing home with my bags about three hours ago and got a crushing pain in the middle of my chest going down my left arm. I used my GTN spray twice and it helped a bit. It's much better now.
+hpc: Onset: Suddenly while rushing home carrying shopping, 3 hours ago
+hpc: Site and radiation: Central chest, down the left arm
+hpc: Character: Crushing, heavy
+hpc: Severity: 8 out of 10 at worst, now 2 out of 10
+hpc: Relief: GTN twice gave some relief; rest helped a little
+hpc: Duration: Around 40 minutes before it eased
+hpc: Previous: Mild chest pain twice in the past year, always gone with GTN in minutes; this was much worse and longer
+yes: Pale and clammy; felt sick
+no: Tearing pain to the back; pain on breathing in; calf swelling; recent travel or surgery; cough or fever; palpitations; fainting; indigestion
+pmh: High blood pressure; angina; type 2 diabetes
+dh: Ramipril 10 mg; simvastatin 40 mg; bisoprolol 5 mg; metformin 1 g twice a day; GTN spray
+all: None
+fh: Mother had angina in her 70s
+sh: Never smoked; occasional glass of wine; retired nurse; lives alone in a house with stairs; independent; drives
+ice: It's my angina playing up | A heart attack, living alone | To go home today
+cue: When going home comes up: "I live on my own. Who would find me?"
+ask: Am I having a heart attack? Can I go home today?
+key: When did it start, how long did it last, and was it at rest or on exertion? | Pain over 15 minutes, especially at rest, is ACS
+key: How is this different from your usual angina? | A change in pattern is unstable angina or MI
+key: Did the GTN fully relieve it? | Incomplete relief points to ACS
+key: Any sweating, sickness, or breathlessness with it? | Autonomic features
+key: Any tearing pain to the back, pain on breathing, or leg swelling? | Dissection and PE
+key: Have you had pain like this before, and are you diabetic? | Diabetes blunts pain: silent and atypical MI
+rf: Is the pain still there now, and are you breathless? | Ongoing ischaemia needs immediate treatment
+rf: Did you faint or have palpitations? | Arrhythmia complicating MI
+sum: So three hours ago, rushing home, you had crushing central chest pain down your left arm for about 40 minutes, only partly helped by two GTN sprays, much worse than your usual angina, and you felt clammy and sick. Is that right?
+pres: Mrs Hargreaves is a 61-year-old retired nurse with 40 minutes of crushing central chest pain radiating to the left arm with clamminess and nausea, only partly relieved by GTN, now 2 out of 10. She has angina, hypertension and type 2 diabetes. Importantly, this is more severe and prolonged than her usual angina, and there is no tearing pain, pleuritic pain or leg swelling.
+ddx: NSTEMI, because of prolonged ischaemic pain beyond her usual angina with autonomic features, pending ECG and troponin; posterior MI if there is ST depression in V1 to V3 | Unstable angina, told apart by a normal troponin | STEMI including posterior MI, excluded on the ECG with posterior leads, and aortic dissection, excluded by the character of the pain and both arm blood pressures
+ix: 12-lead ECG within 10 minutes with V7 to V9 if ST depression in V1 to V3; high-sensitivity troponin at presentation and repeated; FBC, U&Es, glucose, lipids, HbA1c; CXR; echo
+mx: Aspirin 300 mg; GTN; morphine with an antiemetic if pain recurs; oxygen only if saturations below 94%; senior and cardiology now; STEMI or posterior MI goes for primary PCI; NSTEMI: second antiplatelet, fondaparinux, GRACE score and angiography within 72 hours; she cannot go home today
+tell: I'm worried this was a heart attack or very close to one, because it was much worse than your usual angina. We'll do a heart tracing and blood tests now, give you aspirin, and the heart team will see you. You'll need to stay in. If the pain comes back while you're here, tell us straight away.
+
+=== PP10 A
+who: Margaret Ellis, 73, retired librarian
+act: Breathless after long sentences; pause to catch your breath. Gentle and polite, slightly puffy face; you rub your swollen shins.
+open: My legs have got very puffy and I'm getting more out of breath. My friends say I look puffy too.
+story: Over the last few weeks my legs have swelled up, worse by the evening. I used to manage about 20 metres before stopping for breath, now it's about 15. I sleep on three pillows.
+hpc: Swelling: Both legs, both calves, for a few weeks; worse at the end of the day; leaves a dent when pressed; better with feet up
+hpc: Breathlessness: Exercise tolerance down from 20 metres to 15 over 2 weeks
+hpc: Lying flat: More breathless lying flat; sleeps on 3 pillows, used to be 2
+hpc: Night waking: No waking up gasping
+hpc: Weight: Clothes tighter; gained about 3 kg recently
+hpc: Diet: Likes salty food; drinks lots of tea
+yes: Breathless lying flat; ankle swelling; tired
+no: Chest pain; palpitations; fever or cough; red, hot or painful calf; recent long-haul travel; reduced urine; blood in urine
+pmh: Heart failure for 3 years, echo said "not pumping as well"; high blood pressure; gallstones; DVT 5 years ago, warfarin stopped; both hips replaced over 10 years ago
+dh: Furosemide 40 mg once daily, "just more toilet trips", so she sometimes skips it on outing days; lisinopril 5 mg once daily; bisoprolol 2.5 mg once daily
+all: None
+fh: Nothing relevant
+sh: Never smoked; occasional wine; daughter helps with cooking and care; walks with a stick; husband died of lung cancer 15 years ago
+ice: Whether the puffiness is my heart | Ending up housebound | A medicine to make it go away
+cue: When you ask about skipped tablets: look guilty, "I don't take the water tablet when I'm going out. The toilets, you see."
+ask: Is it my heart? Is there a tablet to make it go away?
+key: How far can you walk now compared with before? | NYHA class and decompensation
+key: How many pillows do you sleep on? Do you wake up gasping for breath? | Orthopnoea and PND
+key: Are both legs swollen, and does it leave a dent? Any redness or pain in one calf? | Bilateral pitting oedema versus DVT
+key: Do you ever miss your water tablet? | Non-adherence precipitates decompensation
+key: Any chest pain, palpitations, fever or cough recently? | Triggers: ischaemia, AF, infection
+key: How much salt and fluid do you have in a day, and has your weight changed? | Fluid overload
+rf: Any chest pain, or breathlessness at rest or waking you at night? | Acute decompensation needs admission
+rf: Any one-sided calf pain, redness or swelling? | DVT given her previous clot
+sum: So over a few weeks both your legs have swollen and you're more breathless, managing 15 metres instead of 20, needing three pillows at night, and you sometimes skip your furosemide when you go out. Is that right?
+pres: Mrs Ellis is a 73-year-old woman with known heart failure with reduced ejection fraction presenting with a few weeks of bilateral pitting leg oedema, worsening exertional breathlessness and orthopnoea, with weight gain. She sometimes omits her furosemide. Importantly, she has no chest pain, palpitations, infective symptoms or features of a DVT.
+ddx: Decompensated heart failure from diuretic non-adherence, because of bilateral pitting oedema, orthopnoea and missed furosemide | Fluid overload from kidney disease or low albumin, told apart by U&Es, albumin and a urine dip for protein | A precipitant such as an MI, new AF or infection, excluded with an ECG, troponin and CRP; and DVT, excluded clinically and with a scan if one leg is worse
+ix: Observations, weight, ECG; NT-proBNP, U&Es, LFTs with albumin, FBC, TFTs, troponin if chest pain; urine dip and ACR; CXR; repeat echocardiogram
+mx: Increase the loop diuretic, IV if needed, with daily weights, fluid balance and U&Es; agree flexible timing of furosemide around outings; continue lisinopril and bisoprolol and titrate; add an MRA and an SGLT2 inhibitor; salt and fluid advice; heart failure nurse follow-up
+tell: Yes, I think the swelling is from your heart not pumping strongly enough, with fluid building up. The water tablet is the medicine that clears it, and you can take it later on days you go out, so you're not caught short. We'll weigh you every day. If you get breathless at rest, wake up gasping, or put on 2 kg in 3 days, get help that day.
+
+=== PP11 A
+who: Albert Morris, 78, retired joiner
+act: Matter-of-fact, a bit hard of hearing, so lean in; a bruise you point to on your hip. Your wife is the one who saw it: quote her.
+open: I just ended up on the kitchen floor. One second I was standing, the next I was down.
+story: No warning at all. My wife says I went grey and then pink as I came round, inside a minute. I've had a few dizzy turns lately too.
+hpc: Before: No warning, no dizziness, no palpitations, standing in the kitchen
+hpc: During: Wife says you went grey, out under a minute, no jerking
+hpc: After: Went pink, came round quickly, not confused
+hpc: Injury: Bruise on your left hip; no head injury
+hpc: Previous: Several brief dizzy turns over the last month, at rest
+yes: Recent dizzy turns; tired; a bit more breathless on the stairs
+no: Chest pain; palpitations; tongue biting; incontinence; confusion afterwards; weakness or speech problems; dizziness on standing up; black stools
+pmh: High blood pressure
+dh: Amlodipine 5 mg; no blood thinners; no rate-limiting drugs
+all: None
+fh: Nothing relevant
+sh: Ex-smoker; 6 units a week; lives with his wife in a house; independent; still drives
+ice: Just old age, probably | Falling and breaking a hip, or dying on the floor alone | To be told whether he can drive
+cue: Mention, almost as a joke: "My wife won't let me out of her sight now."
+ask: Can I still drive?
+key: Did you get any warning before you went down? | No prodrome suggests an arrhythmia
+key: What did your wife see: colour, how long, any jerking? | Grey then pink flushing on recovery is classic of Stokes-Adams attacks
+key: How quickly did you come round, and were you confused? | Rapid recovery favours cardiac syncope
+key: Have you had dizzy turns, palpitations or breathlessness recently? | Conduction disease
+key: What medicines do you take, including anything that slows the heart? | Beta-blockers, digoxin and rate-limiting calcium channel blockers
+rf: Did you hit your head, and are you on any blood thinners? | Head injury in an older adult
+rf: Any chest pain, or breathlessness at rest? | Ischaemia causing heart block
+sum: So you collapsed without any warning, went grey and then pink as you came round within a minute, weren't confused, bruised your hip, and you've had dizzy turns recently. Is that right?
+pres: Mr Morris is a 78-year-old man with hypertension presenting with sudden syncope without prodrome, with pallor during the episode and flushing on recovery within a minute, and recent dizzy spells at rest. Importantly, there was no tongue biting, incontinence, post-ictal confusion or head injury, and he takes no rate-limiting drugs.
+ddx: Complete heart block causing a Stokes-Adams attack, because of syncope without warning with pallor then flushing and rapid recovery in an older man | Orthostatic hypotension, told apart by symptoms on standing and a lying and standing blood pressure drop | Another arrhythmia such as VT, or severe aortic stenosis, excluded with an ECG, monitoring and an echo
+ix: Pulse and lying and standing blood pressure; 12-lead ECG looking for complete heart block with a slow broad escape rhythm; U&Es, potassium, calcium, TFTs, troponin; cardiac monitoring; echocardiogram
+mx: Admit with cardiac monitoring; stop any AV-nodal blocking drugs; atropine or transcutaneous pacing if compromised; cardiology referral for a permanent pacemaker; no driving until treated, and inform the DVLA
+tell: Your heart tracing shows the electrical signal isn't getting through properly, so your heart sometimes slows right down and you collapse. The fix is a pacemaker, a small device under the skin that keeps your heart going. You'll need to stay on a heart monitor until then, and you mustn't drive for now.
+
+=== PP11 B
+who: Chloe Brennan, 24, primary school teacher
+act: Embarrassed and a little giggly; your friend is in the waiting room. Fan yourself with your hand when you describe the church.
+open: I fainted at my friend's wedding. Everyone made a big fuss.
+story: It was boiling in the church and we'd been standing for ages. I felt hot and sick, my vision went grey from the edges, and then I was on the floor. I was only out for a few seconds.
+hpc: Trigger: Standing for a long time in a hot church
+hpc: Warning: Hot, sweaty, nauseous, vision went grey and tunnelled for 30 seconds first
+hpc: During: Out a few seconds; a couple of jerks of the arms, said friends
+hpc: After: Came round quickly, felt washed out, not confused, no injury
+hpc: Food and fluid: Skipped breakfast; only had a coffee
+hpc: Previous: Felt faint once at a blood test as a teenager
+yes: Hot, sweaty and sick beforehand
+no: Palpitations; chest pain; collapse on exertion; tongue biting; incontinence; confusion after; head injury; pregnancy, period last week
+pmh: Nothing
+dh: Combined pill
+all: None
+fh: No sudden deaths; no heart problems
+sh: Non-smoker; drank no alcohol before the ceremony; teacher; drives
+ice: Fainted from the heat | Something wrong with her heart or brain | To know she can drive and go back to work
+cue: Look worried when driving comes up: "I drive to school every day."
+ask: Can I still drive?
+key: What were you doing, and what was the environment like? | Prolonged standing and heat are classic vasovagal triggers
+key: Did you get any warning signs before you fainted? | A prodrome of heat, nausea and greying vision is vasovagal
+key: How long were you out and how did you feel afterwards? | Rapid recovery without confusion
+key: Did you have palpitations or chest pain, and has it ever happened during exercise? | Cardiac red flags
+key: Have you eaten or drunk much today? Any chance you could be pregnant? | Contributing factors and ectopic pregnancy
+rf: Has anyone in your family died suddenly at a young age? | Inherited arrhythmia
+rf: Did you faint while exercising or lying down? | Cardiac syncope
+sum: So after standing a long time in a hot church without breakfast, you felt hot, sick and greyed out, fainted for a few seconds and came round quickly without confusion. No palpitations, chest pain or family history. Is that right?
+pres: Chloe Brennan is a 24-year-old teacher who had a brief loss of consciousness while standing in a hot church after skipping breakfast, with a clear prodrome of heat, nausea and greying vision and a rapid recovery without confusion. Importantly, there were no palpitations, exertional symptoms or family history of sudden death, and a few brief jerks only.
+ddx: Vasovagal syncope, because of a clear trigger, a typical prodrome and a rapid full recovery | Orthostatic hypotension from dehydration, told apart by a postural drop on lying and standing blood pressure | A cardiac arrhythmia or seizure, excluded with a normal ECG and the absence of red flags; a seizure would bring tongue biting and prolonged confusion
+ix: Lying and standing blood pressure; 12-lead ECG checking QTc and for pre-excitation; capillary glucose; pregnancy test; FBC if pale
+mx: Reassure if the ECG is normal; explain triggers and counter-pressure manoeuvres such as crossing the legs and clenching the fists; fluids and regular meals; she can drive under DVLA rules for simple faints; GP review if recurrent
+tell: This was a simple faint, where heat and standing made your blood pressure drop for a moment. Your heart tracing is normal. Eat breakfast, drink plenty, and if you feel it coming, sit or lie down and cross your legs. A simple faint like this doesn't stop you driving. If you faint during exercise or with a racing heart, see a doctor that day.
+
+=== PP11 C
+who: Doreen Clarke, 72, retired dinner lady
+act: Shaken and a little teary; hold the side of your head where you hit it. Speak quickly, then stop to catch your breath.
+open: My heart started racing and I went dizzy and fell. I banged my head on the cupboard.
+story: I was making a cup of tea and suddenly my heart was going like the clappers, all jumpy. I came over dizzy and went down, hitting my head on the kitchen cupboard.
+hpc: Before: Sudden fast, irregular heartbeat, then dizziness
+hpc: Fall: Fell and hit the right side of your head on the cupboard
+hpc: Consciousness: You think you were dazed rather than knocked out
+hpc: Palpitations now: Still feel a bit fluttery
+hpc: Head injury: Small bump; mild headache; no vomiting; no confusion; not drowsy
+hpc: Previous: A few short flutters over the last month
+yes: Palpitations; dizzy; a bit breathless; mild headache at the bump
+no: Chest pain; vomiting; worsening headache; vision changes; weakness or speech problems; seizure; incontinence
+pmh: High blood pressure; type 2 diabetes
+dh: Ramipril 5 mg; metformin 500 mg twice a day; no blood thinners
+all: Penicillin, rash
+fh: Sister had a stroke at 70
+sh: Never smoked; 2 sherries a week; lives alone; independent; daughter nearby
+ice: Something with my heart | A stroke like my sister, or lying on the floor alone | To know what's wrong and get help at home
+cue: "I live on my own. If I'd knocked myself out, nobody would have known."
+ask: Is it my heart? Will it happen again?
+key: Was your heartbeat fast and irregular? Is it still? | AF with fast ventricular response
+key: Did you lose consciousness, and how long were you out? | Syncope versus a fall
+key: Where did you hit your head? Any vomiting, worsening headache, drowsiness or confusion since? | NICE head injury risk factors
+key: Are you on any blood thinners? | Anticoagulation lowers the threshold for a CT head
+key: Any chest pain, breathlessness or weakness of the face or limbs? | Instability and stroke
+rf: Have you vomited more than once, or has the headache got worse? | Intracranial bleed
+rf: Any sudden weakness, droopy face or trouble speaking? | AF-related stroke
+sum: So your heart suddenly raced irregularly, you became dizzy and fell, hitting your head; you weren't knocked out, you've had flutters before, and you're not on any blood thinners. Is that right?
+pres: Mrs Clarke is a 72-year-old woman with hypertension and type 2 diabetes who fell after sudden irregular palpitations and dizziness, striking her head without loss of consciousness, and still feels fluttery. She is not anticoagulated. Importantly, she has no vomiting, worsening headache, confusion or focal neurology.
+ddx: Fast atrial fibrillation causing presyncope and a fall, because of sudden irregular palpitations with dizziness | Orthostatic hypotension or a mechanical fall, told apart by the palpitations and lying and standing blood pressure | A head injury with an intracranial bleed, and a cardioembolic stroke: assess with NICE head injury criteria and neurological examination
+ix: Pulse, observations, 12-lead ECG; U&Es, magnesium, TFTs, FBC, glucose, troponin if indicated; neurological examination; CT head only if NICE criteria are met, lower threshold if anticoagulated; echocardiogram
+mx: Rate control with a beta-blocker or diltiazem; CHA2DS2-VASc is at least 4, female, over 65, hypertension, diabetes, so offer a DOAC after a bleeding risk assessment and once a significant head bleed is excluded; falls assessment; safety at home and a pendant alarm
+tell: Your heart has gone into an irregular rhythm called atrial fibrillation, which made you dizzy. We'll slow it down with a tablet, and because this rhythm raises the risk of stroke, we'll talk about a blood thinner. If you get a worsening headache, vomiting, drowsiness, or weakness or trouble speaking, call 999.
+
+=== PP11 D
+who: Joan Whitfield, 75, retired shop owner
+act: Stoic, minimises everything ("I don't like to bother the doctor"); slightly breathless when talking; pats her chest when describing the pain.
+open: I've fallen over a couple of times when I'm out walking. My daughter made me come.
+story: When I walk a certain distance I feel faint. Twice now I've actually blacked out for a few seconds while walking. I didn't hurt myself. I get chest pain too, but I just slow down.
+hpc: Syncope: Twice while walking, out about 10 seconds, no injury, no incontinence, came round quickly and felt fine
+hpc: Trigger: Only on exertion; not on standing up or after meals
+hpc: Chest pain: Crushing, down the left arm, 6 out of 10, every time you walk about a quarter of a mile; used to manage a mile
+hpc: Breathlessness: On exertion; sleeps on 3 pillows; no waking breathless at night
+hpc: Ankles: Slightly swollen
+yes: Exertional chest pain; exertional breathlessness; orthopnoea; mild ankle swelling; occasional palpitations
+no: Seizures; tongue biting; confusion after; dizziness on standing; weight loss; fever
+pmh: No known heart problems; no rheumatic fever; hasn't seen a doctor for years
+dh: None
+all: None
+fh: Nothing relevant
+sh: Smokes 5 a day, previously 20 a day for 35 years; lives in a bungalow with her husband; daughter nearby; independent
+ice: Getting old | Being a burden on her family | To be checked so her daughter stops worrying
+cue: When you mention the heart: "My husband needs me. I can't be in hospital."
+ask: Is it serious?
+key: Do you black out while you're active, or when you stand up? | Exertional syncope is aortic stenosis or arrhythmia until proven otherwise
+key: Do you get chest pain or breathlessness when you walk? How far can you go? | The triad of syncope, angina and breathlessness
+key: How many pillows do you sleep on, and are your ankles swollen? | Heart failure
+key: Have you ever been told you have a heart murmur? | Known valve disease
+key: Any palpitations before you black out? | Arrhythmia
+rf: Have you had chest pain at rest or pain lasting more than 15 minutes? | ACS
+rf: Did you injure yourself or hit your head? | Injury from syncope
+sum: So when you walk about a quarter of a mile you get crushing chest pain and breathlessness, and twice you've blacked out for a few seconds while walking. You sleep on three pillows and your ankles are a bit swollen. Is that right?
+pres: Mrs Whitfield is a 75-year-old smoker with exertional syncope on two occasions, exertional angina and breathlessness with a reduced exercise tolerance, orthopnoea and mild ankle swelling. Importantly, there are no seizure features and no postural symptoms. This triad is concerning for severe aortic stenosis.
+ddx: Severe aortic stenosis, because of the triad of exertional syncope, angina and breathlessness in an older woman | Ischaemic heart disease with an arrhythmia, told apart by the absence of an ejection systolic murmur and a normal echo | Ventricular arrhythmia or complete heart block, excluded with an ECG and monitoring; and severe AS itself is life-threatening, so avoid vasodilators
+ix: Examination for a slow-rising pulse and ejection systolic murmur radiating to the carotids; ECG; FBC, U&Es, NT-proBNP; CXR; urgent echocardiogram
+mx: Urgent cardiology referral for valve assessment and aortic valve replacement, surgical or TAVI; avoid strenuous exertion and do not start nitrates until assessed; smoking cessation; heart failure treatment as needed; no driving until assessed, DVLA rules
+tell: I'm concerned that one of the valves in your heart has become narrow, which can make you black out when you walk. We'll do a heart scan soon and you'll see the heart team. Valves like this can be replaced, often without open surgery. Until then, please don't push through the pain. If you get chest pain at rest or black out again, call 999.

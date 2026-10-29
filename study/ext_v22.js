@@ -11,7 +11,13 @@ function hqInKind(id, k){ return hqGroupsOf(id).some(gi => OFF.g[gi].k === k); }
 const HQ_SRC = [['all', '🔨', 'Everything'], ['u', '🩺', 'Conditions'], ['d', '💊', 'Drugs'], ['x', '🛠️', 'Tests and procedures'], ['b', '🧭', 'Off the map'], ['m', '🎓', 'My mock'], ['o', '🏛️', 'Official papers']];
 const HQ_PI = {L: '👯', N: '🔢', T: '📍', D: '💊', R: '🪜'};
 const HAM = n => '🔨'.repeat(n);
-let hqCfg = {src: 'all', h: 0, p: '', sys: '', st: '', tgt: '', pp: '', ilo: '', tr: ''};
+/* v2.7: every chip row is multi-select. Inside a row the picks add together (either); across rows they narrow (and).
+   The examiner-pattern row can also be set to "all of these", since one question can belong to several patterns. */
+const HQ_MULTI = {src: 'all', h: '0', p: '', pp: '', ilo: '', tr: '', st: ''};
+let hqCfg = {src: [], h: [], p: [], sys: '', st: [], tgt: '', pp: [], ilo: [], tr: [], trAll: false};
+const hqHas = (arr, v) => !arr.length || arr.includes(String(v));
+function hqActive(){ return Object.keys(HQ_MULTI).some(k => hqCfg[k].length) || !!hqCfg.sys; }
+function hqClear(){ Object.keys(HQ_MULTI).forEach(k => hqCfg[k] = []); hqCfg.sys = ''; hqCfg.trAll = false; }
 let hqSess = null;
 /* every item, hammers and mock, in one shape: {id, t, k, h, p, s, o, a, w, f, ref?} */
 function hqAll(){
@@ -36,16 +42,14 @@ function hqFilter(){
   const c = hqCfg;
   return hqAll().filter(it => {
     if (c.tgt) return c.tgt.slice(0, 2) === 'g:' ? OFF.g[+c.tgt.slice(2)].ids.includes(it.id) : c.tgt === 'mq:' + it.id || c.tgt === 'oq:' + it.id || c.tgt === it.t + ':' + it.k || (c.tgt[0] === 'u' && (it.t === 'm' || it.t === 'o') && 'u:' + it.k === c.tgt);
-    if (c.src !== 'all' && it.t !== c.src) return false;
-    if (c.pp && it.pp !== c.pp) return false;
-    if (c.ilo && it.il !== c.ilo) return false;
-    if (c.tr && !hqInKind(it.id, c.tr)) return false;
-    if (c.h && it.h !== c.h) return false;
-    if (c.p && it.p !== c.p) return false;
+    if (!hqHas(c.src, it.t)) return false;
+    /* paper and ILO verdict exist only for official questions, so they narrow those and let other sources through */
+    if (it.t === 'o' && (!hqHas(c.pp, it.pp) || !hqHas(c.ilo, it.il))) return false;
+    if (c.tr.length && !(c.trAll ? c.tr.every(k => hqInKind(it.id, k)) : c.tr.some(k => hqInKind(it.id, k)))) return false;
+    if (!hqHas(c.h, it.h)) return false;
+    if (!hqHas(c.p, it.p)) return false;
     if (c.sys) { const ui = hqUnitOf(it); if (ui == null || !UNITS[ui] || usys(UNITS[ui]) !== c.sys) return false; }
-    const st = hqStat(it.id);
-    if (c.st === 'new' && st) return false;
-    if (c.st === 'miss' && !(st && st[2] === 0)) return false;
+    if (c.st.length) { const st = hqStat(it.id), isNew = !st, isMiss = !!(st && st[2] === 0); if (!c.st.some(x => x === 'new' ? isNew : x === 'miss' ? isMiss : false)) return false; }
     return true;
   });
 }
@@ -88,7 +92,7 @@ function viewHammer(m){
   if (hqSess) { session = hqSess; return hqDraw(m); }
   const c = hqCfg, list = hqFilter(), all = hqAll();
   const done = all.filter(it => hqStat(it.id)).length, miss = all.filter(it => { const s = hqStat(it.id); return s && s[2] === 0; }).length;
-  const chip = (k, v, lab) => '<button class="chip' + (String(c[k]) === String(v) ? ' on' : '') + '" data-hqset="' + k + ':' + v + '">' + lab + '</button>';
+  const chip = (k, v, lab) => { const on = String(v) === HQ_MULTI[k] ? !c[k].length : c[k].includes(String(v)); return '<button class="chip' + (on ? ' on' : '') + '" data-hqset="' + k + ':' + v + '" aria-pressed="' + on + '">' + lab + '</button>'; };
   let h = '<div class="wrap hq-wrap"><div class="ph"><div class="crumbs"><span class="code">🔨 Hammer</span></div><h1>Hammer SBAs</h1><p class="hint" style="margin:0">Three questions for every ILO condition, drug group, test and procedure, plus the off-map topics, your own mock and 399 questions from the official practice papers 🏛️. <b>🔨</b> the classic picture · <b>🔨🔨</b> two steps, a lookalike or a number that overrides the story · <b>🔨🔨🔨</b> the curveball. After each answer, <b>🔄 the flip</b> shows the one change that would make another option right. Keys: <span class="kbd">A</span>–<span class="kbd">E</span> or <span class="kbd">1</span>–<span class="kbd">5</span>, <span class="kbd">Enter</span> next, <span class="kbd">S</span> 🦅 scan mode, <span class="kbd">Esc</span> leave.</p></div>';
   h += '<div class="tiles">' + [[all.length, 'Questions'], [done, 'Answered'], [miss, 'Missed last time'], [MOCK.q.length, 'From your mock'], [OFF.q.length, 'Official papers']].map(([v, l]) => '<div class="tile"><div class="v">' + v + '</div><div class="l">' + l + '</div></div>').join('') + '</div>';
   h += hqBlueprint() + hqOffBlueprint() + hqIloAudit();
@@ -96,14 +100,14 @@ function viewHammer(m){
   if (c.tgt) {
     h += '<div class="panel"><div class="toolbar"><b class="grow">' + esc(hqTitle(list[0] || {t: c.tgt[0], k: c.tgt.slice(2)})) + ' · ' + list.length + ' questions</b><button class="btn ghost sm" data-hqset="tgt:">✕ Show everything</button></div></div>';
   } else {
-    h += '<div class="panel hq-f"><div class="chips">' + HQ_SRC.map(([k, ic, l]) => chip('src', k, ic + ' ' + l + ' · ' + (k === 'all' ? all.length : all.filter(it => it.t === k).length))).join('') + '</div>'
+    h += '<div class="panel hq-f"><div class="toolbar hq-fhead"><span class="hint grow">Tap as many as you like. <b>Inside a row</b> picks add together; <b>across rows</b> they narrow it down.</span>' + (hqActive() ? '<button class="btn ghost sm" data-hqclear>✕ Clear filters</button>' : '') + '</div><div class="chips">' + HQ_SRC.map(([k, ic, l]) => chip('src', k, ic + ' ' + l + ' · ' + (k === 'all' ? all.length : all.filter(it => it.t === k).length))).join('') + '</div>'
       + '<div class="chips">' + chip('h', 0, 'Any hammer') + [1, 2, 3].map(n => chip('h', n, HAM(n))).join('') + '<span class="hq-sep"></span>' + chip('p', '', 'Any pattern') + Object.keys(HQ.pat).map(p => chip('p', p, HQ_PI[p] + ' ' + esc(HQ.pat[p]))).join('') + '</div>'
-      + (c.src === 'o' ? '<div class="chips">' + chip('pp', '', 'Every paper') + Object.entries(OFF.pp).map(([k, v]) => chip('pp', k, esc(v[0]) + ' · ' + OFF.q.filter(o => o.pp === k).length)).join('') + '<span class="hq-sep"></span>' + chip('ilo', '', 'Any topic') + Object.entries(HQ_IL).map(([k, v]) => chip('ilo', k, v[0] + ' ' + v[1] + ' · ' + OFF.q.filter(o => o.il === k).length)).join('') + '</div>' : '')
-      + '<div class="chips">' + chip('tr', '', '🧬 Any examiner pattern') + Object.entries(HQ_GK).map(([k, v]) => chip('tr', k, v[0] + ' ' + v[1])).join('') + '</div>'
+      + (c.src.includes('o') ? '<div class="chips"><span class="hq-rl">🏛️ Official questions only:</span>' + chip('pp', '', 'Every paper') + Object.entries(OFF.pp).map(([k, v]) => chip('pp', k, esc(v[0]) + ' · ' + OFF.q.filter(o => o.pp === k).length)).join('') + '<span class="hq-sep"></span>' + chip('ilo', '', 'Any topic') + Object.entries(HQ_IL).map(([k, v]) => chip('ilo', k, v[0] + ' ' + v[1] + ' · ' + OFF.q.filter(o => o.il === k).length)).join('') + '</div>' : '')
+      + '<div class="chips">' + chip('tr', '', '🧬 Any examiner pattern') + Object.entries(HQ_GK).map(([k, v]) => chip('tr', k, v[0] + ' ' + v[1])).join('') + (c.tr.length > 1 ? '<span class="hq-sep"></span><span class="seg hq-trm" role="group" aria-label="Match"><button class="chip' + (c.trAll ? '' : ' on') + '" data-hqtrall="0">In any of these</button><button class="chip' + (c.trAll ? ' on' : '') + '" data-hqtrall="1">In all of these</button></span>' : '') + '</div>'
       + '<div class="chips">' + chip('st', '', 'All') + chip('st', 'new', '🆕 Not done') + chip('st', 'miss', '🔥 Missed last time') + '<label class="hq-sys">System <select data-hqsys aria-label="Filter by system"><option value="">All systems</option>' + MEV.sysOptions(c.sys) + '</select></label></div></div>';
   }
   h += '<div class="panel"><div class="toolbar"><b class="grow">' + list.length + ' match</b>' + (list.length ? '<button class="btn primary" data-hqstart="20">▶ Start ' + Math.min(20, list.length) + '</button>' + (list.length > 20 ? '<button class="btn" data-hqstart="0">Start all ' + list.length + '</button>' : '') : '') + '</div>';
-  if (!c.tgt && c.src !== 'all') h += hqIndex(list);
+  if (!c.tgt && c.src.length) h += hqIndex(list);
   h += '</div></div>';
   m.innerHTML = h;
 }
@@ -264,11 +268,19 @@ function hqSearchHtml(q, has){
   return n ? '<h6>🔨 Hammer SBAs</h6><button class="sr" data-hqq="' + esc(q) + '"><span class="where">🔨 ' + n + '</span>Practise every question that mentions “' + esc(q) + '”</button>' : '';
 }
 document.addEventListener('click', e => {
-  const t = e.target.closest && e.target.closest('[data-hqset],[data-hqstart],[data-hqpick],[data-hqx],[data-hqnav],[data-hqgo],[data-hqfin],[data-hqexit],[data-hqretry],[data-hqreview],[data-hqresume],[data-hqdrop],[data-hqtgt],[data-hqq],[data-hqscan],[data-hqgrp]'); if (!t) return;
+  const t = e.target.closest && e.target.closest('[data-hqset],[data-hqclear],[data-hqtrall],[data-hqstart],[data-hqpick],[data-hqx],[data-hqnav],[data-hqgo],[data-hqfin],[data-hqexit],[data-hqretry],[data-hqreview],[data-hqresume],[data-hqdrop],[data-hqtgt],[data-hqq],[data-hqscan],[data-hqgrp]'); if (!t) return;
   const d = t.dataset; e.preventDefault(); e.stopImmediatePropagation();
   const sp = document.getElementById('sp'); if (sp) sp.hidden = true;
   const toHub = () => { if (route.view !== 'hammer') { route = {view: 'hammer'}; try { history.replaceState(null, '', '#hammer'); } catch(x) {} renderSide(); } };
-  if (d.hqset != null) { const i = d.hqset.indexOf(':'), k = d.hqset.slice(0, i), v = d.hqset.slice(i + 1); hqCfg[k] = k === 'h' ? +v : v; if (k === 'tgt' && !v) hqCfg.tgt = ''; if (k === 'src' && v !== 'o') { hqCfg.pp = ''; hqCfg.ilo = ''; } return viewHammer($('#main')); }
+  if (d.hqset != null) {
+    const i = d.hqset.indexOf(':'), k = d.hqset.slice(0, i), v = d.hqset.slice(i + 1);
+    if (k === 'tgt') hqCfg.tgt = v;
+    else if (k in HQ_MULTI) { const a = hqCfg[k]; if (v === HQ_MULTI[k]) hqCfg[k] = []; else { const j = a.indexOf(v); if (j >= 0) a.splice(j, 1); else a.push(v); } if (k === 'tr' && hqCfg.tr.length < 2) hqCfg.trAll = false; }
+    if (!hqCfg.src.includes('o')) { hqCfg.pp = []; hqCfg.ilo = []; }
+    return viewHammer($('#main'));
+  }
+  if (d.hqclear != null) { hqClear(); return viewHammer($('#main')); }
+  if (d.hqtrall != null) { hqCfg.trAll = d.hqtrall === '1'; return viewHammer($('#main')); }
   if (d.hqstart != null) return hqStart(+d.hqstart);
   if (d.hqscan != null) return hqScanToggle();
   if (d.hqgrp != null) { const [gi, j] = d.hqgrp.split(':').map(Number); hqCfg.tgt = 'g:' + gi; hqSess = null; toHub(); hqStart(0); return hqGo(j); }

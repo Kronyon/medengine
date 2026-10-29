@@ -1,0 +1,607 @@
+# Past-paper respiratory and upper GI and surgical stations: full cases.
+
+=== PP15 A
+who: John Adams, 78, retired builder
+act: Breathless between sentences, pursed lips, leaning forward with hands on your knees. Gruff and dismissive: "It's just a smoker's cough." Fiddle with a lighter.
+open: My wife made me come. I've had this cough a couple of weeks, but I feel fine really.
+story: I've coughed up yellow and white phlegm for two weeks. If I'm honest, my breathing has been getting worse for six months. I used to walk the two miles to the shops, now I have to stop twice on the hill.
+hpc: Cough: 2 weeks, productive of yellow and white sputum, more than usual
+hpc: Breathlessness: Progressive over 6 months; stairs now hard; stops twice on the hill to the shops
+hpc: Wheeze: Sometimes in the mornings
+hpc: Sputum: No blood
+hpc: Night: Sleeps on 2 pillows; no waking breathless
+yes: Morning wheeze; more sputum than usual; tired
+no: Coughing blood; weight loss; night sweats; chest pain; fever; ankle swelling; hoarse voice
+pmh: High blood pressure; knee osteoarthritis; enlarged prostate; never had a breathing test
+dh: Amlodipine 10 mg; ramipril 5 mg; Voltarol gel; sildenafil when needed; doxazosin 4 mg
+all: None
+fh: Father had a stroke
+sh: Smokes 50 a day for as long as he can remember, at least 150 pack-years; 3 pints a night, about 50 units a week; retired builder; lives with his wife in a 2-storey house with the toilet upstairs
+ice: Smoker's cough | ONLY IF ASKED: lung cancer, like his mates | To be told it's nothing so his wife stops worrying
+cue: When you ask what worries him, look away: "Two of my mates have had lung cancer."
+ask: Is it cancer?
+ask: Can I go home?
+key: How long have you had the cough, and what are you coughing up? Any blood? | Productive cough and haemoptysis
+key: How far can you walk before you get breathless, and how has that changed? | MRC dyspnoea grade and progression
+key: How many cigarettes a day, and for how many years? | Pack-years: 150
+key: Any wheeze, chest infections every winter, or a cough most mornings? | Chronic bronchitis pattern
+key: Any weight loss, night sweats or change in your voice? | Lung cancer screen
+key: Have you ever worked with dust, asbestos or chemicals? | Occupational lung disease in a builder
+rf: Have you coughed up any blood or lost weight without trying? | Suspected lung cancer: urgent CXR and referral
+rf: Are you breathless at rest or drowsy? | Type 2 respiratory failure
+sum: So you've had two weeks of a productive cough on top of six months of worsening breathlessness, with morning wheeze, after a lifetime of heavy smoking. No blood, weight loss or night sweats. Have I got that right?
+pres: John Adams is a 78-year-old retired builder with a 150 pack-year smoking history presenting with 2 weeks of increased productive cough on a background of 6 months of progressive exertional breathlessness and morning wheeze, now MRC grade 3. Importantly, there is no haemoptysis, weight loss or night sweats, but he is worried about lung cancer.
+ddx: COPD with an infective exacerbation, because of progressive breathlessness, productive cough and wheeze in a heavy smoker | Asthma or heart failure, told apart by spirometry with reversibility and NT-proBNP | Lung cancer, excluded with a CXR and CT if abnormal, and type 2 respiratory failure, assessed with an ABG
+ix: Observations and saturations; ABG given heavy smoking and breathlessness; FBC, U&Es, CRP; sputum culture; CXR; ECG; spirometry when stable, with FEV1/FVC below 0.7 confirming obstruction; CT if the CXR is abnormal
+mx: Controlled oxygen to 88 to 92% via a Venturi mask until the gas is known; nebulised salbutamol and ipratropium; prednisolone 30 mg for 5 days; antibiotics for purulent sputum per local guidance; NIV if acidotic; then smoking cessation, inhaler therapy, pulmonary rehabilitation and vaccines
+tell: Your breathing tests point to COPD, long-term lung damage from smoking, and you've got a chest infection on top. We'll treat the infection and open up your airways. The single best thing you can do is stop smoking, and I'll help with that. We'll also do an X-ray to check your lungs properly, because I know cancer is on your mind.
+
+=== PP15 B
+who: Katherine Miles, 65, retired school dinner lady
+act: Thin, tired, cardigan pulled tight; you cough into a tissue and quickly fold it away. Quiet, flat voice; brighten only when talking about the grandchildren.
+open: I've had this cough for three months and it's getting worse. I'm just so tired.
+story: The cough has been going three months and it's worse now. I'm breathless getting out of bed and doing the housework. I've lost a stone in two months without trying, and I've coughed up blood twice.
+hpc: Cough: 3 months, worsening, mostly dry
+hpc: Haemoptysis: Twice, streaks of bright red blood in the last month
+hpc: Weight: Lost a stone in 2 months; poor appetite
+hpc: Breathlessness: Getting out of bed, stairs, housework
+hpc: Hypercalcaemia: ONLY IF ASKED: very thirsty, passing urine a lot, constipated, feeling muddled and low
+yes: Fatigue; thirst; constipation; feeling low and foggy; reduced appetite
+no: Chest pain; palpitations; wheeze; night sweats; fever; bone pain; headache
+pmh: Hysterectomy and both ovaries removed
+dh: HRT
+all: None
+fh: Dad had bowel cancer; mum had colorectal cancer
+sh: Smokes 20 a day for 50 years, 50 pack-years; 5 units a week; retired dinner lady; lives with her husband; 4 grandchildren
+ice: Cancer | That it's cancer and she won't see the grandchildren grow up | To be told the truth
+cue: When you mention weight loss: "My mum looked like this before she died."
+ask: Is it cancer?
+key: How long has the cough been there, and has it changed? | A change in a smoker's cough over 3 weeks is a red flag
+key: Have you coughed up any blood? How much, and how often? | Haemoptysis
+key: Have you lost weight without trying? How much? | Malignancy
+key: Any thirst, passing lots of urine, constipation, tummy pain or confusion? | Hypercalcaemia from squamous cell carcinoma
+key: Any bone pain, headaches, or change in your voice? | Metastases and recurrent laryngeal nerve
+key: How much do you smoke, and for how long? | 50 pack-years
+rf: Any coughing of blood, unexplained weight loss or a hoarse voice? | Suspected cancer pathway
+rf: Any confusion, drowsiness or vomiting? | Severe hypercalcaemia needs same-day treatment
+sum: So for three months you've had a worsening cough, with blood twice, a stone of weight loss, breathlessness, and you've been thirsty, constipated and foggy. You've smoked 20 a day for 50 years. Is that right?
+pres: Katherine Miles is a 65-year-old woman with a 50 pack-year smoking history presenting with 3 months of worsening cough, two episodes of haemoptysis, a stone of unintentional weight loss and exertional breathlessness, with thirst, polyuria, constipation and low mood suggesting hypercalcaemia. Importantly, she has no chest pain or bone pain.
+ddx: Lung cancer, probably squamous cell carcinoma, because of haemoptysis, weight loss and features of hypercalcaemia from PTHrP in a heavy smoker | Tuberculosis, told apart by night sweats, fever and acid-fast bacilli in sputum | Hypercalcaemia needing urgent treatment, confirmed with an adjusted calcium; and metastatic disease, assessed by staging CT
+ix: Observations; FBC, U&Es, adjusted calcium, PTH, LFTs, CRP; urgent CXR; CT chest, abdomen and pelvis with contrast; bronchoscopy with biopsy or CT-guided biopsy; PET-CT for staging
+mx: Treat hypercalcaemia: IV 0.9% saline then IV bisphosphonate such as zoledronic acid; suspected cancer pathway referral to the lung multidisciplinary team; smoking cessation; lung cancer nurse specialist
+tell: I'm worried about what your symptoms might mean. Coughing blood and losing weight in someone who has smoked can be a sign of lung cancer. We need a scan to find out, and I'll be honest with you when we know. Your calcium may also be high, which explains the thirst and fog, and we can treat that today.
+
+=== PP15 C
+who: Richard Stevenson, 45, IT manager
+act: Well and fit-looking, a bit impatient; you cough a loose, rattly cough and reach for a tissue. Practical: "I want a plan."
+open: I've had a really chesty cough for two months and it's not going away.
+story: I had pneumonia three months ago and was treated. Since then I've had this cough bringing up loads of thick yellow phlegm every day, sometimes with streaks of blood.
+hpc: Cough: 2 months, daily, worst in the mornings
+hpc: Sputum: Large volume, about a cupful a day, thick yellow-green, sometimes foul-smelling
+hpc: Blood: Occasional streaks
+hpc: Previous: Pneumonia 3 months ago, treated with antibiotics; whooping cough as a child
+hpc: Breathing: Fine, still runs
+yes: Tired; streaks of blood; previous childhood whooping cough
+no: Breathlessness; wheeze; weight loss; night sweats; fever now; chest pain; sinus problems; infertility; diarrhoea
+pmh: Pneumonia 3 months ago; whooping cough as a child
+dh: None
+all: None
+fh: Nothing relevant; no cystic fibrosis
+sh: Non-smoker; 4 units a week; runs 3 times a week; IT manager; lives with partner and two children
+ice: The pneumonia never cleared | Lung damage or something serious | To know what's going on and how to get better
+cue: "I just want my energy back. I've got two kids."
+ask: Will this get better?
+key: How much sputum do you bring up each day, and what colour is it? | Large daily volumes suggest bronchiectasis
+key: Any blood in your sputum? | Haemoptysis is common in bronchiectasis
+key: Have you had pneumonia, whooping cough or measles in the past? | Post-infective bronchiectasis
+key: Any breathlessness, wheeze, or recurrent chest infections? | Severity and exacerbations
+key: Any sinus problems, fertility problems or bowel problems? | Primary ciliary dyskinesia, cystic fibrosis
+key: Any weight loss, night sweats or contact with TB? | Tuberculosis and malignancy
+rf: Have you coughed up more than a few streaks of blood? | Massive haemoptysis is an emergency
+rf: Any fevers or feeling very unwell? | Exacerbation needing antibiotics
+sum: So since your pneumonia three months ago you've had a daily cough with a large amount of thick yellow sputum and occasional blood streaks, but you're not breathless and haven't lost weight. Is that right?
+pres: Richard Stevenson is a 45-year-old non-smoker with 2 months of a daily productive cough with large volumes of purulent sputum and occasional blood streaking, following pneumonia 3 months ago and whooping cough in childhood. Importantly, there is no weight loss, night sweats, breathlessness or wheeze.
+ddx: Bronchiectasis, because of a chronic productive cough with large sputum volumes after pneumonia and childhood whooping cough | Unresolved pneumonia or lung abscess, told apart by fever and a cavity or consolidation on CXR | Tuberculosis or an endobronchial tumour, excluded with sputum for acid-fast bacilli and imaging
+ix: Sputum culture including Pseudomonas and acid-fast bacilli; FBC, CRP, immunoglobulins, Aspergillus serology; CXR; high-resolution CT chest, the diagnostic test; spirometry
+mx: Respiratory referral; airway clearance with chest physiotherapy daily; vaccines; antibiotics for exacerbations guided by sputum culture, usually 14 days; consider long-term macrolide if frequent exacerbations
+tell: I think the pneumonia may have damaged some of your airways, so they hold on to mucus and get infected. A detailed CT scan will tell us. The main treatment is daily chest clearance exercises a physiotherapist will teach you, with antibiotics when you get a flare. If you cough up more than a few streaks of blood, come straight in.
+
+=== PP17 A
+who: Jess Patel, 21, university student
+act: Casual, a bit bored by the review; you rattle your blue inhaler in your pocket. When asked to use your inhaler or peak flow, do it badly at first: no tight seal and a fast, short breath.
+open: I'm here for my asthma review. It's fine, I just use my blue one.
+story: I was diagnosed as a kid and was fine for ages. Recently I get out of breath when I exercise and most mornings, so I'm using the blue inhaler most days. I'm not sure what the brown one's for, so I only use it now and then.
+hpc: Reliever use: Blue inhaler most days, sometimes twice a day
+hpc: Preventer: Brown inhaler occasionally; doesn't know it's a steroid preventer; doesn't rinse mouth
+hpc: Symptoms: Breathless with exercise and most mornings; worse in the cold
+hpc: Night: Rarely woken
+hpc: Attacks: No hospital admissions; no severe attacks since childhood
+hpc: Triggers: Exercise, cold air, house dust at the student flat
+yes: Eczema as a child; worse in cold weather
+no: Admissions; ICU; oral steroids this year; night waking most nights; smoking or vaping; pets
+pmh: Asthma since childhood; childhood eczema
+dh: Salbutamol inhaler when needed; beclometasone brown inhaler twice a day, used occasionally
+all: None
+fh: Mum has hay fever
+sh: Non-smoker, no vaping; university student in a shared flat; 10 units a week; plays netball
+ice: The blue one works fine | Being told off | To keep using the blue one
+cue: When you explain the brown inhaler: "Nobody ever told me what it actually does."
+ask: Why do I need the brown one if the blue one works?
+key: How often do you use your blue inhaler in a week? | Reliever use 3 or more times a week means poor control
+key: How often do you use the brown inhaler, and what do you think it does? | Adherence and understanding of ICS
+key: Do you wake at night with cough or wheeze? Any time off university? | Control questions
+key: Have you had any attacks needing steroid tablets, A&E or admission? | Severity and risk
+key: What sets it off, and do you smoke or vape? | Triggers
+key: Can you show me how you use your inhaler, and blow into the peak flow meter? | Technique is the commonest fixable cause
+rf: Have you ever been admitted to intensive care or needed steroid tablets this year? | High-risk asthma
+rf: Are you ever too breathless to talk, or has the blue inhaler stopped working? | Severe attack plan
+sum: So you're using the blue inhaler most days, breathless with exercise and most mornings, and only using the brown preventer occasionally because nobody explained it. No hospital visits. Is that right?
+pres: Jess Patel is a 21-year-old student with childhood-onset asthma, now poorly controlled with daily reliever use and exercise and morning symptoms, due to infrequent use of her inhaled corticosteroid and a poor inhaler technique. Importantly, she has had no admissions, oral steroids or night waking most nights.
+ddx: Poorly controlled asthma from inhaled corticosteroid under-use and poor technique, because she uses her reliever daily and her preventer rarely | Exercise-induced bronchoconstriction alone, told apart by symptoms only with exercise | An alternative such as vocal cord dysfunction or anxiety-related breathlessness, considered if control stays poor despite good adherence
+ix: Peak flow against predicted and best, with technique checked; inhaler technique; asthma control questionnaire; FeNO if available; review of prescriptions issued
+mx: Explain the preventer; switch to an ICS with formoterol inhaler as maintenance and reliever therapy, MART, per NICE and BTS 2024; check technique and use a spacer for a metered-dose inhaler; personalised asthma action plan; flu vaccine; review in 4 to 8 weeks
+tell: The blue inhaler opens your airways for a few hours, but it does nothing for the swelling inside them, which is why you keep needing it. The preventer calms that swelling so you need the blue one less. We'll switch you to one inhaler that does both jobs. Rinse your mouth after. If your inhaler isn't helping or you're too breathless to talk, call 999.
+
+=== PP18 A
+who: Polly Turner, 72, retired florist
+act: Breathless at rest, sitting upright and leaning slightly to the right; swollen, knobbly finger joints you rub. Uncomfortable but cheerful.
+open: I've been short of breath for a couple of days, and it hurts when I take a deep breath.
+story: Two days ago I started getting more and more breathless, and there's a sharp pain on the right when I breathe in deeply. I've got a little dry cough. My arthritis has been bad lately too.
+hpc: Breathlessness: 2 days, worsening, now at rest
+hpc: Pain: Right-sided, sharp, worse on deep breaths
+hpc: Cough: Mild, dry
+hpc: Rheumatoid arthritis: Hands swollen and painful; poorly controlled for months
+yes: Pleuritic right chest pain; dry cough; active joint pain; tired
+no: Fever; sputum; haemoptysis; weight loss; night sweats; calf swelling; orthopnoea; ankle swelling; recent travel
+pmh: Rheumatoid arthritis for 30 years, poorly controlled; high blood pressure
+dh: Methotrexate 15 mg once a week with folic acid; amlodipine 5 mg; atorvastatin 20 mg
+all: None
+fh: Mother had rheumatoid arthritis
+sh: Never smoked; no alcohol; lives alone, copes; family nearby; never worked with asbestos
+ice: Pneumonia | That it's pneumonia and she'll be in hospital for ages | Antibiotics and home
+cue: "I can't be in hospital long. Who'll feed the cat?"
+ask: Is it pneumonia?
+key: How long have you been breathless, and is it getting worse? | Tempo
+key: Is the pain sharp and worse on breathing in? | Pleuritic pain
+key: Any fever, coloured sputum or coughing blood? | Pneumonia and malignancy
+key: How has your arthritis been, and what treatment are you on? | Rheumatoid effusion; methotrexate pneumonitis
+key: Any weight loss, night sweats, or asbestos exposure? | Malignant effusion and mesothelioma
+key: Any orthopnoea, ankle swelling, or one swollen calf? | Heart failure and PE
+rf: Are you breathless at rest, or coughing blood? | Severity and malignancy
+rf: Any calf pain or swelling, or recent immobility? | Pulmonary embolism
+sum: So for two days you've been increasingly breathless with sharp right-sided pain on breathing in and a dry cough, and your rheumatoid arthritis has been flaring. No fever, sputum or weight loss. Is that right?
+pres: Polly Turner is a 72-year-old woman with poorly controlled rheumatoid arthritis on methotrexate presenting with 2 days of worsening breathlessness, right pleuritic chest pain and a dry cough. On examination there is reduced expansion, stony dull percussion and reduced breath sounds and vocal resonance at the right base. Importantly, she has no fever, sputum, weight loss or features of heart failure.
+ddx: A right pleural effusion, likely a rheumatoid exudate, because of stony dull percussion with reduced breath sounds and active RA | Parapneumonic effusion or empyema, told apart by fever, raised CRP and a low pH on pleural fluid | Malignancy, PE and methotrexate pneumonitis: excluded with pleural cytology, CT and CTPA if indicated
+ix: Observations and saturations; FBC, U&Es, CRP, LFTs, LDH, protein; CXR; ultrasound-guided diagnostic pleural aspiration: protein, LDH and Light's criteria, glucose, which is very low in rheumatoid effusions, pH, cell count, MC&S and cytology; CT chest with contrast if exudate
+mx: Oxygen to target; analgesia; therapeutic aspiration or a chest drain if large, symptomatic or infected; rheumatology review of RA control and methotrexate; respiratory follow-up
+tell: There's fluid around your right lung, which is why you're breathless. Your arthritis can sometimes cause this. We'll take a small sample of the fluid with a needle using an ultrasound to find out why, and drain more if it's making you breathless. If your breathing gets suddenly worse, tell the nurse immediately.
+
+=== PP20 A
+who: Maria Smith, 22, marathon runner and dental nurse
+act: Very anxious, breathing fast and shallow, one hand on the left side of your chest; you wince on deep breaths. Keep asking if it's a heart attack.
+open: I've got this sharp pain in my chest and I can't catch my breath. Am I having a heart attack?
+story: It came on suddenly this morning on the left side. It's sharp, worse when I breathe in, and I'm breathless even sitting here. I normally run marathons.
+hpc: Site: Left side of the chest; does not spread
+hpc: Onset: Sudden, this morning at rest
+hpc: Character: Sharp, stabbing
+hpc: Worse: Deep breaths and coughing; not helped by paracetamol
+hpc: Severity: 7 out of 10
+hpc: Breathlessness: At rest; worse walking a few steps
+hpc: Recent surgery: Keyhole appendix operation 3 weeks ago; sofa-bound for a week after
+yes: Breathless; a small amount of blood in sputum once; left calf ache since the operation
+no: Fever; productive cough; palpitations; fainting; leg trauma; flights; previous clots
+pmh: Laparoscopic appendicectomy 3 weeks ago
+dh: Combined oral contraceptive pill
+all: Penicillin: rash
+fh: Nothing known
+sh: Smokes 10 a day for 5 years; 8 units a week; dental nurse; lives with flatmates
+ice: Heart attack | Dying | Something to stop the pain and to know what it is
+cue: When asked about worries, voice shakes: "I'm only 22. I run marathons."
+ask: Am I having a heart attack?
+key: When did the pain start, was it sudden, and is it worse when you breathe in? | Pleuritic pain of sudden onset
+key: Are you breathless at rest? Any coughing up blood? | PE features
+key: Have you had any recent surgery, immobility or long journeys? | Provoking factors
+key: Any pain or swelling in your calves? | DVT
+key: Are you on the pill, and do you smoke? Any chance you could be pregnant? | Oestrogen and smoking raise risk; pregnancy changes imaging
+key: Any previous clots, or clots in the family? | Thrombophilia
+rf: Have you fainted, or felt your heart racing? | Massive PE with haemodynamic compromise
+rf: Any fever or productive cough? | Pneumonia as an alternative
+sum: So this morning you suddenly got sharp left-sided chest pain worse on breathing in, you're breathless at rest, you coughed a little blood once, and your left calf has ached since your appendix operation three weeks ago. You're on the pill and smoke. Is that right?
+pres: Maria Smith is a 22-year-old woman presenting with sudden-onset left pleuritic chest pain, breathlessness at rest and one episode of haemoptysis, 3 weeks after a laparoscopic appendicectomy with reduced mobility. She takes the combined pill and smokes 10 a day, and has had left calf ache since surgery. Importantly, there is no fever or productive cough.
+ddx: Pulmonary embolism, because of sudden pleuritic pain, breathlessness and haemoptysis with recent surgery and the combined pill | Pneumothorax or pneumonia, told apart by a CXR and the absence of fever | Massive PE, assessed by heart rate, blood pressure and signs of right heart strain; ACS is very unlikely at 22
+ix: Observations; Wells score, likely PE here; ECG; ABG if hypoxic; FBC, U&Es, clotting, pregnancy test; CXR; CTPA; leg ultrasound if CTPA is delayed
+mx: Oxygen to 94 to 98%; analgesia; start interim anticoagulation with apixaban or rivaroxaban while waiting for CTPA if there will be a delay; if confirmed, treat for 3 months as a provoked PE; stop the combined pill and offer non-oestrogen contraception; smoking cessation; thrombolysis only if massive PE with shock
+tell: I don't think this is a heart attack. I'm worried you have a blood clot in your lung, which can happen after an operation and with the pill. We'll start a blood thinner now and do a scan to confirm it. If you feel faint, get worse breathing or your heart races, tell us straight away.
+
+=== PP22 A
+who: Sarah Johnson, 30, stay-at-home mum
+act: Lying very still, knees slightly bent, guarding your right upper tummy; flinch if you move or take a deep breath. Worried about your children at home.
+open: I've had this awful pain under my ribs on the right since this morning, and it won't go.
+story: It came on suddenly while I was just sitting. It goes through to my back and up to my right shoulder. It's like my gallstone pain but it hasn't gone away. It's been constant for over six hours.
+hpc: Site: Right upper abdomen, under the ribs
+hpc: Onset: Sudden, at rest, about 7 hours ago
+hpc: Character: Constant, sharp
+hpc: Radiation: To the back and the right shoulder tip
+hpc: Worse: Moving and breathing in
+hpc: Relief: 2 paracetamol helped slightly
+hpc: Severity: 7 out of 10
+hpc: Previous: Gallstone pain before, but it always settled in an hour or two
+yes: Nausea; vomited twice; feels feverish and shivery
+no: Jaundice; dark urine; pale stools; change in bowels; urinary symptoms; chest pain; breathlessness; vaginal bleeding; pregnancy, period 2 weeks ago
+pmh: Gallstones on ultrasound last year; high cholesterol; no operations
+dh: Atorvastatin 10 mg
+all: None
+fh: Dad died of a heart attack
+sh: Non-smoker; minimal alcohol; stay-at-home mum with 3 children; husband at work
+ice: Worried it might be her heart, like Dad | Needing an operation and being away from the children | Pain relief and to get home
+cue: "My husband's at work. Who's going to pick the kids up?"
+ask: Is it my heart?
+ask: Will I need an operation?
+key: Where is the pain, does it spread anywhere, and how long has it been constant? | Constant pain over 6 hours suggests cholecystitis rather than biliary colic
+key: Is it worse when you move or breathe in? | Peritoneal irritation
+key: Have you had a fever, sweats or shivers? | Inflammation and infection
+key: Any yellow skin or eyes, dark urine or pale stools? | Obstruction and cholangitis
+key: Any vomiting, and can you keep fluids down? | Hydration
+key: Any chance you could be pregnant? | Pregnancy test before imaging and surgery
+rf: Any jaundice with fever and rigors? | Charcot's triad: cholangitis
+rf: Any chest pain, sweating or breathlessness? | Inferior MI can mimic upper abdominal pain
+sum: So since this morning you've had constant sharp right upper pain going to your back and shoulder tip, worse on moving and breathing, with vomiting and fever, unlike your usual gallstone pain that settles. No jaundice. Is that right?
+pres: Mrs Johnson is a 30-year-old woman with known gallstones presenting with 7 hours of constant right upper quadrant pain radiating to the back and right shoulder tip, worse on movement and inspiration, with fever and vomiting. Importantly, there is no jaundice, dark urine or pale stools, and no cardiac features.
+ddx: Acute calculous cholecystitis, because of constant RUQ pain over 6 hours with fever in a woman with known gallstones | Biliary colic, told apart by pain settling within hours and no fever | Cholangitis, excluded by the absence of jaundice and normal bilirubin; and an inferior MI, excluded with an ECG and troponin
+ix: Observations; urine dip and pregnancy test; ECG; FBC, CRP, LFTs, amylase or lipase, U&Es, blood cultures if febrile; abdominal ultrasound showing a thickened gallbladder wall, stones and pericholecystic fluid
+mx: Analgesia; IV fluids; IV antibiotics per local guidance; antiemetics; surgical review; laparoscopic cholecystectomy within a week of diagnosis per NICE
+tell: Your heart tracing is normal, so this isn't your heart. I think your gallbladder is inflamed by a stone. We'll give you pain relief, fluids and antibiotics, and the surgeons will talk about taking the gallbladder out with keyhole surgery, ideally during this admission. If you go yellow or get shivers, tell us.
+
+=== PP22 B
+who: Sarah Johnson, 40, school administrator
+act: Shivering under the blanket, flushed and sweaty; yellow-tinged eyes. Weak, slightly slow to answer. Let them examine you.
+open: I've had pain on the right for a day, and now I'm shivering and my husband says I've gone yellow.
+story: Yesterday the pain started under my right ribs. Last night I had shivers I couldn't stop, and this morning my eyes were yellow. My wee is dark like tea.
+hpc: Pain: 24 hours, right upper abdomen, constant, 7 out of 10
+hpc: Fever: High fevers and shaking rigors since last night
+hpc: Jaundice: Yellow eyes since this morning
+hpc: Urine and stool: Dark tea-coloured urine; pale stools
+hpc: Itch: Mild itch
+yes: Rigors; jaundice; dark urine; pale stools; nausea
+no: Confusion; vomiting blood; weight loss; alcohol excess; foreign travel; new medicines; previous liver disease
+pmh: Known gallstones
+dh: None
+all: None
+fh: Nothing relevant
+sh: Non-smoker; 4 units a week; school administrator; lives with husband
+ice: A bad stomach bug | Something wrong with her liver | To know what's wrong and whether she needs an operation
+cue: Shivering: "I've never felt this ill."
+ask: What's wrong with me? Do I need an operation?
+key: Where is the pain and how long have you had it? | Biliary origin
+key: Any fever or shaking chills? | Rigors suggest bacteraemia
+key: Have you gone yellow, and is your urine dark or stool pale? | Obstructive jaundice
+key: Any itching? | Cholestasis
+key: Any confusion or feeling faint? | Reynolds' pentad: severe cholangitis
+key: Any alcohol, new medicines or travel? | Other causes of jaundice
+rf: Any confusion or dizziness on standing? | Septic shock
+rf: Any vomiting blood? | Complications
+sum: So for a day you've had right upper pain, with high fevers and shakes since last night, and since this morning yellow eyes, dark urine and pale stools. You've known gallstones. Is that right?
+pres: Mrs Johnson is a 40-year-old woman with known gallstones presenting with 24 hours of RUQ pain, fever with rigors and jaundice, with dark urine and pale stools, fulfilling Charcot's triad. Importantly, she is not confused and there are no signs of shock yet.
+ddx: Acute ascending cholangitis from a common bile duct stone, because of Charcot's triad of RUQ pain, fever and jaundice | Acute cholecystitis with Mirizzi syndrome, told apart on ultrasound and MRCP | Septic shock and pancreatitis, assessed with observations, lactate and lipase
+ix: Observations and Sepsis Six; blood cultures before antibiotics; FBC, CRP, LFTs showing an obstructive picture, U&Es, clotting, lipase, lactate; abdominal ultrasound for a dilated common bile duct; MRCP
+mx: Resuscitate with IV fluids; IV antibiotics per local guidance within the hour; analgesia; senior surgical and gastroenterology review; ERCP for biliary drainage, urgently if not responding; cholecystectomy later
+tell: I think a gallstone is blocking the main bile pipe and it's become infected, which is why you're yellow and shivering. This is serious but treatable. We'll start antibiotics and fluids now, and you'll likely need a camera test through the mouth to unblock the pipe. Later, the surgeons may remove your gallbladder.
+
+=== PP23 A
+who: Darren Walsh, 36, lorry driver
+act: Sitting bolt upright, leaning forward, arms wrapped round your stomach; grimacing and sweaty. Lie back and the pain worsens: sit straight up again.
+open: This pain is killing me. It woke me up at four this morning.
+story: I woke up at four with this terrible pain above my belly button. It goes right through to my back. It's constant and nothing helps. I've been sick three times.
+hpc: Site: Epigastric, "above my belly button"
+hpc: Onset: Sudden, woke him at 4am, 6 hours ago
+hpc: Character: Deep, gnawing, boring, constant
+hpc: Radiation: Straight through to the back
+hpc: Worse and better: Worse lying flat; better sitting forward
+hpc: Severity: 8 to 9 out of 10
+hpc: Previous: Occasional right upper pain after fatty meals over recent months
+yes: Vomited 3 times, no blood; loose stools, no blood; hot and sweaty
+no: Blood in vomit or stool; jaundice; urinary symptoms; chest pain; recent alcohol binge; previous gallstones diagnosed; ERCP; new medicines
+pmh: Nothing; BMI 40
+dh: None
+all: None
+fh: Mother, younger sister and older brother all had their gallbladders out for stones or infection
+sh: Lager at weekends, about 12 units; non-smoker; HGV lorry driver; lives with partner
+ice: Food poisoning | That it's serious and he'll lose his job | Pain relief and to get back to work
+cue: "If I can't drive, I don't get paid."
+ask: Is it serious?
+key: Where exactly is the pain, and does it go through to your back? | Pancreatic pain bores through to the back
+key: Is it better sitting forward and worse lying flat? | Classic of pancreatitis
+key: How much alcohol do you drink, and any recent heavy drinking? | Alcohol is a leading cause
+key: Have you had pain after fatty meals, or gallstones in the family? | Gallstones are the commonest cause
+key: Any vomiting, and is there blood in it? | Severity and bleeding
+key: Any new medicines, high triglycerides or recent procedures? | Other causes
+rf: Any breathlessness, confusion or feeling faint? | Severe pancreatitis with organ failure
+rf: Any blood in the vomit, or black stools? | Perforated ulcer or bleed
+sum: So you woke at 4am with severe constant upper tummy pain boring through to your back, better sitting forward, with vomiting, after months of pain after fatty meals, and your family have gallstones. You drink about 12 units a week. Is that right?
+pres: Darren Walsh is a 36-year-old lorry driver with a BMI of 40 presenting with 6 hours of sudden severe epigastric pain radiating to the back, relieved by sitting forward, with vomiting. He has had recent post-prandial RUQ pain and a strong family history of gallstones, with modest alcohol intake. Importantly, there is no haematemesis, melaena or jaundice.
+ddx: Acute pancreatitis, likely gallstone-related, because of epigastric pain boring to the back, better sitting forward, with risk factors for gallstones | Perforated peptic ulcer, told apart by sudden generalised peritonism and free air on an erect CXR | A leaking abdominal aortic aneurysm or inferior MI, excluded with an ECG and imaging
+ix: Observations; serum lipase or amylase above 3 times normal; FBC, U&Es, LFTs, CRP, calcium, glucose, triglycerides, ABG; Glasgow severity score; erect CXR; abdominal ultrasound for gallstones; CT if diagnosis unclear or not improving after 48 to 72 hours
+mx: IV fluids guided by urine output; analgesia; antiemetics; early oral feeding; no prophylactic antibiotics; HDU if severe; cholecystectomy during the same admission for mild gallstone pancreatitis; ERCP if obstructed or cholangitis
+tell: I think your pancreas is inflamed, most likely because a gallstone has blocked its outlet. We'll give you fluids and strong pain relief and check how severe it is. The surgeons will probably take your gallbladder out before you go home to stop it happening again. I'll give you advice about driving and work once we know more.
+
+=== PP24 A
+who: Edna Fairweather, 82, retired seamstress
+act: Lying very still, flinching if anyone bumps the bed; polite, apologetic and grateful. Only mention the urinary symptoms if asked directly, looking embarrassed.
+open: I'm so sorry to bother you, dear. My tummy has been very sore for two days.
+story: It started low down on the left two days ago and it's got worse. Since yesterday it's more all over. I've been hot and sweaty and sick. I had something like this last year and ended up in hospital.
+hpc: Site: Left lower abdomen, more generalised in the last 24 hours
+hpc: Onset: 2 days, gradual, worsening
+hpc: Character: Constant, sore
+hpc: Severity: 9 out of 10
+hpc: Better and worse: Keeping still; some relief opening bowels
+hpc: Bowels: Opened 3 days ago, variable usually; passing wind; not sure about blood
+hpc: Urine: ONLY IF ASKED: passing water more often, stinging, discomfort low down, and bubbles in the urine
+yes: Fever; nausea; vomiting; sweaty; eating less; urinary frequency; dysuria; bubbles in the urine if asked
+no: Vomiting blood; black stools; weight loss; vaginal bleeding or discharge; chest pain
+pmh: Similar episode last year needing admission; pneumonia last year; left knee osteoarthritis; high blood pressure
+dh: Paracetamol; amlodipine; ramipril; simvastatin; unsure of doses
+all: Penicillin: rash
+fh: Nothing relevant
+sh: Non-smoker; one gin and tonic on Fridays; lives alone, independent; daughter visits weekly
+ice: Her bowel playing up again | Being a burden | To get better and go home
+cue: "I don't want to be any trouble to anyone."
+ask: Is it like last time?
+key: Where did the pain start, and has it spread? | LIF pain becoming generalised suggests perforation or peritonitis
+key: Any fever, vomiting or sweats? | Complicated diverticulitis
+key: When did you last open your bowels, and any blood or mucus? | Obstruction and bleeding
+key: Any burning when passing water, needing to go more, or bubbles or air in your urine? | Colovesical fistula: pneumaturia
+key: Have you had this before? | Recurrent diverticulitis
+key: What is your allergy to penicillin like? | Antibiotic choice
+rf: Is the pain now all over your tummy and worse when you move? | Peritonitis from perforation
+rf: Any vomiting with no bowel opening or wind? | Obstruction
+sum: So for two days you've had worsening left lower tummy pain, spreading over the last day, with fever and vomiting, and you've been passing water more often with stinging and bubbles. You had something similar last year. Is that right?
+pres: Mrs Fairweather is an 82-year-old woman with 2 days of worsening severe left iliac fossa pain, more generalised over 24 hours, with fever, nausea and vomiting, and a previous admission for a similar episode. On direct questioning she has urinary frequency, dysuria and pneumaturia. She is allergic to penicillin. Importantly, she is still passing flatus and has no rectal bleeding.
+ddx: Acute diverticulitis complicated by a colovesical fistula, because of LIF pain and fever with pneumaturia and recurrent episodes | Colorectal cancer with a fistula, told apart by colonoscopy or CT colonography once settled | Perforation with peritonitis or an abscess, given the spreading pain: CT now
+ix: Observations and NEWS2; urine dip and culture; FBC, CRP, U&Es, LFTs, lactate, group and save, blood cultures; erect CXR; CT abdomen and pelvis with contrast; colonoscopy or CT colonography after recovery
+mx: Admit; IV fluids; analgesia; IV antibiotics per local guidance avoiding penicillin, for example a cephalosporin with metronidazole as her reaction was a rash; percutaneous drainage of any abscess; surgical review for the fistula and for any perforation
+tell: I think the pouches in your bowel are inflamed again, and it may have made a small connection to your bladder, which is why there's air in your urine. We'll give you antibiotics that are safe with your allergy, fluids and pain relief, and do a scan. You're not a burden at all; this is exactly what we're here for.
+
+=== PP24 B
+who: Graham Ashworth, 74, retired accountant
+act: Hot, flushed and clammy; you look unwell but keep insisting you'd rather stay home. Wince when you shift in the chair.
+open: My tummy pain has been getting worse for three days. I'd really rather not go into hospital.
+story: It's the left lower side of my tummy. It started three days ago and now it's constant. I've had a temperature and loose stools. I know I've got diverticular disease from a colonoscopy.
+hpc: Site: Left lower abdomen
+hpc: Duration: 3 days, now constant and worse
+hpc: Fever: Feverish and shivery today
+hpc: Bowels: Loose stools 3 times a day; no blood
+hpc: Severity: 7 out of 10
+hpc: Fluids: Drinking a little; passed urine less today
+yes: Fever; rigors today; nausea; loose stools; feels dizzy on standing
+no: Rectal bleeding; vomiting blood; urinary symptoms; previous admission
+pmh: Diverticular disease on colonoscopy 3 years ago; type 2 diabetes; high blood pressure
+dh: Metformin 1 g twice daily; ramipril 5 mg
+all: None
+fh: Nothing relevant
+sh: Ex-smoker; 6 units a week; lives with his wife
+ice: A flare of his diverticular disease | Being admitted | To stay home with tablets
+cue: "My wife isn't well herself. I'm her carer."
+ask: Can't you just give me tablets?
+key: Where is the pain and for how long? | LIF pain
+key: Do you have a temperature, shivers or rigors? | Systemic infection
+key: Are you passing urine as normal, and do you feel dizzy on standing? | Sepsis and dehydration
+key: Any blood in your stools? | Bleeding
+key: How are your diabetes and fluid intake? | Sick-day rules: metformin and ramipril
+rf: Are you shivering uncontrollably or confused? | Sepsis
+rf: Is the pain spreading or worse on movement? | Perforation
+sum: So you've had three days of constant left lower tummy pain with fever and rigors today, loose stools, less urine and dizziness on standing, and you know you have diverticular disease. Is that right?
+pres: Mr Ashworth is a 74-year-old man with known diverticular disease and type 2 diabetes presenting with 3 days of worsening left iliac fossa pain, fever with rigors, reduced urine output and postural dizziness. His observations show tachycardia and fever. Importantly, there is no rectal bleeding, but he has features of sepsis.
+ddx: Acute diverticulitis with sepsis, because of LIF pain, fever, rigors and reduced urine output in known diverticular disease | Uncomplicated diverticulitis that could be managed at home, ruled out by the systemic features | Perforation or abscess, which need a CT, and AKI from sepsis with metformin and ramipril
+ix: In primary care: observations and NEWS2, which will be raised; capillary glucose; urine dip; then in hospital: bloods including lactate, cultures and CT abdomen and pelvis
+mx: Same-day admission to the surgical team, by ambulance if NEWS2 is high; tell the receiving team; withhold metformin and ramipril while unwell, sick-day rules; arrange support for his wife
+tell: I know you'd prefer to stay home, but your temperature, shivers and lower urine mean the infection has got into your system, and tablets at home aren't safe enough. You need to go into hospital today for antibiotics through a drip and a scan. I'll ring them now, and we'll make sure someone checks on your wife.
+
+=== PP26 A
+who: Mary Smith, 27, finance assistant
+act: Lying still on your back, right knee slightly drawn up; wince when the bed is bumped or when you cough. Impatient to get back to work.
+open: I've had tummy pain for a few days, but last night it got really bad and woke me up.
+story: It started three days ago as a vague ache in the middle. Last night it woke me with a really severe pain low down, more on the right. Moving makes it worse.
+hpc: Site: Started central and vague; now lower abdomen, right worse than left
+hpc: Onset: 3 days, worse overnight
+hpc: Character: Constant, sharp now
+hpc: Worse: Moving, coughing, going over bumps in the car
+hpc: Severity: 10 out of 10 at worst
+hpc: Appetite: Off food for 2 days
+yes: Nausea; vomited once; hot and sweaty; off food
+no: Urinary symptoms; vaginal discharge; abnormal bleeding; missed pills; diarrhoea; blood in stool; shoulder tip pain
+pmh: Nothing
+dh: Combined pill, no missed pills
+all: None
+fh: Heart problems on her father's side
+sh: Smokes 15 a day; 10 pints at weekends; finance assistant; lives with boyfriend
+ice: Food poisoning | Missing work | Painkillers and to go back to work
+cue: "I've got a deadline on Friday. I really can't be off."
+ask: Can I go back to work tomorrow?
+key: Where did the pain start, and where is it now? | Migration from the umbilicus to the RIF is classic
+key: Does moving or coughing make it worse? | Peritonism
+key: Have you lost your appetite, been sick or had a temperature? | Anorexia, vomiting, fever
+key: When was your last period, any chance you could be pregnant, and any unusual bleeding or discharge? | Ectopic pregnancy and PID
+key: Any burning when passing urine or needing to go more? | UTI and renal colic
+key: Any sudden one-sided pain with nausea that comes and goes? | Ovarian torsion
+rf: Could you be pregnant? Any shoulder tip pain or fainting? | Ruptured ectopic pregnancy
+rf: Is the pain now all over your tummy? | Perforated appendix
+sum: So the pain started vaguely in the middle three days ago, moved to the lower right and got severe overnight, it's worse moving, and you've been off food, nauseous, sick once and sweaty. No urinary or gynaecological symptoms. Is that right?
+pres: Mary Smith is a 27-year-old woman with 3 days of periumbilical pain migrating to the right iliac fossa, now severe and worse on movement, with anorexia, nausea, vomiting and fever. She takes the combined pill with no missed pills. Importantly, she has no urinary, vaginal or bowel symptoms and no shoulder tip pain.
+ddx: Acute appendicitis, because of migratory pain to the RIF with anorexia, vomiting and peritonism | Ovarian torsion or a ruptured cyst, told apart by sudden one-sided pain and a pelvic ultrasound | Ectopic pregnancy, excluded with a pregnancy test in every woman of childbearing age; and PID
+ix: Observations; urine dip and pregnancy test; FBC, CRP, U&Es, group and save; pelvic and abdominal ultrasound in women; CT if diagnosis remains unclear
+mx: Nil by mouth; IV fluids; analgesia; antiemetic; IV antibiotics per local guidance; surgical review for laparoscopic appendicectomy
+tell: I think your appendix is inflamed. The treatment is usually a keyhole operation to remove it, followed by a week or two off work. We'll do a pregnancy test and a scan first, give you pain relief and fluids, and the surgeons will see you. If the pain suddenly spreads, tell us.
+
+=== PP29 A
+who: Paul Kennedy, 52, self-employed decorator
+act: Pale and shaky, a sick bowl on your lap. Defensive and evasive when alcohol comes up ("I like a drink, who doesn't"). Open up only if asked kindly and without judgement.
+open: I've been sick with blood this morning, twice. Quite a lot.
+story: I vomited fresh blood twice this morning, about a cupful each time. I felt dizzy afterwards. Yesterday my poo was black.
+hpc: Haematemesis: Twice this morning, fresh red blood, about a cupful each
+hpc: Melaena: Black, sticky stools yesterday
+hpc: Dizziness: Light-headed when standing
+hpc: Pain: None
+hpc: Alcohol: ONLY IF ASKED kindly: about 2 bottles of wine a day for years; last drink last night
+yes: Dizzy on standing; black stools; swollen tummy lately; easy bruising
+no: Retching before the blood; NSAIDs; aspirin; anticoagulants; weight loss; chest pain; previous scope
+pmh: "My liver tests were off once"; no follow-up
+dh: None
+all: None
+fh: Father a heavy drinker, died of liver disease
+sh: About 2 bottles of wine a day, roughly 150 units a week, if asked kindly; shakes in the mornings; smokes 10 a day; self-employed decorator; separated, lives alone
+ice: An ulcer | That it's his liver, like his dad | To be patched up and go home
+cue: When alcohol is raised non-judgementally, deflate: "I know I drink too much. Dad went the same way."
+ask: Is it my liver?
+key: How much blood, what colour, and how many times? | Volume and source
+key: Any black, sticky stools? | Melaena
+key: Do you feel dizzy or faint, especially on standing? | Haemodynamic compromise
+key: Can I ask about alcohol: how much do you drink in a typical day? | Varices from cirrhosis
+key: Any painkillers like ibuprofen or aspirin, or blood thinners? | Ulcer and coagulopathy
+key: Any swelling of your tummy, yellow skin or easy bruising? | Chronic liver disease
+rf: Are you feeling faint or very breathless? | Shock
+rf: When did you last have a drink, and do you get the shakes? | Alcohol withdrawal and Wernicke's
+sum: So you've vomited a cupful of fresh blood twice and had black stools yesterday, you feel dizzy standing, and you drink about two bottles of wine a day. Is that right?
+pres: Paul Kennedy is a 52-year-old man with two episodes of large-volume fresh haematemesis and melaena, with postural dizziness, on a background of drinking about 150 units a week, abdominal distension and easy bruising. Importantly, he takes no NSAIDs or anticoagulants.
+ddx: Bleeding oesophageal varices from alcohol-related cirrhosis, because of large-volume haematemesis with stigmata of chronic liver disease | Peptic ulcer bleed or alcoholic gastritis, told apart at endoscopy | A Mallory-Weiss tear, less likely without preceding retching; and shock with coagulopathy, assessed by observations, clotting and platelets
+ix: A to E; observations; Glasgow-Blatchford score; FBC, U&Es with urea, LFTs, clotting, group and crossmatch, glucose; VBG with lactate; urgent OGD after resuscitation
+mx: Two large-bore cannulas; restrictive transfusion to haemoglobin around 70 to 80; correct clotting; terlipressin and IV antibiotics before endoscopy for suspected varices; band ligation at OGD; IV Pabrinex and chlordiazepoxide for withdrawal; alcohol team referral
+tell: I think the blood is coming from swollen veins in your food pipe, which happens when the liver is damaged by alcohol. We'll give you fluids, medicines to slow the bleeding, and a camera test to band the veins. We'll also give you vitamins and something to stop withdrawal shakes. When you're ready, we'll help with the drinking, with no judgement.
+
+=== PP29 B
+who: Irene Shaw, 70, retired cleaner
+act: Tired, pale, a bit breathless; sits carefully because of her knee. Slightly sheepish about the ibuprofen.
+open: I've been sick a couple of times and it looked like coffee grounds. And my poo has gone black.
+story: For two days I've been sick with what looked like coffee grounds, and my motions are black. I've had a gnawing pain in the top of my tummy on and off for months.
+hpc: Haematemesis: Coffee-ground vomit, twice in 2 days
+hpc: Melaena: Black tarry stools for 2 days
+hpc: Pain: Epigastric gnawing pain for months, better after food, wakes her at night
+hpc: Dizziness: Light-headed when standing; tired
+hpc: NSAIDs: Ibuprofen 400 mg three times a day for her knee, for months, bought over the counter
+yes: Dizziness; breathless on stairs; tired; epigastric pain
+no: Weight loss; difficulty swallowing; liver disease; alcohol excess; previous scope; anticoagulants
+pmh: Knee osteoarthritis; high blood pressure; TIA 5 years ago
+dh: Aspirin 75 mg; ibuprofen 400 mg three times a day over the counter; amlodipine 5 mg; atorvastatin 40 mg
+all: None
+fh: Nothing relevant
+sh: Never smoked; 2 units a week; lives with her husband
+ice: Food poisoning | Cancer | To be checked
+cue: "My knee is so bad, the ibuprofen is the only thing that lets me walk."
+ask: Is it cancer?
+key: What did the vomit look like, and how much? | Coffee-ground means altered blood
+key: Any black, tarry stools? | Upper GI bleed
+key: Any tummy pain before this, and is it related to food? | Duodenal ulcer pain improves with food and wakes at night
+key: Do you take ibuprofen, aspirin or other painkillers, including from the chemist? | NSAIDs and aspirin are the leading reversible cause
+key: Any weight loss or difficulty swallowing? | Gastric cancer
+key: Do you feel faint or breathless? | Blood loss and anaemia
+rf: Do you feel faint on standing, or are you breathless at rest? | Haemodynamic instability
+rf: Any weight loss or trouble swallowing? | Malignancy red flags
+sum: So for two days you've vomited coffee grounds and had black stools, you've had months of upper tummy pain that wakes you at night, and you take ibuprofen three times a day and aspirin. You feel dizzy standing. Is that right?
+pres: Mrs Shaw is a 70-year-old woman with 2 days of coffee-ground haematemesis and melaena with postural dizziness, on a background of months of nocturnal epigastric pain and regular ibuprofen with low-dose aspirin. Importantly, there is no weight loss, dysphagia or liver disease.
+ddx: Bleeding duodenal ulcer from NSAIDs and aspirin, because of nocturnal epigastric pain relieved by food with an upper GI bleed | Erosive gastritis or a gastric ulcer, told apart at endoscopy | Gastric cancer, excluded with biopsy at OGD; and haemodynamic shock, assessed by observations
+ix: Observations and lying and standing BP; Glasgow-Blatchford score; FBC, U&Es with a raised urea, LFTs, clotting, group and save; OGD within 24 hours, with H. pylori testing and biopsy
+mx: IV access and fluids; transfuse if haemoglobin below 70; stop ibuprofen; hold aspirin and discuss restarting once haemostasis is achieved given her TIA; endoscopic therapy; PPI after endoscopy; H. pylori eradication if positive; alternative analgesia for the knee
+tell: I think you have a bleeding ulcer, and the ibuprofen and aspirin are the likely cause. We'll do a camera test to find it and stop the bleeding, and give you acid-reducing medicine. Please stop the ibuprofen for good, and we'll find you a safer painkiller for your knee.
+
+=== PP29 C
+who: Steve Morgan, 58, warehouse supervisor
+act: Lying completely still, rigid, knees drawn up, shallow breathing; grimace at any movement. Answers short because it hurts to talk.
+open: I've got the worst pain of my life in my stomach. It came on all of a sudden.
+story: Three hours ago I got a sudden, severe pain in the top of my stomach, like being stabbed. Now it's everywhere and I can't move. I was sick once.
+hpc: Onset: Sudden, 3 hours ago, at work
+hpc: Site: Started epigastric, now all over
+hpc: Character: Sharp, stabbing, constant
+hpc: Worse: Any movement, coughing, breathing
+hpc: Severity: 10 out of 10
+hpc: Previous: Indigestion for a few weeks
+yes: Vomited once; shoulder tip pain; sweaty
+no: Haematemesis; melaena; bowel change; urinary symptoms; chest pain; previous surgery
+pmh: Back pain
+dh: Ibuprofen 400 mg three times a day for back pain for 2 months
+all: None
+fh: Nothing relevant
+sh: Smokes 20 a day; 20 units a week; warehouse supervisor; lives with wife
+ice: Bad indigestion | That something has burst | Pain relief now
+cue: Through gritted teeth: "Please just give me something for the pain."
+ask: Do I need an operation?
+key: How did the pain start: suddenly or gradually? | Sudden onset suggests perforation or vascular catastrophe
+key: Where did it start and where is it now? | Generalised peritonitis
+key: Does moving or coughing make it worse? | Peritonism
+key: Do you take ibuprofen, aspirin or steroids? | NSAIDs cause perforated ulcers
+key: Any previous indigestion or ulcers? | Peptic ulcer disease
+key: Any pain going to your shoulder tip? | Diaphragmatic irritation
+rf: Do you feel faint or cold? | Septic or hypovolaemic shock
+rf: Any pain going through to your back, or a known aneurysm? | Ruptured AAA
+sum: So three hours ago you had a sudden severe stabbing upper stomach pain that's now everywhere and worse with any movement, after weeks of indigestion and regular ibuprofen. Is that right?
+pres: Steve Morgan is a 58-year-old smoker with 3 hours of sudden-onset severe epigastric pain, now generalised and worse with any movement, with shoulder tip pain and vomiting, on a background of 2 months of regular ibuprofen and recent dyspepsia. Importantly, there is no haematemesis or melaena.
+ddx: Perforated peptic ulcer, because of sudden severe epigastric pain becoming generalised peritonitis with NSAID use | Acute pancreatitis, told apart by lipase and pain to the back rather than rigidity | Ruptured abdominal aortic aneurysm and mesenteric ischaemia, excluded with CT and lactate
+ix: A to E; observations; FBC, U&Es, LFTs, lipase, CRP, clotting, group and save, VBG with lactate; ECG; erect CXR for free air under the diaphragm; CT abdomen and pelvis with contrast
+mx: Nil by mouth; IV fluids; analgesia; antiemetic; IV PPI; IV broad-spectrum antibiotics per local guidance; NG tube; catheter; urgent senior surgical review for laparoscopic or open repair
+tell: I think an ulcer in your stomach has burst a small hole, which is why the pain is so severe. You'll need fluids, strong pain relief and antibiotics now, and most likely an operation today to repair it. I'm getting the surgical team straight away.
+
+=== PP29 D
+who: Harrison Lee, 40, unemployed
+act: A to E station. You are drowsy and confused, mumbling, sweaty, grey. Answer simple questions slowly; don't know the date. The examiner reads out the observations when asked.
+open: I feel terrible. Where am I?
+story: (Confused) I've been sick blood again. Everything's spinning.
+hpc: Haematemesis: Large fresh blood twice in the last hour
+hpc: Alcohol: Heavy drinker; can't say how much
+hpc: Orientation: Doesn't know the date or where he is
+hpc: Findings when asked: RR 26, sats 92% on air, chest clear, trachea central; pulse 105 regular, BP 80/60, CRT 3 seconds, cool and sweaty, temp 37.7; GCS 14, pupils equal and reactive, glucose 4.5; epigastric tenderness, ascites, pedal oedema, calves soft
+yes: Confused; dizzy; vomiting blood
+no: Chest pain
+pmh: Alcohol-related liver disease, known
+dh: Not known
+all: Not known
+fh: Not known
+sh: Heavy alcohol use; lives alone
+ice: Can't give a clear answer | Dying | Help
+cue: Grab the student's sleeve: "Don't leave me."
+ask: Am I going to die?
+key: Airway: Can you tell me your name? Is the airway patent and protected? | Talking means patent; vomiting blood with reduced GCS risks aspiration
+key: Breathing: Respiratory rate, saturations, oxygen 15 L via non-rebreather then titrate to 94 to 98% | Hypoxia
+key: Circulation: Two large-bore cannulas, bloods including crossmatch, clotting, VBG; activate the major haemorrhage protocol | Shock: BP 80/60, HR 105
+key: Give terlipressin and IV antibiotics for suspected variceal bleed | Reduces mortality before endoscopy
+key: Disability: GCS, pupils, glucose 4.5, give IV Pabrinex | Encephalopathy, hypoglycaemia, Wernicke's
+key: Exposure: abdomen with ascites, signs of liver disease, melaena on PR | Source and severity
+rf: Call for senior help and the gastroenterologist now | Unstable bleed needs immediate endoscopy
+rf: Reassess after every intervention | A to E anchor
+sum: Mr Lee, you've lost a lot of blood. We're giving you fluids and blood now, and the specialist is coming to stop the bleeding.
+pres: Situation: I'm calling about Harrison Lee, 40, with an active upper GI bleed and shock. Background: known alcohol-related liver disease. Assessment: RR 26, sats 92% on air, now on oxygen; HR 105, BP 80/60, CRT 3 seconds; GCS 14; ascites; I suspect a variceal bleed with coagulopathy. Recommendation: please come for urgent endoscopy now; I've activated the major haemorrhage protocol and started terlipressin and antibiotics.
+ddx: Variceal upper GI bleed with haemorrhagic shock, because of large haematemesis with ascites in known alcohol-related liver disease | Peptic ulcer bleed, told apart at endoscopy | Hepatic encephalopathy, Wernicke's, sepsis or hypoglycaemia contributing to confusion: glucose, Pabrinex and cultures
+ix: FBC, U&Es, LFTs, clotting and fibrinogen, crossmatch 4 to 6 units, VBG with lactate, blood cultures; ECG; urgent OGD after resuscitation
+mx: Oxygen; two large-bore cannulas; blood products via the major haemorrhage protocol, aiming not to over-transfuse; correct coagulopathy with platelets, FFP or cryoprecipitate as guided by results; terlipressin; IV antibiotics such as ceftriaxone; IV Pabrinex; catheter and fluid balance; immediate endoscopy with band ligation; HDU or ICU; SBAR to gastroenterology
+tell: Mr Lee, you're bleeding from inside your stomach area. We're giving you blood and medicines to slow the bleeding, and a specialist is coming now to stop it with a camera. You're in safe hands, and I'm staying with you.
+
+=== PP29 E
+who: Sandra Hughes, 61, retired teacher
+act: Nervous, wringing your hands, lots of questions. Settles when things are explained clearly in plain words.
+open: They say I need a camera test. I've never had one and I'm quite scared.
+story: I had black stools and a bit of coffee-ground sick yesterday. They've stabilised me and now they want to put a camera down. I've heard horror stories.
+hpc: Bleed: Black stools and coffee-ground vomit yesterday, stable now
+hpc: Fears: Choking, pain, being awake
+hpc: Understanding: Knows it's a camera, not much else
+hpc: Fasting: Last ate 8 hours ago
+yes: Nervous; previous bad experience at the dentist
+no: Previous endoscopy; heart valve replacement; anticoagulants; problems with sedation; loose teeth
+pmh: Osteoarthritis; high blood pressure
+dh: Naproxen 500 mg twice daily, now stopped; amlodipine 5 mg
+all: None
+fh: Nothing relevant
+sh: Non-smoker; 4 units a week; retired teacher; husband can collect her
+ice: The camera will find what's bleeding | It'll hurt and she'll choke | To be asleep for it
+cue: "Will it hurt? Will I be awake?"
+ask: Will it hurt? Will I be awake? What could go wrong?
+key: What do you understand about why you need this test? | Starts where she is
+key: Explain the procedure: a thin flexible camera through the mouth into the stomach, 5 to 15 minutes, throat spray with or without sedation | Information-giving
+key: Explain the benefits: find and treat the bleeding point, take biopsies, test for H. pylori | Benefits
+key: Explain the risks: sore throat, reaction to sedation, bleeding, and rarely a tear in the gut lining; risks are higher if we treat a bleed | BRAN and material risks
+key: Alternatives: CT is less useful and cannot treat; doing nothing risks further bleeding | Alternatives including doing nothing
+key: Preparation and after: nothing to eat for 6 hours; no driving for 24 hours after sedation; someone to take her home | Practicalities
+rf: Check capacity and give her time for questions before signing the consent form | Valid consent
+rf: Any allergies, anticoagulants or heart valve issues? | Safety
+sum: So you understand the camera will look for and treat the bleeding point, it takes about 10 minutes with a throat spray and sedation if you want it, and the main risks are a sore throat, sedation effects, and rarely bleeding or a tear. Does that sound right?
+pres: Mrs Hughes is a 61-year-old woman with an upper GI bleed, likely from NSAID use, who needs an OGD. I have explained the procedure, benefits, risks including perforation and bleeding, and alternatives, checked her understanding with teach-back, and she has capacity and consents. She would like sedation and her husband will collect her.
+ddx: NSAID-related peptic ulcer, because of naproxen use with melaena and coffee-ground vomit | Gastritis or oesophagitis, told apart at endoscopy | Malignancy, excluded with biopsies at OGD
+ix: OGD with biopsies and H. pylori testing; FBC and clotting checked before the procedure
+mx: Written consent on a consent form; nil by mouth; IV PPI after endoscopy; stop NSAIDs permanently; H. pylori eradication if positive; repeat OGD for gastric ulcers
+tell: The camera will find where the bleeding is and stop it if needed. You'll have a throat spray and can have sedation so you're relaxed and sleepy. Afterwards your throat may be sore. Rarely, it can cause bleeding or a small tear, which we'd treat. No driving for 24 hours after sedation. What questions do you have?

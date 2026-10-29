@@ -1,5 +1,9 @@
 # Changelog
 
+## STUDY 2.6.1 (2026-10-29)
+
+🔀 **Multi-select Hammer filters.** Every chip row now takes several picks: inside a row they add together (official papers plus my mock; 🔨 plus 🔨🔨; in my ILOs plus ILO edge; not done plus missed), and across rows they narrow each other. The paper and ILO rows narrow official questions only, so mixing sources still works. The examiner-pattern row has an "In any of these / In all of these" switch, and a ✕ Clear filters button resets everything.
+
 ## 2.6.0 (2026-10-29)
 
 🔒 **No spoilers in Hammer SBAs.** Before you answer, the tag row shows only where the question comes from (🔨 Hammer SBA, 🎓 Mock Qn or 🏛️ paper Qn), its hammer rating and reference, and "🔒 Topic after you answer". The topic, the pattern, the ILO verdict and the 🔥 double-tested badge appear once you answer. Run labels that name a topic in the header wait too; examiner-pattern runs show "🧬 Examiner pattern set".

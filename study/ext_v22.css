@@ -117,3 +117,7 @@
 .hq-rrow{flex-wrap:wrap;gap:.4rem;padding:.35rem 0;border-top:1px solid var(--line,rgba(127,127,127,.2))}
 .hq-rrow:first-of-type{border-top:0}
 .hq-rrow .grow{min-width:12rem;overflow-wrap:anywhere}
+/* v2.7: multi-select filters */
+.hq-fhead{gap:.4rem;flex-wrap:wrap;margin-bottom:.2rem}
+.hq-rl{font-size:.8rem;opacity:.75;align-self:center;margin-right:.2rem}
+.hq-trm{display:inline-flex;gap:.3rem}

@@ -1,0 +1,950 @@
+# Past-paper lower GI, surgical, pre-op, breast and urology stations: full cases.
+
+=== PP30 A
+who: Joan Green, 66, retired hairdresser
+act: Clutching the letter, eyes red; you talk fast and keep jumping to the worst outcome. Calm a little when things are chunked and explained.
+open: The doctor said my poo test came back positive. Does that mean I've got cancer?
+story: My stools have been looser for about two months, so the GP sent me the home test. Now they've said it's positive and I need a camera test. My friend died of bowel cancer last year.
+hpc: Bowel change: Looser stools for 2 months, 2 to 3 times a day
+hpc: Blood: None seen
+hpc: Weight: Stable
+hpc: Tiredness: A bit tired; GP started iron tablets last month for low iron
+hpc: FIT: Positive, done at home
+yes: Tired; on iron tablets
+no: Visible blood; weight loss; tummy pain; night-time bowel opening; vomiting; lumps
+pmh: Iron deficiency anaemia found last month; high blood pressure
+dh: Ferrous fumarate twice daily; amlodipine 5 mg
+all: None
+fh: No family bowel cancer; her best friend died of it last year
+sh: Never smoked; 4 units a week; lives with husband; drives
+ice: Cancer | Dying like her friend | Answers: does it hurt, what are the risks, should she stop her iron?
+cue: "Brenda was fine and then six months later she was gone."
+ask: Does this mean I have cancer?
+ask: Will it hurt? What are the risks? Do I have to stop my iron?
+key: What do you understand about the test and why you're here? | Starts where she is
+key: Explain: a positive test means there is a little blood in the stool that we can't see, and we need to find where it's coming from; most people with a positive test do not have cancer | Accurate reassurance without false promises
+key: Explain colonoscopy: a thin flexible camera through the back passage, after a bowel-clearing preparation the day before, with sedation and gas and air offered | Procedure
+key: Risks: discomfort and bloating, reaction to sedation, bleeding especially if polyps are removed, and rarely a tear in the bowel, around 1 in 1,000 | Material risks
+key: Iron tablets: stop them about a week before, as they make the bowel dark and harder to see | Practical instruction she asked about
+key: Ask about her worries and what she knows of her friend's illness | Hidden concern
+rf: Any rectal bleeding, weight loss or tummy pain now? | Red flags needing faster review
+rf: Check she has someone to take her home after sedation | Safety
+sum: So your stools have been looser for two months, the home test found hidden blood, and you're on iron for low iron. Your biggest worry is cancer, like your friend. Is that right?
+pres: Mrs Green is a 66-year-old woman with 2 months of a change to looser stools, iron deficiency anaemia and a positive FIT. She has no weight loss or visible bleeding. She is very anxious because her friend died of bowel cancer. I have explained the test result and colonoscopy, including risks, and she understands she should stop iron a week before.
+ddx: Colorectal cancer or adenomatous polyps, because of a change in bowel habit with iron deficiency and a positive FIT | Benign causes such as haemorrhoids, diverticular disease or colitis, told apart at colonoscopy | Upper GI source of iron deficiency, which may need an OGD as well
+ix: Suspected cancer pathway colonoscopy; FBC, ferritin, U&Es; CT colonography if colonoscopy is unsuitable; OGD if colonoscopy is normal and iron deficiency persists
+mx: Suspected cancer pathway referral; bowel preparation instructions; stop iron 7 days before; sedation and an escort home; results discussed in clinic; colorectal nurse specialist if cancer is found
+tell: A positive test means there's a little blood we can't see, so we need to look inside the bowel with a camera. Most people with a positive test don't have cancer, but this is the way to find out. You'll take a strong laxative the day before and can have sedation. Please stop your iron tablets a week before. If you bleed heavily or get bad tummy pain, call 111 or come in.
+
+=== PP31 A
+who: Bill Clarke, 61, taxi driver
+act: Impatient, wants a quick prescription; rubs your sternum. Only mention weight loss and food sticking if asked, a bit dismissively.
+open: I've had heartburn for months. I just want something strong for it.
+story: It's a burning behind my breastbone, worse after a big meal or lying down, with an acid taste. The chemist stuff isn't touching it.
+hpc: Heartburn: 3 months, retrosternal burning, acid taste
+hpc: Worse: Lying down, big meals, alcohol
+hpc: Weight: ONLY IF ASKED: lost about a stone without trying
+hpc: Swallowing: ONLY IF ASKED about swallowing: food, especially bread and meat, sometimes "sticks" halfway down
+hpc: Previous treatment: Gaviscon and over-the-counter omeprazole, little help
+yes: Weight loss; food sticking; acid regurgitation
+no: Vomiting blood; black stools; vomiting; chest pain on exertion; hoarse voice
+pmh: Back pain
+dh: Ibuprofen 400 mg up to three times a day for his back; Gaviscon; omeprazole bought over the counter
+all: None
+fh: Nothing relevant
+sh: Smokes 15 a day for 40 years; 3 to 4 pints most nights; taxi driver; lives with wife
+ice: Just heartburn | Missing work | Something strong to fix it
+cue: When asked about weight: "My trousers are loose, but I put that down to stress."
+ask: Can't you just give me something stronger?
+key: How long have you had the heartburn and what makes it worse? | GORD pattern
+key: Have you lost weight without trying? How much? | Alarm feature
+key: Does food ever get stuck when you swallow? | Dysphagia at any age means urgent OGD
+key: Any vomiting, blood in vomit, or black stools? | Bleeding
+key: Do you take ibuprofen, aspirin or other painkillers? | NSAIDs cause ulcers
+key: How much do you smoke and drink? | Risk factors for oesophageal cancer
+rf: Does food stick when you swallow? | Suspected oesophageal cancer: urgent OGD within 2 weeks
+rf: Unintentional weight loss over 55 with reflux? | Suspected cancer pathway
+sum: So you've had three months of heartburn, worse lying down and after meals, and you've lost about a stone without trying and food sometimes sticks. You smoke, drink most nights and take ibuprofen. Is that right?
+pres: Bill Clarke is a 61-year-old taxi driver with 3 months of reflux symptoms not responding to over-the-counter treatment, with unintentional weight loss of a stone and intermittent dysphagia to solids. He smokes 15 a day, drinks heavily and takes regular ibuprofen. Importantly, there is no haematemesis or melaena.
+ddx: Oesophageal cancer, because of progressive dysphagia to solids with weight loss in a heavy smoker and drinker with reflux | Peptic stricture from GORD, told apart at endoscopy and biopsy | Gastric cancer or a bleeding ulcer from NSAIDs: OGD and FBC
+ix: Urgent direct access OGD within 2 weeks on the suspected cancer pathway; FBC for anaemia, U&Es, LFTs; CT staging if cancer is found
+mx: Suspected cancer pathway referral now; full-dose PPI meanwhile; stop ibuprofen; smoking and alcohol support; safety-net
+tell: Heartburn is common, but losing weight and food sticking together mean we need to look with a camera to be safe. I'm referring you on the urgent pathway so you'll be seen within two weeks. I'll start a stronger acid tablet now, and please stop the ibuprofen. If you can't swallow at all, vomit blood or pass black stools, go to A&E.
+
+=== PP31 B
+who: Aisha Ahmed, 34, project manager
+act: Brisk and busy, glancing at your phone; a coffee cup in hand. Mildly embarrassed that stress might be involved.
+open: I've had a burning pain in my upper stomach after meals for about six weeks.
+story: It's a burning in the top of my stomach, usually after I eat. Work has been really stressful and I'm living on coffee.
+hpc: Site: Epigastric
+hpc: Character: Burning
+hpc: Timing: After meals, 6 weeks
+hpc: Triggers: Coffee, spicy food, late meals; stress
+hpc: Treatment: Rennie helps a little
+yes: Bloating; burping
+no: Weight loss; vomiting; blood in vomit; black stools; difficulty swallowing; anaemia symptoms; night waking with pain
+pmh: Nothing
+dh: Rennie; no NSAIDs; combined pill
+all: None
+fh: Nothing relevant
+sh: Non-smoker; 6 units a week; 5 coffees a day; stressful job; lives with partner
+ice: Stress | An ulcer | Something to settle it
+cue: "I can't afford to be ill right now."
+ask: Do I need a camera test?
+key: Where is the pain, when does it come, and what makes it better or worse? | Dyspepsia pattern
+key: Any weight loss, vomiting, swallowing difficulty, blood in vomit or black stools? | Alarm features
+key: Do you take ibuprofen, aspirin or other painkillers? | NSAIDs
+key: How much coffee, alcohol and spicy food, and do you smoke? | Lifestyle triggers
+key: Any family history of stomach cancer? | Risk
+rf: Any vomiting blood, black stools, difficulty swallowing or weight loss? | Alarm features mean OGD
+rf: Any chest pain on exertion? | Cardiac pain masquerading as dyspepsia
+sum: So for six weeks you've had burning upper stomach pain after meals, worse with coffee and stress, with no weight loss, vomiting, bleeding or swallowing problems. Is that right?
+pres: Aisha Ahmed is a 34-year-old woman with 6 weeks of post-prandial burning epigastric pain with bloating, triggered by coffee and stress. Importantly, she has no alarm features: no weight loss, vomiting, bleeding, dysphagia or anaemia, and takes no NSAIDs.
+ddx: Uncomplicated functional dyspepsia or GORD, because of meal-related burning pain with lifestyle triggers and no alarm features | H. pylori-associated peptic ulcer, told apart by a positive breath or stool antigen test | Gastric cancer is very unlikely at 34 without alarm features; biliary colic would cause RUQ pain after fatty meals
+ix: No endoscopy needed; H. pylori stool antigen or urea breath test after 2 weeks without a PPI; FBC if any anaemia symptoms
+mx: Lifestyle advice: less coffee, smaller earlier meals, stress management; either a full-dose PPI for 4 weeks or test-and-treat for H. pylori, per NICE; review in 4 to 8 weeks
+tell: This sounds like indigestion from acid, made worse by coffee and stress, and you don't need a camera test. We'll test for a stomach bug called H. pylori and treat it if present, or try an acid-reducing tablet for a month. Cutting down coffee will help. If you vomit blood, pass black stools, lose weight or struggle to swallow, come back straight away.
+
+=== PP31 C
+who: Lisa Jones, 40, nursery nurse
+act: Friendly but a bit frustrated; you've seen your friend have a scope and feel short-changed. Only mention ibuprofen if asked directly about painkillers.
+open: I've had this burning ache in my stomach for ages. Gaviscon helps a bit.
+story: It's an ache and burning in the top of my tummy after meals. It doesn't spread anywhere. Takeaways and drinking make it worse.
+hpc: Site: Epigastric, does not radiate
+hpc: Character: Ache and burning after meals
+hpc: Duration: Several months
+hpc: Worse: Takeaways, alcohol
+hpc: Associated: ONLY IF ASKED: bloating, burping, nausea; never vomited
+hpc: Painkillers: ONLY IF ASKED: ibuprofen quite a lot since hurting her knee a few months ago
+yes: Bloating; burping; nausea
+no: Weight loss; vomiting; difficulty swallowing; black stools; vomiting blood; loss of appetite
+pmh: Knee injury a few months ago
+dh: Ibuprofen 400 mg most days, over the counter; Gaviscon
+all: None
+fh: Nothing relevant
+sh: Non-smoker; 14 units a week, more at weekends; nursery nurse
+ice: An ulcer | That something is being missed | A camera test like her friend
+cue: "My friend had a camera test and they found something. Why aren't I having one?"
+ask: Why aren't I having a camera test?
+ask: How do you do the H. pylori test?
+key: Where is the pain and what makes it worse? | Dyspepsia pattern
+key: Do you take any painkillers or anti-inflammatories, including from the chemist? | NSAIDs are the likely cause
+key: Any weight loss, vomiting, difficulty swallowing or bleeding? | Alarm features
+key: How much alcohol do you drink? | Trigger
+key: What made you worried, and what happened with your friend? | ICE
+rf: Any black stools or vomiting blood? | Upper GI bleed
+rf: Any trouble swallowing or weight loss? | OGD criteria
+sum: So you've had months of burning upper tummy pain after meals, worse with takeaways and alcohol, with bloating and nausea, and you've been taking ibuprofen most days since your knee injury. No alarm symptoms. Is that right?
+pres: Lisa Jones is a 40-year-old woman with several months of epigastric burning after meals with bloating and nausea, worsened by takeaways and alcohol, while taking regular over-the-counter ibuprofen. Importantly, she has no alarm features, so she does not meet criteria for an urgent endoscopy.
+ddx: NSAID-associated dyspepsia or peptic ulcer, because of epigastric burning after starting regular ibuprofen | GORD or H. pylori gastritis, told apart by response to treatment and H. pylori testing | Malignancy or a bleeding ulcer, very unlikely without alarm features; safety-net
+ix: H. pylori stool antigen or urea breath test, off PPI for 2 weeks and antibiotics for 4 weeks; FBC
+mx: Stop ibuprofen and use paracetamol or topical treatment for the knee; full-dose PPI for 4 weeks; lifestyle advice; H. pylori eradication if positive; review in 4 to 8 weeks
+tell: A camera test is for people with warning signs like weight loss, bleeding or trouble swallowing, and you don't have those. The most likely cause is the ibuprofen irritating your stomach. Please stop it, and we'll use something gentler for your knee. The H. pylori test is a simple breath or stool test. If you get black stools, vomit blood or lose weight, come straight back.
+
+=== PP31 D
+who: Jane Smith, 45, receptionist
+act: Insistent and slightly argumentative about getting a camera test; sip from a water bottle; rub your upper chest when describing the burning.
+open: I've had heartburn for a month and I want a camera test. My friend had Barrett's oesophagus.
+story: It's a burning behind my breastbone, sometimes into my upper back. It's worse at night and before meals and gets better when I eat or have milk. I feel full quickly and bloated.
+hpc: Site: Behind the breastbone, sometimes into the upper back
+hpc: Timing: Worse at night and before meals
+hpc: Relief: Eating or milk; antacids slightly
+hpc: Duration: 1 month
+hpc: Fullness: Early satiety and bloating
+hpc: Test result: H. pylori breath test came back positive
+yes: Bloating; early fullness; night pain
+no: Weight loss; night sweats; tiredness; loss of appetite; black stools; vomiting blood; difficulty swallowing; exertional chest pain; RUQ pain after fatty food
+pmh: Chronic back pain
+dh: Ibuprofen gel; ibuprofen tablets a few times a week; over-the-counter antacids
+all: Piperacillin with tazobactam, Tazocin: tongue swelling, anaphylaxis, so avoid all penicillins
+fh: Nothing relevant
+sh: Half a bottle of wine every night, about 30 units a week; smokes 20 a day for 25 years; receptionist
+ice: Barrett's like her friend | Not being taken seriously | A camera test
+cue: "Why am I not ill enough for a camera?"
+ask: Can I keep taking my antacids before the breath test?
+key: Describe the pain: when does it come and what relieves it? | Pain relieved by eating suggests a duodenal ulcer
+key: Any alarm features: weight loss, vomiting, bleeding, swallowing difficulty? | Endoscopy criteria
+key: Do you take ibuprofen or aspirin? | NSAIDs
+key: What happened when you reacted to Tazocin? | Penicillin anaphylaxis changes eradication therapy
+key: How much do you smoke and drink? | Risk and healing
+rf: Any black stools or vomiting blood? | Bleeding ulcer
+rf: Any chest pain on exertion? | Cardiac cause
+sum: So for a month you've had burning pain worse at night and before meals that's relieved by eating, you've tested positive for H. pylori, and you're allergic to penicillin with tongue swelling. Is that right?
+pres: Jane Smith is a 45-year-old woman with a month of epigastric and retrosternal burning that is worse at night and before meals and relieved by food, with a positive H. pylori breath test. She uses ibuprofen, smokes 20 a day and drinks about 30 units a week, and has had anaphylaxis to piperacillin with tazobactam. Importantly, she has no alarm features.
+ddx: H. pylori-positive duodenal ulcer, because of nocturnal pain relieved by eating with a positive test | GORD, told apart by symptoms on lying flat and acid regurgitation without ulcer pain | A bleeding or malignant ulcer, unlikely without alarm features; endoscopy only if alarm features develop or symptoms persist
+ix: H. pylori already positive; FBC; no routine OGD without alarm features; retest with a breath test if symptoms persist after eradication
+mx: Penicillin-free eradication for 7 days: a PPI twice daily, such as lansoprazole 30 mg, with clarithromycin 500 mg twice daily and metronidazole 400 mg twice daily; avoid alcohol with metronidazole; stop NSAIDs; smoking and alcohol support; review
+tell: Your test shows a stomach bug called H. pylori, which most likely caused an ulcer. Because you reacted badly to penicillin, I'll give you a week of two antibiotics without penicillin plus an acid tablet. Please avoid alcohol completely with the metronidazole as it can make you very sick. A camera isn't needed unless warning signs appear. Antacids are fine before a breath test, but acid tablets like omeprazole need stopping 2 weeks before.
+
+=== PP32 A
+who: Holly Brown, 28, graphic designer
+act: Tense and a little defensive, arms crossed; you're worried people think you're making it up. Soften when believed.
+open: I've had tummy pain and bloating for months and nobody seems to take it seriously.
+story: It's a crampy pain low down that gets better when I open my bowels. By the evening I look pregnant with the bloating. My bowels switch between loose and hard.
+hpc: Pain: 9 months, crampy, lower abdomen, relieved by opening bowels
+hpc: Bloating: Worse through the day, by evening
+hpc: Bowels: Alternating loose and hard stools, some mucus, straining and feeling of incomplete emptying
+hpc: Triggers: Stress, big meals, onions and bread
+hpc: Night: Never woken by symptoms
+yes: Mucus; bloating; fatigue; worse with stress
+no: Blood in stools; weight loss; night-time symptoms; fever; mouth ulcers; joint pain; rashes; family bowel disease or coeliac disease; heavy periods
+pmh: Anxiety in the past
+dh: Buscopan from the chemist; combined pill
+all: None
+fh: No bowel cancer, IBD or coeliac disease in the family
+sh: Non-smoker; 8 units a week; graphic designer, deadline stress; lives with partner
+ice: Something wrong with her bowel | Bowel cancer, or being seen as making it up | Answers and something that helps
+cue: "My last doctor said it was all in my head."
+ask: Is it cancer? Am I making it up?
+key: Describe the pain: where, what it's like, and does opening your bowels help? | Rome IV: pain related to defecation
+key: How have your bowels changed: loose, hard or alternating? Any mucus? | IBS subtype
+key: Any blood in your stools, weight loss, or symptoms that wake you at night? | Red flags
+key: Any mouth ulcers, joint pain, rashes or fevers? | IBD
+key: Any family history of bowel cancer, IBD or coeliac disease? | Risk
+key: Does anything trigger it, such as stress or particular foods? | Triggers and diet
+rf: Any rectal bleeding, weight loss, or a change in bowel habit over 60? | Red flags
+rf: Any bloating that is persistent in a woman? | Ovarian cancer: CA125 if over 50 or persistent
+sum: So for nine months you've had crampy lower pain that's eased by opening your bowels, bloating worse by evening, and alternating loose and hard stools with mucus, worse with stress, and no blood, weight loss or night-time symptoms. Is that right?
+pres: Holly Brown is a 28-year-old woman with 9 months of lower abdominal cramping relieved by defecation, evening bloating and alternating loose and hard stools with mucus, worse with stress and certain foods. Importantly, she has no red flags: no bleeding, weight loss, nocturnal symptoms or family history of bowel disease.
+ddx: Irritable bowel syndrome, mixed type, because of recurrent pain related to defecation with altered stool form and frequency and no red flags | Coeliac disease, told apart by tTG serology | Inflammatory bowel disease, excluded with a normal faecal calprotectin and CRP; ovarian cancer if bloating were persistent in an older woman
+ix: FBC, ESR or CRP, coeliac serology with tTG IgA, faecal calprotectin; CA125 not needed at 28 without other features
+mx: Positive diagnosis and explanation; regular meals, fluids, less insoluble fibre, caffeine, alcohol and fizzy drinks; low FODMAP diet with a dietitian if needed; antispasmodic; loperamide for loose spells; laxative but not lactulose for constipation; CBT or hypnotherapy if refractory; review
+tell: This is real, and it has a name: irritable bowel syndrome. The gut becomes over-sensitive and its movements get out of rhythm, which stress can make worse. It isn't cancer, and your blood and stool tests will help confirm that. Diet changes and a medicine for the cramps usually help a lot. If you notice blood, lose weight or symptoms wake you at night, come back.
+
+=== PP33 A
+who: Ellie Morgan, 21, medical student
+act: Embarrassed, quiet, avoids eye contact when talking about accidents; fidgety. More open if the doctor normalises it.
+open: It's a bit embarrassing. I've had problems with my bowels for a few months.
+story: I've had cramping tummy pain most days for six months and I'm going three or four times a day, loose. I've had a couple of accidents. I'm exhausted and struggling with uni.
+hpc: Pain: 6 months, cramps most days, relieved after opening bowels
+hpc: Bowels: 3 to 4 loose stools a day; mucus; no blood; woken at night to go; two accidents
+hpc: Weight: Jeans looser; appetite gone on bad days
+hpc: Energy: Tired; struggling with studies
+hpc: Mouth: ONLY IF ASKED: lots of mouth ulcers for a year
+yes: Nocturnal diarrhoea; weight loss; fatigue; mouth ulcers; mucus
+no: Blood in stool; vomiting; travel; recent antibiotics; diet change; joint pain; eye pain; rash; perianal pain
+pmh: Appendix out at 15
+dh: None; no over-the-counter medicines
+all: Penicillin and apples
+fh: Grandad had colon cancer at 85
+sh: Non-smoker; 10 units a week; medical student living in halls
+ice: Something wrong with her bowel | Cancer, being embarrassed, and failing exams | To find out what it is
+cue: "I had to leave a lecture last week. I didn't make it."
+ask: Is it cancer?
+key: How often are you opening your bowels, and do you get woken at night to go? | Nocturnal diarrhoea is organic, not IBS
+key: Any blood or mucus in your stools? | UC versus Crohn's
+key: Have you lost weight or your appetite? | Organic disease
+key: Any mouth ulcers, joint pains, red eyes or skin rashes? | Extra-intestinal features
+key: Any pain or discharge around your bottom? | Perianal Crohn's
+key: Any travel, new medicines or antibiotics? Do you smoke? | Infection and Crohn's risk
+rf: Fever, severe pain, or more than 6 bloody stools a day? | Acute severe colitis
+rf: Weight loss and nocturnal symptoms? | Red flags excluding IBS
+sum: So for six months you've had cramping pain and three or four loose stools a day with mucus, waking at night to go, a couple of accidents, weight loss, tiredness and frequent mouth ulcers. Is that right?
+pres: Ellie Morgan is a 21-year-old student with 6 months of abdominal cramping and diarrhoea 3 to 4 times a day with mucus, nocturnal symptoms, faecal urgency with incontinence, weight loss, fatigue and recurrent mouth ulcers. Importantly, there is no blood in the stool, travel or antibiotic exposure.
+ddx: Crohn's disease, because of chronic non-bloody diarrhoea with nocturnal symptoms, weight loss and aphthous ulcers in a young adult | Coeliac disease, told apart by tTG serology and duodenal biopsy | Infective colitis or ulcerative colitis, excluded by stool cultures and colonoscopy; IBS is unlikely with nocturnal symptoms and weight loss
+ix: FBC, CRP, ESR, U&Es, LFTs, albumin, ferritin, B12, folate, vitamin D; coeliac serology; stool culture and C. difficile; faecal calprotectin; colonoscopy with ileal intubation and biopsies; MR enterography for small bowel
+mx: Urgent gastroenterology referral; avoid smoking; steroids to induce remission if confirmed, with specialist maintenance therapy; dietitian; IBD nurse; support with university
+tell: Your symptoms, especially waking at night and losing weight, suggest inflammation in the bowel rather than something like IBS. One possibility is Crohn's disease, which is treatable. We'll do blood and stool tests and refer you to the gut specialists for a camera test. I'll write a letter so your medical school can support you. If you get a fever, bleeding or severe pain, come straight back.
+
+=== PP34 A
+who: Gerald Smith, 72, retired miner
+act: Coughs a dry cough now and then; guards the right groin when you lie down. Cheerful and stubborn: "I'm not keen on surgery."
+open: I've had a lump in my groin for six months. I used to push it back, but I can't now.
+story: The lump is on the right. I could always push it back in, but for the last day it won't go back. It's a bit sore, maybe 2 out of 10. I feel fine otherwise.
+hpc: Lump: Right groin, 6 months, previously reducible, irreducible for 1 day
+hpc: Pain: Slightly tender, 2 out of 10
+hpc: Bowels: Opened 2 days ago, usually twice a day; still passing wind
+hpc: Eating: Normally, no vomiting
+yes: Chronic cough
+no: Vomiting; nausea; abdominal distension; redness over the lump; fever; urinary symptoms
+pmh: Idiopathic pulmonary fibrosis with chronic cough; high blood pressure; back pain; appendicectomy at 20; left ankle fracture repair
+dh: Inhaler; amlodipine 5 mg; paracetamol
+all: None
+fh: Nothing relevant
+sh: Non-smoker; beer watching rugby; retired miner; lives with wife; independent
+ice: A hernia, like his friend | It's more tender | To avoid surgery
+cue: "My friend had his fixed and was laid up for weeks."
+ask: Do I really need an operation?
+find: A 4 cm irreducible, mildly tender swelling in the right groin, above and medial to the pubic tubercle, extending towards the scrotum
+find: No cough impulse; overlying skin normal, not red or hot
+find: Abdomen soft, not distended; bowel sounds present; left groin normal; testes normal
+key: Inspect both groins standing, and ask him to cough | Visible swelling and impulse
+key: Find the pubic tubercle: an inguinal hernia lies above and medial, a femoral hernia below and lateral | Distinguishes inguinal from femoral
+key: Try gentle reduction only if not tender, and check for a cough impulse | Irreducible and no impulse means incarceration
+key: Check the overlying skin for redness, warmth and tenderness | Strangulation
+key: Examine the scrotum, the other side and the abdomen for distension | Completeness and obstruction
+rf: Is the lump red, hot, very tender, or are you vomiting or not passing wind? | Strangulation or obstruction: emergency surgery
+sum: So the lump in your right groin used to go back in but hasn't for a day, it's a little tender, and you're otherwise well, eating and passing wind. Is that right?
+pres: Mr Smith is a 72-year-old man with a 6-month history of a right groin lump that has become irreducible for 24 hours with mild tenderness. On examination there is a 4 cm irreducible, mildly tender swelling above and medial to the pubic tubercle with no cough impulse and normal overlying skin. His abdomen is soft and not distended. These findings are consistent with an incarcerated right inguinal hernia, with no signs of strangulation or obstruction.
+ddx: Incarcerated right inguinal hernia, because of a previously reducible groin lump above and medial to the pubic tubercle that is now irreducible | Femoral hernia, told apart by lying below and lateral to the pubic tubercle, with a higher strangulation risk | Strangulation or obstruction, excluded clinically but needing urgent review: lactate, inflammatory markers and serial examination
+ix: Observations; FBC, CRP, U&Es, lactate, group and save; ultrasound if diagnosis unclear; CT if obstruction is suspected
+mx: Same-day surgical review for urgent repair, as an incarcerated hernia risks strangulation; nil by mouth pending decision; analgesia; anaesthetic assessment given pulmonary fibrosis, consider repair under local or regional anaesthesia
+tell: The lump is a hernia that's become stuck. Even though you feel well, a stuck hernia can cut off its own blood supply, so the surgeons need to see you today and most likely repair it soon. Because of your lungs, we'll think about doing it with a local or spinal anaesthetic. If it becomes very painful, red, or you start vomiting, tell us at once.
+
+=== PP34 B
+who: Mark Hollis, 55, warehouse operative
+act: Relaxed, practical, here for a pre-op check; stand up to show the lump when asked.
+open: I've got a lump in my left groin that pops out when I lift things at work.
+story: It comes out when I'm lifting at work and goes away when I lie down. It doesn't hurt. I've been booked for surgery.
+hpc: Lump: Left groin, 8 months, appears on lifting and straining, disappears lying down
+hpc: Pain: None
+hpc: Bowels and urine: Normal
+yes: Heavy lifting at work
+no: Pain; vomiting; constipation; straining to pass urine; chronic cough; weight loss
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Ex-smoker; 10 units a week; warehouse operative
+ice: A hernia | Time off work | To get it fixed
+cue: "How long will I be off work?"
+ask: How long will I be off work?
+find: Standing: a reducible swelling in the left groin above and medial to the pubic tubercle with a cough impulse
+find: Reduces easily lying down; with the deep ring occluded the swelling still appears on coughing, suggesting a direct hernia
+find: Right groin and scrotum normal; abdomen soft
+key: Inspect standing and ask him to cough | Impulse
+key: Locate the pubic tubercle and the hernia's relation to it | Inguinal versus femoral
+key: Reduce the hernia and occlude the deep inguinal ring, then ask him to cough | Indirect versus direct, though only surgery confirms
+key: Examine the other groin and the scrotum | Bilateral hernias
+rf: Is it ever painful, red, or stuck out? | Incarceration
+sum: So a lump in your left groin appears when you lift and goes away when you lie down, with no pain or other symptoms. Is that right?
+pres: Mr Hollis is a 55-year-old warehouse operative with a reducible left groin swelling above and medial to the pubic tubercle with a cough impulse. With the deep ring occluded, the swelling still appears on coughing. These findings are consistent with a reducible left direct inguinal hernia.
+ddx: Reducible left direct inguinal hernia, because it lies above and medial to the pubic tubercle and is not controlled by deep ring pressure | Indirect inguinal hernia, which the deep ring test cannot reliably exclude; confirmed at surgery | Femoral hernia, which lies below and lateral to the pubic tubercle and has a high strangulation risk
+ix: Clinical diagnosis; ultrasound only if uncertain; pre-operative assessment
+mx: Elective laparoscopic or open mesh repair; avoid heavy lifting for 2 to 6 weeks after; safety-net for incarceration
+tell: This is a hernia, a weak spot in the tummy wall that lets a bit of bowel push through when you strain. It's safe to repair as planned. After surgery, most people do light work in a couple of weeks, but avoid heavy lifting for about 6 weeks. If it becomes painful, stuck out or you start vomiting, go to A&E.
+
+=== PP35 A
+who: Ron Pritchard, 64, retired forklift driver
+act: Breathless after a few sentences, pursed lips; anxious about the anaesthetic; you pat your tiotropium inhaler in your pocket.
+open: I'm here for my check before my hernia operation. My chest isn't great.
+story: I've got COPD. I get breathless on one flight of stairs. I've had two courses of steroids this year. I still smoke, I know I shouldn't.
+hpc: Exercise tolerance: Breathless on one flight of stairs; stops halfway
+hpc: Exacerbations: 2 courses of steroids and antibiotics this year; no admissions
+hpc: Current: Cough with white sputum; no recent infection
+hpc: Anaesthetic history: Previous anaesthetic fine
+hpc: Hernia: Reducible right inguinal hernia
+yes: Chronic productive cough; breathlessness
+no: Recent infection; chest pain; home oxygen; sleep apnoea; diabetes; heart problems; reflux; loose teeth; bleeding problems
+pmh: COPD; hernia
+dh: Tiotropium inhaler daily; salbutamol when needed
+all: None
+fh: No problems with anaesthetics in the family
+sh: Smokes 20 a day, 45 pack-years; 10 units a week; lives with wife
+ice: The operation | Not waking up from the anaesthetic | Reassurance
+cue: "My brother had a chest infection after his operation and nearly died."
+ask: Is it safe for me to have an anaesthetic?
+key: What can you do before you get breathless? Stairs, walking distance? | Functional capacity
+key: How many flare-ups and steroid courses this year? Any admissions or ICU? | COPD severity
+key: Do you still smoke? | Stopping reduces respiratory complications
+key: Any recent chest infection? | Postpone if active infection
+key: Any problems with previous anaesthetics, in you or your family? | Malignant hyperthermia and suxamethonium apnoea
+key: Any heart problems, reflux, loose teeth, allergies? | Anaesthetic assessment
+rf: Do you have a chest infection now? | Surgery should be delayed
+rf: Any chest pain or ankle swelling? | Cardiac comorbidity
+sum: So you have COPD, breathless on one flight of stairs, with two steroid courses this year, you still smoke 20 a day, and your previous anaesthetic was fine. Is that right?
+pres: Mr Pritchard is a 64-year-old man for elective laparoscopic inguinal hernia repair. He has COPD with exercise tolerance of one flight of stairs, two exacerbations needing steroids this year, and continues to smoke 20 a day. He has no current infection and no previous anaesthetic problems. I would class him as ASA 3.
+ddx: COPD as the main peri-operative risk, because of limited exercise tolerance and frequent exacerbations, raising the risk of post-operative chest infection | Undiagnosed heart failure or ischaemic heart disease contributing to breathlessness, told apart by ECG and NT-proBNP | An active infection or an exacerbation, which would mean postponing surgery
+ix: Observations and saturations; spirometry; FBC, U&Es; ECG; CXR if symptoms changed; ABG if saturations are low
+mx: Optimise COPD: inhaler review, consider LABA plus LAMA; smoking cessation now with support; pulmonary rehabilitation if possible; anaesthetic review: consider open repair under local or regional anaesthesia; post-operative chest physiotherapy and early mobilisation
+tell: Your lungs make the anaesthetic a bit riskier, mainly for a chest infection afterwards. We can reduce that risk: stopping smoking, even now, really helps, and we'll check your inhalers. The anaesthetist may suggest doing the repair with a local or spinal anaesthetic so you stay breathing on your own. If you get a chest infection before the date, let us know.
+
+=== PP35 B
+who: Pam Ridley, 58, school cook
+act: Organised; you've brought your medicine list on paper. A bit muddled about what to take on the day.
+open: I've come for my pre-op check. I'm diabetic and I'm not sure what to do with my tablets.
+story: I'm having my hernia done. I take three diabetes tablets. My last HbA1c was 62. I've also got blood pressure.
+hpc: Diabetes: Type 2 for 8 years; HbA1c last month 62
+hpc: Hypos: Occasional mild hypos on gliclazide when she misses lunch
+hpc: Complications: Annual eye and foot checks normal
+hpc: Operation: Morning list, laparoscopic hernia repair
+yes: Occasional mild hypos
+no: Kidney problems; heart problems; chest pain; breathlessness; neuropathy; previous anaesthetic problems
+pmh: Type 2 diabetes; high blood pressure
+dh: Metformin 1 g twice daily; gliclazide 80 mg twice daily; dapagliflozin 10 mg once daily; ramipril 5 mg once daily
+all: None
+fh: Mum had type 2 diabetes
+sh: Non-smoker; 4 units a week; school cook; husband can drive her
+ice: Her tablets on the day | A hypo during the operation | A clear plan
+cue: "Last time I missed lunch on gliclazide I nearly passed out."
+ask: Which tablets do I take on the day?
+key: What diabetes medicines do you take, and at what times? | Peri-operative plan
+key: What was your last HbA1c? | Above 69 would mean postponing elective surgery
+key: Do you get hypos, and how do you recognise them? | Gliclazide risk when fasting
+key: Any kidney, heart or eye problems from your diabetes? | End-organ damage
+key: Any previous anaesthetic problems, reflux or loose teeth? | Anaesthetic assessment
+rf: Any chest pain or breathlessness on exertion? | Silent ischaemia in diabetes
+sum: So you have type 2 diabetes on metformin, gliclazide and dapagliflozin with an HbA1c of 62, occasional hypos when you miss meals, and blood pressure on ramipril. You're on a morning list. Is that right?
+pres: Mrs Ridley is a 58-year-old woman with type 2 diabetes for 8 years, HbA1c 62, on metformin, gliclazide and dapagliflozin, with hypertension on ramipril, booked for a morning laparoscopic hernia repair. She has occasional hypoglycaemia on gliclazide and no known end-organ damage. Her control is acceptable for elective surgery.
+ddx: Acceptable glycaemic control for elective surgery, because HbA1c is below 69 | Risk of peri-operative hypoglycaemia from gliclazide while fasting | Euglycaemic DKA from dapagliflozin if not stopped beforehand
+ix: Capillary glucose and ketones on the day; U&Es and eGFR; FBC; ECG
+mx: Per CPOC guidance: stop dapagliflozin the day before and the day of surgery; omit the morning gliclazide; metformin can usually be taken as normal if only one meal is missed and eGFR is adequate; usually omit the morning ramipril; first on the list; capillary glucose hourly; variable-rate insulin infusion if glucose is above 12 or more than one meal is missed; restart when eating
+tell: Your diabetes is well enough controlled for the operation. Stop the dapagliflozin the day before and on the day itself, skip your morning gliclazide, and we'll check your sugar regularly. You can usually take metformin as normal. I'll write this down for you. If you feel shaky or sweaty while fasting, tell the nurse straight away.
+
+=== PP35 C
+who: Keith James, 67, retired PE teacher
+act: Fit, jovial, jittery about being awake ("Just knock me out, doc"). Mention reflux only if asked about heartburn or lying flat. Ask about coffee at the end.
+open: I'm in for my hip replacement this afternoon. I'd like to be asleep for it, if that's alright.
+story: My hip's been terrible, I can barely walk the dogs. I play squash three times a week otherwise. I don't like the idea of being awake.
+hpc: Fitness: Squash 3 times a week; walks the dogs; no breathlessness
+hpc: Hip: Severe osteoarthritis; poor sleep from pain
+hpc: Reflux: ONLY IF ASKED: heartburn most nights when lying flat; never seen the GP
+hpc: Last ate: Breakfast at 7am; operation at 2pm, 3 hours away now
+hpc: Previous anaesthetic: Appendix out 15 years ago, no problems
+yes: Nightly reflux lying flat
+no: Chest pain; breathlessness; heart problems; clots; loose teeth or dentures; sleep apnoea; inhalers; bleeding problems
+pmh: Gout; hip osteoarthritis; pre-diabetes; high blood pressure
+dh: Allopurinol 300 mg; diclofenac gel and codeine for the hip; amlodipine 5 mg; no over-the-counter medicines
+all: None
+fh: No anaesthetic problems in the family
+sh: Ex-smoker, quit 20 years ago; non-drinker; retired PE teacher; lives with wife
+ice: Being awake during surgery | Hearing the saw | General anaesthetic and a coffee
+cue: Rubs hands: "Can I have a coffee, doc?"
+ask: Can I have a coffee, doc?
+key: How active are you, and what can you do before getting breathless? | Functional capacity above 4 METs
+key: Do you get heartburn or acid coming up, especially lying flat? | Aspiration risk changes anaesthetic technique
+key: When did you last eat and drink, and what? | Fasting status
+key: Any problems with anaesthetics, in you or your family? | Malignant hyperthermia and suxamethonium apnoea
+key: Any loose teeth, crowns, dentures, or neck stiffness? | Airway
+key: Any clots before, and any heart or lung disease? | VTE and cardiorespiratory risk
+rf: Nightly reflux lying flat | Aspiration risk: tell the anaesthetist, consider pre-medication and rapid sequence induction
+sum: So you're very active, you've had an anaesthetic before without problems, but you get heartburn most nights lying flat. You last ate at 7 this morning. Is that right?
+pres: Mr James is a 67-year-old man for elective hip replacement this afternoon, with good functional capacity, hypertension, gout and pre-diabetes, and no previous anaesthetic problems. On direct questioning he has untreated nightly reflux, which raises his aspiration risk. He last ate at 7am. He would prefer a general anaesthetic.
+ddx: Untreated GORD raising aspiration risk under anaesthesia, because of nightly reflux lying flat | Low cardiorespiratory risk, as he plays squash regularly | Undiagnosed hiatus hernia or Barrett's, for GP follow-up after surgery
+ix: Observations; FBC, U&Es, group and save; ECG; capillary glucose or HbA1c given pre-diabetes
+mx: Inform the anaesthetist about reflux; pre-operative antacid prophylaxis such as a PPI or H2 antagonist; the anaesthetist may use rapid sequence induction or a spinal with sedation; fasting: no food for 6 hours; clear fluids including black coffee without milk are allowed until 2 hours before; GP follow-up for reflux
+tell: You can have a black coffee now, but no milk, and nothing at all to drink from 2 hours before the operation. Because of your heartburn, I'll let the anaesthetist know, as acid can come up while you're asleep; they'll give you a tablet beforehand and choose the safest way to put you to sleep. Afterwards, please see your GP about the reflux.
+
+=== PP35 D
+who: Katy James, 47, paralegal
+act: Frank and slightly self-conscious about your weight; open to an epidural ("I had one with my second and it was fine"). Snoring comes up only if asked about sleep.
+open: I'm here before my hip replacement. I'm expecting to be put to sleep, but I'd consider an epidural.
+story: My hip's really bad. I know I'm overweight and I struggle with stairs. I had a good epidural with my second baby.
+hpc: Weight: BMI 40
+hpc: Sleep: Diagnosed with sleep apnoea, not using CPAP; snores loudly; not very sleepy in the day
+hpc: Rheumatoid arthritis: On methotrexate; neck sometimes stiff
+hpc: Exercise: Struggles with stairs due to hip and weight
+hpc: Anaesthetic history: Never had a general anaesthetic
+yes: Snoring; sleep apnoea; occasional neck stiffness
+no: Reflux; chest pain; breathlessness at rest; loose teeth; clots; tingling in hands; diabetes
+pmh: Rheumatoid arthritis; obstructive sleep apnoea, not treated; hip osteoarthritis
+dh: Methotrexate 15 mg weekly; folic acid 5 mg weekly
+all: None
+fh: No anaesthetic problems in the family
+sh: Non-smoker; 12 units a week; paralegal; lives with partner and two children
+ice: Being put to sleep | Not waking up | A safe anaesthetic
+cue: "My partner says I stop breathing in my sleep. Is that a problem?"
+ask: Is it safe for me to be put to sleep?
+key: Do you snore, stop breathing at night, or feel sleepy in the day? Do you have a CPAP machine? | OSA raises airway and post-operative risk
+key: How far can you walk, and do you get breathless? | Functional capacity
+key: Does your rheumatoid arthritis affect your neck? Any tingling in your arms? | Atlantoaxial instability
+key: What medicines do you take for your arthritis? | Methotrexate peri-operatively
+key: Any previous anaesthetics, reflux, or loose teeth? | Anaesthetic assessment
+rf: Untreated sleep apnoea | Needs CPAP assessment before elective surgery
+rf: Neck symptoms with RA | Cervical spine imaging before airway manipulation
+sum: So you're having a hip replacement, your BMI is 40, you have sleep apnoea that isn't treated, rheumatoid arthritis on methotrexate with occasional neck stiffness, and you'd consider an epidural. Is that right?
+pres: Katy James is a 47-year-old woman for elective hip replacement with a BMI of 40, untreated obstructive sleep apnoea and rheumatoid arthritis on methotrexate with occasional neck stiffness. She has never had a general anaesthetic and is open to regional anaesthesia.
+ddx: Untreated OSA with obesity as the major anaesthetic risk, because it raises the risk of difficult airway, post-operative hypoxia and opioid sensitivity | Rheumatoid cervical spine instability, told apart by flexion and extension imaging | Undiagnosed cardiorespiratory disease such as obesity hypoventilation, assessed with saturations and an ABG or bicarbonate
+ix: Observations, saturations; STOP-BANG score; sleep study and respiratory referral for CPAP; FBC, U&Es, LFTs given methotrexate; ECG; cervical spine X-rays in flexion and extension if neck symptoms
+mx: Anaesthetic review; start CPAP before elective surgery and bring it to hospital; favour spinal or regional anaesthesia; minimise opioids; continue methotrexate peri-operatively per specialist guidance; VTE prophylaxis; weight management support
+tell: Your sleep apnoea makes a general anaesthetic riskier, as your airway can relax too much. A spinal anaesthetic, where you're numb from the waist down and can have sedation, is often safer. We'd like you to start a CPAP mask at night before the operation and bring it in. We'll also check your neck because of your arthritis.
+
+=== PP36 A
+who: Megan Smith, 25, office administrator
+act: Calm but curious; you only came because a colleague was just diagnosed. Slightly surprised by questions about periods and the pill.
+open: I found a lump in my breast a few days ago. I'm probably being silly.
+story: My colleague was just diagnosed with breast cancer, so I checked myself and found a lump. I don't usually check, so I don't know how long it's been there.
+hpc: Lump: Left breast, upper outer area, noticed a few days ago
+hpc: Feel: Smooth, rubbery, moves around under the fingers
+hpc: Pain: None
+hpc: Cycle: Doesn't change with periods
+yes: Moves easily
+no: Skin change; nipple change or discharge; lumps in the armpit; weight loss; bone pain; breathlessness
+pmh: Nothing
+dh: Combined pill
+all: None
+fh: No family history of breast or ovarian cancer
+sh: Non-smoker; 6 units a week; office administrator
+ice: Probably nothing | Cancer like her colleague | Reassurance
+cue: "My colleague is only 38."
+ask: Is it cancer?
+key: When did you notice it, and has it changed? | Duration and growth
+key: Does it hurt, or change with your periods? | Cyclical change
+key: Any nipple changes, discharge or skin changes? | Malignant features
+key: Any lumps in your armpit? | Nodes
+key: Any family history of breast or ovarian cancer? | Genetic risk
+key: When did your periods start, any pregnancies, and do you take hormones? | Hormonal risk factors
+rf: Skin tethering, nipple retraction, bloody discharge or axillary lumps? | Red flags
+sum: So you noticed a smooth, rubbery lump in your left breast a few days ago that moves around and doesn't hurt or change with your cycle, and there's no family history. Is that right?
+pres: Megan Smith is a 25-year-old woman with a newly noticed painless, smooth, mobile lump in the upper outer left breast, not related to her cycle. She has no nipple or skin changes, no axillary lumps and no family history of breast or ovarian cancer.
+ddx: Fibroadenoma, because of a smooth, rubbery, highly mobile painless lump in a young woman | Breast cyst, told apart on ultrasound and by cyclical change | Breast cancer, rare at 25 but excluded by triple assessment
+ix: Clinical examination; breast ultrasound; core biopsy if any atypical features
+mx: Refer to the breast clinic for triple assessment: under 30 with an unexplained lump, NICE suggests a non-urgent referral unless features are suspicious; reassure; breast awareness
+tell: The lump sounds most like a fibroadenoma, a harmless lump of breast tissue that's common in young women. To be sure, I'll refer you to the breast clinic for an examination and an ultrasound. Please keep checking, and come back sooner if it grows quickly, or you notice skin or nipple changes or a lump in your armpit.
+
+=== PP36 B
+who: Helen Ward, 47, primary school teacher
+act: Anxious, talking fast; you keep touching your breast as you talk. You want to be shown how to check.
+open: My friend has just been diagnosed with breast cancer and I'm really scared it could be me.
+story: My friend was diagnosed after a mammogram. I had one 8 months ago and it was normal. I haven't found a lump, but I can't stop worrying.
+hpc: Symptoms: None; no lumps found
+hpc: Mammogram: Normal 8 months ago, done privately
+hpc: Checking: Doesn't know how to check properly
+yes: Anxiety; poor sleep since the friend's news
+no: Lumps; pain; nipple discharge; skin changes; family history of breast or ovarian cancer
+pmh: Nothing
+dh: None
+all: None
+fh: No breast or ovarian cancer in the family
+sh: Non-smoker; 7 units a week; teacher
+ice: Breast cancer | Missing something | Reassurance and to learn how to check
+cue: "I keep feeling and I don't even know what I'm feeling for."
+ask: Should I have another mammogram?
+find: Breasts symmetrical; no skin changes, dimpling or nipple inversion
+find: No lumps in either breast; no axillary or supraclavicular lymphadenopathy; no nipple discharge
+key: Offer a chaperone and explain the examination | Professionalism
+key: Inspect with arms by the side, then above the head, then hands on hips | Skin tethering and asymmetry
+key: Palpate each breast systematically, including the tail, then the axillae and supraclavicular nodes | Thoroughness
+key: Teach breast awareness: touch, look, check, monthly | Empowers her
+key: Explain NHS screening: mammograms every 3 years from 50 to 71 | Accurate information
+rf: Family history of breast or ovarian cancer? | Would change screening
+sum: So you're worried after your friend's diagnosis, your mammogram 8 months ago was normal, and you haven't found anything yourself. Is that right?
+pres: Mrs Ward is a 47-year-old woman with no breast symptoms who is anxious after a friend's diagnosis; her mammogram 8 months ago was normal and she has no family history. Examination was normal, with no masses, skin or nipple changes, and no axillary or supraclavicular lymphadenopathy.
+ddx: Health anxiety after a friend's diagnosis with a normal examination, because there are no symptoms or signs | Normal cyclical nodularity, which can feel lumpy | Occult breast cancer, very unlikely with a normal recent mammogram and examination; safety-net
+ix: None needed; no referral
+mx: Reassure; teach breast awareness; NHS screening invitation from 50; return if any change; support for anxiety if it persists
+tell: I've examined you carefully and everything feels normal. Breast tissue can feel a bit lumpy, and that's normal. Check once a month, a few days after your period: look in the mirror and feel each breast and your armpit. If you notice a new lump, skin dimpling, nipple changes or discharge, come back and we'll see you quickly.
+
+=== PP36 C
+who: Ali Fisher, 32, deputy head teacher
+act: Composed and articulate but frightened underneath; you speak calmly then stop suddenly when your mum comes up. Hands clasped tightly.
+open: I found a lump in my right breast a month ago. I thought it was another fibroadenoma, but it seems to have grown.
+story: I found it in the shower. I had a fibroadenoma 10 years ago that went away, so I assumed it was the same, but it's grown and feels hard. My nipple has turned in.
+hpc: Lump: Upper outer right breast, a month, growing
+hpc: Feel: Hard and irregular, doesn't move much
+hpc: Cycle: Not related to periods
+hpc: Nipple: Newly turned in on the right
+hpc: Systemic: Feels well
+yes: Nipple inversion; growth
+no: Skin changes; discharge; armpit lumps; bone pain; abdominal pain; breathlessness; headaches; weight loss
+pmh: Fibroadenoma 10 years ago
+dh: Combined pill for 15 years
+all: None
+fh: Mum died of ovarian cancer 2 years ago; aunt had breast cancer twice, first at 30; grandad had bowel cancer; nobody has had genetic testing
+sh: Ex-smoker; little alcohol; lives alone with 3 cats; deputy head teacher
+ice: Breast cancer | Following her mum | Honesty and fast action
+cue: When family comes up: "Mum was 58." Long pause.
+ask: Is it cancer? Could I have the gene?
+key: When did you notice it, has it grown, and what does it feel like? | Hard, irregular, growing
+key: Any nipple changes, discharge or skin changes? | Nipple inversion is a red flag
+key: Any lumps in your armpit or symptoms elsewhere such as bone pain or breathlessness? | Spread
+key: Tell me about the family: who had cancer, which type, at what age? | BRCA risk
+key: Periods, pregnancies and hormone use | Hormonal risk
+rf: New nipple inversion with a hard lump | Suspected cancer pathway
+rf: Breast cancer under 40 and ovarian cancer in the family | Genetics referral
+sum: So for a month you've had a hard, irregular, growing lump in your right breast, your nipple has turned in, and your mum had ovarian cancer and your aunt breast cancer at 30. Is that right?
+pres: Ali Fisher is a 32-year-old woman with a month-long hard, irregular, enlarging lump in the upper outer right breast with new nipple inversion. She has a strong family history: her mother died of ovarian cancer and her maternal aunt had breast cancer twice, first at 30. She is nulliparous and has used the combined pill for 15 years. Importantly, she has no systemic symptoms.
+ddx: Breast cancer, possibly BRCA-related, because of a hard irregular enlarging lump with nipple inversion and a strong family history | Fibroadenoma, told apart by a smooth, mobile lump without nipple change | Phyllodes tumour or fat necrosis; and metastatic disease, assessed by staging if cancer is confirmed
+ix: Suspected cancer pathway triple assessment: examination, ultrasound plus mammogram, and core biopsy; genetics referral for BRCA testing
+mx: Suspected cancer pathway referral to the breast clinic within 2 weeks; clinical genetics referral; stop the combined pill pending results and discuss contraception; breast care nurse support
+tell: I'm concerned about this lump because it's hard, growing and your nipple has changed, and with your family history we need to act quickly. I'm referring you to the breast clinic to be seen within two weeks for a scan and a needle test. I'll also refer you to the genetics team to check for an inherited gene. Whatever we find, we'll support you.
+
+=== PP36 D
+who: Ali Smith, 28, personal trainer
+act: Relaxed, a little impatient; only here because your boyfriend insisted. Press on the lump to show where.
+open: My boyfriend made me come. I've had a lump in my right breast for a couple of months.
+story: It's smooth and sometimes tender, and it gets bigger around my period. I'm not really worried.
+hpc: Lump: Right breast, 2 months
+hpc: Feel: Smooth, well defined, sometimes tender
+hpc: Cycle: Larger and more tender before periods
+hpc: Size: About 2 cm, she thinks, unchanged otherwise
+yes: Cyclical tenderness
+no: Nipple changes; discharge; skin changes; armpit lumps; weight loss
+pmh: Nothing
+dh: None
+all: None
+fh: No family history of cancer
+sh: Ex-smoker; 2 bottles of wine a week, about 20 units; personal trainer
+ice: Hormonal | Nothing much | To keep her boyfriend happy
+cue: "He worries too much."
+ask: Do I need to do anything?
+key: How long, and does it change with your periods? | Cyclical change suggests a cyst or fibrocystic change
+key: Is it tender, and what does it feel like? | Smooth, tender, fluctuant
+key: Any nipple changes, discharge or skin changes? | Red flags
+key: Any armpit lumps? | Nodes
+key: Family history of breast or ovarian cancer? | Genetic risk
+rf: Skin tethering, nipple retraction, bloody discharge | Malignant features
+sum: So you've had a smooth, sometimes tender right breast lump for two months that gets bigger around your period, with no other symptoms or family history. Is that right?
+pres: Ali Smith is a 28-year-old woman with a 2-month history of a smooth, tender, well-defined right breast lump that enlarges premenstrually, with no nipple, skin or axillary changes and no family history of breast cancer. She drinks about 20 units a week.
+ddx: Breast cyst or fibrocystic change, because of a smooth, tender, cyclical lump | Fibroadenoma, told apart on ultrasound | Breast cancer, unlikely but excluded by triple assessment
+ix: Breast clinic: ultrasound and aspiration of a simple cyst; core biopsy if solid or the aspirate is bloody
+mx: Refer to the breast clinic, non-urgent under 30 if no suspicious features; alcohol advice; breast awareness
+tell: This sounds like a fluid-filled cyst, which is harmless and often changes with your cycle. To be sure, the breast clinic will scan it and may drain it with a fine needle. Cutting down the wine a little is good for breast health too. If it grows, the skin or nipple changes, or you feel a lump in your armpit, come back sooner.
+
+=== PP36 E
+who: Rachel Hunt, 46, accountant
+act: Steady but tearful at times; you've brought a notebook with questions. Look at your daughters' photo on your phone when inheritance comes up.
+open: The clinic said they'd explain my results today. Is it cancer?
+story: I found a lump, had the scan and a biopsy. My daughters are 14 and 17.
+hpc: Lump: Left breast, found 3 weeks ago
+hpc: Results: Core biopsy confirmed invasive breast cancer; tumour about 3 cm; staging scans show no spread; lymph nodes still to be assessed
+hpc: Questions: Is it cancer? What's my prognosis? Will I pass it on to my daughters? What are the risks of surgery?
+hpc: Feelings: Expecting bad news; husband is in the waiting room
+yes: Anxiety; poor sleep
+no: Bone pain; breathlessness; headaches; weight loss
+pmh: Nothing
+dh: None
+all: None
+fh: No family history of breast or ovarian cancer
+sh: Non-smoker; 6 units a week; accountant; married, two daughters
+ice: Cancer | Her daughters and dying | Honest answers and a plan
+cue: "My girls are 14 and 17. Will they get it?"
+ask: What's my prognosis? Will I pass it on to my daughters? What are the risks of surgery?
+key: Find out what she knows and how much she wants to know | SPIKES perception and invitation
+key: Warning shot, then say clearly: the biopsy shows a breast cancer | Breaking bad news
+key: Explain staging in plain words: about 3 cm, no sign of spread on scans, lymph nodes to be checked at surgery | T2 NX M0
+key: Options: breast-conserving surgery with radiotherapy, or mastectomy, with sentinel node biopsy; further treatment depends on hormone and HER2 receptors | Treatment
+key: Surgical risks: bleeding, infection, seroma, numbness, arm swelling from lymphoedema, and cosmetic change | Material risks
+key: Daughters: most breast cancers are not inherited; with no family history her daughters' risk is only slightly raised; genetic testing is offered if criteria are met | Accurate reassurance
+rf: Check her support at home and offer the breast care nurse | Safety and support
+sum: So the biopsy shows a breast cancer about 3 cm across that hasn't spread on the scans, and we'll check the glands under your arm during surgery. Can you tell me what you've understood so far?
+pres: Mrs Hunt is a 46-year-old woman with a newly diagnosed invasive left breast cancer, staged T2 NX M0: a tumour of about 3 cm, nodes not yet assessed and no distant metastases. I have broken the news using a warning shot, explained the options of breast-conserving surgery with radiotherapy or mastectomy with sentinel node biopsy, the surgical risks, and that adjuvant treatment depends on receptor status. She is worried about her daughters.
+ddx: Early invasive breast cancer, T2 NX M0, because of the biopsy and staging results | Receptor status: hormone receptor positive or HER2 positive disease changes the systemic treatment | Nodal involvement, assessed by sentinel node biopsy
+ix: Receptor status, ER, PR and HER2; sentinel lymph node biopsy at surgery; genetic testing if family history criteria are met
+mx: Breast multidisciplinary team decision; surgery: wide local excision with radiotherapy or mastectomy with reconstruction options; adjuvant endocrine therapy for ER-positive disease, chemotherapy or HER2-targeted therapy as indicated; breast care nurse; psychological support
+tell: I'm very sorry. The biopsy shows a breast cancer. The good news is it's about 3 cm and hasn't spread on the scans, so we treat it aiming for a cure. You'll have an operation, either removing the lump with radiotherapy after, or removing the breast, and we'll check the glands under your arm. Most breast cancers aren't inherited, and your daughters' risk is only slightly raised. Your breast care nurse will be with you every step.
+
+=== PP37 A
+who: Ray Thomas, 68, retired bus driver
+act: Matter-of-fact, embarrassed about the examination; you tense up and make a joke. Ask directly whether it's cancer.
+open: I'm up three times a night to wee, and the stream's weak. My wife made me come.
+story: It takes ages to get going, the stream is weak and I dribble at the end. I'm up three times a night.
+hpc: Voiding: Hesitancy, weak stream, terminal dribbling, incomplete emptying
+hpc: Storage: Nocturia 3 times; mild frequency
+hpc: Duration: About a year, slowly worse
+hpc: PSA: Recent PSA above the age-specific range
+yes: Feeling of incomplete emptying
+no: Blood in urine; pain; fever; retention; bone pain; weight loss; leg weakness or numbness
+pmh: High blood pressure
+dh: Amlodipine 5 mg
+all: None
+fh: No prostate cancer in the family
+sh: Ex-smoker; 10 units a week; retired bus driver
+ice: Old age | Cancer | To know if it's cancer and the treatment
+cue: Nervous laugh before the examination: "This is the bit I've been dreading."
+ask: Is it cancer? What's the treatment?
+find: Smooth, symmetrically enlarged, rubbery prostate, estimated 40 grams
+find: Central sulcus preserved; no nodules; non-tender; rectal mucosa smooth; no blood on the glove
+key: Explain the examination and get consent; offer a chaperone | Intimate examination
+key: Position left lateral with knees to chest; inspect the anus first | Technique
+key: Assess prostate size, surface, consistency, symmetry and the central sulcus | Benign versus malignant features
+key: Check for tenderness and inspect the glove for blood or mucus | Prostatitis and bleeding
+rf: Bone pain, weight loss, haematuria, or leg weakness | Metastatic prostate cancer and cord compression
+sum: So for a year you've had a weak stream, hesitancy, dribbling and get up three times a night, with no blood, pain or weight loss, and your PSA was raised. Is that right?
+pres: Mr Thomas is a 68-year-old man with a year of voiding and storage lower urinary tract symptoms and a PSA above the age-specific range. On DRE the prostate is smooth, symmetrically enlarged and rubbery, about 40 grams, with a preserved central sulcus and no nodules or tenderness. These findings are consistent with benign prostatic hyperplasia, but the raised PSA needs urology assessment.
+ddx: Benign prostatic hyperplasia, because of LUTS with a smooth, symmetrically enlarged prostate | Prostate cancer, which a normal-feeling prostate does not exclude, given the raised PSA | Urinary retention or UTI, excluded with a bladder scan and urine dip
+ix: Urine dip; U&Es; repeat PSA; frequency volume chart and IPSS score; post-void residual bladder scan; multiparametric MRI prostate then biopsy if indicated
+mx: Suspected cancer pathway referral to urology for the raised PSA; conservative advice: reduce evening fluids, caffeine and alcohol; an alpha-blocker such as tamsulosin for moderate to severe LUTS; add finasteride if the prostate is large
+tell: The prostate feels enlarged but smooth, which usually means benign enlargement, a normal part of getting older. But your blood test is higher than expected for your age, so I'm referring you to the urology team to be seen quickly. They'll usually do an MRI scan first. In the meantime, a tablet called tamsulosin can help the flow. If you can't pass urine at all, go to A&E.
+
+=== PP37 B
+who: Frank Ellis, 74, retired steelworker
+act: Stoic, rubbing your lower back; minimises the weight loss. Walks slowly but normally.
+open: I've had a poor stream for months, and now my back's aching too.
+story: The water's been slow for months. The last few weeks I've had an ache low in my back, worse at night. I've lost some weight.
+hpc: Urinary: Months of poor stream, hesitancy, nocturia
+hpc: Back pain: New, aching, lower back, worse at night, 6 weeks
+hpc: Weight: Lost about 5 kg in 3 months
+hpc: Legs: ONLY IF ASKED: no weakness, numbness, or trouble with bowels or bladder control
+yes: Night back pain; weight loss; tiredness
+no: Leg weakness; numbness; saddle anaesthesia; bowel or bladder incontinence; haematuria; fever
+pmh: High blood pressure
+dh: Ramipril 5 mg
+all: None
+fh: Brother had prostate cancer
+sh: Ex-smoker; 8 units a week; retired steelworker; lives with wife
+ice: A pulled back | Cancer, like his brother | To know what's going on
+cue: "My brother had prostate trouble. He went downhill fast."
+ask: Has it spread?
+find: Hard, irregular, craggy, asymmetrical prostate
+find: Central sulcus obliterated; extends beyond the gland margins; non-tender
+find: Lower lumbar spine tender on percussion; normal power, sensation and reflexes in the legs
+key: Consent, chaperone, left lateral position | Intimate examination
+key: Assess surface, consistency, symmetry and sulcus | Malignant features
+key: Percuss the spine for tenderness | Bone metastases
+key: Check leg power, sensation and reflexes, and ask about saddle numbness | Metastatic spinal cord compression
+rf: Any leg weakness, numbness, or bladder or bowel problems? | MSCC: urgent MRI within 24 hours and dexamethasone
+sum: So you've had months of a poor stream, six weeks of night-time back ache and you've lost about 5 kg, but no leg weakness or numbness. Is that right?
+pres: Mr Ellis is a 74-year-old man with months of obstructive LUTS, 6 weeks of nocturnal low back pain and 5 kg weight loss, with a brother who had prostate cancer. DRE shows a hard, irregular, craggy prostate with an obliterated sulcus extending beyond the gland, and lumbar spinal tenderness. Neurological examination of the legs is normal. These findings are concerning for locally advanced prostate cancer with possible bone metastases.
+ddx: Locally advanced prostate cancer with bony metastases, because of a craggy prostate with weight loss and nocturnal back pain | BPH with mechanical back pain, unlikely given a hard irregular gland | Metastatic spinal cord compression, excluded clinically for now but needing urgent MRI if any neurological symptom develops
+ix: PSA; FBC, U&Es, calcium, ALP, LFTs; MRI prostate and staging; bone scan or PSMA PET; MRI whole spine if any neurological symptoms
+mx: Suspected cancer pathway urology referral; analgesia; urology MDT; androgen deprivation therapy for metastatic disease; MSCC safety-net
+tell: The prostate feels hard and irregular, which worries me, and your back pain could mean the problem has spread to the bone. I'm referring you urgently to the urology team for scans and tests. If your legs become weak or numb, or you lose control of your bladder or bowels, that's an emergency: call 999.
+
+=== PP37 C
+who: Roger Jones, 68, retired bank manager
+act: Fed up and frank; you've tried everything. Ask about your sex life with mild embarrassment.
+open: I've tried everything for my waterworks and nothing's working. I'm fed up.
+story: I'm up four times a night and eight times a day, and I get a sudden urge. I've cut out alcohol and caffeine and stopped drinking after 6pm. The tablets haven't helped.
+hpc: Storage: Up 4 times a night, 8 times a day, urgency
+hpc: Voiding: Weak stream, hesitancy
+hpc: Treatment so far: Tamsulosin and finasteride for over 6 months, lifestyle changes: no improvement
+hpc: Impact: Can't do his rambling club; planning trips around toilets
+yes: Urgency; weak stream
+no: Pain; blood; incontinence; retention; fever; weight loss; bone pain
+pmh: High blood pressure; high cholesterol; not diabetic
+dh: Ramipril 5 mg; atorvastatin 20 mg; tamsulosin 400 micrograms; finasteride 5 mg
+all: None
+fh: No urological cancer in the family
+sh: Never exposed to industrial chemicals; non-drinker now; retired bank manager; rambling club
+ice: The prostate is too big | His sex life and a long hospital stay | A fix so he can enjoy retirement
+cue: Lowers voice: "Will it affect things in the bedroom?"
+ask: Will it affect my sex life? How long will I be in hospital?
+find: Smooth, symmetrically enlarged prostate, about 60 grams; sulcus preserved; non-tender
+find: Post-void residual 150 mL on bladder scan
+key: Find out what he knows about TURP | Starts where he is
+key: Explain TURP: under spinal or general anaesthetic, a telescope through the penis to trim the inner prostate | Procedure
+key: Benefits: most men have a much better flow and fewer night trips | Benefits
+key: Risks: retrograde ejaculation in most men, bleeding, infection, urethral stricture, incontinence, and a small risk of erectile dysfunction; TUR syndrome | Material risks
+key: Recovery: catheter for 1 to 3 days, usually home in 1 to 3 days, avoid heavy lifting for 2 to 4 weeks | Practicalities
+key: Alternatives: continuing medicines, other procedures such as laser enucleation, or a catheter | Alternatives
+rf: Any blood in urine or retention? | Complications to address first
+sum: So you're up four times a night and eight times a day despite tablets and cutting out drinks, it's spoiling your rambling, and you want to know about surgery, especially the effect on your sex life. Is that right?
+pres: Mr Jones is a 68-year-old man with refractory moderate to severe LUTS from BPH despite tamsulosin, finasteride and lifestyle changes, with a large smooth prostate on DRE and a post-void residual of 150 mL. I have counselled him for TURP, including benefits, the high likelihood of retrograde ejaculation, and other risks.
+ddx: Benign prostatic hyperplasia refractory to medical therapy, because of persistent LUTS on combination therapy with a large smooth prostate | Overactive bladder contributing to storage symptoms, told apart by urodynamics | Prostate cancer or a bladder stone, excluded with PSA, imaging and cystoscopy
+ix: Urine dip; U&Es; PSA; flow rate and post-void residual; urodynamics if predominantly storage symptoms; cystoscopy before surgery
+mx: Urology referral for TURP or holmium laser enucleation; continue medicines until surgery; written information; consent with a cooling-off period
+tell: An operation to trim the prostate should improve your flow and reduce the night trips. Most men find that when they climax, the fluid goes back into the bladder instead of out, which is harmless but means you may be less fertile. A small number have erection problems. You'd have a catheter for a day or two and usually go home within a couple of days.
+
+=== PP42 A
+who: Tom Davies, 24, apprentice electrician
+act: In agony, sweating, gripping the sheets; cry out if anyone touches your toes. Pain is far worse than you expected.
+open: My leg is agony. The morphine isn't touching it.
+story: They put a nail in my shin yesterday. The pain has just got worse and worse, it's unbearable. When the nurse moved my toes I nearly screamed. My foot's tingling on top.
+hpc: Operation: Intramedullary nail for a tibial fracture yesterday after a motorbike accident
+hpc: Pain: Severe, deep, bursting, getting worse, out of proportion
+hpc: Analgesia: Morphine not helping
+hpc: Toes: Moving the toes is agony
+hpc: Sensation: Tingling over the top of the foot
+yes: Worsening pain; pain on passive toe movement; tingling on top of the foot
+no: Chest pain; breathlessness; fever; calf tenderness above the cast
+pmh: Nothing
+dh: Morphine; paracetamol; enoxaparin
+all: None
+fh: Nothing relevant
+sh: Smokes 5 a day; 14 units a week; apprentice electrician
+ice: Normal after surgery | Something's wrong with his leg | Better pain relief
+cue: "Nobody's listening. It's getting worse, not better."
+ask: Is this normal?
+key: Is the pain getting worse despite painkillers? Is it out of proportion? | The earliest sign of compartment syndrome
+key: Does it hurt when your toes are moved? | Pain on passive stretch
+key: Any tingling or numbness, and where? | Deep peroneal nerve in the anterior compartment
+key: Is the cast or dressing tight? | Restrictive dressings
+key: When was your operation and what was done? | Tibial fractures and IM nails are high risk
+rf: Pain out of proportion with pain on passive stretch | Acute compartment syndrome is a surgical emergency
+rf: Absent pulses are a late sign; don't wait for them | Normal pulses do not exclude it
+sum: So since your nail yesterday the pain has kept getting worse despite morphine, moving your toes is agony and the top of your foot is tingling. Is that right?
+pres: Tom Davies is a 24-year-old man on day 1 after intramedullary nailing of a tibial fracture with worsening severe pain out of proportion to the injury, despite morphine, severe pain on passive toe movement and paraesthesia over the dorsum of the foot. These features are highly suggestive of acute compartment syndrome.
+ddx: Acute compartment syndrome of the anterior compartment, because of pain out of proportion, pain on passive stretch and paraesthesia after tibial nailing | Post-operative pain or a tight cast, told apart by relief after splitting the cast | DVT, which causes calf swelling rather than escalating pain on passive stretch
+ix: Clinical diagnosis; compartment pressure measurement if the diagnosis is uncertain or the patient is obtunded; CK
+mx: Emergency: call the orthopaedic registrar now; split the cast and dressings down to skin; keep the limb at heart level, not elevated; analgesia; oxygen; nil by mouth; urgent fasciotomy within the hour
+tell: I'm worried that pressure is building up inside your leg muscles, which can cut off the blood supply. I'm loosening your cast now and calling the orthopaedic surgeon urgently. You'll likely need an operation today to release the pressure. You're not imagining it, and you were right to tell us.
+
+=== PP42 B
+who: Jaswinder Kaur, 66, retired seamstress
+act: Calm, sitting with her leg up; points to the swelling above the cast. Worried because her mother had a clot.
+open: My calf above the cast has been aching and swelling for a couple of days.
+story: I had my ankle fixed 5 days ago. Since I came home the calf above the plaster has got swollen and achy. I haven't had any injections since I left hospital.
+hpc: Operation: Ankle fracture fixation 5 days ago; below-knee cast
+hpc: Calf: Aching, swollen above the cast, 2 days
+hpc: Mobility: Mostly on the sofa since discharge
+hpc: Prophylaxis: No injections since discharge
+yes: Calf swelling; ache; reduced mobility
+no: Chest pain; breathlessness; coughing blood; fever; redness spreading; toes numb or cold
+pmh: High blood pressure; obesity
+dh: Amlodipine 5 mg; paracetamol
+all: None
+fh: Mother had a clot in her leg
+sh: Non-smoker; 2 units a week; lives with husband
+ice: The cast is too tight | A clot like her mother | To know what's wrong
+cue: "My mum had a clot in her leg after her hip."
+ask: Is it a clot?
+key: When did the swelling start, and is it in one leg? | Unilateral swelling
+key: Any chest pain, breathlessness or coughing blood? | PE
+key: Have you had any blood-thinning injections since the operation? | VTE prophylaxis
+key: How much have you been moving about? | Immobility
+key: Any previous clots, cancer, or family history? | Wells and thrombophilia
+key: Are your toes warm, pink and moving? | Cast complications
+rf: Any breathlessness or chest pain? | PE needs immediate assessment
+rf: Increasing pain on moving toes | Compartment syndrome
+sum: So five days after your ankle operation, your calf above the cast has become swollen and achy, you've been mostly on the sofa and haven't had any blood-thinning injections. No chest symptoms. Is that right?
+pres: Mrs Kaur is a 66-year-old woman 5 days after ankle fracture fixation in a below-knee cast with 2 days of calf swelling and ache above the cast, with reduced mobility and no VTE prophylaxis since discharge. Importantly, she has no chest pain, breathlessness or haemoptysis.
+ddx: Deep vein thrombosis, because of unilateral calf swelling after lower limb surgery with immobilisation and no prophylaxis; Wells score 2 or more | Post-operative swelling or a tight cast, told apart by a normal ultrasound | Pulmonary embolism, excluded by asking about chest symptoms, observations and CTPA if any arise
+ix: Wells score; proximal leg vein ultrasound within 4 hours, or interim anticoagulation and D-dimer if delayed; FBC, U&Es, LFTs, clotting before anticoagulation
+mx: If confirmed, a DOAC such as apixaban or rivaroxaban for 3 months as a provoked DVT; check the cast; mobilise as advised; report the missed prophylaxis through incident reporting
+tell: I'm worried you may have a clot in your leg, which can happen after an operation and a plaster. We'll do an ultrasound scan today and, if there's a clot, start a blood thinner for three months. If you get chest pain or sudden breathlessness, call 999.
+
+=== PP43 A
+who: Neil Barker, 45, electrician
+act: Embarrassed; jokes nervously. You stand for the examination when asked.
+open: I've got a swelling down below. It doesn't hurt, it's just heavy.
+story: For about three months the right side of my scrotum has got bigger, slowly. It feels heavy, especially by the end of the day.
+hpc: Swelling: Right scrotum, 3 months, slowly enlarging
+hpc: Pain: None, just heaviness
+hpc: Trauma: None
+yes: Dragging heaviness
+no: Pain; fever; urinary symptoms; discharge; weight loss; lump in the testis itself; abdominal swelling
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Non-smoker; 12 units a week; electrician; married
+ice: Something harmless | Testicular cancer | To be checked
+cue: "My mate had testicular cancer at 30."
+ask: Is it cancer?
+find: Large, smooth, non-tender right scrotal swelling; you can get above it
+find: Transilluminates brightly; the right testis cannot be felt separately
+find: Left testis and epididymis normal; no inguinal swelling; no cough impulse
+key: Offer a chaperone, examine standing then lying | Intimate examination
+key: Can you get above the swelling? | Scrotal versus inguinoscrotal hernia
+key: Is the testis separately palpable from the swelling? | Hydrocele surrounds the testis
+key: Transilluminate with a pen torch | Fluid-filled
+key: Examine the other side and the inguinal region | Completeness
+rf: A hard lump within the testis itself | Testicular cancer: urgent ultrasound
+sum: So for three months the right side has slowly swollen, it's painless but heavy, with no injury or other symptoms. Is that right?
+pres: Mr Barker is a 45-year-old man with a 3-month history of a painless, enlarging right scrotal swelling. On examination there is a large smooth swelling that I can get above, which transilluminates brightly, and the testis cannot be felt separately. These findings are consistent with a right hydrocele.
+ddx: Right hydrocele, because it transilluminates, I can get above it and the testis is not separately palpable | Inguinoscrotal hernia, excluded as I can get above it with no cough impulse | Testicular tumour with a secondary hydrocele, excluded with a scrotal ultrasound
+ix: Scrotal ultrasound to examine the underlying testis; tumour markers if any testicular abnormality
+mx: Reassure if ultrasound is normal; conservative or routine surgical repair if symptomatic; urgent referral if a testicular mass is found
+tell: The swelling is a collection of fluid around the testicle, called a hydrocele, which is usually harmless. In adults we always do an ultrasound to make sure the testicle underneath is healthy. If it's bothering you, a small operation can fix it. If you feel a hard lump in the testicle itself or it becomes painful, come back straight away.
+
+=== PP43 B
+who: Kieran Ashby, 24, retail worker
+act: Relaxed but worried about fertility; you and your partner are keen for a baby.
+open: I get a dragging ache in my left testicle when I've been on my feet all day.
+story: It aches on the left after standing all day at work and feels better lying down. We've been trying for a baby for a year.
+hpc: Ache: Left scrotum, dragging, end of the day
+hpc: Better: Lying down
+hpc: Fertility: Trying to conceive for a year without success
+yes: Dragging ache; better lying down
+no: Sudden severe pain; fever; urinary symptoms; trauma; lump in the testis; weight loss; loin pain; blood in urine
+pmh: Nothing
+dh: None
+all: None
+fh: Nothing relevant
+sh: Non-smoker; 10 units a week; works in retail, on his feet all day
+ice: A strain | Infertility | To know if it's why they can't conceive
+cue: "My girlfriend's getting upset each month."
+ask: Is this why we can't have a baby?
+find: Standing: a soft swelling above the left testis like a bag of worms
+find: Becomes more prominent on Valsalva and empties when lying down
+find: Left testis slightly smaller than the right; both testes otherwise normal; non-tender
+key: Examine standing and lying | A varicocele empties lying down
+key: Feel above the testis for a bag of worms and ask him to cough or bear down | Valsalva
+key: Compare testicular size | Testicular atrophy
+key: Does it empty lying down? Is it on the right side? | A right-sided or non-emptying varicocele suggests a renal or retroperitoneal mass
+rf: Right-sided or non-reducing varicocele | Renal cell carcinoma obstructing the gonadal vein
+sum: So you get a dragging ache in your left testicle after standing all day that eases lying down, and you've been trying for a baby for a year. Is that right?
+pres: Kieran Ashby is a 24-year-old man with a dragging left scrotal ache after prolonged standing, relieved by lying down, and a year of subfertility. On examination there is a bag-of-worms swelling above the left testis that enlarges on Valsalva and empties when supine, with a slightly smaller left testis. These findings are consistent with a left varicocele.
+ddx: Left varicocele, because of a bag-of-worms swelling that empties lying down | Epididymal cyst, told apart by a discrete smooth swelling separate from the testis that transilluminates | Secondary varicocele from a left renal tumour, excluded because it empties when supine; image if it does not
+ix: Scrotal ultrasound with Doppler; semen analysis for both partners' fertility work-up; renal ultrasound if right-sided or non-reducing
+mx: Supportive underwear; analgesia; refer to urology if painful or affecting fertility; fertility investigations for the couple
+tell: This is a varicocele, a collection of enlarged veins, like varicose veins of the scrotum. It's common and usually harmless, but it can sometimes affect sperm. We'll arrange a scan and a sperm test, and look at fertility for both of you. Supportive pants can ease the ache.
+
+=== PP44 A
+who: Derek Smith, 75, retired electrical engineer
+act: Calm and precise, a man who likes facts; anxiety shows in his tapping foot when you mention the bladder.
+open: My urine has been pink for a couple of weeks. It doesn't hurt.
+story: For about two weeks my urine has been pink. No pain. My neighbour had bladder cancer and had his bladder removed. That's my biggest worry.
+hpc: Haematuria: Pink urine for 2 weeks, throughout the stream, no clots
+hpc: Pain: None
+hpc: Urinary symptoms: Nocturia once; otherwise none
+hpc: Weight: Stable
+yes: Nocturia once
+no: Clots; pain; dysuria; frequency; fever; loin pain; weight loss; trauma; vigorous exercise; anticoagulants
+pmh: High blood pressure
+dh: Amlodipine 10 mg; ibuprofen occasionally
+all: None
+fh: Nothing relevant
+sh: Smoked 30 a day for 40 years, 60 pack-years, stopped 15 years ago; no alcohol; retired electrical engineer, exposure to rubber and dyes is worth asking about
+ice: Bladder cancer | Losing his bladder like the neighbour | The facts and a plan
+cue: "My neighbour has a bag now. I couldn't cope with that."
+ask: Is it cancer?
+key: How long, is the blood there all the way through the stream, and any clots? | Pattern and clots
+key: Any pain, burning, frequency or fever? | Painless haematuria is cancer until proven otherwise
+key: Any loin pain or weight loss? | Renal cancer
+key: Have you smoked, and did you ever work with dyes, rubber or chemicals? | Bladder cancer risk factors
+key: Any blood thinners, injury or heavy exercise? | Other causes
+rf: Visible haematuria aged 45 or over | Suspected cancer pathway urology referral
+rf: Clots or inability to pass urine | Clot retention
+sum: So for two weeks your urine has been pink without any pain or other urinary symptoms, and you smoked heavily for 40 years. Is that right?
+pres: Derek Smith is a 75-year-old ex-smoker with a 60 pack-year history presenting with 2 weeks of painless visible haematuria without clots, with no urinary symptoms, loin pain or weight loss. He is worried about bladder cancer.
+ddx: Bladder cancer, because of painless visible haematuria in a heavy ex-smoker over 45 | Prostate enlargement or a UTI, told apart by urine culture, DRE and PSA | Renal cell carcinoma or upper tract urothelial cancer, excluded with a CT urogram
+ix: Urine dip and culture; U&Es, FBC, PSA after counselling; flexible cystoscopy and CT urogram on the haematuria pathway
+mx: Suspected cancer pathway referral to urology; stop ibuprofen; safety-net for clot retention
+tell: Blood in the urine without pain needs checking carefully, and because you've smoked, we must rule out a bladder growth. I'm referring you to the urology team on the urgent pathway for a camera test of the bladder and a scan. If it's a bladder cancer, many are found early and treated without removing the bladder. If you can't pass urine or pass clots, go to A&E.
+
+=== PP44 B
+who: Christine Rowe, 63, retired office manager
+act: Tired-looking, rubbing your left side; quietly worried.
+open: I've seen blood in my urine twice, and I've got a dull ache on my left side.
+story: I've had blood in my urine twice in the last month, and a dull ache in my left side for a few weeks. My clothes are looser.
+hpc: Haematuria: Twice in a month, painless
+hpc: Loin pain: Left, dull, constant, a few weeks
+hpc: Weight: About 4 kg lost without trying
+hpc: Other: Night sweats occasionally
+yes: Weight loss; fatigue; occasional night sweats
+no: Fever; dysuria; frequency; renal colic; previous stones; anticoagulants
+pmh: High blood pressure; obesity
+dh: Ramipril 5 mg
+all: None
+fh: Nothing relevant
+sh: Smokes 15 a day; 4 units a week; retired office manager
+ice: A kidney infection | Cancer | Answers
+cue: "I've been feeling washed out for weeks."
+ask: Is it my kidney?
+key: How many times, and any clots or pain? | Haematuria pattern
+key: Where is the pain and is it constant or colicky? | Constant loin pain suggests a mass
+key: Any weight loss, fevers or night sweats? | Systemic features
+key: Do you smoke, and any high blood pressure or obesity? | Renal cancer risk factors
+key: Any left testicular swelling or leg swelling in men or women? | Venous involvement
+rf: Haematuria with loin pain and weight loss | The classic triad of renal cell carcinoma
+sum: So you've had blood in your urine twice, a dull ache in your left side for weeks and you've lost weight. You smoke. Is that right?
+pres: Christine Rowe is a 63-year-old smoker with painless visible haematuria on two occasions, a constant dull left loin ache and 4 kg weight loss with night sweats. Importantly, there are no infective or colicky features.
+ddx: Renal cell carcinoma, because of haematuria, loin pain and weight loss in a smoker with hypertension and obesity | Renal calculi or pyelonephritis, told apart by colicky pain, fever and imaging | Urothelial cancer of the upper tract or bladder, excluded with a CT urogram and cystoscopy
+ix: Urine dip and culture; FBC for anaemia or polycythaemia, U&Es, calcium, LFTs; CT urogram; CT chest for staging; cystoscopy
+mx: Suspected cancer pathway urology referral; smoking cessation; urology MDT; nephrectomy if localised
+tell: Blood in the urine with an ache in your side and weight loss needs urgent checking, and one possibility is a growth in the kidney. I'm referring you urgently for a scan and to see the urology team. If you develop severe pain, a fever or can't pass urine, come straight in.
+
+=== PP44 C
+who: Brian Fowler, 70, retired lorry driver
+act: Embarrassed to discuss semen; mumbles, then says it plainly when you normalise it.
+open: I saw blood in my water once, and, well, in my semen too.
+story: A couple of weeks ago I noticed blood in my semen, and once in my urine. My stream has been poor for about a year.
+hpc: Haematospermia: Once, 2 weeks ago
+hpc: Haematuria: Once
+hpc: LUTS: Poor stream, hesitancy, nocturia twice, for a year
+hpc: Bone pain: None
+yes: Poor stream; nocturia
+no: Bone pain; weight loss; dysuria; fever; testicular pain; leg weakness
+pmh: High blood pressure
+dh: Amlodipine 5 mg
+all: None
+fh: Father had prostate cancer at 72
+sh: Ex-smoker; 10 units a week; retired lorry driver
+ice: The prostate | Cancer like his dad | A check-up
+cue: "Dad had prostate cancer. They found it late."
+ask: Is it cancer?
+key: When did you notice blood, and how often? In semen, urine, or both? | Haematospermia and haematuria
+key: How is your stream, and how often do you get up at night? | LUTS
+key: Any bone pain, weight loss or tiredness? | Metastatic disease
+key: Any family history of prostate cancer? | Risk
+key: Any pain, fever or discharge? | Prostatitis
+rf: Visible haematuria at 45 or over | Suspected cancer pathway
+rf: Bone pain or leg weakness | Metastases and cord compression
+sum: So you've had blood in your semen and urine once each, a year of poor stream, and your father had prostate cancer. Is that right?
+pres: Brian Fowler is a 70-year-old man with an episode of haematospermia and one of visible haematuria on a background of a year of obstructive LUTS, with a father diagnosed with prostate cancer at 72. Importantly, he has no bone pain, weight loss or infective symptoms.
+ddx: Prostate cancer, because of haematospermia and haematuria with LUTS and a family history | BPH or prostatitis, told apart by DRE, PSA and urine culture | Bladder cancer, excluded with cystoscopy and CT urogram for the haematuria
+ix: DRE; urine dip and culture; PSA after counselling; U&Es; MRI prostate; cystoscopy and CT urogram on the haematuria pathway
+mx: Suspected cancer pathway urology referral; treat any infection; safety-net
+tell: Blood in the semen and urine needs checking, especially with your dad's history. I'd like to examine the prostate, do a blood test called a PSA, and refer you urgently to the urology team. Many prostate cancers found early are very treatable. If you can't pass urine or get bone pain or leg weakness, come straight back.

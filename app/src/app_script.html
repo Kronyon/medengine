@@ -72,6 +72,20 @@ function packFor(st){ for (const ui of st.u || []) if (PK[ui]) return {p: PK[ui]
 const frameItems = fid => { const f = FR[fid]; const out = []; if (f) f.secs.forEach(sc => sc.items.forEach(it => out.push(Object.assign({sub: sc.h}, it)))); return out; };
 function varOf(st, vk){ if (!(st.vars || []).length) return null; return st.vars.find(v => v.k === vk) || st.vars[0]; }
 function splitX(x){ return x.split(/;\s+|\.\s+(?=[A-Z])/).map(t => t.trim().replace(/\.$/, '')).filter(t => t.length > 3); }
+function caseSecs(st, vk, add){
+  const c = caseOf(st, vk); if (!c) return false;
+  const ex = isExCase(st, c);
+  add('ck', ex ? 'This case: what the examiner looks for' : 'This case: what to ask', c.key.map(([say, why]) => ({t: say.replace(/[?.]$/, ''), why, say: ex ? '' : say, sub: 'Station-specific'})).concat(c.rf.map(([say, why]) => ({t: 'Red flag: ' + say.replace(/[?.]$/, ''), say, why, w: 2, sub: 'Red flags'}))), true);
+  const p = [];
+  if (c.sum) p.push({t: 'Summarises back to the patient and checks', say: c.sum, f: 1});
+  p.push({t: 'Presents with a headline, key positives and important negatives', say: c.pres, w: 2, f: 1});
+  ddxRows(c).forEach(([h, t], i) => p.push({t: h + ': ' + t, w: i === 0 ? 2 : 1}));
+  if (c.ix) p.push({t: 'Investigations in order: ' + c.ix});
+  if (c.mx) p.push({t: 'Management with urgency: ' + c.mx, f: 1});
+  if (c.tell) p.push({t: 'Explains the plan and safety-nets in plain words', say: c.tell, w: 2});
+  add('cp', 'Present, differentials and next steps', p);
+  return true;
+}
 function buildChecklist(st, vk){
   const secs = [];
   const add = (key, h, items, open) => { if (items.length) secs.push({key, h, items: items.map((it, n) => Object.assign({id: key + '.' + n}, it)), open}); };
@@ -79,22 +93,24 @@ function buildChecklist(st, vk){
     const w = st.wrap || ['open', 'close'];
     add(w[0], FR[w[0]].t, frameItems(w[0]));
     st.secs.forEach((sc, i) => add('s' + i, sc.h, sc.items, i === 0));
-    const v = varOf(st, vk); if (v && v.x) add('vx', 'This case: what the examiner wants', splitX(v.x).map(t => ({t})));
+    const v = varOf(st, vk); if (!caseSecs(st, vk, add) && v && v.x) add('vx', 'This case: what the examiner wants', splitX(v.x).map(t => ({t})));
     add(w[1], FR[w[1]].t, frameItems(w[1]));
     return secs;
   }
   add('open', 'Opening', frameItems('open'));
   if (st.pp) {
     st.dom.forEach((d, i) => add('d' + i, d.h, d.items, i === 0));
-    const v = varOf(st, vk); if (v && v.x) add('vx', 'This case: what the examiner wants', splitX(v.x).map(t => ({t})));
+    const v = varOf(st, vk); if (!caseSecs(st, vk, add) && v && v.x) add('vx', 'This case: what the examiner wants', splitX(v.x).map(t => ({t})));
     add(closeKey(st), 'Closing', frameItems(closeKey(st)));
     return secs;
   }
   const pk = packFor(st), fr = ORDER.filter(f => (st.fr || []).includes(f));
-  const hasExpl = fr.some(f => ['expl', 'counsel', 'bbn'].includes(f));
+  const hasExpl = fr.some(f => ['expl', 'counsel', 'bbn'].includes(f)), hasCase = !!caseOf(st, vk);
   fr.forEach(f => {
+    if (hasCase && (f === 'pres' || f === 'reason')) return;
     if (f === 'hx' || f === 'mhx') {
       add(f, FR[f].t, frameItems(f));
+      if (caseOf(st, vk)) { caseSecs(st, vk, add); return; }
       if (pk) add('cx', pk.u.name + ': what to ask', (pk.p.hx || []).slice(0, 7).map(t => ({t: 'Asks: ' + t, sub: 'Discriminating questions'})).concat((pk.p.rf || []).slice(0, 4).map(t => ({t: 'Screens red flag: ' + t, w: 2, sub: 'Red flags'}))));
     } else if (f === 'ex') {
       add('ex', 'Examination: core', frameItems('ex'));
@@ -169,7 +185,50 @@ function vRf(m){
   m.innerHTML = '<section class="card"><span class="eyebrow">History stations · UK guidance</span><h1>🚩 Red flags → where to send</h1><p class="hint" style="margin:0">One sheet per presentation, covering every ILO condition. Read across: <b>the flag</b> → what it means, then what you do and how fast. Ask these in every history, then say the referral in your plan.</p><div class="urg">' + URGL() + '</div><input class="sel" id="rfQ" type="search" placeholder="Filter, e.g. dysphagia, 2 weeks, testis" value="' + esc(S.set.rfq || '') + '" aria-label="Filter red flags"></section><div id="rfList">' + rfListHtml(q) + '</div>';
 }
 function rfListHtml(q){ const h = RF.map(sh => { const r = rfRows(sh, q); return r ? '<details class="dd"' + (q ? ' open' : '') + '><summary>' + esc(sh.t) + ' <span class="hint">· ' + sh.rows.length + '</span></summary><div class="body">' + r + '</div></details>' : ''; }).join(''); return h || '<p class="hint">Nothing matches.</p>'; }
-function scriptFor(st, vk){
+/* ---------- v2.7 full cases: the patient's script, your verbatim script and checklist, the filled presentation ---------- */
+const isExCase = (st, c) => typeOf(st) === 'ex' || (c && c.find && c.find.length > 0);
+function caseOf(st, vk){ const v = varOf(st, vk); return v && v.cs ? v.cs : null; }
+function ddxRows(c){ return c.ddx && c.ddx.length === 3 ? [['Most likely', c.ddx[0]], ['Common alternative', c.ddx[1]], ['Must not miss', c.ddx[2]]] : []; }
+function presLines(c){
+  const L = [{s: '🎤 Present', say: c.pres, act: 'Turn to the examiner. Headline, key positives, important negatives.', why: 'Conclusion first, then the evidence for and against. Never narrate the order you did things.', nn: 1}];
+  ddxRows(c).forEach(([h, t], i) => L.push({s: '🎤 Differentials', act: h + ': ' + t, why: i === 0 ? 'Every tier carries a because: that is the reasoning mark.' : i === 2 ? 'The dangerous one and how you would exclude it: the safety mark.' : 'The commonest lookalike and the detail that splits them.', nn: i !== 1}));
+  if (c.ix) L.push({s: '🧪 Investigations', act: c.ix, why: 'Bedside, then bloods, then imaging, then special. Each test answers a question.'});
+  if (c.mx) L.push({s: '🗺 Management', act: c.mx, why: 'Urgency first, then the named first-line treatment and who you would tell.', nn: 1});
+  return L;
+}
+function caseScript(st, v){
+  const c = v.cs, L = [], psy = typeOf(st) === 'psych';
+  const fl = (fid, label) => frameItems(fid).forEach(it => L.push({s: label, say: it.say || '', act: it.t, why: it.why || '', nn: it.w === 2}));
+  if (isExCase(st, c)) {
+    const base = scriptFor0(st, v.k).filter(l => !/^Close$/.test(l.s));
+    base.forEach(l => L.push(l));
+    c.key.forEach(([say, why]) => L.push({s: '🎯 This case: do not miss', act: say, why}));
+    if (c.find.length) L.push({s: '👀 What you should find', act: c.find.join(' '), why: 'The examiner reads these out or the patient shows them. Say each finding as you elicit it.'});
+    presLines(c).forEach(l => L.push(l));
+    if (c.tell) L.push({s: '🗣 To the patient', say: c.tell, why: 'Explain in plain words and safety-net before you leave.'});
+    fl(closeKey(st), 'Close');
+    return L;
+  }
+  fl('open', 'Open · 0:00');
+  L.push({s: 'Open question · 0:30', say: psy ? "Thanks for coming to see me. Can you tell me in your own words what's been happening?" : "What's brought you in today?", act: 'Then stop. Let them talk for a full minute; nod, and note the words and the body language.', why: 'The golden minute. The opening story carries the planted clues.', nn: 1});
+  if (c.open) L.push({s: '🎭 They will say', act: '“' + c.open + '”', why: 'Respond to it: "Tell me more about that."'});
+  L.push({s: 'Signpost · 1:30', say: psy ? "Thank you for telling me that. I'd like to ask some more questions to understand it properly. Is that OK?" : "Thank you, that's really helpful. I'd like to ask some more specific questions about that now.", why: 'Signposting makes your structure audible: a named mark.'});
+  c.key.forEach(([say, why]) => L.push({s: '🎯 Ask: this case', say, why, nn: 1}));
+  if (c.rf.length) { L.push({s: 'Signpost · 3:30', say: psy ? "Some of the next questions are ones I ask everyone who feels this way." : "I'm going to ask a few questions to make sure we're not missing anything serious.", why: 'Frames the red flags so they do not frighten the patient.'}); c.rf.forEach(([say, why]) => L.push({s: '🚩 Red flags', say, why, nn: 1})); }
+  L.push({s: 'Signpost · 5:00', say: "Now I'd like to step back and ask about your general health, medicines and day-to-day life.", why: 'Background hides the station-winners: the drug, the job, the family history.'});
+  L.push({s: 'Background', say: 'Do you have any other medical conditions, or have you had any operations?', why: 'Past history often explains the presentation.'});
+  L.push({s: 'Background', say: 'What medicines do you take, including anything you buy yourself? Any allergies, and what happened?', why: 'Drug causes and allergy reactions are favourite twists.', nn: 1});
+  L.push({s: 'Background', say: 'Does anything run in the family?', why: 'Unlocks risk.'});
+  L.push({s: 'Background', say: psy ? 'Who is at home with you? How are things with money, work and relationships? Do you drink alcohol or use any drugs?' : 'Do you smoke? How much alcohol do you drink in a typical week? What do you do for work, who is at home, and do you drive?', why: 'Quantify smoking and alcohol; job and driving change the plan.'});
+  L.push({s: 'ICE · 6:30', say: 'What do you think might be going on? Is there anything in particular worrying you? What were you hoping we could do today?', why: 'The hidden worry is only released when you ask directly.', nn: 1});
+  if (c.sum) L.push({s: 'Summarise · 7:00', say: c.sum, why: 'Shows structure and lets the patient correct you.', nn: 1});
+  presLines(c).forEach(l => L.push(l));
+  if (c.tell) L.push({s: '🗣 Plan to the patient', say: c.tell, why: 'Plain words, what happens next, and a specific safety-net.', nn: 1});
+  fl(closeKey(st), 'Close');
+  return L;
+}
+function scriptFor(st, vk){ const v = vk === '~' ? null : varOf(st, vk); return v && v.cs ? caseScript(st, v) : scriptFor0(st, vk); }
+function scriptFor0(st, vk){
   const L = [], fl = (fid, label, all) => frameItems(fid).forEach(it => { if (all || it.say || it.w === 2 || it.f) L.push({s: label || FR[fid].t, say: it.say || '', act: it.t, why: it.why || '', nn: it.w === 2}); });
   if (st.secs) {
     const w = st.wrap || ['open', 'close'];
@@ -543,21 +602,47 @@ function drawStationParts(){
     if (st.def) mh += '<details class="dd" open><summary>🧭 Default instruction</summary><div class="body"><p style="margin:0">' + esc(st.def) + '</p></div></details>';
     if (st.cmp) mh += '<details class="dd"><summary>⚖️ The comparison to make</summary><div class="body"><p style="margin:0">' + esc(st.cmp) + '</p></div></details>';
   }
+  if (v && v.cs && !cur.hidden) mh += caseExamHtml(st, v);
+  else if (v && v.cs && !st.pp && !st.secs) mh += '<details class="dd"><summary>🧭 This case</summary><div class="body"><p style="margin:0">Hidden. Pick the case, or finish the station first.</p></div></details>';
   mh += '<details class="dd"><summary>🎤 Reasoning sentence</summary><div class="body"><p style="margin:0">“The important finding is ___. It suggests ___ because ___. The next step is ___.”</p></div></details>' + (pk ? '<details class="dd"><summary>🧩 ' + esc(pk.u.name) + ' pack</summary><div class="body">' + packHtml(pk.p, false) + '</div></details>' : '');
   $('#modelCard').innerHTML = mh;
   updScore();
+}
+function actorHtml(st, v){
+  const c = v.cs, ex = isExCase(st, c), row = (k, t) => t ? '<div class="ac-r"><b>' + k + '</b><span>' + rich(t) + '</span></div>' : '';
+  let h = '<div class="role ac"><b>🎭 You are ' + esc(c.who || v.who) + '</b>' + (!cur.hidden ? '<span class="hint">Case ' + esc(v.k) + ' · ' + esc(v.dx) + ' (keep this secret)</span>' : '');
+  if (c.act) h += '<span class="hkh">🎬 How to play it</span><p class="ac-p">' + rich(c.act) + '</p>';
+  if (c.open) h += '<span class="hkh">🗣 Your opening line</span><p class="ac-open">“' + rich(c.open) + '”</p>';
+  if (c.story) h += '<span class="hkh">💬 If they let you talk</span><p class="ac-p">' + rich(c.story) + '</p>';
+  if (c.hpc.length) h += '<span class="hkh">❓ When they ask</span>' + c.hpc.map(([k, t]) => row(esc(k), t)).join('');
+  if (c.yes || c.no) h += '<span class="hkh">✅ ❌ If they ask about other symptoms</span>' + row('Yes', c.yes) + row('No', c.no);
+  if (c.pmh || c.dh || c.all || c.fh || c.sh) h += '<span class="hkh">📁 Background, only when asked</span>' + row('Medical', c.pmh) + row('Medicines', c.dh) + row('Allergies', c.all) + row('Family', c.fh) + row('Social', c.sh);
+  if (c.find.length) h += '<span class="hkh">🩺 Findings: mime them, or read them out when examined</span><ul>' + c.find.map(t => '<li>' + rich(t) + '</li>').join('') + '</ul>';
+  if (c.ice.length) h += '<span class="hkh">💭 Only if they ask what you think or what worries you</span>' + row('You think', c.ice[0]) + row('You worry', c.ice[1]) + row('You want', c.ice[2]);
+  if (c.cue) h += '<span class="hkh">🎯 Hidden cue</span><p class="ac-p">' + rich(c.cue) + '</p>';
+  const asks = c.ask.length ? c.ask : (st.ask || []);
+  if (asks.length) h += '<span class="hkh">🙋 Ask the candidate when it fits</span><ul>' + asks.map(t => '<li>' + rich(t) + '</li>').join('') + '</ul>';
+  h += '<span class="hkh">How to play it well</span><ul><li>Answer only what you are asked. Give the opening line, then let them work.</li><li>Background, worries and the hidden cue come out only with a direct question.</li><li>If they use jargon, look confused and ask what it means.</li>' + (ex ? '<li>Show pain where the findings say; flinch, do not explain.</li>' : '') + '<li>Afterwards, tell them one thing that made you trust them and one that did not.</li></ul></div>';
+  return h;
+}
+function caseExamHtml(st, v){
+  const c = v.cs; if (!c) return '';
+  return '<details class="dd" open><summary>🎤 What a clear pass sounds like</summary><div class="body">' + (c.pres ? '<div class="money"><b>Presentation</b>' + rich(c.pres) + '</div>' : '') + ddxRows(c).map(([h, t]) => '<div class="hkr"><span class="i">' + (h === 'Must not miss' ? '🚨' : h === 'Most likely' ? '🎯' : '🔀') + '</span><span><b>' + h + ':</b> ' + rich(t) + '</span></div>').join('') + (c.ix ? '<div class="hkr"><span class="i">🧪</span><span><b>Investigations:</b> ' + rich(c.ix) + '</span></div>' : '') + (c.mx ? '<div class="hkr"><span class="i">🗺</span><span><b>Management:</b> ' + rich(c.mx) + '</span></div>' : '') + (c.tell ? '<div class="hkr"><span class="i">🗣</span><span><b>To the patient:</b> ' + rich(c.tell) + '</span></div>' : '') + '</div></details>';
 }
 function drawFriends(){
   const st = cur.st, v = curVar(), role = S.set.role, pk = packFor(st);
   let h = '<div class="row"><h2 class="grow">👥 Practise with friends</h2></div><p class="hint" style="margin:0">One phone each, or pass this one round. Everyone opens this station and picks a role. The actor and examiner choose the case; the candidate never sees it.</p><div class="seg" id="roleSeg">' + [['cand', '🧑‍⚕️ Candidate'], ['actor', '🎭 Patient'], ['exam', '📋 Examiner']].map(([k, l]) => '<button data-role="' + k + '" class="' + (role === k ? 'on' : '') + '">' + l + '</button>').join('') + '</div>';
   if (role === 'cand') {
     h += '<div class="role"><b>🧑‍⚕️ You are the candidate</b><ul><li>Read the door brief above for 1 minute. Underline every verb: each is a marked domain.</li><li>Start the timer when the examiner says go. Amber at 8:00 means move to the plan.</li><li>Open the results card only when the examiner hands it to you.</li><li>Don\'t open the hooks, script or model answer until afterwards.</li></ul></div>';
+  } else if (role === 'actor' && v && v.cs) {
+    h += actorHtml(st, v);
   } else if (role === 'actor') {
     const facts = v ? v.a : [].concat((pk && pk.p.hx || []).slice(0, 6).map(t => 'If asked: ' + t), (pk && pk.p.ice || []).slice(0, 1).map(t => 'Your worry: ' + t));
     h += '<div class="role"><b>🎭 You are ' + esc(v ? v.who : 'the patient') + '</b>' + (v && !cur.hidden ? '<span class="hint">Case ' + esc(v.k) + ' · ' + esc(v.dx) + ' (keep this secret)</span>' : '') + '<span class="hkh">Your story</span><ul>' + facts.map(t => '<li>' + rich(t) + '</li>').join('') + '</ul>' + ((st.ask || []).length ? '<span class="hkh">Ask the candidate (when it fits)</span><ul>' + st.ask.map(t => '<li>' + esc(t) + '</li>').join('') + '</ul>' : '') + '<span class="hkh">How to play it</span><ul><li>Answer only what you are asked. Anything marked ONLY IF ASKED needs a direct question.</li><li>Show feeling: worry, pain, irritation. Mime physical signs, or say them.</li><li>If they use jargon, look confused and ask what it means.</li><li>Afterwards, tell them one thing that made you trust them and one that didn\'t.</li></ul></div>';
   } else {
     const doms = domainsFor(st, cur.secs);
-    h += '<div class="role"><b>📋 Examiner sheet</b>' + (v ? '<span class="dx">Case ' + esc(v.k) + ': ' + esc(v.dx) + '</span><span class="hint">' + rich(v.x) + '</span>' : '') + (v && v.r ? '<span class="hint">📄 Hand over the results card when they ask, or after the history/examination.</span>' : '') + '</div>';
+    h += '<div class="role"><b>📋 Examiner sheet</b>' + (v ? '<span class="dx">Case ' + esc(v.k) + ': ' + esc(v.dx) + '</span>' + (v.cs ? '' : '<span class="hint">' + rich(v.x) + '</span>') : '') + (v && v.r ? '<span class="hint">📄 Hand over the results card when they ask, or after the history/examination.</span>' : '') + '</div>';
+    if (v && v.cs) h += caseExamHtml(st, v);
     h += '<p class="hint" style="margin:0">Score each domain 0–4: ' + LIKL + '. Most solid candidates score 3.</p><div>' + doms.map((d, i) => '<div class="lik"><div><b>' + esc(d.h) + '</b><ul>' + d.items.map(it => '<li>' + (it.w === 2 ? '<b>' + rich(it.t) + '</b>' : rich(it.t)) + '</li>').join('') + '</ul></div><select class="sel" data-lik="' + i + '" aria-label="' + esc(d.h) + ' score"><option value="">–</option>' + LIK.map((l, n) => '<option value="' + n + '"' + (cur.lik[i] === n ? ' selected' : '') + '>' + l + '</option>').join('') + '</select></div>').join('') + '</div>';
     h += '<div class="row"><span class="hint">Total</span><span class="pct" id="fpct">–</span><label class="hint" for="fglob">Global</label><select class="sel" id="fglob"><option value="">Choose…</option>' + GLOBAL.map((g, i) => '<option value="' + (i + 1) + '">' + g + '</option>').join('') + '</select><button class="btn primary sm" data-savefr>💾 Save attempt</button></div><p class="hint" style="margin:0">Bold bullets are critical. Afterwards, read out the money line and the hooks above, and give one thing to keep and one to change.</p>';
   }
