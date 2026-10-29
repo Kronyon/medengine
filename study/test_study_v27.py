@@ -21,6 +21,13 @@ for q in items:
     if any(r[1].endswith(';') for r in q.get('lab') or []): errs.append('stray semicolon ' + q['id'])
     if 'pm' in q and sorted(q['pm']) != list(range(len(q['o']))): errs.append('bad option map ' + q['id'])
 if any('Medical Schools Council' in q['w'] for q in D['off']['q']): errs.append('page footers left in justifications')
+# v2.7.1: every Hammer stem is a full vignette (history, then findings, then results, then a lead-in), close to MSCAA length
+H = D['hq']['q']
+if sum(1 for q in H if q.get('vg')) != len(H): errs.append('Hammer items without a written vignette: %d' % sum(1 for q in H if not q.get('vg')))
+_wc = sorted(len((q['s'] + ' ' + q.get('post', '') + ' ' + q.get('ql', '')).split()) for q in H)
+if _wc[len(_wc) // 2] < 45: errs.append('Hammer median stem length %d words, below MSCAA-like 45' % _wc[len(_wc) // 2])
+if any(re.search(r'[—–]', q['s'].replace('–', '')) or re.search(r'\((?![\d<>.]).*?\)', q['s']) for q in H if q.get('vg')): errs.append('dash or non-range bracket in a vignette')
+if any(not q.get('ql', '').endswith('?') for q in H): errs.append('Hammer lead-in not ending in a question mark')
 with sync_playwright() as p:
     b = p.chromium.launch(); pg = b.new_page(viewport={'width': 390, 'height': 900})
     pe = []; pg.on('pageerror', lambda e: pe.append(str(e)))

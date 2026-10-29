@@ -1,0 +1,251 @@
+# h1451 to h1500
+
+@h1451
+A 15 year old girl has anorexia nervosa. She lives with her parents and younger brother. She is medically stable and is to start outpatient therapy.
+BMI 16 kg/m². Pulse rate 58 bpm, BP 102/64 mmHg.
+?Which therapy is first-line?
+
+@h1452
+A 24 year old woman has repeated self-harm, intense mood swings within hours and stormy relationships. She has been diagnosed with borderline personality disorder and is referred for therapy.
+?Which therapy is designed for this?
+
+@h1453
+A 78 year old man with dementia needs a blood test. When the test is explained, he understands the words used. A minute later he cannot say what the test is for or remember what was said.
+?Which part of the capacity test does he fail?
+
+@h1454
+An 82 year old woman with advanced dementia needs a decision about a non-urgent knee operation. She lacks capacity for this decision. She made a lasting power of attorney for health and welfare, which is registered, naming her son.
+?Who makes the decision?
+
+@h1455
+A 46 year old man has a written advance decision refusing blood transfusion, even if his life is at risk. It is signed and witnessed. He has now been in a car crash. He is bleeding and unconscious.
+Pulse rate 132 bpm, BP 78/46 mmHg. Haemoglobin 62 g/L.
+?What should happen?
+
+@h1456
+A 58 year old woman is having a blood transfusion after surgery. Ten minutes in, she has fever, back pain and feels very unwell. She then passes dark urine.
+Temperature 38.9°C, pulse rate 124 bpm, BP 82/50 mmHg.
+?Which is the most likely diagnosis?
+
+@h1457
+An 84 year old man with heart failure is having a blood transfusion for anaemia. During his second unit he becomes breathless.
+Respiratory rate 28 breaths per minute, SpO2 88% breathing air. Temperature 36.9°C. BP 178/96 mmHg. The JVP is raised and there are bibasal crackles.
+?Which is the most likely cause?
+
+@h1458
+A 34 year old man has major bleeding after a car crash, and the major haemorrhage protocol has been activated. He has had tranexamic acid.
+Pulse rate 138 bpm, BP 76/42 mmHg.
+?Which ratio of red cells to plasma is aimed for at first?
+
+@h1459
+A 72 year old man with acute kidney injury is reviewed by the renal team. They are deciding whether he needs emergency dialysis.
+?Which is an indication for emergency dialysis in AKI?
+
+@h1460
+A 68 year old man with chronic kidney disease feels weak.
+Pulse rate 58 bpm, BP 132/78 mmHg.
+Potassium 6.8 mmol/L. ECG shows peaked T waves.
+?Which is the first drug to give?
+
+@h1461
+A 62 year old woman has end-stage kidney disease and has haemodialysis through a fistula in her left arm. She is admitted with pneumonia.
+?Which precaution is needed?
+
+@h1462
+A 78 year old woman with metastatic lung cancer is in the last days of life. She is breathless at rest and anxious. Her family ask what can help.
+?Which drug is used for breathlessness in the last days of life?
+
+@h1463
+An 84 year old man is dying from heart failure. The team prescribes anticipatory medicines for the last days of life.
+?Which anticipatory medicine is used for terminal agitation?
+
+@h1464
+A 66 year old woman with bowel obstruction from ovarian cancer is in the last days of life. She has a syringe driver that will include cyclizine for nausea.
+?Which diluent should be used?
+
+@h1465
+A 64 year old man with lung cancer has had swelling of his face and arms for a week. He is breathless, and it is worse when he lies down.
+Respiratory rate 24 breaths per minute, SpO2 94% breathing air. The neck veins are distended and do not pulsate. There are dilated veins on the chest wall.
+?Which is the most likely diagnosis?
+
+@h1466
+A 58 year old woman with metastatic breast cancer has become confused and constipated over a week. She is thirsty and drinking little.
+She is dehydrated.
+Adjusted calcium 3.4 mmol/L. Creatinine 132 µmol/L. Albumin 34 g/L.
+?Which is the most appropriate first treatment?
+
+@h1467
+A 72 year old man with known prostate cancer has had back pain for 2 weeks. Since yesterday he has had difficulty walking.
+There is weakness of both legs and brisk reflexes.
+?Within what time should an MRI be done?
+
+@h1468
+A 58 year old man has a cardiac arrest on the ward. The rhythm is ventricular fibrillation. CPR is in progress and the first shock has been given.
+?When is adrenaline first given?
+
+@h1469
+A 34 year old woman has a cardiac arrest after a car crash. The team looks for reversible causes.
+?Which is a reversible cause of cardiac arrest in the 4 Hs and 4 Ts?
+
+@h1470
+A 66 year old man has collapsed in the hospital car park. He is unresponsive and not breathing normally. You start chest compressions.
+?Which compression rate and depth is used in adult CPR?
+
+@h1471
+A 64 year old man has sudden severe chest pain that tears through to his back between the shoulder blades. He has long-standing hypertension.
+Pulse rate 104 bpm, BP 182/96 mmHg in the right arm and 148/80 mmHg in the left arm, SpO2 97% breathing air. There is an early diastolic murmur.
+?Which is the most likely diagnosis?
+
+@h1472
+A 64 year old man has sudden tearing chest pain that goes through to his back. He has long-standing hypertension.
+BP 182/96 mmHg in the right arm and 148/80 mmHg in the left.
+ECG shows sinus tachycardia only. High-sensitivity troponin T 0.012 µg/L. D-dimer 2.4 mg/L. Creatinine 88 µmol/L.
+?Which investigation is most likely to confirm the diagnosis?
+
+@h1473
+A 70 year old woman has a type B aortic dissection confined to the descending aorta. She is alert with no limb or gut ischaemia. She has asthma that needed admission to intensive care last year.
+Pulse rate 96 bpm, BP 176/94 mmHg.
+?Which is the most appropriate first drug to control her BP and heart rate?
+
+@h1474
+A 46 year old woman has had fever, dry cough, muscle aches and loss of smell for 6 days. She is unvaccinated.
+Temperature 38.3°C, pulse rate 98 bpm, respiratory rate 24 breaths per minute, SpO2 91% breathing air.
+Chest X-ray shows bilateral peripheral patchy shadowing.
+?Which is the most likely diagnosis?
+
+@h1475
+A 46 year old woman has Covid-19 confirmed on PCR. She has had a fever and dry cough for 6 days.
+Temperature 38.0°C, pulse rate 96 bpm, respiratory rate 22 breaths per minute, SpO2 92% breathing air.
+White cell count 5.1 × 10⁹/L. CRP 48 mg/L. Procalcitonin 0.08 µg/L.
+?Which is the most appropriate additional treatment?
+
+@h1476
+A 64 year old man with type 2 diabetes has Covid-19 pneumonitis needing oxygen. He takes metformin and gliclazide. Dexamethasone 6 mg daily is started.
+SpO2 93% on 2 L of oxygen.
+HbA1c 61 mmol/mol. Potassium 4.1 mmol/L.
+?Which is the most important additional monitoring?
+
+@h1477
+A 32 year old man has had a cough with clear sputum for 10 days after a cold. He does not smoke.
+Temperature 37.4°C, pulse rate 82 bpm, respiratory rate 16 breaths per minute, SpO2 98% breathing air. There are scattered wheezes but no focal crackles.
+?Which is the most likely diagnosis?
+
+@h1478
+A 32 year old man has had a productive cough for 10 days after a cold. He feels well.
+Temperature 37.4°C, pulse rate 82 bpm, respiratory rate 16 breaths per minute, SpO2 98% breathing air. There are no focal chest signs.
+A point-of-care CRP in the surgery is 18 mg/L.
+?Which is the most appropriate management?
+
+@h1479
+A 79 year old woman with heart failure has had a productive cough for 6 days. She is breathless but alert. She is allergic to penicillin.
+Temperature 37.8°C, pulse rate 96 bpm, SpO2 95% breathing air. There are no focal crackles.
+?Which is the most appropriate treatment?
+
+@h1480
+A 56 year old man who drinks heavily has had pale, bulky stools that are hard to flush. He has lost 6 kg. He has had several attacks of epigastric pain over the years.
+He is thin. The abdomen is soft.
+HbA1c 54 mmol/mol.
+?Which is the most likely diagnosis?
+
+@h1481
+A 56 year old man who drinks heavily has steatorrhoea and weight loss.
+Faecal elastase 62 µg/g. Tissue transglutaminase IgA 2 U/mL. Faecal calprotectin 38 µg/g.
+?Which investigation result best confirms pancreatic exocrine insufficiency?
+
+@h1482
+A 56 year old man has chronic pancreatitis with steatorrhoea and weight loss. He has stopped drinking.
+?Which is the most appropriate treatment for his steatorrhoea?
+
+@h1483
+A 27 year old woman has had abdominal pain for 9 months. It is relieved by opening her bowels. She has bloating and her stools alternate between loose and hard. She has not lost weight and has no rectal bleeding.
+Examination is normal.
+?Which is the most likely diagnosis?
+
+@h1484
+A 27 year old woman has symptoms of irritable bowel syndrome with no red flags. Her GP has sent blood and stool tests.
+Haemoglobin 128 g/L. CRP 3 mg/L. Tissue transglutaminase IgA 1 U/mL. Faecal calprotectin 32 µg/g.
+?What do these results mean?
+
+@h1485
+A 58 year old woman has had new bloating, early fullness and looser stools for 2 months. She has never had bowel problems before.
+Examination is normal.
+?Which is the most appropriate first investigation?
+
+@h1486
+A 66 year old woman has had heartburn for years. For 3 hours she has had chest pain and retching but brings nothing up. A nasogastric tube cannot be passed.
+Pulse rate 112 bpm, BP 104/70 mmHg.
+Chest X-ray shows an air-fluid level behind the heart. ECG shows sinus tachycardia only.
+?Which is the most likely diagnosis?
+
+@h1487
+A 66 year old woman has a large rolling hiatus hernia with acute gastric volvulus. She is in pain and retching.
+Pulse rate 116 bpm, BP 102/66 mmHg.
+Lactate 3.6 mmol/L. White cell count 15.2 × 10⁹/L.
+?Which is the most appropriate next investigation?
+
+@h1488
+A 52 year old man has reflux symptoms from a small sliding hiatus hernia. He takes aspirin and clopidogrel after a coronary stent 3 months ago.
+?Which is the most appropriate PPI?
+
+@h1489
+A 34 year old man has had throbbing pain beside his anus for 3 days. It keeps him awake. He is otherwise well.
+Temperature 38.1°C. There is a tender, fluctuant, red swelling 2 cm from the anal margin.
+?Which is the most likely diagnosis?
+
+@h1490
+A 34 year old man has a perianal abscess. He is otherwise well and has no diabetes.
+Temperature 38.1°C. There is a fluctuant swelling beside the anus with no spreading cellulitis.
+White cell count 13.1 × 10⁹/L. CRP 64 mg/L. Glucose 5.2 mmol/L.
+?Which is the most appropriate management?
+
+@h1491
+A 22 year old woman has had her third perianal abscess in a year. She has had loose stools for 4 months and has lost weight.
+There are two discharging openings beside the anus.
+?Which is the most important underlying diagnosis to look for?
+
+@h1492
+A 41 year old man has had bright red blood on the toilet paper after opening his bowels for 3 weeks. He has no pain and no change in bowel habit.
+Rectal examination is normal. Proctoscopy shows swellings above the dentate line that prolapse on straining and go back by themselves.
+?Which is the most likely diagnosis?
+
+@h1493
+A 63 year old woman has had bright red rectal bleeding for a month. Her stools have been looser for 2 months and she feels tired.
+Proctoscopy shows haemorrhoids.
+Haemoglobin 102 g/L. MCV 74 fL. Ferritin 9 µg/L.
+?Which is the most appropriate next step?
+
+@h1494
+A 45 year old man has second-degree haemorrhoids that still bleed despite a high-fibre diet. He takes warfarin for a mechanical mitral valve.
+INR 3.1.
+?Which is the most appropriate next step?
+
+@h1495
+A 29 year old woman has had severe tearing pain on opening her bowels for 3 weeks. It lasts for an hour afterwards. She sees a streak of bright blood on the paper.
+Gently parting the buttocks shows a split in the posterior midline. Rectal examination is not attempted because of pain.
+?Which is the most likely diagnosis?
+
+@h1496
+A 31 year old man has a fissure on the lateral side of his anus. It is painless and has not healed for 3 months. He has had diarrhoea and mouth ulcers.
+There is a painless fissure at the side of the anus and an oedematous skin tag.
+?Which is the most likely underlying diagnosis?
+
+@h1497
+A 34 year old woman has had a chronic anal fissure for 8 weeks. She has frequent migraines with aura. Stool softeners and a high-fibre diet have not helped.
+There is a posterior midline fissure with a sentinel tag.
+?Which is the most appropriate first treatment?
+
+@h1498
+A 79 year old woman with known diverticular disease has passed a large volume of maroon and fresh red blood with clots. She has no abdominal pain.
+Pulse rate 96 bpm, BP 118/72 mmHg. The abdomen is soft and non-tender.
+?Which is the most likely cause?
+
+@h1499
+A 79 year old woman is passing fresh blood rectally.
+Pulse rate 120 bpm, BP 96/58 mmHg.
+Haemoglobin 92 g/L. Urea 6.1 mmol/L.
+?What is her shock index?
+
+@h1500
+A 79 year old woman has an unstable lower GI bleed. She takes apixaban for atrial fibrillation. Her last dose was 6 hours ago.
+Pulse rate 124 bpm, BP 88/52 mmHg.
+?Which is the most appropriate additional treatment?

@@ -1,0 +1,253 @@
+# h0251 to h0300
+
+@h0251
+A 42 year old man had a terminal ileal resection for Crohn's disease 3 years ago. He now has tiredness, numbness in both feet and unsteadiness in the dark. He eats a mixed diet.
+There is reduced vibration sense and proprioception in both feet. Romberg's test is positive.
+Haemoglobin 98 g/L. MCV 112 fL. Ferritin 64 µg/L.
+?Which deficiency is most likely?
+
+@h0252
+A 70 year old woman with systemic sclerosis has had bloating and loose, pale stools for 4 months. She has lost 4 kg.
+There is sclerodactyly and mild abdominal distension. Her abdomen is not tender.
+Serum folate is high. Serum vitamin B12 is low. Tissue transglutaminase antibody is negative.
+?Which is the most likely diagnosis?
+
+@h0253
+A 34 year old woman has had tiredness, bloating and loose stools for 8 months. She has iron deficiency anaemia. She has been eating a normal diet including bread and pasta.
+Endoscopy is performed and duodenal biopsies show villous atrophy, crypt hyperplasia and increased intraepithelial lymphocytes.
+?Which is the most likely diagnosis?
+
+@h0254
+A 28 year old woman has been newly diagnosed with coeliac disease after investigation for iron deficiency anaemia. She has started a gluten-free diet. A blood film shows Howell-Jolly bodies. She asks whether she needs any vaccinations because of her condition.
+?Which vaccine is recommended because of the disease?
+
+@h0255
+A 61 year old man has had coeliac disease for 20 years. He has kept strictly to a gluten-free diet, checked by a dietitian. Over 3 months he has developed abdominal pain, night sweats and has lost 8 kg.
+There is a vague central abdominal mass. Haemoglobin 104 g/L. Albumin 30 g/L. Tissue transglutaminase antibody is negative.
+?Which is the most important diagnosis to exclude?
+
+@h0256
+A 55 year old woman has had bloating every day for 2 months. She feels full quickly after eating and has had some pelvic discomfort. Her bowel habit is normal. She has no previous bowel problems.
+Abdominal examination shows mild distension with no masses. Full blood count is normal.
+?Which is the most appropriate first investigation?
+
+@h0257
+A 30 year old man has had loose stools and abdominal cramps for 2 years, relieved by opening his bowels. Coeliac serology, faecal calprotectin and full blood count are normal. He has no red flags. A diagnosis of irritable bowel syndrome with diarrhoea is made.
+?Which drug is most appropriate?
+
+@h0258
+A 32 year old woman has irritable bowel syndrome. She has eaten regular meals, reduced caffeine, alcohol and fizzy drinks and limited high-fibre foods for 3 months, but bloating and wind still affect her work. Coeliac serology is negative.
+?Which is the most appropriate next step?
+
+@h0259
+A 60 year old woman has had heartburn and regurgitation after meals for a year, worse when she bends or lies down. She has a BMI of 33. Endoscopy shows mild oesophagitis and suggests a hiatus hernia. The surgeon wants to see its anatomy.
+?Which investigation best shows the anatomy of a hiatus hernia?
+
+@h0260
+A fit 58 year old woman has had chest pain after meals and episodes of vomiting for 6 months. A barium swallow shows a large paraoesophageal, rolling hiatus hernia with most of the stomach in the chest. She takes omeprazole.
+?Which is the most appropriate management?
+
+@h0261
+A 46 year old man had a laparoscopic Nissen fundoplication for reflux 6 weeks ago. His heartburn has gone, but he cannot belch and feels bloated and uncomfortable after meals. He has no dysphagia or vomiting.
+Abdominal examination shows mild distension. A barium swallow shows the wrap is intact and in place.
+?Which is the most likely explanation?
+
+@h0262
+A 24 year old man with asthma and hay fever came to the emergency department with food stuck in his gullet after eating steak. He has had difficulty swallowing solids for 2 years.
+Endoscopy removes the food bolus and shows concentric rings and linear furrows along the oesophagus. Biopsies show more than 15 eosinophils per high-power field.
+?Which is the most likely diagnosis?
+
+@h0263
+A 78 year old man has had difficulty swallowing for a year. He regurgitates undigested food that he ate hours earlier, has bad breath and coughs at night.
+There is a soft swelling on the left side of his neck that gurgles when pressed. He has lost 3 kg.
+?Which is the most likely diagnosis?
+
+@h0264
+A 66 year old man has had progressive difficulty swallowing solids for 3 months and has lost 7 kg. He has had reflux for 20 years and has a BMI of 34. He does not smoke and drinks little alcohol.
+Endoscopy shows a stricturing tumour in the lower third of the oesophagus at the gastro-oesophageal junction, arising from an area of Barrett's oesophagus.
+?Which type of tumour is it most likely to be?
+
+@h0265
+A 41 year old man has had epigastric pain for 2 months. It comes on a few hours after meals and wakes him at night, and eating relieves it. He takes no anti-inflammatory drugs.
+There is mild epigastric tenderness. He has no weight loss, vomiting or anaemia.
+?Which is the most likely diagnosis?
+
+@h0266
+A 35 year old man had one episode of black, tarry stool this morning. He has taken ibuprofen for a sprained ankle. He feels well and has no other medical problems.
+Pulse rate 76 bpm, BP 128/80 mmHg. There is no melaena on rectal examination today.
+Haemoglobin 142 g/L. Urea 5.8 mmol/L. His Glasgow-Blatchford score is 0.
+?Which is the most appropriate management?
+
+@h0267
+A 56 year old woman had dyspepsia and endoscopy showed a 1.5 cm gastric ulcer on the lesser curve that looked benign. Biopsies showed no cancer and H. pylori was found. She has completed H. pylori eradication and 8 weeks of a proton pump inhibitor and feels well.
+?Which is the most appropriate next step?
+
+@h0268
+An 18 year old man has been referred because his father died of bowel cancer at 40. He has had loose stools and occasional rectal bleeding.
+Colonoscopy shows hundreds of small polyps throughout the colon and rectum. Biopsies show adenomas. He has a congenital hypertrophy of the retinal pigment epithelium on fundoscopy.
+?Which is the most likely diagnosis?
+
+@h0269
+A 64 year old man has had rectal bleeding and tenesmus for 2 months. Colonoscopy shows a tumour 8 cm from the anal verge and biopsy confirms adenocarcinoma. CT of the chest, abdomen and pelvis shows no distant spread. The multidisciplinary team needs to plan whether he needs radiotherapy before surgery.
+?Which investigation is best for local staging?
+
+@h0270
+A 68 year old man had a right hemicolectomy for a Dukes C colon cancer 18 months ago, followed by chemotherapy. He feels well and has no symptoms. His routine surveillance CEA has risen from 2 to 18 µg/L over 6 months.
+Abdominal examination is normal.
+?Which is the most appropriate next step?
+
+@h0271
+A 22 year old hairy man who works as a lorry driver has had a painful swelling at the top of his natal cleft for 3 days.
+Temperature 37.8°C. There is a tender, fluctuant, red swelling just off the midline at the top of the natal cleft. There are several small pits in the midline of the cleft with hairs protruding.
+?Which is the most likely diagnosis?
+
+@h0272
+A 38 year old man had a perianal abscess drained 4 months ago. Since then, an opening beside his anus keeps discharging pus and blood-stained fluid, and it has never fully healed. He has no bowel symptoms.
+There is a small external opening 3 cm from the anal verge at the 5 o'clock position with granulation tissue. Digital rectal examination is normal.
+?Which investigation is most appropriate?
+
+@h0273
+A 40 year old woman has a recurrent perianal fistula after an abscess. MRI shows a high trans-sphincteric fistula crossing most of the external anal sphincter. She has had three vaginal deliveries and has mild urgency.
+?Which is the most appropriate treatment?
+
+@h0274
+A 38 year old woman has had bright red blood on the toilet paper for 4 months. She has increased her fibre and fluid intake, with softer stools, but the bleeding continues. She has no change in bowel habit or weight loss.
+Proctoscopy shows haemorrhoids that prolapse on straining and reduce spontaneously.
+?Which is the most appropriate treatment?
+
+@h0275
+A 42 year old man has had bright red bleeding when he opens his bowels for 2 months. He has no pain. Proctoscopy shows internal haemorrhoids. He asks why they bleed but do not hurt.
+?Why are internal haemorrhoids usually painless?
+
+@h0276
+A 66 year old man has had bright red rectal bleeding for 6 weeks. His stools have become looser and more frequent over the same time. He has no abdominal pain and his weight is stable.
+Abdominal examination and digital rectal examination are normal. Proctoscopy shows second-degree haemorrhoids.
+?Which is the most appropriate management?
+
+@h0277
+A 30 year old woman has had severe, tearing pain on opening her bowels for 4 days, with a streak of fresh blood on the paper. The pain lasts an hour afterwards. She has been constipated.
+On gently parting the buttocks, there is a superficial linear tear in the posterior midline of the anal canal. There is no skin tag.
+?Which is the most appropriate first management?
+
+@h0278
+A 28 year old man has had severe pain on opening his bowels for 1 week, with bright red blood on the paper. He is very anxious about being examined because of the pain.
+?How should he be examined first?
+
+@h0279
+A 42 year old woman had a botulinum toxin injection into the internal anal sphincter for a chronic anal fissure 3 weeks ago. Her pain has improved, but she has some leakage of wind that embarrasses her. She has no faecal incontinence.
+?Which is the most appropriate advice?
+
+@h0280
+An 82 year old woman with known diverticulosis has passed a large volume of fresh red blood and clots from her rectum. She has no abdominal pain. She takes no anticoagulants.
+Pulse rate 98 bpm, BP 118/70 mmHg. The abdomen is soft and non-tender. Digital rectal examination shows fresh red blood.
+?Which is the most likely cause?
+
+@h0281
+A 70 year old man has had recurrent urinary tract infections for 4 months. He has noticed bubbles in his urine and occasionally what looks like debris. He has known diverticular disease with two episodes of diverticulitis.
+He is afebrile. The abdomen is soft with mild left iliac fossa tenderness.
+?Which is the most likely diagnosis?
+
+@h0282
+A 58 year old man has had left iliac fossa pain and fever for 4 days.
+Temperature 38.6°C, pulse rate 104 bpm, BP 132/80 mmHg. There is tenderness and a vague mass in the left iliac fossa without guarding or rebound elsewhere.
+CT shows sigmoid diverticulitis with a 6 cm pericolic abscess. There is no free gas.
+?Which is the most appropriate management?
+
+@h0283
+A 78 year old man with peripheral arterial disease and atrial fibrillation had sudden left-sided abdominal pain this morning. A few hours later he passed bloody diarrhoea.
+Temperature 37.6°C, pulse rate 104 bpm, irregular, BP 138/76 mmHg. There is tenderness in the left side of the abdomen without peritonism.
+Lactate 2.8 mmol/L.
+?Which is the most likely diagnosis?
+
+@h0284
+A 74 year old man has had several large episodes of fresh rectal bleeding today. He is pale and clammy.
+Pulse rate 120 bpm, BP 100/62 mmHg, respiratory rate 22 breaths per minute.
+?Which is his shock index?
+
+@h0285
+A 76 year old woman who takes apixaban for atrial fibrillation has had heavy fresh rectal bleeding for 4 hours. She has had 2 units of red cells.
+Pulse rate 124 bpm, BP 96/54 mmHg. Her shock index is over 1. She took her last apixaban dose this morning.
+?Which is the most appropriate drug management?
+
+@h0286
+A 64 year old man has had new constipation for 2 months. He used to open his bowels daily but now goes every 3 days. He has lost 4 kg without trying.
+Abdominal examination and digital rectal examination are normal.
+Haemoglobin 118 g/L. MCV 78 fL. TSH normal. Calcium normal.
+?Which is the most appropriate next step?
+
+@h0287
+A 72 year old woman has been constipated for 3 weeks. She has atrial fibrillation and her rate control drug was changed a month ago because of asthma. She takes no opioids or iron.
+Pulse rate 78 bpm, irregular. The abdomen is soft and non-tender.
+?Which drug is most likely?
+
+@h0288
+A 45 year old man has had low back pain for 3 days after lifting at work. Since this morning he has had difficulty passing urine, constipation and numbness around his anus.
+There is reduced sensation in the perianal area and reduced anal tone. Ankle reflexes are absent on both sides. A bladder scan shows 700 mL of residual urine.
+?Which is the most appropriate next step?
+
+@h0289
+A 7 year old boy has had central abdominal pain for 1 day. He had a sore throat 2 days ago. He has not vomited.
+Temperature 39.0°C, pulse rate 118 bpm. There is cervical lymphadenopathy. There is mild central tenderness that moves when he lies on his left side. There is no guarding and Rovsing's sign is negative.
+?Which is the most likely diagnosis?
+
+@h0290
+A 66 year old man has had right iliac fossa pain for 2 days with nausea. He has noticed his bowel habit change over the last few weeks.
+Temperature 37.9°C, pulse rate 96 bpm. There is tenderness and guarding in the right iliac fossa.
+White cell count 14.2 × 10⁹/L. CRP 86 mg/L.
+?Which imaging is most appropriate?
+
+@h0291
+A 26 year old woman had a laparoscopic appendicectomy for a perforated appendix 5 days ago. She now has a swinging fever, loose stools with mucus and a feeling of pressure in her rectum.
+Temperature 38.6°C, pulse rate 104 bpm. The abdomen is soft. Digital rectal examination shows a tender, boggy fullness anteriorly.
+?Which is the most likely complication?
+
+@h0292
+A 19 year old man with sickle cell disease has had episodes of right upper quadrant pain after meals for 2 months.
+He is mildly jaundiced. Ultrasound shows several small gallstones in the gallbladder with no duct dilatation.
+Bilirubin 48 µmol/L, mostly unconjugated. ALT 28 IU/L.
+?Which type of stone is most likely?
+
+@h0293
+A 64 year old woman has had painless jaundice and itch for 2 weeks with pale stools and dark urine. She drinks 6 units of alcohol a week and takes no new medicines.
+She is jaundiced. The abdomen is soft and non-tender.
+Investigations: ALP 450 IU/L, GGT 380 IU/L, ALT 60 IU/L, bilirubin 80 µmol/L.
+?Which is the most appropriate next investigation?
+
+@h0294
+A 70 year old man is on the intensive care unit 8 days after an emergency aortic aneurysm repair. He is ventilated and on parenteral nutrition. He has developed a new fever.
+Temperature 38.8°C, pulse rate 112 bpm. There is tenderness in the right upper quadrant.
+Ultrasound shows a distended gallbladder with a thickened wall and pericholecystic fluid. There are no gallstones and the bile ducts are not dilated.
+?Which is the most likely diagnosis?
+
+@h0295
+A 72 year old woman has had right upper quadrant pain, fever and rigors for 1 day. Her family have noticed she is yellow.
+Temperature 39.2°C, pulse rate 112 bpm, BP 104/62 mmHg. She is jaundiced with right upper quadrant tenderness.
+White cell count 18 × 10⁹/L. Bilirubin 86 µmol/L. ALP 410 IU/L.
+?Which is the most appropriate first imaging?
+
+@h0296
+A 68 year old man has fever, right upper quadrant pain and jaundice. Ultrasound shows a dilated common bile duct with a stone. A diagnosis of ascending cholangitis is made and ERCP is being arranged. Blood cultures have been taken. He has no drug allergies.
+Temperature 38.9°C, pulse rate 108 bpm, BP 110/66 mmHg.
+?Which empirical antibiotic is most appropriate?
+
+@h0297
+A 52 year old man with ulcerative colitis and primary sclerosing cholangitis has had worsening jaundice, itch and weight loss of 6 kg over 2 months. He has no fever.
+He is jaundiced and thin. There is no palpable gallbladder.
+MRCP shows a dominant stricture at the confluence of the hepatic ducts at the liver hilum. CA 19-9 is raised.
+?Which is the most likely diagnosis?
+
+@h0298
+A 48 year old woman has had severe epigastric pain radiating to her back for 1 day with vomiting. She does not drink alcohol and takes no regular medicines.
+Pulse rate 102 bpm, BP 128/78 mmHg. There is epigastric tenderness.
+Amylase is raised to 10 times normal. Ultrasound shows no gallstones and a normal bile duct. Triglycerides are normal. Her calcium is 3.0 mmol/L.
+?Which is the most likely cause?
+
+@h0299
+A 46 year old man had acute alcohol-related pancreatitis 5 weeks ago. He now feels full quickly when eating and has a dull epigastric ache.
+There is a smooth, non-tender epigastric mass. He is afebrile.
+CT shows a 7 cm round fluid collection next to the pancreas with a thick, well-defined wall and no solid debris.
+?Which is the most likely diagnosis?
+
+@h0300
+A 44 year old woman has recovered from an episode of mild acute pancreatitis caused by gallstones. Her pain has settled, she is eating normally and her blood tests are improving. She is otherwise fit.
+?Which is the most appropriate definitive management?

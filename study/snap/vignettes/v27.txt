@@ -1,0 +1,249 @@
+# h1351 to h1400
+
+@h1351
+A GP is reviewing several patients with upper abdominal symptoms against NICE suspected cancer criteria. None has dysphagia.
+?Who should have an urgent direct-access upper GI endoscopy within 2 weeks?
+
+@h1352
+A 56 year old woman has persistent dyspepsia and is booked for a diagnostic upper GI endoscopy next month. She takes omeprazole 20 mg daily.
+?Why should she stop her PPI 2 weeks before the endoscopy where possible?
+
+@h1353
+A 66 year old man has had difficulty swallowing solids for 2 months and has lost 4 kg. He has had reflux for years.
+Upper GI endoscopy shows a stricture in the lower oesophagus.
+?Which step is essential?
+
+@h1354
+A 52 year old woman asks whether she will be invited for bowel cancer screening. She lives in England and has no bowel symptoms or family history.
+?Who is invited for NHS bowel cancer screening in England?
+
+@h1355
+An 88 year old woman is frail and lives in a care home. She has lost 6 kg in 3 months and has iron deficiency anaemia. She could not tolerate bowel preparation for colonoscopy.
+?Which test is most appropriate?
+
+@h1356
+A 76 year old man with peripheral vascular disease has had sudden left-sided abdominal pain and bloody diarrhoea for a day.
+Pulse rate 98 bpm, BP 128/76 mmHg. There is left-sided abdominal tenderness.
+Colonoscopy shows a 6 cm segment of inflamed colon near the splenic flexure, with a sharp line between it and normal mucosa. The rectum is normal.
+?Which is the most likely diagnosis?
+
+@h1357
+A 54 year old woman had an episode of right upper quadrant pain with mildly abnormal liver tests.
+Ultrasound shows a dilated common bile duct of 9 mm, but no stone is seen.
+ALP 240 IU/L. Bilirubin 28 µmol/L.
+?Which is the most appropriate next test?
+
+@h1358
+A 62 year old man is being consented for ERCP to remove a common bile duct stone.
+?What is the main serious complication of ERCP?
+
+@h1359
+A 66 year old man has painless jaundice and weight loss.
+CT abdomen shows a 3 cm mass in the head of the pancreas with no metastases. A tissue diagnosis is needed.
+?Which is the most appropriate method?
+
+@h1360
+A 70 year old man passed blood in his urine twice this week. It was painless. He has no urinary infection.
+Urine culture is negative.
+?Which tests are needed?
+
+@h1361
+A 74 year old man has not passed urine for 12 hours. He has severe lower abdominal pain.
+There is a tender, palpable bladder.
+Bladder scan shows 900 ml.
+?Which is the most likely diagnosis?
+
+@h1362
+A 66 year old man has a weak stream and hesitancy. He has a uroflowmetry test.
+?Which result suggests obstruction?
+
+@h1363
+A 62 year old man has been breathless for 6 months with a dry cough. He has never smoked.
+There are fine bibasal end-inspiratory crackles and finger clubbing.
+Spirometry: FEV1 2.0 L, FVC 2.4 L, FEV1 to FVC ratio 0.83. The FVC is reduced for his predicted value.
+?Which pattern is this?
+
+@h1364
+A 30 year old woman has had a cough and wheeze, worse at night, for 3 months. She does not smoke and takes no inhaled steroids.
+FeNO 52 ppb.
+?Which condition does this suggest?
+
+@h1365
+A 28 year old man has an intermittent cough and wheeze. Spirometry with bronchodilator reversibility is not conclusive. He records his peak flow twice a day for 2 weeks.
+His peak flow varies by 25% over the 2 weeks.
+?Which condition does this suggest?
+
+@h1366
+A 55 year old woman has had brief palpitations every few days for a month. She has not fainted.
+Pulse rate 72 bpm, regular. BP 128/76 mmHg.
+Resting ECG is normal.
+?Which test is most appropriate?
+
+@h1367
+A 52 year old man had a clinic blood pressure of 148/92 mmHg. He has ambulatory blood pressure monitoring.
+ABPM daytime average 137/86 mmHg.
+?What is the diagnosis?
+
+@h1368
+A 24 year old man fainted suddenly without warning while playing football. He recovered within a minute. His uncle died suddenly at 35.
+Pulse rate 68 bpm, BP 124/78 mmHg. There is an ejection systolic murmur at the left sternal edge.
+?Which is the most important initial step?
+
+@h1369
+A 48 year old man has had a fever for 3 weeks. He has a new murmur and suspected endocarditis. Blood cultures grow Staphylococcus aureus.
+Transthoracic echo is normal, but clinical suspicion remains high.
+?Which is the most appropriate test?
+
+@h1370
+A 66 year old man has breathlessness on exertion and ankle swelling.
+Echo shows an ejection fraction of 35%.
+?Which type of heart failure is this?
+
+@h1371
+A 19 year old athlete fainted while running. He has had chest pain on exertion.
+There is an ejection systolic murmur that gets louder on standing and quieter on squatting.
+ECG shows left ventricular hypertrophy with deep T wave inversion. Echo shows an interventricular septum of 25 mm.
+?Which is the most likely diagnosis?
+
+@h1372
+A 66 year old woman had a wrist fracture after a fall from standing height. She has a DEXA scan.
+DEXA T-score at the hip is minus 2.8.
+?What does this show?
+
+@h1373
+A 74 year old man with prostate cancer has back and rib pain.
+PSA 86 ng/mL. ALP 420 IU/L. Calcium is normal.
+An isotope bone scan shows many hot spots in the spine and ribs.
+?What does this show?
+
+@h1374
+A 64 year old man who smokes has a lung nodule found on CT.
+The nodule is 12 mm with spiculated edges.
+?Which test helps decide whether it is malignant?
+
+@h1375
+A 46 year old man has been bumping into door frames. He has headaches.
+Confrontation testing shows loss of the outer half of the visual field in both eyes.
+?Where is the lesion?
+
+@h1376
+A 32 year old woman has had headaches that are worse in the morning for a month.
+Fundoscopy shows swollen optic discs with blurred margins and loss of venous pulsation in both eyes.
+?What does this suggest?
+
+@h1377
+A 34 year old man has a painful, watering red eye. Fluorescein is put into the eye and viewed under blue light.
+It shows bright green staining in a branching pattern.
+?Which part of the eye is damaged?
+
+@h1378
+A 46 year old man has had hearing loss in his right ear for 2 months.
+Weber's test lateralises to the right. Rinne's test on the right shows bone conduction louder than air conduction. Rinne's test on the left is normal.
+?Which type of hearing loss is this?
+
+@h1379
+A 58 year old man has worked in a noisy factory for 30 years without ear protection. He has difficulty hearing in noisy places.
+Both ear drums are normal.
+Audiometry shows a dip at 4 kHz in both ears with recovery at 8 kHz.
+?Which is the most likely cause?
+
+@h1380
+A 44 year old woman woke with hearing loss in her left ear yesterday. It has not improved. She has no ear pain or discharge.
+Both ear canals and drums are normal. Weber's test lateralises to the right. Rinne's test is positive on both sides.
+?Which is the most appropriate management?
+
+@h1381
+A 25 year old man had a first generalised seizure yesterday. He has fully recovered. He has been referred to the first seizure clinic.
+Neurological examination is normal. Glucose and electrolytes are normal.
+?When should an EEG be done?
+
+@h1382
+A 48 year old woman has numbness and tingling in her thumb, index and middle fingers at night. Shaking her hand eases it.
+There is mild wasting of the thenar eminence. Phalen's test is positive. Sensation over the thenar eminence is normal.
+Nerve conduction studies show slowing at the wrist.
+?Which is the most likely diagnosis?
+
+@h1383
+A 42 year old woman has had continuous vertigo for a day with nausea. The HINTS exam is done.
+?Which part of the HINTS exam is reassuring for a peripheral cause?
+
+@h1384
+A 36 year old hairdresser has itchy eczema on her hands that is worse at work.
+?Which test confirms allergic contact dermatitis?
+
+@h1385
+A 48 year old man with type 2 diabetes has a brown, slightly scaly rash in both groins. It is not itchy and has no raised edge.
+Under a Wood's lamp the rash shows coral-pink fluorescence.
+?Which is the most likely diagnosis?
+
+@h1386
+A 34 year old woman has had a red, scaly ring on her forearm for a month. It is spreading slowly. Her cat has patches of hair loss.
+There is a 3 cm ring with a raised, scaly edge and central clearing.
+?Which is the most appropriate test before treating?
+
+@h1387
+A 52 year old man drinks most days. He completes an AUDIT questionnaire.
+His AUDIT score is 22.
+?What does this suggest?
+
+@h1388
+A 34 year old woman has had low mood, poor sleep and loss of interest for 2 months.
+Her PHQ-9 score is 21.
+?How severe is her depression?
+
+@h1389
+A 30 year old woman gave birth 6 weeks ago. At her review she completes the Edinburgh Postnatal Depression Scale.
+She scores 15, including a positive answer to the self-harm question.
+?Which is the most appropriate step?
+
+@h1390
+A 66 year old man has had palpitations and chest pain for an hour.
+Pulse rate 160 bpm, irregular. BP 78/45 mmHg. He is clammy and pale.
+ECG shows atrial fibrillation with a fast ventricular rate and ST depression.
+?Which is the most appropriate immediate treatment?
+
+@h1391
+A 62 year old woman has atrial fibrillation for an unknown length of time. She is stable.
+Pulse rate 102 bpm, BP 128/80 mmHg.
+Rhythm control with elective cardioversion is planned. She is not yet anticoagulated.
+?What must happen before elective cardioversion?
+
+@h1392
+A 58 year old man collapses on the ward. He has no pulse and is not breathing. CPR is started and the defibrillator pads are on.
+?Which cardiac arrest rhythm needs defibrillation?
+
+@h1393
+A 79 year old man is dizzy and has fainted.
+Pulse rate 30 bpm, BP 76/40 mmHg. He is pale and clammy.
+ECG shows complete heart block. Atropine 500 micrograms has not worked.
+?Which is the most appropriate next step?
+
+@h1394
+A 68 year old woman has heart failure. She remains breathless on optimal drug treatment.
+Echo shows an ejection fraction of 30%. ECG shows left bundle branch block with a QRS of 160 ms.
+?Which device is most appropriate?
+
+@h1395
+A 62 year old man has an implantable cardioverter defibrillator. He got a single shock while gardening. He felt well straight afterwards and has no chest pain or breathlessness.
+?Which is the most appropriate advice?
+
+@h1396
+A 64 year old man with type 2 diabetes has stable angina despite medical treatment.
+Coronary angiography shows severe narrowing in all three coronary arteries. His ejection fraction is 45%.
+?Which revascularisation is usually preferred?
+
+@h1397
+A 62 year old man had a drug-eluting coronary stent placed 6 weeks ago after a myocardial infarction. He takes aspirin and ticagrelor. He is due elective hernia repair in 2 months.
+?Which is the main concern?
+
+@h1398
+A 66 year old woman has had coronary artery bypass grafting using her left internal mammary artery.
+?Which coronary artery is this graft usually joined to?
+
+@h1399
+A 45 year old man has had his aortic valve replaced with a mechanical valve. He asks about blood thinners.
+?Which anticoagulant does he need?
+
+@h1400
+A 72 year old woman has severe symptomatic aortic stenosis and needs aortic valve replacement. She is fit for surgery. She wants to avoid lifelong warfarin.
+?Which valve is most suitable?

@@ -72,7 +72,7 @@ ch: mx | Say the urgency first, then run the 🗺 management ladder: bedside, bl
 pearl: Urgency first, then the ladder.
 
 @@ flow | 🔀 | What to say next: junction lines and rescues | Marks are lost at the joins, not in the content. One pre-learnt line for every change of section, timed for a 10-minute station, plus what to say when it goes wrong.
-step: open | !Open, minute 0 | Hello, I'm Nana, a third-year medical student. Can I check your full name and date of birth? I've been asked to ___. Is that OK? | Every opening anchor in one breath, so your head is free to watch the patient.
+step: open | !Open, minute 0 | Hello, I'm Nana, a fourth-year medical student. Can I check your full name and date of birth? I've been asked to ___. Is that OK? | Every opening anchor in one breath, so your head is free to watch the patient.
 step: pc | Open question, then let them talk, by 30 seconds | What's brought you in today? … Tell me more about that. | The golden minute. Actors give their planted clues early if you do not interrupt.
 step: hpc | !Into the details, by about 1½ minutes | Thank you, that's really helpful. I'd like to ask some more specific questions about the ___ itself. | Signposting was flagged in your feedback. One sentence makes your structure audible.
 step: rf | Into the dangerous questions, by about 3½ minutes | I'm going to ask a few questions to make sure we're not missing anything serious. | Framing red flags this way stops them sounding frightening, and tells the examiner you are hunting the killer.

@@ -1,0 +1,257 @@
+# h0801 to h0850
+
+@h0801
+A 68 year old man with metastatic lung cancer takes modified-release morphine for bone pain. He has not opened his bowels for 6 days despite regular macrogol and senna. He is passing wind and is not vomiting.
+The abdomen is soft and mildly distended with normal bowel sounds. Rectal examination shows soft stool. Abdominal X-ray shows faecal loading with no features of obstruction.
+?Which drug may be considered?
+
+@h0802
+A 74 year old man with Parkinson's disease has had nausea for 3 days after starting a new antibiotic. He takes co-careldopa and his tremor and stiffness are well controlled.
+He is not dehydrated. The abdomen is soft and non-tender.
+?Which antiemetic is most appropriate?
+
+@h0803
+A 29 year old woman is 10 weeks pregnant. She has had nausea and vomiting most days for 3 weeks. She can keep fluids down and is passing urine normally. Ginger and small frequent meals have not helped.
+Pulse rate 82 bpm, BP 112/70 mmHg. Her weight is stable.
+Urine dipstick shows no ketones.
+?Which is the most appropriate first drug?
+
+@h0804
+A 62 year old woman with breast cancer and brain metastases is under the palliative care team. She has nausea and vomiting that are worst in the morning, with headache.
+There is bilateral papilloedema. The abdomen is soft and bowel sounds are normal.
+?Which antiemetic is most appropriate?
+
+@h0805
+A 52 year old woman has had itch for 6 months and is more tired than usual. She drinks little alcohol and takes no regular medicines.
+There are scratch marks on her arms. She is not jaundiced.
+ALP 380 IU/L. ALT 48 IU/L. Bilirubin 14 µmol/L. Anti-mitochondrial antibodies are positive. Ultrasound shows normal bile ducts.
+?Which is the most appropriate first treatment?
+
+@h0806
+A 48 year old man has drunk about 120 units of alcohol a week for 15 years. He has become jaundiced over 2 weeks with fever and pain in the right upper abdomen.
+Temperature 38.0°C, pulse rate 104 bpm. He is jaundiced and the liver is enlarged and tender.
+Bilirubin 210 µmol/L. Prothrombin time is prolonged. White cell count 16 × 10⁹/L. His Maddrey discriminant function is 46. Blood, urine and ascitic cultures show no infection, and there is no gastrointestinal bleeding.
+?Which is the most appropriate drug?
+
+@h0807
+A 58 year old man has alcohol-related cirrhosis and has stopped drinking. He has never had a gastrointestinal bleed.
+Pulse rate 78 bpm, BP 124/76 mmHg. There is no ascites.
+Screening endoscopy shows large oesophageal varices with no signs of recent bleeding.
+?Which is the most appropriate preventive drug?
+
+@h0808
+A 54 year old woman with type 2 diabetes started standard-release metformin 4 weeks ago. She has had loose stools and abdominal cramps since. She takes it with meals. Her glucose has improved.
+Abdominal examination is normal.
+HbA1c 56 mmol/mol. eGFR over 90 mL/min/1.73 m².
+?Which is the most appropriate change?
+
+@h0809
+A 74 year old man has type 2 diabetes treated with metformin. His kidney function has been gradually worsening over 2 years. He feels well.
+BP 134/80 mmHg.
+eGFR has fallen from 52 to 38 mL/min/1.73 m² over the past year. HbA1c 52 mmol/mol.
+?At which eGFR should metformin be stopped?
+
+@h0810
+A 66 year old man with type 2 diabetes takes metformin. He needs a CT scan of the abdomen with IV contrast to investigate weight loss. He is not unwell and has no acute kidney injury.
+eGFR 50 mL/min/1.73 m², unchanged from 6 months ago.
+?Which is the most appropriate advice?
+
+@h0811
+A 64 year old man with type 2 diabetes started gliclazide 3 months ago, in addition to metformin. He asks about the most important side effect to watch for while he is driving.
+HbA1c has fallen from 72 to 58 mmol/mol.
+?Which side effect is most typical of gliclazide?
+
+@h0812
+A 66 year old man with type 2 diabetes has heart failure with reduced ejection fraction. He takes metformin and his HbA1c is above target. The team is choosing an add-on drug.
+There is mild ankle swelling. Pulse rate 72 bpm, BP 126/74 mmHg.
+HbA1c 64 mmol/mol. eGFR 62 mL/min/1.73 m².
+?Which drug should be avoided?
+
+@h0813
+A 72 year old woman with type 2 diabetes has chronic kidney disease. Metformin has been stopped and she needs another oral drug.
+HbA1c 62 mmol/mol. eGFR 25 mL/min/1.73 m².
+?Which DPP-4 inhibitor needs no dose change for her kidney function?
+
+@h0814
+A 52 year old man with type 2 diabetes has a BMI of 37 kg/m² and sleep apnoea. He takes metformin, gliclazide and sitagliptin and checks his glucose regularly. He takes his tablets as prescribed.
+BP 138/84 mmHg.
+HbA1c 76 mmol/mol. eGFR 82 mL/min/1.73 m².
+?Which is the most appropriate next step?
+
+@h0815
+A 56 year old woman with type 2 diabetes and a BMI of 38 kg/m² started semaglutide 6 months ago. She has her review today.
+HbA1c 6 months ago 74 mmol/mol. Her weight was 104 kg.
+?Which response must be achieved at 6 months for semaglutide to continue?
+
+@h0816
+A 54 year old woman started semaglutide for type 2 diabetes 3 months ago. For 12 hours she has had severe epigastric pain going through to her back, with vomiting. She drinks little alcohol.
+Temperature 37.6°C, pulse rate 108 bpm, BP 118/70 mmHg. There is marked epigastric tenderness.
+?Which is the most appropriate action?
+
+@h0817
+A 22 year old man has had thirst, polyuria and 6 kg weight loss for 3 weeks. He is not acidotic.
+BMI 21 kg/m².
+Glucose 22 mmol/L. Blood ketones 1.2 mmol/L. Venous pH 7.38. Anti-GAD antibodies are positive.
+?Which insulin regimen is most appropriate?
+
+@h0818
+A 26 year old man with type 1 diabetes on basal-bolus insulin has had flu for 2 days. He is not eating much but is drinking fluids. He phones for advice.
+His capillary glucose is 15 mmol/L and blood ketones 0.8 mmol/L.
+?Which is the most appropriate advice about his insulin?
+
+@h0819
+A 34 year old woman with type 1 diabetes has had erratic glucose readings for 3 months, with unexpected highs and hypos. She always injects into the same area of her abdomen because it does not hurt.
+There are soft, rubbery swellings at her injection sites on the abdomen.
+HbA1c 72 mmol/mol.
+?Which is the most likely cause?
+
+@h0820
+A 46 year old woman has been diagnosed with primary hypothyroidism and is starting levothyroxine. She also takes ferrous sulfate for iron deficiency and drinks coffee at breakfast.
+TSH 14 mU/L. Free T4 8 pmol/L.
+?How should levothyroxine be taken?
+
+@h0821
+A 36 year old woman smokes and has Graves' disease. She has gritty eyes, redness and proptosis that has worsened over 3 months. She is considering radioactive iodine.
+There is bilateral proptosis with lid retraction and conjunctival redness. Visual acuity and colour vision are normal.
+?Which is the most appropriate advice?
+
+@h0822
+A 34 year old woman with Graves' disease started carbimazole 20 mg 6 weeks ago. She now feels tired and has gained weight.
+Pulse rate 64 bpm.
+TSH under 0.01 mU/L. Free T4 8 pmol/L.
+?Which is the most appropriate step?
+
+@h0823
+A 68 year old woman takes prednisolone 5 mg daily for polymyalgia rheumatica. She is nil by mouth after an operation and needs her steroid given intravenously instead.
+?Which dose of hydrocortisone is roughly equivalent to prednisolone 5 mg?
+
+@h0824
+A 42 year old man with Addison's disease takes hydrocortisone and fludrocortisone. He has flu with aches and a fever. He is eating and drinking and is not vomiting.
+His temperature at home is 38.5°C.
+?Which is the most appropriate advice about his hydrocortisone?
+
+@h0825
+A 38 year old woman with Addison's disease has been vomiting for a day and could not keep her tablets down. She is now confused.
+Temperature 37.8°C, pulse rate 122 bpm, BP 78/40 mmHg. She is drowsy and dry.
+Sodium 126 mmol/L. Potassium 5.8 mmol/L. Glucose 3.4 mmol/L.
+?Which is the most appropriate immediate step?
+
+@h0826
+An 80 year old man started desmopressin for nocturia 2 weeks ago. He has become confused and has had a headache for 2 days.
+He is clinically euvolaemic. There is no focal neurology.
+?Which result is most likely?
+
+@h0827
+A 32 year old man has had polyuria and thirst for 3 months after a head injury. He passes about 7 litres of urine a day.
+Glucose 5.2 mmol/L. Calcium is normal. After water deprivation his urine osmolality stays at 200 mOsm/kg. After desmopressin it rises to 700 mOsm/kg.
+?Which is the most likely diagnosis?
+
+@h0828
+A 58 year old man has taken lithium for bipolar disorder for 20 years. He passes large amounts of dilute urine and is always thirsty.
+Sodium 146 mmol/L. Glucose 5.4 mmol/L. Calcium is normal. Urine osmolality stays low after water deprivation and does not rise after desmopressin.
+?Which treatment can help?
+
+@h0829
+A 74 year old man takes tamsulosin for lower urinary tract symptoms. He is listed for cataract surgery next month.
+?What should the eye surgeon be told?
+
+@h0830
+A 62 year old man started tamsulosin for benign prostatic enlargement 2 months ago. His urinary flow is better. He has noticed that little or no semen comes out when he ejaculates. He has normal erections and libido.
+?Which is the most likely explanation?
+
+@h0831
+An 84 year old woman has urge incontinence with frequency and urgency. She lives in a care home and has mild cognitive impairment. Bladder training for 6 weeks has not helped. She has no urinary tract infection.
+BP 132/78 mmHg. Bladder scan shows a small residual volume.
+?Which drug is most appropriate?
+
+@h0832
+A 58 year old man started sildenafil for erectile dysfunction a month ago. It works well, but he has noticed a side effect.
+?Which side effect is typical of sildenafil?
+
+@h0833
+A 54 year old man is starting sildenafil for erectile dysfunction. He asks how long before sex he should take it.
+?When should sildenafil be taken before sex?
+
+@h0834
+A 52 year old man has had erectile dysfunction for 6 months. He still has morning erections only occasionally. He smokes and has not seen a doctor for years. He has no urinary symptoms.
+BMI 31 kg/m². BP 152/94 mmHg. Genital examination is normal.
+?Which is the most appropriate first assessment?
+
+@h0835
+A 72 year old man has metastatic prostate cancer that is progressing despite androgen deprivation. He is starting abiraterone.
+?Which drug must be given with abiraterone?
+
+@h0836
+A 70 year old man has prostate cancer and has been on androgen deprivation with a GnRH agonist for 6 months. He has troublesome hot flushes that disturb his sleep.
+?Which drug may help?
+
+@h0837
+A 74 year old man has been on androgen deprivation therapy for prostate cancer for 2 years. He is well and his PSA is low.
+?Which problem should be screened for?
+
+@h0838
+A 56 year old woman has taken tamoxifen for 2 years after surgery for breast cancer. Her periods stopped 2 years ago. She now has vaginal bleeding.
+Abdominal and speculum examination are normal.
+?Which is the most appropriate step?
+
+@h0839
+A 48 year old woman with HER2-positive breast cancer has had anthracycline chemotherapy and is now starting trastuzumab.
+?Which test is needed before and during treatment?
+
+@h0840
+A 62 year old woman started letrozole after surgery for oestrogen receptor-positive breast cancer 4 months ago. She now has aching and stiffness in her hands, knees and hips. She has no fever.
+There is no joint swelling or synovitis.
+CRP 4 mg/L. Rheumatoid factor and anti-CCP antibodies are negative. Bone scan last month showed no metastases.
+?Which is the most likely cause?
+
+@h0841
+A 54 year old woman had chemotherapy for breast cancer 9 days ago. She has had a fever and feels shivery and unwell.
+Temperature 38.3°C, pulse rate 112 bpm, BP 108/64 mmHg, respiratory rate 20 breaths per minute, SpO2 97% breathing air. Her PICC line site looks clean.
+Blood results are not yet available.
+?Which is the most appropriate step?
+
+@h0842
+A 44 year old man with vasculitis is having IV cyclophosphamide. After his previous cycle he had blood in his urine and pain on passing urine.
+Urine culture showed no infection.
+?Which drug helps prevent this?
+
+@h0843
+A 52 year old man with high-grade lymphoma and bulky disease started chemotherapy yesterday. Today he has muscle cramps and is passing less urine.
+Pulse rate 96 bpm, BP 132/80 mmHg.
+Potassium 6.4 mmol/L. Phosphate 2.4 mmol/L. Urate 0.72 mmol/L. Adjusted calcium 1.86 mmol/L. Creatinine 182 µmol/L.
+?Which is the most likely diagnosis?
+
+@h0844
+A 62 year old man started pembrolizumab for metastatic melanoma 8 weeks ago. He now has 7 loose stools a day with abdominal pain. He has not had recent antibiotics.
+Temperature 37.6°C, pulse rate 98 bpm. There is mild lower abdominal tenderness.
+CRP 64 mg/L. Stool culture and C. difficile toxin are negative.
+?Which is the most likely cause?
+
+@h0845
+A 64 year old woman with non-Hodgkin lymphoma is due to start chemotherapy that includes rituximab.
+?Which infection must be screened for first?
+
+@h0846
+A 58 year old woman with metastatic colorectal cancer started bevacizumab 6 weeks ago. Her blood pressure was normal before treatment. She has no headache or visual change.
+BP 170/100 mmHg on repeated readings.
+Urine dipstick shows protein 1+.
+?Which is the most likely cause?
+
+@h0847
+A 42 year old man has had epilepsy since childhood and has taken the same drug for years. He has become unsteady over 2 weeks.
+There is gum hypertrophy, coarse facial features and excess facial hair. There is horizontal nystagmus and an ataxic gait.
+?Which drug is most likely responsible?
+
+@h0848
+A 66 year old woman with epilepsy takes carbamazepine. She has become confused over a week. She is eating and drinking normally and takes no other medicines.
+She is clinically euvolaemic.
+Sodium 124 mmol/L. Serum osmolality is low and urine osmolality is high. Glucose 5.4 mmol/L. Thyroid function and a short Synacthen test are normal.
+?Which is the most likely explanation?
+
+@h0849
+A 24 year old woman has juvenile myoclonic epilepsy that is well controlled on sodium valproate. She is sexually active and does not want children at present.
+?Which is required?
+
+@h0850
+A 56 year old woman has taken lorazepam 2 mg daily for 2 years after a bereavement. She wants to stop. She has no seizures and drinks little alcohol.
+?Which is the most appropriate approach?

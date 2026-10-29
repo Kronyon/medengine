@@ -1,0 +1,251 @@
+# h1151 to h1200
+
+@h1151
+A 15 year old boy has had sudden severe pain in his left testicle and vomiting. He is taken to theatre for suspected torsion. His mother asks how much time matters.
+?Within how many hours of symptom onset is a torsed testis most likely to be saved?
+
+@h1152
+A 13 year old boy is having scrotal exploration for torsion. The right testis is twisted. After it is untwisted, it turns pink.
+?Which is the most appropriate next step?
+
+@h1153
+A 30 year old man noticed a painless lump in his right testicle in the shower 2 weeks ago. He is otherwise well.
+There is a 1 cm hard, non-tender lump within the body of the right testis. It does not transilluminate. The left testis is normal.
+?Which is the most appropriate first investigation?
+
+@h1154
+A 26 year old man has a hard, painless lump in his left testis. Ultrasound shows a solid testicular tumour.
+AFP 480 kU/L. Beta-hCG is mildly raised. LDH is normal.
+?Which type of tumour is it most likely to be?
+
+@h1155
+A 71 year old man has had a painless swelling of his right testis for a month. He has lost weight and has night sweats.
+There is a firm, painless mass in the right testis. It does not transilluminate.
+?Which is the most likely diagnosis?
+
+@h1156
+A 74 year old man has acute urinary retention and you are catheterising him. You have passed the catheter, but no urine has come out yet.
+?Which is the most appropriate next step?
+
+@h1157
+A 78 year old man had a catheter placed for urinary retention 4 hours ago. Since then, the bag has stayed empty. He has lower abdominal discomfort.
+Pulse rate 84 bpm, BP 142/86 mmHg. The bladder is palpable.
+Bladder scan shows 600 ml.
+?Which is the most appropriate next step?
+
+@h1158
+An 82 year old woman has had a long-term urinary catheter for 3 months. She has had a fever and right loin pain since this morning.
+Temperature 38.6°C, pulse rate 108 bpm, BP 112/70 mmHg. There is right renal angle tenderness.
+?Which is the most appropriate order of actions?
+
+@h1159
+A 58 year old woman has had pain in her right knee for a year. It is worse on walking and eases with rest. Her morning stiffness lasts about 15 minutes.
+BMI 30 kg/m². There is crepitus on movement. There is no effusion, warmth or redness.
+?Which is the most appropriate way to make the diagnosis?
+
+@h1160
+A 64 year old man has knee osteoarthritis. He is doing his exercises and losing weight, but still has pain when walking. He has no kidney disease or stomach ulcers.
+?Which is the most appropriate first analgesic?
+
+@h1161
+A 67 year old woman has severe osteoarthritis of the right hip. She can no longer walk to the shops and has pain at night, despite exercise, weight advice and analgesia.
+BMI 38 kg/m². There is fixed flexion and painful, restricted internal rotation of the right hip.
+X-ray shows loss of joint space, osteophytes and subchondral sclerosis.
+?Which is the most appropriate next step?
+
+@h1162
+A 72 year old woman had a hip replacement through a posterior approach 2 weeks ago. She bent down to pick up her shoe and felt sudden pain in the hip. She cannot bear weight.
+Her right leg is shortened and internally rotated.
+?Which is the most likely diagnosis?
+
+@h1163
+A 68 year old man had a knee replacement 6 weeks ago. For 4 days the knee has been red, swollen and increasingly painful. He has had a fever.
+Temperature 38.4°C, pulse rate 98 bpm, BP 128/76 mmHg. The knee is warm with an effusion. The wound has healed.
+CRP 140 mg/L. White cell count 14 × 10⁹/L.
+?Which is the most appropriate next step?
+
+@h1164
+A 66 year old woman has had an elective total hip replacement. She is mobilising and is due to go home on day 2. Her VTE risk is assessed.
+?How long should VTE prophylaxis usually continue after surgery?
+
+@h1165
+A 72 year old man has noticed a swelling behind his right knee for a month. It does not hurt. He smokes.
+There is a 3 cm pulsatile, expansile swelling in the right popliteal fossa. Foot pulses are present.
+?Which is the most likely diagnosis?
+
+@h1166
+A 70 year old man has a right popliteal artery aneurysm confirmed on duplex scan. He has no symptoms.
+?Which further investigation is most important?
+
+@h1167
+A 64 year old man had a coronary angiogram through the right femoral artery yesterday. He has a tender lump in his right groin.
+There is a pulsatile lump in the right groin with a systolic bruit. The leg pulses are present.
+?Which is the most likely diagnosis?
+
+@h1168
+A 76 year old woman with atrial fibrillation has had a cold, pale, painful right leg for 3 hours. She had stopped her anticoagulant. She has never had leg pain on walking.
+The right leg is cold and pale. The right femoral pulse is present, but the popliteal and foot pulses cannot be felt. All left leg pulses are normal.
+ECG shows atrial fibrillation.
+?Which is the most likely cause?
+
+@h1169
+A 72 year old man has had a cold, painful left leg for 4 hours. Acute limb ischaemia is diagnosed.
+The left leg is pale. The foot pulses cannot be felt. Sensation and movement are intact.
+?Which is the most appropriate immediate management?
+
+@h1170
+A 74 year old woman had a femoral embolectomy 6 hours ago for a leg ischaemic for 10 hours. She now has severe calf pain.
+The calf is tense and tender. Passive movement of the foot causes severe pain. The foot pulses are present.
+?Which is the most appropriate management?
+
+@h1171
+A 66 year old man smokes 20 cigarettes a day. He gets pain in his right calf after walking 200 m, which goes with rest. He has no pain at rest.
+The foot pulses are weak on the right. There are no ulcers.
+Ankle-brachial pressure index 0.7 on the right.
+?Which is the most appropriate first-line management?
+
+@h1172
+A 71 year old man with type 2 diabetes has pain in his calves on walking.
+The foot pulses cannot be felt.
+Ankle-brachial pressure index 1.45 in both legs.
+?Which is the most appropriate next test?
+
+@h1173
+A 57 year old man smokes. He has pain in both buttocks and thighs when he walks 100 m, which goes with rest. He also has erectile dysfunction.
+Both femoral pulses and all distal pulses cannot be felt. Straight leg raise is normal.
+?Which is the most likely diagnosis?
+
+@h1174
+A 64 year old man with type 2 diabetes has an ulcer under his foot. It does not hurt.
+There is a deep, painless ulcer under the first metatarsal head with surrounding callus. He cannot feel a 10 g monofilament on either foot. The foot is warm and the pulses are present.
+?Which type of ulcer is this?
+
+@h1175
+A 70 year old woman has had an ulcer above her left medial malleolus for 3 months. She has varicose veins.
+There is a shallow ulcer with a sloughy base and surrounding haemosiderin staining and lipodermatosclerosis. The foot pulses are present.
+Ankle-brachial pressure index 0.9.
+?Which is the most appropriate treatment?
+
+@h1176
+A 77 year old man has had a venous ulcer on his right leg for 15 years. Over 3 months it has grown and bleeds easily.
+There is a 5 cm ulcer with a raised, rolled, everted edge. There is an enlarged inguinal lymph node on the right.
+?Which is the most likely diagnosis?
+
+@h1177
+A 45 year old woman has varicose veins in both legs. She has no aching, itch, skin changes or bleeding. She wants them removed because of how they look.
+There are visible varicose veins on both calves. The skin is normal.
+?Which is the most appropriate management?
+
+@h1178
+A 52 year old man has aching legs and swelling at the end of the day. He is seen in the vascular clinic.
+There are varicose veins on the medial thigh and calf.
+Duplex scan shows great saphenous vein reflux.
+?Which is the most appropriate first-line treatment?
+
+@h1179
+A 48 year old woman has aching varicose veins over the back of her calf.
+There are varicose veins on the back of the right calf. Duplex scan shows reflux at a junction.
+?Which junction is most likely to be incompetent?
+
+@h1180
+A 62 year old woman had a mastectomy with axillary node clearance and radiotherapy a year ago. Her left arm has slowly become swollen. She has no fever.
+The left arm is firmly swollen. The skin at the base of her fingers cannot be pinched. There is no redness or warmth.
+?Which is the most likely diagnosis?
+
+@h1181
+A 35 year old woman has had swollen legs since her twenties. Her legs ache and bruise easily.
+There is symmetrical swelling of both legs from the hips to the ankles. Her feet are not swollen. The legs are tender, and there is no pitting.
+?Which is the most likely diagnosis?
+
+@h1182
+A 58 year old man has lymphoedema of his right leg. He wears compression hosiery. He has had 3 episodes of cellulitis in the leg this year.
+?Which is the most appropriate long-term measure?
+
+@h1183
+A 28 year old woman has painful fingers in the cold. They turn white, then blue, then red when they warm up. She has no other symptoms. Gloves and stopping smoking have not been enough.
+The hands are normal between attacks with no ulcers or skin thickening.
+Antinuclear antibodies are negative.
+?Which is the most appropriate drug?
+
+@h1184
+A 52 year old woman has had Raynaud's for 5 years. She has trouble swallowing.
+There is tight, shiny skin on her fingers only. There is telangiectasia on her face and calcium deposits in her fingertips.
+Anti-centromere antibodies are positive.
+?Which is the most likely diagnosis?
+
+@h1185
+A 32 year old man has had mild Raynaud's for years. It has worsened since he started a drug for performance anxiety before concerts.
+?Which drug is most likely to be responsible?
+
+@h1186
+A 23 year old man has heard two voices talking about him in the third person for 2 months. He says his neighbours are taking his thoughts out of his head. He has stopped going to work. He does not use drugs and his mood is not low or elevated.
+He is guarded and distracted.
+Urine drug screen is negative.
+?Which is the most likely diagnosis?
+
+@h1187
+A 30 year old woman's house burned down a week ago. Since then she has heard voices and believes people are trying to harm her. She has no past psychiatric history and does not use drugs.
+Within 3 weeks she is completely back to normal.
+?Which is the most likely diagnosis?
+
+@h1188
+A 68 year old woman has severe depression. She has stopped eating. She says she is dead and her insides have rotted away.
+?Which term describes this?
+
+@h1189
+A 19 year old man had his first dose of haloperidol 6 hours ago for acute psychosis. He is distressed.
+His neck is twisted to one side and his eyes are fixed looking upwards. He is alert. Temperature 36.9°C.
+?Which is the most appropriate treatment?
+
+@h1190
+A 58 year old woman has taken haloperidol for schizophrenia for 6 years. Her family has noticed odd movements of her mouth.
+There is lip smacking, tongue thrusting and chewing movements. There is no rigidity.
+?Which is the most likely diagnosis?
+
+@h1191
+A 32 year old man started haloperidol 5 days ago. He has become confused and stiff.
+Temperature 39.5°C, pulse rate 124 bpm. BP is labile, ranging from 110/70 to 180/100 mmHg. There is lead-pipe rigidity. Reflexes are normal and there is no clonus.
+Creatine kinase 12,000 IU/L. Creatinine 142 µmol/L.
+?Which is the most appropriate management?
+
+@h1192
+A 34 year old man has had low mood, poor sleep and loss of interest for 3 months. His depression is more severe. He would like medication alongside talking therapy. He has no other illnesses and takes no other medicines.
+?Which is the most appropriate first drug?
+
+@h1193
+A 22 year old woman has moderate depression and starts sertraline today. She has no thoughts of self-harm.
+?When should she next be reviewed?
+
+@h1194
+A 56 year old man has depression. He has lived alone since his divorce last year. He drinks 10 units of alcohol a week and still works full time. His daughter visits weekly. He took an overdose 20 years ago.
+?Which feature most raises his immediate risk of suicide?
+
+@h1195
+A 27 year old man has slept 2 hours a night for 6 days. He has spent £8,000 on a car he cannot afford. His family say he is not himself.
+He speaks rapidly and cannot be interrupted. He says he has been chosen by God to lead the country.
+Urine drug screen and thyroid function are normal.
+?Which is the most likely diagnosis?
+
+@h1196
+A 31 year old woman has her first manic episode. She takes no psychiatric drugs. She is not pregnant.
+She is elated, with pressured speech and grandiose ideas.
+?Which is the most appropriate first-line treatment?
+
+@h1197
+A 36 year old man has just started lithium for bipolar disorder. He takes it at night. His first level is due.
+?When should the blood sample for his lithium level be taken?
+
+@h1198
+A 41 year old woman has worried excessively about everything on most days for a year. She has trouble sleeping and feels tense. Guided self-help has not worked and she would like medication.
+?Which is the most appropriate first drug?
+
+@h1199
+A 26 year old man has had several sudden attacks of chest tightness, palpitations and fear of dying. Each peaks within 10 minutes. He now worries constantly about having another.
+Pulse rate 78 bpm, BP 124/78 mmHg. Examination is normal.
+ECG and thyroid function are normal.
+?Which is the most likely diagnosis?
+
+@h1200
+A 44 year old woman has had sudden attacks of pounding headache, sweating and palpitations for 3 months. They last about 20 minutes.
+During an attack her pulse rate is 128 bpm and BP 210/110 mmHg. Between attacks, BP is 146/92 mmHg.
+?Which is the most likely diagnosis?

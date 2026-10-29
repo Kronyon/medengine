@@ -1,0 +1,242 @@
+# h0901 to h0950
+
+@h0901
+An 80 year old woman is admitted with a hip fracture. She is frail and has a poor appetite. She weighs 42 kg. She needs regular paracetamol for pain.
+ALT 24 IU/L. eGFR 58 mL/min/1.73 m².
+?Which is the most appropriate paracetamol dose?
+
+@h0902
+A 19 year old woman took a single overdose of paracetamol 4 hours ago. She feels well. A paracetamol level is sent and the result will be plotted on the treatment nomogram.
+?Which paracetamol level at 4 hours is the UK treatment line?
+
+@h0903
+A 23 year old woman took 30 paracetamol 500 mg tablets in one go 10 hours ago. She weighs 60 kg. She feels nauseated.
+Pulse rate 88 bpm, BP 118/74 mmHg. The abdomen is soft.
+Blood tests have been sent.
+?Which is the most appropriate management?
+
+@h0904
+A 74 year old man takes ramipril and furosemide for heart failure. He was given ibuprofen 400 mg three times a day for a gout flare 3 days ago. He is passing less urine.
+Pulse rate 92 bpm, BP 108/66 mmHg. There is no rash.
+Creatinine before treatment 98 µmol/L. Creatinine now 204 µmol/L. Potassium 5.6 mmol/L. Urine dipstick shows no blood or protein.
+?Which is the most likely explanation?
+
+@h0905
+A 31 year old woman is 32 weeks pregnant. She has lower back pain and asks whether she can take ibuprofen.
+?Why should she avoid ibuprofen?
+
+@h0906
+A 64 year old woman with rheumatoid arthritis takes methotrexate 20 mg weekly. She has started buying ibuprofen and taking it regularly for joint pain.
+?Which is the main risk?
+
+@h0907
+A 66 year old woman with metastatic breast cancer takes modified-release morphine 60 mg twice daily. She has breakthrough pain when she moves.
+?Which is the correct oral breakthrough dose of immediate-release morphine?
+
+@h0908
+A 78 year old man with prostate cancer takes oral morphine for bone pain. He has become drowsy and confused over 3 days with jerking of his arms. He has had a poor oral intake.
+Respiratory rate 10 breaths per minute. Pupils are small. There is myoclonus.
+Creatinine 210 µmol/L, previously 110 µmol/L. Adjusted calcium 2.42 mmol/L.
+?Which is the most likely cause?
+
+@h0909
+A 72 year old man with lung cancer has stable pain on modified-release morphine 45 mg twice daily. He is having trouble swallowing and is switched to a fentanyl patch.
+?Which is the most important advice?
+
+@h0910
+A 34 year old man needs a laceration on his arm sutured. The nurse draws up 10 ml of 1% lidocaine.
+?How many mg of lidocaine are in 10 ml of a 1% solution?
+
+@h0911
+A 46 year old man weighing 70 kg needs a large laceration on his thigh repaired under local anaesthetic. Lidocaine with adrenaline is not available.
+?Which is the usual maximum dose of plain lidocaine without adrenaline?
+
+@h0912
+A 52 year old man is having a nerve block for wrist surgery. Shortly after the injection he says his lips are tingling and he has a metallic taste. He then has a generalised seizure.
+Pulse rate 48 bpm, BP 84/50 mmHg. ECG shows broad complexes.
+?Which is the most appropriate specific treatment?
+
+@h0913
+A 28 year old woman with eczema is prescribed a topical steroid cream. The nurse explains how to measure the amount using fingertip units.
+?How much skin does one fingertip unit of cream cover?
+
+@h0914
+An 82 year old man with dry skin uses large amounts of a paraffin-based emollient. He smokes and lives alone.
+?Which safety advice should be given?
+
+@h0915
+A 32 year old woman has used her partner's potent steroid cream on her face for 4 months for a red rash. Each time she stops, the rash returns worse. She now has small red papules and pustules around her mouth, sparing the skin just next to the lips.
+There are no comedones.
+?Which is the most likely diagnosis?
+
+@h0916
+A 42 year old man has severe plaque psoriasis covering 20% of his body. Topical treatment and narrowband UVB phototherapy have not controlled it. He drinks little alcohol and his liver function is normal.
+?Which is the most appropriate first systemic drug?
+
+@h0917
+A 34 year old woman takes a systemic drug for severe eczema. She also uses emollients, hydrocortisone cream and topical tacrolimus. She has noticed swollen gums and more hair growth.
+BP 160/100 mmHg.
+Creatinine has risen from 68 to 102 µmol/L.
+?Which drug is responsible?
+
+@h0918
+A 46 year old man with plaque psoriasis is having a course of narrowband UVB phototherapy. He asks about long-term risks.
+?Which is the main long-term risk?
+
+@h0919
+A 24 year old woman with moderate acne and hirsutism takes co-cyprindiol. She asks about its main serious risk.
+?Which is its main serious risk?
+
+@h0920
+A 16 year old boy has moderate acne on his face and back. He has taken lymecycline with a topical retinoid for 3 months, and it has improved.
+?Which is the usual maximum length of an oral antibiotic course for acne?
+
+@h0921
+A 19 year old man is taking isotretinoin for severe nodular acne. A different doctor has prescribed doxycycline for a chest infection.
+?Which is the main danger?
+
+@h0922
+A 42 year old woman was stung by a wasp 10 minutes ago. Her lips are swelling and she is wheezy.
+Respiratory rate 28 breaths per minute, SpO2 92% breathing air. Pulse rate 128 bpm, BP 80/50 mmHg. There is widespread urticaria.
+?Which drug should be given first?
+
+@h0923
+A 36 year old man weighing 80 kg has anaphylaxis after eating peanuts. He has stridor and his BP is 84/52 mmHg.
+?What is the IM adrenaline dose for an adult with anaphylaxis?
+
+@h0924
+A 54 year old man has anaphylaxis after IV co-amoxiclav. He has had 2 doses of IM adrenaline 5 minutes apart and a 500 ml fluid bolus. He is still hypotensive.
+Pulse rate 132 bpm, BP 76/44 mmHg. There is ongoing wheeze. He is not taking beta-blockers.
+?Which is the most appropriate next step?
+
+@h0925
+A 66 year old man has been diagnosed with primary open-angle glaucoma. His intraocular pressure is 28 mmHg in both eyes. Laser treatment is not suitable for him. He has asthma.
+?Which drop class is first-line?
+
+@h0926
+A 68 year old man has taken oral acetazolamide for glaucoma for 3 months while waiting for surgery. He now has tingling fingers and an episode of loin pain.
+CT KUB shows a small stone in the right ureter. Bicarbonate 19 mmol/L. Potassium 3.3 mmol/L. Adjusted calcium 2.38 mmol/L.
+?Which is the most likely cause?
+
+@h0927
+A 70 year old woman is long-sighted. She had dilating drops for an eye examination this afternoon. That evening she has severe pain in her right eye, a headache, vomiting and halos around lights.
+The right eye is red with a hazy cornea and a fixed, mid-dilated pupil. The eye feels hard.
+?Which is the most likely cause?
+
+@h0928
+A 32 year old woman has heavy periods and iron deficiency anaemia. She is starting oral ferrous sulfate.
+Haemoglobin 98 g/L. MCV 72 fL. Ferritin 6 µg/L.
+?Which is the most appropriate advice?
+
+@h0929
+A 72 year old man drinks heavily and has a poor diet. He is tired and has tingling in his feet.
+There is reduced vibration sense in both feet.
+Haemoglobin 92 g/L. MCV 118 fL. Vitamin B12 low. Folate low. Blood film shows hypersegmented neutrophils.
+?Which is the most appropriate order of treatment?
+
+@h0930
+A 58 year old woman is tired and pale. She has no numbness, tingling or problems with walking or memory.
+Neurological examination is normal.
+Haemoglobin 96 g/L. MCV 116 fL. Vitamin B12 low. Intrinsic factor antibodies are positive.
+?Which is the most appropriate hydroxocobalamin regimen?
+
+@h0931
+A 70 year old man has a hot, swollen right big toe for a day. He has chronic kidney disease and takes no anticoagulants.
+Temperature 37.4°C. The first metatarsophalangeal joint is red, swollen and very tender.
+eGFR 25 mL/min/1.73 m². Joint aspirate shows negatively birefringent needle-shaped crystals and no organisms.
+?Which is the most appropriate treatment?
+
+@h0932
+A 58 year old woman has taken allopurinol for recurrent gout for a year. She now has a gout flare in her left knee.
+The left knee is warm and swollen with an effusion.
+?Which is the most appropriate advice about the allopurinol?
+
+@h0933
+A 54 year old man has had four gout flares in a year and is on allopurinol. He has no tophi. He asks what his blood test target is.
+?What is the target serum urate?
+
+@h0934
+A 30 year old man has been in a motorbike crash. He has a suspected pelvic fracture and is bleeding heavily.
+Pulse rate 132 bpm, BP 84/50 mmHg. He is pale and cool.
+?Within what time of injury should tranexamic acid be given?
+
+@h0935
+A 38 year old woman has heavy menstrual bleeding with no pain between periods. She does not want hormonal treatment because of side effects in the past. She does not want contraception.
+Pelvic examination is normal. Ultrasound shows a normal uterus.
+Haemoglobin 118 g/L.
+?Which is the most appropriate treatment?
+
+@h0936
+A medical student asks in which situations tranexamic acid helps patients who are bleeding.
+?In which situation does tranexamic acid not improve outcome?
+
+@h0937
+A 42 year old woman has a mole on her back that her partner says has grown over 3 months. It does not itch, ooze or bleed and is not inflamed.
+The lesion is 5 mm across with a regular outline and an irregular colour.
+?What is her weighted 7-point checklist score?
+
+@h0938
+A 52 year old man had a melanoma excised from his calf last week. He asks what the histology report means for his outlook.
+?Which feature of the tumour is most important for his prognosis?
+
+@h0939
+A 61 year old man of Black African family origin has had a dark streak along his right big toenail for a year. It has widened over the past 3 months. He does not recall an injury.
+There is a 5 mm brown-black band along the nail. The pigment has spread onto the nail fold.
+?Which is the most likely diagnosis?
+
+@h0940
+A 72 year old man has a slowly growing lump beside his nose. It has been present for a year and sometimes bleeds. He worked outdoors as a farmer.
+There is an 8 mm nodule with a pearly, rolled edge, small surface vessels and a central crust. There are no palpable lymph nodes.
+?Which is the most likely diagnosis?
+
+@h0941
+A 66 year old woman has a small lesion on her back that has been present for 2 years. It is not growing quickly. She is not immunosuppressed.
+There is a 6 mm pearly papule with telangiectasia. It looks like a typical basal cell carcinoma.
+?Which is the most appropriate referral?
+
+@h0942
+A 78 year old man had a basal cell carcinoma removed from the side of his nose 3 years ago. It has come back.
+There is an ill-defined, slightly scarred lesion on the side of the nose with poorly defined edges.
+?Which treatment is most appropriate?
+
+@h0943
+A 74 year old bald man has rough, scaly patches on his scalp. They have been present for a year and are not growing quickly. He played golf for most of his life.
+There are several rough, scaly patches on the scalp that are easier to feel than to see. There are no nodules or ulcers.
+?Which is the most likely diagnosis?
+
+@h0944
+A 58 year old man had a kidney transplant 10 years ago and takes tacrolimus and azathioprine. He has a growing, tender lump on the back of his hand that appeared 2 months ago.
+There is a 12 mm firm, crusted, keratotic nodule on the back of the right hand.
+?Which is the most likely diagnosis?
+
+@h0945
+A 74 year old man has used 5-fluorouracil cream on actinic keratoses on his forehead for 2 weeks. The treated area is now red, sore and crusted. He has no fever.
+The redness is limited to the treated areas.
+?Which is the most appropriate advice?
+
+@h0946
+A 24 year old woman has had tender red lumps on both shins for 5 days. She had a sore throat 2 weeks ago. She takes no medicines.
+Temperature 37.6°C. There are several tender, warm, red-purple nodules on both shins, 2 to 4 cm across. The skin is not broken.
+Chest X-ray is normal.
+?Which is the most likely diagnosis?
+
+@h0947
+A 38 year old man has noticed darker skin on his neck and in his armpits over a year. He has not lost weight.
+BMI 36 kg/m². There is velvety, dark, thickened skin in both axillae and on the back of the neck.
+HbA1c 44 mmol/mol.
+?Which condition is this most associated with?
+
+@h0948
+A 32 year old woman has type 1 diabetes. She has had patches on both shins for a year that are slowly enlarging. They are not painful.
+There are shiny, yellow-brown plaques with visible vessels and a thin, waxy centre on both shins.
+?Which is the most likely diagnosis?
+
+@h0949
+A 25 year old man has had itchy wheals all over his body for 2 days. They come and go within hours. He has not started any new medicines.
+His lips and tongue are not swollen. Respiratory rate 14 breaths per minute, SpO2 99% breathing air, BP 124/78 mmHg. There are raised wheals on the trunk and limbs.
+?Which is the most appropriate treatment?
+
+@h0950
+A 36 year old woman has had itchy wheals on most days for 3 months. She has taken cetirizine 10 mg daily throughout. There is no swelling of the lips or tongue.
+Full blood count and thyroid function are normal.
+?Which is the most appropriate next step?

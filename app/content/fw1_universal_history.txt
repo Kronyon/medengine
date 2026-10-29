@@ -9,7 +9,7 @@
 
 @@@ UNIVERSAL
 nn: Bare below the elbows; visible hand hygiene on entering and leaving | - | Official Nottingham anchor: "decontaminates hands when entering clinical area". Examiners tick what they see, so gel where they can see you.
-nn: Introduce yourself with your full name and role | Hello, my name is Nana, I'm a third-year medical student. | First professionalism anchor. The actor is later asked whether they would want you as their doctor; warmth starts here.
+nn: Introduce yourself with your full name and role | Hello, my name is Nana, I'm a fourth-year medical student. | First professionalism anchor. The actor is later asked whether they would want you as their doctor; warmth starts here.
 nn: Identify the patient with two identifiers (name + date of birth), and check them against the chart, form or wristband | Can I check your full name and date of birth, please? | Official anchor: "correctly identifies patient using at least two patient identifiable details". In prescribing and procedure stations, check against the chart or form too.
 nn: Explain why you are there and get consent before you start (again before any intimate or painful step) | I've been asked to ___. Is that OK with you? | No consent, no marks for what follows. Re-consenting before an intimate step is a separate mark.
 nn: Ask about pain before you touch; offer a chaperone for breast, genital and rectal examinations | Before I start, are you sore anywhere? | Anchor: "checks if patient has any pain anywhere". Hurting the patient is a professionalism drop; a chaperone is a safety mark.
@@ -28,7 +28,7 @@ nn: Close: questions, leaflet, follow-up, thank, hand hygiene | Is there anythin
 nn: Talk to a manikin as if it were the patient | Mr Smith, I'm just going to listen to your chest. | Anchor: "addresses the manikin as the patient" and "communicates with the manikin".
 
 @@ hx | 🗣 | History: any presenting complaint | One skeleton for every history station. Only the middle (the questions that split the differential) changes.
-step: open | !Open the station | Hello, my name is Nana, I'm a third-year medical student. Can I check your full name and date of birth? I've been asked to find out what's brought you in today; is that OK? | Hand hygiene, name and role, two identifiers, purpose and consent: the professionalism marks are banked in the first 20 seconds.
+step: open | !Open the station | Hello, my name is Nana, I'm a fourth-year medical student. Can I check your full name and date of birth? I've been asked to find out what's brought you in today; is that OK? | Hand hygiene, name and role, two identifiers, purpose and consent: the professionalism marks are banked in the first 20 seconds.
 step: pc | !Presenting complaint: open question, then the golden minute | What's brought you in today? ... Tell me more about that. | Patients give the key clue in their own words. Interrupting early loses information and the Communication mark.
 step: hpc | Characterise the main symptom | When did it start? Was it sudden or gradual? Has it changed since? | SOCRATES for pain, a timeline for everything else. Timing sorts acute, subacute and chronic causes before you think of a diagnosis.
 step: disc | Discriminators: the questions that split your differential | - | Information gathering is marked on questions that change your differential, not on a checklist read aloud. Run the tree for this complaint.

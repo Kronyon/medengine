@@ -1,0 +1,223 @@
+# h0451 to h0500
+
+@h0451
+A 29 year old woman was assaulted on her way home 2 days ago. She has not been physically injured. Since then she has felt numb and detached, cannot sleep and keeps replaying the event in her mind. She has no previous mental health problems.
+She is tearful but coherent, with no thoughts of self-harm.
+?Which is the most likely diagnosis?
+
+@h0452
+A 38 year old man was in a serious car crash 6 months ago. He has had nightmares and flashbacks since, avoids driving and is constantly on edge. His sleep and work have suffered. He has no thoughts of self-harm.
+?Which treatment is most appropriate first?
+
+@h0453
+A 41 year old man has had PTSD since a car crash 8 months ago. He will not drive or get into a car and takes a longer route to avoid the road where the crash happened.
+?Which symptom cluster is this?
+
+@h0454
+A 32 year old man washes his hands about 50 times a day because he fears catching germs. The washing makes his skin crack and bleed and takes up hours of his day. He knows the fear is excessive and tries to resist, but his anxiety rises until he washes.
+?What is the hand washing called?
+
+@h0455
+A 29 year old woman has moderate obsessive-compulsive disorder with checking rituals that take 2 hours a day. She has completed a course of CBT including exposure and response prevention, but still struggles. She is not pregnant.
+?Which drug is most appropriate?
+
+@h0456
+A 30 year old man spends several hours each day checking his nose in mirrors and asking his partner for reassurance. He is convinced his nose is deformed and has stopped going out. He has asked about cosmetic surgery.
+On examination his nose looks normal. He accepts that others may not see a problem.
+?Which is the most likely diagnosis?
+
+@h0457
+A 28 year old woman has had many years of pain in different places, bloating, nausea, dizziness and tiredness. Extensive investigations have found no cause and she has seen many specialists. The symptoms cause her great distress and she is unable to work.
+Physical examination is normal. Blood tests are normal.
+?Which is the most likely diagnosis?
+
+@h0458
+A 32 year old nurse has had three episodes of hypoglycaemia at work, one with a seizure. She does not have diabetes.
+During an episode, her glucose is 1.8 mmol/L. Plasma insulin is high and C-peptide is low. A sulfonylurea screen is negative.
+?Which is the most likely explanation?
+
+@h0459
+A 46 year old woman has been unable to move her right leg since she heard of her mother's sudden death this morning. She has no headache or other symptoms.
+Tone and reflexes are normal and plantars are flexor. She cannot lift her right leg from the bed, but when she lifts her left leg against resistance, her right hip extends strongly. Hoover's sign is positive.
+?Which is the most likely diagnosis?
+
+@h0460
+A 17 year old girl has been eating large amounts of food in secret several times a week for 6 months, then making herself vomit. She feels out of control during the binges and ashamed afterwards. She worries a lot about her weight.
+Her BMI is 22. She has calluses on the backs of her fingers and swollen parotid glands.
+?Which is the most likely diagnosis?
+
+@h0461
+A 22 year old woman with bulimia nervosa has been vomiting several times a day for a month. She feels weak.
+Pulse rate 96 bpm. Her parotid glands are swollen.
+Potassium 2.8 mmol/L. Chloride 88 mmol/L. Bicarbonate 36 mmol/L.
+?Which is the most likely acid-base disorder?
+
+@h0462
+A 16 year old girl with anorexia nervosa and a BMI of 13 was admitted and started on nasogastric feeding. On day 3 she feels weak and breathless and has ankle swelling.
+Pulse rate 112 bpm. There is pitting oedema to the ankles.
+Phosphate 0.3 mmol/L. Potassium 3.0 mmol/L. Magnesium 0.5 mmol/L.
+?Which is the most likely diagnosis?
+
+@h0463
+A 30 year old man lives alone and works night shifts in a warehouse, where he speaks to no one. His sister says he has always preferred to be alone, shows little emotion and is indifferent to praise or criticism. He has no friends and is content with this.
+Mental state examination shows a flat but appropriate affect. He has no odd beliefs, magical thinking or hallucinations.
+?Which is the most likely diagnosis?
+
+@h0464
+A 24 year old woman has a diagnosis of borderline, emotionally unstable, personality disorder. She has intense, unstable relationships, frequent self-harm by cutting and chronic feelings of emptiness. She asks what treatment would help.
+?Which treatment is most appropriate?
+
+@h0465
+A 32 year old man is seen in prison. He has a long history of lying, theft and violence against others and shows no remorse. As a child he set fires, was cruel to animals and was excluded from school. He has no psychotic symptoms.
+?Which is the most likely diagnosis?
+
+@h0466
+A 46 year old man attends for an NHS Health Check. He says he drinks 3 bottles of wine a week. Each bottle is 750 mL of wine at 12% alcohol by volume. He drinks no other alcohol.
+?How many units of alcohol does he drink each week?
+
+@h0467
+A 52 year old man who drinks a litre of vodka a day was admitted with a fractured wrist 18 hours ago. His last drink was yesterday afternoon.
+Pulse rate 118 bpm, BP 162/96 mmHg. He is sweating, agitated and has a coarse tremor. He is orientated and has no hallucinations. His CIWA score is 22.
+?Which is the most appropriate drug?
+
+@h0468
+A 48 year old man has completed an assisted alcohol withdrawal and wants to stay abstinent. He has no liver disease and his kidney function is normal. He is attending a psychosocial support group.
+?Which drug is most appropriate?
+
+@h0469
+A 19 year old woman took 30 paracetamol 500 mg tablets 4 hours ago after an argument. She has no symptoms. She weighs 60 kg.
+Her paracetamol level taken at 4 hours is above the treatment line on the nomogram. Liver function and INR are normal.
+?Which is the most appropriate next step?
+
+@h0470
+A 56 year old man has taken lithium for bipolar disorder for 10 years with stable levels. A new drug was started for his blood pressure 2 weeks ago. He now has a coarse tremor, vomiting, diarrhoea and confusion.
+He is ataxic with a coarse tremor and brisk reflexes.
+Lithium level 2.4 mmol/L. Creatinine 108 µmol/L.
+?Which drug is most likely to have been started?
+
+@h0471
+A 24 year old woman took an overdose of amitriptyline 3 hours ago. She is drowsy.
+Pulse rate 128 bpm, BP 92/58 mmHg. Her pupils are dilated and her skin is dry.
+ECG shows sinus tachycardia with a QRS duration of 140 ms. Venous pH 7.34.
+?Which is the most appropriate treatment?
+
+@h0472
+A 42 year old man takes sertraline for depression. He started tramadol for back pain 2 days ago. Since this morning he has been agitated and sweaty with a tremor and diarrhoea.
+Temperature 38.4°C, pulse rate 122 bpm, BP 156/92 mmHg. His pupils are dilated. Reflexes are brisk with sustained clonus at both ankles.
+?Which is the most likely diagnosis?
+
+@h0473
+A 34 year old woman was admitted to a medical ward as a voluntary patient after an overdose. She is now trying to leave, saying she will kill herself when she gets home. The duty psychiatrist is 2 hours away. You are the doctor in charge of her care on the ward.
+?Which section of the Mental Health Act can be used to hold her?
+
+@h0474
+Police find a 28 year old man shouting at passers-by in a shopping centre. He is distressed and says strangers are trying to poison him. He appears to be mentally unwell.
+?Which section of the Mental Health Act can the police use?
+
+@h0475
+A 58 year old woman with severe depression has stopped eating and drinking over 3 days. She barely speaks and stays in one position for hours.
+When the examiner lifts her arm, she holds it in the air for several minutes. She resists being moved. She is afebrile with normal reflexes. Creatine kinase is normal.
+?Which is the most likely diagnosis?
+
+@h0476
+A 34 year old man with schizophrenia has catatonia. He has not eaten or drunk for 3 days and is mute and immobile. He is afebrile and his creatine kinase is normal.
+?Which is the most appropriate first treatment?
+
+@h0477
+A 64 year old woman is having a course of ECT for severe depression with psychotic features that has not responded to medication. She asks which side effect is most common.
+?Which side effect is most common?
+
+@h0478
+A 3 year old girl has been referred because she is not talking like other children. She has only a few words. Her parents say she rarely responds to her name, does not point to show them things and spends hours lining up her toys. She becomes very upset if her routine changes.
+Her hearing test is normal. She makes little eye contact during the consultation.
+?Which is the most likely diagnosis?
+
+@h0479
+A 26 year old autistic man needs a blood test. He is in a busy, noisy outpatient waiting area and is becoming distressed, covering his ears and rocking.
+?Which is the most helpful adjustment?
+
+@h0480
+An 11 year old autistic boy has had severe aggression towards his family for 6 months, injuring his mother. Specialist behaviour support and parent training have not helped. No physical cause for his distress has been found.
+?Which drug may be considered?
+
+@h0481
+A 28 year old woman gave birth to her first baby 4 days ago. She is tearful and anxious and feels overwhelmed. She is feeding and caring for her baby well and sleeps when the baby sleeps. She has no thoughts of harming herself or the baby.
+?Which is the most likely diagnosis?
+
+@h0482
+A 32 year old woman gave birth 8 weeks ago and is breastfeeding. She has had low mood, poor concentration and loss of interest for 5 weeks. Her Edinburgh Postnatal Depression Scale score is 17. She has no thoughts of self-harm and wants medication alongside therapy.
+?Which antidepressant is most appropriate?
+
+@h0483
+A 30 year old woman is seen by her health visitor 6 weeks after giving birth. She completes a 10-item screening questionnaire about her mood and scores 16.
+?Which tool was most likely used?
+
+@h0484
+An 85 year old man was admitted with a urinary tract infection. On the second day the nurses notice he is muddled and drowsy at times. He scores 6 on the 4AT.
+?What does this score most likely show?
+
+@h0485
+An 82 year old woman had a hemiarthroplasty for a hip fracture 2 days ago. Today she is confused and agitated. She is on regular morphine and has not opened her bowels since admission.
+Temperature 37.3°C. There is a tender, dull suprapubic mass.
+?Which cause should be checked first?
+
+@h0486
+A 78 year old man with Parkinson's disease has delirium after a chest infection. He is very distressed, trying to climb out of bed and has hit a nurse. Reassurance, a quiet side room, his glasses and his family's presence have not helped.
+?Which drug is most appropriate?
+
+@h0487
+A 40 year old woman has felt low and worried for 6 weeks since her husband left. She cries at times and worries about money. She is sleeping and eating normally, still enjoys time with her children and is still working. She has no thoughts of self-harm.
+Her PHQ-9 score is 7.
+?Which is the most likely diagnosis?
+
+@h0488
+A 52 year old man was made redundant 4 weeks ago. Since then he has felt low and irritable and has trouble sleeping. He does not meet the criteria for depression and has no thoughts of self-harm.
+?Which is the most appropriate management?
+
+@h0489
+A 38 year old woman was diagnosed with adjustment disorder after a car crash. The legal case and her injuries were settled 9 months ago, but her symptoms persist. She has low mood most days and has lost interest in her hobbies.
+?Which is the most appropriate next step?
+
+@h0490
+A 30 year old man has an intense fear of being judged when eating or speaking in public. He avoids work parties and meetings and has turned down a promotion. He has no panic attacks in other situations and is comfortable with close friends.
+?Which is the most likely diagnosis?
+
+@h0491
+A 34 year old woman has a phobia of needles. She has fainted at the sight of them and has avoided blood tests for years, including the ones her GP now needs for her thyroid. She has no other anxiety problems.
+?Which is the most appropriate first treatment?
+
+@h0492
+A 28 year old man has social anxiety disorder. He has completed a course of individual CBT for social anxiety but still struggles to go to work meetings. He has no other medical problems.
+?Which drug is most appropriate first?
+
+@h0493
+A 9 year old boy has been diagnosed with ADHD and is starting methylphenidate. He has no history of heart disease and no family history of sudden cardiac death.
+?Which monitoring is most important?
+
+@h0494
+A 24 year old woman was diagnosed with ADHD after a specialist assessment. Her inattention and impulsivity are affecting her work. She has no history of heart disease, substance misuse or psychosis. Her BP is 118/74 mmHg.
+?Which drug is first line?
+
+@h0495
+A 7 year old boy is inattentive and restless at school, and his teacher thinks he has ADHD. His parents say he is calm and focused at home, at Cubs and at football. There have been no concerns from nursery.
+?Which is the most appropriate next step?
+
+@h0496
+A 9 year old boy argues with adults, refuses to follow rules and loses his temper at home and at school for a year. He deliberately annoys his sister. He has not been violent, damaged property or broken the law.
+?Which is the most likely diagnosis?
+
+@h0497
+An 8 year old boy has conduct disorder with aggression and stealing. His parents are struggling to manage his behaviour. There are no concerns about ADHD or learning difficulties.
+?Which is the most appropriate first-line treatment?
+
+@h0498
+A 13 year old boy has conduct disorder that started at age 8. He has been excluded from school for violence and has been cautioned by police for theft. His mother asks about the long-term outlook.
+?Which adult outcome is he at highest risk of?
+
+@h0499
+A 25 year old woman has an intellectual disability. She lives with support, can manage some daily tasks independently and holds a part-time job. Formal assessment shows an IQ of 60.
+?How is her intellectual disability classified?
+
+@h0500
+A 34 year old man with a severe learning disability and no speech has started hitting his head and refusing food over a week. His carers say this is new. He has had no change in his routine or carers.
+?Which should be excluded first?

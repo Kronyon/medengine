@@ -1,0 +1,256 @@
+# h1001 to h1050
+
+@h1001
+An 80 year old man with type 2 diabetes takes gliclazide 80 mg twice daily. His wife found him confused this morning. He had eaten little the day before.
+Pulse rate 88 bpm, BP 142/80 mmHg.
+Capillary glucose 2.1 mmol/L. eGFR 38 mL/min/1.73 m². He recovered fully after oral glucose and is now eating.
+?Which is the most appropriate next step?
+
+@h1002
+A 45 year old man has type 1 diabetes treated with basal-bolus insulin. He drives a car to work. He has never had a hypo while driving.
+?What is the minimum glucose level before he starts driving?
+
+@h1003
+A 58 year old woman has type 2 diabetes controlled with metformin. She feels well.
+BP 132/80 mmHg.
+Albumin to creatinine ratio 8 mg/mmol on two samples 3 months apart. eGFR 72 mL/min/1.73 m². Potassium 4.4 mmol/L.
+?Which is the most appropriate management?
+
+@h1004
+A 64 year old man with type 2 diabetes has had burning pain in both feet for 6 months that keeps him awake. Paracetamol has not helped. He has no heart disease or glaucoma.
+There is reduced sensation to monofilament and vibration in a stocking distribution. The feet are warm with good pulses and no ulcers.
+?Which is the most appropriate first-line treatment?
+
+@h1005
+A 61 year old man has type 2 diabetes with peripheral neuropathy. His right foot has been hot, red and swollen for 2 weeks. It is not very painful and he has no fever.
+The right foot is 3°C warmer than the left. The foot pulses are present. There is no ulcer or break in the skin.
+X-ray of the foot is normal. CRP 6 mg/L. White cell count 7.4 × 10⁹/L.
+?Which is the most likely diagnosis?
+
+@h1006
+A 32 year old woman has lost 6 kg in 3 months. She has a tremor, feels hot all the time and her eyes feel gritty.
+Pulse rate 112 bpm. There is a smooth goitre with a bruit. Both eyes protrude. There is thickened, raised skin on her shins.
+TSH under 0.01 mU/L. Free T4 48 pmol/L.
+?Which is the most likely diagnosis?
+
+@h1007
+A 38 year old woman with Graves' disease started carbimazole 6 weeks ago. She has had a sore throat for 2 days and feels unwell.
+Temperature 38.4°C, pulse rate 104 bpm. Her throat is red with no exudate.
+?Which is the most appropriate next step?
+
+@h1008
+A 34 year old woman with poorly controlled Graves' disease had an emergency appendicectomy this afternoon. That night she becomes agitated and vomits.
+Temperature 40°C, pulse rate 160 bpm in atrial fibrillation, BP 152/60 mmHg. She is confused and sweating. The wound looks clean. She has had no new psychiatric drugs.
+?Which is the most likely diagnosis?
+
+@h1009
+A 78 year old man with ischaemic heart disease has been tired and cold for 6 months. He has stable angina.
+Pulse rate 58 bpm.
+TSH 18 mU/L. Free T4 7 pmol/L.
+?Which is the most appropriate starting treatment?
+
+@h1010
+A 70 year old woman had thyroid function tested at a routine check. She has no symptoms. She is not pregnant or planning pregnancy and has no recent illness.
+TSH 7.2 mU/L. Free T4 14 pmol/L.
+?Which is the most appropriate next step?
+
+@h1011
+A 30 year old woman takes levothyroxine 100 micrograms daily for hypothyroidism. She has just had a positive pregnancy test. Her last TSH was normal.
+?Which is the most appropriate advice?
+
+@h1012
+A 29 year old woman has had a painless lump in her neck for 3 months. She feels well.
+There is a 2 cm firm nodule in the right lobe of the thyroid and an enlarged lymph node in the right side of the neck.
+TSH is normal. Fine needle aspiration shows nuclei with an empty ground-glass appearance and nuclear grooves.
+?Which is the most likely diagnosis?
+
+@h1013
+A 40 year old man has had a total thyroidectomy for medullary thyroid carcinoma. The team plans his follow-up.
+?Which tumour marker is most useful for follow-up?
+
+@h1014
+A 46 year old woman had a total thyroidectomy 4 hours ago. She says her neck feels tight and she is struggling to breathe.
+Respiratory rate 28 breaths per minute, SpO2 92% on oxygen. There is a rapidly expanding swelling under the wound and inspiratory stridor.
+?Which is the most appropriate immediate step?
+
+@h1015
+A 52 year old woman has had hearing loss and ringing in her right ear only for 6 months. She has no ear pain or discharge.
+Both ear drums are normal. Rinne's test is positive on both sides, and Weber's test lateralises to the left.
+Audiometry shows a right-sided sensorineural loss.
+?Which is the most appropriate investigation?
+
+@h1016
+A 58 year old woman has a vestibular schwannoma on the left. She has left-sided hearing loss and tinnitus. The tumour is slowly growing.
+?Which cranial nerve sign, besides hearing loss, tends to appear first?
+
+@h1017
+A 24 year old man has had hearing loss in both ears for a year. He had cataracts removed in his teens. His father had brain tumours.
+MRI shows bilateral vestibular schwannomas.
+?Which is the most likely diagnosis?
+
+@h1018
+A 35 year old woman woke this morning with weakness of the left side of her face. Sounds are too loud in her left ear. She has no ear pain or rash.
+There is weakness of the whole left side of the face, including the forehead. She cannot close her left eye. There are no vesicles in the ear. Limb examination is normal.
+?Which is the most likely diagnosis?
+
+@h1019
+A 40 year old man noticed weakness of the right side of his face 36 hours ago. He has no rash or ear pain.
+There is weakness of the whole right side of the face, including the forehead. He cannot close his right eye fully. The ear canal is normal.
+?Which is the most appropriate treatment?
+
+@h1020
+A 64 year old man has had a painful left ear for 3 days. Today his face is drooping on the left.
+There are vesicles in the left ear canal. There is weakness of the whole left side of the face, including the forehead.
+?Which is the most likely diagnosis?
+
+@h1021
+A 60 year old woman has had brief spells of spinning lasting under a minute for 2 weeks. They happen when she turns over in bed or looks up. She has no hearing loss or tinnitus.
+The Dix-Hallpike test is positive on the right, with rotational nystagmus towards the right ear that fades within 30 seconds. Neurological examination is otherwise normal.
+?Which is the most appropriate management?
+
+@h1022
+A 38 year old man had a cold a week ago. For 3 days he has had constant severe vertigo with nausea and vomiting. His hearing is normal and he has no tinnitus.
+There is horizontal nystagmus in one direction. The head impulse test is abnormal. There is no skew deviation. He can walk with help.
+?Which is the most likely diagnosis?
+
+@h1023
+A 66 year old man with hypertension has had continuous vertigo for 6 hours. He is vomiting and cannot walk unaided.
+The head impulse test is normal. The nystagmus changes direction with gaze. There is a vertical skew deviation on cover testing.
+?Which is the most likely cause?
+
+@h1024
+A 45 year old man has had a severe sore throat for 12 hours. He has a muffled voice and is drooling.
+Temperature 38.8°C, pulse rate 118 bpm, SpO2 95% breathing air. He is sitting forward and has soft inspiratory stridor.
+?Which is the most appropriate first step?
+
+@h1025
+A 3 year old boy has a high fever, drooling and stridor and is sitting forward. He has not had his routine immunisations.
+?Which organism classically caused epiglottitis in children before routine vaccination?
+
+@h1026
+A 4 year old boy has had a high fever and stridor for 6 hours. He is drooling. His airway is stable and has been secured by the anaesthetist.
+A lateral neck X-ray shows a swollen epiglottis that looks like a thumb.
+?Which is the most likely diagnosis?
+
+@h1027
+A 15 year old boy has had a nosebleed from his right nostril for 5 minutes. He is otherwise well and takes no medicines.
+Pulse rate 78 bpm, BP 118/72 mmHg.
+?Which is the most appropriate first aid?
+
+@h1028
+A 14 year old girl has frequent nosebleeds from one side. They stop with pressure. A medical student is asked where most nosebleeds come from.
+?From where do most nosebleeds arise?
+
+@h1029
+A 10 year old boy has recurrent nosebleeds from his left nostril. He has had silver nitrate cautery today. He has a peanut allergy.
+?Which is the most appropriate antiseptic cream?
+
+@h1030
+A 17 year old girl has had a sore throat, fever and tiredness for a week.
+Temperature 38.2°C. The tonsils are enlarged with grey-white exudate. There are tender, swollen lymph nodes at the back of her neck. The spleen tip is palpable.
+?Which is the most likely diagnosis?
+
+@h1031
+A 19 year old man had a sore throat and was given amoxicillin 2 days ago. He now has a widespread itchy red rash. He has also been very tired for a week.
+Temperature 37.9°C. There is a widespread maculopapular rash. There are tender posterior neck lymph nodes. There is no lip swelling or mucosal involvement.
+?Which is the most likely explanation?
+
+@h1032
+A 16 year old girl has had a sore throat, fever and swollen neck glands for 3 days. She is very tired.
+Temperature 38.0°C. The tonsils are enlarged and there are tender posterior neck lymph nodes.
+Monospot test is negative. Lymphocyte count is raised.
+?Which is the most appropriate next step?
+
+@h1033
+A 45 year old woman has had several attacks of spinning vertigo over 6 months, each lasting about 3 hours. During attacks she has roaring tinnitus and a full feeling in her left ear.
+Between attacks the ears look normal and neurological examination is normal.
+Audiometry shows a low-frequency sensorineural hearing loss in the left ear.
+?Which is the most likely diagnosis?
+
+@h1034
+A 52 year old man has Ménière's disease with attacks every few weeks. He wants to reduce the number of attacks.
+?Which drug is most commonly used?
+
+@h1035
+A 48 year old woman with Ménière's disease has had sudden disabling vertigo without warning twice this month. She drives a car.
+?Which is the most appropriate advice about driving?
+
+@h1036
+A 52 year old man snores loudly and his wife has seen him stop breathing at night. He falls asleep in meetings.
+BMI 34 kg/m². Neck circumference 44 cm. Epworth sleepiness score 15.
+A sleep study shows an apnoea-hypopnoea index of 34 events per hour.
+?How is his obstructive sleep apnoea classed?
+
+@h1037
+A 48 year old man has marked daytime sleepiness. He has been advised on weight loss and alcohol.
+Epworth sleepiness score 16.
+A sleep study shows moderate obstructive sleep apnoea.
+?Which is the most appropriate treatment?
+
+@h1038
+A 52 year old man is a bus driver. He has excessive daytime sleepiness and has nearly fallen asleep at the wheel. A sleep study has been requested for suspected obstructive sleep apnoea.
+Epworth sleepiness score 17.
+?Which is the most appropriate advice?
+
+@h1039
+A 25 year old woman is a keen swimmer. She has had an itchy, painful right ear with discharge for 4 days. She is otherwise well.
+Temperature 36.9°C. Pulling the pinna hurts. The ear canal is red and swollen with debris. The drum is intact. There is no spreading redness.
+?Which is the most appropriate treatment?
+
+@h1040
+A 42 year old woman used antibiotic ear drops for a week for otitis externa. Her ear is now very itchy, but less painful.
+The ear canal contains white, fluffy debris with black dots. The drum is intact.
+?Which is the most likely diagnosis?
+
+@h1041
+A 78 year old man with type 2 diabetes has had severe pain in his right ear for 6 weeks, worse at night. Antibiotic drops have not helped. His face has started to droop on the right.
+There is granulation tissue in the floor of the ear canal. There is right lower motor neurone facial weakness.
+CRP 64 mg/L.
+?Which is the most likely diagnosis?
+
+@h1042
+A 3 year old girl has had ear pain for 2 days. She is eating and drinking. She has no discharge from the ear.
+Temperature 38.0°C. The left drum is red and bulging. She is alert and well.
+?Which is the most appropriate management?
+
+@h1043
+A 4 year old boy has trouble hearing at nursery. He has had no ear pain or fever.
+Both drums are dull and retracted with no redness.
+Tympanometry shows flat traces in both ears.
+?Which is the most appropriate management?
+
+@h1044
+A 50 year old man of southern Chinese family origin has had a blocked feeling in his left ear for 2 months. He has noticed a lump in his neck. He has not had a cold.
+There is a dull left ear drum with fluid behind it. There is a hard, non-tender lymph node in the upper left neck.
+?Which is the most important cause to exclude?
+
+@h1045
+A 30 year old woman has had a blocked nose and facial pain for 5 days after a cold. She is otherwise well.
+Temperature 37.4°C. There is mild tenderness over the cheeks. There is no swelling around the eyes.
+?Which is the most appropriate management?
+
+@h1046
+A 42 year old man has had sinusitis for 12 days. It is getting worse rather than better. He is systemically well and not at high risk of complications. He has no drug allergies.
+Temperature 37.8°C. There is facial tenderness and purulent nasal discharge. There are no eye or neurological signs.
+?Which is the most appropriate first-choice antibiotic?
+
+@h1047
+A 63 year old man worked in a furniture factory for 30 years. He has had a blocked left nostril for 3 months, with bloody discharge. His left cheek is numb.
+There is reduced sensation over the left cheek.
+?Which is the most appropriate management?
+
+@h1048
+A 22 year old woman has had a sore throat for 2 days. She has no cough. She has had no fever.
+Temperature 37.2°C. The tonsils are severely inflamed with pus on both sides.
+Her FeverPAIN score is 4.
+?Which is the most appropriate management?
+
+@h1049
+A 26 year old man has bacterial tonsillitis and needs an antibiotic. He has no drug allergies. Glandular fever has not been excluded.
+Temperature 38.4°C. There is tonsillar exudate and tender anterior neck nodes. He has no cough.
+?Which is the most appropriate antibiotic?
+
+@h1050
+A 28 year old man has had a sore throat for 5 days that is getting worse on the right. He cannot open his mouth fully and is struggling to swallow his saliva.
+Temperature 38.6°C. He has a muffled voice. There is swelling above the right tonsil, and his uvula is pushed to the left. There is no stridor.
+?Which is the most likely diagnosis?

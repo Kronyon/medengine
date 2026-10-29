@@ -1,0 +1,152 @@
+# h1601 to h1632
+
+@h1601
+A 5 year old boy has suspected epiglottitis. He has not been immunised. He is drooling and sitting forward.
+Temperature 39.6°C, respiratory rate 32 breaths per minute, SpO2 94% breathing air. There is soft inspiratory stridor.
+?Which is the most appropriate first step?
+
+@h1602
+A 5 year old boy with epiglottitis has been intubated safely in theatre. He has no drug allergies.
+Blood cultures have been taken.
+?Which is the most appropriate antibiotic?
+
+@h1603
+A 46 year old woman has had attacks of spinning vertigo lasting about 3 hours. During attacks she has ringing, fullness and muffled hearing in her right ear. Between attacks she is well.
+Ear examination is normal.
+Audiometry shows a low-frequency sensorineural hearing loss on the right.
+?Which is the most likely diagnosis?
+
+@h1604
+A 46 year old woman has suspected Ménière's disease. Her hearing loss is worse on the right.
+Audiometry shows an asymmetrical sensorineural loss.
+?Which investigation is most appropriate to exclude another cause?
+
+@h1605
+A 46 year old woman is having an acute attack of Ménière's disease with vomiting. She has Parkinson's disease treated with co-careldopa.
+?Which is the most appropriate drug for the attack?
+
+@h1606
+A 6 year old girl has had a lump in the middle of her neck for 2 months. It does not hurt.
+There is a smooth midline lump just below the hyoid bone. It moves up when she sticks out her tongue.
+?Which is the most likely diagnosis?
+
+@h1607
+A 6 year old girl has a thyroglossal cyst and is listed for excision.
+?Which investigation is most important before surgery?
+
+@h1608
+A 6 year old girl needs her thyroglossal cyst removed. Ultrasound shows a normal thyroid gland in the usual place.
+?Which operation is most appropriate?
+
+@h1609
+A 2 year old boy has had a cold for 2 days. Last night he developed a barking cough and a hoarse voice.
+Temperature 37.9°C. He is alert. He has stridor only when upset, with no recession.
+?Which is the most likely diagnosis?
+
+@h1610
+A 2 year old boy with croup has become worse. He is agitated.
+Respiratory rate 48 breaths per minute, SpO2 91% breathing air. There is stridor at rest and marked recession.
+?Which is the most appropriate treatment?
+
+@h1611
+A 2 year old was playing with small toys when she suddenly choked and coughed. She now has a wheeze.
+Temperature 36.9°C, respiratory rate 32 breaths per minute, SpO2 95% breathing air. There is a wheeze on the right side only, with reduced air entry.
+?Which is the most likely diagnosis?
+
+@h1612
+A 66 year old woman has had gritty, burning eyes for months. Her lid margins are red and crusty every morning.
+Her vision is normal. The lid margins are red with crusts at the base of the lashes. The cornea is clear.
+?Which is the most likely diagnosis?
+
+@h1613
+A 66 year old woman has blepharitis with gritty eyes and crusty lids. Her vision is normal.
+?Which is the most appropriate first treatment?
+
+@h1614
+A 72 year old woman has had a painless lump on her lower eyelid for 4 months. It sometimes bleeds.
+There is a 5 mm pearly lump on the lower lid margin. Some lashes over it have fallen out.
+?Which is the most appropriate next step?
+
+@h1615
+A 34 year old man has had red, sticky eyes with crusting in the morning for 3 days. He does not wear contact lenses.
+His vision is normal. There is no pain or photophobia. There is purulent discharge and the cornea is clear.
+?Which is the most likely diagnosis?
+
+@h1616
+A 5 day old baby has red, swollen eyelids.
+There is a purulent discharge from both eyes.
+?Which is the most appropriate management?
+
+@h1617
+A 25 year old woman wears contact lenses. She has had a red, painful left eye for a day, with photophobia and blurred vision.
+Visual acuity is 6/18 in the left eye. There is redness around the cornea.
+?Which is the most appropriate next step?
+
+@h1618
+A 29 year old man has had low back stiffness for a year. He now has a painful red left eye with photophobia and blurred vision.
+The redness is worst around the cornea. The left pupil is small and irregular.
+?Which is the most likely diagnosis?
+
+@h1619
+A 29 year old man has suspected anterior uveitis. He has a painful red eye with photophobia.
+?Which is the most appropriate next step?
+
+@h1620
+A 29 year old man has anterior uveitis confirmed on slit lamp examination. There is no infection.
+?Which is the most appropriate treatment?
+
+@h1621
+A 7 year old boy had a cold last week. His right eyelid has become swollen and red over a day.
+Temperature 38.9°C. He has pain on moving the right eye. The eye bulges forward and his vision is reduced.
+?Which is the most likely diagnosis?
+
+@h1622
+A 7 year old boy has orbital cellulitis. He has been admitted and started on IV antibiotics.
+?Which is the most appropriate imaging?
+
+@h1623
+A 7 year old boy with orbital cellulitis now has a headache and is vomiting. Both eyes have become swollen.
+Temperature 39.4°C. There is swelling of both eyelids, and eye movements are reduced on both sides.
+?Which is the most likely complication?
+
+@h1624
+A 76 year old man has had gradually blurred vision in both eyes for 2 years. Oncoming headlights cause glare at night.
+Visual acuity is 6/18 in both eyes. The red reflex is dull in both eyes.
+?Which is the most likely diagnosis?
+
+@h1625
+A 76 year old man has cataracts. He has stopped driving at night and finds reading hard.
+Visual acuity is 6/18 in both eyes.
+?Which is the most appropriate management?
+
+@h1626
+A 76 year old man had cataract surgery on his left eye 3 days ago. He now has a red, painful eye and his vision is worse.
+Visual acuity is hand movements in the left eye. There is pus in the anterior chamber.
+?Which is the most likely diagnosis?
+
+@h1627
+A 78 year old woman has noticed over a week that straight door frames look bent. There is a grey patch in the centre of the vision in her right eye.
+Visual acuity is 6/24 in the right eye. The Amsler grid shows distortion.
+?Which is the most likely diagnosis?
+
+@h1628
+A 78 year old woman has suspected wet macular degeneration of her right eye.
+?How urgently should she be seen?
+
+@h1629
+A 78 year old woman has wet macular degeneration confirmed by optical coherence tomography.
+?Which is the most appropriate treatment?
+
+@h1630
+A 30 year old builder had cement splashed into his left eye 5 minutes ago. The eye is painful and red.
+?Which is the most appropriate first step?
+
+@h1631
+A 30 year old builder's left eye has been irrigated after a cement splash.
+Conjunctival pH 7.4. Visual acuity 6/9 in the left eye.
+?Which result shows that irrigation is complete?
+
+@h1632
+A 25 year old man was punched in the right eye. He has double vision on looking up.
+There is bruising around the right eye. Upward gaze is limited on the right. There is numbness of the right cheek and upper lip.
+?Which is the most likely diagnosis?

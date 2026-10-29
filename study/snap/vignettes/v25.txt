@@ -1,0 +1,268 @@
+# h1251 to h1300
+
+@h1251
+A 40 year old man has a severe learning disability and no speech. He lives in a supported home. Over a week he has started banging his head and refusing food. Staff say this is new.
+He is distressed. Temperature 37.4°C, pulse rate 102 bpm. A full examination has not been possible.
+?Which is the most appropriate first step?
+
+@h1252
+A 34 year old man has had severe pain behind his right eye for 3 weeks. It wakes him at the same time every night and lasts about 45 minutes. He cannot keep still and paces around the room.
+During an attack his right eye waters, the right eyelid droops and his nose runs. Between attacks examination is normal.
+?Which is the most likely diagnosis?
+
+@h1253
+A 28 year old woman with asthma has migraine on about 6 days a month. She wants a preventive treatment. She is not using contraception and may become pregnant.
+BP 118/74 mmHg. Neurological examination is normal.
+?Which is the most appropriate choice?
+
+@h1254
+A 74 year old woman has had a new headache over her right temple for 2 weeks. Her jaw aches when she chews. Today her vision in the left eye became suddenly blurred.
+There is a tender, thickened right temporal artery. Visual acuity is 6/36 in the left eye.
+ESR 88 mm/hour. CRP 96 mg/L.
+?Which is the most appropriate immediate step?
+
+@h1255
+A 26 year old man was admitted after a head injury. He was alert on arrival, but his GCS has now fallen to 8.
+BP has risen to 190/100 mmHg and his pulse rate has fallen to 46 bpm. His breathing has become irregular.
+?What do these signs show?
+
+@h1256
+A 27 year old woman has had headaches for 3 months that are worse lying down. She sometimes has brief blurring of vision when she stands up.
+BMI 36 kg/m². There is bilateral papilloedema. Neurological examination is otherwise normal.
+MRI brain and MR venography are normal. Lumbar puncture opening pressure is 34 cm of CSF, with normal CSF contents.
+?Which is the most appropriate drug, alongside weight loss?
+
+@h1257
+A 40 year old man has had a headache and fever for a day. His wife says he has become drowsy and confused.
+Temperature 39.2°C, pulse rate 118 bpm, BP 132/76 mmHg. GCS 10. There is neck stiffness and papilloedema.
+Blood cultures have been taken.
+?Which is the most appropriate order of actions?
+
+@h1258
+A 49 year old woman was at the gym when she had a sudden, severe headache that peaked within a minute. She says it is the worst headache of her life. She has vomited.
+Temperature 37.1°C. BP 168/94 mmHg. GCS 15. There is neck stiffness. There are no focal neurological signs.
+?Which is the most likely diagnosis?
+
+@h1259
+A 52 year old woman has a subarachnoid haemorrhage. CT angiography shows a berry aneurysm, which is to be coiled.
+?Which drug is given to prevent delayed ischaemia?
+
+@h1260
+A 48 year old man had a subarachnoid haemorrhage 5 days ago. He has become more drowsy.
+He is clinically dehydrated with dry mucous membranes. BP 104/62 mmHg.
+Sodium 126 mmol/L. Urine sodium is high. Urine output is high.
+?Which is the most appropriate management?
+
+@h1261
+An 81 year old man drinks heavily and has fallen several times. Over 3 weeks he has become more confused and drowsy, worse on some days than others.
+He has a mild right-sided weakness.
+CT head shows a crescent-shaped collection over the left hemisphere.
+?Which is the most likely diagnosis?
+
+@h1262
+A 20 year old man was hit on the side of the head with a cricket ball. He was knocked out briefly, recovered and was chatting normally. An hour later he collapsed.
+GCS 7. The right pupil is dilated.
+CT head shows a biconvex collection that does not cross the suture lines.
+?Which vessel is most likely to be bleeding?
+
+@h1263
+A 79 year old woman takes warfarin for atrial fibrillation. She fell and hit her head. She is now drowsy.
+GCS 13.
+CT head shows an acute subdural haematoma. INR 3.4.
+?Which is the most appropriate reversal?
+
+@h1264
+A GP sees an 18 year old student with fever, drowsiness and a rash. An ambulance has been called.
+Temperature 39.2°C, pulse rate 128 bpm. There is a non-blanching purpuric rash on the legs.
+?Which is the most appropriate immediate step?
+
+@h1265
+A 38 year old man has had a headache, fever and night sweats for 3 weeks. He has become confused. He recently arrived from Somalia.
+Temperature 38.0°C. There is neck stiffness and a left sixth nerve palsy.
+Lumbar puncture: CSF white cells 300 per mm³, mainly lymphocytes. CSF protein 2.5 g/L. CSF to blood glucose ratio 0.3.
+?Which is the most likely diagnosis?
+
+@h1266
+A 72 year old man has fever, headache and neck stiffness. He is confused. Bacterial meningitis is suspected and IV ceftriaxone has been given.
+Temperature 39.0°C, pulse rate 112 bpm.
+?Which drug should be added to cover his age group?
+
+@h1267
+A 54 year old woman has had fever, confusion and odd behaviour for 2 days. This morning she had a seizure.
+Temperature 38.6°C. She is disorientated. There is no rash and no neck stiffness.
+CT head is normal. Lumbar puncture has been done.
+?Which is the most appropriate immediate treatment?
+
+@h1268
+A 46 year old man has fever, confusion and seizures. CSF PCR confirms herpes simplex encephalitis.
+?Where on MRI are the changes most likely to be?
+
+@h1269
+A 23 year old woman has had new psychotic symptoms for 2 weeks. She has now had seizures and odd mouth movements, and her blood pressure fluctuates.
+Temperature 37.9°C. She is agitated and confused.
+CSF shows a mild lymphocytosis. HSV PCR is negative. MRI brain is normal. Pelvic ultrasound shows an ovarian mass.
+?Which is the most likely diagnosis?
+
+@h1270
+A 34 year old man had a dental abscess 3 weeks ago. For a week he has had fever and a headache, and now his right arm is weak.
+Temperature 38.2°C. There is weakness of the right arm.
+CT head with contrast shows a ring-enhancing lesion in the left frontal lobe with surrounding swelling.
+?Which is the most likely diagnosis?
+
+@h1271
+A 42 year old woman has fever, headache and left-sided weakness. CT head shows a brain abscess with surrounding swelling.
+?Which investigation should be avoided?
+
+@h1272
+A 36 year old man has fever, headache and word-finding difficulty. CT shows a brain abscess in the left temporal lobe. He has had a discharging left ear for months.
+?Which is the most likely source?
+
+@h1273
+A 19 year old woman has had two generalised tonic-clonic seizures in 3 months. She is not planning pregnancy but could become pregnant.
+Neurological examination is normal.
+EEG shows generalised spike and wave. MRI brain is normal.
+?Which is the most appropriate first-line drug?
+
+@h1274
+An 8 year old girl has brief staring spells many times a day. Her teacher says she stops mid-sentence and then carries on as if nothing happened.
+Hyperventilation in clinic brings on a spell.
+EEG shows 3 Hz generalised spike and wave.
+?Which is the most appropriate first-line drug?
+
+@h1275
+A 32 year old man with epilepsy has been having a generalised tonic-clonic seizure for 5 minutes in the emergency department. He has IV access.
+Capillary glucose 5.8 mmol/L. SpO2 92% on high-flow oxygen.
+?Which is the most appropriate first drug?
+
+@h1276
+A 61 year old man has had weakness of both hands for 6 months. He keeps dropping things.
+There is wasting of the small muscles of both hands with fasciculations. The leg reflexes are brisk and the right plantar is upgoing. Sensation is normal. Eye movements are normal. He has no bladder problems.
+?Which is the most likely diagnosis?
+
+@h1277
+A 58 year old man has been diagnosed with amyotrophic lateral sclerosis. He asks if any drug can help.
+?Which drug can modestly prolong survival?
+
+@h1278
+A 64 year old woman with motor neurone disease has had morning headaches, poor sleep and daytime sleepiness for a month.
+Respiratory rate 22 breaths per minute, SpO2 94% breathing air. She uses accessory muscles.
+FVC is 48% of predicted. Morning venous bicarbonate 32 mmol/L.
+?Which is the most appropriate intervention?
+
+@h1279
+A 56 year old woman has found it harder to climb stairs and get out of a chair for 2 months.
+There is weakness of the shoulders and hips. There is a purple rash on her eyelids and scaly red papules over her knuckles.
+Creatine kinase 2400 IU/L.
+?Which is the most likely diagnosis?
+
+@h1280
+A 65 year old man takes atorvastatin 80 mg. He has had aching thighs for 3 weeks.
+There is mild tenderness of the thigh muscles with normal power.
+Creatine kinase is 10 times the upper limit of normal. Thyroid function and creatinine are normal.
+?Which is the most appropriate management?
+
+@h1281
+A 46 year old woman with myasthenia gravis is admitted with worsening weakness and difficulty swallowing over 2 days.
+Respiratory rate 22 breaths per minute, SpO2 97% breathing air. Her voice is weak.
+?Which measure is most important to monitor her breathing?
+
+@h1282
+A 34 year old man sits with his legs crossed for long periods at work. He has noticed his right foot slapping when he walks.
+Dorsiflexion and eversion of the right foot are weak. Inversion is normal. There is numbness over the top of the foot. The ankle reflex is normal.
+?Which nerve is affected?
+
+@h1283
+A 34 year old woman has had weakness that started in her feet 5 days ago and has spread to her thighs. She has tingling in her toes. She had diarrhoea 2 weeks ago.
+There is weakness of both legs. The reflexes are absent. Sensation is mildly reduced in the feet. FVC is 3.1 litres.
+?Which is the most likely diagnosis?
+
+@h1284
+A 28 year old man cut his wrist on glass. A medical student is asked how the level of an ulnar nerve injury changes the hand posture.
+?Which nerve lesion produces the most marked clawing of the ring and little fingers?
+
+@h1285
+A 74 year old woman has had breathlessness on exertion, orthopnoea and ankle swelling for 2 months. She has hypertension.
+Pulse rate 92 bpm, BP 148/88 mmHg. The JVP is raised. There are fine bibasal crackles and pitting oedema to the shins.
+ECG shows left ventricular hypertrophy.
+?Which test decides how quickly she needs an echocardiogram?
+
+@h1286
+A 79 year old man has had breathlessness and ankle swelling for 6 weeks. Heart failure is suspected.
+There are bibasal crackles and pitting oedema.
+NT-proBNP 2,600 ng/L.
+?Within what time should he have specialist assessment and an echocardiogram?
+
+@h1287
+A 70 year old woman has heart failure with an ejection fraction of 30%. She takes ramipril, bisoprolol, spironolactone and dapagliflozin. She has new episodes of palpitations, and another drug is being considered.
+?Which new drug is most likely to make her heart failure worse?
+
+@h1288
+An 81 year old man has fainted twice while walking his dog. He also gets chest tightness on exertion.
+There is a slow-rising pulse. There is an ejection systolic murmur that radiates to the carotids, and the second heart sound is quiet. BP 118/84 mmHg.
+?Which is the most likely diagnosis?
+
+@h1289
+A 38 year old man who injects heroin has had fever and ankle swelling for 2 weeks.
+Temperature 38.4°C. The JVP shows giant v waves. There is a pansystolic murmur loudest at the left lower sternal edge that gets louder on inspiration. The liver is pulsatile.
+?Which valve lesion is most likely?
+
+@h1290
+An 86 year old woman has severe aortic stenosis. She gets breathless walking a few metres and has had chest pain. She is frail. The heart team judges her too high risk for open surgery.
+Echocardiogram shows a mean gradient of 52 mmHg and a valve area of 0.7 cm².
+?Which is the most appropriate management?
+
+@h1291
+A 32 year old man who injects drugs has had fever and breathlessness for a week.
+Temperature 39.4°C, pulse rate 118 bpm. There is a new pansystolic murmur at the left lower sternal edge. There are track marks on his arms.
+Chest X-ray shows several round shadows in both lungs suggesting septic emboli.
+?Which organism is most likely?
+
+@h1292
+A 67 year old woman had a mechanical aortic valve replacement 6 weeks ago. She now has a fever and feels unwell.
+Temperature 38.6°C. There is a new early diastolic murmur.
+Blood cultures have been sent.
+?Which organism is most likely?
+
+@h1293
+A 70 year old man is being treated for infective endocarditis of the mitral valve. All 3 sets of blood cultures grew Streptococcus gallolyticus. He has no bowel symptoms.
+?Which further investigation is most important?
+
+@h1294
+A 68 year old ex-smoker has been breathless for a month and has lost weight. He has no fever.
+There is dullness to percussion and reduced breath sounds at the right base.
+Chest X-ray shows a new right-sided pleural effusion.
+?Which is the most appropriate next investigation?
+
+@h1295
+A 55 year old man has pneumonia and has been on antibiotics for 4 days. His fever has not settled.
+Temperature 38.6°C. There is dullness at the left base.
+Ultrasound shows a left pleural effusion. Diagnostic aspiration under ultrasound gives cloudy fluid with a pH of 7.08.
+?Which is the most appropriate management?
+
+@h1296
+A 72 year old woman has a right pleural effusion. A diagnostic tap is done.
+Pleural fluid protein 30 g/L. Serum protein 50 g/L. Pleural fluid LDH 160 IU/L. Serum LDH 200 IU/L, with an upper limit of normal of 230 IU/L.
+?Which is the best interpretation?
+
+@h1297
+A 34 year old woman has heavy periods and has been tired for 3 months. She eats meat and has no bowel symptoms.
+She is pale.
+Haemoglobin 92 g/L. MCV 70 fL. Ferritin 6 µg/L.
+?Which is the most likely diagnosis?
+
+@h1298
+A 67 year old man has been tired for 2 months. He has no gut symptoms and no weight loss.
+He is pale. Abdominal and rectal examination are normal.
+Haemoglobin 98 g/L. MCV 72 fL. Ferritin 5 µg/L. Coeliac serology is negative.
+?Which is the most appropriate next step?
+
+@h1299
+A 71 year old man had a non-ST elevation myocardial infarction 3 days ago. He is on a surgical ward after a fall. He has no active bleeding and no chest pain.
+Pulse rate 88 bpm, BP 124/72 mmHg.
+Haemoglobin 78 g/L.
+?Which is the most appropriate management?
+
+@h1300
+A 28 year old man was stabbed in the right side of his chest 10 minutes ago. He is very breathless.
+Respiratory rate 36 breaths per minute, SpO2 84% on high-flow oxygen. Pulse rate 135 bpm, BP 78/40 mmHg. The trachea is deviated to the left. There are absent breath sounds and a hyper-resonant percussion note on the right. The neck veins are distended.
+?Which is the most appropriate immediate step?

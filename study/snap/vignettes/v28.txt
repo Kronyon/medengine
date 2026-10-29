@@ -1,0 +1,230 @@
+# h1401 to h1450
+
+@h1401
+A 64 year old woman had a tissue mitral valve replacement 8 years ago. For 3 months she has been increasingly breathless on exertion. She has had no fever.
+Temperature 36.8°C. There is a new pansystolic murmur at the apex.
+Blood cultures are negative.
+?Which is the most likely cause?
+
+@h1402
+A 68 year old man had weakness of his right hand and difficulty speaking for 20 minutes yesterday. He has fully recovered.
+Carotid Doppler shows 75% stenosis of the left internal carotid artery.
+?Which is the most appropriate management?
+
+@h1403
+A 70 year old man is being consented for a carotid endarterectomy. He asks about nerve damage.
+?Which nerve is most at risk during carotid endarterectomy?
+
+@h1404
+A 72 year old man had a carotid endarterectomy 6 hours ago. He says his neck feels tight.
+Respiratory rate 28 breaths per minute, SpO2 91% on oxygen. There is a large, tense swelling in the neck and inspiratory stridor.
+?Which is the most appropriate first step?
+
+@h1405
+A 74 year old man has a 6 cm abdominal aortic aneurysm. He is fit for surgery, and his anatomy is suitable for both open repair and EVAR.
+?Which is a key advantage of EVAR?
+
+@h1406
+A 78 year old man had an endovascular aneurysm repair 4 years ago. A routine CT shows the aneurysm sac has grown.
+CT shows blood still flowing into the aneurysm sac around the graft.
+?What is this called?
+
+@h1407
+A 72 year old man had an open repair of an abdominal aortic aneurysm 2 days ago. He now has bloody diarrhoea and left-sided abdominal pain.
+Pulse rate 112 bpm, BP 108/64 mmHg. There is tenderness in the left side of the abdomen.
+Lactate 4.2 mmol/L.
+?Which is the most likely cause?
+
+@h1408
+A 28 year old man has a large pneumothorax that needs a chest drain. You are marking the insertion site in the safe triangle.
+?Where is a chest drain inserted?
+
+@h1409
+You are inserting a chest drain in the safe triangle. You are about to make the blunt dissection through the intercostal muscles.
+?Where should the drain pass in relation to the rib?
+
+@h1410
+A 34 year old man has had a chest drain for a pneumothorax for 2 days. The drain has stopped bubbling and the fluid level does not swing with breathing.
+He is comfortable. SpO2 97% breathing air.
+?Which is the most likely explanation?
+
+@h1411
+A 62 year old woman has metastatic breast cancer with a malignant pleural effusion. It has come back after two aspirations. She wants to spend as little time in hospital as possible. Her lung re-expanded fully after the last aspiration.
+?Which is the most appropriate option?
+
+@h1412
+A 72 year old man has a large malignant pleural effusion. He is having a therapeutic pleural aspiration for breathlessness.
+?How much fluid should be removed at once?
+
+@h1413
+A 24 year old man has had a second spontaneous pneumothorax on the right. It has been drained, and the lung has re-expanded.
+?Which is the most appropriate definitive treatment?
+
+@h1414
+A respiratory registrar is deciding between CPAP and BiPAP for several patients.
+?When is CPAP rather than BiPAP the right choice?
+
+@h1415
+A 26 year old man has had a head injury. He has noisy, snoring breathing.
+GCS 7. SpO2 91% on high-flow oxygen.
+?Which is the most appropriate airway management?
+
+@h1416
+A 64 year old woman has a tracheostomy after a long ICU stay. She is now in respiratory distress, and the tube may be blocked.
+Respiratory rate 32 breaths per minute, SpO2 86%. A suction catheter will not pass.
+Oxygen has been applied to the face and the tracheostomy.
+?Which is the first step?
+
+@h1417
+A 42 year old woman has had four episodes of biliary colic in 6 months. She is otherwise well.
+Ultrasound shows several gallstones with a normal gallbladder wall and a normal bile duct. Liver tests are normal.
+?Which is the most appropriate treatment?
+
+@h1418
+A 48 year old woman had a laparoscopic cholecystectomy 3 days ago. She now has right upper quadrant pain and a fever.
+Temperature 38.2°C, pulse rate 104 bpm. There is right upper quadrant tenderness.
+Bilirubin 48 µmol/L and rising. Ultrasound shows a fluid collection in the gallbladder bed.
+?Which is the most likely complication?
+
+@h1419
+A 22 year old man has a laparoscopy for suspected appendicitis. During surgery the appendix looks normal.
+?What is usually done?
+
+@h1420
+A 68 year old man has iron deficiency anaemia. Colonoscopy shows a cancer at the hepatic flexure. Staging CT shows no metastases.
+?Which operation is most appropriate?
+
+@h1421
+A 54 year old man has a stoma. It is in the right iliac fossa, spouted, with liquid output.
+?Which type of stoma is it most likely to be?
+
+@h1422
+A 58 year old man had an ileostomy formed 10 days ago. His stoma output is 2.5 litres a day. He is thirsty and drinking lots of water.
+Pulse rate 104 bpm, BP 102/64 mmHg.
+Sodium 131 mmol/L. Creatinine 148 µmol/L, previously 82 µmol/L.
+?Which is the most appropriate management?
+
+@h1423
+A 70 year old man has a lump in his right groin that he noticed 3 months ago. It does not hurt.
+There is a reducible right inguinal hernia that is not tender.
+?Which is the most appropriate management?
+
+@h1424
+A 64 year old man has had pain in his left groin for 8 hours. He has vomited several times.
+Pulse rate 112 bpm. There is a tender, red, irreducible lump in the left groin. The abdomen is distended.
+?Which is the most appropriate management?
+
+@h1425
+A 44 year old man had an open inguinal hernia repair with mesh 6 weeks ago. He has burning pain in his right groin and upper inner thigh.
+There is numbness over the upper inner thigh. There is no lump or swelling. The wound has healed.
+?Which is the most likely cause?
+
+@h1426
+A 56 year old man with alcohol-related cirrhosis vomited blood. He has been given terlipressin and IV antibiotics and is now stable. Endoscopy shows bleeding oesophageal varices.
+?Which is the most appropriate endoscopic treatment?
+
+@h1427
+A 58 year old man had a TIPS procedure for refractory ascites a week ago. He has become confused and drowsy.
+There is a flapping tremor. He has no fever and the abdomen is soft.
+?Which is the most likely complication?
+
+@h1428
+A 62 year old man with cirrhosis has tense ascites. He has 6 litres drained in one session.
+?Which should be given?
+
+@h1429
+A 72 year old man is having a TURP under spinal anaesthesia, with glycine irrigation. After an hour he becomes confused and restless.
+Pulse rate 48 bpm, BP 168/96 mmHg.
+Sodium 120 mmol/L.
+?Which is the most likely cause?
+
+@h1430
+A 68 year old man had a TURP 3 months ago. His flow is much better. He notices little or no semen when he ejaculates.
+?Which is the most likely cause?
+
+@h1431
+A 44 year old man has a 9 mm stone in his upper ureter. It has not passed after 4 weeks of tamsulosin. His pain is controlled and he has no infection.
+?Which is the most appropriate treatment?
+
+@h1432
+A 56 year old woman has a 2 cm breast cancer. The axilla is clinically normal, and axillary ultrasound is normal.
+?How is the axilla assessed?
+
+@h1433
+A 52 year old woman has had a wide local excision for a 2 cm breast cancer with clear margins.
+?Which treatment is usually added?
+
+@h1434
+A 54 year old woman had an axillary clearance 2 weeks ago. Her shoulder blade sticks out when she pushes against a wall.
+?Which nerve has been damaged?
+
+@h1435
+A 72 year old woman has had right-sided weakness and aphasia since 4 hours ago. CT shows no bleed. CT angiography shows a blocked left internal carotid artery.
+Her NIHSS score is 18.
+?Which treatment is most appropriate alongside thrombolysis?
+
+@h1436
+A 24 year old man has a ventriculoperitoneal shunt for hydrocephalus. He has had headache, vomiting and drowsiness for a day.
+GCS 13. There is no fever or neck stiffness.
+?Which is the most likely cause?
+
+@h1437
+An 80 year old man has been confused with right arm weakness for 3 weeks after a fall.
+CT shows a chronic subdural haematoma over the left hemisphere with midline shift.
+?Which is the most appropriate surgical treatment?
+
+@h1438
+An 82 year old woman fell at home and has a displaced intracapsular neck of femur fracture. Before the fall she walked outdoors independently with a stick. She has no cognitive impairment and is otherwise fit.
+?Which operation is most appropriate?
+
+@h1439
+A 76 year old man fell and broke his left hip.
+X-ray shows an extracapsular intertrochanteric fracture that is stable.
+?Which fixation is most appropriate?
+
+@h1440
+An 84 year old woman is admitted with a hip fracture. She has been given a fascia iliaca block. The orthopaedic team is planning her surgery.
+?Within what time should hip fracture surgery happen?
+
+@h1441
+An ENT surgeon is reviewing children with recurrent sore throats for tonsillectomy.
+?Which history meets the criteria for tonsillectomy?
+
+@h1442
+A 7 year old boy had a tonsillectomy a week ago. He now has fresh bleeding from his mouth.
+Temperature 37.9°C, pulse rate 118 bpm. There is fresh blood in the tonsil bed.
+?Which is the most likely cause?
+
+@h1443
+A 5 year old girl has had grommets inserted for glue ear. Her parents ask whether she can go swimming.
+?Which advice is usually given about swimming?
+
+@h1444
+A 32 year old man was punched in the left eye. His eye is painful and his vision is getting worse.
+Visual acuity is 6/36 in the left eye and falling. The eye is tense and bulging. There is a left relative afferent pupillary defect.
+?Which is the most appropriate immediate treatment?
+
+@h1445
+A 74 year old man had cataract surgery on his right eye 3 days ago. He now has a painful red eye and his vision is worse.
+Visual acuity is hand movements in the right eye. There is pus in the anterior chamber.
+?Which is the most likely diagnosis?
+
+@h1446
+A 56 year old man had a vitrectomy with a gas bubble for retinal detachment. He is going home and plans a holiday abroad.
+?Which is the most important advice?
+
+@h1447
+A 66 year old woman has a 6 mm nodular basal cell carcinoma on her back. It has clear edges and has not been treated before.
+?Which margin is usually taken when excising a low-risk basal cell carcinoma?
+
+@h1448
+A 46 year old woman has a pigmented mole on her leg that has changed in shape and colour. Melanoma is suspected.
+?Which is the most appropriate first step?
+
+@h1449
+A dermatologist is choosing treatment for several skin lesions in a clinic.
+?Which lesion should not be treated with cryotherapy?
+
+@h1450
+A 34 year old man has had low mood and poor motivation for 3 months. His depression is moderate. He wants a talking therapy rather than medication.
+?Which therapy is first-line?

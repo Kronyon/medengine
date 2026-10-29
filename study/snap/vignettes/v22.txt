@@ -1,0 +1,266 @@
+# h1101 to h1150
+
+@h1101
+A 24 year old woman has had bloody diarrhoea and crampy abdominal pain for 2 days. She visited a petting farm 3 days before it started.
+Temperature 37.6°C, pulse rate 92 bpm, BP 116/74 mmHg. There is mild lower abdominal tenderness.
+Stool culture grows Escherichia coli O157. Creatinine and platelets are normal.
+?Which is the most appropriate management?
+
+@h1102
+A 27 year old woman has had rectal bleeding and urgency for 3 weeks. She opens her bowels 3 times a day and feels well.
+Temperature 36.8°C, pulse rate 76 bpm.
+Haemoglobin 128 g/L. CRP 6 mg/L. Sigmoidoscopy and biopsy show mild ulcerative colitis confined to the rectum.
+?Which is the most appropriate first treatment to induce remission?
+
+@h1103
+A 31 year old man with ulcerative colitis has had 8 bloody stools a day for 4 days despite oral mesalazine.
+Temperature 38.1°C, pulse rate 104 bpm, BP 118/72 mmHg. The abdomen is soft, with mild tenderness and no distension.
+Haemoglobin 101 g/L. CRP 68 mg/L. Abdominal X-ray shows no colonic dilatation.
+?Which is the most appropriate management?
+
+@h1104
+A 24 year old man with Crohn's disease has had two flares this year that needed steroids. He is to start azathioprine to maintain remission.
+?Which test should be done first?
+
+@h1105
+A 46 year old man with alcohol dependence has eaten almost nothing for 10 days. He is admitted and feeding is about to start.
+BMI 15.5 kg/m².
+Potassium 3.4 mmol/L. Phosphate 0.7 mmol/L. Magnesium 0.6 mmol/L.
+?Which electrolyte is most likely to fall dangerously after feeding starts?
+
+@h1106
+A 23 year old woman with anorexia nervosa is admitted to a medical ward. She has eaten very little for 2 weeks. A dietitian is planning her nutrition.
+BMI 15 kg/m².
+Potassium 3.3 mmol/L. Phosphate 0.8 mmol/L.
+?Which is the maximum starting energy intake?
+
+@h1107
+A 70 year old man lives alone and eats only tea and biscuits. He has noticed bleeding gums and bruising.
+There are swollen, bleeding gums, bruises on his legs, corkscrew hairs and bleeding around the hair follicles.
+Clotting screen and platelets are normal.
+?Which deficiency is most likely?
+
+@h1108
+A 52 year old man drinks about 60 units of alcohol a week. He has had pale, offensive stools that float and are hard to flush for 3 months. He has recurrent epigastric pain going through to his back. He has lost 6 kg.
+BMI 19 kg/m².
+HbA1c 54 mmol/mol, newly raised. Coeliac serology is negative.
+?Which test best supports the likely cause of his steatorrhoea?
+
+@h1109
+A 39 year old woman had her terminal ileum removed for Crohn's disease 6 months ago. She has had watery diarrhoea since. Her Crohn's is otherwise quiet.
+Faecal calprotectin 40 µg/g. SeHCAT retention 5% at 7 days.
+?Which is the most appropriate treatment?
+
+@h1110
+A 51 year old man has had diarrhoea and weight loss for 6 months, with pains in several joints. His skin has darkened and his wife says his memory is getting worse.
+There is generalised lymphadenopathy and skin hyperpigmentation.
+Albumin 26 g/L. Duodenal biopsy shows macrophages that stain PAS-positive.
+?Which is the most likely diagnosis?
+
+@h1111
+A 29 year old woman has had bloating and loose stools for a year. She eats a normal diet that includes gluten.
+Haemoglobin 104 g/L. MCV 74 fL. Ferritin 8 µg/L.
+?Which is the most appropriate first test for coeliac disease?
+
+@h1112
+A 33 year old man stopped eating gluten 3 months ago because he felt better without it. He wants to know whether he has coeliac disease.
+His IgA tTG is now normal.
+?Which is the most appropriate next step?
+
+@h1113
+A 38 year old woman with coeliac disease has had an intensely itchy rash for a month. She has not been sticking to her gluten-free diet.
+There are grouped, small blisters and excoriations on her elbows, knees and buttocks.
+?Which is the most likely diagnosis?
+
+@h1114
+A 26 year old woman has had abdominal pain for 8 months. It is relieved by opening her bowels. She has bloating and her stools alternate between loose and hard. She has no weight loss, bleeding or night symptoms and no family history of bowel cancer.
+Abdominal examination is normal.
+?Which test is part of the first-line assessment?
+
+@h1115
+A 34 year old man with irritable bowel syndrome still has abdominal pain despite mebeverine and a laxative for 3 months. He has no low mood.
+?Which is the most appropriate next drug?
+
+@h1116
+A 29 year old man has had loose stools 4 times a day for 3 months. He has no blood in the stool and has not lost weight.
+Abdominal examination is normal.
+Faecal calprotectin 320 µg/g. Coeliac serology is negative. Stool culture is negative.
+?Which is the most appropriate next step?
+
+@h1117
+A 72 year old woman has had chest discomfort and fullness after eating for a year.
+Barium swallow shows the gastric fundus lying beside the oesophagus in the chest, while the gastro-oesophageal junction stays below the diaphragm.
+?Which is the most likely diagnosis?
+
+@h1118
+A 79 year old woman has long-standing reflux. She has a chest X-ray for a cough.
+Chest X-ray shows a gas shadow with an air-fluid level behind the heart. The lung fields are clear.
+?Which is the most likely cause?
+
+@h1119
+An 81 year old woman has a large rolling hiatus hernia. She has had sudden severe epigastric pain for 2 hours. She retches but brings nothing up.
+Pulse rate 118 bpm, BP 104/66 mmHg. There is epigastric distension and tenderness. A nasogastric tube cannot be passed.
+ECG shows sinus tachycardia only.
+?Which is the most likely diagnosis?
+
+@h1120
+A 38 year old man has had heartburn after large meals and when lying flat for 2 months. He has no weight loss, difficulty swallowing, vomiting or anaemia.
+BMI 29 kg/m². Abdominal examination is normal.
+?Which is the most appropriate management?
+
+@h1121
+A 58 year old man has had reflux for many years. Endoscopy shows a 2 cm segment of Barrett's oesophagus. Biopsies show no dysplasia.
+?Which is the most appropriate management?
+
+@h1122
+A 34 year old woman has had difficulty swallowing both solids and liquids for a year, from the start. She regurgitates undigested food at night and has lost 4 kg.
+Barium swallow shows a dilated oesophagus with a bird's beak narrowing at the lower end. Endoscopy shows no tumour.
+?Which test confirms the diagnosis?
+
+@h1123
+A 44 year old woman has had dyspepsia for 2 months. She has no weight loss, difficulty swallowing or bleeding. She has no drug allergies.
+Abdominal examination is normal.
+H. pylori stool antigen test is positive.
+?Which is the most appropriate treatment?
+
+@h1124
+A 50 year old man has dyspepsia and takes omeprazole 20 mg daily. He wants to be tested for H. pylori with a urea breath test. He has not had antibiotics recently.
+?Which is the most appropriate advice before the test?
+
+@h1125
+A 59 year old man with alcohol-related cirrhosis has vomited fresh blood twice in an hour.
+Pulse rate 118 bpm, BP 92/60 mmHg. He has spider naevi and ascites.
+Haemoglobin 82 g/L. Platelets 64 × 10⁹/L. Two large-bore cannulas are in and fluids have started.
+?Which is the most appropriate drug treatment before endoscopy?
+
+@h1126
+A 68 year old man has had a weak stream, hesitancy and dribbling for a year. The symptoms bother him. He has no haematuria and his bladder is not palpable.
+Rectal examination shows a smoothly enlarged prostate.
+PSA is normal for his age. Urine dipstick is normal.
+?Which is the most appropriate first drug?
+
+@h1127
+A 70 year old man has taken finasteride for benign prostatic enlargement for a year. He has a routine PSA test.
+PSA 2.5 ng/mL.
+?How should this result be interpreted?
+
+@h1128
+A 28 year old man has had a slow, spraying stream for 6 months. He was treated for gonorrhoea a year ago.
+Rectal examination shows a normal prostate.
+A urine flow test shows a flat, box-shaped curve with a low maximum flow.
+?Which is the most likely diagnosis?
+
+@h1129
+A 66 year old man has nocturia. He is otherwise well.
+Rectal examination shows a hard, irregular prostate.
+PSA 3 ng/mL.
+?Which is the most appropriate next step?
+
+@h1130
+A 64 year old man is seen in the urology clinic after a raised PSA on two tests. Rectal examination shows a smoothly enlarged prostate.
+PSA 8.2 ng/mL.
+?Which is the most appropriate first investigation?
+
+@h1131
+A 72 year old man has prostate cancer with bone metastases in his spine. He has back pain but no neurological signs. He is about to start goserelin.
+?Which drug should be given first?
+
+@h1132
+A 67 year old man has passed blood in his urine on three occasions over a week. It is painless. He smoked for 40 years and worked in a dye factory.
+Abdominal examination is normal.
+Urine culture is negative.
+?Which is the most likely diagnosis?
+
+@h1133
+A 62 year old woman has a urine dipstick positive for blood on two occasions. She has no pain.
+Urine culture is negative. White cell count 13.2 × 10⁹/L.
+?Which is the most appropriate management?
+
+@h1134
+A 68 year old man has had a transurethral resection of a bladder tumour. Histology shows high-grade non-muscle-invasive bladder cancer.
+?Which further treatment is most appropriate?
+
+@h1135
+A 62 year old man has had visible haematuria for a week and a swelling on the left side of his scrotum for a month.
+There is a left-sided scrotal swelling like a bag of worms that does not empty when he lies down. There is a mass in the left flank.
+?Which is the most likely diagnosis?
+
+@h1136
+A 64 year old man has a mass in his right flank. He does not smoke and has no lung disease.
+SpO2 98% breathing air. There is a ballotable right flank mass.
+Haemoglobin 195 g/L. White cell count and platelets are normal.
+?Which is the most likely explanation for his haemoglobin?
+
+@h1137
+A 28 year old man has had headaches and unsteadiness. His father died of a kidney cancer at 40.
+MRI head shows a cerebellar haemangioblastoma. CT abdomen shows tumours in both kidneys.
+?Which is the most likely diagnosis?
+
+@h1138
+A 38 year old man has had severe colicky pain from his left loin to his groin for 2 hours. He is rolling around. He has no drug allergies.
+Temperature 36.9°C, pulse rate 102 bpm, BP 142/88 mmHg.
+Urine dipstick shows blood. Creatinine 78 µmol/L.
+?Which is the most appropriate first analgesia?
+
+@h1139
+A 42 year old man has renal colic. His pain is controlled with an NSAID. He has no fever.
+Temperature 36.8°C.
+CT KUB shows a 7 mm stone in the distal left ureter with mild hydronephrosis. White cell count and creatinine are normal.
+?Which is the most appropriate management?
+
+@h1140
+A 48 year old woman has a ureteric stone and has developed rigors.
+Temperature 39°C, pulse rate 124 bpm, BP 96/58 mmHg.
+CT shows a 6 mm stone in the right ureter with right hydronephrosis. White cell count 18 × 10⁹/L. IV antibiotics have started.
+?Which is the most appropriate management?
+
+@h1141
+A 28 year old woman has had dysuria and frequency for 2 days. She has no fever, loin pain or vaginal discharge. She is not pregnant.
+Urine dipstick shows nitrites and leucocytes. eGFR is normal.
+?Which is the most appropriate treatment?
+
+@h1142
+A 30 year old woman is 12 weeks pregnant. She has had dysuria and frequency for a day. She has no fever or loin pain.
+Urine dipstick shows nitrites and leucocytes. A culture has been sent.
+?Which is the most appropriate treatment?
+
+@h1143
+A 35 year old woman has had fever, right loin pain and rigors for a day. She is not pregnant and she is well enough to go home.
+Temperature 38.4°C, pulse rate 96 bpm, BP 122/78 mmHg. There is right renal angle tenderness.
+Urine dipstick shows nitrites and leucocytes.
+?Which is the least appropriate antibiotic?
+
+@h1144
+A 45 year old man has had a painless swelling in his scrotum for 3 months. It has slowly grown.
+There is a fluctuant swelling in the right side of the scrotum. It lights up with a torch. The testis cannot be felt separately and it is possible to get above the swelling.
+?Which is the most likely diagnosis?
+
+@h1145
+A 76 year old man had a urinary catheter placed 6 hours ago. His foreskin was left pulled back. Now it cannot be returned and the end of his penis is swollen and painful.
+There is a tight band of retracted foreskin behind a swollen glans. The glans is pink.
+?Which is the most appropriate management?
+
+@h1146
+A 24 year old man with sickle cell disease has had a painful erection for 5 hours. It began without sexual activity.
+The penis is rigid and tender, and the glans is soft.
+?Which is the most appropriate management?
+
+@h1147
+A 24 year old man has had pain and swelling in his left testicle for 3 days, with a urethral discharge. He has had several sexual partners recently.
+Temperature 37.8°C. The left epididymis is swollen and tender. The testis lies normally. Lifting the testis eases the pain.
+?Which is the most appropriate treatment?
+
+@h1148
+A 19 year old student had a swollen, painful parotid gland last week. Now his right testis is swollen and painful. He did not have the MMR vaccine.
+Temperature 38.2°C. The right testis is swollen and tender. The left parotid is still slightly enlarged.
+?Which is the most likely diagnosis?
+
+@h1149
+A 16 year old boy has had pain in his left testicle for 4 hours. It came on during the night. Lifting the testis eases the pain.
+The left testis is tender and swollen. The cremasteric reflex is present.
+?Which is the most appropriate management?
+
+@h1150
+A 14 year old boy woke with sudden severe pain in his right testicle 2 hours ago. He has vomited twice.
+The right testis lies high with a horizontal lie and is very tender. The right cremasteric reflex is absent.
+?Which is the most appropriate next step?

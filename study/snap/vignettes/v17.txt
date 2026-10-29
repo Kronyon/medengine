@@ -1,0 +1,237 @@
+# h0851 to h0900
+
+@h0851
+A 34 year old man is brought to the emergency department after a mixed overdose of diazepam and other tablets an hour ago. He has epilepsy.
+He is drowsy but rousable. Pulse rate 86 bpm, BP 118/72 mmHg, respiratory rate 14 breaths per minute, SpO2 97% breathing air. Pupils are normal size.
+ECG shows a normal QRS duration.
+?Which is the most appropriate management?
+
+@h0852
+A 70 year old woman has had difficulty getting to sleep for a month since moving house. She lives alone and has had one fall this year. Sleep hygiene advice has been given and zopiclone is to be prescribed.
+?Which is the most appropriate advice?
+
+@h0853
+A GP is reviewing patients with migraine who are asking about sumatriptan for their attacks.
+?Which patient should not be given sumatriptan?
+
+@h0854
+A 38 year old woman has had migraine for years. Over the past 4 months she has taken sumatriptan on about 12 days each month and now has a headache almost every day. There are no red flag features.
+Neurological examination, including fundoscopy, is normal.
+?Which is the most likely diagnosis?
+
+@h0855
+A 27 year old woman has frequent migraine and is starting topiramate for prevention. She uses the combined oral contraceptive pill and does not want to become pregnant.
+?Which is the most important advice?
+
+@h0856
+A 72 year old man with Parkinson's disease takes co-careldopa four times a day. He is admitted with bowel obstruction and is nil by mouth before surgery. A nasogastric tube cannot be passed.
+?Which is the most appropriate way to continue his treatment?
+
+@h0857
+A 58 year old woman has Parkinson's disease treated with ropinirole. Her husband says she has started gambling heavily online and buying things they do not need. She had no such behaviour before.
+?Which is the most likely cause?
+
+@h0858
+A 76 year old man with Parkinson's disease has visual hallucinations of people in the house and has become paranoid. He is distressed. Infection and medicine causes have been excluded, and his Parkinson's drugs have been reduced as far as possible.
+?Which drug is most appropriate?
+
+@h0859
+A 34 year old woman has double vision and drooping eyelids that are worse in the evening. Her arms tire when she brushes her hair.
+There is bilateral ptosis that worsens on sustained upward gaze. Reflexes are normal.
+Acetylcholine receptor antibodies are positive. CT chest shows no thymoma.
+?Which drug is first-line for symptoms?
+
+@h0860
+A 62 year old man has myasthenia gravis that has been well controlled on pyridostigmine. A month ago a new drug was started for hypertension and palpitations. His weakness and ptosis have worsened since.
+Pulse rate 58 bpm, BP 134/80 mmHg.
+?Which drug is most likely responsible?
+
+@h0861
+A 44 year old woman with myasthenia gravis has had a chest infection for 3 days. She now has difficulty swallowing and is breathless when lying flat.
+Respiratory rate 26 breaths per minute, SpO2 94% breathing air. There is weak neck flexion and her voice is nasal.
+FVC 1.2 litres.
+?Which is the most appropriate treatment for the crisis?
+
+@h0862
+A 62 year old woman has had brief, severe electric-shock pains in her right cheek for 3 months. They are set off by chewing, cold wind or touching her face. She is well between attacks.
+Cranial nerve examination is normal, including facial sensation and the corneal reflex.
+?Which drug is first-line?
+
+@h0863
+A 72 year old man with COPD takes modified-release morphine for chronic back pain. His GP plans to add pregabalin for neuropathic leg pain.
+SpO2 93% breathing air.
+?Which is the main danger?
+
+@h0864
+A 58 year old man with type 2 diabetes has burning pain in both feet that is worse at night. He has no heart disease and his ECG is normal. He is starting amitriptyline.
+There is reduced sensation to monofilament in both feet in a stocking distribution.
+?Which is the usual starting dose?
+
+@h0865
+A 58 year old woman with breast cancer has had worsening back pain for 2 weeks and leg weakness for 24 hours.
+There is weakness of both legs with brisk reflexes and a sensory level at T10.
+MRI spine shows metastatic spinal cord compression at T9.
+?Which drug should be given straight away?
+
+@h0866
+A 28 year old man was assaulted and hit his head. CT shows an acute subdural haematoma, and he is waiting for theatre. His GCS has dropped from 13 to 8 and his right pupil is now larger than the left.
+Pulse rate 52 bpm, BP 176/94 mmHg.
+?Which drug may be given to buy time?
+
+@h0867
+A 32 year old woman with idiopathic intracranial hypertension started acetazolamide 6 weeks ago. She now has tingling in her hands and feet and around her mouth. Her headaches are improving.
+Neurological examination is otherwise normal.
+Bicarbonate 18 mmol/L. Potassium 3.4 mmol/L. Glucose 5.2 mmol/L. B12 is normal.
+?Which is the most likely explanation?
+
+@h0868
+A 78 year old woman has taken citalopram 40 mg daily for depression for 3 years. Her mood is stable. She takes no other medicines.
+ECG shows a QTc of 450 ms.
+?Which is the most appropriate change?
+
+@h0869
+A 52 year old man takes sertraline for depression. He has acute low back pain and his GP is starting naproxen. He has no history of ulcers.
+?Which drug should be added?
+
+@h0870
+A 36 year old woman took paroxetine for anxiety for a year. She stopped it suddenly 3 days ago because she felt better. She now has dizziness, electric-shock sensations in her head, irritability and vivid dreams.
+Temperature 36.8°C, pulse rate 78 bpm. There is no clonus or tremor.
+?Which is the most likely explanation?
+
+@h0871
+A 72 year old man has had low mood for 2 months. He sleeps badly and his appetite is poor, and he has lost 5 kg. He has no suicidal thoughts.
+BMI 20 kg/m².
+?Which antidepressant is most likely to help these symptoms as well?
+
+@h0872
+A 48 year old woman with depression has not responded to two SSRIs. She is to start venlafaxine. She has hypertension controlled with amlodipine.
+BP 138/86 mmHg.
+?Which is the most appropriate monitoring?
+
+@h0873
+A 24 year old woman with depression has thoughts of self-harm. Her GP is choosing an antidepressant and considering how dangerous each would be if taken in overdose.
+?Which antidepressant is most dangerous in overdose?
+
+@h0874
+A 44 year old woman with bipolar disorder has been stable on lithium for 2 years. Her lithium levels have been in range every 3 months.
+?How often should her thyroid and kidney function be checked?
+
+@h0875
+A 58 year old man has taken lithium for 10 years. He has been more tired and thirsty and has some constipation. He takes no diuretics or supplements.
+Adjusted calcium 2.85 mmol/L. PTH 9.2 pmol/L. Phosphate 0.8 mmol/L. Lithium level 0.7 mmol/L.
+?Which is the most likely explanation?
+
+@h0876
+A 32 year old woman with bipolar disorder takes lithium. She has found out that she is 6 weeks pregnant.
+?Which fetal heart problem is linked to lithium in the first trimester?
+
+@h0877
+A 64 year old man has delirium with severe agitation that puts him at risk. Non-drug measures have not worked, and haloperidol is to be started. He takes several other medicines.
+?Which baseline test is most important?
+
+@h0878
+An 84 year old woman with Alzheimer's disease lives in a care home. She has become agitated and shouts at night. Pain, infection and constipation have been excluded. Staff ask about an antipsychotic.
+?Which is the main risk of antipsychotics in this group?
+
+@h0879
+A 28 year old woman with schizophrenia has taken risperidone for a year. Her psychosis is well controlled, but her periods have stopped and she has a milky discharge from both nipples. A pregnancy test is negative.
+Prolactin 1800 mU/L. Thyroid function is normal.
+?Which switch is most likely to help?
+
+@h0880
+A 32 year old man has schizophrenia. He still has persistent voices and paranoid beliefs after 2 antipsychotics at adequate doses for 6 weeks each, one of them atypical. He takes his medicines reliably, confirmed by levels.
+?Which is the most appropriate next drug?
+
+@h0881
+A 34 year old man with schizophrenia has taken clozapine for 4 months. He has a sore throat and feels unwell.
+Temperature 38.0°C.
+Neutrophil count 1.2 × 10⁹/L. White cell count 2.8 × 10⁹/L.
+?Which is the most appropriate action?
+
+@h0882
+A 26 year old man started clozapine 6 weeks ago. He now has central chest pain, fever and palpitations.
+Temperature 38.2°C, pulse rate 126 bpm, BP 108/68 mmHg. There is no muscle rigidity.
+Troponin 340 ng/L. CRP 88 mg/L. ECG shows sinus tachycardia with widespread T wave inversion. Chest X-ray is clear.
+?Which is the most likely diagnosis?
+
+@h0883
+A 22 year old woman has first-episode schizophrenia. She is worried about weight gain because her mother has type 2 diabetes.
+BMI 27 kg/m².
+?Which antipsychotic is least likely to cause weight gain?
+
+@h0884
+A 30 year old man with schizophrenia is starting olanzapine. The team plans his physical health monitoring.
+?When should his HbA1c and lipids be checked?
+
+@h0885
+A 46 year old woman started quetiapine for bipolar depression 2 weeks ago. She is very drowsy during the day and feels dizzy when she stands up. She has no fever or stiffness.
+Lying BP 124/76 mmHg, standing BP 98/62 mmHg. There is no rigidity.
+?Which is the most likely cause?
+
+@h0886
+A psychiatrist is reviewing patients with ADHD before starting methylphenidate.
+?Which patient should not be given methylphenidate?
+
+@h0887
+A 16 year old boy started atomoxetine for ADHD 6 weeks ago. He now says he has thoughts that life is not worth living. He has also noticed dark urine and itch.
+He is mildly jaundiced.
+ALT 520 IU/L. Bilirubin 46 µmol/L.
+?Which is the most appropriate step?
+
+@h0888
+A 10 year old boy has ADHD and takes guanfacine. His parents ask whether he can skip it during the school holidays.
+?Which advice is important?
+
+@h0889
+A 30 year old man is found unresponsive in a public toilet with a needle nearby.
+GCS 6. Respiratory rate 6 breaths per minute, SpO2 84% breathing air. Pulse rate 58 bpm. Pupils are pinpoint.
+?Which is the most appropriate drug?
+
+@h0890
+A 34 year old woman who is dependent on heroin wants to start buprenorphine. She last used heroin 4 hours ago.
+She has no yawning, sweating, gooseflesh or dilated pupils. Her clinical opiate withdrawal score is low.
+?Which is the most appropriate advice?
+
+@h0891
+A 42 year old man takes methadone 80 mg daily. He has pneumonia and the team plans to give ciprofloxacin and clarithromycin.
+?Which is the main concern?
+
+@h0892
+A 48 year old woman has completed an assisted alcohol withdrawal. She wants a drug to reduce cravings and help her stay abstinent. She takes no opioids.
+Liver function and kidney function are normal.
+?Which drug is most appropriate?
+
+@h0893
+A 52 year old man takes disulfiram after an alcohol detox. At a party he drinks a pint of beer.
+?Which is the most likely result?
+
+@h0894
+A 54 year old man with alcohol dependence has completed detox and wants help to stay abstinent. He takes codeine 60 mg four times a day for chronic back pain.
+?Which relapse prevention drug should be avoided?
+
+@h0895
+A 45 year old woman has had trouble getting to sleep and staying asleep on most nights for 6 months. She is tired during the day. She has no low mood, sleep apnoea symptoms or pain.
+?Which is the most appropriate first-line treatment?
+
+@h0896
+A 52 year old man started zopiclone for short-term insomnia a week ago. He asks about side effects.
+?Which side effect is most typical?
+
+@h0897
+A 7 year old boy with autism has severe difficulty getting to sleep. Good sleep hygiene and a bedtime routine for 3 months have not helped.
+?Which drug may be used?
+
+@h0898
+A 32 year old man took an overdose of amitriptyline 3 hours ago. He is confused and agitated.
+Temperature 38.0°C, pulse rate 128 bpm. His skin is hot, dry and flushed. Pupils are dilated. Bowel sounds are absent and the bladder is palpable.
+?Which syndrome is this?
+
+@h0899
+A 46 year old woman takes sertraline. She was given tramadol for back pain yesterday. She is now agitated and sweating with diarrhoea.
+Temperature 38.4°C, pulse rate 118 bpm. Pupils are dilated. Reflexes are brisk and there is inducible clonus at both ankles.
+Both drugs have been stopped.
+?Which antidote may be given?
+
+@h0900
+A 38 year old woman on several psychiatric drugs has a fever, tremor and confusion. The team is trying to decide between serotonin syndrome and neuroleptic malignant syndrome.
+?How does the timing of onset help to tell these apart?

@@ -1,0 +1,258 @@
+# Hammer SBA vignettes, MSCAA length: h0001 to h0050
+
+@h0001
+A 42 year old woman attends the breast clinic with a lump in her right breast. She first noticed it 3 months ago and it has grown quickly. She has no nipple discharge and no family history of breast cancer.
+There is a 6 cm smooth, mobile, well-defined lump in the upper outer quadrant. The overlying skin is normal and there is no axillary lymphadenopathy.
+Ultrasound shows a well-circumscribed solid mass. Core biopsy shows leaf-like stroma with high cellularity.
+?Which is the most likely diagnosis?
+
+@h0002
+A 19 year old woman found a lump in her left breast 4 weeks ago. It is painless and has not changed in size. She has no family history of breast cancer.
+There is a 1.5 cm smooth, rubbery, highly mobile lump in the upper outer quadrant. There is no axillary lymphadenopathy.
+Triple assessment, including ultrasound and core biopsy, confirms a fibroadenoma. She asks what happens next.
+?Which is the most appropriate management?
+
+@h0003
+A 23 year old woman has noticed a lump in her right breast while showering. It is not painful. She takes the combined oral contraceptive pill and has no family history of breast cancer.
+There is a 2 cm discrete, firm, mobile lump in the upper outer quadrant of the right breast. There is no skin change and no axillary lymphadenopathy.
+She is referred to the one-stop breast clinic for triple assessment.
+?Which is the most appropriate imaging investigation?
+
+@h0004
+A 47 year old woman has had a tender lump in her left breast for 2 weeks. She is perimenopausal and has no family history of breast cancer.
+There is a 2 cm smooth, well-defined, mobile lump in the upper outer quadrant.
+Ultrasound shows a simple cyst. It is aspirated to dryness, the fluid is clear yellow and the lump is no longer palpable.
+?Which is the most appropriate next step?
+
+@h0005
+A 44 year old woman is seen in the breast clinic with a tender lump in her right breast. Ultrasound shows a simple cyst, which is aspirated. The fluid is clear and the lump disappears.
+She asks whether this is common in women like her. You explain which women most often develop simple breast cysts.
+?In which group of women are simple breast cysts most common?
+
+@h0006
+A 39 year old woman has had pain and lumpiness in both breasts for 6 months. The pain begins about a week before each period and settles once her period starts. She has no nipple discharge.
+On examination, both breasts are diffusely nodular and mildly tender in the upper outer quadrants. There is no discrete lump, no skin change and no axillary lymphadenopathy.
+?Which is the most likely diagnosis?
+
+@h0007
+A 31 year old woman is breastfeeding her 6 week old baby. She was treated for mastitis with flucloxacillin 5 days ago but the pain in her left breast has worsened.
+Temperature 38.6°C, pulse rate 104 bpm, BP 118/72 mmHg. There is a 3 cm tender, fluctuant swelling in the upper outer quadrant of the left breast with overlying erythema.
+?Which is the most likely diagnosis?
+
+@h0008
+A 35 year old woman has a painful swelling next to her right areola. She has had two similar episodes in the past year, each treated with antibiotics. She is not breastfeeding and has never been pregnant. She smokes 20 cigarettes a day.
+Temperature 37.6°C. There is a 2 cm tender, red, fluctuant swelling at the edge of the areola with slight nipple retraction.
+?Which is the most likely underlying cause?
+
+@h0009
+A 29 year old woman is breastfeeding her 3 week old baby. She has had pain and redness in her right breast for 2 days and feels unwell. She had a widespread urticarial rash and facial swelling after amoxicillin as a child.
+Temperature 38.2°C, pulse rate 96 bpm. There is a tender, red, wedge-shaped area in the right breast with no fluctuant mass.
+?Which is the most appropriate antibiotic?
+
+@h0010
+A 52 year old woman has noticed spots of blood on her bra for 3 weeks. The discharge comes from her left nipple without being squeezed. She has no breast pain.
+On examination, pressure at one point on the edge of the left areola produces bloody discharge from a single duct. There is no palpable lump, no skin change and no axillary lymphadenopathy.
+?Which is the most likely cause?
+
+@h0011
+A 28 year old woman has had milky discharge from both nipples for 3 months and has not had a period for 6 months. She has had headaches recently. She takes no medicines and a pregnancy test is negative.
+There is bilateral expressible milky discharge and no breast lump.
+Serum prolactin is 4,000 mU/L. TSH is normal.
+?Which is the most appropriate next investigation?
+
+@h0012
+A 30 year old woman has had amenorrhoea and galactorrhoea for 8 months. Her prolactin is markedly raised and MRI confirms a pituitary macroadenoma consistent with a prolactinoma. Her visual fields are normal on confrontation testing.
+She and her partner would like to try for a baby.
+?Which is the most appropriate drug treatment?
+
+@h0013
+A 34 year old woman stopped breastfeeding her second child 2 months ago. She has noticed a painless lump under her left areola that has not changed in size. She feels well.
+Temperature 36.8°C. There is a 3 cm smooth, non-tender, fluctuant lump beneath the areola. There is no erythema.
+Ultrasound-guided aspiration yields thick milky fluid and the lump disappears.
+?Which is the most likely diagnosis?
+
+@h0014
+A 58 year old woman has noticed a lump in her right breast. It has been present for at least a year and has not changed. It is not painful. She has no family history of breast cancer.
+There is a 3 cm soft, doughy, mobile, non-tender lump in the upper inner quadrant. There is no skin tethering and no axillary lymphadenopathy.
+Ultrasound shows a well-defined fatty lesion with no suspicious features.
+?Which is the most likely diagnosis?
+
+@h0015
+A 42 year old woman had a wide local excision of a benign breast lesion 3 weeks ago. She now has a tender line under the skin on the lateral side of her breast that becomes more obvious when she raises her arm.
+Temperature 36.9°C. There is a tender, cord-like band running vertically under the skin of the lateral breast. There is no erythema, no mass and no axillary lymphadenopathy.
+?Which is the most likely diagnosis?
+
+@h0016
+A 61 year old woman has had a red, itchy rash on her right nipple for 3 months. It has not improved after 4 weeks of a moderate-potency steroid cream. She has no eczema elsewhere.
+There is a red, scaly, crusted area over the right nipple spreading onto the areola. The left nipple is normal. There is no palpable breast lump and no axillary lymphadenopathy.
+?Which is the most likely diagnosis?
+
+@h0017
+A 49 year old woman has had a swollen, red and warm left breast for 3 weeks. She is not breastfeeding. A 7-day course of flucloxacillin has not helped. She feels well and has no fever.
+Temperature 36.9°C. The left breast is diffusely erythematous, warm and enlarged with skin pitting like orange peel over more than a third of the breast. There is a firm left axillary lymph node.
+?Which is the most likely diagnosis?
+
+@h0018
+A 54 year old woman had a wide local excision and sentinel node biopsy for a 2 cm invasive ductal carcinoma of the left breast. She went through the menopause 3 years ago.
+Histology shows a grade 2 tumour that is oestrogen receptor positive and HER2 negative, with one involved lymph node. She is assessed as being at medium risk of recurrence.
+?Which is the most appropriate adjuvant drug treatment?
+
+@h0019
+A 38 year old woman is worried about her risk of breast cancer. Her mother was diagnosed with breast cancer at 40 and her sister at 42. She has no breast symptoms.
+Breast examination is normal. She has never had a mammogram and asks what she should do.
+?Which is the most appropriate next step?
+
+@h0020
+A 51 year old woman has received her first invitation for NHS breast screening. She has no breast symptoms. She is anxious that she may be called back for more tests and asks how often this happens.
+?What proportion of women are recalled for further assessment after a screening mammogram?
+
+@h0021
+A 30 year old woman has tested positive for a BRCA1 gene mutation after her mother was diagnosed with ovarian cancer. She has no breast symptoms and her breast examination is normal.
+She is not yet ready to consider risk-reducing surgery and asks about breast surveillance.
+?Which is the most appropriate breast surveillance?
+
+@h0022
+A 30 year old man has noticed a lump in his right groin for 2 months. It appears when he stands or lifts at work and disappears when he lies down. It is not painful.
+On standing there is a soft swelling that lies above and medial to the pubic tubercle with a cough impulse. It reduces easily when he lies down. Both testes are normal.
+?Which is the most likely diagnosis?
+
+@h0023
+A 26 year old man has a right groin swelling that appears when he lifts weights. There is no pain.
+On examination, the swelling reduces easily when he lies supine. With the hernia reduced, the examiner presses over the midpoint of the inguinal ligament and asks him to cough. The swelling does not reappear until the pressure is removed.
+?Which type of hernia is this most likely to be?
+
+@h0024
+An 82 year old woman has had colicky abdominal pain and vomiting for 2 days. She is thin and frail. She also has pain along the inner side of her right thigh down to the knee.
+Temperature 37.2°C, pulse rate 104 bpm, BP 108/66 mmHg. The abdomen is distended with tinkling bowel sounds. There is no groin swelling and no previous surgical scar.
+CT shows small bowel obstruction with a loop of small bowel trapped next to the right side of the pelvis.
+?Which is the most likely diagnosis?
+
+@h0025
+A 74 year old man has noticed a pulsatile lump behind his right knee. He has hypertension and is an ex-smoker.
+There is a 3 cm expansile pulsatile mass in the right popliteal fossa. Foot pulses are present.
+Duplex ultrasound confirms a 2.5 cm popliteal artery aneurysm.
+?Which is the most important additional investigation?
+
+@h0026
+A 79 year old man has had sudden severe pain in his right foot for 3 hours. He is known to have a right popliteal artery aneurysm and is on the waiting list for vascular review.
+His right foot is cold, pale and mottled. There are no palpable pulses below the right knee. Sensation in the toes is reduced. The left leg is normal.
+?Which is the most likely cause?
+
+@h0027
+A 55 year old woman has noticed a swelling behind her right knee for 2 months. It is more obvious when she stands with her knee straight. She has osteoarthritis of both knees.
+There is a 4 cm soft, non-tender, non-pulsatile swelling in the medial popliteal fossa. It becomes firmer with the knee extended and softer when flexed. The calf is not swollen.
+?Which is the most likely diagnosis?
+
+@h0028
+A 70 year old man with atrial fibrillation has had pain and coldness in his left foot for 5 hours. He is not taking an anticoagulant.
+His left foot is pale and cold with absent pedal pulses. Capillary refill is slow. Sensation to light touch is normal and he can move his toes and ankle normally. Arterial Doppler signals are audible at the ankle.
+?Which category of acute limb ischaemia is this?
+
+@h0029
+A 68 year old woman with atrial fibrillation has had sudden pain in her right leg for 3 hours. She stopped her apixaban a week ago because of nosebleeds.
+Her right leg is cold and pale with absent popliteal and pedal pulses. There is mild sensory loss in the toes but no weakness. A diagnosis of acute embolic limb ischaemia is made and the vascular team are preparing for embolectomy.
+?Which drug should be started now?
+
+@h0030
+A 66 year old man had an embolectomy for an acutely ischaemic left leg 6 hours after symptom onset. Four hours after surgery he has severe pain in his left calf that is not controlled by morphine.
+Pulse rate 102 bpm, BP 138/84 mmHg. The calf is swollen and tense. There is severe pain on passive dorsiflexion of the toes. Pedal pulses are palpable.
+?Which is the most likely complication?
+
+@h0031
+A 64 year old man has had cramping pain in his right calf for 6 months. It starts after he walks about 200 metres and goes after a few minutes of rest. He smokes 20 cigarettes a day and has hypertension.
+His right foot pulses are weak. The skin is intact with no ulcers. His ankle-brachial pressure index is 0.65 on the right.
+?Which is the most appropriate interpretation of the ankle-brachial pressure index?
+
+@h0032
+A 67 year old man has intermittent claudication in his left calf at 300 metres. He has hypertension and stopped smoking a year ago. He takes amlodipine.
+His ankle-brachial pressure index is 0.7 on the left. He has no rest pain and no ulcers.
+Total cholesterol 5.8 mmol/L. HbA1c 40 mmol/mol.
+?Which drug is recommended for every patient with this condition?
+
+@h0033
+A 70 year old man has had pain in his right foot at night for 3 weeks. It wakes him and he finds relief by hanging his leg over the side of the bed. He has claudication at 50 metres and smokes.
+The right foot is pale when elevated and becomes dusky red when hanging down. There are no palpable pulses below the femoral artery. Capillary refill is 5 seconds.
+?Which is the most likely diagnosis?
+
+@h0034
+A 70 year old woman has had an ulcer on her left leg for 4 months. It is not very painful. She had a deep vein thrombosis in that leg 10 years ago.
+There is a 5 cm shallow ulcer with a sloughy base just above the medial malleolus. The surrounding skin is brown and eczematous, and the ankle is swollen. Foot pulses are palpable. Her ankle-brachial pressure index is 1.0.
+?Which is the most likely diagnosis?
+
+@h0035
+A 72 year old woman has had a shallow ulcer above her right medial malleolus for 3 months, with haemosiderin staining and ankle oedema. She smokes and has hypertension.
+Her foot pulses are weak. Her ankle-brachial pressure index is 0.7 on the right. The ulcer has no signs of infection.
+?Which is the most appropriate next step in management?
+
+@h0036
+A 78 year old man has had a venous ulcer on his right leg for 15 years. Over the last 2 months it has changed: the edge has become raised and rolled and it bleeds easily on contact.
+There is a 6 cm ulcer above the medial malleolus with an everted, nodular edge at its lateral side. There is a firm right inguinal lymph node.
+?Which is the most likely diagnosis?
+
+@h0037
+A 52 year old woman has had aching varicose veins in her right leg for 5 years, worse at the end of the day. She works as a hairdresser.
+There are tortuous varicose veins along the medial thigh and calf. The skin above the medial malleolus is hard, tight and brown. There is no ulcer. Foot pulses are palpable.
+?Which is the most appropriate first investigation?
+
+@h0038
+A 48 year old woman has aching, swollen legs with visible varicose veins along her left medial thigh and calf. The symptoms affect her work as a nurse. She has had no deep vein thrombosis.
+Venous duplex ultrasound shows reflux at the saphenofemoral junction and along the great saphenous vein. The deep veins are patent and competent.
+?Which is the most appropriate first-line treatment?
+
+@h0039
+A 58 year old woman has noticed a soft lump in her right groin that disappears when she lies down. She has extensive varicose veins in her right leg.
+There is a soft, compressible, bluish swelling below and lateral to the pubic tubercle. It disappears on lying flat. When she coughs there is an impulse and a palpable thrill. It is not tender.
+?Which is the most likely diagnosis?
+
+@h0040
+A 16 year old girl has had painless swelling of both legs since she started her periods 2 years ago. The swelling is worse by the evening. She has had no surgery and has not travelled abroad.
+There is non-pitting swelling of both legs extending onto the dorsum of the feet and the toes. She cannot pinch the skin at the base of her second toe. Urinalysis is normal.
+?Which is the most likely diagnosis?
+
+@h0041
+A 56 year old woman had a left mastectomy and axillary node clearance for breast cancer 2 years ago. She now has persistent swelling of her left arm. She has had one episode of cellulitis in the arm.
+The left arm is swollen from the hand to the shoulder, with mild skin thickening. There is no sign of infection. She asks how to stop it getting worse.
+?Which is the most appropriate advice?
+
+@h0042
+A 38 year old man moved to the UK from northern Ghana a year ago. He has had progressive swelling of his left leg for several years, with episodes of fever and painful red streaks up the leg.
+The left leg is grossly swollen from the foot to the thigh with thickened, warty, fissured skin. There is no ulcer. He has no history of surgery or cancer.
+?Which is the most likely cause?
+
+@h0043
+A 45 year old woman has had painful colour changes in her fingers in the cold for 5 years. More recently, the skin of her fingers has become tight and she has had difficulty swallowing solid food.
+There is sclerodactyly with small calcified nodules on the fingertips. There are telangiectasia on her face and palms. The skin of her forearms and trunk is normal.
+?Which antibody is most likely to be positive?
+
+@h0044
+A 32 year old woman has white then blue fingers when she is cold. She is otherwise well and takes no medicines. You are deciding whether this is primary Raynaud's or Raynaud's secondary to another condition.
+?Which feature most suggests secondary rather than primary Raynaud's phenomenon?
+
+@h0045
+A 50 year old man has had Raynaud's phenomenon for 10 years. Over the last month his attacks have become more frequent and more painful. He has hypertension and a medicine was changed at his last review a month ago.
+His hands are cool with normal pulses. BP 136/84 mmHg, pulse rate 58 bpm.
+?Which drug is most likely to have caused the worsening?
+
+@h0046
+A 68 year old retired farmer has a flat brown patch on his left cheek. It has slowly spread over 10 years and his wife thinks it has darkened recently.
+There is a 3 cm flat, irregularly pigmented macule on the left cheek with an irregular edge and several shades of brown. There is no raised area within it. The surrounding skin is sun-damaged. There is no cervical lymphadenopathy.
+?Which is the most likely diagnosis?
+
+@h0047
+A 47 year old woman had a changing mole excised from her back. Histology confirms a superficial spreading melanoma with a Breslow thickness of 0.6 mm. She asks what the number means and whether it is good news.
+?What does the Breslow thickness measure?
+
+@h0048
+A 50 year old man of Black African family origin has had a dark area under his right big toenail for a year. It has grown and he does not recall any injury.
+There is a dark brown longitudinal band under the toenail that widens towards the base, with brown pigment extending onto the proximal nail fold. The nail is not thickened.
+?Which is the most likely diagnosis?
+
+@h0049
+A 75 year old man has had a slowly growing lump on his upper back for a year. It occasionally bleeds when he dries himself.
+There is a 1 cm pearly nodule with rolled edges and telangiectasia on the upper back. There is no lymphadenopathy. Biopsy confirms a nodular basal cell carcinoma.
+?Which is the most appropriate treatment?
+
+@h0050
+A 65 year old woman has had a pink patch on her chest for a year. It is occasionally itchy but has not responded to an antifungal cream.
+There is a 2 cm pink, scaly, flat patch on the upper chest with a fine, thread-like raised edge. There is no ulceration. Biopsy confirms a basal cell carcinoma.
+?Which subtype is it most likely to be?

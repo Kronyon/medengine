@@ -1,0 +1,258 @@
+# h0101 to h0150
+
+@h0101
+A 56 year old man has had type 2 diabetes for 6 years. He was admitted with heart failure 3 months ago. He takes metformin 1 g twice daily, ramipril, bisoprolol and furosemide.
+BP 124/76 mmHg, pulse rate 68 bpm. There is no peripheral oedema.
+HbA1c 62 mmol/mol. eGFR 64 mL/min/1.73 m².
+?Which drug should be added?
+
+@h0102
+A 61 year old woman has had nausea, vomiting and abdominal pain for 2 days after a stomach bug. She has type 2 diabetes and takes metformin and dapagliflozin. She has been eating very little.
+Temperature 37.2°C, pulse rate 112 bpm, BP 104/66 mmHg, respiratory rate 26 breaths per minute. Her mucous membranes are dry and the abdomen is soft.
+Investigations: Glucose 11 mmol/L, ketones 4.2 mmol/L, pH 7.21, bicarbonate 12 mmol/L, lactate 1.4 mmol/L.
+?Which is the most likely diagnosis?
+
+@h0103
+A 24 year old woman with type 1 diabetes was admitted with diabetic ketoacidosis 1 hour ago. She is on a fixed-rate intravenous insulin infusion and 0.9% saline.
+Capillary ketones were 5.0 mmol/L on admission and are now 4.6 mmol/L. The nurse asks whether this rate of improvement is adequate.
+?What is the target fall in blood ketones per hour?
+
+@h0104
+A 22 year old man with type 1 diabetes is being treated for diabetic ketoacidosis with a fixed-rate intravenous insulin infusion and 0.9% saline. He is passing urine.
+Pulse rate 98 bpm, BP 116/72 mmHg. Repeat venous blood gas 2 hours into treatment shows: pH 7.18, bicarbonate 11 mmol/L, potassium 3.2 mmol/L, glucose 18 mmol/L.
+?Which is the most appropriate change?
+
+@h0105
+A 30 year old man with type 1 diabetes has been on a fixed-rate intravenous insulin infusion and 0.9% saline for diabetic ketoacidosis for 6 hours. He is improving clinically.
+Capillary glucose 13 mmol/L. Capillary ketones 2.5 mmol/L. Venous pH 7.28. Potassium 4.4 mmol/L.
+?Which is the most appropriate change?
+
+@h0106
+A 76 year old man with type 2 diabetes has been increasingly drowsy and thirsty for 4 days. He is dry with a pulse rate of 112 bpm and BP 102/60 mmHg.
+Investigations: Sodium 148 mmol/L, potassium 4.0 mmol/L, urea 30 mmol/L, glucose 40 mmol/L.
+?Which is his calculated serum osmolality?
+
+@h0107
+An 80 year old man was admitted with a hyperosmolar hyperglycaemic state 8 hours ago and has been given intravenous 0.9% saline. He is more alert and passing urine.
+His glucose has fallen from 52 to 34 mmol/L. His sodium has risen from 148 to 151 mmol/L, while his calculated osmolality has fallen gradually from 362 to 352 mOsm/kg.
+?What does the rise in sodium most likely show?
+
+@h0108
+A 78 year old woman with type 2 diabetes is admitted with drowsiness after a week of a chest infection.
+Pulse rate 116 bpm, BP 98/58 mmHg. Her mucous membranes are very dry and capillary refill is 4 seconds.
+Investigations: Glucose 44 mmol/L, sodium 150 mmol/L, urea 24 mmol/L, ketones 0.4 mmol/L, pH 7.36. Calculated osmolality 368 mOsm/kg.
+?Which is the main treatment in the first hours?
+
+@h0109
+A 72 year old man has had episodes of confusion and sweating each morning for a week. They improve after breakfast. He has type 2 diabetes and takes metformin and gliclazide 80 mg twice daily. His wife says he has been eating less since a recent illness.
+Blood tests 2 months ago showed an eGFR of 52 mL/min/1.73 m²; it is now 30 mL/min/1.73 m². Neurological examination is normal between episodes.
+?Which is the most likely cause?
+
+@h0110
+A 42 year old woman with type 1 diabetes is found unconscious at home by her partner. Paramedics are on the way. She is breathing normally and has a pulse.
+Her capillary glucose is 1.9 mmol/L. She cannot swallow, and attempts at intravenous access have failed.
+?Which is the most appropriate treatment?
+
+@h0111
+A 21 year old man with type 1 diabetes treated with insulin has passed his car driving test. He has had no severe hypoglycaemia and has normal hypoglycaemia awareness. He asks what rules he must follow about checking his glucose when driving.
+?Which rule applies to driving?
+
+@h0112
+A 63 year old woman of Black African family origin has type 2 diabetes. Her blood pressure has been raised at three visits. She takes metformin only.
+BP 146/90 mmHg, confirmed with home monitoring. Urine albumin to creatinine ratio is normal. eGFR 78 mL/min/1.73 m².
+?Which is the most appropriate first antihypertensive drug?
+
+@h0113
+A 58 year old man with type 2 diabetes and peripheral neuropathy has had a warm, swollen right foot for 3 weeks. It aches slightly but he did not injure it.
+Temperature 36.9°C. The right foot is red, hot and swollen with a temperature 3 degrees higher than the left. There is no ulcer and pulses are palpable.
+X-ray shows fragmentation and destruction of the midfoot joints.
+?Which is the most likely diagnosis?
+
+@h0114
+A 44 year old woman with type 2 diabetes attends her annual diabetes review. She has no visual symptoms. Her last retinal screening was 1 year ago and was normal.
+?Which form of retinal screening is most appropriate?
+
+@h0115
+A 34 year old woman has had palpitations, heat intolerance and weight loss for 3 weeks. She gave birth 4 months ago. Her neck is not painful.
+Pulse rate 104 bpm, regular. There is a fine tremor. The thyroid is not enlarged or tender and there is no eye disease.
+TSH low, free T4 high. TSH receptor antibodies negative. Radioactive iodine uptake is low.
+?Which is the most likely diagnosis?
+
+@h0116
+A 33 year old woman started carbimazole for Graves' disease 5 weeks ago. She has had a sore throat and fever for 2 days.
+Temperature 38.6°C, pulse rate 106 bpm. Her pharynx is red without exudate.
+?Which is the most appropriate next step?
+
+@h0117
+A 29 year old woman with Graves' disease is 8 weeks pregnant. She has palpitations, tremor and weight loss.
+Pulse rate 108 bpm. There is a small diffuse goitre.
+TSH low, free T4 high. TSH receptor antibodies positive.
+?Which drug is preferred?
+
+@h0118
+A 67 year old woman has felt tired for 6 months. She has no weight gain, cold intolerance or constipation. She has no history of thyroid disease.
+Examination is normal.
+TSH 7.2 mU/L, free T4 normal. Repeat tests 3 months later are the same. Full blood count and ferritin are normal.
+?Which is the most appropriate next step?
+
+@h0119
+A 58 year old woman has taken levothyroxine 100 micrograms each morning for 5 years with a stable normal TSH. Her TSH is now 9.6 mU/L. She takes the levothyroxine at the same time as a new tablet started 2 months ago for heavy periods.
+?Which drug is most likely to have caused the rise in TSH?
+
+@h0120
+A 78 year old woman with hypothyroidism is brought in from home drowsy and confused. She stopped taking her tablets 2 months ago.
+Temperature 33°C, pulse rate 44 bpm, BP 98/60 mmHg, respiratory rate 10 breaths per minute. She has periorbital puffiness, dry skin and slow-relaxing reflexes.
+Capillary glucose 4.8 mmol/L. Sodium 126 mmol/L.
+?Which is the most likely diagnosis?
+
+@h0121
+A 50 year old woman has a lump in the front of her neck. She had an adrenal operation for phaeochromocytoma 5 years ago. Her brother had thyroid surgery in his thirties.
+There is a 2 cm firm nodule in the right lobe of the thyroid and a firm cervical lymph node.
+Serum calcitonin is high. Thyroid function is normal.
+?Which is the most likely diagnosis?
+
+@h0122
+A 79 year old woman has a lump in her neck that has grown rapidly over 4 weeks. Her voice has become hoarse and she is short of breath on lying flat.
+There is a hard, fixed 6 cm mass in the thyroid with inspiratory stridor. There are firm cervical lymph nodes.
+?Which is the most likely diagnosis?
+
+@h0123
+A 42 year old woman noticed a lump in the front of her neck in the mirror. She has no voice change, no swallowing problems and no previous neck radiation.
+There is a 2 cm smooth nodule in the left lobe of the thyroid that moves on swallowing. There is no cervical lymphadenopathy.
+TSH is normal.
+?Which is the most appropriate first investigation?
+
+@h0124
+A 45 year old man has had a slow, spraying urinary stream for 6 months. He needs to strain to empty his bladder. Last year he had a urethral catheter for 5 days after abdominal surgery.
+Digital rectal examination shows a small, smooth prostate.
+Uroflowmetry shows a flat, prolonged, plateau-shaped flow curve with a low maximum flow rate.
+?Which is the most likely diagnosis?
+
+@h0125
+A 66 year old man has had a weak stream, hesitancy and nocturia twice a night for a year. He has taken tamsulosin for 6 months with only slight improvement.
+Digital rectal examination shows a smooth, enlarged, benign-feeling prostate. Transrectal ultrasound estimates the volume at 60 mL.
+PSA is within the age-specific range. Creatinine is normal.
+?Which drug should be added?
+
+@h0126
+An 80 year old man has not passed urine for 12 hours and has severe lower abdominal pain. He has had a poor stream for 2 years and started an antihistamine for hay fever 2 days ago.
+Pulse rate 98 bpm, BP 162/90 mmHg. He is distressed. There is a tender, dull suprapubic mass reaching halfway to the umbilicus.
+?Which is the most likely diagnosis?
+
+@h0127
+A 70 year old man with metastatic prostate cancer has had back pain for 2 weeks that is worse at night. Since yesterday his legs feel weak and he has had difficulty walking.
+There is tenderness over the mid-thoracic spine. There is mild bilateral weakness of hip flexion and brisk knee reflexes. Sensation is reduced below the umbilicus.
+?Which is the most appropriate next step?
+
+@h0128
+A 72 year old man has metastatic prostate cancer with bone metastases on a bone scan. He is due to start goserelin injections.
+PSA 86 µg/L.
+?Which drug should be given first to prevent a tumour flare?
+
+@h0129
+A 74 year old man was found to have a PSA of 7 µg/L. MRI showed a small lesion and targeted biopsy confirms prostate cancer with a Gleason score of 3 plus 3 equals 6 in one core. Staging shows the tumour is confined to the prostate.
+He has hypertension and mild COPD and is active.
+?Which is the most appropriate management?
+
+@h0130
+A 60 year old woman has seen blood in her urine twice in the last week. It is painless. She smoked for 30 years.
+Abdominal examination is normal. Urine dipstick shows blood 3+ with no nitrites or leucocytes. Urine culture is negative.
+?Which investigation is the gold standard for assessing the bladder?
+
+@h0131
+A 54 year old man has had painless visible haematuria for a month. He grew up in rural Egypt and swam in the River Nile as a child. He has never smoked and has not worked with dyes.
+Cystoscopy shows an irregular bladder mass. Biopsy shows squamous cell carcinoma of the bladder.
+?Which is the most likely cause?
+
+@h0132
+A 66 year old man had a transurethral resection of a bladder tumour. Histology shows high-grade urothelial carcinoma confined to the mucosa and lamina propria, with no muscle invasion. CT shows no spread.
+?Which is the most appropriate adjuvant treatment?
+
+@h0133
+A 58 year old man has had intermittent left loin pain and visible haematuria. He smokes. He takes no medicines and has not been dehydrated.
+There is a palpable left flank mass. CT shows a 7 cm left renal mass consistent with renal cell carcinoma.
+Haemoglobin 190 g/L. Haematocrit raised. White cell count and platelets normal.
+?Which is the most likely cause of the high haemoglobin?
+
+@h0134
+A 40 year old man has had headaches and unsteadiness for 2 months. His mother died of a kidney cancer at 45.
+There is right-sided ataxia and nystagmus. MRI brain shows a cerebellar haemangioblastoma. CT abdomen shows multiple bilateral renal cysts and a 3 cm solid right renal mass.
+?Which is the most likely diagnosis?
+
+@h0135
+A 6 year old girl has had a swelling in her abdomen noticed by her mother while bathing her. She is otherwise well. She has had pink urine twice.
+BP 128/84 mmHg, which is high for her age. There is a large, smooth, firm mass in the left flank that does not cross the midline. Urine dipstick shows blood 2+.
+?Which is the most likely diagnosis?
+
+@h0136
+A 40 year old woman has had sudden severe right loin pain radiating to the groin for 3 hours, with nausea. She cannot keep still. A pregnancy test is negative.
+Temperature 36.9°C, pulse rate 96 bpm. There is right loin tenderness. Urine dipstick shows blood 2+.
+?Which is the most appropriate first-line imaging?
+
+@h0137
+A 38 year old man had right renal colic 2 days ago. CT shows a 6 mm stone at the right vesicoureteric junction with mild hydronephrosis. His pain is now controlled with diclofenac.
+Temperature 36.8°C. White cell count and CRP are normal. Creatinine is normal and he has two kidneys.
+?Which is the most appropriate management?
+
+@h0138
+A 48 year old man has had three episodes of renal colic in 5 years. Analysis of a passed stone shows calcium oxalate. He drinks about 1 litre a day and eats a salty diet.
+Serum calcium and urate are normal. Urine volume over 24 hours is 1.1 litres.
+?Which is the most important advice?
+
+@h0139
+A 70 year old man has had dysuria and frequency for 3 days. He feels well and has no loin pain or fever. He has no catheter.
+Temperature 37.1°C. The abdomen is soft. Digital rectal examination shows a smooth, non-tender prostate.
+?Which is the most appropriate management?
+
+@h0140
+A 28 year old woman is 38 weeks pregnant. She has had dysuria and frequency for 2 days. She has no fever or loin pain and no drug allergies.
+Temperature 36.9°C. Urine dipstick shows nitrites and leucocytes. A sample has been sent for culture.
+?Which antibiotic should be avoided?
+
+@h0141
+A 30 year old woman has had fever, right loin pain and vomiting for 2 days. She had dysuria last week. Her last period was 2 weeks ago.
+Temperature 38.9°C, pulse rate 108 bpm, BP 118/72 mmHg. There is right renal angle tenderness. The abdomen is soft without guarding.
+Urine dipstick is positive for nitrites and leucocytes. Pregnancy test is negative.
+?Which is the most likely diagnosis?
+
+@h0142
+A 32 year old man has had a dragging ache in his left scrotum for 3 months, worse at the end of the day. He and his partner have been trying for a baby for a year.
+On standing there is a soft swelling above the left testis that feels like a bag of worms. It disappears when he lies down. Both testes are normal in size.
+?Which is the most likely diagnosis?
+
+@h0143
+A 45 year old man has noticed a painless lump in his right scrotum for 6 months. It has not changed in size.
+There is a 2 cm smooth, fluctuant swelling above and behind the right testis. The testis is palpable separately and is normal. The examiner can get above the swelling and it transilluminates.
+?Which is the most likely diagnosis?
+
+@h0144
+A 25 year old man has noticed a painless swelling of his left scrotum over 6 weeks. He has had no injury or infection.
+There is a smooth, non-tender swelling surrounding the left testis that transilluminates. The examiner can get above it. The testis cannot be felt separately.
+?Which is the most important investigation?
+
+@h0145
+A 70 year old man has had pain and swelling of his right testis for 3 days, with dysuria and frequency. He has a poor stream from an enlarged prostate. He has not been sexually active for several years.
+Temperature 38.1°C. The right epididymis is swollen and tender. Elevating the testis eases the pain. Urine dipstick shows nitrites and leucocytes.
+?Which is the most likely organism?
+
+@h0146
+A 70 year old man has epididymo-orchitis with a urinary tract infection. He has no sexual risk factors and no drug allergies. He is well enough to be treated at home. A urine sample has been sent for culture.
+?Which antibiotic is most appropriate?
+
+@h0147
+A 14 year old boy has had pain at the top of his left testis for 12 hours. It came on gradually during football. He has not vomited.
+The testis lies normally and the cremasteric reflex is present. There is a tender pea-sized nodule at the upper pole, seen as a blue dot through the scrotal skin.
+?Which is the most likely diagnosis?
+
+@h0148
+A 15 year old boy had sudden severe pain in his right testis 3 hours ago. He is taken to theatre for scrotal exploration. The right testis is twisted 720 degrees. After untwisting and warming, it becomes pink and is judged viable.
+?Which is the most appropriate operation?
+
+@h0149
+A 13 year old boy had sudden pain in his left testis 5 hours ago, with vomiting. The testis is high-riding and horizontal with an absent cremasteric reflex. His mother asks why he cannot wait for an ultrasound scan in the morning.
+?Why is surgery so urgent?
+
+@h0150
+A boy born at term 6 hours ago has a swollen scrotum noticed at the newborn check. He is feeding well and does not appear to be in pain.
+The left hemiscrotum is firm, swollen and dark blue. The testis is hard and does not transilluminate. There is no inguinal swelling.
+?Which is the most likely diagnosis?

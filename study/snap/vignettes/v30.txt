@@ -1,0 +1,251 @@
+# h1501 to h1550
+
+@h1501
+A 74 year old woman has had fever with rigors, right upper quadrant pain and yellow eyes for 2 days. She had gallstones on a scan last year.
+Temperature 39.1°C, pulse rate 112 bpm, BP 104/62 mmHg. She is jaundiced and tender in the right upper quadrant.
+?Which is the most likely diagnosis?
+
+@h1502
+A 74 year old woman has ascending cholangitis. She has fever, rigors and jaundice.
+White cell count 17.6 × 10⁹/L. Bilirubin 86 µmol/L. ALT 140 IU/L. ALP 520 IU/L. Amylase 240 U/L.
+?Which result best shows the obstruction?
+
+@h1503
+A 74 year old woman with cholangitis has had IV antibiotics and fluids for 12 hours. She is more confused.
+Pulse rate 118 bpm, BP 88/50 mmHg.
+Ultrasound shows a dilated common bile duct.
+?Which is the most appropriate next step?
+
+@h1504
+A 22 year old woman has had lower abdominal pain for 4 days with deep pain during sex and a new vaginal discharge.
+Temperature 38.0°C. There is cervical motion tenderness and bilateral adnexal tenderness.
+Pregnancy test is negative.
+?Which is the most likely diagnosis?
+
+@h1505
+A 22 year old woman has suspected pelvic inflammatory disease. She is well enough to be treated at home.
+Temperature 37.9°C, pulse rate 88 bpm, BP 118/72 mmHg.
+Pregnancy test is negative. White cell count 11.8 × 10⁹/L. CRP 46 mg/L.
+?Which is the most appropriate approach?
+
+@h1506
+A 22 year old woman has pelvic inflammatory disease. She is to be treated as an outpatient. She is allergic to cephalosporins.
+?Which is the most appropriate regimen?
+
+@h1507
+A 28 year old woman is breastfeeding her 4 week old baby. For a day she has had a painful red area on her left breast and feels flu-like.
+Temperature 38.4°C. There is a tender, red, wedge-shaped area on the left breast. There is no fluctuant mass.
+?Which is the most likely diagnosis?
+
+@h1508
+A 28 year old breastfeeding woman has taken flucloxacillin for mastitis for 4 days. She still has a fever, and the breast is more painful.
+Temperature 38.6°C. There is a tender, fluctuant swelling in the upper outer left breast.
+White cell count 14.8 × 10⁹/L. CRP 96 mg/L.
+?Which is the most appropriate next step?
+
+@h1509
+A 28 year old breastfeeding woman has mastitis. She had a rash after penicillin in the past.
+Temperature 38.2°C. There is a red, tender area on the right breast with no fluctuant mass.
+?Which antibiotic is most appropriate?
+
+@h1510
+A 52 year old woman was in a car crash 6 weeks ago and had seatbelt bruising across her chest. She has now found a lump in her right breast.
+There is a firm, irregular lump in the upper inner right breast with some skin tethering over it. There are no axillary nodes.
+?Which is the most likely diagnosis?
+
+@h1511
+A 52 year old woman has a hard, irregular breast lump 6 weeks after chest trauma. Fat necrosis is thought likely.
+There is a firm lump with mild skin tethering.
+?Which is the most appropriate next step?
+
+@h1512
+A 55 year old woman has a breast lump that has grown quickly over 2 months.
+There is a smooth, mobile, 7 cm mass in the left breast. The skin is stretched but not tethered.
+Core biopsy shows leaf-like stroma with high cellularity.
+?Which is the most appropriate treatment?
+
+@h1513
+A 74 year old woman has had a tender lump in her right groin for 12 hours. She has vomited several times.
+Pulse rate 108 bpm, BP 132/78 mmHg. There is a tender, irreducible lump below and lateral to the pubic tubercle. The abdomen is distended.
+?Which is the most likely diagnosis?
+
+@h1514
+A 74 year old woman has an irreducible femoral hernia with vomiting. She is in pain.
+Pulse rate 112 bpm.
+White cell count 16.2 × 10⁹/L. CRP 22 mg/L. Lactate 4.1 mmol/L. Amylase 260 U/L.
+?Which result most suggests that the bowel is compromised?
+
+@h1515
+A 35 year old man has a lump in his left groin. It causes him only minimal discomfort. He wants to know what happens next.
+There is a reducible left inguinal hernia that is not tender.
+?Which is the most appropriate management?
+
+@h1516
+A 69 year old man has a check-up. He smokes.
+There is a pulsatile, expansile swelling behind his left knee. The foot pulses are present.
+?Which is the most likely diagnosis?
+
+@h1517
+A 69 year old man has a 2.6 cm popliteal artery aneurysm on duplex scan. He has no symptoms.
+?Which other investigation is most important?
+
+@h1518
+A 72 year old man has an abdominal aortic aneurysm on surveillance. He has no abdominal or back pain.
+Aortic diameter 12 months ago 4.6 cm. Aortic diameter today 5.3 cm.
+?Which is the most appropriate management?
+
+@h1519
+A 78 year old woman has atrial fibrillation and is not on anticoagulation. Her right leg has been suddenly painful, cold and white for 3 hours. She has never had pain in her legs on walking.
+The right foot pulses cannot be felt. The left leg pulses are normal.
+?Which is the most likely cause?
+
+@h1520
+A 78 year old woman has acute limb ischaemia of her right leg.
+The foot is cold. There is loss of sensation in the toes and mild weakness of dorsiflexion.
+?Which category of ischaemia is this?
+
+@h1521
+A 78 year old woman has acute limb ischaemia from an embolus. She had a large haemorrhagic stroke 3 weeks ago.
+The foot is cold and numb with mild weakness.
+?Which is the most appropriate treatment?
+
+@h1522
+A 61 year old woman had a right mastectomy with axillary clearance and radiotherapy 2 years ago. Her right arm has become swollen.
+The skin is thickened. She cannot pinch the skin on the back of her fingers. There is no redness or warmth.
+?Which is the most likely diagnosis?
+
+@h1523
+A 61 year old woman developed swelling of her arm over 6 weeks, 2 years after surgery for breast cancer. It had been normal until then.
+There is firm swelling of the right arm. There is a firm node in the right axilla.
+?Which is the most appropriate next step?
+
+@h1524
+A 61 year old woman with right arm lymphoedema has a hot, red, tender arm. She had a rash after penicillin in the past.
+Temperature 38.2°C, pulse rate 98 bpm, BP 126/78 mmHg. The right forearm is red and warm.
+?Which is the most appropriate treatment?
+
+@h1525
+A 38 year old woman has fingers that turn white then blue in the cold. She has difficulty swallowing food.
+There is tight, shiny skin over her fingers.
+?Which is the most likely underlying diagnosis?
+
+@h1526
+A 38 year old woman has Raynaud's with tight skin on her fingers.
+Antinuclear antibody positive at 1:640. Anti-centromere antibody positive. Anti-dsDNA 8 IU/mL. Rheumatoid factor 12 IU/mL.
+?Which antibody result is most likely to explain her condition?
+
+@h1527
+A 56 year old man has hypertension. His Raynaud's has been worse since a new tablet was added a month ago.
+?Which drug is most likely to blame?
+
+@h1528
+A 46 year old woman has had tiredness, weight gain, constipation and feeling cold for 4 months.
+Her skin is dry and her reflexes relax slowly.
+TSH 24 mU/L. Free T4 6 pmol/L. Sodium 134 mmol/L.
+?Which is the most likely diagnosis?
+
+@h1529
+A 78 year old man with angina has primary hypothyroidism.
+Pulse rate 58 bpm.
+TSH 16 mU/L. Free T4 7 pmol/L.
+?Which is the most appropriate starting dose of levothyroxine?
+
+@h1530
+A 52 year old woman takes a stable dose of levothyroxine with breakfast. She recently started two new tablets.
+TSH 9.8 mU/L. Free T4 11 pmol/L.
+?Which is the most likely cause?
+
+@h1531
+A 69 year old man has mild urinary hesitancy.
+Rectal examination shows a hard, irregular, nodular prostate.
+PSA 22 ng/mL. Creatinine 92 µmol/L.
+?Which is the most likely diagnosis?
+
+@h1532
+A 69 year old man has a suspicious prostate on rectal examination. He has been referred to urology.
+PSA 22 ng/mL.
+?Which is the most appropriate first investigation in secondary care?
+
+@h1533
+A 72 year old man takes goserelin for metastatic prostate cancer. For 3 days he has had back pain, leg weakness and difficulty passing urine.
+There is weakness of both legs with a sensory level at T12. The bladder is palpable.
+?Which is the most appropriate immediate treatment?
+
+@h1534
+A 15 year old boy woke with sudden severe pain in his left testis. He has vomited twice.
+Temperature 37.2°C. The left testis lies high and horizontal. The left cremasteric reflex is absent.
+?Which is the most likely diagnosis?
+
+@h1535
+A 15 year old boy has had pain in his left testis for 4 hours. The testis is high-riding.
+Urinalysis shows no leucocytes or nitrites. White cell count 11.0 × 10⁹/L.
+?Which is the most appropriate next step?
+
+@h1536
+A 15 year old boy is having scrotal exploration. His left testis is twisted. It is viable after untwisting.
+?Which is the most appropriate additional step?
+
+@h1537
+A 47 year old woman has had fever, headache and odd behaviour for 2 days. Today she had a seizure.
+Temperature 38.6°C. GCS 13. There is no rash and no neck stiffness.
+?Which is the most likely diagnosis?
+
+@h1538
+A 47 year old woman has suspected encephalitis. CT head is normal and she has had a lumbar puncture.
+CSF white cells 140 per mm³, 90% lymphocytes. CSF protein 0.9 g/L. CSF glucose 3.4 mmol/L. Plasma glucose 5.6 mmol/L.
+?Which is the most likely result pattern?
+
+@h1539
+A 47 year old woman with HSV encephalitis is on IV aciclovir. She has not been drinking much.
+eGFR has fallen from 85 to 28 mL/min/1.73 m². Creatinine 198 µmol/L.
+?Which is the most appropriate change?
+
+@h1540
+A 36 year old man has had a headache and fever for 10 days. Today his right arm became weak. He had a dental abscess 3 weeks ago.
+Temperature 38.2°C. There is weakness of the right arm.
+CT head with contrast shows a ring-enhancing lesion in the left frontoparietal lobe.
+?Which is the most likely diagnosis?
+
+@h1541
+A 36 year old man has a cerebral abscess. He has a headache and is drowsy.
+GCS 13.
+CRP 88 mg/L. White cell count 14.5 × 10⁹/L.
+?Which test should be avoided?
+
+@h1542
+A 36 year old man has a brain abscess after a dental infection. He needs empirical antibiotics. He had anaphylaxis to penicillin in the past.
+?Which is the most appropriate regimen?
+
+@h1543
+A 32 year old woman has worried constantly about her job, health and family for 7 months. She sleeps poorly, her muscles are tense and she cannot concentrate. She has no panic attacks.
+?Which is the most likely diagnosis?
+
+@h1544
+A 32 year old woman has symptoms of anxiety with palpitations and weight loss.
+Pulse rate 108 bpm. There is a fine tremor.
+TSH under 0.01 mU/L. Free T4 38 pmol/L. Haemoglobin 128 g/L. Glucose 5.4 mmol/L.
+?Which result best explains her symptoms?
+
+@h1545
+A 32 year old woman with generalised anxiety disorder has not improved with guided self-help and CBT. She would like medication.
+?Which is the most appropriate drug?
+
+@h1546
+A 28 year old paramedic attended a fatal crash 7 weeks ago. Since then he has had nightmares and flashbacks. He avoids the road where it happened, and he is jumpy and irritable.
+?Which is the most likely diagnosis?
+
+@h1547
+A 28 year old paramedic has post-traumatic stress disorder after a fatal crash. He describes several symptoms.
+?Which symptom belongs to the re-experiencing cluster?
+
+@h1548
+A 28 year old paramedic with post-traumatic stress disorder asks for treatment. He has asthma.
+?Which is the most appropriate first treatment?
+
+@h1549
+A 24 year old man spends 3 hours a day checking that the cooker is off and the doors are locked. He knows the fear is excessive, but he feels unbearably anxious if he resists.
+?Which is the most likely diagnosis?
+
+@h1550
+A 24 year old man has obsessive-compulsive disorder with checking rituals. He is offered psychological therapy.
+?Which is the most appropriate approach?

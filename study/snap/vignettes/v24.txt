@@ -1,0 +1,230 @@
+# h1201 to h1250
+
+@h1201
+A 34 year old man was in a car crash 8 months ago. He has flashbacks and nightmares about it. He avoids driving and jumps at loud noises. He is sleeping badly and his work is suffering.
+He is tense and startles easily during the consultation.
+?Which is the most likely diagnosis?
+
+@h1202
+A 28 year old woman was assaulted 6 months ago. She has nightmares and flashbacks, avoids going out alone and is constantly on edge. She is diagnosed with post-traumatic stress disorder. She would prefer a talking treatment.
+?Which is the most appropriate first-line treatment?
+
+@h1203
+Two days after a major incident at a factory, managers want a single compulsory group debriefing session for all staff to prevent post-traumatic stress disorder.
+?Which is the most appropriate advice?
+
+@h1204
+A 29 year old woman gave birth 6 weeks ago. She has intrusive thoughts that she might harm her baby, which horrify her. She checks the baby's breathing many times a night to calm the fear. She has no low mood, hallucinations or delusions.
+She is anxious but caring towards her baby. She has full insight.
+?Which is the most likely diagnosis?
+
+@h1205
+A 36 year old man has obsessive-compulsive disorder. He has had CBT with exposure and response prevention and two SSRIs at full dose for 12 weeks each. He still spends 4 hours a day on checking rituals.
+?Which is the most appropriate next drug?
+
+@h1206
+A 32 year old woman with obsessive-compulsive disorder started fluoxetine 6 weeks ago at a standard dose. Her symptoms have improved a little. She has no side effects.
+?Which is the most appropriate next step?
+
+@h1207
+A 35 year old woman is convinced she has bowel cancer. A colonoscopy, scans and blood tests are all normal, but reassurance does not last. She has few physical symptoms. She accepts it may be anxiety when calm.
+Examination is normal.
+?Which is the most likely diagnosis?
+
+@h1208
+A 42 year old man is in a legal dispute about compensation after an accident. He says he cannot walk. Nurses on the ward see him walk normally when he thinks no one is watching.
+Neurological examination shows no consistent abnormality.
+?Which is the most likely explanation?
+
+@h1209
+A 38 year old woman has had several unexplained physical symptoms for years, including pain, bloating and fatigue. She has seen many specialists and has had many normal tests. She attends the surgery often.
+?Which is the most appropriate management?
+
+@h1210
+A 19 year old woman with anorexia nervosa is seen in clinic. She feels dizzy and faint.
+BMI 12.8 kg/m². Pulse rate 38 bpm, BP 78/46 mmHg. Temperature 35.2°C.
+Potassium 2.9 mmol/L. ECG shows sinus bradycardia.
+?Which is the most appropriate management?
+
+@h1211
+A 22 year old woman binges on large amounts of food and then makes herself vomit several times a week. She feels out of control during binges.
+BMI 22 kg/m². There are calluses on her knuckles and both parotid glands are swollen.
+?Which is the most likely diagnosis?
+
+@h1212
+A 24 year old woman makes herself vomit daily. She has had palpitations and muscle cramps. Blood tests are sent.
+?Which result is most likely?
+
+@h1213
+A 24 year old woman has had stormy relationships since her teens. She self-harms often, feels chronically empty and has a frantic fear of being abandoned. Her mood changes within hours.
+She is not psychotic. Her mood has no sustained high or low episodes.
+?Which is the most likely diagnosis?
+
+@h1214
+A 26 year old woman has borderline personality disorder. She self-harms repeatedly. She asks about longer-term treatment.
+?Which treatment is most appropriate?
+
+@h1215
+A 35 year old man prefers to be alone and has no close friends. He shows little emotion and is indifferent to praise or criticism. He says he has no wish for relationships. He has no odd beliefs or unusual experiences.
+?Which is the most likely diagnosis?
+
+@h1216
+A 52 year old man who drinks heavily has been brought in by his wife because he has become confused over 2 days and is unsteady on his feet. He has eaten little for weeks.
+He is disorientated. There is horizontal nystagmus and an ataxic gait.
+Glucose 5.4 mmol/L.
+?Which is the most appropriate immediate treatment?
+
+@h1217
+A 54 year old man who drinks heavily was admitted 3 days ago with a broken ankle. He has become confused and agitated and says he can see insects on the walls.
+Temperature 38.1°C, pulse rate 128 bpm, BP 162/96 mmHg. He is sweating and has a coarse tremor.
+Glucose 5.8 mmol/L.
+?Which is the most likely diagnosis?
+
+@h1218
+A 56 year old man with decompensated alcohol-related cirrhosis was admitted with ascites. He last drank yesterday and now has a tremor and sweating. His CIWA score is rising.
+He is jaundiced with ascites. There is no flap.
+Bilirubin 110 µmol/L. Albumin 24 g/L. INR 1.9.
+?Which is the most appropriate drug?
+
+@h1219
+A 22 year old woman took paracetamol tablets on and off over 24 hours after an argument. She is not sure how many. She feels nauseated.
+She weighs 58 kg. Pulse rate 92 bpm, BP 118/72 mmHg.
+?Which is the most appropriate management?
+
+@h1220
+A 44 year old woman with bipolar disorder takes lithium. She started buying ibuprofen for back pain 10 days ago. She now has a coarse tremor, slurred speech and diarrhoea.
+She is alert but unsteady.
+Lithium level 2.1 mmol/L. Creatinine 74 µmol/L. Sodium 138 mmol/L.
+?Which is the most appropriate management?
+
+@h1221
+A 32 year old man has taken an overdose of amitriptyline. He is drowsy.
+Pulse rate 128 bpm, BP 85/50 mmHg. GCS 10.
+ECG shows a QRS duration of 140 ms. Venous pH 7.30.
+?Which is the most appropriate treatment?
+
+@h1222
+A 34 year old man with known schizophrenia has relapsed after stopping his medication. He believes his family are poisoning him and has not eaten for days. He refuses admission. His diagnosis and the treatment that works for him are known.
+?Which section of the Mental Health Act is most appropriate?
+
+@h1223
+Police find a distressed man in a public place threatening to jump from a bridge. He appears to be mentally unwell.
+?Which power allows them to take him to a place of safety?
+
+@h1224
+A 30 year old woman is an informal psychiatric inpatient. At night she tries to leave and is at serious risk of harming herself. No doctor can attend immediately. A qualified mental health nurse is present.
+?For how long can the nurse hold her?
+
+@h1225
+A 45 year old woman with severe depression has stopped talking, eating and moving over a week. She holds odd postures for hours.
+Temperature 36.9°C, pulse rate 88 bpm. She is mute and resists being moved. There is no rigidity.
+Creatine kinase is normal.
+?Which is the most appropriate first treatment?
+
+@h1226
+A 40 year old man has held his arm in the air for hours. When the examiner moves his limbs, they stay in the new position as if made of wax. He is mute. He is not on antipsychotics.
+Temperature 36.8°C, pulse rate 82 bpm.
+?Which is the most likely diagnosis?
+
+@h1227
+A psychiatrist is consenting a 68 year old woman with severe depression for ECT. The team reviews her medical history for contraindications.
+?Which condition is generally regarded as the only absolute contraindication to ECT?
+
+@h1228
+A 7 year old boy is brought by his parents. His teachers say he has poor eye contact and does not join in group play. At home he lines up his toys and becomes very upset at any change to his routine. He takes jokes literally.
+His speech is fluent and his hearing is normal.
+?Which is the most likely diagnosis?
+
+@h1229
+A 5 year old girl rarely makes eye contact, does not point to share interest and has repetitive hand flapping. Her parents are worried. Her GP suspects autism.
+?Which is the most appropriate next step?
+
+@h1230
+A 15 year old autistic boy has severe aggression towards his family. It has not responded to behavioural approaches over a year. There is no medical cause.
+?Which drug may be considered?
+
+@h1231
+A 32 year old woman with bipolar disorder gave birth 10 days ago. Over 2 days she has become confused and sleepless. She says her baby is evil.
+She is agitated, distractible and responding to voices.
+?Which is the most likely diagnosis?
+
+@h1232
+A 29 year old woman gave birth 2 months ago and is breastfeeding. She has moderate postnatal depression and wants medication alongside therapy.
+?Which is the most appropriate choice?
+
+@h1233
+A 33 year old woman with bipolar disorder stopped lithium for her pregnancy. She is 30 weeks pregnant and well. Her care team is planning her perinatal care.
+?When is her risk of relapse highest?
+
+@h1234
+An 84 year old woman with a urinary infection has been confused for 2 days. Her family say she was sharp last week. She is drowsy in the morning and agitated at night.
+Temperature 37.9°C. She cannot keep her attention on a conversation and cannot say the months backwards.
+?Which is the most likely diagnosis?
+
+@h1235
+A 76 year old man with Parkinson's disease is in hospital with pneumonia and has delirium. He is very agitated and at risk of hurting himself. Non-drug measures have failed.
+?Which is the most appropriate drug?
+
+@h1236
+An 80 year old man was admitted with pneumonia 2 days ago. He has become quiet, sleepy and withdrawn and is not eating. His family say this is not like him.
+Temperature 37.8°C. He is drowsy but rousable and cannot name the months backwards.
+His 4AT score is 6.
+?Which is the most likely diagnosis?
+
+@h1237
+A 45 year old man lost his job 3 weeks ago. He is preoccupied with it, worried and sleeping poorly, but still manages at home. He still enjoys some things and has no suicidal thoughts.
+?Which is the most likely diagnosis?
+
+@h1238
+A 38 year old woman has been worried and tearful since her house was repossessed. Her GP considers adjustment disorder.
+?Within what time after a stressor do the symptoms of adjustment disorder usually begin?
+
+@h1239
+A 42 year old woman has an adjustment disorder after her divorce 2 months ago. She is sad and worried, but she is working and has no suicidal thoughts.
+?Which is the most appropriate management?
+
+@h1240
+A 32 year old woman avoids buses, supermarkets and crowds because she fears she could not escape or get help if she panicked. She now rarely leaves home.
+?Which is the most likely diagnosis?
+
+@h1241
+A 34 year old man has a specific phobia of dogs. It stops him walking to work. He has no other anxiety symptoms.
+?Which is the most appropriate treatment?
+
+@h1242
+A 24 year old woman faints whenever she has a blood test. She feels her heart race first, and then she passes out.
+?Which technique is most appropriate?
+
+@h1243
+An 8 year old boy has ADHD that still severely affects his schooling. Changes to his classroom and a parent training programme have been tried. He has no heart disease.
+?Which is the most appropriate first drug?
+
+@h1244
+A 9 year old boy with ADHD is about to start methylphenidate.
+?Which baseline measures are needed?
+
+@h1245
+A 10 year old boy has taken methylphenidate for 18 months. His ADHD is well controlled. He is eating less and his height is falling across the centiles.
+His height has fallen from the 50th to the 25th centile.
+?Which is the most appropriate step?
+
+@h1246
+A 13 year old boy has repeatedly hurt the family dog and set fire to a shed. He steals from shops and often stays out all night.
+?Which is the most likely diagnosis?
+
+@h1247
+A 6 year old boy is often angry and argumentative. He refuses to follow rules at home and deliberately annoys others. There is no violence or cruelty. He is diagnosed with oppositional defiant disorder.
+?Which is the most appropriate first intervention?
+
+@h1248
+A 19 year old man has stolen, lied and been violent since the age of 12. He shows no remorse. He has been excluded from school and has lost several jobs.
+?Which is the most likely diagnosis?
+
+@h1249
+A 15 year old girl has an intellectual disability. She needs support with daily living. Formal testing gives an IQ of 45.
+?How is her intellectual disability classed?
+
+@h1250
+A 16 year old boy has a learning disability. He has autistic features.
+He has a long face, large ears and flexible joints. His testes are large.
+?Which is the most likely diagnosis?

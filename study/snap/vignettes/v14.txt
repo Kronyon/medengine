@@ -1,0 +1,231 @@
+# h0701 to h0750
+
+@h0701
+A 64 year old man started ramipril 2.5 mg for hypertension 2 weeks ago. He feels well.
+BP 138/84 mmHg.
+Creatinine before treatment 100 µmol/L. Creatinine now 118 µmol/L. Potassium 5.0 mmol/L.
+?Which is the most appropriate action?
+
+@h0702
+A 34 year old woman takes ramipril 5 mg for essential hypertension. Her blood pressure is well controlled. She and her partner plan to start trying for a baby in the next few months.
+BP 128/78 mmHg. Kidney function is normal.
+?Which is the most appropriate advice?
+
+@h0703
+A 70 year old man started indapamide for hypertension 3 months ago. He has come in with a painful, red, swollen big toe joint.
+?Which problem is indapamide most likely to cause?
+
+@h0704
+An 81 year old woman takes indapamide for hypertension. She has become unsteady and confused over a week and has fallen once. She is eating and drinking normally.
+She is clinically euvolaemic. BP 132/78 mmHg.
+Sodium 124 mmol/L. Potassium 3.3 mmol/L. Glucose 5.6 mmol/L.
+?Which is the most appropriate next step?
+
+@h0705
+A 78 year old man with heart failure is on high-dose IV furosemide for fluid overload. He now has a urinary tract infection with sepsis, and an antibiotic is being chosen.
+?Which antibiotic most raises the risk of hearing damage when combined with furosemide?
+
+@h0706
+A 72 year old man with heart failure with reduced ejection fraction takes ramipril, bisoprolol and spironolactone 25 mg. He feels well.
+Pulse rate 64 bpm, BP 118/72 mmHg.
+Potassium 6.1 mmol/L. Creatinine 132 µmol/L. ECG shows no changes of hyperkalaemia.
+?Which is the most appropriate next step?
+
+@h0707
+A 42 year old woman has hypertension that needed three drugs to control. She feels tired and has occasional muscle cramps. She takes no diuretics or laxatives.
+BP 162/98 mmHg.
+Potassium 3.0 mmol/L. Sodium 144 mmol/L. Bicarbonate 31 mmol/L.
+?Which is the most appropriate investigation?
+
+@h0708
+A 56 year old man with alcohol-related cirrhosis has abdominal swelling that is increasing over 3 weeks. He has stopped drinking.
+There is tense ascites with shifting dullness. There is no fever or abdominal tenderness.
+Sodium 134 mmol/L. Creatinine 78 µmol/L. Ascitic neutrophil count is normal.
+?Which is the most appropriate first diuretic?
+
+@h0709
+An 82 year old woman takes digoxin for atrial fibrillation. She has had nausea, confusion and has seen yellow-green halos around lights for 3 days. She started a new medicine for blood pressure last month.
+Pulse rate 48 bpm, irregular. BP 128/72 mmHg.
+Potassium 3.1 mmol/L. Creatinine 142 µmol/L.
+?Which is the most likely diagnosis?
+
+@h0710
+A 76 year old man has atrial fibrillation treated with digoxin. He has also been started on a diuretic. The pharmacist reminds the team to monitor his electrolytes.
+?Which electrolyte disturbance most increases the risk of digoxin toxicity?
+
+@h0711
+A 78 year old woman with digoxin toxicity has runs of ventricular tachycardia on the monitor. She is drowsy.
+Pulse rate 140 bpm, BP 92/58 mmHg.
+Potassium 6.2 mmol/L. Digoxin level is high.
+?Which is the most appropriate treatment?
+
+@h0712
+A 68 year old man with paroxysmal atrial fibrillation and heart failure is starting long-term amiodarone. He has no lung disease.
+?Which baseline tests are needed?
+
+@h0713
+A 30 year old woman with asthma has had palpitations for 40 minutes.
+Pulse rate 180 bpm, regular. BP 120/78 mmHg. She has no chest pain or breathlessness.
+ECG shows a regular narrow complex tachycardia. Vagal manoeuvres, including the modified Valsalva manoeuvre, have not worked.
+?Which drug is most appropriate?
+
+@h0714
+A 62 year old man has paroxysmal atrial fibrillation with attacks every month or two. He is considering flecainide as a pill in the pocket. He takes apixaban and has well-controlled hypertension.
+?Which history makes flecainide unsuitable?
+
+@h0715
+A 58 year old man has started simvastatin 40 mg for primary prevention of cardiovascular disease. He asks when during the day he should take it.
+?When should he take simvastatin?
+
+@h0716
+A 66 year old woman takes simvastatin 40 mg daily. She has a chest infection and is allergic to penicillin. Her GP plans a 7-day course of clarithromycin.
+?Which is the most appropriate advice about her statin?
+
+@h0717
+A 58 year old man started atorvastatin 20 mg 3 months ago. He feels well and has no muscle aches.
+ALT is twice the upper limit of normal. Bilirubin is normal.
+?Which is the most appropriate action?
+
+@h0718
+A 72 year old woman has atrial fibrillation and is starting warfarin because she has severe kidney disease. She asks what her blood test target will be.
+?What is the target INR for warfarin in atrial fibrillation?
+
+@h0719
+A 76 year old man takes warfarin for atrial fibrillation. A routine INR check is 9. He has no bleeding, bruising or blood in his urine or stools.
+?Which is the most appropriate management?
+
+@h0720
+A 58 year old woman with a mechanical heart valve takes warfarin. Her INR has been stable at 2.6 for months but has now fallen to 1.4. A new medicine was started by the neurologist 2 weeks ago.
+?Which drug is most likely to have caused the fall in INR?
+
+@h0721
+An 82 year old woman with atrial fibrillation is starting apixaban. She weighs 58 kg.
+Creatinine 90 µmol/L.
+?Which apixaban dose is most appropriate?
+
+@h0722
+A 78 year old man taking dabigatran for atrial fibrillation fell and has a large intracranial haemorrhage. He took his last dose 4 hours ago.
+?Which is the specific reversal agent?
+
+@h0723
+A 64 year old woman has atrial fibrillation and moderate rheumatic mitral stenosis on echocardiogram. She is to start anticoagulation.
+?Which anticoagulant is most appropriate?
+
+@h0724
+A 68 year old woman had a hip replacement 7 days ago and has been on enoxaparin since. She now has a painful swollen left calf.
+Platelets before surgery 250 × 10⁹/L. Platelets today 90 × 10⁹/L. Duplex ultrasound shows a new deep vein thrombosis.
+?Which is the most likely diagnosis?
+
+@h0725
+A 66 year old man on the cardiac ward was given a large dose of IV unfractionated heparin by mistake. He is now bleeding from his cannula sites and has haematuria.
+APTT is greatly prolonged.
+?Which drug reverses the heparin?
+
+@h0726
+A 74 year old woman has a pulmonary embolism. She has chronic kidney disease with an eGFR of 18 mL/min/1.73 m² and is not on dialysis. She needs treatment-dose anticoagulation in hospital.
+?Which anticoagulant is most appropriate?
+
+@h0727
+A 66 year old man has had weakness of his left arm and leg and slurred speech for 2 hours. He was well when he went to the shops.
+BP 172/94 mmHg. Glucose 6.4 mmol/L. His NIHSS score is 9.
+CT head shows no haemorrhage.
+?Which is the most appropriate treatment?
+
+@h0728
+A 72 year old woman has had right-sided weakness and aphasia for 90 minutes. CT head shows no haemorrhage and she is otherwise eligible for thrombolysis.
+BP 200/115 mmHg on repeated readings.
+?Which is the most appropriate next step?
+
+@h0729
+A 78 year old man has had an acute ischaemic stroke 2 hours ago and thrombolysis is being considered. The stroke registrar goes through the checklist for contraindications.
+?Which of these is an absolute contraindication to thrombolysis?
+
+@h0730
+A 56 year old woman with type 2 diabetes started dapagliflozin 2 months ago. She asks which side effects are common.
+?Which side effect is most common with dapagliflozin?
+
+@h0731
+A 62 year old man with type 2 diabetes takes metformin and dapagliflozin. He has had gastroenteritis for a day and cannot keep fluids down. He phones for advice.
+?Which is the most appropriate advice about dapagliflozin?
+
+@h0732
+A 60 year old man without diabetes has chronic kidney disease. He takes ramipril at the maximum dose.
+BP 132/82 mmHg.
+eGFR 40 mL/min/1.73 m². Urine albumin to creatinine ratio 40 mg/mmol. HbA1c 38 mmol/mol.
+?Which drug should be added?
+
+@h0733
+A 28 year old man with asthma has used his salbutamol inhaler many times today during an attack. He notices a new symptom.
+?Which side effect is most likely?
+
+@h0734
+A 34 year old woman with asthma is having an attack at home. She is breathless and has called an ambulance. She has a salbutamol inhaler and a spacer.
+?How should she use her salbutamol inhaler while waiting?
+
+@h0735
+A 26 year old woman with acute severe asthma has had back-to-back nebulised salbutamol and IV hydrocortisone over 2 hours. She is improving.
+?Which blood level is most important to monitor?
+
+@h0736
+A 48 year old man uses a high-dose beclometasone inhaler for asthma. For 2 weeks he has had white plaques on his tongue and a hoarse voice. He does not use a spacer.
+?Which is the most appropriate advice?
+
+@h0737
+A 32 year old woman with asthma brings a bag of inhalers to her review. The nurse checks that her regimen is safe.
+?Which inhaler regimen is unsafe in asthma?
+
+@h0738
+A 36 year old woman with asthma uses budesonide with formoterol 200/6 as maintenance and reliever therapy. She asks how many puffs she can take in a day when her asthma is worse.
+?What is the usual maximum number of inhalations in a single day?
+
+@h0739
+A 9 year old boy with asthma started a new tablet 3 weeks ago. Since then he has had nightmares, agitation and low mood. His other asthma medicines have not changed.
+?Which drug is most likely responsible?
+
+@h0740
+A 66 year old woman with COPD takes theophylline. She started ciprofloxacin for a urinary infection 3 days ago. She now has vomiting and palpitations.
+Pulse rate 128 bpm, regular. She is alert.
+?Which is the most likely explanation?
+
+@h0741
+A 70 year old man with COPD takes theophylline. A blood level is checked at his review.
+?What is the usual target range for a theophylline level?
+
+@h0742
+A 68 year old man has an exacerbation of COPD with increased breathlessness. He is well enough to be treated at home. Oral steroids are to be prescribed.
+?Which is the usual oral steroid dose?
+
+@h0743
+A 26 year old woman has taken prednisolone 40 mg daily for 5 days for an asthma attack. She has not had steroids in the past year. Her asthma has settled.
+?How should the prednisolone be stopped?
+
+@h0744
+A 66 year old man with type 2 diabetes controlled on metformin is taking prednisolone 30 mg each morning for an exacerbation of COPD. His morning glucose is 7 mmol/L, but in the afternoon it is 18 mmol/L.
+?Which is the most appropriate step?
+
+@h0745
+A 45 year old woman smokes 20 cigarettes a day and wants to quit. She has no other illnesses and is not pregnant. She would like a medicine to help.
+?Which is the most effective single drug?
+
+@h0746
+A 34 year old man with epilepsy wants help to stop smoking. His seizures are controlled with lamotrigine.
+?Which drug should be avoided?
+
+@h0747
+A 38 year old man with schizophrenia takes clozapine and smokes 30 cigarettes a day. He stopped smoking 2 weeks ago. He is now drowsy and drooling. His clozapine dose has not changed.
+?Which is the most likely explanation?
+
+@h0748
+A 70 year old man finished a 7-day course of flucloxacillin for cellulitis 3 weeks ago. He now has jaundice, itch and pale stools.
+He is jaundiced. The abdomen is soft with no masses.
+ALP 520 IU/L. ALT 96 IU/L. Bilirubin 110 µmol/L. Ultrasound shows a normal-calibre bile duct with no gallstones.
+?Which is the most likely cause?
+
+@h0749
+A 28 year old woman says she is allergic to amoxicillin. When asked about the reaction, she says it gave her diarrhoea when she took it for a chest infection. She had no rash, swelling or breathing problems.
+?Which is the best interpretation of her reaction?
+
+@h0750
+A 32 year old man with secondary syphilis was given intramuscular benzathine penicillin. Four hours later he has fever, rigors, headache and muscle aches. His rash looks more prominent.
+Temperature 38.6°C, pulse rate 104 bpm, BP 124/76 mmHg. There is no wheeze, lip swelling or urticaria.
+?Which is the most likely explanation?

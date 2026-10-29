@@ -1,0 +1,243 @@
+# h0201 to h0250
+
+@h0201
+A 60 year old woman has had severe pain in her right eye for 3 hours with a headache and vomiting. She has seen haloes around lights. It started while she was watching television in a dark room. She is long-sighted.
+Visual acuity is 6/36 in the right eye and 6/9 in the left. The right eye is red with a hazy cornea and a fixed, mid-dilated pupil. The eye feels hard on gentle palpation through the lid.
+?Which is the most likely diagnosis?
+
+@h0202
+A 34 year old woman has had a lump in her left upper eyelid for 2 months. It has slowly grown but is not painful. She has blepharitis.
+There is a 6 mm firm, non-tender, round swelling in the upper lid, away from the lid margin. The overlying skin is normal and not red. There is no lash loss.
+?Which is the most likely diagnosis?
+
+@h0203
+A 52 year old man has had gritty, itchy eyes for 6 months, worse in the mornings. His vision is normal.
+The eyelid margins are red and thickened with crusting at the base of the lashes. The conjunctivae are mildly injected. The corneas are clear.
+?Which is the most appropriate first treatment?
+
+@h0204
+A 70 year old woman has had a lump on her right lower eyelid for 8 months. It has slowly grown and occasionally bleeds. She has worked outdoors all her life.
+There is a 5 mm pearly nodule on the lower lid margin with telangiectasia over its surface and loss of the eyelashes over it.
+?Which is the most likely diagnosis?
+
+@h0205
+A 2 day old baby boy has sticky discharge from both eyes. The midwife noticed marked eyelid swelling this morning. His mother had no antenatal sexual health screening.
+Both eyelids are very swollen with copious purulent discharge. The conjunctivae are red.
+?Which is the most likely cause?
+
+@h0206
+A 26 year old woman who wears monthly soft contact lenses has had a red, painful left eye for 1 day. Her vision in that eye is blurred and bright light hurts.
+Visual acuity is 6/18 in the left eye and 6/6 in the right. The left eye is red around the cornea. Fluorescein shows a small corneal defect with a white opacity.
+?Which is the most appropriate next step?
+
+@h0207
+A 6 year old girl has had red, sticky eyes for 2 days. She is otherwise well and her vision is normal.
+Both conjunctivae are red with mucopurulent discharge. The corneas are clear. Her mother asks when she can go back to school.
+?When can she return to school?
+
+@h0208
+A 38 year old man has had a painful, red, watery right eye for 2 days. He had a cold sore last week.
+Visual acuity is 6/9 in the right eye. Fluorescein staining shows a branching dendritic ulcer on the cornea.
+?Which eye drops should be avoided?
+
+@h0209
+A 29 year old man who wears soft contact lenses has had a very painful right eye for 5 days. He rinses his lenses and case with tap water and sometimes swims in them.
+Visual acuity is 6/24 in the right eye. The eye is red with a ring-shaped stromal infiltrate on the cornea. The pain seems out of proportion to the findings.
+?Which organism is most likely?
+
+@h0210
+A 68 year old woman has had a painful blistering rash on the right side of her forehead for 2 days.
+There are grouped vesicles on an erythematous base over the right forehead and upper eyelid, and vesicles on the tip of the nose. The right eye is slightly red. Visual acuity is 6/6.
+?Which complication is she most at risk of?
+
+@h0211
+A 28 year old man has had a painful red right eye and blurred vision for 2 days. Bright light makes the pain worse. He has had back stiffness in the mornings for a year that improves with exercise.
+Visual acuity is 6/12 in the right eye. There is redness around the cornea. The right pupil is small and irregular. There is no discharge.
+?Which is the most likely diagnosis?
+
+@h0212
+A 34 year old woman has had a painful, red, photophobic left eye for 3 days. Slit-lamp examination by ophthalmology shows cells and flare in the anterior chamber. Intraocular pressure is normal and there is no corneal ulcer.
+?Which is the most appropriate treatment?
+
+@h0213
+A 4 year old girl has been diagnosed with oligoarticular juvenile idiopathic arthritis affecting her left knee and right ankle. Her antinuclear antibody is positive. She has no eye symptoms and her eyes look normal.
+?Which eye screening is most appropriate?
+
+@h0214
+A 35 year old man has had a red patch in his left eye for 2 days. It is mildly sore but his vision is normal and he has no discharge or photophobia.
+There is a localised patch of redness on the temporal side of the white of the eye. The red vessels move over the sclera when pushed with a cotton bud, and the redness fades after phenylephrine drops.
+?Which is the most likely diagnosis?
+
+@h0215
+A 58 year old woman has had a deep, boring pain in her right eye for 4 days that wakes her at night. The eye is very red and tender. Ophthalmology confirm scleritis.
+?Which condition is most commonly associated?
+
+@h0216
+A 54 year old woman has had a painful red eye for a week. Ophthalmology diagnose non-necrotising anterior scleritis with no infection. Her kidney function is normal and she has no history of peptic ulcer.
+?Which is the most appropriate first treatment?
+
+@h0217
+A 66 year old woman has had severe left eye pain, blurred vision and vomiting for 2 hours. Her left eye is red with a hazy cornea and a fixed, mid-dilated pupil. Intraocular pressure is 58 mmHg in the left eye. She has no asthma or sulfonamide allergy.
+Ophthalmology are on their way.
+?Which drug combination should be given first?
+
+@h0218
+A 64 year old man has primary open-angle glaucoma. He starts latanoprost eye drops each evening in both eyes. He asks about side effects.
+?Which side effect is most likely?
+
+@h0219
+A 52 year old woman has routine eye tests at her optometrist. She has no symptoms.
+Her intraocular pressure is 28 mmHg in both eyes. The optic discs look healthy with a normal cup to disc ratio. Visual fields and central corneal thickness are normal.
+?Which is the most likely diagnosis?
+
+@h0220
+A 6 year old girl has had a red, swollen left upper eyelid for 1 day after a scratch from her cat.
+Temperature 37.8°C. The left upper lid is red and swollen. She can open her eye. Eye movements are full and painless, there is no proptosis and visual acuity is 6/6 in both eyes.
+?Which is the most likely diagnosis?
+
+@h0221
+A 7 year old boy has had a swollen, red left eye for 2 days after a cold. He now has pain on moving the eye.
+Temperature 38.9°C. The left lid is swollen shut. When the lid is opened there is proptosis and reduced eye movement, and visual acuity is reduced. Orbital cellulitis is suspected.
+?Which imaging is most appropriate?
+
+@h0222
+A 9 year old girl is being treated for left orbital cellulitis. Over the last 12 hours she has developed a severe headache and vomiting, and her right eye has also become swollen.
+Temperature 39.4°C, pulse rate 136 bpm. Both eyes are proptosed with reduced movements in all directions. She is drowsy.
+?Which is the most likely complication?
+
+@h0223
+A 58 year old man has noticed a dark shadow spreading across the vision of his right eye since this morning. Two days ago he saw flashing lights and many new floaters. He is short-sighted. There is no pain.
+Visual acuity is 6/12 in the right eye. There is a superior field defect on confrontation.
+?Which is the most likely diagnosis?
+
+@h0224
+A 54 year old woman had flashes and floaters followed by a shadow in her left eye this morning. Her central vision is still good. Dilated fundoscopy shows a superior retinal detachment that does not involve the macula.
+?How urgently is surgery needed?
+
+@h0225
+A 48 year old woman asks about her risk of retinal detachment after her brother needed surgery for one. You explain which features increase the risk.
+?Which group is most at risk of retinal detachment?
+
+@h0226
+A 70 year old man with hypertension woke up with blurred vision in his left eye. It is painless.
+Visual acuity is 6/60 in the left eye. There is a relative afferent pupillary defect. Fundoscopy shows widespread flame and blot haemorrhages in all four quadrants, dilated tortuous veins and a swollen optic disc.
+?Which is the most likely diagnosis?
+
+@h0227
+A 75 year old woman has had a new headache over her right temple for 2 weeks and pain in her jaw when chewing. This morning she suddenly lost the vision in her right eye. It is painless.
+Visual acuity is hand movements in the right eye. The right temporal artery is thickened and tender. ESR 92 mm/hr. CRP 64 mg/L.
+?Which is the most important next step?
+
+@h0228
+A 68 year old man had sudden painless loss of vision in his left eye this morning, like a curtain coming down. It lasted 5 minutes and recovered completely. He has hypertension and smokes.
+His vision is now 6/6 in both eyes. There is a bruit over the left carotid artery.
+?Which is the most likely cause?
+
+@h0229
+A 76 year old man had cataract surgery on his right eye 3 days ago. Since yesterday the eye has become increasingly painful and red and his vision has worsened.
+Visual acuity is hand movements in the right eye. The eye is very red with lid swelling. There is a fluid level of pus in the anterior chamber.
+?Which is the most likely diagnosis?
+
+@h0230
+A 72 year old woman had uncomplicated cataract surgery on her left eye a year ago, after which her vision was excellent. Over the last few months her vision in that eye has gradually become blurred and she has glare from headlights.
+Visual acuity is 6/18 in the left eye. The eye is white and painless. There is a hazy membrane behind the lens implant.
+?Which is the most likely cause?
+
+@h0231
+A 6 week old baby girl has a white reflection in her right pupil on a flash photograph taken by her parents. The left eye looks normal in photos. She feeds well.
+The red reflex is absent in the right eye and normal in the left.
+?Which is the most important diagnosis to exclude?
+
+@h0232
+A 78 year old woman has noticed that straight lines look wavy in her right eye for 2 weeks. Her central vision has become blurred.
+Visual acuity is 6/24 in the right eye. Optical coherence tomography shows fluid beneath the macula with a choroidal neovascular membrane. She is diagnosed with wet macular degeneration.
+?Which is the most appropriate treatment?
+
+@h0233
+A 74 year old woman has gradual central blurring of vision in both eyes. Fundoscopy shows drusen and pigment changes at both maculae with no fluid or haemorrhage. She is diagnosed with dry macular degeneration. She smokes 15 cigarettes a day.
+?Which is the most appropriate advice?
+
+@h0234
+A 72 year old man has wet macular degeneration in his left eye, which is being treated. His right eye has dry macular degeneration. He asks how he can check his right eye at home for signs that it has turned wet.
+?Which test best detects new central distortion at home?
+
+@h0235
+A 64 year old woman with poorly controlled type 2 diabetes has had double vision and a drooping right eyelid since yesterday, with an ache above the eye.
+There is right ptosis and the right eye rests down and out. The right pupil is equal in size to the left and reacts normally to light. Other cranial nerves are normal.
+?Which is the most likely cause?
+
+@h0236
+A 48 year old man has had headaches for 6 months. He has recently started bumping into people on both sides when walking through crowds.
+Visual acuity is 6/9 in both eyes. Confrontation testing shows a bitemporal hemianopia. The rest of the neurological examination is normal.
+?Which is the most likely cause?
+
+@h0237
+A 64 year old man has had a cough for 3 months, pain in his left shoulder radiating down the inner arm, and has lost 6 kg. He has smoked for 45 years.
+There is mild left ptosis with a small left pupil. The left side of his face is dry to touch compared with the right. There is wasting of the small muscles of the left hand.
+?Which is the most likely cause?
+
+@h0238
+A 34 year old man was hammering metal without goggles when something struck his right eye 1 hour ago. He has severe pain and blurred vision.
+A small metal fragment can be seen protruding from the cornea. The pupil is slightly irregular. He is in pain and nauseated.
+?Which should be avoided?
+
+@h0239
+A 24 year old woman was hit in the right eye by a squash ball 4 hours ago. Her vision is blurred.
+Visual acuity is 6/18 in the right eye. There is a 2 mm layer of blood in the lower anterior chamber in front of the iris. The globe is intact.
+?Which is the most likely diagnosis?
+
+@h0240
+A 26 year old man was punched in the right eye 3 hours ago. He has double vision when he looks up.
+There is bruising and swelling around the right eye. He cannot elevate the right eye fully. There is numbness of the right cheek and upper lip. Visual acuity is 6/6.
+?Which is the most likely diagnosis?
+
+@h0241
+A 27 year old man has had greasy, foul-smelling diarrhoea, bloating and excess wind for 3 weeks. He went camping in Wales a month ago and drank water from a stream. There has been no blood in the stool and he has no fever.
+Temperature 36.9°C. The abdomen is mildly distended and non-tender. He has lost 3 kg.
+?Which organism is most likely?
+
+@h0242
+A 30 year old woman developed watery diarrhoea 3 days after arriving in Mexico on holiday. She has 5 loose stools a day with cramps. There is no blood and she has no fever.
+Temperature 37.1°C, pulse rate 88 bpm. The abdomen is soft with mild generalised tenderness.
+?Which organism is most likely?
+
+@h0243
+A 34 year old chef had sudden vomiting and diarrhoea 3 days ago, as did several people at the restaurant. Stool testing confirms norovirus. His last episode of diarrhoea was 24 hours ago and he feels well.
+He asks when he can return to work in the kitchen.
+?When can he return to work?
+
+@h0244
+A 23 year old woman has had diarrhoea, crampy right lower abdominal pain and weight loss for 4 months. She smokes 15 cigarettes a day. She has had mouth ulcers.
+There is tenderness in the right iliac fossa and a perianal skin tag.
+Colonoscopy shows patchy deep ulcers with normal mucosa in between. Biopsies show transmural inflammation with non-caseating granulomas.
+?Which is the most likely diagnosis?
+
+@h0245
+A 29 year old woman with ulcerative colitis has had a severe flare for 5 days with 12 bloody stools a day. She has been on intravenous hydrocortisone for 3 days.
+Temperature 38.4°C, pulse rate 120 bpm, BP 98/60 mmHg. The abdomen is distended and tender with reduced bowel sounds.
+Abdominal X-ray shows a dilated transverse colon measuring 7.5 cm across.
+?Which is the most likely diagnosis?
+
+@h0246
+A 32 year old man has had ulcerative colitis for 10 years. His colitis has been in remission on mesalazine. He asks which complications could develop even when his bowel is quiet, and which tend to flare with his bowel disease.
+?Which extraintestinal feature runs a course independent of bowel activity?
+
+@h0247
+A 22 year old woman attends with her mother, who is worried about her weight. She has been eating very little for 6 months.
+She weighs 45 kg and is 1.65 m tall. Pulse rate 56 bpm, BP 96/60 mmHg.
+?Which is her BMI?
+
+@h0248
+A 78 year old woman has been admitted with pneumonia. She has eaten little for a week. On admission her MUST score is 2.
+?Which is the most appropriate action?
+
+@h0249
+A 48 year old man who drinks a bottle of vodka a day has had swelling of his ankles and breathlessness for a month. He eats little and lives alone.
+Pulse rate 112 bpm, bounding. BP 132/58 mmHg. His hands are warm. There is pitting oedema to the knees and a raised JVP. There is reduced sensation in a stocking distribution and absent ankle reflexes.
+Echocardiogram shows a dilated heart with high cardiac output.
+?Which deficiency is most likely?
+
+@h0250
+A 28 year old woman of East Asian family origin has had bloating, wind and loose stools for a year. Symptoms start within a few hours of drinking milk or eating ice cream and settle when she avoids dairy.
+Abdominal examination is normal. Full blood count is normal. Tissue transglutaminase antibody is negative with a normal total IgA.
+?Which is the most likely diagnosis?

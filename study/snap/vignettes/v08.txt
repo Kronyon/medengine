@@ -1,0 +1,248 @@
+# h0401 to h0450
+
+@h0401
+A 76 year old woman had a left total hip replacement 12 years ago. For 6 months she has had pain in her left groin and thigh when she starts to walk, which eases after a few minutes. She has had no fever.
+Temperature 36.8°C. The scar is healed and the hip is not warm. Movement is mildly painful.
+CRP 3 mg/L. X-ray shows a lucent line around the femoral stem and cement.
+?Which is the most likely diagnosis?
+
+@h0402
+A 68 year old man had a right total hip replacement 3 months ago. For 2 weeks he has had increasing pain in the hip and feels feverish. The wound healed slowly after surgery.
+Temperature 38.2°C, pulse rate 96 bpm. The hip is warm and painful on movement. There is a small area of redness at the lower end of the scar.
+CRP 96 mg/L.
+?Which is the most important diagnosis to exclude?
+
+@h0403
+A 32 year old woman has had a throbbing headache on the left side for 12 hours, with nausea and sensitivity to light. Before it began she saw zigzag lines spreading across her vision for 20 minutes, which then cleared. She has had similar episodes since her teens.
+Neurological examination and fundoscopy are normal. BP 118/74 mmHg.
+?Which is the most likely diagnosis?
+
+@h0404
+A 30 year old woman has migraine with aura. She is in a new relationship and asks about contraception. She is a non-smoker with a BMI of 24 and BP 116/72 mmHg.
+?Which method should she avoid?
+
+@h0405
+A 58 year old woman has had a new headache over both temples for 3 weeks. Her jaw aches when she chews and her scalp is tender when she brushes her hair. Her shoulders are stiff in the mornings. Her vision is normal.
+Both temporal arteries are tender with reduced pulsation. Visual acuity and fundoscopy are normal.
+ESR 85 mm/hr. CRP 56 mg/L.
+?Which is the most appropriate next step?
+
+@h0406
+A 28 year old woman has had headaches for 2 months that are worse on lying down and in the morning, with episodes of blurred vision. Her BMI is 38. She takes no regular medicines.
+There is bilateral papilloedema. Neurological examination is otherwise normal.
+CT head with venography is normal. Lumbar puncture opening pressure is 35 cm H2O with normal CSF constituents.
+?Which is the most likely diagnosis?
+
+@h0407
+A 34 year old man was hit on the head with a bottle and has been brought to the emergency department.
+His GCS has fallen from 12 to 9 over an hour. His right pupil is now fixed and dilated. BP 168/88 mmHg, pulse rate 56 bpm.
+?Which is the most likely cause of the pupil change?
+
+@h0408
+A 66 year old man who takes aspirin tripped and hit his head on a kerb 2 hours ago. He was knocked out for about 1 minute and has vomited once.
+His GCS was 15 when he arrived. On reassessment 2 hours after the injury, his GCS is 13. There is no sign of a skull fracture.
+?Which finding requires a CT head within 1 hour?
+
+@h0409
+A 44 year old woman had a sudden, severe occipital headache 3 days ago while lifting shopping. It peaked within a minute. She did not go to hospital. She now feels well apart from a mild headache.
+Neurological examination is normal and there is no neck stiffness.
+CT head is normal.
+?Which is the most appropriate next step?
+
+@h0410
+A 52 year old woman had a subarachnoid haemorrhage from an anterior communicating artery aneurysm, which was coiled 5 days ago. She has been taking nimodipine. Today she is confused and has new weakness of her right arm.
+Temperature 37.2°C, BP 138/84 mmHg. Sodium 136 mmol/L. Glucose 6.0 mmol/L.
+CT head shows no new bleeding and no hydrocephalus.
+?Which is the most likely cause?
+
+@h0411
+A 38 year old man with autosomal dominant polycystic kidney disease has had a sudden, severe headache for 2 hours, the worst of his life. He is being assessed for a subarachnoid haemorrhage and asks why his kidney condition makes this more likely.
+?Why is he at higher risk?
+
+@h0412
+A 24 year old man was hit on the side of the head with a cricket ball. He was knocked out for a minute, then talked normally. Two hours later he has become drowsy and confused.
+His GCS is 11. His left pupil is larger than his right. There is a boggy swelling over the left temple.
+CT head shows a lens-shaped, biconvex collection of blood under the left temporal bone.
+?Which is the most likely diagnosis?
+
+@h0413
+A 72 year old man fell and hit his head 6 hours ago. He takes clopidogrel. He has become increasingly drowsy.
+CT head shows a crescent-shaped collection of blood along the convexity of the right hemisphere that crosses the suture lines. He is diagnosed with an acute subdural haematoma.
+?Which vessels are most often injured in an acute subdural haematoma?
+
+@h0414
+An 80 year old man who takes apixaban for atrial fibrillation fell 2 days ago. He has become confused and has a headache. He took his last dose of apixaban this morning.
+His GCS is 13. There is mild left-sided weakness.
+CT head shows a right-sided subdural haematoma with midline shift. The neurosurgical team has been contacted.
+?Which is the most appropriate first drug step?
+
+@h0415
+A 22 year old woman has had a severe headache, fever and neck stiffness for 12 hours.
+Temperature 39.2°C, pulse rate 118 bpm, BP 108/66 mmHg. There is marked neck stiffness and photophobia. There is no rash.
+Lumbar puncture shows turbid CSF. CSF white cells 1,500 per mm³, mostly neutrophils. CSF protein is high. CSF glucose 1.2 mmol/L, plasma glucose 6.0 mmol/L.
+?Which is the most likely cause?
+
+@h0416
+A 20 year old student has had a fever, headache and a spreading purple rash for 6 hours. He had anaphylaxis after amoxicillin as a child.
+Temperature 39.5°C, pulse rate 128 bpm, BP 92/56 mmHg. There is a non-blanching petechial rash on his legs and trunk and neck stiffness.
+?Which antibiotic is most appropriate?
+
+@h0417
+A 19 year old university student has been admitted with confirmed meningococcal meningitis. He lives in a shared flat with four other students. He went to a party 3 weeks ago and attended lectures last week. The public health team asks who needs antibiotic prophylaxis.
+?Who should receive prophylaxis?
+
+@h0418
+A 46 year old man has had a fever and headache for 4 days. Today he became confused and had a seizure. His wife says his behaviour has been strange and he has smelt burning that is not there.
+Temperature 38.6°C. He is disorientated with no neck stiffness.
+CSF shows 80 lymphocytes per mm³, a mildly raised protein and a normal glucose. MRI shows signal change in the left temporal lobe.
+?Which test confirms the most likely cause?
+
+@h0419
+A 52 year old man has had fever, confusion and a seizure. IV aciclovir was started on admission. A lumbar puncture taken on day 1 of symptoms shows a lymphocytic CSF and the herpes simplex PCR is negative. MRI shows bilateral temporal lobe changes. He is not improving.
+?Which is the most appropriate next step?
+
+@h0420
+A 66 year old woman has started high-dose IV aciclovir for suspected herpes simplex encephalitis. She has type 2 diabetes and her baseline eGFR is 58 mL/min/1.73 m².
+?Which test needs regular checking during treatment?
+
+@h0421
+A 44 year old man has had a headache, fever and increasing weakness of his right arm and leg for 5 days. He had a dental abscess treated 2 weeks ago.
+Temperature 38.1°C. There is right-sided weakness and papilloedema. He is HIV negative.
+CT head with contrast shows a ring-enhancing lesion in the left parietal lobe with surrounding oedema.
+?Which is the most likely diagnosis?
+
+@h0422
+A 28 year old woman had acute frontal sinusitis 3 weeks ago. She now has a severe headache, fever and has become disinhibited.
+Temperature 38.4°C. There is tenderness over the frontal sinuses.
+MRI shows a ring-enhancing abscess in the right frontal lobe next to the frontal sinus.
+?Which organism is most likely?
+
+@h0423
+A 36 year old woman has a brain abscess in the frontal lobe that has spread from chronic sinusitis. She has no drug allergies. The neurosurgeons are planning aspiration and ask you to start empirical antibiotics.
+?Which is the most appropriate antibiotic combination?
+
+@h0424
+A 7 year old girl has many brief episodes each day where she stares blankly and stops talking for about 10 seconds, then carries on as if nothing happened. Her teacher has noticed them in class. She does not fall or jerk.
+Neurological examination is normal. Asking her to hyperventilate in clinic brings on one of the episodes.
+?Which is the most likely diagnosis?
+
+@h0425
+A 15 year old girl has had jerks of her arms in the mornings, especially when tired, and had a generalised tonic-clonic seizure last month. EEG shows generalised polyspike and wave discharges. She is diagnosed with juvenile myoclonic epilepsy.
+?Which drug should be avoided because it can worsen myoclonic seizures?
+
+@h0426
+A 34 year old man with epilepsy is having a generalised tonic-clonic seizure in a supermarket. It has lasted 7 minutes. Paramedics have arrived but there is no intravenous access. His airway is maintained and capillary glucose is 5.4 mmol/L.
+?Which is the most appropriate first drug?
+
+@h0427
+A 66 year old man has had slurred speech and difficulty swallowing for 4 months. He chokes on liquids. He has lost 5 kg.
+His tongue is wasted with fasciculations. The jaw jerk is brisk and he has brisk reflexes in all limbs. Eye movements and sensation are normal.
+?Which is the most likely diagnosis?
+
+@h0428
+A 58 year old man has had progressive weakness of his hands and legs for 8 months. Motor neurone disease is being considered.
+?Which finding argues most against motor neurone disease?
+
+@h0429
+A 64 year old woman has motor neurone disease with bulbar involvement. She is troubled by drooling of saliva, which embarrasses her. She has no glaucoma.
+?Which drug is most appropriate first?
+
+@h0430
+A 30 year old woman has had drooping eyelids and double vision for 2 months. Both get worse through the day and better after rest. Her speech becomes nasal at the end of a long conversation.
+There is bilateral ptosis that worsens on sustained upgaze. Pupils are normal. Limb reflexes are normal and there is no sensory loss.
+?Which is the most likely diagnosis?
+
+@h0431
+A 22 year old man has had severe aching in his thighs and calves since running his first marathon yesterday. His urine has turned dark brown. He took ibuprofen for the pain.
+Pulse rate 96 bpm. His thigh muscles are tender.
+Creatine kinase 50,000 IU/L. Creatinine 148 µmol/L. Urine dipstick shows blood 3+ with no red cells on microscopy.
+?Which is the most likely diagnosis?
+
+@h0432
+A 25 year old man has had a weak grip for a year. He has difficulty letting go after shaking hands. His father had cataracts at 40 and needed a pacemaker.
+There is frontal balding, bilateral ptosis and wasting of the temporal muscles. There is distal weakness and slow release of grip. He has early cataracts.
+?Which is the most likely diagnosis?
+
+@h0433
+A 44 year old man who leans on his elbows at work has had numbness in his little finger and half of his ring finger for 3 months. He finds it hard to do up buttons.
+There is wasting of the first dorsal interosseous and weak finger abduction. Sensation is reduced over the little finger and the medial half of the ring finger. Tinel's test is positive at the elbow.
+?Which nerve is most likely to be affected?
+
+@h0434
+A 32 year old man fell from his bike and has an X-ray-confirmed fracture of the midshaft of his right humerus. He cannot extend his wrist or fingers.
+His wrist hangs in flexion. There is a small area of numbness on the back of the hand between the thumb and index finger.
+?Which nerve is injured?
+
+@h0435
+A 58 year old woman has had numbness and tingling in her right thumb and index and middle fingers for 2 years, worse at night. Night splints and a steroid injection have not helped.
+There is wasting of the right thenar eminence and weak thumb abduction. Nerve conduction studies show severe median nerve compression at the wrist.
+?Which is the most appropriate management?
+
+@h0436
+A 26 year old man has believed for 5 months that a television news presenter is sending him private messages of love through the news. He has no hallucinations and his speech and behaviour are otherwise normal. He works full time and looks after himself.
+Mental state examination shows a fixed false belief and no other abnormal findings.
+?Which is the most likely diagnosis?
+
+@h0437
+A 24 year old man has stopped going to work. He says that his neighbour has been removing thoughts from his head so that his mind goes blank.
+?What is this symptom called?
+
+@h0438
+A 20 year old man developed sudden persecutory delusions and auditory hallucinations after a stressful period at university. He does not use drugs. The symptoms lasted 3 weeks and resolved completely. He now functions normally.
+?Which is the most likely diagnosis?
+
+@h0439
+A 34 year old man with schizophrenia started haloperidol 5 days ago. He is now confused and stiff.
+Temperature 39.8°C, pulse rate 124 bpm, BP 168/102 mmHg, then 104/62 mmHg an hour later. He is sweating with lead-pipe rigidity in all limbs. Reflexes are normal and there is no clonus.
+Creatine kinase 18,000 IU/L. White cell count 14 × 10⁹/L.
+?Which is the most likely diagnosis?
+
+@h0440
+A 30 year old man has had schizophrenia for 4 years. He still has persistent auditory hallucinations despite adequate courses of risperidone and olanzapine, each at full dose for 8 weeks and taken as prescribed.
+?Which is the most appropriate drug?
+
+@h0441
+A 28 year old woman with treatment-resistant schizophrenia has taken clozapine for 4 months. She has had a sore throat and fever for 1 day.
+Temperature 38.4°C, pulse rate 104 bpm. Her pharynx is red.
+?Which is the most important test?
+
+@h0442
+A 34 year old woman has had low mood for 6 weeks after losing her job. She still enjoys time with her children and is sleeping reasonably. She has no thoughts of self-harm.
+Her PHQ-9 score is 8.
+?Which is the severity of her depression?
+
+@h0443
+A 74 year old woman with ischaemic heart disease takes aspirin 75 mg daily. She has moderate depression and is starting sertraline. She has never had a peptic ulcer.
+?Which additional drug should be considered?
+
+@h0444
+A 45 year old man has had depression for 6 months. His marriage has ended and he has lost his job. He says he has a plan to hang himself at the weekend and has given away his possessions and written letters to his children.
+He has poor eye contact and appears hopeless. He has no psychotic symptoms.
+?Which is the most appropriate next step?
+
+@h0445
+A 31 year old woman has had elevated mood, less need for sleep and more energy for 5 days. She has started several new projects at work and talks quickly. She is still working and managing her finances, and her family are not worried about her safety.
+There are no delusions or hallucinations. Thyroid function is normal and urine drug screen is negative.
+?Which is the most likely diagnosis?
+
+@h0446
+A 44 year old man with bipolar disorder has taken lithium for 2 years. He is well. His lithium level taken 12 hours after his last dose is 0.6 mmol/L, and his levels have been stable for over a year. His kidney and thyroid function are normal.
+?How often should his lithium level be checked?
+
+@h0447
+A 29 year old woman with bipolar disorder has been stable on sodium valproate for 3 years. She and her partner would like to try for a baby. She is not currently pregnant.
+?Which is the most appropriate next step?
+
+@h0448
+A 26 year old woman has had sudden episodes of palpitations, sweating, shaking and a fear that she is dying, about twice a week for 3 months. They come out of the blue and peak within 10 minutes. She now avoids going out alone in case one happens.
+Pulse rate 84 bpm, BP 118/74 mmHg. Examination is normal. Thyroid function and ECG are normal.
+?Which is the most likely diagnosis?
+
+@h0449
+A 38 year old man has had constant worry about work, money and his family for 8 months, with poor sleep and muscle tension. It is affecting his work.
+His GAD-7 score is 17.
+?Which is the severity of his anxiety?
+
+@h0450
+A 46 year old woman has generalised anxiety disorder. She has had high-intensity CBT and adequate trials of sertraline and then venlafaxine, without improvement. She has no history of substance misuse.
+?Which drug can be offered next?

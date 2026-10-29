@@ -6,7 +6,7 @@ def F(t, kind, spec):
 FRAMES = {
   'xopen': F('Opening: WIPER', 'xopen', [('', [
     '!Wash your hands visibly as you walk in || || Examiners tick what they see.',
-    '!Introduce yourself; confirm name and date of birth || Hello, I\'m Nana, a third-year medical student. Could you tell me your full name and date of birth? || ',
+    '!Introduce yourself; confirm name and date of birth || Hello, I\'m Nana, a fourth-year medical student. Could you tell me your full name and date of birth? || ',
     '!Permission: explain the examination and get consent; offer a chaperone || I\'ve been asked to examine you today. It involves me looking, feeling and listening. Is that OK? Would you like a chaperone? || ',
     'Expose appropriately and Reposition; ask about pain || Is there any pain anywhere before I start? || WIPER: Wash, Introduce, Permission, Expose, Reposition.',
   ])]),
@@ -35,7 +35,7 @@ FRAMES = {
   'open': F('Opening the station', 'open', [('', [
     'Read the door twice; underline every task verb || || Every verb on the door is a marked domain. Miss a verb and you lose the whole domain.',
     'Hand hygiene as you walk in, visibly || || Examiners tick what they see.',
-    'Introduce yourself: name and role || Hello, my name is Nana, I\'m a third-year medical student. || The actor is asked afterwards whether they would want you as their doctor.',
+    'Introduce yourself: name and role || Hello, my name is Nana, I\'m a fourth-year medical student. || The actor is asked afterwards whether they would want you as their doctor.',
     '!Confirm name and date of birth || Can I check your full name and date of birth, please? || Patient identification is a safety mark.',
     '!Explain why you are here and gain consent; check comfort || I\'ve been asked to talk with you about what brought you in today. Is that OK? Are you comfortable? || No consent means no marks for what follows.',
   ])]),

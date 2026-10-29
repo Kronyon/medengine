@@ -97,7 +97,7 @@ async def run(width, mock):
         if mock:
             await page.evaluate("() => { location.hash = 's-PP01'; }"); await page.wait_for_timeout(150)
             await page.click('[data-mode="voice"]'); await page.wait_for_timeout(80)
-            await page.evaluate("() => { S.set.vRead = false; S.set.vPause = 300; window.__phrases = ['hello my name is nana a third year medical student can i check your name and date of birth', 'what has brought you in today', 'examiner could i have the observations please']; }")
+            await page.evaluate("() => { S.set.vRead = false; S.set.vPause = 300; window.__phrases = ['hello my name is nana a fourth year medical student can i check your name and date of birth', 'what has brought you in today', 'examiner could i have the observations please']; }")
             await page.click('[data-vstart]'); await page.wait_for_timeout(5000)
             n = await page.locator('#vChat .msg').count()
             if n < 6: errs.append(f'voice chat only {n} messages')

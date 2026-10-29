@@ -1,5 +1,17 @@
 # Changelog
 
+## 2.7.1 (2026-10-29)
+
+📝 **STUDY 2.7.1: every Hammer question is now a full MSCAA-length vignette.** All 1,632 stems were rewritten by hand, so none read like "A woman with DKA has…" any more.
+- Each stem follows the paper order: who the patient is, with an age and the story; then observations and examination; then results; then the lead-in on its own line.
+- The median stem is now 49 words. The official MSC papers' median is 57.
+- The keyed answer, the options, the explanation and the facts that tell the options apart are unchanged. Where a stem needed a detail to keep the answer right, it was added: for example, a CURB-65 of 4, apixaban dose-reduction criteria, and a frame-only walker for hemiarthroplasty.
+- Set C chains keep the same patient across all three steps.
+- Results are written in as text, so the range filter adds MSCAA reference ranges and builds an Investigations table when there are three or more results.
+- Source files are `study/snap/vignettes/v00.txt` to `v32.txt`, read by `mscaa.vignettes()`. `test_study_v27.py` now checks that every Hammer item has a vignette, that the median length is at least 45 words, and that stems contain no dashes or non-range brackets.
+
+🎓 **OSCE:** the introduction lines and AI prompts now say "fourth-year medical student".
+
 ## 2.7.0 (2026-10-29)
 
 🎭 **A full case for every OSCE station.** All 444 history, psychiatry and examination cases now have a proper patient script, not a few sparse lines. This covers the 141 past-paper variants, every bank history and psychiatry station, the core Y stations, and 2 to 3 cases for each of the 24 examination stations.

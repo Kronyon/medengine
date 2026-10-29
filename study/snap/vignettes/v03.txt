@@ -1,0 +1,241 @@
+# h0151 to h0200
+
+@h0151
+A 25 year old man has noticed a painless lump in his right testis for 6 weeks. He has had a dull ache in his back recently.
+There is a 2 cm hard, irregular lump within the right testis. The examiner can get above it and it does not transilluminate.
+Ultrasound shows a heterogeneous intratesticular mass. Serum AFP is raised. Beta-hCG is raised. LDH is raised.
+?Which is the most likely type of tumour?
+
+@h0152
+A 27 year old man has a 3 cm hard lump in his left testis. Ultrasound and tumour markers suggest a germ cell tumour and he is listed for radical inguinal orchidectomy next week. He and his partner hope to have children in the future and ask what can be done before treatment.
+?Which should be offered?
+
+@h0153
+A 70 year old man has noticed a painless swelling of his left testis over 2 months. He has had night sweats and has lost 5 kg.
+There is a firm, painless enlargement of the left testis. There are enlarged, rubbery lymph nodes in both axillae.
+Ultrasound shows a diffusely hypoechoic left testis. AFP and beta-hCG are normal.
+?Which is the most likely cause?
+
+@h0154
+A foundation doctor is inserting a urethral catheter in a 74 year old man with urinary retention. The catheter has been advanced about halfway and no urine has drained. The doctor inflates the balloon with 10 mL of water and the patient cries out in pain.
+?Which is the most likely result?
+
+@h0155
+An 84 year old woman in a nursing home has a long-term urethral catheter for urinary retention. The carers report that her urine looks cloudy. She is eating and drinking normally and is no more confused than usual.
+Temperature 36.8°C, pulse rate 76 bpm, BP 134/72 mmHg. The abdomen is soft and non-tender. The catheter is draining well.
+?Which is the most appropriate management?
+
+@h0156
+A 68 year old man had a urethral catheter inserted on the ward 8 hours ago. He now has increasing pain at the end of his penis.
+The foreskin is retracted behind the glans and is swollen and oedematous. The glans is swollen and congested. The catheter is draining clear urine. The foreskin will not return over the glans.
+?Which is the most likely diagnosis?
+
+@h0157
+A 55 year old woman has had gradual hearing loss in her left ear over a year, with intermittent tinnitus on that side. She has no ear discharge or vertigo.
+Otoscopy is normal in both ears. Weber's test lateralises to the right. Rinne's test is positive on both sides.
+?Which type of hearing loss is it?
+
+@h0158
+A 48 year old man has had gradually worsening hearing loss and tinnitus in his right ear for 18 months. Recently he has noticed numbness on the right side of his face and mild unsteadiness.
+Otoscopy is normal. Weber's test lateralises to the left and Rinne's test is positive on both sides. There is reduced sensation over the right cheek and a reduced right corneal reflex. Facial movements are normal.
+?Which is the most likely diagnosis?
+
+@h0159
+A 30 year old woman has had hearing loss in both ears over 2 years with tinnitus and unsteadiness. Her father had similar problems and needed brain surgery. She has no café-au-lait macules.
+MRI shows bilateral masses in the internal acoustic meati and a small meningioma.
+?Which condition is most likely?
+
+@h0160
+A 64 year old man noticed this morning that the right side of his face has drooped. He has hypertension and smokes. He is examined to decide whether this is a stroke or Bell's palsy.
+?Which feature most suggests a stroke rather than Bell's palsy?
+
+@h0161
+A 60 year old man has had severe pain in his right ear for 3 days. This morning the right side of his face became weak.
+Temperature 37.5°C. There are vesicles in the right external auditory canal and on the pinna. There is weakness of the whole right side of the face, including the forehead. He has reduced hearing on the right.
+?Which is the most likely diagnosis?
+
+@h0162
+A 46 year old woman has had weakness of the left side of her face for 1 day. She has started prednisolone for Bell's palsy.
+There is weakness of the whole left side of the face, including the forehead. She cannot close her left eye fully, and the eye is watering but not red. There are no vesicles in the ear.
+?Which is the most important additional measure?
+
+@h0163
+A 45 year old woman has had constant spinning vertigo, nausea and unsteadiness for 2 days. It started a week after a cold. Her hearing is normal and she has no tinnitus, headache or weakness.
+There is horizontal nystagmus beating to the right in all directions of gaze. The head impulse test shows a corrective saccade when her head is turned to the left. There is no skew deviation. Limb coordination is normal.
+?Which is the most likely diagnosis?
+
+@h0164
+A 68 year old man with hypertension and atrial fibrillation has had constant vertigo and vomiting for 6 hours. He is examined at the bedside to decide whether the cause is peripheral or central.
+?Which finding most suggests a central cause?
+
+@h0165
+A 42 year old man has had constant vertigo with vomiting for 1 day after a viral illness. His hearing is normal. A diagnosis of vestibular neuronitis is made. He cannot keep fluids down at home but has no neurological signs.
+?Which drug is most appropriate for a short course?
+
+@h0166
+A 4 year old girl who has not had any childhood immunisations has had a sore throat and fever for 6 hours. She is now drooling and has noisy breathing.
+Temperature 39.5°C, pulse rate 160 bpm, respiratory rate 40 breaths per minute. She is sitting forward on her mother's lap with her mouth open and looks toxic. There is soft inspiratory stridor.
+?Which is the most appropriate next step?
+
+@h0167
+A 46 year old man has had a severe sore throat for 1 day. He cannot swallow his saliva and his voice is muffled.
+Temperature 38.8°C, pulse rate 112 bpm, SpO2 97% breathing air. He is drooling and leaning forward. There is no stridor. The tonsils and oropharynx look almost normal. There is tenderness over the front of the neck at the level of the hyoid.
+?Which is the most likely diagnosis?
+
+@h0168
+A 52 year old woman has a sore throat, painful swallowing and a muffled voice. She is stable, with no stridor and SpO2 98% breathing air. Supraglottitis is suspected and a lateral soft tissue neck X-ray is taken while ENT are on their way.
+?Which sign is most likely on the X-ray?
+
+@h0169
+A 58 year old man has had a nosebleed from his right nostril for 30 minutes. He takes no anticoagulants.
+Pulse rate 88 bpm, BP 146/88 mmHg. He has been leaning forward and pinching the soft part of his nose for 15 minutes but it is still bleeding. Anterior rhinoscopy shows a bleeding vessel on the anterior septum.
+?Which is the most appropriate next step?
+
+@h0170
+A 9 year old boy has had frequent small nosebleeds from his left nostril for 2 months. Each one stops within a few minutes with pressure. He picks his nose.
+Anterior rhinoscopy shows crusting and prominent vessels on the left anterior septum in Little's area. There is no active bleeding. He has no allergies to peanut or soya.
+?Which treatment is most appropriate?
+
+@h0171
+A 15 year old boy has had recurrent heavy nosebleeds from his left nostril for 3 months. He has a blocked nose on that side and his voice sounds nasal.
+Anterior rhinoscopy shows a smooth, red mass at the back of the left nasal cavity. There is no cervical lymphadenopathy.
+?Which is the most important diagnosis to exclude?
+
+@h0172
+A 17 year old girl has had a sore throat, fever and tiredness for 10 days. Her throat is so sore that she struggles to eat.
+Temperature 38.2°C. There is exudative tonsillitis with palatal petechiae, tender posterior cervical lymphadenopathy and a palpable spleen tip.
+?Which blood film finding is most likely?
+
+@h0173
+A 19 year old man has been diagnosed with glandular fever. His fever has settled and he feels better. He plays rugby for his university and asks when he can return to training.
+There is a palpable spleen tip.
+?Which is the most appropriate advice?
+
+@h0174
+A 19 year old woman has had a sore throat for a week. Her GP started an antibiotic 3 days ago. She now has a widespread itchy rash.
+There is a widespread maculopapular rash on the trunk and limbs, exudative tonsillitis and cervical lymphadenopathy. The monospot test is positive.
+?Which antibiotic is most likely to have caused the rash?
+
+@h0175
+A 48 year old woman has Ménière's disease confirmed by an ENT surgeon. She has attacks of vertigo every few weeks lasting several hours, with fluctuating hearing loss in her right ear. She asks for something to reduce how often the attacks happen.
+?Which drug can be tried to reduce the frequency of attacks?
+
+@h0176
+A 40 year old man has had attacks of spinning vertigo lasting about 2 hours for 6 months. Each attack comes with ringing and a feeling of fullness in his left ear, and he feels a little deafer after each one. Between attacks he is well.
+Otoscopy is normal. Audiometry shows low-frequency sensorineural hearing loss on the left.
+?Which is the most likely diagnosis?
+
+@h0177
+A 52 year old man has Ménière's disease with sudden attacks of disabling vertigo that come without warning. He drives a car for work and asks whether he can continue.
+?Which is the most appropriate advice?
+
+@h0178
+A 52 year old man has snored loudly for years. His wife says he stops breathing at night. He falls asleep watching television and in meetings. He has a BMI of 34.
+He completes the Epworth Sleepiness Scale, which gives a score of 15.
+?What does this score suggest?
+
+@h0179
+A 49 year old lorry driver has been diagnosed with moderate obstructive sleep apnoea on a home sleep study. He has excessive daytime sleepiness and has nearly fallen asleep at the wheel. He is waiting to start treatment.
+?Which is the most appropriate driving advice?
+
+@h0180
+A 55 year old man has excessive daytime sleepiness and loud snoring with witnessed apnoeas. He has a BMI of 33. A sleep study shows moderate obstructive sleep apnoea. He has tried losing weight and reducing alcohol without improvement.
+?Which is the most appropriate treatment?
+
+@h0181
+A 72 year old man with type 2 diabetes has had severe right ear pain and discharge for 4 weeks. It has not improved with antibiotic ear drops. The pain keeps him awake at night.
+Temperature 37.8°C. There is granulation tissue on the floor of the right ear canal. There is weakness of the whole right side of his face.
+?Which is the most likely diagnosis?
+
+@h0182
+A 36 year old woman has had an itchy right ear for 3 weeks. She has used antibiotic and steroid ear drops for 2 weeks without improvement.
+Otoscopy shows white, fluffy debris with black dots filling the external ear canal. The tympanic membrane is intact.
+?Which is the most likely cause?
+
+@h0183
+A 24 year old swimmer has had a painful, discharging left ear for 5 days.
+There is pain on moving the pinna and the ear canal is swollen and red with debris. After aural toilet, a small perforation of the tympanic membrane is seen.
+?Which ear drops should be avoided?
+
+@h0184
+A 2 year old boy has had right ear pain and fever for 2 days. He is drinking well.
+Temperature 38.6°C. The right tympanic membrane is red and bulging, and there is purulent discharge in the right ear canal. The left ear is normal. There is no mastoid swelling. He has no drug allergies.
+?Which is the most appropriate management?
+
+@h0185
+A 4 year old girl has had hearing problems for 3 months. Her teacher says she does not respond in class and her speech is not developing as well as other children's. She has no ear pain.
+Both tympanic membranes are dull and retracted with an air-fluid level. Tympanometry shows flat traces on both sides. Audiometry shows a bilateral conductive hearing loss of 30 dB, confirmed on two tests 3 months apart.
+?Which is the most appropriate next step?
+
+@h0186
+A 30 year old man has had a smelly discharge from his right ear for 6 months and his hearing on that side has worsened. Antibiotic drops have not helped.
+Otoscopy shows foul-smelling discharge and a pearly white mass in the attic region of the right tympanic membrane. Rinne's test is negative on the right.
+?Which is the most likely diagnosis?
+
+@h0187
+A 30 year old woman has had a blocked nose, thick discharge and facial pain over her cheeks for 12 days after a cold. She started to feel better, then got worse again.
+Temperature 37.9°C. There is tenderness over both maxillary sinuses. There is no periorbital swelling, visual disturbance or severe headache. She has no drug allergies.
+?Which is the most appropriate management?
+
+@h0188
+A 60 year old man has had a blocked right nostril for 6 weeks with blood-stained discharge. He has no symptoms on the left. He worked as a carpenter for 40 years.
+Anterior rhinoscopy shows a friable mass in the right nasal cavity. There is a firm right cervical lymph node.
+?Which is the most appropriate next step?
+
+@h0189
+A 60 year old man with asthma has had a blocked nose and loss of smell for a year. He had a severe attack of wheeze after taking aspirin for a headache last month.
+Anterior rhinoscopy shows bilateral pale, grey, glistening masses that are insensate. There is mild expiratory wheeze.
+?Which is the most likely diagnosis?
+
+@h0190
+A 24 year old man has had a sore throat for 4 days. He has a cough and a runny nose. He has not had a fever.
+Temperature 37.1°C. The tonsils are mildly inflamed without exudate. There is no cervical lymphadenopathy. His FeverPAIN score is 1.
+?Which is the most appropriate management?
+
+@h0191
+A 25 year old man has had a worsening sore throat for 5 days, much worse on the left. He cannot open his mouth fully and his voice is muffled.
+Temperature 38.7°C, pulse rate 108 bpm. There is trismus. The left soft palate is swollen and red and the uvula is pushed to the right. There is no stridor.
+?Which is the most likely diagnosis?
+
+@h0192
+A 10 year old girl has had 8 episodes of tonsillitis in the last year. Each episode needed time off school and several needed antibiotics. Her parents ask what can be done.
+Examination today shows mildly enlarged tonsils without exudate.
+?Which is the most appropriate next step?
+
+@h0193
+A 3 year old girl has a small hole in front of her right ear that she was born with. It has discharged foul-smelling material and become swollen and red three times this year.
+There is a 1 mm pit in front of the upper part of the right tragus with surrounding redness. The ear canal and tympanic membrane are normal.
+?Which is the most likely diagnosis?
+
+@h0194
+A 20 year old man has noticed a painless lump in the left side of his neck for 2 months. It became larger and tender during a cold, then settled.
+There is a 4 cm smooth, fluctuant lump at the anterior border of the left sternocleidomastoid muscle in the upper third of the neck. It does not move on swallowing or with tongue protrusion.
+?Which is the most likely diagnosis?
+
+@h0195
+A baby girl born at term has a swelling in the left side of her neck. She is feeding well and breathing normally.
+There is a 5 cm soft, compressible, painless swelling in the posterior triangle of the neck. It transilluminates brightly.
+?Which is the most likely diagnosis?
+
+@h0196
+A 2 year old boy has had a barking cough for 2 days that has worsened tonight. He has noisy breathing even when settled.
+Temperature 38.0°C, pulse rate 168 bpm, respiratory rate 50 breaths per minute, SpO2 91% breathing air. He is drowsy, with stridor at rest and marked sternal recession.
+?Which is the most appropriate treatment?
+
+@h0197
+A 2 year old boy suddenly began coughing and choking while playing with his brother's small toys an hour ago. The coughing has settled but he now has noisy breathing. He was well before this.
+Temperature 36.9°C, respiratory rate 32 breaths per minute, SpO2 95% breathing air. There is reduced air entry and a wheeze on the right side of the chest only.
+?Which is the most likely diagnosis?
+
+@h0198
+A 5 year old girl is eating grapes at a party when she suddenly starts choking. She is conscious but cannot cough, speak or cry, and she is becoming distressed.
+?Which is the most appropriate first step?
+
+@h0199
+A 40 year old man woke this morning with a red patch in his right eye. He has had a bad cough for a week. The eye is not painful and his vision is normal.
+Visual acuity 6/6 in both eyes. There is a well-defined, bright red area under the conjunctiva on the temporal side of the right eye. The cornea is clear and the pupil reacts normally.
+?Which is the most likely diagnosis?
+
+@h0200
+A 45 year old man has had a red left eye for 1 day. He is examined to decide whether he needs same-day ophthalmology assessment.
+?Which finding most suggests a serious cause?

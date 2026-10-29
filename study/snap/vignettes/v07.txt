@@ -1,0 +1,267 @@
+# h0351 to h0400
+
+@h0351
+A 46 year old man has had fevers and rigors for 2 weeks. He has a new murmur of mitral regurgitation and splinter haemorrhages. He has no prosthetic valve and no drug allergies.
+Transthoracic echocardiogram shows a vegetation on the native mitral valve. Three sets of blood cultures grow meticillin-sensitive Staphylococcus aureus.
+?Which is the most appropriate antibiotic?
+
+@h0352
+A 36 year old man moved to the UK from India 2 years ago. He has had right-sided chest pain, night sweats and weight loss of 5 kg over 2 months.
+Temperature 37.9°C. There is stony dullness and reduced breath sounds at the right base.
+Diagnostic pleural aspiration shows straw-coloured fluid. Protein 52 g/L. The cells are mostly lymphocytes. Gram stain is negative.
+?Which is the most likely cause?
+
+@h0353
+A 64 year old woman with long-standing seropositive rheumatoid arthritis has had increasing breathlessness for a month. She has no fever.
+There is stony dullness at the left base. A diagnostic pleural aspiration is performed and the fluid is an exudate.
+?Which pleural fluid result most supports a rheumatoid effusion?
+
+@h0354
+A 62 year old man had an oesophagectomy for cancer 10 days ago. He has become breathless and his chest drain output has increased.
+SpO2 94% breathing air. There is dullness at the right base. The drain fluid is milky white and odourless.
+Pleural fluid triglycerides 4.5 mmol/L. The fluid does not separate on standing.
+?Which is the most likely diagnosis?
+
+@h0355
+A 62 year old woman has had tiredness and breathlessness for 3 months. Her tongue is sore and she has numbness and tingling in her feet. She eats a normal diet including meat.
+She is pale with a smooth, red tongue. There is reduced vibration sense in the feet.
+Haemoglobin 88 g/L. MCV 118 fL. White cell count and platelets are low normal. Intrinsic factor antibodies are positive.
+?Which is the most likely diagnosis?
+
+@h0356
+A 32 year old man has been tired and yellow for a week. He started primaquine for malaria prophylaxis 5 days ago. His urine is dark.
+He is pale and jaundiced. There is no hepatomegaly.
+Haemoglobin 84 g/L. The blood film shows bite cells.
+?Which result most supports haemolysis?
+
+@h0357
+A 58 year old woman has active rheumatoid arthritis with swollen joints despite methotrexate. She feels tired. She has no gastrointestinal symptoms and her periods stopped 6 years ago.
+CRP 42 mg/L. Haemoglobin 102 g/L. MCV 80 fL. Ferritin 280 µg/L. Total iron binding capacity is low.
+?Which is the most likely cause of her anaemia?
+
+@h0358
+A tall 21 year old man who smokes has had sudden right-sided chest pain that is worse on breathing in, with mild breathlessness, for 4 hours.
+Pulse rate 92 bpm, respiratory rate 20 breaths per minute, SpO2 97% breathing air. The trachea is central. There are reduced breath sounds and a hyper-resonant percussion note over the right upper chest.
+?Which is the most likely diagnosis?
+
+@h0359
+A 23 year old woman has had sudden left-sided chest pain for 6 hours. She has no lung disease.
+Pulse rate 84 bpm, BP 118/74 mmHg, SpO2 98% breathing air, respiratory rate 16 breaths per minute. She has minimal pain and can walk around the department comfortably.
+Chest X-ray shows a left pneumothorax with a 3 cm rim at the level of the hilum.
+?Which is the most appropriate management?
+
+@h0360
+A 66 year old woman has had a right subclavian central venous catheter inserted on the intensive care unit. Ten minutes later she becomes breathless and anxious.
+Pulse rate 118 bpm, BP 116/72 mmHg, SpO2 falling from 97% to 89% on 4 L/min oxygen. There are reduced breath sounds and a hyper-resonant percussion note on the right.
+?Which is the most likely cause?
+
+@h0361
+A 64 year old woman has right lower lobe pneumonia. She has no history of lung disease.
+Respiratory rate 28 breaths per minute, SpO2 87% breathing air.
+Arterial blood gas breathing air: pH 7.46, PaO2 7.1 kPa, PaCO2 4.0 kPa, bicarbonate 24 mmol/L.
+?What does this blood gas show?
+
+@h0362
+A 46 year old woman has vomited repeatedly for 4 days with a viral illness. She cannot keep fluids down.
+Pulse rate 104 bpm, BP 108/68 mmHg, respiratory rate 12 breaths per minute.
+Arterial blood gas breathing air: pH 7.50, PaCO2 6.2 kPa, bicarbonate 34 mmol/L, potassium 3.0 mmol/L.
+?Which best describes the result?
+
+@h0363
+A 72 year old man with COPD and known carbon dioxide retention is brought in by ambulance with an exacerbation. He was given 15 L/min oxygen through a non-rebreather mask on the way.
+SpO2 99%. Respiratory rate 12 breaths per minute. He is drowsy but rousable.
+Arterial blood gas on 15 L/min oxygen: pH 7.28, PaO2 28 kPa, PaCO2 9 kPa, bicarbonate 32 mmol/L.
+?Which is the most appropriate step?
+
+@h0364
+A 41 year old woman has had a painful, swollen left calf for 2 days. She returned from a long-haul flight from Australia 5 days ago. She takes the combined oral contraceptive pill.
+Pulse rate 84 bpm, SpO2 98% breathing air. The left calf is 4 cm larger than the right with pitting oedema. Her two-level DVT Wells score is 2.
+?Which is the most appropriate next step?
+
+@h0365
+A 68 year old man had a pulmonary embolism 3 months ago, 2 weeks after an elective hip replacement. He has taken apixaban since. He is now well, walking normally and has no other risk factors for thrombosis.
+?Which is the most appropriate plan?
+
+@h0366
+A 55 year old man has an unprovoked proximal deep vein thrombosis of his right leg. He has no cancer symptoms.
+His history and physical examination are normal. Full blood count, calcium, liver function tests and urinalysis are normal. A chest X-ray is normal.
+?Which further test for cancer is recommended?
+
+@h0367
+A 38 year old woman had Covid-19 4 months ago. She still has fatigue, breathlessness on exertion and poor concentration. She has not returned to work.
+Pulse rate 84 bpm, SpO2 98% breathing air. Examination is normal, including a 1-minute sit-to-stand test without desaturation.
+Full blood count, thyroid function, chest X-ray and ECG are normal.
+?Which is the most likely diagnosis?
+
+@h0368
+A 68 year old woman has had Covid-19 for 5 days. She is using a home pulse oximeter from the virtual ward. She feels more breathless today.
+She phones because her oxygen saturations are 91% at rest on two readings.
+?Which is the most appropriate advice?
+
+@h0369
+A 19 year old man has had central chest pain for 1 day, worse lying flat. He had his second dose of an mRNA Covid-19 vaccine 3 days ago. He has no fever.
+Pulse rate 104 bpm, BP 122/74 mmHg. Heart sounds are normal.
+ECG shows widespread T-wave changes. Troponin T 340 ng/L.
+?Which is the most likely diagnosis?
+
+@h0370
+A 29 year old man has had episodes of wheeze and a night-time cough for 6 months, worse with exercise and in cold air. He has hay fever.
+Examination is normal today.
+Fractional exhaled nitric oxide is 55 ppb.
+?Which is the most appropriate interpretation?
+
+@h0371
+A 34 year old baker has had wheeze, cough and breathlessness for 6 months. His symptoms improve when he is on holiday and return within a few days of going back to work. He had no asthma as a child.
+There is mild expiratory wheeze. Serial peak flows are lower on working days than on days off.
+?Which is the most likely diagnosis?
+
+@h0372
+A 26 year old woman with asthma has been increasingly breathless for 2 days. She has used her salbutamol inhaler every hour.
+Pulse rate 115 bpm, respiratory rate 28 breaths per minute. She cannot finish sentences. Peak flow is 45% of her best. SpO2 90% breathing air.
+?Which single finding makes this attack life-threatening?
+
+@h0373
+A 66 year old man with COPD has had increasing breathlessness for 3 days and his sputum has turned green. He has no chest pain and is well enough to be treated at home. He has no drug allergies.
+Temperature 37.6°C, respiratory rate 20 breaths per minute, SpO2 92% breathing air. There is widespread wheeze. He is alert.
+?Which is the most appropriate treatment?
+
+@h0374
+A 38 year old woman who has never smoked has had increasing breathlessness on exertion for a year.
+There is reduced air entry at both bases. Her liver edge is palpable.
+Spirometry shows obstruction with an FEV1 to FVC ratio of 0.58. CT chest shows emphysema mainly in the lower lobes. ALT 82 IU/L.
+?Which is the most likely diagnosis?
+
+@h0375
+A 68 year old woman with COPD has to stop for breath after walking 100 metres on the flat. She uses a LAMA plus LABA inhaler correctly and has stopped smoking. She has had one exacerbation this year.
+SpO2 94% breathing air. Her MRC dyspnoea grade is 4.
+?Which is the most appropriate next intervention?
+
+@h0376
+A 24 year old man has had a productive cough since childhood, with chronic sinusitis. He and his partner have been unable to conceive for 2 years, and semen analysis shows immotile sperm.
+His heart sounds are loudest on the right side of the chest. There are coarse crackles at both bases. CT shows bronchiectasis.
+?Which is the most likely diagnosis?
+
+@h0377
+A 54 year old woman with bronchiectasis has had increased sputum volume and purulence for 3 days with more breathlessness. Her last sputum culture grew Haemophilus influenzae sensitive to amoxicillin. She is well enough to be treated at home.
+?For how long is an exacerbation of bronchiectasis usually treated with antibiotics?
+
+@h0378
+A 19 year old man has had a productive cough and recurrent chest infections since childhood. He has pale, bulky, foul-smelling stools and is underweight with a BMI of 17.
+There is finger clubbing and coarse crackles in both upper zones.
+CT chest shows bronchiectasis. Sweat chloride is 85 mmol/L.
+?Which is the most likely diagnosis?
+
+@h0379
+A 32 year old woman has had a cough for 3 weeks. Bouts of coughing end in vomiting and a gasp as she breathes in. She is well between bouts. Her young nephew has a similar cough.
+Temperature 36.9°C, SpO2 98% breathing air. The chest is clear between coughing bouts.
+?Which is the most likely diagnosis?
+
+@h0380
+A 30 year old woman has had paroxysms of coughing with an inspiratory whoop for 10 days. She works in a nursery. She is not pregnant and has no drug allergies.
+Temperature 36.8°C. The chest is clear. Pertussis is suspected.
+?Which is the most appropriate management?
+
+@h0381
+A 26 year old woman is 12 weeks pregnant with her first child. She asks when she should have the whooping cough vaccine to protect her baby.
+?When is the pertussis vaccine offered in pregnancy?
+
+@h0382
+A 70 year old man was admitted 3 days ago with a hip fracture and had a hemiarthroplasty. He now has a cough, fever and right basal crackles. He has had no recent antibiotics and is not on a high-risk unit for resistant organisms.
+Temperature 38.2°C, pulse rate 98 bpm, BP 128/76 mmHg, SpO2 94% breathing air. He is alert.
+Chest X-ray shows right basal consolidation.
+?Which is the most appropriate antibiotic?
+
+@h0383
+A 62 year old man who smokes 20 cigarettes a day was treated for right lower lobe pneumonia. He has finished his antibiotics and his symptoms have settled. He asks whether he needs a further X-ray.
+?When should a follow-up chest X-ray be considered?
+
+@h0384
+A 52 year old man who drinks heavily had a seizure while intoxicated 2 days ago. He now has a fever and a cough productive of foul-smelling sputum.
+Temperature 38.4°C, respiratory rate 24 breaths per minute, SpO2 93% breathing air. There is bronchial breathing at the right base.
+Chest X-ray shows consolidation in the right lower lobe.
+?Which is the most likely diagnosis?
+
+@h0385
+A 34 year old woman's husband has been diagnosed with smear-positive pulmonary tuberculosis. She has no symptoms and is not pregnant.
+Examination is normal. Her interferon-gamma release assay is positive. Chest X-ray is normal. HIV test is negative.
+?Which is the most appropriate management?
+
+@h0386
+A 42 year old man has been on rifampicin, isoniazid, pyrazinamide and ethambutol for pulmonary tuberculosis for 3 weeks. He feels well with no nausea, vomiting or abdominal pain.
+He is not jaundiced.
+ALT is 3 times the upper limit of normal. Bilirubin is normal.
+?Which is the most appropriate action?
+
+@h0387
+A 30 year old man moved to the UK from Somalia a year ago. He has had back pain for 4 months with fevers, night sweats and weight loss.
+Temperature 37.9°C. There is a sharp angular kyphosis in the lower thoracic spine. There is a fluctuant swelling in the left groin.
+MRI shows destruction of two adjacent vertebral bodies and the disc between them, with a large psoas abscess.
+?Which is the most likely diagnosis?
+
+@h0388
+A 52 year old woman who has never smoked has had a persistent cough for 2 months. She has lost 3 kg.
+Chest X-ray shows a peripheral mass in the right upper lobe. CT-guided biopsy shows a malignant tumour with an EGFR mutation.
+?Which type of lung cancer is this most likely to be?
+
+@h0389
+A 64 year old man who smokes has had difficulty getting up from a chair and climbing stairs for 3 months. His legs get stronger after a few attempts. He has a dry mouth and constipation. He has a chronic cough.
+There is proximal leg weakness that improves after repeated effort. Reflexes are reduced but increase after brief exercise. Eye movements are normal.
+?Which is the most likely diagnosis?
+
+@h0390
+A 66 year old man with small cell lung cancer has become confused over a week. He takes no diuretics.
+He has normal skin turgor, no oedema and a normal BP. He is clinically euvolaemic.
+Sodium 122 mmol/L. Potassium 4.1 mmol/L. Glucose 5.4 mmol/L. TSH and 9am cortisol are normal.
+?Which result best supports SIADH?
+
+@h0391
+A 70 year old retired lagger has had left-sided chest wall pain and breathlessness for 3 months. He has lost 7 kg. He worked with asbestos in the 1970s.
+There is stony dullness at the left base.
+CT chest shows a left pleural effusion with irregular, nodular pleural thickening encasing the lung.
+?Which is the most likely diagnosis?
+
+@h0392
+A 72 year old man who worked in a shipyard has a right pleural effusion and nodular pleural thickening on CT. Mesothelioma is suspected. Pleural fluid cytology is negative for malignant cells on two samples.
+?Which is the best way to confirm the diagnosis?
+
+@h0393
+A 68 year old retired coal miner has had increasing breathlessness and a cough with black sputum for 2 years. He has never smoked.
+There are coarse crackles in both upper zones.
+Chest X-ray shows large, irregular masses in both upper zones on a background of small nodules.
+?Which is the most likely diagnosis?
+
+@h0394
+A 58 year old man keeps racing pigeons. For 6 months he has had episodes of fever, cough and breathlessness starting about 6 hours after he cleans out his loft. They settle over a day or two.
+Temperature 37.8°C. There are fine crackles at both bases.
+High-resolution CT shows ground-glass change and centrilobular nodules. Avian precipitins are positive.
+?Which is the most important part of management?
+
+@h0395
+A 30 year old woman of African Caribbean family origin has had a dry cough and a painful red left eye for 3 weeks. She has tender red lumps on her shins.
+There is redness around the cornea of the left eye and tender nodules on both shins.
+Chest X-ray shows bilateral hilar lymphadenopathy. Calcium 2.9 mmol/L. ACE is raised.
+?Which is the most likely diagnosis?
+
+@h0396
+A 74 year old man has had a dry cough and increasing breathlessness for 18 months. He has finger clubbing and fine end-inspiratory crackles at both bases. High-resolution CT shows basal honeycombing. He has lung function tests.
+?Which lung function result best supports idiopathic pulmonary fibrosis?
+
+@h0397
+A 72 year old woman has had pain at the base of both thumbs and stiffness in her fingers for 2 years, worse after use. Morning stiffness lasts 10 minutes.
+There are hard, bony swellings at the distal interphalangeal joints and squaring at the base of both thumbs. There is no soft tissue swelling or warmth.
+?Which is the most likely diagnosis?
+
+@h0398
+A 64 year old woman has had pain in both knees for 3 years, worse after walking and at the end of the day. Morning stiffness lasts 15 minutes. Her BMI is 31.
+There is crepitus and bony swelling in both knees, with no effusion or warmth.
+?Which core treatment should be offered to her?
+
+@h0399
+A 66 year old woman has had pain in her right knee for 2 years. An X-ray of the knee is reviewed, and the radiologist describes four changes.
+?Which change is not a sign of osteoarthritis?
+
+@h0400
+An 84 year old woman with moderate dementia fell in her care home and cannot bear weight. Before the fall she walked indoors with a frame only. She is otherwise medically stable.
+Her right leg is shortened and externally rotated.
+X-ray shows a displaced intracapsular fracture of the right neck of femur.
+?Which is the most appropriate operation?

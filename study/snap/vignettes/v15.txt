@@ -1,0 +1,233 @@
+# h0751 to h0800
+
+@h0751
+A 23 year old man has had urethral discharge and dysuria for 3 days. He had unprotected sex with a new partner 10 days ago. He has no drug allergies.
+There is purulent urethral discharge. Microscopy of a urethral smear shows Gram-negative intracellular diplococci. NAAT confirms gonorrhoea. Sensitivities are not yet known.
+?Which is the most appropriate treatment?
+
+@h0752
+A 78 year old woman has had profuse watery diarrhoea for 3 days. She was treated for a urinary infection 2 weeks ago. Stool testing is positive for C. difficile toxin.
+?Which class of antibiotic is most associated with C. difficile infection?
+
+@h0753
+A 46 year old woman with epilepsy controlled on sodium valproate was admitted with pyelonephritis and started on meropenem yesterday. She has not missed any valproate doses. Today she had a generalised seizure.
+Sodium 138 mmol/L. Glucose 5.8 mmol/L. CT head is normal.
+?Which is the most likely explanation?
+
+@h0754
+A 72 year old woman takes citalopram for depression and amiodarone for atrial fibrillation. She has a chest infection and needs an antibiotic.
+ECG shows a QTc of 470 ms.
+?Which antibiotic carries the greatest risk of QT prolongation?
+
+@h0755
+A 31 year old woman is 20 weeks pregnant. She has had a productive cough and fever for 3 days. She had a rash and lip swelling after penicillin as a child.
+Temperature 38.3°C, respiratory rate 20 breaths per minute, SpO2 96% breathing air. There is bronchial breathing at the left base. Chest X-ray shows left lower lobe consolidation. Her CURB-65 score is 0.
+?Which antibiotic is most appropriate?
+
+@h0756
+A 67 year old man with COPD who stopped smoking 5 years ago has had five exacerbations in the past year, two needing hospital admission. He uses triple inhaler therapy correctly and has completed pulmonary rehabilitation.
+ECG shows a normal QTc. Liver function is normal. CT chest shows no bronchiectasis.
+?Which treatment may be considered?
+
+@h0757
+A 34 year old man is starting doxycycline for rosacea. He asks how he should take it.
+?Which advice should be given about taking doxycycline?
+
+@h0758
+A 28 year old man is taking doxycycline as malaria prophylaxis on holiday in Thailand. On day 3 he has severe sunburn on his face and arms after a short time outdoors. He has no fever.
+There is well-demarcated erythema on sun-exposed skin only.
+?Which is the most likely explanation?
+
+@h0759
+A 44 year old man has a red ring spreading from a tick bite on his thigh. He was walking in the New Forest 10 days ago. He feels well with no joint pain or facial weakness.
+There is an expanding 8 cm red ring with central clearing around the bite site.
+?Which is the most appropriate treatment?
+
+@h0760
+A 54 year old woman with myasthenia gravis has dysuria and frequency. She takes pyridostigmine and prednisolone. Urine dipstick is positive for nitrites and leucocytes.
+?Which antibiotic should be avoided?
+
+@h0761
+A 62 year old man is receiving IV vancomycin for MRSA osteomyelitis. Twenty minutes into the infusion he becomes flushed with a red rash over his face, neck and upper chest.
+Pulse rate 96 bpm, BP 128/76 mmHg, SpO2 98% breathing air. There is no wheeze, lip swelling or stridor.
+?Which is the most appropriate action?
+
+@h0762
+A 72 year old man is on once-daily gentamicin for pyelonephritis. His creatinine has risen slightly since admission.
+His gentamicin level, plotted on the Hartford dosing nomogram, falls above the line for his current dosing interval.
+?Which is the most appropriate change?
+
+@h0763
+A 72 year old man takes prednisolone for polymyalgia rheumatica. He finished a course of ciprofloxacin for prostatitis a week ago. He now has pain and swelling at the back of his right heel.
+There is tenderness and swelling over the Achilles tendon 4 cm above its insertion. Simmonds' test is normal.
+?Which is the most likely cause?
+
+@h0764
+A 46 year old man with epilepsy has a lower urinary tract infection. He takes lamotrigine and his seizures are well controlled.
+?Which antibiotic is best avoided?
+
+@h0765
+A 58 year old man has had fever, perineal pain and painful urination for 2 days.
+Temperature 38.6°C, pulse rate 104 bpm. Digital rectal examination shows a tender, boggy, warm prostate.
+Urine dipstick shows nitrites and leucocytes. He is well enough to be treated at home.
+?Which is the most appropriate antibiotic course?
+
+@h0766
+A 36 year old woman is prescribed metronidazole for bacterial vaginosis. She is going to a wedding at the weekend.
+?Which advice should be given?
+
+@h0767
+A 28 year old woman has had a thin, grey, fishy-smelling vaginal discharge for a week. She has no itch or soreness. She is not pregnant.
+There is a thin, homogeneous grey discharge coating the vaginal walls. Vaginal pH is 5.5. Microscopy shows clue cells.
+?Which is the most appropriate treatment?
+
+@h0768
+A 32 year old woman has streptococcal toxic shock syndrome from a necrotising soft tissue infection. She is treated with IV benzylpenicillin and clindamycin, and surgical debridement. A medical student asks why clindamycin has been added.
+?Why is clindamycin added to benzylpenicillin in streptococcal toxic shock syndrome?
+
+@h0769
+A 68 year old woman with rheumatoid arthritis takes methotrexate weekly. She has a lower urinary tract infection and her GP is about to prescribe trimethoprim.
+?Which is the main danger of this combination?
+
+@h0770
+A 66 year old man with heart failure takes ramipril and spironolactone. He has a lower urinary tract infection with dysuria and frequency.
+Potassium 5.3 mmol/L. eGFR 70 mL/min/1.73 m².
+?Which antibiotic is most appropriate?
+
+@h0771
+A 34 year old man of Mediterranean family origin has G6PD deficiency. He has a lower urinary tract infection.
+?Which antibiotic should be avoided because it can cause haemolysis?
+
+@h0772
+A 32 year old woman has pulmonary tuberculosis. Sputum culture shows the organism is sensitive to all first-line drugs. She is not HIV positive and has no central nervous system involvement. She asks how long her treatment will last.
+?How long is standard treatment for pulmonary TB with sensitive organisms?
+
+@h0773
+A 46 year old man is 4 weeks into treatment for pulmonary tuberculosis with rifampicin, isoniazid, pyrazinamide and ethambutol. He has a hot, swollen, painful big toe.
+Temperature 37.4°C. The first metatarsophalangeal joint is red, swollen and very tender.
+Serum urate is raised.
+?Which drug is most likely to be the cause?
+
+@h0774
+A 38 year old woman takes methadone 60 mg daily for opioid dependence and has been stable for a year. She started treatment for pulmonary tuberculosis a week ago. She now has yawning, sweating, abdominal cramps and goosebumps. She has not used any other opioids.
+?Which drug is most likely to be responsible?
+
+@h0775
+A 76 year old woman has had five watery stools a day for 2 days after a course of co-amoxiclav. Stool is positive for C. difficile toxin. This is her first episode.
+Temperature 37.4°C, pulse rate 88 bpm. The abdomen is soft and non-tender.
+White cell count 11 × 10⁹/L. Creatinine is at her baseline.
+?Which is the most appropriate treatment?
+
+@h0776
+A 72 year old woman has C. difficile infection. She is also taking co-amoxiclav for a chest infection, which started 3 days ago and is improving, and omeprazole for mild reflux.
+?What should be done with these other medicines?
+
+@h0777
+An 80 year old man has C. difficile infection with diarrhoea. The infection team asks you to assess its severity.
+?Which result marks a C. difficile infection as severe?
+
+@h0778
+A 64 year old man has had a painful rash on the left side of his chest for 2 days. He is otherwise well and not immunosuppressed.
+There are grouped vesicles on an erythematous base in a band from the left mid-back to the chest. The eye and nose are not involved.
+?Which is the most appropriate treatment?
+
+@h0779
+A 29 year old woman is 30 weeks pregnant. During a local influenza outbreak, she has developed a fever, cough and muscle aches over 24 hours.
+Temperature 38.4°C, respiratory rate 18 breaths per minute, SpO2 97% breathing air. The chest is clear.
+?Which is the most appropriate treatment?
+
+@h0780
+A 56 year old man is receiving high-dose IV aciclovir for herpes simplex encephalitis. He has not been drinking much.
+Creatinine on admission 82 µmol/L. Creatinine on day 4 196 µmol/L. Urine microscopy shows needle-shaped crystals. Bladder scan shows no retention.
+?Which is the most likely cause of his rising creatinine?
+
+@h0781
+A 26 year old woman is 16 weeks pregnant. She has had itchy, thick white vaginal discharge for 4 days. Microscopy shows yeast.
+?Which is the most appropriate treatment?
+
+@h0782
+A 72 year old man takes warfarin for atrial fibrillation with a stable INR. He has oral thrush after a course of antibiotics, and fluconazole is being considered.
+?Which effect is fluconazole most likely to have?
+
+@h0783
+A 54 year old woman started oral terbinafine for fungal toenails 6 weeks ago. She now has dark urine, itch and yellow eyes.
+She is jaundiced. The abdomen is soft and non-tender.
+ALT 410 IU/L. Bilirubin 64 µmol/L.
+?Which is the most appropriate action?
+
+@h0784
+A 7 year old girl has had an itchy bottom at night for 2 weeks. Her mother has seen small white threads moving around her anus at night. She lives with her parents and brother.
+?Which is the most appropriate treatment?
+
+@h0785
+A 58 year old man who grew up in Jamaica is about to start high-dose prednisolone for a vasculitis. He has had intermittent itchy rashes and abdominal discomfort.
+Eosinophil count 1.6 × 10⁹/L.
+?Which infection should be screened for first?
+
+@h0786
+A 1 year old boy has scabies, with itchy papules on his hands, feet and scalp. His family are being treated at the same time. Permethrin 5% cream has been prescribed.
+?How should permethrin be applied to this child?
+
+@h0787
+A 34 year old man returned from Ghana 8 days ago. He did not take malaria prophylaxis. He has fever and has become confused.
+Temperature 39.8°C, pulse rate 124 bpm, BP 102/64 mmHg. He is disorientated.
+Blood film shows Plasmodium falciparum with 6% parasitaemia. Glucose 4.2 mmol/L.
+?Which is the most appropriate treatment?
+
+@h0788
+A 38 year old woman with a history of depression is travelling to Kenya for 10 days, leaving in 2 days. She wants malaria prophylaxis with the shortest course after she returns. She is not pregnant.
+?Which prophylaxis is most appropriate?
+
+@h0789
+A 26 year old man returned from India and has Plasmodium vivax malaria. He has been treated for the blood stage with chloroquine and his fever has settled. The team plans to clear the dormant liver stage.
+?Which drug clears the parasite from the liver, and what must be checked first?
+
+@h0790
+A 74 year old woman has taken omeprazole 40 mg daily for 6 years. She has had muscle cramps and tingling around her mouth for a month. She takes no diuretics.
+There is carpopedal spasm when a blood pressure cuff is inflated.
+Calcium 1.9 mmol/L. Potassium 3.3 mmol/L. Vitamin D is normal.
+?Which other blood result is most likely to explain this?
+
+@h0791
+A 62 year old woman has osteoarthritis of the hip. Paracetamol and exercise have not controlled her pain and she is starting naproxen. She has no history of peptic ulcer and takes no other medicines.
+?Which drug should be prescribed with naproxen?
+
+@h0792
+A 70 year old woman has had watery diarrhoea 6 times a day for 3 months, including at night. She takes lansoprazole. She has not lost weight and has no rectal bleeding.
+Coeliac serology is negative. Faecal calprotectin is mildly raised. Colonoscopy shows a normal-looking colon, but biopsies show increased lymphocytes in the lining.
+?Which is the most likely diagnosis?
+
+@h0793
+A 34 year old man has ulcerative colitis and is starting mesalazine. He asks which blood tests he will need.
+?Which monitoring is most important?
+
+@h0794
+A 42 year old woman takes mesalazine for ulcerative colitis. She has had a sore throat, fever and mouth ulcers for 2 days.
+Temperature 38.2°C. There are aphthous ulcers in her mouth. There is no bruising.
+?Which is the most appropriate next step?
+
+@h0795
+A 32 year old man with ulcerative colitis takes sulfasalazine. He and his partner have not conceived after a year of trying. His partner's investigations are normal. Semen analysis shows a low sperm count.
+?Which is the most appropriate change?
+
+@h0796
+A 44 year old man with Crohn's disease takes azathioprine. He has had three attacks of gout this year and his GP plans to start allopurinol.
+?Which is the most appropriate advice?
+
+@h0797
+A 30 year old woman with Crohn's disease is about to start infliximab. She was born in India and moved to the UK at age 10.
+?Which infection must be screened for first?
+
+@h0798
+A 56 year old woman with rheumatoid arthritis is starting methotrexate 15 mg. She asks how she should take it.
+?Which is the correct dosing advice?
+
+@h0799
+A 58 year old man with alcohol-related cirrhosis has become confused and drowsy over 2 days. He has no fever and no signs of bleeding.
+There is a flapping tremor. The abdomen is soft without tenderness. Rectal examination shows normal brown stool.
+Ascitic tap shows no infection. Glucose 5.6 mmol/L.
+?Which is the most appropriate first treatment?
+
+@h0800
+A 4 year old girl has had hard stools every 3 to 4 days for 3 months. She strains and cries when opening her bowels. Diet advice has not helped. There is no faecal impaction on abdominal examination.
+?Which is the most appropriate first laxative?

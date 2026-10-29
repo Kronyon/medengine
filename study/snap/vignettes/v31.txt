@@ -1,0 +1,233 @@
+# h1551 to h1600
+
+@h1551
+A 24 year old man with obsessive-compulsive disorder has taken sertraline at a moderate dose for 12 weeks with no benefit. He takes it every day and has no side effects. He is also having CBT with exposure and response prevention.
+?Which is the most appropriate next step?
+
+@h1552
+A 34 year old woman has had pain in many places, bloating, palpitations and dizziness for 8 years. Extensive tests are normal and she has seen many specialists. She is distressed by the symptoms themselves rather than by fear of one disease.
+Examination is normal.
+?Which is the most likely diagnosis?
+
+@h1553
+A 26 year old nurse has had repeated episodes of confusion and sweating on the ward. She does not have diabetes.
+During an episode: glucose 1.8 mmol/L. Insulin 410 pmol/L. C-peptide under 50 pmol/L.
+?Which result best explains these episodes?
+
+@h1554
+A 34 year old woman has somatisation disorder. She has had many normal scans. Today she asks for another scan because of new abdominal pain.
+Examination is normal.
+?Which is the most appropriate approach?
+
+@h1555
+A 34 year old man takes sertraline. He started tramadol for back pain yesterday. He is now agitated and sweating.
+Temperature 38.4°C, pulse rate 118 bpm. His pupils are dilated. Reflexes are brisk and there is clonus in both legs.
+?Which is the most likely diagnosis?
+
+@h1556
+A 34 year old man has suspected serotonin syndrome after starting tramadol with sertraline. He has clonus in both legs.
+Creatine kinase 640 IU/L. White cell count 11.2 × 10⁹/L. Sodium 139 mmol/L.
+?Which statement is most consistent with the results?
+
+@h1557
+A 30 year old woman is an informal patient on a psychiatric ward. Her psychosis is getting worse. She tries to leave at night. Only a nurse with the right qualification is present.
+?Which power can be used?
+
+@h1558
+A 41 year old woman with depression has stopped speaking, eating and moving for 2 days. She holds odd postures for long periods and resists being moved.
+Temperature 36.9°C, pulse rate 84 bpm, BP 122/76 mmHg. There is no rigidity.
+?Which is the most likely diagnosis?
+
+@h1559
+A 41 year old woman with catatonia is given lorazepam. She was recently started on an antipsychotic.
+Temperature 39.4°C. Creatine kinase 18,400 IU/L. White cell count 13.0 × 10⁹/L.
+?Which finding most suggests neuroleptic malignant syndrome rather than catatonia?
+
+@h1560
+A 41 year old woman with catatonic depression has not improved after 5 days of lorazepam. She is not drinking.
+Pulse rate 104 bpm. She is dry.
+Creatinine has risen from 64 to 118 µmol/L.
+?Which is the most appropriate next treatment?
+
+@h1561
+A 3 year old boy rarely responds to his name and does not point to show things. He lines up his cars for hours and gets very upset with any change in routine.
+His hearing test is normal.
+?Which is the most likely diagnosis?
+
+@h1562
+A 3 year old boy has possible autism. He has poor response to his name and delayed speech. He has been referred for assessment.
+?Which test should be done before or alongside assessment?
+
+@h1563
+A 14 year old autistic boy does not speak. Over a week he has started hitting his head and refusing food.
+He is distressed. Temperature 37.6°C. A full examination has not yet been possible.
+?Which is the most appropriate first step?
+
+@h1564
+A 45 year old man has felt low, worried and irritable since being made redundant 4 weeks ago. He still sleeps and eats normally and enjoys time with his children. He has no suicidal thoughts.
+?Which is the most likely diagnosis?
+
+@h1565
+A 45 year old man has adjustment disorder after redundancy. He completes a PHQ-9 questionnaire.
+?Which score fits his diagnosis best?
+
+@h1566
+A 45 year old man has adjustment disorder after redundancy. He asks for help.
+?Which is the most appropriate management?
+
+@h1567
+An 8 year old boy cannot sit still, interrupts constantly, loses things and rushes his work. This has happened at home and at school for 2 years. His teachers say he is falling behind.
+His hearing and vision are normal.
+?Which is the most likely diagnosis?
+
+@h1568
+A 9 year old boy with ADHD is starting methylphenidate.
+?Which baseline results are most important to record?
+
+@h1569
+A 26 year old man with ADHD wants medication. He had a seizure last year and uses cannabis daily.
+BP 128/78 mmHg.
+?Which is the most appropriate first step?
+
+@h1570
+A 12 year old boy has stolen from shops, set a fire in a bin and hurt the family cat. He often stays out all night.
+?Which is the most likely diagnosis?
+
+@h1571
+An 8 year old boy has conduct disorder. His parents are struggling to manage his behaviour.
+?Which is the most appropriate first-line intervention?
+
+@h1572
+A 14 year old boy has conduct disorder. His mother asks about his future.
+?Which adult condition is he at high risk of?
+
+@h1573
+A 22 year old man needs support with money and cooking, but he can travel alone and works part-time.
+His IQ is 62.
+?How is his intellectual disability best classed?
+
+@h1574
+A 30 year old woman with Down syndrome has become slower and forgetful and has lost skills over a year.
+TSH 18 mU/L. Free T4 8 pmol/L. Haemoglobin 124 g/L.
+?Which condition most needs excluding first?
+
+@h1575
+A 28 year old man with a moderate learning disability needs a dental extraction under anaesthetic. His mother usually comes to appointments with him.
+?Which is the most appropriate approach to consent?
+
+@h1576
+A 26 year old woman has had tender, red, raised lumps on both shins and painful ankles for a week. She has also had a dry cough.
+Temperature 37.8°C. There are tender, red-purple nodules on both shins. Both ankles are swollen.
+?Which is the most likely diagnosis?
+
+@h1577
+A 26 year old woman has erythema nodosum and a dry cough.
+Adjusted calcium 2.82 mmol/L. ACE 110 U/L. ASO titre 120 IU/mL. Pregnancy test negative.
+?Which result best explains her condition?
+
+@h1578
+A 33 year old woman with ulcerative colitis has a painful leg ulcer that is growing rapidly. It started as a pustule after a minor knock.
+There is a 4 cm ulcer with a ragged, purple, undermined edge on the shin.
+?Which is the most appropriate treatment?
+
+@h1579
+A 5 year old girl with atopic eczema has had a sudden painful worsening over 2 days. She is miserable.
+Temperature 38.5°C. There are clusters of punched-out erosions on her neck.
+?Which is the most likely diagnosis?
+
+@h1580
+A 5 year old girl has suspected eczema herpeticum. She has a fever and painful, punched-out erosions on her neck. Her eyes are not affected.
+?Which is the most appropriate management?
+
+@h1581
+A 30 year old man has a moderate flare of eczema on his arms and on his eyelids.
+?Which is the most appropriate treatment for his eyelids?
+
+@h1582
+A 24 year old man has had many itchy small pustules on his upper back and chest since a holiday in a hot climate. A course of antibiotics has not helped.
+There are uniform small papules and pustules on the upper back and chest. There are no comedones.
+?Which is the most likely cause?
+
+@h1583
+A 52 year old man has had four boils in 3 months. He lives alone.
+HbA1c 68 mmol/mol. White cell count 7.4 × 10⁹/L. A nasal swab shows no growth.
+?Which result most needs acting on?
+
+@h1584
+A 24 year old man has Malassezia folliculitis on his upper back and chest.
+?Which is the most appropriate first treatment?
+
+@h1585
+A 48 year old man with diabetes cut his thigh 2 days ago. He now has severe pain in the thigh.
+Temperature 38.9°C, pulse rate 128 bpm, BP 92/58 mmHg. There is only mild redness and some dusky skin.
+?Which is the most likely diagnosis?
+
+@h1586
+A 48 year old man has suspected necrotising fasciitis.
+CRP 190 mg/L. White cell count 26 × 10⁹/L. Haemoglobin 124 g/L. Sodium 131 mmol/L. Creatinine 160 µmol/L. Glucose 14 mmol/L.
+?What is his LRINEC score?
+
+@h1587
+A 48 year old man has suspected necrotising fasciitis and is hypotensive. Antibiotics and fluids have started.
+Pulse rate 128 bpm, BP 88/54 mmHg.
+?Which is the most appropriate next step?
+
+@h1588
+A 32 year old man has had an itchy, red rash in both groins for a month.
+There is a red rash with a raised, scaly edge and a clearer centre in both groins. The scrotum is spared.
+?Which is the most likely diagnosis?
+
+@h1589
+A 58 year old woman has thick yellow toenails on two toes. She wants treatment.
+?Which is the most appropriate next step?
+
+@h1590
+A 58 year old woman has dermatophyte toenail infection of two nails, confirmed on clippings. She has chronic liver disease.
+?Which is the most appropriate treatment?
+
+@h1591
+A 26 year old woman has had intense itch for 4 weeks that is worse at night. Her partner is also itchy.
+There are short, grey, wavy lines between her fingers and on her wrists.
+?Which is the most likely diagnosis?
+
+@h1592
+A 26 year old woman has scabies. She lives with her partner and their 3 year old son.
+?Which is the most appropriate management?
+
+@h1593
+An 88 year old nursing home resident has thick crusted plaques on her hands. Many staff are now itchy.
+There are thick, grey crusts on her hands, wrists and elbows.
+?Which is the most appropriate treatment?
+
+@h1594
+A 7 year old girl has an itchy scalp. Her mother found white specks on the hair near the scalp that do not brush off.
+No live lice are seen on careful wet combing.
+?Which is the most appropriate management?
+
+@h1595
+A 7 year old girl has head lice. She was treated with dimeticone on day 0 and day 7.
+?When should she be combed to confirm cure?
+
+@h1596
+A 7 year old girl has head lice. Her younger brother is 4 months old and also has live lice.
+?Which is the most appropriate treatment for him?
+
+@h1597
+A 40 year old man has a widespread rash.
+There are many tense, fluid-filled blisters on his trunk, each 2 to 3 cm across.
+?Which term best describes them?
+
+@h1598
+A 42 year old woman started allopurinol for gout 10 days ago. She now has widespread peeling and blistering with mouth ulcers.
+Temperature 38.6°C. About 40% of her skin is detached. Nikolsky's sign is positive. There are ulcers in her mouth and her eyes are red.
+?Which is the most likely diagnosis?
+
+@h1599
+A 42 year old woman has toxic epidermal necrolysis. Allopurinol has been stopped.
+Pulse rate 118 bpm, BP 98/62 mmHg. About 40% of her skin is detached.
+?Which is the most important next step?
+
+@h1600
+A 5 year old boy has not been immunised. He has a high fever, a muffled voice and drooling.
+Temperature 39.6°C. He is sitting forward and does not want to lie down. There is soft inspiratory stridor.
+?Which is the most likely diagnosis?

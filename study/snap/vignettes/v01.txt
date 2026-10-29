@@ -1,0 +1,246 @@
+# h0051 to h0100
+
+@h0051
+A 72 year old woman has had a basal cell carcinoma diagnosed on biopsy of a pearly nodule on her nose. She has been referred routinely to dermatology for excision.
+Her daughter read that skin cancer can spread to other organs and asks you how basal cell carcinomas usually behave.
+?Which is the most accurate answer?
+
+@h0052
+A 70 year old retired builder has a lump on the back of his left hand. It appeared 6 weeks ago and has grown rapidly. It is not painful.
+There is a 1.5 cm firm, dome-shaped, skin-coloured nodule with a central keratin-filled crater. The surrounding skin is sun-damaged. There is no axillary lymphadenopathy.
+?Which is the most likely diagnosis?
+
+@h0053
+A 74 year old man has had rough, scaly patches on his bald scalp for a year. They catch on his comb but are not painful. He worked outdoors all his life.
+There are eight flat, rough, red, scaly patches on the vertex of the scalp, each under 1 cm. None is raised, indurated or ulcerated.
+?Which is the most appropriate treatment?
+
+@h0054
+A 58 year old man had a kidney transplant 10 years ago and takes tacrolimus, mycophenolate and prednisolone. Over the last year he has developed several new skin lesions on his hands and face.
+There are multiple rough, scaly, keratotic papules and two tender, crusted nodules on the backs of his hands and forehead.
+?Which skin cancer is he most at risk of?
+
+@h0055
+A 40 year old woman with Crohn's disease has a painful ulcer on her left shin. It began as a small pustule after she knocked her leg 10 days ago and has rapidly enlarged. Her Crohn's disease has been active recently.
+There is a 5 cm ulcer with a purple, undermined edge and a boggy base. Foot pulses are palpable. A course of flucloxacillin has not helped.
+?Which is the most likely diagnosis?
+
+@h0056
+A 30 year old woman has had type 1 diabetes for 15 years. She has noticed patches on both shins that have slowly enlarged over 2 years. They are not itchy.
+There are shiny, yellow-brown, waxy plaques on both shins with a violaceous edge and visible telangiectasia. The centre of one plaque is atrophic. Thyroid function is normal.
+?Which is the most likely diagnosis?
+
+@h0057
+A 45 year old man has noticed darkening of the skin in his armpits and on the back of his neck over the last year. He has a BMI of 38 and his father has type 2 diabetes. He has not lost weight.
+There are velvety, hyperpigmented, thickened plaques in both axillae and on the back of the neck. There are multiple skin tags.
+?Which is the most likely underlying cause?
+
+@h0058
+A 25 year old woman has had itchy raised marks on her skin for 3 months. They appear wherever she scratches or her clothing rubs and go within 30 minutes. She has no lip or tongue swelling.
+When the examiner firmly strokes her forearm with a pen lid, a raised red linear wheal appears within minutes along the line.
+?Which is the most likely diagnosis?
+
+@h0059
+A 38 year old man has had itchy wheals on most days for 8 weeks. Each wheal lasts a few hours and leaves no mark. He has had no angioedema and no systemic symptoms. He takes cetirizine 10 mg daily with little benefit.
+Examination shows scattered urticarial wheals on the trunk. Full blood count and thyroid function are normal.
+?Which is the most appropriate next step?
+
+@h0060
+A 24 year old woman has had recurrent episodes of swelling of her lips and hands since her teens, sometimes with severe abdominal pain and vomiting. The episodes last 2 to 3 days. She has never had wheals or itch. Antihistamines and adrenaline have not helped. Her father has similar episodes.
+She takes no regular medicines. Serum C4 is low.
+?Which is the most likely diagnosis?
+
+@h0061
+A 76 year old woman has had an ulcer on her right foot for 2 months. It is very painful, especially at night, and she sleeps in a chair with her leg down. She smokes and has diabetes.
+There is a 2 cm punched-out ulcer on the lateral side of the right foot. The foot is cool and pale with no palpable pulses. Her ankle-brachial pressure index is 0.45.
+?Which is the most appropriate management?
+
+@h0062
+A 63 year old man with type 2 diabetes for 18 years has a wound under his right foot. He did not notice it until he saw blood on his sock. It does not hurt.
+There is a 1 cm round ulcer over the first metatarsal head surrounded by thick callus. Foot pulses are palpable. He cannot feel a 10 g monofilament on either foot.
+?Which is the most likely diagnosis?
+
+@h0063
+An 86 year old woman has been bed-bound in hospital for 3 weeks after a stroke. The nurses report a wound over her sacrum.
+There is a 4 cm wound over the sacrum with full-thickness skin loss. Subcutaneous fat is visible at the base. No bone, tendon or muscle is exposed and there is no slough obscuring the base.
+?Which category of pressure ulcer is this?
+
+@h0064
+A 4 year old boy with atopic eczema has had a rapidly spreading painful rash on his face and neck for 2 days. He is miserable and not eating well.
+Temperature 38.7°C, pulse rate 130 bpm. There are clusters of monomorphic, punched-out erosions and some vesicles over areas of eczema on the face and neck.
+?Which is the most likely diagnosis?
+
+@h0065
+A 30 year old man has a flare of his atopic eczema on his trunk. It has been itchy for 2 weeks and is affecting his sleep.
+There are red, scaly, excoriated patches over his chest and back with lichenification. There is no weeping, crusting or vesicles. He uses an emollient regularly.
+?Which potency of topical corticosteroid is most appropriate?
+
+@h0066
+A 34 year old woman has widespread atopic eczema affecting her trunk and limbs. She uses an emollient only once a day because she worries about using too much.
+You explain that emollients should be used liberally and frequently and that adults with widespread eczema need large quantities.
+?How much emollient should she use in a week?
+
+@h0067
+A 26 year old man of African family origin has had itchy bumps on his beard area for a year. They are worse after shaving. Two courses of antibiotics have not helped.
+There are multiple inflamed papules and some pustules on the neck and jawline. Several hairs can be seen curving back into the skin. There is hyperpigmentation around the lesions.
+?Which is the most likely diagnosis?
+
+@h0068
+A 28 year old man returned from a holiday a week ago and has a rash on his trunk. The hotel had a hot tub that he used every day. He feels well.
+Temperature 37.0°C. There are multiple small itchy follicular pustules and red papules over the trunk and buttocks, worst in the areas covered by his swimming shorts.
+?Which organism is most likely?
+
+@h0069
+A 32 year old woman has had five boils on her thighs and buttocks in the last 6 months, each needing drainage. Her partner has also had a boil. She is otherwise well.
+Temperature 36.8°C. There is one healing boil on her right thigh. HbA1c and full blood count are normal.
+?Which is the most appropriate investigation?
+
+@h0070
+A 4 year old girl has had a rash around her mouth for 3 days. It started as small blisters that burst. She is eating and playing normally and her nursery has had other cases.
+Temperature 36.9°C. There are a few areas of golden-yellow crusting on the skin around the mouth and nostrils, covering less than 3 cm². There are no vesicles elsewhere.
+?Which is the most likely diagnosis?
+
+@h0071
+A 6 year old boy has had crusted sores for 5 days that have spread over his face, arms and legs. He is lethargic and not eating well. He has no drug allergies.
+Temperature 38.4°C, pulse rate 124 bpm. There are multiple honey-crusted lesions and several large blisters on the face and limbs.
+?Which is the most appropriate antibiotic?
+
+@h0072
+A 7 year old girl has impetigo around her nose and mouth. She started hydrogen peroxide cream this morning. Her mother wants to send her back to school as soon as possible and asks when she can return.
+?When can she return to school?
+
+@h0073
+A 60 year old woman has had a red, painful, swollen left lower leg for 2 days. She feels unwell and shivery. She has no other medical problems.
+Temperature 37.9°C, pulse rate 92 bpm, BP 128/78 mmHg, respiratory rate 18 breaths per minute. She is alert and orientated. There is a 15 cm area of warm, tender erythema on the shin with no crepitus or blistering.
+?Which Eron class is this?
+
+@h0074
+A 52 year old man has had a red, hot, tender area on his right shin for 2 days after a small cut while gardening. He had an anaphylactic reaction to penicillin as a child.
+Temperature 37.6°C, pulse rate 88 bpm, BP 132/80 mmHg. There is an 8 cm area of spreading erythema on the shin. He is otherwise well.
+?Which antibiotic is most appropriate?
+
+@h0075
+A 68 year old woman has had a red, painful left lower leg for 1 day with fever and shivering. She has athlete's foot.
+Temperature 38.5°C, pulse rate 98 bpm. There is a bright red, raised, shiny area on the left shin with a sharply defined, raised edge. There is no crepitus or skin necrosis.
+?Which is the most likely diagnosis?
+
+@h0076
+A 58 year old man with type 2 diabetes has severe pain in his left thigh that is out of proportion to the redness. He has received IV fluids and broad-spectrum antibiotics.
+Temperature 38.9°C, pulse rate 124 bpm, BP 92/58 mmHg. The skin over the thigh is dusky and blistered with crepitus on palpation. Lactate 5.2 mmol/L.
+?Which is the most important next step?
+
+@h0077
+A 62 year old man with poorly controlled type 2 diabetes has had increasing pain and swelling of his scrotum and perineum for 24 hours. He drinks heavily.
+Temperature 39.1°C, pulse rate 118 bpm, BP 96/60 mmHg. The scrotum and perineum are swollen and red with dusky patches, and there is crepitus. Both testes feel normal.
+?Which is the most likely diagnosis?
+
+@h0078
+A 54 year old woman has a painful red swelling of her right calf. Her LRINEC score, calculated from CRP, white cell count, haemoglobin, sodium, creatinine and glucose, is 8.
+?What does this score most likely suggest?
+
+@h0079
+A 30 year old man has had a painful lump on the sole of his left foot for 3 months. It hurts when he walks.
+There is a 6 mm hard, rough lesion on the sole of the foot under the second metatarsal head. Paring the surface reveals small black dots. It is more painful when squeezed from side to side than when pressed directly.
+?Which is the most likely diagnosis?
+
+@h0080
+A 24 year old man has had warts on the backs of his fingers for 6 months. They are not painful, but they embarrass him at work and he would like treatment. He has no other medical problems.
+There are four rough, raised, skin-coloured papules on the dorsum of his fingers, each under 5 mm.
+?Which is the most appropriate first treatment?
+
+@h0081
+A 22 year old woman has noticed lumps around her vulva for 3 weeks. She has a new sexual partner. She is not pregnant and uses the progestogen-only pill.
+There are multiple small, soft, non-keratinised, flesh-coloured papules on the labia majora. There are no ulcers or discharge.
+?Which is the most appropriate treatment?
+
+@h0082
+A 32 year old man has had an itchy rash in his groin for a month. He plays football and showers at the club. He also has athlete's foot.
+There is a red, ring-shaped rash in both groins extending onto the inner thighs with a raised, scaly, advancing edge and a clearer centre. The scrotum is spared. There are no satellite lesions.
+?Which is the most likely diagnosis?
+
+@h0083
+A 55 year old man has had thickened, yellow toenails on both big toes for 2 years. They are painful in shoes. He has no liver disease and drinks 8 units of alcohol a week.
+Both great toenails are thickened, discoloured and crumbly. Nail clippings show a dermatophyte on culture. Liver function tests are normal.
+?Which treatment is most appropriate?
+
+@h0084
+A 25 year old man has had patches on his upper chest and back for 2 months. They became more noticeable after a sunny holiday. They are slightly itchy.
+There are multiple pale, finely scaling, oval patches on the upper trunk that are paler than the surrounding tanned skin. The scale becomes more obvious when the skin is gently scraped.
+?Which is the most likely diagnosis?
+
+@h0085
+An 85 year old woman in a care home has had thickened, crusted skin on her hands for 2 months. She has dementia and does not complain of itch. Several care home staff have developed itchy rashes.
+There are thick, grey, crusted, scaly plaques on her hands, between her fingers and on her elbows.
+?Which is the most likely diagnosis?
+
+@h0086
+A 23 year old man was treated with permethrin cream for scabies 1 week ago, with his housemates treated on the same day. He still has itch, especially at night, and is worried the treatment has failed.
+There are a few excoriated papules on his wrists and waistband. There are no new burrows.
+?Which is the most appropriate advice?
+
+@h0087
+A 27 year old woman is 20 weeks pregnant. She has had intense itch, worse at night, for 3 weeks. Her partner is also itchy.
+There are burrows in the finger webs and on the wrists, with excoriated papules on the abdomen.
+?Which treatment is most appropriate?
+
+@h0088
+An 8 year old girl had live head lice seen by her mother. She has been treated with dimeticone 4%, repeated after 7 days. Her mother asks how to tell whether the treatment has worked.
+?Which is the most appropriate way to check whether treatment has worked?
+
+@h0089
+A 34 year old woman has head lice. She has used dimeticone twice, 7 days apart, as directed, but live lice were still found on her hair 3 days later. She would like a non-chemical option.
+?Which is the most appropriate next step?
+
+@h0090
+A 7 year old boy has head lice confirmed by detection combing. His mother has started treatment. She asks whether he should stay off school and what else she should do.
+?Which is the most appropriate advice?
+
+@h0091
+A 30 year old man has had painful, swollen fingers for 4 months, mainly at the end joints. He has had scaly patches in his scalp for years.
+There are red, scaly plaques in the scalp and behind the ears. The fingernails show pitting and onycholysis. The distal interphalangeal joints of several fingers are swollen and tender.
+?Which is the most likely diagnosis?
+
+@h0092
+A 45 year old woman with chronic plaque psoriasis has had a severe flare over the last month. Her psoriasis had been well controlled with topical treatment for years. A new medicine was started by her psychiatrist 6 weeks ago.
+There are widespread red, scaly plaques on the trunk and limbs.
+?Which drug is most likely to have caused the flare?
+
+@h0093
+A 19 year old man has developed a widespread rash over 1 week. He had a sore throat 2 weeks ago that got better without treatment.
+There are dozens of small, droplet-shaped, red, scaly papules and plaques over the trunk and upper limbs. The palms, soles and mouth are spared.
+?Which is the most likely diagnosis?
+
+@h0094
+A 23 year old woman has had acne since age 15. She has tried topical treatments and 2 courses of oral lymecycline with topical treatment, with little benefit.
+There are multiple inflamed nodules and cysts on the face, chest and back with atrophic and hypertrophic scarring. She is distressed by her appearance.
+?Which is the most appropriate management?
+
+@h0095
+A 19 year old woman has started oral isotretinoin for severe nodulocystic acne under a dermatologist. She is sexually active. She asks which monitoring and precautions matter most.
+?What is the most important safety measure?
+
+@h0096
+A 17 year old boy has had acne for a year. He has not tried any treatment.
+There are many open and closed comedones on the forehead and cheeks, with about 15 inflamed papules and pustules. There are no nodules, cysts or scars.
+?Which is the most appropriate topical treatment?
+
+@h0097
+A 40 year old man has a lump on his forearm. The examiner asks you to describe it.
+It is a raised, firm, solid lesion measuring 1.5 cm across that can be felt in the deeper layers of the skin. It contains no fluid.
+?Which is the correct descriptive term?
+
+@h0098
+A 44 year old woman has been admitted with toxic epidermal necrolysis affecting 40% of her body surface area after starting a new medicine. She is being transferred to a burns unit.
+Temperature 35.6°C, pulse rate 118 bpm, BP 96/58 mmHg. Large areas of skin have detached, leaving raw, weeping dermis.
+?Which is the most important risk from acute skin failure?
+
+@h0099
+A 34 year old woman started carbamazepine for trigeminal neuralgia 2 weeks ago. She now has a painful widespread rash, sore eyes and mouth ulcers.
+Temperature 38.8°C, pulse rate 112 bpm. There are dusky red patches with flaccid blisters over 35% of her body. The skin peels away with gentle lateral pressure. There are erosions on the lips and buccal mucosa.
+?Which is the most likely diagnosis?
+
+@h0100
+A 49 year old man attends for an NHS Health Check. He has no symptoms. His BMI is 31 and his father has type 2 diabetes.
+BP 132/82 mmHg.
+Fasting glucose 6.5 mmol/L. HbA1c 44 mmol/mol.
+?Which is the most likely diagnosis?

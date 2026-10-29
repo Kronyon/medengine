@@ -51,6 +51,8 @@ AN = [
     (r'free T4|fT4|free thyroxine', 'Free T4', 'pmol/L', '12–22'),
     (r'free T3|fT3', 'Free T3', 'pmol/L', '3.1–6.8'),
     (r'D-dimers?', 'D-dimer', 'mg/L', '<0.5'),
+    (r'(?:high-sensitivity )?troponin(?: [TI])?(?: at \d+ hours?)?', 'Troponin', 'ng/L', '<14'),
+    (r'(?:serum )?prolactin', 'Prolactin', 'mU/L', '100–500'),
     (r'(?:prothrombin time|PT)', 'PT', 'seconds', '10–12'),
     (r'APTT', 'APTT', 'seconds', '22–41'),
     (r'pH', 'pH', '', '7.35–7.45'),
@@ -163,38 +165,47 @@ def fmt(q):
         m = re.search(r'((?:Which|What|How|Where|When|Who|Why|In which|In what|At what|To what)[^?]*\?)\s*$', s)
         if m and s[:m.start()].strip(): ql, s = m.group(1), s[:m.start()].strip()
     ql = _lead(ql) if ql else ql
-    sents = [_obs(x) for x in _sentences(s)]
+    explicit = '\n' in s.strip()
     lab = [list(r) for r in (q.get('lab') or [])]
-    pre, post, tab_at = [], [], None
-    for x in sents:
-        x = re.sub(r'\bInvestigations?:\s*', '', x) if tab_at is None and len(_matches(x)) >= 3 else x
-        hs = _matches(x)
-        left = x
-        for h in reversed(hs): left = left[:h[0]] + left[h[1]:]
-        leftover = FILL.sub('', re.sub(r'\([^)]*\)', '', left))
-        if len(hs) >= 3 and len(leftover) <= 12 and tab_at is None:
-            for h in hs:
-                a = h[2]; unit = h[4] or a[2]
-                lab.append([a[1], (h[3] + (' ' + unit if unit else '')).strip(), h[5] or _range(a, sex)])
-            note = re.search(r'\(([^)]*AKI[^)]*)\)', x)
-            if note: post.append(note.group(1)[0].upper() + note.group(1)[1:] + '.')
-            tab_at = len(pre)
-            continue
-        if hs:
-            for h in reversed(hs):
-                a = h[2]; rg = _range(a, sex); unit = h[4]
-                if not rg or h[5]: continue
-                add = ('' if unit or not a[2] else ' ' + a[2]) + ' (' + rg + ')'
-                x = x[:h[1]].rstrip() + add + x[h[1]:]
-        (post if tab_at is not None else pre).append(x)
-    # history, then a fresh paragraph at the first observation or examination sentence
-    paras, cur = [], []
-    for i, x in enumerate(pre):
-        if i and cur and EXAM.search(x) and not any(EXAM.search(y) for y in cur): paras.append(' '.join(cur)); cur = []
-        cur.append(x)
-    if cur: paras.append(' '.join(cur))
+    pre, post, tab_at = [], [], None   # lists of paragraphs, each a list of sentences
+    for para in [p for p in s.split('\n') if p.strip()] if explicit else [s]:
+        cur_pre, cur_post = [], []
+        for x in [_obs(x) for x in _sentences(para)]:
+            x = re.sub(r'\bInvestigations?:\s*', '', x) if tab_at is None and len(_matches(x)) >= 3 else x
+            hs = _matches(x)
+            left = x
+            for h in reversed(hs): left = left[:h[0]] + left[h[1]:]
+            leftover = FILL.sub('', re.sub(r'\([^)]*\)', '', left))
+            if len(hs) >= 3 and len(leftover) <= 12 and tab_at is None:
+                for h in hs:
+                    a = h[2]; unit = h[4] or a[2]
+                    lab.append([a[1], (h[3] + (' ' + unit if unit else '')).strip(), h[5] or _range(a, sex)])
+                note = re.search(r'\(([^)]*AKI[^)]*)\)', x)
+                if note: cur_post.append(note.group(1)[0].upper() + note.group(1)[1:] + '.')
+                tab_at = len(pre)
+                continue
+            if hs:
+                for h in reversed(hs):
+                    a = h[2]; rg = _range(a, sex); unit = h[4]
+                    if not rg or h[5]: continue
+                    add = ('' if unit or not a[2] else ' ' + a[2]) + ' (' + rg + ')'
+                    x = x[:h[1]].rstrip() + add + x[h[1]:]
+            (cur_post if tab_at is not None else cur_pre).append(x)
+        if cur_pre: pre.append(cur_pre)
+        if cur_post: post.append(cur_post)
+    if explicit:
+        paras = [' '.join(p) for p in pre]
+    else:
+        # history, then a fresh paragraph at the first observation or examination sentence
+        flat_pre = [x for p in pre for x in p]
+        paras, cur = [], []
+        for i, x in enumerate(flat_pre):
+            if i and cur and EXAM.search(x) and not any(EXAM.search(y) for y in cur): paras.append(' '.join(cur)); cur = []
+            cur.append(x)
+        if cur: paras.append(' '.join(cur))
+    post = ['\n'.join(' '.join(p) for p in post)] if post else []
     q['s'] = '\n'.join(paras)
-    q['post'] = ' '.join(post)
+    q['post'] = post[0] if post else ''
     q['ql'] = ql
     for r in lab:
         r[1] = re.sub(r'\s*;\s*$', '', r[1])
@@ -214,7 +225,36 @@ def fmt(q):
 FOOT = re.compile(r'\s*©\s*Medical Schools Council[^.]*?(?:Page \d+ of \d+)?\s*$|\s*Page \d+ of \d+\s*$')
 
 
+VDIR = __import__('pathlib').Path(__file__).resolve().parent / 'vignettes'
+
+
+def vignettes():
+    """v2.7.1: full MSCAA-length rewrites of the Hammer stems, one block per question:
+    @id, then one line per paragraph, then ?the lead-in. Options, answer, why and flip are untouched."""
+    V, cur = {}, None
+    for f in sorted(VDIR.glob('*.txt')):
+        for n, ln in enumerate(open(f, encoding='utf-8'), 1):
+            ln = ln.rstrip()
+            if not ln or ln.startswith('#'): continue
+            if ln.startswith('@'):
+                cur = ln[1:].strip()
+                if cur in V: raise SystemExit(f'{f.name}:{n} duplicate vignette {cur}')
+                V[cur] = {'p': [], 'q': ''}
+            elif ln.startswith('?'): V[cur]['q'] = ln[1:].strip()
+            else: V[cur]['p'].append(ln.strip())
+    for k, v in V.items():
+        if not v['p'] or not v['q'].endswith('?'): raise SystemExit(f'vignette {k} needs paragraphs and a lead-in ending in ?')
+    return V
+
+
 def apply(D):
+    V = vignettes()
+    ids = {q['id'] for q in D['hq']['q']}
+    bad = [k for k in V if k not in ids]
+    if bad: raise SystemExit('vignettes for unknown ids: ' + ' '.join(bad[:10]))
+    for q in D['hq']['q']:
+        if q['id'] in V:
+            q['s'] = '\n'.join(V[q['id']]['p']); q['ql'] = V[q['id']]['q']; q.pop('lab', None); q['vg'] = 1
     for q in D['hq']['q']: fmt(q)
     for q in D['mock']['q']: fmt(q)
     for q in D['off']['q']:

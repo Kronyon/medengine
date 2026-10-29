@@ -1,0 +1,255 @@
+# h0601 to h0650
+
+@h0601
+A 24 year old man has had a blocked, runny nose with sneezing and itchy eyes every summer for 5 years. This year his symptoms have lasted 6 weeks and disturb his sleep. Oral cetirizine has helped only a little.
+The nasal mucosa is pale and swollen. There are no nasal polyps.
+?Which treatment is most effective for persistent symptoms?
+
+@h0602
+A 38 year old woman has used an over-the-counter decongestant nasal spray several times a day for 6 weeks after a cold. Her nose is now blocked all the time and the spray works for shorter and shorter periods.
+The nasal mucosa is red and swollen. There are no polyps and the septum is straight.
+?Which is the most likely cause?
+
+@h0603
+A 17 year old student has severe hay fever with streaming eyes and nose. She has important exams in 2 weeks. She already uses an intranasal corticosteroid and an oral antihistamine correctly, but her symptoms continue.
+?Which option may be considered?
+
+@h0604
+A 72 year old woman was admitted with vomiting and diarrhoea 2 days ago. She takes ramipril. She has passed little urine.
+Her creatinine was 80 µmol/L at her GP review 3 months ago. Today it is 200 µmol/L. Urine output has been 0.6 mL/kg/hour.
+?Which stage of acute kidney injury is this?
+
+@h0605
+A 68 year old man has had vomiting and diarrhoea for 3 days and has acute kidney injury. His creatinine has risen from 90 to 180 µmol/L.
+Pulse rate 108 bpm, BP 98/60 mmHg. His mucous membranes are dry.
+Urine sodium 10 mmol/L. Urine osmolality 650 mOsm/kg. Urinalysis is bland.
+?What does this suggest?
+
+@h0606
+A 58 year old woman started omeprazole for dyspepsia 10 days ago. She now has a fever, a widespread itchy rash and feels unwell.
+Temperature 37.9°C. There is a maculopapular rash on the trunk.
+Creatinine 212 µmol/L, previously 72 µmol/L. Eosinophils raised. Urine microscopy shows white cells and eosinophils with no casts or bacteria.
+?Which is the most likely cause of her acute kidney injury?
+
+@h0607
+A 28 year old man returned from visiting family in Pakistan 2 weeks ago. He did not have pre-travel vaccines. He has had a fever that has risen each day for a week, with a headache, abdominal discomfort and constipation.
+Temperature 39.4°C, pulse rate 64 bpm. There are a few faint pink macules on his abdomen and the spleen tip is palpable.
+Malaria films are negative.
+?Which is the most likely diagnosis?
+
+@h0608
+A 34 year old woman returned from Nigeria 10 days ago. She did not take malaria prophylaxis. She has had fever, rigors, headache and muscle aches for 2 days.
+Temperature 39.2°C, pulse rate 112 bpm, BP 116/72 mmHg. She is alert. There is no rash or neck stiffness.
+?Which is the most appropriate first test?
+
+@h0609
+A 26 year old man has typhoid fever confirmed by blood culture after a trip to Bangladesh. He has no drug allergies. Sensitivity results are not yet available.
+Temperature 39.0°C, pulse rate 72 bpm. He is not vomiting and has no abdominal tenderness.
+?Which is the most appropriate treatment?
+
+@h0610
+A 27 year old man has noticed pale patches on his upper back after a sunny holiday in Spain. They are slightly itchy.
+There are multiple pale, oval, finely scaling patches on the upper back and chest that have not tanned like the surrounding skin. Gentle scraping makes the scale more obvious.
+?Which is the most likely diagnosis?
+
+@h0611
+A 24 year old man has pityriasis versicolor affecting his chest and back, confirmed with skin scrapings. The area is too large for creams. He has no liver disease.
+?Which is the most appropriate treatment?
+
+@h0612
+A 26 year old man was treated with ketoconazole shampoo for pityriasis versicolor 2 weeks ago. The scaling and itch have gone, but the patches on his back are still pale. He is worried the treatment has failed.
+There is no scale on scraping.
+?Which is the most appropriate advice?
+
+@h0613
+A 22 year old man noticed red urine yesterday, 1 day after a sore throat started. He had a similar episode last year after a cold. He feels well.
+BP 128/78 mmHg. There is no oedema.
+Urine dipstick shows blood 3+ and protein 1+. Creatinine 84 µmol/L.
+?Which is the most likely diagnosis?
+
+@h0614
+A 9 year old boy has had dark brown urine and puffy eyes for 2 days. He had a sore throat 2 weeks ago that settled without treatment.
+BP 138/90 mmHg. There is periorbital oedema.
+Urine dipstick shows blood 3+ and protein 2+. Creatinine is mildly raised.
+?Which result supports post-streptococcal glomerulonephritis?
+
+@h0615
+A 20 year old man has had persistent microscopic haematuria found on a medical for work. He has difficulty hearing in noisy rooms. His maternal uncle needed dialysis in his thirties.
+BP 142/88 mmHg. Audiometry shows bilateral high-frequency sensorineural hearing loss. Eye examination shows anterior lenticonus.
+?Which is the most likely diagnosis?
+
+@h0616
+A 58 year old man has had double vision for 2 days. It is horizontal and worst when he looks to the right. It goes when he covers either eye.
+His right eye does not move outwards past the midline when he looks to the right. Other eye movements, the pupils and eyelids are normal.
+?Which nerve is affected?
+
+@h0617
+A 32 year old woman has idiopathic intracranial hypertension with papilloedema. She has developed horizontal double vision and a left sixth nerve palsy. MRI shows no lesion along the course of the nerve. She asks why this nerve has been affected.
+?Why is this nerve particularly affected by raised intracranial pressure?
+
+@h0618
+A 48 year old woman has had severe pain behind her right eye for a week with double vision. She had a boil on her face 2 weeks ago.
+Temperature 38.4°C. There is right proptosis with chemosis. There are right third, fourth and sixth nerve palsies, and numbness over the right forehead.
+?Where is the lesion?
+
+@h0619
+A 70 year old woman has had a hot, swollen, painful right knee for 2 days. She can barely bend it. She has type 2 diabetes.
+Temperature 38.4°C, pulse rate 102 bpm. The right knee is warm with a large effusion and painful restriction of all movement.
+?Which is the most appropriate first investigation?
+
+@h0620
+A 76 year old woman has had a hot, swollen left knee for 2 days. She is otherwise well.
+Temperature 37.6°C. There is a warm effusion in the left knee.
+Joint aspirate shows no organisms on Gram stain. Polarised light microscopy shows positively birefringent, rhomboid-shaped crystals. X-ray shows linear calcification in the knee cartilage.
+?Which is the most likely diagnosis?
+
+@h0621
+A 74 year old man who takes warfarin for atrial fibrillation has had a swollen, painful right knee for 1 day. He has had no injury. He recently finished a course of clarithromycin for a chest infection.
+Temperature 36.9°C. The right knee is swollen and tense with a large effusion. There is bruising on his forearms.
+White cell count normal. CRP 8 mg/L. INR 6.4.
+?Which is the most likely diagnosis?
+
+@h0622
+A 22 year old woman noticed a lump in her left breast 2 weeks ago. It is painless and she has no nipple discharge. She has no family history of breast cancer.
+There is a 2 cm smooth, rubbery, well-defined lump in the upper outer quadrant that slips away under the fingers. There is no skin change or axillary lymphadenopathy.
+?Which is the most likely diagnosis?
+
+@h0623
+A 26 year old woman has noticed a discrete lump in her right breast. It has not changed over her menstrual cycle. She has no family history of breast cancer and no nipple or skin changes.
+There is a 2 cm discrete, mobile lump in the upper outer quadrant of the right breast. There is no axillary lymphadenopathy.
+?Which is the most appropriate referral?
+
+@h0624
+A 23 year old woman has a 1.5 cm lump in her left breast. Triple assessment in the breast clinic, with ultrasound and core biopsy, confirms a fibroadenoma. She is not worried by it and does not want surgery.
+?Which is the most appropriate management?
+
+@h0625
+A 45 year old woman has noticed a tender lump in her right breast that appeared over a week. Her periods are becoming irregular.
+There is a 2 cm smooth, well-defined, fluctuant lump in the upper outer quadrant.
+Ultrasound shows a round, thin-walled, anechoic area with posterior acoustic enhancement.
+?Which is the most likely diagnosis?
+
+@h0626
+A 48 year old woman has a 3 cm lump in her left breast. Ultrasound shows a cystic lesion with some internal echoes. On aspiration the fluid is bloodstained, and a lump can still be felt afterwards.
+?Which is the most appropriate next step?
+
+@h0627
+A 35 year old woman has had tender, lumpy breasts in the week before each period for a year. It affects both breasts and settles once her period starts. She has no nipple discharge.
+Breast examination shows diffuse nodularity with no discrete lump. Imaging is normal.
+?Which is the most appropriate first-line management?
+
+@h0628
+A 30 year old woman is breastfeeding her 3 week old baby. She has had a painful red wedge-shaped area in her right breast for 2 days with flu-like symptoms. It has not improved after 24 hours of frequent feeding and expressing. She has no drug allergies.
+Temperature 38.4°C, pulse rate 98 bpm. There is a tender, red, wedge-shaped area in the upper outer quadrant with no fluctuant mass.
+?Which is the most appropriate management?
+
+@h0629
+A 35 year old woman has had a red, tender swelling beside her left areola for 5 days. This is her third similar episode in a year. She smokes 20 cigarettes a day. She is not breastfeeding and has never been pregnant.
+Temperature 37.5°C. There is a tender, red swelling at the areolar edge with slight nipple retraction.
+?Which is the most likely diagnosis?
+
+@h0630
+A 52 year old woman has had a red, swollen left breast for 4 weeks. She is not breastfeeding and has no fever. Two courses of antibiotics have not helped.
+Temperature 36.8°C. The left breast is diffusely red, warm and swollen with skin like orange peel. There is a firm left axillary lymph node.
+?Which is the most likely diagnosis?
+
+@h0631
+A 32 year old woman with schizophrenia has had milky discharge from both nipples for 2 months and her periods have stopped. She started risperidone 4 months ago. She has no headache or visual problems.
+Pregnancy test is negative. TSH is normal. Prolactin is raised.
+?Which is the most likely cause?
+
+@h0632
+A 56 year old woman has had spontaneous clear discharge from her right nipple for 3 weeks. There is no blood. She has no breast pain.
+Breast examination shows discharge from a single duct of the right nipple. There is no palpable lump, skin change or nipple retraction.
+?Which is the most appropriate referral?
+
+@h0633
+A 61 year old woman has had a red, scaly, crusting rash on her left nipple for 3 months. It has slowly spread onto the areola and is eroding the nipple. It has not settled with a steroid cream. The right nipple is normal.
+There is no palpable breast lump and no axillary lymphadenopathy.
+?Which is the most likely diagnosis?
+
+@h0634
+A 48 year old woman was in a car crash 2 months ago and the seatbelt bruised her chest. She has now noticed a lump in her left breast.
+There is a 2 cm firm, irregular lump in the upper inner quadrant beneath where the bruise was, with slight skin tethering. There is no axillary lymphadenopathy.
+?Which is the most likely diagnosis, which still needs triple assessment?
+
+@h0635
+A 45 year old woman has a smooth lump in her right breast that has grown to 6 cm within 3 months. It is not painful.
+There is a 6 cm smooth, firm, mobile, well-defined lump. The overlying skin is stretched but not tethered. There is no axillary lymphadenopathy.
+?Which is the most likely diagnosis?
+
+@h0636
+A 72 year old man with heart failure has had tender enlargement of both breasts for 2 months. He takes ramipril, bisoprolol, furosemide and spironolactone, which was started 6 months ago. He drinks little alcohol.
+There is tender, rubbery tissue beneath both nipples. Testes are normal. Liver function is normal.
+?Which drug is most likely to be the cause?
+
+@h0637
+A 47 year old woman asks when she will be invited for NHS breast screening. She has no breast symptoms and no family history of breast cancer.
+?Who is routinely invited to the NHS breast screening programme?
+
+@h0638
+A 41 year old woman has had a wide local excision and sentinel node biopsy for a 1.8 cm invasive ductal carcinoma. She is still having regular periods. Histology shows the tumour is oestrogen receptor positive and HER2 negative.
+?Which is the most appropriate endocrine therapy?
+
+@h0639
+A 64 year old woman is starting anastrozole after surgery for oestrogen receptor positive breast cancer. She went through the menopause at 50.
+?Which baseline test is most important?
+
+@h0640
+A 70 year old woman has had a painful lump in her right groin for 12 hours with vomiting.
+There is a 3 cm tender, firm, irreducible lump below and lateral to the pubic tubercle. There is no cough impulse.
+?Which is the most likely diagnosis?
+
+@h0641
+A 34 year old man has a reducible right groin swelling. The examiner reduces the hernia and then presses firmly over the midpoint of the inguinal ligament. When he coughs, the swelling does not reappear until the pressure is released.
+?Which type of hernia is this?
+
+@h0642
+A thin 84 year old woman has had colicky abdominal pain and vomiting for 2 days. There is no groin lump. She has pain down the inner side of her right thigh to the knee that gets worse when her hip is rotated.
+Pulse rate 102 bpm. The abdomen is distended with active bowel sounds. There is no hernia in either groin.
+?Which is the most likely cause?
+
+@h0643
+A 58 year old man has had crushing central chest pain for 50 minutes. He is sweating and nauseated.
+Pulse rate 92 bpm, BP 138/84 mmHg, SpO2 97% breathing air.
+ECG shows 3 mm ST elevation in V1 to V4. He has been given aspirin 300 mg. The local heart attack centre can open the artery within 90 minutes.
+?Which is the most appropriate reperfusion strategy?
+
+@h0644
+A 66 year old woman had 30 minutes of central chest pain at rest this morning that has now settled. She has hypertension and type 2 diabetes.
+Pulse rate 76 bpm, BP 142/86 mmHg. Examination is normal.
+ECG shows 1 mm ST depression in V4 to V6. High-sensitivity troponin T at 0 hours 8 ng/L. High-sensitivity troponin T at 3 hours 9 ng/L.
+?Which is the most likely diagnosis?
+
+@h0645
+A 61 year old man has had central chest pain for 1 hour. He is sweating.
+Pulse rate 88 bpm, BP 132/80 mmHg.
+His 12-lead ECG shows horizontal ST depression with tall, dominant R waves in V1 to V3. There is no ST elevation in the standard leads.
+?Which is the most appropriate next step to confirm the diagnosis?
+
+@h0646
+A 64 year old man with poorly controlled hypertension has had sudden tearing chest pain going through to his back between the shoulder blades for 1 hour.
+Pulse rate 104 bpm. BP 168/92 mmHg in the right arm and 128/80 mmHg in the left arm. There is a soft early diastolic murmur.
+ECG shows left ventricular hypertrophy with no ST elevation.
+?Which is the most likely diagnosis?
+
+@h0647
+A 59 year old woman has had sudden severe interscapular pain for 2 hours. Aortic dissection is suspected.
+Pulse rate 96 bpm, BP 150/88 mmHg in both arms. She is alert. eGFR is normal.
+?Which is the most appropriate investigation to confirm the diagnosis?
+
+@h0648
+A 66 year old man has had sudden severe back pain for 3 hours.
+Pulse rate 96 bpm, BP 182/104 mmHg. Leg pulses are present and there is no abdominal tenderness. Urine output and kidney function are normal.
+CT shows an aortic dissection starting beyond the origin of the left subclavian artery, with no organ or limb malperfusion.
+?Which is the most appropriate initial management?
+
+@h0649
+A 61 year old man has had tightness in his chest when he walks uphill for 2 months. It settles within 5 minutes of rest. He has been given sublingual glyceryl trinitrate. He has no asthma, heart failure or other illnesses.
+Pulse rate 78 bpm, BP 136/84 mmHg. CT coronary angiography confirms coronary artery disease.
+?Which is the most appropriate first-line regular drug to prevent the attacks?
+
+@h0650
+A 57 year old woman has had typical exertional chest pain for 6 weeks. It is relieved by rest. She has hypertension and smokes.
+BP 142/86 mmHg. Cardiovascular examination is normal. Her resting ECG is normal.
+?Which is the most appropriate first-line diagnostic investigation?

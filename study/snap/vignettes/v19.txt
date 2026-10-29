@@ -1,0 +1,257 @@
+# h0951 to h1000
+
+@h0951
+A 62 year old man has had three episodes of swelling of his tongue and lips over 6 months. Each lasted about 2 days. He has no itch or rash. He has taken ramipril for 2 years. There is no family history of swelling.
+Today his lower lip is swollen. There is no stridor and no wheals. SpO2 98% breathing air.
+?Which is the most likely cause?
+
+@h0952
+A 76 year old man smokes 20 cigarettes a day. He has a painful ulcer on his ankle. The pain is worse at night and eases when he hangs his leg out of bed.
+There is a deep, punched-out ulcer on the lateral malleolus with a pale base. The foot is cool, and the foot pulses cannot be felt.
+?Which type of ulcer is this?
+
+@h0953
+A 74 year old woman has had an ulcer above her medial malleolus for 4 months. She has varicose veins. She also has calf pain on walking.
+There is a shallow ulcer with a sloughy base and surrounding haemosiderin staining. The foot pulses are weak.
+Ankle-brachial pressure index 0.6.
+?Which is the most appropriate management?
+
+@h0954
+A 70 year old woman has a venous leg ulcer that is healing slowly despite compression bandaging for 3 months. There are no signs of infection. Her ABPI is 1.0.
+?Which drug has evidence for speeding the healing of venous leg ulcers?
+
+@h0955
+A 6 year old boy has atopic eczema. He has a flare on his arms with red, dry, itchy patches and some excoriation. His face is not affected. He already uses emollients regularly.
+There is no weeping, crusting or punched-out erosions.
+?Which topical steroid is most appropriate?
+
+@h0956
+A 3 year old girl with atopic eczema has become unwell over 24 hours. Her eczema has suddenly become very painful.
+Temperature 38.6°C. There are clusters of punched-out erosions and blisters over the eczema on her face and neck.
+?Which is the most likely diagnosis?
+
+@h0957
+A 28 year old woman has had an itchy rash on her lower abdomen for 3 weeks. She has no history of eczema.
+There is a well-defined, red, scaly patch just below the navel, exactly where her jeans stud touches the skin.
+?Which is the most likely diagnosis?
+
+@h0958
+A 30 year old man has had itchy spots on his thighs for 4 days. He shaved his legs for a cycling race a week ago. He is otherwise well.
+There are small pustules on both thighs, each with a hair in the centre. There are no larger tender lumps.
+?Which is the most likely diagnosis?
+
+@h0959
+A 25 year old Black man has had itchy spots in his beard area for 3 months. They are worse after close shaving.
+There are papules and pustules on the neck and jaw, with some hairs curling back into the skin.
+Skin swabs grow no pathogens.
+?Which is the most likely diagnosis?
+
+@h0960
+A 34 year old woman has had several painful boils on her buttocks and thighs over the past year. Her husband and son have had boils too. They are otherwise well.
+There is a tender, fluctuant boil on the left thigh.
+?Which is the most appropriate next step?
+
+@h0961
+A 5 year old boy has had a small patch of golden crusts on his chin for 3 days. He is otherwise well and has no fever.
+There is one 2 cm area of honey-coloured crust on the chin. There are no blisters and no other lesions.
+?Which is the most appropriate first treatment?
+
+@h0962
+A 6 year old girl has impetigo on her face. She started an antibiotic cream this morning. Her mother asks when she can go back to school.
+?When can she return to school?
+
+@h0963
+A 3 year old boy has been irritable with a fever for a day. His skin is red and painful to touch.
+Temperature 38.8°C. There is widespread tender erythema. The top layer of skin peels off with light pressure. His mouth, lips and eyes are normal.
+?Which is the most likely diagnosis?
+
+@h0964
+A 54 year old man has had a red, hot, swollen right lower leg for 2 days. It is spreading. He has athlete's foot. He has no allergies.
+Temperature 37.9°C, pulse rate 92 bpm, BP 134/82 mmHg. He is alert and well. There is a red, warm, tender area on the shin with a poorly defined edge. The left leg is normal.
+?Which is the most appropriate antibiotic?
+
+@h0965
+A 74 year old woman has cellulitis of her right leg that has spread over 3 days. Her daughter says she has become confused today.
+Temperature 38.9°C, pulse rate 120 bpm, BP 88/50 mmHg, respiratory rate 24 breaths per minute. There is red, hot, swollen skin from the ankle to the knee.
+Lactate 3.6 mmol/L.
+?Which is the most appropriate management?
+
+@h0966
+A 78 year old woman with varicose veins has had red, warm, itchy skin on both lower legs for 3 weeks. She feels well.
+Temperature 36.8°C. There is symmetrical red, scaly skin with brown staining around both ankles. There is no tenderness.
+White cell count 7.2 × 10⁹/L. CRP 4 mg/L.
+?Which is the most likely diagnosis?
+
+@h0967
+A 45 year old man with type 2 diabetes cut his thigh on a fence 2 days ago. He now has severe pain in the thigh.
+Temperature 38.8°C, pulse rate 130 bpm, BP 96/58 mmHg. There is mild redness, but the pain is far worse than the redness suggests. The skin is dusky and there is crepitus.
+CRP 310 mg/L. Creatine kinase 1800 IU/L.
+?Which is the most likely diagnosis?
+
+@h0968
+A 54 year old woman has rapidly spreading redness and severe pain in her leg. She is septic, with dusky skin. Necrotising fasciitis is suspected. IV antibiotics have been started.
+?Which is the most appropriate next step?
+
+@h0969
+A 62 year old man with type 2 diabetes has had a painful, swollen scrotum and perineum for 24 hours. It is spreading fast.
+Temperature 38.9°C, pulse rate 124 bpm, BP 94/56 mmHg. The scrotum and perineum are red, swollen and very tender with dusky patches. There is crepitus on palpation.
+?Which is the most likely diagnosis?
+
+@h0970
+A 9 year old girl has had a few painless warts on her hands for 6 months. They do not bother her. Her mother asks whether they need treatment.
+There are three rough papules on her fingers. She is otherwise healthy.
+?Which is the most appropriate management?
+
+@h0971
+A 32 year old man has had a painful lump on the sole of his foot for 2 months. It hurts when he walks.
+There is a hard lump on the ball of the foot. The skin lines run around it rather than through it. Paring reveals tiny black dots. It hurts when squeezed from the sides.
+?Which is the most likely diagnosis?
+
+@h0972
+A 26 year old woman is 20 weeks pregnant. She has noticed small lumps around her vulva. She is otherwise well.
+There are several small, soft, flesh-coloured warts on the vulva.
+?Which is the most appropriate treatment?
+
+@h0973
+A 6 year old boy has had a scaly patch on his scalp for 4 weeks. Some of the hair has fallen out.
+There is a round, scaly patch of hair loss with broken hairs on the scalp.
+Scalp scrapings confirm a dermatophyte infection.
+?Which is the most appropriate treatment?
+
+@h0974
+A 42 year old man had an itchy rash on his thigh that was treated as eczema with a potent steroid cream for 6 weeks. At first it improved but it has now spread.
+There is a large red patch with an indistinct scaly edge and a few pustules.
+?Which is the most likely diagnosis?
+
+@h0975
+A 58 year old man has had a thickened, yellow, crumbly big toenail for a year. It is unsightly and he wants treatment. He has no psoriasis elsewhere.
+The right big toenail is thickened, yellow and crumbly, with debris under the nail.
+?Which is the most appropriate first step?
+
+@h0976
+A 26 year old woman has had intense itch for 3 weeks that is worse at night. Her partner is now itchy too. She is not pregnant.
+There are burrows between her fingers and papules on her wrists and waist.
+?Which is the most appropriate treatment?
+
+@h0977
+A 34 year old man was treated correctly for scabies with two applications of permethrin a week apart. His partner was treated at the same time. Two weeks later he still itches.
+There are no new burrows or new papules.
+?Which is the most appropriate advice?
+
+@h0978
+An 88 year old woman lives in a care home and is frail with dementia. She has thick crusted scaly plaques on her hands and between her fingers. Several staff members now have an itchy rash.
+There are thick, grey crusts on her hands, wrists and elbows. It is not very itchy for her.
+?Which is the most likely diagnosis?
+
+@h0979
+A 7 year old girl has an itchy scalp. Her mother found live lice on detection combing.
+There are live lice and eggs close to the scalp. The scalp is not infected.
+?Which is the most appropriate treatment?
+
+@h0980
+A 6 year old girl has head lice. She has started treatment. Her mother asks how long she must stay off school.
+?How long should she stay off school?
+
+@h0981
+A 9 year old boy has head lice confirmed on detection combing. He lives with his parents and two sisters.
+?What should be done about the rest of the family?
+
+@h0982
+A 32 year old man has had scaly plaques on his elbows and knees for a year. They have never been treated. He has no joint pain.
+There are well-demarcated, red plaques with silvery scale on both elbows and knees. They cover less than 5% of his body.
+?Which is the most appropriate first treatment?
+
+@h0983
+A 17 year old boy has had many small spots on his trunk for a week. He had a sore throat 2 weeks ago.
+There are many small, teardrop-shaped, red, scaly papules on the trunk and upper limbs. The palms and soles are clear.
+?Which is the most likely diagnosis?
+
+@h0984
+A 42 year old woman has had psoriasis that was mild for years. It has flared badly over 2 months. Her psychiatrist started a new drug for bipolar disorder 3 months ago.
+There are widespread plaques on her trunk and limbs.
+?Which drug is most likely to be responsible?
+
+@h0985
+A 16 year old boy has had spots on his face for a year. He is not scarred and is not distressed.
+There are open and closed comedones and some papules on his forehead and cheeks. There are no nodules or cysts.
+?Which is the most appropriate first treatment?
+
+@h0986
+A 28 year old woman is 14 weeks pregnant. She has moderate acne on her face with papules and pustules. She has no nodules or scars.
+?Which treatment is most appropriate?
+
+@h0987
+A 19 year old woman has severe nodular acne that has not responded to an oral antibiotic and topical treatment. She is starting isotretinoin.
+?Which is essential before she starts?
+
+@h0988
+A 34 year old woman has noticed a brown area on her forearm. It has not changed over a year.
+There is a flat, non-palpable area of colour change 3 cm across.
+?Which term best describes it?
+
+@h0989
+A 72 year old man has a blister on his forearm. He is otherwise well.
+There is a tense, fluid-filled blister 1.5 cm across.
+?Which term best describes it?
+
+@h0990
+An 80 year old woman has psoriasis that has spread over 2 weeks. She is shivering and has ankle swelling.
+Temperature 35.6°C, pulse rate 112 bpm, BP 108/64 mmHg. There is red, scaly skin over more than 90% of her body. There is pitting oedema to the knees.
+Albumin 28 g/L.
+?Which is the most appropriate management?
+
+@h0991
+A 52 year old man has an HbA1c of 50 mmol/mol on a routine blood test. He has no thirst, polyuria or weight loss.
+BMI 29 kg/m². BP 132/82 mmHg.
+?Which is the most appropriate next step?
+
+@h0992
+A 61 year old man had a myocardial infarction 2 years ago. He has just been diagnosed with type 2 diabetes and is starting metformin. He has no heart failure.
+BMI 30 kg/m². BP 128/76 mmHg.
+HbA1c 64 mmol/mol. eGFR 74 mL/min/1.73 m².
+?Which drug should be added once metformin is tolerated?
+
+@h0993
+A 24 year old woman has been diagnosed with diabetes. Her mother and grandmother were both diagnosed with diabetes in their 20s. She has no history of ketoacidosis.
+BMI 21 kg/m².
+HbA1c 58 mmol/mol. Islet autoantibodies are negative. C-peptide is normal.
+?Which is the most likely diagnosis?
+
+@h0994
+A 19 year old man with type 1 diabetes has been vomiting for 24 hours. He has abdominal pain and is breathing deeply.
+Pulse rate 124 bpm, BP 86/54 mmHg, respiratory rate 28 breaths per minute. He is dry and drowsy.
+Venous pH 7.08. Bicarbonate 7 mmol/L. Glucose 28 mmol/L. Blood ketones 5.8 mmol/L. Potassium 5.1 mmol/L.
+?Which is the most appropriate first step?
+
+@h0995
+A 22 year old woman with DKA has had a fluid bolus and is now on fixed-rate IV insulin. She is passing urine.
+Potassium 4.2 mmol/L.
+?How much potassium should be added to the next litre of fluid?
+
+@h0996
+A 26 year old man with DKA has been on fixed-rate IV insulin at 0.1 units per kg per hour for 6 hours. He is drinking a little.
+Pulse rate 96 bpm, BP 118/74 mmHg.
+Glucose 12 mmol/L. Blood ketones 2.1 mmol/L. Venous pH 7.28.
+?Which is the most appropriate next step?
+
+@h0997
+An 82 year old woman with type 2 diabetes has been unwell for a week with a urinary infection. She has become drowsy and is very dry.
+Pulse rate 112 bpm, BP 102/60 mmHg. GCS 13.
+Glucose 48 mmol/L. Serum osmolality 345 mOsm/kg. Blood ketones 0.6 mmol/L. Venous pH 7.34. Bicarbonate 20 mmol/L.
+?Which is the most likely diagnosis?
+
+@h0998
+A 78 year old man with type 2 diabetes is admitted drowsy and dehydrated. The registrar asks you to calculate his serum osmolality.
+Sodium 150 mmol/L. Glucose 40 mmol/L. Urea 20 mmol/L.
+?What is the calculated serum osmolality?
+
+@h0999
+A 74 year old man with hyperosmolar hyperglycaemic state has had 2 hours of IV 0.9% saline. He is passing urine.
+Glucose is falling by 5 mmol/L per hour. Blood ketones 0.4 mmol/L. Venous pH 7.36.
+?Which is the most appropriate next step?
+
+@h1000
+A 34 year old woman with type 1 diabetes feels sweaty and shaky an hour after her lunchtime insulin. She skipped part of her meal.
+She is alert and can swallow safely. Pulse rate 102 bpm.
+Capillary glucose 2.8 mmol/L.
+?Which is the most appropriate first treatment?

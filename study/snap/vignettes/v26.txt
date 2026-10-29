@@ -1,0 +1,255 @@
+# h1301 to h1350
+
+@h1301
+A 70 year old man with COPD has had sudden breathlessness and left-sided chest pain for 6 hours.
+Respiratory rate 26 breaths per minute, SpO2 88% breathing air. Pulse rate 108 bpm, BP 134/80 mmHg. The trachea is central. There are reduced breath sounds on the left.
+Chest X-ray shows a left pneumothorax with a 2.5 cm rim.
+?Which is the most appropriate management?
+
+@h1302
+A 22 year old man had a primary spontaneous pneumothorax 2 months ago that was treated with aspiration. It has fully resolved. He has not had surgery. He asks about scuba diving on holiday.
+Chest X-ray today is normal.
+?Which is the most appropriate advice?
+
+@h1303
+A 72 year old woman with COPD is admitted with an exacerbation. She has had nebulised bronchodilators and steroids and is on 28% oxygen for an hour.
+Respiratory rate 28 breaths per minute, SpO2 90% on 28% oxygen. She is alert.
+Arterial blood gas: pH 7.28, PaCO2 8.1 kPa, PaO2 8.6 kPa, bicarbonate 30 mmol/L.
+?Which is the most appropriate next step?
+
+@h1304
+A 19 year old woman is anxious after an argument. She has tingling in her fingers and around her mouth. She has no chest pain or asthma.
+Respiratory rate 30 breaths per minute, SpO2 100% breathing air.
+Arterial blood gas breathing air: pH 7.50, PaCO2 3.1 kPa, PaO2 13.8 kPa, bicarbonate 23 mmol/L.
+?Which best describes the result?
+
+@h1305
+A 45 year old man is unwell and dehydrated.
+Venous blood gas: pH 7.29. Sodium 138 mmol/L. Potassium 3.1 mmol/L. Chloride 114 mmol/L. Bicarbonate 14 mmol/L. Glucose 5.6 mmol/L.
+?Which cause fits best?
+
+@h1306
+A 48 year old woman had a hip replacement 10 days ago. She now has sudden pleuritic chest pain and breathlessness.
+Pulse rate 112 bpm, respiratory rate 24 breaths per minute, SpO2 93% breathing air. BP 128/80 mmHg.
+Her two-level Wells score for pulmonary embolism is 6.
+?Which is the most appropriate next step?
+
+@h1307
+A 39 year old woman has antiphospholipid syndrome. She has a confirmed pulmonary embolism. She is stable and is not pregnant.
+Pulse rate 92 bpm, BP 124/78 mmHg, SpO2 96% breathing air.
+?Which is the most appropriate long-term anticoagulant?
+
+@h1308
+A 64 year old woman has sudden breathlessness and collapse. CTPA confirms a large pulmonary embolism with right ventricular strain.
+Despite 1 litre of IV fluid, her BP is 76/48 mmHg. Pulse rate 128 bpm. She has no contraindications to thrombolysis.
+?Which is the most appropriate management?
+
+@h1309
+A 69 year old man is admitted with Covid-19 pneumonia. He has had symptoms for 8 days.
+Respiratory rate 26 breaths per minute, SpO2 89% breathing air. Temperature 38.1°C.
+Chest X-ray shows bilateral patchy shadowing.
+?Which is the most appropriate drug to give?
+
+@h1310
+A 62 year old man takes rituximab for lymphoma. He tested positive for Covid-19 on day 3 of symptoms. He has a cough and fever.
+SpO2 97% breathing air, respiratory rate 16 breaths per minute. He takes no other interacting medicines.
+eGFR 78 mL/min/1.73 m².
+?Which is the most appropriate management?
+
+@h1311
+A 54 year old woman had a kidney transplant and takes tacrolimus. She has tested positive for Covid-19 on day 2 of symptoms. She does not need oxygen. She is eligible for antiviral treatment.
+?Which is the most appropriate choice?
+
+@h1312
+A 34 year old woman has had pleuritic chest pain for a day. She is not on the pill. She has no leg swelling, blood in her sputum, recent surgery or previous clots.
+Pulse rate 88 bpm, SpO2 97% breathing air. The chest is clear and the calves are normal.
+Clinical suspicion of PE is low.
+?Which is the most appropriate next step?
+
+@h1313
+A 52 year old man has had a swollen left calf for 2 days. His two-level DVT Wells score is 1.
+The left calf is slightly swollen with no tenderness along the deep veins.
+D-dimer is positive.
+?Which is the most appropriate next step?
+
+@h1314
+A 31 year old woman is 28 weeks pregnant. She has had pleuritic chest pain and breathlessness since yesterday. She has no leg symptoms.
+Pulse rate 104 bpm, SpO2 95% breathing air.
+Chest X-ray is normal.
+?Which is the most appropriate imaging?
+
+@h1315
+A 70 year old woman has atrial fibrillation. She has hypertension. She has no diabetes, heart failure, vascular disease or previous stroke.
+?What is her CHA2DS2-VASc score?
+
+@h1316
+A 74 year old man has newly diagnosed atrial fibrillation. Anticoagulation is being considered and his bleeding risk is being assessed.
+?Which score is used to assess bleeding risk before starting anticoagulation for AF?
+
+@h1317
+A GP is calculating 10-year cardiovascular risk for several patients to decide on statin treatment.
+?For which patient is QRISK3 not appropriate?
+
+@h1318
+A 42 year old man is brought in after a head injury.
+He opens his eyes only to pain. He makes incomprehensible sounds. He withdraws his arm from a painful stimulus.
+?What is his GCS?
+
+@h1319
+A 66 year old man is unwell on the ward and his observations are being scored.
+?Which NEWS2 finding scores 3 points by itself?
+
+@h1320
+A 72 year old man with COPD and type 2 respiratory failure has a prescribed target saturation of 88 to 92%. His SpO2 is 89% breathing air.
+?How should NEWS2 handle his saturations?
+
+@h1321
+A 58 year old man has central chest pain for an hour.
+Pulse rate 92 bpm, BP 134/82 mmHg.
+ECG shows ST elevation in V1 to V4.
+?Which territory is affected?
+
+@h1322
+A 64 year old man has had central chest pain at rest for 2 hours. It has now settled.
+Pulse rate 84 bpm, BP 138/84 mmHg.
+ECG is normal. High-sensitivity troponin is raised at 0 hours and rises further at 3 hours.
+?Which is the most likely diagnosis?
+
+@h1323
+A 28 year old man had a viral illness a week ago. For 2 days he has had sharp central chest pain that is worse lying down and eases when he sits forward.
+Temperature 37.8°C, pulse rate 96 bpm. There is a scratchy sound at the left sternal edge.
+ECG shows widespread saddle-shaped ST elevation with PR depression.
+?Which is the most likely diagnosis?
+
+@h1324
+A 55 year old woman has had bloating and has felt full quickly on most days for 2 months. She has no bowel change or bleeding.
+Abdominal and pelvic examination are normal.
+?Which test should be done first?
+
+@h1325
+A 64 year old man had a right hemicolectomy for colorectal cancer a year ago. His surgeon checks a CEA at follow-up.
+?What is CEA mainly used for in colorectal cancer?
+
+@h1326
+A 62 year old man with hepatitis C cirrhosis is having surveillance. He feels well.
+His AFP has risen from 8 to 240 kU/L over 6 months.
+?Which is the most likely cause?
+
+@h1327
+A 46 year old woman had a sudden severe headache 7 hours ago. CT head is normal. She has no neck stiffness or focal signs.
+?When should the lumbar puncture be done?
+
+@h1328
+A 27 year old woman with a BMI of 35 kg/m² has headaches and papilloedema. MRI and MR venography are normal. She has a lumbar puncture, and the CSF contents are normal.
+?Which result supports the diagnosis of idiopathic intracranial hypertension?
+
+@h1329
+A 38 year old man has had weakness rising up his legs for a week after a diarrhoeal illness. His reflexes are absent.
+CSF shows protein 1.8 g/L with a normal cell count.
+?Which term describes this?
+
+@h1330
+An 80 year old woman in a care home has been more confused for 2 days. She has no dysuria, frequency or fever. She is eating and drinking less.
+Temperature 36.9°C, pulse rate 84 bpm, BP 128/76 mmHg. There is no suprapubic tenderness.
+Urine dipstick is positive for leucocytes and nitrites.
+?Which is the most appropriate approach?
+
+@h1331
+A 24 year old woman has had dysuria and frequency for 2 days. She is not pregnant. A urine dipstick is done.
+?Which dipstick result most strongly suggests a UTI?
+
+@h1332
+A 22 year old woman has had dysuria and frequency for 3 weeks. She has a new partner.
+Urine microscopy shows many white cells. Repeated urine cultures are sterile.
+?Which is a likely cause?
+
+@h1333
+A 72 year old woman is breathless.
+There is stony dullness and reduced breath sounds at the right base.
+Chest X-ray shows a large white area at the right base with a curved upper edge rising towards the axilla.
+?What does this show?
+
+@h1334
+A 66 year old man with lung cancer is breathless.
+Chest X-ray shows a triangular white area behind the heart. The outline of the medial left hemidiaphragm is lost.
+?Which is the most likely cause?
+
+@h1335
+A 58 year old man has had sudden severe epigastric pain for 3 hours. He takes ibuprofen. He has not had recent surgery.
+Pulse rate 112 bpm, BP 104/66 mmHg. The abdomen is rigid.
+Erect chest X-ray shows a thin crescent of gas under the right hemidiaphragm.
+?Which is the most likely cause?
+
+@h1336
+An 82 year old man in a care home has a distended abdomen and has not opened his bowels for 4 days. He has chronic constipation.
+The abdomen is grossly distended and tympanic.
+Abdominal X-ray shows a massively dilated loop of colon shaped like a coffee bean, rising from the left side of the pelvis.
+?Which is the most likely diagnosis?
+
+@h1337
+A 76 year old woman has large bowel obstruction from a sigmoid tumour. The surgeon is concerned about the caecum on her abdominal X-ray.
+?Above which diameter is the caecum at risk of perforation?
+
+@h1338
+A 54 year old man has had ulcerative colitis for 20 years. He has an abdominal X-ray.
+The X-ray shows a featureless, narrowed colon with no haustra. There is no dilatation.
+?What is this sign?
+
+@h1339
+A 45 year old man fell off a ladder and hit his head. He has a headache and has not vomited. He takes no anticoagulants.
+His GCS is 13, two hours after the injury.
+?Which is the most appropriate timing for CT head?
+
+@h1340
+A 79 year old woman takes apixaban for atrial fibrillation. She tripped and hit her head. She has not lost consciousness, vomited or had a seizure.
+GCS 15. There is a small bruise on her forehead. There are no neurological signs or signs of a skull fracture.
+?Which is the most appropriate imaging?
+
+@h1341
+A 30 year old man had a head injury in a fight yesterday. He has clear fluid dripping from his nose.
+There is bruising behind his right ear and around both eyes.
+?What do these signs suggest?
+
+@h1342
+A 66 year old woman has sudden tearing chest pain going through to her back. Aortic dissection is suspected and urgent CT angiography is needed. She had hives after iodinated contrast in the past.
+BP 168/92 mmHg in the right arm and 136/80 mmHg in the left.
+?Which is the most appropriate step?
+
+@h1343
+A 74 year old man with atrial fibrillation has had severe abdominal pain for 6 hours. The pain is far worse than the examination suggests.
+Pulse rate 118 bpm, irregular. BP 104/62 mmHg. The abdomen is soft with mild tenderness.
+Lactate 6 mmol/L.
+?Which is the most appropriate imaging?
+
+@h1344
+A 72 year old man needs a contrast CT of his abdomen. He has chronic kidney disease.
+eGFR 25 mL/min/1.73 m².
+?Which is the most appropriate preventive measure for contrast-induced kidney injury?
+
+@h1345
+A 70 year old man with prostate cancer has had back pain for 2 weeks. Since yesterday his legs have been weak, and he cannot pass urine.
+There is weakness of both legs with a sensory level. The bladder is palpable.
+?Which investigation is most appropriate?
+
+@h1346
+A 54 year old man needs an MRI head for headaches. He used to work as a welder and grinder.
+?What must be done first?
+
+@h1347
+A 32 year old woman has had blurred vision with pain in her right eye on movement, and tingling in her legs a year ago. Multiple sclerosis is suspected.
+?Which test is most sensitive for multiple sclerosis lesions?
+
+@h1348
+A 34 year old man is hypotensive after a car crash. He has abdominal bruising from his seatbelt.
+Pulse rate 128 bpm, BP 82/50 mmHg. The abdomen is tender.
+?Which bedside test quickly looks for free fluid in the abdomen?
+
+@h1349
+A 42 year old woman has had pain in the right upper abdomen after fatty meals for 3 months.
+Temperature 36.9°C. There is mild right upper quadrant tenderness. Murphy's sign is negative.
+?Which is the first-line imaging for suspected gallstones?
+
+@h1350
+A 15 year old boy has had sudden pain in his left testicle for 2 hours.
+The left testis lies high. The left cremasteric reflex is absent.
+?Should a scrotal ultrasound be done first?

@@ -1,0 +1,255 @@
+# h0651 to h0700
+
+@h0651
+A 68 year old man has stable angina. He takes bisoprolol 10 mg daily, aspirin and atorvastatin, and uses glyceryl trinitrate spray. He still gets chest pain on exertion most days.
+Pulse rate 58 bpm, BP 138/82 mmHg. There is no peripheral oedema.
+?Which is the most appropriate drug to add?
+
+@h0652
+A 24 year old woman has had sudden palpitations for 30 minutes. She has had similar episodes before that stopped on their own.
+Pulse rate 186 bpm, regular. BP 118/76 mmHg. She has no chest pain, breathlessness or dizziness.
+ECG shows a regular narrow complex tachycardia with no visible P waves.
+?Which is the most appropriate first step?
+
+@h0653
+A 70 year old man has had palpitations and mild breathlessness for 2 days.
+Pulse rate 150 bpm, regular. BP 132/84 mmHg.
+ECG shows a saw-tooth baseline, best seen in leads II, III and aVF, with narrow QRS complexes at a regular rate.
+?Which is the most likely diagnosis?
+
+@h0654
+A 72 year old woman is being treated for pneumonia with clarithromycin. She also takes haloperidol for delirium. She collapsed briefly on the ward and has now come round.
+Pulse rate 160 bpm, BP 110/70 mmHg. She is alert.
+The monitor shows a broad complex tachycardia whose QRS axis twists around the baseline. Potassium 4.2 mmol/L.
+?Which is the most appropriate immediate drug?
+
+@h0655
+A 49 year old man attends for an NHS Health Check. He feels well.
+Clinic BP is 156/96 mmHg on two readings, 10 minutes apart. Fundoscopy is normal. Urine dipstick is normal.
+?Which is the most appropriate next step?
+
+@h0656
+A 54 year old man of Black African family origin has had hypertension confirmed with ambulatory monitoring, with an average daytime BP of 152/94 mmHg. He does not have diabetes. His kidney function and urine albumin to creatinine ratio are normal.
+?Which is the most appropriate first-line drug?
+
+@h0657
+A 66 year old woman has hypertension. She takes amlodipine 10 mg, ramipril 10 mg and indapamide 2.5 mg, and she takes them every day.
+Ambulatory BP is 150/92 mmHg. There is no postural drop.
+Potassium 4.9 mmol/L. Creatinine 82 µmol/L.
+?Which is the most appropriate drug to add?
+
+@h0658
+A 55 year old man attends for a cardiovascular risk review. He smokes and has a family history of heart disease. Lifestyle changes have been discussed and he would like treatment.
+BP 134/84 mmHg. Total cholesterol 6.2 mmol/L. HbA1c 40 mmol/mol. His QRISK3 score is 14%.
+?Which is the most appropriate drug?
+
+@h0659
+A 63 year old woman had an ischaemic stroke 3 months ago. She has taken atorvastatin 80 mg daily since then and reports taking every dose without side effects.
+Total cholesterol 4.8 mmol/L. LDL cholesterol 2.9 mmol/L. Liver function is normal.
+?Which is the most appropriate next step?
+
+@h0660
+A 31 year old man has a total cholesterol of 9.4 mmol/L on a routine test. His father had a myocardial infarction at 46. He does not smoke and has a normal BMI.
+There are thickened, nodular Achilles tendons and a corneal arcus.
+LDL cholesterol 7.2 mmol/L. Triglycerides 1.4 mmol/L. TSH normal.
+?Which is the most likely diagnosis?
+
+@h0661
+A 26 year old woman has been newly diagnosed with asthma after a raised FeNO and variable peak flow readings. She has wheeze and cough about twice a week and is not woken at night.
+Examination today is normal.
+?Which is the most appropriate first treatment?
+
+@h0662
+A 31 year old man with asthma has been increasingly wheezy for a day.
+Respiratory rate 27 breaths per minute, pulse rate 115 bpm, SpO2 95% breathing air. He cannot finish sentences in one breath. There is widespread wheeze with good air entry. His peak flow is 40% of his best.
+?How severe is this attack?
+
+@h0663
+A 24 year old woman has acute severe asthma. She has had back-to-back nebulised salbutamol, nebulised ipratropium and oral prednisolone 40 mg.
+After 30 minutes, her respiratory rate is 28 breaths per minute, pulse rate 118 bpm and SpO2 94% on oxygen. Her peak flow is 38% of her best.
+?Which is the most appropriate next drug?
+
+@h0664
+A 63 year old man has had a cough productive of white sputum every morning for 3 years and increasing breathlessness on exertion. He has smoked for 40 pack-years.
+There is a prolonged expiratory phase and scattered wheeze.
+Post-bronchodilator FEV1 to FVC ratio is 0.61 with little reversibility.
+?Which is the most likely diagnosis?
+
+@h0665
+A 67 year old woman with COPD has breathlessness that limits her daily activities despite using her salbutamol inhaler. She has stopped smoking. She has never had asthma or atopy.
+Blood eosinophil count is normal. She has had one exacerbation in the past year.
+?Which is the most appropriate next step?
+
+@h0666
+A 72 year old man with COPD stopped smoking a year ago. He is breathless at rest.
+SpO2 87% breathing air. There is ankle oedema and a raised JVP.
+His PaO2 breathing air is 7.6 kPa on two readings 3 weeks apart when stable.
+?Which is the most appropriate management?
+
+@h0667
+A 48 year old woman has coughed up large amounts of purulent sputum every day for 2 years. She has had four chest infections this year. She had severe whooping cough as a child. She has never smoked.
+There are coarse crackles at both bases and finger clubbing.
+?Which investigation confirms the most likely diagnosis?
+
+@h0668
+A 56 year old man with bronchiectasis has an exacerbation. His sputum culture grows Gram-negative rods that produce a green pigment and smell of grapes on the culture plate.
+?Which organism is this?
+
+@h0669
+A 37 year old woman has had asthma since childhood that has become harder to control over a year. She coughs up brown plugs of mucus.
+There is widespread wheeze.
+Eosinophil count 1.8 × 10⁹/L. Total IgE is very high. Aspergillus-specific IgE is raised. CT chest shows central bronchiectasis.
+?Which is the most likely diagnosis?
+
+@h0670
+A healthy 34 year old woman has had a cough with clear sputum for 10 days after a cold. She feels well and has no fever or breathlessness. She has no lung disease.
+Temperature 36.9°C, respiratory rate 16 breaths per minute, SpO2 98% breathing air. The chest is clear.
+?Which is the most appropriate management?
+
+@h0671
+A 71 year old man with type 2 diabetes has had a productive cough for 8 days. He feels moderately unwell but has no breathlessness.
+Temperature 37.6°C, pulse rate 88 bpm, respiratory rate 18 breaths per minute, SpO2 96% breathing air. There are a few crackles that clear with coughing.
+A point-of-care CRP is 46 mg/L.
+?Which is the most appropriate management?
+
+@h0672
+A 45 year old man has had a productive cough for 10 days with acute bronchitis. He is not breathless and there are no signs of pneumonia. He has no drug allergies and no other medical problems.
+A point-of-care CRP is 120 mg/L and an antibiotic is needed.
+?Which is the most appropriate first choice?
+
+@h0673
+A 78 year old woman has a productive cough and fever. Chest X-ray shows right lower lobe consolidation.
+She is alert and orientated. Respiratory rate 32 breaths per minute, BP 104/58 mmHg, pulse rate 104 bpm.
+Urea 9 mmol/L.
+?Which is her CURB-65 score?
+
+@h0674
+A 42 year old man has had a productive cough and fever for 3 days. Chest X-ray shows left lower lobe consolidation. His CURB-65 score is 0 and he can be treated at home. He had anaphylaxis after penicillin.
+Temperature 38.1°C, respiratory rate 20 breaths per minute, SpO2 96% breathing air.
+?Which is the most appropriate antibiotic?
+
+@h0675
+A 61 year old man returned from a hotel stay in Spain 5 days ago. He has a high fever, a dry cough, diarrhoea and has become confused.
+Temperature 39.6°C, pulse rate 88 bpm, respiratory rate 26 breaths per minute. There are crackles at the right base.
+Sodium 126 mmol/L. ALT 112 IU/L. Chest X-ray shows right lower lobe consolidation.
+?Which organism is most likely?
+
+@h0676
+A 34 year old man moved to the UK from a country with high TB rates 3 years ago. He has had night sweats, weight loss and blood-streaked sputum for 2 months.
+Temperature 37.8°C. There are crackles at the right apex.
+Chest X-ray shows a cavity in the right upper lobe.
+?Which is the most appropriate first investigation?
+
+@h0677
+A 46 year old woman is 6 weeks into treatment for pulmonary tuberculosis with rifampicin, isoniazid, pyrazinamide and ethambutol. She now has numbness and tingling in both feet. She drinks alcohol heavily and has not been taking the extra vitamin she was given.
+There is reduced sensation to pinprick in both feet.
+?Which drug is most likely responsible?
+
+@h0678
+A 28 year old woman has been diagnosed with pulmonary tuberculosis and is starting rifampicin, isoniazid, pyrazinamide and ethambutol. She takes the combined oral contraceptive pill and wants to avoid pregnancy.
+?Which is the most appropriate contraceptive advice?
+
+@h0679
+A 66 year old man who has smoked 50 pack-years has had a cough and weight loss for 2 months and is now confused.
+He appears euvolaemic.
+Sodium 121 mmol/L. Urine osmolality is high and urine sodium is 52 mmol/L. CT chest shows a large central lung mass with mediastinal lymphadenopathy.
+?Which is the most likely type of tumour?
+
+@h0680
+A 61 year old man who smokes has had pain in his left shoulder going down the inner arm for 3 months. He has lost 5 kg.
+There is wasting of the small muscles of the left hand. There is a left ptosis and a small left pupil, and the left side of his face does not sweat.
+?Which is the most likely cause?
+
+@h0681
+A 52 year old ex-smoker has coughed up blood twice in a month. He has no fever and feels otherwise well.
+Examination is normal. Chest X-ray is normal. Full blood count is normal.
+?Which is the most appropriate next step?
+
+@h0682
+A 74 year old retired shipyard worker has a routine chest X-ray before hernia surgery. He has no breathing symptoms.
+Examination is normal. The X-ray shows calcified plaques on both diaphragms and along the chest wall. Spirometry is normal.
+?Which is the most likely diagnosis?
+
+@h0683
+A 58 year old stonemason has had increasing breathlessness for 2 years. He has never smoked.
+There are fine crackles in the upper zones.
+Chest X-ray shows multiple nodules in both upper zones and eggshell calcification of the hilar lymph nodes.
+?Which is the most likely diagnosis?
+
+@h0684
+A 79 year old man who fitted boilers for 30 years had mesothelioma diagnosed a year ago. He has died peacefully at home under palliative care, as expected. His GP saw him a week ago and is asked to deal with the death certificate.
+?Which is the most appropriate next step for the death certificate?
+
+@h0685
+A 72 year old man has had worsening breathlessness and a dry cough for 18 months. He is a retired accountant and has no pets or birds. He takes no regular medicines.
+SpO2 93% breathing air. There is finger clubbing and fine end-inspiratory crackles at both lung bases.
+Spirometry shows a restrictive pattern with a reduced transfer factor.
+?Which is the most likely diagnosis?
+
+@h0686
+A 76 year old woman has had increasing breathlessness and a dry cough for 3 months. She has taken a drug every night for 2 years to prevent recurrent urinary infections.
+There are fine crackles at both bases. CT shows lung fibrosis.
+Liver function tests show a raised ALT.
+?Which drug is most likely responsible?
+
+@h0687
+A 27 year old woman has had painful red lumps on her shins and painful, swollen ankles for 2 weeks. She has a mild dry cough.
+Temperature 37.6°C. There are tender red nodules on both shins and both ankles are swollen.
+Chest X-ray shows bilateral hilar lymphadenopathy. Calcium is normal. Eye examination is normal.
+?Which is the most appropriate management?
+
+@h0688
+A 64 year old man has had an NSTEMI. He is being managed medically without coronary intervention. He has been given aspirin 300 mg. He has no history of bleeding and is not taking an anticoagulant.
+?Which second antiplatelet drug is most appropriate?
+
+@h0689
+A 58 year old woman had a primary PCI with a drug-eluting stent for an acute coronary syndrome. She has started aspirin and ticagrelor. She asks how long she will need to take two blood-thinning tablets.
+?For how long is the second antiplatelet drug usually continued?
+
+@h0690
+A 66 year old man had a coronary stent placed 2 months ago and takes aspirin and clopidogrel. He now has reflux symptoms and needs a proton pump inhibitor.
+?Which proton pump inhibitor is the most appropriate choice?
+
+@h0691
+A 64 year old man has stable angina and has just been prescribed glyceryl trinitrate spray. He asks what he should do if the pain does not go away after using it.
+?When should he call 999?
+
+@h0692
+A 62 year old man has stable angina and takes isosorbide mononitrate. He asks about a medicine for erectile dysfunction that a friend recommended.
+?Which drug must not be taken with isosorbide mononitrate?
+
+@h0693
+A 70 year old woman has angina. She takes standard-release isosorbide mononitrate twice daily at 8am and 8pm. Her angina has become less controlled over a few months, despite good adherence.
+?Which is the most appropriate change?
+
+@h0694
+A pharmacist is reviewing a 66 year old patient who has been prescribed bisoprolol. The patient's notes list several long-term conditions.
+?In which condition is a beta-blocker most clearly contraindicated?
+
+@h0695
+A 76 year old man has atrial fibrillation and takes bisoprolol. His GP is considering adding another drug, and the pharmacist checks for dangerous interactions.
+?Which drug combination carries the greatest risk of complete heart block and asystole?
+
+@h0696
+A 34 year old woman took an overdose of propranolol 2 hours ago. She is drowsy.
+Pulse rate 38 bpm, BP 70/40 mmHg despite IV fluids and atropine. Glucose 3.6 mmol/L.
+?Which is the most appropriate next drug?
+
+@h0697
+A 64 year old woman started amlodipine for hypertension 2 months ago. Her blood pressure is now controlled. She asks which side effects are common.
+?Which side effect is most typical of amlodipine?
+
+@h0698
+A 24 year old man with Wolff-Parkinson-White syndrome has had palpitations for 1 hour.
+Pulse rate 220 bpm, irregular. BP 124/76 mmHg. He is alert and has no chest pain.
+ECG shows a fast, irregular broad complex tachycardia with varying QRS morphology.
+?Which drug should be avoided?
+
+@h0699
+A 66 year old man takes simvastatin 80 mg daily. His blood pressure is now high enough to need treatment and amlodipine is started.
+?Which is the most appropriate change?
+
+@h0700
+A 58 year old woman started ramipril for hypertension 3 months ago. She has had a dry, tickly cough for 2 months that keeps her awake. She does not smoke and has no wheeze or reflux.
+The chest is clear. Chest X-ray is normal.
+?Which is the most appropriate change?

@@ -1,0 +1,229 @@
+# h0551 to h0600
+
+@h0551
+A 64 year old man with type 2 diabetes has had epigastric pain and vomiting for 2 hours. He feels sweaty. He has hypertension and smokes.
+Pulse rate 58 bpm, BP 104/66 mmHg, SpO2 96% breathing air. The abdomen is soft and non-tender with normal bowel sounds.
+?Which investigation should be done first?
+
+@h0552
+A 14 year old boy has had lower abdominal pain and vomiting for 3 hours. It came on suddenly while he was sitting in class. He is reluctant to talk about his symptoms in front of his mother.
+Temperature 36.9°C, pulse rate 104 bpm. The abdomen is soft with mild lower abdominal tenderness and no guarding.
+?Which examination must not be missed?
+
+@h0553
+A 62 year old woman with osteoarthritis of both knees has persistent pain despite regular paracetamol 1 g four times a day and exercise. She had a gastric ulcer last year and has chronic kidney disease stage 3, so NSAIDs are not suitable.
+?Which is the most appropriate step 2 drug to add?
+
+@h0554
+A 68 year old woman with metastatic pancreatic cancer takes modified-release oral morphine 30 mg twice daily with good pain control. She is now drowsy and can no longer swallow. A syringe driver is planned. Her kidney function is normal.
+?Which is the equivalent dose of subcutaneous morphine over 24 hours?
+
+@h0555
+A 76 year old man with end-stage kidney disease, who has chosen not to have dialysis, is in the last days of life. His eGFR is 10 mL/min/1.73 m². He has pain and breathlessness and needs a strong opioid by syringe driver.
+?Which is the most appropriate choice?
+
+@h0556
+A 70 kg man has had an elective bowel resection and is nil by mouth. He is not dehydrated and has no ongoing losses. His sodium, potassium and kidney function are normal. He needs routine maintenance intravenous fluids.
+?Roughly how much water does he need over 24 hours?
+
+@h0557
+A 78 year old woman has been increasingly confused and unsteady for 2 weeks. She takes indapamide. She has had no seizures.
+She is euvolaemic and drowsy but rousable with no focal neurology.
+Sodium 112 mmol/L. Her sodium was normal 2 months ago.
+?What is the maximum safe rise in sodium over 24 hours?
+
+@h0558
+A 74 year old man has had a stroke and cannot swallow safely. A nasogastric tube has been inserted for feeding. He is not on acid-suppressing drugs.
+The aspirate obtained from the tube has a pH of 6.5 on pH-indicator paper.
+?Which is the most appropriate next step?
+
+@h0559
+A 32 year old woman has had gradual hearing loss in both ears for 2 years. It became noticeably worse during her recent pregnancy. Her mother wore hearing aids from her forties. She has no ear pain or discharge.
+Otoscopy shows normal tympanic membranes. Rinne's test is negative on both sides and Weber's test is central.
+?Which is the most likely diagnosis?
+
+@h0560
+A 34 year old woman has bilateral conductive hearing loss with normal tympanic membranes. Otosclerosis is suspected and she has pure tone audiometry. The audiologist describes a characteristic notch in the bone conduction thresholds.
+?At which frequency is the classic dip in bone conduction?
+
+@h0561
+A 36 year old woman has otosclerosis confirmed by an ENT surgeon. Her hearing loss affects her work as a teacher and she would like to improve it.
+?Which options are offered?
+
+@h0562
+A 35 year old woman gave birth 3 days ago with an epidural. Since yesterday she has had a severe headache that comes on within minutes of standing and goes when she lies flat. She has neck stiffness when upright.
+Temperature 36.8°C, BP 118/72 mmHg. Neurological examination is normal. There is no photophobia.
+?Which is the most likely diagnosis?
+
+@h0563
+A 42 year old woman has had a headache for 3 weeks that comes on within minutes of standing and is relieved by lying flat. She has had no lumbar puncture or epidural. Neurological examination is normal.
+MRI brain with contrast shows smooth thickening and enhancement of the meninges, sagging of the brain and small subdural fluid collections.
+?What does this suggest?
+
+@h0564
+A 28 year old woman has had a post-dural puncture headache for 3 days after a spinal anaesthetic. Bed rest, oral fluids, regular analgesia and caffeine have not helped. She cannot care for her baby.
+?Which is the most appropriate treatment?
+
+@h0565
+A 52 year old woman with polycythaemia vera has had abdominal pain and swelling for 2 weeks.
+Pulse rate 92 bpm. She is not jaundiced and the JVP is not raised. There is a large, tender liver and shifting dullness.
+Haemoglobin 182 g/L. ALT 112 IU/L.
+?Which is the most likely diagnosis?
+
+@h0566
+A 34 year old woman taking the combined oral contraceptive pill has had right upper quadrant pain and abdominal swelling for 10 days. There is tender hepatomegaly and ascites. The JVP is normal. Budd-Chiari syndrome is suspected.
+?Which is the most appropriate first investigation?
+
+@h0567
+A 48 year old woman has Budd-Chiari syndrome confirmed on Doppler ultrasound and CT venography, with thrombosis of the hepatic veins. She has a JAK2 mutation. Her liver function is mildly impaired and there is no variceal bleeding.
+?Which is the most appropriate first treatment?
+
+@h0568
+A 72 year old man with Lewy body dementia has become distressed. His daughter says he is convinced that his wife has been replaced by an identical impostor. He is otherwise orientated.
+?What is this phenomenon called?
+
+@h0569
+A 58 year old woman is convinced that insects are living under her skin. She brings small bits of fluff and skin in a matchbox as proof. Several dermatology examinations and skin scrapings have been normal.
+There are excoriations on her arms but no burrows or other skin disease.
+?What is this condition called?
+
+@h0570
+A 46 year old man has a fixed belief that his wife is having an affair, despite no evidence. He checks her phone several times a day, follows her to work and accuses her repeatedly. He drinks heavily at weekends.
+?Which is the most important risk to assess?
+
+@h0571
+A 30 year old man still lives with his mother. He cannot make everyday decisions, such as what to wear, without her reassurance. He avoids disagreeing with anyone in case they stop supporting him and feels helpless and anxious when alone.
+He has no low mood, panic attacks or psychotic symptoms.
+?Which is the most likely diagnosis?
+
+@h0572
+A 44 year old woman is a perfectionist who cannot delegate at work because she believes no one else will do the job properly. She is rigid about rules, lists and schedules, and her work comes before friends and family. She sees nothing wrong with how she behaves and has no intrusive thoughts.
+?Which is the most likely diagnosis?
+
+@h0573
+A medical student is revising personality disorders. Her supervisor asks her to name the disorders in cluster C, the anxious and fearful group.
+?Which personality disorders belong to cluster C?
+
+@h0574
+A 34 year old woman's brother died suddenly a month ago. She is tearful, longs for him and sometimes briefly hears his voice when she is falling asleep. She is not sleeping well but is still going to work and looking after her children. She has no thoughts of self-harm.
+?Which is the most likely diagnosis?
+
+@h0575
+A 56 year old woman's husband died 4 months ago. She thinks about him constantly and struggles to accept his death. She is asking whether she has prolonged grief disorder.
+?For how long does ICD-11 require grief to persist before prolonged grief disorder can be diagnosed?
+
+@h0576
+A 74 year old man's wife died 2 months ago. He now feels worthless and says he is a burden. He has lost all interest in his garden and grandchildren, has stopped eating and has lost 6 kg. He says he should be dead.
+?Which is the most likely diagnosis?
+
+@h0577
+A 60 year old woman started prednisolone 60 mg daily for giant cell arteritis 5 days ago. She has no psychiatric history. She has become elated, sleepless, talkative and says she has special powers.
+Temperature 36.8°C. She is orientated. Thyroid function and glucose are normal.
+?Which is the most likely diagnosis?
+
+@h0578
+A 20 year old man has been brought in by his flatmates because he thinks they are plotting against him and he hears voices. He has smoked large amounts of skunk cannabis daily for 2 weeks. He stops using cannabis in hospital and his symptoms resolve completely within 4 days.
+?Which is the most likely diagnosis?
+
+@h0579
+A 70 year old man with no psychiatric history has developed visual hallucinations of people in his house and believes his neighbours are spying on him. Symptoms started 2 weeks ago.
+?Which should be done before diagnosing a primary psychosis?
+
+@h0580
+A 65 year old man has had itchy, weeping, coin-shaped patches on both lower legs for 3 months, worse in winter. He has dry skin.
+There are several well-defined, round, 3 cm red plaques with crusting and tiny vesicles on the shins. There is no central clearing. Skin scrapings are negative for fungus.
+?Which is the most likely diagnosis?
+
+@h0581
+A 32 year old woman has had intensely itchy, tiny blisters on the sides of her fingers and on her palms for 3 weeks. It is worse in hot weather and when she is stressed. She has hay fever.
+There are deep-seated, clear vesicles on the palms and the sides of the fingers with some peeling. The web spaces and wrists are not involved.
+?Which is the most likely diagnosis?
+
+@h0582
+A 38 year old man has pompholyx with itchy vesicles on both palms. Emollients and soap substitutes have not helped. There is no infection.
+?Which topical steroid is most appropriate?
+
+@h0583
+A 45 year old woman has had nasal crusting and nosebleeds for 3 months. Recently she has coughed up blood and feels unwell.
+Temperature 37.6°C, BP 158/94 mmHg. There is a saddle nose deformity. Urine dipstick shows blood 3+ and protein 2+.
+Creatinine 198 µmol/L. Chest X-ray shows multiple nodules, some cavitating.
+?Which antibody is most likely to be positive?
+
+@h0584
+A 54 year old man has granulomatosis with polyangiitis. His creatinine has risen from 110 to 240 µmol/L over 2 weeks, and urine microscopy shows red cell casts. Renal biopsy shows a pauci-immune crescentic glomerulonephritis.
+?Which is the most appropriate treatment?
+
+@h0585
+An 8 year old boy has a rash on his legs and buttocks, painful ankles and colicky abdominal pain. He had a cold a week ago.
+Temperature 37.4°C, BP 104/66 mmHg. There is raised, palpable purpura on the buttocks and the backs of the legs. Both ankles are swollen. Urine dipstick shows blood 1+.
+Platelet count is normal.
+?Which is the most likely diagnosis?
+
+@h0586
+A 68 year old man has a tumour of the caecum. The surgeon explains to the medical student which artery must be ligated during a right hemicolectomy.
+?Which artery supplies the caecum and ascending colon?
+
+@h0587
+A 76 year old woman with heart failure has had left-sided abdominal pain and bloody diarrhoea after an episode of low blood pressure. Colonoscopy shows ischaemic colitis in a watershed area between two arterial territories.
+?Which part of the colon is a watershed area most prone to ischaemia?
+
+@h0588
+An 80 year old woman with atrial fibrillation has acute mesenteric ischaemia. CT angiography shows an embolus blocking the superior mesenteric artery just beyond the origin of the middle colic branch.
+?Which bowel is most likely to be affected?
+
+@h0589
+A 28 year old man has a testicular germ cell tumour. A CT scan is arranged to stage the disease and look for the first lymph nodes that the testis drains to.
+?Where does the testis drain first?
+
+@h0590
+A 62 year old woman has a squamous cell carcinoma of the lower anal canal, arising below the dentate line. She is being examined for lymph node spread.
+?Which lymph nodes are most likely to be involved?
+
+@h0591
+A 66 year old woman has a hard, painless, enlarged lymph node above her left clavicle. She has lost 5 kg and has had indigestion and early fullness for 3 months.
+?Which cancer should be considered?
+
+@h0592
+A 54 year old woman stopped long-term prednisolone for polymyalgia rheumatica abruptly 2 weeks ago. She now feels weak and dizzy and has lost her appetite.
+BP 94/58 mmHg lying, 78/50 mmHg standing.
+Sodium 128 mmol/L. Potassium 4.6 mmol/L. Glucose 3.8 mmol/L.
+?Which test confirms adrenal insufficiency?
+
+@h0593
+A 44 year old man has had fatigue and weight loss and Addison's disease is suspected. He is not acutely unwell and takes no steroids or oral contraceptives.
+BP 128/78 mmHg. Sodium 138 mmol/L. Potassium 4.2 mmol/L.
+His 9am cortisol is 600 nmol/L.
+?What does this result mean?
+
+@h0594
+A 48 year old woman has had fatigue and weight loss. A short synacthen test confirms adrenal insufficiency. The team needs to decide whether the cause is in the adrenal gland or the pituitary.
+?Which result distinguishes primary adrenal failure from secondary?
+
+@h0595
+A 78 year old woman has had two falls in a month after feeling dizzy when standing up.
+Her BP is 142/80 mmHg lying and 115/72 mmHg after 3 minutes standing. Her pulse rate rises from 70 to 78 bpm.
+?What does this show?
+
+@h0596
+An 82 year old man has had three falls in 2 months, each after standing up. He takes doxazosin for his prostate, amlodipine, ramipril and furosemide for hypertension and mild heart failure.
+His BP is 148/78 mmHg lying and 118/64 mmHg after 3 minutes standing. He has no peripheral oedema.
+?Which is the most appropriate first step?
+
+@h0597
+A 68 year old woman has had swelling of both ankles for 2 months. Her blood pressure is well controlled on amlodipine 10 mg and indapamide. She has no breathlessness.
+BP 132/78 mmHg lying and 128/76 mmHg standing. There is pitting oedema to the mid-shins. JVP is not raised. Albumin and urine dipstick are normal.
+?Which is the most appropriate change?
+
+@h0598
+A 62 year old man with type 2 diabetes has had burning pain in his feet with electric shocks for 6 months, worse at night. The touch of his bed sheets is painful.
+There is reduced pinprick sensation in a stocking distribution and absent ankle reflexes. Foot pulses are present.
+?Which type of pain is this?
+
+@h0599
+A 44 year old man had a laparoscopic cholecystectomy yesterday. He now has pain at the tip of his right shoulder. His shoulder has a full range of movement and is not tender.
+?Which type of pain is this?
+
+@h0600
+A 48 year old man has had low back pain for 6 weeks after lifting. The pain spreads vaguely into his left buttock and the back of his thigh but not below the knee. He has no numbness, weakness or bladder symptoms.
+Straight leg raise is negative. Neurological examination of the legs is normal.
+?Which type of pain is this?

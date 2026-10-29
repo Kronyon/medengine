@@ -1,0 +1,267 @@
+# h0501 to h0550
+
+@h0501
+A 20 year old man with a moderate learning disability attends a review with his mother. He has poor eye contact and is anxious in social situations. His maternal uncle also has a learning disability.
+He has a long face, prominent jaw, large ears and enlarged testes. There is joint hypermobility.
+?Which is the most likely diagnosis?
+
+@h0502
+A 64 year old man has had looser, more frequent stools for 6 weeks. He has not seen any blood. His weight is stable.
+Abdominal and rectal examinations are normal. Haemoglobin 132 g/L.
+His faecal immunochemical test result is 64 µg haemoglobin per g of faeces.
+?Which is the most appropriate next step?
+
+@h0503
+A 73 year old woman has been tired and breathless on exertion for 3 months. She has no change in bowel habit and has not seen blood. She has lost 4 kg.
+She is pale. There is a firm, non-tender mass in the right iliac fossa.
+Haemoglobin 82 g/L. MCV 68 fL. Ferritin 6 µg/L.
+?Which is the most likely diagnosis?
+
+@h0504
+A 69 year old man has had rectal bleeding and tenesmus. MRI pelvis shows a rectal cancer 3 cm from the anal verge that invades the anal sphincter complex. CT shows no distant spread. He has completed chemoradiotherapy and is fit for surgery.
+?Which operation is most appropriate?
+
+@h0505
+A 34 year old man has had a throbbing, swollen, tender lump beside his anus for 2 days. It is very painful to sit down.
+Temperature 38.0°C. There is a 3 cm red, hot, fluctuant swelling 2 cm from the anal verge at the 4 o'clock position.
+?Which is the most appropriate management?
+
+@h0506
+A 42 year old man has a discharging opening beside his anus after a perianal abscess. With him in the lithotomy position, the external opening is at 7 o'clock, posterior to an imaginary transverse line drawn across the anus, 3 cm from the anal verge.
+?Where is the internal opening most likely to be?
+
+@h0507
+A 26 year old woman has had loose stools, crampy abdominal pain and 6 kg weight loss for 4 months. She has also had painful discharging openings around her anus.
+There are several perianal fistula openings and large, oedematous anal skin tags. There are aphthous ulcers in her mouth.
+CRP 48 mg/L. Faecal calprotectin is raised.
+?Which is the most likely underlying cause?
+
+@h0508
+A 42 year old man has noticed bright red blood on the toilet paper after opening his bowels for 3 weeks. It is painless and not mixed in with the stool. His bowel habit is unchanged and his weight is stable. He strains when constipated.
+Abdominal examination and digital rectal examination are normal.
+?Which is the most likely cause?
+
+@h0509
+A 48 year old woman has had bleeding and a lump at her anus when she opens her bowels for a year. The lump comes down when she strains and she has to push it back with her finger.
+Proctoscopy shows haemorrhoids that prolapse on straining and stay outside until manually reduced.
+?Which grade are her haemorrhoids?
+
+@h0510
+A 30 year old man has had an exquisitely painful lump at the edge of his anus for 24 hours after straining with constipation.
+There is a 1.5 cm tense, tender, purple lump at the anal margin covered by skin. There is no fever.
+?Which is the most appropriate management?
+
+@h0511
+A 28 year old woman has had severe, tearing pain on opening her bowels for 2 weeks. The pain lasts about an hour afterwards. She has seen streaks of fresh blood on the paper. She has been constipated.
+On gently parting the buttocks, there is a split in the posterior midline of the anal canal. Digital rectal examination is deferred because of pain.
+?Which is the most likely diagnosis?
+
+@h0512
+A 36 year old man has had pain and bleeding on opening his bowels for 8 weeks. He has taken laxatives and his stools are now soft, but the pain continues.
+There is a posterior midline anal fissure with a sentinel skin tag.
+?Which is the most appropriate treatment?
+
+@h0513
+A 40 year old woman has a chronic posterior anal fissure for 3 months. She started topical glyceryl trinitrate 0.4% ointment but stopped after 3 days because of severe headaches.
+?Which is the most appropriate alternative?
+
+@h0514
+A 63 year old woman has had pain in the left iliac fossa for 2 days. She is eating and drinking and is not immunosuppressed. She has had diverticulosis on colonoscopy.
+Temperature 37.6°C, pulse rate 84 bpm, BP 132/78 mmHg. There is mild left iliac fossa tenderness without guarding or a mass.
+?Which is the most appropriate management?
+
+@h0515
+A 70 year old man has had left iliac fossa pain and fever for 4 days.
+Temperature 38.6°C, pulse rate 106 bpm, BP 124/76 mmHg. There is a tender mass in the left iliac fossa with localised guarding.
+White cell count 18 × 10⁹/L. CRP 210 mg/L.
+?Which is the most appropriate investigation?
+
+@h0516
+A 76 year old man has had worsening abdominal pain for 2 days and is now severely unwell.
+Temperature 38.9°C, pulse rate 124 bpm, BP 92/54 mmHg. The abdomen is rigid with generalised peritonism.
+CT shows sigmoid diverticulitis with free gas and free faecal material throughout the abdomen.
+?Which is the most appropriate operation?
+
+@h0517
+A 71 year old woman passed bright red blood mixed with stool twice this morning. She has had no further bleeding. She takes no anticoagulants.
+Pulse rate 82 bpm, BP 136/80 mmHg. Abdominal examination is normal. Digital rectal examination shows a small amount of red blood.
+Haemoglobin 138 g/L. Her Oakland score is 6.
+?Which is the most appropriate management?
+
+@h0518
+A 76 year old man has passed large amounts of fresh blood from the rectum over 2 hours. He has had 2 litres of crystalloid.
+Pulse rate 120 bpm, BP 95/60 mmHg. His shock index is over 1. Upper GI endoscopy has been considered unlikely to be the source as there is no melaena and urea is normal.
+?Which is the most appropriate next investigation?
+
+@h0519
+An 88 year old man has had several episodes of painless dark red rectal bleeding over 6 months. He has aortic stenosis.
+There is an ejection systolic murmur radiating to the carotids. Abdominal examination is normal.
+Haemoglobin 92 g/L. MCV 70 fL. Ferritin 8 µg/L. Colonoscopy shows no tumour or diverticula.
+?Which is the most likely cause?
+
+@h0520
+A 45 year old woman has had chronic constipation for 2 years, opening her bowels twice a week with hard stools. She has increased fibre, fluids and exercise without benefit. She has no red flag symptoms.
+Abdominal and rectal examination are normal. TSH and calcium are normal.
+?Which is the most appropriate first laxative?
+
+@h0521
+An 88 year old woman in a care home has had leaking of loose stool for a week. She is on regular codeine and is less mobile after a fall.
+The abdomen is mildly distended with a palpable, indentable mass in the left iliac fossa. Rectal examination finds a large mass of hard stool.
+?Which is the most likely cause of the diarrhoea?
+
+@h0522
+A 66 year old woman with metastatic breast cancer has had constipation for 1 week. She has also been very thirsty, passing large amounts of urine and is more confused.
+Pulse rate 98 bpm. Her mucous membranes are dry. She has tenderness over her lumbar spine.
+?Which blood result is most likely to explain her constipation?
+
+@h0523
+A 19 year old man has had abdominal pain for 18 hours. It started around his umbilicus and moved to the right iliac fossa overnight. He has no appetite and has vomited once.
+Temperature 37.9°C, pulse rate 98 bpm. There is tenderness and guarding at McBurney's point. Pressing in the left iliac fossa causes pain in the right iliac fossa.
+?Which is the most likely diagnosis?
+
+@h0524
+A 24 year old woman has had right iliac fossa pain for 12 hours with nausea. She is sexually active and her last period was 5 weeks ago. She uses condoms.
+Temperature 37.5°C, pulse rate 92 bpm, BP 122/74 mmHg. There is right iliac fossa tenderness.
+?Which is the most appropriate first investigation?
+
+@h0525
+A 41 year old man has had right iliac fossa pain for 5 days. He is eating a little.
+Temperature 37.8°C, pulse rate 88 bpm. There is a tender mass in the right iliac fossa with no generalised peritonism.
+CT shows an inflammatory phlegmon around the appendix with no abscess and no free gas.
+?Which is the most appropriate management?
+
+@h0526
+A 45 year old woman has had constant right upper quadrant pain for 18 hours with a fever. She has had several attacks of biliary colic.
+Temperature 38.3°C, pulse rate 96 bpm. Murphy's sign is positive. She is not jaundiced.
+White cell count 15 × 10⁹/L. Bilirubin 14 µmol/L. Ultrasound shows gallstones, a thickened gallbladder wall and a normal common bile duct.
+?Which is the most appropriate management?
+
+@h0527
+A 39 year old woman had 2 hours of severe colicky right upper quadrant pain after eating fried food last night. It has now settled completely.
+Temperature 36.8°C. There is mild right upper quadrant tenderness and Murphy's sign is negative.
+White cell count normal. Liver function tests normal. Ultrasound shows multiple gallstones with a normal gallbladder wall and bile duct.
+?Which is the most likely diagnosis?
+
+@h0528
+An 81 year old woman has had colicky central abdominal pain, vomiting and distension for 3 days. She has had previous episodes of right upper quadrant pain. She has had no abdominal surgery.
+The abdomen is distended with tinkling bowel sounds.
+Abdominal X-ray shows dilated loops of small bowel and gas in the biliary tree.
+?Which is the most likely cause?
+
+@h0529
+A 70 year old man has had right upper quadrant pain for 2 days with high fevers and shivering. His wife has noticed his eyes are yellow.
+Temperature 39.2°C, pulse rate 112 bpm, BP 110/68 mmHg. He has yellow sclerae and right upper quadrant tenderness.
+Bilirubin 92 µmol/L. ALP 380 IU/L. White cell count 19 × 10⁹/L.
+?Which is the most likely diagnosis?
+
+@h0530
+A 74 year old woman has ascending cholangitis. Ultrasound shows a stone in a dilated common bile duct. She has had IV antibiotics and fluids for 6 hours.
+Temperature 39.0°C, pulse rate 124 bpm, BP 84/50 mmHg, falling despite fluids.
+?Which is the most appropriate next step?
+
+@h0531
+A 39 year old man with ulcerative colitis has had itching for 3 months. He feels tired.
+He is not jaundiced. The liver edge is not palpable.
+ALP 420 IU/L. GGT 310 IU/L. ALT 54 IU/L. Bilirubin 18 µmol/L. Antimitochondrial antibody is negative. MRCP shows multiple strictures giving a beaded appearance to the intrahepatic and extrahepatic bile ducts.
+?Which is the most likely diagnosis?
+
+@h0532
+A 55 year old woman has had severe epigastric pain radiating to her back for 12 hours with vomiting. She does not drink alcohol.
+Pulse rate 104 bpm, BP 132/84 mmHg. There is epigastric tenderness.
+Lipase is 6 times the upper limit of normal. A diagnosis of acute pancreatitis is made.
+?Which imaging should be done in the first 24 to 48 hours?
+
+@h0533
+A 58 year old man has acute pancreatitis. The registrar asks you to work out his modified Glasgow score from his blood tests.
+Investigations: ALT 90 IU/L, amylase 2400 IU/L, calcium 1.9 mmol/L, lipase 1800 IU/L, sodium 132 mmol/L.
+?Which of these results is part of the modified Glasgow score for severity?
+
+@h0534
+A 29 year old woman with Crohn's disease has had severe epigastric pain radiating to her back for 1 day with vomiting. She started a new drug for her Crohn's disease 4 weeks ago. She does not drink alcohol.
+There is epigastric tenderness.
+Amylase is 8 times the upper limit of normal. Triglycerides and calcium are normal. Ultrasound shows no gallstones.
+?Which drug is most likely to be the cause?
+
+@h0535
+A 71 year old man had a routine abdominal ultrasound for another reason. It shows an abdominal aortic aneurysm of 4.8 cm. He has no abdominal or back pain. He has hypertension and is an ex-smoker.
+There is a non-tender pulsatile mass above the umbilicus.
+?Which is the most appropriate management?
+
+@h0536
+A 76 year old man with a known 6 cm abdominal aortic aneurysm, awaiting repair, collapsed at home with severe back and abdominal pain.
+Pulse rate 130 bpm, BP 70/40 mmHg. He is pale and sweaty. There is a tender pulsatile mass in the abdomen.
+?Which is the most appropriate next step?
+
+@h0537
+A 64 year old man asks whether he will be invited for abdominal aortic aneurysm screening. His wife, aged 66, asks whether she will be invited too.
+?Which group is invited to the NHS abdominal aortic aneurysm screening programme?
+
+@h0538
+A 58 year old man has had sudden severe epigastric pain for 3 hours that has now spread across his whole abdomen. He has taken ibuprofen for back pain for a month.
+Pulse rate 116 bpm, BP 108/66 mmHg. He is lying very still. The abdomen is rigid and board-like with absent bowel sounds.
+?Which is the most likely diagnosis?
+
+@h0539
+A 72 year old woman with abdominal pain could only have a supine abdominal X-ray because she cannot sit up. On the film, both the inner and outer walls of several loops of bowel can be seen clearly.
+?What does this sign show?
+
+@h0540
+A 61 year old man with alcohol-related cirrhosis and ascites has had mild abdominal pain and a low-grade fever for 2 days. He is more confused than usual.
+Temperature 37.8°C. There is tense ascites with mild generalised tenderness.
+A diagnostic ascitic tap is performed.
+?Which ascitic result confirms spontaneous bacterial peritonitis?
+
+@h0541
+A 69 year old woman has had dysuria and loin pain for 2 days and is now confused.
+Temperature 39.1°C, pulse rate 124 bpm, BP 88/50 mmHg, respiratory rate 26 breaths per minute.
+Lactate 4.2 mmol/L. Blood cultures can be taken in the next 5 minutes, and the antibiotic is ready.
+?Which is the most appropriate order of actions?
+
+@h0542
+A 52 year old man has had a cough and fever for 3 days.
+Temperature 38.4°C, pulse rate 104 bpm, BP 128/78 mmHg, respiratory rate 22 breaths per minute, SpO2 95% breathing air. He is alert. His NEWS2 score is 6.
+Lactate 1.4 mmol/L. Creatinine normal. After senior review, sepsis is still suspected.
+?Within what time should antibiotics be given?
+
+@h0543
+A 64 year old woman has septic shock from a urinary source. She has had 2 litres of crystalloid and antibiotics. She is being assessed by critical care.
+Pulse rate 118 bpm. Her mean arterial pressure is 58 mmHg. Her peripheries are cold.
+Lactate 5 mmol/L.
+?Which is the most appropriate next step?
+
+@h0544
+A 22 year old woman has had lower abdominal pain and deep pain during sex for 4 days, with a new vaginal discharge. She has a new sexual partner.
+Temperature 38.0°C. There is bilateral lower abdominal tenderness, cervical motion tenderness and bilateral adnexal tenderness.
+Her pregnancy test is negative.
+?Which is the most likely diagnosis?
+
+@h0545
+A 24 year old woman has pelvic inflammatory disease. She is well enough to be treated as an outpatient, has no tubo-ovarian abscess and is not pregnant. She has no drug allergies.
+?Which is the most appropriate treatment regimen?
+
+@h0546
+A 25 year old woman is being treated for pelvic inflammatory disease. She now has sharp pain in her right upper abdomen that is worse on deep breathing.
+Temperature 37.8°C. There is right upper quadrant tenderness. The chest is clear.
+Liver function tests are normal. Gallbladder ultrasound is normal.
+?Which is the most likely diagnosis?
+
+@h0547
+A 66 year old woman has had colicky central abdominal pain for 1 day with early vomiting and abdominal distension. She had an abdominal hysterectomy 10 years ago.
+Pulse rate 94 bpm. The abdomen is distended with a lower midline scar and high-pitched bowel sounds. Her hernial orifices are normal.
+?Which is the most likely cause?
+
+@h0548
+A 58 year old man has colicky abdominal pain and vomiting. His abdominal X-ray shows central dilated loops of bowel. The lines across the bowel wall cross the whole width of the lumen.
+?Which is the most likely diagnosis?
+
+@h0549
+An 84 year old care home resident with Parkinson's disease has had abdominal distension and absolute constipation for 2 days.
+Pulse rate 92 bpm. The abdomen is grossly distended and tympanic but not tender, with no peritonism.
+Abdominal X-ray shows a large coffee bean-shaped loop of bowel rising from the pelvis.
+?Which is the most appropriate management?
+
+@h0550
+A 79 year old woman with atrial fibrillation, who stopped warfarin a month ago, has had sudden severe abdominal pain for 4 hours. She is very distressed.
+Pulse rate 118 bpm, irregular. BP 138/82 mmHg. The abdomen is soft with little tenderness.
+Lactate 6 mmol/L.
+?Which is the most likely diagnosis?
