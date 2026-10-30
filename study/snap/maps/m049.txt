@@ -1,0 +1,122 @@
+@h0491
+c: phobia of needles | no other anxiety problems
+m: Gradual exposure lets fear fade through habituation
+g: Specific phobia: graded exposure therapy
+
+@h0492
+c: completed a course of individual CBT
+m: SSRIs reduce social anxiety when CBT alone is not enough
+g: Social anxiety after CBT: escitalopram
+f: an SSRI has not helped => Venlafaxine
+
+@h0493
+c: starting methylphenidate
+m: Stimulants reduce appetite and growth and raise heart rate and BP
+g: Methylphenidate: monitor growth, pulse and blood pressure
+
+@h0494
+c: no history of heart disease, substance misuse or psychosis
+m: Stimulants work best and are first line in adult ADHD
+g: Adult ADHD: lisdexamfetamine first
+f: stimulants are not tolerated => Atomoxetine
+
+@h0495
+c: calm and focused at home, at Cubs and at football | no concerns from nursery
+m: ADHD needs impairing symptoms in two or more settings
+g: Problems only at school: look for other causes
+
+@h0496
+c: argues with adults | not been violent, damaged property or broken the law
+m: ODD is defiance and irritability without serious aggression or crime
+g: Defiance without serious aggression or law-breaking is oppositional defiant disorder
+f: cruelty to animals and fire setting => Conduct disorder
+f: inattention and restlessness in every setting => ADHD
+
+@h0497
+c: 8 year old | aggression and stealing
+m: Parenting programmes change the patterns that maintain the behaviour
+g: Conduct disorder under 12: group parent training
+
+@h0498
+c: started at age 8 | cautioned by police
+m: Early-onset conduct disorder often continues into adult antisocial behaviour
+g: Early conduct disorder leads most often to antisocial personality disorder
+
+@h0499
+c: IQ of 60
+m: Intellectual disability is graded by IQ and functioning
+g: IQ 50 to 69 is mild
+f: an IQ of 40 => Moderate
+f: an IQ of 25 => Severe
+
+@h0500
+c: no speech | hitting his head and refusing food | this is new
+m: People who cannot speak show pain or illness through behaviour
+g: New behaviour change in someone who cannot communicate: exclude pain or physical illness
+
+@h0501
+c: maternal uncle | long face, prominent jaw, large ears and enlarged testes
+m: A CGG repeat on the X chromosome silences FMR1, passed through the mother
+g: Learning disability with a long face, large ears and large testes is fragile X
+f: tall with small testes and gynaecomastia => Klinefelter syndrome
+f: overeating and obesity after a floppy infancy => Prader-Willi syndrome
+f: an elfin face, over-friendliness and high calcium => Williams syndrome
+
+@h0502
+c: looser, more frequent stools | 64 µg haemoglobin per g
+m: FIT detects hidden blood from tumours
+g: FIT of 10 or more with symptoms: suspected lower GI cancer referral
+
+@h0503
+c: no change in bowel habit | right iliac fossa | MCV 68 | Ferritin 6
+m: Right-sided tumours bleed slowly into liquid stool, so they present with anaemia
+g: Iron deficiency with a right iliac fossa mass and weight loss is caecal carcinoma
+f: rectal bleeding, tenesmus and narrow stools => Sigmoid carcinoma
+f: fever with a right iliac fossa mass after appendicitis => Appendix abscess
+
+@h0504
+c: 3 cm from the anal verge | invades the anal sphincter
+m: A tumour in the sphincters cannot be removed with a join
+g: Low rectal cancer involving the sphincters: abdominoperineal resection
+f: an upper rectal tumour 12 cm from the verge => Low anterior resection
+f: emergency obstruction in a frail patient => Hartmann's procedure
+
+@h0505
+c: 38.0°C | fluctuant | 2 cm from the anal verge
+m: Pus needs a way out; antibiotics alone cannot clear an abscess
+g: Perianal abscess: incision and drainage
+f: recurrent abscesses with a persistent discharging opening => MRI pelvis first
+
+@h0506
+c: 7 o'clock | posterior to an imaginary transverse line
+m: Goodsall's rule: posterior openings curve to the midline
+g: A posterior external opening tracks to 6 o'clock on a curved track
+f: an external opening at 3 o'clock in front of the line => 3 o'clock, straight radial track
+
+@h0507
+c: 6 kg weight loss | several perianal fistula openings | oedematous anal skin tags | aphthous ulcers | calprotectin is raised
+m: Transmural Crohn's inflammation burrows through to the perianal skin
+g: Multiple fistulae with skin tags, mouth ulcers and weight loss is Crohn's disease
+f: a midline natal cleft sinus with hairs => Pilonidal sinus
+f: recurrent abscesses in the armpits and groins => Hidradenitis suppurativa
+
+@h0508
+c: painless and not mixed in with the stool | bowel habit is unchanged | 42 year old man
+m: Haemorrhoids bleed bright red blood above the painless dentate line
+g: Painless bright red blood on the paper with no other change is internal haemorrhoids
+f: tearing pain with a streak of blood => Anal fissure
+f: a painful purple lump at the anal margin => Perianal haematoma
+
+@h0509
+c: has to push it back with her finger
+m: Haemorrhoids are graded by how far they prolapse and whether they go back
+g: Prolapse needing manual reduction is third degree
+f: prolapse that goes back by itself => Second degree
+f: prolapse that cannot be pushed back => Fourth degree
+f: bleeding with no prolapse => First degree
+
+@h0510
+c: 24 hours | tense, tender, purple lump | covered by skin
+m: A clot in an external haemorrhoid can be removed early for fast relief
+g: Thrombosed external haemorrhoid within 72 hours: excise the clot
+f: the lump has been there for 5 days => Conservative care with laxatives and ice

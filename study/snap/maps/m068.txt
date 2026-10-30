@@ -1,0 +1,108 @@
+@h0871
+c: sleeps badly | appetite is poor | lost 5 kg
+m: Mirtazapine is sedating and increases appetite
+g: Depression with insomnia and weight loss: mirtazapine
+
+@h0872
+c: venlafaxine | hypertension
+m: Venlafaxine raises blood pressure in a dose-related way
+g: Venlafaxine: monitor blood pressure
+
+@h0873
+c: thoughts of self-harm | dangerous each would be if taken in overdose
+m: Tricyclics block cardiac sodium channels, causing arrhythmias and seizures in overdose
+g: Most dangerous antidepressant in overdose: amitriptyline
+
+@h0874
+c: stable on lithium for 2 years
+m: Lithium can cause hypothyroidism and kidney damage over years
+g: Stable on lithium: thyroid and kidney function every 6 months
+
+@h0875
+c: lithium for 10 years | no diuretics or supplements | Adjusted calcium 2.85 | PTH 9.2
+m: Lithium resets the parathyroid calcium sensor upwards
+g: High calcium with a high PTH on lithium is lithium-induced hyperparathyroidism
+f: a thiazide started recently => Thiazide-induced hypercalcaemia
+f: high calcium with a low PTH and hilar nodes => Sarcoidosis
+f: high calcium with a low PTH and a known cancer => Bone metastases
+
+@h0876
+c: lithium | 6 weeks pregnant
+m: Lithium in the first trimester affects tricuspid valve development
+g: Lithium in early pregnancy is linked to Ebstein's anomaly
+
+@h0877
+c: haloperidol | several other medicines
+m: Haloperidol prolongs the QT
+g: Before haloperidol: baseline ECG
+
+@h0878
+c: Alzheimer's disease | antipsychotic
+m: Antipsychotics in dementia raise the risk of stroke and death
+g: Main risk of antipsychotics in dementia: stroke and death
+
+@h0879
+c: risperidone | milky discharge | Prolactin 1800
+m: Risperidone blocks dopamine strongly in the pituitary; aripiprazole is a partial agonist
+g: High prolactin on risperidone: switch to aripiprazole
+
+@h0880
+c: 2 antipsychotics at adequate doses | confirmed by levels
+m: Clozapine is the only drug proven for treatment-resistant schizophrenia
+g: Treatment-resistant schizophrenia: clozapine
+f: he has not been taking his tablets => A depot of the same drug
+
+@h0881
+c: clozapine for 4 months | Neutrophil count 1.2
+m: Clozapine can cause agranulocytosis
+g: Neutrophils under 1.5 on clozapine: stop clozapine and recheck urgently
+
+@h0882
+c: 6 weeks ago | no muscle rigidity | Troponin 340
+m: Clozapine can inflame heart muscle in the first 2 months
+g: Chest pain, fever and a high troponin early on clozapine is clozapine-induced myocarditis
+f: fever, rigidity and a high CK => Neuroleptic malignant syndrome
+f: pleuritic pain and hypoxia after immobility => Pulmonary embolism
+
+@h0883
+c: worried about weight gain | mother has type 2 diabetes
+m: Aripiprazole has the lowest metabolic burden
+g: Least weight gain: aripiprazole
+
+@h0884
+c: starting olanzapine
+m: Olanzapine causes weight gain, diabetes and high lipids
+g: Olanzapine: HbA1c and lipids at baseline, 12 weeks, then yearly
+
+@h0885
+c: quetiapine | drowsy | standing BP 98/62 | no fever or stiffness
+m: Quetiapine blocks histamine and alpha receptors
+g: Daytime drowsiness and a postural drop on quetiapine are side effects
+f: fever, rigidity and a raised CK => Neuroleptic malignant syndrome
+
+@h0886
+c: before starting methylphenidate
+m: Stimulants raise heart rate and blood pressure
+g: Do not give methylphenidate after a recent myocardial infarction
+
+@h0887
+c: atomoxetine | life is not worth living | ALT 520
+m: Atomoxetine can cause suicidal thoughts and, rarely, severe liver injury
+g: Suicidal thoughts and hepatitis on atomoxetine: stop it and urgent review
+
+@h0888
+c: guanfacine | skip it during the school holidays
+m: Guanfacine is an alpha-2 agonist; stopping suddenly causes rebound hypertension
+g: Guanfacine: do not stop it suddenly
+
+@h0889
+c: needle nearby | Respiratory rate 6 | pinpoint
+m: Naloxone displaces opioids from their receptors
+g: Opioid overdose with slow breathing: naloxone
+f: dilated pupils and a wide QRS after amitriptyline => Sodium bicarbonate
+
+@h0890
+c: 4 hours ago | no yawning, sweating | withdrawal score is low
+m: Buprenorphine displaces heroin but has less effect, so it triggers withdrawal if given too early
+g: Starting buprenorphine without withdrawal signs: wait for withdrawal signs
+f: she is in clear withdrawal => Start buprenorphine now

@@ -158,6 +158,16 @@ def build():
                 zf.write(p, 'medengine/' + name)
     print('built', site.name, f'{site.stat().st_size / 1e6:.1f} MB')
 
+    # Code-only copy for audit tools with an upload cap (20 MB): the same site without the img/ folder.
+    lite = OFF / 'dist' / 'medengine-code-audit.zip'
+    with zipfile.ZipFile(lite, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as zf:
+        for p in sorted(SRC.rglob('*')):
+            rel = p.relative_to(SRC).as_posix()
+            if p.is_file() and p.name != 'READ ME.txt' and not rel.startswith('img/'):
+                zf.write(p, 'medengine/' + ('index.html' if p.name == 'medengine.html' else rel))
+    assert lite.stat().st_size < 20e6, 'code-only zip is over 20 MB'
+    print('built', lite.name, f'{lite.stat().st_size / 1e6:.1f} MB')
+
 
 if __name__ == '__main__':
     build()

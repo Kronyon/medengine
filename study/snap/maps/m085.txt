@@ -1,0 +1,118 @@
+@h1211
+c: makes herself vomit | BMI 22 | calluses on her knuckles
+m: Binges followed by purging keep the weight normal
+g: Binges with self-induced vomiting at a normal BMI is bulimia nervosa
+f: binges with no purging in someone overweight => Binge eating disorder
+
+@h1212
+c: makes herself vomit daily
+m: Vomiting loses acid and chloride; the kidney wastes potassium
+g: Daily vomiting causes a hypokalaemic metabolic alkalosis
+
+@h1213
+c: self-harms often | chronically empty | fear of being abandoned | changes within hours
+m: Unstable identity, mood and relationships drive self-harm
+g: Self-harm, emptiness, fear of abandonment and mood changes within hours is borderline personality disorder
+f: shallow emotions with dramatic attention-seeking => Histrionic personality disorder
+f: sustained mood episodes lasting days or weeks => Bipolar affective disorder
+
+@h1214
+c: self-harms repeatedly
+m: DBT teaches skills to manage emotions and reduce self-harm
+g: Borderline personality disorder: dialectical behaviour therapy
+
+@h1215
+c: no wish for relationships | indifferent to praise or criticism | no odd beliefs
+m: Schizoid personality is emotional coldness with a preference for solitude
+g: Contented detachment without odd beliefs is schizoid personality disorder
+f: odd beliefs, magical thinking and eccentric speech => Schizotypal disorder
+f: wants relationships but avoids them for fear of rejection => Anxious avoidant personality disorder
+
+@h1216
+c: drinks heavily | eaten little for weeks | nystagmus | ataxic
+m: Thiamine deficiency damages the mamillary bodies and brainstem
+g: Wernicke's encephalopathy: IV high-dose thiamine
+
+@h1217
+c: 3 days ago | insects on the walls | 38.1°C | coarse tremor
+m: Sudden loss of alcohol's GABA effect causes autonomic overdrive and delirium at 2 to 3 days
+g: Confusion, hallucinations and fever days after stopping alcohol is delirium tremens
+f: hallucinations at 12 to 24 hours with a clear mind => Alcoholic hallucinosis
+f: confusion with ataxia and nystagmus => Wernicke's encephalopathy
+
+@h1218
+c: decompensated | Albumin 24 | INR 1.9
+m: Long-acting benzodiazepines build up when the liver fails
+g: Alcohol withdrawal with liver failure: lorazepam
+f: normal liver function => Chlordiazepoxide
+
+@h1219
+c: on and off over 24 hours
+m: Staggered overdoses cannot be plotted on the nomogram
+g: Staggered paracetamol overdose: start acetylcysteine now
+f: a single overdose 2 hours ago => Level at 4 hours, then decide
+
+@h1220
+c: ibuprofen | Lithium level 2.1 | Creatinine 74
+m: NSAIDs cut lithium excretion
+g: Lithium toxicity after starting ibuprofen: stop lithium and give IV fluids
+f: level over 4 or severe neurology or kidney failure => Urgent haemodialysis
+
+@h1221
+c: amitriptyline | QRS duration of 140 ms
+m: Bicarbonate overcomes tricyclic sodium channel block
+g: Tricyclic overdose with a wide QRS: IV sodium bicarbonate
+f: pinpoint pupils with a respiratory rate of 6 => Naloxone
+
+@h1222
+c: known schizophrenia | refuses admission | treatment that works for him are known
+m: Section 3 allows treatment when the diagnosis and treatment are established
+g: Relapse of known schizophrenia needing treatment: Section 3
+f: a first presentation with an unknown diagnosis => Section 2
+
+@h1223
+c: public place
+m: Police can remove someone from a public place to a place of safety
+g: Police in a public place: Section 136
+f: the person is inside their own home => Section 135
+
+@h1224
+c: informal psychiatric inpatient | No doctor can attend | mental health nurse
+m: Section 5(4) is the nurse's holding power until a doctor arrives
+g: A nurse can hold her for up to 6 hours
+f: the doctor in charge is available => 72 hours
+
+@h1225
+c: holds odd postures | no rigidity | Creatine kinase is normal
+m: Benzodiazepines often reverse catatonia quickly
+g: Catatonia: lorazepam first
+f: no response to lorazepam or life-threatening catatonia => ECT
+
+@h1226
+c: as if made of wax | mute | not on antipsychotics
+m: Catatonia is a motor syndrome with posturing and waxy flexibility
+g: Waxy flexibility with mutism off antipsychotics is catatonia
+f: fever, rigidity and a high CK on an antipsychotic => Neuroleptic malignant syndrome
+
+@h1227
+c: contraindications
+m: ECT briefly raises intracranial pressure
+g: The only absolute contraindication to ECT is raised intracranial pressure
+
+@h1228
+c: poor eye contact | lines up his toys | takes jokes literally | speech is fluent
+m: Autism is social communication difference with restricted, repetitive behaviour
+g: Social communication difficulties with rigid routines is autism spectrum disorder
+f: inattentive, impulsive and hyperactive with normal social skills => Attention deficit hyperactivity disorder
+
+@h1229
+c: does not point | hand flapping
+m: Autism is diagnosed by a specialist multidisciplinary team
+g: Suspected autism: refer to the autism assessment team
+f: a girl who loses her speech and develops hand-wringing => Genetic testing
+
+@h1230
+c: severe aggression | not responded to behavioural approaches
+m: Antipsychotics can reduce severe aggression once other approaches fail
+g: Severe aggression in autism after behavioural approaches: risperidone
+f: the problem is poor sleep => Melatonin

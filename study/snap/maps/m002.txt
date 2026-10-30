@@ -1,0 +1,146 @@
+@o-mla1-041
+c: offensive smelling diarrhoea | flattening of villi | increased lymphocytes | crypt hyperplasia
+m: Gluten triggers T cells that flatten the villi, so fat and iron are poorly absorbed
+g: Villous atrophy with intraepithelial lymphocytes and crypt hyperplasia is coeliac disease
+f: patchy transmural inflammation with granulomas and skip lesions => Crohn's disease
+f: diarrhoea after antibiotics with yellow plaques on the colon => Pseudomembranous enteropathy
+f: flushing, wheeze and diarrhoea with liver metastases => Carcinoid tumour
+
+@o-mla1-042
+c: profuse watery diarrhoea | 6 days after admission | co- amoxiclav
+m: Broad-spectrum antibiotics kill normal gut flora, letting toxin-making C. difficile overgrow
+g: New diarrhoea in hospital on a broad-spectrum antibiotic is C. difficile
+f: bloody diarrhoea after undercooked chicken at a barbecue => Campylobacter jejuni
+f: sudden vomiting spreading through a ward or cruise ship => Norovirus
+
+@o-mla1-043
+c: four to five tablespoons of sputum per day | childhood pneumonia | coarse inspiratory crackles
+m: Damaged, permanently widened airways pool mucus that gets repeatedly infected
+g: Daily large-volume sputum after childhood infection is bronchiectasis
+f: smoker over 40 with progressive breathlessness and little sputum => COPD
+f: fine end-inspiratory crackles and clubbing with a dry cough => Pulmonary fibrosis
+f: bilateral hilar lymphadenopathy with erythema nodosum => Sarcoidosis
+
+@o-mla1-044
+c: colicky epigastric pain | after eating | lasted for about 1 hour | BMI is 35
+m: A gallstone briefly blocks the cystic duct after a meal, then falls back
+g: Brief post-meal pain that fully settles in an overweight woman is biliary colic: ultrasound
+f: constant epigastric pain through to the back with vomiting => Serum Amylase
+f: dyspepsia with no gallstone features and under 55 => Helicobacter stool antigen test
+
+@o-mla1-045
+c: transient shaking of her hands | before her lunch and evening meals | gliclazide 80 mg twice daily | Glycated haemoglobin 50
+m: Sulfonylureas release insulin whatever the glucose, so sugar drops before meals
+g: Pre-meal hypo symptoms with a tight HbA1c in an older person: reduce the gliclazide
+f: postural drop of 20 mmHg on standing with dizziness => Reduce ramipril dose
+f: eGFR falling below 30 => Reduce metformin dose
+
+@o-mla1-046
+c: retired mechanic | pleuritic chest pain | marked volume loss in right hemithorax
+m: Asbestos fibres from brake linings cause a pleural cancer that encases and shrinks the lung
+g: Asbestos exposure with pleural pain and a shrunken hemithorax is mesothelioma
+f: fine basal crackles and clubbing with a dry cough, no pleural mass => Asbestosis
+f: haemoptysis with a central lung mass => Lung cancer
+f: night sweats and cavitation in the upper lobes => Tuberculosis
+
+@o-mla1-047
+c: left-sided abdominal pain | blood mixed in with her stools | temperature is 37.7°C | tender on palpation in the left lower quadrant
+m: An inflamed diverticulum in the sigmoid causes left-sided pain, fever and some bleeding
+g: Left lower quadrant pain, tenderness and fever in an older person is diverticulitis
+f: painless bright red blood on the paper with a lump at the anus => Haemorrhoids
+f: change in bowel habit with weight loss and iron deficiency => Colorectal cancer
+f: months of bloody diarrhoea with urgency in a young adult => Ulcerative colitis
+
+@o-mla1-048
+c: liver synthetic function | 32 paracetamol tablets
+m: The liver makes clotting factors with short half-lives, so PT shows function changes within hours
+g: Synthetic function is shown best by PT, not by enzyme levels
+f: asked how much liver cell damage there has been => ALT
+f: synthetic function over weeks to months in chronic disease => Albumin
+
+@o-mla1-049
+c: heart 'gives a sudden jump' | pulse rate is 70 bpm | heart sounds are normal
+m: An early beat from the ventricle is followed by a pause, then a forceful beat felt as a thump
+g: Single thumps with a regular rhythm and broad early beats on the ECG are ventricular ectopics
+f: irregularly irregular pulse with no P waves => Atrial fibrillation
+f: early narrow beats with an abnormal P wave => Premature supraventricular beats
+f: runs of broad complexes at 180 bpm with dizziness => Ventricular tachycardia
+
+@o-mla1-050
+c: painless swelling | soft and fluctuant | transilluminates
+m: Fluid collects in the tunica vaginalis around the testis and lets light through
+g: Painless, fluctuant and transilluminating around the testis is a hydrocoele
+f: sudden severe pain with a high-riding testis in a teenager => Testicular torsion
+f: hard, painless lump within the testis that does not transilluminate => Testicular tumour
+f: bag of worms above the testis that empties on lying => Varicocoele
+
+@o-mla1-051
+c: raised white margin | growing slowly | never completely healing | 20 years living in Australia
+m: Sun damage causes a slow, locally invasive basal cell cancer with a pearly rolled edge
+g: Slow-growing, pearly-edged ulcer on sun-exposed skin is basal cell carcinoma
+f: fast-growing crusted, keratotic nodule over weeks => Squamous cell carcinoma
+f: dark pigmented lesion with an irregular border that is changing => Malignant melanoma
+f: rough, scaly patches that feel like sandpaper => Actinic keratosis
+
+@o-mla1-052
+c: long-term urinary catheter | mildly confused | 38.2º C
+m: Catheter urine is always colonised, so only signs of systemic infection justify antibiotics
+g: Fever and new confusion in a catheterised patient indicate a catheter-associated UTI
+f: no fever or new symptoms, only cloudy dipstick-positive urine => Blood and protein in urine
+
+@o-mla1-053
+c: INR is fluctuating between 1.1 and 3.8 | does not always remember to take her tablets | CHA2DS2-VASc score is 4
+m: A DOAC needs no INR monitoring and has a steadier effect when doses are occasionally late
+g: Unstable INR in non-valvular AF with a high CHA2DS2-VASc: switch to a DOAC with a dosette box
+f: she has a mechanical heart valve => Continue warfarin using a monitored dosage system
+f: she has a terminal illness and chooses to stop all preventive drugs => Stop anticoagulation
+
+@o-mla1-054
+c: Masses are palpable in both flanks | BP 170/97 mmHg | Creatinine 220
+m: Many enlarging cysts make both kidneys big, raise BP and bleed into the urine
+g: Bilateral flank masses with hypertension and haematuria: ultrasound shows polycystic kidneys
+f: painless haematuria at 60 with normal kidneys on ultrasound => Cystoscopy
+f: sudden colicky loin to groin pain with normal kidneys => CT scan of kidneys, ureters and bladder
+
+@o-mla1-055
+c: started suddenly, reaching maximum intensity within 1 minute
+m: A headache that peaks within a minute can be a subarachnoid haemorrhage
+g: Thunderclap onset is the red flag that needs immediate referral
+f: the visual loss stayed in one eye and had not resolved => Visual disturbance
+
+@o-mla1-056
+c: BP 210/110 mmHg | radiofemoral delay | notching of the ribs
+m: A narrowing of the aorta after the left subclavian raises arm BP and delays leg pulses; collaterals erode the ribs
+g: Young hypertensive with radiofemoral delay and rib notching is coarctation
+f: sudden tearing chest pain to the back with unequal arm BPs => Dissecting aortic aneurysm
+f: renal bruit with a creatinine that rises on an ACE inhibitor => Renal artery stenosis
+f: young Asian woman with absent arm pulses and claudication of the arms => Takayasu's arteritis
+
+@o-mla1-057
+c: haemoptysis | sinusitis with pain, stuffiness and nose bleeds | occasional red cell casts
+m: c-ANCA vasculitis forms granulomas in the upper airway, lung and kidney
+g: Nose, lung and kidney together is granulomatosis with polyangiitis
+f: recurrent oral and genital ulcers with uveitis => Behçet's disease
+f: night sweats, cavitation and contact with TB => Tuberculosis
+
+@o-mla1-058
+c: 19 year old man | sore throat, malaise and intermittent fever for 2 weeks | yellow-tinged | multiple soft palpable lymph nodes
+m: EBV infects B cells, causing tonsillitis, nodes and mild hepatitis
+g: Teenager with a sore throat, nodes and mild jaundice is glandular fever: test for EBV
+f: fever, sore throat and a rash 3 weeks after unprotected sex => HIV test
+f: a single hard, fixed node growing over months with night sweats => Lymph node biopsy for histology
+
+@o-mla1-059
+c: recurrent mouth ulcers | altered bowel habit | distal small bowel thickening
+m: Crohn's causes transmural inflammation, most often of the terminal ileum, with mouth ulcers
+g: Thickened terminal ileum with mouth ulcers and bowel change in a young adult is Crohn's
+f: recent travel from South Asia with night sweats and ileocaecal thickening => Intestinal tuberculosis
+f: child with a viral illness and enlarged nodes but a normal bowel wall => Mesenteric adenitis
+
+@o-mla1-060
+c: screened for loss of visual acuity
+m: Ethambutol damages the optic nerve, first showing as red-green colour loss
+g: Eye checks are for ethambutol
+f: tingling feet and numbness needing pyridoxine => Isoniazid
+f: orange urine and enzyme induction affecting the pill => Rifampicin
+f: gout and liver damage => Pyrazinamide

@@ -1,0 +1,131 @@
+@m090
+c: whilst standing in the kitchen | indapamide | 128/75 mmHg (lying down) and 105/73 mmHg (standing)
+m: Diuretics deplete volume, so BP drops on standing and the brain is briefly underperfused
+g: Orthostatic hypotension on a diuretic: stop the indapamide
+f: no postural drop but troublesome ankle swelling => Stop amlodipine
+f: postural drop persists after stopping all culprit drugs and adding salt => Add midodrine hydrochloride
+
+@m091
+c: worse upon standing and improves with lying down | diffuse pachymeningeal enhancement | subdural fluid collections
+m: A CSF leak lowers pressure, so the brain sags on standing and the meninges enhance
+g: Spontaneous intracranial hypotension: epidural blood patch
+f: large subdural collections causing midline shift and drowsiness => Surgical evacuation of subdural fluid
+
+@m092
+c: difficulty in clearing her respiratory tract secretions | palliative care
+m: Antimuscarinics reduce secretions pooling in the throat at the end of life
+g: Death rattle: antimuscarinic such as hyoscine
+f: distressing agitation and restlessness in the last days => Anxiolytic
+f: breathlessness or pain at the end of life => Opioid
+
+@m093
+c: around her right eye | a few vesicles | no significant medical history | Treatment is started
+m: Early antivirals in a healthy adult usually prevent lasting damage from ophthalmic shingles
+g: Prompt treatment in a healthy middle-aged woman: complete resolution
+f: vesicles on the tip of the nose with a red painful eye left untreated => Reduced visual acuity
+
+@m095
+c: increasing deafness and ringing in her ears | first noticed these symptoms during her pregnancy | 23 year old woman
+m: Abnormal bone fixes the stapes footplate, causing conductive loss that pregnancy accelerates
+g: Young woman with progressive hearing loss starting in pregnancy is otosclerosis
+f: gradual bilateral high-frequency loss in a 75 year old => Early presbycusis
+f: white chalky plaques on the drum after repeated ear infections => Tympanosclerosis
+
+@m096
+c: Hallpike test shows right sided nystagmus | no deafness, tinnitus, weakness or speech disturbance
+m: Loose crystals in the posterior canal trigger brief vertigo with head position
+g: Positive Dix-Hallpike with no hearing or neurological signs is BPPV
+f: vertical nystagmus, unable to walk and a headache => Cerebellar haematoma
+f: attacks lasting hours with low-tone hearing loss and tinnitus => Ménière's disease
+
+@m097
+c: BMI is 35 | multiple hard exudates and microaneurysms encroaching the macula
+m: Leaky vessels near the macula deposit exudates and swell the centre, blurring vision
+g: Exudates and microaneurysms threatening the macula is diabetic maculopathy
+f: flame haemorrhages, cotton wool spots and papilloedema with very high BP => Hypertensive retinopathy
+f: haemorrhages in one quadrant along a vein => Retinal vein thrombosis
+
+@m098
+c: intermittent right sided discomfort related to meals | jaundiced | ALP 256 | Bilirubin 51 | BMI is 32
+m: A gallstone slips into the bile duct and blocks it, causing painful jaundice
+g: Painful cholestatic jaundice after biliary colic is a common bile duct stone
+f: painless jaundice with weight loss and a palpable gallbladder => Carcinoma of the head of pancreas
+f: cholestatic picture in a man with ulcerative colitis => Sclerosing cholangitis
+
+@m099
+c: fentanyl 25 micrograms/hour patch | death is imminent | increasing pain
+m: Patches take 12 to 24 hours to change level, so the patch stays on and extra opioid is added
+g: Rising pain at the end of life on a patch: keep it and add a subcutaneous morphine infusion
+f: she can still swallow and pain is mild and episodic => Add oral morphine solution as required
+
+@m100
+c: diet-controlled type 2 diabetes | irregularly irregular rhythm with absent P waves | 68 year old woman
+m: Paroxysmal AF carries the same stroke risk as permanent AF
+g: CHA2DS2-VASc 3 for age, female sex and diabetes: anticoagulate with apixaban
+f: symptomatic recurrent AF despite drugs in a young patient who wants rhythm control => Refer for left atrial ablation
+
+@h0001
+c: grown quickly | 6 cm smooth, mobile, well-defined lump | leaf-like stroma with high cellularity
+m: A fibroepithelial tumour with overgrowing stroma grows fast and recurs if not excised widely
+g: Rapidly growing large mobile lump with leaf-like stroma is a phyllodes tumour
+f: a 2 cm rubbery mobile lump in a 20 year old with normal stroma => Fibroadenoma
+f: an irregular hard lump with skin tethering => Invasive ductal carcinoma
+f: a fluid-filled lump that disappears on aspiration => Simple cyst
+
+@h0002
+c: 19 year old woman | 1.5 cm | confirms a fibroadenoma
+m: Small fibroadenomas in young women are benign and many shrink
+g: Confirmed small fibroadenoma: reassure, no routine excision
+f: it grows to 5 cm or she wants it removed => Wide local excision with margins
+
+@h0003
+c: 23 year old woman | 2 cm discrete, firm, mobile lump
+m: Young breast tissue is dense, so mammograms are less useful
+g: Under 35: ultrasound is the imaging in triple assessment
+f: a 55 year old woman with a lump => Digital mammogram
+
+@h0004
+c: aspirated to dryness | fluid is clear yellow | no longer palpable
+m: A simple cyst that disappears with clear fluid is benign
+g: Clear fluid and no residual mass: discard and review
+f: the fluid is blood-stained => Send the fluid for cytology
+f: a mass remains after aspiration => Core biopsy of the cyst wall
+
+@h0005
+c: simple cyst | 44 year old woman
+m: Cysts form as lobules involute in the years before the menopause
+g: Simple cysts are commonest at 35 to 50
+f: asked which group most often gets fibroadenomas => Women aged 15 to 25
+
+@h0006
+c: begins about a week before each period | diffusely nodular | no discrete lump
+m: Hormonal swings before a period cause tender nodular breasts
+g: Bilateral premenstrual pain and nodularity without a lump is cyclical mastalgia
+f: a single fluctuant lump that disappears on aspiration => Breast cyst
+f: red, swollen breast with peau d'orange over weeks => Inflammatory breast cancer
+
+@h0007
+c: breastfeeding | flucloxacillin 5 days ago | tender, fluctuant swelling | Temperature 38.6°C
+m: Mastitis that does not settle can wall off into an abscess
+g: Fluctuant swelling despite antibiotics while breastfeeding is an abscess
+f: a painless milk-filled cyst without fever => Galactocele
+
+@h0008
+c: next to her right areola | two similar episodes | not breastfeeding | smokes 20 cigarettes a day
+m: Smoking damages the subareolar ducts, which become infected repeatedly
+g: Recurrent subareolar abscesses in a smoker who is not breastfeeding is periductal mastitis
+f: a 60 year old with thick green discharge and nipple retraction => Duct ectasia
+f: breastfeeding with a red tender wedge => Lactational mastitis
+
+@h0009
+c: breastfeeding | urticarial rash and facial swelling after amoxicillin | wedge-shaped area
+m: Staph aureus causes lactational mastitis; a macrolide covers it when penicillin is not safe
+g: Mastitis with penicillin allergy: erythromycin
+f: no penicillin allergy => Flucloxacillin
+
+@h0010
+c: bloody discharge from a single duct | no palpable lump
+m: A benign papilloma in one duct bleeds into the nipple
+g: Bloody discharge from a single duct with no lump is an intraductal papilloma
+f: milky discharge from both nipples => Galactorrhoea
+f: an eczema-like crust on the nipple itself => Paget's disease of the nipple

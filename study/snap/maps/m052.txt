@@ -1,0 +1,121 @@
+@h0551
+c: type 2 diabetes | sweaty | Pulse rate 58 bpm | abdomen is soft and non-tender
+m: An inferior MI irritates the diaphragm and can present as epigastric pain, often painless in diabetes
+g: Epigastric pain with sweating, a slow pulse and a soft abdomen in a diabetic: ECG first
+f: normal ECG with epigastric pain to the back after alcohol => Serum amylase
+f: a rigid abdomen after NSAIDs => Erect chest X-ray
+
+@h0552
+c: 14 year old boy | came on suddenly | reluctant to talk
+m: Testicular torsion often presents as lower abdominal pain in embarrassed teenagers
+g: Sudden lower abdominal pain in a teenage boy: examine the testes
+f: dysuria and frequency => Urine dipstick
+
+@h0553
+c: paracetamol 1 g four times a day | gastric ulcer last year | chronic kidney disease stage 3
+m: The analgesic ladder adds a weak opioid when paracetamol alone fails
+g: Step 2: add codeine to paracetamol
+f: still in pain on codeine and paracetamol => Modified-release morphine
+
+@h0554
+c: 30 mg twice daily | can no longer swallow
+m: Subcutaneous morphine is about twice as potent as oral
+g: 60 mg oral morphine a day is 30 mg subcutaneous morphine over 24 hours
+f: asked for the 24 hour subcutaneous diamorphine dose => 20 mg
+
+@h0555
+c: end-stage kidney disease | eGFR is 10
+m: Morphine metabolites build up in kidney failure; alfentanil is cleared by the liver
+g: Strong opioid in end-stage kidney disease: alfentanil
+f: normal kidney function => Morphine
+
+@h0556
+c: 70 kg | no ongoing losses
+m: Maintenance water is 25 to 30 ml per kg per day
+g: A 70 kg adult needs about 2 litres of water a day
+f: a 35 kg adult => 1 litre
+
+@h0557
+c: no seizures | Sodium 112 | normal 2 months ago
+m: Brain cells adapt to chronic low sodium; fast correction causes osmotic demyelination
+g: Chronic hyponatraemia: raise sodium by no more than 10 mmol/L in 24 hours
+
+@h0558
+c: not on acid-suppressing drugs | pH of 6.5
+m: Only a pH of 5.5 or less confirms the tube is in the stomach
+g: Aspirate pH over 5.5: chest X-ray to check the position
+
+@h0559
+c: worse during her recent pregnancy | mother wore hearing aids | normal tympanic membranes | Rinne's test is negative on both sides
+m: Abnormal bone fixes the stapes footplate, causing conductive loss that pregnancy speeds up
+g: Conductive loss with normal drums, worse in pregnancy, with family history is otosclerosis
+f: gradual high-frequency sensorineural loss in a 75 year old => Presbycusis
+f: one-sided sensorineural loss with tinnitus => Vestibular schwannoma
+
+@h0560
+c: notch in the bone conduction
+m: A fixed stapes changes middle ear resonance, giving a bone conduction dip
+g: Carhart's notch is at 2 kHz
+f: a dip at 4 kHz in a factory worker => 4 kHz
+
+@h0561
+c: otosclerosis confirmed | would like to improve it
+m: A hearing aid amplifies sound; stapedotomy bypasses the fixed stapes
+g: Otosclerosis: hearing aid or stapedotomy
+f: a child with glue ear and hearing loss over 3 months => Grommet insertion
+
+@h0562
+c: epidural | within minutes of standing | goes when she lies flat
+m: CSF leaks from the dural hole, so the brain sags when upright
+g: A postural headache after an epidural is a post-dural puncture headache
+f: worse lying down with papilloedema in an obese woman => Idiopathic intracranial hypertension
+f: postpartum headache with seizures and a clot on venography => Cerebral venous sinus thrombosis
+f: a thunderclap onset => Subarachnoid haemorrhage
+
+@h0563
+c: relieved by lying flat | no lumbar puncture or epidural | sagging of the brain
+m: A spontaneous CSF leak lowers pressure so the brain sags and the meninges swell
+g: Postural headache with meningeal enhancement and brain sag is spontaneous intracranial hypotension
+f: meningeal enhancement with fever and a stiff neck => Bacterial meningitis
+
+@h0564
+c: caffeine have not helped | cannot care for her baby
+m: Injected blood seals the dural hole
+g: Disabling PDPH after conservative care: epidural blood patch
+
+@h0565
+c: polycythaemia vera | JVP is not raised | large, tender liver and shifting dullness
+m: Clot in the hepatic veins blocks outflow, so the liver swells and ascites forms
+g: Painful hepatomegaly and ascites in a prothrombotic state with a normal JVP is Budd-Chiari
+f: the same with a raised JVP and leg swelling => Right heart failure
+f: a big spleen and varices with a normal-sized liver => Portal vein thrombosis
+
+@h0566
+c: combined oral contraceptive pill | Budd-Chiari syndrome is suspected
+m: Doppler shows absent or reversed hepatic vein flow
+g: Suspected Budd-Chiari: Doppler ultrasound of the liver
+
+@h0567
+c: JAK2 mutation | no variceal bleeding
+m: Anticoagulation stops the clot extending and lets the veins recanalise
+g: Budd-Chiari: anticoagulation first
+f: liver failure despite all treatment => Liver transplant
+
+@h0568
+c: replaced by an identical impostor
+m: Recognition without the feeling of familiarity leads to a belief in a double
+g: Belief that a familiar person is replaced by a double is Capgras syndrome
+f: believes different strangers are one person in disguise => Fregoli syndrome
+f: believes he is dead or rotting => Cotard syndrome
+f: believes a famous person loves him => De Clérambault syndrome
+
+@h0569
+c: insects are living under her skin | matchbox | skin scrapings have been normal
+m: A fixed false belief of infestation persists despite normal tests
+g: Fixed belief of skin infestation with normal tests is delusional parasitosis
+f: a fixed belief that a partner is unfaithful => Othello syndrome
+
+@h0570
+c: fixed belief that his wife is having an affair | follows her to work | drinks heavily
+m: Morbid jealousy, worse with alcohol, carries a real risk of violence and homicide
+g: Morbid jealousy: assess the risk of violence towards his partner

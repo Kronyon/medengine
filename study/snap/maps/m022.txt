@@ -1,0 +1,132 @@
+@m048
+c: irregularly irregular | diastolic murmur
+m: A narrowed mitral valve stretches the left atrium into AF and causes a diastolic rumble
+g: Diastolic murmur with AF in an older woman is mitral stenosis
+f: ejection systolic murmur radiating to the carotids => Aortic stenosis
+f: pansystolic murmur radiating to the axilla => Mitral regurgitation
+
+@m049
+c: dapagliflozin | pH 6.93 | Glucose 9.4 | Ketones 6.2
+m: SGLT2 inhibitors lower glucose through the urine, so ketoacidosis can occur with near-normal sugar
+g: Severe ketoacidosis with a glucose under 14 on an SGLT2 inhibitor: euglycaemic DKA from dapagliflozin
+f: lactate 9 with normal ketones in kidney failure => Metformin
+
+@m050
+c: persistent abdominal pain and vomiting | Despite treatment
+m: DKA itself causes abdominal pain that should settle as the acidosis is corrected
+g: Pain persisting after the metabolic state is corrected suggests a surgical cause
+f: fever with RUQ pain and an ultrasound showing an inflamed gallbladder => Fever
+
+@m051
+c: cold intolerance | gained 2 kg | visible neck swelling | dry thin hair
+m: Too little thyroid hormone slows metabolism, causing cold intolerance and weight gain
+g: Tiredness, cold intolerance, weight gain and a goitre is hypothyroidism
+f: heat intolerance, weight loss and tremor => Hyperthyroidism
+f: central obesity, purple striae and proximal weakness => Cushing's syndrome
+
+@m052
+c: several consecutive courses of high dose oral prednisolone | pituitary and adrenal glands have recovered
+m: Synthetic ACTH tests whether the adrenals can respond after long suppression
+g: Testing adrenal recovery after steroids: short Synacthen test
+f: testing for too much cortisol rather than too little => Overnight dexamethasone suppression test
+
+@m053
+c: ibuprofen | gnawing discomfort in the epigastrium
+m: NSAIDs block COX-1, removing the prostaglandins that protect the gastric lining
+g: NSAID gastric damage is from loss of prostaglandin protection
+f: dyspepsia with no NSAID use and a positive breath test => Stimulation of Helicobacter pylori overgrowth
+
+@m054
+c: hepatitis C and liver cirrhosis | massive haematemesis | fullness in the left upper quadrant | systolic BP of 80 mmHg
+m: Portal hypertension enlarges the spleen and the veins at the lower oesophagus, which can rupture
+g: Massive haematemesis with cirrhosis and splenomegaly is variceal bleeding
+f: a small haematemesis after a night of retching, stable => Mallory-Weiss tear
+f: no liver disease, on long-term NSAIDs => Peptic ulcer
+
+@m055
+c: related to eating chips | BMI is 40 | tender in the right upper quadrant
+m: Fatty food makes the gallbladder contract against a stone, causing biliary colic
+g: Fatty food-triggered RUQ pain in an obese woman is gallstones
+f: burning retrosternal pain after meals and on lying flat => Gastro-oesophageal reflux
+f: pain relieved by opening the bowels with bloating => Irritable bowel syndrome
+
+@m056
+c: new left bundle branch block | cold and clammy | two days after left hip replacement
+m: Myocardial ischaemia can cause upper abdominal pain; a new LBBB counts as a STEMI equivalent
+g: Severe epigastric pain with sweating and new LBBB is a myocardial infarction
+f: sudden breathlessness with a normal ECG except sinus tachycardia => Pulmonary embolism
+f: tearing pain to the back with unequal pulses => Aortic dissection
+
+@m057
+c: started suddenly in the epigastrium | guarding and absent bowel sounds | history of mild indigestion
+m: A perforated ulcer releases gas that rises under the diaphragm
+g: Sudden generalised peritonitis with ulcer history: erect chest X-ray for free gas
+f: the erect chest X-ray is normal but suspicion stays high => CT scan of abdomen
+
+@m058
+c: 92 units of alcohol per week | loose and difficult to flush | similar episode 5 months ago
+m: Repeated alcohol pancreatitis destroys the gland, causing pain and steatorrhoea
+g: Recurrent epigastric pain to the back with steatorrhoea in a heavy drinker is chronic pancreatitis
+f: pain relieved by food and worse at night => Peptic ulcer disease
+f: jaundice with fever and rigors => Acute cholangitis
+
+@m059
+c: jaundice and fever | stone in the distal common bile duct | dilatation of the common bile duct at 12 mm
+m: Infection above an obstructing duct stone needs the duct drained
+g: Cholangitis from a duct stone: ERCP
+f: no jaundice, normal duct and an inflamed gallbladder => Laparoscopic cholecystectomy
+f: dilated duct but no stone seen on ultrasound => MR cholangiopancreatography
+
+@m060
+c: 1 hour after eating | temperature is 37.9°C | tender in the right upper quadrant on deep inspiration | not jaundiced
+m: A stone blocks the cystic duct and the gallbladder becomes inflamed
+g: Murphy's sign with fever: ultrasound
+f: jaundice with a stone in a dilated duct => Endoscopic retrograde cholangiopancreatography
+f: epigastric pain through to the back after alcohol => Serum amylase
+
+@m061
+c: deep vein thrombosis | tender hepatomegaly | shifting dullness | jaundiced
+m: A clot in the hepatic veins blocks outflow, so the liver swells and ascites forms
+g: Tender hepatomegaly and ascites in a prothrombotic woman is Budd-Chiari
+f: jaundice with fever and rigors and a dilated duct => Cholangitis
+f: a hard knobbly liver with weight loss and a known primary => Liver metastases
+
+@m062
+c: herniation of the mucosa between the taeniae coli
+m: Pressure inside the colon pushes mucosa out through weak points where vessels enter
+g: Mucosal pouches between the taeniae coli are diverticula
+f: continuous inflammation from the rectum upwards => Ulcerative colitis
+f: skip lesions with cobblestoning => Crohn's disease
+
+@m063
+c: left loin pain and abdominal distension | pulse rate 125 bpm | BP 95/55 mmHg | myocardial infarction
+m: An aneurysm leaks into the retroperitoneum, causing loin pain and shock
+g: Loin pain with shock in an older vascular patient is a leaking aortic aneurysm
+f: normal BP and pulse, writhing with blood in the urine => Left ureteric stone
+f: free gas under the diaphragm with peritonism => Perforation of the bowel
+
+@m064
+c: pain and numbness in her left foot of sudden onset | pale and cold | dorsalis pedis and posterior tibial artery pulses are absent
+m: An embolus or thrombus blocks the leg arteries; the foot is ischaemic within hours
+g: Sudden pale, cold, pulseless, numb foot is acute limb ischaemia
+f: a young heavy smoker with digital ulcers and migratory thrombophlebitis => Buerger's disease
+f: warm swollen calf with pulses present => Deep venous thrombosis
+
+@m065
+c: ovarian tumour with local spread | deep vein thrombosis and pulmonary embolism
+m: Cancer surgery and previous VTE raise clot risk; LMWH prevents clots after surgery
+g: Major cancer surgery with previous VTE: LMWH plus mechanical prophylaxis
+f: kidney failure with an eGFR under 30 => Unfractionated heparin
+
+@m066
+c: Type 1 diabetes | sharp, burning pains in her right foot
+m: High glucose damages small sensory nerves, which fire spontaneously
+g: Burning foot pain in diabetes is neuropathic
+f: pain shooting down the leg from the back in a dermatome => Radicular
+f: pain from a cut or a fracture => Nociceptive
+
+@m067
+c: fractures of the L1 and L2 vertebral bodies | mastectomy for breast cancer
+m: MRI separates osteoporotic collapse from metastases and shows the spinal cord
+g: MRI is chosen for its soft tissue detail
+f: asked for the test that measures bone density => Provides an estimate of bone density

@@ -1,0 +1,118 @@
+@h1231
+c: 10 days ago | confused and sleepless | baby is evil | responding to voices
+m: Hormonal shifts after birth can trigger sudden psychosis, especially with bipolar disorder
+g: Sudden psychosis with confusion within 2 weeks of birth is postpartum psychosis
+f: tearful on day 4 and fine by 2 weeks => Baby blues
+f: fever with offensive lochia => Puerperal sepsis
+f: unwanted intrusive thoughts with insight => Postnatal OCD
+
+@h1232
+c: breastfeeding
+m: Sertraline passes into breast milk in very small amounts
+g: Postnatal depression while breastfeeding: sertraline
+
+@h1233
+c: stopped lithium | 30 weeks pregnant
+m: The days after birth carry the highest risk of relapse and psychosis
+g: Highest relapse risk: the first 2 weeks after delivery
+
+@h1234
+c: sharp last week | drowsy in the morning and agitated at night | cannot keep her attention
+m: Acute illness disrupts brain function, causing fluctuating inattention
+g: Acute fluctuating confusion with poor attention during an infection is delirium
+f: gradual decline over 2 years with normal alertness => Alzheimer's disease
+f: months of visual hallucinations, parkinsonism and fluctuations => Dementia with Lewy bodies
+
+@h1235
+c: Parkinson's disease
+m: Typical antipsychotics worsen Parkinson's
+g: Agitated delirium in Parkinson's: lorazepam
+f: no Parkinson's or Lewy body disease => Haloperidol
+
+@h1236
+c: quiet, sleepy and withdrawn | not like him | 4AT score is 6
+m: Delirium can be quiet and is easily mistaken for low mood
+g: Acute sleepiness and withdrawal with a 4AT of 4 or more is hypoactive delirium
+f: a 4AT of 0 with low mood for months => Depression
+
+@h1237
+c: lost his job 3 weeks ago | still manages at home | no suicidal thoughts
+m: Distress after a stressor that falls short of depression is an adjustment reaction
+g: Worry and poor sleep after losing a job, short of depression, is adjustment disorder
+f: two weeks of low mood, loss of pleasure and suicidal thoughts => Depressive episode
+
+@h1238
+c: house was repossessed
+m: Adjustment disorder follows a clear stressor
+g: Adjustment disorder symptoms usually start within 1 month
+
+@h1239
+c: divorce 2 months ago | working | no suicidal thoughts
+m: Most adjustment disorders settle as the person adapts
+g: Adjustment disorder: support and problem-solving
+f: she now meets criteria for a depressive episode => Start sertraline
+
+@h1240
+c: could not escape or get help | rarely leaves home
+m: Fear of being trapped during panic leads to avoiding public places
+g: Avoiding places where escape is hard is agoraphobia
+f: fear only of being judged when eating or speaking => Social anxiety disorder
+
+@h1241
+c: phobia of dogs | no other anxiety
+m: Gradual exposure lets fear fade
+g: Specific phobia: graded exposure therapy
+
+@h1242
+c: heart race first | faints
+m: In blood phobia, pulse and BP rise then fall sharply; tensing muscles keeps BP up
+g: Fainting at blood tests: applied tension
+
+@h1243
+c: 8 year old boy | parent training programme have been tried | no heart disease
+m: Methylphenidate improves attention and impulse control in children
+g: Child ADHD after environmental measures: methylphenidate
+f: an adult => Lisdexamfetamine
+
+@h1244
+c: about to start methylphenidate
+m: Stimulants reduce appetite and growth and raise pulse and BP
+g: Before methylphenidate: growth, pulse and blood pressure
+
+@h1245
+c: well controlled | falling across the centiles
+m: Breaks in stimulant treatment allow catch-up growth
+g: Growth falling on methylphenidate: planned treatment break
+
+@h1246
+c: hurt the family dog | set fire | steals
+m: Conduct disorder violates the rights of others
+g: Cruelty to animals, fire-setting and theft in a teenager is conduct disorder
+f: angry and defiant with no cruelty, theft or violence => Oppositional defiant disorder
+
+@h1247
+c: 6 year old | no violence or cruelty
+m: Parenting programmes change the patterns that keep defiance going
+g: Oppositional defiant disorder: group parent-training programme
+f: he also has ADHD => Methylphenidate
+
+@h1248
+c: 19 year old | since the age of 12 | no remorse
+m: Antisocial personality disorder is diagnosed from 18 with conduct problems before 15
+g: Lifelong antisocial behaviour without remorse in an adult is antisocial personality disorder
+f: he is 16 => Conduct disorder
+
+@h1249
+c: IQ of 45
+m: Intellectual disability is graded by IQ and functioning
+g: IQ 35 to 49 is moderate
+f: an IQ of 62 => Mild
+f: an IQ of 25 => Severe
+
+@h1250
+c: autistic features | long face, large ears | testes are large
+m: A CGG repeat silences FMR1 on the X chromosome
+g: Learning disability with a long face, large ears and large testes is fragile X
+f: floppy as a baby, then constant hunger => Prader-Willi syndrome
+f: an elfin face with high calcium => Williams syndrome
+f: a happy demeanour with seizures and ataxia => Angelman syndrome

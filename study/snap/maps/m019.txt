@@ -1,0 +1,132 @@
+@o-p2020-032
+c: 6 days after a laparoscopic bowel resection | guarding and reduced bowel sounds | pulse rate 110 bpm
+m: An anastomotic leak spills bowel content into the abdomen days after surgery
+g: Suspected leak in a stable patient: CT abdomen
+f: shocked with generalised peritonitis and no time for imaging => Erect chest X-ray
+
+@o-p2020-033
+c: large amount of blood exiting from the drain | BP 92/54 mmHg | pulse rate is 121 bpm
+m: Ongoing bleeding from a haemothorax needs blood products quickly
+g: Major bleeding with shock: activate the major haemorrhage protocol
+f: bleeding while on warfarin with a high INR => Give prothrombin complex concentrate
+
+@o-p2020-034
+c: eGFR 25 | Potassium 5.6 | pitting oedema to the knee | BP is 156/96 mmHg
+m: Loop diuretics work at low eGFR, clear fluid and lower potassium
+g: Fluid overload, high BP and high potassium with eGFR under 30: furosemide
+f: eGFR over 30 with no oedema => Add indapamide
+f: potassium 6.5 and rising despite a diuretic => Stop lisinopril
+
+@o-p2020-035
+c: 25 weeks pregnant | BP 78/48 mmHg | falling down the stairs
+m: Saving the mother saves the baby; the primary survey finds the source of bleeding
+g: Shocked pregnant trauma patient: full primary survey with left lateral tilt
+f: mother stabilised and the baby's wellbeing is now the question => Scan the baby and arrange fetal monitoring
+
+@o-p2020-036
+c: oxygen saturation 96% breathing air | ST elevation in leads V1-V4
+m: Extra oxygen in a non-hypoxic heart attack causes vasoconstriction and does not help
+g: STEMI with saturations over 94%: no oxygen
+f: saturations 88% in a patient without COPD => Start oxygen 15 L/min via a non-rebreathe mask
+f: saturations 86% in a patient with COPD and CO2 retention => Start 28% oxygen via a Venturi mask
+
+@o-p2020-037
+c: Her mood changes between being happy and sad several times per week | always been impulsive | never experienced psychotic symptoms
+m: Emotional instability, impulsivity and self-harm are lifelong traits in borderline personality
+g: Rapid mood shifts over hours to days, impulsivity and self-harm is borderline personality disorder
+f: discrete episodes of high mood lasting a week or more => Bipolar disorder
+f: lifelong disregard for others and lack of remorse => Dissocial personality disorder
+
+@o-p2020-038
+c: lost 3 kg in weight | Sodium 128 | Potassium 5.6 | Random plasma glucose 2.8 | BP 100/55 mmHg lying
+m: Cortisol and aldosterone lack causes low sodium, high potassium, low glucose and hypotension
+g: Hyponatraemia, hyperkalaemia and hypoglycaemia with hypotension: adrenal crisis, send cortisol and ACTH
+f: low sodium with a normal potassium in a euvolaemic patient => Urinary and serum osmolality
+
+@o-p2020-039
+c: metastatic breast cancer | foot drop and urinary retention | back pain at the L4 level
+m: Spinal metastases can compress the cord or cauda equina at several levels
+g: Suspected metastatic compression: MRI whole spine within 24 hours
+f: MRI is not possible because of a pacemaker => CT of spine
+
+@o-p2020-040
+c: cough productive of white sputum on most mornings | 10 pack-year smoking history | Chest X-ray is normal
+m: Spirometry confirms fixed airflow obstruction
+g: Suspected COPD: spirometry
+f: daily large-volume purulent sputum with recurrent infections => High resolution CT scan of thorax
+
+@o-p2020-041
+c: palpitations that started after a three mile run | shortness of breath and chest pain
+m: A re-entry circuit near the AV node produces a fast regular narrow complex rhythm
+g: Narrow regular complex at 190: SVT
+f: irregularly irregular narrow complexes => Atrial fibrillation
+f: broad complex regular tachycardia => Ventricular tachycardia
+
+@o-p2020-042
+c: JVP not visible | BP 102/60 mmHg | 10 mL per hour | emergency laparotomy
+m: Fluid lost into the bowel and wound leaves the kidneys underfilled
+g: Oliguria with low JVP and tachycardia after surgery is pre-renal
+f: oliguria that suddenly drops to zero with a palpable bladder => Catheter obstruction
+f: no response to adequate fluid after several days with muddy brown casts => Acute tubular necrosis
+
+@o-p2020-043
+c: struck on the side of the head | Four hours later he collapses | biconvex haemorrhage
+m: A thin temporal bone fracture tears the middle meningeal artery; blood strips the dura away
+g: Biconvex bleed after a lucid interval: middle meningeal artery
+f: an older drinker with a crescent-shaped bleed and gradual confusion => Bridging veins
+
+@o-p2020-044
+c: losing 3kg in weight | non- smoker | scattered coarse crackles
+m: Cancer spreads to the lungs as multiple round nodules
+g: Weight loss with multiple lung nodules is metastatic cancer
+f: a pleural mass with pleural thickening after asbestos => Mesothelioma
+f: bilateral hilar nodes in a young adult => Sarcoidosis
+
+@o-p2020-045
+c: detects all 132 confirmed cases | 92% (230/250)
+m: Sensitivity is the true positives found; specificity is the true negatives
+g: All cases found: sensitivity 100%, false negative rate 0%; specificity is 92%
+f: the new test detected only 121 of the 132 confirmed cases => The sensitivity of the new test is 92%
+
+@o-p2020-046
+c: severe headache of sudden onset | collapsed and vomited | non-contrast CT scan of brain is normal | 14 hours
+m: CT misses some bleeds after 6 hours; xanthochromia forms by 12 hours
+g: Thunderclap headache with a normal CT after 6 hours: lumbar puncture
+f: CT within 6 hours of onset, reported by an expert as normal => No future investigations required
+f: headache over days with papilloedema in a woman on the pill => MR imaging of brain with MR venography
+
+@o-p2020-047
+c: extensor surface of his elbows, scalp and back | well demarcated
+m: Fast skin turnover makes thick scaly plaques on extensor surfaces
+g: Well-defined scaly plaques on elbows, scalp and back is plaque psoriasis
+f: itchy ill-defined patches in the elbow and knee creases of an atopic person => Atopic dermatitis
+f: a ring with a scaly edge and central clearing => Tinea corporis infection
+
+@o-p2020-048
+c: preceded by a small area of visual loss | unable to maintain stable employment
+m: Frequent disabling migraine needs a preventive drug
+g: Migraine prevention: propranolol first line in someone without asthma
+f: she has asthma => Venlafaxine
+f: asked what to take at the start of an attack => Sumatriptan
+
+@o-p2020-049
+c: double vision, usually in the evening | bilateral mild ptosis | rest of the neurological examination is normal
+m: Antibodies at the neuromuscular junction make muscles fatigue through the day
+g: Fatigable ptosis and diplopia is myasthenia gravis
+f: ascending weakness with lost reflexes after diarrhoea => Guillain–Barré syndrome
+f: sudden one-sided weakness with facial droop => Stroke
+
+@o-p2020-050
+c: Six school children | within 24 hours | no blood in the stool
+m: Norovirus spreads quickly person to person and is confirmed by PCR
+g: Outbreak of non-bloody vomiting and diarrhoea: viral PCR
+f: bloody diarrhoea in children after a farm visit => Stool for culture and sensitivity
+f: diarrhoea after a course of antibiotics in hospital => Clostridium difficile enzyme assay and toxin detection
+
+@m001
+c: very severe pain | discomfort on movement of the pinna | narrowed ear canal full of pus
+m: Infection of the canal skin makes it swollen and exquisitely tender
+g: Canal pain worse on moving the pinna with pus in the canal is otitis externa
+f: a child with fever and a red bulging drum => Acute otitis media
+f: painless smelly discharge with a crust in the attic => Cholesteatoma
+f: one-sided hearing loss and tinnitus with a normal canal => Vestibular schwannoma

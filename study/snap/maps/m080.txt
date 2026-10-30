@@ -1,0 +1,115 @@
+@h1111
+c: bloating and loose stools | includes gluten | Ferritin 8
+m: Coeliac antibodies are reliable only with normal IgA and while eating gluten
+g: First coeliac test: IgA tTG with total IgA
+f: total IgA is low => IgG endomysial antibody
+
+@h1112
+c: stopped eating gluten 3 months ago | now normal
+m: Serology and biopsy go negative off gluten
+g: Testing after stopping gluten: gluten challenge, then retest
+f: a positive tTG while eating gluten => Duodenal biopsy now
+
+@h1113
+c: not been sticking | grouped, small blisters | elbows, knees and buttocks
+m: IgA deposits in the skin cause itchy blisters on extensor surfaces in coeliac disease
+g: Itchy grouped blisters on extensor surfaces in coeliac disease is dermatitis herpetiformis
+f: tense blisters on the flexures in an 80 year old => Bullous pemphigoid
+
+@h1114
+c: relieved by opening her bowels | no weight loss, bleeding or night symptoms
+m: Coeliac disease can mimic IBS and must be excluded first
+g: First-line assessment before diagnosing IBS includes coeliac serology
+
+@h1115
+c: despite mebeverine and a laxative | no low mood
+m: Low-dose tricyclics reduce gut pain signalling
+g: IBS pain despite first-line drugs: amitriptyline
+f: a tricyclic has not helped or is not tolerated => Sertraline
+f: constipation-predominant IBS despite laxatives => Linaclotide
+
+@h1116
+c: 29 year old man | Faecal calprotectin 320
+m: Calprotectin is released by neutrophils in an inflamed bowel
+g: Raised calprotectin in a young adult: refer for colonoscopy
+f: calprotectin under 50 µg/g => Diagnose IBS
+
+@h1117
+c: fundus lying beside the oesophagus | junction stays below the diaphragm
+m: In a rolling hernia the fundus rolls up beside a fixed junction
+g: Fundus beside the oesophagus with the junction below is a rolling hiatus hernia
+f: the junction itself slides up into the chest => Sliding hiatus hernia
+
+@h1118
+c: long-standing reflux | air-fluid level behind the heart
+m: Stomach in the chest shows as gas with a fluid level behind the heart
+g: A retrocardiac air-fluid level in an older person with reflux is a hiatus hernia
+f: a round cavity with an air-fluid level in the lung after aspiration => Lung abscess
+
+@h1119
+c: large rolling hiatus hernia | retches but brings nothing up | nasogastric tube cannot be passed
+m: The stomach twists in the chest, blocking both ends
+g: Pain, unproductive retching and failure to pass an NG tube is gastric volvulus
+f: pain after forceful vomiting with surgical emphysema => Boerhaave syndrome
+
+@h1120
+c: 38 year old | no weight loss, difficulty swallowing, vomiting or anaemia
+m: Acid suppression treats uncomplicated reflux
+g: Uncomplicated reflux in a young adult: full-dose PPI for 4 weeks
+f: aged 55 or over with weight loss => Urgent upper GI endoscopy
+
+@h1121
+c: Barrett's | no dysplasia
+m: Barrett's can progress slowly to cancer; surveillance catches dysplasia
+g: Barrett's without dysplasia: PPI and interval surveillance
+f: high-grade dysplasia => Radiofrequency ablation
+
+@h1122
+c: solids and liquids | from the start | bird's beak | no tumour
+m: The lower sphincter fails to relax and the oesophagus loses peristalsis
+g: Achalasia is confirmed by oesophageal manometry
+
+@h1123
+c: no drug allergies | H. pylori stool antigen test is positive
+m: Triple therapy for 7 days eradicates H. pylori
+g: H. pylori with no allergy: PPI, amoxicillin and clarithromycin
+
+@h1124
+c: omeprazole 20 mg daily | not had antibiotics recently
+m: PPIs suppress H. pylori and cause false negatives
+g: Before a urea breath test: stop the PPI 2 weeks before
+
+@h1125
+c: cirrhosis | spider naevi and ascites | vomited fresh blood
+m: Terlipressin lowers portal pressure; antibiotics cut infection and rebleeding
+g: Suspected variceal bleed: terlipressin with IV antibiotics before endoscopy
+
+@h1126
+c: weak stream, hesitancy and dribbling | smoothly enlarged prostate | PSA is normal
+m: Alpha-blockers relax prostate and bladder neck muscle
+g: Bothersome voiding symptoms from BPH: tamsulosin
+f: a large prostate at high risk of progression => Finasteride
+f: urgency and frequency are the main problem => Oxybutynin
+
+@h1127
+c: finasteride for benign prostatic enlargement for a year
+m: Finasteride roughly halves the PSA after 6 months
+g: PSA on finasteride: double it
+f: on tamsulosin alone => Read it as measured
+
+@h1128
+c: treated for gonorrhoea | normal prostate | flat, box-shaped curve
+m: Urethritis scars and narrows the urethra, giving a fixed flat flow
+g: A box-shaped flow curve after urethritis is a urethral stricture
+f: an older man with a smoothly enlarged prostate => Benign prostatic hyperplasia
+
+@h1129
+c: hard, irregular prostate | PSA 3
+m: Some prostate cancers do not raise PSA
+g: A malignant-feeling prostate: suspected cancer pathway whatever the PSA
+f: a smooth benign-feeling prostate with a normal PSA => Reassure as the PSA is normal
+
+@h1130
+c: two tests | PSA 8.2
+m: MRI decides who needs a biopsy and where to target it
+g: Raised PSA: multiparametric MRI of the prostate first

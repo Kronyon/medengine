@@ -1,0 +1,124 @@
+@o-p2018-012
+c: hepatomegaly | Ferritin 710 | type 2 diabetes | married with no children
+m: Iron overload damages the liver, pancreas and testes; transferrin saturation shows true iron loading
+g: Raised ferritin with liver disease: check transferrin saturation for haemochromatosis
+f: injecting drug use in the past with a raised ALT => Hepatitis C serology
+f: transferrin saturation already over 55% and a C282Y gene result is equivocal, with fibrosis suspected => Liver biopsy
+
+@o-p2018-013
+c: 24 hours after a spinal anaesthetic | temperature is 37.1°C
+m: CSF leaks through the dural puncture, so the brain sags when upright
+g: Headache after a spinal, worse on sitting, is a post-dural puncture headache
+f: fever, neck stiffness and photophobia after the spinal => Meningitis
+
+@o-p2018-014
+c: chest pain of sudden onset that is worse on taking a deep breath | 27 year old man | sinus tachycardia
+m: A chest X-ray quickly separates pneumothorax, pneumonia and other causes before scoring for PE
+g: Pleuritic chest pain: chest X-ray first
+f: the X-ray is normal and the Wells score is over 4 => CT pulmonary angiography
+f: the X-ray is normal and the Wells score is 4 or less => D dimers
+
+@o-p2018-015
+c: elective arthroscopy | how long he needs to fast
+m: Clear fluids leave the stomach within 2 hours; food takes about 6
+g: Adult elective fasting: 2 hours clear fluids, 6 hours food
+
+@o-p2018-016
+c: smooth, non-tender 1.5 cm mobile lump within the thyroid gland | TSH 2.3
+m: A nodule with normal thyroid function is assessed by ultrasound to decide on aspiration
+g: Euthyroid thyroid nodule: ultrasound first
+f: TSH suppressed with a single nodule => Thyroid scintigraphy
+
+@o-p2018-017
+c: too old to engage with it effectively
+m: Treating someone less favourably because of age, a protected characteristic, is discrimination
+g: Withholding care on the basis of age alone is discrimination
+f: the doctor only thinks older people cannot use computers, but has not acted => Stereotyping
+
+@o-p2018-018
+c: Potassium 6.2 | Creatinine 90 | BP is 138/78 mmHg
+m: A delayed or haemolysed sample can leak potassium from red cells
+g: Unexpected high potassium with normal kidneys: repeat the sample first
+f: repeat potassium is still 6.2 => Reduce dose of ramipril
+
+@o-p2018-019
+c: predominantly affecting her feet | worst in the morning and gradually improves
+m: Rheumatoid arthritis causes inflammatory small-joint pain; anti-CCP is the most specific test
+g: Inflammatory small-joint arthritis: anti-CCP confirms rheumatoid
+f: malar rash, mouth ulcers and low platelets => Anti-double-stranded DNA antibodies
+
+@o-p2018-020
+c: using cocaine shortly before | ST elevation in the lateral leads
+m: Cocaine blocks noradrenaline reuptake, so the coronary arteries go into spasm
+g: Chest pain with ST elevation just after cocaine is coronary spasm
+f: years of heavy cocaine use with a coronary thrombus on angiography => Rupture of pre-existing arterial plaques
+
+@o-p2018-021
+c: drowsiness and confusion | returning from visiting his grandparents in Malawi | parasites visible
+m: Falciparum makes red cells stick in brain vessels, causing cerebral malaria
+g: Cerebral signs after Africa is falciparum malaria
+f: mild fever every 48 hours after India, relapsing months later => Plasmodium vivax
+f: a chancre then sleeping sickness after a tsetse fly bite => Trypanosoma brucei
+
+@o-p2018-022
+c: superior to the testis | transilluminates | well-defined
+m: A fluid-filled cyst of the epididymis lies above and separate from the testis
+g: Separate from the testis, above it and transilluminating is an epididymal cyst
+f: the swelling surrounds the testis so it cannot be felt separately => Hydrocoele
+f: hard, non-transilluminating lump within the testis => Testicular tumour
+
+@o-p2018-023
+c: right hemicolectomy | 6 months ago | Dukes' A (T1, N0) | abdomen is distended
+m: Bands of scar tissue after surgery kink the small bowel
+g: Obstruction after previous abdominal surgery, with early cancer, is adhesions
+f: within the first week after surgery with fever and peritonism => Anastomotic leak
+
+@o-p2018-024
+c: left ventricular systolic dysfunction | 70 kg | nil by mouth
+m: Maintenance is 25 to 30 mL/kg a day, reduced to about 20 to 25 mL/kg in heart failure
+g: 25 mL/kg × 70 kg is 1750 mL
+
+@o-p2018-025
+c: 4 days after a fractured neck of femur repair | seen strange men in black capes | punched nurses
+m: Delirium after surgery causes fluctuating confusion and hallucinations; a small dose of haloperidol calms dangerous distress
+g: Delirium with risk to others after de-escalation: low-dose haloperidol
+f: confused because of alcohol withdrawal on day 2 => Chlordiazepoxide hydrochloride
+
+@o-p2018-026
+c: base of her right thumb | first carpometacarpal joint | No other joints are painful
+m: Wear and tear of the thumb base is a classic site of osteoarthritis
+g: Isolated first CMC joint pain in an older woman is osteoarthritis
+f: pain over the radial styloid with a positive Finkelstein test => De Quervain's tenosynovitis
+f: swollen MCP joints with morning stiffness over an hour => Rheumatoid arthritis
+
+@o-p2018-027
+c: double vision, limb weakness and slurred speech when tired | weak cough | accessory muscles
+m: Myasthenic crisis weakens the breathing muscles; saturations stay normal until late
+g: Neuromuscular weakness: monitor FVC
+f: asthma attack with wheeze => Peak expiratory flow rate
+
+@o-p2018-028
+c: temperature is 39.6°C | BP 90/40 mmHg | obstructing proximal left ureteric stone with severe hydronephrosis
+m: An infected, blocked kidney is an abscess under pressure; it must be drained
+g: Obstructed infected kidney: urgent nephrostomy
+f: no fever and the stone is small => Lithotripsy
+f: an infected obstructed kidney where retrograde access is easy and safe => Ureteric stent
+
+@o-p2018-029
+c: 19 year old man | smokes cannabis | reduced breath sounds at the right apex | trachea is central
+m: Smoking cannabis damages the apical lung, letting air leak into the pleura
+g: One-sided apical reduced breath sounds with pleuritic pain is pneumothorax
+f: pleuritic pain with a raised D-dimer and a clear X-ray => Pulmonary embolism
+f: central crushing chest pain after cocaine with ST elevation => Coronary artery spasm
+
+@o-p2018-030
+c: pulse rate is 30 bpm | BP 70/40 mmHg | sinus bradycardia
+m: Atropine blocks vagal slowing of the sinus node
+g: Unstable bradycardia: atropine 500 micrograms first
+f: no response to atropine and isoprenaline is not working, needing a pacing bridge => Adrenaline/epinephrine
+
+@o-p2018-031
+c: acute pain, redness, swelling | allopurinol | eGFR is >60
+m: An acute flare is treated with an anti-inflammatory; allopurinol is continued
+g: Gout flare on allopurinol with normal kidneys: naproxen
+f: allopurinol causes a severe rash => Change allopurinol to febuxostat

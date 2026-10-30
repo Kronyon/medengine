@@ -1,0 +1,146 @@
+@o-mla1-001
+c: 24 year old man | poor urine flow | non-gonococcal urethritis 1 year ago
+m: Urethritis heals with scar tissue that narrows the urethra, so the stream is slow and emptying takes long
+g: Young man with a past urethral infection and a weak stream only, no urgency
+f: over 60 with nocturia, hesitancy and a smooth enlarged prostate => Prostatic hypertrophy
+f: urgency and frequency with leaking but a normal flow => Overactive bladder
+f: spinal cord injury or multiple sclerosis with a large residual volume => Neurogenic bladder
+
+@o-mla1-002
+c: aortic stenosis, valve gradient 50 mmHg | LV ejection fraction 45%
+m: A tight valve makes the ventricle pump against high pressure until it starts to fail
+g: Severe gradient with falling ejection fraction means replace the valve, even without symptoms
+f: mild gradient, normal ventricle and no symptoms => Clinical review and echocardiography in 6 months
+f: only aortic sclerosis with a normal gradient => Reassure and discharge
+
+@o-mla1-003
+c: worse on exercise | voice progressively becomes weaker | bilateral ptosis
+m: Antibodies block acetylcholine receptors, so muscles tire with repeated use
+g: Fatigable weakness with ptosis is myasthenia gravis, an autoimmune disease
+f: proximal weakness that improves with effort in a heavy smoker => Malignancy
+f: sudden one-sided weakness with a facial droop => Infarction
+
+@o-mla1-004
+c: 6 months of dry cough | non-smoker | finger clubbing | bibasal crepitations
+m: Scarring stiffens the lower lobes, so oxygen falls and fine crackles appear at the bases
+g: Slow dry cough, clubbing and basal crackles in an older adult with no exposure is IPF
+f: bird keeper or farmer whose breathing improves away from work => Extrinsic allergic alveolitis
+f: daily cups of purulent sputum for years => Bronchiectasis
+f: heavy smoker with weight loss and haemoptysis => Lung carcinoma
+
+@o-mla1-005
+c: unable to walk on his left heel | tingling in his left big toe | loss of pinprick perception over the left great toe
+m: A disc presses on one root, weakening its muscles and numbing its patch of skin
+g: Weak heel walking and a numb big toe is the L5 root
+f: cannot stand on tiptoe, lost ankle jerk and numb lateral foot => S1
+f: weak knee extension, lost knee jerk and numb medial shin => L3
+
+@o-mla1-006
+c: metal mitral valve replacement | INR is 5.1 | no signs of bleeding
+m: Too much warfarin raises bleeding risk, but stopping it fully risks a valve clot
+g: INR 5 to 8 with no bleeding: withhold 1 to 2 doses and restart lower
+f: INR over 8 and still no bleeding => Give vitamin K orally
+f: a major bleed such as melaena or an intracranial bleed, at any INR => Give vitamin K intravenously
+f: INR just above target, under 5, with no bleeding => Continue warfarin at lower dose
+
+@o-mla1-007
+c: severe epigastric pain, radiating to his back | vomited several times | 60 units of alcohol a week
+m: Alcohol triggers pancreatic enzymes to digest the gland, leaking amylase into the blood
+g: Epigastric pain through to the back after heavy drinking is pancreatitis, confirmed by amylase over 3 times normal
+f: right upper quadrant pain after fatty meals with a normal amylase => Ultrasound scan of abdomen
+f: free gas under the diaphragm suspected, sudden rigid abdomen => Abdominal X-ray
+
+@o-mla1-008
+c: type 1 diabetes | BP 90/60 mmHg | Blood capillary ketones 6.2 mmol/L | Venous pH 7.15
+m: Insulin lack burns fat into ketones and glucose drags water out through the urine, leaving the patient dry and acidotic
+g: DKA with low BP: fluid first, before insulin
+f: BP restored after the fluid bolus => Intravenous insulin
+f: DKA resolved, eating and drinking again => Subcutaneous insulin
+
+@o-mla1-009
+c: trapped for 12 hours without water | BP 90/42 mmHg | Urea 25.1 | Creatine kinase 840
+m: No water for 12 hours shrinks the blood volume, so the kidneys are underfilled
+g: CK only mildly raised and urea high out of proportion to creatinine: pre-renal from dehydration
+f: CK in the tens of thousands with dark brown urine => Rhabdomyolysis
+f: palpable bladder and a large residual on scan => Bladder outflow obstruction
+f: fever, high white cell count and a source of infection => Sepsis
+
+@o-mla1-010
+c: HIV positive | modified Ziehl–Neelsen stain
+m: In low CD4 counts, Cryptosporidium causes long watery diarrhoea; its oocysts are acid-fast
+g: Acid-fast protozoa in stool of someone with HIV is Cryptosporidium
+f: fever with red cells containing ring forms after travel => Plasmodium falciparum
+f: swimming in African fresh water, then blood in the urine or stool => Schistosoma mansoni
+
+@o-mla1-011
+c: carotid surgery 2 days ago | tongue deviates to the right
+m: A damaged hypoglossal nerve leaves that side of the tongue weak, so the tongue is pushed towards it
+g: The tongue points towards the side of the lesion
+f: the tongue deviates to the left after left-sided surgery => Left hypoglossal nerve
+f: hoarse voice with a weak cough and uvula pulled away from the lesion => Left vagus nerve
+
+@o-mla1-012
+c: zig-zagging and flashing lights in both eyes | last approximately half an hour | nausea and vomiting
+m: A wave of cortical depression crosses the visual cortex, causing a spreading aura, then a headache
+g: Fully reversible visual aura lasting under an hour with headache and vomiting is migraine
+f: sudden loss of vision with a curtain and new floaters in one eye => Retinal detachment
+f: painful red eye with a fixed mid-dilated pupil and halos => Acute glaucoma
+f: brief coloured circles lasting seconds to a few minutes, then a seizure => Occipital lobe epilepsy
+
+@o-mla1-013
+c: severe left sided headache and eye pain | left eye is red | left pupil is dilated
+m: The iris blocks the drainage angle, so eye pressure rises rapidly
+g: Painful red eye with a fixed dilated pupil: measure the intraocular pressure
+f: over 50 with jaw pain and a tender temporal artery => Erythrocyte sedimentation rate
+f: gritty painful eye after a scratch or contact lens wear => Fluorescein staining of the cornea
+
+@o-mla1-014
+c: absent ankle jerks and extensor plantars | Romberg's test is positive | reduced vibration sense
+m: B12 lack damages the dorsal columns and corticospinal tracts as well as the peripheral nerves
+g: Mixed upper and lower motor neurone signs with lost vibration and position sense is subacute combined degeneration
+f: glove and stocking pain with normal reflexes upstairs and a high blood sugar => HbA 1c
+f: weakness, a high ESR and a paraprotein suggested => Serum protein electrophoresis
+
+@o-mla1-015
+c: recurrent itchy rash | lasts for several hours before resolving | does not want any treatments that may affect her level of alertness
+m: Mast cells release histamine, causing weals that clear within 24 hours
+g: Urticaria in someone who must stay alert needs a non-sedating antihistamine
+f: no concern about drowsiness and itch keeping her awake at night => Oral chlorphenamine maleate
+f: a dry, scaly, itchy rash that lasts for weeks => Topical hydrocortisone
+
+@o-mla1-016
+c: pain is worse when she changes her gaze direction | 'count fingers only' | left pupil dilates when a bright light is moved | optic discs are normal
+m: Inflammation of the optic nerve behind the eye blocks signals, so vision drops and the pupil reacts poorly
+g: Painful eye movements, a relative afferent defect and a normal disc in a young woman is retrobulbar optic neuritis
+f: painful red eye with a fixed mid-dilated pupil and a hazy cornea => Acute closed angle glaucoma
+f: over 50 with jaw pain on chewing and a pale swollen disc => Giant cell arteritis
+f: overweight woman with headaches and bilateral swollen discs => Idiopathic intracranial hypertension
+
+@o-mla1-017
+c: around her right eye | a few vesicles | no significant medical history | Treatment is started
+m: Shingles in the ophthalmic nerve heals well when antivirals are started early
+g: Prompt antiviral treatment in a healthy middle-aged woman usually clears completely
+f: vesicles on the tip of the nose and a red, painful eye that are not treated => Reduced visual acuity
+f: a dendritic ulcer on fluorescein from herpes simplex => Corneal ulceration
+
+@o-mla1-018
+c: rheumatoid arthritis | due to commence methotrexate weekly
+m: Methotrexate blocks folate use, causing mouth ulcers, low counts and liver damage
+g: Every methotrexate prescription comes with weekly folic acid on a different day
+f: a long course of prednisolone with fracture risk => Calcium carbonate
+f: starting isoniazid for tuberculosis => Pyridoxine hydrochloride
+
+@o-mla1-019
+c: wasting of both legs and the hands | fasciculation in her right quadriceps | brisk reflexes
+m: Upper and lower motor neurones die together, mixing wasting and fasciculation with brisk reflexes
+g: Mixed upper and lower motor neurone signs with no sensory loss is motor neurone disease
+f: fatigable weakness with ptosis and double vision => Myasthenia gravis
+f: slowly progressive weakness with absent reflexes and sensory loss => Chronic inflammatory demyelinating polyneuropathy
+f: proximal weakness with a raised CK and muscle pain => Polymyositis
+
+@o-mla1-020
+c: pitting oedema to mid thigh | protein 4+ | Albumin 21 | Urinary protein creatinine ratio 1100
+m: Heavy protein loss lowers albumin, so fluid leaks into the tissues
+g: Gross oedema from nephrotic syndrome needs a loop diuretic first
+f: oedema cleared but proteinuria persists => Candesartan cilexetil
+f: a child with minimal change disease on biopsy => Prednisolone

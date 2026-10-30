@@ -66,13 +66,13 @@ AN = [
     (r'parathyroid hormone|PTH', 'PTH', 'pmol/L', '1.6–8.5'),
 ]
 UNITS = r'(?:× 10⁹/L|mmol/L|mmol/mol|g/L|g/dL|U/L|IU/L|µmol/L|μmol/L|umol/L|mg/L|ng/L|µg/L|nmol/L|pmol/L|mU/L|kPa|fL|mm/hr|seconds|mOsmol/kg|mOsm/kg|mL/min(?:/1\.73 ?m²|/1\.73m2)?|(?:×|x) ?10\^?9?⁹?/L)'
-NOISE = re.compile(r'\b(fluid|CSF|urine|urinary|ascitic|pleural|aspirate|synovial|target|goal|aim|threshold|cut-?off|upper limit|lower limit)\b', re.I)
+NOISE = re.compile(r'\b(fluid|CSF|urine|urinary|ascitic|pleural|sweat|faecal|stool|drain|effluent|dialysate|vaginal|conjunctival|tube|aspirate|synovial|target|goal|aim|threshold|cut-?off|upper limit|lower limit)\b', re.I)
 FILL = re.compile(r'\b(her|his|the|a|an|and|with|shows?|showed|show|results?|blood|bloods|tests?|investigations?|serum|plasma|are|is|was|were|of|on|admission|reveal|reveals|breathing|air|arterial|gas|venous|level|levels|count)\b|[\s,.;:]', re.I)
 
 
 def _rx(name):
     return re.compile(r'(?<![\w/])(?:(?:her|his|the|a|an|serum|plasma)\s+)?(' + name + r')(?:\s+(?:level|levels|concentration|count))?'
-                      r'(?:\s+(?:is|was|are|of|now|has fallen to|rose to|has risen to|:)){0,2}\s*(?:of\s+)?(-?\d+(?:\.\d+)?)\s*(' + UNITS + r')?'
+                      r'(?:\s+(?:is|was|are|of|now|has fallen to|rose to|has risen to|:)){0,2}\s*(?:of\s+)?(-?\d{1,3}(?:,\d{3})+(?:\.\d+)?|-?\d+(?:\.\d+)?)(?!,\d)\s*(' + UNITS + r')?'
                       r'(?!\s*(?:to|-|–)\s*\d)(?![\d/%])(?!\.\d)(?:\s*\(\s*([<>≤≥]?\s*\d[\d.]*(?:\s*[-–]\s*[\d.]+)?)\s*\))?', re.I)
 
 
@@ -122,8 +122,8 @@ EXAM = re.compile(r'\b(temperature|pulse|heart rate|\bBP\b|blood pressure|mmHg|b
 def _obs(t):
     t = re.sub(r'(\d+(?:\.\d)?) ?°C', r'\1°C', t)
     t = re.sub(r'\b(?:heart rate|pulse rate|pulse)( is| of)? (\d{2,3})(?: ?bpm)?\b', r'pulse rate\1 \2 bpm', t)
-    t = re.sub(r'\bblood pressure( is| of)? (\d{2,3}/\d{2,3})(?: ?mmHg)?', r'BP\1 \2 mmHg', t)
-    t = re.sub(r'\bBP( is| of)? (\d{2,3}/\d{2,3})(?! ?mmHg)', r'BP\1 \2 mmHg', t)
+    t = re.sub(r'\bblood pressure( is| of)? (\d{2,3}/\d{2,3})(?!\d)(?: ?mmHg)?', r'BP\1 \2 mmHg', t)
+    t = re.sub(r'\bBP( is| of)? (\d{2,3}/\d{2,3})(?!\d)(?! ?mmHg)', r'BP\1 \2 mmHg', t)
     t = re.sub(r'\brespiratory rate( is| of)? (\d{1,2})(?: ?/min| breaths per minute| breaths/min)?\b', r'respiratory rate\1 \2 breaths per minute', t)
     t = re.sub(r'\b(?:oxygen saturations?|saturations|sats)( are| is| of)? (\d{2,3}) ?%', lambda m: 'SpO2' + (' is' if m.group(1) else '') + ' ' + m.group(2) + '%', t)
     return t
@@ -170,7 +170,28 @@ def fmt(q):
     pre, post, tab_at = [], [], None   # lists of paragraphs, each a list of sentences
     for para in [p for p in s.split('\n') if p.strip()] if explicit else [s]:
         cur_pre, cur_post = [], []
-        for x in [_obs(x) for x in _sentences(para)]:
+        sents = [_obs(x) for x in _sentences(para)]
+        if tab_at is None and explicit:
+            # v2.7.3: a paragraph made only of results ("Haemoglobin 102 g/L. MCV 74 fL. Ferritin 9 µg/L.") is the table
+            rows, ok = [], True
+            for x in sents:
+                x = re.sub(r'\bInvestigations?:\s*', '', x); hs = _matches(x); left = x
+                for h in reversed(hs): left = left[:h[0]] + left[h[1]:]
+                if not hs or len(FILL.sub('', re.sub(r'\([^)]*\)', '', left))) > 12: ok = False; break
+                at = 0
+                for h in hs:
+                    # the stem's own label keeps qualifiers such as capillary, venous or adjusted
+                    seg = x[at:h[0] + x[h[0]:h[1]].find(h[3])] if h[3] in x[h[0]:h[1]] else ''
+                    nm = re.sub(r'^[\s,;:.]*(?:and\s+)?', '', seg).strip(' ,;:')
+                    nm = (nm if nm.startswith('pH') else nm[0].upper() + nm[1:]) if 2 <= len(nm) <= 40 else h[2][1]
+                    rows.append((nm, h)); at = h[1]
+            if ok and len(rows) >= 3:
+                for nm, h in rows:
+                    a = h[2]; unit = h[4] or a[2]
+                    lab.append([nm, (h[3] + (' ' + unit if unit else '')).strip(), h[5] or _range(a, sex)])
+                tab_at = len(pre)
+                continue
+        for x in sents:
             x = re.sub(r'\bInvestigations?:\s*', '', x) if tab_at is None and len(_matches(x)) >= 3 else x
             hs = _matches(x)
             left = x

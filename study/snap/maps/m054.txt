@@ -1,0 +1,124 @@
+@h0591
+c: above her left clavicle | lost 5 kg | indigestion and early fullness
+m: The thoracic duct drains into the left neck, so abdominal cancers spread to the left supraclavicular node
+g: A left supraclavicular node with dyspepsia and weight loss suggests gastric cancer
+f: night sweats with rubbery nodes in a young adult => Hodgkin lymphoma
+f: a hoarse voice in a heavy smoker => Laryngeal cancer
+
+@h0592
+c: stopped long-term prednisolone | abruptly | 78/50 mmHg standing | Sodium 128
+m: Long-term steroids suppress the adrenals; stopping suddenly leaves no cortisol
+g: Suspected adrenal insufficiency: short synacthen test
+f: suspected cortisol excess => Dexamethasone suppression test
+f: episodic headaches, sweating and palpitations => Urine metanephrines
+
+@h0593
+c: 9am cortisol is 600
+m: A high morning cortisol shows the adrenals are working
+g: A 9am cortisol of 600 makes Addison's very unlikely
+
+@h0594
+c: adrenal gland or the pituitary
+m: In primary failure the pituitary drives ACTH high, causing pigmentation
+g: A high ACTH means primary adrenal failure
+
+@h0595
+c: 142/80 mmHg lying and 115/72 mmHg after 3 minutes standing
+m: A drop of 20 systolic or 10 diastolic within 3 minutes defines orthostatic hypotension
+g: A 27 mmHg systolic fall on standing is orthostatic hypotension
+f: a drop of only 10 systolic => Normal
+
+@h0596
+c: doxazosin | 148/78 mmHg lying and 118/64 mmHg
+m: Alpha-blockers dilate vessels and cause postural falls
+g: Postural falls on an alpha-blocker: stop doxazosin first
+f: no drug cause with Parkinson's autonomic failure => Start midodrine
+
+@h0597
+c: amlodipine 10 mg | JVP is not raised | Albumin and urine dipstick are normal
+m: Amlodipine dilates arterioles, raising capillary pressure; diuretics do not help
+g: Ankle oedema on amlodipine: replace the amlodipine
+f: a postural drop with falls on indapamide => Stop indapamide
+
+@h0598
+c: burning pain | electric shocks | bed sheets is painful | stocking distribution
+m: Damaged nerves fire spontaneously and make touch painful
+g: Burning, shooting pain with allodynia and sensory loss is neuropathic
+f: aching pain over an arthritic joint worse with use => Nociceptive
+
+@h0599
+c: laparoscopic cholecystectomy yesterday | tip of his right shoulder | full range of movement
+m: Gas irritates the diaphragm, supplied by C3 to C5, which also supply the shoulder skin
+g: Shoulder tip pain after laparoscopy is referred pain from the diaphragm
+f: pain felt in a limb that has been amputated => Phantom pain
+
+@h0600
+c: not below the knee | no numbness, weakness | Straight leg raise is negative
+m: Pain from spinal joints and discs spreads vaguely without a nerve root pattern
+g: Vague buttock and thigh pain above the knee with normal neurology is somatic referred pain
+f: shooting pain below the knee in a dermatome with a positive straight leg raise => Radicular pain
+
+@h0601
+c: every summer | cetirizine has helped only a little | pale and swollen
+m: Intranasal steroids reduce allergic inflammation in the nose
+g: Persistent allergic rhinitis: intranasal corticosteroid
+
+@h0602
+c: decongestant nasal spray several times a day for 6 weeks | works for shorter and shorter periods
+m: Topical decongestants cause rebound vasodilation and congestion
+g: Rebound blockage after weeks of decongestant spray is rhinitis medicamentosa
+f: bilateral polyps with loss of smell and asthma => Nasal polyposis
+f: seasonal sneezing with itchy eyes => Allergic rhinitis
+
+@h0603
+c: important exams in 2 weeks | uses an intranasal corticosteroid and an oral antihistamine correctly
+m: A short oral steroid course controls symptoms for an important event
+g: Severe hay fever before exams despite treatment: a short course of oral prednisolone
+
+@h0604
+c: 80 µmol/L | 200 µmol/L | 0.6 mL/kg/hour
+m: KDIGO stages AKI by the rise from baseline creatinine
+g: Creatinine 2.5 times baseline is stage 2 AKI
+f: creatinine rises to 260 => Stage 3
+f: creatinine rises to 130 => Stage 1
+
+@h0605
+c: Urine sodium 10 | Urine osmolality 650 | bland
+m: Underperfused but healthy kidneys hold on to sodium and concentrate urine
+g: Low urine sodium with concentrated urine and a bland sediment is pre-renal AKI
+f: urine sodium of 60 with muddy brown casts => Acute tubular necrosis
+f: hydronephrosis on ultrasound => Post-renal obstruction
+
+@h0606
+c: omeprazole | 10 days ago | Eosinophils raised | white cells and eosinophils with no casts
+m: A drug triggers an allergic inflammation of the kidney interstitium
+g: Fever, rash, eosinophilia and AKI after a new drug is acute interstitial nephritis
+f: AKI with blood and protein in the urine and low complement => Glomerulonephritis
+f: AKI after a contrast CT => Contrast nephropathy
+
+@h0607
+c: Pakistan | fever that has risen each day | constipation | pulse rate 64 bpm | faint pink macules
+m: Salmonella Typhi invades the gut lymphatics and blood, with a slow pulse for the fever
+g: Stepwise fever with relative bradycardia, rose spots and a spleen tip is typhoid
+f: fever with rash and low platelets after South-East Asia => Dengue
+f: parasites on the blood films => Malaria
+
+@h0608
+c: Nigeria | did not take malaria prophylaxis | fever, rigors
+m: Falciparum malaria can kill within days, so it is excluded first
+g: Febrile traveller from Africa: thick and thin blood films
+f: films negative with a rash and low platelets after Thailand => Dengue serology
+
+@h0609
+c: Bangladesh | Sensitivity results are not yet available
+m: Many South Asian typhoid strains resist quinolones
+g: Typhoid from South Asia before sensitivities: ceftriaxone
+f: the strain is shown to be quinolone sensitive => Ciprofloxacin
+
+@h0610
+c: sunny holiday | not tanned like the surrounding skin | scraping makes the scale more obvious
+m: Malassezia yeast stops the skin tanning, leaving pale scaly patches
+g: Pale scaly patches on the upper trunk after sun is pityriasis versicolor
+f: completely white patches with no scale on the hands and face => Vitiligo
+f: pale scaly patches on a child's face with eczema => Pityriasis alba
+f: a herald patch then a Christmas tree rash => Pityriasis rosea

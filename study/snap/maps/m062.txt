@@ -1,0 +1,111 @@
+@h0751
+c: Gram-negative intracellular diplococci | Sensitivities are not yet known
+m: Gonorrhoea is widely resistant to quinolones; ceftriaxone still works
+g: Gonorrhoea before sensitivities: ceftriaxone 1 g IM
+f: chlamydia instead => Doxycycline
+
+@h0752
+c: urinary infection 2 weeks ago | C. difficile toxin
+m: Broad-spectrum antibiotics wipe out gut flora and let C. difficile grow
+g: Cephalosporins are most associated with C. difficile
+
+@h0753
+c: sodium valproate | meropenem | not missed any valproate doses
+m: Carbapenems make valproate levels fall sharply
+g: A seizure on valproate after starting meropenem: a fall in valproate level
+f: a sodium of 118 => Hyponatraemia from sepsis
+
+@h0754
+c: citalopram | amiodarone | QTc of 470
+m: Macrolides prolong the QT and add to other QT drugs
+g: Highest QT risk: clarithromycin
+
+@h0755
+c: 20 weeks pregnant | rash and lip swelling after penicillin | CURB-65 score is 0
+m: Erythromycin is the macrolide preferred in pregnancy
+g: Pneumonia in pregnancy with penicillin allergy: erythromycin
+f: not pregnant => Clarithromycin
+
+@h0756
+c: five exacerbations | stopped smoking 5 years ago | normal QTc | no bronchiectasis
+m: Long-term azithromycin reduces COPD exacerbations
+g: Frequent exacerbations despite optimal care in a non-smoker: prophylactic azithromycin
+
+@h0757
+c: doxycycline
+m: A tablet stuck in the oesophagus can ulcerate it
+g: Take doxycycline upright with water
+
+@h0758
+c: doxycycline | no fever | sun-exposed skin only
+m: Tetracyclines make the skin sensitive to sunlight
+g: Severe sunburn on doxycycline is photosensitivity
+f: fever and rigors after a malaria area => Malaria
+f: itchy papules on sun-exposed skin each spring => Polymorphic light eruption
+
+@h0759
+c: tick bite | New Forest | expanding 8 cm red ring with central clearing | no joint pain or facial weakness
+m: Erythema migrans is diagnostic of Lyme disease without testing
+g: Erythema migrans: doxycycline for 21 days
+
+@h0760
+c: myasthenia gravis
+m: Aminoglycosides block neuromuscular transmission
+g: Myasthenia gravis: avoid gentamicin
+
+@h0761
+c: Twenty minutes into the infusion | face, neck and upper chest | no wheeze, lip swelling or stridor
+m: Rapid vancomycin releases histamine directly, not via IgE
+g: Vancomycin flushing without anaphylaxis: slow the infusion rate
+f: wheeze, swelling and low blood pressure => Give adrenaline IM
+
+@h0762
+c: above the line
+m: A high level means slow clearance and risk of toxicity
+g: Gentamicin level above the line: extend the dosing interval
+f: level in the 24-hour zone => Give the next dose as planned
+
+@h0763
+c: prednisolone | ciprofloxacin | Achilles tendon | Simmonds' test is normal
+m: Quinolones damage tendons, more so with steroids and age
+g: Achilles pain after a quinolone in an older patient on steroids is tendinopathy
+f: heel pain worst on the first steps in the morning => Plantar fasciitis
+f: a hot swollen big toe => Gout
+
+@h0764
+c: epilepsy | lamotrigine
+m: Quinolones lower the seizure threshold
+g: Epilepsy with a UTI: avoid ciprofloxacin
+
+@h0765
+c: perineal pain | tender, boggy, warm prostate
+m: Quinolones penetrate the prostate well
+g: Acute bacterial prostatitis: ciprofloxacin for 14 days
+
+@h0766
+c: metronidazole | wedding
+m: Metronidazole with alcohol causes a disulfiram-like reaction
+g: Metronidazole: avoid alcohol
+f: prescribed doxycycline instead => Avoid sunlight
+
+@h0767
+c: fishy-smelling | no itch or soreness | clue cells
+m: Anaerobes replace lactobacilli, raising pH and causing a fishy discharge
+g: Thin grey fishy discharge with clue cells is bacterial vaginosis: oral metronidazole
+f: thick white itchy discharge with a normal pH => Clotrimazole pessary
+
+@h0768
+c: toxic shock syndrome
+m: Clindamycin blocks bacterial protein synthesis, switching off toxin production
+g: Clindamycin is added to stop toxin production
+
+@h0769
+c: methotrexate weekly | trimethoprim
+m: Both drugs block folate pathways
+g: Methotrexate with trimethoprim risks pancytopenia
+
+@h0770
+c: ramipril and spironolactone | Potassium 5.3
+m: Trimethoprim blocks potassium excretion like amiloride
+g: UTI with high-normal potassium on RAAS drugs: nitrofurantoin
+f: potassium of 4.0 with no RAAS drugs => Trimethoprim

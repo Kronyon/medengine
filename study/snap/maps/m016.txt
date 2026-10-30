@@ -1,0 +1,131 @@
+@o-p2019-022
+c: room is constantly spinning | hearing has not changed | does not fatigue
+m: A virus inflames the vestibular nerve, causing continuous vertigo without hearing loss
+g: Continuous vertigo for hours to days, no hearing loss and one-way nystagmus is vestibular neuronitis
+f: brief spins lasting under a minute on rolling over => Benign positional vertigo
+f: episodes lasting hours with low-tone hearing loss and fullness => Ménière's disease
+f: vertigo with headache and photophobia, recurring with a migraine history => Vestibular migraine
+
+@o-p2019-023
+c: occasional central chest tightness when he walks up hills | 5 km race
+m: Exertional chest tightness suggests angina; vigorous exercise could trigger an MI
+g: Exertional chest pain must be investigated before starting training
+f: BP 190/110 with no symptoms => BP >160/90 mmHg
+
+@o-p2019-024
+c: one episode of visible haematuria | 75 year old man | no microbial growth
+m: Visible haematuria over 45 without infection may be bladder cancer
+g: Unexplained visible haematuria at 45 or over: urgent urology referral
+f: dysuria and nitrites with a positive culture => Repeat midstream urine sample for culture and sensitivity
+
+@o-p2019-025
+c: wasting of all the intrinsic muscles of the right hand | ulnar aspect of the forearm | Finger flexion is normal
+m: T1 supplies all the small hand muscles and the skin of the inner forearm
+g: Intrinsic hand wasting with inner forearm sensory loss and normal reflexes is T1
+f: wasting of the hypothenar and interossei with numbness of the little finger only => Ulnar nerve at the elbow
+f: thenar wasting with numb thumb, index and middle fingers worse at night => Median nerve in the wrist
+
+@o-p2019-026
+c: mixed growth of organisms with no leucocytes | temperature is 36.2°C
+m: Skin and perineal organisms enter a poorly collected sample
+g: Mixed growth with no white cells and no symptoms is contamination
+f: dysuria and frequency with leucocytes and a single organism => Cystitis
+f: faecal matter and gas in the urine after diverticulitis => Colovesical fistula
+
+@o-p2019-027
+c: shoulder and hip pain and stiffness | no muscle tenderness | Erythrocyte sedimentation rate 85 | Creatine kinase 110
+m: Girdle inflammation responds dramatically to low-dose steroids
+g: Polymyalgia rheumatica with a normal CK: prednisolone
+f: symmetrical swollen small joints over weeks with positive anti-CCP => Sulfasalazine
+
+@o-p2019-028
+c: severe abdominal pain | ascites | temperature is 37.6°C | abdomen is diffusely tender
+m: Bacteria cross into ascites in cirrhosis; diagnosis needs a neutrophil count from the fluid
+g: Ascites with new pain and fever: diagnostic ascitic tap for SBP
+f: no pain or fever, and the cause of the liver disease is unknown => Hepatitis serology
+
+@o-p2019-029
+c: painful, red and watery left eye | Visual acuity is 6/24 on the left
+m: A red eye with reduced vision and pain can be keratitis, uveitis or glaucoma
+g: Painful red eye with reduced vision: emergency eye referral
+f: sticky discharge, normal vision and no pain => Prescribe chloramphenicol eye drops
+f: itchy, watery eyes in hay fever season with normal vision => Prescribe sodium cromoglicate eye drops
+
+@o-p2019-030
+c: metastatic prostate cancer | Power is 2/5 | bilateral extensor plantar reflexes | urinary incontinence
+m: Steroids reduce swelling around the compressed cord while MRI and definitive treatment are arranged
+g: Metastatic cord compression: dexamethasone 16 mg straight away
+f: after MRI shows a single compressing level in a fit man with a good prognosis => Spinal decompression
+
+@o-p2019-031
+c: triple assessment
+m: Three independent tests together miss very few cancers
+g: Examination, imaging and core biopsy
+
+@o-p2019-032
+c: Afro-Carribbean | 164/105 mmHg | taking no medication
+m: ACE inhibitors work less well in Black African or Caribbean people; calcium channel blockers work well
+g: Black African or Caribbean family origin: calcium channel blocker first
+f: not of Black African or Caribbean family origin and under 55 => Ramipril
+f: diabetes with albuminuria in a Black African man => Losartan potassium
+
+@o-p2019-033
+c: obtaining smoking histories from women at the time of their first prenatal visit | then assessing birth weight
+m: Exposure is recorded first and the group is followed to the outcome
+g: Exposure first, outcome later: prospective cohort
+f: mothers of low birth weight babies asked about smoking after delivery => Case–control
+
+@o-p2019-034
+c: diarrhoea and vomiting | lithium | coarse tremor | jerking movements of her legs
+m: Dehydration reduces lithium excretion, so levels climb to toxic
+g: Coarse tremor, myoclonus and confusion with vomiting on lithium is lithium toxicity
+f: fever, lead-pipe rigidity and a high CK on risperidone => Neuroleptic malignant syndrome
+f: pinpoint pupils and slow breathing on co-codamol => Opioid toxicity
+
+@o-p2019-035
+c: weight loss, insomnia, and palpitations | bilateral proptosis
+m: Antibodies stimulate the TSH receptor, driving the gland and the tissue behind the eyes
+g: Thyrotoxicosis with eye disease is Graves': TSH receptor antibodies
+f: a single hot nodule on a scan with no eye signs => Autonomous activity of thyroid follicular cells
+f: a painless goitre with hypothyroidism => Destruction of thyroid cells by lymphocytes
+
+@o-p2019-036
+c: Antimitochondrial antibodies 1:320 | ALP 302 | no biliary dilatation | xanthelasma
+m: Autoimmune destruction of small bile ducts causes cholestasis; ursodeoxycholic acid slows it
+g: Cholestasis with positive AMA is primary biliary cholangitis: ursodeoxycholic acid
+f: very high ALT with smooth muscle antibodies and raised IgG => Prednisolone
+f: confusion, ataxia and eye signs in a heavy drinker => Thiamine
+
+@o-p2019-037
+c: vomiting and diarrhoea | postural BP drop of 30 mmHg | Urea 25.6
+m: Gut losses empty the circulation; a sodium-containing crystalloid refills it
+g: Hypovolaemia: 0.9% sodium chloride
+f: well hydrated, nil by mouth and needing maintenance only => 4% glucose, 0.18% sodium chloride
+
+@o-p2019-038
+c: 30 year old man | BP is 220/130 mmHg | Potassium 3.0
+m: Excess aldosterone holds sodium and wastes potassium, raising BP
+g: Young severe hypertension with low potassium is primary aldosteronism
+f: episodes of headache, sweating and palpitations with labile BP => Phaeochromocytoma
+f: central obesity, purple striae and proximal weakness => Cushing's disease
+
+@o-p2019-039
+c: multiple pelvic fractures and compound fractures of both tibia | 24 hours earlier | confused and disorientated | oxygen saturation 85% | chest is clear
+m: Fat from broken long bones enters the circulation, blocking lung and brain capillaries
+g: Hypoxia and confusion within 24 to 72 hours of long bone fractures is fat embolism
+f: sudden breathlessness a week later with a swollen calf => Pulmonary embolus
+f: pinpoint pupils with slow breathing on the PCA => Opiate toxicity
+
+@o-p2019-040
+c: ventricular fibrillation after three DC shocks
+m: Shock-refractory VF gets adrenaline and amiodarone after the third shock
+g: After the third shock: adrenaline 1 mg and amiodarone 300 mg
+f: torsades de pointes on the monitor => Magnesium sulfate
+f: amiodarone is not available => Lidocaine
+
+@o-p2019-041
+c: large tonsils with exudate | petechial rash on the palate | axillary and inguinal lymphadenopathy | Lymphocytes 5.5
+m: EBV infects B cells, causing tonsillitis, widespread nodes and a lymphocytosis
+g: Teenager with exudative tonsillitis, palatal petechiae and widespread nodes: EBV serology
+f: sore throat with fever and pus on the tonsils but no nodes or lymphocytosis => Throat swab
+f: haematuria and oedema 2 weeks after a sore throat => Anti-streptolysin O titre

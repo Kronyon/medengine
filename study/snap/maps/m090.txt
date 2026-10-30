@@ -1,0 +1,117 @@
+@h1311
+c: tacrolimus | day 2 | does not need oxygen
+m: Ritonavir strongly blocks CYP3A4, sending tacrolimus to toxic levels
+g: Covid antiviral on tacrolimus: sotrovimab
+f: no interacting drugs => Nirmatrelvir plus ritonavir
+
+@h1312
+c: not on the pill | no leg swelling | SpO2 97% | suspicion of PE is low
+m: With low pre-test probability and no PERC criteria, PE is very unlikely
+g: Low suspicion with a negative PERC: no further tests
+f: one PERC criterion is positive => D-dimer
+
+@h1313
+c: Wells score is 1 | D-dimer is positive
+m: A positive D-dimer cannot rule DVT out
+g: DVT unlikely but a positive D-dimer: proximal leg ultrasound
+f: a negative D-dimer => No further tests
+
+@h1314
+c: 28 weeks pregnant | no leg symptoms | Chest X-ray is normal
+m: D-dimer is unreliable in pregnancy; treat while imaging
+g: Suspected PE in pregnancy: LMWH and V/Q or CTPA
+
+@h1315
+c: 70 year old woman | hypertension | no diabetes
+m: CHA2DS2-VASc adds points for age, sex and comorbidities
+g: Age 65 to 74, female and hypertension score 3
+f: she is 76 => 4
+
+@h1316
+c: bleeding risk
+m: ORBIT predicts major bleeding on anticoagulation
+g: Bleeding risk before anticoagulating AF: ORBIT
+f: probability of pulmonary embolism => Wells
+
+@h1317
+c: decide on statin treatment
+m: QRISK3 estimates first events, not risk after an event
+g: QRISK3 is not for someone who has already had an MI
+
+@h1318
+c: opens his eyes only to pain | incomprehensible sounds | withdraws
+m: GCS adds eye, verbal and motor scores
+g: Eyes 2, voice 2, withdrawal 4: GCS 8
+f: he localises to pain instead => 9
+
+@h1319
+c: observations are being scored
+m: NEWS2 gives 3 points to the most abnormal values
+g: A respiratory rate of 25 or more scores 3 by itself
+
+@h1320
+c: type 2 respiratory failure | 88 to 92%
+m: NEWS2 has a separate saturation scale for prescribed lower targets
+g: Hypercapnic failure with a target of 88 to 92%: use SpO2 scale 2
+f: no hypercapnic failure with saturations of 89% => Score 3 on scale 1
+
+@h1321
+c: V1 to V4
+m: The LAD supplies the anterior wall seen in V1 to V4
+g: ST elevation in V1 to V4 is anterior
+f: ST elevation in II, III and aVF => Inferior
+f: ST elevation in I, aVL, V5 and V6 => Lateral
+
+@h1322
+c: at rest | ECG is normal | rises further at 3 hours
+m: A rising troponin shows heart muscle necrosis
+g: Rest pain with a rising troponin and no ST elevation is NSTEMI
+f: rest pain with a normal troponin => Unstable angina
+f: ST elevation in a coronary territory => STEMI
+
+@h1323
+c: viral illness | worse lying down | scratchy sound | saddle-shaped | PR depression
+m: An inflamed pericardium causes positional pain, a rub and widespread concave ST elevation
+g: Pain eased sitting forward with a rub and saddle-shaped ST elevation is acute pericarditis
+f: ST elevation in one territory with reciprocal depression => Anterior STEMI
+f: peaked T waves with a high potassium => Hyperkalaemia
+
+@h1324
+c: 55 year old woman | bloating | felt full quickly
+m: Ovarian cancer presents with vague bloating and early fullness
+g: Persistent bloating in a woman over 50: CA-125
+
+@h1325
+c: right hemicolectomy for colorectal cancer
+m: CEA is too non-specific to diagnose but tracks recurrence
+g: CEA is mainly used to monitor for recurrence
+
+@h1326
+c: hepatitis C cirrhosis | 8 to 240
+m: Hepatocellular carcinoma secretes AFP
+g: A rising AFP in cirrhosis suggests hepatocellular carcinoma
+
+@h1327
+c: 7 hours ago | CT head is normal
+m: Bilirubin forms in CSF about 12 hours after a bleed
+g: Lumbar puncture for xanthochromia: at least 12 hours after onset
+
+@h1328
+c: BMI of 35 | papilloedema | CSF contents are normal
+m: IIH raises CSF pressure with normal contents
+g: IIH is supported by a raised opening pressure
+f: oligoclonal bands in CSF but not serum => Oligoclonal bands
+f: TB meningitis with a very low CSF glucose => Glucose ratio 0.3
+
+@h1329
+c: after a diarrhoeal illness | protein 1.8 | normal cell count
+m: Inflamed nerve roots leak protein without inflammatory cells
+g: High CSF protein with normal cells is albuminocytological dissociation
+f: many lymphocytes in viral meningitis => Lymphocytic pleocytosis
+f: bilirubin in the CSF after a thunderclap headache => Xanthochromia
+
+@h1330
+c: no dysuria, frequency or fever | eating and drinking less
+m: Asymptomatic bacteriuria is common in older people
+g: A positive dipstick without urinary symptoms in an older person: look for other causes
+f: a young woman with dysuria and positive nitrites => Treat as a UTI

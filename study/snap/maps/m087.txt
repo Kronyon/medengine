@@ -1,0 +1,121 @@
+@h1251
+c: no speech | this is new | 37.4°C
+m: New behaviour in someone who cannot speak often means pain or illness
+g: New head banging and food refusal: look for a physical cause first
+f: physical causes excluded and the behaviour continues => Behaviour support plan
+
+@h1252
+c: same time every night | 45 minutes | paces | eye waters | eyelid droops
+m: Hypothalamic activation triggers one-sided pain with trigeminal autonomic features
+g: Nightly one-sided orbital pain with tearing, ptosis and restlessness is cluster headache
+f: a tight band on both sides with no autonomic features => Tension-type headache
+f: electric shocks in the cheek on chewing => Trigeminal neuralgia
+
+@h1253
+c: asthma | may become pregnant
+m: Propranolol is avoided in asthma; topiramate and valproate harm the fetus
+g: Migraine prevention with asthma and possible pregnancy: amitriptyline
+f: no asthma => Propranolol
+
+@h1254
+c: jaw aches when she chews | vision in the left eye became suddenly blurred | ESR 88
+m: GCA blocks the arteries to the optic nerve; vision loss can spread to the other eye
+g: GCA with visual symptoms: high-dose IV methylprednisolone straight away
+
+@h1255
+c: GCS has now fallen to 8 | 190/100 | 46 bpm | irregular
+m: Rising pressure compresses the brainstem, triggering Cushing's response
+g: Hypertension, bradycardia and irregular breathing after head injury is raised intracranial pressure
+f: low blood pressure with a fast pulse => Haemorrhagic shock
+f: low blood pressure with a slow pulse after spinal injury => Neurogenic shock
+
+@h1256
+c: BMI 36 | papilloedema | venography are normal | 34 cm
+m: Acetazolamide cuts CSF production
+g: Idiopathic intracranial hypertension: acetazolamide with weight loss
+
+@h1257
+c: GCS 10 | papilloedema
+m: Raised pressure makes LP dangerous, but antibiotics cannot wait
+g: Meningitis with reduced GCS and papilloedema: antibiotics, then CT head
+f: GCS 15 with no focal signs or papilloedema => Antibiotics, then LP
+
+@h1258
+c: peaked within a minute | worst headache | neck stiffness
+m: Blood in the subarachnoid space causes sudden pain and meningism
+g: A thunderclap headache with neck stiffness is subarachnoid haemorrhage
+f: repeated thunderclaps after starting an SSRI with beaded vessels => Reversible cerebral vasoconstriction syndrome
+f: fever, neck stiffness and a purpuric rash => Bacterial meningitis
+
+@h1259
+c: berry aneurysm
+m: Nimodipine relaxes cerebral vessels and reduces vasospasm
+g: After SAH: nimodipine to prevent delayed ischaemia
+
+@h1260
+c: 5 days ago | dehydrated | Sodium 126 | Urine sodium is high
+m: After SAH the kidneys can waste salt and water
+g: Hypovolaemic hyponatraemia after SAH is cerebral salt wasting: IV 0.9% saline
+f: euvolaemic hyponatraemia with concentrated urine => Fluid restriction
+
+@h1261
+c: drinks heavily | fallen several times | worse on some days | crescent-shaped
+m: Bridging veins tear in shrunken brains after minor falls and bleed slowly
+g: Weeks of fluctuating confusion with a crescent bleed in a drinker is chronic subdural haematoma
+f: a lucid interval with a lens-shaped clot => Extradural haematoma
+
+@h1262
+c: cricket ball | chatting normally | biconvex
+m: The middle meningeal artery runs under the thin pterion
+g: A biconvex bleed with a lucid interval: middle meningeal artery
+f: a crescent-shaped bleed crossing sutures => Bridging veins
+
+@h1263
+c: INR 3.4 | subdural
+m: PCC replaces clotting factors in minutes; vitamin K sustains reversal
+g: Intracranial bleed on warfarin: PCC and IV vitamin K
+f: bleeding on heparin => Protamine sulfate
+
+@h1264
+c: non-blanching purpuric rash | ambulance has been called
+m: Early antibiotics cut deaths from meningococcal disease
+g: Suspected meningococcal disease in the community: IM benzylpenicillin
+
+@h1265
+c: 3 weeks | Somalia | sixth nerve palsy | mainly lymphocytes | protein 2.5
+m: TB meningitis is subacute with a thick basal exudate trapping cranial nerves
+g: Subacute meningitis with lymphocytes, very high protein and low glucose is tuberculous
+f: 1,500 neutrophils with a low glucose => Bacterial meningitis
+f: a positive India ink stain in HIV => Cryptococcal meningitis
+f: lymphocytes with normal glucose and protein => Viral meningitis
+
+@h1266
+c: 72 year old man
+m: Over 60, Listeria is a cause and ceftriaxone does not cover it
+g: Meningitis over 60: add amoxicillin for Listeria
+f: travel to an area with penicillin-resistant pneumococcus => Vancomycin
+
+@h1267
+c: odd behaviour | seizure | no neck stiffness
+m: Untreated HSV encephalitis kills or disables
+g: Suspected HSV encephalitis: IV aciclovir straight away
+f: CMV encephalitis in advanced HIV => IV ganciclovir
+
+@h1268
+c: herpes simplex encephalitis
+m: HSV spreads along the olfactory pathway to the medial temporal lobes
+g: HSV encephalitis changes are in the temporal lobes
+f: lesions in a patient with advanced HIV => Multiple ring-enhancing lesions
+
+@h1269
+c: 23 year old woman | odd mouth movements | HSV PCR is negative | ovarian mass
+m: An ovarian teratoma triggers antibodies against brain NMDA receptors
+g: Psychosis, seizures, dyskinesia and autonomic instability with an ovarian mass is anti-NMDA receptor encephalitis
+f: fever with temporal lobe changes and a positive HSV PCR => Herpes simplex encephalitis
+
+@h1270
+c: dental abscess | 38.2°C | ring-enhancing
+m: Mouth bacteria spread to the brain and wall off into an abscess
+g: Fever and focal weakness with a ring lesion after a dental abscess is a brain abscess
+f: no fever with several lesions at the grey-white junction => Metastasis
+f: ring lesions in advanced HIV => Toxoplasmosis

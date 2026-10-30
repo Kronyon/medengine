@@ -1,0 +1,119 @@
+@h1471
+c: tears through to his back | long-standing hypertension | 148/80 mmHg in the left arm | early diastolic murmur
+m: A tear in the intima lets blood split the aortic wall, affecting branches and the aortic valve
+g: Tearing back pain with an arm BP difference and new AR is aortic dissection
+f: ST elevation in II, III and aVF with equal arm pressures => ST-elevation MI
+f: pleuritic pain with hypoxia after a long flight => Pulmonary embolism
+
+@h1472
+c: tearing chest pain | sinus tachycardia only | D-dimer 2.4
+m: CT angiography shows the intimal flap along the whole aorta
+g: Suspected aortic dissection in a stable patient: CT angiography of the aorta
+f: suspected PE without an arm pressure difference => CT pulmonary angiogram
+
+@h1473
+c: type B aortic dissection | no limb or gut ischaemia | asthma that needed admission to intensive care
+m: Lowering heart rate first cuts the shear force on the aortic wall; beta-blockers risk bronchospasm
+g: Type B dissection with severe asthma: rate control with IV verapamil
+f: no history of asthma => Intravenous labetalol
+
+@h1474
+c: loss of smell | unvaccinated | bilateral peripheral patchy shadowing
+m: SARS-CoV-2 causes anosmia and a bilateral peripheral pneumonitis
+g: Anosmia with bilateral peripheral shadowing is Covid-19 pneumonitis
+f: rusty sputum with one lobe consolidated => Bacterial lobar pneumonia
+
+@h1475
+c: Covid-19 confirmed on PCR | SpO2 92% breathing air | Procalcitonin 0.08
+m: Dexamethasone dampens the damaging inflammatory phase once oxygen is needed
+g: Covid needing oxygen with sats under 94%: dexamethasone 6 mg daily
+f: a high procalcitonin with lobar consolidation => Co-amoxiclav and clarithromycin
+
+@h1476
+c: type 2 diabetes | metformin and gliclazide | Dexamethasone 6 mg daily
+m: Dexamethasone raises glucose most later in the day
+g: Steroids in diabetes: capillary glucose monitoring before meals
+
+@h1477
+c: clear sputum for 10 days after a cold | scattered wheezes but no focal crackles
+m: A viral infection inflames the bronchi without filling the alveoli
+g: Cough after a cold with normal observations and no focal signs is acute bronchitis
+f: paroxysms of cough ending in a whoop => Pertussis
+f: fever with focal crackles and a raised respiratory rate => Community-acquired pneumonia
+
+@h1478
+c: productive cough for 10 days | feels well | no focal chest signs | CRP in the surgery is 18
+m: A low CRP means a bacterial chest infection is unlikely
+g: Point-of-care CRP under 20: no antibiotic and safety-net advice
+f: a CRP of 72 => Delayed amoxicillin prescription
+
+@h1479
+c: heart failure | productive cough for 6 days | allergic to penicillin
+m: Older people with comorbidity are at higher risk from a chest infection
+g: Acute bronchitis with comorbidity and penicillin allergy: oral doxycycline
+f: no penicillin allergy => Oral amoxicillin
+
+@h1480
+c: drinks heavily | pale, bulky stools | attacks of epigastric pain | HbA1c 54
+m: Repeated alcohol damage destroys pancreatic exocrine and endocrine tissue
+g: Alcohol, recurrent pain, steatorrhoea and new diabetes point to chronic pancreatitis
+f: a young woman with iron deficiency and itchy blistering elbows => Coeliac disease
+
+@h1481
+c: steatorrhoea and weight loss | Faecal elastase 62
+m: Elastase passes through the gut unchanged, reflecting pancreatic output
+g: Faecal elastase under 100 confirms severe pancreatic exocrine insufficiency
+f: a high calprotectin of 600 => Faecal calprotectin
+
+@h1482
+c: chronic pancreatitis with steatorrhoea | stopped drinking
+m: Enzymes taken with food replace missing lipase
+g: Pancreatic steatorrhoea: pancreatic enzymes with meals
+f: diarrhoea after a terminal ileal resection => Cholestyramine
+
+@h1483
+c: relieved by opening her bowels | bloating | alternate between loose and hard | not lost weight
+m: Gut-brain hypersensitivity causes pain tied to defaecation without structural disease
+g: Pain eased by defaecation with bloating and altered stool, no red flags, is IBS
+f: weight loss, mouth ulcers and a high calprotectin => Crohn's disease
+
+@h1484
+c: no red flags | Tissue transglutaminase IgA 1 | Faecal calprotectin 32
+m: Normal blood count, CRP, coeliac serology and calprotectin exclude the main mimics
+g: Normal screening tests support IBS
+f: calprotectin of 260 => Colonoscopy is needed
+
+@h1485
+c: 58 year old woman | new bloating, early fullness | never had bowel problems before
+m: Ovarian cancer presents with vague IBS-like symptoms in older women
+g: New IBS-like symptoms in a woman over 50: serum CA-125 first
+f: the same symptoms at 27 for years => Faecal calprotectin
+
+@h1486
+c: retching but brings nothing up | nasogastric tube cannot be passed | air-fluid level behind the heart
+m: A twisted stomach closes both ends, so nothing comes up and no tube passes
+g: Pain, unproductive retching and failure to pass an NG tube is gastric volvulus
+f: surgical emphysema after violent vomiting => Boerhaave syndrome
+
+@h1487
+c: acute gastric volvulus | Lactate 3.6
+m: CT shows the twist and any ischaemia quickly
+g: Suspected gastric volvulus with a raised lactate: CT chest and abdomen with contrast
+
+@h1488
+c: aspirin and clopidogrel | coronary stent 3 months ago
+m: Omeprazole and esomeprazole block CYP2C19, which activates clopidogrel
+g: PPI with clopidogrel: lansoprazole or pantoprazole
+f: no clopidogrel => Omeprazole
+
+@h1489
+c: throbbing pain beside his anus | keeps him awake | 38.1°C | tender, fluctuant, red swelling
+m: An infected anal gland forms pus beside the anus
+g: Hot fluctuant perianal swelling with fever is a perianal abscess
+f: a sudden painful blue lump at the margin with no fever => Thrombosed external haemorrhoid
+
+@h1490
+c: perianal abscess | no diabetes | no spreading cellulitis
+m: Pus needs a way out; antibiotics cannot penetrate an abscess
+g: Perianal abscess: incision and drainage under anaesthetic
+f: discharge from a skin opening for months after drainage => MRI pelvis before any surgery

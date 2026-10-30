@@ -1,0 +1,138 @@
+@h0051
+c: basal cell carcinoma | spread to other organs
+m: BCC invades and destroys tissue locally but almost never metastasises
+g: BCC grows locally and rarely spreads
+f: asked how melanoma behaves => They spread to lymph nodes early
+
+@h0052
+c: grown rapidly | central keratin-filled crater | 6 weeks ago
+m: A fast-growing squamous tumour fills with keratin and may regress, but mimics SCC
+g: Dome-shaped nodule with a keratin crater over weeks is a keratoacanthoma
+f: a slowly growing pearly nodule with telangiectasia => Basal cell carcinoma
+f: a bleeding red friable nodule after minor trauma => Pyogenic granuloma
+f: a stuck-on greasy warty lesion => Seborrhoeic keratosis
+
+@h0053
+c: worked outdoors all his life | eight flat, rough, red, scaly patches | None is raised, indurated or ulcerated
+m: Sun damage leaves many actinic keratoses across a field of skin
+g: Many flat actinic keratoses across a field: topical 5-fluorouracil
+
+@h0054
+c: kidney transplant | tacrolimus, mycophenolate and prednisolone | two tender, crusted nodules
+m: Transplant immunosuppression multiplies the risk of squamous cell carcinoma most of all
+g: Keratotic lesions in a transplant patient: squamous cell carcinoma
+f: purple patches in a man with HIV => Kaposi's sarcoma
+f: a rapidly growing red-violet nodule in an older person => Merkel cell carcinoma
+
+@h0055
+c: Crohn's disease | began as a small pustule after she knocked her leg | purple, undermined edge | flucloxacillin has not helped
+m: Neutrophilic inflammation linked with IBD breaks down skin after minor injury
+g: A fast ulcer with a purple undermined edge in active IBD is pyoderma gangrenosum
+f: tender red nodules on both shins => Erythema nodosum
+f: a gaiter ulcer with staining after a DVT => Venous ulcer
+
+@h0056
+c: type 1 diabetes | shiny, yellow-brown, waxy plaques | visible telangiectasia | atrophic
+m: Collagen degeneration in diabetes leaves waxy yellow atrophic shin plaques
+g: Waxy yellow-brown shin plaques with telangiectasia in diabetes are necrobiosis lipoidica
+f: swollen orange-peel plaques on the shins in Graves' disease => Pretibial myxoedema
+f: small brown atrophic scars on the shins in diabetes => Diabetic dermopathy
+
+@h0057
+c: darkening of the skin in his armpits | BMI of 38 | velvety, hyperpigmented, thickened plaques | skin tags
+m: High insulin drives skin cell growth in the flexures, causing velvety dark plaques
+g: Acanthosis nigricans in an obese man is insulin resistance
+f: generalised bronzing with low blood pressure and high potassium => Addison's disease
+f: bronze skin with diabetes and a raised ferritin => Haemochromatosis
+
+@h0058
+c: wherever she scratches | go within 30 minutes | raised red linear wheal
+m: Stroking the skin makes mast cells release histamine along the line
+g: Linear wheals after stroking that settle within an hour is dermographism
+f: wheals after exercise or a hot shower => Cholinergic urticaria
+f: wheals lasting over 24 hours that leave bruising => Urticarial vasculitis
+f: deep swelling hours after straps or tight shoes => Pressure urticaria
+
+@h0059
+c: most days for 8 weeks | leaves no mark | little benefit
+m: Chronic spontaneous urticaria is driven by histamine; more antihistamine blocks more of it
+g: Chronic urticaria on a standard dose: increase the non-sedating antihistamine up to 4 times
+
+@h0060
+c: never had wheals or itch | adrenaline have not helped | father has similar episodes | C4 is low
+m: Lack of C1 esterase inhibitor lets bradykinin build up, causing swelling without histamine
+g: Familial swelling without wheals, unhelped by adrenaline, with low C4 is hereditary angioedema
+f: swelling of the lips after starting ramipril => ACE inhibitor angioedema
+f: swelling with itchy wheals after eating nuts => Allergic angioedema
+
+@h0061
+c: sleeps in a chair with her leg down | punched-out ulcer | no palpable pulses | 0.45
+m: Severe arterial narrowing starves the foot; compression would cut flow further
+g: Arterial ulcer with ABPI under 0.5: urgent vascular referral
+f: a gaiter ulcer with an ABPI of 1.0 => Four-layer compression
+f: spreading redness and fever around the ulcer => Oral antibiotics
+
+@h0062
+c: did not notice it | first metatarsal head | thick callus | cannot feel a 10 g monofilament | Foot pulses are palpable
+m: Loss of feeling lets pressure points break down without pain
+g: A painless ulcer under the forefoot with callus, lost sensation and good pulses is neuropathic
+f: a painful toe ulcer with absent pulses => Arterial ulcer
+f: a sacral ulcer in a bed-bound patient => Pressure ulcer
+f: a gaiter ulcer after a DVT => Venous ulcer
+
+@h0063
+c: full-thickness skin loss | Subcutaneous fat is visible | No bone, tendon or muscle is exposed
+m: Pressure ulcers are graded by the deepest tissue you can see
+g: Full-thickness loss with fat but no bone, tendon or muscle is category 3
+f: bone or tendon is exposed => Category 4
+f: the base is hidden by slough or eschar => Unstageable
+f: intact skin with non-blanching redness => Category 1
+
+@h0064
+c: atopic eczema | monomorphic, punched-out erosions | 38.7°C
+m: Herpes simplex spreads fast through broken eczema skin
+g: Punched-out erosions over eczema with fever is eczema herpeticum
+f: golden crusts on eczema in a well child => Bacterial impetigo
+f: itchy vesicles in crops over the trunk => Chickenpox
+f: vesicles on the hands and feet with mouth ulcers => Hand, foot and mouth
+
+@h0065
+c: red, scaly, excoriated patches | lichenification | affecting his sleep
+m: Steroid potency is matched to how severe the eczema is and where it is
+g: Moderate eczema on the trunk: moderate-potency steroid
+f: severe eczema on the trunk => Potent
+f: mild eczema on the face => Mild
+
+@h0066
+c: widespread atopic eczema | adults with widespread eczema
+m: Emollients only work when used liberally and often
+g: Adults with widespread eczema may need 500 g a week
+
+@h0067
+c: African family origin | worse after shaving | curving back into the skin
+m: Tightly curled hairs re-enter the skin after shaving and inflame it
+g: Beard-area papules with ingrowing hairs after shaving is pseudofolliculitis barbae
+f: comedones on the face and back in a teenager => Acne vulgaris
+f: a boggy scaly plaque with broken hairs after contact with cattle => Tinea barbae
+
+@h0068
+c: hot tub | areas covered by his swimming shorts
+m: Pseudomonas thrives in warm poorly chlorinated water and infects hair follicles
+g: Folliculitis under the swimwear after a hot tub is Pseudomonas
+f: boils and folliculitis in the beard area => Staphylococcus aureus
+f: itchy follicular papules on the upper back in hot weather => Malassezia
+
+@h0069
+c: five boils | partner has also had a boil | HbA1c and full blood count are normal
+m: Recurrent boils come from Staph aureus carried in the nose and spread in the household
+g: Recurrent boils in a well person: nasal swab for Staph carriage
+f: recurrent infections of many types since childhood => Serum immunoglobulin levels
+f: fever with rigors and a fast pulse => Blood cultures
+
+@h0070
+c: golden-yellow crusting | around the mouth and nostrils | nursery has had other cases
+m: Staph or Strep infects the surface skin, forming honey-coloured crusts that spread by contact
+g: Golden crusts around the mouth in a well child is impetigo
+f: a painful cluster of blisters on the lip => Cold sore
+f: itchy vesicles in crops over the trunk => Chickenpox
+f: punched-out erosions over eczema with fever => Eczema herpeticum

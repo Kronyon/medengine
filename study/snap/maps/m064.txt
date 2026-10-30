@@ -1,0 +1,111 @@
+@h0791
+c: starting naproxen | no history of peptic ulcer
+m: NSAIDs block protective prostaglandins in the stomach
+g: Oral NSAID for osteoarthritis: prescribe a proton pump inhibitor with it
+
+@h0792
+c: including at night | lansoprazole | normal-looking colon | increased lymphocytes
+m: Lymphocytic inflammation in a normal-looking colon causes watery diarrhoea, linked with PPIs
+g: Watery diarrhoea with a normal colon and lymphocytes on biopsy is microscopic colitis
+f: continuous ulceration from the rectum => Ulcerative colitis
+f: a positive tTG antibody => Coeliac disease
+
+@h0793
+c: mesalazine
+m: Mesalazine can cause interstitial nephritis
+g: Mesalazine: monitor kidney function
+
+@h0794
+c: mesalazine | sore throat, fever and mouth ulcers
+m: Aminosalicylates can rarely cause blood dyscrasias
+g: Infection symptoms on mesalazine: check a full blood count urgently
+
+@h0795
+c: sulfasalazine | low sperm count | partner's investigations are normal
+m: The sulfapyridine part of sulfasalazine reversibly lowers sperm count
+g: Low sperm count on sulfasalazine: switch to mesalazine
+
+@h0796
+c: azathioprine | allopurinol
+m: Allopurinol blocks xanthine oxidase, which breaks down azathioprine
+g: Allopurinol with azathioprine: quarter the azathioprine dose
+f: colchicine for the flare instead => No change needed
+
+@h0797
+c: infliximab | born in India
+m: Anti-TNF drugs can reactivate latent TB
+g: Before infliximab: screen for latent tuberculosis
+
+@h0798
+c: methotrexate 15 mg
+m: Daily dosing by mistake causes fatal marrow toxicity
+g: Methotrexate once weekly, with folic acid on another day
+
+@h0799
+c: confused and drowsy | flapping tremor | no fever and no signs of bleeding
+m: Lactulose acidifies the colon, trapping ammonia and clearing it in stool
+g: Hepatic encephalopathy: lactulose
+
+@h0800
+c: 4 year old girl | no faecal impaction
+m: Macrogol holds water in the stool and works well in children
+g: Childhood constipation: macrogol first
+
+@h0801
+c: modified-release morphine | despite regular macrogol and senna | no features of obstruction
+m: Methylnaltrexone blocks gut opioid receptors without reversing pain relief
+g: Opioid constipation resistant to laxatives: methylnaltrexone
+
+@h0802
+c: co-careldopa
+m: Domperidone barely crosses into the brain, so it spares dopamine there
+g: Nausea in Parkinson's disease: domperidone
+f: no Parkinson's disease => Metoclopramide
+
+@h0803
+c: 10 weeks pregnant | can keep fluids down | no ketones
+m: Antihistamine antiemetics are safe first line in pregnancy
+g: Nausea and vomiting in pregnancy: cyclizine first
+f: first-line drugs fail => Ondansetron
+
+@h0804
+c: brain metastases | worst in the morning, with headache | papilloedema
+m: Antiemetics are matched to the cause; cyclizine acts on the vomiting centre
+g: Nausea from raised intracranial pressure: cyclizine
+f: nausea from hypercalcaemia or opioids => Haloperidol
+f: gastric stasis with early fullness => Metoclopramide
+
+@h0805
+c: ALP 380 | Anti-mitochondrial antibodies are positive | normal bile ducts
+m: Ursodeoxycholic acid improves bile flow and slows PBC
+g: Primary biliary cholangitis: ursodeoxycholic acid
+f: itch alone needing relief => Colestyramine
+
+@h0806
+c: 120 units | Maddrey discriminant function is 46 | no infection
+m: Steroids reduce inflammation in severe alcoholic hepatitis
+g: Maddrey of 32 or more with infection and bleeding excluded: prednisolone
+f: an active variceal bleed => Terlipressin
+
+@h0807
+c: never had a gastrointestinal bleed | large oesophageal varices
+m: Non-selective beta-blockers lower portal pressure
+g: Large varices that have never bled: propranolol or carvedilol
+f: an acute variceal bleed => Terlipressin
+
+@h0808
+c: standard-release metformin | loose stools and abdominal cramps
+m: Modified-release metformin causes less gut upset
+g: Metformin gut upset: switch to modified-release metformin
+
+@h0809
+c: 52 to 38
+m: Metformin builds up in kidney failure and risks lactic acidosis
+g: Stop metformin when eGFR is under 30
+f: asked when to review and reduce the dose => Under 45
+
+@h0810
+c: eGFR 50 | no acute kidney injury
+m: Contrast risk with metformin matters only with low eGFR or AKI
+g: eGFR of 30 or more with no AKI: continue metformin
+f: eGFR under 30 or AKI => Stop metformin for 48 hours after the scan

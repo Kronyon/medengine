@@ -1,0 +1,119 @@
+@h1491
+c: third perianal abscess in a year | loose stools for 4 months | lost weight | two discharging openings
+m: Transmural Crohn's inflammation burrows into fistulas around the anus
+g: Recurrent perianal sepsis with fistulas and bowel symptoms: look for Crohn's disease
+f: openings in both groins and armpits => Hidradenitis suppurativa
+
+@h1492
+c: bright red blood on the toilet paper | no pain | above the dentate line | go back by themselves
+m: Internal haemorrhoids are graded by how far they prolapse
+g: Prolapsing on straining and reducing by themselves: second-degree haemorrhoids
+f: they cannot be pushed back => Fourth-degree haemorrhoids
+
+@h1493
+c: looser for 2 months | feels tired | Proctoscopy shows haemorrhoids | Ferritin 9
+m: Haemorrhoids do not explain iron deficiency with a change in habit
+g: Iron deficiency anaemia with changed bowel habit over 60: FIT and suspected cancer referral
+f: a 30 year old with a normal blood count and no habit change => Band the haemorrhoids
+
+@h1494
+c: still bleed despite a high-fibre diet | warfarin for a mechanical mitral valve | INR 3.1
+m: Banding on anticoagulation risks delayed heavy bleeding when the band sloughs
+g: Haemorrhoids on warfarin for a mechanical valve: specialist review before banding
+
+@h1495
+c: severe tearing pain on opening her bowels | lasts for an hour afterwards | posterior midline
+m: Hard stool tears the anoderm and sphincter spasm stops healing
+g: A posterior midline split with pain during and after defaecation is an anal fissure
+f: a painful lump with a discharging opening => Fistula in ano
+
+@h1496
+c: lateral side of his anus | painless | diarrhoea and mouth ulcers | oedematous skin tag
+m: Fissures off the midline, painless or slow to heal suggest an underlying disease
+g: Lateral painless fissure with mouth ulcers and diarrhoea: Crohn's disease
+f: a painless indurated ulcer after unprotected sex => Syphilis
+
+@h1497
+c: chronic anal fissure for 8 weeks | migraines with aura
+m: GTN causes severe headaches, so diltiazem relaxes the sphincter without them
+g: Chronic fissure with migraines: topical diltiazem
+f: no headache history => Glyceryl trinitrate ointment
+
+@h1498
+c: known diverticular disease | large volume | no abdominal pain
+m: A vessel stretched over a diverticulum ruptures and bleeds painlessly
+g: Sudden painless large bleed in a woman with diverticula is a diverticular bleed
+f: left-sided pain first, then bloody diarrhoea in a vasculopath => Ischaemic colitis
+
+@h1499
+c: Pulse rate 120 bpm | 96/58
+m: Heart rate rises and systolic BP falls as blood volume is lost
+g: Shock index is heart rate divided by systolic BP: 120 over 96 is 1.25
+
+@h1500
+c: unstable lower GI bleed | apixaban | 6 hours ago
+m: Andexanet binds factor Xa inhibitors; PCC supplies clotting factors
+g: Life-threatening bleed on apixaban: andexanet alfa or PCC
+f: on warfarin with a high INR => Intravenous vitamin K
+f: bleeding on unfractionated heparin => Protamine sulfate
+
+@h1501
+c: fever with rigors | right upper quadrant pain and yellow eyes | gallstones
+m: A stone blocks the bile duct and the stagnant bile becomes infected
+g: Fever, jaundice and RUQ pain, Charcot's triad, is ascending cholangitis
+f: fever and RUQ pain without jaundice => Acute cholecystitis
+f: painless jaundice with weight loss => Pancreatic cancer
+
+@h1502
+c: ascending cholangitis | ALP 520 | Bilirubin 86
+m: A blocked duct backs bile up, raising ALP far more than ALT
+g: ALP far above ALT with jaundice is the obstructive pattern
+
+@h1503
+c: 12 hours | more confused | dilated common bile duct
+m: Pus under pressure in the duct will not clear with antibiotics alone
+g: Cholangitis not responding to antibiotics: urgent ERCP to drain the duct
+f: settles quickly on antibiotics => Continue antibiotics, ERCP next week
+
+@h1504
+c: deep pain during sex | new vaginal discharge | cervical motion tenderness | bilateral adnexal tenderness | Pregnancy test is negative
+m: Ascending infection inflames the uterus, tubes and ovaries
+g: Lower abdominal pain with cervical motion and adnexal tenderness is PID
+f: a positive pregnancy test with one-sided pain => Ectopic pregnancy
+
+@h1505
+c: suspected pelvic inflammatory disease | well enough to be treated at home
+m: Each day without treatment raises the risk of tubal damage
+g: Suspected PID: swabs, then antibiotics the same day
+f: unwell with a pelvic mass => Pelvic ultrasound before treatment
+
+@h1506
+c: outpatient | allergic to cephalosporins
+m: Ofloxacin covers gonorrhoea and chlamydia; metronidazole covers anaerobes
+g: Outpatient PID with cephalosporin allergy: ofloxacin and metronidazole
+f: no allergy => Ceftriaxone, doxycycline and metronidazole
+
+@h1507
+c: breastfeeding her 4 week old baby | flu-like | wedge-shaped area | no fluctuant mass
+m: Milk stasis with infection inflames a segment of the breast
+g: Tender red wedge with fever while breastfeeding is lactational mastitis
+f: a fluctuant lump persisting despite antibiotics => Breast abscess
+f: a smoker who is not breastfeeding with a subareolar lump => Periductal mastitis
+
+@h1508
+c: flucloxacillin for mastitis for 4 days | still has a fever | tender, fluctuant swelling
+m: A walled-off collection does not clear with antibiotics alone
+g: Mastitis with a fluctuant mass: ultrasound with needle aspiration
+
+@h1509
+c: breastfeeding | rash after penicillin
+m: Clarithromycin covers Staph aureus and is safe in breastfeeding
+g: Mastitis with penicillin allergy: clarithromycin
+f: no allergy => Flucloxacillin
+
+@h1510
+c: car crash 6 weeks ago | seatbelt bruising | firm, irregular lump | skin tethering
+m: Damaged fat saponifies and scars, mimicking cancer
+g: An irregular tethered lump after chest trauma is fat necrosis
+f: a soft mobile doughy lump with fatty imaging => Lipoma
+f: a smooth mobile rubbery lump in a 20 year old => Fibroadenoma

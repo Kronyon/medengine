@@ -1,0 +1,124 @@
+@h0071
+c: spread over his face, arms and legs | lethargic and not eating well | 38.4°C | several large blisters
+m: Widespread or bullous impetigo with systemic upset needs a systemic anti-staphylococcal drug
+g: Widespread impetigo in an unwell child: oral flucloxacillin
+f: a small localised patch where peroxide is unsuitable => Fusidic acid cream
+
+@h0072
+c: impetigo around her nose and mouth | started hydrogen peroxide cream
+m: Impetigo stays infectious until the lesions crust over or 48 hours of antibiotics
+g: Back to school once crusted or after 48 hours of antibiotics
+
+@h0073
+c: feels unwell and shivery | 37.9°C | alert and orientated | no crepitus or blistering
+m: Eron class depends on how unwell the patient is and on comorbidity
+g: Systemically unwell but stable with no comorbidity is Eron class II
+f: well with no fever and no comorbidity => Class I
+f: confused with a fast pulse or unstable comorbidity => Class III
+f: sepsis or necrotising fasciitis => Class IV
+
+@h0074
+c: anaphylactic reaction to penicillin | spreading erythema
+m: Cellulitis is mostly Strep and Staph; a macrolide covers them without penicillin
+g: Cellulitis with penicillin allergy: clarithromycin
+f: no penicillin allergy => Flucloxacillin
+
+@h0075
+c: athlete's foot | bright red, raised, shiny | sharply defined, raised edge
+m: Strep infects the upper dermis, giving a raised shiny patch with a crisp edge
+g: Shiny red patch with a sharp raised edge is erysipelas
+f: crepitus with pain out of proportion => Necrotising fasciitis
+f: a swollen calf without redness after immobility => Deep vein thrombosis
+f: itchy scaly skin above the ankle with varicose veins => Venous eczema
+
+@h0076
+c: out of proportion to the redness | dusky and blistered with crepitus | Lactate 5.2
+m: Infection spreads along the fascia and kills tissue that antibiotics cannot reach
+g: Necrotising fasciitis: emergency surgical debridement
+
+@h0077
+c: poorly controlled type 2 diabetes | drinks heavily | dusky patches, and there is crepitus | Both testes feel normal
+m: Necrotising infection tracks along the perineal fascia in diabetic and alcohol-using men
+g: Crepitus and dusky perineal skin with sepsis is Fournier's gangrene
+f: a painful swollen testis with dysuria => Epididymo-orchitis
+f: sudden testicular pain in a teenager with a high-riding testis => Testicular torsion
+f: a tender fluctuant lump beside the anus without crepitus => Perianal abscess
+
+@h0078
+c: LRINEC score | is 8
+m: LRINEC combines six blood results; 6 or more raises concern and 8 or more is high risk
+g: LRINEC 8: high risk of necrotising fasciitis
+f: a score of 2 => Low risk of necrotising fasciitis
+
+@h0079
+c: small black dots | more painful when squeezed from side to side
+m: Wart virus thickens skin with clotted capillaries showing as black dots
+g: Black dots and pain on side squeeze is a plantar wart
+f: a hard plug that hurts with direct pressure => Corn
+f: diffuse thick skin over a pressure area without dots => Callus
+
+@h0080
+c: four rough, raised, skin-coloured papules | would like treatment
+m: Salicylic acid peels away wart tissue; many warts clear alone within 2 years
+g: Common hand warts wanting treatment: topical salicylic acid
+
+@h0081
+c: new sexual partner | soft, non-keratinised, flesh-coloured papules | not pregnant
+m: HPV causes soft genital warts that respond to a topical antimitotic
+g: Soft non-keratinised genital warts, not pregnant: podophyllotoxin
+f: painful ulcers after tingling => Oral aciclovir
+
+@h0082
+c: athlete's foot | raised, scaly, advancing edge | scrotum is spared | no satellite lesions
+m: Dermatophytes spread outwards from the feet to the groin, leaving a clearer centre
+g: Groin rash with an active edge sparing the scrotum is tinea cruris
+f: satellite lesions with the scrotum involved => Candida intertrigo
+f: a brown flexural patch glowing coral red under Wood's light => Erythrasma
+
+@h0083
+c: dermatophyte on culture | Liver function tests are normal
+m: Terbinafine kills dermatophytes and builds up in the nail
+g: Confirmed dermatophyte nail infection: oral terbinafine
+f: tinea of the skin only => Clotrimazole cream
+
+@h0084
+c: after a sunny holiday | pale, finely scaling, oval patches | more obvious when the skin is gently scraped
+m: Malassezia yeast stops the skin tanning, so patches show after sun
+g: Pale scaly patches on the upper trunk after sun is pityriasis versicolor
+f: a herald patch then a Christmas tree rash => Pityriasis rosea
+f: droplet scaly papules after a sore throat => Guttate psoriasis
+f: completely white patches with no scale => Segmental vitiligo
+
+@h0085
+c: care home | does not complain of itch | Several care home staff have developed itchy rashes | thick, grey, crusted, scaly plaques
+m: With weak immunity, mites multiply into thick crusts and spread widely
+g: Thick crusts in a frail resident with itchy staff is crusted scabies
+f: tense blisters on the trunk in an older person => Bullous pemphigoid
+f: silvery plaques on the elbows and knees => Psoriasis
+
+@h0086
+c: 1 week ago | housemates treated on the same day | no new burrows
+m: Itch comes from an allergic reaction to dead mites and lasts after cure
+g: Itch for weeks after correct treatment is expected
+f: new burrows appear weeks later => Repeat the permethrin today
+
+@h0087
+c: 20 weeks pregnant | burrows in the finger webs | Her partner is also itchy
+m: Permethrin kills mites and is safe in pregnancy
+g: Scabies in pregnancy: permethrin cream
+f: allergic to permethrin => Malathion
+
+@h0088
+c: repeated after 7 days | how to tell whether the treatment has worked
+m: Only live lice mean failure; empty egg cases stay stuck to the hair
+g: Detection combing proves cure
+
+@h0089
+c: live lice were still found | non-chemical option
+m: Repeated wet combing physically removes lice as they hatch
+g: Failed treatment and wants no chemicals: wet combing
+
+@h0090
+c: head lice confirmed | stay off school
+m: Lice spread by head contact and exclusion does not help
+g: Head lice: continue at school and treat only those with live lice

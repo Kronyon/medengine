@@ -1,0 +1,124 @@
+@h0331
+c: spreading to his jaw | walks uphill or in the cold | within 3 minutes of resting or using glyceryl trinitrate
+m: Exertion raises oxygen demand beyond what a narrowed artery can supply
+g: Constricting pain, brought on by exertion and relieved by rest or GTN, is typical angina
+f: only two of the three features => Atypical angina
+f: pain at rest or rapidly worsening => Unstable angina
+
+@h0332
+c: permanent atrial fibrillation
+m: Ivabradine slows the sinus node, so it does nothing in AF
+g: AF makes ivabradine unsuitable
+
+@h0333
+c: ulcer at the edge of his anus | nicorandil | no malignancy
+m: Nicorandil causes ulcers in the mouth, anus, gut and skin
+g: A non-healing anal ulcer with no cancer on nicorandil: the nicorandil
+
+@h0334
+c: 5 days | irregularly irregular | no asthma
+m: After 48 hours, cardioversion risks a stroke, so rate is controlled first
+g: Stable AF over 48 hours: rate control with a beta-blocker
+f: haemodynamically unstable => DC cardioversion today
+f: onset clearly within 48 hours with no structural heart disease => Flecainide
+
+@h0335
+c: gets longer with each beat | not followed by a QRS
+m: AV node conduction tires with each beat until one fails
+g: Progressive PR lengthening then a dropped beat is Mobitz I
+f: a constant PR with sudden dropped beats => Mobitz type II second-degree block
+f: no relation between P waves and QRS complexes => Complete heart block
+f: a fixed long PR with every beat conducted => First-degree heart block
+
+@h0336
+c: start and stop suddenly | PR interval of 100 ms | slurred upstroke
+m: An accessory pathway bypasses the AV node, pre-exciting the ventricles
+g: A short PR with a delta wave is Wolff-Parkinson-White
+f: coved ST elevation in V1 and V2 => Brugada syndrome
+f: a long QT with collapse on exercise => Long QT syndrome
+
+@h0337
+c: papilloedema | Creatinine 186 | protein 2+
+m: Very high pressure damages small vessels in the eye and kidney
+g: Severe hypertension with papilloedema and kidney injury: IV labetalol in hospital
+f: very high blood pressure with no organ damage => Oral amlodipine and review
+
+@h0338
+c: peripheral arterial disease | rose from 98 to 142 | bruit over the upper abdomen
+m: A narrowed renal artery depends on angiotensin to keep filtration; ACE inhibitors remove it
+g: A creatinine rise on an ACE inhibitor with an abdominal bruit is renal artery stenosis
+f: a young person with radio-femoral delay => Coarctation of the aorta
+f: hypertension with low potassium => Conn's syndrome
+f: episodes of headache, sweating and palpitations => Phaeochromocytoma
+
+@h0339
+c: faint and dizzy when he gets out of bed | Standing BP 112/64
+m: Alpha-blockers dilate vessels, causing postural drops
+g: Postural hypotension after a fourth drug: doxazosin
+f: gynaecomastia or a high potassium since the new drug => Spironolactone
+
+@h0340
+c: QRISK3 score of 18% | muscle aches on two different statins
+m: Ezetimibe blocks cholesterol absorption without muscle side effects
+g: Statin intolerance in primary prevention: ezetimibe
+f: secondary prevention with LDL above target despite maximum treatment => Inclisiran
+
+@h0341
+c: cholesterol was normal 3 years ago | tired and cold | slow to relax
+m: Low thyroid hormone reduces LDL receptors, so cholesterol rises
+g: New high cholesterol with hypothyroid features: thyroid function tests
+
+@h0342
+c: triglyceride of 22 | eruptive xanthomas | 4 units of alcohol
+m: Very high triglycerides risk pancreatitis and often have a genetic cause
+g: Triglycerides over 20 not due to alcohol or diabetes: urgent lipid clinic referral
+
+@h0343
+c: pink frothy sputum | BP 156/90 | crackles to both mid zones | raised JVP
+m: A loop diuretic removes fluid and dilates veins
+g: Acute pulmonary oedema: IV furosemide
+f: still distressed with a high blood pressure after the diuretic => IV glyceryl trinitrate infusion
+
+@h0344
+c: severe COPD | SpO2 86% | loud second heart sound | lung bases are clear
+m: Chronic hypoxia constricts lung vessels and strains the right ventricle
+g: Right heart failure from chronic hypoxic lung disease is cor pulmonale
+f: orthopnoea with crackles at both bases => Left ventricular failure
+f: heavy proteinuria with a low albumin => Nephrotic syndrome
+
+@h0345
+c: fluid in the interstitium
+m: Fluid in the interlobular septa shows as short horizontal lines at the lung edge
+g: Interstitial oedema: Kerley B lines
+f: fluid filling the alveoli => Bat-wing perihilar shadowing
+
+@h0346
+c: collapsing | 168/48 | early diastolic murmur at the left sternal edge | sitting forward in expiration
+m: Blood leaks back into the ventricle in diastole, widening the pulse pressure
+g: An early diastolic murmur with a collapsing pulse is aortic regurgitation
+f: a mid-diastolic rumble at the apex with AF => Mitral stenosis
+f: an ejection systolic murmur to the carotids with a slow-rising pulse => Aortic stenosis
+
+@h0347
+c: mid-systolic click | late systolic murmur at the apex
+m: A floppy mitral leaflet snaps back into the atrium, then leaks
+g: A click then a late systolic murmur is mitral valve prolapse
+f: louder on Valsalva and softer on squatting => Hypertrophic cardiomyopathy
+f: fixed splitting of the second sound => Atrial septal defect
+
+@h0348
+c: grade the severity of aortic stenosis
+m: A tighter valve needs a higher pressure gradient to push blood through
+g: Severe aortic stenosis: mean gradient over 40 mmHg
+
+@h0349
+c: dental treatment 6 weeks ago | new pansystolic murmur | splinter haemorrhages | stable and alert
+m: Bacteraemia in endocarditis is continuous; several cultures catch the organism
+g: Suspected endocarditis, stable: three sets of blood cultures before antibiotics
+
+@h0350
+c: tender, raised, red-purple nodules on the pulps
+m: Immune complexes deposit in the finger pulps, causing painful nodules
+g: Painful nodules on the finger pulps are Osler's nodes
+f: painless flat red macules on the palms => Janeway lesions
+f: thin red-brown lines under the nails => Splinter haemorrhages

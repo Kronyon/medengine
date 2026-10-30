@@ -1,0 +1,129 @@
+@h0391
+c: retired lagger | chest wall pain | lost 7 kg | irregular, nodular pleural thickening encasing the lung
+m: Asbestos fibres cause pleural cancer decades later that encases the lung
+g: Effusion with nodular encasing pleural thickening and weight loss after asbestos is mesothelioma
+f: calcified pleural plaques with no symptoms => Pleural plaques
+f: basal lung fibrosis with clubbing after asbestos => Asbestosis
+f: a lymphocytic exudate in a migrant from a high-incidence area => Tuberculous effusion
+
+@h0392
+c: cytology is negative for malignant cells on two samples
+m: Mesothelioma cells are often missed in fluid; tissue is needed
+g: Suspected mesothelioma with negative cytology: thoracoscopic pleural biopsy
+
+@h0393
+c: coal miner | black sputum | large, irregular masses in both upper zones
+m: Coal dust nodules fuse into large fibrotic upper zone masses
+g: A coal miner with large upper zone masses on a nodular background has progressive massive fibrosis
+f: eggshell calcification of hilar nodes in a quarry worker => Silicosis
+f: basal fibrosis after asbestos work => Asbestosis
+
+@h0394
+c: racing pigeons | 6 hours after he cleans out his loft | Avian precipitins are positive
+m: Inhaled bird proteins trigger an immune alveolitis hours after exposure
+g: Extrinsic allergic alveolitis: avoid the birds
+
+@h0395
+c: African Caribbean | tender red lumps on her shins | bilateral hilar lymphadenopathy | Calcium 2.9 | ACE is raised
+m: Sarcoid granulomas make ACE and active vitamin D
+g: Hilar nodes, erythema nodosum, uveitis and high calcium is sarcoidosis
+f: night sweats, weight loss and rubbery neck nodes => Lymphoma
+f: cough and night sweats in a migrant with an upper lobe cavity => Tuberculosis
+
+@h0396
+c: finger clubbing | basal honeycombing
+m: Fibrosis stiffens the lung and thickens the gas exchange membrane
+g: IPF: restriction with a low TLCO
+f: COPD => FEV1/FVC 0.55
+f: asthma => Large bronchodilator response
+f: pulmonary haemorrhage => Raised transfer factor
+
+@h0397
+c: base of both thumbs | Morning stiffness lasts 10 minutes | hard, bony swellings at the distal interphalangeal joints | no soft tissue swelling
+m: Cartilage wear with bony overgrowth affects the DIPs and thumb base
+g: Bony DIP swellings, thumb base squaring and brief stiffness is osteoarthritis
+f: swollen MCP and PIP joints with stiffness over an hour => Rheumatoid arthritis
+f: DIP disease with nail pitting and psoriasis => Psoriatic arthritis
+
+@h0398
+c: Morning stiffness lasts 15 minutes | BMI is 31
+m: Stronger muscles offload the joint; weight loss reduces load
+g: Osteoarthritis core treatment: strengthening exercise
+
+@h0399
+c: describes four changes
+m: Osteoarthritis shows LOSS: loss of joint space, osteophytes, sclerosis and cysts
+g: Periarticular erosions are not osteoarthritis; they suggest rheumatoid arthritis
+
+@h0400
+c: moderate dementia | walked indoors with a frame only | displaced intracapsular
+m: A displaced intracapsular fracture cuts the femoral head blood supply
+g: Displaced intracapsular fracture in a frail patient: hemiarthroplasty
+f: an extracapsular intertrochanteric fracture => Dynamic hip screw
+f: an undisplaced intracapsular fracture => Cannulated screws
+f: a subtrochanteric fracture => Intramedullary nail
+
+@h0401
+c: 12 years ago | when she starts to walk | CRP 3 | lucent line around the femoral stem
+m: Wear particles cause bone loss around the implant over years
+g: Start-up pain years after a hip replacement with a lucent line and normal CRP is aseptic loosening
+f: fever, wound discharge and a high CRP => Prosthetic joint infection
+f: sudden pain and a short rotated leg after bending => Hip dislocation
+f: pain after a fall with a fracture line by the stem => Periprosthetic fracture
+
+@h0402
+c: 3 months ago | healed slowly | 38.2°C | CRP 96
+m: Bacteria seed the implant at surgery and form a biofilm
+g: Fever, a warm painful hip and a high CRP after replacement: exclude prosthetic joint infection
+f: start-up pain years later with a normal CRP => Aseptic loosening
+
+@h0403
+c: zigzag lines spreading across her vision for 20 minutes | sensitivity to light | since her teens
+m: A wave of cortical depression spreads across the visual cortex before the headache
+g: Spreading visual aura then a one-sided throbbing headache is migraine with aura
+f: sudden visual loss lasting minutes in a 70 year old => Transient ischaemic attack
+f: a sudden thunderclap headache => Subarachnoid haemorrhage
+f: nightly one-sided eye pain with tearing => Cluster headache
+
+@h0404
+c: migraine with aura
+m: Oestrogen plus aura raises ischaemic stroke risk
+g: Migraine with aura: avoid the combined pill
+
+@h0405
+c: jaw aches when she chews | scalp is tender | temporal arteries are tender | ESR 85 | Her vision is normal
+m: Giant cell arteritis can suddenly block the optic nerve blood supply
+g: Suspected GCA: start prednisolone today
+
+@h0406
+c: worse on lying down and in the morning | BMI is 38 | bilateral papilloedema | venography is normal | 35 cm H2O
+m: Raised CSF pressure without a mass or clot, linked with obesity
+g: Raised pressure with papilloedema, normal imaging and CSF in an obese young woman is IIH
+f: headache with seizures after childbirth and a clot on venography => Cerebral venous sinus thrombosis
+f: a mass on imaging => Space-occupying lesion
+
+@h0407
+c: GCS has fallen from 12 to 9 | right pupil is now fixed and dilated | pulse rate 56 bpm
+m: Rising pressure pushes the uncus through the tentorium onto the third nerve
+g: Falling GCS with a blown pupil, high BP and a slow pulse is uncal herniation
+f: both pupils pinpoint => Pontine haemorrhage
+
+@h0408
+c: On reassessment 2 hours after the injury, his GCS is 13
+m: A GCS under 15 two hours after injury suggests a bleed
+g: GCS under 15 at 2 hours: CT head within 1 hour
+f: asked which factor with the brief loss of consciousness needs a CT within 8 hours => Age 66
+
+@h0409
+c: sudden, severe occipital headache 3 days ago | peaked within a minute | CT head is normal
+m: CT misses more bleeds after 6 hours; bilirubin in CSF shows a bleed
+g: Thunderclap headache with a normal CT days later: lumbar puncture for xanthochromia
+f: CT within 6 hours of onset is normal with a normal examination => Discharge with analgesia
+
+@h0410
+c: 5 days ago | new weakness of her right arm | Sodium 136 | no new bleeding and no hydrocephalus
+m: Blood around arteries triggers spasm and delayed ischaemia from day 4 to 14
+g: A new deficit days after SAH with no new bleed or hydrocephalus is vasospasm
+f: drowsy with enlarged ventricles on CT => Hydrocephalus
+f: a sodium of 124 => Hyponatraemia
+f: new blood on CT => Rebleeding

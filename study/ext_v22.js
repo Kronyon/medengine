@@ -213,6 +213,7 @@ function hqDraw(m){
   if (!ans) h += '<p class="hint hq-hint">Tap ✕ or right-click an option to cross it out (Shift + letter). Answer with <span class="kbd">A</span>–<span class="kbd">E</span>. <span class="kbd">←</span> <span class="kbd">→</span> move between questions.</p>';
   if (ans) {
     const ok = pick === it.a;
+    h += tmHtml(it);
     h += '<div class="hq-why ' + (ok ? 'ok' : 'bad') + '"><b>' + (ok ? '✅ Right.' : '❌ ' + L[it.a] + ' is the answer.') + '</b> ' + (it.t === 'o' ? '<span class="hq-off">📋 Examiners\' justification:</span> ' + esc(it.w || 'none given in the paper; the flip and triggers below explain it.') : esc(it.w || '')) + '</div>';
     if (it.f) h += '<div class="hq-flip"><span class="hq-fl">🔄 Flip it</span>' + esc(it.f).replace('→', '<b class="hq-arr">→</b>') + '</div>';
     if (it.t === 'o' && it.iw) h += '<div class="hq-ilo hq-il' + it.il + '"><span class="hq-fl">' + (HQ_IL[it.il] || ['🎯'])[0] + ' ILO check</span>' + esc(it.iw) + (it.ic ? ' <span class="hint">Belongs to: ' + esc(it.ic) + '.</span>' : '') + '</div>';
@@ -222,7 +223,7 @@ function hqDraw(m){
   }
   h += '<div class="toolbar hq-nav"><button class="btn" data-hqnav="-1"' + (s.i ? '' : ' disabled') + '>← Prev</button><span class="grow"></span>' + (s.i + 1 < n ? '<button class="btn' + (ans ? ' primary' : '') + '" data-hqnav="1">Next →</button>' : '<button class="btn primary" data-hqfin>🏁 Finish</button>') + '</div>';
   h += '</div></div>';
-  m.innerHTML = h; hlApply(m, it.id);
+  m.innerHTML = h; hlApply(m, it.id); if (ans) tmCues(m, it); hlPill(m);
   const on = m.querySelector('.hq-pn.on'); if (on && on.scrollIntoView) { const pal = m.querySelector('.hq-pal'); pal.scrollLeft = on.offsetLeft - pal.clientWidth / 2; }
 }
 function hqPick(i){

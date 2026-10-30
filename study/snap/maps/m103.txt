@@ -1,0 +1,113 @@
+@h1571
+c: 8 year old boy has conduct disorder | parents are struggling
+m: Parent training changes the reinforcement patterns at home
+g: Conduct disorder in younger children: group parent training programme
+
+@h1572
+c: conduct disorder | about his future
+m: Conduct disorder before 15 is required for antisocial personality disorder
+g: Conduct disorder strongly predicts antisocial personality disorder
+
+@h1573
+c: support with money and cooking | travel alone and works part-time | IQ is 62
+m: Intellectual disability is graded by IQ and daily function
+g: IQ 50 to 69 with largely independent living is mild
+f: an IQ of 40 with daily help for self-care => Moderate
+
+@h1574
+c: Down syndrome | slower and forgetful | TSH 18
+m: Hypothyroidism is common in Down syndrome and mimics dementia
+g: Cognitive decline in Down syndrome: exclude hypothyroidism first
+f: normal thyroid function with steady decline after 40 => Early Alzheimer's
+
+@h1575
+c: moderate learning disability | dental extraction | mother usually comes
+m: Capacity is decision-specific and must be assessed, not assumed
+g: Learning disability alone does not remove capacity: assess it for this decision
+
+@h1576
+c: tender, red, raised lumps on both shins | painful ankles | dry cough
+m: A hypersensitivity panniculitis triggered by sarcoid, infection or drugs
+g: Tender red shin nodules with fever and ankle pain is erythema nodosum
+f: target lesions on the palms after a cold sore => Erythema multiforme
+
+@h1577
+c: erythema nodosum and a dry cough | Adjusted calcium 2.82 | ACE 110
+m: Granulomas make ACE and activate vitamin D, raising calcium
+g: Raised calcium and ACE with erythema nodosum point to sarcoidosis
+
+@h1578
+c: ulcerative colitis | growing rapidly | started as a pustule after a minor knock | purple, undermined edge
+m: Neutrophilic inflammation worsens with surgical trauma, pathergy
+g: Pyoderma gangrenosum: potent topical or oral steroid, avoid debridement
+f: a painless gaiter ulcer with a normal ABPI => Compression bandaging
+
+@h1579
+c: atopic eczema | sudden painful worsening | 38.5°C | punched-out erosions
+m: HSV spreads quickly through broken eczema skin
+g: Punched-out erosions on eczema with fever is eczema herpeticum
+f: golden crusts without punched-out holes => Bacterial impetigo
+
+@h1580
+c: suspected eczema herpeticum | eyes are not affected
+m: Spreading HSV can become systemic, so antivirals start at once
+g: Eczema herpeticum: same-day referral and aciclovir
+f: weeping crusted eczema without fever => Oral flucloxacillin
+
+@h1581
+c: moderate flare of eczema | eyelids
+m: Thin eyelid skin absorbs steroid and thins easily
+g: Eczema on the eyelids: mild steroid, hydrocortisone 1%
+f: asked about a moderate flare on the arms => Betamethasone valerate 0.1%
+
+@h1582
+c: itchy small pustules | hot climate | antibiotics has not helped | no comedones
+m: The yeast Malassezia overgrows in hair follicles in heat
+g: Itchy uniform follicular pustules on the upper trunk after heat, failing antibiotics, is Malassezia folliculitis
+f: pustules on the trunk 2 days after a hot tub => Pseudomonas folliculitis
+f: comedones with papules on the face and back => Acne vulgaris
+
+@h1583
+c: four boils in 3 months | HbA1c 68 | nasal swab shows no growth
+m: High glucose impairs neutrophil function, so skin infections recur
+g: Recurrent boils with an HbA1c over 48: act on the diabetes
+
+@h1584
+c: Malassezia folliculitis
+m: Topical azoles kill the yeast in the follicles
+g: Malassezia folliculitis: ketoconazole shampoo as a wash
+f: Staph folliculitis with extensive pustules => Oral flucloxacillin
+
+@h1585
+c: diabetes | cut his thigh 2 days ago | severe pain | 92/58 | only mild redness and some dusky skin
+m: Infection spreads along the fascia under the skin, so pain outruns the signs
+g: Pain out of proportion with shock and dusky skin is necrotising fasciitis
+f: red, hot, tender skin with pain matching the redness => Cellulitis
+
+@h1586
+c: suspected necrotising fasciitis | CRP 190 | Glucose 14
+m: LRINEC adds points for CRP, white cells, haemoglobin, sodium, creatinine and glucose
+g: CRP 4, white cells 2, Hb 1, sodium 2, creatinine 2, glucose 1: LRINEC 12
+
+@h1587
+c: suspected necrotising fasciitis | hypotensive | Antibiotics and fluids have started
+m: Antibiotics cannot reach dead tissue, which keeps spreading
+g: Necrotising fasciitis: emergency surgical debridement, without delaying for imaging
+
+@h1588
+c: itchy, red rash in both groins | raised, scaly edge | clearer centre | scrotum is spared
+m: Dermatophytes spread outwards, leaving a scaly active edge and a clear centre
+g: Groin rash with an active edge, central clearing and scrotal sparing is tinea cruris
+f: a bright red rash with satellite pustules involving the scrotum => Candida intertrigo
+f: a brown rash that glows coral pink => Erythrasma
+
+@h1589
+c: thick yellow toenails | wants treatment
+m: Nail dystrophy has many causes, so confirm a fungus before months of treatment
+g: Suspected fungal nails: nail clippings for microscopy and culture first
+
+@h1590
+c: confirmed on clippings | chronic liver disease
+m: Oral antifungals are hepatotoxic
+g: Fungal nails with liver disease: topical amorolfine lacquer
+f: normal liver function => Oral terbinafine

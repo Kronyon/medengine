@@ -1,0 +1,138 @@
+@o-mla1-021
+c: 2 cm red plaque on her leg | Bowen's disease
+m: Bowen's is squamous cell carcinoma confined to the epidermis, so a surface cytotoxic can destroy it
+g: Topical treatment for Bowen's is 5-fluorouracil, not a steroid or NSAID gel
+f: a rough sandpaper actinic keratosis and she prefers a gentler gel => Diclofenac (Solaraze® ) gel
+f: an itchy eczematous patch rather than a cancer in situ => Betamethasone valerate (Betnovate® ) cream
+
+@o-mla1-022
+c: gave birth 4 months ago | painless swelling | Thyroid peroxidase antibodies >1600 | Thyroid stimulating antibodies <1.0
+m: Autoimmune inflammation after pregnancy leaks stored hormone; the gland is not overactive, so it settles on its own
+g: TSH receptor antibodies negative with TPO antibodies high after birth is postpartum thyroiditis: control symptoms only
+f: TSH receptor antibodies positive with eye signs, not pregnant => Carbimazole
+f: Graves' disease in the first trimester of pregnancy => Propylthiouracil
+
+@o-mla1-023
+c: ulcer over the left heel | deeply penetrating | ankle brachial pressure index) on the left is 0.68
+m: Narrowed arteries cannot supply the heel, so the skin dies into a deep, punched-out ulcer
+g: ABPI under 0.8 on the ulcer side with normal light touch is arterial
+f: lost light touch and pin prick, ulcer under a pressure point, normal ABPI => Neuropathic
+f: shallow ulcer above the medial malleolus with haemosiderin staining and normal ABPI => Venous
+
+@o-mla1-024
+c: chest infection | alternate with periods of marked lethargy | more pronounced towards the evening
+m: Acute illness disrupts brain function, so attention and alertness swing through the day
+g: Acute onset, fluctuating attention and a physical cause is delirium
+f: steady decline over years with intact attention => Alzheimer's dementia
+f: fluctuating cognition, vivid visual hallucinations and parkinsonism over months => Lewy body dementia
+
+@o-mla1-025
+c: CT scan of abdomen with contrast | metformin | Her serum creatinine is 120
+m: Contrast can injure the kidneys; if metformin then builds up it can cause lactic acidosis
+g: Contrast scan with borderline kidney function: withhold metformin
+f: emergency surgery and a long fast, with risk of low sugar => Gliclazide
+
+@o-mla1-026
+c: right loin pain and weight loss | smoked ten cigarettes per day | blood 3+
+m: A kidney tumour bleeds into the urine and grows into the loin while the body wastes
+g: Loin pain, haematuria and weight loss in a smoker is renal cancer until proven otherwise
+f: sudden colicky loin to groin pain with blood on the dipstick => Renal calculus
+f: fever, rigors and loin tenderness with nitrites => Pyelonephritis
+
+@o-mla1-027
+c: Sodium 149 | Urea 15.4 | Fasting glucose 41.7
+m: Osmolality is twice the sodium plus urea plus glucose
+g: 2 × 149 plus 15.4 plus 41.7 is 355.1
+f: the sum is done with sodium counted only once => 206.1 mmol/L
+
+@o-mla1-028
+c: pulse is 106 bpm | BP 110/70 mmHg | chest is clear | 15–20 mL per hour
+m: After a transplant, the new kidney needs a full circulation to start making urine
+g: Low output with tachycardia and a clear chest: give a fluid challenge first
+f: crackles, raised JVP and low saturations => Furosemide
+f: potassium over 6.5 with ECG changes => Insulin and dextrose infusion
+f: drain filling with blood and haemoglobin falling fast => Blood transfusion
+
+@o-mla1-029
+c: sharp stabbing pain in his jaw and cheek | lasts for seconds | triggered when brushing his teeth
+m: A compressed trigeminal nerve fires in brief electric shocks set off by light touch
+g: Seconds-long triggered facial pain is trigeminal neuralgia: carbamazepine
+f: over 50 with jaw pain on chewing, scalp tenderness and a high ESR => Prednisolone
+f: burning nerve pain after shingles that lasts all day => Pregabalin
+
+@o-mla1-030
+c: tremor at rest that is alleviated on movement | worse on the right | emotionally flat
+m: Loss of dopamine neurones in the substantia nigra slows movement and causes a resting tremor
+g: Asymmetric resting tremor that eases on movement is Parkinson's: dopamine is low
+f: low mood and loss of pleasure without a tremor => Serotonin
+f: memory loss with a normal motor examination => Acetylcholine
+
+@o-mla1-031
+c: MRSA | spreading cellulitis | temperature is 39.5°C
+m: MRSA resists all beta-lactams, including flucloxacillin and the penicillin combinations
+g: MRSA on culture needs a glycopeptide such as vancomycin
+f: cultures grow meticillin-sensitive Staph aureus => Flucloxacillin
+f: an animal or human bite on the hand => Co-amoxiclav
+
+@o-mla1-032
+c: large intracranial haemorrhage | taking warfarin | INR 4.6
+m: Warfarin blocks clotting factors 2, 7, 9 and 10; vitamin K takes hours, so the factors must be replaced directly
+g: Life-threatening bleed on warfarin: IV vitamin K plus prothrombin complex concentrate
+f: prothrombin complex concentrate not available => Fresh frozen plasma
+f: INR 4.6 with no bleeding at all => No additional treatment needed
+
+@o-mla1-033
+c: lost 5 kg in weight | thin and jaundiced | palpable epigastric mass
+m: A tumour in the head of the pancreas blocks the bile duct, causing painless jaundice with weight loss
+g: Jaundice, weight loss and an epigastric mass in an older person is pancreatic cancer
+f: known cirrhosis with a rising AFP and a liver mass => Hepatocellular carcinoma
+f: fever and right upper quadrant pain with a positive Murphy's sign => Cholecystitis
+
+@o-mla1-034
+c: taking amlodipine 10 mg daily | 168/90 mmHg | Urinary albumin creatinine ratio 50
+m: ACE inhibitors lower pressure inside the glomerulus, cutting protein leak and kidney damage
+g: Albuminuria with uncontrolled BP on a calcium channel blocker: add an ACE inhibitor
+f: no albuminuria, BP still high on amlodipine and an ACE inhibitor => Thiazide-like diuretic
+f: men with prostatic symptoms needing a fourth drug => Alpha blocker
+
+@o-mla1-035
+c: woke him up last night | bibasal crepitations | upper lobe blood vessel diversion
+m: A failing left ventricle backs up pressure into the lungs, causing fluid and diverted vessels
+g: Signs of heart failure on X-ray: echocardiography confirms it and shows the cause
+f: sudden pleuritic pain with low saturations and a clear chest X-ray => CT pulmonary angiography
+f: central chest pain with ST changes and a rising troponin => Coronary angiography
+
+@o-mla1-036
+c: sudden onset of loss of vision | afferent pupillary defect | red spot at the right macula
+m: A blocked central retinal artery leaves the inner retina pale, so the thin fovea shows red underneath
+g: Sudden painless loss with a cherry-red spot is central retinal artery occlusion
+f: flashes, floaters and a curtain coming down => Retinal detachment
+f: haemorrhages in one sector of the retina along a vein => Branch retinal vein occlusion
+f: pale swollen disc with jaw claudication => Anterior ischaemic optic neuropathy
+
+@o-mla1-037
+c: wakes up two or three times in the night | doesn't snore | no daytime somnolence | MMSE (Mini Mental State Examination) score is 27/30
+m: Sleep becomes lighter and broken with age, but daytime function is normal
+g: No daytime sleepiness, normal mood and memory: normal ageing
+f: loud snoring with witnessed pauses and daytime sleepiness => Obstructive sleep apnoea
+f: early morning waking with low mood and loss of interest => Depression
+
+@o-mla1-038
+c: red, painful left eye | no discharge | diffuse area of redness in the medial aspect of his left sclera
+m: Scleritis is deep inflammation that can perforate the eye and is linked to systemic disease
+g: Painful scleral redness needs same-day eye assessment; it cannot be treated safely in general practice
+f: sticky discharge, normal vision and no pain => Prescribe chloramphenicol eye drops
+f: mild discomfort, sectoral redness that blanches => Reassure patient that it will resolve spontaneously
+
+@o-mla1-039
+c: gas fire | flue that carries gases away from the fire is found to be blocked
+m: Carbon monoxide binds haemoglobin over 200 times more tightly than oxygen, so tissues starve
+g: Blocked flue on a gas fire is carbon monoxide
+f: smoke inhalation in a house fire with a very high lactate => Inhibiting cytochrome enzyme systems
+f: dapsone or nitrates turning the blood chocolate brown => Converting the iron in haem to an iron salt
+
+@o-mla1-040
+c: burning pain in his feet | eGFR 28
+m: Painful diabetic neuropathy is treated with drugs that damp down nerve signals
+g: eGFR under 30 rules out duloxetine, so amitriptyline is used
+f: eGFR over 30 and he prefers to avoid drowsiness => Duloxetine

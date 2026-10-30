@@ -1,0 +1,132 @@
+@m068
+c: breast feeding | tender, fluctuant, erythematous swelling | fever
+m: Infected milk forms a walled-off collection that antibiotics alone cannot clear
+g: Fluctuant breast swelling in a lactating woman is an abscess: needle aspiration
+f: a red tender wedge with fever but no fluctuant swelling => Antibiotics
+
+@m069
+c: pain is worse during her menstrual cycle | several spherical fluctuant lumps in both breasts
+m: Hormonal cycles create tender cysts and nodularity in both breasts
+g: Cyclical tender lumps in both breasts is fibrocystic change
+f: a single smooth mobile painless lump => Fibroadenoma
+f: a hard irregular lump after a seatbelt injury => Fat necrosis
+
+@m070
+c: 24 year old woman | smooth, mobile lump | no tenderness
+m: A benign overgrowth of glands and stroma forms a mobile breast mouse in young women
+g: A smooth mobile painless lump under 30 is a fibroadenoma
+f: a hard, irregular lump fixed to the skin => Carcinoma
+f: a tender fluctuant lump in a breastfeeding woman with fever => Abscess
+
+@m071
+c: bloodstained nipple discharge | no breast lumps | Mammogram is normal
+m: A benign papilloma inside a single duct bleeds into the nipple
+g: Bloody discharge from one duct with no mass and normal imaging is a papilloma
+f: green cheesy discharge from several ducts with a slit-like nipple => Duct ectasia
+f: a hard lump with skin tethering and a bloody discharge => Carcinoma
+
+@m072
+c: fever, headache and confusion | CSF analysis shows a lymphocytosis
+m: Herpes simplex infects the temporal lobes, causing encephalitis with confusion
+g: Fever and confusion with a lymphocytic CSF is HSV encephalitis
+f: alert with neck stiffness and photophobia only, in summer => Enterovirus
+f: shingles rash on the face before the confusion => Varicella zoster virus
+
+@m074
+c: steroid injection in her right wrist five days ago | temperature of 38.5°C | red, hot and swollen
+m: An injection can carry bacteria into the joint; methotrexate dampens immunity
+g: Hot swollen joint with fever after an injection: aspirate for Gram stain and culture
+f: no fever with a known gout history and a hot first toe => Aspiration of the affected joint for crystals
+
+@m075
+c: both wrists and hands | stiffness in her hands that lasts up to 40 minutes | all metacarpophalangeal joints are swollen
+m: Synovial inflammation of the small joints causes symmetrical swelling and morning stiffness
+g: Symmetrical swollen MCPs and wrists with stiffness over 30 minutes is rheumatoid arthritis
+f: pitting nails, dactylitis and DIP joint involvement => Psoriatic arthropathy
+f: DIP and thumb base pain with brief stiffness in an older woman => Osteoarthritis
+
+@m076
+c: hot swollen right knee after a fall | INR 6.4 | temperature is 36.5°C | CRP 12
+m: Over-anticoagulation lets a minor injury bleed into the joint
+g: Swollen knee after a fall with a high INR and normal inflammation is haemarthrosis
+f: INR in range with fever 38.5 and a high white cell count => Septic arthritis
+f: an older woman with rhomboid positively birefringent crystals => Pseudogout
+
+@m077
+c: severe left ventricular dysfunction | JVP is raised | sacral oedema
+m: A failing heart underfills the kidneys and congests their veins
+g: AKI with heart failure and fluid overload is cardiogenic
+f: a palpable bladder and bilateral hydronephrosis => Obstructive
+f: started on gentamicin and an NSAID this week => Nephrotoxic
+
+@m078
+c: Ramipril | chronic kidney disease | watery diarrhoea | muscle twitching | urgent ECG
+m: Calcium stabilises the cardiac membrane within minutes but does not lower potassium
+g: Hyperkalaemia with ECG changes: IV calcium gluconate first
+f: potassium 6.8 with a normal ECG => Intravenous Glucose and insulin
+
+@m079
+c: visible haematuria for the past month | 58 year old | negative for white blood cells and nitrites
+m: Visible haematuria over 45 without infection may be a urothelial cancer
+g: Unexplained visible haematuria at 45 or over: 2-week wait urology
+f: dysuria with nitrites and a positive culture => Prescribe cefalexin and as-required analgesia
+
+@m080
+c: frank haematuria | coryzal illness | dysmorphic erythrocytes | normal renal function
+m: IgA deposits in the glomeruli flare with a mucosal infection, causing haematuria within days
+g: Visible glomerular haematuria during a cold is IgA nephropathy
+f: haematuria 2 weeks after a sore throat with low complement => Post-streptococcal glomerulonephritis
+f: a child with heavy proteinuria and oedema but no haematuria => Minimal change disease
+
+@m081
+c: lost 8 kg in weight | blood mixed in | dilated colon proximal to the sigmoid colon
+m: A tumour narrows the sigmoid, causing obstruction after months of change in bowel habit
+g: Large bowel obstruction with weight loss and bleeding is colorectal cancer
+f: an elderly patient with a coffee bean loop and no weight loss => Sigmoid volvulus
+f: fever and LIF tenderness with no weight loss => Diverticulitis
+
+@m082
+c: holiday in Tanzania | Initially he was constipated | temperature is 39.2°C and pulse rate 50 bpm
+m: Typhoid causes rising fever with relative bradycardia, constipation then diarrhoea
+g: High fever with a slow pulse after travel is typhoid
+f: watery diarrhoea and bloating weeks after drinking stream water => Giardia lamblia
+f: bloody diarrhoea with a liver abscess => Entamoeba histolytica
+
+@m083
+c: expresses regret that she survived | adamant that she wishes to go home | Emergency Department
+m: Before stopping someone leaving, the team must know whether she has capacity for this decision
+g: Assess capacity and risk first
+f: she is an informal inpatient on a psychiatric ward trying to leave => Detain the individual according to section 5(2) of the Mental Health Act
+
+@m085
+c: hitting peers and siblings | stealing toys | concentrates and behaves well in literacy classes
+m: Repeated aggression and violation of others' rights is conduct disorder
+g: Aggression, theft and damage over years in a child is conduct disorder
+f: defiance and arguing only, with no aggression or theft => Oppositional defiant disorder
+f: poor attention and restlessness in every setting => Attention-deficit/hyperactivity disorder
+
+@m086
+c: runny nose with sneezing | eyes are watery and red
+m: Histamine release causes sneezing, itch and red watery eyes
+g: Allergic rhinoconjunctivitis: oral antihistamine
+f: nasal blockage is the main problem despite an antihistamine => Steroid nasal spray
+f: a sticky purulent discharge with lids stuck together => Topical chloramphenicol
+
+@m087
+c: persistent ulcer on his ear | enlarged lymph node in the upper part of his neck
+m: Squamous cell carcinoma on sun-exposed skin can spread to local nodes
+g: An ulcer on the ear with a node is SCC; BCC rarely spreads
+f: a pearly rolled edge with telangiectasia and no nodes => Basal cell carcinoma
+
+@m088
+c: slimy and bloody diarrhoea | similar, less severe, episodes for the past 3 years | pain in the right hip | left lower abdomen
+m: Continuous colonic inflammation from the rectum causes bloody mucus and enteropathic arthritis
+g: Relapsing bloody diarrhoea with LIF pain and arthritis is ulcerative colitis
+f: skip lesions, perianal fistulas and terminal ileal disease => Crohn's disease
+f: sudden left-sided pain and bleeding in an older vascular patient => Ischaemic colitis
+
+@m089
+c: colicky left sided abdominal pain radiating to his groin | writhing | blood 4+
+m: Non-contrast CT shows nearly all stones and their position
+g: Most sensitive test for renal colic: non-contrast CT KUB
+f: she is pregnant => Ultrasound scan of renal tract

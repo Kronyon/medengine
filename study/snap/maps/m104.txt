@@ -1,0 +1,115 @@
+@h1591
+c: intense itch | worse at night | partner is also itchy | short, grey, wavy lines between her fingers
+m: The mite burrows in thin skin and the itch is a delayed allergy to it
+g: Night itch with finger-web burrows and an itchy partner is scabies
+f: purple flat-topped papules with white lines in the mouth => Lichen planus
+
+@h1592
+c: scabies | partner and their 3 year old son
+m: Contacts carry mites before they itch; the second dose kills newly hatched mites
+g: Scabies: treat all household members at once and repeat in 7 days
+
+@h1593
+c: nursing home | thick crusted plaques | Many staff are now itchy
+m: Crusted scabies carries huge numbers of mites that topical treatment alone cannot reach
+g: Crusted scabies: oral ivermectin with topical permethrin
+f: classic scabies in a well adult => Topical permethrin twice, 7 days apart
+
+@h1594
+c: white specks | do not brush off | No live lice are seen
+m: Empty egg cases do not prove an active infestation
+g: Nits without live lice: no treatment, recheck by combing
+f: live lice are found on combing => Dimeticone for everyone at home
+
+@h1595
+c: dimeticone on day 0 and day 7
+m: Combing after the second dose catches any lice that survived
+g: Confirm cure by detection combing on day 9 to 15
+
+@h1596
+c: 4 months old | live lice
+m: Lotions are not licensed under 6 months
+g: Head lice under 6 months: wet combing
+f: a 3 year old with live lice => Dimeticone 4% lotion
+
+@h1597
+c: tense, fluid-filled blisters | 2 to 3 cm across
+m: Blisters are named by size
+g: Fluid-filled lesions over 0.5 to 1 cm are bullae
+f: the same blisters 2 mm across => Vesicles
+
+@h1598
+c: allopurinol | 10 days ago | mouth ulcers | 40% of her skin is detached | Nikolsky's sign is positive
+m: A drug-triggered cytotoxic reaction kills keratinocytes, so the epidermis peels off
+g: Detachment over 30% with mucosal involvement after a high-risk drug is TEN
+f: the same rash with 6% detachment => Stevens-Johnson syndrome
+f: target lesions after a cold sore with little detachment => Erythema multiforme
+
+@h1599
+c: toxic epidermal necrolysis | 98/62 | 40% of her skin is detached
+m: Skin failure causes fluid and heat loss and infection
+g: TEN: care in a burns or intensive care unit
+
+@h1600
+c: not been immunised | muffled voice and drooling | sitting forward | soft inspiratory stridor
+m: Haemophilus influenzae type b swells the epiglottis and blocks the airway
+g: High fever, drooling and tripod sitting in an unimmunised child is epiglottitis
+f: a barking cough after a cold with low fever => Croup
+
+@h1601
+c: suspected epiglottitis | drooling and sitting forward | soft inspiratory stridor
+m: Upsetting the child can obstruct the airway completely
+g: Suspected epiglottitis: call senior anaesthetics and ENT, keep him calm
+
+@h1602
+c: epiglottitis | intubated safely | no drug allergies
+m: Ceftriaxone covers Haemophilus influenzae and streptococci
+g: Epiglottitis once the airway is secure: IV ceftriaxone
+
+@h1603
+c: spinning vertigo lasting about 3 hours | ringing, fullness and muffled hearing | low-frequency sensorineural
+m: Excess endolymph distends the inner ear, causing attacks of vertigo and low-tone loss
+g: Vertigo for hours with tinnitus, fullness and low-frequency loss is Ménière's disease
+f: brief vertigo under a minute when turning in bed => BPPV
+f: one long attack of vertigo for days after a viral illness with normal hearing => Vestibular neuronitis
+
+@h1604
+c: worse on the right | asymmetrical sensorineural loss
+m: A vestibular schwannoma causes one-sided sensorineural loss
+g: Asymmetrical sensorineural loss: MRI of the internal acoustic meatus
+
+@h1605
+c: acute attack | vomiting | Parkinson's disease treated with co-careldopa
+m: Prochlorperazine, metoclopramide and haloperidol block dopamine and worsen Parkinson's
+g: Vestibular vomiting in Parkinson's: cyclizine
+f: no Parkinson's disease => Prochlorperazine
+
+@h1606
+c: does not hurt | smooth midline lump just below the hyoid bone | moves up when she sticks out her tongue
+m: The cyst lies on the tract of thyroid descent, attached to the tongue base
+g: A midline neck lump that rises on tongue protrusion is a thyroglossal cyst
+f: a lump in front of sternocleidomastoid in a young adult => Branchial cyst
+f: a midline lump under the chin that does not move with the tongue => Dermoid cyst
+
+@h1607
+c: thyroglossal cyst | listed for excision
+m: The cyst may contain the only thyroid tissue
+g: Before thyroglossal cyst excision: ultrasound to confirm a normal thyroid
+
+@h1608
+c: thyroglossal cyst | normal thyroid gland in the usual place
+m: Removing the middle of the hyoid with the tract stops recurrence
+g: Thyroglossal cyst: Sistrunk procedure
+f: infected and fluctuant now => Incision and drainage
+
+@h1609
+c: cold for 2 days | barking cough and a hoarse voice | stridor only when upset | no recession
+m: Parainfluenza swells the subglottis, causing a barking cough
+g: Barking cough with stridor after a cold in a toddler is croup
+f: high fever, drooling and a toxic child => Epiglottitis
+
+@h1610
+c: agitated | SpO2 91% | stridor at rest | marked recession
+m: Nebulised adrenaline shrinks the swollen airway within minutes
+g: Severe croup: oxygen, nebulised adrenaline and steroid
+f: no stridor at rest and normal saturations => Oral dexamethasone and home

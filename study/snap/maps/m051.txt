@@ -1,0 +1,124 @@
+@h0531
+c: ulcerative colitis | ALP 420 | Antimitochondrial antibody is negative | beaded appearance
+m: Inflammation scars bile ducts inside and outside the liver, linked with UC
+g: UC with cholestasis and beaded ducts on MRCP is primary sclerosing cholangitis
+f: a middle-aged woman with itch and anti-mitochondrial antibodies => Primary biliary cholangitis
+f: a single hilar stricture with weight loss and high CA 19-9 => Cholangiocarcinoma
+
+@h0532
+c: does not drink alcohol | Lipase is 6 times
+m: Gallstones are the commonest cause and change management
+g: Acute pancreatitis: early abdominal ultrasound
+
+@h0533
+c: modified Glasgow score | calcium 1.9
+m: Glasgow-Imrie uses PANCREAS criteria, including calcium under 2
+g: Calcium under 2 mmol/L counts in the modified Glasgow score
+
+@h0534
+c: new drug for her Crohn's disease 4 weeks ago | does not drink alcohol | no gallstones
+m: Azathioprine causes an idiosyncratic pancreatitis in the first weeks
+g: Pancreatitis weeks after a new Crohn's drug: azathioprine
+
+@h0535
+c: 4.8 cm | no abdominal or back pain
+m: Rupture risk rises with diameter, so scans get closer together
+g: Aneurysm of 4.5 to 5.4 cm: ultrasound every 3 months
+f: a 4.0 cm aneurysm => Ultrasound surveillance every year
+f: a 5.7 cm aneurysm => Refer to vascular surgery within 2 weeks
+f: a tender aneurysm with back pain but stable => Emergency repair
+
+@h0536
+c: known 6 cm abdominal aortic aneurysm | BP 70/40 | tender pulsatile mass
+m: A ruptured aneurysm bleeds faster than any scan can be done
+g: Unstable with a known aneurysm and pain: immediate transfer to theatre
+f: stable with a suspected leak => CT angiogram before any decision
+
+@h0537
+c: 64 year old man | His wife, aged 66
+m: Aneurysms are far commoner in older men
+g: AAA screening invites men in the year they turn 65
+
+@h0538
+c: ibuprofen for back pain | spread across his whole abdomen | lying very still | board-like
+m: NSAIDs cause ulcers that perforate and leak acid into the peritoneum
+g: A sudden board-like abdomen in an NSAID user is a perforated peptic ulcer
+f: pain out of proportion to a soft abdomen in AF with a high lactate => Acute mesenteric ischaemia
+f: epigastric pain to the back after alcohol with a high amylase => Acute pancreatitis
+
+@h0539
+c: both the inner and outer walls
+m: Free gas on both sides of the bowel wall outlines it
+g: Rigler's sign shows free intraperitoneal gas
+f: thin lines of gas within the bowel wall => Gas in the bowel wall
+f: a coffee bean loop rising from the pelvis => Sigmoid volvulus
+
+@h0540
+c: cirrhosis and ascites | low-grade fever | more confused than usual
+m: Gut bacteria translocate into ascites, which has poor defences
+g: SBP is confirmed by ascitic neutrophils over 250 per mm3
+
+@h0541
+c: BP 88/50 | Lactate 4.2 | Blood cultures can be taken in the next 5 minutes
+m: Cultures taken before antibiotics are more likely to grow the organism
+g: Septic shock: blood cultures, then IV antibiotics at once
+f: cultures cannot be taken quickly => IV antibiotics, then cultures once stable
+
+@h0542
+c: NEWS2 score is 6 | Lactate 1.4
+m: NICE times antibiotics by NEWS2 and other risk factors
+g: NEWS2 of 5 or 6 with suspected sepsis: antibiotics within 3 hours
+f: a NEWS2 of 8 => 1 hour
+
+@h0543
+c: 2 litres of crystalloid | mean arterial pressure is 58 | Lactate 5
+m: Vasopressors restore vessel tone when fluids alone cannot keep MAP over 65
+g: Hypotension despite fluids: noradrenaline infusion
+f: still shocked on high-dose noradrenaline => IV hydrocortisone 200 mg
+
+@h0544
+c: new sexual partner | cervical motion tenderness | pregnancy test is negative
+m: Chlamydia or gonorrhoea ascends to the uterus and tubes
+g: Pelvic pain with cervical motion tenderness and discharge after a new partner is PID
+f: a positive pregnancy test with shoulder tip pain => Ruptured ectopic pregnancy
+f: sudden one-sided pain with vomiting => Torsion of an ovarian cyst
+f: years of cyclical pain with deep dyspareunia => Endometriosis
+
+@h0545
+c: outpatient | no drug allergies
+m: Treatment must cover gonorrhoea, chlamydia and anaerobes
+g: Outpatient PID: ceftriaxone, doxycycline and metronidazole
+
+@h0546
+c: pelvic inflammatory disease | worse on deep breathing | Gallbladder ultrasound is normal
+m: Infection spreads up the paracolic gutter to inflame the liver capsule
+g: Pleuritic right upper quadrant pain during PID with a normal gallbladder is Fitz-Hugh-Curtis
+f: gallstones with fever and a positive Murphy's sign => Acute cholecystitis
+f: dysuria with loin pain and fever => Pyelonephritis
+
+@h0547
+c: early vomiting | hysterectomy 10 years ago | hernial orifices are normal
+m: Bands from previous surgery kink the small bowel
+g: Small bowel obstruction after previous surgery with normal hernial orifices is adhesions
+f: never had surgery with a tender groin lump => Incarcerated hernia
+f: a coffee bean loop rising from the pelvis => Sigmoid volvulus
+
+@h0548
+c: central dilated loops | cross the whole width of the lumen
+m: Valvulae conniventes span the whole small bowel; haustra do not
+g: Central loops with lines across the full width is small bowel obstruction
+f: peripheral loops with haustra that do not cross the full width => Large bowel obstruction
+
+@h0549
+c: care home resident with Parkinson's disease | not tender, with no peritonism | coffee bean-shaped loop
+m: A long redundant sigmoid twists on its mesentery
+g: Sigmoid volvulus without ischaemia: endoscopic decompression
+f: signs of perforation or ischaemia => Hartmann's procedure
+f: colonic dilatation with no mechanical cause => IV neostigmine infusion
+
+@h0550
+c: stopped warfarin a month ago | soft with little tenderness | Lactate 6
+m: An embolus from AF blocks the superior mesenteric artery and the gut dies
+g: Pain out of proportion to a soft abdomen in AF with a high lactate is mesenteric ischaemia
+f: a board-like abdomen with free gas => Perforated peptic ulcer
+f: loin to groin colic with blood in the urine => Renal colic

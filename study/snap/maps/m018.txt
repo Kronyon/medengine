@@ -1,0 +1,134 @@
+@o-p2020-012
+c: radiating from his left loin to his groin | blood 2+
+m: Most stones are radio-opaque on CT, which shows size and position without contrast
+g: Suspected renal colic in an adult: non-contrast CT KUB within 24 hours
+f: she is pregnant => Ultrasonography of renal tract
+
+@o-p2020-013
+c: Creatinine 150 | creatinine 6 weeks ago was 122 | maximal-dose ramipril | indapamide
+m: Starting or adding to these drugs often raises creatinine a little as glomerular pressure falls
+g: A rise under 30%: no change, repeat the bloods in 2 weeks
+f: creatinine rises by over 30% after the indapamide => Stop indapamide
+f: eGFR falls below 30 => Stop metformin
+
+@o-p2020-014
+c: methotrexate and abatacept | temperature is 38.2°C | white cell count 2645/µL | no crystals
+m: Immunosuppressed joints get infected easily; a negative Gram stain does not exclude infection
+g: Hot joint with fever, neutrophils and no crystals in an immunosuppressed patient: treat as septic arthritis
+f: negatively birefringent needle crystals in the aspirate => Start oral colchicine
+
+@o-p2020-015
+c: unrousable | capillary blood glucose is 2.1
+m: An unconscious hypo needs IV glucose; 20% is effective without the tissue damage of 50%
+g: Unconscious hypoglycaemia with IV access: 75 mL of 20% glucose
+f: no IV access => Glucagon 1 mg by intramuscular injection
+f: drowsy but able to swallow safely => Glucose gel 25 g (contains 10 g glucose) applied to buccal mucosa
+
+@o-p2020-016
+c: eGFR 28 | keen to avoid giving himself injections | maximum dose of gliclazide
+m: DPP-4 inhibitors are oral and can be used in low eGFR with a dose adjustment
+g: Low eGFR, wants tablets only: sitagliptin
+f: he accepts injections and needs weight loss with a BMI over 35 => Dulaglutide (GLP-1 agonist)
+f: eGFR 60 with heart failure or albuminuria => Empagliflozin (SGLT2 inhibitor)
+
+@o-p2020-017
+c: Glycated haemoglobin 44 | BMI is 30
+m: HbA1c 42 to 47 is non-diabetic hyperglycaemia; lifestyle programmes delay diabetes
+g: Pre-diabetes: refer to the Diabetes Prevention Programme
+f: HbA1c 52 confirmed on a repeat test => Prescribe metformin
+
+@o-p2020-018
+c: recent constipation | tenderness in the left iliac fossa | temperature is 38.1°C | 82 year old woman
+m: An inflamed sigmoid diverticulum causes left-sided pain, fever and local peritonism
+g: LIF pain with fever in an older person is sigmoid diverticulitis
+f: sudden left-sided pain with bloody diarrhoea in a vascular patient => Ischaemic colitis
+f: weight loss, iron deficiency and a mass on rectal examination => Rectal carcinoma
+
+@o-p2020-019
+c: green sputum | BP 90/45 mmHg | PT 18 | APTT 43
+m: Sepsis triggers widespread clotting and consumption of factors, prolonging the PT
+g: Prolonged PT with septic shock is DIC; LMWH does not lengthen the PT
+f: prolonged APTT only, in a young woman with recurrent miscarriages => Lupus anticoagulant
+f: prolonged PT in a patient on long antibiotics with poor intake => Vitamin K deficiency
+
+@o-p2020-020
+c: right-sided hearing loss | numbness over the right side of his face | normal tympanometry
+m: A vestibular schwannoma grows at the cerebellopontine angle and presses on the trigeminal nerve
+g: One-sided sensorineural loss with facial numbness: MRI of the internal acoustic meatus
+f: conductive loss with a whitish mass behind the drum and a smelly discharge => CT of petrous temporal bones
+
+@o-p2020-021
+c: bloody diarrhoea | urgency | right eye has been itchy | Stool culture negative
+m: Continuous inflammation from the rectum upwards causes bloody diarrhoea and urgency
+g: Weeks of bloody diarrhoea with urgency and no infection is ulcerative colitis
+f: skip lesions, perianal fistulas and mouth ulcers => Crohn's disease
+f: watery non-bloody diarrhoea in an older woman with a normal colon => Microscopic colitis
+
+@o-p2020-022
+c: right iliac fossa pain | weight loss of 4 kg | Erythrocyte sedimentation rate 108 | Albumin 32
+m: Infection must be excluded before inflammatory bowel disease is diagnosed
+g: New diarrhoea with inflammation: send stool cultures first
+f: stool cultures already negative and IBS is being considered => Faecal calprotectin
+f: iron deficiency with bloating and no inflammation => Anti-tissue transglutaminase antibodies
+
+@o-p2020-023
+c: meningioma indenting the upper optic chiasm | no visual symptoms
+m: Chiasmal compression affects the crossing nasal fibres, which see the temporal fields
+g: Chiasm compression: bitemporal hemianopia
+f: a lesion in the left optic tract => Right-sided homonymous hemianopia
+f: raised intracranial pressure with papilloedema => Bilaterally enlarged blind spots
+
+@o-p2020-024
+c: When angry, his muscles feel limp | remains conscious
+m: Emotion triggers sudden loss of muscle tone without loss of consciousness, part of narcolepsy
+g: Collapse with emotion and preserved awareness is cataplexy
+f: collapse on exertion with no warning and a family history of sudden death => Cardiogenic syncope
+f: shaking with eyes tightly closed and side-to-side head movements => Dissociative (non-epileptic) seizures
+
+@o-p2020-025
+c: chronic kidney disease and heart disease | paracetamol and ibuprofen gel | remains active
+m: NSAIDs worsen kidney and heart disease, so a weak opioid is the safer step up
+g: Knee OA not controlled, with CKD and heart disease: add a weak opioid
+f: no kidney or heart disease, with a PPI => Add oral ibuprofen and lansoprazole
+f: severe pain and disability despite all conservative measures => Refer for knee replacement surgery
+
+@o-p2020-026
+c: radial side of her right wrist | exacerbated by ulnar deviation of the wrist when the thumb is clasped
+m: The thumb tendons in the first dorsal compartment are inflamed and stretched by Finkelstein's test
+g: Radial styloid pain with a positive Finkelstein's test is de Quervain's
+f: pain in the anatomical snuffbox after falling on an outstretched hand => Scaphoid fracture
+f: an older woman with pain at the base of the thumb on pinching => Osteoarthritis of the trapeziometacarpal joint
+
+@o-p2020-027
+c: 50 minutes ago | GCS is 15 | QRS duration 100 ms
+m: Charcoal binds drugs still in the gut if given within an hour
+g: Significant overdose within 1 hour, alert with a safe airway: activated charcoal
+f: a paracetamol level above the treatment line at 4 hours => Start IV acetylcysteine
+f: a tricyclic overdose with a QRS of 140 ms => Start IV 1.26% sodium bicarbonate
+
+@o-p2020-028
+c: painful, stiff left shoulder | type 1 diabetes | reduced passive and active range
+m: The capsule thickens and contracts, so movement is lost in every direction
+g: Lost active and passive movement with diabetes is frozen shoulder
+f: painful arc with full passive movement => Subacromial bursitis
+f: weak abduction after a fall with full passive range => Rotator cuff tear
+
+@o-p2020-029
+c: T-score for the bone mineral density in his femoral neck is – 3.5 | oral prednisolone
+m: Steroids thin bone; a bisphosphonate reduces fracture risk
+g: Osteoporosis on steroids: alendronic acid first line
+f: unable to take oral bisphosphonates and eGFR under 35 => Denosumab
+f: very severe osteoporosis with multiple vertebral fractures despite treatment => Teriparatide
+
+@o-p2020-030
+c: triggered by turning her head quickly | last less than a minute | Otoscopic and neurological examinations are normal
+m: Loose otoconia move with head position and briefly stimulate the canal
+g: Brief positional vertigo with a normal examination is BPPV
+f: attacks lasting hours with hearing loss and tinnitus => Ménière's disease
+f: one continuous attack for days after a cold => Vestibular neuritis
+
+@o-p2020-031
+c: 2 hours after the removal of a chest drain | increasingly difficult to breathe
+m: Air can enter the pleura through the drain track when it is removed
+g: Breathless soon after drain removal is a pneumothorax
+f: breathless days later with dullness at the base again => Recurrence of effusion

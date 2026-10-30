@@ -1,6 +1,6 @@
 {
   "name": "medengine",
-  "version": "2.7.2",
+  "version": "2.7.3",
   "private": true,
   "description": "medengine.exe: OSCE practice with scripts, frameworks, hooks, and an AI patient and examiner you can talk to.",
   "license": "UNLICENSED",
@@ -14,6 +14,6 @@
     "build:offline": "python3 offline/build.py && python3 offline/build_single.py",
     "test:offline": "python3 offline/test_offline.py && python3 offline/test_single.py",
     "build:study": "python3 study/patch_study.py",
-    "test:study": "python3 study/test_study_v6.py study/medengine-study.html && python3 study/test_study_v10.py study/medengine-study.html && python3 study/test_study_v11.py study/medengine-study.html && python3 study/test_study_v12.py study/medengine-study.html && python3 study/test_study_v15.py study/medengine-study.html && python3 study/test_study_v20.py study/medengine-study.html && python3 study/test_study_v22.py study/medengine-study.html && python3 study/test_study_v27.py study/medengine-study.html && python3 study/test_study_v271.py study/medengine-study.html && python3 app/build/test_trg.py study/medengine-study.html study"
+    "test:study": "python3 study/test_study_v6.py study/medengine-study.html && python3 study/test_study_v10.py study/medengine-study.html && python3 study/test_study_v11.py study/medengine-study.html && python3 study/test_study_v12.py study/medengine-study.html && python3 study/test_study_v15.py study/medengine-study.html && python3 study/test_study_v20.py study/medengine-study.html && python3 study/test_study_v22.py study/medengine-study.html && python3 study/test_study_v27.py study/medengine-study.html && python3 study/test_study_v271.py study/medengine-study.html && python3 study/test_study_v273.py study/medengine-study.html && python3 app/build/test_trg.py study/medengine-study.html study"
   }
 }

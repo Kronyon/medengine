@@ -1,0 +1,118 @@
+@h1511
+c: hard, irregular breast lump | Fat necrosis is thought likely | mild skin tethering
+m: Fat necrosis cannot be told from cancer by examination alone
+g: A suspicious breast lump, whatever the history: triple assessment with core biopsy
+
+@h1512
+c: grown quickly over 2 months | 7 cm | leaf-like stroma with high cellularity
+m: Phyllodes tumours recur locally unless removed with a clear margin
+g: Phyllodes tumour: wide local excision with clear margins
+f: a small fibroadenoma that the patient wants removed => Enucleation of the lump
+
+@h1513
+c: tender lump in her right groin for 12 hours | vomited several times | irreducible | below and lateral to the pubic tubercle | abdomen is distended
+m: The narrow rigid femoral canal traps and strangles bowel
+g: A tender irreducible lump below and lateral to the pubic tubercle with obstruction is a strangulated femoral hernia
+f: a soft lump that disappears lying down with a thrill on coughing => Saphena varix
+f: a lump above and medial to the pubic tubercle => Direct inguinal hernia
+
+@h1514
+c: irreducible femoral hernia | Lactate 4.1
+m: Ischaemic bowel switches to anaerobic metabolism and releases lactate
+g: A raised lactate most suggests the bowel is compromised
+
+@h1515
+c: minimal discomfort | reducible left inguinal hernia that is not tender
+m: Inguinal hernias in men have a low strangulation risk
+g: Minimally symptomatic inguinal hernia: watchful waiting or elective repair
+f: tender, irreducible and vomiting => Emergency repair
+
+@h1516
+c: smokes | pulsatile, expansile swelling behind his left knee
+m: An expansile pulsation means the artery itself is dilated
+g: An expansile popliteal swelling is a popliteal artery aneurysm
+f: a non-pulsatile soft swelling in an arthritic knee => Baker's cyst
+
+@h1517
+c: 2.6 cm popliteal artery aneurysm
+m: Aneurysmal disease affects several sites; up to half also have an AAA
+g: Popliteal aneurysm: ultrasound of the abdominal aorta
+
+@h1518
+c: abdominal aortic aneurysm on surveillance | no abdominal or back pain | 4.6 cm | 5.3 cm
+m: Growth over 1 cm a year or a diameter of 5.5 cm triggers referral
+g: 5.3 cm with growth of 0.7 cm a year: repeat scan in 3 months
+f: a diameter of 5.5 cm or growth over 1 cm in a year => Refer for repair within 2 weeks
+
+@h1519
+c: atrial fibrillation | not on anticoagulation | suddenly painful, cold and white | never had pain in her legs on walking | left leg pulses are normal
+m: Clot from the left atrium lodges in a normal artery with no collaterals
+g: Sudden ischaemia in a previously normal leg with AF is an arterial embolus
+f: years of claudication with weak pulses in both legs => In-situ thrombosis
+
+@h1520
+c: loss of sensation in the toes | mild weakness of dorsiflexion
+m: Rutherford categories depend on sensory loss, weakness and Doppler signals
+g: Sensory loss with mild weakness is category IIb immediately threatened
+f: sensory loss limited to the toes with no weakness => Category IIa marginally threatened
+f: fixed mottling with paralysis => Category III irreversible
+
+@h1521
+c: embolus | large haemorrhagic stroke 3 weeks ago
+m: Recent intracranial bleeding rules out any thrombolysis
+g: Embolic limb ischaemia with recent haemorrhagic stroke: surgical embolectomy
+f: no bleeding risk with a long distal clot => Catheter-directed thrombolysis
+
+@h1522
+c: axillary clearance and radiotherapy 2 years ago | skin is thickened | cannot pinch the skin | no redness or warmth
+m: Removing and irradiating nodes leaves lymph pooling in the arm
+g: Slow arm swelling with a positive Stemmer sign after axillary treatment is secondary lymphoedema
+f: sudden painful swelling with dilated veins over the shoulder => Axillary vein thrombosis
+
+@h1523
+c: over 6 weeks | It had been normal until then | firm node in the right axilla
+m: New swelling after cancer can mean nodal recurrence blocking drainage
+g: New arm swelling with an axillary node after breast cancer: breast clinic review for recurrence
+f: stable swelling for 5 years with no new signs => Compression sleeve and review in a year
+
+@h1524
+c: lymphoedema | hot, red, tender arm | rash after penicillin
+m: Cellulitis in lymphoedema is usually streptococcal
+g: Cellulitis in lymphoedema with penicillin allergy: clarithromycin
+f: no penicillin allergy and suspected Staph => Flucloxacillin
+
+@h1525
+c: white then blue in the cold | difficulty swallowing | tight, shiny skin
+m: Systemic sclerosis causes vasospasm, skin fibrosis and oesophageal dysmotility
+g: Raynaud's with sclerodactyly and dysphagia points to systemic sclerosis
+f: Raynaud's with a malar rash, mouth ulcers and joint pain => Systemic lupus erythematosus
+
+@h1526
+c: tight skin on her fingers | Anti-centromere antibody positive
+m: Anti-centromere fits limited cutaneous systemic sclerosis
+g: Limited systemic sclerosis: anti-centromere positive
+f: a malar rash with nephritis => Anti-dsDNA positive
+
+@h1527
+c: worse since a new tablet was added
+m: Beta-blockers leave alpha vasoconstriction unopposed in the fingers
+g: Raynaud's worsened by a new antihypertensive: bisoprolol
+f: asked which drug would ease the Raynaud's => Amlodipine
+
+@h1528
+c: weight gain, constipation and feeling cold | reflexes relax slowly | TSH 24 | Free T4 6
+m: A failing thyroid lowers T4, so the pituitary drives TSH up
+g: High TSH with a low free T4 is primary hypothyroidism
+f: a raised TSH with a normal free T4 => Subclinical hypothyroidism
+f: low TSH with a low free T4 => Secondary hypothyroidism
+
+@h1529
+c: 78 year old man with angina | primary hypothyroidism
+m: A sudden rise in metabolic rate can trigger angina or infarction
+g: Older or cardiac patient: start levothyroxine at 25 micrograms daily
+f: a fit 40 year old => 1.6 micrograms per kg daily
+
+@h1530
+c: stable dose of levothyroxine with breakfast | two new tablets | TSH 9.8
+m: Calcium and iron bind levothyroxine in the gut and stop absorption
+g: Raised TSH on a stable dose after starting new tablets: calcium carbonate

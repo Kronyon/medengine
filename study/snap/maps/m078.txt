@@ -1,0 +1,119 @@
+@h1071
+c: three episodes | low back stiffness | worse in the morning and eases with exercise | Schober's
+m: HLA-B27 inflammation affects the spine and the iris
+g: Recurrent anterior uveitis with inflammatory back pain is ankylosing spondylitis
+f: mouth and genital ulcers as well => Behçet's disease
+f: bilateral hilar nodes with erythema nodosum => Sarcoidosis
+
+@h1072
+c: rheumatoid arthritis | wakes her at night | purple tinge | does not blanch
+m: Inflammation of the deep sclera causes boring pain; deep vessels do not blanch
+g: A deep tender red eye with a purple tinge that does not blanch is scleritis
+f: a mild ache with sectoral redness that blanches with phenylephrine => Episcleritis
+f: photophobia with a small irregular pupil => Anterior uveitis
+
+@h1073
+c: Scleritis is diagnosed
+m: About half of scleritis is linked with systemic autoimmune disease
+g: Scleritis is most often linked with rheumatoid arthritis
+
+@h1074
+c: suspects scleritis
+m: Scleritis can thin and perforate the eye wall
+g: Suspected scleritis: same-day ophthalmology referral
+f: episcleritis => Lubricating drops
+
+@h1075
+c: now normal
+m: A hole in the iris lets fluid bypass the pupil block; the other eye shares the shallow angle
+g: Angle closure after the pressure is controlled: bilateral laser iridotomy
+f: open-angle glaucoma => Selective laser trabeculoplasty
+
+@h1076
+c: no symptoms | 28 mmHg | cupping
+m: Laser to the trabecular meshwork improves outflow without daily drops
+g: New open-angle glaucoma: selective laser trabeculoplasty first
+f: laser is unsuitable or declined => Latanoprost drops
+
+@h1077
+c: asthma | new eye drop | Pulse rate 56
+m: Beta-blocker drops are absorbed through the nose into the blood
+g: Wheeze and a slow pulse after a new glaucoma drop: timolol
+f: a darker iris and longer eyelashes => Latanoprost
+
+@h1078
+c: sinusitis last week | bulges forward | hurts to move the eye | Visual acuity is reduced
+m: Infection behind the orbital septum affects the eye muscles and optic nerve
+g: Proptosis, painful limited movement and reduced vision after sinusitis is orbital cellulitis
+f: swollen lids with painless full movements and normal vision => Preseptal cellulitis
+f: a tender swelling over the tear sac at the inner corner => Dacryocystitis
+
+@h1079
+c: pain on eye movement and proptosis
+m: CT shows the extent of spread and any abscess needing drainage
+g: Suspected orbital cellulitis: contrast CT orbits and sinuses
+
+@h1080
+c: sinus infection
+m: Only the thin lamina papyracea separates the ethmoid sinus from the orbit
+g: Orbital spread most often comes from the ethmoid sinus
+
+@h1081
+c: very short-sighted | flashing lights and new floaters | dark curtain | grey, elevated retina
+m: The vitreous pulls a tear in the retina and fluid lifts it off
+g: Flashes and floaters then a curtain is retinal detachment
+f: flashes and floaters with no field loss => Posterior vitreous detachment
+f: sudden painless loss with a cherry-red spot => Central retinal artery occlusion
+
+@h1082
+c: Surgery is being planned
+m: Once the macula detaches, central vision may not recover
+g: Surgery is most urgent while central vision is still intact
+
+@h1083
+c: retinal tear
+m: Long myopic eyes have thin peripheral retina that tears easily
+g: The strongest risk factor is high myopia
+f: proliferative retinopathy causing a tractional detachment => Diabetes
+
+@h1084
+c: atrial fibrillation | pale | cherry-red spot
+m: An embolus blocks the central retinal artery; the thin fovea shows the choroid as a red spot
+g: Sudden painless loss with a pale retina and a cherry-red spot is central retinal artery occlusion
+f: widespread haemorrhages like a stormy sky => Central retinal vein occlusion
+f: a pale swollen disc with jaw claudication => Anterior ischaemic optic neuropathy
+
+@h1085
+c: central retinal artery occlusion | jaw pain when chewing
+m: Giant cell arteritis can block the retinal artery and blind the other eye
+g: CRAO with jaw claudication: urgent ESR and CRP
+
+@h1086
+c: cleared completely after 5 minutes | carotid bruit
+m: An embolus from the carotid briefly blocks the retinal artery
+g: Amaurosis fugax: aspirin and TIA clinic
+f: zigzag lines spreading over 20 minutes then a headache => Triptan if it recurs
+
+@h1087
+c: gradually blurred over a year | glare | red reflex is reduced
+m: The lens clouds slowly and scatters light
+g: Slow painless blur with glare and a dim red reflex is cataract
+f: straight lines look wavy with central distortion => Age-related macular degeneration
+
+@h1088
+c: 6/9 | can no longer drive at night
+m: Surgery is offered when a cataract affects daily life, not at a set acuity
+g: Cataract stopping him driving for work: refer for cataract surgery
+f: no effect on daily life => No referral needed
+
+@h1089
+c: oral prednisolone | trouble reading
+m: Steroids cause opacity at the back of the lens, worst in bright light and for reading
+g: Long-term steroids cause posterior subcapsular cataract
+f: an 80 year old on no drugs => Nuclear sclerotic cataract
+
+@h1090
+c: over a week | door frames look bent | haemorrhage at the macula
+m: New vessels under the macula leak and bleed
+g: Rapid distortion with a macular haemorrhage is wet macular degeneration
+f: gradual central loss over years with drusen => Dry macular degeneration

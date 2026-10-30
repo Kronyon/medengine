@@ -1,0 +1,117 @@
+@h1191
+c: started haloperidol 5 days ago | lead-pipe rigidity | no clonus | Creatine kinase 12,000
+m: Dopamine blockade disturbs temperature control and muscle tone over days
+g: Neuroleptic malignant syndrome: stop haloperidol and give IV fluids
+f: clonus within a day of adding tramadol to sertraline => Cyproheptadine
+f: a twisted neck and upward-rolled eyes hours after the first dose => Add procyclidine
+
+@h1192
+c: more severe | no other illnesses
+m: SSRIs are effective and safer in overdose
+g: Depression needing medication: sertraline
+
+@h1193
+c: 22 year old woman | starts sertraline today
+m: Under 25s have a higher risk of suicidal thoughts when starting antidepressants
+g: Under 25 starting an antidepressant: review at 1 week
+f: a 45 year old with no raised risk => 2 weeks
+
+@h1194
+c: lived alone since his divorce | took an overdose 20 years ago
+m: Final acts show a settled intention to die
+g: Recently making a will most raises immediate suicide risk
+
+@h1195
+c: 2 hours a night for 6 days | £8,000 | chosen by God
+m: Mania raises mood and energy, impairs judgement and can bring grandiose delusions
+g: Elevated mood with no sleep, reckless spending and grandiose delusions is mania with psychotic symptoms
+f: 4 days of mood change, still working, with no psychosis => Hypomania
+
+@h1196
+c: first manic episode | not pregnant
+m: Antipsychotics control acute mania quickly
+g: Acute mania: olanzapine
+
+@h1197
+c: just started lithium
+m: Levels are standardised at 12 hours after the dose
+g: Lithium level: 12 hours after the last dose
+
+@h1198
+c: Guided self-help has not worked
+m: SSRIs reduce anxiety and are first line for GAD
+g: GAD needing medication: sertraline
+f: SSRIs and SNRIs not tolerated => Pregabalin
+
+@h1199
+c: peaks within 10 minutes | worries constantly about having another | ECG and thyroid function are normal
+m: Surges of fear lead to worry about more attacks
+g: Recurrent unexpected attacks with fear of more is panic disorder
+f: worry about many things with no discrete attacks => Generalised anxiety disorder
+
+@h1200
+c: pounding headache, sweating and palpitations | 210/110 | 146/92
+m: A catecholamine-secreting tumour releases adrenaline in bursts
+g: Episodic headache, sweating and palpitations with severe hypertension is phaeochromocytoma
+f: normal blood pressure during attacks with normal metanephrines => Panic disorder
+f: flushing and diarrhoea with liver metastases => Carcinoid syndrome
+
+@h1201
+c: 8 months ago | flashbacks and nightmares | avoids driving | jumps at loud noises
+m: Trauma memories stay unprocessed, causing re-experiencing, avoidance and hyperarousal
+g: Re-experiencing, avoidance and hyperarousal months after trauma is PTSD
+f: symptoms only in the first days after the trauma => Acute stress reaction
+f: low mood and worry after a break-up with no re-experiencing => Adjustment disorder
+
+@h1202
+c: prefer a talking treatment
+m: Trauma-focused therapy processes the memory
+g: PTSD: trauma-focused CBT
+f: she prefers medication => Sertraline first
+
+@h1203
+c: single compulsory group debriefing
+m: Debriefing does not prevent PTSD and may make it worse
+g: After a major incident: support and active monitoring
+
+@h1204
+c: intrusive thoughts | horrify her | checks the baby's breathing | full insight
+m: Unwanted thoughts cause anxiety that rituals briefly relieve
+g: Horrifying intrusive thoughts with checking rituals and insight is OCD
+f: confusion, hallucinations and delusions in the first weeks after birth => Postpartum psychosis
+f: persistent low mood and loss of interest => Postnatal depression
+
+@h1205
+c: two SSRIs at full dose for 12 weeks each
+m: Clomipramine is strongly serotonergic
+g: OCD after two adequate SSRIs: clomipramine
+
+@h1206
+c: 6 weeks ago | improved a little | no side effects
+m: OCD responds slowly and often needs high doses
+g: Partial response at 6 weeks in OCD: continue to 12 weeks
+f: no response at 12 weeks on the maximum dose => Switch to clomipramine now
+
+@h1207
+c: convinced she has bowel cancer | reassurance does not last | accepts it may be anxiety
+m: Health anxiety focuses on one feared disease despite normal tests
+g: Fear of one serious disease despite normal tests is hypochondriasis
+f: many physical symptoms across systems over years => Somatisation disorder
+f: a fixed false belief with no insight => Delusional disorder
+
+@h1208
+c: legal dispute about compensation | walk normally when he thinks no one is watching
+m: Malingering is conscious faking for an external reward
+g: Faking disability for compensation is malingering
+f: secretly injecting insulin to adopt the sick role => Factitious disorder
+
+@h1209
+c: many normal tests | attends the surgery often
+m: Continuity and planned reviews reduce unplanned attendance and tests
+g: Medically unexplained symptoms: regular planned GP reviews
+
+@h1210
+c: BMI 12.8 | Pulse rate 38 | 78/46 | 35.2°C | Potassium 2.9
+m: Severe starvation causes bradycardia, hypotension, hypothermia and electrolyte loss
+g: Anorexia with very low BMI and unstable observations: urgent medical admission
+f: BMI 16.5 with stable observations => Outpatient CBT

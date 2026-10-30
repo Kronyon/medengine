@@ -1,0 +1,132 @@
+@o-p2017-041
+c: abdominoperineal resection | severe COPD
+m: Opioids depress breathing and coughing; an epidural blocks pain without that
+g: Major abdominal surgery in severe lung disease: epidural
+f: no lung disease and an epidural is contraindicated => Patient controlled intravenous analgesia
+
+@o-p2017-042
+c: participants with acoustic neuroma | comparable group of participants without acoustic neuroma
+m: Starting from people who have the disease and comparing past exposure is a case-control design
+g: Chosen by outcome, then looking back at exposure: case-control
+f: phone users and non-users followed forward to see who develops a tumour => Cohort study
+f: phone use and tumours measured at the same moment in one survey => Cross-sectional study
+f: comparing national phone sales with national tumour rates => Ecological study
+
+@o-p2017-043
+c: type 1 diabetes | Urinary albumin creatinine ratio 42 | 160/90 mmHg
+m: ACE inhibitors lower pressure in the glomerulus and reduce albumin leak
+g: Hypertension with diabetic albuminuria: ACE inhibitor
+f: Black African family origin with no diabetes or albuminuria => Calcium channel blocker
+
+@o-p2017-044
+c: amiodarone hydrochloride | fine bibasal inspiratory crackles | bilateral reticular opacities | no finger clubbing
+m: Amiodarone causes lung fibrosis, seen as reticular change at the bases
+g: Suspected drug-induced interstitial lung disease: high resolution CT
+f: orthopnoea with a large heart and raised JVP => Echocardiography
+f: fever with a productive cough and a lobar opacity => Induced sputum for microscopy and culture
+
+@o-p2017-045
+c: visual hallucinations of snakes and mice | 80 units of alcohol per week | He has not seen her for the past week | temperature is 37.6°C, pulse rate 100 bpm
+m: Days after stopping heavy drinking, the excitable brain causes confusion, hallucinations and autonomic overdrive
+g: Confusion, hallucinations, fever and tachycardia days after stopping alcohol is delirium tremens
+f: confusion with ataxia and eye movement problems => Wernicke's encephalopathy
+f: alert but cannot form new memories and fills the gaps with stories => Korsakoff's psychosis
+f: confusion with a flapping tremor, jaundice and ascites => Hepatic encephalopathy
+
+@o-p2017-046
+c: Sodium 117 | Serum osmolality 252 | Urine osmolality 585 | JVP 2 cm | smokes 20 cigarettes
+m: ADH from a lung tumour opens aquaporins, so the collecting duct holds water
+g: Low sodium and serum osmolality with concentrated urine in a euvolaemic patient: SIADH
+f: urine osmolality under 100 with a history of drinking many litres a day => Increased water ingestion
+f: low BP, high potassium and pigmentation => Reduced cortisol secretion
+
+@o-p2017-047
+c: sudden severe headache | autosomal dominant polycystic kidney disease | CT scan of head is normal | 24 hours ago
+m: Polycystic kidney disease is linked to berry aneurysms; CT sensitivity falls after 6 hours
+g: Thunderclap headache with a normal CT more than 6 hours later: LP for xanthochromia
+f: over 50 with jaw claudication and a tender temporal artery => Erythrocyte sedimentation rate
+
+@o-p2017-048
+c: struggle to get up from a chair or raise his arms | Erythrocyte sedimentation rate 105
+m: Polymyalgia inflames the shoulder and hip girdle with a high ESR
+g: Girdle stiffness with a very high ESR: prednisolone
+f: true weakness with a CK of 5,000 on a statin => Stop simvastatin
+
+@o-p2017-049
+c: Libyan | weakness of hip flexion | Calcium 2.1 | Alkaline phosphatase 230 | Parathyroid hormone 14.5
+m: Low vitamin D softens bone and causes proximal weakness, with low calcium and raised PTH
+g: Low calcium, high ALP and PTH with proximal weakness: check vitamin D for osteomalacia
+f: high calcium with high PTH => Ultrasound scan of neck
+f: weakness with muscle pain on a statin => Creatine kinase
+
+@o-p2018-001
+c: no pulse | asystole
+m: Asystole is non-shockable; adrenaline is given as soon as possible
+g: Non-shockable rhythm: adrenaline 1 mg straight away with CPR
+f: ventricular fibrillation on the monitor => Cardiac defibrillation
+
+@o-p2018-002
+c: pain in both shoulders, hips and thighs | 2–3 hours to loosen up | CRP 87
+m: Girdle inflammation responds dramatically to low-dose steroid
+g: Polymyalgia rheumatica: prednisolone 15 mg
+f: symmetrical swollen small joints with positive anti-CCP => Methotrexate
+
+@o-p2018-003
+c: rescued from a house fire | dull headache | oxygen saturation 100%
+m: Carbon monoxide reads as oxygen on a pulse oximeter, so saturations look normal
+g: Smoke exposure with headache: measure carboxyhaemoglobin
+f: burning plastics with a very high lactate and collapse => Lactate
+f: blue lips after dapsone with a normal PaO2 => Methaemoglobin
+
+@o-p2018-004
+c: thrombus in superficial femoral vein | otherwise well
+m: An unprovoked DVT can be the first sign of a hidden cancer
+g: This 2018 paper expects a CT for an unprovoked DVT; NICE 2020 now advises examination and baseline tests only
+f: a man with hesitancy and a hard prostate => Serum prostate specific antigen
+f: back pain with high calcium and anaemia => Serum protein electrophoresis
+
+@o-p2018-005
+c: mechanical aortic valve replacement | 3 days ago
+m: Mechanical valves form clots that DOACs do not prevent
+g: Mechanical valve: lifelong warfarin
+f: a bioprosthetic valve with non-valvular AF => Apixaban
+
+@o-p2018-006
+c: smoking histories from pregnant women at the time of first prenatal visit | then assessing birthweight at delivery
+m: Exposure is recorded first, then the group is followed forward to the outcome
+g: Exposure measured before outcome, followed forward: prospective cohort
+f: mothers of low birthweight babies asked afterwards about smoking => Case–control
+f: old notes searched for past smoking and birthweights => Retrospective cohort
+
+@o-p2018-007
+c: well-defined areas of scale formation at the sites of minor skin injuries
+m: The Koebner phenomenon: trauma triggers new plaques in psoriasis
+g: Scaly plaques at injury sites is psoriasis
+f: pale depigmented patches appearing at injury sites => Vitiligo
+f: greasy yellow scale on the scalp and nasolabial folds => Seborrhoeic dermatitis
+
+@o-p2018-008
+c: vomiting and severe chest pain after eating a large meal | subcutaneous emphysema | BP 95/50 mmHg
+m: Forceful vomiting tears the full thickness of the oesophagus, leaking air into the mediastinum
+g: Chest pain after vomiting with surgical emphysema is Boerhaave's
+f: a small haematemesis after retching with stable observations => Mallory–Weiss tear
+
+@o-p2018-009
+c: urinary osmolality is 152 | Following the administration of desmopressin | urinary osmolality is 660
+m: The kidneys respond to desmopressin, so the pituitary is not making ADH
+g: Cranial diabetes insipidus: image the pituitary
+f: urine concentrates normally after water deprivation alone => Supervised fluid restriction and daily weights
+f: calcium high at 2.9 with polyuria => Technetium-99 Sestamibi parathyroid scan
+
+@o-p2018-010
+c: galactorrhoea | Prolactin 5000 | 4-mm mass | Visual field examination is normal
+m: Dopamine agonists switch off prolactin secretion and shrink the tumour
+g: Prolactinoma: cabergoline first line
+f: a growth hormone-secreting tumour with acromegaly unsuitable for surgery => Octreotide
+f: a tumour pressing on the chiasm that has not responded to cabergoline => Transsphenoidal surgery
+
+@o-p2018-011
+c: vomiting on and off all day | protection for the lungs
+m: Only a cuffed tube in the trachea seals the airway against regurgitation
+g: Aspiration risk: tracheal intubation
+f: a fasted patient having a short elective procedure => Laryngeal mask airway

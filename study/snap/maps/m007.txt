@@ -1,0 +1,135 @@
+@o-mla2-041
+c: 9 month old | coryzal symptoms | widespread wheeze and crackles | oxygen saturation 97% in air | adequate oral intake
+m: RSV inflames the small airways, causing wheeze and crackles that settle on their own
+g: Bronchiolitis with good feeding and saturations over 92%: home with safety netting
+f: feeds under half of normal, recession and saturations under 92% => Admission to paediatric ward
+
+@o-mla2-042
+c: four days post- caesarean section | someone is trying to kill her and her baby | Her mood has not been low | orientated in time and place
+m: An abrupt psychosis in the first postnatal weeks, with paranoid delusions about the baby
+g: Delusions with a clear sensorium days after birth is puerperal psychosis
+f: disorientated with fluctuating attention and a fever => Delirium
+f: low mood with guilt and loss of interest weeks after birth => Post-natal depression
+f: tremor, sweating and hallucinations 2 days after stopping heavy drinking => Alcohol withdrawal
+
+@o-mla2-043
+c: unprotected sexual intercourse four days ago
+m: A copper IUD works up to 5 days after sex and provides ongoing contraception
+g: Day 4 after sex: the copper coil is most effective
+f: within 72 hours and she does not want a device => High dose oral progestogen
+
+@o-mla2-044
+c: MCV 110 | eight units of alcohol per week | TSH 2.0
+m: Lack of B12 or folate stalls DNA synthesis, so red cells grow large
+g: Macrocytic anaemia with a normal TSH and modest alcohol: check B12 and folate
+f: MCV 70 with a low haemoglobin => Ferritin
+f: anaemia with jaundice and a high reticulocyte count => Haptoglobin
+
+@o-mla2-045
+c: short for her age | webbed neck and widely spaced nipples | no breast development
+m: Missing an X chromosome causes streak ovaries, short stature and a webbed neck
+g: Short girl with a webbed neck and absent puberty is Turner syndrome, 45X0
+f: a tall boy with small testes and gynaecomastia => 47XXY
+f: flat face, single palmar crease and learning disability => Trisomy 21
+
+@o-mla2-046
+c: unconscious for a minute but recovered | Four hours later he becomes drowsy | GCS is 7/15
+m: A torn middle meningeal artery bleeds between skull and dura, and pressure builds after a lucid interval
+g: Lucid interval then rapid decline is an extradural haematoma
+f: deep coma from the moment of impact with a normal-looking CT => Diffuse axonal injury
+f: sudden thunderclap headache with no trauma => Subarachnoid haemorrhage
+
+@o-mla2-047
+c: multiple skin lesions on his chest wall | not itchy | apyrexial and otherwise well
+m: A poxvirus causes pearly umbilicated papules that clear on their own
+g: Painless pearly papules with a central dimple in a well child is molluscum
+f: fever and itchy crops of vesicles in different stages => Chickenpox
+f: ulcers in the mouth with spots on the hands and feet => Hand, foot and mouth disease
+
+@o-mla2-048
+c: pain on shoulder abduction between 80° and 120° | X-ray of right shoulder is normal
+m: The inflamed bursa is pinched under the acromion in the middle of the arc
+g: Painful arc from 80 to 120 degrees is subacromial impingement
+f: pain and stiffness of both shoulders and hips over 50 with a high ESR => Polymyalgia rheumatica
+f: neck pain radiating down the arm with dermatomal tingling => Cervical radiculopathy
+
+@o-mla2-049
+c: BMI measured
+m: Measured quantities that can take any value in a range are continuous
+g: BMI can take any value, so it is continuous
+f: counting the number of hospital admissions each patient has => Discrete
+f: recording smoker or non-smoker => Categorical
+
+@o-mla2-050
+c: dying | semi- conscious | increasingly rattly
+m: Antimuscarinics dry up secretions pooled in the throat
+g: Death rattle: hyoscine
+f: agitation and restlessness in the last days => Midazolam
+f: persistent nausea not settled by haloperidol => Levomepromazine
+
+@o-mla2-051
+c: red, swollen and hot to touch | unable to weight bear | White cell count 23.4 | CRP 122
+m: Bacteria in a joint destroy cartilage within hours, so pus must be found and drained
+g: Hot swollen joint with fever and raised markers: aspirate before antibiotics
+f: a known gout sufferer whose aspirate has already shown urate crystals => Serum uric acid
+
+@o-mla2-052
+c: periods are every 38-45 days | trying to conceive for the last 18 months
+m: Long irregular cycles mean she is not ovulating every month
+g: Oligomenorrhoea with subfertility points to anovulation, often PCOS
+f: regular cycles but previous pelvic inflammatory disease => Uterine tube blockage
+f: regular cycles, normal tubes but low sperm count on analysis => Abnormal semen
+
+@o-mla2-053
+c: right tonsil | never smoked | squamous cell carcinoma
+m: HPV 16 drives oropharyngeal cancer in younger non-smokers
+g: Tonsillar SCC in a non-smoker is HPV-related
+f: nasopharyngeal cancer in someone from southern China => Epstein–Barr virus
+f: adult T-cell leukaemia in someone from the Caribbean => Human T-lymphotropic virus
+
+@o-mla2-054
+c: bed bound for the past 2 weeks | probable lung carcinoma | not fit for further investigation | treated with intravenous furosemide
+m: Opioids reduce the sense of breathlessness at the end of life
+g: Dying patient still breathless after diuretic: morphine
+f: well enough for active treatment with high BP and pulmonary oedema => Intravenous glyceryl trinitrate
+f: acute COPD exacerbation with rising carbon dioxide and active treatment wanted => Nasal intermittent positive pressure ventilation
+
+@o-mla2-055
+c: 14 days since her last period started | lasting only a few minutes
+m: The LH surge triggers ovulation; the ruptured follicle irritates the peritoneum
+g: Mid-cycle pain is mittelschmerz, timed with the LH surge
+f: pain in the week after ovulation with a raised basal temperature => Progesterone
+f: milky nipple discharge and missed periods => Prolactin
+
+@o-mla2-056
+c: wants to have his terminal care on the respiratory ward | knows and trusts the nurses | son agrees with the doctor
+m: A patient's known wishes guide decisions when they can no longer speak for themselves
+g: His previously stated wish is the most important factor
+f: he never said where he wanted to be and no one knows his wishes => Consultant's view of patient's best interests
+
+@o-mla2-057
+c: discomfort when chewing food | 74 year old woman | CRP 45
+m: Granulomatous inflammation of the temporal artery narrows it, causing jaw claudication
+g: New headache with jaw claudication over 50: temporal artery biopsy
+f: clicking jaw with pain in front of the ear and normal inflammatory markers => X-ray of temporomandibular joint
+f: swelling of the cheek when eating => Parotid sialogram
+
+@o-mla2-058
+c: 75 men and a group of 75 women | normally distributed with equal variance
+m: The t-test compares two means when the data are normal
+g: Two independent groups, normal data: unpaired t-test
+f: the data are skewed rather than normal => Mann–Whitney test
+f: the same people measured before and after exercise => Paired Student's t-test
+f: three or more groups are compared => Analysis of variance
+
+@o-mla2-059
+c: taking haloperidol | cog-wheel rigidity
+m: Dopamine blockade causes drug-induced parkinsonism; an anticholinergic restores the balance
+g: Antipsychotic parkinsonism: procyclidine, not a dopamine drug
+f: idiopathic Parkinson's disease affecting daily life => Co-beneldopa
+
+@o-mla2-060
+c: flexion deformity of the finger at the distal interphalangeal joint | unable to actively extend
+m: The extensor tendon is torn from the base of the distal phalanx; holding it straight lets it heal
+g: Mallet finger: continuous extension splint for 6 to 8 weeks
+f: a large displaced fracture fragment with subluxation of the joint => Internal finger fixation

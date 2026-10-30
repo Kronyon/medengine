@@ -1,0 +1,135 @@
+@m025
+c: high levels of stress at work | paralysis of both legs | inconsistent sensory deficits
+m: Psychological stress is converted into a neurological symptom without conscious intent
+g: Neurological deficit after stress with inconsistent signs and no faking is conversion disorder
+f: he deliberately produces the symptoms to stay in the sick role => Factitious disorder
+f: he fears a serious illness despite normal tests and has no deficit => Hypochondriacal disorder
+
+@m026
+c: intrusive and distressing thoughts | washing her hands up to 30 times per day
+m: Facing the feared trigger without performing the ritual lets the anxiety fade on its own
+g: OCD: exposure and response prevention
+f: nightmares and flashbacks after a trauma => Eye movement desensitisation reprocessing
+f: a specific phobia of dogs treated by step-by-step relaxation and exposure => Systemic desensitisation
+
+@m027
+c: wife has been replaced by a woman in disguise
+m: Familiar people are recognised by face but feel unfamiliar, so the brain concludes they are impostors
+g: Believing a loved one has been replaced by an impostor is Capgras syndrome
+f: believes he is dead and his organs have rotted => Nihilistic delusion
+f: fills memory gaps with invented stories in Korsakoff's => Confabulation
+
+@m028
+c: elbows, knees and over the sacrum | not tried any treatment
+m: Vitamin D analogues slow skin cell turnover in plaques
+g: Untreated plaque psoriasis on the trunk and limbs: topical calcipotriol with emollient
+f: a fungal ring with an advancing scaly edge => Lamisil (terbinafine) cream
+f: comedones and papules on the face => Duac gel (benzoyl peroxide and clindamycin)
+
+@m029
+c: vesicular eczema on the palms | lateral borders of the fingers
+m: Thick palm skin needs a very potent steroid to work
+g: Pompholyx on the palms: very potent steroid with emollient
+f: the same eczema on the face => 1% hydrocortisone cream and emollient
+f: eczema on the eyelids that needs a steroid-sparing treatment => Protopic (tacrolimus) ointment and an emollient
+
+@m030
+c: ulcer in the left Little's area | conjunctivitis | intermittent nose bleeds
+m: c-ANCA vasculitis ulcerates the nose and inflames the eyes, lungs and kidneys
+g: Nasal ulceration with eye inflammation is granulomatosis with polyangiitis
+f: septal perforation with crusting in a young recreational drug user => Cocaine abuse
+f: unilateral blockage with bloody discharge and facial numbness in a woodworker => Nasal carcinoma
+
+@m031
+c: ankylosing spondylitis | photophobia | irregular pupil | cornea was unremarkable
+m: HLA-B27 inflammation of the iris causes pain, photophobia and adhesions that distort the pupil
+g: Painful red eye with photophobia and an irregular pupil in AS is anterior uveitis
+f: rock-hard eye with halos and a fixed mid-dilated pupil => Acute angle closure glaucoma
+f: a contact lens wearer with a white spot on the cornea => Corneal ulcer
+
+@m032
+c: pain behind the left eye when she looks from side to side | afferent pupillary defect | eyes are not injected
+m: Demyelination of the optic nerve causes painful eye movements and a relative afferent defect
+g: Painful eye movements, RAPD and a white eye in a young woman is optic neuritis
+f: red eye with photophobia and an irregular pupil => Uveitis
+f: severe boring pain with a deep red tender eye => Scleritis
+
+@m034
+c: cough productive of green sputum | pleuritic pain | temperature is 38.2 | mild confusion
+m: Bacterial infection of the alveoli causes fever, productive cough and confusion in older people
+g: Fever, productive cough and pleuritic pain is community-acquired pneumonia
+f: pleuritic pain eased by sitting forward with a rub and no sputum => Pericarditis
+f: tearing chest pain to the back with unequal arm BPs => Aortic dissection
+
+@m035
+c: sudden onset headache | photophobia | intermittent headaches for the preceding 2 weeks
+m: A thunderclap headache may be a subarachnoid bleed; warning leaks can come first
+g: Sudden severe headache: urgent non-contrast CT head first
+f: CT normal and more than 6 hours since onset => Lumbar puncture
+
+@m036
+c: wet the bed over the last 4 nights | thirst and polyuria | blood glucose is 28mmol/l
+m: New type 1 diabetes can tip into DKA within hours
+g: Suspected new type 1 diabetes: same-day referral to hospital
+f: an older overweight man with a glucose of 12 and no symptoms => Arrange a next day appointment for blood test to check HbA1c and fasting glucose
+
+@m037
+c: first two thirds of the transverse colon
+m: The middle colic branch of the SMA supplies the proximal two thirds of the transverse colon
+g: Infarction confined to the proximal transverse colon: middle colic artery
+f: ischaemia of the splenic flexure and descending colon => Left colic artery
+f: ischaemia of the whole small bowel and right colon => Superior mesenteric artery
+
+@m038
+c: seminoma | most probable site for metastases
+m: The testis develops near the kidney and keeps its lymph drainage to the para-aortic nodes
+g: Testicular cancer spreads to the para-aortic nodes
+f: squamous cancer of the scrotal skin => Superficial inguinal lymph nodes
+
+@m039
+c: right eye is held in adduction | when he looks towards the right, the squint is exacerbated
+m: The sixth nerve supplies the lateral rectus, which turns the eye outward
+g: Failure to abduct the right eye: right sixth nerve palsy
+f: the eye is down and out with ptosis and a dilated pupil => Right Third Cranial Nerve
+f: vertical double vision worse on going downstairs with a head tilt => Right Fourth Cranial Nerve
+
+@m040
+c: smelly discharge from his right ear for many years | white debris | attic region | pars tensa is intact
+m: Skin grows into the middle ear through a retraction pocket and erodes bone
+g: Chronic smelly discharge with white debris in the attic is cholesteatoma
+f: severe pain on moving the pinna with pus in the canal => Acute otitis externa
+f: a child with dull drums and hearing loss after colds => Otitis media with effusion (serous otitis media)
+
+@m041
+c: sudden onset chest pain and breathlessness | worse on coughing | no significant past medical history
+m: A chest X-ray shows a pneumothorax and other causes of pleuritic pain
+g: Sudden pleuritic pain in a young man: chest X-ray first
+f: the X-ray is normal and PE is likely, with CT contraindicated => Ventilation perfusion scan
+
+@m043
+c: community-acquired pneumonia | productive cough and fever | 40 year old man
+m: Pneumococcus is the commonest cause of community-acquired pneumonia at every adult age
+g: CAP: Streptococcus pneumoniae
+f: pneumonia straight after influenza with cavitating lesions => Staphylococcus aureus
+f: cystic fibrosis or bronchiectasis with green sputum => Pseudomonas aeruginosa
+f: an alcoholic with red-currant jelly sputum and upper lobe cavitation => Klebsiella pneumoniae
+
+@m045
+c: concurrent chemoradiotherapy for cervical cancer | pulse rate 105 bpm | SpO2 92% | No cough, sputum
+m: Pelvic cancer and its treatment make the blood clot; clots travel to the lungs
+g: Sudden breathlessness with tachycardia and hypoxia in active cancer is PE
+f: fever, productive cough and focal crackles => Pneumonia
+f: months after radiotherapy with gradual breathlessness and fibrosis on CT => Radiation-induced pulmonary fibrosis
+
+@m046
+c: PCO2 7.1 kPa | respiratory rate 35 | history of asthma
+m: A severe attack normally lowers CO2; a high CO2 means the patient is tiring
+g: A raised CO2 in acute asthma is life-threatening
+f: the PCO2 is low at 3.8 kPa => Inability to complete sentences
+
+@m047
+c: productive cough with purulent sputum | five chest infections | finger clubbing | FEV1/FVC ratio is 0.74
+m: Permanently widened airways pool mucus that keeps getting infected
+g: Daily purulent sputum, recurrent infections and clubbing with no obstruction is bronchiectasis
+f: a smoker with FEV1/FVC under 0.7 and no clubbing => COPD
+f: dry cough with fine end-inspiratory crackles and clubbing => Idiopathic pulmonary fibrosis

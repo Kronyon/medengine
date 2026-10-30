@@ -1,0 +1,120 @@
+@h1031
+c: given amoxicillin 2 days ago | very tired for a week | tender posterior neck lymph nodes | no lip swelling or mucosal involvement
+m: Amoxicillin in EBV infection triggers a widespread rash that is not true allergy
+g: Rash after amoxicillin with glandular fever features is glandular fever with amoxicillin
+f: a rash after penicillin V with no glandular fever features => True penicillin allergy
+f: mucosal erosions with skin detachment after a new drug => Stevens-Johnson syndrome
+
+@h1032
+c: 3 days | Monospot test is negative
+m: Heterophile antibodies take time to appear
+g: A negative monospot in the first week: EBV-specific antibody testing
+
+@h1033
+c: about 3 hours | full feeling in her left ear | low-frequency sensorineural
+m: Excess endolymph causes attacks with fullness and low-tone loss
+g: Hours-long vertigo with fullness, tinnitus and low-frequency loss is Ménière's disease
+f: vertigo for seconds when rolling over => Benign paroxysmal positional vertigo
+f: vertigo with migraine and normal hearing => Vestibular migraine
+
+@h1034
+c: reduce the number of attacks
+m: Betahistine may improve inner ear blood flow
+g: Preventing Ménière's attacks: betahistine
+
+@h1035
+c: sudden disabling vertigo without warning
+m: Sudden vertigo at the wheel is dangerous
+g: Sudden disabling vertigo: stop driving and tell the DVLA
+
+@h1036
+c: 34 events per hour
+m: OSA severity is graded by the apnoea-hypopnoea index
+g: AHI over 30 is severe OSA
+f: an AHI of 8 => Mild
+f: an AHI of 20 => Moderate
+
+@h1037
+c: Epworth sleepiness score 16 | moderate obstructive sleep apnoea
+m: CPAP splints the airway open during sleep
+g: Moderate OSA with daytime sleepiness: CPAP
+f: a child with OSA and large tonsils => Tonsillectomy
+
+@h1038
+c: bus driver | nearly fallen asleep at the wheel
+m: Sleepiness from OSA causes crashes until treated
+g: Excessive sleepiness with suspected OSA: stop driving and tell the DVLA
+
+@h1039
+c: keen swimmer | Pulling the pinna hurts | drum is intact | no spreading redness
+m: Water strips the protective wax, letting bacteria infect the canal skin
+g: Acute otitis externa: antibiotic and steroid drops
+f: fluffy debris with black dots after antibiotic drops => Clotrimazole drops
+
+@h1040
+c: antibiotic ear drops for a week | white, fluffy debris with black dots
+m: Antibiotic drops let fungi such as Aspergillus overgrow
+g: Fluffy debris with black dots after antibiotic drops is fungal otitis externa
+f: a painful canal with green pus => Bacterial otitis externa
+
+@h1041
+c: type 2 diabetes | worse at night | granulation tissue in the floor | facial weakness
+m: Pseudomonas spreads from the canal into the skull base in diabetics
+g: A diabetic with night ear pain, granulation and a facial palsy has malignant otitis externa
+f: a young swimmer with pain on moving the pinna => Otitis externa
+f: vesicles in the ear canal => Herpes zoster oticus
+
+@h1042
+c: 3 year old girl | no discharge | alert and well
+m: Most acute otitis media settles within 3 days without antibiotics
+g: Acute otitis media in a well child over 2 without discharge: analgesia, no immediate antibiotic
+f: under 2 with both ears infected, or with discharge => Immediate amoxicillin for 5 days
+
+@h1043
+c: no ear pain or fever | flat traces in both ears
+m: Glue ear usually clears within 3 months
+g: New glue ear: review in 3 months
+f: persisting over 3 months with hearing loss => Grommet insertion now
+
+@h1044
+c: southern Chinese | blocked feeling in his left ear | not had a cold | hard, non-tender lymph node
+m: A nasopharyngeal tumour blocks the Eustachian tube and spreads to neck nodes
+g: A one-sided adult middle ear effusion with a neck node: exclude nasopharyngeal carcinoma
+f: a child with glue ear in both ears after colds => Otitis media with effusion
+
+@h1045
+c: 5 days | no swelling around the eyes
+m: Acute sinusitis is usually viral and settles within 2 to 3 weeks
+g: Sinusitis for under 10 days: self-care with analgesia
+f: symptoms beyond 10 days => High-dose nasal steroid for 14 days
+
+@h1046
+c: 12 days | getting worse rather than better | no drug allergies
+m: Phenoxymethylpenicillin covers the usual sinus pathogens narrowly
+g: Sinusitis needing an antibiotic: phenoxymethylpenicillin
+f: penicillin allergy => Clarithromycin
+f: systemically very unwell or at high risk => Co-amoxiclav
+
+@h1047
+c: furniture factory | blocked left nostril | bloody discharge | cheek is numb
+m: Hardwood dust causes sinonasal adenocarcinoma that invades nerves
+g: One-sided bloody blockage with cheek numbness in a woodworker: suspected cancer referral
+
+@h1048
+c: no cough | pus on both sides | FeverPAIN score is 4
+m: A high FeverPAIN score predicts Strep tonsillitis
+g: FeverPAIN 4: phenoxymethylpenicillin
+f: a FeverPAIN score of 1 => No antibiotic
+
+@h1049
+c: Glandular fever has not been excluded
+m: Amoxicillin causes a rash in glandular fever
+g: Tonsillitis needing an antibiotic: phenoxymethylpenicillin
+f: penicillin allergy => Clarithromycin
+
+@h1050
+c: getting worse on the right | cannot open his mouth fully | uvula is pushed to the left
+m: Pus beside one tonsil pushes the palate and uvula across
+g: One-sided palatal swelling with trismus and a deviated uvula is a peritonsillar abscess
+f: a small child with neck stiffness and a bulge on the back of the pharynx => Retropharyngeal abscess
+f: drooling with a near-normal looking throat => Epiglottitis

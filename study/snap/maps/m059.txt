@@ -1,0 +1,109 @@
+@h0691
+c: does not go away
+m: Pain lasting despite two GTN doses may be a heart attack
+g: Call 999 if pain persists 5 minutes after a second dose
+
+@h0692
+c: isosorbide mononitrate | erectile dysfunction
+m: Nitrates and PDE5 inhibitors together cause dangerous hypotension
+g: Nitrates must not be taken with sildenafil
+f: asked which drug needs caution for a postural drop but is allowed => Tamsulosin
+
+@h0693
+c: twice daily at 8am and 8pm | less controlled over a few months
+m: Continuous nitrate exposure causes tolerance; a nitrate-free gap restores effect
+g: Nitrate tolerance: move the second dose to 2 pm
+
+@h0694
+c: prescribed bisoprolol | several long-term conditions
+m: Beta-blockers can cause severe bronchospasm in asthma
+g: Beta-blockers are contraindicated in asthma
+
+@h0695
+c: atrial fibrillation and takes bisoprolol
+m: Both drugs slow the AV node and weaken the heart
+g: Bisoprolol with verapamil risks complete heart block and asystole
+
+@h0696
+c: propranolol | Pulse rate 38 bpm | despite IV fluids and atropine
+m: Glucagon raises cyclic AMP in heart muscle, bypassing the blocked beta receptor
+g: Beta-blocker overdose not responding to atropine: glucagon
+
+@h0697
+c: amlodipine
+m: Dihydropyridines dilate arterioles, raising capillary pressure in the ankles
+g: Amlodipine commonly causes ankle swelling
+f: an ACE inhibitor => Dry cough
+f: a thiazide => Gout
+f: verapamil => Bradycardia
+
+@h0698
+c: Wolff-Parkinson-White | irregular | broad complex
+m: Blocking the AV node pushes impulses down the accessory pathway, risking VF
+g: Pre-excited AF: avoid verapamil
+
+@h0699
+c: simvastatin 80 mg | amlodipine is started
+m: Amlodipine raises simvastatin levels, increasing myopathy risk
+g: Simvastatin with amlodipine: reduce simvastatin to 20 mg
+
+@h0700
+c: ramipril | dry, tickly cough | chest is clear
+m: ACE inhibitors stop bradykinin breakdown; ARBs do not
+g: ACE inhibitor cough: switch to losartan
+
+@h0701
+c: 100 µmol/L | 118 µmol/L | Potassium 5.0
+m: A small creatinine rise is expected as efferent arterioles relax
+g: Creatinine up by under 30% on an ACE inhibitor: continue and recheck
+f: creatinine up by more than 30% => Stop ramipril
+
+@h0702
+c: ramipril 5 mg | trying for a baby
+m: ACE inhibitors harm the fetal kidneys and skull
+g: Planning pregnancy on an ACE inhibitor: switch to labetalol
+
+@h0703
+c: indapamide | red, swollen big toe joint
+m: Thiazides reduce urate excretion
+g: Thiazide diuretics can cause gout
+
+@h0704
+c: indapamide | unsteady and confused | euvolaemic | Sodium 124
+m: Thiazides impair dilution of urine, especially in older women
+g: Symptomatic hyponatraemia on a thiazide: stop indapamide
+f: a sodium of 133 with no symptoms => Continue and recheck in 1 month
+
+@h0705
+c: high-dose IV furosemide
+m: Loop diuretics and aminoglycosides are both ototoxic
+g: Furosemide with gentamicin most raises the risk of hearing damage
+
+@h0706
+c: spironolactone 25 mg | Potassium 6.1 | no changes of hyperkalaemia
+m: Mineralocorticoid antagonists stop the kidney excreting potassium
+g: Potassium over 6 on spironolactone: stop it and recheck
+f: hyperkalaemia with ECG changes => Give calcium gluconate
+
+@h0707
+c: three drugs | no diuretics or laxatives | Potassium 3.0 | Bicarbonate 31
+m: Excess aldosterone retains sodium and wastes potassium
+g: Resistant hypertension with unexplained low potassium: aldosterone to renin ratio
+f: episodic headache, sweating and palpitations => Plasma metanephrines
+
+@h0708
+c: cirrhosis | tense ascites | Ascitic neutrophil count is normal
+m: Cirrhosis drives high aldosterone, which spironolactone blocks
+g: Cirrhotic ascites: spironolactone first
+f: not responding to spironolactone alone => Furosemide
+
+@h0709
+c: digoxin | yellow-green halos | Pulse rate 48 bpm | Potassium 3.1
+m: Excess digoxin slows AV conduction and affects the brain and retina
+g: Nausea, confusion, yellow vision and bradycardia on digoxin is digoxin toxicity
+f: sudden vertigo with ataxia and field loss => Posterior circulation stroke
+
+@h0710
+c: digoxin | diuretic
+m: Digoxin and potassium compete for the same pump site
+g: Hypokalaemia most increases digoxin toxicity

@@ -1,0 +1,115 @@
+@h1131
+c: bone metastases in his spine | about to start goserelin
+m: GnRH agonists cause a testosterone surge in the first weeks
+g: Cover the start of goserelin with bicalutamide
+
+@h1132
+c: painless | smoked for 40 years | dye factory
+m: Smoking and aromatic amines cause urothelial cancer
+g: Painless haematuria in a smoker and dye worker is transitional cell carcinoma of the bladder
+f: grew up in Egypt with schistosomiasis => Squamous cell carcinoma of the bladder
+f: a flank mass with haematuria => Renal cell carcinoma
+
+@h1133
+c: 62 year old woman | White cell count 13.2
+m: Non-visible haematuria over 60 with a raised white count may be bladder cancer
+g: Over 60 with non-visible haematuria and a raised white count: suspected cancer pathway
+
+@h1134
+c: high-grade non-muscle-invasive
+m: BCG in the bladder triggers an immune response that cuts recurrence
+g: High-grade non-muscle-invasive bladder cancer: intravesical BCG
+f: muscle-invasive tumour => Radical cystectomy
+
+@h1135
+c: visible haematuria | does not empty when he lies down | mass in the left flank
+m: A left renal tumour blocks the left renal vein, into which the testicular vein drains
+g: Haematuria, a flank mass and a fixed left varicocele is renal cell carcinoma
+f: a child under 5 with an abdominal mass => Wilms tumour
+
+@h1136
+c: does not smoke | ballotable right flank mass | Haemoglobin 195
+m: Renal cell carcinoma can secrete erythropoietin
+g: Polycythaemia with a renal mass is tumour erythropoietin
+f: JAK2 positive with itch after a hot bath => Polycythaemia vera
+f: long-term hypoxia from lung disease => Chronic hypoxia
+
+@h1137
+c: father died of a kidney cancer at 40 | haemangioblastoma | both kidneys
+m: Loss of the VHL tumour suppressor causes haemangioblastomas and bilateral renal cancers
+g: Cerebellar haemangioblastoma with bilateral renal tumours is von Hippel-Lindau
+f: renal angiomyolipomas with facial angiofibromas and seizures => Tuberous sclerosis
+
+@h1138
+c: rolling around | no drug allergies | Creatinine 78
+m: NSAIDs reduce ureteric spasm and inflammation
+g: Renal colic: an NSAID such as diclofenac first
+
+@h1139
+c: 7 mm stone in the distal left ureter | no fever | creatinine are normal
+m: Distal stones under 10 mm often pass; alpha-blockers help
+g: Small distal stone with no infection: tamsulosin and watchful waiting
+f: a 2.5 cm stone in the renal pelvis => Percutaneous nephrolithotomy
+f: fever with an obstructed kidney => Nephrostomy
+
+@h1140
+c: rigors | BP 96/58 | hydronephrosis
+m: Antibiotics cannot clear pus behind an obstruction
+g: Infected obstructed kidney: urgent nephrostomy
+
+@h1141
+c: not pregnant | no fever, loin pain | eGFR is normal
+m: Nitrofurantoin concentrates in the bladder
+g: Uncomplicated lower UTI in a woman: nitrofurantoin for 3 days
+
+@h1142
+c: 12 weeks pregnant
+m: Trimethoprim is a folate antagonist and avoided in the first trimester
+g: Lower UTI in early pregnancy: nitrofurantoin for 7 days
+
+@h1143
+c: fever, right loin pain and rigors
+m: Nitrofurantoin does not reach useful levels in the kidney
+g: Pyelonephritis: nitrofurantoin is the least appropriate
+
+@h1144
+c: lights up with a torch | testis cannot be felt separately | possible to get above
+m: Fluid in the tunica vaginalis surrounds the testis
+g: A transilluminating swelling around the testis is a hydrocele
+f: a swelling separate from and above the testis => Epididymal cyst
+f: a bag of worms that empties lying down => Varicocele
+f: you cannot get above it => Inguinal hernia
+
+@h1145
+c: foreskin was left pulled back | cannot be returned | glans is pink
+m: A retracted foreskin acts as a tourniquet, but the glans is still viable
+g: Paraphimosis with a pink glans: manual reduction
+
+@h1146
+c: sickle cell disease | 5 hours | glans is soft
+m: Sickled cells trap blood in the corpora, starving the tissue
+g: Ischaemic priapism over 4 hours: corporal aspiration
+
+@h1147
+c: urethral discharge | several sexual partners
+m: Under 35 and sexually active, epididymitis is usually chlamydia or gonorrhoea
+g: Sexually acquired epididymo-orchitis: ceftriaxone and doxycycline
+f: an older man with BPH and enteric infection => Ofloxacin
+
+@h1148
+c: parotid gland last week | did not have the MMR vaccine
+m: Mumps virus spreads to the testis about a week after parotitis
+g: Orchitis a week after parotitis in an unvaccinated young man is mumps orchitis
+f: sudden severe pain at 14 with a high-riding testis => Testicular torsion
+f: urethral discharge after new partners => Bacterial epididymo-orchitis
+
+@h1149
+c: 16 year old boy | 4 hours | cremasteric reflex is present
+m: Prehn's sign and the reflex are unreliable; torsion cannot be excluded clinically
+g: Acute testicular pain in a teenager: urgent scrotal exploration
+f: a 35 year old with 3 days of gradual pain and positive chlamydia => Antibiotics for epididymitis
+
+@h1150
+c: sudden severe pain | high with a horizontal lie | cremasteric reflex is absent
+m: A twisted cord cuts the blood supply within hours
+g: Clinical testicular torsion: urgent scrotal exploration

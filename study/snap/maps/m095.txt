@@ -1,0 +1,115 @@
+@h1411
+c: malignant pleural effusion | come back after two aspirations | little time in hospital | re-expanded fully
+m: A tunnelled catheter lets fluid be drained at home whenever it builds up
+g: Recurrent malignant effusion wanting minimal admissions: indwelling pleural catheter
+
+@h1412
+c: therapeutic pleural aspiration
+m: Draining too much too fast lets a collapsed lung re-expand with pulmonary oedema
+g: Remove no more than 1.5 litres at once
+
+@h1413
+c: second spontaneous pneumothorax | lung has re-expanded
+m: Recurrence is likely after a second episode, so the pleura is stripped or stuck down
+g: Recurrent pneumothorax: VATS pleurectomy or pleurodesis
+f: a first small primary pneumothorax => Watch and wait with X-rays
+
+@h1414
+c: CPAP and BiPAP
+m: CPAP gives one pressure to splint the airway open; BiPAP adds pressure support to blow off CO2
+g: CPAP fits obstructive sleep apnoea; hypercapnic failure needs BiPAP
+f: COPD with a pH of 7.28 and a high CO2 => Acidotic COPD
+
+@h1415
+c: head injury | noisy, snoring breathing | GCS 7
+m: A GCS of 8 or less means the airway reflexes cannot be trusted
+g: GCS 8 or less with a threatened airway: tracheal intubation
+
+@h1416
+c: tracheostomy | tube may be blocked | suction catheter will not pass
+m: A blocked inner cannula is removed first, as it is the quickest fix
+g: Suspected blocked tracheostomy: remove the inner cannula first
+f: the patient deteriorates after the inner cannula and cuff steps => Cut the tube
+
+@h1417
+c: four episodes of biliary colic | normal gallbladder wall | normal bile duct
+m: Removing the gallbladder stops stones forming and colic returning
+g: Symptomatic gallstones: laparoscopic cholecystectomy
+f: gallstones found by chance with no symptoms => Analgesia when needed
+
+@h1418
+c: laparoscopic cholecystectomy 3 days ago | fever | fluid collection in the gallbladder bed
+m: Bile leaking from the cystic duct stump or a duct pools under the liver
+g: Fever, pain, rising bilirubin and a collection in the gallbladder bed after surgery is a bile leak
+f: pain and redness only at a port site => Wound infection
+
+@h1419
+c: suspected appendicitis | appendix looks normal
+m: Removing it avoids future diagnostic confusion and catches early disease
+g: A normal appendix at laparoscopy is usually removed and the abdomen inspected
+f: a tumour at the base of the appendix => Right hemicolectomy
+
+@h1420
+c: iron deficiency anaemia | hepatic flexure | no metastases
+m: The resection follows the arterial supply and lymphatic drainage
+g: Caecum to hepatic flexure: right hemicolectomy
+f: cancer of the descending colon => Left hemicolectomy
+f: cancer of the upper rectum => Anterior resection
+
+@h1421
+c: right iliac fossa | spouted | liquid output
+m: Small bowel effluent has enzymes that burn skin, so the stoma is spouted
+g: Spouted right-sided stoma with liquid output is an ileostomy
+f: a flush stoma on the left with formed stool => Colostomy
+
+@h1422
+c: 2.5 litres a day | drinking lots of water | 104 bpm
+m: Plain water washes sodium out of the stoma; glucose-salt solution is absorbed with sodium
+g: High-output stoma: restrict plain water, oral rehydration solution and loperamide
+f: output of 800 ml a day => Drink more water and juice
+
+@h1423
+c: does not hurt | reducible right inguinal hernia that is not tender
+m: An inguinal hernia that is reducible and painless carries a low strangulation risk
+g: Painless reducible inguinal hernia: discuss elective repair
+f: a tender irreducible lump with vomiting => Emergency repair
+
+@h1424
+c: vomited several times | tender, red, irreducible lump | abdomen is distended
+m: A tight neck cuts off blood to the trapped bowel
+g: Tender red irreducible hernia with obstruction is strangulated: emergency surgery
+
+@h1425
+c: mesh 6 weeks ago | burning pain | numbness over the upper inner thigh | no lump or swelling
+m: The ilioinguinal nerve runs through the inguinal canal and is caught or stretched at repair
+g: Burning groin and inner thigh pain with numbness and no lump is ilioinguinal nerve injury
+f: a new lump at the repair site => Recurrence
+
+@h1426
+c: alcohol-related cirrhosis | terlipressin and IV antibiotics | bleeding oesophageal varices
+m: Bands strangle the varix and stop the bleeding
+g: Bleeding oesophageal varices: band ligation
+f: a bleeding peptic ulcer => Adrenaline injection
+
+@h1427
+c: TIPS procedure | confused and drowsy | flapping tremor | no fever and the abdomen is soft
+m: TIPS shunts blood around the liver, so ammonia bypasses detoxification
+g: Confusion with asterixis a week after TIPS is hepatic encephalopathy
+f: fever with abdominal tenderness and ascites => SBP
+
+@h1428
+c: tense ascites | 6 litres drained in one session
+m: Large volume paracentesis shifts fluid and causes circulatory dysfunction
+g: Paracentesis over 5 litres: human albumin solution
+
+@h1429
+c: TURP | glycine irrigation | confused and restless | Pulse rate 48 bpm | 168/96
+m: Absorbed hypotonic irrigation fluid causes overload and dilutional hyponatraemia
+g: Confusion, bradycardia, hypertension and low sodium during TURP is TURP syndrome
+f: fever and rigors with low blood pressure after the procedure => Urosepsis
+
+@h1430
+c: TURP 3 months ago | flow is much better | little or no semen
+m: Resecting the bladder neck lets semen flow backwards into the bladder
+g: Dry ejaculation after TURP is retrograde ejaculation
+f: a slowing stream months later => Urethral stricture

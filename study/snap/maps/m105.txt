@@ -1,0 +1,114 @@
+@h1611
+c: playing with small toys | suddenly choked and coughed | wheeze on the right side only
+m: Inhaled objects usually lodge in the straighter right main bronchus
+g: A sudden choke with a one-sided wheeze is an inhaled foreign body
+f: wheeze on both sides with a runny nose => Viral-induced wheeze
+
+@h1612
+c: gritty, burning eyes for months | red and crusty every morning | crusts at the base of the lashes
+m: Inflamed lid margins and blocked meibomian glands irritate the eye surface
+g: Chronic red crusty lid margins with gritty eyes is blepharitis
+f: sticky discharge for 3 days with red conjunctivae => Allergic conjunctivitis
+
+@h1613
+c: blepharitis | vision is normal
+m: Warmth melts thick meibomian secretions and hygiene removes crusts
+g: Blepharitis: warm compresses and lid hygiene
+f: severe meibomian disease not settling with hygiene => Oral doxycycline
+
+@h1614
+c: painless lump on her lower eyelid | sometimes bleeds | pearly | lashes over it have fallen out
+m: Tumours destroy lash follicles; benign lumps do not
+g: A lid lump with lash loss or bleeding: biopsy to exclude cancer
+f: a painless smooth lump with normal lashes => Warm compresses
+
+@h1615
+c: red, sticky eyes | does not wear contact lenses | no pain or photophobia | purulent discharge
+m: Bacteria cause a purulent discharge without affecting the cornea
+g: Purulent discharge with normal vision and no pain is bacterial conjunctivitis
+f: pain, photophobia and a corneal opacity in a lens wearer => Keratitis
+
+@h1616
+c: 5 day old baby | purulent discharge from both eyes
+m: Gonorrhoea or chlamydia from the birth canal can destroy the cornea
+g: Purulent eye discharge in a neonate: same-day swabs and urgent referral
+
+@h1617
+c: wears contact lenses | photophobia and blurred vision | 6/18 | redness around the cornea
+m: Lenses let bacteria or acanthamoeba invade the cornea
+g: A painful red eye with reduced vision in a lens wearer: same-day eye referral, lenses out
+
+@h1618
+c: low back stiffness for a year | photophobia | worst around the cornea | small and irregular
+m: HLA-B27 inflammation affects the iris, which sticks to the lens
+g: Ciliary flush with a small irregular pupil and back stiffness is anterior uveitis
+f: a mid-dilated fixed pupil with a hazy cornea and vomiting => Acute angle-closure glaucoma
+f: a sectoral red patch with no pain or photophobia => Episcleritis
+
+@h1619
+c: suspected anterior uveitis | photophobia
+m: Uveitis needs a slit lamp to confirm cells and flare
+g: Suspected anterior uveitis: same-day ophthalmology review
+
+@h1620
+c: confirmed on slit lamp | no infection
+m: Steroids settle inflammation; dilating drops ease spasm and stop the iris sticking
+g: Anterior uveitis: steroid and dilating drops
+f: acute angle-closure glaucoma => Pilocarpine drops
+
+@h1621
+c: cold last week | pain on moving the right eye | bulges forward | vision is reduced
+m: Sinus infection spreads behind the orbital septum
+g: Pain on eye movement, proptosis and reduced acuity is orbital cellulitis
+f: a swollen lid with full painless movements and normal vision => Periorbital cellulitis
+
+@h1622
+c: orbital cellulitis | IV antibiotics
+m: CT shows a subperiosteal abscess and sinus disease
+g: Orbital cellulitis: CT of orbits and sinuses with contrast
+
+@h1623
+c: headache and is vomiting | Both eyes | reduced on both sides
+m: Infection spreads back through the valveless orbital veins to the cavernous sinus
+g: Orbital cellulitis spreading to both eyes with headache is cavernous sinus thrombosis
+f: fever and neck stiffness with one eye affected => Bacterial meningitis
+
+@h1624
+c: gradually blurred vision in both eyes | headlights cause glare | red reflex is dull
+m: An opaque lens scatters light and dims the red reflex
+g: Gradual blur with glare and a dull red reflex is cataract
+f: straight lines look wavy with a central blur => Age-related macular degeneration
+
+@h1625
+c: stopped driving at night | reading hard
+m: Surgery is offered when the cataract affects daily life
+g: Cataract affecting quality of life: refer for cataract surgery
+f: no effect on daily life => Reassure
+
+@h1626
+c: cataract surgery on his left eye 3 days ago | hand movements | pus in the anterior chamber
+m: Bacteria introduced at surgery infect the inside of the eye
+g: Painful red eye with hypopyon days after surgery is endophthalmitis
+f: a gradual blur a year after surgery with no pain => Posterior capsule opacification
+
+@h1627
+c: over a week | straight door frames look bent | grey patch in the centre | Amsler grid shows distortion
+m: New vessels under the macula leak fluid and distort the retina
+g: Sudden distortion with a central scotoma in an older person is wet macular degeneration
+f: a curtain coming across the vision with flashes and floaters => Retinal detachment
+
+@h1628
+c: suspected wet macular degeneration
+m: Vision lost to leaking vessels is often permanent
+g: Suspected wet AMD: macula service within 1 working day
+
+@h1629
+c: wet macular degeneration confirmed by optical coherence tomography
+m: VEGF drives new vessel growth; blocking it stops leakage
+g: Wet AMD: intravitreal anti-VEGF injections
+f: dry AMD in a smoker wanting to slow progression => High-dose oral vitamins
+
+@h1630
+c: cement splashed | 5 minutes ago
+m: Alkali saponifies tissue and penetrates deeply while it remains
+g: Chemical eye injury: immediate irrigation before anything else

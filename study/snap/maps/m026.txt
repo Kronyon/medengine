@@ -1,0 +1,133 @@
+@h0031
+c: 200 metres | ankle-brachial pressure index is 0.65
+m: Ankle pressure falls as narrowing reduces flow to the foot
+g: ABPI 0.5 to 0.9 with claudication is moderate arterial disease
+f: ABPI of 1.5 in a diabetic with absent pulses => Calcified incompressible arteries
+f: rest pain with an ABPI under 0.4 => Critical limb ischaemia
+f: ABPI of 1.0 => Normal arterial supply
+
+@h0032
+c: intermittent claudication | Total cholesterol 5.8
+m: Arterial disease anywhere carries high cardiovascular risk; statins reduce events
+g: Every patient with PAD gets a high-intensity statin and clopidogrel
+f: still limited after a supervised exercise programme => Naftidrofuryl
+
+@h0033
+c: wakes him | hanging his leg over the side of the bed | dusky red when hanging down | no palpable pulses below the femoral artery
+m: At rest the foot is not getting enough blood; gravity helps it
+g: Rest pain eased by hanging the leg down with dependent rubor is critical limb ischaemia
+f: leg pain on walking that eases on sitting and bending forward, with good pulses => Spinal stenosis
+f: burning pain in both feet with lost sensation and good pulses => Diabetic neuropathy
+
+@h0034
+c: deep vein thrombosis in that leg | just above the medial malleolus | brown and eczematous | ankle-brachial pressure index is 1.0
+m: A previous DVT damages the valves, so venous pressure breaks down the skin above the ankle
+g: Shallow gaiter ulcer with staining after a DVT and a normal ABPI is venous
+f: a punched-out painful ulcer on the toes with absent pulses => Arterial ulcer
+f: a raised rolled edge after many years => Marjolin's ulcer
+
+@h0035
+c: ankle-brachial pressure index is 0.7 | haemosiderin staining | foot pulses are weak
+m: Compression with arterial disease can cut off blood to the foot
+g: ABPI under 0.8: vascular referral before any compression
+f: ABPI 0.95 with no arterial disease => Four-layer compression bandaging
+f: spreading redness and fever around the ulcer => Oral flucloxacillin for 7 days
+
+@h0036
+c: venous ulcer on his right leg for 15 years | raised and rolled | everted, nodular edge | firm right inguinal lymph node
+m: Long-standing wounds can turn into squamous cell carcinoma
+g: A changing edge in a chronic ulcer with a node is Marjolin's ulcer
+f: a rapidly enlarging ulcer with a purple undermined edge in ulcerative colitis => Pyoderma gangrenosum
+f: pus, spreading redness and fever => Infected ulcer
+
+@h0037
+c: aching varicose veins | hard, tight and brown | no ulcer
+m: Skin changes mean significant reflux; duplex maps where it is before treatment
+g: Symptomatic varicose veins with skin changes: venous duplex
+f: a swollen painful calf with suspected DVT, scoring low on Wells => D-dimer
+f: suspected arterial disease with weak pulses => Ankle-brachial index
+
+@h0038
+c: reflux at the saphenofemoral junction | deep veins are patent
+m: Heat closes the incompetent great saphenous vein from inside
+g: Symptomatic great saphenous reflux: endothermal ablation first
+f: endothermal ablation is not suitable for her veins => Foam sclerotherapy first
+f: she does not want or cannot have any intervention => Compression stockings
+
+@h0039
+c: soft, compressible, bluish swelling | disappears on lying flat | palpable thrill | extensive varicose veins
+m: The great saphenous vein widens at its groin junction, filling on standing
+g: Blue compressible groin lump with a thrill and varicose veins is a saphena varix
+f: a tender irreducible lump below the inguinal ligament => Femoral hernia
+f: an expansile pulsatile groin lump after angiography => Femoral artery aneurysm
+
+@h0040
+c: since she started her periods | non-pitting swelling | extending onto the dorsum of the feet | cannot pinch the skin at the base of her second toe
+m: Underdeveloped lymphatics fail around puberty, so lymph pools in the legs and feet
+g: Non-pitting swelling with a positive Stemmer sign starting at puberty is primary lymphoedema
+f: symmetrical fatty legs that spare the feet in a woman => Lipoedema
+f: swelling after groin node removal => Secondary lymphoedema
+
+@h0041
+c: axillary node clearance | persistent swelling of her left arm | episode of cellulitis
+m: Removed nodes leave lymph pooling; good skin care prevents cellulitis and compression pushes fluid back
+g: Lymphoedema: skin care and compression garments with exercise
+
+@h0042
+c: northern Ghana | fever and painful red streaks | thickened, warty, fissured skin
+m: Mosquito-borne filarial worms block lymphatics, causing elephantiasis
+g: Gross leg lymphoedema with attacks of lymphangitis from West Africa is filariasis
+f: a barefoot farmer on volcanic soil in Ethiopia => Podoconiosis
+f: swelling present from birth => Congenital lymphoedema
+
+@h0043
+c: skin of her fingers has become tight | difficulty swallowing solid food | calcified nodules | forearms and trunk is normal
+m: Limited systemic sclerosis spares the trunk and is linked with anti-centromere antibodies
+g: CREST features with skin changes limited to the hands: anti-centromere
+f: skin thickening of the trunk with lung fibrosis => Anti-Scl-70
+f: a malar rash with nephritis => Anti-dsDNA
+
+@h0044
+c: secondary rather than primary
+m: Damaged digital vessels from connective tissue disease cause ulcers
+g: Digital ulcers point to secondary Raynaud's
+f: asked instead which feature fits primary Raynaud's => Onset at age 18
+
+@h0045
+c: worsening | medicine was changed at his last review | pulse rate 58 bpm
+m: Beta-blockers leave alpha constriction unopposed in the fingers
+g: Worse Raynaud's after a new drug with a slow pulse: the beta-blocker
+f: asked instead which drug would ease it => Amlodipine
+
+@h0046
+c: retired farmer | flat brown patch on his left cheek | slowly spread over 10 years | no raised area within it
+m: Melanoma in situ spreads slowly along sun-damaged facial skin before invading
+g: A slowly enlarging flat irregular pigmented patch on the face of an older person is lentigo maligna
+f: a raised nodule appears within it => Nodular melanoma
+f: a stuck-on greasy warty lesion => Seborrhoeic keratosis
+
+@h0047
+c: Breslow thickness of 0.6 mm
+m: The deeper the melanoma has grown, the more likely it has spread
+g: Breslow measures depth of invasion
+f: asked what the mitotic rate measures => Number of mitoses
+
+@h0048
+c: Black African family origin | widens towards the base | pigment extending onto the proximal nail fold
+m: Acral melanoma grows under the nail and spreads onto the fold, Hutchinson's sign
+g: A widening dark nail band with pigment on the nail fold is acral lentiginous melanoma
+f: a dark nail after stubbing the toe that grows out with the nail => Subungual haematoma
+f: a thickened yellow crumbly nail => Fungal nail infection
+
+@h0049
+c: pearly nodule with rolled edges | nodular basal cell carcinoma | upper back
+m: Excision with a margin cures most nodular BCCs
+g: Nodular BCC on the trunk: surgical excision
+f: a superficial BCC on the chest => Imiquimod cream
+
+@h0050
+c: pink, scaly, flat patch | fine, thread-like raised edge | chest
+m: Superficial BCC spreads along the surface of the trunk like a scaly patch
+g: A flat scaly pink patch with a thread-like edge on the trunk is superficial BCC
+f: a scar-like waxy plaque with poorly defined edges => Morphoeic
+f: a pearly nodule with rolled edges => Nodular

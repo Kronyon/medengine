@@ -1,0 +1,126 @@
+@h0191
+c: much worse on the left | trismus | uvula is pushed to the right
+m: Pus collects beside one tonsil, pushing the palate and uvula across and irritating the jaw muscles
+g: One-sided palatal swelling with a deviated uvula and trismus is a peritonsillar abscess
+f: both tonsils swollen with no deviation => Tonsillitis
+f: drooling with a near-normal looking throat => Epiglottitis
+
+@h0192
+c: 8 episodes of tonsillitis in the last year | time off school
+m: Frequent disabling episodes meet the criteria where surgery helps more than it harms
+g: 7 or more disabling episodes in a year: refer for tonsillectomy
+f: 2 episodes this year => Watch and wait
+
+@h0193
+c: born with | 1 mm pit in front of the upper part of the right tragus | discharged foul-smelling
+m: Incomplete fusion of the ear hillocks leaves a tract that can get infected
+g: A congenital pit in front of the ear that keeps getting infected is a preauricular sinus
+f: a smooth lump at the front edge of the upper sternomastoid in a young adult => Branchial cyst
+f: a midline lump that moves with tongue protrusion => Thyroglossal cyst
+
+@h0194
+c: during a cold | anterior border of the left sternocleidomastoid muscle in the upper third | does not move on swallowing or with tongue protrusion
+m: A remnant of the second branchial cleft fills with fluid and swells with infections
+g: Fluctuant lump at the anterior border of the upper sternomastoid in a young adult is a branchial cyst
+f: a midline lump that moves on tongue protrusion => Thyroglossal cyst
+f: a soft brightly transilluminating lump in a baby => Cystic hygroma
+
+@h0195
+c: born at term | posterior triangle | transilluminates brightly
+m: A lymphatic malformation fills with clear lymph
+g: A soft brightly transilluminating posterior triangle swelling in a baby is a cystic hygroma
+f: a firm lump in the sternomastoid with a head tilt => Sternomastoid tumour
+f: a red raised soft lump that grows then fades => Haemangioma
+
+@h0196
+c: barking cough | SpO2 91% | drowsy | stridor at rest
+m: Adrenaline shrinks subglottic swelling within minutes
+g: Severe croup: nebulised adrenaline
+f: mild croup with no stridor at rest => Oral dexamethasone and home
+
+@h0197
+c: suddenly began coughing and choking | small toys | on the right side of the chest only
+m: An inhaled object lodges in one bronchus, usually the right
+g: Sudden choking then one-sided wheeze is an inhaled foreign body
+f: a runny nose then cough and wheeze in an infant => Bronchiolitis
+f: a barking cough with stridor after a cold => Viral croup
+
+@h0198
+c: conscious but cannot cough, speak or cry
+m: An ineffective cough means the airway is blocked; back blows try to dislodge it
+g: Choking, conscious, ineffective cough: 5 back blows first
+f: back blows fail and she is still conscious => Abdominal thrusts
+f: she becomes unconscious => Start CPR
+
+@h0199
+c: bad cough for a week | not painful | his vision is normal | well-defined, bright red area
+m: Straining bursts a small conjunctival vessel
+g: A painless bright red patch after coughing with normal vision is a subconjunctival haemorrhage
+f: a deep red eye with boring pain waking her at night => Anterior scleritis
+f: a mildly sore sectoral red patch whose vessels move => Sectoral episcleritis
+
+@h0200
+c: same-day ophthalmology
+m: Pain and photophobia mean the cornea, iris or pressure is involved
+g: Pain with photophobia suggests a sight-threatening cause
+
+@h0201
+c: haloes around lights | dark room | long-sighted | fixed, mid-dilated pupil | hard
+m: A dilating pupil blocks drainage in a shallow eye, so pressure rises fast
+g: A painful red eye with haloes, a mid-dilated pupil and a hard globe is acute angle closure
+f: a small irregular pupil with photophobia => Acute anterior uveitis
+f: a white corneal opacity in a contact lens wearer => Bacterial corneal ulcer
+
+@h0202
+c: blepharitis | non-tender | away from the lid margin
+m: A blocked meibomian gland forms a firm painless lump in the lid
+g: A painless firm lid lump away from the margin is a chalazion
+f: a painful red lump at the lid margin => Stye
+f: a pearly nodule with lash loss => Basal cell carcinoma
+
+@h0203
+c: worse in the mornings | crusting at the base of the lashes
+m: Inflamed lid margins and blocked glands need daily cleaning and warmth
+g: Blepharitis: lid hygiene first
+f: meibomian disease with rosacea not settling with hygiene => Oral doxycycline
+
+@h0204
+c: worked outdoors all her life | pearly nodule | telangiectasia | loss of the eyelashes
+m: Sun-damaged lower lids are a common BCC site; lash loss means invasion
+g: A pearly nodule with lash loss on the lower lid is a basal cell carcinoma
+f: yellow plaques near the inner corner => Xanthelasma
+f: a painless firm lump away from the margin => Chalazion
+
+@h0205
+c: 2 day old | no antenatal sexual health screening | copious purulent discharge
+m: Gonorrhoea caught at birth causes a fast severe conjunctivitis that can perforate the cornea
+g: Severe purulent conjunctivitis in the first 2 days of life is gonococcal
+f: onset at day 5 to 14 with milder discharge => Chlamydia trachomatis
+f: a watery eye with sticky lashes but a white eye => Blocked tear duct
+
+@h0206
+c: contact lenses | bright light hurts | 6/18 | white opacity
+m: Lens wear lets bacteria or Acanthamoeba invade the cornea; ulcers can perforate in days
+g: Contact lens wearer with pain and a corneal opacity: same-day eye referral
+
+@h0207
+c: otherwise well | when she can go back to school
+m: Conjunctivitis is mild and exclusion does not stop spread
+g: Conjunctivitis: she can stay at school
+
+@h0208
+c: cold sore last week | branching dendritic ulcer
+m: Steroids let herpes simplex spread through the cornea
+g: Dendritic ulcer: avoid steroid drops such as dexamethasone
+
+@h0209
+c: tap water | swims in them | ring-shaped stromal infiltrate | out of proportion
+m: Acanthamoeba from water invades the cornea and nerves, causing severe pain
+g: A ring infiltrate with severe pain after tap water exposure is Acanthamoeba
+f: a contact lens wearer with a white spot and pus => Pseudomonas
+f: a branching dendritic ulcer after a cold sore => Herpes simplex
+
+@h0210
+c: upper eyelid | vesicles on the tip of the nose
+m: The nasociliary nerve supplies both the nose tip and the eye
+g: Hutchinson's sign predicts eye involvement

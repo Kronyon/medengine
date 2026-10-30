@@ -1,0 +1,131 @@
+@o-mla2-021
+c: 15 year old boy | severe anorexia nervosa | not currently acutely physically unwell
+m: Families can take back control of eating at home, which works best in young people
+g: Under 18 with anorexia: anorexia-focused family therapy first
+f: an adult with anorexia nervosa => Cognitive-behaviour therapy
+
+@o-mla2-022
+c: 120 patients in the treatment group of which 12 patients died | 240 patients in the control group of which 48 patients died
+m: NNT is 1 divided by the absolute risk reduction
+g: 20% minus 10% is a 10% reduction, so NNT is 10
+f: 18 treatment deaths instead of 12, a 5% absolute reduction => 20
+f: 84 control deaths instead of 48, a 25% absolute reduction => 4
+
+@o-mla2-023
+c: elated in mood | not slept for 7 days | believes that she is a member of the royal family | no past psychiatric history
+m: Mania with psychosis is treated quickly with an antipsychotic that also sedates
+g: First manic episode: an antipsychotic such as olanzapine
+f: mania settled and she needs long-term prevention => Lithium carbonate
+f: acute distress needing short-term calming alongside the antipsychotic => Diazepam
+
+@o-mla2-024
+c: legs feel "wobbly" | incontinent of urine | metastatic breast cancer | tendon jerks brisk | tender over the 10ththoracic vertebra
+m: A spinal metastasis compresses the cord, causing UMN leg weakness and bladder changes
+g: New neurology with back pain in cancer is cord compression: emergency MRI
+f: imminent death, already bedbound, with comfort the only aim => Admission to the local hospice
+
+@o-mla2-025
+c: 3 year old boy | visible pieces of sweetcorn | thriving and developing well
+m: A toddler's fast gut transit leaves undigested food in loose stools without harm
+g: Thriving child with undigested food in loose stools is toddler diarrhoea
+f: faltering growth, abdominal distension and irritability => Coeliac disease
+f: bloating and wind after milk at age 5 or more => Lactose intolerance
+
+@o-mla2-026
+c: formula milk for the first time | erythematous rash over her lips and chin | within 1 minute
+m: IgE antibodies to cow's milk protein cause hives and vomiting within minutes
+g: Cow's milk protein allergy: extensively hydrolysed formula
+f: only colic and bloating with no rash => Lactose free formula
+f: a rash only where a rubber teat touched => Latex free teat
+
+@o-mla2-027
+c: 38 weeks pregnant | sudden onset of abdominal pain | tender abdomen | fetal heart rate is 170 bpm
+m: The placenta separates early and blood collects behind it, making the uterus tense and painful
+g: Painful bleeding with a tender uterus and fetal distress is abruption
+f: painless bright red bleeding with a soft uterus => Placenta praevia
+f: previous caesarean with sudden pain and loss of the fetal heart => Uterine rupture
+
+@o-mla2-028
+c: chronic liver disease | flapping tremor | previous admission due to acute hepatic encephalopathy
+m: Gut bacteria make ammonia that a failing liver cannot clear, and it poisons the brain
+g: Hepatic encephalopathy: lactulose to clear ammonia
+f: fever and abdominal tenderness with ascitic neutrophils over 250 => Ciprofloxacin
+
+@o-mla2-029
+c: nulliparous | cervix is posterior, 2cm long and the os is closed
+m: An unfavourable cervix needs ripening with prostaglandin before it can dilate
+g: Low Bishop score: vaginal prostaglandin
+f: favourable cervix with a Bishop score over 8 => Oxytocin infusion and amniotomy
+f: offered at a 40 week check before formal induction => Membrane sweep
+
+@o-mla2-030
+c: monitoring him for 10 years | present whatever his mood | never heard voices
+m: A single fixed delusion without hallucinations or mood change, with function preserved
+g: One fixed delusion for years with no other psychotic features is delusional disorder
+f: third-person voices and thought interference => Paranoid schizophrenia
+f: delusions of guilt that only occur with low mood => Depression with psychosis
+
+@o-mla2-031
+c: fissures at both angles of her lips | non-tender mass in the right iliac fossa
+m: A caecal cancer bleeds slowly, causing iron deficiency with angular cheilitis
+g: Right iliac fossa mass with signs of iron deficiency
+f: smooth sore tongue with numb feet and a high MCV => Pernicious anaemia
+f: bone pain, high calcium and renal impairment => Myeloma
+
+@o-mla2-032
+c: 94 year old woman | 10 kg weight loss | localised tenderness over the left upper arm
+m: Carcinomas spread to the bones near the trunk, causing night pain and weight loss
+g: Weight loss with a bony lesion in the proximal limb of an older person is metastasis
+f: fever with a lytic lesion after an open fracture => Osteomyelitis
+f: a teenager with a sunburst lesion near the knee => Osteosarcoma
+
+@o-mla2-033
+c: chronic sinusitis | When he bends forward, purulent fluid pours from his nose
+m: The maxillary ostium is high on the sinus wall, so pus drains when the head tips forward
+g: Pus pouring on bending forward comes from the maxillary sinus
+f: pain over the forehead worse on lying flat => Frontal sinus
+f: watering eye with pus expressed from the inner canthus => Lacrimal sac
+
+@o-mla2-034
+c: oxygen saturation 82% breathing air | does not improve significantly breathing high flow oxygen | loud single second heart sound
+m: A duct-dependent cyanotic heart lesion needs the ductus arteriosus kept open
+g: Cyanosis that fails to respond to oxygen in a newborn: alprostadil
+f: preterm baby with grunting and ground-glass lungs => Surfactant
+f: preterm baby with a patent duct and heart failure that needs to close => Ibuprofen
+
+@o-mla2-035
+c: petechial rash | pale and has hepatosplenomegaly | more tired than usual
+m: Leukaemia fills the marrow, so platelets and red cells fall and the liver and spleen swell
+g: Petechiae, pallor and organomegaly in a child need same-day hospital assessment
+f: fever and a spreading purpuric rash in an unwell child => Administer intramuscular benzylpenicillin sodium and send her to hospital in an ambulance
+
+@o-mla2-036
+c: lack of interest | lost weight | benign prostatic enlargement
+m: Tricyclics are anticholinergic and can cause urinary retention, so an SSRI is safer
+g: Depression with prostatic enlargement: SSRI
+f: no response to two SSRIs and no prostate problem => Serotonin noradrenaline re-uptake inhibitor
+
+@o-mla2-037
+c: neighbour | wish to know how the patient is doing
+m: Confidentiality covers even the fact that someone is a patient
+g: Without consent, the doctor can neither confirm nor comment
+f: the patient has asked the doctor to update this neighbour => They can confirm they are caring for him and that he is unwell but stable
+
+@o-mla2-038
+c: weakness of all of the muscles on the right side of her face | no limb weakness | Examination of her ears is normal
+m: Inflammation of the facial nerve causes a lower motor neurone palsy including the forehead
+g: Bell's palsy within 72 hours: prednisolone
+f: forehead spared with arm weakness and slurred speech => Aspirin
+f: vesicles in the ear canal with ear pain => Aciclovir
+
+@o-mla2-039
+c: gestational hypertension | following delivery of the placenta she bleeds heavily
+m: An atonic uterus bleeds; oxytocin contracts it, and ergometrine raises BP
+g: Postpartum haemorrhage with hypertension: oxytocin, avoid ergometrine
+f: no hypertension and bleeding continues after oxytocin => Ergometrine
+f: still bleeding after oxytocin in a hypertensive woman without asthma => Carboprost
+
+@o-mla2-040
+c: burning sensation when passing urine | penile discharge | unprotected sex | declines a referral
+m: Chlamydia is the commonest cause of urethritis and responds to doxycycline
+g: Urethritis without gonorrhoea confirmed: doxycycline for chlamydia

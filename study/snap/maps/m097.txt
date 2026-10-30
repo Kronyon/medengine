@@ -1,0 +1,112 @@
+@h1451
+c: anorexia nervosa | lives with her parents | medically stable | outpatient therapy
+m: Families help a young person regain weight and challenge the illness
+g: Under 18 with anorexia: eating disorder focused family therapy
+
+@h1452
+c: repeated self-harm | mood swings within hours | stormy relationships | borderline personality disorder
+m: DBT teaches distress tolerance and emotion regulation skills
+g: Borderline personality disorder with self-harm: dialectical behaviour therapy
+f: intrusive thoughts with checking rituals => ERP
+
+@h1453
+c: understands the words used | cannot say what the test is for or remember
+m: The functional test needs understanding, retaining, weighing and communicating
+g: He understands but cannot hold onto it: fails retaining information
+f: he understands and remembers but makes an unwise choice => He has capacity
+
+@h1454
+c: lacks capacity | lasting power of attorney for health and welfare | registered | naming her son
+m: A registered health and welfare LPA gives the attorney legal authority to decide
+g: Registered health and welfare LPA: the attorney decides in her best interests
+f: no LPA and no family or friends => An IMCA
+
+@h1455
+c: advance decision refusing blood transfusion | even if his life is at risk | signed and witnessed | unconscious
+m: A valid and applicable advance decision has the same force as a contemporaneous refusal
+g: Valid advance decision refusing life-sustaining treatment: do not transfuse
+
+@h1456
+c: Ten minutes in | fever, back pain | dark urine
+m: ABO incompatibility triggers rapid intravascular haemolysis
+g: Fever, loin pain, shock and dark urine within minutes is an acute haemolytic reaction
+f: an isolated mild fever with no other symptoms => Febrile non-haemolytic reaction
+f: hives and wheeze => Allergic reaction
+
+@h1457
+c: heart failure | second unit | 178/96 | JVP is raised | bibasal crackles
+m: Extra volume overloads a failing heart
+g: Breathless with high BP and raised JVP during transfusion is circulatory overload
+f: hypoxia with low BP and fever without overload => Transfusion lung injury
+
+@h1458
+c: major haemorrhage protocol | tranexamic acid
+m: Early plasma replaces clotting factors lost with blood
+g: Major haemorrhage: red cells to plasma about 1 to 1
+
+@h1459
+c: emergency dialysis
+m: AEIOU: acidosis, electrolytes, intoxication, overload, uraemia
+g: Refractory hyperkalaemia is an indication for emergency dialysis
+
+@h1460
+c: chronic kidney disease | Potassium 6.8 | peaked T waves
+m: Calcium stabilises the cardiac membrane within minutes but does not lower potassium
+g: Hyperkalaemia with ECG changes: IV calcium gluconate 10% first
+f: asked which drug shifts potassium into cells => Insulin and glucose
+
+@h1461
+c: haemodialysis through a fistula in her left arm
+m: Pressure or needles in the fistula arm can clot or damage it
+g: Fistula arm: avoid needles and BP cuffs on that side
+
+@h1462
+c: last days of life | breathless at rest and anxious
+m: Low-dose opioids reduce the sense of breathlessness; midazolam eases anxiety
+g: Terminal breathlessness: morphine or midazolam
+f: noisy chest secretions => Hyoscine butylbromide
+
+@h1463
+c: anticipatory medicines | last days of life
+m: Four anticipatory drugs cover pain, agitation, nausea and secretions
+g: Terminal agitation: midazolam
+f: asked which drug is for pain or breathlessness => Morphine
+f: asked which drug is for secretions => Hyoscine
+
+@h1464
+c: syringe driver | cyclizine
+m: Cyclizine precipitates in sodium chloride
+g: Syringe driver containing cyclizine: water for injections
+
+@h1465
+c: lung cancer | swelling of his face and arms | worse when he lies down | do not pulsate | dilated veins on the chest wall
+m: Tumour compresses the SVC, so blood backs up into the head and arms
+g: Face and arm swelling with fixed non-pulsatile neck veins is SVC obstruction
+f: low BP, muffled heart sounds and pulsus paradoxus => Cardiac tamponade
+
+@h1466
+c: metastatic breast cancer | confused and constipated | thirsty | dehydrated | 3.4
+m: Bone metastases release calcium; dehydration worsens it
+g: Hypercalcaemia of malignancy: IV saline first, then zoledronic acid
+
+@h1467
+c: prostate cancer | back pain for 2 weeks | difficulty walking | brisk reflexes
+m: Spinal metastases compress the cord, and delay means permanent paralysis
+g: Suspected cord compression with neurology: MRI within 24 hours
+f: back pain alone with no neurology => 1 week
+
+@h1468
+c: ventricular fibrillation | first shock has been given
+m: Adrenaline and amiodarone are given once shocks alone fail
+g: Shockable rhythm: adrenaline after the third shock
+f: a non-shockable rhythm => Before the first shock
+
+@h1469
+c: car crash | reversible causes
+m: The 4 Hs and 4 Ts list the arrest causes that can be fixed
+g: Tension pneumothorax is one of the 4 Ts
+
+@h1470
+c: unresponsive and not breathing normally | chest compressions
+m: Enough depth and rate keep the brain perfused
+g: Adult CPR: 100 to 120 a minute, 5 to 6 cm deep

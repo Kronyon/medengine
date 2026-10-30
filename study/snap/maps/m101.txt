@@ -1,0 +1,119 @@
+@h1531
+c: hard, irregular, nodular prostate | PSA 22
+m: Cancer replaces the soft prostate with hard irregular tissue and leaks PSA
+g: A hard irregular prostate with a raised PSA suggests prostate cancer
+f: smooth, rubbery and symmetrically enlarged with a PSA of 4 => Benign prostatic hyperplasia
+
+@h1532
+c: suspicious prostate on rectal examination | referred to urology
+m: Multiparametric MRI finds significant cancer and guides biopsy
+g: Suspected prostate cancer in secondary care: multiparametric MRI first
+f: high-risk disease confirmed on biopsy needing staging => Bone scan
+
+@h1533
+c: metastatic prostate cancer | leg weakness | difficulty passing urine | sensory level at T12
+m: Steroids reduce oedema around the compressed cord
+g: Suspected metastatic cord compression: dexamethasone 16 mg straight away
+
+@h1534
+c: sudden severe pain | vomited twice | high and horizontal | cremasteric reflex is absent
+m: A twisted cord cuts off blood to the testis and pulls it up
+g: Sudden pain with vomiting, a high horizontal lie and absent reflex is testicular torsion
+f: upper pole pain with a blue dot and a normal reflex => Torsion of the appendix testis
+f: gradual pain with fever and dysuria => Epididymo-orchitis
+
+@h1535
+c: 4 hours | high-riding | no leucocytes or nitrites
+m: Testicular salvage falls sharply after 6 hours
+g: Suspected torsion: urgent scrotal exploration without waiting for imaging
+f: gradual pain with fever and a positive dipstick => Antibiotics for epididymitis
+
+@h1536
+c: left testis is twisted | viable after untwisting
+m: The bell clapper anomaly is usually on both sides
+g: Torsion: fix both testes
+f: the testis is black and does not recover => Remove the left testis
+
+@h1537
+c: fever, headache and odd behaviour | seizure | no rash and no neck stiffness
+m: HSV infects the temporal lobes, changing behaviour and causing seizures
+g: Fever with altered behaviour and a seizure is herpes simplex encephalitis
+f: fever, neck stiffness and a purpuric rash => Bacterial meningitis
+
+@h1538
+c: suspected encephalitis | 90% lymphocytes | CSF glucose 3.4
+m: Viral infection gives lymphocytes with a normal glucose ratio
+g: Viral encephalitis: lymphocytes with normal glucose
+f: a CSF glucose under half of plasma with neutrophils => Neutrophils with low glucose
+
+@h1539
+c: IV aciclovir | not been drinking much | 85 to 28
+m: Aciclovir crystals block the renal tubules when the patient is dry
+g: Aciclovir with AKI: reduce the dose and give fluids
+
+@h1540
+c: headache and fever for 10 days | dental abscess 3 weeks ago | ring-enhancing lesion
+m: Mouth bacteria spread to the brain and form a walled-off abscess
+g: Ring-enhancing lesion with fever after a dental source is a cerebral abscess
+f: a ring lesion with HIV and a CD4 count of 60 => Toxoplasmosis
+f: an older patient with no fever and a known primary => Metastasis
+
+@h1541
+c: cerebral abscess | drowsy | GCS 13
+m: A mass lesion raises pressure, so draining CSF can cause coning
+g: Space-occupying lesion: avoid lumbar puncture
+
+@h1542
+c: brain abscess after a dental infection | anaphylaxis to penicillin
+m: Cephalosporins share cross-reactivity risk after penicillin anaphylaxis
+g: Brain abscess with penicillin anaphylaxis: chloramphenicol and metronidazole
+f: no allergy => Ceftriaxone and metronidazole
+
+@h1543
+c: worried constantly about her job, health and family | 7 months | muscles are tense | no panic attacks
+m: Excessive, uncontrollable worry about many things for 6 months defines GAD
+g: Widespread worry for over 6 months with tension and poor sleep is generalised anxiety disorder
+f: sudden surges of fear peaking within minutes => Panic disorder
+f: fear only of being judged in social settings => Social anxiety disorder
+
+@h1544
+c: palpitations and weight loss | fine tremor | Free T4 38
+m: Thyrotoxicosis mimics anxiety with adrenergic symptoms
+g: Anxiety with tremor and weight loss: suppressed TSH with a high free T4 explains it
+
+@h1545
+c: not improved with guided self-help and CBT | would like medication
+m: SSRIs are effective and safe long term for GAD
+g: GAD needing medication: sertraline first
+f: sertraline and an SNRI have both failed => Pregabalin first
+
+@h1546
+c: fatal crash 7 weeks ago | nightmares and flashbacks | avoids the road | jumpy and irritable
+m: Re-experiencing, avoidance and hyperarousal lasting over a month define PTSD
+g: Flashbacks, avoidance and hyperarousal over a month after trauma is PTSD
+f: the same symptoms 4 days after the crash => Acute stress reaction
+
+@h1547
+c: post-traumatic stress disorder | several symptoms
+m: PTSD symptoms group into re-experiencing, avoidance and hyperarousal
+g: Flashbacks belong to re-experiencing
+f: asked which belongs to avoidance => Avoiding the road
+f: asked which belongs to hyperarousal => Irritability
+
+@h1548
+c: post-traumatic stress disorder | asks for treatment | asthma
+m: Trauma-focused therapy processes the memory so it stops intruding
+g: PTSD first line: trauma-focused CBT or EMDR
+f: he declines psychological therapy => Sertraline first
+
+@h1549
+c: 3 hours a day checking | knows the fear is excessive | anxious if he resists
+m: Intrusive thoughts he recognises as his own drive time-consuming rituals
+g: Insight into excessive fears with time-consuming checking is OCD
+f: rigid perfectionism he sees as reasonable with no intrusive thoughts => Obsessive-compulsive personality
+f: he believes the thoughts are put in his head by others => Schizophrenia
+
+@h1550
+c: obsessive-compulsive disorder with checking rituals | psychological therapy
+m: Exposure without performing the ritual lets anxiety fall by itself
+g: OCD therapy: exposure and response prevention

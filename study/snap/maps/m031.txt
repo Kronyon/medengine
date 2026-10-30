@@ -1,0 +1,121 @@
+@h0131
+c: rural Egypt | River Nile | never smoked | squamous cell carcinoma of the bladder
+m: Schistosoma eggs inflame the bladder for years, causing squamous change and cancer
+g: Squamous bladder cancer after Nile exposure is schistosomiasis
+f: a smoker with transitional cell cancer => Smoking
+f: a dye worker with transitional cell cancer => Aniline dyes
+
+@h0132
+c: high-grade | no muscle invasion
+m: BCG in the bladder triggers an immune response that cuts recurrence
+g: High-risk non-muscle-invasive bladder cancer: intravesical BCG
+f: muscle-invasive disease => Cystectomy
+
+@h0133
+c: 7 cm left renal mass | Haemoglobin 190 | White cell count and platelets normal | not been dehydrated
+m: Renal cancers can secrete erythropoietin
+g: Isolated polycythaemia with a renal cancer is tumour erythropoietin
+f: JAK2 positive with a big spleen and high platelets => Polycythaemia vera
+
+@h0134
+c: mother died of a kidney cancer at 45 | cerebellar haemangioblastoma | multiple bilateral renal cysts
+m: Loss of the VHL tumour suppressor causes haemangioblastomas, renal cysts and clear cell cancer
+g: Haemangioblastoma with renal cysts and a renal mass is von Hippel-Lindau
+f: large cystic kidneys with berry aneurysms in the family => Polycystic kidney disease
+f: ash-leaf macules, seizures and renal angiomyolipomas => Tuberous sclerosis
+
+@h0135
+c: 6 year old girl | high for her age | does not cross the midline | blood 2+
+m: An embryonal kidney tumour grows within the kidney capsule and can bleed into the urine
+g: A smooth flank mass not crossing the midline with haematuria in a child is Wilms' tumour
+f: an irregular mass crossing the midline with raised catecholamines => Neuroblastoma
+
+@h0136
+c: radiating to the groin | cannot keep still | pregnancy test is negative
+m: Low-dose non-contrast CT finds almost every stone and its position
+g: Suspected renal colic, not pregnant: non-contrast CT KUB
+f: she is pregnant => Abdominal ultrasound
+
+@h0137
+c: 6 mm stone | pain is now controlled | White cell count and CRP are normal | two kidneys
+m: Stones under 10 mm in the lower ureter usually pass alone
+g: Small distal stone, no infection, pain controlled: watchful waiting
+f: fever with an obstructed kidney => Emergency nephrostomy
+
+@h0138
+c: drinks about 1 litre a day | calcium oxalate | 1.1 litres
+m: Dilute urine stops calcium oxalate crystals forming
+g: Recurrent stones with low urine volume: drink 2.5 to 3 litres a day
+
+@h0139
+c: 70 year old man | dysuria and frequency for 3 days | no loin pain or fever
+m: UTIs in men are complicated by definition, so they need culture and a longer course
+g: Lower UTI in a man: culture and 7 days of antibiotics
+
+@h0140
+c: 38 weeks pregnant | nitrites and leucocytes
+m: Nitrofurantoin near delivery can cause haemolysis in the newborn
+g: UTI at term: avoid nitrofurantoin
+
+@h0141
+c: fever, right loin pain and vomiting | dysuria last week | renal angle tenderness | Pregnancy test is negative
+m: Bladder infection ascends to the kidney, causing fever and loin pain
+g: Fever and loin tenderness after cystitis is pyelonephritis
+f: dysuria and frequency with no fever or loin pain => Cystitis
+f: colicky pain to the groin without fever => Renal colic
+f: central pain moving to the right iliac fossa => Appendicitis
+
+@h0142
+c: dragging ache | trying for a baby | bag of worms | disappears when he lies down
+m: Incompetent valves let the left testicular vein dilate, warming the testis
+g: Bag of worms above the left testis on standing is a varicocele
+f: a smooth lump separate from the testis that transilluminates => Epididymal cyst
+f: a swelling around the testis that transilluminates => Hydrocele
+
+@h0143
+c: palpable separately | can get above the swelling | transilluminates
+m: Fluid in the epididymis forms a cyst separate from the testis
+g: Transilluminating lump separate from the testis is an epididymal cyst
+f: the testis cannot be felt separately from the fluid => Hydrocele
+f: you cannot get above it and it has a cough impulse => Indirect hernia
+f: a hard painless lump in the testis itself => Seminoma
+
+@h0144
+c: 25 year old man | surrounding the left testis | testis cannot be felt separately
+m: A tumour can produce a reactive hydrocele that hides it
+g: New hydrocele in a young man: scrotal ultrasound to exclude a tumour
+
+@h0145
+c: poor stream from an enlarged prostate | not been sexually active for several years | nitrites and leucocytes
+m: Infected urine refluxes along the vas into the epididymis
+g: Epididymo-orchitis with a UTI and no sexual risk is usually E. coli
+f: a 22 year old with a new partner and urethral discharge => Chlamydia trachomatis
+
+@h0146
+c: no sexual risk factors | urinary tract infection
+m: Quinolones reach the testis and cover enteric bacteria
+g: Enteric epididymo-orchitis: ofloxacin
+f: chlamydia is suspected from sexual risk => Doxycycline
+
+@h0147
+c: came on gradually | cremasteric reflex is present | blue dot
+m: A small appendage twists and infarcts, showing through the skin as a blue dot
+g: Tender upper pole nodule with a blue dot and normal reflex is a torsed appendix testis
+f: a high-riding horizontal testis with no cremasteric reflex => Testicular torsion
+f: a swollen tender epididymis with dysuria => Epididymo-orchitis
+
+@h0148
+c: twisted 720 degrees | judged viable
+m: The bell clapper anomaly is usually on both sides
+g: Viable torsion: untwist and fix both testes
+
+@h0149
+c: 5 hours ago | high-riding and horizontal | wait for an ultrasound scan
+m: Twisted cord cuts blood supply; the testis dies within hours
+g: Salvage falls sharply after 6 hours, so explore without imaging
+
+@h0150
+c: 6 hours ago | does not appear to be in pain | dark blue | does not transilluminate
+m: Torsion before birth twists the whole cord outside the tunica and is often painless
+g: Firm, dark, painless scrotum at birth is neonatal torsion
+f: a soft swelling that transilluminates => Congenital hydrocele

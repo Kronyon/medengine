@@ -1,5 +1,29 @@
 # Changelog
 
+## 2.7.3 (2026-10-30)
+
+⚡ **STUDY: an arrow thought map on every explanation.**
+- After you answer, the explanation opens with 🎯 Trigger cues ➔ ⚙️ Mechanism ➔ ⚖️ Decisive gate ➔ ✅ Answer.
+- Under the gate, "↳ 🔀 If instead…" lines show the one change to the stem that would make a distractor right, for up to 3 distractors.
+- It runs left to right on a laptop and stacks top to bottom on a phone.
+- All 2,122 questions have one: 399 MSC paper questions, 91 Nottingham mock questions and all 1,632 Hammer questions. The maps were written by hand in `study/snap/maps/m000.txt` to `m106.txt`. The build checks that every cue is verbatim in the stem or results, and that every flip names a real wrong option.
+
+🖍️ **STUDY: a cue check on your highlights.**
+- After you answer, your yellow highlights stay. The real trigger cues are underlined in green in the stem and the Investigations table.
+- The score line says how many cues your highlights caught.
+- On a phone, a floating 🖍️ Highlight ON/OFF pill sits above the answers. Scrolling never highlights.
+
+☁️ **STUDY: 🔥 My misses now sync between devices.**
+- Misses are merged item by item: both devices' misses are kept, the higher seen count wins, and a miss marked fixed stays fixed.
+- They go only to your private per-user database. Vault images still stay on the device.
+
+🧹 **Data fixes**
+- BP values such as 232/134 no longer render as "232/13 mmHg4".
+- Sweat chloride, vaginal pH, NG aspirate pH and conjunctival pH no longer get serum reference ranges added.
+
+📦 **Build:** `offline/dist/medengine-code-audit.zip` is the website zip without `img/`. It stays under 20 MB for audit tools with an upload cap.
+- Test: `study/test_study_v273.py` checks 100% map coverage, map placement, flips, the green cue underline, the phone pill and layout at 390 px, and a laptop and phone merging misses.
+
 ## 2.7.2 (2026-10-29)
 
 🖍️ **STUDY: highlighter on every question, like Passmedicine.**

@@ -1,0 +1,116 @@
+@h0711
+c: runs of ventricular tachycardia | Potassium 6.2 | Digoxin level is high
+m: Antibody fragments bind digoxin and remove it from the pump
+g: Life-threatening digoxin toxicity: digoxin-specific antibody
+f: symptomatic bradycardia alone while the antibody is awaited => IV atropine
+
+@h0712
+c: starting long-term amiodarone
+m: Amiodarone damages the thyroid, liver and lungs over time
+g: Amiodarone baseline: TFTs, LFTs and chest X-ray
+
+@h0713
+c: asthma | Vagal manoeuvres | have not worked
+m: Adenosine can trigger bronchospasm; verapamil also blocks the AV node
+g: SVT after failed vagal manoeuvres in asthma: verapamil
+f: no asthma => Adenosine
+
+@h0714
+c: pill in the pocket
+m: Flecainide is pro-arrhythmic in scarred or ischaemic hearts
+g: Previous myocardial infarction makes flecainide unsuitable
+
+@h0715
+c: simvastatin 40 mg
+m: Cholesterol is made mostly at night and simvastatin is short-acting
+g: Take simvastatin at night
+
+@h0716
+c: simvastatin 40 mg | clarithromycin
+m: Clarithromycin blocks CYP3A4, raising simvastatin and myopathy risk
+g: Short clarithromycin course on simvastatin: stop simvastatin during the course
+f: the antibiotic is amoxicillin => Continue both as normal
+
+@h0717
+c: no muscle aches | twice the upper limit
+m: Mild transaminase rises on statins are common and usually harmless
+g: ALT under 3 times normal on a statin: continue and recheck
+f: ALT 4 times the upper limit => Stop the statin
+
+@h0718
+c: atrial fibrillation | target
+m: An INR of 2 to 3 prevents stroke while limiting bleeding
+g: Warfarin for AF: target INR 2.5
+f: recurrent VTE while in range => 3.5
+
+@h0719
+c: INR check is 9 | no bleeding
+m: Oral vitamin K lowers a very high INR without causing resistance
+g: INR over 8 without bleeding: stop warfarin and give oral vitamin K
+f: INR of 6.5 with no bleeding => Omit 1 dose and recheck
+f: major bleeding => Prothrombin complex concentrate
+
+@h0720
+c: fallen to 1.4 | started by the neurologist
+m: Enzyme inducers speed warfarin breakdown, lowering the INR
+g: INR falling after a new neurology drug: carbamazepine
+f: INR rising after a new antibiotic => Clarithromycin
+
+@h0721
+c: 82 year old woman | 58 kg | Creatinine 90
+m: Apixaban is reduced if 2 of: age 80 or more, weight 60 kg or less, creatinine 133 or more
+g: Age over 80 and weight under 60 kg: apixaban 2.5 mg twice daily
+f: only one of those criteria applies => 5 mg twice daily
+
+@h0722
+c: dabigatran
+m: Idarucizumab is an antibody fragment that binds dabigatran
+g: Dabigatran reversal: idarucizumab
+f: he is on warfarin => Vitamin K
+
+@h0723
+c: moderate rheumatic mitral stenosis
+m: DOACs were not tested in moderate to severe mitral stenosis
+g: AF with moderate mitral stenosis: warfarin
+f: AF with no valve disease => Apixaban
+
+@h0724
+c: enoxaparin | 7 days ago | Platelets today 90 | new deep vein thrombosis
+m: Antibodies against heparin and PF4 activate platelets, causing clots and a falling count
+g: Platelets falling by over half days after heparin with a new clot is HIT
+f: low platelets with bleeding, high INR and low fibrinogen in sepsis => Disseminated intravascular coagulation
+
+@h0725
+c: unfractionated heparin
+m: Protamine binds and neutralises heparin
+g: Heparin reversal: protamine sulfate
+f: bleeding on dabigatran => Idarucizumab
+f: bleeding on warfarin => Vitamin K
+
+@h0726
+c: eGFR of 18 | not on dialysis
+m: LMWH and DOACs build up in severe kidney failure; unfractionated heparin is easier to control
+g: PE with eGFR under 30: unfractionated heparin infusion
+f: an eGFR of 70 => Rivaroxaban with loading
+
+@h0727
+c: slurred speech for 2 hours | CT head shows no haemorrhage | NIHSS score is 9
+m: Clot-busting drugs restore flow if given early
+g: Ischaemic stroke within 4.5 hours with no bleed: IV alteplase
+f: outside the thrombolysis window with haemorrhage excluded => Aspirin 300 mg
+
+@h0728
+c: 90 minutes | 200/115 | on repeated readings
+m: High blood pressure raises the risk of bleeding after thrombolysis
+g: BP must be lowered below 185/110 before thrombolysis
+f: blood pressure of 170/95 => Give alteplase now
+
+@h0729
+c: contraindications
+m: A previous brain bleed makes another one too likely
+g: Previous intracranial haemorrhage is an absolute contraindication
+
+@h0730
+c: dapagliflozin
+m: Sugary urine feeds Candida in the genital area
+g: Dapagliflozin commonly causes genital fungal infection

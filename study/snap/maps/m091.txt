@@ -1,0 +1,116 @@
+@h1331
+c: dysuria and frequency
+m: Gram-negative bacteria convert nitrate to nitrite
+g: Nitrites most strongly suggest a UTI
+
+@h1332
+c: new partner | sterile
+m: Chlamydia causes pyuria but does not grow on routine culture
+g: Sterile pyuria with a new partner: chlamydia
+f: a routine culture grows a coliform => Escherichia coli UTI
+
+@h1333
+c: stony dullness | curved upper edge rising towards the axilla
+m: Fluid forms a meniscus that rises laterally
+g: A basal white area with a meniscus is a pleural effusion
+f: air bronchograms with no meniscus => Consolidation
+f: loss of volume with the mediastinum pulled towards it => Collapse
+
+@h1334
+c: triangular white area behind the heart | medial left hemidiaphragm is lost
+m: A collapsed left lower lobe sits behind the heart and hides the diaphragm
+g: A triangle behind the heart with loss of the medial hemidiaphragm is left lower lobe collapse
+f: a gas-fluid level behind the heart => Hiatus hernia
+
+@h1335
+c: ibuprofen | not had recent surgery | rigid | crescent of gas under the right hemidiaphragm
+m: A perforated ulcer releases gas that rises under the diaphragm
+g: Free gas under the diaphragm with a rigid abdomen is a perforated viscus
+f: bowel between the liver and diaphragm in a well patient => Chilaiditi sign
+f: a bubble under the left diaphragm with rugal folds => Normal gastric bubble
+
+@h1336
+c: care home | coffee bean | left side of the pelvis
+m: A long redundant sigmoid twists on its mesentery
+g: A coffee bean loop rising from the left pelvis is sigmoid volvulus
+f: a transverse colon over 6 cm in UC with fever => Toxic megacolon
+f: dilated colon with no mechanical cause after surgery => Pseudo-obstruction
+
+@h1337
+c: caecum
+m: The thin-walled caecum stretches most and perforates first
+g: The 3 6 9 rule: the caecum is at risk over 9 cm
+f: the upper limit for small bowel => 3 cm
+f: the upper limit for the colon => 6 cm
+
+@h1338
+c: ulcerative colitis for 20 years | no haustra
+m: Chronic inflammation scars the colon and removes the haustra
+g: A narrowed featureless colon in long-standing UC is a lead pipe colon
+f: soft tissue bumps along the wall => Thumbprinting
+f: a transverse colon over 6 cm with fever => Toxic megacolon
+
+@h1339
+c: GCS is 13, two hours after the injury
+m: A GCS under 15 two hours after injury suggests a bleed
+g: GCS under 15 at 2 hours: CT head within 1 hour
+
+@h1340
+c: apixaban | not lost consciousness, vomited | GCS 15
+m: Anticoagulants raise the risk of a delayed bleed
+g: Anticoagulated head injury with no other features: CT head within 8 hours
+f: she has vomited twice => CT head within 1 hour regardless
+
+@h1341
+c: clear fluid dripping from his nose | bruising behind his right ear | around both eyes
+m: A fracture through the skull base tears the dura, leaking CSF and blood
+g: CSF rhinorrhoea with Battle's sign and panda eyes is a base of skull fracture
+
+@h1342
+c: hives after iodinated contrast
+m: A previous contrast reaction raises the risk of another
+g: Previous contrast reaction before an urgent scan: discuss with radiology
+f: a shellfish allergy only => Give contrast as normal
+
+@h1343
+c: atrial fibrillation | far worse than the examination | Lactate 6
+m: CT angiography shows the blocked artery and bowel damage
+g: Suspected acute mesenteric ischaemia: CT mesenteric angiography
+
+@h1344
+c: eGFR 25
+m: Volume expansion protects the kidneys from contrast
+g: Contrast CT with eGFR under 30: IV fluids before and after
+f: an eGFR of 80 => No precautions
+
+@h1345
+c: prostate cancer | cannot pass urine | sensory level
+m: Metastases can compress the cord at several levels
+g: Suspected cord compression with neurology: whole spine MRI within 24 hours
+
+@h1346
+c: welder and grinder
+m: Metal fragments in the eye can move in the magnet and blind
+g: Before MRI in a metal worker: orbital X-ray
+
+@h1347
+c: pain in her right eye on movement | tingling in her legs a year ago
+m: MRI shows demyelinating lesions separated in time and space
+g: Suspected MS: MRI brain and spine with gadolinium
+
+@h1348
+c: BP 82/50 | seatbelt
+m: FAST looks quickly for blood without moving the patient
+g: Unstable after blunt abdominal trauma: FAST scan
+f: he is haemodynamically stable => CT abdomen
+
+@h1349
+c: after fatty meals | Murphy's sign is negative
+m: Ultrasound is quick, radiation free and very sensitive for stones
+g: Suspected gallstones: abdominal ultrasound first
+f: a dilated duct with no stone seen => MRCP
+
+@h1350
+c: 2 hours | lies high | cremasteric reflex is absent
+m: Scans delay surgery and can miss torsion
+g: Clinical torsion: no scan, explore directly

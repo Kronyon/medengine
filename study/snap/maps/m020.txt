@@ -1,0 +1,137 @@
+@m003
+c: sheet metal worker | sudden onset, severe pain in his right eye | "counting fingers"
+m: A metal fragment may be inside the eye; a magnet would move it
+g: Suspected metallic intraocular foreign body: CT, never MRI
+f: a wooden or plant foreign body that CT may not show, with metal excluded => Orbital MRI
+
+@m004
+c: 8 month history | heart races, she feels sweaty and her mouth goes dry | frequently worries that family members are going to fall ill
+m: Persistent uncontrolled worry about many things keeps the body in fight or flight
+g: Over 6 months of worry about everyday matters with physical anxiety is GAD
+f: fear only of being judged in social situations => Social anxiety disorder
+f: intrusive thoughts relieved by repeated checking rituals => Obsessive Compulsive Disorder
+
+@m005
+c: fluoxetine | tramadol | cough syrup | hyperreflexia | temperature is 38°C
+m: Several serotonergic drugs together flood the synapse, causing autonomic and neuromuscular overactivity
+g: Fever, agitation and hyperreflexia with combined serotonergic drugs is serotonin syndrome
+f: days after starting haloperidol with lead-pipe rigidity and slow reflexes => Neuroleptic malignant syndrome
+f: lip smacking and chewing after years of antipsychotics => Tardive dyskinesia
+
+@m006
+c: voluntarily admitted | wishes to leave the hospital immediately
+m: An informal inpatient can be held for up to 72 hours by the responsible doctor while assessed
+g: Informal inpatient wanting to leave while at risk, doctor present: section 5(2)
+f: only a qualified nurse is present => Application of section 5(4) of the Mental Health Act 1983
+f: known diagnosis needing treatment after assessment by two doctors and an AMHP => Application of section 3 of the Mental Health Act 1983
+
+@m008
+c: past 12 weeks with increasing doses of methylphenidate | no benefit
+m: If one stimulant fails at an adequate dose, the other stimulant is tried
+g: Methylphenidate failed after 6 weeks at an adequate dose: lisdexamfetamine
+f: both stimulants fail or are not tolerated => Stop methylphenidate and begin treatment with guanfacine
+
+@m009
+c: difficult to make simple decisions | his wife has always done this for him | worried about how he will manage when there is no one to support him
+m: Lifelong reliance on others to make decisions and fear of being alone
+g: Needing others to decide everyday things is dependent personality
+f: avoids relationships for fear of rejection but wants them => Anxious-avoidant personality disorder
+f: attention-seeking with dramatic shallow emotions => Histrionic personality disorder
+
+@m010
+c: hypopigmented patches with fine scaling | after a sunny holiday
+m: Malassezia yeast stops the skin tanning, so patches show up after sun
+g: Pityriasis versicolor: topical ketoconazole
+f: burrows between the fingers with night itch => Topical permethrin
+f: hot, red, spreading skin with fever => Intravenous flucloxacillin
+
+@m011
+c: coin-shaped plaques | very itchy | worse in the winter months
+m: Dry skin forms itchy round eczema plaques
+g: Itchy coin-shaped plaques worse in winter are discoid eczema
+f: itchy vesicles on the palms and sides of the fingers => Dyshidrotic eczema
+f: itchy scaly skin over varicose veins at the ankle => Varicose eczema
+f: greasy yellow scale on the scalp and face => Seborrheic dermatitis
+
+@m012
+c: anterior border of the mid-portion of the left sternocleidomastoid | fluctuant and transilluminates | 18 year old woman
+m: A remnant of the second branchial cleft forms a cyst along the front of the sternocleidomastoid
+g: Smooth fluctuant lump at the anterior border of the sternocleidomastoid in a young adult is a branchial cyst
+f: a midline lump that moves up on protruding the tongue => Thyroglossal cyst
+f: a soft lump in the posterior triangle of a baby that lights up brightly => Cystic hygroma
+f: rubbery painless nodes with night sweats => Lymphoma
+
+@m013
+c: right-sided non-pulsatile tinnitus and reduced hearing | mass at the cerebellopontine angle
+m: A schwannoma of the vestibular nerve grows in the internal auditory meatus
+g: One-sided hearing loss and tinnitus with a CP angle mass is a vestibular schwannoma
+f: hours of vertigo with low-tone loss and fullness => Meniere's disease
+f: painless smelly discharge with a crust in the attic => Cholesteatoma
+
+@m014
+c: wears contact lenses | red painful left eye | 6/18 in the left eye | small white spot on the cornea
+m: Contact lenses let bacteria such as Pseudomonas invade the cornea
+g: Painful red eye with reduced vision and a white corneal spot in a lens wearer is a corneal ulcer
+f: crusty lid margins with a clear cornea and normal vision => Blepharitis
+f: sectoral redness with normal vision and a clear cornea => Episcleritis
+
+@m015
+c: 7 year old boy with asthma | red itchy eyes | 6/6 in both eyes | No lymphadenopathy
+m: Allergens trigger mast cells in the conjunctiva, causing itch and redness
+g: Bilateral itchy red eyes with normal vision in an atopic child is allergic conjunctivitis
+f: a contact lens wearer with a white spot on the cornea and reduced vision => Corneal ulcer
+f: crusty lid margins and flakes on the lashes => Blepharitis
+
+@m016
+c: lids are often crusty in the mornings | flaky material on her eye lashes | cornea was clear
+m: Lid margin inflammation causes crusting and soreness, chronic and recurring
+g: Morning crusting with flakes on the lashes and a clear cornea is blepharitis
+f: gritty eyes worse at the end of the day with no lid crusting => Dry eye
+f: sectoral redness that blanches with phenylephrine => Episcleritis
+
+@m017
+c: past two weeks | sudden death of her brother a month previously
+m: Low mood, poor sleep and loss of interest are expected in the first months after a death
+g: Two weeks of depressive symptoms soon after a bereavement is normal grief
+f: symptoms still severe over 6 months later with hopelessness and suicidal thoughts => Moderate depressive episode
+f: no grief at all followed by a delayed severe reaction => Abnormal grief reaction
+
+@m018
+c: Dexamethasone | Since yesterday evening | no past psychiatric history
+m: High-dose steroids can trigger mania and psychosis within days
+g: New mania straight after high-dose dexamethasone with no history is a steroid reaction
+f: no new drug, with a past history of mood episodes => Acute mania
+f: headache, vomiting and focal neurology with gradual personality change => Intracranial space occupying lesion
+
+@m019
+c: on lithium | vomiting and diarrhoea | coarse tremor | slurring their words
+m: Dehydration reduces lithium clearance, so levels rise to toxic
+g: Suspected lithium toxicity with neurological signs: same-day hospital assessment
+f: vomiting has stopped and there is no tremor, slurred speech or drowsiness => Give them a form for blood tests to be done routinely
+
+@m020
+c: frothy white sputum | cardiomegaly | bat-wing shadowing
+m: A failing left ventricle backs pressure up into the lungs, flooding the alveoli
+g: Frothy sputum with cardiomegaly and bat-wing shadowing is left ventricular failure
+f: fever, rusty sputum and lobar consolidation => Pneumonia
+
+@m022
+c: brewery worker | widespread crackles and squeaks | oxygen saturations are reported as 88%
+m: Inhaled organic dust such as mould triggers an immune reaction in the alveoli
+g: Breathlessness with crackles in someone exposed to organic dust is extrinsic allergic alveolitis
+f: a coal miner or stone worker with nodules on X-ray => Pneumoconiosis
+f: fever and pneumonia after handling sick parrots => Psittacosis
+f: bilateral hilar nodes with erythema nodosum => Sarcoidosis
+
+@m023
+c: painful cold white left leg | four-hour history
+m: Ischaemic nerves and muscle lose function first, so weakness means the limb is threatened
+g: The 6 Ps: weakness supports acute ischaemia and urgency
+f: chronic ischaemia over years with shiny skin => Loss of hair
+
+@m024
+c: multiple episodes of unrelated minor ailments | new symptoms develop
+m: Distress is expressed as many physical symptoms across systems over years
+g: Many changing medically unexplained symptoms is somatisation disorder
+f: one sudden neurological symptom such as blindness after a stressful event => Conversion disorder
+f: a fixed false belief that his body is infested, despite proof => Delusional disorder

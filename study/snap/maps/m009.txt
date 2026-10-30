@@ -1,0 +1,132 @@
+@o-mla2-081
+c: increasingly hypotensive | 3 L of 0.9% sodium chloride | central venous pressure +12 mmHg | BP 91/60 mmHg
+m: Sepsis dilates the vessels; once filled, more fluid only floods the lungs, so a vasoconstrictor is needed
+g: Still hypotensive after adequate fluid with a high CVP: start noradrenaline
+f: hypotensive after only one litre with a low CVP => Intravenous 500 mL 0.9% sodium chloride over 30 minutes
+f: refractory acidosis and potassium over 6.5 with no urine => Haemofiltration
+
+@o-mla2-082
+c: bowel obstruction with vomiting | cannot take oral medication | codeine phosphate at maximum dosage
+m: Codeine has failed, so a strong opioid is needed by a route that works without swallowing
+g: Pain after maximal weak opioid and unable to swallow: subcutaneous morphine infusion
+f: stable pain on steady oral morphine and only swallowing is a problem => Fentanyl transcutaneous patch
+
+@o-mla2-083
+c: mother has detectable varicella antibodies | remains clinically well
+m: Maternal IgG crosses the placenta and protects a term newborn
+g: Mother immune to chickenpox: no action needed
+f: the mother has no varicella antibodies => Treat with zoster immune globulin
+f: mother's chickenpox rash appears 2 days after delivery => Check antibody status for varicella antibodies
+
+@o-mla2-084
+c: 35 year old woman | well-circumscribed | regular columnar cells, separated by loose fibrous tissue
+m: A benign overgrowth of glands and stroma forms a smooth mobile breast mouse
+g: Well-circumscribed mass with regular ducts and loose stroma is a fibroadenoma
+f: blood-stained nipple discharge from a single duct => Intraductal papilloma
+f: eczema-like change of the nipple => Paget's disease of the breast
+
+@o-mla2-085
+c: surfer | debris in the right ear canal | pain on pulling the pinna
+m: Water softens the canal skin so bacteria or fungi infect it
+g: Painful canal debris with pain on moving the pinna is otitis externa
+f: painless smelly discharge with a crust in the attic of the drum => Cholesteatoma
+f: a child with fever and a red bulging drum => Otitis media
+
+@o-mla2-086
+c: 32 weeks pregnant | 2 cm lump | redness of the overlying skin
+m: Pregnancy does not change the need to exclude cancer in a breast lump
+g: A breast lump in pregnancy still needs triple assessment
+f: she is breastfeeding with a tender red wedge and fever but no lump => Start oral cefalexin
+
+@o-mla2-087
+c: unconscious | empty vodka bottle
+m: Alcohol blocks gluconeogenesis, so hypoglycaemia is a reversible cause of coma
+g: Unconscious patient: check capillary glucose first
+f: pinpoint pupils with breathing 6 a minute => Arterial blood gas
+
+@o-mla2-088
+c: A few minutes after she is given the antibiotic | itchy skin eruption and increased breathlessness
+m: IgE on mast cells meets the drug and releases histamine within minutes
+g: Reaction within minutes is type I immediate hypersensitivity
+f: fever, joint pain and rash 10 days after the drug => Immune complex hypersensitivity
+f: haemolysis from antibodies to the drug bound to red cells => Antibody binding to cell-bound antigen
+f: an eczematous rash appearing 2 days after contact => Delayed-type hypersensitivity
+
+@o-mla2-089
+c: Haemoglobin 48 | Lactate dehydrogenase 560 | occasional spherocytes | mildly jaundiced
+m: Antibodies coat red cells, and the spleen removes them as spherocytes
+g: Haemolysis with spherocytes and no fragments: direct antiglobulin test
+f: macrocytic anaemia without haemolysis in a vegan => Serum vitamin B₁₂
+f: low counts of all three cell lines with no cause found => Bone marrow aspiration
+
+@o-mla2-090
+c: Her last menstrual period was 12 years ago | endometrial thickness of 10 mm
+m: Postmenopausal bleeding with a thick lining could be endometrial cancer
+g: Endometrium 4 mm or more after the menopause: hysteroscopy and biopsy
+f: bleeding after sex with a cervical lesion seen on speculum => Cervical cytology
+
+@o-mla2-091
+c: involuntary rotation of his neck | 24 hours ago | risperidone
+m: Dopamine blockade causes sustained muscle spasm within hours to days of starting
+g: Twisting neck spasm in the first days of an antipsychotic is acute dystonia
+f: restless, pacing and unable to sit still => Akathisia
+f: tremor and rigidity after weeks of treatment => Parkinsonism
+f: lip smacking after years of treatment => Tardive dyskinesia
+
+@o-mla2-092
+c: sickle cell disease | severe pain in her left leg | pain score as 8/10
+m: Sickled cells block small vessels, causing intense ischaemic pain
+g: Painful crisis: strong opioid within 30 minutes
+f: chest pain, falling oxygen and new shadowing => Intravenous co-amoxiclav
+f: sudden worsening anaemia with a big spleen => Red cell transfusion
+
+@o-mla2-093
+c: morning stiffness that lasts for 3 hours | cannot lift her arms above her head | no objective muscle weakness | CRP 67
+m: Inflammation of the shoulder and hip girdle causes stiffness and pain but not weakness
+g: Girdle pain and long stiffness with high CRP and normal strength over 50 is polymyalgia rheumatica
+f: true proximal weakness with a high CK => Polymyositis
+f: symmetrical swollen small joints with positive anti-CCP => Rheumatoid arthritis
+
+@o-mla2-094
+c: acutely short of breath | reduced breath sounds over the left apex | BP 88/50 mmHg
+m: Hyperinflated lungs in asthma can rupture, letting air into the pleura
+g: Sudden deterioration with one-sided reduced breath sounds is pneumothorax
+f: silent chest everywhere with exhaustion and a normal CO2 => Increasing severity of asthma
+f: urticaria and lip swelling after a new drug => Anaphylaxis
+
+@o-mla2-095
+c: 500 mL intravenous crystalloid bolus | 10 mL of urine in the past 4 hours | no sign of heart failure
+m: After major surgery, losses into the gut and wound leave the circulation underfilled
+g: Low BP and urine with no heart failure: another fluid bolus
+f: no response after several boluses with an adequate filling pressure => IV vasoconstrictor
+
+@o-mla2-096
+c: HBsAg –ve | anti-HBc IgG +ve | anti-HBs IgG +ve
+m: Anti-HBc only comes from real infection; anti-HBs shows immunity
+g: Core antibody and surface antibody without surface antigen: natural immunity
+f: anti-HBs positive only with anti-HBc negative => Immune due to previous vaccination for hepatitis B
+f: HBsAg positive for over 6 months => Chronic infection
+
+@o-mla2-097
+c: isolated metastasis with cerebral oedema | headaches
+m: Steroids reduce the swelling around a metastasis within hours
+g: Symptomatic cerebral oedema: dexamethasone first
+f: once the swelling is controlled, a single metastasis in a fit patient => Surgical decompression
+
+@o-mla2-098
+c: colicky left sided abdominal pain radiating to his groin | writhing | blood 3+
+m: A ureteric stone stretches the ureter, and prostaglandins drive the pain
+g: Renal colic: NSAID first line
+f: NSAIDs contraindicated by kidney failure and a stomach ulcer => Paracetamol
+
+@o-mla2-099
+c: COPD | pH 7.25 | PCO2 7.8 kPa | Bicarbonate 34
+m: Tired breathing muscles let carbon dioxide build up, causing an acidosis
+g: Respiratory acidosis despite treatment: non-invasive ventilation
+f: normal pH with a high CO2 and bicarbonate, stable on controlled oxygen => Reduce oxygen to 2 L/min via a nasal cannula
+
+@o-mla2-100
+c: mother has been deaf since early childhood | routine neonatal hearing screen
+m: Babies with risk factors need an objective test of the hearing pathway
+g: Family history of deafness: brainstem evoked response testing
+f: a newborn whose mother had a rash in pregnancy and the baby has a small head => Cytomegalovirus serology

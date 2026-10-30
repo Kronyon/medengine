@@ -1,0 +1,121 @@
+@h1371
+c: fainted while running | louder on standing and quieter on squatting | septum of 25 mm
+m: A thick septum obstructs outflow, which worsens when preload falls
+g: A murmur louder on standing with a 25 mm septum is hypertrophic cardiomyopathy
+f: mild symmetrical thickening that regresses with rest from training => Athlete's heart
+f: a slow-rising pulse and a murmur to the carotids in an older person => Aortic stenosis
+
+@h1372
+c: fall from standing height | minus 2.8
+m: The T-score compares bone density with a young adult peak
+g: T-score of minus 2.5 or lower is osteoporosis
+f: T-score of minus 1.8 => Osteopenia
+
+@h1373
+c: prostate cancer | back and rib pain | many hot spots
+m: Prostate metastases are osteoblastic and take up tracer
+g: Many hot spots on a bone scan in prostate cancer are bone metastases
+f: lytic lesions with a cold bone scan => Multiple myeloma
+
+@h1374
+c: smokes | 12 mm | spiculated edges
+m: Cancer cells use more glucose and light up on PET
+g: A nodule of 8 mm or more with high risk features: PET-CT
+
+@h1375
+c: bumping into door frames | outer half of the visual field in both eyes
+m: Crossing nasal fibres at the chiasm carry both temporal fields
+g: Bitemporal hemianopia: lesion at the optic chiasm
+f: homonymous hemianopia with macular sparing => Occipital cortex
+f: loss of vision in the left eye only => Left optic nerve
+
+@h1376
+c: worse in the morning | swollen optic discs | loss of venous pulsation
+m: Raised intracranial pressure swells both optic discs
+g: Bilateral disc swelling with blurred margins is papilloedema
+f: pale, flat discs after long-standing damage => Optic atrophy
+
+@h1377
+c: painful, watering red eye | bright green staining in a branching pattern
+m: Fluorescein sticks where the corneal epithelium is missing
+g: Fluorescein uptake means the corneal epithelium is damaged
+
+@h1378
+c: Weber's test lateralises to the right | bone conduction louder than air conduction
+m: In conductive loss bone conduction wins and Weber goes to the bad ear
+g: Weber to the bad ear with Rinne negative on that side: conductive loss
+f: Weber to the left with Rinne positive on both sides => Right sensorineural
+
+@h1379
+c: noisy factory | dip at 4 kHz | recovery at 8 kHz
+m: Noise damages the hair cells tuned to about 4 kHz
+g: A 4 kHz notch with recovery at 8 kHz is noise-induced hearing loss
+f: a sloping high-frequency loss in an older person => Presbycusis
+f: one-sided loss with tinnitus and imbalance => Vestibular schwannoma
+
+@h1380
+c: woke with hearing loss | Weber's test lateralises to the right | Rinne's test is positive on both sides
+m: Sudden sensorineural loss recovers best with early steroids
+g: Sudden sensorineural hearing loss: same-day ENT referral
+f: gradual loss with wax in the canal => Ear irrigation
+
+@h1381
+c: first generalised seizure | first seizure clinic | examination is normal
+m: EEG supports the diagnosis and seizure type, but a normal EEG cannot exclude epilepsy
+g: After a first seizure: EEG soon, after specialist review
+
+@h1382
+c: thumb, index and middle fingers | Shaking her hand eases it | Phalen's test is positive | slowing at the wrist
+m: The median nerve is squeezed under the flexor retinaculum; its palmar branch is spared
+g: Night median paraesthesia eased by shaking with a positive Phalen's is carpal tunnel syndrome
+f: numbness of the little finger with weak finger spreading => Ulnar nerve palsy
+
+@h1383
+c: continuous vertigo for a day
+m: In vestibular neuritis the eyes slip with head turns and need a catch-up saccade
+g: An abnormal head impulse test is reassuring for a peripheral cause
+f: asked which finding points to a central cause => Vertical skew
+
+@h1384
+c: hairdresser | worse at work
+m: Patch testing reproduces the delayed type IV reaction
+g: Suspected allergic contact dermatitis: patch testing
+f: an immediate allergy such as hay fever => Skin prick test
+
+@h1385
+c: type 2 diabetes | not itchy and has no raised edge | coral-pink fluorescence
+m: Corynebacterium makes porphyrins that glow coral pink
+g: A brown groin rash that glows coral pink is erythrasma
+f: an itchy groin rash with a raised scaly edge => Tinea cruris
+f: a red moist rash with satellite spots => Candida
+
+@h1386
+c: cat has patches of hair loss | raised, scaly edge and central clearing
+m: Scrapings confirm a dermatophyte and avoid treating eczema with antifungals
+g: Suspected ringworm: skin scrapings before treating
+
+@h1387
+c: drinks most days | AUDIT score is 22
+m: AUDIT bands rise from low risk to possible dependence
+g: AUDIT 20 or more suggests possible alcohol dependence
+f: an AUDIT score of 10 => Hazardous drinking
+f: an AUDIT score of 17 => Harmful drinking
+
+@h1388
+c: loss of interest | PHQ-9 score is 21
+m: PHQ-9 sums nine symptoms scored 0 to 3
+g: PHQ-9 of 20 or more is severe
+f: a PHQ-9 of 12 => Moderate
+f: a PHQ-9 of 17 => Moderately severe
+
+@h1389
+c: gave birth 6 weeks ago | positive answer to the self-harm question
+m: Any self-harm thoughts on item 10 need urgent assessment, whatever the total
+g: Positive self-harm item on the EPDS: same-day risk assessment
+f: thoughts of self-harm are absent and symptoms are mild => Self-help leaflet
+
+@h1390
+c: 78/45 | clammy and pale | ST depression
+m: Fast AF with shock or ischaemia needs electricity, not drugs
+g: Unstable tachyarrhythmia with adverse features: synchronised DC cardioversion
+f: stable with AF for 2 days and no adverse features => IV bisoprolol

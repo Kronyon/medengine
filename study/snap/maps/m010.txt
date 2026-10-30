@@ -1,0 +1,130 @@
+@o-p2017-001
+c: suddenly loses the vision in her left eye | reacts sluggishly to light
+m: A blocked retinal vein backs up blood, causing haemorrhages in the area it drains
+g: Haemorrhages limited to one sector of the retina is a branch vein occlusion
+f: flame haemorrhages in all four quadrants, the stormy sunset fundus => Central retinal vein occlusion
+f: a pale retina with a cherry-red spot => Central retinal artery occlusion
+
+@o-p2017-002
+c: idiopathic Parkinson's disease | begins hitting staff | nursing measures do not improve
+m: Antipsychotics block dopamine and can cause severe rigidity in Parkinson's
+g: Delirium needing medication in Parkinson's: a short-acting benzodiazepine
+f: no Parkinson's disease or Lewy body dementia => Haloperidol
+
+@o-p2017-003
+c: back pain and bilateral leg weakness | breast cancer 14 years ago | weakness of hip flexion bilaterally
+m: Breast cancer can recur in the spine years later and compress the cord
+g: Back pain with new leg weakness and a cancer history is cord compression
+f: back pain after a fall with normal leg power => Osteoporotic vertebral collapse
+f: sciatica down one leg with a positive straight leg raise => Lumbar disc prolapse
+
+@o-p2017-004
+c: lithium for 2 years | polyuria and polydipsia | Urinary osmolality 356
+m: Lithium causes high calcium and nephrogenic diabetes insipidus; calcium must be checked first
+g: Lithium with polyuria: exclude hypercalcaemia before a water deprivation test
+f: calcium normal and urine stays dilute => Water deprivation test
+f: fasting glucose 7.5 instead of 5.8 => Glucose tolerance test
+
+@o-p2017-005
+c: atrial fibrillation, rate 68 bpm | stroke 2 weeks ago
+m: AF forms clots in the left atrium that travel to the brain; anticoagulants prevent them
+g: Ischaemic stroke with AF: anticoagulate long term, starting about 2 weeks after
+f: sinus rhythm throughout with no AF => Clopidogrel
+
+@o-p2017-006
+c: cough and fever | temperature is 38.6°C | respiratory rate 30 | inspiratory crackles in the right mid and lower zone and left upper zone
+m: Multilobar pneumonia with tachypnoea is severe and needs IV antibiotics covering atypical organisms
+g: Severe community-acquired pneumonia: IV co-amoxiclav and clarithromycin first
+f: potassium 7.0 with peaked T waves on the ECG => Intravenous 10 mL 10% calcium gluconate
+f: no fever but pulmonary oedema and fluid overload between dialysis sessions => Haemodialysis
+
+@o-p2017-007
+c: intravenous contrast | eGFR 39 | renal transplant
+m: Expanding the circulation before contrast protects the kidney
+g: Contrast with an eGFR under 45: IV 0.9% saline before and after
+f: life-threatening anaphylaxis to contrast in the past => Intravenous hydrocortisone
+
+@o-p2017-008
+c: lying on the floor overnight | Creatine kinase 870 | Urea 20.9 | BP 102/60 mmHg
+m: A night without fluids leaves her dry, so the kidneys are underfilled
+g: CK only mildly raised with a high urea: pre-renal hypovolaemia
+f: CK over 10,000 with dark urine => Rhabdomyolysis
+f: a palpable bladder or bilateral hydronephrosis => Ureteric obstruction
+
+@o-p2017-009
+c: Sodium 121 | bendroflumethiazide | increasingly confused
+m: Thiazides block sodium reabsorption in the distal tubule and cause hyponatraemia, especially in older women
+g: Low sodium on several drugs: the thiazide is the usual culprit
+f: potassium high rather than sodium low => Ramipril
+f: dizziness on standing with a postural drop => Doxazosin
+
+@o-p2017-010
+c: 92 year old woman | severe neck | tingling in her left hand
+m: Neck pain and arm tingling after a fall in someone over 65 means a possible cervical fracture
+g: Over 65 with neck pain and neurology: CT of the cervical spine
+f: neck pain with a suspected vertebral artery injury and neurological deficit => CT angiography
+
+@o-p2017-011
+c: heart stops for a second followed by a pounding sensation | most commonly when she is going to sleep | sinus rhythm
+m: An early beat is followed by a pause and then a stronger beat, felt as a thump
+g: Missed beat then a thump in a well young woman is ectopic beats
+f: fast regular palpitations starting and stopping suddenly, ended by Valsalva => Supraventricular tachycardia
+f: irregularly irregular pulse in an older adult => Paroxysmal atrial fibrillation
+
+@o-p2017-012
+c: 3 weeks after a prosthetic right knee replacement | temperature is 38.2°C | serous fluid discharging
+m: Early prosthetic joint infection comes from skin organisms at the operation
+g: Early prosthetic infection with a discharging wound: Staph aureus
+f: a red, spreading wound cellulitis with rapid onset after surgery => Streptococcus pyogenes
+
+@o-p2017-013
+c: ulcerative colitis | ALP 580 | bile duct wall thickening and dilatation
+m: PSC causes beading of the bile ducts that MRCP shows without risk
+g: Suspected PSC: MRCP is the diagnostic test
+f: a stricture needing brushings or a stent => Endoscopic retrograde cholangiopancreatography
+
+@o-p2017-014
+c: blood streaked sputum | mass in left lower lobe | enlarged, hyperchromatic and pleomorphic
+m: Cancer cells have large, dark, variable nuclei
+g: Nuclear pleomorphism and hyperchromasia in a lung mass is carcinoma
+f: a well-defined popcorn-calcified nodule with cartilage and fat => Hamartoma
+f: caseating granulomas with acid-fast bacilli => Tuberculosis
+
+@o-p2017-015
+c: She is alert | pH 7.28 | PCO2 8.9 kPa
+m: Ventilatory failure lets carbon dioxide build up; NIV supports breathing
+g: Acidotic hypercapnia in an alert patient: NIV
+f: drowsy and unable to protect the airway with worsening acidosis => Invasive ventilation
+
+@o-p2017-016
+c: chest pain and lightheadedness
+m: A blocked coronary artery causes ST elevation in the leads facing the infarct
+g: Regional ST elevation with reciprocal depression is an MI
+f: widespread saddle-shaped ST elevation with PR depression => Pericarditis
+f: tall tented T waves and broad QRS in kidney failure => Hyperkalaemia
+
+@o-p2017-017
+c: laparoscopic cholecystectomy 10 days ago | acute onset of shortness of breath | chest is clear
+m: Surgery and immobility cause leg clots that travel to the lungs
+g: Sudden breathlessness with a clear chest after surgery is pulmonary embolus
+f: swinging fever and right upper quadrant pain after surgery => Subphrenic abscess
+f: fever, productive cough and focal crackles => Pneumonia
+
+@o-p2017-018
+c: intravenous drug user | fever, chills | systolic heart murmur
+m: Echocardiography shows valve vegetations, which along with blood cultures make the diagnosis
+g: Suspected endocarditis: echocardiography, with TOE for the best view
+f: asked for the quickest test for a source of breathlessness and fever => Chest X-ray
+
+@o-p2017-019
+c: loss of consciousness | cannot remember recent events | confused | opens her eyes to command
+m: Head injury with amnesia and a reduced GCS needs a scan for a bleed
+g: GCS under 15 two hours after injury: CT head
+f: fully alert with GCS 15, no amnesia and no vomiting => Discharge with head injury instructions
+
+@o-p2017-020
+c: urgency | leaks urine if she is unable to get to the toilet | not provoked by coughing | minimal residual urine
+m: An overactive detrusor contracts too early; antimuscarinics relax it
+g: Urge incontinence after bladder training: oral antimuscarinic
+f: leaking with coughing and sneezing after pelvic floor training fails => Oral duloxetine
+f: urge incontinence not helped by two drugs => Botulinum toxin type A injection into bladder wall

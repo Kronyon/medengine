@@ -1,0 +1,125 @@
+@h0411
+c: autosomal dominant polycystic kidney disease | worst of his life
+m: ADPKD weakens vessel walls in the circle of Willis
+g: ADPKD carries berry aneurysms
+
+@h0412
+c: cricket ball | talked normally | left pupil is larger | lens-shaped, biconvex
+m: A tear of the middle meningeal artery bleeds between skull and dura
+g: A lucid interval with a biconvex bleed under the temporal bone is an extradural haematoma
+f: weeks of confusion in an older drinker with a crescent bleed => Chronic subdural
+f: blood in the basal cisterns after a thunderclap headache => Subarachnoid bleed
+
+@h0413
+c: crescent-shaped | crosses the suture lines
+m: Bridging veins tear as the brain moves inside the skull
+g: Acute subdural: bridging veins
+f: a biconvex bleed after a temporal bone fracture => Middle meningeal artery
+
+@h0414
+c: apixaban | midline shift | last dose of apixaban this morning
+m: Ongoing anticoagulation expands the bleed
+g: Intracranial bleed on apixaban: stop and reverse
+f: on warfarin => Give IV vitamin K
+
+@h0415
+c: turbid | 1,500 per mm³, mostly neutrophils | CSF glucose 1.2 | plasma glucose 6.0
+m: Bacteria and neutrophils consume glucose in the CSF
+g: Neutrophilic CSF with glucose under half the plasma value is bacterial meningitis
+f: lymphocytes, very high protein and low glucose over weeks => Tuberculous meningitis
+f: lymphocytes with a normal glucose => Viral meningitis
+
+@h0416
+c: anaphylaxis after amoxicillin | non-blanching petechial rash
+m: Cephalosporins are avoided after penicillin anaphylaxis
+g: Meningococcal disease with penicillin anaphylaxis: chloramphenicol
+f: no allergy => Ceftriaxone
+
+@h0417
+c: shared flat | 3 weeks ago | who needs antibiotic prophylaxis
+m: Carriage spreads within close prolonged contact before onset
+g: Prophylaxis: household contacts in the 7 days before onset
+
+@h0418
+c: smelt burning that is not there | seizure | lymphocytes | left temporal lobe
+m: HSV-1 inflames the temporal lobes, causing olfactory aura, seizures and confusion
+g: Fever, seizures and temporal lobe change with lymphocytic CSF: CSF HSV PCR
+f: headache in advanced HIV with suspected cryptococcus => India ink stain
+f: turbid neutrophilic CSF => CSF Gram stain
+
+@h0419
+c: day 1 of symptoms | PCR is negative | bilateral temporal lobe changes | not improving
+m: HSV PCR can be falsely negative in the first days
+g: Early negative PCR with strong suspicion: repeat the LP and continue aciclovir
+f: repeat PCR negative and MRI normal => Stop the aciclovir today
+
+@h0420
+c: high-dose IV aciclovir | eGFR is 58
+m: Aciclovir crystals can block the renal tubules
+g: IV aciclovir: check kidney function regularly
+
+@h0421
+c: dental abscess | 38.1°C | HIV negative | ring-enhancing lesion
+m: Mouth bacteria spread to the brain, forming a walled abscess
+g: A ring-enhancing lesion with fever after a dental abscess is a cerebral abscess
+f: a ring lesion without fever and with a lung mass => Metastasis
+f: ring lesions in advanced HIV => Toxoplasmosis
+f: an irregular enhancing mass crossing the corpus callosum => Glioblastoma
+
+@h0422
+c: frontal sinusitis | next to the frontal sinus
+m: Streptococcus anginosus spreads from the sinuses and forms abscesses
+g: A frontal abscess from sinusitis is Streptococcus anginosus
+f: after neurosurgery or a skull fracture => Staphylococcus aureus
+f: ring lesions in advanced HIV => Toxoplasma gondii
+
+@h0423
+c: spread from chronic sinusitis | no drug allergies
+m: Ceftriaxone covers streptococci and Gram-negatives; metronidazole covers anaerobes
+g: Sinogenic brain abscess: ceftriaxone and metronidazole
+
+@h0424
+c: 10 seconds | carries on as if nothing happened | hyperventilate
+m: Generalised 3 Hz spike and wave causes brief absences
+g: Brief staring spells provoked by hyperventilation are absence seizures
+f: morning arm jerks in a teenager => Myoclonic seizures
+f: a minute of staring with lip smacking and confusion afterwards => Focal impaired awareness
+
+@h0425
+c: juvenile myoclonic epilepsy
+m: Sodium channel blockers can worsen myoclonic and absence seizures
+g: Juvenile myoclonic epilepsy: avoid carbamazepine
+
+@h0426
+c: 7 minutes | no intravenous access
+m: A seizure over 5 minutes needs a benzodiazepine by the fastest route
+g: Status without IV access: buccal midazolam
+f: IV access in hospital => IV lorazepam
+
+@h0427
+c: tongue is wasted with fasciculations | jaw jerk is brisk | sensation are normal
+m: MND kills upper and lower motor neurones, sparing sensation and eye movements
+g: Mixed upper and lower motor neurone bulbar signs with normal sensation is MND
+f: fatigable ptosis and double vision => Myasthenia gravis
+f: sudden onset with crossed signs => Brainstem stroke
+
+@h0428
+c: Motor neurone disease is being considered
+m: MND is purely motor
+g: Sensory loss argues against MND
+
+@h0429
+c: drooling of saliva | no glaucoma
+m: Antimuscarinics reduce saliva production
+g: Drooling in MND: glycopyrronium first
+f: painful muscle cramps => Quinine
+f: slowing disease progression => Riluzole
+f: spasticity => Baclofen
+
+@h0430
+c: worse through the day and better after rest | worsens on sustained upgaze | Pupils are normal
+m: Antibodies block acetylcholine receptors, so muscles tire with use
+g: Fatigable ptosis and diplopia with normal pupils is myasthenia gravis
+f: weakness that improves with repeated use and a dry mouth => Lambert-Eaton syndrome
+f: descending paralysis with fixed dilated pupils after home-canned food => Botulism
+f: a down and out eye with a dilated pupil => Third nerve palsy

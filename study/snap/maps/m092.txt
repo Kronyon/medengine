@@ -1,0 +1,114 @@
+@h1351
+c: upper abdominal symptoms | None has dysphagia
+m: Upper GI cancer at 55 or over shows up as weight loss with pain, reflux or dyspepsia
+g: Aged 55 or over with weight loss and upper abdominal pain: urgent OGD
+
+@h1352
+c: diagnostic upper GI endoscopy | omeprazole 20 mg daily
+m: PPIs heal ulcers and suppress H. pylori, which can hide lesions at the scope
+g: Stop the PPI 2 weeks before a diagnostic OGD because it can mask pathology
+
+@h1353
+c: difficulty swallowing solids | lost 4 kg | stricture in the lower oesophagus
+m: A malignant stricture can look just like a peptic one
+g: Every oesophageal stricture is biopsied to exclude cancer
+f: biopsies show only a peptic stricture => Dilation
+
+@h1354
+c: lives in England | no bowel symptoms or family history
+m: A home FIT kit is posted to people in the screening age range
+g: NHS bowel screening in England: aged 50 to 74, every 2 years
+
+@h1355
+c: frail | iron deficiency anaemia | could not tolerate bowel preparation
+m: CT colonography needs less preparation and is gentler than colonoscopy
+g: Frail and unable to tolerate colonoscopy: CT colonography or CT abdomen
+
+@h1356
+c: peripheral vascular disease | bloody diarrhoea | splenic flexure | sharp line | rectum is normal
+m: The splenic flexure is a watershed between the SMA and IMA supply
+g: A short segment of colitis at the splenic flexure sparing the rectum in a vasculopath is ischaemic colitis
+f: yellow plaques after antibiotics => Pseudomembranous colitis
+f: continuous inflammation spreading up from the rectum => Ulcerative colitis
+
+@h1357
+c: dilated common bile duct of 9 mm | no stone is seen
+m: MRCP images the ducts without radiation or procedural risk
+g: Dilated duct with no stone on ultrasound: MRCP
+
+@h1358
+c: remove a common bile duct stone
+m: Instrumenting the papilla can inflame the pancreas
+g: The main serious complication of ERCP is pancreatitis
+
+@h1359
+c: painless jaundice | head of the pancreas | tissue diagnosis is needed
+m: EUS reaches the pancreas from the duodenum with a short needle path
+g: Tissue from a pancreatic head mass: EUS-guided biopsy
+f: brushing a bile duct stricture while placing a stent => ERCP brushings
+
+@h1360
+c: 70 year old man | painless | Urine culture is negative
+m: Painless visible haematuria in an older person is bladder cancer until proven otherwise
+g: Visible haematuria: cystoscopy for the bladder and CT urogram for the upper tract
+
+@h1361
+c: not passed urine for 12 hours | severe lower abdominal pain | 900 ml
+m: Sudden outflow block stretches the bladder and causes severe pain
+g: A painful palpable bladder over 500 ml is acute urinary retention
+f: painless with a large volume and a raised creatinine => Chronic retention
+
+@h1362
+c: weak stream and hesitancy
+m: Outflow obstruction lowers the peak flow and flattens the curve
+g: A peak flow under 10 ml per second suggests obstruction
+f: asked which result is normal => Peak flow 25 ml per second
+
+@h1363
+c: fine bibasal end-inspiratory crackles | finger clubbing | 0.83 | FVC is reduced
+m: Stiff fibrotic lungs shrink both volumes, so the ratio stays normal or high
+g: A low FVC with a ratio above 0.7 is restrictive
+f: a ratio of 0.6 => Obstructive
+
+@h1364
+c: worse at night | takes no inhaled steroids | 52 ppb
+m: Eosinophilic airway inflammation raises exhaled nitric oxide
+g: FeNO of 50 ppb or more in an adult supports asthma
+
+@h1365
+c: intermittent cough and wheeze | varies by 25%
+m: Asthmatic airways narrow and open variably through the day
+g: Peak flow variability over 20% supports asthma
+f: a fixed low ratio in a smoker with little variation => COPD
+
+@h1366
+c: every few days | has not fainted | Resting ECG is normal
+m: The recording must last long enough to catch a symptom
+g: Symptoms every few days: a 7 to 14 day recorder
+f: symptoms several times a day => 24-hour Holter
+f: rare episodes months apart => Implantable loop recorder
+
+@h1367
+c: 148/92 | daytime average 137/86
+m: ABPM confirms or refutes a raised clinic reading
+g: ABPM daytime average 135/85 to 149/94 is stage 1 hypertension
+f: ABPM daytime average 150/95 or more => Stage 2 hypertension
+f: ABPM under 135/85 with a raised clinic reading => White coat hypertension
+
+@h1368
+c: without warning | playing football | uncle died suddenly at 35 | ejection systolic murmur
+m: Exertional syncope with a murmur and a family sudden death suggests HCM or a channelopathy
+g: Exertional syncope with red flags: urgent cardiology review
+f: fainting in a hot queue with warning symptoms => Reassure as vasovagal
+
+@h1369
+c: Staphylococcus aureus | Transthoracic echo is normal | suspicion remains high
+m: TOE sits right behind the heart and sees small vegetations and abscesses
+g: Normal transthoracic echo with high suspicion of endocarditis: TOE
+
+@h1370
+c: ankle swelling | ejection fraction of 35%
+m: Heart failure is classed by the ejection fraction
+g: Ejection fraction of 40% or less is HFrEF
+f: an ejection fraction of 45% => Heart failure with mildly reduced ejection fraction
+f: an ejection fraction of 55% with a raised NT-proBNP => Heart failure with preserved ejection fraction

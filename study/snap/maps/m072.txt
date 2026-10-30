@@ -1,0 +1,123 @@
+@h0951
+c: no itch or rash | ramipril for 2 years | no family history
+m: ACE inhibitors block bradykinin breakdown, causing swelling without histamine
+g: Recurrent lip and tongue swelling without wheals on an ACE inhibitor is ACE inhibitor angioedema
+f: no drugs with a family history and a low C4 => Hereditary angioedema
+f: wheals with stridor and low blood pressure => Anaphylaxis
+
+@h0952
+c: smokes 20 | worse at night | hangs his leg out of bed | punched-out | pulses cannot be felt
+m: Severe arterial narrowing starves the skin; gravity helps blood reach the foot
+g: A deep punched-out painful ulcer with absent pulses is arterial
+f: a shallow gaiter ulcer that eases with elevation => Venous ulcer
+f: a painless ulcer under a pressure point with lost sensation => Neuropathic ulcer
+
+@h0953
+c: calf pain on walking | weak | 0.6
+m: Full compression with arterial disease can cut off the blood supply
+g: ABPI 0.5 to 0.8: reduced compression with specialist input
+f: an ABPI of 1.0 => Full multilayer compression bandaging
+
+@h0954
+c: healing slowly despite compression | no signs of infection | ABPI is 1.0
+m: Pentoxifylline improves microcirculation and speeds ulcer healing
+g: Slow-healing venous ulcer on compression: add pentoxifylline
+f: spreading redness and fever around the ulcer => Flucloxacillin
+
+@h0955
+c: 6 year old boy | face is not affected
+m: Steroid potency is matched to severity and body site
+g: Moderate eczema on the arms: moderate steroid such as clobetasone butyrate
+f: the flare is on his face => Hydrocortisone 1%
+
+@h0956
+c: suddenly become very painful | 38.6°C | punched-out erosions
+m: Herpes simplex spreads fast through broken eczema skin
+g: Painful punched-out erosions over eczema with fever is eczema herpeticum
+f: golden crusts over the eczema => Infected eczema with Staph aureus
+f: widespread itchy vesicles in crops => Chickenpox
+
+@h0957
+c: no history of eczema | where her jeans stud touches the skin
+m: A type IV reaction to nickel causes eczema exactly where the metal touches
+g: A rash at the site of a metal stud is allergic contact dermatitis
+f: raw hands in a hairdresser with no specific allergen => Irritant contact dermatitis
+
+@h0958
+c: shaved his legs | hair in the centre | no larger tender lumps
+m: Shaving damages follicles, which become infected
+g: Small pustules centred on hairs after shaving is folliculitis
+f: a large tender fluctuant lump => Furuncle
+
+@h0959
+c: Black man | worse after close shaving | curling back into the skin | no pathogens
+m: Tightly curled hairs re-enter the skin after close shaving
+g: Ingrowing hairs after shaving with sterile swabs is pseudofolliculitis barbae
+f: pustules with a positive Staph aureus swab => Bacterial folliculitis
+
+@h0960
+c: husband and son have had boils too
+m: PVL-producing Staph aureus spreads in households and causes recurrent boils
+g: Recurrent boils in a household: swab for PVL-producing Staph aureus
+
+@h0961
+c: one 2 cm area | no fever
+m: Antiseptic cream is enough for small localised impetigo
+g: Localised impetigo in a well child: hydrogen peroxide 1% cream
+f: widespread or bullous impetigo, or unwell => Oral flucloxacillin
+
+@h0962
+c: started an antibiotic cream this morning
+m: Impetigo stays infectious until 48 hours of antibiotics
+g: Impetigo: return to school 48 hours after starting antibiotics
+
+@h0963
+c: 3 year old boy | peels off with light pressure | mouth, lips and eyes are normal
+m: Staph exfoliative toxin splits the top layer of skin, sparing mucosa
+g: Tender red peeling skin with normal mucosa in a young child is staphylococcal scalded skin syndrome
+f: mouth and eyes affected after a new drug => Drug-induced toxic epidermal necrolysis
+f: 5 days of fever with red eyes and cracked lips => Kawasaki disease
+
+@h0964
+c: athlete's foot | alert and well | no allergies
+m: Cellulitis is usually Strep or Staph; flucloxacillin covers both
+g: Uncomplicated leg cellulitis: flucloxacillin
+f: penicillin allergy => Clarithromycin
+f: cellulitis around the eyes or nose => Co-amoxiclav
+
+@h0965
+c: confused today | BP 88/50 | Lactate 3.6
+m: Systemic sepsis makes cellulitis Eron class III or IV
+g: Cellulitis with sepsis: admit for IV antibiotics
+f: well with no fever or comorbidity => Oral flucloxacillin at home
+
+@h0966
+c: both lower legs | feels well | no tenderness | CRP 4
+m: Venous hypertension inflames the skin of both legs; true cellulitis is one-sided
+g: Bilateral red scaly legs with staining and normal inflammatory markers is venous eczema
+f: tender red nodules on the shins => Erythema nodosum
+
+@h0967
+c: type 2 diabetes | far worse than the redness suggests | crepitus | Creatine kinase 1800
+m: Infection spreads along the fascia faster than the skin shows
+g: Pain out of proportion with crepitus and a high CK is necrotising fasciitis
+f: spreading redness with pain that matches the signs => Cellulitis
+f: a tense compartment after a fracture => Compartment syndrome
+
+@h0968
+c: Necrotising fasciitis is suspected | IV antibiotics have been started
+m: Dead tissue must be removed; antibiotics cannot reach it
+g: Suspected necrotising fasciitis: surgical debridement
+
+@h0969
+c: type 2 diabetes | scrotum and perineum | crepitus
+m: Necrotising fasciitis tracks along the perineal fascia
+g: Fast-spreading perineal infection with crepitus is Fournier's gangrene
+f: a tender epididymis with dysuria and no crepitus => Epididymo-orchitis
+f: sudden testicular pain in a teenager => Testicular torsion
+
+@h0970
+c: painless warts | do not bother her
+m: Most warts clear by themselves within 2 years
+g: Painless warts not bothering a child: reassurance
+f: immunosuppressed with many widespread warts => Dermatology referral

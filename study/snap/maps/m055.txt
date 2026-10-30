@@ -1,0 +1,123 @@
+@h0611
+c: confirmed with skin scrapings | too large for creams
+m: Antifungal shampoo can cover a large area of skin
+g: Extensive pityriasis versicolor: ketoconazole shampoo
+
+@h0612
+c: still pale | no scale on scraping
+m: The yeast has gone but pigment returns slowly
+g: Pale patches with no scale after treatment: colour returns over months
+
+@h0613
+c: 1 day after a sore throat started | similar episode last year | Creatinine 84
+m: IgA deposits in the glomeruli flare within days of a mucosal infection
+g: Visible haematuria within days of a sore throat, recurring, is IgA nephropathy
+f: haematuria 2 weeks after a sore throat with a low C3 => Post-streptococcal glomerulonephritis
+f: haematuria with deafness and family kidney failure => Alport syndrome
+
+@h0614
+c: 2 weeks ago | 138/90 | periorbital oedema
+m: Immune complexes after Strep infection consume complement
+g: Nephritis 2 weeks after a sore throat: low C3 and a raised ASO titre
+f: coughing up blood with nephritis => Anti-GBM antibodies
+f: haematuria within days of a sore throat with normal complement => Raised serum IgA
+
+@h0615
+c: difficulty hearing | maternal uncle needed dialysis | anterior lenticonus
+m: Faulty type IV collagen affects the kidney, cochlea and lens
+g: Haematuria, deafness and lenticonus with an X-linked family history is Alport syndrome
+f: haematuria with normal hearing and a benign family history => Thin basement membrane disease
+
+@h0616
+c: horizontal | worst when he looks to the right | right eye does not move outwards
+m: The sixth nerve supplies lateral rectus, which moves the eye outwards
+g: Failure of the right eye to abduct with horizontal diplopia is a right sixth nerve palsy
+f: vertical diplopia going downstairs with a head tilt => Right fourth nerve
+f: ptosis with a down and out eye => Right third nerve
+
+@h0617
+c: idiopathic intracranial hypertension | MRI shows no lesion
+m: Raised pressure stretches the sixth nerve over the petrous ridge
+g: The sixth nerve has a long intracranial course
+
+@h0618
+c: boil on her face | proptosis with chemosis | third, fourth and sixth nerve palsies | numbness over the right forehead
+m: Facial veins drain to the cavernous sinus, which carries III, IV, VI, V1 and V2
+g: III, IV and VI palsies with forehead numbness and proptosis is the cavernous sinus
+f: the same with loss of vision => Orbit apex
+
+@h0619
+c: hot, swollen, painful right knee | 38.4°C | type 2 diabetes
+m: A septic joint destroys cartilage within days
+g: Hot swollen joint: aspiration of the knee first
+
+@h0620
+c: positively birefringent, rhomboid-shaped crystals | linear calcification
+m: Calcium pyrophosphate deposits in cartilage and sheds crystals into the joint
+g: Rhomboid positive crystals with chondrocalcinosis is calcium pyrophosphate arthritis
+f: needle-shaped negatively birefringent crystals => Acute gout
+f: organisms on the Gram stain => Septic arthritis
+
+@h0621
+c: warfarin | clarithromycin | CRP 8 | INR 6.4
+m: Clarithromycin raises warfarin levels, so the joint bleeds spontaneously
+g: A tense knee with a very high INR and normal inflammation is haemarthrosis
+f: INR in range with fever and a high white count => Septic arthritis
+f: a hot big toe after a heavy meal => Gout
+
+@h0622
+c: 22 year old woman | smooth, rubbery, well-defined lump | slips away
+m: A benign overgrowth of glands and stroma forms a mobile breast mouse
+g: A mobile rubbery lump in a young woman is a fibroadenoma
+f: a rapidly growing large lump in a 45 year old => Phyllodes tumour
+f: a smooth fluctuant lump before the menopause => Breast cyst
+f: a hard irregular lump after an injury => Fat necrosis
+
+@h0623
+c: 26 year old woman | discrete, mobile lump
+m: Under 30, most breast lumps are benign
+g: A breast lump under 30: non-urgent breast clinic referral
+f: aged 32 with an unexplained lump => Suspected cancer pathway within 2 weeks
+
+@h0624
+c: confirms a fibroadenoma | does not want surgery
+m: Small fibroadenomas are benign and many shrink
+g: A small confirmed fibroadenoma: reassurance and discharge
+f: 4 cm and growing => Surgical excision
+
+@h0625
+c: periods are becoming irregular | fluctuant | anechoic area with posterior acoustic enhancement
+m: Cysts form as lobules involute in the years before the menopause
+g: An anechoic thin-walled lesion before the menopause is a breast cyst
+f: a milk-filled cyst while breastfeeding => Galactocele
+f: a solid mobile lump in a young woman => Fibroadenoma
+
+@h0626
+c: bloodstained | lump can still be felt afterwards
+m: A bloody aspirate or a residual mass may be a cancer
+g: Bloody aspirate or residual lump: cytology and core biopsy
+f: clear fluid and the lump disappears => Reassurance and discharge
+
+@h0627
+c: week before each period | no discrete lump
+m: Hormonal swings cause benign cyclical breast pain
+g: Cyclical mastalgia: supportive bra and analgesia
+
+@h0628
+c: breastfeeding her 3 week old baby | not improved after 24 hours | no fluctuant mass
+m: Staph aureus infects milk stasis; keeping milk flowing helps
+g: Lactational mastitis not settling: flucloxacillin and keep feeding
+f: a fluctuant mass in the breast => Ultrasound-guided aspiration
+
+@h0629
+c: smokes 20 cigarettes a day | third similar episode | not breastfeeding
+m: Smoking damages subareolar ducts, which get infected repeatedly
+g: Recurrent subareolar inflammation in a young smoker is periductal mastitis
+f: a breastfeeding mother with a red wedge => Lactational mastitis
+f: thick green discharge with slit retraction in an older woman => Duct ectasia
+
+@h0630
+c: no fever | Two courses of antibiotics have not helped | orange peel | firm left axillary lymph node
+m: Cancer cells block the dermal lymphatics, giving a red swollen breast
+g: A diffuse red breast with peau d'orange unhelped by antibiotics is inflammatory breast cancer
+f: a fluctuant tender collection with fever => Breast abscess

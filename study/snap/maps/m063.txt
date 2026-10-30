@@ -1,0 +1,114 @@
+@h0771
+c: G6PD deficiency
+m: Oxidant drugs destroy red cells lacking G6PD
+g: G6PD deficiency: avoid nitrofurantoin
+
+@h0772
+c: sensitive to all first-line drugs | no central nervous system involvement
+m: Two months of four drugs, then four months of two, sterilises TB
+g: Standard pulmonary TB: 6 months
+f: TB meningitis => 12 months
+
+@h0773
+c: big toe | Serum urate is raised
+m: Pyrazinamide reduces urate excretion
+g: Gout on TB treatment: pyrazinamide
+f: peripheral neuropathy => Isoniazid
+f: loss of colour vision => Ethambutol
+
+@h0774
+c: methadone 60 mg | yawning, sweating, abdominal cramps and goosebumps
+m: Rifampicin induces enzymes that break down methadone
+g: Opioid withdrawal on stable methadone after starting TB drugs: rifampicin
+
+@h0775
+c: first episode | White cell count 11 | Creatinine is at her baseline
+m: Oral vancomycin stays in the gut where C. difficile lives
+g: First non-severe C. difficile: oral vancomycin
+f: recurrence within 12 weeks => Oral fidaxomicin
+
+@h0776
+c: co-amoxiclav | omeprazole
+m: Ongoing antibiotics and PPIs keep C. difficile thriving
+g: C. difficile: stop or review both the antibiotic and the PPI
+
+@h0777
+c: assess its severity
+m: Severity is set by white count, creatinine rise and colitis signs
+g: A white cell count over 15 marks severe C. difficile
+
+@h0778
+c: 64 year old man | grouped vesicles | in a band
+m: Early antivirals in older people reduce acute pain and complications
+g: Shingles over 50 within 72 hours: oral aciclovir
+f: immunosuppressed or disseminated => IV aciclovir
+f: a healthy young adult seen after 5 days => Analgesia
+
+@h0779
+c: 30 weeks pregnant | influenza outbreak
+m: Pregnancy raises the risk of severe influenza
+g: Influenza in pregnancy: oseltamivir
+f: a healthy young man => No treatment
+
+@h0780
+c: not been drinking much | needle-shaped crystals | no retention
+m: Aciclovir crystallises in the tubules, especially when dehydrated
+g: Rising creatinine with crystals on aciclovir is crystal nephropathy
+f: a full bladder on scan => Acute urinary retention
+f: a very high CK => Rhabdomyolysis
+
+@h0781
+c: 16 weeks pregnant | yeast
+m: Oral azoles are avoided in pregnancy
+g: Thrush in pregnancy: clotrimazole pessary
+f: not pregnant => Oral fluconazole 150 mg
+
+@h0782
+c: warfarin | fluconazole
+m: Azoles block CYP enzymes that break down warfarin
+g: Fluconazole with warfarin makes the INR rise
+f: topical nystatin instead => No effect
+
+@h0783
+c: terbinafine | jaundiced | ALT 410
+m: Terbinafine can cause serious liver injury
+g: Hepatitis on terbinafine: stop it and check liver tests
+
+@h0784
+c: small white threads | lives with her parents and brother
+m: Threadworm eggs spread through the household
+g: Threadworm: mebendazole for the whole household
+f: a baby under 6 months or a pregnant woman => Hygiene measures
+
+@h0785
+c: Jamaica | high-dose prednisolone | Eosinophil count 1.6
+m: Steroids can trigger fatal Strongyloides hyperinfection
+g: Before high-dose steroids with tropical exposure and eosinophilia: screen for Strongyloides
+
+@h0786
+c: 1 year old | scalp
+m: Scabies in infants can involve the scalp and face
+g: Permethrin in young children: whole body including the scalp
+f: a healthy adult => Neck down, like an adult
+
+@h0787
+c: confused | 6% parasitaemia
+m: Severe falciparum malaria kills quickly; artesunate clears parasites fastest
+g: Severe falciparum malaria: IV artesunate
+f: uncomplicated with 0.5% parasitaemia => Oral artemether with lumefantrine
+
+@h0788
+c: history of depression | leaving in 2 days | shortest course after she returns
+m: Atovaquone with proguanil starts days before and continues only 7 days after
+g: Short trip with depression: atovaquone with proguanil
+f: a 6-month trip on a budget => Doxycycline
+
+@h0789
+c: Plasmodium vivax | dormant liver stage
+m: Vivax leaves dormant hypnozoites; primaquine kills them but haemolyses in G6PD deficiency
+g: Clear vivax hypnozoites with primaquine, after checking G6PD
+
+@h0790
+c: omeprazole 40 mg daily for 6 years | carpopedal spasm | Calcium 1.9 | Vitamin D is normal
+m: PPIs reduce gut magnesium absorption; low magnesium lowers PTH and calcium
+g: Low calcium and potassium on a long-term PPI: low magnesium

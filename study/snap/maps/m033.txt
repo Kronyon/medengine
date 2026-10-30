@@ -1,0 +1,122 @@
+@h0171
+c: 15 year old boy | heavy nosebleeds | smooth, red mass at the back
+m: A benign but very vascular tumour of teenage boys bleeds heavily
+g: Recurrent heavy epistaxis with a nasal mass in a teenage boy is juvenile angiofibroma
+f: a young child with one-sided smelly discharge => Foreign body
+f: pale grey insensate masses in both nostrils => Nasal polyps
+
+@h0172
+c: exudative tonsillitis | palatal petechiae | posterior cervical lymphadenopathy | spleen tip
+m: EBV infects B cells and reactive T cells appear as atypical lymphocytes
+g: Glandular fever: atypical lymphocytes on the film
+f: pallor, bruising and a high white count in a child => Circulating blast cells
+
+@h0173
+c: rugby | palpable spleen tip
+m: An enlarged spleen can rupture with a blow
+g: Glandular fever: no contact sport for 8 weeks
+
+@h0174
+c: 3 days ago | widespread maculopapular rash | monospot test is positive
+m: Aminopenicillins in EBV infection trigger a widespread rash
+g: Rash in glandular fever after an antibiotic: amoxicillin
+
+@h0175
+c: reduce how often the attacks happen
+m: Betahistine may improve inner ear blood flow and reduce attacks
+g: Ménière's prevention: betahistine
+f: treating an acute attack => Prochlorperazine
+
+@h0176
+c: lasting about 2 hours | fullness in his left ear | low-frequency sensorineural hearing loss
+m: Endolymph builds up in the inner ear, causing attacks with fullness and low-tone loss
+g: Vertigo for hours with fullness, tinnitus and low-frequency loss is Ménière's disease
+f: vertigo with migraine and no hearing loss => Vestibular migraine
+f: seconds of vertigo on turning in bed => BPPV
+f: one continuous attack after a cold with normal hearing => Vestibular neuronitis
+
+@h0177
+c: without warning | drives a car for work
+m: Sudden disabling vertigo at the wheel is dangerous
+g: Sudden disabling vertigo: stop driving and tell the DVLA
+
+@h0178
+c: falls asleep watching television | score of 15
+m: The Epworth scale measures how likely you are to doze in daily situations
+g: Epworth over 10 means excessive daytime sleepiness
+f: a score of 4 => Normal daytime alertness
+
+@h0179
+c: lorry driver | nearly fallen asleep at the wheel
+m: Sleepiness from OSA causes crashes until treated
+g: OSA with excessive sleepiness: stop driving and tell the DVLA
+
+@h0180
+c: excessive daytime sleepiness | moderate obstructive sleep apnoea | without improvement
+m: Positive airway pressure holds the throat open during sleep
+g: Moderate OSA with sleepiness after lifestyle measures: CPAP
+f: a child with large tonsils and OSA => Tonsillectomy
+
+@h0181
+c: type 2 diabetes | pain keeps him awake at night | granulation tissue on the floor | weakness of the whole right side of his face
+m: Pseudomonas spreads from the canal into the skull base and cranial nerves
+g: A diabetic with severe ear pain, granulation and a facial palsy has necrotising otitis externa
+f: vesicles in the ear canal => Ramsay Hunt syndrome
+f: a red bulging drum in a child => Acute otitis media
+f: a tender boggy swelling behind the ear pushing it forward => Acute mastoiditis
+
+@h0182
+c: for 2 weeks without improvement | white, fluffy debris with black dots
+m: Antibiotic and steroid drops let fungi such as Aspergillus overgrow
+g: Fluffy debris with black dots after antibiotic drops is fungal otitis externa
+f: green discharge and pain after swimming => Pseudomonas
+
+@h0183
+c: small perforation of the tympanic membrane
+m: Aminoglycosides reaching the inner ear through a hole can cause deafness
+g: Perforated drum: avoid gentamicin drops
+
+@h0184
+c: 2 year old boy | purulent discharge in the right ear canal
+m: A discharging ear means the drum has perforated with bacterial infection
+g: Otitis media with discharge: amoxicillin for 5 days
+f: over 2 with mild symptoms and no discharge => Analgesia and review
+
+@h0185
+c: speech is not developing | flat traces on both sides | confirmed on two tests 3 months apart
+m: Persistent fluid behind both drums dulls hearing and delays speech
+g: Glue ear with hearing loss over 3 months: refer for grommets
+
+@h0186
+c: smelly discharge | pearly white mass in the attic region | Rinne's test is negative
+m: Skin trapped in the middle ear grows and erodes bone
+g: Foul discharge with a pearly attic mass is cholesteatoma
+f: gradual conductive loss with normal drums in a young woman => Otosclerosis
+f: itchy canal with debris and pain on moving the pinna => Otitis externa
+
+@h0187
+c: 12 days | got worse again | no periorbital swelling
+m: Double sickening after a cold suggests bacterial sinusitis
+g: Sinusitis over 10 days with double sickening: back-up antibiotic
+f: symptoms for under 10 days => Self-care and review
+f: periorbital swelling or visual change => Referral to ENT
+
+@h0188
+c: blocked right nostril | blood-stained discharge | carpenter for 40 years | firm right cervical lymph node
+m: Wood dust causes sinonasal cancer, which blocks and bleeds on one side
+g: One-sided blocked bleeding nose with a node in a woodworker: refer to ENT
+f: both sides blocked with sneezing and itch => Steroid nasal spray
+
+@h0189
+c: asthma | wheeze after taking aspirin | pale, grey, glistening masses
+m: Aspirin shifts arachidonic acid to leukotrienes, driving asthma and polyps
+g: Asthma, aspirin sensitivity and nasal polyps is Samter's triad
+f: a child with nasal polyps and chest infections => Cystic fibrosis
+f: a one-sided bloody nasal mass => Sinus cancer
+
+@h0190
+c: cough and a runny nose | FeverPAIN score is 1
+m: Cough and coryza point to a virus, so antibiotics add little
+g: FeverPAIN 0 or 1: no antibiotic
+f: a FeverPAIN score of 4 or 5 => Immediate antibiotic
+f: a FeverPAIN score of 2 or 3 => Back-up antibiotic prescription

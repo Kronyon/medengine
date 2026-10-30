@@ -1,0 +1,114 @@
+@h1391
+c: unknown length of time | elective cardioversion is planned | not yet anticoagulated
+m: AF over 48 hours lets clot form in the left atrial appendage, which a shock can throw off
+g: AF of unknown duration: 3 weeks of anticoagulation before elective cardioversion
+f: onset clearly within 48 hours with heparin cover => Cardiovert today
+
+@h1392
+c: no pulse and is not breathing | defibrillator pads are on
+m: A shock resets disorganised ventricular electrical activity
+g: VF and pulseless VT are shockable; asystole and PEA are not
+f: asked which rhythm is non-shockable with organised complexes => Pulseless electrical activity
+
+@h1393
+c: Pulse rate 30 bpm | 76/40 | complete heart block | Atropine 500 micrograms has not worked
+m: An escape rhythm this slow cannot keep up cardiac output
+g: Unstable bradycardia not responding to atropine: transcutaneous pacing
+f: a fast irregular rhythm with shock => Synchronised cardioversion
+
+@h1394
+c: optimal drug treatment | ejection fraction of 30% | left bundle branch block | QRS of 160 ms
+m: A wide LBBB makes the ventricles beat out of step; pacing both sides brings them back together
+g: EF 35% or less with LBBB and QRS 150 ms or more: cardiac resynchronisation therapy
+f: symptomatic complete heart block with normal function => Dual-chamber pacemaker
+
+@h1395
+c: single shock | felt well straight afterwards | no chest pain or breathlessness
+m: One appropriate shock with full recovery is the device doing its job
+g: A single ICD shock with full recovery: contact the device clinic
+f: chest pain, breathlessness or several shocks => Go to ED by ambulance
+
+@h1396
+c: type 2 diabetes | all three coronary arteries | ejection fraction is 45%
+m: Bypass grafts treat diffuse multivessel disease more durably than stents
+g: Three-vessel disease with diabetes: CABG
+f: single vessel disease => PCI to one artery
+
+@h1397
+c: drug-eluting coronary stent placed 6 weeks ago | aspirin and ticagrelor | elective hernia repair
+m: Stopping dual antiplatelets before the stent endothelialises lets clot form on the struts
+g: Recent drug-eluting stent before elective surgery: the main risk is stent thrombosis
+
+@h1398
+c: left internal mammary artery
+m: The internal mammary artery lies beside the anterior heart and lasts for decades as a graft
+g: LIMA is grafted to the left anterior descending
+
+@h1399
+c: mechanical valve
+m: Mechanical valves need potent vitamin K antagonism; DOACs caused more clots and bleeding
+g: Mechanical valve: lifelong warfarin
+
+@h1400
+c: 72 year old woman | avoid lifelong warfarin
+m: Tissue valves wear out over 10 to 20 years but need no lifelong warfarin
+g: Older patient wanting to avoid warfarin: tissue valve
+f: a 40 year old who accepts warfarin => Mechanical valve
+
+@h1401
+c: tissue mitral valve replacement 8 years ago | no fever | new pansystolic murmur | Blood cultures are negative
+m: Tissue valve leaflets calcify and tear over the years
+g: Gradual failure of a tissue valve years later without infection is structural valve degeneration
+f: a mechanical valve with a subtherapeutic INR => Thrombosis on a mechanical valve
+
+@h1402
+c: weakness of his right hand | difficulty speaking | fully recovered | 75% stenosis of the left internal carotid artery
+m: An unstable carotid plaque throws emboli and is most likely to again in the next 2 weeks
+g: Symptomatic carotid stenosis of 50 to 99%: carotid endarterectomy
+f: an asymptomatic person in AF with no carotid stenosis => Warfarin
+
+@h1403
+c: carotid endarterectomy | nerve damage
+m: The hypoglossal nerve crosses the carotid in the surgical field
+g: The hypoglossal nerve is most at risk; the tongue deviates to the side of injury
+
+@h1404
+c: 6 hours ago | neck feels tight | large, tense swelling | inspiratory stridor
+m: A haematoma in the closed neck compresses the airway
+g: Neck haematoma with stridor after carotid surgery: open the wound at the bedside
+
+@h1405
+c: 6 cm abdominal aortic aneurysm | suitable for both open repair and EVAR
+m: EVAR avoids a laparotomy and aortic clamping
+g: EVAR advantage: lower early operative death rate
+f: asked which advantage open repair has => Lower long-term reintervention rate
+
+@h1406
+c: endovascular aneurysm repair 4 years ago | sac has grown | still flowing into the aneurysm sac
+m: Blood leaking into the sac keeps it pressurised so it can grow and rupture
+g: Flow into the sac outside the graft is an endoleak
+f: fever with gas around the graft => Graft infection
+
+@h1407
+c: open repair of an abdominal aortic aneurysm 2 days ago | bloody diarrhoea | left-sided abdominal pain
+m: The IMA is often tied during open repair, starving the left colon
+g: Bloody diarrhoea and left-sided pain after open AAA repair is ischaemic colitis
+f: watery diarrhoea after antibiotics with no blood => C. difficile colitis
+
+@h1408
+c: safe triangle | chest drain
+m: The triangle between latissimus dorsi, pectoralis major and the 5th space avoids major structures
+g: Chest drain: 5th intercostal space, mid-axillary line
+f: needle decompression of a tension pneumothorax => 2nd space, midclavicular
+
+@h1409
+c: blunt dissection through the intercostal muscles
+m: The neurovascular bundle runs in the groove under each rib
+g: The drain passes over the top of the rib below
+f: asked where the neurovascular bundle lies => Under the rib above
+
+@h1410
+c: stopped bubbling | does not swing with breathing | He is comfortable | SpO2 97% breathing air
+m: Swinging shows the tube is open to the pleural space
+g: No swing and no bubbling in a well patient: blocked drain or re-expanded lung
+f: constant bubbling with a swinging level => There is an ongoing air leak

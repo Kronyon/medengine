@@ -1,0 +1,124 @@
+@h0451
+c: 2 days ago | numb and detached | keeps replaying
+m: Stress symptoms in the first days after trauma usually settle
+g: Symptoms within days of a trauma is an acute stress reaction
+f: the same symptoms 6 weeks later => PTSD
+
+@h0452
+c: 6 months ago | nightmares and flashbacks | avoids driving
+m: Trauma-focused therapy helps process the memory
+g: PTSD: trauma-focused CBT first
+
+@h0453
+c: will not drive or get into a car | longer route to avoid the road
+m: PTSD symptoms group into re-experiencing, avoidance and hyperarousal
+g: Avoiding reminders is the avoidance cluster
+f: flashbacks and nightmares => Re-experiencing
+f: constant edginess and an exaggerated startle => Hyperarousal
+
+@h0454
+c: washes his hands about 50 times a day | knows the fear is excessive
+m: Compulsions are acts done to relieve the anxiety of an obsession
+g: A repeated act that relieves anxiety is a compulsion
+f: the intrusive fear of germs itself => Obsession
+
+@h0455
+c: moderate obsessive-compulsive disorder | completed a course of CBT
+m: SSRIs reduce obsessions, often at higher doses
+g: OCD still troublesome after CBT: sertraline
+f: two SSRIs have failed => Clomipramine
+
+@h0456
+c: checking his nose in mirrors | convinced his nose is deformed | nose looks normal | accepts that others may not see
+m: Preoccupation with a perceived flaw drives checking and reassurance seeking
+g: Preoccupation with an imagined flaw with some insight is body dysmorphic disorder
+f: fear of having a serious illness => Hypochondriasis
+f: a fixed belief with no insight => Delusional disorder
+
+@h0457
+c: many years | different places | no cause
+m: Distress is expressed through many bodily symptoms with no physical cause
+g: Many unexplained symptoms over years with great distress is somatisation disorder
+f: a single neurological symptom after a stressful event => Conversion disorder
+f: faking symptoms for money or another outside gain => Malingering
+
+@h0458
+c: nurse | does not have diabetes | insulin is high and C-peptide is low
+m: Injected insulin has no C-peptide; the pancreas would release both
+g: High insulin with low C-peptide in a health worker is factitious hypoglycaemia
+f: high insulin and C-peptide with a negative sulfonylurea screen => Insulinoma
+f: high C-peptide with a positive sulfonylurea screen => Sulfonylurea use
+
+@h0459
+c: mother's sudden death this morning | plantars are flexor | Hoover's sign is positive
+m: Functional weakness disappears when attention is drawn elsewhere
+g: Weakness with inconsistent signs and a positive Hoover's sign is functional
+f: faking symptoms for compensation => Malingering for gain
+
+@h0460
+c: making herself vomit | BMI is 22 | calluses on the backs of her fingers
+m: Binges followed by purging keep the weight normal
+g: Binges with purging at a normal BMI is bulimia nervosa
+f: binges with no compensation => Binge eating disorder
+f: restriction with a very low BMI => Anorexia nervosa
+
+@h0461
+c: vomiting several times a day | Potassium 2.8 | Chloride 88 | Bicarbonate 36
+m: Vomiting loses stomach acid and chloride; the kidney swaps potassium to hold sodium
+g: Vomiting causes a hypokalaemic, hypochloraemic metabolic alkalosis
+f: laxative misuse => Metabolic acidosis
+
+@h0462
+c: BMI of 13 | On day 3 | Phosphate 0.3
+m: Insulin from feeding drives phosphate, potassium and magnesium into cells
+g: Low phosphate, potassium and magnesium days after feeding is refeeding syndrome
+f: low calcium after parathyroid surgery => Hungry bone syndrome
+f: high potassium and phosphate after chemotherapy => Tumour lysis syndrome
+
+@h0463
+c: always preferred to be alone | indifferent to praise or criticism | content with this | no odd beliefs
+m: Schizoid personality is emotional coldness with a contented preference for solitude
+g: Contented solitude and emotional coldness without odd beliefs is schizoid personality
+f: wants friends but avoids them for fear of rejection => Avoidant personality disorder
+f: odd beliefs and magical thinking => Schizotypal disorder
+
+@h0464
+c: intense, unstable relationships | chronic feelings of emptiness
+m: DBT teaches skills to manage intense emotions and reduce self-harm
+g: Emotionally unstable personality disorder: dialectical behaviour therapy
+
+@h0465
+c: no remorse | set fires, was cruel to animals
+m: Dissocial personality needs conduct disorder in childhood and lasting disregard for others
+g: Lifelong disregard for others with childhood conduct disorder is dissocial personality
+f: grandiosity and a need for admiration => Narcissistic personality
+
+@h0466
+c: 3 bottles of wine a week | 750 mL | 12%
+m: Units are volume in litres times percentage strength
+g: 0.75 times 12 is 9 units a bottle; 3 bottles is 27 units
+f: one bottle a week => 9 units
+f: two bottles a week => 18 units
+
+@h0467
+c: 18 hours ago | coarse tremor | CIWA score is 22
+m: A long-acting benzodiazepine replaces alcohol's GABA effect and prevents seizures
+g: Moderate to severe withdrawal: reducing chlordiazepoxide
+f: preventing relapse after withdrawal => Acamprosate
+
+@h0468
+c: wants to stay abstinent | no liver disease
+m: Acamprosate reduces craving by calming glutamate activity
+g: Relapse prevention: acamprosate
+f: treating withdrawal symptoms => Chlordiazepoxide
+
+@h0469
+c: 4 hours ago | above the treatment line
+m: Acetylcysteine refills glutathione to detoxify the paracetamol metabolite
+g: Level above the treatment line: IV acetylcysteine
+f: took the tablets within the last hour => Activated charcoal
+
+@h0470
+c: new drug was started for his blood pressure | coarse tremor | Lithium level 2.4
+m: Thiazides make the kidney hold on to lithium
+g: Lithium toxicity after a new antihypertensive: bendroflumethiazide

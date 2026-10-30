@@ -1,0 +1,122 @@
+@h0371
+c: baker | improve when he is on holiday | lower on working days
+m: Flour dust sensitises the airways; symptoms ease away from exposure
+g: Asthma that improves away from work is occupational asthma
+f: fever and breathlessness hours after exposure to birds or mouldy hay => Extrinsic allergic alveolitis
+
+@h0372
+c: SpO2 90%
+m: Hypoxia marks an attack that can kill
+g: Saturations under 92% make the attack life-threatening
+f: asked which marks a severe but not life-threatening attack => Unable to finish sentences
+
+@h0373
+c: sputum has turned green | well enough to be treated at home
+m: Purulent sputum suggests bacterial infection; steroids speed recovery
+g: COPD exacerbation with purulent sputum: prednisolone and amoxicillin
+f: more breathless with no change in sputum => Prednisolone for 5 days
+
+@h0374
+c: never smoked | lower lobes | liver edge is palpable | ALT 82
+m: Lack of alpha-1 antitrypsin lets elastase destroy lung, while abnormal protein builds up in the liver
+g: Early basal emphysema with liver disease in a never-smoker is alpha-1 antitrypsin deficiency
+f: variable obstruction that reverses with a bronchodilator => Asthma
+
+@h0375
+c: 100 metres | MRC dyspnoea grade is 4
+m: Exercise training improves breathlessness and function in COPD
+g: MRC grade 3 or worse despite inhalers: pulmonary rehabilitation
+f: frequent exacerbations despite optimal inhalers in a non-smoker => Long-term azithromycin
+
+@h0376
+c: chronic sinusitis | immotile sperm | loudest on the right side
+m: Faulty cilia fail to clear mucus and fail to move sperm or set organ sidedness
+g: Bronchiectasis, sinusitis, immotile sperm and dextrocardia is primary ciliary dyskinesia
+f: bronchiectasis with malabsorption and a high sweat chloride => Cystic fibrosis
+f: early basal emphysema with liver disease => Alpha-1 antitrypsin deficiency
+
+@h0377
+c: bronchiectasis
+m: Damaged airways hold bacteria, so longer courses are needed
+g: Bronchiectasis exacerbation: 14 days of antibiotics
+f: a COPD exacerbation => 5 days
+
+@h0378
+c: pale, bulky, foul-smelling stools | BMI of 17 | clubbing | upper zones | Sweat chloride is 85
+m: Faulty CFTR thickens secretions in the lungs and pancreas
+g: Bronchiectasis with malabsorption and a high sweat chloride is cystic fibrosis
+f: situs inversus with infertility and a normal sweat test => Primary ciliary dyskinesia
+f: pancreatic insufficiency with neutropenia and short stature => Shwachman-Diamond syndrome
+
+@h0379
+c: end in vomiting and a gasp | well between bouts | nephew has a similar cough
+m: Bordetella toxins cause paroxysms of cough ending in a whoop
+g: Paroxysmal cough with a whoop and vomiting is pertussis
+f: cough with fever settling over 3 weeks => Acute bronchitis
+
+@h0380
+c: 10 days | nursery | not pregnant
+m: A macrolide in the first 21 days reduces spread; pertussis is notifiable
+g: Pertussis within 21 days: clarithromycin and notify public health
+
+@h0381
+c: protect her baby
+m: Maternal antibodies cross the placenta and protect the newborn
+g: Pertussis vaccine in pregnancy: 16 to 32 weeks
+
+@h0382
+c: admitted 3 days ago | no recent antibiotics | not on a high-risk unit
+m: Early hospital pneumonia without resistance risks is covered by co-amoxiclav
+g: Non-severe hospital-acquired pneumonia: co-amoxiclav
+f: low-severity community-acquired pneumonia => Amoxicillin
+
+@h0383
+c: 62 year old man | smokes 20 cigarettes a day
+m: Pneumonia can hide a lung cancer in high-risk patients
+g: Repeat chest X-ray at 6 weeks if high risk
+
+@h0384
+c: seizure while intoxicated | foul-smelling sputum | right lower lobe
+m: Reduced consciousness lets mouth contents fall into the right lower lobe
+g: Foul sputum and right lower lobe consolidation after reduced consciousness is aspiration pneumonia
+f: upper lobe cavitation with red-currant jelly sputum in a drinker => Klebsiella pneumonia
+f: dry cough, confusion and low sodium after a hotel shower => Legionella pneumonia
+
+@h0385
+c: smear-positive | no symptoms | interferon-gamma release assay is positive | Chest X-ray is normal
+m: Latent TB can reactivate; treating it prevents active disease
+g: Positive IGRA with no symptoms and a normal X-ray is latent TB: treat it
+f: an upper lobe cavity on X-ray => Full treatment for active TB
+
+@h0386
+c: feels well | not jaundiced | 3 times the upper limit
+m: Mild rises in liver enzymes are common and often settle
+g: ALT 3 times normal with no symptoms: continue and monitor
+f: jaundice or ALT over 5 times normal => Stop all the drugs
+
+@h0387
+c: Somalia | angular kyphosis | two adjacent vertebral bodies and the disc | psoas abscess
+m: TB destroys adjacent vertebrae and the disc and tracks down the psoas
+g: Destruction of adjacent vertebrae and disc with a psoas abscess is spinal TB
+f: an older man with prostate cancer and disc spaces spared => Metastatic cancer
+f: fever with a single disc infection after IV drug use => Staphylococcal osteomyelitis
+
+@h0388
+c: never smoked | peripheral mass | EGFR mutation
+m: Adenocarcinoma is commonest in non-smokers and arises peripherally
+g: A peripheral EGFR-mutant cancer in a never-smoker is adenocarcinoma
+f: a central mass with hypercalcaemia in a heavy smoker => Squamous cell carcinoma
+f: a central mass with SIADH in a smoker => Small cell carcinoma
+
+@h0389
+c: legs get stronger after a few attempts | dry mouth and constipation | increase after brief exercise | Eye movements are normal
+m: Antibodies block presynaptic calcium channels; repeated effort builds up acetylcholine release
+g: Proximal weakness that improves with effort, autonomic symptoms and areflexia in a smoker is LEMS
+f: weakness worsening with exercise and ptosis => Generalised myasthenia gravis
+f: ascending weakness after a diarrhoeal illness => Guillain-Barré syndrome
+
+@h0390
+c: small cell lung cancer | no diuretics | euvolaemic | Sodium 122
+m: Tumour ADH makes the kidney hold water while still losing sodium
+g: Euvolaemic hyponatraemia with urine sodium over 30 is SIADH
+f: a dry patient with a low urine sodium => Urine sodium 10 mmol/L

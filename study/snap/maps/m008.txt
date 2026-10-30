@@ -1,0 +1,132 @@
+@o-mla2-061
+c: night sweats and 5 kg weight loss | Reed-Sternberg | enlarged mediatinal lymph nodes
+m: Hodgkin lymphoma with B symptoms is widespread disease that responds to combination chemotherapy
+g: Advanced classical Hodgkin with B symptoms: chemotherapy first line
+f: a single small node group with no B symptoms after chemotherapy, needing consolidation => Radiotherapy
+
+@o-mla2-062
+c: drowsy and unable to answer questions | he has had enough of his treatment
+m: CPR decisions without capacity or a valid advance decision are made by the treating team in his best interests
+g: No capacity and no written advance decision: the admitting team decides, informed by his wife's account
+f: he has a registered health and welfare attorney for these decisions => Ask his wife to decide
+
+@o-mla2-063
+c: first on a morning operating list | 14 units long-acting insulin at night | fast from midnight
+m: Basal insulin is needed even when fasting; mealtime insulin is only needed with food
+g: Short morning fast: keep the usual basal dose, omit the breakfast bolus
+f: a long fast covering more than one missed meal => Start a variable-rate insulin infusion on the morning of surgery
+
+@o-mla2-064
+c: red throat | flat, erythematous rash across her trunk and face that feels rough | temperature is 39.6°C
+m: Streptococcal toxin causes a sandpaper rash after a sore throat
+g: Fever, sore throat and a rough sandpaper rash is scarlet fever
+f: fever for 5 days with red eyes, cracked lips and swollen hands => Kawasaki disease
+f: cough, conjunctivitis and white spots inside the cheeks before the rash => Measles
+f: slapped cheek rash after a mild illness => Parvovirus infection
+
+@o-mla2-065
+c: pale stools | dark urine | one week old | jaundice
+m: Pale stools and dark urine mean conjugated bilirubin is not reaching the gut
+g: Jaundice with pale stools needs a split bilirubin to look for biliary atresia
+f: jaundice in the first 24 hours with a mother who is blood group O => Coombs (direct antiglobulin) test
+
+@o-mla2-066
+c: metered dose inhaler | better for the environment
+m: The propellant gas in metered dose inhalers is a potent greenhouse gas
+g: The HFC propellant carries the largest carbon footprint
+f: asked which part of a dry powder inhaler has the biggest footprint => Plastic component of the dry powder inhaler
+
+@o-mla2-067
+c: hundreds of colonic polyps | paternal grandfather died of colorectal cancer at 42 | 36 year old father
+m: An APC mutation causes hundreds of polyps; cancer is near certain unless the colon is removed
+g: Familial adenomatous polyposis: prophylactic colectomy
+f: a few polyps with endometrial cancer in the family, Lynch syndrome => Annual colonoscopy and biopsy
+
+@o-mla2-068
+c: fear of public speaking | embarrass himself | recognises that his fears are irrational
+m: Fear of being judged by others leads to avoidance of performance situations
+g: Fear of embarrassment in front of others is social phobia
+f: fears crowds, buses and shops where escape would be hard => Agoraphobia
+f: lifelong feelings of inadequacy and avoidance of all relationships => Anxious avoidant personality disorder
+f: fear centred only on vomiting => Emetophobia
+
+@o-mla2-069
+c: sudden onset and intense lower back pain | no pain or numbness in his buttocks or legs | no drug contra-indications
+m: NSAIDs reduce pain and inflammation in acute mechanical back pain
+g: Acute mechanical back pain without contraindications: an NSAID first
+f: NSAIDs contraindicated by a stomach ulcer, and he needs a weak opioid => Paracetamol
+
+@o-mla2-070
+c: turning over in bed | lasts for up to 1 minute | no hearing loss, tinnitus
+m: Loose crystals in the posterior canal move with head position and trigger brief vertigo
+g: Brief positional vertigo without hearing loss is BPPV: the Dix-Hallpike test
+f: one-sided hearing loss and tinnitus that are getting worse => MR of internal auditory meatus
+f: episodes of vertigo with low-tone hearing loss and fullness => Audiometry
+
+@o-mla2-071
+c: breathing is shallow | grip is not sustained | laryngoscopy
+m: Residual non-depolarising muscle relaxant blocks acetylcholine at the junction; neostigmine raises acetylcholine
+g: Weak grip and shallow breathing after a muscle relaxant: neostigmine
+f: pinpoint pupils with slow breathing after morphine => Naloxone
+
+@o-mla2-072
+c: broken her right radius after tripping | beclometasone regularly for more than five years | hot flushes
+m: Falling oestrogen and long-term steroids thin bone; DXA measures bone density
+g: Fragility fracture with risk factors: DXA
+f: a single hot spot that may be a metastasis => 99m-technetium bone scintigraphy
+
+@o-mla2-073
+c: difficulty swallowing solids | hepatic metastases
+m: Incurable cancer: a stent opens the lumen quickly to restore swallowing
+g: Metastatic oesophageal cancer with dysphagia: stent
+f: localised cancer in a fit man => Excision of tumour
+
+@o-mla2-074
+c: low thoracic back pain | Haemoglobin 81 | Platelets 74 | Creatinine 203
+m: Plasma cells fill the marrow and their light chains damage the kidneys
+g: Back pain, anaemia, low platelets and renal failure: test for myeloma
+f: haemoptysis, sinus disease and red cell casts => Anti-neutrophil cytoplasmic antibody
+f: a young woman with a rash, arthritis and nephritis => Antinuclear antibody
+
+@o-mla2-075
+c: getting up early in the morning | no longer of any use | over the last few weeks | Mini Mental State Examination is 27/30
+m: Depression slows thinking and mimics memory loss, with early waking and guilt
+g: Weeks of low mood, guilt and early waking with a near-normal MMSE is depression
+f: gradual memory loss over years with normal mood => Alzheimer’s disease
+f: stepwise decline after small strokes => Vascular dementia
+f: disinhibited behaviour with relatively spared memory => Frontotemporal dementia
+
+@o-mla2-076
+c: highest quality evidence
+m: A meta-analysis pools several trials and assesses their bias
+g: Top of the evidence hierarchy is a meta-analysis of trials
+f: asked for the best single primary study => Randomised controlled trial
+f: studying a rare outcome looking back from cases => Case control study
+
+@o-mla2-077
+c: liver cirrhosis 10 years ago | 10 kg weight loss | fixed hard mass
+m: Cirrhosis leads to hepatocellular carcinoma, which secretes AFP
+g: Mass in a cirrhotic liver: AFP
+f: painless jaundice with a mass in the head of the pancreas => CA 19-9
+f: colorectal cancer follow-up => Carcinoembryonic antigen
+
+@o-mla2-078
+c: 7 year old boy | painless limp | pain on internal rotation and abduction | temperature is 37.1°C
+m: The femoral head loses its blood supply and collapses in boys aged 4 to 8
+g: Gradual limp at 7 with no fever is Perthes
+f: overweight 13 year old with knee pain and lost internal rotation => Slipped upper femoral epiphysis
+f: limp after a cold in a well 4 year old that settles in days => Transient synovitis
+f: fever and refusal to bear weight => Septic arthritis
+
+@o-mla2-079
+c: 35 weeks' gestation | itching of her palms, soles | no rash
+m: Bile acids build up in late pregnancy, causing itch of the palms and soles
+g: Itch without rash in the third trimester: liver function and bile acids
+f: tiredness, weight gain and feeling cold => Thyroid function tests
+
+@o-mla2-080
+c: commenced chemotherapy for Burkitt's lymphoma yesterday | Potassium 6.2 | Creatinine 410
+m: Rapid tumour cell death releases urate, potassium and phosphate, which damage the kidneys
+g: AKI a day after chemo for a fast-growing lymphoma is tumour lysis: urate
+f: fever and rigors with a central line => Blood cultures
+f: dark urine after a crush injury => Creatine kinase

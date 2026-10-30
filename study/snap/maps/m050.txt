@@ -1,0 +1,128 @@
+@h0511
+c: tearing pain on opening her bowels | lasts about an hour afterwards | constipated | posterior midline
+m: Hard stool tears the sensitive anoderm below the dentate line
+g: Tearing pain on defecation with a posterior midline split is an anal fissure
+f: a throbbing fluctuant lump beside the anus with fever => Perianal abscess
+f: painless bright red bleeding => Internal haemorrhoids
+f: tenesmus with mucus and blood => Proctitis
+
+@h0512
+c: 8 weeks | stools are now soft | sentinel skin tag
+m: GTN relaxes the internal sphincter and improves blood flow to the fissure
+g: Chronic fissure over 6 weeks: topical GTN 0.4%
+f: still not healed after 8 weeks of GTN => Botulinum toxin injection
+
+@h0513
+c: severe headaches
+m: Diltiazem relaxes the sphincter without the GTN headache
+g: Fissure with GTN headaches: topical diltiazem 2%
+
+@h0514
+c: eating and drinking | not immunosuppressed | 37.6°C | without guarding or a mass
+m: Mild uncomplicated diverticulitis often settles without antibiotics
+g: Systemically well with mild diverticulitis: paracetamol and no antibiotic
+f: systemically unwell, immunosuppressed or frail => Oral co-amoxiclav for 5 days
+f: a tender mass or guarding suggesting a complication => Same-day CT abdomen
+
+@h0515
+c: tender mass in the left iliac fossa | CRP 210
+m: CT shows abscess, perforation or fistula; scopes risk perforation in the acute phase
+g: Suspected complicated diverticulitis: contrast CT abdomen and pelvis
+
+@h0516
+c: rigid with generalised peritonism | free faecal material
+m: Faecal contamination is too heavy for a safe join
+g: Faecal peritonitis from diverticulitis: Hartmann's procedure
+f: a 5 cm pericolic abscess without peritonitis => CT-guided percutaneous drainage
+
+@h0517
+c: no further bleeding | Haemoglobin 138 | Oakland score is 6
+m: The Oakland score predicts safe discharge after a lower GI bleed
+g: Oakland score of 8 or less: discharge with outpatient colonoscopy
+f: an Oakland score over 8 => Admission for inpatient colonoscopy
+f: unstable with a shock index over 1 => Urgent CT angiography
+
+@h0518
+c: shock index is over 1 | no melaena and urea is normal
+m: CT angiography finds the bleeding point quickly before embolisation
+g: Unstable lower GI bleed: CT angiography
+f: a stable patient after a minor bleed => Colonoscopy
+
+@h0519
+c: painless dark red rectal bleeding | aortic stenosis | Colonoscopy shows no tumour or diverticula
+m: Fragile ectatic vessels in the older colon bleed slowly; linked with aortic stenosis
+g: Recurrent painless bleeding with iron deficiency and aortic stenosis is angiodysplasia
+f: sudden left-sided pain then bloody diarrhoea in a vascular patient => Ischaemic colitis
+f: a sudden large painless bleed from known diverticula => Diverticular bleed
+
+@h0520
+c: twice a week with hard stools | no red flag
+m: Bulk-forming laxatives add fibre and hold water in the stool
+g: Chronic constipation after lifestyle changes: ispaghula husk first
+f: stools still hard after a bulk-former => Lactulose
+f: constipation from regular codeine => Senna
+
+@h0521
+c: regular codeine | leaking of loose stool | indentable mass | large mass of hard stool
+m: Liquid stool leaks around a hard impacted mass
+g: Leakage around hard stool on opioids is faecal impaction with overflow
+f: watery diarrhoea after antibiotics with a positive toxin => Clostridioides difficile infection
+
+@h0522
+c: metastatic breast cancer | very thirsty | passing large amounts of urine | tenderness over her lumbar spine
+m: Bone metastases release calcium, which slows the gut and the brain
+g: Constipation, thirst, polyuria and confusion with bone metastases: high calcium
+f: asked which result explains loose stools, tremor and weight loss => TSH 0.05 mU/L
+
+@h0523
+c: started around his umbilicus and moved to the right iliac fossa | no appetite | McBurney's point | Pressing in the left iliac fossa
+m: Visceral pain from the appendix becomes localised once the peritoneum is inflamed
+g: Pain moving to McBurney's point with anorexia and Rovsing's sign is appendicitis
+f: a child with a recent sore throat and shifting tenderness => Mesenteric adenitis
+f: colicky loin to groin pain with blood in the urine => Right ureteric colic
+
+@h0524
+c: sexually active | last period was 5 weeks ago
+m: An ectopic pregnancy must be excluded in any woman of reproductive age with pain
+g: Abdominal pain in a woman of reproductive age: urine pregnancy test first
+f: a positive test with no intrauterine pregnancy seen => Transvaginal ultrasound
+
+@h0525
+c: 5 days | tender mass | phlegmon | no abscess
+m: A late appendix mass is stuck to the bowel; early surgery is risky
+g: Late appendix mass with no abscess: IV antibiotics without surgery
+f: CT shows a 5 cm abscess => CT-guided percutaneous drainage
+
+@h0526
+c: 18 hours | Murphy's sign is positive | thickened gallbladder wall | normal common bile duct
+m: A stone blocking the cystic duct inflames the gallbladder; early surgery prevents repeat attacks
+g: Acute cholecystitis: laparoscopic cholecystectomy within 1 week
+f: too frail for surgery => Percutaneous cholecystostomy
+f: a stone in a dilated duct with jaundice => ERCP with sphincterotomy
+
+@h0527
+c: after eating fried food | settled completely | Murphy's sign is negative | normal gallbladder wall
+m: A stone briefly blocks the cystic duct as the gallbladder contracts
+g: Brief colicky pain after fatty food that settles, with no inflammation, is biliary colic
+f: pain over 6 hours with fever and a positive Murphy's sign => Acute cholecystitis
+f: fever, jaundice and right upper quadrant pain => Acute cholangitis
+
+@h0528
+c: no abdominal surgery | dilated loops of small bowel | gas in the biliary tree
+m: A large stone erodes through a fistula into the bowel and lodges at the ileocaecal valve
+g: Small bowel obstruction with air in the biliary tree is gallstone ileus
+f: previous abdominal surgery and no air in the biliary tree => Adhesions
+f: jaundice from a stone in Hartmann's pouch pressing on the duct => Mirizzi syndrome
+
+@h0529
+c: high fevers and shivering | eyes are yellow | Bilirubin 92 | ALP 380
+m: Infection behind a blocked bile duct causes fever, pain and jaundice
+g: Charcot's triad is ascending cholangitis
+f: fever and a positive Murphy's sign without jaundice => Acute cholecystitis
+f: painless jaundice with weight loss => Pancreatic cancer
+
+@h0530
+c: stone in a dilated common bile duct | falling despite fluids
+m: Antibiotics cannot sterilise blocked bile; the duct must be drained
+g: Shocked with cholangitis despite treatment: urgent ERCP to drain the duct
+f: ERCP not possible because of altered anatomy => Percutaneous transhepatic drainage first

@@ -1,0 +1,134 @@
+@o-p2017-021
+c: Calcium 2.90 | Parathyroid hormone 11.2 | 24 h urinary calcium 7
+m: An overactive parathyroid keeps PTH high despite high calcium, and urine calcium is high
+g: High calcium with an inappropriately high PTH and normal urine calcium is primary hyperparathyroidism
+f: very low urinary calcium with a family history => Familial hypocalciuric hypercalcaemia
+f: long-standing dialysis with very high PTH => Tertiary hyperparathyroidism
+f: high calcium with a suppressed PTH and a paraprotein => Multiple myeloma
+
+@o-p2017-022
+c: 52 year old man | He is well | BP 128/84 mmHg | HbA1c 40
+m: Stroke risk in AF follows CHA2DS2-VASc; a man with no risk factors scores 0
+g: CHA2DS2-VASc 0 with a controlled rate: no anticoagulation
+f: a 66 year old woman with hypertension, CHA2DS2-VASc 3 => Apixaban
+f: a fast ventricular rate with palpitations => Diltiazem hydrochloride
+
+@o-p2017-023
+c: bleeding site is visible in the anterior nasal cavity
+m: A visible anterior vessel can be sealed directly
+g: Visible bleeding point: cautery
+f: no bleeding point seen and bleeding continues => Anterior pack
+
+@o-p2017-024
+c: 48 hours after a sigmoid colectomy | no bowel sounds | no rebound or guarding
+m: After bowel surgery the gut stops moving; decompression rests it until it recovers
+g: Distension, vomiting and no bowel sounds without peritonism is ileus: NG tube
+f: fever, rising pain and peritonism suggesting an anastomotic leak => Take to theatre for laparotomy
+
+@o-p2017-025
+c: unprotected anal sex with a new male partner | perianal ulcer | tender inguinal lymphadenopathy
+m: Chlamydia L1 to L3 serovars invade lymph tissue, causing proctitis and painful nodes
+g: Proctitis with tender nodes in men who have sex with men is LGV
+f: several painful shallow ulcers without large nodes => Genital herpes
+f: a painless chancre with painless rubbery nodes => Secondary syphilis
+
+@o-p2017-026
+c: COPD | pain of sudden onset in the right side of his chest | increasing breathlessness
+m: Emphysematous bullae rupture, letting air into the pleura
+g: Sudden pleuritic pain and breathlessness in COPD is pneumothorax
+f: fever, productive cough and focal shadowing => Lobar pneumonia
+
+@o-p2017-027
+c: posterior wall | first and second parts of the duodenum
+m: A posterior duodenal ulcer erodes into the artery running behind it
+g: Posterior duodenal ulcer bleeds from the gastroduodenal artery
+f: ulcer on the lesser curve of the stomach => Left gastric artery
+
+@o-p2017-028
+c: irregular menstruation | BMI is 29.4 | LH (pre-menopausal female) 15 | FSH 6 | Testosterone 3.5
+m: Insulin resistance and a high LH drive ovarian androgens and stop regular ovulation
+g: Irregular periods with LH over FSH and a mildly raised testosterone is PCOS
+f: testosterone over 5 with rapid virilisation => Androgen secreting tumour
+f: cortisol not suppressed after dexamethasone => Cushing's syndrome
+f: high FSH with absent periods under 40 => Premature ovarian failure
+
+@o-p2017-029
+c: taking these regularly | looseness of her stools | Ferritin 8
+m: Coeliac villous atrophy stops iron absorption in the duodenum
+g: Iron deficiency not responding to oral iron with loose stools: test tTG
+f: macrocytic anaemia with a smooth tongue => Anti-gastric parietal cell
+f: itch with a cholestatic picture => Antimitochondrial
+
+@o-p2017-030
+c: cachetic | destructive bony lesions of T12 and L2–L4 | sphincter function is preserved
+m: Radiotherapy shrinks spinal metastases across several levels without surgery
+g: Multilevel cord compression in a frail patient: external beam radiotherapy
+f: a fit patient with a single level and a good prognosis => Surgical decompression of the spinal cord
+
+@o-p2017-031
+c: 34 year old woman | Potassium 3.3 | Plasma aldosterone renin ratio 50
+m: Too much aldosterone keeps sodium and loses potassium, raising BP
+g: Young hypertension with low potassium and a high aldosterone to renin ratio is Conn's
+f: episodic headache, sweating and palpitations => Phaeochromocytoma
+f: central obesity, purple striae and a cortisol that fails to suppress => Glucocorticoid excess
+
+@o-p2017-032
+c: visible haematuria | Three days before the haematuria started | tonsillitis | blood 3+, protein 3+
+m: IgA deposits in the glomeruli flare with mucosal infections, causing haematuria within days
+g: Haematuria 1 to 3 days after a sore throat is IgA nephropathy
+f: haematuria 2 weeks after the sore throat with low complement => Postinfectious glomerulonephritis
+f: deafness and a family history of kidney failure => Alport's nephropathy
+
+@o-p2017-033
+c: worse at night | better after eating | misses lunch, which worsens the pain | not lost weight
+m: Acid hits an unprotected duodenal ulcer when the stomach is empty; food buffers it
+g: Pain relieved by food and worse at night is a duodenal ulcer
+f: pain worse with food and weight loss => Gastric ulcer
+f: over 55 with weight loss and dysphagia => Gastric carcinoma
+
+@o-p2017-034
+c: improved by activity but not relieved by resting
+m: Inflammation stiffens the spine at rest and eases with movement
+g: Improvement with exercise is the most specific feature of inflammatory back pain
+f: asked which feature makes it least likely to be mechanical, if there were sciatica too => Radiation to leg
+
+@o-p2017-035
+c: intracellular needle shaped crystals | chronic kidney disease stage 4 | Gram stain negative
+m: Urate crystals inflame the joint; kidney failure rules out NSAIDs and limits colchicine
+g: Acute gout with CKD 4: oral prednisolone
+f: normal kidney function with no stomach problems => Oral naproxen
+f: organisms on Gram stain with a high neutrophil count => Intravenous flucloxacillin
+
+@o-p2017-036
+c: septic shock | BP 85/40 mmHg | basal crackles | JVP 4 cm above the sternal angle
+m: Fluids are already filling the lungs; the vessels need constricting
+g: Septic shock with signs of fluid overload: noradrenaline
+f: a low JVP, clear chest and dry mucous membranes => 500 mL 0.9% sodium chloride over 15 min
+
+@o-p2017-037
+c: worsens when elevating his arm above his head | no deformity, tenderness or reduced range of movement | worse with the arm in internal rotation
+m: The supraspinatus tendon is pinched under the acromion
+g: Clinical supraspinatus tendinopathy: physiotherapy, no imaging
+f: weakness with a drop arm after a fall, suggesting a tear => Ultrasound scan of shoulder
+f: no improvement after 6 months of physiotherapy and an injection => Refer for orthopaedic opinion
+
+@o-p2017-038
+c: recognised to be dying | confused and agitated
+m: Terminal agitation responds to a sedating benzodiazepine
+g: Agitation in the dying: midazolam
+f: noisy rattling breathing rather than agitation => Hyoscine hydrobromide
+f: pain or breathlessness rather than agitation => Diamorphine hydrochloride
+
+@o-p2017-039
+c: progressive memory loss over 2 years | early Alzheimer’s disease
+m: Alzheimer's starts in the medial temporal lobe and hippocampus
+g: Early Alzheimer's: temporal lobe atrophy
+f: personality change and disinhibition => Frontal lobe
+f: tremor and slowness from dopamine loss => Basal ganglia
+
+@o-p2017-040
+c: amitriptyline | QRS prolongation | pupils are dilated
+m: Tricyclics block cardiac sodium channels; sodium bicarbonate overcomes the block
+g: Tricyclic overdose with a broad QRS: IV sodium bicarbonate
+f: within 1 hour of ingestion with a protected airway and normal ECG => Activated charcoal
+f: torsades de pointes => Intravenous magnesium

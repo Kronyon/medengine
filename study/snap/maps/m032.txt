@@ -1,0 +1,124 @@
+@h0151
+c: 25 year old man | Serum AFP is raised | Beta-hCG is raised
+m: Yolk sac elements make AFP; pure seminoma never does
+g: A raised AFP means a non-seminomatous germ cell tumour
+f: a mildly raised hCG with a normal AFP => Classical pure seminoma
+f: a painless diffuse swelling in a 70 year old with normal markers => Diffuse large B-cell lymphoma
+
+@h0152
+c: hope to have children | before treatment
+m: Surgery, chemotherapy and radiotherapy can all reduce sperm production
+g: Before germ cell tumour treatment: offer sperm banking
+
+@h0153
+c: 70 year old man | night sweats | rubbery lymph nodes in both axillae | AFP and beta-hCG are normal
+m: Germ cell tumours peak young; over 60 a testicular mass is usually lymphoma
+g: Testicular mass over 60 with B symptoms and nodes is lymphoma
+f: a 30 year old with a normal AFP and mildly raised hCG => Seminoma
+f: very high hCG with lung metastases in a young man => Choriocarcinoma
+
+@h0154
+c: advanced about halfway | no urine has drained | cries out in pain
+m: A balloon inflated in the urethra stretches and tears it
+g: Inflating before urine flows causes severe pain and a urethral tear
+
+@h0155
+c: long-term urethral catheter | cloudy | 36.8°C | no more confused than usual
+m: Every long-term catheter grows bacteria; treating without symptoms breeds resistance
+g: Cloudy urine with no symptoms or signs of infection: observe without antibiotics
+f: fever and loin pain => Change the catheter and treat
+
+@h0156
+c: 8 hours ago | retracted behind the glans | will not return over the glans
+m: A retracted foreskin acts as a tourniquet, swelling the glans
+g: Retracted foreskin trapping a swollen glans after catheterisation is paraphimosis
+f: a tight foreskin that cannot be pulled back => Phimosis
+f: a red sore glans with discharge => Balanitis
+f: a painful erection lasting hours => Priapism
+
+@h0157
+c: left ear | Weber's test lateralises to the right | Rinne's test is positive on both sides
+m: In sensorineural loss Weber goes to the better ear and air conduction stays better than bone
+g: Weber away from the bad ear with Rinne positive is sensorineural loss on that side
+f: Weber to the left with a negative Rinne on the left => Left conductive
+
+@h0158
+c: tinnitus in his right ear | numbness on the right side of his face | reduced right corneal reflex
+m: A growing tumour at the cerebellopontine angle presses on the fifth nerve
+g: One-sided sensorineural loss with a lost corneal reflex is a vestibular schwannoma
+f: attacks of vertigo with fluctuating low-tone loss => Ménière's disease
+f: smelly discharge with a conductive loss => Cholesteatoma
+
+@h0159
+c: both ears | no café-au-lait macules | bilateral masses in the internal acoustic meati | meningioma
+m: A chromosome 22 mutation causes schwannomas and meningiomas
+g: Bilateral vestibular schwannomas with a meningioma is NF2
+f: café au lait macules and axillary freckling => Neurofibromatosis type 1
+f: haemangioblastomas with renal cysts => Von Hippel-Lindau disease
+
+@h0160
+c: hypertension and smokes | stroke or Bell's palsy
+m: The forehead gets supply from both hemispheres, so an upper motor neurone lesion spares it
+g: Forehead sparing points to a stroke
+
+@h0161
+c: severe pain in his right ear | vesicles in the right external auditory canal | including the forehead | reduced hearing
+m: Zoster reactivates in the geniculate ganglion, affecting facial and hearing nerves
+g: Ear vesicles with lower motor neurone facial weakness is Ramsay Hunt syndrome
+f: facial weakness with no vesicles or ear pain => Bell's palsy
+f: a diabetic with granulation tissue in the canal => Malignant otitis externa
+
+@h0162
+c: cannot close her left eye fully | watering but not red
+m: An eye that cannot close dries and the cornea can ulcerate
+g: Incomplete eye closure in Bell's palsy: lubricants and taping at night
+f: vesicles in the ear => Oral aciclovir
+
+@h0163
+c: a week after a cold | Her hearing is normal | corrective saccade | no skew deviation
+m: Viral inflammation of the vestibular nerve cuts input from one side
+g: Viral onset, normal hearing and an abnormal head impulse is vestibular neuronitis
+f: the same picture with hearing loss => Labyrinthitis
+f: brief attacks on turning in bed => BPPV
+f: vertical nystagmus with a normal head impulse => Posterior circulation stroke
+
+@h0164
+c: atrial fibrillation | central
+m: Vertical nystagmus comes from the brainstem or cerebellum, not the inner ear
+g: Vertical nystagmus suggests a central cause
+
+@h0165
+c: cannot keep fluids down | short course
+m: A vestibular sedative eases vomiting but slows compensation if kept going
+g: Acute vestibular neuronitis: a short course of prochlorperazine
+f: preventing attacks in Ménière's disease => Betahistine
+
+@h0166
+c: not had any childhood immunisations | drooling | sitting forward | looks toxic
+m: Hib infection swells the epiglottis; upsetting the child can close the airway
+g: Suspected epiglottitis: leave her calm and call anaesthetics and ENT
+f: a barking cough and mild stridor with no drooling => Oral dexamethasone dose
+
+@h0167
+c: cannot swallow his saliva | muffled | look almost normal | level of the hyoid
+m: Swelling above the cords is hidden from view in the mouth
+g: Severe throat pain with drooling and a normal-looking throat is supraglottitis
+f: a swollen soft palate with the uvula pushed to one side => Peritonsillar abscess
+f: exudative tonsils with a palpable spleen => Glandular fever
+
+@h0168
+c: muffled voice | lateral soft tissue neck X-ray
+m: A swollen epiglottis looks like a thumb on a lateral view
+g: Supraglottitis on lateral X-ray: thumb sign
+f: croup on a frontal X-ray => Steeple sign
+
+@h0169
+c: pinching the soft part of his nose for 15 minutes | bleeding vessel on the anterior septum
+m: A visible anterior vessel can be sealed chemically
+g: Pressure failed and a bleeding point is seen: silver nitrate cautery
+
+@h0170
+c: picks his nose | Little's area | no active bleeding | no allergies to peanut or soya
+m: Crusting from picking keeps Little's area bleeding; antiseptic cream lets it heal
+g: Recurrent minor bleeds from Little's area in a child: Naseptin cream
+f: brisk bleeding that pressure cannot stop and no visible point => Nasal packing

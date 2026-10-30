@@ -1,0 +1,112 @@
+@h1551
+c: moderate dose for 12 weeks with no benefit | takes it every day | no side effects
+m: OCD often needs higher SSRI doses for longer than depression
+g: Partial OCD response with good adherence and tolerance: increase the sertraline dose
+f: two SSRIs have failed => Switch to amitriptyline
+
+@h1552
+c: pain in many places, bloating, palpitations and dizziness for 8 years | distressed by the symptoms themselves
+m: Distress centres on many physical symptoms across systems, not a feared disease
+g: Many unexplained symptoms across systems for years is somatisation disorder
+f: few symptoms with a fixed fear of having cancer => Hypochondriasis
+f: one neurological symptom such as limb weakness after stress => Conversion disorder
+
+@h1553
+c: nurse | does not have diabetes | Insulin 410 | C-peptide under 50
+m: Injected insulin has no C-peptide, so endogenous secretion is suppressed
+g: High insulin with suppressed C-peptide during hypoglycaemia is injected insulin
+f: high insulin with a high C-peptide and a negative drug screen => Insulinoma
+
+@h1554
+c: somatisation disorder | many normal scans | another scan
+m: Repeated tests reinforce illness focus and give only brief reassurance
+g: Somatisation: regular planned GP appointments with one clinician
+
+@h1555
+c: takes sertraline | started tramadol | agitated and sweating | pupils are dilated | clonus in both legs
+m: Excess serotonin causes autonomic, neuromuscular and mental changes within hours
+g: Rapid onset after adding a serotonergic drug with clonus is serotonin syndrome
+f: days of lead-pipe rigidity with slow reflexes on haloperidol => Neuroleptic malignant syndrome
+
+@h1556
+c: suspected serotonin syndrome | clonus in both legs | Creatine kinase 640
+m: Muscle activity from clonus mildly raises CK
+g: Serotonin syndrome is clinical: a mild CK rise with clonus fits
+
+@h1557
+c: informal patient | tries to leave at night | Only a nurse with the right qualification is present
+m: A qualified nurse can hold an informal inpatient until a doctor arrives
+g: Informal inpatient leaving with only a qualified nurse present: section 5.4, up to 6 hours
+f: the doctor in charge is present => Section 5.2
+
+@h1558
+c: stopped speaking, eating and moving | odd postures | resists being moved | no rigidity
+m: Catatonia is a motor syndrome of mutism, stupor, posturing and negativism
+g: Mutism, stupor and posturing with normal observations is catatonia
+f: fever, rigidity and a high CK after an antipsychotic => Neuroleptic malignant syndrome
+
+@h1559
+c: recently started on an antipsychotic | Temperature 39.4°C | Creatine kinase 18,400
+m: Dopamine blockade causes fever, autonomic instability and muscle breakdown
+g: Fever with a very high CK most suggests NMS over catatonia
+
+@h1560
+c: not improved after 5 days of lorazepam | not drinking | Creatinine has risen
+m: ECT works quickly in catatonia when benzodiazepines fail
+g: Catatonia not responding to lorazepam with physical deterioration: ECT
+
+@h1561
+c: rarely responds to his name | does not point | lines up his cars | upset with any change in routine | hearing test is normal
+m: Autism combines social communication difficulties with restricted repetitive behaviour
+g: Poor joint attention with rigid routines is autism spectrum disorder
+f: good eye contact and pointing with only a few words => Speech and language delay
+
+@h1562
+c: possible autism | delayed speech
+m: Hearing loss can mimic poor social response and speech delay
+g: Possible autism: formal hearing test as part of assessment
+
+@h1563
+c: does not speak | started hitting his head and refusing food | 37.6°C
+m: People who cannot speak show pain or illness through behaviour
+g: New behaviour change in a non-verbal autistic child: look for pain or physical illness first
+
+@h1564
+c: since being made redundant 4 weeks ago | sleeps and eats normally | enjoys time with his children
+m: A distress reaction to a stressor that does not meet criteria for depression
+g: Low, worried mood within a month of a stressor without depression criteria is adjustment disorder
+f: early waking, poor appetite and loss of interest for 3 weeks => Moderate depression
+
+@h1565
+c: adjustment disorder | PHQ-9
+m: Adjustment disorder usually causes mild symptoms
+g: Adjustment disorder fits a mild PHQ-9 of about 8
+f: a severe depressive episode => 22
+
+@h1566
+c: adjustment disorder after redundancy | asks for help
+m: Symptoms usually settle as the person adapts to the stressor
+g: Adjustment disorder: support and problem-solving
+
+@h1567
+c: cannot sit still | interrupts constantly | loses things | at home and at school for 2 years
+m: Inattention, hyperactivity and impulsivity across settings define ADHD
+g: Persistent inattention and hyperactivity in two settings is ADHD
+f: he steals and is cruel to animals => Conduct disorder
+
+@h1568
+c: starting methylphenidate
+m: Stimulants reduce appetite and growth and raise heart rate and BP
+g: Before stimulants: height, weight, pulse and BP
+
+@h1569
+c: seizure last year | uses cannabis daily
+m: Stimulants can be misused and may affect seizure control
+g: ADHD with substance misuse and seizures: specialist review before a stimulant
+f: no risk factors => Start lisdexamfetamine this week
+
+@h1570
+c: stolen from shops | set a fire | hurt the family cat | stays out all night
+m: Repeated serious violation of rules and others' rights define conduct disorder
+g: Theft, fire-setting and cruelty to animals is conduct disorder
+f: angry and defiant at home without harming others => Oppositional defiant disorder

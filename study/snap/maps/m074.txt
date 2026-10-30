@@ -1,0 +1,119 @@
+@h0991
+c: HbA1c of 50 | no thirst, polyuria or weight loss
+m: Without symptoms, one raised HbA1c needs confirming before a lifelong diagnosis
+g: Asymptomatic HbA1c of 48 or more: repeat the HbA1c to confirm
+f: thirst, polyuria and weight loss with the same result => Diagnose type 2 diabetes now
+f: an HbA1c of 44 => Diagnose non-diabetic hyperglycaemia
+
+@h0992
+c: myocardial infarction 2 years ago | no heart failure
+m: SGLT2 inhibitors reduce cardiovascular events in established disease
+g: Type 2 diabetes with established cardiovascular disease: add dapagliflozin
+
+@h0993
+c: mother and grandmother | in their 20s | BMI 21 | autoantibodies are negative | C-peptide is normal
+m: A single-gene defect in beta cells passes down each generation
+g: Young-onset diabetes in every generation, slim, antibody-negative with normal C-peptide is MODY
+f: positive GAD antibodies in a slim 40 year old failing on tablets => Latent autoimmune diabetes in adults
+f: positive antibodies with a low C-peptide in a teenager => Type 1 diabetes
+
+@h0994
+c: BP 86/54 | pH 7.08 | Blood ketones 5.8
+m: Restoring circulating volume comes before insulin
+g: DKA with systolic under 90: IV 0.9% saline bolus first
+
+@h0995
+c: passing urine | Potassium 4.2
+m: Insulin drives potassium into cells
+g: Potassium 3.5 to 5.5 in DKA: 40 mmol in the next litre
+f: potassium of 5.8 => None
+
+@h0996
+c: Glucose 12 | ketones 2.1 | pH 7.28
+m: Insulin is there to clear ketones; glucose prevents hypoglycaemia
+g: Glucose under 14 with ketones still raised: add 10% glucose and continue the fixed-rate insulin
+f: ketones under 0.6, pH normal and eating => Give subcutaneous insulin and stop the infusion
+
+@h0997
+c: Glucose 48 | osmolality 345 | ketones 0.6 | pH 7.34
+m: Enough insulin to stop ketosis but not hyperglycaemia leads to extreme dehydration
+g: Very high glucose and osmolality without acidosis is hyperosmolar hyperglycaemic state
+f: ketones of 5 with a pH of 7.1 => Diabetic ketoacidosis
+f: ketoacidosis with a glucose under 14 on an SGLT2 inhibitor => Euglycaemic ketoacidosis
+
+@h0998
+c: Sodium 150 | Glucose 40 | Urea 20
+m: Osmolality is twice the sodium plus glucose plus urea
+g: 300 plus 40 plus 20 is 360
+f: a sodium of 140 with the same glucose and urea => 340 mOsm/kg
+
+@h0999
+c: falling by 5 mmol/L per hour | ketones 0.4
+m: Fluids alone lower glucose in HHS; early insulin drops it too fast
+g: HHS with glucose falling on fluids: continue IV fluids without insulin
+
+@h1000
+c: alert and can swallow safely | 2.8
+m: Fast-acting sugar raises glucose within minutes
+g: Conscious hypoglycaemia: a glass of fruit juice
+f: unconscious with no IV access => IM glucagon 1 mg
+
+@h1001
+c: gliclazide 80 mg twice daily | eaten little | eGFR 38
+m: Sulfonylurea hypoglycaemia lasts long and recurs, especially with kidney impairment
+g: Sulfonylurea hypoglycaemia: admit for glucose monitoring
+
+@h1002
+c: basal-bolus insulin | drives
+m: DVLA advice is five to drive
+g: Minimum glucose before driving: 5 mmol/L
+
+@h1003
+c: Albumin to creatinine ratio 8 mg/mmol on two samples | BP 132/80
+m: ACE inhibitors reduce albuminuria and slow kidney damage in diabetes
+g: Diabetes with ACR of 3 or more: start an ACE inhibitor
+f: ACR under 3 with blood pressure at target => No change
+
+@h1004
+c: burning pain in both feet | no heart disease or glaucoma
+m: Duloxetine boosts descending pain inhibition
+g: Painful diabetic neuropathy: duloxetine
+f: electric-shock pains in one side of the face => Carbamazepine
+
+@h1005
+c: 3°C warmer | no ulcer | X-ray of the foot is normal | CRP 6
+m: A numb foot breaks down its own bones and joints; early X-rays can be normal
+g: A hot swollen neuropathic foot with no ulcer and normal inflammation is Charcot neuroarthropathy
+f: an ulcer that can be probed down to bone => Osteomyelitis
+f: a hot red big toe joint => Gout
+
+@h1006
+c: bruit | Both eyes protrude | thickened, raised skin on her shins
+m: TSH receptor antibodies stimulate the thyroid, orbit and shin skin
+g: Hyperthyroidism with eye disease and pretibial myxoedema is Graves' disease
+f: a tender neck after a viral illness => De Quervain's thyroiditis
+f: a single hot nodule on a scan => Toxic adenoma
+
+@h1007
+c: carbimazole 6 weeks ago | sore throat
+m: Carbimazole can cause agranulocytosis
+g: Sore throat with fever on carbimazole: stop it and check a blood count
+
+@h1008
+c: poorly controlled Graves' disease | emergency appendicectomy | Temperature 40°C | atrial fibrillation
+m: Surgery tips uncontrolled hyperthyroidism into a crisis
+g: Fever, AF and agitation after surgery in poorly controlled Graves' is thyroid storm
+f: rigidity and rising CO2 during a volatile anaesthetic => Malignant hyperthermia
+f: a red discharging wound => Sepsis from the wound
+
+@h1009
+c: ischaemic heart disease | 78 year old man | TSH 18
+m: Starting full-dose thyroxine raises heart work and can trigger angina
+g: Hypothyroidism with heart disease: levothyroxine 25 micrograms daily
+f: a fit 35 year old => Levothyroxine 100 micrograms daily
+
+@h1010
+c: no symptoms | TSH 7.2 | Free T4 14
+m: A mildly raised TSH often settles on retesting
+g: Subclinical hypothyroidism: repeat TSH and free T4 in 3 months
+f: TSH over 10 on two readings => Start levothyroxine

@@ -1,0 +1,119 @@
+@h0931
+c: eGFR 25 | negatively birefringent needle-shaped crystals
+m: Colchicine builds up and NSAIDs harm the kidney in severe CKD
+g: Gout flare with severe CKD: oral prednisolone
+f: normal kidney function => Ibuprofen
+
+@h0932
+c: allopurinol for recurrent gout for a year | flare
+m: Stopping and restarting allopurinol shifts urate and provokes more flares
+g: Flare on allopurinol: continue it and treat the flare
+
+@h0933
+c: no tophi
+m: Keeping urate low dissolves crystals and prevents flares
+g: Target serum urate: under 360 µmol/L
+
+@h0934
+c: suspected pelvic fracture | bleeding heavily
+m: Tranexamic acid stops clot breakdown; given late it may harm
+g: Major trauma bleeding: tranexamic acid within 3 hours
+
+@h0935
+c: does not want hormonal treatment | does not want contraception | normal uterus
+m: Tranexamic acid reduces menstrual blood loss without hormones
+g: Heavy periods without wanting hormones or contraception: tranexamic acid
+
+@h0936
+c: which situations tranexamic acid helps
+m: In GI bleeding tranexamic acid did not cut deaths and raised clot risk
+g: Tranexamic acid does not improve outcome in upper GI bleeding
+
+@h0937
+c: grown over 3 months | regular outline | irregular colour | does not itch, ooze or bleed
+m: Major features score 2 each; minor features score 1
+g: Change in size plus irregular colour scores 4
+f: the only feature is a change in size => 2
+f: change in size, irregular shape and irregular colour => 6
+
+@h0938
+c: melanoma excised
+m: The deeper the tumour invades, the more likely it has spread
+g: Breslow thickness is the most important prognostic feature
+
+@h0939
+c: Black African family origin | widened | spread onto the nail fold
+m: Acral melanoma grows under the nail and spreads onto the fold
+g: A widening nail band with pigment on the fold is subungual melanoma
+f: a purple patch after crushing the toe that grows out => Subungual haematoma
+f: a stable thin even band in darker skin => Benign longitudinal melanonychia
+
+@h0940
+c: slowly growing | farmer | pearly, rolled edge | no palpable lymph nodes
+m: BCC grows slowly on sun-exposed skin with a pearly rolled edge
+g: A slowly growing pearly nodule with a rolled edge on the face is BCC
+f: a keratin-filled crater that grew over 6 weeks => Keratoacanthoma
+f: a stuck-on waxy warty lesion => Seborrhoeic keratosis
+
+@h0941
+c: back | not immunosuppressed
+m: BCC grows slowly and rarely spreads
+g: A typical BCC away from critical sites: routine referral
+f: a BCC near the eye where delay could cause harm => Suspected cancer pathway within 2 weeks
+
+@h0942
+c: side of the nose | come back | poorly defined edges
+m: Mohs surgery checks every margin while sparing tissue
+g: A recurrent ill-defined BCC on the face: Mohs micrographic surgery
+f: a superficial BCC on the trunk => Imiquimod cream
+
+@h0943
+c: bald | golf | easier to feel than to see | no nodules or ulcers
+m: Chronic sun exposure causes rough scaly keratoses on bald scalps
+g: Rough scaly patches on a sun-exposed scalp are actinic keratoses
+f: a well-defined red scaly plaque on an older woman's leg => Bowen's disease
+f: a growing tender keratotic nodule => Squamous cell carcinoma
+
+@h0944
+c: kidney transplant | tender | crusted, keratotic nodule
+m: Immunosuppression multiplies the risk of squamous cell carcinoma
+g: A growing tender keratotic nodule in a transplant patient is SCC
+f: a pearly edge with telangiectasia => Basal cell carcinoma
+f: a crater that grew over 6 weeks => Keratoacanthoma
+
+@h0945
+c: 5-fluorouracil cream | no fever | limited to the treated areas
+m: Fluorouracil works by inflaming and destroying abnormal cells
+g: Redness limited to the treated area is expected: continue the course
+f: spreading redness beyond the area with fever => Start oral flucloxacillin
+
+@h0946
+c: sore throat 2 weeks ago | tender, warm, red-purple nodules on both shins | Chest X-ray is normal
+m: Inflammation of the fat under the skin follows Strep and other triggers
+g: Tender shin nodules after a strep throat is erythema nodosum
+f: target lesions after a cold sore => Erythema multiforme
+f: an expanding ulcer with a purple undermined edge => Pyoderma gangrenosum
+
+@h0947
+c: velvety, dark, thickened skin | BMI 36 | HbA1c 44
+m: High insulin stimulates skin cell growth in the flexures
+g: Acanthosis nigricans with obesity: insulin resistance
+
+@h0948
+c: type 1 diabetes | shiny, yellow-brown plaques | waxy centre
+m: Collagen degeneration in diabetes leaves waxy atrophic shin plaques
+g: Shiny yellow waxy shin plaques in diabetes is necrobiosis lipoidica
+f: orange-peel shin plaques in Graves' disease => Pretibial myxoedema
+f: tender red shin nodules => Erythema nodosum
+
+@h0949
+c: come and go within hours | not swollen | BP 124/78
+m: Histamine drives wheals; a non-sedating antihistamine blocks it
+g: Acute urticaria without anaphylaxis: cetirizine
+f: lip swelling, wheeze and low blood pressure => Adrenaline
+
+@h0950
+c: 3 months | cetirizine 10 mg daily throughout
+m: Chronic urticaria often needs higher antihistamine doses
+g: Chronic urticaria on a standard dose: up to 4 times the cetirizine dose
+f: still uncontrolled on 4 times the dose => Start omalizumab injections

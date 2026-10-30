@@ -1,0 +1,128 @@
+@h0431
+c: first marathon yesterday | dark brown | Creatine kinase 50,000 | no red cells on microscopy
+m: Broken-down muscle releases myoglobin, which reads as blood on dipstick and harms the kidney
+g: Very high CK with myoglobinuria after extreme exercise is rhabdomyolysis
+f: lifelong exercise cramps with a second wind => McArdle disease
+f: muscle aches on a statin with a mildly raised CK => Statin myopathy
+f: a heliotrope rash and Gottron's papules => Dermatomyositis
+
+@h0432
+c: difficulty letting go after shaking hands | father had cataracts at 40 and needed a pacemaker | frontal balding | slow release of grip
+m: A CTG repeat expansion causes myotonia, distal weakness, cataracts and conduction disease
+g: Myotonia with ptosis, balding, cataracts and a family pacemaker is myotonic dystrophy
+f: a boy with calf hypertrophy and Gowers' sign => Duchenne muscular dystrophy
+f: facial and shoulder weakness with winged scapulae => Facioscapulohumeral dystrophy
+
+@h0433
+c: leans on his elbows | little finger and half of his ring finger | first dorsal interosseous | Tinel's test is positive at the elbow
+m: Pressure on the ulnar nerve at the elbow affects the little finger and small hand muscles
+g: Ulnar sensory loss with weak interossei and Tinel's at the elbow is the ulnar nerve
+f: numb thumb and index finger at night with thenar wasting => Median
+f: wrist drop after a humeral shaft fracture => Radial
+
+@h0434
+c: midshaft of his right humerus | cannot extend his wrist or fingers | between the thumb and index finger
+m: The radial nerve winds round the humerus in the spiral groove
+g: Wrist drop after a humeral shaft fracture is the radial nerve
+f: a surgical neck fracture with numbness over the deltoid => Axillary
+f: weak elbow flexion with a numb lateral forearm => Musculocutaneous
+
+@h0435
+c: Night splints and a steroid injection have not helped | wasting of the right thenar eminence | severe median nerve compression
+m: Wasting means axonal loss, which only surgery can stop
+g: Carpal tunnel with wasting or failed conservative care: surgical decompression
+f: mild symptoms only at night => Wrist splint at night
+
+@h0436
+c: 5 months | no hallucinations | works full time
+m: A single fixed false belief can exist with otherwise normal function
+g: One fixed delusion for over 3 months with normal function is delusional disorder
+f: third-person voices and thought broadcasting => Schizophrenia
+f: lifelong suspiciousness without a fixed delusion => Paranoid personality disorder
+
+@h0437
+c: removing thoughts from his head
+m: First-rank symptoms involve thoughts controlled by outside agents
+g: Thoughts being taken out of the head is thought withdrawal
+f: someone is putting thoughts into his head => Thought insertion
+f: others can hear his thoughts => Thought broadcast
+f: his thoughts suddenly stop with no outside explanation => Thought block
+
+@h0438
+c: developed sudden persecutory delusions | does not use drugs | lasted 3 weeks and resolved completely
+m: Sudden stress-linked psychosis can resolve fully within weeks
+g: Sudden psychosis that resolves within 3 months is acute and transient psychotic disorder
+f: psychosis after heavy cannabis use => Cannabis-induced psychotic disorder
+f: one fixed delusion for over 3 months => Delusional disorder
+
+@h0439
+c: started haloperidol 5 days ago | lead-pipe rigidity | no clonus | Creatine kinase 18,000
+m: Dopamine blockade disturbs temperature control and muscle tone
+g: Fever, lead-pipe rigidity and high CK days after an antipsychotic is NMS
+f: clonus and brisk reflexes after adding tramadol to sertraline => Serotonin syndrome
+f: rigidity and fever during a general anaesthetic => Malignant hyperthermia
+
+@h0440
+c: risperidone and olanzapine, each at full dose for 8 weeks
+m: Clozapine is the only drug proven in treatment-resistant schizophrenia
+g: Two adequate antipsychotic trials failed: clozapine
+f: he does not take tablets reliably => Haloperidol depot
+
+@h0441
+c: clozapine for 4 months | sore throat and fever
+m: Clozapine can cause agranulocytosis
+g: Infection on clozapine: urgent full blood count
+f: chest pain and a fast pulse in the first weeks => Troponin
+
+@h0442
+c: PHQ-9 score is 8 | no thoughts of self-harm
+m: PHQ-9 bands depression by score
+g: PHQ-9 of 5 to 9 is mild
+f: a score of 12 => Moderate
+f: a score of 17 => Moderately severe
+f: a score of 22 => Severe
+
+@h0443
+c: aspirin 75 mg daily | starting sertraline
+m: SSRIs reduce platelet serotonin, adding to aspirin's bleeding risk
+g: SSRI with aspirin in an older person: add omeprazole
+
+@h0444
+c: plan to hang himself at the weekend | given away his possessions | written letters
+m: A specific plan with final acts shows very high immediate risk
+g: A clear plan with preparation: same-day crisis team assessment
+
+@h0445
+c: 5 days | still working and managing her finances | no delusions or hallucinations
+m: Hypomania raises mood and energy without severe impairment or psychosis
+g: Elevated mood over 4 days without severe impairment or psychosis is hypomania
+f: a week or more with severe impairment or psychosis => Mania
+
+@h0446
+c: stable for over a year | 0.6 mmol/L
+m: Lithium has a narrow range; checks space out once stable
+g: Stable lithium: levels every 3 months
+
+@h0447
+c: sodium valproate | try for a baby
+m: Valproate causes birth defects and developmental harm
+g: Valproate in a woman planning pregnancy: switch to an antipsychotic
+
+@h0448
+c: out of the blue | peak within 10 minutes | avoids going out alone | Thyroid function and ECG are normal
+m: Sudden surges of fear lead to worry about more attacks
+g: Recurrent unexpected panic attacks with fear of more is panic disorder
+f: constant worry about many things for 6 months => Generalised anxiety disorder
+f: fear only in social situations => Social anxiety disorder
+
+@h0449
+c: GAD-7 score is 17
+m: GAD-7 bands anxiety by score
+g: GAD-7 of 15 or more is severe
+f: a score of 7 => Mild
+f: a score of 12 => Moderate
+
+@h0450
+c: sertraline and then venlafaxine
+m: Pregabalin is the next step after an SSRI and an SNRI
+g: GAD after an SSRI and an SNRI: pregabalin

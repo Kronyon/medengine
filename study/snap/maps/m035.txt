@@ -1,0 +1,121 @@
+@h0211
+c: back stiffness in the mornings | improves with exercise | small and irregular
+m: HLA-B27 inflammation affects the iris, which sticks to the lens and constricts
+g: A painful red eye with a small irregular pupil and inflammatory back pain is anterior uveitis
+f: a mid-dilated pupil with haloes => Acute angle-closure glaucoma
+f: a painless sectoral red patch => Episcleritis
+f: severe boring pain that wakes her at night => Scleritis
+
+@h0212
+c: cells and flare | Intraocular pressure is normal
+m: Steroids calm the inflammation; dilating drops ease spasm and stop the iris sticking
+g: Anterior uveitis: steroid and dilating drops
+f: acute angle closure with raised pressure => Pilocarpine drops
+
+@h0213
+c: oligoarticular | antinuclear antibody is positive | no eye symptoms
+m: JIA uveitis is often silent until it damages vision
+g: ANA-positive oligoarticular JIA: regular slit-lamp checks
+
+@h0214
+c: mildly sore | move over the sclera | fades after phenylephrine
+m: Superficial episcleral vessels move and blanch; deep scleral ones do not
+g: Mild sectoral redness that moves and blanches is episcleritis
+f: severe pain at night with a bluish tinge => Scleritis
+
+@h0215
+c: wakes her at night | scleritis
+m: Scleritis is an inflammatory disease of the eye wall linked with systemic autoimmunity
+g: Scleritis is most often linked with rheumatoid arthritis
+
+@h0216
+c: non-necrotising anterior scleritis | no history of peptic ulcer
+m: Systemic anti-inflammatories reach the sclera; drops do not
+g: Non-necrotising scleritis: oral NSAID first
+
+@h0217
+c: fixed, mid-dilated pupil | 58 mmHg | no asthma or sulfonamide allergy
+m: Acetazolamide cuts fluid production and pilocarpine pulls the iris off the angle
+g: Acute angle closure: pilocarpine and acetazolamide
+f: chronic open-angle glaucoma => Latanoprost with timolol drops
+
+@h0218
+c: latanoprost
+m: Prostaglandin drops increase melanin in the iris
+g: Latanoprost can darken the iris
+f: timolol drops in an asthmatic => Bronchospasm
+f: timolol drops with heart block => Bradycardia
+
+@h0219
+c: 28 mmHg | optic discs look healthy | Visual fields and central corneal thickness are normal
+m: Pressure can be high without damaging the optic nerve
+g: Raised pressure with healthy discs and fields is ocular hypertension
+f: cupped discs with a normal pressure => Normal tension glaucoma
+f: raised pressure with cupped discs and field loss => Open-angle glaucoma
+
+@h0220
+c: scratch from her cat | Eye movements are full and painless | no proptosis | 6/6
+m: Infection in front of the orbital septum spares the eye and its muscles
+g: Swollen lid with full painless movements, normal vision and no proptosis is periorbital cellulitis
+f: painful eye movements and proptosis => Orbital cellulitis
+f: a painless lid lump without redness => Chalazion
+
+@h0221
+c: after a cold | pain on moving the eye | proptosis and reduced eye movement
+m: Sinus infection spreads behind the septum; CT shows abscesses and spread
+g: Suspected orbital cellulitis: CT orbit and sinuses
+
+@h0222
+c: right eye has also become swollen | Both eyes are proptosed | drowsy
+m: Infection spreads through valveless orbital veins to the cavernous sinus, which links both sides
+g: Spread to the other eye with ophthalmoplegia is cavernous sinus thrombosis
+f: fever with neck stiffness and no eye spread => Bacterial meningitis
+
+@h0223
+c: dark shadow spreading | flashing lights and many new floaters | short-sighted | superior field defect
+m: The vitreous pulls a tear in the retina and fluid lifts it off
+g: Flashes and floaters then a shadow is retinal detachment
+f: sudden painless loss with a cherry red spot => Central retinal artery occlusion
+f: sudden floaters blocking vision in a diabetic => Vitreous haemorrhage
+f: distorted central vision over days in an older person => Wet macular degeneration
+
+@h0224
+c: Her central vision is still good | does not involve the macula
+m: Once the macula detaches, central vision may not recover
+g: Macula-on detachment: surgery within 24 hours
+
+@h0225
+c: risk of retinal detachment
+m: Long myopic eyes have thin, stretched retinas
+g: Short-sighted people are most at risk
+
+@h0226
+c: 70 year old man with hypertension | all four quadrants | dilated tortuous veins
+m: A blocked central vein backs up blood, so all four quadrants bleed
+g: Haemorrhages in all four quadrants with dilated veins is central retinal vein occlusion
+f: a pale retina with a cherry-red spot => Central retinal artery occlusion
+f: sudden loss with a pale swollen disc in a patient with jaw pain => Ischaemic optic neuropathy
+
+@h0227
+c: jaw when chewing | temporal artery is thickened and tender | ESR 92
+m: GCA blocks the arteries to the optic nerve and can blind the other eye within days
+g: Suspected GCA with vision loss: high-dose steroids today
+
+@h0228
+c: like a curtain coming down | lasted 5 minutes | bruit over the left carotid artery
+m: An embolus from the carotid briefly blocks the retinal artery
+g: A brief curtain of vision loss with a carotid bruit is amaurosis fugax
+f: pain on eye movement and reduced colour vision => Optic neuritis
+f: flashing zigzag lines then a headache => Migraine
+
+@h0229
+c: cataract surgery on his right eye 3 days ago | fluid level of pus
+m: Bacteria enter during surgery and infect the inside of the eye
+g: A painful red eye with hypopyon days after surgery is endophthalmitis
+f: gradual blurring months later with a white eye => Posterior capsule opacification
+
+@h0230
+c: a year ago | gradually become blurred | glare from headlights | hazy membrane behind the lens implant
+m: Leftover lens cells grow over the capsule behind the implant
+g: Gradual blur months after cataract surgery with a hazy capsule is capsule opacification
+f: a sudden shadow with floaters => Retinal detachment

@@ -1,0 +1,115 @@
+@h0831
+c: 84 year old woman | mild cognitive impairment | Bladder training for 6 weeks has not helped
+m: Antimuscarinics like oxybutynin worsen cognition in frail older people
+g: Overactive bladder in a frail older woman: mirabegron
+f: stress incontinence after failed pelvic floor training => Duloxetine
+
+@h0832
+c: sildenafil
+m: PDE5 inhibitors dilate blood vessels in the head and skin
+g: Sildenafil typically causes headache and flushing
+f: an ACE inhibitor => Dry cough
+
+@h0833
+c: how long before sex
+m: Sildenafil works after about an hour and lasts about 4 hours
+g: Take sildenafil about 1 hour before sex
+
+@h0834
+c: smokes | occasionally | BMI 31 | BP 152/94
+m: Erectile dysfunction is often an early sign of vascular disease
+g: Erectile dysfunction in a smoker with risk factors: cardiovascular risk assessment
+f: sudden onset with normal morning erections => Psychosexual counselling
+
+@h0835
+c: abiraterone
+m: Abiraterone blocks CYP17, cutting cortisol as well as androgens
+g: Give prednisolone with abiraterone
+f: starting goserelin => Bicalutamide
+
+@h0836
+c: GnRH agonist | hot flushes
+m: Androgen deprivation causes hot flushes; cyproterone reduces them
+g: Hot flushes on androgen deprivation: cyproterone acetate
+
+@h0837
+c: androgen deprivation therapy for prostate cancer for 2 years
+m: Low testosterone thins bone
+g: Long-term androgen deprivation: screen for osteoporosis
+
+@h0838
+c: tamoxifen | periods stopped 2 years ago | vaginal bleeding
+m: Tamoxifen acts like oestrogen on the endometrium, raising cancer risk
+g: Postmenopausal bleeding on tamoxifen: urgent endometrial assessment
+
+@h0839
+c: HER2-positive | anthracycline
+m: Trastuzumab can weaken the heart, especially after anthracyclines
+g: Trastuzumab: echocardiogram before and during treatment
+f: on anastrozole instead => Bone density scan
+
+@h0840
+c: letrozole | no joint swelling | CRP 4 | no metastases
+m: Oestrogen deprivation causes joint aches and stiffness
+g: Joint aches on an aromatase inhibitor with normal tests is aromatase inhibitor arthralgia
+f: pain in one bone at night with a raised ALP => Bone metastases
+f: shoulder and hip girdle stiffness with a high ESR => Polymyalgia rheumatica
+
+@h0841
+c: chemotherapy | 9 days ago | 38.3°C | not yet available
+m: Neutropenic sepsis can kill within hours, so antibiotics cannot wait for the count
+g: Suspected neutropenic sepsis: IV piperacillin with tazobactam within an hour
+
+@h0842
+c: cyclophosphamide | blood in his urine | no infection
+m: Acrolein from cyclophosphamide damages the bladder; mesna binds it
+g: Cyclophosphamide haemorrhagic cystitis: mesna
+f: preventing tumour lysis => Allopurinol
+f: methotrexate toxicity => Folinic acid
+
+@h0843
+c: bulky | started chemotherapy yesterday | Potassium 6.4 | Phosphate 2.4 | Adjusted calcium 1.86
+m: Rapid tumour cell death releases potassium, phosphate and urate
+g: High potassium, phosphate and urate with low calcium after chemotherapy is tumour lysis syndrome
+f: high calcium with confusion and no recent chemotherapy => Hypercalcaemia of malignancy
+f: a very high CK after a crush injury => Rhabdomyolysis
+
+@h0844
+c: pembrolizumab | 7 loose stools | C. difficile toxin are negative
+m: Checkpoint inhibitors unleash T cells that can attack the colon
+g: Diarrhoea on a checkpoint inhibitor with negative stool tests is immune-related colitis
+f: a positive toxin after antibiotics => C. difficile
+
+@h0845
+c: rituximab
+m: Rituximab removes B cells and can reactivate hepatitis B
+g: Before rituximab: screen for hepatitis B
+
+@h0846
+c: bevacizumab | normal before treatment | protein 1+
+m: Anti-VEGF drugs commonly cause hypertension and proteinuria
+g: New hypertension and proteinuria on bevacizumab is a drug effect
+f: an abdominal bruit with a creatinine rise on an ACE inhibitor => Renal artery stenosis
+
+@h0847
+c: gum hypertrophy | coarse facial features | nystagmus
+m: Long-term phenytoin causes gum hypertrophy, hirsutism and cerebellar toxicity
+g: Gum hypertrophy, hirsutism and ataxia: phenytoin
+f: weight gain, tremor and hair loss => Valproate
+
+@h0848
+c: carbamazepine | euvolaemic | Sodium 124 | urine osmolality is high
+m: Carbamazepine enhances ADH action
+g: Euvolaemic hyponatraemia with concentrated urine on carbamazepine is SIADH
+f: transient confusion just after a seizure => Post-ictal confusion
+
+@h0849
+c: sodium valproate | sexually active | does not want children
+m: Valproate is highly teratogenic
+g: Valproate in a woman who could become pregnant: pregnancy prevention programme
+
+@h0850
+c: lorazepam 2 mg daily for 2 years | wants to stop
+m: A long-acting benzodiazepine gives a smoother withdrawal
+g: Stopping a long-term benzodiazepine: switch to diazepam and taper
+f: she has only taken it for a week => Stop it today

@@ -1,0 +1,117 @@
+@h1011
+c: positive pregnancy test | levothyroxine 100 micrograms
+m: Thyroxine needs rise early in pregnancy and the fetal brain depends on it
+g: Pregnancy on levothyroxine: increase the dose now
+
+@h1012
+c: 29 year old woman | ground-glass | nuclear grooves
+m: Papillary cancer has empty-looking nuclei and spreads to neck nodes
+g: Ground-glass nuclei with grooves in a young woman is papillary carcinoma
+f: a rapidly growing hard mass with stridor in an 80 year old => Anaplastic carcinoma
+f: a high calcitonin with MEN 2 => Medullary carcinoma
+
+@h1013
+c: medullary thyroid carcinoma
+m: Medullary cancer comes from C cells, which make calcitonin
+g: Medullary carcinoma follow-up: calcitonin
+f: follow-up after papillary cancer => Thyroglobulin
+
+@h1014
+c: 4 hours ago | rapidly expanding swelling under the wound | stridor
+m: A haematoma under the strap muscles compresses the airway
+g: Neck haematoma with stridor: open the wound at the bedside
+f: tingling lips and a positive Chvostek sign on day 1 => IV calcium gluconate
+
+@h1015
+c: right ear only | right-sided sensorineural loss
+m: One-sided sensorineural loss can be a vestibular schwannoma
+g: Asymmetric sensorineural loss: MRI of the internal acoustic meatus
+
+@h1016
+c: vestibular schwannoma
+m: The tumour grows into the cerebellopontine angle and presses on the trigeminal nerve
+g: A reduced corneal reflex tends to appear first
+
+@h1017
+c: both ears | cataracts removed in his teens | bilateral vestibular schwannomas
+m: A chromosome 22 gene loss causes schwannomas, meningiomas and early cataracts
+g: Bilateral vestibular schwannomas define neurofibromatosis type 2
+f: café-au-lait spots with axillary freckles => Neurofibromatosis type 1
+f: haemangioblastomas with renal cysts => Von Hippel-Lindau syndrome
+
+@h1018
+c: woke this morning | Sounds are too loud | including the forehead | no vesicles
+m: Swelling of the facial nerve in its canal causes a sudden lower motor neurone palsy
+g: Sudden facial palsy including the forehead with hyperacusis and no vesicles is Bell's palsy
+f: vesicles in the ear canal with ear pain => Ramsay Hunt syndrome
+f: the forehead is spared and the arm is weak => Stroke
+
+@h1019
+c: 36 hours ago | cannot close his right eye fully
+m: Steroids within 72 hours reduce nerve swelling and improve recovery
+g: Bell's palsy within 72 hours: prednisolone, plus eye care
+
+@h1020
+c: painful left ear | vesicles in the left ear canal | including the forehead
+m: Zoster reactivates in the geniculate ganglion
+g: Ear pain, ear canal vesicles and a facial palsy is Ramsay Hunt syndrome
+f: no vesicles or ear pain => Bell's palsy
+
+@h1021
+c: under a minute | turns over in bed | no hearing loss | fades within 30 seconds
+m: Loose otoconia in the posterior canal move with head position
+g: Positive Dix-Hallpike with fatiguing nystagmus: Epley manoeuvre
+f: vertical nystagmus or nystagmus that does not fade => MRI head
+
+@h1022
+c: cold a week ago | hearing is normal | head impulse test is abnormal | no skew deviation
+m: Viral inflammation of the vestibular nerve spares the cochlea
+g: Viral onset with normal hearing and an abnormal head impulse is vestibular neuritis
+f: the same story with sudden hearing loss => Labyrinthitis
+f: brief spells on turning in bed => Benign paroxysmal positional vertigo
+
+@h1023
+c: hypertension | head impulse test is normal | changes direction | skew deviation
+m: A normal head impulse in acute vertigo means the inner ear is working
+g: Normal head impulse, direction-changing nystagmus and skew is a posterior circulation stroke
+f: an abnormal head impulse, one-direction nystagmus and no skew => Vestibular neuritis
+
+@h1024
+c: muffled voice | drooling | sitting forward | stridor
+m: A swollen epiglottis can block the airway at any moment
+g: Suspected epiglottitis: call the senior airway team
+
+@h1025
+c: not had his routine immunisations
+m: Hib was the classic cause until vaccination
+g: Childhood epiglottitis was classically Haemophilus influenzae type b
+f: a barking cough after a cold in a toddler => Parainfluenza virus
+
+@h1026
+c: drooling | thumb
+m: A swollen epiglottis looks like a thumb on a lateral X-ray
+g: The thumb sign is epiglottitis
+f: a tapered narrowing below the cords on the front view => Croup
+
+@h1027
+c: 5 minutes | takes no medicines
+m: Leaning forward stops blood being swallowed; firm pressure compresses Little's area
+g: Nosebleed first aid: lean forward and pinch the soft part of the nose
+
+@h1028
+c: one side | stop with pressure
+m: Several arteries join at the front of the septum
+g: Most nosebleeds come from Little's area on the anterior septum
+f: an older patient bleeding down the throat despite an anterior pack => Sphenopalatine artery at the back
+
+@h1029
+c: peanut allergy
+m: Naseptin contains arachis oil
+g: Peanut allergy: use mupirocin instead of Naseptin
+f: no allergy => Naseptin
+
+@h1030
+c: 17 year old girl | tiredness | back of her neck | spleen tip is palpable
+m: EBV causes posterior neck nodes, exudative tonsils and an enlarged spleen
+g: Exudative tonsillitis with posterior nodes and a palpable spleen is infectious mononucleosis
+f: fever, exudate and tender front neck nodes with no cough or tiredness => Bacterial tonsillitis

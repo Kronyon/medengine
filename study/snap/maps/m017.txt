@@ -1,0 +1,135 @@
+@o-p2019-042
+c: falling down the stairs | takes apixaban | bruising to the left side of his face | GCS score is 14
+m: A fall down stairs over 65 is a dangerous mechanism, so the neck is protected before anything else
+g: Trauma assessment starts with airway and cervical spine: immobilise first
+f: neck already immobilised and assessed, now checking for a bleed on apixaban => CT of head
+
+@o-p2019-043
+c: funny 'racing' sensation in his abdomen | loss of awareness | vacant stare | waves his left arm around
+m: A rising epigastric aura and automatisms come from the temporal lobe
+g: Epigastric aura then impaired awareness with automatisms is a temporal lobe seizure
+f: jerking that marches up one arm with awareness kept => Right frontal lobe
+f: flashing coloured lights at the start => Right occipital lobe
+
+@o-p2019-044
+c: clozapine 4 months ago | ulcerated throat | temperature is 39.0°C
+m: Clozapine can wipe out neutrophils, so a sore throat may be the first sign of agranulocytosis
+g: Fever or sore throat on clozapine: urgent full blood count
+f: fever, rigidity and confusion on clozapine => Creatine kinase
+f: drowsiness and seizures after a dose increase => Clozapine concentration
+
+@o-p2019-045
+c: brown sputum | bronchial breathing over the right mid-zone | 34 year old man
+m: Pneumococcus causes lobar pneumonia with rusty sputum in otherwise healthy adults
+g: Lobar pneumonia with rusty sputum: Streptococcus pneumoniae
+f: pneumonia straight after influenza with cavities => Staphylococcus aureus
+f: dry cough, headache and cold agglutinins in a young adult => Mycoplasma sp.
+f: confusion, diarrhoea and low sodium after a hotel air conditioning outbreak => Legionella pneumophila
+
+@o-p2019-046
+c: orange urine | quadruple antituberculous therapy
+m: Rifampicin colours body fluids orange
+g: Orange urine on TB treatment is rifampicin
+f: tingling in his feet => Isoniazid
+f: blurred vision with red-green colour loss => Ethambutol
+f: gout and joint pain => Pyrazinamide
+
+@o-p2019-047
+c: fever, headache and confusion | impossible to lift her head | developed over several hours
+m: Bacterial meningitis is a high-pressure purulent exudate full of neutrophils and protein
+g: Acute bacterial meningitis: high pressure, high protein, neutrophils
+f: a milder illness with lymphocytes and normal glucose => Normal pressure, normal protein, excess lymphocytes
+f: thunderclap headache with a normal CT and xanthochromia => High pressure, normal protein, excess red cells
+
+@o-p2019-048
+c: dry mouth and gritty eyes | vitiligo | parotid glands are mildly enlarged
+m: Autoimmune attack on the tear and salivary glands dries the eyes and mouth
+g: Dry eyes, dry mouth and parotid swelling with another autoimmune disease is Sjögren's
+f: pain and swelling of one gland during meals => Sialolithiasis (salivary gland calculi)
+f: a slow-growing painless lump in one parotid => Pleomorphic adenoma
+f: bilateral hilar nodes and erythema nodosum => Sarcoidosis
+
+@o-p2019-049
+c: columnar epithelium containing goblet cells and Paneth cells | 5 cm above the anatomical gastro- oesophageal junction
+m: Acid reflux replaces squamous epithelium with intestinal-type glands
+g: Goblet cells in the lower oesophagus is intestinal metaplasia, Barrett's
+f: the cells show large, dark, crowded nuclei confined to the epithelium => Intraepithelial neoplasia
+
+@o-p2019-050
+c: pH 7.20 | PCO2 8.1 kPa | Bicarbonate 23
+m: CO2 has risen too fast for the kidney to retain bicarbonate
+g: Low pH, high CO2 and normal bicarbonate: acute type 2 respiratory failure
+f: the same CO2 with a bicarbonate of 32 and a near-normal pH => Chronic type 2 respiratory failure
+f: low oxygen with a low or normal CO2 => Acute type 1 respiratory failure
+
+@o-p2020-001
+c: tender in the epigastrium and right upper quadrant | temperature is 38°C | Amylase 222 | Bilirubin 14
+m: A stone in the cystic duct inflames the gallbladder wall, causing fever and local tenderness
+g: RUQ pain with fever and normal bilirubin is cholecystitis; amylase under 3 times normal rules out pancreatitis
+f: amylase over 3 times the upper limit => Acute pancreatitis
+f: jaundice with fever and rigors => Acute cholangitis
+f: pain settling within hours with no fever => Biliary colic
+
+@o-p2020-002
+c: headaches that are worse when coughing or sneezing | associated with vomiting | melanoma | memory problems
+m: Brain metastases raise pressure, causing morning or cough headache with vomiting
+g: Raised pressure headache with confusion and a past melanoma: cerebral metastases
+f: calcium 3.2 with constipation and thirst but no raised pressure headache => Hypercalcaemia
+f: sodium 118 on a new SSRI => Hyponatraemia
+
+@o-p2020-003
+c: morphine sulfate (modified release, 90 mg twice daily) | unable to swallow
+m: Subcutaneous morphine is twice as potent as oral, so the 24 hour dose is halved
+g: 180 mg oral a day becomes 90 mg subcutaneous over 24 hours
+f: a dose of oral 60 mg twice daily instead => 60 mg
+
+@o-p2020-004
+c: low back pain the day after falling | usually well
+m: Staying active speeds recovery from simple back pain; rest prolongs it
+g: Acute non-specific back pain: continue usual activity
+f: pain persisting over 6 weeks and affecting work => Self referral for physiotherapy
+
+@o-p2020-005
+c: burning pain in her right leg | compressing the sciatic nerve | morphine sulfate modified release
+m: Nerve compression pain responds poorly to opioids; tricyclics calm nerve firing
+g: Neuropathic pain alongside an opioid: add amitriptyline
+f: bone pain from a pelvic metastasis rather than nerve pain => Oral diclofenac
+
+@o-p2020-006
+c: second cycle 8 days ago | temperature is 38.4°C | results are not yet available
+m: Neutrophils are lowest 7 to 14 days after chemo; infection can kill within hours
+g: Suspected neutropenic sepsis: IV antibiotics within an hour, before results
+f: afebrile and well with a normal count at review => Discuss with local oncology team for advice
+
+@o-p2020-007
+c: femoral artery angioplasty | diffuse tenderness | absent bowel sounds | Lactate 4.5 | Bicarbonate 16
+m: Atherosclerosis or emboli block the mesenteric arteries; dying bowel releases lactate
+g: Severe abdominal pain with vascular disease and a high lactate is mesenteric ischaemia
+f: left iliac fossa pain with fever and a normal lactate => Acute diverticulitis
+f: tearing back pain with a pulsatile mass and shock => Ruptured aortic aneurysm
+
+@o-p2020-008
+c: bleeding peptic ulcer | 2 weeks ago | thrombus in both pulmonary arteries | BP 114/74 mmHg
+m: Unfractionated heparin can be stopped quickly and reversed with protamine if she bleeds
+g: PE with a recent major bleed: IV unfractionated heparin
+f: no recent bleeding and stable => Oral apixaban
+f: hypotensive with a massive PE and no bleeding risk => Intravenous alteplase
+
+@o-p2020-009
+c: worse on lying flat | radiates into his back | temperature is 37.9°C | brachial pulses in both arms are synchronous
+m: Pericardial inflammation causes positional pain with widespread saddle ST elevation and mild troponin leak
+g: Positional chest pain with fever and widespread changes is pericarditis
+f: tearing pain to the back with unequal arm pulses => Aortic dissection
+f: ST elevation in one territory with a rising troponin => Acute coronary syndrome
+
+@o-p2020-010
+c: heart failure and peripheral arterial disease | 63 year old woman
+m: CHA2DS2-VASc 3 gives about 3% a year; over 20 years that is about 60%
+g: 3% a year × 20 remaining years is about 60%
+f: asked only for the annual risk => 3%
+
+@o-p2020-011
+c: Foundation Year 1 | assisted with this operation once
+m: Consent must be taken by someone able to do the operation or trained to explain it
+g: An FY1 should not take surgical consent: ask a senior to do it
+f: none of the seniors are available and the list will be cancelled => Refuse to consent the patients

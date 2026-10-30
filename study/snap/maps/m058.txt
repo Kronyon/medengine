@@ -1,0 +1,123 @@
+@h0671
+c: type 2 diabetes | few crackles that clear with coughing | CRP is 46
+m: Point-of-care CRP guides antibiotics for lower respiratory infection
+g: CRP of 20 to 100 mg/L: back-up antibiotic
+f: CRP over 100 mg/L => Immediate antibiotic
+f: CRP under 20 mg/L => No antibiotic
+
+@h0672
+c: 120 mg/L | no drug allergies
+m: Doxycycline covers the usual chest pathogens including atypicals
+g: Acute cough needing an antibiotic in an adult: doxycycline
+
+@h0673
+c: 78 year old woman | alert and orientated | Respiratory rate 32 | BP 104/58 | Urea 9
+m: CURB-65 scores confusion, urea over 7, RR 30 or more, low BP and age 65 or over
+g: Urea, respiratory rate, diastolic 60 or less and age score 4
+f: confused as well => 5
+
+@h0674
+c: CURB-65 score is 0 | anaphylaxis after penicillin
+m: Doxycycline covers pneumococcus and atypicals without penicillin
+g: Low-severity pneumonia with penicillin anaphylaxis: doxycycline
+f: no allergy => Amoxicillin
+
+@h0675
+c: hotel stay in Spain | diarrhoea | confused | Sodium 126 | ALT 112
+m: Legionella from hotel water causes pneumonia with diarrhoea, low sodium and deranged liver tests
+g: Pneumonia with confusion, diarrhoea and low sodium after a hotel stay is Legionella
+f: a young adult with erythema multiforme and cold agglutinins => Mycoplasma pneumoniae
+f: contact with pet parrots => Chlamydia psittaci
+f: a farmer exposed to sheep at lambing => Coxiella burnetii
+
+@h0676
+c: night sweats, weight loss and blood-streaked sputum | cavity in the right upper lobe
+m: Active TB is confirmed by finding mycobacteria in the sputum
+g: Suspected active pulmonary TB: sputum smear, culture and NAAT
+f: a well household contact with no symptoms => Interferon gamma release assay
+
+@h0677
+c: numbness and tingling in both feet | drinks alcohol heavily | not been taking the extra vitamin
+m: Isoniazid depletes pyridoxine, which nerves need
+g: Neuropathy on TB treatment without pyridoxine: isoniazid
+f: blurred vision with red-green colour loss => Ethambutol
+f: gout from a high urate => Pyrazinamide
+
+@h0678
+c: combined oral contraceptive pill | rifampicin
+m: Rifampicin induces liver enzymes and breaks down contraceptive hormones
+g: On rifampicin: copper intrauterine device
+
+@h0679
+c: 50 pack-years | euvolaemic | Sodium 121 | urine sodium is 52 | central lung mass
+m: Small cell tumours arise centrally and secrete ADH
+g: A central mass with SIADH in a heavy smoker is small cell carcinoma
+f: a high calcium with a low PTH => Squamous cell carcinoma
+f: a peripheral mass in a never-smoker => Adenocarcinoma
+
+@h0680
+c: who smokes | pain in his left shoulder going down the inner arm | wasting of the small muscles | small left pupil | does not sweat
+m: An apical tumour invades the T1 root and sympathetic chain
+g: Horner's with hand wasting and inner arm pain in a smoker is a Pancoast tumour
+f: Horner's with neck pain after an injury => Carotid artery dissection
+f: Horner's with vertigo and crossed sensory loss => Brainstem stroke
+
+@h0681
+c: 52 year old ex-smoker | coughed up blood twice | Chest X-ray is normal
+m: A normal X-ray can miss central tumours
+g: Unexplained haemoptysis at 40 or over: suspected cancer pathway referral
+f: a young non-smoker coughing blood during a chest infection => Antibiotics and review
+
+@h0682
+c: shipyard worker | calcified plaques on both diaphragms | Spirometry is normal
+m: Asbestos causes benign calcified plaques on the pleura decades later
+g: Calcified diaphragmatic plaques without symptoms are pleural plaques
+f: chest pain, weight loss and a bloody effusion => Mesothelioma
+f: basal fibrosis with clubbing => Asbestosis
+
+@h0683
+c: stonemason | upper zones | eggshell calcification
+m: Silica dust causes upper zone fibrotic nodules and calcified hilar nodes
+g: Upper zone nodules with eggshell hilar calcification in a stonemason is silicosis
+f: lower zone fibrosis with clubbing in a pipe lagger => Asbestosis
+f: a coal miner with upper zone nodules => Coal worker's pneumoconiosis
+
+@h0684
+c: fitted boilers for 30 years | mesothelioma
+m: Deaths from industrial disease are unnatural and need the coroner
+g: Death from mesothelioma after work exposure: refer the death to the coroner
+
+@h0685
+c: no pets or birds | takes no regular medicines | clubbing | fine end-inspiratory crackles | reduced transfer factor
+m: Progressive scarring of the lung bases with no cause is IPF
+g: An older man with clubbing, basal velcro crackles and restriction has IPF
+f: fever and breathlessness hours after handling mouldy hay => Extrinsic allergic alveolitis
+f: daily purulent sputum with coarse crackles => Bronchiectasis
+
+@h0686
+c: every night for 2 years to prevent recurrent urinary infections | raised ALT
+m: Long-term nitrofurantoin can cause lung fibrosis and liver injury
+g: Lung fibrosis and raised ALT on long-term UTI prophylaxis: nitrofurantoin
+
+@h0687
+c: tender red nodules on both shins | both ankles are swollen | bilateral hilar lymphadenopathy | Calcium is normal
+m: Löfgren syndrome is an acute self-limiting form of sarcoidosis
+g: Erythema nodosum, ankle arthritis and hilar nodes: NSAIDs and review
+f: high calcium or eye or heart involvement => Oral prednisolone
+
+@h0688
+c: managed medically without coronary intervention | no history of bleeding
+m: Ticagrelor with aspirin cuts further events after ACS
+g: ACS managed medically: aspirin plus ticagrelor
+f: high bleeding risk => Clopidogrel
+
+@h0689
+c: drug-eluting stent | two blood-thinning tablets
+m: Dual antiplatelets protect the new stent while it heals over
+g: Dual antiplatelet therapy usually lasts 12 months after ACS
+f: asked how long to take aspirin => Lifelong
+
+@h0690
+c: clopidogrel
+m: Omeprazole blocks CYP2C19, which activates clopidogrel
+g: PPI with clopidogrel: lansoprazole

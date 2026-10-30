@@ -1,0 +1,107 @@
+@h0731
+c: dapagliflozin | cannot keep fluids down
+m: SGLT2 inhibitors risk ketoacidosis and dehydration when unwell
+g: Sick day rules: pause dapagliflozin until eating and drinking
+
+@h0732
+c: without diabetes | eGFR 40 | ratio 40 mg/mmol
+m: SGLT2 inhibitors slow CKD progression with albuminuria even without diabetes
+g: CKD on a maximum ACE inhibitor with ACR over 22.6: add dapagliflozin
+
+@h0733
+c: salbutamol inhaler many times
+m: Beta-2 stimulation of skeletal muscle causes tremor
+g: Heavy salbutamol use causes a fine tremor
+f: an inhaled steroid used without rinsing => Oral candidiasis
+
+@h0734
+c: has called an ambulance | spacer
+m: Repeated single puffs through a spacer deliver salbutamol well
+g: While waiting: 1 puff at a time, up to 10 puffs
+
+@h0735
+c: back-to-back nebulised salbutamol | IV hydrocortisone
+m: Beta-2 agonists and steroids drive potassium into cells
+g: Monitor potassium
+
+@h0736
+c: white plaques on his tongue | hoarse voice | does not use a spacer
+m: Steroid deposits in the mouth and throat cause thrush and hoarseness
+g: Inhaled steroid thrush: use a spacer and rinse the mouth
+
+@h0737
+c: checks that her regimen is safe
+m: A LABA alone masks worsening inflammation and raises the risk of death
+g: LABA without an inhaled steroid is unsafe in asthma
+
+@h0738
+c: maintenance and reliever therapy
+m: MART allows extra doses up to a daily ceiling
+g: MART: usually up to 12 inhalations in a day
+
+@h0739
+c: new tablet | nightmares, agitation and low mood
+m: Montelukast can cause neuropsychiatric side effects, especially in children
+g: Nightmares and mood change on a new asthma tablet: montelukast
+f: nausea, palpitations and seizures => Theophylline
+
+@h0740
+c: theophylline | ciprofloxacin | vomiting and palpitations
+m: Ciprofloxacin blocks theophylline breakdown
+g: Vomiting and tachycardia after starting ciprofloxacin is theophylline toxicity
+
+@h0741
+c: theophylline
+m: Theophylline has a narrow therapeutic range
+g: Theophylline target level: 10 to 20 mg/L
+
+@h0742
+c: COPD with increased breathlessness
+m: A short steroid course speeds recovery
+g: COPD exacerbation: prednisolone 30 mg for 5 days
+
+@h0743
+c: 5 days | not had steroids in the past year
+m: Short courses do not suppress the adrenals enough to need tapering
+g: Short steroid course under 3 weeks: stop without tapering
+f: taken for more than 3 weeks => Reduce by 5 mg a week
+
+@h0744
+c: prednisolone 30 mg each morning | afternoon it is 18
+m: Morning steroids raise glucose later in the day
+g: Afternoon hyperglycaemia on morning steroids: add morning gliclazide and monitor
+
+@h0745
+c: not pregnant | would like a medicine
+m: Varenicline is a partial nicotine agonist that cuts craving and reward
+g: Most effective single stop-smoking drug: varenicline
+f: she is pregnant => Nicotine gum
+
+@h0746
+c: epilepsy
+m: Bupropion lowers the seizure threshold
+g: Epilepsy: avoid bupropion
+
+@h0747
+c: stopped smoking 2 weeks ago | drowsy and drooling | dose has not changed
+m: Tobacco smoke induces CYP1A2; stopping raises clozapine levels
+g: Drowsy and drooling after stopping smoking on clozapine: rising clozapine level
+
+@h0748
+c: flucloxacillin | 3 weeks ago | normal-calibre bile duct with no gallstones
+m: Flucloxacillin can cause cholestasis weeks after the course
+g: Cholestatic jaundice weeks after flucloxacillin with normal ducts is drug-induced
+f: weight loss with a palpable gallbladder => Pancreatic cancer
+f: itch in a middle-aged woman with anti-mitochondrial antibodies => Primary biliary cholangitis
+
+@h0749
+c: diarrhoea | no rash, swelling or breathing problems
+m: Allergy means hives, swelling, wheeze or anaphylaxis
+g: Diarrhoea on amoxicillin is a side effect, not an allergy
+f: hives and wheeze within an hour of a dose => True penicillin allergy
+
+@h0750
+c: secondary syphilis | Four hours later | no wheeze, lip swelling or urticaria
+m: Killing many spirochaetes releases toxins that cause a short febrile reaction
+g: Fever and rigors hours after treating syphilis is a Jarisch-Herxheimer reaction
+f: urticaria, wheeze and low blood pressure => Anaphylaxis

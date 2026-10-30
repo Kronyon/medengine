@@ -1,0 +1,110 @@
+@h0911
+c: 70 kg | Lidocaine with adrenaline is not available
+m: Adrenaline slows absorption, so plain lidocaine has a lower safe dose
+g: Plain lidocaine: about 3 mg per kg
+f: lidocaine with adrenaline => 7 mg per kg
+
+@h0912
+c: lips are tingling | metallic taste | seizure | broad complexes
+m: Local anaesthetic in the circulation blocks sodium channels in brain and heart; lipid soaks it up
+g: Local anaesthetic systemic toxicity: IV lipid emulsion 20%
+
+@h0913
+c: fingertip units
+m: One fingertip unit is about 0.5 g
+g: One fingertip unit covers two adult palms
+
+@h0914
+c: paraffin-based emollient | smokes
+m: Emollient-soaked fabric catches fire easily
+g: Paraffin emollients: fire risk from soaked fabric
+
+@h0915
+c: potent steroid cream on her face for 4 months | returns worse | sparing the skin just next to the lips | no comedones
+m: Facial steroids cause a rebound eruption around the mouth
+g: Perioral papules after facial steroids, sparing the lip border, is perioral dermatitis
+f: flushing and telangiectasia on the cheeks with no steroid use => Rosacea
+f: comedones in a teenager => Acne vulgaris
+
+@h0916
+c: 20% of his body | narrowband UVB | liver function is normal
+m: Methotrexate suppresses the immune drive of psoriasis
+g: Severe psoriasis after topicals and phototherapy: methotrexate
+f: needs rapid control or is planning conception => Ciclosporin
+
+@h0917
+c: swollen gums | more hair growth | Creatinine has risen from 68 to 102
+m: Ciclosporin constricts renal arterioles and causes gum overgrowth and hirsutism
+g: Gum hypertrophy, hirsutism, hypertension and rising creatinine: ciclosporin
+
+@h0918
+c: narrowband UVB phototherapy
+m: UV light damages skin DNA over time
+g: Phototherapy's main long-term risk is skin cancer
+
+@h0919
+c: co-cyprindiol
+m: Cyproterone with oestrogen raises clotting risk more than standard pills
+g: Co-cyprindiol's main serious risk is venous thromboembolism
+
+@h0920
+c: lymecycline | 3 months
+m: Long antibiotic courses breed resistance
+g: Oral antibiotics for acne: no longer than 6 months
+
+@h0921
+c: isotretinoin | doxycycline
+m: Retinoids and tetracyclines both raise intracranial pressure
+g: Isotretinoin with doxycycline: risk of raised intracranial pressure
+
+@h0922
+c: wasp | lips are swelling | wheezy | BP 80/50
+m: Adrenaline reverses vasodilation, airway swelling and bronchospasm
+g: Anaphylaxis: IM adrenaline first
+f: hives only with no airway, breathing or circulation problem => Oral cetirizine
+
+@h0923
+c: 80 kg | stridor
+m: IM adrenaline doses are set by age, not weight
+g: Adult anaphylaxis: 500 micrograms IM adrenaline
+f: a 7 year old => 300 micrograms
+f: a 4 year old => 150 micrograms
+
+@h0924
+c: 2 doses of IM adrenaline | still hypotensive | not taking beta-blockers
+m: Refractory anaphylaxis needs titrated IV adrenaline
+g: Shock after two IM adrenaline doses and fluids: IV adrenaline infusion
+f: refractory anaphylaxis in a patient on beta-blockers => IV glucagon
+
+@h0925
+c: 28 mmHg | Laser treatment is not suitable | asthma
+m: Prostaglandin analogues increase aqueous outflow once daily
+g: Open-angle glaucoma drops: prostaglandin analogue first
+
+@h0926
+c: acetazolamide | small stone | Bicarbonate 19
+m: Acetazolamide causes metabolic acidosis, which promotes calcium stones
+g: Tingling, acidosis and a kidney stone on acetazolamide: the acetazolamide
+
+@h0927
+c: long-sighted | dilating drops | fixed, mid-dilated pupil | feels hard
+m: Dilating a shallow-angled eye blocks drainage
+g: Pain hours after dilating drops in a long-sighted eye is acute angle-closure glaucoma
+f: a small irregular pupil with photophobia => Anterior uveitis
+f: a sticky discharge with normal vision => Bacterial conjunctivitis
+
+@h0928
+c: ferrous sulfate | Ferritin 6
+m: Daily or alternate-day dosing is absorbed better and tolerated better
+g: Oral iron: one tablet daily or on alternate days
+
+@h0929
+c: reduced vibration sense | Vitamin B12 low | Folate low
+m: Folate alone in B12 deficiency can worsen spinal cord damage
+g: Combined deficiency: B12 first, then folic acid
+f: folate deficiency alone with normal B12 => Folic acid
+
+@h0930
+c: no numbness, tingling | Intrinsic factor antibodies are positive
+m: Without intrinsic factor, B12 must be given by injection
+g: Pernicious anaemia without neurology: IM loading, then every 3 months

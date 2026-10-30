@@ -1,0 +1,124 @@
+@h0291
+c: perforated appendix 5 days ago | swinging fever | loose stools with mucus | tender, boggy fullness anteriorly
+m: Pus collects in the pelvis and irritates the rectum
+g: Swinging fever with rectal symptoms and boggy rectal fullness after a perforated appendix is a pelvic abscess
+f: a red discharging port site => Wound infection
+f: profuse watery diarrhoea after antibiotics => C. difficile colitis
+f: colicky pain, distension and vomiting => Adhesional obstruction
+
+@h0292
+c: sickle cell disease | mostly unconjugated
+m: Haemolysis floods bile with bilirubin, forming black pigment stones
+g: Gallstones in haemolysis are pigment stones
+f: an overweight 45 year old woman => Cholesterol stones
+
+@h0293
+c: painless jaundice | pale stools and dark urine | ALP 450 | ALT 60
+m: ALP and GGT far higher than ALT means blocked bile flow
+g: Cholestatic jaundice: abdominal ultrasound first
+f: ALT in the thousands after an overdose => Paracetamol level
+
+@h0294
+c: intensive care unit | parenteral nutrition | thickened wall | no gallstones
+m: Critical illness and no eating cause bile stasis and gallbladder ischaemia
+g: An inflamed gallbladder with no stones in the critically ill is acalculous cholecystitis
+f: fever, jaundice and a dilated duct => Ascending cholangitis
+
+@h0295
+c: fever and rigors | jaundiced | ALP 410
+m: Ultrasound shows a dilated duct and stones quickly
+g: Charcot's triad: abdominal ultrasound first
+f: a normal ultrasound but high suspicion => MRCP
+
+@h0296
+c: ascending cholangitis | no drug allergies
+m: Biliary infection is from gut Gram-negatives and anaerobes
+g: Cholangitis: piperacillin with tazobactam
+
+@h0297
+c: primary sclerosing cholangitis | weight loss of 6 kg | dominant stricture at the confluence | CA 19-9 is raised
+m: Chronic duct inflammation in PSC leads to bile duct cancer
+g: A hilar stricture with weight loss and high CA 19-9 in PSC is cholangiocarcinoma
+f: a dominant stricture with fever and rigors => Ascending cholangitis
+f: a cystic duct stone compressing the common duct => Mirizzi syndrome
+
+@h0298
+c: does not drink alcohol | no gallstones | Triglycerides are normal | calcium is 3.0
+m: High calcium activates trypsinogen inside the pancreas
+g: Pancreatitis with high calcium and no stones or alcohol is from hypercalcaemia
+f: triglycerides of 25 mmol/L => Hypertriglyceridaemia
+f: gallstones on ultrasound => Gallstones
+
+@h0299
+c: 5 weeks ago | feels full quickly | thick, well-defined wall | no solid debris
+m: Fluid leaking from the pancreas is walled off by fibrous tissue after 4 weeks
+g: A walled fluid collection over 4 weeks after pancreatitis is a pseudocyst
+f: fluid around the pancreas in the first week => Peripancreatic fluid collection
+f: fever with gas in the collection => Pancreatic abscess
+
+@h0300
+c: mild acute pancreatitis caused by gallstones | pain has settled
+m: Stones left in place cause another attack within weeks
+g: Mild gallstone pancreatitis: cholecystectomy in the same admission
+
+@h0301
+c: 40 pack-years | pulsatile, expansile mass | not tender
+m: Ultrasound measures the aortic diameter safely
+g: An asymptomatic pulsatile mass: abdominal ultrasound
+f: planning repair of a large aneurysm => CT angiography
+
+@h0302
+c: smokes 20 cigarettes a day | stop the aneurysm getting bigger
+m: Smoking speeds aneurysm growth and rupture
+g: Stopping smoking most slows aneurysm growth
+
+@h0303
+c: Dacron graft 2 years ago | small episode of vomiting blood that stopped | large amount of blood
+m: The graft erodes into the duodenum; a small herald bleed comes first
+g: A herald bleed then massive GI bleeding after an aortic graft is an aortoenteric fistula
+f: no previous surgery and taking NSAIDs => Peptic ulcer
+f: cirrhosis with a large spleen => Oesophageal varices
+
+@h0304
+c: vomited forcefully | worse on swallowing | crackling under the skin of the neck
+m: Forceful vomiting ruptures the full oesophageal wall, leaking air into the mediastinum
+g: Chest pain with surgical emphysema after forceful vomiting is Boerhaave syndrome
+f: a small haematemesis after vomiting in a stable patient => Mallory-Weiss tear
+
+@h0305
+c: naproxen | otherwise fit | free gas under the diaphragm
+m: The hole must be closed and the contaminated abdomen washed out
+g: Perforated duodenal ulcer in a fit patient: laparoscopic washout and omental patch
+f: frail with a sealed perforation on CT => Conservative care with NG tube
+
+@h0306
+c: peritoneal dialysis | cloudy | exit site is clean | 300 per mm³
+m: Bacteria enter the peritoneum via the catheter; antibiotics in the dialysate reach it best
+g: Cloudy PD fluid with over 100 white cells: intraperitoneal antibiotics
+f: fungal or relapsing PD peritonitis => Remove the catheter
+
+@h0307
+c: BP 96/60 | cool | Lactate 4.6
+m: Sepsis with poor perfusion needs volume first
+g: Lactate 4 or more or hypotension: IV fluid bolus of 500 ml
+f: blood pressure stays low after adequate fluids => Noradrenaline infusion
+
+@h0308
+c: uses tampons | BP 84/48 | rash like sunburn | rash blanches
+m: A staphylococcal superantigen causes fever, shock and a diffuse red rash
+g: Shock with fever and a sunburn rash during a period is toxic shock syndrome
+f: non-blanching purpura with a stiff neck => Meningococcal sepsis
+f: a child with 5 days of fever, cracked lips and red eyes => Kawasaki disease
+f: a sandpaper rash with a strawberry tongue after a sore throat => Scarlet fever
+
+@h0309
+c: splenectomy | stay well in the future
+m: Without a spleen, encapsulated bacteria can cause overwhelming infection
+g: After splenectomy: vaccines and daily penicillin V
+
+@h0310
+c: her pain has worsened | Pregnancy test is negative | 5 cm complex left adnexal mass
+m: Untreated or resistant PID walls off into an abscess around the tube and ovary
+g: PID not improving with a complex adnexal mass is a tubo-ovarian abscess
+f: sudden one-sided pain with vomiting and an enlarged ovary => Ovarian torsion
+f: a positive pregnancy test with an empty uterus => Ectopic pregnancy

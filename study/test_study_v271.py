@@ -66,6 +66,12 @@ with sync_playwright() as p:
         if ph.evaluate(f"__mev.hqSess.pk['{qid}']") != pick: errs.append('answer did not follow to the phone')
         if ph.locator('.hq-stem mark.hq-mk').count() < 2: errs.append('highlights did not follow to the phone')
         mk = ph.locator('.hq-stem mark.hq-mk').first.bounding_box()
+        # v2.7.3: the pen starts OFF on a phone, so a tap there changes nothing until the pill is on
+        ph.touchscreen.tap(mk['x'] + mk['width'] / 2, mk['y'] + mk['height'] / 2); ph.wait_for_timeout(300)
+        if ph.evaluate(f"__mev.hlCount('{qid}')") != marks: errs.append('a tap with the pen OFF changed the highlights')
+        if ph.locator('#hlPill').count() and 'OFF' in ph.locator('#hlPill').inner_text():
+            ph.locator('#hlPill').tap(); ph.wait_for_timeout(200)
+        mk = ph.locator('.hq-stem mark.hq-mk').first.bounding_box()
         ph.touchscreen.tap(mk['x'] + mk['width'] / 2, mk['y'] + mk['height'] / 2); ph.wait_for_timeout(500)
         if ph.evaluate(f"__mev.hlCount('{qid}')") != marks - 1: errs.append('tap on a highlight did not remove it')
         # phone answers the next question; laptop picks it up on focus

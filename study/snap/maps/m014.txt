@@ -1,0 +1,134 @@
+@o-p2018-032
+c: hears the tone loudest in his right ear | quieter than when it is placed on the bone behind the same ear
+m: In conductive loss, bone beats air on that side and Weber goes towards the bad ear
+g: Weber to the right with a negative Rinne on the right: right conductive loss
+f: Weber goes to the left with Rinne positive on both sides => Right sensorineural deafness
+f: Weber goes to the left with bone louder than air on the left => Left conductive deafness
+
+@o-p2018-033
+c: painful red swelling of his left lower leg | tender erythematous area
+m: Leg cellulitis is usually beta-haemolytic streptococcus entering through cracked skin
+g: Spreading leg cellulitis, even in diabetes: Streptococcus pyogenes
+f: an infected diabetic foot ulcer with foul-smelling discharge => Bacteroides species
+f: cellulitis after a puncture wound through a trainer => Pseudomonas aeruginosa
+
+@o-p2018-034
+c: tender, erythematous, swollen hard cord | superficial thrombophlebitis without deep vein thrombosis
+m: Inflammation of a superficial vein settles with an anti-inflammatory
+g: Superficial thrombophlebitis away from the junction: NSAID
+f: thrombus within 3 cm of the saphenofemoral junction => Rivaroxaban
+f: a spreading red cellulitis around the vein with fever => Flucloxacillin
+
+@o-p2018-035
+c: first on the morning day case list | gliclazide (80 mg each morning) | metformin (500 mg twice daily)
+m: A sulfonylurea causes hypos without food; metformin does not and can continue for one missed meal
+g: Morning list with one missed meal: omit gliclazide, continue metformin
+f: a long fast missing more than one meal with poor control => Omit both drugs and start a variable-rate insulin infusion
+
+@o-p2018-036
+c: raise his left leg higher | toes directed towards the floor
+m: Loss of dorsiflexion makes the foot drop and the leg is lifted high to clear it
+g: Foot drop: common peroneal nerve at the fibular head
+f: weakness of plantar flexion and inversion with a numb sole => Tibial
+f: a numb strip over the dorsum of the foot with normal dorsiflexion => Superficial peroneal
+
+@o-p2018-037
+c: cyclical pain in both breasts | 5 mL of brown fluid is removed, with disappearance of the mass | no malignant cells
+m: Hormone-driven change forms cysts and nodularity that fluctuate with the cycle
+g: Cyclical pain with a cyst that disappears on aspiration is fibrocystic disease
+f: a smooth mobile painless lump in a 20 year old => Fibroadenoma
+f: a hard irregular lump after a seatbelt injury => Fat necrosis
+
+@o-p2018-038
+c: twitching that starts in his left hand and spreads up the arm | weak for an hour afterwards | ischaemic stroke
+m: A scar in the cortex fires abnormally; the spreading march and weakness afterwards point to a seizure
+g: Jacksonian march then Todd's paresis after a stroke is a focal seizure
+f: sudden weakness without twitching that resolves within an hour => Right hemisphere transient ischaemic attack
+f: sweaty and shaky episodes on gliclazide => Hypoglycaemia
+
+@o-p2018-039
+c: ovarian cancer | regional lymph nodes
+m: The ovary develops near the kidney and keeps its lymph drainage to the para-aortic nodes
+g: Ovarian cancer spreads first to the para-aortic nodes
+f: cancer of the vulva or lower vagina => Superficial inguinal nodes
+f: cancer of the cervix => Internal iliac nodes
+
+@o-p2018-040
+c: severe epigastric pain | following eating and lasted for about 1 hour | single 2-cm gallstone | bile duct normal
+m: Symptomatic gallstones keep causing colic until the gallbladder is removed
+g: Biliary colic with a stone and a normal duct: laparoscopic cholecystectomy
+f: a dilated duct with jaundice and a stone in the duct => Endoscopic retrograde cholangiopancreatography
+
+@o-p2018-041
+c: intense occipital headache of sudden onset | unable to walk without falling | multidirectional nystagmus | clumsiness of her right arm
+m: Cerebellar ischaemia causes vertigo with ataxia and nystagmus that changes direction
+g: Sudden vertigo with headache, ataxia and limb clumsiness is a cerebellar stroke
+f: vertigo for days after a cold with normal walking and one-way nystagmus => Acute labyrinthitis
+f: brief vertigo on rolling over in bed => Benign paroxysmal positional vertigo
+
+@o-p2018-042
+c: venous ulcer that is slowly healing | 0.9 on the left side
+m: Compression reverses venous hypertension; an ABPI over 0.8 makes it safe
+g: Healing venous ulcer with a normal ABPI: compression stockings to finish healing and prevent return
+f: a large active ulcer that is not healing with an ABPI of 0.9 => Full-length graduated compression bandaging
+f: a raised, rolled edge appearing in a long-standing ulcer => Diagnostic biopsy
+
+@o-p2018-043
+c: opens them when asked to | confused about what happened | attempting to remove the cannula
+m: Eyes to voice 3, confused speech 4, localising to a stimulus 5
+g: 3 + 4 + 5 is GCS 12
+f: eyes open to pain, incomprehensible sounds and withdrawal from pain => 9
+
+@o-p2018-044
+c: sudden pain and redness in his right eye | headache and nausea | hazy cornea and mid-dilated pupil
+m: The iris blocks the drainage angle, so pressure rises and the cornea clouds
+g: Painful red eye with a hazy cornea and a fixed mid-dilated pupil is acute glaucoma
+f: painful red eye with a small irregular pupil and photophobia => Uveitis
+f: sticky discharge with normal vision and pupils => Conjunctivitis
+
+@o-p2018-045
+c: recurrent episodes of vaginal candidiasis
+m: High glucose feeds candida and impairs immunity
+g: Recurrent thrush: check HbA1c for diabetes
+f: recurrent thrush with weight loss and other opportunistic infections => HIV test
+f: a thin fishy discharge with no itch => Vaginal pH testing
+
+@o-p2018-046
+c: 45 minutes later | reduced power in his left arm and leg | slurring his speech
+m: Thrombolysis needs a bleed excluded first; non-contrast CT is fastest
+g: Acute stroke within the thrombolysis window: CT head
+f: symptoms resolved fully within an hour, now planning secondary prevention => Carotid ultrasonography
+
+@o-p2018-047
+c: 40% full-thickness burns | petechial rash | Platelets 15 | Fibrinogen 0.7 | Fibrinogen degradation products 137
+m: Massive tissue injury triggers widespread clotting that uses up platelets and fibrinogen, then bleeding
+g: Low platelets, long clotting times, low fibrinogen and high FDPs is DIC
+f: low platelets with normal clotting and fibrinogen in a well young person => Immune thrombocytopenic purpura
+f: breathlessness and confusion with petechiae days after a long bone fracture => Fat embolism
+
+@o-p2018-048
+c: mediastinal lymphadenopathy compressing the superior vena cava | swollen face and neck
+m: Steroids reduce tumour and oedema around the SVC while definitive treatment is planned
+g: SVC obstruction from tumour: dexamethasone first
+f: severe symptoms with stridor or failure of steroids => Insert endovenous stent
+f: a clot in the SVC around a central line => Intravenous heparin infusion
+
+@o-p2018-049
+c: melaena | metallic mitral valve | INR 9.6 | intravenous vitamin K
+m: Vitamin K takes hours; PCC replaces factors 2, 7, 9 and 10 within minutes
+g: Major bleed on warfarin: IV vitamin K plus prothrombin complex concentrate
+f: PCC is not available => Fresh frozen plasma
+f: major bleeding on heparin rather than warfarin => Protamine sulfate
+
+@o-p2018-050
+c: Urinary protein: creatinine ratio 400 | Albumin 20 | Total cholesterol 9
+m: Adult nephrotic syndrome has many causes that only a biopsy separates
+g: Nephrotic syndrome in an adult: renal biopsy
+f: heavy proteinuria with bone pain and a high calcium => Serum protein electrophoresis
+
+@o-p2019-001
+c: cannot feel where her feet are | Knee reflexes are brisk, but ankle reflexes are absent | MCV 116
+m: B12 lack damages the dorsal columns, the corticospinal tracts and the peripheral nerves
+g: Macrocytosis with mixed upper and lower motor neurone signs and lost proprioception is B12 deficiency
+f: confusion, ataxia and eye signs in a heavy drinker => Thiamine
+f: microcytic anaemia with heavy periods => Iron

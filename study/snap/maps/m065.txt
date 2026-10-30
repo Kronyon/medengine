@@ -1,0 +1,109 @@
+@h0811
+c: gliclazide | while he is driving
+m: Sulfonylureas release insulin whatever the glucose level
+g: Gliclazide typically causes hypoglycaemia
+f: an SGLT2 inhibitor => Genital thrush
+f: metformin in severe kidney failure => Lactic acidosis
+
+@h0812
+c: heart failure with reduced ejection fraction | mild ankle swelling
+m: Pioglitazone causes fluid retention
+g: Heart failure: avoid pioglitazone
+
+@h0813
+c: eGFR 25
+m: Linagliptin is cleared in bile, not by the kidneys
+g: DPP-4 inhibitor with no renal dose change: linagliptin
+
+@h0814
+c: BMI of 37 | metformin, gliclazide and sitagliptin | HbA1c 76
+m: GLP-1 agonists lower glucose and weight; they replace a DPP-4 inhibitor
+g: Triple therapy failing with BMI 35 or more: switch to a GLP-1 agonist
+
+@h0815
+c: semaglutide 6 months ago
+m: NICE continues GLP-1 agonists only with a meaningful response
+g: Continue semaglutide only if HbA1c is down 11 and weight down 3%
+f: asked which result means stopping it => HbA1c down 5, weight down 1%
+
+@h0816
+c: semaglutide | through to her back | drinks little alcohol
+m: GLP-1 agonists are linked with acute pancreatitis
+g: Epigastric pain through to the back on a GLP-1 agonist: stop it and check lipase
+
+@h0817
+c: 6 kg weight loss | BMI 21 | pH 7.38 | Anti-GAD antibodies are positive
+m: Autoimmune beta-cell loss needs insulin replacement for basal and meal needs
+g: New type 1 diabetes without DKA: basal-bolus insulin
+f: type 2 diabetes starting insulin => Bedtime NPH insulin
+
+@h0818
+c: flu | not eating much | ketones 0.8
+m: Illness raises glucose and ketones even without food, so basal insulin must continue
+g: Sick day rules in type 1 diabetes: continue basal insulin and check ketones
+
+@h0819
+c: same area of her abdomen | soft, rubbery swellings
+m: Lumpy fat at overused sites absorbs insulin unpredictably
+g: Erratic glucose with rubbery lumps at injection sites is lipohypertrophy
+f: post-meal swings with early fullness and vomiting => Gastroparesis
+f: dents of lost fat at injection sites => Lipoatrophy
+
+@h0820
+c: ferrous sulfate | coffee at breakfast
+m: Food, coffee and iron reduce levothyroxine absorption
+g: Take levothyroxine before breakfast on an empty stomach
+
+@h0821
+c: smokes | proptosis | radioactive iodine
+m: Radioiodine releases thyroid antigens that can flare eye disease, especially in smokers
+g: Active thyroid eye disease: radioiodine may worsen it
+
+@h0822
+c: TSH under 0.01 | Free T4 8
+m: TSH stays suppressed for months, so free T4 guides the dose
+g: Low free T4 on carbimazole: reduce carbimazole
+f: free T4 still high => Increase carbimazole
+
+@h0823
+c: prednisolone 5 mg
+m: Prednisolone is about four times as potent as hydrocortisone
+g: Prednisolone 5 mg is about hydrocortisone 20 mg
+
+@h0824
+c: 38.5°C | not vomiting
+m: Illness raises the body's cortisol needs
+g: Addison's with fever: double the daily hydrocortisone until well
+
+@h0825
+c: Addison's disease | BP 78/40 | Sodium 126 | Potassium 5.8
+m: Without cortisol, the circulation collapses and sodium is lost
+g: Adrenal crisis: IV hydrocortisone 100 mg and IV fluids at once
+f: suspected new adrenal failure in a stable patient => Short synacthen test first
+
+@h0826
+c: desmopressin | confused | euvolaemic
+m: Desmopressin makes the kidneys hold water, diluting sodium
+g: Confusion after starting desmopressin: low sodium
+
+@h0827
+c: head injury | stays at 200 | rises to 700
+m: The kidney can respond to ADH but the pituitary is not making it
+g: Urine concentrates only after desmopressin: cranial diabetes insipidus
+f: no rise after desmopressin => Nephrogenic diabetes insipidus
+f: urine concentrates normally after water deprivation => Primary polydipsia
+
+@h0828
+c: lithium | does not rise after desmopressin
+m: Lithium enters collecting duct cells via sodium channels and blocks ADH action
+g: Lithium-induced nephrogenic DI: amiloride or a thiazide
+
+@h0829
+c: tamsulosin | cataract surgery
+m: Tamsulosin relaxes the iris dilator muscle
+g: Tamsulosin before cataract surgery: risk of floppy iris
+
+@h0830
+c: tamsulosin | little or no semen | normal erections and libido
+m: Alpha-blockers relax the bladder neck so semen goes backwards
+g: Dry ejaculation on tamsulosin is retrograde ejaculation

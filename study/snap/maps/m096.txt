@@ -1,0 +1,111 @@
+@h1431
+c: 9 mm stone in his upper ureter | 4 weeks of tamsulosin | no infection
+m: Stones over about 6 mm in the upper ureter rarely pass alone
+g: Ureteric stone under 2 cm that has not passed: ureteroscopy or shockwave lithotripsy
+f: a kidney stone over 2 cm => Percutaneous nephrolithotomy
+f: a 4 mm lower ureteric stone with controlled pain => Continue tamsulosin
+
+@h1432
+c: axilla is clinically normal | axillary ultrasound is normal
+m: The sentinel node is the first to drain the tumour, so it shows whether the axilla is involved
+g: Clinically and ultrasound-normal axilla: sentinel lymph node biopsy
+f: a biopsy-proven malignant axillary node => Axillary clearance
+
+@h1433
+c: wide local excision | clear margins
+m: Radiotherapy kills residual cancer cells left in the conserved breast
+g: Breast-conserving surgery is followed by radiotherapy to the breast
+
+@h1434
+c: axillary clearance | shoulder blade sticks out | pushes against a wall
+m: The long thoracic nerve supplies serratus anterior, which holds the scapula on the chest wall
+g: Winged scapula after axillary surgery: long thoracic nerve
+f: weak arm adduction and internal rotation => Thoracodorsal nerve
+f: numbness over the badge area with weak abduction => Axillary nerve
+
+@h1435
+c: 4 hours ago | blocked left internal carotid artery | NIHSS score is 18
+m: Clot in a large artery rarely dissolves with thrombolysis alone
+g: Anterior circulation large vessel occlusion: mechanical thrombectomy alongside thrombolysis
+
+@h1436
+c: ventriculoperitoneal shunt | headache, vomiting and drowsiness | no fever or neck stiffness
+m: A blocked shunt lets CSF build up and pressure rise
+g: Raised pressure symptoms in someone with a shunt, without fever, is shunt failure
+
+@h1437
+c: confused with right arm weakness for 3 weeks | chronic subdural haematoma | midline shift
+m: An old subdural liquefies and can be drained through small holes
+g: Symptomatic chronic subdural: burr hole drainage
+f: an acute clotted subdural => Craniotomy every time
+
+@h1438
+c: displaced intracapsular | walked outdoors independently | no cognitive impairment
+m: A displaced intracapsular fracture cuts off blood to the femoral head
+g: Displaced intracapsular fracture in an active, cognitively intact patient: total hip replacement
+f: an undisplaced intracapsular fracture => Cannulated screws
+
+@h1439
+c: extracapsular intertrochanteric fracture that is stable
+m: The femoral head keeps its blood supply, so the bone can be fixed
+g: Stable intertrochanteric fracture: dynamic hip screw
+f: an undisplaced intracapsular fracture => Cannulated screws
+f: a displaced intracapsular fracture in a frail patient => Hemiarthroplasty
+
+@h1440
+c: hip fracture | fascia iliaca block | planning her surgery
+m: Delayed surgery raises mortality and complications
+g: Hip fracture surgery: on the day of or the day after admission, within 36 hours
+
+@h1441
+c: recurrent sore throats for tonsillectomy
+m: SIGN criteria set the frequency at which tonsillectomy is worth it
+g: Tonsillectomy: 7 or more episodes in 1 year, 5 a year for 2 years, or 3 a year for 3 years
+
+@h1442
+c: tonsillectomy a week ago | fresh bleeding | 37.9°C
+m: Infection of the healing tonsil bed causes bleeding at 5 to 10 days
+g: Bleeding a week after tonsillectomy is secondary haemorrhage
+f: bleeding within 24 hours of surgery => Primary haemorrhage
+
+@h1443
+c: grommets | go swimming
+m: Water at the surface rarely gets through the grommet
+g: Grommets: surface swimming is fine, avoid diving
+
+@h1444
+c: punched in the left eye | vision is getting worse | tense and bulging | relative afferent pupillary defect
+m: Blood behind the eye in a closed orbit compresses the optic nerve
+g: Orbital compartment syndrome with failing vision: immediate lateral canthotomy
+f: proptosis without pain or vision loss => CT orbits first
+
+@h1445
+c: cataract surgery on his right eye 3 days ago | painful red eye | hand movements | pus in the anterior chamber
+m: Bacteria introduced at surgery infect the inside of the eye
+g: Painful red eye with hypopyon days after cataract surgery is endophthalmitis
+f: gradual clouding months later => Posterior capsule opacification
+
+@h1446
+c: vitrectomy with a gas bubble | holiday abroad
+m: Gas expands at altitude and raises eye pressure dangerously
+g: Intraocular gas: no flying until the gas has gone
+
+@h1447
+c: 6 mm nodular basal cell carcinoma | back | clear edges | not been treated before
+m: Low-risk BCCs are cured with a small clinical margin
+g: Low-risk BCC: about 4 mm margin
+
+@h1448
+c: changed in shape and colour | Melanoma is suspected
+m: Pathology needs the whole lesion to measure Breslow thickness
+g: Suspected melanoma: excision biopsy with a 2 mm margin
+
+@h1449
+c: Which lesion should not be treated with cryotherapy
+m: Cryotherapy destroys tissue without leaving a specimen
+g: Never freeze a suspected melanoma: it needs histology
+
+@h1450
+c: depression is moderate | talking therapy rather than medication
+m: CBT and behavioural activation have the strongest evidence for depression
+g: Depression wanting therapy: CBT or behavioural activation

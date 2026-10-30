@@ -1,0 +1,127 @@
+@h0571
+c: cannot make everyday decisions | avoids disagreeing | helpless and anxious when alone
+m: A pervasive need to be cared for drives clinging and fear of separation
+g: Needing reassurance for every decision with fear of being alone is dependent personality
+f: wants friends but avoids them for fear of criticism => Anxious avoidant personality disorder
+f: perfectionism and rigidity with lists and rules => Obsessive-compulsive personality disorder
+
+@h0572
+c: cannot delegate | rigid about rules, lists and schedules | sees nothing wrong | no intrusive thoughts
+m: Anankastic traits are ego-syntonic; OCD thoughts are unwanted
+g: Ego-syntonic perfectionism and rigidity without intrusive thoughts is anankastic personality
+f: unwanted intrusive thoughts resisted with rituals => Obsessive-compulsive disorder
+
+@h0573
+c: cluster C | anxious and fearful
+m: Cluster A is odd, B is dramatic and C is anxious
+g: Cluster C: avoidant, dependent and anankastic
+f: cluster A, the odd and eccentric group => Paranoid, schizoid and schizotypal
+f: cluster B, the dramatic group => Antisocial, borderline and histrionic
+
+@h0574
+c: a month ago | briefly hears his voice | still going to work
+m: Yearning and briefly sensing the dead are part of normal grief
+g: Grief with brief sensing of the dead and function kept is a normal grief reaction
+f: intense yearning that disables her for over 6 months => Prolonged grief disorder
+f: worthlessness and suicidal thoughts => Depressive episode
+
+@h0575
+c: 4 months ago
+m: Prolonged grief needs persistent disabling yearning over a set time
+g: ICD-11 prolonged grief disorder: at least 6 months
+
+@h0576
+c: feels worthless | lost all interest | lost 6 kg | should be dead
+m: Worthlessness and global loss of interest go beyond grief
+g: Worthlessness, global anhedonia and weight loss after a death is a depressive episode
+f: sadness tied to reminders with self-esteem intact => Normal grief reaction
+
+@h0577
+c: prednisolone 60 mg | 5 days ago | no psychiatric history
+m: High-dose steroids can trigger mania or psychosis within days
+g: Mania days after high-dose steroids with no history is steroid-induced mania
+f: confusion with fever and fluctuating attention => Delirium from infection
+
+@h0578
+c: skunk cannabis daily | resolve completely within 4 days
+m: High-potency THC can cause a short psychosis that settles with abstinence
+g: Psychosis resolving within days of stopping cannabis is substance-induced psychosis
+f: symptoms persist for months after stopping => Schizophrenia
+
+@h0579
+c: 70 year old man with no psychiatric history | visual hallucinations
+m: New psychosis in older age is usually from drugs, delirium or dementia
+g: New psychosis in older age: screen for an organic cause first
+
+@h0580
+c: coin-shaped | weeping | dry skin | Skin scrapings are negative
+m: Discoid eczema forms coin-shaped weeping plaques on dry skin
+g: Coin-shaped weeping plaques on the legs with negative scrapings is discoid eczema
+f: silvery well-defined plaques on the elbows => Psoriasis
+f: an annular scaly plaque with central clearing and positive scrapings => Tinea corporis
+f: a herald patch then oval patches on the trunk => Pityriasis rosea
+
+@h0581
+c: sides of her fingers | hot weather | deep-seated, clear vesicles | web spaces and wrists are not involved
+m: Vesicular eczema of the palms forms deep blisters in thick skin
+g: Deep itchy vesicles on the palms and finger sides is pompholyx
+f: burrows in the web spaces with night itch in the family => Scabies
+f: itchy blisters on the elbows and buttocks in coeliac disease => Dermatitis herpetiformis
+
+@h0582
+c: both palms | Emollients and soap substitutes have not helped
+m: Thick palm skin needs a very potent steroid to work
+g: Pompholyx on the palms: clobetasol propionate 0.05%
+f: eczema on the face => Hydrocortisone 1%
+
+@h0583
+c: nasal crusting and nosebleeds | saddle nose | blood 3+ and protein 2+ | cavitating
+m: Granulomatous vasculitis hits the upper airway, lungs and kidneys
+g: Nasal destruction, cavitating nodules and nephritis is GPA: c-ANCA against PR3
+f: asthma, eosinophilia and neuropathy => p-ANCA against MPO
+f: a malar rash with nephritis => Anti-dsDNA
+
+@h0584
+c: creatinine has risen from 110 to 240 | red cell casts | crescentic
+m: Organ-threatening vasculitis needs strong induction to save the kidney
+g: GPA with crescentic nephritis: steroids with rituximab
+f: limited nasal disease with normal kidneys => Methotrexate
+
+@h0585
+c: cold a week ago | palpable purpura on the buttocks | blood 1+ | Platelet count is normal
+m: IgA immune complexes inflame small vessels in skin, joints, gut and kidney
+g: Palpable purpura with arthritis and abdominal pain after a cold is IgA vasculitis
+f: a spreading non-blanching rash in an unwell febrile child => Meningococcal sepsis
+f: bruising with a low platelet count and pallor => Leukaemia
+f: 5 days of fever with red eyes and cracked lips => Kawasaki disease
+
+@h0586
+c: tumour of the caecum | right hemicolectomy
+m: The superior mesenteric artery gives the ileocolic branch to the caecum
+g: The caecum and ascending colon are supplied by the ileocolic artery
+f: the descending colon => Left colic artery
+f: the transverse colon => Middle colic artery
+
+@h0587
+c: watershed area
+m: The splenic flexure sits at the edge of both the SMA and IMA territories
+g: The splenic flexure is the classic watershed area
+
+@h0588
+c: just beyond the origin of the middle colic branch
+m: Blockage after the middle colic spares the transverse colon
+g: SMA embolus beyond the middle colic: small bowel and the right colon
+f: the IMA is blocked => Descending colon
+
+@h0589
+c: testicular germ cell tumour
+m: The testis develops in the abdomen, so its lymph follows the gonadal vessels upwards
+g: The testis drains first to the para-aortic nodes
+f: the scrotal skin => Superficial inguinal nodes
+
+@h0590
+c: below the dentate line
+m: Below the dentate line, lymph follows the skin drainage to the groin
+g: Anal canal below the dentate line: superficial inguinal nodes
+f: rectal cancer above the dentate line => Internal iliac
+f: a testicular tumour => Para-aortic

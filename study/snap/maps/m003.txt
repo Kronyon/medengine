@@ -1,0 +1,140 @@
+@o-mla1-061
+c: moderately severe acne | tried topical retinoids and topical antibiotics | deep vein thrombosis
+m: Acne that fails topical treatment steps up to an oral tetracycline; oestrogen pills raise clot risk
+g: Previous DVT rules out co-cyprindiol, so lymecycline is next
+f: no clot history and she also wants contraception => Co-cyprindiol
+f: severe nodular, scarring acne despite oral antibiotics => Isotretinoin
+
+@o-mla1-062
+c: Serum corrected calcium 2.9 | Parathyroid hormone 7.9 | polyuria
+m: Parathyroid adenoma keeps PTH up even though calcium is already high
+g: High calcium with a PTH that is not suppressed is primary hyperparathyroidism
+f: high calcium with a suppressed PTH and hilar nodes => Sarcoidosis
+f: high calcium with a suppressed PTH, weight loss and bone pain => Bony metastases
+
+@o-mla1-063
+c: angina | peripheral vascular disease | foot pulses are not palpable | normal sensation in his feet
+m: Atherosclerosis narrows the penile arteries just as it narrows the coronary and leg arteries
+g: Widespread arterial disease with intact sensation and no postural drop: vascular cause
+f: postural BP drop and lost sensation in the feet => Autonomic neuropathy
+f: low libido, small testes and loss of body hair => Testosterone deficiency
+f: started a beta-blocker or thiazide just before it began => Adverse effect of medication
+
+@o-mla1-064
+c: ulcerative colitis | ALP 580 | γGT 230
+m: Inflammation scars the bile ducts into strictures, causing a cholestatic picture
+g: Cholestatic liver tests in a man with ulcerative colitis is primary sclerosing cholangitis
+f: drinks heavily with jaundice, fever and a tender liver => Alcoholic hepatitis
+f: right upper quadrant colic with a dilated duct on ultrasound => Choledocholithiasis
+f: known PSC with a rising CA 19-9 and weight loss => Cholangiocarcinoma
+
+@o-mla1-065
+c: Potassium 6.7 | eGFR 23 | irbesartan
+m: Blocking angiotensin II lowers aldosterone, so the kidney keeps potassium, more so when it is failing
+g: In CKD the ARB is the main potassium-raising drug on this list
+f: potassium low rather than high on the same list => Furosemide
+
+@o-mla1-066
+c: abdominal aorta to be 33 mm in diameter
+m: Small aneurysms grow slowly, so they are watched rather than repaired
+g: 3.0 to 4.4 cm is rescanned every 12 months
+f: diameter under 3.0 cm => Reassure and discharge
+f: diameter 5.5 cm or more, or growing over 1 cm a year => Refer for vascular surgery
+
+@o-mla1-067
+c: white plaques in her mouth | beclometasone dipropionate (800 micrograms/day)
+m: Steroid that lands in the mouth suppresses local immunity, so thrush grows
+g: Oral thrush from an inhaled steroid: use a spacer and rinse the mouth
+f: still on a high dose with thrush despite a spacer, needing a steroid with less systemic effect => Change beclometasone dipropionate to fluticasone
+
+@o-mla1-068
+c: Purulent fluid | Gram-positive cocci | left basal effusion
+m: Pus in the pleural space is walled off, so antibiotics alone cannot clear it
+g: Empyema needs a chest drain
+f: penicillin-resistant pneumococcus on culture => Switch benzylpenicillin to ceftriaxone
+f: MRSA grown from the pleural fluid => Switch benzylpenicillin to vancomycin
+
+@o-mla1-069
+c: perihilar lymphadenopathy | Calcium 3.12 | Plasma parathyroid hormone <0.5
+m: Granulomas make active vitamin D, raising calcium so PTH is switched off
+g: High calcium, suppressed PTH and hilar nodes is sarcoidosis
+f: high calcium with a high PTH => Primary hyperparathyroidism
+f: night sweats, cavitation and recent travel => Tuberculosis
+f: painless rubbery neck nodes with itch and alcohol-induced pain => Hodgkin's lymphoma
+
+@o-mla1-070
+c: painless visible haematuria | smoked ten cigarettes per day for the past 35 years | Urine culture no growth
+m: Smoking causes urothelial cancer of the bladder, which bleeds painlessly
+g: Painless visible haematuria in a smoker over 45: flexible cystoscopy
+f: loin pain and a flank mass with haematuria => Ultrasound scan of kidneys
+f: hesitancy and nocturia with a hard prostate => Serum prostate specific antigen
+
+@o-mla1-071
+c: reddened area over the sacrum | skin is intact | spends most of his day sitting
+m: Pressure damage starts as non-blanching redness and is assessed and managed by community nursing first
+g: Early pressure damage at home: the district nurse assesses first
+f: an established non-healing ulcer needing specialist dressings => Tissue viability nurse
+f: needs a pressure-relieving chair and cushion assessed at home => Occupational therapist
+
+@o-mla1-072
+c: needle-stick injury | intravenous drug use
+m: Squeezing out blood and washing removes virus before it enters the circulation
+g: First action after a needlestick: encourage bleeding and wash under running water
+f: the wound has already been washed and he is ready for the next step => Seek post-exposure prophylaxis
+
+@o-mla1-073
+c: intravenous drug user | predominant V waves | pansystolic murmur at the left sternal edge on inspiration
+m: Injected skin bacteria seed the tricuspid valve, causing tricuspid regurgitation and septic lung emboli
+g: Right-sided endocarditis in someone who injects drugs is Staph aureus
+f: weeks after dental work with a mitral murmur => Streptococcus viridans
+f: weeks after a prosthetic valve operation => Staphylococcus epidermidis
+f: an older person whose colonoscopy shows a colon tumour => Streptococcus bovis / streptococcus equinus complex
+
+@o-mla1-074
+c: 34 year old woman | deep vein thrombosis | Platelets 132 | left frontoparietal infarct
+m: Antiphospholipid antibodies cause arterial and venous clots in young people with low platelets
+g: Stroke plus previous DVT in a young woman: check antiphospholipid antibodies
+f: malar rash, arthritis and low complement with no clots => Anti-dsDNA antibody
+f: dry eyes and mouth with a baby born with heart block => Anti-Ro antibody
+
+@o-mla1-075
+c: snores heavily | BMI is 38 | Epworth sleepiness score is 19
+m: The airway collapses repeatedly in sleep, so the brain wakes many times and daytime sleepiness follows
+g: Moderate to severe OSA with sleepiness: CPAP
+f: mild OSA with little daytime sleepiness who cannot tolerate a mask => Mandibular advancement device
+
+@o-mla1-076
+c: 72 year old man | increased frequency of defaecation | dark red rectal bleeding mixed with the stool | MCV 73
+m: A colon tumour bleeds slowly into the stool and changes bowel habit, leading to iron deficiency
+g: Change in bowel habit, blood mixed in and iron deficiency at 72 is colorectal cancer
+f: young adult with bloody diarrhoea and urgency for months => Ulcerative colitis
+f: sudden left-sided pain and bloody diarrhoea in a vascular patient => Ischaemic colitis
+f: painless bright red blood on the paper only => Haemorrhoids
+
+@o-mla1-077
+c: cystic spaces | mature cartilage and columnar epithelium
+m: Germ cell tumours can make tissues from more than one germ layer
+g: Cartilage and epithelium in a testicular tumour is a teratoma
+f: sheets of uniform clear cells with lymphocytes => Seminoma
+f: an older man with a diffuse testicular mass of small round cells => Lymphoma
+
+@o-mla1-078
+c: COPD | salbutamol inhaler several times per day | FEV1 75% predicted
+m: Long-acting bronchodilators keep the airways open and reduce breathlessness in COPD
+g: COPD still breathless on a short-acting inhaler with no asthmatic features: LAMA plus LABA
+f: asthmatic features or a raised eosinophil count => Inhaled beclometasone
+f: an acute exacerbation with increased sputum => Oral prednisolone
+
+@o-mla1-079
+c: lightheaded and dizzy prior to falling | zolpidem tartrate | 132/80 mmHg sitting and 138/84 mmHg standing
+m: Hypnotics impair balance and alertness, so older people fall
+g: No postural drop: the sedative is the culprit, not the antihypertensive
+f: BP falls by 20 mmHg on standing => Amlodipine
+f: sweaty, shaky episodes before meals on a sulfonylurea => Metformin
+
+@o-mla1-080
+c: bleeding gums | tea and toast | gingival hypertrophy and skin petechiae
+m: Vitamin C is needed to make collagen, so vessels and gums bleed
+g: Bleeding swollen gums and petechiae on a poor diet is scurvy
+f: confusion, ataxia and eye signs in a heavy drinker => Vitamin B 1
+f: night blindness and dry eyes => Vitamin A

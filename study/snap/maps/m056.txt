@@ -1,0 +1,123 @@
+@h0631
+c: started risperidone 4 months ago | no headache or visual problems | Pregnancy test is negative | TSH is normal
+m: Antipsychotics block dopamine, which normally holds prolactin down
+g: Galactorrhoea and amenorrhoea on risperidone is drug-induced hyperprolactinaemia
+f: no drugs with headache and bitemporal field loss => Non-functioning pituitary macroadenoma
+f: tiredness, weight gain and a high TSH => Primary hypothyroidism
+
+@h0632
+c: 56 year old woman | single duct
+m: Nipple discharge over 50 may come from an underlying cancer
+g: Nipple discharge aged 50 or over: suspected cancer pathway
+
+@h0633
+c: red, scaly, crusting rash on her left nipple | spread onto the areola | eroding the nipple | not settled with a steroid cream | right nipple is normal
+m: Cancer cells spread from the ducts into the nipple skin
+g: A one-sided rash starting on the nipple, eroding it and failing steroids is Paget's disease
+f: itchy rash on both areolae sparing the nipple in an atopic woman => Atopic eczema of the areola
+f: a rash only where a new cream or bra touched => Contact dermatitis
+
+@h0634
+c: seatbelt bruised her chest | firm, irregular lump | beneath where the bruise was
+m: Damaged fat forms a hard, irregular scar that mimics cancer
+g: An irregular lump under a recent bruise is fat necrosis, still needing triple assessment
+f: no injury with a growing hard lump => Breast carcinoma
+f: a rubbery mobile lump in a young woman => Fibroadenoma
+
+@h0635
+c: 45 year old woman | 6 cm within 3 months | skin is stretched
+m: A fibroepithelial tumour with overgrowing stroma grows fast in older women
+g: A rapidly growing large smooth mobile lump in a woman in her 40s is a phyllodes tumour
+f: a small rubbery mobile lump in a 20 year old => Fibroadenoma
+f: a fluctuant lump that disappears on aspiration => Breast cyst
+
+@h0636
+c: both breasts | spironolactone, which was started 6 months ago
+m: Spironolactone blocks androgen receptors
+g: Tender gynaecomastia on a new diuretic: spironolactone
+
+@h0637
+c: 47 year old woman | no family history
+m: Screening targets the ages where benefit outweighs harm
+g: NHS breast screening: women aged 50 to 71 every 3 years
+
+@h0638
+c: regular periods | oestrogen receptor positive and HER2 negative
+m: Tamoxifen blocks oestrogen receptors, which works before the menopause
+g: ER-positive cancer before the menopause: tamoxifen
+f: postmenopausal => Letrozole
+f: HER2 positive => Trastuzumab
+
+@h0639
+c: anastrozole | menopause at 50
+m: Aromatase inhibitors lower oestrogen further and thin the bones
+g: Starting an aromatase inhibitor: DEXA bone density scan
+f: on tamoxifen with postmenopausal bleeding => Pelvic ultrasound
+
+@h0640
+c: 70 year old woman | irreducible | below and lateral to the pubic tubercle
+m: Femoral hernias pass through the narrow femoral canal and often strangulate
+g: An irreducible lump below and lateral to the pubic tubercle in an older woman is a femoral hernia
+f: a lump above and medial to the tubercle controlled at the deep ring => Indirect inguinal hernia
+f: a soft bluish lump that vanishes lying down with a thrill => Saphena varix
+
+@h0641
+c: midpoint of the inguinal ligament | does not reappear until the pressure is released
+m: Pressure over the deep ring blocks an indirect hernia
+g: A hernia controlled at the deep ring is an indirect inguinal hernia
+f: it still bulges medial to the pressure => Direct inguinal hernia
+
+@h0642
+c: thin 84 year old woman | inner side of her right thigh | no hernia in either groin
+m: Bowel trapped in the obturator canal presses on the obturator nerve
+g: Obstruction with medial thigh pain in a thin older woman is an obturator hernia
+f: a lump below and lateral to the pubic tubercle => Femoral hernia
+f: a bulge through an old scar => Incisional hernia
+
+@h0643
+c: 50 minutes | 3 mm ST elevation in V1 to V4 | within 90 minutes
+m: Opening the blocked artery quickly saves heart muscle
+g: STEMI within 12 hours with PCI available in under 120 minutes: primary PCI
+f: PCI more than 120 minutes away => Thrombolysis with alteplase
+f: no ST elevation with a rising troponin => Fondaparinux and admission to the coronary care unit
+
+@h0644
+c: 30 minutes of central chest pain at rest | ST depression in V4 to V6 | 8 ng/L | 9 ng/L
+m: Ischaemia at rest without necrosis gives no troponin rise
+g: Rest pain with ischaemic ECG changes but a flat troponin is unstable angina
+f: troponin rises above the 99th centile => Non-ST elevation myocardial infarction
+f: pain only on exertion that settles with rest => Stable angina
+
+@h0645
+c: horizontal ST depression | tall, dominant R waves in V1 to V3
+m: Posterior wall infarction shows as a mirror image in the anterior leads
+g: ST depression with tall R waves in V1 to V3: record posterior leads V7 to V9
+
+@h0646
+c: tearing chest pain going through to his back | 168/92 mmHg in the right arm and 128/80 mmHg in the left arm | early diastolic murmur
+m: A tear in the aortic wall splits the layers and can reach the valve and arch branches
+g: Tearing back pain, an arm pressure difference and an early diastolic murmur is aortic dissection
+f: pain after forceful vomiting with neck emphysema => Oesophageal rupture
+f: pleuritic pain and breathlessness after immobility => Pulmonary embolism
+
+@h0647
+c: Aortic dissection is suspected | She is alert | eGFR is normal
+m: CT angiography is fast and shows the whole aorta
+g: Stable suspected dissection: CT angiogram of the aorta
+
+@h0648
+c: beyond the origin of the left subclavian artery | no organ or limb malperfusion
+m: Lowering heart rate and pressure reduces stress on the torn wall
+g: Uncomplicated type B dissection: IV labetalol
+f: the dissection involves the ascending aorta => Emergency open repair
+
+@h0649
+c: walks uphill | no asthma, heart failure
+m: Beta-blockers slow the heart and reduce oxygen demand
+g: Stable angina with no contraindication: bisoprolol first
+
+@h0650
+c: typical exertional chest pain | resting ECG is normal
+m: CT coronary angiography shows plaque directly with high sensitivity
+g: Suspected stable angina: CT coronary angiography first
+f: CT shows disease of uncertain significance => Myocardial perfusion scan

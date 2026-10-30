@@ -1,0 +1,118 @@
+@h0971
+c: skin lines run around it | black dots | squeezed from the sides
+m: A verruca pushes skin lines aside and shows clotted capillaries
+g: A lesion interrupting skin lines with black dots is a plantar wart
+f: the skin lines run through it and it hurts with direct pressure => Corn
+
+@h0972
+c: 20 weeks pregnant
+m: Podophyllotoxin and imiquimod are avoided in pregnancy
+g: Genital warts in pregnancy: cryotherapy
+f: not pregnant with soft warts => Podophyllotoxin
+
+@h0973
+c: broken hairs | dermatophyte
+m: Tinea capitis lives in the hair shaft where creams cannot reach
+g: Tinea capitis: oral antifungal
+f: a ring on the body with central clearing => Topical antifungal cream
+
+@h0974
+c: potent steroid cream for 6 weeks | improved but it has now spread | pustules
+m: Steroids suppress fungal inflammation, so tinea loses its typical edge and spreads
+g: A spreading ill-defined rash after steroids is tinea incognito
+f: a herald patch then oval patches => Pityriasis rosea
+f: silvery well-demarcated plaques => Psoriasis
+
+@h0975
+c: no psoriasis elsewhere | wants treatment
+m: Psoriasis and trauma look the same, so a fungal cause is confirmed before months of drugs
+g: Suspected fungal nail: nail clippings for mycology first
+f: a dermatophyte is confirmed => Start oral terbinafine
+
+@h0976
+c: partner is now itchy too | burrows between her fingers
+m: Mites spread by close contact, so all contacts are treated at once
+g: Scabies: permethrin for both, repeated after a week
+f: crusted scabies in an immunosuppressed person => Oral ivermectin for her
+
+@h0977
+c: two applications of permethrin | no new burrows
+m: Itch continues as an allergy to dead mites for weeks
+g: Itch after correct scabies treatment with no new burrows: crotamiton and reassurance
+f: new burrows appear => Repeat permethrin today
+
+@h0978
+c: care home | thick, grey crusts | not very itchy for her | Several staff
+m: Weak immunity lets huge numbers of mites form crusts that spread widely
+g: Thick crusts in a frail resident with itchy staff is crusted scabies
+f: silvery plaques on the elbows and knees => Chronic plaque psoriasis
+
+@h0979
+c: live lice
+m: Dimeticone coats and suffocates lice with no resistance
+g: Head lice: dimeticone 4% lotion
+
+@h0980
+c: how long she must stay off school
+m: Lice spread by head contact and exclusion does not help
+g: Head lice: no exclusion needed
+
+@h0981
+c: lives with his parents and two sisters
+m: Treating people without live lice is unnecessary
+g: Check everyone and treat only those with live lice
+
+@h0982
+c: elbows and knees | silvery scale | less than 5%
+m: Steroid with a vitamin D analogue treats plaques best
+g: Limb plaque psoriasis: potent steroid with calcipotriol
+f: severe extensive disease not responding to topicals => Methotrexate
+
+@h0983
+c: sore throat 2 weeks ago | teardrop-shaped
+m: A strep infection triggers many small psoriasis plaques at once
+g: Teardrop scaly papules after a sore throat is guttate psoriasis
+f: a single large herald patch first => Pityriasis rosea
+f: a rash on the palms and soles after a painless genital ulcer => Secondary syphilis
+
+@h0984
+c: bipolar disorder 3 months ago
+m: Lithium can trigger or worsen psoriasis
+g: Psoriasis flare after a new bipolar drug: lithium
+
+@h0985
+c: not scarred | open and closed comedones | no nodules or cysts
+m: Retinoids unblock pores and benzoyl peroxide kills bacteria
+g: Mild to moderate acne: adapalene with benzoyl peroxide
+f: severe nodular acne with scarring => Oral isotretinoin
+
+@h0986
+c: 14 weeks pregnant
+m: Retinoids and tetracyclines harm the fetus
+g: Acne in pregnancy: benzoyl peroxide
+f: not pregnant => Adapalene
+
+@h0987
+c: 19 year old woman | starting isotretinoin
+m: Isotretinoin causes severe birth defects
+g: Before isotretinoin in a woman: pregnancy prevention programme
+
+@h0988
+c: flat, non-palpable | 3 cm
+m: Flat lesions are named by size
+g: A flat lesion over 1 cm is a patch
+f: flat and under 1 cm => Macule
+f: raised and palpable => Plaque
+
+@h0989
+c: tense, fluid-filled blister 1.5 cm
+m: Blisters are named by size and contents
+g: A fluid blister over 0.5 cm is a bulla
+f: a fluid blister under 0.5 cm => Vesicle
+f: a blister full of yellow pus => Pustule
+
+@h0990
+c: 35.6°C | more than 90% | Albumin 28
+m: Inflamed skin over the whole body loses heat, fluid and protein
+g: Erythroderma: hospital admission
+f: rash covering 20% of the body in a stable patient => Routine dermatology referral

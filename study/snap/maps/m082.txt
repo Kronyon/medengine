@@ -1,0 +1,116 @@
+@h1151
+c: sudden severe pain | how much time matters
+m: A twisted cord cuts the blood supply; the testis dies within hours
+g: Salvage is most likely within 6 hours
+f: asked when most torsed testes are lost => 24 hours
+
+@h1152
+c: turns pink
+m: The bell clapper deformity is usually on both sides
+g: Viable torsion: fix both testes
+f: the testis stays black after untwisting => Orchidectomy
+
+@h1153
+c: hard, non-tender lump within the body | does not transilluminate
+m: Ultrasound shows whether a lump is solid and inside the testis
+g: Testicular lump: scrotal ultrasound first
+
+@h1154
+c: AFP 480 | Beta-hCG is mildly raised
+m: Yolk sac elements make AFP; pure seminoma never does
+g: A raised AFP means a non-seminomatous germ cell tumour
+f: normal AFP with a mildly raised hCG => Classical seminoma
+f: a testicular mass over 60 with B symptoms => Diffuse large B-cell lymphoma
+
+@h1155
+c: 71 year old man | lost weight | night sweats
+m: Germ cell tumours peak young; over 60 lymphoma is commonest
+g: A testicular mass over 60 with B symptoms is lymphoma
+f: a 30 year old man => Seminoma
+
+@h1156
+c: no urine has come out yet
+m: Inflating before urine flows can blow the balloon up in the urethra
+g: No urine yet: advance fully and wait
+f: urine is flowing => Inflate the balloon now
+
+@h1157
+c: bag has stayed empty | bladder is palpable | 600 ml
+m: Urine in the bladder but none in the bag means a blocked catheter
+g: Full bladder with an empty bag: flush or replace the catheter
+f: an empty bladder on scan with a low output => IV fluid bolus
+
+@h1158
+c: long-term urinary catheter for 3 months | fever and right loin pain
+m: Old catheters carry biofilm that gives misleading cultures
+g: Catheter-related pyelonephritis: new catheter, sample from it, then antibiotics
+
+@h1159
+c: 58 year old woman | worse on walking | 15 minutes | no effusion, warmth or redness
+m: Over 45 with activity pain and short stiffness is osteoarthritis without imaging
+g: Typical knee osteoarthritis: clinical diagnosis without imaging
+f: a hot swollen knee => Aspiration of the knee
+
+@h1160
+c: knee osteoarthritis | no kidney disease or stomach ulcers
+m: Topical NSAIDs work at the knee with little systemic risk
+g: Knee osteoarthritis analgesia: topical NSAID first
+
+@h1161
+c: pain at night | despite exercise | BMI 38
+m: Joint replacement relieves pain when daily life is seriously affected; BMI is not a barrier
+g: Severe hip osteoarthritis despite core treatment: refer for joint replacement
+
+@h1162
+c: posterior approach | bent down | shortened and internally rotated
+m: Deep flexion and rotation push the head out the back after a posterior approach
+g: Sudden pain with a short internally rotated leg after a posterior hip replacement is posterior dislocation
+f: fever with a red discharging wound => Prosthetic joint infection
+f: start-up pain years later with a lucent line => Aseptic loosening
+
+@h1163
+c: 6 weeks ago | fever | CRP 140
+m: Antibiotics before sampling hide the organism
+g: Suspected prosthetic joint infection: aspiration before antibiotics
+
+@h1164
+c: elective total hip replacement
+m: Clot risk stays high for weeks after hip replacement
+g: VTE prophylaxis after hip replacement: about 28 days
+f: a knee replacement => 14 days
+
+@h1165
+c: smokes | pulsatile, expansile | popliteal fossa
+m: Popliteal aneurysms are the commonest peripheral aneurysm
+g: A pulsatile expansile swelling behind the knee is a popliteal artery aneurysm
+f: a non-pulsatile fluctuant swelling with knee osteoarthritis => Baker's cyst
+
+@h1166
+c: popliteal artery aneurysm
+m: Popliteal aneurysms are often bilateral and linked with AAA
+g: Popliteal aneurysm: ultrasound of the aorta and the other leg
+
+@h1167
+c: coronary angiogram through the right femoral artery yesterday | pulsatile lump | systolic bruit
+m: An unsealed puncture leaks into a cavity held by surrounding tissue
+g: A pulsatile groin lump with a bruit after femoral puncture is a false aneurysm
+f: a continuous machinery bruit => Arteriovenous fistula
+f: a tender non-pulsatile swelling => Groin haematoma
+
+@h1168
+c: stopped her anticoagulant | never had leg pain on walking | All left leg pulses are normal
+m: Clot from the fibrillating atrium lodges in a healthy artery
+g: Sudden limb ischaemia in AF with no claudication and normal other leg is embolic
+f: years of claudication with weak pulses in both legs => Thrombosis on an atherosclerotic plaque
+
+@h1169
+c: 4 hours | Sensation and movement are intact
+m: Heparin stops the clot spreading while revascularisation is planned
+g: Acute limb ischaemia with a viable leg: IV heparin and urgent vascular review
+f: fixed mottling, a rigid calf and paralysis => Primary amputation
+
+@h1170
+c: embolectomy 6 hours ago | ischaemic for 10 hours | Passive movement of the foot causes severe pain | pulses are present
+m: Reperfused muscle swells inside tight fascia
+g: Reperfusion compartment syndrome: four-compartment fasciotomy
+f: the foot goes white and pulseless again => Repeat embolectomy

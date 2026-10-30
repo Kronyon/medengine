@@ -1,0 +1,139 @@
+@o-mla1-081
+c: reduced libido | Testosterone 1.8 | LH 1.2 | FSH 1.0
+m: A pituitary mass stops LH and FSH, so the testes are not driven to make testosterone
+g: Low testosterone with low or normal LH and FSH is a central cause
+f: low testosterone with high LH and FSH, tall with small testes => Klinefelter's syndrome
+f: a bodybuilder with small testes and a high haemoglobin => Anabolic steroid misuse
+
+@o-mla1-082
+c: exacerbation of asthma | ready for discharge
+m: A written plan tells the patient when to step up treatment and when to seek help, cutting readmissions
+g: Every asthma discharge needs a personalised action plan
+f: he cannot coordinate his metered dose inhaler => Volumatic spacer device
+
+@o-mla1-083
+c: 5 days after an acute inferior ST-elevation myocardial infarction | pansystolic murmur at the apex | bibasal inspiratory crackles
+m: An infarcted papillary muscle tears, the mitral valve flails, and the lungs flood
+g: New apical pansystolic murmur with pulmonary oedema days after an inferior MI is papillary muscle rupture
+f: raised JVP, quiet heart sounds and pulsus paradoxus => Cardiac tamponade
+f: pleuritic pain eased by sitting forward with a rub => Pericarditis
+f: sudden pleuritic pain, clear chest and no new murmur => Acute pulmonary embolus
+
+@o-mla1-084
+c: hands have become larger | facial features have coarsened | upper temporal defect in both visual fields
+m: A pituitary adenoma grows up and presses on the crossing fibres from the lower nasal retina
+g: Bitemporal upper quadrant loss is the optic chiasm, from below
+f: a homonymous hemianopia sparing the macula after a stroke => Occipital cortex
+f: a homonymous upper quadrant loss after temporal lobe surgery => Optic radiation
+
+@o-mla1-085
+c: thin-walled blister that then ruptured | yellow crusted lesion | primary school teacher
+m: Staph aureus toxin splits the upper skin into fragile blisters that crust honey-yellow
+g: Bullous impetigo with spreading crusts is Staph aureus
+f: painful grouped vesicles on the lip that come back => Varicella zoster virus
+f: a hot, spreading, well-demarcated red plaque on the face with fever => Streptococcus pyogenes
+
+@o-mla1-086
+c: BMI is 48 | type 2 diabetes | has not changed despite lifestyle advice and a low calorie diet
+m: Surgery gives the largest lasting weight loss and often remits diabetes
+g: BMI over 40 with comorbidity after failed non-surgical measures: refer for bariatric surgery
+f: BMI 32 without diabetes and she has not tried a diet yet => Intensify lifestyle measures and review in 6 months
+f: severe knee OA at a BMI under 40 despite all conservative measures => Refer for bilateral knee replacements
+
+@o-mla1-087
+c: steps off a cramped military aircraft | looked pale | asynchronous jerking of her limbs for less than 15 seconds | regains consciousness within 1 minute
+m: Standing after prolonged sitting pools blood, the brain is briefly underfilled, and short jerks can follow
+g: Pale with brief jerks and a quick recovery is vasovagal, not a seizure
+f: tongue biting and confusion for 30 minutes afterwards => Epilepsy
+f: collapse during exercise with no warning and a family history of sudden death => Cardiac arrhythmia
+f: breathless and tachycardic with a swollen calf after the flight => Pulmonary embolism
+
+@o-mla1-088
+c: flecked with blood | stopped smoking | protein content 56 g/L
+m: A tumour seeds the pleura, causing a protein-rich exudate and haemoptysis
+g: Exudate with haemoptysis in an ex-smoker is lung cancer
+f: pleural protein under 25 g/L with orthopnoea after an MI => Heart failure
+f: night sweats and a lymphocytic exudate after travel => Tuberculosis
+
+@o-mla1-089
+c: bilateral claudication | 10 metres | chronic distal aortic and bilateral common iliac occlusive disease
+m: Long occlusions of the aorta and both iliacs cannot be stented, so blood is routed around them
+g: Aorto-iliac occlusion on both sides needs an aorto-bifemoral bypass
+f: a short stenosis in one or both iliacs => Bilateral iliac angioplasty
+f: one iliac blocked, the other healthy, in someone unfit for laparotomy => Femoral-to-femoral crossover graft
+
+@o-mla1-090
+c: marked ankle swelling | amlodipine
+m: Dihydropyridines dilate arterioles more than veins, so fluid is pushed into the ankles
+g: Ankle swelling on an antihypertensive regimen is the calcium channel blocker
+f: a dry tickly cough instead => Lisinopril
+f: cold hands and slow pulse => Atenolol
+
+@o-mla1-091
+c: long-term urinary catheter | temperature is 36.8°C | mixed growth
+m: All long-term catheters become colonised; antibiotics only breed resistance unless there is infection
+g: No fever or symptoms: asymptomatic bacteriuria needs no treatment
+f: fever with loin pain and confusion => Start oral trimethoprim
+
+@o-mla1-092
+c: maculopapular erythematous rash | aphthous ulcers | White cell count 3.3 | Platelets 84
+m: Acute HIV causes a glandular fever-like illness with rash, ulcers and low counts
+g: Fever, rash, mouth ulcers and low white cells and platelets: test for HIV
+f: sore throat with atypical lymphocytes and splenomegaly in a teenager => Glandular fever screening test
+f: dysuria and urethral discharge => First catch urine microscopy
+
+@o-mla1-093
+c: irregularly irregular | diastolic murmur best heard at the apex
+m: A narrowed mitral valve slows filling of the left ventricle and stretches the atrium into AF
+g: Apical diastolic murmur with AF is mitral stenosis
+f: ejection systolic murmur radiating to the carotids => Aortic stenosis
+f: pansystolic murmur at the apex radiating to the axilla => Mitral regurgitation
+f: early diastolic murmur at the left sternal edge with a collapsing pulse => Aortic regurgitation
+
+@o-mla1-094
+c: bilateral pneumonia and meningitis | Gram-positive cocci arranged in pairs
+m: Pneumococcus causes lobar pneumonia and spreads to the meninges in older people
+g: Gram-positive diplococci are Streptococcus pneumoniae
+f: Gram-negative diplococci in a young adult with a purpuric rash => Neisseria meningitidis
+f: Gram-positive cocci in clusters after injecting drugs => Staphylococcus aureus
+
+@o-mla1-095
+c: pale cream coloured nodules on both elbows | upper eyelids | 40 year old man
+m: Very high cholesterol, as in familial hypercholesterolaemia, lays down atheroma early and as xanthomas
+g: Tendon xanthomas and xanthelasma with early coronary disease is atheroma
+f: a young woman after childbirth with no risk factors => Arterial dissection
+f: sudden occlusion of a narrowed artery by clot at the time of death => Thrombosis
+
+@o-mla1-096
+c: grandson | no one else in his family has the illness
+m: The grandson has two faulty copies, so one of his parents is a carrier, from one of two grandparents
+g: The grandparent on the affected side has a 1 in 2 chance of being a carrier
+f: asked the chance that a random person in the UK is a carrier => 1 in 25
+f: asked the chance that two carriers' child is affected => 1 in 4
+
+@o-mla1-097
+c: wandering at night | progressively worsened over 6 months | independent in her activities
+m: Alzheimer's starts in the hippocampus, so new memories are the first to go
+g: Gradual decline with wandering in early dementia: short-term memory is worst
+f: acute fluctuating confusion during an infection => Attention
+f: can no longer use a key or dress despite good strength => Praxis
+
+@o-mla1-098
+c: multiple sclerosis | residual volume of 300 mL | neuropathic bladder
+m: The bladder cannot empty, so overflow causes urgency; draining it regularly prevents infection and damage
+g: Large residual in a neurogenic bladder: intermittent self-catheterisation
+f: a small residual under 100 mL with overactivity => Anticholinergic drug
+f: she cannot use her hands to self-catheterise => Suprapubic catheter
+
+@o-mla1-099
+c: radiates to her right shoulder | temperature is 38.6°C | tender to palpation in the right upper quadrant
+m: A stone blocks the cystic duct and the gallbladder becomes inflamed
+g: Fever and right upper quadrant pain: ultrasound first
+f: sudden severe pain with suspected perforation and free air => Erect chest X-ray
+f: ultrasound shows a dilated duct but no stone => MR scan of abdomen
+
+@o-mla1-100
+c: outbreak of Clostridioides (Clostridium) difficile | particularly difficult to destroy
+m: C. difficile forms spores that resist heat, drying and alcohol
+g: Spores make it hard to destroy; clean with soap, water and chlorine
+f: asked what lets it stick to the gut lining => Surface adherence

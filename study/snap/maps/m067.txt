@@ -1,0 +1,110 @@
+@h0851
+c: diazepam | epilepsy | Pupils are normal size | normal QRS
+m: Flumazenil can trigger seizures, especially in epilepsy or mixed overdose
+g: Benzodiazepine overdose in epilepsy: supportive care without flumazenil
+f: pinpoint pupils with slow breathing => Naloxone
+
+@h0852
+c: since moving house | one fall this year
+m: Z-drugs cause dependence and falls like benzodiazepines
+g: Zopiclone: use for 4 weeks at most
+
+@h0853
+c: sumatriptan
+m: Triptans constrict coronary arteries
+g: Do not give sumatriptan to a man with ischaemic heart disease
+
+@h0854
+c: 12 days each month | almost every day | no red flag
+m: Frequent triptan use resets the pain threshold, causing daily headache
+g: Triptans on 10 or more days a month with daily headache is medication overuse headache
+f: a band-like bilateral headache with no overuse => Tension-type headache
+
+@h0855
+c: topiramate | combined oral contraceptive pill
+m: Topiramate induces enzymes that weaken the pill and is teratogenic
+g: Topiramate: use highly effective contraception
+
+@h0856
+c: nil by mouth | nasogastric tube cannot be passed
+m: Missing Parkinson's drugs risks rigidity and a neuroleptic-like crisis
+g: Parkinson's drugs when nothing can be given by mouth: rotigotine patch
+
+@h0857
+c: ropinirole | gambling
+m: Dopamine agonists over-stimulate reward pathways
+g: New gambling and shopping on a dopamine agonist is a drug-induced impulse control disorder
+f: compulsive extra levodopa doses beyond need => Dopamine dysregulation from levodopa
+
+@h0858
+c: Parkinson's disease | reduced as far as possible
+m: Most antipsychotics block dopamine; quetiapine does so weakly
+g: Psychosis in Parkinson's: quetiapine
+
+@h0859
+c: worse in the evening | Acetylcholine receptor antibodies are positive
+m: Blocking acetylcholinesterase leaves more acetylcholine at the junction
+g: Myasthenia gravis symptoms: pyridostigmine first
+
+@h0860
+c: pyridostigmine | hypertension and palpitations | Pulse rate 58
+m: Beta-blockers impair neuromuscular transmission
+g: Myasthenia worse after a new drug for hypertension and palpitations: bisoprolol
+
+@h0861
+c: chest infection | difficulty swallowing | FVC 1.2 litres
+m: IVIG or plasma exchange rapidly reduce antibody effect in a crisis
+g: Myasthenic crisis: IV immunoglobulin
+
+@h0862
+c: electric-shock pains | chewing, cold wind | corneal reflex
+m: Carbamazepine calms the irritated trigeminal nerve
+g: Trigeminal neuralgia: carbamazepine
+f: burning feet in diabetes => Amitriptyline
+f: a migraine attack => Sumatriptan
+
+@h0863
+c: COPD | modified-release morphine | pregabalin
+m: Gabapentinoids with opioids add to breathing suppression
+g: Pregabalin with an opioid in COPD: risk of respiratory depression
+
+@h0864
+c: starting amitriptyline
+m: Low doses are enough for neuropathic pain and limit side effects
+g: Neuropathic pain: amitriptyline 10 mg at night
+
+@h0865
+c: sensory level at T10 | metastatic spinal cord compression
+m: Dexamethasone reduces cord oedema while definitive treatment is arranged
+g: Metastatic cord compression: dexamethasone 16 mg straight away
+
+@h0866
+c: GCS has dropped from 13 to 8 | right pupil is now larger
+m: Mannitol draws water out of the brain to lower pressure
+g: Signs of herniation while awaiting surgery: mannitol
+f: swelling around a brain tumour => Dexamethasone
+f: preventing vasospasm after SAH => Nimodipine
+
+@h0867
+c: acetazolamide | Bicarbonate 18 | B12 is normal
+m: Acetazolamide blocks carbonic anhydrase, causing bicarbonate loss and tingling
+g: Tingling with a low bicarbonate on acetazolamide: the acetazolamide
+f: a low B12 with a high MCV => B12 deficiency
+
+@h0868
+c: 78 year old woman | citalopram 40 mg | QTc of 450
+m: Citalopram prolongs the QT in a dose-related way
+g: Citalopram over 65: reduce the dose to 20 mg
+f: a 40 year old with a normal ECG => Continue unchanged
+
+@h0869
+c: sertraline | naproxen
+m: SSRIs with NSAIDs sharply raise GI bleeding risk
+g: SSRI with an NSAID: add omeprazole
+
+@h0870
+c: paroxetine | stopped it suddenly 3 days ago | electric-shock sensations | no clonus or tremor
+m: Short half-life SSRIs cause withdrawal symptoms when stopped suddenly
+g: Dizziness and brain zaps days after stopping paroxetine is discontinuation syndrome
+f: agitation, clonus and fever after adding tramadol => Serotonin syndrome
+f: worry and tension returning weeks after stopping => Relapse of anxiety

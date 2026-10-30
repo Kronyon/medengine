@@ -1,0 +1,121 @@
+@h0271
+c: hairy man | lorry driver | top of his natal cleft | small pits in the midline
+m: Loose hairs drill into the natal cleft skin, forming sinuses that get infected
+g: Midline pits with hairs and an abscess at the top of the natal cleft is a pilonidal sinus
+f: a tender fluctuant swelling right beside the anus => Perianal abscess
+f: recurrent painful nodules and tracts in the armpits and groins => Hidradenitis suppurativa
+
+@h0272
+c: perianal abscess drained 4 months ago | never fully healed | external opening
+m: An abscess can leave a track from the anal canal to the skin
+g: A persistent discharging opening after an abscess is a fistula: MRI pelvis maps it
+
+@h0273
+c: high trans-sphincteric | three vaginal deliveries | mild urgency
+m: Cutting through most of the external sphincter risks incontinence
+g: A high fistula crossing most of the sphincter: seton
+f: a low intersphincteric fistula => Fistulotomy
+
+@h0274
+c: bright red blood on the toilet paper | prolapse on straining and reduce spontaneously | bleeding continues
+m: Bands cut off blood to the haemorrhoid, which falls off
+g: Grade 2 haemorrhoids still bleeding after fibre: rubber band ligation
+f: prolapse that cannot be pushed back => Haemorrhoidectomy
+
+@h0275
+c: do not hurt
+m: The lining above the dentate line has visceral nerves that do not feel pain
+g: Internal haemorrhoids arise above the dentate line
+
+@h0276
+c: 66 year old man | looser and more frequent | 6 weeks
+m: Haemorrhoids are common and do not explain a change in bowel habit
+g: Bleeding with a change in bowel habit over 60: suspected cancer referral
+f: a 30 year old with bleeding and no red flags => Band the haemorrhoids
+
+@h0277
+c: tearing pain on opening her bowels | for 4 days | constipated | posterior midline
+m: Hard stool tears the anoderm; sphincter spasm keeps it from healing
+g: An acute fissure under 1 week: laxatives and lidocaine gel
+f: the fissure has lasted 8 weeks => Topical GTN ointment
+
+@h0278
+c: very anxious about being examined because of the pain
+m: A fissure is usually visible without putting anything into the anus
+g: Suspected fissure: gently part the buttocks to look
+f: severe pain with nothing visible => Examination under sedation first
+
+@h0279
+c: botulinum toxin | 3 weeks ago | leakage of wind
+m: Botulinum toxin relaxes the sphincter for about 3 months
+g: Minor incontinence after botulinum toxin is usually temporary
+
+@h0280
+c: known diverticulosis | large volume of fresh red blood | no abdominal pain
+m: A vessel stretched over a diverticulum ruptures and bleeds heavily without pain
+g: Sudden heavy painless fresh bleeding with diverticulosis is a diverticular bleed
+f: left-sided pain then bloody diarrhoea in a vascular patient => Ischaemic colitis
+f: recurrent slow painless bleeding with anaemia and aortic stenosis => Angiodysplasia
+
+@h0281
+c: recurrent urinary tract infections | bubbles in his urine | debris | diverticular disease
+m: Inflamed colon sticks to the bladder and a fistula forms
+g: Pneumaturia and faecaluria with diverticular disease is a colovesical fistula
+f: faeces passed per vagina after a hysterectomy => Colovaginal fistula
+
+@h0282
+c: 6 cm pericolic abscess | no free gas
+m: Large collections need draining; antibiotics alone do not penetrate pus
+g: A diverticular abscess over 3 cm: CT-guided drainage and antibiotics
+f: free gas with faecal peritonitis => Emergency Hartmann's procedure
+
+@h0283
+c: peripheral arterial disease and atrial fibrillation | sudden left-sided abdominal pain | A few hours later he passed bloody diarrhoea
+m: Low flow or emboli starve watershed colon such as the splenic flexure
+g: Sudden left-sided pain then bloody diarrhoea in a vascular patient is ischaemic colitis
+f: painless heavy bleeding from known diverticula => Diverticular bleed
+f: bloody diarrhoea with fever after undercooked chicken => Infective colitis
+
+@h0284
+c: Pulse rate 120 bpm | BP 100/62
+m: Shock index is heart rate divided by systolic pressure
+g: 120 divided by 100 is 1.2
+f: pulse 100 with a systolic of 100 => 1.0
+f: pulse 150 with a systolic of 100 => 1.5
+
+@h0285
+c: apixaban | shock index is over 1 | last apixaban dose this morning
+m: Ongoing anticoagulation fuels the bleed; a specific reversal agent exists
+g: Life-threatening bleed on apixaban: stop it and reverse
+f: she is on warfarin => Give vitamin K
+
+@h0286
+c: new constipation | lost 4 kg without trying | MCV 78
+m: A tumour narrowing the colon changes habit and bleeds slowly, causing iron deficiency
+g: New change in habit with weight loss and iron deficiency: FIT and suspected cancer referral
+f: a 30 year old with lifelong constipation and no red flags => Dietary fibre advice
+
+@h0287
+c: rate control drug was changed | because of asthma
+m: Beta-blockers are avoided in asthma; verapamil relaxes gut smooth muscle
+g: Rate control switched for asthma, then constipation: verapamil
+
+@h0288
+c: difficulty passing urine | numbness around his anus | reduced anal tone | 700 mL
+m: A central disc compresses the sacral roots supplying the bladder, bowel and saddle
+g: Saddle anaesthesia with retention is cauda equina syndrome: emergency MRI
+
+@h0289
+c: sore throat 2 days ago | cervical lymphadenopathy | moves when he lies on his left side | Rovsing's sign is negative
+m: Viral infection enlarges mesenteric nodes, which move with the bowel
+g: Shifting tenderness after a viral illness with nodes and no guarding is mesenteric adenitis
+f: pain moving to the right iliac fossa with anorexia and guarding => Acute appendicitis
+f: colicky pain with redcurrant jelly stool in an infant => Intussusception
+f: dysuria and frequency with fever => Urinary infection
+
+@h0290
+c: 66 year old man | bowel habit change
+m: In older patients right iliac fossa pain may be a caecal cancer
+g: Right iliac fossa pain in an older patient: CT abdomen and pelvis
+f: a young man with classic features => Diagnostic laparoscopy first
+f: a young woman with a possible gynaecological cause => Transabdominal ultrasound

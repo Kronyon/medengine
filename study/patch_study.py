@@ -194,6 +194,9 @@ for _q in D['hq']['q']:
 # v2.7: lay out the 🔨 and 🎓 questions the way the MSCAA and MS AKT papers do (snap/mscaa.py)
 import mscaa as _msc
 _msc.apply(D)
+import maps as _maps
+_mm, _merr = _maps.apply(D)
+print('thought maps', sum(1 for k in ('hq', 'mock', 'off') for q in D[k]['q'] if q.get('tm')), 'attached;', len(_merr), 'problems')
 _V4 = json.load(open(MEDAPP / 'build' / 'osce_data_v4.json', encoding='utf-8'))
 _dgu = {}
 for _st in sorted(_V4['stations'], key=lambda x: (not x.get('core'), x['id'])):
@@ -214,14 +217,14 @@ mev_css = open(MEDAPP / 'src' / 'mev.css', encoding='utf-8').read()
 mev_js = open(MEDAPP / 'src' / 'mev.js', encoding='utf-8').read()
 dg_js = '\n'.join(open(MEDAPP / 'src' / f, encoding='utf-8').read() for f in ('dg_core.js', 'dg_cards.js', 'dg_ex.js', 'dg_img.js', 'dg_more.js', 'dg_new.js', 'dg_snap.js', 'dg_poster.js', 'dg_figs.js', 'trg.js'))
 ext_css = open(HERE / 'ext_study.css', encoding='utf-8').read()
-ext_js = open(HERE / 'ext_study.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v07.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v08.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v11.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v12.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v15.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v20.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v21.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v22.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v271.js', encoding='utf-8').read()
-ext_css += open(HERE / 'ext_v07.css', encoding='utf-8').read() + open(HERE / 'ext_v08.css', encoding='utf-8').read() + open(HERE / 'ext_v11.css', encoding='utf-8').read() + open(HERE / 'ext_v12.css', encoding='utf-8').read() + open(HERE / 'ext_v15.css', encoding='utf-8').read() + open(HERE / 'ext_v20.css', encoding='utf-8').read() + open(HERE / 'ext_v21.css', encoding='utf-8').read() + open(HERE / 'ext_v22.css', encoding='utf-8').read() + open(HERE / 'ext_v271.css', encoding='utf-8').read()
+ext_js = open(HERE / 'ext_study.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v07.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v08.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v11.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v12.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v15.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v20.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v21.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v22.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v271.js', encoding='utf-8').read() + '\n' + open(HERE / 'ext_v273.js', encoding='utf-8').read()
+ext_css += open(HERE / 'ext_v07.css', encoding='utf-8').read() + open(HERE / 'ext_v08.css', encoding='utf-8').read() + open(HERE / 'ext_v11.css', encoding='utf-8').read() + open(HERE / 'ext_v12.css', encoding='utf-8').read() + open(HERE / 'ext_v15.css', encoding='utf-8').read() + open(HERE / 'ext_v20.css', encoding='utf-8').read() + open(HERE / 'ext_v21.css', encoding='utf-8').read() + open(HERE / 'ext_v22.css', encoding='utf-8').read() + open(HERE / 'ext_v271.css', encoding='utf-8').read() + open(HERE / 'ext_v273.css', encoding='utf-8').read()
 assert '</script' not in mev_js and '</script' not in ext_js and '</script' not in dg_js
 rep('<header class="top">', '<style>\n' + mev_css + ext_css + '</style>\n<header class="top">')
 rep('<script id="qqdata" type="application/json">', '<script>\n' + mev_js + '</script>\n<script>\n' + dg_js + '</script>\n<script id="qqdata" type="application/json">')
 
 # ---------- version ----------
-rep('<small>v0.5.0 beta</small>', '<small>v2.7.2</small>')
+rep('<small>v0.5.0 beta</small>', '<small>v2.7.3</small>')
 rep('const fmtRich = t => fmtPlain(t)', 'const fmtRich = t => dualHtml(t) || fmtRich0(t);\nconst fmtRich0 = t => fmtPlain(t)')
 
 # ---------- script hooks ----------

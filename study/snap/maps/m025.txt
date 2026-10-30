@@ -1,0 +1,134 @@
+@h0011
+c: milky discharge from both nipples | not had a period for 6 months | headaches | prolactin is 4,000
+m: A prolactin-secreting pituitary tumour switches off ovulation and makes milk
+g: Very high prolactin with headaches: MRI pituitary
+f: a lump with blood-stained discharge from one duct => Mammogram
+
+@h0012
+c: pituitary macroadenoma consistent with a prolactinoma | visual fields are normal | try for a baby
+m: Dopamine agonists switch off prolactin and shrink the tumour
+g: Prolactinoma: cabergoline first line
+f: a growth hormone-secreting tumour with acromegaly => Octreotide
+f: an oestrogen receptor-positive breast cancer before the menopause => Tamoxifen
+
+@h0013
+c: stopped breastfeeding | smooth, non-tender, fluctuant lump | thick milky fluid
+m: A blocked duct after lactation fills with milk, forming a cyst
+g: Painless milk-filled lump after breastfeeding is a galactocele
+f: fever with a tender red fluctuant lump while feeding => Breast abscess
+f: clear yellow fluid in a perimenopausal woman => Breast cyst
+
+@h0014
+c: soft, doughy, mobile | well-defined fatty lesion
+m: Benign fat cells form a soft mobile lump with typical fatty imaging
+g: Soft doughy lump with fatty imaging is a lipoma
+f: a hard irregular lump after a seatbelt injury => Fat necrosis
+f: a rubbery mobile lump in a 20 year old => Fibroadenoma
+
+@h0015
+c: tender, cord-like band | wide local excision | 3 weeks ago | more obvious when she raises her arm
+m: A superficial breast vein clots and inflames after surgery or minor trauma
+g: Tender cord on the lateral breast is Mondor's disease, superficial thrombophlebitis
+f: diffuse redness with peau d'orange over weeks => Inflammatory carcinoma
+f: red streaks spreading towards the axilla with fever => Lymphangitis
+
+@h0016
+c: red, scaly, crusted area over the right nipple | not improved after 4 weeks of a moderate-potency steroid cream | left nipple is normal
+m: Cancer cells spread from the ducts into the nipple skin, causing an eczema-like rash
+g: One-sided nipple eczema starting on the nipple and failing steroids is Paget's
+f: a rash starting on the areola of both breasts that clears with steroids => Atopic eczema of the nipple
+f: a rash only where a new bra or cream touched => Allergic contact dermatitis
+
+@h0017
+c: not breastfeeding | flucloxacillin has not helped | skin pitting like orange peel | firm left axillary lymph node
+m: Cancer cells block the dermal lymphatics, causing a swollen red breast with peau d'orange
+g: Diffuse red breast with peau d'orange not responding to antibiotics is inflammatory cancer
+f: a breastfeeding woman with fever and a red wedge => Cellulitis of the breast
+f: a smoker with a recurrent tender subareolar lump => Periductal mastitis
+
+@h0018
+c: went through the menopause 3 years ago | oestrogen receptor positive and HER2 negative
+m: After the menopause, oestrogen comes from aromatase in fat; blocking it starves the cancer
+g: ER-positive cancer after the menopause: an aromatase inhibitor
+f: HER2-positive disease => Trastuzumab
+f: premenopausal and high risk, needing ovarian suppression => Letrozole with goserelin
+
+@h0019
+c: mother was diagnosed with breast cancer at 40 | sister at 42
+m: Two first-degree relatives with early cancer suggest an inherited gene
+g: Strong family history: refer to a family history clinic
+f: a single relative diagnosed at 75 => Wait until 50 for screening
+
+@h0020
+c: called back for more tests | first invitation for NHS breast screening
+m: About 4% of screening mammograms need further assessment, and most recalled women do not have cancer
+g: About 1 in 25 are recalled
+f: asked how many screened women are found to have cancer => About 1 in 100
+
+@h0021
+c: BRCA1 gene mutation | 30 year old woman | not yet ready to consider risk-reducing surgery
+m: MRI finds cancers earlier in dense young breasts at very high risk
+g: BRCA carrier aged 30 to 49: annual MRI
+f: moderate risk in her 40s from family history => Annual mammogram from 50
+
+@h0022
+c: above and medial to the pubic tubercle | cough impulse | reduces easily
+m: Bowel or fat pushes through the inguinal canal on straining
+g: Reducible groin lump above and medial to the pubic tubercle is an inguinal hernia
+f: a lump below and lateral to the pubic tubercle in an older woman => Femoral hernia
+f: a soft groin swelling that disappears lying down and has a thrill with varicose veins => Saphena varix
+
+@h0023
+c: presses over the midpoint of the inguinal ligament | does not reappear until the pressure is removed
+m: An indirect hernia passes through the deep ring at the midpoint of the inguinal ligament
+g: Controlled by pressure over the deep ring: indirect inguinal hernia
+f: it still comes out despite pressure on the deep ring => Direct inguinal
+f: it lies below and lateral to the pubic tubercle => Femoral
+
+@h0024
+c: thin and frail | pain along the inner side of her right thigh | no groin swelling | loop of small bowel trapped next to the right side of the pelvis
+m: Bowel trapped in the obturator canal presses on the obturator nerve, causing medial thigh pain
+g: Obstruction in a thin older woman with medial thigh pain is an obturator hernia
+f: a tender lump below the inguinal ligament => Femoral hernia
+f: a lump through an old operation scar => Incisional hernia
+
+@h0025
+c: popliteal artery aneurysm | 74 year old man | ex-smoker
+m: Aneurysms often occur at several sites; half with popliteal aneurysms have an AAA
+g: Popliteal aneurysm: scan the abdominal aorta
+f: asked which other site to check after an AAA is found => Venous duplex of the leg
+
+@h0026
+c: popliteal artery aneurysm | cold, pale and mottled | no palpable pulses below the right knee
+m: Popliteal aneurysms clot or embolise rather than rupture
+g: Sudden ischaemia below a known popliteal aneurysm is thrombosis of the aneurysm
+f: a painful swollen calf with normal pulses => Popliteal deep vein thrombosis
+f: a sudden calf pain and swelling in someone with knee arthritis => Ruptured Baker's cyst
+
+@h0027
+c: osteoarthritis of both knees | non-pulsatile swelling | firmer with the knee extended
+m: Joint fluid from an arthritic knee fills a bursa behind the knee
+g: Non-pulsatile popliteal swelling with knee arthritis is a Baker's cyst
+f: an expansile pulsating swelling behind the knee => Popliteal artery aneurysm
+f: a hard, growing deep mass over months => Sarcoma
+
+@h0028
+c: Sensation to light touch is normal | can move his toes and ankle normally | Arterial Doppler signals are audible
+m: The Rutherford category depends on sensory loss, weakness and Doppler signals
+g: No sensory loss, no weakness, audible arterial Doppler: category I viable
+f: sensory loss limited to the toes, no weakness => Category IIa marginally threatened
+f: sensory loss beyond the toes with some weakness => Category IIb immediately threatened
+f: paralysis and a fixed mottled limb => Category III irreversible
+
+@h0029
+c: acute embolic limb ischaemia | preparing for embolectomy
+m: Heparin stops the clot extending and can be reversed before surgery
+g: Acute limb ischaemia before embolectomy: IV unfractionated heparin
+f: after a successful embolectomy, planning long-term prevention in AF => Apixaban loading dose
+
+@h0030
+c: Four hours after surgery | severe pain on passive dorsiflexion | swollen and tense | Pedal pulses are palpable
+m: Reperfusion swells muscle inside tight fascia, compressing nerves and vessels
+g: Pain out of proportion and on passive stretch after reperfusion is compartment syndrome
+f: the pulses disappear again with a white foot => Arterial reocclusion
+f: a red, warm, spreading area around the wound with fever => Cellulitis

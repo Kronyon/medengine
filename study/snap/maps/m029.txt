@@ -1,0 +1,121 @@
+@h0091
+c: end joints | scaly patches in his scalp | pitting and onycholysis | distal interphalangeal joints
+m: Psoriatic inflammation involves the entheses and nail bed next to the DIP joints
+g: DIP arthritis with nail pitting and psoriasis is psoriatic arthritis
+f: arthritis with urethritis and conjunctivitis after an infection => Reactive arthritis
+f: symmetrical MCP and wrist swelling with long morning stiffness => Rheumatoid arthritis
+f: bony DIP swellings in an older woman with no psoriasis => Osteoarthritis
+
+@h0092
+c: well controlled with topical treatment for years | new medicine was started by her psychiatrist
+m: Lithium, beta-blockers, antimalarials and NSAIDs can flare psoriasis
+g: Psoriasis flare after a psychiatric drug: lithium
+
+@h0093
+c: sore throat 2 weeks ago | droplet-shaped, red, scaly papules
+m: A strep infection triggers many small psoriasis plaques at once
+g: Droplet scaly papules after a sore throat is guttate psoriasis
+f: a herald patch then oval patches along skin lines => Pityriasis rosea
+f: widespread sterile pustules after stopping steroids => Pustular psoriasis
+f: red scaly skin over 90% of the body => Erythrodermic psoriasis
+
+@h0094
+c: 2 courses of oral lymecycline | nodules and cysts | scarring
+m: Isotretinoin shrinks sebaceous glands and is the only drug that changes severe acne long term
+g: Scarring nodulocystic acne after failed antibiotics: refer for isotretinoin
+f: mild comedonal acne => Topical benzoyl peroxide
+
+@h0095
+c: isotretinoin | sexually active
+m: Isotretinoin causes severe birth defects
+g: Isotretinoin: pregnancy prevention matters most
+
+@h0096
+c: open and closed comedones | 15 inflamed papules and pustules | no nodules, cysts or scars
+m: Retinoids unblock pores and benzoyl peroxide kills bacteria without resistance
+g: Mild to moderate acne: adapalene with benzoyl peroxide
+
+@h0097
+c: 1.5 cm | deeper layers of the skin | no fluid
+m: Lesions are named by size, depth and whether they hold fluid
+g: A solid raised lesion over 1 cm felt deep in the skin is a nodule
+f: a solid raised lesion under 1 cm => Papule
+f: a flat-topped raised area wider than 1 cm but not deep => Plaque
+f: a flat change in colour only => Macule
+
+@h0098
+c: 40% of her body surface area | 35.6°C | raw, weeping dermis
+m: Without the skin barrier, heat, fluid and protein escape and infection gets in
+g: Acute skin failure: hypothermia and fluid loss
+
+@h0099
+c: carbamazepine | over 35% of her body | peels away with gentle lateral pressure | erosions on the lips and buccal mucosa
+m: A drug reaction kills keratinocytes so the epidermis sloughs off with mucosal erosions
+g: Drug-triggered detachment over 30% with mucosal erosions is TEN
+f: tense blisters without mucosal erosions in an older person => Bullous pemphigoid
+f: target lesions after a cold sore => Erythema multiforme
+f: a febrile young child with no mucosal erosions => Staphylococcal scalded skin
+
+@h0100
+c: HbA1c 44 | Fasting glucose 6.5 | BMI is 31
+m: Glucose is raised but below the diabetes threshold
+g: HbA1c 42 to 47 is non-diabetic hyperglycaemia
+f: HbA1c of 48 or more on two tests => Type 2 diabetes
+f: HbA1c under 42 => Normal glucose control
+
+@h0101
+c: admitted with heart failure | HbA1c 62 | eGFR 64
+m: SGLT2 inhibitors cut heart failure admissions and protect the kidneys
+g: Type 2 diabetes with heart failure: add an SGLT2 inhibitor
+
+@h0102
+c: dapagliflozin | eating very little | Ketones 4.2 | Glucose 11
+m: SGLT2 inhibitors keep glucose low through the urine, so ketoacidosis hides behind a near-normal sugar
+g: Ketoacidosis with near-normal glucose on an SGLT2 inhibitor is euglycaemic DKA
+f: glucose of 40 with no ketones and high osmolality => Hyperosmolar hyperglycaemic state
+f: high lactate with normal ketones => Metformin lactic acidosis
+
+@h0103
+c: fixed-rate intravenous insulin infusion | target fall in blood ketones per hour
+m: Insulin switches off ketone production; recovery is tracked hourly
+g: Ketones should fall by 0.5 per hour
+
+@h0104
+c: potassium 3.2 | passing urine
+m: Insulin drives potassium into cells, so levels fall during treatment
+g: Potassium under 5.5 while passing urine: add potassium to the fluids
+
+@h0105
+c: Capillary glucose 13 | Capillary ketones 2.5 | pH 7.28
+m: Insulin is still needed to clear ketones; glucose stops it causing hypoglycaemia
+g: Glucose under 14 with ketones still high: add 10% glucose and keep the insulin
+f: ketones under 0.6, pH normal and eating => Switch to subcutaneous insulin
+
+@h0106
+c: Sodium 148 | Urea 30 | Glucose 40
+m: Osmolality is twice the sodium plus glucose plus urea
+g: 2 times 148 plus 40 plus 30 is 366
+f: asked for the effective osmolality, leaving out urea => 336 mOsm/kg
+
+@h0107
+c: glucose has fallen from 52 to 34 | sodium has risen from 148 to 151 | fallen gradually from 362 to 352
+m: As glucose falls, water moves back into cells, so sodium rises at first
+g: Sodium rising while osmolality falls slowly is an expected water shift
+f: osmolality falling over 3 per hour with a new headache => Early sign of cerebral oedema
+
+@h0108
+c: capillary refill is 4 seconds | Ketones 0.4 | osmolality 368
+m: HHS is mostly a huge fluid deficit; fluids alone lower glucose
+g: HHS: 0.9% saline first
+
+@h0109
+c: each morning | improve after breakfast | gliclazide 80 mg twice daily | now 30
+m: Sulfonylureas are cleared by the kidneys, so falling eGFR and eating less cause hypoglycaemia
+g: Morning confusion relieved by food on a sulfonylurea is hypoglycaemia
+f: sudden one-sided weakness lasting minutes => Transient ischaemic attacks
+
+@h0110
+c: 1.9 mmol/L | cannot swallow | intravenous access have failed
+m: Glucagon releases liver glycogen and works by intramuscular injection
+g: Unconscious hypoglycaemia with no IV access: IM glucagon
+f: awake and able to swallow => Oral fruit juice

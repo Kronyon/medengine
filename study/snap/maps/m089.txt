@@ -1,0 +1,118 @@
+@h1291
+c: injects drugs | left lower sternal edge | septic emboli
+m: Skin bacteria injected into veins seed the tricuspid valve
+g: Right-sided endocarditis with septic lung emboli in an injecting drug user is Staph aureus
+f: weeks of low-grade fever after dental work => Viridans group streptococci
+f: weeks after valve surgery => Staphylococcus epidermidis
+
+@h1292
+c: 6 weeks ago
+m: Skin organisms contaminate the prosthetic valve at surgery
+g: Early prosthetic valve endocarditis is Staphylococcus epidermidis
+f: endocarditis on a native valve after dental work => Viridans group streptococci
+
+@h1293
+c: Streptococcus gallolyticus
+m: Strep gallolyticus enters the blood through colonic tumours
+g: Strep gallolyticus endocarditis: colonoscopy
+f: viridans streptococci after a dental extraction => Dental X-ray
+
+@h1294
+c: lost weight | no fever | new right-sided pleural effusion
+m: Fluid analysis separates cancer, infection and transudates
+g: New one-sided effusion: diagnostic pleural tap
+
+@h1295
+c: not settled | cloudy | pH of 7.08
+m: Acidic infected fluid will not clear with antibiotics alone
+g: Parapneumonic effusion with pH under 7.2: insert a chest drain
+f: clear fluid with a pH of 7.40 => Continue antibiotics
+
+@h1296
+c: Pleural fluid protein 30 | Serum protein 50 | LDH 160 | 230
+m: Light's criteria compare fluid protein and LDH with serum
+g: A protein ratio of 0.6 meets Light's criteria: exudate
+f: protein ratio 0.4 with a low LDH => Transudate
+f: milky fluid with high triglycerides => Chylothorax
+
+@h1297
+c: heavy periods | eats meat | Ferritin 6
+m: Blood loss drains iron stores
+g: Microcytic anaemia with a low ferritin is iron deficiency anaemia
+f: normal ferritin with a very low MCV and raised HbA2 => Beta thalassaemia trait
+f: inflammation with a high ferritin => Anaemia of chronic disease
+
+@h1298
+c: 67 year old man | no gut symptoms | Ferritin 5
+m: Iron deficiency in an older man suggests occult GI bleeding from cancer
+g: Iron deficiency anaemia at 60 or over: suspected cancer referral
+f: a 30 year old woman with heavy periods => Oral iron and review
+
+@h1299
+c: non-ST elevation myocardial infarction 3 days ago | Haemoglobin 78
+m: Recent ACS needs a higher haemoglobin to supply the heart
+g: Recent ACS with Hb under 80: transfuse 1 unit and recheck
+f: the same haemoglobin with no heart disease => No transfusion
+
+@h1300
+c: deviated to the left | hyper-resonant | BP 78/40 | neck veins are distended
+m: A one-way leak builds pressure that shifts the mediastinum and stops venous return
+g: Tension pneumothorax: needle or finger thoracostomy on the right
+f: breathless but trachea central and blood pressure normal => Chest X-ray
+
+@h1301
+c: COPD | SpO2 88% | 2.5 cm rim
+m: A pneumothorax in diseased lungs is poorly tolerated
+g: Secondary pneumothorax over 2 cm or breathless: chest drain insertion
+f: a rim under 1 cm and comfortable => Oxygen and observation
+
+@h1302
+c: scuba diving | has not had surgery
+m: Pressure changes underwater can re-expand a hidden bleb into a tension pneumothorax
+g: Pneumothorax without surgical pleurodesis: avoid diving permanently
+
+@h1303
+c: 28% oxygen for an hour | pH 7.28 | PaCO2 8.1
+m: Ventilatory support blows off CO2 when medical treatment has not
+g: Persistent respiratory acidosis after an hour of treatment: NIV with BiPAP
+
+@h1304
+c: anxious | tingling | pH 7.50 | PaCO2 3.1 | Bicarbonate 23
+m: Overbreathing blows off CO2 faster than the kidneys can respond
+g: High pH, low CO2 and normal bicarbonate is uncompensated respiratory alkalosis
+f: pH 7.30 with low bicarbonate and low CO2 => Metabolic acidosis with respiratory compensation
+
+@h1305
+c: Chloride 114 | Bicarbonate 14 | Glucose 5.6
+m: Bicarbonate lost in stool is replaced by chloride, so the gap stays normal
+g: Normal anion gap acidosis with high chloride: severe diarrhoea
+f: a raised gap with high glucose and ketones => Diabetic ketoacidosis
+
+@h1306
+c: hip replacement 10 days ago | Wells score for pulmonary embolism is 6
+m: A Wells score over 4 makes PE likely, so image directly
+g: PE likely: CT pulmonary angiogram
+f: a Wells score of 4 or less => D-dimer
+
+@h1307
+c: antiphospholipid syndrome
+m: DOACs fail more often than warfarin in antiphospholipid syndrome
+g: Antiphospholipid syndrome with PE: warfarin
+f: no antiphospholipid syndrome and normal kidneys => Apixaban
+
+@h1308
+c: right ventricular strain | 76/48 | no contraindications
+m: Thrombolysis rapidly clears a clot that is causing shock
+g: Massive PE with hypotension: thrombolysis with alteplase
+f: normal blood pressure with right heart strain => Low molecular weight heparin
+
+@h1309
+c: Covid-19 pneumonia | SpO2 89%
+m: Steroids reduce the harmful inflammatory phase in hypoxic Covid
+g: Covid-19 needing oxygen: dexamethasone 6 mg daily
+
+@h1310
+c: rituximab | day 3 | SpO2 97% | no other interacting medicines
+m: Early antivirals reduce progression in high-risk patients
+g: High-risk Covid-19 not needing oxygen within 5 days: nirmatrelvir plus ritonavir
+f: hypoxic and needing oxygen => Dexamethasone 6 mg daily

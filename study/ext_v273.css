@@ -1,0 +1,36 @@
+
+/* v2.7.3 ⚡ thought map */
+.tm{border:1px solid var(--line);border-radius:12px;padding:12px;margin:12px 0;background:var(--surface)}
+.tm-h{font-weight:700;margin:0 0 8px}
+.tm-row{display:flex;align-items:stretch;gap:6px}
+.tm-n{flex:1 1 0;min-width:0;border-radius:10px;padding:8px 10px;border:1.5px solid;display:flex;flex-direction:column;gap:4px;line-height:1.35}
+.tm-k{font-size:.72rem;font-weight:700;letter-spacing:.02em;text-transform:uppercase;opacity:.85}
+.tm-v{font-size:.92rem}
+.tm-c{border-color:#e0b400;background:rgba(255,228,92,.16)}
+.tm-m{border-color:#7a8cff;background:rgba(122,140,255,.12)}
+.tm-g{border-color:#f08a3c;background:rgba(240,138,60,.12)}
+.tm-w{border-color:#10b981;background:rgba(16,185,129,.13)}
+.tm-cue{display:block}
+.tm-cue+.tm-cue{margin-top:3px}
+.tm-cue::before{content:'• ';opacity:.6}
+.tm-a{flex:0 0 auto;align-self:center;font-weight:700;opacity:.65}
+.tm-a::before{content:'➔'}
+.tm-fl{margin:8px 0 0;padding:6px 0 0 12px;border-left:3px solid #f08a3c;display:flex;flex-direction:column;gap:5px}
+.tm-fk{font-size:.78rem;opacity:.75}
+.tm-f{display:flex;gap:6px;font-size:.92rem;line-height:1.4}
+.tm-fa{flex:0 0 auto;opacity:.8}
+.tm-fx{opacity:.7}
+.tm-score{margin:8px 0 0;font-size:.9rem}
+.tm-sc.ok{font-weight:600}
+.tm-u{text-decoration:underline 2px solid #10b981;text-underline-offset:3px}
+/* the deciding cues in the stem, shown only after you answer */
+.hq-cue{text-decoration:underline 2px solid #10b981;text-underline-offset:3px;text-decoration-skip-ink:none}
+.hq-lab tr.hq-cuerow td:first-child,.hq-lab tr.hq-cuerow td:nth-child(2){text-decoration:underline 2px solid #10b981;text-underline-offset:3px}
+@media (max-width:700px){
+  .tm-row{flex-direction:column}
+  .tm-a{align-self:flex-start;margin-left:14px;line-height:1}
+  .tm-a::before{content:'⬇'}
+}
+/* 🖍️ floating switch on touchscreens */
+.hq-penpill{position:fixed;right:max(12px,env(safe-area-inset-right,0px));bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:60;font:600 .9rem/1 -apple-system,BlinkMacSystemFont,sans-serif;padding:10px 14px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);color:inherit;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hq-penpill.on{border-color:#e0b400;background:#ffe45c;color:#1a1a1a}

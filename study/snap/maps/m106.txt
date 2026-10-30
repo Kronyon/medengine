@@ -1,0 +1,11 @@
+@h1631
+c: irrigated after a cement splash | Visual acuity 6/9
+m: Alkali keeps damaging until the surface pH is neutral
+g: Irrigation is complete when the pH is neutral, about 7.0 to 7.5
+f: the pH is still alkaline after 2 litres => pH 8.5
+
+@h1632
+c: punched in the right eye | double vision on looking up | Upward gaze is limited | numbness of the right cheek and upper lip
+m: A blow-out fracture traps the inferior rectus and injures the infraorbital nerve
+g: Limited upgaze with cheek numbness after a punch is an orbital floor fracture
+f: a flattened cheekbone with trismus and normal eye movements => Zygomatic arch fracture

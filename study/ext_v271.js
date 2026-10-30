@@ -1,8 +1,10 @@
 /* ===================== v2.7.1 · 🖍️ highlighter + ☁️ sync across devices + 📲 save transfer ===================== */
 
 /* ---------- 🖍️ highlighter: select or tap words in a question and they turn yellow, like Passmedicine ---------- */
-function hlPen(){ return S.set.hlPen !== false; }
-function hlPenToggle(){ S.set.hlPen = !hlPen(); save(); toast(hlPen() ? '🖍️ Highlighter on: select or tap words' : '🖍️ Highlighter off'); if (hqSess && !hqSess.done) hqDraw(); }
+/* the pen is set per device (on for a mouse, off for a touchscreen until you switch it on), so it is not synced */
+const HL_PEN_LS = 'medengine-dev-pen';
+function hlPen(){ let v = null; try { v = localStorage.getItem(HL_PEN_LS); } catch (e) {} return v == null ? !(window.matchMedia && matchMedia('(pointer: coarse)').matches) : v === '1'; }
+function hlPenToggle(){ const on = !hlPen(); try { localStorage.setItem(HL_PEN_LS, on ? '1' : '0'); } catch (e) {} toast(hlPen() ? '🖍️ Highlighter on: select or tap words' : '🖍️ Highlighter off'); if (hqSess && !hqSess.done) hqDraw(); }
 function hlGet(qid){ return (S.hl || {})[qid]; }
 function hlCount(qid){ const r = hlGet(qid); return r ? Object.values(r.b || {}).reduce((n, a) => n + a.length, 0) : 0; }
 function hlPut(qid, blocks){
@@ -108,13 +110,13 @@ function hlBtns(qid){
 /* ---------- ☁️ sync: the same Claude account on every device ---------- */
 /* One database document holds at most 256 KiB, so progress is split into parts and long parts into chunks.
    Each run, answer record and highlight is merged one by one, so two devices never wipe each other's work. */
-const SY_PARTS = ['core', 'hq', 'runs', 'weak', 'u', 'hl'], SY_CH = 90000;
+const SY_PARTS = ['core', 'hq', 'runs', 'weak', 'u', 'hl', 'ms'], SY_CH = 90000;
 const SY = {busy: false, dirty: false, last: {}, at: 0, err: '', on: false, lastPull: 0};
 function syPath(name, i){ return 'data/users/' + UID + '/s271-' + name + (i ? '-' + i : ''); }
 function sySplit(st){
   const c = JSON.parse(JSON.stringify(st)), p = {};
   p.hq = c.hq || {}; p.runs = {r: c.hqRuns || [], d: c.hqDel || {}}; p.weak = c.weak || {}; p.u = c.u || {}; p.hl = c.hl || {};
-  ['hq', 'hqRuns', 'hqDel', 'hqRun', 'weak', 'u', 'hl'].forEach(k => delete c[k]); p.core = c;
+  ['hq', 'hqRuns', 'hqDel', 'hqRun', 'weak', 'u', 'hl'].forEach(k => delete c[k]); p.core = c; p.ms = msLoad();
   const out = {}; SY_PARTS.forEach(k => out[k] = JSON.stringify(p[k])); return out;
 }
 function syJoin(parts){
@@ -182,6 +184,7 @@ async function syPull(force){
   if (!force && Date.now() - SY.lastPull < 8000) return; SY.lastPull = Date.now();
   try {
     const parts = {}; for (const k of SY_PARTS) parts[k] = await syReadPart(k);
+    if (parts.ms) { try { const loc = msLoad(), mg = msMerge(loc, JSON.parse(parts.ms)); if (JSON.stringify(mg) !== JSON.stringify(loc)) { msData = mg; try { localStorage.setItem(MS_LS, JSON.stringify(mg)); } catch (e) {} if (route.view === 'misses') render(); else refreshChrome(); } if (JSON.stringify(mg) !== parts.ms) { clearTimeout(dbTimer); dbTimer = setTimeout(pushDb, 3500); } } catch (e) {} }
     let R = syJoin(parts);
     if (!R) { const old = await DB.doc('data/users/' + UID + '/ilo').get(); if (old.exists) R = old.data(); }
     else SY_PARTS.forEach(k => { if (parts[k] != null) SY.last[k] = parts[k]; });
@@ -223,7 +226,7 @@ document.addEventListener('visibilitychange', () => {
 window.addEventListener('pagehide', () => { if (DB && UID) { clearTimeout(dbTimer); syPush(); } });
 
 /* ---------- 📲 move a save by file or code (works anywhere, including the offline and website copies) ---------- */
-const DEV_SKIP = /key|token|secret/i;
+const DEV_SKIP = /key|token|secret|-dev-/i;
 function devKeys(){ const a = []; try { for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (/^(qq-|medengine-)/.test(k) && !DEV_SKIP.test(k)) a.push(k); } } catch (e) {} return a.sort(); }
 function devBundle(){
   const ls = {}; devKeys().forEach(k => { try { ls[k] = localStorage.getItem(k); } catch (e) {} });
@@ -303,7 +306,7 @@ function devPaint(){
   const names = {'qq-drill-ilo-v1': 'Progress, Hammer runs, highlights and settings', 'medengine-misses-v1': '🔥 My misses', 'medengine-remix-v1': '🔄 Remix cards', 'medengine-shots-v1': '📋 Vault notes', 'medengine-ig-v1': '🖼️ Pictures'};
   box.querySelector('.dv-body').innerHTML =
     '<div class="dv-sec"><h4>☁️ Automatic sync</h4><p class="dv-st">' + esc(syStatus()) + '</p>'
-    + (SY.on ? '<div class="toolbar"><button class="btn primary sm" data-devsync>🔄 Sync now</button></div><p class="hint">Works when you open <b>this same STUDY page in Claude</b> (app or browser) while signed in to the same account. Your saved runs, answers, cross-outs, highlights, weak spots and streak follow you. 🔥 My misses and pasted images stay on each device: move those with a save file.</p>'
+    + (SY.on ? '<div class="toolbar"><button class="btn primary sm" data-devsync>🔄 Sync now</button></div><p class="hint">Works when you open <b>this same STUDY page in Claude</b> (app or browser) while signed in to the same account. Your saved runs, answers, cross-outs, highlights, 🔥 My misses, weak spots and streak follow you. Pasted 📋 vault images stay on the device that pasted them.</p>'
       : '<p class="hint">This copy is running outside Claude (the offline app or your website), so it cannot sync by itself. Use a save file or a save code below.</p>')
     + '</div><div class="dv-sec"><h4>📤 Send to another device</h4><p class="hint">This device holds ' + ans + ' answered questions, ' + runs + ' saved run' + (runs === 1 ? '' : 's') + ' and highlights on ' + hls + ' question' + (hls === 1 ? '' : 's') + '.</p>'
     + '<div class="toolbar"><button class="btn sm" data-devfile>💾 Save file</button><button class="btn sm" data-devcopy>📋 Copy save code</button><span class="hint" id="devCodeN"></span></div>'

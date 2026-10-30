@@ -1,0 +1,121 @@
+@h0311
+c: copper intrauterine device | mild pelvic inflammatory disease | wants to keep the device
+m: In mild PID antibiotics work with the device in place
+g: Mild PID with an IUD she wants to keep: leave it in and review in 72 hours
+
+@h0312
+c: new sexual partner | cervical motion tenderness
+m: Chlamydia and gonorrhoea ascend from the cervix to cause PID
+g: PID: NAAT for chlamydia and gonorrhoea
+f: a suspected adnexal mass or abscess => Transvaginal ultrasound scan
+
+@h0313
+c: bowel habit has changed | lost 6 kg | MCV 72 | dilated colon down to the sigmoid
+m: A growing tumour narrows the colon over months and bleeds slowly
+g: Large bowel obstruction with weight loss and iron deficiency is colorectal cancer
+f: a coffee bean loop with no weight loss in a care home resident => Sigmoid volvulus
+f: a tender irreducible groin lump => Strangulated hernia
+
+@h0314
+c: hysterectomy 10 years ago | no guarding or rebound | no signs of ischaemia
+m: Most adhesional obstructions settle with bowel rest and decompression
+g: Adhesional small bowel obstruction without ischaemia: NG tube and IV fluids
+f: peritonitis or signs of ischaemia => Emergency laparotomy
+
+@h0315
+c: hip fracture 3 days ago | regular morphine | hypokalaemia | no mechanical obstruction
+m: Opioids, low potassium and surgery paralyse colonic motility
+g: Massive colonic dilatation without a blockage after surgery is pseudo-obstruction
+f: a coffee bean loop rising from the pelvis => Sigmoid volvulus
+f: severe colitis with fever and a colon over 6 cm => Toxic megacolon
+
+@h0316
+c: pain at the tip of her left shoulder | 7 weeks ago | BP 90/58 | Urine pregnancy test is positive
+m: Blood from a ruptured tube irritates the diaphragm and causes shock
+g: Positive test, pain, shoulder tip pain and shock is a ruptured ectopic pregnancy
+f: a negative test with sudden one-sided pain and vomiting => Ovarian torsion
+f: bleeding and cramps with an open cervix and stable observations => Miscarriage
+
+@h0317
+c: fell onto his left side | pain at the tip of his left shoulder | left lower ribs
+m: Blood under the left diaphragm irritates the phrenic nerve, referring pain to the shoulder
+g: Left lower rib injury with left shoulder tip pain is a splenic injury
+f: right shoulder tip pain after a blow to the right side => Liver
+f: blood in the urine after a blow to the loin => Kidney
+
+@h0318
+c: Her skin has become darker | palmar creases and buccal mucosa | Sodium 126 | Potassium 6.1 | Glucose 3.1
+m: Without cortisol and aldosterone, salt is lost, potassium rises and blood pressure falls
+g: Shock with low sodium, high potassium, low glucose and pigmentation is an adrenal crisis
+f: glucose of 28 with ketones => Diabetic ketoacidosis
+
+@h0319
+c: prescription should be stopped
+m: NSAIDs reduce kidney blood flow and can cause acute kidney injury
+g: Avoid NSAIDs with an eGFR under 30
+
+@h0320
+c: breastfeeding | something stronger
+m: Ultra-rapid metabolisers turn codeine into lots of morphine, which passes into milk
+g: Breastfeeding: avoid codeine
+
+@h0321
+c: malignant bowel obstruction | colicky abdominal pain
+m: Antimuscarinics relax gut muscle and dry secretions
+g: Colic in malignant bowel obstruction: hyoscine butylbromide
+f: partial obstruction with nausea but no colic => Metoclopramide
+
+@h0322
+c: 70 kg | BP 88/54 | capillary refill is 4 seconds | no evidence of heart failure
+m: Hypovolaemia is corrected in boluses with reassessment
+g: Hypovolaemic shock: 500 ml crystalloid in under 15 minutes
+
+@h0323
+c: nil by mouth | not on a cardiac monitor | Potassium 2.9
+m: Fast IV potassium can cause arrhythmias, so peripheral rates stay at 10 mmol an hour
+g: Peripheral potassium: 40 mmol in 1 litre over at least 4 hours
+f: potassium of 3.2 and eating => Oral potassium tablets with water
+
+@h0324
+c: has not been drinking | Sodium 158
+m: Water loss raises sodium; correcting too fast swells brain cells
+g: Hypernatraemia from water loss: 5% glucose given slowly
+
+@h0325
+c: type 2 diabetes | no chest pain | ST depression in V4 to V6 | 410 ng/L
+m: Myocardial necrosis releases troponin; diabetics may have no pain
+g: A rising troponin with ischaemic ST depression is an NSTEMI
+f: ischaemic symptoms with a normal troponin => Unstable angina
+f: chest pain after emotional stress with apical ballooning => Takotsubo cardiomyopathy
+
+@h0326
+c: Pulse rate 38 bpm | II, III and aVF | complete heart block
+m: The right coronary artery supplies the inferior wall and the AV node
+g: Inferior STEMI with heart block is the right coronary artery
+f: ST elevation in V1 to V4 => Left anterior descending artery
+f: ST elevation in I, aVL, V5 and V6 => Left circumflex artery
+
+@h0327
+c: anterior myocardial infarction 4 days ago | pansystolic murmur at the apex radiating to the axilla | crackles
+m: Infarcted papillary muscle tears, causing sudden mitral regurgitation
+g: A new apical pansystolic murmur with pulmonary oedema days after MI is papillary muscle rupture
+f: a harsh pansystolic murmur at the left sternal edge with a thrill => Ventricular septal rupture
+f: raised JVP, muffled heart sounds and low blood pressure => Cardiac tamponade
+f: pleuritic pain and fever weeks later => Dressler syndrome
+
+@h0328
+c: Marfan syndrome | tearing chest pain radiating to his back | 168/94 mmHg in the right arm and 138/80 mmHg in the left arm
+m: A tear in the aortic wall lets blood split the layers and widen the aorta
+g: Aortic dissection on chest X-ray: widened mediastinum
+
+@h0329
+c: tears through his chest to his back | 172/98 mmHg in the left arm and 128/74 mmHg in the right arm | II, III and aVF
+m: Dissection can extend into the right coronary artery and mimic an inferior MI
+g: Inferior STEMI with tearing back pain and unequal arm pressures: CT aortic angiography first
+f: no back pain and equal pulses => Primary PCI
+
+@h0330
+c: type A aortic dissection | 156/52 | wide pulse pressure
+m: Dissection at the aortic root lets the valve leak
+g: Type A dissection with a wide pulse pressure: early diastolic murmur of aortic regurgitation
+f: a slow-rising pulse => Ejection systolic murmur at the right second space

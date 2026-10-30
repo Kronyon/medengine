@@ -1,0 +1,123 @@
+@h1091
+c: distorted central vision | wet age-related macular degeneration
+m: VEGF drives leaky new vessels under the macula
+g: Wet AMD: intravitreal anti-VEGF injections
+f: dry AMD => Vitamin supplements
+
+@h1092
+c: knows they are not real | Cognitive testing is normal | no features of parkinsonism
+m: The visual cortex makes its own images when input is lost
+g: Vivid hallucinations with insight in severe visual loss is Charles Bonnet syndrome
+f: fluctuating confusion with parkinsonism => Dementia with Lewy bodies
+f: fluctuating attention with an infection => Delirium
+
+@h1093
+c: sudden severe headache | pupil is dilated and does not react
+m: An aneurysm presses on the outer pupil fibres of the third nerve
+g: A painful third nerve palsy with a dilated pupil is a posterior communicating artery aneurysm
+f: a pupil-sparing palsy in diabetes => Diabetic microvascular third nerve palsy
+f: fatigable ptosis with normal pupils => Myasthenia gravis
+
+@h1094
+c: new vessels on the optic disc
+m: Retinal ischaemia drives new fragile vessels that can bleed
+g: New vessels on the disc is proliferative diabetic retinopathy
+f: hard exudates near the macula => Diabetic maculopathy
+f: cotton wool spots and venous beading without new vessels => Pre-proliferative retinopathy
+
+@h1095
+c: chiropractic neck manipulation | pain on the left side of her neck | small left pupil
+m: A tear in the carotid wall damages the sympathetic fibres around it
+g: Painful Horner syndrome after neck manipulation is carotid artery dissection
+f: Horner syndrome with hand wasting in a smoker => Pancoast tumour
+f: Horner syndrome with vertigo and crossed sensory loss => Lateral medullary stroke
+
+@h1096
+c: cement splashed
+m: Alkali keeps burning the eye until washed out
+g: Chemical eye injury: immediate irrigation
+
+@h1097
+c: sharp branch | teardrop-shaped | wound on the cornea
+m: The iris plugs a full-thickness hole and peaks the pupil
+g: Penetrating eye injury: rigid shield and urgent referral
+f: a superficial abrasion with an intact globe => Chloramphenicol and an eye pad
+
+@h1098
+c: double vision on looking up | numbness of the right cheek
+m: The orbital floor breaks, trapping inferior rectus and the infraorbital nerve
+g: Limited upgaze with cheek numbness after a punch is an orbital floor blow-out fracture
+f: a tense bulging hard eye with falling vision => Retrobulbar haemorrhage
+
+@h1099
+c: barbecue | bloody diarrhoea, fever
+m: Campylobacter from undercooked chicken invades the gut lining
+g: Bloody diarrhoea with fever days after undercooked chicken is Campylobacter
+f: vomiting within hours of reheated fried rice => Bacillus cereus
+f: bloody diarrhoea after a petting farm => Escherichia coli O157
+
+@h1100
+c: about 2 hours after eating | ham sandwiches and cream cakes | none has a fever
+m: A preformed toxin acts within hours
+g: Vomiting within hours after ham and cream cakes is Staph aureus toxin
+f: vomiting and diarrhoea 1 to 2 days later on a cruise ship => Norovirus
+f: cramps and diarrhoea about 12 hours after a reheated stew => Clostridium perfringens
+
+@h1101
+c: petting farm | Escherichia coli O157 | Creatinine and platelets are normal
+m: Antibiotics can release more Shiga toxin and trigger HUS
+g: E. coli O157: supportive care and monitoring
+
+@h1102
+c: feels well | confined to the rectum
+m: Topical mesalazine acts directly on inflamed rectal mucosa
+g: Mild ulcerative proctitis: rectal mesalazine
+
+@h1103
+c: 8 bloody stools a day | 38.1°C | pulse rate 104 bpm | no colonic dilatation
+m: Six or more bloody stools with systemic upset is acute severe colitis
+g: Acute severe ulcerative colitis: admit for IV hydrocortisone
+f: a mild flare with 3 stools a day and no systemic upset => Increase oral mesalazine
+
+@h1104
+c: azathioprine
+m: Low TPMT activity lets azathioprine build up and suppress the marrow
+g: Before azathioprine: TPMT activity
+f: before fluorouracil chemotherapy => DPYD genotype
+f: before allopurinol in Han Chinese patients => HLA-B 5801 genotype
+
+@h1105
+c: eaten almost nothing for 10 days | BMI 15.5
+m: Insulin released with feeding drives phosphate into cells
+g: Refeeding: phosphate is most likely to fall dangerously
+
+@h1106
+c: very little for 2 weeks | BMI 15
+m: Slow refeeding limits the insulin surge
+g: High refeeding risk: start at no more than 10 kcal per kg per day
+f: BMI under 14 or no intake for over 15 days => 5 kcal per kg per day
+
+@h1107
+c: tea and biscuits | bleeding gums | corkscrew hairs | Clotting screen and platelets are normal
+m: Vitamin C is needed to make collagen, so gums and vessels bleed
+g: Bleeding gums, perifollicular bleeding and corkscrew hairs is vitamin C deficiency
+f: bruising with a prolonged PT => Vitamin K
+
+@h1108
+c: 60 units | pale, offensive stools that float | through to his back | newly raised
+m: Chronic pancreatitis destroys enzyme-making and insulin-making cells
+g: Steatorrhoea with new diabetes in a heavy drinker: faecal elastase
+f: watery diarrhoea after a terminal ileal resection => SeHCAT scan
+f: suspected coeliac disease => Tissue transglutaminase antibody
+
+@h1109
+c: terminal ileum removed | SeHCAT retention 5%
+m: Bile acids not reabsorbed in the ileum irritate the colon
+g: Bile acid malabsorption: colestyramine
+f: a low faecal elastase => Pancreatic enzyme replacement
+
+@h1110
+c: pains in several joints | memory is getting worse | PAS-positive
+m: Tropheryma whipplei fills the gut wall macrophages and spreads to joints and brain
+g: Malabsorption, arthralgia, pigmentation and confusion with PAS-positive macrophages is Whipple's disease
+f: villous atrophy with a positive tTG => Coeliac disease

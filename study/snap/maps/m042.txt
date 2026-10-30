@@ -1,0 +1,123 @@
+@h0351
+c: no prosthetic valve | meticillin-sensitive Staphylococcus aureus
+m: Flucloxacillin is the most effective drug against sensitive Staph aureus
+g: Native valve MSSA endocarditis: IV flucloxacillin
+f: MRSA or a penicillin allergy => Vancomycin
+f: viridans streptococci after dental work => Benzylpenicillin
+
+@h0352
+c: from India | night sweats | Protein 52 | mostly lymphocytes
+m: TB in the pleura causes a lymphocytic exudate
+g: A lymphocytic exudate in someone from a high-incidence area is TB pleurisy
+f: asbestos exposure with irregular pleural thickening => Mesothelioma
+f: a transudate with a raised JVP and oedema => Heart failure
+f: a neutrophilic exudate next to a pneumonia => Parapneumonic effusion
+
+@h0353
+c: seropositive rheumatoid arthritis | exudate
+m: Inflamed rheumatoid pleura uses up glucose
+g: Rheumatoid effusion: very low glucose
+f: oesophageal rupture or pancreatitis => Amylase 900 IU/L
+f: a chylous effusion => Triglycerides 3 mmol/L
+
+@h0354
+c: oesophagectomy | milky white | triglycerides 4.5 | does not separate on standing
+m: Damage to the thoracic duct leaks chyle into the pleura
+g: Milky fluid with high triglycerides after chest surgery is a chylothorax
+f: milky fluid with cholesterol crystals in a long-standing rheumatoid effusion => Pseudochylothorax
+f: pus with a low pH => Empyema
+
+@h0355
+c: eats a normal diet including meat | smooth, red tongue | numbness and tingling in her feet | MCV 118 | Intrinsic factor antibodies are positive
+m: Autoimmune loss of intrinsic factor stops B12 absorption
+g: Macrocytosis, neuropathy and intrinsic factor antibodies is pernicious anaemia
+f: no neurology with a poor diet or methotrexate => Folate deficiency
+
+@h0356
+c: primaquine | urine is dark | bite cells
+m: Oxidant drugs in G6PD deficiency destroy red cells; free haemoglobin binds haptoglobin
+g: Haemolysis: low haptoglobin
+
+@h0357
+c: active rheumatoid arthritis | Ferritin 280 | Total iron binding capacity is low
+m: Inflammation raises hepcidin, locking iron in stores
+g: Inflammation with a high ferritin and low TIBC is anaemia of chronic disease
+f: ferritin of 8 with a high TIBC => Iron deficiency anaemia
+f: marked microcytosis with normal iron and a Mediterranean family => Beta thalassaemia trait
+
+@h0358
+c: tall 21 year old man who smokes | trachea is central | hyper-resonant percussion note
+m: Apical blebs in tall young smokers rupture, letting air into the pleura
+g: A tall young smoker with sudden pleuritic pain and hyper-resonance has a primary spontaneous pneumothorax
+f: pleuritic pain with a fast pulse after a long flight and normal percussion => Pulmonary embolism
+f: fever with bronchial breathing => Community-acquired pneumonia
+
+@h0359
+c: no lung disease | minimal pain | walk around the department comfortably
+m: Small, well-tolerated primary pneumothoraces often resolve alone
+g: Primary pneumothorax with minimal symptoms: conservative care and review
+f: breathless and in pain => Needle aspiration today
+
+@h0360
+c: subclavian central venous catheter | Ten minutes later | hyper-resonant percussion note on the right
+m: The needle can puncture the pleura on the way to the vein
+g: Hyper-resonance minutes after a subclavian line is an iatrogenic pneumothorax
+f: sudden collapse with a churning heart sound while a line is removed => Air embolism
+f: dullness on that side with a falling haemoglobin => Haemothorax
+
+@h0361
+c: no history of lung disease | PaO2 7.1 | PaCO2 4.0
+m: Pneumonia causes shunt, so oxygen falls while CO2 is blown off
+g: PaO2 under 8 with a normal or low CO2 is type 1 respiratory failure
+f: PaCO2 of 7.5 with a low pH => Acute type 2 respiratory failure
+
+@h0362
+c: vomited repeatedly | pH 7.50 | PaCO2 6.2 | Bicarbonate 34
+m: Losing stomach acid raises bicarbonate; breathing slows to retain CO2
+g: High pH and bicarbonate with a raised CO2 after vomiting is compensated metabolic alkalosis
+f: pH 7.30 with a low bicarbonate => Metabolic acidosis
+
+@h0363
+c: known carbon dioxide retention | 15 L/min oxygen | SpO2 99% | PaCO2 9
+m: High oxygen in CO2 retainers worsens V/Q mismatch and hypercapnia
+g: Oxygen-induced hypercapnia: Venturi mask, target 88 to 92%
+
+@h0364
+c: long-haul flight | combined oral contraceptive pill | Wells score is 2
+m: A Wells score of 2 or more makes DVT likely, so image directly
+g: DVT likely: proximal leg ultrasound
+f: a Wells score of 1 => D-dimer first
+
+@h0365
+c: 2 weeks after an elective hip replacement | no other risk factors
+m: Clots provoked by a major temporary risk rarely recur once it has passed
+g: PE provoked by surgery: stop anticoagulation after 3 months
+f: an unprovoked PE with low bleeding risk => Continue apixaban long term
+
+@h0366
+c: unprovoked | no cancer symptoms | physical examination are normal
+m: Extra scans after a normal assessment find little and cause harm
+g: Unprovoked DVT with a normal assessment: no further cancer tests
+
+@h0367
+c: 4 months ago | sit-to-stand test without desaturation
+m: Symptoms beyond 12 weeks with no other cause define post-Covid syndrome
+g: Symptoms over 12 weeks after Covid, otherwise unexplained, is post-Covid-19 syndrome
+f: symptoms at 6 weeks => Ongoing symptomatic Covid-19
+
+@h0368
+c: SpO2 is 91% at rest
+m: Silent hypoxia can precede rapid deterioration
+g: SpO2 of 92% or less at rest: go to hospital or call 999
+
+@h0369
+c: 19 year old man | second dose of an mRNA Covid-19 vaccine 3 days ago | Troponin T 340
+m: A rare immune reaction inflames heart muscle, mostly in young men
+g: Chest pain with raised troponin days after an mRNA vaccine is myocarditis
+f: tearing pain to the back with unequal pulses => Aortic dissection
+f: pain on pressing the chest wall with a normal troponin => Costochondritis
+
+@h0370
+c: worse with exercise and in cold air | hay fever | 55 ppb
+m: Eosinophilic airway inflammation raises exhaled nitric oxide
+g: FeNO of 50 ppb or more supports asthma

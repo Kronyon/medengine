@@ -1,0 +1,120 @@
+@h1051
+c: middle of his neck | moves up when he sticks his tongue out
+m: The thyroglossal duct remnant is attached to the tongue base
+g: A midline lump that rises on tongue protrusion is a thyroglossal cyst
+f: a lump at the front border of sternomastoid in a young adult => Branchial cyst
+f: a midline lump that does not move with the tongue => Dermoid cyst
+
+@h1052
+c: since birth | posterior triangle | lights up brightly
+m: A lymphatic malformation fills with clear lymph
+g: A brightly transilluminating posterior triangle swelling in a baby is a cystic hygroma
+f: a firm lump in the sternomastoid with a head tilt => Sternocleidomastoid tumour
+
+@h1053
+c: moves on tongue protrusion | normal thyroid gland
+m: Removing the tract and middle hyoid prevents recurrence
+g: Thyroglossal cyst: Sistrunk procedure
+
+@h1054
+c: barking cough | stridor only when upset | no recession
+m: Steroids reduce subglottic swelling
+g: Mild croup: a single dose of oral dexamethasone
+f: stridor at rest with recession => Admit for nebulised adrenaline
+
+@h1055
+c: weak and silent | conscious
+m: An ineffective cough means the airway is blocked
+g: Choking child, conscious with an ineffective cough: five back blows
+f: she becomes unconscious => Start CPR
+
+@h1056
+c: peanut | one side of the chest
+m: The right main bronchus is wider and more vertical
+g: Inhaled objects most often lodge in the right main bronchus
+
+@h1057
+c: red left eye for 2 days
+m: Reduced vision means the cornea, iris or pressure is involved
+g: A red eye with reduced visual acuity needs same-day review
+
+@h1058
+c: warfarin | does not hurt | sharply edged bright red area | 6/6
+m: A small conjunctival vessel bursts, more easily on warfarin
+g: A painless sharply edged red patch with normal vision is a subconjunctival haemorrhage
+f: deep boring pain that wakes him at night => Scleritis
+f: a small irregular pupil with photophobia => Anterior uveitis
+
+@h1059
+c: soft contact lenses | Bright light hurts | 6/12 | staining area on the cornea
+m: Lens wearers with a painful red eye have keratitis until proven otherwise
+g: Contact lens wearer with a painful red eye and a corneal defect: same-day ophthalmology
+
+@h1060
+c: crusty every morning | crusting at the base of the lashes | vision is normal
+m: Chronic lid margin inflammation needs daily cleaning
+g: Blepharitis: warm compresses and lid hygiene
+f: posterior blepharitis with rosacea not settling with hygiene => Oral doxycycline for 3 months
+
+@h1061
+c: not painful | away from the lash line
+m: A blocked meibomian gland forms a firm painless lump
+g: A painless firm lid lump away from the lashes is a chalazion
+f: a tender red swelling at the base of a lash => External hordeolum
+f: yellow plaques near the inner corner => Xanthelasma
+
+@h1062
+c: rosacea | frothy tear film | capped and blocked | front of the lid margin is clean
+m: Meibomian gland dysfunction makes an unstable oily tear film
+g: Blocked gland openings with frothy tears in rosacea is posterior blepharitis
+f: crusts around the base of the lashes => Anterior blepharitis
+
+@h1063
+c: sticky | does not wear contact lenses | no pain or photophobia | 6/6
+m: Bacterial conjunctivitis is mild; a broad topical antibiotic speeds recovery
+g: Bacterial conjunctivitis needing treatment: chloramphenicol eye drops
+f: a branching dendritic ulcer => Aciclovir ointment
+
+@h1064
+c: 2 day old | thick, purulent discharge
+m: Gonorrhoea caught at birth causes a fast, severe conjunctivitis
+g: Heavy purulent conjunctivitis in the first days of life is gonococcal
+f: day 7 with a milder discharge => Chlamydia trachomatis
+
+@h1065
+c: had a cold last week | watery discharge with follicles | lymph node in front of the right ear
+m: Adenovirus spreads easily and causes follicles and a preauricular node
+g: Watery follicular conjunctivitis with a preauricular node after a cold is viral
+f: itch with stringy discharge and hay fever => Allergic conjunctivitis
+f: purulent discharge with lids stuck together => Bacterial conjunctivitis
+
+@h1066
+c: cold sore last week | branching dendritic ulcer
+m: Herpes simplex forms branching ulcers in the corneal epithelium
+g: Dendritic ulcer: aciclovir eye ointment
+f: a round ulcer with pus in a contact lens wearer => Ciprofloxacin drops
+
+@h1067
+c: swims | far worse than the mild redness | ring-shaped infiltrate
+m: Acanthamoeba from water invades the cornea and its nerves
+g: Severe pain with a ring infiltrate after swimming in lenses is Acanthamoeba
+f: soft lenses worn overnight with a fast-growing ulcer => Pseudomonas aeruginosa
+f: a branching ulcer after a cold sore => Herpes simplex virus
+
+@h1068
+c: tip of his nose
+m: The nasociliary nerve supplies both the nose tip and the eye
+g: Hutchinson's sign means likely eye involvement
+
+@h1069
+c: Bright light hurts | no discharge | small and irregular
+m: Iris inflammation causes spasm and sticking to the lens
+g: A painful photophobic eye with a small irregular pupil is anterior uveitis
+f: a fixed mid-dilated pupil and a rock-hard eye => Acute angle-closure glaucoma
+f: sticky discharge with normal vision => Conjunctivitis
+
+@h1070
+c: cells in the anterior chamber | no infection
+m: Steroids settle inflammation; cycloplegics ease spasm and stop the iris sticking
+g: Anterior uveitis: steroid and cycloplegic drops
+f: acute angle closure => Pilocarpine drops

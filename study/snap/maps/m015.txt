@@ -1,0 +1,133 @@
+@o-p2019-002
+c: lower back pain | Corrected calcium 2.90 | monoclonal Ig kappa peak | plasma cells, which account for 18%
+m: Clonal plasma cells make a paraprotein, erode bone and fill the marrow
+g: Paraprotein, over 10% marrow plasma cells and end-organ damage is myeloma
+f: an IgM paraprotein with hyperviscosity and lymphadenopathy => Waldenström's macroglobulinaemia
+f: a single plasma cell tumour outside the bone with no marrow involvement => Extramedullary plasmacytoma
+
+@o-p2019-003
+c: BP 102/50 mmHg | remains breathless | Creatinine 160 | Urea 15.5 | urine output is 250 mL over the past 12 hours
+m: Sepsis lowers blood pressure, so the kidneys are underperfused
+g: AKI with ongoing sepsis and low BP and a bland urine is renal hypoperfusion
+f: a rash and eosinophils in the urine a week after a new antibiotic => Drug-induced interstitial nephritis
+f: bloody diarrhoea, low platelets and fragments on the film => Haemolytic uraemic syndrome
+
+@o-p2019-004
+c: above the left medial malleolus | brown discolouration of both lower legs | thickened, waxy | superficial
+m: High venous pressure leaks blood into the skin, scarring it and breaking it down above the ankle
+g: Shallow ulcer at the gaiter area with haemosiderin and lipodermatosclerosis is venous
+f: punched-out painful ulcer on the toes with absent pulses => Arterial
+f: painless ulcer under the metatarsal head with numb feet => Neuropathic
+
+@o-p2019-005
+c: Albumin 15 | Urinary protein creatinine ratio 568 | no cells, no casts | Total cholesterol 9
+m: Leaky glomeruli lose protein, so albumin falls, oedema builds and cholesterol rises
+g: Heavy proteinuria, very low albumin, oedema and high cholesterol with a bland urine is nephrotic
+f: haematuria with red cell casts, hypertension and oliguria => Nephritic syndrome
+f: raised JVP and crackles with a normal albumin => Cardiac failure
+
+@o-p2019-006
+c: fractured neck of femur on falling | calcium and vitamin D
+m: A fragility fracture over 75 is treated as osteoporosis; a bisphosphonate slows bone loss
+g: Fragility hip fracture: oral bisphosphonate first line
+f: she cannot swallow tablets upright or has severe reflux => Zoledronic acid
+f: eGFR under 35 where bisphosphonates are not advised => Denosumab
+
+@o-p2019-007
+c: eight weeks of back pain | wakes him at night | tenderness over L3 and L4 | Erythrocyte sedimentation rate 55
+m: Night pain and a raised ESR in an older man are red flags for bone pathology
+g: Red flag back pain with no paraprotein: plain X-ray first in this paper
+f: a past cancer with new night pain and neurology => Isotope bone scan
+
+@o-p2019-008
+c: palpable, purpuric rash on her lower limbs and buttocks | abdominal pain | blood 3+, protein 2+ | Platelets 320
+m: IgA immune complexes inflame small vessels in the skin, gut and kidney
+g: Palpable purpura on the legs with abdominal pain and nephritis is IgA vasculitis
+f: fever and a spreading non-blanching rash in an unwell person => Meningococcal septicaemia
+f: haematuria 2 weeks after a sore throat with low complement => Postinfectious glomerulonephritis
+
+@o-p2019-009
+c: capillary blood glucose is 2.1 | as she drinks from her water bottle
+m: A conscious patient who can swallow is given quick-acting oral glucose
+g: Conscious hypoglycaemia able to swallow: glucose tablets or a sugary drink
+f: drowsy and unable to swallow safely, with no IV access => Intramuscular glucagon
+f: unconscious with IV access => Intravenous 10% glucose
+
+@o-p2019-010
+c: infrequent, hard stools | oxybutynin
+m: Anticholinergics slow gut motility
+g: Constipation on several drugs: the anticholinergic oxybutynin
+f: ankle swelling on the same list => Amlodipine
+f: postural dizziness on the same list => Doxazosin
+
+@o-p2019-011
+c: flashing lights, floaters | loss of vision in the upper outer quadrant
+m: The retina tears and lifts off, producing a shadow in the opposite visual field
+g: Flashes and floaters followed by a field defect is retinal detachment
+f: sudden painless loss with a cherry-red spot => Central retinal artery occlusion
+f: sudden floaters with no flashes in someone with proliferative diabetic retinopathy => Vitreous haemorrhage
+
+@o-p2019-012
+c: 2 days after | pain control has been difficult | reduced breath sounds at both lung bases | temperature is 37.8°C
+m: Pain stops deep breaths, so small airways collapse at the bases
+g: Low-grade fever and low saturations on day 1 to 2 with poor pain control is atelectasis
+f: day 5 to 7 with a high fever, peritonism and a drain turning cloudy => Anastomotic leak
+f: sudden breathlessness with a swollen calf at day 7 => Pulmonary embolism
+
+@o-p2019-013
+c: worse on standing and on walking | relieved when he sits down and leans forward | peripheral pulses are palpable
+m: Narrowing of the spinal canal squeezes the nerve roots on standing; bending forward opens it
+g: Leg pain on standing and walking, eased by sitting forward, with good pulses is spinal stenosis
+f: calf pain on walking eased by standing still, with absent pulses => Peripheral arterial disease
+f: painful wasting of the thighs with weight loss in diabetes => Diabetic amyotrophy
+
+@o-p2019-014
+c: 2 cm mass in the right upper zone | 62 year old man
+m: A lung mass on X-ray needs CT to characterise it and stage it
+g: Incidental lung mass: CT chest
+f: CT already shows a single mass and staging for spread is next => PET scan of chest
+
+@o-p2019-015
+c: Breslow depth 0.9 mm | Clark level 3
+m: The deeper the melanoma, the more likely it has spread
+g: Breslow thickness is the most important prognostic factor
+f: asked which feature decides the stage of a thin melanoma under 1 mm in older staging => Mitotic index
+
+@o-p2019-016
+c: colicky central abdominal pain | increased bowel sounds | ruptured appendix aged 20
+m: Adhesional obstruction usually settles with drip and suck
+g: Uncomplicated adhesional small bowel obstruction: NG tube and fluids
+f: peritonism, fever and a raised lactate suggesting strangulation => Laparotomy
+
+@o-p2019-017
+c: Platelets 40 | PT 20 | APTT 60 | Fibrinogen 1.0 | BP 90/60 mmHg
+m: Sepsis triggers widespread clotting that consumes platelets and fibrinogen
+g: Low platelets, prolonged clotting and low fibrinogen in sepsis is DIC
+f: isolated low platelets with normal clotting in a well young adult => Idiopathic thrombocytopenic purpura
+f: a long APTT only with nosebleeds and heavy periods => von Willebrand disease
+
+@o-p2019-018
+c: woken at 03:00 by the need to pass urine | bearing down | Examination and ECG are normal
+m: Straining and standing to urinate trigger a vagal reflex and a drop in BP
+g: Micturition syncope with a normal ECG is vasovagal
+f: collapse during exercise with no warning and a family history of sudden death => Cardiac dysrhythmia
+f: rhythmic jerking with tongue biting and post-ictal confusion after drinking => Alcohol related seizure
+
+@o-p2019-019
+c: urgent appendicectomy | pressure on the front of her neck
+m: Pressing the cricoid ring closes the oesophagus behind it
+g: Cricoid pressure prevents gastric contents reaching the airway in rapid sequence induction
+f: asked why the head is placed in the sniffing position => It facilitates endotracheal intubation
+
+@o-p2019-020
+c: MST Continus® 60 mg 12-hourly | three breakthrough doses (oral morphine 20 mg) per day
+m: Total daily morphine is 120 plus 60, so 180 mg; breakthrough is one sixth of the total
+g: MST 90 mg twice daily with 30 mg as needed
+f: he can no longer swallow, so the same 180 mg oral total goes subcutaneous at half the dose => Morphine 90 mg subcutaneously over 24 h by syringe driver
+
+@o-p2019-021
+c: worsened by lying back | recent respiratory tract infection | Troponin T 0.025
+m: Viral inflammation of the pericardium causes pain eased by sitting forward and widespread ST elevation
+g: Positional pleuritic pain after a viral illness is pericarditis
+f: ST elevation in one territory with a rising troponin => ST-elevation myocardial infarction
+f: low-voltage complexes with a globular heart => Pericardial effusion

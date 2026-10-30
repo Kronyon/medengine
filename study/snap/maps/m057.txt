@@ -1,0 +1,121 @@
+@h0651
+c: bisoprolol 10 mg | Pulse rate 58 bpm
+m: A dihydropyridine adds anti-anginal effect without further slowing the heart
+g: Angina despite a beta-blocker: add amlodipine
+
+@h0652
+c: regular | no visible P waves | no chest pain, breathlessness or dizziness
+m: Vagal tone can block the AV node and break a re-entry circuit
+g: Stable regular narrow complex tachycardia: vagal manoeuvres first
+f: vagal manoeuvres fail => IV adenosine 6 mg
+f: shock, syncope or chest pain => Synchronised DC cardioversion
+
+@h0653
+c: 150 bpm, regular | saw-tooth baseline
+m: Flutter circuits fire at 300 a minute and the AV node passes every second beat
+g: Saw-tooth waves with a regular rate of 150 is atrial flutter with 2:1 block
+f: irregularly irregular with no P waves => Atrial fibrillation
+f: a broad QRS over 120 ms => Ventricular tachycardia
+
+@h0654
+c: clarithromycin | haloperidol | twists around the baseline
+m: QT-prolonging drugs trigger torsades; magnesium stabilises the membrane
+g: Torsades de pointes on QT-prolonging drugs: IV magnesium sulfate
+
+@h0655
+c: 156/96 mmHg on two readings | Fundoscopy is normal
+m: Clinic readings overestimate blood pressure in many people
+g: Clinic BP of 140/90 to 179/119: confirm with ambulatory monitoring
+f: 180/120 or more with papilloedema => Same-day specialist referral
+
+@h0656
+c: Black African family origin | does not have diabetes
+m: ACE inhibitors work less well in Black African and Caribbean people
+g: Black African origin without diabetes: amlodipine first
+f: he has type 2 diabetes => Ramipril
+
+@h0657
+c: takes them every day | Potassium 4.9
+m: Step 4 depends on potassium because spironolactone raises it
+g: Resistant hypertension with potassium over 4.5: doxazosin
+f: potassium of 4.5 or less => Spironolactone
+
+@h0658
+c: QRISK3 score is 14%
+m: Statins lower cardiovascular risk when 10 year risk is 10% or more
+g: Primary prevention with QRISK3 of 10% or more: atorvastatin 20 mg
+f: a myocardial infarction last year => Atorvastatin 80 mg
+
+@h0659
+c: ischaemic stroke 3 months ago | LDL cholesterol 2.9
+m: Secondary prevention targets an LDL of 2.0 or less
+g: LDL above target on maximum statin: add ezetimibe
+f: LDL already 1.8 => No change needed
+
+@h0660
+c: father had a myocardial infarction at 46 | nodular Achilles tendons | LDL cholesterol 7.2 | Triglycerides 1.4
+m: Faulty LDL receptors leave LDL very high from birth
+g: Very high LDL with tendon xanthomata and early family heart disease is familial hypercholesterolaemia
+f: eruptive papules with very high triglycerides => Familial hypertriglyceridaemia
+f: proteinuria and oedema with high cholesterol => Nephrotic syndrome
+
+@h0661
+c: twice a week | not woken at night
+m: An inhaled steroid with fast formoterol treats inflammation with every reliever dose
+g: New adult asthma: as-needed budesonide with formoterol
+
+@h0662
+c: cannot finish sentences | SpO2 95% | 40% of his best
+m: Asthma severity is graded by peak flow, breathing and saturations
+g: Peak flow 33 to 50% with saturations of 92% or more is acute severe asthma
+f: peak flow under 33% or saturations under 92% => Life-threatening
+f: a raised PaCO2 => Near-fatal
+
+@h0663
+c: After 30 minutes | 38% of her best
+m: Magnesium relaxes airway smooth muscle when nebulisers are not enough
+g: Acute severe asthma not responding to first-line treatment: IV magnesium sulfate
+
+@h0664
+c: 40 pack-years | 0.61 | little reversibility
+m: Smoking damages small airways and alveoli, causing fixed obstruction
+g: A smoker with FEV1/FVC under 0.7 after bronchodilator is COPD
+f: a normal ratio with daily purulent sputum => Bronchiectasis
+f: marked reversibility with atopy => Asthma
+
+@h0665
+c: never had asthma or atopy | Blood eosinophil count is normal
+m: Without steroid-responsive features, two bronchodilators work best
+g: COPD with no asthmatic features: LABA with LAMA
+f: asthmatic features or raised eosinophils => ICS with LABA
+
+@h0666
+c: stopped smoking a year ago | ankle oedema | 7.6 kPa
+m: Long-term oxygen improves survival in chronic hypoxia with right heart strain
+g: PaO2 7.3 to 8 kPa with peripheral oedema: long-term oxygen therapy
+f: he still smokes => No oxygen therapy
+
+@h0667
+c: large amounts of purulent sputum | whooping cough as a child | never smoked | clubbing
+m: Childhood infection damages airways that stay widened and infected
+g: Daily purulent sputum after a childhood infection: HRCT to confirm bronchiectasis
+f: a young adult with malabsorption or infertility => Sweat chloride test
+
+@h0668
+c: green pigment | grapes
+m: Pseudomonas makes pyocyanin and a sweet grape smell
+g: Green pigment with a grape smell is Pseudomonas aeruginosa
+f: coccobacilli needing factors X and V => Haemophilus influenzae
+
+@h0669
+c: brown plugs | Aspergillus-specific IgE | central bronchiectasis
+m: An allergic reaction to Aspergillus in asthmatic airways causes plugs and central bronchiectasis
+g: Worsening asthma with plugs, eosinophilia, high IgE and central bronchiectasis is ABPA
+f: a fungal ball in an old TB cavity => Aspergilloma
+f: asthma with neuropathy and vasculitis => Eosinophilic granulomatosis with polyangiitis
+
+@h0670
+c: 10 days after a cold | feels well | chest is clear
+m: Acute bronchitis is viral and settles over about 3 weeks
+g: Acute bronchitis in a well adult: self-care advice
+f: focal crackles, fever and fast breathing => Chest X-ray

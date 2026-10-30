@@ -1,0 +1,111 @@
+@h0891
+c: methadone 80 mg | ciprofloxacin and clarithromycin
+m: Methadone prolongs the QT; macrolides and quinolones add to it
+g: Methadone with clarithromycin and ciprofloxacin: QT prolongation
+
+@h0892
+c: takes no opioids | reduce cravings
+m: Acamprosate reduces craving by calming glutamate activity
+g: Relapse prevention after alcohol detox: acamprosate
+
+@h0893
+c: disulfiram
+m: Disulfiram blocks aldehyde dehydrogenase, so acetaldehyde builds up
+g: Alcohol on disulfiram causes flushing and vomiting
+
+@h0894
+c: codeine 60 mg four times a day
+m: Naltrexone is an opioid antagonist
+g: Relapse prevention while taking opioids: avoid naltrexone
+
+@h0895
+c: 6 months | no low mood
+m: CBT for insomnia changes the habits that keep insomnia going
+g: Chronic insomnia: CBT for insomnia first
+
+@h0896
+c: zopiclone
+m: Zopiclone is excreted in saliva, leaving a bitter taste
+g: Zopiclone typically causes a bitter metallic taste
+f: mirtazapine instead => Increased appetite
+
+@h0897
+c: autism | for 3 months have not helped
+m: Melatonin resets sleep onset in children with neurodevelopmental conditions
+g: Sleep onset problems in autism after sleep hygiene fails: melatonin
+
+@h0898
+c: amitriptyline | hot, dry and flushed | dilated | bladder is palpable
+m: Blocking muscarinic receptors stops sweating, gut movement and bladder emptying
+g: Hot dry skin, dilated pupils, ileus and retention is anticholinergic syndrome
+f: sweating with dilated pupils after cocaine => Sympathomimetic toxicity
+f: clonus after tramadol with an SSRI => Serotonin syndrome
+
+@h0899
+c: sertraline | tramadol | inducible clonus | Both drugs have been stopped
+m: Cyproheptadine blocks 5-HT2A receptors
+g: Serotonin syndrome antidote: cyproheptadine
+f: lead-pipe rigidity on an antipsychotic => Dantrolene
+f: acute dystonia after an antipsychotic => Procyclidine
+
+@h0900
+c: fever, tremor and confusion
+m: Serotonin excess builds quickly; dopamine blockade effects build slowly
+g: Serotonin syndrome starts within hours, NMS usually over days
+
+@h0901
+c: 42 kg
+m: Low body weight raises the risk of paracetamol liver toxicity
+g: Adult under 50 kg: paracetamol 15 mg per kg four times daily
+f: a 70 kg man with normal liver function => 1 g four times daily
+
+@h0902
+c: single overdose | 4 hours ago
+m: The nomogram line marks the level above which liver damage is likely
+g: UK treatment line at 4 hours: 100 mg/L
+
+@h0903
+c: 30 paracetamol 500 mg | 10 hours ago
+m: Acetylcysteine works best within 8 hours, so it is not delayed for the level
+g: Significant overdose over 8 hours ago: start acetylcysteine now
+f: took the tablets 2 hours ago => Await the paracetamol level
+
+@h0904
+c: ramipril and furosemide | 204 | no rash | no blood or protein
+m: NSAIDs block prostaglandins that keep the afferent arteriole open, on top of an ACE inhibitor and diuretic
+g: AKI after an NSAID on an ACE inhibitor and diuretic is drug-induced pre-renal AKI
+f: fever, rash and eosinophils after a new drug => Acute interstitial nephritis
+
+@h0905
+c: 32 weeks pregnant
+m: Prostaglandins keep the fetal ductus open; NSAIDs block them
+g: NSAIDs late in pregnancy cause early closure of the ductus arteriosus
+
+@h0906
+c: methotrexate 20 mg weekly | ibuprofen
+m: NSAIDs reduce kidney excretion of methotrexate
+g: Regular ibuprofen with methotrexate risks methotrexate toxicity
+
+@h0907
+c: 60 mg twice daily
+m: The breakthrough dose is a sixth of the total daily dose
+g: 120 mg a day gives a breakthrough dose of 20 mg
+f: a total daily dose of 60 mg => 10 mg
+f: a total daily dose of 180 mg => 30 mg
+
+@h0908
+c: poor oral intake | Pupils are small | myoclonus | Creatinine 210 | Adjusted calcium 2.42
+m: Morphine metabolites build up when the kidneys fail
+g: Drowsiness, small pupils and myoclonus with AKI on morphine is opioid toxicity
+f: an adjusted calcium of 3.2 with confusion => Hypercalcaemia
+
+@h0909
+c: switched to a fentanyl patch
+m: Fentanyl patches take 12 to 24 hours to reach a useful level
+g: Starting a fentanyl patch: keep morphine going for 12 hours
+
+@h0910
+c: 10 ml of 1% lidocaine
+m: 1% means 1 g in 100 ml, or 10 mg per ml
+g: 10 ml of 1% lidocaine is 100 mg
+f: 10 ml of 0.1% lidocaine => 10 mg

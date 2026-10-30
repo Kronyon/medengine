@@ -1,0 +1,140 @@
+@o-mla2-001
+c: penile pain | multiple tender ulcers | one week ago
+m: Herpes simplex causes clusters of painful vesicles that break into shallow ulcers within days of contact
+g: Multiple painful ulcers is herpes; a single painless ulcer is syphilis
+f: one painless ulcer with a clean base 3 weeks after sex => Syphilis
+f: painless papule then tender inguinal nodes that suppurate => Lymphogranuloma venereum
+f: purulent urethral discharge with dysuria => Gonorrhoea
+
+@o-mla2-002
+c: worse after exercise | stiffness in the mornings that lasts for about 10 minutes | reduced internal rotation
+m: Worn cartilage hurts with use, and stiffness after rest is brief
+g: Hip osteoarthritis: start with paracetamol and exercise
+f: paracetamol and exercise are not enough and he has no ulcer or kidney risk => Naproxen
+
+@o-mla2-003
+c: 19 weeks pregnant | anencephaly
+m: The Abortion Act allows termination at any gestation for a serious fetal abnormality
+g: A fatal abnormality such as anencephaly has no time limit
+f: a healthy pregnancy with no abnormality => Before 24 weeks' gestation
+
+@o-mla2-004
+c: Alkaline phosphatase 850 | Calcium 2.3 | Prostate specific antigen 5 | sclerotic areas
+m: Disordered bone turnover makes thick but weak bone, raising ALP with a normal calcium
+g: Very high ALP with normal calcium and a normal-for-age PSA is Paget's
+f: high ALP with high calcium and a PSA in the hundreds => Metastatic carcinoma of prostate
+f: lytic lesions, high calcium, renal impairment and a paraprotein => Myeloma
+
+@o-mla2-005
+c: sore throat for 3 days | cervical lymphadenopathy | tenderness in the right iliac fossa
+m: A viral illness enlarges the mesenteric nodes, mimicking appendicitis
+g: RIF pain with a recent sore throat and enlarged neck nodes is mesenteric adenitis
+f: pain moving from the umbilicus to the RIF with anorexia and guarding => Acute appendicitis
+f: sudden pelvic pain in a teenager mid-cycle with a pelvic mass => Ovarian cyst
+
+@o-mla2-006
+c: ill health determines people's social class
+m: Sick people drift down the social scale, so poor health causes low status rather than the reverse
+g: Illness causing class is the social selection explanation
+f: poor housing and income are said to cause the illness => Materialist
+f: smoking and diet choices in poorer groups are said to cause it => Cultural/behavioural
+f: the link is said to be produced by how class and health are measured => Artefact
+
+@o-mla2-007
+c: started taking risperidone 1 week ago | temperature is 39.8°C | increased tone globally
+m: Dopamine blockade causes rigidity, fever and muscle breakdown over days
+g: Rigidity and fever after an antipsychotic is NMS: CK confirms muscle breakdown
+f: headache, neck stiffness and a rash => Lumbar puncture
+
+@o-mla2-008
+c: palpable depression above L5 | exaggerated lumbar lordosis | Neurological examination of his lower limbs is also normal
+m: A vertebra slips forward on the one below, leaving a step and back pain on activity
+g: A palpable step with exaggerated lordosis is spondylolisthesis
+f: saddle numbness, bladder retention and leg weakness => Cauda equina syndrome
+f: sudden pain after a fall in an older woman with osteoporosis => Compression fracture
+f: sciatica down one leg with a positive straight leg raise => Herniated intervertebral disc
+
+@o-mla2-009
+c: makes a profit of £100,000 | the following night
+m: A reward after a behaviour makes that behaviour more likely
+g: Winning reinforced the gambling
+f: he copies his friend's betting after watching him win => Modelling
+f: alcohol made him bet without his usual caution => Disinhibition
+
+@o-mla2-010
+c: 85 year old woman | heart failure | ER positive | started on an aromatase inhibitor
+m: Endocrine therapy controls an ER-positive cancer for years in frail older people
+g: Frail with an ER-positive cancer on an aromatase inhibitor: no further treatment
+f: a fit woman with no major illness => Surgery
+
+@o-mla2-011
+c: 28 weeks' gestation | admitted with a seizure | BP is 155/105 mmHg | protein 2+
+m: Eclampsia is cerebral irritability from pre-eclampsia; magnesium raises the seizure threshold
+g: Seizure in pre-eclampsia: IV magnesium sulfate
+f: seizures controlled but BP still very high and labetalol not suitable => Hydralazine
+
+@o-mla2-012
+c: does not descend to the introitus | vaginal delivery 2 years ago | Urine culture is negative
+m: Mild prolapse from weakened pelvic floor improves with muscle training
+g: Prolapse above the introitus: pelvic floor exercises first
+f: prolapse beyond the introitus that bothers her daily => Refer to urogynaecology clinic
+f: urgency and urge leaking with no prolapse => Oxybutinin hydrochloride
+
+@o-mla2-013
+c: 19 month old girl | sit unsupported for 1 month | 2 words | born at 30 weeks' gestation
+m: Corrected age is about 17 months; she should have sat by 9 months, so only movement is late
+g: Speech and finger feeding fit corrected age; sitting is late: gross motor delay
+f: delayed in sitting, speech and finger feeding for corrected age => Gross developmental delay
+f: sitting on time but unable to pick up small items => Fine motor delay
+
+@o-mla2-014
+c: 10 weeks pregnant | fundal height is consistent with 16 weeks' gestation | BP 180/110 mmHg
+m: Abnormal trophoblast makes huge amounts of hCG, enlarging the uterus and causing early pre-eclampsia
+g: Large for dates with severe vomiting and hypertension before 20 weeks is a molar pregnancy
+f: hypertension and proteinuria after 20 weeks with a normal-sized uterus => Pre-eclampsia
+f: no fetal heart on scan with a small uterus => Missed abortion
+
+@o-mla2-015
+c: recurrent mouth ulcers | pleuritic chest pain | protein 1+, blood 1+ | Lymphocytes 0.9
+m: Autoantibodies cause joint pain, serositis, ulcers, low counts and kidney inflammation
+g: Arthralgia, ulcers, pleurisy, lymphopenia and nephritis in a young woman is SLE
+f: symmetrical swollen small joints with positive anti-CCP and no ulcers => Rheumatoid arthritis
+f: recurrent oral and genital ulcers with uveitis => Behçet's disease
+f: dry eyes and dry mouth with anti-Ro => Sjögren's syndrome
+
+@o-mla2-016
+c: thyroid transcription factor-1 | enlarged liver
+m: Carcinomas reach distant organs through the bloodstream
+g: Lung adenocarcinoma in the liver spread through the blood
+f: spread to the nodes in the mediastinum => Lymphatic spread
+f: ovarian cancer seeding the peritoneum => Transcoelomic spread
+
+@o-mla2-017
+c: facial swelling | elevated and non pulsatile | prominent veins across her chest | lung cancer
+m: Tumour compresses the SVC, so venous blood from the head and arms backs up
+g: Swollen face and both arms with a fixed JVP is SVC obstruction
+f: one swollen arm only with a cord-like vein => Subclavian vein
+
+@o-mla2-018
+c: extremely shy | worried that others criticise her | sensitive to any rejection | very attached to her mother
+m: Fear of criticism drives avoidance of people despite wanting connection
+g: Wants friends but avoids them for fear of rejection is avoidant
+f: relies on others for every decision and cannot be alone => Dependent
+f: prefers to be alone and does not want friends => Schizoid
+f: suspicious and reads hidden threats into remarks => Paranoid
+
+@o-mla2-019
+c: severe pain in his toe | 20 pints of beer a week | warm, diffusely tender
+m: Urate crystals deposit in joints and set off intense inflammation; alcohol raises urate
+g: Previous podagra with heavy drinking and a hot knee is gout
+f: rhomboid positively birefringent crystals in an older person => Osteoarthritis
+f: fever, rigors and organisms in the joint fluid => Septic arthritis
+f: twisting injury with locking and joint line tenderness => Torn meniscal cartilage
+
+@o-mla2-020
+c: lymph nodes palpable in the cervical, axillary and inguinal regions | Lymphocytes 21.6 | increased lymphocytes with sparse cytoplasm
+m: Mature-looking B lymphocytes accumulate in the blood and nodes of older people
+g: Lymphocytosis with widespread nodes in an older adult is CLL
+f: young adult with fever, sore throat and atypical lymphocytes => Infectious mononucleosis
+f: child with blasts on the film and bone marrow failure => Acute lymphoblastic leukaemia
+f: bone pain, high calcium and a paraprotein => Myeloma

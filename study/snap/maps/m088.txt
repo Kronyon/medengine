@@ -1,0 +1,117 @@
+@h1271
+c: surrounding swelling
+m: A mass with oedema makes lumbar puncture risk herniation
+g: Brain abscess with mass effect: avoid lumbar puncture
+
+@h1272
+c: left temporal lobe | discharging left ear
+m: Infection spreads from the middle ear and mastoid to the temporal lobe next door
+g: A temporal lobe abscess with a chronically discharging ear comes from otitis media
+f: a frontal lobe abscess => Frontal sinusitis
+f: several abscesses with a new heart murmur => Endocarditis
+
+@h1273
+c: could become pregnant | generalised spike and wave
+m: Valproate is highly teratogenic; lamotrigine covers generalised epilepsy
+g: Generalised epilepsy in a woman who could become pregnant: lamotrigine
+f: a 25 year old man => Sodium valproate
+
+@h1274
+c: staring spells | Hyperventilation | 3 Hz
+m: Ethosuximide blocks the T-type calcium channels behind absence seizures
+g: Childhood absence epilepsy: ethosuximide
+
+@h1275
+c: 5 minutes | IV access
+m: Benzodiazepines are the fastest way to stop a prolonged seizure
+g: Convulsive status with IV access: IV lorazepam 4 mg
+f: still fitting after two benzodiazepine doses => IV levetiracetam
+
+@h1276
+c: fasciculations | plantar is upgoing | Sensation is normal | no bladder problems
+m: MND kills upper and lower motor neurones, sparing sensation and the bladder
+g: Wasting and fasciculations with brisk reflexes and normal sensation is motor neurone disease
+f: a sensory level with bladder symptoms => Cervical myelopathy
+f: fatigable ptosis and double vision => Myasthenia gravis
+
+@h1277
+c: amyotrophic lateral sclerosis
+m: Riluzole reduces glutamate excitotoxicity
+g: ALS: riluzole modestly prolongs survival
+f: fatigable weakness with ptosis worse through the day => Pyridostigmine
+
+@h1278
+c: morning headaches | FVC is 48% | bicarbonate 32
+m: Weak breathing muscles cause overnight CO2 retention
+g: Nocturnal hypoventilation in MND: non-invasive ventilation
+
+@h1279
+c: purple rash on her eyelids | papules over her knuckles | Creatine kinase 2400
+m: Autoimmune inflammation of muscle and skin
+g: Proximal weakness with a high CK, heliotrope rash and Gottron's papules is dermatomyositis
+f: proximal stiffness in a 70 year old with a normal CK and high ESR => Polymyalgia rheumatica
+f: aching muscles on a statin with no rash => Statin myopathy
+
+@h1280
+c: atorvastatin 80 mg | 10 times the upper limit
+m: Statins can damage muscle, risking rhabdomyolysis
+g: CK over 5 times normal with symptoms on a statin: stop the statin
+
+@h1281
+c: difficulty swallowing | voice is weak
+m: Saturations stay normal until breathing muscles fail late
+g: Neuromuscular weakness: monitor forced vital capacity
+
+@h1282
+c: legs crossed | eversion | Inversion is normal | ankle reflex is normal
+m: The common peroneal nerve is compressed at the fibular head
+g: Foot drop with weak eversion but normal inversion is the common peroneal nerve
+f: inversion also weak with back pain => L5 nerve root
+
+@h1283
+c: diarrhoea 2 weeks ago | spread to her thighs | reflexes are absent
+m: Antibodies after infection attack peripheral nerve myelin
+g: Ascending weakness with areflexia after diarrhoea is Guillain-Barré syndrome
+f: a sensory level with bladder problems => Transverse myelitis
+f: weakness progressing over more than 8 weeks => Chronic inflammatory demyelinating polyneuropathy
+
+@h1284
+c: cut his wrist on glass
+m: A low lesion spares flexor digitorum profundus, so the fingers curl more
+g: The ulnar paradox: an ulnar lesion at the wrist gives the most clawing
+f: asked which higher lesion gives less clawing => Ulnar nerve at the elbow
+
+@h1285
+c: orthopnoea | JVP is raised | bibasal crackles
+m: NT-proBNP rises with ventricular stretch and triages echo urgency
+g: Suspected chronic heart failure: NT-proBNP decides how quickly to scan
+
+@h1286
+c: NT-proBNP 2,600
+m: Higher NT-proBNP means worse prognosis and faster assessment
+g: NT-proBNP over 2,000: specialist assessment and echo within 2 weeks
+f: an NT-proBNP of 900 => 6 weeks
+
+@h1287
+c: ejection fraction of 30% | palpitations
+m: Rate-limiting calcium channel blockers weaken heart contraction
+g: In heart failure with reduced ejection fraction, verapamil worsens it
+
+@h1288
+c: fainted | slow-rising pulse | radiates to the carotids | second heart sound is quiet
+m: A tight aortic valve limits output on exertion
+g: Exertional syncope with a slow-rising pulse and carotid radiation is aortic stenosis
+f: normal pulse and normal second sound with no radiation => Aortic sclerosis
+f: a murmur louder on Valsalva in a young adult => Hypertrophic cardiomyopathy
+
+@h1289
+c: injects heroin | giant v waves | louder on inspiration | pulsatile
+m: Inspiration increases venous return to the right heart
+g: A pansystolic murmur louder on inspiration with giant v waves is tricuspid regurgitation
+f: an apical pansystolic murmur radiating to the axilla => Mitral regurgitation
+
+@h1290
+c: frail | too high risk for open surgery | 0.7 cm²
+m: A catheter-delivered valve avoids open heart surgery
+g: Severe symptomatic aortic stenosis too risky for surgery: TAVI
+f: a fit 62 year old with low surgical risk => Surgical aortic valve replacement

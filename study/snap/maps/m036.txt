@@ -1,0 +1,130 @@
+@h0231
+c: white reflection in her right pupil | red reflex is absent in the right eye
+m: A tumour or opacity behind the pupil blocks the red reflex
+g: Leukocoria in a baby: exclude retinoblastoma
+f: a cloudy lens seen since birth => Congenital cataract
+
+@h0232
+c: straight lines look wavy | fluid beneath the macula | choroidal neovascular membrane
+m: VEGF drives leaky new vessels under the macula
+g: Wet macular degeneration: anti-VEGF injections
+
+@h0233
+c: drusen | no fluid or haemorrhage | smokes 15 cigarettes a day
+m: Smoking speeds macular degeneration; dry AMD has no injection treatment
+g: Dry AMD in a smoker: stop smoking
+f: sudden distortion with fluid on OCT => Anti-VEGF injections
+
+@h0234
+c: check his right eye at home | new central distortion
+m: Macular fluid bends straight lines
+g: An Amsler grid detects central distortion
+f: testing colour vision => Ishihara plates
+
+@h0235
+c: poorly controlled type 2 diabetes | down and out | equal in size | reacts normally to light
+m: Diabetes damages the inner nerve fibres and spares the outer pupil fibres
+g: Pupil-sparing third nerve palsy in diabetes is microvascular
+f: a dilated pupil with a sudden severe headache => Posterior communicating aneurysm
+f: fatigable ptosis worse in the evening => Ocular myasthenia gravis
+f: sudden headache and visual loss with a pituitary tumour => Pituitary apoplexy
+
+@h0236
+c: bumping into people on both sides | bitemporal hemianopia
+m: A tumour pressing up on the chiasm cuts the crossing nasal fibres
+g: Bitemporal hemianopia is chiasmal compression by a pituitary tumour
+f: a homonymous hemianopia with macular sparing => Occipital stroke
+f: an upper homonymous quadrantanopia => Temporal lobe tumour
+
+@h0237
+c: pain in his left shoulder radiating down the inner arm | smoked for 45 years | small left pupil | dry to touch | wasting of the small muscles
+m: A lung apex tumour invades the sympathetic chain and the T1 root
+g: Horner's with hand wasting in a smoker is a Pancoast tumour
+f: Horner's with vertigo, dysphagia and crossed sensory loss => Lateral medullary stroke
+f: ptosis with a down and out eye and a dilated pupil => Third nerve palsy
+
+@h0238
+c: protruding from the cornea | pupil is slightly irregular
+m: Pressing on an open globe pushes the eye contents out
+g: Penetrating eye injury: no pressure on the eye, shield and refer
+
+@h0239
+c: squash ball | layer of blood in the lower anterior chamber
+m: Blunt force tears iris vessels, and blood settles in the front chamber
+g: Blood layering in the anterior chamber after blunt trauma is hyphaema
+f: double vision on looking up after a punch => Orbital fracture
+f: a painless red patch on the white of the eye => Subconjunctival haemorrhage
+
+@h0240
+c: double vision when he looks up | cannot elevate the right eye fully | numbness of the right cheek
+m: The thin orbital floor breaks, trapping inferior rectus and damaging the infraorbital nerve
+g: Restricted upgaze with cheek numbness after a punch is an orbital floor fracture
+f: a flattened cheekbone with trismus => Zygoma fracture
+f: blood in the front chamber of the eye => Hyphaema
+
+@h0241
+c: greasy, foul-smelling diarrhoea | drank water from a stream | no blood
+m: Giardia coats the small bowel lining and blocks fat absorption
+g: Greasy diarrhoea and bloating after stream water is Giardia
+f: bloody diarrhoea with a liver abscess => Entamoeba histolytica
+f: bloody diarrhoea after undercooked chicken => Campylobacter jejuni
+f: watery diarrhoea after a swimming pool outbreak => Cryptosporidium parvum
+
+@h0242
+c: 3 days after arriving in Mexico | watery diarrhoea | no blood
+m: Enterotoxigenic E. coli toxins make the gut secrete water without invading
+g: Watery traveller's diarrhoea is usually ETEC
+f: bloody diarrhoea after a petting farm => Escherichia coli O157
+f: profuse rice-water stools => Vibrio cholerae
+
+@h0243
+c: chef | norovirus | 24 hours ago
+m: Norovirus is shed for days and spreads easily through food
+g: Food handlers return 48 hours after symptoms stop
+f: E. coli O157 in a food handler => After a clear stool sample
+
+@h0244
+c: smokes 15 cigarettes a day | mouth ulcers | perianal skin tag | patchy deep ulcers | non-caseating granulomas
+m: Crohn's inflames the full bowel wall anywhere from mouth to anus, with skip lesions
+g: Skip lesions, transmural inflammation and non-caseating granulomas is Crohn's disease
+f: caseating granulomas in a migrant from a high-incidence area => Intestinal tuberculosis
+f: continuous inflammation spreading from the rectum => Ulcerative colitis
+f: watery diarrhoea with normal-looking mucosa => Microscopic colitis
+
+@h0245
+c: 12 bloody stools a day | 38.4°C | 7.5 cm
+m: Severe inflammation paralyses the colon, which dilates
+g: Colon over 6 cm with systemic toxicity in severe colitis is toxic megacolon
+f: free gas under the diaphragm => Colonic perforation
+
+@h0246
+c: even when his bowel is quiet
+m: Some extraintestinal features follow their own course, separate from bowel inflammation
+g: Primary sclerosing cholangitis runs independently of colitis activity
+f: asked which flares and settles with the bowel => Erythema nodosum
+
+@h0247
+c: 45 kg | 1.65 m
+m: BMI is weight in kg divided by height in metres squared
+g: 45 divided by 1.65 squared is 16.5
+f: dividing by height without squaring it => 27.3
+
+@h0248
+c: MUST score is 2
+m: MUST 2 or more means high risk of malnutrition
+g: MUST 2 or more: dietitian referral and a care plan
+f: MUST 0 => Routine care and rescreen
+
+@h0249
+c: bottle of vodka a day | bounding | warm | absent ankle reflexes | high cardiac output
+m: Without thiamine, vessels dilate and the heart pumps hard but fails
+g: High-output heart failure with neuropathy in a drinker is wet beriberi
+f: dermatitis, diarrhoea and confusion => Niacin
+f: bleeding gums and bleeding around hair follicles => Vitamin C
+
+@h0250
+c: East Asian family origin | drinking milk or eating ice cream | Tissue transglutaminase antibody is negative
+m: Lactase falls after childhood; undigested lactose is fermented in the colon
+g: Dairy-triggered bloating and loose stools with negative coeliac serology is lactose intolerance
+f: symptoms after bread with a positive tTG => Coeliac disease
+f: greasy stools after drinking stream water => Giardiasis

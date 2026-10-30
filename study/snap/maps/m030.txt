@@ -1,0 +1,120 @@
+@h0111
+c: treated with insulin | checking his glucose when driving
+m: Insulin can cause hypoglycaemia at the wheel without warning
+g: Insulin-treated drivers check glucose within 2 hours before driving
+
+@h0112
+c: Black African family origin | type 2 diabetes | 146/90
+m: In diabetes an ARB protects the kidneys; ARBs suit Black African patients better than ACE inhibitors
+g: Diabetes with hypertension in Black African family origin: an ARB such as losartan
+f: no diabetes and Black African family origin => Amlodipine
+
+@h0113
+c: peripheral neuropathy | did not injure it | 3 degrees higher | fragmentation and destruction of the midfoot joints
+m: Without pain sensation, repeated stress and inflammation destroy the foot joints
+g: Hot swollen neuropathic foot with midfoot destruction and no ulcer is Charcot foot
+f: a deep ulcer where bone can be probed => Osteomyelitis
+f: a hot red big toe joint after a heavy meal => Gout
+
+@h0114
+c: annual diabetes review | no visual symptoms
+m: Retinopathy is silent until late, so it is screened for with photographs
+g: Diabetic eye screening is digital retinal photography
+
+@h0115
+c: gave birth 4 months ago | neck is not painful | TSH receptor antibodies negative | uptake is low
+m: Autoimmune inflammation after birth leaks stored hormone without making new hormone
+g: Painless hyperthyroidism months after birth with low uptake is postpartum thyroiditis
+f: high uptake with eye signs and positive antibodies => Graves' disease
+f: a painful tender thyroid after a viral illness => De Quervain's thyroiditis
+f: a single hot nodule on a scan => Toxic nodule
+
+@h0116
+c: carbimazole | sore throat and fever
+m: Carbimazole can rarely wipe out neutrophils
+g: Sore throat or fever on carbimazole: stop it and check neutrophils
+
+@h0117
+c: 8 weeks pregnant | TSH receptor antibodies positive
+m: Carbimazole can cause birth defects in early pregnancy
+g: Graves' in the first trimester: propylthiouracil
+f: she is now in the second trimester => Carbimazole
+
+@h0118
+c: TSH 7.2 | free T4 normal | 67 year old woman
+m: Mildly raised TSH is common with age and treatment shows no benefit when under 10
+g: Subclinical hypothyroidism with TSH under 10 over 65: monitor
+
+@h0119
+c: at the same time as a new tablet | heavy periods
+m: Iron binds levothyroxine in the gut and blocks absorption
+g: Rising TSH after starting a tablet for heavy periods: ferrous sulfate
+
+@h0120
+c: stopped taking her tablets 2 months ago | 33°C | pulse rate 44 bpm | slow-relaxing reflexes
+m: Severe lack of thyroid hormone slows the heart, brain and heat production
+g: Hypothermia, bradycardia and drowsiness off thyroxine is myxoedema coma
+f: capillary glucose of 1.9 => Hypoglycaemia
+f: confusion with ataxia and eye signs in a heavy drinker => Wernicke's encephalopathy
+f: fever with a fast pulse and low blood pressure => Sepsis
+
+@h0121
+c: phaeochromocytoma | brother had thyroid surgery in his thirties | calcitonin is high
+m: C cells make calcitonin; RET mutations in MEN 2 cause medullary cancer and phaeochromocytoma
+g: Thyroid nodule with high calcitonin and phaeochromocytoma is medullary carcinoma
+f: a young woman with nodal spread and normal calcitonin => Papillary carcinoma
+f: a rapidly growing hard mass in an older woman with stridor => Anaplastic carcinoma
+
+@h0122
+c: grown rapidly over 4 weeks | hoarse | hard, fixed 6 cm mass | inspiratory stridor
+m: Undifferentiated cancer grows within weeks and invades the airway and nerves
+g: Rapid hard fixed thyroid mass with stridor in an older woman is anaplastic carcinoma
+f: a slow-growing lump in a young woman with neck nodes => Papillary carcinoma
+f: a nodule with high calcitonin => Medullary carcinoma
+
+@h0123
+c: moves on swallowing | TSH is normal
+m: Ultrasound grades how suspicious a nodule looks before any needle test
+g: Thyroid nodule with normal TSH: ultrasound first
+f: low TSH with a nodule => Radioisotope scan
+
+@h0124
+c: spraying urinary stream | urethral catheter for 5 days | small, smooth prostate | flat, prolonged, plateau-shaped flow curve
+m: Scarring after catheter trauma narrows the urethra, so flow is fixed and flat
+g: A plateau flow curve after catheterisation with a small prostate is a urethral stricture
+f: a 70 year old with a large smooth prostate and nocturia => Benign prostatic hyperplasia
+f: poor flow with a hard irregular prostate => Prostate cancer
+
+@h0125
+c: tamsulosin for 6 months with only slight improvement | 60 mL
+m: 5-alpha reductase inhibitors shrink a large prostate over months
+g: Large prostate still symptomatic on an alpha-blocker: add finasteride
+f: mostly urgency and frequency => Oxybutynin
+
+@h0126
+c: not passed urine for 12 hours | severe lower abdominal pain | antihistamine | tender, dull suprapubic mass
+m: Anticholinergic drugs weaken the detrusor against an enlarged prostate
+g: Painful sudden inability to pass urine with a tender bladder is acute retention
+f: a painless large bladder with overflow dribbling => Chronic urinary retention
+
+@h0127
+c: metastatic prostate cancer | worse at night | brisk knee reflexes | reduced below the umbilicus
+m: Vertebral metastases compress the cord, causing weakness and a sensory level
+g: Metastases with leg weakness and a sensory level: dexamethasone and whole spine MRI
+
+@h0128
+c: goserelin | bone metastases
+m: LHRH agonists cause a testosterone surge first, which can flare bone pain or cord compression
+g: Cover the start of goserelin with an anti-androgen such as bicalutamide
+
+@h0129
+c: PSA of 7 | 3 plus 3 equals 6 in one core | confined to the prostate
+m: Low-grade small cancers rarely progress, so monitoring avoids treatment harms
+g: Low-risk localised prostate cancer: active surveillance
+f: high-risk localised disease in a fit man => Radical prostatectomy as soon as possible
+
+@h0130
+c: painless | smoked for 30 years | gold standard for assessing the bladder
+m: Direct inspection finds and biopsies bladder tumours
+g: Bladder gold standard: flexible cystoscopy
+f: asked how to image the kidneys and ureters => CT urogram

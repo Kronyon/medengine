@@ -1,0 +1,124 @@
+@h0251
+c: terminal ileal resection | unsteadiness in the dark | Romberg's test is positive | MCV 112
+m: B12 is absorbed in the terminal ileum; lack of it damages the dorsal columns and marrow
+g: Macrocytic anaemia with dorsal column loss after ileal resection is B12 deficiency
+f: duodenal disease with a microcytic anaemia => Iron
+f: confusion, ataxia and eye signs in a heavy drinker => Thiamine
+
+@h0252
+c: systemic sclerosis | Serum folate is high | vitamin B12 is low
+m: Poor gut motility lets bacteria multiply; they make folate and use up B12
+g: Dysmotility with high folate and low B12 is small bowel bacterial overgrowth
+f: watery diarrhoea after cholecystectomy => Bile acid malabsorption
+f: a positive tTG antibody => Coeliac disease
+
+@h0253
+c: iron deficiency anaemia | villous atrophy, crypt hyperplasia and increased intraepithelial lymphocytes
+m: Gluten triggers T cells that flatten the duodenal villi
+g: Villous atrophy with raised intraepithelial lymphocytes on gluten is coeliac disease
+f: PAS-positive macrophages in the lamina propria => Whipple's disease
+f: the same biopsy after years in the tropics with folate deficiency => Tropical sprue
+
+@h0254
+c: Howell-Jolly bodies
+m: Coeliac disease can cause hyposplenism, raising risk from encapsulated bacteria
+g: Coeliac with hyposplenism: pneumococcal vaccine
+
+@h0255
+c: strictly to a gluten-free diet | night sweats | lost 8 kg | central abdominal mass
+m: Long-standing coeliac disease raises the risk of T-cell lymphoma of the small bowel
+g: Weight loss, sweats and a mass despite strict diet: exclude small bowel T-cell lymphoma
+f: an itchy blistering rash on the elbows => Dermatitis herpetiformis
+
+@h0256
+c: 55 year old woman | bloating every day | feels full quickly | no previous bowel problems
+m: Ovarian cancer presents with vague bloating and early fullness
+g: New persistent bloating in a woman over 50: CA-125 first
+f: a young adult with diarrhoea and suspected IBD => Faecal calprotectin
+
+@h0257
+c: relieved by opening his bowels | irritable bowel syndrome with diarrhoea
+m: Loperamide slows gut transit without central opioid effects
+g: IBS with diarrhoea: loperamide
+f: constipation-predominant IBS not helped by laxatives => Linaclotide
+
+@h0258
+c: for 3 months | bloating and wind still affect her work
+m: Fermentable carbohydrates produce gas in the colon
+g: IBS not helped by first-line diet advice: low FODMAP diet with a dietitian
+
+@h0259
+c: wants to see its anatomy
+m: Contrast outlines where the stomach and junction sit
+g: Barium swallow shows the anatomy of a hiatus hernia
+f: measuring acid reflux before surgery => Oesophageal pH study
+
+@h0260
+c: fit 58 year old woman | paraoesophageal, rolling | most of the stomach in the chest
+m: A rolling hernia can twist and strangulate
+g: Symptomatic paraoesophageal hernia in a fit patient: laparoscopic repair
+f: a small sliding hernia with reflux => High-dose PPI
+
+@h0261
+c: cannot belch | bloated | no dysphagia | wrap is intact
+m: The wrap stops air escaping upwards, so swallowed gas builds up
+g: Unable to belch with bloating after fundoplication is gas bloat syndrome
+f: dysphagia with the wrap moved up into the chest => Slipped wrap
+f: early fullness and vomiting of old food => Delayed gastric emptying
+
+@h0262
+c: asthma and hay fever | food stuck | concentric rings and linear furrows | more than 15 eosinophils
+m: An allergic eosinophilic inflammation stiffens and narrows the oesophagus
+g: A young atopic man with a food bolus, rings and eosinophils has eosinophilic oesophagitis
+f: white plaques in an immunosuppressed patient => Candida oesophagitis
+f: years of reflux with a smooth lower stricture => Peptic stricture
+f: dysphagia to solids and liquids with a bird's beak => Achalasia
+
+@h0263
+c: undigested food that he ate hours earlier | bad breath | gurgles when pressed
+m: A pouch above cricopharyngeus traps food that is later regurgitated
+g: Regurgitating old food with halitosis and a gurgling neck swelling is a pharyngeal pouch
+f: a lump in the throat between meals that eating relieves => Globus
+f: dysphagia to solids and liquids with a bird's beak => Achalasia
+f: progressive solid dysphagia with weight loss in a smoker => Oesophageal cancer
+
+@h0264
+c: reflux for 20 years | BMI of 34 | lower third | Barrett's oesophagus
+m: Acid turns lower oesophageal lining glandular, which can become adenocarcinoma
+g: A lower oesophageal tumour arising from Barrett's is adenocarcinoma
+f: a middle-third tumour in a heavy smoker and drinker => Squamous cell carcinoma
+
+@h0265
+c: few hours after meals | wakes him at night | eating relieves it
+m: Food buffers acid in the duodenum; pain returns when the stomach empties
+g: Pain on an empty stomach relieved by food is a duodenal ulcer
+f: pain worse on eating with weight loss => Gastric ulcer
+f: pain under the right ribs after fatty meals => Biliary colic
+
+@h0266
+c: feels well | Haemoglobin 142 | Glasgow-Blatchford score is 0
+m: Glasgow-Blatchford predicts who needs intervention after an upper GI bleed
+g: GBS 0: discharge for outpatient endoscopy
+f: a score of 8 => Admit for endoscopy within 24 hours
+
+@h0267
+c: gastric ulcer | lesser curve
+m: Gastric ulcers can hide cancer that early biopsies miss
+g: Gastric ulcer: repeat endoscopy in 6 to 8 weeks to confirm healing
+
+@h0268
+c: father died of bowel cancer at 40 | hundreds of small polyps | congenital hypertrophy of the retinal pigment epithelium
+m: An APC mutation causes hundreds of adenomas and almost certain cancer
+g: Hundreds of adenomas with retinal pigment changes is FAP
+f: a few polyps with endometrial and bowel cancers in the family => Lynch syndrome
+f: freckles on the lips with hamartomatous polyps => Peutz-Jeghers syndrome
+
+@h0269
+c: 8 cm from the anal verge | radiotherapy before surgery
+m: MRI shows how deep the tumour goes and how close it is to the mesorectal fascia
+g: Rectal cancer local staging: MRI pelvis
+
+@h0270
+c: Dukes C | risen from 2 to 18
+m: A rising CEA after resection suggests recurrence, often in the liver or lungs
+g: Rising CEA after colon cancer: CT chest, abdomen and pelvis

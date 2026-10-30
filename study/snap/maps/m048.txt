@@ -1,0 +1,121 @@
+@h0471
+c: amitriptyline | dilated | dry | QRS duration of 140 ms
+m: Tricyclics block cardiac sodium channels; bicarbonate overcomes the block
+g: Tricyclic overdose with a wide QRS: sodium bicarbonate
+f: pinpoint pupils with slow breathing => Naloxone
+f: torsades de pointes => Magnesium sulfate
+
+@h0472
+c: sertraline | started tramadol | Since this morning | sustained clonus
+m: Two serotonergic drugs together overload serotonin
+g: Clonus, hyperreflexia and agitation within a day of a serotonergic drug is serotonin syndrome
+f: days of lead-pipe rigidity on an antipsychotic => Neuroleptic malignant syndrome
+f: tremor, sweating and agitation a day after stopping drinking => Alcohol withdrawal
+
+@h0473
+c: voluntary patient | trying to leave | doctor in charge of her care
+m: The responsible doctor can hold an inpatient for up to 72 hours for assessment
+g: Doctor holding a voluntary inpatient: Section 5(2)
+f: detention for assessment for up to 28 days => Section 2
+f: detention for treatment for up to 6 months => Section 3
+
+@h0474
+c: Police | shopping centre
+m: Police can take someone from a public place to a place of safety
+g: Police removing someone from a public place: Section 136
+f: police need a warrant to enter a home => Section 135
+
+@h0475
+c: barely speaks | holds it in the air for several minutes | afebrile | Creatine kinase is normal
+m: Catatonia is a motor syndrome of mutism, stupor and posturing
+g: Mutism, stupor and waxy flexibility is catatonia
+f: fever, rigidity and high CK on an antipsychotic => Neuroleptic malignant syndrome
+f: fluctuating attention with an infection => Delirium
+
+@h0476
+c: catatonia | afebrile
+m: Benzodiazepines often reverse catatonia quickly
+g: Catatonia: lorazepam first
+
+@h0477
+c: ECT
+m: ECT disrupts memory around the time of treatment
+g: ECT: memory loss around the course is most common
+
+@h0478
+c: rarely responds to her name | does not point | lining up her toys | hearing test is normal
+m: Autism affects social communication and causes restricted, repetitive behaviour
+g: Poor joint attention, social communication and rigid play is autism
+f: delayed speech with an abnormal hearing test => Hearing impairment
+
+@h0479
+c: busy, noisy | covering his ears
+m: Sensory overload and uncertainty drive distress in autism
+g: Reduce sensory load and explain steps: quiet room and clear steps
+
+@h0480
+c: severe aggression | behaviour support and parent training have not helped | No physical cause
+m: Antipsychotics can reduce severe aggression once other approaches fail
+g: Severe aggression in autism after psychosocial approaches fail: risperidone
+f: coexisting ADHD => Methylphenidate
+
+@h0481
+c: 4 days ago | caring for her baby well | no thoughts of harming
+m: Hormonal shifts after birth cause brief tearfulness that settles by 2 weeks
+g: Tearfulness on days 3 to 10 with normal functioning is baby blues
+f: low mood lasting beyond 2 weeks => Postnatal depression
+f: confusion, mania or delusions in the first weeks => Postpartum psychosis
+
+@h0482
+c: breastfeeding | score is 17
+m: Sertraline passes into breast milk in very small amounts
+g: Postnatal depression while breastfeeding: sertraline
+
+@h0483
+c: 10-item | 6 weeks after giving birth
+m: The EPDS is a 10-question screen for postnatal depression
+g: A 10-item postnatal mood screen is the Edinburgh Postnatal Depression Scale
+f: a 9-item depression questionnaire => PHQ-9
+f: a 7-item anxiety screen => GAD-7
+
+@h0484
+c: 6 on the 4AT
+m: The 4AT scores alertness, orientation, attention and acute change
+g: 4AT of 4 or more suggests delirium
+f: a score of 2 => Possible cognitive impairment
+f: a score of 0 => No impairment
+
+@h0485
+c: regular morphine | not opened her bowels | tender, dull suprapubic mass
+m: Opioids, constipation and retention are common reversible causes of delirium
+g: New confusion with a tender dull suprapubic mass: urinary retention
+
+@h0486
+c: Parkinson's disease | Reassurance, a quiet side room
+m: Most antipsychotics block dopamine and worsen Parkinson's
+g: Distressed delirium in Parkinson's: lorazepam
+f: no Parkinson's => Haloperidol
+
+@h0487
+c: since her husband left | still enjoys time with her children | PHQ-9 score is 7
+m: Distress after a life event without meeting depression criteria is an adjustment reaction
+g: Low mood and worry after a stressor, short of depression, is adjustment disorder
+f: low mood with poor sleep, appetite and loss of interest for weeks => Moderate depression
+f: constant worry about many things for 6 months => Generalised anxiety disorder
+
+@h0488
+c: made redundant 4 weeks ago | does not meet the criteria for depression
+m: Adjustment disorder usually settles with support as the person adapts
+g: Adjustment disorder: support and problem-solving
+
+@h0489
+c: settled 9 months ago | lost interest in her hobbies
+m: Adjustment disorder should settle within 6 months of the stressor ending
+g: Symptoms lasting beyond 6 months after the stressor: reassess the diagnosis
+
+@h0490
+c: fear of being judged | comfortable with close friends
+m: Fear of scrutiny drives avoidance of social and performance situations
+g: Fear of being judged in social situations is social anxiety disorder
+f: fear of crowds and places where escape is hard => Agoraphobia
+f: fear of one object such as needles => Specific phobia
