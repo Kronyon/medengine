@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.3.1 (2026-11-03)
+
+🎙️ **TalkType (or any dictation app) straight into 📋 Grade.**
+- `osce.html#talk=<text>` catches a transcript from an iPhone or Mac Shortcut (share sheet or clipboard). It is a #fragment, so the text never reaches the web server, and it is cleared from the address bar at once.
+- The transcript goes to the station you last used and is marked automatically. With no station yet, it waits for the next one you open; for a 🔒 My circuit station, it waits until you unlock.
+- 📋 Paste & mark: one tap reads the clipboard into 📋 Grade and marks it (website copy; the claude.ai viewer blocks clipboard reads).
+
 ## 3.3.0 (2026-11-03)
 
 The three files in `site/` are now the source of truth (Antigravity and Claude both edit them). `python3 site/build.py` makes the website zip, the offline zip and the two claude.ai artifacts. Every change is a patch script in `site/patches/`.

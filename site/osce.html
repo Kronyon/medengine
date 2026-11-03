@@ -545,7 +545,7 @@ html[data-cursor] input[type="text"],html[data-cursor] input[type="search"],html
 </style>
 <header class="top">
   <div class="bar">
-    <button class="brand" id="homeBtn" aria-label="medengine-OSCE home"><span class="bill">m</span><span class="bname">medengine<span class="ext">-OSCE</span></span><span class="ver">v3.3.0</span></button>
+    <button class="brand" id="homeBtn" aria-label="medengine-OSCE home"><span class="bill">m</span><span class="bname">medengine<span class="ext">-OSCE</span></span><span class="ver">v3.3.1</span></button>
     <a class="switch" id="drillLink" href="study.html" title="Open medengine-STUDY (notes, SBAs, word hunt)"><span class="dot">m</span>medengine-STUDY ↗</a>
     <span class="grow"></span>
     <input class="search" id="q" type="search" placeholder="Search any station, drug or sign…" autocomplete="off" aria-label="Search">
@@ -4318,7 +4318,7 @@ const HOW = {
 const FWD = D.fw || {uni: [], list: []}, FWL = FWD.list, UNI = FWD.uni, FWBY = {}; FWL.forEach(f => FWBY[f.id] = f);
 const FRFW = {hx: 'hx', mhx: 'mhx', ex: 'ex', proc: 'proc', acute: 'acute', expl: 'expl', counsel: 'expl', bbn: 'expl', presc: 'presc', di: 'di', prof: 'prof', pres: 'present', plan: 'plan'};
 const DRILL = 'study.html';
-const APP_NAME = 'medengine-OSCE', APP_VERSION = '3.3.0', PUBLIC = !!window.MEDENGINE_PUBLIC;
+const APP_NAME = 'medengine-OSCE', APP_VERSION = '3.3.1', PUBLIC = !!window.MEDENGINE_PUBLIC;
 const DEFAULT_SUPABASE_URL = 'https://qgseemqoyzjywkrhfwip.supabase.co';
 const DEFAULT_SUPABASE_ANON_KEY = 'sb_publishable_Uowlwi5ZrhjKo4bsiUvPZA_i6IOOSfU';
 const DEFAULT_SUPABASE_PROJECT_ID = 'qgseemqoyzjywkrhfwip';
@@ -5333,6 +5333,7 @@ function gradeDrawerHtml(st, forceOpen){
   h += '<div class="row">';
   h += '<button type="button" class="btn sm primary" data-ttmark>' + (ttGradeState.retryMode ? '⚡ Patch Missed' : '⚡ Mark') + '</button>';
   h += '<button type="button" class="btn sm tt-dict' + (ttDictState.on ? ' on' : '') + '" data-ttdictate>' + (ttDictState.on ? '⏹ Stop Mic (' + mmss(ttDictState.sec) + ')' : '🎙️ Dictate') + '</button>';
+  if (!window.MEDENGINE_ARTIFACT) h += '<button type="button" class="btn sm" data-ttpaste title="Paste what TalkType copied and mark it">📋 Paste &amp; mark</button>';
   if (r && r.rescued && r.rescued.length) h += '<button type="button" class="btn sm" data-ttfix title="Swap misheard words in the box for the right ones">✨ Fix words in the box</button>';
   if (r && r.missed.length) {
     h += '<button type="button" class="btn sm' + (ttGradeState.retryMode ? ' primary' : '') + '" data-ttretry>↻ Retry Missed (' + r.missed.length + ')</button>';
@@ -6624,6 +6625,56 @@ function vWaitHint(){ const w = String(S.set.vWait || '2500'); return w === 'tap
 /* ---------- views and routes ---------- */
 VIEWS.push('mn', 'my');
 
+/* ---------- v3.3.1 🎙️ TalkType → 📋 Grade ---------- */
+const TALK_KEY = 'medengine-talk-pending', LAST_ST_KEY = 'medengine-last-station';
+let talkMem = '';
+function talkPending(v){
+  if (v === undefined) { try { return sessionStorage.getItem(TALK_KEY) || talkMem; } catch (e) { return talkMem; } }
+  talkMem = v || '';
+  try { if (v) sessionStorage.setItem(TALK_KEY, v); else sessionStorage.removeItem(TALK_KEY); } catch (e) {}
+}
+function talkTake(){
+  const m = (location.hash || '').match(/^#talk=([\s\S]*)$/);
+  if (!m) return false;
+  let txt = m[1];
+  try { txt = decodeURIComponent(txt.replace(/\+/g, ' ')); } catch (e) {}
+  txt = txt.replace(/\s+/g, ' ').trim().slice(0, 20000);
+  if (txt) talkPending(txt);
+  let last = ''; try { last = localStorage.getItem(LAST_ST_KEY) || ''; } catch (e) {}
+  const target = last && getStation(last) ? '#s-' + last : /^MY\d/.test(last) ? '#my' : '#home';
+  try { history.replaceState(null, '', location.pathname + location.search + target); } catch (e) { location.hash = target; }
+  setTimeout(() => toast(txt ? (target === '#home' ? '🎙️ Transcript received: open a station to mark it' : target === '#my' ? '🎙️ Transcript received: unlock and open your station' : '🎙️ Transcript received') : 'No text came through'), 400);
+  return true;
+}
+window.addEventListener('hashchange', () => { talkTake(); });
+talkTake();
+function talkApply(st){
+  if (!st) return;
+  try { localStorage.setItem(LAST_ST_KEY, st.id); } catch (e) {}
+  const txt = talkPending(); if (!txt) return;
+  talkPending('');
+  setTimeout(() => {
+    if (!cur || cur.st !== st) return talkPending(txt);
+    setMode('grade');
+    ttGradeState.stId = st.id; ttGradeState.open = true; ttGradeState.retryMode = false;
+    redrawSniperStationWrap();
+    const ta = $('#ttTranscriptInput'); if (ta) ta.value = txt;
+    const mk = $('[data-ttmark]'); if (mk) mk.click();
+    const gd = $('#gradeDrawer'); if (gd) { gd.open = true; gd.scrollIntoView({behavior: 'smooth', block: 'start'}); }
+    toast('🎙️ Transcript marked in 📋 Grade');
+  }, 120);
+}
+async function talkPaste(){
+  let txt = '';
+  try { txt = (await navigator.clipboard.readText() || '').trim(); } catch (e) { return toast('Paste is blocked here: long-press the box and tap Paste'); }
+  if (!txt) return toast('The clipboard is empty');
+  const ta = $('#ttTranscriptInput'); if (!ta) return;
+  ta.value = txt; ttGradeState.raw = txt;
+  const mk = $('[data-ttmark]'); if (mk) mk.click();
+}
+document.addEventListener('click', e => { const b = e.target.closest && e.target.closest('[data-ttpaste]'); if (b) talkPaste(); });
+
+
 function fromHash(){
   const h = (location.hash || '').slice(1);
   let m;
@@ -6949,6 +7000,7 @@ function drawStationParts(){
   upgradeTimerBar();
   $('#hookWrap').innerHTML = skelCardHtml(st) + rfCardHtml(st) + nextCardHtml(st) + hookHtml(Object.assign(hooksFor(st, cur.vk), cur.hidden ? {money: '', all: []} : {}), cur.mode === 'script');
   const mnw = $('#mnWrap'); if (mnw) mnw.innerHTML = mnCardHtml(st);
+  talkApply(st);
   $('#scriptCard').innerHTML = scriptHtml(st, cur.hidden ? '~' : cur.vk);
   drawFriends();
   cur.secs = buildChecklist(st, cur.vk); cur.ticks = new Set([...cur.ticks].filter(id => cur.secs.some(s => s.items.some(it => it.id === id))));

@@ -23,7 +23,7 @@ const ok = (c, m) => { if (!c) { fails.push(m); console.log('  ✗ ' + m); } els
   ok(await page.locator('#nav button[data-v="mn"]').count() === 1, 'nav has 🧬 Mnemonics');
   ok(await page.locator('#nav button[data-v="my"]').count() === 1, 'nav has 🔒 My circuit');
   const eyebrow = await page.locator('.hero .eyebrow').first().textContent();
-  ok(/v3\.3\.0/.test(eyebrow), 'home shows v3.3.0: ' + eyebrow.slice(0, 40));
+  ok(/v3\.3\.\d/.test(eyebrow), "home shows the version: " + eyebrow.slice(0, 40));
 
   console.log('mnemonic hub');
   await page.click('#nav button[data-v="mn"]');
