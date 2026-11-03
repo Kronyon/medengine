@@ -547,7 +547,7 @@ html[data-cursor] input[type="text"],html[data-cursor] input[type="search"],html
 </style>
 <header class="top">
   <div class="bar">
-    <button class="brand" id="homeBtn" aria-label="medengine-OSCE home"><span class="bill">m</span><span class="bname">medengine<span class="ext">-OSCE</span></span><span class="ver">v3.3.1</span></button>
+    <button class="brand" id="homeBtn" aria-label="medengine-OSCE home"><span class="bill">m</span><span class="bname">medengine<span class="ext">-OSCE</span></span><span class="ver">v3.3.2</span></button>
     <a class="switch" id="drillLink" data-private href="https://claude.ai/artifact/NexSvgTB8VhqktVFfko6JR" target="_blank" rel="noopener" title="Open medengine-STUDY (notes, SBAs, word hunt)"><span class="dot">m</span>medengine-STUDY ↗</a>
     <span class="grow"></span>
     <input class="search" id="q" type="search" placeholder="Search any station, drug or sign…" autocomplete="off" aria-label="Search">
@@ -3843,7 +3843,7 @@ const HOW = {
 const FWD = D.fw || {uni: [], list: []}, FWL = FWD.list, UNI = FWD.uni, FWBY = {}; FWL.forEach(f => FWBY[f.id] = f);
 const FRFW = {hx: 'hx', mhx: 'mhx', ex: 'ex', proc: 'proc', acute: 'acute', expl: 'expl', counsel: 'expl', bbn: 'expl', presc: 'presc', di: 'di', prof: 'prof', pres: 'present', plan: 'plan'};
 const DRILL = 'https://claude.ai/artifact/NexSvgTB8VhqktVFfko6JR';
-const APP_NAME = 'medengine-OSCE', APP_VERSION = '3.3.1', PUBLIC = !!window.MEDENGINE_PUBLIC;
+const APP_NAME = 'medengine-OSCE', APP_VERSION = '3.3.2', PUBLIC = !!window.MEDENGINE_PUBLIC;
 const DEFAULT_SUPABASE_URL = 'https://qgseemqoyzjywkrhfwip.supabase.co';
 const DEFAULT_SUPABASE_ANON_KEY = 'sb_publishable_Uowlwi5ZrhjKo4bsiUvPZA_i6IOOSfU';
 const DEFAULT_SUPABASE_PROJECT_ID = 'qgseemqoyzjywkrhfwip';
@@ -4232,6 +4232,35 @@ function extractAnchorTokens(text){
   return [...new Set((clean.match(/[a-z0-9]{4,}/g) || []).filter(w => !GENERIC_STOPWORDS.has(w)))];
 }
 
+/* v3.3.2: which words in a bullet actually discriminate it, and where they turn up together */
+const ANCHOR_COMMON = new Set(['abdomen','abdominal','tummy','patient','examination','examine','examining','going','just','okay','would','like','also','then','here','there','about','some','more','them','they','their','what','when','have','been','want','need','make','sure','thank','thanks','please','today','right','left','side','sides','your','yours','with','from','into','that','this','these','those','will','well','very','much','look','looking','feel','feeling','listen','listening','pain','painful','sore','tell','know','normal','signs','sign','check','checking','station','doctor','student','examiner']);
+const anchorDF = {};
+function anchorSet(it, st){
+  const key = st && st.id;
+  if (key && !anchorDF[key]) {
+    const df = {}, secs = buildChecklist(st, (cur && cur.st === st && cur.vk) || null) || [];
+    let n = 0;
+    secs.forEach(sc => sc.items.forEach(x => { n++; new Set(extractAnchorTokens(String(x.t || '') + ' ' + (x.say || '')).map(anchorStem)).forEach(w => { df[w] = (df[w] || 0) + 1; }); }));
+    anchorDF[key] = {df, n};
+  }
+  const D = key ? anchorDF[key] : {df: {}, n: 0}, cap = Math.max(3, Math.ceil(D.n * 0.25));
+  const out = [];
+  extractAnchorTokens(String(it.t || '').replace(/<[^>]+>/g, ' ') + ' ' + (it.say || '')).forEach(w => {
+    if (ANCHOR_COMMON.has(w) || /^\d+$/.test(w)) return;
+    const s = anchorStem(w);
+    if ((D.df[s] || 0) >= cap) return;
+    if (!out.includes(s)) out.push(s);
+  });
+  return out.slice(0, 14);
+}
+function anchorStem(w){ const s = w.replace(/(ations?|ings?|ness|ities|ity|ies|ions?|es|ed|al|s)$/, ''); return (s.length >= 4 ? s : w).slice(0, 6); }
+function proxWindows(parsed){
+  if (parsed._prox) return parsed._prox;
+  const words = String(parsed.norm || '').split(/\s+/).filter(Boolean), out = [];
+  for (let i = 0; i < words.length; i += 8) { out.push(words.slice(i, i + 25).join(' ')); if (i + 25 >= words.length) break; }
+  if (!out.length) out.push('');
+  return parsed._prox = out;
+}
 function scoreSubBullet(it, domH, st, parsed){
   const norm = parsed.norm;
   const raw = parsed.raw;
@@ -4531,26 +4560,19 @@ function scoreSubBullet(it, domH, st, parsed){
     }
   }
 
-  // 3. General Keyword Anchor Matcher for all other station bullets (Zero Generic Stopword Inflation)
-  const anchors = extractAnchorTokens(tClean + ' ' + (it.say || ''));
+  // 3. General matcher (v3.3.2): discriminating words only, and they must turn up together
+  const anchors = anchorSet(it, st);
   if (!anchors.length) {
     const fallbackRx = /\b(examine|inspect|palpat|auscultat|assess|ask|explain)\b/i;
     const ok = fallbackRx.test(norm);
-    return {score: ok ? 1 : 0, quote: ok ? findTranscriptQuote(parsed, fallbackRx) : '', say: sayHint};
+    return {score: ok ? 0.5 : 0, quote: ok ? findTranscriptQuote(parsed, fallbackRx) : '', say: sayHint};
   }
-  const matchedAnchors = anchors.filter(w => {
-    const rx = new RegExp('\\b' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
-    return rx.test(norm) || rx.test(raw);
-  });
-  const reqCount = anchors.length >= 4 ? 2 : 1;
-  if (matchedAnchors.length >= reqCount) {
-    const hitRx = new RegExp('\\b(' + matchedAnchors.slice(0, 4).join('|') + ')', 'i');
-    return {score: 1, quote: findTranscriptQuote(parsed, hitRx), say: sayHint};
-  }
-  if (matchedAnchors.length === 1 && reqCount === 2) {
-    const hitRx = new RegExp('\\b' + matchedAnchors[0], 'i');
-    return {score: 0.5, quote: findTranscriptQuote(parsed, hitRx), say: sayHint};
-  }
+  const req = anchors.length >= 8 ? 3 : anchors.length >= 3 ? 2 : 1;
+  const rxs = anchors.map(w => new RegExp('\\b' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i'));
+  let best = {n: 0, w: ''};
+  proxWindows(parsed).forEach(w => { const n = rxs.filter(rx => rx.test(w)).length; if (n > best.n) best = {n, w}; });
+  if (best.n >= req) return {score: 1, quote: best.w.split(' ').slice(0, 14).join(' '), say: sayHint};
+  if (best.n && best.n === req - 1) return {score: 0.5, quote: best.w.split(' ').slice(0, 14).join(' '), say: sayHint};
   return {score: 0, quote: '', say: sayHint};
 }
 
@@ -6143,6 +6165,21 @@ document.addEventListener('toggle', e => {
     [/\b(?:chlorhexadine|chlora hex a dean|chlorhex a dine|chlor hexi dean)\b/gi, 'chlorhexidine', 'chlora hex a dean -> chlorhexidine']
   );
 })();
+(function moreSlips(){
+  const exam = st => typeOf(st) === 'ex' || typeOf(st) === 'proc';
+  TALKTYPE_MAP.push(
+    [/\bdate (?:to|of|a|for|the) (?:beth|bath|berth|birds?)\b/gi, 'date of birth', 'date to Beth -> date of birth'],
+    [/\b(?:purchase|podcast|because|per cuss|pecas) for\b/gi, 'percuss for', 'purchase for -> percuss for', exam],
+    [/\b(?:pop it|puppet|pop pate|pal pate|palpitate)\b/gi, 'palpate', 'puppet -> palpate', exam],
+    [/\blight (?:partitions|palpitations|petitions|patients)\b/gi, 'light palpation', 'light partitions -> light palpation', exam],
+    [/\biliac fossils?\b/gi, 'iliac fossa', 'iliac fossil -> iliac fossa'],
+    [/\b(?:a pygastric|pygastric|epic gastric|epi gastric)\b/gi, 'epigastric', 'pygastric -> epigastric'],
+    [/\b(?:shifting down(?:ness)?|sifting (?:bonus|dullness|dull|down)|shifting bonus|shifting doneness|shifting dullest)\b/gi, 'shifting dullness', 'sifting bonus -> shifting dullness', exam],
+    [/\b(?:rossing|rosting|row sing|rossings)\b/gi, 'rovsing', 'rossing -> rovsing', exam],
+    [/\b(?:bow|bowl|ballad|ballet) the kidneys\b/gi, 'ballot the kidneys', 'bow the kidneys -> ballot the kidneys', exam],
+    [/\b(?:use une'?s|you and ease?|u and e'?s|you and ees)\b/gi, 'u&es', "use une's -> U&Es"]
+  );
+})();
 function ttMapFor(st){ return TALKTYPE_MAP.filter(e => !e[3] || (st && e[3](st))); }
 
 function vWaitHint(){ const w = String(S.set.vWait || '2500'); return w === 'tap' ? 'only when you tap <b>➤ Send</b> or press Enter' : '<b>' + (vWaitMs() / 1000) + ' s</b> after you stop talking (longer if you trail off on "and…" or "um…"); <b>➤ Send</b> or Enter sends sooner, <b>✋ Hold</b> or Esc waits. Change the wait in voice settings'; }
@@ -6667,6 +6704,7 @@ function patientRules(st, voice){
   let secret = '';
   if (v) secret = '\nSECRET CASE ' + v.k + ': ' + v.who + '. Diagnosis (never say it): ' + v.dx + '.\nYour facts (reveal progressively, only when asked; anything marked ONLY IF ASKED needs a direct question): ' + v.a.join(' ') + '\n' + ((st.ask || []).length ? 'Questions to put to the candidate at natural points: ' + st.ask.join(' | ') + '\n' : '') + (v.r ? 'Results and examination findings, to give as [Examiner] ONLY when the candidate asks for them or performs that step: ' + v.r + '\n' : '');
   else if (pk) secret = '\nSECRET background (never name the diagnosis, never volunteer unprompted): the case is ' + (st.gen ? pk.u.name : st.t) + '. Typical history features you may draw on when asked: ' + (p.hx || []).join('; ') + '. Red flags present or absent as fits the brief: ' + (p.rf || []).join('; ') + '. Examination findings consistent with the case: ' + (p.ex || []).join('; ') + '. Your main worry (reveal only if asked about worries or if the candidate shows empathy): ' + (p.ice || [''])[0] + '.\n';
+  if (/mannequin/i.test(st.info || '')) secret += '\nMANNEQUIN STATION: there is no talking patient. Never speak as the patient and never invent a name, age or reply for her. Speak only as the examiner: start every reply with [Examiner], give each finding briefly only when the candidate says that step, and otherwise stay silent or say "Carry on."\n';
   return 'You are role-playing in a UK medical school OSCE (University of Nottingham, Foundations for Practice CPSA, fourth-year medical student). You play the SIMULATED PATIENT (or relative, colleague or nurse if the brief implies one), and when the candidate asks for observations, examination findings, results or the chart, you briefly switch to the EXAMINER voice.\n\nSTATION ' + st.id + ': ' + st.t + '\nCandidate information (the candidate has read this): ' + ((v && v.d) || st.info) + (st.task ? '\nCandidate task: ' + st.task : '') + '\n' + secret
     + (voice ? '\nSPOKEN STATION: your reply is read aloud by text-to-speech the moment you write it, so answer immediately and naturally: no markdown, lists, emojis or headings; one or two short spoken sentences (under 35 words) unless you are the examiner giving findings; contractions and everyday British speech; put any non-verbal cue in brackets at the very start, e.g. (winces); the candidate\'s words come from speech-to-text with no punctuation and occasional misheard words, so answer what they most likely meant; if they speak to the examiner, the examiner replies; as the examiner give numbers plainly (e.g. heart rate 110, blood pressure 90 over 60).\n' : '') + '\nRULES:\n- Stay in character. Speak like a real patient in plain British English, 1 to 3 short sentences per reply.\n- Answer only what you are asked; reveal details progressively. Keep any details you invent consistent with the facts above.\n- Show emotion that fits (worry, pain, irritation), including a non-verbal cue in brackets sometimes, e.g. (fidgets with hands, voice drops).\n- If the candidate describes an examination or procedure step, or asks for observations, results, ECG, chart or findings, reply as "[Examiner]" with concise findings from the facts above, or plausible findings consistent with the case. Do not interpret them for the candidate.\n- If the candidate types "examiner:" they are addressing the examiner; answer as "[Examiner]" briefly and neutrally.\n- Never coach, hint, praise, or reveal the mark scheme or diagnosis. Never mention you are an AI.\n- If the candidate uses jargon, look confused and ask what it means.\nReply with ONLY your next line.';
 }

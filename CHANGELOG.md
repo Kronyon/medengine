@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.3.2 (2026-11-03)
+
+📋 **Grade marks what you actually said.**
+- Found with a real abdominal transcript: every domain scored 4/4 although consent, the chaperone and the board-like rigidity were never mentioned. The general matcher accepted any 2 words of a bullet from anywhere in the transcript, and "a look, feel and listen to your abdomen" was quoted as proof for 9 bullets.
+- Now only discriminating words count (words shared by many of a station's bullets are ignored), they must occur together within about 25 words, longer bullets need 3, with light stemming. A vague opening now scores 3% instead of most of the domains.
+- More voice slips fixed: "date to Beth", "purchase/podcast for" (percuss), "puppet" (palpate), "light partitions", "iliac fossil", "pygastric", "sifting bonus" (shifting dullness), "rossing", "bow the kidneys", "use une's".
+- Mannequin stations: the AI speaks only as the examiner.
+
 ## 3.3.1 (2026-11-03)
 
 🎙️ **TalkType (or any dictation app) straight into 📋 Grade.**

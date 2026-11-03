@@ -82,6 +82,8 @@ const ok = (c, m) => { if (!c) { fails.push(m); console.log('  ✗ ' + m); } els
   const g4 = await grade(good.replace("I won't re-palpate", 'no allergies so tourniquet on'));
   ok(!g4.bad.some(x => /Tourniquet on/.test(x)), 'presence checks are not fooled by a nearby "no" (unpunctuated dictation)');
 
+  const vague = await page.evaluate(() => gradeStationTranscript(getStation('E-abdo'), 'Hello my name is Nana. Today I have been asked to examine your abdomen. This involves having a look, feel and listen to your abdomen. Do you have any questions?', null).rawPct);
+  ok(vague < 30, 'a vague opening does not earn domain marks (' + vague + '%)');
   console.log('grade drawer UI');
   await page.evaluate(() => setMode('grade'));
   await page.waitForTimeout(300);
