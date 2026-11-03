@@ -191,7 +191,8 @@ const ok = (c, m) => { if (!c) { fails.push(m); console.log('  ✗ ' + m); } els
   await page.setViewportSize({ width: 390, height: 860 });
   await page.goto(BASE + '/osce.html#p-venep');
   await page.waitForTimeout(500);
-  await page.locator('#mnCard > summary').click();
+  await page.evaluate(() => { setMode('script'); const c = document.querySelector('#mnCard'); if (c) c.open = true; });
+  await page.waitForTimeout(200);
   await page.locator('#mnCard').screenshot({ path: path.join(OUT, 'shot-mncard-390.png') });
   await page.goto(BASE + '/osce.html#mn');
   await page.waitForTimeout(400);
