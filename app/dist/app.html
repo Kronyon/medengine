@@ -547,7 +547,7 @@ html[data-cursor] input[type="text"],html[data-cursor] input[type="search"],html
 </style>
 <header class="top">
   <div class="bar">
-    <button class="brand" id="homeBtn" aria-label="medengine-OSCE home"><span class="bill">m</span><span class="bname">medengine<span class="ext">-OSCE</span></span><span class="ver">v3.3.3</span></button>
+    <button class="brand" id="homeBtn" aria-label="medengine-OSCE home"><span class="bill">m</span><span class="bname">medengine<span class="ext">-OSCE</span></span><span class="ver">v3.3.4</span></button>
     <a class="switch" id="drillLink" data-private href="https://claude.ai/artifact/NexSvgTB8VhqktVFfko6JR" target="_blank" rel="noopener" title="Open medengine-STUDY (notes, SBAs, word hunt)"><span class="dot">m</span>medengine-STUDY ↗</a>
     <span class="grow"></span>
     <input class="search" id="q" type="search" placeholder="Search any station, drug or sign…" autocomplete="off" aria-label="Search">
@@ -3843,7 +3843,7 @@ const HOW = {
 const FWD = D.fw || {uni: [], list: []}, FWL = FWD.list, UNI = FWD.uni, FWBY = {}; FWL.forEach(f => FWBY[f.id] = f);
 const FRFW = {hx: 'hx', mhx: 'mhx', ex: 'ex', proc: 'proc', acute: 'acute', expl: 'expl', counsel: 'expl', bbn: 'expl', presc: 'presc', di: 'di', prof: 'prof', pres: 'present', plan: 'plan'};
 const DRILL = 'https://claude.ai/artifact/NexSvgTB8VhqktVFfko6JR';
-const APP_NAME = 'medengine-OSCE', APP_VERSION = '3.3.3', PUBLIC = !!window.MEDENGINE_PUBLIC;
+const APP_NAME = 'medengine-OSCE', APP_VERSION = '3.3.4', PUBLIC = !!window.MEDENGINE_PUBLIC;
 const DEFAULT_SUPABASE_URL = 'https://qgseemqoyzjywkrhfwip.supabase.co';
 const DEFAULT_SUPABASE_ANON_KEY = 'sb_publishable_Uowlwi5ZrhjKo4bsiUvPZA_i6IOOSfU';
 const DEFAULT_SUPABASE_PROJECT_ID = 'qgseemqoyzjywkrhfwip';
@@ -6299,6 +6299,62 @@ async function whisperSend(st, key, mime){
 }
 document.addEventListener('click', e => { const b = e.target.closest && e.target.closest('[data-ttwhisper]'); if (b) whisperToggle(); });
 
+/* ---------- v3.3.4 🎯 Whisper for Voice stations: records your turns only ---------- */
+const WHV = {rec: null, chunks: [], stream: null, mime: '', st: null};
+async function whvStart(){
+  whvStop(true);
+  if (window.MEDENGINE_ARTIFACT || !whisperKey() || !navigator.mediaDevices || !window.MediaRecorder) return;
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({audio: true});
+    const mime = ['audio/webm;codecs=opus', 'audio/webm', 'audio/mp4', 'audio/ogg'].find(m => MediaRecorder.isTypeSupported && MediaRecorder.isTypeSupported(m)) || '';
+    WHV.stream = stream; WHV.chunks = []; WHV.st = cur && cur.st;
+    WHV.rec = new MediaRecorder(stream, mime ? {mimeType: mime} : undefined); WHV.mime = WHV.rec.mimeType || mime || 'audio/webm';
+    WHV.rec.ondataavailable = e => { if (e.data && e.data.size) WHV.chunks.push(e.data); };
+    WHV.rec.start(1000);
+    if (VO && VO.speaking) whvPause();
+  } catch (e) { WHV.rec = null; }
+}
+function whvPause(){ try { if (WHV.rec && WHV.rec.state === 'recording') WHV.rec.pause(); } catch (e) {} }
+function whvResume(){ try { if (WHV.rec && WHV.rec.state === 'paused') WHV.rec.resume(); } catch (e) {} }
+function whvStop(discard){
+  const r = WHV.rec;
+  return new Promise(res => {
+    if (!r || r.state === 'inactive') { if (WHV.stream) WHV.stream.getTracks().forEach(x => x.stop()); WHV.stream = null; if (discard) WHV.chunks = []; return res(); }
+    r.onstop = () => { if (WHV.stream) WHV.stream.getTracks().forEach(x => x.stop()); WHV.stream = null; if (discard) WHV.chunks = []; res(); };
+    try { r.stop(); } catch (e) { res(); }
+  });
+}
+async function whvEndGrade(){
+  const key = whisperKey();
+  if (!key || !WHV.rec) return pipeChatToGrade();
+  const st = (cur && cur.st) || WHV.st;
+  await whvStop(false); WHV.rec = null;
+  const blob = new Blob(WHV.chunks, {type: WHV.mime.split(';')[0]}); WHV.chunks = [];
+  if (blob.size < 2000) return pipeChatToGrade();
+  toast('🎯 Whisper is transcribing your station…');
+  const btn = $('[data-vendgrade]'); if (btn) { btn.disabled = true; btn.textContent = '⏳ Transcribing…'; }
+  const ext = /mp4/.test(WHV.mime) ? 'm4a' : /ogg/.test(WHV.mime) ? 'ogg' : 'webm';
+  const url = key.p === 'groq' ? 'https://api.groq.com/openai/v1/audio/transcriptions' : 'https://api.openai.com/v1/audio/transcriptions';
+  let text = '';
+  for (const model of (key.p === 'groq' ? ['whisper-large-v3-turbo', 'whisper-large-v3'] : ['whisper-1'])) {
+    const fd = new FormData();
+    fd.append('file', blob, 'station.' + ext); fd.append('model', model); fd.append('language', 'en'); fd.append('temperature', '0'); fd.append('prompt', whisperVocab(st)); fd.append('response_format', 'json');
+    try { const r = await fetch(url, {method: 'POST', headers: {Authorization: 'Bearer ' + key.k}, body: fd}); const d = await r.json().catch(() => ({})); if (r.ok && typeof d.text === 'string') { text = d.text.trim(); break; } if (r.status === 401) break; } catch (e) {}
+  }
+  if (btn) { btn.disabled = false; btn.textContent = '⚡ End & Mark in 📋 Grade'; }
+  if (!text) { toast('🎯 Whisper failed: marking the browser transcript instead'); return pipeChatToGrade(); }
+  stopTimer(); if (VO) vShutdown();
+  const v = curVar();
+  ttGradeState = {stId: st.id, raw: text, mode: v && v.k ? String(v.k) : 'normal', result: null, retryMode: false, open: true};
+  ttGradeState.result = gradeStationTranscript(st, text, null);
+  awardOsceBounty(10);
+  setMode('grade'); redrawSniperStationWrap();
+  const ta = $('#ttTranscriptInput'); if (ta) ta.value = text;
+  const gd = $('#gradeDrawer'); if (gd) { gd.open = true; gd.scrollIntoView({behavior: 'smooth', block: 'start'}); }
+  toast('🎯 Marked from the Whisper transcript');
+}
+
+
 
 
 function fromHash(){
@@ -6844,15 +6900,15 @@ function speakQ(text, who, system){
   const {v, pitch} = voiceFor(who);
   const u = new SpeechSynthesisUtterance(say); if (v) { u.voice = v; u.lang = v.lang; } else u.lang = 'en-GB';
   u.rate = +(S.set.vRate || 1.05); u.pitch = pitch;
-  VO.pending++; VO.speaking = true; vStopRec(); setOrb('speaking', who === 'ex' ? 'Examiner speaking…' : 'Patient speaking…');
-  const done = () => { if (u._done) return; u._done = 1; VO.pending = Math.max(0, VO.pending - 1); if (!VO.pending) { VO.speaking = false; if (!VO.busy && VO.on) setTimeout(vListen, 120); } };
+  VO.pending++; VO.speaking = true; whvPause(); vStopRec(); setOrb('speaking', who === 'ex' ? 'Examiner speaking…' : 'Patient speaking…');
+  const done = () => { if (u._done) return; u._done = 1; VO.pending = Math.max(0, VO.pending - 1); if (!VO.pending) { VO.speaking = false; whvResume(); if (!VO.busy && VO.on) setTimeout(vListen, 120); } };
   u.onend = done; u.onerror = done;
   try { TTS.speak(u); } catch (e) { done(); }
   // Chrome safety: if onend never fires, release after an estimate that allows for queued speech
   const now = Date.now(), est = say.split(' ').length * 430 / (+(S.set.vRate || 1.05)) + 400;
   VO.qEnd = Math.max(now, VO.qEnd || 0) + est; setTimeout(done, VO.qEnd - now + 2500);
 }
-function vInterrupt(){ if (!VO) return; try { TTS && TTS.cancel(); } catch (e) {} VO.pending = 0; VO.qEnd = 0; VO.speaking = false; VO.barge++; if (!VO.busy) vListen(); }
+function vInterrupt(){ if (!VO) return; try { TTS && TTS.cancel(); } catch (e) {} VO.pending = 0; VO.qEnd = 0; VO.speaking = false; whvResume(); VO.barge++; if (!VO.busy) vListen(); }
 function vStopRec(){ if (VO && VO.rec && VO.recOn) { try { VO.rec.abort(); } catch (e) {} VO.recOn = false; } }
 function vMakeRec(){
   if (!SRC) return null;
@@ -6976,7 +7032,7 @@ function voiceCardHtml(){
   const noRec = !SRC, noTts = !TTS;
   const aiBtnLabel = (window.medengineAccount && window.medengineAccount.isCloud && window.medengineAccount.isCloud() && window.medengineAccount.provider()) ? ('🟢 Cloud AI: ' + esc(window.medengineAccount.provider().name)) : '🔑 AI Key: Offline Mode (Tap for Cloud AI)';
   return '<div class="row"><h2 class="grow">🎙 Voice</h2><button class="btn sm" data-open-aikey type="button">' + aiBtnLabel + '</button><button class="btn sm" data-vreset>↺ Restart</button></div>'
-    + '<p class="hint" style="margin:0">Talk exactly as you would in the room. The patient answers out loud, <span id="vWaitHint">' + vWaitHint() + '</span>. Start a sentence with <b>"Examiner, …"</b> (or tap 📋) to talk to the examiner. Say physical steps out loud ("I\'m washing my hands… I\'d like to examine your chest") and the examiner gives the findings. Beeps at 5:00 and 9:00; at 10:00 the station stops and the examiner marks you.</p>'
+    + '<p class="hint" style="margin:0">Talk exactly as you would in the room. The patient answers out loud, <span id="vWaitHint">' + vWaitHint() + '</span>. Start a sentence with <b>"Examiner, …"</b> (or tap 📋) to talk to the examiner. Say physical steps out loud ("I\'m washing my hands… I\'d like to examine your chest") and the examiner gives the findings. ' + (!window.MEDENGINE_ARTIFACT && whisperKey() ? '<b>🎯 Your key is on, so ⚡ End &amp; Mark re-transcribes your words with Whisper for accurate marking.</b> ' : '') + 'Beeps at 5:00 and 9:00; at 10:00 the station stops and the examiner marks you.</p>'
     + (noRec ? '<div class="alert">🎙 This browser can\'t do speech recognition here, so type your words below; the patient and examiner will still speak. Chrome, Edge or Safari usually support it.</div>' : '')
     + (noTts ? '<div class="alert">🔇 This browser can\'t speak replies aloud; they will appear as text.</div>' : '')
     + '<div class="alert" id="vMicMsg" hidden>🎙 The microphone was blocked. Allow microphone access for this page in your browser\'s site settings (or the address-bar icon), then tap ↺ Restart. Until then, type below; replies are still spoken.</div>'
@@ -7363,7 +7419,7 @@ function vInit(){
   VO = {on: false, phase: 'idle', rec: null, recOn: false, micOK: null, buf: '', interim: '', segStart: 0, pending: 0, speaking: false, busy: false, barge: 0, target: 'pt', state: 'idle', holding: false, pttUp: false, readLeft: 60, rT: null};
   drawVoiceSettings(); drawVoiceCtl(); setOrb('idle', SAMPLE || !sampleChecked ? 'Ready when you are' : 'AI works on the published page only');
 }
-function vShutdown(){ if (!VO) return; VO.on = false; clearTimeout(VO.cT); clearInterval(VO.rT); vStopRec(); try { TTS && TTS.cancel(); } catch (e) {} abortChat(); }
+function vShutdown(){ if (!VO) return; if (WHV.rec && VO.on) whvStop(true); VO.on = false; clearTimeout(VO.cT); clearInterval(VO.rT); vStopRec(); try { TTS && TTS.cancel(); } catch (e) {} abortChat(); }
 function vStart(){
   if (!SAMPLE) return toast('AI works on the published page only');
   try { AC = AC || new (window.AudioContext || window.webkitAudioContext)(); AC.resume(); } catch (e) {}
@@ -7377,7 +7433,7 @@ function vStart(){
   VO.rT = setInterval(() => { VO.readLeft--; const el = $('#vReadLeft'); if (el) el.textContent = VO.readLeft; if (VO.readLeft <= 0) vEnter(); }, 1000);
 }
 function vEnter(){
-  clearInterval(VO.rT); VO.phase = 'live'; VO.on = true; drawVoiceCtl();
+  clearInterval(VO.rT); VO.phase = 'live'; VO.on = true; drawVoiceCtl(); whvStart();
   if (!tInt) toggleTimer($('[data-timer]'));
   $('#voiceCard').scrollIntoView({behavior: 'smooth', block: 'start'});
   speakQ('Please go ahead when you are ready.', 'ex', true);
@@ -7827,7 +7883,7 @@ document.addEventListener('click', e => {
     redrawSniperStationWrap();
     return;
   }
-  if (d.vendgrade != null) return pipeChatToGrade();
+  if (d.vendgrade != null) return whvEndGrade();
   if (d.ttdictate != null) return toggleTtDictate();
   if (d.ttmode != null) {
     ttGradeState.mode = d.ttmode;

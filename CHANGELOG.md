@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.3.4 (2026-11-03)
+
+🎯 **Voice stations are marked from Whisper too.** With a Groq or OpenAI key, a 🎙 Voice station quietly records your own turns (paused while the patient or examiner speaks). ⚡ End & Mark sends that recording to Whisper, primed with the station's words, and marks the accurate transcript instead of the browser's guesses. Without a key, or if Whisper fails, it marks the browser text as before. The Voice card says when this is on.
+
 ## 3.3.3 (2026-11-03)
 
 🎯 **Accurate dictation in 📋 Grade (Whisper).** With a Groq (gsk_…) or OpenAI (sk-…) key, 🎯 Accurate dictate records the station and sends the audio to Whisper (Groq: whisper-large-v3-turbo) with a vocabulary hint built from the station's own clinical words plus common OSCE words, then fills the box and marks it. Website copy only; the audio goes to your key's provider.
