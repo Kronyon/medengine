@@ -1,6 +1,6 @@
 {
   "name": "medengine",
-  "version": "3.3.2",
+  "version": "3.3.3",
   "private": true,
   "description": "medengine.exe: OSCE practice with scripts, frameworks, hooks, and an AI patient and examiner you can talk to.",
   "license": "UNLICENSED",

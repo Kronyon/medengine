@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.3.3 (2026-11-03)
+
+🎯 **Accurate dictation in 📋 Grade (Whisper).** With a Groq (gsk_…) or OpenAI (sk-…) key, 🎯 Accurate dictate records the station and sends the audio to Whisper (Groq: whisper-large-v3-turbo) with a vocabulary hint built from the station's own clinical words plus common OSCE words, then fills the box and marks it. Website copy only; the audio goes to your key's provider.
+
 ## 3.3.2 (2026-11-03)
 
 📋 **Grade marks what you actually said.**
