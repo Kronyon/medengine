@@ -139,7 +139,7 @@ f: slowly progressive weakness with absent reflexes and sensory loss => Chronic 
 f: proximal weakness with a raised CK and muscle pain => Polymyositis
 
 @o-mla1-020
-c: pitting oedema to mid thigh | protein 4+ | Albumin 21 | Urinary protein creatinine ratio 1100
+c: pitting oedema to mid thigh | protein 4+ | Albumin 21 | Urinary protein:creatinine ratio 1100
 m: Heavy protein loss lowers albumin, so fluid leaks into the tissues
 g: Gross oedema from nephrotic syndrome needs a loop diuretic first
 f: oedema cleared but proteinuria persists => Candesartan cilexetil

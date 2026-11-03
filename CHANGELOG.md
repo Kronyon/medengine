@@ -1,5 +1,27 @@
 # Changelog
 
+## 3.3.0 (2026-11-03)
+
+The three files in `site/` are now the source of truth (Antigravity and Claude both edit them). `python3 site/build.py` makes the website zip, the offline zip and the two claude.ai artifacts. Every change is a patch script in `site/patches/`.
+
+🔐 **Cloud security (STUDY).**
+- v3.2.0's Supabase tables let anyone with the public key read, edit and delete every row, and the page kept every password and PIN in plain text. Now: Supabase Auth (email and password, reset by email), per-user row-level security, a private backup table, one vote per person, and pings only the recipient can read. Run `site/data/medengine-v3.3.0-supabase.sql` once.
+- The old password registry is wiped on load; anything from the network is cleaned and escaped before it reaches the page.
+- Progress Shield snapshots moved to IndexedDB (they were filling localStorage and silently stopping saves). Saves that fail now say so.
+- Tested against a mock Supabase: no requests while signed out, every request carries the user's token, a 401 refreshes and retries, hostile names do not run.
+
+⏳ **Voice stations wait for you.** 2.5 s after your last word by default (1.5, 3.5, 5 s or tap to send), plus 1.5 s if you trail off on "and…" or "um…", with a countdown bar, ➤ Send (Enter) and ✋ Hold (Esc).
+
+🧬 **Mnemonics on every frame, examination and procedure (OSCE).** 84 aids, each tagged by kind (letters, route, rule, numbers, groups, picture, or ⛔ none) with why it fits and when it would hurt; TAGBS-P is marked as yours. A card on every station, a hub with search and filters, a letter quiz, and your own mnemonics per station.
+
+🔒 **My circuit (OSCE).** Import a private station pack, seal it with your own password (AES-GCM, PBKDF2 with 600,000 rounds) and unlock it to practise. No station content ships in this repository or the zips.
+
+🛡️ **📋 Grade: safety and order checks.** Tourniquet off before the needle, no resheathing, label at the bedside, urine before the balloon, positive ID for blood, pH not "whoosh", direct suicide questions, apology for the error itself. Negation-aware ("I won't re-palpate"). A missed safety step caps the station at 54%, as an examiner would. Voice fixes are now scoped to the right station ("thorough examination" only becomes thyroid in a thyroid station; "deflated" is no longer turned into "lethargic"). ✨ Fix words in the box. 📚 A link from the grade to that condition's SBAs in STUDY (`study.html#hq-u<n>`). The offline examiner no longer invents non-negotiables or a timeline.
+
+⚡ **Thought maps (STUDY).** v3.2.0 padded every map to 4 flips; about 1 in 10 added flips was wrong, and 1,383 were reasons rather than flips. The 2,122 hand-written maps are restored and re-validated; the 1,383 reasons now sit in their own ❌ "Why not the others" list. The 200 MS AKT 2026 maps were cleaned (plain words, no dashes or brackets; no flips on "which feature" questions).
+
+🧹 **Fixes.** AI defaults back to Haiku 5.5 and Sonnet 5.5 (v3.2.0 silently downgraded them). Every OSCE page fits a 390 px phone (40 overflowed). STUDY poster tabs no longer overflow. "Sketchy" labels renamed "Scenes" (trademark). Education-only line on the launcher. The public web build drops the character skins and cursors.
+
 ## 2.7.3 (2026-10-30)
 
 ⚡ **STUDY: an arrow thought map on every explanation.**

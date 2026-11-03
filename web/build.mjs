@@ -21,6 +21,9 @@ let html = readFileSync('../app/dist/app.html', 'utf8');
 
 // Public build: no personal name in the scripts, no private claude.ai links.
 html = html.replace(/\bNana\b/g, '[your name]');
+// Public build: the personal skins and cursors draw characters from TV, film and anime. Keep them
+// in your own copy only; a paid site must not ship other people's characters.
+html = html.split('\n').filter(l => !/html\[data-(skin|cursor)="/.test(l)).join('\n');
 // The claude.ai host adds the document skeleton; a plain website needs it explicitly (emoji break without the charset).
 html = '<!doctype html>\n<html lang="en-GB">\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n' + html;
 

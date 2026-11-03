@@ -13,7 +13,7 @@ f: phone use and tumours measured at the same moment in one survey => Cross-sect
 f: comparing national phone sales with national tumour rates => Ecological study
 
 @o-p2017-043
-c: type 1 diabetes | Urinary albumin creatinine ratio 42 | 160/90 mmHg
+c: type 1 diabetes | Urinary albumin:creatinine ratio 42 | 160/90 mmHg
 m: ACE inhibitors lower pressure in the glomerulus and reduce albumin leak
 g: Hypertension with diabetic albuminuria: ACE inhibitor
 f: Black African family origin with no diabetes or albuminuria => Calcium channel blocker

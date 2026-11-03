@@ -20,7 +20,7 @@ f: punched-out painful ulcer on the toes with absent pulses => Arterial
 f: painless ulcer under the metatarsal head with numb feet => Neuropathic
 
 @o-p2019-005
-c: Albumin 15 | Urinary protein creatinine ratio 568 | no cells, no casts | Total cholesterol 9
+c: Albumin 15 | Urinary protein:creatinine ratio 568 | no cells, no casts | Total cholesterol 9
 m: Leaky glomeruli lose protein, so albumin falls, oedema builds and cholesterol rises
 g: Heavy proteinuria, very low albumin, oedema and high cholesterol with a bland urine is nephrotic
 f: haematuria with red cell casts, hypertension and oliguria => Nephritic syndrome

@@ -89,7 +89,7 @@ f: known cirrhosis with a rising AFP and a liver mass => Hepatocellular carcinom
 f: fever and right upper quadrant pain with a positive Murphy's sign => Cholecystitis
 
 @o-mla1-034
-c: taking amlodipine 10 mg daily | 168/90 mmHg | Urinary albumin creatinine ratio 50
+c: taking amlodipine 10 mg daily | 168/90 mmHg | Urinary albumin:creatinine ratio 50
 m: ACE inhibitors lower pressure inside the glomerulus, cutting protein leak and kidney damage
 g: Albuminuria with uncontrolled BP on a calcium channel blocker: add an ACE inhibitor
 f: no albuminuria, BP still high on amlodipine and an ACE inhibitor => Thiazide-like diuretic

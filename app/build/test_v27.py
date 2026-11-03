@@ -39,7 +39,7 @@ with sync_playwright() as p:
         if ('🩺 Findings' if ex else '🗣 Your opening line') not in t: errs.append(sid + ' patient sheet has no case')
         ov(sid + ' actor')
         pg.click('#roleSeg [data-role="exam"]'); pg.wait_for_timeout(150)
-        if 'What a clear pass sounds like' not in pg.text_content('#friendsCard'): errs.append(sid + ' examiner sheet has no model')
+        if not any(s in pg.text_content('#friendsCard') for s in ('What a clear pass sounds like', 'Clear Pass')): errs.append(sid + ' examiner sheet has no model')
         ov(sid + ' examiner')
         pg.click('#roleSeg [data-role="cand"]'); pg.wait_for_timeout(100)
         mode('tick'); pg.click('[data-expand]'); pg.wait_for_timeout(100)

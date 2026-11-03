@@ -66,7 +66,7 @@ g: Multilevel cord compression in a frail patient: external beam radiotherapy
 f: a fit patient with a single level and a good prognosis => Surgical decompression of the spinal cord
 
 @o-p2017-031
-c: 34 year old woman | Potassium 3.3 | Plasma aldosterone renin ratio 50
+c: 34 year old woman | Potassium 3.3 | Plasma aldosterone:renin ratio 50
 m: Too much aldosterone keeps sodium and loses potassium, raising BP
 g: Young hypertension with low potassium and a high aldosterone to renin ratio is Conn's
 f: episodic headache, sweating and palpitations => Phaeochromocytoma
