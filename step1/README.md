@@ -1,6 +1,6 @@
 # medengine-STEP1
 
-USMLE Step 1 on the medengine-STUDY engine. `site/build.py` (`make_step1`) takes `site/study.html`, swaps in the Step 1 content pack, adds the Step 1 add-on and renames every storage key, so STEP1 and STUDY never share progress.
+USMLE Step 1 on the medengine-STUDY engine. claude.ai artifact: https://claude.ai/artifact/GVUEwVwVsrm1akHoL9jJYX (publish `step1/medengine-step1.html` there with capabilities db, user, sample with images, downloads). `site/build.py` (`make_step1`) takes `site/study.html`, swaps in the Step 1 content pack, adds the Step 1 add-on and renames every storage key, so STEP1 and STUDY never share progress.
 
 ## Files
 
