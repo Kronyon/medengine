@@ -1,0 +1,337 @@
+#! medengine-STEP1 high-yield cloze notes: renal, acid-base and electrolytes (the deep pilot).
+#! ## Topic name (exactly as in topics_renal.txt) · > a block's opening line · - a line · two spaces then - for a sub-line
+#! {{answer|distractor|distractor|distractor}} makes a drop-down; every distractor is written to be the plausible wrong pick.
+#! Written fresh from standard Step 1 physiology and pathology; nothing copied from any book or question bank.
+
+## Renal embryology and anatomy
+> Building the kidney:
+- Pronephros, then mesonephros (the interim kidney, later the male ducts), then the **metanephros** from week {{5|3|8|12}}
+- The **ureteric bud** grows from the mesonephric duct and becomes the ureter, pelvis, calyces and {{collecting ducts|glomeruli|proximal tubules|loops of Henle}}
+- The **metanephric mesenchyme** makes everything from the glomerulus to the {{distal convoluted tubule|collecting duct|renal pelvis|ureter}}
+- The last part of the ureter to canalise is the {{ureteropelvic junction|ureterovesical junction|renal calyx|bladder neck}}: the commonest site of fetal obstruction
+> When it goes wrong:
+- Potter sequence: too little amniotic fluid squashes the fetus: flat face, limb deformities and {{pulmonary hypoplasia|cleft palate|duodenal atresia|spina bifida}}, which is what kills
+- Horseshoe kidney: the lower poles fuse and the kidney catches under the {{inferior mesenteric artery|superior mesenteric artery|coeliac trunk|renal artery}} on its way up
+- Multicystic dysplastic kidney is usually {{unilateral|bilateral|autosomal dominant|X-linked}} and nonhereditary; the other kidney grows to compensate
+> Anatomy worth a mark:
+- The **left kidney** is taken for living donation because its renal vein is {{longer|shorter|wider|valveless}}
+- The ureter passes under the uterine artery and the {{vas deferens|inguinal ligament|external iliac vein|round ligament}}: water under the bridge
+
+## Glomerular filtration and clearance
+> Measuring the kidney:
+- Clearance = (urine concentration × urine flow) ÷ {{plasma concentration|urine osmolality|filtration fraction|renal blood flow}}
+- Inulin clearance equals GFR: inulin is filtered, then neither reabsorbed nor {{secreted|filtered|metabolised|protein-bound}}
+- Creatinine clearance slightly {{overestimates|underestimates|equals|ignores}} GFR, because a little creatinine is secreted
+- Clearance above GFR means net {{secretion|reabsorption|filtration|metabolism}}; below GFR means net reabsorption
+- PAH is filtered and secreted almost completely in one pass, so its clearance gives the effective renal {{plasma flow|blood flow|filtration fraction|oncotic pressure}}
+- Renal blood flow = renal plasma flow ÷ (1 − {{haematocrit|filtration fraction|GFR|oncotic pressure}})
+> Starling forces at the glomerulus:
+- Filtration fraction = GFR ÷ RPF, normally about {{20%|5%|50%|80%}}
+- A stone blocking the ureter raises {{Bowman space pressure|plasma oncotic pressure|glomerular capillary pressure|renal plasma flow}}, so GFR falls
+- High plasma protein (myeloma) raises oncotic pressure: GFR {{falls|rises|doubles|stays the same}} while RPF is unchanged
+> The arterioles:
+- Afferent constriction (NSAIDs remove the dilating prostaglandins): GFR and RPF both {{fall|rise|stay level|move in opposite directions}}
+- Efferent constriction (angiotensin II): GFR {{rises|falls|stays level|halves}}, RPF falls, filtration fraction rises
+- An ACE inhibitor can raise creatinine by up to about {{30%|5%|80%|150%}}; a bigger jump suggests bilateral renal artery stenosis
+
+## Proximal convoluted tubule
+> What it does:
+- Reabsorbs {{65 to 80%|25 to 30%|5 to 10%|1 to 3%}} of filtered Na⁺ and water; the fluid that leaves is still isotonic
+- Reclaims all filtered glucose through {{SGLT2|NKCC2|ENaC|NCC}} and all filtered amino acids
+- Reclaims most filtered HCO₃⁻ using carbonic anhydrase and {{Na⁺/H⁺ exchange|Na⁺/K⁺/2Cl⁻ cotransport|H⁺/K⁺-ATPase|Cl⁻/HCO₃⁻ exchange only}}
+- Secretes organic acids and bases (PAH, penicillin, urate) and makes {{NH₄⁺|urea|creatinine|uric acid}} from glutamine
+> Hormones that act here:
+- Angiotensin II drives Na⁺/H⁺ exchange, which is why volume loss causes {{contraction alkalosis|dilutional acidosis|respiratory alkalosis|lactic acidosis}}
+- PTH blocks Na⁺/phosphate cotransport, so it causes {{phosphaturia|glucosuria|aminoaciduria|proteinuria}}
+> Glucose:
+- Glucose first spills into the urine at a plasma level of about {{200 mg/dL|100 mg/dL|375 mg/dL|50 mg/dL}}
+- Every transporter is saturated at about {{375 mg/dL|200 mg/dL|125 mg/dL|600 mg/dL}}
+- Glucosuria in pregnancy at a normal plasma glucose: GFR rises, so more glucose is {{filtered|secreted|metabolised|stored}} than the tubule can take back
+> When it fails:
+- Fanconi syndrome: glucose, amino acids, phosphate and HCO₃⁻ are all lost, giving {{type 2 RTA|type 1 RTA|type 4 RTA|SIADH}} and rickets or osteomalacia
+- Fanconi causes: Wilson disease, multiple myeloma, lead, ifosfamide and expired {{tetracyclines|penicillins|macrolides|cephalosporins}}
+- Hartnup disease: the neutral amino acid transporter fails, so {{tryptophan|tyrosine|cysteine|lysine}} is lost and a pellagra-like rash follows
+
+## Loop of Henle and Bartter syndrome
+> Concentrating and diluting:
+- Thin descending limb: permeable to {{water|NaCl|urea|potassium}} only, so the fluid concentrates on the way down
+- Thick ascending limb: reabsorbs about {{25%|65%|5%|1%}} of filtered Na⁺ through NKCC2, but no water
+- NKCC2 carries 1 Na⁺, 1 K⁺ and {{2 Cl⁻|1 Cl⁻|3 Cl⁻|2 HCO₃⁻}} into the cell
+- K⁺ leaks back out through ROMK, leaving the lumen {{positive|negative|neutral|acidic}}; that charge pushes Mg²⁺ and Ca²⁺ between the cells
+- Fluid leaving the thick ascending limb is {{hypotonic|isotonic|hypertonic|plasma-like}}: the first diluting segment
+- The thick ascending limb makes {{uromodulin|renin|erythropoietin|calcitriol}} (Tamm-Horsfall protein), the matrix of every cast
+> Bartter syndrome:
+- Inheritance: autosomal {{recessive|dominant|X-linked|mitochondrial}}
+- Defect in NKCC2, ROMK or the chloride channels of the {{thick ascending limb|distal convoluted tubule|collecting duct|proximal tubule}}
+- Picture: hypokalaemia, metabolic {{alkalosis|acidosis|neutrality|lactic acidosis}}, high renin and aldosterone, normal blood pressure
+- Urine calcium is {{high|low|normal|absent}}, because the loop is where calcium was being reclaimed (the opposite of Gitelman)
+
+## Distal tubule, collecting duct, Gitelman and Liddle
+> Distal convoluted tubule:
+- Reabsorbs {{5 to 10%|25%|65%|less than 1%}} of filtered Na⁺ through NCC and stays impermeable to water
+- PTH increases {{Ca²⁺|phosphate|glucose|K⁺}} reabsorption here
+> Collecting duct:
+- Principal cells: ENaC takes Na⁺ in while ROMK secretes {{K⁺|H⁺|Ca²⁺|HCO₃⁻}}
+- Aldosterone acts on an intracellular receptor to make more ENaC, ROMK and {{Na⁺/K⁺-ATPase|NKCC2|SGLT2|aquaporin 1}}
+- ADH binds V2 receptors and inserts {{aquaporin 2|aquaporin 1|ENaC|NCC}} into the luminal membrane
+- Alpha-intercalated cells secrete H⁺; beta-intercalated cells secrete {{HCO₃⁻|H⁺|K⁺|NH₄⁺}}
+> The look-alikes:
+- Gitelman: NCC defect with hypokalaemia, hypomagnesaemia, metabolic alkalosis and {{hypocalciuria|hypercalciuria|hyperkalaemia|hypertension}}
+- Liddle: ENaC stuck on, so {{hypertension|hypotension|hyperkalaemia|metabolic acidosis}} with hypokalaemia and low renin and aldosterone
+- Liddle responds to {{amiloride|spironolactone|furosemide|lisinopril}}; spironolactone fails because aldosterone is not driving it
+- Apparent mineralocorticoid excess: 11β-HSD2 is missing or blocked by {{liquorice|grapefruit|caffeine|alcohol}}, so cortisol switches on the aldosterone receptor
+
+## Renin-angiotensin-aldosterone and renal hormones
+> Renin:
+- Made by juxtaglomerular cells, modified smooth muscle of the {{afferent|efferent|interlobar|arcuate}} arteriole
+- Released by low perfusion pressure, sympathetic {{β1|α1|β2|M3}} stimulation and low NaCl at the macula densa
+- Renin makes angiotensin I; ACE, mostly in the {{lungs|liver|adrenal cortex|spleen}}, makes angiotensin II
+- ACE also breaks down {{bradykinin|histamine|serotonin|adrenaline}}, so ACE inhibitors cause cough and angioedema
+> Angiotensin II:
+- Constricts the efferent arteriole to protect {{GFR|renal plasma flow|the filtration barrier|urine flow}} when volume is low
+- Releases aldosterone from the zona {{glomerulosa|fasciculata|reticularis|medulla}}
+- Releases ADH and drives {{thirst|hunger|sweating|bronchodilation}} through the hypothalamus
+> The other kidney hormones:
+- ANP is released when the {{atria|lungs|kidneys|carotid bodies}} stretch; BNP comes mainly from the ventricles
+- ANP and BNP dilate the afferent arteriole, constrict the efferent and {{inhibit renin|stimulate renin|release ADH|retain sodium}}
+- EPO comes from interstitial cells beside the peritubular capillaries when oxygen delivery {{falls|rises|stabilises|doubles}}
+- 1α-hydroxylase in the PCT is switched on by PTH and low {{phosphate|sodium|potassium|bicarbonate}}
+- Prostaglandins dilate the {{afferent|efferent|vasa recta|arcuate}} arteriole; NSAIDs take them away
+- Low-dose dopamine dilates renal vessels and causes {{natriuresis|sodium retention|potassium retention|bronchospasm}}
+
+## Diuretics
+> Where each one works:
+- Acetazolamide: blocks proximal {{carbonic anhydrase|NKCC2|NCC|ENaC}}, giving a hyperchloraemic metabolic acidosis
+- Mannitol: osmotic; works in the proximal tubule and {{thin descending limb|collecting duct|thick ascending limb|DCT}}; used for raised intracranial pressure
+- Furosemide, bumetanide and torsemide block {{NKCC2|NCC|ENaC|SGLT2}} and boost prostaglandin-driven vasodilation
+- Thiazides block {{NCC|NKCC2|ENaC|aquaporin 2}} in the distal convoluted tubule
+- Spironolactone and eplerenone block the {{aldosterone receptor|ENaC channel|V2 receptor|NCC transporter}}
+- Amiloride and triamterene block {{ENaC|NKCC2|NCC|carbonic anhydrase}}
+> Adverse effects:
+- Loops: ototoxicity, hypokalaemia, hypomagnesaemia, dehydration, gout and {{hypocalcaemia|hypercalcaemia|hyperkalaemia|hypoglycaemia}}
+- Thiazides: hyperglycaemia, hyperlipidaemia, hyperuricaemia, hyponatraemia and {{hypercalcaemia|hypocalcaemia|hyperkalaemia|hypophosphataemia}}
+- Sulfa allergy but a loop is needed: {{ethacrynic acid|bumetanide|torsemide|chlorthalidone}}
+- Spironolactone: hyperkalaemia and {{gynaecomastia|ototoxicity|hyperglycaemia|hypocalcaemia}}, because it also blocks androgens
+- Thiazides help calcium stones and {{nephrogenic diabetes insipidus|central diabetes insipidus|SIADH|Liddle syndrome}}
+- A K⁺-sparing diuretic with an ACE inhibitor risks {{hyperkalaemia|hypokalaemia|hypercalcaemia|alkalosis}}
+
+## Metabolic acidosis and the anion gap
+> The gap:
+- Anion gap = Na⁺ − (Cl⁻ + HCO₃⁻): normal about {{8 to 12|2 to 4|20 to 24|30 to 36}} mEq/L
+- Low albumin hides a gap: add about {{2.5|0.5|10|5}} mEq/L for each 1 g/dL that albumin sits below 4
+- Winter formula: expected PaCO₂ = 1.5 × HCO₃⁻ + {{8|4|12|24}} ± 2
+> High gap: an unmeasured acid has been added:
+- Methanol: formic acid damages the {{optic nerve|cochlea|liver|kidney}}; give fomepizole
+- Ethylene glycol: oxalic acid forms calcium oxalate crystals and causes {{acute kidney injury|optic neuritis|hepatitis|pancreatitis}}
+- Salicylates: an early {{respiratory alkalosis|respiratory acidosis|metabolic alkalosis|normal gap acidosis}}, then a high anion gap acidosis
+- Lactic acidosis: shock, sepsis, ischaemia, metformin and {{cyanide|lithium|digoxin|furosemide}} poisoning
+- An osmolar gap over {{10|2|40|100}} mOsm/kg with a high anion gap points to methanol or ethylene glycol
+> Normal gap: bicarbonate lost, chloride up:
+- Diarrhoea: the urine anion gap is {{negative|positive|zero|very positive}}, because the kidney excretes plenty of NH₄Cl
+- Renal tubular acidosis: the urine anion gap is {{positive|negative|zero|very negative}}, because NH₄⁺ excretion fails
+- Litres of normal saline cause a {{hyperchloraemic|hypochloraemic|lactic|ketotic}} acidosis
+
+## Metabolic alkalosis
+> Making it and keeping it:
+- Generated by losing H⁺ (vomiting) or by {{gaining HCO₃⁻|losing HCO₃⁻|gaining Cl⁻|gaining H⁺}}
+- Kept going by volume loss: aldosterone and low Cl⁻ make the kidney {{keep HCO₃⁻|excrete HCO₃⁻|excrete Na⁺|keep K⁺}}
+- Hypokalaemia moves H⁺ {{into cells|out of cells|into bone|into the gut}}, deepening the alkalosis
+> Urine chloride splits it:
+- Urine Cl⁻ under 20 mEq/L: {{saline-responsive|saline-resistant|renal|mineralocorticoid}} (vomiting, nasogastric suction, past diuretics)
+- Urine Cl⁻ over 20 with high blood pressure: {{mineralocorticoid excess|vomiting|laxative abuse|cystic fibrosis}} (Conn, Cushing, Liddle)
+- Urine Cl⁻ over 20 with normal blood pressure: current diuretics or {{Bartter or Gitelman|Liddle or Conn|vomiting or suction|Cushing or CAH}}
+> The vomiting baby:
+- Pyloric stenosis: hypochloraemic, hypokalaemic {{metabolic alkalosis|metabolic acidosis with a high gap|metabolic acidosis with a normal gap|respiratory alkalosis}}
+- Paradoxical aciduria: to defend volume the kidney swaps Na⁺ for {{H⁺|Cl⁻|Ca²⁺|glucose}} despite the alkalosis
+
+## Respiratory acid-base disorders and compensation
+> Respiratory acidosis, CO₂ retained:
+- Causes: airway obstruction, COPD, opioids, {{myasthenia gravis|anxiety|high altitude|pregnancy}} and obesity hypoventilation
+- Acute: HCO₃⁻ rises about {{1|3.5|0.1|10}} mEq/L per 10 mmHg rise in PaCO₂, from buffering alone
+- Chronic, after 3 to 5 days: HCO₃⁻ rises about {{3.5|1|0.35|7}} mEq/L per 10 mmHg as the kidney holds on to HCO₃⁻
+> Respiratory alkalosis, CO₂ blown off:
+- Causes: anxiety, pain, PE, early salicylates, high altitude and {{pregnancy|opioids|COPD|myasthenia gravis}}
+- Acute: HCO₃⁻ falls about {{2|5|0.2|10}} mEq/L per 10 mmHg fall in PaCO₂
+- Chronic: HCO₃⁻ falls about {{4 to 5|1|10|0.5}} mEq/L per 10 mmHg
+- More calcium binds albumin, so ionised calcium falls and {{perioral tingling|bradycardia|constipation|polyuria}} follows
+> Reading a gas:
+- Compensation never {{overshoots|undershoots|fails|stops}}: a normal pH with abnormal values means two disorders
+- Metabolic alkalosis: PaCO₂ rises about {{0.7|1.5|3.5|0.1}} mmHg per 1 mEq/L rise in HCO₃⁻
+
+## Renal tubular acidosis
+> Every type is a normal anion gap acidosis:
+- Type 1, distal: alpha-intercalated cells cannot secrete H⁺, so urine pH stays above {{5.5|4.5|7.5|8.5}}
+- Type 1 brings hypokalaemia and calcium phosphate stones, helped by low urine {{citrate|oxalate|urate|cystine}}
+- Type 1 causes: amphotericin B, autoimmune disease (SLE, Sjögren), urinary obstruction and {{analgesic nephropathy|acetazolamide|spironolactone|ACE inhibitors}}
+> Proximal and hyperkalaemic:
+- Type 2, proximal: the PCT cannot reclaim HCO₃⁻; urine pH falls below 5.5 once serum HCO₃⁻ runs low, and {{hypokalaemia|hyperkalaemia|hypercalcaemia|hypernatraemia}} follows
+- Type 2 causes: Fanconi syndrome, multiple myeloma and {{acetazolamide|amphotericin B|spironolactone|trimethoprim}}
+- Type 4: too little aldosterone action; the high K⁺ blocks {{ammoniagenesis|HCO₃⁻ secretion|glucose reabsorption|urea recycling}} in the PCT
+- Type 4 causes: diabetic nephropathy, ACE inhibitors, ARBs, NSAIDs, heparin, cyclosporine and {{trimethoprim|acetazolamide|amphotericin B|ifosfamide}}
+- Type 4 urine pH is {{under 5.5|over 5.5|over 7|exactly 7.4}}: H⁺ secretion works, but there is little NH₃ to carry it
+
+## Potassium
+> Shifts, with no change in total body K⁺:
+- Into cells: insulin, β2 agonists, alkalosis and {{hypo-osmolarity|hyperosmolarity|digoxin|β-blockers}}
+- Out of cells: insulin lack, acidosis, β-blockers, digoxin, cell lysis, succinylcholine and {{hyperosmolarity|alkalosis|insulin|albuterol}}
+- Digoxin raises K⁺ by blocking the {{Na⁺/K⁺-ATPase|H⁺/K⁺-ATPase|ROMK channel|NKCC2}}
+> Hyperkalaemia:
+- ECG in order: peaked T waves, then a wide QRS, then {{sine waves|U waves|delta waves|ST depression}}
+- First drug once the ECG changes: IV {{calcium gluconate|insulin|sodium bicarbonate|furosemide}}, which steadies the cardiac membrane
+- K⁺ actually leaves the body with loop diuretics, binders (patiromer) or {{dialysis|calcium gluconate|insulin|albuterol}}
+> Hypokalaemia:
+- ECG: flat T waves and {{U waves|peaked T waves|delta waves|J waves}}
+- Hypokalaemia that will not correct: replace {{magnesium|calcium|phosphate|sodium}} first
+- Severe hypokalaemia: weakness, ileus and nephrogenic {{diabetes insipidus|SIADH|type 4 RTA|nephrotic syndrome}}
+
+## Sodium and water
+> Working through hyponatraemia:
+- Serum osmolality first: high with hyperglycaemia, normal in {{pseudohyponatraemia|SIADH|primary polydipsia|heart failure}} (lipids or protein)
+- Low osmolality: judge volume status, then check urine {{osmolality|potassium|glucose|calcium}}
+- SIADH: euvolaemic, urine osmolality inappropriately {{high|low|zero|equal to serum}}, urine Na⁺ over 40 mEq/L
+- SIADH causes: small cell lung cancer, CNS disease, lung infection and drugs such as {{carbamazepine|lithium|demeclocycline|tolvaptan}}
+- SIADH treatment: fluid restriction, salt, then {{tolvaptan|desmopressin|hydrochlorothiazide|vasopressin}} or demeclocycline
+> Correction speed:
+- Raise chronic low sodium by no more than about {{8 to 10|20 to 25|1 to 2|40}} mEq/L in 24 hours
+- Too fast causes osmotic demyelination in the {{pons|cerebellum|optic nerve|spinal cord}}: from low to high, the pons will die
+- High sodium lowered too fast: {{cerebral oedema|osmotic demyelination|subdural haemorrhage|optic neuritis}}: from high to low, the brain will blow
+> Diabetes insipidus:
+- Central DI: no ADH; urine concentrates after {{desmopressin|tolvaptan|hydrochlorothiazide|water deprivation alone}}
+- Nephrogenic DI: the kidney ignores ADH: lithium, demeclocycline, hypercalcaemia, {{hypokalaemia|hyperkalaemia|hyponatraemia|hypoglycaemia}} and V2 mutations
+- Nephrogenic DI treatment: {{hydrochlorothiazide|desmopressin|tolvaptan|demeclocycline}}, amiloride for lithium, NSAIDs
+
+## Calcium, phosphate and magnesium
+> Calcium:
+- About {{40%|10%|90%|5%}} of serum calcium rides on albumin; ionised calcium is what nerves and muscle feel
+- Alkalosis makes albumin bind more Ca²⁺, so ionised calcium {{falls|rises|doubles|stays the same}}: tingling after hyperventilation
+- PTH raises calcium through bone resorption, DCT reabsorption and {{calcitriol|calcitonin|FGF23|cortisol}} synthesis
+- FGF23 from bone lowers phosphate and {{inhibits 1α-hydroxylase|stimulates 1α-hydroxylase|raises PTH|increases gut absorption}}
+- Chvostek sign: tap the {{facial nerve|ulnar nerve|median nerve|trigeminal nerve}} and the face twitches
+> Magnesium:
+- Low Mg²⁺: diarrhoea, alcohol, PPIs, loops and thiazides, {{cisplatin|lithium|heparin|digoxin}}; it cuts PTH release and action
+- Low Mg²⁺ worsens {{digoxin toxicity|lithium toxicity|aspirin toxicity|warfarin effect}} and torsades
+- Magnesium sulfate overdose: first the {{deep tendon reflexes|pupils|pulse|blood glucose}} go, then breathing
+> Phosphate:
+- CKD: phosphate rises, calcitriol falls, so PTH {{rises|falls|stays level|disappears}}: secondary hyperparathyroidism
+- Refeeding: insulin pulls phosphate into cells, and low phosphate means low {{ATP|glucose|insulin|cortisol}}: heart and breathing fail
+
+## Nephritic syndrome
+> The picture:
+- Haematuria with RBC casts, hypertension, oliguria and proteinuria under {{3.5 g|0.15 g|10 g|1 mg}} a day
+- Inflamed glomerular capillaries let red cells through, and they set as {{RBC casts|WBC casts|fatty casts|waxy casts}}
+> Disease by disease:
+- Poststreptococcal GN: 2 to 3 weeks after group A strep; low C3; subepithelial {{humps|spikes|tram tracks|wire loops}}; children recover
+- IgA nephropathy: haematuria 1 to 2 days after a mucosal infection; {{mesangial|subepithelial|subendothelial|linear}} IgA; normal complement
+- Anti-GBM disease: antibodies to the {{α3 chain of type IV collagen|type I collagen|fibrillin|laminin}}; linear IgG; with lung bleeding it is Goodpasture
+- Alport syndrome: type IV collagen mutation, usually {{X-linked|autosomal dominant|mitochondrial|Y-linked}}; haematuria, deafness, anterior lenticonus
+- Membranoproliferative GN type I: subendothelial deposits, {{tram-track|spike-and-dome|lumpy-bumpy|apple-green}} basement membrane; hepatitis B and C
+- Diffuse proliferative GN in SLE: subendothelial immune complexes make {{wire loops|subepithelial humps|spike and dome|linear IgG}}
+> Rapidly progressive GN, crescents:
+- Crescents: fibrin, plasma proteins, parietal epithelial cells and {{macrophages|eosinophils|platelets|mast cells}}
+- Linear immunofluorescence: {{anti-GBM disease|ANCA vasculitis|poststreptococcal GN|IgA nephropathy}}
+- Granular immunofluorescence: {{immune complexes|anti-GBM antibodies|ANCA|complement deficiency}} (lupus, PSGN, IgA vasculitis)
+- No immune deposits (pauci-immune): GPA with PR3-ANCA, MPA and EGPA with {{MPO-ANCA|anti-GBM|anti-PLA2R|anti-dsDNA}}
+
+## Nephrotic syndrome
+> The picture:
+- Proteinuria over {{3.5 g|0.5 g|150 mg|1 g}} a day, low albumin, oedema and hyperlipidaemia with fatty casts
+- Antithrombin III leaks into the urine, so patients become {{hypercoagulable|bleeding-prone|polycythaemic|hypercalcaemic}}: renal vein thrombosis
+- Immunoglobulins leak too, raising the risk of infection with {{encapsulated bacteria|fungi|viruses|parasites}}
+> Disease by disease:
+- Minimal change: children, normal light microscopy, podocyte {{effacement|IgA deposits|crescents|spikes}} on electron microscopy; steroids work
+- FSGS: HIV, heroin, sickle cell, obesity and {{APOL1|PKD1|WT1|VHL}} variants; often steroid resistant
+- Membranous nephropathy: adults, anti-{{PLA2R|GBM|dsDNA|MPO}} antibodies, spike and dome; also SLE, hepatitis B, NSAIDs, solid tumours
+- Diabetic nephropathy: Kimmelstiel-Wilson nodules; {{efferent|afferent|arcuate|interlobular}} arteriolar hyalinosis drives hyperfiltration
+- Amyloidosis: Congo red with {{apple-green|cherry-red|brick-red|blue-black}} birefringence; AL with myeloma, AA with chronic inflammation
+- Lupus nephritis class {{V|II|IV|I}} is membranous and nephrotic; class IV is diffuse proliferative and nephritic
+> First-line treatment:
+- Minimal change disease: {{corticosteroids|cyclophosphamide|rituximab|plasma exchange}}
+
+## Acute kidney injury and urinary casts
+> Prerenal or intrinsic:
+- Prerenal: BUN to creatinine over {{20|5|10|2}}, FENa under 1%, urine osmolality over 500
+- ATN: BUN to creatinine under 15, FENa over {{2%|0.1%|1%|10%}}, urine osmolality under 350 because it cannot concentrate
+- ATN phases: inciting event, maintenance with oliguria and {{hyperkalaemia|hypokalaemia|hypercalcaemia|alkalosis}}, then a polyuric recovery
+- The {{PCT and thick ascending limb|glomerulus and DCT|collecting duct only|renal pelvis}} suffer most in ischaemic ATN
+- Postrenal: BPH, stones or tumours; hydronephrosis shows on {{ultrasound|chest X-ray|ECG|urine dipstick}}
+> Casts:
+- RBC casts: {{glomerulonephritis|pyelonephritis|ATN|nephrotic syndrome}}
+- WBC casts: pyelonephritis and {{acute interstitial nephritis|minimal change disease|ATN|renal artery stenosis}}
+- Muddy brown granular casts: {{acute tubular necrosis|prerenal azotaemia|cystitis|IgA nephropathy}}
+- Fatty casts and oval fat bodies with Maltese crosses: {{nephrotic syndrome|nephritic syndrome|ATN|AIN}}
+- Waxy casts: {{advanced CKD|acute pyelonephritis|prerenal AKI|cystitis}}
+- Hyaline casts: {{normal or concentrated urine|nephritic syndrome|ATN|pyelonephritis}}
+> Interstitium and papillae:
+- Acute interstitial nephritis: a drug (penicillins, NSAIDs, PPIs, diuretics) then fever, rash and urine {{eosinophils|crystals|glucose|bilirubin}}
+- Renal papillary necrosis: sickle cell disease or trait, analgesic overuse, diabetes and {{acute pyelonephritis|minimal change disease|IgA nephropathy|Alport syndrome}}
+
+## Chronic kidney disease and renal osteodystrophy
+> What CKD does:
+- Anaemia: normocytic, from too little {{erythropoietin|iron|folate|B12}}; treat with an EPO analogue
+- Mineral disease: phosphate up, calcitriol down, calcium down, so {{PTH|calcitonin|cortisol|aldosterone}} rises: secondary hyperparathyroidism
+- Bone: osteitis fibrosa cystica, osteomalacia and {{adynamic bone disease|osteopetrosis|Paget disease|osteogenesis imperfecta}}
+- Tertiary hyperparathyroidism: autonomous PTH with {{high|low|normal|absent}} calcium after long CKD or a transplant
+- Uraemia: nausea, pericarditis, asterixis, encephalopathy and platelet {{dysfunction|excess|destruction|sequestration}}
+> When to dialyse now:
+- AEIOU: acidosis, electrolytes, ingestions (lithium, ethylene glycol, {{salicylates|digoxin|amiodarone|benzodiazepines}}), overload, uraemia
+- Commonest causes of CKD in the US: diabetes and {{hypertension|glomerulonephritis|polycystic kidney disease|stones}}
+
+## Kidney stones
+> Stone by stone:
+- Calcium oxalate, the commonest: {{envelope|coffin-lid|hexagonal|rhomboid}} or dumbbell crystals; Crohn disease, ethylene glycol, too much vitamin C
+- Calcium phosphate: radiopaque, in {{alkaline|acidic|neutral|very dilute}} urine; type 1 RTA and primary hyperparathyroidism
+- Struvite: urease-positive {{Proteus|E. coli|Enterococcus|Streptococcus agalactiae}} makes ammonia; staghorn calculi and coffin-lid crystals
+- Uric acid: {{radiolucent|radiopaque|staghorn|calcified}} on plain X-ray; acidic urine, gout, tumour lysis
+- Cystine: hexagonal crystals; COLA transporter defect (cystine, ornithine, lysine, {{arginine|alanine|glycine|tyrosine}})
+> Treatment:
+- Thiazides and citrate prevent {{calcium|uric acid|struvite|cystine}} stones; so does a low-salt diet
+- Uric acid stones dissolve when the urine is {{alkalinised|acidified|concentrated|left alone}}: potassium citrate, then allopurinol
+- Struvite stones need {{removal|alkalinisation|allopurinol|thiazides}} plus antibiotics, because the bacteria live inside them
+- Ureteric colic runs from the flank to the {{groin|shoulder tip|epigastrium|sacrum}}
+
+## Cystic kidney disease
+> ADPKD:
+- PKD1 on chromosome {{16|4|6|11}} (most cases, worse disease) or PKD2 on chromosome 4
+- Presents in {{adulthood|the newborn period|infancy|early childhood}} with flank pain, haematuria, hypertension, stones, then CKD
+- Beyond the kidney: liver cysts, berry aneurysms, mitral valve prolapse and {{diverticulosis|aortic stenosis|bronchiectasis|pancreatitis}}
+- Treatment: BP control with an ACE inhibitor; {{tolvaptan|desmopressin|lithium|demeclocycline}} slows cyst growth
+> ARPKD:
+- Gene: {{PKHD1|PKD1|PKD2|WT1}} (fibrocystin); shows in infancy
+- Potter sequence, then congenital hepatic fibrosis and {{portal hypertension|biliary atresia|hepatoblastoma|Wilson disease}}
+> The others:
+- Medullary cystic disease (ADTKD): cysts at the corticomedullary junction, {{shrunken|enlarged|horseshoe|duplicated}} kidneys, early concentrating failure
+- Acquired cystic disease after years of dialysis raises the risk of {{renal cell carcinoma|Wilms tumour|angiomyolipoma|oncocytoma}}
+
+## Renal and urinary tract tumours
+> Renal cell carcinoma:
+- From proximal tubule cells; the clear cell type follows loss of {{VHL|WT1|APC|RB}} on chromosome 3
+- Risk factors: smoking, obesity, {{hypertension|asthma|hypothyroidism|gout}}, acquired cystic disease and VHL disease
+- The textbook triad of haematuria, flank pain and a palpable {{mass|bladder|liver|spleen}} is rare in practice
+- Spreads through the {{renal vein|ureter|portal vein|peritoneal fluid}} to lung and bone; a left varicocele means the left renal vein is blocked
+- Paraneoplastic hormones: EPO, PTHrP, renin and {{ACTH|insulin|glucagon|calcitonin}}
+- Metastatic disease shrugs off chemotherapy and radiation: use immunotherapy or {{tyrosine kinase inhibitors|tamoxifen|cisplatin|methotrexate}}
+> Wilms tumour (nephroblastoma):
+- The commonest kidney cancer of young children, usually ages {{2 to 4|10 to 14|0 to 6 months|16 to 18}}
+- A large unilateral flank mass with haematuria and {{hypertension|hypotension|hypoglycaemia|jaundice}}
+- Loss of function of {{WT1 or WT2|VHL|RET|NF1}} on chromosome 11
+- Syndromes: WAGR, Denys-Drash and Beckwith-Wiedemann (big tongue, organomegaly, hemihypertrophy and {{omphalocele|gastroschisis|cleft palate|polydactyly}})
+> Bladder and the rest:
+- Urothelial carcinoma: painless haematuria after smoking, aniline dyes, phenacetin or {{cyclophosphamide|tamoxifen|aspirin|lithium}}
+- Squamous cell carcinoma of the bladder: Schistosoma haematobium, chronic cystitis and long-term {{catheters|antibiotics|diuretics|steroids}}
+- Angiomyolipoma: vessels, smooth muscle and fat; linked to {{tuberous sclerosis|NF1|VHL disease|Turner syndrome}}
+- Oncocytoma: benign, large eosinophilic cells packed with {{mitochondria|lysosomes|glycogen|lipid}}, central scar
+
+## Urinary tract infection and pyelonephritis
+> Organisms:
+- Commonest cause of UTI: {{E. coli|Proteus mirabilis|Klebsiella pneumoniae|Enterococcus}}
+- Young sexually active woman, novobiocin resistant: {{Staphylococcus saprophyticus|Staphylococcus epidermidis|Staphylococcus aureus|Streptococcus agalactiae}}
+- Swarming, urease, struvite stones and an ammonia smell: {{Proteus mirabilis|Pseudomonas aeruginosa|E. coli|Serratia marcescens}}
+- Blue-green pigment in a catheter or hospital UTI: {{Pseudomonas aeruginosa|Klebsiella|Proteus|Enterobacter}}
+> The dipstick:
+- Leukocyte esterase positive: {{white cells|red cells|bacteria|glucose}} in the urine
+- Nitrite positive: gram-negative bacteria, especially {{E. coli|Enterococcus|Staphylococcus saprophyticus|Candida}}
+- Pyuria with a negative culture: urethritis (Chlamydia, Neisseria), TB or {{interstitial nephritis|E. coli cystitis|Proteus infection|Klebsiella infection}}
+> Pyelonephritis:
+- Acute: fever, flank pain, costovertebral angle tenderness and {{WBC casts|RBC casts|fatty casts|waxy casts}}
+- Chronic: coarse scars, blunted calyces and tubules full of eosinophilic casts that look like {{thyroid tissue|lymph node|liver|bone}}
+- Xanthogranulomatous pyelonephritis: {{foamy macrophages|Reed-Sternberg cells|psammoma bodies|Aschoff bodies}} around a Proteus staghorn stone

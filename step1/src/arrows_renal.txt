@@ -1,0 +1,281 @@
+# medengine-STEP1 domino arrows: renal, acid-base and electrolytes. Written fresh in the one-line style of HY Arrows.
+# @ar id | family · u: topics · s: scene · v: Name = arrow role ; ... (role p primary insult, k knock-on, c compensation)
+# k: the key line · m: logic steps separated by // · uk: a UK bridge line (optional) · >> a flip: one feature of the film changes
+
+@ar conn | RAAS and aldosterone
+u: Renin-angiotensin-aldosterone and renal hormones ; Distal tubule, collecting duct, Gitelman and Liddle
+s: 45-year-old with resistant hypertension and cramps; CT shows a 2-cm adrenal adenoma making aldosterone
+v: Aldosterone = ↑ p ; Renin = ↓ c ; Serum Na⁺ = ↔↑ k ; Serum K⁺ = ↓ k ; Serum HCO₃⁻ = ↑ k ; Blood pressure = ↑ k
+k: Everything follows aldosterone except renin, which the expanded volume switches off; sodium barely moves because of aldosterone escape
+m: Adenoma secretes aldosterone without being asked // ENaC and Na⁺/K⁺-ATPase work harder: Na⁺ in, K⁺ and H⁺ out // volume expands, so pressure natriuresis and ANP stop sodium climbing (no oedema) // the juxtaglomerular cells feel the pressure and stop making renin
+uk: UK labs: aldosterone to renin ratio first, exactly as on Step 1
+>> Renal artery stenosis instead
+s: 28-year-old woman with fibromuscular dysplasia narrowing one renal artery
+v: Aldosterone = ↑ k ; Renin = ↑ p ; Serum Na⁺ = ↔ k ; Serum K⁺ = ↓ k ; Serum HCO₃⁻ = ↑ k ; Blood pressure = ↑ k
+k: The kidney thinks it is underfilled: renin leads, and aldosterone follows it up
+m: Narrowed artery → low pressure at the juxtaglomerular cells // renin, angiotensin II and aldosterone all rise // hypokalaemic alkalosis with HIGH renin
+>> Liddle syndrome instead
+s: 16-year-old with hypertension like his father; ENaC is stuck open
+v: Aldosterone = ↓ c ; Renin = ↓ c ; Serum Na⁺ = ↔↑ k ; Serum K⁺ = ↓ k ; Serum HCO₃⁻ = ↑ k ; Blood pressure = ↑ k
+k: Same hypokalaemic alkalosis and hypertension, but aldosterone is LOW: the channel works on its own
+m: ENaC reabsorbs Na⁺ without aldosterone // volume expands, so renin and then aldosterone switch off // amiloride works, spironolactone does not
+
+@ar addison | RAAS and aldosterone
+u: Renin-angiotensin-aldosterone and renal hormones ; Potassium ; Sodium and water
+s: 38-year-old with fatigue, salt craving and darkening skin; autoimmune destruction of both adrenal cortices
+v: Cortisol = ↓ p ; Aldosterone = ↓ p ; ACTH = ↑ c ; Renin = ↑ c ; Serum Na⁺ = ↓ k ; Serum K⁺ = ↑ k
+k: The whole cortex is gone, so both hormones fall and both upstream drivers rise; ACTH (with MSH) darkens the skin
+m: No aldosterone → salt lost, K⁺ and H⁺ kept // no cortisol → no feedback, ACTH climbs // volume loss → renin climbs // hyperkalaemic, normal gap acidosis
+>> Pituitary failure instead
+s: 52-year-old after pituitary surgery; ACTH is no longer made
+v: Cortisol = ↓ k ; Aldosterone = ↔ k ; ACTH = ↓ p ; Renin = ↔ k ; Serum Na⁺ = ↓↔ k ; Serum K⁺ = ↔ k
+k: Aldosterone runs on renin and potassium, not ACTH, so it survives: no hyperkalaemia and no tan
+m: ACTH gone → zona fasciculata starves → cortisol falls // zona glomerulosa keeps answering angiotensin II // mild hyponatraemia because cortisol is needed to clear free water
+
+@ar siadh | Water and ADH
+u: Sodium and water
+s: 64-year-old smoker with small cell lung cancer secreting ADH
+v: ADH = ↑ p ; Serum Na⁺ = ↓ k ; Serum osmolality = ↓ k ; Urine osmolality = ↑ k ; Urine Na⁺ = ↑ c ; Aldosterone = ↓ c
+k: Water is kept, so everything in the blood is diluted; the body sheds salt to stay euvolaemic, which is why urine sodium is high
+m: ADH inserts aquaporin 2 → free water reabsorbed // serum diluted // mild volume expansion → ANP up, aldosterone down → natriuresis // net result: euvolaemic hyponatraemia with concentrated, salty urine
+>> Central diabetes insipidus instead
+s: 30-year-old after a skull base fracture; the posterior pituitary stops releasing ADH
+v: ADH = ↓ p ; Serum Na⁺ = ↑ k ; Serum osmolality = ↑ k ; Urine osmolality = ↓ k ; Urine Na⁺ = ↓ k ; Aldosterone = ↔ k
+k: No ADH, no aquaporins: litres of dilute urine, and serum sodium rises unless thirst keeps up
+m: No ADH → aquaporin 2 not inserted // free water lost // serum concentrates, thirst drives drinking // desmopressin fixes it
+>> Nephrogenic diabetes insipidus instead
+s: 45-year-old on lithium for 10 years; principal cells ignore ADH
+v: ADH = ↑ c ; Serum Na⁺ = ↑ k ; Serum osmolality = ↑ k ; Urine osmolality = ↓ p ; Urine Na⁺ = ↓ k ; Aldosterone = ↔ k
+k: Same dilute urine, but ADH is HIGH because the pituitary keeps shouting at a deaf kidney
+m: Lithium enters through ENaC and blunts V2 signalling // aquaporin 2 stays inside the cell // ADH rises in response // thiazides or amiloride help, desmopressin does not
+
+@ar polydipsia | Water and ADH
+u: Sodium and water
+s: 32-year-old with schizophrenia drinking 10 liters of water a day
+v: Water intake = ↑ p ; ADH = ↓ c ; Serum Na⁺ = ↓ k ; Serum osmolality = ↓ k ; Urine osmolality = ↓ c
+k: The kidney does exactly the right thing (maximally dilute urine); it is simply outpaced
+m: Water floods in faster than about 12 liters a day can be cleared // ADH switches off // urine as dilute as it gets // sodium falls only when intake outruns excretion
+>> Beer potomania instead
+s: 58-year-old drinking beer and eating almost nothing for weeks
+v: Water intake = ↑ p ; ADH = ↓ c ; Serum Na⁺ = ↓ k ; Serum osmolality = ↓ k ; Urine osmolality = ↓ c
+k: Same arrows at a far lower volume: with no solute to excrete, even a few liters cannot be cleared
+m: Free water clearance needs solute // no protein or salt intake means little solute // a modest beer intake swamps the kidney
+
+@ar vomit | Acid-base
+u: Metabolic alkalosis ; Potassium
+s: 4-week-old with pyloric stenosis vomiting every feed for 5 days
+v: Serum HCO₃⁻ = ↑ p ; Serum Cl⁻ = ↓ p ; Plasma volume = ↓ p ; Aldosterone = ↑ c ; Serum K⁺ = ↓ k ; Urine pH = ↓ k ; PaCO₂ = ↑ c
+k: Losing HCl makes the alkalosis; losing volume keeps it going, and the kidney defends volume over pH
+m: HCl vomited → HCO₃⁻ left behind // volume loss → aldosterone up // too little Cl⁻ to go with Na⁺, so Na⁺ is swapped for H⁺ and K⁺ // paradoxical aciduria // breathing slows to retain CO₂
+>> Diarrhea instead
+s: 30-year-old with 4 days of profuse watery diarrhea from cholera
+v: Serum HCO₃⁻ = ↓ p ; Serum Cl⁻ = ↑ k ; Plasma volume = ↓ p ; Aldosterone = ↑ c ; Serum K⁺ = ↓ k ; Urine pH = ↓ c ; PaCO₂ = ↓ c
+k: Stool is rich in HCO₃⁻ and K⁺: a normal gap acidosis with low potassium, and the healthy kidney acidifies the urine
+m: HCO₃⁻ lost in stool → Cl⁻ rises to keep the charges balanced // kidney excretes NH₄Cl, so urine anion gap is negative // breathing speeds up to blow off CO₂
+
+@ar diuretic | Diuretics
+u: Diuretics ; Loop of Henle and Bartter syndrome
+s: 70-year-old with heart failure on high-dose furosemide
+v: Urine Na⁺ = ↑ p ; Serum K⁺ = ↓ k ; Serum HCO₃⁻ = ↑ k ; Serum Ca²⁺ = ↓ k ; Serum Mg²⁺ = ↓ k ; Renin = ↑ c
+k: NKCC2 blocked: salt reaches the collecting duct, where K⁺ and H⁺ are swapped for it; the lost lumen-positive charge lets Ca²⁺ and Mg²⁺ escape
+m: Na⁺ delivered distally → aldosterone-driven K⁺ and H⁺ secretion // volume contraction → renin and angiotensin II up → contraction alkalosis // loops lose calcium
+>> Hydrochlorothiazide instead
+s: 62-year-old with hypertension started on hydrochlorothiazide
+v: Urine Na⁺ = ↑ p ; Serum K⁺ = ↓ k ; Serum HCO₃⁻ = ↑ k ; Serum Ca²⁺ = ↑ k ; Serum Mg²⁺ = ↓ k ; Renin = ↑ c
+k: Same potassium and alkalosis story, but calcium goes the OTHER way: thiazides keep calcium
+m: NCC blocked in the DCT → lower intracellular Na⁺ → more Ca²⁺ reabsorbed // hypocalciuria and a mild rise in serum calcium // useful for calcium stones
+>> Spironolactone instead
+s: 58-year-old with cirrhosis and ascites started on spironolactone
+v: Urine Na⁺ = ↑ p ; Serum K⁺ = ↑ k ; Serum HCO₃⁻ = ↓ k ; Serum Ca²⁺ = ↔ k ; Serum Mg²⁺ = ↔ k ; Renin = ↑ c
+k: Block aldosterone and the collecting duct stops secreting K⁺ and H⁺: hyperkalaemia with a mild acidosis
+m: Mineralocorticoid receptor blocked → less ENaC and ROMK // Na⁺ lost, K⁺ and H⁺ kept // renin rises as volume falls
+>> Acetazolamide instead
+s: 26-year-old taking acetazolamide before climbing high
+v: Urine Na⁺ = ↑ p ; Serum K⁺ = ↓ k ; Serum HCO₃⁻ = ↓ p ; Serum Ca²⁺ = ↔ k ; Serum Mg²⁺ = ↔ k ; Renin = ↑ c
+k: The only diuretic here that LOWERS bicarbonate: the proximal tubule cannot reclaim it
+m: Carbonic anhydrase blocked → HCO₃⁻ and Na⁺ lost proximally // distal Na⁺ delivery wastes K⁺ // hyperchloraemic metabolic acidosis
+
+@ar bartter | Tubular syndromes
+u: Loop of Henle and Bartter syndrome ; Distal tubule, collecting duct, Gitelman and Liddle
+s: 6-year-old with salt craving, polyuria and nephrocalcinosis; NKCC2 does not work
+v: Urine Ca²⁺ = ↑ k ; Serum K⁺ = ↓ k ; Serum HCO₃⁻ = ↑ k ; Renin = ↑ c ; Aldosterone = ↑ c ; Blood pressure = ↔ k
+k: A born loop diuretic: high renin and aldosterone, but salt wasting keeps blood pressure normal
+m: NKCC2 fails → salt wasted // RAAS fires but cannot win back the salt // K⁺ and H⁺ secreted distally // no lumen-positive charge, so calcium is wasted
+>> Gitelman syndrome instead
+s: 22-year-old with cramps; NCC in the distal convoluted tubule does not work
+v: Urine Ca²⁺ = ↓ k ; Serum K⁺ = ↓ k ; Serum HCO₃⁻ = ↑ k ; Renin = ↑ c ; Aldosterone = ↑ c ; Blood pressure = ↔ k
+k: A born thiazide: identical except urine calcium is LOW and magnesium is low too
+m: NCC fails → mild salt wasting // calcium reabsorption enhanced // magnesium channel downregulated
+
+@ar dka | Acid-base
+u: Metabolic acidosis and the anion gap ; Potassium
+s: 19-year-old with type 1 diabetes who stopped insulin 2 days ago
+v: Glucose = ↑ p ; Ketoacids = ↑ p ; Serum HCO₃⁻ = ↓ k ; Anion gap = ↑ k ; PaCO₂ = ↓ c ; Serum K⁺ = ↑↔ k ; Total body K⁺ = ↓ k
+k: Serum potassium reads high because insulin lack pushes it out of cells, while the body's stores drain away in the urine
+m: No insulin → lipolysis → ketoacids // HCO₃⁻ buffers them and is used up: high anion gap acidosis // Kussmaul breathing blows off CO₂ // osmotic diuresis washes out K⁺
+>> Insulin and fluids started
+s: Same patient 6 hours into an insulin infusion with no potassium added
+v: Glucose = ↓ p ; Ketoacids = ↓ k ; Serum HCO₃⁻ = ↑ k ; Anion gap = ↓ k ; PaCO₂ = ↑ k ; Serum K⁺ = ↓ k ; Total body K⁺ = ↓ k
+k: Insulin drives potassium back into cells and unmasks the deficit: replace potassium before it falls too low
+m: Insulin → Na⁺/K⁺-ATPase and glucose uptake // ketogenesis stops, the gap closes // serum K⁺ falls toward the true, depleted level
+
+@ar salicylate | Acid-base
+u: Metabolic acidosis and the anion gap ; Respiratory acid-base disorders and compensation
+s: 23-year-old 2 hours after swallowing 60 aspirin tablets
+v: PaCO₂ = ↓ p ; Blood pH = ↑ k ; Serum HCO₃⁻ = ↔ k ; Anion gap = ↔ k
+k: First the respiratory centre is stimulated: a pure respiratory alkalosis
+m: Salicylate stimulates the medullary respiratory centre // CO₂ blown off // pH rises before the acid load arrives
+>> Twelve hours later
+s: Same patient later, with uncoupled mitochondria
+v: PaCO₂ = ↓ p ; Blood pH = ↔↓ k ; Serum HCO₃⁻ = ↓ p ; Anion gap = ↑ k
+k: Now two primary disorders: respiratory alkalosis plus a high anion gap metabolic acidosis; the pH can sit near normal
+m: Oxidative phosphorylation uncoupled → lactate and ketoacids // HCO₃⁻ consumed, gap opens // PaCO₂ is lower than Winter predicts, proof of the second process
+
+@ar copd | Acid-base
+u: Respiratory acid-base disorders and compensation
+s: 68-year-old with severe COPD at his usual baseline
+v: PaCO₂ = ↑ p ; Blood pH = ↓↔ k ; Serum HCO₃⁻ = ↑ c ; Urine NH₄⁺ = ↑ c ; Serum Cl⁻ = ↓ c
+k: Days of retained CO₂ let the kidney make new bicarbonate (3.5 per 10 mm Hg), pulling pH back toward normal
+m: CO₂ retained → intracellular acidosis in tubular cells // more H⁺ secreted as NH₄⁺, new HCO₃⁻ returned to blood // Cl⁻ excreted to balance the extra HCO₃⁻
+>> Acute opioid overdose instead
+s: 25-year-old found unresponsive with pinpoint pupils
+v: PaCO₂ = ↑ p ; Blood pH = ↓ k ; Serum HCO₃⁻ = ↑ c ; Urine NH₄⁺ = ↔ k ; Serum Cl⁻ = ↔ k
+k: Minutes only: buffers raise HCO₃⁻ about 1 per 10 mm Hg, so pH falls hard
+m: Respiratory drive suppressed // CO₂ climbs within minutes // no time for the kidney to respond
+>> Overventilated on a ventilator
+s: Same COPD patient intubated and ventilated to a normal PaCO₂
+v: PaCO₂ = ↓ p ; Blood pH = ↑ k ; Serum HCO₃⁻ = ↑ k ; Urine NH₄⁺ = ↓ c ; Serum Cl⁻ = ↓ k
+k: The bicarbonate he built up is suddenly unopposed: post-hypercapnic metabolic alkalosis
+m: CO₂ drops in minutes // HCO₃⁻ takes days to fall // alkalaemia can trigger seizures and arrhythmias, so lower CO₂ slowly
+
+@ar panic | Acid-base
+u: Respiratory acid-base disorders and compensation ; Calcium, phosphate and magnesium
+s: 22-year-old breathing fast during a panic attack
+v: PaCO₂ = ↓ p ; Blood pH = ↑ k ; Serum HCO₃⁻ = ↓ c ; Ionized Ca²⁺ = ↓ k ; Total Ca²⁺ = ↔ k
+k: Alkalaemia makes albumin grab calcium: ionised calcium falls while total calcium stays put, so she tingles
+m: CO₂ blown off → pH rises // albumin releases H⁺ and binds Ca²⁺ // low ionised calcium → perioral tingling and carpopedal spasm // HCO₃⁻ falls 2 per 10 mm Hg acutely
+>> Three weeks at high altitude
+s: Climber acclimatised to 5,000 meters
+v: PaCO₂ = ↓ k ; Blood pH = ↑↔ k ; Serum HCO₃⁻ = ↓ c ; PaO₂ = ↓ p ; Erythropoietin = ↑ c ; 2,3-BPG = ↑ c
+k: Low oxygen drives the breathing; over days the kidney dumps bicarbonate and the marrow makes more red cells
+m: Hypoxia → peripheral chemoreceptors → hyperventilation // chronic respiratory alkalosis: HCO₃⁻ falls 4 to 5 per 10 // EPO and 2,3-BPG rise to improve oxygen delivery
+
+@ar rta1 | Tubular syndromes
+u: Renal tubular acidosis ; Kidney stones
+s: 44-year-old with Sjögren syndrome; alpha-intercalated cells cannot secrete H⁺
+v: Urine pH = ↑ p ; Serum HCO₃⁻ = ↓ k ; Serum Cl⁻ = ↑ k ; Serum K⁺ = ↓ k ; Urine citrate = ↓ k ; Anion gap = ↔ k
+k: Urine cannot be acidified below 5.5 even in acidaemia; bone buffering and low citrate build calcium phosphate stones
+m: H⁺-ATPase fails → acid retained // Cl⁻ replaces HCO₃⁻: normal gap // Na⁺ reclaimed with K⁺ secretion instead of H⁺ → hypokalaemia // citrate reabsorbed in acidosis → stones
+>> Type 4 instead
+s: 63-year-old with diabetic nephropathy and low renin and aldosterone
+v: Urine pH = ↓ k ; Serum HCO₃⁻ = ↓ k ; Serum Cl⁻ = ↑ k ; Serum K⁺ = ↑ p ; Urine citrate = ↔ k ; Anion gap = ↔ k
+k: Potassium is HIGH, and it blocks ammonia production: acid cannot leave, although urine pH is under 5.5
+m: Little aldosterone → K⁺ retained // hyperkalaemia suppresses ammoniagenesis // too little NH₃ to carry H⁺ out // acidic urine, normal gap acidosis
+>> Type 2 instead
+s: 66-year-old with myeloma and Fanconi syndrome
+v: Urine pH = ↓ k ; Serum HCO₃⁻ = ↓ p ; Serum Cl⁻ = ↑ k ; Serum K⁺ = ↓ k ; Urine citrate = ↔ k ; Anion gap = ↔ k
+k: The proximal tubule loses bicarbonate until serum levels fall low enough; then the healthy distal nephron acidifies the urine again
+m: HCO₃⁻ reclaim threshold lowered // bicarbonaturia then a new steady state // distal Na⁺ delivery wastes K⁺ // glucose, phosphate and amino acids also lost
+
+@ar nephrotic | Glomerulus
+u: Nephrotic syndrome
+s: 4-year-old with minimal change disease and puffy eyes
+v: Urine protein = ↑ p ; Serum albumin = ↓ k ; Plasma oncotic pressure = ↓ k ; Edema = ↑ k ; LDL cholesterol = ↑ c ; Antithrombin III = ↓ k
+k: Protein leaks out: oncotic pressure drops, fluid moves into tissues, the liver overcompensates with lipoproteins, and clotting tips toward thrombosis
+m: Podocyte injury → albumin crosses the barrier // low oncotic pressure → oedema // liver ramps up synthesis, including lipoproteins // antithrombin III lost → renal vein thrombosis risk
+>> Nephritic picture instead
+s: 7-year-old with poststreptococcal glomerulonephritis
+v: Urine protein = ↑ k ; Serum albumin = ↔ k ; Plasma oncotic pressure = ↔ k ; Edema = ↑ k ; LDL cholesterol = ↔ k ; Antithrombin III = ↔ k
+k: Here oedema comes from salt and water RETENTION as GFR falls, not from albumin loss; protein loss stays under 3.5 g a day
+m: Inflamed glomeruli → GFR falls // Na⁺ and water retained → hypertension and oedema // haematuria with RBC casts
+
+@ar prerenal | Acute kidney injury
+u: Acute kidney injury and urinary casts
+s: 74-year-old dehydrated after 4 days of diarrhea
+v: Renal perfusion = ↓ p ; BUN to creatinine ratio = ↑ k ; FENa = ↓ c ; Urine osmolality = ↑ c ; Urine Na⁺ = ↓ c
+k: Healthy tubules in an underfilled patient hold on to everything: sodium, water and urea
+m: Low perfusion → aldosterone and ADH up // Na⁺ and water reclaimed avidly // urea follows water and is reabsorbed, so BUN rises faster than creatinine
+>> Acute tubular necrosis instead
+s: 66-year-old after 8 days of gentamicin
+v: Renal perfusion = ↔ k ; BUN to creatinine ratio = ↔ k ; FENa = ↑ k ; Urine osmolality = ↓ k ; Urine Na⁺ = ↑ k
+k: Dead tubules cannot reclaim sodium or concentrate urine: FENa over 2%, isotonic urine, muddy brown casts
+m: PCT cells necrose and slough // casts block tubules, GFR falls // sodium and water pass through unprocessed
+
+@ar ckdmbd | Calcium and phosphate
+u: Chronic kidney disease and renal osteodystrophy ; Calcium, phosphate and magnesium
+s: 59-year-old with stage 4 chronic kidney disease
+v: Serum phosphate = ↑ p ; FGF23 = ↑ c ; Calcitriol = ↓ k ; Serum Ca²⁺ = ↓ k ; PTH = ↑ c
+k: Phosphate is the first domino: it drives FGF23, which cuts calcitriol; calcium falls and PTH climbs
+m: Fewer nephrons → phosphate retained // FGF23 rises to excrete it and inhibits 1α-hydroxylase // less calcitriol → less gut calcium // low calcium, high phosphate → secondary hyperparathyroidism
+>> Primary hyperparathyroidism instead
+s: 55-year-old with a parathyroid adenoma
+v: Serum phosphate = ↓ k ; FGF23 = ↔ k ; Calcitriol = ↑ k ; Serum Ca²⁺ = ↑ k ; PTH = ↑ p
+k: PTH leads: calcium up, phosphate down, calcitriol up
+m: Adenoma secretes PTH // bone resorption and DCT reabsorption raise calcium // phosphaturia lowers phosphate // 1α-hydroxylase switched on
+>> Vitamin D intoxication instead
+s: 40-year-old taking huge doses of vitamin D supplements
+v: Serum phosphate = ↑ k ; FGF23 = ↑ c ; Calcitriol = ↑ p ; Serum Ca²⁺ = ↑ k ; PTH = ↓ c
+k: Calcium AND phosphate both high, with PTH switched off
+m: Too much vitamin D → gut absorbs calcium and phosphate // high calcium suppresses PTH
+
+@ar efferent | Glomerulus
+u: Glomerular filtration and clearance ; Renin-angiotensin-aldosterone and renal hormones
+s: Angiotensin II squeezes the efferent arteriole in a volume-depleted patient
+v: Efferent resistance = ↑ p ; GFR = ↑ k ; RPF = ↓ k ; Filtration fraction = ↑ k ; Peritubular oncotic pressure = ↑ k
+k: Clamp the outflow and pressure builds in the glomerulus: more filtered, less flows through, and the protein-rich blood left behind pulls fluid back in the PCT
+m: Efferent constriction → glomerular capillary pressure up → GFR up // total plasma flow falls // FF = GFR ÷ RPF rises // concentrated plasma in peritubular capillaries → more PCT reabsorption
+>> NSAID instead
+s: 71-year-old with heart failure who starts naproxen
+v: Efferent resistance = ↔ k ; GFR = ↓ k ; RPF = ↓ k ; Filtration fraction = ↔ k ; Peritubular oncotic pressure = ↔ k
+k: Narrow the INFLOW (afferent) and both GFR and RPF fall together
+m: Prostaglandins blocked → afferent arteriole constricts // less flow into the glomerulus // creatinine rises
+>> ACE inhibitor instead
+s: 52-year-old with diabetic nephropathy starting lisinopril
+v: Efferent resistance = ↓ p ; GFR = ↓ k ; RPF = ↑ k ; Filtration fraction = ↓ k ; Peritubular oncotic pressure = ↓ k
+k: Open the outflow: glomerular pressure and proteinuria fall, creatinine rises a little
+m: Less angiotensin II → efferent dilates // glomerular pressure falls // a small creatinine rise is expected and protective
+
+@ar obstruct | Glomerulus
+u: Glomerular filtration and clearance ; Kidney stones
+s: A stone blocks the ureter
+v: Bowman space pressure = ↑ p ; GFR = ↓ k ; RPF = ↔ k ; Filtration fraction = ↓ k
+k: Back-pressure opposes filtration while plasma flow carries on
+m: Urine cannot leave // pressure in Bowman space rises // net filtration pressure falls
+>> High plasma protein instead
+s: 66-year-old with multiple myeloma
+v: Bowman space pressure = ↔ k ; GFR = ↓ k ; RPF = ↔ k ; Filtration fraction = ↓ k
+k: More protein, more oncotic pull holding fluid in the capillary: less filtered
+m: Plasma protein up → glomerular oncotic pressure up → net filtration falls
+
+@ar rhabdo | Potassium
+u: Potassium ; Acute kidney injury and urinary casts ; Calcium, phosphate and magnesium
+s: 24-year-old after a marathon in the heat with muscle pain and dark urine
+v: Creatine kinase = ↑ p ; Serum K⁺ = ↑ k ; Serum phosphate = ↑ k ; Serum Ca²⁺ = ↓ k ; Uric acid = ↑ k ; Urine dipstick blood = ↑ k
+k: Burst muscle spills potassium, phosphate and purines; phosphate drags calcium into tissue; myoglobin turns the dipstick positive with no red cells
+m: Myocytes rupture → intracellular contents released // myoglobin filtered → heme pigment injures PCT cells (ATN) // calcium phosphate deposits in damaged muscle → hypocalcaemia
+>> Tumour lysis instead
+s: 58-year-old 2 days into chemotherapy for leukaemia
+v: Creatine kinase = ↔ k ; Serum K⁺ = ↑ k ; Serum phosphate = ↑ k ; Serum Ca²⁺ = ↓ k ; Uric acid = ↑ p ; Urine dipstick blood = ↔ k
+k: Same electrolyte storm, but from tumour cells: uric acid crystals block the tubules
+m: Blasts lyse → K⁺, phosphate and nucleic acids released // uric acid crystallises in acidic tubular fluid // fluids plus allopurinol or rasburicase prevent it
+
+@ar refeed | Calcium and phosphate
+u: Calcium, phosphate and magnesium ; Potassium
+s: 19-year-old with anorexia nervosa fed at full calories from day 1
+v: Insulin = ↑ p ; Serum phosphate = ↓ k ; Serum K⁺ = ↓ k ; Serum Mg²⁺ = ↓ k ; ATP = ↓ k
+k: Insulin drives phosphate, potassium and magnesium into cells at once, and phosphate stores were already empty
+m: Carbohydrate load → insulin surge // phosphate used to phosphorylate glucose and make ATP // serum phosphate collapses → diaphragm and heart fail
+
+@ar sglt2 | Proximal tubule
+u: Proximal convoluted tubule ; Diuretics
+s: 60-year-old with type 2 diabetes starting empagliflozin
+v: Urine glucose = ↑ p ; Blood glucose = ↓ k ; Na⁺ delivery to macula densa = ↑ k ; GFR = ↓ k ; Ketones = ↑ k
+k: Glucose and sodium spill past the PCT; the macula densa reads the extra salt and narrows the afferent arteriole, lowering glomerular pressure
+m: SGLT2 blocked → glucose and Na⁺ stay in the tubule // tubuloglomerular feedback constricts the afferent // GFR dips early, protecting the kidney // insulin falls and glucagon rises → ketone risk even at near-normal glucose
+
+@ar pregnancy | Glomerulus
+u: Glomerular filtration and clearance ; Proximal convoluted tubule
+s: 30-year-old woman in the second trimester
+v: GFR = ↑ p ; Serum creatinine = ↓ k ; Urine glucose = ↑ k ; PaCO₂ = ↓ p ; Serum HCO₃⁻ = ↓ c
+k: Pregnancy raises GFR by about half, so creatinine reads LOW; progesterone drives breathing, giving a compensated respiratory alkalosis
+m: Plasma volume and renal plasma flow rise → GFR up → creatinine and BUN fall // more glucose filtered → benign glucosuria // progesterone sensitises the respiratory centre → PaCO₂ falls → kidney sheds HCO₃⁻

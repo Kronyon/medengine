@@ -1,0 +1,65 @@
+# medengine-STEP1 inflow → outflow mechanism chains: renal, acid-base and electrolytes. Written fresh.
+# @path id | title · u: topics · - one chain per line, **bold** the dominoes
+
+@path raas | Low pressure at the kidney: the fight-back
+u: Renin-angiotensin-aldosterone and renal hormones ; Glomerular filtration and clearance
+- **Low perfusion pressure**, sympathetic **β1** drive or **low NaCl** at the macula densa → juxtaglomerular cells release **renin** → angiotensinogen becomes angiotensin I → **ACE** in the lungs makes **angiotensin II**
+- Angiotensin II **squeezes the efferent arteriole** → glomerular pressure holds → **GFR is protected** while renal plasma flow falls → filtration fraction rises
+- Angiotensin II releases **aldosterone** (Na⁺ in, K⁺ and H⁺ out), **ADH** (water in) and **thirst** → volume and pressure climb back → the trigger switches itself off
+- Block the chain with an **ACE inhibitor** in a kidney that depended on it (bilateral renal artery stenosis) → the efferent relaxes → **GFR collapses**
+
+@path medulla | How the medulla gets salty and urine gets concentrated
+u: Loop of Henle and Bartter syndrome ; Sodium and water
+- The **thick ascending limb** pumps NaCl out with NKCC2 but **lets no water follow** → the surrounding medulla becomes salty → the fluid left inside becomes dilute
+- The **thin descending limb** passes through that salty medulla → water leaves through aquaporin 1 → fluid concentrates on the way down → the loop **multiplies** the gradient
+- **ADH** opens aquaporin 2 in the collecting duct and **urea channels** deep in the medulla → water follows the gradient out → urine reaches up to about 1200 mOsm/kg
+- **Loop diuretics** wash the gradient out → the kidney can neither concentrate nor fully dilute → large volumes of isotonic-ish urine
+
+@path paradox | Why vomiting makes acidic urine
+u: Metabolic alkalosis ; Potassium
+- Vomiting removes **HCl** → **HCO₃⁻ is left behind** → metabolic alkalosis is generated
+- Vomiting also removes **volume** → **aldosterone and angiotensin II** rise → the kidney's first priority becomes holding sodium
+- Chloride is too scarce to go back with sodium → sodium is reclaimed **in exchange for H⁺ and K⁺** → **acidic urine** and **hypokalaemia** despite alkalaemia
+- Give **saline with potassium chloride** → volume and chloride return → aldosterone falls → the kidney can finally dump HCO₃⁻ and the alkalosis corrects
+
+@path kshift | Why potassium follows acid
+u: Potassium ; Metabolic acidosis and the anion gap
+- In **acidaemia**, H⁺ moves into cells to be buffered → K⁺ moves **out** to balance the charge → serum K⁺ **rises** (strongest with mineral acids, weaker with organic acids)
+- In **alkalaemia**, H⁺ leaves cells → K⁺ moves **in** → serum K⁺ **falls**
+- **Insulin** and **β2 agonists** switch on the Na⁺/K⁺-ATPase → K⁺ moves into cells → the quick fixes for hyperkalaemia
+- **Insulin lack** in DKA plus **hyperosmolality** drag K⁺ out of cells → serum K⁺ looks high while the **osmotic diuresis** empties body stores
+
+@path glom | Nephritic leaks cells; nephrotic leaks protein
+u: Nephritic syndrome ; Nephrotic syndrome
+- **Nephritic**: immune attack **inflames** the glomerular capillaries → the wall breaks → **red cells** escape and set into **RBC casts** → GFR falls → salt and water retained → **hypertension and oedema**
+- **Nephrotic**: the **podocyte** is injured without much inflammation → the charge and size barrier fails → **over 3.5 g of protein a day** leaks → albumin falls → **oedema**
+- Low oncotic pressure tells the liver to make more protein → **lipoproteins rise** → fatty casts and Maltese crosses in the urine
+- Proteins that leak include **antithrombin III** (→ clots, renal vein thrombosis) and **immunoglobulins** (→ infections)
+
+@path atn | Ischaemia to muddy brown casts
+u: Acute kidney injury and urinary casts
+- **Shock, sepsis or nephrotoxins** (aminoglycosides, contrast, myoglobin, cisplatin) → the **PCT and thick ascending limb**, the busiest segments, run out of ATP first
+- Tubular cells **lose polarity and die** → they **slough** into the lumen → they clump into **muddy brown granular casts**
+- Casts **block** the tubule and filtrate **leaks back** → GFR falls → **oliguria, hyperkalaemia and acidosis**
+- Dead tubules cannot reclaim sodium or concentrate → **FENa over 2%** and **urine osmolality under 350** → weeks later the tubule regrows → **polyuric recovery** with low potassium
+
+@path ckdmbd | Failing kidneys to broken bones
+u: Chronic kidney disease and renal osteodystrophy ; Calcium, phosphate and magnesium
+- Fewer nephrons → **phosphate retained** → **FGF23** rises to push phosphate out → FGF23 **inhibits 1α-hydroxylase**
+- Less **calcitriol** → less calcium absorbed from the gut → **serum calcium falls** while phosphate binds what calcium is left
+- Low calcium, high phosphate and low calcitriol → the parathyroids grow → **secondary hyperparathyroidism** → bone is resorbed → **osteitis fibrosa cystica** (renal osteodystrophy)
+- Years later the glands act on their own → **tertiary hyperparathyroidism** → calcium now runs **high**
+
+@path stones | How a stone forms
+u: Kidney stones ; Renal tubular acidosis
+- A stone forms when urine is **supersaturated**: too much solute (**calcium, oxalate, urate, cystine**) or too little water
+- **Urine pH** chooses the stone: **alkaline** urine favours calcium phosphate and struvite; **acidic** urine favours uric acid and cystine
+- **Citrate** binds calcium and protects against stones → low citrate in **distal RTA** and chronic acidosis invites calcium stones
+- **Fat malabsorption** (Crohn disease, ileal resection) lets fat grab gut calcium → oxalate is left free → absorbed in the colon → **calcium oxalate stones**
+
+@path diuretick | Why most diuretics waste potassium
+u: Diuretics ; Potassium
+- Any diuretic acting **before** the collecting duct (acetazolamide, loops, thiazides) sends **more Na⁺** to the principal cells
+- More Na⁺ through **ENaC** → the lumen turns more negative → **K⁺ is pulled out** through ROMK
+- Volume falls → **aldosterone** rises → even more ENaC and ROMK → more K⁺ and H⁺ lost → **hypokalaemia with alkalosis**
+- Diuretics acting **at** the collecting duct (spironolactone, eplerenone, amiloride, triamterene) block this step → they **spare potassium** and can cause hyperkalaemia

@@ -1,0 +1,585 @@
+# medengine-STEP1 topics and red-flag triggers: organ systems (renal lives in the pilot file)
+# Same format as topics_foundations.txt. Own words; no copied text.
+
+@ cardio | Cardiovascular | Cardiovascular
+# Congenital heart disease | cardio, embryo
+! Infant **squats to relieve blue spells**, boot-shaped heart | Tetralogy of Fallot: **anterosuperior** displacement of the infundibular septum
+! **Cyanosis at birth** in an infant of a diabetic mother, egg on a string | Transposition: failed **spiralling** of the aorticopulmonary septum
+! **Continuous machine-like murmur**, closed by indomethacin | PDA: kept open by **prostaglandin E**
+! **Fixed split S2** | Atrial septal defect
+! **Leg claudication, rib notching**, arm BP higher than legs, Turner | Coarctation of the aorta
+! **Late cyanosis** in a child with a left-to-right shunt | Eisenmenger: pulmonary hypertension reverses the shunt
+# Cardiac cycle and murmurs | cardio, physio
+! **Crescendo-decrescendo** systolic murmur to the carotids, syncope on exertion | Aortic stenosis: calcified valve or **bicuspid** in the young
+! **Holosystolic** blowing murmur at the apex to the axilla | Mitral regurgitation
+! **Opening snap then diastolic rumble** | Mitral stenosis: rheumatic fever
+! **Mid-systolic click**, murmur later with squatting | Mitral valve prolapse: myxomatous degeneration
+! **Early diastolic decrescendo** murmur, bounding pulses | Aortic regurgitation
+! Murmur **louder with inspiration** | Right-sided lesion
+# Cardiac output and haemodynamics | cardio, physio
+! **Fick principle** | Cardiac output = O2 consumption ÷ arteriovenous O2 difference
+! **Preload rises** | Stroke volume rises along the Frank-Starling curve
+! **Afterload rises** | Stroke volume falls and end-systolic volume rises
+# Ischaemic heart disease | cardio, path
+! **Chest pain on exertion relieved by rest** | Stable angina: fixed plaque over 70% stenosis
+! **Transient ST elevation at rest, early morning**, smoker | Vasospastic angina: treat with CCBs and nitrates
+! **ST elevation in II, III, aVF** | Inferior MI: **right coronary artery**
+! **ST elevation in V1 to V4** | Anterior MI: **left anterior descending**
+# MI complications | cardio, path
+! **0 to 24 hours** after MI: sudden death | Ventricular arrhythmia
+! **3 to 14 days**: macrophages, granulation tissue, **tamponade** | Free wall rupture
+! **Papillary muscle rupture** | Acute mitral regurgitation, often posteromedial with RCA infarct
+! **Weeks after MI**: fever, pleuritic pain, rub | Dressler syndrome: autoimmune pericarditis
+# Heart failure | cardio
+! **Breathless lying flat**, crackles, S3 | Left heart failure
+! **Raised JVP, leg oedema**, nutmeg liver | Right heart failure, most often from left heart failure
+! Drugs that **improve survival** in HFrEF | ACE inhibitor or ARB or ARNI, beta-blocker, spironolactone, SGLT2 inhibitor
+# Cardiomyopathies | cardio
+! Young athlete **collapses**, murmur louder with **Valsalva and standing** | Hypertrophic cardiomyopathy: **sarcomere** genes, autosomal dominant
+! **Dilated heart** after alcohol, doxorubicin, Chagas or the postpartum period | Dilated cardiomyopathy: systolic failure
+! **Stiff heart** with amyloid or haemochromatosis | Restrictive cardiomyopathy
+# Pericardial disease | cardio
+! **Sharp chest pain better leaning forward**, diffuse ST elevation, PR depression | Acute pericarditis
+! **Low BP, raised JVP, muffled heart sounds**, pulsus paradoxus | Cardiac tamponade: **Beck triad**
+! **Kussmaul sign**, pericardial knock, calcified pericardium | Constrictive pericarditis
+# Endocarditis and rheumatic fever | cardio, micro
+! IV drug user with **tricuspid vegetation** | Staphylococcus aureus
+! **Dental work**, then subacute endocarditis on a damaged valve | Viridans streptococci: dextran helps them stick
+! Endocarditis with **colon cancer** | Streptococcus gallolyticus
+! **Joints, carditis, nodules, chorea, rash** after strep throat | Rheumatic fever: **molecular mimicry** with M protein
+# Hypertension drugs | cardio, pharm
+! **Dry cough and angioedema** | ACE inhibitor: bradykinin builds up
+! **Ankle oedema and flushing** | Dihydropyridine CCB
+! **Hyperglycaemia, hyperuricaemia, hypercalcaemia** | Thiazide
+! **Safe in pregnancy** | Labetalol, hydralazine, methyldopa, nifedipine
+# Antiarrhythmics | cardio, pharm
+! **Class IC**, contraindicated after MI | Flecainide
+! **Pulmonary fibrosis, thyroid change, blue-grey skin** | Amiodarone
+! **Cinchonism**, tinnitus | Quinidine
+! **Yellow vision**, worse with low potassium | Digoxin toxicity
+# Arrhythmias and the ECG | cardio
+! **Short PR, delta wave** | Wolff-Parkinson-White: avoid AV-nodal blockers if AF
+! **Progressive PR lengthening** then a dropped beat | Mobitz I, Wenckebach: AV node
+! **Sudden dropped beats** without PR change | Mobitz II: His-Purkinje, may need a pacemaker
+! **Long QT** with congenital deafness | Jervell and Lange-Nielsen
+# Vasculitis | cardio, immuno
+! Woman over 50 with **jaw claudication** and headache | Giant cell arteritis: risk of blindness, treat with steroids now
+! Young Asian woman with **weak arm pulses** | Takayasu arteritis
+! **Hepatitis B**, renal and mesenteric aneurysms, spares lungs | Polyarteritis nodosa
+! Child with **fever for 5 days, strawberry tongue**, peeling hands | Kawasaki disease: **coronary aneurysms**, give IVIG and aspirin
+! **Sinusitis, lung nodules, kidney disease**, c-ANCA | Granulomatosis with polyangiitis
+! **Asthma, eosinophilia**, neuropathy, p-ANCA | Eosinophilic granulomatosis with polyangiitis
+! Child with **palpable purpura on buttocks**, arthralgia, abdominal pain | IgA vasculitis, Henoch-Schönlein
+# Aortic disease | cardio
+! **Tearing chest pain to the back**, unequal arm BP | Aortic dissection: hypertension, Marfan
+! **Pulsatile abdominal mass** in an older male smoker | Abdominal aortic aneurysm
+# Shock | cardio, physio
+! **Low CO, high SVR, high PCWP** | Cardiogenic shock
+! **Low CO, high SVR, low PCWP** | Hypovolaemic shock
+! **High CO, low SVR**, warm skin | Septic shock
+# Lipid-lowering drugs | cardio, pharm
+! **Myopathy and raised liver enzymes** | Statins: HMG-CoA reductase inhibitors
+! **Flushing** prevented by aspirin | Niacin
+! **Gallstones** with myopathy alongside statins | Fibrates
+# Cardiac tumours | cardio, path
+! **Ball-valve** obstruction in the left atrium, tumour plop | Atrial myxoma
+! **Rhabdomyoma** in an infant | Tuberous sclerosis
+
+@ endo | Endocrine | Endocrine
+# Hypothalamic-pituitary axes | endo, physio
+! Problem **in the gland itself** | Primary: the hormone and its stimulator move in opposite directions
+! Problem **upstream of the gland** | Secondary: the hormone and its stimulator move together
+! **Bitemporal hemianopia** | Pituitary adenoma pressing the optic chiasm
+# Pituitary disorders | endo
+! **Galactorrhoea and amenorrhoea** | Prolactinoma: treat with cabergoline or bromocriptine
+! **Larger hands and shoes, jaw protrusion**, glucose intolerance | Acromegaly: **IGF-1**, then GH not suppressed by glucose
+! **Failure to lactate** after a big postpartum haemorrhage | Sheehan syndrome
+! **Hypotension and visual loss** suddenly, headache, adenoma | Pituitary apoplexy
+# SIADH and diabetes insipidus | endo, renal
+! **Low sodium, concentrated urine**, euvolaemic, small cell lung cancer | SIADH
+! **Dilute urine**, thirst, improves with desmopressin | Central diabetes insipidus
+! Dilute urine **not improving with desmopressin**, lithium use | Nephrogenic diabetes insipidus
+# Hyperthyroidism | endo
+! **Exophthalmos, pretibial myxoedema**, diffuse goitre | Graves: **TSH receptor stimulating** antibodies
+! **Painful tender goitre** after a viral illness, high ESR | Subacute granulomatous thyroiditis, de Quervain
+! **Fever, delirium, tachycardia** after surgery in hyperthyroidism | Thyroid storm: beta-blocker, PTU, steroids
+! Antithyroid drug for the **first trimester** | Propylthiouracil; methimazole is teratogenic early
+# Hypothyroidism | endo
+! **Weight gain, cold intolerance**, firm painless goitre, anti-TPO | Hashimoto thyroiditis
+! Newborn with **big tongue, umbilical hernia, poor feeding** | Congenital hypothyroidism
+# Thyroid cancer | endo, path
+! **Psammoma bodies, Orphan Annie nuclei** | Papillary carcinoma: the commonest, good prognosis
+! **Calcitonin**, amyloid stroma | Medullary carcinoma: **MEN 2**, RET
+! Spread **through the blood**, invades the capsule | Follicular carcinoma
+# Calcium and parathyroid disorders | endo
+! **Stones, bones, groans, moans**, high Ca, high PTH | Primary hyperparathyroidism: adenoma
+! **Low Ca, high PTH** in CKD | Secondary hyperparathyroidism
+! **Short 4th and 5th knuckles**, low Ca, high PTH | Pseudohypoparathyroidism: **Gs** defect
+! **Perioral tingling, Chvostek sign** after thyroid surgery | Hypocalcaemia from parathyroid damage
+# Cushing syndrome | endo
+! **High ACTH, cortisol suppressed by high-dose dexamethasone** | Cushing disease: pituitary adenoma
+! **High ACTH not suppressed**, small cell lung cancer | Ectopic ACTH
+! **Low ACTH** with high cortisol | Adrenal adenoma or exogenous steroids
+# Adrenal insufficiency and CAH | endo
+! **Hyperpigmentation, hypotension, hyperkalaemia** | Primary adrenal insufficiency, Addison: autoimmune in the US
+! **Shock with rash and DIC** in meningococcaemia | Waterhouse-Friderichsen: adrenal haemorrhage
+! **Ambiguous genitalia, salt wasting** in a newborn girl | CAH: **21-hydroxylase** deficiency, high 17-hydroxyprogesterone
+! CAH with **hypertension and hypokalaemia** | 11-beta-hydroxylase or 17-alpha-hydroxylase deficiency
+# Hyperaldosteronism | endo, renal
+! **Hypertension, low potassium, low renin** | Primary hyperaldosteronism, Conn: adenoma or bilateral hyperplasia
+! **Hypertension, low potassium, high renin** | Secondary: renal artery stenosis
+# Adrenal medulla tumours | endo
+! **Episodic headache, sweating, palpitations**, high metanephrines | Phaeochromocytoma: **alpha-blocker first**, then beta
+! Child with an **abdominal mass crossing the midline**, opsoclonus-myoclonus | Neuroblastoma: **N-myc**, high HVA and VMA
+# Diabetes mellitus | endo
+! **Insulitis**, HLA-DR3/DR4, autoantibodies | Type 1 diabetes
+! **Amyloid in islets**, insulin resistance | Type 2 diabetes
+! **Sorbitol** build-up | Cataracts, neuropathy and retinopathy in diabetes
+# Diabetes drugs | endo, pharm
+! **Lactic acidosis** risk, weight neutral | Metformin
+! **Weight gain and hypoglycaemia** | Sulfonylureas: close K-ATP channels
+! **Glucosuria, UTIs**, euglycaemic DKA | SGLT2 inhibitors
+! **Pancreatitis risk**, weight loss, injection | GLP-1 agonists
+# DKA and HHS | endo
+! **Kussmaul breathing, fruity breath**, high anion gap | DKA: insulin plus fluids, watch potassium
+! Older type 2 diabetic, **glucose over 600, no ketones**, very dehydrated | Hyperosmolar hyperglycaemic state
+# MEN syndromes | endo, genetics
+! **Pituitary, parathyroid, pancreas** | MEN 1: menin
+! **Medullary thyroid, phaeochromocytoma, parathyroid** | MEN 2A: RET
+! **Medullary thyroid, phaeochromocytoma, mucosal neuromas**, Marfanoid | MEN 2B: RET
+# Carcinoid syndrome | endo, gi
+! **Flushing, diarrhoea, right-sided valve disease** | Carcinoid syndrome: needs **liver metastases**, high 5-HIAA
+! Carcinoid tumour **in the appendix** with no flushing | The liver clears serotonin until metastases bypass it
+! **Pellagra** in carcinoid syndrome | Tryptophan is diverted into serotonin, so niacin runs short
+
+@ gi | Gastrointestinal | Gastrointestinal
+# GI embryology | gi, embryo
+! **Projectile non-bilious vomiting** at 3 weeks, olive mass | Hypertrophic pyloric stenosis: hypochloraemic metabolic alkalosis
+! **Bilious vomiting, double bubble**, Down syndrome | Duodenal atresia
+! **Painless rectal bleeding** in a 2 year old, ectopic gastric tissue | Meckel diverticulum
+! **Delayed meconium**, empty rectal vault, explosive stool | Hirschsprung disease: no **neural crest** migration, RET
+! **Bilious vomiting** in a newborn with volvulus | Malrotation
+# GI secretions and hormones | gi, physio
+! Hormone that **contracts the gallbladder** | CCK, from I cells
+! Hormone that releases **pancreatic bicarbonate** | Secretin, from S cells
+! **Gastrin** rises with | Proton pump inhibitors, achlorhydria, gastrinoma
+# Oesophagus | gi
+! **Dysphagia to solids and liquids**, bird beak | Achalasia: loss of **myenteric** NO and VIP neurons
+! **Columnar metaplasia** after long reflux | Barrett oesophagus: risk of adenocarcinoma
+! **Vomiting blood after retching**, superficial tear | Mallory-Weiss
+! **Full-thickness rupture** after vomiting, mediastinal air | Boerhaave
+! **Iron deficiency, oesophageal webs**, glossitis | Plummer-Vinson
+# Gastritis and peptic ulcer | gi
+! **Pain better with food** | Duodenal ulcer: H. pylori
+! **Pain worse with food** | Gastric ulcer: NSAIDs, H. pylori
+! **Multiple jejunal ulcers**, high gastrin | Zollinger-Ellison syndrome
+# Malabsorption | gi
+! **Itchy blisters on elbows**, iron deficiency, diarrhoea | Coeliac disease: anti-tTG IgA, villous atrophy
+! **Arthralgia, diarrhoea, dementia**, PAS-positive macrophages | Whipple disease: Tropheryma whipplei
+# IBD | gi
+! **Skip lesions, transmural**, fistulas, cobblestone mucosa | Crohn disease: non-caseating granulomas
+! **Continuous from the rectum**, bloody diarrhoea, pseudopolyps | Ulcerative colitis: PSC, toxic megacolon
+# Colorectal neoplasia | gi, path
+! **Thousands of polyps** by the teens | FAP: **APC** gene
+! Polyps with **osteomas and dental abnormalities** | Gardner syndrome
+! **Hamartomatous polyps with lip pigmentation** | Peutz-Jeghers
+! **Iron deficiency anaemia** in an older man | Right-sided colon cancer until proven otherwise
+# Diverticular and vascular bowel disease | gi
+! **Left lower quadrant pain** and fever in an older adult | Diverticulitis
+! **Pain out of proportion** to examination, AF | Acute mesenteric ischaemia
+! **Splenic flexure** ischaemia after hypotension | Watershed area
+# Jaundice and bilirubin | gi
+! **Mild unconjugated bilirubin rise with stress or fasting** | Gilbert syndrome: low UGT activity
+! **Black liver**, conjugated hyperbilirubinaemia | Dubin-Johnson
+! **Severe unconjugated jaundice** in a newborn, kernicterus | Crigler-Najjar type I
+# Viral hepatitis | gi, micro
+! **HBsAg positive, anti-HBc IgM positive** | Acute hepatitis B
+! **Anti-HBs only** | Vaccinated
+! **Anti-HBc positive and anti-HBs positive** | Past infection, now immune
+! Only **anti-HBc positive** | Window period
+! Hepatitis needing **HBV coinfection** | Hepatitis D
+# Cirrhosis and portal hypertension | gi
+! **Caput medusae, varices, ascites**, spider angiomas | Portal hypertension in cirrhosis
+! **Asterixis and confusion** in cirrhosis | Hepatic encephalopathy: lactulose, rifaximin
+! Cirrhosis with **ascites and fever** | Spontaneous bacterial peritonitis: neutrophils over 250 per microlitre
+# Alcohol and fatty liver | gi
+! **AST to ALT ratio over 2**, Mallory bodies | Alcoholic hepatitis
+! **ALT higher than AST**, obesity, insulin resistance | Non-alcoholic fatty liver disease
+# Metal overload | gi, genetics
+! **Bronze skin, diabetes**, cirrhosis, high ferritin | Haemochromatosis: **HFE** C282Y
+! **Kayser-Fleischer rings**, tremor, low ceruloplasmin | Wilson disease: **ATP7B**
+# Biliary disease | gi
+! **Fat, female, forty**, RUQ pain after fatty meals | Gallstones: cholesterol stones
+! **Fever, jaundice, RUQ pain** | Ascending cholangitis: Charcot triad
+! **Middle-aged woman, itch, antimitochondrial antibodies** | Primary biliary cholangitis
+! **Beading of bile ducts**, ulcerative colitis, p-ANCA | Primary sclerosing cholangitis
+# Pancreas | gi
+! **Epigastric pain to the back**, high lipase | Acute pancreatitis: gallstones or alcohol
+! **Painless jaundice with a palpable gallbladder** | Pancreatic head cancer: Courvoisier sign, CA 19-9
+! **Migratory thrombophlebitis** | Trousseau syndrome: pancreatic cancer
+# GI drugs | gi, pharm
+! **Hypomagnesaemia, C. difficile, fractures** with long use | Proton pump inhibitors
+! **Gynaecomastia** and CYP inhibition | Cimetidine
+! Antiemetic blocking **5-HT3** | Ondansetron: QT prolongation
+! Antiemetic and prokinetic blocking **D2** | Metoclopramide: dystonia
+
+@ heme | Haematology & oncology | Hematology and oncology
+# Microcytic anaemias | heme
+! **Low ferritin, high TIBC** | Iron deficiency anaemia
+! **Normal ferritin, high RBC count**, target cells | Thalassaemia trait
+! **Basophilic stippling**, abdominal pain, wrist drop | Lead poisoning: inhibits **ALA dehydratase and ferrochelatase**
+! **Ringed sideroblasts** with high iron | Sideroblastic anaemia: ALA synthase, alcohol, isoniazid needs B6
+# Macrocytic anaemias | heme
+! **Hypersegmented neutrophils** with neuropathy | B12 deficiency: pernicious anaemia, anti-intrinsic factor
+! Macrocytic anaemia **without neuropathy** after methotrexate | Folate deficiency
+# Haemolytic anaemias | heme
+! **Spherocytes, negative Coombs**, family history | Hereditary spherocytosis: **ankyrin or spectrin**, high MCHC
+! **Bite cells, Heinz bodies** after fava beans or primaquine | G6PD deficiency: X-linked
+! **Painful crises, dactylitis**, autosplenectomy | Sickle cell disease: **glutamate to valine** in beta-globin
+! **Dark morning urine**, pancytopenia, venous thrombosis | PNH: **CD55 and CD59** lost, complement lysis
+! **Warm IgG** haemolysis with SLE or CLL | Warm autoimmune haemolytic anaemia
+! **Cold IgM** haemolysis with Mycoplasma or EBV | Cold agglutinin disease
+# Marrow failure | heme
+! **Pancytopenia with a fatty marrow** after chloramphenicol or parvovirus | Aplastic anaemia
+! **Low iron, high ferritin** with inflammation | Anaemia of chronic disease: hepcidin
+# Platelet disorders | heme
+! **Isolated low platelets**, petechiae, after a virus | Immune thrombocytopenia
+! **Fever, confusion, kidney injury, schistocytes, low platelets** | TTP: **ADAMTS13** deficiency, plasma exchange
+! **Giant platelets**, no aggregation to ristocetin | Bernard-Soulier: **GPIb**
+! **No aggregation**, normal size | Glanzmann: **GPIIb/IIIa**
+! Platelets fall **5 to 10 days after heparin**, clots | Heparin-induced thrombocytopenia: antibodies to **PF4**-heparin
+# Coagulation disorders | heme
+! Boy with **haemarthrosis**, prolonged PTT, normal PT | Haemophilia A: factor VIII
+! **Mucosal bleeding**, heavy periods, prolonged bleeding time | Von Willebrand disease: the commonest inherited
+! **Bleeding and clotting at once**, schistocytes, low fibrinogen | DIC
+# Thrombophilias | heme
+! **Activated protein C resistance** | Factor V Leiden: the commonest inherited
+! **Skin necrosis** starting warfarin | Protein C deficiency
+! **Miscarriages, clots, prolonged PTT** that does not correct | Antiphospholipid syndrome
+# Anticoagulants | heme, pharm
+! Heparin reversal | Protamine sulfate
+! Warfarin reversal, urgent | Prothrombin complex concentrate plus vitamin K
+! **Dabigatran** reversal | Idarucizumab
+! **Factor Xa inhibitor** reversal | Andexanet alfa
+# Leukaemias | heme, path
+! Child with **bone pain, TdT-positive** blasts | ALL: good prognosis with t(12;21)
+! **Auer rods**, DIC | AML M3, APL: **t(15;17)**, all-trans retinoic acid
+! Older adult with **smudge cells** | CLL: CD5 positive B cells
+! **Very high white count**, big spleen, low LAP | CML: t(9;22), imatinib
+! **TRAP-positive** cells with hair-like projections | Hairy cell leukaemia: dry tap
+# Lymphomas | heme, path
+! **Owl-eye Reed-Sternberg** cells, contiguous spread, B symptoms | Hodgkin lymphoma: CD15 and CD30
+! **Starry sky**, jaw mass in Africa | Burkitt lymphoma: **t(8;14)**, EBV
+! **Waxing and waning** painless nodes in an older adult | Follicular lymphoma: t(14;18)
+! **Mycosis fungoides**: skin T-cell lymphoma with Pautrier microabscesses | Cutaneous T-cell lymphoma
+# Plasma cell disorders | heme
+! **Bone pain, high calcium, kidney injury, anaemia**, rouleaux | Multiple myeloma: **M spike**, Bence Jones protein
+! **IgM M spike**, hyperviscosity, blurred vision | Waldenström macroglobulinaemia
+# Myeloproliferative neoplasms | heme
+! **Itch after a hot shower**, high haematocrit, low EPO | Polycythaemia vera: **JAK2**
+! **Teardrop cells**, dry tap, huge spleen | Primary myelofibrosis
+# Langerhans cell histiocytosis | heme
+! Child with **lytic skull lesions**, rash, **tennis racket granules** | Langerhans cell histiocytosis: CD1a and S100
+! **Diabetes insipidus, lytic skull lesions, bulging eyes** | Hand-Schüller-Christian triad of LCH
+# Chemotherapy toxicities | heme, pharm
+! **Cardiotoxicity** | Doxorubicin: give dexrazoxane
+! **Pulmonary fibrosis** | Bleomycin, busulfan
+! **Haemorrhagic cystitis** | Cyclophosphamide: give mesna
+! **Peripheral neuropathy** | Vincristine
+! **Nephrotoxicity and ototoxicity** | Cisplatin: amifostine
+
+@ msk | MSK, skin & connective tissue | Musculoskeletal, skin, and connective tissue
+# Upper limb nerves | msk, anatomy
+! **Wrist drop** after a midshaft humerus fracture | Radial nerve
+! **Claw hand** with loss of finger abduction, medial epicondyle | Ulnar nerve
+! **Ape hand**, thenar wasting, carpal tunnel | Median nerve
+! **Waiter's tip** after a fall on the shoulder | Erb palsy: C5 and C6
+! **Total claw hand** after grabbing a branch while falling | Klumpke palsy: C8 and T1
+! **Winged scapula** after a mastectomy | Long thoracic nerve
+# Lower limb nerves | msk, anatomy
+! **Foot drop** after a fibular neck fracture | Common peroneal nerve
+! **Trendelenburg sign** after an injection in the buttock | Superior gluteal nerve
+! **Cannot extend the knee** | Femoral nerve
+# Rotator cuff and upper limb injuries | msk
+! **Pain on abduction from 0 to 15 degrees** | Supraspinatus
+! **Lateral elbow pain** on wrist extension | Lateral epicondylitis
+! **Snuffbox tenderness** after a fall | Scaphoid fracture: avascular necrosis risk
+# Bone disorders | msk
+! **Thick, disorganised bone**, raised ALP alone, hearing loss | Paget disease of bone
+! **Low calcium and phosphate, high ALP**, bowed legs | Rickets or osteomalacia: vitamin D
+! **Dense brittle bones**, marrow failure | Osteopetrosis: **carbonic anhydrase II**, osteoclasts fail
+! **Short limbs, normal trunk**, FGFR3 | Achondroplasia
+# Bone tumours | msk, path
+! **Codman triangle, sunburst**, teenager's knee | Osteosarcoma
+! **Onion-skin** periosteum, t(11;22) | Ewing sarcoma
+! **Soap bubble** at the epiphysis in young adults | Giant cell tumour
+# Arthritis | msk
+! **Morning stiffness under 30 minutes**, Heberden nodes | Osteoarthritis
+! **Symmetric small joints**, morning stiffness over an hour, anti-CCP | Rheumatoid arthritis: ulnar deviation, pannus
+# Crystal arthropathies | msk
+! **Needle-shaped negatively birefringent** crystals | Gout: monosodium urate
+! **Rhomboid positively birefringent** crystals | Pseudogout: calcium pyrophosphate
+! Gout drug that **inhibits xanthine oxidase** | Allopurinol or febuxostat
+# Spondyloarthropathies | msk
+! **Young man, back pain better with exercise**, bamboo spine | Ankylosing spondylitis: HLA-B27
+! **Can't see, can't pee, can't climb a tree** after an infection | Reactive arthritis
+! **Pencil-in-cup** and sausage digits | Psoriatic arthritis
+# Connective tissue diseases | msk, immuno
+! **Malar rash, arthritis, nephritis**, anti-dsDNA | SLE
+! **Dry eyes and mouth**, anti-Ro and anti-La | Sjögren syndrome: risk of B-cell lymphoma
+! **Heliotrope rash, Gottron papules**, proximal weakness | Dermatomyositis: screen for cancer
+! **Calcinosis, Raynaud, oesophageal dysmotility, sclerodactyly, telangiectasia** | Limited scleroderma, CREST: anti-centromere
+# Neuromuscular junction | msk, neuro
+! **Weakness worse at the end of the day**, ptosis | Myasthenia gravis: antibodies to **postsynaptic ACh receptors**, thymoma
+! **Weakness better with repeated use**, small cell lung cancer | Lambert-Eaton: antibodies to **presynaptic calcium channels**
+# Muscular dystrophies | msk, genetics
+! Boy using his **hands to stand up**, calf pseudohypertrophy | Duchenne: **frameshift** in dystrophin
+! Milder, later onset, **in-frame** dystrophin mutation | Becker
+! **Cannot let go of a handshake**, cataracts, frontal balding | Myotonic dystrophy: **CTG** repeat
+# Blistering skin disease | msk, immuno
+! **Flaccid blisters, mouth involved**, Nikolsky positive | Pemphigus vulgaris: antibodies to **desmoglein**
+! **Tense blisters**, mouth spared, older adult | Bullous pemphigoid: antibodies to **hemidesmosomes**
+! **Itchy vesicles on extensor surfaces**, coeliac | Dermatitis herpetiformis
+# Skin cancer | msk, path
+! **Pearly papule with rolled edges**, telangiectasia | Basal cell carcinoma
+! Scaly ulcer on a **sun-exposed lip**, keratin pearls | Squamous cell carcinoma: actinic keratosis precursor
+! **Asymmetric, irregular, changing** pigmented lesion | Melanoma: **depth** predicts outcome, S-100
+# Common skin conditions | msk
+! **Silvery plaques** on extensor surfaces, nail pitting | Psoriasis
+! **Stuck-on** waxy lesions, many appearing suddenly | Seborrhoeic keratoses; sudden many = Leser-Trélat sign of GI cancer
+! **Velvety dark skin** in the axillae | Acanthosis nigricans: insulin resistance or gastric cancer
+
+@ neuro | Neurology & special senses | Neurology and special senses
+# Neural development | neuro, embryo
+! **Raised AFP** and a lumbar tuft of hair | Neural tube defect: give **folate** before conception
+! **Cerebellar tonsils below the foramen magnum** with syringomyelia | Chiari II malformation with myelomeningocele
+! **Cystic posterior fossa**, absent vermis | Dandy-Walker malformation
+! **Single forebrain ventricle**, cyclopia, SHH | Holoprosencephaly
+# Spinal cord lesions | neuro
+! **Cape-like loss of pain and temperature** in the arms | Syringomyelia: anterior white commissure
+! **Loss of vibration and position, spastic legs**, low B12 | Subacute combined degeneration: dorsal columns and corticospinal tracts
+! **Upper and lower motor neuron signs**, no sensory loss | ALS: **SOD1**, treat with riluzole
+! **Ipsilateral weakness and vibration loss, contralateral pain loss** | Brown-Séquard hemisection
+# Cranial nerves and brainstem | neuro
+! **Down and out eye, fixed dilated pupil** | Third nerve compression: aneurysm of the posterior communicating artery
+! **Hoarseness, dysphagia, ipsilateral face and contralateral body pain loss** | Lateral medullary, Wallenberg: **PICA**
+! **Tongue deviates toward the lesion**, contralateral weakness | Medial medullary: anterior spinal artery
+# Stroke syndromes | neuro
+! **Leg weakness more than arm**, contralateral | Anterior cerebral artery
+! **Face and arm weakness, aphasia** | Middle cerebral artery, dominant side
+! **Contralateral hemianopia with macular sparing** | Posterior cerebral artery
+! **Pure motor stroke**, hypertension | Lacunar infarct of the internal capsule: lipohyalinosis
+# Intracranial haemorrhage | neuro
+! **Lucid interval** after a temple blow, lens-shaped bleed | Epidural haematoma: **middle meningeal artery**
+! **Crescent-shaped bleed** in an older person on anticoagulants | Subdural haematoma: **bridging veins**
+! **Worst headache of life** | Subarachnoid haemorrhage: berry aneurysm, xanthochromia
+# Headache | neuro
+! **Unilateral eye pain with tearing**, man woken at night | Cluster headache: oxygen, triptan
+! **Pulsating one-sided** headache with photophobia | Migraine: triptans are 5-HT1B/1D agonists
+# Seizures and antiepileptics | neuro, pharm
+! **Staring spells** with 3 Hz spike-and-wave | Absence seizures: ethosuximide
+! **Gingival hyperplasia, hirsutism, nystagmus** | Phenytoin
+! **SIADH and agranulocytosis**, also for trigeminal neuralgia | Carbamazepine
+! **Neural tube defects, hepatotoxicity**, weight gain | Valproate
+# Dementia and neurodegeneration | neuro
+! **Gradual memory loss**, neuritic plaques and tangles | Alzheimer disease: **beta-amyloid** and tau
+! **Personality change first**, Pick bodies | Frontotemporal dementia
+! **Visual hallucinations, parkinsonism**, fluctuating cognition | Lewy body dementia
+! **Wet, wobbly, wacky** | Normal pressure hydrocephalus
+! **Rapid dementia with myoclonus**, periodic sharp waves | Creutzfeldt-Jakob disease: prions
+# Movement disorders | neuro
+! **Resting tremor, rigidity, bradykinesia** | Parkinson disease: substantia nigra, Lewy bodies
+! **Chorea and dementia**, caudate atrophy | Huntington disease: **CAG** repeat on chromosome 4
+! **Action tremor better with alcohol** | Essential tremor: propranolol
+# Demyelinating disease | neuro
+! Young woman with **optic neuritis, internuclear ophthalmoplegia** | Multiple sclerosis: oligoclonal bands
+! **Ascending flaccid paralysis**, high CSF protein, normal cells | Guillain-Barré syndrome
+# CNS tumours | neuro, path
+! **Butterfly glioma** crossing the corpus callosum, pseudopalisading | Glioblastoma
+! **Psammoma bodies**, dural tail, extra-axial | Meningioma
+! **Bilateral vestibular schwannomas** | NF2
+! Child with a **cerebellar cystic mass**, Rosenthal fibres | Pilocytic astrocytoma
+! Child with **bitemporal hemianopia and calcification** | Craniopharyngioma: Rathke pouch
+# Neurocutaneous syndromes | neuro, genetics
+! **Café-au-lait spots, Lisch nodules**, neurofibromas | NF1: chromosome 17
+! **Ash-leaf spots, seizures**, cardiac rhabdomyoma, renal angiomyolipoma | Tuberous sclerosis
+! **Port-wine stain** on the face and seizures | Sturge-Weber: GNAQ
+! **Haemangioblastomas** with renal cell carcinoma | Von Hippel-Lindau: chromosome 3
+# Eye: fields and pupils | neuro, eye
+! **Left homonymous hemianopia** | Right optic tract lesion
+! **Pie in the sky** | Temporal lobe, Meyer loop
+! **Left eye cannot adduct**, right eye nystagmus on right gaze | Left MLF lesion: multiple sclerosis
+# Eye diseases | eye
+! **Painful red eye, halos, fixed mid-dilated pupil** | Acute angle-closure glaucoma: avoid epinephrine and atropine
+! **Sudden painless vision loss**, cherry-red spot | Central retinal artery occlusion
+! **Floaters and a curtain** over vision | Retinal detachment
+# Ear | ent
+! **Vertigo, tinnitus, hearing loss** in episodes | Ménière disease: too much endolymph
+! **Brief vertigo turning in bed** | Benign paroxysmal positional vertigo: Dix-Hallpike, Epley
+! Sensorineural hearing loss **with Weber lateralising away** | Weber goes to the good ear in sensorineural loss
+# Anaesthetics and opioids | neuro, pharm
+! **Fever, rigidity, high CO2** after succinylcholine or halothane | Malignant hyperthermia: **ryanodine receptor**, dantrolene
+! **Pinpoint pupils, slow breathing** | Opioid overdose: naloxone
+
+@ psych | Psychiatry | Psychiatry
+# Defence mechanisms | psych
+! Takes out anger on a **safer target** | Displacement
+! Attributes **own feelings to others** | Projection
+! **Splitting** staff into all-good and all-bad | Borderline personality: immature defence
+! Channels urges into **helpful work** | Sublimation, a mature defence
+# Psychotic disorders | psych
+! **Over 6 months** of delusions, hallucinations, disorganisation | Schizophrenia
+! Psychosis **1 to 6 months** | Schizophreniform disorder
+! Psychosis **under 1 month** after stress | Brief psychotic disorder
+! Psychosis **outside mood episodes** plus mood episodes | Schizoaffective disorder
+# Mood disorders | psych
+! **Depressed most days for 2 years**, never meets major criteria | Persistent depressive disorder
+! **One manic episode** | Bipolar I
+! **Hypomania and major depression** | Bipolar II
+# Anxiety and trauma | psych
+! **Recurrent unexpected attacks** with fear of further attacks | Panic disorder
+! **Intrusive thoughts and rituals**, insight kept | OCD: SSRIs and exposure
+! **Flashbacks and avoidance** over a month after trauma | PTSD
+# Personality disorders | psych
+! **Odd, eccentric**, magical thinking | Cluster A: schizotypal
+! **Unstable relationships, self-harm**, splitting | Borderline: dialectical behaviour therapy
+! **Avoids people for fear of rejection**, wants friends | Avoidant
+! Wants friends? **No**, prefers being alone | Schizoid
+# Somatic symptoms and factitious disorders | psych
+! Fakes illness for **no external gain** | Factitious disorder: Munchausen
+! Fakes illness for **money or to avoid prison** | Malingering
+! **Neurological symptoms** with no cause, calm affect | Conversion disorder: la belle indifférence
+# Eating disorders | psych
+! **Low BMI, amenorrhoea**, lanugo | Anorexia nervosa: watch refeeding hypophosphataemia
+! **Normal weight, binge and purge**, dental erosion, parotid swelling | Bulimia nervosa
+# Substance intoxication and withdrawal | psych
+! **Dilated pupils, chest pain**, agitation | Cocaine intoxication: avoid beta-blockers
+! **Vertical nystagmus**, violence | PCP intoxication
+! **Yawning, rhinorrhoea, piloerection**, diarrhoea | Opioid withdrawal
+! **Seizures and delirium** 2 to 4 days after stopping drinking | Alcohol withdrawal: benzodiazepines
+# Antipsychotics | psych, pharm
+! **Fever, rigidity, high CK**, altered mind | Neuroleptic malignant syndrome: dantrolene, bromocriptine
+! **Lip smacking** after years of treatment | Tardive dyskinesia
+! **Agranulocytosis** | Clozapine: monitor neutrophils
+# Antidepressants | psych, pharm
+! **Hyperthermia, clonus, diarrhoea** with two serotonergic drugs | Serotonin syndrome: cyproheptadine
+! **Hypertensive crisis** after cheese with an MAOI | Tyramine
+! **Priapism** | Trazodone
+! **Avoid in bulimia** because of seizures | Bupropion
+# Mood stabilisers | psych, pharm
+! **Tremor, hypothyroidism, nephrogenic DI** | Lithium
+! **Ebstein anomaly** in the baby | Lithium in the first trimester
+! Lithium toxicity after starting a **thiazide, ACE inhibitor or NSAID** | Less lithium cleared, so levels rise
+# Child psychiatry | psych
+! **Inattention and hyperactivity** in two settings before 12 | ADHD: stimulants
+! **Motor and vocal tics** for over a year | Tourette syndrome
+! **Breaks rules, hurts animals and people** | Conduct disorder
+# Sleep | psych, neuro
+! **Sleep paralysis, cataplexy**, hypnagogic hallucinations | Narcolepsy: low **orexin**
+! **Sleepwalking and night terrors** | Stage N3 deep sleep
+# Delirium | psych
+! **Fluctuating attention** over hours after surgery | Delirium: find the cause, abnormal EEG
+! Slow memory loss over years with **normal attention** | Dementia, not delirium: the EEG is normal
+
+@ repro | Reproductive | Reproductive
+# Sexual differentiation | repro, embryo
+! **Female external genitalia, testes, no uterus** | Androgen insensitivity: **testosterone receptor** defect
+! **Ambiguous genitalia until puberty**, then virilisation | 5-alpha-reductase deficiency
+! **Anosmia and delayed puberty** | Kallmann syndrome: GnRH neurons fail to migrate
+# Menstrual cycle and pregnancy hormones | repro, physio
+! **LH surge** | Triggers ovulation
+! **Progesterone** dominant phase | Luteal phase, a fixed 14 days
+! **hCG doubles** every 48 hours | Normal early pregnancy
+# Pregnancy complications | repro
+! **Hypertension and proteinuria after 20 weeks** | Pre-eclampsia: abnormal spiral artery remodelling, magnesium for seizures
+! **Haemolysis, raised liver enzymes, low platelets** | HELLP syndrome
+! **Snowstorm** on ultrasound, very high hCG, grape-like vesicles | Complete mole: **46,XX** from the father only
+! **Painless bleeding** in the third trimester | Placenta praevia
+! **Painful bleeding**, rigid uterus | Placental abruption: cocaine, hypertension
+# PCOS and amenorrhoea | repro
+! **Hirsutism, irregular periods, obesity**, LH to FSH over 2 | Polycystic ovary syndrome
+! **Amenorrhoea after a D and C** | Asherman syndrome
+# Ovarian tumours | repro, path
+! **Call-Exner bodies**, high oestrogen | Granulosa cell tumour
+! **Teeth and hair**, a common benign tumour | Mature cystic teratoma
+! **Schiller-Duval bodies**, high AFP | Yolk sac tumour
+! **Ovarian fibroma with ascites and pleural effusion** | Meigs syndrome
+# Uterus and cervix | repro
+! **Heavy periods with a big irregular uterus** | Leiomyoma: oestrogen-sensitive
+! **Postmenopausal bleeding** with unopposed oestrogen | Endometrial carcinoma
+! **Painful periods, chocolate cysts**, infertility | Endometriosis
+! **HPV 16 and 18** | Cervical cancer: E6 inhibits p53, E7 inhibits RB
+# Breast | repro
+! **Small mobile rubbery lump** in a young woman | Fibroadenoma
+! **Eczematous nipple** with an underlying cancer | Paget disease of the breast
+! **Peau d'orange** | Inflammatory breast cancer: dermal lymphatics
+# Testes and scrotum | repro
+! **Painless testicular mass**, fried-egg cells | Seminoma: high placental ALP
+! **Scrotal swelling that transilluminates** | Hydrocele
+! **Bag of worms** on the left | Varicocele: left gonadal vein drains into the left renal vein
+# Prostate | repro, pharm
+! Older man with **nocturia and weak stream** | BPH: alpha-1 blockers, 5-alpha-reductase inhibitors
+! **Raised PSA, hard nodule**, bone metastases | Prostate cancer: osteoblastic
+# Reproductive drugs | repro, pharm
+! **Antagonist at the breast, agonist at the uterus** | Tamoxifen: endometrial cancer risk
+! Blocks **oestrogen synthesis** in postmenopausal women | Aromatase inhibitors: anastrozole
+! **Continuous GnRH analogue** | Suppresses LH and FSH: prostate cancer
+# STIs and PID | repro, micro
+! **Strawberry cervix**, motile organisms | Trichomonas vaginalis
+! **Clue cells**, fishy odour | Bacterial vaginosis: Gardnerella, metronidazole
+! **Painful genital ulcer** with tender nodes | Haemophilus ducreyi, chancroid
+
+@ resp | Respiratory | Respiratory
+# Lung development | resp, embryo
+! **Premature baby** with ground-glass lungs | Neonatal respiratory distress syndrome: low **surfactant**, L to S ratio under 1.5
+! Prevent breathing failure in a **preterm** delivery | Maternal corticosteroids mature surfactant
+! **Retinopathy and bronchopulmonary dysplasia** after oxygen in a preterm baby | Free radical injury from supplemental oxygen
+# Lung volumes and spirometry | resp, physio
+! **FEV1 to FVC low** | Obstructive disease
+! **FEV1 to FVC normal or high**, low TLC | Restrictive disease
+# Gas exchange | resp, physio
+! **Hypoxaemia with a normal A-a gradient** | Hypoventilation or high altitude
+! **Hypoxaemia not corrected by 100% oxygen** | Shunt
+! **Dead space** | V/Q tends to infinity: pulmonary embolism
+# Oxygen-haemoglobin curve | resp, physio
+! Curve **shifts right** | Raised CO2, acid, 2,3-BPG, exercise, temperature
+! **Fetal haemoglobin** | Curve shifts left: binds 2,3-BPG less
+# High altitude | resp, physio
+! **Acute hypoxia** at altitude | Hyperventilation and respiratory alkalosis; acetazolamide helps
+! **Weeks** at altitude | More EPO, haematocrit and 2,3-BPG; hypoxic vasoconstriction loads the right ventricle
+# Asthma | resp
+! **Curschmann spirals, Charcot-Leyden crystals** | Asthma
+! Asthma, **nasal polyps, aspirin** sensitivity | Aspirin-exacerbated respiratory disease
+# COPD and alpha-1 antitrypsin | resp
+! **Pink puffer**, centriacinar emphysema in a smoker | Emphysema: loss of elastic recoil
+! **Panacinar emphysema** in a young non-smoker with liver disease | Alpha-1 antitrypsin deficiency
+! **Productive cough for 3 months in 2 years** | Chronic bronchitis
+# Interstitial lung disease | resp
+! **Honeycomb lung**, clubbing, older man | Idiopathic pulmonary fibrosis
+! **Shipyard worker**, pleural plaques | Asbestosis: lower lobes
+! **Eggshell calcification** of hilar nodes, sandblaster | Silicosis: upper lobes, TB risk
+! **Aerospace worker** with granulomas | Berylliosis
+# Pulmonary embolism | resp
+! **Sudden breathlessness after long-haul flight** | Pulmonary embolism: Virchow triad
+! **Fat emboli** after a femur fracture | Petechiae, confusion, hypoxia
+# Pneumonia | resp, micro
+! **Lobar consolidation, rusty sputum** | Streptococcus pneumoniae
+! **Aspiration** in an alcoholic, right lower lobe | Anaerobes, Klebsiella
+# Lung cancer | resp, path
+! **Central** tumour in a smoker with **SIADH or Cushing** | Small cell carcinoma
+! **Central** tumour with **hypercalcaemia** | Squamous cell carcinoma: PTHrP
+! **Peripheral** tumour in a **non-smoker** woman | Adenocarcinoma
+! **Ptosis, miosis, anhidrosis** with shoulder pain | Pancoast tumour: Horner syndrome
+# Pleura | resp
+! **Tall thin young man**, sudden pleuritic pain | Primary spontaneous pneumothorax
+! **Trachea deviates away**, hypotension | Tension pneumothorax: needle decompression
+# Sarcoidosis | resp, immuno
+! Young Black woman with **bilateral hilar nodes**, erythema nodosum | Sarcoidosis: high ACE, hypercalcaemia from calcitriol
+! **Uveitis, parotid swelling, facial palsy** and fever | Heerfordt syndrome: sarcoidosis
+# Sleep apnoea and pulmonary hypertension | resp
+! **Snoring and daytime sleepiness**, obesity | Obstructive sleep apnoea
+! Young woman with **breathlessness and a loud P2**, BMPR2 | Pulmonary arterial hypertension
+# Cystic fibrosis | resp, genetics
+! **Meconium ileus**, salty sweat, recurrent Pseudomonas | Cystic fibrosis: **CFTR** ΔF508 misfolding
+! **Infertile man** with no vas deferens | CFTR mutation: obstructive azoospermia
+! CF drug that **holds the channel open** | Ivacaftor: a CFTR potentiator for gating mutations

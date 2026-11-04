@@ -1,0 +1,28 @@
+# medengine-STEP1
+
+USMLE Step 1 on the medengine-STUDY engine. `site/build.py` (`make_step1`) takes `site/study.html`, swaps in the Step 1 content pack, adds the Step 1 add-on and renames every storage key, so STEP1 and STUDY never share progress.
+
+## Files
+
+| File | What it is |
+| --- | --- |
+| `src/topics_*.txt` | First Aid chapters (`@`), topics (`#`) and red-flag trigger rows (`!` scene with **flip words** `\|` lock-in) |
+| `src/notes_*.txt` | High-yield cloze notes: `## Topic`, `> block opener`, `- line` with `{{answer\|wrong\|wrong\|wrong}}` |
+| `src/sba_*.txt` | Questions: stem, results table, options, why, red flags, money line, inflow → outflow, a flip and a why-not for every wrong option |
+| `src/arrows_*.txt` | Domino arrows with roles (`p` primary, `k` knock-on, `c` compensation) and `>>` change-the-film flips |
+| `src/path_*.txt` | Inflow → outflow mechanism chains |
+| `src/eponyms.txt`, `src/gloss_us.txt` | Eponym decoder; US abbreviations and drug names with the UK term |
+| `build_pack.py` | Validates everything above and writes `pack.json` (any content error stops the build) |
+| `ext_step1.js`, `ext_step1.css` | UWorld Deconstruct, timed block, acid-base compass, nephron map, lab values |
+| `test_step1.js` | Unit tests for the compass maths and lab conversions (`node step1/test_step1.js`) |
+| `test_step1_page.js` | Browser test, including the storage isolation check (`node step1/test_step1_page.js http://localhost:PORT/step1.html`) |
+| `supabase_step1.sql` | The private backup table for the website copy; run once in Supabase |
+| `medengine-step1.html` | The claude.ai artifact build (derived; do not edit) |
+
+## Adding a system in depth
+
+1. Add `notes_<system>.txt`, `sba_<system>.txt`, `arrows_<system>.txt` and `path_<system>.txt`, using topic names exactly as they appear in the topics files.
+2. Add the chapter id to `PILOT` in `build_pack.py`.
+3. `python3 step1/build_pack.py && python3 site/build.py`, then run both tests.
+
+Everything in `src/` is written in our own words. First Aid, Mehlman, UWorld, Boards and Beyond and Bootcamp shaped the structure only; no text is copied from them.

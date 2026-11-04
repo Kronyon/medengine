@@ -307,6 +307,12 @@ table.gl td:first-child{font-family:var(--f-mono);font-weight:700;white-space:no
 .ar-k{margin-top:8px;border-top:1px dashed var(--line);padding-top:8px}
 .ar-sc{font-family:var(--f-mono);font-size:.8rem;font-weight:700;color:var(--bad)}
 .ar-sc.ok{color:var(--good)}
+.ar-role{font-size:.8em;margin-left:4px}
+.ar-leg{display:flex;flex-wrap:wrap;gap:10px;font-size:.78rem;color:var(--muted);margin:6px 0}
+.ar-fls{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.ar-flb.on{opacity:.6}
+.ar-isflip{border-left:3px solid var(--accent,#7c5cff);margin-left:10px}
+.ar-flip{font-weight:700;font-size:.85rem;margin:4px 0}
 .ar-key{margin:4px 0;font-weight:600}
 .ar-why{margin:6px 0 0}
 .ar.flash,.hw.flash{animation:flash 2.2s ease-out}
@@ -1751,7 +1757,7 @@ html .seg{max-width:100%;min-width:0;overflow-x:auto;scrollbar-width:none}html .
 </script>
 <header class="top">
   <button class="iconbtn menu-btn" id="menuBtn" aria-label="Open chapters">☰</button>
-  <button class="brand" id="homeBtn" aria-label="medengine-STUDY home"><span class="bill">m</span><span class="word">medengine-STUDY</span><small>v3.3.5</small></button>
+  <button class="brand" id="homeBtn" aria-label="medengine-STUDY home"><span class="bill">m</span><span class="word">medengine-STUDY</span><small>v3.4.0</small></button>
   <a class="oscelink" href="osce.html" title="Open medengine-OSCE: stations, exams, DOPS, AI patient"><span class="od">m</span>medengine-OSCE ↗</a>
   <div class="search-wrap">
     <svg class="search-ico" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8.5" cy="8.5" r="6"/><path d="m13 13 5 5"/></svg>
@@ -5022,6 +5028,7 @@ html .seg{max-width:100%;min-width:0;overflow-x:auto;scrollbar-width:none}html .
 (function(){
 'use strict';
 const D = JSON.parse(document.getElementById('qqdata').textContent);
+const PACK = window.MEDENGINE_PACK || {id: 'study'}, HIDE_NAV = new Set(PACK.hideNav || []), EXT_VIEWS = {}, EXT_NAV = [], EXT = {};
 const PAGES = D.pages, POOLS = D.pools, GLOSS = D.gloss, WEEKS = D.weeks, UNITS = D.units, SRC = D.src || {}, FW = D.fw || [], WHY = D.why || [];
 const fwById = Object.fromEntries(FW.map(f => [f.id, f]));
 const byN = new Map(PAGES.map(p => [p.n, p]));
@@ -5340,13 +5347,18 @@ const ARF = [...new Set(AR.map(a => a.f))];
 const arHue = f => Math.round((ARF.indexOf(f) * 360 / Math.max(1, ARF.length) + 15) % 360);
 const ARSYM = {'↑': 'up', '↓': 'down', '↔': 'no change'};
 let arFilter = '', arRand = null, pendingFlash = null;
+const ARROLE = {p: ['🔴', 'Primary insult'], k: ['🟡', 'Knock-on'], c: ['🟢', 'Compensation']};
+function arItem(key){
+  const [i, f] = String(key).split('~'), a = AR[+i]; if (!a) return null; if (f == null) return a;
+  const x = (a.fl || [])[+f]; return x ? Object.assign({}, a, {id: a.id + '~' + f, s: x.s, v: x.v, r: x.r || a.r, k: x.k, m: x.m || [], uk: x.uk || '', fl: [], flip: x.t}) : null;
+}
 function arHtml(i){
-  const a = AR[i]; if (!a) return '';
-  return '<div class="ar" data-ari="' + i + '"><div class="ar-h"><span class="code" style="--h:' + arHue(a.f) + '">↕ ' + esc(a.f) + '</span>' + (S.ar[a.id] === 1 ? '<span class="ar-done" title="All arrows right last time">✓</span>' : '') + '<span class="grow"></span><button class="btn ghost sm" data-arreset="' + i + '" hidden>↺ Again</button></div>' +
-    '<div class="ar-s">' + fmtRich(a.s) + '</div><div class="ar-rows">' + a.v.map((v, j) => '<div class="ar-r"><span class="ar-n">' + esc(v[0]) + '</span><span class="ar-bs">' + ['↑', '↓', '↔'].map(sy => '<button class="ar-b" data-arp="' + i + '|' + j + '|' + sy + '" aria-label="' + esc(v[0]) + ': ' + ARSYM[sy] + '">' + sy + '</button>').join('') + '</span></div>').join('') + '</div><div class="ar-k" hidden></div></div>';
+  const a = arItem(i); if (!a) return '';
+  return '<div class="ar' + (a.flip ? ' ar-isflip' : '') + '" data-ari="' + i + '"><div class="ar-h"><span class="code" style="--h:' + arHue(a.f) + '">↕ ' + esc(a.f) + '</span>' + (S.ar[a.id] === 1 ? '<span class="ar-done" title="All arrows right last time">✓</span>' : '') + '<span class="grow"></span><button class="btn ghost sm" data-arreset="' + i + '" hidden>↺ Again</button></div>' +
+    (a.flip ? '<div class="ar-flip">🔀 ' + esc(a.flip) + '</div>' : '') + '<div class="ar-s">' + fmtRich(a.s) + '</div><div class="ar-rows">' + a.v.map((v, j) => '<div class="ar-r"><span class="ar-n">' + esc(v[0]) + '</span><span class="ar-bs">' + ['↑', '↓', '↔'].map(sy => '<button class="ar-b" data-arp="' + i + '|' + j + '|' + sy + '" aria-label="' + esc(v[0]) + ': ' + ARSYM[sy] + '">' + sy + '</button>').join('') + '</span></div>').join('') + '</div><div class="ar-k" hidden></div></div>';
 }
 function answerAr(t){
-  const [i, j, sy] = t.dataset.arp.split('|'), a = AR[+i], box = t.closest('.ar'), row = t.closest('.ar-r');
+  const [i, j, sy] = t.dataset.arp.split('|'), a = arItem(i), box = t.closest('.ar'), row = t.closest('.ar-r');
   if (!a || row.classList.contains('done')) return;
   const ans = a.v[+j][1], ok = ans.includes(sy);
   row.classList.add('done', ok ? 'ok' : 'bad');
@@ -5358,11 +5370,20 @@ function answerAr(t){
   S.ar[a.id] = all ? 1 : 0; save();
   const units = route.view === 'fw' ? [...new Set(a.u)] : [];
   const k = $('.ar-k', box);
+  if (a.r) rows.forEach((r, j2) => { const ro = ARROLE[a.r[j2]]; if (ro) { r.classList.add('ar-' + a.r[j2]); const n0 = $('.ar-n', r); if (n0 && !$('.ar-role', r)) n0.insertAdjacentHTML('beforeend', ' <span class="ar-role" title="' + ro[1] + '">' + ro[0] + '</span>'); } });
   k.innerHTML = '<div class="ar-sc' + (all ? ' ok' : '') + '">' + right + ' / ' + n + (all ? ' · nailed it' : ' · read the why') + '</div><div class="ar-key">🔑 ' + fmtRich(a.k) + '</div>' +
+    (a.r ? '<div class="ar-leg">' + Object.entries(ARROLE).filter(([c]) => a.r.includes(c)).map(([c, v]) => '<span>' + v[0] + ' ' + v[1] + '</span>').join('') + '</div>' : '') +
     ((a.m.length || a.uk) ? '<details class="whyc ar-why"' + (all ? '' : ' open') + '><summary>💡 Logic</summary><div class="wa">' + a.m.map(l => '<div class="wl">' + fmtRich(l) + '</div>').join('') + (a.uk ? '<div class="wl wk">🇬🇧 ' + fmtRich(a.uk) + '</div>' : '') + '</div></details>' : '') +
     (units.length ? '<div class="fw-u">' + units.map(ui => '<button class="ulink" data-u="' + ui + '" data-mode="think">↗ ' + esc(UNITS[ui].name) + '</button>').join('') + '</div>' : '');
+  if ((a.fl || []).length) k.insertAdjacentHTML('beforeend', '<div class="ar-fls">' + a.fl.map((x, f) => '<button class="btn sm ar-flb" data-arflip="' + i + '~' + f + '">🔀 ' + esc(x.t) + '</button>').join('') + '</div>');
   k.hidden = false; $('[data-arreset]', box).hidden = false;
 }
+document.addEventListener('click', e => {
+  const b = e.target.closest && e.target.closest('[data-arflip]'); if (!b) return;
+  const box = b.closest('.ar'), key = b.dataset.arflip, open = box.parentNode.querySelector('.ar[data-ari="' + key + '"]');
+  if (open) { open.scrollIntoView({block: 'nearest', behavior: 'smooth'}); return; }
+  box.insertAdjacentHTML('afterend', arHtml(key)); b.classList.add('on');
+});
 const hwType = x => x[0] === '!' ? 'trap' : x[0] === 'uk' ? 'uk' : x[0] === 'hk' ? 'hk' : 'q';
 const HWTAG = {trap: '⚠️ Trap', uk: '🇬🇧 US vs UK', hk: '🪝 Hook'};
 function huntHtml(ids){
@@ -5615,7 +5636,7 @@ function fromHash(){
   if (mf) return {view: 'fw', id: mf[1]};
   if (m && UNITS[+m[1]]) return {view: 'unit', u: +m[1], mode: m[2]};
   const mp = h.match(/^mp-([\w-]+)$/); if (mp && (D.master || []).some(x => x.id === mp[1])) return {view: 'mp', id: mp[1]};
-  if (['sprint','weak','gloss','all','home','sniper','vault','visual','jargon','remix','why','act','misses','snap','posters','sketchy','triggers','hammer','leaderboard'].includes(h)) return {view: h};
+  if (['sprint','weak','gloss','all','home','sniper','vault','visual','jargon','remix','why','act','misses','snap','posters','sketchy','triggers','hammer','leaderboard'].includes(h) || EXT_VIEWS[h]) return {view: h};
   return {view: 'home'};
 }
 
@@ -5631,8 +5652,9 @@ let openWk = new Set();
 function renderSide(){
   const weakN = Object.keys(S.weak).length;
   let h = '<div class="quick">';
-  h += qb('home', '🏠', 'Dashboard') + qb('leaderboard', '🏆', 'Leaderboard') + qb('sprint', '⚡', 'Sprint mode') + qb('hammer', '🔨', 'Hammer SBAs', hqCount()) + qb('triggers', '🧲', 'Triggers', trgCount()) + qb('posters', '🗺️', 'Posters', (D.master || []).length + new Set(Object.values(D.snap || {}).map(x => x.n)).size) + qb('sketchy', '🎬', 'Visual scenes', new Set(Object.values(D.snap || {}).map(x => x.n)).size) + qb('remix', '🔄', 'Remix a missed question') + qb('why', '🧬', 'Why it happens', ROOTS.length) + qb('act', '⚡', 'First move vs cure', ACTS.length) + qb('misses', '🔥', 'My misses', msLoad().items.filter(x => !x.fixed).length || null) + qb('sniper', '🎯', 'Blind clincher sniper') + qb('weak', '♻️', 'Weak spots', weakN) + qb('fw', '🧠', 'Frameworks · ↕ · 🔎', FW.length) + qb('all', '📖', 'All ILO notes on one page') + qb('gloss', '🔤', 'Abbreviations', GLOSS.length) + qb('visual', '👁️', 'Visual showdowns', MEV.SD.length) + qb('jargon', '🔺', 'Jargon decoder', JG.length) + qb('vault', '📋', 'Screenshot vault', shotsCache ? shotsCache.length : 0);
-  h += '</div>' + jumpHtml() + '<h4>' + (S.set.sys || S.set.spd ? [S.set.sys ? esc(MEV.sysLabel(S.set.sys)) : '', S.set.spd && SPD[S.set.spd] ? SPD[S.set.spd][0] + ' ' + esc(SPD[S.set.spd][1]) : ''].filter(Boolean).join(' · ') + ' · ' + UNITS.filter(u => (!S.set.sys || usys(u) === S.set.sys) && (!S.set.spd || u.spd === S.set.spd)).length : 'ILO weeks · ' + UNITS.length) + ' conditions</h4>';
+  const extNav = pos => EXT_NAV.filter(x => x[0] === pos).map(x => qb(x[1], x[2], x[3], x[4] ? x[4]() : null)).join('');
+  h += qb('home', '🏠', 'Dashboard') + extNav('top') + qb('leaderboard', '🏆', 'Leaderboard') + qb('sprint', '⚡', 'Sprint mode') + qb('hammer', '🔨', 'Hammer SBAs', hqCount()) + qb('triggers', '🧲', 'Triggers', trgCount()) + qb('posters', '🗺️', 'Posters', (D.master || []).length + new Set(Object.values(D.snap || {}).map(x => x.n)).size) + qb('sketchy', '🎬', 'Visual scenes', new Set(Object.values(D.snap || {}).map(x => x.n)).size) + qb('remix', '🔄', 'Remix a missed question') + qb('why', '🧬', 'Why it happens', ROOTS.length) + qb('act', '⚡', 'First move vs cure', ACTS.length) + qb('misses', '🔥', 'My misses', msLoad().items.filter(x => !x.fixed).length || null) + qb('sniper', '🎯', 'Blind clincher sniper') + qb('weak', '♻️', 'Weak spots', weakN) + qb('fw', '🧠', 'Frameworks · ↕ · 🔎', FW.length) + qb('all', '📖', 'All ILO notes on one page') + qb('gloss', '🔤', 'Abbreviations', GLOSS.length) + qb('visual', '👁️', 'Visual showdowns', MEV.SD.length) + qb('jargon', '🔺', 'Jargon decoder', JG.length) + qb('vault', '📋', 'Screenshot vault', shotsCache ? shotsCache.length : 0);
+  h += extNav('end') + '</div>' + jumpHtml() + '<h4>' + (S.set.sys || S.set.spd ? [S.set.sys ? esc(MEV.sysLabel(S.set.sys)) : '', S.set.spd && SPD[S.set.spd] ? SPD[S.set.spd][0] + ' ' + esc(SPD[S.set.spd][1]) : ''].filter(Boolean).join(' · ') + ' · ' + UNITS.filter(u => (!S.set.sys || usys(u) === S.set.sys) && (!S.set.spd || u.spd === S.set.spd)).length : 'ILO weeks · ' + UNITS.length) + ' conditions</h4>';
   WEEKS.forEach((w, wi) => {
     const us = unitsOf(w.id).filter(u => (!S.set.sys || usys(u) === S.set.sys) && (!S.set.spd || u.spd === S.set.spd)), open = openWk.has(w.id) || !!S.set.sys || !!S.set.spd;
     if (!us.length) return;
@@ -5641,7 +5663,7 @@ function renderSide(){
     h += '</div></div>';
   });
   $('#side').innerHTML = h;
-  function qb(v, ico, label, n){ return '<button class="qbtn' + (route.view === v ? ' on' : '') + '" data-go="' + v + '"><span>' + ico + '</span>' + label + (n != null ? '<span class="n">' + n + '</span>' : '') + '</button>'; }
+  function qb(v, ico, label, n){ if (HIDE_NAV.has(v)) return ''; return '<button class="qbtn' + (route.view === v ? ' on' : '') + '" data-go="' + v + '"><span>' + ico + '</span>' + label + (n != null ? '<span class="n">' + n + '</span>' : '') + '</button>'; }
 }
 function effectiveTheme(){
   const dt = document.documentElement.dataset.theme;
@@ -5715,6 +5737,7 @@ function render(){
   else if (route.view === 'mp') viewMaster(m);
   else if (route.view === 'triggers') viewTriggers(m);
   else if (route.view === 'hammer') viewHammer(m);
+  else if (EXT_VIEWS[route.view]) EXT_VIEWS[route.view](m);
   else if (route.view === 'leaderboard' && typeof viewLeaderboard === 'function') viewLeaderboard(m);
 }
 function viewHome(){
@@ -5728,6 +5751,7 @@ function viewHome(){
   if (last) h += '<button class="btn primary" data-u="' + last.i + '" data-mode="' + (S.last.mode || 'fill') + '" style="flex-shrink:0">Continue →</button>';
   h += '</div><div class="hero-btns">';
   h += '<button class="btn" data-go="sprint">⚡ 5‑min sprint</button><button class="btn" data-rand="1">🎲 Random condition</button><button class="btn" data-go="hammer">🔨 Hammer SBAs</button><button class="btn" data-go="leaderboard">🏆 Leaderboard</button><button class="btn" data-acct-open="1">👤 Account & Friends</button><button class="btn" data-go="triggers">🧲 Triggers</button><button class="btn" data-go="posters">🗺️ Posters</button><button class="btn" data-go="sketchy">🎬 Scenes</button><button class="btn" data-go="sniper">🎯 Blind sniper</button><button class="btn" data-go="visual">👁️ Visual showdowns</button><button class="btn" data-go="jargon">🔺 Jargon decoder</button><button class="btn" data-go="remix">🔄 Remix</button><button class="btn" data-go="why">🧬 Why it happens</button><button class="btn" data-go="act">⚡ First move vs cure</button><button class="btn" data-go="misses">🔥 My misses</button></div></section>';
+  if (EXT.homeTop) h += EXT.homeTop();
   h += '<div class="tiles">' + '<div class="tile shop-tile" data-act="open-shop" role="button" tabindex="0" title="Open Bounty Armoury to spend your ฿"><div class="v">฿ ' + (S.xp || 0).toLocaleString('en-GB') + '</div><div class="l">Bounty earned · 🛒 Armoury</div></div>' + tile(dayStreak() + ' 🔥', 'Day streak') + tile(touched + '/' + real.length, 'Conditions touched') + tile(mastered, 'Conditions mastered') + tile(mt ? Math.round(mr / mt * 100) + '%' : '–', 'MCQ accuracy') + tile(Object.keys(S.weak).length, 'Weak spots queued') + '</div>';
   h += homeSysHtml();
   h += '<div class="crumbs" style="justify-content:space-between"><h2>Your ILO weeks</h2><span class="hint">Green dot = mastered (≥80% on 8+ MCQs, or 90% of drop-downs right)</span></div><div class="chgrid">';
@@ -5737,6 +5761,7 @@ function viewHome(){
     h += '<button class="chcard" style="--h:' + wkHue[w.id] + '" data-wkopen="' + w.id + '"><span class="top2"><span class="dot"></span>' + esc(w.name) + '</span><span class="progress"><i style="width:' + Math.round(wkProgress(w.id) * 100) + '%"></i></span><span class="meta"><span>' + us.length + ' conditions</span><span>' + t + ' touched' + (wSt && wSt.done ? ' · 🔨 ' + wSt.pct + '%' : '') + '</span></span></button>';
   });
   h += '</div><p class="hint">Press <span class="kbd">/</span> or <span class="kbd">⌘F</span> to search every ILO condition, every line of the notes and the posters. Press <span class="kbd">⌘F</span> twice for the browser\'s own find.</p></div>';
+  if (HIDE_NAV.size) h = h.replace(/<button class="btn" data-go="([a-z]+)">[^<]*<\/button>/g, (x, v) => HIDE_NAV.has(v) ? '' : x);
   return h;
   function tile(v, l){ return '<div class="tile"><div class="v">' + v + '</div><div class="l">' + l + '</div></div>'; }
 }
@@ -5754,10 +5779,11 @@ function unitHeader(u, mode){
   h += '<h1>' + esc(u.name) + '</h1>';
   const ps = unitPages(u), qq = ps.filter(p => !p.sup), os = [];
   ps.filter(p => p.sup).forEach(p => { const m = (p.src || '').match(/OSTS p\.([\d\-, ]+)/); if (m) m[1].split(',').forEach(part => { const [a, b] = part.trim().split('-').map(Number); for (let k = a; k <= (b || a); k++) if (k && !os.includes(k)) os.push(k); }); });
-  if (qq.length || os.length) h += '<div class="srcs"><span class="hint">Original pages:</span>' + qq.map(p => '<button class="src" data-fig="' + p.n + '" title="' + esc(p.title) + '">🖼 QQ ' + esc(p.code) + '</button>').join('') + os.map(n => '<button class="src sup" data-osts="' + n + '" title="One Salty Two Sweet, PDF page ' + n + '">📗 OSTS p.' + n + '</button>').join('') + '</div>';
+  if (!PACK.noFig && (qq.length || os.length)) h += '<div class="srcs"><span class="hint">Original pages:</span>' + qq.map(p => '<button class="src" data-fig="' + p.n + '" title="' + esc(p.title) + '">🖼 QQ ' + esc(p.code) + '</button>').join('') + os.map(n => '<button class="src sup" data-osts="' + n + '" title="One Salty Two Sweet, PDF page ' + n + '">📗 OSTS p.' + n + '</button>').join('') + '</div>';
   if (u.sup) h += '<p class="hint" style="margin:0">Green <b>OSTS</b> cards were written from One Salty Two Sweet in Quack Quack style to cover gaps in your ILOs.</p>';
   if (u.note) h += '<div class="note">' + esc(u.note) + '</div>';
-  h += '<div class="srcs"><a class="src" style="text-decoration:none;color:var(--ink)" href="osce.html#u' + u.i + '">🩺 medengine-OSCE pack and stations for this ILO ↗</a></div>';
+  if (!PACK.noOsce) h += '<div class="srcs"><a class="src" style="text-decoration:none;color:var(--ink)" href="osce.html#u' + u.i + '">🩺 medengine-OSCE pack and stations for this ILO ↗</a></div>';
+  if (EXT.unitTop) h += EXT.unitTop(u);
   h += extHeader(u) + hqUnitBtn(u) + (typeof discBoxHtml === 'function' ? discBoxHtml('u:' + u.i, u.name, u.i) : '');
   if ((u.ck || []).length) h += keyHtml(u);
   if (u.refs.length) h += '<div class="tabs" role="tablist">' + [['fill','✍️ Fill blanks','F'],['mcq','🎯 SBA / MCQ','M'],['recall','🃏 Recall cards','C'],['read','📖 Read','R'],['think','🧠 Think','T']].map(([k, l, kb]) => '<button class="tab' + (mode === k ? ' on' : '') + '" role="tab" aria-selected="' + (mode === k) + '" data-mode-to="' + k + '">' + l + ' <span class="kbd">' + kb + '</span></button>').join('') + '</div>';
@@ -5769,6 +5795,7 @@ let fillState = {};
 function viewUnit(m){
   const u = UNITS[route.u], mode = route.mode;
   let h = '<div class="wrap">' + unitHeader(u, mode);
+  if (!u.refs.length && EXT.unitEmpty) { m.innerHTML = h + EXT.unitEmpty(u) + '</div>'; return; }
   if (!u.refs.length) { m.innerHTML = h + '<div class="panel empty">Nothing in the Quack Quack notes for this one, so there is nothing to drill here. Revise it from your teaching materials.</div></div>'; return; }
   if (mode === 'read') { m.innerHTML = h + '<div class="topics">' + unitTopicsHtml(u, 'read') + '</div></div>'; return; }
   if (mode === 'think') { m.innerHTML = h + viewThink(u) + '</div>'; return; }
@@ -6035,7 +6062,7 @@ function drawArList(){
   $$('#arChips button').forEach(b => b.classList.toggle('on', !arRand && (b.dataset.arf || '') === arFilter));
 }
 function viewFw(m){
-  const tab = route.id === 'arrows' ? 'arrows' : route.id === 'hunt' ? 'hunt' : route.id === 'cases' ? 'cases' : 'trees';
+  const tab = route.id === 'arrows' ? 'arrows' : route.id === 'hunt' ? 'hunt' : route.id === 'cases' ? 'cases' : FW.length ? 'trees' : 'arrows';
   if (tab === 'cases') {
     const done = CASES.filter(c => S.oc[c.id] === 1).length;
     let h = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code" style="--h:160">🩺 Oxford cases</span><span>' + done + ' / ' + CASES.length + ' SBAs right</span></div><h1>Cases by presenting complaint</h1><p class="hint" style="margin:0">Pick a complaint, open a patient, answer each step before you tap. Every case ends with one SBA and links back to the ILO it belongs to. 🧬 roots at the bottom explain the pathology underneath (Pathoma).</p>' + fwTabs(tab) + '</div>';
@@ -11692,6 +11719,12 @@ document.addEventListener('input', e => {
   }
 });
 
+window.ME = {PACK, D, UNITS, WEEKS, EXT, esc, toast, get S(){ return S; }, get route(){ return route; },
+  save: () => save(), go: (r, p) => go(r, p), render: () => render(), fmtRich: t => fmtRich(t), addXp: n => addXp(n),
+  hqItem: id => hqItem(id), hqAll: () => hqAll(), hqNewRun: (l, t, c) => hqNewRun(l, t, c), arHtml: k => arHtml(k), huntHtml: ids => huntHtml(ids),
+  hqStem: it => hqStem(it), hqResume: rid => hqResume(rid), hqRuns: () => hqRuns(), tmHtml: it => tmHtml(it), refRanges: HQ_REF_RANGES,
+  view: (name, fn) => { EXT_VIEWS[name] = fn; }, nav: (pos, v, ico, label, n) => { EXT_NAV.push([pos, v, ico, label, n]); }};
+(window.ME_EXT || []).forEach(f => { try { f(window.ME); } catch (e) { console.error('pack add-on failed', e); } });
 go(fromHash(), false);
 })();
 </script>

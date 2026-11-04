@@ -1,0 +1,58 @@
+# medengine-STEP1 US abbreviations and terms with the UK equivalent. ABBR | meaning
+ED | Emergency department (UK: A&E)
+ER | Emergency room (UK: A&E)
+ICU | Intensive care unit (UK: ITU or ICU)
+OR | Operating room (UK: theatre)
+PCP | Primary care physician (UK: GP); also Pneumocystis pneumonia
+NP | Nurse practitioner (UK: advanced nurse practitioner)
+PA | Physician assistant (UK: physician associate)
+EKG | Electrocardiogram (UK: ECG)
+CBC | Complete blood count (UK: FBC)
+BMP | Basic metabolic panel: Na⁺, K⁺, Cl⁻, HCO₃⁻, BUN, creatinine, glucose (UK: U&E plus glucose)
+CMP | Comprehensive metabolic panel: BMP plus liver tests, protein and calcium (UK: U&E, LFTs and bone profile)
+BUN | Blood urea nitrogen in mg/dL (UK: urea in mmol/L, BUN × 0.357)
+UA | Urinalysis (UK: urine dipstick and microscopy)
+PPD | Purified protein derivative skin test for TB (UK: Mantoux test)
+CVA | Cerebrovascular accident, a stroke; also costovertebral angle
+CVA tenderness | Costovertebral angle tenderness (UK: renal angle tenderness)
+HPI | History of present illness (UK: history of presenting complaint)
+ROS | Review of systems (UK: systems review)
+s/p | Status post: after a procedure or event
+WNL | Within normal limits
+NPO | Nothing by mouth (UK: NBM)
+q.d. | Once daily (UK: od)
+b.i.d. | Twice daily (UK: bd)
+t.i.d. | Three times daily (UK: tds)
+q.i.d. | Four times daily (UK: qds)
+PRN | As needed (UK: prn)
+OTC | Over the counter
+GERD | Gastroesophageal reflux disease (UK: GORD)
+OCP | Oral contraceptive pill (UK: COCP)
+STD | Sexually transmitted disease (UK: STI)
+IVDU | Intravenous drug use (UK: people who inject drugs)
+EtOH | Alcohol (ethanol)
+DNR | Do not resuscitate (UK: DNACPR)
+POA | Power of attorney (UK: lasting power of attorney)
+Medicare | US federal insurance for people 65 and over and some with disabilities
+Medicaid | US state and federal insurance for people on low incomes
+Tdap | Tetanus, diphtheria and acellular pertussis booster
+Acetaminophen | Paracetamol (UK)
+Albuterol | Salbutamol (UK)
+Epinephrine | Adrenaline (UK)
+Norepinephrine | Noradrenaline (UK)
+Isoproterenol | Isoprenaline (UK)
+Meperidine | Pethidine (UK)
+Glyburide | Glibenclamide (UK)
+Rifampin | Rifampicin (UK)
+Cyclosporine | Ciclosporin (UK)
+Hydrochlorothiazide | The US go-to thiazide (UK: bendroflumethiazide or indapamide)
+Lidocaine | Lidocaine (UK name too; formerly lignocaine)
+Tylenol | Brand of acetaminophen (paracetamol)
+Coumadin | Brand of warfarin
+Lasix | Brand of furosemide
+mEq/L | Milliequivalents per liter: equal to mmol/L for Na⁺, K⁺, Cl⁻ and HCO₃⁻
+mg/dL | Milligrams per deciliter: the US mass unit (UK uses mmol/L or µmol/L)
+°F | Fahrenheit: (°F − 32) × 5/9 = °C; 100.4°F is 38°C
+lb | Pound: kg = lb ÷ 2.2
+in | Inch: 2.54 cm
+mm Hg | Millimeters of mercury (UK gases read in kPa: ÷ 7.5)

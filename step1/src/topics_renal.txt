@@ -1,0 +1,157 @@
+# medengine-STEP1 pilot system: renal, acid-base and electrolytes. Same format as topics_foundations.txt.
+# Every topic here also has HY cloze notes (notes_renal.txt), questions (sba_renal.txt) and arrows (arrows_renal.txt).
+
+@ renal | Renal, acid-base & electrolytes | Renal
+# Renal embryology and anatomy | renal, embryo
+! **Flat face, limb deformities and small lungs** in a newborn | Potter sequence: oligohydramnios from bilateral renal agenesis or ARPKD
+! Kidney trapped **under the inferior mesenteric artery** | Horseshoe kidney: Turner syndrome and trisomies
+! Fetal hydronephrosis at the **commonest site of obstruction** | Ureteropelvic junction: the last part of the ureter to canalise
+! Ureter injured when the **uterine artery** is tied in a hysterectomy | Water under the bridge: the ureter runs beneath the uterine artery and vas deferens
+! **Unilateral nonhereditary cysts** with no working kidney tissue | Multicystic dysplastic kidney: ureteric bud and metanephric mesenchyme fail to talk
+! **Left renal vein** squeezed between the aorta and the SMA | Nutcracker syndrome: haematuria and a left varicocele
+# Glomerular filtration and clearance | renal, physio
+! **Inulin** clearance | GFR: filtered, never reabsorbed or secreted
+! **PAH** clearance | Effective renal plasma flow: filtered and secreted
+! **Filtration fraction** | GFR ÷ RPF: normally about 20%
+! **Afferent arteriole** constricts | GFR and RPF both fall; filtration fraction unchanged
+! **Efferent arteriole** constricts with angiotensin II | GFR rises, RPF falls, filtration fraction rises
+! **NSAIDs** in a dehydrated patient | AKI: prostaglandins can no longer dilate the afferent arteriole
+! **ACE inhibitor** with bilateral renal artery stenosis | GFR collapses: efferent tone was holding filtration up
+# Proximal convoluted tubule | renal, physio
+! Reabsorbs **65 to 80%** of filtered Na⁺ and water | PCT: isotonic reabsorption
+! **Glucose in urine** above a plasma level of about 200 mg/dL | Threshold for glucosuria; all transporters saturate near 375 mg/dL
+! **Glucosuria with normal blood glucose**, aminoaciduria, phosphaturia | Fanconi syndrome: generalised PCT failure
+! **Angiotensin II** acts on the PCT | Na⁺/H⁺ exchange: contraction alkalosis
+! **PTH** acts on the PCT | Blocks Na⁺/phosphate cotransport: phosphaturia
+! Makes **ammonia from glutamine** | PCT: ammoniagenesis rises in chronic acidosis
+# Loop of Henle and Bartter syndrome | renal, physio
+! **Thin descending limb** | Reabsorbs water only: urine concentrates
+! **Thick ascending limb** | NKCC2 pump; impermeable to water; Mg²⁺ and Ca²⁺ follow paracellularly
+! **Lumen-positive potential** in the thick ascending limb | K⁺ back-leak through ROMK drives paracellular Mg²⁺ and Ca²⁺ reabsorption
+! Child with **hypokalaemic metabolic alkalosis and high urine calcium** | Bartter syndrome: acts like a loop diuretic
+# Distal tubule, collecting duct, Gitelman and Liddle | renal, physio
+! **Distal convoluted tubule** | NCC (Na⁺/Cl⁻) pump; PTH adds Ca²⁺ reabsorption here
+! Adult with **hypokalaemia, low magnesium and low urine calcium** | Gitelman syndrome: acts like a thiazide
+! **Principal cells** | ENaC takes Na⁺ in, ROMK sends K⁺ out; aldosterone and ADH act here
+! **Alpha-intercalated cells** | Secrete H⁺, reclaim HCO₃⁻
+! **Hypertension, hypokalaemia, low renin and low aldosterone**, family history | Liddle syndrome: gain-of-function ENaC; treat with amiloride
+! Same picture after **liquorice** | Apparent mineralocorticoid excess: 11β-HSD2 blocked, cortisol hits the aldosterone receptor
+# Renin-angiotensin-aldosterone and renal hormones | renal, endo
+! **Juxtaglomerular cells** release renin | Low perfusion pressure, sympathetic β1 drive, low NaCl at the macula densa
+! **Angiotensin II** | Efferent constriction, aldosterone, ADH, thirst, PCT Na⁺/H⁺ exchange, vasoconstriction
+! **ANP and BNP** from stretched heart chambers | Natriuresis: dilate the afferent arteriole, inhibit renin and aldosterone
+! **Erythropoietin** source | Interstitial cells near the peritubular capillaries, released in hypoxia
+! **1α-hydroxylase** in the PCT | Makes calcitriol; stimulated by PTH and low phosphate
+! **No oedema** despite high aldosterone | Aldosterone escape: pressure natriuresis and ANP
+# Diuretics | renal, pharm
+! **Altitude sickness, glaucoma**, idiopathic intracranial hypertension | Acetazolamide: carbonic anhydrase inhibitor, hyperchloraemic metabolic acidosis
+! **Ototoxicity**, hypokalaemia, hypocalcaemia | Loop diuretics: furosemide; ethacrynic acid if sulfa allergy
+! **Hypercalcaemia, hyperglycaemia, hyperuricaemia**, hyponatraemia | Thiazides: also prevent calcium stones and treat nephrogenic DI
+! **Gynaecomastia** on a K⁺-sparing diuretic | Spironolactone: eplerenone avoids it
+! **Pulmonary oedema** after an osmotic diuretic in heart failure | Mannitol: expands plasma volume first
+! Diuretics that cause **metabolic alkalosis** | Loops and thiazides: contraction, K⁺ loss, H⁺ loss
+# Metabolic acidosis and the anion gap | renal, physio
+! **Anion gap** | Na⁺ minus (Cl⁻ + HCO₃⁻): normal about 8 to 12 mEq/L
+! **Raised anion gap** | MUDPILES: methanol, uraemia, DKA, propylene glycol, iron or isoniazid, lactate, ethylene glycol, salicylates
+! **Normal anion gap**, hyperchloraemic | HARDASS: hyperalimentation, Addison, RTA, diarrhoea, acetazolamide, spironolactone, saline
+! **Envelope crystals and AKI** after drinking antifreeze | Ethylene glycol: fomepizole blocks alcohol dehydrogenase
+! **Blurred vision** after homemade spirits | Methanol: formic acid attacks the optic nerve
+! **Winter formula** | Expected PaCO₂ = 1.5 × HCO₃⁻ + 8 ± 2
+! **Negative urine anion gap** in a normal-gap acidosis | Diarrhoea: the kidneys are excreting NH₄⁺ properly
+# Metabolic alkalosis | renal, physio
+! **Urine chloride low** (under 20 mEq/L) | Saline-responsive: vomiting, nasogastric suction, past diuretic use
+! **Urine chloride high** with hypertension | Mineralocorticoid excess: Conn, Cushing, Liddle
+! **Urine chloride high** with normal blood pressure | Current diuretics, Bartter, Gitelman
+! **Acidic urine** despite alkalaemia after vomiting | Paradoxical aciduria: aldosterone and low K⁺ make the kidney swap H⁺ for Na⁺
+! **Calcium carbonate** antacids by the handful | Milk-alkali syndrome: hypercalcaemia, alkalosis, AKI
+# Respiratory acid-base disorders and compensation | renal, resp
+! **Respiratory acidosis** | Hypoventilation: opioids, COPD, neuromuscular weakness, obesity hypoventilation
+! **Respiratory alkalosis** | Hyperventilation: anxiety, altitude, early salicylates, PE, pregnancy
+! **Acute** respiratory acidosis | HCO₃⁻ rises about 1 mEq/L per 10 mmHg PaCO₂
+! **Chronic** respiratory acidosis | HCO₃⁻ rises about 3.5 mEq/L per 10 mmHg PaCO₂
+! **Metabolic alkalosis** compensation | PaCO₂ rises about 0.7 mmHg per 1 mEq/L HCO₃⁻
+! **Normal pH** with abnormal PaCO₂ and HCO₃⁻ | Mixed disorder: compensation never overshoots
+# Renal tubular acidosis | renal, physio
+! **Urine pH above 5.5**, hypokalaemia, calcium phosphate stones | Type 1, distal: alpha-intercalated cells cannot secrete H⁺
+! Causes of **distal** RTA | Amphotericin B, Sjögren, SLE, urinary tract obstruction
+! **Urine pH below 5.5 once HCO₃⁻ runs low**, hypokalaemia, rickets | Type 2, proximal: the PCT cannot reclaim HCO₃⁻
+! Causes of **proximal** RTA | Fanconi syndrome, acetazolamide, multiple myeloma
+! **Hyperkalaemia** with a normal anion gap acidosis | Type 4: low aldosterone or resistance; high K⁺ blocks ammoniagenesis
+# Potassium | renal, physio
+! Drives **K⁺ into cells** | Insulin, β2 agonists, alkalosis
+! Pulls **K⁺ out of cells** | Insulin lack, acidosis, digoxin, β-blockers, hyperosmolarity, cell lysis, succinylcholine
+! **Peaked T waves** and widening QRS | Hyperkalaemia: IV calcium first to protect the heart
+! **U waves**, flat T waves, cramps | Hypokalaemia
+! Hypokalaemia that **will not correct** | Low magnesium: replace Mg²⁺ first
+# Sodium and water | renal, endo
+! Low sodium **corrected too fast** | Osmotic demyelination: from low to high, the pons will die
+! High sodium **corrected too fast** | Cerebral oedema: from high to low, the brain will blow
+! **Euvolaemic** hyponatraemia, urine osmolality high | SIADH; rule out hypothyroidism and adrenal insufficiency
+! **Hypovolaemic** hyponatraemia, urine Na⁺ under 20 mEq/L | Extrarenal loss: vomiting, diarrhoea, burns
+! **Hypervolaemic** hyponatraemia | Heart failure, cirrhosis, nephrotic syndrome
+! **Very dilute urine** and low serum osmolality | Primary polydipsia
+# Calcium, phosphate and magnesium | renal, endo
+! **Carpopedal spasm** when the BP cuff inflates | Trousseau sign: hypocalcaemia
+! **Corrected calcium** | Add 0.8 mg/dL for every 1 g/dL that albumin sits below 4
+! **Lost reflexes** on a magnesium infusion | Hypermagnesaemia: respiratory depression and arrest come next
+! **Low magnesium** | Low PTH release and action: hypocalcaemia and hypokalaemia
+! **High phosphate** in CKD | Binds Ca²⁺ and blocks 1α-hydroxylase: secondary hyperparathyroidism
+! Feeding after **starvation** | Refeeding syndrome: low phosphate, potassium and magnesium
+# Nephritic syndrome | renal, path
+! **Cola-coloured urine 2 to 3 weeks after impetigo or a sore throat**, low C3 | Poststreptococcal GN: subepithelial humps
+! **Haematuria 1 to 2 days after a cold**, normal complement | IgA nephropathy: mesangial IgA deposits
+! **Coughing blood and haematuria**, linear IgG | Anti-GBM disease, Goodpasture: antibodies to type IV collagen
+! **Crescents** in Bowman space | Rapidly progressive GN: fibrin and macrophages, kidney failure in weeks
+! **Pauci-immune** crescents | ANCA vasculitis: GPA (PR3), MPA and EGPA (MPO)
+! **Haematuria, deafness and lens problems** | Alport syndrome: type IV collagen, split basement membrane
+! **Tram-track** basement membrane, low C3 | Membranoproliferative GN: hepatitis C, C3 nephritic factor
+! **Wire loops** in SLE | Diffuse proliferative GN: subendothelial deposits
+# Nephrotic syndrome | renal, path
+! Child with **puffy eyes** after a cold, normal light microscopy | Minimal change disease: podocyte effacement, steroids work
+! **Segmental sclerosis** with HIV, heroin, sickle cell or obesity | FSGS: APOL1 variants raise risk in people of African ancestry
+! **Spike and dome**, anti-PLA2R antibodies | Membranous nephropathy: SLE, hepatitis B, solid tumours, NSAIDs
+! **Kimmelstiel-Wilson** nodules | Diabetic nephropathy: glycated basement membrane, efferent hyalinosis
+! **Apple-green birefringence** with Congo red | Amyloidosis: AL in myeloma, AA in chronic inflammation
+! Nephrotic patient with **sudden flank pain and haematuria** | Renal vein thrombosis: antithrombin lost in urine
+# Acute kidney injury and urinary casts | renal, path
+! **BUN to creatinine over 20**, FENa under 1% | Prerenal azotaemia
+! **Muddy brown granular casts**, FENa over 2% | Acute tubular necrosis
+! **Fever, rash, eosinophils in urine** after a new drug | Acute interstitial nephritis: penicillins, NSAIDs, PPIs, diuretics
+! **RBC casts** | Glomerulonephritis
+! **WBC casts** | Pyelonephritis or interstitial nephritis
+! **Fatty casts** with Maltese crosses | Nephrotic syndrome
+! **Waxy casts** | Advanced chronic kidney disease
+! **Sloughed papillae** in sickle cell trait, analgesic overuse or diabetes | Renal papillary necrosis
+# Chronic kidney disease and renal osteodystrophy | renal, path
+! Normocytic anaemia in CKD | Low erythropoietin
+! **Renal osteodystrophy** | High phosphate and low calcitriol drive secondary hyperparathyroidism
+! **Asterixis, pericarditis, bleeding** in renal failure | Uraemia: urgent dialysis
+! Dialysis indications | AEIOU: acidosis, electrolytes, ingestions, overload, uraemia
+! **High calcium and very high PTH** after years of CKD | Tertiary hyperparathyroidism: the glands run on autopilot
+# Kidney stones | renal, path
+! **Envelope or dumbbell** crystals, the commonest stone | Calcium oxalate: Crohn disease, ethylene glycol, low citrate
+! **Coffin-lid** crystals and a staghorn calculus | Struvite: urease-positive Proteus in alkaline urine
+! **Radiolucent** stone with gout or tumour lysis | Uric acid: alkalinise the urine
+! **Hexagonal** crystals, positive cyanide-nitroprusside test | Cystine: cystinuria, a COLA transporter defect
+! Stones in **type 1 RTA** or primary hyperparathyroidism | Calcium phosphate: alkaline urine
+# Cystic kidney disease | renal, genetics
+! **Huge bilateral cystic kidneys** in an adult, hypertension, berry aneurysms | ADPKD: PKD1 on chromosome 16
+! Newborn with Potter sequence and **congenital hepatic fibrosis** | ARPKD: PKHD1
+! **Small shrunken kidneys** and early urine-concentrating failure | Medullary cystic disease, ADTKD
+! **New cysts** after years on dialysis | Acquired cystic disease: renal cell carcinoma risk
+# Renal and urinary tract tumours | renal, path
+! **Haematuria, flank pain and a mass**, polygonal clear cells, smoker | Renal cell carcinoma: VHL loss on chromosome 3
+! RCC with **polycythaemia, hypercalcaemia** | Paraneoplastic EPO and PTHrP
+! RCC with a **new left varicocele** | Tumour in the left renal vein blocks gonadal drainage
+! Child under 4 with a **flank mass that does not cross the midline** | Wilms tumour: WT1 on chromosome 11
+! **Large tongue, one-sided overgrowth, omphalocele** | Beckwith-Wiedemann: Wilms risk
+! **Painless haematuria** in a smoker or dye worker | Urothelial carcinoma
+! Bladder tumour after **Schistosoma haematobium** | Squamous cell carcinoma
+! **Angiomyolipoma** | Tuberous sclerosis
+# Urinary tract infection and pyelonephritis | renal, micro
+! **Fever, flank pain**, WBC casts | Acute pyelonephritis: ascending E. coli
+! **Thyroidisation** of the kidney | Chronic pyelonephritis: vesicoureteral reflux
+! **Nitrite positive** urine | Gram-negative rods convert nitrate
+! **Pyuria with a sterile culture** | Urethritis: Chlamydia or Neisseria
+! Sexually active young woman, **novobiocin-resistant** coagulase-negative staph | Staphylococcus saprophyticus
+! **Swarming** urease-positive organism | Proteus mirabilis: struvite stones

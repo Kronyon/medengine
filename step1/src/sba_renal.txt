@@ -1,0 +1,1133 @@
+# medengine-STEP1 single best answers: renal, acid-base and electrolytes (deep pilot). Written fresh in NBME style.
+# @q Topic | difficulty 1-3 and pattern (L lookalike, N number, T place/time/anatomy, D drug, R right rung)
+# s: stem (US units and drug names; // starts a new paragraph) · $ lab; value; range · ? lead-in · > options, * marks the answer
+# = why (British English) · ~ the headline flip · c: red-flag cues (must appear in the stem) · m: inflow → outflow · g: money line
+# f: a change to the case => the option it would make right (one per wrong option) · x: option => why not (one per wrong option)
+
+@q Diuretics | 2D
+s: A 58-year-old man with hypertension comes to the emergency department because of severe pain and swelling of the right first metatarsophalangeal joint that began overnight. Three weeks ago, a new antihypertensive drug was added to his regimen. Joint aspiration shows needle-shaped, negatively birefringent crystals. His serum calcium is at the upper limit of normal, and his fasting glucose has risen since his last visit.
+? Which of the following drugs was most likely added three weeks ago?
+> Amlodipine ; *Hydrochlorothiazide ; Lisinopril ; Losartan ; Spironolactone
+= Thiazides compete with urate for the organic anion transporter in the proximal tubule and cause volume contraction, which increases urate reabsorption. Hyperuricaemia precipitates gout, and the same class raises calcium and glucose.
+~ Ototoxicity and low calcium instead → a loop diuretic
+c: needle-shaped, negatively birefringent crystals | serum calcium is at the upper limit of normal | fasting glucose has risen
+m: Thiazide → volume contraction and competition for urate secretion → serum urate rises → crystals form in a cool distal joint → gout
+g: Gout plus high calcium plus high glucose after a new antihypertensive is the thiazide signature
+f: the new drug had caused a dry cough and a raised potassium => Lisinopril
+f: the new drug had caused ankle swelling and flushing => Amlodipine
+f: the new drug had caused breast enlargement and a raised potassium => Spironolactone
+f: the new drug had slightly lowered his urate => Losartan
+x: Amlodipine => Causes peripheral oedema and flushing, not hyperuricaemia
+x: Lisinopril => Causes cough, angioedema and hyperkalaemia; it does not raise urate or calcium
+x: Losartan => Mildly uricosuric, so it lowers urate rather than provoking gout
+x: Spironolactone => Causes hyperkalaemia and gynaecomastia; calcium and glucose are unaffected
+
+@q Diuretics | 2D
+s: A 67-year-old woman is admitted with pyelonephritis and decompensated heart failure. She is treated with intravenous gentamicin and high-dose intravenous furosemide. On day 5, she reports ringing in both ears and difficulty following conversation. Her serum creatinine is unchanged from admission. Otoscopy shows normal tympanic membranes.
+? Which of the following best explains how the diuretic contributes to her symptoms?
+> Blockade of carbonic anhydrase in the ciliary body ; *Blockade of Na⁺/K⁺/2Cl⁻ cotransport in the stria vascularis ; Blockade of epithelial sodium channels in the cochlea ; Free radical injury to outer hair cells ; Osmotic shift of water out of the endolymph
+= Loop diuretics block NKCC1 in the stria vascularis, the pump that builds the potassium-rich endolymph that powers hearing. The effect is dose-related and far worse alongside an aminoglycoside, whose own toxicity is free radical injury to hair cells.
+~ Asked about the aminoglycoside instead → free radical injury to outer hair cells
+c: gentamicin | high-dose intravenous furosemide | ringing in both ears
+m: High-dose loop diuretic → NKCC1 blocked in the stria vascularis → endolymph loses K⁺ and its charge → hair cells cannot transduce → tinnitus and hearing loss
+g: Loops plus aminoglycosides are the classic ototoxic pair; the loop's share is the stria vascularis pump
+f: the question asked how gentamicin damages hearing => Free radical injury to outer hair cells
+f: the drug had been acetazolamide given for glaucoma => Blockade of carbonic anhydrase in the ciliary body
+f: the drug had been mannitol given for raised intracranial pressure => Osmotic shift of water out of the endolymph
+f: the drug had been amiloride given for lithium-induced diabetes insipidus => Blockade of epithelial sodium channels in the cochlea
+x: Blockade of carbonic anhydrase in the ciliary body => How acetazolamide lowers eye pressure; it has nothing to do with hearing
+x: Blockade of epithelial sodium channels in the cochlea => Amiloride blocks ENaC in the collecting duct and is not ototoxic
+x: Free radical injury to outer hair cells => The aminoglycoside's own mechanism, not the diuretic's
+x: Osmotic shift of water out of the endolymph => Describes an osmotic agent such as mannitol, not furosemide
+
+@q Diuretics | 2N
+s: A 26-year-old woman plans to climb a 5,800-meter peak next month. On earlier treks above 3,000 meters, she developed headache, nausea, and insomnia. Her physician prescribes a drug to start the day before the ascent to prevent these symptoms. She has no other medical conditions.
+? Which of the following sets of changes is most likely once she starts the drug?
+> *HCO₃⁻ ↓, Cl⁻ ↑, urine pH ↑ ; HCO₃⁻ ↓, Cl⁻ ↑, urine pH ↓ ; HCO₃⁻ ↓, Cl⁻ ↔, urine pH ↓ ; HCO₃⁻ ↑, Cl⁻ ↓, urine pH ↓ ; HCO₃⁻ ↑, Cl⁻ ↓, urine pH ↑
+= Acetazolamide blocks proximal carbonic anhydrase, so filtered HCO₃⁻ escapes into the urine (alkaline urine) and chloride is kept: a hyperchloraemic, normal anion gap metabolic acidosis. The acidosis drives breathing, which offsets the hypoxic alkalosis of altitude.
+~ Severe diarrhoea instead → the same acidosis but an acidic urine
+c: 5,800-meter peak | headache, nausea, and insomnia
+m: Carbonic anhydrase blocked → filtered HCO₃⁻ cannot be reclaimed → alkaline urine and falling serum HCO₃⁻ → Cl⁻ retained → acidosis stimulates ventilation
+g: Acetazolamide makes a normal anion gap acidosis with an alkaline urine
+f: she had severe diarrhoea instead, with kidneys that work => HCO₃⁻ ↓, Cl⁻ ↑, urine pH ↓
+f: she had diabetic ketoacidosis => HCO₃⁻ ↓, Cl⁻ ↔, urine pH ↓
+f: she had been vomiting for three days and was volume depleted => HCO₃⁻ ↑, Cl⁻ ↓, urine pH ↓
+f: she had swallowed large doses of sodium bicarbonate => HCO₃⁻ ↑, Cl⁻ ↓, urine pH ↑
+x: HCO₃⁻ ↓, Cl⁻ ↑, urine pH ↓ => Diarrhoea: the gut loses HCO₃⁻ and the healthy kidney acidifies the urine
+x: HCO₃⁻ ↓, Cl⁻ ↔, urine pH ↓ => A high anion gap acidosis such as ketoacidosis, where an unmeasured anion replaces HCO₃⁻
+x: HCO₃⁻ ↑, Cl⁻ ↓, urine pH ↓ => Volume-depleted metabolic alkalosis with paradoxical aciduria
+x: HCO₃⁻ ↑, Cl⁻ ↓, urine pH ↑ => A bicarbonate load, which the kidney dumps into the urine
+
+@q Diuretics | 3D
+s: A 61-year-old man with heart failure with reduced ejection fraction has been taking furosemide, lisinopril, carvedilol, and a fourth drug added to reduce mortality. Six months later, he reports painful enlargement of both breasts. His serum potassium is 5.3 mEq/L. His physician wants to keep the survival benefit while removing this adverse effect.
+? Which of the following is the most appropriate replacement for the fourth drug?
+> Amiloride ; *Eplerenone ; Hydrochlorothiazide ; Spironolactone at a lower dose ; Triamterene
+= Spironolactone also blocks androgen receptors and raises oestrogen activity, causing gynaecomastia. Eplerenone is a more selective mineralocorticoid receptor antagonist with the same mortality benefit in heart failure and far less gynaecomastia.
+~ No heart failure, just a need to spare potassium → amiloride
+c: heart failure with reduced ejection fraction | painful enlargement of both breasts | reduce mortality
+m: Spironolactone → blocks androgen receptors as well as aldosterone receptors → relative oestrogen excess → gynaecomastia → swap to a selective blocker
+g: Keep aldosterone blockade, lose the antiandrogen: eplerenone
+f: he only needed to stop losing potassium on furosemide, with no mortality goal => Amiloride
+f: his physician wanted to keep the same drug and accept a smaller benefit => Spironolactone at a lower dose
+f: he needed better blood pressure control with no heart failure => Hydrochlorothiazide
+f: he needed a potassium-sparing drug and could not take amiloride => Triamterene
+x: Amiloride => Spares potassium by blocking ENaC but carries no proven survival benefit in heart failure
+x: Hydrochlorothiazide => Not a mortality drug in heart failure, and it does not block aldosterone
+x: Spironolactone at a lower dose => Gynaecomastia can persist; switching to the selective drug is the answer
+x: Triamterene => Another ENaC blocker with no survival benefit, and it can cause kidney stones
+
+@q Distal tubule, collecting duct, Gitelman and Liddle | 2L
+s: A 17-year-old boy is evaluated for hypertension found at a sports physical. His blood pressure is 162/98 mm Hg. His father and an uncle developed hypertension as teenagers. Examination is otherwise normal. He takes no medications and denies licorice or supplement use.
+$ Sodium; 143 mEq/L; 136–145
+$ Potassium; 2.9 mEq/L; 3.5–5.0
+$ Bicarbonate; 31 mEq/L; 22–28
+$ Plasma renin activity; low;
+$ Serum aldosterone; low;
+? Which of the following is the most likely cause of his hypertension?
+> Aldosterone-producing adrenal adenoma ; Apparent mineralocorticoid excess ; Fibromuscular dysplasia ; *Gain-of-function mutation in the epithelial sodium channel ; Loss-of-function mutation in the Na⁺/Cl⁻ cotransporter
+= Liddle syndrome is an autosomal dominant gain-of-function mutation in ENaC. The channel reabsorbs sodium without aldosterone, so volume expands, renin and aldosterone are suppressed, and potassium and hydrogen are lost. Amiloride, not spironolactone, treats it.
+~ Same labs after eating licorice → apparent mineralocorticoid excess
+c: Potassium 2.9 | Bicarbonate 31 | father and an uncle developed hypertension as teenagers | denies licorice
+m: ENaC stuck open → Na⁺ reabsorbed without aldosterone → volume expands → renin and aldosterone switch off → K⁺ and H⁺ secreted → hypokalaemic alkalosis
+g: Hypertension, hypokalaemia, low renin and LOW aldosterone in a family = Liddle
+f: aldosterone had been high with low renin => Aldosterone-producing adrenal adenoma
+f: he had been eating large amounts of black licorice => Apparent mineralocorticoid excess
+f: renin and aldosterone had both been high in a young woman with a renal bruit => Fibromuscular dysplasia
+f: his blood pressure had been low with low urine calcium => Loss-of-function mutation in the Na⁺/Cl⁻ cotransporter
+x: Aldosterone-producing adrenal adenoma => Aldosterone would be high, not low
+x: Apparent mineralocorticoid excess => Fits the labs, but he denies licorice and the family pattern points to an inherited channel
+x: Fibromuscular dysplasia => Renal artery narrowing raises renin and aldosterone
+x: Loss-of-function mutation in the Na⁺/Cl⁻ cotransporter => Gitelman syndrome causes low or normal blood pressure
+
+@q Loop of Henle and Bartter syndrome | 2L
+s: A 9-year-old girl is evaluated for poor growth, salt craving, and frequent urination. Her blood pressure is 96/58 mm Hg. She takes no medications, and there is no history of vomiting or laxative use. Renal ultrasonography shows medullary nephrocalcinosis.
+$ Potassium; 2.7 mEq/L; 3.5–5.0
+$ Bicarbonate; 32 mEq/L; 22–28
+$ Magnesium; 1.9 mg/dL; 1.5–2.0
+$ Plasma renin activity; high;
+$ Urine calcium; high;
+? A defect in which of the following nephron segments is most likely responsible?
+> Collecting duct principal cell ; Distal convoluted tubule ; Proximal convoluted tubule ; *Thick ascending limb ; Thin descending limb
+= Bartter syndrome impairs NKCC2 or its partner channels in the thick ascending limb, mimicking a loop diuretic: salt wasting, high renin and aldosterone, hypokalaemic metabolic alkalosis and hypercalciuria with nephrocalcinosis. Blood pressure stays normal or low.
+~ Low urine calcium and low magnesium in an adult instead → distal convoluted tubule (Gitelman)
+c: Potassium 2.7 | Bicarbonate 32 | Urine calcium high | nephrocalcinosis | 96/58 mm Hg
+m: NKCC2 fails → salt wasted → renin and aldosterone rise → K⁺ and H⁺ secreted distally → lumen-positive charge lost so Ca²⁺ is not reclaimed → hypercalciuria and nephrocalcinosis
+g: Hypokalaemic alkalosis with normal BP: urine calcium high means loop (Bartter), low means DCT (Gitelman)
+f: urine calcium had been low with low magnesium in a young adult => Distal convoluted tubule
+f: she had glucosuria, aminoaciduria and phosphaturia with acidosis => Proximal convoluted tubule
+f: she had hypertension with low renin and low aldosterone => Collecting duct principal cell
+f: the question asked where water leaves while salt stays in the tubule => Thin descending limb
+x: Collecting duct principal cell => Liddle syndrome lives here, with hypertension and low renin
+x: Distal convoluted tubule => Gitelman syndrome, which causes hypocalciuria and low magnesium
+x: Proximal convoluted tubule => Fanconi syndrome gives a proximal RTA with acidosis, not alkalosis
+x: Thin descending limb => Moves water only and has no inherited salt-wasting syndrome
+
+@q Distal tubule, collecting duct, Gitelman and Liddle | 2T
+s: A 24-year-old woman has muscle cramps and fatigue. She has no vomiting or diarrhea and takes no medications. Blood pressure is 104/66 mm Hg. A urine drug screen for diuretics is negative.
+$ Potassium; 3.0 mEq/L; 3.5–5.0
+$ Bicarbonate; 30 mEq/L; 22–28
+$ Magnesium; 1.1 mg/dL; 1.5–2.0
+$ Urine calcium; low;
+$ Urine chloride; 85 mEq/L;
+? This patient's condition most closely mimics the effect of which of the following drugs?
+> Acetazolamide ; Amiloride ; Furosemide ; *Hydrochlorothiazide ; Spironolactone
+= Gitelman syndrome is an inherited loss of the thiazide-sensitive NCC in the distal convoluted tubule. Like a thiazide, it wastes salt and magnesium, keeps calcium (hypocalciuria) and produces a hypokalaemic metabolic alkalosis with a high urine chloride.
+~ High urine calcium instead → furosemide (Bartter)
+c: Potassium 3.0 | Magnesium 1.1 | Urine calcium low | diuretics is negative
+m: NCC lost → Na⁺ and Cl⁻ wasted → aldosterone rises → K⁺ and H⁺ secreted → alkalosis; Mg²⁺ channel downregulated → low Mg²⁺; calcium reabsorption enhanced → hypocalciuria
+g: Low urine calcium plus low magnesium in a hypokalaemic alkalosis = thiazide look-alike
+f: urine calcium had been high with nephrocalcinosis => Furosemide
+f: she had a normal anion gap acidosis with alkaline urine => Acetazolamide
+f: she had hyperkalaemia with a mild acidosis => Spironolactone
+f: she had hyperkalaemia and the drug blocked ENaC => Amiloride
+x: Acetazolamide => Causes a normal anion gap acidosis, not an alkalosis
+x: Amiloride => Spares potassium; it would raise potassium, not lower it
+x: Furosemide => Mimics Bartter syndrome, with high urine calcium
+x: Spironolactone => Causes hyperkalaemia and acidosis
+
+@q Distal tubule, collecting duct, Gitelman and Liddle | 2R
+s: A 54-year-old man has new hypertension and leg weakness. He started a herbal remedy for heartburn two months ago and has been eating large amounts of a black candy. Blood pressure is 168/100 mm Hg. Serum potassium is 2.8 mEq/L and bicarbonate is 32 mEq/L. Plasma renin activity and serum aldosterone are both low.
+? Inhibition of which of the following enzymes best explains these findings?
+> 11β-Hydroxylase ; *11β-Hydroxysteroid dehydrogenase type 2 ; 17α-Hydroxylase ; 21-Hydroxylase ; Aldosterone synthase
+= Glycyrrhetinic acid in licorice blocks 11β-HSD2 in the collecting duct. That enzyme normally converts cortisol to cortisone so cortisol cannot reach the mineralocorticoid receptor. Unchecked, cortisol acts like aldosterone: hypertension, hypokalaemia, alkalosis, with renin and aldosterone suppressed.
+~ Ambiguous genitalia and salt wasting in a newborn → 21-hydroxylase
+c: large amounts of a black candy | potassium is 2.8 mEq/L | renin activity and serum aldosterone are both low
+m: Licorice → 11β-HSD2 blocked → cortisol stays active in principal cells → mineralocorticoid receptor switched on → Na⁺ retained, K⁺ and H⁺ lost → renin and aldosterone suppressed
+g: Mineralocorticoid excess with LOW aldosterone: something else is hitting the receptor
+f: a newborn girl had ambiguous genitalia and salt wasting => 21-Hydroxylase
+f: a girl had hypertension, hypokalaemia and virilisation => 11β-Hydroxylase
+f: a teenager had hypertension, hypokalaemia and no puberty => 17α-Hydroxylase
+f: he had salt wasting and hyperkalaemia with normal cortisol => Aldosterone synthase
+x: 11β-Hydroxylase => Deficiency raises 11-deoxycorticosterone and androgens: hypertension with virilisation
+x: 17α-Hydroxylase => Deficiency causes hypertension with absent sex hormones in a teenager
+x: 21-Hydroxylase => Deficiency causes salt wasting and virilisation, not hypertension
+x: Aldosterone synthase => Deficiency causes salt wasting and hyperkalaemia
+
+@q Sodium and water | 2N
+s: A 64-year-old man who smokes 2 packs of cigarettes daily has 3 weeks of cough and confusion. He is euvolemic on examination and takes no medications. Chest x-ray shows a central hilar mass.
+$ Sodium; 121 mEq/L; 136–145
+$ Serum osmolality; 252 mOsm/kg; 275–295
+$ Urine osmolality; 540 mOsm/kg;
+$ Urine sodium; 62 mEq/L;
+$ TSH; 2.1 µU/mL; 0.4–4.0
+? Which of the following is the most likely cause of his hyponatremia?
+> Cerebral salt wasting ; Excess water intake ; Hypovolemic sodium loss ; Pseudohyponatremia ; *Inappropriate ADH secretion
+= Small cell lung cancer secretes ADH ectopically. Water is retained despite low serum osmolality, so the urine is inappropriately concentrated, the patient stays euvolaemic (aldosterone falls and natriuresis follows) and urine sodium is high. Thyroid function is normal.
+~ Very dilute urine and huge water intake → excess water intake (primary polydipsia)
+c: Sodium 121 | Urine osmolality 540 | euvolemic | central hilar mass
+m: Tumour makes ADH → aquaporin 2 inserted → free water reabsorbed → serum diluted → volume sensors trigger natriuresis → euvolaemic hyponatraemia with concentrated urine
+g: Low serum osmolality with urine osmolality above it, in a euvolaemic smoker = SIADH
+f: urine osmolality had been 60 mOsm/kg in a man drinking 8 liters a day => Excess water intake
+f: serum osmolality had been normal with a milky serum => Pseudohyponatremia
+f: he had been vomiting, with dry mucosa and urine sodium 8 mEq/L => Hypovolemic sodium loss
+f: he had a subarachnoid hemorrhage, low volume and high urine sodium => Cerebral salt wasting
+x: Cerebral salt wasting => Follows brain injury and leaves the patient volume depleted
+x: Excess water intake => Produces maximally dilute urine, not urine osmolality of 540
+x: Hypovolemic sodium loss => Urine sodium would be low and the patient dry
+x: Pseudohyponatremia => Serum osmolality would be normal
+
+@q Sodium and water | 2D
+s: A 45-year-old woman with bipolar disorder has had increasing thirst and urination for 6 months. She has taken the same mood stabilizer for 10 years. Serum sodium is 147 mEq/L. During a water deprivation test, urine osmolality stays at 160 mOsm/kg and does not rise after an injection of desmopressin.
+? Which of the following best explains her findings?
+> Destruction of the posterior pituitary ; Excess ADH release from the hypothalamus ; *Reduced aquaporin 2 response to ADH in the collecting duct ; Reduced water permeability of the thin descending limb ; Suppressed thirst center
+= Long-term lithium enters principal cells through ENaC and blunts V2 signalling, so aquaporin 2 is not inserted: nephrogenic diabetes insipidus. Urine stays dilute through water deprivation and does not respond to desmopressin. Amiloride, which blocks lithium entry, helps.
+~ Urine concentrates after desmopressin → destruction of the posterior pituitary (central DI)
+c: mood stabilizer for 10 years | does not rise after an injection of desmopressin | 160 mOsm/kg
+m: Lithium enters via ENaC → V2 signal blunted → aquaporin 2 not inserted → free water lost → serum sodium rises → thirst
+g: Dilute urine that ignores desmopressin = nephrogenic DI; lithium is the classic cause
+f: urine osmolality had doubled after desmopressin following head trauma => Destruction of the posterior pituitary
+f: she had concentrated urine and a serum sodium of 124 mEq/L => Excess ADH release from the hypothalamus
+f: she had high sodium with no thirst after a hypothalamic stroke => Suppressed thirst center
+f: the question asked where water leaves the nephron without salt => Reduced water permeability of the thin descending limb
+x: Destruction of the posterior pituitary => Central DI responds to desmopressin
+x: Excess ADH release from the hypothalamus => SIADH gives concentrated urine and hyponatraemia
+x: Reduced water permeability of the thin descending limb => Aquaporin 1 there is not the lithium target and does not depend on ADH
+x: Suppressed thirst center => Adipsia would not explain urine that ignores desmopressin
+
+@q Sodium and water | 2T
+s: A 58-year-old woman with alcohol use disorder is admitted with a serum sodium of 106 mEq/L after 2 weeks of drinking beer and eating little. Hypertonic saline raises her sodium to 128 mEq/L within 24 hours. Three days later, she develops dysarthria, difficulty swallowing, and weakness of all four limbs.
+? Which of the following is the most likely location of the lesion causing her new symptoms?
+> Cerebellar vermis ; Mammillary bodies ; Optic chiasm ; *Pons ; Thalamus
+= Correcting chronic hyponatraemia faster than about 8 to 10 mEq/L a day shrinks brain cells that had adapted to low osmolality, and the central pons demyelinates (osmotic demyelination). Corticospinal and corticobulbar tracts give quadriparesis, dysarthria and dysphagia, sometimes locked-in syndrome.
+~ Confusion, ataxia and eye palsy from thiamine lack → mammillary bodies
+c: 106 mEq/L | to 128 mEq/L within 24 hours | dysarthria, difficulty swallowing, and weakness of all four limbs
+m: Brain adapts to low sodium by losing osmolytes → sodium raised too fast → water leaves cells → oligodendrocytes in the pons injured → demyelination of corticospinal and corticobulbar tracts
+g: Low to high, the pons will die: a rise of 22 in a day is far too fast
+f: she had confusion, ataxia and ophthalmoplegia without thiamine => Mammillary bodies
+f: she had a wide-based gait from chronic alcohol use => Cerebellar vermis
+f: she had bitemporal hemianopia => Optic chiasm
+f: she had contralateral sensory loss followed by burning pain => Thalamus
+x: Cerebellar vermis => Alcohol-related truncal ataxia, not quadriparesis
+x: Mammillary bodies => Wernicke encephalopathy from thiamine deficiency
+x: Optic chiasm => Visual field loss, not corticobulbar signs
+x: Thalamus => Thalamic syndrome gives sensory loss and pain
+
+@q Potassium | 2D
+s: A 72-year-old man with chronic kidney disease feels weak after starting a new antihypertensive drug. His pulse is 54/min and irregular. An ECG shows peaked T waves and widening of the QRS complex.
+$ Potassium; 7.4 mEq/L; 3.5–5.0
+$ Creatinine; 2.6 mg/dL; 0.6–1.2
+$ Glucose; 112 mg/dL; 70–100
+? Which of the following is the most appropriate first drug?
+> Albuterol by nebulizer ; *Intravenous calcium gluconate ; Intravenous insulin with dextrose ; Oral patiromer ; Sodium bicarbonate infusion
+= Once hyperkalaemia changes the ECG, intravenous calcium comes first: it raises the threshold potential and stabilises the cardiac membrane within minutes. It does not lower potassium, so insulin with dextrose, albuterol and removal (binders, diuretics, dialysis) follow.
+~ Same potassium with a normal ECG → insulin with dextrose first
+c: peaked T waves and widening of the QRS complex | Potassium 7.4
+m: High K⁺ → resting potential less negative → sodium channels inactivate → slow conduction and arrhythmia risk → calcium restores the gap to threshold
+g: ECG changes = protect the heart first (calcium), then shift, then remove
+f: the ECG had been normal and the goal was to shift potassium into cells fast => Intravenous insulin with dextrose
+f: he had no IV access and needed a quick shift => Albuterol by nebulizer
+f: he was stable and needed potassium removed from the body over hours => Oral patiromer
+f: he had severe metabolic acidosis as the cause => Sodium bicarbonate infusion
+x: Albuterol by nebulizer => Shifts K⁺ into cells but does not protect the heart
+x: Intravenous insulin with dextrose => Lowers K⁺ within 15 to 30 minutes, but the heart needs protecting first
+x: Oral patiromer => Takes hours and removes K⁺ slowly
+x: Sodium bicarbonate infusion => Helps mainly when acidosis is driving the hyperkalaemia
+
+@q Potassium | 2R
+s: A 49-year-old woman with alcohol use disorder has fatigue and muscle weakness. Despite 3 days of intravenous potassium chloride, her serum potassium remains low. She takes omeprazole daily. An ECG shows flattened T waves and prominent U waves.
+$ Potassium; 2.9 mEq/L; 3.5–5.0
+$ Magnesium; 1.0 mg/dL; 1.5–2.0
+$ Calcium; 7.8 mg/dL; 8.4–10.2
+$ Albumin; 4.0 g/dL; 3.5–5.5
+? Correcting which of the following is most likely to allow her potassium to normalize?
+> Calcium ; Chloride ; *Magnesium ; Phosphate ; Thiamine
+= Intracellular magnesium normally plugs ROMK channels in the distal nephron. With low magnesium the plug is gone, so potassium keeps leaking into the urine whatever is infused. Low magnesium also blunts PTH release and action, which explains the low calcium. Replace magnesium first.
+~ Low phosphate after refeeding instead → phosphate
+c: Despite 3 days of intravenous potassium chloride | Magnesium 1.0 | omeprazole
+m: Alcohol and PPI → low Mg²⁺ → ROMK unplugged in principal cells → K⁺ wasted in urine → potassium will not correct; low Mg²⁺ also cuts PTH → low calcium
+g: Potassium that will not stay up: check and replace magnesium
+f: she had heart failure and respiratory failure after starting feeds => Phosphate
+f: she had confusion, ataxia and nystagmus => Thiamine
+f: she had tetany with normal magnesium after thyroid surgery => Calcium
+f: she had a hypochloraemic alkalosis from vomiting maintaining the losses => Chloride
+x: Calcium => Low calcium here follows the low magnesium; it does not drive potassium loss
+x: Chloride => Matters in vomiting-related alkalosis, but she has already received potassium chloride
+x: Phosphate => Low phosphate weakens muscle but does not keep potassium leaking
+x: Thiamine => Needed in alcohol use disorder for Wernicke, not for potassium balance
+
+@q Potassium | 3N
+s: A 19-year-old man with type 1 diabetes is brought to the emergency department with abdominal pain, vomiting, and deep, rapid breathing. Blood glucose is 610 mg/dL, serum potassium is 5.8 mEq/L, and arterial pH is 7.08. Intravenous fluids and an insulin infusion are started.
+? Which of the following best describes his potassium status before treatment?
+> *High serum potassium with depleted total body potassium ; High serum potassium with increased total body potassium ; High serum potassium with normal total body potassium ; Low serum potassium with depleted total body potassium ; Normal serum potassium with increased total body potassium
+= Insulin lack and hyperosmolality shift potassium out of cells, so serum potassium reads high, while osmotic diuresis and vomiting have drained the body's stores. Insulin drives potassium back into cells and serum levels can crash, so potassium is replaced once it falls below about 5.3 mEq/L.
+~ After 6 hours of insulin without replacement → low serum, depleted stores
+c: Blood glucose is 610 mg/dL | serum potassium is 5.8 mEq/L | insulin infusion
+m: No insulin plus hyperosmolality → K⁺ leaves cells → serum K⁺ high → osmotic diuresis and vomiting wash K⁺ out → body stores fall → insulin unmasks the deficit
+g: In DKA the serum potassium lies: total body potassium is low
+f: he had received several hours of insulin with no potassium added => Low serum potassium with depleted total body potassium
+f: he had advanced kidney failure and was eating bananas => High serum potassium with increased total body potassium
+f: the sample had been haemolysed in a healthy man => High serum potassium with normal total body potassium
+f: he had potassium supplements with kidney failure but a normal level that morning => Normal serum potassium with increased total body potassium
+x: High serum potassium with increased total body potassium => Fits kidney failure with intake, not osmotic diuresis
+x: High serum potassium with normal total body potassium => A shift alone, such as a haemolysed sample, would not drain stores
+x: Low serum potassium with depleted total body potassium => What appears after insulin starts without replacement
+x: Normal serum potassium with increased total body potassium => Does not match a serum potassium of 5.8
+
+@q Metabolic acidosis and the anion gap | 2N
+s: A 41-year-old man is brought to the emergency department 6 hours after drinking a sweet-tasting liquid from a container in his garage. He is drowsy and slurring his words. Pulse is 112/min, and respirations are 28/min and deep. Urinalysis shows envelope-shaped crystals.
+$ Sodium; 140 mEq/L; 136–145
+$ Chloride; 101 mEq/L; 95–105
+$ Bicarbonate; 9 mEq/L; 22–28
+$ Glucose; 90 mg/dL; 70–100
+$ BUN; 14 mg/dL; 7–18
+$ Serum osmolality, measured; 325 mOsm/kg; 275–295
+? Which of the following is the anion gap and the osmolar gap?
+> Anion gap 12, osmolar gap 0 ; Anion gap 12, osmolar gap 35 ; Anion gap 21, osmolar gap 35 ; Anion gap 30, osmolar gap 0 ; *Anion gap 30, osmolar gap 35
+= Anion gap = 140 − (101 + 9) = 30. Calculated osmolality = 2 × 140 + 90/18 + 14/2.8 = 280 + 5 + 5 = 290, so the osmolar gap is 325 − 290 = 35. Both gaps high with oxalate crystals: ethylene glycol. Fomepizole blocks alcohol dehydrogenase.
+~ Hours later, once the glycol is metabolised → the osmolar gap shrinks while the anion gap stays
+c: Bicarbonate 9 | Serum osmolality, measured 325 | envelope-shaped crystals | sweet-tasting liquid
+m: Ethylene glycol is an osmole → osmolar gap; alcohol dehydrogenase turns it into glycolic and oxalic acid → anion gap acidosis → calcium oxalate crystals → AKI
+g: High anion gap plus high osmolar gap = toxic alcohol until proven otherwise
+f: he had pure diarrhoea with no ingestion => Anion gap 12, osmolar gap 0
+f: he had drunk a large amount of ethanol with no acidosis => Anion gap 12, osmolar gap 35
+f: he had DKA with a normal measured osmolality gap => Anion gap 30, osmolar gap 0
+f: his bicarbonate had been 18 mEq/L with the same osmolality => Anion gap 21, osmolar gap 35
+x: Anion gap 12, osmolar gap 0 => Both gaps are clearly raised here
+x: Anion gap 12, osmolar gap 35 => An osmolar gap with no acidosis suggests ethanol or isopropyl alcohol
+x: Anion gap 30, osmolar gap 0 => Ignores the measured osmolality of 325
+x: Anion gap 21, osmolar gap 35 => Uses the wrong bicarbonate: 140 − (101 + 9) is 30
+
+@q Metabolic acidosis and the anion gap | 2D
+s: A 34-year-old man is brought to the emergency department 12 hours after drinking homemade liquor. He reports blurred vision and says it looks like he is in a snowstorm. Pupils are dilated and poorly reactive. Arterial pH is 7.12 with a high anion gap and a high osmolar gap.
+? Which of the following is the mechanism of action of the most appropriate antidote?
+> Activation of aldehyde dehydrogenase ; Binding of formate as a stable complex ; Chelation of the alcohol in plasma ; *Inhibition of alcohol dehydrogenase ; Inhibition of cytochrome P450 2E1
+= Methanol itself is fairly harmless; alcohol dehydrogenase turns it into formaldehyde and then formic acid, which poisons the optic nerve and causes the acidosis. Fomepizole competitively inhibits alcohol dehydrogenase so the parent compound is excreted or dialysed before it is converted.
+~ Flushing and vomiting after alcohol on metronidazole → that blocks aldehyde dehydrogenase
+c: homemade liquor | snowstorm | high anion gap and a high osmolar gap
+m: Methanol → alcohol dehydrogenase → formaldehyde → formic acid → mitochondrial poisoning of the optic nerve and anion gap acidosis
+g: Toxic alcohols harm only after alcohol dehydrogenase: block that enzyme
+f: the question asked how disulfiram makes drinkers feel ill => Activation of aldehyde dehydrogenase
+f: the poison had been lead and the antidote succimer => Chelation of the alcohol in plasma
+f: the question asked which enzyme chronic alcohol use induces => Inhibition of cytochrome P450 2E1
+f: the treatment had been folinic acid to speed formate clearance => Binding of formate as a stable complex
+x: Activation of aldehyde dehydrogenase => Disulfiram inhibits this enzyme; no antidote activates it
+x: Binding of formate as a stable complex => Folate helps clear formate metabolically; nothing binds it
+x: Chelation of the alcohol in plasma => Chelators bind metals, not alcohols
+x: Inhibition of cytochrome P450 2E1 => Not the main route of methanol toxicity
+
+@q Metabolic acidosis and the anion gap | 3N
+s: A 23-year-old woman is brought to the emergency department after taking a large number of pills. She has tinnitus, vomiting, and a temperature of 38.4°C (101.1°F). Respirations are 32/min and deep.
+$ Arterial pH; 7.44; 7.35–7.45
+$ PaCO₂; 21 mm Hg; 35–45
+$ Bicarbonate; 14 mEq/L; 22–28
+$ Sodium; 140 mEq/L; 136–145
+$ Chloride; 102 mEq/L; 95–105
+? Which of the following best describes her acid-base status?
+> Compensated respiratory alkalosis ; Metabolic acidosis with appropriate respiratory compensation ; Normal anion gap metabolic acidosis ; *Respiratory alkalosis and high anion gap metabolic acidosis ; Respiratory alkalosis and metabolic alkalosis
+= Salicylates stimulate the respiratory centre directly (respiratory alkalosis) and uncouple oxidative phosphorylation (lactic and keto acids: high anion gap acidosis). Anion gap = 140 − (102 + 14) = 24. Winter predicts a PaCO₂ of 27 to 31 for a bicarbonate of 14; 21 is lower, so a second, respiratory process is present.
+~ PaCO₂ of 29 instead → metabolic acidosis with appropriate compensation
+c: tinnitus | PaCO₂ 21 | Bicarbonate 14 | Respirations are 32/min
+m: Aspirin → respiratory centre stimulated → CO₂ blown off; aspirin → uncoupled mitochondria → lactate and ketoacids → anion gap acidosis → pH lands near normal
+g: Near-normal pH with both PaCO₂ and HCO₃⁻ very low = two disorders; with tinnitus think salicylate
+f: PaCO₂ had been 29 mm Hg => Metabolic acidosis with appropriate respiratory compensation
+f: the anion gap had been 10 with a bicarbonate of 14 => Normal anion gap metabolic acidosis
+f: she had a bicarbonate of 18 after 3 days at high altitude with no ingestion => Compensated respiratory alkalosis
+f: she had been vomiting with a bicarbonate of 34 and hyperventilating from pain => Respiratory alkalosis and metabolic alkalosis
+x: Compensated respiratory alkalosis => The anion gap of 24 shows an added acid
+x: Metabolic acidosis with appropriate respiratory compensation => PaCO₂ is below the Winter range
+x: Normal anion gap metabolic acidosis => The gap is 24
+x: Respiratory alkalosis and metabolic alkalosis => Bicarbonate is low, not high
+
+@q Metabolic alkalosis | 2R
+s: A 4-week-old boy has had 5 days of forceful vomiting after every feed. The vomit contains no bile. He is dehydrated, and a firm, mobile mass is palpable in the epigastrium. Urinalysis shows acidic urine.
+$ Sodium; 133 mEq/L; 136–145
+$ Potassium; 2.9 mEq/L; 3.5–5.0
+$ Chloride; 84 mEq/L; 95–105
+$ Bicarbonate; 34 mEq/L; 22–28
+? Which of the following best explains his acidic urine?
+> Excess bicarbonate secretion by beta-intercalated cells ; Gastric acid absorbed into the blood ; Impaired H⁺ secretion in the distal tubule ; Reduced carbonic anhydrase activity ; *Sodium reabsorption in exchange for H⁺ to defend volume
+= Hypertrophic pyloric stenosis causes loss of HCl. Volume depletion raises aldosterone, and chloride is too low to accompany sodium, so the collecting duct reclaims sodium in exchange for H⁺ and K⁺. The result is paradoxical aciduria despite a metabolic alkalosis.
+~ Early, before he was dry → alkaline urine as excess HCO₃⁻ is dumped
+c: forceful vomiting after every feed | Chloride 84 | Bicarbonate 34 | acidic urine
+m: HCl vomited → alkalosis and volume loss → aldosterone up, Cl⁻ low → Na⁺ reclaimed with H⁺ and K⁺ secreted → acidic urine and hypokalaemia keep the alkalosis going
+g: Volume beats pH: the kidney defends volume first, so urine turns acidic in a vomiting alkalosis
+f: the question asked how the kidney would correct the alkalosis once volume and chloride are restored => Excess bicarbonate secretion by beta-intercalated cells
+f: he had a distal RTA with acidosis and alkaline urine => Impaired H⁺ secretion in the distal tubule
+f: he had been given acetazolamide => Reduced carbonic anhydrase activity
+f: the question asked about hydrogen ions that were swallowed back => Gastric acid absorbed into the blood
+x: Excess bicarbonate secretion by beta-intercalated cells => That would make the urine alkaline; it happens once chloride is replaced
+x: Gastric acid absorbed into the blood => The acid is lost, which is why he is alkalotic
+x: Impaired H⁺ secretion in the distal tubule => Type 1 RTA gives acidosis with alkaline urine
+x: Reduced carbonic anhydrase activity => Acetazolamide causes acidosis with alkaline urine
+
+@q Metabolic alkalosis | 2L
+s: A 36-year-old woman has fatigue and muscle cramps. Blood pressure is 102/64 mm Hg. She has dental erosions and calluses on the backs of her fingers, but she denies vomiting. Serum potassium is 3.0 mEq/L and bicarbonate is 33 mEq/L.
+$ Urine chloride; 9 mEq/L;
+$ Urine sodium; 32 mEq/L;
+? Which of the following is the most likely cause of her metabolic alkalosis?
+> Bartter syndrome ; Current diuretic use ; Gitelman syndrome ; Primary hyperaldosteronism ; *Self-induced vomiting
+= Low urine chloride (under 20 mEq/L) marks a saline-responsive alkalosis from chloride loss outside the kidney: vomiting or nasogastric suction. Dental erosions and knuckle calluses point to self-induced vomiting. Diuretics and Bartter or Gitelman keep urine chloride high, and hyperaldosteronism raises blood pressure.
+~ Urine chloride 70 with normal BP → current diuretic use
+c: Urine chloride 9 | dental erosions | calluses on the backs of her fingers | 102/64 mm Hg
+m: Vomiting → HCl and volume lost → aldosterone up, Cl⁻ scarce → H⁺ and K⁺ secreted → alkalosis maintained; kidney holds every Cl⁻ → urine Cl⁻ very low
+g: Urine chloride under 20 = the chloride left by the mouth or gut, not the kidney
+f: urine chloride had been 70 mEq/L with a positive diuretic screen => Current diuretic use
+f: she had hypertension, low renin and high aldosterone => Primary hyperaldosteronism
+f: urine chloride had been high with low urine calcium and low magnesium, screen negative => Gitelman syndrome
+f: urine chloride had been high with high urine calcium in a child => Bartter syndrome
+x: Bartter syndrome => Urine chloride would be high, as with a loop diuretic
+x: Current diuretic use => Urine chloride stays high while the diuretic acts
+x: Gitelman syndrome => Urine chloride would be high
+x: Primary hyperaldosteronism => Causes hypertension and a saline-resistant, high urine chloride alkalosis
+
+@q Respiratory acid-base disorders and compensation | 2N
+s: A 68-year-old man with severe chronic obstructive pulmonary disease comes for a routine visit. He has a 50 pack-year smoking history and is at his usual level of breathlessness. He is alert and oriented.
+$ Arterial pH; 7.35; 7.35–7.45
+$ PaCO₂; 60 mm Hg; 35–45
+$ Bicarbonate; 32 mEq/L; 22–28
+$ PaO₂; 58 mm Hg; 75–105
+? Which of the following best describes his acid-base status?
+> Acute respiratory acidosis ; *Chronic respiratory acidosis with renal compensation ; Metabolic alkalosis with respiratory compensation ; Respiratory acidosis and metabolic acidosis ; Respiratory acidosis and metabolic alkalosis
+= PaCO₂ is 20 above 40. Acute retention would raise bicarbonate only about 2 (1 per 10 mm Hg); after 3 to 5 days the kidney adds about 3.5 per 10, predicting 31. A bicarbonate of 32 with pH 7.35 fits a stable chronic respiratory acidosis.
+~ Same PaCO₂ with bicarbonate 26 and pH 7.24 → acute respiratory acidosis
+c: PaCO₂ 60 | Bicarbonate 32 | usual level of breathlessness
+m: Chronic CO₂ retention → renal tubules sense acidosis → more H⁺ secreted and HCO₃⁻ generated over days → bicarbonate rises by 3.5 per 10 mm Hg → pH pulled back toward normal
+g: Expected bicarbonate tells acute from chronic: 1 per 10 versus 3.5 per 10
+f: bicarbonate had been 26 with a pH of 7.24 after an opioid overdose => Acute respiratory acidosis
+f: bicarbonate had been 40 after starting high-dose diuretics => Respiratory acidosis and metabolic alkalosis
+f: bicarbonate had been 20 with a pH of 7.10 during septic shock => Respiratory acidosis and metabolic acidosis
+f: he had been vomiting with PaCO₂ 50 and bicarbonate 38 and pH 7.49 => Metabolic alkalosis with respiratory compensation
+x: Acute respiratory acidosis => Bicarbonate would be about 26, not 32
+x: Metabolic alkalosis with respiratory compensation => The pH is low, so the primary process is an acidosis
+x: Respiratory acidosis and metabolic acidosis => Bicarbonate is high, not low
+x: Respiratory acidosis and metabolic alkalosis => Bicarbonate fits the predicted 31 within about 2
+
+@q Respiratory acid-base disorders and compensation | 1T
+s: A 22-year-old woman is brought to the emergency department after a panic attack. She has tingling around her mouth and in her fingers, and her hands cramp into flexion when a blood pressure cuff is inflated. Respirations are 30/min. Arterial pH is 7.55 and PaCO₂ is 24 mm Hg.
+? Which of the following best explains her tingling and cramping?
+> Decreased total serum calcium from renal losses ; *Increased binding of calcium to albumin ; Increased secretion of calcitonin ; Increased serum phosphate binding calcium ; Reduced parathyroid hormone release
+= Hyperventilation removes CO₂ and raises pH. Albumin releases H⁺ in alkalaemia, exposing negative sites that bind more calcium, so ionised calcium falls while total calcium is unchanged. Low ionised calcium makes nerves fire: perioral tingling, carpopedal spasm and a positive Trousseau sign.
+~ Same signs after thyroid surgery → reduced parathyroid hormone release
+c: tingling around her mouth | hands cramp into flexion when a blood pressure cuff is inflated | PaCO₂ is 24
+m: Hyperventilation → CO₂ falls → pH rises → albumin gives up H⁺ → binds more Ca²⁺ → ionised Ca²⁺ falls → nerve membranes excitable → tetany
+g: Total calcium normal, ionised calcium low: alkalosis moves calcium onto albumin
+f: she had the same signs a day after a total thyroidectomy => Reduced parathyroid hormone release
+f: she had chronic kidney disease with high phosphate => Increased serum phosphate binding calcium
+f: she had been taking a loop diuretic for weeks => Decreased total serum calcium from renal losses
+f: the question asked which hormone a medullary thyroid cancer secretes => Increased secretion of calcitonin
+x: Decreased total serum calcium from renal losses => Minutes of hyperventilation do not change total calcium
+x: Increased secretion of calcitonin => Calcitonin has little effect on serum calcium in adults
+x: Increased serum phosphate binding calcium => Phosphate is not raised by panic
+x: Reduced parathyroid hormone release => Her parathyroid glands are intact
+
+@q Renal tubular acidosis | 2L
+s: A 44-year-old woman with dry eyes and dry mouth for 3 years has flank pain. CT shows a calcium phosphate stone in the left ureter and medullary nephrocalcinosis. Urine pH is 6.4.
+$ Sodium; 139 mEq/L; 136–145
+$ Potassium; 3.1 mEq/L; 3.5–5.0
+$ Chloride; 112 mEq/L; 95–105
+$ Bicarbonate; 16 mEq/L; 22–28
+? Which of the following is the most likely underlying defect?
+> Excess bicarbonate loss in the proximal tubule ; Impaired ammonia production from aldosterone deficiency ; *Impaired H⁺ secretion by alpha-intercalated cells ; Increased chloride reabsorption in the loop ; Loss of the Na⁺/Cl⁻ cotransporter
+= Sjögren syndrome can cause distal (type 1) RTA: alpha-intercalated cells cannot secrete H⁺, so urine pH stays above 5.5 despite acidaemia. Hypokalaemia, hypercalciuria and low urine citrate encourage calcium phosphate stones and nephrocalcinosis. Anion gap = 139 − (112 + 16) = 11, normal.
+~ Hyperkalaemia with urine pH under 5.5 in a diabetic → type 4 RTA
+c: dry eyes and dry mouth | Urine pH is 6.4 | Potassium 3.1 | calcium phosphate stone
+m: Autoimmune injury to alpha-intercalated cells → H⁺ not secreted → urine cannot acidify → HCO₃⁻ falls, Cl⁻ rises → bone buffers release calcium and citrate falls → calcium phosphate stones
+g: Normal gap acidosis with urine pH over 5.5, low K⁺ and stones = type 1 RTA
+f: she had hyperkalaemia, diabetes and urine pH 5.0 on lisinopril => Impaired ammonia production from aldosterone deficiency
+f: she had Fanconi syndrome from myeloma with glucosuria => Excess bicarbonate loss in the proximal tubule
+f: she had alkalosis with low urine calcium and low magnesium => Loss of the Na⁺/Cl⁻ cotransporter
+f: the question asked what replaces lost bicarbonate in a hyperchloraemic acidosis => Increased chloride reabsorption in the loop
+x: Excess bicarbonate loss in the proximal tubule => Type 2 RTA can acidify urine below 5.5 once bicarbonate is low, and stones are rare
+x: Impaired ammonia production from aldosterone deficiency => Type 4 RTA causes hyperkalaemia
+x: Increased chloride reabsorption in the loop => Not a recognised cause of RTA
+x: Loss of the Na⁺/Cl⁻ cotransporter => Gitelman syndrome causes alkalosis, not acidosis
+
+@q Renal tubular acidosis | 3D
+s: A 63-year-old man with type 2 diabetes and diabetic nephropathy was started on lisinopril 2 months ago to reduce proteinuria. He feels well and has had no vomiting or diarrhea. He also takes metformin and atorvastatin. Examination shows mild ankle edema. Urine pH is 5.1.
+$ Sodium; 138 mEq/L; 136–145
+$ Potassium; 6.0 mEq/L; 3.5–5.0
+$ Chloride; 110 mEq/L; 95–105
+$ Bicarbonate; 18 mEq/L; 22–28
+$ Creatinine; 1.7 mg/dL; 0.6–1.2
+$ Plasma renin activity; low;
+? Which of the following most directly limits acid excretion in this patient?
+> Impaired H⁺-ATPase function in alpha-intercalated cells ; Loss of carbonic anhydrase in the proximal tubule ; *Reduced ammonium production caused by hyperkalemia ; Reduced filtration of phosphate buffers ; Urinary loss of bicarbonate from Fanconi syndrome
+= Type 4 RTA comes from too little aldosterone action: diabetic damage to the juxtaglomerular apparatus (hyporeninaemic hypoaldosteronism) worsened by an ACE inhibitor. Hyperkalaemia suppresses ammoniagenesis in the proximal tubule, so there is too little NH₃ to carry H⁺ out. H⁺ pumps still work, so urine pH stays under 5.5.
+~ Urine pH over 5.5 with hypokalaemia and stones → impaired H⁺-ATPase function
+c: diabetic nephropathy | lisinopril | Potassium 6.0 | Urine pH is 5.1
+m: Diabetes damages JG cells → little renin → little aldosterone (plus ACE inhibitor) → K⁺ retained → hyperkalaemia blocks ammoniagenesis → less NH₄⁺ excreted → normal gap acidosis with acidic urine
+g: Hyperkalaemic normal gap acidosis with acidic urine = type 4: ammonia, not the pump, is the bottleneck
+f: urine pH had been 6.5 with hypokalaemia and nephrocalcinosis => Impaired H⁺-ATPase function in alpha-intercalated cells
+f: he had glucosuria with normal blood glucose and phosphaturia => Urinary loss of bicarbonate from Fanconi syndrome
+f: he had started acetazolamide for glaucoma => Loss of carbonic anhydrase in the proximal tubule
+f: the question asked about titratable acid in advanced CKD with low GFR => Reduced filtration of phosphate buffers
+x: Impaired H⁺-ATPase function in alpha-intercalated cells => Type 1 RTA, with urine pH over 5.5 and hypokalaemia
+x: Loss of carbonic anhydrase in the proximal tubule => Acetazolamide effect; he is not taking it
+x: Reduced filtration of phosphate buffers => Contributes in advanced CKD but does not explain the high potassium
+x: Urinary loss of bicarbonate from Fanconi syndrome => Type 2 RTA causes hypokalaemia
+
+@q Renal tubular acidosis | 2T
+s: A 66-year-old man has back pain and fatigue. Serum protein is high with a low albumin, and protein electrophoresis shows a monoclonal spike. Urinalysis shows 2+ glucose with a serum glucose of 94 mg/dL. Serum phosphate is 2.1 mg/dL, and he has a normal anion gap metabolic acidosis.
+? In which part of the nephron is the transport defect causing his acidosis?
+> Collecting duct ; Distal convoluted tubule ; Glomerulus ; *Proximal convoluted tubule ; Thick ascending limb
+= Light chains filtered in multiple myeloma injure proximal tubule cells, causing Fanconi syndrome: glucose, amino acids, phosphate and bicarbonate escape. Losing bicarbonate is a proximal (type 2) RTA, and the phosphate loss weakens bone.
+~ Urine pH stuck above 5.5 with stones → collecting duct (type 1 RTA)
+c: monoclonal spike | 2+ glucose with a serum glucose of 94 mg/dL | Serum phosphate is 2.1 mg/dL
+m: Myeloma light chains filtered → endocytosed by PCT cells → cell injury → glucose, phosphate, amino acids and HCO₃⁻ lost → normal gap acidosis
+g: Glucosuria with normal blood glucose + low phosphate + acidosis = Fanconi = proximal
+f: urine pH had stayed above 5.5 with calcium phosphate stones => Collecting duct
+f: he had hypokalaemic alkalosis with low urine calcium => Distal convoluted tubule
+f: he had hypokalaemic alkalosis with high urine calcium => Thick ascending limb
+f: he had nephrotic-range proteinuria from AL amyloid => Glomerulus
+x: Collecting duct => Distal RTA, without glucosuria or phosphaturia
+x: Distal convoluted tubule => Gitelman-type defects cause alkalosis
+x: Glomerulus => Amyloid in the glomerulus causes proteinuria, not bicarbonate wasting
+x: Thick ascending limb => Bartter-type defects cause alkalosis
+
+@q Nephritic syndrome | 1T
+s: A 7-year-old boy has puffy eyes and cola-colored urine. He had crusted, honey-colored sores around his nose 3 weeks ago that resolved. Blood pressure is 132/86 mm Hg. Urinalysis shows red blood cell casts and 1+ protein.
+$ Serum C3; low;
+$ Anti-streptolysin O; normal;
+$ Anti-DNase B; high;
+? Which of the following is most likely to be seen on electron microscopy of a kidney biopsy?
+> Basket-weave splitting of the basement membrane ; Diffuse podocyte foot process effacement ; Mesangial IgA deposits ; Subendothelial deposits with tram-track splitting ; *Subepithelial immune complex humps
+= Poststreptococcal glomerulonephritis follows group A strep throat or skin infection by 2 to 3 weeks. Immune complexes deposit beneath the epithelium as humps, complement is consumed (low C3), and children usually recover fully. After skin infection, anti-DNase B is the more reliable antibody.
+~ Haematuria 2 days after a sore throat with normal C3 → mesangial deposits (IgA)
+c: honey-colored sores | 3 weeks ago | red blood cell casts | Serum C3 low
+m: Group A strep antigen → immune complexes → subepithelial deposits → complement activated (low C3) → glomerular inflammation → haematuria, RBC casts, hypertension
+g: Weeks after strep, low C3, RBC casts in a child = subepithelial humps
+f: haematuria had begun 2 days after a sore throat with normal complement => Mesangial IgA deposits
+f: he had haematuria, deafness and an affected maternal uncle => Basket-weave splitting of the basement membrane
+f: he had hepatitis C and low C3 as an adult => Subendothelial deposits with tram-track splitting
+f: he had heavy proteinuria and normal light microscopy after a cold => Diffuse podocyte foot process effacement
+x: Basket-weave splitting of the basement membrane => Alport syndrome, from type IV collagen mutation
+x: Diffuse podocyte foot process effacement => Minimal change disease, which is nephrotic
+x: Mesangial IgA deposits => IgA nephropathy starts within days of infection with normal C3
+x: Subendothelial deposits with tram-track splitting => Membranoproliferative GN
+
+@q Nephritic syndrome | 2T
+s: A 24-year-old man has had three episodes of painless, tea-colored urine over 2 years, each starting the day after an upper respiratory infection. Between episodes his urine shows microscopic hematuria. Blood pressure is 128/82 mm Hg. Serum C3 and C4 are normal.
+? A kidney biopsy is most likely to show deposits of which immunoglobulin, and where?
+> IgA in a subepithelial location ; *IgA in the mesangium ; IgG in a linear pattern along the basement membrane ; IgG in a subendothelial location ; IgM in a subepithelial location
+= IgA nephropathy (Berger disease) is the commonest glomerulonephritis worldwide. Poorly galactosylated IgA1 forms complexes that lodge in the mesangium, and episodes of haematuria follow mucosal infections within 1 to 2 days. Complement levels stay normal.
+~ Haematuria 3 weeks after a sore throat with low C3 → subepithelial humps
+c: the day after an upper respiratory infection | three episodes | C3 and C4 are normal
+m: Mucosal infection → abnormal IgA1 and anti-IgA antibodies → complexes trapped in the mesangium → mesangial cells proliferate → haematuria within days
+g: Haematuria a day or two after a cold, normal complement = mesangial IgA
+f: he had coughed blood with kidney failure => IgG in a linear pattern along the basement membrane
+f: he had SLE with wire loops on light microscopy => IgG in a subendothelial location
+f: the haematuria had begun 3 weeks after strep throat with low C3 => IgA in a subepithelial location
+f: he had a monoclonal IgM paraprotein with hyperviscosity => IgM in a subepithelial location
+x: IgA in a subepithelial location => Subepithelial humps belong to poststreptococcal GN, which carries IgG and C3
+x: IgG in a linear pattern along the basement membrane => Anti-GBM disease
+x: IgG in a subendothelial location => Lupus or membranoproliferative GN
+x: IgM in a subepithelial location => Not a recognised pattern for this story
+
+@q Nephritic syndrome | 2T
+s: A 27-year-old man who smokes has had 1 week of coughing up blood and 3 days of reduced urine output. Chest x-ray shows bilateral alveolar infiltrates. Serum creatinine has risen from 0.9 mg/dL to 4.2 mg/dL. Urinalysis shows red blood cell casts. Immunofluorescence of a kidney biopsy shows smooth, ribbon-like IgG staining along the capillary loops.
+? The antibodies in this patient are directed against which of the following?
+> Desmoglein 3 ; *Noncollagenous domain of the α3 chain of type IV collagen ; Phospholipase A₂ receptor on podocytes ; Proteinase 3 in neutrophil granules ; Type I collagen in the interstitium
+= Anti-GBM disease targets the α3 chain of type IV collagen, found in glomerular and alveolar basement membranes: a type II hypersensitivity with linear IgG on immunofluorescence. Smoking and inhaled injury expose the alveolar antigen, giving lung haemorrhage (Goodpasture syndrome). Plasmapheresis removes the antibody.
+~ Sinusitis, lung nodules and no immune deposits → proteinase 3 (GPA)
+c: coughing up blood | red blood cell casts | ribbon-like IgG staining along the capillary loops
+m: Antibodies to type IV collagen α3 → bind glomerular and alveolar basement membrane → complement and neutrophils → crescentic GN and lung haemorrhage
+g: Lung bleeding + kidney failure + LINEAR IgG = anti-GBM (type IV collagen)
+f: he had sinusitis, lung nodules and no immune deposits on biopsy => Proteinase 3 in neutrophil granules
+f: he had nephrotic syndrome with spike and dome basement membrane => Phospholipase A₂ receptor on podocytes
+f: he had flaccid mouth blisters with a positive Nikolsky sign => Desmoglein 3
+f: the question asked what keloids are made from => Type I collagen in the interstitium
+x: Desmoglein 3 => Pemphigus vulgaris, a skin disease
+x: Phospholipase A₂ receptor on podocytes => Membranous nephropathy, which is nephrotic
+x: Proteinase 3 in neutrophil granules => Granulomatosis with polyangiitis gives pauci-immune staining
+x: Type I collagen in the interstitium => Not targeted in any glomerulonephritis
+
+@q Nephritic syndrome | 2T
+s: A 19-year-old man has had microscopic hematuria since childhood and now has a rising serum creatinine. He wears hearing aids for bilateral sensorineural hearing loss, and slit-lamp examination shows a conical bulge of the anterior lens. His maternal uncle needed dialysis at age 30.
+? A mutation in which of the following is most likely responsible?
+> Fibrillin 1 ; Polycystin 1 ; *Type IV collagen ; Uromodulin ; WT1 transcription factor
+= Alport syndrome is a mutation in type IV collagen, usually X-linked. The glomerular basement membrane thins, then splits into a basket-weave pattern; the cochlea and lens use the same collagen, giving deafness and anterior lenticonus. Affected males progress to kidney failure.
+~ Lens dislocated upward with tall stature → fibrillin 1
+c: hearing aids | conical bulge of the anterior lens | maternal uncle | hematuria since childhood
+m: Faulty type IV collagen → basement membranes of glomerulus, cochlea and lens fail → haematuria and progressive CKD, sensorineural deafness, lenticonus
+g: Kidney + ears + eyes with X-linked inheritance = type IV collagen (Alport)
+f: he had tall stature and upward lens dislocation => Fibrillin 1
+f: he had huge cystic kidneys and a berry aneurysm in his 40s => Polycystin 1
+f: he had gout and shrunken kidneys with a dominant family history => Uromodulin
+f: he had a Wilms tumour with aniridia as a child => WT1 transcription factor
+x: Fibrillin 1 => Marfan syndrome, with lens dislocation and aortic root disease
+x: Polycystin 1 => ADPKD, with enlarged cystic kidneys in adults
+x: Uromodulin => A cause of autosomal dominant tubulointerstitial disease with gout
+x: WT1 transcription factor => Wilms tumour syndromes, not deafness and lenticonus
+
+@q Nephritic syndrome | 2T
+s: A 52-year-old woman has 3 weeks of sinus pain with bloody nasal discharge, cough, and blood-tinged sputum. Chest CT shows multiple cavitating nodules. Urinalysis shows red blood cell casts, and serum creatinine is 3.1 mg/dL. Kidney biopsy shows crescents with little or no immunoglobulin or complement on immunofluorescence.
+? Which of the following antibodies is most likely present?
+> Anti-double-stranded DNA ; Anti-glomerular basement membrane ; Anti-myeloperoxidase ; Anti-phospholipase A₂ receptor ; *Anti-proteinase 3
+= Granulomatosis with polyangiitis affects the upper airway, lungs and kidneys with necrotising granulomas and a pauci-immune crescentic GN. PR3-ANCA (c-ANCA) is typical. MPO-ANCA fits microscopic polyangiitis (no granulomas, no upper airway disease) and eosinophilic granulomatosis.
+~ No sinus disease and no granulomas → anti-myeloperoxidase (microscopic polyangiitis)
+c: bloody nasal discharge | cavitating nodules | little or no immunoglobulin or complement
+m: PR3-ANCA activate primed neutrophils → necrotising vasculitis of small vessels → granulomas in airways, crescents in glomeruli → haemoptysis, sinusitis, RPGN
+g: Sinuses + lungs + kidneys + pauci-immune crescents = GPA (PR3)
+f: she had kidney and lung involvement but no sinus disease or granulomas => Anti-myeloperoxidase
+f: biopsy had shown linear IgG staining => Anti-glomerular basement membrane
+f: she had a malar rash and wire loops on biopsy => Anti-double-stranded DNA
+f: she had nephrotic syndrome with spike and dome basement membrane => Anti-phospholipase A₂ receptor
+x: Anti-double-stranded DNA => Lupus nephritis shows granular immune deposits
+x: Anti-glomerular basement membrane => Gives linear IgG, not pauci-immune staining
+x: Anti-myeloperoxidase => Microscopic polyangiitis spares the sinuses and lacks granulomas
+x: Anti-phospholipase A₂ receptor => Membranous nephropathy is nephrotic
+
+@q Nephrotic syndrome | 1T
+s: A 4-year-old boy has swelling around his eyes for 1 week that started after a cold. His legs are now swollen. Blood pressure is normal. Urinalysis shows 4+ protein and no blood. Serum albumin is 1.8 g/dL, and serum cholesterol is high.
+? Which of the following findings is most likely on kidney biopsy?
+> Crescents in Bowman space ; Mesangial IgA deposits ; Nodular glomerulosclerosis ; *Normal light microscopy with effacement of podocyte foot processes ; Subepithelial spikes with granular IgG
+= Minimal change disease is the commonest nephrotic syndrome in children. Light microscopy looks normal; electron microscopy shows effaced podocyte foot processes. Loss of the charge barrier leaks albumin selectively, and nearly all children respond to corticosteroids, so biopsy is often skipped.
+~ An adult with anti-PLA2R antibodies → subepithelial spikes with granular IgG
+c: 4-year-old boy | after a cold | 4+ protein and no blood | Serum albumin is 1.8 g/dL
+m: Cytokines from T cells injure podocytes → foot processes efface → charge barrier lost → selective albuminuria → low oncotic pressure → oedema; liver makes more lipoproteins
+g: Child + pure nephrotic + after a cold = minimal change; light microscopy is normal
+f: he had been a 50-year-old with anti-PLA2R antibodies => Subepithelial spikes with granular IgG
+f: he had long-standing diabetes with proteinuria => Nodular glomerulosclerosis
+f: he had haematuria 2 days after a cold with normal complement => Mesangial IgA deposits
+f: his creatinine had tripled in 2 weeks with haematuria => Crescents in Bowman space
+x: Crescents in Bowman space => Rapidly progressive GN is nephritic
+x: Mesangial IgA deposits => IgA nephropathy presents with haematuria
+x: Nodular glomerulosclerosis => Diabetic nephropathy after years of diabetes
+x: Subepithelial spikes with granular IgG => Membranous nephropathy in adults
+
+@q Nephrotic syndrome | 2L
+s: A 56-year-old man has 2 months of leg swelling and frothy urine. He takes no medications. Urine protein is 6.2 g/24 h, and urinalysis shows no red blood cells. Serum albumin is 2.3 g/dL. Serum antibodies against a podocyte transmembrane receptor are positive. Biopsy shows thickened capillary walls without cell proliferation.
+? Which additional finding is most likely on the biopsy?
+> Crescents in most glomeruli ; Foot process effacement with normal capillary walls ; Mesangial expansion with IgA ; *Spike and dome appearance on silver stain ; Tram-track double contour of the basement membrane
+= Membranous nephropathy is a leading cause of nephrotic syndrome in adults. Antibodies to the phospholipase A₂ receptor on podocytes form subepithelial immune deposits; new basement membrane grows between them, giving spikes on silver stain. Secondary forms follow SLE, hepatitis B, NSAIDs and solid tumours.
+~ Hepatitis C with low C3 and a nephritic picture → tram-track double contour
+c: Urine protein is 6.2 g/24 h | podocyte transmembrane receptor | thickened capillary walls
+m: Anti-PLA2R binds podocytes → subepithelial immune complexes → complement injures podocytes → heavy proteinuria; basement membrane grows around deposits → spike and dome
+g: Adult nephrotic + anti-PLA2R + thick capillary walls = membranous, spike and dome
+f: he had hepatitis C, low C3 and haematuria => Tram-track double contour of the basement membrane
+f: he had been a child with normal light microscopy => Foot process effacement with normal capillary walls
+f: he had haematuria after a cold with normal complement => Mesangial expansion with IgA
+f: his creatinine had tripled in weeks with haematuria => Crescents in most glomeruli
+x: Crescents in most glomeruli => Rapidly progressive GN, which is nephritic
+x: Foot process effacement with normal capillary walls => Minimal change disease
+x: Mesangial expansion with IgA => IgA nephropathy, which is nephritic
+x: Tram-track double contour of the basement membrane => Membranoproliferative GN
+
+@q Nephrotic syndrome | 2D
+s: A 52-year-old woman with type 2 diabetes for 14 years has a urine albumin to creatinine ratio of 410 mg/g. Blood pressure is 142/88 mm Hg. Serum creatinine is 1.3 mg/dL. She is started on lisinopril.
+? The drug slows progression of her kidney disease mainly through which of the following?
+> Dilation of the afferent arteriole ; *Dilation of the efferent arteriole ; Increased glomerular capillary hydrostatic pressure ; Increased renal tubular glucose excretion ; Reduced podocyte proliferation
+= In diabetic nephropathy, glomerular hyperfiltration (partly from efferent arteriole hyalinosis and angiotensin II) drives damage. ACE inhibitors relax the efferent arteriole, lowering intraglomerular pressure and proteinuria. Expect a small, acceptable rise in creatinine.
+~ The drug had been an SGLT2 inhibitor → increased renal tubular glucose excretion
+c: type 2 diabetes for 14 years | albumin to creatinine ratio of 410 mg/g | lisinopril
+m: Angiotensin II squeezes the efferent arteriole → high glomerular pressure → hyperfiltration injury → ACE inhibitor relaxes efferent → pressure and proteinuria fall
+g: ACE inhibitors protect diabetic kidneys by opening the efferent arteriole
+f: the drug had been empagliflozin and the question asked about urine glucose => Increased renal tubular glucose excretion
+f: the question asked about prostaglandins that NSAIDs block => Dilation of the afferent arteriole
+f: the question asked what angiotensin II does in the glomerulus => Increased glomerular capillary hydrostatic pressure
+f: the question asked about collapsing FSGS in HIV => Reduced podocyte proliferation
+x: Dilation of the afferent arteriole => Would raise glomerular pressure; prostaglandins do this
+x: Increased glomerular capillary hydrostatic pressure => That is the harm being reversed
+x: Increased renal tubular glucose excretion => SGLT2 inhibitors, not ACE inhibitors
+x: Reduced podocyte proliferation => Not how ACE inhibitors work
+
+@q Nephrotic syndrome | 2T
+s: A 61-year-old woman with long-standing rheumatoid arthritis has leg swelling and frothy urine. Urine protein is 5.8 g/24 h. Abdominal fat pad aspirate stained with Congo red shows apple-green birefringence under polarized light.
+? The deposited protein is most likely derived from which of the following?
+> β₂-Microglobulin ; Immunoglobulin light chains ; Islet amyloid polypeptide ; *Serum amyloid A ; Transthyretin
+= Chronic inflammation (rheumatoid arthritis, inflammatory bowel disease, chronic infection) keeps the liver making serum amyloid A, an acute-phase protein that deposits as AA amyloid. Kidneys are the commonest target, giving nephrotic syndrome. AL amyloid from light chains fits myeloma.
+~ Same biopsy with a monoclonal protein and no inflammation → immunoglobulin light chains
+c: long-standing rheumatoid arthritis | apple-green birefringence | Urine protein is 5.8 g/24 h
+m: Chronic inflammation → IL-6 → liver makes serum amyloid A → misfolded fragments form β-pleated sheets → deposit in glomeruli → nephrotic syndrome
+g: Amyloid + chronic inflammation = AA (serum amyloid A)
+f: she had a monoclonal spike and no inflammatory disease => Immunoglobulin light chains
+f: she had been on haemodialysis for 15 years with carpal tunnel syndrome => β₂-Microglobulin
+f: she had restrictive cardiomyopathy in old age with a normal kidney => Transthyretin
+f: the question asked about pancreatic islet deposits in type 2 diabetes => Islet amyloid polypeptide
+x: β₂-Microglobulin => Deposits in long-term dialysis patients
+x: Immunoglobulin light chains => AL amyloid with plasma cell disorders
+x: Islet amyloid polypeptide => Deposits in islets in type 2 diabetes
+x: Transthyretin => Senile cardiac or hereditary amyloid
+
+@q Acute kidney injury and urinary casts | 2N
+s: A 74-year-old man has had 4 days of vomiting and diarrhea with poor oral intake. He is lightheaded on standing. Blood pressure is 96/60 mm Hg. The urine is concentrated, and microscopy shows a few hyaline casts.
+$ BUN; 64 mg/dL; 7–18
+$ Creatinine; 2.0 mg/dL; 0.6–1.2
+$ Serum sodium; 138 mEq/L; 136–145
+$ Urine sodium; 10 mEq/L;
+$ Urine creatinine; 120 mg/dL;
+? Which of the following best fits his fractional excretion of sodium and diagnosis?
+> FENa about 0.1%, postrenal obstruction ; *FENa about 0.1%, prerenal azotemia ; FENa about 1%, acute interstitial nephritis ; FENa about 3%, acute tubular necrosis ; FENa about 3%, prerenal azotemia
+= FENa = (urine Na × plasma creatinine) ÷ (plasma Na × urine creatinine) × 100 = (10 × 2.0) ÷ (138 × 120) × 100, about 0.12%. Under 1% with BUN to creatinine of 32 means the tubules are working hard to hold sodium: prerenal azotaemia from volume loss.
+~ Muddy brown casts with FENa over 2% → acute tubular necrosis
+c: vomiting and diarrhea | BUN 64 | Urine sodium 10 | hyaline casts
+m: Volume loss → low renal perfusion → aldosterone and ADH up → tubules reclaim Na⁺ and urea avidly → FENa under 1%, BUN to creatinine over 20
+g: FENa under 1% plus BUN to creatinine over 20 = prerenal
+f: urine sodium had been 60 with muddy brown granular casts => FENa about 3%, acute tubular necrosis
+f: he had a palpable bladder and bilateral hydronephrosis early on => FENa about 0.1%, postrenal obstruction
+f: he had fever, rash and urine eosinophils after a new antibiotic => FENa about 1%, acute interstitial nephritis
+f: he had been given furosemide the night before, which raises FENa despite low perfusion => FENa about 3%, prerenal azotemia
+x: FENa about 0.1%, postrenal obstruction => Early obstruction can look prerenal, but nothing suggests obstruction here
+x: FENa about 1%, acute interstitial nephritis => Needs a drug trigger and WBC casts
+x: FENa about 3%, acute tubular necrosis => The tubules here still conserve sodium
+x: FENa about 3%, prerenal azotemia => Only fits a prerenal patient on a diuretic; his FENa is 0.12%
+
+@q Acute kidney injury and urinary casts | 2D
+s: A 66-year-old man is hospitalized for an infection of a prosthetic knee and treated with intravenous gentamicin and vancomycin. On day 8, his serum creatinine rises from 1.0 mg/dL to 2.8 mg/dL. He has no rash or fever. Urine microscopy shows many muddy brown granular casts, and fractional excretion of sodium is 3.2%.
+? Which part of the nephron is most likely injured?
+> Collecting duct ; Glomerular basement membrane ; Interstitium with eosinophils ; *Proximal tubular epithelium ; Renal papillae
+= Aminoglycosides are taken up by proximal tubule cells through megalin and injure them, causing acute tubular necrosis after 5 to 10 days of therapy. Dead cells slough into the lumen and form muddy brown granular casts, and the injured tubule cannot reclaim sodium (FENa over 2%).
+~ Fever, rash and eosinophils in the urine → interstitium with eosinophils
+c: gentamicin | muddy brown granular casts | fractional excretion of sodium is 3.2%
+m: Aminoglycoside filtered → endocytosed by PCT cells → lysosomal and mitochondrial injury → cells necrose and slough → casts block tubules → GFR falls, sodium wasted
+g: Aminoglycoside + muddy brown casts + FENa over 2% = proximal tubular ATN
+f: he had developed fever, rash and eosinophiluria => Interstitium with eosinophils
+f: he had sickle cell trait with gross haematuria and flank pain => Renal papillae
+f: he had haemoptysis and RBC casts => Glomerular basement membrane
+f: he had developed polyuria with dilute urine on lithium => Collecting duct
+x: Collecting duct => Lithium affects it, causing nephrogenic DI rather than ATN
+x: Glomerular basement membrane => Glomerular injury gives RBC casts
+x: Interstitium with eosinophils => Acute interstitial nephritis gives WBC casts and often rash
+x: Renal papillae => Papillary necrosis presents with haematuria and colic
+
+@q Acute kidney injury and urinary casts | 2D
+s: A 47-year-old woman develops fever and a pruritic, maculopapular rash 10 days after starting omeprazole for heartburn. Serum creatinine has risen from 0.8 mg/dL to 2.1 mg/dL. Urinalysis shows white blood cell casts and sterile pyuria. Peripheral eosinophil count is elevated.
+? Which of the following best describes the kidney injury?
+> Antibody against type IV collagen ; Crystal deposition in tubular lumens ; Ischemic necrosis of tubular cells ; *T cell-mediated hypersensitivity in the interstitium ; Thrombotic microangiopathy
+= Acute interstitial nephritis is a delayed (type IV) hypersensitivity reaction, typically to PPIs, penicillins, NSAIDs or diuretics. Fever, rash, eosinophilia and WBC casts with sterile pyuria are the clues. Stopping the drug is the key step; steroids may help.
+~ Haematuria with linear IgG → antibody against type IV collagen
+c: omeprazole | fever and a pruritic, maculopapular rash | white blood cell casts | eosinophil count is elevated
+m: Drug acts as a hapten on tubular proteins → T cells and eosinophils infiltrate the interstitium → tubules swell and fail → creatinine rises, WBC casts appear
+g: New drug + fever + rash + eosinophils + WBC casts = AIN, a type IV reaction
+f: she had haemoptysis and linear IgG on biopsy => Antibody against type IV collagen
+f: she had high-dose acyclovir without fluids => Crystal deposition in tubular lumens
+f: she had hypotension from sepsis with muddy brown casts => Ischemic necrosis of tubular cells
+f: she had schistocytes and low platelets after bloody diarrhoea => Thrombotic microangiopathy
+x: Antibody against type IV collagen => Anti-GBM disease causes RBC casts
+x: Crystal deposition in tubular lumens => Acyclovir, methotrexate or ethylene glycol
+x: Ischemic necrosis of tubular cells => ATN gives muddy brown casts, without rash or eosinophilia
+x: Thrombotic microangiopathy => Haemolytic uraemic syndrome with schistocytes
+
+@q Acute kidney injury and urinary casts | 2T
+s: A 23-year-old Black man with sickle cell trait has sudden painless gross hematuria after a week of marathon training. He takes ibuprofen frequently for leg pain. Urine culture is negative. CT urography shows a ring-shaped filling defect at the tip of a renal pyramid.
+? Which of the following best explains his condition?
+> Glomerular inflammation from immune complexes ; *Ischemic necrosis of the renal papilla ; Obstruction of the ureteropelvic junction ; Sloughed tumor from the renal pelvis ; Thrombosis of the renal vein
+= The renal medulla is hypoxic and hypertonic; in sickle cell trait, red cells sickle in the vasa recta and starve the papillae, especially with dehydration and NSAIDs. The papilla dies and sloughs, causing gross haematuria and sometimes colic. Other causes: analgesics, diabetes, acute pyelonephritis.
+~ Haematuria with oedema and heavy proteinuria in nephrotic syndrome → thrombosis of the renal vein
+c: sickle cell trait | ibuprofen frequently | tip of a renal pyramid
+m: Hypoxic, hypertonic medulla → red cells sickle in the vasa recta (plus NSAIDs remove prostaglandin dilation) → papillary ischaemia → necrosis and sloughing → gross haematuria
+g: Sickle trait + NSAIDs + haematuria from the papilla = papillary necrosis
+f: he had nephrotic syndrome with sudden flank pain => Thrombosis of the renal vein
+f: he had cola urine 3 weeks after strep throat => Glomerular inflammation from immune complexes
+f: he had been a smoker in his 60s with a filling defect in the renal pelvis => Sloughed tumor from the renal pelvis
+f: he had intermittent flank pain after heavy drinking since childhood => Obstruction of the ureteropelvic junction
+x: Glomerular inflammation from immune complexes => Would give RBC casts and proteinuria
+x: Obstruction of the ureteropelvic junction => Causes hydronephrosis, not a papillary defect
+x: Sloughed tumor from the renal pelvis => Urothelial cancer in an older smoker
+x: Thrombosis of the renal vein => Complicates nephrotic syndrome
+
+@q Chronic kidney disease and renal osteodystrophy | 2R
+s: A 59-year-old man with chronic kidney disease from long-standing hypertension has aching bone pain in his hips and legs and generalized itching. His estimated GFR is 18 mL/min/1.73 m². He is not yet on dialysis and takes amlodipine and furosemide. Hand x-rays show subperiosteal bone resorption.
+$ Calcium; 8.1 mg/dL; 8.4–10.2
+$ Phosphate; 6.4 mg/dL; 3.0–4.5
+$ Parathyroid hormone; 420 pg/mL; 10–65
+$ Alkaline phosphatase; 210 U/L; 25–100
+? Which of the following is the primary trigger for his hormonal abnormality?
+> Autonomous parathyroid adenoma ; Increased renal calcium excretion ; *Phosphate retention with reduced calcitriol ; PTH-related peptide from a tumor ; Vitamin D intoxication
+= Failing kidneys retain phosphate, which binds calcium and drives FGF23; FGF23 and the loss of renal mass cut 1α-hydroxylase, so calcitriol falls and gut calcium absorption drops. Low calcium, high phosphate and low calcitriol all stimulate PTH: secondary hyperparathyroidism and renal osteodystrophy.
+~ Years later, calcium high and PTH very high → tertiary hyperparathyroidism (autonomous)
+c: Phosphate 6.4 | Calcium 8.1 | Parathyroid hormone 420 | estimated GFR is 18
+m: Nephron loss → phosphate retained, FGF23 up → calcitriol falls → calcium falls → parathyroid glands stimulated → PTH high → bone resorbed (osteitis fibrosa cystica)
+g: Low calcium + high phosphate + high PTH in CKD = secondary hyperparathyroidism
+f: calcium had been 11.4 with low phosphate and a neck mass => Autonomous parathyroid adenoma
+f: calcium had been 13.5 with low PTH and a lung mass => PTH-related peptide from a tumor
+f: calcium had been high with low PTH after megadoses of supplements => Vitamin D intoxication
+f: the question asked what loop diuretics do to calcium => Increased renal calcium excretion
+x: Autonomous parathyroid adenoma => Primary hyperparathyroidism raises calcium
+x: Increased renal calcium excretion => Failing kidneys excrete less, and this is not the trigger
+x: PTH-related peptide from a tumor => Causes hypercalcaemia with suppressed PTH
+x: Vitamin D intoxication => Causes hypercalcaemia with suppressed PTH
+
+@q Chronic kidney disease and renal osteodystrophy | 2N
+s: A 64-year-old woman with stage 4 chronic kidney disease from diabetes has 6 months of fatigue and breathlessness on exertion. She eats a varied diet and takes no iron supplements. She has had no bleeding, and a stool test for occult blood is negative. Peripheral smear shows normal-appearing red cells.
+$ Hemoglobin; 8.9 g/dL; 12.0–16.0
+$ Mean corpuscular volume; 88 fL; 80–100
+$ Reticulocytes; 0.4%; 0.5–1.5
+$ Ferritin; 310 ng/mL; 10–120
+$ Transferrin saturation; 28%; 20–50
+? Which of the following is the most likely cause of her anemia?
+> Chronic blood loss ; *Decreased erythropoietin production ; Folate deficiency ; Hemolysis from uremic toxins ; Iron deficiency
+= Erythropoietin comes from interstitial cells near the peritubular capillaries. As CKD destroys them, EPO falls, giving a normocytic, hypoproliferative anaemia with a low reticulocyte count. Iron stores here are adequate, so an EPO-stimulating agent is the treatment.
+~ Low ferritin and microcytosis → iron deficiency
+c: stage 4 chronic kidney disease | Mean corpuscular volume 88 | Reticulocytes 0.4% | Ferritin 310
+m: CKD destroys peritubular interstitial cells → little EPO → marrow not stimulated → few reticulocytes → normocytic anaemia
+g: Normocytic, low reticulocytes, iron replete, CKD = low EPO
+f: ferritin had been 8 ng/mL with an MCV of 72 fL => Iron deficiency
+f: MCV had been 112 fL with hypersegmented neutrophils => Folate deficiency
+f: occult blood had been positive with low ferritin => Chronic blood loss
+f: reticulocytes had been 6% with schistocytes => Hemolysis from uremic toxins
+x: Chronic blood loss => Would deplete iron and raise reticulocytes
+x: Folate deficiency => Causes macrocytosis
+x: Hemolysis from uremic toxins => Would raise reticulocytes
+x: Iron deficiency => Ferritin is high and saturation normal
+
+@q Kidney stones | 2T
+s: A 38-year-old woman with Crohn disease had 90 cm of ileum resected 3 years ago. She now has colicky right flank pain radiating to the groin. Noncontrast CT shows a 6-mm radiopaque stone in the right ureter. Urine microscopy shows envelope-shaped crystals.
+? Which of the following best explains her stone formation?
+> Defective renal reabsorption of cystine ; *Increased colonic absorption of oxalate ; Increased renal urate excretion ; Primary hyperparathyroidism ; Urease-producing bacteria in the urine
+= With ileal disease, unabsorbed fat binds calcium in the gut lumen. Oxalate normally pairs with that calcium and is excreted in stool; instead it stays free, is absorbed in the colon and is excreted in urine, forming calcium oxalate stones (enteric hyperoxaluria).
+~ Hexagonal crystals in a young man → defective renal reabsorption of cystine
+c: Crohn disease | 90 cm of ileum resected | envelope-shaped crystals
+m: Ileal loss → bile acids and fat malabsorbed → fat binds gut calcium → oxalate left free → colonic absorption → hyperoxaluria → calcium oxalate stones
+g: Fat malabsorption steals calcium from oxalate: enteric hyperoxaluria
+f: urine had shown hexagonal crystals with a positive nitroprusside test => Defective renal reabsorption of cystine
+f: the stone had been radiolucent after chemotherapy for leukaemia => Increased renal urate excretion
+f: she had a staghorn calculus with alkaline urine and Proteus => Urease-producing bacteria in the urine
+f: she had high calcium, high PTH and recurrent stones => Primary hyperparathyroidism
+x: Defective renal reabsorption of cystine => Cystinuria gives hexagonal crystals
+x: Increased renal urate excretion => Uric acid stones are radiolucent
+x: Primary hyperparathyroidism => Possible cause of calcium stones, but her bowel history explains these
+x: Urease-producing bacteria in the urine => Struvite stones with coffin-lid crystals
+
+@q Kidney stones | 1L
+s: A 61-year-old woman with recurrent urinary tract infections has a large branching stone filling the left renal pelvis and calyces. Urine pH is 8.0, and microscopy shows coffin lid-shaped crystals. Urine smells of ammonia.
+? Which organism most likely contributed to this stone?
+> Candida albicans ; Enterococcus faecalis ; Escherichia coli ; *Proteus mirabilis ; Streptococcus agalactiae
+= Urease splits urea into ammonia, alkalinising the urine. Magnesium ammonium phosphate (struvite) then precipitates into staghorn calculi. Proteus mirabilis is the classic urease producer; Klebsiella and Staphylococcus saprophyticus can also make urease. The stone must be removed, because bacteria live inside it.
+~ Radiolucent stone with acidic urine → uric acid, not infection
+c: large branching stone | Urine pH is 8.0 | coffin lid-shaped crystals | smells of ammonia
+m: Urease → urea to ammonia → urine pH rises → struvite (magnesium ammonium phosphate) precipitates → staghorn calculus shelters bacteria → recurrent infection
+g: Alkaline urine + staghorn + coffin lids = urease (Proteus)
+f: the culture had grown a gram-negative rod that ferments lactose, with no stone => Escherichia coli
+f: the infection had been in a pregnant woman screened for group B strep => Streptococcus agalactiae
+f: she had an infection after urinary catheterisation with a gram-positive coccus resistant to cephalosporins => Enterococcus faecalis
+f: she had diabetes with fungal balls in the bladder => Candida albicans
+x: Candida albicans => Causes fungal UTI and fungus balls, not struvite
+x: Enterococcus faecalis => Not a typical urease producer
+x: Escherichia coli => The commonest UTI cause, but it does not make urease
+x: Streptococcus agalactiae => Not a urease producer
+
+@q Kidney stones | 2D
+s: A 58-year-old man starts chemotherapy for acute myeloid leukemia with a white blood cell count of 160,000/mm³. Two days later his urine output falls and his creatinine rises. Serum potassium is 6.1 mEq/L, phosphate is 7.8 mg/dL, and uric acid is 15 mg/dL. Plain x-ray shows no stones, but ultrasound shows bilateral hydronephrosis.
+? Which drug given before chemotherapy would have most directly prevented this complication by lowering uric acid production?
+> *Allopurinol ; Colchicine ; Hydrochlorothiazide ; Probenecid ; Sodium bicarbonate
+= Tumour lysis releases nucleic acids that are broken down to uric acid, which crystallises in acidic tubular fluid and forms radiolucent stones (invisible on plain film). Allopurinol inhibits xanthine oxidase and lowers uric acid production; rasburicase breaks down uric acid already formed. Hydration comes first.
+~ Uric acid already formed and needing breakdown → rasburicase
+c: white blood cell count of 160,000/mm³ | uric acid is 15 mg/dL | Plain x-ray shows no stones
+m: Chemotherapy lyses blasts → purines released → xanthine oxidase makes uric acid → crystals in acidic collecting ducts → obstructive uropathy
+g: Prevent tumour lysis: fluids plus a xanthine oxidase inhibitor
+f: the question asked about calcium stones that recur with hypercalciuria => Hydrochlorothiazide
+f: the question asked about an acute gout flare to be settled fast => Colchicine
+f: the question asked about raising uric acid excretion in gout with low urate output => Probenecid
+f: the question asked how to dissolve an existing uric acid stone => Sodium bicarbonate
+x: Colchicine => Treats gout inflammation; it does not lower uric acid
+x: Hydrochlorothiazide => Lowers urine calcium and can raise serum urate
+x: Probenecid => Increases urate excretion, which raises tubular uric acid and worsens tumour lysis
+x: Sodium bicarbonate => Alkalinisation is no longer routine and does not reduce production
+
+@q Kidney stones | 2L
+s: A 15-year-old boy has had three episodes of kidney stones since age 10. His older sister also has recurrent stones. Urine microscopy shows flat hexagonal crystals, and the urinary cyanide-nitroprusside test is positive.
+? A defect in the renal reabsorption of which group of amino acids is most likely?
+> Branched-chain amino acids ; *Cystine, ornithine, lysine, and arginine ; Glycine and proline ; Neutral amino acids including tryptophan ; Phenylalanine and tyrosine
+= Cystinuria is an autosomal recessive defect of the PCT transporter for cystine, ornithine, lysine and arginine (COLA). Cystine is poorly soluble and forms hexagonal crystals and stones from childhood. Treatment: lots of fluid, urine alkalinisation and chelators such as penicillamine or tiopronin.
+~ Pellagra-like rash with aminoaciduria → neutral amino acids including tryptophan (Hartnup)
+c: flat hexagonal crystals | cyanide-nitroprusside test is positive | older sister
+m: Transporter for dibasic amino acids and cystine fails in the PCT → cystine filtered but not reclaimed → poorly soluble cystine in urine → hexagonal crystals → stones
+g: Hexagonal crystals + positive nitroprusside = cystinuria (COLA)
+f: he had a pellagra-like rash with ataxia => Neutral amino acids including tryptophan
+f: he had urine that smelt of maple syrup in infancy => Branched-chain amino acids
+f: he had a musty odour, fair skin and intellectual disability => Phenylalanine and tyrosine
+f: he had iminoglycinuria found on newborn screening => Glycine and proline
+x: Branched-chain amino acids => Maple syrup urine disease is a metabolic, not transport, defect
+x: Glycine and proline => Iminoglycinuria is benign and does not cause stones
+x: Neutral amino acids including tryptophan => Hartnup disease, which causes pellagra-like features
+x: Phenylalanine and tyrosine => Phenylketonuria, a liver enzyme defect
+
+@q Cystic kidney disease | 2T
+s: A 42-year-old man has sudden, severe headache followed by vomiting and neck stiffness. He has had hypertension and intermittent flank pain for years, and his father died on dialysis. Both kidneys are palpable. CT of the head shows blood in the subarachnoid space.
+? A mutation in a gene on which chromosome is most likely responsible for his kidney disease?
+> Chromosome 3 ; Chromosome 6 ; Chromosome 11 ; *Chromosome 16 ; X chromosome
+= Autosomal dominant polycystic kidney disease is usually a PKD1 mutation on chromosome 16 (PKD2 on chromosome 4 is milder). Huge cystic kidneys bring hypertension, haematuria, stones and CKD; berry aneurysms can rupture as subarachnoid haemorrhage. Liver cysts, mitral valve prolapse and diverticulosis also occur.
+~ A newborn with Potter sequence and liver fibrosis → chromosome 6 (PKHD1)
+c: palpable | father died on dialysis | blood in the subarachnoid space
+m: PKD1 mutation → polycystin fails → tubular cells proliferate into cysts → kidneys enlarge, RAAS activated → hypertension; vessel wall defect → berry aneurysm → subarachnoid haemorrhage
+g: Big cystic kidneys + family history + berry aneurysm = ADPKD, chromosome 16
+f: he had been a newborn with Potter sequence and congenital hepatic fibrosis => Chromosome 6
+f: he had renal cell carcinoma, retinal haemangioblastomas and cerebellar tumours => Chromosome 3
+f: he had been a toddler with a flank mass and aniridia => Chromosome 11
+f: he had haematuria with deafness and lenticonus => X chromosome
+x: Chromosome 3 => VHL gene, with renal cell carcinoma and haemangioblastomas
+x: Chromosome 6 => PKHD1 in autosomal recessive polycystic kidney disease
+x: Chromosome 11 => WT1 in Wilms tumour
+x: X chromosome => Alport syndrome, usually X-linked
+
+@q Cystic kidney disease | 2T
+s: A newborn girl has respiratory distress shortly after birth. Her mother had oligohydramnios. The baby has a flattened nose, recessed chin, and low-set ears. Both flanks are distended by enormous, smooth kidneys. Liver ultrasonography shows periportal fibrosis.
+? Which of the following best describes the inheritance of this condition?
+> Autosomal dominant with variable penetrance ; *Autosomal recessive ; Mitochondrial ; Multifactorial ; X-linked dominant
+= Autosomal recessive polycystic kidney disease (PKHD1, fibrocystin) presents in infancy with huge spongy kidneys, oligohydramnios and Potter sequence; pulmonary hypoplasia causes the respiratory distress. Congenital hepatic fibrosis leads to portal hypertension in survivors.
+~ Adult with berry aneurysm and cystic kidneys → autosomal dominant
+c: oligohydramnios | enormous, smooth kidneys | periportal fibrosis | respiratory distress shortly after birth
+m: PKHD1 mutation → collecting duct cysts in utero → no fetal urine → oligohydramnios → Potter sequence and pulmonary hypoplasia; bile duct plate fails → hepatic fibrosis
+g: Newborn with huge kidneys + liver fibrosis + Potter = ARPKD
+f: she had been an adult with cystic kidneys and a family history in her father => Autosomal dominant with variable penetrance
+f: she had lactic acidosis, stroke-like episodes and ragged red fibres => Mitochondrial
+f: she had cleft lip and palate with no family history => Multifactorial
+f: she had hypophosphataemic rickets like her father => X-linked dominant
+x: Autosomal dominant with variable penetrance => ADPKD usually presents in adults
+x: Mitochondrial => Fits MELAS-type diseases, not cystic kidneys
+x: Multifactorial => Cleft lip or neural tube defects
+x: X-linked dominant => Hypophosphataemic rickets and Rett syndrome
+
+@q Renal and urinary tract tumours | 2T
+s: A 63-year-old man who smokes has 2 months of dull left flank pain and visible hematuria. He has also noticed a new swelling of veins in his left scrotum that does not drain when he lies down. Hemoglobin is 19.2 g/dL. CT shows a 7-cm mass in the left kidney extending into the renal vein.
+? The tumor most likely arises from which of the following cells?
+> Collecting duct intercalated cells ; Juxtaglomerular cells ; Metanephric blastema ; *Proximal tubule epithelial cells ; Urothelial cells of the renal pelvis
+= Renal cell carcinoma arises from proximal tubule cells; the clear cell type follows VHL loss on chromosome 3, which stabilises HIF and drives VEGF and EPO. EPO causes polycythaemia. The tumour grows into the renal vein; on the left this blocks the gonadal vein and causes a varicocele that does not empty on lying down.
+~ A benign tumour with a central scar and mitochondria-packed cells → collecting duct intercalated cells (oncocytoma)
+c: Hemoglobin is 19.2 g/dL | does not drain when he lies down | extending into the renal vein | smokes
+m: VHL lost → HIF accumulates → VEGF and EPO switched on → vascular tumour invades the renal vein → left gonadal vein blocked → varicocele; EPO → polycythaemia
+g: Flank mass + haematuria + polycythaemia + left varicocele = RCC from proximal tubule cells
+f: biopsy had shown large eosinophilic cells packed with mitochondria and a central scar => Collecting duct intercalated cells
+f: he had been a 3-year-old with a flank mass => Metanephric blastema
+f: he had painless haematuria with a filling defect in the pelvis after aniline dye work => Urothelial cells of the renal pelvis
+f: he had a young patient's hypertension with high renin and a small kidney tumour => Juxtaglomerular cells
+x: Collecting duct intercalated cells => Oncocytoma, usually benign
+x: Juxtaglomerular cells => Reninoma, a rare cause of hypertension
+x: Metanephric blastema => Wilms tumour in young children
+x: Urothelial cells of the renal pelvis => Urothelial carcinoma, without polycythaemia
+
+@q Renal and urinary tract tumours | 1T
+s: A 3-year-old girl is brought for evaluation of a firm, smooth mass in the right flank found while bathing. It does not cross the midline. She has hypertension and microscopic hematuria. She also has enlargement of the right arm and leg compared with the left, and she had an umbilical defect repaired at birth.
+? Which of the following is the most likely diagnosis?
+> Hepatoblastoma ; Neuroblastoma ; Renal cell carcinoma ; Teratoma ; *Wilms tumor
+= Wilms tumour (nephroblastoma) is the commonest kidney cancer in children aged 2 to 4: a smooth unilateral flank mass that does not cross the midline, with haematuria and renin-driven hypertension. Hemihypertrophy and an omphalocele point to Beckwith-Wiedemann syndrome (WT2 region on chromosome 11).
+~ A mass crossing the midline with raised catecholamines → neuroblastoma
+c: does not cross the midline | enlargement of the right arm and leg | umbilical defect | 3-year-old girl
+m: Loss of WT1 or WT2 on chromosome 11 → embryonic kidney tissue keeps proliferating → mass of blastema, stroma and epithelium → renin release → hypertension
+g: Child + flank mass not crossing midline + hemihypertrophy = Wilms (Beckwith-Wiedemann)
+f: the mass had crossed the midline with high urine homovanillic acid => Neuroblastoma
+f: the mass had come from the liver with a very high AFP => Hepatoblastoma
+f: he had been a 60-year-old smoker with polycythaemia => Renal cell carcinoma
+f: the mass had been in the sacrococcygeal region with teeth and hair => Teratoma
+x: Hepatoblastoma => Arises in the liver, with a high AFP
+x: Neuroblastoma => Often crosses the midline and raises catecholamine metabolites
+x: Renal cell carcinoma => A disease of older adults
+x: Teratoma => Contains tissue from all three germ layers, usually sacrococcygeal in infants
+
+@q Renal and urinary tract tumours | 1T
+s: A 64-year-old man who worked for 30 years in a dye manufacturing plant has painless gross hematuria. He has smoked a pack of cigarettes a day for 40 years. Cystoscopy shows a papillary mass on the bladder wall.
+? Which of the following is the most likely diagnosis?
+> Adenocarcinoma of the urachus ; Leiomyosarcoma ; Renal cell carcinoma ; Squamous cell carcinoma ; *Urothelial carcinoma
+= Urothelial (transitional cell) carcinoma is the commonest bladder cancer. Risk factors: smoking, aromatic amines in dye and rubber work, phenacetin and cyclophosphamide. Painless haematuria in an older smoker is bladder cancer until proven otherwise. Squamous cell carcinoma follows Schistosoma haematobium and chronic irritation.
+~ Bladder cancer in an Egyptian farmer with schistosomiasis → squamous cell carcinoma
+c: dye manufacturing plant | painless gross hematuria | smoked a pack of cigarettes a day
+m: Aromatic amines and tobacco carcinogens filtered → concentrated in urine → contact with urothelium → DNA damage → papillary urothelial carcinoma
+g: Painless haematuria + smoking + dye work = urothelial carcinoma
+f: he had grown up with schistosomiasis in Egypt => Squamous cell carcinoma
+f: the tumour had been at the bladder dome in the midline => Adenocarcinoma of the urachus
+f: he had a flank mass with polycythaemia => Renal cell carcinoma
+f: the tumour had been a bulky smooth muscle tumour after pelvic radiation => Leiomyosarcoma
+x: Adenocarcinoma of the urachus => Rare, at the dome, from urachal remnants
+x: Leiomyosarcoma => Rare smooth muscle cancer
+x: Renal cell carcinoma => A kidney tumour with a different risk profile
+x: Squamous cell carcinoma => Linked to schistosomiasis and chronic irritation
+
+@q Glomerular filtration and clearance | 2N
+s: A healthy 25-year-old volunteer takes part in a physiology study of kidney function. He receives a continuous infusion of inulin and para-aminohippuric acid (PAH) until plasma levels are stable. After equilibration, a timed urine collection and a midpoint plasma sample are obtained. He has normal blood pressure and takes no medications.
+$ Urine flow; 1.2 mL/min;
+$ Plasma inulin; 1 mg/dL;
+$ Urine inulin; 100 mg/dL;
+$ Plasma PAH; 2 mg/dL;
+$ Urine PAH; 1000 mg/dL;
+? Which of the following is closest to this volunteer's filtration fraction?
+> 10% ; 15% ; *20% ; 25% ; 50%
+= GFR is inulin clearance: 100 × 1.2 ÷ 1 = 120 mL/min. Effective renal plasma flow is PAH clearance: 1000 × 1.2 ÷ 2 = 600 mL/min. Filtration fraction = GFR ÷ RPF = 120 ÷ 600 = 20%.
+~ Efferent arteriole constricted by angiotensin II → filtration fraction above 20%
+c: Urine inulin 100 | Urine PAH 1000 | Urine flow 1.2
+m: Inulin filtered only → clearance = GFR; PAH filtered and secreted → clearance = RPF → divide one by the other
+g: FF = C inulin ÷ C PAH
+f: GFR had been 120 with an RPF of 480 => 25%
+f: GFR had been 90 with an RPF of 600 => 15%
+f: GFR had been 60 with an RPF of 600 => 10%
+f: the PAH clearance had been mistaken for renal blood flow at a GFR of 300 => 50%
+x: 10% => Would need a GFR of 60
+x: 15% => Would need a GFR of 90
+x: 25% => Would need an RPF of 480
+x: 50% => Uses the wrong numerator or denominator
+
+@q Glomerular filtration and clearance | 3D
+s: A 71-year-old woman with heart failure and chronic kidney disease takes furosemide and lisinopril. She develops knee osteoarthritis and starts taking naproxen daily. Two weeks later her serum creatinine has risen from 1.4 mg/dL to 2.6 mg/dL and her ankles are more swollen.
+? Which of the following best describes the change in her glomerular hemodynamics caused by the new drug?
+> Afferent dilation with increased GFR ; *Afferent constriction with decreased GFR and RPF ; Efferent constriction with increased filtration fraction ; Efferent dilation with decreased GFR ; Increased Bowman space pressure
+= In heart failure and CKD, renal perfusion leans on prostaglandins that dilate the afferent arteriole, and on angiotensin II at the efferent arteriole. Naproxen removes the prostaglandins, so the afferent arteriole narrows and both RPF and GFR fall. With an ACE inhibitor already relaxing the efferent arteriole, GFR collapses.
+~ Starting lisinopril alone → efferent dilation with decreased GFR
+c: naproxen | lisinopril | 1.4 mg/dL to 2.6 mg/dL
+m: NSAID → prostaglandin synthesis blocked → afferent arteriole constricts → less flow into the glomerulus → RPF and GFR fall → creatinine rises, salt retained → oedema
+g: NSAIDs squeeze the afferent; ACE inhibitors relax the efferent; together they crush GFR
+f: the new drug had been lisinopril itself => Efferent dilation with decreased GFR
+f: she had been given angiotensin II in shock => Efferent constriction with increased filtration fraction
+f: she had a stone obstructing the ureter => Increased Bowman space pressure
+f: she had been a pregnant woman in the second trimester => Afferent dilation with increased GFR
+x: Afferent dilation with increased GFR => The opposite of an NSAID effect; pregnancy does this
+x: Efferent constriction with increased filtration fraction => Angiotensin II, not an NSAID
+x: Efferent dilation with decreased GFR => The ACE inhibitor's effect, which she already had
+x: Increased Bowman space pressure => Postrenal obstruction
+
+@q Proximal convoluted tubule | 2N
+s: A 30-year-old woman in the second trimester of pregnancy has glucose detected on a routine urine dipstick. Her fasting plasma glucose is 82 mg/dL, and a glucose tolerance test is normal. She has no polyuria or thirst.
+? Which of the following best explains her glucosuria?
+> Defective insulin secretion from beta cells ; Gestational diabetes mellitus ; *Increased filtered load of glucose with a lowered reabsorptive threshold ; Mutation in the SGLT1 transporter of the small intestine ; Proximal tubular damage from Fanconi syndrome
+= Pregnancy raises GFR by up to about 50%, so more glucose is filtered per minute, and proximal reabsorption becomes less efficient. Some glucose escapes into the urine although plasma glucose and glucose tolerance are normal: benign glucosuria of pregnancy.
+~ Abnormal glucose tolerance test at 26 weeks → gestational diabetes mellitus
+c: second trimester of pregnancy | fasting plasma glucose is 82 mg/dL | glucose tolerance test is normal
+m: Pregnancy → GFR up → more glucose filtered → SGLT2 capacity exceeded at a lower plasma level → glucose spills into urine
+g: Glucosuria with normal blood glucose in pregnancy = physiological, from a higher GFR
+f: her glucose tolerance test had been abnormal => Gestational diabetes mellitus
+f: she had aminoaciduria, phosphaturia and a normal anion gap acidosis => Proximal tubular damage from Fanconi syndrome
+f: she had been a newborn with severe watery diarrhoea from glucose and galactose => Mutation in the SGLT1 transporter of the small intestine
+f: she had been a thin teenager with ketoacidosis and very high glucose => Defective insulin secretion from beta cells
+x: Defective insulin secretion from beta cells => Type 1 diabetes would raise plasma glucose
+x: Gestational diabetes mellitus => Her glucose tolerance test is normal
+x: Mutation in the SGLT1 transporter of the small intestine => Causes glucose-galactose malabsorption in infants
+x: Proximal tubular damage from Fanconi syndrome => Would cause other losses and acidosis
+
+@q Renin-angiotensin-aldosterone and renal hormones | 2D
+s: A 66-year-old man with hypertension and diabetes is started on a new antihypertensive drug. Two weeks later, he presents with swelling of the lips and tongue but no hives or itching. He has no history of allergies. Serum potassium is 5.4 mEq/L.
+? Accumulation of which of the following most likely caused his swelling?
+> Angiotensin II ; *Bradykinin ; Histamine ; Leukotriene C₄ ; Renin
+= ACE inhibitors block angiotensin-converting enzyme, which also degrades bradykinin. Bradykinin builds up, causing vasodilation and vascular leak: angioedema without urticaria, and a dry cough. The same drug lowers aldosterone, explaining the raised potassium. An ARB is usually substituted, with care.
+~ Swelling with hives and itching after peanuts → histamine
+c: swelling of the lips and tongue but no hives or itching | new antihypertensive drug | Serum potassium is 5.4 mEq/L
+m: ACE inhibitor → ACE blocked → bradykinin not degraded → vasodilation and capillary leak → angioedema; less angiotensin II → less aldosterone → K⁺ retained
+g: Angioedema without hives on an ACE inhibitor = bradykinin
+f: he had urticaria and wheeze after eating peanuts => Histamine
+f: he had asthma worsened by aspirin with nasal polyps => Leukotriene C₄
+f: the question asked what rises in plasma when ACE is blocked, upstream of the block => Renin
+f: the question asked which hormone constricts the efferent arteriole => Angiotensin II
+x: Angiotensin II => Falls with an ACE inhibitor
+x: Histamine => Causes urticaria and itch, which he lacks
+x: Leukotriene C₄ => Drives aspirin-exacerbated respiratory disease
+x: Renin => Rises as feedback, but renin does not cause angioedema
+
+@q Renal embryology and anatomy | 2T
+s: A 15-year-old girl with short stature, a webbed neck, and widely spaced nipples has an abdominal ultrasound for recurrent urinary tract infections. Both kidneys are joined at their lower poles and lie lower than normal in the abdomen.
+? Ascent of the fused kidney was most likely blocked by which of the following?
+> Celiac trunk ; *Inferior mesenteric artery ; Renal veins ; Superior mesenteric artery ; Umbilical ligaments
+= In horseshoe kidney the lower poles fuse, and the isthmus catches under the inferior mesenteric artery as the kidneys ascend from the pelvis. It is associated with Turner syndrome and trisomies. Most are asymptomatic, but obstruction, stones, infection and Wilms tumour are more common.
+~ A left renal vein compressed during development → superior mesenteric artery (nutcracker)
+c: webbed neck | joined at their lower poles | short stature
+m: Lower poles fuse in the pelvis → kidney rises → isthmus meets the inferior mesenteric artery → ascent stops → low horseshoe kidney with ureters draped over the isthmus → stasis and infection
+g: Horseshoe kidney sticks under the IMA; think Turner
+f: the question asked which artery compresses the left renal vein in nutcracker syndrome => Superior mesenteric artery
+f: the question asked which artery supplies the foregut => Celiac trunk
+f: the question asked which structure the ureter passes under in the female pelvis => Umbilical ligaments
+f: the question asked what drains into the inferior vena cava from each kidney => Renal veins
+x: Celiac trunk => Arises high on the aorta and does not limit kidney ascent
+x: Renal veins => Do not block ascent
+x: Superior mesenteric artery => Lies higher; it compresses the left renal vein in nutcracker syndrome
+x: Umbilical ligaments => Remnants on the anterior abdominal wall
+
+@q Renal embryology and anatomy | 2T
+s: A 34-year-old woman undergoes an abdominal hysterectomy for large fibroids. On the second postoperative day she has right flank pain and fever, and a CT scan shows right hydroureteronephrosis with abrupt narrowing of the distal ureter near the cervix.
+? During the operation, the ureter was most likely injured while ligating which of the following?
+> Inferior epigastric artery ; Ovarian artery in the suspensory ligament ; Round ligament ; *Uterine artery ; Vaginal artery at the vault
+= Near the cervix the ureter passes just beneath the uterine artery (water under the bridge), so clamping or ligating the uterine artery can catch it. The ovarian vessels in the suspensory ligament are a second danger point, but higher, at the pelvic brim.
+~ Injury at the pelvic brim while dividing the infundibulopelvic ligament → ovarian artery
+c: hysterectomy | abrupt narrowing of the distal ureter near the cervix
+m: Ureter runs under the uterine artery 1 to 2 cm lateral to the cervix → clamp placed on the artery catches the ureter → obstruction → hydronephrosis and flank pain
+g: Water under the bridge: the ureter lies beneath the uterine artery
+f: the narrowing had been at the pelvic brim near the ovarian vessels => Ovarian artery in the suspensory ligament
+f: the injury had been during closure of the vaginal cuff => Vaginal artery at the vault
+f: the bleeding had come from the lower anterior abdominal wall during port placement => Inferior epigastric artery
+f: the question asked what runs through the inguinal canal in a woman => Round ligament
+x: Inferior epigastric artery => Lies in the anterior abdominal wall
+x: Ovarian artery in the suspensory ligament => A danger point, but at the pelvic brim, not beside the cervix
+x: Round ligament => Runs to the inguinal canal, away from the ureter
+x: Vaginal artery at the vault => Below the level where the ureter crosses
+
+@q Urinary tract infection and pyelonephritis | 1L
+s: A 20-year-old sexually active woman has 2 days of burning on urination and urinary frequency. She is afebrile. Urinalysis shows leukocyte esterase but is nitrite negative. Urine culture grows a gram-positive coccus in clusters that is catalase positive, coagulase negative, and resistant to novobiocin.
+? Which of the following organisms is most likely?
+> Enterococcus faecalis ; Staphylococcus aureus ; Staphylococcus epidermidis ; *Staphylococcus saprophyticus ; Streptococcus agalactiae
+= Staphylococcus saprophyticus is the second commonest cause of cystitis in young sexually active women. It is a coagulase-negative staphylococcus that is novobiocin resistant (S. epidermidis is sensitive). Gram-positive organisms do not reduce nitrate, so the nitrite test is negative.
+~ Novobiocin sensitive on a prosthetic valve → Staphylococcus epidermidis
+c: sexually active woman | coagulase negative | resistant to novobiocin | nitrite negative
+m: Gram-positive cocci in clusters → catalase positive (staphylococcus) → coagulase negative → novobiocin resistant → S. saprophyticus
+g: Coagulase-negative, novobiocin-resistant staph in a young woman's cystitis = saprophyticus
+f: the isolate had been novobiocin sensitive from an infected catheter => Staphylococcus epidermidis
+f: the isolate had been coagulase positive => Staphylococcus aureus
+f: the isolate had been catalase-negative cocci in chains growing in 6.5% salt => Enterococcus faecalis
+f: the isolate had been a catalase-negative, beta-haemolytic, CAMP-positive coccus in pregnancy => Streptococcus agalactiae
+x: Enterococcus faecalis => Catalase negative cocci in chains
+x: Staphylococcus aureus => Coagulase positive
+x: Staphylococcus epidermidis => Novobiocin sensitive; infects catheters and prostheses
+x: Streptococcus agalactiae => Catalase negative, in chains
+
+@q Urinary tract infection and pyelonephritis | 2T
+s: A 6-year-old girl has had five episodes of febrile urinary tract infection. A voiding cystourethrogram shows contrast flowing back from the bladder into both ureters and renal pelves. Her blood pressure is high for her age.
+? Biopsy of her kidneys would most likely show which of the following?
+> Crescents in Bowman space ; Foamy lipid-laden macrophages around a staghorn stone ; Muddy brown granular casts in tubules ; Normal glomeruli with podocyte effacement ; *Scarring with dilated tubules containing eosinophilic casts
+= Vesicoureteral reflux lets infected urine reach the kidneys repeatedly, producing chronic pyelonephritis: coarse corticomedullary scars, blunted calyces and atrophic, dilated tubules filled with eosinophilic casts that resemble thyroid follicles (thyroidisation). Scarring causes hypertension and CKD.
+~ A staghorn Proteus stone with foamy macrophages → xanthogranulomatous pyelonephritis
+c: five episodes of febrile urinary tract infection | flowing back from the bladder into both ureters | blood pressure is high
+m: Reflux → infected urine reaches the papillae → repeated pyelonephritis → scarring and tubular atrophy → thyroid-like tubules with casts → renin up and nephrons lost → hypertension and CKD
+g: Repeated infection plus reflux = chronic pyelonephritis with thyroidisation
+f: she had a staghorn calculus with Proteus infection => Foamy lipid-laden macrophages around a staghorn stone
+f: she had been nephrotic after a cold => Normal glomeruli with podocyte effacement
+f: her creatinine had tripled in 2 weeks with RBC casts => Crescents in Bowman space
+f: she had received aminoglycosides for 10 days => Muddy brown granular casts in tubules
+x: Crescents in Bowman space => Rapidly progressive GN
+x: Foamy lipid-laden macrophages around a staghorn stone => Xanthogranulomatous pyelonephritis
+x: Muddy brown granular casts in tubules => Acute tubular necrosis
+x: Normal glomeruli with podocyte effacement => Minimal change disease
+
+@q Calcium, phosphate and magnesium | 2D
+s: A 29-year-old woman at 35 weeks' gestation has severe preeclampsia and receives an intravenous infusion to prevent seizures. Six hours later she is drowsy, and her respirations are 8/min. Deep tendon reflexes cannot be elicited.
+? Which of the following is the most appropriate immediate treatment?
+> Flumazenil ; *Intravenous calcium gluconate ; Intravenous labetalol ; Naloxone ; Physostigmine
+= Magnesium sulfate toxicity first abolishes deep tendon reflexes, then depresses breathing and finally the heart. Calcium gluconate antagonises magnesium at the neuromuscular junction and cardiac membrane, reversing it quickly; the infusion is stopped.
+~ Pinpoint pupils after an opioid → naloxone
+c: preeclampsia | Deep tendon reflexes cannot be elicited | respirations are 8/min
+m: Magnesium sulfate → blocks calcium entry and acetylcholine release at the neuromuscular junction → reflexes lost → respiratory muscles weaken → calcium competes and restores release
+g: Lost reflexes on a magnesium infusion = magnesium toxicity: give calcium
+f: she had pinpoint pupils after morphine for pain => Naloxone
+f: she had become drowsy after midazolam => Flumazenil
+f: she had dry skin, dilated pupils and delirium after an antihistamine overdose => Physostigmine
+f: her blood pressure had been 180/120 mm Hg with normal reflexes => Intravenous labetalol
+x: Flumazenil => Reverses benzodiazepines
+x: Intravenous labetalol => Treats severe hypertension but not magnesium toxicity
+x: Naloxone => Reverses opioids
+x: Physostigmine => Reverses anticholinergic toxicity
+
+@q Calcium, phosphate and magnesium | 2R
+s: A 19-year-old woman with severe anorexia nervosa is admitted at a body mass index of 12.8 kg/m². Nasogastric feeding at full calories is started. On day 3 she becomes breathless and confused, with ankle edema and an irregular pulse.
+$ Phosphate; 0.9 mg/dL; 3.0–4.5
+$ Potassium; 2.8 mEq/L; 3.5–5.0
+$ Magnesium; 1.2 mg/dL; 1.5–2.0
+$ Glucose; 145 mg/dL; 70–100
+? Which of the following best explains her deterioration?
+> Hypercalcemia from immobilization ; Hyperglycemia-induced osmotic diuresis ; *Insulin-driven intracellular shift of phosphate, causing ATP depletion ; Thiamine excess from the feed ; Water intoxication from the feed
+= Refeeding switches metabolism from fat back to carbohydrate. Insulin drives phosphate, potassium and magnesium into cells, and total body phosphate was already depleted, so ATP and 2,3-BPG production fail: heart failure, respiratory muscle weakness, arrhythmias, confusion and rhabdomyolysis. Feeding should start low and rise slowly, with electrolytes replaced.
+~ Ataxia and ophthalmoplegia after glucose without thiamine → thiamine deficiency (not excess)
+c: body mass index of 12.8 | Phosphate 0.9 | full calories | On day 3
+m: Carbohydrate load → insulin surge → phosphate, K⁺ and Mg²⁺ pulled into cells → depleted phosphate stores collapse → no ATP for heart and diaphragm → heart failure and arrhythmia
+g: Refeeding syndrome kills through low phosphate: start feeds slowly
+f: she had been bedbound with a high calcium and a fracture => Hypercalcemia from immobilization
+f: her glucose had been 600 with polyuria => Hyperglycemia-induced osmotic diuresis
+f: her sodium had been 118 after drinking large volumes of water => Water intoxication from the feed
+f: the question had been about high-dose vitamin supplements causing harm => Thiamine excess from the feed
+x: Hypercalcemia from immobilization => Her problem is low phosphate, potassium and magnesium
+x: Hyperglycemia-induced osmotic diuresis => Glucose is only mildly raised
+x: Thiamine excess from the feed => Thiamine excess is not harmful; deficiency is the risk
+x: Water intoxication from the feed => Sodium is not given as low here

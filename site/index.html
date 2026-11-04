@@ -43,6 +43,9 @@ a.app:hover{transform:translateY(-2px);border-color:var(--c)}
 a.app:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
 .osce{--c:var(--osce);--soft:var(--osce-soft);--cink:var(--osce-ink)}
 .study{--c:var(--study);--soft:var(--study-soft);--cink:var(--study-ink)}
+.step1{--c:#5b7cfa;--soft:color-mix(in srgb,#5b7cfa 16%,transparent);--cink:#4a68e8}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .step1{--cink:#a9bcff}}
+:root[data-theme="dark"] .step1{--cink:#a9bcff}
 .tag{align-self:flex-start;font-family:var(--f-mono);font-size:.72rem;font-weight:700;letter-spacing:.06em;background:var(--soft);color:var(--cink);border-radius:99px;padding:3px 10px}
 a.app h2{font-family:var(--f-display);font-size:1.85rem;font-weight:800;margin:0;letter-spacing:-.02em}
 a.app h2 span{color:var(--cink)}
@@ -95,7 +98,7 @@ html[data-cursor="snitch"] a,html[data-cursor="snitch"] button{cursor:url("data:
   <div class="top">
     <div class="bill" aria-hidden="true">m</div>
     <h1>medengine<span class="ext">.exe</span></h1>
-    <span class="ver">v3.3.5</span>
+    <span class="ver">v3.4.0</span>
     <button class="theme" id="theme" type="button">◐ Theme</button>
   </div>
 
@@ -110,13 +113,18 @@ html[data-cursor="snitch"] a,html[data-cursor="snitch"] button{cursor:url("data:
       <h2>STUDY</h2>
       <div class="go">Launch → <kbd>2</kbd></div>
     </a>
+    <a class="app step1" id="step1" href="step1.html">
+      <span class="tag">🎯 USMLE</span>
+      <h2>STEP 1</h2>
+      <div class="go">Launch → <kbd>3</kbd></div>
+    </a>
   </div>
   <p class="edu">For education only, not medical advice. Check anything you act on against current UK guidance.</p>
 </main>
 <script>
 document.addEventListener('keydown', function (e) {
   if (e.metaKey || e.ctrlKey || e.altKey) return;
-  var t = e.key === '1' ? 'osce' : e.key === '2' ? 'study' : null;
+  var t = e.key === '1' ? 'osce' : e.key === '2' ? 'study' : e.key === '3' ? 'step1' : null;
   if (t) location.href = document.getElementById(t).href;
 });
 (function () {

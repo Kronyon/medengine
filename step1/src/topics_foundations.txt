@@ -1,0 +1,391 @@
+# medengine-STEP1 topics and red-flag triggers: foundations
+# @ section-id | Section name | First Aid chapter
+# # Topic name | disciplines
+# ! trigger scene, **flip words** in bold | lock-in: the answer and the second-order fact
+# Written in our own words from standard Step 1 knowledge; no text copied from any book or bank.
+
+@ biochem | Biochemistry & genetics | Biochemistry
+# DNA repair defects | biochem, genetics
+! Child with **freckling and blistering after minutes of sun**, skin cancers by age 10 | Xeroderma pigmentosum: **nucleotide excision repair** of thymine dimers fails
+! **Colon cancer before 50** without many polyps, plus endometrial cancer in relatives | Lynch syndrome: **mismatch repair** genes, microsatellite instability
+! Toddler with **wobbly gait, spider veins on the eyes** and repeated sinus infections | Ataxia-telangiectasia: **ATM** fails to repair double-strand breaks, low IgA
+! Woman with **breast and ovarian cancer** in young relatives | BRCA1 or BRCA2: **homologous recombination** of double-strand breaks
+# Inheritance and imprinting | genetics
+! Same 15q deletion, **father's copy lost**: hyperphagia, obesity, hypotonia | Prader-Willi: paternal deletion or **maternal uniparental disomy**
+! Same 15q deletion, **mother's copy lost**: happy puppet, seizures, ataxia | Angelman: **UBE3A** from mother missing
+! Disease **worse and earlier each generation** | Anticipation: **trinucleotide repeat expansion**, e.g. Huntington, myotonic dystrophy, fragile X
+! Affected mother passes it to **all children**, affected father to **none**, variable severity | Mitochondrial inheritance with **heteroplasmy**
+# Trisomies | genetics
+! **Flat face, single palmar crease, duodenal atresia**, endocardial cushion defect | Down syndrome: usually **meiotic nondisjunction**, raised risk with maternal age
+! **Clenched fists with overlapping fingers, rocker-bottom feet**, small jaw | Edwards syndrome, trisomy 18
+! **Cleft lip, holoprosencephaly, polydactyly**, scalp defect | Patau syndrome, trisomy 13
+! Quad screen: **low AFP and oestriol, high hCG and inhibin A** | Down syndrome pattern
+# Sex chromosome disorders | genetics, repro
+! **Tall, small firm testes, gynaecomastia**, infertile man | Klinefelter 47,XXY: **Barr body**, high FSH and LH, low testosterone
+! **Short girl, webbed neck, coarctation**, streak ovaries, horseshoe kidney | Turner 45,X: **primary ovarian failure**, high FSH
+# Collagen and connective tissue | biochem, msk
+! **Blue sclerae, multiple fractures** from minor falls, hearing loss | Osteogenesis imperfecta: **type I collagen** defect
+! **Hypermobile joints, stretchy skin**, easy bruising, berry aneurysms | Ehlers-Danlos: collagen processing, often **type III or V**
+! Boy with **kinky brittle hair**, hypotonia, growth failure | Menkes: **ATP7A**, low copper, so lysyl oxidase fails
+! **Bleeding gums, corkscrew hairs**, poor wound healing on a tea and toast diet | Scurvy: no **vitamin C**, so proline and lysine are not hydroxylated
+# Marfan syndrome | genetics, cardio
+! **Tall, long fingers, upward lens dislocation**, aortic root dilatation | Marfan: **fibrillin-1**, autosomal dominant
+! Marfan-like body but **lens dislocates downward**, intellectual disability, clots | Homocystinuria: **cystathionine synthase** deficiency
+# Glycogen storage diseases | biochem
+! Infant with **severe fasting hypoglycaemia, big liver**, lactic acidosis, high urate and lipids | Von Gierke: **glucose-6-phosphatase** deficiency
+! Floppy infant with a **huge heart** and early death | Pompe: lysosomal **acid alpha-glucosidase** deficiency
+! **Muscle cramps on exercise, myoglobinuria**, no lactate rise, second wind | McArdle: **muscle glycogen phosphorylase** deficiency
+! Like von Gierke but **milder, normal lactate**, abnormal glycogen with short branches | Cori: **debranching enzyme** deficiency
+# Lysosomal storage diseases | biochem
+! **Cherry-red macula, no hepatosplenomegaly**, Ashkenazi infant, onion-skin lysosomes | Tay-Sachs: **hexosaminidase A** deficiency
+! **Cherry-red macula with hepatosplenomegaly**, foam cells | Niemann-Pick: **sphingomyelinase** deficiency
+! **Crumpled tissue paper macrophages**, bone crises, big spleen | Gaucher: **glucocerebrosidase** deficiency, the commonest
+! Young man with **burning hands and feet, angiokeratomas**, early kidney and heart disease, X-linked | Fabry: **alpha-galactosidase A** deficiency
+! **Coarse face, corneal clouding**, airway obstruction | Hurler: **alpha-L-iduronidase** deficiency
+! Hurler-like boy with **clear corneas and aggressive behaviour**, X-linked | Hunter: **iduronate-2-sulfatase** deficiency
+# Amino acid disorders | biochem
+! Infant with **musty odour, fair skin**, intellectual disability | PKU: **phenylalanine hydroxylase** or BH4 deficiency, tyrosine becomes essential
+! **Urine turns black on standing**, dark ear cartilage, arthritis | Alkaptonuria: **homogentisate oxidase** deficiency
+! Newborn with **sweet-smelling urine** and poor feeding | Maple syrup urine disease: **branched-chain alpha-ketoacid dehydrogenase**, needs thiamine
+! **Hexagonal crystals** and recurrent stones, positive cyanide-nitroprusside | Cystinuria: **COLA** transporter defect in the PCT
+# Urea cycle and hyperammonaemia | biochem
+! Newborn boy with **vomiting, lethargy, high ammonia**, high orotic acid, **low BUN** | Ornithine transcarbamylase deficiency, X-linked
+! **High orotic acid without high ammonia**, megaloblastic anaemia unhelped by B12 | Orotic aciduria: **UMP synthase**, treat with uridine
+# Fructose and galactose disorders | biochem
+! Baby **vomits and becomes hypoglycaemic after starting fruit juice** | Hereditary fructose intolerance: **aldolase B**
+! Infant with **cataracts, jaundice and E. coli sepsis** after milk | Classic galactosaemia: **GALT** deficiency
+! **Cataracts only**, otherwise well | Galactokinase deficiency
+# Water-soluble vitamins | biochem
+! Alcoholic with **confusion, ataxia, eye movement palsy** | Wernicke: **thiamine B1**, give before glucose
+! **Diarrhoea, dermatitis on sun-exposed skin, dementia** | Pellagra: **niacin B3**, also Hartnup and carcinoid
+! **Macrocytic anaemia with neuropathy** and dorsal column loss | **Vitamin B12**: high methylmalonic acid and homocysteine
+! **Macrocytic anaemia without neuropathy**, normal methylmalonic acid | **Folate**: high homocysteine only
+# Fat-soluble vitamins | biochem
+! **Night blindness, dry eyes**, Bitot spots | Vitamin A deficiency
+! **Haemolysis and ataxia** with posterior column signs, normal B12 | Vitamin E deficiency
+! Newborn **bleeding on day 2 to 7** without prophylaxis | Vitamin K deficiency: sterile gut, low placental transfer
+# Lipid transport and dyslipidaemias | biochem, cardio
+! **Very high LDL, tendon xanthomas**, MI in young adults | Familial hypercholesterolaemia: **LDL receptor** defect
+! **Milky plasma, eruptive xanthomas, pancreatitis** in a child | Type I: **lipoprotein lipase** or apoC-II deficiency
+! **Tuberoeruptive xanthomas, palmar creases** yellow | Dysbetalipoproteinaemia: **apoE2**
+# Purine and pyrimidine disorders | biochem
+! Boy with **self-mutilation, gout, dystonia** | Lesch-Nyhan: **HGPRT** deficiency, X-linked
+! Infant with **SCID and no T or B cells**, toxic dATP | **Adenosine deaminase** deficiency
+# Fatty acid oxidation | biochem
+! Child **hypoglycaemic after fasting with low ketones**, may die after illness | **MCAD** deficiency: fasting hypoketotic hypoglycaemia
+! **Muscle weakness and myoglobinuria** on exercise, low ketones, high fatty acids | **Carnitine** deficiency: long-chain fatty acids cannot enter mitochondria
+# Pyruvate and glycolysis defects | biochem, heme
+! Neonate with **lactic acidosis, high alanine** and neurological defects | Pyruvate dehydrogenase deficiency: treat with **ketogenic diet** of lysine and leucine
+! **Haemolysis with no spherocytes**, high 2,3-BPG | **Pyruvate kinase** deficiency
+# Mitochondrial disorders | genetics, neuro
+! **Stroke-like episodes, lactic acidosis**, ragged red fibres | MELAS: mitochondrial inheritance
+! Young man with **sudden painless bilateral vision loss** and maternal relatives affected | Leber hereditary optic neuropathy
+# Lab techniques | biochem
+! Test to **detect a protein** with a labelled antibody after gel separation | Western blot
+! Test to **find DNA** sequences | Southern blot; **RNA** is Northern
+! **Amplify DNA** from tiny amounts | PCR
+
+@ immuno | Immunology | Immunology
+# MHC and T cells | immuno
+! **CD8 T cells** recognise antigen on | **MHC I** on every nucleated cell, with beta-2 microglobulin
+! **CD4 T cells** recognise antigen on | **MHC II** on antigen-presenting cells, with the invariant chain
+! **HLA-B27** link | Ankylosing spondylitis, reactive arthritis, psoriatic and IBD arthritis
+! **HLA-DR3 and DR4** link | Type 1 diabetes; DR4 with rheumatoid arthritis
+# Hypersensitivity types | immuno
+! **Minutes after a bee sting**: wheeze, urticaria, hypotension | Type I: **IgE** cross-linked on mast cells
+! **Antibody against a cell or tissue**: Goodpasture, Graves, autoimmune haemolysis | Type II: cytotoxic or antibody-mediated
+! **Immune complexes** deposit: serum sickness, PSGN, SLE nephritis | Type III: **low complement**
+! **48 to 72 hours** after contact: nickel rash, positive PPD | Type IV: **T-cell** mediated, no antibody
+# B-cell immunodeficiencies | immuno
+! Boy over **6 months** with recurrent bacterial infections, **absent B cells** and tonsils | Bruton X-linked agammaglobulinaemia: **BTK**
+! **Anaphylaxis to a blood transfusion**, frequent sinus infections, giardiasis | **Selective IgA deficiency**
+! Adult with **normal B-cell numbers** but low immunoglobulins, autoimmunity | Common variable immunodeficiency
+# T-cell and combined immunodeficiencies | immuno
+! Newborn with **tetany from low calcium, absent thymic shadow**, conotruncal defect | DiGeorge: **22q11** deletion, third and fourth pouches
+! Infant with **thrush, chronic diarrhoea, no thymic shadow**, severe infections of all kinds | SCID: often **IL-2 receptor gamma chain**, X-linked
+! Boy with **eczema, thrombocytopenia, small platelets**, recurrent infections | Wiskott-Aldrich: **WAS** gene
+! **High IgM, very low IgG, IgA, IgE**, Pneumocystis | Hyper-IgM: **CD40 ligand** defect, no class switching
+# Phagocyte and complement defects | immuno
+! **Catalase-positive** infections, Staph aureus and Aspergillus; nitroblue tetrazolium negative | Chronic granulomatous disease: **NADPH oxidase**
+! **Delayed umbilical cord separation**, no pus | Leukocyte adhesion deficiency: **CD18** integrin
+! **Giant granules** in neutrophils, albinism, peripheral neuropathy | Chédiak-Higashi: **LYST**, microtubule trafficking
+! **Recurrent Neisseria** infections | Terminal complement **C5 to C9** deficiency
+! **Swelling of face and gut without urticaria**, worse with ACE inhibitors | Hereditary angioedema: **C1 esterase inhibitor** deficiency, low C4
+# Transplant rejection | immuno
+! Kidney turns **blue within minutes** of reperfusion | Hyperacute: **preformed antibodies**
+! **Weeks to months**: lymphocytic infiltrate | Acute rejection: **T cells** against donor MHC
+! **Months to years**: vessel wall thickening, fibrosis | Chronic rejection
+! **Rash, jaundice, diarrhoea** after bone marrow transplant | Graft-versus-host disease: **donor T cells**
+# Immunosuppressants | immuno, pharm
+! **Gum hyperplasia, hirsutism**, nephrotoxicity | Cyclosporine: **calcineurin** inhibitor
+! Calcineurin inhibitor with **more diabetes and neurotoxicity**, no hirsutism | Tacrolimus
+! Inhibits **mTOR**, not nephrotoxic, causes hyperlipidaemia | Sirolimus
+! Check **TPMT** before starting | Azathioprine: toxic with **allopurinol**
+# Transfusion reactions | immuno, heme
+! **Fever, chills, back pain, red urine** within an hour | Acute haemolytic: **ABO** mismatch, type II
+! **Breathless within 6 hours**, bilateral infiltrates, normal heart | TRALI: donor antibodies activate neutrophils
+! **Fever and chills only** | Febrile non-haemolytic: **cytokines** from donor white cells
+# Autoantibodies | immuno
+! **Anti-dsDNA and anti-Smith** | SLE, dsDNA tracks nephritis
+! **Anti-histone** | Drug-induced lupus: hydralazine, procainamide, isoniazid
+! **Anti-centromere** | Limited scleroderma, CREST
+! **Anti-Scl-70** | Diffuse scleroderma
+! **Anti-Jo-1** | Polymyositis or dermatomyositis
+# Vaccines | immuno, micro
+! **Live attenuated** vaccine | Strong cellular immunity; avoid in pregnancy and immunodeficiency
+! **Toxoid** vaccines | Tetanus and diphtheria
+
+@ micro | Microbiology | Microbiology
+# Gram-positive cocci | micro
+! **Catalase-positive, coagulase-positive** cocci in clusters | Staphylococcus aureus: protein A, TSST-1
+! **Novobiocin-resistant** coagulase-negative staph, **UTI in a young woman** | Staphylococcus saprophyticus
+! **Optochin-sensitive**, lancet-shaped diplococci, rusty sputum | Streptococcus pneumoniae
+! **Bacitracin-sensitive** beta-haemolytic strep, sore throat | Streptococcus pyogenes: M protein, rheumatic fever, PSGN
+! **Bacitracin-resistant** beta-haemolytic strep, **neonatal sepsis** | Streptococcus agalactiae: screen at 35 to 37 weeks
+! Gamma-haemolytic, **grows in bile and 6.5% salt**, UTI after catheter | Enterococcus
+# Gram-positive rods | micro
+! **Lockjaw and spastic paralysis** after a puncture wound | Clostridium tetani: toxin blocks **GABA and glycine** release
+! **Floppy baby after honey**, descending flaccid paralysis | Clostridium botulinum: toxin blocks **ACh** release
+! **Diarrhoea after clindamycin**, pseudomembranes | Clostridioides difficile: toxins A and B
+! **Gas gangrene** with crepitus after a deep wound | Clostridium perfringens: **alpha toxin**, a lecithinase
+! **Grey pseudomembrane** in the throat, myocarditis, bull neck | Corynebacterium diphtheriae: toxin inactivates **EF-2**
+! Pregnant woman after **soft cheese**, tumbling motility, neonatal meningitis | Listeria monocytogenes
+! **Black painless eschar**, wool sorter | Bacillus anthracis: **oedema factor**, a fake adenylate cyclase
+# Gram-negative cocci | micro
+! **Petechial rash** in a student with meningitis | Neisseria meningitidis: polysaccharide capsule, Waterhouse-Friderichsen
+! Gram-negative diplococci, **ferments glucose only**, urethritis | Neisseria gonorrhoeae: no capsule, antigenic variation
+# Gram-negative rods | micro
+! **Burn wound with blue-green pus**, grape-like odour | Pseudomonas aeruginosa: exotoxin A inactivates EF-2
+! Alcoholic with **currant jelly sputum**, upper lobe cavity | Klebsiella pneumoniae
+! **Bloody diarrhoea after undercooked burger**, then low platelets and kidney failure | EHEC O157:H7: **Shiga-like toxin**, HUS
+! **Rice-water stool** | Vibrio cholerae: toxin raises **cAMP** via Gs
+! **Rose spots, fever and bradycardia** after travel | Salmonella Typhi
+! **Bloody diarrhoea**, then **ascending paralysis** weeks later | Campylobacter jejuni, then Guillain-Barré
+! **Urease-positive** curved rod with gastritis | Helicobacter pylori
+# Zoonoses and vector-borne | micro
+! **Bull's-eye rash** after a hiking trip, later facial palsy | Lyme disease: Borrelia burgdorferi, **Ixodes** tick
+! **Rash on palms and soles moving centrally** after a tick bite | Rocky Mountain spotted fever: Rickettsia rickettsii
+! **Cat scratch**, tender lymph nodes | Bartonella henselae; bacillary angiomatosis in AIDS
+! **Cat or dog bite** with cellulitis | Pasteurella multocida
+! **Unpasteurised dairy**, undulant fever | Brucella
+! **Surfer or sewer worker** with jaundice and conjunctival suffusion | Leptospira: Weil disease
+# Syphilis | micro
+! **Painless indurated ulcer** | Primary syphilis: Treponema pallidum, darkfield microscopy
+! **Rash on palms and soles** with condylomata lata | Secondary syphilis
+! **Broad-based gait, Argyll Robertson pupils**, aortitis | Tertiary syphilis: tabes dorsalis
+! **Fever, rigors and headache hours after penicillin** for syphilis | Jarisch-Herxheimer reaction
+# Mycobacteria | micro
+! **Caseating granuloma** in a lower lobe with hilar nodes | Primary TB: **Ghon complex**
+! **Upper lobe cavity**, night sweats, weight loss | Secondary TB reactivation
+! **Numb skin patches**, thickened nerves, lion face | Leprosy: Mycobacterium leprae, likes cool body parts
+! HIV with **CD4 under 50**, fever and diarrhoea | Mycobacterium avium complex: azithromycin prophylaxis
+# Atypical bacteria | micro
+! **Young adult, dry cough, cold agglutinins**, walking pneumonia | Mycoplasma pneumoniae: **no cell wall**, sterols in membrane
+! **Pneumonia with low sodium**, diarrhoea, hotel water | Legionella: urine antigen, **charcoal yeast** extract agar
+! Newborn with **conjunctivitis at 1 to 2 weeks**, then staccato cough | Chlamydia trachomatis
+# DNA viruses | micro
+! **Owl's eye inclusions**, retinitis in AIDS | Cytomegalovirus
+! **Fever, sore throat, posterior neck nodes**, atypical lymphocytes, rash after amoxicillin | EBV infectious mononucleosis: infects **B cells via CD21**
+! **Slapped cheek** rash, aplastic crisis in sickle cell, hydrops fetalis | Parvovirus B19: single-stranded DNA
+! **Purple plaques** in AIDS, spindle cells | Kaposi sarcoma: **HHV-8**
+! **Roseola**: high fever, then rash when the fever breaks | HHV-6
+# RNA viruses | micro
+! **Cough, coryza, conjunctivitis**, then rash from the head down; **Koplik spots** | Measles: paramyxovirus, vitamin A helps
+! **Parotitis and orchitis** | Mumps
+! **Hydrophobia** weeks after a bat bite | Rabies: retrograde transport, **Negri bodies**
+! **Fever, retro-orbital pain, bleeding** after travel | Dengue: flavivirus, Aedes mosquito
+! **Watery diarrhoea in infants**, daycare | Rotavirus: double-stranded RNA
+# HIV and opportunistic infections | micro, immuno
+! HIV, **CD4 under 200**, ground-glass infiltrates, high LDH | Pneumocystis jirovecii: TMP-SMX prophylaxis
+! HIV, **CD4 under 100**, ring-enhancing brain lesions | Toxoplasma gondii
+! HIV, **CD4 under 100**, meningitis with **India ink** capsule | Cryptococcus neoformans
+! HIV with **demyelinating white matter lesions** and no enhancement | PML: **JC virus**
+# Fungi | micro
+! **Bird or bat droppings** in Ohio or Mississippi valleys, yeast in macrophages | Histoplasma capsulatum
+! **Broad-based budding** yeast, skin ulcers | Blastomyces
+! **Spherules with endospores**, desert southwest US | Coccidioides immitis
+! **Acute-angle branching septate hyphae**, haemoptysis in neutropenia | Aspergillus fumigatus
+! **Germ tubes at 37 °C**, oral thrush | Candida albicans
+# Protozoa | micro
+! **Irregular high fevers** with banana-shaped gametocytes | Plasmodium falciparum: cerebral malaria
+! **Dormant liver hypnozoites** | Plasmodium vivax or ovale: add primaquine, check G6PD
+! **Foul fatty diarrhoea after camping**, cysts in stool | Giardia lamblia
+! **Flask-shaped colon ulcers**, anchovy-paste liver abscess | Entamoeba histolytica
+! **Chagas**: dilated heart, megacolon, Romaña sign | Trypanosoma cruzi, reduviid bug
+# Helminths | micro
+! **Perianal itching**, tape test | Enterobius: pinworm
+! **Seizures from brain cysts** after pork | Taenia solium: neurocysticercosis
+! **Haematuria** in a swimmer from Egypt, bladder squamous cancer | Schistosoma haematobium
+! **Larva currens rash**, hyperinfection on steroids | Strongyloides stercoralis
+# Antibacterial mechanisms | micro, pharm
+! Binds **D-Ala-D-Ala**, red man syndrome | Vancomycin: cell wall synthesis
+! **Aminoglycosides** block | **30S** initiation complex; nephrotoxic, ototoxic
+! **Macrolides** block | **50S** translocation; prolonged QT
+! **Fluoroquinolones** block | **DNA gyrase**; tendon rupture
+! **Sulfonamides and trimethoprim** block | Folate synthesis at two steps
+# Antibiotic adverse effects | micro, pharm
+! **Grey baby** | Chloramphenicol
+! **Teeth discolouration** in children | Tetracyclines
+! **Disulfiram-like reaction** | Metronidazole
+! **Orange body fluids**, CYP inducer | Rifampin
+! **Peripheral neuropathy** prevented by B6 | Isoniazid
+# Antivirals and antifungals | micro, pharm
+! **Ergosterol** binder with nephrotoxicity and fevers | Amphotericin B
+! **Inhibits ergosterol synthesis**, CYP inhibitor | Azoles
+! Herpes drug needing **viral thymidine kinase** | Acyclovir
+! CMV drug causing **neutropenia** | Ganciclovir
+# TORCH infections | micro, repro
+! Newborn with **chorioretinitis, hydrocephalus, scattered calcifications** | Toxoplasmosis
+! Newborn with **PDA, cataracts, deafness**, blueberry muffin rash | Rubella
+! Newborn with **periventricular calcifications**, hearing loss | Cytomegalovirus
+! Newborn with **notched teeth, saddle nose, snuffles** | Congenital syphilis
+
+@ path | General pathology | Pathology
+# Cell injury | path
+! **Cell swelling, fatty change, ribosome detachment**, still fixable | Reversible injury from ATP loss
+! **Membrane damage, nuclear pyknosis**, mitochondrial calcium | Irreversible injury
+# Necrosis types | path
+! **Ghost outlines** of cells after infarction | Coagulative necrosis, solid organs except brain
+! **Brain infarct** or abscess turns liquid | Liquefactive necrosis
+! **Cheese-like** centre of a granuloma | Caseous necrosis, TB and fungi
+! **Chalky white** areas in the pancreas, calcium soaps | Fat necrosis, saponification
+! **Vessel wall** pink and smudgy in malignant hypertension | Fibrinoid necrosis
+# Apoptosis | path
+! **Cytochrome c** release, BAX and BAK | Intrinsic pathway, held back by **BCL-2**
+! **Fas ligand** or TNF triggers | Extrinsic pathway
+! **Eosinophilic cytoplasm, pyknosis**, no inflammation | Apoptosis, not necrosis
+# Acute inflammation | path
+! **Leukocyte rolling** on endothelium | **Selectins**
+! **Tight adhesion** of neutrophils | **Integrins** binding ICAM-1
+! Chemotaxis signals | **C5a, IL-8, LTB4**, kallikrein
+# Chronic inflammation and granulomas | path
+! **Epithelioid macrophages and giant cells** | Granuloma: IFN-gamma from Th1 cells activates macrophages
+! **Non-caseating granulomas** with hilar nodes and high ACE | Sarcoidosis
+# Wound healing and scars | path
+! **Raised scar staying within the wound** | Hypertrophic scar: type III collagen
+! **Scar growing beyond the wound**, earlobes | Keloid: type I and III collagen
+# Amyloidosis | path
+! **Apple-green birefringence** with Congo red | Amyloid: beta-pleated sheet
+! Amyloid from **light chains** in myeloma | AL amyloidosis
+! Amyloid in **long-term dialysis** | Beta-2 microglobulin
+# Neoplasia genes | path, genetics
+! **Oncogene**, one hit is enough | Gain of function, e.g. **KRAS, MYC, HER2**
+! **Tumour suppressor**, two hits needed | Loss of function, e.g. **TP53, RB**
+! **Philadelphia chromosome** t(9;22) | BCR-ABL in CML, tyrosine kinase
+! **t(8;14)** with a starry sky | Burkitt lymphoma: **c-MYC**
+! **t(14;18)** | Follicular lymphoma: **BCL-2** overexpression
+# Tumour markers and paraneoplastic | path
+! **AFP** high | Hepatocellular carcinoma, yolk sac tumour
+! **CA-125** high | Epithelial ovarian cancer
+! **Hypercalcaemia with low PTH**, squamous lung cancer | **PTHrP**
+! **Polycythaemia** with a kidney mass | Renal cell carcinoma making EPO
+# Carcinogens | path
+! **Aniline dyes** at work | Bladder transitional cell carcinoma
+! **Asbestos** | Mesothelioma and, more often, bronchogenic carcinoma
+! **Aflatoxin** | Hepatocellular carcinoma
+! **Vinyl chloride** | Liver angiosarcoma
+# Calcification | path
+! Calcium deposits in **damaged tissue with normal serum calcium** | Dystrophic calcification
+! Calcium in **normal tissue with high calcium or phosphate** | Metastatic calcification
+# Cell adaptations | path
+! **Columnar cells in the lower oesophagus** after reflux | Metaplasia, Barrett
+! **Disordered growth** that can still regress | Dysplasia
+
+@ pharm | General pharmacology | Pharmacology
+# Pharmacokinetics | pharm
+! **Volume of distribution** formula | **Dose divided by plasma concentration**
+! **Loading dose** formula | Target concentration × Vd ÷ bioavailability
+! **Steady state** is reached in | **4 to 5 half-lives**, whatever the dose
+# Elimination kinetics | pharm
+! **Constant amount** eliminated per hour | **Zero-order**: ethanol, phenytoin, aspirin at high dose
+! **Constant fraction** eliminated per hour | First-order
+# CYP450 interactions | pharm
+! **Inducers**: drug levels fall | Carbamazepine, rifampin, phenytoin, St John's wort, chronic alcohol
+! **Inhibitors**: drug levels rise | Macrolides, azoles, grapefruit, cimetidine, ritonavir, acute alcohol
+# Receptor pharmacology | pharm
+! Competitive antagonist **shifts the curve right**, same maximum | Potency falls, efficacy unchanged
+! Non-competitive antagonist **lowers the maximum** | Efficacy falls
+! **Partial agonist** given with a full agonist | Acts as an antagonist: e.g. buprenorphine precipitates withdrawal
+# Therapeutic index | pharm
+! **TD50 divided by ED50** | Therapeutic index: narrow for warfarin, digoxin, lithium, theophylline
+! **Narrow therapeutic index** drugs | Warfarin, digoxin, lithium, phenytoin, theophylline, aminoglycosides: check levels
+# Autonomic receptors | pharm
+! **Gq**: smooth muscle contraction | Alpha-1, M1, M3, H1, V1
+! **Gs**: cAMP up | Beta-1, beta-2, D1, H2, V2
+! **Gi**: cAMP down | Alpha-2, M2, D2
+# Cholinergic drugs and toxicity | pharm
+! **Diarrhoea, urination, miosis, bronchospasm, bradycardia**, sweating, farmer | Organophosphate poisoning: give **atropine and pralidoxime**
+! **Hot, dry, red, blind, mad**, urinary retention | Anticholinergic toxicity: physostigmine
+# Adrenergic drugs | pharm
+! **BP up, reflex bradycardia** | Phenylephrine, a pure alpha-1 agonist
+! **HR up, BP down**, beta agonist only | Isoproterenol
+! Epinephrine after an **alpha blocker** | BP falls: epinephrine reversal
+# Toxicology and antidotes | pharm
+! **Acetaminophen** overdose | **N-acetylcysteine** replenishes glutathione
+! **Cherry-red skin**, headache in a house fire | Carbon monoxide: 100% or hyperbaric oxygen
+! **Bitter almond breath**, lactic acidosis after a house fire | Cyanide: hydroxocobalamin
+! **Chocolate-brown blood** after dapsone or a topical anaesthetic | Methaemoglobinaemia: methylene blue
+! **Wide QRS** after an antidepressant overdose | TCA toxicity: sodium bicarbonate
+# Drug reactions | pharm
+! **Fever, rash, eosinophilia, organ involvement** weeks after a new drug | DRESS
+! **Mucosal blistering and skin sloughing** after sulfonamides or lamotrigine | Stevens-Johnson or TEN
+! **Flushing and vomiting** with alcohol | Disulfiram-like: metronidazole, some cephalosporins, sulfonylureas
+# Teratogens | pharm, repro
+! **Phocomelia** | Thalidomide
+! **Neural tube defects** | Valproate, carbamazepine
+! **Ebstein anomaly** | Lithium
+! **Nasal hypoplasia**, stippled epiphyses | Warfarin
+! **Renal damage** in the fetus | ACE inhibitors
+
+@ pubhealth | Biostatistics, epidemiology & ethics | Public health sciences
+# Test performance | biostats
+! **Ruling out** a disease | Highly **sensitive** test: SnNOut
+! **Ruling in** a disease | Highly **specific** test: SpPIn
+! Prevalence rises | **PPV rises, NPV falls**; sensitivity and specificity do not change
+! Cut-off lowered so more people test positive | Sensitivity up, specificity down
+# 2 by 2 measures | biostats
+! **Cohort** study measure | **Relative risk**: incidence in exposed ÷ incidence in unexposed
+! **Case-control** study measure | **Odds ratio**: ad ÷ bc
+! **Number needed to treat** | 1 ÷ absolute risk reduction
+# Study designs | biostats
+! Start with **disease vs no disease**, look back at exposures | Case-control
+! Follow **exposed vs unexposed** forward | Cohort
+! **Snapshot** of prevalence at one time | Cross-sectional
+! Same people get **both treatments** with a washout | Crossover trial
+# Bias | biostats
+! Screening finds disease earlier but **death comes at the same time** | Lead-time bias
+! Screening picks up **slow-growing** tumours | Length-time bias
+! People **remember exposures differently** after disease | Recall bias
+! Subjects **change behaviour because they are watched** | Hawthorne effect
+# Statistical tests and errors | biostats
+! Compare **two means** | t-test
+! Compare **three or more means** | ANOVA
+! Compare **proportions** or categories | Chi-square
+! **Type I error** | Saying there is a difference when there is none: alpha
+! **Type II error** | Missing a real difference: beta; power = 1 minus beta
+! Confidence interval for a **ratio includes 1** | Not significant
+# Incidence and prevalence | biostats
+! **New cases** over a time period | Incidence
+! New treatment **prolongs survival without cure** | Prevalence rises
+# Prevention | biostats
+! **Prevent disease** happening | Primary prevention: vaccines
+! **Screen** for early disease | Secondary prevention
+! **Reduce harm** from established disease | Tertiary prevention
+# Consent and capacity | ethics
+! Adult with capacity **refuses life-saving treatment** | Respect the refusal
+! Patient lacks capacity with **no advance directive** | Surrogate decides on **substituted judgement**
+! **Emergency**, no time and no surrogate | Treat under implied consent
+# Confidentiality | ethics
+! Patient threatens a **specific person** | Duty to warn and protect: Tarasoff
+! **Reportable infection** | Report to public health even without consent
+# Minors | ethics
+! Teenager asks about **contraception or STI treatment** | Can consent without parents in most US states
+! Parents of a child refuse a **blood transfusion in an emergency** | Treat the child
+# Communication | ethics, behav
+! Patient asks **"Am I going to die?"** | Explore their concerns with an open question before answering
+! **Angry** patient | Acknowledge the emotion first
+! Patient speaks **another language** | Use a professional interpreter, not family
+# Medical errors and safety | ethics
+! An error **reached the patient** | Disclose it honestly and apologise
+! Multiple small failures line up | Swiss cheese model: **root cause analysis**
+! Abuse of a child or elder suspected | **Report** to protective services

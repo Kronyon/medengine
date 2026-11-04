@@ -1,5 +1,22 @@
 # Changelog
 
+## 3.4.0 (2026-11-04)
+
+🎯 **medengine-STEP1: a USMLE Step 1 app on the STUDY engine** (`step1.html`, third card on the launcher, key 3).
+- **Its own saves.** Every storage key, both IndexedDB names, the save file format, the cloud backup table (`med_backups_step1`, run `step1/supabase_step1.sql` once) and the topic discussion threads (`s1u:`) are separate, and STEP1 never publishes a leaderboard profile. A browser test seeds STUDY and OSCE progress, uses STEP1 hard, and checks nothing of theirs changed.
+- **Breadth from day one:** all 16 First Aid chapters as 237 topics with 855 red-flag trigger lines in the one-line Mehlman format (scene, flip word, answer), every line a drop-down blank whose wrong options are the neighbouring answers, each labelled with its own scene. Browse by the 2026 USMLE content outline systems with their exam weights.
+- **Deep pilot: renal, acid-base and electrolytes.** 22 topics of high-yield cloze notes (227 drop-down blanks, each with 3 written distractors), 58 NBME-style questions with US units and drug names (results tables, alphabetical options, British English explanations), 21 domino arrows with 26 change-the-film flips, 9 inflow to outflow mechanism chains.
+- **The 4-box explanation** on every question: 🎯 Red flags, 💰 Money line, 🌊 Inflow → outflow, and 🔀 Change the film for every wrong option, plus a why-not line for each.
+- **Domino arrows** now colour each value as 🔴 primary insult, 🟡 knock-on or 🟢 compensation once answered, and offer 🔀 flips that change one feature of the case (Conn → renal artery stenosis → Liddle).
+- **⚡ UWorld Deconstruct:** paste a missed question and its explanation, or drop a screenshot. Your AI (Claude in the artifact, your own key on the website) returns the 4 boxes, an arrows drill, a twin question with a new patient, and Anki cards, all in fresh words; the paste itself is never stored. ✍️ By hand works without AI. Copy every card as tab-separated text for Anki.
+- **⏱️ Timed block:** 20 questions in 30 minutes, as in the 2026 exam, with marking, strike-out, a navigator, keyboard answers and lab values beside the question; no feedback until the end, then review every answer in the Hammer view.
+- **🧭 Acid-base compass:** pH, primary process, Winter and the other compensation rules, albumin-corrected anion gap, delta ratio and osmolar gap, drawn on a bicarbonate against CO₂ map with every compensation band (47 unit tests).
+- **🫘 Nephron map:** tap a segment for its transporters, hormones, drugs and diseases; pick a diuretic to light up where it acts.
+- **🧪 US lab values with the UK bridge** (60 tests with SI equivalents and a converter); the Hammer reference ranges switch to US units in STEP1.
+- **🔺 Eponym decoder** (52) and **US abbreviations and drug names with the UK term** (57).
+- Content is written fresh in our own words; nothing is copied from First Aid, Mehlman, UWorld, Boards and Beyond or Bootcamp.
+- Engine: STUDY gains small pack hooks (`site/patches/v340_pack_hooks.py` and `v340_pack_hooks2.py`); with no pack declared it behaves exactly as before (checked view by view against 3.3.5).
+
 ## 3.3.5 (2026-11-04)
 
 🔨 **SBA audit: Hammer questions checked against the real papers.**

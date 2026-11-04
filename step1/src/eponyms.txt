@@ -1,0 +1,366 @@
+# medengine-STEP1 eponym decoder: names that do not describe what they are. Written fresh.
+# @ep Name | aliases ; ... · f: what you see · h: a hook that ties the name to the picture · x: the exam trap · m: what to do · u: topics
+
+@ep Kimmelstiel-Wilson nodules | KW nodules ; nodular glomerulosclerosis
+f: Round pink nodules of mesangial matrix inside the glomeruli, PAS positive
+h: **K**immelstiel-**W**ilson: the **K**idney **W**ith sugar
+x: Amyloid can also form nodules, but it stains with Congo red and gives apple-green birefringence
+m: Diabetic nephropathy: control glucose and BP, ACE inhibitor or ARB, SGLT2 inhibitor
+u: Nephrotic syndrome ; Diabetes mellitus
+
+@ep Tamm-Horsfall protein | uromodulin
+f: The glycoprotein made by the thick ascending limb that forms the matrix of every urinary cast
+h: **T**amm-**H**orsfall comes from the **T**hick ascending limb and holds casts together
+x: Pure Tamm-Horsfall casts are hyaline casts, which can be normal in concentrated urine
+m: Read what is trapped in the matrix: red cells, white cells, dead tubular cells, fat or wax
+u: Acute kidney injury and urinary casts ; Loop of Henle and Bartter syndrome
+
+@ep Fanconi syndrome | proximal tubulopathy
+f: Glucose, amino acids, phosphate, urate and bicarbonate all leaking out of the proximal tubule
+h: **Fanconi**: the proximal **con**veyor belt has stopped
+x: Not Fanconi anaemia, which is a DNA repair defect with marrow failure
+m: Look for myeloma, Wilson disease, lead, ifosfamide, cystinosis or expired tetracyclines
+u: Proximal convoluted tubule ; Renal tubular acidosis
+
+@ep Potter sequence | oligohydramnios sequence
+f: Flat face, beaked nose, low ears, limb contractures and small lungs after too little amniotic fluid
+h: A **Potter** shapes clay by squeezing it: the baby is moulded by the uterus with no fluid to cushion it
+x: The lungs, not the kidneys, are what kill (pulmonary hypoplasia)
+m: Find why no urine was made: bilateral renal agenesis, ARPKD, posterior urethral valves
+u: Renal embryology and anatomy ; Cystic kidney disease
+
+@ep Goodpasture syndrome | anti-GBM disease with lung haemorrhage
+f: Coughing blood and haematuria together, with linear IgG along the basement membrane
+h: A **good pasture** feeds two organs: lungs and kidneys share type IV collagen
+x: ANCA vasculitis also hits lung and kidney, but its biopsy is pauci-immune
+m: Plasmapheresis, steroids and cyclophosphamide
+u: Nephritic syndrome ; Hypersensitivity types
+
+@ep Alport syndrome | hereditary nephritis
+f: Haematuria from childhood, sensorineural deafness and a cone-shaped lens; split, basket-weave basement membrane
+h: **Al**port hits **al**l three type IV collagen sites: kidney, ear, eye
+x: Usually X-linked, so boys are hit hardest; a transplant can trigger anti-GBM antibodies
+m: ACE inhibitors slow the decline; dialysis or transplant later
+u: Nephritic syndrome ; Collagen and connective tissue
+
+@ep Berger disease | IgA nephropathy
+f: Haematuria starting 1 to 2 days after a cold, mesangial IgA, normal complement
+h: **Berger** **b**egins within days
+x: Poststreptococcal GN waits 2 to 3 weeks and lowers C3
+m: Control BP and protein leak with an ACE inhibitor; IgA vasculitis is the systemic cousin
+u: Nephritic syndrome
+
+@ep Kussmaul breathing | Kussmaul respiration
+f: Deep, laboured, sighing breaths in severe metabolic acidosis
+h: **Kuss**maul **cuss**es the acid out: big breaths blow off CO₂
+x: Kussmaul **sign** is a different thing: the JVP rising on inspiration
+m: Check glucose, ketones, the anion gap and toxic alcohols
+u: Metabolic acidosis and the anion gap ; DKA and HHS
+
+@ep Kussmaul sign | paradoxical JVP rise
+f: The neck veins fill more, not less, when the patient breathes in
+h: The stiff heart cannot accept the extra blood that inspiration sends, so it backs up into the neck
+x: Constrictive pericarditis (and restrictive cardiomyopathy); tamponade gives pulsus paradoxus instead
+m: Look for a pericardial knock and a calcified pericardium
+u: Pericardial disease ; Cardiomyopathies
+
+@ep Winter formula | expected PaCO₂
+f: Expected PaCO₂ = 1.5 × HCO₃⁻ + 8 ± 2 in a metabolic acidosis
+h: **One and a half** times the bicarbonate, plus **8**: winter is cold, so you breathe out hard
+x: A PaCO₂ outside the range means a second, respiratory disorder
+m: Higher than predicted: respiratory acidosis too. Lower: respiratory alkalosis too, as in salicylate poisoning
+u: Metabolic acidosis and the anion gap ; Respiratory acid-base disorders and compensation
+
+@ep Trousseau sign | carpopedal spasm
+f: The hand clamps shut when a BP cuff stays inflated above systolic for 3 minutes
+h: **Trou**sseau's **trou**ser-tight cuff squeezes the hand shut
+x: Same surname, different finding: Trousseau syndrome is migratory thrombophlebitis with cancer
+m: Check ionised calcium, magnesium, PTH and albumin
+u: Calcium, phosphate and magnesium ; Calcium and parathyroid disorders
+
+@ep Trousseau syndrome | migratory thrombophlebitis
+f: Tender superficial vein clots that appear in one place, fade, then appear somewhere else
+h: **Trou**sseau's **tu**mour throws clots
+x: The calcium sign with the same name is the cuff test
+m: Hunt for an adenocarcinoma, classically of the pancreas
+u: Pancreas ; Tumour markers and paraneoplastic
+
+@ep Chvostek sign | facial nerve tap sign
+f: Tapping the facial nerve in front of the ear makes the corner of the mouth twitch
+h: **Ch**vostek: **ch**eek tap
+x: Positive in some healthy people; Trousseau sign is more specific
+m: Low calcium (after thyroid surgery) or low magnesium
+u: Calcium, phosphate and magnesium
+
+@ep Beck triad | tamponade triad
+f: Low blood pressure, distended neck veins and muffled heart sounds
+h: Beck's three Ds: **d**rop in pressure, **d**istended veins, **d**istant heart sounds
+x: Pulsus paradoxus travels with it; Kussmaul sign belongs to constriction
+m: Pericardiocentesis now
+u: Pericardial disease
+
+@ep Dressler syndrome | post-MI autoimmune pericarditis
+f: Fever, pleuritic chest pain and a rub weeks after an MI
+h: **D**ressler is **d**elayed
+x: Pericarditis in the first days after an MI is direct inflammation; Dressler is autoimmune and comes weeks later
+m: NSAIDs or aspirin with colchicine
+u: MI complications
+
+@ep Eisenmenger syndrome | shunt reversal
+f: Late cyanosis and clubbing in someone who had a left-to-right shunt
+h: **Eisen**menger: the vessels turn to **iron** (Eisen), stiff with pulmonary hypertension, and the shunt reverses
+x: Once established, closing the defect no longer helps
+m: Polycythaemia follows; transplant is the definitive treatment
+u: Congenital heart disease
+
+@ep Osler nodes | Osler's nodes
+f: Painful, raised, red nodules on the pads of the fingers and toes in endocarditis
+h: **O**sler = **O**uch
+x: Janeway lesions are the painless, flat ones on the palms and soles
+m: Blood cultures and echocardiography
+u: Endocarditis and rheumatic fever
+
+@ep Janeway lesions | Janeway's lesions
+f: Painless flat red spots on the palms and soles in endocarditis
+h: **J**aneway: **j**ust painless
+x: Septic microemboli, whereas Osler nodes are immune complex lumps that hurt
+m: Think acute endocarditis, often Staphylococcus aureus
+u: Endocarditis and rheumatic fever
+
+@ep Roth spots | Roth's spots
+f: Retinal haemorrhages with pale centres
+h: **R**oth spots sit in the **r**etina
+x: Also seen in leukaemia and severe anaemia, not only endocarditis
+m: Blood cultures and echocardiography if the story fits
+u: Endocarditis and rheumatic fever
+
+@ep Libman-Sacks endocarditis | verrucous endocarditis
+f: Small sterile vegetations on both surfaces of the mitral valve in lupus
+h: SLE causes LSE: **L**ibman-**S**acks **E**ndocarditis
+x: Sterile, so blood cultures are negative; often with antiphospholipid antibodies
+m: Watch for emboli; anticoagulate if antiphospholipid syndrome is present
+u: Endocarditis and rheumatic fever ; Connective tissue diseases
+
+@ep Sheehan syndrome | postpartum pituitary necrosis
+f: No breast milk and no periods after a big postpartum haemorrhage
+h: **She**ehan: **she** bled after delivery
+x: The pituitary grows in pregnancy and outruns its blood supply, so shock infarcts it
+m: Replace cortisol first, then thyroxine
+u: Pituitary disorders
+
+@ep Waterhouse-Friderichsen syndrome | adrenal apoplexy in sepsis
+f: Shock, purpuric rash and bleeding into both adrenal glands
+h: **Water**house: a **water**fall of blood into the adrenals
+x: Classic with meningococcaemia and DIC
+m: Hydrocortisone and antibiotics immediately
+u: Adrenal insufficiency and CAH ; Gram-negative cocci
+
+@ep Kallmann syndrome | hypogonadotropic hypogonadism with anosmia
+f: Delayed puberty and no sense of smell
+h: **Kallmann** cannot smell the **cologne**
+x: GnRH neurons fail to migrate with the olfactory neurons, so LH and FSH are low
+m: Pulsatile GnRH or sex hormone replacement
+u: Sexual differentiation
+
+@ep Mallory-Weiss tear | Mallory-Weiss syndrome
+f: Vomiting blood after forceful retching; a superficial tear at the gastro-oesophageal junction
+h: **M**allory-**W**eiss is **m**ild: mucosa only
+x: Boerhaave is a full-thickness rupture with air in the mediastinum
+m: Usually stops by itself
+u: Oesophagus
+
+@ep Boerhaave syndrome | oesophageal rupture
+f: Chest pain after vomiting, with air in the mediastinum and crackling under the skin of the neck
+h: **B**oerhaave: **b**urst
+x: Transmural, usually the distal left posterolateral wall; Mallory-Weiss is superficial
+m: Surgical emergency
+u: Oesophagus
+
+@ep Plummer-Vinson syndrome | Paterson-Brown-Kelly syndrome
+f: Difficulty swallowing from oesophageal webs, iron deficiency anaemia and a sore smooth tongue
+h: **P**lummer-**V**inson: **p**ale, **v**ery iron-poor, with a web in the throat
+x: Raises the risk of squamous cell carcinoma of the oesophagus
+m: Replace iron
+u: Oesophagus ; Microcytic anaemias
+
+@ep Courvoisier sign | Courvoisier's law
+f: Painless jaundice with a palpable, non-tender gallbladder
+h: A **calm**, **big** gallbladder means **cancer**
+x: Gallstones scar the gallbladder, so it rarely swells
+m: Image the head of the pancreas; check CA 19-9
+u: Pancreas ; Biliary disease
+
+@ep Virchow node | Virchow's node ; Troisier sign
+f: A hard left supraclavicular lymph node
+h: Abdominal cancer's **first stop on the left**, where the thoracic duct drains
+x: Not Virchow triad (stasis, endothelial injury, hypercoagulability)
+m: Look for gastric or other abdominal cancer
+u: Tumour markers and paraneoplastic
+
+@ep Virchow triad | Virchow's triad
+f: Stasis, endothelial injury and hypercoagulability
+h: **SHE** clots: **S**tasis, **H**ypercoagulability, **E**ndothelial damage
+x: Same name as the node; the triad is about clots
+m: Explains DVT and PE risk after surgery, flights, cancer, pregnancy
+u: Pulmonary embolism ; Thrombophilias
+
+@ep Krukenberg tumour | Krukenberg tumor
+f: Both ovaries enlarged by mucin-filled signet ring cells
+h: The stomach's **signet ring** travels to **both** ovaries
+x: A metastasis, usually from gastric cancer, not a primary ovarian tumour
+m: Look at the stomach
+u: Ovarian tumours
+
+@ep Zollinger-Ellison syndrome | gastrinoma
+f: Many ulcers, some beyond the duodenum, with diarrhoea and very high gastrin
+h: **Z**ollinger-**E**llison: **z**illions of ulcers
+x: Gastrin rises after secretin, when it normally falls; linked to MEN 1
+m: High-dose PPI, then find and remove the gastrinoma
+u: Gastritis and peptic ulcer ; MEN syndromes
+
+@ep Whipple disease | intestinal lipodystrophy
+f: Joint pain, diarrhoea, weight loss and later dementia; PAS-positive foamy macrophages in the gut wall
+h: **Whip**ple: **whip**ped, foamy macrophages
+x: Caused by Tropheryma whipplei; classic in older white men
+m: Antibiotics for months
+u: Malabsorption
+
+@ep Charcot triad | cholangitis triad
+f: Fever, jaundice and right upper quadrant pain
+h: Charcot's three: **hot**, **yellow**, **sore**
+x: Add hypotension and confusion for Reynolds pentad; Charcot also named a different triad in MS
+m: Ascending cholangitis: antibiotics and ERCP drainage
+u: Biliary disease
+
+@ep Budd-Chiari syndrome | hepatic vein thrombosis
+f: Painful big liver and ascites from a clot in the hepatic veins
+h: **Budd-Chiari** blocks the liver's way **out**
+x: No raised JVP, unlike right heart failure; think polycythaemia vera (JAK2), pregnancy, oral contraceptives
+m: Anticoagulate and look for the cause
+u: Cirrhosis and portal hypertension ; Myeloproliferative neoplasms
+
+@ep Dubin-Johnson syndrome | conjugated hyperbilirubinaemia
+f: Mild conjugated jaundice with a black liver
+h: **D**ubin-Johnson: **d**ark liver
+x: Rotor syndrome looks the same but the liver is not black
+m: Benign: reassure
+u: Jaundice and bilirubin
+
+@ep Reed-Sternberg cells | owl-eye cells
+f: Big cells with two nuclei and prominent nucleoli, CD15 and CD30 positive
+h: **Owl eyes** staring out of the lymph node
+x: Only a few of them sit in a sea of reactive inflammatory cells
+m: Hodgkin lymphoma
+u: Lymphomas
+
+@ep Auer rods | Auer bodies
+f: Pink needle-shaped inclusions in myeloblasts
+h: **A**uer rods: **a**cute myeloid
+x: Packed in APL with t(15;17), which can trigger DIC
+m: All-trans retinoic acid for APL
+u: Leukaemias
+
+@ep Howell-Jolly bodies | nuclear remnants
+f: Small dark dots of nuclear material inside red cells
+h: **No spleen** left to tidy them away
+x: Splenectomy or functional asplenia, as in sickle cell disease
+m: Vaccinate against encapsulated bacteria
+u: Haemolytic anaemias
+
+@ep Heinz bodies | denatured haemoglobin
+f: Clumps of oxidised haemoglobin; bite cells once the spleen plucks them out
+h: **H**einz: **h**aemoglobin cooked by oxidants
+x: G6PD deficiency after fava beans, primaquine, dapsone or sulfa drugs
+m: Avoid the trigger
+u: Haemolytic anaemias
+
+@ep Wernicke encephalopathy | Wernicke-Korsakoff
+f: Confusion, eye movement palsy and a wide-based gait
+h: **COAT**: **c**onfusion, **o**phthalmoplegia, **a**taxia, give **t**hiamine
+x: Glucose before thiamine can tip someone into it; Korsakoff adds confabulation and permanent memory loss
+m: IV thiamine first
+u: Water-soluble vitamins
+
+@ep Brown-Séquard syndrome | cord hemisection
+f: Same-side weakness and loss of vibration and position; opposite-side loss of pain and temperature
+h: Brown-Séquard **splits** the cord down the middle
+x: Pain fibres cross within 1 or 2 segments, so the sensory loss is on the other side
+m: Think penetrating trauma or a tumour
+u: Spinal cord lesions
+
+@ep Horner syndrome | oculosympathetic palsy
+f: Droopy eyelid, small pupil and a dry face on one side
+h: **Droopy, tiny, dry**: the sympathetic supply is cut
+x: Look for a Pancoast tumour or a carotid dissection
+m: Image along the whole sympathetic chain
+u: Lung cancer ; Eye: fields and pupils
+
+@ep Argyll Robertson pupil | light-near dissociation
+f: Small irregular pupils that constrict to near focus but not to light
+h: **ARP**: **a**ccommodation **r**etained, **p**upillary light reflex lost
+x: Neurosyphilis (tabes dorsalis); diabetes can do it too
+m: Test for syphilis
+u: Syphilis ; Eye: fields and pupils
+
+@ep Marcus Gunn pupil | relative afferent pupillary defect
+f: Both pupils dilate when the light swings onto the affected eye
+h: The swinging light **unmasks** the weak optic nerve
+x: Optic neuritis, often the first sign of multiple sclerosis
+m: Look for MS
+u: Eye: fields and pupils ; Demyelinating disease
+
+@ep Curschmann spirals | Curschmann's spirals
+f: Spiral mucus casts of the small airways in sputum
+h: **Curs**chmann: **curl**ed spirals
+x: Travel with Charcot-Leyden crystals from broken-down eosinophils
+m: Asthma
+u: Asthma
+
+@ep Pancoast tumour | superior sulcus tumour
+f: Apical lung cancer with shoulder pain, hand weakness and Horner syndrome
+h: **Pan**coast sits at the **peak** of the lung
+x: Compresses the sympathetic chain and the lower brachial plexus (C8, T1)
+m: Image the lung apex
+u: Lung cancer
+
+@ep Ghon complex | primary tuberculosis complex
+f: A calcified lung focus plus a calcified hilar lymph node
+h: The **TB** scar has **gone** quiet
+x: The Ghon focus alone is just the lung lesion; the complex adds the node
+m: Latent TB: think about reactivation risk
+u: Mycobacteria
+
+@ep Koplik spots | Koplik's spots
+f: Small white spots on red buccal mucosa before the measles rash
+h: **K**oplik: **ch**eek spots come first
+x: They appear before the rash, so they make the early diagnosis
+m: Measles: vitamin A for children
+u: RNA viruses
+
+@ep Negri bodies | rabies inclusions
+f: Eosinophilic inclusions in the cytoplasm of Purkinje and hippocampal neurons
+h: **Negri** bodies are the rabies brain's fingerprints
+x: Rabies travels to the brain by retrograde axonal transport
+m: Wound care, vaccine and rabies immunoglobulin after exposure
+u: RNA viruses
+
+@ep Nikolsky sign | Nikolsky's sign
+f: The top layer of skin slides off with gentle rubbing
+h: **Nik**olsky: the skin **nicks** off
+x: Positive in pemphigus vulgaris and staphylococcal scalded skin; negative in bullous pemphigoid
+m: Desmoglein antibodies point to pemphigus
+u: Blistering skin disease
+
+@ep Gottron papules | Gottron's papules
+f: Violet, scaly bumps over the knuckles
+h: **Got**tron's **got** your knuckles
+x: With a heliotrope rash and proximal weakness: dermatomyositis
+m: Screen for an underlying cancer
+u: Connective tissue diseases
+
+@ep Heberden nodes | Heberden's nodes ; Bouchard nodes
+f: Bony swellings of the finger joints nearest the nails (DIP)
+h: **Heb**erden sits **high** at the DIP; **B**ouchard sits **below** at the PIP
+x: Osteoarthritis; rheumatoid arthritis spares the DIP joints
+m: Osteoarthritis
+u: Arthritis
