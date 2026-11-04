@@ -1,5 +1,15 @@
 # Changelog
 
+## 3.3.5 (2026-11-04)
+
+🔨 **SBA audit: Hammer questions checked against the real papers.**
+- Benchmarked all 1,632 Hammer SBAs against the 91 Nottingham mock questions and the 599 MSC and MSCAA paper questions: stem length, question types, option style, answer position and how often the answer is the longest option all sit close to the real papers. The big difference was data: 3% of Hammer questions had a results table, against 23 to 36% of the papers.
+- Read every drug, test and procedure question (408) and a random 150 condition questions. Fixed: stable lithium is checked every 6 months, not 3 (h0446); hyperthermia is one of the 4 Hs, so h1469 had two right answers; h0794 offered carbimazole options to a patient on mesalazine; h1458 mixed products with ratios; h0738 asked for the "usual" maximum but meant the short-term one; h0659 gave LDL a total cholesterol range; h1305 anion gap wording; missing ranges in h0533 and h0843.
+- Two near-copies rewritten as new angles on the same topic: h1504 is now Fitz-Hugh-Curtis syndrome, h1626 posterior capsule opacification.
+- 69 stems that listed 2 or more results in prose now show them in an Investigations table, with any later text under it, as on the papers.
+- 🆕 **80 new Hammer SBAs (h1633 to h1712)**: 51 with full results tables and normal decoy rows (fluids and electrolytes, AKI, anaemia, DKA and HHS, thyroid, LFTs, Glasgow score, blood gases, pleural fluid, CSF, lithium, staggered paracetamol, coeliac with IgA deficiency, CK, FH, CPPD, ACR, PE, GI bleed, SIADH, PTHrP) and 29 on ILO topics no question asked (RV infarct, Dressler's, LV aneurysm, torsades, hypertensive emergency, Cushing's triad, false localising VI, CIDP, CMT, mononeuritis multiplex, Argyll Robertson, carotid dissection, hydroxychloroquine screening, uric acid, struvite and enteric oxalate stones, Heberden's nodes, von Willebrand, angiofibroma, Bacillus cereus, Yersinia, acanthosis nigricans, convulsive syncope, dissociative seizures, laryngomalacia, choanal atresia, DT timing, FMD, Trousseau's, antiphospholipid, gastric outlet obstruction, carbon monoxide). Every one has a thought map and a "why not" line for all 4 wrong options.
+- Source: `study/snap/hq5_data.py`, applied by `site/patches/v335_sba.py` (linted for give-away option lengths and absolute words; every cue checked against the stem or results). Saved progress keeps its ids; 69 converted stems may shift a saved highlight by one paragraph.
+
 ## 3.3.4 (2026-11-03)
 
 🎯 **Voice stations are marked from Whisper too.** With a Groq or OpenAI key, a 🎙 Voice station quietly records your own turns (paused while the patient or examiner speaks). ⚡ End & Mark sends that recording to Whisper, primed with the station's words, and marks the accurate transcript instead of the browser's guesses. Without a key, or if Whisper fails, it marks the browser text as before. The Voice card says when this is on.
