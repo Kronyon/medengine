@@ -137,3 +137,17 @@ body.s1-examing #side{opacity:.3;transition:opacity .2s}
 body.s1-examing #side:hover{opacity:1}
 /* the leaderboard belongs to STUDY; STEP1 never publishes a profile */
 .iconbtn[data-go="leaderboard"],[data-go-lb-peer]{display:none}
+
+/* v3.6.1: performance map and the panel under each explanation */
+.s1-perf{gap:8px}
+.s1-bars{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:6px 14px}
+.s1-bar1{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) 40px;gap:8px;align-items:center;font-size:.8rem}
+.s1-bn{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.s1-bt{position:relative;height:9px;border-radius:99px;background:var(--surface-2);border:1px solid var(--line);overflow:hidden}
+.s1-bt i{position:absolute;left:0;top:0;bottom:0;border-radius:99px}
+.s1-bt i.seen{background:var(--line)}
+.s1-bt i.ok{background:var(--good)}.s1-bt i.mid{background:var(--warn)}.s1-bt i.low{background:var(--bad)}
+.s1-bar1 b{text-align:right;font-variant-numeric:tabular-nums}
+.s1-x{margin-top:10px;display:flex;flex-direction:column;gap:8px;border-top:1px dashed var(--line);padding-top:10px}
+.s1-xh{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.s1-x .s1-twin .hq-o{width:100%;text-align:left}

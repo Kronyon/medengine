@@ -1,5 +1,25 @@
 # Changelog
 
+## 3.6.1 (2026-11-05)
+
+🔍 **Audit of 3.6.0 (the Antigravity update): everything kept, the weak parts rewritten, new depth on top.** 3.5.0 and 3.6.0 were built outside this repo; 3.6.1 brings both in and repairs them.
+
+**STEP1 data** (`step1/pack_base.json` is the 3.6.0 data untouched; `step1/improve_pack.py` writes `pack.json` from it, so a future import is repaired the same way):
+- 1,649 questions kept. Every templated "twin" (the same stem with a new age) retired; 1,426 UWorld and 165 Mehlman 4-box explanations rebuilt from each question's own explanation: red flags that are really in the stem, the money line, the inflow → outflow chain and a why-not for each wrong option. Mehlman arrow questions now say exactly which arrow each wrong option gets wrong (660 lines).
+- Your 58 hand-written renal SBAs had been given made-up UWorld ids in 3.6.0; they are recognised again (matched to `src/sba_*.txt`), keep every hand-written flip and are labelled 🎯 medengine originals.
+- 645 questions re-filed to the topic they actually test (a renal question was sitting under Cardiology), by matching the question's words against each topic.
+- OCR repair: 392 broken words, 298 garbled runs, 111 lead-ins that were cut off restored, 1,203 lines of website chrome ("Previous", "Next", "Correct answer", peer statistics) and 47 duplicated passages removed. The original explanation is kept in `eo`.
+- Your notes: 1,126 "Mehlman / NBME rule" and "Pathoma / First Aid pearl" lines had their blank on the wrong answer (aminocaproic acid → Psoriasis). Each line is now filed under the topic it describes; 60 keep a blank on the right answer, the rest read as plain facts. 48 bare outline headings and image file names dropped.
+- 60 UWorld images now shipped in `img/`; 52 US terms merged into the glossary; 14 posters moved to the right topic.
+
+**STUDY**: the 66 new Hammer SBAs (h1713 on) and their images kept. 308 stems had one of 11 stock sentences glued on; they come off. Every hand-written flip that 3.6.0 overwrote with generated padding is back; padding that taught something moved to "Why not". Header link to STEP1.
+
+**New in STEP1:**
+- 🏦 **Bank chips** on the block setup: UWorld, Mehlman, Mine, or any mix.
+- 📊 **Per-system bars** on home from your last answers, with one tap to drill your weakest system.
+- ✨ **Sharpen** and 🔁 **Twin** in the review: your AI rewrites a weak 4-box or writes a real twin (new patient, same concept, different answer), saved on your device. 📋 Copy the question as text for Anki.
+- Engine: `EXT.tmExtra` hook in the review (`site/patches/v361_engine.py`); no change when no pack declares it.
+
 ## 3.4.0 (2026-11-04)
 
 🎯 **medengine-STEP1: a USMLE Step 1 app on the STUDY engine** (`step1.html`, third card on the launcher, key 3).

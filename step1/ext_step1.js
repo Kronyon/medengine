@@ -246,6 +246,7 @@
     ME.nav('top', 'deconstruct', '⚡', 'UWorld Deconstruct', () => st().dc.length || null);
     ME.nav('top', 'abg', '🧭', 'Acid-base compass');
     ME.nav('top', 'nephron', '🫘', 'Nephron map');
+    ME.nav('top', 'atlas', '🫀', 'System maps');
     ME.nav('top', 'labs', '🧪', 'US lab values ↔ UK');
 
     /* ---------------- home: the Step 1 loop ---------------- */
@@ -255,7 +256,7 @@
       const nq = (D.hq.q || []).length;
       return '<section class="panel s1-home"><div class="s1-hrow"><b class="s1-ttl">🎯 Step 1 · ' + U.length + ' topics · ' + nq + ' questions</b><label class="s1-date">Exam date <input type="date" id="s1Exam" value="' + esc(s.exam || '') + '"></label>'
         + (days != null ? '<span class="s1-cd' + (days < 30 ? ' soon' : '') + '">' + (days >= 0 ? days + ' days to go' : 'exam passed') + '</span>' : '') + '</div>'
-        + '<div class="s1-tiles"><div><b>' + done.length + '</b><span>timed blocks' + (avg != null ? ' · ' + avg + '% average' : '') + '</span></div><div><b>' + s.dc.length + '</b><span>UWorld misses deconstructed</span></div><div><b>' + U.length + '</b><span>topics with triggers (breadth)</span></div><div><b>' + pilotN + '</b><span>topics in deep pilot: renal</span></div></div>'
+        + '<div class="s1-tiles"><div><b>' + done.length + '</b><span>timed blocks' + (avg != null ? ' · ' + avg + '% average' : '') + '</span></div><div><b>' + s.dc.length + '</b><span>UWorld misses deconstructed</span></div><div><b>' + U.length + '</b><span>topics with triggers (breadth)</span></div><div><b>' + pilotN + '</b><span>topics in deep mode: all 16 chapters</span></div></div>'
         + '<ol class="s1-loop"><li><button class="btn primary sm" data-go="block">⏱️ 20 questions in 30 minutes</button> timed, no feedback, like the real block</li>'
         + '<li><button class="btn sm" data-go="deconstruct">⚡ Deconstruct every miss</button> 4 boxes, a twin question and Anki cards from each UWorld miss</li>'
         + '<li><button class="btn sm" data-go="triggers">🧲 Triggers for that chapter</button> the scene, the flip word, the answer</li>'
@@ -271,7 +272,7 @@
       const sys = (s1.sys.find(x => x[0] === u.sys) || [])[1] || '';
       const nq = (D.hq.q || []).filter(q => q.k === String(u.i)).length;
       return '<div class="s1-unit"><span class="s1-chip">' + esc(sys) + '</span>' + (u.disc || []).map(d => '<span class="s1-chip ghost">' + esc(d) + '</span>').join('')
-        + (u.pilot ? '<span class="s1-chip deep">🔬 Deep pilot: notes, ' + nq + ' questions, arrows</span>' : '<span class="s1-chip">🦴 Breadth: triggers</span>')
+        + (u.pilot ? '<span class="s1-chip deep">🔬 Deep mode: notes, ' + nq + ' questions, arrows</span>' : '<span class="s1-chip">🦴 Breadth: triggers</span>')
         + '<button class="btn ghost sm" data-s1dc="' + u.i + '">⚡ Deconstruct a UWorld miss here</button></div>'
         + (u.pilot ? '' : '<p class="hint s1-uhint">Deep notes, questions and arrows arrive chapter by chapter; renal is the first. Until then: drill these triggers (✍️ Fill blanks), and turn every UWorld miss on this topic into a twin question with ⚡ Deconstruct.</p>');
     };
@@ -478,7 +479,7 @@
     function pool() {
       const c = blk.cfg, sn = seen();
       let list = (D.hq.q || []).slice();
-      if (c.src === 'pilot') list = list.filter(q => U[+q.k] && U[+q.k].pilot);
+      if (c.src === 'pilot') list = list.filter(q => U[+q.k] && U[+q.k].w === 'renal');
       if (c.ch) list = list.filter(q => U[+q.k] && U[+q.k].w === c.ch);
       if (c.st === 'new') list = list.filter(q => !(q.id in sn));
       if (c.st === 'miss') list = list.filter(q => sn[q.id] === false);
@@ -491,7 +492,7 @@
         + '<p class="hint" style="margin:0">20 questions, 30 minutes, no feedback until the end. Mark and strike out as you go, open 🧪 lab values whenever you like, then review every answer with the 4 boxes.</p></div>';
       if (cur) h += '<div class="panel s1-resume"><b>⏸ A block is still open</b> · question ' + (cur.i + 1) + ' of ' + cur.ids.length + ' · ' + mmss(cur.left) + ' left<div class="toolbar"><button class="btn primary" data-bkresume>Carry on</button><button class="btn ghost" data-bkend>End it now</button></div></div>';
       h += '<div class="panel s1-setup"><div class="s1-row"><span>Questions</span>' + [10, 20, 40].map(k => '<button class="chip' + (c.n === k ? ' on' : '') + '" data-bkn="' + k + '">' + k + (k === 20 ? ' · real block' : '') + '</button>').join('') + '</div>'
-        + '<div class="s1-row"><span>From</span><button class="chip' + (c.src === 'all' && !c.ch ? ' on' : '') + '" data-bksrc="all">Everything</button><button class="chip' + (c.src === 'pilot' ? ' on' : '') + '" data-bksrc="pilot">🔬 Renal pilot</button>'
+        + '<div class="s1-row"><span>From</span><button class="chip' + (c.src === 'all' && !c.ch ? ' on' : '') + '" data-bksrc="all">Everything</button><button class="chip' + (c.src === 'pilot' ? ' on' : '') + '" data-bksrc="pilot">🫘 Renal focus</button>'
         + '<select class="jsel" id="bkCh"><option value="">Any chapter</option>' + chs.map(w => '<option value="' + w.id + '"' + (c.ch === w.id ? ' selected' : '') + '>' + esc(w.name) + '</option>').join('') + '</select></div>'
         + '<div class="s1-row"><span>Which</span>' + [['any', 'Any'], ['new', '🆕 Unseen'], ['miss', '🔥 Missed before']].map(([k, l]) => '<button class="chip' + (c.st === k ? ' on' : '') + '" data-bkst="' + k + '">' + l + '</button>').join('') + '</div>'
         + '<div class="toolbar"><span class="hint grow">' + n + ' questions match · ' + Math.min(n, c.n) + ' in this block · ' + Math.round(Math.min(n, c.n) * 1.5) + ' minutes</span><button class="btn primary" data-bkstart' + (n ? '' : ' disabled') + '>▶ Start the block</button></div></div>';
@@ -671,7 +672,7 @@
     /* ================================================================ 🫘 nephron map */
     const SEG = {
       glom: {t: 'Glomerulus and the JG apparatus', c: '#7a4fc9', d: ['Filters about 20% of the plasma that arrives (filtration fraction); GFR about 100 to 125 mL/min', 'Barrier: fenestrated endothelium, a negatively charged basement membrane, then podocyte slits (nephrin)', 'Afferent arteriole sets the inflow, efferent the outflow: constrict efferent and GFR rises while flow falls', 'Juxtaglomerular cells release renin when pressure falls, with sympathetic β1 drive, or when the macula densa senses little NaCl'],
-        h: ['Angiotensin II squeezes the efferent arteriole', 'Prostaglandins dilate the afferent arteriole', 'ANP dilates afferent, constricts efferent'], rx: ['ACE inhibitors and ARBs: efferent relaxes, GFR falls', 'NSAIDs: afferent narrows, GFR falls in the dehydrated'], dz: ['Nephritic: inflamed capillaries leak red cells (RBC casts)', 'Nephrotic: podocyte injury leaks protein over 3.5 g a day'], u: ['Glomerular filtration and clearance', 'Nephritic syndrome', 'Nephrotic syndrome']},
+        h: ['Angiotensin II squeezes the efferent arteriole', 'Prostaglandins dilate the afferent arteriole', 'ANP dilates afferent, constricts efferent'], rx: ['ACE inhibitors and ARBs: efferent relaxes, GFR falls', 'NSAIDs: blocks prostaglandin synthesis -> loss of afferent vasodilation (decreased dilation, not direct constriction), so GFR falls'], dz: ['Nephritic: inflamed capillaries leak red cells (RBC casts)', 'Nephrotic: podocyte injury leaks protein over 3.5 g a day'], u: ['Glomerular filtration and clearance', 'Nephritic syndrome', 'Nephrotic syndrome']},
       pct: {t: 'Proximal convoluted tubule', c: '#d0306b', d: ['Takes back 65 to 80% of filtered Na⁺ and water, isotonically', 'Reclaims all the glucose (SGLT2) and amino acids, and most of the HCO₃⁻ (carbonic anhydrase, Na⁺/H⁺ exchange)', 'Secretes organic acids and drugs (penicillin, PAH, urate) and makes NH₄⁺ from glutamine', 'Holds 1α-hydroxylase: calcidiol to calcitriol'],
         h: ['Angiotensin II: more Na⁺/H⁺ exchange, so contraction alkalosis', 'PTH: blocks Na⁺/phosphate cotransport (phosphaturia) and switches on 1α-hydroxylase'], rx: ['Acetazolamide: carbonic anhydrase blocked, HCO₃⁻ lost, normal-gap acidosis', 'SGLT2 inhibitors: glucose in the urine', 'Mannitol works here and in the thin descending limb'], dz: ['Fanconi syndrome: glucose, amino acids, phosphate and HCO₃⁻ all lost (type 2 RTA)', 'Most exposed to ischaemic and toxic ATN', 'Cystinuria and Hartnup: transporter defects'], u: ['Proximal convoluted tubule', 'Renal tubular acidosis', 'Diuretics']},
       tdl: {t: 'Thin descending limb', c: '#3a7bd5', d: ['Water leaves through aquaporin 1 into the salty medulla; salt stays in', 'So the fluid gets more concentrated on the way down'], h: [], rx: ['Mannitol: holds water in the tubule'], dz: [], u: ['Loop of Henle and Bartter syndrome']},
@@ -715,5 +716,322 @@
       if (s) { nm.seg = s.dataset.seg; ME.render(); }
       else if (d) { nm.drug = nm.drug === d.dataset.nmdrug ? '' : d.dataset.nmdrug; const hit = (DRUG.find(x => x[0] === nm.drug) || [0, []])[1]; if (hit.length) nm.seg = hit[0]; ME.render(); }
     });
+
+    /* ================================================================ 🫀 System maps (8-tab visual Step 1 atlas + PV loop shifter + 60 UWorld plates) */
+    const atl = {tab: 'glom', pv: 'norm'};
+    const ATL_TABS = [
+      ['glom', '🫘 Glomerular & 60 UWorld Plates'],
+      ['pv', '📈 Interactive PV-Loops'],
+      ['shock', '🫀 Shock & Murmurs'],
+      ['resp', '🫁 Spirometry & V/Q'],
+      ['cah', '🦋 CAH & Endocrine'],
+      ['heme', '🩸 Coag & Anaemia'],
+      ['neuro', '🧠 Brainstem & Cord'],
+      ['storage', '🧬 Storage Disease Subway']
+    ];
+    const PV_STATES = {
+      norm: {name: 'Normal Baseline', edv: 120, esv: 50, pmax: 120, edp: 8, isov: true, desc: 'Normal left ventricular pressure-volume loop: EDV 120 mL, ESV 50 mL, Stroke Volume (SV) = 70 mL, Ejection Fraction (EF) = 58%.'},
+      preload_up: {name: '↑ Preload (IV Fluid Bolus)', edv: 155, esv: 50, pmax: 128, edp: 14, isov: true, desc: 'Increased venous return shifts the right border (EDV) rightward -> Frank-Starling mechanism increases Stroke Volume (SV rises to 105 mL).'},
+      afterload_up: {name: '↑ Afterload / Hypertension', edv: 120, esv: 75, pmax: 165, edp: 10, isov: true, desc: 'Increased arterial pressure forces the LV to generate higher peak systolic pressure -> less blood is ejected -> ↑ ESV (75 mL) and ↓ Stroke Volume (45 mL).'},
+      inotropy_up: {name: '↑ Contractility (Dobutamine / β1)', edv: 120, esv: 30, pmax: 145, edp: 6, isov: true, desc: 'Positive inotropy shifts the ESPVR line to the left -> LV ejects more completely -> ↓ ESV (30 mL), ↑ Stroke Volume (90 mL), and ↑ Ejection Fraction (75%).'},
+      as: {name: 'Aortic Stenosis (AS)', edv: 125, esv: 70, pmax: 195, edp: 18, isov: true, desc: 'Calcified stenotic aortic valve creates a massive systolic pressure gradient -> dome-shaped tall PV loop with ↑↑ peak LV pressure, ↑ ESV, and ↓ SV.'},
+      ar: {name: 'Aortic Regurgitation (AR)', edv: 185, esv: 60, pmax: 150, edp: 16, isov: false, desc: 'Blood leaks back into LV during diastole -> loss of true isovolumetric relaxation, huge ↑↑ EDV (volume overload), and massive Stroke Volume + wide pulse pressure.'},
+      ms: {name: 'Mitral Stenosis (MS)', edv: 85, esv: 45, pmax: 105, edp: 5, isov: true, desc: 'Impaired LA-to-LV diastolic filling starves the left ventricle of preload -> shifted left with ↓ EDV (85 mL) and ↓ Stroke Volume (40 mL).'},
+      mr: {name: 'Mitral Regurgitation (MR)', edv: 170, esv: 40, pmax: 115, edp: 14, isov: false, desc: 'Blood leaks backward into low-pressure LA during systole -> loss of isovolumetric contraction, ↓ afterload (↓ ESV), and ↑ EDV from extra LA volume.'}
+    };
+    function pvSvgHtml(mode) {
+      const b = PV_STATES.norm, c = PV_STATES[mode] || b;
+      const X = v => 55 + (v / 210) * 360, Y = p => 250 - (p / 215) * 220;
+      const loopPath = st => {
+        const x1 = X(st.esv), x2 = X(st.edv), y0 = Y(st.edp), yOpen = Y(80), yPeak = Y(st.pmax), yClose = Y(95);
+        if (!st.isov) {
+          return 'M ' + x1 + ' ' + (y0 + 8) + ' Q ' + ((x1 + x2) / 2) + ' ' + (y0 + 18) + ' ' + x2 + ' ' + y0
+            + ' Q ' + (x2 + 12) + ' ' + ((y0 + yPeak) / 2) + ' ' + ((x1 + x2) / 2) + ' ' + yPeak
+            + ' Q ' + (x1 - 12) + ' ' + ((yPeak + y0) / 2) + ' ' + x1 + ' ' + (y0 + 8) + ' Z';
+        }
+        return 'M ' + x1 + ' ' + (y0 - 2) + ' Q ' + ((x1 + x2) / 2) + ' ' + (y0 + 8) + ' ' + x2 + ' ' + y0
+          + ' L ' + x2 + ' ' + yOpen + ' Q ' + ((x1 + x2) / 2) + ' ' + (yPeak - 18) + ' ' + x1 + ' ' + yClose + ' Z';
+      };
+      return '<svg viewBox="0 0 450 285" style="width:100%;max-width:520px;background:var(--surface-2);border-radius:10px;border:1px solid var(--line)">'
+        + '<line x1="55" y1="20" x2="55" y2="250" stroke="var(--muted)" stroke-width="1.5"/>'
+        + '<line x1="55" y1="250" x2="425" y2="250" stroke="var(--muted)" stroke-width="1.5"/>'
+        + '<text x="240" y="276" text-anchor="middle" font-size="11" fill="var(--ink)">Left Ventricular Volume (mL) — EDV minus ESV = Stroke Volume</text>'
+        + '<text x="16" y="135" text-anchor="middle" font-size="11" fill="var(--ink)" transform="rotate(-90 16 135)">LV Pressure (mmHg)</text>'
+        + '<line x1="55" y1="250" x2="' + X(95) + '" y2="25" stroke="var(--muted)" stroke-dasharray="4,4" stroke-width="1.2"/>'
+        + '<text x="' + (X(95) + 4) + '" y="34" font-size="10" fill="var(--muted)">ESPVR</text>'
+        + '<path d="' + loopPath(b) + '" fill="rgba(120,140,180,0.12)" stroke="var(--muted)" stroke-width="2" stroke-dasharray="5,4"/>'
+        + (mode !== 'norm' ? '<path d="' + loopPath(c) + '" fill="rgba(255,194,26,0.22)" stroke="#e07b00" stroke-width="3"/>' : '<path d="' + loopPath(b) + '" fill="rgba(47,111,237,0.18)" stroke="#2f6fed" stroke-width="3"/>')
+        + '<text x="315" y="34" font-size="11" font-weight="700" fill="var(--ink)">Dashed = Normal · Solid = ' + c.name + '</text>'
+        + '</svg>';
+    }
+    const UW_GALLERY_ITEMS = [
+      ['uw_mcd_em', 'MCD · Podocyte effacement (EM)'], ['uw_fsgs_silver', 'FSGS · Segmental sclerosis (Silver)'],
+      ['uw_kw_nodules', 'Diabetic · Kimmelstiel-Wilson nodules'], ['uw_goodpasture_linear', 'Goodpasture · Linear IgG (IF)'],
+      ['uw_goodpasture_if', 'Goodpasture · Anti-GBM crescent'], ['uw_rpgn_he', 'RPGN · Cellular crescent (H&E)'],
+      ['uw_rpgn_path', 'RPGN · Crescentic cascade'], ['uw_crescent_osm', 'Nephron · Osmolarity gradient'],
+      ['uw_atn_histology', 'ATN · Muddy brown casts'], ['uw_ischemic_atn_medulla', 'ATN · Medullary ischaemia'],
+      ['uw_adh_atn', 'ATN · Patchy basement denudation'], ['uw_cholesterol_clefts', 'Atheroemboli · Cholesterol clefts'],
+      ['uw_malignant_htn', 'Malignant HTN · Onion-skinning'], ['uw_wbc_cast', 'Pyelonephritis · WBC cast'],
+      ['uw_waxy_cast', 'ESRD · Broad waxy cast'], ['uw_analgesic_nephropathy', 'Papillary necrosis · Analgesic'],
+      ['uw_staghorn_ct', 'Struvite · Staghorn calculus (CT)'], ['uw_struvite_path', 'Struvite · Urease splits urea'],
+      ['uw_adpkd_ct', 'ADPKD · Bilateral cysts (CT)'], ['uw_horseshoe_ct', 'Horseshoe kidney · Trapped on IMA'],
+      ['uw_turner_horseshoe', 'Turner 45,XO · Horseshoe kidney'], ['uw_wilms_ct', 'Wilms tumour · WT1 renal mass (CT)'],
+      ['uw_rcc_gross_aml', 'RCC & Angiomyolipoma gross'], ['uw_rcc_ivc', 'RCC · Renal vein & IVC invasion'],
+      ['uw_renal_infarction', 'Wedge-shaped renal infarction'], ['uw_kidney_embryo', 'Embryo · Ureteric bud + metanephros'],
+      ['uw_puv', 'Posterior urethral valves · Keyhole'], ['uw_ureter_anatomy', 'Ureter · 3 stone constriction sites'],
+      ['uw_suprapubic', 'Pelvic fracture · Urethral injury'], ['uw_lhf_cascade', 'Heart failure · RAAS & ADH cascade'],
+      ['uw_acid_base_nomogram', 'Acid-Base · Compensation nomogram'], ['uw_gfr_autoreg', 'GFR & RPF · Myogenic & TGF autoreg'],
+      ['uw_darrow_yannet', 'Darrow-Yannet · ICF vs ECF shifts'], ['uw_sphingolipidoses', 'Sphingolipidoses · Pathway map'],
+      ['uw_ebstein', 'Ebstein anomaly · Lithium tricuspid'], ['uw_pituitary_embryo', 'Pituitary · Rathke pouch embryo'],
+      ['uw_hirschsprung', 'Hirschsprung · Aganglionic megacolon'], ['uw_double_bubble', 'Duodenal atresia · Double bubble'],
+      ['uw_hand_nerves', 'Hand · Median vs Ulnar vs Radial'], ['uw_cpa_schwannoma', 'NF2 · CPA Vestibular Schwannoma'],
+      ['uw_cell_injury', 'Pathology · Reversible vs Irreversible'], ['uw_hepb_serology', 'HBV · Window period serology'],
+      ['uw_pemphigus_bp', 'Pemphigus vs Bullous Pemphigoid IF'], ['uw_wpw_delta', 'WPW · Bundle of Kent & Delta wave'],
+      ['uw_pv_afterload', 'Cardio · Afterload PV-Loop shift'], ['uw_aortic_dissection', 'Stanford Type A vs B Dissection'],
+      ['uw_dose_response', 'Pharm · Competitive vs Non-comp'], ['uw_folate_b12_trap', 'Biochem · B12 Methyl-THF trap'],
+      ['uw_cftr_processing', 'CFTR F508del · RER misfolding'], ['uw_flow_volume_loops', 'Resp · Flow-Volume Loop patterns'],
+      ['uw_ibd_comparison', 'GI · Crohn vs Ulcerative Colitis'], ['uw_ethanol_metabolism', 'Biochem · Ethanol NADH/NAD+'],
+      ['uw_hcm_disarray', 'HCM · Myofibrillar disarray'], ['uw_aschoff_body', 'Rheumatic fever · Aschoff body'],
+      ['uw_psammoma_bodies', 'Papillary thyroid · Psammoma bodies'], ['uw_signet_ring', 'Diffuse gastric · Signet-ring cells'],
+      ['uw_gaucher_cell', 'Gaucher · Crinkled-paper macrophage'], ['uw_aspergillus_hyphae', 'Aspergillus · 45° septate hyphae'],
+      ['uw_gbm_butterfly', 'Glioblastoma · Butterfly glioma'], ['uw_saddle_pe', 'Massive Saddle Pulmonary Embolism']
+    ];
+    ME.view('atlas', m => {
+      let body = '';
+      if (atl.tab === 'glom') {
+        body = '<div class="panel"><h2>🫘 Glomerular Pathology: LM · IF · EM · UWorld Biopsies</h2>'
+          + '<table><tr><th>Syndrome</th><th>Light Microscopy (LM)</th><th>Immunofluorescence (IF)</th><th>Electron Microscopy (EM)</th><th>Key Step 1 Trigger</th></tr>'
+          + '<tr><td><b>Minimal change disease</b></td><td>Normal glomeruli</td><td>Negative</td><td><b>Diffuse podocyte foot process effacement</b></td><td>Child after URI, Hodgkin lymphoma; selective albuminuria; steroid-responsive</td></tr>'
+          + '<tr><td><b>FSGS</b></td><td><b>Segmental sclerosis and hyalinosis</b></td><td>Negative (or IgM/C3)</td><td>Foot process effacement</td><td>HIV, heroin, sickle cell, obesity, interferon; steroid-resistant</td></tr>'
+          + '<tr><td><b>Membranous nephropathy</b></td><td>Diffuse capillary thickening; <b>spike and dome</b></td><td><b>Granular</b> IgG and C3</td><td><b>Subepithelial</b> dense deposits</td><td>Anti-PLA2R, SLE (class V), HBV/HCV, solid tumours; renal vein thrombosis</td></tr>'
+          + '<tr><td><b>Diabetic nephropathy</b></td><td>Mesangial expansion; <b>Kimmelstiel-Wilson nodules</b></td><td>Non-specific linear trapping</td><td><b>GBM thickening</b></td><td>Non-enzymatic glycosylation of efferent &gt; afferent arteriole -&gt; hyperfiltration</td></tr>'
+          + '<tr><td><b>Amyloidosis (AL / AA)</b></td><td><b>Congo red apple-green birefringence</b></td><td>Kappa/lambda (AL) or AA</td><td><b>8-12 nm non-branching fibrils</b></td><td>Multiple myeloma (AL) or chronic inflammatory states like RA/IBD/TB (AA)</td></tr>'
+          + '<tr><td><b>MPGN (Type I vs II)</b></td><td><b>Tram-track</b> double contour GBM splitting</td><td>Granular IgG/C3 vs C3 only</td><td><b>Subendothelial</b> vs <b>intramembranous ribbon</b></td><td>HBV/HCV cryoglobulinaemia (Type I); C3 nephritic factor (Type II)</td></tr>'
+          + '<tr><td><b>Poststreptococcal GN</b></td><td>Hypercellular glomeruli with neutrophils</td><td><b>Starry-sky granular</b> IgG, C3</td><td><b>Subepithelial humps</b></td><td>2-4 weeks after group A strep pharynx/skin; low C3</td></tr>'
+          + '<tr><td><b>IgA nephropathy (Berger)</b></td><td>Mesangial proliferation</td><td><b>Mesangial IgA</b></td><td><b>Mesangial</b> dense deposits</td><td>Gross haematuria <b>within 1-3 days</b> of URI/GI infection (synpharyngitic)</td></tr>'
+          + '<tr><td><b>Goodpasture (Anti-GBM)</b></td><td>Crescents in Bowman space</td><td><b>Smooth linear IgG</b></td><td>GBM rupture</td><td>Haemoptysis + RPGN; antibodies against <b>alpha-3 chain of type IV collagen</b></td></tr>'
+          + '<tr><td><b>Pauci-immune RPGN</b></td><td>Crescents in Bowman space</td><td><b>Negative (pauci-immune)</b></td><td>No immune deposits</td><td><b>PR3-ANCA/c-ANCA</b> (GPA), <b>MPO-ANCA/p-ANCA</b> (MPA, EGPA)</td></tr>'
+          + '<tr><td><b>Alport syndrome</b></td><td>Foam cells in interstitium</td><td>Negative</td><td><b>Basket-weave splitting</b> of GBM</td><td>X-linked mutation in <b>alpha-5 chain of type IV collagen</b>; deafness + lenticonus</td></tr></table></div>'
+          + '<div class="panel"><h2>🔬 Complete 60-Plate UWorld Pathology, Radiology, Embryology & Pathway Gallery</h2><div class="chgrid" style="grid-template-columns:repeat(auto-fill,minmax(195px,1fr))">'
+          + UW_GALLERY_ITEMS.map(([id, cap]) => '<figure style="margin:0;padding:8px;border:1px solid var(--line);border-radius:10px;background:var(--surface)"><img src="img/' + id + '.jpg" alt="' + esc(cap) + '" style="width:100%;height:145px;object-fit:cover;border-radius:6px" loading="lazy"><figcaption style="font-size:.78rem;margin-top:6px;font-weight:700">' + esc(cap) + '</figcaption></figure>').join('') + '</div></div>';
+      } else if (atl.tab === 'pv') {
+        const curPv = PV_STATES[atl.pv] || PV_STATES.norm;
+        body = '<div class="panel"><h2>📈 Interactive Left Ventricular Pressure-Volume (PV) Loop Shifter</h2><p class="hint" style="margin:0">Tap any haemodynamic perturbation or valvular lesion below to watch how EDV, ESV, Stroke Volume (width), and Peak Systolic Pressure (height) shift against the normal baseline loop.</p>'
+          + '<div class="chips">' + Object.entries(PV_STATES).map(([k, v]) => '<button class="chip' + (atl.pv === k ? ' on' : '') + '" data-pvmode="' + k + '">' + esc(v.name) + '</button>').join('') + '</div>'
+          + '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;align-items:center;margin-top:8px"><div>' + pvSvgHtml(atl.pv) + '</div>'
+          + '<div class="panel" style="background:var(--surface-2)"><h3>' + esc(curPv.name) + '</h3><p>' + esc(curPv.desc) + '</p>'
+          + '<table><tr><th>Parameter</th><th>Value</th><th>Shift vs Normal</th></tr>'
+          + '<tr><td><b>End-Diastolic Volume (EDV)</b></td><td>' + curPv.edv + ' mL</td><td>' + (curPv.edv > 120 ? '↑ Increased' : curPv.edv < 120 ? '↓ Decreased' : '↔ Unchanged') + '</td></tr>'
+          + '<tr><td><b>End-Systolic Volume (ESV)</b></td><td>' + curPv.esv + ' mL</td><td>' + (curPv.esv > 50 ? '↑ Increased' : curPv.esv < 50 ? '↓ Decreased' : '↔ Unchanged') + '</td></tr>'
+          + '<tr><td><b>Stroke Volume (EDV - ESV)</b></td><td><b>' + (curPv.edv - curPv.esv) + ' mL</b></td><td>' + ((curPv.edv - curPv.esv) > 70 ? '↑ Widened loop' : (curPv.edv - curPv.esv) < 70 ? '↓ Narrowed loop' : '↔ Normal width') + '</td></tr>'
+          + '<tr><td><b>Peak LV Systolic Pressure</b></td><td>' + curPv.pmax + ' mmHg</td><td>' + (curPv.pmax > 120 ? '↑ Taller loop' : curPv.pmax < 120 ? '↓ Shorter loop' : '↔ Normal height') + '</td></tr></table></div></div></div>';
+      } else if (atl.tab === 'shock') {
+        body = '<div class="panel"><h2>🫀 Shock Haemodynamic Profiles</h2>'
+          + '<table><tr><th>Shock Type</th><th>Preload (CVP / PCWP)</th><th>Cardiac Output (CO)</th><th>Afterload (SVR)</th><th>Mixed Venous O2 (SvO2)</th><th>Classic Triggers</th></tr>'
+          + '<tr><td><b>Hypovolaemic</b></td><td>↓</td><td>↓</td><td>↑ (sympathetic)</td><td>↓</td><td>Haemorrhage, severe dehydration, burns, DKA</td></tr>'
+          + '<tr><td><b>Cardiogenic</b></td><td><b>↑↑</b></td><td>↓↓</td><td>↑</td><td>↓</td><td>Massive anterior MI, myocarditis, acute MR/VSD</td></tr>'
+          + '<tr><td><b>Obstructive</b></td><td><b>↑ CVP</b> (PCWP ↓ in PE, ↑ in tamponade)</td><td>↓</td><td>↑</td><td>↓</td><td>Cardiac tamponade, tension pneumothorax, massive saddle PE</td></tr>'
+          + '<tr><td><b>Distributive · Septic / Anaphylactic</b></td><td>↓</td><td><b>↑ (early warm)</b></td><td><b>↓↓</b></td><td><b>↑</b></td><td>Gram-negative endotoxin (TNF-α, IL-1, NO), IgE mast-cell histamine</td></tr>'
+          + '<tr><td><b>Distributive · Neurogenic</b></td><td>↓</td><td>↓ (bradycardia)</td><td><b>↓↓</b></td><td>↓ or ↔</td><td>Cervical/high thoracic spinal cord trauma (loss of sympathetic tone -&gt; warm dry skin + bradycardia)</td></tr></table></div>'
+          + '<div class="panel"><h2>🩺 Dynamic Auscultation Maneuvers</h2>'
+          + '<table><tr><th>Maneuver</th><th>Haemodynamic Change</th><th>Murmurs That get LOUDER</th><th>Murmurs That get SOFTER (or shift)</th></tr>'
+          + '<tr><td><b>Inspiration</b></td><td>↑ Venous return to right heart</td><td>All <b>right-sided murmurs</b> (TR, TS, PR, PS)</td><td>Left-sided murmurs</td></tr>'
+          + '<tr><td><b>Valsalva strain / Standing</b></td><td><b>↓ Preload</b> (smaller LV cavity)</td><td><b>HCM</b> (louder), <b>MVP</b> (click moves earlier, longer murmur)</td><td>AS, MR, AR, VSD all get softer</td></tr>'
+          + '<tr><td><b>Rapid Squatting / Passive leg raise</b></td><td><b>↑ Preload &amp; ↑ Afterload</b> (larger LV cavity)</td><td>AS, MR, AR, VSD get louder</td><td><b>HCM</b> (softer), <b>MVP</b> (click moves later, shorter murmur)</td></tr>'
+          + '<tr><td><b>Sustained Handgrip</b></td><td><b>↑ Afterload (SVR)</b></td><td><b>AR, MR, VSD</b> (more backward flow)</td><td><b>AS, HCM</b> (reduced forward ejection / wider LVOT)</td></tr></table></div>';
+      } else if (atl.tab === 'resp') {
+        body = '<div class="panel"><h2>🫁 Spirometry, Lung Volumes &amp; DLCO</h2>'
+          + '<table><tr><th>Pattern</th><th>FEV1 / FVC</th><th>TLC &amp; RV</th><th>DLCO</th><th>A-a Gradient</th><th>Classic Diseases</th></tr>'
+          + '<tr><td><b>Obstructive · Emphysema</b></td><td><b>&lt; 0.70 (↓↓)</b></td><td>↑ TLC, ↑↑ RV (air trapping)</td><td><b>↓↓</b> (alveolar wall destruction)</td><td>↑</td><td>Smoking (centriacinar upper lobe), alpha-1 antitrypsin deficiency (panacinar lower lobe)</td></tr>'
+          + '<tr><td><b>Obstructive · Chronic Bronchitis / Asthma</b></td><td><b>&lt; 0.70 (↓↓)</b></td><td>↑ TLC, ↑ RV</td><td><b>↔ Normal</b> (or ↑ in asthma)</td><td>↑ in flare</td><td>Reid index &gt; 0.50 (bronchitis); reversible with albuterol / methacholine-positive (asthma)</td></tr>'
+          + '<tr><td><b>Restrictive · Parenchymal (ILD)</b></td><td><b>≥ 0.70 (Normal or ↑)</b></td><td><b>↓↓ TLC, ↓ RV</b></td><td><b>↓↓</b> (thickened alveolar-capillary membrane)</td><td><b>↑</b></td><td>Idiopathic pulmonary fibrosis (honeycombing), sarcoidosis, pneumoconioses, amiodarone/bleomycin</td></tr>'
+          + '<tr><td><b>Restrictive · Extraparenchymal</b></td><td><b>≥ 0.70 (Normal or ↑)</b></td><td><b>↓↓ TLC</b></td><td><b>↔ Normal</b> (intact alveolar membrane)</td><td><b>↔ Normal</b> (pure hypoventilation)</td><td>ALS, myasthenia gravis, Guillain-Barré, phrenic nerve injury, severe kyphoscoliosis, obesity</td></tr>'
+          + '<tr><td><b>Pulmonary Vascular Disease</b></td><td>↔ Normal</td><td>↔ Normal</td><td><b>↓↓</b></td><td><b>↑</b></td><td>Pulmonary embolism, idiopathic pulmonary arterial hypertension (BMPR2)</td></tr></table></div>';
+      } else if (atl.tab === 'cah') {
+        body = '<div class="panel"><h2>🦋 Congenital Adrenal Hyperplasia (CAH) Matrix</h2>'
+          + '<table><tr><th>Enzyme Deficiency</th><th>Blood Pressure</th><th>Serum K+ &amp; Renin</th><th>17-OH Progesterone</th><th>Adrenal Androgens</th><th>Phenotype (46,XX vs 46,XY)</th></tr>'
+          + '<tr><td><b>21-Hydroxylase</b> (commonest)</td><td><b>↓↓ Salt-wasting shock</b></td><td><b>↑↑ K+</b>, ↑ Renin, ↓ Aldosterone</td><td><b>↑↑↑</b></td><td><b>↑↑</b></td><td><b>46,XX</b>: ambiguous genitalia (clitoromegaly) with normal ovaries/uterus; <b>46,XY</b>: normal at birth, precocious puberty</td></tr>'
+          + '<tr><td><b>11β-Hydroxylase</b></td><td><b>↑↑ Hypertension</b> (high 11-DOC)</td><td><b>↓↓ K+</b>, ↓ Renin, ↓ Aldosterone</td><td><b>↑↑</b> (and ↑ 11-deoxycortisol)</td><td><b>↑↑</b></td><td><b>46,XX</b>: virilised / ambiguous genitalia + high BP; <b>46,XY</b>: precocious puberty + high BP</td></tr>'
+          + '<tr><td><b>17α-Hydroxylase</b></td><td><b>↑↑ Hypertension</b> (high 11-DOC)</td><td><b>↓↓ K+</b>, ↓ Renin, ↓ Aldosterone</td><td><b>↓↓</b></td><td><b>↓↓</b> (absent DHEA &amp; oestrogens)</td><td><b>46,XX</b>: primary amenorrhoea, no pubic hair; <b>46,XY</b>: female external genitalia, blind vagina, intra-abdominal testes</td></tr></table></div>';
+      } else if (atl.tab === 'heme') {
+        body = '<div class="panel"><h2>🩸 Coagulation &amp; Platelet Disorder Matrix</h2>'
+          + '<table><tr><th>Disorder</th><th>Platelet Count</th><th>Bleeding Time</th><th>PT (INR)</th><th>aPTT</th><th>Key Mechanism &amp; Peripheral Smear</th></tr>'
+          + '<tr><td><b>ITP</b></td><td><b>↓↓</b></td><td><b>↑</b></td><td>↔</td><td>↔</td><td>Anti-GpIIb/IIIa IgG -&gt; splenic macrophage phagocytosis; ↑ megakaryocytes on marrow</td></tr>'
+          + '<tr><td><b>TTP / HUS</b></td><td><b>↓↓</b></td><td><b>↑</b></td><td><b>↔ Normal</b></td><td><b>↔ Normal</b></td><td>ADAMTS13 deficiency (TTP) or Shiga toxin O157:H7 (HUS) -&gt; platelet microthrombi + <b>schistocytes</b> without factor consumption</td></tr>'
+          + '<tr><td><b>DIC</b></td><td><b>↓↓</b></td><td><b>↑</b></td><td><b>↑↑</b></td><td><b>↑↑</b></td><td>Tissue factor activation (sepsis, obstetrics, APL M3) -&gt; ↓ fibrinogen, ↑ D-dimer, <b>schistocytes</b></td></tr>'
+          + '<tr><td><b>Von Willebrand disease</b></td><td>↔ Normal</td><td><b>↑</b></td><td>↔</td><td><b>↑ or ↔</b> (carries FVIII)</td><td>Defective vWF impairs GpIb platelet adhesion AND reduces factor VIII half-life; treat with desmopressin</td></tr>'
+          + '<tr><td><b>Haemophilia A / B</b></td><td>↔</td><td>↔</td><td>↔</td><td><b>↑↑</b></td><td>X-linked Factor VIII (A) or IX (B) deficiency; haemarthrosis, deep muscle haematomas; mixes correct aPTT</td></tr>'
+          + '<tr><td><b>Bernard-Soulier vs Glanzmann</b></td><td>↓ (giant platelets in BS) vs ↔ (Glanzmann)</td><td><b>↑↑</b></td><td>↔</td><td>↔</td><td><b>GpIb</b> adhesion defect (fails ristocetin) vs <b>GpIIb/IIIa</b> aggregation defect (no clumping on smear)</td></tr></table></div>';
+      } else if (atl.tab === 'neuro') {
+        body = '<div class="panel"><h2>🧠 Brainstem Vascular Syndromes (Rule of 4s) &amp; Spinal Cord Tracts</h2>'
+          + '<table><tr><th>Syndrome &amp; Artery</th><th>Ipsilateral Signs</th><th>Contralateral Signs</th><th>Decisive Localising Clue</th></tr>'
+          + '<tr><td><b>Lateral Medullary (Wallenberg) · PICA</b></td><td>Horner, ataxia (ICP), loss of facial pain/temp (CN V), dysphagia/hoarseness/loss of gag (<b>CN IX, X: nucleus ambiguus</b>), vertigo/nystagmus (CN VIII)</td><td>Loss of body pain and temperature (spinothalamic)</td><td><b>Dysphagia, hoarseness, hiccups, absent gag reflex</b> (CN IX/X)</td></tr>'
+          + '<tr><td><b>Lateral Pontine · AICA</b></td><td>Facial paralysis (<b>CN VII</b>), loss of facial sensation (CN V), <b>sensorineural deafness &amp; vertigo (CN VIII / labyrinthine artery)</b>, Horner, ataxia</td><td>Loss of body pain and temperature</td><td><b>Facial droop (CN VII) + ipsilateral deafness</b></td></tr>'
+          + '<tr><td><b>Medial Medullary · ASA</b></td><td><b>Tongue deviates toward lesion (CN XII)</b></td><td>Hemiparesis (corticospinal pyramid) + loss of vibration/proprioception (medial lemniscus)</td><td><b>CN XII lower motor neuron tongue deviation</b></td></tr>'
+          + '<tr><td><b>Medial Midbrain (Weber) · PCA</b></td><td><b>CN III palsy</b> (eye down and out, ptosis, blown pupil)</td><td>Contralateral hemiparesis (cerebral peduncle)</td><td><b>Oculomotor palsy + crossed hemiplegia</b></td></tr>'
+          + '<tr><td><b>Syringomyelia (central canal)</b></td><td colspan="2">Bilateral <b>cape-like loss of pain and temperature</b> across shoulders/arms (anterior white commissure) + intrinsic hand LMN weakness; spares dorsal columns</td><td>Associated with <b>Chiari I malformation</b></td></tr>'
+          + '<tr><td><b>Subacute Combined Degeneration (B12)</b></td><td colspan="2">Bilateral <b>dorsal columns</b> (vibration/proprioception loss, positive Romberg) + <b>lateral corticospinal tracts</b> (spastic paresis, Babinski)</td><td>Vitamin B12 deficiency, nitrous oxide abuse, Diphyllobothrium latum</td></tr>'
+          + '<tr><td><b>Anterior Spinal Artery (ASA) Occlusion</b></td><td colspan="2">Bilateral corticospinal paralysis + bilateral spinothalamic pain/temp loss below lesion; <b>dorsal column vibration and proprioception SPARED</b></td><td>Thoracic aortic aneurysm repair (artery of Adamkiewicz)</td></tr></table></div>';
+      } else if (atl.tab === 'storage') {
+        body = '<div class="panel"><h2>🧬 Lysosomal Storage Diseases (Sphingolipidoses &amp; Mucopolysaccharidoses)</h2>'
+          + '<table><tr><th>Disease</th><th>Deficient Enzyme</th><th>Accumulated Substrate</th><th>Decisive Step 1 Clinical &amp; Histology Triggers</th></tr>'
+          + '<tr><td><b>Tay-Sachs</b></td><td><b>Hexosaminidase A</b></td><td><b>GM2 ganglioside</b></td><td>Infant neurodegeneration, startle, <b>cherry-red macular spot</b>, <b>NO hepatosplenomegaly</b>, EM <b>onion-skin lysosomes</b></td></tr>'
+          + '<tr><td><b>Niemann-Pick</b></td><td><b>Sphingomyelinase</b></td><td><b>Sphingomyelin</b></td><td>Infant neurodegeneration, <b>cherry-red spot PLUS massive hepatosplenomegaly</b>, <b>foamy macrophages</b> (zebra bodies)</td></tr>'
+          + '<tr><td><b>Gaucher (commonest)</b></td><td><b>β-Glucocerebrosidase</b></td><td><b>Glucocerebroside</b></td><td>Hepatosplenomegaly, pancytopenia, bone crises / <b>femoral AVN</b>, <b>crinkled tissue-paper macrophages</b></td></tr>'
+          + '<tr><td><b>Fabry (X-linked)</b></td><td><b>α-Galactosidase A</b></td><td><b>Ceramide trihexoside (Gb3)</b></td><td>Boys with triad of <b>episodic peripheral neuropathy, angiokeratomas, hypohidrosis</b> -&gt; renal/cardiac failure</td></tr>'
+          + '<tr><td><b>Krabbe</b></td><td><b>Galactocerebrosidase</b></td><td><b>Galactocerebroside &amp; psychosine</b></td><td>Peripheral neuropathy, developmental delay, <b>optic atrophy (NO cherry-red spot)</b>, multinucleated <b>globoid cells</b></td></tr>'
+          + '<tr><td><b>Metachromatic Leukodystrophy</b></td><td><b>Arylsulfatase A</b></td><td><b>Cerebroside sulfate</b></td><td>Central and peripheral demyelination with <b>ataxia, dementia, absent reflexes</b></td></tr>'
+          + '<tr><td><b>Hurler vs Hunter (X-linked)</b></td><td><b>α-L-iduronidase</b> vs <b>Iduronate-2-sulfatase</b></td><td><b>Heparan &amp; dermatan sulfate</b></td><td>Coarse facies, hepatosplenomegaly; <b>Hunter = X-linked, Milder, NO corneal clouding</b> (Hunters see clearly)</td></tr>'
+          + '<tr><td><b>I-Cell Disease</b></td><td><b>GlcNAc-1-phosphotransferase</b></td><td>Uncleaved lysosomal substrates</td><td>Golgi fails to add <b>mannose-6-phosphate</b> tag -&gt; high plasma lysosomal enzymes, coarse facies, <b>corneal clouding</b></td></tr></table></div>'
+          + '<div class="panel"><h2>🍬 Glycogen Storage Diseases (Types I, II, III, V)</h2>'
+          + '<table><tr><th>Type</th><th>Deficient Enzyme</th><th>Key Step 1 Discriminators</th></tr>'
+          + '<tr><td><b>Type I (Von Gierke)</b></td><td><b>Glucose-6-phosphatase</b></td><td>Severe fasting hypoglycaemia, <b>↑↑ blood lactate, ↑↑ uric acid (gout), ↑↑ triglycerides</b>, massive hepatorenomegaly</td></tr>'
+          + '<tr><td><b>Type II (Pompe)</b></td><td><b>Lysosomal α-1,4-glucosidase (acid maltase)</b></td><td><b>Cardiomegaly / hypertrophic cardiomyopathy, macroglossia, profound hypotonia</b> (Pompe trashes the Pump)</td></tr>'
+          + '<tr><td><b>Type III (Cori)</b></td><td><b>Debranching enzyme</b></td><td>Milder fasting hypoglycaemia, hepatomegaly, accumulation of cytosolic <b>limit dextrin</b>, and <b>NORMAL blood lactate</b></td></tr>'
+          + '<tr><td><b>Type V (McArdle)</b></td><td><b>Skeletal muscle glycogen phosphorylase (myophosphorylase)</b></td><td>Exercise cramps, myoglobinuria, <b>flat venous lactate curve with ↑ ammonia</b>, and <b>second-wind phenomenon</b></td></tr></table></div>';
+      }
+      m.innerHTML = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code">🫀 System maps</span></div><h1>High-Yield USMLE Step 1 Visual Matrices</h1><p class="hint" style="margin:0">Rapid-scan visual tables, interactive PV-loop simulator, storage disease subway, and all 60 UWorld pathology/radiology plates.</p></div>'
+        + '<div class="s1-drugs">' + ATL_TABS.map(([k, l]) => '<button class="chip' + (atl.tab === k ? ' on' : '') + '" data-atltab="' + k + '">' + l + '</button>').join('') + '</div>'
+        + body + '</div>';
+    });
+    document.addEventListener('click', e => {
+      const b = e.target.closest && e.target.closest('[data-atltab],[data-pvmode],[data-hqtwpick]');
+      if (!b) return;
+      if (b.dataset.hqtwpick) {
+        const [qid, pickStr] = b.dataset.hqtwpick.split('|'), pick = +pickStr;
+        const qObj = ME.hqItem(qid); if (!qObj || !qObj.tw) return;
+        const box = b.closest('[data-hqtw]'); if (!box || box.classList.contains('done')) return;
+        box.classList.add('done');
+        $$('[data-hqtwpick]', box).forEach(btn => {
+          const k = +btn.dataset.hqtwpick.split('|')[1];
+          btn.disabled = true;
+          btn.classList.add(k === qObj.tw.a ? 'right' : k === pick ? 'wrong' : '');
+        });
+        const whyEl = box.querySelector('.hq-twwhy'); if (whyEl) whyEl.hidden = false;
+        if (pick === qObj.tw.a) ME.addXp(3);
+        return;
+      }
+      if (ME.route.view !== 'atlas') return;
+      if (b.dataset.atltab) { atl.tab = b.dataset.atltab; ME.render(); }
+      else if (b.dataset.pvmode) { atl.pv = b.dataset.pvmode; ME.render(); }
+    });
+
+
+    /* ================================================================ v3.6.1: bank sources, performance map, AI 4-box and twins */
+    const SRC = q => q.src === 'medengine' ? 'me' : q.src === 'UWorld' || q.uw_qid || q.uworld_qid ? 'uw' : q.src === 'Mehlman HY Arrows' ? 'mh' : 'me';
+    const SRCL = {uw: '🟦 UWorld', mh: '↕ Mehlman arrows', me: '🎯 medengine originals'};
+    blk.cfg.so = blk.cfg.so || 'all';
+    const basePool = pool;
+    pool = function () { const so = blk.cfg.so; return basePool().filter(q => so === 'all' || SRC(q) === so); };
+    document.addEventListener('click', e => {
+      const b = e.target.closest && e.target.closest('[data-bkso]'); if (!b || ME.route.view !== 'block') return;
+      blk.cfg.so = b.dataset.bkso; viewBlockSetup($('#main'));
+    }, true);
+    const baseSetup = viewBlockSetup;
+    viewBlockSetup = function (m) {
+      baseSetup(m);
+      const row = m.querySelector('.s1-setup .s1-row:nth-child(2)'); if (!row) return;
+      const cnt = k => (D.hq.q || []).filter(q => k === 'all' || SRC(q) === k).length;
+      row.insertAdjacentHTML('afterend', '<div class="s1-row"><span>Bank</span>' + ['all', 'uw', 'mh', 'me'].map(k => '<button class="chip' + (blk.cfg.so === k ? ' on' : '') + '" data-bkso="' + k + '">' + (k === 'all' ? 'All' : SRCL[k]) + ' · ' + cnt(k) + '</button>').join('') + '</div>');
+    };
+    ME.view('block', m => { viewBlockSetup(m); const r = resultHtml(); if (r) m.querySelector('.ph').insertAdjacentHTML('afterend', r); });
+
+    /* last answer to every question, from Hammer runs and timed blocks */
+    function lastAnswers() {
+      const m = {};
+      (ME.hqRuns() || []).slice().reverse().forEach(r => Object.entries(r.pk || {}).forEach(([id, p]) => { const q = ME.hqItem(id); if (q) m[id] = p === q.a; }));
+      st().blocks.forEach(b => (b.ids || []).forEach((id, j) => { const q = ME.hqItem(id), p = (b.pk || [])[j]; if (q && p != null) m[id] = p === q.a; }));
+      return m;
+    }
+    function perfHtml() {
+      const la = lastAnswers(), by = {};
+      Object.entries(la).forEach(([id, ok]) => { const q = ME.hqItem(id); if (!q || !U[+q.k]) return; const w = U[+q.k].w; const g = by[w] = by[w] || [0, 0]; g[1]++; if (ok) g[0]++; });
+      const rows = W.map(w => [w, by[w.id] || [0, 0], (D.hq.q || []).filter(q => U[+q.k] && U[+q.k].w === w.id).length]).filter(r => r[2]);
+      const seenN = Object.keys(la).length;
+      if (!seenN) return '<section class="panel s1-perf"><b>📊 Where you stand</b><p class="hint" style="margin:0">Answer a block and every First Aid chapter gets a score here, weakest first, each one a tap away from a targeted block.</p></section>';
+      const weak = rows.filter(r => r[1][1] >= 3).sort((a, b) => a[1][0] / a[1][1] - b[1][0] / b[1][1]).slice(0, 3);
+      return '<section class="panel s1-perf"><div class="toolbar"><b class="grow">📊 Where you stand · ' + seenN + ' of ' + D.hq.q.length + ' questions done</b></div>'
+        + '<div class="s1-bars">' + rows.map(([w, g, n]) => { const pc = g[1] ? Math.round(g[0] / g[1] * 100) : null; return '<div class="s1-bar1" title="' + esc(w.name) + ': ' + g[0] + ' of ' + g[1] + ' right, ' + n + ' in the bank"><span class="s1-bn">' + esc(w.name) + '</span><span class="s1-bt"><i style="width:' + Math.round(g[1] / n * 100) + '%" class="seen"></i><i style="width:' + (pc == null ? 0 : Math.round(g[0] / n * 100)) + '%" class="' + (pc == null ? '' : pc >= 70 ? 'ok' : pc >= 55 ? 'mid' : 'low') + '"></i></span><b>' + (pc == null ? '·' : pc + '%') + '</b></div>'; }).join('') + '</div>'
+        + (weak.length ? '<div class="toolbar"><span class="hint grow">Weakest: ' + weak.map(r => esc(r[0].name) + ' ' + Math.round(r[1][0] / r[1][1] * 100) + '%').join(' · ') + '</span>' + weak.map(r => '<button class="btn sm" data-s1weak="' + r[0].id + '">⏱️ ' + esc(r[0].name.split(/[ ,&]/)[0]) + ' block</button>').join('') + '</div>' : '')
+        + '<p class="hint" style="margin:0">Bar length is how much of the chapter you have seen; colour is how much of it you got right last time.</p></section>';
+    }
+    const baseHome = ME.EXT.homeTop;
+    ME.EXT.homeTop = () => baseHome() + perfHtml();
+    document.addEventListener('click', e => {
+      const b = e.target.closest && e.target.closest('[data-s1weak]'); if (!b) return;
+      Object.assign(blk.cfg, {ch: b.dataset.s1weak, src: 'all', st: 'any', so: 'all', n: 20}); ME.go({view: 'block'});
+    });
+
+    /* AI: sharpen any question's 4 boxes, or make a twin with a new patient; cached per question in your Step 1 save */
+    const ai = () => { const s = st(); s.ai = s.ai || {}; return s.ai; };
+    const aiBusy = {};
+    function applyAi(q) {
+      const a = ai()[q.id]; if (!a || !a.tm) return;
+      q.tm = Object.assign({}, q.tm || {}, a.tm);
+    }
+    (D.hq.q || []).forEach(applyAi);
+    const LET = 'ABCDEFGHI';
+    function qPrompt(q, task) {
+      return 'You are a USMLE Step 1 tutor. ' + task + '\nWrite everything in your own words in British English, no em dashes. Return JSON only.\n'
+        + 'STEM: ' + q.s.replace(/\n/g, ' ') + '\nQUESTION: ' + q.ql + '\nOPTIONS: ' + q.o.map((o, i) => LET[i] + '. ' + o).join(' | ') + '\nANSWER: ' + LET[q.a] + '. ' + q.o[q.a]
+        + '\nEXPLANATION: ' + String(q.w || '').slice(0, 4000) + (q.eo ? '\nOBJECTIVE: ' + q.eo : '');
+    }
+    async function aiSharpen(q) {
+      if (!AI || aiBusy[q.id]) return; aiBusy[q.id] = 1; rerender(q.id);
+      try {
+        const j = await AI.json(qPrompt(q, 'Rebuild this question\'s 4-box explanation. Shape: {"red_flags": ["2 to 4 short phrases copied EXACTLY from the stem that decide it"], "money_line": "one sentence: the fact that decides it", "inflow": ["3 to 6 short links from root cause to what is asked"], "film": [{"option": "letter of a WRONG option", "if": "the one change to the case that would make that option right"}, one for every wrong option], "why_not": [{"option": "letter of a WRONG option", "why": "one sentence"}, one for every wrong option]}'), {modelTier: 'default', maxTokens: 1800});
+        const idx = l => LET.indexOf(String(l || '').trim().charAt(0).toUpperCase());
+        const S = x => String(x || '').replace(/—/g, ', ').trim();
+        const tm = {c: (j.red_flags || []).map(S).filter(c => c && q.s.toLowerCase().includes(c.toLowerCase())).slice(0, 4), g: S(j.money_line), m: (j.inflow || []).map(S).filter(Boolean).join(' → '),
+          f: (j.film || []).map(f => [S(f.if), idx(f.option)]).filter(f => f[0] && f[1] >= 0 && f[1] !== q.a && f[1] < q.o.length), x: (j.why_not || []).map(x => [idx(x.option), S(x.why)]).filter(x => x[1] && x[0] >= 0 && x[0] !== q.a && x[0] < q.o.length)};
+        if (!tm.g || tm.f.length < 2) throw {code: 'thin'};
+        if (tm.c.length < 2) tm.c = (q.tm && q.tm.c) || tm.c;
+        ai()[q.id] = Object.assign(ai()[q.id] || {}, {tm, at: Date.now()}); applyAi(q); ME.addXp(2); ME.save();
+      } catch (e) { ME.toast(e && e.code === 'thin' ? 'The AI reply was too thin. Try again.' : 'The AI could not answer (' + ((e && (e.code || e.message)) || 'error') + ')'); }
+      delete aiBusy[q.id]; rerender(q.id);
+    }
+    async function aiTwin(q) {
+      if (!AI || aiBusy[q.id]) return; aiBusy[q.id] = 1; rerender(q.id);
+      try {
+        const j = await AI.json(qPrompt(q, 'Write ONE new twin question that tests the same fact with a different patient, different wording and US units and drug names. Shape: {"stem": "60 to 100 words", "question": "lead-in", "options": ["5 options, alphabetical"], "answer": 0, "why": "2 or 3 sentences, British English"}'), {modelTier: 'default', maxTokens: 1400});
+        const o = (j.options || []).map(x => String(x).trim()).filter(Boolean);
+        if (!j.stem || o.length < 4 || !(+j.answer >= 0 && +j.answer < o.length)) throw {code: 'thin'};
+        ai()[q.id] = Object.assign(ai()[q.id] || {}, {tw: {s: String(j.stem), ql: String(j.question || 'Which of the following is most likely?'), o, a: +j.answer, w: String(j.why || '')}});
+        ME.addXp(2); ME.save();
+      } catch (e) { ME.toast(e && e.code === 'thin' ? 'The twin came back incomplete. Try again.' : 'The AI could not answer (' + ((e && (e.code || e.message)) || 'error') + ')'); }
+      delete aiBusy[q.id]; rerender(q.id);
+    }
+    function rerender(id) {
+      if (ME.route.view === 'hammer') { const y = window.scrollY; ME.render(); window.scrollTo(0, y); return; }
+      const ex = document.querySelector('[data-s1x="' + id + '"]'), q = ME.hqItem(id); if (ex && q) ex.outerHTML = extraHtml(q);
+    }
+    function extraHtml(it) {
+      const q = ME.hqItem(it.id) || it, a = ai()[q.id] || {}, sk = SRC(q), busy = aiBusy[q.id];
+      let h = '<div class="s1-x" data-s1x="' + esc(q.id) + '"><div class="s1-xh"><span class="s1-chip ghost">' + SRCL[sk] + (q.uw_qid || q.uworld_qid ? ' · QID ' + esc(String(q.uw_qid || q.uworld_qid)) : '') + '</span>'
+        + (U[+q.k] ? '<button class="ulink" data-u="' + U[+q.k].i + '" data-mode="fill">↗ ' + esc(U[+q.k].name) + '</button>' : '') + (a.tm ? '<span class="s1-chip deep">🤖 4 boxes sharpened by AI</span>' : '') + '<span class="grow"></span>'
+        + (busy ? '<span class="rmx-busy">Thinking…</span>' : AI ? (a.tm ? '' : '<button class="btn sm" data-s1sharp="' + esc(q.id) + '">🤖 Sharpen the 4 boxes</button>') + (a.tw ? '' : '<button class="btn sm" data-s1twin="' + esc(q.id) + '">🔗 Make a twin</button>') : '<span class="hint">🔑 Add an AI key for twins and sharper boxes</span>') + '</div>';
+      if (a.tw) {
+        const t = a.tw;
+        h += '<div class="s1-twin" data-aitw="' + esc(q.id) + '"><div class="s1-bk">🔗 Twin: same fact, new patient</div><p>' + rich(t.s) + '</p><p><b>' + rich(t.ql) + '</b></p>'
+          + t.o.map((x, k) => '<button class="hq-o s1-two" data-aitwp="' + esc(q.id) + '|' + k + '"><span class="hq-l">' + LET[k] + '</span><span class="hq-ot">' + esc(x) + '</span></button>').join('') + '<div class="s1-tww" hidden>' + rich(t.w) + '</div></div>';
+      }
+      if ((q.cards || []).length) h += '<details class="s1-cards"><summary>🃏 ' + q.cards.length + ' Anki card' + (q.cards.length > 1 ? 's' : '') + ' from this question</summary><table>' + q.cards.map(c => '<tr><td>' + rich(c[0]) + '</td><td>' + rich(c[1]) + '</td></tr>').join('') + '</table><div class="toolbar"><button class="btn sm" data-s1qcopy="' + esc(q.id) + '">📋 Copy for Anki</button></div></details>';
+      return h + '</div>';
+    }
+    ME.EXT.tmExtra = it => extraHtml(it);
+    document.addEventListener('click', e => {
+      const t = e.target.closest && e.target.closest('[data-s1sharp],[data-s1twin],[data-aitwp],[data-s1qcopy]'); if (!t) return;
+      const d = t.dataset;
+      if (d.s1sharp) { const q = ME.hqItem(d.s1sharp); if (q) aiSharpen(q); }
+      else if (d.s1twin) { const q = ME.hqItem(d.s1twin); if (q) aiTwin(q); }
+      else if (d.s1qcopy) { const q = ME.hqItem(d.s1qcopy); if (q) copy(q.cards.map(c => [c[0], c[1], 'step1 ' + ((U[+q.k] || {}).w || '')].map(x => String(x).replace(/\*\*/g, '').replace(/[\t\n]+/g, ' ')).join('\t')).join('\n'), q.cards.length + ' cards'); }
+      else if (d.aitwp) {
+        const [id, k] = d.aitwp.split('|'), tw = (ai()[id] || {}).tw, box = t.closest('.s1-twin'); if (!tw || box.classList.contains('done')) return;
+        box.classList.add('done');
+        $$('[data-aitwp]', box).forEach(b => { const kk = +b.dataset.aitwp.split('|')[1]; b.disabled = true; b.classList.add(kk === tw.a ? 'ok' : kk === +k ? 'bad' : 'dim'); });
+        $('.s1-tww', box).hidden = false; if (+k === tw.a) ME.addXp(3);
+      }
+    });
+
   }
 })();

@@ -19,6 +19,7 @@ SITE = ROOT / 'site'
 OFF = ROOT / 'offline'
 OUT = OFF / 'dist' / 'medengine'
 OSCE_URL = 'https://claude.ai/artifact/2inAuiJNGrZaB4XqP7uQYm'
+STEP1_URL = 'https://claude.ai/artifact/GVUEwVwVsrm1akHoL9jJYX'
 STUDY_URL = 'https://claude.ai/artifact/NexSvgTB8VhqktVFfko6JR'
 ARTIFACT_FLAG = '<script>window.MEDENGINE_ARTIFACT = true;</script>\n'
 
@@ -71,6 +72,7 @@ def derive_study(study):
     a = strip_key_shim(study)
     a = must(a, '<a class="oscelink" href="osce.html"', '<a class="oscelink" href="' + OSCE_URL + '" target="_blank" rel="noopener"', 1)
     a = must(a, 'href="osce.html#u\' + u.i + \'">', 'href="' + OSCE_URL + '#u\' + u.i + \'" target="_blank" rel="noopener">', 1)
+    a = must(a, '<a class="oscelink" href="step1.html"', '<a class="oscelink" href="' + STEP1_URL + '" target="_blank" rel="noopener"', 1)
     if 'href="osce.html' in a:
         raise SystemExit('STUDY artifact still links to osce.html')
     return must(a, '<title>medengine-STUDY</title>', '<title>medengine-STUDY</title>\n' + ARTIFACT_FLAG, 1)
@@ -82,7 +84,7 @@ def derive_study(study):
 # backup table and the discussion threads get their own names, and the leaderboard profile is never pushed.
 STEP1 = ROOT / 'step1'
 STEP1_PACK = {'id': 'step1', 'noOsce': True, 'noFig': True, 'noProfile': True,
-              'hideNav': ['leaderboard', 'posters', 'sketchy', 'visual', 'act', 'sniper', 'remix', 'misses']}
+              'hideNav': ['leaderboard']}
 STEP1_KEYS = [  # old literal, new literal, how many times it appears in study.html
     ("'qq-drill-ilo-v1'", "'qq-step1-v1'", 4), ("'medengine-shots-v1'", "'medengine-step1-shots-v1'", 4),
     ("'medengine-ig-v1'", "'medengine-step1-ig-v1'", 4), ("'medengine-cosmetics'", "'medengine-step1-cosmetics'", 4),
@@ -134,6 +136,16 @@ STEP1_TEXT = [  # wording: First Aid chapters and topics instead of ILO weeks an
     ("['u', '🩺', 'Conditions']", "['u', '🩺', 'Step 1 topics']", 1),
     ('First Aid, UK-adapted', 'First Aid chapter line, written fresh', 1),
     ('<h1>Jargon Decoder</h1>', '<h1>Eponym Decoder</h1>', 1),
+    ('<a class="oscelink" href="step1.html" title="Open medengine-STEP1: USMLE Step 1"><span class="od">s1</span>medengine-STEP1 ↗</a>\n',
+     '<button type="button" class="btn sm ghost" data-go="labs" title="US lab values with the UK bridge">🧪 Labs (US↔UK)</button>\n', 1),
+    ("qb('act', '⚡', 'First move vs cure'", "qb('act', '🔬', 'Lab sim & next steps'", 1),
+    ("icon: '⚡', title: 'First move vs cure', unit: 'cards'", "icon: '🔬', title: 'Lab sim & next-step actions', unit: 'sims'", 1),
+    ('<b class="grow">⚡ First move vs cure</b>', '<b class="grow">🔬 Lab sim & next-step actions</b>', 1),
+    ('Remix: answer the question on Passmedicine,', 'Remix: answer the question on UWorld,', 1),
+    ("+ Math.min(20, list.length) + '</button>' + (list.length > 20 ?", "+ Math.min(20, list.length) + '</button><button class=\"btn\" data-go=\"block\" title=\"20 questions, 30 minutes, exam rules\">⏱️ 20Q block (30 min)</button>' + (list.length > 20 ?", 1),
+    ('Miss an image question on Passmedicine?', 'Miss an image question on UWorld?', 1),
+    ('Answer it on Passmedicine first,', 'Answer it on UWorld first,', 1),
+    ("Submit it on Passmedicine first,", "Submit it on UWorld first,", 1),
     ("Three questions for every ILO condition, drug group, test and procedure, plus the off-map topics, your own mock and 599 questions from the official practice papers (incl. Sept 2026 P1 &amp; P2) 🏛️. ",
      "Step 1 single best answers in NBME style: US units in the stems, the 4-box explanation and a change-the-film flip for every wrong option. ", 1),
     ("Random single-best-answer questions from the ILO weeks you pick.", "Random questions from the First Aid chapters you pick.", 1),

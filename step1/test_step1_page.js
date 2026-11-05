@@ -25,7 +25,8 @@ const FFP = {'qq-drill-ilo-v1': '{"sentinel":"study"}', 'medengine-misses-v1': '
   ok(await p.$$eval('.rev', r => r.length) === 1, 'answering a drop-down reveals it');
   await shot('unit_fill');
   // think mode: arrows with roles and flips
-  await p.evaluate(u => ME.go({view: 'unit', u, mode: 'think'}), D.pilot[5]); await p.waitForTimeout(300);
+  const flipU = await p.evaluate(() => { const ar = ME.D.ar || []; const u = ME.UNITS.find(u => u.pilot && ar.some(a => String(a.u) === String(u.i) && (a.fl || []).length)); return u ? u.i : ME.UNITS.filter(u => u.pilot)[5].i; });
+  await p.evaluate(u => ME.go({view: 'unit', u, mode: 'think'}), flipU); await p.waitForTimeout(300);
   const nAr = await p.$$eval('.ar', a => a.length);
   ok(nAr >= 1, 'think mode shows arrows: ' + nAr);
   const rows = await p.$$('.ar >> nth=0 >> .ar-r');
@@ -37,8 +38,8 @@ const FFP = {'qq-drill-ilo-v1': '{"sentinel":"study"}', 'medengine-misses-v1': '
   if (flips) { await p.click('[data-arflip] >> nth=0'); await p.waitForTimeout(200); ok(await p.$$eval('.ar-isflip', b => b.length) === 1, 'flip opens a new arrow card'); }
   await shot('think_arrows');
   // hammer: questions for a pilot topic and the 4-box explanation
-  await p.evaluate(() => { location.hash = 'hq-u' + ME.UNITS.find(u => u.pilot && ME.D.hq.q.some(q => q.k === String(u.i))).i; }); await p.evaluate(() => ME.go(ME.route, false));
-  await p.goto(URL.split('#')[0] + '#hq-u' + await p.evaluate(() => ME.UNITS.find(u => u.pilot && ME.D.hq.q.some(q => q.k === String(u.i))).i)); await p.waitForTimeout(900);
+  await p.evaluate(() => { location.hash = 'hq-u' + ME.UNITS.find(u => u.pilot && ME.D.hq.q.some(q => q.k === String(u.i) && q.src === 'medengine')).i; }); await p.evaluate(() => ME.go(ME.route, false));
+  await p.goto(URL.split('#')[0] + '#hq-u' + await p.evaluate(() => ME.UNITS.find(u => u.pilot && ME.D.hq.q.some(q => q.k === String(u.i) && q.src === 'medengine')).i)); await p.waitForTimeout(900);
   const hasQ = await p.$$eval('[data-hqpick]', b => b.length);
   ok(hasQ === 5, 'hammer question shows 5 options');
   await p.click('[data-hqpick="0"]'); await p.waitForTimeout(150);
