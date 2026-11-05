@@ -1,4 +1,4 @@
-# Where v3.6.8 is (2026-11-05, night)
+# Where v3.6.9 is (2026-11-05, night)
 
 Done and published:
 - Detector (study/snap/rw/detect.py) over all 1,811 Hammer questions: triage.json flags len, mix, abs, clone, neg, frame.
@@ -10,6 +10,9 @@ Done and published:
 - rw_06 b targets: 17 questions (v3.6.6, data version 8, chip 503). Set E untouched.
 - rw_07 skin, neuro, renal: 29 clones and negative lead-ins (v3.6.7, data version 9, chip 509).
 - rw_08 rest of the bank: 21 clones rebuilt + 18 negative lead-ins (v3.6.8, data version 10). Longest-correct 20.8%.
+- rw_09 precision give-aways + last weak distractors; Mock-like rebalanced to the mock lead-in mix (802) with week weights q.mw
+  (v364_ml.py) and a weighted shuffle (v369_engine.py); v369_polish.py cleans official explanations. v3.6.9, data version 11.
+  The 'mix' flag is mostly noise: a hand read of all 247 untouched non-priority flags found about 5 truly weak.
   study/snap/rw/focus.py WEEK prints only the clone and negative questions of a week with the question each copies.
 
 Rules: rebuild with `sh study/snap/rw/rebuild.sh` then `python3 site/build.py`. Each rw_NN file is one published

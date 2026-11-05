@@ -1,5 +1,14 @@
 # Changelog
 
+## 3.6.9 (2026-11-05)
+
+🎓 **Mock-like now matches the mock's shape**, plus the good parts of an outside (Gemini) audit, checked against the data first.
+- **Lead-in mix fixed.** The chip was 84% "most likely diagnosis" questions; your mock is 53%. It now holds **802** questions: 54% diagnosis, 29% management, 6% investigation, 9% other (mock 53 / 24 / 8 / 13). The added management and investigation questions are ones with no length, framing, clone or negative flags, reviewed ones first.
+- **Mock week weighting.** With the chip on, a shuffled run is weighted by week to match the mock (acute abdomen and mental health about 15% each, instead of every week equal). Without the chip nothing changes.
+- **Precision give-aways fixed (20 questions).** The answer was the only option with a dose, a strength or "urgent" (for example "IM glucagon 1 mg" against four bare options). The answer is trimmed, or a lookalike gets the same precision ("Urgent scrotal ultrasound first").
+- **Last throwaway distractors replaced** in the untouched weeks after a hand read of all 247 flagged questions there: chemotherapy for a BCC, vasectomy for fertility before orchidectomy, isotretinoin for recurrent boils.
+- **Official paper explanations:** 23 chatbot openers ("Based on the information given, ...") removed and 2 bare-letter answers ("the most likely diagnosis is E.") replaced with the option itself.
+
 ## 3.6.8 (2026-11-05)
 
 🩺 **The rest of the bank: clones and negative lead-ins** (21 questions rebuilt, 18 lead-ins rewritten; set E left as written).

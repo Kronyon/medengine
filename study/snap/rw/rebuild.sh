@@ -5,8 +5,10 @@ set -e
 cd "$(dirname "$0")/../../.."
 cp site/study_pre364.html site/study.html
 python3 site/patches/v364_engine.py
+python3 site/patches/v369_engine.py
 python3 site/patches/v364_rw.py
 python3 site/patches/v364_ml.py
+python3 site/patches/v369_polish.py
 V=$(cat study/snap/rw/VERSION)
 sed -i "s#<small>v3\.6\.[0-9]*</small>#<small>v$V</small>#" site/study.html
 sed -i "s#<span class=\"ver\">v3\.6\.[0-9]*</span>#<span class=\"ver\">v$V</span>#" site/index.html site/osce.html
