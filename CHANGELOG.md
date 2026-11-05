@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.6.7 (2026-11-05)
+
+🧴🧠 **Skin, neurology and renal weeks: clones rebuilt** (29 questions; set E left as written).
+- **Skin (15):** the same diagnosis asked twice is now a second angle: SCC in a transplant patient, malignant acanthosis (gastric cancer), pretibial myxoedema, ACE inhibitor angioedema, eczema herpeticum management (aciclovir and same-day referral), facial eczema steroid strength, pseudofolliculitis advice, Fournier's debridement, plantar wart treatment, crusted scabies (ivermectin with permethrin), the guttate psoriasis trigger (ASO titre), Löfgren chest X-ray, necrotising fasciitis vs cellulitis (disproportionate pain), tinea cruris treatment and TEN management.
+- **Neurology (9):** riluzole in MND, cerebral toxoplasmosis in HIV, brain abscess antibiotics, bacterial meningitis treatment (ceftriaxone with dexamethasone; amoxicillin only over 60), TB meningitis (four drugs for 12 months plus steroids). "Which should be avoided" lead-ins now read positively (UKMEC 4, which drug worsens myoclonus, which test carries the greatest risk).
+- **Renal and urology (5):** retrograde urethrogram for stricture, phaeochromocytoma before VHL surgery, pyelonephritis antibiotic as a positive question (cefalexin, with lower-UTI-only drugs as distractors), torsion of the appendix testis (blue dot sign), and the pregnancy UTI lead-in turned positive.
+- 🎓 Mock-like chip: **509**.
+
 ## 3.6.6 (2026-11-05)
 
 🎯 **b targets read through one by one** (17 questions; set E left as written).
