@@ -368,6 +368,19 @@ for f in (HERE / 'src').glob('sba_*.txt'):
         if ln.startswith('s: '):
             MINE_STEMS.add(re.sub(r'\W+', '', ln[3:].split('//')[0])[:80].lower())
 
+# 5 UWorld-image questions that 3.6.0 put in STUDY and that STEP1 did not have (moved by site/patches/v363_data.py)
+FS = HERE / 'from_study.json'
+if FS.exists():
+    nxt = max(int(q['id'][1:]) for q in Q)
+    for q in json.loads(FS.read_text(encoding='utf-8')):
+        nxt += 1
+        q = dict(q, id='s%04d' % nxt, src='UWorld', t='u')
+        q.pop('set', None)
+        top = best_topics(q_text(q, q.get('w', '')))
+        q['k'] = str(top[0][0]) if top else '0'
+        Q.append(q)
+        STATS['joined_from_study'] += 1
+
 # ------------------------------------------------------------------ run
 for q in Q:
     is_mine = re.sub(r'\W+', '', q['s'])[:80].lower() in MINE_STEMS
@@ -427,6 +440,18 @@ for q in Q:
         tm = q.get('tm') or {}
         q['cards'] = cards_for(q, U[int(q['k'])]['name'], tm.get('g', ''), tm.get('x', [])[:2])
     q['w'] = q['w'].replace('->', '→')
+
+# the UWorld screenshot pages carry the answer in their notes, so they show after answering, not in the stem
+LAZYX = re.compile(r'instead specifically indicated|clinical findings instead', re.I)
+for q in Q:
+    if q.get('img') and all(n.startswith('uw_') for n in q['img']):
+        q['pimg'] = q.pop('img')
+        STATS['uworld_image_after_answer'] += 1
+    tm = q.get('tm') or {}
+    if tm.get('x'):
+        n0 = len(tm['x'])
+        tm['x'] = [x for x in tm['x'] if not LAZYX.search(x[1])]
+        STATS['template_whynot_removed'] += n0 - len(tm['x'])
 
 D['hq']['pat'] = dict(D['hq']['pat'], M='Mechanism', I='Image')
 

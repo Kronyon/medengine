@@ -151,3 +151,8 @@ body.s1-examing #side:hover{opacity:1}
 .s1-x{margin-top:10px;display:flex;flex-direction:column;gap:8px;border-top:1px dashed var(--line);padding-top:10px}
 .s1-xh{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
 .s1-x .s1-twin .hq-o{width:100%;text-align:left}
+
+/* v3.6.3 */
+.s1-ukstrip{margin:6px 0 0;padding:6px 10px;border:1px dashed var(--line);border-radius:10px;font-size:.86rem;color:var(--muted)}
+.s1-pimg{margin-top:10px}.s1-pimg>summary{cursor:pointer;font-weight:700}
+.s1-ukbar{margin-top:8px}

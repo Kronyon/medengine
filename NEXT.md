@@ -1,0 +1,16 @@
+# Where v3.6.3 stopped (2026-11-05)
+
+Done in 3.6.3:
+- STUDY: 1,483 template why-nots and 542 copy-paste "Ruled out by" lines removed; 785 filled from your own trigger/drug/test cards;
+  549 hand-written why-nots added (every gap in your mock and the official papers is now filled, plus h0227 GCA and h0313 colorectal).
+- Review: one card per wrong option (why-not + 🔀 flip), no duplicate Flip box, 📚 Deep dive drawer, ✨ AI button fills gaps and saves to progress.
+- 54 USMLE basic-science questions moved out of STUDY (5 new ones joined STEP1); 11 clinical ones re-filed; 3 non-ILO ones labelled.
+- AI layer: system prompt names STUDY/STEP1; images now sent to Gemini, OpenAI and Groq; 📲 sync button visible on phones.
+- STEP1: confirm-answer off by default, 🇬🇧 FFP overlap chip, UK names/units strip, UWorld screenshot notes shown after answering.
+
+Still to do (next session):
+1. Hand-write why-nots for the Hammer (h) questions: about 2,130 option slots in about 1,200 questions still have no line
+   and no flip (they show "Not explained yet" with the ✨ AI button). Dump: run the snippet in site/patches/v363_data.py logic
+   for src 'hq'; add lines to study/snap/wn_hand.py, then `python3 site/patches/v363_hand.py && python3 site/build.py`.
+2. Calcium gluconate card: add "older papers say 10 mL" beside 30 mL of 10% (audit point).
+3. CHANGELOG entry for 3.6.3 (not yet written) and republish the STEP1 artifact.

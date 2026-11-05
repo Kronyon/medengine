@@ -1,0 +1,312 @@
+[
+ {
+  "id": "h1717",
+  "t": "u",
+  "k": "51",
+  "h": 2,
+  "p": "L",
+  "s": "A 61-year-old man comes to the GP because of a 3-month history of painless gross haematuria, left flank ache, and a newly noticed scrotal swelling. He has smoked 1 pack of cigarettes daily for 35 years. Physical examination shows a non-tender cluster of dilated veins in the left hemiscrotum that fails to empty when the patient lies supine. Contrast-enhanced CT shows a 6-cm mass in the upper pole of the left kidney with tumour thrombus extending along the venous pathway shown in the diagram.",
+  "ql": "Which of the following anatomical relationships explains why this patient's scrotal veins fail to collapse when he lies supine?",
+  "o": [
+   "Direct compression of the pampiniform plexus by an inguinal hernia",
+   "Drainage of the left gonadal vein at a right angle into the left renal vein",
+   "Drainage of the left gonadal vein directly into the inferior vena cava",
+   "Obstruction of the internal iliac vein by retroperitoneal lymphadenopathy",
+   "Thrombosis of the portal vein with portosystemic shunting"
+  ],
+  "a": 1,
+  "w": "Renal cell carcinoma has a classic propensity to invade the renal vein and extend into the inferior vena cava. Because the left gonadal (testicular) vein drains directly into the left renal vein at a 90-degree angle (whereas the right gonadal vein drains obliquely into the IVC), a left renal vein tumour thrombus obstructs left testicular venous outflow, causing an acute, non-reducing left varicocele.",
+  "f": "the varicocele were on the right side → Drainage of the left gonadal vein directly into the inferior vena cava.",
+  "post": "",
+  "img": [
+   "uw_rcc_ivc"
+  ],
+  "tm": {
+   "c": [
+    "painless gross haematuria, left flank ache",
+    "left hemiscrotum that fails to empty when the patient lies supine",
+    "tumour thrombus extending along the venous pathway"
+   ],
+   "m": "Left renal cell carcinoma invades left renal vein → blocks entry of left testicular vein (which enters left renal vein at 90°) → pampiniform plexus stays engorged even when supine",
+   "g": "The left gonadal vein drains into the left renal vein; a left renal vein tumour thrombus causes a non-reducing left varicocele",
+   "f": [
+    [
+     "the varicocele were on the right side",
+     2
+    ]
+   ],
+   "x": [
+    [
+     0,
+     "An inguinal hernia does not cause a fixed varicocele from renal vein thrombosis"
+    ],
+    [
+     2,
+     "The right gonadal vein drains directly into the IVC; the left drains into the left renal vein"
+    ],
+    [
+     3,
+     "The testicular vein drains via the pampiniform plexus to the renal vein/IVC, not the internal iliac vein"
+    ],
+    [
+     4,
+     "Portal hypertension causes caput medusae and oesophageal varices, not an isolated left varicocele"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "h1731",
+  "t": "u",
+  "k": "51",
+  "h": 2,
+  "p": "L",
+  "s": "A 4-year-old boy is brought to the GP because of periorbital puffiness upon waking and ankle swelling that started 1 week after a mild viral upper respiratory infection. His blood pressure is 92/58 mmHg. Urinalysis shows 4+ protein and oval fat bodies with Maltese-cross appearance under polarised light, but no red blood cells. Light microscopy and immunofluorescence of his renal biopsy are completely normal; transmission electron microscopy is shown.",
+  "ql": "The ultrastructural abnormality highlighted by the arrows in the electron micrograph directly causes selective albuminuria through loss of which of the following?",
+  "o": [
+   "Endothelial cell fenestrations",
+   "Fixed negative charge of the filtration barrier and slit diaphragms",
+   "Juxtaglomerular renin secretory granules",
+   "Mesangial cell phagocytic clearance of IgA",
+   "Proximal tubular megalin-cubilin endocytic receptors"
+  ],
+  "a": 1,
+  "w": "Minimal change disease (MCD) is the commonest cause of nephrotic syndrome in children and may follow viral infections, immunisations, or Hodgkin lymphoma (T-cell cytokine injury to podocytes). Light microscopy and immunofluorescence are normal, while electron microscopy reveals diffuse effacement (flattening and fusion) of podocyte foot processes. This disrupts the slit diaphragms and strips the polyanionic charge barrier (heparan sulfate), allowing negatively charged albumin to leak selectively into the urine while larger immunoglobulins are still retained.",
+  "f": "the question asked what normally prevents red blood cells from crossing the first layer of the capillary → Endothelial cell fenestrations.",
+  "post": "",
+  "img": [
+   "uw_mcd_em"
+  ],
+  "tm": {
+   "c": [
+    "4-year-old boy",
+    "periorbital puffiness",
+    "4+ protein and oval fat bodies",
+    "Light microscopy and immunofluorescence of his renal biopsy are completely normal"
+   ],
+   "m": "T-cell cytokine release after viral URI → podocyte injury with foot process effacement on EM and loss of anionic heparan sulfate barrier → selective loss of negatively charged albumin → childhood nephrotic syndrome responsive to corticosteroids",
+   "g": "Normal LM/IF with podocyte foot process effacement on EM is minimal change disease, causing selective albuminuria via charge-barrier loss",
+   "f": [
+    [
+     "the question asked what normally prevents red blood cells from crossing the first layer of the capillary",
+     0
+    ]
+   ],
+   "x": [
+    [
+     0,
+     "Endothelial fenestrations (~70-100 nm) block blood cells, not albumin; they remain intact in MCD"
+    ],
+    [
+     2,
+     "JG granules secrete renin and have no role in the glomerular filtration barrier"
+    ],
+    [
+     3,
+     "Mesangial IgA accumulation causes Berger disease (nephritic haematuria)"
+    ],
+    [
+     4,
+     "Filtered albumin in MCD exceeds PCT capacity because the glomerular charge/slit barrier is lost"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "h1740",
+  "t": "u",
+  "k": "51",
+  "h": 2,
+  "p": "L",
+  "s": "A 44-year-old man comes to the GP for evaluation of progressive bilateral flank fullness, intermittent gross haematuria, and hypertension (156/96 mmHg). His mother died suddenly of a ruptured intracranial aneurysm at age 51. Abdominal CT scan is shown, demonstrating massively enlarged kidneys replaced by innumerable fluid-filled cysts as well as several hepatic cysts.",
+  "ql": "This patient's disorder is most commonly caused by a germline mutation in a gene encoding which of the following proteins?",
+  "o": [
+   "Fibrocystin (PKHD1) on chromosome 6",
+   "Merlin (schwannomin) on chromosome 22",
+   "Polycystin-1 (PKD1) on chromosome 16",
+   "Tuberin (TSC2) on chromosome 16",
+   "Von Hippel-Lindau protein (VHL) on chromosome 3"
+  ],
+  "a": 2,
+  "w": "Autosomal dominant polycystic kidney disease (ADPKD) presents in adulthood with flank pain, haematuria, hypertension (RAAS activation from cyst compression of renal vessels), and progressive renal failure, alongside extrarenal manifestations including hepatic cysts, circle of Willis berry aneurysms, mitral valve prolapse, and colonic diverticulosis. About 85% of cases are caused by mutations in PKD1 (chromosome 16, encoding polycystin-1) and 15% by PKD2 (chromosome 4, encoding polycystin-2), both primary cilia mechanosensors on tubular epithelial cells.",
+  "f": "a neonate presented with Potter sequence and congenital hepatic fibrosis → Fibrocystin (PKHD1) on chromosome 6.",
+  "post": "",
+  "img": [
+   "uw_adpkd_ct"
+  ],
+  "tm": {
+   "c": [
+    "44-year-old man",
+    "mother died suddenly of a ruptured intracranial aneurysm",
+    "massively enlarged kidneys replaced by innumerable fluid-filled cysts as well as several hepatic cysts"
+   ],
+   "m": "Autosomal dominant PKD1 (chr 16) or PKD2 (chr 4) mutation → defective polycystin mechanosensing in tubular primary cilia → progressive bilateral cortical and medullary cysts + hepatic cysts + berry aneurysms",
+   "g": "Adult bilateral cystic kidneys + liver cysts + berry aneurysms = ADPKD from PKD1 (chromosome 16, polycystin-1) or PKD2 (chromosome 4)",
+   "f": [
+    [
+     "a neonate presented with Potter sequence and congenital hepatic fibrosis",
+     0
+    ],
+    [
+     "a patient had cerebellar haemangioblastomas, retinal angiomas and bilateral clear cell RCC",
+     4
+    ]
+   ],
+   "x": [
+    [
+     0,
+     "PKHD1 (fibrocystin) mutation causes autosomal recessive polycystic kidney disease in infants"
+    ],
+    [
+     1,
+     "Merlin (NF2) mutation causes bilateral vestibular schwannomas and meningiomas"
+    ],
+    [
+     3,
+     "TSC2 mutation causes tuberous sclerosis with renal angiomyolipomas"
+    ],
+    [
+     4,
+     "VHL mutation causes renal cysts and clear cell RCC, cerebellar haemangioblastomas, and phaeochromocytoma, not classic ADPKD with berry aneurysms"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "h1754",
+  "t": "u",
+  "k": "166",
+  "h": 2,
+  "p": "L",
+  "s": "A 9-year-old boy is brought to the clinician because of a 6-month history of frontal headaches, poor linear growth, and bumping into doorframes on both sides. Visual field testing demonstrates bitemporal hemianopia. Brain MRI reveals a lobulated, cystic and calcified suprasellar mass that compresses the optic chiasm. Surgical resection yields thick, brownish-yellow 'motor-oil' fluid containing cholesterol crystals and cords of stratified squamous epithelium with peripheral palisading and wet keratin.",
+  "ql": "This patient's tumour arises from embryological remnants of which of the following structures shown in the developmental diagram?",
+  "o": [
+   "Floor of the diencephalon (neuroectoderm)",
+   "Neural crest cells",
+   "Notochordal mesoderm",
+   "Oral ectoderm (Rathke pouch)",
+   "Primitive streak endoderm"
+  ],
+  "a": 3,
+  "w": "Craniopharyngioma is the most common childhood supratentorial/suprasellar tumour leading to hypopituitarism and bitemporal hemianopia. It derives from remnants of Rathke pouch (an upward invagination of oral surface ectoderm that forms the anterior pituitary), explaining its squamous epithelium, wet keratin, calcifications, and cholesterol-rich motor-oil cyst fluid.",
+  "f": "the structure instead gave rise to the posterior pituitary (neurohypophysis), pituicytes, and infundibular stalk → Floor of the diencephalon (neuroectoderm).",
+  "post": "",
+  "img": [
+   "uw_pituitary_embryo"
+  ],
+  "tm": {
+   "c": [
+    "bitemporal hemianopia",
+    "cystic and calcified suprasellar mass",
+    "cholesterol crystals and cords of stratified squamous epithelium"
+   ],
+   "m": "Oral surface ectoderm invaginates as Rathke pouch → vestigial remnants proliferate via CTNNB1 (beta-catenin) mutation → calcified cystic suprasellar craniopharyngioma → compresses optic chiasm and pituitary stalk",
+   "g": "Craniopharyngioma arises from Rathke pouch (oral surface ectoderm) and presents in a child with bitemporal hemianopia + calcified cystic suprasellar mass",
+   "f": [
+    [
+     "the structure instead gave rise to the posterior pituitary (neurohypophysis), pituicytes, and infundibular stalk",
+     0
+    ],
+    [
+     "the tumour instead arose in the adrenal medulla or sympathetic chain and secreted catecholamines",
+     1
+    ],
+    [
+     "the tumour instead was a midline clival/sacrococcygeal chordoma composed of physaliferous cells",
+     2
+    ],
+    [
+     "the tumour instead was a sacrococcygeal teratoma containing derivatives of all three germ layers",
+     4
+    ]
+   ],
+   "x": [
+    [
+     0,
+     "Downward evagination of the neuroectoderm (diencephalon) forms the posterior pituitary, not Rathke pouch"
+    ],
+    [
+     1,
+     "Neural crest cells form chromaffin cells, melanocytes, and Schwann cells"
+    ],
+    [
+     2,
+     "Notochord remnants give rise to chordomas of the clivus or sacrum"
+    ],
+    [
+     4,
+     "Primitive streak remnants give rise to sacrococcygeal teratomas"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "h1772",
+  "t": "u",
+  "k": "74",
+  "h": 2,
+  "p": "L",
+  "s": "A 31-year-old woman comes to the clinician after noticing a painless, firm nodule in the right lobe of her thyroid gland. She received external-beam radiation to the neck at age 9 for Hodgkin lymphoma. Serum TSH and free T4 are normal. Fine-needle aspiration biopsy of the thyroid nodule reveals branching papillae lined by cuboidal cells with optically clear, empty-appearing ('ground-glass') nuclei, intranuclear cytoplasmic grooves, and concentric lamellated calcified spheres, as shown in the photomicrograph.",
+  "ql": "Which of the following genetic alterations is most strongly associated with this patient's thyroid neoplasm?",
+  "o": [
+   "BRAF V600E mutation or RET/PTC rearrangement",
+   "Germline RET point mutation with calcitonin-derived amyloid stroma",
+   "PAX8-PPAR-gamma translocation with capsular and vascular invasion",
+   "TP53 loss-of-function mutation in giant pleomorphic spindle cells",
+   "TSH receptor activating gain-of-function somatic mutation"
+  ],
+  "a": 0,
+  "w": "Papillary thyroid carcinoma is the most common thyroid malignancy (85%) and is strongly linked to childhood head/neck ionizing radiation. Its diagnostic histopathological triad (even when eponyms are hidden) consists of: (1) branching fibrovascular papillae, (2) optically clear 'Orphan Annie eye' ground-glass nuclei with nuclear grooves and pseudoinclusions, and (3) concentric lamellated calcifications (psammoma bodies). It is driven by activating mutations in the MAPK pathway: BRAF V600E point mutations or RET/PTC rearrangements, and spreads via cervical lymphatics with an excellent prognosis.",
+  "f": "the tumour arose from neural crest parafollicular C-cells, secreted calcitonin into amyloid stroma, and was part of MEN 2A/2B (medullary thyroid carcinoma) → Germline RET point mutation with calcitonin-derived amyloid stroma.",
+  "post": "",
+  "img": [
+   "uw_psammoma_bodies"
+  ],
+  "tm": {
+   "c": [
+    "external-beam radiation to the neck",
+    "branching papillae",
+    "optically clear, empty-appearing ('ground-glass') nuclei",
+    "concentric lamellated calcified spheres"
+   ],
+   "m": "Childhood neck radiation → RET/PTC chromosomal rearrangement or BRAF V600E mutation (MAPK activation) → papillary thyroid carcinoma with Orphan Annie eye nuclei, nuclear grooves, and psammoma bodies",
+   "g": "Papillary thyroid carcinoma = Orphan Annie eye ground-glass nuclei + nuclear grooves + psammoma bodies + childhood radiation → BRAF V600E or RET/PTC rearrangement (lymphatic spread)",
+   "f": [
+    [
+     "the tumour arose from neural crest parafollicular C-cells, secreted calcitonin into amyloid stroma, and was part of MEN 2A/2B (medullary thyroid carcinoma)",
+     1
+    ],
+    [
+     "the tumour showed uniform follicles invading through the fibrous capsule and blood vessels to metastasise haematogenously to bone/lungs (follicular carcinoma)",
+     2
+    ],
+    [
+     "an elderly patient presented with a rapidly enlarging rock-hard neck mass causing stridor and dysphagia (anaplastic carcinoma)",
+     3
+    ],
+    [
+     "the patient had a benign hyperfunctioning 'hot' follicular adenoma causing thyrotoxicosis",
+     4
+    ]
+   ],
+   "x": [
+    [
+     1,
+     "Medullary carcinoma arises from C-cells (calcitonin amyloid) via RET point mutations, not RET/PTC fusion"
+    ],
+    [
+     2,
+     "PAX8-PPAR-gamma and RAS mutations drive follicular thyroid carcinoma (haematogenous spread, no psammoma bodies)"
+    ],
+    [
+     3,
+     "TP53 mutation drives undifferentiated anaplastic thyroid carcinoma in elderly patients"
+    ],
+    [
+     4,
+     "Causes a benign toxic thyroid adenoma ('hot nodule')"
+    ]
+   ]
+  }
+ }
+]

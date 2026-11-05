@@ -1033,5 +1033,81 @@
       }
     });
 
+      /* ================================================================ v3.6.3: confirm off, FFP overlap, UK names and units, images after answering */
+    /* 1. Step 1 answers lock on the first tap. Turned off once; you can switch it back on in the Hammer screen. */
+    (function () { const S = ME.S; S.set = S.set || {}; if (!S.set.s1cfm363) { S.set.hqConfirm = false; S.set.s1cfm363 = 1; try { ME.save ? ME.save() : null; } catch (e) {} } })();
+
+    /* 2. 🇬🇧 FFP overlap: only the Step 1 topics that match the Nottingham FFP ILO list (clinical medicine, surgery,
+          psychiatry, skin, ENT and eye), leaving out biochemistry, embryology, immunology, statistics and O&G. */
+    const FFP = new Set([35, 44, 67, 68, 77, 78, 83, 85, 86, 87, 88, 89, 90, 91, 92, 93, 95, 96, 97, 101, 102, 103, 104, 105, 110, 111, 112,
+      117, 118, 119, 120, 121, 122, 123, 124, 125, 128, 129, 130, 131, 132, 133, 137, 138, 145, 146, 147, 150, 157, 158, 163, 164, 165,
+      169, 172, 173, 174, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 196, 197, 198, 200, 201, 202, 207, 209, 210,
+      217, 218, 219, 221, 227, 228, 229, 230, 231, 232, 233, 234, 235]);
+    blk.cfg.ffp = !!blk.cfg.ffp;
+    const poolSrc = pool;
+    pool = function () { return poolSrc().filter(q => !blk.cfg.ffp || FFP.has(+q.k)); };
+    document.addEventListener('click', e => {
+      const b = e.target.closest && e.target.closest('[data-bkffp]'); if (!b || ME.route.view !== 'block') return;
+      blk.cfg.ffp = !blk.cfg.ffp; viewBlockSetup($('#main'));
+    }, true);
+    const setupSrc = viewBlockSetup;
+    viewBlockSetup = function (m) {
+      setupSrc(m);
+      const row = m.querySelector('.s1-setup .s1-row:nth-child(3)'); if (!row) return;
+      const n = (D.hq.q || []).filter(q => FFP.has(+q.k)).length;
+      row.insertAdjacentHTML('afterend', '<div class="s1-row"><span>Focus</span><button class="chip' + (blk.cfg.ffp ? ' on' : '') + '" data-bkffp aria-pressed="' + blk.cfg.ffp + '">🇬🇧 FFP overlap only · ' + n + '</button><span class="hint">clinical topics that match your Nottingham ILOs</span></div>');
+    };
+    ME.view('block', m => { if (st().cur && blk.resumeOnOpen) { blk.resumeOnOpen = false; return drawBlock(); } viewBlockSetup(m); const r = resultHtml(); if (r) m.querySelector('.ph').insertAdjacentHTML('afterend', r); });
+
+    /* 3. 🇬🇧 UK names and units beside the US ones in stems, tables and options (the US text is kept) */
+    const UK_DRUG = {acetaminophen: 'paracetamol', albuterol: 'salbutamol', epinephrine: 'adrenaline', norepinephrine: 'noradrenaline',
+      meperidine: 'pethidine', glyburide: 'glibenclamide', cyclosporine: 'ciclosporin', rifampin: 'rifampicin', isoproterenol: 'isoprenaline',
+      nitroglycerin: 'glyceryl trinitrate', 'nitroglycerine': 'glyceryl trinitrate', levalbuterol: 'salbutamol', 'phenobarbital': 'phenobarbital',
+      'acetylsalicylic acid': 'aspirin', 'tylenol': 'paracetamol', dicyclomine: 'dicycloverine', 'cromolyn': 'sodium cromoglicate',
+      'mesna': 'mesna', 'trimethoprim-sulfamethoxazole': 'co-trimoxazole', 'tmp-smx': 'co-trimoxazole', 'amoxicillin-clavulanate': 'co-amoxiclav',
+      'ipratropium': 'ipratropium', 'guaifenesin': 'guaifenesin', 'lidocaine': 'lidocaine', 'sulfasalazine': 'sulfasalazine'};
+    const UK_UNIT = [  // analyte words, from unit, to unit, factor, decimals
+      [/glucose/i, 'mg/dL', 'mmol/L', 0.0555, 1], [/creatinine/i, 'mg/dL', 'µmol/L', 88.4, 0], [/\bBUN\b|blood urea nitrogen|urea nitrogen/i, 'mg/dL', 'mmol/L urea', 0.357, 1],
+      [/calcium|\bCa\b/i, 'mg/dL', 'mmol/L', 0.25, 2], [/bilirubin/i, 'mg/dL', 'µmol/L', 17.1, 0], [/cholesterol|LDL|HDL/i, 'mg/dL', 'mmol/L', 0.0259, 1],
+      [/triglyceride/i, 'mg/dL', 'mmol/L', 0.0113, 1], [/magnesium|\bMg\b/i, 'mg/dL', 'mmol/L', 0.411, 2], [/phosph/i, 'mg/dL', 'mmol/L', 0.323, 2],
+      [/uric acid|urate/i, 'mg/dL', 'mmol/L', 0.0595, 2], [/h(a)?emoglobin|\bHb\b/i, 'g/dL', 'g/L', 10, 0], [/albumin|protein/i, 'g/dL', 'g/L', 10, 0],
+      [/lactate/i, 'mg/dL', 'mmol/L', 0.111, 1], [/ammonia/i, 'µg/dL', 'µmol/L', 0.587, 0], [/iron|ferritin/i, 'µg/dL', 'µmol/L', 0.179, 1]];
+    S_UK();
+    function S_UK() { const S = ME.S; S.s1 = S.s1 || {}; if (S.s1.uk == null) S.s1.uk = true; }
+    function ukFinds(t, out) {
+      t.replace(/\b([A-Za-z][A-Za-z-]+)\b/g, w => { const k = w.toLowerCase(), uk = UK_DRUG[k]; if (uk && uk !== k) out.set(k, w + ' = ' + uk); return w; });
+      t.replace(/(\d+(?:\.\d+)?)\s?(mg\/dL|g\/dL|µg\/dL|mcg\/dL)/g, (m0, num, unit, off, all) => {
+        const before = all.slice(Math.max(0, off - 45), off), u = unit.replace('mcg', 'µg');
+        const row = UK_UNIT.filter(r => r[1] === u && r[0].test(before)).pop();
+        if (row) { const nm = (before.match(row[0]) || [''])[0]; out.set(nm + m0, (nm ? nm + ' ' : '') + m0 + ' = ' + (+num * row[3]).toFixed(row[4]) + ' ' + row[2]); }
+        return m0;
+      });
+    }
+    function ukPass(root) {
+      if (!ME.S.s1 || !ME.S.s1.uk) return;
+      root.querySelectorAll('.hq-stem').forEach(st => {
+        if (st.dataset.uk) return; st.dataset.uk = '1';
+        const out = new Map();
+        st.querySelectorAll('.hq-s, p').forEach(el => ukFinds(el.textContent, out));
+        st.querySelectorAll('.hq-lab tr').forEach(tr => ukFinds(Array.from(tr.cells).slice(0, 2).map(c => c.textContent).join(' '), out));
+        const card = st.closest('.hq-q'); if (card) card.querySelectorAll('.hq-ot').forEach(el => ukFinds(el.textContent, out));
+        if (out.size) st.insertAdjacentHTML('beforeend', '<div class="s1-ukstrip">🇬🇧 ' + Array.from(out.values()).map(esc).join(' · ') + '</div>');
+      });
+    }
+    new MutationObserver(() => { const m = document.getElementById('main'); if (m && m.querySelector('.hq-stem:not([data-uk])')) ukPass(m); }).observe(document.getElementById('main') || document.body, {childList: true, subtree: true});
+    document.addEventListener('click', e => {
+      const b = e.target.closest && e.target.closest('[data-s1uk]'); if (!b) return;
+      ME.S.s1.uk = !ME.S.s1.uk; try { ME.save && ME.save(); } catch (x) {} ME.toast(ME.S.s1.uk ? '🇬🇧 UK names and units shown' : '🇺🇸 US text only'); ME.render();
+    }, true);
+
+    /* 4. UWorld screenshot notes contain the answer, so they are shown after you answer, not in the stem */
+    const extraSrc = ME.EXT.tmExtra;
+    ME.EXT.tmExtra = it => {
+      const q = ME.hqItem(it.id) || it, imgs = q.pimg || [];
+      const src = n => (ME.D.off && ME.D.off.img && ME.D.off.img[n]) || ('img/' + n + '.jpg');
+      return (extraSrc ? extraSrc(it) : '') + (imgs.length ? '<details class="s1-pimg" open><summary>📸 UWorld notes and images for this question</summary>' + imgs.map(n => '<figure class="hq-fig"><img src="' + src(n) + '" alt="UWorld notes image" loading="lazy" data-hqzoom></figure>').join('') + '</details>' : '')
+        + '<div class="s1-ukbar"><button class="btn ghost sm" data-s1uk>' + (ME.S.s1 && ME.S.s1.uk ? '🇬🇧 UK names and units: on' : '🇺🇸 UK names and units: off') + '</button></div>';
+    };
+
   }
 })();

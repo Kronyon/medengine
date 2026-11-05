@@ -123,7 +123,7 @@ STEP1_TEXT = [  # wording: First Aid chapters and topics instead of ILO weeks an
     ("qb('why', '🧬', 'Why it happens'", "qb('why', '🌊', 'Inflow → outflow'", 1),
     ('⚡ Thought map', '⚡ 4-box deconstruct', 1), ("'🎯 Cues'", "'🎯 Red flags'", 1),
     ("'⚙️ Mechanism'", "'🌊 Inflow → outflow'", 1), ("'⚖️ Decisive gate'", "'💰 Money line'", 1),
-    ('From the gate: change one thing and…', '🔀 Change the film: one detail changes and…', 2),
+    ('❌ Why not the others · 🔀 what would make each one right', '❌ Why not the others · 🔀 change the film: what would make each one right', 1),
     ("'Quack Quack page'", "'Step 1 notes, written fresh'", 1),
     ('Arrows and word hunt adapted from Mehlman’s <i>HY Arrows</i> and <i>HY Internal Medicine</i> (HY) and <i>First Aid for the USMLE Step 1 2026</i> (FA), filtered to your ILOs and rewritten for UK practice (NICE, BTS, BASHH, MHRA).',
      'Arrows and trigger lines are written fresh in the one-line format of Mehlman’s <i>HY Arrows</i> and <i>HY Internal Medicine</i>, organised by <i>First Aid for the USMLE Step 1</i> chapter. Nothing is copied from either book.', 1),

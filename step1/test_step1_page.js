@@ -46,7 +46,7 @@ const FFP = {'qq-drill-ilo-v1': '{"sentinel":"study"}', 'medengine-misses-v1': '
   const cf = await p.$('[data-hqcommit]'); if (cf) await cf.click(); await p.waitForTimeout(400);
   const tm = await p.evaluate(() => (document.querySelector('.tm') || {}).innerText || '');
   ok(/4-box deconstruct/i.test(tm) && /Red flags/i.test(tm) && /Money line/i.test(tm) && /Inflow → outflow/i.test(tm) && /Change the film/i.test(tm), '4-box explanation labels');
-  ok((tm.match(/➔/g) || []).length === 4, 'four change-the-film flips, one per wrong option');
+  ok((tm.match(/🔀 Right instead if/g) || []).length >= 4 && (tm.match(/Why not/g) || []).length >= 1, 'every wrong option shows its change-the-film flip in its own card');
   await shot('hammer_4box');
   // timed block
   await p.evaluate(() => ME.go({view: 'block'})); await p.waitForTimeout(200);
