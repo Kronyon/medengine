@@ -26,20 +26,25 @@ mt = re.search(r'(<script id="qqdata" type="application/json">)(.*?)(</script>)'
 D = json.loads(mt.group(2)); HQ = D['hq']; BY = {q['id']: q for q in HQ['q']}
 DASH = re.compile(r'—|(?<!\d)–|–(?!\d)')   # an en dash is allowed only inside a reference range (4.0–7.8)
 ABS = re.compile(r'\b(only|alone|never|always|ever|nothing|indefinitely|for life|permanently|straight away|at once)\b', re.I)
-R = {}; VER = {}
-# each rw_NN_*.py file is one published batch and gets its own data version (3 + NN - 1), so a run saved
+R = []; LAST = {}; PENDX = {}
+# each rw_NN_*.py file is one published batch and gets its own data version (2 + NN), so a run saved
 # between two batches is moved only by the batches after it. Never change option order in a published file:
-# add a new numbered file instead.
+# add a new numbered file instead. A question may be rewritten again in a later file: the entries are applied
+# in file order, each with its own version.
 for f in sorted(glob.glob(str(RW / 'rw_[0-9][0-9]_*.py'))):
     spec = importlib.util.spec_from_file_location(pathlib.Path(f).stem, f); m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
     n = int(pathlib.Path(f).stem.split('_')[1])
     for k, v in m.R.items():
-        if k in R and set(v) == {'x'}:   # a why-not-only entry merges into an earlier rewrite of the same question
-            R[k].setdefault('x', {}).update(v['x']); continue
-        if k in R and set(R[k]) == {'x'}:   # an earlier why-not-only entry folds into this rewrite
-            v = dict(v); v['x'] = {**R[k]['x'], **v.get('x', {})}; R[k] = v; VER[k] = 2 + n; continue
-        assert k not in R, ('duplicate entry', k, f)
-        R[k] = v; VER[k] = 2 + n
+        if set(v) == {'x'}:
+            if k in LAST: LAST[k].setdefault('x', {}).update(v['x'])   # why-not-only entry merges into the latest rewrite
+            else: PENDX.setdefault(k, [2 + n, {}])[1].update(v['x'])
+            continue
+        v = dict(v)
+        if k in PENDX:   # an earlier why-not-only entry folds in, except for options this entry replaces with a new line
+            gone = {a for a, b, c in v.get('o', []) if c not in (None, 'keep')}
+            v['x'] = {**{t: w for t, w in PENDX.pop(k)[1].items() if t not in gone}, **v.get('x', {})}
+        R.append((k, 2 + n, v)); LAST[k] = v
+for k, (vx, x) in PENDX.items(): R.append((k, vx, {'x': x}))
 done = skipped = 0; errs = []
 def isalpha(o): k = [x.lower() for x in o]; return k == sorted(k)
 def replace_whole(q, n):
@@ -53,9 +58,8 @@ def replace_whole(q, n):
                'x': sorted([[o.index(t), w] for t, w in n['x'].items()])}
     q.setdefault('pmv', []).append([ver, [None] * 5])
     return True
-for qid, e in R.items():
+for qid, ver, e in R:
     q = BY.get(qid); assert q, qid
-    ver = VER[qid]
     if 'new' in e:
         if not replace_whole(q, e['new']): skipped += 1; continue
         o = q['o']; a = q['a']; tm = q['tm']
@@ -131,7 +135,7 @@ for qid, e in R.items():
 if errs:
     print('\n'.join(errs)); sys.exit('NOT WRITTEN: fix the entries above')
 if done:
-    HQ['ov'] = max(HQ.get('ov', 2), max(VER[k] for k in R))
+    HQ['ov'] = max(HQ.get('ov', 2), max(v for _, v, _ in R))
     page = page[:mt.start(2)] + json.dumps(D, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/') + page[mt.end(2):]
     F.write_text(page, encoding='utf-8')
 print(f'rewrites applied: {done}, already in: {skipped}, data version {HQ.get("ov", 2)}')

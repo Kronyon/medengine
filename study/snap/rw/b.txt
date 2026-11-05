@@ -93,14 +93,14 @@ Q: What is this condition called?
   - Hypochondriasis
   - Othello syndrome
   - Somatisation disorder
-## h0570 [len] b:misidentification
+## h0570 [] b:misidentification
 A 46 year old man has a fixed belief that his wife is having an affair, despite no evidence. He checks her phone several times a day, follows her to work and accuses her repeatedly. He drinks heavily at weekends.
 Q: Which is the most important risk to assess?
   - Alcohol misuse
   - Self-neglect at home
   - Stalking a famous person
   - Suicide by overdose
-  * Violence towards his partner
+  * Violence to his partner
 ## h0571 [] b:clusterc
 A 30 year old man still lives with his mother. He cannot make everyday decisions, such as what to wear, without her reassurance. He avoids disagreeing with anyone in case they stop supporting him and feels helpless and anxious when alone.
 He has no low mood, panic attacks or psychotic symptoms.
@@ -305,12 +305,12 @@ Q: Which result distinguishes primary adrenal failure from secondary?
   - Low 9 am cortisol
   - Low glucose
   - Low sodium
-## h0595 [len] b:posturalbp
+## h0595 [] b:posturalbp
 A 78 year old woman has had two falls in a month after feeling dizzy when standing up.
 Her BP is 142/80 mmHg lying and 115/72 mmHg after 3 minutes standing. Her pulse rate rises from 70 to 78 bpm.
 Q: What does this show?
   - Hypertension
-  - Normal
+  - Normal age-related change
   * Orthostatic hypotension
   - Vasovagal response
   - White coat effect
@@ -350,13 +350,13 @@ Q: Which type of pain is this?
   - Phantom pain
   * Referred pain from the diaphragm
   - Visceral pain from the shoulder
-## h0600 [len] b:paintypes
+## h0600 [] b:paintypes
 A 48 year old man has had low back pain for 6 weeks after lifting. The pain spreads vaguely into his left buttock and the back of his thigh but not below the knee. He has no numbness, weakness or bladder symptoms.
 Straight leg raise is negative. Neurological examination of the legs is normal.
 Q: Which type of pain is this?
   - Malingering
   - Neuropathic pain
-  - Radicular pain
+  - Radicular nerve root pain
   * Somatic referred pain
   - Visceral pain
 ## h0601 [mix] b:rhinitis
@@ -442,15 +442,15 @@ Q: Which is the most appropriate treatment?
   - Chloramphenicol
   - Ciprofloxacin
   - Doxycycline
-## h0610 [len,clone:h0084] b:versicolor
+## h0610 [clone:h0084] b:versicolor
 A 27 year old man has noticed pale patches on his upper back after a sunny holiday in Spain. They are slightly itchy.
 There are multiple pale, oval, finely scaling patches on the upper back and chest that have not tanned like the surrounding skin. Gentle scraping makes the scale more obvious.
 Q: Which is the most likely diagnosis?
   - Pityriasis alba
   - Pityriasis rosea
   * Pityriasis versicolor
+  - Post-inflammatory hypopigmentation
   - Tinea corporis
-  - Vitiligo
 ## h0611 [] b:versicolor
 A 24 year old man has pityriasis versicolor affecting his chest and back, confirmed with skin scrapings. The area is too large for creams. He has no liver disease.
 Q: Which is the most appropriate treatment?
@@ -478,7 +478,7 @@ Q: Which is the most likely diagnosis?
   - Post-streptococcal glomerulonephritis
   - Renal stones
   - Urinary infection
-## h0614 [len,mix] b:glomerulo
+## h0614 [mix] b:glomerulo
 A 9 year old boy has had dark brown urine and puffy eyes for 2 days. He had a sore throat 2 weeks ago that settled without treatment.
 BP 138/90 mmHg. There is periorbital oedema.
 Urine dipstick shows blood 3+ and protein 2+. Creatinine is mildly raised.
@@ -487,7 +487,7 @@ Q: Which result supports post-streptococcal glomerulonephritis?
   * Low C3 and raised ASO titre
   - Low C4 and positive ANA
   - Positive c-ANCA
-  - Raised serum IgA
+  - Raised serum IgA with normal C3
 ## h0615 [] b:glomerulo
 A 20 year old man has had persistent microscopic haematuria found on a medical for work. He has difficulty hearing in noisy rooms. His maternal uncle needed dialysis in his thirties.
 BP 142/88 mmHg. Audiometry shows bilateral high-frequency sensorineural hearing loss. Eye examination shows anterior lenticonus.
@@ -552,14 +552,15 @@ Q: Which is the most likely diagnosis?
   * Haemarthrosis
   - Osteoarthritis flare
   - Septic arthritis
-## h1749 [len] b:outside
-A 29-year-old woman in her first pregnancy at 33 weeks' gestation is admitted to the Delivery Suite with severe pre-eclampsia. Her blood pressure was 174/114 mmHg with 3+ proteinuria, headache, and clonus. She was started on intravenous labetalol and a loading dose followed by maintenance infusion of intravenous magnesium sulphate for eclampsia prophylaxis 4 hours ago. The midwife calls you urgently because the patient's respiratory rate has dropped to 8 breaths/min and she is drowsy. On examination, her patellar deep tendon reflexes are completely absent bilaterally, and her urine output has been 10 mL/hour over the past 3 hours.
-Q: What is the most appropriate immediate antidote to administer alongside stopping the magnesium sulphate infusion?
-  * Intravenous calcium gluconate 10% (10 mL over 10 minutes)
-  - Intravenous diazepam 10 mg slow bolus
-  - Intravenous flumazenil 200 micrograms
-  - Intravenous lipid emulsion (Intralipid) 20%
-  - Intravenous naloxone 400 micrograms
+## h1749 [] b:outside
+A 29 year old woman is 33 weeks pregnant with severe pre-eclampsia. Four hours ago she started IV labetalol and a magnesium sulfate infusion. She is now drowsy.
+Respiratory rate 8 breaths per minute. Her knee reflexes are absent. Urine output has been 10 ml an hour for 3 hours.
+Q: Alongside stopping the magnesium, which drug should be given?
+  * IV calcium gluconate
+  - IV diazepam
+  - IV flumazenil
+  - IV lipid emulsion 20%
+  - IV naloxone
 ## h1752 [abs] b:outside
 A 3-year-old boy is brought to the Paediatric Assessment Unit with a 6-day history of persistent high fever (39.4°C) that has not responded to paracetamol or ibuprofen. On examination, he is irritable and has bilateral non-purulent bulbar conjunctival injection, dry cracked erythematous lips, a strawberry tongue, a polymorphous erythematous rash over his trunk, erythematous oedematous palms and soles, and a solitary 2.2 cm tender right anterior cervical lymph node.
 Q: What is the most appropriate first-line treatment to prevent the principal long-term cardiovascular complication of this condition?

@@ -38,8 +38,8 @@ A 52 year old man has had gritty, itchy eyes for 6 months, worse in the mornings
 The eyelid margins are red and thickened with crusting at the base of the lashes. The conjunctivae are mildly injected. The corneas are clear.
 Q: Which is the most appropriate first treatment?
   - Antibiotic drops
-  - Antiviral cream
   * Lid hygiene
+  - Lubricant drops
   - Oral doxycycline
   - Steroid drops
 ## h0204 [] Blepharitis
@@ -64,9 +64,9 @@ Q: Which is the most likely cause?
 A 26 year old woman who wears monthly soft contact lenses has had a red, painful left eye for 1 day. Her vision in that eye is blurred and bright light hurts.
 Visual acuity is 6/18 in the left eye and 6/6 in the right. The left eye is red around the cornea. Fluorescein shows a small corneal defect with a white opacity.
 Q: Which is the most appropriate next step?
-  - Antihistamine drops
   - Chloramphenicol drops
   - Lubricant drops
+  - Ofloxacin drops and GP review
   - Review in 3 days
   * Same-day eye referral
 ## h0207 [mix,frame] Conjunctivitis
@@ -78,15 +78,15 @@ Q: When can she return to school?
   - After a clear swab
   * She can stay at school
   - When the eye is white
-## h0208 [mix,neg] Infective keratitis
-A 38 year old man has had a painful, red, watery right eye for 2 days. He had a cold sore last week.
-Visual acuity is 6/9 in the right eye. Fluorescein staining shows a branching dendritic ulcer on the cornea.
-Q: Which eye drops should be avoided?
-  - Aciclovir
+## h0208 [mix] Infective keratitis
+A 38 year old man has had a painful, red, watery right eye for 2 weeks. He had a cold sore before it started. His GP started eye drops 5 days ago, and since then the pain and blurring have got worse.
+Visual acuity is 6/24 in the right eye. Fluorescein shows a large corneal ulcer with broad, map-like, branching edges.
+Q: Which drop is most likely to have made it worse?
   - Chloramphenicol
   - Cyclopentolate
   * Dexamethasone
-  - Lubricant
+  - Fusidic acid
+  - Hypromellose
 ## h0209 [] Infective keratitis
 A 29 year old man who wears soft contact lenses has had a very painful right eye for 5 days. He rinses his lenses and case with tap water and sometimes swims in them.
 Visual acuity is 6/24 in the right eye. The eye is red with a ring-shaped stromal infiltrate on the cornea. The pain seems out of proportion to the findings.
@@ -122,14 +122,14 @@ Q: Which is the most appropriate treatment?
   - Oral doxycycline
   - Pilocarpine drops
   * Steroid and dilating drops
-## h0213 [len,mix] Uveitis & iritis
+## h0213 [mix] Uveitis & iritis
 A 4 year old girl has been diagnosed with oligoarticular juvenile idiopathic arthritis affecting her left knee and right ankle. Her antinuclear antibody is positive. She has no eye symptoms and her eyes look normal.
 Q: Which eye screening is most appropriate?
   - Fundus photography
-  - MRI of the orbits
-  - Reassure
+  - Referral if eye symptoms develop
   * Regular slit-lamp checks
-  - Yearly visual fields
+  - Yearly optometrist check
+  - Yearly visual field testing
 ## h0214 [] Scleritis
 A 35 year old man has had a red patch in his left eye for 2 days. It is mildly sore but his vision is normal and he has no discharge or photophobia.
 There is a localised patch of redness on the temporal side of the white of the eye. The red vessels move over the sclera when pushed with a cotton bud, and the redness fades after phenylephrine drops.
@@ -151,43 +151,43 @@ Q: Which condition is most commonly associated?
 ## h0216 [] Scleritis
 A 54 year old woman has had a painful red eye for a week. Ophthalmology diagnose non-necrotising anterior scleritis with no infection. Her kidney function is normal and she has no history of peptic ulcer.
 Q: Which is the most appropriate first treatment?
-  - Antibiotic drops
+  - NSAID eye drops
   - Oral aciclovir
   * Oral NSAID
-  - Pilocarpine
+  - Oral prednisolone
   - Steroid drops
 ## h0217 [] Glaucoma (acute & chronic)
 A 66 year old woman has had severe left eye pain, blurred vision and vomiting for 2 hours. Her left eye is red with a hazy cornea and a fixed, mid-dilated pupil. Intraocular pressure is 58 mmHg in the left eye. She has no asthma or sulfonamide allergy.
 Ophthalmology are on their way.
 Q: Which drug combination should be given first?
   - Atropine drops
-  - Chloramphenicol drops
   - Latanoprost with timolol drops
+  - Oral analgesia and antiemetic
   * Pilocarpine and acetazolamide
   - Steroid drops
-## h0218 [len,frame] Glaucoma (acute & chronic)
+## h0218 [frame] Glaucoma (acute & chronic)
 A 64 year old man has primary open-angle glaucoma. He starts latanoprost eye drops each evening in both eyes. He asks about side effects.
 Q: Which side effect is most likely?
   - Bradycardia
   - Bronchospasm
   * Darkening of the iris
-  - Dry mouth
+  - Dry mouth and constipation
   - Loss of eyelashes
 ## h0219 [] Glaucoma (acute & chronic)
 A 52 year old woman has routine eye tests at her optometrist. She has no symptoms.
 Her intraocular pressure is 28 mmHg in both eyes. The optic discs look healthy with a normal cup to disc ratio. Visual fields and central corneal thickness are normal.
 Q: Which is the most likely diagnosis?
-  - Acute glaucoma
+  - Chronic angle-closure glaucoma
   - Normal eye
   - Normal tension glaucoma
   * Ocular hypertension
   - Open-angle glaucoma
-## h0220 [len] Periorbital & orbital cellulitis
+## h0220 [] Periorbital & orbital cellulitis
 A 6 year old girl has had a red, swollen left upper eyelid for 1 day after a scratch from her cat.
 Temperature 37.8°C. The left upper lid is red and swollen. She can open her eye. Eye movements are full and painless, there is no proptosis and visual acuity is 6/6 in both eyes.
 Q: Which is the most likely diagnosis?
+  - Bacterial conjunctivitis
   - Chalazion
-  - Conjunctivitis
   - Orbital cellulitis
   * Periorbital cellulitis
   - Stye
@@ -200,14 +200,14 @@ Q: Which imaging is most appropriate?
   - MRI of the brain
   - Plain X-ray of the orbit
   - Ultrasound of the orbit
-## h0222 [len] Periorbital & orbital cellulitis
+## h0222 [] Periorbital & orbital cellulitis
 A 9 year old girl is being treated for left orbital cellulitis. Over the last 12 hours she has developed a severe headache and vomiting, and her right eye has also become swollen.
 Temperature 39.4°C, pulse rate 136 bpm. Both eyes are proptosed with reduced movements in all directions. She is drowsy.
 Q: Which is the most likely complication?
   - Acute glaucoma
   - Bacterial meningitis
   * Cavernous sinus thrombosis
-  - Frontal brain abscess
+  - Frontal lobe brain abscess
   - Retinal detachment
 ## h0223 [] Retinal detachment
 A 58 year old man has noticed a dark shadow spreading across the vision of his right eye since this morning. Two days ago he saw flashing lights and many new floaters. He is short-sighted. There is no pain.
@@ -226,14 +226,15 @@ Q: How urgently is surgery needed?
   - Within 6 months
   * Within 24 hours
   - Within a month
-## h0225 [frame] Retinal detachment
-A 48 year old woman asks about her risk of retinal detachment after her brother needed surgery for one. You explain which features increase the risk.
-Q: Which group is most at risk of retinal detachment?
-  - Children under 5
-  - Contact lens users
-  - Long-sighted people
-  - People with glaucoma
-  * Short-sighted people
+## h0225 [mix] Retinal detachment
+A 60 year old woman has had new floaters and flashing lights in her left eye for 2 days. She has no shadow or curtain over her vision. She is not short-sighted.
+Visual acuity is 6/6 in both eyes. Confrontation fields are full.
+Q: Which is the most appropriate next step?
+  - Aspirin and TIA clinic referral
+  * Dilated fundus exam within 24 hours
+  - MRI of the brain and orbits
+  - Optician review within 2 weeks
+  - Reassure as floaters are common
 ## h0226 [] Retinal artery occlusion & sudden vision loss
 A 70 year old man with hypertension woke up with blurred vision in his left eye. It is painless.
 Visual acuity is 6/60 in the left eye. There is a relative afferent pupillary defect. Fundoscopy shows widespread flame and blot haemorrhages in all four quadrants, dilated tortuous veins and a swollen optic disc.
@@ -251,17 +252,17 @@ Q: Which is the most important next step?
   - Aspirin
   - Await biopsy
   - CT head
-  - Pilocarpine drops
+  - Ocular massage
   * Steroids today
-## h0228 [] Retinal artery occlusion & sudden vision loss
-A 68 year old man had sudden painless loss of vision in his left eye this morning, like a curtain coming down. It lasted 5 minutes and recovered completely. He has hypertension and smokes.
-His vision is now 6/6 in both eyes. There is a bruit over the left carotid artery.
-Q: Which is the most likely cause?
-  * Amaurosis fugax
-  - Glaucoma
-  - Migraine
-  - Optic neuritis
-  - Retinal detachment
+## h0228 [mix] Retinal artery occlusion & sudden vision loss
+A 68 year old man had sudden painless loss of vision in his left eye yesterday, like a curtain coming down. It lasted 5 minutes and recovered completely. He has hypertension and smokes. He has no headache, jaw pain or scalp tenderness. He has started aspirin.
+Visual acuity is 6/6 in both eyes. Fundoscopy is normal. There is a bruit over the left carotid artery.
+Q: Which investigation is most important?
+  * Carotid duplex ultrasound
+  - CT head
+  - ESR and CRP
+  - Formal visual field testing
+  - MRI of the orbits
 ## h0229 [] Cataracts
 A 76 year old man had cataract surgery on his right eye 3 days ago. Since yesterday the eye has become increasingly painful and red and his vision has worsened.
 Visual acuity is hand movements in the right eye. The eye is very red with lid swelling. There is a fluid level of pus in the anterior chamber.
@@ -303,9 +304,9 @@ A 74 year old woman has gradual central blurring of vision in both eyes. Fundosc
 Q: Which is the most appropriate advice?
   - Anti-VEGF injections
   - Avoid reading
-  - Steroid tablets
+  - Laser to the drusen
+  - Photodynamic therapy
   * Stop smoking
-  - Wear contact lenses
 ## h0234 [mix,frame] Macular degeneration
 A 72 year old man has wet macular degeneration in his left eye, which is being treated. His right eye has dry macular degeneration. He asks how he can check his right eye at home for signs that it has turned wet.
 Q: Which test best detects new central distortion at home?
@@ -341,15 +342,15 @@ Q: Which is the most likely cause?
   - Myasthenia gravis
   * Pancoast tumour
   - Third nerve palsy
-## h0238 [neg] Ocular trauma
-A 34 year old man was hammering metal without goggles when something struck his right eye 1 hour ago. He has severe pain and blurred vision.
-A small metal fragment can be seen protruding from the cornea. The pupil is slightly irregular. He is in pain and nauseated.
-Q: Which should be avoided?
-  - Analgesia
-  - Antiemetic
-  - Eye shield
-  * Pressure on the eye
-  - Same-day referral
+## h0238 [] Ocular trauma
+A 34 year old man was hammering metal on metal without goggles 2 hours ago when he felt something hit his right eye. It is now sore and his vision is blurred.
+Visual acuity is 6/18 in the right eye. There is a tiny full-thickness wound in the cornea and the pupil is slightly irregular. No foreign body is seen on the surface.
+Q: Which investigation is most appropriate?
+  - Contact B-scan ultrasound
+  - Corneal scrape for culture
+  * CT of the orbits
+  - MRI of the orbits
+  - Tonometry of the right eye
 ## h0239 [] Ocular trauma
 A 24 year old woman was hit in the right eye by a squash ball 4 hours ago. Her vision is blurred.
 Visual acuity is 6/18 in the right eye. There is a 2 mm layer of blood in the lower anterior chamber in front of the iris. The globe is intact.
@@ -359,7 +360,7 @@ Q: Which is the most likely diagnosis?
   - Orbital fracture
   - Retinal detachment
   - Subconjunctival haemorrhage
-## h0240 [len] Ocular trauma
+## h0240 [] Ocular trauma
 A 26 year old man was punched in the right eye 3 hours ago. He has double vision when he looks up.
 There is bruising and swelling around the right eye. He cannot elevate the right eye fully. There is numbness of the right cheek and upper lip. Visual acuity is 6/6.
 Q: Which is the most likely diagnosis?
@@ -367,52 +368,51 @@ Q: Which is the most likely diagnosis?
   * Orbital floor fracture
   - Retinal detachment
   - Third nerve palsy
-  - Zygoma fracture
-## h1057 [len,mix,frame] Red eye overview
+  - Zygomatic arch fracture
+## h1057 [mix,frame] Red eye overview
 A 42 year old woman has had a red left eye for 2 days. She is deciding whether she needs to be seen today.
 Q: Which feature most clearly means she needs same-day ophthalmology review?
   - Bilateral redness
-  - Gritty feeling
+  - Gritty, sandy feeling
   - Itch
   * Reduced visual acuity
   - Watery discharge
-## h1058 [clone:h0199] Red eye overview
-A 68 year old man takes warfarin for atrial fibrillation. He noticed a bright red patch over the white of his left eye this morning. It does not hurt and his vision is normal.
-There is a flat, sharply edged bright red area over the sclera. The cornea is clear and the pupil reacts normally. Visual acuity is 6/6 in both eyes.
-BP 148/88 mmHg.
-Q: Which is the most likely diagnosis?
-  - Anterior uveitis
-  - Bacterial conjunctivitis
-  - Episcleritis
-  - Scleritis
-  * Subconjunctival haemorrhage
-## h1059 [mix] Red eye overview
-A 26 year old woman wears soft contact lenses. She has had a painful red right eye for a day. Bright light hurts.
-Visual acuity is 6/12 in the right eye. There is redness around the cornea. Fluorescein shows a small staining area on the cornea.
-Q: Which is the most appropriate management?
-  - Chloramphenicol and review in 1 week
-  - Lubricating drops
-  - New lenses and better hygiene
-  * Same-day ophthalmology
-  - Steroid eye drops
+## h1058 [mix] Red eye overview
+A 68 year old man takes warfarin for atrial fibrillation. He noticed a bright red patch over the white of his left eye this morning. It does not hurt, his vision is normal and he has had no injury.
+BP 148/88 mmHg. There is a flat, sharply edged red area over the sclera. The cornea is clear and the pupil reacts normally. Visual acuity is 6/6 in both eyes.
+Q: Which is the most appropriate next step?
+  * Check his INR
+  - Chloramphenicol eye drops
+  - CT head to exclude a bleed
+  - Same-day eye casualty review
+  - Stop warfarin for a week
+## h1059 [clone:h0068] Red eye overview
+A 26 year old woman sleeps in her monthly soft contact lenses. She has had a painful red right eye with thick discharge for a day. Bright light hurts.
+Visual acuity is 6/24 in the right eye. There is a white corneal infiltrate with an overlying epithelial defect and a small layer of pus in the anterior chamber.
+Q: Which organism is most likely?
+  - Acanthamoeba
+  - Adenovirus
+  - Herpes simplex virus
+  * Pseudomonas aeruginosa
+  - Streptococcus pneumoniae
 ## h1060 [mix] Blepharitis
 A 66 year old woman has had gritty, burning eyes for 6 months. Her eyelids are crusty every morning. Her vision is normal.
 The lid margins are red, with crusting at the base of the lashes. The conjunctiva is mildly red. The cornea is clear.
 Q: Which is the most appropriate first treatment?
   - Chloramphenicol drops
+  - Hypromellose drops
   - Oral doxycycline for 3 months
   - Steroid eye drops
-  - Topical aciclovir
   * Warm compresses and lid hygiene
-## h1061 [clone:h0202] Blepharitis
-A 30 year old man has had a lump in his upper eyelid for 6 weeks. It is not painful and has not grown.
-There is a 5 mm firm, round, non-tender swelling in the upper lid away from the lash line. The skin over it moves freely.
-Q: Which is the most likely diagnosis?
-  - Basal cell carcinoma
-  * Chalazion
-  - Dermoid cyst
-  - External hordeolum
-  - Xanthelasma
+## h1061 [mix] Blepharitis
+A 30 year old man has had a lump in his upper eyelid for 3 weeks. It was slightly sore at first but is now painless. It is not affecting his vision.
+There is a 5 mm firm, round, non-tender swelling in the upper lid away from the lash line. The skin over it is not red and moves freely.
+Q: Which is the most appropriate first management?
+  - Chloramphenicol ointment
+  - Incision and curettage
+  - Oral flucloxacillin
+  - Steroid injection into the lump
+  * Warm compresses and massage
 ## h1062 [] Blepharitis
 A 52 year old woman with rosacea has had burning eyes for months.
 There is a frothy tear film. The gland openings along the back edge of the lids are capped and blocked. The front of the lid margin is clean.
@@ -422,24 +422,24 @@ Q: Which type of blepharitis is this?
   - Demodex blepharitis
   * Posterior blepharitis
   - Viral blepharitis
-## h1063 [len] Conjunctivitis
+## h1063 [] Conjunctivitis
 A 34 year old man has had a sticky red right eye for 5 days. It has not settled. He does not wear contact lenses. He has no pain or photophobia.
 Visual acuity is 6/6 in both eyes. There is purulent discharge. The cornea is clear and does not stain with fluorescein.
 Q: Which is the most appropriate treatment?
-  - Aciclovir ointment
+  - Aciclovir eye ointment
   * Chloramphenicol eye drops
   - Oral amoxicillin
   - Steroid eye drops
   - Topical ciprofloxacin
 ## h1064 [] Conjunctivitis
-A 2 day old baby has a profuse discharge from both eyes. The birth was a vaginal delivery.
-Both eyelids are swollen. There is a thick, purulent discharge.
-Q: Which organism is most likely?
-  - Chlamydia trachomatis
-  - Herpes simplex virus
-  * Neisseria gonorrhoeae
-  - Staphylococcus aureus
-  - Streptococcus pneumoniae
+A 10 day old baby girl has had watery, then sticky discharge from both eyes for 3 days. She was born by vaginal delivery. She is feeding well and has no fever.
+Both eyelids are mildly swollen with mucopurulent discharge. The corneas are clear. A conjunctival swab is positive for Chlamydia trachomatis on nucleic acid testing.
+Q: Which is the most appropriate treatment?
+  - Chloramphenicol eye drops
+  - IV ceftriaxone
+  * Oral erythromycin
+  - Saline cleaning and review
+  - Topical fusidic acid
 ## h1065 [] Conjunctivitis
 A 32 year old teacher had a cold last week. Her right eye became red and watery 4 days ago, and now the left eye is too. Several children in her class have red eyes.
 There is watery discharge with follicles on the inside of the lower lids. There is a tender lymph node in front of the right ear. Visual acuity is normal.
@@ -458,15 +458,14 @@ Q: Which is the most appropriate treatment?
   - Ciprofloxacin drops
   - Natamycin drops
   - Prednisolone drops
-## h1067 [clone:h0209] Infective keratitis
-A 28 year old woman wears contact lenses when she swims. She has had a painful left eye for a week. The pain is far worse than the mild redness suggests.
-Visual acuity is 6/18 in the left eye. There is a ring-shaped infiltrate in the cornea.
-Q: Which organism is most likely?
-  * Acanthamoeba
-  - Adenovirus
-  - Fungal keratitis
-  - Herpes simplex virus
-  - Pseudomonas aeruginosa
+## h1067 [mix,frame] Infective keratitis
+A 28 year old woman has just finished treatment for Acanthamoeba keratitis in her left eye. She wears monthly soft contact lenses and wants to know how to stop it happening again.
+Q: Which advice is most important?
+  - Change lenses every 2 weeks
+  * Keep lenses away from tap water
+  - Remove lenses before bed
+  - Use chloramphenicol after swimming
+  - Use lubricant drops daily
 ## h1068 [] Infective keratitis
 A 72 year old man has had a painful rash on the right side of his forehead for 2 days.
 There are vesicles on the right forehead and scalp, and on the tip of his nose. His eye is not yet red.
@@ -476,15 +475,15 @@ Q: What does the rash on the tip of the nose mean?
   * Likely eye involvement
   - Low risk of complications
   - Spread to the maxillary nerve
-## h1069 [clone:h0211] Uveitis & iritis
-A 28 year old man has had a painful red left eye for 2 days. Bright light hurts. His vision is slightly blurred. He has no discharge.
-Visual acuity is 6/9 in the left eye. There is redness around the cornea. The left pupil is small and irregular.
-Q: Which is the most likely diagnosis?
-  - Acute angle-closure glaucoma
-  * Anterior uveitis
-  - Conjunctivitis
-  - Keratitis
-  - Scleritis
+## h1069 [] Uveitis & iritis
+A 34 year old woman has had painful red eyes with photophobia for a week. She has had painful red lumps on both shins for 3 weeks and a dry cough.
+Visual acuity is 6/9 in both eyes. Ophthalmology confirm bilateral anterior uveitis. A chest X-ray shows bilateral hilar lymphadenopathy.
+Q: Which is the most likely underlying condition?
+  - Ankylosing spondylitis
+  - Behçet's disease
+  - Inflammatory bowel disease
+  * Sarcoidosis
+  - Tuberculosis
 ## h1070 [] Uveitis & iritis
 A 34 year old woman has a painful red right eye with photophobia. The ophthalmologist confirms anterior uveitis with cells in the anterior chamber. There is no infection.
 Q: Which is the most appropriate treatment?
@@ -535,13 +534,13 @@ Q: Which is the definitive treatment?
   - Long-term pilocarpine
   - Selective laser trabeculoplasty
   - Trabeculectomy
-## h1076 [len,mix] Glaucoma (acute & chronic)
+## h1076 [mix] Glaucoma (acute & chronic)
 A 66 year old man has newly diagnosed primary open-angle glaucoma. He has no symptoms.
 Intraocular pressure 28 mmHg in both eyes. There is cupping of both optic discs. Visual field testing shows early loss.
 Q: Which is the most appropriate first-line treatment?
   - Acetazolamide tablets
   - Laser peripheral iridotomy
-  - Latanoprost drops
+  - Latanoprost eye drops at night
   * Selective laser trabeculoplasty
   - Timolol drops
 ## h1077 [] Glaucoma (acute & chronic)
@@ -562,13 +561,13 @@ Q: Which is the most likely diagnosis?
   - Dacryocystitis
   * Orbital cellulitis
   - Preseptal cellulitis
-## h1079 [len] Periorbital & orbital cellulitis
+## h1079 [] Periorbital & orbital cellulitis
 A 12 year old girl has a swollen, red left eye with pain on eye movement and proptosis. She has been admitted for IV antibiotics. Orbital cellulitis is suspected.
 Q: Which investigation is most appropriate?
   - Blood cultures
   - Conjunctival swab
   * Contrast CT orbits and sinuses
-  - Plain X-ray of the orbits
+  - Plain X-ray of the orbits and sinuses
   - Ultrasound of the globe
 ## h1080 [frame] Periorbital & orbital cellulitis
 A 10 year old boy has orbital cellulitis after a sinus infection. A medical student asks how the infection reached the orbit.
@@ -578,15 +577,15 @@ Q: Which sinus most commonly spreads infection into the orbit?
   - Mastoid air cells
   - Maxillary sinus
   - Sphenoid sinus
-## h1081 [clone:h0223] Retinal detachment
-A 56 year old man is very short-sighted. He has had flashing lights and new floaters in his right eye for a day. Now a dark curtain is coming down across his vision from above.
-Visual acuity is 6/9 in the right eye. There is a relative afferent pupillary defect. Fundoscopy shows a grey, elevated retina in the upper half.
-Q: Which is the most likely diagnosis?
-  - Central retinal artery occlusion
-  - Migraine aura
+## h1081 [] Retinal detachment
+A 56 year old man with proliferative diabetic retinopathy has had gradual loss of vision in his right eye over a month, like a shadow spreading. He has had no flashes or new floaters.
+Visual acuity is 6/36 in the right eye. Fundoscopy shows fibrovascular bands over the retina, which is raised and concave in the upper half. No retinal tear is seen.
+Q: Which type of detachment is this?
+  - Exudative retinal detachment
   - Posterior vitreous detachment
-  * Retinal detachment
-  - Vitreous haemorrhage
+  - Retinoschisis
+  - Rhegmatogenous retinal detachment
+  * Tractional retinal detachment
 ## h1082 [] Retinal detachment
 A 58 year old woman has a retinal detachment in her left eye. Surgery is being planned.
 Q: Which feature makes surgery most urgent?
@@ -646,11 +645,11 @@ Q: Which is the most appropriate management?
   - No referral needed
   * Refer for cataract surgery
   - Wait until acuity falls to 6/18
-## h1089 [len] Cataracts
+## h1089 [] Cataracts
 A 45 year old woman has taken oral prednisolone for severe asthma for years. She has glare from bright lights and has trouble reading.
 Visual acuity is 6/12 in both eyes. There is a reduced red reflex.
 Q: Which type of cataract is she most likely to have?
-  - Congenital cataract
+  - Congenital lamellar cataract
   - Cortical cataract
   - Mature white cataract
   - Nuclear sclerotic cataract
@@ -743,14 +742,15 @@ Q: Which is the most likely diagnosis?
   - Dry eye disease
   - Episcleritis
   - Keratitis
-## h1613 [len,mix,clone:h1060] Blepharitis
-A 66 year old woman has blepharitis with gritty eyes and crusty lids. Her vision is normal.
-Q: Which is the most appropriate first treatment?
-  - Chloramphenicol drops
-  - Oral doxycycline
-  - Steroid drops
-  - Surgery
-  * Warm compresses and lid hygiene
+## h1613 [] Blepharitis
+A 48 year old woman has posterior blepharitis and rosacea. She has used warm compresses and lid cleaning twice daily for 3 months, but her eyes still burn and feel gritty. Her vision is normal and she is not pregnant.
+The gland openings along the back of the lids are capped and there is a frothy tear film. The cornea is clear.
+Q: Which is the most appropriate next treatment?
+  - Chloramphenicol ointment
+  - Oral aciclovir
+  * Oral doxycycline
+  - Referral for lid surgery
+  - Topical steroid drops
 ## h1614 [mix] Blepharitis
 A 72 year old woman has had a painless lump on her lower eyelid for 4 months. It sometimes bleeds.
 There is a 5 mm pearly lump on the lower lid margin. Some lashes over it have fallen out.
@@ -779,23 +779,23 @@ Q: Which is the most appropriate management?
   - Reassure
   * Same-day swabs and urgent referral
 ## h1617 [mix] Conjunctivitis
-A 25 year old woman wears contact lenses. She has had a red, painful left eye for a day, with photophobia and blurred vision.
-Visual acuity is 6/18 in the left eye. There is redness around the cornea.
-Q: Which is the most appropriate next step?
-  - Antihistamine drops twice daily
-  - Chloramphenicol drops for 5 days
-  - Lubricant drops and lens rest
-  - Review in 3 days with lenses out
-  * Same-day eye referral, lenses out
-## h1618 [clone:h0211] Uveitis & iritis
-A 29 year old man has had low back stiffness for a year. He now has a painful red left eye with photophobia and blurred vision.
-The redness is worst around the cornea. The left pupil is small and irregular.
-Q: Which is the most likely diagnosis?
-  - Acute angle-closure glaucoma
-  * Anterior uveitis
-  - Bacterial conjunctivitis
-  - Episcleritis
-  - Subconjunctival haemorrhage
+A 25 year old woman was scratched in the left eye by her baby's fingernail this morning. The eye is painful and watering. She does not wear contact lenses.
+Visual acuity is 6/9 in the left eye. Fluorescein shows a linear epithelial defect on the cornea with no white infiltrate. The anterior chamber is clear.
+Q: Which is the most appropriate management?
+  * Chloramphenicol ointment
+  - Double eye pad for 48 hours
+  - Same-day eye casualty
+  - Steroid and antibiotic drops
+  - Topical anaesthetic to take home
+## h1618 [] Uveitis & iritis
+A 29 year old man has had low back stiffness for a year that is worse in the morning and eases with exercise. He now has a painful red left eye with photophobia and blurred vision.
+The redness is worst around the cornea. The left pupil is small and irregular. Ophthalmology confirm anterior uveitis.
+Q: Which blood test result is most likely?
+  - Positive ANA
+  - Positive ANCA
+  - Positive anti-CCP
+  * Positive HLA-B27
+  - Raised serum ACE
 ## h1619 [mix] Uveitis & iritis
 A 29 year old man has suspected anterior uveitis. He has a painful red eye with photophobia.
 Q: Which is the most appropriate next step?
@@ -804,58 +804,58 @@ Q: Which is the most appropriate next step?
   - Pilocarpine drops
   - Routine referral in 4 weeks
   * Same-day ophthalmology review
-## h1620 [len,clone:h0212] Uveitis & iritis
-A 29 year old man has anterior uveitis confirmed on slit lamp examination. There is no infection.
-Q: Which is the most appropriate treatment?
-  - Chloramphenicol drops
-  - Oral doxycycline
-  - Pilocarpine drops
-  * Steroid and dilating drops
-  - Timolol drops
-## h1621 [clone:h1078] Periorbital & orbital cellulitis
-A 7 year old boy had a cold last week. His right eyelid has become swollen and red over a day.
-Temperature 38.9°C. He has pain on moving the right eye. The eye bulges forward and his vision is reduced.
-Q: Which is the most likely diagnosis?
-  - Allergic reaction
-  - Chalazion
-  * Orbital cellulitis
-  - Periorbital cellulitis
-  - Stye
-## h1622 [len] Periorbital & orbital cellulitis
-A 7 year old boy has orbital cellulitis. He has been admitted and started on IV antibiotics.
-Q: Which is the most appropriate imaging?
-  * CT of orbits and sinuses with contrast
-  - Imaging if no better in 48 hours
-  - MRI of the brain
-  - Plain X-ray of the sinuses
-  - Ultrasound of the orbit
-## h1623 [len,clone:h0222] Periorbital & orbital cellulitis
-A 7 year old boy with orbital cellulitis now has a headache and is vomiting. Both eyes have become swollen.
-Temperature 39.4°C. There is swelling of both eyelids, and eye movements are reduced on both sides.
-Q: Which is the most likely complication?
-  - Acute glaucoma
-  - Bacterial meningitis
-  * Cavernous sinus thrombosis
-  - Frontal brain abscess
+## h1620 [] Uveitis & iritis
+A 29 year old man has had anterior uveitis in his left eye for 4 weeks. He has used prednisolone acetate drops, hourly at first and then tapering, with cyclopentolate. His eye is now comfortable.
+Visual acuity is 6/6. The anterior chamber is quiet. Intraocular pressure is 34 mmHg in the left eye and 15 mmHg in the right.
+Q: Which is the most likely cause of the raised pressure?
+  - Angle closure from cyclopentolate
+  - Inflammatory trabeculitis
+  - Iris bombé from pupil block
+  - Primary open-angle glaucoma
+  * Steroid response
+## h1621 [] Periorbital & orbital cellulitis
+A 7 year old boy with right orbital cellulitis has had IV antibiotics for 24 hours. Today he is more unwell and his vision is worse.
+Temperature 39.0°C. The right eye is more proptosed and eye movements are very limited. Visual acuity has fallen from 6/9 to 6/24 and colour vision is reduced. Contrast CT shows a collection along the medial orbital wall.
+Q: Which is the most appropriate next step?
+  - Add oral steroids
+  - Add topical chloramphenicol
+  - Change to oral antibiotics
+  - Repeat CT in 48 hours
+  * Urgent surgical drainage
+## h1622 [] Periorbital & orbital cellulitis
+A 7 year old boy has had a cold for 3 days. His left eyelids have become red and swollen today. He is being assessed to decide whether he has periorbital or orbital cellulitis.
+Temperature 38.5°C.
+Q: Which finding most suggests orbital cellulitis?
+  - Fever of 38.5°C
+  - Lids swollen shut
+  * Pain on eye movement
+  - Recent cold
+  - Red, warm eyelid skin
+## h1623 [] Periorbital & orbital cellulitis
+A 9 year old girl is being treated for left orbital cellulitis. Over 12 hours she has developed a severe headache and vomiting, and her right eye has started to swell. Cavernous sinus thrombosis is suspected.
+Q: Which cranial nerve is usually affected first?
+  * Abducens nerve
+  - Mandibular nerve
+  - Oculomotor nerve
+  - Optic nerve
+  - Trochlear nerve
+## h1624 [frame] Cataracts
+A 76 year old man has cataracts in both eyes and is listed for surgery on his right eye. At the consent appointment he asks which problem after surgery is most likely.
+Q: Which complication is most common?
+  * Capsule opacification
+  - Cystoid macular oedema
+  - Dropped lens nucleus
+  - Endophthalmitis
   - Retinal detachment
-## h1624 [clone:h1087] Cataracts
-A 76 year old man has had gradually blurred vision in both eyes for 2 years. Oncoming headlights cause glare at night.
-Visual acuity is 6/18 in both eyes. The red reflex is dull in both eyes.
-Q: Which is the most likely diagnosis?
-  - Age-related macular degeneration
-  * Cataract
-  - Diabetic retinopathy
-  - Open-angle glaucoma
-  - Retinal detachment
-## h1625 [mix,clone:h1088] Cataracts
-A 76 year old man has cataracts. He has stopped driving at night and finds reading hard.
-Visual acuity is 6/18 in both eyes.
-Q: Which is the most appropriate management?
-  - Eye drops to dissolve the cataract
-  - Laser to the retina
-  - Reassure
-  * Refer for cataract surgery
-  - Stronger glasses and review in 5 years
+## h1625 [mix] Cataracts
+A 76 year old man has cataracts in both eyes and is waiting for surgery. He still drives.
+With his glasses, visual acuity is 6/18 in the right eye and 6/24 in the left.
+Q: Which is the most appropriate advice about driving?
+  - Drive below 40 mph
+  - Drive in daylight hours
+  - Drive with tinted glasses
+  - Keep driving until surgery
+  * Stop driving for now
 ## h1626 [mix] Cataracts
 A 74 year old man had cataract surgery on his right eye 14 months ago. His vision has slowly become misty again over 3 months. The eye is not painful or red. Visual acuity is 6/18 in the right eye. There is a hazy membrane behind the lens implant.
 Q: Which is the most appropriate treatment?
@@ -864,15 +864,15 @@ Q: Which is the most appropriate treatment?
   - Repeat cataract surgery
   - Steroid eye drops
   * YAG laser capsulotomy
-## h1627 [clone:h1090] Macular degeneration
-A 78 year old woman has noticed over a week that straight door frames look bent. There is a grey patch in the centre of the vision in her right eye.
-Visual acuity is 6/24 in the right eye. The Amsler grid shows distortion.
-Q: Which is the most likely diagnosis?
-  - Cataract
-  - Central retinal artery occlusion
-  - Open-angle glaucoma
-  - Retinal detachment
-  * Wet macular degeneration
+## h1627 [mix] Macular degeneration
+A 78 year old woman has noticed over a week that straight door frames look bent and there is a grey patch in the centre of her vision in her right eye. She is seen in a rapid-access macular clinic.
+Visual acuity is 6/24 in the right eye. The Amsler grid shows distortion. There is a small haemorrhage at the right macula.
+Q: Which investigation is most appropriate first?
+  - Electroretinogram
+  - Fluorescein angiography
+  - MRI of the orbits
+  * OCT of the macula
+  - Visual field testing
 ## h1628 [] Macular degeneration
 A 78 year old woman has suspected wet macular degeneration of her right eye.
 Q: How urgently should she be seen?
@@ -881,22 +881,23 @@ Q: How urgently should she be seen?
   - Within 2 weeks
   - Within 3 months
   - Within 4 weeks
-## h1629 [mix,clone:h1091] Macular degeneration
-A 78 year old woman has wet macular degeneration confirmed by optical coherence tomography.
-Q: Which is the most appropriate treatment?
-  - High-dose oral vitamins
-  * Intravitreal anti-VEGF injections
-  - Laser to the macula
-  - Steroid drops four times daily
-  - Vitrectomy surgery
-## h1630 [len,mix] Ocular trauma
-A 30 year old builder had cement splashed into his left eye 5 minutes ago. The eye is painful and red.
-Q: Which is the most appropriate first step?
-  - Check visual acuity first
-  - Fluorescein staining
-  * Immediate irrigation with saline
-  - Refer to eye casualty
-  - Test the pH first
+## h1629 [clone:h0229] Macular degeneration
+A 78 year old woman had her third intravitreal anti-VEGF injection for wet macular degeneration in her right eye 2 days ago. Since last night the eye has become very painful and red and her vision has dropped.
+Visual acuity is hand movements in the right eye. There is lid swelling and a layer of pus in the anterior chamber.
+Q: Which is the most likely diagnosis?
+  - Acute angle-closure glaucoma
+  * Endophthalmitis
+  - Retinal detachment
+  - Subconjunctival haemorrhage
+  - Vitreous haemorrhage
+## h1630 [] Ocular trauma
+A 30 year old builder had cement splashed into his left eye 30 minutes ago. The eye has been irrigated until the pH is 7.5. Ophthalmology are assessing how severe the injury is.
+Q: Which finding suggests the most severe injury?
+  * Blanched white limbus
+  - Conjunctival redness
+  - Lid swelling
+  - Small corneal abrasion
+  - Watering and blepharospasm
 ## h1631 [] Ocular trauma
 A 30 year old builder's left eye has been irrigated after a cement splash.
 Conjunctival pH 7.4. Visual acuity 6/9 in the left eye.
@@ -906,15 +907,15 @@ Q: Which result shows that irrigation is complete?
   * pH 7.4
   - pH 8.5
   - pH 9
-## h1632 [clone:h0240] Ocular trauma
-A 25 year old man was punched in the right eye. He has double vision on looking up.
-There is bruising around the right eye. Upward gaze is limited on the right. There is numbness of the right cheek and upper lip.
-Q: Which is the most likely diagnosis?
-  - Hyphaema
-  * Orbital floor fracture
-  - Retinal detachment
-  - Third nerve palsy
-  - Zygomatic arch fracture
+## h1632 [mix] Ocular trauma
+A 12 year old boy was hit in the right eye by a football 3 hours ago. He has vomited twice and feels faint. He has double vision on looking up.
+Pulse rate 48 bpm. There is little bruising around the eye. Upward gaze of the right eye is severely restricted and painful. CT shows a small orbital floor fracture with the inferior rectus trapped.
+Q: Which is the most appropriate management?
+  - IV atropine and observation
+  - Nose-blowing advice and review
+  - Oral antibiotics and review
+  - Repair after the swelling settles
+  * Urgent surgical release
 ## h1690 [] Eye in systemic & neuro disease
 A 64 year old man has small, irregular pupils. They constrict when he looks at a near object, but not to a bright light.
 Q: Which condition is classically linked to these pupils?
@@ -985,7 +986,7 @@ Q: Which is the most appropriate next step?
   * Measure his blood pressure
   - Refer for carotid Doppler ultrasound
   - Urgent CT head
-## h1828 [clone:h0228] Retinal artery occlusion & sudden vision loss
+## h1828 [] Retinal artery occlusion & sudden vision loss
 A 68 year old man had sudden loss of vision in his left eye this morning, like a curtain coming down from above. It lasted 4 minutes and then fully recovered. He has no headache, jaw pain or scalp tenderness. He smokes and has type 2 diabetes.
 Visual acuity is 6/6 in both eyes. Fundoscopy is normal. There is a left carotid bruit. ESR is 12 mm/h.
 Q: Which is the most likely diagnosis?

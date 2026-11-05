@@ -1,5 +1,15 @@
 # Changelog
 
+## 3.6.5 (2026-11-05)
+
+👁️👂 **Eyes and ENT rebuilt by hand** (53 questions), so your Saturday revision is drilling different facts, not the same fact three times.
+- **29 clones rebuilt as new angles.** Contact lens keratitis was asked three times as "same-day referral"; now one asks the organism (Pseudomonas), one the prevention advice (Acanthamoeba and tap water) and one is a simple corneal abrasion. Uveitis diagnosis three times is now sarcoidosis, HLA-B27 and a steroid pressure rise. Orbital cellulitis CT three times is now orbital vs periorbital, abscess drainage and the abducens nerve in cavernous sinus thrombosis. Also new: amaurosis fugax carotid imaging, warfarin and INR, tractional detachment, chalazion first steps, neonatal chlamydia, OCT for wet AMD, injection endophthalmitis, chemical burn severity, white-eyed blow-out, cataract complications and the DVLA standard; in ENT Ramsay Hunt treatment, vestibular migraine, buccal prochlorperazine, home sleep study, hardwood adenocarcinoma, quinsy drainage, sternomastoid tumour, unresponsive choking, bacterial tracheitis, dermoid cyst, the Sistrunk hyoid and rigid bronchoscopy.
+- **Negative lead-ins gone** ("which drops should be avoided", "which should be avoided"): the herpes ulcer now asks which drop made it worse, the metal-hammering eye asks for the investigation (CT, not MRI) and the swimmer's perforated drum asks which drops to use.
+- **Weak distractors replaced with real lookalikes** in 16 more questions, for example ocular massage beside steroids for GCA, NSAID eye drops and oral prednisolone beside oral NSAID for scleritis, mupirocin beside Naseptin, routine vs suspected cancer ENT referral.
+- 🎓 Mock-like chip now holds **501** questions (rebuilt clones join it).
+- **Your runs are safe** across both releases: a run saved on 3.6.3 or 3.6.4 moves its picks to the new letters (tested on a question changed in both), and a pick on a rebuilt question is cleared.
+- Engine: a question can now be rewritten again in a later batch (`v364_rw.py` applies each batch in order with its own data version). Release number lives in `study/snap/rw/VERSION`.
+
 ## 3.6.4 (2026-11-05)
 
 🔨 **Hammer rebuilt towards your mock.** An audit against your 91-question mock and the 599 MSCAA and MS AKT questions found Hammer about 80% like the real papers. The gaps were weak distractors, a length give-away, clones and too few diagnosis questions. This release fixes those, priority weeks first.
