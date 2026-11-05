@@ -1,5 +1,14 @@
 # Changelog
 
+## 3.6.2 (2026-11-05)
+
+🔨 **Hammer set E: 87 new paper-style SBAs (h1779 to h1865)** in STUDY, written fresh around core FFP AKT topics and modelled on the MS AKT, MSCAA and Nottingham mock papers: stems of about 60 words with observations in a second paragraph, results tables in 38 of them, 5 alphabetical options and the papers' lead-ins.
+- Topics: thyroid surgery and nodules, anal fissure, volvulus, diverticulitis, large bowel obstruction, rectal and bladder cancer, visible haematuria, renal colic, ADPKD, post-streptococcal GN, NSTEMI antiplatelets, vasospastic angina, stable chest pain, heart failure, dissection imaging, asthma, pneumoconiosis, bronchiectasis (3 angles), TB (2), sarcoidosis, pneumonia severity, pulmonary oedema, respiratory acidosis, hepatitis E, Gilbert syndrome, cholangitis, pancreatitis, coeliac, UC, C. difficile, Shigella, dysphagia and pharyngeal pouch, B12, hypercalcaemia, hyperkalaemia, hypoglycaemia, SSRI hyponatraemia, thyrotoxicosis, Paget's, RA, psoriatic arthritis (3 angles), anti-Jo-1, ACJ arthritis, GCA, embolus, psoriasis triggers, scabies, plantar wart, BCC, acne, onychomycosis, orbital cellulitis, uveitis, wet AMD, steroid cataract, hypertensive retinopathy, amaurosis fugax, otosclerosis, epiglottitis, HSV encephalitis, SAH, lumbar puncture safety, schizoid personality, BPD and DBT, bipolar, anorexia, conduct disorder, ADHD, aripiprazole, best interests, autonomy, hepatitis B precautions.
+- Every question has a thought map with cues taken word for word from the stem, up to 3 change-the-film flips, and a "why not" line for all 4 wrong options. All pass the Hammer linter (no give-away lengths, no absolute words in distractors, British spelling).
+- New Hammer targets: Viral hepatitis, Infection control and bloodborne viruses, Ethics: the four principles, Jaundice and LFT patterns, Paget's disease and metabolic bone, Rheumatoid and psoriatic arthritis, Dysphagia and pharyngeal pouch.
+- 🆕 **Set E chip** in the Hammer view to drill the 87 on their own (`site/patches/v362_engine.py`; hidden in STEP1).
+- Source: `study/snap/hq6_a.py`, `hq6_b.py`, `hq6_c.py`, applied by `site/patches/v362_sba.py` (`--check` lints without writing).
+
 ## 3.6.1 (2026-11-05)
 
 🔍 **Audit of 3.6.0 (the Antigravity update): everything kept, the weak parts rewritten, new depth on top.** 3.5.0 and 3.6.0 were built outside this repo; 3.6.1 brings both in and repairs them.

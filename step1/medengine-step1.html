@@ -1337,7 +1337,7 @@ html .seg{max-width:100%;min-width:0;overflow-x:auto;scrollbar-width:none}html .
 </style>
 <header class="top">
   <button class="iconbtn menu-btn" id="menuBtn" aria-label="Open chapters">☰</button>
-  <button class="brand" id="homeBtn" aria-label="medengine-STEP1 home"><span class="bill">m</span><span class="word">medengine-STEP1</span><small>v3.6.1</small></button>
+  <button class="brand" id="homeBtn" aria-label="medengine-STEP1 home"><span class="bill">m</span><span class="word">medengine-STEP1</span><small>v3.6.2</small></button>
   <button type="button" class="btn sm ghost" data-go="labs" title="US lab values with the UK bridge">🧪 Labs (US↔UK)</button>
   <a class="oscelink" href="https://claude.ai/artifact/NexSvgTB8VhqktVFfko6JR" target="_blank" rel="noopener" title="Open medengine-STUDY, your FFP revision"><span class="od">m</span>medengine-STUDY ↗</a>
   <div class="search-wrap">
@@ -8971,7 +8971,7 @@ const HQ_IL = {I: ['🎯', 'In my ILOs'], E: ['🟡', 'ILO edge'], O: ['🌍', '
 const HQ_GK = {clone: ['🔥', 'Double-tested'], chain: ['⛓️', 'Same patient, next step'], block: ['🚫', 'Comorbidity blocks first line'], decoy: ['⚠️', 'Lab decoy'], matrix: ['🧮', 'One grid, every angle'], twin: ['🔗', 'Same trap, new patient']};
 function hqGroupsOf(id){ if (!hqGroupsOf.c) { const m = {}; OFF.g.forEach((g, gi) => g.ids.forEach(x => (m[x] = m[x] || []).push(gi))); hqGroupsOf.c = m; } return hqGroupsOf.c[id] || []; }
 function hqInKind(id, k){ return hqGroupsOf(id).some(gi => OFF.g[gi].k === k); }
-const HQ_SRC = [['all', '🔨', 'Everything'], ['u', '🩺', 'Step 1 topics'], ['d', '💊', 'Drugs'], ['x', '🛠️', 'Tests and procedures'], ['b', '🧭', 'Off the map'], ['m', '🎓', 'My mock'], ['o', '🏛️', 'Official papers']];
+const HQ_SRC = [['all', '🔨', 'Everything'], ['u', '🩺', 'Step 1 topics'], ['d', '💊', 'Drugs'], ['x', '🛠️', 'Tests and procedures'], ['b', '🧭', 'Off the map'], ['m', '🎓', 'My mock'], ['o', '🏛️', 'Official papers'], ['e', '🆕', 'Set E: FFP topics']];
 const HQ_PI = {L: '👯', N: '🔢', T: '📍', D: '💊', R: '🪜'};
 const HAM = n => '🔨'.repeat(n);
 /* v2.7: every chip row is multi-select. Inside a row the picks add together (either); across rows they narrow (and).
@@ -9060,7 +9060,7 @@ function hqFilter(){
       if (c.tgt === 'srcm:u') { const st = hqStat(it.id); return it.t !== 'm' && it.t !== 'o' && !!(st && st[2] === 0); }
       return c.tgt === 'mq:' + it.id || c.tgt === 'oq:' + it.id || c.tgt === it.t + ':' + it.k || (c.tgt[0] === 'u' && (it.t === 'm' || it.t === 'o') && 'u:' + it.k === c.tgt);
     }
-    if (!hqHas(c.src, it.t)) return false;
+    if (!hqHas(c.src, it.t) && !(it.set === 'E' && c.src.includes('e'))) return false;
     /* paper and ILO verdict exist only for official questions, so they narrow those and let other sources through */
     if (it.t === 'o' && (!hqHas(c.pp, it.pp) || !hqHas(c.ilo, it.il))) return false;
     if (c.tr.length && !(c.trAll ? c.tr.every(k => hqInKind(it.id, k)) : c.tr.some(k => hqInKind(it.id, k)))) return false;
@@ -9216,7 +9216,7 @@ function viewHammer(m){
   } else {
     h += '<div class="panel hq-f"><div class="toolbar hq-fhead"><span class="hint grow">Tap as many as you like. <b>Inside a row</b> picks add together; <b>across rows</b> they narrow it down.</span>' + (hqActive() ? '<button class="btn ghost sm" data-hqclear>✕ Clear filters</button>' : '') + '</div>'
       + '<div class="chips">' + chip('tr', '', '🧬 Any examiner pattern') + Object.entries(HQ_GK).map(([k, v]) => chip('tr', k, v[0] + ' ' + v[1])).join('') + (c.tr.length > 1 ? '<span class="hq-sep"></span><span class="seg hq-trm" role="group" aria-label="Match"><button class="chip' + (c.trAll ? '' : ' on') + '" data-hqtrall="0">In any of these</button><button class="chip' + (c.trAll ? ' on' : '') + '" data-hqtrall="1">In all of these</button></span>' : '') + '</div>'
-      + '<div class="chips">' + HQ_SRC.map(([k, ic, l]) => { const sub = k === 'all' ? all : all.filter(it => it.t === k), st = hqPctStats(sub); return chip('src', k, ic + ' ' + l + ' · ' + sub.length + (st.done ? ' (' + st.pct + '%)' : '')); }).join('') + '</div>'
+      + '<div class="chips">' + HQ_SRC.map(([k, ic, l]) => { const sub = k === 'all' ? all : all.filter(it => k === 'e' ? it.set === 'E' : it.t === k), st = hqPctStats(sub); if (k === 'e' && !sub.length) return ''; return chip('src', k, ic + ' ' + l + ' · ' + sub.length + (st.done ? ' (' + st.pct + '%)' : '')); }).join('') + '</div>'
       + '<div class="chips">' + chip('h', 0, 'Any hammer') + [1, 2, 3].map(n => chip('h', n, HAM(n))).join('') + '<span class="hq-sep"></span>' + chip('p', '', 'Any pattern') + Object.keys(HQ.pat).map(p => chip('p', p, HQ_PI[p] + ' ' + esc(HQ.pat[p]))).join('') + '</div>'
       + (c.src.includes('o') ? '<div class="chips"><span class="hq-rl">🏛️ Official questions only:</span>' + chip('pp', '', 'Every paper') + Object.entries(OFF.pp).map(([k, v]) => { const pArr = all.filter(o => o.t === 'o' && o.pp === k), pSt = hqPctStats(pArr); return chip('pp', k, esc(v[0]) + ' · ' + pArr.length + (pSt.done ? ' (' + pSt.pct + '%)' : '')); }).join('') + '<span class="hq-sep"></span>' + chip('ilo', '', 'Any topic') + Object.entries(HQ_IL).map(([k, v]) => chip('ilo', k, v[0] + ' ' + v[1] + ' · ' + OFF.q.filter(o => o.il === k).length)).join('') + '</div>' : '')
       + '<div class="chips">' + chip('st', '', 'All') + chip('st', 'new', '🆕 Not done') + chip('st', 'miss', '🔥 Missed last time') + '<label class="hq-sys">System <select data-hqsys aria-label="Filter by system"><option value="">All systems</option>' + MEV.sysOptions(c.sys) + '</select></label></div></div>';
