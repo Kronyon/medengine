@@ -1,5 +1,16 @@
 # Changelog
 
+## 3.6.8 (2026-11-05)
+
+🩺 **The rest of the bank: clones and negative lead-ins** (21 questions rebuilt, 18 lead-ins rewritten; set E left as written).
+- **Breast:** periductal mastitis prevention (stop smoking), inflammatory cancer referral, Paget's biopsy, phyllodes excision.
+- **Leg:** diabetic foot ulcer (foot care team within 1 working day), Marjolin biopsy, varicose veins with skin changes (refer), popliteal aneurysm (scan the aorta), lymphoedema (compression and skin care).
+- **Abdomen and GI:** fistula-in-ano (MRI pelvis), chronic fissure (GTN), unstable diverticular bleed (CT angiography), Boerhaave, day 3 rescue therapy in acute severe colitis.
+- **Chest, cough and blood:** Pancoast (chest X-ray first), dissection (CT aortic angiogram), torsades (stop QT drugs), endocarditis with heart failure (urgent valve surgery), TTP rewritten in paper style (plasma exchange, platelets avoided).
+- **Endocrine and joints:** TSH over 10 twice (levothyroxine), RA X-ray (periarticular erosions) replacing "which is not a sign of OA".
+- **Drug and test cards:** "which should be avoided" now reads positively, for example "which antibiotic is most likely to worsen her myasthenia?" and "which patient has a contraindication to sumatriptan?".
+- **Whole bank now:** the longest option is the answer in **20.8%** of questions (papers: 19 to 25%), with **0** stand-outs. 466 questions have been rewritten since 3.6.3.
+
 ## 3.6.7 (2026-11-05)
 
 🧴🧠 **Skin, neurology and renal weeks: clones rebuilt** (29 questions; set E left as written).
