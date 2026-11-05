@@ -8,9 +8,11 @@ Done in 3.6.3:
 - AI layer: system prompt names STUDY/STEP1; images now sent to Gemini, OpenAI and Groq; 📲 sync button visible on phones.
 - STEP1: confirm-answer off by default, 🇬🇧 FFP overlap chip, UK names/units strip, UWorld screenshot notes shown after answering.
 
-Still to do (next session):
-1. Hand-write why-nots for the Hammer (h) questions [IN PROGRESS: study/snap/wn_hand2.py, done up to line 495 of the gap list, about h0732].
-   and no flip (they show "Not explained yet" with the ✨ AI button). Dump: run the snippet in site/patches/v363_data.py logic
-   for src 'hq'; add lines to study/snap/wn_hand.py, then `python3 site/patches/v363_hand.py && python3 site/build.py`.
-2. Calcium gluconate card: add "older papers say 10 mL" beside 30 mL of 10% (audit point).
-3. CHANGELOG entry for 3.6.3 (not yet written) and republish the STEP1 artifact.
+Finished in the follow-up session (2026-11-05):
+- Hammer why-nots: 2,134 hand-written lines for 1,211 questions in study/snap/wn_hand2.py. 0 wrong options left without a line or a flip
+  in Hammer, mock or the official papers. Within-question duplicates rewritten (wn_hand2.REWRITE lets v363_hand.py overwrite them).
+- Calcium gluconate wording (site/patches/v363b_calcium.py).
+- CHANGELOG 3.6.3 written; STUDY and STEP1 artifacts republished.
+
+Ideas for later:
+- Spot-check a random 50 of the Hammer lines on the phone and flag any that read thin; rewrite those ids via REWRITE.

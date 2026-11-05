@@ -1,5 +1,23 @@
 # Changelog
 
+## 3.6.3 (2026-11-05)
+
+✍️ **"Why not" lines rewritten by hand, and STUDY cleaned up.** You found the old explanations lazy (the pilocarpine and sigmoid volvulus cards); every wrong option across all three banks now has a line written from its own stem.
+- **Removed:** 1,483 template lines ("the clinical findings instead specifically indicated X rather than Y") and 542 copy-paste "Ruled out by ..." lines that pasted the gate under every wrong option.
+- **Filled from your own cards:** 785 lines taken from your triggers, drug, test and procedure cards where they already had the right fact.
+- **Hand-written:** 2,683 lines: 549 for your mock, the official papers, h0227 and h0313, and 2,134 for 1,211 Hammer questions. Each says what that option would need, or what it actually treats, in one short British English sentence. Coverage check: 0 wrong options without a line or a flip in Hammer, mock or the official papers.
+- Source: `study/snap/wn_hand.py` and `wn_hand2.py`, applied by `site/patches/v363_hand.py` (safe to re-run; it never overwrites a line except the ids listed in `wn_hand2.REWRITE`).
+- **Review cards:** one card per option, with ❌ why not and 🔀 change the film side by side. 🔬 Deep dive opens the gate, the cues and every flip. ✨ AI fill writes a line for any option that is still empty and saves it with your progress (`S.tmai`), so it syncs and survives a reload.
+- **USMLE questions moved out of STUDY.** 54 of the 66 questions added in 3.6.0 were USMLE basic science filed under FFP units, and each showed a UWorld screenshot whose notes gave the answer away. They now live only in STEP1 (49 were already there; 5 move across through `step1/from_study.json`). The 12 clinical ones stay: 11 re-filed to their units, and 3 outside your ILOs (pre-eclampsia, ectopic, Kawasaki) sit under their own clearly labelled heading.
+- **Calcium gluconate:** the hyperkalaemia card and trigger line now note that older papers write "10 mL of 10%" (30 mL is current UK guidance), so both wordings are recognised.
+- **AI:** the system prompt names STUDY or STEP1 by page; images are now sent to Gemini, OpenAI and Groq. The 📲 sync button now shows on phones.
+
+**STEP1:**
+- **Confirm answer is off by default.** Tapping an option answers it; existing saves are moved over once, and the setting can still be switched back on.
+- 🇬🇧 **FFP overlap chip** to drill only questions that overlap your FFP ILOs.
+- **UK names and units strip** beside US drug names and lab values.
+- UWorld screenshot notes now appear only **after** you answer, so they can't give the answer away.
+
 ## 3.6.2 (2026-11-05)
 
 🔨 **Hammer set E: 87 new paper-style SBAs (h1779 to h1865)** in STUDY, written fresh around core FFP AKT topics and modelled on the MS AKT, MSCAA and Nottingham mock papers: stems of about 60 words with observations in a second paragraph, results tables in 38 of them, 5 alphabetical options and the papers' lead-ins.
