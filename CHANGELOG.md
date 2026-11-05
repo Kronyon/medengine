@@ -1,5 +1,14 @@
 # Changelog
 
+## 3.6.6 (2026-11-05)
+
+🎯 **b targets read through one by one** (17 questions; set E left as written).
+- **Missing result restored:** the Addison's question asked "what does this result mean?" without showing the 9 am cortisol. It now shows 520 nmol/L and asks for the interpretation (over about 500: Addison's very unlikely; 100 to 500: synacthen).
+- **Clones and recall-only items rebuilt:** otosclerosis now asks the tympanometry result (shallow peak, no stapedial reflex) instead of repeating the set E diagnosis question; "name the cluster C disorders" is now a vignette of avoidant personality disorder; pityriasis versicolor asks the organism (Malassezia); Kawasaki is in paper style with short options (IVIG and aspirin), not sentence-long ones with "alone" and "only" in the wrong answers.
+- **Weak distractors replaced:** cochlear implant and tympanoplasty for otosclerosis, a cholinesterase inhibitor for late-onset hallucinations, the right colic artery for the caecum (lead-in now "mainly supplies the caecum", which removes an argument about the ascending colon), port-site and positioning pain for shoulder-tip pain, intranasal antihistamine and montelukast for hay fever.
+- **Lead-ins in paper style:** "What does this suggest?" and "What is this called?" now read "Which is the most likely diagnosis?" or "Which term best describes this?".
+- 🎓 Mock-like chip: **503**.
+
 ## 3.6.5 (2026-11-05)
 
 👁️👂 **Eyes and ENT rebuilt by hand** (53 questions), so your Saturday revision is drilling different facts, not the same fact three times.
