@@ -9,7 +9,7 @@ Done in 3.6.3:
 - STEP1: confirm-answer off by default, 🇬🇧 FFP overlap chip, UK names/units strip, UWorld screenshot notes shown after answering.
 
 Still to do (next session):
-1. Hand-write why-nots for the Hammer (h) questions: about 2,130 option slots in about 1,200 questions still have no line
+1. Hand-write why-nots for the Hammer (h) questions [IN PROGRESS: study/snap/wn_hand2.py, done up to line 495 of the gap list, about h0732].
    and no flip (they show "Not explained yet" with the ✨ AI button). Dump: run the snippet in site/patches/v363_data.py logic
    for src 'hq'; add lines to study/snap/wn_hand.py, then `python3 site/patches/v363_hand.py && python3 site/build.py`.
 2. Calcium gluconate card: add "older papers say 10 mL" beside 30 mL of 10% (audit point).

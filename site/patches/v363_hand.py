@@ -5,6 +5,9 @@ import json, pathlib, re, sys
 SITE = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(SITE.parent / 'study' / 'snap'))
 from wn_hand import H  # noqa: E402
+from wn_hand2 import H as H2  # noqa: E402
+for _k, _v in H2.items():
+    H.setdefault(_k, {}).update(_v)
 F = SITE / 'study.html'
 page = F.read_text(encoding='utf-8')
 mt = re.search(r'(<script id="qqdata" type="application/json">)(.*?)(</script>)', page, re.S)
