@@ -1,4 +1,4 @@
-# Where v3.6.9 is (2026-11-05, night)
+# Where v3.6.10 is (2026-11-05, night)
 
 Done and published:
 - Detector (study/snap/rw/detect.py) over all 1,811 Hammer questions: triage.json flags len, mix, abs, clone, neg, frame.
@@ -13,6 +13,9 @@ Done and published:
 - rw_09 precision give-aways + last weak distractors; Mock-like rebalanced to the mock lead-in mix (802) with week weights q.mw
   (v364_ml.py) and a weighted shuffle (v369_engine.py); v369_polish.py cleans official explanations. v3.6.9, data version 11.
   The 'mix' flag is mostly noise: a hand read of all 247 untouched non-priority flags found about 5 truly weak.
+- rw_10: my own collision clones re-rebuilt, last true clones, classroom framing, tranexamic negative lead-in (v3.6.10, data version 12).
+  RULE: before writing a 'new' rebuild, check its answer against every answer in the bank (no new clone).
+  Left on purpose: 5 'which patient' list questions (d/x cards), patient 'asks' stems (normal MSCAA style), set E.
   study/snap/rw/focus.py WEEK prints only the clone and negative questions of a week with the question each copies.
 
 Rules: rebuild with `sh study/snap/rw/rebuild.sh` then `python3 site/build.py`. Each rw_NN file is one published

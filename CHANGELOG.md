@@ -1,5 +1,14 @@
 # Changelog
 
+## 3.6.10 (2026-11-05)
+
+🧹 **Last sweep: clones, classroom framing, last negative lead-in** (31 questions).
+- **Clones I had created myself, fixed.** Seven rebuilds in 3.6.5 to 3.6.8 had landed on an angle the bank already asked (SCC in a transplant patient, ACE inhibitor angioedema, riluzole, Boerhaave, popliteal aneurysm with aortic scan, phyllodes excision, torsion of the appendix testis). Each was rebuilt again, after checking its answer against every answer in the bank: Bowen's disease, hereditary angioedema (C1 inhibitor), gastrostomy in MND, Mallory-Weiss tear, elective popliteal aneurysm repair, duct ectasia, and renal ultrasound for a new varicocele in an older man.
+- **Remaining true clones rebuilt:** acamprosate (now its mechanism), endophthalmitis (now its treatment), DVT (interim anticoagulation when the scan is delayed), troponin (chronic myocardial injury in CKD), ischaemic colitis (supportive care), urinary retention (post-obstructive diuresis), spirometry (fixed obstruction).
+- **Last negative lead-in gone:** "in which situation does tranexamic acid not help?" is now a heavy-periods vignette where a past DVT rules out tranexamic acid.
+- **Classroom framing removed** from 14 stems ("the examiner asks you", "a medical student asks", "the registrar asks you to work out"), and two "which patient" lists became single vignettes (urgent endoscopy at 58 with weight loss; tonsillectomy criteria).
+- **Bank now:** longest option is the answer in 20.4% of questions; 0 length stand-outs; 0 true negative lead-ins; clone flags left are set E or different topics that share an answer.
+
 ## 3.6.9 (2026-11-05)
 
 🎓 **Mock-like now matches the mock's shape**, plus the good parts of an outside (Gemini) audit, checked against the data first.
