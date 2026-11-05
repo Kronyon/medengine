@@ -1,5 +1,17 @@
 # Changelog
 
+## 3.6.4 (2026-11-05)
+
+🔨 **Hammer rebuilt towards your mock.** An audit against your 91-question mock and the 599 MSCAA and MS AKT questions found Hammer about 80% like the real papers. The gaps were weak distractors, a length give-away, clones and too few diagnosis questions. This release fixes those, priority weeks first.
+- **Length give-away gone:** in 3.6.3 the longest option was the answer 31.9% of the time (the papers: 19 to 25%). Every Hammer question where the answer stood out by length (more than 15% and 3 characters longer than every other option) was evened out, by trimming the answer or giving a distractor real detail. Now **25.0%**, and **0** questions where the answer stands out.
+- **Priority weeks rewritten by hand: acute abdomen and jaundice, mental health, eyes, ENT and the b targets.** Weak option sets now hold real lookalikes, for example the Crohn's drug question now offers adalimumab, budesonide, infliximab and methotrexate, not ferrous sulfate and vitamin D. Negative lead-ins ("which should be avoided") are now positive, as the MSCAA style guide requires.
+- **Clones rebuilt as new questions:** 30 questions that repeated an earlier answer and angle (catatonia three times, adjustment disorder four times, cholangitis three times) now test something new in the same unit: delusional perception, waxy flexibility, the lorazepam challenge, prolonged grief, multisystemic therapy, Prader-Willi, schizotypal disorder, partner treatment in PID, PTC drainage after a failed ERCP and more.
+- **All 251 card-matched why-not lines in the priority weeks rewritten from their own stems.** The 3.6.3 card match had put wrong lines on some options (labetalol explained by raised intracranial pressure, "no treatment" by Wenckebach).
+- **3.6.0 imports restyled** to paper format (h1743, h1744, h1746, h1749, h1750, h1751), with short options instead of sentence-long ones. The DKA potassium question now follows the JBDS rule (below 3.5: senior review for extra potassium).
+- 🎓 **Mock-like chip** in the Hammer view: 495 questions made of the b targets, set E and condition questions that ask for the diagnosis or cause (55% of your mock does), with clones left out.
+- **Your runs are safe.** When options are re-sorted, a half-finished run moves your pick and crossed-out options to the new letters; a pick on a rebuilt question is cleared. Tested in the browser.
+- Source: `study/snap/rw/rw_NN_*.py` (one file per batch), applied by `site/patches/v364_rw.py` with `v364_engine.py` and `v364_ml.py`; `study/snap/rw/rebuild.sh` rebuilds STUDY from the 3.6.3 page. `study/snap/rw/detect.py` is the weak-question detector.
+
 ## 3.6.3 (2026-11-05)
 
 ✍️ **"Why not" lines rewritten by hand, and STUDY cleaned up.** You found the old explanations lazy (the pilocarpine and sigmoid volvulus cards); every wrong option across all three banks now has a line written from its own stem.

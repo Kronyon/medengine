@@ -1,0 +1,955 @@
+## h0032 [leg] Q: Which drug is recommended for every patient with this condition?
+   * Atorvastatin 80 mg
+   - Cilostazol
+   - Naftidrofuryl
+   - Pentoxifylline
+   - Warfarin
+## h0033 [leg] Q: Which is the most likely diagnosis?
+   * Critical limb ischaemia
+   - Diabetic neuropathy
+   - Gout
+   - Plantar fasciitis
+   - Spinal stenosis
+## h0041 [leg] Q: Which is the most appropriate advice?
+   - Daily furosemide
+   - Keep the arm hanging down
+   - Regular sauna sessions
+   - Rest the arm in a sling
+   * Skin care and compression garments
+## h0043 [leg] Q: Which antibody is most likely to be positive?
+   * Anti-centromere
+   - Anti-dsDNA
+   - Anti-Jo-1
+   - Anti-Ro
+   - Anti-Scl-70
+## h0076 [derm] Q: Which is the most important next step?
+   - CT of the limb first
+   * Emergency surgical debridement
+   - Hyperbaric oxygen therapy
+   - IV immunoglobulin infusion
+   - Wait for blood cultures
+## h0088 [derm] Q: Which is the most appropriate way to check whether treatment has worked?
+   - Check the itch has settled
+   * Detection combing after treatment
+   - Look for eggs on the hair
+   - Recheck the scalp in 4 weeks
+   - Scalp swab for culture
+## h0105 [dm] Q: Which is the most appropriate change?
+   * Add 10% glucose and keep the insulin
+   - Give IV sodium bicarbonate
+   - Increase the saline rate
+   - Stop the insulin infusion
+   - Switch to subcutaneous insulin
+## h0119 [dm] Q: Which drug is most likely to have caused the rise in TSH?
+   - Amlodipine
+   * Ferrous sulfate
+   - Paracetamol
+   - Sertraline
+   - Simvastatin
+## h0123 [dm] Q: Which is the most appropriate first investigation?
+   - Calcitonin
+   - CT neck
+   - Radioisotope scan
+   - Thyroid antibodies
+   * Ultrasound of the neck
+## h0131 [haem] Q: Which is the most likely cause?
+   - Aniline dyes
+   - Cyclophosphamide
+   - Pelvic radiotherapy
+   * Schistosoma haematobium
+   - Smoking
+## h0144 [haem] Q: Which is the most important investigation?
+   - Blood cultures
+   - CT abdomen
+   * Scrotal ultrasound
+   - Urine culture
+   - Watch and wait
+## h0171 [ent] Q: Which is the most important diagnosis to exclude?
+   - Allergic rhinitis
+   - Foreign body
+   * Juvenile angiofibroma
+   - Nasal polyps
+   - Septal deviation
+## h0178 [ent] Q: What does this score suggest?
+   - Confirmed narcolepsy
+   * Excessive daytime sleepiness
+   - Normal daytime alertness
+   - Probable depression
+   - Severe chronic insomnia
+## h0181 [ent] Q: Which is the most likely diagnosis?
+   - Acute mastoiditis
+   - Acute otitis media
+   - Cholesteatoma
+   * Necrotising otitis externa
+   - Ramsay Hunt syndrome
+## h0213 [eye] Q: Which eye screening is most appropriate?
+   - Fundus photography
+   - MRI of the orbits
+   - Reassure
+   * Regular slit-lamp checks
+   - Yearly visual fields
+## h0218 [eye] Q: Which side effect is most likely?
+   - Bradycardia
+   - Bronchospasm
+   * Darkening of the iris
+   - Dry mouth
+   - Loss of eyelashes
+## h0220 [eye] Q: Which is the most likely diagnosis?
+   - Chalazion
+   - Conjunctivitis
+   - Orbital cellulitis
+   * Periorbital cellulitis
+   - Stye
+## h0222 [eye] Q: Which is the most likely complication?
+   - Acute glaucoma
+   - Bacterial meningitis
+   * Cavernous sinus thrombosis
+   - Frontal brain abscess
+   - Retinal detachment
+## h0240 [eye] Q: Which is the most likely diagnosis?
+   - Hyphaema
+   * Orbital floor fracture
+   - Retinal detachment
+   - Third nerve palsy
+   - Zygoma fracture
+## h0242 [giupset] Q: Which organism is most likely?
+   * Enterotoxigenic Escherichia coli
+   - Escherichia coli O157
+   - Salmonella enterica Typhi
+   - Shigella flexneri
+   - Vibrio cholerae
+## h0260 [giupset] Q: Which is the most appropriate management?
+   - High-dose PPI
+   * Laparoscopic hernia repair
+   - Prokinetic drug
+   - Weight loss and review
+   - Yearly barium swallow
+## h0262 [giupset] Q: Which is the most likely diagnosis?
+   - Achalasia
+   - Candida oesophagitis
+   * Eosinophilic oesophagitis
+   - Oesophageal web
+   - Peptic stricture
+## h0267 [giupset] Q: Which is the most appropriate next step?
+   - Barium meal in 3 months
+   - CT abdomen and pelvis
+   - Discharge to the GP
+   * Repeat endoscopy in 6 to 8 weeks
+   - Serology for H. pylori
+## h0279 [abdopr] Q: Which is the most appropriate advice?
+   - Biopsy the fissure base
+   - Repeat the injection sooner
+   - Sphincter damage that needs repair
+   - Start loperamide long term
+   * Usually temporary as the toxin wears off
+## h0301 [acuteabdo] Q: Which is the most appropriate first investigation?
+   * Abdominal ultrasound
+   - Abdominal X-ray
+   - CT angiography
+   - Echocardiogram
+   - MRI abdomen
+## h0380 [cough] Q: Which is the most appropriate management?
+   - Amoxicillin for 5 days
+   * Clarithromycin and notify public health
+   - No antibiotic as it is viral
+   - Oral prednisolone for 5 days
+   - Salbutamol inhaler as needed
+## h0409 [neuro] Q: Which is the most appropriate next step?
+   - Discharge with analgesia
+   - EEG
+   * Lumbar puncture for xanthochromia
+   - MRI of the cervical spine
+   - Repeat CT head in 1 week
+## h0504 [abdopr] Q: Which operation is most appropriate?
+   * Abdominoperineal resection
+   - Hartmann's procedure
+   - Left hemicolectomy
+   - Low anterior resection
+   - Sigmoid colectomy
+## h0570 [b:misidentification] Q: Which is the most important risk to assess?
+   - Alcohol misuse
+   - Self-neglect at home
+   - Stalking a famous person
+   - Suicide by overdose
+   * Violence towards his partner
+## h0595 [b:posturalbp] Q: What does this show?
+   - Hypertension
+   - Normal
+   * Orthostatic hypotension
+   - Vasovagal response
+   - White coat effect
+## h0600 [b:paintypes] Q: Which type of pain is this?
+   - Malingering
+   - Neuropathic pain
+   - Radicular pain
+   * Somatic referred pain
+   - Visceral pain
+## h0610 [b:versicolor] Q: Which is the most likely diagnosis?
+   - Pityriasis alba
+   - Pityriasis rosea
+   * Pityriasis versicolor
+   - Tinea corporis
+   - Vitiligo
+## h0614 [b:glomerulo] Q: Which result supports post-streptococcal glomerulonephritis?
+   - Anti-GBM antibodies
+   * Low C3 and raised ASO titre
+   - Low C4 and positive ANA
+   - Positive c-ANCA
+   - Raised serum IgA
+## h0635 [breast] Q: Which is the most likely diagnosis?
+   - Breast cyst
+   - Fibroadenoma
+   - Galactocele
+   - Lipoma
+   * Phyllodes tumour
+## h0636 [breast] Q: Which drug is most likely to be the cause?
+   - Aspirin
+   - Bisoprolol
+   - Furosemide
+   - Ramipril
+   * Spironolactone
+## h0655 [chest] Q: Which is the most appropriate next step?
+   * Ambulatory blood pressure monitoring
+   - Repeat clinic reading in 1 year
+   - Same-day specialist referral
+   - Start amlodipine today
+   - Start ramipril today
+## h0707 [d:mra] Q: Which is the most appropriate investigation?
+   * Aldosterone to renin ratio
+   - Cortisol at 9 am
+   - Plasma metanephrines
+   - Renal artery Doppler
+   - Thyroid function tests
+## h0711 [d:digoxin] Q: Which is the most appropriate treatment?
+   * Digoxin-specific antibody
+   - IV atropine
+   - IV calcium gluconate
+   - IV lidocaine
+   - IV magnesium sulfate
+## h0716 [d:statins] Q: Which is the most appropriate advice about her statin?
+   - Continue both as normal
+   - Halve the statin dose
+   * Stop simvastatin during the course
+   - Swap to fluvastatin long term
+   - Take them 12 hours apart
+## h0750 [d:penicillins] Q: Which is the most likely explanation?
+   - Anaphylaxis
+   - Contaminated injection
+   * Jarisch-Herxheimer reaction
+   - Penicillin allergy
+   - Sepsis
+## h0777 [d:cdiff] Q: Which result marks a C. difficile infection as severe?
+   - Creatinine unchanged
+   - Diarrhoea 3 times a day
+   - Positive toxin
+   - Temperature 37.6 °C
+   * White cell count 18 × 10⁹/L
+## h0805 [d:liverdrugs] Q: Which is the most appropriate first treatment?
+   - Azathioprine
+   - Colestyramine
+   - Obeticholic acid
+   - Prednisolone
+   * Ursodeoxycholic acid
+## h0820 [d:thyroiddrugs] Q: How should levothyroxine be taken?
+   - At bedtime with a glass of milk
+   * Before breakfast on an empty stomach
+   - Twice daily with meals
+   - With an iron tablet
+   - With breakfast and coffee
+## h0834 [d:pde5] Q: Which is the most appropriate first assessment?
+   * Cardiovascular risk assessment
+   - Penile Doppler ultrasound
+   - Prostate biopsy
+   - Psychosexual counselling
+   - Testicular ultrasound
+## h0838 [d:breasthormones] Q: Which is the most appropriate step?
+   - Continue and reassure
+   - Start combined HRT for symptoms
+   - Stop tamoxifen and review in a year
+   - Switch to letrozole and review
+   * Urgent referral for endometrial assessment
+## h0841 [d:chemo] Q: Which is the most appropriate step?
+   - Await the neutrophil count
+   - G-CSF injection
+   * IV piperacillin with tazobactam
+   - Oral co-amoxiclav at home
+   - Paracetamol and review
+## h0849 [d:aeds] Q: Which is required?
+   - Folic acid 400 micrograms
+   - No action as she is stable
+   * Pregnancy prevention programme
+   - Stop valproate
+   - Switch to carbamazepine
+## h0850 [d:benzodiazepines] Q: Which is the most appropriate approach?
+   - Admit for detoxification
+   - Halve the dose each week
+   - Stop it today
+   * Switch to diazepam and taper
+   - Switch to zopiclone
+## h0863 [d:neuropathic] Q: Which is the main danger?
+   - Gout
+   - Hypoglycaemia
+   - QT prolongation
+   * Respiratory depression
+   - Serotonin syndrome
+## h0865 [d:neuroacute] Q: Which drug should be given straight away?
+   * Dexamethasone 16 mg
+   - IV aciclovir
+   - Mannitol
+   - Morphine
+   - Zoledronic acid
+## h0893 [d:alcoholdrugs] Q: Which is the most likely result?
+   * Flushing and vomiting
+   - Hypoglycaemia
+   - No reaction
+   - Profound sedation
+   - Seizures
+## h0921 [d:acnedrugs] Q: Which is the main danger?
+   - Bone marrow failure
+   - Kidney stones
+   - QT prolongation
+   * Raised intracranial pressure
+   - Severe photosensitivity
+## h0927 [d:glaucomadrugs] Q: Which is the most likely cause?
+   * Acute angle-closure glaucoma
+   - Allergy to the drops
+   - Anterior uveitis
+   - Bacterial conjunctivitis
+   - Migraine with aura
+## h0928 [d:haematinics] Q: Which is the most appropriate advice?
+   * One tablet daily or alternate days
+   - Stop if stools turn black
+   - Take it with milk
+   - Take it with tea
+   - Three tablets a day for speed
+## h0930 [d:haematinics] Q: Which is the most appropriate hydroxocobalamin regimen?
+   * IM loading, then every 3 months
+   - IM once a year
+   - IM weekly for a year
+   - IV infusion every month
+   - Oral cyanocobalamin daily
+## h0950 [derm] Q: Which is the most appropriate next step?
+   - Add chlorphenamine at night
+   - Add montelukast
+   - Oral prednisolone course
+   - Start omalizumab injections
+   * Up to 4 times the cetirizine dose
+## h0951 [derm] Q: Which is the most likely cause?
+   * ACE inhibitor-induced angioedema
+   - Allergic contact dermatitis
+   - Anaphylaxis
+   - Chronic urticaria
+   - Hereditary angioedema
+## h0961 [derm] Q: Which is the most appropriate first treatment?
+   - Aciclovir cream
+   - Fusidic acid 2% cream
+   * Hydrogen peroxide 1% cream
+   - Mupirocin 2% ointment
+   - Oral flucloxacillin
+## h0975 [derm] Q: Which is the most appropriate first step?
+   - Amorolfine nail lacquer
+   - Nail avulsion
+   * Nail clippings for mycology
+   - Start oral itraconazole
+   - Start oral terbinafine
+## h0979 [derm] Q: Which is the most appropriate treatment?
+   * Dimeticone 4% lotion
+   - Malathion
+   - Oral ivermectin
+   - Permethrin
+   - Shave the head
+## h0986 [derm] Q: Which treatment is most appropriate?
+   - Adapalene
+   * Benzoyl peroxide
+   - Doxycycline
+   - Isotretinoin
+   - Lymecycline
+## h1005 [dm] Q: Which is the most likely diagnosis?
+   - Cellulitis
+   * Charcot neuroarthropathy
+   - Deep vein thrombosis
+   - Gout
+   - Osteomyelitis
+## h1019 [ent] Q: Which is the most appropriate treatment?
+   - Aciclovir
+   - Antibiotics
+   - No treatment
+   * Prednisolone, plus eye care
+   - Surgical decompression
+## h1031 [ent] Q: Which is the most likely explanation?
+   * Glandular fever with amoxicillin
+   - Measles
+   - Scarlet fever
+   - Stevens-Johnson syndrome
+   - True penicillin allergy
+## h1041 [ent] Q: Which is the most likely diagnosis?
+   - Acute mastoiditis
+   - Cholesteatoma
+   - Herpes zoster oticus
+   * Malignant otitis externa
+   - Otitis externa
+## h1046 [ent] Q: Which is the most appropriate first-choice antibiotic?
+   - Amoxicillin
+   - Ciprofloxacin
+   - Clarithromycin
+   - Co-amoxiclav
+   * Phenoxymethylpenicillin
+## h1049 [ent] Q: Which is the most appropriate antibiotic?
+   - Amoxicillin
+   - Clarithromycin
+   - Co-amoxiclav
+   - Flucloxacillin
+   * Phenoxymethylpenicillin
+## h1054 [ent] Q: Which is the most appropriate management?
+   * A single dose of oral dexamethasone
+   - Admit for nebulised adrenaline
+   - Inhaled salbutamol
+   - No treatment
+   - Oral amoxicillin
+## h1057 [eye] Q: Which feature most clearly means she needs same-day ophthalmology review?
+   - Bilateral redness
+   - Gritty feeling
+   - Itch
+   * Reduced visual acuity
+   - Watery discharge
+## h1063 [eye] Q: Which is the most appropriate treatment?
+   - Aciclovir ointment
+   * Chloramphenicol eye drops
+   - Oral amoxicillin
+   - Steroid eye drops
+   - Topical ciprofloxacin
+## h1076 [eye] Q: Which is the most appropriate first-line treatment?
+   - Acetazolamide tablets
+   - Laser peripheral iridotomy
+   - Latanoprost drops
+   * Selective laser trabeculoplasty
+   - Timolol drops
+## h1079 [eye] Q: Which investigation is most appropriate?
+   - Blood cultures
+   - Conjunctival swab
+   * Contrast CT orbits and sinuses
+   - Plain X-ray of the orbits
+   - Ultrasound of the globe
+## h1089 [eye] Q: Which type of cataract is she most likely to have?
+   - Congenital cataract
+   - Cortical cataract
+   - Mature white cataract
+   - Nuclear sclerotic cataract
+   * Posterior subcapsular cataract
+## h1113 [giupset] Q: Which is the most likely diagnosis?
+   - Bullous pemphigoid
+   * Dermatitis herpetiformis
+   - Eczema herpeticum
+   - Nodular scabies
+   - Plaque psoriasis
+## h1121 [giupset] Q: Which is the most appropriate management?
+   - Discharge from follow-up
+   - Endoscopy every 3 months
+   - Oesophagectomy
+   * PPI and interval surveillance
+   - Radiofrequency ablation
+## h1165 [leg] Q: Which is the most likely diagnosis?
+   - Baker's cyst
+   - Deep vein thrombosis
+   - Ganglion
+   - Lipoma
+   * Popliteal artery aneurysm
+## h1166 [leg] Q: Which further investigation is most important?
+   - Ankle-brachial pressure index
+   * Aorta and contralateral ultrasound
+   - Coronary angiogram
+   - CT head
+   - Echocardiogram
+## h1169 [leg] Q: Which is the most appropriate immediate management?
+   - Aspirin and outpatient review
+   - CT angiogram then discharge home
+   * IV heparin and urgent vascular review
+   - Primary amputation
+   - Ward thrombolysis
+## h1170 [leg] Q: Which is the most appropriate management?
+   - Analgesia and elevation
+   - Compression bandage
+   * Four-compartment fasciotomy
+   - Heparin infusion
+   - Repeat embolectomy
+## h1171 [leg] Q: Which is the most appropriate first-line management?
+   - Angioplasty and stenting
+   - Cilostazol
+   - Femoropopliteal bypass
+   - Naftidrofuryl
+   * Supervised exercise programme
+## h1175 [leg] Q: Which is the most appropriate treatment?
+   * Multilayer compression
+   - Oral antibiotics
+   - Split-skin graft
+   - Topical steroid
+   - Vascular bypass
+## h1183 [leg] Q: Which is the most appropriate drug?
+   - Atenolol
+   - Iloprost infusion
+   - Low-dose aspirin
+   * Modified-release nifedipine
+   - Sildenafil
+## h1184 [leg] Q: Which is the most likely diagnosis?
+   - Dermatomyositis
+   - Diffuse systemic sclerosis
+   * Limited cutaneous systemic sclerosis
+   - Mixed connective tissue disease
+   - Systemic lupus erythematosus
+## h1255 [neuro] Q: What do these signs show?
+   - Autonomic dysreflexia
+   - Haemorrhagic shock
+   - Neurogenic shock
+   * Raised intracranial pressure
+   - Vasovagal response
+## h1281 [neuro] Q: Which measure is most important to monitor her breathing?
+   - Arterial gas
+   - ECG
+   * Forced vital capacity
+   - Oxygen saturation
+   - Peak flow
+## h1298 [sob] Q: Which is the most appropriate next step?
+   - Blood transfusion
+   - Coeliac serology
+   - IV iron
+   - Oral iron and review
+   * Suspected cancer referral
+## h1309 [sob] Q: Which is the most appropriate drug to give?
+   - Azithromycin
+   * Dexamethasone 6 mg daily
+   - Hydroxychloroquine
+   - Ivermectin
+   - Oseltamivir
+## h1326 [x:tumourmarkers] Q: Which is the most likely cause?
+   - Cholangiocarcinoma
+   - Gallstones
+   * Hepatocellular carcinoma
+   - Pancreatic cancer
+   - Testicular seminoma
+## h1347 [x:mriuse] Q: Which test is most sensitive for multiple sclerosis lesions?
+   - CT head with contrast
+   - Lumbar puncture
+   * MRI brain and spine with gadolinium
+   - Nerve conduction studies
+   - Visual evoked potentials
+## h1349 [x:ultrasound] Q: Which is the first-line imaging for suspected gallstones?
+   * Abdominal ultrasound
+   - CT abdomen
+   - ERCP
+   - HIDA scan
+   - MRCP
+## h1353 [x:upperscope] Q: Which step is essential?
+   * Biopsies to exclude cancer
+   - Dilation
+   - Immediate surgery
+   - PPI and discharge
+   - Repeat scope in a year
+## h1354 [x:lowerscope] Q: Who is invited for NHS bowel cancer screening in England?
+   * Aged 50 to 74, every 2 years
+   - Aged 55, a single scope
+   - Aged 60 to 70, once
+   - Everyone over 40 yearly
+   - Family history
+## h1371 [x:echo] Q: Which is the most likely diagnosis?
+   - Aortic stenosis
+   - Athlete's heart
+   - Dilated cardiomyopathy
+   * Hypertrophic cardiomyopathy
+   - Myocarditis
+## h1379 [x:eartests] Q: Which is the most likely cause?
+   - Ménière's disease
+   * Noise-induced hearing loss
+   - Otosclerosis
+   - Presbycusis
+   - Vestibular schwannoma
+## h1387 [x:psychscales] Q: What does this suggest?
+   - Binge drinking pattern
+   - Harmful drinking
+   - Hazardous drinking
+   - Low-risk drinking
+   * Possible alcohol dependence
+## h1391 [x:cardioversion] Q: What must happen before elective cardioversion?
+   * 3 weeks of anticoagulation
+   - Aspirin for 1 week
+   - Cardiovert today
+   - Digoxin loading first
+   - Exercise stress test
+## h1394 [x:pacing] Q: Which device is most appropriate?
+   * Cardiac resynchronisation therapy
+   - Dual-chamber pacemaker
+   - Implantable loop recorder
+   - Single-chamber pacemaker
+   - Subcutaneous ICD
+## h1395 [x:pacing] Q: Which is the most appropriate advice?
+   * Contact the device clinic
+   - Device removal
+   - Go to ED by ambulance
+   - No action needed
+   - Stop driving
+## h1398 [x:pcicabg] Q: Which coronary artery is this graft usually joined to?
+   - Circumflex
+   * Left anterior descending
+   - Left main stem
+   - Posterior descending
+   - Right coronary
+## h1413 [x:pleuralproc] Q: Which is the most appropriate definitive treatment?
+   - Another chest drain
+   - Antibiotics
+   - Long-term oxygen
+   * VATS pleurectomy or pleurodesis
+   - Watch and wait with X-rays
+## h1416 [x:airway] Q: Which is the first step?
+   - Cut the tube
+   - Intubate orally
+   - Nebulised salbutamol
+   * Remove the inner cannula
+   - Sedate the patient
+## h1417 [x:cholelap] Q: Which is the most appropriate treatment?
+   - Analgesia when needed
+   - ERCP
+   * Laparoscopic cholecystectomy
+   - Shockwave lithotripsy
+   - Ursodeoxycholic acid
+## h1422 [x:bowelops] Q: Which is the most appropriate management?
+   - Drink more water and juice
+   - Nil by mouth
+   - Oral antibiotics
+   * Oral rehydration and loperamide
+   - Reverse the stoma
+## h1425 [x:herniarepair] Q: Which is the most likely cause?
+   - Femoral DVT
+   * Ilioinguinal nerve injury
+   - Mesh infection
+   - Recurrence
+   - Testicular ischaemia
+## h1431 [x:uroproc] Q: Which is the most appropriate treatment?
+   - Continue tamsulosin
+   - Nephrectomy
+   - Open surgery
+   - Percutaneous nephrolithotomy
+   * Ureteroscopy or shockwave lithotripsy
+## h1432 [x:breastops] Q: How is the axilla assessed?
+   - Axillary clearance
+   - Axillary radiotherapy
+   - No assessment
+   - PET scan
+   * Sentinel lymph node biopsy
+## h1433 [x:breastops] Q: Which treatment is usually added?
+   - Chemotherapy
+   - Completion mastectomy
+   * Radiotherapy to the breast
+   - Surveillance
+   - Tamoxifen
+## h1446 [x:eyeops] Q: Which is the most important advice?
+   - Avoid reading and screens
+   - He can fly after a week
+   * No flying until the gas has gone
+   - Sleep flat on his back
+   - Swim to aid recovery
+## h1450 [x:therapies] Q: Which therapy is first-line?
+   * CBT or behavioural activation
+   - Counselling for 2 years
+   - Hypnotherapy
+   - Interpersonal therapy
+   - Psychoanalysis
+## h1452 [x:therapies] Q: Which therapy is designed for this?
+   - Behavioural activation
+   * Dialectical behaviour therapy
+   - ERP
+   - Graded exposure
+   - Systemic family therapy
+## h1459 [x:dialysis] Q: Which is an indication for emergency dialysis in AKI?
+   - Creatinine of 300
+   - Mild ankle swelling
+   - Output of 1 litre a day
+   * Refractory potassium of 7.2
+   - Urea of 15
+## h1460 [x:dialysis] Q: Which is the first drug to give?
+   - Calcium resonium
+   - Furosemide
+   - Insulin and glucose
+   * IV calcium gluconate 10%
+   - Salbutamol nebuliser
+## h1465 [x:oncoemergency] Q: Which is the most likely diagnosis?
+   - Cardiac tamponade
+   - Constrictive pericarditis
+   - Heart failure
+   - Pulmonary embolism
+   * Superior vena cava obstruction
+## h1466 [x:oncoemergency] Q: Which is the most appropriate first treatment?
+   - IV furosemide
+   * IV saline, then zoledronic acid
+   - Oral alendronate
+   - Prednisolone
+   - Subcutaneous calcitonin
+## h1476 [sob] Q: Which is the most important additional monitoring?
+   * Capillary glucose before meals
+   - Daily ECG
+   - Daily serum potassium
+   - Twice-daily blood cultures
+   - Weekly HbA1c
+## h1482 [giupset] Q: Which is the most appropriate treatment for his steatorrhoea?
+   - Cholestyramine
+   - Loperamide
+   - Low-fat diet
+   * Pancreatic enzymes with meals
+   - Proton pump inhibitor
+## h1483 [giupset] Q: Which is the most likely diagnosis?
+   - Coeliac disease
+   - Crohn's disease
+   - Endometriosis
+   * Irritable bowel syndrome
+   - Ovarian cancer
+## h1487 [giupset] Q: Which is the most appropriate next investigation?
+   - Barium swallow
+   * CT chest and abdomen with contrast
+   - Oesophageal manometry
+   - Plain abdominal X-ray
+   - Upper GI endoscopy first
+## h1490 [abdopr] Q: Which is the most appropriate management?
+   * Incision and drainage under anaesthetic
+   - MRI pelvis before any surgery
+   - Oral co-amoxiclav for 7 days
+   - Seton insertion
+   - Topical diltiazem
+## h1502 [acuteabdo] Q: Which result best shows the obstruction?
+   * ALP 520 with bilirubin 86
+   - ALT 140
+   - Amylase 240
+   - Normal albumin
+   - White cell count 17.6
+## h1512 [breast] Q: Which is the most appropriate treatment?
+   - Adjuvant breast radiotherapy
+   - Enucleation of the lump
+   - Tamoxifen for 5 years
+   - Watch and rescan in 6 months
+   * Wide local excision with clear margins
+## h1513 [breast] Q: Which is the most likely diagnosis?
+   - Direct inguinal hernia
+   - Inguinal lymph node
+   - Psoas abscess
+   - Saphena varix
+   * Strangulated femoral hernia
+## h1515 [breast] Q: Which is the most appropriate management?
+   - Emergency repair
+   - Fit a truss and discharge
+   - Ultrasound every 6 months
+   - Urgent CT abdomen
+   * Watchful waiting or elective repair
+## h1516 [leg] Q: Which is the most likely diagnosis?
+   - Baker's cyst
+   - Deep vein thrombosis
+   - Lipoma
+   * Popliteal artery aneurysm
+   - Sarcoma
+## h1517 [leg] Q: Which other investigation is most important?
+   - Carotid artery duplex
+   - Lower limb venous duplex
+   - Renal tract ultrasound
+   - Transthoracic echocardiogram
+   * Ultrasound of the abdominal aorta
+## h1530 [dm] Q: Which is the most likely cause?
+   - Amlodipine
+   - Atorvastatin
+   * Calcium carbonate
+   - Paracetamol
+   - Sertraline
+## h1578 [derm] Q: Which is the most appropriate treatment?
+   - Compression bandaging
+   - Oral flucloxacillin
+   * Potent topical or oral steroid
+   - Skin graft
+   - Surgical debridement
+## h1584 [derm] Q: Which is the most appropriate first treatment?
+   * Ketoconazole shampoo as a wash
+   - Oral flucloxacillin
+   - Oral isotretinoin
+   - Topical clindamycin
+   - Topical steroid
+## h1587 [derm] Q: Which is the most appropriate next step?
+   - CT of the thigh first
+   * Emergency surgical debridement
+   - Hyperbaric oxygen
+   - MRI of the thigh first
+   - Wait for blood cultures
+## h1589 [derm] Q: Which is the most appropriate next step?
+   * Nail clippings for microscopy and culture
+   - Oral itraconazole
+   - Oral terbinafine for 3 months
+   - Remove the nails
+   - Topical amorolfine for 6 months
+## h1590 [derm] Q: Which is the most appropriate treatment?
+   - Oral fluconazole
+   - Oral griseofulvin
+   - Oral itraconazole
+   - Oral terbinafine
+   * Topical amorolfine lacquer
+## h1595 [derm] Q: When should she be combed to confirm cure?
+   - Day 1
+   - Day 3
+   - Day 7
+   * Day 9 to 15
+   - Day 30
+## h1613 [eye] Q: Which is the most appropriate first treatment?
+   - Chloramphenicol drops
+   - Oral doxycycline
+   - Steroid drops
+   - Surgery
+   * Warm compresses and lid hygiene
+## h1620 [eye] Q: Which is the most appropriate treatment?
+   - Chloramphenicol drops
+   - Oral doxycycline
+   - Pilocarpine drops
+   * Steroid and dilating drops
+   - Timolol drops
+## h1622 [eye] Q: Which is the most appropriate imaging?
+   * CT of orbits and sinuses with contrast
+   - Imaging if no better in 48 hours
+   - MRI of the brain
+   - Plain X-ray of the sinuses
+   - Ultrasound of the orbit
+## h1623 [eye] Q: Which is the most likely complication?
+   - Acute glaucoma
+   - Bacterial meningitis
+   * Cavernous sinus thrombosis
+   - Frontal brain abscess
+   - Retinal detachment
+## h1630 [eye] Q: Which is the most appropriate first step?
+   - Check visual acuity first
+   - Fluorescein staining
+   * Immediate irrigation with saline
+   - Refer to eye casualty
+   - Test the pH first
+## h1641 [sob] Q: Which is the most likely diagnosis?
+   * Autoimmune haemolytic anaemia
+   - B12 deficiency
+   - G6PD deficiency
+   - Gilbert's syndrome
+   - Hereditary spherocytosis
+## h1643 [chest] Q: Which is the most appropriate immediate drug?
+   - Adenosine
+   - IV amiodarone
+   - IV atropine
+   * IV magnesium sulfate
+   - Oral flecainide
+## h1649 [dm] Q: Which is the most likely reason his HbA1c does not match his readings?
+   - Iron deficiency
+   - Laboratory error
+   - Poor meter technique
+   * Shortened red cell lifespan
+   - Very good control
+## h1651 [dm] Q: Which is the most appropriate treatment?
+   - Carbimazole
+   - Levothyroxine
+   * NSAID and a beta-blocker
+   - Radioactive iodine
+   - Thyroidectomy
+## h1667 [neuro] Q: What do these results show?
+   - Bacterial meningitis
+   - Normal
+   * Subarachnoid haemorrhage
+   - Traumatic tap
+   - Viral meningitis
+## h1672 [joint] Q: Which underlying condition explains her results?
+   - Gout
+   - Haemochromatosis
+   * Primary hyperparathyroidism
+   - Rheumatoid arthritis
+   - Septic arthritis
+## h1685 [neuro] Q: What does this combination of signs mean?
+   - Autonomic dysreflexia
+   - Beta-blocker overdose
+   - Hypertensive emergency
+   * Impending brain herniation
+   - Sepsis
+## h1688 [neuro] Q: Which is the most likely diagnosis?
+   * Charcot-Marie-Tooth disease
+   - Diabetic neuropathy
+   - Friedreich's ataxia
+   - Guillain-Barré syndrome
+   - Multiple sclerosis
+## h1695 [haem] Q: Which is the most likely mechanism of his stones?
+   - Excess calcium absorption from the gut
+   * Fat binds calcium so more oxalate is absorbed
+   - High urine pH from bicarbonate loss
+   - Infection with urease-making bacteria
+   - Too much uric acid in the urine
+## h1697 [joint] Q: Which X-ray finding is most typical of his likely diagnosis?
+   - Chondrocalcinosis of the menisci
+   * Narrowed joint space with osteophytes
+   - Pencil-in-cup deformity
+   - Periarticular erosions
+   - Periarticular osteopenia
+## h1705 [ent] Q: Which is the most appropriate management?
+   - IV antibiotics
+   - Nebulised adrenaline
+   - Oral dexamethasone
+   * Reassure and monitor growth
+   - Urgent tracheostomy
+## h1744 [dm] Q: What is the most appropriate immediate step regarding insulin and potassium therapy?
+   - Start fixed-rate intravenous insulin infusion at 0.1 units/kg/hour immediately without potassium
+   - Start fixed-rate intravenous insulin infusion and give intravenous sodium bicarbonate 8.4%
+   - Give subcutaneous glargine only and delay intravenous insulin until pH > 7.30
+   * Withhold the intravenous insulin infusion temporarily while giving potassium replacement until serum K+ is > 3.5 mmol/L
+   - Start 10% glucose infusion immediately at 125 mL/hour
+## h1746 [ent] Q: Occlusion of which blood vessel is the classic cause of this brainstem syndrome?
+   - Anterior inferior cerebellar artery (AICA)
+   - Anterior spinal artery (medial medullary branches)
+   - Basilar artery paramedian pontine branches
+   - Posterior cerebral artery (midbrain perforators)
+   * Posterior inferior cerebellar artery (PICA) / intracranial vertebral artery
+## h1749 [b:outside] Q: What is the most appropriate immediate antidote to administer alongside stopping the magnesium sulphate infusion?
+   * Intravenous calcium gluconate 10% (10 mL over 10 minutes)
+   - Intravenous diazepam 10 mg slow bolus
+   - Intravenous flumazenil 200 micrograms
+   - Intravenous lipid emulsion (Intralipid) 20%
+   - Intravenous naloxone 400 micrograms
+## h1785 [haem] Q: Which is the most likely histological type?
+   - Adenocarcinoma
+   - Renal cell carcinoma
+   - Small cell carcinoma
+   - Squamous cell carcinoma
+   * Transitional cell carcinoma
+## h1826 [dm] Q: Which is the most appropriate next investigation?
+   - CT of neck and chest
+   - Radioisotope thyroid uptake scan
+   - Serum calcitonin
+   - Thyroid peroxidase antibodies
+   * Ultrasound-guided fine needle aspiration
+## h1842 [mh] Q: Which is the most likely diagnosis?
+   * Attention deficit hyperactivity disorder
+   - Autism spectrum disorder
+   - Childhood absence epilepsy
+   - Hearing impairment
+   - Oppositional defiant disorder
+## h1846 [x:mca] Q: Which is the most appropriate way to proceed?
+   - Apply to the Court of Protection for a decision
+   - Ask his mother to sign the consent form
+   * Make a best interests decision with his mother and the team
+   - Treat him under the Mental Health Act
+   - Wait until he can consent for himself
+## h1847 [abdopr] Q: Which is the most appropriate first step?
+   - Bisacodyl tablets
+   * Increase dietary fibre and fluid intake
+   - Lactulose
+   - Macrogol sachets
+   - Refer for flexible sigmoidoscopy
+## h1849 [cough] Q: Which investigation is most likely to confirm the diagnosis?
+   - Bronchoscopy with lavage
+   - CT chest
+   - Interferon gamma release assay
+   - Mantoux test
+   * Sputum smear microscopy and culture
+## h1850 [joint] Q: Which is the most likely diagnosis?
+   * Acromioclavicular joint osteoarthritis
+   - Adhesive capsulitis
+   - Cervical radiculopathy
+   - Glenohumeral osteoarthritis
+   - Rotator cuff tendinopathy
+## h1855 [haem] Q: Which is the most likely diagnosis?
+   - Benign prostatic hyperplasia
+   - Bladder cancer
+   - Multiple myeloma
+   * Prostate cancer with bone metastases
+   - Spinal tuberculosis
+stand-outs 159 longest-correct 559 30.9 %

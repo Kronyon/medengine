@@ -1,0 +1,879 @@
+## h0289 [] Appendicitis
+A 7 year old boy has had central abdominal pain for 1 day. He had a sore throat 2 days ago. He has not vomited.
+Temperature 39.0°C, pulse rate 118 bpm. There is cervical lymphadenopathy. There is mild central tenderness that moves when he lies on his left side. There is no guarding and Rovsing's sign is negative.
+Q: Which is the most likely diagnosis?
+  - Acute appendicitis
+  - Intussusception
+  - Meckel's diverticulitis
+  * Mesenteric adenitis
+  - Urinary infection
+## h0290 [] Appendicitis
+A 66 year old man has had right iliac fossa pain for 2 days with nausea. He has noticed his bowel habit change over the last few weeks.
+Temperature 37.9°C, pulse rate 96 bpm. There is tenderness and guarding in the right iliac fossa.
+LAB White cell count 14.2 × 10⁹/L 3.8–10.0; CRP 86 mg/L <5
+Q: Which imaging is most appropriate?
+  - Abdominal X-ray
+  * CT abdomen and pelvis
+  - Diagnostic laparoscopy first
+  - No imaging needed
+  - Transabdominal ultrasound
+## h0291 [] Appendicitis
+A 26 year old woman had a laparoscopic appendicectomy for a perforated appendix 5 days ago. She now has a swinging fever, loose stools with mucus and a feeling of pressure in her rectum.
+Temperature 38.6°C, pulse rate 104 bpm. The abdomen is soft. Digital rectal examination shows a tender, boggy fullness anteriorly.
+Q: Which is the most likely complication?
+  - Adhesional obstruction
+  - C. difficile colitis
+  - Paralytic ileus
+  * Pelvic abscess
+  - Wound infection
+## h0292 [mix] Gallstones, biliary colic & cholecystitis
+A 19 year old man with sickle cell disease has had episodes of right upper quadrant pain after meals for 2 months.
+He is mildly jaundiced. Ultrasound shows several small gallstones in the gallbladder with no duct dilatation.
+Bilirubin 48 µmol/L (<17), mostly unconjugated. ALT 28 IU/L (10–50).
+Q: Which type of stone is most likely?
+  - Calcium oxalate stones
+  - Cholesterol stones
+  - Mixed stones
+  * Pigment stones
+  - Urate stones
+## h0293 [] Gallstones, biliary colic & cholecystitis
+A 64 year old woman has had painless jaundice and itch for 2 weeks with pale stools and dark urine. She drinks 6 units of alcohol a week and takes no new medicines.
+She is jaundiced. The abdomen is soft and non-tender.
+LAB ALP 450 IU/L 25–115; GGT 380 IU/L 9–40; ALT 60 IU/L 10–50; Bilirubin 80 µmol/L <17
+Q: Which is the most appropriate next investigation?
+  * Abdominal ultrasound
+  - ERCP
+  - Liver biopsy
+  - Paracetamol level
+  - Viral hepatitis serology
+## h0294 [] Gallstones, biliary colic & cholecystitis
+A 70 year old man is on the intensive care unit 8 days after an emergency aortic aneurysm repair. He is ventilated and on parenteral nutrition. He has developed a new fever.
+Temperature 38.8°C, pulse rate 112 bpm. There is tenderness in the right upper quadrant.
+Ultrasound shows a distended gallbladder with a thickened wall and pericholecystic fluid. There are no gallstones and the bile ducts are not dilated.
+Q: Which is the most likely diagnosis?
+  * Acalculous cholecystitis
+  - Ascending cholangitis
+  - Biliary colic
+  - Gallbladder cancer
+  - Liver abscess
+## h0295 [len,mix] Acute cholangitis
+A 72 year old woman has had right upper quadrant pain, fever and rigors for 1 day. Her family have noticed she is yellow.
+Temperature 39.2°C, pulse rate 112 bpm, BP 104/62 mmHg. She is jaundiced with right upper quadrant tenderness.
+LAB White cell count 18 × 10⁹/L 3.8–10.0; Bilirubin 86 µmol/L <17; ALP 410 IU/L 25–115
+Q: Which is the most appropriate first imaging?
+  * Abdominal ultrasound
+  - CT abdomen
+  - Diagnostic ERCP
+  - HIDA scan
+  - MRCP
+## h0296 [] Acute cholangitis
+A 68 year old man has fever, right upper quadrant pain and jaundice. Ultrasound shows a dilated common bile duct with a stone. A diagnosis of ascending cholangitis is made and ERCP is being arranged. Blood cultures have been taken. He has no drug allergies.
+Temperature 38.9°C, pulse rate 108 bpm, BP 110/66 mmHg.
+Q: Which empirical antibiotic is most appropriate?
+  - Clarithromycin with doxycycline
+  - IV flucloxacillin
+  - IV vancomycin
+  - Oral amoxicillin
+  * Piperacillin with tazobactam
+## h0297 [] Acute cholangitis
+A 52 year old man with ulcerative colitis and primary sclerosing cholangitis has had worsening jaundice, itch and weight loss of 6 kg over 2 months. He has no fever.
+He is jaundiced and thin. There is no palpable gallbladder.
+MRCP shows a dominant stricture at the confluence of the hepatic ducts at the liver hilum. CA 19-9 is raised.
+Q: Which is the most likely diagnosis?
+  - Ascending cholangitis
+  * Cholangiocarcinoma
+  - Gallbladder cancer
+  - Hepatocellular carcinoma
+  - Mirizzi syndrome
+## h0298 [] Acute pancreatitis
+A 48 year old woman has had severe epigastric pain radiating to her back for 1 day with vomiting. She does not drink alcohol and takes no regular medicines.
+Pulse rate 102 bpm, BP 128/78 mmHg. There is epigastric tenderness.
+Amylase is raised to 10 times normal. Ultrasound shows no gallstones and a normal bile duct. Triglycerides are normal. Her calcium is 3.0 mmol/L (2.2–2.6).
+Q: Which is the most likely cause?
+  - Alcohol
+  - Drug-induced
+  - Gallstones
+  * Hypercalcaemia
+  - Hypertriglyceridaemia
+## h0299 [] Acute pancreatitis
+A 46 year old man had acute alcohol-related pancreatitis 5 weeks ago. He now feels full quickly when eating and has a dull epigastric ache.
+There is a smooth, non-tender epigastric mass. He is afebrile.
+CT shows a 7 cm round fluid collection next to the pancreas with a thick, well-defined wall and no solid debris.
+Q: Which is the most likely diagnosis?
+  - Pancreatic abscess
+  - Pancreatic cancer
+  * Pancreatic pseudocyst
+  - Peripancreatic fluid collection
+  - Splenic artery aneurysm
+## h0300 [len,mix] Acute pancreatitis
+A 44 year old woman has recovered from an episode of mild acute pancreatitis caused by gallstones. Her pain has settled, she is eating normally and her blood tests are improving. She is otherwise fit.
+Q: Which is the most appropriate definitive management?
+  - Cholecystectomy after 6 months
+  * Cholecystectomy in the same admission
+  - Long-term ursodeoxycholic acid
+  - Low-fat diet and discharge
+  - Routine ERCP and sphincterotomy
+## h0301 [len] Aortic aneurysm
+A 70 year old man attends for a routine review of his hypertension. He has no abdominal or back pain. He is an ex-smoker with 40 pack-years.
+BP 142/84 mmHg, pulse rate 72 bpm. There is a pulsatile, expansile mass above the umbilicus that is not tender. Femoral and foot pulses are present.
+Q: Which is the most appropriate first investigation?
+  * Abdominal ultrasound
+  - Abdominal X-ray
+  - CT angiography
+  - Echocardiogram
+  - MRI abdomen
+## h0302 [mix,frame] Aortic aneurysm
+A 72 year old man has a 4 cm abdominal aortic aneurysm found on screening and is on yearly ultrasound surveillance. He smokes 20 cigarettes a day and takes amlodipine, atorvastatin and aspirin.
+BP 134/80 mmHg. He asks what he can do to stop the aneurysm getting bigger.
+Q: Which measure most reduces aneurysm growth?
+  - Beta-blocker
+  - Doxycycline
+  - Low-salt diet
+  * Stopping smoking
+  - Warfarin
+## h0303 [] Aortic aneurysm
+A 74 year old man had an open repair of an abdominal aortic aneurysm with a Dacron graft 2 years ago. Last week he had a small episode of vomiting blood that stopped. Today he vomited a large amount of blood and passed black stools.
+Pulse rate 126 bpm, BP 88/50 mmHg. There is a healed midline laparotomy scar. He takes no anti-inflammatory drugs and drinks little alcohol.
+Q: Which is the most likely diagnosis?
+  - Angiodysplasia
+  * Aortoenteric fistula
+  - Mallory-Weiss tear
+  - Oesophageal varices
+  - Peptic ulcer
+## h0304 [] GI perforation & peritonitis
+A 56 year old man vomited forcefully several times after a heavy night of drinking. He then developed severe central chest and upper abdominal pain that is worse on swallowing.
+Temperature 38.0°C, pulse rate 118 bpm, BP 104/66 mmHg, respiratory rate 26 breaths per minute. There is crackling under the skin of the neck on palpation. ECG shows sinus tachycardia only.
+Q: Which is the most likely diagnosis?
+  - Acute pancreatitis
+  * Boerhaave syndrome
+  - Mallory-Weiss tear
+  - Myocardial infarction
+  - Perforated duodenal ulcer
+## h0305 [len,mix] GI perforation & peritonitis
+A 64 year old man has had sudden severe epigastric pain for 6 hours, now spreading across his whole abdomen. He takes naproxen for arthritis. He is otherwise fit.
+Pulse rate 112 bpm, BP 118/72 mmHg. The abdomen is rigid with generalised tenderness and absent bowel sounds.
+An erect chest X-ray shows free gas under the diaphragm, and CT confirms a perforated duodenal ulcer.
+Q: Which is the most appropriate definitive treatment?
+  - Conservative care with NG tube
+  - Distal partial gastrectomy
+  - Endoscopic clipping of the ulcer
+  * Laparoscopic washout and omental patch
+  - Truncal vagotomy and pyloroplasty
+## h0306 [len,mix] GI perforation & peritonitis
+A 56 year old woman on peritoneal dialysis for diabetic kidney disease has had abdominal pain for 1 day. Her drained dialysis fluid has become cloudy.
+Temperature 37.9°C, pulse rate 96 bpm, BP 136/82 mmHg. There is mild generalised abdominal tenderness. The catheter exit site is clean.
+The effluent white cell count is 300 per mm³, mostly neutrophils.
+Q: Which is the most appropriate management?
+  * Intraperitoneal antibiotics
+  - Laparotomy
+  - Oral antibiotics
+  - Remove the catheter
+  - Switch to haemodialysis
+## h0307 [] Sepsis
+A 72 year old woman has had a productive cough and fever for 3 days. Chest X-ray shows right lower lobe consolidation. She has been given her first dose of intravenous antibiotics.
+Temperature 38.9°C, pulse rate 118 bpm, BP 96/60 mmHg, respiratory rate 26 breaths per minute, SpO2 94% breathing air. Her peripheries are cool.
+Lactate 4.6 mmol/L (<2.0).
+Q: Which is the most appropriate immediate step besides antibiotics?
+  - Await repeat lactate
+  - Dobutamine infusion
+  - Encourage oral fluids
+  * IV fluid bolus of 500 ml
+  - Noradrenaline infusion
+## h0308 [] Sepsis
+A 19 year old woman has had a high fever, vomiting and diarrhoea for 12 hours. She feels faint. She is on day 4 of her period and uses tampons.
+Temperature 39.6°C, pulse rate 132 bpm, BP 84/48 mmHg. There is a widespread red rash like sunburn and her conjunctivae are red. There is no neck stiffness and the rash blanches.
+Q: Which is the most likely diagnosis?
+  - Kawasaki disease
+  - Meningococcal sepsis
+  - Scarlet fever
+  - Stevens-Johnson syndrome
+  * Toxic shock syndrome
+## h0309 [mix,frame] Sepsis
+A 28 year old man had a splenectomy after a motorcycle crash 2 weeks ago and is recovering well. He is due to go home and asks what he needs to do to stay well in the future.
+Q: Which is the most appropriate long-term measure?
+  - Annual full blood count
+  - Long-term low-dose aspirin
+  - Monthly IV immunoglobulin
+  * Vaccines and daily penicillin V
+  - Yearly abdominal ultrasound
+## h0310 [] Pelvic inflammatory disease
+A 24 year old woman was diagnosed with pelvic inflammatory disease 3 days ago and started oral ofloxacin and metronidazole. She has taken them as directed but her pain has worsened and she still has a fever.
+Temperature 38.8°C, pulse rate 108 bpm. There is marked left adnexal tenderness. Pregnancy test is negative.
+Transvaginal ultrasound shows a 5 cm complex left adnexal mass.
+Q: Which is the most likely diagnosis?
+  - Ectopic pregnancy
+  - Endometrioma
+  - Ovarian torsion
+  - Ruptured ovarian cyst
+  * Tubo-ovarian abscess
+## h0311 [mix] Pelvic inflammatory disease
+A 30 year old woman with a copper intrauterine device has had lower abdominal pain and deep dyspareunia for 4 days. She is well otherwise.
+Temperature 37.4°C. There is mild bilateral adnexal tenderness and cervical motion tenderness. Pregnancy test is negative. She is diagnosed with mild pelvic inflammatory disease and starts antibiotics. She wants to keep the device.
+Q: Which is the most appropriate advice about the device?
+  * Leave it in and review in 72 hours
+  - Remove it after treatment
+  - Remove it today
+  - Remove it with emergency pills
+  - Replace it with a hormonal coil
+## h0312 [mix] Pelvic inflammatory disease
+A 22 year old woman has had lower abdominal pain and deep dyspareunia for 1 week with an abnormal vaginal discharge. She has a new sexual partner.
+Temperature 37.6°C. There is cervical motion tenderness and bilateral adnexal tenderness. Pregnancy test is negative.
+Q: Which test is most important to find the cause?
+  - Blood cultures
+  * Chlamydia and gonorrhoea NAAT
+  - Midstream urine culture
+  - Serum CA-125 level
+  - Transvaginal ultrasound scan
+## h0313 [] Intestinal obstruction & volvulus
+A 76 year old man has not passed stool or wind for 3 days and his abdomen has become distended. For 3 months his bowel habit has changed and he has lost 6 kg.
+Pulse rate 98 bpm. The abdomen is distended and tympanic with mild tenderness. Hernial orifices are normal and the rectum is empty.
+LAB Haemoglobin 98 g/L 130–175; MCV 72 fL 80–96
+Q: Which is the most likely cause?
+  - Adhesions
+  * Colorectal cancer
+  - Faecal impaction
+  - Sigmoid volvulus
+  - Strangulated hernia
+## h0314 [mix] Intestinal obstruction & volvulus
+A 64 year old woman has had colicky abdominal pain and vomiting for 1 day. She had a hysterectomy 10 years ago. She has not opened her bowels since yesterday.
+Temperature 36.9°C, pulse rate 92 bpm, BP 132/80 mmHg. The abdomen is distended with a lower midline scar and mild generalised tenderness, but no guarding or rebound. Hernial orifices are normal.
+CT shows small bowel obstruction with a transition point and no signs of ischaemia.
+Q: Which is the most appropriate initial management?
+  - Colonoscopy
+  - Discharge with review
+  - Emergency laparotomy
+  * NG tube and IV fluids
+  - Oral laxatives
+## h0315 [] Intestinal obstruction & volvulus
+An 84 year old man had surgery for a hip fracture 3 days ago. His abdomen has become hugely distended and he has not opened his bowels. He takes regular morphine and has hypokalaemia.
+Pulse rate 92 bpm. The abdomen is grossly distended, tympanic and non-tender, with tinkling bowel sounds.
+CT shows a dilated colon, with the caecum measuring 9 cm, and no mechanical obstruction.
+Q: Which is the most likely diagnosis?
+  * Colonic pseudo-obstruction
+  - Obstructing colon cancer
+  - Postoperative small bowel ileus
+  - Sigmoid volvulus
+  - Toxic megacolon
+## h0316 [] Abdominal pain differentials
+A 26 year old woman has had sudden lower abdominal pain for 2 hours with pain at the tip of her left shoulder. She has light vaginal bleeding. Her last period was 7 weeks ago.
+Pulse rate 120 bpm, BP 90/58 mmHg. She is pale. The abdomen is tender with guarding in both iliac fossae.
+Urine pregnancy test is positive.
+Q: Which is the most likely diagnosis?
+  - Acute appendicitis
+  - Miscarriage
+  - Ovarian torsion
+  - Pelvic inflammatory disease
+  * Ruptured ectopic pregnancy
+## h0317 [] Abdominal pain differentials
+A 24 year old man fell onto his left side from a ladder 2 hours ago. He has pain in the left upper abdomen and pain at the tip of his left shoulder.
+Pulse rate 112 bpm, BP 104/68 mmHg. There is tenderness over the left lower ribs and in the left upper quadrant.
+Q: Which organ is most likely to be injured?
+  - Kidney
+  - Liver
+  - Pancreas
+  * Spleen
+  - Stomach
+## h0318 [] Abdominal pain differentials
+A 34 year old woman has had abdominal pain and vomiting for 2 days and is now confused. She has been tired and has lost weight over 6 months. Her skin has become darker.
+Temperature 37.8°C, pulse rate 124 bpm, BP 82/50 mmHg. There is pigmentation of the palmar creases and buccal mucosa. The abdomen is diffusely tender without guarding.
+LAB Sodium 126 mmol/L 135–146; Potassium 6.1 mmol/L 3.5–5.3; Glucose 3.1 mmol/L 4.0–7.8
+Q: Which is the most likely diagnosis?
+  - Acute pancreatitis
+  * Adrenal crisis
+  - Diabetic ketoacidosis
+  - Gastroenteritis
+  - Perforated ulcer
+## h0319 [neg,frame] WHO pain ladder & analgesics
+A pharmacist is reviewing patients who have been prescribed ibuprofen on a medical ward. They ask you which patient's prescription should be stopped.
+Q: Which patient should not be given ibuprofen?
+  - A 25-year-old with a sprained ankle
+  - A 30-year-old with migraine
+  - A 40-year-old with dysmenorrhoea
+  - A 50-year-old with gout
+  * A 70-year-old with an eGFR of 25
+## h0320 [mix,neg,frame] WHO pain ladder & analgesics
+A 31 year old woman had a caesarean section 2 days ago and is breastfeeding her baby. Regular paracetamol is not controlling her pain and she asks for something stronger. She has no asthma or kidney problems.
+Q: Which drug should be avoided?
+  * Codeine
+  - Diclofenac
+  - Ibuprofen
+  - Oral morphine short course
+  - Paracetamol regularly
+## h0321 [len,mix] WHO pain ladder & analgesics
+A 68 year old man with advanced ovarian metastases from colon cancer has inoperable malignant bowel obstruction. He is receiving palliative care. He has colicky abdominal pain and is vomiting. His background pain is controlled with a subcutaneous morphine infusion.
+Q: Which drug is most appropriate for the colicky pain?
+  - Codeine phosphate
+  * Hyoscine butylbromide
+  - Metoclopramide
+  - Ondansetron
+  - Senna
+## h0322 [] IV fluids, electrolytes & NG tubes
+A 70 kg man has had vomiting and diarrhoea for 3 days. He feels faint when he stands.
+Pulse rate 116 bpm, BP 88/54 mmHg, respiratory rate 20 breaths per minute. His mucous membranes are dry and capillary refill is 4 seconds. There is no evidence of heart failure.
+Q: Which is the most appropriate first fluid bolus?
+  - 1 litre over 8 hours
+  - 2 litres of 0.9% saline stat
+  - 100 ml over 1 hour
+  - 250 ml of 5% glucose
+  * 500 ml crystalloid in 15 minutes
+## h0323 [len] IV fluids, electrolytes & NG tubes
+A 62 year old man is nil by mouth after bowel surgery. He has a peripheral cannula and is not on a cardiac monitor. He feels weak.
+Pulse rate 84 bpm. ECG shows small T waves and U waves.
+LAB Potassium 2.9 mmol/L 3.5–5.3; Creatinine 82 µmol/L 60–120
+Q: Which is the most appropriate potassium replacement?
+  - 20 mmol in 100 ml over 30 minutes
+  - 20 mmol IV bolus over 5 minutes
+  * 40 mmol in 1 litre over at least 4 hours
+  - 80 mmol in 500 ml over 1 hour
+  - Oral potassium tablets with water
+## h0324 [mix] IV fluids, electrolytes & NG tubes
+An 89 year old woman was found on the floor at home this morning. She lives alone and was last seen 2 days ago. She is drowsy and has not been drinking.
+Pulse rate 102 bpm, BP 112/64 mmHg. Her mucous membranes are very dry.
+LAB Sodium 158 mmol/L 135–146; Urea 14 mmol/L 2.5–7.8; Glucose 6.2 mmol/L 4.0–7.8
+Q: Which is the most appropriate fluid?
+  - 0.9% saline 1 litre stat
+  - 3% hypertonic saline
+  * 5% glucose given slowly
+  - Hartmann's solution fast
+  - Oral water and review
+## h0523 [] Appendicitis
+A 19 year old man has had abdominal pain for 18 hours. It started around his umbilicus and moved to the right iliac fossa overnight. He has no appetite and has vomited once.
+Temperature 37.9°C, pulse rate 98 bpm. There is tenderness and guarding at McBurney's point. Pressing in the left iliac fossa causes pain in the right iliac fossa.
+Q: Which is the most likely diagnosis?
+  * Acute appendicitis
+  - Meckel's diverticulitis
+  - Mesenteric adenitis
+  - Right ureteric colic
+  - Terminal ileitis
+## h0524 [] Appendicitis
+A 24 year old woman has had right iliac fossa pain for 12 hours with nausea. She is sexually active and her last period was 5 weeks ago. She uses condoms.
+Temperature 37.5°C, pulse rate 92 bpm, BP 122/74 mmHg. There is right iliac fossa tenderness.
+Q: Which is the most appropriate first investigation?
+  - CT abdomen and pelvis
+  - Diagnostic laparoscopy
+  - Full blood count
+  - Transvaginal ultrasound
+  * Urine pregnancy test
+## h0525 [] Appendicitis
+A 41 year old man has had right iliac fossa pain for 5 days. He is eating a little.
+Temperature 37.8°C, pulse rate 88 bpm. There is a tender mass in the right iliac fossa with no generalised peritonism.
+CT shows an inflammatory phlegmon around the appendix with no abscess and no free gas.
+Q: Which is the most appropriate management?
+  - CT-guided percutaneous drainage
+  - Discharge with oral antibiotics
+  - Emergency appendicectomy
+  * IV antibiotics without surgery
+  - Right hemicolectomy
+## h0526 [] Gallstones, biliary colic & cholecystitis
+A 45 year old woman has had constant right upper quadrant pain for 18 hours with a fever. She has had several attacks of biliary colic.
+Temperature 38.3°C, pulse rate 96 bpm. Murphy's sign is positive. She is not jaundiced.
+LAB White cell count 15 × 10⁹/L 3.8–10.0; Bilirubin 14 µmol/L <17
+Q: Which is the most appropriate management?
+  - ERCP with sphincterotomy
+  - Interval cholecystectomy after 8 weeks
+  - IV antibiotics then discharge
+  * Laparoscopic cholecystectomy within 1 week
+  - Percutaneous cholecystostomy
+## h0527 [] Gallstones, biliary colic & cholecystitis
+A 39 year old woman had 2 hours of severe colicky right upper quadrant pain after eating fried food last night. It has now settled completely.
+Temperature 36.8°C. There is mild right upper quadrant tenderness and Murphy's sign is negative.
+White cell count normal. Liver function tests normal. Ultrasound shows multiple gallstones with a normal gallbladder wall and bile duct.
+Q: Which is the most likely diagnosis?
+  - Acute cholangitis
+  - Acute cholecystitis
+  - Acute pancreatitis
+  * Biliary colic
+  - Peptic ulcer disease
+## h0528 [] Gallstones, biliary colic & cholecystitis
+An 81 year old woman has had colicky central abdominal pain, vomiting and distension for 3 days. She has had previous episodes of right upper quadrant pain. She has had no abdominal surgery.
+The abdomen is distended with tinkling bowel sounds.
+Abdominal X-ray shows dilated loops of small bowel and gas in the biliary tree.
+Q: Which is the most likely cause?
+  - Adhesions
+  - Emphysematous cholecystitis
+  * Gallstone ileus
+  - Mirizzi syndrome
+  - Sigmoid volvulus
+## h0529 [] Acute cholangitis
+A 70 year old man has had right upper quadrant pain for 2 days with high fevers and shivering. His wife has noticed his eyes are yellow.
+Temperature 39.2°C, pulse rate 112 bpm, BP 110/68 mmHg. He has yellow sclerae and right upper quadrant tenderness.
+LAB Bilirubin 92 µmol/L <17; ALP 380 IU/L 25–115; White cell count 19 × 10⁹/L 3.8–10.0
+Q: Which is the most likely diagnosis?
+  - Acute cholecystitis
+  * Ascending cholangitis
+  - Hepatitis A
+  - Liver abscess
+  - Pancreatic cancer
+## h0530 [] Acute cholangitis
+A 74 year old woman has ascending cholangitis. Ultrasound shows a stone in a dilated common bile duct. She has had IV antibiotics and fluids for 6 hours.
+Temperature 39.0°C, pulse rate 124 bpm, BP 84/50 mmHg, falling despite fluids.
+Q: Which is the most appropriate next step?
+  - Continue antibiotics
+  - Laparoscopic cholecystectomy now
+  - MRCP
+  - Percutaneous transhepatic drainage first
+  * Urgent ERCP to drain the duct
+## h0531 [] Acute cholangitis
+A 39 year old man with ulcerative colitis has had itching for 3 months. He feels tired.
+He is not jaundiced. The liver edge is not palpable.
+LAB ALP 420 IU/L 25–115; GGT 310 IU/L 9–40; ALT 54 IU/L 10–50; Bilirubin 18 µmol/L <17
+Q: Which is the most likely diagnosis?
+  - Autoimmune hepatitis
+  - Cholangiocarcinoma
+  - Choledocholithiasis
+  - Primary biliary cholangitis
+  * Primary sclerosing cholangitis
+## h0532 [mix] Acute pancreatitis
+A 55 year old woman has had severe epigastric pain radiating to her back for 12 hours with vomiting. She does not drink alcohol.
+Pulse rate 104 bpm, BP 132/84 mmHg. There is epigastric tenderness.
+Lipase is 6 times the upper limit of normal. A diagnosis of acute pancreatitis is made.
+Q: Which imaging should be done in the first 24 to 48 hours?
+  - Abdominal X-ray
+  - Contrast CT abdomen immediately
+  - ERCP
+  - MRCP
+  * Ultrasound of the abdomen
+## h0533 [frame] Acute pancreatitis
+A 58 year old man has acute pancreatitis. The registrar asks you to work out his modified Glasgow score from his blood tests.
+LAB ALT 90 IU/L 10–50; amylase 2400 IU/L <220; calcium 1.9 mmol/L 2.2–2.6; lipase 1800 IU/L <60; sodium 132 mmol/L 135–146
+Q: Which of these results is part of the modified Glasgow score for severity?
+  - ALT 90 IU/L
+  - Amylase 2,400 IU/L
+  * Calcium 1.9 mmol/L
+  - Lipase 1,800 IU/L
+  - Sodium 132 mmol/L
+## h0534 [mix] Acute pancreatitis
+A 29 year old woman with Crohn's disease has had severe epigastric pain radiating to her back for 1 day with vomiting. She started a new drug for her Crohn's disease 4 weeks ago. She does not drink alcohol.
+There is epigastric tenderness.
+Amylase is 8 times the upper limit of normal. Triglycerides and calcium are normal. Ultrasound shows no gallstones.
+Q: Which drug is most likely to be the cause?
+  * Azathioprine
+  - Ferrous sulfate
+  - Omeprazole
+  - Paracetamol
+  - Vitamin D
+## h0535 [mix] Aortic aneurysm
+A 71 year old man had a routine abdominal ultrasound for another reason. It shows an abdominal aortic aneurysm of 4.8 cm. He has no abdominal or back pain. He has hypertension and is an ex-smoker.
+There is a non-tender pulsatile mass above the umbilicus.
+Q: Which is the most appropriate management?
+  - Discharge from follow-up
+  - Emergency repair
+  - Refer to vascular surgery within 2 weeks
+  * Ultrasound surveillance every 3 months
+  - Ultrasound surveillance every year
+## h0536 [mix] Aortic aneurysm
+A 76 year old man with a known 6 cm abdominal aortic aneurysm, awaiting repair, collapsed at home with severe back and abdominal pain.
+Pulse rate 130 bpm, BP 70/40 mmHg. He is pale and sweaty. There is a tender pulsatile mass in the abdomen.
+Q: Which is the most appropriate next step?
+  - Admission to HDU for monitoring
+  - Bedside FAST scan before deciding
+  - CT angiogram before any decision
+  - Fluids to a normal blood pressure
+  * Immediate transfer to theatre
+## h0537 [frame] Aortic aneurysm
+A 64 year old man asks whether he will be invited for abdominal aortic aneurysm screening. His wife, aged 66, asks whether she will be invited too.
+Q: Which group is invited to the NHS abdominal aortic aneurysm screening programme?
+  - All adults aged 65
+  - Men aged 55 who smoke
+  - Men and women aged 75
+  * Men in the year they turn 65
+  - Women aged 65 with hypertension
+## h0538 [] GI perforation & peritonitis
+A 58 year old man has had sudden severe epigastric pain for 3 hours that has now spread across his whole abdomen. He has taken ibuprofen for back pain for a month.
+Pulse rate 116 bpm, BP 108/66 mmHg. He is lying very still. The abdomen is rigid and board-like with absent bowel sounds.
+Q: Which is the most likely diagnosis?
+  - Acute mesenteric ischaemia
+  - Acute pancreatitis
+  - Biliary colic
+  - Myocardial infarction
+  * Perforated peptic ulcer
+## h0539 [] GI perforation & peritonitis
+A 72 year old woman with abdominal pain could only have a supine abdominal X-ray because she cannot sit up. On the film, both the inner and outer walls of several loops of bowel can be seen clearly.
+Q: What does this sign show?
+  - Dilated small bowel
+  * Free intraperitoneal gas
+  - Gas in the bowel wall
+  - Ischaemic colitis
+  - Sigmoid volvulus
+## h0540 [] GI perforation & peritonitis
+A 61 year old man with alcohol-related cirrhosis and ascites has had mild abdominal pain and a low-grade fever for 2 days. He is more confused than usual.
+Temperature 37.8°C. There is tense ascites with mild generalised tenderness.
+A diagnostic ascitic tap is performed.
+Q: Which ascitic result confirms spontaneous bacterial peritonitis?
+  - Amylase 500 IU/L
+  - Lymphocytes 600 per mm3
+  * Neutrophils 450 per mm3
+  - Protein 12 g/L
+  - Serum ascites albumin gradient 15 g/L
+## h0541 [mix] Sepsis
+A 69 year old woman has had dysuria and loin pain for 2 days and is now confused.
+Temperature 39.1°C, pulse rate 124 bpm, BP 88/50 mmHg, respiratory rate 26 breaths per minute.
+Lactate 4.2 mmol/L (<2.0). Blood cultures can be taken in the next 5 minutes, and the antibiotic is ready.
+Q: Which is the most appropriate order of actions?
+  - Await the urine culture result
+  * Blood cultures, then IV antibiotics at once
+  - CT abdomen, then antibiotics
+  - IV antibiotics, then cultures once stable
+  - IV fluids, then review in 6 hours
+## h0542 [] Sepsis
+A 52 year old man has had a cough and fever for 3 days.
+Temperature 38.4°C, pulse rate 104 bpm, BP 128/78 mmHg, respiratory rate 22 breaths per minute, SpO2 95% breathing air. He is alert. His NEWS2 score is 6.
+Lactate 1.4 mmol/L (<2.0). Creatinine normal. After senior review, sepsis is still suspected.
+Q: Within what time should antibiotics be given?
+  - 1 hour
+  * 3 hours
+  - 6 hours
+  - 12 hours
+  - 24 hours
+## h0543 [] Sepsis
+A 64 year old woman has septic shock from a urinary source. She has had 2 litres of crystalloid and antibiotics. She is being assessed by critical care.
+Pulse rate 118 bpm. Her mean arterial pressure is 58 mmHg. Her peripheries are cold.
+Lactate 5 mmol/L (<2.0).
+Q: Which is the most appropriate next step?
+  - A further 2 litres of crystalloid
+  - Dobutamine infusion
+  - IV adrenaline bolus on the ward
+  - IV hydrocortisone 200 mg
+  * Noradrenaline infusion
+## h0544 [] Pelvic inflammatory disease
+A 22 year old woman has had lower abdominal pain and deep pain during sex for 4 days, with a new vaginal discharge. She has a new sexual partner.
+Temperature 38.0°C. There is bilateral lower abdominal tenderness, cervical motion tenderness and bilateral adnexal tenderness.
+Her pregnancy test is negative.
+Q: Which is the most likely diagnosis?
+  - Acute appendicitis
+  - Endometriosis
+  * Pelvic inflammatory disease
+  - Ruptured ectopic pregnancy
+  - Torsion of an ovarian cyst
+## h0545 [] Pelvic inflammatory disease
+A 24 year old woman has pelvic inflammatory disease. She is well enough to be treated as an outpatient, has no tubo-ovarian abscess and is not pregnant. She has no drug allergies.
+Q: Which is the most appropriate treatment regimen?
+  - Azithromycin with metronidazole
+  * Ceftriaxone, doxycycline and metronidazole
+  - Ciprofloxacin, doxycycline and metronidazole
+  - Co-amoxiclav, doxycycline and metronidazole
+  - Oral amoxicillin and metronidazole
+## h0546 [] Pelvic inflammatory disease
+A 25 year old woman is being treated for pelvic inflammatory disease. She now has sharp pain in her right upper abdomen that is worse on deep breathing.
+Temperature 37.8°C. There is right upper quadrant tenderness. The chest is clear.
+Liver function tests are normal. Gallbladder ultrasound is normal.
+Q: Which is the most likely diagnosis?
+  - Acute cholecystitis
+  * Fitz-Hugh-Curtis syndrome
+  - Hepatitis B
+  - Pyelonephritis
+  - Right lower lobe pneumonia
+## h0547 [] Intestinal obstruction & volvulus
+A 66 year old woman has had colicky central abdominal pain for 1 day with early vomiting and abdominal distension. She had an abdominal hysterectomy 10 years ago.
+Pulse rate 94 bpm. The abdomen is distended with a lower midline scar and high-pitched bowel sounds. Her hernial orifices are normal.
+Q: Which is the most likely cause?
+  * Adhesions
+  - Colorectal cancer
+  - Gallstone ileus
+  - Incarcerated hernia
+  - Sigmoid volvulus
+## h0548 [] Intestinal obstruction & volvulus
+A 58 year old man has colicky abdominal pain and vomiting. His abdominal X-ray shows central dilated loops of bowel. The lines across the bowel wall cross the whole width of the lumen.
+Q: Which is the most likely diagnosis?
+  - Caecal volvulus
+  - Large bowel obstruction
+  - Pseudo-obstruction
+  * Small bowel obstruction
+  - Toxic megacolon
+## h0549 [mix] Intestinal obstruction & volvulus
+An 84 year old care home resident with Parkinson's disease has had abdominal distension and absolute constipation for 2 days.
+Pulse rate 92 bpm. The abdomen is grossly distended and tympanic but not tender, with no peritonism.
+Abdominal X-ray shows a large coffee bean-shaped loop of bowel rising from the pelvis.
+Q: Which is the most appropriate management?
+  - Diagnostic colonoscopy
+  - Emergency laparotomy
+  * Endoscopic decompression
+  - Hartmann's procedure
+  - IV neostigmine infusion
+## h0550 [] Abdominal pain differentials
+A 79 year old woman with atrial fibrillation, who stopped warfarin a month ago, has had sudden severe abdominal pain for 4 hours. She is very distressed.
+Pulse rate 118 bpm, irregular. BP 138/82 mmHg. The abdomen is soft with little tenderness.
+Lactate 6 mmol/L (<2.0).
+Q: Which is the most likely diagnosis?
+  * Acute mesenteric ischaemia
+  - Acute pancreatitis
+  - Diverticulitis
+  - Perforated peptic ulcer
+  - Renal colic
+## h0551 [mix] Abdominal pain differentials
+A 64 year old man with type 2 diabetes has had epigastric pain and vomiting for 2 hours. He feels sweaty. He has hypertension and smokes.
+Pulse rate 58 bpm, BP 104/66 mmHg, SpO2 96% breathing air. The abdomen is soft and non-tender with normal bowel sounds.
+Q: Which investigation should be done first?
+  * 12-lead ECG
+  - Abdominal ultrasound
+  - CT abdomen
+  - Erect chest X-ray
+  - Serum amylase
+## h0552 [mix,neg] Abdominal pain differentials
+A 14 year old boy has had lower abdominal pain and vomiting for 3 hours. It came on suddenly while he was sitting in class. He is reluctant to talk about his symptoms in front of his mother.
+Temperature 36.9°C, pulse rate 104 bpm. The abdomen is soft with mild lower abdominal tenderness and no guarding.
+Q: Which examination must not be missed?
+  - Digital rectal examination
+  - Examination of the hips
+  - Examination of the spine
+  * Examination of the testes
+  - Urine dipstick
+## h0553 [] WHO pain ladder & analgesics
+A 62 year old woman with osteoarthritis of both knees has persistent pain despite regular paracetamol 1 g four times a day and exercise. She had a gastric ulcer last year and has chronic kidney disease stage 3, so NSAIDs are not suitable.
+Q: Which is the most appropriate step 2 drug to add?
+  - Amitriptyline
+  * Codeine phosphate
+  - Fentanyl patch
+  - IM diclofenac
+  - Modified-release morphine
+## h0554 [] WHO pain ladder & analgesics
+A 68 year old woman with metastatic pancreatic cancer takes modified-release oral morphine 30 mg twice daily with good pain control. She is now drowsy and can no longer swallow. A syringe driver is planned. Her kidney function is normal.
+Q: Which is the equivalent dose of subcutaneous morphine over 24 hours?
+  - 15 mg
+  - 20 mg
+  * 30 mg
+  - 60 mg
+  - 120 mg
+## h0555 [mix] WHO pain ladder & analgesics
+A 76 year old man with end-stage kidney disease, who has chosen not to have dialysis, is in the last days of life. His eGFR is 10 mL/min/1.73 m² (>60). He has pain and breathlessness and needs a strong opioid by syringe driver.
+Q: Which is the most appropriate choice?
+  * Alfentanil
+  - Codeine
+  - Diamorphine
+  - Morphine
+  - Tramadol
+## h0556 [] IV fluids, electrolytes & NG tubes
+A 70 kg man has had an elective bowel resection and is nil by mouth. He is not dehydrated and has no ongoing losses. His sodium, potassium and kidney function are normal. He needs routine maintenance intravenous fluids.
+Q: Roughly how much water does he need over 24 hours?
+  - 1 litre
+  * 2 litres
+  - 3 litres
+  - 4 litres
+  - 500 ml
+## h0557 [] IV fluids, electrolytes & NG tubes
+A 78 year old woman has been increasingly confused and unsteady for 2 weeks. She takes indapamide. She has had no seizures.
+She is euvolaemic and drowsy but rousable with no focal neurology.
+Sodium 112 mmol/L (135–146). Her sodium was normal 2 months ago.
+Q: What is the maximum safe rise in sodium over 24 hours?
+  * 10 mmol/L
+  - 15 mmol/L
+  - 20 mmol/L
+  - 25 mmol/L
+  - 30 mmol/L
+## h0558 [mix] IV fluids, electrolytes & NG tubes
+A 74 year old man has had a stroke and cannot swallow safely. A nasogastric tube has been inserted for feeding. He is not on acid-suppressing drugs.
+The aspirate obtained from the tube has a pH of 6.5 on pH-indicator paper.
+Q: Which is the most appropriate next step?
+  - Air insufflation with auscultation
+  * Chest X-ray to check the position
+  - Flush with 50 ml of water and start feeding
+  - Litmus paper test
+  - Start feeding at a low rate
+## h1501 [clone:h0529] Acute cholangitis
+A 74 year old woman has had fever with rigors, right upper quadrant pain and yellow eyes for 2 days. She had gallstones on a scan last year.
+Temperature 39.1°C, pulse rate 112 bpm, BP 104/62 mmHg. She is jaundiced and tender in the right upper quadrant.
+Q: Which is the most likely diagnosis?
+  - Acute cholecystitis
+  - Acute hepatitis
+  * Ascending cholangitis
+  - Liver abscess
+  - Pancreatic cancer
+## h1502 [len] Acute cholangitis
+A 74 year old woman has ascending cholangitis. She has fever, rigors and jaundice.
+LAB White cell count 17.6 × 10⁹/L 3.8–10.0; Bilirubin 86 µmol/L <17; ALT 140 IU/L 10–50; ALP 520 IU/L 25–115; Amylase 240 U/L <220
+Q: Which result best shows the obstruction?
+  * ALP 520 with bilirubin 86
+  - ALT 140
+  - Amylase 240
+  - Normal albumin
+  - White cell count 17.6
+## h1503 [mix,clone:h0530] Acute cholangitis
+A 74 year old woman with cholangitis has had IV antibiotics and fluids for 12 hours. She is more confused.
+Pulse rate 118 bpm, BP 88/50 mmHg.
+Ultrasound shows a dilated common bile duct.
+Q: Which is the most appropriate next step?
+  - Continue antibiotics, ERCP next week
+  - Laparoscopic cholecystectomy now
+  - MRCP to confirm the stone
+  - Percutaneous liver biopsy
+  * Urgent ERCP to drain the duct
+## h1504 [clone:h0546] Pelvic inflammatory disease
+A 24 year old woman was diagnosed with pelvic inflammatory disease 2 weeks ago and treated with antibiotics. She now has sharp pain under the right ribs that is worse on breathing in. Temperature 37.8°C. There is right upper quadrant tenderness. Liver tests are normal. Pregnancy test is negative.
+Q: Which is the most likely diagnosis?
+  - Acute cholecystitis
+  * Fitz-Hugh-Curtis syndrome
+  - Hepatitis A
+  - Pulmonary embolism
+  - Right lower lobe pneumonia
+## h1505 [mix] Pelvic inflammatory disease
+A 22 year old woman has suspected pelvic inflammatory disease. She is well enough to be treated at home.
+Temperature 37.9°C, pulse rate 88 bpm, BP 118/72 mmHg.
+Pregnancy test is negative.
+LAB White cell count 11.8 × 10⁹/L 3.8–10.0; CRP 46 mg/L <5
+Q: Which is the most appropriate approach?
+  - Await NAAT results before treatment
+  - Laparoscopy to confirm
+  - Pelvic ultrasound before treatment
+  * Swabs, then antibiotics the same day
+  - Treat her partner and not her
+## h1506 [] Pelvic inflammatory disease
+A 22 year old woman has pelvic inflammatory disease. She is to be treated as an outpatient. She is allergic to cephalosporins.
+Q: Which is the most appropriate regimen?
+  - Ceftriaxone, doxycycline and metronidazole
+  - Nitrofurantoin and doxycycline
+  * Ofloxacin and metronidazole
+  - Oral co-amoxiclav
+  - Single dose of azithromycin
+## h1633 [] IV fluids, electrolytes & NG tubes
+A 70 kg man is nil by mouth for 24 hours after a laparotomy. He is euvolaemic and is not losing fluid from drains or a nasogastric tube.
+Pulse rate 78 bpm, BP 128/78 mmHg.
+LAB Sodium 139 mmol/L 135–146; Potassium 4.1 mmol/L 3.5–5.3; Urea 5.0 mmol/L 2.5–7.8; Creatinine 82 µmol/L 60–120
+Q: Which daily maintenance prescription is most appropriate?
+  - About 1 litre of 5% glucose with no potassium
+  - About 2 litres of 0.9% saline with no potassium
+  * About 2 litres with 70 mmol each of sodium and potassium
+  - About 3.5 litres with 140 mmol potassium
+  - About 4 litres with 20 mmol each of sodium and potassium
+## h1634 [mix] IV fluids, electrolytes & NG tubes
+A 64 year old woman has had paralytic ileus for 3 days after a bowel resection. She is nil by mouth and her nasogastric tube is draining about 1.5 litres a day. She has been given 5% glucose only.
+Pulse rate 96 bpm, BP 118/72 mmHg.
+LAB Sodium 137 mmol/L 135–146; Potassium 2.9 mmol/L 3.5–5.3; Chloride 92 mmol/L 95–106; Bicarbonate 31 mmol/L 22–30; Creatinine 76 µmol/L 60–120
+Q: Which is the most appropriate fluid to replace her losses?
+  * 0.9% saline with 40 mmol potassium per litre
+  - 5% glucose
+  - Hartmann's solution
+  - Oral potassium tablets
+  - Potassium chloride 40 mmol IV over 10 minutes
+## h1635 [mix] IV fluids, electrolytes & NG tubes
+A 52 year old woman is 2 days after an open bowel operation. She has been given 3 litres of 5% glucose a day. This morning she had a generalised seizure and is now drowsy.
+GCS 12. She is euvolaemic.
+LAB Sodium 119 mmol/L 135–146; Potassium 3.8 mmol/L 3.5–5.3; Glucose 6.4 mmol/L 4.0–7.8; Serum osmolality 254 mOsm/kg 275–295
+Q: Which is the most appropriate immediate treatment?
+  - 0.9% saline at 1 litre an hour
+  * 150 ml of 3% saline over 20 minutes
+  - Fluid restriction to 1 litre a day
+  - IV furosemide
+  - Oral tolvaptan
+## h1636 [] IV fluids, electrolytes & NG tubes
+An 80 year old woman has had diarrhoea and vomiting for 3 days and has hardly drunk. Her urine output is 20 ml an hour.
+Pulse rate 108 bpm, BP 98/60 mmHg. Her mucous membranes are dry. Her bladder is not palpable.
+LAB Sodium 146 mmol/L 135–146; Potassium 4.6 mmol/L 3.5–5.3; Urea 24.0 mmol/L 2.5–7.8; Creatinine 160 µmol/L 60–120; Urine sodium 8 mmol/L 
+Q: Which is the most likely type of acute kidney injury?
+  - Acute interstitial nephritis
+  - Acute tubular necrosis
+  - Postrenal obstruction
+  * Prerenal acute kidney injury
+  - Rhabdomyolysis
+## h1637 [] IV fluids, electrolytes & NG tubes
+An 84 year old man was found on his kitchen floor, where he had lain for about 18 hours. He is alert.
+There are pressure marks over his right hip and shoulder. His urine is dark. Urine dipstick shows blood 3+, but microscopy shows no red cells. ECG shows sinus rhythm with no peaked T waves.
+LAB Creatine kinase 48,000 IU/L 25–200; Potassium 5.9 mmol/L 3.5–5.3; Creatinine 210 µmol/L 60–120; Adjusted calcium 2.08 mmol/L 2.20–2.60
+Q: Which is the most appropriate first treatment?
+  * Generous IV 0.9% saline
+  - Haemodialysis now
+  - IV calcium gluconate
+  - IV furosemide
+  - Oral fluids and recheck tomorrow
+## h1638 [mix] IV fluids, electrolytes & NG tubes
+A 58 year old man has had potassium replaced orally and intravenously for 3 days, but it will not rise. He has taken omeprazole for 8 years. He has no diarrhoea and takes no diuretics.
+LAB Potassium 3.0 mmol/L 3.5–5.3; Magnesium 0.38 mmol/L 0.70–1.00; Sodium 139 mmol/L 135–146; Adjusted calcium 2.10 mmol/L 2.20–2.60
+Q: Which is the most appropriate next step?
+  - Increase potassium to 80 mmol per litre peripherally
+  * IV magnesium sulfate
+  - Oral sodium bicarbonate
+  - Start spironolactone
+  - Stop the potassium
+## h1655 [] Gallstones, biliary colic & cholecystitis
+A 63 year old woman has had itch and yellow skin for 2 weeks. Her urine is dark and her stools are pale.
+She is jaundiced. The abdomen is soft.
+LAB Bilirubin 78 µmol/L <17; ALP 480 IU/L 25–115; GGT 520 IU/L <55; ALT 90 IU/L 10–50; Albumin 38 g/L 35–50
+Q: Which pattern do these results show?
+  * Cholestatic
+  - Hepatitic
+  - Isolated unconjugated hyperbilirubinaemia
+  - Liver synthetic failure
+  - Normal
+## h1656 [mix] Gallstones, biliary colic & cholecystitis
+A 22 year old man noticed yellow eyes during a bout of flu while he was eating little. He feels well otherwise.
+He is mildly jaundiced. There is no liver or spleen enlargement.
+LAB Bilirubin 38 µmol/L <17; Conjugated bilirubin 4 µmol/L <7; ALT 22 IU/L 10–50; ALP 70 IU/L 25–115; Haemoglobin 152 g/L 130–175; Reticulocytes 1.0% 0.5–2.5
+Q: Which is the most appropriate next step?
+  - Liver biopsy
+  - MRCP
+  * Reassure and explain
+  - Stop all fatty foods
+  - Ultrasound abdomen
+## h1657 [] Acute pancreatitis
+A 52 year old man has had severe epigastric pain going through to his back since last night. He drinks heavily. He was admitted 40 hours ago with acute pancreatitis.
+LAB Amylase 1,850 IU/L <100; White cell count 17.2 × 10⁹/L 3.8–10.0; Urea 18.0 mmol/L 2.5–7.8; Adjusted calcium 1.86 mmol/L 2.20–2.60; Glucose 8.2 mmol/L 4.0–7.8; Albumin 34 g/L 35–50; PaO2 breathing air 9.5 kPa 11–15
+Q: How severe is his pancreatitis by the modified Glasgow score?
+  - Mild: 1 criterion
+  - Mild: 2 criteria
+  - Scoring needs a CT first
+  - Scoring needs amylase over 3,000
+  * Severe: 3 or more criteria
+## h1743 [len,mix,abs] GI perforation & peritonitis
+A 54-year-old man with alcoholic cirrhosis presents to the Emergency Department with a 24-hour history of fever, diffuse abdominal tenderness, and mild confusion. He takes spironolactone and furosemide for tense ascites. On examination, his temperature is 38.3°C, heart rate 104 beats/min, blood pressure 102/64 mmHg, and shifting dullness is present. Diagnostic ascitic paracentesis shows a cloudy straw-coloured fluid with an ascitic neutrophil count of 420 cells/mm³ (0.42 × 10⁹/L) and serum-ascites albumin gradient (SAAG) of 16 g/L.
+Q: Alongside empirical intravenous broad-spectrum antibiotics, which infusion has been shown to reduce the incidence of hepatorenal syndrome and inpatient mortality?
+  - 0.9% sodium chloride 1 L over 2 hours
+  * 20% human albumin solution intravenous infusion
+  - Fresh frozen plasma 15 mL/kg
+  - Furosemide 80 mg intravenous bolus
+  - Terlipressin alone without colloid
+## h1750 [mix] Abdominal pain differentials
+A 27-year-old woman presents to the Early Pregnancy Assessment Unit at 6 weeks' amenorrhoea with mild left iliac fossa discomfort and scant dark vaginal spotting. She is haemodynamically stable with a heart rate of 74 beats/min, blood pressure 118/72 mmHg, and a soft, non-peritonitic abdomen. Transvaginal ultrasound shows an empty uterus, no free fluid in the pouch of Douglas, and a 22 mm left adnexal mass with no fetal heartbeat. Serum beta-hCG is 1,150 IU/L.
+Q: Which clinical feature in this patient allows safe medical management with a single intramuscular dose of methotrexate rather than surgical salpingectomy?
+  * Adnexal mass < 35 mm, unruptured, no significant pain, no fetal heartbeat, and serum hCG < 1,500 IU/L
+  - Adnexal mass of 42 mm with visible fetal cardiac activity on transvaginal ultrasound
+  - Concurrent viable intrauterine pregnancy (heterotopic pregnancy)
+  - Haemodynamic instability with free fluid filling the pouch of Douglas and shoulder-tip pain
+  - Serum beta-hCG of 6,800 IU/L with severe rebound tenderness in the left iliac fossa
+## h1781 [clone:h1336] Intestinal obstruction & volvulus
+An 82 year old man in a nursing home has had increasing abdominal distension and no bowel movement or flatus for 3 days. He has long-standing constipation and Parkinson's disease. His abdomen is hugely distended, tympanic and only mildly tender.
+Pulse rate 96 bpm, BP 132/78 mmHg. An abdominal X-ray shows a large dilated loop of bowel shaped like an inverted U, rising from the left iliac fossa towards the right upper quadrant.
+Q: Which is the most likely diagnosis?
+  - Caecal volvulus
+  - Colonic pseudo-obstruction
+  - Obstructing sigmoid carcinoma
+  * Sigmoid volvulus
+  - Toxic megacolon
+## h1783 [] Intestinal obstruction & volvulus
+A 68 year old man has had colicky lower abdominal pain and a swollen abdomen for 4 days. He has not opened his bowels or passed flatus for 2 days and has started to vomit. Over the past 3 months his stools have become looser and he has lost 6 kg. He has never had abdominal surgery.
+The abdomen is distended and tympanic with high-pitched bowel sounds. There are no hernias. An abdominal X-ray shows dilated colon down to the sigmoid with no gas in the rectum.
+LAB Haemoglobin 101 g/L 130–175; MCV 74 fL 80–96; CRP 18 mg/L <5
+Q: Which is the most likely cause of his bowel obstruction?
+  - Adhesions
+  * Colorectal carcinoma
+  - Diverticular stricture
+  - Obstructed inguinal hernia
+  - Sigmoid volvulus
+## h1820 [clone:h0529] Acute cholangitis
+A 74 year old woman has had pain in the right upper abdomen for 2 days, with rigors and yellow skin since yesterday. She had biliary colic 6 months ago and is on the waiting list for a cholecystectomy.
+Temperature 39.1°C, pulse rate 112 bpm, BP 104/66 mmHg. She is jaundiced and tender in the right upper quadrant.
+LAB Bilirubin 78 µmol/L <17; ALP 412 IU/L 25–115; ALT 96 IU/L 10–50; White cell count 18.6 × 10⁹/L 4.0–11.0; Amylase 64 U/L <100
+Q: Which is the most likely diagnosis?
+  - Acute cholecystitis
+  - Acute pancreatitis
+  * Ascending cholangitis
+  - Biliary colic
+  - Hepatitis A
+## h1824 [] Acute pancreatitis
+A 47 year old man has had severe constant epigastric pain going through to his back for 8 hours, with repeated vomiting. He drinks about 50 units of alcohol a week. Sitting forward eases the pain a little.
+Temperature 37.8°C, pulse rate 108 bpm, BP 122/76 mmHg. The epigastrium is tender with guarding.
+LAB Amylase 1640 U/L <100; ALT 64 IU/L 10–50; Bilirubin 21 µmol/L <17; Adjusted calcium 2.14 mmol/L 2.20–2.60; Troponin T 8 ng/L <14
+Q: Which is the most likely diagnosis?
+  - Acute cholecystitis
+  * Acute pancreatitis
+  - Inferior myocardial infarction
+  - Perforated duodenal ulcer
+  - Ruptured abdominal aortic aneurysm
+## h1843 [] IV fluids, electrolytes & NG tubes
+A 68 year old man with chronic kidney disease has felt weak for 2 days. He recently started spironolactone for heart failure and also takes ramipril.
+Pulse rate 52 bpm, BP 118/70 mmHg. His ECG shows tall peaked T waves, flattened P waves and a QRS duration of 140 ms.
+LAB Potassium 7.4 mmol/L 3.5–5.3; Creatinine 286 µmol/L 60–120; Bicarbonate 19 mmol/L 22–30; Glucose 6.1 mmol/L 4.0–7.8
+Q: Which is the most appropriate first treatment?
+  - Calcium resonium
+  * IV calcium gluconate
+  - IV insulin with glucose
+  - Nebulised salbutamol
+  - Sodium bicarbonate

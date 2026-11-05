@@ -1,0 +1,1514 @@
+## h0436 [] Schizophrenia & psychosis
+A 26 year old man has believed for 5 months that a television news presenter is sending him private messages of love through the news. He has no hallucinations and his speech and behaviour are otherwise normal. He works full time and looks after himself.
+Mental state examination shows a fixed false belief and no other abnormal findings.
+Q: Which is the most likely diagnosis?
+  * Delusional disorder
+  - Paranoid personality disorder
+  - Schizoaffective disorder
+  - Schizophrenia
+  - Schizotypal disorder
+## h0437 [] Schizophrenia & psychosis
+A 24 year old man has stopped going to work. He says that his neighbour has been removing thoughts from his head so that his mind goes blank.
+Q: What is this symptom called?
+  - Passivity of affect
+  - Thought block
+  - Thought broadcast
+  - Thought insertion
+  * Thought withdrawal
+## h0438 [] Schizophrenia & psychosis
+A 20 year old man developed sudden persecutory delusions and auditory hallucinations after a stressful period at university. He does not use drugs. The symptoms lasted 3 weeks and resolved completely. He now functions normally.
+Q: Which is the most likely diagnosis?
+  * Acute and transient psychotic disorder
+  - Bipolar affective disorder
+  - Cannabis-induced psychotic disorder
+  - Delusional disorder
+  - Schizophreniform illness
+## h0439 [len] Antipsychotics (incl NMS & acute dystonia)
+A 34 year old man with schizophrenia started haloperidol 5 days ago. He is now confused and stiff.
+Temperature 39.8°C, pulse rate 124 bpm, BP 168/102 mmHg, then 104/62 mmHg an hour later. He is sweating with lead-pipe rigidity in all limbs. Reflexes are normal and there is no clonus.
+LAB Creatine kinase 18,000 IU/L 25–200; White cell count 14 × 10⁹/L 3.8–10.0
+Q: Which is the most likely diagnosis?
+  - Malignant hyperthermia
+  * Neuroleptic malignant syndrome
+  - Sepsis with rhabdomyolysis
+  - Serotonin syndrome
+  - Thyroid storm
+## h0440 [] Antipsychotics (incl NMS & acute dystonia)
+A 30 year old man has had schizophrenia for 4 years. He still has persistent auditory hallucinations despite adequate courses of risperidone and olanzapine, each at full dose for 8 weeks and taken as prescribed.
+Q: Which is the most appropriate drug?
+  - Aripiprazole
+  * Clozapine
+  - Haloperidol depot
+  - Olanzapine
+  - Quetiapine
+## h0441 [mix] Antipsychotics (incl NMS & acute dystonia)
+A 28 year old woman with treatment-resistant schizophrenia has taken clozapine for 4 months. She has had a sore throat and fever for 1 day.
+Temperature 38.4°C, pulse rate 104 bpm. Her pharynx is red.
+Q: Which is the most important test?
+  - Blood cultures
+  * Full blood count
+  - Liver function
+  - Throat swab
+  - Troponin
+## h0442 [] Depression & suicide risk
+A 34 year old woman has had low mood for 6 weeks after losing her job. She still enjoys time with her children and is sleeping reasonably. She has no thoughts of self-harm.
+Her PHQ-9 score is 8.
+Q: Which is the severity of her depression?
+  * Mild
+  - Minimal
+  - Moderate
+  - Moderately severe
+  - Severe
+## h0443 [mix] Depression & suicide risk
+A 74 year old woman with ischaemic heart disease takes aspirin 75 mg daily. She has moderate depression and is starting sertraline. She has never had a peptic ulcer.
+Q: Which additional drug should be considered?
+  - Calcium carbonate
+  - Clopidogrel
+  - Ferrous sulfate
+  - Lactulose
+  * Omeprazole
+## h0444 [mix] Depression & suicide risk
+A 45 year old man has had depression for 6 months. His marriage has ended and he has lost his job. He says he has a plan to hang himself at the weekend and has given away his possessions and written letters to his children.
+He has poor eye contact and appears hopeless. He has no psychotic symptoms.
+Q: Which is the most appropriate next step?
+  - GP review in 2 weeks
+  - Routine talking therapy referral
+  * Same-day crisis team assessment
+  - Self-help leaflet and helpline
+  - Start an SSRI and review
+## h0445 [] Bipolar disorder
+A 31 year old woman has had elevated mood, less need for sleep and more energy for 5 days. She has started several new projects at work and talks quickly. She is still working and managing her finances, and her family are not worried about her safety.
+There are no delusions or hallucinations. Thyroid function is normal and urine drug screen is negative.
+Q: Which is the most likely diagnosis?
+  - Cyclothymia
+  * Hypomania
+  - Mania
+  - Mixed affective state
+  - Schizoaffective disorder
+## h0446 [] Bipolar disorder
+A 44 year old man with bipolar disorder has taken lithium for 2 years. He is well. His lithium level taken 12 hours after his last dose is 0.6 mmol/L, and his levels have been stable for over a year. His kidney and thyroid function are normal.
+Q: How often should his lithium level be checked?
+  - Every 3 months
+  * Every 6 months
+  - Every 12 months
+  - Monthly
+  - Weekly
+## h0447 [] Bipolar disorder
+A 29 year old woman with bipolar disorder has been stable on sodium valproate for 3 years. She and her partner would like to try for a baby. She is not currently pregnant.
+Q: Which is the most appropriate next step?
+  - Continue valproate
+  - Halve the valproate
+  - Stop all medication
+  * Switch to an antipsychotic
+  - Switch to carbamazepine
+## h0448 [] Generalised anxiety & panic
+A 26 year old woman has had sudden episodes of palpitations, sweating, shaking and a fear that she is dying, about twice a week for 3 months. They come out of the blue and peak within 10 minutes. She now avoids going out alone in case one happens.
+Pulse rate 84 bpm, BP 118/74 mmHg. Examination is normal. Thyroid function and ECG are normal.
+Q: Which is the most likely diagnosis?
+  - Generalised anxiety disorder
+  - Hyperthyroidism
+  * Panic disorder
+  - Phaeochromocytoma
+  - Social anxiety disorder
+## h0449 [] Generalised anxiety & panic
+A 38 year old man has had constant worry about work, money and his family for 8 months, with poor sleep and muscle tension. It is affecting his work.
+His GAD-7 score is 17.
+Q: Which is the severity of his anxiety?
+  - Mild
+  - Minimal
+  - Moderate
+  * Severe
+  - Subthreshold
+## h0450 [mix] Generalised anxiety & panic
+A 46 year old woman has generalised anxiety disorder. She has had high-intensity CBT and adequate trials of sertraline and then venlafaxine, without improvement. She has no history of substance misuse.
+Q: Which drug can be offered next?
+  - Diazepam long term
+  - Haloperidol
+  - Lithium
+  * Pregabalin
+  - Propranolol
+## h0451 [] Acute stress reaction & PTSD
+A 29 year old woman was assaulted on her way home 2 days ago. She has not been physically injured. Since then she has felt numb and detached, cannot sleep and keeps replaying the event in her mind. She has no previous mental health problems.
+She is tearful but coherent, with no thoughts of self-harm.
+Q: Which is the most likely diagnosis?
+  * Acute stress reaction
+  - Adjustment disorder
+  - Depression
+  - Generalised anxiety
+  - PTSD
+## h0452 [mix] Acute stress reaction & PTSD
+A 38 year old man was in a serious car crash 6 months ago. He has had nightmares and flashbacks since, avoids driving and is constantly on edge. His sleep and work have suffered. He has no thoughts of self-harm.
+Q: Which treatment is most appropriate first?
+  - Benzodiazepine
+  - Propranolol
+  - Psychodynamic therapy
+  - Single-session debriefing
+  * Trauma-focused CBT
+## h0453 [] Acute stress reaction & PTSD
+A 41 year old man has had PTSD since a car crash 8 months ago. He will not drive or get into a car and takes a longer route to avoid the road where the crash happened.
+Q: Which symptom cluster is this?
+  * Avoidance
+  - Dissociation
+  - Hyperarousal
+  - Negative mood
+  - Re-experiencing
+## h0454 [] OCD
+A 32 year old man washes his hands about 50 times a day because he fears catching germs. The washing makes his skin crack and bleed and takes up hours of his day. He knows the fear is excessive and tries to resist, but his anxiety rises until he washes.
+Q: What is the hand washing called?
+  * Compulsion
+  - Delusion
+  - Obsession
+  - Phobia
+  - Tic
+## h0455 [] OCD
+A 29 year old woman has moderate obsessive-compulsive disorder with checking rituals that take 2 hours a day. She has completed a course of CBT including exposure and response prevention, but still struggles. She is not pregnant.
+Q: Which drug is most appropriate?
+  - Clomipramine
+  - Diazepam
+  - Lithium
+  - Olanzapine
+  * Sertraline
+## h0456 [] OCD
+A 30 year old man spends several hours each day checking his nose in mirrors and asking his partner for reassurance. He is convinced his nose is deformed and has stopped going out. He has asked about cosmetic surgery.
+On examination his nose looks normal. He accepts that others may not see a problem.
+Q: Which is the most likely diagnosis?
+  * Body dysmorphic disorder
+  - Delusional disorder
+  - Hypochondriasis
+  - Obsessive-compulsive disorder
+  - Social anxiety
+## h0457 [] Somatisation & MUS
+A 28 year old woman has had many years of pain in different places, bloating, nausea, dizziness and tiredness. Extensive investigations have found no cause and she has seen many specialists. The symptoms cause her great distress and she is unable to work.
+Physical examination is normal. Blood tests are normal.
+Q: Which is the most likely diagnosis?
+  - Conversion disorder
+  - Factitious disorder
+  - Hypochondriasis
+  - Malingering
+  * Somatisation disorder
+## h0458 [] Somatisation & MUS
+A 32 year old nurse has had three episodes of hypoglycaemia at work, one with a seizure. She does not have diabetes.
+During an episode, her glucose is 1.8 mmol/L (4.0–7.8). Plasma insulin is high and C-peptide is low. A sulfonylurea screen is negative.
+Q: Which is the most likely explanation?
+  * Factitious disorder
+  - Insulinoma
+  - Malingering
+  - Somatisation
+  - Sulfonylurea use
+## h0459 [len] Somatisation & MUS
+A 46 year old woman has been unable to move her right leg since she heard of her mother's sudden death this morning. She has no headache or other symptoms.
+Tone and reflexes are normal and plantars are flexor. She cannot lift her right leg from the bed, but when she lifts her left leg against resistance, her right hip extends strongly. Hoover's sign is positive.
+Q: Which is the most likely diagnosis?
+  - Factitious disorder
+  * Functional neurological disorder
+  - Lacunar stroke
+  - Malingering for gain
+  - Multiple sclerosis relapse
+## h0460 [] Eating disorders
+A 17 year old girl has been eating large amounts of food in secret several times a week for 6 months, then making herself vomit. She feels out of control during the binges and ashamed afterwards. She worries a lot about her weight.
+Her BMI is 22. She has calluses on the backs of her fingers and swollen parotid glands.
+Q: Which is the most likely diagnosis?
+  - Anorexia nervosa
+  - ARFID
+  - Binge eating disorder
+  * Bulimia nervosa
+  - OSFED
+## h0461 [] Eating disorders
+A 22 year old woman with bulimia nervosa has been vomiting several times a day for a month. She feels weak.
+Pulse rate 96 bpm. Her parotid glands are swollen.
+LAB Potassium 2.8 mmol/L 3.5–5.3; Chloride 88 mmol/L 95–106; Bicarbonate 36 mmol/L 22–30
+Q: Which is the most likely acid-base disorder?
+  - Metabolic acidosis
+  * Metabolic alkalosis
+  - Mixed acidosis
+  - Respiratory acidosis
+  - Respiratory alkalosis
+## h0462 [] Eating disorders
+A 16 year old girl with anorexia nervosa and a BMI of 13 was admitted and started on nasogastric feeding. On day 3 she feels weak and breathless and has ankle swelling.
+Pulse rate 112 bpm. There is pitting oedema to the ankles.
+LAB Phosphate 0.3 mmol/L 0.8–1.5; Potassium 3.0 mmol/L 3.5–5.3; Magnesium 0.5 mmol/L 0.7–1.0
+Q: Which is the most likely diagnosis?
+  - Hungry bone syndrome
+  - Hypoparathyroidism
+  * Refeeding syndrome
+  - Tumour lysis syndrome
+  - Vitamin D deficiency
+## h0463 [] Personality disorders
+A 30 year old man lives alone and works night shifts in a warehouse, where he speaks to no one. His sister says he has always preferred to be alone, shows little emotion and is indifferent to praise or criticism. He has no friends and is content with this.
+Mental state examination shows a flat but appropriate affect. He has no odd beliefs, magical thinking or hallucinations.
+Q: Which is the most likely diagnosis?
+  - Autism
+  - Avoidant personality disorder
+  - Paranoid personality disorder
+  * Schizoid personality disorder
+  - Schizotypal disorder
+## h0464 [mix,frame] Personality disorders
+A 24 year old woman has a diagnosis of borderline, emotionally unstable, personality disorder. She has intense, unstable relationships, frequent self-harm by cutting and chronic feelings of emptiness. She asks what treatment would help.
+Q: Which treatment is most appropriate?
+  * Dialectical behaviour therapy
+  - Lithium carbonate
+  - Long-term fluoxetine 20 mg
+  - Olanzapine depot injection
+  - Regular diazepam
+## h0465 [] Personality disorders
+A 32 year old man is seen in prison. He has a long history of lying, theft and violence against others and shows no remorse. As a child he set fires, was cruel to animals and was excluded from school. He has no psychotic symptoms.
+Q: Which is the most likely diagnosis?
+  * Dissocial personality disorder
+  - Emotionally unstable personality
+  - Narcissistic personality
+  - Paranoid personality
+  - Schizoid personality
+## h0466 [] Alcohol & substance misuse (incl DTs, Wernicke's)
+A 46 year old man attends for an NHS Health Check. He says he drinks 3 bottles of wine a week. Each bottle is 750 mL of wine at 12% alcohol by volume. He drinks no other alcohol.
+Q: How many units of alcohol does he drink each week?
+  - 9 units
+  - 18 units
+  * 27 units
+  - 36 units
+  - 45 units
+## h0467 [mix] Alcohol & substance misuse (incl DTs, Wernicke's)
+A 52 year old man who drinks a litre of vodka a day was admitted with a fractured wrist 18 hours ago. His last drink was yesterday afternoon.
+Pulse rate 118 bpm, BP 162/96 mmHg. He is sweating, agitated and has a coarse tremor. He is orientated and has no hallucinations. His CIWA score is 22.
+Q: Which is the most appropriate drug?
+  - Acamprosate
+  * Chlordiazepoxide
+  - Disulfiram
+  - Haloperidol
+  - Phenobarbital
+## h0468 [] Alcohol & substance misuse (incl DTs, Wernicke's)
+A 48 year old man has completed an assisted alcohol withdrawal and wants to stay abstinent. He has no liver disease and his kidney function is normal. He is attending a psychosocial support group.
+Q: Which drug is most appropriate?
+  * Acamprosate
+  - Chlordiazepoxide
+  - Diazepam
+  - Methadone
+  - Thiamine
+## h0469 [mix] Overdose, self-harm & lithium toxicity
+A 19 year old woman took 30 paracetamol 500 mg tablets 4 hours ago after an argument. She has no symptoms. She weighs 60 kg.
+Her paracetamol level taken at 4 hours is above the treatment line on the nomogram. Liver function and INR are normal.
+Q: Which is the most appropriate next step?
+  - Activated charcoal
+  - Discharge with advice
+  * IV acetylcysteine
+  - IV naloxone
+  - Repeat level in 4 hours
+## h0470 [len,mix] Overdose, self-harm & lithium toxicity
+A 56 year old man has taken lithium for bipolar disorder for 10 years with stable levels. A new drug was started for his blood pressure 2 weeks ago. He now has a coarse tremor, vomiting, diarrhoea and confusion.
+He is ataxic with a coarse tremor and brisk reflexes.
+LAB Lithium level 2.4 mmol/L 0.4–1.0; Creatinine 108 µmol/L 60–120
+Q: Which drug is most likely to have been started?
+  - Amlodipine
+  * Bendroflumethiazide
+  - Doxazosin
+  - Labetalol
+  - Moxonidine
+## h0471 [mix] Overdose, self-harm & lithium toxicity
+A 24 year old woman took an overdose of amitriptyline 3 hours ago. She is drowsy.
+Pulse rate 128 bpm, BP 92/58 mmHg. Her pupils are dilated and her skin is dry.
+ECG shows sinus tachycardia with a QRS duration of 140 ms. Venous pH 7.34 (7.35–7.45).
+Q: Which is the most appropriate treatment?
+  - Amiodarone
+  - Flumazenil
+  - Magnesium sulfate
+  - Naloxone
+  * Sodium bicarbonate
+## h0472 [] Psychiatric drugs, serotonin syndrome & the MHA
+A 42 year old man takes sertraline for depression. He started tramadol for back pain 2 days ago. Since this morning he has been agitated and sweaty with a tremor and diarrhoea.
+Temperature 38.4°C, pulse rate 122 bpm, BP 156/92 mmHg. His pupils are dilated. Reflexes are brisk with sustained clonus at both ankles.
+Q: Which is the most likely diagnosis?
+  - Alcohol withdrawal
+  - Neuroleptic malignant syndrome
+  - Sepsis
+  * Serotonin syndrome
+  - Thyrotoxicosis
+## h0473 [] Psychiatric drugs, serotonin syndrome & the MHA
+A 34 year old woman was admitted to a medical ward as a voluntary patient after an overdose. She is now trying to leave, saying she will kill herself when she gets home. The duty psychiatrist is 2 hours away. You are the doctor in charge of her care on the ward.
+Q: Which section of the Mental Health Act can be used to hold her?
+  - Section 2
+  - Section 3
+  * Section 5.2
+  - Section 135
+  - Section 136
+## h0474 [] Psychiatric drugs, serotonin syndrome & the MHA
+Police find a 28 year old man shouting at passers-by in a shopping centre. He is distressed and says strangers are trying to poison him. He appears to be mentally unwell.
+Q: Which section of the Mental Health Act can the police use?
+  - Section 2
+  - Section 4
+  - Section 5.2
+  - Section 135
+  * Section 136
+## h0475 [] ECT & catatonia
+A 58 year old woman with severe depression has stopped eating and drinking over 3 days. She barely speaks and stays in one position for hours.
+When the examiner lifts her arm, she holds it in the air for several minutes. She resists being moved. She is afebrile with normal reflexes. Creatine kinase is normal.
+Q: Which is the most likely diagnosis?
+  * Catatonia
+  - Delirium
+  - Locked-in syndrome
+  - Neuroleptic malignant syndrome
+  - Severe dementia
+## h0476 [mix] ECT & catatonia
+A 34 year old man with schizophrenia has catatonia. He has not eaten or drunk for 3 days and is mute and immobile. He is afebrile and his creatine kinase is normal.
+Q: Which is the most appropriate first treatment?
+  - Haloperidol
+  * Lorazepam
+  - Olanzapine
+  - Sertraline
+  - Zopiclone
+## h0477 [frame] ECT & catatonia
+A 64 year old woman is having a course of ECT for severe depression with psychotic features that has not responded to medication. She asks which side effect is most common.
+Q: Which side effect is most common?
+  - Fractured vertebrae
+  - Lasting personality change
+  * Memory loss around the course
+  - New epilepsy
+  - Stroke
+## h0478 [] Autism spectrum disorder
+A 3 year old girl has been referred because she is not talking like other children. She has only a few words. Her parents say she rarely responds to her name, does not point to show them things and spends hours lining up her toys. She becomes very upset if her routine changes.
+Her hearing test is normal. She makes little eye contact during the consultation.
+Q: Which is the most likely diagnosis?
+  * Autism spectrum disorder
+  - Global developmental delay
+  - Hearing impairment
+  - Reactive attachment disorder
+  - Selective mutism
+## h0479 [] Autism spectrum disorder
+A 26 year old autistic man needs a blood test. He is in a busy, noisy outpatient waiting area and is becoming distressed, covering his ears and rocking.
+Q: Which is the most helpful adjustment?
+  - Change the nurse each visit
+  - Delay until a crisis
+  * Quiet room and clear steps
+  - Restrain the arm gently
+  - Sedate before every test
+## h0480 [] Autism spectrum disorder
+An 11 year old autistic boy has had severe aggression towards his family for 6 months, injuring his mother. Specialist behaviour support and parent training have not helped. No physical cause for his distress has been found.
+Q: Which drug may be considered?
+  - Diazepam
+  - Fluoxetine
+  - Methylphenidate
+  * Risperidone
+  - Sodium valproate
+## h0481 [] Perinatal mental health
+A 28 year old woman gave birth to her first baby 4 days ago. She is tearful and anxious and feels overwhelmed. She is feeding and caring for her baby well and sleeps when the baby sleeps. She has no thoughts of harming herself or the baby.
+Q: Which is the most likely diagnosis?
+  - Adjustment disorder
+  * Baby blues
+  - Postnatal depression
+  - Postpartum psychosis
+  - Postpartum thyroiditis
+## h0482 [] Perinatal mental health
+A 32 year old woman gave birth 8 weeks ago and is breastfeeding. She has had low mood, poor concentration and loss of interest for 5 weeks. Her Edinburgh Postnatal Depression Scale score is 17. She has no thoughts of self-harm and wants medication alongside therapy.
+Q: Which antidepressant is most appropriate?
+  - Citalopram
+  - Fluoxetine
+  - Mirtazapine
+  * Sertraline
+  - Venlafaxine
+## h0483 [] Perinatal mental health
+A 30 year old woman is seen by her health visitor 6 weeks after giving birth. She completes a 10-item screening questionnaire about her mood and scores 16.
+Q: Which tool was most likely used?
+  * Edinburgh Postnatal Depression Scale
+  - GAD-7
+  - Hospital Anxiety and Depression Scale
+  - Mini-Mental State Examination
+  - PHQ-9
+## h0484 [mix] Delirium
+An 85 year old man was admitted with a urinary tract infection. On the second day the nurses notice he is muddled and drowsy at times. He scores 6 on the 4AT.
+Q: What does this score most likely show?
+  - No impairment
+  - Possible cognitive impairment
+  * Possible delirium
+  - Psychosis
+  - Severe dementia
+## h0485 [] Delirium
+An 82 year old woman had a hemiarthroplasty for a hip fracture 2 days ago. Today she is confused and agitated. She is on regular morphine and has not opened her bowels since admission.
+Temperature 37.3°C. There is a tender, dull suprapubic mass.
+Q: Which cause should be checked first?
+  - Brain tumour
+  - Early dementia
+  - New schizophrenia
+  - Thyroid cancer
+  * Urinary retention
+## h0486 [] Delirium
+A 78 year old man with Parkinson's disease has delirium after a chest infection. He is very distressed, trying to climb out of bed and has hit a nurse. Reassurance, a quiet side room, his glasses and his family's presence have not helped.
+Q: Which drug is most appropriate?
+  - Chlorpromazine
+  - Haloperidol
+  * Lorazepam
+  - Promethazine
+  - Risperidone
+## h0487 [] Adjustment disorder
+A 40 year old woman has felt low and worried for 6 weeks since her husband left. She cries at times and worries about money. She is sleeping and eating normally, still enjoys time with her children and is still working. She has no thoughts of self-harm.
+Her PHQ-9 score is 7.
+Q: Which is the most likely diagnosis?
+  * Adjustment disorder
+  - Dysthymia
+  - Generalised anxiety disorder
+  - Moderate depression
+  - Post-traumatic stress disorder
+## h0488 [] Adjustment disorder
+A 52 year old man was made redundant 4 weeks ago. Since then he has felt low and irritable and has trouble sleeping. He does not meet the criteria for depression and has no thoughts of self-harm.
+Q: Which is the most appropriate management?
+  - Admit to hospital for review
+  - Refer for ECT
+  - Start an antipsychotic
+  - Start lithium
+  * Support and problem-solving
+## h0489 [mix] Adjustment disorder
+A 38 year old woman was diagnosed with adjustment disorder after a car crash. The legal case and her injuries were settled 9 months ago, but her symptoms persist. She has low mood most days and has lost interest in her hobbies.
+Q: Which is the most appropriate next step?
+  * Reassess the diagnosis
+  - Reassure and discharge
+  - Refer for ECT
+  - Repeat in a year
+  - Start diazepam
+## h0490 [] Phobias
+A 30 year old man has an intense fear of being judged when eating or speaking in public. He avoids work parties and meetings and has turned down a promotion. He has no panic attacks in other situations and is comfortable with close friends.
+Q: Which is the most likely diagnosis?
+  - Agoraphobia
+  - Generalised anxiety disorder
+  - Panic disorder
+  * Social anxiety disorder
+  - Specific phobia
+## h0491 [mix] Phobias
+A 34 year old woman has a phobia of needles. She has fainted at the sight of them and has avoided blood tests for years, including the ones her GP now needs for her thyroid. She has no other anxiety problems.
+Q: Which is the most appropriate first treatment?
+  - Benzodiazepine before tests
+  - Beta-blocker before tests
+  - Daily SSRI
+  * Graded exposure therapy
+  - Psychodynamic therapy
+## h0492 [] Phobias
+A 28 year old man has social anxiety disorder. He has completed a course of individual CBT for social anxiety but still struggles to go to work meetings. He has no other medical problems.
+Q: Which drug is most appropriate first?
+  - Diazepam
+  * Escitalopram
+  - Mirtazapine
+  - Propranolol
+  - Venlafaxine
+## h0493 [mix] ADHD
+A 9 year old boy has been diagnosed with ADHD and is starting methylphenidate. He has no history of heart disease and no family history of sudden cardiac death.
+Q: Which monitoring is most important?
+  * Growth, pulse and blood pressure
+  - Kidney function and urea
+  - Liver enzymes monthly
+  - Plasma methylphenidate levels
+  - Thyroid function tests
+## h0494 [len] ADHD
+A 24 year old woman was diagnosed with ADHD after a specialist assessment. Her inattention and impulsivity are affecting her work. She has no history of heart disease, substance misuse or psychosis.
+Her BP is 118/74 mmHg.
+Q: Which drug is first line?
+  - Atomoxetine
+  - Guanfacine
+  * Lisdexamfetamine
+  - Modafinil
+  - Risperidone
+## h0495 [mix] ADHD
+A 7 year old boy is inattentive and restless at school, and his teacher thinks he has ADHD. His parents say he is calm and focused at home, at Cubs and at football. There have been no concerns from nursery.
+Q: Which is the most appropriate next step?
+  - Diagnose ADHD
+  * Look for other causes
+  - Refer for autism assessment
+  - Start methylphenidate
+  - Start parent training
+## h0496 [] Conduct disorder & ODD
+A 9 year old boy argues with adults, refuses to follow rules and loses his temper at home and at school for a year. He deliberately annoys his sister. He has not been violent, damaged property or broken the law.
+Q: Which is the most likely diagnosis?
+  - ADHD
+  - Autism spectrum disorder
+  - Conduct disorder
+  - Mild intellectual disability
+  * Oppositional defiant disorder
+## h0497 [mix] Conduct disorder & ODD
+An 8 year old boy has conduct disorder with aggression and stealing. His parents are struggling to manage his behaviour. There are no concerns about ADHD or learning difficulties.
+Q: Which is the most appropriate first-line treatment?
+  * Group parent training
+  - Lithium
+  - Methylphenidate
+  - Residential care placement
+  - Risperidone
+## h0498 [frame] Conduct disorder & ODD
+A 13 year old boy has conduct disorder that started at age 8. He has been excluded from school for violence and has been cautioned by police for theft. His mother asks about the long-term outlook.
+Q: Which adult outcome is he at highest risk of?
+  - Anorexia nervosa
+  * Antisocial personality disorder
+  - Bipolar disorder
+  - Obsessive-compulsive disorder
+  - Schizophrenia
+## h0499 [mix] Intellectual disability
+A 25 year old woman has an intellectual disability. She lives with support, can manage some daily tasks independently and holds a part-time job. Formal assessment shows an IQ of 60.
+Q: How is her intellectual disability classified?
+  - Borderline
+  * Mild
+  - Moderate
+  - Profound
+  - Severe
+## h0500 [len] Intellectual disability
+A 34 year old man with a severe learning disability and no speech has started hitting his head and refusing food over a week. His carers say this is new. He has had no change in his routine or carers.
+Q: Which should be excluded first?
+  - Autism
+  - Depression
+  - New psychosis
+  * Pain or physical illness
+  - Personality disorder
+## h0501 [] Intellectual disability
+A 20 year old man with a moderate learning disability attends a review with his mother. He has poor eye contact and is anxious in social situations. His maternal uncle also has a learning disability.
+He has a long face, prominent jaw, large ears and enlarged testes. There is joint hypermobility.
+Q: Which is the most likely diagnosis?
+  - Down syndrome
+  * Fragile X syndrome
+  - Klinefelter syndrome
+  - Prader-Willi syndrome
+  - Williams syndrome
+## h1186 [] Schizophrenia & psychosis
+A 23 year old man has heard two voices talking about him in the third person for 2 months. He says his neighbours are taking his thoughts out of his head. He has stopped going to work. He does not use drugs and his mood is not low or elevated.
+He is guarded and distracted.
+Urine drug screen is negative.
+Q: Which is the most likely diagnosis?
+  - Delusional disorder
+  - Drug-induced psychosis
+  - Psychotic depression
+  - Schizoaffective disorder
+  * Schizophrenia
+## h1187 [len,clone:h0438] Schizophrenia & psychosis
+A 30 year old woman's house burned down a week ago. Since then she has heard voices and believes people are trying to harm her. She has no past psychiatric history and does not use drugs.
+Within 3 weeks she is completely back to normal.
+Q: Which is the most likely diagnosis?
+  * Acute and transient psychotic disorder
+  - Bipolar affective disorder
+  - Delusional disorder
+  - Post-traumatic stress disorder
+  - Schizophrenia
+## h1188 [] Schizophrenia & psychosis
+A 68 year old woman has severe depression. She has stopped eating. She says she is dead and her insides have rotted away.
+Q: Which term describes this?
+  - Capgras syndrome
+  * Cotard syndrome
+  - De Clérambault syndrome
+  - Ekbom syndrome
+  - Fregoli syndrome
+## h1189 [] Antipsychotics (incl NMS & acute dystonia)
+A 19 year old man had his first dose of haloperidol 6 hours ago for acute psychosis. He is distressed.
+His neck is twisted to one side and his eyes are fixed looking upwards. He is alert. Temperature 36.9°C.
+Q: Which is the most appropriate treatment?
+  - Dantrolene
+  - Lorazepam
+  * Procyclidine
+  - Propranolol
+  - Tetrabenazine
+## h1190 [] Antipsychotics (incl NMS & acute dystonia)
+A 58 year old woman has taken haloperidol for schizophrenia for 6 years. Her family has noticed odd movements of her mouth.
+There is lip smacking, tongue thrusting and chewing movements. There is no rigidity.
+Q: Which is the most likely diagnosis?
+  - Acute dystonia
+  - Akathisia
+  - Drug-induced parkinsonism
+  - Neuroleptic malignant syndrome
+  * Tardive dyskinesia
+## h1191 [mix] Antipsychotics (incl NMS & acute dystonia)
+A 32 year old man started haloperidol 5 days ago. He has become confused and stiff.
+Temperature 39.5°C, pulse rate 124 bpm. BP is labile, ranging from 110/70 to 180/100 mmHg. There is lead-pipe rigidity. Reflexes are normal and there is no clonus.
+LAB Creatine kinase 12,000 IU/L 25–200; Creatinine 142 µmol/L 60–120
+Q: Which is the most appropriate management?
+  - Add procyclidine
+  - Cyproheptadine
+  - Increase the haloperidol
+  - Lorazepam, continue haloperidol
+  * Stop haloperidol, IV fluids
+## h1192 [mix] Depression & suicide risk
+A 34 year old man has had low mood, poor sleep and loss of interest for 3 months. His depression is more severe. He would like medication alongside talking therapy. He has no other illnesses and takes no other medicines.
+Q: Which is the most appropriate first drug?
+  - Amitriptyline
+  - Diazepam
+  - Lithium
+  * Sertraline
+  - St John's wort
+## h1193 [] Depression & suicide risk
+A 22 year old woman has moderate depression and starts sertraline today. She has no thoughts of self-harm.
+Q: When should she next be reviewed?
+  * 1 week
+  - 2 weeks
+  - 4 weeks
+  - 6 weeks
+  - 12 weeks
+## h1194 [] Depression & suicide risk
+A 56 year old man has depression. He has lived alone since his divorce last year. He drinks 10 units of alcohol a week and still works full time. His daughter visits weekly. He took an overdose 20 years ago.
+Q: Which feature most raises his immediate risk of suicide?
+  - An overdose 20 years ago
+  - Drinking 10 units a week
+  * Recently made a will
+  - Still working full time
+  - Weekly visits to his daughter
+## h1195 [] Bipolar disorder
+A 27 year old man has slept 2 hours a night for 6 days. He has spent £8,000 on a car he cannot afford. His family say he is not himself.
+He speaks rapidly and cannot be interrupted. He says he has been chosen by God to lead the country.
+Urine drug screen and thyroid function are normal.
+Q: Which is the most likely diagnosis?
+  - Attention deficit hyperactivity disorder
+  - Cyclothymia
+  - Hypomania
+  * Mania with psychotic symptoms
+  - Schizophrenia
+## h1196 [] Bipolar disorder
+A 31 year old woman has her first manic episode. She takes no psychiatric drugs. She is not pregnant.
+She is elated, with pressured speech and grandiose ideas.
+Q: Which is the most appropriate first-line treatment?
+  - Carbamazepine
+  - Clonazepam
+  - Lamotrigine
+  * Olanzapine
+  - Sertraline
+## h1197 [] Bipolar disorder
+A 36 year old man has just started lithium for bipolar disorder. He takes it at night. His first level is due.
+Q: When should the blood sample for his lithium level be taken?
+  - 2 hours after the dose
+  - 6 hours after the dose
+  * 12 hours after the last dose
+  - 24 hours after the last dose
+  - At any time of day
+## h1198 [mix,clone:h1192] Generalised anxiety & panic
+A 41 year old woman has worried excessively about everything on most days for a year. She has trouble sleeping and feels tense. Guided self-help has not worked and she would like medication.
+Q: Which is the most appropriate first drug?
+  - Buspirone
+  - Diazepam long-term
+  - Pregabalin
+  - Propranolol
+  * Sertraline
+## h1199 [clone:h0448] Generalised anxiety & panic
+A 26 year old man has had several sudden attacks of chest tightness, palpitations and fear of dying. Each peaks within 10 minutes. He now worries constantly about having another.
+Pulse rate 78 bpm, BP 124/78 mmHg. Examination is normal.
+ECG and thyroid function are normal.
+Q: Which is the most likely diagnosis?
+  - Agoraphobia
+  - Generalised anxiety disorder
+  - Hyperthyroidism
+  * Panic disorder
+  - Social anxiety disorder
+## h1200 [] Generalised anxiety & panic
+A 44 year old woman has had sudden attacks of pounding headache, sweating and palpitations for 3 months. They last about 20 minutes.
+During an attack her pulse rate is 128 bpm and BP 210/110 mmHg. Between attacks, BP is 146/92 mmHg.
+Q: Which is the most likely diagnosis?
+  - Carcinoid syndrome
+  - Hypoglycaemia
+  - Panic disorder
+  * Phaeochromocytoma
+  - Thyrotoxicosis
+## h1201 [] Acute stress reaction & PTSD
+A 34 year old man was in a car crash 8 months ago. He has flashbacks and nightmares about it. He avoids driving and jumps at loud noises. He is sleeping badly and his work is suffering.
+He is tense and startles easily during the consultation.
+Q: Which is the most likely diagnosis?
+  - Acute stress reaction
+  - Adjustment disorder
+  - Depressive episode
+  - Generalised anxiety disorder
+  * Post-traumatic stress disorder
+## h1202 [] Acute stress reaction & PTSD
+A 28 year old woman was assaulted 6 months ago. She has nightmares and flashbacks, avoids going out alone and is constantly on edge. She is diagnosed with post-traumatic stress disorder. She would prefer a talking treatment.
+Q: Which is the most appropriate first-line treatment?
+  - Benzodiazepines
+  - Generic counselling
+  - Sertraline first
+  - Single-session psychological debriefing
+  * Trauma-focused CBT
+## h1203 [mix] Acute stress reaction & PTSD
+Two days after a major incident at a factory, managers want a single compulsory group debriefing session for all staff to prevent post-traumatic stress disorder.
+Q: Which is the most appropriate advice?
+  - All staff should attend
+  - Benzodiazepines for all
+  - Compulsory for those injured
+  - SSRIs to prevent PTSD
+  * Support and active monitoring
+## h1204 [] OCD
+A 29 year old woman gave birth 6 weeks ago. She has intrusive thoughts that she might harm her baby, which horrify her. She checks the baby's breathing many times a night to calm the fear. She has no low mood, hallucinations or delusions.
+She is anxious but caring towards her baby. She has full insight.
+Q: Which is the most likely diagnosis?
+  - Generalised anxiety disorder
+  * Obsessive-compulsive disorder
+  - Obsessive-compulsive personality disorder
+  - Postnatal depression
+  - Postpartum psychosis
+## h1205 [] OCD
+A 36 year old man has obsessive-compulsive disorder. He has had CBT with exposure and response prevention and two SSRIs at full dose for 12 weeks each. He still spends 4 hours a day on checking rituals.
+Q: Which is the most appropriate next drug?
+  - Amitriptyline
+  * Clomipramine
+  - Diazepam
+  - Lithium
+  - Propranolol
+## h1206 [] OCD
+A 32 year old woman with obsessive-compulsive disorder started fluoxetine 6 weeks ago at a standard dose. Her symptoms have improved a little. She has no side effects.
+Q: Which is the most appropriate next step?
+  - Add an antipsychotic
+  * Continue to 12 weeks
+  - Stop fluoxetine
+  - Switch to clomipramine now
+  - Switch to sertraline now
+## h1207 [] Somatisation & MUS
+A 35 year old woman is convinced she has bowel cancer. A colonoscopy, scans and blood tests are all normal, but reassurance does not last. She has few physical symptoms. She accepts it may be anxiety when calm.
+Examination is normal.
+Q: Which is the most likely diagnosis?
+  - Delusional disorder
+  - Factitious disorder
+  * Hypochondriasis
+  - Malingering
+  - Somatisation disorder
+## h1208 [] Somatisation & MUS
+A 42 year old man is in a legal dispute about compensation after an accident. He says he cannot walk. Nurses on the ward see him walk normally when he thinks no one is watching.
+Neurological examination shows no consistent abnormality.
+Q: Which is the most likely explanation?
+  - Conversion disorder
+  - Factitious disorder
+  - Hypochondriasis
+  * Malingering
+  - Somatisation disorder
+## h1209 [mix] Somatisation & MUS
+A 38 year old woman has had several unexplained physical symptoms for years, including pain, bloating and fatigue. She has seen many specialists and has had many normal tests. She attends the surgery often.
+Q: Which is the most appropriate management?
+  - Antipsychotic medication
+  - Discharge with reassurance
+  - Refer to each specialty
+  * Regular planned GP reviews
+  - Repeat the tests each visit
+## h1210 [] Eating disorders
+A 19 year old woman with anorexia nervosa is seen in clinic. She feels dizzy and faint.
+BMI 12.8 kg/m². Pulse rate 38 bpm, BP 78/46 mmHg. Temperature 35.2°C.
+Potassium 2.9 mmol/L (3.5–5.3). ECG shows sinus bradycardia.
+Q: Which is the most appropriate management?
+  - Increase outpatient sessions
+  - Outpatient CBT
+  - Refer to a dietitian
+  - Start fluoxetine
+  * Urgent medical admission
+## h1211 [clone:h0460] Eating disorders
+A 22 year old woman binges on large amounts of food and then makes herself vomit several times a week. She feels out of control during binges.
+BMI 22 kg/m². There are calluses on her knuckles and both parotid glands are swollen.
+Q: Which is the most likely diagnosis?
+  - Anorexia nervosa
+  - Avoidant restrictive food intake disorder
+  - Binge eating disorder
+  * Bulimia nervosa
+  - Coeliac disease
+## h1212 [mix] Eating disorders
+A 24 year old woman makes herself vomit daily. She has had palpitations and muscle cramps. Blood tests are sent.
+Q: Which result is most likely?
+  - Calcium 3.0 mmol/L
+  - Glucose 15 mmol/L
+  * Potassium 2.8 mmol/L with bicarbonate 34 mmol/L
+  - Potassium 5.8 mmol/L with bicarbonate 18 mmol/L
+  - Sodium 150 mmol/L
+## h1213 [mix] Personality disorders
+A 24 year old woman has had stormy relationships since her teens. She self-harms often, feels chronically empty and has a frantic fear of being abandoned. Her mood changes within hours.
+She is not psychotic. Her mood has no sustained high or low episodes.
+Q: Which is the most likely diagnosis?
+  - Antisocial personality disorder
+  - Bipolar affective disorder
+  * Borderline personality disorder
+  - Dependent personality disorder
+  - Histrionic personality disorder
+## h1214 [clone:h0464,frame] Personality disorders
+A 26 year old woman has borderline personality disorder. She self-harms repeatedly. She asks about longer-term treatment.
+Q: Which treatment is most appropriate?
+  - Benzodiazepines
+  * Dialectical behaviour therapy
+  - Lithium
+  - Long-term antipsychotic
+  - SSRI for the core features
+## h1215 [clone:h0463] Personality disorders
+A 35 year old man prefers to be alone and has no close friends. He shows little emotion and is indifferent to praise or criticism. He says he has no wish for relationships. He has no odd beliefs or unusual experiences.
+Q: Which is the most likely diagnosis?
+  - Anxious avoidant personality disorder
+  - Autism spectrum disorder
+  - Paranoid personality disorder
+  * Schizoid personality disorder
+  - Schizotypal disorder
+## h1216 [len] Alcohol & substance misuse (incl DTs, Wernicke's)
+A 52 year old man who drinks heavily has been brought in by his wife because he has become confused over 2 days and is unsteady on his feet. He has eaten little for weeks.
+He is disorientated. There is horizontal nystagmus and an ataxic gait.
+Glucose 5.4 mmol/L (4.0–7.8).
+Q: Which is the most appropriate immediate treatment?
+  - Chlordiazepoxide
+  - Haloperidol
+  - IV glucose first
+  * IV high-dose thiamine
+  - Oral thiamine
+## h1217 [] Alcohol & substance misuse (incl DTs, Wernicke's)
+A 54 year old man who drinks heavily was admitted 3 days ago with a broken ankle. He has become confused and agitated and says he can see insects on the walls.
+Temperature 38.1°C, pulse rate 128 bpm, BP 162/96 mmHg. He is sweating and has a coarse tremor.
+Glucose 5.8 mmol/L (4.0–7.8).
+Q: Which is the most likely diagnosis?
+  - Alcoholic hallucinosis
+  * Delirium tremens
+  - Hepatic encephalopathy
+  - Sepsis
+  - Wernicke's encephalopathy
+## h1218 [] Alcohol & substance misuse (incl DTs, Wernicke's)
+A 56 year old man with decompensated alcohol-related cirrhosis was admitted with ascites. He last drank yesterday and now has a tremor and sweating. His CIWA score is rising.
+He is jaundiced with ascites. There is no flap.
+LAB Bilirubin 110 µmol/L <17; Albumin 24 g/L 35–50
+Q: Which is the most appropriate drug?
+  - Chlordiazepoxide
+  - Clomethiazole
+  - Diazepam
+  - Haloperidol
+  * Lorazepam
+## h1219 [mix,clone:h0903] Overdose, self-harm & lithium toxicity
+A 22 year old woman took paracetamol tablets on and off over 24 hours after an argument. She is not sure how many. She feels nauseated.
+She weighs 58 kg. Pulse rate 92 bpm, BP 118/72 mmHg.
+Q: Which is the most appropriate management?
+  - Activated charcoal
+  - Discharge if she is well
+  - Level at 4 hours, then decide
+  - Oral methionine
+  * Start acetylcysteine now
+## h1220 [mix] Overdose, self-harm & lithium toxicity
+A 44 year old woman with bipolar disorder takes lithium. She started buying ibuprofen for back pain 10 days ago. She now has a coarse tremor, slurred speech and diarrhoea.
+She is alert but unsteady.
+LAB Lithium level 2.1 mmol/L 0.4–1.0; Creatinine 74 µmol/L 60–120; Sodium 138 mmol/L 135–146
+Q: Which is the most appropriate management?
+  - Activated charcoal
+  - IV furosemide
+  - Reduce the lithium dose
+  * Stop lithium, IV fluids
+  - Urgent haemodialysis
+## h1221 [mix] Overdose, self-harm & lithium toxicity
+A 32 year old man has taken an overdose of amitriptyline. He is drowsy.
+Pulse rate 128 bpm, BP 85/50 mmHg. GCS 10.
+ECG shows a QRS duration of 140 ms. Venous pH 7.30 (7.35–7.45).
+Q: Which is the most appropriate treatment?
+  - Flumazenil
+  * IV sodium bicarbonate
+  - Lipid emulsion first
+  - Naloxone
+  - Physostigmine
+## h1222 [] Psychiatric drugs, serotonin syndrome & the MHA
+A 34 year old man with known schizophrenia has relapsed after stopping his medication. He believes his family are poisoning him and has not eaten for days. He refuses admission. His diagnosis and the treatment that works for him are known.
+Q: Which section of the Mental Health Act is most appropriate?
+  - Section 2
+  * Section 3
+  - Section 4
+  - Section 5.2
+  - Section 136
+## h1223 [] Psychiatric drugs, serotonin syndrome & the MHA
+Police find a distressed man in a public place threatening to jump from a bridge. He appears to be mentally unwell.
+Q: Which power allows them to take him to a place of safety?
+  - Section 2
+  - Section 4
+  - Section 5.4
+  - Section 135
+  * Section 136
+## h1224 [] Psychiatric drugs, serotonin syndrome & the MHA
+A 30 year old woman is an informal psychiatric inpatient. At night she tries to leave and is at serious risk of harming herself. No doctor can attend immediately. A qualified mental health nurse is present.
+Q: For how long can the nurse hold her?
+  * 6 hours
+  - 12 hours
+  - 24 hours
+  - 28 days
+  - 72 hours
+## h1225 [mix,clone:h0476] ECT & catatonia
+A 45 year old woman with severe depression has stopped talking, eating and moving over a week. She holds odd postures for hours.
+Temperature 36.9°C, pulse rate 88 bpm. She is mute and resists being moved. There is no rigidity.
+Creatine kinase is normal.
+Q: Which is the most appropriate first treatment?
+  - ECT
+  - Haloperidol
+  * Lorazepam
+  - Olanzapine
+  - Procyclidine
+## h1226 [clone:h0475] ECT & catatonia
+A 40 year old man has held his arm in the air for hours. When the examiner moves his limbs, they stay in the new position as if made of wax. He is mute. He is not on antipsychotics.
+Temperature 36.8°C, pulse rate 82 bpm.
+Q: Which is the most likely diagnosis?
+  * Catatonia
+  - Conversion disorder
+  - Drug-induced parkinsonism
+  - Neuroleptic malignant syndrome
+  - Tardive dyskinesia
+## h1227 [neg,frame] ECT & catatonia
+A psychiatrist is consenting a 68 year old woman with severe depression for ECT. The team reviews her medical history for contraindications.
+Q: Which condition is generally regarded as the only absolute contraindication to ECT?
+  - Age over 80
+  - Pacemaker
+  - Pregnancy
+  - Previous myocardial infarction 2 years ago
+  * Raised intracranial pressure
+## h1228 [clone:h0478] Autism spectrum disorder
+A 7 year old boy is brought by his parents. His teachers say he has poor eye contact and does not join in group play. At home he lines up his toys and becomes very upset at any change to his routine. He takes jokes literally.
+His speech is fluent and his hearing is normal.
+Q: Which is the most likely diagnosis?
+  - Attention deficit hyperactivity disorder
+  * Autism spectrum disorder
+  - Intellectual disability
+  - Obsessive-compulsive disorder
+  - Selective mutism
+## h1229 [mix] Autism spectrum disorder
+A 5 year old girl rarely makes eye contact, does not point to share interest and has repetitive hand flapping. Her parents are worried. Her GP suspects autism.
+Q: Which is the most appropriate next step?
+  * Autism assessment team
+  - Genetic testing
+  - MRI brain
+  - Review in 2 years
+  - Trial of risperidone
+## h1230 [clone:h0480] Autism spectrum disorder
+A 15 year old autistic boy has severe aggression towards his family. It has not responded to behavioural approaches over a year. There is no medical cause.
+Q: Which drug may be considered?
+  - Diazepam
+  - Melatonin
+  - Methylphenidate
+  * Risperidone
+  - Sertraline
+## h1231 [] Perinatal mental health
+A 32 year old woman with bipolar disorder gave birth 10 days ago. Over 2 days she has become confused and sleepless. She says her baby is evil.
+She is agitated, distractible and responding to voices.
+Q: Which is the most likely diagnosis?
+  - Baby blues
+  - Postnatal depression
+  - Postnatal OCD
+  * Postpartum psychosis
+  - Puerperal sepsis
+## h1232 [mix] Perinatal mental health
+A 29 year old woman gave birth 2 months ago and is breastfeeding. She has moderate postnatal depression and wants medication alongside therapy.
+Q: Which is the most appropriate choice?
+  - Doxepin
+  - Fluoxetine
+  - Lithium
+  - Mirtazapine high dose
+  * Sertraline
+## h1233 [len] Perinatal mental health
+A 33 year old woman with bipolar disorder stopped lithium for her pregnancy. She is 30 weeks pregnant and well. Her care team is planning her perinatal care.
+Q: When is her risk of relapse highest?
+  - 6 months after delivery
+  * First 2 weeks after delivery
+  - First trimester
+  - Second trimester
+  - Third trimester
+## h1234 [] Delirium
+An 84 year old woman with a urinary infection has been confused for 2 days. Her family say she was sharp last week. She is drowsy in the morning and agitated at night.
+Temperature 37.9°C. She cannot keep her attention on a conversation and cannot say the months backwards.
+Q: Which is the most likely diagnosis?
+  - Alzheimer's disease
+  * Delirium
+  - Dementia with Lewy bodies
+  - Depression
+  - Stroke
+## h1235 [clone:h1218] Delirium
+A 76 year old man with Parkinson's disease is in hospital with pneumonia and has delirium. He is very agitated and at risk of hurting himself. Non-drug measures have failed.
+Q: Which is the most appropriate drug?
+  - Chlorpromazine
+  - Haloperidol
+  * Lorazepam
+  - Olanzapine
+  - Risperidone
+## h1236 [] Delirium
+An 80 year old man was admitted with pneumonia 2 days ago. He has become quiet, sleepy and withdrawn and is not eating. His family say this is not like him.
+Temperature 37.8°C. He is drowsy but rousable and cannot name the months backwards.
+His 4AT score is 6.
+Q: Which is the most likely diagnosis?
+  - Catatonia
+  - Depression
+  * Hypoactive delirium
+  - Lewy body dementia
+  - Normal ageing
+## h1237 [clone:h0487] Adjustment disorder
+A 45 year old man lost his job 3 weeks ago. He is preoccupied with it, worried and sleeping poorly, but still manages at home. He still enjoys some things and has no suicidal thoughts.
+Q: Which is the most likely diagnosis?
+  * Adjustment disorder
+  - Depressive episode
+  - Generalised anxiety disorder
+  - Normal grief
+  - Post-traumatic stress disorder
+## h1238 [] Adjustment disorder
+A 38 year old woman has been worried and tearful since her house was repossessed. Her GP considers adjustment disorder.
+Q: Within what time after a stressor do the symptoms of adjustment disorder usually begin?
+  * 1 month
+  - 1 week
+  - 1 year
+  - 3 months
+  - 6 months
+## h1239 [mix,clone:h0488] Adjustment disorder
+A 42 year old woman has an adjustment disorder after her divorce 2 months ago. She is sad and worried, but she is working and has no suicidal thoughts.
+Q: Which is the most appropriate management?
+  - Low-dose antipsychotic
+  - Psychiatric admission
+  - Short benzodiazepine course
+  - Start sertraline
+  * Support and problem-solving
+## h1240 [] Phobias
+A 32 year old woman avoids buses, supermarkets and crowds because she fears she could not escape or get help if she panicked. She now rarely leaves home.
+Q: Which is the most likely diagnosis?
+  * Agoraphobia
+  - Claustrophobia
+  - Generalised anxiety disorder
+  - Panic disorder
+  - Social anxiety disorder
+## h1241 [mix] Phobias
+A 34 year old man has a specific phobia of dogs. It stops him walking to work. He has no other anxiety symptoms.
+Q: Which is the most appropriate treatment?
+  - Diazepam before walks
+  * Graded exposure therapy
+  - Hypnosis
+  - Propranolol
+  - Sertraline
+## h1242 [mix] Phobias
+A 24 year old woman faints whenever she has a blood test. She feels her heart race first, and then she passes out.
+Q: Which technique is most appropriate?
+  * Applied tension
+  - Avoiding all needles
+  - Diazepam beforehand
+  - Propranolol beforehand
+  - Relaxation breathing
+## h1243 [] ADHD
+An 8 year old boy has ADHD that still severely affects his schooling. Changes to his classroom and a parent training programme have been tried. He has no heart disease.
+Q: Which is the most appropriate first drug?
+  - Atomoxetine
+  - Guanfacine
+  - Lisdexamfetamine
+  - Melatonin
+  * Methylphenidate
+## h1244 [mix] ADHD
+A 9 year old boy with ADHD is about to start methylphenidate.
+Q: Which baseline measures are needed?
+  - Echocardiogram
+  - EEG
+  * Growth, pulse and blood pressure
+  - Liver and kidney function
+  - MRI brain and urine drug screen
+## h1245 [mix] ADHD
+A 10 year old boy has taken methylphenidate for 18 months. His ADHD is well controlled. He is eating less and his height is falling across the centiles.
+His height has fallen from the 50th to the 25th centile.
+Q: Which is the most appropriate step?
+  - Add cyproheptadine
+  - Add growth hormone
+  * Planned treatment break
+  - Stop it
+  - Switch to dexamfetamine
+## h1246 [] Conduct disorder & ODD
+A 13 year old boy has repeatedly hurt the family dog and set fire to a shed. He steals from shops and often stays out all night.
+Q: Which is the most likely diagnosis?
+  - Antisocial personality disorder
+  - Attention deficit hyperactivity disorder
+  - Autism spectrum disorder
+  * Conduct disorder
+  - Oppositional defiant disorder
+## h1247 [mix] Conduct disorder & ODD
+A 6 year old boy is often angry and argumentative. He refuses to follow rules at home and deliberately annoys others. There is no violence or cruelty. He is diagnosed with oppositional defiant disorder.
+Q: Which is the most appropriate first intervention?
+  - Foster care placement
+  * Group parent-training programme
+  - Individual psychotherapy for the child
+  - Methylphenidate
+  - Risperidone
+## h1248 [] Conduct disorder & ODD
+A 19 year old man has stolen, lied and been violent since the age of 12. He shows no remorse. He has been excluded from school and has lost several jobs.
+Q: Which is the most likely diagnosis?
+  * Antisocial personality disorder
+  - Bipolar disorder
+  - Conduct disorder
+  - Oppositional defiant disorder
+  - Schizophrenia
+## h1249 [mix] Intellectual disability
+A 15 year old girl has an intellectual disability. She needs support with daily living. Formal testing gives an IQ of 45.
+Q: How is her intellectual disability classed?
+  - Borderline
+  - Mild
+  * Moderate
+  - Profound
+  - Severe
+## h1250 [clone:h0501] Intellectual disability
+A 16 year old boy has a learning disability. He has autistic features.
+He has a long face, large ears and flexible joints. His testes are large.
+Q: Which is the most likely diagnosis?
+  - Angelman syndrome
+  - Down syndrome
+  * Fragile X syndrome
+  - Prader-Willi syndrome
+  - Williams syndrome
+## h1251 [mix] Intellectual disability
+A 40 year old man has a severe learning disability and no speech. He lives in a supported home. Over a week he has started banging his head and refusing food. Staff say this is new.
+He is distressed. Temperature 37.4°C, pulse rate 102 bpm. A full examination has not been possible.
+Q: Which is the most appropriate first step?
+  - Behaviour support plan
+  - Increase sedation
+  * Look for a physical cause
+  - Psychiatric admission
+  - Start risperidone
+## h1543 [len] Generalised anxiety & panic
+A 32 year old woman has worried constantly about her job, health and family for 7 months. She sleeps poorly, her muscles are tense and she cannot concentrate. She has no panic attacks.
+Q: Which is the most likely diagnosis?
+  - Depression
+  * Generalised anxiety disorder
+  - Hypochondriasis
+  - Panic disorder
+  - Social anxiety disorder
+## h1544 [len] Generalised anxiety & panic
+A 32 year old woman has symptoms of anxiety with palpitations and weight loss.
+Pulse rate 108 bpm. There is a fine tremor.
+LAB TSH under 0.01 mU/L ; Free T4 38 pmol/L 12–22; Haemoglobin 128 g/L 115–150; Glucose 5.4 mmol/L 4.0–7.8
+Q: Which result best explains her symptoms?
+  * Free T4 38, TSH suppressed
+  - GAD-7 score of 14
+  - Glucose of 5.4 mmol/L
+  - Haemoglobin of 128 g/L
+  - Sinus rhythm on ECG
+## h1545 [] Generalised anxiety & panic
+A 32 year old woman with generalised anxiety disorder has not improved with guided self-help and CBT. She would like medication.
+Q: Which is the most appropriate drug?
+  - Diazepam regularly
+  - Pregabalin first
+  - Propranolol regularly
+  * Sertraline
+  - Venlafaxine first
+## h1546 [clone:h1201] Acute stress reaction & PTSD
+A 28 year old paramedic attended a fatal crash 7 weeks ago. Since then he has had nightmares and flashbacks. He avoids the road where it happened, and he is jumpy and irritable.
+Q: Which is the most likely diagnosis?
+  - Acute stress reaction
+  - Adjustment disorder
+  - Depression
+  - Generalised anxiety disorder
+  * Post-traumatic stress disorder
+## h1547 [] Acute stress reaction & PTSD
+A 28 year old paramedic has post-traumatic stress disorder after a fatal crash. He describes several symptoms.
+Q: Which symptom belongs to the re-experiencing cluster?
+  - Avoiding the road
+  - Difficulty sleeping
+  - Feeling detached
+  * Intrusive flashbacks
+  - Irritability
+## h1548 [mix,frame] Acute stress reaction & PTSD
+A 28 year old paramedic with post-traumatic stress disorder asks for treatment. He has asthma.
+Q: Which is the most appropriate first treatment?
+  - Diazepam
+  - Propranolol
+  - Sertraline first
+  - Single debriefing session
+  * Trauma-focused CBT
+## h1549 [clone:h1204] OCD
+A 24 year old man spends 3 hours a day checking that the cooker is off and the doors are locked. He knows the fear is excessive, but he feels unbearably anxious if he resists.
+Q: Which is the most likely diagnosis?
+  - Delusional disorder
+  - Generalised anxiety disorder
+  * Obsessive-compulsive disorder
+  - Obsessive-compulsive personality
+  - Schizophrenia
+## h1550 [len,mix] OCD
+A 24 year old man has obsessive-compulsive disorder with checking rituals. He is offered psychological therapy.
+Q: Which is the most appropriate approach?
+  - Counselling
+  * Exposure and response prevention
+  - Hypnotherapy
+  - Psychodynamic therapy
+  - Relaxation training
+## h1551 [len] OCD
+A 24 year old man with obsessive-compulsive disorder has taken sertraline at a moderate dose for 12 weeks with no benefit. He takes it every day and has no side effects. He is also having CBT with exposure and response prevention.
+Q: Which is the most appropriate next step?
+  - Add diazepam
+  * Increase the sertraline dose
+  - Stop all treatment
+  - Switch to amitriptyline
+  - Switch to haloperidol
+## h1552 [clone:h0457] Somatisation & MUS
+A 34 year old woman has had pain in many places, bloating, palpitations and dizziness for 8 years. Extensive tests are normal and she has seen many specialists. She is distressed by the symptoms themselves rather than by fear of one disease.
+Examination is normal.
+Q: Which is the most likely diagnosis?
+  - Conversion disorder
+  - Factitious disorder
+  - Hypochondriasis
+  - Malingering
+  * Somatisation disorder
+## h1553 [] Somatisation & MUS
+A 26 year old nurse has had repeated episodes of confusion and sweating on the ward. She does not have diabetes.
+During an episode: glucose 1.8 mmol/L (4.0–7.8). Insulin 410 pmol/L. C-peptide under 50 pmol/L.
+Q: Which result best explains these episodes?
+  - Adrenal insufficiency
+  - Dumping syndrome
+  * Injected insulin
+  - Insulinoma
+  - Sulfonylurea use
+## h1554 [mix,frame] Somatisation & MUS
+A 34 year old woman has somatisation disorder. She has had many normal scans. Today she asks for another scan because of new abdominal pain.
+Examination is normal.
+Q: Which is the most appropriate approach?
+  - Arrange the scan to reassure her
+  - Prescribe opioids
+  - Refer to a new specialist
+  * Regular planned GP appointments
+  - Tell her the tests are all normal
+## h1555 [clone:h0472] Psychiatric drugs, serotonin syndrome & the MHA
+A 34 year old man takes sertraline. He started tramadol for back pain yesterday. He is now agitated and sweating.
+Temperature 38.4°C, pulse rate 118 bpm. His pupils are dilated. Reflexes are brisk and there is clonus in both legs.
+Q: Which is the most likely diagnosis?
+  - Alcohol withdrawal
+  - Neuroleptic malignant syndrome
+  - Sepsis
+  * Serotonin syndrome
+  - Thyroid storm
+## h1556 [] Psychiatric drugs, serotonin syndrome & the MHA
+A 34 year old man has suspected serotonin syndrome after starting tramadol with sertraline. He has clonus in both legs.
+LAB Creatine kinase 640 IU/L 25–200; White cell count 11.2 × 10⁹/L 3.8–10.0; Sodium 139 mmol/L 135–146
+Q: Which statement is most consistent with the results?
+  - CK must be over 10,000
+  - CK of 640 rules it out
+  * Mild CK rise with clonus
+  - Sodium 139 is the cause
+  - White cells mean sepsis
+## h1557 [] Psychiatric drugs, serotonin syndrome & the MHA
+A 30 year old woman is an informal patient on a psychiatric ward. Her psychosis is getting worse. She tries to leave at night. Only a nurse with the right qualification is present.
+Q: Which power can be used?
+  - Section 2
+  - Section 3
+  - Section 5.2
+  * Section 5.4
+  - Section 136
+## h1558 [clone:h0475] ECT & catatonia
+A 41 year old woman with depression has stopped speaking, eating and moving for 2 days. She holds odd postures for long periods and resists being moved.
+Temperature 36.9°C, pulse rate 84 bpm, BP 122/76 mmHg. There is no rigidity.
+Q: Which is the most likely diagnosis?
+  * Catatonia
+  - Delirium
+  - Locked-in syndrome
+  - Neuroleptic malignant syndrome
+  - Stupor from opioids
+## h1559 [] ECT & catatonia
+A 41 year old woman with catatonia is given lorazepam. She was recently started on an antipsychotic.
+Temperature 39.4°C.
+LAB Creatine kinase 18,400 IU/L 25–200; White cell count 13.0 × 10⁹/L 3.8–10.0
+Q: Which finding most suggests neuroleptic malignant syndrome rather than catatonia?
+  * Fever with a CK of 18,400
+  - Holding odd postures
+  - Mutism for 2 days
+  - Refusing food and drink
+  - Staring and stupor
+## h1560 [mix] ECT & catatonia
+A 41 year old woman with catatonic depression has not improved after 5 days of lorazepam. She is not drinking.
+Pulse rate 104 bpm. She is dry.
+Creatinine has risen from 64 to 118 µmol/L.
+Q: Which is the most appropriate next treatment?
+  * Electroconvulsive therapy
+  - Haloperidol
+  - Higher-dose sertraline
+  - Olanzapine
+  - Psychotherapy
+## h1561 [clone:h0478] Autism spectrum disorder
+A 3 year old boy rarely responds to his name and does not point to show things. He lines up his cars for hours and gets very upset with any change in routine.
+His hearing test is normal.
+Q: Which is the most likely diagnosis?
+  * Autism spectrum disorder
+  - Global developmental delay
+  - Reactive attachment disorder
+  - Selective mutism
+  - Speech and language delay
+## h1562 [mix] Autism spectrum disorder
+A 3 year old boy has possible autism. He has poor response to his name and delayed speech. He has been referred for assessment.
+Q: Which test should be done before or alongside assessment?
+  - Chromosome analysis for all
+  - EEG
+  * Formal hearing test
+  - MRI brain
+  - Thyroid function
+## h1563 [mix] Autism spectrum disorder
+A 14 year old autistic boy does not speak. Over a week he has started hitting his head and refusing food.
+He is distressed. Temperature 37.6°C. A full examination has not yet been possible.
+Q: Which is the most appropriate first step?
+  - Increase supervision and observe
+  * Look for pain or physical illness
+  - Refer for ECT
+  - Start melatonin
+  - Start risperidone
+## h1564 [clone:h0487] Adjustment disorder
+A 45 year old man has felt low, worried and irritable since being made redundant 4 weeks ago. He still sleeps and eats normally and enjoys time with his children. He has no suicidal thoughts.
+Q: Which is the most likely diagnosis?
+  * Adjustment disorder
+  - Dysthymia
+  - Generalised anxiety disorder
+  - Moderate depression
+  - Post-traumatic stress disorder
+## h1565 [] Adjustment disorder
+A 45 year old man has adjustment disorder after redundancy. He completes a PHQ-9 questionnaire.
+Q: Which score fits his diagnosis best?
+  - 2
+  * 8
+  - 16
+  - 22
+  - 27
+## h1566 [mix,clone:h0488,frame] Adjustment disorder
+A 45 year old man has adjustment disorder after redundancy. He asks for help.
+Q: Which is the most appropriate management?
+  - Antidepressant for 6 months
+  - Antipsychotic
+  - Benzodiazepine for 4 weeks
+  - Psychiatric admission
+  * Support and problem-solving
+## h1567 [] ADHD
+An 8 year old boy cannot sit still, interrupts constantly, loses things and rushes his work. This has happened at home and at school for 2 years. His teachers say he is falling behind.
+His hearing and vision are normal.
+Q: Which is the most likely diagnosis?
+  * ADHD
+  - Autism spectrum disorder
+  - Conduct disorder
+  - Generalised anxiety
+  - Oppositional defiant disorder
+## h1568 [mix] ADHD
+A 9 year old boy with ADHD is starting methylphenidate.
+Q: Which baseline results are most important to record?
+  - Full blood count and film
+  * Height, weight, pulse and BP
+  - Kidney function tests
+  - Liver function tests
+  - Thyroid function tests
+## h1569 [mix] ADHD
+A 26 year old man with ADHD wants medication. He had a seizure last year and uses cannabis daily.
+BP 128/78 mmHg.
+Q: Which is the most appropriate first step?
+  - Decline treatment until he is 30
+  * Specialist review before a stimulant
+  - Start atomoxetine today instead
+  - Start dexamfetamine this week
+  - Start lisdexamfetamine this week
+## h1570 [clone:h1246] Conduct disorder & ODD
+A 12 year old boy has stolen from shops, set a fire in a bin and hurt the family cat. He often stays out all night.
+Q: Which is the most likely diagnosis?
+  - ADHD
+  - Autism
+  - Bipolar disorder
+  * Conduct disorder
+  - Oppositional defiant disorder
+## h1571 [len,mix] Conduct disorder & ODD
+An 8 year old boy has conduct disorder. His parents are struggling to manage his behaviour.
+Q: Which is the most appropriate first-line intervention?
+  * Group parent training programme
+  - Lithium carbonate
+  - Methylphenidate
+  - Oral risperidone
+  - Residential care placement
+## h1572 [frame] Conduct disorder & ODD
+A 14 year old boy has conduct disorder. His mother asks about his future.
+Q: Which adult condition is he at high risk of?
+  - Anorexia nervosa
+  * Antisocial personality disorder
+  - Bipolar disorder
+  - Obsessive-compulsive disorder
+  - Schizophrenia
+## h1573 [mix] Intellectual disability
+A 22 year old man needs support with money and cooking, but he can travel alone and works part-time.
+His IQ is 62.
+Q: How is his intellectual disability best classed?
+  - Borderline
+  * Mild
+  - Moderate
+  - Profound
+  - Severe
+## h1574 [] Intellectual disability
+A 30 year old woman with Down syndrome has become slower and forgetful and has lost skills over a year.
+LAB TSH 18 mU/L 0.3–4.2; Free T4 8 pmol/L 12–22; Haemoglobin 124 g/L 115–150
+Q: Which condition most needs excluding first?
+  - Depression
+  - Early Alzheimer's
+  - Hearing loss
+  * Hypothyroidism
+  - Vitamin D deficiency
+## h1575 [mix] Intellectual disability
+A 28 year old man with a moderate learning disability needs a dental extraction under anaesthetic. His mother usually comes to appointments with him.
+Q: Which is the most appropriate approach to consent?
+  - Apply to the Court of Protection
+  * Assess his capacity for this decision
+  - Assume he lacks capacity
+  - His mother signs the consent form
+  - Use the Mental Health Act
+## h1659 [] Overdose, self-harm & lithium toxicity
+A 24 year old woman took a large number of aspirin tablets 6 hours ago. She has ringing in her ears and is breathing fast.
+Respiratory rate 30 breaths per minute.
+LAB pH 7.44 7.35–7.45; PaCO2 2.9 kPa 4.6–6.4; Bicarbonate 14 mmol/L 22–30; Sodium 140 mmol/L 135–146; Chloride 102 mmol/L 95–106
+Q: Which best describes the blood gas?
+  - Acute respiratory alkalosis without acidosis
+  - Metabolic acidosis with full compensation
+  - Metabolic alkalosis with respiratory compensation
+  * Mixed respiratory alkalosis and metabolic acidosis
+  - Normal gas
+## h1662 [] Overdose, self-harm & lithium toxicity
+A 36 year old man takes lithium 800 mg at 10pm each night. He feels well. A routine level was taken at 2pm the next day at a clinic visit.
+LAB Lithium 1.3 mmol/L 0.4–1.0; Creatinine 84 µmol/L 60–120; Sodium 140 mmol/L 135–146
+Q: Which is the most appropriate next step?
+  - Admit for IV fluids
+  - Arrange urgent haemodialysis
+  - Halve the lithium dose
+  * Repeat a 12-hour level
+  - Stop lithium today
+## h1663 [mix] Overdose, self-harm & lithium toxicity
+A 30 year old woman has taken extra paracetamol tablets over 3 days for toothache, about 8 g a day. She is not sure of the times. She feels nauseated. Her paracetamol level is 18 mg/L.
+LAB ALT 450 IU/L 10–50; INR 1.6 0.8–1.2
+Q: Which is the most appropriate management?
+  - Activated charcoal
+  - Discharge as the level is low
+  - Plot the level on the nomogram
+  - Repeat the level in 4 hours
+  * Start IV acetylcysteine now
+## h1664 [] Alcohol & substance misuse (incl DTs, Wernicke's)
+A 58 year old man has drunk heavily for 30 years. He was treated for Wernicke's encephalopathy 2 months ago. He is now alert and attentive, but cannot remember what he did this morning. He describes going to the shops today, although he has not left the ward.
+There is no flapping tremor.
+LAB Sodium 138 mmol/L 135–146; Glucose 5.4 mmol/L 4.0–7.8; Ammonia 32 µmol/L <50
+Q: Which is the most likely diagnosis?
+  - Alzheimer's disease
+  - Delirium tremens
+  - Hepatic encephalopathy
+  * Korsakoff's syndrome
+  - Wernicke's encephalopathy
+## h1707 [] Alcohol & substance misuse (incl DTs, Wernicke's)
+A 52 year old man who drinks 25 units a day is admitted for a hip operation. His last drink was at 8 pm last night. The nurses ask when he is most at risk of delirium tremens.
+Q: When are delirium tremens most likely to start?
+  - 1 to 2 hours after his last drink
+  - 1 week after his last drink
+  - 3 weeks after his last drink
+  - 6 to 12 hours after his last drink
+  * 48 to 72 hours after his last drink
+## h1751 [len,mix] Antipsychotics (incl NMS & acute dystonia)
+A 38-year-old man with treatment-resistant paranoid schizophrenia started clozapine 3 weeks ago after failing trials of risperidone and olanzapine. He presents to his GP with a 2-day history of sore throat, mouth ulcers, and a fever of 38.6°C. He has no muscle rigidity or tremor. On examination his heart rate is 98 beats/min, blood pressure is 124/76 mmHg, and tonsillar exudates are visible.
+Q: What is the most important immediate action?
+  - Continue clozapine and prescribe a 10-day course of oral phenoxymethylpenicillin
+  - Halve the dose of clozapine and arrange a routine blood test in 1 week
+  - Start intramuscular benztropine or procyclidine for extrapyramidal symptoms
+  - Start intravenous dantrolene and bromocriptine immediately
+  * Withhold clozapine immediately and perform an urgent same-day full blood count with absolute neutrophil count
+## h1786 [clone:h0463] Personality disorders
+A 32 year old man is brought to his GP by his sister, who is worried that he has no friends. He works night shifts alone as a security guard and spends his free time doing jigsaws. He says he has never wanted a close relationship and does not mind what others think of him. He shows little emotion during the consultation.
+He has no unusual beliefs, odd speech or perceptual disturbances and is not low in mood.
+Q: Which is the most likely diagnosis?
+  - Autism spectrum disorder
+  - Avoidant personality disorder
+  * Schizoid personality disorder
+  - Schizophrenia
+  - Schizotypal personality disorder
+## h1835 [] Eating disorders
+A 17 year old girl is brought to her GP by her mother, who has noticed she is eating very little and running every day. She has not had a period for 5 months. She says she is still too fat and is frightened of gaining weight. She denies bingeing or vomiting.
+Height 1.65 m, weight 43 kg, BMI 15.8 kg/m². Pulse rate 48 bpm. She has fine downy hair on her arms.
+LAB Potassium 4.0 mmol/L 3.5–5.3; Glucose 3.9 mmol/L 4.0–7.8
+Q: Which is the most likely diagnosis?
+  * Anorexia nervosa
+  - Atypical anorexia nervosa
+  - Avoidant restrictive food intake disorder
+  - Bulimia nervosa
+  - Hyperthyroidism
+## h1841 [clone:h1246] Conduct disorder & ODD
+A 13 year old boy is referred by his school. Over the past 18 months he has stolen from shops, set fire to a bin, been cruel to the family cat and regularly stays out all night without permission. He has hit other pupils and threatened a teacher with a compass.
+He is not low in mood, has no psychotic symptoms and does not use drugs.
+Q: Which is the most likely diagnosis?
+  - Antisocial personality disorder
+  - Attention deficit hyperactivity disorder
+  - Autism spectrum disorder
+  * Conduct disorder
+  - Oppositional defiant disorder
+## h1842 [len] ADHD
+An 8 year old boy is brought to his GP because his teacher says he cannot sit still, interrupts constantly and rarely finishes his work. His parents say he is the same at home, loses things every day and runs into the road without looking. This has been the case since he started school 3 years ago.
+His hearing test is normal. He makes good eye contact, plays imaginatively and has friends. No staring spells have been seen.
+Q: Which is the most likely diagnosis?
+  * Attention deficit hyperactivity disorder
+  - Autism spectrum disorder
+  - Childhood absence epilepsy
+  - Hearing impairment
+  - Oppositional defiant disorder
+## h1852 [] Bipolar disorder
+A 29 year old man is brought in by his partner. For 10 days he has slept 2 hours a night, talked rapidly and spent £8,000 on cars he cannot afford. He says he is about to become a billionaire. Two years ago he had 4 months of low mood and could not work. He does not use drugs, and a urine drug screen is negative.
+He is overactive, distractible and difficult to interrupt.
+Q: Which is the most likely diagnosis?
+  * Bipolar affective disorder
+  - Cyclothymia
+  - Emotionally unstable personality disorder
+  - Recurrent depressive disorder
+  - Schizophrenia

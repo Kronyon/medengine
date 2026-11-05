@@ -1338,7 +1338,7 @@ html .seg{max-width:100%;min-width:0;overflow-x:auto;scrollbar-width:none}html .
 </style>
 <header class="top">
   <button class="iconbtn menu-btn" id="menuBtn" aria-label="Open chapters">☰</button>
-  <button class="brand" id="homeBtn" aria-label="medengine-STEP1 home"><span class="bill">m</span><span class="word">medengine-STEP1</span><small>v3.6.3</small></button>
+  <button class="brand" id="homeBtn" aria-label="medengine-STEP1 home"><span class="bill">m</span><span class="word">medengine-STEP1</span><small>v3.6.4</small></button>
   <button type="button" class="btn sm ghost" data-go="labs" title="US lab values with the UK bridge">🧪 Labs (US↔UK)</button>
   <a class="oscelink" href="https://claude.ai/artifact/NexSvgTB8VhqktVFfko6JR" target="_blank" rel="noopener" title="Open medengine-STUDY, your FFP revision"><span class="od">m</span>medengine-STUDY ↗</a>
   <div class="search-wrap">
@@ -9053,7 +9053,7 @@ const HQ_IL = {I: ['🎯', 'In my ILOs'], E: ['🟡', 'ILO edge'], O: ['🌍', '
 const HQ_GK = {clone: ['🔥', 'Double-tested'], chain: ['⛓️', 'Same patient, next step'], block: ['🚫', 'Comorbidity blocks first line'], decoy: ['⚠️', 'Lab decoy'], matrix: ['🧮', 'One grid, every angle'], twin: ['🔗', 'Same trap, new patient']};
 function hqGroupsOf(id){ if (!hqGroupsOf.c) { const m = {}; OFF.g.forEach((g, gi) => g.ids.forEach(x => (m[x] = m[x] || []).push(gi))); hqGroupsOf.c = m; } return hqGroupsOf.c[id] || []; }
 function hqInKind(id, k){ return hqGroupsOf(id).some(gi => OFF.g[gi].k === k); }
-const HQ_SRC = [['all', '🔨', 'Everything'], ['u', '🩺', 'Step 1 topics'], ['d', '💊', 'Drugs'], ['x', '🛠️', 'Tests and procedures'], ['b', '🧭', 'Off the map'], ['m', '🎓', 'My mock'], ['o', '🏛️', 'Official papers'], ['e', '🆕', 'Set E: FFP topics']];
+const HQ_SRC = [['all', '🔨', 'Everything'], ['u', '🩺', 'Step 1 topics'], ['d', '💊', 'Drugs'], ['x', '🛠️', 'Tests and procedures'], ['b', '🧭', 'Off the map'], ['m', '🎓', 'My mock'], ['o', '🏛️', 'Official papers'], ['e', '🆕', 'Set E: FFP topics'], ['ml', '🎓', 'Mock-like']];
 const HQ_PI = {L: '👯', N: '🔢', T: '📍', D: '💊', R: '🪜'};
 const HAM = n => '🔨'.repeat(n);
 /* v2.7: every chip row is multi-select. Inside a row the picks add together (either); across rows they narrow (and).
@@ -9142,7 +9142,7 @@ function hqFilter(){
       if (c.tgt === 'srcm:u') { const st = hqStat(it.id); return it.t !== 'm' && it.t !== 'o' && !!(st && st[2] === 0); }
       return c.tgt === 'mq:' + it.id || c.tgt === 'oq:' + it.id || c.tgt === it.t + ':' + it.k || (c.tgt[0] === 'u' && (it.t === 'm' || it.t === 'o') && 'u:' + it.k === c.tgt);
     }
-    if (!hqHas(c.src, it.t) && !(it.set === 'E' && c.src.includes('e'))) return false;
+    if (!hqHas(c.src, it.t) && !(it.set === 'E' && c.src.includes('e')) && !(it.ml && c.src.includes('ml'))) return false;
     /* paper and ILO verdict exist only for official questions, so they narrow those and let other sources through */
     if (it.t === 'o' && (!hqHas(c.pp, it.pp) || !hqHas(c.ilo, it.il))) return false;
     if (c.tr.length && !(c.trAll ? c.tr.every(k => hqInKind(it.id, k)) : c.tr.some(k => hqInKind(it.id, k)))) return false;
@@ -9298,7 +9298,7 @@ function viewHammer(m){
   } else {
     h += '<div class="panel hq-f"><div class="toolbar hq-fhead"><span class="hint grow">Tap as many as you like. <b>Inside a row</b> picks add together; <b>across rows</b> they narrow it down.</span>' + (hqActive() ? '<button class="btn ghost sm" data-hqclear>✕ Clear filters</button>' : '') + '</div>'
       + '<div class="chips">' + chip('tr', '', '🧬 Any examiner pattern') + Object.entries(HQ_GK).map(([k, v]) => chip('tr', k, v[0] + ' ' + v[1])).join('') + (c.tr.length > 1 ? '<span class="hq-sep"></span><span class="seg hq-trm" role="group" aria-label="Match"><button class="chip' + (c.trAll ? '' : ' on') + '" data-hqtrall="0">In any of these</button><button class="chip' + (c.trAll ? ' on' : '') + '" data-hqtrall="1">In all of these</button></span>' : '') + '</div>'
-      + '<div class="chips">' + HQ_SRC.map(([k, ic, l]) => { const sub = k === 'all' ? all : all.filter(it => k === 'e' ? it.set === 'E' : it.t === k), st = hqPctStats(sub); if (k === 'e' && !sub.length) return ''; return chip('src', k, ic + ' ' + l + ' · ' + sub.length + (st.done ? ' (' + st.pct + '%)' : '')); }).join('') + '</div>'
+      + '<div class="chips">' + HQ_SRC.map(([k, ic, l]) => { const sub = k === 'all' ? all : all.filter(it => k === 'e' ? it.set === 'E' : k === 'ml' ? !!it.ml : it.t === k), st = hqPctStats(sub); if ((k === 'e' || k === 'ml') && !sub.length) return ''; return chip('src', k, ic + ' ' + l + ' · ' + sub.length + (st.done ? ' (' + st.pct + '%)' : '')); }).join('') + '</div>'
       + '<div class="chips">' + chip('h', 0, 'Any hammer') + [1, 2, 3].map(n => chip('h', n, HAM(n))).join('') + '<span class="hq-sep"></span>' + chip('p', '', 'Any pattern') + Object.keys(HQ.pat).map(p => chip('p', p, HQ_PI[p] + ' ' + esc(HQ.pat[p]))).join('') + '</div>'
       + (c.src.includes('o') ? '<div class="chips"><span class="hq-rl">🏛️ Official questions only:</span>' + chip('pp', '', 'Every paper') + Object.entries(OFF.pp).map(([k, v]) => { const pArr = all.filter(o => o.t === 'o' && o.pp === k), pSt = hqPctStats(pArr); return chip('pp', k, esc(v[0]) + ' · ' + pArr.length + (pSt.done ? ' (' + pSt.pct + '%)' : '')); }).join('') + '<span class="hq-sep"></span>' + chip('ilo', '', 'Any topic') + Object.entries(HQ_IL).map(([k, v]) => chip('ilo', k, v[0] + ' ' + v[1] + ' · ' + OFF.q.filter(o => o.il === k).length)).join('') + '</div>' : '')
       + '<div class="chips">' + chip('st', '', 'All') + chip('st', 'new', '🆕 Not done') + chip('st', 'miss', '🔥 Missed last time') + '<label class="hq-sys">System <select data-hqsys aria-label="Filter by system"><option value="">All systems</option>' + MEV.sysOptions(c.sys) + '</select></label></div></div>';
@@ -9325,10 +9325,31 @@ function hqIndex(list){
 const HQ_BY = {}; function hqItem(id){ if (!HQ_BY._ok) { hqAll().forEach(it => HQ_BY[it.id] = it); HQ_BY._ok = 1; } return HQ_BY[id]; }
 /* every unfinished run is kept (newest first, up to HQ_KEEP) so starting a new one never wipes the last */
 const HQ_KEEP = 12;
+/* v3.6.4: move a saved run's picks and crossed-out options to the new letters after an option rewrite */
+function hqMig(r){
+  let ch = 0;
+  if (!r.ov) { Object.keys(r.pk || {}).forEach(id => { const q = hqItem(id); if (q && q.pm) r.pk[id] = q.pm[r.pk[id]]; }); Object.keys(r.x || {}).forEach(id => { const q = hqItem(id); if (q && q.pm) r.x[id] = r.x[id].map(v => q.pm[v]); }); r.ov = 2; ch = 1; }
+  const tgt = HQ.ov || 2;
+  if (r.ov < tgt) {
+    const mv = (q, v) => { (q.pmv || []).forEach(([ver, pm]) => { if (ver > r.ov && v != null) v = pm[v]; }); return v; };
+    Object.keys(r.pk || {}).forEach(id => { const q = hqItem(id); if (q && q.pmv) { const v = mv(q, r.pk[id]); if (v == null) delete r.pk[id]; else r.pk[id] = v; } });
+    Object.keys(r.x || {}).forEach(id => { const q = hqItem(id); if (q && q.pmv) r.x[id] = (r.x[id] || []).map(v => mv(q, v)).filter(v => v != null); });
+    r.ov = tgt; ch = 1;
+  }
+  return ch;
+}
+function hqTmaiMig(){
+  const tgt = HQ.ov || 2; if (!S.tmai || (S.tmov || 2) >= tgt) return;
+  Object.keys(S.tmai).forEach(id => { const q = hqItem(id); if (q && (q.pmv || []).some(([v]) => v > (S.tmov || 2))) delete S.tmai[id]; });
+  S.tmov = tgt; save();
+}
 function hqRuns(){
   if (S.hqRun && S.hqRun.ids && S.hqRun.ids.length) { S.hqRuns = S.hqRuns || []; S.hqRuns.unshift(Object.assign({rid: 'r' + (S.hqRun.ts || Date.now())}, S.hqRun)); }
   if (S.hqRun !== undefined) { delete S.hqRun; save(); }
-  return S.hqRuns || (S.hqRuns = []);
+  const R = S.hqRuns || (S.hqRuns = []);
+  if (R.reduce((n, r) => n + hqMig(r), 0)) save();
+  hqTmaiMig();
+  return R;
 }
 function hqNewRun(list, lbl, customLbl){
   const ids = list.map(it => it.id), key = ids.join(','), same = hqRuns().find(r => r.ids.join(',') === key);
@@ -9352,7 +9373,7 @@ function hqRunScore(r){
 function hqSave(){
   if (!hqSess || hqSess.done || hqSess.rev) return;
   const sc = hqRunScore(hqSess);
-  const R = hqRuns(), rec = {rid: hqSess.rid, ids: hqSess.ids, i: hqSess.i, pk: hqSess.pk, x: hqSess.x, lbl: hqSess.lbl, customLbl: hqSess.customLbl ? 1 : 0, done: sc.done, right: sc.right, pct: sc.pct, ts: Date.now(), ov: 2};
+  const R = hqRuns(), rec = {rid: hqSess.rid, ids: hqSess.ids, i: hqSess.i, pk: hqSess.pk, x: hqSess.x, lbl: hqSess.lbl, customLbl: hqSess.customLbl ? 1 : 0, done: sc.done, right: sc.right, pct: sc.pct, ts: Date.now(), ov: HQ.ov || 2};
   const k = R.findIndex(r => r.rid === hqSess.rid); if (k >= 0) R.splice(k, 1);
   R.unshift(rec); R.length = Math.min(R.length, HQ_KEEP); syLocalRunTs = rec.ts; save();
 }
@@ -9377,7 +9398,7 @@ function hqOpenRename(rid){
 function hqResume(rid){
   const R = hqRuns(), r = rid ? R.find(x => x.rid === rid) : R[0]; if (!r || !r.ids || !r.ids.length) return false;
   const ids = r.ids.filter(id => hqItem(id)); if (!ids.length) { hqDrop(r.rid); return false; }
-  if (!r.ov) { Object.keys(r.pk || {}).forEach(id => { const q = hqItem(id); if (q && q.pm) r.pk[id] = q.pm[r.pk[id]]; }); Object.keys(r.x || {}).forEach(id => { const q = hqItem(id); if (q && q.pm) r.x[id] = r.x[id].map(v => q.pm[v]); }); r.ov = 2; }
+  hqMig(r);
   hqSess = {kind: 'hammer', rid: r.rid, ids, i: Math.min(r.i || 0, ids.length - 1), pk: r.pk || {}, pend: {}, x: r.x || {}, lbl: r.lbl || '', customLbl: r.customLbl ? 1 : 0};
   session = hqSess; hqDraw($('#main')); window.scrollTo({top: 0}); return true;
 }
@@ -10620,7 +10641,7 @@ function mevCheckUI(root){
   });
   return {ok: errs.length === 0, errors: errs};
 }
-Object.assign(window.__mev, {tmBt, tmHtml, msMerge, hqItem, hqAll, check: mevCheck, checkUI: mevCheckUI, run: ids => hqNewRun(ids.map(hqItem), 'test')});
+Object.assign(window.__mev, {tmBt, tmHtml, msMerge, hqItem, hqAll, hqRuns, hqRunScore, state: () => S, check: mevCheck, checkUI: mevCheckUI, run: ids => hqNewRun(ids.map(hqItem), 'test')});
 Object.defineProperty(window.__mev, 'msData', {get(){ return msLoad(); }});
 
 /* ---------- events ---------- */

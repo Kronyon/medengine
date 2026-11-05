@@ -1,0 +1,1004 @@
+## h0159 [ent] A 30 year old woman has had hearing loss in both ears over 2 years with tinnitus and unsteadiness. Her father had similar problems and needed brain surgery. She
+ Q: Which condition is most likely? | ANS: Neurofibromatosis type 2
+ OPT: Sturge-Weber syndrome
+ KB: Classic picture: Port-wine stain (V1) + seizures + glaucoma
+## h0159 [ent] A 30 year old woman has had hearing loss in both ears over 2 years with tinnitus and unsteadiness. Her father had similar problems and needed brain surgery. She
+ Q: Which condition is most likely? | ANS: Neurofibromatosis type 2
+ OPT: Tuberous sclerosis
+ KB: Classic picture: Ash-leaf macules + facial angiofibromas + seizures + renal angiomyolipoma
+## h0160 [ent] A 64 year old man noticed this morning that the right side of his face has drooped. He has hypertension and smokes. He is examined to decide whether this is a s
+ Q: Which feature most suggests a stroke rather than Bell's palsy? | ANS: Sparing of the forehead
+ OPT: Hyperacusis
+ KB: Classic picture: LMN facial palsy extras
+## h0161 [ent] A 60 year old man has had severe pain in his right ear for 3 days. This morning the right side of his face became weak. Temperature 37.5°C. There are vesicles i
+ Q: Which is the most likely diagnosis? | ANS: Ramsay Hunt syndrome
+ OPT: Cholesteatoma
+ KB: Classic picture: Painless foul-smelling discharge + attic crust/retraction pocket + conductive loss
+## h0163 [ent] A 45 year old woman has had constant spinning vertigo, nausea and unsteadiness for 2 days. It started a week after a cold. Her hearing is normal and she has no 
+ Q: Which is the most likely diagnosis? | ANS: Vestibular neuronitis
+ OPT: Ménière's disease
+ KB: Classic picture: Hours of vertigo + roaring tinnitus + fullness + fluctuating low-tone hearing loss. Ménière's disease
+## h0165 [ent] A 42 year old man has had constant vertigo with vomiting for 1 day after a viral illness. His hearing is normal. A diagnosis of vestibular neuronitis is made. H
+ Q: Which drug is most appropriate for a short course? | ANS: Prochlorperazine
+ OPT: Sertraline
+ KB: Classic picture: Depression after an MI
+## h0174 [ent] A 19 year old woman has had a sore throat for a week. Her GP started an antibiotic 3 days ago. She now has a widespread itchy rash. There is a widespread maculo
+ Q: Which antibiotic is most likely to have caused the rash? | ANS: Amoxicillin
+ OPT: Doxycycline
+ KB: Used for: Chlamydia 7 days, Lyme, Q fever, psittacosis, CAP alternative, MRSA skin
+## h0174 [ent] A 19 year old woman has had a sore throat for a week. Her GP started an antibiotic 3 days ago. She now has a widespread itchy rash. There is a widespread maculo
+ Q: Which antibiotic is most likely to have caused the rash? | ANS: Amoxicillin
+ OPT: Erythromycin
+ KB: Used for: Macrolide in pregnancy; neonatal chlamydia
+## h0175 [ent] A 48 year old woman has Ménière's disease confirmed by an ENT surgeon. She has attacks of vertigo every few weeks lasting several hours, with fluctuating hearin
+ Q: Which drug can be tried to reduce the frequency of attacks? | ANS: Betahistine
+ OPT: Amitriptyline
+ KB: Used for: Neuropathic pain, migraine prevention, low dose
+## h0181 [ent] A 72 year old man with type 2 diabetes has had severe right ear pain and discharge for 4 weeks. It has not improved with antibiotic ear drops. The pain keeps hi
+ Q: Which is the most likely diagnosis? | ANS: Necrotising otitis externa
+ OPT: Cholesteatoma
+ KB: Classic picture: Painless foul-smelling discharge + attic crust/retraction pocket + conductive loss
+## h0182 [ent] A 36 year old woman has had an itchy right ear for 3 weeks. She has used antibiotic and steroid ear drops for 2 weeks without improvement. Otoscopy shows white,
+ Q: Which is the most likely cause? | ANS: Fungal infection
+ OPT: Staph aureus
+ KB: Classic picture: Boil or pustule on a hair, abscess
+## h0183 [ent] A 24 year old swimmer has had a painful, discharging left ear for 5 days. There is pain on moving the pinna and the ear canal is swollen and red with debris. Af
+ Q: Which ear drops should be avoided? | ANS: Gentamicin
+ OPT: Dexamethasone
+ KB: Used for: Croup, tumour brain swelling, pneumococcal meningitis, cord compression
+## h0184 [ent] A 2 year old boy has had right ear pain and fever for 2 days. He is drinking well. Temperature 38.6°C. The right tympanic membrane is red and bulging, and there
+ Q: Which is the most appropriate management? | ANS: Amoxicillin for 5 days
+ OPT: Grommets
+ KB: Used for: Glue ear over 3 months with hearing loss
+## h0186 [ent] A 30 year old man has had a smelly discharge from his right ear for 6 months and his hearing on that side has worsened. Antibiotic drops have not helped. Otosco
+ Q: Which is the most likely diagnosis? | ANS: Cholesteatoma
+ OPT: Acute otitis media
+ KB: Classic picture: Child, bulging red eardrum, fever, pulling the ear. Acute otitis media
+## h0191 [ent] A 25 year old man has had a worsening sore throat for 5 days, much worse on the left. He cannot open his mouth fully and his voice is muffled. Temperature 38.7°
+ Q: Which is the most likely diagnosis? | ANS: Peritonsillar abscess
+ OPT: Glandular fever
+ KB: Classic picture: Teenager, sore throat, posterior neck nodes, tired for weeks, rash after amoxicillin. Glandular fever: EBV
+## h0195 [ent] A baby girl born at term has a swelling in the left side of her neck. She is feeding well and breathing normally. There is a 5 cm soft, compressible, painless s
+ Q: Which is the most likely diagnosis? | ANS: Cystic hygroma
+ OPT: Branchial cyst
+ KB: Classic picture: Lump at the anterior border of SCM in a young adult
+## h0202 [eye] A 34 year old woman has had a lump in her left upper eyelid for 2 months. It has slowly grown but is not painful. She has blepharitis. There is a 6 mm firm, non
+ Q: Which is the most likely diagnosis? | ANS: Chalazion
+ OPT: Molluscum
+ KB: Classic picture: Child, pearly papules with a central dimple
+## h0208 [eye] A 38 year old man has had a painful, red, watery right eye for 2 days. He had a cold sore last week. Visual acuity is 6/9 in the right eye. Fluorescein staining
+ Q: Which eye drops should be avoided? | ANS: Dexamethasone
+ OPT: Cyclopentolate
+ KB: Used for: Anterior uveitis: dilates, stops the iris sticking, eases pain
+## h0209 [eye] A 29 year old man who wears soft contact lenses has had a very painful right eye for 5 days. He rinses his lenses and case with tap water and sometimes swims in
+ Q: Which organism is most likely? | ANS: Acanthamoeba
+ OPT: Staph aureus
+ KB: Classic picture: Boil or pustule on a hair, abscess
+## h0215 [eye] A 58 year old woman has had a deep, boring pain in her right eye for 4 days that wakes her at night. The eye is very red and tender. Ophthalmology confirm scler
+ Q: Which condition is most commonly associated? | ANS: Rheumatoid arthritis
+ OPT: Hypothyroidism
+ KB: Classic picture: Cold, tired, weight gain, slow relaxing reflexes, high TSH. Hypothyroidism
+## h0216 [eye] A 54 year old woman has had a painful red eye for a week. Ophthalmology diagnose non-necrotising anterior scleritis with no infection. Her kidney function is no
+ Q: Which is the most appropriate first treatment? | ANS: Oral NSAID
+ OPT: Pilocarpine
+ KB: Used for: Acute angle closure: shrinks the pupil to open the angle
+## h0220 [eye] A 6 year old girl has had a red, swollen left upper eyelid for 1 day after a scratch from her cat. Temperature 37.8°C. The left upper lid is red and swollen. Sh
+ Q: Which is the most likely diagnosis? | ANS: Periorbital cellulitis
+ OPT: Conjunctivitis
+ KB: Classic picture: Red, sticky, itchy, both eyes, normal vision. Conjunctivitis
+## h0220 [eye] A 6 year old girl has had a red, swollen left upper eyelid for 1 day after a scratch from her cat. Temperature 37.8°C. The left upper lid is red and swollen. Sh
+ Q: Which is the most likely diagnosis? | ANS: Periorbital cellulitis
+ OPT: Stye
+ KB: Classic picture: Painful red lump on the lid margin
+## h0221 [eye] A 7 year old boy has had a swollen, red left eye for 2 days after a cold. He now has pain on moving the eye. Temperature 38.9°C. The left lid is swollen shut. W
+ Q: Which imaging is most appropriate? | ANS: CT orbit and sinuses
+ OPT: MRI of the brain
+ KB: Used for: MS, posterior fossa, encephalitis, tumour
+## h0222 [eye] A 9 year old girl is being treated for left orbital cellulitis. Over the last 12 hours she has developed a severe headache and vomiting, and her right eye has a
+ Q: Which is the most likely complication? | ANS: Cavernous sinus thrombosis
+ OPT: Acute glaucoma
+ KB: Typical: Chronic: 40+, family history, Black · acute: older, long-sighted, East Asian; Chronic: no symptoms, slow loss of side vision, Acute: very painful red eye, Halos around lights
+## h0226 [eye] A 70 year old man with hypertension woke up with blurred vision in his left eye. It is painless. Visual acuity is 6/60 in the left eye. There is a relative affe
+ Q: Which is the most likely diagnosis? | ANS: Central retinal vein occlusion
+ OPT: Retinal detachment
+ KB: Classic picture: Flashes + floaters + a curtain over part of the vision. Retinal detachment: same-day surgery
+## h0226 [eye] A 70 year old man with hypertension woke up with blurred vision in his left eye. It is painless. Visual acuity is 6/60 in the left eye. There is a relative affe
+ Q: Which is the most likely diagnosis? | ANS: Central retinal vein occlusion
+ OPT: Vitreous haemorrhage
+ KB: Classic picture: Diabetic with sudden floaters and loss of red reflex
+## h0228 [eye] A 68 year old man had sudden painless loss of vision in his left eye this morning, like a curtain coming down. It lasted 5 minutes and recovered completely. He 
+ Q: Which is the most likely cause? | ANS: Amaurosis fugax
+ OPT: Glaucoma
+ KB: Typical: Chronic: 40+, family history, Black · acute: older, long-sighted, East Asian; Chronic: no symptoms, slow loss of side vision, Acute: very painful red eye, Halos around lights
+## h0228 [eye] A 68 year old man had sudden painless loss of vision in his left eye this morning, like a curtain coming down. It lasted 5 minutes and recovered completely. He 
+ Q: Which is the most likely cause? | ANS: Amaurosis fugax
+ OPT: Retinal detachment
+ KB: Classic picture: Flashes + floaters + a curtain over part of the vision. Retinal detachment: same-day surgery
+## h0229 [eye] A 76 year old man had cataract surgery on his right eye 3 days ago. Since yesterday the eye has become increasingly painful and red and his vision has worsened.
+ Q: Which is the most likely diagnosis? | ANS: Endophthalmitis
+ OPT: Acute glaucoma
+ KB: Typical: Chronic: 40+, family history, Black · acute: older, long-sighted, East Asian; Chronic: no symptoms, slow loss of side vision, Acute: very painful red eye, Halos around lights
+## h0229 [eye] A 76 year old man had cataract surgery on his right eye 3 days ago. Since yesterday the eye has become increasingly painful and red and his vision has worsened.
+ Q: Which is the most likely diagnosis? | ANS: Endophthalmitis
+ OPT: Retinal detachment
+ KB: Classic picture: Flashes + floaters + a curtain over part of the vision. Retinal detachment: same-day surgery
+## h0230 [eye] A 72 year old woman had uncomplicated cataract surgery on her left eye a year ago, after which her vision was excellent. Over the last few months her vision in 
+ Q: Which is the most likely cause? | ANS: Capsule opacification
+ OPT: Glaucoma
+ KB: Typical: Chronic: 40+, family history, Black · acute: older, long-sighted, East Asian; Chronic: no symptoms, slow loss of side vision, Acute: very painful red eye, Halos around lights
+## h0231 [eye] A 6 week old baby girl has a white reflection in her right pupil on a flash photograph taken by her parents. The left eye looks normal in photos. She feeds well
+ Q: Which is the most important diagnosis to exclude? | ANS: Retinoblastoma
+ OPT: Glaucoma
+ KB: Typical: Chronic: 40+, family history, Black · acute: older, long-sighted, East Asian; Chronic: no symptoms, slow loss of side vision, Acute: very painful red eye, Halos around lights
+## h0232 [eye] A 78 year old woman has noticed that straight lines look wavy in her right eye for 2 weeks. Her central vision has become blurred. Visual acuity is 6/24 in the 
+ Q: Which is the most appropriate treatment? | ANS: Anti-VEGF injections
+ OPT: Laser photocoagulation
+ KB: Used for: Proliferative diabetic retinopathy
+## h0234 [eye] A 72 year old man has wet macular degeneration in his left eye, which is being treated. His right eye has dry macular degeneration. He asks how he can check his
+ Q: Which test best detects new central distortion at home? | ANS: Amsler grid
+ OPT: Visual fields
+ KB: Used for: Pituitary, stroke, glaucoma
+## h0236 [eye] A 48 year old man has had headaches for 6 months. He has recently started bumping into people on both sides when walking through crowds. Visual acuity is 6/9 in
+ Q: Which is the most likely cause? | ANS: Pituitary tumour
+ OPT: Optic neuritis
+ KB: Classic picture: Pain on eye movement + red desaturation + central scotoma, young woman
+## h0236 [eye] A 48 year old man has had headaches for 6 months. He has recently started bumping into people on both sides when walking through crowds. Visual acuity is 6/9 in
+ Q: Which is the most likely cause? | ANS: Pituitary tumour
+ OPT: Retinal detachment
+ KB: Classic picture: Flashes + floaters + a curtain over part of the vision. Retinal detachment: same-day surgery
+## h0237 [eye] A 64 year old man has had a cough for 3 months, pain in his left shoulder radiating down the inner arm, and has lost 6 kg. He has smoked for 45 years. There is 
+ Q: Which is the most likely cause? | ANS: Pancoast tumour
+ OPT: Bell's palsy
+ KB: Classic picture: Sudden one-sided facial weakness including the forehead. Bell's palsy: prednisolone within 72 hours
+## h0239 [eye] A 24 year old woman was hit in the right eye by a squash ball 4 hours ago. Her vision is blurred. Visual acuity is 6/18 in the right eye. There is a 2 mm layer 
+ Q: Which is the most likely diagnosis? | ANS: Hyphaema
+ OPT: Corneal abrasion
+ KB: Classic picture: Scratchy watery eye after a fingernail or contact lens
+## h0239 [eye] A 24 year old woman was hit in the right eye by a squash ball 4 hours ago. Her vision is blurred. Visual acuity is 6/18 in the right eye. There is a 2 mm layer 
+ Q: Which is the most likely diagnosis? | ANS: Hyphaema
+ OPT: Retinal detachment
+ KB: Classic picture: Flashes + floaters + a curtain over part of the vision. Retinal detachment: same-day surgery
+## h0240 [eye] A 26 year old man was punched in the right eye 3 hours ago. He has double vision when he looks up. There is bruising and swelling around the right eye. He canno
+ Q: Which is the most likely diagnosis? | ANS: Orbital floor fracture
+ OPT: Retinal detachment
+ KB: Classic picture: Flashes + floaters + a curtain over part of the vision. Retinal detachment: same-day surgery
+## h0294 [acuteabdo] A 70 year old man is on the intensive care unit 8 days after an emergency aortic aneurysm repair. He is ventilated and on parenteral nutrition. He has developed
+ Q: Which is the most likely diagnosis? | ANS: Acalculous cholecystitis
+ OPT: Biliary colic
+ KB: Classic picture: Fat, female, forty, fertile; colicky RUQ pain after fatty meals
+## h0301 [acuteabdo] A 70 year old man attends for a routine review of his hypertension. He has no abdominal or back pain. He is an ex-smoker with 40 pack-years. BP 142/84 mmHg, pul
+ Q: Which is the most appropriate first investigation? | ANS: Abdominal ultrasound
+ OPT: Echocardiogram
+ KB: Used for: Murmur, heart failure, new AF
+## h0302 [acuteabdo] A 72 year old man has a 4 cm abdominal aortic aneurysm found on screening and is on yearly ultrasound surveillance. He smokes 20 cigarettes a day and takes amlo
+ Q: Which measure most reduces aneurysm growth? | ANS: Stopping smoking
+ OPT: Doxycycline
+ KB: Used for: Chlamydia 7 days, Lyme, Q fever, psittacosis, CAP alternative, MRSA skin
+## h0302 [acuteabdo] A 72 year old man has a 4 cm abdominal aortic aneurysm found on screening and is on yearly ultrasound surveillance. He smokes 20 cigarettes a day and takes amlo
+ Q: Which measure most reduces aneurysm growth? | ANS: Stopping smoking
+ OPT: Warfarin
+ KB: Used for: Metallic valve, AF with moderate or severe mitral stenosis, antiphospholipid
+## h0303 [acuteabdo] A 74 year old man had an open repair of an abdominal aortic aneurysm with a Dacron graft 2 years ago. Last week he had a small episode of vomiting blood that st
+ Q: Which is the most likely diagnosis? | ANS: Aortoenteric fistula
+ OPT: Angiodysplasia
+ KB: Classic picture: Recurrent painless PR bleeding + aortic stenosis
+## h0304 [acuteabdo] A 56 year old man vomited forcefully several times after a heavy night of drinking. He then developed severe central chest and upper abdominal pain that is wors
+ Q: Which is the most likely diagnosis? | ANS: Boerhaave syndrome
+ OPT: Acute pancreatitis
+ KB: Classic picture: Epigastric pain through to the back, vomiting, lipase over 3 times normal. Acute pancreatitis
+## h0312 [acuteabdo] A 22 year old woman has had lower abdominal pain and deep dyspareunia for 1 week with an abnormal vaginal discharge. She has a new sexual partner. Temperature 3
+ Q: Which test is most important to find the cause? | ANS: Chlamydia and gonorrhoea NAAT
+ OPT: Blood cultures
+ KB: Used for: Fever with a source unknown, sepsis, endocarditis
+## h0316 [acuteabdo] A 26 year old woman has had sudden lower abdominal pain for 2 hours with pain at the tip of her left shoulder. She has light vaginal bleeding. Her last period w
+ Q: Which is the most likely diagnosis? | ANS: Ruptured ectopic pregnancy
+ OPT: Acute appendicitis
+ KB: Classic picture: Pain starts round the belly button, then moves to the right iliac fossa, anorexia. Appendicitis
+## h0318 [acuteabdo] A 34 year old woman has had abdominal pain and vomiting for 2 days and is now confused. She has been tired and has lost weight over 6 months. Her skin has becom
+ Q: Which is the most likely diagnosis? | ANS: Adrenal crisis
+ OPT: Acute pancreatitis
+ KB: Classic picture: Epigastric pain through to the back, vomiting, lipase over 3 times normal. Acute pancreatitis
+## h0441 [mh] A 28 year old woman with treatment-resistant schizophrenia has taken clozapine for 4 months. She has had a sore throat and fever for 1 day. Temperature 38.4°C, 
+ Q: Which is the most important test? | ANS: Full blood count
+ OPT: Blood cultures
+ KB: Used for: Fever with a source unknown, sepsis, endocarditis
+## h0450 [mh] A 46 year old woman has generalised anxiety disorder. She has had high-intensity CBT and adequate trials of sertraline and then venlafaxine, without improvement
+ Q: Which drug can be offered next? | ANS: Pregabalin
+ OPT: Haloperidol
+ KB: Used for: Acute agitation IM; delirium at low dose
+## h0450 [mh] A 46 year old woman has generalised anxiety disorder. She has had high-intensity CBT and adequate trials of sertraline and then venlafaxine, without improvement
+ Q: Which drug can be offered next? | ANS: Pregabalin
+ OPT: Lithium
+ KB: Used for: Bipolar maintenance; depression augmentation
+## h0451 [mh] A 29 year old woman was assaulted on her way home 2 days ago. She has not been physically injured. Since then she has felt numb and detached, cannot sleep and k
+ Q: Which is the most likely diagnosis? | ANS: Acute stress reaction
+ OPT: Depression
+ KB: Classic picture: 2 weeks of low mood, anhedonia, early-morning waking. Depression
+## h0452 [mh] A 38 year old man was in a serious car crash 6 months ago. He has had nightmares and flashbacks since, avoids driving and is constantly on edge. His sleep and w
+ Q: Which treatment is most appropriate first? | ANS: Trauma-focused CBT
+ OPT: Propranolol
+ KB: Used for: Thyrotoxic tremor, migraine prevention, performance anxiety, varices
+## h0455 [mh] A 29 year old woman has moderate obsessive-compulsive disorder with checking rituals that take 2 hours a day. She has completed a course of CBT including exposu
+ Q: Which drug is most appropriate? | ANS: Sertraline
+ OPT: Lithium
+ KB: Used for: Bipolar maintenance; depression augmentation
+## h0455 [mh] A 29 year old woman has moderate obsessive-compulsive disorder with checking rituals that take 2 hours a day. She has completed a course of CBT including exposu
+ Q: Which drug is most appropriate? | ANS: Sertraline
+ OPT: Olanzapine
+ KB: Used for: Psychosis, mania
+## h0458 [mh] A 32 year old nurse has had three episodes of hypoglycaemia at work, one with a seizure. She does not have diabetes. During an episode, her glucose is 1.8 mmol/
+ Q: Which is the most likely explanation? | ANS: Factitious disorder
+ OPT: Malingering
+ KB: Classic picture: Faking for money, drugs or to avoid court
+## h0461 [mh] A 22 year old woman with bulimia nervosa has been vomiting several times a day for a month. She feels weak. Pulse rate 96 bpm. Her parotid glands are swollen.
+ Q: Which is the most likely acid-base disorder? | ANS: Metabolic alkalosis
+ OPT: Respiratory alkalosis
+ KB: Classic picture: Hyperventilation-provoked tingling
+## h0467 [mh] A 52 year old man who drinks a litre of vodka a day was admitted with a fractured wrist 18 hours ago. His last drink was yesterday afternoon. Pulse rate 118 bpm
+ Q: Which is the most appropriate drug? | ANS: Chlordiazepoxide
+ OPT: Haloperidol
+ KB: Used for: Acute agitation IM; delirium at low dose
+## h0468 [mh] A 48 year old man has completed an assisted alcohol withdrawal and wants to stay abstinent. He has no liver disease and his kidney function is normal. He is att
+ Q: Which drug is most appropriate? | ANS: Acamprosate
+ OPT: Methadone
+ KB: Used for: Opioid substitution
+## h0472 [mh] A 42 year old man takes sertraline for depression. He started tramadol for back pain 2 days ago. Since this morning he has been agitated and sweaty with a tremo
+ Q: Which is the most likely diagnosis? | ANS: Serotonin syndrome
+ OPT: Sepsis
+ KB: Classic picture: NEWS 5 or more with a source, high lactate. Sepsis: Sepsis Six within the hour
+## h0474 [mh] Police find a 28 year old man shouting at passers-by in a shopping centre. He is distressed and says strangers are trying to poison him. He appears to be mental
+ Q: Which section of the Mental Health Act can the police use? | ANS: Section 136
+ OPT: Section 2
+ KB: Used for: Assessment for up to 28 days: 2 doctors + AMHP
+## h0474 [mh] Police find a 28 year old man shouting at passers-by in a shopping centre. He is distressed and says strangers are trying to poison him. He appears to be mental
+ Q: Which section of the Mental Health Act can the police use? | ANS: Section 136
+ OPT: Section 4
+ KB: Used for: Emergency: 72 hours, 1 doctor + AMHP
+## h0476 [mh] A 34 year old man with schizophrenia has catatonia. He has not eaten or drunk for 3 days and is mute and immobile. He is afebrile and his creatine kinase is nor
+ Q: Which is the most appropriate first treatment? | ANS: Lorazepam
+ OPT: Haloperidol
+ KB: Used for: Acute agitation IM; delirium at low dose
+## h0476 [mh] A 34 year old man with schizophrenia has catatonia. He has not eaten or drunk for 3 days and is mute and immobile. He is afebrile and his creatine kinase is nor
+ Q: Which is the most appropriate first treatment? | ANS: Lorazepam
+ OPT: Olanzapine
+ KB: Used for: Psychosis, mania
+## h0476 [mh] A 34 year old man with schizophrenia has catatonia. He has not eaten or drunk for 3 days and is mute and immobile. He is afebrile and his creatine kinase is nor
+ Q: Which is the most appropriate first treatment? | ANS: Lorazepam
+ OPT: Sertraline
+ KB: Classic picture: Depression after an MI
+## h0481 [mh] A 28 year old woman gave birth to her first baby 4 days ago. She is tearful and anxious and feels overwhelmed. She is feeding and caring for her baby well and s
+ Q: Which is the most likely diagnosis? | ANS: Baby blues
+ OPT: Adjustment disorder
+ KB: Classic picture: Low mood within 3 months of a stressor, fades as it settles. Adjustment disorder
+## h0487 [mh] A 40 year old woman has felt low and worried for 6 weeks since her husband left. She cries at times and worries about money. She is sleeping and eating normally
+ Q: Which is the most likely diagnosis? | ANS: Adjustment disorder
+ OPT: Dysthymia
+ KB: Classic picture: Low mood most days for ≥2 years, never quite meeting full criteria
+## h0490 [mh] A 30 year old man has an intense fear of being judged when eating or speaking in public. He avoids work parties and meetings and has turned down a promotion. He
+ Q: Which is the most likely diagnosis? | ANS: Social anxiety disorder
+ OPT: Generalised anxiety disorder
+ KB: Classic picture: Worry about everything most days for 6 months, tense, cannot switch off. Generalised anxiety disorder
+## h0492 [mh] A 28 year old man has social anxiety disorder. He has completed a course of individual CBT for social anxiety but still struggles to go to work meetings. He has
+ Q: Which drug is most appropriate first? | ANS: Escitalopram
+ OPT: Mirtazapine
+ KB: Used for: Depression with poor sleep and appetite, older
+## h0492 [mh] A 28 year old man has social anxiety disorder. He has completed a course of individual CBT for social anxiety but still struggles to go to work meetings. He has
+ Q: Which drug is most appropriate first? | ANS: Escitalopram
+ OPT: Propranolol
+ KB: Used for: Thyrotoxic tremor, migraine prevention, performance anxiety, varices
+## h0497 [mh] An 8 year old boy has conduct disorder with aggression and stealing. His parents are struggling to manage his behaviour. There are no concerns about ADHD or lea
+ Q: Which is the most appropriate first-line treatment? | ANS: Group parent training
+ OPT: Lithium
+ KB: Used for: Bipolar maintenance; depression augmentation
+## h0497 [mh] An 8 year old boy has conduct disorder with aggression and stealing. His parents are struggling to manage his behaviour. There are no concerns about ADHD or lea
+ Q: Which is the most appropriate first-line treatment? | ANS: Group parent training
+ OPT: Methylphenidate
+ KB: Used for: ADHD first line in children 5 and over
+## h0497 [mh] An 8 year old boy has conduct disorder with aggression and stealing. His parents are struggling to manage his behaviour. There are no concerns about ADHD or lea
+ Q: Which is the most appropriate first-line treatment? | ANS: Group parent training
+ OPT: Risperidone
+ KB: Used for: Psychosis
+## h0498 [mh] A 13 year old boy has conduct disorder that started at age 8. He has been excluded from school for violence and has been cautioned by police for theft. His moth
+ Q: Which adult outcome is he at highest risk of? | ANS: Antisocial personality disorder
+ OPT: Anorexia nervosa
+ KB: Classic picture: BMI under 18.5, fears weight gain, amenorrhoea, lanugo. Anorexia nervosa
+## h0498 [mh] A 13 year old boy has conduct disorder that started at age 8. He has been excluded from school for violence and has been cautioned by police for theft. His moth
+ Q: Which adult outcome is he at highest risk of? | ANS: Antisocial personality disorder
+ OPT: Schizophrenia
+ KB: Classic picture: Third-person voices commenting, thoughts being broadcast, 6 months of decline. Schizophrenia
+## h0501 [mh] A 20 year old man with a moderate learning disability attends a review with his mother. He has poor eye contact and is anxious in social situations. His materna
+ Q: Which is the most likely diagnosis? | ANS: Fragile X syndrome
+ OPT: Down syndrome
+ KB: Classic picture: Commonest genetic vs inherited cause of intellectual disability
+## h0524 [acuteabdo] A 24 year old woman has had right iliac fossa pain for 12 hours with nausea. She is sexually active and her last period was 5 weeks ago. She uses condoms. Tempe
+ Q: Which is the most appropriate first investigation? | ANS: Urine pregnancy test
+ OPT: CT abdomen and pelvis
+ KB: Used for: Diverticulitis, perforation, abscess, AAA rupture if stable
+## h0524 [acuteabdo] A 24 year old woman has had right iliac fossa pain for 12 hours with nausea. She is sexually active and her last period was 5 weeks ago. She uses condoms. Tempe
+ Q: Which is the most appropriate first investigation? | ANS: Urine pregnancy test
+ OPT: Diagnostic laparoscopy
+ KB: Used for: Endometriosis with normal imaging; unclear pelvic pain
+## h0525 [acuteabdo] A 41 year old man has had right iliac fossa pain for 5 days. He is eating a little. Temperature 37.8°C, pulse rate 88 bpm. There is a tender mass in the right i
+ Q: Which is the most appropriate management? | ANS: IV antibiotics without surgery
+ OPT: Right hemicolectomy
+ KB: Used for: Caecal, ascending or hepatic flexure cancer
+## h0527 [acuteabdo] A 39 year old woman had 2 hours of severe colicky right upper quadrant pain after eating fried food last night. It has now settled completely. Temperature 36.8°
+ Q: Which is the most likely diagnosis? | ANS: Biliary colic
+ OPT: Acute pancreatitis
+ KB: Classic picture: Epigastric pain through to the back, vomiting, lipase over 3 times normal. Acute pancreatitis
+## h0528 [acuteabdo] An 81 year old woman has had colicky central abdominal pain, vomiting and distension for 3 days. She has had previous episodes of right upper quadrant pain. She
+ Q: Which is the most likely cause? | ANS: Gallstone ileus
+ OPT: Sigmoid volvulus
+ KB: Classic picture: Elderly, huge distended abdomen, constipated, coffee-bean loop on X-ray. Sigmoid volvulus
+## h0529 [acuteabdo] A 70 year old man has had right upper quadrant pain for 2 days with high fevers and shivering. His wife has noticed his eyes are yellow. Temperature 39.2°C, pul
+ Q: Which is the most likely diagnosis? | ANS: Ascending cholangitis
+ OPT: Hepatitis A
+ KB: Classic picture: Jaundice after shellfish or travel, gets better on its own
+## h0530 [acuteabdo] A 74 year old woman has ascending cholangitis. Ultrasound shows a stone in a dilated common bile duct. She has had IV antibiotics and fluids for 6 hours. Temper
+ Q: Which is the most appropriate next step? | ANS: Urgent ERCP to drain the duct
+ OPT: MRCP
+ KB: Used for: Dilated bile duct on ultrasound, no stone seen
+## h0532 [acuteabdo] A 55 year old woman has had severe epigastric pain radiating to her back for 12 hours with vomiting. She does not drink alcohol. Pulse rate 104 bpm, BP 132/84 m
+ Q: Which imaging should be done in the first 24 to 48 hours? | ANS: Ultrasound of the abdomen
+ OPT: Abdominal X-ray
+ KB: Used for: Suspected bowel obstruction
+## h0532 [acuteabdo] A 55 year old woman has had severe epigastric pain radiating to her back for 12 hours with vomiting. She does not drink alcohol. Pulse rate 104 bpm, BP 132/84 m
+ Q: Which imaging should be done in the first 24 to 48 hours? | ANS: Ultrasound of the abdomen
+ OPT: ERCP
+ KB: Used for: Cholangitis, common bile duct stones: therapeutic
+## h0532 [acuteabdo] A 55 year old woman has had severe epigastric pain radiating to her back for 12 hours with vomiting. She does not drink alcohol. Pulse rate 104 bpm, BP 132/84 m
+ Q: Which imaging should be done in the first 24 to 48 hours? | ANS: Ultrasound of the abdomen
+ OPT: MRCP
+ KB: Used for: Dilated bile duct on ultrasound, no stone seen
+## h0538 [acuteabdo] A 58 year old man has had sudden severe epigastric pain for 3 hours that has now spread across his whole abdomen. He has taken ibuprofen for back pain for a mon
+ Q: Which is the most likely diagnosis? | ANS: Perforated peptic ulcer
+ OPT: Biliary colic
+ KB: Classic picture: Fat, female, forty, fertile; colicky RUQ pain after fatty meals
+## h0539 [acuteabdo] A 72 year old woman with abdominal pain could only have a supine abdominal X-ray because she cannot sit up. On the film, both the inner and outer walls of sever
+ Q: What does this sign show? | ANS: Free intraperitoneal gas
+ OPT: Ischaemic colitis
+ KB: Classic picture: Vascular patient, crampy left-sided pain then bloody diarrhoea
+## h0544 [acuteabdo] A 22 year old woman has had lower abdominal pain and deep pain during sex for 4 days, with a new vaginal discharge. She has a new sexual partner. Temperature 38
+ Q: Which is the most likely diagnosis? | ANS: Pelvic inflammatory disease
+ OPT: Acute appendicitis
+ KB: Classic picture: Pain starts round the belly button, then moves to the right iliac fossa, anorexia. Appendicitis
+## h0547 [acuteabdo] A 66 year old woman has had colicky central abdominal pain for 1 day with early vomiting and abdominal distension. She had an abdominal hysterectomy 10 years ag
+ Q: Which is the most likely cause? | ANS: Adhesions
+ OPT: Colorectal cancer
+ KB: Classic picture: Strep gallolyticus (bovis) bacteraemia or endocarditis
+## h0548 [acuteabdo] A 58 year old man has colicky abdominal pain and vomiting. His abdominal X-ray shows central dilated loops of bowel. The lines across the bowel wall cross the w
+ Q: Which is the most likely diagnosis? | ANS: Small bowel obstruction
+ OPT: Caecal volvulus
+ KB: Classic picture: Volvulus with the coffee bean pointing to the left upper quadrant
+## h0548 [acuteabdo] A 58 year old man has colicky abdominal pain and vomiting. His abdominal X-ray shows central dilated loops of bowel. The lines across the bowel wall cross the w
+ Q: Which is the most likely diagnosis? | ANS: Small bowel obstruction
+ OPT: Toxic megacolon
+ KB: Classic picture: UC flare + fever + tachycardia + colon >6 cm
+## h0550 [acuteabdo] A 79 year old woman with atrial fibrillation, who stopped warfarin a month ago, has had sudden severe abdominal pain for 4 hours. She is very distressed. Pulse 
+ Q: Which is the most likely diagnosis? | ANS: Acute mesenteric ischaemia
+ OPT: Acute pancreatitis
+ KB: Classic picture: Epigastric pain through to the back, vomiting, lipase over 3 times normal. Acute pancreatitis
+## h0551 [acuteabdo] A 64 year old man with type 2 diabetes has had epigastric pain and vomiting for 2 hours. He feels sweaty. He has hypertension and smokes. Pulse rate 58 bpm, BP 
+ Q: Which investigation should be done first? | ANS: 12-lead ECG
+ OPT: Abdominal ultrasound
+ KB: Used for: Right upper pain: gallstones first test
+## h0553 [acuteabdo] A 62 year old woman with osteoarthritis of both knees has persistent pain despite regular paracetamol 1 g four times a day and exercise. She had a gastric ulcer
+ Q: Which is the most appropriate step 2 drug to add? | ANS: Codeine phosphate
+ OPT: Amitriptyline
+ KB: Used for: Neuropathic pain, migraine prevention, low dose
+## h0559 [b:otosclerosis] A 32 year old woman has had gradual hearing loss in both ears for 2 years. It became noticeably worse during her recent pregnancy. Her mother wore hearing aids 
+ Q: Which is the most likely diagnosis? | ANS: Otosclerosis
+ OPT: Ménière's disease
+ KB: Classic picture: Hours of vertigo + roaring tinnitus + fullness + fluctuating low-tone hearing loss. Ménière's disease
+## h0563 [b:csfleak] A 42 year old woman has had a headache for 3 weeks that comes on within minutes of standing and is relieved by lying flat. She has had no lumbar puncture or epi
+ Q: What does this suggest? | ANS: Spontaneous intracranial hypotension
+ OPT: Subarachnoid haemorrhage
+ KB: Classic picture: Worst headache ever, peaks within minutes, neck stiffness. Subarachnoid haemorrhage: CT head now
+## h0564 [b:csfleak] A 28 year old woman has had a post-dural puncture headache for 3 days after a spinal anaesthetic. Bed rest, oral fluids, regular analgesia and caffeine have not
+ Q: Which is the most appropriate treatment? | ANS: Epidural blood patch
+ OPT: Morphine
+ KB: Used for: Step 3; MI pain IV with an antiemetic
+## h0566 [b:buddchiari] A 34 year old woman taking the combined oral contraceptive pill has had right upper quadrant pain and abdominal swelling for 10 days. There is tender hepatomega
+ Q: Which is the most appropriate first investigation? | ANS: Doppler ultrasound of the liver
+ OPT: ERCP
+ KB: Used for: Cholangitis, common bile duct stones: therapeutic
+## h0566 [b:buddchiari] A 34 year old woman taking the combined oral contraceptive pill has had right upper quadrant pain and abdominal swelling for 10 days. There is tender hepatomega
+ Q: Which is the most appropriate first investigation? | ANS: Doppler ultrasound of the liver
+ OPT: Upper GI endoscopy
+ KB: Used for: Dysphagia, or 55+ with weight loss and reflux or dyspepsia
+## h0567 [b:buddchiari] A 48 year old woman has Budd-Chiari syndrome confirmed on Doppler ultrasound and CT venography, with thrombosis of the hepatic veins. She has a JAK2 mutation. H
+ Q: Which is the most appropriate first treatment? | ANS: Anticoagulation
+ OPT: Aspirin
+ KB: Used for: ACS, TIA or ischaemic stroke: 300 mg now
+## h0571 [b:clusterc] A 30 year old man still lives with his mother. He cannot make everyday decisions, such as what to wear, without her reassurance. He avoids disagreeing with anyo
+ Q: Which is the most likely diagnosis? | ANS: Dependent personality disorder
+ OPT: Generalised anxiety disorder
+ KB: Classic picture: Worry about everything most days for 6 months, tense, cannot switch off. Generalised anxiety disorder
+## h0572 [b:clusterc] A 44 year old woman is a perfectionist who cannot delegate at work because she believes no one else will do the job properly. She is rigid about rules, lists an
+ Q: Which is the most likely diagnosis? | ANS: Anankastic personality disorder
+ OPT: Autism spectrum disorder
+ KB: Classic picture: Rigid routines, distress at change, literal language, from early childhood. Autism spectrum disorder
+## h0572 [b:clusterc] A 44 year old woman is a perfectionist who cannot delegate at work because she believes no one else will do the job properly. She is rigid about rules, lists an
+ Q: Which is the most likely diagnosis? | ANS: Anankastic personality disorder
+ OPT: Generalised anxiety disorder
+ KB: Classic picture: Worry about everything most days for 6 months, tense, cannot switch off. Generalised anxiety disorder
+## h0574 [b:grief] A 34 year old woman's brother died suddenly a month ago. She is tearful, longs for him and sometimes briefly hears his voice when she is falling asleep. She is 
+ Q: Which is the most likely diagnosis? | ANS: Normal grief reaction
+ OPT: PTSD
+ KB: Classic picture: Flashbacks + nightmares + avoidance, over a month after an assault. PTSD: trauma-focused CBT or EMDR
+## h0576 [b:grief] A 74 year old man's wife died 2 months ago. He now feels worthless and says he is a burden. He has lost all interest in his garden and grandchildren, has stoppe
+ Q: Which is the most likely diagnosis? | ANS: Depressive episode
+ OPT: Adjustment disorder
+ KB: Classic picture: Low mood within 3 months of a stressor, fades as it settles. Adjustment disorder
+## h0576 [b:grief] A 74 year old man's wife died 2 months ago. He now feels worthless and says he is a burden. He has lost all interest in his garden and grandchildren, has stoppe
+ Q: Which is the most likely diagnosis? | ANS: Depressive episode
+ OPT: Prolonged grief disorder
+ KB: Classic picture: Grief that stays intense and disabling beyond the expected time
+## h0576 [b:grief] A 74 year old man's wife died 2 months ago. He now feels worthless and says he is a burden. He has lost all interest in his garden and grandchildren, has stoppe
+ Q: Which is the most likely diagnosis? | ANS: Depressive episode
+ OPT: Schizophrenia
+ KB: Classic picture: Third-person voices commenting, thoughts being broadcast, 6 months of decline. Schizophrenia
+## h0577 [b:organicpsych] A 60 year old woman started prednisolone 60 mg daily for giant cell arteritis 5 days ago. She has no psychiatric history. She has become elated, sleepless, talk
+ Q: Which is the most likely diagnosis? | ANS: Steroid-induced mania
+ OPT: Thyrotoxicosis
+ KB: Typical: Women 20 to 50 · Graves': smokers · toxic nodules: older; Weight loss, heat intolerance, Tremor, sweaty, Fast or irregular pulse
+## h0578 [b:organicpsych] A 20 year old man has been brought in by his flatmates because he thinks they are plotting against him and he hears voices. He has smoked large amounts of skunk
+ Q: Which is the most likely diagnosis? | ANS: Substance-induced psychosis
+ OPT: Delusional disorder
+ KB: Classic picture: One plausible fixed false belief, otherwise functioning normally
+## h0585 [b:vasculitis] An 8 year old boy has a rash on his legs and buttocks, painful ankles and colicky abdominal pain. He had a cold a week ago. Temperature 37.4°C, BP 104/66 mmHg. 
+ Q: Which is the most likely diagnosis? | ANS: IgA vasculitis
+ OPT: GPA
+ KB: Classic picture: Sinusitis/saddle nose + haemoptysis + nephritis, c-ANCA
+## h0587 [b:colonblood] A 76 year old woman with heart failure has had left-sided abdominal pain and bloody diarrhoea after an episode of low blood pressure. Colonoscopy shows ischaemi
+ Q: Which part of the colon is a watershed area most prone to ischaemia? | ANS: Splenic flexure
+ OPT: Sigmoid colon
+ KB: Classic picture: Commonest site of diverticula
+## h0591 [b:lymphdrainage] A 66 year old woman has a hard, painless, enlarged lymph node above her left clavicle. She has lost 5 kg and has had indigestion and early fullness for 3 months
+ Q: Which cancer should be considered? | ANS: Gastric cancer
+ OPT: Breast cancer
+ KB: Classic picture: Hard, fixed, irregular lump, skin tethering, peau d'orange. Breast cancer: 2-week-wait triple assessment
+## h0591 [b:lymphdrainage] A 66 year old woman has a hard, painless, enlarged lymph node above her left clavicle. She has lost 5 kg and has had indigestion and early fullness for 3 months
+ Q: Which cancer should be considered? | ANS: Gastric cancer
+ OPT: Thyroid cancer
+ KB: Typical: Women · radiation to the neck in childhood · family history; Painless neck lump that moves on swallowing, Hoarse voice, Hard, fixed lump or nodes
+## h0595 [b:posturalbp] A 78 year old woman has had two falls in a month after feeling dizzy when standing up. Her BP is 142/80 mmHg lying and 115/72 mmHg after 3 minutes standing. Her
+ Q: What does this show? | ANS: Orthostatic hypotension
+ OPT: Hypertension
+ KB: Classic picture: Clinic BP 140/90 or more, then ambulatory average 135/85 or more. Hypertension
+## h0600 [b:paintypes] A 48 year old man has had low back pain for 6 weeks after lifting. The pain spreads vaguely into his left buttock and the back of his thigh but not below the kn
+ Q: Which type of pain is this? | ANS: Somatic referred pain
+ OPT: Malingering
+ KB: Classic picture: Faking for money, drugs or to avoid court
+## h0600 [b:paintypes] A 48 year old man has had low back pain for 6 weeks after lifting. The pain spreads vaguely into his left buttock and the back of his thigh but not below the kn
+ Q: Which type of pain is this? | ANS: Somatic referred pain
+ OPT: Neuropathic pain
+ KB: Classic picture: Burning, shooting pain that opioids barely touch
+## h0605 [b:akicauses] A 68 year old man has had vomiting and diarrhoea for 3 days and has acute kidney injury. His creatinine has risen from 90 to 180 µmol/L. Pulse rate 108 bpm, BP 
+ Q: What does this suggest? | ANS: Pre-renal AKI
+ OPT: Interstitial nephritis
+ KB: Classic picture: New rash ± white cells/eosinophils in urine after a PPI, NSAID or penicillin
+## h0607 [b:enteric] A 28 year old man returned from visiting family in Pakistan 2 weeks ago. He did not have pre-travel vaccines. He has had a fever that has risen each day for a w
+ Q: Which is the most likely diagnosis? | ANS: Typhoid fever
+ OPT: Hepatitis A
+ KB: Classic picture: Jaundice after shellfish or travel, gets better on its own
+## h0608 [b:enteric] A 34 year old woman returned from Nigeria 10 days ago. She did not take malaria prophylaxis. She has had fever, rigors, headache and muscle aches for 2 days. Te
+ Q: Which is the most appropriate first test? | ANS: Thick and thin blood films
+ OPT: Blood cultures
+ KB: Used for: Fever with a source unknown, sepsis, endocarditis
+## h0609 [b:enteric] A 26 year old man has typhoid fever confirmed by blood culture after a trip to Bangladesh. He has no drug allergies. Sensitivity results are not yet available. 
+ Q: Which is the most appropriate treatment? | ANS: Ceftriaxone
+ OPT: Doxycycline
+ KB: Used for: Chlamydia 7 days, Lyme, Q fever, psittacosis, CAP alternative, MRSA skin
+## h0610 [b:versicolor] A 27 year old man has noticed pale patches on his upper back after a sunny holiday in Spain. They are slightly itchy. There are multiple pale, oval, finely scal
+ Q: Which is the most likely diagnosis? | ANS: Pityriasis versicolor
+ OPT: Tinea corporis
+ KB: Classic picture: Ring with a scaly advancing edge and a clear centre. Tinea corporis
+## h0619 [b:jointaspirate] A 70 year old woman has had a hot, swollen, painful right knee for 2 days. She can barely bend it. She has type 2 diabetes. Temperature 38.4°C, pulse rate 102 b
+ Q: Which is the most appropriate first investigation? | ANS: Aspiration of the knee
+ OPT: Blood cultures
+ KB: Used for: Fever with a source unknown, sepsis, endocarditis
+## h0621 [b:jointaspirate] A 74 year old man who takes warfarin for atrial fibrillation has had a swollen, painful right knee for 1 day. He has had no injury. He recently finished a cours
+ Q: Which is the most likely diagnosis? | ANS: Haemarthrosis
+ OPT: Cellulitis
+ KB: Classic picture: Spreading red, hot skin with no clear edge
+## h1017 [ent] A 24 year old man has had hearing loss in both ears for a year. He had cataracts removed in his teens. His father had brain tumours. MRI shows bilateral vestibu
+ Q: Which is the most likely diagnosis? | ANS: Neurofibromatosis type 2
+ OPT: Tuberous sclerosis
+ KB: Classic picture: Ash-leaf macules + facial angiofibromas + seizures + renal angiomyolipoma
+## h1019 [ent] A 40 year old man noticed weakness of the right side of his face 36 hours ago. He has no rash or ear pain. There is weakness of the whole right side of the face
+ Q: Which is the most appropriate treatment? | ANS: Prednisolone, plus eye care
+ OPT: Aciclovir
+ KB: Used for: HSV encephalitis IV; shingles within 72 hours; eczema herpeticum
+## h1019 [ent] A 40 year old man noticed weakness of the right side of his face 36 hours ago. He has no rash or ear pain. There is weakness of the whole right side of the face
+ Q: Which is the most appropriate treatment? | ANS: Prednisolone, plus eye care
+ OPT: No treatment
+ KB: Classic picture: Wenckebach or 1st-degree block in a fit young person
+## h1020 [ent] A 64 year old man has had a painful left ear for 3 days. Today his face is drooping on the left. There are vesicles in the left ear canal. There is weakness of 
+ Q: Which is the most likely diagnosis? | ANS: Ramsay Hunt syndrome
+ OPT: Cholesteatoma
+ KB: Classic picture: Painless foul-smelling discharge + attic crust/retraction pocket + conductive loss
+## h1022 [ent] A 38 year old man had a cold a week ago. For 3 days he has had constant severe vertigo with nausea and vomiting. His hearing is normal and he has no tinnitus. T
+ Q: Which is the most likely diagnosis? | ANS: Vestibular neuritis
+ OPT: Ménière's disease
+ KB: Classic picture: Hours of vertigo + roaring tinnitus + fullness + fluctuating low-tone hearing loss. Ménière's disease
+## h1023 [ent] A 66 year old man with hypertension has had continuous vertigo for 6 hours. He is vomiting and cannot walk unaided. The head impulse test is normal. The nystagm
+ Q: Which is the most likely cause? | ANS: Posterior circulation stroke
+ OPT: Labyrinthitis
+ KB: Classic picture: Same, plus hearing loss
+## h1023 [ent] A 66 year old man with hypertension has had continuous vertigo for 6 hours. He is vomiting and cannot walk unaided. The head impulse test is normal. The nystagm
+ Q: Which is the most likely cause? | ANS: Posterior circulation stroke
+ OPT: Ménière's disease
+ KB: Classic picture: Hours of vertigo + roaring tinnitus + fullness + fluctuating low-tone hearing loss. Ménière's disease
+## h1026 [ent] A 4 year old boy has had a high fever and stridor for 6 hours. He is drooling. His airway is stable and has been secured by the anaesthetist. A lateral neck X-r
+ Q: Which is the most likely diagnosis? | ANS: Epiglottitis
+ OPT: Bacterial tracheitis
+ KB: Classic picture: Croup-like child who looks toxic and doesn't respond to adrenaline
+## h1029 [ent] A 10 year old boy has recurrent nosebleeds from his left nostril. He has had silver nitrate cautery today. He has a peanut allergy.
+ Q: Which is the most appropriate antiseptic cream? | ANS: Mupirocin
+ OPT: Hydrocortisone
+ KB: Used for: Adrenal crisis 100 mg IV or IM; Addison's replacement
+## h1031 [ent] A 19 year old man had a sore throat and was given amoxicillin 2 days ago. He now has a widespread itchy red rash. He has also been very tired for a week. Temper
+ Q: Which is the most likely explanation? | ANS: Glandular fever with amoxicillin
+ OPT: Measles
+ KB: Classic picture: Unvaccinated child, cough, coryza, conjunctivitis, then rash from behind the ears, white spots inside the cheek
+## h1033 [ent] A 45 year old woman has had several attacks of spinning vertigo over 6 months, each lasting about 3 hours. During attacks she has roaring tinnitus and a full fe
+ Q: Which is the most likely diagnosis? | ANS: Ménière's disease
+ OPT: Vestibular neuritis
+ KB: Classic picture: Days of constant vertigo after a cold, hearing normal
+## h1033 [ent] A 45 year old woman has had several attacks of spinning vertigo over 6 months, each lasting about 3 hours. During attacks she has roaring tinnitus and a full fe
+ Q: Which is the most likely diagnosis? | ANS: Ménière's disease
+ OPT: Vestibular schwannoma
+ KB: Classic picture: Unilateral sensorineural hearing loss + tinnitus ± lost corneal reflex
+## h1034 [ent] A 52 year old man has Ménière's disease with attacks every few weeks. He wants to reduce the number of attacks.
+ Q: Which drug is most commonly used? | ANS: Betahistine
+ OPT: Amitriptyline
+ KB: Used for: Neuropathic pain, migraine prevention, low dose
+## h1040 [ent] A 42 year old woman used antibiotic ear drops for a week for otitis externa. Her ear is now very itchy, but less painful. The ear canal contains white, fluffy d
+ Q: Which is the most likely diagnosis? | ANS: Fungal otitis externa
+ OPT: Cholesteatoma
+ KB: Classic picture: Painless foul-smelling discharge + attic crust/retraction pocket + conductive loss
+## h1041 [ent] A 78 year old man with type 2 diabetes has had severe pain in his right ear for 6 weeks, worse at night. Antibiotic drops have not helped. His face has started 
+ Q: Which is the most likely diagnosis? | ANS: Malignant otitis externa
+ OPT: Acute mastoiditis
+ KB: Classic picture: Swelling behind the ear pushing the pinna forward and out
+## h1041 [ent] A 78 year old man with type 2 diabetes has had severe pain in his right ear for 6 weeks, worse at night. Antibiotic drops have not helped. His face has started 
+ Q: Which is the most likely diagnosis? | ANS: Malignant otitis externa
+ OPT: Cholesteatoma
+ KB: Classic picture: Painless foul-smelling discharge + attic crust/retraction pocket + conductive loss
+## h1044 [ent] A 50 year old man of southern Chinese family origin has had a blocked feeling in his left ear for 2 months. He has noticed a lump in his neck. He has not had a 
+ Q: Which is the most important cause to exclude? | ANS: Nasopharyngeal carcinoma
+ OPT: Acoustic neuroma
+ KB: Classic picture: One-sided hearing loss + tinnitus, absent corneal reflex. Acoustic neuroma: MRI
+## h1044 [ent] A 50 year old man of southern Chinese family origin has had a blocked feeling in his left ear for 2 months. He has noticed a lump in his neck. He has not had a 
+ Q: Which is the most important cause to exclude? | ANS: Nasopharyngeal carcinoma
+ OPT: Cholesteatoma
+ KB: Classic picture: Painless foul-smelling discharge + attic crust/retraction pocket + conductive loss
+## h1045 [ent] A 30 year old woman has had a blocked nose and facial pain for 5 days after a cold. She is otherwise well. Temperature 37.4°C. There is mild tenderness over the
+ Q: Which is the most appropriate management? | ANS: Self-care with analgesia
+ OPT: Amoxicillin
+ KB: Used for: Low-severity CAP 5 days; otitis media; sinusitis; listeria cover
+## h1046 [ent] A 42 year old man has had sinusitis for 12 days. It is getting worse rather than better. He is systemically well and not at high risk of complications. He has n
+ Q: Which is the most appropriate first-choice antibiotic? | ANS: Phenoxymethylpenicillin
+ OPT: Amoxicillin
+ KB: Used for: Low-severity CAP 5 days; otitis media; sinusitis; listeria cover
+## h1049 [ent] A 26 year old man has bacterial tonsillitis and needs an antibiotic. He has no drug allergies. Glandular fever has not been excluded. Temperature 38.4°C. There 
+ Q: Which is the most appropriate antibiotic? | ANS: Phenoxymethylpenicillin
+ OPT: Co-amoxiclav
+ KB: Used for: High-severity CAP with clarithromycin, bites, aspiration
+## h1049 [ent] A 26 year old man has bacterial tonsillitis and needs an antibiotic. He has no drug allergies. Glandular fever has not been excluded. Temperature 38.4°C. There 
+ Q: Which is the most appropriate antibiotic? | ANS: Phenoxymethylpenicillin
+ OPT: Flucloxacillin
+ KB: Used for: Cellulitis, widespread impetigo, Staph aureus
+## h1051 [ent] A 6 year old boy has had a painless lump in the middle of his neck for 3 months. It has slowly grown. He is otherwise well. There is a 1.5 cm smooth, round, mid
+ Q: Which is the most likely diagnosis? | ANS: Thyroglossal cyst
+ OPT: Cystic hygroma
+ KB: Classic picture: Soft posterior-triangle lump that transilluminates in a baby
+## h1052 [ent] A 2 month old baby has had a swelling on the left side of his neck since birth. It has grown slowly. He feeds well. There is a large, soft, compressible swellin
+ Q: Which is the most likely diagnosis? | ANS: Cystic hygroma
+ OPT: Branchial cyst
+ KB: Classic picture: Lump at the anterior border of SCM in a young adult
+## h1052 [ent] A 2 month old baby has had a swelling on the left side of his neck since birth. It has grown slowly. He feeds well. There is a large, soft, compressible swellin
+ Q: Which is the most likely diagnosis? | ANS: Cystic hygroma
+ OPT: Thyroglossal cyst
+ KB: Classic picture: Midline neck lump that moves up with tongue protrusion. Thyroglossal cyst
+## h1058 [eye] A 68 year old man takes warfarin for atrial fibrillation. He noticed a bright red patch over the white of his left eye this morning. It does not hurt and his vi
+ Q: Which is the most likely diagnosis? | ANS: Subconjunctival haemorrhage
+ OPT: Episcleritis
+ KB: Classic picture: Mild sectoral redness, little pain, blanches with phenylephrine
+## h1061 [eye] A 30 year old man has had a lump in his upper eyelid for 6 weeks. It is not painful and has not grown. There is a 5 mm firm, round, non-tender swelling in the u
+ Q: Which is the most likely diagnosis? | ANS: Chalazion
+ OPT: Basal cell carcinoma
+ KB: Classic picture: Pearly, rolled edge, telangiectasia, on the face, slow. Basal cell carcinoma
+## h1065 [eye] A 32 year old teacher had a cold last week. Her right eye became red and watery 4 days ago, and now the left eye is too. Several children in her class have red 
+ Q: Which is the most likely diagnosis? | ANS: Viral conjunctivitis
+ OPT: Anterior uveitis
+ KB: Classic picture: Ankylosing spondylitis, painful red eye, photophobia, small irregular pupil. Anterior uveitis
+## h1069 [eye] A 28 year old man has had a painful red left eye for 2 days. Bright light hurts. His vision is slightly blurred. He has no discharge. Visual acuity is 6/9 in th
+ Q: Which is the most likely diagnosis? | ANS: Anterior uveitis
+ OPT: Scleritis
+ KB: Classic picture: RA, severe boring eye pain that wakes them, deep purple, tender. Scleritis
+## h1072 [eye] A 58 year old woman with rheumatoid arthritis has had severe, boring pain in her right eye for 3 days. It wakes her at night. The eye is tender, deep red and ha
+ Q: Which is the most likely diagnosis? | ANS: Scleritis
+ OPT: Conjunctivitis
+ KB: Classic picture: Red, sticky, itchy, both eyes, normal vision. Conjunctivitis
+## h1072 [eye] A 58 year old woman with rheumatoid arthritis has had severe, boring pain in her right eye for 3 days. It wakes her at night. The eye is tender, deep red and ha
+ Q: Which is the most likely diagnosis? | ANS: Scleritis
+ OPT: Subconjunctival haemorrhage
+ KB: Classic picture: Bright red patch after coughing or vomiting, painless
+## h1073 [eye] A 52 year old woman has a painful, deep red eye that is tender to touch. Scleritis is diagnosed. The team looks for an underlying cause.
+ Q: Which condition is most commonly associated with scleritis? | ANS: Rheumatoid arthritis
+ OPT: Diabetes mellitus
+ KB: Typical: Type 1: young, thin · type 2: overweight, 40+, South Asian, African-Caribbean, family history; Thirsty, passing lots of urine, Weight loss: type 1, Tired, blurred vision
+## h1073 [eye] A 52 year old woman has a painful, deep red eye that is tender to touch. Scleritis is diagnosed. The team looks for an underlying cause.
+ Q: Which condition is most commonly associated with scleritis? | ANS: Rheumatoid arthritis
+ OPT: Hypertension
+ KB: Classic picture: Clinic BP 140/90 or more, then ambulatory average 135/85 or more. Hypertension
+## h1073 [eye] A 52 year old woman has a painful, deep red eye that is tender to touch. Scleritis is diagnosed. The team looks for an underlying cause.
+ Q: Which condition is most commonly associated with scleritis? | ANS: Rheumatoid arthritis
+ OPT: Ulcerative colitis
+ KB: Classic picture: Bloody diarrhoea, urgency, starts at the rectum and spreads up continuously. Ulcerative colitis
+## h1076 [eye] A 66 year old man has newly diagnosed primary open-angle glaucoma. He has no symptoms. Intraocular pressure 28 mmHg in both eyes. There is cupping of both optic
+ Q: Which is the most appropriate first-line treatment? | ANS: Selective laser trabeculoplasty
+ OPT: Timolol drops
+ KB: Used for: Glaucoma second line; acute angle closure
+## h1077 [eye] A 64 year old man has glaucoma and asthma. He started a new eye drop 2 weeks ago. He now has wheeze and needs his salbutamol more often. Pulse rate 56 bpm.
+ Q: Which drop is most likely responsible? | ANS: Timolol
+ OPT: Pilocarpine
+ KB: Used for: Acute angle closure: shrinks the pupil to open the angle
+## h1078 [eye] A 9 year old boy had sinusitis last week. His left eyelid has become swollen and red over a day. Temperature 38.7°C. The left eye bulges forward. It hurts to mo
+ Q: Which is the most likely diagnosis? | ANS: Orbital cellulitis
+ OPT: Chalazion
+ KB: Classic picture: Painless firm lump in the lid
+## h1079 [eye] A 12 year old girl has a swollen, red left eye with pain on eye movement and proptosis. She has been admitted for IV antibiotics. Orbital cellulitis is suspecte
+ Q: Which investigation is most appropriate? | ANS: Contrast CT orbits and sinuses
+ OPT: Blood cultures
+ KB: Used for: Fever with a source unknown, sepsis, endocarditis
+## h1081 [eye] A 56 year old man is very short-sighted. He has had flashing lights and new floaters in his right eye for a day. Now a dark curtain is coming down across his vi
+ Q: Which is the most likely diagnosis? | ANS: Retinal detachment
+ OPT: Migraine aura
+ KB: Classic picture: One-sided throbbing headache, flashing zigzags before, light hurts, lies in a dark room. Migraine with aura
+## h1081 [eye] A 56 year old man is very short-sighted. He has had flashing lights and new floaters in his right eye for a day. Now a dark curtain is coming down across his vi
+ Q: Which is the most likely diagnosis? | ANS: Retinal detachment
+ OPT: Vitreous haemorrhage
+ KB: Classic picture: Diabetic with sudden floaters and loss of red reflex
+## h1083 [eye] A 44 year old woman has had a retinal tear repaired. She asks why it happened.
+ Q: Which is the strongest risk factor for a rhegmatogenous retinal detachment? | ANS: High myopia
+ OPT: Hypertension
+ KB: Classic picture: Clinic BP 140/90 or more, then ambulatory average 135/85 or more. Hypertension
+## h1083 [eye] A 44 year old woman has had a retinal tear repaired. She asks why it happened.
+ Q: Which is the strongest risk factor for a rhegmatogenous retinal detachment? | ANS: High myopia
+ OPT: Smoking
+ KB: Classic picture: Strongest risk factor for AAA
+## h1084 [eye] A 74 year old man has had sudden painless loss of vision in his right eye for an hour. He has hypertension and atrial fibrillation. Visual acuity is counting fi
+ Q: Which is the most likely diagnosis? | ANS: Central retinal artery occlusion
+ OPT: Retinal detachment
+ KB: Classic picture: Flashes + floaters + a curtain over part of the vision. Retinal detachment: same-day surgery
+## h1084 [eye] A 74 year old man has had sudden painless loss of vision in his right eye for an hour. He has hypertension and atrial fibrillation. Visual acuity is counting fi
+ Q: Which is the most likely diagnosis? | ANS: Central retinal artery occlusion
+ OPT: Vitreous haemorrhage
+ KB: Classic picture: Diabetic with sudden floaters and loss of red reflex
+## h1087 [eye] An 80 year old woman has noticed her vision becoming gradually blurred over a year. Car headlights cause glare at night. She has no eye pain. Visual acuity is 6
+ Q: Which is the most likely diagnosis? | ANS: Cataract
+ OPT: Chronic open-angle glaucoma
+ KB: Classic picture: Painless gradual peripheral field loss + cupped disc
+## h1087 [eye] An 80 year old woman has noticed her vision becoming gradually blurred over a year. Car headlights cause glare at night. She has no eye pain. Visual acuity is 6
+ Q: Which is the most likely diagnosis? | ANS: Cataract
+ OPT: Retinal detachment
+ KB: Classic picture: Flashes + floaters + a curtain over part of the vision. Retinal detachment: same-day surgery
+## h1090 [eye] A 78 year old woman has noticed over a week that door frames look bent and there is a blurred patch in the middle of her vision in her right eye. Visual acuity 
+ Q: Which is the most likely diagnosis? | ANS: Wet macular degeneration
+ OPT: Cataract
+ KB: Classic picture: Elderly, gradual blurred vision, glare from headlights, lost red reflex. Cataract
+## h1090 [eye] A 78 year old woman has noticed over a week that door frames look bent and there is a blurred patch in the middle of her vision in her right eye. Visual acuity 
+ Q: Which is the most likely diagnosis? | ANS: Wet macular degeneration
+ OPT: Retinal detachment
+ KB: Classic picture: Flashes + floaters + a curtain over part of the vision. Retinal detachment: same-day surgery
+## h1092 [eye] An 84 year old woman has severe macular degeneration in both eyes. For a month she has seen vivid people and patterns. She knows they are not real and is not di
+ Q: Which is the most likely diagnosis? | ANS: Charles Bonnet syndrome
+ OPT: Migraine
+ KB: Classic picture: Unilateral throbbing headache with aura, lasts hours
+## h1095 [eye] A 38 year old woman had a chiropractic neck manipulation yesterday. Since then she has had pain on the left side of her neck and a headache. She has noticed her
+ Q: Which is the most likely diagnosis? | ANS: Carotid artery dissection
+ OPT: Cluster headache
+ KB: Classic picture: Excruciating periorbital pain + tearing + rhinorrhoea + Horner's, men, nightly clusters
+## h1098 [eye] A 24 year old man was punched in the right eye last night. He has double vision on looking up. There is bruising around the right eye. Upward gaze is limited on
+ Q: Which is the most likely diagnosis? | ANS: Orbital floor blow-out fracture
+ OPT: Orbital cellulitis
+ KB: Classic picture: Child, swollen eyelid + pain on eye movement, reduced vision or proptosis. Orbital cellulitis: IV antibiotics and CT
+## h1189 [mh] A 19 year old man had his first dose of haloperidol 6 hours ago for acute psychosis. He is distressed. His neck is twisted to one side and his eyes are fixed lo
+ Q: Which is the most appropriate treatment? | ANS: Procyclidine
+ OPT: Dantrolene
+ KB: Used for: Malignant hyperthermia; severe NMS
+## h1190 [mh] A 58 year old woman has taken haloperidol for schizophrenia for 6 years. Her family has noticed odd movements of her mouth. There is lip smacking, tongue thrust
+ Q: Which is the most likely diagnosis? | ANS: Tardive dyskinesia
+ OPT: Neuroleptic malignant syndrome
+ KB: Classic picture: New antipsychotic, rigid, high fever, confused, CK sky-high. Neuroleptic malignant syndrome: stop the drug
+## h1192 [mh] A 34 year old man has had low mood, poor sleep and loss of interest for 3 months. His depression is more severe. He would like medication alongside talking ther
+ Q: Which is the most appropriate first drug? | ANS: Sertraline
+ OPT: Amitriptyline
+ KB: Used for: Neuropathic pain, migraine prevention, low dose
+## h1192 [mh] A 34 year old man has had low mood, poor sleep and loss of interest for 3 months. His depression is more severe. He would like medication alongside talking ther
+ Q: Which is the most appropriate first drug? | ANS: Sertraline
+ OPT: Lithium
+ KB: Used for: Bipolar maintenance; depression augmentation
+## h1195 [mh] A 27 year old man has slept 2 hours a night for 6 days. He has spent £8,000 on a car he cannot afford. His family say he is not himself. He speaks rapidly and c
+ Q: Which is the most likely diagnosis? | ANS: Mania with psychotic symptoms
+ OPT: Schizophrenia
+ KB: Classic picture: Third-person voices commenting, thoughts being broadcast, 6 months of decline. Schizophrenia
+## h1196 [mh] A 31 year old woman has her first manic episode. She takes no psychiatric drugs. She is not pregnant. She is elated, with pressured speech and grandiose ideas.
+ Q: Which is the most appropriate first-line treatment? | ANS: Olanzapine
+ OPT: Carbamazepine
+ KB: Used for: Focal epilepsy; trigeminal neuralgia first line
+## h1196 [mh] A 31 year old woman has her first manic episode. She takes no psychiatric drugs. She is not pregnant. She is elated, with pressured speech and grandiose ideas.
+ Q: Which is the most appropriate first-line treatment? | ANS: Olanzapine
+ OPT: Lamotrigine
+ KB: Used for: Focal epilepsy first line; bipolar depression
+## h1196 [mh] A 31 year old woman has her first manic episode. She takes no psychiatric drugs. She is not pregnant. She is elated, with pressured speech and grandiose ideas.
+ Q: Which is the most appropriate first-line treatment? | ANS: Olanzapine
+ OPT: Sertraline
+ KB: Classic picture: Depression after an MI
+## h1198 [mh] A 41 year old woman has worried excessively about everything on most days for a year. She has trouble sleeping and feels tense. Guided self-help has not worked 
+ Q: Which is the most appropriate first drug? | ANS: Sertraline
+ OPT: Propranolol
+ KB: Used for: Thyrotoxic tremor, migraine prevention, performance anxiety, varices
+## h1200 [mh] A 44 year old woman has had sudden attacks of pounding headache, sweating and palpitations for 3 months. They last about 20 minutes. During an attack her pulse 
+ Q: Which is the most likely diagnosis? | ANS: Phaeochromocytoma
+ OPT: Hypoglycaemia
+ KB: Classic picture: On insulin or gliclazide, sweaty, shaky, confused, glucose under 4. Hypoglycaemia: 15 to 20 g fast sugar
+## h1200 [mh] A 44 year old woman has had sudden attacks of pounding headache, sweating and palpitations for 3 months. They last about 20 minutes. During an attack her pulse 
+ Q: Which is the most likely diagnosis? | ANS: Phaeochromocytoma
+ OPT: Thyrotoxicosis
+ KB: Typical: Women 20 to 50 · Graves': smokers · toxic nodules: older; Weight loss, heat intolerance, Tremor, sweaty, Fast or irregular pulse
+## h1201 [mh] A 34 year old man was in a car crash 8 months ago. He has flashbacks and nightmares about it. He avoids driving and jumps at loud noises. He is sleeping badly a
+ Q: Which is the most likely diagnosis? | ANS: Post-traumatic stress disorder
+ OPT: Generalised anxiety disorder
+ KB: Classic picture: Worry about everything most days for 6 months, tense, cannot switch off. Generalised anxiety disorder
+## h1204 [mh] A 29 year old woman gave birth 6 weeks ago. She has intrusive thoughts that she might harm her baby, which horrify her. She checks the baby's breathing many tim
+ Q: Which is the most likely diagnosis? | ANS: Obsessive-compulsive disorder
+ OPT: Generalised anxiety disorder
+ KB: Classic picture: Worry about everything most days for 6 months, tense, cannot switch off. Generalised anxiety disorder
+## h1205 [mh] A 36 year old man has obsessive-compulsive disorder. He has had CBT with exposure and response prevention and two SSRIs at full dose for 12 weeks each. He still
+ Q: Which is the most appropriate next drug? | ANS: Clomipramine
+ OPT: Amitriptyline
+ KB: Used for: Neuropathic pain, migraine prevention, low dose
+## h1205 [mh] A 36 year old man has obsessive-compulsive disorder. He has had CBT with exposure and response prevention and two SSRIs at full dose for 12 weeks each. He still
+ Q: Which is the most appropriate next drug? | ANS: Clomipramine
+ OPT: Lithium
+ KB: Used for: Bipolar maintenance; depression augmentation
+## h1205 [mh] A 36 year old man has obsessive-compulsive disorder. He has had CBT with exposure and response prevention and two SSRIs at full dose for 12 weeks each. He still
+ Q: Which is the most appropriate next drug? | ANS: Clomipramine
+ OPT: Propranolol
+ KB: Used for: Thyrotoxic tremor, migraine prevention, performance anxiety, varices
+## h1207 [mh] A 35 year old woman is convinced she has bowel cancer. A colonoscopy, scans and blood tests are all normal, but reassurance does not last. She has few physical 
+ Q: Which is the most likely diagnosis? | ANS: Hypochondriasis
+ OPT: Malingering
+ KB: Classic picture: Faking for money, drugs or to avoid court
+## h1217 [mh] A 54 year old man who drinks heavily was admitted 3 days ago with a broken ankle. He has become confused and agitated and says he can see insects on the walls. 
+ Q: Which is the most likely diagnosis? | ANS: Delirium tremens
+ OPT: Sepsis
+ KB: Classic picture: NEWS 5 or more with a source, high lactate. Sepsis: Sepsis Six within the hour
+## h1218 [mh] A 56 year old man with decompensated alcohol-related cirrhosis was admitted with ascites. He last drank yesterday and now has a tremor and sweating. His CIWA sc
+ Q: Which is the most appropriate drug? | ANS: Lorazepam
+ OPT: Haloperidol
+ KB: Used for: Acute agitation IM; delirium at low dose
+## h1222 [mh] A 34 year old man with known schizophrenia has relapsed after stopping his medication. He believes his family are poisoning him and has not eaten for days. He r
+ Q: Which section of the Mental Health Act is most appropriate? | ANS: Section 3
+ OPT: Section 4
+ KB: Used for: Emergency: 72 hours, 1 doctor + AMHP
+## h1222 [mh] A 34 year old man with known schizophrenia has relapsed after stopping his medication. He believes his family are poisoning him and has not eaten for days. He r
+ Q: Which section of the Mental Health Act is most appropriate? | ANS: Section 3
+ OPT: Section 136
+ KB: Used for: Police, public place: to a place of safety for 24 hours
+## h1223 [mh] Police find a distressed man in a public place threatening to jump from a bridge. He appears to be mentally unwell.
+ Q: Which power allows them to take him to a place of safety? | ANS: Section 136
+ OPT: Section 2
+ KB: Used for: Assessment for up to 28 days: 2 doctors + AMHP
+## h1223 [mh] Police find a distressed man in a public place threatening to jump from a bridge. He appears to be mentally unwell.
+ Q: Which power allows them to take him to a place of safety? | ANS: Section 136
+ OPT: Section 4
+ KB: Used for: Emergency: 72 hours, 1 doctor + AMHP
+## h1228 [mh] A 7 year old boy is brought by his parents. His teachers say he has poor eye contact and does not join in group play. At home he lines up his toys and becomes v
+ Q: Which is the most likely diagnosis? | ANS: Autism spectrum disorder
+ OPT: Intellectual disability
+ KB: Classic picture: IQ under 70 + needs help with daily living, from childhood. Intellectual disability
+## h1229 [mh] A 5 year old girl rarely makes eye contact, does not point to share interest and has repetitive hand flapping. Her parents are worried. Her GP suspects autism.
+ Q: Which is the most appropriate next step? | ANS: Autism assessment team
+ OPT: MRI brain
+ KB: Used for: MS, posterior fossa, encephalitis, tumour
+## h1231 [mh] A 32 year old woman with bipolar disorder gave birth 10 days ago. Over 2 days she has become confused and sleepless. She says her baby is evil. She is agitated,
+ Q: Which is the most likely diagnosis? | ANS: Postpartum psychosis
+ OPT: Postnatal depression
+ KB: Classic picture: Low mood for weeks after birth
+## h1232 [mh] A 29 year old woman gave birth 2 months ago and is breastfeeding. She has moderate postnatal depression and wants medication alongside therapy.
+ Q: Which is the most appropriate choice? | ANS: Sertraline
+ OPT: Lithium
+ KB: Used for: Bipolar maintenance; depression augmentation
+## h1234 [mh] An 84 year old woman with a urinary infection has been confused for 2 days. Her family say she was sharp last week. She is drowsy in the morning and agitated at
+ Q: Which is the most likely diagnosis? | ANS: Delirium
+ OPT: Depression
+ KB: Classic picture: 2 weeks of low mood, anhedonia, early-morning waking. Depression
+## h1240 [mh] A 32 year old woman avoids buses, supermarkets and crowds because she fears she could not escape or get help if she panicked. She now rarely leaves home.
+ Q: Which is the most likely diagnosis? | ANS: Agoraphobia
+ OPT: Generalised anxiety disorder
+ KB: Classic picture: Worry about everything most days for 6 months, tense, cannot switch off. Generalised anxiety disorder
+## h1241 [mh] A 34 year old man has a specific phobia of dogs. It stops him walking to work. He has no other anxiety symptoms.
+ Q: Which is the most appropriate treatment? | ANS: Graded exposure therapy
+ OPT: Propranolol
+ KB: Used for: Thyrotoxic tremor, migraine prevention, performance anxiety, varices
+## h1241 [mh] A 34 year old man has a specific phobia of dogs. It stops him walking to work. He has no other anxiety symptoms.
+ Q: Which is the most appropriate treatment? | ANS: Graded exposure therapy
+ OPT: Sertraline
+ KB: Classic picture: Depression after an MI
+## h1243 [mh] An 8 year old boy has ADHD that still severely affects his schooling. Changes to his classroom and a parent training programme have been tried. He has no heart 
+ Q: Which is the most appropriate first drug? | ANS: Methylphenidate
+ OPT: Atomoxetine
+ KB: Used for: ADHD when stimulants do not suit
+## h1244 [mh] A 9 year old boy with ADHD is about to start methylphenidate.
+ Q: Which baseline measures are needed? | ANS: Growth, pulse and blood pressure
+ OPT: Echocardiogram
+ KB: Used for: Murmur, heart failure, new AF
+## h1244 [mh] A 9 year old boy with ADHD is about to start methylphenidate.
+ Q: Which baseline measures are needed? | ANS: Growth, pulse and blood pressure
+ OPT: EEG
+ KB: Used for: Suspected epilepsy: supports and classifies it
+## h1246 [mh] A 13 year old boy has repeatedly hurt the family dog and set fire to a shed. He steals from shops and often stays out all night.
+ Q: Which is the most likely diagnosis? | ANS: Conduct disorder
+ OPT: Autism spectrum disorder
+ KB: Classic picture: Rigid routines, distress at change, literal language, from early childhood. Autism spectrum disorder
+## h1247 [mh] A 6 year old boy is often angry and argumentative. He refuses to follow rules at home and deliberately annoys others. There is no violence or cruelty. He is dia
+ Q: Which is the most appropriate first intervention? | ANS: Group parent-training programme
+ OPT: Risperidone
+ KB: Used for: Psychosis
+## h1248 [mh] A 19 year old man has stolen, lied and been violent since the age of 12. He shows no remorse. He has been excluded from school and has lost several jobs.
+ Q: Which is the most likely diagnosis? | ANS: Antisocial personality disorder
+ OPT: Bipolar disorder
+ KB: Typical: Late teens to 20s · strong family history · triggered by sleep loss, drugs, antidepressants; Mania: little sleep, not tired, Grandiose, racing thoughts, Pressured speech
+## h1248 [mh] A 19 year old man has stolen, lied and been violent since the age of 12. He shows no remorse. He has been excluded from school and has lost several jobs.
+ Q: Which is the most likely diagnosis? | ANS: Antisocial personality disorder
+ OPT: Oppositional defiant disorder
+ KB: Classic picture: Child under 10, defiant and argumentative with adults, no serious violence. Oppositional defiant disorder
+## h1248 [mh] A 19 year old man has stolen, lied and been violent since the age of 12. He shows no remorse. He has been excluded from school and has lost several jobs.
+ Q: Which is the most likely diagnosis? | ANS: Antisocial personality disorder
+ OPT: Schizophrenia
+ KB: Classic picture: Third-person voices commenting, thoughts being broadcast, 6 months of decline. Schizophrenia
+## h1548 [mh] A 28 year old paramedic with post-traumatic stress disorder asks for treatment. He has asthma.
+ Q: Which is the most appropriate first treatment? | ANS: Trauma-focused CBT
+ OPT: Propranolol
+ KB: Used for: Thyrotoxic tremor, migraine prevention, performance anxiety, varices
+## h1557 [mh] A 30 year old woman is an informal patient on a psychiatric ward. Her psychosis is getting worse. She tries to leave at night. Only a nurse with the right quali
+ Q: Which power can be used? | ANS: Section 5.4
+ OPT: Section 2
+ KB: Used for: Assessment for up to 28 days: 2 doctors + AMHP
+## h1557 [mh] A 30 year old woman is an informal patient on a psychiatric ward. Her psychosis is getting worse. She tries to leave at night. Only a nurse with the right quali
+ Q: Which power can be used? | ANS: Section 5.4
+ OPT: Section 3
+ KB: Used for: Treatment for up to 6 months, renewable
+## h1557 [mh] A 30 year old woman is an informal patient on a psychiatric ward. Her psychosis is getting worse. She tries to leave at night. Only a nurse with the right quali
+ Q: Which power can be used? | ANS: Section 5.4
+ OPT: Section 136
+ KB: Used for: Police, public place: to a place of safety for 24 hours
+## h1560 [mh] A 41 year old woman with catatonic depression has not improved after 5 days of lorazepam. She is not drinking. Pulse rate 104 bpm. She is dry. Creatinine has ri
+ Q: Which is the most appropriate next treatment? | ANS: Electroconvulsive therapy
+ OPT: Haloperidol
+ KB: Used for: Acute agitation IM; delirium at low dose
+## h1560 [mh] A 41 year old woman with catatonic depression has not improved after 5 days of lorazepam. She is not drinking. Pulse rate 104 bpm. She is dry. Creatinine has ri
+ Q: Which is the most appropriate next treatment? | ANS: Electroconvulsive therapy
+ OPT: Olanzapine
+ KB: Used for: Psychosis, mania
+## h1562 [mh] A 3 year old boy has possible autism. He has poor response to his name and delayed speech. He has been referred for assessment.
+ Q: Which test should be done before or alongside assessment? | ANS: Formal hearing test
+ OPT: EEG
+ KB: Used for: Suspected epilepsy: supports and classifies it
+## h1562 [mh] A 3 year old boy has possible autism. He has poor response to his name and delayed speech. He has been referred for assessment.
+ Q: Which test should be done before or alongside assessment? | ANS: Formal hearing test
+ OPT: MRI brain
+ KB: Used for: MS, posterior fossa, encephalitis, tumour
+## h1567 [mh] An 8 year old boy cannot sit still, interrupts constantly, loses things and rushes his work. This has happened at home and at school for 2 years. His teachers s
+ Q: Which is the most likely diagnosis? | ANS: ADHD
+ OPT: Autism spectrum disorder
+ KB: Classic picture: Rigid routines, distress at change, literal language, from early childhood. Autism spectrum disorder
+## h1567 [mh] An 8 year old boy cannot sit still, interrupts constantly, loses things and rushes his work. This has happened at home and at school for 2 years. His teachers s
+ Q: Which is the most likely diagnosis? | ANS: ADHD
+ OPT: Oppositional defiant disorder
+ KB: Classic picture: Child under 10, defiant and argumentative with adults, no serious violence. Oppositional defiant disorder
+## h1574 [mh] A 30 year old woman with Down syndrome has become slower and forgetful and has lost skills over a year.
+ Q: Which condition most needs excluding first? | ANS: Hypothyroidism
+ OPT: Depression
+ KB: Classic picture: 2 weeks of low mood, anhedonia, early-morning waking. Depression
+## h1600 [ent] A 5 year old boy has not been immunised. He has a high fever, a muffled voice and drooling. Temperature 39.6°C. He is sitting forward and does not want to lie d
+ Q: Which is the most likely diagnosis? | ANS: Epiglottitis
+ OPT: Bacterial tracheitis
+ KB: Classic picture: Croup-like child who looks toxic and doesn't respond to adrenaline
+## h1600 [ent] A 5 year old boy has not been immunised. He has a high fever, a muffled voice and drooling. Temperature 39.6°C. He is sitting forward and does not want to lie d
+ Q: Which is the most likely diagnosis? | ANS: Epiglottitis
+ OPT: Inhaled foreign body
+ KB: Classic picture: Child, sudden wheeze while eating or playing: asthma?
+## h1603 [ent] A 46 year old woman has had attacks of spinning vertigo lasting about 3 hours. During attacks she has ringing, fullness and muffled hearing in her right ear. Be
+ Q: Which is the most likely diagnosis? | ANS: Ménière's disease
+ OPT: Acoustic neuroma
+ KB: Classic picture: One-sided hearing loss + tinnitus, absent corneal reflex. Acoustic neuroma: MRI
+## h1604 [ent] A 46 year old woman has suspected Ménière's disease. Her hearing loss is worse on the right. Audiometry shows an asymmetrical sensorineural loss.
+ Q: Which investigation is most appropriate to exclude another cause? | ANS: MRI of the internal acoustic meatus
+ OPT: CT head without contrast
+ KB: Used for: Head injury, stroke, thunderclap
+## h1609 [ent] A 2 year old boy has had a cold for 2 days. Last night he developed a barking cough and a hoarse voice. Temperature 37.9°C. He is alert. He has stridor only whe
+ Q: Which is the most likely diagnosis? | ANS: Croup
+ OPT: Bacterial tracheitis
+ KB: Classic picture: Croup-like child who looks toxic and doesn't respond to adrenaline
+## h1609 [ent] A 2 year old boy has had a cold for 2 days. Last night he developed a barking cough and a hoarse voice. Temperature 37.9°C. He is alert. He has stridor only whe
+ Q: Which is the most likely diagnosis? | ANS: Croup
+ OPT: Foreign body
+ KB: Classic picture: Toddler, sudden choking while playing, one-sided wheeze
+## h1611 [ent] A 2 year old was playing with small toys when she suddenly choked and coughed. She now has a wheeze. Temperature 36.9°C, respiratory rate 32 breaths per minute,
+ Q: Which is the most likely diagnosis? | ANS: Inhaled foreign body
+ OPT: Croup
+ KB: Classic picture: Toddler, barking cough + stridor, worse at night after a cold. Croup: oral dexamethasone
+## h1612 [eye] A 66 year old woman has had gritty, burning eyes for months. Her lid margins are red and crusty every morning. Her vision is normal. The lid margins are red wit
+ Q: Which is the most likely diagnosis? | ANS: Blepharitis
+ OPT: Episcleritis
+ KB: Classic picture: Mild sectoral redness, little pain, blanches with phenylephrine
+## h1615 [eye] A 34 year old man has had red, sticky eyes with crusting in the morning for 3 days. He does not wear contact lenses. His vision is normal. There is no pain or p
+ Q: Which is the most likely diagnosis? | ANS: Bacterial conjunctivitis
+ OPT: Acute angle-closure glaucoma
+ KB: Classic picture: Painful red eye, halos, vomiting, mid-dilated fixed pupil, rock-hard eye. Acute angle-closure glaucoma
+## h1615 [eye] A 34 year old man has had red, sticky eyes with crusting in the morning for 3 days. He does not wear contact lenses. His vision is normal. There is no pain or p
+ Q: Which is the most likely diagnosis? | ANS: Bacterial conjunctivitis
+ OPT: Anterior uveitis
+ KB: Classic picture: Ankylosing spondylitis, painful red eye, photophobia, small irregular pupil. Anterior uveitis
+## h1615 [eye] A 34 year old man has had red, sticky eyes with crusting in the morning for 3 days. He does not wear contact lenses. His vision is normal. There is no pain or p
+ Q: Which is the most likely diagnosis? | ANS: Bacterial conjunctivitis
+ OPT: Scleritis
+ KB: Classic picture: RA, severe boring eye pain that wakes them, deep purple, tender. Scleritis
+## h1618 [eye] A 29 year old man has had low back stiffness for a year. He now has a painful red left eye with photophobia and blurred vision. The redness is worst around the 
+ Q: Which is the most likely diagnosis? | ANS: Anterior uveitis
+ OPT: Subconjunctival haemorrhage
+ KB: Classic picture: Bright red patch after coughing or vomiting, painless
+## h1620 [eye] A 29 year old man has anterior uveitis confirmed on slit lamp examination. There is no infection.
+ Q: Which is the most appropriate treatment? | ANS: Steroid and dilating drops
+ OPT: Timolol drops
+ KB: Used for: Glaucoma second line; acute angle closure
+## h1621 [eye] A 7 year old boy had a cold last week. His right eyelid has become swollen and red over a day. Temperature 38.9°C. He has pain on moving the right eye. The eye 
+ Q: Which is the most likely diagnosis? | ANS: Orbital cellulitis
+ OPT: Chalazion
+ KB: Classic picture: Painless firm lump in the lid
+## h1621 [eye] A 7 year old boy had a cold last week. His right eyelid has become swollen and red over a day. Temperature 38.9°C. He has pain on moving the right eye. The eye 
+ Q: Which is the most likely diagnosis? | ANS: Orbital cellulitis
+ OPT: Stye
+ KB: Classic picture: Painful red lump on the lid margin
+## h1622 [eye] A 7 year old boy has orbital cellulitis. He has been admitted and started on IV antibiotics.
+ Q: Which is the most appropriate imaging? | ANS: CT of orbits and sinuses with contrast
+ OPT: MRI of the brain
+ KB: Used for: MS, posterior fossa, encephalitis, tumour
+## h1623 [eye] A 7 year old boy with orbital cellulitis now has a headache and is vomiting. Both eyes have become swollen. Temperature 39.4°C. There is swelling of both eyelid
+ Q: Which is the most likely complication? | ANS: Cavernous sinus thrombosis
+ OPT: Acute glaucoma
+ KB: Typical: Chronic: 40+, family history, Black · acute: older, long-sighted, East Asian; Chronic: no symptoms, slow loss of side vision, Acute: very painful red eye, Halos around lights
+## h1623 [eye] A 7 year old boy with orbital cellulitis now has a headache and is vomiting. Both eyes have become swollen. Temperature 39.4°C. There is swelling of both eyelid
+ Q: Which is the most likely complication? | ANS: Cavernous sinus thrombosis
+ OPT: Retinal detachment
+ KB: Classic picture: Flashes + floaters + a curtain over part of the vision. Retinal detachment: same-day surgery
+## h1624 [eye] A 76 year old man has had gradually blurred vision in both eyes for 2 years. Oncoming headlights cause glare at night. Visual acuity is 6/18 in both eyes. The r
+ Q: Which is the most likely diagnosis? | ANS: Cataract
+ OPT: Open-angle glaucoma
+ KB: Classic picture: Painless gradual peripheral field loss + cupped disc
+## h1624 [eye] A 76 year old man has had gradually blurred vision in both eyes for 2 years. Oncoming headlights cause glare at night. Visual acuity is 6/18 in both eyes. The r
+ Q: Which is the most likely diagnosis? | ANS: Cataract
+ OPT: Retinal detachment
+ KB: Classic picture: Flashes + floaters + a curtain over part of the vision. Retinal detachment: same-day surgery
+## h1627 [eye] A 78 year old woman has noticed over a week that straight door frames look bent. There is a grey patch in the centre of the vision in her right eye. Visual acui
+ Q: Which is the most likely diagnosis? | ANS: Wet macular degeneration
+ OPT: Cataract
+ KB: Classic picture: Elderly, gradual blurred vision, glare from headlights, lost red reflex. Cataract
+## h1627 [eye] A 78 year old woman has noticed over a week that straight door frames look bent. There is a grey patch in the centre of the vision in her right eye. Visual acui
+ Q: Which is the most likely diagnosis? | ANS: Wet macular degeneration
+ OPT: Central retinal artery occlusion
+ KB: Classic picture: Sudden painless loss of vision, pale retina, cherry-red spot. Central retinal artery occlusion
+## h1627 [eye] A 78 year old woman has noticed over a week that straight door frames look bent. There is a grey patch in the centre of the vision in her right eye. Visual acui
+ Q: Which is the most likely diagnosis? | ANS: Wet macular degeneration
+ OPT: Open-angle glaucoma
+ KB: Classic picture: Painless gradual peripheral field loss + cupped disc
+## h1632 [eye] A 25 year old man was punched in the right eye. He has double vision on looking up. There is bruising around the right eye. Upward gaze is limited on the right.
+ Q: Which is the most likely diagnosis? | ANS: Orbital floor fracture
+ OPT: Retinal detachment
+ KB: Classic picture: Flashes + floaters + a curtain over part of the vision. Retinal detachment: same-day surgery

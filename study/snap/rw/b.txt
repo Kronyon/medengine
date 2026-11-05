@@ -1,0 +1,692 @@
+## h0559 [] b:otosclerosis
+A 32 year old woman has had gradual hearing loss in both ears for 2 years. It became noticeably worse during her recent pregnancy. Her mother wore hearing aids from her forties. She has no ear pain or discharge.
+Otoscopy shows normal tympanic membranes. Rinne's test is negative on both sides and Weber's test is central.
+Q: Which is the most likely diagnosis?
+  - Ménière's disease
+  - Noise-induced hearing loss
+  * Otosclerosis
+  - Presbycusis
+  - Vestibular schwannoma
+## h0560 [] b:otosclerosis
+A 34 year old woman has bilateral conductive hearing loss with normal tympanic membranes. Otosclerosis is suspected and she has pure tone audiometry. The audiologist describes a characteristic notch in the bone conduction thresholds.
+Q: At which frequency is the classic dip in bone conduction?
+  * 2 kHz
+  - 4 kHz
+  - 8 kHz
+  - 250 Hz
+  - 500 Hz
+## h0561 [mix] b:otosclerosis
+A 36 year old woman has otosclerosis confirmed by an ENT surgeon. Her hearing loss affects her work as a teacher and she would like to improve it.
+Q: Which options are offered?
+  - Grommet insertion
+  * Hearing aid or stapedotomy
+  - Long course of oral antibiotics
+  - Microsuction of wax
+  - Oral steroids
+## h0562 [] b:csfleak
+A 35 year old woman gave birth 3 days ago with an epidural. Since yesterday she has had a severe headache that comes on within minutes of standing and goes when she lies flat. She has neck stiffness when upright.
+Temperature 36.8°C, BP 118/72 mmHg. Neurological examination is normal. There is no photophobia.
+Q: Which is the most likely diagnosis?
+  - Cerebral venous sinus thrombosis
+  - Idiopathic intracranial hypertension
+  * Post-dural puncture headache
+  - Postpartum migraine
+  - Subarachnoid haemorrhage
+## h0563 [] b:csfleak
+A 42 year old woman has had a headache for 3 weeks that comes on within minutes of standing and is relieved by lying flat. She has had no lumbar puncture or epidural. Neurological examination is normal.
+MRI brain with contrast shows smooth thickening and enhancement of the meninges, sagging of the brain and small subdural fluid collections.
+Q: What does this suggest?
+  - Bacterial meningitis
+  - Cerebral venous sinus thrombosis
+  - Leptomeningeal metastases
+  * Spontaneous intracranial hypotension
+  - Subarachnoid haemorrhage
+## h0564 [mix] b:csfleak
+A 28 year old woman has had a post-dural puncture headache for 3 days after a spinal anaesthetic. Bed rest, oral fluids, regular analgesia and caffeine have not helped. She cannot care for her baby.
+Q: Which is the most appropriate treatment?
+  * Epidural blood patch
+  - Lumbar drain
+  - Morphine
+  - Repeat lumbar puncture
+  - Triptan
+## h0565 [] b:buddchiari
+A 52 year old woman with polycythaemia vera has had abdominal pain and swelling for 2 weeks.
+Pulse rate 92 bpm. She is not jaundiced and the JVP is not raised. There is a large, tender liver and shifting dullness.
+LAB Haemoglobin 182 g/L 115–150; ALT 112 IU/L 10–50
+Q: Which is the most likely diagnosis?
+  - Alcoholic hepatitis
+  * Budd-Chiari syndrome
+  - Constrictive pericarditis
+  - Portal vein thrombosis
+  - Right heart failure
+## h0566 [mix] b:buddchiari
+A 34 year old woman taking the combined oral contraceptive pill has had right upper quadrant pain and abdominal swelling for 10 days.
+There is tender hepatomegaly and ascites. The JVP is normal. Budd-Chiari syndrome is suspected.
+Q: Which is the most appropriate first investigation?
+  - Diagnostic ascitic tap for protein
+  * Doppler ultrasound of the liver
+  - ERCP
+  - Percutaneous liver biopsy
+  - Upper GI endoscopy
+## h0567 [] b:buddchiari
+A 48 year old woman has Budd-Chiari syndrome confirmed on Doppler ultrasound and CT venography, with thrombosis of the hepatic veins. She has a JAK2 mutation. Her liver function is mildly impaired and there is no variceal bleeding.
+Q: Which is the most appropriate first treatment?
+  * Anticoagulation
+  - Aspirin
+  - Liver transplant
+  - Steroids
+  - Watch and wait
+## h0568 [] b:misidentification
+A 72 year old man with Lewy body dementia has become distressed. His daughter says he is convinced that his wife has been replaced by an identical impostor. He is otherwise orientated.
+Q: What is this phenomenon called?
+  * Capgras syndrome
+  - Cotard syndrome
+  - De Clérambault syndrome
+  - Ekbom syndrome
+  - Fregoli syndrome
+## h0569 [] b:misidentification
+A 58 year old woman is convinced that insects are living under her skin. She brings small bits of fluff and skin in a matchbox as proof. Several dermatology examinations and skin scrapings have been normal.
+There are excoriations on her arms but no burrows or other skin disease.
+Q: What is this condition called?
+  - Capgras syndrome
+  * Delusional parasitosis
+  - Hypochondriasis
+  - Othello syndrome
+  - Somatisation disorder
+## h0570 [len] b:misidentification
+A 46 year old man has a fixed belief that his wife is having an affair, despite no evidence. He checks her phone several times a day, follows her to work and accuses her repeatedly. He drinks heavily at weekends.
+Q: Which is the most important risk to assess?
+  - Alcohol misuse
+  - Self-neglect at home
+  - Stalking a famous person
+  - Suicide by overdose
+  * Violence towards his partner
+## h0571 [] b:clusterc
+A 30 year old man still lives with his mother. He cannot make everyday decisions, such as what to wear, without her reassurance. He avoids disagreeing with anyone in case they stop supporting him and feels helpless and anxious when alone.
+He has no low mood, panic attacks or psychotic symptoms.
+Q: Which is the most likely diagnosis?
+  - Anxious avoidant personality disorder
+  * Dependent personality disorder
+  - Generalised anxiety disorder
+  - Obsessive-compulsive personality disorder
+  - Social anxiety disorder
+## h0572 [] b:clusterc
+A 44 year old woman is a perfectionist who cannot delegate at work because she believes no one else will do the job properly. She is rigid about rules, lists and schedules, and her work comes before friends and family. She sees nothing wrong with how she behaves and has no intrusive thoughts.
+Q: Which is the most likely diagnosis?
+  * Anankastic personality disorder
+  - Autism spectrum disorder
+  - Dependent personality disorder
+  - Generalised anxiety disorder
+  - Obsessive-compulsive disorder
+## h0573 [mix,frame] b:clusterc
+A medical student is revising personality disorders. Her supervisor asks her to name the disorders in cluster C, the anxious and fearful group.
+Q: Which personality disorders belong to cluster C?
+  - Antisocial, borderline and histrionic
+  * Avoidant, dependent and anankastic
+  - Borderline, dependent and avoidant
+  - Narcissistic, histrionic and dependent
+  - Paranoid, schizoid and schizotypal
+## h0574 [] b:grief
+A 34 year old woman's brother died suddenly a month ago. She is tearful, longs for him and sometimes briefly hears his voice when she is falling asleep. She is not sleeping well but is still going to work and looking after her children. She has no thoughts of self-harm.
+Q: Which is the most likely diagnosis?
+  - Depressive episode
+  * Normal grief reaction
+  - Prolonged grief disorder
+  - Psychotic disorder
+  - PTSD
+## h0575 [] b:grief
+A 56 year old woman's husband died 4 months ago. She thinks about him constantly and struggles to accept his death. She is asking whether she has prolonged grief disorder.
+Q: For how long does ICD-11 require grief to persist before prolonged grief disorder can be diagnosed?
+  - 1 month
+  - 2 weeks
+  - 2 years
+  - 3 months
+  * 6 months
+## h0576 [] b:grief
+A 74 year old man's wife died 2 months ago. He now feels worthless and says he is a burden. He has lost all interest in his garden and grandchildren, has stopped eating and has lost 6 kg. He says he should be dead.
+Q: Which is the most likely diagnosis?
+  - Adjustment disorder
+  * Depressive episode
+  - Normal grief reaction
+  - Prolonged grief disorder
+  - Schizophrenia
+## h0577 [] b:organicpsych
+A 60 year old woman started prednisolone 60 mg daily for giant cell arteritis 5 days ago. She has no psychiatric history. She has become elated, sleepless, talkative and says she has special powers.
+Temperature 36.8°C. She is orientated. Thyroid function and glucose are normal.
+Q: Which is the most likely diagnosis?
+  - Delirium from infection
+  - First episode of bipolar disorder
+  - Late-onset schizophrenia
+  * Steroid-induced mania
+  - Thyrotoxicosis
+## h0578 [] b:organicpsych
+A 20 year old man has been brought in by his flatmates because he thinks they are plotting against him and he hears voices. He has smoked large amounts of skunk cannabis daily for 2 weeks. He stops using cannabis in hospital and his symptoms resolve completely within 4 days.
+Q: Which is the most likely diagnosis?
+  - Bipolar affective disorder
+  - Delusional disorder
+  - Schizoaffective disorder
+  - Schizophrenia
+  * Substance-induced psychosis
+## h0579 [mix] b:organicpsych
+A 70 year old man with no psychiatric history has developed visual hallucinations of people in his house and believes his neighbours are spying on him. Symptoms started 2 weeks ago.
+Q: Which should be done before diagnosing a primary psychosis?
+  - Admit under section 2
+  - Refer for CBT for psychosis
+  - Refer for ECT
+  * Screen for an organic cause
+  - Start an antipsychotic
+## h0580 [] b:handeczema
+A 65 year old man has had itchy, weeping, coin-shaped patches on both lower legs for 3 months, worse in winter. He has dry skin.
+There are several well-defined, round, 3 cm red plaques with crusting and tiny vesicles on the shins. There is no central clearing. Skin scrapings are negative for fungus.
+Q: Which is the most likely diagnosis?
+  * Discoid eczema
+  - Lichen planus
+  - Pityriasis rosea
+  - Psoriasis
+  - Tinea corporis
+## h0581 [] b:handeczema
+A 32 year old woman has had intensely itchy, tiny blisters on the sides of her fingers and on her palms for 3 weeks. It is worse in hot weather and when she is stressed. She has hay fever.
+There are deep-seated, clear vesicles on the palms and the sides of the fingers with some peeling. The web spaces and wrists are not involved.
+Q: Which is the most likely diagnosis?
+  - Dermatitis herpetiformis
+  - Hand, foot and mouth disease
+  * Pompholyx
+  - Scabies
+  - Tinea manuum
+## h0582 [] b:handeczema
+A 38 year old man has pompholyx with itchy vesicles on both palms. Emollients and soap substitutes have not helped. There is no infection.
+Q: Which topical steroid is most appropriate?
+  - Betamethasone valerate 0.025%
+  * Clobetasol propionate 0.05%
+  - Clobetasone butyrate 0.05%
+  - Clotrimazole 1%
+  - Hydrocortisone 1%
+## h0583 [] b:vasculitis
+A 45 year old woman has had nasal crusting and nosebleeds for 3 months. Recently she has coughed up blood and feels unwell.
+Temperature 37.6°C, BP 158/94 mmHg. There is a saddle nose deformity. Urine dipstick shows blood 3+ and protein 2+.
+Creatinine 198 µmol/L (60–120). Chest X-ray shows multiple nodules, some cavitating.
+Q: Which antibody is most likely to be positive?
+  - Anti-centromere
+  - Anti-dsDNA
+  * c-ANCA against PR3
+  - p-ANCA against MPO
+  - Rheumatoid factor
+## h0584 [] b:vasculitis
+A 54 year old man has granulomatosis with polyangiitis. His creatinine has risen from 110 to 240 µmol/L over 2 weeks, and urine microscopy shows red cell casts. Renal biopsy shows a pauci-immune crescentic glomerulonephritis.
+Q: Which is the most appropriate treatment?
+  - IV co-trimoxazole
+  - Methotrexate
+  - Oral prednisolone
+  * Steroids with rituximab
+  - Supportive care and review
+## h0585 [] b:vasculitis
+An 8 year old boy has a rash on his legs and buttocks, painful ankles and colicky abdominal pain. He had a cold a week ago.
+Temperature 37.4°C, BP 104/66 mmHg. There is raised, palpable purpura on the buttocks and the backs of the legs. Both ankles are swollen. Urine dipstick shows blood 1+.
+Platelet count is normal.
+Q: Which is the most likely diagnosis?
+  - GPA
+  * IgA vasculitis
+  - Kawasaki disease
+  - Leukaemia
+  - Meningococcal sepsis
+## h0586 [frame] b:colonblood
+A 68 year old man has a tumour of the caecum. The surgeon explains to the medical student which artery must be ligated during a right hemicolectomy.
+Q: Which artery supplies the caecum and ascending colon?
+  * Ileocolic artery
+  - Inferior mesenteric artery
+  - Left colic artery
+  - Middle colic artery
+  - Sigmoid arteries
+## h0587 [] b:colonblood
+A 76 year old woman with heart failure has had left-sided abdominal pain and bloody diarrhoea after an episode of low blood pressure. Colonoscopy shows ischaemic colitis in a watershed area between two arterial territories.
+Q: Which part of the colon is a watershed area most prone to ischaemia?
+  - Caecum
+  - Hepatic flexure
+  - Rectum
+  - Sigmoid colon
+  * Splenic flexure
+## h0588 [] b:colonblood
+An 80 year old woman with atrial fibrillation has acute mesenteric ischaemia. CT angiography shows an embolus blocking the superior mesenteric artery just beyond the origin of the middle colic branch.
+Q: Which bowel is most likely to be affected?
+  - Descending colon
+  - Middle third of the transverse colon
+  - Rectum
+  * Small bowel and the right colon
+  - Stomach
+## h0589 [] b:lymphdrainage
+A 28 year old man has a testicular germ cell tumour. A CT scan is arranged to stage the disease and look for the first lymph nodes that the testis drains to.
+Q: Where does the testis drain first?
+  - Axillary nodes
+  - Deep inguinal nodes
+  - Internal iliac nodes
+  * Para-aortic nodes
+  - Superficial inguinal nodes
+## h0590 [] b:lymphdrainage
+A 62 year old woman has a squamous cell carcinoma of the lower anal canal, arising below the dentate line. She is being examined for lymph node spread.
+Q: Which lymph nodes are most likely to be involved?
+  - Deep inguinal
+  - Inferior mesenteric
+  - Internal iliac
+  - Para-aortic
+  * Superficial inguinal
+## h0591 [] b:lymphdrainage
+A 66 year old woman has a hard, painless, enlarged lymph node above her left clavicle. She has lost 5 kg and has had indigestion and early fullness for 3 months.
+Q: Which cancer should be considered?
+  - Breast cancer
+  * Gastric cancer
+  - Hodgkin lymphoma
+  - Laryngeal cancer
+  - Thyroid cancer
+## h0592 [mix] b:adrenaltests
+A 54 year old woman stopped long-term prednisolone for polymyalgia rheumatica abruptly 2 weeks ago. She now feels weak and dizzy and has lost her appetite.
+BP 94/58 mmHg lying, 78/50 mmHg standing.
+LAB Sodium 128 mmol/L 135–146; Potassium 4.6 mmol/L 3.5–5.3; Glucose 3.8 mmol/L 4.0–7.8
+Q: Which test confirms adrenal insufficiency?
+  - Dexamethasone suppression test
+  - Random cortisol at midnight
+  - Renin
+  * Short synacthen test
+  - Urine metanephrines
+## h0593 [mix] b:adrenaltests
+A 44 year old man has had fatigue and weight loss and Addison's disease is suspected. He is not acutely unwell and takes no steroids or oral contraceptives.
+BP 128/78 mmHg.
+LAB Sodium 138 mmol/L 135–146; Potassium 4.2 mmol/L 3.5–5.3
+Q: What does this result mean?
+  * Addison's is very unlikely
+  - Confirms Addison's
+  - Cushing's syndrome
+  - Needs urgent hydrocortisone
+  - Test is not useful
+## h0594 [] b:adrenaltests
+A 48 year old woman has had fatigue and weight loss. A short synacthen test confirms adrenal insufficiency. The team needs to decide whether the cause is in the adrenal gland or the pituitary.
+Q: Which result distinguishes primary adrenal failure from secondary?
+  - Failed synacthen test
+  * High plasma ACTH
+  - Low 9 am cortisol
+  - Low glucose
+  - Low sodium
+## h0595 [len] b:posturalbp
+A 78 year old woman has had two falls in a month after feeling dizzy when standing up.
+Her BP is 142/80 mmHg lying and 115/72 mmHg after 3 minutes standing. Her pulse rate rises from 70 to 78 bpm.
+Q: What does this show?
+  - Hypertension
+  - Normal
+  * Orthostatic hypotension
+  - Vasovagal response
+  - White coat effect
+## h0596 [] b:posturalbp
+An 82 year old man has had three falls in 2 months, each after standing up. He takes doxazosin for his prostate, amlodipine, ramipril and furosemide for hypertension and mild heart failure.
+His BP is 148/78 mmHg lying and 118/64 mmHg after 3 minutes standing. He has no peripheral oedema.
+Q: Which is the most appropriate first step?
+  - Compression stockings
+  - Start fludrocortisone
+  - Start midodrine
+  * Stop doxazosin
+  - Stop ramipril
+## h0597 [mix] b:posturalbp
+A 68 year old woman has had swelling of both ankles for 2 months. Her blood pressure is well controlled on amlodipine 10 mg and indapamide. She has no breathlessness.
+BP 132/78 mmHg lying and 128/76 mmHg standing. There is pitting oedema to the mid-shins. JVP is not raised. Albumin and urine dipstick are normal.
+Q: Which is the most appropriate change?
+  - Add furosemide
+  - Compression stockings
+  - Double the indapamide
+  * Replace amlodipine
+  - Stop indapamide
+## h0598 [mix] b:paintypes
+A 62 year old man with type 2 diabetes has had burning pain in his feet with electric shocks for 6 months, worse at night. The touch of his bed sheets is painful.
+There is reduced pinprick sensation in a stocking distribution and absent ankle reflexes. Foot pulses are present.
+Q: Which type of pain is this?
+  * Neuropathic
+  - Nociceptive
+  - Psychogenic
+  - Referred
+  - Visceral
+## h0599 [mix] b:paintypes
+A 44 year old man had a laparoscopic cholecystectomy yesterday. He now has pain at the tip of his right shoulder.
+His shoulder has a full range of movement and is not tender.
+Q: Which type of pain is this?
+  - Neuropathic
+  - Nociceptive skin pain
+  - Phantom pain
+  * Referred pain from the diaphragm
+  - Visceral pain from the shoulder
+## h0600 [len] b:paintypes
+A 48 year old man has had low back pain for 6 weeks after lifting. The pain spreads vaguely into his left buttock and the back of his thigh but not below the knee. He has no numbness, weakness or bladder symptoms.
+Straight leg raise is negative. Neurological examination of the legs is normal.
+Q: Which type of pain is this?
+  - Malingering
+  - Neuropathic pain
+  - Radicular pain
+  * Somatic referred pain
+  - Visceral pain
+## h0601 [mix] b:rhinitis
+A 24 year old man has had a blocked, runny nose with sneezing and itchy eyes every summer for 5 years. This year his symptoms have lasted 6 weeks and disturb his sleep. Oral cetirizine has helped only a little.
+The nasal mucosa is pale and swollen. There are no nasal polyps.
+Q: Which treatment is most effective for persistent symptoms?
+  - Antibiotic
+  * Intranasal corticosteroid
+  - Nasal saline
+  - Oral decongestant for months
+  - Oral steroid
+## h0602 [] b:rhinitis
+A 38 year old woman has used an over-the-counter decongestant nasal spray several times a day for 6 weeks after a cold. Her nose is now blocked all the time and the spray works for shorter and shorter periods.
+The nasal mucosa is red and swollen. There are no polyps and the septum is straight.
+Q: Which is the most likely cause?
+  - Allergic rhinitis
+  - Chronic rhinosinusitis
+  - Deviated nasal septum
+  - Nasal polyposis
+  * Rhinitis medicamentosa
+## h0603 [mix] b:rhinitis
+A 17 year old student has severe hay fever with streaming eyes and nose. She has important exams in 2 weeks. She already uses an intranasal corticosteroid and an oral antihistamine correctly, but her symptoms continue.
+Q: Which option may be considered?
+  * A short course of oral prednisolone
+  - Immunotherapy started 1 week before
+  - Intramuscular depot steroid as routine
+  - Oral antibiotics
+  - Surgery
+## h0604 [] b:akicauses
+A 72 year old woman was admitted with vomiting and diarrhoea 2 days ago. She takes ramipril. She has passed little urine.
+Her creatinine was 80 µmol/L (60–120) at her GP review 3 months ago. Today it is 200 µmol/L. Urine output has been 0.6 mL/kg/hour.
+Q: Which stage of acute kidney injury is this?
+  - CKD stage 4
+  - Not AKI
+  - Stage 1
+  * Stage 2
+  - Stage 3
+## h0605 [] b:akicauses
+A 68 year old man has had vomiting and diarrhoea for 3 days and has acute kidney injury. His creatinine has risen from 90 to 180 µmol/L.
+Pulse rate 108 bpm, BP 98/60 mmHg. His mucous membranes are dry.
+Urine sodium 10 mmol/L. Urine osmolality 650 mOsm/kg. Urinalysis is bland.
+Q: What does this suggest?
+  - Acute tubular necrosis
+  - Glomerulonephritis
+  - Interstitial nephritis
+  - Post-renal obstruction
+  * Pre-renal AKI
+## h0606 [] b:akicauses
+A 58 year old woman started omeprazole for dyspepsia 10 days ago. She now has a fever, a widespread itchy rash and feels unwell.
+Temperature 37.9°C. There is a maculopapular rash on the trunk.
+Creatinine 212 µmol/L (60–120), previously 72 µmol/L. Eosinophils raised. Urine microscopy shows white cells and eosinophils with no casts or bacteria.
+Q: Which is the most likely cause of her acute kidney injury?
+  * Acute interstitial nephritis
+  - Acute tubular necrosis
+  - Contrast nephropathy
+  - Glomerulonephritis
+  - Pre-renal acute kidney injury
+## h0607 [] b:enteric
+A 28 year old man returned from visiting family in Pakistan 2 weeks ago. He did not have pre-travel vaccines. He has had a fever that has risen each day for a week, with a headache, abdominal discomfort and constipation.
+Temperature 39.4°C, pulse rate 64 bpm. There are a few faint pink macules on his abdomen and the spleen tip is palpable.
+Malaria films are negative.
+Q: Which is the most likely diagnosis?
+  - Dengue
+  - Giardiasis
+  - Hepatitis A
+  - Malaria
+  * Typhoid fever
+## h0608 [mix] b:enteric
+A 34 year old woman returned from Nigeria 10 days ago. She did not take malaria prophylaxis. She has had fever, rigors, headache and muscle aches for 2 days.
+Temperature 39.2°C, pulse rate 112 bpm, BP 116/72 mmHg. She is alert. There is no rash or neck stiffness.
+Q: Which is the most appropriate first test?
+  - Blood cultures
+  - Dengue serology
+  - Malaria antibody serology
+  - Stool culture
+  * Thick and thin blood films
+## h0609 [mix] b:enteric
+A 26 year old man has typhoid fever confirmed by blood culture after a trip to Bangladesh. He has no drug allergies. Sensitivity results are not yet available.
+Temperature 39.0°C, pulse rate 72 bpm. He is not vomiting and has no abdominal tenderness.
+Q: Which is the most appropriate treatment?
+  - Amoxicillin
+  * Ceftriaxone
+  - Chloramphenicol
+  - Ciprofloxacin
+  - Doxycycline
+## h0610 [len,clone:h0084] b:versicolor
+A 27 year old man has noticed pale patches on his upper back after a sunny holiday in Spain. They are slightly itchy.
+There are multiple pale, oval, finely scaling patches on the upper back and chest that have not tanned like the surrounding skin. Gentle scraping makes the scale more obvious.
+Q: Which is the most likely diagnosis?
+  - Pityriasis alba
+  - Pityriasis rosea
+  * Pityriasis versicolor
+  - Tinea corporis
+  - Vitiligo
+## h0611 [] b:versicolor
+A 24 year old man has pityriasis versicolor affecting his chest and back, confirmed with skin scrapings. The area is too large for creams. He has no liver disease.
+Q: Which is the most appropriate treatment?
+  - Fusidic acid cream
+  - Hydrocortisone cream
+  * Ketoconazole shampoo
+  - Oral doxycycline
+  - Oral terbinafine
+## h0612 [mix] b:versicolor
+A 26 year old man was treated with ketoconazole shampoo for pityriasis versicolor 2 weeks ago. The scaling and itch have gone, but the patches on his back are still pale. He is worried the treatment has failed.
+There is no scale on scraping.
+Q: Which is the most appropriate advice?
+  - Add a steroid cream
+  - Arrange a skin biopsy
+  * Expect colour to return over months
+  - Refer for vitiligo phototherapy
+  - Switch to oral itraconazole
+## h0613 [] b:glomerulo
+A 22 year old man noticed red urine yesterday, 1 day after a sore throat started. He had a similar episode last year after a cold. He feels well.
+BP 128/78 mmHg. There is no oedema.
+Urine dipstick shows blood 3+ and protein 1+. Creatinine 84 µmol/L (60–120).
+Q: Which is the most likely diagnosis?
+  - Alport syndrome
+  * IgA nephropathy
+  - Post-streptococcal glomerulonephritis
+  - Renal stones
+  - Urinary infection
+## h0614 [len,mix] b:glomerulo
+A 9 year old boy has had dark brown urine and puffy eyes for 2 days. He had a sore throat 2 weeks ago that settled without treatment.
+BP 138/90 mmHg. There is periorbital oedema.
+Urine dipstick shows blood 3+ and protein 2+. Creatinine is mildly raised.
+Q: Which result supports post-streptococcal glomerulonephritis?
+  - Anti-GBM antibodies
+  * Low C3 and raised ASO titre
+  - Low C4 and positive ANA
+  - Positive c-ANCA
+  - Raised serum IgA
+## h0615 [] b:glomerulo
+A 20 year old man has had persistent microscopic haematuria found on a medical for work. He has difficulty hearing in noisy rooms. His maternal uncle needed dialysis in his thirties.
+BP 142/88 mmHg. Audiometry shows bilateral high-frequency sensorineural hearing loss. Eye examination shows anterior lenticonus.
+Q: Which is the most likely diagnosis?
+  * Alport syndrome
+  - IgA nephropathy
+  - Polycystic kidney disease
+  - Thin basement membrane disease
+  - Wilms tumour
+## h0616 [] b:cranialnerves
+A 58 year old man has had double vision for 2 days. It is horizontal and worst when he looks to the right. It goes when he covers either eye.
+His right eye does not move outwards past the midline when he looks to the right. Other eye movements, the pupils and eyelids are normal.
+Q: Which nerve is affected?
+  - Left sixth nerve
+  - Left third nerve
+  - Right fourth nerve
+  * Right sixth nerve
+  - Right third nerve
+## h0617 [mix,frame] b:cranialnerves
+A 32 year old woman has idiopathic intracranial hypertension with papilloedema. She has developed horizontal double vision and a left sixth nerve palsy. MRI shows no lesion along the course of the nerve. She asks why this nerve has been affected.
+Q: Why is this nerve particularly affected by raised intracranial pressure?
+  * It has a long intracranial course
+  - It leaves the back of the midbrain
+  - It lies free inside the cavernous sinus
+  - It runs beside the posterior communicating artery
+  - It shares a nucleus with the facial nerve
+## h0618 [] b:cranialnerves
+A 48 year old woman has had severe pain behind her right eye for a week with double vision. She had a boil on her face 2 weeks ago.
+Temperature 38.4°C. There is right proptosis with chemosis. There are right third, fourth and sixth nerve palsies, and numbness over the right forehead.
+Q: Where is the lesion?
+  - Brainstem
+  * Cavernous sinus
+  - Cerebellum
+  - Optic chiasm
+  - Orbit apex
+## h0619 [mix] b:jointaspirate
+A 70 year old woman has had a hot, swollen, painful right knee for 2 days. She can barely bend it. She has type 2 diabetes.
+Temperature 38.4°C, pulse rate 102 bpm. The right knee is warm with a large effusion and painful restriction of all movement.
+Q: Which is the most appropriate first investigation?
+  * Aspiration of the knee
+  - Blood cultures
+  - MRI of the knee
+  - Plain X-ray of the knee
+  - Serum urate
+## h0620 [mix] b:jointaspirate
+A 76 year old woman has had a hot, swollen left knee for 2 days. She is otherwise well.
+Temperature 37.6°C. There is a warm effusion in the left knee.
+Joint aspirate shows no organisms on Gram stain. Polarised light microscopy shows positively birefringent, rhomboid-shaped crystals. X-ray shows linear calcification in the knee cartilage.
+Q: Which is the most likely diagnosis?
+  - Acute gout
+  * Calcium pyrophosphate arthritis
+  - Reactive arthritis after diarrhoea
+  - Rheumatoid arthritis flare
+  - Septic arthritis
+## h0621 [] b:jointaspirate
+A 74 year old man who takes warfarin for atrial fibrillation has had a swollen, painful right knee for 1 day. He has had no injury. He recently finished a course of clarithromycin for a chest infection.
+Temperature 36.9°C. The right knee is swollen and tense with a large effusion. There is bruising on his forearms.
+White cell count normal. CRP 8 mg/L (<5). INR 6.4.
+Q: Which is the most likely diagnosis?
+  - Cellulitis
+  - Gout
+  * Haemarthrosis
+  - Osteoarthritis flare
+  - Septic arthritis
+## h1749 [len] b:outside
+A 29-year-old woman in her first pregnancy at 33 weeks' gestation is admitted to the Delivery Suite with severe pre-eclampsia. Her blood pressure was 174/114 mmHg with 3+ proteinuria, headache, and clonus. She was started on intravenous labetalol and a loading dose followed by maintenance infusion of intravenous magnesium sulphate for eclampsia prophylaxis 4 hours ago. The midwife calls you urgently because the patient's respiratory rate has dropped to 8 breaths/min and she is drowsy. On examination, her patellar deep tendon reflexes are completely absent bilaterally, and her urine output has been 10 mL/hour over the past 3 hours.
+Q: What is the most appropriate immediate antidote to administer alongside stopping the magnesium sulphate infusion?
+  * Intravenous calcium gluconate 10% (10 mL over 10 minutes)
+  - Intravenous diazepam 10 mg slow bolus
+  - Intravenous flumazenil 200 micrograms
+  - Intravenous lipid emulsion (Intralipid) 20%
+  - Intravenous naloxone 400 micrograms
+## h1752 [abs] b:outside
+A 3-year-old boy is brought to the Paediatric Assessment Unit with a 6-day history of persistent high fever (39.4°C) that has not responded to paracetamol or ibuprofen. On examination, he is irritable and has bilateral non-purulent bulbar conjunctival injection, dry cracked erythematous lips, a strawberry tongue, a polymorphous erythematous rash over his trunk, erythematous oedematous palms and soles, and a solitary 2.2 cm tender right anterior cervical lymph node.
+Q: What is the most appropriate first-line treatment to prevent the principal long-term cardiovascular complication of this condition?
+  - High-dose intravenous benzylpenicillin for 10 days
+  * Intravenous immunoglobulin (IVIG) 2 g/kg infusion plus oral aspirin
+  - Intramuscular adrenaline 150 micrograms stat
+  - Oral prednisolone alone for 5 days
+  - Supportive care only with paracetamol and reassurance of viral exanthem
+## h1795 [] b:hepatitis
+A 58 year old man has had 10 days of malaise and nausea followed by yellow eyes and dark urine. He lives in Hampshire and has not travelled abroad. He enjoys barbecued pork sausages and wild boar. He completed courses of hepatitis A and B vaccine last year before a cruise. He drinks 8 units of alcohol a week and takes no medication.
+LAB Bilirubin 96 µmol/L <17; ALT 1840 IU/L 10–50; ALP 168 IU/L 25–115; Hepatitis A IgM negative ; Hepatitis B surface antigen negative 
+Q: Which is the most likely cause?
+  - Alcoholic hepatitis
+  - Epstein-Barr virus
+  - Hepatitis A
+  - Hepatitis C
+  * Hepatitis E
+## h1798 [] b:glomerulo
+A 9 year old boy has had dark brown urine and puffy eyes for 2 days. Two weeks ago he had a sore throat with fever that settled without antibiotics.
+BP 134/88 mmHg. There is periorbital swelling and mild ankle swelling.
+LAB Urine dipstick blood 3+ negative; Urine dipstick protein 2+ negative; Creatinine 88 µmol/L 25–60; Complement C3 0.31 g/L 0.75–1.65; Anti-streptolysin O titre 640 IU/mL <200
+Q: Which is the most likely diagnosis?
+  - Henoch-Schönlein purpura nephritis
+  - IgA nephropathy
+  - Minimal change disease
+  * Post-streptococcal glomerulonephritis
+  - Urinary tract infection
+## h1806 [frame] b:infection
+A 36 year old man with chronic hepatitis B is admitted to a medical ward with cellulitis of the leg. He is hepatitis B e antigen positive. A student nurse asks what extra precautions are needed when caring for him.
+He has no cough, diarrhoea or open wounds, and he is not bleeding.
+Q: Which is the most appropriate infection control approach?
+  - Airborne precautions with an FFP3 mask
+  - Contact precautions with a side room, gloves and apron
+  - Droplet precautions with a surgical mask
+  - Protective isolation in a positive pressure room
+  * Standard precautions with safe handling of sharps
+## h1807 [] b:ethics
+A 42 year old woman who is a Jehovah's Witness has a haemoglobin of 64 g/L from heavy menstrual bleeding. The team explains that a blood transfusion would help her quickly. She understands, remembers and weighs the information, and clearly declines blood while accepting iron and tranexamic acid. Her doctor documents her decision and does not transfuse.
+Q: Which ethical principle is the doctor mainly respecting?
+  * Autonomy
+  - Beneficence
+  - Justice
+  - Non-maleficence
+  - Veracity
+## h1823 [] b:jaundice
+A 21 year old man noticed that the whites of his eyes turned yellow during a 2 day stomach bug, when he was eating very little. He otherwise felt well, and the yellow has nearly gone.
+Examination is normal, with no liver or spleen enlargement.
+LAB Bilirubin 41 µmol/L <17; Conjugated bilirubin 4 µmol/L <7; ALT 22 IU/L 10–50; ALP 74 IU/L 25–115; Haemoglobin 152 g/L 130–175; Reticulocytes 1.1% 0.5–2.5
+Q: Which is the most likely diagnosis?
+  - Crigler-Najjar syndrome
+  - Dubin-Johnson syndrome
+  * Gilbert syndrome
+  - Haemolytic anaemia
+  - Hepatitis A
+## h1829 [] b:bone
+A 73 year old man has had a dull ache in his right shin for a year, worse at night. His wife says his hats no longer fit and he has become slightly deaf. He feels otherwise well.
+His right tibia is bowed and warm to touch.
+LAB ALP 584 IU/L 25–115; Adjusted calcium 2.38 mmol/L 2.20–2.60; Phosphate 1.04 mmol/L 0.80–1.50; PTH 4.2 pmol/L 1.6–8.5; PSA 1.8 µg/L <4.5
+Q: Which is the most likely diagnosis?
+  - Bone metastases
+  - Multiple myeloma
+  - Osteomalacia
+  * Paget's disease of bone
+  - Primary hyperparathyroidism
+## h1844 [clone:h0091] b:inflamarthritis
+A 39 year old man has had a painful swollen left knee for 3 weeks, and the whole of the second toe on his right foot is swollen like a sausage. His heels hurt when he first gets up. He has had flaky patches in his scalp for years, which he thought were dandruff. He has had no diarrhoea, urinary symptoms or new sexual partner.
+There is a small effusion in the left knee and tenderness where both Achilles tendons insert.
+LAB CRP 22 mg/L <5; Rheumatoid factor negative ; Uric acid 0.32 mmol/L 0.20–0.42
+Q: Which is the most likely diagnosis?
+  - Gout
+  * Psoriatic arthritis
+  - Reactive arthritis
+  - Rheumatoid arthritis
+  - Septic arthritis
+## h1845 [] b:inflamarthritis
+A 52 year old woman with plaque psoriasis for 20 years has had pain and stiffness in several fingers for 2 years. Her fingernails are pitted and lifting from the nail bed. Several distal interphalangeal joints are swollen, and her left index finger is shortened and unusually floppy.
+An X-ray of both hands is requested.
+Q: Which X-ray finding is most likely?
+  - Chondrocalcinosis of the wrist
+  - Joint space narrowing with osteophytes
+  * Pencil-in-cup deformity
+  - Periarticular osteopenia with marginal erosions
+  - Punched-out erosions with overhanging edges
+## h1851 [] b:inflamarthritis
+A 45 year old woman has had pain and swelling in both hands for 4 months, with morning stiffness lasting 2 hours. Her knuckles and the middle joints of her fingers are affected on both sides, and her wrists ache. She has no rash or skin disease.
+Both wrists and several metacarpophalangeal and proximal interphalangeal joints are swollen and tender. The distal interphalangeal joints are normal and there is no nail pitting.
+LAB CRP 34 mg/L <5; Rheumatoid factor positive ; Anti-CCP antibodies strongly positive 
+Q: Which is the most likely diagnosis?
+  - Osteoarthritis
+  - Polymyalgia rheumatica
+  - Psoriatic arthritis
+  * Rheumatoid arthritis
+  - Systemic lupus erythematosus
+## h1857 [clone:h0091] b:inflamarthritis
+A 47 year old man shows his hands to his GP. The end joints of 3 fingers on his left hand are swollen and red, and his whole right middle finger is swollen like a sausage. Several nails have small pits, and 2 are lifting from the nail bed. There are well-defined red plaques with silvery scale on both elbows. He has no hard bony swellings and no tophi.
+His hand X-ray shows erosions with fluffy new bone at the end joints.
+Q: Which is the most likely diagnosis?
+  - Gout
+  - Heberden's nodes of osteoarthritis
+  * Psoriatic arthritis
+  - Rheumatoid arthritis
+  - Systemic lupus erythematosus
+## h1858 [clone:h0559] b:otosclerosis
+A 32 year old woman has had gradually worsening hearing in both ears for 3 years, worse since the birth of her daughter. She hears better in noisy places. Her father wore hearing aids from his 40s.
+Both eardrums look normal and move normally. Rinne's test is negative on both sides and Weber's test is central. Audiometry shows a conductive hearing loss in both ears with a dip in bone conduction at 2 kHz.
+Q: Which is the most likely diagnosis?
+  - Cholesteatoma
+  - Noise-induced hearing loss
+  - Otitis media with effusion
+  * Otosclerosis
+  - Vestibular schwannoma
+## h1859 [] b:vasculitis
+A 74 year old woman has had a new headache over her right temple for 2 weeks and pain in her jaw when chewing that makes her stop eating. Her scalp hurts when she brushes her hair. Her shoulders have been stiff in the mornings. She has no nasal symptoms, cough or blood in her urine.
+The right temporal artery is thickened and tender with a reduced pulse. Visual acuity is normal.
+LAB ESR 92 mm/h <30; CRP 68 mg/L <5; Platelets 486 × 10⁹/L 150–400
+Q: Which is the most likely diagnosis?
+  - Cluster headache
+  * Giant cell arteritis
+  - Granulomatosis with polyangiitis
+  - Polymyalgia rheumatica
+  - Trigeminal neuralgia
+## h1862 [clone:h0263] b:dysphagia
+A 76 year old man has had difficulty swallowing for 6 months. Food sticks high in his throat, he regurgitates undigested food hours after meals and his neck gurgles when he drinks. His wife has noticed bad breath, and he has had a chest infection. He has lost 2 kg.
+There is a soft swelling on the left side of the neck that gurgles on pressure.
+Q: Which is the most likely diagnosis?
+  - Achalasia
+  - Oesophageal carcinoma
+  - Oesophageal web
+  * Pharyngeal pouch
+  - Thyroid goitre

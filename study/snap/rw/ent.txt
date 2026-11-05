@@ -1,0 +1,907 @@
+## h0157 [] Acoustic neuroma
+A 55 year old woman has had gradual hearing loss in her left ear over a year, with intermittent tinnitus on that side. She has no ear discharge or vertigo.
+Otoscopy is normal in both ears. Weber's test lateralises to the right. Rinne's test is positive on both sides.
+Q: Which type of hearing loss is it?
+  - Left conductive
+  * Left sensorineural
+  - Mixed in both ears
+  - Right conductive
+  - Right sensorineural
+## h0158 [] Acoustic neuroma
+A 48 year old man has had gradually worsening hearing loss and tinnitus in his right ear for 18 months. Recently he has noticed numbness on the right side of his face and mild unsteadiness.
+Otoscopy is normal. Weber's test lateralises to the left and Rinne's test is positive on both sides. There is reduced sensation over the right cheek and a reduced right corneal reflex. Facial movements are normal.
+Q: Which is the most likely diagnosis?
+  - Bell's palsy
+  - Cholesteatoma
+  - Meningioma of the falx
+  - Ménière's disease
+  * Vestibular schwannoma
+## h0159 [] Acoustic neuroma
+A 30 year old woman has had hearing loss in both ears over 2 years with tinnitus and unsteadiness. Her father had similar problems and needed brain surgery. She has no café-au-lait macules.
+MRI shows bilateral masses in the internal acoustic meati and a small meningioma.
+Q: Which condition is most likely?
+  - Neurofibromatosis type 1
+  * Neurofibromatosis type 2
+  - Sturge-Weber syndrome
+  - Tuberous sclerosis
+  - Von Hippel-Lindau disease
+## h0160 [] Bell's palsy
+A 64 year old man noticed this morning that the right side of his face has drooped. He has hypertension and smokes. He is examined to decide whether this is a stroke or Bell's palsy.
+Q: Which feature most suggests a stroke rather than Bell's palsy?
+  - Hyperacusis
+  - Loss of taste
+  - Pain behind the ear
+  - Reduced tear production
+  * Sparing of the forehead
+## h0161 [] Bell's palsy
+A 60 year old man has had severe pain in his right ear for 3 days. This morning the right side of his face became weak.
+Temperature 37.5°C. There are vesicles in the right external auditory canal and on the pinna. There is weakness of the whole right side of the face, including the forehead. He has reduced hearing on the right.
+Q: Which is the most likely diagnosis?
+  - Acute otitis media
+  - Bell's palsy
+  - Cholesteatoma
+  - Malignant otitis externa
+  * Ramsay Hunt syndrome
+## h0162 [mix] Bell's palsy
+A 46 year old woman has had weakness of the left side of her face for 1 day. She has started prednisolone for Bell's palsy.
+There is weakness of the whole left side of the face, including the forehead. She cannot close her left eye fully, and the eye is watering but not red. There are no vesicles in the ear.
+Q: Which is the most important additional measure?
+  - Chloramphenicol drops
+  - Facial exercises
+  - Hearing test and tympanometry
+  * Lubricants and taping at night
+  - Oral aciclovir
+## h0163 [] BPPV & vertigo
+A 45 year old woman has had constant spinning vertigo, nausea and unsteadiness for 2 days. It started a week after a cold. Her hearing is normal and she has no tinnitus, headache or weakness.
+There is horizontal nystagmus beating to the right in all directions of gaze. The head impulse test shows a corrective saccade when her head is turned to the left. There is no skew deviation. Limb coordination is normal.
+Q: Which is the most likely diagnosis?
+  - BPPV
+  - Labyrinthitis
+  - Ménière's disease
+  - Posterior circulation stroke
+  * Vestibular neuronitis
+## h0164 [] BPPV & vertigo
+A 68 year old man with hypertension and atrial fibrillation has had constant vertigo and vomiting for 6 hours. He is examined at the bedside to decide whether the cause is peripheral or central.
+Q: Which finding most suggests a central cause?
+  - Abnormal head impulse
+  - Hearing loss
+  - One-way horizontal nystagmus
+  * Vertical nystagmus
+  - Vomiting
+## h0165 [] BPPV & vertigo
+A 42 year old man has had constant vertigo with vomiting for 1 day after a viral illness. His hearing is normal. A diagnosis of vestibular neuronitis is made. He cannot keep fluids down at home but has no neurological signs.
+Q: Which drug is most appropriate for a short course?
+  - Amitriptyline
+  - Betahistine
+  - Gabapentin
+  * Prochlorperazine
+  - Sertraline
+## h0166 [mix] Epiglottitis
+A 4 year old girl who has not had any childhood immunisations has had a sore throat and fever for 6 hours. She is now drooling and has noisy breathing.
+Temperature 39.5°C, pulse rate 160 bpm, respiratory rate 40 breaths per minute. She is sitting forward on her mother's lap with her mouth open and looks toxic. There is soft inspiratory stridor.
+Q: Which is the most appropriate next step?
+  * Call anaesthetics and ENT
+  - Examine her throat
+  - Insert an IV cannula
+  - Lateral neck X-ray
+  - Oral dexamethasone dose
+## h0167 [] Epiglottitis
+A 46 year old man has had a severe sore throat for 1 day. He cannot swallow his saliva and his voice is muffled.
+Temperature 38.8°C, pulse rate 112 bpm, SpO2 97% breathing air. He is drooling and leaning forward. There is no stridor. The tonsils and oropharynx look almost normal. There is tenderness over the front of the neck at the level of the hyoid.
+Q: Which is the most likely diagnosis?
+  - Acute laryngitis
+  - Acute tonsillitis
+  - Glandular fever
+  - Peritonsillar abscess
+  * Supraglottitis
+## h0168 [] Epiglottitis
+A 52 year old woman has a sore throat, painful swallowing and a muffled voice.
+She is stable, with no stridor and SpO2 98% breathing air. Supraglottitis is suspected and a lateral soft tissue neck X-ray is taken while ENT are on their way.
+Q: Which sign is most likely on the X-ray?
+  - Bat's wing sign
+  - Double bubble
+  - Sail sign
+  - Steeple sign
+  * Thumb sign
+## h0169 [mix] Epistaxis
+A 58 year old man has had a nosebleed from his right nostril for 30 minutes. He takes no anticoagulants.
+Pulse rate 88 bpm, BP 146/88 mmHg. He has been leaning forward and pinching the soft part of his nose for 15 minutes but it is still bleeding. Anterior rhinoscopy shows a bleeding vessel on the anterior septum.
+Q: Which is the most appropriate next step?
+  - Discharge with advice
+  - Ice pack to the neck
+  - Oral tranexamic acid
+  * Silver nitrate cautery
+  - Tilt his head back
+## h0170 [mix] Epistaxis
+A 9 year old boy has had frequent small nosebleeds from his left nostril for 2 months. Each one stops within a few minutes with pressure. He picks his nose.
+Anterior rhinoscopy shows crusting and prominent vessels on the left anterior septum in Little's area. There is no active bleeding. He has no allergies to peanut or soya.
+Q: Which treatment is most appropriate?
+  - Nasal packing
+  * Naseptin cream
+  - Oral amoxicillin
+  - Steroid nasal spray
+  - Tranexamic acid
+## h0171 [len] Epistaxis
+A 15 year old boy has had recurrent heavy nosebleeds from his left nostril for 3 months. He has a blocked nose on that side and his voice sounds nasal.
+Anterior rhinoscopy shows a smooth, red mass at the back of the left nasal cavity. There is no cervical lymphadenopathy.
+Q: Which is the most important diagnosis to exclude?
+  - Allergic rhinitis
+  - Foreign body
+  * Juvenile angiofibroma
+  - Nasal polyps
+  - Septal deviation
+## h0172 [] Infectious mononucleosis
+A 17 year old girl has had a sore throat, fever and tiredness for 10 days. Her throat is so sore that she struggles to eat.
+Temperature 38.2°C. There is exudative tonsillitis with palatal petechiae, tender posterior cervical lymphadenopathy and a palpable spleen tip.
+Q: Which blood film finding is most likely?
+  * Atypical lymphocytes
+  - Circulating blast cells
+  - Eosinophilia
+  - Neutrophilia
+  - Thrombocytosis
+## h0173 [mix,frame] Infectious mononucleosis
+A 19 year old man has been diagnosed with glandular fever. His fever has settled and he feels better. He plays rugby for his university and asks when he can return to training.
+There is a palpable spleen tip.
+Q: Which is the most appropriate advice?
+  * No contact sport for 8 weeks
+  - No sport for 1 year
+  - Return after 1 week
+  - Return when the fever settles
+  - Return when the rash fades
+## h0174 [] Infectious mononucleosis
+A 19 year old woman has had a sore throat for a week. Her GP started an antibiotic 3 days ago. She now has a widespread itchy rash.
+There is a widespread maculopapular rash on the trunk and limbs, exudative tonsillitis and cervical lymphadenopathy. The monospot test is positive.
+Q: Which antibiotic is most likely to have caused the rash?
+  * Amoxicillin
+  - Clarithromycin
+  - Doxycycline
+  - Erythromycin
+  - Phenoxymethylpenicillin
+## h0175 [frame] Ménière's disease
+A 48 year old woman has Ménière's disease confirmed by an ENT surgeon. She has attacks of vertigo every few weeks lasting several hours, with fluctuating hearing loss in her right ear. She asks for something to reduce how often the attacks happen.
+Q: Which drug can be tried to reduce the frequency of attacks?
+  - Amitriptyline
+  * Betahistine
+  - Cinnarizine
+  - Diazepam
+  - Prochlorperazine
+## h0176 [] Ménière's disease
+A 40 year old man has had attacks of spinning vertigo lasting about 2 hours for 6 months. Each attack comes with ringing and a feeling of fullness in his left ear, and he feels a little deafer after each one. Between attacks he is well.
+Otoscopy is normal. Audiometry shows low-frequency sensorineural hearing loss on the left.
+Q: Which is the most likely diagnosis?
+  - Acoustic neuroma
+  - BPPV
+  * Ménière's disease
+  - Vestibular migraine
+  - Vestibular neuronitis
+## h0177 [mix,frame] Ménière's disease
+A 52 year old man has Ménière's disease with sudden attacks of disabling vertigo that come without warning. He drives a car for work and asks whether he can continue.
+Q: Which is the most appropriate advice?
+  - Drive if he takes betahistine
+  - Drive in daylight hours
+  - Drive with a passenger
+  * Stop and tell the DVLA
+  - Tell his insurer and drive
+## h0178 [len] Obstructive sleep apnoea
+A 52 year old man has snored loudly for years. His wife says he stops breathing at night. He falls asleep watching television and in meetings. He has a BMI of 34.
+He completes the Epworth Sleepiness Scale, which gives a score of 15.
+Q: What does this score suggest?
+  - Confirmed narcolepsy
+  * Excessive daytime sleepiness
+  - Normal daytime alertness
+  - Probable depression
+  - Severe chronic insomnia
+## h0179 [mix] Obstructive sleep apnoea
+A 49 year old lorry driver has been diagnosed with moderate obstructive sleep apnoea on a home sleep study. He has excessive daytime sleepiness and has nearly fallen asleep at the wheel. He is waiting to start treatment.
+Q: Which is the most appropriate driving advice?
+  - Drive at night
+  - Drive short routes
+  - Drive with breaks every hour
+  * Stop and tell the DVLA
+  - Use caffeine on long trips
+## h0180 [] Obstructive sleep apnoea
+A 55 year old man has excessive daytime sleepiness and loud snoring with witnessed apnoeas. He has a BMI of 33. A sleep study shows moderate obstructive sleep apnoea. He has tried losing weight and reducing alcohol without improvement.
+Q: Which is the most appropriate treatment?
+  * CPAP
+  - Modafinil
+  - Oxygen at night
+  - Tonsillectomy
+  - Zopiclone at night
+## h0181 [len] Otitis externa
+A 72 year old man with type 2 diabetes has had severe right ear pain and discharge for 4 weeks. It has not improved with antibiotic ear drops. The pain keeps him awake at night.
+Temperature 37.8°C. There is granulation tissue on the floor of the right ear canal. There is weakness of the whole right side of his face.
+Q: Which is the most likely diagnosis?
+  - Acute mastoiditis
+  - Acute otitis media
+  - Cholesteatoma
+  * Necrotising otitis externa
+  - Ramsay Hunt syndrome
+## h0182 [] Otitis externa
+A 36 year old woman has had an itchy right ear for 3 weeks. She has used antibiotic and steroid ear drops for 2 weeks without improvement.
+Otoscopy shows white, fluffy debris with black dots filling the external ear canal. The tympanic membrane is intact.
+Q: Which is the most likely cause?
+  - Contact eczema
+  * Fungal infection
+  - Herpes zoster
+  - Pseudomonas
+  - Staph aureus
+## h0183 [neg] Otitis externa
+A 24 year old swimmer has had a painful, discharging left ear for 5 days.
+There is pain on moving the pinna and the ear canal is swollen and red with debris. After aural toilet, a small perforation of the tympanic membrane is seen.
+Q: Which ear drops should be avoided?
+  - Ciprofloxacin
+  - Clotrimazole
+  - Dexamethasone
+  * Gentamicin
+  - Ofloxacin
+## h0184 [mix] Otitis media & glue ear
+A 2 year old boy has had right ear pain and fever for 2 days. He is drinking well.
+Temperature 38.6°C. The right tympanic membrane is red and bulging, and there is purulent discharge in the right ear canal. The left ear is normal. There is no mastoid swelling. He has no drug allergies.
+Q: Which is the most appropriate management?
+  * Amoxicillin for 5 days
+  - Analgesia and review
+  - Delayed antibiotic
+  - Grommets
+  - Steroid ear drops
+## h0185 [mix] Otitis media & glue ear
+A 4 year old girl has had hearing problems for 3 months. Her teacher says she does not respond in class and her speech is not developing as well as other children's. She has no ear pain.
+Both tympanic membranes are dull and retracted with an air-fluid level. Tympanometry shows flat traces on both sides. Audiometry shows a bilateral conductive hearing loss of 30 dB, confirmed on two tests 3 months apart.
+Q: Which is the most appropriate next step?
+  - Course of antibiotics
+  - Oral decongestant
+  * Referral for grommets
+  - Steroid nasal spray
+  - Watch for a year
+## h0186 [] Otitis media & glue ear
+A 30 year old man has had a smelly discharge from his right ear for 6 months and his hearing on that side has worsened. Antibiotic drops have not helped.
+Otoscopy shows foul-smelling discharge and a pearly white mass in the attic region of the right tympanic membrane. Rinne's test is negative on the right.
+Q: Which is the most likely diagnosis?
+  - Acute otitis media
+  * Cholesteatoma
+  - Impacted wax
+  - Otitis externa
+  - Otosclerosis
+## h0187 [mix] Rhinosinusitis
+A 30 year old woman has had a blocked nose, thick discharge and facial pain over her cheeks for 12 days after a cold. She started to feel better, then got worse again.
+Temperature 37.9°C. There is tenderness over both maxillary sinuses. There is no periorbital swelling, visual disturbance or severe headache. She has no drug allergies.
+Q: Which is the most appropriate management?
+  * Back-up antibiotic
+  - CT sinuses
+  - Oral prednisolone
+  - Referral to ENT
+  - Self-care and review
+## h0188 [mix] Rhinosinusitis
+A 60 year old man has had a blocked right nostril for 6 weeks with blood-stained discharge. He has no symptoms on the left. He worked as a carpenter for 40 years.
+Anterior rhinoscopy shows a friable mass in the right nasal cavity. There is a firm right cervical lymph node.
+Q: Which is the most appropriate next step?
+  - Course of antibiotics
+  - Oral antihistamine
+  * Refer to ENT
+  - Saline rinse
+  - Steroid nasal spray
+## h0189 [] Rhinosinusitis
+A 60 year old man with asthma has had a blocked nose and loss of smell for a year. He had a severe attack of wheeze after taking aspirin for a headache last month.
+Anterior rhinoscopy shows bilateral pale, grey, glistening masses that are insensate. There is mild expiratory wheeze.
+Q: Which is the most likely diagnosis?
+  - Allergic fungal sinusitis
+  - Allergic rhinitis
+  - Cystic fibrosis
+  * Samter's triad
+  - Sinus cancer
+## h0190 [mix] Tonsillitis & sore throat
+A 24 year old man has had a sore throat for 4 days. He has a cough and a runny nose. He has not had a fever.
+Temperature 37.1°C. The tonsils are mildly inflamed without exudate. There is no cervical lymphadenopathy. His FeverPAIN score is 1.
+Q: Which is the most appropriate management?
+  - Admission
+  - Back-up antibiotic prescription
+  - Immediate antibiotic
+  * No antibiotic and self-care
+  - Throat swab for culture
+## h0191 [] Tonsillitis & sore throat
+A 25 year old man has had a worsening sore throat for 5 days, much worse on the left. He cannot open his mouth fully and his voice is muffled.
+Temperature 38.7°C, pulse rate 108 bpm. There is trismus. The left soft palate is swollen and red and the uvula is pushed to the right. There is no stridor.
+Q: Which is the most likely diagnosis?
+  - Epiglottitis
+  - Glandular fever
+  * Peritonsillar abscess
+  - Retropharyngeal abscess
+  - Tonsillitis
+## h0192 [mix] Tonsillitis & sore throat
+A 10 year old girl has had 8 episodes of tonsillitis in the last year. Each episode needed time off school and several needed antibiotics. Her parents ask what can be done.
+Examination today shows mildly enlarged tonsils without exudate.
+Q: Which is the most appropriate next step?
+  - Long-term antibiotics
+  * Refer for tonsillectomy
+  - Steroids
+  - Throat swab
+  - Watch and wait
+## h0193 [] Congenital / developmental problems
+A 3 year old girl has a small hole in front of her right ear that she was born with. It has discharged foul-smelling material and become swollen and red three times this year.
+There is a 1 mm pit in front of the upper part of the right tragus with surrounding redness. The ear canal and tympanic membrane are normal.
+Q: Which is the most likely diagnosis?
+  - Branchial cyst
+  - Dermoid cyst
+  * Preauricular sinus
+  - Sebaceous cyst
+  - Thyroglossal cyst
+## h0194 [] Congenital / developmental problems
+A 20 year old man has noticed a painless lump in the left side of his neck for 2 months. It became larger and tender during a cold, then settled.
+There is a 4 cm smooth, fluctuant lump at the anterior border of the left sternocleidomastoid muscle in the upper third of the neck. It does not move on swallowing or with tongue protrusion.
+Q: Which is the most likely diagnosis?
+  * Branchial cyst
+  - Cystic hygroma
+  - Lipoma
+  - Reactive lymph node
+  - Thyroglossal cyst
+## h0195 [] Congenital / developmental problems
+A baby girl born at term has a swelling in the left side of her neck. She is feeding well and breathing normally.
+There is a 5 cm soft, compressible, painless swelling in the posterior triangle of the neck. It transilluminates brightly.
+Q: Which is the most likely diagnosis?
+  - Branchial cyst
+  * Cystic hygroma
+  - Haemangioma
+  - Lymphadenopathy
+  - Sternomastoid tumour
+## h0196 [] Airway obstruction in children
+A 2 year old boy has had a barking cough for 2 days that has worsened tonight. He has noisy breathing even when settled.
+Temperature 38.0°C, pulse rate 168 bpm, respiratory rate 50 breaths per minute, SpO2 91% breathing air. He is drowsy, with stridor at rest and marked sternal recession.
+Q: Which is the most appropriate treatment?
+  * Nebulised adrenaline
+  - Nebulised salbutamol
+  - Oral amoxicillin
+  - Oral dexamethasone and home
+  - Steam inhalation
+## h0197 [] Airway obstruction in children
+A 2 year old boy suddenly began coughing and choking while playing with his brother's small toys an hour ago. The coughing has settled but he now has noisy breathing. He was well before this.
+Temperature 36.9°C, respiratory rate 32 breaths per minute, SpO2 95% breathing air. There is reduced air entry and a wheeze on the right side of the chest only.
+Q: Which is the most likely diagnosis?
+  - Acute asthma
+  - Bronchiolitis
+  * Inhaled foreign body
+  - Right lower lobe pneumonia
+  - Viral croup
+## h0198 [mix] Airway obstruction in children
+A 5 year old girl is eating grapes at a party when she suddenly starts choking. She is conscious but cannot cough, speak or cry, and she is becoming distressed.
+Q: Which is the most appropriate first step?
+  * 5 back blows
+  - Abdominal thrusts
+  - Blind finger sweep
+  - Sips of water
+  - Start CPR
+## h1015 [mix] Acoustic neuroma
+A 52 year old woman has had hearing loss and ringing in her right ear only for 6 months. She has no ear pain or discharge.
+Both ear drums are normal. Rinne's test is positive on both sides, and Weber's test lateralises to the left.
+Audiometry shows a right-sided sensorineural loss.
+Q: Which is the most appropriate investigation?
+  - Caloric testing
+  - CT head with contrast
+  * MRI of the internal acoustic meatus
+  - Repeat audiometry in 1 year
+  - Tympanometry and acoustic reflexes
+## h1016 [mix] Acoustic neuroma
+A 58 year old woman has a vestibular schwannoma on the left. She has left-sided hearing loss and tinnitus. The tumour is slowly growing.
+Q: Which cranial nerve sign, besides hearing loss, tends to appear first?
+  - Deviation of the tongue
+  - Double vision
+  - Facial weakness
+  - Hoarse voice
+  * Reduced corneal reflex
+## h1017 [] Acoustic neuroma
+A 24 year old man has had hearing loss in both ears for a year. He had cataracts removed in his teens. His father had brain tumours.
+MRI shows bilateral vestibular schwannomas.
+Q: Which is the most likely diagnosis?
+  - Multiple endocrine neoplasia type 1
+  - Neurofibromatosis type 1
+  * Neurofibromatosis type 2
+  - Tuberous sclerosis
+  - Von Hippel-Lindau syndrome
+## h1018 [] Bell's palsy
+A 35 year old woman woke this morning with weakness of the left side of her face. Sounds are too loud in her left ear. She has no ear pain or rash.
+There is weakness of the whole left side of the face, including the forehead. She cannot close her left eye. There are no vesicles in the ear. Limb examination is normal.
+Q: Which is the most likely diagnosis?
+  * Bell's palsy
+  - Lyme disease
+  - Parotid tumour
+  - Ramsay Hunt syndrome
+  - Stroke
+## h1019 [len,mix] Bell's palsy
+A 40 year old man noticed weakness of the right side of his face 36 hours ago. He has no rash or ear pain.
+There is weakness of the whole right side of the face, including the forehead. He cannot close his right eye fully. The ear canal is normal.
+Q: Which is the most appropriate treatment?
+  - Aciclovir
+  - Antibiotics
+  - No treatment
+  * Prednisolone, plus eye care
+  - Surgical decompression
+## h1020 [clone:h0161] Bell's palsy
+A 64 year old man has had a painful left ear for 3 days. Today his face is drooping on the left.
+There are vesicles in the left ear canal. There is weakness of the whole left side of the face, including the forehead.
+Q: Which is the most likely diagnosis?
+  - Bell's palsy
+  - Cholesteatoma
+  - Malignant otitis externa
+  - Parotid tumour
+  * Ramsay Hunt syndrome
+## h1021 [mix] BPPV & vertigo
+A 60 year old woman has had brief spells of spinning lasting under a minute for 2 weeks. They happen when she turns over in bed or looks up. She has no hearing loss or tinnitus.
+The Dix-Hallpike test is positive on the right, with rotational nystagmus towards the right ear that fades within 30 seconds. Neurological examination is otherwise normal.
+Q: Which is the most appropriate management?
+  - Betahistine
+  * Epley manoeuvre
+  - MRI head
+  - Prochlorperazine long-term
+  - Refer for surgery
+## h1022 [] BPPV & vertigo
+A 38 year old man had a cold a week ago. For 3 days he has had constant severe vertigo with nausea and vomiting. His hearing is normal and he has no tinnitus.
+There is horizontal nystagmus in one direction. The head impulse test is abnormal. There is no skew deviation. He can walk with help.
+Q: Which is the most likely diagnosis?
+  - Benign paroxysmal positional vertigo
+  - Labyrinthitis
+  - Ménière's disease
+  - Posterior circulation stroke
+  * Vestibular neuritis
+## h1023 [] BPPV & vertigo
+A 66 year old man with hypertension has had continuous vertigo for 6 hours. He is vomiting and cannot walk unaided.
+The head impulse test is normal. The nystagmus changes direction with gaze. There is a vertical skew deviation on cover testing.
+Q: Which is the most likely cause?
+  - Benign paroxysmal positional vertigo
+  - Labyrinthitis
+  - Ménière's disease
+  * Posterior circulation stroke
+  - Vestibular neuritis
+## h1024 [mix] Epiglottitis
+A 45 year old man has had a severe sore throat for 12 hours. He has a muffled voice and is drooling.
+Temperature 38.8°C, pulse rate 118 bpm, SpO2 95% breathing air. He is sitting forward and has soft inspiratory stridor.
+Q: Which is the most appropriate first step?
+  - Examine the throat
+  - Lateral neck X-ray
+  - Lie him flat for a chest X-ray
+  - Oral antibiotics and review
+  * Senior airway team
+## h1025 [] Epiglottitis
+A 3 year old boy has a high fever, drooling and stridor and is sitting forward. He has not had his routine immunisations.
+Q: Which organism classically caused epiglottitis in children before routine vaccination?
+  * Haemophilus influenzae type b
+  - Parainfluenza virus
+  - Respiratory syncytial virus
+  - Staphylococcus aureus
+  - Streptococcus pneumoniae
+## h1026 [] Epiglottitis
+A 4 year old boy has had a high fever and stridor for 6 hours. He is drooling. His airway is stable and has been secured by the anaesthetist.
+A lateral neck X-ray shows a swollen epiglottis that looks like a thumb.
+Q: Which is the most likely diagnosis?
+  - Bacterial tracheitis
+  - Croup
+  * Epiglottitis
+  - Inhaled foreign body
+  - Retropharyngeal abscess
+## h1027 [] Epistaxis
+A 15 year old boy has had a nosebleed from his right nostril for 5 minutes. He is otherwise well and takes no medicines.
+Pulse rate 78 bpm, BP 118/72 mmHg.
+Q: Which is the most appropriate first aid?
+  - Ice on the back of the neck
+  * Lean forward, pinch the soft nose
+  - Lie flat with legs raised
+  - Tilt the head back and pinch
+  - Tissue packing of the nostril
+## h1028 [mix,frame] Epistaxis
+A 14 year old girl has frequent nosebleeds from one side. They stop with pressure. A medical student is asked where most nosebleeds come from.
+Q: From where do most nosebleeds arise?
+  - Ethmoidal arteries in the nasal roof
+  - Inferior turbinate
+  * Little's area on the anterior septum
+  - Posterior nasopharynx
+  - Sphenopalatine artery at the back
+## h1029 [mix] Epistaxis
+A 10 year old boy has recurrent nosebleeds from his left nostril. He has had silver nitrate cautery today. He has a peanut allergy.
+Q: Which is the most appropriate antiseptic cream?
+  - Clotrimazole
+  - Fusidic acid
+  - Hydrocortisone
+  * Mupirocin
+  - Naseptin
+## h1030 [] Infectious mononucleosis
+A 17 year old girl has had a sore throat, fever and tiredness for a week.
+Temperature 38.2°C. The tonsils are enlarged with grey-white exudate. There are tender, swollen lymph nodes at the back of her neck. The spleen tip is palpable.
+Q: Which is the most likely diagnosis?
+  - Acute HIV infection
+  - Bacterial tonsillitis
+  - Cytomegalovirus
+  * Infectious mononucleosis
+  - Toxoplasmosis
+## h1031 [len,mix] Infectious mononucleosis
+A 19 year old man had a sore throat and was given amoxicillin 2 days ago. He now has a widespread itchy red rash. He has also been very tired for a week.
+Temperature 37.9°C. There is a widespread maculopapular rash. There are tender posterior neck lymph nodes. There is no lip swelling or mucosal involvement.
+Q: Which is the most likely explanation?
+  * Glandular fever with amoxicillin
+  - Measles
+  - Scarlet fever
+  - Stevens-Johnson syndrome
+  - True penicillin allergy
+## h1032 [mix] Infectious mononucleosis
+A 16 year old girl has had a sore throat, fever and swollen neck glands for 3 days. She is very tired.
+Temperature 38.0°C. The tonsils are enlarged and there are tender posterior neck lymph nodes.
+Monospot test is negative. Lymphocyte count is raised.
+Q: Which is the most appropriate next step?
+  - Blood film
+  * EBV-specific antibody testing
+  - Glandular fever is excluded
+  - Start penicillin
+  - Throat swab
+## h1033 [clone:h0176] Ménière's disease
+A 45 year old woman has had several attacks of spinning vertigo over 6 months, each lasting about 3 hours. During attacks she has roaring tinnitus and a full feeling in her left ear.
+Between attacks the ears look normal and neurological examination is normal.
+Audiometry shows a low-frequency sensorineural hearing loss in the left ear.
+Q: Which is the most likely diagnosis?
+  - Benign paroxysmal positional vertigo
+  * Ménière's disease
+  - Vestibular migraine
+  - Vestibular neuritis
+  - Vestibular schwannoma
+## h1034 [] Ménière's disease
+A 52 year old man has Ménière's disease with attacks every few weeks. He wants to reduce the number of attacks.
+Q: Which drug is most commonly used?
+  - Amitriptyline
+  * Betahistine
+  - Diazepam
+  - Gentamicin injection
+  - Prochlorperazine long-term
+## h1035 [mix] Ménière's disease
+A 48 year old woman with Ménière's disease has had sudden disabling vertigo without warning twice this month. She drives a car.
+Q: Which is the most appropriate advice about driving?
+  - Drive in daylight hours
+  - Drive short local distances
+  - No restriction
+  * Stop driving and tell the DVLA
+  - Tell the insurer and carry on
+## h1036 [] Obstructive sleep apnoea
+A 52 year old man snores loudly and his wife has seen him stop breathing at night. He falls asleep in meetings.
+BMI 34 kg/m². Neck circumference 44 cm. Epworth sleepiness score 15.
+A sleep study shows an apnoea-hypopnoea index of 34 events per hour.
+Q: How is his obstructive sleep apnoea classed?
+  - Central sleep apnoea
+  - Mild
+  - Moderate
+  - Normal
+  * Severe
+## h1037 [clone:h0180] Obstructive sleep apnoea
+A 48 year old man has marked daytime sleepiness. He has been advised on weight loss and alcohol.
+Epworth sleepiness score 16.
+A sleep study shows moderate obstructive sleep apnoea.
+Q: Which is the most appropriate treatment?
+  - BiPAP
+  * CPAP
+  - Modafinil
+  - Tonsillectomy
+  - Zolpidem
+## h1038 [mix] Obstructive sleep apnoea
+A 52 year old man is a bus driver. He has excessive daytime sleepiness and has nearly fallen asleep at the wheel. A sleep study has been requested for suspected obstructive sleep apnoea.
+Epworth sleepiness score 17.
+Q: Which is the most appropriate advice?
+  - Drive in the mornings
+  - No need to tell anyone
+  * Stop driving and tell the DVLA
+  - Take caffeine before shifts
+  - Tell his employer
+## h1039 [] Otitis externa
+A 25 year old woman is a keen swimmer. She has had an itchy, painful right ear with discharge for 4 days. She is otherwise well.
+Temperature 36.9°C. Pulling the pinna hurts. The ear canal is red and swollen with debris. The drum is intact. There is no spreading redness.
+Q: Which is the most appropriate treatment?
+  * Antibiotic and steroid drops
+  - Clotrimazole drops
+  - Microsuction and observation
+  - Oral amoxicillin
+  - Oral ciprofloxacin
+## h1040 [] Otitis externa
+A 42 year old woman used antibiotic ear drops for a week for otitis externa. Her ear is now very itchy, but less painful.
+The ear canal contains white, fluffy debris with black dots. The drum is intact.
+Q: Which is the most likely diagnosis?
+  - Bacterial otitis externa
+  - Cholesteatoma
+  * Fungal otitis externa
+  - Malignant otitis externa
+  - Wax impaction
+## h1041 [len] Otitis externa
+A 78 year old man with type 2 diabetes has had severe pain in his right ear for 6 weeks, worse at night. Antibiotic drops have not helped. His face has started to droop on the right.
+There is granulation tissue in the floor of the ear canal. There is right lower motor neurone facial weakness.
+CRP 64 mg/L (<5).
+Q: Which is the most likely diagnosis?
+  - Acute mastoiditis
+  - Cholesteatoma
+  - Herpes zoster oticus
+  * Malignant otitis externa
+  - Otitis externa
+## h1042 [mix] Otitis media & glue ear
+A 3 year old girl has had ear pain for 2 days. She is eating and drinking. She has no discharge from the ear.
+Temperature 38.0°C. The left drum is red and bulging. She is alert and well.
+Q: Which is the most appropriate management?
+  * Analgesia, no immediate antibiotic
+  - Grommet insertion
+  - Immediate amoxicillin for 5 days
+  - Oral prednisolone
+  - Same-day ENT referral for review
+## h1043 [mix] Otitis media & glue ear
+A 4 year old boy has trouble hearing at nursery. He has had no ear pain or fever.
+Both drums are dull and retracted with no redness.
+Tympanometry shows flat traces in both ears.
+Q: Which is the most appropriate management?
+  - Adenoidectomy
+  - Amoxicillin for 5 days
+  - Grommet insertion now
+  - Oral steroids
+  * Review in 3 months
+## h1044 [] Otitis media & glue ear
+A 50 year old man of southern Chinese family origin has had a blocked feeling in his left ear for 2 months. He has noticed a lump in his neck. He has not had a cold.
+There is a dull left ear drum with fluid behind it. There is a hard, non-tender lymph node in the upper left neck.
+Q: Which is the most important cause to exclude?
+  - Acoustic neuroma
+  - Cholesteatoma
+  - Eustachian tube dysfunction after a cold
+  * Nasopharyngeal carcinoma
+  - Otitis media with effusion
+## h1045 [mix] Rhinosinusitis
+A 30 year old woman has had a blocked nose and facial pain for 5 days after a cold. She is otherwise well.
+Temperature 37.4°C. There is mild tenderness over the cheeks. There is no swelling around the eyes.
+Q: Which is the most appropriate management?
+  - Amoxicillin
+  - CT sinuses
+  - High-dose nasal steroid for 14 days
+  - Phenoxymethylpenicillin
+  * Self-care with analgesia
+## h1046 [len] Rhinosinusitis
+A 42 year old man has had sinusitis for 12 days. It is getting worse rather than better. He is systemically well and not at high risk of complications. He has no drug allergies.
+Temperature 37.8°C. There is facial tenderness and purulent nasal discharge. There are no eye or neurological signs.
+Q: Which is the most appropriate first-choice antibiotic?
+  - Amoxicillin
+  - Ciprofloxacin
+  - Clarithromycin
+  - Co-amoxiclav
+  * Phenoxymethylpenicillin
+## h1047 [mix,clone:h0276] Rhinosinusitis
+A 63 year old man worked in a furniture factory for 30 years. He has had a blocked left nostril for 3 months, with bloody discharge. His left cheek is numb.
+There is reduced sensation over the left cheek.
+Q: Which is the most appropriate management?
+  - CT sinuses in 6 months
+  - High-dose nasal steroid
+  - Nasal decongestant
+  - Phenoxymethylpenicillin
+  * Suspected cancer referral
+## h1048 [mix] Tonsillitis & sore throat
+A 22 year old woman has had a sore throat for 2 days. She has no cough. She has had no fever.
+Temperature 37.2°C. The tonsils are severely inflamed with pus on both sides.
+Her FeverPAIN score is 4.
+Q: Which is the most appropriate management?
+  - Admission for IV antibiotics
+  - No antibiotic
+  * Phenoxymethylpenicillin
+  - Throat swab and wait
+  - Tonsillectomy referral
+## h1049 [len] Tonsillitis & sore throat
+A 26 year old man has bacterial tonsillitis and needs an antibiotic. He has no drug allergies. Glandular fever has not been excluded.
+Temperature 38.4°C. There is tonsillar exudate and tender anterior neck nodes. He has no cough.
+Q: Which is the most appropriate antibiotic?
+  - Amoxicillin
+  - Clarithromycin
+  - Co-amoxiclav
+  - Flucloxacillin
+  * Phenoxymethylpenicillin
+## h1050 [clone:h0191] Tonsillitis & sore throat
+A 28 year old man has had a sore throat for 5 days that is getting worse on the right. He cannot open his mouth fully and is struggling to swallow his saliva.
+Temperature 38.6°C. He has a muffled voice. There is swelling above the right tonsil, and his uvula is pushed to the left. There is no stridor.
+Q: Which is the most likely diagnosis?
+  - Epiglottitis
+  - Infectious mononucleosis
+  * Peritonsillar abscess
+  - Retropharyngeal abscess
+  - Tonsillitis
+## h1051 [] Congenital / developmental problems
+A 6 year old boy has had a painless lump in the middle of his neck for 3 months. It has slowly grown. He is otherwise well.
+There is a 1.5 cm smooth, round, midline swelling just below the hyoid bone. It moves up when he sticks his tongue out. It is not tender.
+Q: Which is the most likely diagnosis?
+  - Branchial cyst
+  - Cystic hygroma
+  - Dermoid cyst
+  * Thyroglossal cyst
+  - Thyroid nodule
+## h1052 [clone:h0195] Congenital / developmental problems
+A 2 month old baby has had a swelling on the left side of his neck since birth. It has grown slowly. He feeds well.
+There is a large, soft, compressible swelling in the posterior triangle of the neck. It lights up brightly when a torch is held against it.
+Q: Which is the most likely diagnosis?
+  - Branchial cyst
+  * Cystic hygroma
+  - Lymph node
+  - Sternocleidomastoid tumour
+  - Thyroglossal cyst
+## h1053 [] Congenital / developmental problems
+A 9 year old girl has a midline neck lump that moves on tongue protrusion. It became infected last year. Ultrasound confirms a thyroglossal cyst with a normal thyroid gland.
+Q: Which operation is most appropriate?
+  - Aspiration
+  - Long-term antibiotics
+  - Radioactive iodine
+  - Simple excision of the cyst
+  * Sistrunk procedure
+## h1054 [len,mix] Airway obstruction in children
+A 2 year old boy has had a barking cough and a hoarse voice for a day after a cold.
+Temperature 37.8°C, respiratory rate 30 breaths per minute, SpO2 97% breathing air. He has stridor only when upset. There is no recession and he is alert and drinking.
+Q: Which is the most appropriate management?
+  * A single dose of oral dexamethasone
+  - Admit for nebulised adrenaline
+  - Inhaled salbutamol
+  - No treatment
+  - Oral amoxicillin
+## h1055 [] Airway obstruction in children
+A 2 year old girl is choking on a grape at a party. She is conscious, but her cough is weak and silent and she is struggling to breathe.
+Q: Which is the most appropriate action?
+  - Blind finger sweep
+  - Encourage her to cough
+  * Five back blows
+  - Five chest thrusts
+  - Start CPR
+## h1056 [] Airway obstruction in children
+A 5 year old boy choked on a peanut 2 days ago. Since then he has had a cough and wheeze.
+Respiratory rate 28 breaths per minute, SpO2 95% breathing air. There is reduced air entry and a monophonic wheeze on one side of the chest.
+Q: Where is the peanut most likely to be?
+  - Larynx
+  - Left main bronchus
+  - Oesophagus
+  * Right main bronchus
+  - Trachea
+## h1600 [clone:h1026] Epiglottitis
+A 5 year old boy has not been immunised. He has a high fever, a muffled voice and drooling.
+Temperature 39.6°C. He is sitting forward and does not want to lie down. There is soft inspiratory stridor.
+Q: Which is the most likely diagnosis?
+  - Bacterial tracheitis
+  - Croup
+  * Epiglottitis
+  - Inhaled foreign body
+  - Peritonsillar abscess
+## h1601 [mix] Epiglottitis
+A 5 year old boy has suspected epiglottitis. He has not been immunised. He is drooling and sitting forward.
+Temperature 39.6°C, respiratory rate 32 breaths per minute, SpO2 94% breathing air. There is soft inspiratory stridor.
+Q: Which is the most appropriate first step?
+  * Call senior anaesthetics and ENT
+  - Examine the throat with a tongue depressor
+  - Insert an IV cannula
+  - Lateral neck X-ray
+  - Nebulised salbutamol
+## h1602 [mix] Epiglottitis
+A 5 year old boy with epiglottitis has been intubated safely in theatre. He has no drug allergies.
+Blood cultures have been taken.
+Q: Which is the most appropriate antibiotic?
+  * Intravenous ceftriaxone
+  - Intravenous vancomycin
+  - Oral amoxicillin
+  - Oral clarithromycin
+  - Phenoxymethylpenicillin
+## h1603 [clone:h0176] Ménière's disease
+A 46 year old woman has had attacks of spinning vertigo lasting about 3 hours. During attacks she has ringing, fullness and muffled hearing in her right ear. Between attacks she is well.
+Ear examination is normal.
+Audiometry shows a low-frequency sensorineural hearing loss on the right.
+Q: Which is the most likely diagnosis?
+  - Acoustic neuroma
+  - BPPV
+  * Ménière's disease
+  - Vestibular migraine
+  - Vestibular neuronitis
+## h1604 [] Ménière's disease
+A 46 year old woman has suspected Ménière's disease. Her hearing loss is worse on the right.
+Audiometry shows an asymmetrical sensorineural loss.
+Q: Which investigation is most appropriate to exclude another cause?
+  - CT head without contrast
+  - Dix-Hallpike test
+  * MRI of the internal acoustic meatus
+  - Syphilis and autoimmune serology
+  - Tympanometry and acoustic reflexes
+## h1605 [] Ménière's disease
+A 46 year old woman is having an acute attack of Ménière's disease with vomiting. She has Parkinson's disease treated with co-careldopa.
+Q: Which is the most appropriate drug for the attack?
+  - Betahistine
+  * Cyclizine
+  - Haloperidol
+  - Metoclopramide
+  - Prochlorperazine
+## h1606 [clone:h1051] Congenital / developmental problems
+A 6 year old girl has had a lump in the middle of her neck for 2 months. It does not hurt.
+There is a smooth midline lump just below the hyoid bone. It moves up when she sticks out her tongue.
+Q: Which is the most likely diagnosis?
+  - Branchial cyst
+  - Dermoid cyst
+  - Lymph node
+  * Thyroglossal cyst
+  - Thyroid nodule
+## h1607 [mix] Congenital / developmental problems
+A 6 year old girl has a thyroglossal cyst and is listed for excision.
+Q: Which investigation is most important before surgery?
+  - Barium swallow
+  - CT neck
+  - Fine needle aspiration
+  - MRI neck
+  * Ultrasound of the neck
+## h1608 [mix,clone:h1053] Congenital / developmental problems
+A 6 year old girl needs her thyroglossal cyst removed. Ultrasound shows a normal thyroid gland in the usual place.
+Q: Which operation is most appropriate?
+  - Incision and drainage
+  - Needle aspiration
+  - Simple enucleation
+  * Sistrunk procedure
+  - Thyroidectomy
+## h1609 [] Airway obstruction in children
+A 2 year old boy has had a cold for 2 days. Last night he developed a barking cough and a hoarse voice.
+Temperature 37.9°C. He is alert. He has stridor only when upset, with no recession.
+Q: Which is the most likely diagnosis?
+  - Bacterial tracheitis
+  * Croup
+  - Epiglottitis
+  - Foreign body
+  - Laryngomalacia
+## h1610 [] Airway obstruction in children
+A 2 year old boy with croup has become worse. He is agitated.
+Respiratory rate 48 breaths per minute, SpO2 91% breathing air. There is stridor at rest and marked recession.
+Q: Which is the most appropriate treatment?
+  - IV ceftriaxone and blood cultures
+  - Nebulised salbutamol and ipratropium
+  - Oral dexamethasone and home
+  - Oral prednisolone and home
+  * Oxygen, nebulised adrenaline and steroid
+## h1611 [clone:h0197] Airway obstruction in children
+A 2 year old was playing with small toys when she suddenly choked and coughed. She now has a wheeze.
+Temperature 36.9°C, respiratory rate 32 breaths per minute, SpO2 95% breathing air. There is a wheeze on the right side only, with reduced air entry.
+Q: Which is the most likely diagnosis?
+  - Bronchiolitis
+  - Croup
+  * Inhaled foreign body
+  - Pneumonia
+  - Viral-induced wheeze
+## h1698 [] Epistaxis
+A 19 year old woman has had nosebleeds since childhood, heavy periods and long bleeding after a tooth extraction. Her mother is similar.
+There are no telangiectasia.
+LAB Platelets 250 × 10⁹/L 150–400; PT 12 seconds 10–14; APTT 41 seconds 25–35
+Q: Which is the most likely diagnosis?
+  - Haemophilia A
+  - Hereditary haemorrhagic telangiectasia
+  - Immune thrombocytopenia
+  * Von Willebrand disease
+  - Warfarin effect
+## h1699 [mix] Epistaxis
+A 15 year old boy has had a blocked left nostril for 6 months and three heavy nosebleeds from that side.
+There is a smooth red mass at the back of the left nasal cavity.
+Q: Which is the most appropriate next step?
+  - Biopsy in clinic
+  - Cautery and discharge
+  * Imaging before any biopsy
+  - Nasal packing and review in a month
+  - Steroid nasal spray
+## h1705 [len,mix] Airway obstruction in children
+A 6 week old baby has noisy breathing on breathing in, worse when feeding, crying or lying on his back. He is feeding well and gaining weight.
+His colour is good and there is no recession.
+Q: Which is the most appropriate management?
+  - IV antibiotics
+  - Nebulised adrenaline
+  - Oral dexamethasone
+  * Reassure and monitor growth
+  - Urgent tracheostomy
+## h1706 [] Congenital / developmental problems
+A newborn baby goes blue when feeding and pink again when crying. A nasogastric tube cannot be passed through either nostril.
+Q: Which is the most likely diagnosis?
+  - Bronchiolitis
+  * Choanal atresia
+  - Laryngomalacia
+  - Oesophageal atresia
+  - Pierre Robin sequence
+## h1746 [len] BPPV & vertigo
+A 63-year-old man with hypertension and hypercholesterolaemia presents to the Emergency Department with the sudden onset of severe vertigo, vomiting, hiccups, hoarseness, and difficulty swallowing solids and liquids. On neurological examination, he has left-sided ptosis and miosis, absent gag reflex on the left, left-sided limb ataxia on finger-nose testing, loss of pain and temperature sensation over the left side of his face, and loss of pain and temperature sensation over the right side of his trunk and limbs. Motor power and vibration sense are normal in all four limbs.
+Q: Occlusion of which blood vessel is the classic cause of this brainstem syndrome?
+  - Anterior inferior cerebellar artery (AICA)
+  - Anterior spinal artery (medial medullary branches)
+  - Basilar artery paramedian pontine branches
+  - Posterior cerebral artery (midbrain perforators)
+  * Posterior inferior cerebellar artery (PICA) / intracranial vertebral artery
+## h1802 [mix] Epiglottitis
+A 44 year old man has had a severe sore throat for 12 hours and now cannot swallow his saliva. His voice is muffled and he is sitting upright, leaning forward and drooling.
+Temperature 39.2°C, pulse rate 118 bpm, respiratory rate 26/min, oxygen saturation 93% breathing air. There is soft inspiratory stridor.
+Q: Which is the most appropriate immediate action?
+  * Call a senior anaesthetist to secure the airway
+  - Examine the throat with a tongue depressor
+  - Give IV ceftriaxone
+  - Lateral neck X-ray
+  - Take a throat swab
