@@ -59,7 +59,7 @@ function viewMisses(m){
   const d = msLoad(), all = d.items, fixed = all.filter(x => x.fixed).length, left = all.length - fixed, unrec = all.filter(x => !x.fixed && !x.rec).length;
   let h = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code">🔥 My misses</span><span class="grow"></span><span class="mono">' + (all.length ? left + ' left · ' + fixed + ' fixed' : '') + '</span></div><h1>My misses</h1><p class="hint" style="margin:0">Your old pick against the right answer, cued by the rule. Answer with <span class="kbd">1</span> or <span class="kbd">2</span>, <span class="kbd">Enter</span> for next. Right on two separate days and it is fixed.</p></div><div id="ms" class="panel">';
   if (!all.length) {
-    h += '<p style="margin:0 0 8px">No misses loaded yet. Import the <b>medengine misses file</b> made from your Passmedicine history: it stays on this device only.</p><div class="toolbar"><label class="btn primary">📥 Import my misses file<input type="file" accept=".json,application/json" data-msfile hidden></label></div>';
+    h += '<p style="margin:0 0 8px">No misses loaded yet. Import the <b>medengine misses file</b> made from your SBA Bank history: it stays on this device only.</p><div class="toolbar"><label class="btn primary">📥 Import my misses file<input type="file" accept=".json,application/json" data-msfile hidden></label></div>';
   } else {
     if (!msCur || msCur.fixed || (msPick == null && !msQueue(msMore).includes(msCur))) { msCur = msQueue(msMore)[0] || null; msPick = null; }
     h += '<div class="chips ms-stat"><span class="chip on">🔥 ' + unrec + ' never re-done</span><span class="chip">🔁 ' + (left - unrec) + ' to re-check</span><span class="chip">✅ ' + fixed + ' fixed</span></div>';

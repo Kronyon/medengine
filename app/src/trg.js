@@ -1,5 +1,5 @@
 /* ---------- v2.1: 🧲 Triggers, shared by medengine-OSCE and medengine-STUDY ----------
-   The Mehlman pattern: one line = the scene + the word that flips it → the answer. Lines that share a scene stack, so the
+   The High-Yield pattern: one line = the scene + the word that flips it → the answer. Lines that share a scene stack, so the
    eye sees what stays the same and what changes. One long scroll (⌘F finds anything), a picture on every line, 🔒 Lock
    blurs the answers (still findable), tap or N reveals, L locks. TG.page(T, U, opts) returns the HTML; TG.mount(root)
    wires it. T = D.trg (c, bug, sc, dr, ix, mx); U = {weeks: [[id, name]], units: [{i, name, w, o, h: [[type, clue, ans]]}]}. */
@@ -152,7 +152,7 @@
       + '<div class="tg-bar"><input id="trq" type="search" placeholder="Filter every trigger: e.g. birds, lithium, CT, child" autocomplete="off" aria-label="Filter triggers" value="' + esc(TG.preset || '') + '">'
       + '<div class="tg-parts">' + [['all', '', 'All']].concat(PARTS).map(([k, e, l]) => '<button class="tg-p' + (part === k ? ' on' : '') + '" data-tgpart="' + k + '">' + (e ? e + ' ' : '') + l + '</button>').join('') + '</div>'
       + '<div class="tg-row2"><select id="tgJump" aria-label="Jump to a section"></select><button class="tg-p' + (ST.lock ? ' on' : '') + '" data-tglock>🔒 Lock</button><span class="tg-cnt" id="tgCnt">' + n.toLocaleString('en-GB') + ' lines</span></div></div>'
-      + cache + '<p class="tg-foot hint">Condition clues marked HY and FA are adapted from Mehlman\'s <i>HY Internal Medicine</i> and <i>First Aid Step 1</i> and rewritten for UK practice; everything else is written for your ILOs from NICE, BTS, BNF and MHRA guidance.</p></div>';
+      + cache + '<p class="tg-foot hint">Condition clues marked HY and FA are adapted from High-Yield\'s <i>HY Internal Medicine</i> and <i>First Aid Step 1</i> and rewritten for UK practice; everything else is written for your ILOs from NICE, BTS, BNF and MHRA guidance.</p></div>';
   };
   function build(T, U, opts){
     const ua = opts.unitAttr || (i => 'data-u="' + i + '"');

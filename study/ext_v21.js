@@ -1,4 +1,4 @@
-/* ---------- v2.1: 🧲 Triggers: every condition, bug, drug, test and procedure as Mehlman-style lines (engine: trg.js) ---------- */
+/* ---------- v2.1: 🧲 Triggers: every condition, bug, drug, test and procedure as High-Yield-style lines (engine: trg.js) ---------- */
 /* word-hunt stacks: lines that share a scene sit together under its label (D.hst, from snap/hl_*.py) */
 const HST = D.hst || {};
 function stackOrder(ids, ui){

@@ -1,4 +1,4 @@
-"""🧲 Triggers, part 3: every treatment in the ILOs, Mehlman-style. Each drug has a 🎯 line (the scene → the drug) and
+"""🧲 Triggers, part 3: every treatment in the ILOs, High-Yield-style. Each drug has a 🎯 line (the scene → the drug) and
 ⚠️ lines (the drug + one extra word → the catch). Own words, UK practice (NICE, BNF, MHRA).
 Entry: ('Name · other names', picture, 'scene that calls for it', ['drug + the word that flips it | the catch', ...]).
 Pictures: pill, inh, iv, inj, cream, drop, patch, spray, proc."""

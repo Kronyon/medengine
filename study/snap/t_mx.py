@@ -1,4 +1,4 @@
-"""🧲 Triggers, part 5: management that is not a drug: procedures, surgery, devices, therapies, the law. Mehlman-style:
+"""🧲 Triggers, part 5: management that is not a drug: procedures, surgery, devices, therapies, the law. High-Yield-style:
 🎯 the scene → the procedure; ⚠️ the procedure + one flipping word → what changes. Own words, UK practice (NICE, BTS,
 RC UK, BOA, the Mental Health Act 1983). Entry: ('Name · other names', picture, 'scene', ['flip | consequence', ...]).
 Pictures: cut, needle, drain, shock, device, scope, laser, ray, air, bag, talk, law, bed."""

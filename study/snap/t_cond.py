@@ -1,4 +1,4 @@
-"""🧲 Triggers, part 1: one ⭐ signature trigger per ILO condition, Mehlman-style: the picture the exam paints, with the
+"""🧲 Triggers, part 1: one ⭐ signature trigger per ILO condition, High-Yield-style: the picture the exam paints, with the
 words that give it away in bold, then → the answer. Own words, UK practice. Format: 'clue | answer'."""
 
 COND = {

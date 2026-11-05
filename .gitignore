@@ -11,3 +11,8 @@ __pycache__/
 offline/dist/
 medengine-misses*.json
 app/build/osce_data_v4.json
+
+# Private local curriculum & question banks (never committed to public OSS repo)
+*private_bank*.json
+*custom_bank*.json
+offline/dist/*.zip

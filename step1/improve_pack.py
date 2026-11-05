@@ -11,7 +11,7 @@ What it fixes
                              mechanisms borrowed from unrelated topics and template flips are replaced
   twin questions and cards   template twins ("In a follow-up twin scenario for…") are retired in favour of real twins
                              built on demand by AI in the app; Anki cards are rebuilt from the cue, answer and objective
-  Mehlman arrow questions    the filler sentence added to every stem is removed and topics are re-filed by content
+  High-Yield arrow questions    the filler sentence added to every stem is removed and topics are re-filed by content
   glossary                   the US abbreviations and US/UK drug names return alongside the 322 general shorthand entries
 
 Run: python3 step1/improve_pack.py   (needs `pip install wordfreq` for the OCR dictionary)
@@ -390,7 +390,7 @@ for q in Q:
             q.pop('uworld_qid', None)
         STATS['mine_kept_with_flips'] += 1
     is_uw = not is_mine and bool(q.get('uw_qid') or q.get('uworld_qid'))
-    is_mh = q.get('src') == 'Mehlman HY Arrows'
+    is_mh = q.get('src') == 'High-Yield HY Arrows'
     if q.get('tw') and TEMPLATE_TWIN.search(q['tw'].get('s', '')):
         del q['tw']
         STATS['template_twin_retired'] += 1
@@ -427,7 +427,7 @@ for q in Q:
         if top and (cur is None or cur < 0.72 * top[0][1]) and top[0][1] > 0.08:
             q['k'] = str(top[0][0])
             STATS['refiled'] += 1
-        scene = re.split(r'[Ww]hat (?:are|will|change|is|happens|would)', re.sub(r'^\[Mehlman Arrow #\d+\]\s*', '', q['s']))[0]
+        scene = re.split(r'[Ww]hat (?:are|will|change|is|happens|would)', re.sub(r'^\[High-Yield Arrow #\d+\]\s*', '', q['s']))[0]
         cues = [c.strip(' .,?') for c in re.split(r'\+|,', scene) if len(c.strip(' .,?').split()) >= 2 and c.strip(' .,?') in q['s']][:4]
         body = re.sub(r'^Correct arrow profile:[^.]*\.\s*', '', q['w'])
         q['tm'] = {'c': cues if cues else [c for c in q['tm'].get('c', []) if not c.startswith('[')], 'g': short((sentences(body) or [body])[0], 45),
@@ -473,7 +473,7 @@ for m in D.get('master', []):
         STATS['poster_refiled'] += 1
 
 # ------------------------------------------------------------------ notes: lines from your own notes that were pinned to the wrong answer
-# "🔎 Mehlman / NBME High-Yield Rule" and "🧬 Pathoma / First Aid pearl" lines were dealt round-robin to the answers of
+# "🔎 High-Yield / NBME High-Yield Rule" and "🧬 Pathophysiology / First Aid pearl" lines were dealt round-robin to the answers of
 # whichever topic they landed in (aminocaproic acid → Psoriasis). Each line is re-filed to the topic its words belong
 # to, its blank goes on the answer it actually describes, and if no answer fits it stays as a plain fact with no blank.
 page_by_n = {p['n']: p for p in D['pages']}
@@ -495,7 +495,7 @@ for i, u in enumerate(U):
             for c in l[3][:1]:
                 hs.append((l[0][c[0]:c[1]], l[0]))
     HEADS[i] = hs
-RULE = re.compile(r'^• (🔎 Mehlman / NBME High-Yield Rule|🧬 Pathoma / First Aid pearl): ')
+RULE = re.compile(r'^• (🔎 High-Yield / NBME High-Yield Rule|🧬 Pathophysiology / First Aid pearl): ')
 OUTLINE = re.compile(r'\b[A-F]\. [A-Z][a-z]+.*\b[B-G]\. [A-Z]')
 def head_score(h, line, body):
     nm = set(toks(h)); bt = set(toks(body))

@@ -134,7 +134,7 @@ function viewVault(m){
     const keep = list.filter(s => !vaultSys || (UNITS[s.u] ? usys(UNITS[s.u]) === vaultSys : vaultSys === '-'));
     let h = '<div class="toolbar">' + (list.length ? '<button class="btn primary" data-vrev>🧠 Review ' + keep.length + '</button>' : '') + '<select class="jsel" data-vsys aria-label="Filter by system" style="width:auto"><option value="">All systems</option>' + MEV.sysOptions(vaultSys) + '</select><span class="grow"></span><span class="hint">' + list.length + ' saved</span></div>';
     h += '<div class="shotzone" contenteditable="true" spellcheck="false" data-shotzone="-1" role="textbox" aria-label="Paste a screenshot here" data-ph="Paste here to save an unsorted image (or open the condition first so it is filed under it)."></div><div class="toolbar"><input class="shotnote" type="text" data-shotnote="-1" placeholder="What tricked me? (optional)"><label class="btn"><input type="file" accept="image/*" data-shotfile="-1" hidden>📷 Choose image</label></div>';
-    if (!list.length) h += '<div class="empty">Nothing saved yet. Miss an image question on Passmedicine? Screenshot it, open the matching condition here and paste.</div>';
+    if (!list.length) h += '<div class="empty">Nothing saved yet. Miss an image question on SBA Bank? Screenshot it, open the matching condition here and paste.</div>';
     const groups = {}; keep.forEach(s => (groups[s.u] = groups[s.u] || []).push(s));
     Object.keys(groups).map(Number).sort((a, b) => a - b).forEach(ui => {
       const u = UNITS[ui];

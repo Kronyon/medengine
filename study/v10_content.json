@@ -1,5 +1,5 @@
 {
- "_about": "medengine v1.0 mechanism cards. Written in our own words for the ILO conditions that had no Pathoma card or lacked the decisive contrast; facts cross-checked against standard UK teaching. Bootcamp was used only as a reference for which mechanisms and contrasts matter; none of its text or images are reproduced. Same shape as D.path: id, t (title, 'A vs B' where possible), l (2 to 4 lines, cause -> what physically happens -> the finding, key words in **bold**, no brackets because the eye skips them), u (ILO unit indices).",
+ "_about": "medengine v1.0 mechanism cards. Written in our own words for the ILO conditions that had no Pathophysiology card or lacked the decisive contrast; facts cross-checked against standard UK teaching. Bootcamp was used only as a reference for which mechanisms and contrasts matter; none of its text or images are reproduced. Same shape as D.path: id, t (title, 'A vs B' where possible), l (2 to 4 lines, cause -> what physically happens -> the finding, key words in **bold**, no brackets because the eye skips them), u (ILO unit indices).",
  "path_add": [
   {
    "id": "gsladder",

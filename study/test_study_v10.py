@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""medengine v1.0 tests (no network): the new mechanism cards are in the Pathoma library, linked to their ILO
+"""medengine v1.0 tests (no network): the new mechanism cards are in the Pathophysiology library, linked to their ILO
 conditions and shown on the condition page; Remix picks the card that names the most options, shows it in the
 lineup and puts it in the AI prompt as checked notes; nothing overflows at 3 widths."""
 import json, pathlib, re, sys
@@ -39,7 +39,7 @@ def run(width, mock=True):
         if not re.search(r'v1\.[1-9]\.\d|v1\.0\.0|v2\.\d+\.\d', pg.text_content('#homeBtn')): errs.append('version not v1.x')
         D = ev("JSON.parse(document.getElementById('qqdata').textContent)")
         ids = [r['id'] for r in D['path']]
-        if len(ids) != len(set(ids)): errs.append('duplicate Pathoma ids')
+        if len(ids) != len(set(ids)): errs.append('duplicate Pathophysiology ids')
         for r in V10:
             if r['id'] not in ids: errs.append('missing card ' + r['id']); continue
             i = ids.index(r['id'])

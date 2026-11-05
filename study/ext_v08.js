@@ -47,7 +47,7 @@ async function rmxImgGet(id){
 async function rmxImgDel(id){ delete rmxImgMem[id]; const db = await shotIdb(); if (!db) return; try { db.transaction('shots', 'readwrite').objectStore('shots').delete('ri-' + id); } catch (e) {} }
 function rmxBlob(d){ const m = /^data:([^;,]+)(;base64)?,(.*)$/.exec(d || ''); if (!m) return null; const bin = m[2] ? atob(m[3]) : decodeURIComponent(m[3]), u = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); return new Blob([u], {type: m[1]}); }
 
-/* ----- paste → question: strip the Passmedicine page around it ----- */
+/* ----- paste → question: strip the SBA Bank page around it ----- */
 const RMX_JUNK = /^(passmedicine|medical student finals.*|home|questions|question bank|previous sessions|mock exams|review questions|performance|comment threads|textbooks?|high-yield textbook|extended textbook|knowledge tutor|review facts|custom revision|revision sets|concepts|all concepts|top 100 concepts|ukmla content map.*|reference ranges|end and review|deep dive|next question|previous question|next|previous|submit( answer)?|skip|flag( question)?|rate this question.*|report( an)? (error|issue)|report broken (link|media)|suggest (better categorisation|link)|key concept image|important for me.*|less important|very important|feedback|show (explanation|answer)|hide|menu|log ?out|sign ?out|my account|settings|help|contact us|privacy.*|terms.*|cookie.*|©.*|copyright.*|all contents of this site.*|back to top|score:?\s*\d+(\.\d+)?%?|\d+\s*\/\s*\d+|\d+(-\d+)?( \d+ ?\/ ?\d+)?|time( remaining)?:?.*|\d{1,3}(\.\d)?%|average score.*|\d+ (people|users) .*)$/i;
 const RMX_END = /^(comments?|discussion|add a comment|post( a)? comment|\d+ comments?|show comments|view comments)$/i;
 const RMX_QMARK = /^question [\d,]+ of [\d,]+$/i;
@@ -215,7 +215,7 @@ function rmxQBlock(q, hasImg){
     + (q.expl ? '\n\nEXPLANATION FROM THE QUESTION BANK (treat as correct):\n' + q.expl.slice(0, 1500) : '')
     + rmxRootNote(q);
 }
-const rmxRowSpec = q => '"rows":[exactly ' + q.opts.length + ' objects, one per option in the order given: {"if":"at most 9 words: the ONE clue in this same patient that would make this option the answer (for option ' + (q.correct + 1) + ', the clue already in the question that makes it right)","hook":"at most 6 words: a picture or feeling that makes it stick","how":"at most 16 words, Pathoma style: cause → what physically happens: the finding or reason this option fits; wrap the 2 or 3 key words in **double asterisks**"}]';
+const rmxRowSpec = q => '"rows":[exactly ' + q.opts.length + ' objects, one per option in the order given: {"if":"at most 9 words: the ONE clue in this same patient that would make this option the answer (for option ' + (q.correct + 1) + ', the clue already in the question that makes it right)","hook":"at most 6 words: a picture or feeling that makes it stick","how":"at most 16 words, Pathophysiology style: cause → what physically happens: the finding or reason this option fits; wrap the 2 or 3 key words in **double asterisks**"}]';
 const RMX_RULES = '\nRules: same patient, same question, same options. Each "if" changes ONE clue only, and keep the five on the same theme where you can (size, site, timing, one sign, one result) so they read like a lineup. No pregnancy, allergy or kidney-function twists unless the question is about them. If nothing in this patient could make an option right, set its "if" to "" and make its "hook" the reason it never wins. Plain words, no brackets.';
 function rmxPrompt(q){
   return rmxQBlock(q, q.hasImg)
@@ -284,7 +284,7 @@ function rmxLocal(q){
 let rmx = {step: 'home', q: null, card: null, i: 0, pick: null, busy: false, ctl: null, err: '', missOnly: false, sys: '', queue: null, scheduled: false, pendingImg: null};
 const RMX_BEAT = {if: ['🔄', 'Same patient, one clue changed', 'If instead'], flip: ['🔄', 'Change one clue', 'If instead'], twist: ['🧍', 'Change the patient', 'Now'], time: ['⏱', 'Change the timeline', 'Now'], ck: ['🔑', 'Whose clincher is this?', 'Clincher']};
 function viewRemix(m){
-  m.innerHTML = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code">🔄 Remix</span><span class="grow"></span><span class="mono" id="rmxN"></span></div><h1>Remix a question you got wrong</h1><p class="hint" style="margin:0">Answer it on Passmedicine first, then copy the page (⌘A then ⌘C), come here and press ⌘V. You get the case in one line, then the <b>same patient with one clue changed</b>: watch which option wins. Answer with <span class="kbd">1</span>–<span class="kbd">5</span>, <span class="kbd">Enter</span> for next, <span class="kbd">Esc</span> to paste another.</p></div><div id="rmx" class="panel"></div><div id="rmxVault"></div></div>';
+  m.innerHTML = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code">🔄 Remix</span><span class="grow"></span><span class="mono" id="rmxN"></span></div><h1>Remix a question you got wrong</h1><p class="hint" style="margin:0">Answer it on SBA Bank first, then copy the page (⌘A then ⌘C), come here and press ⌘V. You get the case in one line, then the <b>same patient with one clue changed</b>: watch which option wins. Answer with <span class="kbd">1</span>–<span class="kbd">5</span>, <span class="kbd">Enter</span> for next, <span class="kbd">Esc</span> to paste another.</p></div><div id="rmx" class="panel"></div><div id="rmxVault"></div></div>';
   drawRemix(); drawRmxVault();
 }
 function rmxStatusHtml(){
@@ -304,7 +304,7 @@ function drawRemix(){
   } else if (rmx.step === 'check') {
     const q = rmx.q;
     h += '<div class="snp-lab">Check it</div><div class="rmx-stem">' + esc(q.stem) + '</div>';
-    if (q.early) h += '<div class="kl kl-out"><span class="ki">⏳</span><span>Looks like this one hasn\'t been answered yet. Submit it on Passmedicine first, then copy the page: the explanation is what makes the remix accurate.</span></div>';
+    if (q.early) h += '<div class="kl kl-out"><span class="ki">⏳</span><span>Looks like this one hasn\'t been answered yet. Submit it on SBA Bank first, then copy the page: the explanation is what makes the remix accurate.</span></div>';
     if (q.opts.length < 4) h += '<div class="kl kl-out"><span class="ki">⚠️</span><span>I couldn\'t find the 5 options. Copy the whole question page, or paste the stem with one option per line.</span></div>';
     else h += '<p class="hint" style="margin:0">Tap <b>✅</b> on the right answer and <b>✋</b> on the one you picked.</p><div class="rmx-opts">' + q.opts.map((o, k) => '<div class="rmx-opt' + (k === q.correct ? ' ok' : '') + (k === q.picked ? ' me' : '') + '"><span class="k">' + (k + 1) + '</span><span class="t">' + esc(o) + '</span><button class="iconbtn" data-rmxc="' + k + '" aria-label="Right answer" aria-pressed="' + (k === q.correct) + '">✅</button><button class="iconbtn" data-rmxp="' + k + '" aria-label="My pick" aria-pressed="' + (k === q.picked) + '">✋</button></div>').join('') + '</div>';
     if (rmx.err) h += '<div class="kl kl-out"><span class="ki">⚠️</span><span>' + esc(rmx.err) + '</span></div>';
@@ -340,7 +340,7 @@ function rmxCaseHtml(C){
   if (us.length || C.img) h += '<div class="chips rmx-chips">' + (C.img ? '<button class="rmx-thumb sm" data-rmxzoom="c" data-rmximg="' + C.id + '" hidden></button>' : '') + us.map(ui => UNITS[ui] ? '<button class="chip" data-u="' + ui + '" data-mode="read">📖 ' + esc(UNITS[ui].name) + '</button>' : '').join('') + '</div>';
   return h + '</div>';
 }
-// the matching Pathoma card from your library (checked content), for the card's condition first
+// the matching Pathophysiology card from your library (checked content), for the card's condition first
 // the best card is the one that names the most of this question's options (ties: the card's own condition first)
 function rmxRootPick(q, unit){
   const us = [unit].concat(q.opts.map(o => rmxUnitFor(o))).filter(u => u != null && u >= 0);

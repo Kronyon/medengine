@@ -53,7 +53,7 @@ Score: 42.9%
 2
 8-10\t1 / 3
 Back to top
-All contents of this site are © 2026 Passmedicine Limited
+All contents of this site are © 2026 SBA Bank Limited
 """
 UNANSWERED = """PassMedicine
 Question 1 of 4,903
@@ -196,8 +196,8 @@ def run(width, mock=True):
         if pg.locator('#rmx details:not(.whyc)').count(): errs.append('the lineup should be open, not in a dropdown')
         if pg.locator('#rmx .rmx-lineup .rmx-gr').count() != 5 or pg.locator('#rmx .rmx-lineup .rmx-gr.ok').count() != 1 or pg.locator('#rmx .rmx-lineup .rmx-gr.me').count() != 1: errs.append('lineup should be 5 rows')
         if 'size vs infection' not in pg.text_content('#rmx .rmx-lineup .rmx-code'): errs.append('the A vs B title should head the lineup')
-        if not pg.locator('#rmx .rmx-lineup details.whyc').count() or 'Kidney stones' not in pg.text_content('#rmx .rmx-lineup details.whyc summary'): errs.append('matching Pathoma card missing from the lineup')
-        elif ev("document.querySelector('#rmx .rmx-lineup details.whyc').open"): errs.append('Pathoma card should start closed')
+        if not pg.locator('#rmx .rmx-lineup details.whyc').count() or 'Kidney stones' not in pg.text_content('#rmx .rmx-lineup details.whyc summary'): errs.append('matching Pathophysiology card missing from the lineup')
+        elif ev("document.querySelector('#rmx .rmx-lineup details.whyc').open"): errs.append('Pathophysiology card should start closed')
         if pg.locator('#rmx .rmx-lineup .rmx-how').count() != ev('__me8.rmx.card.c.rows.filter(r => r.how).length') or not pg.locator('#rmx .rmx-lineup .rmx-how').count(): errs.append('lineup should show each row\'s mechanism chain')
         lw = [len(x.split()) for x in ev("[...document.querySelectorAll('#rmx .rmx-lineup .rmx-gr')].map(e => { const c = e.cloneNode(true); c.querySelectorAll('.rmx-how').forEach(x => x.remove()); return c.textContent; })")]
         if max(lw) > 22: errs.append(f'lineup rows too wordy: {lw}')

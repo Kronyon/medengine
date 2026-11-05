@@ -1,6 +1,6 @@
 /* ===================== v2.7.1 · 🖍️ highlighter + ☁️ sync across devices + 📲 save transfer ===================== */
 
-/* ---------- 🖍️ highlighter: select or tap words in a question and they turn yellow, like Passmedicine ---------- */
+/* ---------- 🖍️ highlighter: select or tap words in a question and they turn yellow, like SBA Bank ---------- */
 /* the pen is set per device (on for a mouse, off for a touchscreen until you switch it on), so it is not synced */
 const HL_PEN_LS = 'medengine-dev-pen';
 function hlPen(){ let v = null; try { v = localStorage.getItem(HL_PEN_LS); } catch (e) {} return v == null ? !(window.matchMedia && matchMedia('(pointer: coarse)').matches) : v === '1'; }

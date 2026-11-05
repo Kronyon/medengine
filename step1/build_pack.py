@@ -2,7 +2,7 @@
 """Compile the medengine-STEP1 content pack (step1/src/*.txt) into step1/pack.json.
 
 Everything in src/ is written in our own words from standard Step 1 knowledge. Nothing is copied from First Aid,
-Mehlman, UWorld, Boards and Beyond or Bootcamp: those books shaped the structure (chapters, one-line triggers, arrows),
+High-Yield, UWorld, Boards and Beyond or Bootcamp: those books shaped the structure (chapters, one-line triggers, arrows),
 not the text.
 
   topics_*.txt   First Aid chapters (sections), topics and red-flag trigger rows        @ / # / !

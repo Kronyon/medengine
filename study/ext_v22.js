@@ -117,7 +117,7 @@ function hqIndex(list){
   list.forEach(it => { const k = it.t === 'm' ? 'mq:' + it.id : it.t === 'o' ? 'oq:' + it.id : it.t + ':' + it.k; if (!seen.has(k)) seen.set(k, [it, 0]); seen.get(k)[1]++; });
   return '<div class="hq-idx">' + Array.from(seen.entries()).map(([k, [it, n]]) => '<button class="sr" data-hqtgt="' + esc(k) + '"><span class="where">' + (it.t === 'm' ? '🎓' : it.t === 'o' ? '🏛️' : HAM(1)) + ' ' + n + '</span>' + esc(it.t === 'm' ? 'Q' + it.n + ' · ' + ((UNITS[+it.k] || {}).name || '') : it.t === 'o' ? hqPaper(it) + ' Q' + it.n + ' · ' + (+it.k >= 0 ? (UNITS[+it.k] || {}).name || '' : 'beyond the ILOs') : hqTitle(it)) + '</button>').join('') + '</div>';
 }
-/* ----- a run: Passmedicine-style. Move back and forth, cross options out, leave and come back; it is saved with your progress ----- */
+/* ----- a run: SBA Bank-style. Move back and forth, cross options out, leave and come back; it is saved with your progress ----- */
 const HQ_BY = {}; function hqItem(id){ if (!HQ_BY._ok) { hqAll().forEach(it => HQ_BY[it.id] = it); HQ_BY._ok = 1; } return HQ_BY[id]; }
 /* every unfinished run is kept (newest first, up to HQ_KEEP) so starting a new one never wipes the last */
 const HQ_KEEP = 12;

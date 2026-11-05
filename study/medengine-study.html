@@ -347,7 +347,7 @@ table.gl td:first-child{font-family:var(--f-mono);font-weight:700;white-space:no
 .fwcard>summary{cursor:pointer;padding:12px 14px;display:flex;flex-direction:column;gap:2px;list-style:none}
 .fwcard>summary::-webkit-details-marker{display:none}
 .fwcard .fw{border:0;border-top:1px solid var(--line);border-radius:0 0 12px 12px}
-/* Oxford cases + Pathoma roots: everything collapsed until tapped */
+/* Clinical case walkthroughs + Pathophysiology roots: everything collapsed until tapped */
 .oc{border:1px solid var(--line);border-left:4px solid hsl(160 55% 42%);border-radius:10px;background:var(--surface);margin:6px 0}
 .oc>summary{cursor:pointer;padding:9px 12px;font-weight:700;list-style:none;display:flex;gap:6px 10px;align-items:baseline;flex-wrap:wrap}
 .oc>summary::-webkit-details-marker{display:none}
@@ -976,7 +976,7 @@ dialog.acct code{font-family:var(--f-mono);font-size:.85rem}
 #aiKeyBtn{white-space:nowrap;flex:none}
 @media (max-width:620px){#aiKeyBtn .al{display:none}}
 
-/* ---------- Live Run % Badge + Passmedicine Scorecard ---------- */
+/* ---------- Live Run % Badge + Question Bank Scorecard ---------- */
 .hq-runscore{display:inline-flex;align-items:center;gap:6px;font-family:var(--f-mono);font-size:.78rem;font-weight:700;padding:3px 10px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);transition:all .18s ease;cursor:pointer;line-height:1.2}
 .hq-runscore:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
 .hq-runscore.good{border-color:var(--good);background:var(--good-soft);color:var(--good)}
@@ -1372,9 +1372,9 @@ html .seg{max-width:100%;min-width:0;overflow-x:auto;scrollbar-width:none}html .
       <tr><td><span class="kbd">Space</span></td><td>Flip a recall card / jump to the next drop-down</td></tr><tr><td><span class="kbd">1</span>–<span class="kbd">4</span> on a drop-down</td><td>Pick that option and move on</td></tr>
       <tr><td><span class="kbd">[</span> <span class="kbd">]</span></td><td>Previous / next condition</td></tr>
       <tr><td><span class="kbd">S</span></td><td>Start a sprint</td></tr>
-      <tr><td>↕ / 🔎 / 🪝</td><td>In 🧠 Think: predict the arrows, then hunt the stem clue or recall the mnemonic (tap to reveal). Chips filter clues, ⚠️ traps, 🇬🇧 US-vs-UK and 🪝 hooks; HY = Mehlman, FA = First Aid. Full sets live in the Frameworks library tabs.</td></tr>
+      <tr><td>↕ / 🔎 / 🪝</td><td>In 🧠 Think: predict the arrows, then hunt the stem clue or recall the mnemonic (tap to reveal). Chips filter clues, ⚠️ traps, 🇬🇧 US-vs-UK and 🪝 hooks; HY = High-Yield, FA = Core Foundations. Full sets live in the Frameworks library tabs.</td></tr>
       <tr><td>🔑</td><td>Clinchers: under every condition title, the finding or lab combination that settles it (✅) or rules it out (❌), plus key 🧪 patterns. Open it once and it stays open.</td></tr>
-      <tr><td>🔨</td><td>Hammer SBAs: three single-best-answer questions for every ILO condition, drug group, test and procedure, plus off-map topics and your own mock (🎓). 🔨 classic, 🔨🔨 two steps or a lookalike, 🔨🔨🔨 curveball. Each answer shows why, then 🔄 the flip: the one change that makes another option right. <span class="kbd">A</span>–<span class="kbd">E</span> answer, <span class="kbd">Enter</span> next, <span class="kbd">Esc</span> leave. Each condition page has its own 🔨 button. 🏛️ Official papers: the 599 MS AKT and MSCAA practice questions (incl. Sept 2026 P1 &amp; P2) with their images, lab tables and examiners' justifications. <span class="kbd">S</span> 🦅 scan mode lifts the question line, lights out-of-range values and fades normal ones. After each answer, 🧬 examiner pattern links the twins across papers.</td></tr><tr><td>🧲</td><td>Triggers: every condition, bug, drug, investigation and procedure in your ILOs as one line each: the scene, the word that flips it in highlighter, then the answer. One long scroll with a picture on every line. <span class="kbd">⌘F</span> filters it, twice for the browser's find; 🔒 <span class="kbd">L</span> blurs the answers, tap or <span class="kbd">N</span> to reveal. Each condition's word hunt opens its own triggers.</td></tr><tr><td>🗺️</td><td>Poster: every condition as one picture with the same layout: cause top-left, who top-right, tests on the right, treatment bottom-right, danger bottom-left, the lookalike on the left, signs in the middle, the hook along the bottom. 🔒 Lock or <span class="kbd">L</span> hides the drugs, numbers and signs: say them, then tap or press <span class="kbd">N</span>. ▶ Walk it lights the zones in order. In quiz modes the poster starts locked. The 🎞️ Film and 🖼️ Pictures tabs sit beside it; paste your own infographics there and box over the details.</td></tr><tr><td>🧭</td><td>Master posters: one picture for a whole topic, from spirometry to antidotes. The first five rebuild your AI-made infographics, with what was wrong listed under 🔎.</td></tr><tr><td>⌘F</td><td>⌘F or Ctrl+F jumps to the search bar. Press it again there for the browser's own find.</td></tr><tr><td>👁️</td><td>Clinical Atlas Lookup on every condition: DermNet, LITFL, Radiopaedia, Radiology Masterclass and Google Images open in a new tab. 🥊 chips open the visual showdowns (drawn ECGs, X-rays, fundi, eardrums).</td></tr><tr><td>📋</td><td>Paste exam image: on any condition press Ctrl+V / ⌘V (iPad and phone: long-press the paste box → Paste, or 📷 Choose image) to file a question image that tricked you. The vault reviews them with your note hidden.</td></tr><tr><td>🎯</td><td>Blind clincher sniper: a clincher with the disease blacked out. <span class="kbd">1</span>–<span class="kbd">4</span> name it and pick the first move, <span class="kbd">Space</span> reveals the trap, <span class="kbd">M</span> mutates (same presentation, one feature changed).</td></tr><tr><td>🔄</td><td>Remix: answer the question on Passmedicine, copy the page (⌘A, ⌘C), open 🔄 Remix and press ⌘V. Check ✅ and ✋ (📷 adds an image), then the same patient with one clue changed each round: watch which option wins (<span class="kbd">1</span>–<span class="kbd">5</span>, <span class="kbd">Enter</span>, <span class="kbd">Esc</span> to leave). The end lines up all five: answer ← the clue that picks it. Cards come back tomorrow, then in 3 days, a week and so on, with new variations ready each time (▶ Due today). 🚩 drops one that looks wrong; 🧠 Careful is slower and more accurate.</td></tr><tr><td>⚡〰️🌊📈</td><td>Speed tags: how fast a condition arrives (sudden, comes and goes, fluctuates, gradual). Filter by speed under 🗂 Browse on the home screen.</td></tr><tr><td>🎬🟰🏷️</td><td>Clinchers that hinge on an exam name read as: 🎬 what you see 🟰 🏷️ the exam name (with a 🔗 memory hook) → 🎯 the diagnosis. The sniper hides the 🎯 part until you answer.</td></tr><tr><td>🔺</td><td>Jargon decoder: exam names that don't describe what they are (Δ wave, Wenckebach, Kussmaul, Rinne…). Chips on each condition open them. In the sniper: ① picture → name, ② name → picture, ③ what do you do, or 🔺 all three. <span class="kbd">Space</span> reveal, <span class="kbd">1</span>/<span class="kbd">2</span> mark, <span class="kbd">Enter</span> next.</td></tr><tr><td>🗂 / 🆕</td><td>Systems &amp; presentations (top of the chapter list) filters by system or jumps to any ILO week or framework. 🆕 marks guideline updates next to older rules.</td></tr><tr><td>🩺 / 🧬</td><td>In 🧠 Think: an Oxford case (open one step at a time, then one SBA) and a short Pathoma "why it happens" card. Every case sits under its ILO; all 29 complaints are in the 🩺 Cases library tab.</td></tr>
+      <tr><td>🔨</td><td>Hammer SBAs: three single-best-answer questions for every ILO condition, drug group, test and procedure, plus off-map topics and your own mock (🎓). 🔨 classic, 🔨🔨 two steps or a lookalike, 🔨🔨🔨 curveball. Each answer shows why, then 🔄 the flip: the one change that makes another option right. <span class="kbd">A</span>–<span class="kbd">E</span> answer, <span class="kbd">Enter</span> next, <span class="kbd">Esc</span> leave. Each condition page has its own 🔨 button. 🏛️ Official papers: the clinical single-best-answer practice vignettes with their images, lab tables and examiners' justifications. <span class="kbd">S</span> 🦅 scan mode lifts the question line, lights out-of-range values and fades normal ones. After each answer, 🧬 examiner pattern links the twins across papers.</td></tr><tr><td>🧲</td><td>Triggers: every condition, bug, drug, investigation and procedure in your ILOs as one line each: the scene, the word that flips it in highlighter, then the answer. One long scroll with a picture on every line. <span class="kbd">⌘F</span> filters it, twice for the browser's find; 🔒 <span class="kbd">L</span> blurs the answers, tap or <span class="kbd">N</span> to reveal. Each condition's word hunt opens its own triggers.</td></tr><tr><td>🗺️</td><td>Poster: every condition as one picture with the same layout: cause top-left, who top-right, tests on the right, treatment bottom-right, danger bottom-left, the lookalike on the left, signs in the middle, the hook along the bottom. 🔒 Lock or <span class="kbd">L</span> hides the drugs, numbers and signs: say them, then tap or press <span class="kbd">N</span>. ▶ Walk it lights the zones in order. In quiz modes the poster starts locked. The 🎞️ Film and 🖼️ Pictures tabs sit beside it; paste your own infographics there and box over the details.</td></tr><tr><td>🧭</td><td>Master posters: one picture for a whole topic, from spirometry to antidotes. The first five rebuild your AI-made infographics, with what was wrong listed under 🔎.</td></tr><tr><td>⌘F</td><td>⌘F or Ctrl+F jumps to the search bar. Press it again there for the browser's own find.</td></tr><tr><td>👁️</td><td>Clinical Atlas Lookup on every condition: DermNet, LITFL, Radiopaedia, Radiology Masterclass and Google Images open in a new tab. 🥊 chips open the visual showdowns (drawn ECGs, X-rays, fundi, eardrums).</td></tr><tr><td>📋</td><td>Paste exam image: on any condition press Ctrl+V / ⌘V (iPad and phone: long-press the paste box → Paste, or 📷 Choose image) to file a question image that tricked you. The vault reviews them with your note hidden.</td></tr><tr><td>🎯</td><td>Blind clincher sniper: a clincher with the disease blacked out. <span class="kbd">1</span>–<span class="kbd">4</span> name it and pick the first move, <span class="kbd">Space</span> reveals the trap, <span class="kbd">M</span> mutates (same presentation, one feature changed).</td></tr><tr><td>🔄</td><td>Remix: answer a clinical vignette, copy the page (⌘A, ⌘C), open 🔄 Remix and press ⌘V. Check ✅ and ✋ (📷 adds an image), then the same patient with one clue changed each round: watch which option wins (<span class="kbd">1</span>–<span class="kbd">5</span>, <span class="kbd">Enter</span>, <span class="kbd">Esc</span> to leave). The end lines up all five: answer ← the clue that picks it. Cards come back tomorrow, then in 3 days, a week and so on, with new variations ready each time (▶ Due today). 🚩 drops one that looks wrong; 🧠 Careful is slower and more accurate.</td></tr><tr><td>⚡〰️🌊📈</td><td>Speed tags: how fast a condition arrives (sudden, comes and goes, fluctuates, gradual). Filter by speed under 🗂 Browse on the home screen.</td></tr><tr><td>🎬🟰🏷️</td><td>Clinchers that hinge on an exam name read as: 🎬 what you see 🟰 🏷️ the exam name (with a 🔗 memory hook) → 🎯 the diagnosis. The sniper hides the 🎯 part until you answer.</td></tr><tr><td>🔺</td><td>Jargon decoder: exam names that don't describe what they are (Δ wave, Wenckebach, Kussmaul, Rinne…). Chips on each condition open them. In the sniper: ① picture → name, ② name → picture, ③ what do you do, or 🔺 all three. <span class="kbd">Space</span> reveal, <span class="kbd">1</span>/<span class="kbd">2</span> mark, <span class="kbd">Enter</span> next.</td></tr><tr><td>🗂 / 🆕</td><td>Systems &amp; presentations (top of the chapter list) filters by system or jumps to any ILO week or framework. 🆕 marks guideline updates next to older rules.</td></tr><tr><td>🩺 / 🧬</td><td>In 🧠 Think: an Clinical case (open one step at a time, then one SBA) and a short Pathophysiology "why it happens" card. Every case sits under its ILO; all 29 complaints are in the 🩺 Cases library tab.</td></tr>
     </table>
     <h4 style="margin:16px 0 8px">Reading comfort</h4>
     <div class="toolbar">
@@ -1383,7 +1383,7 @@ html .seg{max-width:100%;min-width:0;overflow-x:auto;scrollbar-width:none}html .
       <button class="btn" id="bioBtn">Bold word starts: off</button>
     </div>
     <div class="toolbar" style="margin-top:14px"><button class="btn sm" data-devopen>📲 Sync and move progress between devices</button></div><p class="hint" id="syncNote">Progress is saved in this browser.</p>
-    <p class="hint">Filtered to the conditions on your 16 ILO documents. Every question uses the exact wording of the 2026 Quack Quack Med notes. Diagrams and tables are best checked with the original page buttons.</p>
+    <p class="hint">Filtered to the conditions on your 16 ILO documents. Every question uses the exact wording of the open-source UKMLA curriculum notes. Diagrams and tables are best checked with the original page buttons.</p>
   </div>
 </div>
 <script>
@@ -1851,6 +1851,22 @@ html .seg{max-width:100%;min-width:0;overflow-x:auto;scrollbar-width:none}html .
     }
   });
 })();
+</script>
+<script>
+// Open-Source BYO-Curriculum Loader: loads local JSON question/note banks into localStorage
+window.medengineLoadLocalBank = function (file) {
+  var reader = new FileReader();
+  reader.onload = function (e) {
+    try {
+      var data = JSON.parse(e.target.result);
+      localStorage.setItem('medengine-custom-bank', JSON.stringify(data));
+      location.reload();
+    } catch (err) {
+      alert('Invalid JSON curriculum file.');
+    }
+  };
+  reader.readAsText(file);
+};
 </script>
 <script>
 /* medengine-OSCE v1.3 pictures: step-through diagrams that play like a GIF (tap ▶) or step with ◀ ▶.
@@ -4283,7 +4299,7 @@ html .seg{max-width:100%;min-width:0;overflow-x:auto;scrollbar-width:none}html .
 })();
 
 /* ---------- v2.1: 🧲 Triggers, shared by medengine-OSCE and medengine-STUDY ----------
-   The Mehlman pattern: one line = the scene + the word that flips it → the answer. Lines that share a scene stack, so the
+   The High-Yield pattern: one line = the scene + the word that flips it → the answer. Lines that share a scene stack, so the
    eye sees what stays the same and what changes. One long scroll (⌘F finds anything), a picture on every line, 🔒 Lock
    blurs the answers (still findable), tap or N reveals, L locks. TG.page(T, U, opts) returns the HTML; TG.mount(root)
    wires it. T = D.trg (c, bug, sc, dr, ix, mx); U = {weeks: [[id, name]], units: [{i, name, w, o, h: [[type, clue, ans]]}]}. */
@@ -4436,7 +4452,7 @@ html .seg{max-width:100%;min-width:0;overflow-x:auto;scrollbar-width:none}html .
       + '<div class="tg-bar"><input id="trq" type="search" placeholder="Filter every trigger: e.g. birds, lithium, CT, child" autocomplete="off" aria-label="Filter triggers" value="' + esc(TG.preset || '') + '">'
       + '<div class="tg-parts">' + [['all', '', 'All']].concat(PARTS).map(([k, e, l]) => '<button class="tg-p' + (part === k ? ' on' : '') + '" data-tgpart="' + k + '">' + (e ? e + ' ' : '') + l + '</button>').join('') + '</div>'
       + '<div class="tg-row2"><select id="tgJump" aria-label="Jump to a section"></select><button class="tg-p' + (ST.lock ? ' on' : '') + '" data-tglock>🔒 Lock</button><span class="tg-cnt" id="tgCnt">' + n.toLocaleString('en-GB') + ' lines</span></div></div>'
-      + cache + '<p class="tg-foot hint">Condition clues marked HY and FA are adapted from Mehlman\'s <i>HY Internal Medicine</i> and <i>First Aid Step 1</i> and rewritten for UK practice; everything else is written for your ILOs from NICE, BTS, BNF and MHRA guidance.</p></div>';
+      + cache + '<p class="tg-foot hint">Condition clues marked HY and FA are adapted from High-Yield\'s <i>HY Internal Medicine</i> and <i>First Aid Step 1</i> and rewritten for UK practice; everything else is written for your ILOs from NICE, BTS, BNF and MHRA guidance.</p></div>';
   };
   function build(T, U, opts){
     const ua = opts.unitAttr || (i => 'data-u="' + i + '"');
@@ -4919,7 +4935,7 @@ function whyHtml(i, open){
   const w = WHY[i]; if (!w) return '';
   return '<details class="whyc"' + (open ? ' open' : '') + '><summary>💡 ' + esc(w.q) + '</summary><div class="wa">' + w.a.map(l => '<div class="wl' + (/^[∴💭]/.test(l) ? ' wk' : '') + '">' + fmtPlain(l) + '</div>').join('') + '</div></details>';
 }
-/* ---------- Mehlman layer: ↕ arrow drills + 🔎 word hunt ---------- */
+/* ---------- High-Yield layer: ↕ arrow drills + 🔎 word hunt ---------- */
 const HUNT = D.hunt || [], AR = D.ar || [];
 S.ar = S.ar || {};
 const huntUnit = []; UNITS.forEach(u => (u.hunt || []).forEach(i => { if (huntUnit[i] == null) huntUnit[i] = u.i; }));
@@ -4971,7 +4987,7 @@ const HWTAG = {trap: '⚠️ Trap', uk: '🇬🇧 US vs UK', hk: '🪝 Hook'};
 function huntHtml(ids){
   return ids.map(i => { const x = HUNT[i]; if (!x) return '';
     const ty = hwType(x), tag = HWTAG[ty] ? '<span class="hw-t ' + ty + '">' + HWTAG[ty] + '</span>' : '';
-    return '<button class="hw ' + ty + '" data-hw data-hwi="' + i + '"><span class="hw-s" title="' + (x[3] === 'F' ? 'First Aid, UK-adapted' : 'Mehlman HY') + '">' + (x[3] === 'F' ? 'FA' : 'HY') + '</span><span class="hw-c">' + tag + fmtRich(x[1]) + '</span><span class="hw-a">' + (ty === 'q' || ty === 'trap' ? '→ ' : '') + fmtRich(x[2]) + '</span></button>';
+    return '<button class="hw ' + ty + '" data-hw data-hwi="' + i + '"><span class="hw-s" title="' + (x[3] === 'F' ? 'First Aid, UK-adapted' : 'High-Yield HY') + '">' + (x[3] === 'F' ? 'FA' : 'HY') + '</span><span class="hw-c">' + tag + fmtRich(x[1]) + '</span><span class="hw-a">' + (ty === 'q' || ty === 'trap' ? '→ ' : '') + fmtRich(x[2]) + '</span></button>';
   }).join('');
 }
 function hwBar(ids){
@@ -4989,7 +5005,7 @@ function applyHunt(box){
   $$('.hwu', box).forEach(x => x.hidden = !$$('.hw', x).some(y => !y.hidden));
   $$('details.huntwk', box).forEach(x => { const any = $$('.hw', x).some(y => !y.hidden); x.hidden = !any; if (q && any) x.open = true; });
 }
-/* ---------- Oxford Cases + Pathoma roots (collapsed dropdowns) ---------- */
+/* ---------- Oxford Cases + Pathophysiology roots (collapsed dropdowns) ---------- */
 const CASES = D.cases || [], ROOTS = D.path || [];
 S.oc = S.oc || {};
 const OCCH = ['Headache','Confusion','Blackout','Neck lump','Haematemesis','Dysphagia','Cough','Haemoptysis','Chest pain','Shortness of breath','Breast lump','Epigastric pain','Nausea and vomiting','Jaundice','Right upper quadrant pain','Right iliac fossa pain','Left iliac fossa pain','Flank pain','Constipation','Diarrhoea','Rectal bleeding','Poor urinary output','Polyuria','Groin lump','Scrotal mass','Limb weakness','Acute joint pain','Swollen calf','Leg ulcer'];
@@ -5030,19 +5046,19 @@ function viewThink(u){
   let h = '';
   const fws = (u.fw || []).map(id => fwById[id]).filter(Boolean);
   const whys = u.why || [], ars = u.ar || [], hunts = u.hunt || [], cs = u.cs || [], pas = u.pa || [];
-  if (cs.length) h += '<div class="panel ocp"><div class="toolbar"><b class="grow">🩺 Oxford case' + (cs.length > 1 ? 's' : '') + ' · ' + cs.length + '</b><button class="btn ghost sm" data-fwtab="cases">All cases</button></div><p class="hint" style="margin:0">Read the patient, answer each step out loud, then tap it open. One SBA at the bottom.</p>' + cs.map(i => caseHtml(i)).join('') + '</div>';
-  if (pas.length) h += '<div class="panel pap"><div class="toolbar"><b class="grow">🧬 Why it happens · Pathoma</b><button class="btn ghost sm" data-go="why">All ' + ROOTS.length + ' cards</button></div>' + pas.map(i => rootHtml(i)).join('') + '</div>';
+  if (cs.length) h += '<div class="panel ocp"><div class="toolbar"><b class="grow">🩺 Clinical case' + (cs.length > 1 ? 's' : '') + ' · ' + cs.length + '</b><button class="btn ghost sm" data-fwtab="cases">All cases</button></div><p class="hint" style="margin:0">Read the patient, answer each step out loud, then tap it open. One SBA at the bottom.</p>' + cs.map(i => caseHtml(i)).join('') + '</div>';
+  if (pas.length) h += '<div class="panel pap"><div class="toolbar"><b class="grow">🧬 Why it happens · Pathophysiology</b><button class="btn ghost sm" data-go="why">All ' + ROOTS.length + ' cards</button></div>' + pas.map(i => rootHtml(i)).join('') + '</div>';
   h += actPanelHtml(u);
   if (!fws.length && !whys.length && !ars.length && !hunts.length) return h ? h + srcLine(cs, pas) : '<div class="panel empty">No reasoning cards for this one yet. Browse the <button class="ulink" data-go="fw">🧠 Frameworks library</button>.</div>';
   if (whys.length) h += '<div class="panel"><div class="toolbar"><b class="grow">💡 Why? ' + whys.length + ' question' + (whys.length > 1 ? 's' : '') + '</b><button class="btn ghost sm" data-whyall>Open all</button></div><p class="hint" style="margin:0">Try to answer each one out loud before you tap it.</p>' + whys.map(i => whyHtml(i, false)).join('') + '</div>';
   if (ars.length) h += '<div class="panel"><div class="toolbar"><b class="grow">↕ Predict the arrows · ' + ars.length + '</b><button class="btn ghost sm" data-fwtab="arrows">All drills</button></div><p class="hint" style="margin:0">Tap ↑ ↓ or ↔ for each value before you look. Think inflow and outflow: what is being added, what is being lost, what is compensating?</p>' + ars.map(arHtml).join('') + '</div>';
   if (hunts.length) { const lim = hunts.length > 14; h += '<div class="panel"><div class="toolbar"><b class="grow">🔎 Word hunt & 🪝 hooks · ' + hunts.length + '</b><button class="btn ghost sm" data-huntall>Reveal all</button><button class="btn ghost sm" data-trjump="' + u.i + '">🧲 All triggers</button></div>' + trStar(u) + '<p class="hint" style="margin:0">The phrase a stem hides the answer behind. Say what it points to, then tap. ⚠️ trap · 🇬🇧 US book vs UK (go UK) · 🪝 mnemonic.</p>' + hwBar(hunts) + '<div class="hws' + (lim ? ' lim' : '') + '">' + huntStacks(hunts, u.i) + '</div>' + (lim ? '<button class="btn ghost sm hwmore" data-hwmore>Show all ' + hunts.length + '</button>' : '') + '</div>'; }
   fws.forEach(f => h += fwHtml(f));
-  if (ars.length || hunts.length) h += '<p class="hint fw-src">Arrows and word hunt adapted from Mehlman’s <i>HY Arrows</i> and <i>HY Internal Medicine</i> (HY) and <i>First Aid for the USMLE Step 1 2026</i> (FA), filtered to your ILOs and rewritten for UK practice (NICE, BTS, BASHH, MHRA).</p>';
+  if (ars.length || hunts.length) h += '<p class="hint fw-src">Arrows and word hunt adapted from High-Yield’s <i>HY Arrows</i> and <i>HY Internal Medicine</i> (HY) and <i>First Aid for the USMLE Step 1 2026</i> (FA), filtered to your ILOs and rewritten for UK practice (NICE, BTS, BASHH, MHRA).</p>';
   return h + srcLine(cs, pas);
 }
 function srcLine(cs, pas){
-  return (cs.length || pas.length) ? '<p class="hint fw-src">' + (cs.length ? 'Cases rewritten from <i>Oxford Cases in Medicine and Surgery</i> (3rd ed, 2025), cut to your ILOs with UK guidance. ' : '') + (pas.length ? 'Roots after <i>Pathoma: Fundamentals of Pathology</i>.' : '') + '</p>' : '';
+  return (cs.length || pas.length) ? '<p class="hint fw-src">' + (cs.length ? 'Cases rewritten from <i>Oxford Cases in Medicine and Surgery</i> (3rd ed, 2025), cut to your ILOs with UK guidance. ' : '') + (pas.length ? 'Roots after <i>Pathophysiology: Fundamentals of Pathology</i>.' : '') + '</p>' : '';
 }
 function revHtml(bid, q, st){
   if (st.ok) return '<span class="rev ok" data-b="' + bid + '">' + fmtPlain(q.ans) + '</span>';
@@ -5647,7 +5663,7 @@ function viewFw(m){
   const tab = route.id === 'arrows' ? 'arrows' : route.id === 'hunt' ? 'hunt' : route.id === 'cases' ? 'cases' : FW.length ? 'trees' : 'arrows';
   if (tab === 'cases') {
     const done = CASES.filter(c => S.oc[c.id] === 1).length;
-    let h = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code" style="--h:160">🩺 Oxford cases</span><span>' + done + ' / ' + CASES.length + ' SBAs right</span></div><h1>Cases by presenting complaint</h1><p class="hint" style="margin:0">Pick a complaint, open a patient, answer each step before you tap. Every case ends with one SBA and links back to the ILO it belongs to. 🧬 roots at the bottom explain the pathology underneath (Pathoma).</p>' + fwTabs(tab) + '</div>';
+    let h = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code" style="--h:160">🩺 Clinical case walkthroughs</span><span>' + done + ' / ' + CASES.length + ' SBAs right</span></div><h1>Cases by presenting complaint</h1><p class="hint" style="margin:0">Pick a complaint, open a patient, answer each step before you tap. Every case ends with one SBA and links back to the ILO it belongs to. 🧬 roots at the bottom explain the pathology underneath (Pathophysiology).</p>' + fwTabs(tab) + '</div>';
     h += '<div class="toolbar"><input class="search" id="ocq" placeholder="Filter: GCA, DKA, Wells, Murphy…" style="max-width:340px;padding-left:14px" autocomplete="off"></div><div class="fwlist ocs">';
     OCCH.forEach(ch => {
       const ids = CASES.map((c, i) => i).filter(i => CASES[i].ch === ch);
@@ -5661,12 +5677,12 @@ function viewFw(m){
   }
   if (tab === 'arrows') {
     const nailed = AR.filter(a => S.ar[a.id] === 1).length;
-    let h = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code" style="--h:30">↕ Arrow drills</span><span>' + nailed + ' / ' + AR.length + ' nailed</span></div><h1>Predict the arrows</h1><p class="hint" style="margin:0">One scenario, a few values, three buttons each. Reason from mechanism (what is gained, lost, blocked or compensating) rather than memorising the pattern. After Mehlman’s <i>HY Arrows</i> and <i>First Aid 2026</i>, cut to your ILOs and rewritten for UK units and drugs.</p>' + fwTabs(tab) + '</div>';
+    let h = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code" style="--h:30">↕ Arrow drills</span><span>' + nailed + ' / ' + AR.length + ' nailed</span></div><h1>Predict the arrows</h1><p class="hint" style="margin:0">One scenario, a few values, three buttons each. Reason from mechanism (what is gained, lost, blocked or compensating) rather than memorising the pattern. After High-Yield’s <i>HY Arrows</i> and <i>First Aid 2026</i>, cut to your ILOs and rewritten for UK units and drugs.</p>' + fwTabs(tab) + '</div>';
     h += '<div class="toolbar chips" id="arChips"><button class="chip" data-arf="">All</button>' + ARF.map(f => '<button class="chip" data-arf="' + esc(f) + '">' + esc(f) + '</button>').join('') + '<span class="grow"></span><button class="btn sm" data-arrand>🎲 Random 5</button></div><div id="arList"></div></div>';
     m.innerHTML = h; drawArList(); return;
   }
   if (tab === 'hunt') {
-    let h = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code" style="--h:200">🔎 Word hunt</span><span>' + HUNT.length + ' stem clues</span></div><h1>Hunt the words</h1><p class="hint" style="margin:0">Exam stems disguise the answer behind a phrase. Read the clue, say what it points to, tap to check. ⚠️ cards are traps; 🇬🇧 cards show where the US books and NICE disagree, so you answer the UK way; 🪝 cards are mnemonics. After Mehlman’s <i>HY Internal Medicine</i> (HY) and <i>First Aid Step 1 2026</i> (FA).</p>' + fwTabs(tab) + '</div>';
+    let h = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code" style="--h:200">🔎 Word hunt</span><span>' + HUNT.length + ' stem clues</span></div><h1>Hunt the words</h1><p class="hint" style="margin:0">Exam stems disguise the answer behind a phrase. Read the clue, say what it points to, tap to check. ⚠️ cards are traps; 🇬🇧 cards show where the US books and NICE disagree, so you answer the UK way; 🪝 cards are mnemonics. After High-Yield’s <i>HY Internal Medicine</i> (HY) and <i>First Aid Step 1 2026</i> (FA).</p>' + fwTabs(tab) + '</div>';
     h += '<div class="toolbar"><input class="search" id="huntq" placeholder="Filter: troponin, sodium, child, NICE…" style="max-width:340px;padding-left:14px" autocomplete="off"><span class="grow"></span><button class="btn ghost sm" data-huntall>Reveal all</button></div>' + hwBar(HUNT.map((x, i) => i)).replace('seg hwf', 'seg hwf hwf-lib') + '<div class="fwlist hunts">';
     WEEKS.forEach(w => {
       const us = unitsOf(w.id).filter(u => (u.hunt || []).length && huntUnit[u.hunt[0]] === u.i);
@@ -5732,7 +5748,7 @@ function doSearch(q){
   if (km.length) { h += '<h6>🔑 Clinchers</h6>'; km.forEach(([k, i]) => { const u = UNITS[keyUnit[i]]; if (u) h += '<button class="sr" data-sr="k" data-u2="' + u.i + '"><span class="where">' + KICON[k[0]] + ' ' + esc(u.name) + '</span>' + hl(k[1].replace(/\*\*/g, ''), terms) + '</button>'; }); }
   const cm = CASES.map((c, i) => [c, i]).filter(([c]) => has((c.t + ' ' + c.ch + ' ' + c.s).replace(/\*\*/g, '').toLowerCase())).slice(0, 5);
   const rm = ROOTS.map((r, i) => [r, i]).filter(([r]) => has((r.t + ' ' + r.l.join(' ')).replace(/\*\*/g, '').toLowerCase())).slice(0, 4);
-  if (cm.length || rm.length) { h += '<h6>Oxford cases & Pathoma</h6>'; cm.forEach(([c, i]) => { const u = UNITS[caseUnit[i]]; if (u) h += '<button class="sr" data-sr="c" data-cid="' + c.id + '" data-u2="' + u.i + '"><span class="where">🩺 ' + esc(c.ch) + '</span>' + hl(c.t, terms) + '</button>'; }); rm.forEach(([r, i]) => { const u = UNITS[rootUnit[i]]; if (u) h += '<button class="sr" data-sr="p" data-cid="' + r.id + '" data-u2="' + u.i + '"><span class="where">🧬 ' + esc(u.name) + '</span>' + hl(r.t, terms) + '</button>'; }); }
+  if (cm.length || rm.length) { h += '<h6>Clinical case walkthroughs & Pathophysiology</h6>'; cm.forEach(([c, i]) => { const u = UNITS[caseUnit[i]]; if (u) h += '<button class="sr" data-sr="c" data-cid="' + c.id + '" data-u2="' + u.i + '"><span class="where">🩺 ' + esc(c.ch) + '</span>' + hl(c.t, terms) + '</button>'; }); rm.forEach(([r, i]) => { const u = UNITS[rootUnit[i]]; if (u) h += '<button class="sr" data-sr="p" data-cid="' + r.id + '" data-u2="' + u.i + '"><span class="where">🧬 ' + esc(u.name) + '</span>' + hl(r.t, terms) + '</button>'; }); }
   if (fwm.length || wm.length) { h += '<h6>Reasoning</h6>'; fwm.forEach(f => h += '<button class="sr" data-sr="f" data-fid="' + f.id + '"><span class="where">🧠 Framework</span>' + hl(f.title, terms) + '</button>'); wm.forEach(([w, i]) => { const u = UNITS[w.u]; if (u) h += '<button class="sr" data-sr="w" data-u2="' + u.i + '"><span class="where">💡 ' + esc(u.name) + '</span>' + hl(w.q, terms) + '</button>'; }); }
   if (gl.length) { h += '<h6>Abbreviations</h6>'; gl.forEach(g => h += '<button class="sr" data-sr="g"><span class="where">' + esc(g[0]) + '</span>' + esc(g[1]) + '</button>'); }
   if (ln.length) { h += '<h6>In the notes · ' + (ln.length >= 60 ? '60+' : ln.length) + ' lines</h6>'; ln.slice(0, 40).forEach(x => h += '<button class="sr" data-sr="l" data-u2="' + x.u.i + '" data-line="' + x.p.n + '.' + x.ti + '.' + x.bi + '.' + x.li + '"><span class="where">' + esc(x.u.name) + ' · ' + esc(x.p.topics[x.ti].h || x.p.code) + '</span>' + hl(x.t.length > 160 ? x.t.slice(0, 160) + '…' : x.t, terms) + '</button>'); }
@@ -5894,7 +5910,7 @@ function viewVault(m){
     const keep = list.filter(s => !vaultSys || (UNITS[s.u] ? usys(UNITS[s.u]) === vaultSys : vaultSys === '-'));
     let h = '<div class="toolbar">' + (list.length ? '<button class="btn primary" data-vrev>🧠 Review ' + keep.length + '</button>' : '') + '<select class="jsel" data-vsys aria-label="Filter by system" style="width:auto"><option value="">All systems</option>' + MEV.sysOptions(vaultSys) + '</select><span class="grow"></span><span class="hint">' + list.length + ' saved</span></div>';
     h += '<div class="shotzone" contenteditable="true" spellcheck="false" data-shotzone="-1" role="textbox" aria-label="Paste a screenshot here" data-ph="Paste here to save an unsorted image (or open the condition first so it is filed under it)."></div><div class="toolbar"><input class="shotnote" type="text" data-shotnote="-1" placeholder="What tricked me? (optional)"><label class="btn"><input type="file" accept="image/*" data-shotfile="-1" hidden>📷 Choose image</label></div>';
-    if (!list.length) h += '<div class="empty">Nothing saved yet. Miss an image question on Passmedicine? Screenshot it, open the matching condition here and paste.</div>';
+    if (!list.length) h += '<div class="empty">Nothing saved yet. Miss an image question on SBA Bank? Screenshot it, open the matching condition here and paste.</div>';
     const groups = {}; keep.forEach(s => (groups[s.u] = groups[s.u] || []).push(s));
     Object.keys(groups).map(Number).sort((a, b) => a - b).forEach(ui => {
       const u = UNITS[ui];
@@ -6331,7 +6347,7 @@ async function rmxImgGet(id){
 async function rmxImgDel(id){ delete rmxImgMem[id]; const db = await shotIdb(); if (!db) return; try { db.transaction('shots', 'readwrite').objectStore('shots').delete('ri-' + id); } catch (e) {} }
 function rmxBlob(d){ const m = /^data:([^;,]+)(;base64)?,(.*)$/.exec(d || ''); if (!m) return null; const bin = m[2] ? atob(m[3]) : decodeURIComponent(m[3]), u = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); return new Blob([u], {type: m[1]}); }
 
-/* ----- paste → question: strip the Passmedicine page around it ----- */
+/* ----- paste → question: strip the SBA Bank page around it ----- */
 const RMX_JUNK = /^(passmedicine|medical student finals.*|home|questions|question bank|previous sessions|mock exams|review questions|performance|comment threads|textbooks?|high-yield textbook|extended textbook|knowledge tutor|review facts|custom revision|revision sets|concepts|all concepts|top 100 concepts|ukmla content map.*|reference ranges|end and review|deep dive|next question|previous question|next|previous|submit( answer)?|skip|flag( question)?|rate this question.*|report( an)? (error|issue)|report broken (link|media)|suggest (better categorisation|link)|key concept image|important for me.*|less important|very important|feedback|show (explanation|answer)|hide|menu|log ?out|sign ?out|my account|settings|help|contact us|privacy.*|terms.*|cookie.*|©.*|copyright.*|all contents of this site.*|back to top|score:?\s*\d+(\.\d+)?%?|\d+\s*\/\s*\d+|\d+(-\d+)?( \d+ ?\/ ?\d+)?|time( remaining)?:?.*|\d{1,3}(\.\d)?%|average score.*|\d+ (people|users) .*)$/i;
 const RMX_END = /^(comments?|discussion|add a comment|post( a)? comment|\d+ comments?|show comments|view comments)$/i;
 const RMX_QMARK = /^question [\d,]+ of [\d,]+$/i;
@@ -6499,7 +6515,7 @@ function rmxQBlock(q, hasImg){
     + (q.expl ? '\n\nEXPLANATION FROM THE QUESTION BANK (treat as correct):\n' + q.expl.slice(0, 1500) : '')
     + rmxRootNote(q);
 }
-const rmxRowSpec = q => '"rows":[exactly ' + q.opts.length + ' objects, one per option in the order given: {"if":"at most 9 words: the ONE clue in this same patient that would make this option the answer (for option ' + (q.correct + 1) + ', the clue already in the question that makes it right)","hook":"at most 6 words: a picture or feeling that makes it stick","how":"at most 16 words, Pathoma style: cause → what physically happens: the finding or reason this option fits; wrap the 2 or 3 key words in **double asterisks**"}]';
+const rmxRowSpec = q => '"rows":[exactly ' + q.opts.length + ' objects, one per option in the order given: {"if":"at most 9 words: the ONE clue in this same patient that would make this option the answer (for option ' + (q.correct + 1) + ', the clue already in the question that makes it right)","hook":"at most 6 words: a picture or feeling that makes it stick","how":"at most 16 words, Pathophysiology style: cause → what physically happens: the finding or reason this option fits; wrap the 2 or 3 key words in **double asterisks**"}]';
 const RMX_RULES = '\nRules: same patient, same question, same options. Each "if" changes ONE clue only, and keep the five on the same theme where you can (size, site, timing, one sign, one result) so they read like a lineup. No pregnancy, allergy or kidney-function twists unless the question is about them. If nothing in this patient could make an option right, set its "if" to "" and make its "hook" the reason it never wins. Plain words, no brackets.';
 function rmxPrompt(q){
   return rmxQBlock(q, q.hasImg)
@@ -6568,7 +6584,7 @@ function rmxLocal(q){
 let rmx = {step: 'home', q: null, card: null, i: 0, pick: null, busy: false, ctl: null, err: '', missOnly: false, sys: '', queue: null, scheduled: false, pendingImg: null};
 const RMX_BEAT = {if: ['🔄', 'Same patient, one clue changed', 'If instead'], flip: ['🔄', 'Change one clue', 'If instead'], twist: ['🧍', 'Change the patient', 'Now'], time: ['⏱', 'Change the timeline', 'Now'], ck: ['🔑', 'Whose clincher is this?', 'Clincher']};
 function viewRemix(m){
-  m.innerHTML = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code">🔄 Remix</span><span class="grow"></span><span class="mono" id="rmxN"></span></div><h1>Remix a question you got wrong</h1><p class="hint" style="margin:0">Answer it on Passmedicine first, then copy the page (⌘A then ⌘C), come here and press ⌘V. You get the case in one line, then the <b>same patient with one clue changed</b>: watch which option wins. Answer with <span class="kbd">1</span>–<span class="kbd">5</span>, <span class="kbd">Enter</span> for next, <span class="kbd">Esc</span> to paste another.</p></div><div id="rmx" class="panel"></div><div id="rmxVault"></div></div>';
+  m.innerHTML = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code">🔄 Remix</span><span class="grow"></span><span class="mono" id="rmxN"></span></div><h1>Remix a question you got wrong</h1><p class="hint" style="margin:0">Answer it on SBA Bank first, then copy the page (⌘A then ⌘C), come here and press ⌘V. You get the case in one line, then the <b>same patient with one clue changed</b>: watch which option wins. Answer with <span class="kbd">1</span>–<span class="kbd">5</span>, <span class="kbd">Enter</span> for next, <span class="kbd">Esc</span> to paste another.</p></div><div id="rmx" class="panel"></div><div id="rmxVault"></div></div>';
   drawRemix(); drawRmxVault();
 }
 function rmxStatusHtml(){
@@ -6588,7 +6604,7 @@ function drawRemix(){
   } else if (rmx.step === 'check') {
     const q = rmx.q;
     h += '<div class="snp-lab">Check it</div><div class="rmx-stem">' + esc(q.stem) + '</div>';
-    if (q.early) h += '<div class="kl kl-out"><span class="ki">⏳</span><span>Looks like this one hasn\'t been answered yet. Submit it on Passmedicine first, then copy the page: the explanation is what makes the remix accurate.</span></div>';
+    if (q.early) h += '<div class="kl kl-out"><span class="ki">⏳</span><span>Looks like this one hasn\'t been answered yet. Submit it on SBA Bank first, then copy the page: the explanation is what makes the remix accurate.</span></div>';
     if (q.opts.length < 4) h += '<div class="kl kl-out"><span class="ki">⚠️</span><span>I couldn\'t find the 5 options. Copy the whole question page, or paste the stem with one option per line.</span></div>';
     else h += '<p class="hint" style="margin:0">Tap <b>✅</b> on the right answer and <b>✋</b> on the one you picked.</p><div class="rmx-opts">' + q.opts.map((o, k) => '<div class="rmx-opt' + (k === q.correct ? ' ok' : '') + (k === q.picked ? ' me' : '') + '"><span class="k">' + (k + 1) + '</span><span class="t">' + esc(o) + '</span><button class="iconbtn" data-rmxc="' + k + '" aria-label="Right answer" aria-pressed="' + (k === q.correct) + '">✅</button><button class="iconbtn" data-rmxp="' + k + '" aria-label="My pick" aria-pressed="' + (k === q.picked) + '">✋</button></div>').join('') + '</div>';
     if (rmx.err) h += '<div class="kl kl-out"><span class="ki">⚠️</span><span>' + esc(rmx.err) + '</span></div>';
@@ -6624,7 +6640,7 @@ function rmxCaseHtml(C){
   if (us.length || C.img) h += '<div class="chips rmx-chips">' + (C.img ? '<button class="rmx-thumb sm" data-rmxzoom="c" data-rmximg="' + C.id + '" hidden></button>' : '') + us.map(ui => UNITS[ui] ? '<button class="chip" data-u="' + ui + '" data-mode="read">📖 ' + esc(UNITS[ui].name) + '</button>' : '').join('') + '</div>';
   return h + '</div>';
 }
-// the matching Pathoma card from your library (checked content), for the card's condition first
+// the matching Pathophysiology card from your library (checked content), for the card's condition first
 // the best card is the one that names the most of this question's options (ties: the card's own condition first)
 function rmxRootPick(q, unit){
   const us = [unit].concat(q.opts.map(o => rmxUnitFor(o))).filter(u => u != null && u >= 0);
@@ -6979,7 +6995,7 @@ function viewMisses(m){
   const d = msLoad(), all = d.items, fixed = all.filter(x => x.fixed).length, left = all.length - fixed, unrec = all.filter(x => !x.fixed && !x.rec).length;
   let h = '<div class="wrap"><div class="ph"><div class="crumbs"><span class="code">🔥 My misses</span><span class="grow"></span><span class="mono">' + (all.length ? left + ' left · ' + fixed + ' fixed' : '') + '</span></div><h1>My misses</h1><p class="hint" style="margin:0">Your old pick against the right answer, cued by the rule. Answer with <span class="kbd">1</span> or <span class="kbd">2</span>, <span class="kbd">Enter</span> for next. Right on two separate days and it is fixed.</p></div><div id="ms" class="panel">';
   if (!all.length) {
-    h += '<p style="margin:0 0 8px">No misses loaded yet. Import the <b>medengine misses file</b> made from your Passmedicine history: it saves here and syncs across your devices.</p><div class="toolbar"><label class="btn primary">📥 Import my misses file<input type="file" accept=".json,application/json" data-msfile hidden></label></div>';
+    h += '<p style="margin:0 0 8px">No misses loaded yet. Import the <b>medengine misses file</b> made from your SBA Bank history: it saves here and syncs across your devices.</p><div class="toolbar"><label class="btn primary">📥 Import my misses file<input type="file" accept=".json,application/json" data-msfile hidden></label></div>';
   } else {
     if (!msCur || msCur.fixed || (msPick == null && !msQueue(msMore).includes(msCur))) { msCur = msQueue(msMore)[0] || null; msPick = null; }
     h += '<div class="chips ms-stat"><span class="chip on">🔥 ' + unrec + ' never re-done</span><span class="chip">🔁 ' + (left - unrec) + ' to re-check</span><span class="chip">✅ ' + fixed + ' fixed</span></div>';
@@ -7709,7 +7725,7 @@ document.addEventListener('keydown', e => {
   if (q.value.trim().length >= 2) doSearch(q.value);
 }, true);
 
-/* ---------- v2.1: 🧲 Triggers: every condition, bug, drug, test and procedure as Mehlman-style lines (engine: trg.js) ---------- */
+/* ---------- v2.1: 🧲 Triggers: every condition, bug, drug, test and procedure as High-Yield-style lines (engine: trg.js) ---------- */
 /* word-hunt stacks: lines that share a scene sit together under its label (D.hst, from snap/hl_*.py) */
 const HST = D.hst || {};
 function stackOrder(ids, ui){
@@ -8043,7 +8059,7 @@ function hqIndex(list){
     return '<button class="sr" data-hqtgt="' + esc(k) + '"><span class="where">' + (it.t === 'm' ? '🎓' : it.t === 'o' ? '🏛️' : HAM(1)) + ' ' + arr.length + '</span><span class="grow">' + esc(it.t === 'm' ? 'Q' + it.n + ' · ' + ((UNITS[+it.k] || {}).name || '') : it.t === 'o' ? hqPaper(it) + ' Q' + it.n + ' · ' + (+it.k >= 0 ? (UNITS[+it.k] || {}).name || '' : 'beyond the ILOs') : hqTitle(it)) + '</span>' + (st.done ? hqPctBadge(st, true) : '') + '</button>';
   }).join('') + '</div>';
 }
-/* ----- a run: Passmedicine-style. Move back and forth, cross options out, leave and come back; it is saved with your progress ----- */
+/* ----- a run: SBA Bank-style. Move back and forth, cross options out, leave and come back; it is saved with your progress ----- */
 const HQ_BY = {}; function hqItem(id){ if (!HQ_BY._ok) { hqAll().forEach(it => HQ_BY[it.id] = it); HQ_BY._ok = 1; } return HQ_BY[id]; }
 /* every unfinished run is kept (newest first, up to HQ_KEEP) so starting a new one never wipes the last */
 const HQ_KEEP = 12;
@@ -8219,7 +8235,7 @@ function hqTriggers(it){
   return '<div class="hq-trg"><span class="hq-fl">🧲 Triggers</span>' + pick.map(x => '<div class="hq-tl">' + (x.star ? '⭐ ' : '') + fmtRich0(x.c) + ' <span class="tr-arr">→</span> <b class="hq-ta">' + fmtRich0(x.a) + '</b></div>').join('')
     + '<div class="hq-tgo">' + (ui != null && UNITS[ui] ? '<button class="btn ghost sm" data-trjump="' + ui + '">🧲 All triggers for ' + esc(UNITS[ui].name) + '</button>' : '<button class="btn ghost sm" data-trgo="' + esc(hqToks(ans)[0] || ans) + '">🧲 More triggers</button>') + '</div></div>';
 }
-function hqPathomaBox(it){
+function hqPathophysiologyBox(it){
   if (!ROOTS || !ROOTS.length) return '';
   const ui = hqUnitOf(it), uPas = (ui != null && UNITS[ui] && UNITS[ui].pa) ? UNITS[ui].pa : [];
   const ans = (it.o && it.o[it.a]) || '';
@@ -8239,7 +8255,7 @@ function hqPathomaBox(it){
   if (!scored.length) return '';
   const picks = [scored[0][1]];
   if (scored.length > 1 && scored[1][2] && scored[1][0] >= 12) picks.push(scored[1][1]);
-  return '<div class="hq-trg hq-path"><div class="toolbar" style="margin:0 0 6px"><span class="hq-fl" style="margin:0">🧬 Why it happens · Pathoma</span><span class="grow"></span><button class="btn ghost sm" data-go="why">All ' + ROOTS.length + ' Pathoma cards</button></div>'
+  return '<div class="hq-trg hq-path"><div class="toolbar" style="margin:0 0 6px"><span class="hq-fl" style="margin:0">🧬 Why it happens · Pathophysiology</span><span class="grow"></span><button class="btn ghost sm" data-go="why">All ' + ROOTS.length + ' Pathophysiology cards</button></div>'
     + picks.map(ri => rootHtml(ri)).join('') + '</div>';
 }
 function hqScorecardHtml(s, rsc){
@@ -8298,8 +8314,8 @@ function hqDraw(m){
     if (it.f && !it.tm) h += '<div class="hq-flip"><span class="hq-fl">🔄 Flip it</span>' + esc(it.f).replace('→', '<b class="hq-arr">→</b>') + '</div>';
     if (it.t === 'o' && it.iw) h += '<div class="hq-ilo hq-il' + it.il + '"><span class="hq-fl">' + (HQ_IL[it.il] || ['🎯'])[0] + ' ILO check</span>' + esc(it.iw) + (it.ic ? ' <span class="hint">Belongs to: ' + esc(it.ic) + '.</span>' : '') + '</div>';
     const ui = hqUnitOf(it);
-    const deep = hqTriggers(it) + hqPathomaBox(it) + hqPosterBox(it) + (typeof discBoxHtml === 'function' ? discBoxHtml('q:' + it.id, hqTitle(it), ui != null ? ui : hqGuessUnit(it), it) : '');
-    if (deep) h += '<details class="panel hq-deep"' + (S.set.hqDeepOpen ? ' open' : '') + '><summary><b>📚 Deep dive</b> <span class="hint">triggers, Pathoma, poster, comments</span></summary>' + deep + '</details>';
+    const deep = hqTriggers(it) + hqPathophysiologyBox(it) + hqPosterBox(it) + (typeof discBoxHtml === 'function' ? discBoxHtml('q:' + it.id, hqTitle(it), ui != null ? ui : hqGuessUnit(it), it) : '');
+    if (deep) h += '<details class="panel hq-deep"' + (S.set.hqDeepOpen ? ' open' : '') + '><summary><b>📚 Deep dive</b> <span class="hint">triggers, Pathophysiology, poster, comments</span></summary>' + deep + '</details>';
     if (ui != null && UNITS[ui]) h += '<div class="toolbar"><button class="btn ghost sm" data-u="' + ui + '" data-mode="read">📖 Notes for ' + esc(UNITS[ui].name) + '</button></div>';
   }
   h += '<div class="toolbar hq-nav">' + navBtns + '</div>';
@@ -10726,7 +10742,7 @@ function viewLeaderboard(m){
     + '</div>';
 }
 
-/* ----- 💬 Passmedicine-Style Shared Comments, Category Tags, Top Upvoted Sort & Request Help ----- */
+/* ----- 💬 SBA Bank-Style Shared Comments, Category Tags, Top Upvoted Sort & Request Help ----- */
 let _fetchedThreads = new Set();
 
 function mergeCloudCommentsIntoLocal(threadId, cloudRows){

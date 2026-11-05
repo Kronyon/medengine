@@ -116,8 +116,8 @@ new_like = """      S.upvotedIds = S.upvotedIds || {};
 t = one(t, old_like, new_like)
 
 # 13. no competitor branding in the interface
-t = one(t, '💬 Passmedicine Discussion', '💬 Discussion')
-t = t.replace('Passmedicine-style question scorecard.', 'question scorecard.')
+t = one(t, '💬 SBA Bank Discussion', '💬 Discussion')
+t = t.replace('SBA Bank-style question scorecard.', 'question scorecard.')
 
 F.write_text(t, encoding='utf-8')
 print('security patch applied:', F)

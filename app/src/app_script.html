@@ -1175,7 +1175,7 @@ function vMaster(m){
   m.innerHTML = '<section class="card"><div class="row"><button class="btn sm" data-v="posters">← All posters</button><span class="grow"></span><button class="btn sm" data-mp="' + pv.id + '">← ' + esc(pv.t) + '</button><button class="btn sm" data-mp="' + nx.id + '">' + esc(nx.t) + ' →</button></div></section>' + PO.split(x, {lock: PO.lockOn}) + ((x.u || []).length ? '<section class="card"><h2>Conditions on this poster</h2><div class="chips">' + iloChips(x.u) + '</div></section>' : '');
 }
 document.addEventListener('input', e => { if (e.target.id === 'poQ') { S.set.poq = e.target.value; clearTimeout(vPosters.t); vPosters.t = setTimeout(() => { save(); const w = $('#poWall'); if (w) w.innerHTML = posterWallHtml(e.target.value.toLowerCase().trim()); }, 180); } });
-/* ---------- v2.1: 🧲 Triggers, the Mehlman-style pattern list shared with medengine-STUDY (engine: trg.js) ---------- */
+/* ---------- v2.1: 🧲 Triggers, the High-Yield-style pattern list shared with medengine-STUDY (engine: trg.js) ---------- */
 function vTriggers(m){
   if (!window.TG || !D.trg || !D.trgu) { m.innerHTML = '<section class="card"><p class="hint">Triggers did not load.</p></section>'; return; }
   m.innerHTML = '<section class="card tg-card">' + TG.page(D.trg, D.trgu, {unitAttr: i => 'data-u="' + i + '"'}) + '</section>';

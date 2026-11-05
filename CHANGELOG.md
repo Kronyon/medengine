@@ -100,17 +100,17 @@
 🔍 **Audit of 3.6.0 (the Antigravity update): everything kept, the weak parts rewritten, new depth on top.** 3.5.0 and 3.6.0 were built outside this repo; 3.6.1 brings both in and repairs them.
 
 **STEP1 data** (`step1/pack_base.json` is the 3.6.0 data untouched; `step1/improve_pack.py` writes `pack.json` from it, so a future import is repaired the same way):
-- 1,649 questions kept. Every templated "twin" (the same stem with a new age) retired; 1,426 UWorld and 165 Mehlman 4-box explanations rebuilt from each question's own explanation: red flags that are really in the stem, the money line, the inflow → outflow chain and a why-not for each wrong option. Mehlman arrow questions now say exactly which arrow each wrong option gets wrong (660 lines).
+- 1,649 questions kept. Every templated "twin" (the same stem with a new age) retired; 1,426 UWorld and 165 High-Yield 4-box explanations rebuilt from each question's own explanation: red flags that are really in the stem, the money line, the inflow → outflow chain and a why-not for each wrong option. High-Yield arrow questions now say exactly which arrow each wrong option gets wrong (660 lines).
 - Your 58 hand-written renal SBAs had been given made-up UWorld ids in 3.6.0; they are recognised again (matched to `src/sba_*.txt`), keep every hand-written flip and are labelled 🎯 medengine originals.
 - 645 questions re-filed to the topic they actually test (a renal question was sitting under Cardiology), by matching the question's words against each topic.
 - OCR repair: 392 broken words, 298 garbled runs, 111 lead-ins that were cut off restored, 1,203 lines of website chrome ("Previous", "Next", "Correct answer", peer statistics) and 47 duplicated passages removed. The original explanation is kept in `eo`.
-- Your notes: 1,126 "Mehlman / NBME rule" and "Pathoma / First Aid pearl" lines had their blank on the wrong answer (aminocaproic acid → Psoriasis). Each line is now filed under the topic it describes; 60 keep a blank on the right answer, the rest read as plain facts. 48 bare outline headings and image file names dropped.
+- Your notes: 1,126 "High-Yield / NBME rule" and "Pathophysiology / First Aid pearl" lines had their blank on the wrong answer (aminocaproic acid → Psoriasis). Each line is now filed under the topic it describes; 60 keep a blank on the right answer, the rest read as plain facts. 48 bare outline headings and image file names dropped.
 - 60 UWorld images now shipped in `img/`; 52 US terms merged into the glossary; 14 posters moved to the right topic.
 
 **STUDY**: the 66 new Hammer SBAs (h1713 on) and their images kept. 308 stems had one of 11 stock sentences glued on; they come off. Every hand-written flip that 3.6.0 overwrote with generated padding is back; padding that taught something moved to "Why not". Header link to STEP1.
 
 **New in STEP1:**
-- 🏦 **Bank chips** on the block setup: UWorld, Mehlman, Mine, or any mix.
+- 🏦 **Bank chips** on the block setup: UWorld, High-Yield, Mine, or any mix.
 - 📊 **Per-system bars** on home from your last answers, with one tap to drill your weakest system.
 - ✨ **Sharpen** and 🔁 **Twin** in the review: your AI rewrites a weak 4-box or writes a real twin (new patient, same concept, different answer), saved on your device. 📋 Copy the question as text for Anki.
 - Engine: `EXT.tmExtra` hook in the review (`site/patches/v361_engine.py`); no change when no pack declares it.
@@ -119,7 +119,7 @@
 
 🎯 **medengine-STEP1: a USMLE Step 1 app on the STUDY engine** (`step1.html`, third card on the launcher, key 3).
 - **Its own saves.** Every storage key, both IndexedDB names, the save file format, the cloud backup table (`med_backups_step1`, run `step1/supabase_step1.sql` once) and the topic discussion threads (`s1u:`) are separate, and STEP1 never publishes a leaderboard profile. A browser test seeds STUDY and OSCE progress, uses STEP1 hard, and checks nothing of theirs changed.
-- **Breadth from day one:** all 16 First Aid chapters as 237 topics with 855 red-flag trigger lines in the one-line Mehlman format (scene, flip word, answer), every line a drop-down blank whose wrong options are the neighbouring answers, each labelled with its own scene. Browse by the 2026 USMLE content outline systems with their exam weights.
+- **Breadth from day one:** all 16 First Aid chapters as 237 topics with 855 red-flag trigger lines in the one-line High-Yield format (scene, flip word, answer), every line a drop-down blank whose wrong options are the neighbouring answers, each labelled with its own scene. Browse by the 2026 USMLE content outline systems with their exam weights.
 - **Deep pilot: renal, acid-base and electrolytes.** 22 topics of high-yield cloze notes (227 drop-down blanks, each with 3 written distractors), 58 NBME-style questions with US units and drug names (results tables, alphabetical options, British English explanations), 21 domino arrows with 26 change-the-film flips, 9 inflow to outflow mechanism chains.
 - **The 4-box explanation** on every question: 🎯 Red flags, 💰 Money line, 🌊 Inflow → outflow, and 🔀 Change the film for every wrong option, plus a why-not line for each.
 - **Domino arrows** now colour each value as 🔴 primary insult, 🟡 knock-on or 🟢 compensation once answered, and offer 🔀 flips that change one feature of the case (Conn → renal artery stenosis → Liddle).
@@ -129,7 +129,7 @@
 - **🫘 Nephron map:** tap a segment for its transporters, hormones, drugs and diseases; pick a diuretic to light up where it acts.
 - **🧪 US lab values with the UK bridge** (60 tests with SI equivalents and a converter); the Hammer reference ranges switch to US units in STEP1.
 - **🔺 Eponym decoder** (52) and **US abbreviations and drug names with the UK term** (57).
-- Content is written fresh in our own words; nothing is copied from First Aid, Mehlman, UWorld, Boards and Beyond or Bootcamp.
+- Content is written fresh in our own words; nothing is copied from First Aid, High-Yield, UWorld, Boards and Beyond or Bootcamp.
 - Engine: STUDY gains small pack hooks (`site/patches/v340_pack_hooks.py` and `v340_pack_hooks2.py`); with no pack declared it behaves exactly as before (checked view by view against 3.3.5).
 
 ## 3.3.5 (2026-11-04)
@@ -213,7 +213,7 @@ The three files in `site/` are now the source of truth (Antigravity and Claude b
 
 ## 2.7.2 (2026-10-29)
 
-🖍️ **STUDY: highlighter on every question, like Passmedicine.**
+🖍️ **STUDY: highlighter on every question, like SBA Bank.**
 - Drag across words, or tap a word, and it turns yellow. Tap more words next to it to build a phrase.
 - Tap a highlight to remove it, or use 🧽 to clear the whole question.
 - 🖍️ or <kbd>H</kbd> switches the pen on and off.
@@ -307,7 +307,7 @@ The three files in `site/` are now the source of truth (Antigravity and Claude b
 
 ## 2.4.0 (2026-10-28)
 
-🔨 **Hammer SBAs, Passmedicine-style, and 501 new mock-style questions.**
+🔨 **Hammer SBAs, SBA Bank-style, and 501 new mock-style questions.**
 - **Move back and forth:** a numbered palette (green right, red wrong) jumps to any question; ← Prev and Next →, or the arrow keys, move without losing answers. 🏁 End finishes early; ✕ Leave keeps your place.
 - **Save and come back:** every pick, cross-out and your place are saved with your progress. The Hammer hub shows ⏸ Unfinished run with ▶ Resume, after a reload too.
 - **Cross out options** before you answer: tap ✕, right-click the option or press Shift and the letter. Tap again to undo.
@@ -330,14 +330,14 @@ The three files in `site/` are now the source of truth (Antigravity and Claude b
 
 🧲 Triggers: every one of the 1,975 word-hunt clues gone through by hand, system by system.
 - **The flipping word is highlighted on every clue**: the phrase the exam hides the answer behind, in highlighter, in Triggers and on each condition's word-hunt panel.
-- **Stacks, Mehlman's left column:** clues that share a scene now sit together under one label (After an MI: the timeline; Reading the ECG; Which bug; Small cells; Big cells; Broken cells; The withdrawal clock; and 430 more), so the scene stays still and only the highlighted word changes. On a phone the label sits on top.
+- **Stacks, High-Yield's left column:** clues that share a scene now sit together under one label (After an MI: the timeline; Reading the ECG; Which bug; Small cells; Big cells; Broken cells; The withdrawal clock; and 430 more), so the scene stays still and only the highlighted word changes. On a phone the label sits on top.
 - **Answers brought up to date where they were wrong:** open-angle glaucoma now starts with selective laser trabeculoplasty (NICE NG81); suspected wet AMD goes to a macula service within 1 working day (NICE NG82).
 - Content in `study/snap/hl_*.py` (one file per ILO system), checked by `hlmark.py`: every clue covered once, every phrase found, no stack split in two.
 - Tests: `test_trg.py` now fails if any condition clue has no highlighted word.
 
 ## 2.1.0 (2026-10-28)
 
-🧲 **Triggers** in both apps: the Mehlman HY pattern for everything in the ILOs.
+🧲 **Triggers** in both apps: the High-Yield HY pattern for everything in the ILOs.
 - **One line = the scene + the word that flips it → the answer.** The flipping words are in highlighter; lines that share a scene stack together so only that word changes. 3,410 lines on one scroll, each with a small picture: the organ, the kind of clue (ECG, scan, bloods, child, pregnancy, travel, drug, fever), a bug's real Gram-stain look (purple positive, pink negative, rods, cocci, spirals, yeast, mould), a drug's route, or the kind of procedure.
 - **5 parts:** 🩺 **Conditions** (a ⭐ signature trigger for all 168 ILO conditions plus the 1,975 word-hunt clues), 🦠 **Bugs** (76 organisms filed under the scene the exam sets, with a picture key), 💊 **Drugs** (every ILO drug: the scene that calls for it, then the catches), 🔬 **Investigations** (scores such as Wells, CURB-65, CHA2DS2-VASc and GRACE; bloods; X-ray, CT, CT angiography, MRI, MRCP, ultrasound; OGD, colonoscopy, flexible sigmoidoscopy, cystoscopy, ERCP and other scopes; bedside tests) and 🛠️ **Management** (cardioversion, pacing, valve replacement and TAVI, needle decompression, chest drains, VATS, coiling, thrombectomy, hemiarthroplasty, DHS and nails, EVAR, TURP, TURBT, stomas and bowel operations, ENT and eye surgery, therapies and the Mental Health Act).
 - **Use it:** ⌘F or Ctrl+F filters it, press again for the browser's own find; a jump list for every section; 🔒 Lock or L blurs the answers, tap or N reveals; each condition's word hunt and ILO page link to its own triggers; search shows a Triggers result.
@@ -400,7 +400,7 @@ medengine-OSCE rebuilt around how FFP stations actually run: **one station, one 
 
 - ⚡ **First move vs cure**: 48 decision cards in the same arrow style as 🧬 Why it happens, for the acute and high-yield ILO conditions. 🔴 unstable vs 🟢 stable splits and 1️⃣ → 2️⃣ → 🎯 ladders: tachy and brady arrhythmias, ACS, heart failure, the NICE hypertension ladder, PE, DVT, acute asthma, COPD oxygen, pneumothorax, CURB-65, sepsis, upper GI bleed, perforation, UC flares, gallstones, coeliac, reflux, fissure, diverticulitis, hernias, bowel cancer surgery by site, obstruction, breast referral and hormone drugs, DKA vs HHS, hypoglycaemia, thyroid, adrenal crisis, hyperkalaemia, AKI, renal colic, UTI, the acute scrotum and urology 2-week waits, status epilepticus, SAH, meningitis, C. diff and food poisoning, TB, skin, eye and ENT emergencies, psychiatric drug emergencies, antidotes, anaemia, opioid maths. UK guidance only. Own section (search, system chips, 📖 Read all, a "read it like a playmaker" cue), plus a ⚡ strip on each condition's Think tab.
 - 🔄 Remix grounds next-step answers with the matching ⚡ card as well as the 🧬 card.
-- 🔥 **My misses**: import a misses file made from your Passmedicine history (kept on your device only, never in the app or the repo). Each miss is your old pick vs the right answer, cued by the learning point with the answer hidden; never re-done misses first; right on two separate days and it is fixed; keyboard 1/2 and Enter.
+- 🔥 **My misses**: import a misses file made from your SBA Bank history (kept on your device only, never in the app or the repo). Each miss is your old pick vs the right answer, cued by the learning point with the answer hidden; never re-done misses first; right on two separate days and it is fixed; keyboard 1/2 and Enter.
 - 🧬 New card: nerve injuries, where the bone breaks and which nerve stops (112 cards).
 - Tests: `study/test_study_v12.py`; all earlier suites pass.
 
@@ -414,7 +414,7 @@ medengine-OSCE rebuilt around how FFP stations actually run: **one station, one 
 ## 1.0.0 (2026-10-24)
 
 medengine v1.0. Same app, same screens, deeper "why". Saved progress carries over.
-- 🧬 **16 new mechanism cards** in the Pathoma library (78 in all), written in our own words, each in the "A vs B: X vs Y" frame with cause → what physically happens → the finding: the gallstone ladder, bowel obstruction (small vs large, ileus, volvulus), groin hernias, above vs below the dentate line, gut ischaemia, PID and ectopic, acute scrotum, thyrotoxicosis (overmaking vs leaking), thiamine and Wernicke's, the four shocks, hormone-driven hypertension, murmurs by valve and phase, nipple discharge and mastitis, familial hypercholesterolaemia, varicose veins/lymphoedema/Raynaud's, and perforation. They appear on each condition's 🧠 Think tab, in the Pathoma library and in Remix.
+- 🧬 **16 new mechanism cards** in the Pathophysiology library (78 in all), written in our own words, each in the "A vs B: X vs Y" frame with cause → what physically happens → the finding: the gallstone ladder, bowel obstruction (small vs large, ileus, volvulus), groin hernias, above vs below the dentate line, gut ischaemia, PID and ectopic, acute scrotum, thyrotoxicosis (overmaking vs leaking), thiamine and Wernicke's, the four shocks, hormone-driven hypertension, murmurs by valve and phase, nipple discharge and mastitis, familial hypercholesterolaemia, varicose veins/lymphoedema/Raynaud's, and perforation. They appear on each condition's 🧠 Think tab, in the Pathophysiology library and in Remix.
 - 🔄 **Remix "why" lines are grounded**: the AI now gets the best-matching checked card from your library (the one naming the most of the question's options) and is told to stay consistent with it; the same card closes the lineup.
 - Content audit: written with a USMLE course (Bootcamp) as a reference for which mechanisms and contrasts matter, cross-checked against standard UK teaching; no course text or images are included, and management stays UK.
 - medengine-OSCE: version label only (v1.0.0); the stations are unchanged.
@@ -424,9 +424,9 @@ medengine v1.0. Same app, same screens, deeper "why". Saved progress carries ove
 
 Remix rebuilt around one idea: **same patient, five endings**. Saved cards carry over (older AI cards switch to the new format after their next review).
 - Every round is the **same case with the same five options in the same places**; one clue changes and you watch which option wins. The option you picked comes first. No more pregnancy twists or whole new cases.
-- For each option, the AI gives one line on one shared axis: **option ← the clue that picks it 🔗 a picture hook**, plus a **🧬 Pathoma-style "why"** (cause → what physically happens: the finding), with the key words in bold.
-- The end of each card is the **🧬 Why it happens** lineup: an "A vs B: X vs Y" title, the five rows, and the matching Pathoma card from your library (closed until you tap it).
-- Offline: Passmedicine's own per-option lines are trimmed to the clue ("is for an obstructed, infected kidney" → *an obstructed, infected kidney*) and become the rounds and the lineup; your ILO clinchers are the fallback.
+- For each option, the AI gives one line on one shared axis: **option ← the clue that picks it 🔗 a picture hook**, plus a **🧬 Pathophysiology-style "why"** (cause → what physically happens: the finding), with the key words in bold.
+- The end of each card is the **🧬 Why it happens** lineup: an "A vs B: X vs Y" title, the five rows, and the matching Pathophysiology card from your library (closed until you tap it).
+- Offline: SBA Bank's own per-option lines are trimmed to the clue ("is for an obstructed, infected kidney" → *an obstructed, infected kidney*) and become the rounds and the lineup; your ILO clinchers are the fallback.
 - Only a whole option name is hidden in a clue, so clues stay readable.
 
 ## 0.9.1-beta (2026-10-24)
@@ -443,10 +443,10 @@ Remix made simple again: v0.8's calm card with v0.9's useful parts kept undernea
 Remix v0.9 (medengine-STUDY; OSCE unchanged). Saved progress and v0.8 remix cards carry over.
 - 🔁 **Fresh variations on every replay** (the AI is told which changes it has already used), on a spaced schedule: tomorrow → 3 days → a week → 3 weeks → 2 months, back to tomorrow after a miss. **▶ Due today** in the vault, on the paste screen and in Weak spots. The next card's variations are made while you answer the current one; "Use last time's" if the AI is slow.
 - 🎬 **Spot the change**: the case line shows the old words struck out and the new words underlined (0.4 s, then still; off with reduced motion), and the answer flips (old → new) once you answer.
-- 🧩 **All five, side by side** at the end of each card: one line per option ("it would be right if…"), from the AI or, offline, from Passmedicine's own per-option explanation.
-- 🔑 **The rule** from Passmedicine's key-concept box, and 🔍 **deciding words** in yellow (chips plus the original stem, highlighted).
+- 🧩 **All five, side by side** at the end of each card: one line per option ("it would be right if…"), from the AI or, offline, from SBA Bank's own per-option explanation.
+- 🔑 **The rule** from SBA Bank's key-concept box, and 🔍 **deciding words** in yellow (chips plus the original stem, highlighted).
 - 📷 **Image paste**: screenshot the ECG/X-ray/rash and ⌘V on the check screen (or before the text). Sent to the AI where it can take images (`sample: {images: true}` in the artifact; image blocks with your own key), stored on the device outside the Screenshot vault, tap to zoom.
-- 🎯 Exact ILO link from Passmedicine's **Condition** tag; Weak spots shows Remix misses by condition; the vault shows **misses by system** as filters.
+- 🎯 Exact ILO link from SBA Bank's **Condition** tag; Weak spots shows Remix misses by condition; the vault shows **misses by system** as filters.
 - 🚩 **Looks wrong** drops a variation for good; 🧠 **Careful** uses the stronger model (slower).
 - Reader: warns when a question was pasted before submitting, ignores cross-out × marks unless exactly one option has one, strips "Deep dive", score and question-list lines.
 - Tests: `study/test_study_v9.py` (pastes in Passmed layout written in our own words); v0.6–v0.8 suites still pass.
@@ -458,13 +458,13 @@ Remix v0.9 (medengine-STUDY; OSCE unchanged). Saved progress and v0.8 remix card
 ## 0.8.1-beta (2026-10-23)
 
 - Fix "Empty answer" with your own AI key (website/download): newer models think by default and thinking counts toward `max_tokens`, so the 600-token quick budget could end with no text. Quick calls now switch thinking off (with a one-time fallback for custom models), Remix asks for 2,000 tokens, and an empty reply explains itself. Also fixes the OSCE AI patient on the website.
-- Remix reader strips Passmedicine's answer percentages glued onto each option ("…area0%").
-- Remix reader tuned to a real Passmedicine page copy: the case runs from "Question N of M" to the question (lab rows and short lines included), the related-video block can no longer be mistaken for the question, "<option> is correct." sets ✅, and page furniture (reference ranges, ratings, links, media, score) is stripped.
+- Remix reader strips SBA Bank's answer percentages glued onto each option ("…area0%").
+- Remix reader tuned to a real SBA Bank page copy: the case runs from "Question N of M" to the question (lab rows and short lines included), the related-video block can no longer be mistaken for the question, "<option> is correct." sets ✅, and page furniture (reference ranges, ratings, links, media, score) is stripped.
 
 ## 0.8.0-beta (2026-10-23)
 
 medengine-STUDY only; OSCE build unchanged. Saved progress untouched.
-- 🔄 **Remix**: paste a Passmedicine question you got wrong (⌘A, ⌘C, then ⌘V on the Remix page). The page clutter is stripped, you confirm ✅ the right answer and ✋ your pick, then get the case in one line plus three one-change variations (change one clue, change the patient, change the timeline), answered with 1-5. Uses AI where available (claude.ai `sample` in the artifact; the user's own key on the website/download, shared with OSCE), otherwise an offline remix that quizzes the clinchers of the matched ILO conditions. Remix vault in this browser with replay, only-misses, export and clear.
+- 🔄 **Remix**: paste a SBA Bank question you got wrong (⌘A, ⌘C, then ⌘V on the Remix page). The page clutter is stripped, you confirm ✅ the right answer and ✋ your pick, then get the case in one line plus three one-change variations (change one clue, change the patient, change the timeline), answered with 1-5. Uses AI where available (claude.ai `sample` in the artifact; the user's own key on the website/download, shared with OSCE), otherwise an offline remix that quizzes the clinchers of the matched ILO conditions. Remix vault in this browser with replay, only-misses, export and clear.
 - ⏱ **Speed tags** on 63 conditions with one clear time course (⚡ sudden, 〰️ comes and goes, 🌊 fluctuates, 📈 gradual) with a filter under Browse.
 - Plain-word labels in the decoder and sniper (what you see, memory hook, what do you do).
 - Website/download STUDY now carries the AI key layer. Tests: `study/test_study_v8.py`.

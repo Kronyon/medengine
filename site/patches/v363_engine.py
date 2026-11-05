@@ -8,7 +8,7 @@ Checked against the outside audit; each item here was confirmed in the code firs
   3. The 📲 device sync button was hidden on phones; it now stays.
   4. Review screen: every wrong option gets one card holding its "why not" line and its 🔀 flip, so flips are no
      longer printed twice. Options with nothing written get a ✨ button that asks your own AI and keeps the answer
-     in your progress (synced like the rest). Triggers, Pathoma, poster and comments fold into one 📚 Deep dive
+     in your progress (synced like the rest). Triggers, Pathophysiology, poster and comments fold into one 📚 Deep dive
      that remembers if you leave it open.
 """
 import pathlib
@@ -138,12 +138,12 @@ function tmRe(c){""")
 # 4b. review screen: no second flip box; deep-dive drawer
 must("    if (it.f && !hqFlipDup(it)) h += '<div class=\"hq-flip\"><span class=\"hq-fl\">🔄 Flip it</span>' + esc(it.f).replace('→', '<b class=\"hq-arr\">→</b>') + '</div>';\n",
      "    if (it.f && !it.tm) h += '<div class=\"hq-flip\"><span class=\"hq-fl\">🔄 Flip it</span>' + esc(it.f).replace('→', '<b class=\"hq-arr\">→</b>') + '</div>';\n")
-must("""    h += hqTriggers(it) + hqPathomaBox(it) + hqPosterBox(it);
+must("""    h += hqTriggers(it) + hqPathophysiologyBox(it) + hqPosterBox(it);
     const ui = hqUnitOf(it);
     if (typeof discBoxHtml === 'function') h += discBoxHtml('q:' + it.id, hqTitle(it), ui != null ? ui : hqGuessUnit(it), it);""",
      """    const ui = hqUnitOf(it);
-    const deep = hqTriggers(it) + hqPathomaBox(it) + hqPosterBox(it) + (typeof discBoxHtml === 'function' ? discBoxHtml('q:' + it.id, hqTitle(it), ui != null ? ui : hqGuessUnit(it), it) : '');
-    if (deep) h += '<details class="panel hq-deep"' + (S.set.hqDeepOpen ? ' open' : '') + '><summary><b>📚 Deep dive</b> <span class="hint">triggers, Pathoma, poster, comments</span></summary>' + deep + '</details>';""")
+    const deep = hqTriggers(it) + hqPathophysiologyBox(it) + hqPosterBox(it) + (typeof discBoxHtml === 'function' ? discBoxHtml('q:' + it.id, hqTitle(it), ui != null ? ui : hqGuessUnit(it), it) : '');
+    if (deep) h += '<details class="panel hq-deep"' + (S.set.hqDeepOpen ? ' open' : '') + '><summary><b>📚 Deep dive</b> <span class="hint">triggers, Pathophysiology, poster, comments</span></summary>' + deep + '</details>';""")
 must(".oscelink{display:inline-flex;",
      ".tm-xr .tm-xf{display:block;margin-top:3px;color:var(--muted);font-size:.92em}.tm-xr .tm-xm{display:block;color:var(--muted);font-style:italic}.tm-aitag{font-size:.75em;border:1px solid var(--line);border-radius:999px;padding:0 6px;color:var(--muted)}.tm-fhead{margin:4px 0 8px;padding:6px 10px;border:1px dashed var(--line);border-radius:10px}.tm-aib{margin-top:6px}.hq-deep>summary{cursor:pointer;padding:4px 0}\n.oscelink{display:inline-flex;")
 F.write_text(s, encoding='utf-8')

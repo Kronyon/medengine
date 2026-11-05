@@ -1,6 +1,6 @@
 """🧲 Triggers: highlights and stacks for the 1,975 word-hunt clues (hl_*.py, one file per ILO system).
 Each file holds MARKS, a text block:
-    # Stack label            starts a stack: the shared scene, like Mehlman's left column
+    # Stack label            starts a stack: the shared scene, like High-Yield's left column
     123: phrase; phrase      hunt 123: highlight these exact phrases in its clue (the words that flip the answer)
     123: =                   keep the highlight the clue already has
     123: phrase >> new answer   also replace the answer (used to correct an answer to current UK guidance)

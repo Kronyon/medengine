@@ -1,4 +1,4 @@
-"""🧲 Triggers, part 2: every bug in the ILOs, filed under the scene the exam sets, Mehlman-style. Lines that share a
+"""🧲 Triggers, part 2: every bug in the ILOs, filed under the scene the exam sets, High-Yield-style. Lines that share a
 scene stack together so only the flipping word changes. Own words, UK first-line drugs. Each line: (bug, 'clue | answer').
 Picture codes are the real Gram-stain look: purple = Gram-positive, pink = Gram-negative."""
 

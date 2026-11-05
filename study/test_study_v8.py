@@ -69,7 +69,7 @@ AI_JSON = {"film": "45F, 3 days constant RUQ pain, fever, raised WCC, positive M
                     {"if": "jaundice, fever and rigors", "hook": "yellow, hot and shaking"},
                     {"if": "epigastric pain through to the back", "hook": "pain boring into the back"},
                     {"if": "", "hook": "no colic pattern at all"}]}
-# a real Passmedicine page copy (kept outside the repo): pass its path in MEDENGINE_REAL_PASTE to test against it
+# a real SBA Bank page copy (kept outside the repo): pass its path in MEDENGINE_REAL_PASTE to test against it
 import os
 REAL = pathlib.Path(os.environ.get('MEDENGINE_REAL_PASTE', '/nonexistent'))
 PASTE = """(t) => { const dt = new DataTransfer(); dt.setData('text/plain', t); document.body.dispatchEvent(new ClipboardEvent('paste', {clipboardData: dt, bubbles: true, cancelable: true})); }"""

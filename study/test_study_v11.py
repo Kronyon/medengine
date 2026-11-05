@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """medengine v1.1 tests (no network): the 🧬 Why it happens section (all 111 cards, search, Read all, system chips); every 🧬 Why it happens card is written as movement (an arrow in every line,
 no brackets, balanced bold, no em dashes), the arrows are coloured only inside the card body, cards render on the
-condition page and in the Pathoma library, and nothing overflows."""
+condition page and in the Pathophysiology library, and nothing overflows."""
 import json, pathlib, re, sys
 from playwright.sync_api import sync_playwright
 

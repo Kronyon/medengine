@@ -1,4 +1,4 @@
-"""🧲 Triggers, part 4: investigations, Mehlman-style. 🎯 the scene that calls for the test → the test; ⚠️ the test + one
+"""🧲 Triggers, part 4: investigations, High-Yield-style. 🎯 the scene that calls for the test → the test; ⚠️ the test + one
 word that changes things → what to do instead. Own words, UK practice (NICE, BTS, RCR).
 Entry: ('Name · other names', picture, 'scene', ['test + the flipping word | consequence', ...]).
 Pictures: score, lab, xray, ct, mri, us, scope, ecg, bed."""

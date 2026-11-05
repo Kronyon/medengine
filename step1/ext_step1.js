@@ -1,6 +1,6 @@
 /* medengine-STEP1 add-on. Runs inside the STUDY engine through window.ME (site/patches/v340_pack_hooks*.py).
    Views: ⚡ UWorld Deconstruct · ⏱️ timed 20-question block · 🧭 acid-base compass · 🫘 nephron map · 🧪 US lab values ↔ UK.
-   Written fresh: nothing here is copied from UWorld, First Aid, Mehlman, Boards and Beyond or Bootcamp.
+   Written fresh: nothing here is copied from UWorld, First Aid, High-Yield, Boards and Beyond or Bootcamp.
    The pure parts at the top (abgSolve, LABS, convert) also run under Node in step1/test_step1.js. */
 (function () {
   'use strict';
@@ -918,8 +918,8 @@
 
 
     /* ================================================================ v3.6.1: bank sources, performance map, AI 4-box and twins */
-    const SRC = q => q.src === 'medengine' ? 'me' : q.src === 'UWorld' || q.uw_qid || q.uworld_qid ? 'uw' : q.src === 'Mehlman HY Arrows' ? 'mh' : 'me';
-    const SRCL = {uw: '🟦 UWorld', mh: '↕ Mehlman arrows', me: '🎯 medengine originals'};
+    const SRC = q => q.src === 'medengine' ? 'me' : q.src === 'UWorld' || q.uw_qid || q.uworld_qid ? 'uw' : q.src === 'High-Yield HY Arrows' ? 'mh' : 'me';
+    const SRCL = {uw: '🟦 UWorld', mh: '↕ High-Yield arrows', me: '🎯 medengine originals'};
     blk.cfg.so = blk.cfg.so || 'all';
     const basePool = pool;
     pool = function () { const so = blk.cfg.so; return basePool().filter(q => so === 'all' || SRC(q) === so); };

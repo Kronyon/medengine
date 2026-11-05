@@ -86,16 +86,16 @@ for j in V7['jg']:
 D['jg'] = JGD
 V8 = json.load(open(HERE / 'v08_content.json', encoding='utf-8'))
 D['spdl'] = V8['spd_labels']
-# v1.0: new mechanism cards (own words) appended to the Pathoma library and linked to their ILO units
+# v1.0: new mechanism cards (own words) appended to the Pathophysiology library and linked to their ILO units
 V10 = json.load(open(HERE / 'v10_content.json', encoding='utf-8'))
 _ids = {r['id'] for r in D['path']}
 for r in V10['path_add']:
-    if r['id'] in _ids: raise SystemExit('duplicate Pathoma id ' + r['id'])
+    if r['id'] in _ids: raise SystemExit('duplicate Pathophysiology id ' + r['id'])
     if '—' in json.dumps(r, ensure_ascii=False): raise SystemExit('em dash in ' + r['id'])
     D['path'].append({'id': r['id'], 't': r['t'], 'l': r['l'], 'u': r['u']})
     for ui in r['u']:
         D['units'][ui].setdefault('pa', []).append(len(D['path']) - 1)
-rep("""if (pas.length) h += '<div class="panel pap"><b>🧬 Why it happens · Pathoma</b>'""", """if (pas.length) h += '<div class="panel pap"><div class="toolbar"><b class="grow">🧬 Why it happens · Pathoma</b><button class="btn ghost sm" data-go="why">All ' + ROOTS.length + ' cards</button></div>'""")
+rep("""if (pas.length) h += '<div class="panel pap"><b>🧬 Why it happens · Pathophysiology</b>'""", """if (pas.length) h += '<div class="panel pap"><div class="toolbar"><b class="grow">🧬 Why it happens · Pathophysiology</b><button class="btn ghost sm" data-go="why">All ' + ROOTS.length + ' cards</button></div>'""")
 rep("""  if (!fws.length && !whys.length && !ars.length && !hunts.length) return h ?""", """  h += actPanelHtml(u);
   if (!fws.length && !whys.length && !ars.length && !hunts.length) return h ?""")
 # v1.1: every Why it happens card rewritten as movement (one chain per line, arrows, no brackets)
@@ -106,14 +106,14 @@ for _id, c in V11.items():
     _byid[_id]['t'] = c['t']; _byid[_id]['l'] = c['l']
 # v1.1: new cards for ILO conditions that had none
 for r in json.load(open(HERE / 'v11_content.json', encoding='utf-8'))['path_add']:
-    if r['id'] in _byid: raise SystemExit('duplicate Pathoma id ' + r['id'])
+    if r['id'] in _byid: raise SystemExit('duplicate Pathophysiology id ' + r['id'])
     D['path'].append({'id': r['id'], 't': r['t'], 'l': r['l'], 'u': r['u']}); _byid[r['id']] = D['path'][-1]
     for ui in r['u']:
         D['units'][ui].setdefault('pa', []).append(len(D['path']) - 1)
 # v1.2: ⚡ First move vs cure cards, plus the nerve-injury Why card
 V12 = json.load(open(HERE / 'v12_content.json', encoding='utf-8'))
 for r in V12['path_add']:
-    if r['id'] in _byid: raise SystemExit('duplicate Pathoma id ' + r['id'])
+    if r['id'] in _byid: raise SystemExit('duplicate Pathophysiology id ' + r['id'])
     D['path'].append({'id': r['id'], 't': r['t'], 'l': r['l'], 'u': r['u']}); _byid[r['id']] = D['path'][-1]
     for ui in r['u']: D['units'][ui].setdefault('pa', []).append(len(D['path']) - 1)
 D['act'] = []
@@ -264,7 +264,7 @@ help_rows = ('<tr><td>🔨</td><td>Hammer SBAs: three single-best-answer questio
              '<tr><td>👁️</td><td>Clinical Atlas Lookup on every condition: DermNet, LITFL, Radiopaedia, Radiology Masterclass and Google Images open in a new tab. 🥊 chips open the visual showdowns (drawn ECGs, X-rays, fundi, eardrums).</td></tr>'
              '<tr><td>📋</td><td>Paste exam image: on any condition press Ctrl+V / ⌘V (iPad and phone: long-press the paste box → Paste, or 📷 Choose image) to file a question image that tricked you. The vault reviews them with your note hidden.</td></tr>'
              '<tr><td>🎯</td><td>Blind clincher sniper: a clincher with the disease blacked out. <span class="kbd">1</span>–<span class="kbd">4</span> name it and pick the first move, <span class="kbd">Space</span> reveals the trap, <span class="kbd">M</span> mutates (same presentation, one feature changed).</td></tr>'
-             '<tr><td>🔄</td><td>Remix: answer the question on Passmedicine, copy the page (⌘A, ⌘C), open 🔄 Remix and press ⌘V. Check ✅ and ✋ (📷 adds an image), then the same patient with one clue changed each round: watch which option wins (<span class="kbd">1</span>–<span class="kbd">5</span>, <span class="kbd">Enter</span>, <span class="kbd">Esc</span> to leave). The end lines up all five: answer ← the clue that picks it. Cards come back tomorrow, then in 3 days, a week and so on, with new variations ready each time (▶ Due today). 🚩 drops one that looks wrong; 🧠 Careful is slower and more accurate.</td></tr>'
+             '<tr><td>🔄</td><td>Remix: answer a clinical vignette, copy the page (⌘A, ⌘C), open 🔄 Remix and press ⌘V. Check ✅ and ✋ (📷 adds an image), then the same patient with one clue changed each round: watch which option wins (<span class="kbd">1</span>–<span class="kbd">5</span>, <span class="kbd">Enter</span>, <span class="kbd">Esc</span> to leave). The end lines up all five: answer ← the clue that picks it. Cards come back tomorrow, then in 3 days, a week and so on, with new variations ready each time (▶ Due today). 🚩 drops one that looks wrong; 🧠 Careful is slower and more accurate.</td></tr>'
              '<tr><td>⚡〰️🌊📈</td><td>Speed tags: how fast a condition arrives (sudden, comes and goes, fluctuates, gradual). Filter by speed under 🗂 Browse on the home screen.</td></tr>'
              '<tr><td>🎬🟰🏷️</td><td>Clinchers that hinge on an exam name read as: 🎬 what you see 🟰 🏷️ the exam name (with a 🔗 memory hook) → 🎯 the diagnosis. The sniper hides the 🎯 part until you answer.</td></tr>'
              '<tr><td>🔺</td><td>Jargon decoder: exam names that don\'t describe what they are (Δ wave, Wenckebach, Kussmaul, Rinne…). Chips on each condition open them. In the sniper: ① picture → name, ② name → picture, ③ what do you do, or 🔺 all three. <span class="kbd">Space</span> reveal, <span class="kbd">1</span>/<span class="kbd">2</span> mark, <span class="kbd">Enter</span> next.</td></tr>'

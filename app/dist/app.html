@@ -3469,7 +3469,7 @@ html[data-cursor] input[type="text"],html[data-cursor] input[type="search"],html
 })();
 
 /* ---------- v2.1: 🧲 Triggers, shared by medengine-OSCE and medengine-STUDY ----------
-   The Mehlman pattern: one line = the scene + the word that flips it → the answer. Lines that share a scene stack, so the
+   The High-Yield pattern: one line = the scene + the word that flips it → the answer. Lines that share a scene stack, so the
    eye sees what stays the same and what changes. One long scroll (⌘F finds anything), a picture on every line, 🔒 Lock
    blurs the answers (still findable), tap or N reveals, L locks. TG.page(T, U, opts) returns the HTML; TG.mount(root)
    wires it. T = D.trg (c, bug, sc, dr, ix, mx); U = {weeks: [[id, name]], units: [{i, name, w, o, h: [[type, clue, ans]]}]}. */
@@ -3622,7 +3622,7 @@ html[data-cursor] input[type="text"],html[data-cursor] input[type="search"],html
       + '<div class="tg-bar"><input id="trq" type="search" placeholder="Filter every trigger: e.g. birds, lithium, CT, child" autocomplete="off" aria-label="Filter triggers" value="' + esc(TG.preset || '') + '">'
       + '<div class="tg-parts">' + [['all', '', 'All']].concat(PARTS).map(([k, e, l]) => '<button class="tg-p' + (part === k ? ' on' : '') + '" data-tgpart="' + k + '">' + (e ? e + ' ' : '') + l + '</button>').join('') + '</div>'
       + '<div class="tg-row2"><select id="tgJump" aria-label="Jump to a section"></select><button class="tg-p' + (ST.lock ? ' on' : '') + '" data-tglock>🔒 Lock</button><span class="tg-cnt" id="tgCnt">' + n.toLocaleString('en-GB') + ' lines</span></div></div>'
-      + cache + '<p class="tg-foot hint">Condition clues marked HY and FA are adapted from Mehlman\'s <i>HY Internal Medicine</i> and <i>First Aid Step 1</i> and rewritten for UK practice; everything else is written for your ILOs from NICE, BTS, BNF and MHRA guidance.</p></div>';
+      + cache + '<p class="tg-foot hint">Condition clues marked HY and FA are adapted from High-Yield\'s <i>HY Internal Medicine</i> and <i>First Aid Step 1</i> and rewritten for UK practice; everything else is written for your ILOs from NICE, BTS, BNF and MHRA guidance.</p></div>';
   };
   function build(T, U, opts){
     const ua = opts.unitAttr || (i => 'data-u="' + i + '"');
@@ -7702,7 +7702,7 @@ function vMaster(m){
   m.innerHTML = '<section class="card"><div class="row"><button class="btn sm" data-v="posters">← All posters</button><span class="grow"></span><button class="btn sm" data-mp="' + pv.id + '">← ' + esc(pv.t) + '</button><button class="btn sm" data-mp="' + nx.id + '">' + esc(nx.t) + ' →</button></div></section>' + PO.split(x, {lock: PO.lockOn}) + ((x.u || []).length ? '<section class="card"><h2>Conditions on this poster</h2><div class="chips">' + iloChips(x.u) + '</div></section>' : '');
 }
 document.addEventListener('input', e => { if (e.target.id === 'poQ') { S.set.poq = e.target.value; clearTimeout(vPosters.t); vPosters.t = setTimeout(() => { save(); const w = $('#poWall'); if (w) w.innerHTML = posterWallHtml(e.target.value.toLowerCase().trim()); }, 180); } });
-/* ---------- v2.1: 🧲 Triggers, the Mehlman-style pattern list shared with medengine-STUDY (engine: trg.js) ---------- */
+/* ---------- v2.1: 🧲 Triggers, the High-Yield-style pattern list shared with medengine-STUDY (engine: trg.js) ---------- */
 function vTriggers(m){
   if (!window.TG || !D.trg || !D.trgu) { m.innerHTML = '<section class="card"><p class="hint">Triggers did not load.</p></section>'; return; }
   m.innerHTML = '<section class="card tg-card">' + TG.page(D.trg, D.trgu, {unitAttr: i => 'data-u="' + i + '"'}) + '</section>';
