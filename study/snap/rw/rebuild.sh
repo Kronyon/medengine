@@ -11,6 +11,7 @@ python3 site/patches/v364_engine.py
 python3 site/patches/v369_engine.py
 python3 site/patches/v3613_engine.py
 python3 site/patches/v3614_ui.py
+python3 site/patches/v3614_css.py
 RW_MAX=10 python3 site/patches/v364_rw.py
 python3 site/patches/v3613_import.py
 RW_MIN=13 python3 site/patches/v364_rw.py
