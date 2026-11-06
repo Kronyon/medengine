@@ -1,4 +1,11 @@
-# Where v3.6.13 is (2026-11-05, night)
+# Where v3.6.14 is (2026-11-06)
+
+- v3.6.14: site/patches/v3614_ui.py (slim ↳ why-not rows + hover/tap tooltips: ttBuild/ttWrap, wrapped only after answering; window.MEtt for tests)
+  runs after v3613_engine.py; site/patches/v3614_mock.py (42 mock x/f lines, m079 ql) runs last, after v369_polish.py.
+  build.py STEP1_TEXT maps the new why-not heading. Tooltip sources: D.jg, D.trg.c, D.snap, D.hunt (diagnosis-shaped names only),
+  D.trg.bug/sc, D.trg.dr/ix/mx, D.gloss (2+ capitals, minus TT_SKIP).
+
+# Earlier: v3.6.13 (2026-11-05, night)
 
 Done and published:
 - Detector (study/snap/rw/detect.py) over all 1,811 Hammer questions: triage.json flags len, mix, abs, clone, neg, frame.
