@@ -1,5 +1,18 @@
 # Changelog
 
+## 3.6.13 (2026-11-06)
+
+🔍 **Audit of the v3.6.12 Hammer rewrite (Antigravity), saves repaired, style fixes on top.**
+- **Imported:** the v3.6.12 bank (all 1,811 questions rewritten in a blend of MSCAA and Nottingham style: stems with observations and labelled results, "x-week history of" in 22% of stems like the mock's 21%, a why-not line for every wrong option). It is kept as `study/snap/rw/import_v3612.json` and applied by `site/patches/v3613_import.py`, so the build stays reproducible.
+- **Saves repaired (the important one).** v3.6.12 changed the options of 754 questions but wrote run-migration entries for only 105, and 56 of those pointed picks at the wrong option. A run saved on v3.6.10 would have shown your old picks against different answers in about 650 questions. Every changed question now has one correct entry: picks follow their option text (629 questions, including light rewording such as "Lipoma" to "Breast lipoma"), and picks on the 125 questions whose answer changed are cleared rather than misread. Runs saved on v3.6.12 itself are left alone. Tested on real v3.6.10 and v3.6.12 option lists, and the runs survive a reload.
+- **Mock-like chip fixed.** v3.6.12 had put 1,796 of 1,811 questions in it, which made the filter do nothing. It is back to **809**, with the mock's mix (54% diagnosis, 25% management, 6% investigation, 13% other) and the mock week weighting.
+- **24 answers that gave themselves away by length** trimmed (for example "Obtain three sets of peripheral blood cultures from separate venepuncture sites spaced over 6 to 24 hours" against short distractors).
+- **71 test-wise cues removed:** "alone", "only" and "all" appeared only in wrong options ("Aspirin 300 mg immediately alone").
+- **Lead-ins in MSCAA form:** guideline names taken out of 28 lead-ins ("Under British Thoracic Society guidelines, which..."), 44 "What is..." lead-ins rewritten as "Which...", 2 negative lead-ins made positive, the longest lead-ins shortened.
+- **Six new clones** the rewrite had created (BCG, testicular lymphoma, perforated ulcer, Crohn's, fat necrosis, prostate MRI) rebuilt as new angles: systemic BCG infection, Leydig cell tumour, colonic interposition (Chilaiditi), faecal calprotectin, Mondor's disease, transperineal biopsy.
+- **Text polish:** >= <= -> ug cm2 to proper symbols, LaTeX removed, spaced dashes replaced, "you" removed from 5 stems, US spellings (-ize) changed.
+- Answer-length spread now matches the papers (answer is the longest option in 15% of Hammer questions vs 19% of the mock and 23% of the official papers; shortest 22% vs 18%).
+
 ## 3.6.10 (2026-11-05)
 
 🧹 **Last sweep: clones, classroom framing, last negative lead-in** (31 questions).

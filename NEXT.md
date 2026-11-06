@@ -1,4 +1,4 @@
-# Where v3.6.10 is (2026-11-05, night)
+# Where v3.6.13 is (2026-11-05, night)
 
 Done and published:
 - Detector (study/snap/rw/detect.py) over all 1,811 Hammer questions: triage.json flags len, mix, abs, clone, neg, frame.
@@ -16,6 +16,10 @@ Done and published:
 - rw_10: my own collision clones re-rebuilt, last true clones, classroom framing, tranexamic negative lead-in (v3.6.10, data version 12).
   RULE: before writing a 'new' rebuild, check its answer against every answer in the bank (no new clone).
   Left on purpose: 5 'which patient' list questions (d/x cards), patient 'asks' stems (normal MSCAA style), set E.
+- v3.6.13: the v3.6.12 Antigravity bank is IMPORTED after rw_01..10 (site/patches/v3613_import.py, data in
+  study/snap/rw/import_v3612.json). Correct run migration at data version 13 (v3.6.12 shipped ov 14, kept so its runs stay).
+  Fixes on top go in rw_13+ (data version 2+NN, so rw_13 = 15). rebuild.sh runs RW_MAX=10, import, RW_MIN=13.
+  NEVER edit site/study.html by hand or ship a build that changes options without a pmv entry: saved runs break.
   study/snap/rw/focus.py WEEK prints only the clone and negative questions of a week with the question each copies.
 
 Rules: rebuild with `sh study/snap/rw/rebuild.sh` then `python3 site/build.py`. Each rw_NN file is one published

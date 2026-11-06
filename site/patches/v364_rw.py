@@ -31,7 +31,10 @@ R = []; LAST = {}; PENDX = {}
 # between two batches is moved only by the batches after it. Never change option order in a published file:
 # add a new numbered file instead. A question may be rewritten again in a later file: the entries are applied
 # in file order, each with its own version.
+import os
+RW_MIN, RW_MAX = int(os.environ.get('RW_MIN', 1)), int(os.environ.get('RW_MAX', 99))   # rebuild.sh runs rw_01..10 before the v3.6.12 import and rw_13+ after it
 for f in sorted(glob.glob(str(RW / 'rw_[0-9][0-9]_*.py'))):
+    if not RW_MIN <= int(pathlib.Path(f).stem.split('_')[1]) <= RW_MAX: continue
     spec = importlib.util.spec_from_file_location(pathlib.Path(f).stem, f); m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
     n = int(pathlib.Path(f).stem.split('_')[1])
     for k, v in m.R.items():
@@ -135,7 +138,7 @@ for qid, ver, e in R:
 if errs:
     print('\n'.join(errs)); sys.exit('NOT WRITTEN: fix the entries above')
 if done:
-    HQ['ov'] = max(HQ.get('ov', 2), max(v for _, v, _ in R))
+    if R: HQ['ov'] = max(HQ.get('ov', 2), max(v for _, v, _ in R))
     page = page[:mt.start(2)] + json.dumps(D, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/') + page[mt.end(2):]
     F.write_text(page, encoding='utf-8')
 print(f'rewrites applied: {done}, already in: {skipped}, data version {HQ.get("ov", 2)}')
