@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.6.15 (2026-11-06)
+
+🧘 **Calmer sidebar and a new dashboard** (after Passmedicine, Quesmed, UWorld and Bootcamp).
+- **Sidebar in three parts.** *Practise*: Dashboard, Hammer SBAs, Triggers, Posters, Why it happens, First move vs cure. *Systems & presentations*: the filter-or-jump box and the ILO weeks. *Other* (folded): My misses, Weak spots, Sprint, Leaderboard, Visual scenes, Remix, Blind clincher sniper, Frameworks, All ILO notes, Abbreviations, Visual showdowns, Jargon decoder, Screenshot vault. Other opens by itself when you are on one of its pages, and stays open if you open it.
+- **Dashboard rebuilt.** The wall of 15 buttons and the six tiles are gone. Now: a greeting; four stat cards (question score, bank used, streak, conditions mastered); a **Continue** card that resumes your latest unfinished run (or starts a block of 20) with a "Redo N missed" button and your last condition; an **activity heatmap** for the last 18 weeks; six shortcut cards; **Recommended next** (your three lowest-scoring weeks, or weeks not started, each with a Practise button); and the ILO weeks as compact rows with two bars (questions answered, conditions covered) and your score.
+- Every answered question now counts towards the day's streak and the heatmap, not only correct answers.
+- STEP1 gets the same layout, with First Aid chapters and topics in place of weeks and conditions.
+
 ## 3.6.14 (2026-11-06)
 
 ✨ **Slim why-nots again, hover tooltips, and the mock's mismatched lines fixed.**

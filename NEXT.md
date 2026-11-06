@@ -1,4 +1,10 @@
-# Where v3.6.14 is (2026-11-06)
+# Where v3.6.15 is (2026-11-06)
+
+- v3.6.15: site/patches/v3615_ui.py (runs after v3614_css.py): renderSide in three parts (Practise, Systems & presentations, Other <details>,
+  S.set.navOther), viewHome rewritten (db-* classes, dbHeat, [data-dbstart]), hqMark bumps S.days. build.py STEP1_TEXT entries for the old
+  home removed. offline/test_offline.py fails at #okKey in the OSCE key flow: older than this release, not touched here.
+
+# Earlier: v3.6.14
 
 - v3.6.14: site/patches/v3614_ui.py (slim ↳ why-not rows + hover/tap tooltips: ttBuild/ttWrap, wrapped only after answering; window.MEtt for tests)
   runs after v3613_engine.py; site/patches/v3614_mock.py (42 mock x/f lines, m079 ql) runs last, after v369_polish.py.
