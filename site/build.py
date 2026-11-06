@@ -160,6 +160,12 @@ STEP1_TEXT = [  # wording: First Aid chapters and topics instead of ILO weeks an
 
 def make_step1(study):
     pack = (STEP1 / 'pack.json').read_text(encoding='utf-8')
+    links = STEP1 / 'img_links_v3612.json'   # v3.6.13: question images linked in v3.6.12 (their figures already ship in off.img)
+    if links.exists():
+        P = json.loads(pack); L = json.loads(links.read_text(encoding='utf-8'))['img']
+        for q in P['hq']['q']:
+            if q['id'] in L and not q.get('img'): q['img'] = L[q['id']]
+        pack = json.dumps(P, ensure_ascii=False, separators=(',', ':'))
     js = (STEP1 / 'ext_step1.js').read_text(encoding='utf-8')
     css = (STEP1 / 'ext_step1.css').read_text(encoding='utf-8')
     if '</script' in js.lower() or '</style' in css.lower():

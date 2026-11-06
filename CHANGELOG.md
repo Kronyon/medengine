@@ -11,6 +11,7 @@
 - **Lead-ins in MSCAA form:** guideline names taken out of 28 lead-ins ("Under British Thoracic Society guidelines, which..."), 44 "What is..." lead-ins rewritten as "Which...", 2 negative lead-ins made positive, the longest lead-ins shortened.
 - **Six new clones** the rewrite had created (BCG, testicular lymphoma, perforated ulcer, Crohn's, fat necrosis, prostate MRI) rebuilt as new angles: systemic BCG infection, Leydig cell tumour, colonic interposition (Chilaiditi), faecal calprotectin, Mondor's disease, transperineal biopsy.
 - **Text polish:** >= <= -> ug cm2 to proper symbols, LaTeX removed, spaced dashes replaced, "you" removed from 5 stems, US spellings (-ize) changed.
+- **STEP1:** the 139 question images that v3.6.12 linked (UWorld figures already in the pack) are kept, through `step1/img_links_v3612.json`. Its other STEP1 changes are not carried over: about 420 machine-written why-not lines that read as fragments ("Vs Protein carrier (13, s0197): Oil/water partition co..."), lead-in sentences added as clues, invented sequential UWorld numbers (UW-10001 onwards) and templated "twin" questions the app never shows (2.5 MB). STEP1 options did not change, so STEP1 saves were never at risk.
 - Answer-length spread now matches the papers (answer is the longest option in 15% of Hammer questions vs 19% of the mock and 23% of the official papers; shortest 22% vs 18%).
 
 ## 3.6.10 (2026-11-05)

@@ -1,0 +1,428 @@
+{
+"note": "STEP1 question images linked by v3.6.12 (Antigravity); applied by site/build.py make_step1",
+"img": {
+"s0059": [
+"uw_kidney_embryo"
+],
+"s0060": [
+"uw_puv"
+],
+"s0061": [
+"uw_turner_horseshoe",
+"uw_horseshoe_ct"
+],
+"s0062": [
+"uw_ureter_anatomy"
+],
+"s0063": [
+"uw_rcc_ivc"
+],
+"s0064": [
+"uw_suprapubic"
+],
+"s0065": [
+"uw_lhf_cascade"
+],
+"s0066": [
+"uw_adh_atn",
+"uw_atn_histology",
+"uw_ischemic_atn_medulla"
+],
+"s0067": [
+"uw_crescent_osm"
+],
+"s0068": [
+"uw_rpgn_path",
+"uw_rpgn_he"
+],
+"s0069": [
+"uw_goodpasture_if",
+"uw_goodpasture_linear"
+],
+"s0070": [
+"uw_acid_base_nomogram"
+],
+"s0071": [
+"uw_gfr_autoreg"
+],
+"s0072": [
+"uw_struvite_path",
+"uw_staghorn_ct"
+],
+"s0073": [
+"uw_sphingolipidoses"
+],
+"s0074": [
+"uw_darrow_yannet"
+],
+"s0075": [
+"uw_malignant_htn"
+],
+"s0076": [
+"uw_fsgs_silver"
+],
+"s0077": [
+"uw_mcd_em"
+],
+"s0078": [
+"uw_cholesterol_clefts"
+],
+"s0079": [
+"uw_wbc_cast"
+],
+"s0080": [
+"uw_waxy_cast"
+],
+"s0081": [
+"uw_analgesic_nephropathy"
+],
+"s0082": [
+"uw_kw_nodules"
+],
+"s0083": [
+"uw_rcc_gross_aml"
+],
+"s0084": [
+"uw_renal_infarction"
+],
+"s0085": [
+"uw_wilms_ct"
+],
+"s0086": [
+"uw_adpkd_ct"
+],
+"s0087": [
+"uw_ebstein"
+],
+"s0088": [
+"uw_pituitary_embryo"
+],
+"s0089": [
+"uw_hirschsprung"
+],
+"s0090": [
+"uw_hand_nerves"
+],
+"s0091": [
+"uw_cpa_schwannoma"
+],
+"s0092": [
+"uw_cell_injury"
+],
+"s0093": [
+"uw_hepb_serology"
+],
+"s0094": [
+"uw_pemphigus_bp"
+],
+"s0095": [
+"uw_wpw_delta"
+],
+"s0096": [
+"uw_pv_afterload"
+],
+"s0097": [
+"uw_aortic_dissection"
+],
+"s0098": [
+"uw_dose_response"
+],
+"s0099": [
+"uw_folate_b12_trap"
+],
+"s0100": [
+"uw_cftr_processing"
+],
+"s0101": [
+"uw_flow_volume_loops"
+],
+"s0102": [
+"uw_ibd_comparison"
+],
+"s0103": [
+"uw_ethanol_metabolism"
+],
+"s0104": [
+"uw_hcm_disarray"
+],
+"s0105": [
+"uw_aschoff_body"
+],
+"s0106": [
+"uw_psammoma_bodies"
+],
+"s0107": [
+"uw_signet_ring"
+],
+"s0108": [
+"uw_gaucher_cell"
+],
+"s0109": [
+"uw_aspergillus_hyphae"
+],
+"s0110": [
+"uw_double_bubble"
+],
+"s0111": [
+"uw_gbm_butterfly"
+],
+"s0112": [
+"uw_saddle_pe"
+],
+"s0119": [
+"uw_folate_b12_trap"
+],
+"s0133": [
+"uw_double_bubble"
+],
+"s0142": [
+"uw_folate_b12_trap"
+],
+"s0166": [
+"uw_aortic_dissection"
+],
+"s0231": [
+"uw_malignant_htn"
+],
+"s0233": [
+"uw_goodpasture_linear"
+],
+"s0238": [
+"uw_aspergillus_hyphae"
+],
+"s0269": [
+"uw_aschoff_body"
+],
+"s0383": [
+"uw_cell_injury"
+],
+"s0385": [
+"uw_cell_injury"
+],
+"s0388": [
+"uw_cell_injury"
+],
+"s0391": [
+"uw_gbm_butterfly"
+],
+"s0396": [
+"uw_cell_injury"
+],
+"s0413": [
+"uw_malignant_htn"
+],
+"s0414": [
+"uw_malignant_htn"
+],
+"s0437": [
+"uw_dose_response"
+],
+"s0439": [
+"uw_dose_response"
+],
+"s0446": [
+"uw_hirschsprung"
+],
+"s0492": [
+"uw_folate_b12_trap"
+],
+"s0521": [
+"uw_dose_response"
+],
+"s0541": [
+"uw_hcm_disarray"
+],
+"s0563": [
+"uw_ibd_comparison"
+],
+"s0565": [
+"uw_ibd_comparison"
+],
+"s0574": [
+"uw_ibd_comparison"
+],
+"s0579": [
+"uw_pv_afterload"
+],
+"s0584": [
+"uw_hcm_disarray"
+],
+"s0596": [
+"uw_ibd_comparison"
+],
+"s0602": [
+"uw_aschoff_body"
+],
+"s0603": [
+"uw_aschoff_body"
+],
+"s0640": [
+"uw_hcm_disarray"
+],
+"s0642": [
+"uw_aortic_dissection"
+],
+"s0643": [
+"uw_aortic_dissection"
+],
+"s0662": [
+"uw_malignant_htn"
+],
+"s0676": [
+"uw_pituitary_embryo"
+],
+"s0678": [
+"uw_pituitary_embryo"
+],
+"s0688": [
+"uw_hcm_disarray"
+],
+"s0701": [
+"uw_folate_b12_trap"
+],
+"s0744": [
+"uw_kw_nodules"
+],
+"s0756": [
+"uw_hand_nerves"
+],
+"s0794": [
+"uw_hepb_serology"
+],
+"s0798": [
+"uw_hepb_serology"
+],
+"s0820": [
+"uw_hepb_serology"
+],
+"s0821": [
+"uw_hepb_serology"
+],
+"s0822": [
+"uw_hepb_serology"
+],
+"s0823": [
+"uw_hepb_serology"
+],
+"s0825": [
+"uw_hepb_serology"
+],
+"s0832": [
+"uw_ethanol_metabolism"
+],
+"s0836": [
+"uw_folate_b12_trap"
+],
+"s0865": [
+"uw_folate_b12_trap"
+],
+"s0915": [
+"uw_hand_nerves"
+],
+"s0916": [
+"uw_hand_nerves"
+],
+"s0999": [
+"uw_folate_b12_trap"
+],
+"s1000": [
+"uw_dose_response"
+],
+"s1007": [
+"uw_cpa_schwannoma"
+],
+"s1047": [
+"uw_aortic_dissection"
+],
+"s1126": [
+"uw_dose_response"
+],
+"s1176": [
+"uw_pv_afterload"
+],
+"s1181": [
+"uw_folate_b12_trap"
+],
+"s1197": [
+"uw_horseshoe_ct"
+],
+"s1205": [
+"uw_kw_nodules"
+],
+"s1208": [
+"uw_folate_b12_trap"
+],
+"s1263": [
+"uw_goodpasture_linear"
+],
+"s1265": [
+"uw_rpgn_he"
+],
+"s1273": [
+"uw_mcd_em"
+],
+"s1274": [
+"uw_mcd_em"
+],
+"s1278": [
+"uw_atn_histology"
+],
+"s1302": [
+"uw_adpkd_ct"
+],
+"s1310": [
+"uw_rcc_ivc"
+],
+"s1314": [
+"uw_ibd_comparison"
+],
+"s1410": [
+"uw_cftr_processing"
+],
+"s1417": [
+"uw_cftr_processing"
+],
+"s1418": [
+"uw_cftr_processing"
+],
+"s1424": [
+"uw_cftr_processing"
+],
+"s1426": [
+"uw_cftr_processing"
+],
+"s1430": [
+"uw_flow_volume_loops"
+],
+"s1447": [
+"uw_saddle_pe"
+],
+"s1448": [
+"uw_saddle_pe"
+],
+"s1449": [
+"uw_saddle_pe"
+],
+"s1450": [
+"uw_saddle_pe"
+],
+"s1479": [
+"uw_cftr_processing"
+],
+"s1480": [
+"uw_cftr_processing"
+],
+"s1481": [
+"uw_cftr_processing"
+],
+"s1482": [
+"uw_cftr_processing"
+],
+"s1483": [
+"uw_cftr_processing"
+],
+"s1484": [
+"uw_cftr_processing"
+]
+}
+}
