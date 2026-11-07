@@ -22,6 +22,8 @@ python3 study/snap/rw/detect.py > /dev/null
 python3 site/patches/v364_ml.py
 python3 site/patches/v369_polish.py
 python3 site/patches/v3614_mock.py
+python3 site/patches/v3618_wn.py
+python3 site/patches/v3618_labs.py
 V=$(cat study/snap/rw/VERSION)
 sed -i "s#<small>v3\.6\.[0-9]*</small>#<small>v$V</small>#" site/study.html
 sed -i "s#<span class=\"ver\">v3\.6\.[0-9]*</span>#<span class=\"ver\">v$V</span>#" site/index.html site/osce.html

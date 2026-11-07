@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.6.18 (2026-11-07)
+
+🧹 **Why-nots without the robot voice, and Pastest-style data reading.**
+- **823 template lines removed.** "Ruled out here: requires X, whereas this patient has Y" repeated the option's flip word for word and Y was a broken stem fragment ("A 56 year old woman with"). The flip stays, so those rows read the slim way: "↳ 🔀 Fever, jaundice and right upper quadrant pain ➔ A. Acute cholangitis".
+- **2,679 filler flips removed.** "The presentation instead showed features specific to X (…)" only repeated the why line next to it.
+- **19 flips rewritten** that had been matched from the wrong card (a hypoglycaemia mnemonic under dapagliflozin, venous eczema under Fournier's gangrene). Every wrong option still has a why line or a flip.
+- **52 questions turned into Pastest-style data questions.** What makes a good Pastest (and MSCAA) data item, reverse engineered: numbers instead of adjectives ("calcitonin 850 ng/L (<10)", not "markedly elevated"); the deciding value sitting among normal ones; a real-life trap value (CRP 6 in biliary colic, LDH up in testicular lymphoma, PSA 3.0 with a craggy prostate, ALT under 3× the limit on a statin); and a staged reveal (history, examination, table, then the scan line, then the question). Stems only: options, answers and explanations are unchanged, so saved runs are safe. Hammer questions with a results table: 220 → 272.
+
 ## 3.6.17 (2026-11-07)
 
 - **Tooltips read the words around a term.** "ST depression" now shows the ECG card (subendocardial ischaemia, troponin decides), not low mood. Twenty compound terms get their own card and beat the single word inside them: ST depression and elevation, PR depression, respiratory depression, idiopathic intracranial hypertension, raised intracranial pressure, pulmonary and portal hypertension, eczema herpeticum, venous eczema, gestational diabetes and hypertension, Ludwig's angina, dopamine antagonists, insulin resistance, bipolar and postnatal depression, herpes simplex encephalitis. A context guard leaves a word plain when its neighbour changes its meaning and no card exists ("bone marrow depression", "stroke volume", "ocular hypertension", "diabetes insipidus", "corneal ulcer").
