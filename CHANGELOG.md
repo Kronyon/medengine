@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.6.16 (2026-11-07)
+
+- **Comments moved out of Deep dive.** The 💬 Comments box now sits on its own, right above 📚 Deep dive (as on Passmedicine), so you see it without opening anything. It opens by itself when a question has comments. Deep dive keeps triggers, pathophysiology and the poster.
+
 ## 3.6.15 (2026-11-06)
 
 🧘 **Calmer sidebar and a new dashboard** (after Passmedicine, Quesmed, UWorld and Bootcamp).

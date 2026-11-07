@@ -875,6 +875,7 @@ button.hq-saved{font:inherit;color:inherit;background:none;border:0;padding:0;cu
 .tm-fa{flex:0 0 auto;opacity:.8}
 .tm-fx{opacity:.7}
 .tm-score{margin:8px 0 0;font-size:.9rem}
+.hq-disc .disc-box{margin-top:12px}
 
 /* v3.6.15 sidebar + dashboard */
 .side-sec{font:600 .66rem var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:18px 10px 6px}
@@ -1431,7 +1432,7 @@ html .seg{max-width:100%;min-width:0;overflow-x:auto;scrollbar-width:none}html .
 </style>
 <header class="top">
   <button class="iconbtn menu-btn" id="menuBtn" aria-label="Open chapters">☰</button>
-  <button class="brand" id="homeBtn" aria-label="medengine-STEP1 home"><span class="bill">m</span><span class="word">medengine-STEP1</span><small>v3.6.15</small></button>
+  <button class="brand" id="homeBtn" aria-label="medengine-STEP1 home"><span class="bill">m</span><span class="word">medengine-STEP1</span><small>v3.6.16</small></button>
   <button type="button" class="btn sm ghost" data-go="labs" title="US lab values with the UK bridge">🧪 Labs (US↔UK)</button>
   <a class="oscelink" href="https://claude.ai/artifact/NexSvgTB8VhqktVFfko6JR" target="_blank" rel="noopener" title="Open medengine-STUDY, your FFP revision"><span class="od">m</span>medengine-STUDY ↗</a>
   <div class="search-wrap">
@@ -9727,8 +9728,10 @@ function hqDraw(m){
     if (it.f && !it.tm) h += '<div class="hq-flip"><span class="hq-fl">🔄 Flip it</span>' + esc(it.f).replace('→', '<b class="hq-arr">→</b>') + '</div>';
     if (it.t === 'o' && it.iw) h += '<div class="hq-ilo hq-il' + it.il + '"><span class="hq-fl">' + (HQ_IL[it.il] || ['🎯'])[0] + ' ILO check</span>' + esc(it.iw) + (it.ic ? ' <span class="hint">Belongs to: ' + esc(it.ic) + '.</span>' : '') + '</div>';
     const ui = hqUnitOf(it);
-    const deep = hqTriggers(it) + hqPathophysiologyBox(it) + hqPosterBox(it) + (typeof discBoxHtml === 'function' ? discBoxHtml('q:' + it.id, hqTitle(it), ui != null ? ui : hqGuessUnit(it), it) : '');
-    if (deep) h += '<details class="panel hq-deep"' + (S.set.hqDeepOpen ? ' open' : '') + '><summary><b>📚 Deep dive</b> <span class="hint">triggers, Pathophysiology, poster, comments</span></summary>' + deep + '</details>';
+    const disc = typeof discBoxHtml === 'function' ? discBoxHtml('q:' + it.id, hqTitle(it), ui != null ? ui : hqGuessUnit(it), it) : '';
+    const deep = hqTriggers(it) + hqPathophysiologyBox(it) + hqPosterBox(it);
+    if (disc) h += '<div class="hq-disc">' + disc + '</div>';
+    if (deep) h += '<details class="panel hq-deep"' + (S.set.hqDeepOpen ? ' open' : '') + '><summary><b>📚 Deep dive</b> <span class="hint">triggers, pathophysiology, poster</span></summary>' + deep + '</details>';
     if (ui != null && UNITS[ui]) h += '<div class="toolbar"><button class="btn ghost sm" data-u="' + ui + '" data-mode="read">📖 Notes for ' + esc(UNITS[ui].name) + '</button></div>';
   }
   h += '<div class="toolbar hq-nav">' + navBtns + '</div>';
