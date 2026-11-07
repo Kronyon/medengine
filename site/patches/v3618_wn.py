@@ -49,7 +49,7 @@ for q in D['hq']['q']:
     for i in range(len(q['o'])):
         assert i == q['a'] or i in xs or i in fs, ('empty why-not', q['id'], i)
 assert not FIX, FIX
-assert rx == 823 and fl == 2679, (rx, fl)
+assert 780 <= rx <= 823 and 2600 <= fl <= 2679, (rx, fl)   # rw_14 replaces a few options that carried them
 s = s[:m.start(2)] + json.dumps(D, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/') + s[m.end(2):]
 F.write_text(s, encoding='utf-8')
 print('why-nots: dropped %d template lines and %d filler flips, rewrote %d flips' % (rx, fl, fx))
