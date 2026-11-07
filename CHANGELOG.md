@@ -1,5 +1,14 @@
 # Changelog
 
+## 3.6.19 (2026-11-07)
+
+🎛️ **"Same drug, one variable changed" options (20 questions, data version 18).** Modelled on the official-paper UTI item where every option is nitrofurantoin and only the duration and the MSU change. Knowing the drug earns nothing; the stem detail decides.
+- **Duration:** nitrofurantoin 3 or 7 days, with or without a urine culture (woman, man, pregnant, over 65); nitrofurantoin 3 or 7 days and trimethoprim 7 days at 12 weeks' gestation; ciprofloxacin 7 or 14 days and trimethoprim 14 days for prostatitis; doxycycline 21 or 28 days and amoxicillin 21 days for erythema migrans (plus "serology before treating"); terbinafine 6 weeks or 3 months and itraconazole pulses for toenails.
+- **Dose and route:** oral prednisolone 15 mg, high-dose oral, or IV methylprednisolone for GCA without visual symptoms; full or reduced compression, or referral first, by ABPI; stop apixaban and observe beside stop and reverse.
+- **Same patient, next test:** FNA beside ultrasound for a thyroid nodule; AFP and beta-hCG beside scrotal ultrasound; notify on suspicion beside "notify if PCR confirms" for pertussis.
+- **Same infection, different patient:** cefalexin after angioedema to amoxicillin; co-amoxiclav and flucloxacillin in penicillin anaphylaxis; hydrogen peroxide cream and clarithromycin for widespread impetigo; IM ceftriaxone with doxycycline for epididymo-orchitis in a 70 year old; ceftriaxone with aciclovir or vancomycin for a dental-source brain abscess; lorazepam for withdrawal with a normal liver; a mandibular device for moderate OSA; TIPSS before anticoagulation; talc pleurodesis for a fit 24 year old.
+- Each new option has a why line and the flip that would make it right. The remaining medium and hard management questions were screened: most already had an option one detail away (earlier batches), and the rest were left where a closer option would have created a second right answer (cryotherapy for warts, trimethoprim for a non-pregnant woman, ciprofloxacin for pyelonephritis, doxycycline in penicillin-allergic cellulitis).
+
 ## 3.6.18 (2026-11-07)
 
 🧹 **Why-nots without the robot voice, and Pastest-style data reading.**
