@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.6.17 (2026-11-07)
+
+- **Tooltips read the words around a term.** "ST depression" now shows the ECG card (subendocardial ischaemia, troponin decides), not low mood. Twenty compound terms get their own card and beat the single word inside them: ST depression and elevation, PR depression, respiratory depression, idiopathic intracranial hypertension, raised intracranial pressure, pulmonary and portal hypertension, eczema herpeticum, venous eczema, gestational diabetes and hypertension, Ludwig's angina, dopamine antagonists, insulin resistance, bipolar and postnatal depression, herpes simplex encephalitis. A context guard leaves a word plain when its neighbour changes its meaning and no card exists ("bone marrow depression", "stroke volume", "ocular hypertension", "diabetes insipidus", "corneal ulcer").
+
 ## 3.6.16 (2026-11-07)
 
 - **Comments moved out of Deep dive.** The 💬 Comments box now sits on its own, right above 📚 Deep dive (as on Passmedicine), so you see it without opening anything. It opens by itself when a question has comments. Deep dive keeps triggers, pathophysiology and the poster.
